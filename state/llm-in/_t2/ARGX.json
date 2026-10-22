@@ -1,0 +1,152 @@
+{
+ "ticker": "ARGX",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "아제닉스(ADR)",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 48.39,
+  "saleNy": 23.18,
+  "epsCy": -4.56,
+  "epsNy": 90.55,
+  "est": {
+   "cyCur": 18.6775,
+   "cy30": 18.36,
+   "nyCur": 35.59,
+   "ny30": 34.71667
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    59.46,
+    62.7,
+    73.76
+   ],
+   "ni": [
+    92.65,
+    116.57,
+    -31.05
+   ],
+   "opm": [
+    32.04,
+    30.01,
+    27.79
+   ],
+   "updated": "2026-09-20 06:55:30"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "아제닉스(ADR)",
+  "nameEn": "ARGENX SE SPON ADR EACH REP 1 ORD SHS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Zacks Investment Ideas feature highlights: Cummins, Argenx and PACCAR",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-cummins-argenx-and-paccar",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ARGX Stock Down on Stopping Late-Stage Autoimmune Disease Study",
+     "url": "https://www.nasdaq.com/articles/argx-stock-down-stopping-late-stage-autoimmune-disease-study",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Argenx Reports Mixed Pipeline Update With Positive Celiac Data; Ends Sjögren's Phase 3 Study",
+     "url": "https://www.nasdaq.com/articles/argenx-reports-mixed-pipeline-update-positive-celiac-data-ends-sjogrens-phase-3-study",
+     "date": "2026-10-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Argenx's Celiac Disease Phase 2 Study Meets Primary Endpoint; Discontinues Sjögren's UNITY Trial",
+     "url": "https://www.nasdaq.com/articles/argenxs-celiac-disease-phase-2-study-meets-primary-endpoint-discontinues-sjogrens-unity",
+     "date": "2026-10-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Argenx To Discontinue Phase 3 UNITY Study Of Efgartigimod In Sjgren's Disease",
+     "url": "https://www.nasdaq.com/articles/argenx-discontinue-phase-3-unity-study-efgartigimod-sjgrens-disease",
+     "date": "2026-10-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Halozyme, Argenx Expand ENHANZE Collaboration With Two Additional Targets",
+     "url": "https://www.nasdaq.com/articles/halozyme-argenx-expand-enhanze-collaboration-two-additional-targets",
+     "date": "2026-10-07",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "BMY or ARGX: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/bmy-or-argx-which-better-value-stock-right-now",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, SpaceX, Broadcom, SolarEdge, Nike",
+   "url": "https://www.cnbc.com/2026/08/26/biggest-stocks-wednesday-by-analyst-calls-like-nvidia.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: ASML, SK Hynix, SAP, Forte Bio & more",
+   "url": "https://www.cnbc.com/2026/07/27/stocks-making-the-biggest-moves-midday-asml-skhy-sap-fbrx-bfb.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Micron, Forte Biosciences, ExxonMobil & more",
+   "url": "https://www.cnbc.com/2026/07/27/stocks-making-the-biggest-moves-premarket-mu-fbrx-xom-bkr.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ARGX",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 32.09,
+  "pbr": 6.54,
+  "eps": 27.73,
+  "bps": 136.01,
+  "shares": 62886100,
+  "marketCapM": 55972,
+  "high52": 1072.75,
+  "high52Date": "2026-09-02",
+  "low52": 661.85,
+  "low52Date": "2026-03-20",
+  "last": 890.05,
+  "prevClose": 869.72,
+  "nameKo": "아제닉스(ADR)",
+  "nameEn": "ARGENX SE SPON ADR EACH REP 1 ORD SHS",
+  "listedOn": "2017-05-17",
+  "exchange": "나스닥",
+  "listedShares": 62886100
+ }
+}

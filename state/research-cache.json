@@ -345,8 +345,8 @@
       "count": 15
     },
     "MDB": {
-      "last": "2026-09-01",
-      "count": 12
+      "last": "2026-10-22",
+      "count": 13
     },
     "SNDK": {
       "last": "2026-10-21",
@@ -385,8 +385,8 @@
       "count": 11
     },
     "SN": {
-      "last": "2026-08-20",
-      "count": 4
+      "last": "2026-10-22",
+      "count": 5
     },
     "AAOI": {
       "last": "2026-10-07",
@@ -521,8 +521,8 @@
       "count": 3
     },
     "MRNA": {
-      "last": "2026-10-15",
-      "count": 15
+      "last": "2026-10-22",
+      "count": 16
     },
     "KYMR": {
       "last": "2026-09-01",
@@ -613,8 +613,8 @@
       "count": 5
     },
     "RVMD": {
-      "last": "2026-08-27",
-      "count": 1
+      "last": "2026-10-22",
+      "count": 2
     },
     "ANF": {
       "last": "2026-10-21",
@@ -761,8 +761,8 @@
       "count": 6
     },
     "VICR": {
-      "last": "2026-10-10",
-      "count": 6
+      "last": "2026-10-22",
+      "count": 7
     },
     "QCOM": {
       "last": "2026-09-29",
@@ -841,8 +841,8 @@
       "count": 1
     },
     "RCL": {
-      "last": "2026-10-07",
-      "count": 1
+      "last": "2026-10-22",
+      "count": 2
     },
     "GLW": {
       "last": "2026-10-07",
@@ -901,8 +901,8 @@
       "count": 1
     },
     "PTC": {
-      "last": "2026-10-15",
-      "count": 2
+      "last": "2026-10-22",
+      "count": 3
     },
     "IMOS": {
       "last": "2026-10-15",
@@ -949,8 +949,8 @@
       "count": 2
     },
     "MNDY": {
-      "last": "2026-10-09",
-      "count": 1
+      "last": "2026-10-22",
+      "count": 2
     },
     "SAIC": {
       "last": "2026-10-09",
@@ -1061,8 +1061,8 @@
       "count": 1
     },
     "BH": {
-      "last": "2026-10-15",
-      "count": 1
+      "last": "2026-10-22",
+      "count": 2
     },
     "CDW": {
       "last": "2026-10-15",
@@ -1206,6 +1206,50 @@
     },
     "URBN": {
       "last": "2026-10-21",
+      "count": 1
+    },
+    "HAS": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "CRL": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "EFX": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "MSCI": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "MMM": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "ARGX": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "DNTH": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "ABVX": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "SPHR": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "TW": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "SEZL": {
+      "last": "2026-10-22",
       "count": 1
     }
   },
@@ -1710,8 +1754,10 @@
       "count": 2
     },
     "SUNB": {
-      "last": "2026-09-01",
-      "count": 2
+      "last": "2026-10-22",
+      "count": 3,
+      "cat": 6,
+      "evid": "6bf7eac738f279da"
     },
     "NCSM": {
       "last": "2026-09-01",
@@ -2619,8 +2665,8 @@
       "evid": "787f9e9de0cf6717"
     },
     "BMO": {
-      "last": "2026-10-03",
-      "count": 2,
+      "last": "2026-10-22",
+      "count": 3,
       "cat": 6,
       "evid": "25a88ae749248626"
     },
@@ -2709,16 +2755,16 @@
       "evid": "be5fcc01ec4c0964"
     },
     "CTBI": {
-      "last": "2026-10-07",
-      "count": 1,
-      "cat": 6,
-      "evid": "e24231dba5b62d2a"
+      "last": "2026-10-22",
+      "count": 2,
+      "cat": 1,
+      "evid": "91e834918819f3c5"
     },
     "CRL": {
-      "last": "2026-10-07",
-      "count": 1,
-      "cat": 1,
-      "evid": "44b0f0610a460de4"
+      "last": "2026-10-22",
+      "count": 2,
+      "cat": 6,
+      "evid": "cae4c1a677641ce5"
     },
     "AEHR": {
       "last": "2026-10-07",
@@ -2745,8 +2791,8 @@
       "evid": "e5f79f2407e82e33"
     },
     "NWE": {
-      "last": "2026-10-08",
-      "count": 1,
+      "last": "2026-10-22",
+      "count": 2,
       "cat": 6,
       "evid": "7ae225f18334aeb0"
     },
@@ -2973,10 +3019,10 @@
       "evid": "303f2dce9a396c23"
     },
     "ROKU": {
-      "last": "2026-10-15",
-      "count": 1,
-      "cat": 3,
-      "evid": "5c04ceeb08304122"
+      "last": "2026-10-22",
+      "count": 2,
+      "cat": 6,
+      "evid": "0b5ef4bda90c7d1b"
     },
     "DOCN": {
       "last": "2026-10-15",
@@ -3301,6 +3347,60 @@
       "count": 1,
       "cat": 6,
       "evid": "cb7276372191c5b0"
+    },
+    "TDY": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 1,
+      "evid": "cc67ff24c31dd84a"
+    },
+    "MEDP": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 1,
+      "evid": "6ad8d59e92abd6f6"
+    },
+    "ITIC": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 6,
+      "evid": "7a08af66f372c4fa"
+    },
+    "WAB": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 1,
+      "evid": "ad3132e34172094c"
+    },
+    "STE": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 3,
+      "evid": "c6a44c7d1e2cc63e"
+    },
+    "ACA": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 6,
+      "evid": "025577dc5fc051f1"
+    },
+    "BFC": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 1,
+      "evid": "9ca6e1166a88c35f"
+    },
+    "ABT": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 1,
+      "evid": "c38fd9f03a714ef8"
+    },
+    "DXCM": {
+      "last": "2026-10-22",
+      "count": 1,
+      "cat": 6,
+      "evid": "e26340b9b6c5a8f1"
     }
   },
   "team5": {
@@ -3361,11 +3461,15 @@
       "count": 2
     },
     "Healthcare|Medical Devices": {
-      "last": "2026-10-17",
-      "count": 1
+      "last": "2026-10-22",
+      "count": 2
     },
     "Financial Services|Credit Services": {
       "last": "2026-10-20",
+      "count": 1
+    },
+    "Financial Services|Insurance - Property & Casualty": {
+      "last": "2026-10-22",
       "count": 1
     }
   },
@@ -3826,6 +3930,62 @@
     },
     "PRAX": {
       "last": "2026-10-21",
+      "count": 1
+    },
+    "HAS": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "GWRE": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "MNDY": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "SN": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "CRL": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "EFX": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "MDB": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "RVMD": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "MSCI": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "MMM": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "ARGX": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "DNTH": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "ABVX": {
+      "last": "2026-10-22",
+      "count": 1
+    },
+    "SPHR": {
+      "last": "2026-10-22",
       "count": 1
     }
   }

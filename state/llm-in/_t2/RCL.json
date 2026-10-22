@@ -1,0 +1,308 @@
+{
+ "ticker": "RCL",
+ "sector": "Consumer Cyclical",
+ "industry": "Travel Services",
+ "nameKo": "로열 캐리비언 크루즈",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.16,
+  "saleNy": 7.26,
+  "epsCy": 14.05,
+  "epsNy": 14.27,
+  "est": {
+   "cyCur": 17.83688,
+   "cy30": 17.79981,
+   "nyCur": 20.38265,
+   "ny30": 20.29286
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.48,
+    11.33,
+    13.27
+   ],
+   "ni": [
+    -6.78,
+    28.9,
+    36.41
+   ],
+   "opm": [
+    27.07,
+    26.1,
+    21.88
+   ],
+   "updated": "2026-09-08 06:15:59"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-21",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "로열 캐리비언 크루즈",
+  "nameEn": "ROYAL CARIBBEAN GROUP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884887&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 4832000000,
+     "profit": 1307000000,
+     "netIncome": 1128000000,
+     "margin": 27,
+     "yoy": {
+      "revenue": 6.5,
+      "profit": -1.7,
+      "netIncome": -6.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 4452000000,
+     "profit": 1162000000,
+     "netIncome": 941000000,
+     "margin": 26.1,
+     "yoy": {
+      "revenue": 11.3,
+      "profit": 23,
+      "netIncome": 28.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 4259000000,
+     "profit": 933000000,
+     "netIncome": 754000000,
+     "margin": 21.9,
+     "yoy": {
+      "revenue": 13.3,
+      "profit": 49.5,
+      "netIncome": 36.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 5139000000,
+     "profit": 1702000000,
+     "netIncome": 1575000000,
+     "margin": 33.1,
+     "yoy": {
+      "revenue": 5.2,
+      "profit": 4.2,
+      "netIncome": 41.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Royal Caribbean (RCL) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/royal-caribbean-rcl-earnings-expected-grow-should-you-buy",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Royal Caribbean (RCL) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-royal-caribbean-rcl-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RCL Stock Rises 12% in a Month: Should You Buy Now or Hold Steady?",
+     "url": "https://www.nasdaq.com/articles/rcl-stock-rises-12-month-should-you-buy-now-or-hold-steady",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Caribbean (RCL) Beats Stock Market Upswing: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/royal-caribbean-rcl-beats-stock-market-upswing-what-investors-need-know",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Caribbean Cruises Ltd. (RCL) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/royal-caribbean-cruises-ltd-rcl-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Caribbean's Repeat Guests Spend More: Can Loyalty Drive Growth?",
+     "url": "https://www.nasdaq.com/articles/royal-caribbeans-repeat-guests-spend-more-can-loyalty-drive-growth",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What the Sandals Deal Means for Royal Caribbean's Next Leg of Growth?",
+     "url": "https://www.nasdaq.com/articles/what-sandals-deal-means-royal-caribbeans-next-leg-growth",
+     "date": "2026-10-12",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-23",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926099245/tm2623517d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926092371/tm2622454d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000036/rcl-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-20",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926085080/tm2620798d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000030/rcl-20260528.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-02-02",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[로열 캐리비언 크루즈 (NYS:RCL)] ‘Q’와 ‘P’를 동시에 높이는 방법",
+     "summary": "- 로열 캐리비언 크루즈는 세계 2위의 크루즈 운영사- FY4Q25 실적은 견조한 수요와 비용 효율화가 맞물려 시장 기대치를 상회- 높은 사전 예약률과 공급 및 수익성 동반 상승에 기반한 구조적 이익 성장을 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmmmcimeqlkeggcgxecgg.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Royal Caribbean to rally after agreeing to take 50% stake in Sandals Resorts, Jefferies says",
+   "url": "https://www.cnbc.com/2026/10/08/royal-caribbean-to-rally-after-taking-stake-in-sandals-jefferies-says.html",
+   "date": "2026-10-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "BofA says to scoop up shares of this cruise line operator at a discount",
+   "url": "https://www.cnbc.com/2026/09/28/bofa-says-to-scoop-up-shares-of-this-cruise-line-operator-at-a-discount.html",
+   "date": "2026-09-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday's big analyst calls of the day: Nvidia, SpaceX, Imax, Meta, CoreWeave",
+   "url": "https://www.cnbc.com/2026/09/24/biggest-wall-street-analyst-calls-thursday.html",
+   "date": "2026-09-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Royal Caribbean agrees to take 50% equity stake in Sandals for $3 billion",
+   "url": "https://www.cnbc.com/2026/09/22/royal-caribbean-sandals.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Boeing, Amkor, Corning, Sandisk & more",
+   "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-midday-ba-amkr-glw-sndk-iqv.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, Netflix, SpaceX, Apple, Wynn, Block, Strategy & more",
+   "url": "https://www.cnbc.com/2026/07/08/wednesdays-analyst-calls-include-stocks-like-spacex-and-nvidia.html",
+   "date": "2026-07-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "RCL",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 17.82,
+  "pbr": 7.54,
+  "eps": 16.19,
+  "bps": 38.27,
+  "shares": 267452000,
+  "marketCapM": 77147,
+  "high52": 350.5897,
+  "high52Date": "2026-02-10",
+  "low52": 222.22,
+  "low52Date": "2026-09-23",
+  "last": 288.45,
+  "prevClose": 287.81,
+  "nameKo": "로열 캐리비언 크루즈",
+  "nameEn": "ROYAL CARIBBEAN GROUP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 267452000
+ }
+}

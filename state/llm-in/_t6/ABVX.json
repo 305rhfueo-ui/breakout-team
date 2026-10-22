@@ -1,0 +1,601 @@
+{
+ "ticker": "ABVX",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "ABVX",
+  "name": "아비박스(ADR)",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 92.58999633789062,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 120.63,
+  "stop": 116.61,
+  "distToPivotPct": -22.5,
+  "distToPivotAdr": -5.23,
+  "riskPerSharePct": 3.34,
+  "adrPct": 4.3,
+  "extensionAdr": 1.06,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 30.3,
+   "priorMovePct": 72.8,
+   "higherLows": 0,
+   "contraction": 1,
+   "closeRange10Adr": 1.8,
+   "surf10": 1.06,
+   "surf20": 0.52,
+   "slope20": -2.86,
+   "baseLow": 84.11,
+   "lastSwingLow": 84.11
+  },
+  "reasons": [
+   "선행 상승 +73%",
+   "베이스 7.8주",
+   "✗ 깊이 30.3%",
+   "✗ 저점 상승 0회",
+   "진폭 1배 · 10일 종가폭 1.8 ADR",
+   "10일선 +1.1 ADR · 20일선 +0.5 ADR",
+   "✗ 20일선 기울기 -2.86%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.0579917033731176,
+    "pct": 24.84220018034265
+   },
+   "m3": {
+    "v": -0.2766406536102295,
+    "pct": 2.9305680793507665
+   },
+   "m6": {
+    "v": -0.1284826976689341,
+    "pct": 16.18575293056808
+   }
+  },
+  "ret1m": -5.8,
+  "ret3m": -27.66,
+  "ret6m": -12.85,
+  "marketCap": "7.64B",
+  "volx": null,
+  "volSurgeWk": 0.65,
+  "high52": 62.21,
+  "newHigh52": false,
+  "adr": 4.34,
+  "div50": -12.11,
+  "div200": -19.73,
+  "targetStatus": true,
+  "saleCy": -12.98,
+  "saleNy": 1695.54,
+  "epsCy": -25.01,
+  "epsNy": -8.14,
+  "cyTrend": 17.14,
+  "nyTrend": 15.28,
+  "est": {
+   "cyCur": -4.19486,
+   "cy30": -3.58114,
+   "nyCur": -3.85343,
+   "ny30": -3.34271
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:10:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "아비박스(ADR)",
+  "nameEn": "ABIVAX SPON ADS EACH REP 1 ORD SHS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Abivax H1 Net Loss Widens; Plans Obefazimod NDA For Ulcerative Colitis By End Of 2026",
+     "url": "https://www.nasdaq.com/articles/abivax-h1-net-loss-widens-plans-obefazimod-nda-ulcerative-colitis-end-2026",
+     "date": "2026-09-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Abivax SA Sponsored ADR (ABVX) Upgraded to Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/abivax-sa-sponsored-adr-abvx-upgraded-buy-heres-why",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should You Buy Abivax SA Sponsored ADR (ABVX) After Golden Cross?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-abivax-sa-sponsored-adr-abvx-after-golden-cross",
+     "date": "2026-07-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Abivax: Wall Street Catches Up to the Data",
+     "url": "https://www.nasdaq.com/articles/abivax-wall-street-catches-data",
+     "date": "2026-07-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Abivax Prices Oversubscribed $800M ADS Offering To Support Obefazimod Development",
+     "url": "https://www.nasdaq.com/articles/abivax-prices-oversubscribed-800m-ads-offering-support-obefazimod-development",
+     "date": "2026-07-01",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "ABIVAX Announces Pricing Of $800 Mln Offering Of ADS",
+     "url": "https://www.nasdaq.com/articles/abivax-announces-pricing-800-mln-offering-ads",
+     "date": "2026-07-01",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Abivax Requests Trading Halt On Euronext Paris For $600 Mln ADS Offering",
+     "url": "https://www.nasdaq.com/articles/abivax-requests-trading-halt-euronext-paris-600-mln-ads-offering",
+     "date": "2026-07-01",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Thursday's biggest analyst calls: Nvidia, SpaceX, Tesla, Ferrari, Meta, Apple, AMD",
+   "url": "https://www.cnbc.com/2026/09/10/biggest-analyst-calls-thursday-like-nvidia.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Abivax $920 million cash haul lets it prepare for solo U.S. launch instead of relying on a buyer",
+   "url": "https://www.cnbc.com/2026/07/10/abivax-stock-takeover-us-launch-obefazimod-ulcerative-colitis.html",
+   "date": "2026-07-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, SpaceX, Apple, Sandisk, Salesforce, Nike & more",
+   "url": "https://www.cnbc.com/2026/07/01/wednesdays-wall-street-analyst-calls-include-spacex.html",
+   "date": "2026-07-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: AeroVironment, Abivax, Astera Labs",
+   "url": "https://www.cnbc.com/2026/06/30/stocks-making-the-biggest-moves-midday-avav-abvx-alab-wts.html",
+   "date": "2026-06-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "French biotech stock soars 40% after new data on experimental medicine",
+   "url": "https://www.cnbc.com/2026/06/30/abivax-stock-trial-data-biotech-obefazimod.html",
+   "date": "2026-06-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ABVX",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 15.32,
+  "pbr": 17.82,
+  "eps": 6.1,
+  "bps": 5.25,
+  "shares": 87548100,
+  "marketCapM": 8185,
+  "high52": 148.83,
+  "high52Date": "2025-12-24",
+  "low52": 69.81,
+  "low52Date": "2026-06-02",
+  "last": 93.49,
+  "prevClose": 92.59,
+  "nameKo": "아비박스(ADR)",
+  "nameEn": "ABIVAX SPON ADS EACH REP 1 ORD SHS",
+  "listedOn": "2023-10-20",
+  "exchange": "나스닥",
+  "listedShares": 87548100
+ },
+ "estimates": {
+  "ticker": "ABVX",
+  "url": "https://finance.yahoo.com/quote/ABVX/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": -0.86,
+    "epsLow": -1.11,
+    "epsHigh": -0.59,
+    "epsYearAgo": -2.47,
+    "epsAnalysts": 4,
+    "epsGrowth": 65.3,
+    "epsCur": "USD",
+    "rev": 676440,
+    "revAnalysts": 6,
+    "revYearAgo": 2043000,
+    "revGrowth": -66.9,
+    "revCur": "EUR"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": -0.89,
+    "epsLow": -1.16,
+    "epsHigh": -0.64,
+    "epsYearAgo": -1.18,
+    "epsAnalysts": 4,
+    "epsGrowth": 24.3,
+    "epsCur": "USD",
+    "rev": 686030,
+    "revAnalysts": 6,
+    "revYearAgo": 470000,
+    "revGrowth": 46,
+    "revCur": "EUR"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -4.17,
+    "epsLow": -4.67,
+    "epsHigh": -3.81,
+    "epsYearAgo": -5.59,
+    "epsAnalysts": 7,
+    "epsGrowth": 25.4,
+    "epsCur": "USD",
+    "rev": 4002800,
+    "revAnalysts": 14,
+    "revYearAgo": 4600000,
+    "revGrowth": -13,
+    "revCur": "EUR"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -3.84,
+    "epsLow": -4.91,
+    "epsHigh": -2.52,
+    "epsYearAgo": -4.17,
+    "epsAnalysts": 7,
+    "epsGrowth": 8.1,
+    "epsCur": "USD",
+    "rev": 71871810,
+    "revAnalysts": 15,
+    "revYearAgo": 4002800,
+    "revGrowth": "n/m",
+    "revCur": "EUR"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": -0.86,
+    "d7": 0.3,
+    "d30": -12.3,
+    "d90": -27.4,
+    "ago90": -0.67,
+    "up7": 1,
+    "up30": 0,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.89,
+    "d7": 0.4,
+    "d30": -15.9,
+    "d90": -15.9,
+    "ago90": -0.77,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 4
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -4.17,
+    "d7": 0.5,
+    "d30": -16.5,
+    "d90": -15.1,
+    "ago90": -3.62,
+    "up7": 0,
+    "up30": 0,
+    "down7": 6,
+    "down30": 6
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -3.84,
+    "d7": 0.5,
+    "d30": -14.7,
+    "d90": -18.5,
+    "ago90": -3.24,
+    "up7": 2,
+    "up30": 2,
+    "down7": 4,
+    "down30": 4
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": -1.69,
+    "estimate": -0.86,
+    "surprisePct": -97,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.71,
+    "estimate": -0.81,
+    "surprisePct": 12.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -1.18,
+    "estimate": -1.04,
+    "surprisePct": -13,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": -2.47,
+    "estimate": -0.79,
+    "surprisePct": -214,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 0,
+   "ptLowered": 3,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-10-21",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 96,
+     "ptPrior": 118
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "Guggenheim",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 175,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 151,
+     "ptPrior": 155
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 118,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 148,
+     "ptPrior": 148
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Goldman Sachs",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 155,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-05",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 175,
+     "ptPrior": 175
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-09-21",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 93.49,
+   "ma20": 91.38,
+   "ma50": 104.68,
+   "ma150": 113.89,
+   "distMA50": -10.69,
+   "periodHigh": 148.83,
+   "pullbackFromHigh": -37.18,
+   "volRatio20": 0.72,
+   "dryUpRatio": 1.08
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 86.7,
+    "h": 89.1,
+    "l": 84.11,
+    "c": 89.05,
+    "v": 2102700,
+    "clsPos": 99,
+    "gapPct": -0.36
+   },
+   {
+    "d": "2026-10-09",
+    "o": 90.21,
+    "h": 90.56,
+    "l": 87.39,
+    "c": 88.15,
+    "v": 884900,
+    "clsPos": 24,
+    "gapPct": 1.3
+   },
+   {
+    "d": "2026-10-12",
+    "o": 87.32,
+    "h": 87.91,
+    "l": 86.4,
+    "c": 86.94,
+    "v": 658900,
+    "clsPos": 36,
+    "gapPct": -0.94
+   },
+   {
+    "d": "2026-10-13",
+    "o": 85.92,
+    "h": 86.86,
+    "l": 84.51,
+    "c": 86.22,
+    "v": 992700,
+    "clsPos": 73,
+    "gapPct": -1.17
+   },
+   {
+    "d": "2026-10-14",
+    "o": 86.12,
+    "h": 89.38,
+    "l": 85.88,
+    "c": 87.98,
+    "v": 1126500,
+    "clsPos": 60,
+    "gapPct": -0.12
+   },
+   {
+    "d": "2026-10-15",
+    "o": 88.36,
+    "h": 92.81,
+    "l": 88.03,
+    "c": 92.38,
+    "v": 1520200,
+    "clsPos": 91,
+    "gapPct": 0.43
+   },
+   {
+    "d": "2026-10-16",
+    "o": 91.48,
+    "h": 91.48,
+    "l": 86.85,
+    "c": 88.13,
+    "v": 1445700,
+    "clsPos": 28,
+    "gapPct": -0.97
+   },
+   {
+    "d": "2026-10-19",
+    "o": 88,
+    "h": 89.71,
+    "l": 85.35,
+    "c": 87.49,
+    "v": 1574800,
+    "clsPos": 49,
+    "gapPct": -0.15
+   },
+   {
+    "d": "2026-10-20",
+    "o": 89.61,
+    "h": 94.19,
+    "l": 88.44,
+    "c": 92.59,
+    "v": 1604400,
+    "clsPos": 72,
+    "gapPct": 2.42
+   },
+   {
+    "d": "2026-10-21",
+    "o": 93.86,
+    "h": 96.39,
+    "l": 93.05,
+    "c": 93.49,
+    "v": 947943,
+    "clsPos": 13,
+    "gapPct": 1.37
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ABVX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ABVX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

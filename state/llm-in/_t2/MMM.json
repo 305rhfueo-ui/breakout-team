@@ -1,0 +1,273 @@
+{
+ "ticker": "MMM",
+ "sector": "Industrials",
+ "industry": "Conglomerates",
+ "nameKo": "3M",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.73,
+  "saleNy": 4.47,
+  "epsCy": 10.94,
+  "epsNy": 9.82,
+  "est": {
+   "cyCur": 8.94161,
+   "cy30": 8.94419,
+   "nyCur": 9.81981,
+   "ny30": 9.78475
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    2.46,
+    1.28,
+    2.05
+   ],
+   "ni": [
+    29.05,
+    -41.49,
+    -20.74
+   ],
+   "opm": [
+    15.14,
+    23.17,
+    12.98
+   ],
+   "updated": "2026-09-08 05:54:49"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "3M",
+  "nameEn": "3M COMPANY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000066740&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 6584000000,
+     "profit": 1558000000,
+     "netIncome": 1373000000,
+     "margin": 23.7,
+     "yoy": {
+      "revenue": 1,
+      "profit": 7.7,
+      "netIncome": 64.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 6500000000,
+     "profit": 984000000,
+     "netIncome": 933000000,
+     "margin": 15.1,
+     "yoy": {
+      "revenue": 2.5,
+      "profit": -13.7,
+      "netIncome": 29,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 6030000000,
+     "profit": 1397000000,
+     "netIncome": 653000000,
+     "margin": 23.2,
+     "yoy": {
+      "revenue": 1.3,
+      "profit": 12.1,
+      "netIncome": -41.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 6133000000,
+     "profit": 796000000,
+     "netIncome": 577000000,
+     "margin": 13,
+     "yoy": {
+      "revenue": 2,
+      "profit": -26.6,
+      "netIncome": -20.7,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "MMM Q3 Earnings Call Highlights AI Deals and Higher Outlook",
+     "url": "https://www.nasdaq.com/articles/mmm-q3-earnings-call-highlights-ai-deals-and-higher-outlook",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3M (MMM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/3m-mmm-q3-2026-earnings-call-transcript",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, 3M (MMM) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-3m-mmm-q3-earnings-look-key-metrics",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000308/mmm-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000303/mmm-20261019.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000110465926106710/tm2624999d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000268/mmm-20260817.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000242/mmm-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000229/mmm-20260605.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "S&P 500 notches 3-day win streak, Nasdaq jumps 1% as SpaceX and Tesla rally",
+   "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Hasbro, Northrop Grumman, Equifax, GM",
+   "url": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-midday-has-noc-efx-gm.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Here's why we're sticking with DuPont despite a noisy quarter",
+   "url": "https://www.cnbc.com/investingclub/2026/08/04/heres-why-were-sticking-with-dupont-despite-a-noisy-quarter.html",
+   "date": "2026-08-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "News Update – Market Close",
+   "url": "https://www.cnbc.com/video/2026/10/20/post-market-wrap-october-20-2026.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC Markets Now: October 20, 2026",
+   "url": "https://www.cnbc.com/video/2026/10/20/cnbc-markets-now-october-20-2026.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Late Morning",
+   "url": "https://www.cnbc.com/video/2026/10/20/the-late-morning-rundown-october-20-2026.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MMM",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 30.72,
+  "pbr": 30.23,
+  "eps": 5.63,
+  "bps": 5.72,
+  "shares": 515722000,
+  "marketCapM": 89235,
+  "high52": 184.089,
+  "high52Date": "2026-07-28",
+  "low52": 138.0188,
+  "low52Date": "2026-03-20",
+  "last": 173.03,
+  "prevClose": 171.37,
+  "nameKo": "3M",
+  "nameEn": "3M COMPANY",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 515722000
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "ticker": "RVMD",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "레볼루션 메디신",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 571.39,
+  "epsCy": 61.14,
+  "epsNy": -39.44,
+  "est": {
+   "cyCur": -9.58768,
+   "cy30": -9.74081,
+   "nyCur": -5.80647,
+   "ny30": -6.08101
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:47:20"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "레볼루션 메디신",
+  "nameEn": "REVOLUTION MEDICINES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001628171&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2024-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -216310000,
+     "netIncome": -194476000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -20.2,
+      "netIncome": -20.7,
+      "priorEnd": "2023-12-31"
+     }
+    },
+    {
+     "periodEnd": "2024-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -175712000,
+     "netIncome": -156288000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -42.6,
+      "netIncome": -44.1,
+      "priorEnd": "2023-09-30"
+     }
+    },
+    {
+     "periodEnd": "2024-06-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -156643000,
+     "netIncome": -133233000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -44,
+      "netIncome": -35.5,
+      "priorEnd": "2023-06-30"
+     }
+    },
+    {
+     "periodEnd": "2024-03-31",
+     "derived": false,
+     "revenue": 0,
+     "profit": -140859000,
+     "netIncome": -116003000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -87.4,
+      "netIncome": -70.3,
+      "priorEnd": "2023-03-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Revolution Medicines Begins Phase 3 Trial Of Three-Drug Lung Cancer Regimen; Stock Up",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-begins-phase-3-trial-three-drug-lung-cancer-regimen-stock",
+     "date": "2026-10-20",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "William Blair Initiates Coverage of Revolution Medicines at Outperform",
+     "url": "https://www.nasdaq.com/articles/william-blair-initiates-coverage-revolution-medicines-outperform",
+     "date": "2026-10-17",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Revolution Medicines' Pancreatic Cancer Drug Gets Positive EU Review",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-pancreatic-cancer-drug-gets-positive-eu-review",
+     "date": "2026-10-15",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Is Buying Royalty Pharma Stock a Safer Way to Bet on Revolution Medicines?",
+     "url": "https://www.nasdaq.com/articles/buying-royalty-pharma-stock-safer-way-bet-revolution-medicines",
+     "date": "2026-09-25",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axsome Therapeutics vs. Revolution Medicines: Which Healthcare Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/axsome-therapeutics-vs-revolution-medicines-which-healthcare-stock-better-buy-2026",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Revolution Medicines Just Hit a Major Milestone. Is the Stock a Buy?",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-just-hit-major-milestone-stock-buy",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Revolution Medicines' Daraxonrasib Secures FDA Breakthrough Designation In Pancreatic Cancer",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-daraxonrasib-secures-fda-breakthrough-designation-pancreatic-cancer",
+     "date": "2026-09-15",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Amgen vs. Revolution Medicines: Which Healthcare Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/amgen-vs-revolution-medicines-which-healthcare-stock-better-buy-2026",
+     "date": "2026-09-11",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "2.03",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000162817126000004/rvmd-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526377362/rvmd-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526366931/rvmd-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526335039/rvmd-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526276718/d123125d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526208918/rvmd-20260506.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-06-23",
+     "broker": "신한투자증권",
+     "analyst": "이호철, 엄민용",
+     "title": "[레볼루션 메디신 (NAS:RVMD)] 혁명, 궤도에 오르다",
+     "summary": "- ASCO 2026 Plenary Session에서 다락손라십(multi-RAS 타깃)의 췌장암 2L 3상 데이터 공개. 마땅한 표준치료가 없던 영역에서 생존기간 두 배 가 까이 개선 성공. Next-키트루다를 예고하는 데이터로 판단- RASolute 302(췌장암 2L 3상)에서 mOS* 13.2개월(vs. 화학요법 6.7개월), mPFS* 7.2개월(vs. 화학요법 3.6개월) 발표. 기대 수명 1년 미만인 췌장암 에서 혁명 수준 약효. 안전성도 3등급 이상 치료 관련 부작용 43.6%(vs. 화학요법 57.5%)로 양호. 기존 치료 패러다임 교체 가능한 데이터로 판단- RAS 변이는 전체 암의 20% 이상에서 발견되는 거대 미충족 수요 영역. 췌장암, 대장암, 비소세포폐암 등 다수 대형 적응증을 모두 공략할 수 있 다는 점이 핵심 강점. 레볼루션은 고유 기술인 삼중 복합체 플랫폼 활용해 기존 회사들이 타깃하지 못했던 RAS 변이 공략 성공",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgeqegqiezqlggcgxecgg.pdf",
+     "pages": "11"
+    },
+    {
+     "date": "2026-04-20",
+     "broker": "키움증권",
+     "analyst": "허혜민",
+     "title": "[레볼루션 메디신 (NAS:RVMD)] 성공하면 혁명 아닙니까",
+     "summary": "- 다양한 암종에 대한 RAS(ON) 변이 저해제를 개발하는 신약 개발 바이오텍- 췌장암(PDAC) 2차 치료제 3상 긍정적 결과 발표로 신고가 기록- 보유 중인 RAS 저해제 파이프라인의 전반적인 가치 제고 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxxilzgcxxgzzgcgxecgg.pdf",
+     "pages": "9"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Watch CNBC's full interview with Revolution Medicines CEO Mark Goldsmith",
+   "url": "https://www.cnbc.com/video/2026/08/27/watch-cnbcs-full-interview-with-revolution-medicines-ceo-mark-goldsmith.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Revolution Medicines CEO Mark Goldsmith on FDA approval: 'A monumental step forward'",
+   "url": "https://www.cnbc.com/video/2026/08/27/revolution-medicines-ceo-mark-goldsmith-on-fda-approval-a-monumental-step-forward.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Stempoint Capital's Michelle Ross talks her biotech investing playbook",
+   "url": "https://www.cnbc.com/video/2026/08/10/stempoint-capitals-michelle-ross-talks-her-biotech-investing-playbook.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "RVMD",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 22.04,
+  "pbr": 15.97,
+  "eps": 8.81,
+  "bps": 12.16,
+  "shares": 214336000,
+  "marketCapM": 41641,
+  "high52": 224.31,
+  "high52Date": "2026-08-27",
+  "low52": 52.48,
+  "low52Date": "2025-10-23",
+  "last": 194.28,
+  "prevClose": 196.55,
+  "nameKo": "레볼루션 메디신",
+  "nameEn": "REVOLUTION MEDICINES INC",
+  "listedOn": "2020-02-12",
+  "exchange": "나스닥",
+  "listedShares": 214336000
+ }
+}

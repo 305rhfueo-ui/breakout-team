@@ -510,8 +510,317 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-22",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "테슬라, 실적은 넘겼지만 자동차 매출은 줄었다",
+        "easy": "테슬라가 3분기에 시장 기대를 넘는 이익과 매출을 발표했다. 그런데 본업인 자동차 부문 매출은 오히려 줄었다. 감소 이유는 기사에 나오지 않았다. 발표 뒤 주가는 내렸는데, 머스크가 투자자들이 기대한 만큼의 다음 그림을 보여 주지 않았다는 평가 때문이다.",
+        "whyMatters": "자동차·전기차 업종에는 부담이고, 테슬라에 부품을 대는 쪽도 같이 흔들린다. 머스크가 띄우는 스페이스X 합병 얘기도 근거가 약하다는 지적이 나와 변동성을 키운다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Tesla beats on earnings and sales even as auto revenue declines",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+            "date": "2026-10-21",
+            "quote": "Tesla beats on earnings and sales even as auto revenue declines",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Tesla's stock falls as Elon Musk leaves investors wanting more",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Tesla's stock falls as Elon Musk leaves investors wanting more",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "채권 금리가 뛰자 코어위브 신뢰가 흔들렸다",
+        "easy": "코어위브 주가가 내리고 이 회사가 발행한 채권의 금리는 뛰었다. 채권 금리가 오른다는 건 그 회사가 돈을 빌릴 때 더 비싼 이자를 내야 한다는 뜻이다. 코어위브는 빚을 내서 AI 데이터센터를 짓는 회사라 조달 조건이 실적에 바로 영향을 준다. 같은 날 블랙록의 릭 리더는 우량 채권에서 '역사적' 기회가 보인다고 말했다.",
+        "whyMatters": "AI 데이터센터·클라우드 임대 업종에 나쁘고, 빚으로 설비를 늘리는 회사일수록 타격이 크다. 돈이 채권으로 옮겨 가면 주식 쪽 자금이 얇아진다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "CoreWeave's market confidence erodes as bond yields spike and stock sinks",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+            "date": "2026-10-21",
+            "quote": "CoreWeave's market confidence erodes as bond yields spike and stock sinks",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+            "date": "2026-10-21",
+            "quote": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "메타, 개인정보 거짓 설명으로 250억 달러 과징금",
+        "easy": "메타가 이용자 데이터를 어떻게 쓰는지 거짓으로 설명했다는 이유로 250억 달러 과징금을 받았다. 액수가 커서 이익을 한 번에 깎는 일회성 비용이 된다. 반대로 같은 날 주가는 올랐는데, 광고 사업보다 더 커질 수 있는 기회를 투자자들이 보기 시작했다는 평가 때문이다. 과징금과 새 기대 중 어느 쪽이 더 오래 갈지는 아직 확인되지 않았다.",
+        "whyMatters": "광고·소셜미디어 업종에 규제 비용이 다시 붙었다는 신호다. 같은 방식으로 이용자 데이터를 쓰는 다른 플랫폼 기업에도 잣대가 세질 수 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Meta fined $25bn for 'lies' over user data privacy",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-21",
+            "quote": "Meta fined $25bn for 'lies' over user data privacy",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Meta's stock rises as investors glimpse an opportunity that could dwarf the ad business",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Meta's stock rises as investors glimpse an opportunity that could dwarf the ad business",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "IBM, 매출과 이익 모두 기대를 넘었다",
+        "easy": "IBM 이 3분기 매출과 이익 모두 시장 기대를 웃돌았다. 크리슈나 CEO 는 '슈퍼 인텔리전스' 사업이 실제로 팔리고 있다고 강조했다. AI 투자가 반도체뿐 아니라 기업용 소프트웨어·서비스 매출로도 넘어오고 있다는 근거다.",
+        "whyMatters": "기업용 소프트웨어·IT 서비스 업종에 좋고, AI 수요가 하드웨어 한 곳에만 쏠린다는 걱정을 덜어 준다. 이 흐름이 이어지면 기술 업종 전반의 실적 기대가 유지된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
+            "date": "2026-10-21",
+            "quote": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "투자자들이 값을 더 주고 헬스케어를 사고 있다",
+        "easy": "투자자들이 헬스케어 업종에 전보다 높은 값을 주고 사들이고 있고, 그 안에서 눈에 띄는 7개 종목이 꼽혔다. 기술주 장세가 흔들리는 동안 방어적이면서 성장도 있는 쪽으로 돈이 옮겨 가는 모습이다. 우리 선정 목록에서도 헬스케어가 13종목으로 기술 다음으로 많다.",
+        "whyMatters": "제약·의료기기·의료서비스 업종에 유리하고, 기술 업종 한 곳에 쏠린 구성의 위험을 줄여 준다. 다만 이미 값이 오른 뒤에 들어가는 자리라는 점은 감안해야 한다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "7 healthcare stocks that stand out as investors pay up for the sector",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "7 healthcare stocks that stand out as investors pay up for the sector",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "데이터센터가 전기를 직접 만들라는 요구가 나왔다",
+        "easy": "트럼프 대통령이 데이터센터는 쓸 전기를 자체 생산해야 한다고 말했다. 전문가들은 그런 의무를 지울 수 있는 건 연방정부가 아니라 주 정부라고 지적했다. 전기와 물을 많이 쓰는 데이터센터에 대한 지역 반발이 커진 데서 나온 얘기다. 아시아 최대 데이터센터 시장으로 떠오른 인도도 같은 걱정을 달래려 하고 있다.",
+        "whyMatters": "발전·전력 설비 업종에는 새 수요가 되고, 전기 부담을 떠안는 데이터센터 운영사에는 비용 요인이다. 규칙이 주마다 갈리면 건설 일정이 늦어질 수 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Inside India newsletter: Asia's hottest data center market aims to quell concerns over water and power use",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/22/india-data-center-google-amazon.html",
+            "date": "2026-10-22",
+            "quote": "Inside India newsletter: Asia's hottest data center market aims to quell concerns over water and power use",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기보다 기다릴 때다. QQQ 의 10일선이 20일선 아래로 내려간 지 2일째여서, 쿨라매기 기준으로는 신규 매수를 멈추고 들고 있는 것을 점검하는 구간이다(QQQ 종가 725.2). 오늘 뉴스는 방향이 갈렸다 — IBM 실적과 헬스케어로 들어오는 자금은 좋은 쪽이지만, 코어위브의 조달 악화와 테슬라 자동차 매출 감소는 AI·전기차 기대를 식힌다. 빚내서 산 주식 금액이 1년 전보다 31.4% 늘어 주의선을 넘은 상태라, 하락이 시작되면 강제 매도가 겹쳐 낙폭이 커질 수 있다. 이번 주는 10일선이 20일선을 다시 넘어서는지, 그리고 채권 금리가 더 뛰지 않는지를 보면 된다.",
+    "keyRisks": [
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어 있어, 하락이 시작되면 강제 청산 매물이 겹쳐 낙폭을 키운다.",
+      "시장 신호가 빨간불이다: 단기 이동평균이 중기 이동평균 아래에 있는 구간에서는 돌파 매수의 성공률이 떨어진다.",
+      "채권 금리 상승: 빚으로 설비를 짓는 AI 회사의 조달 비용이 커지고, 주식에서 채권으로 자금이 옮겨 갈 수 있다.",
+      "기술 업종 쏠림: 선정 종목의 40%가 기술 업종이라 기술주가 흔들리면 보유 종목이 한꺼번에 흔들린다."
+    ],
+    "easySummary": [
+      "QQQ 가 단기 이동평균 아래로 내려와, 지금은 새로 사기보다 기다리는 구간이다.",
+      "테슬라와 코어위브는 식었고, IBM 실적과 헬스케어 쪽으로는 돈이 들어왔다.",
+      "빚으로 산 주식이 주의선을 넘었으니 보유 종목의 손절선을 먼저 확인하자."
+    ],
+    "candidateCount": 20,
+    "verified": {
+      "checked": 155,
+      "ok": 253,
+      "unverified": 5,
+      "dead": 0,
+      "stripped": 9,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000055/tdy-20261021.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926117400/tm2627817d1_8k.htm"
+        }
+      ],
+      "numberCut": 20,
+      "numberCuts": [
+        {
+          "sentence": "회사가 올해 이익 전망을 올렸고 하반기에 마진이 약 5%포인트 좋아질 것으로 봤다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "올해 유기적 성장 전망도 0~1%에 그친다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 16.9억 달러로 1년 전보다 9.6% 늘었고, 증권사 예상치도 넘어섰다.",
+          "missing": [
+            "16.9억 달러",
+            "9.6"
+          ]
+        },
+        {
+          "sentence": "영업이익이 3억 5,530만 달러로 1년 전보다 34.4% 늘었고, 영업이익률은 직전 분기 18.5%에서 21%로 올랐다.",
+          "missing": [
+            "18.5"
+          ]
+        },
+        {
+          "sentence": "주가수익비율도 33배로 낮지 않다.",
+          "missing": [
+            "33"
+          ]
+        },
+        {
+          "sentence": "6개월 수익률은 -0.36%로 제자리다.",
+          "missing": [
+            "0.36"
+          ]
+        },
+        {
+          "sentence": "10월 7일 할로자임과 ENHANZE 기술(피하주사 제형) 협력 대상을 2개 더 늘렸다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "1년간 주가가 3배 넘게 올랐다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "1분기 매출 증가율 15.6%보다 빨라졌다.",
+          "missing": [
+            "15.6"
+          ]
+        },
+        {
+          "sentence": "10월 20일 Trumid Holdings를 19.7억 달러에 인수한다는 소식이 나왔다.",
+          "missing": [
+            "19.7억 달러"
+          ]
+        },
+        {
+          "sentence": "19.7억 달러 인수로 자금 부담이 생긴다.",
+          "missing": [
+            "19.7억 달러"
+          ]
+        },
+        {
+          "sentence": "3월 분기 영업이익률 94%에서 6월 분기 65%로 낮아졌고, 순이익 증가율(47.7%)도 매출 증가율(62.9%)보다 낮다.",
+          "missing": [
+            "47.7",
+            "62.9"
+          ]
+        },
+        {
+          "sentence": "최근 직전 거래일 종가는 442.21달러에서 414.29달러로 약 6% 내렸다.",
+          "missing": [
+            "6"
+          ]
+        },
+        {
+          "sentence": "3M은 AI 관련 계약과 상향된 전망이 실적 콜의 핵심이었습니다.",
+          "missing": [
+            "3M"
+          ]
+        },
+        {
+          "sentence": "3M, 해즈브로, MSCI, 에퀴팩스, 비코는 10월 20~21일 3분기 실적 발표 직후 거래대금이 몰렸습니다.",
+          "missing": [
+            "3M"
+          ]
+        },
+        {
+          "sentence": "EFX가 2026-10-20 3분기 실적을 발표했고 이익·매출이 예상을 웃돌았다고 보도됐다.",
+          "missing": [
+            "10",
+            "20"
+          ]
+        },
+        {
+          "sentence": "2026년 7월 분기 영업이익이 2.84천만 달러 흑자(영업이익률 3.7%)이고 순이익은 4.09천만 달러다.",
+          "missing": [
+            "2.84",
+            "4.09"
+          ]
+        },
+        {
+          "sentence": "2025년 12월 분기 매출 28만 4천 달러, 전년 동기 대비 78.6% 감소.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "7월 8억 달러 증자로 기존 주주 지분이 희석됐다.",
+          "missing": [
+            "8억 달러"
+          ]
+        },
+        {
+          "sentence": "2분기 실적 발표(7월 30일) 8-K 제출.",
+          "missing": [
+            "8"
+          ]
+        }
+      ],
+      "noQuote": 2
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-22"
   }
 };

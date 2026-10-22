@@ -1,0 +1,736 @@
+{
+ "ticker": "CRL",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "CRL",
+  "name": "찰스 리버 래브러토리스 인터내셔널",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "price": 315.45001220703125,
+  "grade": "A",
+  "state": "post",
+  "pivot": 333.3,
+  "stop": 320.18,
+  "distToPivotPct": 3.47,
+  "distToPivotAdr": 0.78,
+  "riskPerSharePct": 3.94,
+  "adrPct": 4.42,
+  "extensionAdr": 2.49,
+  "breakDate": "2026-10-21",
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 13.5,
+   "priorMovePct": 56.2,
+   "higherLows": 1,
+   "contraction": 0.77,
+   "closeRange10Adr": 1.3,
+   "surf10": 0.99,
+   "surf20": 1.3,
+   "slope20": 2.17,
+   "baseLow": 288.43,
+   "lastSwingLow": 288.43
+  },
+  "reasons": [
+   "선행 상승 +56%",
+   "베이스 2.2주",
+   "깊이 13.5%",
+   "저점 상승 1회",
+   "진폭 0.77배 · 10일 종가폭 1.3 ADR",
+   "10일선 +1 ADR · 20일선 +1.3 ADR",
+   "20일선 기울기 +2.17%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1064151675293209,
+    "pct": 90.84761045987376
+   },
+   "m3": {
+    "v": 0.40637542539061106,
+    "pct": 96.25788999098287
+   },
+   "m6": {
+    "v": 0.9253541214470742,
+    "pct": 96.70874661857529
+   }
+  },
+  "ret1m": 10.64,
+  "ret3m": 40.64,
+  "ret6m": 92.54,
+  "marketCap": "14.32B",
+  "volx": null,
+  "volSurgeWk": 3.16,
+  "high52": 94.64,
+  "newHigh52": false,
+  "adr": 4.1,
+  "div50": 8.66,
+  "div200": 45.93,
+  "targetStatus": false,
+  "saleCy": -2.45,
+  "saleNy": 2.55,
+  "epsCy": 10.67,
+  "epsNy": 12.12,
+  "cyTrend": 0.53,
+  "nyTrend": 0.55,
+  "est": {
+   "cyCur": 11.37699,
+   "cy30": 11.31756,
+   "nyCur": 12.75616,
+   "ny30": 12.68598
+  },
+  "fs": {
+   "sale": [
+    -2.72,
+    1.18,
+    -0.83
+   ],
+   "ni": [
+    -102.83,
+    -158.28,
+    "적자확대"
+   ],
+   "opm": [
+    11.94,
+    12.04,
+    -28.51
+   ],
+   "updated": "2026-09-08 09:43:21"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+  "nameEn": "CHARLES RIVER LABORATORIES",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100682&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 1004078000,
+     "profit": 119888000,
+     "netIncome": -1482000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": -2.7,
+      "profit": 19.7,
+      "netIncome": -102.8,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 995830000,
+     "profit": 119897000,
+     "netIncome": -14843000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 1.2,
+      "profit": 60.6,
+      "netIncome": -158.3,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 994227000,
+     "profit": -283440000,
+     "netIncome": -276555000,
+     "margin": -28.5,
+     "yoy": {
+      "revenue": -0.8,
+      "profit": -69,
+      "netIncome": -28.9,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 1004852000,
+     "profit": 133799000,
+     "netIncome": 54422000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": -0.5,
+      "profit": 14,
+      "netIncome": -21.9,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "PGNY or CRL: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/pgny-or-crl-which-better-value-stock-right-now",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Charles River Laboratories International Consensus Price Target Increased by 11.46% to $307.39",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-international-consensus-price-target-increased-1146-30739",
+     "date": "2026-10-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Charles River Laboratories International Now #430 Largest Company, Surpassing Tyler Technologies",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-international-now-430-largest-company-surpassing-tyler",
+     "date": "2026-10-01",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Charles River Targets 5%-7% Growth, $300M Savings in 2030 Plan",
+     "url": "https://www.nasdaq.com/articles/charles-river-targets-5-7-growth-300m-savings-2030-plan",
+     "date": "2026-09-26",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "PGNY vs. CRL: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/pgny-vs-crl-which-stock-better-value-option",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000142/crl-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326007060/dp246529_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000036/crl-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-25",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000162828026011395/crl-20260225.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326002326/dp241741_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-09-17",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+     "summary": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxecgg.pdf",
+     "pages": "15"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "This drug researcher that just reported earnings could keep rallying, JPMorgan says",
+   "url": "https://www.cnbc.com/2026/08/06/this-drug-researcher-will-rally-on-biotech-funding-boost-jpmorgan-says.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify & more",
+   "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-midday-googl-spcx-shop-nem-podd.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CRL",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 71.07,
+  "pbr": 5.8,
+  "eps": 4.85,
+  "bps": 59.5,
+  "shares": 47738900,
+  "marketCapM": 16464,
+  "high52": 348.95,
+  "high52Date": "2026-10-21",
+  "low52": 146.195,
+  "low52Date": "2026-05-19",
+  "last": 344.87,
+  "prevClose": 315.45,
+  "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+  "nameEn": "CHARLES RIVER LABORATORIES",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 47738900
+ },
+ "estimates": {
+  "ticker": "CRL",
+  "url": "https://finance.yahoo.com/quote/CRL/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 2.98,
+    "epsLow": 2.93,
+    "epsHigh": 3.09,
+    "epsYearAgo": 2.43,
+    "epsAnalysts": 13,
+    "epsGrowth": 22.5,
+    "epsCur": "USD",
+    "rev": 960741400,
+    "revAnalysts": 11,
+    "revYearAgo": 1004852000,
+    "revGrowth": -4.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 3.33,
+    "epsLow": 3,
+    "epsHigh": 3.44,
+    "epsYearAgo": 2.39,
+    "epsAnalysts": 13,
+    "epsGrowth": 39.3,
+    "epsCur": "USD",
+    "rev": 956531830,
+    "revAnalysts": 11,
+    "revYearAgo": 994227000,
+    "revGrowth": -3.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 11.38,
+    "epsLow": 11.02,
+    "epsHigh": 11.49,
+    "epsYearAgo": 10.28,
+    "epsAnalysts": 17,
+    "epsGrowth": 10.7,
+    "epsCur": "USD",
+    "rev": 3917122510,
+    "revAnalysts": 14,
+    "revYearAgo": 4015382000,
+    "revGrowth": -2.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 12.76,
+    "epsLow": 11.9,
+    "epsHigh": 13.68,
+    "epsYearAgo": 11.38,
+    "epsAnalysts": 17,
+    "epsGrowth": 12.1,
+    "epsCur": "USD",
+    "rev": 4016952090,
+    "revAnalysts": 15,
+    "revYearAgo": 3917122510,
+    "revGrowth": 2.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 2.98,
+    "d7": 0.3,
+    "d30": 0.8,
+    "d90": -2.3,
+    "ago90": 3.05,
+    "up7": 0,
+    "up30": 4,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.33,
+    "d7": 0.3,
+    "d30": 0.5,
+    "d90": 2.7,
+    "ago90": 3.24,
+    "up7": 3,
+    "up30": 3,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 11.38,
+    "d7": 0.1,
+    "d30": 0.5,
+    "d90": 2.5,
+    "ago90": 11.1,
+    "up7": 1,
+    "up30": 5,
+    "down7": 1,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 12.76,
+    "d7": -0.2,
+    "d30": 0.6,
+    "d90": 3.5,
+    "ago90": 12.33,
+    "up7": 1,
+    "up30": 6,
+    "down7": 0,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.02,
+    "estimate": 2.74,
+    "surprisePct": 10.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.06,
+    "estimate": 1.95,
+    "surprisePct": 5.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.39,
+    "estimate": 2.35,
+    "surprisePct": 1.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 2.43,
+    "estimate": 2.34,
+    "surprisePct": 3.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 15,
+   "ptLowered": 0,
+   "total": 15,
+   "recent": [
+    {
+     "date": "2026-10-13",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 340,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 340,
+     "ptPrior": 305
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Deutsche Bank",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 320,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 325,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 330,
+     "ptPrior": 320
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 322,
+     "ptPrior": 282
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 330,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 295,
+     "ptPrior": 264
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 334,
+     "ptPrior": 291
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 320,
+     "ptPrior": 300
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 344.87,
+   "ma20": 301.76,
+   "ma50": 291.56,
+   "ma150": 226.11,
+   "distMA50": 18.29,
+   "periodHigh": 348.95,
+   "pullbackFromHigh": -1.17,
+   "volRatio20": 2.64,
+   "dryUpRatio": 1.18
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 297.01,
+    "h": 298.27,
+    "l": 288.43,
+    "c": 298,
+    "v": 1176900,
+    "clsPos": 97,
+    "gapPct": -1.1
+   },
+   {
+    "d": "2026-10-09",
+    "o": 294.6,
+    "h": 305.21,
+    "l": 294.6,
+    "c": 301.79,
+    "v": 679800,
+    "clsPos": 68,
+    "gapPct": -1.14
+   },
+   {
+    "d": "2026-10-12",
+    "o": 301.8,
+    "h": 303.1,
+    "l": 299.27,
+    "c": 301.86,
+    "v": 543800,
+    "clsPos": 68,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-13",
+    "o": 301,
+    "h": 302.77,
+    "l": 295.15,
+    "c": 299.02,
+    "v": 753300,
+    "clsPos": 51,
+    "gapPct": -0.28
+   },
+   {
+    "d": "2026-10-14",
+    "o": 297.53,
+    "h": 310.53,
+    "l": 296,
+    "c": 302,
+    "v": 941300,
+    "clsPos": 41,
+    "gapPct": -0.5
+   },
+   {
+    "d": "2026-10-15",
+    "o": 301.81,
+    "h": 309.48,
+    "l": 295.4,
+    "c": 306.24,
+    "v": 928400,
+    "clsPos": 77,
+    "gapPct": -0.06
+   },
+   {
+    "d": "2026-10-16",
+    "o": 306.09,
+    "h": 308.83,
+    "l": 296.35,
+    "c": 300.15,
+    "v": 674600,
+    "clsPos": 30,
+    "gapPct": -0.05
+   },
+   {
+    "d": "2026-10-19",
+    "o": 303.33,
+    "h": 305.99,
+    "l": 297.56,
+    "c": 300.02,
+    "v": 506600,
+    "clsPos": 29,
+    "gapPct": 1.06
+   },
+   {
+    "d": "2026-10-20",
+    "o": 308.84,
+    "h": 317.59,
+    "l": 304,
+    "c": 315.45,
+    "v": 1273500,
+    "clsPos": 84,
+    "gapPct": 2.94
+   },
+   {
+    "d": "2026-10-21",
+    "o": 313.83,
+    "h": 348.95,
+    "l": 315.83,
+    "c": 344.87,
+    "v": 2733709,
+    "clsPos": 88,
+    "gapPct": -0.51
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRL-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

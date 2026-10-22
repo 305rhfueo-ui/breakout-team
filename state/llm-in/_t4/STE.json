@@ -1,0 +1,162 @@
+{
+ "ticker": "STE",
+ "news": [
+  {
+   "title": "Steris (STE) Down 2.1% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/steris-ste-down-21-last-earnings-report-can-it-rebound",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "STE Ex-Dividend Reminder - 9/4/26",
+   "url": "https://www.nasdaq.com/articles/ste-ex-dividend-reminder-9-4-26",
+   "date": "2026-09-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "STE Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/ste-crosses-above-key-moving-average-level",
+   "date": "2026-08-07",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Steris (STE) Q1 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-steris-ste-q1-earnings",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Steris (STE) Q1 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/steris-ste-q1-earnings-surpass-estimates",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-11",
+   "items": [
+    "1.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526420487/d165776d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-07-31",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526338137/d141533d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "2.05",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "2.05",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026053412/ste-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026033580/ste-20260511.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-01",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526212159/d27562d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-06",
+   "reportDate": "2026-03-31",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526143973/d115941d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.31,
+  "saleNy": 6.29,
+  "epsCy": 9.87,
+  "epsNy": 9.93,
+  "cyTrend": 0.02,
+  "nyTrend": 0.3,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.3,
+    7.28,
+    9.16
+   ],
+   "ni": [
+    12.8,
+    51.06,
+    11.18
+   ],
+   "opm": [
+    19.15,
+    19.94,
+    18.27
+   ],
+   "updated": "2026-09-08 05:49:11"
+  }
+ }
+}

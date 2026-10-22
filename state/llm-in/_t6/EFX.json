@@ -1,0 +1,744 @@
+{
+ "ticker": "EFX",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "EFX",
+  "name": "에퀴팩스",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "price": 176.5399932861328,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 197.9,
+  "stop": 192.06,
+  "distToPivotPct": -11.28,
+  "distToPivotAdr": -3.39,
+  "riskPerSharePct": 2.95,
+  "adrPct": 3.33,
+  "extensionAdr": 3.16,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 30.8,
+   "priorMovePct": 31.3,
+   "higherLows": 0,
+   "contraction": 1,
+   "closeRange10Adr": 5.3,
+   "surf10": 3.16,
+   "surf20": 4.38,
+   "slope20": 1.33,
+   "baseLow": 137.01,
+   "lastSwingLow": 137.01
+  },
+  "reasons": [
+   "선행 상승 +31%",
+   "베이스 8주",
+   "✗ 깊이 30.8%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1배 · 10일 종가폭 5.3 ADR",
+   "✗ 10일선 +3.2 ADR · 20일선 +4.4 ADR",
+   "20일선 기울기 +1.33%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1048941959874866,
+    "pct": 90.30658250676285
+   },
+   "m3": {
+    "v": -0.0014655588913708522,
+    "pct": 52.4346257889991
+   },
+   "m6": {
+    "v": 0.029555805965140743,
+    "pct": 45.311091073038774
+   }
+  },
+  "ret1m": 10.49,
+  "ret3m": -0.15,
+  "ret6m": 2.96,
+  "marketCap": "18.63B",
+  "volx": null,
+  "volSurgeWk": 1.06,
+  "high52": 74.73,
+  "newHigh52": false,
+  "adr": 3.37,
+  "div50": 5.8,
+  "div200": -0.62,
+  "targetStatus": false,
+  "saleCy": 10.73,
+  "saleNy": 7.69,
+  "epsCy": 11.06,
+  "epsNy": 15.94,
+  "cyTrend": -0.75,
+  "nyTrend": -2.68,
+  "est": {
+   "cyCur": 8.49607,
+   "cy30": 8.56027,
+   "nyCur": 9.85042,
+   "ny30": 10.1219
+  },
+  "fs": {
+   "sale": [
+    10.61,
+    14.35,
+    9.24
+   ],
+   "ni": [
+    -3.87,
+    28.85,
+    0.98
+   ],
+   "opm": [
+    18.48,
+    17.45,
+    18.33
+   ],
+   "updated": "2026-09-11 05:42:37"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "에퀴팩스",
+  "nameEn": "EQUIFAX INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033185&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1692500000,
+     "profit": 355300000,
+     "netIncome": 211700000,
+     "margin": 21,
+     "yoy": {
+      "revenue": 9.6,
+      "profit": 34.4,
+      "netIncome": 32.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1700100000,
+     "profit": 314200000,
+     "netIncome": 183900000,
+     "margin": 18.5,
+     "yoy": {
+      "revenue": 10.6,
+      "profit": 1.1,
+      "netIncome": -3.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1648900000,
+     "profit": 287700000,
+     "netIncome": 171500000,
+     "margin": 17.4,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 22,
+      "netIncome": 28.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1550600000,
+     "profit": 284200000,
+     "netIncome": 175800000,
+     "margin": 18.3,
+     "yoy": {
+      "revenue": 9.2,
+      "profit": -1.4,
+      "netIncome": 1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "CBZ vs. EFX: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/cbz-vs-efx-which-stock-should-value-investors-buy-now",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Equifax Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/equifax-q3-earnings-call-highlights",
+     "date": "2026-10-20",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Equifax: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/equifax-3-key-takeaways-long-term-investors",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Equifax (EFX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/equifax-efx-q3-2026-earnings-call-transcript",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Equifax Stock Popped After Earnings",
+     "url": "https://www.nasdaq.com/articles/why-equifax-stock-popped-after-earnings",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Equifax (EFX) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-equifax-efx-q3-earnings-look-key-metrics",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Equifax Q3 Earnings Beat Estimates, Revenues Increase Y/Y",
+     "url": "https://www.nasdaq.com/articles/equifax-q3-earnings-beat-estimates-revenues-increase-y-y",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Equifax (EFX) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/equifax-efx-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318526000037/efx-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526323760/d125882d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318526000024/efx-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526272759/d52077d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526220328/d20400d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526177620/d50537d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Hasbro, Northrop Grumman, Equifax, GM",
+   "url": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-midday-has-noc-efx-gm.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Coinbase, Micron, Hasbro, Utz & more",
+   "url": "https://www.cnbc.com/2026/07/21/stocks-making-the-biggest-moves-midday-coin-mu-nbis-has-utz.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "EFX",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 30.85,
+  "pbr": 4.71,
+  "eps": 5.69,
+  "bps": 37.25,
+  "shares": 117485000,
+  "marketCapM": 20627,
+  "high52": 236.24,
+  "high52Date": "2025-10-27",
+  "low52": 137.01,
+  "low52Date": "2026-09-30",
+  "last": 175.57,
+  "prevClose": 176.54,
+  "nameKo": "에퀴팩스",
+  "nameEn": "EQUIFAX INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 117485000
+ },
+ "estimates": {
+  "ticker": "EFX",
+  "url": "https://finance.yahoo.com/quote/EFX/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.13,
+    "epsLow": 2.08,
+    "epsHigh": 2.2,
+    "epsYearAgo": 2.09,
+    "epsAnalysts": 19,
+    "epsGrowth": 1.8,
+    "epsCur": "USD",
+    "rev": 1629503370,
+    "revAnalysts": 17,
+    "revYearAgo": 1550600000,
+    "revGrowth": 5.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.94,
+    "epsLow": 1.78,
+    "epsHigh": 2.16,
+    "epsYearAgo": 1.86,
+    "epsAnalysts": 17,
+    "epsGrowth": 4.6,
+    "epsCur": "USD",
+    "rev": 1712576660,
+    "revAnalysts": 13,
+    "revYearAgo": 1648900000,
+    "revGrowth": 3.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 8.5,
+    "epsLow": 8.37,
+    "epsHigh": 8.71,
+    "epsYearAgo": 7.65,
+    "epsAnalysts": 23,
+    "epsGrowth": 11.1,
+    "epsCur": "USD",
+    "rev": 6669012380,
+    "revAnalysts": 20,
+    "revYearAgo": 6074500000,
+    "revGrowth": 9.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 9.66,
+    "epsLow": 9,
+    "epsHigh": 10.7,
+    "epsYearAgo": 8.5,
+    "epsAnalysts": 23,
+    "epsGrowth": 13.7,
+    "epsCur": "USD",
+    "rev": 7100993950,
+    "revAnalysts": 22,
+    "revYearAgo": 6669012380,
+    "revGrowth": 6.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.13,
+    "d7": -3.6,
+    "d30": -4.6,
+    "d90": -4.7,
+    "ago90": 2.23,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 5
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.94,
+    "d7": -7.2,
+    "d30": -9.2,
+    "d90": -9.1,
+    "ago90": 2.14,
+    "up7": 0,
+    "up30": 0,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 8.5,
+    "d7": -0.1,
+    "d30": -0.6,
+    "d90": -0.7,
+    "ago90": 8.56,
+    "up7": 0,
+    "up30": 0,
+    "down7": 6,
+    "down30": 8
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 9.66,
+    "d7": -2.2,
+    "d30": -4.2,
+    "d90": -4.4,
+    "ago90": 10.11,
+    "up7": 0,
+    "up30": 0,
+    "down7": 6,
+    "down30": 8
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.26,
+    "estimate": 2.2,
+    "surprisePct": 2.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.25,
+    "estimate": 2.2,
+    "surprisePct": 2.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.86,
+    "estimate": 1.7,
+    "surprisePct": 9.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.09,
+    "estimate": 2.05,
+    "surprisePct": 1.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 3,
+   "ptLowered": 8,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-10-21",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 217,
+     "ptPrior": 235
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 210,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 185,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Oppenheimer",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Perform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 177,
+     "ptPrior": 194
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 205,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 190,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 155,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Lowers",
+     "pt": 160,
+     "ptPrior": 179
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-20",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 175.57,
+   "ma20": 149.96,
+   "ma50": 166.89,
+   "ma150": 170.39,
+   "distMA50": 5.2,
+   "periodHigh": 281.07,
+   "pullbackFromHigh": -37.54,
+   "volRatio20": 1.15,
+   "dryUpRatio": 1.18
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 142.63,
+    "h": 146.18,
+    "l": 141.57,
+    "c": 145.54,
+    "v": 1959400,
+    "clsPos": 86,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-10-09",
+    "o": 146.27,
+    "h": 146.53,
+    "l": 144.27,
+    "c": 145.78,
+    "v": 1026300,
+    "clsPos": 67,
+    "gapPct": 0.5
+   },
+   {
+    "d": "2026-10-12",
+    "o": 146.32,
+    "h": 147.43,
+    "l": 145.72,
+    "c": 147.33,
+    "v": 1585800,
+    "clsPos": 94,
+    "gapPct": 0.37
+   },
+   {
+    "d": "2026-10-13",
+    "o": 148.39,
+    "h": 150.47,
+    "l": 146.92,
+    "c": 149.08,
+    "v": 1569600,
+    "clsPos": 61,
+    "gapPct": 0.72
+   },
+   {
+    "d": "2026-10-14",
+    "o": 148.89,
+    "h": 150.56,
+    "l": 146.85,
+    "c": 150.36,
+    "v": 1453000,
+    "clsPos": 95,
+    "gapPct": -0.13
+   },
+   {
+    "d": "2026-10-15",
+    "o": 153.24,
+    "h": 161.49,
+    "l": 151.96,
+    "c": 161.26,
+    "v": 1994200,
+    "clsPos": 98,
+    "gapPct": 1.92
+   },
+   {
+    "d": "2026-10-16",
+    "o": 161.77,
+    "h": 164.33,
+    "l": 159.4,
+    "c": 161.25,
+    "v": 2351800,
+    "clsPos": 38,
+    "gapPct": 0.32
+   },
+   {
+    "d": "2026-10-19",
+    "o": 159.08,
+    "h": 159.93,
+    "l": 157.08,
+    "c": 158.57,
+    "v": 2123700,
+    "clsPos": 52,
+    "gapPct": -1.35
+   },
+   {
+    "d": "2026-10-20",
+    "o": 166.11,
+    "h": 177.8,
+    "l": 166.11,
+    "c": 176.54,
+    "v": 3986100,
+    "clsPos": 89,
+    "gapPct": 4.75
+   },
+   {
+    "d": "2026-10-21",
+    "o": 175.77,
+    "h": 177.26,
+    "l": 172.82,
+    "c": 175.57,
+    "v": 2535579,
+    "clsPos": 62,
+    "gapPct": -0.44
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/EFX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/EFX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

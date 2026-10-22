@@ -1,0 +1,770 @@
+{
+ "ticker": "MDB",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "MDB",
+  "name": "몽고DB",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 366.17999267578125,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 457.85,
+  "stop": 431.91,
+  "distToPivotPct": -14.66,
+  "distToPivotAdr": -2.21,
+  "riskPerSharePct": 5.67,
+  "adrPct": 6.64,
+  "extensionAdr": 0.89,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 34.5,
+   "priorMovePct": 57.6,
+   "higherLows": 1,
+   "contraction": 1.13,
+   "closeRange10Adr": 2.1,
+   "surf10": 0.89,
+   "surf20": 0.95,
+   "slope20": -3.05,
+   "baseLow": 300,
+   "lastSwingLow": 328.15
+  },
+  "reasons": [
+   "선행 상승 +58%",
+   "베이스 8주",
+   "✗ 깊이 34.5%",
+   "저점 상승 1회",
+   "진폭 1.13배 · 10일 종가폭 2.1 ADR",
+   "10일선 +0.9 ADR · 20일선 +0.9 ADR",
+   "✗ 20일선 기울기 -3.05%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.14381914333864257,
+    "pct": 8.160504959422903
+   },
+   "m3": {
+    "v": 0.18233186780767394,
+    "pct": 87.87195671776375
+   },
+   "m6": {
+    "v": 0.4177087016979796,
+    "pct": 89.85572587917042
+   }
+  },
+  "ret1m": -14.38,
+  "ret3m": 18.23,
+  "ret6m": 41.77,
+  "marketCap": "28.05B",
+  "volx": null,
+  "volSurgeWk": 1.52,
+  "high52": 77.4,
+  "newHigh52": false,
+  "adr": 6.57,
+  "div50": -6.83,
+  "div200": 7.95,
+  "targetStatus": false,
+  "saleCy": 22.8,
+  "saleNy": 19.05,
+  "epsCy": 31.64,
+  "epsNy": 19.93,
+  "cyTrend": 0.2,
+  "nyTrend": 0.76,
+  "est": {
+   "cyCur": 6.54256,
+   "cy30": 6.52934,
+   "nyCur": 7.84645,
+   "ny30": 7.78727
+  },
+  "fs": {
+   "sale": [
+    30.5,
+    25.25,
+    26.75
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    -1.87
+   ],
+   "opm": [
+    3.68,
+    -3.61,
+    0.04
+   ],
+   "updated": "2026-09-09 06:59:22"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "몽고DB",
+  "nameEn": "MONGODB INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001441816&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 771773000,
+     "profit": 28400000,
+     "netIncome": 40940000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": 30.5,
+      "profit": 143.5,
+      "netIncome": 187,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 687616000,
+     "profit": -24804000,
+     "netIncome": 4434000,
+     "margin": -3.6,
+     "yoy": {
+      "revenue": 25.2,
+      "profit": 53.7,
+      "netIncome": 111.8,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 695072000,
+     "profit": 304000,
+     "netIncome": 15530000,
+     "margin": 0,
+     "yoy": {
+      "revenue": 26.7,
+      "profit": 101.6,
+      "netIncome": -1.9,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 628309000,
+     "profit": -18424000,
+     "netIncome": -2007000,
+     "margin": -2.9,
+     "yoy": {
+      "revenue": 18.7,
+      "profit": 33.9,
+      "netIncome": 79.5,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Can MongoDB's Subscription Model Drive Sustainable Long-Term Growth?",
+     "url": "https://www.nasdaq.com/articles/can-mongodbs-subscription-model-drive-sustainable-long-term-growth",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "MongoDB (MDB) Laps the Stock Market: Here's Why",
+     "url": "https://www.nasdaq.com/articles/mongodb-mdb-laps-stock-market-heres-why",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "MongoDB's Enterprise Customer Base Grows: Can Atlas Sustain Momentum?",
+     "url": "https://www.nasdaq.com/articles/mongodbs-enterprise-customer-base-grows-can-atlas-sustain-momentum",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is MongoDB Stock Crashing and is it a Buying Opportunity?",
+     "url": "https://www.nasdaq.com/articles/why-mongodb-stock-crashing-and-it-buying-opportunity",
+     "date": "2026-10-14",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Is MongoDB (MDB) Down 7.1% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-mongodb-mdb-down-71-last-earnings-report",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026065934/mdb-20261012.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-29",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063850/mdb-20260925.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026047228/mdb-20260630.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026038798/mdb-20260528.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Meta hires MongoDB CEO CJ Desai to lead enterprise unit. MongoDB shares crater",
+   "url": "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html",
+   "date": "2026-09-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: PG&E, Dell, GitLab, Credo & more",
+   "url": "https://www.cnbc.com/2026/09/02/stocks-making-the-biggest-moves-midday-pcg-dell-gtlb-crdo-bfb.html",
+   "date": "2026-09-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Watch CNBC's full interview with MongoDB Interim President and CEO Dev Ittycheria",
+   "url": "https://www.cnbc.com/video/2026/09/29/watch-cnbcs-full-interview-with-mongodb-interim-president-and-ceo-dev-ittycheria.html",
+   "date": "2026-09-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "MongoDB CEO Dev Ittycheria: The board asked me to step in, and I agreed to do so",
+   "url": "https://www.cnbc.com/video/2026/09/29/mongodb-ceo-dev-ittycheria-the-board-asked-me-to-step-in-and-i-agreed-to-do-so.html",
+   "date": "2026-09-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC TechCheck Evening Edition: September 28, 2026",
+   "url": "https://www.cnbc.com/video/2026/09/28/cnbc-techcheck-evening-edition-september-28th-2026.html",
+   "date": "2026-09-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Meta hires MongoDB CEO to lead company's enterprise ambitions",
+   "url": "https://www.cnbc.com/video/2026/09/28/meta-hires-mongodb-ceo-to-lead-companys-enterprise-ambitions.html",
+   "date": "2026-09-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Late Morning",
+   "url": "https://www.cnbc.com/video/2026/09/28/the-late-morning-rundown-september-28-2026.html",
+   "date": "2026-09-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Meta hires MongoDB CEO CJ Desai, sending shares of data services company down",
+   "url": "https://www.cnbc.com/video/2026/09/28/meta-hires-mongodb-ceo-cj-desai-sending-shares-of-data-services-company-down.html",
+   "date": "2026-09-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MDB",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 551.44,
+  "pbr": 10.57,
+  "eps": 0.71,
+  "bps": 36.96,
+  "shares": 80556300,
+  "marketCapM": 31477,
+  "high52": 473.1,
+  "high52Date": "2026-08-14",
+  "low52": 215.68,
+  "low52Date": "2026-04-10",
+  "last": 390.75,
+  "prevClose": 366.18,
+  "nameKo": "몽고DB",
+  "nameEn": "MONGODB INC",
+  "listedOn": "2017-10-18",
+  "exchange": "나스닥",
+  "listedShares": 80556300
+ },
+ "estimates": {
+  "ticker": "MDB",
+  "url": "https://finance.yahoo.com/quote/MDB/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 1.61,
+    "epsLow": 1.54,
+    "epsHigh": 1.78,
+    "epsYearAgo": 1.32,
+    "epsAnalysts": 36,
+    "epsGrowth": 21.8,
+    "epsCur": "USD",
+    "rev": 761812730,
+    "revAnalysts": 34,
+    "revYearAgo": 628309000,
+    "revGrowth": 21.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 1.71,
+    "epsLow": 1.61,
+    "epsHigh": 1.93,
+    "epsYearAgo": 1.65,
+    "epsAnalysts": 35,
+    "epsGrowth": 3.8,
+    "epsCur": "USD",
+    "rev": 806334190,
+    "revAnalysts": 33,
+    "revYearAgo": 695072000,
+    "revGrowth": 16,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 6.54,
+    "epsLow": 6.12,
+    "epsHigh": 7.1,
+    "epsYearAgo": 4.97,
+    "epsAnalysts": 37,
+    "epsGrowth": 31.6,
+    "epsCur": "USD",
+    "rev": 3025463560,
+    "revAnalysts": 35,
+    "revYearAgo": 2463797000,
+    "revGrowth": 22.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 7.85,
+    "epsLow": 7,
+    "epsHigh": 9.43,
+    "epsYearAgo": 6.54,
+    "epsAnalysts": 39,
+    "epsGrowth": 19.9,
+    "epsCur": "USD",
+    "rev": 3601759060,
+    "revAnalysts": 36,
+    "revYearAgo": 3025463560,
+    "revGrowth": 19,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 1.61,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 6.6,
+    "ago90": 1.51,
+    "up7": 1,
+    "up30": 30,
+    "down7": 0,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 1.71,
+    "d7": 0,
+    "d30": -0.2,
+    "d90": 3.1,
+    "ago90": 1.66,
+    "up7": 1,
+    "up30": 27,
+    "down7": 0,
+    "down30": 5
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 6.54,
+    "d7": 0,
+    "d30": 0.2,
+    "d90": 6.8,
+    "ago90": 6.13,
+    "up7": 1,
+    "up30": 37,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 7.85,
+    "d7": 0.1,
+    "d30": 0.8,
+    "d90": 6.9,
+    "ago90": 7.34,
+    "up7": 0,
+    "up30": 13,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 1.9,
+    "estimate": 1.61,
+    "surprisePct": 18.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 1.32,
+    "estimate": 1.18,
+    "surprisePct": 11.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 1.65,
+    "estimate": 1.47,
+    "surprisePct": 12.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 1.32,
+    "estimate": 0.79,
+    "surprisePct": 66.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 25,
+   "ptLowered": 9,
+   "total": 50,
+   "recent": [
+    {
+     "date": "2026-10-13",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 430,
+     "ptPrior": 430
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Scotiabank",
+     "action": "main",
+     "from": "Sector Outperform",
+     "to": "Sector Outperform",
+     "ptAction": "Raises",
+     "pt": 450,
+     "ptPrior": 440
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Cantor Fitzgerald",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 540,
+     "ptPrior": 540
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 415,
+     "ptPrior": 415
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 415,
+     "ptPrior": 465
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 375,
+     "ptPrior": 410
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "Macquarie",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Maintains",
+     "pt": 375,
+     "ptPrior": 375
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "Citizens",
+     "action": "reit",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Maintains",
+     "pt": 519,
+     "ptPrior": 519
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 465,
+     "ptPrior": 465
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 420,
+     "ptPrior": 450
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-01",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 390.75,
+   "ma20": 366.13,
+   "ma50": 392.05,
+   "ma150": 336.6,
+   "distMA50": -0.33,
+   "periodHigh": 473.1,
+   "pullbackFromHigh": -17.41,
+   "volRatio20": 0.76,
+   "dryUpRatio": 0.57
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 359.9,
+    "h": 372.96,
+    "l": 357.59,
+    "c": 371.35,
+    "v": 1865500,
+    "clsPos": 90,
+    "gapPct": -0.86
+   },
+   {
+    "d": "2026-10-09",
+    "o": 375.85,
+    "h": 387.85,
+    "l": 371.53,
+    "c": 385.93,
+    "v": 1973900,
+    "clsPos": 88,
+    "gapPct": 1.21
+   },
+   {
+    "d": "2026-10-12",
+    "o": 389,
+    "h": 390,
+    "l": 376.25,
+    "c": 381.29,
+    "v": 1010800,
+    "clsPos": 37,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-10-13",
+    "o": 379.5,
+    "h": 411.49,
+    "l": 372.06,
+    "c": 373.07,
+    "v": 3030100,
+    "clsPos": 3,
+    "gapPct": -0.47
+   },
+   {
+    "d": "2026-10-14",
+    "o": 369.18,
+    "h": 376.36,
+    "l": 355.6,
+    "c": 356.29,
+    "v": 1356000,
+    "clsPos": 3,
+    "gapPct": -1.04
+   },
+   {
+    "d": "2026-10-15",
+    "o": 344.34,
+    "h": 367,
+    "l": 341,
+    "c": 366.49,
+    "v": 1335300,
+    "clsPos": 98,
+    "gapPct": -3.35
+   },
+   {
+    "d": "2026-10-16",
+    "o": 367.57,
+    "h": 373.27,
+    "l": 328.15,
+    "c": 337.57,
+    "v": 2786200,
+    "clsPos": 21,
+    "gapPct": 0.29
+   },
+   {
+    "d": "2026-10-19",
+    "o": 342.61,
+    "h": 352.22,
+    "l": 340.15,
+    "c": 348.69,
+    "v": 1472300,
+    "clsPos": 71,
+    "gapPct": 1.49
+   },
+   {
+    "d": "2026-10-20",
+    "o": 346.32,
+    "h": 366.79,
+    "l": 340.93,
+    "c": 366.18,
+    "v": 1352900,
+    "clsPos": 98,
+    "gapPct": -0.68
+   },
+   {
+    "d": "2026-10-21",
+    "o": 369.47,
+    "h": 392.75,
+    "l": 364,
+    "c": 390.75,
+    "v": 2521815,
+    "clsPos": 93,
+    "gapPct": 0.9
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MDB-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MDB-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

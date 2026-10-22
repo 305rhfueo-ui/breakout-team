@@ -1,0 +1,150 @@
+{
+ "ticker": "ROKU",
+ "news": [
+  {
+   "title": "Roku, Inc. (ROKU) Is a Trending Stock: Facts to Know Before Betting on It",
+   "url": "https://www.nasdaq.com/articles/roku-inc-roku-trending-stock-facts-know-betting-it-2",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Roku (ROKU) Laps the Stock Market: Here's Why",
+   "url": "https://www.nasdaq.com/articles/roku-roku-laps-stock-market-heres-why",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Roku, Inc. (ROKU) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/roku-inc-roku-attracting-investor-attention-here-what-you-should-know",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Roku's CFO Sells 7,000 Shares for $1.1 Million as the DOJ Extends Its Review of the Fox Acquisition",
+   "url": "https://www.nasdaq.com/articles/rokus-cfo-sells-7000-shares-11-million-doj-extends-its-review-fox-acquisition",
+   "date": "2026-09-30",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-15",
+   "reportDate": "2026-10-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000114036126039632/ef20083760_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-06",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000114036126038812/ef20083345_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-08",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000114036126035990/ef20081770_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026054321/wk-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026044373/roku-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026043866/wk-20260611.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.92,
+  "saleNy": 12.23,
+  "epsCy": 392.34,
+  "epsNy": 34.67,
+  "cyTrend": -0.45,
+  "nyTrend": 2.18,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    21.93,
+    22.36,
+    16.14
+   ],
+   "ni": [
+    1463.52,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    10.79,
+    4.15,
+    4.73
+   ],
+   "updated": "2026-09-08 07:26:58"
+  }
+ }
+}

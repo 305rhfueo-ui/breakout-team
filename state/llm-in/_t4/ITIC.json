@@ -1,0 +1,144 @@
+{
+ "ticker": "ITIC",
+ "news": [
+  {
+   "title": "ITIC vs DGICA: Which Insurance Stock is the Better Buy?",
+   "url": "https://www.nasdaq.com/articles/itic-vs-dgica-which-insurance-stock-better-buy",
+   "date": "2026-07-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ITIC Downgraded to Neutral on Housing Weakness Despite Premium Growth",
+   "url": "https://www.nasdaq.com/articles/itic-downgraded-neutral-housing-weakness-despite-premium-growth",
+   "date": "2026-03-24",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/720858/000072085826000027/itic-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/720858/000072085826000020/itic-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/720858/000072085826000014/itic-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-17",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/720858/000072085826000006/itic-20260217.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-05",
+   "reportDate": "2025-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/720858/000072085825000030/itic-20251105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-06",
+   "reportDate": "2025-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/720858/000072085825000026/itic-20250806.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.45,
+    13.17,
+    -1.57
+   ],
+   "ni": [
+    19.18,
+    91.33,
+    -10.11
+   ],
+   "opm": [
+    22.48,
+    12.05,
+    13.82
+   ],
+   "updated": "2026-09-08 06:11:38"
+  }
+ }
+}

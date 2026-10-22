@@ -3972,7 +3972,165 @@ window.TEAM5_DATA = {
           "name": null
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-22",
+        "carried": false,
+        "headline": "의료기기는 2분기 실적 호조와 인수 소식이 겹치며 업종 순위가 한 달 새 56계단 뛰어 8위가 됐다.",
+        "summary": "의료기기 업종은 순위 8위로, 25거래일 전보다 56계단 올랐다. 소형·중형주 UFP 테크놀로지스와 리바노바가 2분기 실적에서 시장 예상을 웃돌았다. 인티거 홀딩스는 KKR의 57억 달러 인수 소식이 나왔고, 바이오 래드는 디지털 PCR(유전자 정밀 검출) 사업을 키우고 있다. 반면 존슨앤드존슨 의료기기 부문 성장은 네 분기 연속 둔화해, 대형주 모멘텀이 이어질지가 관건이다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "UFP 테크놀로지스가 2분기 실적에서 이익과 매출 모두 시장 예상을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UFP Technologies (UFPT) Beats Q2 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/ufp-technologies-ufpt-beats-q2-earnings-and-revenue-estimates",
+                "date": "2026-08-03",
+                "quote": "UFP Technologies (UFPT) Beats Q2 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "리바노바도 2분기 이익과 매출이 예상을 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "LivaNova (LIVN) Q2 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/livanova-livn-q2-earnings-and-revenues-beat-estimates",
+                "date": "2026-08-05",
+                "quote": "LivaNova (LIVN) Q2 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "인티거 홀딩스에 대한 KKR의 57억 달러 인수 소식이 업종 관심을 키웠다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "How Could KKR's $5.7 Billion Buyout Reshape ITGR for Shareholders?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/how-could-kkrs-57-billion-buyout-reshape-itgr-shareholders",
+                "date": "2026-09-04",
+                "quote": "How Could KKR's $5.7 Billion Buyout Reshape ITGR for Shareholders?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "UFPT",
+            "role": "의료기기 부품·포장 업체로 2분기 실적이 예상을 웃돌았다",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "2분기 이익과 매출이 모두 시장 예상을 넘어섰다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "UFP Technologies (UFPT) Beats Q2 Earnings and Revenue Estimates",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/ufp-technologies-ufpt-beats-q2-earnings-and-revenue-estimates",
+                    "date": "2026-08-03",
+                    "quote": "UFP Technologies (UFPT) Beats Q2 Earnings and Revenue Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 6.63,
+            "rnk1": 38.46,
+            "name": "UFP 테크놀로지스"
+          },
+          {
+            "ticker": "LIVN",
+            "role": "신경조절 의료기기 업체로 2분기 실적이 예상을 웃돌았다",
+            "why": [
+              {
+                "id": "l2a",
+                "statement": "2분기 이익과 매출이 시장 예상을 넘어섰다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "LivaNova (LIVN) Q2 Earnings and Revenues Beat Estimates",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/livanova-livn-q2-earnings-and-revenues-beat-estimates",
+                    "date": "2026-08-05",
+                    "quote": "LivaNova (LIVN) Q2 Earnings and Revenues Beat Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 13.48,
+            "rnk1": 40.98,
+            "name": "리바노바"
+          },
+          {
+            "ticker": "BIO",
+            "role": "디지털 PCR과 인수합병으로 성장을 노리는 생명과학 장비 업체",
+            "why": [
+              {
+                "id": "l3a",
+                "statement": "디지털 PCR, 마진 개선, 인수합병을 성장 축으로 삼고 있다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Bio-Rad Laboratories Bets on Digital PCR, Margins and Smarter M&A Growth",
+                    "publisher": "MarketBeat",
+                    "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-bets-digital-pcr-margins-and-smarter-ma-growth",
+                    "date": "2026-09-26",
+                    "quote": "Bio-Rad Laboratories Bets on Digital PCR, Margins and Smarter M&A Growth",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 17,
+            "rnk1": 77.14,
+            "name": "바이오 래드 래브러토리스"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "존슨앤드존슨의 의료기기 부문 성장이 네 분기 연속 둔화해, 대형 업체 성장세가 약해질 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[존슨앤드존슨 (XTR:JNJ)] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxecgg.pdf",
+                "date": "2026-10-13",
+                "quote": "- 매출 254억 달러, 가이던스 4분기 연속 상향- 조정 EPS 2.59달러, 딜 비용에 7.5% 역성장- MedTech +2.5%로 네 분기 연속 감속",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "CNBC 기사 본문은 접근이 막혀 열람하지 못했고 증권사 리포트도 업종 전반 1건뿐이라, 나스닥(Zacks 등) 기사 제목 중심으로 작성했다.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장(w1, w2, w3, l1a, l2a, l3a, r1)의 출처 제목과 인용문이 statement를 지지하며, 모든 출처 날짜가 2026년 8월~10월로 6개월 이내입니다."
+        },
+        "evidenceCount": 36
+      }
     },
     {
       "key": "Healthcare|Medical Care Facilities",
@@ -4576,7 +4734,148 @@ window.TEAM5_DATA = {
           "name": null
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-22",
+        "carried": false,
+        "headline": "손해보험 대형사들의 3분기 실적이 기대를 웃돌면서 업종 순위가 한 달 새 40계단 올라 10위가 됐다.",
+        "summary": "손해보험 업종은 순위 10위로, 25거래일 전보다 40계단 올랐다. 트래블러스·처브·프로그레시브 등 대형사가 3분기 실적 발표에서 시장 예상을 웃돌았다. 트래블러스는 인수심사(보험 계약 선별) 부문의 강점과 2027년 전망이 실적 설명회에서 부각됐다. 이 흐름이 나머지 보험사 실적으로 이어지는지가 관건이다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "처브가 3분기 이익과 매출 모두 시장 예상을 넘어섰다고 Zacks 가 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Chubb (CB) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/chubb-cb-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-10-20",
+                "quote": "Chubb (CB) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "프로그레시브도 3분기 이익이 시장 예상을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Progressive (PGR) Q3 Earnings Top Estimates",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/progressive-pgr-q3-earnings-top-estimates",
+                "date": "2026-10-14",
+                "quote": "Progressive (PGR) Q3 Earnings Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "트래블러스는 3분기 실적 설명회에서 인수심사 부문의 강점과 2027년 전망이 주요 내용으로 꼽혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/trv-q3-earnings-call-highlights-underwriting-strength-and-2027-outlook",
+                "date": "2026-10-19",
+                "quote": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "TRV",
+            "role": "업종 대형주로 3분기 인수심사 강점이 부각된 보험사",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "트래블러스는 3분기 실적 설명회에서 인수심사 부문의 강점과 2027년 전망을 제시했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/trv-q3-earnings-call-highlights-underwriting-strength-and-2027-outlook",
+                    "date": "2026-10-19",
+                    "quote": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 15.46,
+            "rnk1": 12.04,
+            "name": "트래블러스 컴퍼니스"
+          },
+          {
+            "ticker": "CB",
+            "role": "세계 최대급 손해보험사로 3분기 예상 상회",
+            "why": [
+              {
+                "id": "l2a",
+                "statement": "처브는 3분기 이익과 매출이 모두 시장 예상을 넘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Chubb (CB) Q3 Earnings and Revenues Surpass Estimates",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/chubb-cb-q3-earnings-and-revenues-surpass-estimates",
+                    "date": "2026-10-20",
+                    "quote": "Chubb (CB) Q3 Earnings and Revenues Surpass Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 39.45,
+            "rnk1": 19.88,
+            "name": "처브"
+          },
+          {
+            "ticker": "PGR",
+            "role": "업종 내 시가총액 최대 자동차보험사로 3분기 예상 상회",
+            "why": [
+              {
+                "id": "l3a",
+                "statement": "프로그레시브는 3분기 이익이 시장 예상을 웃돌았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Progressive (PGR) Q3 Earnings Top Estimates",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/progressive-pgr-q3-earnings-top-estimates",
+                    "date": "2026-10-14",
+                    "quote": "Progressive (PGR) Q3 Earnings Top Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 38.91,
+            "rnk1": 17.36,
+            "name": "프로그레시브"
+          }
+        ],
+        "risks": [],
+        "sourceGap": "증권사 리포트·업종 검색 리포트 없음, CNBC 기사 본문은 열람하지 못해 제목 수준의 나스닥(Zacks) 기사만으로 작성했다.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장(w1, w2, w3, l1a, l2a, l3a)의 출처 제목과 인용문이 statement를 지지하며, 모든 출처 날짜가 2026년 10월 초~중순으로 6개월 이내입니다."
+        },
+        "evidenceCount": 56
+      }
     }
   ]
 };

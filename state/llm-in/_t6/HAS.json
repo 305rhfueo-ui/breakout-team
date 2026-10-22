@@ -1,0 +1,735 @@
+{
+ "ticker": "HAS",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "HAS",
+  "name": "해즈브로",
+  "sector": "Consumer Cyclical",
+  "industry": "Leisure",
+  "price": 109.5199966430664,
+  "grade": "B",
+  "state": "post",
+  "pivot": 98.2,
+  "stop": 95.75,
+  "distToPivotPct": 16.09,
+  "distToPivotAdr": 5.28,
+  "riskPerSharePct": 2.49,
+  "adrPct": 3.04,
+  "extensionAdr": 4.29,
+  "breakDate": "2026-10-15",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 13.1,
+   "priorMovePct": 30.6,
+   "higherLows": 1,
+   "contraction": 1.11,
+   "closeRange10Adr": 2.6,
+   "surf10": 1.18,
+   "surf20": 2.16,
+   "slope20": 1.12,
+   "baseLow": 85.37,
+   "lastSwingLow": 86.85
+  },
+  "reasons": [
+   "선행 상승 +31%",
+   "베이스 8주",
+   "깊이 13.1%",
+   "저점 상승 1회",
+   "✗ 진폭 1.11배 · 10일 종가폭 2.6 ADR",
+   "10일선 +1.2 ADR · 20일선 +2.2 ADR",
+   "20일선 기울기 +1.12%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2601540907633678,
+    "pct": 99.32371505861136
+   },
+   "m3": {
+    "v": 0.21776600797608886,
+    "pct": 90.93778178539225
+   },
+   "m6": {
+    "v": 0.1832108415869576,
+    "pct": 73.35437330928765
+   }
+  },
+  "ret1m": 26.02,
+  "ret3m": 21.78,
+  "ret6m": 18.32,
+  "marketCap": "13.89B",
+  "volx": null,
+  "volSurgeWk": 1.51,
+  "high52": 99.74,
+  "newHigh52": false,
+  "adr": 2.99,
+  "div50": 18.18,
+  "div200": 21.41,
+  "targetStatus": false,
+  "saleCy": 7.69,
+  "saleNy": 6.94,
+  "epsCy": 11,
+  "epsNy": 5.36,
+  "cyTrend": -0.16,
+  "nyTrend": -0.71,
+  "est": {
+   "cyCur": 6.14963,
+   "cy30": 6.15942,
+   "nyCur": 6.47913,
+   "ny30": 6.52571
+  },
+  "fs": {
+   "sale": [
+    16.19,
+    12.75,
+    31.25
+   ],
+   "ni": [
+    "흑자전환",
+    101.22,
+    "흑자전환"
+   ],
+   "opm": [
+    22.16,
+    27.02,
+    20.58
+   ],
+   "updated": "2026-09-08 06:41:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-21",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "해즈브로",
+  "nameEn": "HASBRO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046080&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-28",
+     "derived": false,
+     "revenue": 1139600000,
+     "profit": 252500000,
+     "netIncome": 160900000,
+     "margin": 22.2,
+     "yoy": {
+      "revenue": 16.2,
+      "profit": 131.6,
+      "netIncome": 118.8,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-29",
+     "derived": false,
+     "revenue": 1000200000,
+     "profit": 270300000,
+     "netIncome": 198400000,
+     "margin": 27,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 58.3,
+      "netIncome": 101.2,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-28",
+     "derived": true,
+     "revenue": 1445900000,
+     "profit": 297500000,
+     "netIncome": 201600000,
+     "margin": 20.6,
+     "yoy": {
+      "revenue": 31.3,
+      "profit": 397.5,
+      "netIncome": 687.8,
+      "priorEnd": "2024-12-29"
+     }
+    },
+    {
+     "periodEnd": "2025-09-28",
+     "derived": false,
+     "revenue": 1387500000,
+     "profit": 341100000,
+     "netIncome": 233200000,
+     "margin": 24.6,
+     "yoy": {
+      "revenue": 8.3,
+      "profit": 13,
+      "netIncome": 4.5,
+      "priorEnd": "2024-09-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Hasbro Stock Jumped Today",
+     "url": "https://www.nasdaq.com/articles/why-hasbro-stock-jumped-today",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hasbro: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/hasbro-3-key-takeaways-long-term-investors",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hasbro (HAS) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hasbro-has-q3-2026-earnings-call-transcript",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hasbro Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/hasbro-q3-earnings-call-highlights",
+     "date": "2026-10-20",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Hasbro (HAS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/hasbro-has-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Hasbro Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/hasbro-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-10-20",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Hasbro Boosts FY26 Revenue Growth Outlook; Declares Dividend - Update",
+     "url": "https://www.nasdaq.com/articles/hasbro-boosts-fy26-revenue-growth-outlook-declares-dividend-update",
+     "date": "2026-10-20",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Hasbro Inc. Bottom Line Rises In Q3",
+     "url": "https://www.nasdaq.com/articles/hasbro-inc-bottom-line-rises-q3",
+     "date": "2026-10-20",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000058/has-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000047/has-20260727.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000044/has-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000034/has-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000029/has-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000016/has-20260423.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Hasbro, Northrop Grumman, Equifax, GM",
+   "url": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-midday-has-noc-efx-gm.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Buy these high-quality dividend stocks with plenty of free cash flow, BofA says",
+   "url": "https://www.cnbc.com/2026/09/21/buy-these-high-quality-dividend-stocks-with-plenty-of-free-cash-flow.html",
+   "date": "2026-09-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Coinbase, Micron, Hasbro, Utz & more",
+   "url": "https://www.cnbc.com/2026/07/21/stocks-making-the-biggest-moves-midday-coin-mu-nbis-has-utz.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Here are the 6 big things we're watching in the stock market this week",
+   "url": "https://www.cnbc.com/investingclub/2026/07/19/here-are-the-6-big-things-were-watching-in-the-stock-market-this-week.html",
+   "date": "2026-07-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The 10 worst state economies in America in 2026",
+   "url": "https://www.cnbc.com/2026/07/13/worst-state-economies-2026.html",
+   "date": "2026-07-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Trading cards are now the biggest category in toys and games, says Hasbro CEO Chris Cocks",
+   "url": "https://www.cnbc.com/video/2026/10/20/trading-cards-are-now-the-biggest-category-in-toys-and-games-says-hasbro-ceo-chris-cocks.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Tuesday, October 20, 2026: Cramer still likes this tech giant despite a recent downgrade",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/20/tuesday-october-20-2026-cramer-still-likes-this-tech-giant-despite-a-recent-downgrade.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Hasbro CEO Chris Cocks",
+   "url": "https://www.cnbc.com/video/2026/07/21/watch-cnbcs-full-interview-with-hasbro-ceo-chris-cocks.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "HAS",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 20.53,
+  "pbr": 22.88,
+  "eps": 5.56,
+  "bps": 4.99,
+  "shares": 141044000,
+  "marketCapM": 16109,
+  "high52": 114.75,
+  "high52Date": "2026-10-21",
+  "low52": 67.3281,
+  "low52Date": "2025-10-23",
+  "last": 114.2148,
+  "prevClose": 109.52,
+  "nameKo": "해즈브로",
+  "nameEn": "HASBRO INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 141044000
+ },
+ "estimates": {
+  "ticker": "HAS",
+  "url": "https://finance.yahoo.com/quote/HAS/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.51,
+    "epsLow": 1.38,
+    "epsHigh": 1.6,
+    "epsYearAgo": 1.51,
+    "epsAnalysts": 9,
+    "epsGrowth": 0,
+    "epsCur": "USD",
+    "rev": 1438692330,
+    "revAnalysts": 9,
+    "revYearAgo": 1445900000,
+    "revGrowth": -0.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.43,
+    "epsLow": 1.03,
+    "epsHigh": 1.6,
+    "epsYearAgo": 1.47,
+    "epsAnalysts": 7,
+    "epsGrowth": -2.4,
+    "epsCur": "USD",
+    "rev": 1053689080,
+    "revAnalysts": 6,
+    "revYearAgo": 1000200000,
+    "revGrowth": 5.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 6.56,
+    "epsLow": 5.85,
+    "epsHigh": 7.32,
+    "epsYearAgo": 5.54,
+    "epsAnalysts": 14,
+    "epsGrowth": 18.5,
+    "epsCur": "USD",
+    "rev": 5123494880,
+    "revAnalysts": 10,
+    "revYearAgo": 4701300000,
+    "revGrowth": 9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 6.77,
+    "epsLow": 6.3,
+    "epsHigh": 7.35,
+    "epsYearAgo": 6.56,
+    "epsAnalysts": 14,
+    "epsGrowth": 3.1,
+    "epsCur": "USD",
+    "rev": 5496973640,
+    "revAnalysts": 11,
+    "revYearAgo": 5123494880,
+    "revGrowth": 7.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.51,
+    "d7": -2.5,
+    "d30": -2.4,
+    "d90": 0.7,
+    "ago90": 1.5,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.43,
+    "d7": 8.9,
+    "d30": 10.2,
+    "d90": 11.4,
+    "ago90": 1.29,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 6.56,
+    "d7": 6.7,
+    "d30": 6.7,
+    "d90": 6.1,
+    "ago90": 6.19,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 6.77,
+    "d7": 4,
+    "d30": 3.9,
+    "d90": 4.3,
+    "ago90": 6.49,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.9,
+    "estimate": 1.85,
+    "surprisePct": 56.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.28,
+    "estimate": 1.13,
+    "surprisePct": 12.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.47,
+    "estimate": 1.13,
+    "surprisePct": 29.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.51,
+    "estimate": 0.95,
+    "surprisePct": 59.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 5,
+   "ptLowered": 0,
+   "total": 5,
+   "recent": [
+    {
+     "date": "2026-10-21",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 137,
+     "ptPrior": 117
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 100,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "BNP Paribas",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 127,
+     "ptPrior": 116
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 117,
+     "ptPrior": 107
+    },
+    {
+     "date": "2026-08-20",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 90,
+     "ptPrior": 85
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-20",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 114,
+   "ma20": 94.25,
+   "ma50": 93.1,
+   "ma150": 90.43,
+   "distMA50": 22.46,
+   "periodHigh": 114.05,
+   "pullbackFromHigh": -0.04,
+   "volRatio20": 2.24,
+   "dryUpRatio": 1.82
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 90.68,
+    "h": 92.72,
+    "l": 90.68,
+    "c": 92.5,
+    "v": 1207700,
+    "clsPos": 89,
+    "gapPct": -0.08
+   },
+   {
+    "d": "2026-10-09",
+    "o": 92.63,
+    "h": 94.4,
+    "l": 92.16,
+    "c": 93.32,
+    "v": 1138600,
+    "clsPos": 52,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-10-12",
+    "o": 93.27,
+    "h": 94.96,
+    "l": 93.16,
+    "c": 94.73,
+    "v": 1245000,
+    "clsPos": 87,
+    "gapPct": -0.05
+   },
+   {
+    "d": "2026-10-13",
+    "o": 95.9,
+    "h": 96.38,
+    "l": 94.44,
+    "c": 95.94,
+    "v": 1762100,
+    "clsPos": 77,
+    "gapPct": 1.24
+   },
+   {
+    "d": "2026-10-14",
+    "o": 95.23,
+    "h": 95.47,
+    "l": 93.2,
+    "c": 95.46,
+    "v": 1300200,
+    "clsPos": 100,
+    "gapPct": -0.74
+   },
+   {
+    "d": "2026-10-15",
+    "o": 96.58,
+    "h": 100.05,
+    "l": 96.58,
+    "c": 98.41,
+    "v": 2390200,
+    "clsPos": 53,
+    "gapPct": 1.17
+   },
+   {
+    "d": "2026-10-16",
+    "o": 98.53,
+    "h": 99.95,
+    "l": 97.45,
+    "c": 98.76,
+    "v": 1810700,
+    "clsPos": 52,
+    "gapPct": 0.12
+   },
+   {
+    "d": "2026-10-19",
+    "o": 98.76,
+    "h": 100.05,
+    "l": 97.45,
+    "c": 98.49,
+    "v": 3689600,
+    "clsPos": 40,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-20",
+    "o": 102.4,
+    "h": 109.81,
+    "l": 101.4,
+    "c": 109.52,
+    "v": 8008800,
+    "clsPos": 97,
+    "gapPct": 3.97
+   },
+   {
+    "d": "2026-10-21",
+    "o": 110.27,
+    "h": 114.05,
+    "l": 109.6,
+    "c": 114,
+    "v": 5178289,
+    "clsPos": 99,
+    "gapPct": 0.68
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/HAS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/HAS-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

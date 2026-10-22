@@ -1,0 +1,621 @@
+{
+ "ticker": "ARGX",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "ARGX",
+  "name": "아제닉스(ADR)",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 869.719970703125,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 1072.75,
+  "stop": 1047.89,
+  "distToPivotPct": -17.03,
+  "distToPivotAdr": -6.1,
+  "riskPerSharePct": 2.32,
+  "adrPct": 2.79,
+  "extensionAdr": 2.3,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 26.6,
+   "priorMovePct": 35.2,
+   "higherLows": 0,
+   "contraction": 1.22,
+   "closeRange10Adr": 3.5,
+   "surf10": 2.3,
+   "surf20": 0.05,
+   "slope20": -3.44,
+   "baseLow": 787.73,
+   "lastSwingLow": 787.73
+  },
+  "reasons": [
+   "선행 상승 +35%",
+   "베이스 8주",
+   "✗ 깊이 26.6%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.22배 · 10일 종가폭 3.5 ADR",
+   "10일선 +2.3 ADR · 20일선 +0 ADR",
+   "✗ 20일선 기울기 -3.44%"
+  ],
+  "earnings": "2026-10-22"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.09760425971305325,
+    "pct": 14.652840396753833
+   },
+   "m3": {
+    "v": -0.02148920643516359,
+    "pct": 46.30297565374211
+   },
+   "m6": {
+    "v": 0.12074424475347152,
+    "pct": 62.98467087466185
+   }
+  },
+  "ret1m": -9.76,
+  "ret3m": -2.15,
+  "ret6m": 12.07,
+  "marketCap": "51.92B",
+  "volx": null,
+  "volSurgeWk": 1.43,
+  "high52": 81.07,
+  "newHigh52": false,
+  "adr": 2.82,
+  "div50": -8.66,
+  "div200": 2.15,
+  "targetStatus": false,
+  "saleCy": 48.39,
+  "saleNy": 23.18,
+  "epsCy": -4.56,
+  "epsNy": 90.55,
+  "cyTrend": 1.73,
+  "nyTrend": 2.52,
+  "est": {
+   "cyCur": 18.6775,
+   "cy30": 18.36,
+   "nyCur": 35.59,
+   "ny30": 34.71667
+  },
+  "fs": {
+   "sale": [
+    59.46,
+    62.7,
+    73.76
+   ],
+   "ni": [
+    92.65,
+    116.57,
+    -31.05
+   ],
+   "opm": [
+    32.04,
+    30.01,
+    27.79
+   ],
+   "updated": "2026-09-20 06:55:30"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "아제닉스(ADR)",
+  "nameEn": "ARGENX SE SPON ADR EACH REP 1 ORD SHS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Zacks Investment Ideas feature highlights: Cummins, Argenx and PACCAR",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-cummins-argenx-and-paccar",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ARGX Stock Down on Stopping Late-Stage Autoimmune Disease Study",
+     "url": "https://www.nasdaq.com/articles/argx-stock-down-stopping-late-stage-autoimmune-disease-study",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Argenx Reports Mixed Pipeline Update With Positive Celiac Data; Ends Sjögren's Phase 3 Study",
+     "url": "https://www.nasdaq.com/articles/argenx-reports-mixed-pipeline-update-positive-celiac-data-ends-sjogrens-phase-3-study",
+     "date": "2026-10-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Argenx's Celiac Disease Phase 2 Study Meets Primary Endpoint; Discontinues Sjögren's UNITY Trial",
+     "url": "https://www.nasdaq.com/articles/argenxs-celiac-disease-phase-2-study-meets-primary-endpoint-discontinues-sjogrens-unity",
+     "date": "2026-10-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Argenx To Discontinue Phase 3 UNITY Study Of Efgartigimod In Sjgren's Disease",
+     "url": "https://www.nasdaq.com/articles/argenx-discontinue-phase-3-unity-study-efgartigimod-sjgrens-disease",
+     "date": "2026-10-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Halozyme, Argenx Expand ENHANZE Collaboration With Two Additional Targets",
+     "url": "https://www.nasdaq.com/articles/halozyme-argenx-expand-enhanze-collaboration-two-additional-targets",
+     "date": "2026-10-07",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "BMY or ARGX: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/bmy-or-argx-which-better-value-stock-right-now",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, SpaceX, Broadcom, SolarEdge, Nike",
+   "url": "https://www.cnbc.com/2026/08/26/biggest-stocks-wednesday-by-analyst-calls-like-nvidia.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: ASML, SK Hynix, SAP, Forte Bio & more",
+   "url": "https://www.cnbc.com/2026/07/27/stocks-making-the-biggest-moves-midday-asml-skhy-sap-fbrx-bfb.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Micron, Forte Biosciences, ExxonMobil & more",
+   "url": "https://www.cnbc.com/2026/07/27/stocks-making-the-biggest-moves-premarket-mu-fbrx-xom-bkr.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ARGX",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 32.09,
+  "pbr": 6.54,
+  "eps": 27.73,
+  "bps": 136.01,
+  "shares": 62886100,
+  "marketCapM": 55972,
+  "high52": 1072.75,
+  "high52Date": "2026-09-02",
+  "low52": 661.85,
+  "low52Date": "2026-03-20",
+  "last": 890.05,
+  "prevClose": 869.72,
+  "nameKo": "아제닉스(ADR)",
+  "nameEn": "ARGENX SE SPON ADR EACH REP 1 ORD SHS",
+  "listedOn": "2017-05-17",
+  "exchange": "나스닥",
+  "listedShares": 62886100
+ },
+ "estimates": {
+  "ticker": "ARGX",
+  "url": "https://finance.yahoo.com/quote/ARGX/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": -27.83,
+    "epsLow": -27.83,
+    "epsHigh": -27.83,
+    "epsYearAgo": 5.18,
+    "epsAnalysts": 1,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 1635939500,
+    "revAnalysts": 2,
+    "revYearAgo": 1151338000,
+    "revGrowth": 42.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 8.77,
+    "epsLow": 8.77,
+    "epsHigh": 8.77,
+    "epsYearAgo": 8.02,
+    "epsAnalysts": 1,
+    "epsGrowth": 9.4,
+    "epsCur": "USD",
+    "rev": 1807944000,
+    "revAnalysts": 2,
+    "revYearAgo": 1322155000,
+    "revGrowth": 36.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 18.68,
+    "epsLow": -5.36,
+    "epsHigh": 28.07,
+    "epsYearAgo": 19.57,
+    "epsAnalysts": 4,
+    "epsGrowth": -4.6,
+    "epsCur": "USD",
+    "rev": 6300303400,
+    "revAnalysts": 5,
+    "revYearAgo": 4248050000,
+    "revGrowth": 48.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 35.59,
+    "epsLow": 32.19,
+    "epsHigh": 40.61,
+    "epsYearAgo": 18.68,
+    "epsAnalysts": 3,
+    "epsGrowth": 90.6,
+    "epsCur": "USD",
+    "rev": 7736862200,
+    "revAnalysts": 5,
+    "revYearAgo": 6300303400,
+    "revGrowth": 22.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": -27.83,
+    "d7": 0,
+    "d30": 0,
+    "d90": -500.9,
+    "ago90": 6.94,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 8.77,
+    "d7": 0,
+    "d30": 0,
+    "d90": 14.3,
+    "ago90": 7.67,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 18.68,
+    "d7": 0,
+    "d30": 1.7,
+    "d90": -28.4,
+    "ago90": 26.08,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 35.59,
+    "d7": 0,
+    "d30": 2.5,
+    "d90": -4.3,
+    "ago90": 37.19,
+    "up7": 0,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 7.32,
+    "estimate": 6.19,
+    "surprisePct": 18.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 5.52,
+    "estimate": 4.92,
+    "surprisePct": 12.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 8.02,
+    "estimate": 6.11,
+    "surprisePct": 31.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 5.18,
+    "estimate": 4.16,
+    "surprisePct": 24.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 16,
+   "ptLowered": 5,
+   "total": 23,
+   "recent": [
+    {
+     "date": "2026-10-20",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 1025,
+     "ptPrior": 1100
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 1356,
+     "ptPrior": 1355
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 1038,
+     "ptPrior": 1100
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 1078,
+     "ptPrior": 1175
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 823,
+     "ptPrior": 932
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Wedbush",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 1150,
+     "ptPrior": 1150
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "Wedbush",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 1150,
+     "ptPrior": 1150
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 1250,
+     "ptPrior": 1230
+    },
+    {
+     "date": "2026-08-26",
+     "firm": "UBS",
+     "action": "up",
+     "from": "Neutral",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 1400,
+     "ptPrior": 960
+    },
+    {
+     "date": "2026-08-26",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 1415,
+     "ptPrior": 1350
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 890.05,
+   "ma20": 888.91,
+   "ma50": 952.65,
+   "ma150": 870.06,
+   "distMA50": -6.57,
+   "periodHigh": 1072.75,
+   "pullbackFromHigh": -17.03,
+   "volRatio20": 1.38,
+   "dryUpRatio": 1.05
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 831.23,
+    "h": 832.24,
+    "l": 787.73,
+    "c": 818.63,
+    "v": 2454200,
+    "clsPos": 69,
+    "gapPct": -10.47
+   },
+   {
+    "d": "2026-10-09",
+    "o": 821.96,
+    "h": 826.78,
+    "l": 805.07,
+    "c": 825.03,
+    "v": 512200,
+    "clsPos": 92,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-10-12",
+    "o": 832.33,
+    "h": 832.49,
+    "l": 810.7,
+    "c": 812.3,
+    "v": 241200,
+    "clsPos": 7,
+    "gapPct": 0.88
+   },
+   {
+    "d": "2026-10-13",
+    "o": 817.16,
+    "h": 822.28,
+    "l": 798.48,
+    "c": 802.64,
+    "v": 277100,
+    "clsPos": 17,
+    "gapPct": 0.6
+   },
+   {
+    "d": "2026-10-14",
+    "o": 809.03,
+    "h": 835.31,
+    "l": 803,
+    "c": 818.3,
+    "v": 464100,
+    "clsPos": 47,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-10-15",
+    "o": 842.46,
+    "h": 858.21,
+    "l": 838.78,
+    "c": 846.27,
+    "v": 510700,
+    "clsPos": 39,
+    "gapPct": 2.95
+   },
+   {
+    "d": "2026-10-16",
+    "o": 842.8,
+    "h": 843.61,
+    "l": 813.05,
+    "c": 819.14,
+    "v": 389000,
+    "clsPos": 20,
+    "gapPct": -0.41
+   },
+   {
+    "d": "2026-10-19",
+    "o": 815.55,
+    "h": 828.69,
+    "l": 814.41,
+    "c": 825.61,
+    "v": 393100,
+    "clsPos": 78,
+    "gapPct": -0.44
+   },
+   {
+    "d": "2026-10-20",
+    "o": 847.53,
+    "h": 881.1,
+    "l": 843.51,
+    "c": 869.72,
+    "v": 536400,
+    "clsPos": 70,
+    "gapPct": 2.66
+   },
+   {
+    "d": "2026-10-21",
+    "o": 875.27,
+    "h": 892.85,
+    "l": 873.22,
+    "c": 890.05,
+    "v": 656504,
+    "clsPos": 86,
+    "gapPct": 0.64
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ARGX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ARGX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

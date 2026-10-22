@@ -1,0 +1,275 @@
+{
+ "ticker": "EFX",
+ "sector": "Industrials",
+ "industry": "Consulting Services",
+ "nameKo": "에퀴팩스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.73,
+  "saleNy": 7.69,
+  "epsCy": 11.06,
+  "epsNy": 15.94,
+  "est": {
+   "cyCur": 8.49607,
+   "cy30": 8.56027,
+   "nyCur": 9.85042,
+   "ny30": 10.1219
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.61,
+    14.35,
+    9.24
+   ],
+   "ni": [
+    -3.87,
+    28.85,
+    0.98
+   ],
+   "opm": [
+    18.48,
+    17.45,
+    18.33
+   ],
+   "updated": "2026-09-11 05:42:37"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "에퀴팩스",
+  "nameEn": "EQUIFAX INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000033185&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1692500000,
+     "profit": 355300000,
+     "netIncome": 211700000,
+     "margin": 21,
+     "yoy": {
+      "revenue": 9.6,
+      "profit": 34.4,
+      "netIncome": 32.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1700100000,
+     "profit": 314200000,
+     "netIncome": 183900000,
+     "margin": 18.5,
+     "yoy": {
+      "revenue": 10.6,
+      "profit": 1.1,
+      "netIncome": -3.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1648900000,
+     "profit": 287700000,
+     "netIncome": 171500000,
+     "margin": 17.4,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 22,
+      "netIncome": 28.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1550600000,
+     "profit": 284200000,
+     "netIncome": 175800000,
+     "margin": 18.3,
+     "yoy": {
+      "revenue": 9.2,
+      "profit": -1.4,
+      "netIncome": 1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "CBZ vs. EFX: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/cbz-vs-efx-which-stock-should-value-investors-buy-now",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Equifax Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/equifax-q3-earnings-call-highlights",
+     "date": "2026-10-20",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Equifax: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/equifax-3-key-takeaways-long-term-investors",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Equifax (EFX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/equifax-efx-q3-2026-earnings-call-transcript",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Equifax Stock Popped After Earnings",
+     "url": "https://www.nasdaq.com/articles/why-equifax-stock-popped-after-earnings",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Equifax (EFX) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-equifax-efx-q3-earnings-look-key-metrics",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Equifax Q3 Earnings Beat Estimates, Revenues Increase Y/Y",
+     "url": "https://www.nasdaq.com/articles/equifax-q3-earnings-beat-estimates-revenues-increase-y-y",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Equifax (EFX) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/equifax-efx-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318526000037/efx-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526323760/d125882d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000003318526000024/efx-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526272759/d52077d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526220328/d20400d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/33185/000119312526177620/d50537d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Hasbro, Northrop Grumman, Equifax, GM",
+   "url": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-midday-has-noc-efx-gm.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Coinbase, Micron, Hasbro, Utz & more",
+   "url": "https://www.cnbc.com/2026/07/21/stocks-making-the-biggest-moves-midday-coin-mu-nbis-has-utz.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "EFX",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 30.85,
+  "pbr": 4.71,
+  "eps": 5.69,
+  "bps": 37.25,
+  "shares": 117485000,
+  "marketCapM": 20627,
+  "high52": 236.24,
+  "high52Date": "2025-10-27",
+  "low52": 137.01,
+  "low52Date": "2026-09-30",
+  "last": 175.57,
+  "prevClose": 176.54,
+  "nameKo": "에퀴팩스",
+  "nameEn": "EQUIFAX INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 117485000
+ }
+}

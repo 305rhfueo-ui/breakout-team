@@ -1,0 +1,154 @@
+{
+ "ticker": "DXCM",
+ "news": [
+  {
+   "title": "S&P 500 Analyst Moves: DXCM",
+   "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-dxcm",
+   "date": "2026-10-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Here's Why DexCom (DXCM) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-dexcom-dxcm-strong-growth-stock",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why DexCom (DXCM) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-dexcom-dxcm-top-growth-stock-long-term-0",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-10",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000175/dxcm-20260910.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-10",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000167/dxcm-20260910.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000142/dxcm-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000105/dxcm-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-14",
+   "items": [
+    "7.01",
+    "8.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000085/dxcm-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000072/dxcm-20260430.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.17,
+  "saleNy": 10.78,
+  "epsCy": 27.42,
+  "epsNy": 17.29,
+  "cyTrend": 0.03,
+  "nyTrend": -0.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    13.08,
+    15.05,
+    13.12
+   ],
+   "ni": [
+    38.54,
+    89.28,
+    76.2
+   ],
+   "opm": [
+    24.33,
+    21.42,
+    25.64
+   ],
+   "updated": "2026-09-08 09:37:54"
+  }
+ }
+}

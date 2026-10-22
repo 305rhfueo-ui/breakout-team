@@ -1,0 +1,150 @@
+{
+ "ticker": "ACA",
+ "news": [
+  {
+   "title": "Arcosa (ACA) Q2 Earnings and Revenues Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/arcosa-aca-q2-earnings-and-revenues-lag-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Arcosa (ACA) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-arcosa-aca-q2-earnings",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Has Arcosa (ACA) Outpaced Other Construction Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/has-arcosa-aca-outpaced-other-construction-stocks-year",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-04",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1739445/000114036126035795/ef20081570_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1739445/000173944526000124/aca-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-14",
+   "items": [
+    "1.04"
+   ],
+   "itemsKo": [
+    "1.04"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1739445/000173944526000120/aca-20260714.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-21",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1739445/000173944526000112/aca-20260621.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-05",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1739445/000173944526000107/aca-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1739445/000173944526000093/aca-20260513.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -10.21,
+  "saleNy": 9.65,
+  "epsCy": -3.99,
+  "epsNy": 19.29,
+  "cyTrend": -2.1,
+  "nyTrend": 0.69,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.73,
+    4.4,
+    33.67
+   ],
+   "ni": [
+    450.25,
+    60.17,
+    "흑자전환"
+   ],
+   "opm": [
+    12.8,
+    8.24,
+    11.97
+   ],
+   "updated": "2026-09-09 07:19:10"
+  }
+ }
+}
