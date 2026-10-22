@@ -262,6 +262,15 @@ async function main() {
       problems.push(`QQQ 마지막 봉이 ${qq.lastBarDate} 인데 RS 데이터 세션은 ${expectedSession} 입니다`);
     }
     if (!qq && args.yahoo) problems.push('QQQ 봉을 받지 못했습니다');
+    // RS 사이트 가격이 하루 전 종가인가 (2026-10-22: last_updated 는 10/21 세션인데 가격은 55~85% 종목이 10/20 이었다 —
+    //   사이트가 마감 뒤 비어 오는 당일 봉을 버렸다. 세션일 검사는 갱신 시각만 봐서 놓쳤다). 사이트 Price 를 우리 봉 마지막·그 전 종가와 대조한다.
+    const near = (a, b) => a && b && Math.abs(a / b - 1) < 0.002;
+    const px = [...barsMap.keys()].filter((t) => t !== 'QQQ' && rowByTicker.has(t) && (barsOf(t) || []).length > 1).map((t) => {
+      const b = barsOf(t), p = rowByTicker.get(t).Price;
+      return near(b[b.length - 1].c, p) ? 'last' : near(b[b.length - 2].c, p) ? 'prev' : 'other';
+    });
+    const stalePx = px.filter((x) => x === 'prev').length;
+    if (px.length >= 20 && stalePx > px.length * 0.3) problems.push(`RS 사이트 가격이 하루 전 종가인 종목 ${stalePx}/${px.length}개 — 등락률·RS·거래량 배수가 하루 밀린 값입니다`);
     if (gappedTickers.length) problems.push(`봉이 빠진 종목 ${gappedTickers.length}개 (${gappedTickers.slice(0, 8).join(', ')}${gappedTickers.length > 8 ? ' …' : ''})`);
     if (!problems.length) return null;
     return {
