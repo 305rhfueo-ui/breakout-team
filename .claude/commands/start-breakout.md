@@ -24,6 +24,8 @@ REPO 경로: `~/AI/breakout-team`
 - `docs/CLAUDE-NOTES.md` 의 "지금 적용 중인 규칙"을 읽는다.
 - **이 기계가 아침 스캔을 맡고 있으면 1번을 돌리지 않는다.** 판정: `launchctl list | grep -q com.breakout.daily` 가 참이고
   `state/watchlist/<오늘>.json` 이 있으면 07:10 작업이 이미 같은 일을 했다. 같은 날짜를 두 번 만들면 충돌한다.
+  - ⚠️ 이 규칙은 **1번(Node 스캔)에만** 해당한다. 2번 이후(리서치·병합)는 오늘 결과가 이미 있어도 그대로 진행한다 —
+    순환 로직이 이미 조사한 종목을 건너뛰고, 병합은 같은 날 앞선 결과를 지우지 않는다. (2026-10-22: 재실행이 "이미 있다"며 통째로 멈췄다)
   - 1번에서 "출력에서 읽어둔다"고 한 항목(RS 결측률 · QQQ 판정 · FINRA YoY · 2팀 퍼널 · 3팀 활성/배제 · 4팀 후보 · 차트확인 종목)은
     `~/Library/Logs/breakout-team/daily.log` 의 **마지막 실행 블록**에서 읽는다.
   - `⛔ start breakout 중단` 은 `throw` 라 표준오류로 나간다 — `daily.log` 가 아니라 **`daily.err.log`** 의 끝을 본다.
