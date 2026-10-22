@@ -513,14 +513,14 @@ window.TEAM1_DATA = {
     "team": 1,
     "digest": [
       {
-        "headline": "테슬라, 실적은 넘겼지만 자동차 매출은 줄었다",
-        "easy": "테슬라가 3분기에 시장 기대를 넘는 이익과 매출을 발표했다. 그런데 본업인 자동차 부문 매출은 오히려 줄었다. 감소 이유는 기사에 나오지 않았다. 발표 뒤 주가는 내렸는데, 머스크가 투자자들이 기대한 만큼의 다음 그림을 보여 주지 않았다는 평가 때문이다.",
-        "whyMatters": "자동차·전기차 업종에는 부담이고, 테슬라에 부품을 대는 쪽도 같이 흔들린다. 머스크가 띄우는 스페이스X 합병 얘기도 근거가 약하다는 지적이 나와 변동성을 키운다.",
+        "headline": "테슬라, 기대 넘겼지만 자동차 매출은 줄고 주가는 하락",
+        "easy": "테슬라가 3분기 이익과 매출 모두 시장 기대를 넘겼다. 그런데 본업인 자동차 부문 매출은 오히려 줄었다 — 성장이 자동차 밖에서 나왔다는 뜻이다. 발표 뒤 주가는 떨어졌는데, 머스크가 투자자들이 기대한 만큼의 다음 그림을 내놓지 않았기 때문이다. 여기에 테슬라와 SpaceX 를 합치자는 이야기가 돌지만 회의적으로 봐야 한다는 분석도 같이 나왔다.",
+        "whyMatters": "자동차·전기차 업종에는 본업 매출이 줄었다는 점이 부담이고, 자율주행·로봇 같은 기대 사업에 얼마를 매길지 논쟁이 다시 커진다. 실적이 좋아도 주가가 빠지는 반응은 지금 시장이 눈높이를 쉽게 낮추지 않는다는 신호다.",
         "impact": "down",
         "sources": [
           {
             "title": "Tesla beats on earnings and sales even as auto revenue declines",
-            "publisher": "CNBC Top News",
+            "publisher": "CNBC",
             "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
             "date": "2026-10-21",
             "quote": "Tesla beats on earnings and sales even as auto revenue declines",
@@ -548,35 +548,26 @@ window.TEAM1_DATA = {
         ]
       },
       {
-        "headline": "채권 금리가 뛰자 코어위브 신뢰가 흔들렸다",
-        "easy": "코어위브 주가가 내리고 이 회사가 발행한 채권의 금리는 뛰었다. 채권 금리가 오른다는 건 그 회사가 돈을 빌릴 때 더 비싼 이자를 내야 한다는 뜻이다. 코어위브는 빚을 내서 AI 데이터센터를 짓는 회사라 조달 조건이 실적에 바로 영향을 준다. 같은 날 블랙록의 릭 리더는 우량 채권에서 '역사적' 기회가 보인다고 말했다.",
-        "whyMatters": "AI 데이터센터·클라우드 임대 업종에 나쁘고, 빚으로 설비를 늘리는 회사일수록 타격이 크다. 돈이 채권으로 옮겨 가면 주식 쪽 자금이 얇아진다.",
+        "headline": "CoreWeave 채권 금리 급등, AI 투자 자금줄에 금이 갔다",
+        "easy": "AI 데이터센터 업체 CoreWeave 가 발행한 채권의 금리가 급하게 올랐다. 채권 금리가 오른다는 것은 이 회사가 돈을 빌리는 값이 비싸졌다는 뜻이다. 주가도 같이 내렸고, 시장의 신뢰가 깎였다. 데이터센터를 빚으로 짓는 회사일수록 조달 비용 상승이 곧바로 수익성 문제로 돌아온다.",
+        "whyMatters": "AI 클라우드·데이터센터 업종, 그리고 거기에 설비를 파는 반도체·전력·건설 업종으로 자금 조달 위험이 옮겨붙을 수 있다. 빚 비중이 큰 회사부터 흔들리기 때문에, AI 테마 안에서도 현금을 버는 회사와 빌려 쓰는 회사가 갈린다.",
         "impact": "down",
         "sources": [
           {
             "title": "CoreWeave's market confidence erodes as bond yields spike and stock sinks",
-            "publisher": "CNBC Top News",
+            "publisher": "CNBC",
             "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
             "date": "2026-10-21",
             "quote": "CoreWeave's market confidence erodes as bond yields spike and stock sinks",
-            "verified": "ok",
-            "httpStatus": 200
-          },
-          {
-            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
-            "publisher": "CNBC Top News",
-            "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
-            "date": "2026-10-21",
-            "quote": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
             "verified": "ok",
             "httpStatus": 200
           }
         ]
       },
       {
-        "headline": "메타, 개인정보 거짓 설명으로 250억 달러 과징금",
-        "easy": "메타가 이용자 데이터를 어떻게 쓰는지 거짓으로 설명했다는 이유로 250억 달러 과징금을 받았다. 액수가 커서 이익을 한 번에 깎는 일회성 비용이 된다. 반대로 같은 날 주가는 올랐는데, 광고 사업보다 더 커질 수 있는 기회를 투자자들이 보기 시작했다는 평가 때문이다. 과징금과 새 기대 중 어느 쪽이 더 오래 갈지는 아직 확인되지 않았다.",
-        "whyMatters": "광고·소셜미디어 업종에 규제 비용이 다시 붙었다는 신호다. 같은 방식으로 이용자 데이터를 쓰는 다른 플랫폼 기업에도 잣대가 세질 수 있다.",
+        "headline": "메타, 개인정보 거짓 설명으로 250억 달러 벌금",
+        "easy": "메타가 이용자 정보 보호에 대해 거짓말을 했다는 이유로 250억 달러 벌금을 받았다. 금액이 워낙 커서 당장 이익에 직접 부담이 된다. 그런데 같은 날 주가는 올랐다 — 광고 사업보다 더 커질 수 있는 새 기회를 투자자들이 봤기 때문이다. 벌금이라는 비용과 새 사업 기대가 같은 날 맞붙은 셈이다.",
+        "whyMatters": "인터넷 광고·플랫폼 업종에서 규제 벌금이 일회성 사고가 아니라 상수 비용으로 굳어진다는 뜻이다. 메타처럼 현금이 두터운 회사는 버티지만, 규제에 민감한 작은 플랫폼 기업에는 더 아프다.",
         "impact": "neutral",
         "sources": [
           {
@@ -594,20 +585,20 @@ window.TEAM1_DATA = {
             "url": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
             "date": "2026-10-21",
             "quote": "Meta's stock rises as investors glimpse an opportunity that could dwarf the ad business",
-            "verified": "unverified",
-            "httpStatus": 401
+            "verified": "ok",
+            "httpStatus": 200
           }
         ]
       },
       {
-        "headline": "IBM, 매출과 이익 모두 기대를 넘었다",
-        "easy": "IBM 이 3분기 매출과 이익 모두 시장 기대를 웃돌았다. 크리슈나 CEO 는 '슈퍼 인텔리전스' 사업이 실제로 팔리고 있다고 강조했다. AI 투자가 반도체뿐 아니라 기업용 소프트웨어·서비스 매출로도 넘어오고 있다는 근거다.",
-        "whyMatters": "기업용 소프트웨어·IT 서비스 업종에 좋고, AI 수요가 하드웨어 한 곳에만 쏠린다는 걱정을 덜어 준다. 이 흐름이 이어지면 기술 업종 전반의 실적 기대가 유지된다.",
+        "headline": "IBM, 매출·이익 모두 기대 넘기고 AI 수요도 확인",
+        "easy": "IBM 이 매출과 이익 양쪽 모두 시장 기대를 넘겼다. 크리슈나 CEO 는 'Super Intelligence' 사업이 실제로 팔리고 있다고 밝혔다. 이번 발표의 관심사는 AI 수요가 말이 아니라 실제 매출로 들어오는지였고, 결과는 긍정 쪽이었다. AI 투자가 매출로 돌아온다는 사례가 하나 늘었다는 의미다.",
+        "whyMatters": "소프트웨어·IT 서비스 업종에 좋은 소식이고, AI 수요를 의심하던 쪽의 근거를 약하게 만든다. 다만 지수 전체가 눌려 있는 국면에서는 좋은 실적도 하루 반등으로 끝나는 경우가 많다.",
         "impact": "up",
         "sources": [
           {
             "title": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
-            "publisher": "CNBC Top News",
+            "publisher": "CNBC",
             "url": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
             "date": "2026-10-21",
             "quote": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
@@ -617,9 +608,35 @@ window.TEAM1_DATA = {
         ]
       },
       {
+        "headline": "연료비에 사우스웨스트가 이익 전망을 낮췄다",
+        "easy": "사우스웨스트항공이 2026년 이익 가이던스(회사가 내놓은 전망)를 낮췄다. 연료비가 올랐기 때문이다. 같은 날, 페르시아만의 원유 수출이 이란 전쟁 이전 수준으로 돌아왔는데도 유가가 곧바로 내려가기는 어렵다는 분석이 나왔다. 연료비 부담이 한 분기로 끝나지 않을 수 있다는 뜻이다.",
+        "whyMatters": "항공·운송 업종에는 비용 부담이 이어지고, 반대로 정유·에너지 업종에는 유리한 환경이다. 비용이 올라 전망을 낮추는 기업이 더 나오는지가 다른 업종으로도 번지는지의 단서가 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+            "date": "2026-10-21",
+            "quote": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
         "headline": "투자자들이 값을 더 주고 헬스케어를 사고 있다",
-        "easy": "투자자들이 헬스케어 업종에 전보다 높은 값을 주고 사들이고 있고, 그 안에서 눈에 띄는 7개 종목이 꼽혔다. 기술주 장세가 흔들리는 동안 방어적이면서 성장도 있는 쪽으로 돈이 옮겨 가는 모습이다. 우리 선정 목록에서도 헬스케어가 13종목으로 기술 다음으로 많다.",
-        "whyMatters": "제약·의료기기·의료서비스 업종에 유리하고, 기술 업종 한 곳에 쏠린 구성의 위험을 줄여 준다. 다만 이미 값이 오른 뒤에 들어가는 자리라는 점은 감안해야 한다.",
+        "easy": "투자자들이 헬스케어 업종에 전보다 비싼 값을 주고 있다는 분석이 나왔고, 그 안에서 눈에 띄는 7개 종목이 꼽혔다. 기술주 쪽이 흔들리는 동안 상대적으로 안정적인 업종으로 돈이 옮겨가는 모습이다. 실제로 지금 주도 종목 목록에서도 헬스케어가 기술 다음으로 많다. 시장의 관심이 한쪽에 쏠려 있지 않다는 신호다.",
+        "whyMatters": "제약·의료기기 업종이 주도 자리를 넓히는 쪽이고, 기술 한 곳에만 쏠린 포지션의 위험을 줄여 준다. 다만 이미 값을 더 주고 산다는 말이 나올 정도면 뒤늦게 들어가는 위험도 같이 커진다.",
         "impact": "up",
         "sources": [
           {
@@ -632,191 +649,393 @@ window.TEAM1_DATA = {
             "httpStatus": 401
           }
         ]
-      },
-      {
-        "headline": "데이터센터가 전기를 직접 만들라는 요구가 나왔다",
-        "easy": "트럼프 대통령이 데이터센터는 쓸 전기를 자체 생산해야 한다고 말했다. 전문가들은 그런 의무를 지울 수 있는 건 연방정부가 아니라 주 정부라고 지적했다. 전기와 물을 많이 쓰는 데이터센터에 대한 지역 반발이 커진 데서 나온 얘기다. 아시아 최대 데이터센터 시장으로 떠오른 인도도 같은 걱정을 달래려 하고 있다.",
-        "whyMatters": "발전·전력 설비 업종에는 새 수요가 되고, 전기 부담을 떠안는 데이터센터 운영사에는 비용 요인이다. 규칙이 주마다 갈리면 건설 일정이 늦어질 수 있다.",
-        "impact": "neutral",
-        "sources": [
-          {
-            "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
-            "publisher": "MarketWatch",
-            "url": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
-            "date": "2026-10-21",
-            "quote": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
-            "verified": "unverified",
-            "httpStatus": 401
-          },
-          {
-            "title": "Inside India newsletter: Asia's hottest data center market aims to quell concerns over water and power use",
-            "publisher": "CNBC Top News",
-            "url": "https://www.cnbc.com/2026/10/22/india-data-center-google-amazon.html",
-            "date": "2026-10-22",
-            "quote": "Inside India newsletter: Asia's hottest data center market aims to quell concerns over water and power use",
-            "verified": "ok",
-            "httpStatus": 200
-          }
-        ]
       }
     ],
-    "marketNarrative": "지금은 새로 사기보다 기다릴 때다. QQQ 의 10일선이 20일선 아래로 내려간 지 2일째여서, 쿨라매기 기준으로는 신규 매수를 멈추고 들고 있는 것을 점검하는 구간이다(QQQ 종가 725.2). 오늘 뉴스는 방향이 갈렸다 — IBM 실적과 헬스케어로 들어오는 자금은 좋은 쪽이지만, 코어위브의 조달 악화와 테슬라 자동차 매출 감소는 AI·전기차 기대를 식힌다. 빚내서 산 주식 금액이 1년 전보다 31.4% 늘어 주의선을 넘은 상태라, 하락이 시작되면 강제 매도가 겹쳐 낙폭이 커질 수 있다. 이번 주는 10일선이 20일선을 다시 넘어서는지, 그리고 채권 금리가 더 뛰지 않는지를 보면 된다.",
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니다. QQQ 종가 725.2 로 10일선이 20일선 아래로 내려간 지 2일째이고, 이런 국면에서는 돌파를 사도 실패 확률이 올라간다. 오늘 뉴스도 같은 쪽을 가리킨다 — 테슬라는 기대를 넘겼는데도 주가가 빠졌고, CoreWeave 는 금리가 오르자 AI 투자 자금줄부터 흔들렸다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% 로 주의선을 넘어 있다는 것이다 — 지수가 더 밀리면 강제 매도가 하락을 키운다. 이번 주에는 10일선이 20일선 위로 돌아오는지, 그리고 채권 금리와 AI 관련 기업의 조달 비용이 진정되는지를 보면 된다.",
     "keyRisks": [
-      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어 있어, 하락이 시작되면 강제 청산 매물이 겹쳐 낙폭을 키운다.",
-      "시장 신호가 빨간불이다: 단기 이동평균이 중기 이동평균 아래에 있는 구간에서는 돌파 매수의 성공률이 떨어진다.",
-      "채권 금리 상승: 빚으로 설비를 짓는 AI 회사의 조달 비용이 커지고, 주식에서 채권으로 자금이 옮겨 갈 수 있다.",
-      "기술 업종 쏠림: 선정 종목의 40%가 기술 업종이라 기술주가 흔들리면 보유 종목이 한꺼번에 흔들린다."
+      "AI 투자 자금줄: 채권 금리가 오르면 데이터센터를 빚으로 짓는 회사부터 흔들린다. CoreWeave 가 그 신호를 먼저 냈다.",
+      "빚낸 투자 쏠림: 마진부채가 주의선을 넘어 있어, 지수가 더 밀리면 강제 매도가 하락을 키운다.",
+      "좋은 실적에도 빠지는 주가: 테슬라처럼 기대를 넘겨도 팔리는 반응은 시장이 눈높이를 낮추지 않는다는 뜻이다. 실적 호재만 믿고 들어가면 당한다.",
+      "연료·유가 비용: 유가가 쉽게 내려오지 않으면 항공·운송의 이익 전망이 더 낮아질 수 있다."
     ],
     "easySummary": [
-      "QQQ 가 단기 이동평균 아래로 내려와, 지금은 새로 사기보다 기다리는 구간이다.",
-      "테슬라와 코어위브는 식었고, IBM 실적과 헬스케어 쪽으로는 돈이 들어왔다.",
-      "빚으로 산 주식이 주의선을 넘었으니 보유 종목의 손절선을 먼저 확인하자."
+      "지수가 단기 추세를 아래로 꺾어 새로 사기엔 나쁜 자리다 — 신규 매수보다 보유 종목 정리 검토가 먼저다.",
+      "테슬라는 실적이 좋았는데도 주가가 빠지고, CoreWeave 는 금리 상승에 조달 비용이 올라 흔들렸다.",
+      "돈은 기술주에서 헬스케어 쪽으로 조금씩 옮겨가고, 연료비 상승은 항공·운송 이익 전망을 낮추고 있다."
     ],
-    "candidateCount": 20,
+    "candidateCount": 22,
     "verified": {
-      "checked": 155,
-      "ok": 253,
+      "checked": 206,
+      "ok": 365,
       "unverified": 5,
       "dead": 0,
-      "stripped": 9,
+      "stripped": 24,
       "removed": [
         {
-          "reason": "인용문 없음",
-          "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000055/tdy-20261021.htm"
-        },
-        {
-          "reason": "인용문 없음",
-          "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926117400/tm2627817d1_8k.htm"
+          "reason": "중복",
+          "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxecgg.pdf"
         }
       ],
-      "numberCut": 20,
+      "numberCut": 56,
       "numberCuts": [
         {
-          "sentence": "회사가 올해 이익 전망을 올렸고 하반기에 마진이 약 5%포인트 좋아질 것으로 봤다.",
+          "sentence": "직전 분기(6월 말) 매출은 7.07억 달러로 1년 전보다 17% 늘었고, 영업이익률은 약 20.8%였다.",
+          "missing": [
+            "7.07억 달러",
+            "17",
+            "20.8"
+          ]
+        },
+        {
+          "sentence": "주가는 7월 고점(104.74달러)보다 낮고 1년 평균보다 14% 아래다.",
+          "missing": [
+            "104.74",
+            "14"
+          ]
+        },
+        {
+          "sentence": "1분기도 63.5% 늘어 성장세가 이어지고 있다.",
+          "missing": [
+            "63.5"
+          ]
+        },
+        {
+          "sentence": "1분기 말 발사 수주잔고는 9.2억 달러로 1년 전보다 119% 늘었고 뉴트론 계약도 5건 체결됐다.",
           "missing": [
             "5"
           ]
         },
         {
-          "sentence": "올해 유기적 성장 전망도 0~1%에 그친다.",
+          "sentence": "같은 날 뉴트론 연기 소식이 나왔고, 최근 종가는 50.90달러에서 53.67달러로 올랐다.",
           "missing": [
-            "1"
+            "50.90",
+            "53.67"
           ]
         },
         {
-          "sentence": "3분기 매출이 16.9억 달러로 1년 전보다 9.6% 늘었고, 증권사 예상치도 넘어섰다.",
+          "sentence": "이리듐 인수 대금 19.4억 달러를 신주 발행으로 마련해 기존 주주 몫이 줄었다.",
           "missing": [
-            "16.9억 달러",
-            "9.6"
+            "19.4억 달러"
           ]
         },
         {
-          "sentence": "영업이익이 3억 5,530만 달러로 1년 전보다 34.4% 늘었고, 영업이익률은 직전 분기 18.5%에서 21%로 올랐다.",
+          "sentence": "주가 기준 PER도 약 192배로 높아 부담이다.",
           "missing": [
-            "18.5"
+            "192"
           ]
         },
         {
-          "sentence": "주가수익비율도 33배로 낮지 않다.",
+          "sentence": "10월 1일 CNBC는 짐 크레이머의 AI 인프라 추천주 기사를 냈고, 이어 10월 6일 주가가 52주 고점 370.35달러를 찍었다.",
           "missing": [
-            "33"
+            "370.35"
           ]
         },
         {
-          "sentence": "6개월 수익률은 -0.36%로 제자리다.",
+          "sentence": "4분기 설비투자가 350~400억 달러로 지난해 같은 분기(69억 달러)의 5배가 넘는다.",
           "missing": [
-            "0.36"
+            "400억 달러",
+            "350",
+            "5"
           ]
         },
         {
-          "sentence": "10월 7일 할로자임과 ENHANZE 기술(피하주사 제형) 협력 대상을 2개 더 늘렸다.",
+          "sentence": "2분기 영업손실이 1.74억 달러로 매출의 약 3.9배다.",
+          "missing": [
+            "1.74억 달러",
+            "3.9"
+          ]
+        },
+        {
+          "sentence": "지난 4분기에도 3만 2천여 BTC를 약 31억 달러에 사들였다.",
           "missing": [
             "2"
           ]
         },
         {
-          "sentence": "1년간 주가가 3배 넘게 올랐다.",
+          "sentence": "주당순이익이 0.04달러 수준이라 이익 기준 배수가 6,700배에 달하고, 최근 분기 영업손실도 3,300만 달러다.",
+          "missing": [
+            "6,700"
+          ]
+        },
+        {
+          "sentence": "영국 통신사 오픈리치와 1.6Tb/s(초당 1.6조 비트) 광 전송 기술 계약이 알려져 성장 기대를 더했다.",
+          "missing": [
+            "1.6조"
+          ]
+        },
+        {
+          "sentence": "7월 분기 매출이 470억 달러로 1년 전보다 58% 늘었고 영업이익은 3배 이상으로 뛰었다.",
           "missing": [
             "3"
           ]
         },
         {
-          "sentence": "1분기 매출 증가율 15.6%보다 빨라졌다.",
+          "sentence": "이번 분기 4.79억 달러보다 높아, 성장세가 이어진다는 신호로 읽힌다.",
           "missing": [
-            "15.6"
+            "4.79억 달러"
           ]
         },
         {
-          "sentence": "10월 20일 Trumid Holdings를 19.7억 달러에 인수한다는 소식이 나왔다.",
+          "sentence": "주가는 올해 6월 고점(약 308달러)보다 크게 낮다.",
           "missing": [
-            "19.7억 달러"
+            "308"
           ]
         },
         {
-          "sentence": "19.7억 달러 인수로 자금 부담이 생긴다.",
+          "sentence": "10월 19일 MKS의 광학 사업(Ophir)을 약 6.5억 달러 현금으로 인수한다고 발표했다.",
           "missing": [
-            "19.7억 달러"
+            "6.5억 달러"
           ]
         },
         {
-          "sentence": "3월 분기 영업이익률 94%에서 6월 분기 65%로 낮아졌고, 순이익 증가율(47.7%)도 매출 증가율(62.9%)보다 낮다.",
+          "sentence": "10월 12일 4억 달러를 들여 생산을 늘리겠다는 투자 계획을 냈다.",
           "missing": [
-            "47.7",
-            "62.9"
+            "4억 달러"
           ]
         },
         {
-          "sentence": "최근 직전 거래일 종가는 442.21달러에서 414.29달러로 약 6% 내렸다.",
+          "sentence": "최근 종가 95.51달러에서 102.15달러로 약 7% 올랐다.",
           "missing": [
-            "6"
+            "7"
           ]
         },
         {
-          "sentence": "3M은 AI 관련 계약과 상향된 전망이 실적 콜의 핵심이었습니다.",
+          "sentence": "1개월 하락폭이 19%여서 낙폭 과대 반등의 성격도 있다.",
           "missing": [
-            "3M"
+            "19"
           ]
         },
         {
-          "sentence": "3M, 해즈브로, MSCI, 에퀴팩스, 비코는 10월 20~21일 3분기 실적 발표 직후 거래대금이 몰렸습니다.",
+          "sentence": "주당순이익 2.22달러 기준 PER(이익 대비 주가 배수)이 46배이고, 고점 뒤 이미 한 달간 19% 내렸다.",
           "missing": [
-            "3M"
+            "19"
           ]
         },
         {
-          "sentence": "EFX가 2026-10-20 3분기 실적을 발표했고 이익·매출이 예상을 웃돌았다고 보도됐다.",
+          "sentence": "인수와 증설에 쓸 돈이 약 10억 달러에 이른다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "주가수익비율 18배 수준으로 저평가 종목이라는 평가가 반복됐다.",
+          "missing": [
+            "18"
+          ]
+        },
+        {
+          "sentence": "주가 134달러는 1월 고점 222.53달러보다 약 40% 낮다.",
+          "missing": [
+            "40"
+          ]
+        },
+        {
+          "sentence": "2억 달러 규모 대출 약정을 맺어 자금 조달 부담이 줄었다.",
+          "missing": [
+            "2억 달러"
+          ]
+        },
+        {
+          "sentence": "주가가 4월 고점(108달러)보다 약 21% 낮고, 최근 1개월은 오르지 못했다.",
+          "missing": [
+            "21"
+          ]
+        },
+        {
+          "sentence": "영업이익은 1,177만 달러로 1년 전 적자에서 돌아섰다.",
+          "missing": [
+            "1,177만 달러"
+          ]
+        },
+        {
+          "sentence": "직전 분기(2025년 4분기)에는 영업손실이 1.9억 달러였다.",
+          "missing": [
+            "1.9억 달러"
+          ]
+        },
+        {
+          "sentence": "주가가 7월 고점보다 약 32% 내려와 있다.",
+          "missing": [
+            "32"
+          ]
+        },
+        {
+          "sentence": "앞선 3월 분기 증가율 1.2%에서 크게 가속됐다.",
+          "missing": [
+            "1.2"
+          ]
+        },
+        {
+          "sentence": "올해 주당순이익 예상치가 한 달 전 11.43달러에서 12.50달러로 약 9% 올랐다.",
+          "missing": [
+            "9"
+          ]
+        },
+        {
+          "sentence": "6개월 상승률이 105%이고 1년 평균가보다 55% 높아 단기 과열 구간이다.",
+          "missing": [
+            "105"
+          ]
+        },
+        {
+          "sentence": "직전 분기 증가율 32.2%보다 높아져 성장이 빨라졌다.",
+          "missing": [
+            "32.2"
+          ]
+        },
+        {
+          "sentence": "회사가 올해 주당 조정 이익 전망을 $11.15~11.45로 올렸고, 하반기에는 이익률이 약 5%포인트 좋아질 것으로 봤다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "10월 2일 인수 계약이 주당 123달러, 총 57억 달러 규모로 수정됐다.",
+          "missing": [
+            "57억 달러"
+          ]
+        },
+        {
+          "sentence": "현재 주가 117달러는 이 인수가에 가까운 수준이다.",
+          "missing": [
+            "117"
+          ]
+        },
+        {
+          "sentence": "현재가 117달러는 인수가 123달러보다 약 5% 낮다.",
+          "missing": [
+            "117",
+            "5"
+          ]
+        },
+        {
+          "sentence": "회사 가이던스(2026년): 연간 매출 6억1천만~6억3천만 달러, 일회성 매출 제외 시 전년 대비 2~5% 성장.",
+          "missing": [
+            "6억1",
+            "6억3"
+          ]
+        },
+        {
+          "sentence": "투자지출이 매출 대비 10.3%로 늘어, 연간 FCF 마진 30% 이상 유지를 위해 4분기에 역대 최대 FCF가 필요하다.",
+          "missing": [
+            "10.3",
+            "30"
+          ]
+        },
+        {
+          "sentence": "2026-10-20 3분기 실적 발표: 매출 146억 달러(+161%), 조정 EPS 0.35달러로 흑자 전환, 예상치 상회.",
           "missing": [
             "10",
             "20"
           ]
         },
         {
-          "sentence": "2026년 7월 분기 영업이익이 2.84천만 달러 흑자(영업이익률 3.7%)이고 순이익은 4.09천만 달러다.",
+          "sentence": "2026-06-16 나스닥 상장으로 857억 달러를 조달했다.",
           "missing": [
-            "2.84",
-            "4.09"
+            "06",
+            "16"
           ]
         },
         {
-          "sentence": "2025년 12월 분기 매출 28만 4천 달러, 전년 동기 대비 78.6% 감소.",
+          "sentence": "2026-06 분기 매출 78.14억 달러, 전년 동기(40.71억 달러)보다 약 92% 증가.",
           "missing": [
-            "4"
+            "40.71억 달러"
           ]
         },
         {
-          "sentence": "7월 8억 달러 증자로 기존 주주 지분이 희석됐다.",
+          "sentence": "2026-10-21 3분기 이익·매출이 예상을 웃돌았다는 기사가 나왔다.",
           "missing": [
-            "8억 달러"
+            "10",
+            "21"
           ]
         },
         {
-          "sentence": "2분기 실적 발표(7월 30일) 8-K 제출.",
+          "sentence": "성장 둔화 가능성: 매출 증가율이 3월 분기 26.5%에서 6월 분기 17.2%로 낮아졌고, 내년 매출 전망 증가율은 6.3%다.",
+          "missing": [
+            "26.5",
+            "17.2"
+          ]
+        },
+        {
+          "sentence": "6월 Zacks 기사가 AT&T·SpaceX 계약을 다뤘고, 10월 2일 8-K에 중요 계약 체결이 있다",
           "missing": [
             "8"
           ]
+        },
+        {
+          "sentence": "회사는 6월 시점에 2026 회계연도 매출 가이던스를 62억~64억 달러로 올렸다(직전 59억~63억 달러, 3개 분기 연속 상향)",
+          "missing": [
+            "62억",
+            "64억 달러",
+            "59억",
+            "63억 달러"
+          ]
+        },
+        {
+          "sentence": "신한투자증권 추정: 2027 회계연도 전체 매출 79억 달러, 전년비 25.1% 증가(제품별 추정 아님)",
+          "missing": [
+            "79억 달러"
+          ]
+        },
+        {
+          "sentence": "최근 4분기 증가율은 10.6~11.6%로 비슷하다.",
+          "missing": [
+            "11.6"
+          ]
+        },
+        {
+          "sentence": "2026-10-06 주가가 증권사 평균 목표주가를 넘어섰다는 보도가 나왔다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "2026-09-14 루브릭 주가가 하루 15% 급등했다.",
+          "missing": [
+            "09",
+            "14"
+          ]
+        },
+        {
+          "sentence": "2026-09-18 CFO가 약 250만 달러어치 주식을 팔았다.",
+          "missing": [
+            "09",
+            "18"
+          ]
+        },
+        {
+          "sentence": "2026-09-15 증권사 평균 목표주가가 11.53% 올라 122.31달러가 됐다.",
+          "missing": [
+            "09",
+            "15"
+          ]
+        },
+        {
+          "sentence": "2026-09-04 8월 한 달 주가가 28.6% 올랐다.",
+          "missing": [
+            "09",
+            "04"
+          ]
+        },
+        {
+          "sentence": "CFO가 2026-09 약 250만 달러어치 주식을 팔았다.",
+          "missing": [
+            "09"
+          ]
+        },
+        {
+          "sentence": "다음 분기 매출 증가율 전망(22.9%)이 최근 분기(37.9%)보다 낮아 성장이 둔화되는 흐름이다.",
+          "missing": [
+            "37.9"
+          ]
+        },
+        {
+          "sentence": "현재가 231.33달러보다 낮다.",
+          "missing": [
+            "231.33"
+          ]
         }
-      ],
-      "noQuote": 2
+      ]
     },
     "reusedFrom": null,
     "researchedOn": "2026-10-22"

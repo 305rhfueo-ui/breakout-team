@@ -1,0 +1,327 @@
+{
+ "ticker": "TEM",
+ "sector": "Healthcare",
+ "industry": "Health Information Services",
+ "nameKo": "템퍼스 AI",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 25.43,
+  "saleNy": 23.45,
+  "epsCy": -58.67,
+  "epsNy": -81.32,
+  "est": {
+   "cyCur": -0.25214,
+   "cy30": -0.25714,
+   "nyCur": -0.04711,
+   "ny30": 0.004
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    36.12,
+    82.98,
+    84.72
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-06-12 07:39:19"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-21",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "템퍼스 AI",
+  "nameEn": "TEMPUS AI INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001717115&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 382486000,
+     "profit": -75913000,
+     "netIncome": 5642000,
+     "margin": -19.8,
+     "yoy": {
+      "revenue": 21.6,
+      "profit": -22.9,
+      "netIncome": 113.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 348116000,
+     "profit": -84711000,
+     "netIncome": -125919000,
+     "margin": -24.3,
+     "yoy": {
+      "revenue": 36.1,
+      "profit": -23.3,
+      "netIncome": -85.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 367211000,
+     "profit": -61413000,
+     "netIncome": -54138000,
+     "margin": -16.7,
+     "yoy": {
+      "revenue": 83,
+      "profit": -21.1,
+      "netIncome": -316.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 334206000,
+     "profit": -60996000,
+     "netIncome": -79982000,
+     "margin": -18.3,
+     "yoy": {
+      "revenue": 84.7,
+      "profit": -13.8,
+      "netIncome": -5.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's How Tempus AI Demonstrates Improving Operating Leverage",
+     "url": "https://www.nasdaq.com/articles/heres-how-tempus-ai-demonstrates-improving-operating-leverage",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tempus AI's Ambry Genetics Launches GenomeNext To Improve Rare Disease Diagnosis",
+     "url": "https://www.nasdaq.com/articles/tempus-ais-ambry-genetics-launches-genomenext-improve-rare-disease-diagnosis",
+     "date": "2026-10-13",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Should You Buy, Hold or Sell Tempus AI Stock Amid AI Boom?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-hold-or-sell-tempus-ai-stock-amid-ai-boom",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's How Tempus AI is Capitalizing on AI-ECG Market Growth",
+     "url": "https://www.nasdaq.com/articles/heres-how-tempus-ai-capitalizing-ai-ecg-market-growth",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tempus Secures FDA Clearance For ECG-AI Software Designed To Detect Mitral Regurgitation",
+     "url": "https://www.nasdaq.com/articles/tempus-secures-fda-clearance-ecg-ai-software-designed-detect-mitral-regurgitation",
+     "date": "2026-09-28",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Tempus AI Chief Accounting Officer Sells $529,650 of Stock",
+     "url": "https://www.nasdaq.com/articles/tempus-ai-chief-accounting-officer-sells-529650-stock",
+     "date": "2026-09-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Tempus AI Sees Pricing, Data Growth Fueling Long-Term Expansion",
+     "url": "https://www.nasdaq.com/articles/tempus-ai-sees-pricing-data-growth-fueling-long-term-expansion",
+     "date": "2026-09-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Strength Seen in Tempus (TEM): Can Its 14.9% Jump Turn into More Strength?",
+     "url": "https://www.nasdaq.com/articles/strength-seen-tempus-tem-can-its-149-jump-turn-more-strength",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526326083/tem-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-20",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-20",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526308469/d124162d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526236814/d109019d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526220115/d117982d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526206317/tem-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-06-17",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "title": "[템퍼스 AI (NAS:TEM)] 아쉬운 1분기, 순항은 하고 있다",
+     "summary": "- 유전자 NGS 사업을 통한 의료 빅데이터로 AI 사업에 나서고 있는 기업- P(보험 환급액), Q(진단 건수) 꾸준히 증가 중이나, 1분기 기대치 하회하는 실적 기록- 잉여현금흐름 2분기부터 정상화 예정, 매출액 가이던스 소폭 상향 조정",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlexklzeqmgmgkgcgxecgg.pdf",
+     "pages": "13"
+    },
+    {
+     "date": "2026-05-06",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[템퍼스 AI (NAS:TEM)] 반전 없는 실적 성장세",
+     "summary": "- 단기 비용 증가, 핵심 사업부 매출 증가세 둔화 등 세부 내용이 기대치를 미달한 실적. 중장기 성장 스토리를 뒷받침 할 수 있는 실적 성장세 필요- 1Q26 매출, GAAP EPS 3.5억달러(+36.1% YoY, -5.2% QoQ), -0.7달러로 매출은 컨센서스를 상회했으나 EPS는 기대치 미달(매출: 3.45억달러, ESP: -0.5)했고, EBITDA는 지난 분기 흑자에서 적자로 전환. 주식 보상비용 및 고용주 급여세 등 일시적 비용 증가 요인으로 수익성 악화- 대표 사업부 암/유전병 진단 플랫폼 매출 증가세 둔화 우려. 당기 유전체 진단 제품의 매출 증가율은 34.7%로 2025년 111.5%를 크게 하회. 높은 보험 수가를 적용 받는 xT CDx 제품으로 전환, 혈액 기반의 xF 승인 가 시화, 민간보험사 커버리지 확대 등 ASP 상승 요인들 존재하나 실현 여부 및 매출 증가세 반등 가시화로 중장기 성장 모멘텀 회복이 중요한 시점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlczieliekmeggcgxecgg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-02-27",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "title": "[템퍼스 AI (NAS:TEM)] 이번엔 템퍼스가 돈 벌 차례다",
+     "summary": "- 유전자 NGS 사업을 통한 의료 빅데이터로 AI 사업에 나서고 있는 기업- 진단 건수(Q), 보험 환급액(P) 모두 상승세 이어가며 역대 분기 최고치 경신 성공- `26년 조정 EBITDA 기준 흑자전환 목표 설정, 이제는 돈을 벌 차례",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgezcxlqkeqxlgcgxecgg.pdf",
+     "pages": "11"
+    },
+    {
+     "date": "2026-02-25",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[템퍼스 AI (NAS:TEM)] Numbers > Narrative",
+     "summary": "- 2025년까지 호실적에도 불구하고 올해부터 성장세에 대한 의구심 확대. 매출 증가세 회복을 구체화 할 수 있는 파트너십 및 컨센을 넘어서는 제품 수요 증가, ASP 상승과 같은 실적 개선 확인이 필요한 시점- 4Q25 매출, Non-GAAP EPS 3.7억달러(+83.0% YoY, +9.9% QoQ), -0.04 달러 기록해 컨센서스(매출: 3.6억달러, ESP: -0.05) 상회했으며 EBITDA 는 지난 분기에 이어 흑자 지속. 매출총이익률은 64.7%(4Q24: 61.9%, 3Q25: 62.8%)로 수익성 개선됐으며 암 진단 제품 ASP 상승에 기인- 데이터/인사이트 사업 성장 잠재력 잔존. 19개의 글로벌 빅파마, 250개 바 이오텍에 서비스 제공하며 2025년까지 20억달러 규모의 계약. 의료 AI로 데이터 중요성 커진 가운데 800만명 이상 환자 정보 제약사에 제공. 데이 터 베이스 기반 추가 파트너십 예상. 2026-27년간 11억달러 계약 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgccmqlgkqczzgcgxecgg.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[템퍼스 AI (NAS:TEM)] 기대감이 실적에 반영. 투심/실적 양쪽에서 모멘텀",
+     "summary": "- 템퍼스 Al는 2015년 설립돼 2024년 상장된 헬스케어 기업으로 인공지능을 활용한 유전체 기반의 암 진단/처방에 특화된 기업. 미국내 2,000개 병원과 파트너십 체결- 유전체 기반 진단 사업은 전체 매출에서 65%를 차지하며 환자별 유전자 분석을 통해 질병의 예후 및 약물의 반응도를 예측. 6개의 암 진단 플랫폼을 제공하고 높은 정밀도와 통합적 정보로 해당 분야의 두드러진 성장세 AI도입한 암 진단/처방 플랫폼도 판매- 데이터/인사이트 및 AI 서비스 사업도 영위. 데이터/인사이트 사업은 유전체 분석에서 생성된 데이터를 사용해 높은 수익성. 대형제약사 20개 중 19개 기업이 동사 데이터/인사이트 구독. Al 부문은 유전체 진단 및 데이터 사업과 결합해시너지 창출. 추가 성장 모멘텀으로 작용",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkcmieqgxmzigcgxecgg.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "title": "[템퍼스 AI (NAS:TEM)] P(보험 환급액), Q(진단 건수) 좋아지는 추세 유지",
+     "summary": "- 유전자 NGS 사업을 통한 의료 빅데이터로 AI 사업에 나서고 있는 기업- 여전히 P(보험 환급액)와 Q(진단 건수) 개선세 이어지고 있는 상황- 기술 투자, M&A 등으로 장기 성장 유효, 3번째 연간 가이던스 상향 조정",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqlmxlqklgcgxecgg.pdf",
+     "pages": "11"
+    },
+    {
+     "date": "2025-11-05",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[템퍼스 AI (NAS:TEM)] 견조한 실적 확인. 성장 모멘텀도 확보",
+     "summary": "- 실적&이벤트 상승 모멘텀 지속. 단기 조정으로 매수 기회- 양호한 실적 기록. 핵심 사업부 제품 수요, 매출의 추가 성장 요인 존재- 호실적에도 시장 조정으로 동반 하락. 오히려 추가 매수 타이밍",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgiizqxmxkclxgcgxecgg.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "TEM",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 47.05,
+  "pbr": 27.42,
+  "eps": 1.44,
+  "bps": 2.47,
+  "shares": 175390960,
+  "marketCapM": 11884,
+  "high52": 96.29,
+  "high52Date": "2025-10-20",
+  "low52": 40.77,
+  "low52Date": "2026-07-28",
+  "last": 67.76,
+  "prevClose": 66.75,
+  "nameKo": "템퍼스 AI",
+  "nameEn": "TEMPUS AI INC",
+  "listedOn": "2024-06-14",
+  "exchange": "나스닥",
+  "listedShares": 175390960
+ }
+}

@@ -1,0 +1,824 @@
+{
+ "ticker": "RKLB",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "RKLB",
+  "name": "로켓 랩",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "price": 53.66999816894531,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 78.28,
+  "stop": 75.25,
+  "distToPivotPct": -31.44,
+  "distToPivotAdr": -5.57,
+  "riskPerSharePct": 3.87,
+  "adrPct": 5.64,
+  "extensionAdr": -1.69,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 13,
+   "baseWeeks": 2.6,
+   "depthPct": 37.1,
+   "priorMovePct": 34.5,
+   "higherLows": 0,
+   "contraction": 0.85,
+   "closeRange10Adr": 5.8,
+   "surf10": -1.69,
+   "surf20": -3.93,
+   "slope20": -5.92,
+   "baseLow": 49.25,
+   "lastSwingLow": 49.25
+  },
+  "reasons": [
+   "선행 상승 +35%",
+   "베이스 2.6주",
+   "✗ 깊이 37.1%",
+   "✗ 저점 상승 0회",
+   "진폭 0.85배 · 10일 종가폭 5.8 ADR",
+   "✗ 10일선 -1.7 ADR · 20일선 -3.9 ADR",
+   "✗ 20일선 기울기 -5.92%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.21506636306156787,
+    "pct": 1.93868349864743
+   },
+   "m3": {
+    "v": -0.234672189721086,
+    "pct": 12.759242560865644
+   },
+   "m6": {
+    "v": -0.4379113490736953,
+    "pct": 2.569882777276826
+   }
+  },
+  "ret1m": -23.67,
+  "ret3m": -16,
+  "ret6m": -34.95,
+  "marketCap": "34.31B",
+  "volx": 0.67,
+  "volSurgeWk": 0.67,
+  "high52": 35.54,
+  "newHigh52": false,
+  "adr": 5.64,
+  "div50": -20.48,
+  "div200": -33.67,
+  "targetStatus": false,
+  "saleCy": 59.39,
+  "saleNy": 38.16,
+  "epsCy": -25.72,
+  "epsNy": -66.82,
+  "cyTrend": 0.36,
+  "nyTrend": 4.43,
+  "est": {
+   "cyCur": -0.27483,
+   "cy30": -0.27385,
+   "nyCur": -0.0912,
+   "ny30": -0.08733
+  },
+  "fs": {
+   "sale": [
+    61.99,
+    63.46,
+    35.7
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    -24.57,
+    -27.94,
+    -28.41
+   ],
+   "updated": "2026-09-07 06:42:20"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "로켓 랩",
+  "nameEn": "ROCKET LAB CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819994&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 234066000,
+     "profit": -57514000,
+     "netIncome": -49258000,
+     "margin": -24.6,
+     "yoy": {
+      "revenue": 62,
+      "profit": 3.6,
+      "netIncome": 25.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 200348000,
+     "profit": -55969000,
+     "netIncome": -45022000,
+     "margin": -27.9,
+     "yoy": {
+      "revenue": 63.5,
+      "profit": 5.4,
+      "netIncome": 25.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 179652000,
+     "profit": -51042000,
+     "netIncome": -52922000,
+     "margin": -28.4,
+     "yoy": {
+      "revenue": 35.7,
+      "profit": 1,
+      "netIncome": -1.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 155080000,
+     "profit": -58969000,
+     "netIncome": -18257000,
+     "margin": -38,
+     "yoy": {
+      "revenue": 48,
+      "profit": -13.6,
+      "netIncome": 64.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000067/rklb-20261014.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001463/g085846_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001454/g085841_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001085/g085783_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 16,
+   "reports": [
+    {
+     "date": "2026-10-15",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[로켓 랩 (NAS:RKLB)] 이번 연기가 마지막이길",
+     "summary": "- 4번째 공식 발사 연기 발표. 빠른 반복 발사를 위한 신뢰도 확보는 필수적 이나, 연이은 첫 발사 일정 연기와 구체적인 발사 목표 시점의 부재는 투 자심리 회복을 지연시키는 요인. 3분기 실적에서 뉴트론 개발 진척과 상용 화 로드맵을 구체화해 미래 성장에 대한 시장의 신뢰 회복 필요- 연초 뉴트론 1단 추진제 탱크 인증 실패 이후, 빠른 양산을 위해 수동 적 층에서 자동 적층 방식(AFP)으로 제조 공정을 변경하고 설계를 개선해 발 사체의 내구성을 강화. 이후 1단 전방 돔 제조 후 검사 과정에서 설계 변 경 부위의 공극(Void) 발생 확인. 공극은 탱크의 강도와 내구성, 구조적 신 뢰성을 저하시킬 수 있는 결함으로, 회사는 발생 원인 규명 후 제조 공정 을 개선해 고품질의 탄소복합재 후방 돔 제작을 완료. 공정 개선 효과 확 인한 뒤 뉴트론 전방 돔 제조를 재개- 뉴트론 첫 발사까지는 새로운 전방 돔 제작 및 검사, 1단 조립, 수압 극저 온 시험을 통한 기체 검증 등이 필요. 회사는 26년 연말까지 전방 돔 제작 및 검증을 진행하고 27년 1분기 중 1단 조립을 완료한 뒤 검증 테스트를 진행할 계획. 첫 발사는 27년으로 연기됐으며 목표 시점은 추후 공개 예정",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgczzeeezelilgcgxecgg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[로켓 랩 (NAS:RKLB)] [Issue & News] 이리듐 인수대금 지분조달 완료, 36억 달러 브리지론 취소 - 부채 대신 증자로 인수 재원 확정",
+     "summary": "- 이리듐 인수대금 19.4 억달러 ATM 증자로 전액 조달 완료- 36억달러 브리지론 취소, 부채조달 리스크 사전 차단- 신주 희석 부담은 주가 단기 하방 요인으로 작용 가능",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmzeimqmllzeqgcgxecgg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[로켓 랩 (NAS:RKLB)] 사상 최대 실적과 이리듐 인수, 구체화된 흑자 전환 로드맵",
+     "summary": "- 2Q 호실적 및 우주군 대형 수주로 입증된 압도적 외형 성장과 백로그- 이리듐 인수를 통한 '발사·위성·서비스' 수직계열화 및 반복수익 내재화- 뉴트론 일정과 흑자 전환 시간표 확인하며 밸류에이션 정상화 국면 분할 매수",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqccllzmlckzzgcgxecgg.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[로켓 랩 (NAS:RKLB)] 기업가치 재평가 핵심은 뉴트론 성공",
+     "summary": "- 신규 수주는 실적 성장, 뉴트론 성공은 밸류에이션 핵심- 2Q26 Review: 우주시스템이 성장 견인, 신규 수주로 성장 가시성 강화- 뉴트론: 첫 비행은 변수, 이후 발사빈도가 핵심",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxcmigkieemxgcgxecgg.pdf",
+     "pages": "9"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[로켓 랩 (NAS:RKLB)] [2Q26 Preview] Electron 다음, Neutron 시계는 어디쯤",
+     "summary": "- 로켓랩, 8월 11일 실적에서 Neutron 진척과 발사 일정이 핵심- Electron, 발사 횟수와 건당 단가를 함께 확인해야 수익성 판단 가능- 하반기 발사 계획과 정부·방위 계약 확대 여부가 실적 신뢰도 좌우",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmqgmqlmlmmkgcgxecgg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-06-30",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[로켓 랩 (NAS:RKLB)] 발사+위성 제조에 저궤도 위성 통신 확보",
+     "summary": "- 주가 한 달간 40% 조정. 이리디움 인수를 통해 발사체-위성 제작-위성 통신의 End-to-End 사업 모델 구축 및 안정적 반복 매출과 현금흐름 확 보. 역대 최대 규모 M&A로 인한 레버리지 상승으로 주식 발행 가능성 존재하지만, 우주 사업 내 핵심 역량 강화 긍정적- 저궤도 위성 통신 사업자 이리디움 커뮤니케이션을 주당 54달러(현금 27 달러+주식 27달러, 26일 종가 대비 프리미엄 24%)+순부채 23억달러를 포 함하여 80억달러 인수(EV/매출(25년) 9.2배). 주주 및 규제당국 승인을 거 쳐 27년 중반 인수 완료 목표. 로켓랩은 이리디움 인수로 발사 및 위성 제 조에서 위성 통신 운영으로 확장. 우주 통합 End-to-End 사업 모델 구축- [이리디움] 세계 최초 저궤도 위성 통신 서비스 상용화 기업으로 66개 운 영 위성을 기반으로 글로벌 통신 서비스 제공. IoT, 음성, 브로드밴드, 정 부·국방 통신 등 다양한 서비스 운영. D2D와 PNT 서비스를 성장 동력으 로 강화. 미국 정부가 주요 고객이며 가입자 255만명 보유. 25년 매출 8.71억달러, OEBITDA 마진 57%, FCF 1.7억달러 기록",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlglcxxeklxqeqgcgxecgg.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-05-13",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[로켓 랩 (NAS:RKLB)] 성장 모멘텀만큼 높아진 밸류에이션",
+     "summary": "- 어닝 서프라이즈 및 사상 최대 수주잔고(22억 달러) 달성으로 입증된 압도적 성장세- 공격적 M&A와 수직계열화를 통한 '종합 우주 인프라 기업'으로의 체질 개선 가속화- SpaceX의 유일한 민간 대항마라는 희소성과 Neutron이 정당화하는 프리미엄",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlxgklqzkiimlgcgxecgg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-05-08",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[로켓 랩 (NAS:RKLB)] 역대 최대 실적, 발사 계약, 수주잔고",
+     "summary": "- 분기 최대 실적과 발사 계약 체결, 수주잔고 기록. 국가 안보 영역 내 입 지 확대와 뉴트론 5건 계약 체결은 유의미한 성과- 1Q26 매출액 2억달러(+63.5% YoY, 이하 전년동기대비), EBITDA -1,180 만달러(+60.8%), EPS -0.07달러(+41.7%)로 컨센서스 1.9억달러, -2,900만 달러, -0.08달러를 각각 5.4%p, 59.6%p, 10.3%p 상회- [발사서비스] 6회 발사 수행(+1회). 매출 6,366만달러(+78.8%), 31회의 신 규 발사 계약 체결(HASTE 23회(안두릴 3회), 일렉트론 3회, 뉴트론 5회). 수주잔고 9.2억달러(+119%), 70회 발사 확보(HASTE 30%)",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqliqimeqikmllgcgxecgg.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "RKLB-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "이주은",
+   "date": "2026-06-30",
+   "title": "[로켓 랩 (NAS:RKLB)] 발사+위성 제조에 저궤도 위성 통신 확보",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlglcxxeklxqeqgcgxecgg.pdf",
+   "pages": "8"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: CoreWeave, Salesforce, Rocket Lab",
+   "url": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-midday-crwv-crm-rklb-kmb.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix",
+   "url": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-premarket-crwv-rklb-skhy.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Top Wall Street analysts find these 3 stocks attractive as long-term investments",
+   "url": "https://www.cnbc.com/2026/09/20/top-wall-street-analysts-find-these-3-stocks-attractive-as-long-term-investments.html",
+   "date": "2026-09-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Space startups are on a funding blitz as they aim to challenge SpaceX's dominance",
+   "url": "https://www.cnbc.com/2026/09/14/space-startups-funding-spacex.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Palantir is 'a great spec'",
+   "url": "https://www.cnbc.com/2026/08/24/cramers-lightning-round-palantir-is-a-great-spec.html",
+   "date": "2026-08-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: NetApp, MarineMax, Doximity & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The space boom has created a giant mess. Now startups want to clean it up",
+   "url": "https://www.cnbc.com/2026/08/08/space-debris-junk-spacex-rocket-moon-crash.html",
+   "date": "2026-08-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: 'Fortinet is good",
+   "url": "https://www.cnbc.com/2026/08/05/cramers-lightning-round-fortinet-is-good.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "RKLB",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 191.95,
+  "pbr": 9.19,
+  "eps": 0.28,
+  "bps": 5.84,
+  "shares": 598460000,
+  "marketCapM": 32119,
+  "high52": 150.9999,
+  "high52Date": "2026-05-27",
+  "low52": 37.57,
+  "low52Date": "2025-11-21",
+  "last": 53.67,
+  "prevClose": 50.9,
+  "nameKo": "로켓 랩",
+  "nameEn": "ROCKET LAB CORPORATION",
+  "listedOn": "2021-08-25",
+  "exchange": "나스닥",
+  "listedShares": 598460000
+ },
+ "estimates": {
+  "ticker": "RKLB",
+  "url": "https://finance.yahoo.com/quote/RKLB/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": -0.07,
+    "epsLow": -0.08,
+    "epsHigh": -0.05,
+    "epsYearAgo": -0.03,
+    "epsAnalysts": 11,
+    "epsGrowth": -121.5,
+    "epsCur": "USD",
+    "rev": 257177890,
+    "revAnalysts": 16,
+    "revYearAgo": 155080000,
+    "revGrowth": 65.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": -0.05,
+    "epsLow": -0.07,
+    "epsHigh": -0.03,
+    "epsYearAgo": -0.09,
+    "epsAnalysts": 11,
+    "epsGrowth": 42.9,
+    "epsCur": "USD",
+    "rev": 265421540,
+    "revAnalysts": 15,
+    "revYearAgo": 179652000,
+    "revGrowth": 47.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -0.27,
+    "epsLow": -0.3,
+    "epsHigh": -0.25,
+    "epsYearAgo": -0.37,
+    "epsAnalysts": 12,
+    "epsGrowth": 25.7,
+    "epsCur": "USD",
+    "rev": 959223670,
+    "revAnalysts": 18,
+    "revYearAgo": 601799000,
+    "revGrowth": 59.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -0.09,
+    "epsLow": -0.28,
+    "epsHigh": 0.02,
+    "epsYearAgo": -0.27,
+    "epsAnalysts": 15,
+    "epsGrowth": 66.8,
+    "epsCur": "USD",
+    "rev": 1325289440,
+    "revAnalysts": 20,
+    "revYearAgo": 959223670,
+    "revGrowth": 38.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": -0.07,
+    "d7": -0.5,
+    "d30": 1.2,
+    "d90": -10.7,
+    "ago90": -0.06,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.05,
+    "d7": -5.9,
+    "d30": -8.7,
+    "d90": -11,
+    "ago90": -0.05,
+    "up7": 2,
+    "up30": 2,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.27,
+    "d7": -2.5,
+    "d30": -0.4,
+    "d90": -12,
+    "ago90": -0.25,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -0.09,
+    "d7": -14.2,
+    "d30": -4.4,
+    "d90": -234.4,
+    "ago90": -0.03,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": -0.08,
+    "estimate": -0.08,
+    "surprisePct": -4.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.07,
+    "estimate": -0.08,
+    "surprisePct": 11,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.09,
+    "estimate": -0.1,
+    "surprisePct": 8.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": -0.03,
+    "estimate": -0.1,
+    "surprisePct": 71.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 3,
+   "ptRaised": 1,
+   "ptLowered": 4,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-10-16",
+     "firm": "Citizens",
+     "action": "main",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Lowers",
+     "pt": 90,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 90,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 100,
+     "ptPrior": 135
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Cantor Fitzgerald",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 122,
+     "ptPrior": 122
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 90,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Barclays",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 85,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Citigroup",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 105,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Raymond James",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 80,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 110,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Citizens",
+     "action": "reit",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Maintains",
+     "pt": 130,
+     "ptPrior": 130
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-09",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 53.67,
+   "ma20": 65.56,
+   "ma50": 67.49,
+   "ma150": 82.22,
+   "distMA50": -20.48,
+   "periodHigh": 151,
+   "pullbackFromHigh": -64.46,
+   "volRatio20": 0.81,
+   "dryUpRatio": 1.14
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 70.56,
+    "h": 71.65,
+    "l": 67.71,
+    "c": 68.4,
+    "v": 23063500,
+    "clsPos": 18,
+    "gapPct": -1.89
+   },
+   {
+    "d": "2026-10-09",
+    "o": 68.71,
+    "h": 69.25,
+    "l": 66.98,
+    "c": 68.21,
+    "v": 14934600,
+    "clsPos": 54,
+    "gapPct": 0.45
+   },
+   {
+    "d": "2026-10-12",
+    "o": 67.88,
+    "h": 68.07,
+    "l": 65.11,
+    "c": 65.71,
+    "v": 14499000,
+    "clsPos": 20,
+    "gapPct": -0.48
+   },
+   {
+    "d": "2026-10-13",
+    "o": 64.07,
+    "h": 64.56,
+    "l": 63.08,
+    "c": 64.22,
+    "v": 15588500,
+    "clsPos": 77,
+    "gapPct": -2.5
+   },
+   {
+    "d": "2026-10-14",
+    "o": 62.81,
+    "h": 63.56,
+    "l": 58.84,
+    "c": 59.18,
+    "v": 25309100,
+    "clsPos": 7,
+    "gapPct": -2.2
+   },
+   {
+    "d": "2026-10-15",
+    "o": 53.86,
+    "h": 55.4,
+    "l": 49.69,
+    "c": 55.25,
+    "v": 48563400,
+    "clsPos": 97,
+    "gapPct": -8.99
+   },
+   {
+    "d": "2026-10-16",
+    "o": 54.49,
+    "h": 54.87,
+    "l": 50.37,
+    "c": 50.84,
+    "v": 24048200,
+    "clsPos": 10,
+    "gapPct": -1.38
+   },
+   {
+    "d": "2026-10-19",
+    "o": 52.28,
+    "h": 52.99,
+    "l": 51.31,
+    "c": 51.36,
+    "v": 17077100,
+    "clsPos": 3,
+    "gapPct": 2.83
+   },
+   {
+    "d": "2026-10-20",
+    "o": 50.56,
+    "h": 52.72,
+    "l": 49.25,
+    "c": 50.9,
+    "v": 16945200,
+    "clsPos": 48,
+    "gapPct": -1.56
+   },
+   {
+    "d": "2026-10-21",
+    "o": 52.21,
+    "h": 53.89,
+    "l": 52.02,
+    "c": 53.67,
+    "v": 17563720,
+    "clsPos": 88,
+    "gapPct": 2.57
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RKLB-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RKLB-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

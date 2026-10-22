@@ -1,0 +1,314 @@
+{
+ "ticker": "SPCX",
+ "sector": "Industrials",
+ "industry": "Aerospace & Defense",
+ "nameKo": "스페이스X",
+ "site": {
+  "targetStatus": true,
+  "saleCy": null,
+  "saleNy": 159.17,
+  "epsCy": -101.13,
+  "epsNy": 2139.34,
+  "est": {
+   "cyCur": 0.09524,
+   "cy30": 0.07423,
+   "nyCur": 2.13275,
+   "ny30": 1.86094
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    92.13,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    null,
+    null
+   ],
+   "opm": [
+    -1.83,
+    -41.39,
+    null
+   ],
+   "updated": "2026-09-20 06:44:24"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "스페이스X",
+  "nameEn": "SPACE EXPLORATION TECHNOLOGIES CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001181412&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 7814000000,
+     "profit": -143000000,
+     "netIncome": -541000000,
+     "margin": -1.8,
+     "yoy": {
+      "revenue": 91.9,
+      "profit": 85.3,
+      "netIncome": 46.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 4071000000,
+     "profit": -970000000,
+     "netIncome": -1008000000,
+     "margin": -23.8,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "SpaceX Makes History, Raising $85.7 Billion through Nasdaq Listing",
+     "url": "https://www.nasdaq.com/newsroom/spacex-makes-history-raising-85-billion-through-nasdaq-listing",
+     "date": "2026-06-16",
+     "publisher": "Nasdaq Newsroom"
+    },
+    {
+     "title": "SpaceX (SPCX): Rocket Company Launches Historic IPO",
+     "url": "https://www.nasdaq.com/newsroom/spacex-ipo-rocket-company-launches-historic-ipo",
+     "date": "2026-06-12",
+     "publisher": "Nasdaq Newsroom"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-14",
+    "itemsKo": [
+     "2.01",
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/spcx-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026045763/spcx-closing8xkjune2026.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026044955/spcx-pricing8xk.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026044489/spcx8-kxlaunchseniornotes.htm"
+   }
+  ],
+  "krReports": {
+   "total": 20,
+   "reports": [
+    {
+     "date": "2026-10-22",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[스페이스X (NAS:SPCX)] 흑자 궤도 진입, 더 높아진 CAPEX 부담",
+     "summary": "- 스페이스X의 FY 3Q26 매출액은 146억 달러(YoY +161%)로 예상치 를 13.2% 상회했고, 조정 EPS는 0.35 달러(vs. 컨센서스 0.15 달러)를 기록해 흑자 전환했다- 스페이스X는 FY 1Q27 매출액 가이던스를 중간값 기준 350억 달러 (YoY +646%, vs. 컨센서스 219억 달러)로 제시했다. 4Q26 CAPEX는 인프라 구축 가속화로 375억 달러(4Q25 69억 달러)에 달할 것이라고 전망했다- 연말까지 컴퓨팅 용량을 2.5~3GW로 확충할 것이라고 언급했다. 2027 년 말까지 최소 10GW의 용량 증대를 확신하고 있으며, 조건이 충족 되는 경우 최대 20GW(총 23GW 수준)까지 가동하는 것을 목표로 제 시했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxgkgxgcgkkggcgxecgg.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[스페이스X (NAS:SPCX)] AI가 만든 첫 흑자, 관건은 투자 회수 속도",
+     "summary": "- AI 사업부의 폭발적 성장에 힘입어 상장 후 첫 영업흑자, 가이던스 서프라이즈 달성- 통신 부문의 수익성을 바탕으로 2027년까지 AI 인프라 13GW 달성 목표- 다만 자금 조달 부담과 시장 기대치와의 격차는 증명해야 할 과제",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxggcxzqxmiqgcgxecgg.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "대신증권",
+     "analyst": "김회재",
+     "title": "[스페이스X (NAS:SPCX)] AI 컴퓨팅, 새로운 성장 엔진으로 부상",
+     "summary": "- 3Q26 매출 145.8억 달러, AI가 최대 사업부로 부상- AI 영업흑자 전환, 신규 컴퓨팅 투자 회수기간 1년 미만- 2027년 13GW 이상 증설 목표, 4Q26 CAPEX 350~400억 달러 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxexzimiccxkgcgxecgg.pdf",
+     "pages": "16"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[스페이스X (NAS:SPCX)] AI가 끌고 우주가 밀어준다",
+     "summary": "- SI 사업의 매출 급증과 수익화 성공으로 실적 발표 후 시간 외 주가 상승. 4Q CapEx 급증과 자본조달 이슈는 부담요인이지만, SI와 Connectivity의 고성장과 스타십의 재사용성 확보여부가 단기 주가 상승 견인- 매출 146억달러(+161%, 이하 전년대비), 조정EBITDA 88억달러(+306%), 조정EPS 0.35달러(흑전)로 예상 129억달러, 66억달러, 0.15달러 상회. 연간 CapEx 196억달러(+185%), 수주잔고 630억달러(2Q말 대비 +155억달러)- [Space] 매출 18억달러(+6%), 발사횟수 축소와 R&D 지출 확대로 조정 EBITDA 3.6억달러(-47%). NASA와 우주군과의 팰컨9, 스타십 수송 계약 [Connectivity] 매출 52억달러(+70%/ 기업&정부 +91%), ARPU 69달러, 가입자수 1,360만명, 조정EBITDA 35억달러(+82%). 저대역 주파수 인수 [SI] 매출 76억달러(+538%), SI 솔루션 70억달러(커서 6.8억달러), 조정 EBITDA 50억달러(흑전). 명목컴퓨팅용량 2Q 1.4GW → 3Q 1.7GW 확대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzxmkikqlzqggcgxecgg.pdf",
+     "pages": "11"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "메리츠증권",
+     "analyst": "김선우",
+     "title": "[스페이스X (NAS:SPCX)] 3Q26 실적 리뷰 - 반도체 산업 시사점",
+     "summary": "- 내년 연산능력 확대를 위한 반도체 수요 증가는 더 가속화되는 모습, 2) 프런티 어 모델 업체들의 ARR (연환산매출)이 시장기대 이상으로 나오며 AI 투자 의구심 (모델 수익화 어려움 → 투자 제약요소 발생 → 자본조달 우려)의 전제조건이 낙 관적으로 변모, 3) 테라팹을 통한 AI칩 생산에 몰두 (생산 목표 2H28). 수반되는 메모리 수요 증가 역시 필연적- 올해 연말까지 매달 약 20만대의 GB300 슈퍼컴퓨팅 서버를 도입할 계 획. 2027년에도 이 속도를 유지할 예정 (내년 베라루빈 플랫폼 중심) 현재로서는 2027년까지 10GW의 컴퓨팅 용량을 추가로 확보할 것으로 상당히 확신. 이는 올해 연말까지 확보할 2.5~3GW에 더해지는 용량 토탈 13GW 수준의 컴퓨팅 용량을 확보하기 위해 전력 및 냉각 인프라 가 병목으로 작용할 것으로 예상. 동사는 확보한 인프라 용량은 GPU를 가동하기 위한 수준을 웃돌고 있어 내년에 20GW 이상의 연산 능력을 보유하는 것 역시 불가능한 것은 아님",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzzzxmkgllqigcgxecgg.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[스페이스X (NAS:SPCX)] 리틀 리그에서 뛰는 뉴욕 양키즈",
+     "summary": "- Signal: 속도와 판매 방식 모두 특징적인 GPU 사업자- Key: 높아지는 임대료의 최대 수혜자- Step: 블레이드에서 궤도 DC까지 기술력을 통한 섭렵 예고",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzklgkgkimxcgcgxecgg.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "유진투자증권",
+     "analyst": "정의훈",
+     "title": "[스페이스X (NAS:SPCX)] 우주AI기업이라 불러다오",
+     "summary": "- 매출 145.8억, 영업이익 27.9억달러, EPS 0.35달러 컨센서스 대폭 상회- 3분기 말 1.7GW 달성, 2027년 말 13GW 제시- 3분기 CapEx는 컨센서스 부합, 4분기 가이던스는 350~400억달러- 1Q27 매출 가이던스 330~370억달러, 성장 가시성에 무게",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzkqlmiqxelmgcgxecgg.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[스페이스X (NAS:SPCX)] [26Q3 Review] 내년 1분기 가이던스가 컨센서스 48~66% 상회, 투자의견 매수 상향",
+     "summary": "- SI 매출 75.6억으로 최대 세그먼트 등극- 2027년 1분기 가이던스 컨센 50% 상회- Q4 캐펙스 350~400억으로 대폭 상향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzkgqgzkcgmqgcgxecgg.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did",
+   "url": "https://www.cnbc.com/2026/10/21/trump-starlink-ukraine-elon-musk.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "SpaceX gives the AI trade a shot in the arm. What it means for our stocks",
+   "url": "https://www.cnbc.com/investingclub/2026/10/21/spacex-gives-the-ai-trade-a-shot-in-the-arm-what-it-means-for-our-stocks-.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tesla must scale FSD, energy and robotics to justify $1.6 trillion valuation",
+   "url": "https://www.cnbc.com/video/2026/10/22/tesla-must-scale-fsd-energy-and-robotics-to-justify-1-point-6t-valuation-ex-board-member.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Market Close",
+   "url": "https://www.cnbc.com/video/2026/10/21/post-market-wrap-october-21-2026.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC Markets Now: October 21, 2026",
+   "url": "https://www.cnbc.com/video/2026/10/21/cnbc-markets-now-october-21-2026.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Pres. Trump: Don't know who ordered Starlink slowdown in Ukraine, but 'I was not involved'",
+   "url": "https://www.cnbc.com/video/2026/10/21/pres-trump-dont-know-who-ordered-starlink-slowdown-in-ukraine-but-i-was-not-involved.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SPCX",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 437.91,
+  "pbr": 16.5,
+  "eps": 0.36,
+  "bps": 9.66,
+  "shares": 8085583000,
+  "marketCapM": 1288114,
+  "high52": 225.64,
+  "high52Date": "2026-06-16",
+  "low52": 104.83,
+  "low52Date": "2026-08-03",
+  "last": 159.31,
+  "prevClose": 147.79,
+  "nameKo": "스페이스X",
+  "nameEn": "SPACE EXPLORATION TECHNOLOGIES CORP",
+  "listedOn": "2026-06-12",
+  "exchange": "나스닥",
+  "listedShares": 8085583000
+ }
+}

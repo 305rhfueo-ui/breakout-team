@@ -1,0 +1,729 @@
+{
+ "ticker": "MEDP",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "MEDP",
+  "name": "메드페이스 홀딩스",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "price": 662.47998046875,
+  "grade": "A",
+  "state": "post",
+  "pivot": 642.65,
+  "stop": 622.84,
+  "distToPivotPct": 3.09,
+  "distToPivotAdr": 0.91,
+  "riskPerSharePct": 3.08,
+  "adrPct": 3.41,
+  "extensionAdr": 1.82,
+  "breakDate": "2026-10-21",
+  "metrics": {
+   "baseBars": 26,
+   "baseWeeks": 5.2,
+   "depthPct": 8.6,
+   "priorMovePct": 44.4,
+   "higherLows": 1,
+   "contraction": 0.84,
+   "closeRange10Adr": 1.3,
+   "surf10": 0.35,
+   "surf20": 0.39,
+   "slope20": 0.06,
+   "baseLow": 587.39,
+   "lastSwingLow": 590.46
+  },
+  "reasons": [
+   "선행 상승 +44%",
+   "베이스 5.2주",
+   "깊이 8.6%",
+   "저점 상승 1회",
+   "진폭 0.84배 · 10일 종가폭 1.3 ADR",
+   "10일선 +0.4 ADR · 20일선 +0.4 ADR",
+   "20일선 기울기 +0.06%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.09505029370557275,
+    "pct": 78.85482416591523
+   },
+   "m3": {
+    "v": 0.08556140924833874,
+    "pct": 85.34715960324617
+   },
+   "m6": {
+    "v": 0.494003904419909,
+    "pct": 93.37240757439135
+   }
+  },
+  "ret1m": 7.35,
+  "ret3m": 16.03,
+  "ret6m": 58.24,
+  "marketCap": "17.30B",
+  "volx": 3.6,
+  "volSurgeWk": 3.05,
+  "high52": 97.73,
+  "newHigh52": false,
+  "adr": 3.41,
+  "div50": 8.87,
+  "div200": 25.68,
+  "targetStatus": false,
+  "saleCy": 12.72,
+  "saleNy": 6.33,
+  "epsCy": 15.94,
+  "epsNy": 9.03,
+  "cyTrend": 0.06,
+  "nyTrend": 0.03,
+  "est": {
+   "cyCur": 17.71533,
+   "cy30": 17.70463,
+   "nyCur": 19.31534,
+   "ny30": 19.31014
+  },
+  "fs": {
+   "sale": [
+    17.24,
+    26.5,
+    32.03
+   ],
+   "ni": [
+    34.46,
+    8.09,
+    15.44
+   ],
+   "opm": [
+    20.76,
+    20.03,
+    21.63
+   ],
+   "updated": "2026-09-08 08:14:02"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "메드페이스 홀딩스",
+  "nameEn": "MEDPACE HOLDINGS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001668397&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 707331000,
+     "profit": 146824000,
+     "netIncome": 121362000,
+     "margin": 20.8,
+     "yoy": {
+      "revenue": 17.2,
+      "profit": 16.2,
+      "netIncome": 34.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 706604000,
+     "profit": 141503000,
+     "netIncome": 123870000,
+     "margin": 20,
+     "yoy": {
+      "revenue": 26.5,
+      "profit": 24.6,
+      "netIncome": 8.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 708450000,
+     "profit": 153269000,
+     "netIncome": 135133000,
+     "margin": 21.6,
+     "yoy": {
+      "revenue": 32,
+      "profit": 22.2,
+      "netIncome": 15.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 659903000,
+     "profit": 141808000,
+     "netIncome": 111135000,
+     "margin": 21.5,
+     "yoy": {
+      "revenue": 23.7,
+      "profit": 26.3,
+      "netIncome": 15.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Medpace (MEDP) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/medpace-medp-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CON vs. MEDP: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/con-vs-medp-which-stock-should-value-investors-buy-now-0",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Medpace (MEDP) Dips More Than Broader Market: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/medpace-medp-dips-more-broader-market-what-you-should-know",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Medpace (MEDP) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/medpace-medp-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Medpace (MEDP) Rises As Market Takes a Dip: Key Facts",
+     "url": "https://www.nasdaq.com/articles/medpace-medp-rises-market-takes-dip-key-facts",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CON or MEDP: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/con-or-medp-which-better-value-stock-right-now",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Medpace (MEDP) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/medpace-medp-outperforms-broader-market-what-you-need-know",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Medpace (MEDP) Ascends While Market Falls: Some Facts to Note",
+     "url": "https://www.nasdaq.com/articles/medpace-medp-ascends-while-market-falls-some-facts-note-0",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-21",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000034/medp-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000023/medp-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1668397/000119312526257387/d162455d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-19",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1668397/000119312526230425/d101911d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000017/medp-20260421.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-09",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000004/medp-20260209.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves after hours: Tesla, IBM, ServiceNow & more",
+   "url": "https://www.cnbc.com/2026/07/22/stocks-making-the-biggest-moves-after-hours-googl-tsla-ibm-lvs.html",
+   "date": "2026-07-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "MEDP",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 38.86,
+  "pbr": 42.51,
+  "eps": 17.05,
+  "bps": 15.58,
+  "shares": 27911700,
+  "marketCapM": 18491,
+  "high52": 677.9,
+  "high52Date": "2026-07-23",
+  "low52": 373,
+  "low52Date": "2026-04-23",
+  "last": 662.48,
+  "prevClose": 622.43,
+  "nameKo": "메드페이스 홀딩스",
+  "nameEn": "MEDPACE HOLDINGS INC",
+  "listedOn": "2016-08-11",
+  "exchange": "나스닥",
+  "listedShares": 27911700
+ },
+ "estimates": {
+  "ticker": "MEDP",
+  "url": "https://finance.yahoo.com/quote/MEDP/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 4.46,
+    "epsLow": 4.31,
+    "epsHigh": 4.69,
+    "epsYearAgo": 3.86,
+    "epsAnalysts": 8,
+    "epsGrowth": 15.6,
+    "epsCur": "USD",
+    "rev": 714589990,
+    "revAnalysts": 11,
+    "revYearAgo": 659903000,
+    "revGrowth": 8.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 4.69,
+    "epsLow": 4.51,
+    "epsHigh": 4.83,
+    "epsYearAgo": 4.67,
+    "epsAnalysts": 8,
+    "epsGrowth": 0.3,
+    "epsCur": "USD",
+    "rev": 720853970,
+    "revAnalysts": 11,
+    "revYearAgo": 708450000,
+    "revGrowth": 1.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 17.72,
+    "epsLow": 17.5,
+    "epsHigh": 18.37,
+    "epsYearAgo": 15.28,
+    "epsAnalysts": 10,
+    "epsGrowth": 15.9,
+    "epsCur": "USD",
+    "rev": 2852057280,
+    "revAnalysts": 13,
+    "revYearAgo": 2530234000,
+    "revGrowth": 12.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 19.32,
+    "epsLow": 17.6,
+    "epsHigh": 20.16,
+    "epsYearAgo": 17.72,
+    "epsAnalysts": 10,
+    "epsGrowth": 9,
+    "epsCur": "USD",
+    "rev": 3032519930,
+    "revAnalysts": 13,
+    "revYearAgo": 2852057280,
+    "revGrowth": 6.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 4.46,
+    "d7": 0,
+    "d30": 0.5,
+    "d90": 2.2,
+    "ago90": 4.36,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.69,
+    "d7": 0,
+    "d30": -0.2,
+    "d90": 2.3,
+    "ago90": 4.58,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 17.72,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 3.2,
+    "ago90": 17.17,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 19.32,
+    "d7": 0,
+    "d30": 0,
+    "d90": 3,
+    "ago90": 18.75,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 4.25,
+    "estimate": 4,
+    "surprisePct": 6.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 4.28,
+    "estimate": 3.96,
+    "surprisePct": 8.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 4.67,
+    "estimate": 4.23,
+    "surprisePct": 10.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 3.86,
+    "estimate": 3.57,
+    "surprisePct": 8.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 9,
+   "ptLowered": 0,
+   "total": 9,
+   "recent": [
+    {
+     "date": "2026-10-07",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 700,
+     "ptPrior": 665
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 625,
+     "ptPrior": 600
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "UBS",
+     "action": "up",
+     "from": "Sell",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 673,
+     "ptPrior": 405
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 665,
+     "ptPrior": 586
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 600,
+     "ptPrior": 400
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 609,
+     "ptPrior": 462
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 492,
+     "ptPrior": 419
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 692,
+     "ptPrior": 484
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 624,
+     "ptPrior": 547
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-21",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 662.48,
+   "ma20": 616.99,
+   "ma50": 608.52,
+   "ma150": 530,
+   "distMA50": 8.87,
+   "periodHigh": 677.9,
+   "pullbackFromHigh": -2.27,
+   "volRatio20": 3.36,
+   "dryUpRatio": 1.58
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 602.43,
+    "h": 604.56,
+    "l": 590.46,
+    "c": 602.7,
+    "v": 223100,
+    "clsPos": 87,
+    "gapPct": -0.3
+   },
+   {
+    "d": "2026-10-09",
+    "o": 602.7,
+    "h": 620.25,
+    "l": 602.7,
+    "c": 612.05,
+    "v": 159800,
+    "clsPos": 53,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-12",
+    "o": 612.7,
+    "h": 623.11,
+    "l": 608.71,
+    "c": 620.05,
+    "v": 176200,
+    "clsPos": 79,
+    "gapPct": 0.11
+   },
+   {
+    "d": "2026-10-13",
+    "o": 620.05,
+    "h": 620.76,
+    "l": 609.48,
+    "c": 609.89,
+    "v": 155300,
+    "clsPos": 4,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-14",
+    "o": 605.76,
+    "h": 630.88,
+    "l": 605.76,
+    "c": 616.63,
+    "v": 311200,
+    "clsPos": 43,
+    "gapPct": -0.68
+   },
+   {
+    "d": "2026-10-15",
+    "o": 622.83,
+    "h": 635.31,
+    "l": 617.6,
+    "c": 628.6,
+    "v": 391800,
+    "clsPos": 62,
+    "gapPct": 1.01
+   },
+   {
+    "d": "2026-10-16",
+    "o": 630.29,
+    "h": 632.33,
+    "l": 610.05,
+    "c": 618.47,
+    "v": 325100,
+    "clsPos": 38,
+    "gapPct": 0.27
+   },
+   {
+    "d": "2026-10-19",
+    "o": 619.33,
+    "h": 625.69,
+    "l": 616.14,
+    "c": 619.66,
+    "v": 247100,
+    "clsPos": 37,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-10-20",
+    "o": 626.64,
+    "h": 637.15,
+    "l": 613.13,
+    "c": 622.43,
+    "v": 403800,
+    "clsPos": 39,
+    "gapPct": 1.13
+   },
+   {
+    "d": "2026-10-21",
+    "o": 614.98,
+    "h": 666.34,
+    "l": 614.98,
+    "c": 662.48,
+    "v": 1016418,
+    "clsPos": 92,
+    "gapPct": -1.2
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MEDP-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MEDP-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

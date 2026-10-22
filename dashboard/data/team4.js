@@ -49,29 +49,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:26:58"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ROKU",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "스트리밍 TV 플랫폼 회사로, 광고와 플랫폼 수수료로 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "카테고리 6(뚜렷한 뉴스 없음) 및 '근거 없음' 주장이 일치. 적절한 분류"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "로쿠",
       "nameEn": "ROKU INC",
@@ -683,55 +662,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:14:02"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "MEDP",
-        "category": 1,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "Medpace가 10월 21일 3분기 실적을 발표했고, 매출과 주당순이익 모두 증권사 예상치를 넘어섰다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Medpace (MEDP) Q3 Earnings and Revenues Beat Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/medpace-medp-q3-earnings-and-revenues-beat-estimates",
-                "date": "2026-10-21",
-                "quote": "Medpace (MEDP) Q3 Earnings and Revenues Beat Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "같은 날 SEC에 실적 발표(항목 2.02)와 기타 중요사건(항목 8.01)을 담은 8-K가 제출됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Medpace 8-K (2026-10-20 보고)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000034/medp-20261020.htm",
-                "date": "2026-10-21",
-                "quote": "8-K items 2.02, 8.01, 9.01 (실적 발표, 기타 중요사건, 재무제표·첨부)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "company": "Medpace는 제약·바이오 기업의 임상시험을 대신 수행해 주고 수수료를 받는 임상시험수탁기관(CRO)이다.",
-        "volumeExplanation": "10월 21일 3분기 실적이 시장 예상치를 웃돌아 거래량이 늘었다. 최근 3분기 매출이 1년 전보다 17~32% 늘어난 흐름이 이어졌는지 시장이 확인한 것이다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [],
-          "reason": "volumeExplanation의 '최근 3분기 매출이 1년 전보다 17~32% 늘어난 흐름' 부분이 claims에서 지지되지 않아 제거함"
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -775,29 +707,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:11:38"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ITIC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "ITIC(Investors Title)는 주택·상업용 부동산 거래에 필요한 권원보험(소유권 하자를 보장하는 보험)을 팔아 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "category와 volumeExplanation이 'no_source' claim과 일치"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "인베스터스 타이틀",
       "nameEn": "INVESTORS TITLE CO",
@@ -1360,29 +1271,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:43:21"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "CRL",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "신약 개발 회사의 안전성 시험과 연구용 동물 모델을 대행해 수수료를 받는 위탁 연구 기업이다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "category와 volumeExplanation이 'no_source' claim과 일치"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1426,55 +1316,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:09:38"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "WAB",
-        "category": 1,
-        "company": "Wabtec은 기관차, 철도 신호·제동 장비와 정비 서비스를 만들어 철도 회사에 판매해 돈을 번다.",
-        "volumeExplanation": "10월 21일 3분기 실적을 발표했고 주당순이익이 시장 예상치를 넘었다는 보도가 나왔다. 실적 발표 직후 매매가 몰리며 거래량이 늘었다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "Wabtec이 10월 21일 3분기 실적을 발표했고, 주당순이익이 시장 예상치를 웃돌았다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Westinghouse Air Brake Technologies (WAB) Tops Q3 Earnings Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/westinghouse-air-brake-technologies-wab-tops-q3-earnings-estimates",
-                "date": "2026-10-21",
-                "quote": "Westinghouse Air Brake Technologies (WAB) Tops Q3 Earnings Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "같은 날 SEC에 실적 발표(항목 2.02) 8-K가 제출됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "WAB 8-K 2026-10-21",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/wab-20261021.htm",
-                "date": "2026-10-21",
-                "quote": "items: 2.02, 7.01, 9.01 (실적 발표, Reg FD 공시, 재무제표·첨부)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 claims가 sources와 일치하고, volumeExplanation도 완전히 지지됨"
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "왑텍",
       "nameEn": "WESTINGHOUSE AIR BRAKE TECH CORP",
@@ -2070,43 +1913,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:49:11"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "STE",
-        "category": 3,
-        "claims": [
-          {
-            "id": "c2",
-            "statement": "인수 자금으로 최대 20억 달러 규모의 무담보 브리지 대출(인수 전 임시 차입)을 확보했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "STERIS 8-K (Item 1.01 중요 계약 체결)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526420487/d165776d8k.htm",
-                "date": "2026-10-13",
-                "quote": "the Commitment Parties have committed to provide to STERIS an amount up to $2.0 billion in the aggregate in the form of a senior unsecured bridge facility.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "company": "STERIS는 병원용 멸균·감염 예방 장비와 소모품, 의료기기 재처리 서비스를 파는 의료기기 회사다. 병원과 제약·바이오 고객에게서 반복 매출을 올린다.",
-        "volumeExplanation": "10월 13일 공시에서 인수 자금 조성이 발표되었고, 거래량 증가는 이에 대한 반응으로 보인다. 다만 오늘 거래량과 이 공시를 직접 이은 기사는 확인하지 못했다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c1"
-          ],
-          "reason": "c1에서 주장한 '최대 1.5억 달러의 추가 성과 대금'이 제공된 SEC EDGAR 인용문에 없음. 인용문은 '현금 21억 달러'와 'customary adjustments'만 명시",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "10월 13일 STERIS가 Xodus Medical을 현금 21억 달러에 인수하기로 한 계약이 공시됐고, 거래량 증가는 이 인수 소식에 대한 재평가로 보인다. 다만 오늘 거래량과 이 공시를 직접 이은 기사는 확인하지 못했다.",
-        "categoryName": "대형 파트너십·공급계약",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "스테리스",
       "nameEn": "STERIS PLC",
@@ -2700,8 +2508,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:37:55"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "MCB",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "MCB가 2026-10-20 3분기 실적을 SEC에 공시했다(8-K, 실적 발표 항목 2.02).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Metropolitan Bank Holding 8-K (실적 발표, Item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1476034/000110465926117424/mcb-20261020x8k.htm",
+                "date": "2026-10-20",
+                "quote": "8-K filed 2026-10-20, items 2.02, 7.01, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "다음 날 3분기 실적 컨퍼런스콜 기록이 공개돼 실적 내용이 시장에 퍼졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Metropolitan Bank (MCB) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/metropolitan-bank-mcb-q3-2026-earnings-call-transcript",
+                "date": "2026-10-21",
+                "quote": "Metropolitan Bank (MCB) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "최근 3분기 매출은 전년 대비 10.67%, 12.34%, 13.14%로 증가세가 이어지고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "사이트 재무 컬럼(fs.sale)",
+                "publisher": "RS 사이트 yfinance",
+                "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                "date": "2026-09-08",
+                "quote": "\"sale\": [10.67, 12.34, 13.14]",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Metropolitan Bank Holding(MCB)은 뉴욕의 지역은행으로, 예대마진과 수수료로 돈을 번다. 시가총액은 약 10.7억 달러다.",
+        "volumeExplanation": "10월 20일 3분기 실적 발표와 21일 컨퍼런스콜 공개로 거래량이 평소의 2.6배로 늘었다. 실적 내용의 상세한 수치는 확인하지 못했으므로, 예상치를 얼마나 넘었는지는 실적 발표문에서 확인해야 이 해석이 맞는지 알 수 있다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All claims have adequate sources: SEC 8-K filing, earnings transcript, and revenue growth figures match source quotes."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "메트로폴리탄 뱅크 홀딩",
       "nameEn": "METROPOLITAN BANK HOLDING CORP",
@@ -3278,8 +3149,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:41:57"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "HAS",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 20일 3분기 실적을 발표하며 올해 매출 성장 전망을 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Hasbro Boosts FY26 Revenue Growth Outlook; Declares Dividend - Update",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/hasbro-boosts-fy26-revenue-growth-outlook-declares-dividend-update",
+                "date": "2026-10-20",
+                "quote": "Hasbro Boosts FY26 Revenue Growth Outlook; Declares Dividend - Update",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 당일 주가가 올랐다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Hasbro Stock Jumped Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-hasbro-stock-jumped-today",
+                "date": "2026-10-20",
+                "quote": "Why Hasbro Stock Jumped Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "직전 분기(4~6월) 매출은 11.4억 달러로 1년 전보다 16.2% 늘었고 영업이익은 131.6% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR companyfacts 분기 실적표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046080&type=10-Q",
+                "date": "2026-06-28",
+                "quote": "revenue 1139600000, profit 252500000, yoy revenue 16.2, profit 131.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Hasbro는 모노폴리, 트랜스포머 같은 장난감·보드게임을 팔고, 매직 더 개더링 등 게임 사업으로 돈을 버는 회사다.",
+        "volumeExplanation": "10월 20일 3분기 실적과 함께 올해 매출 성장 전망을 올렸고, 이 호재가 주가 상승과 함께 거래량을 키웠다. 실적 개선이 이어지는지는 다음 분기 매출 성장률로 확인할 수 있다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All claims supported: earnings announcement with guidance raise (RTTNews), stock jump reporting (Motley Fool), and Q2 financials with matching numbers."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-22",
+        "carried": false
       }
     },
     {
@@ -3323,29 +3257,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:49:11"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "BMO",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "BMO(몬트리올은행)는 캐나다 대형 은행으로, 예금·대출과 자산관리, 미국 영업망을 통해 이자와 수수료 수익을 올립니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "카테고리 6(뚜렷한 뉴스 없음) 및 '근거 없음' 주장이 일치. 적절한 분류"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "뱅크 오브 몬트리올",
       "nameEn": "BANK OF MONTREAL",
@@ -3793,55 +3706,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:51:17"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ABT",
-        "category": 1,
-        "company": "애보트는 당뇨 연속혈당측정기, 심장 기기, 진단장비, 영양제, 의약품을 파는 미국 대형 헬스케어 기업입니다.",
-        "volumeExplanation": "10월 21일 3분기 실적을 발표했고, 주요 매체는 시장 예상치에 못 미쳤다고 전했습니다. 실적 발표일에 주가가 흔들리며 거래량이 평소 5일 평균의 2.27배로 늘었습니다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "애보트가 10월 21일 3분기 실적을 발표했고, 주당순이익이 시장 예상치에 못 미쳤다는 보도가 나왔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Abbott (ABT) Misses Q3 Earnings Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/abbott-abt-misses-q3-earnings-estimates",
-                "date": "2026-10-21",
-                "quote": "Abbott (ABT) Misses Q3 Earnings Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "같은 날 실적 발표 공시(8-K, 항목 2.02)가 SEC에 제출되었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Abbott 8-K (Item 2.02 실적 발표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026066601/abt-20261021.htm",
-                "date": "2026-10-21",
-                "quote": "8-K, filingDate 2026-10-21, items 2.02, 9.01, isEarnings true",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "10월 21일 3분기 실적 발표와 시장 예상치 미달이 Zacks 기사 title과 SEC 8-K(item 2.02, date 2026-10-21)로 뒷받침됨. statement와 quote 일치. category 1 적절"
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "애보트 래브러토리스",
       "nameEn": "ABBOTT LABORATORIES",
@@ -4620,8 +4486,59 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:06:20"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "ISRG",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 20일 3분기 실적과 매출이 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Intuitive Surgical, Inc. (ISRG) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/intuitive-surgical-inc-isrg-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-10-20",
+                "quote": "Intuitive Surgical, Inc. (ISRG) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 직후 증권가가 이 회사를 예상치를 크게 넘긴 헬스케어 매수 후보로 꼽았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2 Healthcare Stocks to Buy After Crushing Q3 Earnings Expectations: ELV & ISRG",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/2-healthcare-stocks-buy-after-crushing-q3-earnings-expectations-elv-isrg",
+                "date": "2026-10-21",
+                "quote": "2 Healthcare Stocks to Buy After Crushing Q3 Earnings Expectations: ELV & ISRG",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "수술 로봇 다빈치를 병원에 팔고, 그 위에서 쓰는 수술 기구와 서비스로 반복 매출을 올리는 회사다.",
+        "volumeExplanation": "10월 20일 발표한 3분기 실적이 시장 예상치를 웃돌아 매수세가 몰렸고, 긍정적인 분석 기사가 이어지며 거래량이 평소의 2배 이상으로 늘었다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "Claim c3 makes two statements: (1) 8-K filing to SEC, (2) earnings call discussion. Source provided is only a Zacks news article about the earnings call—does not document the 8-K SEC filing. The 8-K filing claim is unsupported.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 20일 발표한 3분기 실적이 시장 예상치를 웃돌아 매수세가 몰렸다. 다음 날 콘퍼런스콜과 긍정적인 분석 기사가 이어지며 거래량이 평소의 2배 이상으로 늘었다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "인튜이티브 서지컬",
       "nameEn": "INTUITIVE SURGICAL INC",
@@ -5375,8 +5292,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:38:02"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "KOF",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Coca-Cola FEMSA는 멕시코와 중남미 여러 나라에서 코카콜라 음료를 병입하고 유통해 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Correctly classified as category 6 with no clear catalyst evidence; claim c1 states '근거 없음'."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "코카콜라 펨사(ADR)",
       "nameEn": "COCA-COLA FEMSA S.A.B. DE C.V. ADS EA REP 10 UNTS(3 SER B SH",
@@ -5817,29 +5755,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:37:54"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "DXCM",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "DexCom은 당뇨 환자용 연속혈당측정기(CGM)인 G7, Stelo 등을 만들어 파는 의료기기 회사입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "근거 없음(no_source)이 명시되어 있으며 category 6 적절"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "덱스컴",
       "nameEn": "DEXCOM INC",
@@ -6513,8 +6430,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:40:58"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "PNFP",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 21일 3분기 실적이 시장 예상치(매출·EPS 모두)를 웃돌았다고 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Pinnacle Financial (PNFP) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/pinnacle-financial-pnfp-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-21",
+                "quote": "Pinnacle Financial (PNFP) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 회사가 실적 발표용 8-K(item 2.02)를 SEC에 제출했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Pinnacle Financial 8-K (실적 발표, item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/2082866/000208286626000087/pnfp-20261021.htm",
+                "date": "2026-10-21",
+                "quote": "8-K filingDate 2026-10-21 items 2.02, 7.01, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "PNFP는 미국 테네시주 중심의 지역은행 지주회사로, 예금과 대출의 이자수익과 수수료로 돈을 번다.",
+        "volumeExplanation": "10월 21일 3분기 실적이 매출·주당순이익 모두 증권사 예상치를 웃돌아 거래량이 평소의 2배 넘게 늘었다. 실적 서프라이즈 뒤 예상 대비 상향 여부를 가늠하려는 매매가 몰린 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All claims supported: Zacks earnings beat article (c1) and actual SEC EDGAR 8-K with item 2.02 on filing date 2026-10-21 (c2)."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "피너클 파이낸셜 파트너스",
       "nameEn": "PINNACLE FINANCIAL PARTNERS",
@@ -7196,8 +7160,66 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:39:57"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "MCO",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 21일 3분기 실적을 발표했다. 매출은 1년 전보다 1% 늘어 20억 달러였고, 시장 예상에는 못 미쳤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moody's (MCO) Misses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/moodys-mco-misses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-21",
+                "quote": "Moody's (MCO) Misses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "MOODYS CORP /DE/ - Form 8-K - FY2026",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001059556/000162828026066594/a3q26earningsrelease.htm",
+                "date": "2026-10-21",
+                "quote": "MCO revenue of $2.0 billion increased 1% from the prior-year period and 3% on an organic constant currency basis",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "3분기 희석 주당순이익은 1년 전보다 18% 늘었다. 조정 기준으로는 6% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MOODYS CORP /DE/ - Form 8-K - FY2026",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001059556/000162828026066594/a3q26earningsrelease.htm",
+                "date": "2026-10-21",
+                "quote": "Diluted EPS and Adjusted Diluted EPS increased 18% and 6%, respectively, from the prior-year period",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Moody's는 신용평가(채권 발행사의 상환 능력 등급)와 금융 데이터·분석 서비스를 팔아 돈을 번다.",
+        "volumeExplanation": "10월 21일 3분기 실적 발표 직후 거래량이 평소의 2배 넘게 늘었다. 매출·이익은 시장 예상에 못 미쳤고 연간 전망도 유지에 그쳐, 서프라이즈보다 실적 이벤트에 따른 재평가 매매로 보인다. 실적 발표 뒤 종가가 하루 범위의 상단에서 마감했는지가 이 이야기가 맞는지 가르는 확인 지점이다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c1·c3는 SEC 8-K와 실적 뉴스로 검증됨. c2의 구체적 가이던스 수치 '16.50~17.00달러'는 인용문에 없음."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "무디스",
       "nameEn": "MOODYS CORP",
@@ -7811,33 +7833,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:19:10"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ACA",
-        "category": 6,
-        "claims": [
-          {
-            "id": "none",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Arcosa는 미국에서 건설용 골재, 구조물, 송전 철탑 같은 인프라 자재를 만들어 판다.",
-        "volumeExplanation": "10월 22일 거래량이 늘어난 날의 직접적인 뉴스는 확인되지 않았다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "reject",
-          "removed": [
-            "c1"
-          ],
-          "reason": "c1에서 주장한 '마감은 2027년 1분기 예정'이라는 날짜가 Pulse 2.0 인용문에 없음. 주요 숫자($150/share)는 확인되나 핵심 날짜 미검증으로 전체 주장 신뢰성 문제",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "10월 22일 거래량이 늘어난 날의 직접적인 뉴스는 확인되지 않았다. 배경은 CRH의 주당 150달러 현금 인수가 진행 중이라는 점이다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "아코사",
       "nameEn": "ARCOSA INC",
@@ -8373,8 +8370,43 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:24:35"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "SAP",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 22일 SAP가 2026년 3분기 실적 발표 콘퍼런스콜을 열었다. 거래량 급증과 같은 날이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SAP (SAP) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/sap-sap-q3-2026-earnings-call-transcript",
+                "date": "2026-10-22",
+                "quote": "SAP (SAP) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "SAP는 독일 기업용 소프트웨어 회사로, 기업 회계·생산·인사 관리 프로그램을 클라우드 구독 형태로 팔아 돈을 번다.",
+        "volumeExplanation": "10월 22일 3분기 실적 발표가 있었고, 이 발표를 확인하려는 매매가 몰려 거래량이 평소의 2배로 늘었다. 이번 분기 수치와 전망 변화의 구체적 내용은 확인하지 못했다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c1은 2026-10-22 실적 발표 콘퍼런스콜로 검증됨. c2의 '2분기 예상 초과', '주가 9% 상승', '이번 분기 영향' 등은 출처 제목·인용문에 없음. 27% 증가·22.9B 유로만 확인 가능.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 22일 3분기 실적 발표가 있었고, 이 발표를 확인하려는 매매가 몰려 거래량이 평소의 2배로 늘었다. 이번 분기 수치와 전망 변화의 구체적 내용은 확인하지 못했다. 클라우드 수주잔액이 2분기처럼 예상을 웃돌았는지가 이 해석의 맞고 틀림을 가른다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "SAP(ADR)",
       "nameEn": "SAP SE SPON ADR EACH REP 1 ORD NPV",
@@ -8898,8 +8930,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:12:05"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "TRNS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Transcat은 산업용 측정·시험 장비의 교정(정확도 검증) 서비스와 계측 장비 유통으로 돈을 버는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 적절히 표기됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "트랜스캣",
       "nameEn": "TRANSCAT INC",
@@ -9474,29 +9527,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:08:58"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "NWE",
-        "category": 6,
-        "company": "NorthWestern Energy는 몬태나·사우스다코타·네브래스카에서 전기와 천연가스를 공급하는 규제 유틸리티(전력·가스 공공서비스 회사)입니다. 약 85만 고객에게 요금을 받아 수익을 냅니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "근거 없음(no_source)이 명시되어 있으며 category 6 적절"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "노스웨스턴 에너지 그룹",
       "nameEn": "NORTHWESTERN ENERGY GROUP INC",
@@ -10078,8 +10110,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:14:52"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "TD",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "TD는 캐나다 2위권 은행 토론토도미니언은행으로, 캐나다와 미국에서 예금·대출·자산관리로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 적절히 표기됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "토론토 도미니언 뱅크",
       "nameEn": "TORONTO-DOMINION BANK",
@@ -10537,29 +10590,8 @@ window.TEAM4_DATA = {
         "updated": "2026-09-16 06:44:22"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "SUNB",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Sunbelt Rentals는 미국·영국·캐나다에서 건설·산업용 장비를 빌려주고 임대료로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "근거 없음(no_source)이 명시되어 있으며 category 6 적절"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-22",
-        "carried": false
+        "status": "pending",
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "선벨트 렌털스 홀딩스",
       "nameEn": "SUNBELT RENTALS HOLDINGS INC",
@@ -11154,8 +11186,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:17:15"
       },
       "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "status": "done",
+        "ticker": "MOG.B",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Moog는 항공기 조종 장치, 방산 미사일·우주 부품 등 정밀 제어 장비를 만들어 파는 항공우주·방위산업 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 적절히 표기됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "무그 B",
       "nameEn": "MOOG INC",
@@ -11680,14 +11733,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 12,
+    "done": 10,
     "total": 22,
-    "cap": 15,
-    "pending": 10,
+    "cap": 10,
+    "pending": 12,
     "failed": 0,
     "carried": 0,
     "ineligible": 0,
-    "note": "22종목 중 12종목을 조사했습니다. 나머지 10종목은 상한(15) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "22종목 중 10종목을 조사했습니다. 나머지 12종목은 상한(10) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -11714,29 +11767,43 @@ window.TEAM4_DATA = {
   "llm": {
     "highlights": [
       {
-        "ticker": "TDY",
+        "ticker": "MCB",
         "category": 1,
-        "oneLine": "10월 21일 3분기 실적에서 매출과 주당순이익이 모두 예상치를 넘었다."
+        "oneLine": "10월 20일 3분기 실적을 공시했고, 최근 3분기 매출이 전년 대비 10.67%, 12.34%, 13.14%로 늘고 있다."
       },
       {
-        "ticker": "MEDP",
+        "ticker": "HAS",
         "category": 1,
-        "oneLine": "10월 21일 3분기 실적에서 매출과 주당순이익이 모두 증권사 예상치를 웃돌았다."
+        "oneLine": "10월 20일 3분기 실적과 함께 올해 매출 성장 전망을 올렸고, 발표 당일 주가가 올랐다는 보도가 있다."
       },
       {
-        "ticker": "WAB",
+        "ticker": "ISRG",
         "category": 1,
-        "oneLine": "10월 21일 3분기 주당순이익이 시장 예상치를 웃돌았다(매출 언급은 없음)."
+        "oneLine": "10월 20일 3분기 실적과 매출이 시장 예상치를 웃돌았고, 증권가가 매수 후보로 꼽았다."
+      },
+      {
+        "ticker": "PNFP",
+        "category": 1,
+        "oneLine": "10월 21일 3분기 매출과 주당순이익(EPS)이 모두 시장 예상치를 웃돌았다는 보도가 나왔다."
+      },
+      {
+        "ticker": "MCO",
+        "category": 1,
+        "oneLine": "3분기 주당순이익은 전년보다 18% 늘었지만 매출은 1% 증가에 그쳐 시장 예상에 못 미쳤다."
+      },
+      {
+        "ticker": "SAP",
+        "category": 1,
+        "oneLine": "10월 22일 3분기 실적 콘퍼런스콜을 열었고 같은 날 거래량이 급증했다. 실적 내용은 입력에 없다."
       }
     ],
-    "sectorSignal": "실적 호재 3건(TDY, MEDP, WAB)은 서로 다른 업종이라 한 업종 쏠림은 보이지 않는다. 산업 기술 돌파 호재는 입력에 없다.",
-    "caution": "BFC, ABT, CTBI는 실적 분류에 들어 있지만 예상치에 못 미친 소식이라 호재에서 뺐다. 호재 3건도 실적 발표 사실만 확인된 것이고, 가이던스(회사의 향후 실적 전망) 상향 근거는 입력에 없으며 주가 반응과 차트는 따로 확인해야 한다.",
+    "sectorSignal": "실적 호재 후보 6건이 금융(MCB, PNFP, MCO)에 3건, 헬스케어·의료기기(ISRG)와 완구(HAS)에 각 1건, 소프트웨어(SAP)에 1건으로, 입력만으로는 한 업종에 뚜렷하게 몰렸다고 보기 어렵다. 금융 쪽이 3건으로 가장 많다.",
+    "caution": "산업 기술 돌파 호재는 없고 모두 실적 호재다. 그중 MCO는 매출이 예상에 못 미쳤고 SAP는 실적 내용이 입력에 없어 서프라이즈로 보기 어렵다. KOF·TRNS·TD·MOG.B는 뉴스 없는 거래량 급증이라 근거가 없어 제외했다.",
     "researchedOn": "2026-10-22"
   },
   "reusedFrom": null,
   "byCategory": {
-    "1": 3,
-    "3": 1,
-    "6": 8
+    "1": 6,
+    "6": 4
   }
 };

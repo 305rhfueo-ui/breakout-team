@@ -1,0 +1,85 @@
+{
+ "ticker": "TD",
+ "news": [
+  {
+   "title": "Toronto Dominion Bank About To Put More Money In Your Pocket (TD)",
+   "url": "https://www.nasdaq.com/articles/toronto-dominion-bank-about-put-more-money-your-pocket-td",
+   "date": "2026-10-07",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "UBS or TD: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/ubs-or-td-which-better-value-stock-right-now-0",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TD Bank Plans C$10 Bln Share Buyback Programme, Up To 61 Mln Shares",
+   "url": "https://www.nasdaq.com/articles/td-bank-plans-c-10-bln-share-buyback-programme-61-mln-shares",
+   "date": "2026-09-30",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "TD December 18th Options Begin Trading",
+   "url": "https://www.nasdaq.com/articles/td-december-18th-options-begin-trading",
+   "date": "2026-09-23",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "TD Bank Targets 100 U.S. Branches as AML Remediation Continues",
+   "url": "https://www.nasdaq.com/articles/td-bank-targets-100-us-branches-aml-remediation-continues",
+   "date": "2026-09-17",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "BBVA vs. TD: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/bbva-vs-td-which-stock-better-value-option",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TD Bank Group Unveils $150 Bln Five-year Investment Push",
+   "url": "https://www.nasdaq.com/articles/td-bank-group-unveils-150-bln-five-year-investment-push",
+   "date": "2026-09-14",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Is The Toronto Dominion Bank (TD) Outperforming Other Finance Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/toronto-dominion-bank-td-outperforming-other-finance-stocks-year",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.49,
+  "saleNy": 5.67,
+  "epsCy": 20.89,
+  "epsNy": 10.65,
+  "cyTrend": 0.04,
+  "nyTrend": 0.19,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -1.47,
+    -23.37,
+    0.56
+   ],
+   "ni": [
+    36.99,
+    -61.61,
+    49.33
+   ],
+   "opm": [
+    20.45,
+    18.65,
+    18.85
+   ],
+   "updated": "2026-09-09 06:14:52"
+  }
+ }
+}

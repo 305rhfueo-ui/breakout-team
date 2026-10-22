@@ -3229,7 +3229,60 @@ window.TEAM5_DATA = {
           "name": "모호크 인더스트리스"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-22",
+        "carried": false,
+        "headline": "가전 업체 샤크닌자가 올해 시장의 주목을 받으며 가구·인테리어·가전 업종 순위를 끌어올렸다.",
+        "summary": "이 업종은 전체 업종 중 7위로, 한 달 새 2계단 올랐다. 종목은 3개뿐이고 샤크닌자가 6개월 상대강도에서 앞선다. CNBC는 샤크닌자를 올해 강세를 보인 가전 업체로 소개했다. 다만 업종 전체를 설명하는 증권사 리포트는 없어, 강세가 샤크닌자 한 종목에 기댄 점은 이어서 확인해야 한다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "CNBC는 가전 업체 샤크닌자가 올해 급등세라며 투자자 조슨 브라운의 이달 종목 목록에 올랐다고 전했다. 업종 순위를 끌어올린 중심이 이 종목이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html",
+                "date": "2026-08-20",
+                "quote": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "플렉스스틸의 4분기 실적 발표에서 비용 상승과 고르지 않은 수요가 지적됐다. 가구 쪽 수요가 약하면 업종 강세가 꺾일 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FLXS Q4 Earnings Call Flags Inflation and Uneven Demand",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/flxs-q4-earnings-call-flags-inflation-and-uneven-demand",
+                "date": "2026-08-19",
+                "quote": "FLXS Q4 Earnings Call Flags Inflation and Uneven Demand",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "CNBC 원문이 403으로 열리지 않아 제목만 근거로 썼고, 증권사 리포트와 업종 검색 리포트가 없어 실적 수치는 담지 못했다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w2",
+            "l1a"
+          ],
+          "reason": "w2와 l1a의 출처 CNBC 기사 제목 'Earnings season is heating up. UBS thinks these stocks could beat expectations'에 구체적으로 SharkNinja가 명시되지 않았으므로 제거하였습니다."
+        },
+        "evidenceCount": 11
+      }
     },
     {
       "key": "Healthcare|Drug Manufacturers - General",
@@ -4240,7 +4293,233 @@ window.TEAM5_DATA = {
           "name": null
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-22",
+        "carried": false,
+        "headline": "AI 도입 수요가 IT 서비스 실적으로 확인되며 액센추어·IBM·펭귄 솔루션스가 업종을 끌어올렸다.",
+        "summary": "IT 서비스 업종은 전체 업종 중 10위로, 한 달 새 64계단 올랐다. 액센추어가 실적 발표 뒤 급등했고 IBM도 매출과 이익이 예상을 웃돌았다. 펭귄 솔루션스는 AI 인프라 성장 기대가 커졌다. 방산·정부 IT 쪽 CACI는 수주잔고를 내세웠다. 이 흐름이 이어지려면 AI 수요가 계약과 실적으로 계속 확인되어야 한다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "IT 서비스 대장주 액센추어가 실적 발표에서 예상을 웃돌며 주가가 급등해 업종 분위기를 바꿨다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Accenture stock rallies after earnings beat expectations",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
+                "date": "2026-10-01",
+                "quote": "Accenture stock rallies after earnings beat expectations",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "IBM도 매출과 이익 모두 예상을 넘겼고, CEO는 AI 사업의 성과를 강조했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "IBM beats on top and bottom line, CEO touts 'Super Intelligence' traction",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
+                "date": "2026-10-21",
+                "quote": "IBM beats on top and bottom line, CEO touts 'Super Intelligence' traction",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "펭귄 솔루션스는 분기 실적 발표 뒤 AI 인프라 성장이 빨라질 것이라는 평가를 받았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth",
+                "date": "2026-10-07",
+                "quote": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "업종 내 기업들이 인수로 데이터·AI 서비스 역량을 넓히고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW's $525M Lovelytics Buyout: Can Data & AI Services Boost Growth?",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/cdws-525m-lovelytics-buyout-can-data-ai-services-boost-growth",
+                "date": "2026-09-14",
+                "quote": "CDW's $525M Lovelytics Buyout: Can Data & AI Services Boost Growth?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/accentures-8b-acquisition-push-growth-catalyst-acn-stock",
+                "date": "2026-10-16",
+                "quote": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "ACN",
+            "role": "업종 최대 규모(시가총액 약 1450억 달러)의 IT 서비스 기업으로 실적 호조가 업종 반등을 이끌었다.",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "액센추어는 실적이 예상을 웃돌며 주가가 급등했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Accenture stock rallies after earnings beat expectations",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
+                    "date": "2026-10-01",
+                    "quote": "Accenture stock rallies after earnings beat expectations",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l1b",
+                "statement": "액센추어는 80억 달러 규모 인수 공세로 성장 동력을 넓히고 있다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/accentures-8b-acquisition-push-growth-catalyst-acn-stock",
+                    "date": "2026-10-16",
+                    "quote": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 11.86,
+            "rnk1": 0.41,
+            "name": "액센추어"
+          },
+          {
+            "ticker": "IBM",
+            "role": "업종 최대 거래대금의 대형주로 3분기 실적이 예상을 웃돌았다.",
+            "why": [
+              {
+                "id": "l2a",
+                "statement": "IBM은 3분기 매출과 이익이 모두 예상을 넘었고 CEO가 AI 사업 성과를 강조했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "IBM beats on top and bottom line, CEO touts 'Super Intelligence' traction",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
+                    "date": "2026-10-21",
+                    "quote": "IBM beats on top and bottom line, CEO touts 'Super Intelligence' traction",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 37.2,
+            "rnk1": 18.17,
+            "name": "IBM"
+          },
+          {
+            "ticker": "PENG",
+            "role": "AI 인프라(메모리·컴퓨팅 시스템) 사업으로 업종 6개월 상대강도 1위권이다.",
+            "why": [
+              {
+                "id": "l3a",
+                "statement": "펭귄 솔루션스는 AI 인프라 성장이 빨라질 것이라는 평가를 받았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth",
+                    "date": "2026-10-07",
+                    "quote": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 3.02,
+            "rnk1": 16.91,
+            "name": "펭귄 솔루션스"
+          },
+          {
+            "ticker": "CACI",
+            "role": "정부·방산 IT 서비스 기업으로 대규모 수주잔고를 내세웠다.",
+            "why": [
+              {
+                "id": "l4a",
+                "statement": "CACI는 연례 주주총회에서 320억 달러 수주잔고와 ARKA 인수를 내세웠다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "CACI Highlights Strong FY2026, $32B Backlog and ARKA Deal at Annual Meeting",
+                    "publisher": "MarketBeat(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/caci-highlights-strong-fy2026-32b-backlog-and-arka-deal-annual-meeting",
+                    "date": "2026-10-15",
+                    "quote": "CACI Highlights Strong FY2026, $32B Backlog and ARKA Deal at Annual Meeting",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 23.13,
+            "rnk1": 49.46,
+            "name": "CACI 인터내셔널"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "AI 하드웨어로 예산이 쏠리면 대형 소프트웨어 계약이 미뤄질 수 있다. 키움증권은 IBM 사례에서 대형 계약 지연으로 주가가 급락했다고 짚었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[IBM (NYS:IBM)] AI 예산 재배분 충격과 소프트웨어 옥석 가리기",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlklkxeckilxqzgcgxecgg.pdf",
+                "date": "2026-07-24",
+                "quote": "2Q 실적은 잠정치 부합, AI HW 예산 쏠림에 따른 대형 계약 지연으로 주가 급락",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "CNBC 본문(403)을 열지 못해 제목만 근거로 썼고, 업종 검색어 증권사 리포트는 없다(IBM 리포트 1건만 있음).",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "l3b"
+          ],
+          "reason": "l3b는 뱅크오브아메리카의 미래 주가 예측일 뿐, 펭귄 솔루션스가 실제로 한 구체적인 일(실적·수주·제품)이 기사 제목에 명시되지 않았으므로 제거하였습니다. l3a(AI 인프라 성장 신호)가 여전히 같은 주장을 뒷받침합니다."
+        },
+        "evidenceCount": 60
+      }
     }
   ]
 };

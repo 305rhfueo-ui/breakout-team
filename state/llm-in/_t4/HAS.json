@@ -1,0 +1,211 @@
+{
+ "ticker": "HAS",
+ "news": [
+  {
+   "title": "Why Hasbro Stock Jumped Today",
+   "url": "https://www.nasdaq.com/articles/why-hasbro-stock-jumped-today",
+   "date": "2026-10-20",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Hasbro: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/hasbro-3-key-takeaways-long-term-investors",
+   "date": "2026-10-20",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Hasbro (HAS) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/hasbro-has-q3-2026-earnings-call-transcript",
+   "date": "2026-10-20",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Hasbro Q3 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/hasbro-q3-earnings-call-highlights",
+   "date": "2026-10-20",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Hasbro (HAS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/hasbro-has-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hasbro Q3 26 Earnings Conference Call At 8:30 AM ET",
+   "url": "https://www.nasdaq.com/articles/hasbro-q3-26-earnings-conference-call-8-30-am-et",
+   "date": "2026-10-20",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Hasbro Boosts FY26 Revenue Growth Outlook; Declares Dividend - Update",
+   "url": "https://www.nasdaq.com/articles/hasbro-boosts-fy26-revenue-growth-outlook-declares-dividend-update",
+   "date": "2026-10-20",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Hasbro Inc. Bottom Line Rises In Q3",
+   "url": "https://www.nasdaq.com/articles/hasbro-inc-bottom-line-rises-q3",
+   "date": "2026-10-20",
+   "publisher": "RTTNews"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-20",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000058/has-20261020.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000047/has-20260727.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000044/has-20260721.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000034/has-20260611.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000029/has-20260520.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000016/has-20260423.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046080&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-28",
+    "derived": false,
+    "revenue": 1139600000,
+    "profit": 252500000,
+    "netIncome": 160900000,
+    "margin": 22.2,
+    "yoy": {
+     "revenue": 16.2,
+     "profit": 131.6,
+     "netIncome": 118.8,
+     "priorEnd": "2025-06-29"
+    }
+   },
+   {
+    "periodEnd": "2026-03-29",
+    "derived": false,
+    "revenue": 1000200000,
+    "profit": 270300000,
+    "netIncome": 198400000,
+    "margin": 27,
+    "yoy": {
+     "revenue": 12.7,
+     "profit": 58.3,
+     "netIncome": 101.2,
+     "priorEnd": "2025-03-30"
+    }
+   },
+   {
+    "periodEnd": "2025-12-28",
+    "derived": true,
+    "revenue": 1445900000,
+    "profit": 297500000,
+    "netIncome": 201600000,
+    "margin": 20.6,
+    "yoy": {
+     "revenue": 31.3,
+     "profit": 397.5,
+     "netIncome": 687.8,
+     "priorEnd": "2024-12-29"
+    }
+   },
+   {
+    "periodEnd": "2025-09-28",
+    "derived": false,
+    "revenue": 1387500000,
+    "profit": 341100000,
+    "netIncome": 233200000,
+    "margin": 24.6,
+    "yoy": {
+     "revenue": 8.3,
+     "profit": 13,
+     "netIncome": 4.5,
+     "priorEnd": "2024-09-29"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.69,
+  "saleNy": 6.94,
+  "epsCy": 11,
+  "epsNy": 5.36,
+  "cyTrend": -0.16,
+  "nyTrend": -0.71,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.19,
+    12.75,
+    31.25
+   ],
+   "ni": [
+    "흑자전환",
+    101.22,
+    "흑자전환"
+   ],
+   "opm": [
+    22.16,
+    27.02,
+    20.58
+   ],
+   "updated": "2026-09-08 06:41:57"
+  }
+ }
+}

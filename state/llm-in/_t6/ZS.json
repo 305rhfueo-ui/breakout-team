@@ -1,0 +1,773 @@
+{
+ "ticker": "ZS",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "ZS",
+  "name": "지스케일러",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 231.3300018310547,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 237.22,
+  "stop": 225.77,
+  "distToPivotPct": -2.48,
+  "distToPivotAdr": -0.5,
+  "riskPerSharePct": 4.83,
+  "adrPct": 4.95,
+  "extensionAdr": 0.89,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 14.3,
+   "priorMovePct": 71.9,
+   "higherLows": 0,
+   "contraction": 1.38,
+   "closeRange10Adr": 2.3,
+   "surf10": 0.89,
+   "surf20": 1.69,
+   "slope20": 1.43,
+   "baseLow": 203.33,
+   "lastSwingLow": 203.33
+  },
+  "reasons": [
+   "선행 상승 +72%",
+   "베이스 2.2주",
+   "깊이 14.3%",
+   "✗ 저점 상승 0회",
+   "진폭 1.38배 · 10일 종가폭 2.3 ADR",
+   "10일선 +0.9 ADR · 20일선 +1.7 ADR",
+   "20일선 기울기 +1.43%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.10031283965049864,
+    "pct": 81.10910730387737
+   },
+   "m3": {
+    "v": 0.45091180814003773,
+    "pct": 97.97114517583408
+   },
+   "m6": {
+    "v": 0.6818242132795375,
+    "pct": 95.53651938683498
+   }
+  },
+  "ret1m": 7.87,
+  "ret3m": 52.56,
+  "ret6m": 77.02,
+  "marketCap": "34.65B",
+  "volx": 1.07,
+  "volSurgeWk": 1.24,
+  "high52": 68.65,
+  "newHigh52": false,
+  "adr": 4.95,
+  "div50": 18.83,
+  "div200": 39.54,
+  "targetStatus": false,
+  "saleCy": 17.27,
+  "saleNy": 16.48,
+  "epsCy": 16.58,
+  "epsNy": 14.57,
+  "cyTrend": 0,
+  "nyTrend": 0.38,
+  "est": {
+   "cyCur": 4.9082,
+   "cy30": 4.90819,
+   "nyCur": 5.62336,
+   "ny30": 5.602
+  },
+  "fs": {
+   "sale": [
+    24.88,
+    25.43,
+    25.91
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -1.72,
+    -3.49,
+    -6.35
+   ],
+   "updated": "2026-09-08 10:17:18"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "지스케일러",
+  "nameEn": "ZSCALER INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": true,
+     "revenue": 898185000,
+     "profit": -15492000,
+     "netIncome": -3369000,
+     "margin": -1.7,
+     "yoy": {
+      "revenue": 24.9,
+      "profit": 52,
+      "netIncome": 80.8,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 850475000,
+     "profit": -29640000,
+     "netIncome": -13883000,
+     "margin": -3.5,
+     "yoy": {
+      "revenue": 25.4,
+      "profit": -16.6,
+      "netIncome": -236.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 815751000,
+     "profit": -51773000,
+     "netIncome": -34312000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 25.9,
+      "profit": -29,
+      "netIncome": -344.2,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 788112000,
+     "profit": -36362000,
+     "netIncome": -11615000,
+     "margin": -4.6,
+     "yoy": {
+      "revenue": 25.5,
+      "profit": -18.6,
+      "netIncome": 3.6,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Zscaler (ZS) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-zscaler-zs-strong-momentum-stock-0",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should You Invest in Zscaler (ZS) Based on Bullish Wall Street Views?",
+     "url": "https://www.nasdaq.com/articles/should-you-invest-zscaler-zs-based-bullish-wall-street-views",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Zscaler an Undervalued Cybersecurity Stock to Buy Right Now in October?",
+     "url": "https://www.nasdaq.com/articles/zscaler-undervalued-cybersecurity-stock-buy-right-now-october-0",
+     "date": "2026-10-15",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Zscaler (ZS) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/zscaler-zs-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Zscaler, Inc. (ZS): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-zscaler-inc-zs-here-what-you-need-know-0",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Zscaler (ZS) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-zscaler-zs-strong-growth-stock",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "실적 발표",
+     "2.05",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000095/zs-20260526.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000082/zs-20260415.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-20260226.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
+   "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The jobs report, Lululemon earnings and more: Morning Squawk",
+   "url": "https://www.cnbc.com/2026/09/04/5-things-to-know-before-the-market-opens-friday.html",
+   "date": "2026-09-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's big stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/09/03/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
+   "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-after-hours-lulu-zs-gwre.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
+   "url": "https://www.cnbc.com/video/2026/10/06/zscaler-ceo-jay-chaudhry-on-cybersecurity-in-the-age-of-ai-company-growth-outlook.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trade: HQY, EEM, C, ZS",
+   "url": "https://www.cnbc.com/video/2026/10/05/final-trade-hqy-eem-c-zs.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Late Morning",
+   "url": "https://www.cnbc.com/video/2026/09/25/the-late-morning-rundown-september-25-2026.html",
+   "date": "2026-09-25",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Zscaler CEO on AI safety debate: 'Human ingenuity is powerful'",
+   "url": "https://www.cnbc.com/video/2026/09/18/zscaler-ceo-on-ai-safety-debate-human-ingenuity-is-powerful.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ZS",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 585.2,
+  "pbr": 14.52,
+  "eps": 0.4,
+  "bps": 15.93,
+  "shares": 163055000,
+  "marketCapM": 37720,
+  "high52": 336.99,
+  "high52Date": "2025-11-03",
+  "low52": 114.625,
+  "low52Date": "2026-04-10",
+  "last": 231.33,
+  "prevClose": 214.51,
+  "nameKo": "지스케일러",
+  "nameEn": "ZSCALER INC",
+  "listedOn": "2018-03-15",
+  "exchange": "나스닥",
+  "listedShares": 163055000
+ },
+ "estimates": {
+  "ticker": "ZS",
+  "url": "https://finance.yahoo.com/quote/ZS/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 1.16,
+    "epsLow": 1.15,
+    "epsHigh": 1.2,
+    "epsYearAgo": 0.96,
+    "epsAnalysts": 41,
+    "epsGrowth": 21,
+    "epsCur": "USD",
+    "rev": 938160410,
+    "revAnalysts": 42,
+    "revYearAgo": 788112000,
+    "revGrowth": 19,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 1.18,
+    "epsLow": 1.14,
+    "epsHigh": 1.29,
+    "epsYearAgo": 1.01,
+    "epsAnalysts": 41,
+    "epsGrowth": 17.3,
+    "epsCur": "USD",
+    "rev": 957752100,
+    "revAnalysts": 41,
+    "revYearAgo": 815751000,
+    "revGrowth": 17.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-07-31",
+    "eps": 4.91,
+    "epsLow": 4.86,
+    "epsHigh": 5.42,
+    "epsYearAgo": 4.21,
+    "epsAnalysts": 44,
+    "epsGrowth": 16.6,
+    "epsCur": "USD",
+    "rev": 3931401600,
+    "revAnalysts": 46,
+    "revYearAgo": 3352523000,
+    "revGrowth": 17.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-07-31",
+    "eps": 5.62,
+    "epsLow": 4.68,
+    "epsHigh": 6.78,
+    "epsYearAgo": 4.91,
+    "epsAnalysts": 43,
+    "epsGrowth": 14.6,
+    "epsCur": "USD",
+    "rev": 4579063640,
+    "revAnalysts": 43,
+    "revYearAgo": 3931401600,
+    "revGrowth": 16.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 1.16,
+    "d7": 0,
+    "d30": 0,
+    "d90": 7.7,
+    "ago90": 1.08,
+    "up7": 34,
+    "up30": 34,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 1.18,
+    "d7": 0,
+    "d30": 0,
+    "d90": 6.4,
+    "ago90": 1.11,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-07-31",
+    "cur": "USD",
+    "now": 4.91,
+    "d7": 0,
+    "d30": 0,
+    "d90": 6.8,
+    "ago90": 4.6,
+    "up7": 2,
+    "up30": 2,
+    "down7": 1,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-07-31",
+    "cur": "USD",
+    "now": 5.62,
+    "d7": 0,
+    "d30": 0.4,
+    "d90": 3.3,
+    "ago90": 5.44,
+    "up7": 11,
+    "up30": 12,
+    "down7": 2,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 1.19,
+    "estimate": 1.09,
+    "surprisePct": 9.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 1.08,
+    "estimate": 1.01,
+    "surprisePct": 7.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 1.01,
+    "estimate": 0.9,
+    "surprisePct": 12.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.96,
+    "estimate": 0.86,
+    "surprisePct": 11.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 47,
+   "ptLowered": 0,
+   "total": 60,
+   "recent": [
+    {
+     "date": "2026-10-21",
+     "firm": "DA Davidson",
+     "action": "init",
+     "from": null,
+     "to": "Neutral",
+     "ptAction": "Announces",
+     "pt": 215,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 260,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Citizens",
+     "action": "main",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Raises",
+     "pt": 265,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Amerx",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 305,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Macquarie",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 245,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "BNP Paribas",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 230
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-24",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 231.33,
+   "ma20": 211.99,
+   "ma50": 194.67,
+   "ma150": 160.47,
+   "distMA50": 18.83,
+   "periodHigh": 336.99,
+   "pullbackFromHigh": -31.35,
+   "volRatio20": 0.98,
+   "dryUpRatio": 0.78
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 214.38,
+    "h": 218.82,
+    "l": 212.37,
+    "c": 216.81,
+    "v": 3728400,
+    "clsPos": 69,
+    "gapPct": 0.39
+   },
+   {
+    "d": "2026-10-09",
+    "o": 221.48,
+    "h": 234.31,
+    "l": 219.79,
+    "c": 233.73,
+    "v": 3797500,
+    "clsPos": 96,
+    "gapPct": 2.15
+   },
+   {
+    "d": "2026-10-12",
+    "o": 236.11,
+    "h": 237.22,
+    "l": 224.6,
+    "c": 225.78,
+    "v": 2662400,
+    "clsPos": 9,
+    "gapPct": 1.02
+   },
+   {
+    "d": "2026-10-13",
+    "o": 224.61,
+    "h": 235.36,
+    "l": 223.75,
+    "c": 228.66,
+    "v": 3027700,
+    "clsPos": 42,
+    "gapPct": -0.52
+   },
+   {
+    "d": "2026-10-14",
+    "o": 223.5,
+    "h": 227.3,
+    "l": 220.06,
+    "c": 220.79,
+    "v": 2897100,
+    "clsPos": 10,
+    "gapPct": -2.26
+   },
+   {
+    "d": "2026-10-15",
+    "o": 216.77,
+    "h": 222.62,
+    "l": 212.14,
+    "c": 220.43,
+    "v": 2410800,
+    "clsPos": 79,
+    "gapPct": -1.82
+   },
+   {
+    "d": "2026-10-16",
+    "o": 223.28,
+    "h": 225.99,
+    "l": 203.33,
+    "c": 207.38,
+    "v": 2803600,
+    "clsPos": 18,
+    "gapPct": 1.29
+   },
+   {
+    "d": "2026-10-19",
+    "o": 209.91,
+    "h": 214.88,
+    "l": 208.01,
+    "c": 212.53,
+    "v": 1694500,
+    "clsPos": 66,
+    "gapPct": 1.22
+   },
+   {
+    "d": "2026-10-20",
+    "o": 210.81,
+    "h": 215.9,
+    "l": 207.23,
+    "c": 214.51,
+    "v": 1341500,
+    "clsPos": 84,
+    "gapPct": -0.81
+   },
+   {
+    "d": "2026-10-21",
+    "o": 214.5,
+    "h": 232.06,
+    "l": 214.5,
+    "c": 231.33,
+    "v": 2762432,
+    "clsPos": 96,
+    "gapPct": 0
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ZS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ZS-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

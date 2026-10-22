@@ -1,0 +1,877 @@
+{
+ "ticker": "CRWD",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "CRWD",
+  "name": "크라우드스트라이크 홀딩스",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 239.33999633789062,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 286.99,
+  "stop": 276.85,
+  "distToPivotPct": -16.6,
+  "distToPivotAdr": -3.92,
+  "riskPerSharePct": 3.53,
+  "adrPct": 4.23,
+  "extensionAdr": -0.84,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 16,
+   "baseWeeks": 3.2,
+   "depthPct": 22.9,
+   "priorMovePct": 64.8,
+   "higherLows": 0,
+   "contraction": 1.28,
+   "closeRange10Adr": 4.7,
+   "surf10": -0.84,
+   "surf20": -1.69,
+   "slope20": -1.51,
+   "baseLow": 221.36,
+   "lastSwingLow": 221.36
+  },
+  "reasons": [
+   "선행 상승 +65%",
+   "베이스 3.2주",
+   "깊이 22.9%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.28배 · 10일 종가폭 4.7 ADR",
+   "✗ 10일선 -0.8 ADR · 20일선 -1.7 ADR",
+   "✗ 20일선 기울기 -1.51%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.06659398693325425,
+    "pct": 13.75112714156898
+   },
+   "m3": {
+    "v": 0.24179187427144042,
+    "pct": 94.18394950405771
+   },
+   "m6": {
+    "v": 1.0593730284807146,
+    "pct": 98.60234445446348
+   }
+  },
+  "ret1m": -8.82,
+  "ret3m": 31.65,
+  "ret6m": 114.78,
+  "marketCap": "233.56B",
+  "volx": 1.07,
+  "volSurgeWk": 0.93,
+  "high52": 83.4,
+  "newHigh52": false,
+  "adr": 4.23,
+  "div50": 2.35,
+  "div200": 47.46,
+  "targetStatus": false,
+  "saleCy": 24.85,
+  "saleNy": 22.82,
+  "epsCy": 34.78,
+  "epsNy": 28.2,
+  "cyTrend": 0.06,
+  "nyTrend": 0.33,
+  "est": {
+   "cyCur": 1.25679,
+   "cy30": 1.25609,
+   "nyCur": 1.61123,
+   "ny30": 1.60591
+  },
+  "fs": {
+   "sale": [
+    25.83,
+    25.57,
+    23.32
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    -2.26,
+    -2.21,
+    0.02
+   ],
+   "updated": "2026-09-09 06:38:16"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-10-21"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "크라우드스트라이크 홀딩스",
+  "nameEn": "CROWDSTRIKE HOLDINGS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001535527&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 1470897000,
+     "profit": -33232000,
+     "netIncome": 5306000,
+     "margin": -2.3,
+     "yoy": {
+      "revenue": 25.8,
+      "profit": 68.5,
+      "netIncome": 107.6,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 1385629000,
+     "profit": -30600000,
+     "netIncome": 27774000,
+     "margin": -2.2,
+     "yoy": {
+      "revenue": 25.6,
+      "profit": 74.2,
+      "netIncome": 126.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 1305375000,
+     "profit": 13786000,
+     "netIncome": 60714000,
+     "margin": 1.1,
+     "yoy": {
+      "revenue": 23.3,
+      "profit": 117,
+      "netIncome": 170.9,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 1234244000,
+     "profit": -69443000,
+     "netIncome": -33997000,
+     "margin": -5.6,
+     "yoy": {
+      "revenue": 22.2,
+      "profit": -24.6,
+      "netIncome": -102.1,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Arista Networks vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/arista-networks-vs-crowdstrike-which-tech-stock-better-buy-2026",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Will AI Agent Growth Boost CrowdStrike's Endpoint Demand?",
+     "url": "https://www.nasdaq.com/articles/will-ai-agent-growth-boost-crowdstrikes-endpoint-demand",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CrowdStrike vs. Docusign: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-docusign-which-technology-stock-better-buy-2026",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "CrowdStrike (CRWD) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-crwd-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What a $5,000 Investment in CrowdStrike Will Be Worth by 2028",
+     "url": "https://www.nasdaq.com/articles/heres-what-5000-investment-crowdstrike-will-be-worth-2028",
+     "date": "2026-10-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-servicenow-comparing-revenue-trends-between-these-growing-software-giants",
+     "date": "2026-10-16",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Notable ETF Inflow Detected - QQQI, WMT, COST, CRWD",
+     "url": "https://www.nasdaq.com/articles/notable-etf-inflow-detected-qqqi-wmt-cost-crwd",
+     "date": "2026-10-15",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926076376/tm2618192d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000022/crwd-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-21",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000018/crwd-20260416.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-06",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000013/crwd-20260406.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000007/crwd-20260303.htm"
+   }
+  ],
+  "krReports": {
+   "total": 9,
+   "reports": [
+    {
+     "date": "2026-10-02",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 에이전트 부상과 함께 AI-보완 동행 지속",
+     "summary": "- 통합 플랫폼 내에서 여러 보안 영역으로 확장하는 특징- 에이전트 실행 환경인 엔드포인트 보안의 중요도 부각- 고성능 AI 모델이 침해 속도를 늘려 역으로 보안 수요를 높이는 구조",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmclmmxiqlqcgegcgxecgg.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "LS증권",
+     "analyst": "선유진",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 보안 SaaS 성장 재가속 중",
+     "summary": "- 사이버보안 통합 솔루션 기업- FY 2Q27 Review: 보안 SaaS 성장 재가속 중- 국내 소프트웨어 시사점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqiggmcikmegcgxecgg.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 막는 AI : AIDR",
+     "summary": "- CrowdStrike는 클라우드 네이티브 기반 글로벌 1위 보안 플랫폼 기업- FY27 2Q 신규 ARR 3.33억 달러로 사상 최대, 가이던스 상단을 16% 상회- AI 보안 수요의 확산 속도와 하반기 현금흐름 목표 달성 여부가 중요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxecgg.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요의 시급성이 모멘텀 지지",
+     "summary": "- 엔드포인트, AIDR, SIEM, 아이덴티티 등 부문 전반의 호조- FY2Q27 Review: AI 보안 필요성 가속 및 AI랩 대비 데이터 경쟁 우위- Valuation: AI 보안 수요와 Falcon Flex는 향후 ARR 순증의 핵심 변수",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxxzikleqzxgcgxecgg.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "하나증권",
+     "analyst": "김재임",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요, 내러티브에서 숫자로",
+     "summary": "- 2Q Beat & FY27년 가이던스 큰 폭으로 상향, 향후 추가적인 상향 조정 가능성- AIDR(AI보안) ARR 1분기 대비 3배 증가, Flex 모델 기반 ARR +101%- 소수의 보안 통합 플랫폼 사업자에 대한 투자 심리 더욱 좋아질 것",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxecgg.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-06-05",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 앞서는 내러티브, 뒤따르는 숫자",
+     "summary": "- AI 인프라 레이어로의 재정의와 성장 중심으로의 전환- FY1Q27 Review: 앤트로픽과 오픈AI가 모두 초기 보안 파트너로 선택- Valuation: 단기 부담 있으나 가이던스 상향의 근거가 충분하다고 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxekgkgezzzlgcgxecgg.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-03-05",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI는 위협이 아닌 기회, 소프트웨어 반등",
+     "summary": "- 크라우드 스트라이크의 분기 매출액은 13.1억 달러(YoY +23.2%), EPS 는 1.12 달러(YoY +8.7%)로 각각 컨센서스를 0.5%, 1.8% 상회했다- 모두 가이던스 상단(13억 달러, 1.11 달러)을 초과했고 연환산 반복 매 출(52.5억 달러)은 순수 사이버 보안 기업 중 최초로 50억 달러를 넘 어섰다. 4분기에 순증한 반복 매출(Net New Annual Recurring Revenue)은 3.3억 달러(YoY +47.6%)였다.- FY 1Q27 가이던스를 중간값 기준 매출액 13.6억 달러(YoY +23.5%, vs. 컨센서스 13.6억 달러), 영업이익 3.1억 달러(YoY +53.7%, vs. 컨 센서스 3억 달러), EPS 1.01 달러(YoY +45.9%, vs. 컨센서스 1.05 달 러)로 제시했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgxxzkmllezqegcgxecgg.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-03-05",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI와 보안은 동반 성장이 불가피",
+     "summary": "- 호실적 및 긍정적 가이던스. 전체 부문의 ARR 고성장- 사이버보안은 침해자-방어자가 모두 AI를 사용하는 대체 힘든 영역- AI의 환각이 허용되지 않는 영역. 고품질 데이터의 가치가 더욱 강조",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgxxzczeelcelgcgxecgg.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "CRWD-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-08-27",
+   "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 막는 AI : AIDR",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxecgg.pdf",
+   "pages": "6"
+  },
+  {
+   "file": "CRWD-report2.pdf",
+   "broker": "신한투자증권",
+   "analyst": "심지현",
+   "date": "2026-06-05",
+   "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 앞서는 내러티브, 뒤따르는 숫자",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxekgkgezzzlgcgxecgg.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Tale of two markets: Our 3 biggest winners and losers over the past five weeks",
+   "url": "https://www.cnbc.com/investingclub/2026/10/15/tale-of-two-markets-our-3-biggest-winners-and-losers-over-the-past-five-weeks.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Dan Ives says AI buildout only in 3rd inning. Here are his top 5 plays from here",
+   "url": "https://www.cnbc.com/2026/10/07/dan-ives-says-ai-buildout-only-in-3rd-inning-here-are-his-top-5-plays-from-here-.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "What's behind an 'explosion of buying' Tuesday, including the rally in GE Vernova",
+   "url": "https://www.cnbc.com/investingclub/2026/10/06/whats-behind-an-explosion-of-buying-tuesday-including-the-rally-in-ge-vernova.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tuesday's stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/10/05/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday, October 16, 2026: The Club is bullish on this tech giant's latest product launch",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/16/friday-october-16-2026-the-club-is-bullish-on-this-tech-giants-latest-product-launch.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "October Monthly Meeting: Cramer breaks down how to navigate the shifting AI trade",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/15/october-monthly-meeting-cramer-breaks-down-how-to-navigate-the-shifting-ai-trade.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: CrowdStrike, Wells Fargo and Netflix",
+   "url": "https://www.cnbc.com/video/2026/10/15/final-trades-crowdstrike-wells-fargo-netflix.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Tuesday, October 6, 2026: Cramer says AI can't replace this cybersecurity firm",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/06/tuesday-october-6-2026-cramer-says-ai-cant-replace-this-cybersecurity-firm.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CRWD",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 6704.2,
+  "pbr": 48.03,
+  "eps": 0.04,
+  "bps": 4.98,
+  "shares": 1023930000,
+  "marketCapM": 245067,
+  "high52": 286.9899,
+  "high52Date": "2026-10-06",
+  "low52": 85.68,
+  "low52Date": "2026-02-23",
+  "last": 239.34,
+  "prevClose": 227.37,
+  "nameKo": "크라우드스트라이크 홀딩스",
+  "nameEn": "CROWDSTRIKE HOLDINGS INC",
+  "listedOn": "2019-06-11",
+  "exchange": "나스닥",
+  "listedShares": 1023930000
+ },
+ "estimates": {
+  "ticker": "CRWD",
+  "url": "https://finance.yahoo.com/quote/CRWD/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 0.31,
+    "epsLow": 0.31,
+    "epsHigh": 0.33,
+    "epsYearAgo": 0.24,
+    "epsAnalysts": 45,
+    "epsGrowth": 29.8,
+    "epsCur": "USD",
+    "rev": 1528559430,
+    "revAnalysts": 43,
+    "revYearAgo": 1234244000,
+    "revGrowth": 23.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 0.36,
+    "epsLow": 0.32,
+    "epsHigh": 0.37,
+    "epsYearAgo": 0.28,
+    "epsAnalysts": 45,
+    "epsGrowth": 27.5,
+    "epsCur": "USD",
+    "rev": 1621595550,
+    "revAnalysts": 42,
+    "revYearAgo": 1305375000,
+    "revGrowth": 24.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 1.26,
+    "epsLow": 1.25,
+    "epsHigh": 1.32,
+    "epsYearAgo": 0.93,
+    "epsAnalysts": 51,
+    "epsGrowth": 34.8,
+    "epsCur": "USD",
+    "rev": 6007888610,
+    "revAnalysts": 49,
+    "revYearAgo": 4812005000,
+    "revGrowth": 24.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 1.61,
+    "epsLow": 1.5,
+    "epsHigh": 2.04,
+    "epsYearAgo": 1.26,
+    "epsAnalysts": 53,
+    "epsGrowth": 28.2,
+    "epsCur": "USD",
+    "rev": 7378963570,
+    "revAnalysts": 50,
+    "revYearAgo": 6007888610,
+    "revGrowth": 22.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 0.31,
+    "d7": 0.1,
+    "d30": 0.1,
+    "d90": 0.4,
+    "ago90": 0.31,
+    "up7": 0,
+    "up30": 16,
+    "down7": 0,
+    "down30": 11
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 0.36,
+    "d7": 0.1,
+    "d30": 0.1,
+    "d90": 1.1,
+    "ago90": 0.35,
+    "up7": 0,
+    "up30": 25,
+    "down7": 0,
+    "down30": 11
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 1.26,
+    "d7": 0.1,
+    "d30": 0.1,
+    "d90": -2,
+    "ago90": 1.28,
+    "up7": 0,
+    "up30": 48,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 1.61,
+    "d7": 0.3,
+    "d30": 0.3,
+    "d90": -1,
+    "ago90": 1.63,
+    "up7": 1,
+    "up30": 42,
+    "down7": 0,
+    "down30": 4
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 0.31,
+    "estimate": 0.29,
+    "surprisePct": 6.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 0.28,
+    "estimate": 0.27,
+    "surprisePct": 3.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 0.28,
+    "estimate": 0.28,
+    "surprisePct": 1.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.24,
+    "estimate": 0.24,
+    "surprisePct": 2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 52,
+   "ptLowered": 2,
+   "total": 67,
+   "recent": [
+    {
+     "date": "2026-10-16",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 265,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 295,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Freedom Broker",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 320,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 312,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 300,
+     "ptPrior": 235
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 310,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 295,
+     "ptPrior": 235
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Amerx",
+     "action": "init",
+     "from": null,
+     "to": "Underweight",
+     "ptAction": "Announces",
+     "pt": 212,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "StoneX",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 325,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 280,
+     "ptPrior": 250
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-01",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 239.34,
+   "ma20": 256.5,
+   "ma50": 233.84,
+   "ma150": 180.77,
+   "distMA50": 2.35,
+   "periodHigh": 286.99,
+   "pullbackFromHigh": -16.6,
+   "volRatio20": 1.13,
+   "dryUpRatio": 1.22
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 264.62,
+    "h": 272.5,
+    "l": 261.62,
+    "c": 263.01,
+    "v": 9385300,
+    "clsPos": 13,
+    "gapPct": -0.31
+   },
+   {
+    "d": "2026-10-09",
+    "o": 267.5,
+    "h": 275.12,
+    "l": 262.4,
+    "c": 275.04,
+    "v": 7072000,
+    "clsPos": 99,
+    "gapPct": 1.71
+   },
+   {
+    "d": "2026-10-12",
+    "o": 276.38,
+    "h": 276.39,
+    "l": 261.23,
+    "c": 263.01,
+    "v": 7166600,
+    "clsPos": 12,
+    "gapPct": 0.49
+   },
+   {
+    "d": "2026-10-13",
+    "o": 260.64,
+    "h": 268.08,
+    "l": 259.3,
+    "c": 261.21,
+    "v": 6373100,
+    "clsPos": 22,
+    "gapPct": -0.9
+   },
+   {
+    "d": "2026-10-14",
+    "o": 253.74,
+    "h": 256.07,
+    "l": 248.03,
+    "c": 249.29,
+    "v": 9213500,
+    "clsPos": 16,
+    "gapPct": -2.86
+   },
+   {
+    "d": "2026-10-15",
+    "o": 243.11,
+    "h": 246.88,
+    "l": 239.82,
+    "c": 244.57,
+    "v": 10792000,
+    "clsPos": 67,
+    "gapPct": -2.48
+   },
+   {
+    "d": "2026-10-16",
+    "o": 246.98,
+    "h": 248,
+    "l": 224.6,
+    "c": 227.39,
+    "v": 13859700,
+    "clsPos": 12,
+    "gapPct": 0.99
+   },
+   {
+    "d": "2026-10-19",
+    "o": 234.18,
+    "h": 234.26,
+    "l": 223.95,
+    "c": 228.1,
+    "v": 8318300,
+    "clsPos": 40,
+    "gapPct": 2.99
+   },
+   {
+    "d": "2026-10-20",
+    "o": 226.26,
+    "h": 229.24,
+    "l": 221.36,
+    "c": 227.37,
+    "v": 8029700,
+    "clsPos": 76,
+    "gapPct": -0.81
+   },
+   {
+    "d": "2026-10-21",
+    "o": 230.89,
+    "h": 242.9,
+    "l": 228.7,
+    "c": 239.34,
+    "v": 9332356,
+    "clsPos": 75,
+    "gapPct": 1.55
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRWD-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRWD-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,762 @@
+{
+ "ticker": "RBRK",
+ "date": "2026-10-22",
+ "session": "2026-10-21",
+ "source": "list",
+ "plan": {
+  "ticker": "RBRK",
+  "name": "루브릭",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 120.37999725341797,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 127.9,
+  "stop": 122.01,
+  "distToPivotPct": -5.88,
+  "distToPivotAdr": -1.2,
+  "riskPerSharePct": 4.61,
+  "adrPct": 4.89,
+  "extensionAdr": 0.44,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 16,
+   "baseWeeks": 3.2,
+   "depthPct": 16.4,
+   "priorMovePct": 90,
+   "higherLows": 0,
+   "contraction": 1.62,
+   "closeRange10Adr": 2.2,
+   "surf10": 0.44,
+   "surf20": 0.49,
+   "slope20": 1.05,
+   "baseLow": 106.92,
+   "lastSwingLow": 106.92
+  },
+  "reasons": [
+   "선행 상승 +90%",
+   "베이스 3.2주",
+   "깊이 16.4%",
+   "✗ 저점 상승 0회",
+   "진폭 1.62배 · 10일 종가폭 2.2 ADR",
+   "10일선 +0.4 ADR · 20일선 +0.5 ADR",
+   "20일선 기울기 +1.05%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.06321960556146988,
+    "pct": 65.50946798917944
+   },
+   "m3": {
+    "v": 0.6101048555034426,
+    "pct": 99.41388638412985
+   },
+   "m6": {
+    "v": 1.1752549599305013,
+    "pct": 98.87285843101894
+   }
+  },
+  "ret1m": 4.16,
+  "ret3m": 68.48,
+  "ret6m": 126.36,
+  "marketCap": "23.76B",
+  "volx": 0.94,
+  "volSurgeWk": 0.79,
+  "high52": 94.12,
+  "newHigh52": false,
+  "adr": 4.9,
+  "div50": 13.27,
+  "div200": 61.38,
+  "targetStatus": true,
+  "saleCy": 28.45,
+  "saleNy": 21.49,
+  "epsCy": -5132.5,
+  "epsNy": 52.54,
+  "cyTrend": 59.89,
+  "nyTrend": 17.98,
+  "est": {
+   "cyCur": 0.50325,
+   "cy30": 0.31475,
+   "nyCur": 0.76765,
+   "ny30": 0.65065
+  },
+  "fs": {
+   "sale": [
+    37.89,
+    38.99,
+    46.33
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -16.83,
+    -13.6,
+    -21.81
+   ],
+   "updated": "2026-09-08 06:15:40"
+  },
+  "qualifiedBy": [
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-16",
+   "m6": "2026-10-15"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 4,
+   "m6": 5
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "루브릭",
+  "nameEn": "RUBRIK INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001943896&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 427260000,
+     "profit": -71902000,
+     "netIncome": -61777000,
+     "margin": -16.8,
+     "yoy": {
+      "revenue": 37.9,
+      "profit": 23.9,
+      "netIncome": 35.6,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 387068000,
+     "profit": -52634000,
+     "netIncome": -41853000,
+     "margin": -13.6,
+     "yoy": {
+      "revenue": 39,
+      "profit": 43.5,
+      "netIncome": 59,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 377684000,
+     "profit": -82379000,
+     "netIncome": 261512000,
+     "margin": -21.8,
+     "yoy": {
+      "revenue": 46.3,
+      "profit": 29.1,
+      "netIncome": -74.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 350166000,
+     "profit": -75483000,
+     "netIncome": -63829000,
+     "margin": -21.6,
+     "yoy": {
+      "revenue": 48.3,
+      "profit": 39.5,
+      "netIncome": 51.2,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "RBRK Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/rbrk-crosses-above-average-analyst-target-0",
+     "date": "2026-10-06",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Why Shares of Rubrik Stock Rallied This Week",
+     "url": "https://www.nasdaq.com/articles/why-shares-rubrik-stock-rallied-week",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Rubrik CFO Kiran Kumar Choudary Sells $2.5 Million Stock",
+     "url": "https://www.nasdaq.com/articles/rubrik-cfo-kiran-kumar-choudary-sells-25-million-stock",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Rubrik Consensus Price Target Increased by 11.53% to $122.31",
+     "url": "https://www.nasdaq.com/articles/rubrik-consensus-price-target-increased-1153-12231",
+     "date": "2026-09-15",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Why Rubrik Stock Soared 15% Today",
+     "url": "https://www.nasdaq.com/articles/why-rubrik-stock-soared-15-today",
+     "date": "2026-09-14",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Rubrik Stock Analysis: A Cybersecurity Stock You Need to Buy as AI Agents Proliferate?",
+     "url": "https://www.nasdaq.com/articles/rubrik-stock-analysis-cybersecurity-stock-you-need-buy-ai-agents-proliferate",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's How Rubrik Stock Gained 28.6% Last Month",
+     "url": "https://www.nasdaq.com/articles/heres-how-rubrik-stock-gained-286-last-month",
+     "date": "2026-09-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Rubrik, Inc. (RBRK) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-rubrik-inc-rbrk-strong-momentum-stock",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000055/rbrk-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000049/rbrk-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000041/rbrk-20260604.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000004/rbrk-20260312.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-04",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000119312526037791/d52441d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389625000050/rbrk-20251204.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: PayPal, Affirm Holdings, Gap, Marvell",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-premarket-pypl-afrm-gap-mrvl.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-after-hours-gap-wday-adsk-and-more.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Rubrik CEO: UK ahead of the curve on cybersecurity",
+   "url": "https://www.cnbc.com/video/2026/09/08/rubrik-ceo-u-k-ahead-of-the-curve-on-cybersecurity.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "RBRK",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 95.28,
+  "pbr": 0,
+  "eps": 1.26,
+  "bps": 0,
+  "shares": 167367140,
+  "marketCapM": 20092,
+  "high52": 127.9,
+  "high52Date": "2026-10-06",
+  "low52": 42.25,
+  "low52Date": "2026-04-10",
+  "last": 120.05,
+  "prevClose": 114.59,
+  "nameKo": "루브릭",
+  "nameEn": "RUBRIK INC",
+  "listedOn": "2024-04-24",
+  "exchange": "뉴욕거래소",
+  "listedShares": 167367140
+ },
+ "estimates": {
+  "ticker": "RBRK",
+  "url": "https://finance.yahoo.com/quote/RBRK/analysis/",
+  "fetchedAt": "2026-10-22",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 0.08,
+    "epsLow": 0.07,
+    "epsHigh": 0.09,
+    "epsYearAgo": 0.1,
+    "epsAnalysts": 26,
+    "epsGrowth": -18,
+    "epsCur": "USD",
+    "rev": 430191250,
+    "revAnalysts": 26,
+    "revYearAgo": 350166000,
+    "revGrowth": 22.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 0.06,
+    "epsLow": 0.02,
+    "epsHigh": 0.11,
+    "epsYearAgo": 0.04,
+    "epsAnalysts": 25,
+    "epsGrowth": 55.1,
+    "epsCur": "USD",
+    "rev": 446211770,
+    "revAnalysts": 26,
+    "revYearAgo": 377684000,
+    "revGrowth": 18.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 0.5,
+    "epsLow": 0.45,
+    "epsHigh": 0.56,
+    "epsYearAgo": -0.01,
+    "epsAnalysts": 27,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 1690677860,
+    "revAnalysts": 27,
+    "revYearAgo": 1316191000,
+    "revGrowth": 28.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 0.77,
+    "epsLow": 0.5,
+    "epsHigh": 1.05,
+    "epsYearAgo": 0.5,
+    "epsAnalysts": 27,
+    "epsGrowth": 52.5,
+    "epsCur": "USD",
+    "rev": 2054039380,
+    "revAnalysts": 27,
+    "revYearAgo": 1690677860,
+    "revGrowth": 21.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 0.08,
+    "d7": 0,
+    "d30": 46.1,
+    "d90": 46.5,
+    "ago90": 0.06,
+    "up7": 16,
+    "up30": 16,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 0.06,
+    "d7": 0,
+    "d30": 4,
+    "d90": 4.7,
+    "ago90": 0.06,
+    "up7": 12,
+    "up30": 12,
+    "down7": 5,
+    "down30": 5
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 0.5,
+    "d7": 0,
+    "d30": 59.9,
+    "d90": 60.3,
+    "ago90": 0.31,
+    "up7": 21,
+    "up30": 20,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 0.77,
+    "d7": 0,
+    "d30": 18,
+    "d90": 18.7,
+    "ago90": 0.65,
+    "up7": 18,
+    "up30": 18,
+    "down7": 2,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 0.2,
+    "estimate": 0.04,
+    "surprisePct": 409.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 0.16,
+    "estimate": -0.03,
+    "surprisePct": 668,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 0.04,
+    "estimate": -0.11,
+    "surprisePct": 136.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.1,
+    "estimate": -0.17,
+    "surprisePct": 158,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 20,
+   "ptLowered": 0,
+   "total": 22,
+   "recent": [
+    {
+     "date": "2026-09-23",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 139,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "CIBC",
+     "action": "main",
+     "from": "Outperformer",
+     "to": "Outperformer",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Scotiabank",
+     "action": "main",
+     "from": "Sector Outperform",
+     "to": "Sector Outperform",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 114
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 130,
+     "ptPrior": 96
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 114,
+     "ptPrior": 91
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 105
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 116,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 112
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-08-27",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-21",
+  "numbers": {
+   "price": 120.38,
+   "ma20": 117.48,
+   "ma50": 106.27,
+   "ma150": 80.01,
+   "distMA50": 13.27,
+   "periodHigh": 127.9,
+   "pullbackFromHigh": -5.88,
+   "volRatio20": 0.91,
+   "dryUpRatio": 1.14
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 123.19,
+    "h": 124,
+    "l": 119.29,
+    "c": 120.89,
+    "v": 2492400,
+    "clsPos": 34,
+    "gapPct": -0.44
+   },
+   {
+    "d": "2026-10-09",
+    "o": 121.29,
+    "h": 125.21,
+    "l": 119.36,
+    "c": 125.14,
+    "v": 2518600,
+    "clsPos": 99,
+    "gapPct": 0.33
+   },
+   {
+    "d": "2026-10-12",
+    "o": 126.2,
+    "h": 126.67,
+    "l": 119.93,
+    "c": 120.01,
+    "v": 3274700,
+    "clsPos": 1,
+    "gapPct": 0.85
+   },
+   {
+    "d": "2026-10-13",
+    "o": 118.37,
+    "h": 122,
+    "l": 117.83,
+    "c": 118.47,
+    "v": 2289000,
+    "clsPos": 15,
+    "gapPct": -1.37
+   },
+   {
+    "d": "2026-10-14",
+    "o": 114.5,
+    "h": 119.8,
+    "l": 112.67,
+    "c": 113.9,
+    "v": 2776700,
+    "clsPos": 17,
+    "gapPct": -3.35
+   },
+   {
+    "d": "2026-10-15",
+    "o": 109.3,
+    "h": 118.83,
+    "l": 106.92,
+    "c": 118.62,
+    "v": 4041500,
+    "clsPos": 98,
+    "gapPct": -4.04
+   },
+   {
+    "d": "2026-10-16",
+    "o": 119.27,
+    "h": 121.72,
+    "l": 108.92,
+    "c": 112.41,
+    "v": 4371500,
+    "clsPos": 27,
+    "gapPct": 0.55
+   },
+   {
+    "d": "2026-10-19",
+    "o": 114.48,
+    "h": 115.42,
+    "l": 111.49,
+    "c": 113.41,
+    "v": 2655800,
+    "clsPos": 49,
+    "gapPct": 1.84
+   },
+   {
+    "d": "2026-10-20",
+    "o": 111.8,
+    "h": 115.73,
+    "l": 110.21,
+    "c": 114.59,
+    "v": 2333500,
+    "clsPos": 79,
+    "gapPct": -1.42
+   },
+   {
+    "d": "2026-10-21",
+    "o": 116.12,
+    "h": 122.01,
+    "l": 116.3,
+    "c": 120.38,
+    "v": 2534360,
+    "clsPos": 71,
+    "gapPct": 1.34
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RBRK-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RBRK-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 2일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

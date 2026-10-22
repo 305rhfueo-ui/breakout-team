@@ -1,0 +1,301 @@
+{
+ "ticker": "MSTR",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "스트래티지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.13,
+  "saleNy": 2.22,
+  "epsCy": 25.54,
+  "epsNy": -168.23,
+  "est": {
+   "cyCur": -19.11976,
+   "cy30": -23.44411,
+   "nyCur": 13.04459,
+   "ny30": 13.13962
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    6.88,
+    11.92,
+    1.9
+   ],
+   "ni": [
+    -186.45,
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -6808.11,
+    -11641.53,
+    -14184.96
+   ],
+   "updated": "2026-09-21 06:41:17"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-21",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "스트래티지",
+  "nameEn": "STRATEGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050446&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 122368000,
+     "profit": -8330950000,
+     "netIncome": -8219628000,
+     "margin": -6808.1,
+     "yoy": {
+      "revenue": 6.9,
+      "profit": -159.4,
+      "netIncome": -182,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 124300000,
+     "profit": -14470419000,
+     "netIncome": -12542670000,
+     "margin": -11641.5,
+     "yoy": {
+      "revenue": 11.9,
+      "profit": -144.4,
+      "netIncome": -197.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 122988000,
+     "profit": -17445805000,
+     "netIncome": -12436653000,
+     "margin": -14185,
+     "yoy": {
+      "revenue": 1.9,
+      "profit": -1616.4,
+      "netIncome": -1754,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 128691000,
+     "profit": 3890842000,
+     "netIncome": 2785024000,
+     "margin": 3023.4,
+     "yoy": {
+      "revenue": 10.9,
+      "profit": 999.4,
+      "netIncome": 918.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Strategy (MSTR) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/strategy-mstr-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trending Stock Strategy Inc (MSTR) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-strategy-inc-mstr-buy-now",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Strategy (MSTR) Dips More Than Broader Market: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/strategy-mstr-dips-more-broader-market-what-you-should-know",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "MSTR Stock Rises 60% in Three Months: Is More Upside Still Ahead?",
+     "url": "https://www.nasdaq.com/articles/mstr-stock-rises-60-three-months-more-upside-still-ahead",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526424688/mstr-20261019.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-16",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/mstr-20261015.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526419726/mstr-20261012.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526413164/mstr-20261005.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526409863/mstr-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526403417/mstr-20260914.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-02-06",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
+     "summary": "- 매출은 1억 달러(YoY +1.9%), 영업손실 174억 달러를 기록했다. 순손 실은 126억 달러, 주당 순손실은 42.93 달러다. 비트코인 가격 하락에 따른 평가 손실이 재무제표에 반영되면서 대규모 회계상 손실을 기록 했다.- 주가 및 비트코인 가격 부진에도 공격적인 매수를 지속하며 4분기에 32,470 BTC를 약 31억 달러에 매입했다. 2025년 전체 BTC 수익률은 22.8%를 기록하며 목표 범위(22~26%)를 달성했다.- BTC 수익률은 주 당 비트코인 수의 변화율로 구한다. 주식을 발행해 자금을 조달하더라 도, 그 돈으로 주식 수 증가분보다 더 많은 비율의 비트코인을 매입했 다면 BPS는 상승하고 BTC 수익률은 양의 값을 가진다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxecgg.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-01-07",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[스트래티지 (NAS:MSTR)] 스트래티지 MSCI 편출 우려 완화",
+     "summary": "- 스트래티지는 MSCI 편출 불확실성을 해소하며 시간 외로 6.6% 상승했 습니다. 실제로 제외된다 하더라도 여파는 크지 않을 것으로 보입니다. 10월 MSCI 발표 이후 주가는 51% 하락하며 리스크를 미리 반영했습니 다.- 시장에서는 편출 시 매도 규모를 약 28억 달러로 추정했다. 주가가 급 락하고 변동성이 확대되면 스트래티지의 자본 조달 여건이 약화돼 비 트코인을 매도할 수 있다는 우려가 컸다- 10월 MSCI 발표 이후 주가 는 51% 하락했다. 편출은 보류하지만 가중치 상향 및 추가 편입을 제 한했다. 주식 수나 유통 지분 등의 증가를 반영하지 않으며 당분간 해 당 종목들이 지수 내 비중이 커지는 상황을 막을 것이다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxecgg.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A breakout is brewing in this bitcoin-linked stock. How to trade it",
+   "url": "https://www.cnbc.com/2026/08/26/a-breakout-is-brewing-in-this-bitcoin-linked-stock-how-to-trade-it.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Expedia, Nvidia, Strategy and more",
+   "url": "https://www.cnbc.com/2026/08/24/stocks-making-the-biggest-moves-midday-expe-nvda-mstr-hims.html",
+   "date": "2026-08-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Moderna, Robinhood & more",
+   "url": "https://www.cnbc.com/2026/08/21/stocks-making-the-biggest-moves-midday-mrna-hood-bj-coin.html",
+   "date": "2026-08-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: BJ's Wholesale, Broadcom, Ross Stores",
+   "url": "https://www.cnbc.com/2026/08/21/stocks-making-the-biggest-moves-premarket-bj-avg-coin-rost.html",
+   "date": "2026-08-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bitcoin rebounds after Trump says he's become 'a big crypto guy'",
+   "url": "https://www.cnbc.com/2026/07/06/bitcoin-rebounds-after-trump-says-hes-become-a-big-crypto-guy.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "MSTR",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 1.58,
+  "pbr": 1.85,
+  "eps": 97.21,
+  "bps": 83.12,
+  "shares": 402431000,
+  "marketCapM": 61765,
+  "high52": 305.9899,
+  "high52Date": "2025-10-21",
+  "low52": 81.81,
+  "low52Date": "2026-06-26",
+  "last": 153.48,
+  "prevClose": 142.72,
+  "nameKo": "스트래티지",
+  "nameEn": "STRATEGY INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 402431000
+ }
+}

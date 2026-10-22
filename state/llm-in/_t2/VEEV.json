@@ -1,0 +1,296 @@
+{
+ "ticker": "VEEV",
+ "sector": "Healthcare",
+ "industry": "Health Information Services",
+ "nameKo": "비바 시스템스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.49,
+  "saleNy": 12.27,
+  "epsCy": 14.02,
+  "epsNy": 10.99,
+  "est": {
+   "cyCur": 9.2354,
+   "cy30": 9.2354,
+   "nyCur": 10.25064,
+   "ny30": 10.25064
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.6,
+    16.32,
+    15.96
+   ],
+   "ni": [
+    36.5,
+    14.35,
+    24.83
+   ],
+   "opm": [
+    29.64,
+    30.93,
+    29.41
+   ],
+   "updated": "2026-09-08 09:08:19"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-14",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 6,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "비바 시스템스",
+  "nameEn": "VEEVA SYSTEMS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393052&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 927963000,
+     "profit": 275018000,
+     "netIncome": 273429000,
+     "margin": 29.6,
+     "yoy": {
+      "revenue": 17.6,
+      "profit": 40.4,
+      "netIncome": 36.5,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 882948000,
+     "profit": 273112000,
+     "netIncome": 260936000,
+     "margin": 30.9,
+     "yoy": {
+      "revenue": 16.3,
+      "profit": 16.8,
+      "netIncome": 14.4,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 835951000,
+     "profit": 245876000,
+     "netIncome": 244204000,
+     "margin": 29.4,
+     "yoy": {
+      "revenue": 16,
+      "profit": 30.5,
+      "netIncome": 24.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 811236000,
+     "profit": 240853000,
+     "netIncome": 236203000,
+     "margin": 29.7,
+     "yoy": {
+      "revenue": 16,
+      "profit": 32.8,
+      "netIncome": 27.1,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Veeva Systems (VEEV) Rises Higher Than Market: Key Facts",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-veev-rises-higher-market-key-facts",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Veeva (VEEV) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/veeva-veev-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems Inc. (VEEV) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-inc-veev-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems (VEEV) Increases Despite Market Slip: Here's What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-veev-increases-despite-market-slip-heres-what-you-need-know",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-reaches-analyst-target-price",
+     "date": "2026-10-12",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Veeva Systems (VEEV) Stock Sinks As Market Gains: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-veev-stock-sinks-market-gains-what-you-should-know",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems (VEEV) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-veev-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems Inc. (VEEV) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-inc-veev-trending-stock-facts-know-betting-it",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000032/veev-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000121390026092096/ea0302765-8k_veeva.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000029/veev-20260617.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000022/veev-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-20",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000018/veev-20260420.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000007/veev-20260304.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "url": "https://www.cnbc.com/investingclub/2026/10/19/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Nvidia, Salesforce, CrowdStrike, Urban Outfitters and more",
+   "url": "https://www.cnbc.com/2026/08/26/stocks-making-the-biggest-moves-after-hours-nvda-crm-crwd-urbn-and-more.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Moderna, ON Semiconductor, Sandisk",
+   "url": "https://www.cnbc.com/2026/06/26/stocks-making-the-biggest-moves-midday-mrna-on-rklb-lly-sndk.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "We have almost 200 customers on Veeva Basics, says CEO Peter Gassner",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/07/we-have-almost-200-customers-on-veeva-basics-says-ceo-peter-gassner.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VEEV",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 52.52,
+  "pbr": 6.95,
+  "eps": 6.08,
+  "bps": 45.92,
+  "shares": 161909000,
+  "marketCapM": 51683,
+  "high52": 325,
+  "high52Date": "2026-10-21",
+  "low52": 148.05,
+  "low52Date": "2026-04-10",
+  "last": 319.21,
+  "prevClose": 318.67,
+  "nameKo": "비바 시스템스",
+  "nameEn": "VEEVA SYSTEMS INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 161909000
+ }
+}

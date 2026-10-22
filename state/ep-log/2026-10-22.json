@@ -2,78 +2,30 @@
   "date": "2026-10-22",
   "items": [
     {
-      "ticker": "ROKU",
-      "price": 157.77999877929688,
-      "category": 6,
-      "confidence": "low",
-      "local": {
-        "laya": {
-          "category": 1,
-          "conf": 0.19
-        },
-        "nimble": {
-          "category": 6,
-          "conf": 0.29
-        }
-      }
-    },
-    {
-      "ticker": "MEDP",
-      "price": 662.47998046875,
+      "ticker": "MCB",
+      "price": 91.5,
       "category": 1,
       "confidence": "medium",
       "local": {
         "laya": {
           "category": 1,
-          "conf": 0.57
+          "conf": 0.42
         },
         "nimble": {
           "category": 1,
-          "conf": 0.89
+          "conf": 0.81
         }
       }
     },
     {
-      "ticker": "ITIC",
-      "price": 290.3299865722656,
-      "category": 6,
-      "confidence": "low",
-      "local": {
-        "laya": {
-          "category": 1,
-          "conf": 0.43
-        },
-        "nimble": {
-          "category": 1,
-          "conf": 0.59
-        }
-      }
-    },
-    {
-      "ticker": "CRL",
-      "price": 344.8699951171875,
-      "category": 6,
-      "confidence": "low",
-      "local": {
-        "laya": {
-          "category": 1,
-          "conf": 0.33
-        },
-        "nimble": {
-          "category": 6,
-          "conf": 0.55
-        }
-      }
-    },
-    {
-      "ticker": "WAB",
-      "price": 288.9599914550781,
+      "ticker": "HAS",
+      "price": 114,
       "category": 1,
       "confidence": "medium",
       "local": {
         "laya": {
           "category": 1,
-          "conf": 0.56
+          "conf": 0.65
         },
         "nimble": {
           "category": 1,
@@ -82,24 +34,24 @@
       }
     },
     {
-      "ticker": "STE",
-      "price": 221.47999572753906,
-      "category": 3,
-      "confidence": "low",
+      "ticker": "ISRG",
+      "price": 428.1199951171875,
+      "category": 1,
+      "confidence": "high",
       "local": {
         "laya": {
           "category": 1,
-          "conf": 0.44
+          "conf": 0.48
         },
         "nimble": {
-          "category": 3,
-          "conf": 0.57
+          "category": 1,
+          "conf": 0.95
         }
       }
     },
     {
-      "ticker": "BMO",
-      "price": 170.4499969482422,
+      "ticker": "KOF",
+      "price": 117.80999755859375,
       "category": 6,
       "confidence": "low",
       "local": {
@@ -109,67 +61,35 @@
         },
         "nimble": {
           "category": 1,
-          "conf": 0.64
+          "conf": 0.59
         }
       }
     },
     {
-      "ticker": "ABT",
-      "price": 100.51000213623047,
+      "ticker": "PNFP",
+      "price": 98.20999908447266,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.52
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.94
+        }
+      }
+    },
+    {
+      "ticker": "MCO",
+      "price": 481.04998779296875,
       "category": 1,
       "confidence": "low",
       "local": {
         "laya": {
           "category": 1,
-          "conf": 0.56
-        },
-        "nimble": {
-          "category": 1,
-          "conf": 0.77
-        }
-      }
-    },
-    {
-      "ticker": "DXCM",
-      "price": 80.26000213623047,
-      "category": 6,
-      "confidence": "low",
-      "local": {
-        "laya": {
-          "category": 1,
-          "conf": 0.16
-        },
-        "nimble": {
-          "category": 4,
-          "conf": 0.76
-        }
-      }
-    },
-    {
-      "ticker": "ACA",
-      "price": 149.02999877929688,
-      "category": 6,
-      "confidence": "low",
-      "local": {
-        "laya": {
-          "category": 1,
-          "conf": 0.6
-        },
-        "nimble": {
-          "category": 1,
-          "conf": 0.74
-        }
-      }
-    },
-    {
-      "ticker": "NWE",
-      "price": 76.0999984741211,
-      "category": 6,
-      "confidence": "low",
-      "local": {
-        "laya": {
-          "category": 1,
-          "conf": 0.7
+          "conf": 0.63
         },
         "nimble": {
           "category": 1,
@@ -178,8 +98,40 @@
       }
     },
     {
-      "ticker": "SUNB",
-      "price": 78.5,
+      "ticker": "SAP",
+      "price": 232.72999572753906,
+      "category": 1,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.19
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.54
+        }
+      }
+    },
+    {
+      "ticker": "TRNS",
+      "price": 86.30999755859375,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.57
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.5
+        }
+      }
+    },
+    {
+      "ticker": "TD",
+      "price": 124.69999694824219,
       "category": 6,
       "confidence": "low",
       "local": {
@@ -188,8 +140,24 @@
           "conf": 0.3
         },
         "nimble": {
+          "category": 6,
+          "conf": 0.37
+        }
+      }
+    },
+    {
+      "ticker": "MOG.B",
+      "price": 366.0299987792969,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
           "category": 1,
-          "conf": 0.69
+          "conf": 0.19
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.52
         }
       }
     }

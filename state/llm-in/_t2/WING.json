@@ -1,0 +1,296 @@
+{
+ "ticker": "WING",
+ "sector": "Consumer Cyclical",
+ "industry": "Restaurants",
+ "nameKo": "윙스톱",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.54,
+  "saleNy": 15.72,
+  "epsCy": 8.39,
+  "epsNy": 20.3,
+  "est": {
+   "cyCur": 4.42217,
+   "cy30": 4.44267,
+   "nyCur": 5.31998,
+   "ny30": 5.35445
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.44,
+    7.38,
+    8.57
+   ],
+   "ni": [
+    16.91,
+    -67.61,
+    0.03
+   ],
+   "opm": [
+    29.44,
+    27.44,
+    26.66
+   ],
+   "updated": "2026-09-09 06:33:58"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-14",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 6,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-22",
+  "nameKo": "윙스톱",
+  "nameEn": "WINGSTOP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636222&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 185564000,
+     "profit": 54631000,
+     "netIncome": 31288000,
+     "margin": 29.4,
+     "yoy": {
+      "revenue": 6.4,
+      "profit": 20.8,
+      "netIncome": 16.9,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 183725000,
+     "profit": 50408000,
+     "netIncome": 29883000,
+     "margin": 27.4,
+     "yoy": {
+      "revenue": 7.4,
+      "profit": 31.7,
+      "netIncome": -67.6,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 175694000,
+     "profit": 46835000,
+     "netIncome": 26761000,
+     "margin": 26.7,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 11.9,
+      "netIncome": 0,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 175736000,
+     "profit": 48961000,
+     "netIncome": 28478000,
+     "margin": 27.9,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": 23,
+      "netIncome": 10.7,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Analysts Estimate Wingstop (WING) to Report a Decline in Earnings: What to Look Out for",
+     "url": "https://www.nasdaq.com/articles/analysts-estimate-wingstop-wing-report-decline-earnings-what-look-out",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wingstop (WING) Stock Falls Amid Market Uptick: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/wingstop-wing-stock-falls-amid-market-uptick-what-investors-need-know",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wingstop (WING) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/wingstop-wing-suffers-larger-drop-general-market-key-insights-0",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wingstop (WING) Rises As Market Takes a Dip: Key Facts",
+     "url": "https://www.nasdaq.com/articles/wingstop-wing-rises-market-takes-dip-key-facts-0",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wingstop (WING) Gains As Market Dips: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wingstop-wing-gains-market-dips-what-you-should-know",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wingstop (WING) Stock Moves -4.61%: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wingstop-wing-stock-moves-461-what-you-should-know",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should You Invest in Wingstop (WING) Based on Bullish Wall Street Views?",
+     "url": "https://www.nasdaq.com/articles/should-you-invest-wingstop-wing-based-bullish-wall-street-views",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Wingstop (WING) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-wingstop-wing-fell-more-broader-market",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026058878/wing-20260824.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026054376/wing-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026050401/wing-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000163622226000020/wing-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000163622226000015/wing-20260428.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000163622226000011/wing-20260305.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-04-30",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[윙스톱 (NAS:WING)] 수요 회복 점검 필요",
+     "summary": "- 1Q 소비자 지출 둔화가 지속되며 동일매장매출(SSS) 성장률은 YoY 8.7% 감소, 수요 약화가 뚜렷하게 나타난 구간- 다만, 공격적인 출점이 이를 상쇄하며 외형 성장 유지. 이번 분기 97개 매장이 순증된 가운데, 매출액은 YoY 7.4% 증가한 $1억 8,370만을 기록- 단기적으로 주가의 유의미한 반등보다 박스권 흐름 이어질 가능성 우세. SSSG 회복 여부가 확인되는 시점까지는 관망 전략이 유효하다고 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcqxmmegzzmgcgxecgg.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-02-20",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[윙스톱 (NAS:WING)] 확장의 시간",
+     "summary": "- 4Q 회계상 매출은 $1.76억으로 컨센서스를 하회했으며, 동일매장매출은 전년 대비 5.8% 감소해 부진함 지속되는 모습- 출점 중심 성장과 디지털 인프라 확대를 통한 실적 개선 가능성을 감안할 때 구조적 성장 스토리는 유효한 상황- 이에 따라 단기 밸류 부담은 상당 부분 완화된 반면, 중장기적 재평가 가능성은 여전히 존재",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezkilqmqemgkgcgxecgg.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2025-11-05",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[윙스톱 (NAS:WING)] 다음 장(章)을 여는 프랜차이즈",
+     "summary": "- Smart Kitchen 2,000개 매장 도입으로 디지털 인프라 강화·매출원가율 YoY 300bp 하락- 저소득층 소비 둔화로 동일매장매출 YoY 5.6% 감소, 매장 증가율 가이던스 18.5~18.9% 상향- 글로벌 확장·디지털 전환·AUV $300만 목표로 장기 성장 모멘텀 확보, 목표주가 $331로 상승 여력 40%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgigkkkmkixqmgcgxecgg.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Monday's biggest analyst calls: SpaceX, Nvidia, Tesla, Applied Materials, Circle, GE Vernova",
+   "url": "https://www.cnbc.com/2026/08/03/mondays-wall-street-analyst-calls-include-spacex.html",
+   "date": "2026-08-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "WING",
+  "fetchedAt": "2026-10-22",
+  "source": "한국투자증권 Open API",
+  "per": 28.48,
+  "pbr": 0,
+  "eps": 4.21,
+  "bps": 0,
+  "shares": 27242500,
+  "marketCapM": 3268,
+  "high52": 301.1613,
+  "high52Date": "2026-02-18",
+  "low52": 95.82,
+  "low52Date": "2026-09-25",
+  "last": 119.95,
+  "prevClose": 130.31,
+  "nameKo": "윙스톱",
+  "nameEn": "WINGSTOP INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 27242500
+ }
+}
