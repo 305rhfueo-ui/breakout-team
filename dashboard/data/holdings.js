@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-21T22:10:02.733Z",
+  "updated": "2026-10-22T13:00:32.445Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -7,6 +7,21 @@ window.HOLDINGS_DATA = {
       "ticker": "PLTR",
       "side": "long",
       "items": [
+        {
+          "type": "news",
+          "title": "Palantir Stock: Buy, Sell, or Hold After a Research Firm's AI Warning?",
+          "url": "https://www.nasdaq.com/articles/palantir-stock-buy-sell-or-hold-after-research-firms-ai-warning",
+          "date": "2026-10-22",
+          "publisher": "The Motley Fool",
+          "ko": "가트너의 AI 확장성 경고, 팔란티어엔 시험대",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "가트너의 AI 확장성 경고, 팔란티어엔 시험대",
+          "easy": "리서치 기업 가트너가 고객사에 엔지니어를 파견해 AI를 맞춤 구축하는 방식(포워드 디플로이드 AI)은 규모를 키우기 어렵다고 경고했다. 팔란티어가 이 방식의 대표 업체라 시험대에 올랐다는 내용이다. 기사 본문은 확인하지 못했고, 요약에는 팔란티어의 경험·재사용 가능한 소프트웨어·파트너 전략·수익 구조가 다른 업체와 차별점이 될지 따져본다고만 나온다.",
+          "whyMatters": "주가가 올라야 이익인 보유자에게는 이 경고가 팔란티어의 성장 방식에 대한 논쟁거리가 될 수 있다. 다만 본문이 없어 결론이나 구체 수치는 알 수 없다.",
+          "quote": null,
+          "read": false
+        },
         {
           "type": "news",
           "title": "Palantir Stock Is Near a Record High. Should Investors Sell?",
@@ -49,21 +64,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어가 녹스와 연방 클라우드 고객 지원 제휴",
           "easy": "요약에 따르면 미국 연방기관과 전쟁부에 관리형 클라우드를 제공하는 Knox Systems가 월요일 팔란티어와의 파트너십을 발표했다. 목적은 FedRAMP와 IL5 환경에서 중요 임무를 수행하는 고객을 지원하는 것이다. 계약 금액 등은 기사에 안 나왔다.",
           "whyMatters": "정부·국방 고객 기반의 사업 확장 소식이라 보유자에게 긍정적일 수 있다. 실적 영향은 기사에 나오지 않았다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Palantir Stock Is Near Its Record. Here's the Price at Which I'd Buy It.",
-          "url": "https://www.nasdaq.com/articles/palantir-stock-near-its-record-heres-price-which-id-buy-it",
-          "date": "2026-10-16",
-          "publisher": "The Motley Fool",
-          "ko": null,
-          "tone": null,
-          "isNew": false,
-          "headline": null,
-          "easy": null,
-          "whyMatters": null,
           "quote": null,
           "read": false
         },
