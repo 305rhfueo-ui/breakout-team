@@ -4,9 +4,9 @@ window.HISTORY_DATA = {
       "date": "2026-10-22",
       "qqq": "red",
       "finraYoY": 31.4,
-      "picks": 29,
-      "breakouts": 17,
-      "chartCheck": 8,
+      "picks": 33,
+      "breakouts": 19,
+      "chartCheck": 9,
       "plansWatch": 0,
       "droppedToday": 2,
       "reentryBlocked": 4,
@@ -14,13 +14,13 @@ window.HISTORY_DATA = {
       "crossCounts": {
         "persistent": 2,
         "newEntrants": 5,
-        "midTerm": 12,
-        "fading": 10,
-        "other": 0,
-        "total": 29
+        "midTerm": 13,
+        "fading": 9,
+        "other": 4,
+        "total": 33
       },
       "siteCondition": "BAD",
-      "theme": "Software - Application 7종목(24.1%) · Diagnostics & Research 4종목(13.8%) · Biotechnology 3종목(10.3%)"
+      "theme": "Software - Application 8종목(24.2%) · Diagnostics & Research 5종목(15.2%) · Software - Infrastructure 4종목(12.1%)"
     },
     {
       "date": "2026-10-21",

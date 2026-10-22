@@ -2,36 +2,14 @@ window.CHARTCHECK_DATA = {
   "generated": "2026-10-22",
   "items": [
     {
-      "ticker": "FLXS",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.75배로 줄었다",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.07, 최저 0.06)",
-        "넘어야 할 선 $84.47 바로 아래(-1.08%)",
-        "최근 2주 종가가 1.67% 안에서만 움직였다",
-        "1년 최고가의 93.35% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 84.47,
-      "price": 83.56,
-      "barGap": false
-    },
-    {
       "ticker": "ZBRA",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.07, 최저 0.07)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.07)",
         "넘어야 할 선 $394.57 바로 아래(-0.9%)",
         "최근 2주 종가가 1.8% 안에서만 움직였다",
-        "1년 최고가의 98.28% 자리"
+        "1년 최고가의 99.55% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -44,6 +22,26 @@ window.CHARTCHECK_DATA = {
       "barGap": false
     },
     {
+      "ticker": "ESTC",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.12)",
+        "넘어야 할 선 $101.39 바로 아래(-2.54%)",
+        "최근 2주 종가가 2.46% 안에서만 움직였다",
+        "1년 최고가의 91.49% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 101.39,
+      "price": 98.81,
+      "barGap": false
+    },
+    {
       "ticker": "CRM",
       "score": 6,
       "source": "T3",
@@ -51,7 +49,7 @@ window.CHARTCHECK_DATA = {
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.09)",
         "넘어야 할 선 $250.47 바로 아래(-3.47%)",
         "최근 2주 종가가 2.59% 안에서만 움직였다",
-        "1년 최고가의 90.53% 자리"
+        "1년 최고가의 90.28% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -64,13 +62,53 @@ window.CHARTCHECK_DATA = {
       "barGap": false
     },
     {
+      "ticker": "FLXS",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.75배로 줄었다",
+        "넘어야 할 선 $84.47 바로 아래(-1.08%)",
+        "최근 2주 종가가 1.67% 안에서만 움직였다",
+        "1년 최고가의 92.45% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 84.47,
+      "price": 83.56,
+      "barGap": false
+    },
+    {
+      "ticker": "RVTY",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.06, 최저 0.06)",
+        "최근 2주 종가가 1.25% 안에서만 움직였다",
+        "1년 최고가의 94.2% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "bbSqueeze",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 166.25,
+      "price": 156.61,
+      "barGap": false
+    },
+    {
       "ticker": "CORT",
       "score": 5,
       "source": "T3",
       "reasons": [
         "최근 2주 가격 흔들림이 그 전 2주의 0.79배로 줄었다",
         "넘어야 할 선 $117.33 바로 아래(-0.89%)",
-        "1년 최고가의 92.14% 자리"
+        "1년 최고가의 92.01% 자리"
       ],
       "flags": [
         "contract10",
@@ -86,7 +124,7 @@ window.CHARTCHECK_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.11)",
         "넘어야 할 선 $91.97 바로 아래(-3.07%)",
         "최근 2주 종가가 2.44% 안에서만 움직였다"
       ],
@@ -100,39 +138,21 @@ window.CHARTCHECK_DATA = {
       "barGap": false
     },
     {
-      "ticker": "PLTR",
+      "ticker": "RGEN",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.12)",
-        "넘어야 할 선 $207.52 바로 아래(-2.79%)",
-        "1년 최고가의 90.45% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
+        "넘어야 할 선 $182.52 바로 아래(-1.38%)",
+        "1년 최고가의 90.52% 자리"
       ],
       "flags": [
-        "bbSqueeze",
+        "contract10",
         "nearResist",
         "high52"
       ],
-      "resistance": 207.52,
-      "price": 201.72,
-      "barGap": false
-    },
-    {
-      "ticker": "ESTC",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
-        "넘어야 할 선 $101.39 바로 아래(-2.54%)",
-        "최근 2주 종가가 2.46% 안에서만 움직였다"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 101.39,
-      "price": 98.81,
+      "resistance": 182.52,
+      "price": 180.01,
       "barGap": false
     },
     {
@@ -154,8 +174,8 @@ window.CHARTCHECK_DATA = {
       "barGap": false
     }
   ],
-  "total": 8,
-  "shown": 8,
+  "total": 9,
+  "shown": 9,
   "cap": 10,
   "beyondCap": []
 };

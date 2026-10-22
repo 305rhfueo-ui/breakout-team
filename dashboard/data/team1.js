@@ -1,7 +1,7 @@
 window.TEAM1_DATA = {
   "generated": "2026-10-22",
   "data_source": {
-    "rs_last_updated": "2026-10-22 00:33:36 UTC",
+    "rs_last_updated": "2026-10-22 04:04:26 UTC",
     "sessionDate": "2026-10-21",
     "stale": false,
     "source": "live",
@@ -12,8 +12,8 @@ window.TEAM1_DATA = {
     "barsNotice": null,
     "siteCondition": "BAD",
     "apiCalled": {
-      "fresh": 93,
-      "cached": 1016,
+      "fresh": 22,
+      "cached": 1087,
       "total": 1109
     },
     "degraded": false,
@@ -22,8 +22,8 @@ window.TEAM1_DATA = {
       "total": 1109,
       "blank_rows": 0,
       "null_rate": 0,
-      "api_called_count": 93,
-      "duration_s": 985,
+      "api_called_count": 22,
+      "duration_s": 786.7,
       "threshold": 0.15
     },
     "rsQuality": {
@@ -190,7 +190,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-10-22T00:41:18.560Z"
+    "fetched_at": "2026-10-22T04:07:48.189Z"
   },
   "leaders": {
     "stocks": [
@@ -198,21 +198,21 @@ window.TEAM1_DATA = {
         "ticker": "MRNA",
         "sector": "Healthcare",
         "industry": "Biotechnology",
-        "price": 242.0800018310547,
+        "price": 245.80999755859375,
         "bestPct": 99.95,
         "rs": {
           "m1": 99.77457168620379,
           "m3": 99.95491433724075,
           "m6": 99.95491433724075
         },
-        "div200": 204.74,
-        "div50": 49.49,
-        "adr": 8.96,
-        "high52": 99.22,
+        "div200": 205.33,
+        "div50": 48.4,
+        "adr": 8.82,
+        "high52": 96.59,
         "overheat": {
           "status": "overheat",
           "label": "🔥과열(+205%)",
-          "div200": 204.74,
+          "div200": 205.33,
           "threshold": 200,
           "note": "3기간 모두 상위 2% 초강세 기준 +200% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
         }
@@ -221,43 +221,44 @@ window.TEAM1_DATA = {
         "ticker": "KOD",
         "sector": "Healthcare",
         "industry": "Biotechnology",
-        "price": 92.97000122070312,
+        "price": 87.72000122070312,
         "bestPct": 99.95,
         "rs": {
           "m1": 99.95491433724075,
           "m3": 99.77457168620379,
-          "m6": 98.69251577998197
+          "m6": 97.61045987376015
         },
-        "div200": 135.48,
-        "div50": 67.46,
-        "adr": 11.63,
-        "high52": 89.39,
+        "div200": 120.43,
+        "div50": 55.45,
+        "adr": 11.47,
+        "high52": 84.35,
         "overheat": {
-          "status": "normal",
-          "label": "정상(+135%)",
-          "div200": 135.48,
-          "threshold": 200
+          "status": "overheat",
+          "label": "🔥과열(+120%)",
+          "div200": 120.43,
+          "threshold": 112,
+          "note": "고변동성(ADR 11.47%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
         }
       },
       {
         "ticker": "TEAM",
         "sector": "Technology",
         "industry": "Software - Application",
-        "price": 221.11000061035156,
+        "price": 225.5050048828125,
         "bestPct": 99.86,
         "rs": {
-          "m1": 97.52028854824167,
+          "m1": 95.4463480613165,
           "m3": 99.86474301172227,
-          "m6": 99.6844003606853
+          "m6": 99.77457168620379
         },
-        "div200": 92.21,
-        "div50": 18.44,
-        "adr": 4.53,
-        "high52": 98.84,
+        "div200": 95.42,
+        "div50": 19.88,
+        "adr": 4.48,
+        "high52": 99.18,
         "overheat": {
           "status": "normal",
-          "label": "정상(+92%)",
-          "div200": 92.21,
+          "label": "정상(+95%)",
+          "div200": 95.42,
           "threshold": 150
         }
       },
@@ -265,21 +266,21 @@ window.TEAM1_DATA = {
         "ticker": "PTC",
         "sector": "Technology",
         "industry": "Software - Application",
-        "price": 193.35000610351562,
+        "price": 194.3800048828125,
         "bestPct": 99.86,
         "rs": {
           "m1": 99.86474301172227,
-          "m3": 98.42200180342651,
-          "m6": 89.13435527502254
+          "m3": 97.8809738503156,
+          "m6": 90.75743913435528
         },
-        "div200": 32.26,
-        "div50": 24.09,
-        "adr": 1.58,
-        "high52": 93.55,
+        "div200": 32.87,
+        "div50": 24.06,
+        "adr": 1.54,
+        "high52": 94.05,
         "overheat": {
           "status": "normal",
-          "label": "정상(+32%)",
-          "div200": 32.26,
+          "label": "정상(+33%)",
+          "div200": 32.87,
           "threshold": 150
         }
       },
@@ -287,109 +288,87 @@ window.TEAM1_DATA = {
         "ticker": "TXG",
         "sector": "Healthcare",
         "industry": "Medical Devices",
-        "price": 71.45999908447266,
+        "price": 75.58999633789062,
         "bestPct": 99.86,
         "rs": {
-          "m1": 11.406672678088368,
-          "m3": 98.78268710550046,
+          "m1": 43.95852119026149,
+          "m3": 98.87285843101894,
           "m6": 99.86474301172227
         },
-        "div200": 86.33,
-        "div50": -0.07,
-        "adr": 9.34,
-        "high52": 69.51,
+        "div200": 95.64,
+        "div50": 5.2,
+        "adr": 9.4,
+        "high52": 73.52,
         "overheat": {
           "status": "normal",
-          "label": "정상(+86%)",
-          "div200": 86.33,
+          "label": "정상(+96%)",
+          "div200": 95.64,
           "threshold": 112
-        }
-      },
-      {
-        "ticker": "AGL",
-        "sector": "Healthcare",
-        "industry": "Medical Care Facilities",
-        "price": 91.72000122070312,
-        "bestPct": 99.77,
-        "rs": {
-          "m1": 75.69882777276827,
-          "m3": 31.785392245266003,
-          "m6": 99.77457168620379
-        },
-        "div200": 47.21,
-        "div50": 3.83,
-        "adr": 5.97,
-        "high52": 68.94,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+47%)",
-          "div200": 47.21,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "ACN",
-        "sector": "Technology",
-        "industry": "Information Technology Services",
-        "price": 239.1199951171875,
-        "bestPct": 99.68,
-        "rs": {
-          "m1": 99.6844003606853,
-          "m3": 98.96302975653742,
-          "m6": 86.69972948602344
-        },
-        "div200": 26.51,
-        "div50": 25.65,
-        "adr": 3.97,
-        "high52": 84.51,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+27%)",
-          "div200": 26.51,
-          "threshold": 150
         }
       },
       {
         "ticker": "GRAL",
         "sector": "Healthcare",
         "industry": "Diagnostics & Research",
-        "price": 124.66999816894531,
+        "price": 132.60000610351562,
         "bestPct": 99.68,
         "rs": {
-          "m1": 95.53651938683498,
+          "m1": 98.78268710550046,
           "m3": 99.6844003606853,
-          "m6": 99.41388638412985
+          "m6": 99.23354373309287
         },
-        "div200": 63.15,
-        "div50": 23.93,
-        "adr": 9.21,
-        "high52": 74.89,
+        "div200": 73.11,
+        "div50": 30.33,
+        "adr": 9.22,
+        "high52": 79.65,
         "overheat": {
           "status": "normal",
-          "label": "정상(+63%)",
-          "div200": 63.15,
-          "threshold": 112
+          "label": "정상(+73%)",
+          "div200": 73.11,
+          "threshold": 200
         }
       },
       {
-        "ticker": "PAYC",
-        "sector": "Technology",
-        "industry": "Software - Application",
-        "price": 262.32000732421875,
-        "bestPct": 99.59,
+        "ticker": "AGL",
+        "sector": "Healthcare",
+        "industry": "Medical Care Facilities",
+        "price": 90.98999786376953,
+        "bestPct": 99.68,
         "rs": {
-          "m1": 97.06943192064924,
-          "m3": 99.59422903516682,
-          "m6": 98.33183047790803
+          "m1": 80.38773669972949,
+          "m3": 27.908025247971146,
+          "m6": 99.6844003606853
         },
-        "div200": 64.92,
-        "div50": 14.98,
-        "adr": 2.94,
-        "high52": 99.18,
+        "div200": 45.18,
+        "div50": 2.9,
+        "adr": 5.97,
+        "high52": 68.39,
         "overheat": {
           "status": "normal",
-          "label": "정상(+65%)",
-          "div200": 64.92,
+          "label": "정상(+45%)",
+          "div200": 45.18,
+          "threshold": 150
+        }
+      },
+      {
+        "ticker": "TTAN",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "price": 82.31999969482422,
+        "bestPct": 99.68,
+        "rs": {
+          "m1": 99.6844003606853,
+          "m3": 66.59152389540127,
+          "m6": 89.04418394950406
+        },
+        "div200": 12.72,
+        "div50": 8.07,
+        "adr": 5.25,
+        "high52": 73.92,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+13%)",
+          "div200": 12.72,
           "threshold": 150
         }
       },
@@ -397,21 +376,43 @@ window.TEAM1_DATA = {
         "ticker": "OKTA",
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "price": 194.02000427246094,
+        "price": 208.63999938964844,
         "bestPct": 99.59,
         "rs": {
-          "m1": 41.43372407574391,
-          "m3": 96.43823264201984,
+          "m1": 53.69702434625789,
+          "m3": 98.06131650135256,
           "m6": 99.59422903516682
         },
-        "div200": 62.24,
-        "div50": 6.84,
-        "adr": 5.14,
-        "high52": 82.56,
+        "div200": 73.59,
+        "div50": 14.16,
+        "adr": 5.35,
+        "high52": 88.78,
         "overheat": {
           "status": "normal",
-          "label": "정상(+62%)",
-          "div200": 62.24,
+          "label": "정상(+74%)",
+          "div200": 73.59,
+          "threshold": 150
+        }
+      },
+      {
+        "ticker": "ACN",
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "price": 240.25999450683594,
+        "bestPct": 99.59,
+        "rs": {
+          "m1": 99.59422903516682,
+          "m3": 97.52028854824167,
+          "m6": 88.14247069431921
+        },
+        "div200": 27.17,
+        "div50": 25.43,
+        "adr": 3.95,
+        "high52": 84.91,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+27%)",
+          "div200": 27.17,
           "threshold": 150
         }
       }
@@ -419,18 +420,18 @@ window.TEAM1_DATA = {
     "sectors": [
       {
         "name": "Technology",
-        "count": 20,
+        "count": 23,
         "tickers": [
           "TEAM",
           "PTC",
-          "ACN",
-          "PAYC",
-          "OKTA",
           "TTAN",
+          "OKTA",
+          "ACN",
           "P",
-          "IT"
+          "RBRK",
+          "SNOW"
         ],
-        "sharePct": 40
+        "sharePct": 46
       },
       {
         "name": "Healthcare",
@@ -439,46 +440,43 @@ window.TEAM1_DATA = {
           "MRNA",
           "KOD",
           "TXG",
-          "AGL",
           "GRAL",
+          "AGL",
           "TWST",
-          "CORT",
-          "VEEV"
+          "HNGE",
+          "CORT"
         ],
         "sharePct": 26
       },
       {
         "name": "Consumer Cyclical",
-        "count": 6,
+        "count": 5,
         "tickers": [
-          "BH",
-          "WING",
           "HAS",
-          "ANF",
           "RCL",
-          "SHAK"
+          "WING",
+          "ANF",
+          "BH"
         ],
-        "sharePct": 12
-      },
-      {
-        "name": "Industrials",
-        "count": 3,
-        "tickers": [
-          "ECO",
-          "HURN",
-          "XMTR"
-        ],
-        "sharePct": 6
+        "sharePct": 10
       },
       {
         "name": "Financial Services",
-        "count": 3,
+        "count": 2,
         "tickers": [
-          "TW",
           "SEZL",
-          "CBOE"
+          "TW"
         ],
-        "sharePct": 6
+        "sharePct": 4
+      },
+      {
+        "name": "Energy",
+        "count": 2,
+        "tickers": [
+          "FET",
+          "MPC"
+        ],
+        "sharePct": 4
       },
       {
         "name": "Communication Services",
@@ -494,9 +492,9 @@ window.TEAM1_DATA = {
       "count": 1096,
       "over150": 1,
       "over100": 2,
-      "reentry": 70,
-      "max": 204.74,
-      "median": 2.99,
+      "reentry": 66,
+      "max": 205.33,
+      "median": 3.07,
       "ko": "200일선 +150% 초과 1종목 · +100% 초과 2종목 — 과열 임계 미달"
     }
   },
@@ -821,6 +819,7 @@ window.TEAM1_DATA = {
       "noQuote": 2
     },
     "reusedFrom": null,
-    "researchedOn": "2026-10-22"
+    "researchedOn": "2026-10-22",
+    "carried": true
   }
 };

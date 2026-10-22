@@ -8,67 +8,45 @@ window.CHIEF_DATA = {
   },
   "counts": {
     "universe": 1109,
-    "picks": 29,
+    "picks": 33,
     "tracking": {
-      "active": 60,
+      "active": 64,
       "dormant": 0,
-      "excluded": 114,
-      "total": 174,
+      "excluded": 111,
+      "total": 175,
       "unevaluated": [
         "HPE-C"
       ],
       "reentryBlocked": 4
     },
-    "breakouts": 17,
-    "epCandidates": 15,
-    "chartCheck": 8,
-    "chartCheckShown": 8,
+    "breakouts": 19,
+    "epCandidates": 22,
+    "chartCheck": 9,
+    "chartCheckShown": 9,
     "plans": {
-      "evaluated": 66,
+      "evaluated": 71,
       "near": 15,
       "watch": 0,
       "A": 0,
       "B": 0,
       "blocked": 15,
-      "post": 6,
-      "far": 29,
+      "post": 9,
+      "far": 31,
       "noBase": 15,
       "noBars": 1
     }
   },
-  "theme": "Software - Application 7종목(24.1%) · Diagnostics & Research 4종목(13.8%) · Biotechnology 3종목(10.3%)",
+  "theme": "Software - Application 8종목(24.2%) · Diagnostics & Research 5종목(15.2%) · Software - Infrastructure 4종목(12.1%)",
   "chartCheck": [
-    {
-      "ticker": "FLXS",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.75배로 줄었다",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.07, 최저 0.06)",
-        "넘어야 할 선 $84.47 바로 아래(-1.08%)",
-        "최근 2주 종가가 1.67% 안에서만 움직였다",
-        "1년 최고가의 93.35% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 84.47,
-      "price": 83.56,
-      "barGap": false
-    },
     {
       "ticker": "ZBRA",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.07, 최저 0.07)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.07)",
         "넘어야 할 선 $394.57 바로 아래(-0.9%)",
         "최근 2주 종가가 1.8% 안에서만 움직였다",
-        "1년 최고가의 98.28% 자리"
+        "1년 최고가의 99.55% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -81,6 +59,26 @@ window.CHIEF_DATA = {
       "barGap": false
     },
     {
+      "ticker": "ESTC",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.12)",
+        "넘어야 할 선 $101.39 바로 아래(-2.54%)",
+        "최근 2주 종가가 2.46% 안에서만 움직였다",
+        "1년 최고가의 91.49% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 101.39,
+      "price": 98.81,
+      "barGap": false
+    },
+    {
       "ticker": "CRM",
       "score": 6,
       "source": "T3",
@@ -88,7 +86,7 @@ window.CHIEF_DATA = {
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.09)",
         "넘어야 할 선 $250.47 바로 아래(-3.47%)",
         "최근 2주 종가가 2.59% 안에서만 움직였다",
-        "1년 최고가의 90.53% 자리"
+        "1년 최고가의 90.28% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -101,13 +99,53 @@ window.CHIEF_DATA = {
       "barGap": false
     },
     {
+      "ticker": "FLXS",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.75배로 줄었다",
+        "넘어야 할 선 $84.47 바로 아래(-1.08%)",
+        "최근 2주 종가가 1.67% 안에서만 움직였다",
+        "1년 최고가의 92.45% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 84.47,
+      "price": 83.56,
+      "barGap": false
+    },
+    {
+      "ticker": "RVTY",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.06, 최저 0.06)",
+        "최근 2주 종가가 1.25% 안에서만 움직였다",
+        "1년 최고가의 94.2% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "bbSqueeze",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 166.25,
+      "price": 156.61,
+      "barGap": false
+    },
+    {
       "ticker": "CORT",
       "score": 5,
       "source": "T3",
       "reasons": [
         "최근 2주 가격 흔들림이 그 전 2주의 0.79배로 줄었다",
         "넘어야 할 선 $117.33 바로 아래(-0.89%)",
-        "1년 최고가의 92.14% 자리"
+        "1년 최고가의 92.01% 자리"
       ],
       "flags": [
         "contract10",
@@ -123,7 +161,7 @@ window.CHIEF_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.11)",
         "넘어야 할 선 $91.97 바로 아래(-3.07%)",
         "최근 2주 종가가 2.44% 안에서만 움직였다"
       ],
@@ -137,39 +175,21 @@ window.CHIEF_DATA = {
       "barGap": false
     },
     {
-      "ticker": "PLTR",
+      "ticker": "RGEN",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.12)",
-        "넘어야 할 선 $207.52 바로 아래(-2.79%)",
-        "1년 최고가의 90.45% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
+        "넘어야 할 선 $182.52 바로 아래(-1.38%)",
+        "1년 최고가의 90.52% 자리"
       ],
       "flags": [
-        "bbSqueeze",
+        "contract10",
         "nearResist",
         "high52"
       ],
-      "resistance": 207.52,
-      "price": 201.72,
-      "barGap": false
-    },
-    {
-      "ticker": "ESTC",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
-        "넘어야 할 선 $101.39 바로 아래(-2.54%)",
-        "최근 2주 종가가 2.46% 안에서만 움직였다"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 101.39,
-      "price": 98.81,
+      "resistance": 182.52,
+      "price": 180.01,
       "barGap": false
     },
     {
@@ -191,7 +211,7 @@ window.CHIEF_DATA = {
       "barGap": false
     }
   ],
-  "chartCheckTotal": 8,
+  "chartCheckTotal": 9,
   "barsNotice": null,
   "sessionDate": "2026-10-21",
   "sessionMismatch": false,
@@ -379,6 +399,7 @@ window.CHIEF_DATA = {
       "noQuote": 2
     },
     "reusedFrom": null,
-    "reuseAll": null
+    "reuseAll": null,
+    "carried": true
   }
 };
