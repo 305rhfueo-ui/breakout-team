@@ -156,8 +156,126 @@ window.TEAM2_DATA = {
         "count": 38
       },
       "research": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "status": "done",
+        "ticker": "MRNA",
+        "company": "mRNA 기술로 코로나19 백신 등 백신과 치료제를 만드는 바이오 회사. 최근에는 머크와 함께 개발하는 mRNA 암 백신이 주목받고 있다.",
+        "lead": "모더나는 8월 흑색종 암 백신의 3상 임상 성공이 알려지면서 3개월 새 3배 넘게 올랐다. 10월에는 나스닥-100 편입 소식까지 더해졌다. 암 백신이 다른 암으로 확장될지 확인되지 않으면 이야기가 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "mRNA 암 치료제로는 세계 최초로 3상 임상에 성공해 주가가 급등했다. 8월 중순부터 상승이 시작됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxecgg.pdf",
+                "date": "2026-08-21",
+                "quote": "mRNA 기반 암 치료제로는 세계 최초 3상 성공",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "흑색종 다음으로 신장암·방광암·폐암 등으로 적용 범위가 넓어질 수 있다는 기대가 주가에 반영되고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxecgg.pdf",
+                "date": "2026-08-21",
+                "quote": "다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "10월 들어 나스닥-100 지수에 편입됐다. 지수 추종 자금의 매수 수요가 생길 수 있는 재료다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna Just Joined the Nasdaq-100. Here's What That Means for Investors.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/moderna-just-joined-nasdaq-100-heres-what-means-investors",
+                "date": "2026-10-18",
+                "quote": "Moderna Just Joined the Nasdaq-100. Here's What That Means for Investors.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "주가가 급등한 틈에 20억 달러 규모 전환사채를 발행해 자금을 확보하기로 했다. 현금 여력은 늘었지만 주식 전환 시 기존 주주 몫이 줄어들 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채 사모 발행 추진",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxecgg.pdf",
+                "date": "2026-08-28",
+                "quote": "20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "증권사 두 곳이 고평가를 지적했다. 시티는 지금 주가에서 60% 하락 가능성을 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+                "date": "2026-09-30",
+                "quote": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Moderna is now overvalued after cancer vaccine-led stock surge, Rothschild & Co. says",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/03/moderna-is-now-overvalued-after-cancer-vaccine-led-stock-surge-rothschild-co-says.html",
+                "date": "2026-09-03",
+                "quote": "Moderna is now overvalued after cancer vaccine-led stock surge, Rothschild & Co. says",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "mRNA 암 백신",
+          "바이오텍",
+          "나스닥-100 편입"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reasons": [
+            "c2의 quote는 '생산 규모 10~100배 증설' 필요만 검증되고, '매출 1.45억 달러' '영업적자 8.15억 달러' 등 재무 수치는 quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "모더나는 8월 흑색종 암 백신의 3상 임상 성공이 알려지면서 3개월 새 3배 넘게 올랐다. 10월에는 나스닥-100 편입 소식까지 더해져 52주 신고가 부근이다. 다만 본업 매출은 줄고 적자가 커서, 암 백신이 다른 암으로 확장될지 확인되지 않으면 이야기가 약해진다.",
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -13348,8 +13466,109 @@ window.TEAM2_DATA = {
         "count": 17
       },
       "research": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "status": "done",
+        "ticker": "SEZL",
+        "company": "소비자가 물건값을 나눠 내게 해 주는 후불결제(BNPL) 핀테크 회사. 가맹점 수수료와 이용자 대출 이자로 돈을 번다.",
+        "lead": "세즐은 최근 한 달 18% 반등했다. 받쳐 주는 것은 분기 매출이 1년 전보다 63% 늘어난 실적이다. 이번 반등의 직접 계기가 된 새 소식은 확인되지 않았고, 11월 4일 3분기 실적이 이 흐름을 이어 줄지가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "6월 분기 매출이 8,472만 달러로 1년 전보다 62.9% 늘었다. 순이익도 47.7% 늘어 성장세가 이어지고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 10-Q 분기 실적 (세즐)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662991&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, revenue 84721000, netIncome 40765000, yoy revenue 62.9, netIncome 47.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "기업 고객(대형 가맹점) 확대와 마케팅 효율 개선 등을 다룬 호의적 분석 기사가 9월 내내 이어졌다. 성장주로서 관심이 유지된 배경이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sezzle's On-Demand Push: Can It Win More Enterprise Merchants?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/sezzles-demand-push-can-it-win-more-enterprise-merchants",
+                "date": "2026-09-30",
+                "quote": "Sezzle's On-Demand Push: Can It Win More Enterprise Merchants?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Here's Why Sezzle Inc. (SEZL) is a Strong Growth Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/heres-why-sezzle-inc-sezl-strong-growth-stock-0",
+                "date": "2026-09-30",
+                "quote": "Here's Why Sezzle Inc. (SEZL) is a Strong Growth Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "수익성 둔화가 확인되면 이야기가 약해진다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 10-Q 분기 실적 (세즐)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662991&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-03-31 margin 94.2; periodEnd 2026-06-30 margin 64.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "3월 분기 영업이익률 94%에서 6월 분기 65%로 낮아졌고, 순이익 증가율(47.7%)도 매출 증가율(62.9%)보다 낮다. 수익성 둔화가 확인되면 이야기가 약해진다."
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "후불결제(BNPL)",
+          "핀테크"
+        ],
+        "upcomingCatalyst": {
+          "date": "2026-11-04",
+          "what": "2026년 3분기 실적 발표 및 컨퍼런스 콜(미 동부시간 오후 5시)",
+          "sources": [
+            {
+              "title": "Sezzle 8-K (실적 발표 일정 공지)",
+              "publisher": "SEC EDGAR",
+              "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000165/sezl-20261008.htm",
+              "date": "2026-10-08",
+              "quote": "회사는 2026년 3분기 실적을 11월 4일 수요일에 공개하고, 같은 날 오후 5시(동부시간)에 컨퍼런스 콜을 개최할 것",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reasons": [
+            "c1은 '7월 고점(195.71)보다 30% 낮음'은 quote로 검증 가능하나, '3개월 기준 17% 하락'은 3개월 전 가격 데이터가 quote에 없어 미검증. 부분 미검증 claim은 전체 제거"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "세즐은 7월 고점(195.71달러)에서 꺾인 뒤 최근 한 달 18% 반등했다. 받쳐 주는 것은 분기 매출이 1년 전보다 63% 늘어난 실적이다. 이번 반등의 직접 계기가 된 새 소식은 확인되지 않았고, 11월 4일 3분기 실적이 이 흐름을 이어 줄지가 관건이다.",
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "세즐",
       "nameEn": "SEZZLE INC",
@@ -43477,8 +43696,98 @@ window.TEAM2_DATA = {
         "count": 29
       },
       "research": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "status": "done",
+        "ticker": "MDB",
+        "company": "몽고DB는 기업용 데이터베이스 소프트웨어를 클라우드 구독(Atlas)으로 팔아 돈을 버는 회사다. 최근 분기 매출은 7.7억 달러로 1년 전보다 30.5% 늘었다.",
+        "lead": "몽고DB는 한 달 전 CEO 이탈로 급락했지만, 분기 실적이 좋아 3개월 기준으로는 아직 오른 상태다. 7월 마감 분기에 매출이 30.5% 늘고 영업이익이 흑자로 돌아섰다. 새 CEO 선임과 Atlas 성장세가 확인되지 않으면 반등 이야기는 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "7월 마감 분기 매출이 7.7억 달러로 1년 전보다 30.5% 늘었다. 영업이익도 2,840만 달러 흑자로 돌아섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MongoDB 10-Q 실적 (SEC)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-20260901.htm",
+                "date": "2026-09-01",
+                "quote": "periodEnd 2026-07-31, revenue 771773000, profit 28400000, yoy revenue 30.5",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "대기업 고객이 늘며 클라우드 서비스 Atlas의 성장 지속 여부가 관심을 받고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MongoDB's Enterprise Customer Base Grows: Can Atlas Sustain Momentum?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/mongodbs-enterprise-customer-base-grows-can-atlas-sustain-momentum",
+                "date": "2026-10-15",
+                "quote": "MongoDB's Enterprise Customer Base Grows: Can Atlas Sustain Momentum?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "CEO가 메타로 옮겨 주가가 급락한 뒤, 전임 CEO가 임시 CEO로 복귀해 불확실성이 일부 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MongoDB CEO Dev Ittycheria: The board asked me to step in, and I agreed to do so",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/09/29/mongodb-ceo-dev-ittycheria-the-board-asked-me-to-step-in-and-i-agreed-to-do-so.html",
+                "date": "2026-09-29",
+                "quote": "MongoDB CEO Dev Ittycheria: The board asked me to step in, and I agreed to do so",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "이익 대비 주가가 비싸다. 주가수익비율이 551배로 실적 기대가 이미 많이 반영돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-22",
+                "quote": "per 551.44, eps 0.71, last 390.75",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "클라우드 소프트웨어",
+          "AI 인프라"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reasons": [
+            "c1: Monthly return -14.4% not found in quoted source"
+          ]
+        },
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -50758,8 +51067,109 @@ window.TEAM2_DATA = {
         "count": 50
       },
       "research": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "status": "done",
+        "ticker": "PTC",
+        "company": "제조업체가 제품을 설계·관리하는 데 쓰는 산업용 소프트웨어를 만드는 회사. 기업에 구독 형태로 팔아 돈을 번다.",
+        "lead": "슈나이더 일렉트릭이 PTC를 주당 205달러 현금에 인수하기로 발표하면서 10월 5일 주가가 약 35% 급등했다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "슈나이더 일렉트릭이 PTC를 주당 205달러 현금에 사기로 했고, 발표 당일 주가가 약 35% 뛰었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Schneider Electric To Acquire PTC For $205/Share In Cash; PTC Shares Up 35%",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/schneider-electric-acquire-ptc-205-share-cash-ptc-shares-35",
+                "date": "2026-10-05",
+                "quote": "Schneider Electric To Acquire PTC For $205/Share In Cash; PTC Shares Up 35%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "인수 규모는 약 210억 유로로 보도됐고, 회사는 같은 날 중요 계약 체결을 8-K로 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Schneider Electric to Acquire PTC for $205 a Share in €21B Industrial Software Deal",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/schneider-electric-acquire-ptc-205-share-eu21b-industrial-software-deal",
+                "date": "2026-10-05",
+                "quote": "Schneider Electric to Acquire PTC for $205 a Share in €21B Industrial Software Deal",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "PTC 8-K (중요 계약 체결)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm",
+                "date": "2026-10-05",
+                "quote": "8-K 2026-10-05 중요 계약 체결 · Reg FD 공시 · 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "발표 전 인수 임박 보도가 먼저 나와 주가가 이미 반응했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PTC Stock Jumps After Report Says Schneider Electric Nears $20 Bln Deal",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/ptc-stock-jumps-after-report-says-schneider-electric-nears-20-bln-deal",
+                "date": "2026-10-05",
+                "quote": "PTC Stock Jumps After Report Says Schneider Electric Nears $20 Bln Deal",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "최근 분기(4~6월) 매출은 1년 전보다 6.8% 줄었고 영업이익도 20.6% 감소했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PTC 분기 실적 (SEC 10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000857005&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, revenue 600049000, yoy revenue -6.8, profit -20.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "인수합병",
+          "산업용 소프트웨어"
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reasons": [
+            "c1의 statement에서 '추가 상승 여력이 작다', '무산되면 급등분 되돌림'은 quote('Schneider Electric To Acquire PTC For $205/Share In Cash; PTC Shares Up 35%')에 없는 분석/해석. evidence_level이 sourced인데 실제로는 분석임"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "슈나이더 일렉트릭이 PTC를 주당 205달러 현금에 인수하기로 발표하면서 10월 5일 주가가 약 35% 급등했다. 현재 주가(194.38달러)가 인수가보다 조금 낮아 인수가에 수렴한 모습이다. 인수 승인·종결이 지연되거나 무산되면 이 상승 이야기는 깨진다.",
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -53302,8 +53712,103 @@ window.TEAM2_DATA = {
         "count": 3
       },
       "research": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "status": "done",
+        "ticker": "HAS",
+        "company": "모노폴리·매직 더 개더링 같은 보드게임과 카드게임, 장난감을 만드는 회사. 게임·IP 라이선스 사업이 이익의 중심이다.",
+        "lead": "해즈브로는 10월 20일 3분기 실적과 함께 올해 매출 성장 전망을 올리며 주가가 52주 최고가까지 올랐다. 직전 분기들도 매출과 영업이익이 함께 늘었다. 다음 분기 실적이 올린 전망에 못 미치면 이 이야기는 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "10월 20일 3분기 실적 발표에서 올해 매출 성장 전망을 올렸고, 주가가 이날 크게 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Hasbro Boosts FY26 Revenue Growth Outlook; Declares Dividend - Update",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/hasbro-boosts-fy26-revenue-growth-outlook-declares-dividend-update",
+                "date": "2026-10-20",
+                "quote": "Hasbro Boosts FY26 Revenue Growth Outlook; Declares Dividend - Update",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Why Hasbro Stock Jumped Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-hasbro-stock-jumped-today",
+                "date": "2026-10-20",
+                "quote": "Why Hasbro Stock Jumped Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "CEO는 트레이딩 카드가 이제 장난감·게임 업계에서 가장 큰 카테고리라고 말했다. 카드 사업이 성장 동력이라는 설명이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Trading cards are now the biggest category in toys and games, says Hasbro CEO Chris Cocks",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/10/20/trading-cards-are-now-the-biggest-category-in-toys-and-games-says-hasbro-ceo-chris-cocks.html",
+                "date": "2026-10-20",
+                "quote": "Trading cards are now the biggest category in toys and games, says Hasbro CEO Chris Cocks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "직전 분기(4~6월) 매출은 11.4억 달러로 1년 전보다 16.2% 늘었고, 영업이익은 2.5억 달러로 131.6% 늘었다. 실적 개선이 이어지는 흐름이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 10-Q 분기 실적표 (2026-06-28 분기)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046080&type=10-Q",
+                "date": "2026-06-28",
+                "quote": "revenue 1139600000, profit 252500000, yoy revenue 16.2, profit 131.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "주가가 52주 최고가 부근이라 좋은 소식이 이미 상당 부분 반영됐을 수 있다. 예상 주당순이익 기준 주가수익비율은 약 20.5배다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-22",
+                "quote": "per 20.53, high52 114.75, last 114.2148",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "장난감·게임",
+          "트레이딩 카드"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -54430,8 +54935,95 @@ window.TEAM2_DATA = {
         "count": 5
       },
       "research": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "status": "done",
+        "ticker": "RCL",
+        "company": "세계 2위 크루즈 운영사로, 선박 승선 요금과 선상 소비로 돈을 번다. 최근 카리브해 리조트 업체 Sandals 지분 50% 인수에 합의했다.",
+        "lead": "RCL은 Sandals Resorts 지분 50%를 30억 달러에 사기로 한 발표와 증권사의 긍정 평가로 올랐다. 10월 말 실적에서 성장이 이어지는지가 확인돼야 이야기가 유지된다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "9월 22일 Sandals Resorts 지분 50%를 약 30억 달러에 인수하기로 했다. 크루즈에서 육상 리조트로 사업을 넓히는 계기로 받아들여졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Royal Caribbean agrees to take 50% equity stake in Sandals for $3 billion",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/22/royal-caribbean-sandals.html",
+                "date": "2026-09-22",
+                "quote": "Royal Caribbean agrees to take 50% equity stake in Sandals for $3 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "Jefferies는 이 인수 뒤 주가가 오를 것으로 봤고, BofA도 할인된 가격에 사 둘 만하다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Royal Caribbean to rally after agreeing to take 50% stake in Sandals Resorts, Jefferies says",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/08/royal-caribbean-to-rally-after-taking-stake-in-sandals-jefferies-says.html",
+                "date": "2026-10-08",
+                "quote": "Royal Caribbean to rally after agreeing to take 50% stake in Sandals Resorts, Jefferies says",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "BofA says to scoop up shares of this cruise line operator at a discount",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/28/bofa-says-to-scoop-up-shares-of-this-cruise-line-operator-at-a-discount.html",
+                "date": "2026-09-28",
+                "quote": "BofA says to scoop up shares of this cruise line operator at a discount",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "가장 최근 분기(2분기) 매출은 1년 전보다 6.5% 늘었지만 영업이익은 1.7%, 순이익은 6.8% 줄었다. 성장세가 둔해졌다는 신호다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 10-Q 실적표 (2026-06-30 분기)",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884887&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 4832000000, profit 1307000000, yoy revenue 6.5, profit -1.7, netIncome -6.8",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "여행·레저",
+          "크루즈"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3",
+            "c2"
+          ],
+          "reasons": [
+            "w3의 quote(제목)에는 '52주 저점 222.22달러' '현재가 288.45달러' 구체적 수치 없음",
+            "c2의 quote(제목)에는 '52주 고점 350.59달러' '3개월 수익률 -5%' 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "RCL은 9월 저점 뒤 한 달 새 22% 올랐다. 계기는 Sandals Resorts 지분 50%를 30억 달러에 사기로 한 발표와 증권사의 긍정 평가다. 다만 3개월 기준으로는 아직 마이너스라서, 10월 말 실적에서 성장이 이어지는지가 확인돼야 이야기가 유지된다.",
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "로열 캐리비언 크루즈",
       "nameEn": "ROYAL CARIBBEAN GROUP",
@@ -62420,8 +63012,111 @@ window.TEAM2_DATA = {
         "count": 18
       },
       "research": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "status": "done",
+        "ticker": "TW",
+        "company": "채권·파생상품을 전자거래하는 플랫폼을 운영하는 회사. 거래 수수료가 주 수입이다.",
+        "lead": "트레이드웹이 10월 20일 기업간 채권 거래 플랫폼 Trumid를 19.7억 달러에 인수한다고 알려지며 주가가 올랐다. 월스트리트 증권사도 긍정 평가를 시작했다. 인수 부담과 통합 성과가 확인되지 않으면 이야기가 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "회사의 거래 영역을 넓히는 딜이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Tradeweb Markets To Buy Trumid Holdings For $1.97 Bln",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/tradeweb-markets-buy-trumid-holdings-197-bln",
+                "date": "2026-10-20",
+                "quote": "Tradeweb Markets To Buy Trumid Holdings For $1.97 Bln",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "10월 20일 Trumid Holdings를 19.7억 달러에 인수한다는 소식이 나왔다. 회사의 거래 영역을 넓히는 딜이다."
+          },
+          {
+            "id": "w3",
+            "statement": "2분기 이익이 증권사 예상치를 넘었다. 10월 초에는 웰스파고가 '비중확대(Overweight)' 의견으로 분석을 시작했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Wells Fargo Initiates Coverage of Tradeweb Markets with Overweight Rating",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/wells-fargo-initiates-coverage-tradeweb-markets-overweight-rating",
+                "date": "2026-10-02",
+                "quote": "Wells Fargo Initiates Coverage of Tradeweb Markets with Overweight Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Tradeweb Markets (TW) Surpasses Q2 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/tradeweb-markets-tw-surpasses-q2-earnings-estimates",
+                "date": "2026-07-30",
+                "quote": "Tradeweb Markets (TW) Surpasses Q2 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "8-K에는 3.02 항목(비등록 주식 발행)이 함께 올라, 새 주식 발행으로 기존 주주 몫이 줄 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Tradeweb 8-K (2026-10-19)",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/Archives/edgar/data/1758730/000119312526425378/d140509d8k.htm",
+                "date": "2026-10-19",
+                "quote": "중요 계약 체결, 3.02, Reg FD 공시, 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "19.7억 달러 인수로 자금 부담이 생긴다. 8-K에는 3.02 항목(비등록 주식 발행)이 함께 올라, 새 주식 발행으로 기존 주주 몫이 줄 수 있다."
+          },
+          {
+            "id": "c2",
+            "statement": "2분기 매출 증가율은 9%로 1분기 21.2%보다 크게 둔화됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001758730&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 558946000 yoy 9 / revenue 617764000 yoy 21.2",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "금융 인프라",
+          "채권 전자거래"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w2"
+          ],
+          "reasons": [
+            "w2의 quote는 제목 '트레이드웹 Q2 이익 증가'만 있고, '매출 5.6억' '9% 성장' '영업이익 2.45억' '22.7% 성장' 등 구체적 수치가 제목에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "트레이드웹이 10월 20일 기업간 채권 거래 플랫폼 Trumid를 19.7억 달러에 인수한다고 알려지며 한 달 새 주가가 올랐다. 지난 분기 매출과 영업이익이 모두 늘었고 월스트리트 증권사도 긍정 평가를 시작했다. 인수 부담과 통합 성과가 확인되지 않으면 이야기가 약해진다.",
+        "researchedOn": "2026-10-22",
+        "carried": false
       },
       "nameKo": "트레이드웹 마케츠",
       "nameEn": "TRADEWEB MARKETS INC",
@@ -73554,14 +74249,14 @@ window.TEAM2_DATA = {
     "total": 33
   },
   "research_coverage": {
-    "done": 48,
+    "done": 55,
     "total": 60,
     "cap": 30,
-    "pending": 12,
+    "pending": 5,
     "failed": 0,
     "carried": 18,
     "ineligible": 0,
-    "note": "60종목 중 48종목을 조사했습니다. 그중 18종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 12종목은 상한(30) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
+    "note": "60종목 중 55종목을 조사했습니다. 그중 18종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 5종목은 상한(30) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "detail_coverage": {
     "done": 56,
