@@ -375,8 +375,10 @@ async function main() {
         } else if (failedSet.has(p.ticker)) {
           p.research = { status: 'failed', note: 'LLM 리서치 실패 (에이전트 오류) — 다음 실행에서 우선 재시도합니다' };
           failedCount++;
-        } else if (p.research && ['done', 'no_source'].includes(p.research.status) && p.research.carried) {
-          done++; carried++;                       // run-breakout 이 이월해 둔 지난 조사분 — 그대로 둔다
+        } else if (p.research && ['done', 'no_source'].includes(p.research.status)) {
+          // run-breakout 이 이월해 둔 지난 조사분, 또는 **같은 날 앞선 병합분** — 그대로 둔다.
+          //   2026-10-22: 같은 날 리서치를 다시 돌렸더니 carried 가 아닌 오늘 조사분 7개가 '대기'로 지워졌다.
+          done++; if (p.research.carried) carried++;
         } else {
           p.research = { status: 'pending', note: '아직 조사하지 않았습니다 (순환 조사 대기)' };
         }
@@ -427,7 +429,7 @@ async function main() {
         else if (failedSet.has(it.ticker)) {
           it.catalyst = { status: 'failed', note: 'LLM 촉매 분류 실패 (에이전트 오류) — 다음 실행에서 우선 재시도합니다' };
           failedCount++;
-        } else if (it.catalyst && it.catalyst.status === 'done' && it.catalyst.carried) { done++; carried++; }
+        } else if (it.catalyst && it.catalyst.status === 'done') { done++; if (it.catalyst.carried) carried++; }   // 같은 날 앞선 병합분도 둔다 (2026-10-22 재실행에서 12개가 지워졌다)
         else it.catalyst = { status: 'pending', note: '아직 조사하지 않았습니다' };
       }
       recordResearched(rc, 'team4', [...byTicker.keys()], dateStr, extra);
