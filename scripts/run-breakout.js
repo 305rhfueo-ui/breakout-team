@@ -262,6 +262,15 @@ async function main() {
       problems.push(`QQQ 마지막 봉이 ${qq.lastBarDate} 인데 RS 데이터 세션은 ${expectedSession} 입니다`);
     }
     if (!qq && args.yahoo) problems.push('QQQ 봉을 받지 못했습니다');
+    // RS 사이트 가격이 하루 전 종가인가 (2026-10-22: last_updated 는 10/21 세션인데 가격은 55~85% 종목이 10/20 이었다 —
+    //   사이트가 마감 뒤 비어 오는 당일 봉을 버렸다. 세션일 검사는 갱신 시각만 봐서 놓쳤다). 사이트 Price 를 우리 봉 마지막·그 전 종가와 대조한다.
+    const near = (a, b) => a && b && Math.abs(a / b - 1) < 0.002;
+    const px = [...barsMap.keys()].filter((t) => t !== 'QQQ' && rowByTicker.has(t) && (barsOf(t) || []).length > 1).map((t) => {
+      const b = barsOf(t), p = rowByTicker.get(t).Price;
+      return near(b[b.length - 1].c, p) ? 'last' : near(b[b.length - 2].c, p) ? 'prev' : 'other';
+    });
+    const stalePx = px.filter((x) => x === 'prev').length;
+    if (px.length >= 20 && stalePx > px.length * 0.3) problems.push(`RS 사이트 가격이 하루 전 종가인 종목 ${stalePx}/${px.length}개 — 등락률·RS·거래량 배수가 하루 밀린 값입니다`);
     if (gappedTickers.length) problems.push(`봉이 빠진 종목 ${gappedTickers.length}개 (${gappedTickers.slice(0, 8).join(', ')}${gappedTickers.length > 8 ? ' …' : ''})`);
     if (!problems.length) return null;
     return {
@@ -556,6 +565,12 @@ async function main() {
     if (prev4 && prev4.llm) team4.llmCarried = { ...prev4.llm, researchedOn: prev4.generated };
   }
 
+  // ── 11b) 재민 종목 팝업 재료 (2026-10-22 사용자: "재민 티커도 도윤처럼 분석이 나오게") ──
+  //    도윤 풀에 없는 재민 종목을 도윤 풀과 같은 모양(pickRow)으로 만들어 아래 보강 단계(회사명·상세·CNBC·KIS·전망치·체크표)를 같이 돈다.
+  //    도윤 풀(pool)에는 섞지 않는다 — 리서치 통계·목록·상세 상한(40)이 바뀌지 않게. 결과는 맨 끝에서 team4.items 에 붙인다.
+  const t4Pool = team4 ? team4.items.filter((i) => !pool.some((q) => q.ticker === i.ticker) && rowByTicker.has(i.ticker))
+    .map((i) => ({ ...pickRow(rowByTicker.get(i.ticker)), catalyst: i.catalyst, fs: i.fs || null })) : [];
+
   // ── 12-0a) 회사명 매핑 (전 선정 종목, 상한·SKIP_DETAIL 과 무관) ──
   // 테마 카드와 티커 검색에 티커만 나열하면 무슨 회사인지 알 수 없다.
   // 국문명은 인포맥스(30일 캐시), 없으면 SEC company_tickers 의 영문명으로 채운다.
@@ -565,7 +580,7 @@ async function main() {
     const kr = require('./data/kr-reports');
     const { nameOf } = require('./data/sec-edgar');
     let okKo = 0, okEn = 0;
-    for (const q of pool) {
+    for (const q of [...pool, ...t4Pool]) {
       try {
         const info = await kr.lookupTicker(q.ticker);
         if (info && info.ok) { q.nameKo = info.nameKo || null; q.nameEn = info.nameEn || null; if (q.nameKo) okKo++; }
@@ -574,7 +589,7 @@ async function main() {
         try { const en = await nameOf(q.ticker); if (en) { q.nameEn = en; okEn++; } } catch (e) { /* noop */ }
       }
     }
-    say('T2', `회사명: 국문 ${okKo} · 영문보강 ${okEn} / ${pool.length}종목(선정+목록)`);
+    say('T2', `회사명: 국문 ${okKo} · 영문보강 ${okEn} / ${pool.length + t4Pool.length}종목(선정+목록+재민 ${t4Pool.length})`);
     // 목록 표에도 이름을 싣는다
     const nm = new Map(pool.map((q) => [q.ticker, q.nameKo || q.nameEn || null]));
     for (const k of listsLib.KEYS) for (const it of lists[k].items) it.name = nm.get(it.ticker) || null;
@@ -613,6 +628,10 @@ async function main() {
     }
     process.stdout.write('\r');
     rot.saveCache(rc, dateStr);
+    // 재민 종목 — 상한 밖에서 따로(도윤 몫 40개를 밀어내지 않게). 수집기는 전부 TTL 캐시라 같은 종목 재조회는 거의 무료.
+    let okT4 = 0;
+    for (const q of t4Pool) { try { const { detail, gotAny } = await fetchDetail(q.ticker, dateStr); if (gotAny) { q.detail = detail; okT4++; } } catch (e) { /* 없으면 없는 대로 */ } }
+    if (t4Pool.length) say('T4', `재민 종목 팝업 상세 ${okT4}/${t4Pool.length}`);
 
     // ── 이월 — 오늘 안 뽑힌 종목은 지난 실행의 상세를 물려받는다 ──
     // 로테이션만 넣고 이월을 빼면 어제 보이던 팝업이 오늘 텅 빈다. fetchedAt 을 유지해
@@ -642,14 +661,14 @@ async function main() {
     const kis = require('./lib/kis');
     const { getEstimates } = require('./data/yahoo-estimates');   // 애널리스트 전망치·서프라이즈 (2026-10-15)
     let okC = 0, okK = 0, okE = 0;
-    for (const q of pool) {
+    for (const q of [...pool, ...t4Pool]) {
       const c = await getTickerArticles(q.ticker);
       q.cnbc = c.ok ? c.items : null; if (c.ok && c.items.length) okC++;
       if (kis.configured()) { const f = await kis.facts(q.ticker); q.kis = f || null; if (f) okK++; }
       q.estimates = await getEstimates(q.ticker, { today: dateStr }); if (q.estimates) okE++;
     }
     const cool = require('./data/yahoo-estimates').coolingDown();
-    say('T2', `CNBC 기사 ${okC}/${pool.length}종목 · 한국투자증권 기업 수치 ${okK}/${pool.length}종목 · 애널리스트 전망치(야후) ${okE}/${pool.length}종목${okE < pool.length ? ` — 실패 ${pool.length - okE}` : ''}${cool ? ` · ⚠️ 야후가 ${cool.status} 을 줘서 ${String(cool.until && new Date(cool.until).toLocaleString('ko-KR'))}까지 접속하지 않는다(팝업에는 링크만)` : ''}`);
+    { const N = pool.length + t4Pool.length; say('T2', `CNBC 기사 ${okC}/${N}종목 · 한국투자증권 기업 수치 ${okK}/${N}종목 · 애널리스트 전망치(야후) ${okE}/${N}종목${okE < N ? ` — 실패 ${N - okE}` : ''}${cool ? ` · ⚠️ 야후가 ${cool.status} 을 줘서 ${String(cool.until && new Date(cool.until).toLocaleString('ko-KR'))}까지 접속하지 않는다(팝업에는 링크만)` : ''}`); }
   }
 
   // ── 12-0c) 종목 체크표 (2026-10-08) — 쿨라매기 11 · CAN SLIM 7, 선정+목록 종목 전부, AI 없이 코드로 ──
@@ -666,7 +685,7 @@ async function main() {
     try { earnCk = args.offline ? null : await upcomingEarnings(sessionDate || dateStr, rulesCk.risk.earningsBlockDays); } catch (e) { earnCk = null; }
     const { earningsOf } = require('./lib/earnings');
     let n = 0;
-    for (const q of pool) {
+    for (const q of [...pool, ...t4Pool]) {
       const b = barsOf(q.ticker);
       const it = itemOf.get(q.ticker) || {
         ticker: q.ticker, ret1d: q.ret1d, adr: q.adr, high52: q.high52, maxRise3m: q.maxRise3m, volx: q.volx,
@@ -833,7 +852,7 @@ async function main() {
     try {
       const watch6 = team6 ? team6.plans.filter((p) => p.watch).map((p) => p.ticker) : [];
       const od = readPrevWindow('ondemand.js', 'ONDEMAND_DATA');       // 7팀이 분석한 종목의 차트는 지우지 않는다
-      const r = listsLib.writeOhlcFiles([...pool.map((q) => q.ticker), ...watch6, ...activeTickers], barsOf,
+      const r = listsLib.writeOhlcFiles([...pool.map((q) => q.ticker), ...t4Pool.map((q) => q.ticker), ...watch6, ...activeTickers], barsOf,
         path.join(paths.dashboardData, 'ohlc'), { dateOf: (t) => barDateET(t), keepTickers: ((od && od.items) || []).map((x) => x.ticker) });
       say('SYSTEM', `팝업 차트 봉 ${r.written}종목 저장${r.pruned ? ` · 지난 종목 ${r.pruned}개 삭제` : ''}`);
     } catch (e) { say('WARN', `팝업 차트 봉 저장 실패: ${e.message}`); }
@@ -849,7 +868,7 @@ async function main() {
       let got = 0;
       for (const d of days) { const r = await H.ensureSnapshot(d); if (r && !r.cached) got++; }
       const od = readPrevWindow('ondemand.js', 'ONDEMAND_DATA'), hd = readPrevWindow('holdings.js', 'HOLDINGS_DATA');
-      const want = [...new Set([...pool.map((q) => q.ticker), ...(team6 ? team6.plans.map((p) => p.ticker) : []),
+      const want = [...new Set([...pool.map((q) => q.ticker), ...t4Pool.map((q) => q.ticker), ...(team6 ? team6.plans.map((p) => p.ticker) : []),
         ...((od && od.items) || []).map((x) => x.ticker), ...((hd && hd.holdings) || []).map((x) => x.ticker)])];
       const { byTicker } = H.buildSeries(days, { tickers: want });
       const r = H.writeSeriesFiles(byTicker, new Map(), { tickers: want });
@@ -892,6 +911,16 @@ async function main() {
   if (team1) writeWindowData(path.join(paths.dashboardData, 'team1.js'), 'TEAM1_DATA', team1);
   if (team2) writeWindowData(path.join(paths.dashboardData, 'team2.js'), 'TEAM2_DATA', team2);
   if (team3) writeWindowData(path.join(paths.dashboardData, 'team3.js'), 'TEAM3_DATA', team3);
+  // 재민 종목 팝업 재료를 team4.items 에 붙인다 — 상세는 팝업이 쓰는 부분만(slimDetail, 공개 저장소 크기)
+  if (team4 && t4Pool.length) {
+    const { slimDetail } = require('./lib/detail');
+    const by = new Map(t4Pool.map((q) => [q.ticker, q]));
+    for (const it of team4.items) {
+      const q = by.get(it.ticker); if (!q) continue;
+      Object.assign(it, { nameKo: q.nameKo || null, nameEn: q.nameEn || null, detail: q.detail ? slimDetail(q.detail) : null, kis: q.kis || null,
+        cnbc: q.cnbc || null, estimates: q.estimates || null, setup: q.setup || null, checks: q.checks || null, earnings: q.earnings ?? null });
+    }
+  }
   if (team4) writeWindowData(path.join(paths.dashboardData, 'team4.js'), 'TEAM4_DATA', team4);
   if (team6) writeWindowData(path.join(paths.dashboardData, 'team6.js'), 'TEAM6_DATA', team6);
   if (team5) writeWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA', team5);

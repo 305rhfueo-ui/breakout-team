@@ -309,5 +309,22 @@ ok('표 열 렌더러가 행 데이터를 읽지 않고 상수 배지를 뿌리�
   assert.strictEqual(bad.length, 0, `행 데이터를 안 읽는 열: ${bad.join(' | ')}`);
 });
 
+console.log('\n[재민 팝업] 도윤 목록에 없는 재민 종목도 체크표·KIS·전망치·촉매로 팝업이 채워진다 (2026-10-22)');
+{
+  const checks = { qm: [{ item: '선행 상승', status: '충족', evidence: 'QMEP' }], canslim: [{ item: 'C 최근 분기 이익', status: '충족', evidence: 'c' }, { item: 'N 신제품·신서비스', status: '확인 불가', evidence: 'N 분석 대기 — 목록 순환' }] };
+  const done = { ticker: 'ZZEP', price: 10, nameKo: '재민테스트', checks, kis: { nameKo: '재민테스트', exchange: 'NAS', fetchedAt: '2026-10-22' },
+    catalyst: { status: 'done', category: 3, categoryName: '대형 파트너십·공급계약', volumeExplanation: 'EPVOLSENT 계약 발표', claims: [] } };
+  const wait = { ticker: 'ZZEW', price: 10, checks, catalyst: { status: 'pending' } };
+  const c = loadRoom(`window.TEAM4_DATA = ${JSON.stringify({ items: [done, wait, { ticker: 'ZZOLD', price: 1, catalyst: { status: 'pending' } }] })};`);
+  c.openTicker('ZZEP'); const h = c.document.getElementById('mbox2').innerHTML;
+  ok('체크표·KIS·촉매 분류가 나온다', () => { for (const k of ['쿨라매기 돌파 셋업 체크', 'QMEP', 'CAN SLIM 체크', '기업 기본 수치', '재민테스트', '재민 촉매 분류 — 대형 파트너십·공급계약']) assert.ok(h.includes(k), `없음: ${k}`); });
+  ok('N 줄 = 재민 촉매 분류 (순환 대기라고 거짓말하지 않는다)', () => {
+    assert.ok(h.includes('재민 촉매 분류: ③ 대형 파트너십·공급계약 — EPVOLSENT')); assert.ok(!h.includes('목록 순환'));
+    c.openTicker('ZZEW'); const h2 = c.document.getElementById('mbox2').innerHTML;
+    assert.ok(h2.includes('재민 촉매 분류 대기(화~토 아침 리서치)')); assert.ok(!h2.includes('목록 순환'));
+  });
+  ok('상세 자료가 없는 예전 재민 종목은 체크표 없이 (깨지지 않음)', () => { c.openTicker('ZZOLD'); assert.ok(!c.document.getElementById('mbox2').innerHTML.includes('CAN SLIM 체크')); });
+}
+
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}${skip ? ` · 건너뜀 ${skip}` : ''}`);
 process.exit(fail ? 1 : 0);
