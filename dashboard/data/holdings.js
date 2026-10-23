@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-22T22:10:21.035Z",
+  "updated": "2026-10-23T13:00:25.313Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,28 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Palantir Technologies Inc. (PLTR) Declines More Than Market: Some Information for Investors",
+          "url": "https://www.nasdaq.com/articles/palantir-technologies-inc-pltr-declines-more-market-some-information-investors",
+          "date": "2026-10-22",
+          "publisher": "Zacks",
+          "ko": "팔란티어 주가, 시장보다 큰 폭인 2.74% 하락 마감",
+          "tone": "bad",
+          "isNew": true,
+          "headline": "팔란티어 주가, 시장보다 큰 폭인 2.74% 하락 마감",
+          "easy": "팔란티어(PLTR)가 직전 거래일 종가 196.19달러로 마감해 전날보다 2.74% 내렸다. 제목에 따르면 이날 하락 폭이 시장 전체보다 컸다. 요약만 확인돼 구체적인 하락 원인은 기사에 안 나왔다.",
+          "whyMatters": "가격이 올라야 이익인 보유 포지션에는 단기 평가액이 줄어든 소식이다. 다만 하락 이유가 확인되지 않아 추세 판단은 어렵다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "All Eyes Will Be on Palantir on Nov. 2. Here's What It Must Say to Keep the Run Going.",
           "url": "https://www.nasdaq.com/articles/all-eyes-will-be-palantir-nov-2-heres-what-it-must-say-keep-run-going",
           "date": "2026-10-22",
           "publisher": "The Motley Fool",
           "ko": "11월 2일 팔란티어 발표에 시장 관심이 쏠린다",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "11월 2일 팔란티어 발표에 시장 관심이 쏠린다",
           "easy": "팔란티어가 11월 2일 발표를 앞두고 있고, 상승세를 이어가려면 어떤 말을 해야 하는지 다룬 기사다. 제목과 요약만 확인했고 구체적인 내용은 기사에 안 나왔다. 요약에는 팔란티어가 눈높이를 낮춰 말하고 실제로는 더 잘 해내는 경향이 있다는 말만 있다.",
           "whyMatters": "보유 중이라면 11월 2일 발표 내용에 따라 주가가 크게 움직일 수 있는 시기다. 다만 이 기사만으로는 방향을 알 수 없다.",
