@@ -1,0 +1,217 @@
+{
+ "ticker": "WCN",
+ "news": [
+  {
+   "title": "Why Waste Connections Stock Is Up Today",
+   "url": "https://www.nasdaq.com/articles/why-waste-connections-stock-today",
+   "date": "2026-10-22",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Waste Connections Q3 26 Earnings Conference Call At 8:30 AM ET",
+   "url": "https://www.nasdaq.com/articles/waste-connections-q3-26-earnings-conference-call-8-30-am-et",
+   "date": "2026-10-22",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Waste Connections, Inc. Reports Third Quarter 2026 Results and Raises Full Year Outlook",
+   "url": "https://www.nasdaq.com/articles/waste-connections-inc-reports-third-quarter-2026-results-and-raises-full-year-outlook",
+   "date": "2026-10-22",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Waste Connections Inc Reveals Increase In Q3 Profit",
+   "url": "https://www.nasdaq.com/articles/waste-connections-inc-reveals-increase-q3-profit",
+   "date": "2026-10-21",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Waste Connections (WCN) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/waste-connections-wcn-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Waste Connections (WCN) Moves 5.5% Higher: Will This Strength Last?",
+   "url": "https://www.nasdaq.com/articles/waste-connections-wcn-moves-55-higher-will-strength-last",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Waste Connections (WCN) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/waste-connections-wcn-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Waste Connections (WCN) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/waste-connections-wcn-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-21",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926117838/wcn-20261021x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926092680/tm2622609d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926090339/tm2622128d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926087330/tm2621340d6_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926085802/wcn-20260722x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926062507/tm2614785d1_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318220&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 2561607000,
+    "profit": 437554000,
+    "netIncome": 296399000,
+    "margin": 17.1,
+    "yoy": {
+     "revenue": 6.4,
+     "profit": -4.8,
+     "netIncome": 2.1,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 2370631000,
+    "profit": 364080000,
+    "netIncome": 219344000,
+    "margin": 15.4,
+    "yoy": {
+     "revenue": 6.4,
+     "profit": -6.7,
+     "netIncome": -9.2,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 2373306000,
+    "profit": 420828000,
+    "netIncome": 258500000,
+    "margin": 17.7,
+    "yoy": {
+     "revenue": 5,
+     "profit": 311.3,
+     "netIncome": 231.9,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 2458378000,
+    "profit": 439591000,
+    "netIncome": 286271000,
+    "margin": 17.9,
+    "yoy": {
+     "revenue": 5.1,
+     "profit": -7.5,
+     "netIncome": -7.1,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.28,
+  "saleNy": 5.58,
+  "epsCy": 9.83,
+  "epsNy": 9.51,
+  "cyTrend": 0.22,
+  "nyTrend": -0.2,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.42,
+    6.39,
+    5
+   ],
+   "ni": [
+    2.11,
+    -9.18,
+    "흑자전환"
+   ],
+   "opm": [
+    17.08,
+    15.36,
+    17.73
+   ],
+   "updated": "2026-09-09 06:31:01"
+  }
+ }
+}

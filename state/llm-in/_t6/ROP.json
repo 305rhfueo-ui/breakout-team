@@ -1,0 +1,668 @@
+{
+ "ticker": "ROP",
+ "date": "2026-10-23",
+ "session": "2026-10-22",
+ "source": "list",
+ "plan": {
+  "ticker": "ROP",
+  "name": "로퍼 테크놀로지스",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 436.23,
+  "grade": "C",
+  "state": "post",
+  "pivot": 429.6,
+  "stop": 420.63,
+  "distToPivotPct": 1.54,
+  "distToPivotAdr": 0.61,
+  "riskPerSharePct": 2.09,
+  "adrPct": 2.52,
+  "extensionAdr": 4.93,
+  "breakDate": "2026-10-22",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 19.1,
+   "priorMovePct": 37.8,
+   "higherLows": 0,
+   "contraction": 0.99,
+   "closeRange10Adr": 4.4,
+   "surf10": 2.67,
+   "surf20": 3.55,
+   "slope20": 0.92,
+   "baseLow": 347.45,
+   "lastSwingLow": 347.45
+  },
+  "reasons": [
+   "선행 상승 +38%",
+   "베이스 8주",
+   "깊이 19.1%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.99배 · 10일 종가폭 4.4 ADR",
+   "✗ 10일선 +2.7 ADR · 20일선 +3.6 ADR",
+   "20일선 기울기 +0.92%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2508098440298053,
+    "pct": 96.70874661857529
+   },
+   "m3": {
+    "v": 0.00599973442826858,
+    "pct": 71.55094679891795
+   },
+   "m6": {
+    "v": 0.17668345418809303,
+    "pct": 77.41208295761948
+   }
+  },
+  "ret1m": 20.14,
+  "ret3m": 7.17,
+  "ret6m": 22.39,
+  "marketCap": "43.14B",
+  "volx": 2.93,
+  "volSurgeWk": 2.6,
+  "high52": 91.12,
+  "newHigh52": false,
+  "adr": 2.45,
+  "div50": 12.95,
+  "div200": 20.24,
+  "targetStatus": false,
+  "saleCy": 8.43,
+  "saleNy": 6.09,
+  "epsCy": 11.11,
+  "epsNy": 9.7,
+  "cyTrend": 0,
+  "nyTrend": 0.34,
+  "est": {
+   "cyCur": 22.22175,
+   "cy30": 22.22166,
+   "nyCur": 24.37741,
+   "ny30": 24.29544
+  },
+  "fs": {
+   "sale": [
+    8.5,
+    11.29,
+    9.67
+   ],
+   "ni": [
+    208.88,
+    53.7,
+    -7.33
+   ],
+   "opm": [
+    27.73,
+    27.18,
+    28.58
+   ],
+   "updated": "2026-09-08 08:23:16"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "로퍼 테크놀로지스",
+  "nameEn": "ROPER TECHNOLOGIES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882835&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2108900000,
+     "profit": 584700000,
+     "netIncome": 1168500000,
+     "margin": 27.7,
+     "yoy": {
+      "revenue": 8.5,
+      "profit": 6.6,
+      "netIncome": 208.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2095300000,
+     "profit": 569600000,
+     "netIncome": 508900000,
+     "margin": 27.2,
+     "yoy": {
+      "revenue": 11.3,
+      "profit": 8.3,
+      "netIncome": 53.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2058600000,
+     "profit": 588300000,
+     "netIncome": 428100000,
+     "margin": 28.6,
+     "yoy": {
+      "revenue": 9.7,
+      "profit": 12.1,
+      "netIncome": -7.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2017500000,
+     "profit": 573000000,
+     "netIncome": 398500000,
+     "margin": 28.4,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 15.4,
+      "netIncome": 8.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Roper (ROP) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/roper-rop-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Roper Technologies, Inc. Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/roper-technologies-inc-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Roper Technologies (ROP) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/roper-technologies-rop-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Roper Technologies Boosts FY26 Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/roper-technologies-boosts-fy26-outlook-update",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Roper Technologies (ROP) Q3 Earnings Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/roper-technologies-rop-q3-earnings-beat-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Roper Technologies Inc. Reveals Rise In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/roper-technologies-inc-reveals-rise-q3-profit",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Roper Technologies Q3 26 Earnings Conference Call At 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/roper-technologies-q3-26-earnings-conference-call-8-00-am-et",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Roper Technologies (ROP) Upgraded to Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/roper-technologies-rop-upgraded-buy-heres-why",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000042/rop-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000039/rop-20260929.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "5.04",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000119312526342309/d124069d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000031/rop-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-19",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000119312526230480/d156759d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000015/rop-20260423.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Alphabet, Tesla, Amazon & more",
+   "url": "https://www.cnbc.com/2026/07/23/stocks-making-the-biggest-moves-midday-googl-tsla-amzn-luv.html",
+   "date": "2026-07-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ROP",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 18.08,
+  "pbr": 2.31,
+  "eps": 24.13,
+  "bps": 189.08,
+  "shares": 98900900,
+  "marketCapM": 43144,
+  "high52": 514.135,
+  "high52Date": "2025-10-22",
+  "low52": 304.4284,
+  "low52Date": "2026-05-13",
+  "last": 436.23,
+  "prevClose": 397.56,
+  "nameKo": "로퍼 테크놀로지스",
+  "nameEn": "ROPER TECHNOLOGIES INC",
+  "listedOn": "2023-07-06",
+  "exchange": "나스닥",
+  "listedShares": 98900900
+ },
+ "estimates": {
+  "ticker": "ROP",
+  "url": "https://finance.yahoo.com/quote/ROP/analysis/",
+  "fetchedAt": "2026-10-23",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 5.91,
+    "epsLow": 5.86,
+    "epsHigh": 5.97,
+    "epsYearAgo": 5.21,
+    "epsAnalysts": 14,
+    "epsGrowth": 13.5,
+    "epsCur": "USD",
+    "rev": 2192167390,
+    "revAnalysts": 16,
+    "revYearAgo": 2058600000,
+    "revGrowth": 6.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 5.89,
+    "epsLow": 5.68,
+    "epsHigh": 6.22,
+    "epsYearAgo": 5.16,
+    "epsAnalysts": 11,
+    "epsGrowth": 14.2,
+    "epsCur": "USD",
+    "rev": 2223401240,
+    "revAnalysts": 10,
+    "revYearAgo": 2095300000,
+    "revGrowth": 6.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 22.22,
+    "epsLow": 22.02,
+    "epsHigh": 22.33,
+    "epsYearAgo": 20,
+    "epsAnalysts": 18,
+    "epsGrowth": 11.1,
+    "epsCur": "USD",
+    "rev": 8568816820,
+    "revAnalysts": 17,
+    "revYearAgo": 7902500000,
+    "revGrowth": 8.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 24.38,
+    "epsLow": 23.27,
+    "epsHigh": 25.6,
+    "epsYearAgo": 22.22,
+    "epsAnalysts": 18,
+    "epsGrowth": 9.7,
+    "epsCur": "USD",
+    "rev": 9090753370,
+    "revAnalysts": 18,
+    "revYearAgo": 8568816820,
+    "revGrowth": 6.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.91,
+    "d7": 0.1,
+    "d30": 0.1,
+    "d90": 1,
+    "ago90": 5.85,
+    "up7": 13,
+    "up30": 12,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 5.89,
+    "d7": 0,
+    "d30": 0.6,
+    "d90": 0.9,
+    "ago90": 5.84,
+    "up7": 9,
+    "up30": 8,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 22.22,
+    "d7": 0,
+    "d30": 0,
+    "d90": 1.4,
+    "ago90": 21.9,
+    "up7": 0,
+    "up30": 14,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 24.38,
+    "d7": 0,
+    "d30": 0.3,
+    "d90": 2.2,
+    "ago90": 23.86,
+    "up7": 1,
+    "up30": 13,
+    "down7": 0,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 5.89,
+    "estimate": 5.79,
+    "surprisePct": 1.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 5.38,
+    "estimate": 5.29,
+    "surprisePct": 1.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 5.16,
+    "estimate": 4.99,
+    "surprisePct": 3.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 5.21,
+    "estimate": 5.14,
+    "surprisePct": 1.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 0,
+   "total": 3,
+   "recent": [
+    {
+     "date": "2026-08-18",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Maintains",
+     "pt": 417,
+     "ptPrior": 417
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "Argus Research",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 450,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Raises",
+     "pt": 415,
+     "ptPrior": 397
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-22",
+  "numbers": {
+   "price": 436.23,
+   "ma20": 369.82,
+   "ma50": 386.84,
+   "ma150": 362.98,
+   "distMA50": 12.77,
+   "periodHigh": 595.17,
+   "pullbackFromHigh": -26.7,
+   "volRatio20": 2.54,
+   "dryUpRatio": 1.27
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 357.73,
+    "h": 364.86,
+    "l": 354.37,
+    "c": 364.23,
+    "v": 870200,
+    "clsPos": 94,
+    "gapPct": -0.23
+   },
+   {
+    "d": "2026-10-09",
+    "o": 365.22,
+    "h": 368.2,
+    "l": 362.39,
+    "c": 364.09,
+    "v": 437700,
+    "clsPos": 29,
+    "gapPct": 0.27
+   },
+   {
+    "d": "2026-10-12",
+    "o": 364.91,
+    "h": 370.15,
+    "l": 364.91,
+    "c": 367.32,
+    "v": 558500,
+    "clsPos": 46,
+    "gapPct": 0.23
+   },
+   {
+    "d": "2026-10-13",
+    "o": 368.09,
+    "h": 372.87,
+    "l": 366.65,
+    "c": 368.41,
+    "v": 612800,
+    "clsPos": 28,
+    "gapPct": 0.21
+   },
+   {
+    "d": "2026-10-14",
+    "o": 370.52,
+    "h": 373.84,
+    "l": 367.7,
+    "c": 372.69,
+    "v": 681800,
+    "clsPos": 81,
+    "gapPct": 0.57
+   },
+   {
+    "d": "2026-10-15",
+    "o": 380.15,
+    "h": 386.46,
+    "l": 378.21,
+    "c": 382.45,
+    "v": 867700,
+    "clsPos": 51,
+    "gapPct": 2
+   },
+   {
+    "d": "2026-10-16",
+    "o": 387.17,
+    "h": 391.01,
+    "l": 378.83,
+    "c": 382.71,
+    "v": 737700,
+    "clsPos": 32,
+    "gapPct": 1.23
+   },
+   {
+    "d": "2026-10-19",
+    "o": 380.96,
+    "h": 385.08,
+    "l": 378.6,
+    "c": 383.5,
+    "v": 710500,
+    "clsPos": 76,
+    "gapPct": -0.46
+   },
+   {
+    "d": "2026-10-20",
+    "o": 388,
+    "h": 398.53,
+    "l": 386.06,
+    "c": 398.21,
+    "v": 637300,
+    "clsPos": 97,
+    "gapPct": 1.17
+   },
+   {
+    "d": "2026-10-22",
+    "o": 407.78,
+    "h": 439.93,
+    "l": 406.45,
+    "c": 436.23,
+    "v": 1976290,
+    "clsPos": 89,
+    "gapPct": 2.4
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ROP-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ROP-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 3일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,737 @@
+{
+ "ticker": "PAYX",
+ "date": "2026-10-23",
+ "session": "2026-10-22",
+ "source": "list",
+ "plan": {
+  "ticker": "PAYX",
+  "name": "페이첵스",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 118.81,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 127.98,
+  "stop": 125.21,
+  "distToPivotPct": -7.17,
+  "distToPivotAdr": -3.08,
+  "riskPerSharePct": 2.16,
+  "adrPct": 2.33,
+  "extensionAdr": 3.46,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 23.4,
+   "priorMovePct": 37.6,
+   "higherLows": 0,
+   "contraction": 1.03,
+   "closeRange10Adr": 5.4,
+   "surf10": 3.46,
+   "surf20": 5.09,
+   "slope20": -0.1,
+   "baseLow": 98,
+   "lastSwingLow": 98
+  },
+  "reasons": [
+   "선행 상승 +38%",
+   "베이스 8주",
+   "깊이 23.4%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.03배 · 10일 종가폭 5.4 ADR",
+   "✗ 10일선 +3.5 ADR · 20일선 +5.1 ADR",
+   "✗ 20일선 기울기 -0.1%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2189314115041622,
+    "pct": 94.45446348061316
+   },
+   "m3": {
+    "v": -0.09288179583449163,
+    "pct": 40.35166816952209
+   },
+   "m6": {
+    "v": 0.25993677477565863,
+    "pct": 84.08476104598738
+   }
+  },
+  "ret1m": 16.95,
+  "ret3m": -2.72,
+  "ret6m": 30.72,
+  "marketCap": "42.29B",
+  "volx": 1.23,
+  "volSurgeWk": 0.98,
+  "high52": 92.83,
+  "newHigh52": false,
+  "adr": 2.11,
+  "div50": 4.24,
+  "div200": 16.35,
+  "targetStatus": false,
+  "saleCy": 5.41,
+  "saleNy": 5.47,
+  "epsCy": 8.18,
+  "epsNy": 7.18,
+  "cyTrend": -0.24,
+  "nyTrend": -0.03,
+  "est": {
+   "cyCur": 5.96074,
+   "cy30": 5.97535,
+   "nyCur": 6.38856,
+   "ny30": 6.39073
+  },
+  "fs": {
+   "sale": [
+    12.49,
+    19.87,
+    18.28
+   ],
+   "ni": [
+    41.52,
+    7.9,
+    -4.35
+   ],
+   "opm": [
+    37.66,
+    43.78,
+    36.72
+   ],
+   "updated": "2026-09-07 07:11:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "페이첵스",
+  "nameEn": "PAYCHEX INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723531&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-31",
+     "derived": false,
+     "revenue": 1580700000,
+     "profit": 619200000,
+     "netIncome": 429700000,
+     "margin": 39.2,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 14.3,
+      "netIncome": 12,
+      "priorEnd": "2025-08-31"
+     }
+    },
+    {
+     "periodEnd": "2026-05-31",
+     "derived": true,
+     "revenue": 1553300000,
+     "profit": 604700000,
+     "netIncome": 420500000,
+     "margin": 38.9,
+     "yoy": {
+      "revenue": 12.4,
+      "profit": 40.3,
+      "netIncome": 41.6,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 1752100000,
+     "profit": 792000000,
+     "netIncome": 560300000,
+     "margin": 45.2,
+     "yoy": {
+      "revenue": 19.5,
+      "profit": 14.5,
+      "netIncome": 7.9,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 1503300000,
+     "profit": 571900000,
+     "netIncome": 395400000,
+     "margin": 38,
+     "yoy": {
+      "revenue": 17.4,
+      "profit": 6.3,
+      "netIncome": -4.4,
+      "priorEnd": "2024-11-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Paychex AGM Highlights AI Growth Strategy, Stock Split Debate and Shareholder Votes",
+     "url": "https://www.nasdaq.com/articles/paychex-agm-highlights-ai-growth-strategy-stock-split-debate-and-shareholder-votes",
+     "date": "2026-10-15",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "PAYX Shares Rise 17.7% in Six Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/payx-shares-rise-177-six-months-heres-what-you-should-know",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Paychex Stock Slumped This Week",
+     "url": "https://www.nasdaq.com/articles/why-paychex-stock-slumped-week",
+     "date": "2026-09-25",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Paychex (PAYX) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-paychex-payx-strong-growth-stock-0",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "JP Morgan Upgrades Paychex to Neutral from Underweight",
+     "url": "https://www.nasdaq.com/articles/jp-morgan-upgrades-paychex-neutral-underweight",
+     "date": "2026-09-25",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Paychex Plunges, Providing the Entry Investors Have Been Waiting For",
+     "url": "https://www.nasdaq.com/articles/paychex-plunges-providing-entry-investors-have-been-waiting",
+     "date": "2026-09-24",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Paychex (PAYX) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/paychex-payx-q1-2027-earnings-call-transcript",
+     "date": "2026-09-24",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-16",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000072353126000008/payx-20261015.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-23",
+    "itemsKo": [
+     "실적 발표"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000072353126000004/payx-20260923.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526310277/payx-20260716.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-24",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526280314/payx-20260624.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526122887/payx-20260325.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526021794/payx-20260123.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Paychex CEO John Gibson goes one-on-one with Jim Cramer",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/19/paychex-ceo-john-gibson-goes-one-on-one-with-jim-cramer.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "I see no signs of layoffs or recession, says Paychex CEO",
+   "url": "https://www.cnbc.com/video/2026/06/30/i-see-no-signs-of-layoffs-or-recession-says-paychex-ceo.html",
+   "date": "2026-06-30",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PAYX",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 23.6,
+  "pbr": 11.41,
+  "eps": 5.03,
+  "bps": 10.41,
+  "shares": 355980000,
+  "marketCapM": 42294,
+  "high52": 127.98,
+  "high52Date": "2026-09-01",
+  "low52": 83.4955,
+  "low52Date": "2026-04-10",
+  "last": 118.81,
+  "prevClose": 112.5,
+  "nameKo": "페이첵스",
+  "nameEn": "PAYCHEX INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 355980000
+ },
+ "estimates": {
+  "ticker": "PAYX",
+  "url": "https://finance.yahoo.com/quote/PAYX/analysis/",
+  "fetchedAt": "2026-10-23",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "eps": 1.28,
+    "epsLow": 1.24,
+    "epsHigh": 1.31,
+    "epsYearAgo": 1.26,
+    "epsAnalysts": 18,
+    "epsGrowth": 1.3,
+    "epsCur": "USD",
+    "rev": 1621582020,
+    "revAnalysts": 16,
+    "revYearAgo": 1557600000,
+    "revGrowth": 4.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "eps": 1.87,
+    "epsLow": 1.85,
+    "epsHigh": 1.92,
+    "epsYearAgo": 1.71,
+    "epsAnalysts": 18,
+    "epsGrowth": 9.4,
+    "epsCur": "USD",
+    "rev": 1910928480,
+    "revAnalysts": 16,
+    "revYearAgo": 1808900000,
+    "revGrowth": 5.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-05-31",
+    "eps": 5.96,
+    "epsLow": 5.93,
+    "epsHigh": 6,
+    "epsYearAgo": 5.51,
+    "epsAnalysts": 19,
+    "epsGrowth": 8.2,
+    "epsCur": "USD",
+    "rev": 6864000470,
+    "revAnalysts": 18,
+    "revYearAgo": 6512000000,
+    "revGrowth": 5.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-05-31",
+    "eps": 6.39,
+    "epsLow": 6,
+    "epsHigh": 6.5,
+    "epsYearAgo": 5.96,
+    "epsAnalysts": 19,
+    "epsGrowth": 7.2,
+    "epsCur": "USD",
+    "rev": 7239804240,
+    "revAnalysts": 18,
+    "revYearAgo": 6864000470,
+    "revGrowth": 5.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "cur": "USD",
+    "now": 1.28,
+    "d7": 0,
+    "d30": -6.1,
+    "d90": -6.3,
+    "ago90": 1.36,
+    "up7": 0,
+    "up30": 0,
+    "down7": 18,
+    "down30": 16
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "cur": "USD",
+    "now": 1.87,
+    "d7": 0,
+    "d30": 1.9,
+    "d90": 1.8,
+    "ago90": 1.84,
+    "up7": 14,
+    "up30": 13,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-05-31",
+    "cur": "USD",
+    "now": 5.96,
+    "d7": 0,
+    "d30": -0.2,
+    "d90": -0.1,
+    "ago90": 5.97,
+    "up7": 6,
+    "up30": 5,
+    "down7": 8,
+    "down30": 7
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-05-31",
+    "cur": "USD",
+    "now": 6.39,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0,
+    "ago90": 6.39,
+    "up7": 5,
+    "up30": 4,
+    "down7": 10,
+    "down30": 9
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-08-31",
+    "actual": 1.34,
+    "estimate": 1.32,
+    "surprisePct": 1.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-05-31",
+    "actual": 1.32,
+    "estimate": 1.31,
+    "surprisePct": 0.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-02-28",
+    "actual": 1.71,
+    "estimate": 1.67,
+    "surprisePct": 2.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-11-30",
+    "actual": 1.26,
+    "estimate": 1.23,
+    "surprisePct": 2.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 2,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 6,
+   "ptLowered": 5,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-09-28",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 110,
+     "ptPrior": 125
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 96,
+     "ptPrior": 112
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 115,
+     "ptPrior": 125
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Lowers",
+     "pt": 113,
+     "ptPrior": 118
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 112,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Maintains",
+     "pt": 130,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "JP Morgan",
+     "action": "up",
+     "from": "Underweight",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 105
+    },
+    {
+     "date": "2026-09-16",
+     "firm": "Wolfe Research",
+     "action": "up",
+     "from": "Underperform",
+     "to": "Peer Perform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 117,
+     "ptPrior": 98
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 130,
+     "ptPrior": 110
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-18",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-22",
+  "numbers": {
+   "price": 118.81,
+   "ma20": 104.72,
+   "ma50": 114.13,
+   "ma150": 104.65,
+   "distMA50": 4.1,
+   "periodHigh": 161.24,
+   "pullbackFromHigh": -26.31,
+   "volRatio20": 1.04,
+   "dryUpRatio": 1.16
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 101.46,
+    "h": 104.64,
+    "l": 101.41,
+    "c": 104.46,
+    "v": 3344400,
+    "clsPos": 94,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-10-09",
+    "o": 104.84,
+    "h": 105.66,
+    "l": 103.89,
+    "c": 103.98,
+    "v": 1978900,
+    "clsPos": 5,
+    "gapPct": 0.36
+   },
+   {
+    "d": "2026-10-12",
+    "o": 104.52,
+    "h": 104.99,
+    "l": 103.74,
+    "c": 104.64,
+    "v": 1749000,
+    "clsPos": 72,
+    "gapPct": 0.52
+   },
+   {
+    "d": "2026-10-13",
+    "o": 105.38,
+    "h": 106.57,
+    "l": 104.85,
+    "c": 106.25,
+    "v": 2018400,
+    "clsPos": 81,
+    "gapPct": 0.71
+   },
+   {
+    "d": "2026-10-14",
+    "o": 106.69,
+    "h": 108.4,
+    "l": 106.25,
+    "c": 108.37,
+    "v": 2721200,
+    "clsPos": 99,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-10-15",
+    "o": 110.36,
+    "h": 112.5,
+    "l": 110.36,
+    "c": 110.78,
+    "v": 3999100,
+    "clsPos": 20,
+    "gapPct": 1.84
+   },
+   {
+    "d": "2026-10-16",
+    "o": 111.86,
+    "h": 112.52,
+    "l": 109.87,
+    "c": 111.63,
+    "v": 5508800,
+    "clsPos": 66,
+    "gapPct": 0.97
+   },
+   {
+    "d": "2026-10-19",
+    "o": 110.41,
+    "h": 111.21,
+    "l": 109.66,
+    "c": 110.75,
+    "v": 2187600,
+    "clsPos": 70,
+    "gapPct": -1.09
+   },
+   {
+    "d": "2026-10-20",
+    "o": 111.47,
+    "h": 113.94,
+    "l": 111.44,
+    "c": 112.62,
+    "v": 3275600,
+    "clsPos": 47,
+    "gapPct": 0.65
+   },
+   {
+    "d": "2026-10-22",
+    "o": 113.75,
+    "h": 119.14,
+    "l": 113.6,
+    "c": 118.81,
+    "v": 3294107,
+    "clsPos": 94,
+    "gapPct": 1
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PAYX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PAYX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 3일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

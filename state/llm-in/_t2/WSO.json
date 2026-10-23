@@ -1,0 +1,256 @@
+{
+ "ticker": "WSO",
+ "sector": "Industrials",
+ "industry": "Industrial Distribution",
+ "nameKo": "와츠코",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.54,
+  "saleNy": 6.25,
+  "epsCy": -0.76,
+  "epsNy": 9.11,
+  "est": {
+   "cyCur": 12.15687,
+   "cy30": 12.17656,
+   "nyCur": 13.26468,
+   "ny30": 13.23244
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    2.06,
+    0.13,
+    -9.99
+   ],
+   "ni": [
+    -10.99,
+    -2.54,
+    -20.6
+   ],
+   "opm": [
+    11.32,
+    7.19,
+    6.43
+   ],
+   "updated": "2026-09-08 08:21:36"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "와츠코",
+  "nameEn": "WATSCO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000105016&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2104859000,
+     "profit": 238372000,
+     "netIncome": 163336000,
+     "margin": 11.3,
+     "yoy": {
+      "revenue": 2.1,
+      "profit": -12.3,
+      "netIncome": -11,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1533010000,
+     "profit": 110184000,
+     "netIncome": 79074000,
+     "margin": 7.2,
+     "yoy": {
+      "revenue": 0.1,
+      "profit": -1.8,
+      "netIncome": -1.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1578757000,
+     "profit": 101528000,
+     "netIncome": 162339000,
+     "margin": 6.4,
+     "yoy": {
+      "revenue": -10,
+      "profit": -25.5,
+      "netIncome": -17.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2067005000,
+     "profit": 234762000,
+     "netIncome": 161575000,
+     "margin": 11.4,
+     "yoy": {
+      "revenue": -4.3,
+      "profit": -6.2,
+      "netIncome": -5.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Watsco (WSO) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/watsco-wso-earnings-expected-grow-should-you-buy",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Watsco To Buy The Granite Group For Undisclosed Sum",
+     "url": "https://www.nasdaq.com/articles/watsco-buy-granite-group-undisclosed-sum",
+     "date": "2026-09-14",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Watsco (WSO) Up 0.8% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/watsco-wso-08-last-earnings-report-can-it-continue",
+     "date": "2026-08-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Watsco (WSO) International Revenue Trends Deserve Your Attention",
+     "url": "https://www.nasdaq.com/articles/why-watsco-wso-international-revenue-trends-deserve-your-attention",
+     "date": "2026-08-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Watsco Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/watsco-q2-earnings-call-highlights",
+     "date": "2026-08-01",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Why Watsco Stock Crashed Today",
+     "url": "https://www.nasdaq.com/articles/why-watsco-stock-crashed-today",
+     "date": "2026-07-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Watsco (WSO) Q2 Earnings and Revenues Lag Estimates",
+     "url": "https://www.nasdaq.com/articles/watsco-wso-q2-earnings-and-revenues-lag-estimates",
+     "date": "2026-07-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Watsco Q2 26 Earnings Conference Call At 10:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/watsco-q2-26-earnings-conference-call-10-00-am-et",
+     "date": "2026-07-29",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526421662/wso-20261014.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "3.02"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526394393/wso-20260912.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526322168/wso-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526257467/wso-20260604.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526255386/wso-20260601.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "3.02"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526191427/wso-20260423.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "WSO",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 28.44,
+  "pbr": 4.51,
+  "eps": 11.5,
+  "bps": 72.59,
+  "shares": 35977500,
+  "marketCapM": 11766,
+  "high52": 450.0742,
+  "high52Date": "2026-04-28",
+  "low52": 274.2843,
+  "low52Date": "2026-10-09",
+  "last": 327.04,
+  "prevClose": 305.03,
+  "nameKo": "와츠코",
+  "nameEn": "WATSCO INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 35977500
+ }
+}

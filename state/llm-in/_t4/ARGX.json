@@ -1,0 +1,49 @@
+{
+ "ticker": "ARGX",
+ "news": [
+  {
+   "title": "HRMY or ARGX: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/hrmy-or-argx-which-better-value-stock-right-now",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ARGX Stock Down on Stopping Late-Stage Autoimmune Disease Study",
+   "url": "https://www.nasdaq.com/articles/argx-stock-down-stopping-late-stage-autoimmune-disease-study",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 45.96,
+  "saleNy": 24.78,
+  "epsCy": -4.56,
+  "epsNy": 90.55,
+  "cyTrend": 1.73,
+  "nyTrend": 2.52,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    59.46,
+    62.7,
+    73.76
+   ],
+   "ni": [
+    92.65,
+    116.57,
+    -31.05
+   ],
+   "opm": [
+    32.04,
+    30.01,
+    27.79
+   ],
+   "updated": "2026-09-20 06:55:30"
+  }
+ }
+}

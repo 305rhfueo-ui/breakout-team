@@ -1,0 +1,787 @@
+{
+ "ticker": "PHM",
+ "date": "2026-10-23",
+ "session": "2026-10-22",
+ "source": "list",
+ "plan": {
+  "ticker": "PHM",
+  "name": "풀티 그룹",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
+  "price": 119.48,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 131.63,
+  "stop": 128.32,
+  "distToPivotPct": -9.23,
+  "distToPivotAdr": -3.33,
+  "riskPerSharePct": 2.51,
+  "adrPct": 2.77,
+  "extensionAdr": 1.98,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 18.6,
+   "priorMovePct": 14.5,
+   "higherLows": 0,
+   "contraction": 1.2,
+   "closeRange10Adr": 3.1,
+   "surf10": 1.98,
+   "surf20": 1.42,
+   "slope20": -1.06,
+   "baseLow": 107.16,
+   "lastSwingLow": 107.16
+  },
+  "reasons": [
+   "✗ 선행 상승 +14%",
+   "베이스 8주",
+   "깊이 18.6%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.2배 · 10일 종가폭 3.1 ADR",
+   "10일선 +2 ADR · 20일선 +1.4 ADR",
+   "✗ 20일선 기울기 -1.06%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.06042666344177629,
+    "pct": 47.47520288548242
+   },
+   "m3": {
+    "v": -0.16068853722194765,
+    "pct": 21.415689810640217
+   },
+   "m6": {
+    "v": -0.04062236822429521,
+    "pct": 40.80252479711452
+   }
+  },
+  "ret1m": 1.1,
+  "ret3m": -9.5,
+  "ret6m": 0.66,
+  "marketCap": "22.76B",
+  "volx": 1.75,
+  "volSurgeWk": 1.37,
+  "high52": 83.22,
+  "newHigh52": false,
+  "adr": 2.84,
+  "div50": -0.4,
+  "div200": -3.46,
+  "targetStatus": false,
+  "saleCy": -5.74,
+  "saleNy": 2.91,
+  "epsCy": -9.72,
+  "epsNy": 8.04,
+  "cyTrend": -1.08,
+  "nyTrend": -3.32,
+  "est": {
+   "cyCur": 10.03863,
+   "cy30": 10.14806,
+   "nyCur": 10.84582,
+   "ny30": 11.21864
+  },
+  "fs": {
+   "sale": [
+    -9.56,
+    -12.44,
+    -6.32
+   ],
+   "ni": [
+    -22.43,
+    -33.63,
+    -45.07
+   ],
+   "opm": [
+    15.53,
+    13.16,
+    14.19
+   ],
+   "updated": "2026-09-07 06:04:16"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "풀티 그룹",
+  "nameEn": "PULTE GROUP INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000822416&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 3973846000,
+     "profit": null,
+     "netIncome": 475727000,
+     "margin": null,
+     "yoy": {
+      "revenue": -9.8,
+      "profit": null,
+      "netIncome": -18.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3982957000,
+     "profit": null,
+     "netIncome": 472003000,
+     "margin": null,
+     "yoy": {
+      "revenue": -9.6,
+      "profit": null,
+      "netIncome": -22.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3408572000,
+     "profit": null,
+     "netIncome": 346996000,
+     "margin": null,
+     "yoy": {
+      "revenue": -12.4,
+      "profit": null,
+      "netIncome": -33.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 4610748000,
+     "profit": null,
+     "netIncome": 501615000,
+     "margin": null,
+     "yoy": {
+      "revenue": -6.3,
+      "profit": null,
+      "netIncome": -45.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Pulte (PHM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/pulte-phm-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "PulteGroup, Inc. Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/pultegroup-inc-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Compared to Estimates, PulteGroup (PHM) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-pultegroup-phm-q3-earnings-look-key-metrics",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PulteGroup Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/pultegroup-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "PulteGroup (PHM) Q3 Earnings and Revenues Lag Estimates",
+     "url": "https://www.nasdaq.com/articles/pultegroup-phm-q3-earnings-and-revenues-lag-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PulteGroup, Inc. Reports Decline In Q3 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/pultegroup-inc-reports-decline-q3-bottom-line",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Countdown to PulteGroup (PHM) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+     "url": "https://www.nasdaq.com/articles/countdown-pultegroup-phm-q3-earnings-look-estimates-beyond-revenue-and-eps",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PulteGroup, Inc. (PHM) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/pultegroup-inc-phm-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000041/phm-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000038/phm-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000034/phm-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000026/phm-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000021/phm-20260422.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-20",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000110465926018162/tm266926d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2025-10-28",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[풀티 그룹 (NYS:PHM)] 단기 실적 부진 전망 속 중장기 모멘텀과 낮은 밸류에이션",
+     "summary": "- 회사의 FY3Q25 실적 컨센서스를 상회했음에도 실적 발표 당시 주가 보합 기록- 향후 몇 개 분기 동안 실적 악화는 지속될 것으로 전망- 중장기 모멘텀은 유지될 것으로 전망, 수익성 대비 밸류에이션은 낮다고 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxexmeximclcimgcgxecgi.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Friday's big stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/09/10/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Oracle, AeroVironment, Micron & more",
+   "url": "https://www.cnbc.com/2026/09/10/stocks-making-the-biggest-moves-midday-orcl-avav-aeo-mu-m.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Yields are driving the stock market right now. These are the stocks with the most at stake",
+   "url": "https://www.cnbc.com/2026/08/19/yields-are-driving-the-stock-market-right-now-these-are-the-stocks-with-the-most-at-stake.html",
+   "date": "2026-08-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/07/21/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Property Play: Scenes from a major housing conference the day after the Fed raised rates",
+   "url": "https://www.cnbc.com/video/2026/09/22/property-play-housing-conference-fed.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "PulteGroup CEO Ryan Marshall: Rising mortgage rates not an 'unovercomable' headwind",
+   "url": "https://www.cnbc.com/video/2026/09/17/pultegroup-ceo-ryan-marshall-rising-mortgage-rates-not-an-unovercomable-headwind.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "PulteGroup CEO Ryan Marshall: It's a pretty good housing market right now",
+   "url": "https://www.cnbc.com/video/2026/07/28/pultegroup-ceo-ryan-marshall-its-a-pretty-good-housing-market-right-now.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with PulteGroup CEO Ryan Marshall",
+   "url": "https://www.cnbc.com/video/2026/07/28/watch-cnbcs-full-interview-with-pultegroup-ceo-ryan-marshall.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PHM",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 12.2,
+  "pbr": 1.72,
+  "eps": 9.79,
+  "bps": 69.34,
+  "shares": 187453000,
+  "marketCapM": 22397,
+  "high52": 143.5677,
+  "high52Date": "2026-02-17",
+  "low52": 107.155,
+  "low52Date": "2026-10-14",
+  "last": 119.48,
+  "prevClose": 112.89,
+  "nameKo": "풀티 그룹",
+  "nameEn": "PULTE GROUP INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 187453000
+ },
+ "estimates": {
+  "ticker": "PHM",
+  "url": "https://finance.yahoo.com/quote/PHM/analysis/",
+  "fetchedAt": "2026-10-23",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 3.17,
+    "epsLow": 2.88,
+    "epsHigh": 3.32,
+    "epsYearAgo": 2.56,
+    "epsAnalysts": 13,
+    "epsGrowth": 23.6,
+    "epsCur": "USD",
+    "rev": 4771470310,
+    "revAnalysts": 14,
+    "revYearAgo": 4610748000,
+    "revGrowth": 3.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2,
+    "epsLow": 1.63,
+    "epsHigh": 2.22,
+    "epsYearAgo": 1.79,
+    "epsAnalysts": 6,
+    "epsGrowth": 11.6,
+    "epsCur": "USD",
+    "rev": 3511295920,
+    "revAnalysts": 7,
+    "revYearAgo": 3408572000,
+    "revGrowth": 3,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 10.04,
+    "epsLow": 9.73,
+    "epsHigh": 10.3,
+    "epsYearAgo": 11.12,
+    "epsAnalysts": 14,
+    "epsGrowth": -9.7,
+    "epsCur": "USD",
+    "rev": 16318124790,
+    "revAnalysts": 14,
+    "revYearAgo": 17311953000,
+    "revGrowth": -5.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 10.85,
+    "epsLow": 8.99,
+    "epsHigh": 11.9,
+    "epsYearAgo": 10.04,
+    "epsAnalysts": 14,
+    "epsGrowth": 8,
+    "epsCur": "USD",
+    "rev": 16793530350,
+    "revAnalysts": 15,
+    "revYearAgo": 16318124790,
+    "revGrowth": 2.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.17,
+    "d7": -0.8,
+    "d30": -3.3,
+    "d90": 2.3,
+    "ago90": 3.09,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2,
+    "d7": 0.2,
+    "d30": -1.3,
+    "d90": 3.1,
+    "ago90": 1.94,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 10.04,
+    "d7": -0.2,
+    "d30": -1.1,
+    "d90": 0.2,
+    "ago90": 10.02,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 10.85,
+    "d7": -1.1,
+    "d30": -3.3,
+    "d90": -2.4,
+    "ago90": 11.11,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 5
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.53,
+    "estimate": 2.62,
+    "surprisePct": -3.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.48,
+    "estimate": 2.36,
+    "surprisePct": 5.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.79,
+    "estimate": 1.81,
+    "surprisePct": -1.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.56,
+    "estimate": 2.83,
+    "surprisePct": -9.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 0,
+   "ptLowered": 6,
+   "total": 9,
+   "recent": [
+    {
+     "date": "2026-10-15",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 122,
+     "ptPrior": 134
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 111,
+     "ptPrior": 116
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 110,
+     "ptPrior": 124
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Morgan Stanley",
+     "action": "init",
+     "from": null,
+     "to": "Equal-Weight",
+     "ptAction": "Announces",
+     "pt": 128,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 154,
+     "ptPrior": 162
+    },
+    {
+     "date": "2026-09-16",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 136,
+     "ptPrior": 145
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 145,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-09-04",
+     "firm": "StoneX",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 148,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "Wolfe Research",
+     "action": "up",
+     "from": "Peer Perform",
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 129,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-22",
+  "numbers": {
+   "price": 119.48,
+   "ma20": 114.77,
+   "ma50": 120.41,
+   "ma150": 122.19,
+   "distMA50": -0.77,
+   "periodHigh": 144.5,
+   "pullbackFromHigh": -17.31,
+   "volRatio20": 1.78,
+   "dryUpRatio": 1.25
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 110.54,
+    "h": 113.78,
+    "l": 110.54,
+    "c": 113.53,
+    "v": 2324700,
+    "clsPos": 92,
+    "gapPct": -1.59
+   },
+   {
+    "d": "2026-10-09",
+    "o": 112.64,
+    "h": 112.99,
+    "l": 111.17,
+    "c": 112.12,
+    "v": 1160700,
+    "clsPos": 52,
+    "gapPct": -0.78
+   },
+   {
+    "d": "2026-10-12",
+    "o": 111.68,
+    "h": 112.55,
+    "l": 110.94,
+    "c": 111.14,
+    "v": 1582800,
+    "clsPos": 12,
+    "gapPct": -0.39
+   },
+   {
+    "d": "2026-10-13",
+    "o": 112.58,
+    "h": 113.52,
+    "l": 111.14,
+    "c": 111.58,
+    "v": 1784800,
+    "clsPos": 18,
+    "gapPct": 1.3
+   },
+   {
+    "d": "2026-10-14",
+    "o": 109.62,
+    "h": 109.99,
+    "l": 107.16,
+    "c": 109.35,
+    "v": 2206700,
+    "clsPos": 77,
+    "gapPct": -1.76
+   },
+   {
+    "d": "2026-10-15",
+    "o": 112.08,
+    "h": 113.99,
+    "l": 111.32,
+    "c": 112.99,
+    "v": 2151400,
+    "clsPos": 63,
+    "gapPct": 2.5
+   },
+   {
+    "d": "2026-10-16",
+    "o": 113.54,
+    "h": 115.37,
+    "l": 112.4,
+    "c": 113.55,
+    "v": 2160700,
+    "clsPos": 39,
+    "gapPct": 0.49
+   },
+   {
+    "d": "2026-10-19",
+    "o": 113.6,
+    "h": 113.73,
+    "l": 110.75,
+    "c": 110.9,
+    "v": 1860200,
+    "clsPos": 5,
+    "gapPct": 0.04
+   },
+   {
+    "d": "2026-10-20",
+    "o": 112.39,
+    "h": 114.72,
+    "l": 111.56,
+    "c": 114.53,
+    "v": 2357700,
+    "clsPos": 94,
+    "gapPct": 1.34
+   },
+   {
+    "d": "2026-10-22",
+    "o": 111.05,
+    "h": 119.73,
+    "l": 109.46,
+    "c": 119.48,
+    "v": 3391960,
+    "clsPos": 98,
+    "gapPct": -3.04
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PHM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PHM-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 3일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

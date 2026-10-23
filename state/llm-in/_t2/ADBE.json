@@ -1,0 +1,300 @@
+{
+ "ticker": "ADBE",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "어도비",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.94,
+  "saleNy": 9.14,
+  "epsCy": 16.89,
+  "epsNy": 12.39,
+  "est": {
+   "cyCur": 24.47602,
+   "cy30": 24.38866,
+   "nyCur": 27.50756,
+   "ny30": 27.53217
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.69,
+    11.97,
+    10.49
+   ],
+   "ni": [
+    1.24,
+    4.31,
+    10.28
+   ],
+   "opm": [
+    33.82,
+    37.79,
+    36.5
+   ],
+   "updated": "2026-09-08 07:22:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "어도비",
+  "nameEn": "ADOBE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000796343&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-28",
+     "derived": false,
+     "revenue": 6760000000,
+     "profit": 2354000000,
+     "netIncome": 1827000000,
+     "margin": 34.8,
+     "yoy": {
+      "revenue": 12.9,
+      "profit": 8.3,
+      "netIncome": 3.1,
+      "priorEnd": "2025-08-29"
+     }
+    },
+    {
+     "periodEnd": "2026-05-29",
+     "derived": false,
+     "revenue": 6618000000,
+     "profit": 2238000000,
+     "netIncome": 1712000000,
+     "margin": 33.8,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 6.1,
+      "netIncome": 1.2,
+      "priorEnd": "2025-05-30"
+     }
+    },
+    {
+     "periodEnd": "2026-02-27",
+     "derived": false,
+     "revenue": 6398000000,
+     "profit": 2418000000,
+     "netIncome": 1889000000,
+     "margin": 37.8,
+     "yoy": {
+      "revenue": 12,
+      "profit": 11.8,
+      "netIncome": 4.3,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-28",
+     "derived": true,
+     "revenue": 6194000000,
+     "profit": 2261000000,
+     "netIncome": 1856000000,
+     "margin": 36.5,
+     "yoy": {
+      "revenue": 10.5,
+      "profit": 15.5,
+      "netIncome": 10.3,
+      "priorEnd": "2024-11-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Should Value Investors Buy Adobe (ADBE) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-adobe-adbe-stock",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Adobe Systems (ADBE) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-adobe-systems-adbe-top-value-stock-long-term-0",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Adobe Inc. (ADBE) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/adobe-inc-adbe-attracting-investor-attention-here-what-you-should-know-1",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Adobe Systems (ADBE) Registers a Bigger Fall Than the Market: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/adobe-systems-adbe-registers-bigger-fall-market-important-facts-note",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Adobe And NVIDIA Partner For AI-powered Content Creation",
+     "url": "https://www.nasdaq.com/articles/adobe-and-nvidia-partner-ai-powered-content-creation",
+     "date": "2026-10-15",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000144/adbe-20260902.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-17",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000120/adbe-20260714.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbe-20260608.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-21",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000101/adbe-20260415.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000048/adbe-20260309.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-12",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[어도비 (NAS:ADBE)] 포기의 대가",
+     "summary": "- 어도비는 문서 프로그램, 디지털 콘텐츠, 마케팅 소프트웨어 부문 선도 기업- 실적은 컨센을 상회했으나 무료 전환 전략에 따른 ARR 목표 하향으로 주가 하락- 무료 사용자의 유료 전환 성과가 확인되는 FY27 전까지는 보수적 의견을 유지",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlegkzxegixggigcgxecgi.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "U.S. suspends Microsoft, Adobe from green card labor program in worker crackdown",
+   "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+   "date": "2026-10-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer calls an aroued",
+   "url": "https://www.cnbc.com/investingclub/2026/09/11/jim-cramer-calls-an-ai-data-center-stock-a-buy-offers-a-level-to-buy-a-household-name.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jay Woods says two semi stocks may signal market's path forward",
+   "url": "https://www.cnbc.com/2026/09/08/jay-woods-says-two-semi-stocks-may-signal-markets-path-forward.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A Labor Day gas record, Amazon's jet crash and more: Morning Squawk",
+   "url": "https://www.cnbc.com/2026/09/08/5-things-to-know-before-the-market-opens-tuesday.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Calls of the Day: Adobe, eBay and Regeneron",
+   "url": "https://www.cnbc.com/video/2026/10/12/calls-of-the-day-adobe-ebay-and-regeneron.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Monday, October 12, 2026: Cramer recommends buying shares of this investment banking giant",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/12/monday-october-12-2026-cramer-recommends-buying-shares-of-this-investment-banking-giant.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ADBE",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 15.09,
+  "pbr": 8.99,
+  "eps": 17.93,
+  "bps": 30.09,
+  "shares": 389200000,
+  "marketCapM": 105298,
+  "high52": 363.7,
+  "high52Date": "2025-10-28",
+  "low52": 190.12,
+  "low52Date": "2026-06-18",
+  "last": 270.55,
+  "prevClose": 255.06,
+  "nameKo": "어도비",
+  "nameEn": "ADOBE INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 389200000
+ }
+}

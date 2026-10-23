@@ -1,0 +1,294 @@
+{
+ "ticker": "ACN",
+ "sector": "Technology",
+ "industry": "Information Technology Services",
+ "nameKo": "액센추어",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.38,
+  "saleNy": 5.08,
+  "epsCy": 4.96,
+  "epsNy": 8.35,
+  "est": {
+   "cyCur": 14.66269,
+   "cy30": 14.65692,
+   "nyCur": 15.88639,
+   "ny30": 15.77292
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.59,
+    8.31,
+    5.95
+   ],
+   "ni": [
+    6.44,
+    2.08,
+    -2.95
+   ],
+   "opm": [
+    16.96,
+    13.82,
+    15.33
+   ],
+   "updated": "2026-09-08 07:11:42"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-15",
+   "m3": "2026-10-22",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 6,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467373&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-31",
+     "derived": false,
+     "revenue": 18718144000,
+     "profit": 3175298000,
+     "netIncome": 2338989000,
+     "margin": 17,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 6.5,
+      "netIncome": 6.4,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 18044066000,
+     "profit": 2493547000,
+     "netIncome": 1825239000,
+     "margin": 13.8,
+     "yoy": {
+      "revenue": 8.3,
+      "profit": 11.1,
+      "netIncome": 2.1,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 18742125000,
+     "profit": 2873698000,
+     "netIncome": 2211561000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 6,
+      "profit": -2.5,
+      "netIncome": -3,
+      "priorEnd": "2024-11-30"
+     }
+    },
+    {
+     "periodEnd": "2025-08-31",
+     "derived": false,
+     "revenue": 17596260000,
+     "profit": 2049691000,
+     "netIncome": 1413963000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": 7.3,
+      "profit": -12.9,
+      "netIncome": -16.1,
+      "priorEnd": "2024-08-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Zacks Investment Ideas feature highlights: Accenture, Hasbro and MSCI",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-accenture-hasbro-and-msci",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
+     "url": "https://www.nasdaq.com/articles/accentures-8b-acquisition-push-growth-catalyst-acn-stock",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here is What to Know Beyond Why Accenture PLC (ACN) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-accenture-plc-acn-trending-stock",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture Targets Faster Growth as AI Reinvention Strategy Takes Center Stage",
+     "url": "https://www.nasdaq.com/articles/accenture-targets-faster-growth-ai-reinvention-strategy-takes-center-stage",
+     "date": "2026-10-14",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000042/acn-20261014.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000119312526300813/d181172d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000035/acn-20260623.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000031/acn-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000019/acn-20260422.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-23",
+     "broker": "LS증권",
+     "analyst": "선유진",
+     "title": "[액센추어 (NYS:ACN)] 중동 리스크에 수요 둔화 우려 부각",
+     "summary": "- 글로벌 최대 컨설팅 및 IT서비스 기업- FY 3Q26: 수요 둔화 우려 부각- 국내 IT서비스 기업에 대한 시사점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgexmeiilgmlxgcgxecgi.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: Accenture, Synopsys, United Therapeutics, Vicor and more",
+   "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Accenture stock rallies after earnings beat expectations",
+   "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Despite the market volatility, one tech name is showing bullish signs. How to trade it",
+   "url": "https://www.cnbc.com/2026/07/14/despite-the-market-volatility-one-tech-name-is-showing-bullish-signs-how-to-trade-it.html",
+   "date": "2026-07-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Boost portfolio income in 2026's second half with these cheap dividend payers",
+   "url": "https://www.cnbc.com/2026/06/26/boost-income-in-the-second-half-of-2026-with-these-cheap-dividend-payers.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "News Update – Market Close",
+   "url": "https://www.cnbc.com/video/2026/10/01/post-market-wrap-october-1-2026.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Accenture CEO Julie Sweet",
+   "url": "https://www.cnbc.com/video/2026/10/01/watch-cnbcs-full-interview-with-accenture-ceo-julie-sweet.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ACN",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 19.07,
+  "pbr": 4.88,
+  "eps": 13.57,
+  "bps": 52.98,
+  "shares": 590737000,
+  "marketCapM": 152847,
+  "high52": 282.9431,
+  "high52Date": "2026-01-14",
+  "low52": 115.8172,
+  "low52Date": "2026-06-22",
+  "last": 258.74,
+  "prevClose": 240.26,
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 590737000
+ }
+}

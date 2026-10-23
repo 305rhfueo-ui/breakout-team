@@ -1,0 +1,812 @@
+{
+ "ticker": "PG",
+ "date": "2026-10-23",
+ "session": "2026-10-22",
+ "source": "list",
+ "plan": {
+  "ticker": "PG",
+  "name": "프록터 앤드 갬블",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
+  "price": 165.59,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 1.67,
+  "extensionAdr": 3.33,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18609596637714942,
+    "pct": 89.404869251578
+   },
+   "m3": {
+    "v": 0.06770406258051821,
+    "pct": 83.00270513976555
+   },
+   "m6": {
+    "v": 0.08565449278377413,
+    "pct": 65.96032461677187
+   }
+  },
+  "ret1m": 13.67,
+  "ret3m": 13.34,
+  "ret6m": 13.29,
+  "marketCap": "384.90B",
+  "volx": 2.41,
+  "volSurgeWk": 1.84,
+  "high52": 99.24,
+  "newHigh52": false,
+  "adr": 1.61,
+  "div50": 11.86,
+  "div200": 12.51,
+  "targetStatus": false,
+  "saleCy": 2.1,
+  "saleNy": 3.03,
+  "epsCy": 1.25,
+  "epsNy": 5.95,
+  "cyTrend": -0.05,
+  "nyTrend": -0.11,
+  "est": {
+   "cyCur": 6.97603,
+   "cy30": 6.97974,
+   "nyCur": 7.39145,
+   "ny30": 7.3998
+  },
+  "fs": {
+   "sale": [
+    1.5,
+    7.38,
+    1.49
+   ],
+   "ni": [
+    -17.18,
+    4.32,
+    -6.72
+   ],
+   "opm": [
+    18.62,
+    21.55,
+    24.16
+   ],
+   "updated": "2026-09-21 07:01:32"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "프록터 앤드 갬블",
+  "nameEn": "PROCTER & GAMBLE CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 23276000000,
+     "profit": 5937000000,
+     "netIncome": 4731000000,
+     "margin": 25.5,
+     "yoy": {
+      "revenue": 4,
+      "profit": 1.4,
+      "netIncome": -0.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 21204000000,
+     "profit": 3950000000,
+     "netIncome": 3044000000,
+     "margin": 18.6,
+     "yoy": {
+      "revenue": 1.5,
+      "profit": -9.3,
+      "netIncome": -15.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 21235000000,
+     "profit": 4576000000,
+     "netIncome": 3932000000,
+     "margin": 21.5,
+     "yoy": {
+      "revenue": 7.4,
+      "profit": 0.4,
+      "netIncome": 4.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 22208000000,
+     "profit": 5366000000,
+     "netIncome": 4319000000,
+     "margin": 24.2,
+     "yoy": {
+      "revenue": 1.5,
+      "profit": -6.5,
+      "netIncome": -6.7,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "The Procter & Gamble Company Reports Q1 FY 2027 Results",
+     "url": "https://www.nasdaq.com/articles/procter-gamble-company-reports-q1-fy-2027-results",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "P&G (PG) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/pg-pg-q1-2027-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "The Procter & Gamble Company Reports Fiscal Year 2027 First Quarter Net Sales of $23.3 billion",
+     "url": "https://www.nasdaq.com/articles/procter-gamble-company-reports-fiscal-year-2027-first-quarter-net-sales-233-billion",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "P&G (PG) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/pg-pg-q1-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Procter & Gamble Boosts FY27 All-in-sales Growth Outlook; Stock Up 3.3% - Update",
+     "url": "https://www.nasdaq.com/articles/procter-gamble-boosts-fy27-all-sales-growth-outlook-stock-33-update",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "The Procter & Gamble Q1 27 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/procter-gamble-q1-27-earnings-conference-call-8-30-am-et",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "The Procter & Gamble Company Q1 Sales Increase",
+     "url": "https://www.nasdaq.com/articles/procter-gamble-company-q1-sales-increase",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Procter & Gamble (PG) Q1 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/procter-gamble-pg-q1-earnings-and-revenues-beat-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000252/pg-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000250/pg-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-16",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000245/pg-20261016.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000214/pg-20261013.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000097/pg-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000094/pg-20260729.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-10-22",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Review] 주당순이익 6.2% 상회, 물량 주도 성장 전환, 투자의견 매수 상향",
+     "summary": "- 유기적 +4%, 11개 분기 감속 궤적에서 이탈- 코어 EPS 2.00달러로 컨센 6.2% 상회- 원가 역풍 주당 0.79달러 확대, 마진 -80bp",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekleilzzllgcgxecgi.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-10-13",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Preview] 연간 유기 성장률 1~3% 가이던스 유지 여부, 투자의견 중립 유지",
+     "summary": "- 프록터 앤 갬블은 10 월 22 일에 2027 회계연도 1 분기 실적을 내놓는다. 타이드, 팬틴, 질레트, SK-II 를 거느린 세계 최대 생활용품 회사다. 이번 분기가 특별한 이유는 하나다. 회사가 직전 실적 발표에서 1 분기 코어 주당순이익이 전년 대비 5% 이상 줄어들 수 있다고 미리 알렸기 때문이다. 전년 동기 코어 주당순이익은 1.99 달러였다. 즉 시장은 좋은 숫자를 기대하는 게 아니라, 예고된 역성장이 얼마나 깊은지를 확인하려 모여 있다.- 팩트셋에 집계된 시장 평균 전망(컨센서스)은 주당순이익 1.43 달러, 매출 212.0 억 달러다. 우리 하우스가 7 월에 제시한 예상 범위는 주당순이익 1.85~1.95 달러, 매출 212.0~220.0 억 달러였다. 매출 눈높이는 거의 겹치지만 이익 쪽은 시장이 우리보다 훨씬 보수적으로 잡고 있다. 구조조정 잔여 비용과 회계 기준 차이가 섞인 결과로 보이지만, 그만큼 이익 기대치의 하방 완충이 두껍다는 뜻도 된다. 원자재·에너지·물류 부담이 연간 10 억 달러 규모로 예고된 만큼, 이 중 얼마가 1 분기에 몰렸는지가 숫자의 위치를 가른다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmelkliqkixikxgcgxecgi.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 프리미엄 웰니스 브랜드 Thorne 인수 발표 - 정체된 Health Care 카테고리의 프리미엄화 시도",
+     "summary": "- P&G, 프리미엄 웰니스 브랜드 Thorne 인수 발표- 금액·조건 미공개, Health Care 부진 만회 포석- FY27 가이던스 영향은 세부조건 공개 이후 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxecgi.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-04-28",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[프록터 앤드 갬블 (NYS:PG)] 마진 하락, 비용 상승 지속 예상",
+     "summary": "- 프록터앤갬블의 FY 3Q26 매출액은 212.4억 달러(YoY +7.4%), 조정 EPS는 1.59 달러(YoY +3.2%)로 각각 컨센서스를 3.6%, 1.9% 상회했 다. 모든 지역 및 사업부에서 본업 매출이 전년 동기 대비 성장했다.- 영업이익은 47.2억 달러(YoY +3.6%), 영업이익률은 21.5%(YoY - 1.5%p)였다. 영업이익에 구조조정 비용 1.4억 달러가 포함되는데, 이 영향을 제거한 핵심(Core) 영업이익률은 22.2%(YoY -0.8%p)다- 잉여현금흐름은 30.3억 달러(YoY +6.3%)를 기록했다. 분기 배당금으 로 25억 달러, 자사주 매입으로 6억 달러를 지출했다. 4월에 분기 배당 금을 3% 인상했다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqiiczxqlxqlegcgxecgi.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2025-10-27",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[프록터 앤드 갬블 (NYS:PG)] Earnings Flash",
+     "summary": "- 매출액 223.9억 달러(YoY +3%), 조정 EPS 1.99 달러(YoY +3.1%)로 각각 예상치 0.9%, 5.9% 상회- 1분기 38억 달러를 주주에게 환원. 25.5억 달러의 배당금 지급 및 12.5억 달러의 자사주 매입- 실적 양호했으나, 최근 방어 업종 강세로 차익실현 매물 출회. 일거래량 월간 최고치를 기록하며 0.2% 상승 마감",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxezkxmqcmxcqcgcgxecgi.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "PG-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-22",
+   "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Review] 주당순이익 6.2% 상회, 물량 주도 성장 전환, 투자의견 매수 상향",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekleilzzllgcgxecgi.pdf",
+   "pages": "10"
+  },
+  {
+   "file": "PG-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-05",
+   "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 프리미엄 웰니스 브랜드 Thorne 인수 발표 - 정체된 Health Care 카테고리의 프리미엄화 시도",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxecgi.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: P&G, Southwest, TTM Technologies & more",
+   "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-midday-pg-lrcx-bx-luv-ttmi-.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+   "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Earnings Playbook: Meta, General Motors and more reporting this week",
+   "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html",
+   "date": "2026-10-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Alphabet, AMD, Lennar, P&G and more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This household goods stock has lagged the market. Evercore ISI sees a comeback",
+   "url": "https://www.cnbc.com/2026/10/06/this-household-goods-stock-has-lagged-the-broader-market-evercore-isi-sees-a-comeback.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Why more companies are fighting over beauty, health and wellness spending",
+   "url": "https://www.cnbc.com/2026/09/18/beauty-health-wellness-consumer-spending.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Texas Pacific Land Corporation",
+   "url": "https://www.cnbc.com/2026/09/10/cramers-lightning-round-buy-texas-pacific-land-corporation.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Big lessons from 12 stock exits, including Cramer's biggest-ever disappointment",
+   "url": "https://www.cnbc.com/investingclub/2026/09/03/big-lessons-from-12-stock-exits-including-cramers-biggest-ever-disappointment-.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "PG",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 25.01,
+  "pbr": 7.22,
+  "eps": 6.62,
+  "bps": 22.95,
+  "shares": 2322670000,
+  "marketCapM": 384611,
+  "high52": 166.85,
+  "high52Date": "2026-10-22",
+  "low52": 134.6247,
+  "low52Date": "2026-01-07",
+  "last": 165.59,
+  "prevClose": 156.84,
+  "nameKo": "프록터 앤드 갬블",
+  "nameEn": "PROCTER & GAMBLE CO",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 2322670000
+ },
+ "estimates": {
+  "ticker": "PG",
+  "url": "https://finance.yahoo.com/quote/PG/analysis/",
+  "fetchedAt": "2026-10-23",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.88,
+    "epsLow": 1.81,
+    "epsHigh": 1.93,
+    "epsYearAgo": 1.88,
+    "epsAnalysts": 19,
+    "epsGrowth": 0.1,
+    "epsCur": "USD",
+    "rev": 22724887300,
+    "revAnalysts": 14,
+    "revYearAgo": 22208000000,
+    "revGrowth": 2.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.65,
+    "epsLow": 1.6,
+    "epsHigh": 1.7,
+    "epsYearAgo": 1.59,
+    "epsAnalysts": 19,
+    "epsGrowth": 3.9,
+    "epsCur": "USD",
+    "rev": 21563737340,
+    "revAnalysts": 14,
+    "revYearAgo": 21235000000,
+    "revGrowth": 1.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "eps": 6.98,
+    "epsLow": 6.9,
+    "epsHigh": 7.05,
+    "epsYearAgo": 6.89,
+    "epsAnalysts": 24,
+    "epsGrowth": 1.3,
+    "epsCur": "USD",
+    "rev": 88861321070,
+    "revAnalysts": 22,
+    "revYearAgo": 87032000000,
+    "revGrowth": 2.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "eps": 7.39,
+    "epsLow": 7.1,
+    "epsHigh": 7.55,
+    "epsYearAgo": 6.98,
+    "epsAnalysts": 24,
+    "epsGrowth": 5.9,
+    "epsCur": "USD",
+    "rev": 91553836440,
+    "revAnalysts": 22,
+    "revYearAgo": 88861321070,
+    "revGrowth": 3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.88,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0,
+    "ago90": 1.88,
+    "up7": 2,
+    "up30": 3,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.65,
+    "d7": -0.2,
+    "d30": -0.3,
+    "d90": 0.6,
+    "ago90": 1.64,
+    "up7": 2,
+    "up30": 3,
+    "down7": 4,
+    "down30": 4
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "cur": "USD",
+    "now": 6.98,
+    "d7": 0,
+    "d30": -0.1,
+    "d90": -0.8,
+    "ago90": 7.04,
+    "up7": 2,
+    "up30": 3,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "cur": "USD",
+    "now": 7.39,
+    "d7": -0.1,
+    "d30": -0.1,
+    "d90": -0.3,
+    "ago90": 7.42,
+    "up7": 1,
+    "up30": 2,
+    "down7": 3,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2,
+    "estimate": 1.89,
+    "surprisePct": 5.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.43,
+    "estimate": 1.41,
+    "surprisePct": 1.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.59,
+    "estimate": 1.56,
+    "surprisePct": 2.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.88,
+    "estimate": 1.86,
+    "surprisePct": 1.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 2,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 3,
+   "total": 8,
+   "recent": [
+    {
+     "date": "2026-10-20",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 166,
+     "ptPrior": 166
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 180,
+     "ptPrior": 170
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Evercore ISI Group",
+     "action": "up",
+     "from": "In-Line",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 166,
+     "ptPrior": 161
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 166,
+     "ptPrior": 167
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Maintains",
+     "pt": 150,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Argus Research",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-07-30",
+     "firm": "HSBC",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 149,
+     "ptPrior": 182
+    },
+    {
+     "date": "2026-07-30",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 170,
+     "ptPrior": 181
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-22",
+  "numbers": {
+   "price": 165.59,
+   "ma20": 151.46,
+   "ma50": 147.78,
+   "ma150": 146.61,
+   "distMA50": 12.05,
+   "periodHigh": 180.43,
+   "pullbackFromHigh": -8.22,
+   "volRatio20": 2.27,
+   "dryUpRatio": 1.48
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 147.74,
+    "h": 150.76,
+    "l": 147.05,
+    "c": 150.59,
+    "v": 12047500,
+    "clsPos": 95,
+    "gapPct": -0.05
+   },
+   {
+    "d": "2026-10-09",
+    "o": 150.57,
+    "h": 151.6,
+    "l": 149.92,
+    "c": 151.23,
+    "v": 6307600,
+    "clsPos": 78,
+    "gapPct": -0.01
+   },
+   {
+    "d": "2026-10-12",
+    "o": 151.25,
+    "h": 153.25,
+    "l": 150.95,
+    "c": 153.2,
+    "v": 6220300,
+    "clsPos": 98,
+    "gapPct": 0.01
+   },
+   {
+    "d": "2026-10-13",
+    "o": 154.51,
+    "h": 154.75,
+    "l": 152.22,
+    "c": 153.04,
+    "v": 6038000,
+    "clsPos": 32,
+    "gapPct": 0.86
+   },
+   {
+    "d": "2026-10-14",
+    "o": 154.64,
+    "h": 156.63,
+    "l": 154.29,
+    "c": 156.53,
+    "v": 10668100,
+    "clsPos": 96,
+    "gapPct": 1.05
+   },
+   {
+    "d": "2026-10-15",
+    "o": 158.33,
+    "h": 159.95,
+    "l": 156.79,
+    "c": 157.08,
+    "v": 16414000,
+    "clsPos": 9,
+    "gapPct": 1.15
+   },
+   {
+    "d": "2026-10-16",
+    "o": 157.75,
+    "h": 159.98,
+    "l": 157.56,
+    "c": 159.35,
+    "v": 13532400,
+    "clsPos": 74,
+    "gapPct": 0.43
+   },
+   {
+    "d": "2026-10-19",
+    "o": 157.87,
+    "h": 158.49,
+    "l": 157.01,
+    "c": 157.69,
+    "v": 10091100,
+    "clsPos": 46,
+    "gapPct": -0.93
+   },
+   {
+    "d": "2026-10-20",
+    "o": 158.7,
+    "h": 159.47,
+    "l": 158.06,
+    "c": 159.32,
+    "v": 9746200,
+    "clsPos": 89,
+    "gapPct": 0.64
+   },
+   {
+    "d": "2026-10-22",
+    "o": 162.14,
+    "h": 166.85,
+    "l": 161.78,
+    "c": 165.59,
+    "v": 22020950,
+    "clsPos": 75,
+    "gapPct": 1.77
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PG-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 3일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

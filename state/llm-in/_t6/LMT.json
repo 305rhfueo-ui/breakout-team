@@ -1,0 +1,847 @@
+{
+ "ticker": "LMT",
+ "date": "2026-10-23",
+ "session": "2026-10-22",
+ "source": "list",
+ "plan": {
+  "ticker": "LMT",
+  "name": "록히드 마틴",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "price": 589.91,
+  "grade": "C",
+  "state": "post",
+  "pivot": 569.96,
+  "stop": 559.06,
+  "distToPivotPct": 3.5,
+  "distToPivotAdr": 1.64,
+  "riskPerSharePct": 1.91,
+  "adrPct": 2.14,
+  "extensionAdr": 4.53,
+  "breakDate": "2026-10-22",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 12.8,
+   "priorMovePct": 17,
+   "higherLows": 0,
+   "contraction": 1.34,
+   "closeRange10Adr": 4.8,
+   "surf10": 2.3,
+   "surf20": 2.76,
+   "slope20": 0.36,
+   "baseLow": 497,
+   "lastSwingLow": 497
+  },
+  "reasons": [
+   "✗ 선행 상승 +17%",
+   "베이스 8주",
+   "깊이 12.8%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.34배 · 10일 종가폭 4.8 ADR",
+   "✗ 10일선 +2.3 ADR · 20일선 +2.8 ADR",
+   "20일선 기울기 +0.36%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.17585381446215778,
+    "pct": 87.15058611361587
+   },
+   "m3": {
+    "v": -0.022903069585956046,
+    "pct": 63.615870153291254
+   },
+   "m6": {
+    "v": 0.1179178989103466,
+    "pct": 71.00991884580704
+   }
+  },
+  "ret1m": 12.64,
+  "ret3m": 4.28,
+  "ret6m": 16.51,
+  "marketCap": "136.15B",
+  "volx": 2.62,
+  "volSurgeWk": 2.01,
+  "high52": 86.34,
+  "newHigh52": false,
+  "adr": 2.14,
+  "div50": 9.43,
+  "div200": 5.26,
+  "targetStatus": false,
+  "saleCy": 7.93,
+  "saleNy": 5.72,
+  "epsCy": 41.64,
+  "epsNy": 7.56,
+  "cyTrend": -0.14,
+  "nyTrend": -0.05,
+  "est": {
+   "cyCur": 30.43857,
+   "cy30": 30.48053,
+   "nyCur": 32.73828,
+   "ny30": 32.75615
+  },
+  "fs": {
+   "sale": [
+    10.51,
+    0.32,
+    9.12
+   ],
+   "ni": [
+    436.84,
+    -13.08,
+    155.03
+   ],
+   "opm": [
+    12.36,
+    11.45,
+    11.47
+   ],
+   "updated": "2026-09-08 07:56:35"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "록히드 마틴",
+  "nameEn": "LOCKHEED MARTIN CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936468&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-27",
+     "derived": false,
+     "revenue": 20711000000,
+     "profit": 2443000000,
+     "netIncome": 1845000000,
+     "margin": 11.8,
+     "yoy": {
+      "revenue": 11.3,
+      "profit": 7.1,
+      "netIncome": 14,
+      "priorEnd": "2025-09-28"
+     }
+    },
+    {
+     "periodEnd": "2026-06-28",
+     "derived": false,
+     "revenue": 20063000000,
+     "profit": 2479000000,
+     "netIncome": 1836000000,
+     "margin": 12.4,
+     "yoy": {
+      "revenue": 10.5,
+      "profit": 231.4,
+      "netIncome": 436.8,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-29",
+     "derived": false,
+     "revenue": 18021000000,
+     "profit": 2063000000,
+     "netIncome": 1488000000,
+     "margin": 11.4,
+     "yoy": {
+      "revenue": 0.3,
+      "profit": -13,
+      "netIncome": -13.1,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 20321000000,
+     "profit": 2331000000,
+     "netIncome": 1344000000,
+     "margin": 11.5,
+     "yoy": {
+      "revenue": 9.1,
+      "profit": 234.9,
+      "netIncome": 155,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Lockheed Martin Stock Soared Today",
+     "url": "https://www.nasdaq.com/articles/why-lockheed-martin-stock-soared-today",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Lockheed Martin (LMT) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/lockheed-martin-lmt-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Lockheed Martin Corporation Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/lockheed-martin-corporation-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Compared to Estimates, Lockheed (LMT) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-lockheed-lmt-q3-earnings-look-key-metrics",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Lockheed Martin Boosts FY26 Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/lockheed-martin-boosts-fy26-outlook-update",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Lockheed Martin And U.S. Department Of War Reach Framework Deal For 850 F-35 Jets",
+     "url": "https://www.nasdaq.com/articles/lockheed-martin-and-us-department-war-reach-framework-deal-850-f-35-jets",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Lockheed Martin (LMT) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/lockheed-martin-lmt-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Lockheed Martin Corp. Reports Advance In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/lockheed-martin-corp-reports-advance-q3-profit",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/lmt-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-28",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/d177255d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049277/lmt-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/936468/000093646826000011/lmt-20260512.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026026683/lmt-20260423.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026003970/lmt-20260129.htm"
+   }
+  ],
+  "krReports": {
+   "total": 15,
+   "reports": [
+    {
+     "date": "2026-10-22",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[록히드 마틴 (NYS:LMT)] [3Q26 Review] 주당순이익 컨센서스 7.3% 상회와 가이던스 재상향, 투자의견 매수 유지",
+     "summary": "- 매출 207억·EPS 7.97달러, 8분기 최고치- 가이던스 2분기 연속 상향, 상향분은 현금 중심- F-35 Lot 20 자금 공백·마진 정체가 상쇄 요인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekqzliellqgcgxecgi.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 美 국무부, 사우디 F-35 243억 달러 판매 승인",
+     "summary": "- 美 국무부, 사우디향 F-35 243억달러 판매 승인- 정식 계약 전 대외군사판매(FMS) 승인 단계- 사상 최대 수주잔고 2,300억달러에 해외 파이프라인 추가",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlxizecexxqgcgxecgi.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 국방부와 AIM-260 증산 프레임워크 체결 - 미사일 성장 스토리에 FMS 확장 축 추가",
+     "summary": "- 국방부, AIM-260 증산·FMS 확대 프레임워크 체결- MFC 미사일 램프 스토리에 신규 축 추가- 밸류에이션 기반영, 추가 재평가 여력 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlximqmixligcgxecgi.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 호주 AIR6500 방공체계 13.2억 호주달러 계약 수주 - 기록적 수주잔고에 더해진 동맹국 방공 수요",
+     "summary": "- 호주 정부, LMT호주에 AIR6500 13.2억호주달러 계약 부여- 기록적 수주잔고 2300억달러에 동맹국 방공수요 추가 확인- 선행PER 18.18배로 개별계약 주가 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmccixgkmqlgcgcgxecgi.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-07",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 스웨덴, HIMARS 포병로켓시스템 구매 확정 - 유럽 방공·포병 수요 확산의 연장선",
+     "summary": "- 스웨덴, 록히드 HIMARS 구매 발표(금액 미공개)- MFC 사업부 유럽 방공 수요 확대 흐름과 일치- 계약 규모·인도 일정 확정이 다음 확인 포인트",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlllicgxkgilgcgcgxecgi.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "iM증권",
+     "analyst": "변용진",
+     "title": "[록히드 마틴 (NYS:LMT)] 전쟁은 빠르고, 증산은 느리다",
+     "summary": "- 록히드마틴은 2Q26 매출액 200.6억달러(+10.5% YoY), 부문 합산 영업이익 21.6억달러(+278.6% YoY, OPM 10.8%)를 기록하며 시장 기대치를 상회했고, 실적 발표 당일(7/23) 주가는 약 +11% 급등 마감했다.- 이에 동사는 2026년 매출액 및 부문 합산 영업이익 가이던스를 상향했다[표2 참고]. 영업활동현금흐름 가이던스는 중간값 93억달러를 유지한 반면 잉여현금흐름은 65~68억달러 → 70~72억달러로 상향했는데, 이는 설비투자(CapEx) 가이던스가 25~28억달러 → 20~24억달러로 하향된 영향이 크다- 앞서 동사의 수주잔고에서 확인되듯 미사일 수요는 빠르게 증가하고 있다. 특히 이란 전쟁은 고강도 분쟁에서 핵심 미사일의 소모 속도가 생산능력을 크게 상회할 수 있음을 보여줬다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgexqmzlzzimgcgxecgi.pdf",
+     "pages": "12"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 국방부, PAC-3 생산 3배·THAAD 생산 4배 7년 계약 체결 - 탄약 램프 스토리의 장기 가시성 확보",
+     "summary": "- 국방부, PAC-3 3배·THAAD 4배 생산 7년 계약 체결- MFC 부문 성장·최고마진 스토리와 같은 축- capex 하향과 탄약설비 투자 재확대 여부 관건",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgkgxiqgqkxxgcgxecgi.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 패트리엇·사드 생산능력 3~4배 확장 합의 - 방공 램프 스토리의 연장선",
+     "summary": "- 국방부, 록히드·노스롭과 패트리엇·사드 생산 확대 기본합의- 사드 4배·패트리엇 3배 목표, 계약 금액은 미공개- MFC 램프·수주잔고 스토리 연장, 재무 반영은 다음 분기 확인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlcczezigexxgcgxecgi.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "LMT-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-22",
+   "title": "[록히드 마틴 (NYS:LMT)] [3Q26 Review] 주당순이익 컨센서스 7.3% 상회와 가이던스 재상향, 투자의견 매수 유지",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekqzliellqgcgxecgi.pdf",
+   "pages": "10"
+  },
+  {
+   "file": "LMT-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-09-17",
+   "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 국방부와 AIM-260 증산 프레임워크 체결 - 미사일 성장 스토리에 FMS 확장 축 추가",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlximqmixligcgxecgi.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: P&G, Southwest, TTM Technologies & more",
+   "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-midday-pg-lrcx-bx-luv-ttmi-.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Chinese authorities reportedly in possession of F-35 components in Hong Kong",
+   "url": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html",
+   "date": "2026-09-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "U.S. advances $24 billion F-35 deal to Saudi Arabia as Houthis escalate attacks",
+   "url": "https://www.cnbc.com/2026/09/18/trump-saudi-arabia-f-35-houthis-iran-war.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tuesday's top analyst calls: Nvidia, SpaceX, Apple, Shake Shack, Lockheed Martin",
+   "url": "https://www.cnbc.com/2026/09/08/big-tuesday-wall-street-analyst-calls-include-nvidia-spacex-airbnb.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Peloton, Roivant Sciences, Boston Scientific",
+   "url": "https://www.cnbc.com/2026/09/08/stocks-making-the-biggest-moves-premarket-pton-roiv-bsx.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lockheed Martin beats on top and bottom lines in Q3",
+   "url": "https://www.cnbc.com/video/2026/10/22/lockheed-martin-beats-on-top-and-bottom-lines-in-q3.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC’s Morgan Brennan speaks with defense leaders from Lockheed Martin, GM Defense, and Hadrian",
+   "url": "https://www.cnbc.com/video/2026/10/15/cnbcs-morgan-brennan-speaks-with-defense-leaders-from-lockheed-martin-gm-defense-and-hadrian.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full report with Lockheed Martin CEO and Pentagon officials",
+   "url": "https://www.cnbc.com/video/2026/10/15/watch-cnbcs-full-report-with-lockheed-martin-ceo-and-pentagon-officials.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "LMT",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 21.74,
+  "pbr": 15.47,
+  "eps": 27.13,
+  "bps": 38.12,
+  "shares": 230791000,
+  "marketCapM": 136146,
+  "high52": 683.2732,
+  "high52Date": "2026-03-02",
+  "low52": 429.4722,
+  "low52Date": "2025-12-02",
+  "last": 589.91,
+  "prevClose": 551.51,
+  "nameKo": "록히드 마틴",
+  "nameEn": "LOCKHEED MARTIN CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 230791000
+ },
+ "estimates": {
+  "ticker": "LMT",
+  "url": "https://finance.yahoo.com/quote/LMT/analysis/",
+  "fetchedAt": "2026-10-23",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 8.56,
+    "epsLow": 8.32,
+    "epsHigh": 8.82,
+    "epsYearAgo": 5.8,
+    "epsAnalysts": 11,
+    "epsGrowth": 47.6,
+    "epsCur": "USD",
+    "rev": 22481054470,
+    "revAnalysts": 17,
+    "revYearAgo": 20321000000,
+    "revGrowth": 10.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 7.24,
+    "epsLow": 6.7,
+    "epsHigh": 7.85,
+    "epsYearAgo": 6.44,
+    "epsAnalysts": 8,
+    "epsGrowth": 12.4,
+    "epsCur": "USD",
+    "rev": 19298781180,
+    "revAnalysts": 8,
+    "revYearAgo": 18021000000,
+    "revGrowth": 7.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 30.44,
+    "epsLow": 30.25,
+    "epsHigh": 30.7,
+    "epsYearAgo": 21.49,
+    "epsAnalysts": 14,
+    "epsGrowth": 41.6,
+    "epsCur": "USD",
+    "rev": 81000259110,
+    "revAnalysts": 21,
+    "revYearAgo": 75048000000,
+    "revGrowth": 7.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 32.74,
+    "epsLow": 30.66,
+    "epsHigh": 35.02,
+    "epsYearAgo": 30.44,
+    "epsAnalysts": 19,
+    "epsGrowth": 7.6,
+    "epsCur": "USD",
+    "rev": 85630509510,
+    "revAnalysts": 20,
+    "revYearAgo": 81000259110,
+    "revGrowth": 5.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 8.56,
+    "d7": 0.2,
+    "d30": -0.3,
+    "d90": 0,
+    "ago90": 8.56,
+    "up7": 2,
+    "up30": 3,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 7.24,
+    "d7": -0.2,
+    "d30": 0.2,
+    "d90": 0,
+    "ago90": 7.24,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 30.44,
+    "d7": 0.1,
+    "d30": -0.1,
+    "d90": 0.6,
+    "ago90": 30.25,
+    "up7": 0,
+    "up30": 1,
+    "down7": 3,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 32.74,
+    "d7": 0,
+    "d30": -0.1,
+    "d90": 1,
+    "ago90": 32.41,
+    "up7": 3,
+    "up30": 5,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 7.97,
+    "estimate": 7.52,
+    "surprisePct": 6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 7.94,
+    "estimate": 7.19,
+    "surprisePct": 10.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 6.44,
+    "estimate": 6.69,
+    "surprisePct": -3.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 5.8,
+    "estimate": 5.75,
+    "surprisePct": 0.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 2,
+   "ptLowered": 3,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-10-15",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 550,
+     "ptPrior": 600
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Lowers",
+     "pt": 564,
+     "ptPrior": 629
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 570,
+     "ptPrior": 600
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Barclays",
+     "action": "init",
+     "from": null,
+     "to": "Equal-Weight",
+     "ptAction": "Announces",
+     "pt": 554,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Rothschild & Co",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 650,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "UBS",
+     "action": "up",
+     "from": "Neutral",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 674,
+     "ptPrior": 581
+    },
+    {
+     "date": "2026-08-13",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 691,
+     "ptPrior": 641
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-22",
+  "numbers": {
+   "price": 589.91,
+   "ma20": 521.84,
+   "ma50": 541.12,
+   "ma150": 547.43,
+   "distMA50": 9.02,
+   "periodHigh": 692,
+   "pullbackFromHigh": -14.75,
+   "volRatio20": 2.41,
+   "dryUpRatio": 1.44
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 500.02,
+    "h": 509.08,
+    "l": 497,
+    "c": 507.89,
+    "v": 1111900,
+    "clsPos": 90,
+    "gapPct": 0.16
+   },
+   {
+    "d": "2026-10-09",
+    "o": 505,
+    "h": 511.43,
+    "l": 502.65,
+    "c": 509.59,
+    "v": 805600,
+    "clsPos": 79,
+    "gapPct": -0.57
+   },
+   {
+    "d": "2026-10-12",
+    "o": 513.05,
+    "h": 515.77,
+    "l": 510.75,
+    "c": 511.88,
+    "v": 865300,
+    "clsPos": 23,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-10-13",
+    "o": 513.62,
+    "h": 513.62,
+    "l": 502.17,
+    "c": 504.02,
+    "v": 859800,
+    "clsPos": 16,
+    "gapPct": 0.34
+   },
+   {
+    "d": "2026-10-14",
+    "o": 508.01,
+    "h": 523.08,
+    "l": 508.01,
+    "c": 522.23,
+    "v": 1477100,
+    "clsPos": 94,
+    "gapPct": 0.79
+   },
+   {
+    "d": "2026-10-15",
+    "o": 531,
+    "h": 534.25,
+    "l": 526.07,
+    "c": 532.64,
+    "v": 1428100,
+    "clsPos": 80,
+    "gapPct": 1.68
+   },
+   {
+    "d": "2026-10-16",
+    "o": 539.11,
+    "h": 553.14,
+    "l": 536.69,
+    "c": 552.09,
+    "v": 1600000,
+    "clsPos": 94,
+    "gapPct": 1.21
+   },
+   {
+    "d": "2026-10-19",
+    "o": 540.97,
+    "h": 554.72,
+    "l": 540,
+    "c": 548.23,
+    "v": 1377800,
+    "clsPos": 56,
+    "gapPct": -2.01
+   },
+   {
+    "d": "2026-10-20",
+    "o": 553,
+    "h": 559.48,
+    "l": 545.73,
+    "c": 548.71,
+    "v": 1469900,
+    "clsPos": 22,
+    "gapPct": 0.87
+   },
+   {
+    "d": "2026-10-22",
+    "o": 579.51,
+    "h": 607.99,
+    "l": 577.5,
+    "c": 589.91,
+    "v": 2957699,
+    "clsPos": 41,
+    "gapPct": 5.61
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LMT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LMT-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 3일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

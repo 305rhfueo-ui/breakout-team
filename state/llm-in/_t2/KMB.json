@@ -1,0 +1,279 @@
+{
+ "ticker": "KMB",
+ "sector": "Consumer Defensive",
+ "industry": "Household & Personal Products",
+ "nameKo": "킴벌리클라크",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.95,
+  "saleNy": 2.56,
+  "epsCy": -1.96,
+  "epsNy": 0.31,
+  "est": {
+   "cyCur": 7.38259,
+   "cy30": 7.3908,
+   "nyCur": 7.40582,
+   "ny30": 7.48076
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.62,
+    2.69,
+    24.35
+   ],
+   "ni": [
+    -32.22,
+    17.28,
+    11.63
+   ],
+   "opm": [
+    15.11,
+    18.09,
+    12.43
+   ],
+   "updated": "2026-09-08 10:02:47"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "킴벌리클라크",
+  "nameEn": "KIMBERLY CLARK CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000055785&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 4189000000,
+     "profit": 633000000,
+     "netIncome": 345000000,
+     "margin": 15.1,
+     "yoy": {
+      "revenue": 0.6,
+      "profit": 6.9,
+      "netIncome": -32.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 4163000000,
+     "profit": 753000000,
+     "netIncome": 665000000,
+     "margin": 18.1,
+     "yoy": {
+      "revenue": 2.7,
+      "profit": 19.3,
+      "netIncome": 17.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 4080000000,
+     "profit": 507000000,
+     "netIncome": 499000000,
+     "margin": 12.4,
+     "yoy": {
+      "revenue": -0.6,
+      "profit": 20.7,
+      "netIncome": 11.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 4150000000,
+     "profit": 621000000,
+     "netIncome": 446000000,
+     "margin": 15,
+     "yoy": {
+      "revenue": 0.1,
+      "profit": -39.5,
+      "netIncome": -50.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Kimberly-Clark Confirms FY26 Outlook",
+     "url": "https://www.nasdaq.com/articles/kimberly-clark-confirms-fy26-outlook",
+     "date": "2026-10-15",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "How Kimberly-Clark Navigates Slower Growth Across Consumer Categories?",
+     "url": "https://www.nasdaq.com/articles/how-kimberly-clark-navigates-slower-growth-across-consumer-categories",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Kimberly-Clark's Arbex JV Strengthen Global Personal Care Focus?",
+     "url": "https://www.nasdaq.com/articles/can-kimberly-clarks-arbex-jv-strengthen-global-personal-care-focus",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Kimberly-Clark's Pricing Actions Offset Rising Input Cost Risks?",
+     "url": "https://www.nasdaq.com/articles/can-kimberly-clarks-pricing-actions-offset-rising-input-cost-risks",
+     "date": "2026-09-17",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926117036/tm2627826d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926115960/tm2627599d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926115239/tm2627373d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926112571/tm2626685d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926111354/tm2625576d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/55785/000162828026052113/kmb-20260804.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Kimberly-Clark is having its best week in four years. What is propelling shares higher",
+   "url": "https://www.cnbc.com/investingclub/2026/10/16/kimberly-clark-stock-q3-kenvue-deal-cramer.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
+   "url": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
+   "url": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramer-bucks-all-the-stock-market-negativity-with-3-buy-recommendations.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "We're adding to a consumer staples stock in advance of a big catalyst",
+   "url": "https://www.cnbc.com/investingclub/2026/10/13/were-adding-to-a-consumer-staples-stock-in-advance-of-a-big-catalyst.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday, October 22, 2026: What's driving this tech stock's pullback despite strong AI adoption",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/22/thursday-october-22-2026-whats-driving-this-tech-stock-pullback-strong-ai-adoption.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Friday, October 16, 2026: The Club is bullish on this tech giant's latest product launch",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/16/friday-october-16-2026-the-club-is-bullish-on-this-tech-giants-latest-product-launch.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "KMB",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 19.14,
+  "pbr": 21.34,
+  "eps": 5.87,
+  "bps": 5.26,
+  "shares": 332579000,
+  "marketCapM": 37354,
+  "high52": 117.0956,
+  "high52Date": "2025-10-30",
+  "low52": 90.0868,
+  "low52Date": "2026-04-07",
+  "last": 112.315,
+  "prevClose": 106.64,
+  "nameKo": "킴벌리클라크",
+  "nameEn": "KIMBERLY CLARK CORP",
+  "listedOn": "2025-05-30",
+  "exchange": "나스닥",
+  "listedShares": 332579000
+ }
+}

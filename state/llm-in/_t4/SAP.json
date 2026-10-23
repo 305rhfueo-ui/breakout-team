@@ -8,6 +8,12 @@
    "publisher": "The Motley Fool"
   },
   {
+   "title": "What SAP (SAP) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-sap-sap-said-its-q3-earnings-call",
+   "date": "2026-10-22",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management",
    "url": "https://www.nasdaq.com/articles/sap-acquire-techwolf-strengthen-ai-powered-workforce-management",
    "date": "2026-10-07",
@@ -31,12 +37,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 9.47,
-  "saleNy": 11.71,
-  "epsCy": 11.11,
-  "epsNy": 17.75,
-  "cyTrend": -0.87,
-  "nyTrend": -0.72,
+  "saleCy": 9.75,
+  "saleNy": 11.7,
+  "epsCy": 10.13,
+  "epsNy": 18.44,
+  "cyTrend": -1.95,
+  "nyTrend": -1.21,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

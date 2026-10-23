@@ -1,0 +1,284 @@
+{
+ "ticker": "DHI",
+ "sector": "Consumer Cyclical",
+ "industry": "Residential Construction",
+ "nameKo": "닥터 호턴",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -4.38,
+  "saleNy": 2.86,
+  "epsCy": -9.89,
+  "epsNy": 6.92,
+  "est": {
+   "cyCur": 10.42606,
+   "cy30": 10.41798,
+   "nyCur": 11.14774,
+   "ny30": 11.62352
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    0.02,
+    -2.27,
+    -9.54
+   ],
+   "ni": [
+    -11.68,
+    -20.05,
+    -29.6
+   ],
+   "opm": [
+    12.52,
+    10.58,
+    10.59
+   ],
+   "updated": "2026-09-08 06:46:44"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "닥터 호턴",
+  "nameEn": "DR HORTON INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882184&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 9227100000,
+     "profit": 1226200000,
+     "netIncome": 904900000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 0,
+      "profit": -9.7,
+      "netIncome": -11.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7558100000,
+     "profit": 867400000,
+     "netIncome": 647900000,
+     "margin": 11.5,
+     "yoy": {
+      "revenue": -2.3,
+      "profit": -18.7,
+      "netIncome": -20.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 6886900000,
+     "profit": 798100000,
+     "netIncome": 594800000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": -9.5,
+      "profit": -28.1,
+      "netIncome": -29.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": true,
+     "revenue": 9677800000,
+     "profit": 1204800000,
+     "netIncome": 905300000,
+     "margin": 12.4,
+     "yoy": {
+      "revenue": -3.2,
+      "profit": -29.5,
+      "netIncome": -29.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Analysts Estimate D.R. Horton (DHI) to Report a Decline in Earnings: What to Look Out for",
+     "url": "https://www.nasdaq.com/articles/analysts-estimate-dr-horton-dhi-report-decline-earnings-what-look-out",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "D.R. Horton (DHI) Stock Sinks As Market Gains: Here's Why",
+     "url": "https://www.nasdaq.com/articles/dr-horton-dhi-stock-sinks-market-gains-heres-why-0",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "D.R. Horton (DHI) Stock Sinks As Market Gains: Here's Why",
+     "url": "https://www.nasdaq.com/articles/dr-horton-dhi-stock-sinks-market-gains-heres-why",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000108/dhi-20260915.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000092/dhi-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-12",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000087/dhi-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000062/dhi-20260421.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000053/dhi-20260327.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000007/dhi-20260120.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-01-22",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[닥터 호턴 (NYS:DHI)] 정부 정책과 모기지 금리 하락을 봐야할 차례",
+     "summary": "- 회사의 FY1Q26 실적 컨센서스를 상회했으나, 실적 발표 후 주가 -1.8% 하락- 모기지 금리 하락에도 아직 수요가 회복되지 않으며, 마진에 대한 우려도 지속- 단, 미국 정부의 주택 정책과 모기지 금리 추가 하락에 따른 회복 기대감은 유효",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmciixxecqeizgcgxecgi.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "The Fed is expected to raise rates. There's a bearish trade to be made on this homebuilder",
+   "url": "https://www.cnbc.com/2026/09/16/the-fed-is-expected-to-raise-rates-a-bearish-trade-on-this-homebuilder.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/09/15/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Yields are driving the stock market right now. These are the stocks with the most at stake",
+   "url": "https://www.cnbc.com/2026/08/19/yields-are-driving-the-stock-market-right-now-these-are-the-stocks-with-the-most-at-stake.html",
+   "date": "2026-08-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Moderna, Pilgrim's Pride, Target, gold miners",
+   "url": "https://www.cnbc.com/2026/08/19/stocks-making-the-biggest-moves-midday-mrna-ppc-tgt-gdx.html",
+   "date": "2026-08-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Berkshire boosts Alphabet to a top three holding, lifts Delta and housing bets",
+   "url": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
+   "date": "2026-08-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "DHI",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 14.05,
+  "pbr": 1.74,
+  "eps": 10.51,
+  "bps": 84.85,
+  "shares": 279701000,
+  "marketCapM": 41301,
+  "high52": 170.2776,
+  "high52Date": "2026-06-25",
+  "low52": 130.4,
+  "low52Date": "2026-10-14",
+  "last": 147.66,
+  "prevClose": 138.98,
+  "nameKo": "닥터 호턴",
+  "nameEn": "DR HORTON INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 279701000
+ }
+}

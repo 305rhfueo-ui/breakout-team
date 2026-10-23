@@ -1,0 +1,268 @@
+{
+ "ticker": "PAYX",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "페이첵스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.41,
+  "saleNy": 5.47,
+  "epsCy": 8.18,
+  "epsNy": 7.18,
+  "est": {
+   "cyCur": 5.96074,
+   "cy30": 5.97535,
+   "nyCur": 6.38856,
+   "ny30": 6.39073
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.49,
+    19.87,
+    18.28
+   ],
+   "ni": [
+    41.52,
+    7.9,
+    -4.35
+   ],
+   "opm": [
+    37.66,
+    43.78,
+    36.72
+   ],
+   "updated": "2026-09-07 07:11:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "페이첵스",
+  "nameEn": "PAYCHEX INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723531&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-31",
+     "derived": false,
+     "revenue": 1580700000,
+     "profit": 619200000,
+     "netIncome": 429700000,
+     "margin": 39.2,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 14.3,
+      "netIncome": 12,
+      "priorEnd": "2025-08-31"
+     }
+    },
+    {
+     "periodEnd": "2026-05-31",
+     "derived": true,
+     "revenue": 1553300000,
+     "profit": 604700000,
+     "netIncome": 420500000,
+     "margin": 38.9,
+     "yoy": {
+      "revenue": 12.4,
+      "profit": 40.3,
+      "netIncome": 41.6,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 1752100000,
+     "profit": 792000000,
+     "netIncome": 560300000,
+     "margin": 45.2,
+     "yoy": {
+      "revenue": 19.5,
+      "profit": 14.5,
+      "netIncome": 7.9,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 1503300000,
+     "profit": 571900000,
+     "netIncome": 395400000,
+     "margin": 38,
+     "yoy": {
+      "revenue": 17.4,
+      "profit": 6.3,
+      "netIncome": -4.4,
+      "priorEnd": "2024-11-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Paychex AGM Highlights AI Growth Strategy, Stock Split Debate and Shareholder Votes",
+     "url": "https://www.nasdaq.com/articles/paychex-agm-highlights-ai-growth-strategy-stock-split-debate-and-shareholder-votes",
+     "date": "2026-10-15",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "PAYX Shares Rise 17.7% in Six Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/payx-shares-rise-177-six-months-heres-what-you-should-know",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Paychex Stock Slumped This Week",
+     "url": "https://www.nasdaq.com/articles/why-paychex-stock-slumped-week",
+     "date": "2026-09-25",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Paychex (PAYX) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-paychex-payx-strong-growth-stock-0",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "JP Morgan Upgrades Paychex to Neutral from Underweight",
+     "url": "https://www.nasdaq.com/articles/jp-morgan-upgrades-paychex-neutral-underweight",
+     "date": "2026-09-25",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Paychex Plunges, Providing the Entry Investors Have Been Waiting For",
+     "url": "https://www.nasdaq.com/articles/paychex-plunges-providing-entry-investors-have-been-waiting",
+     "date": "2026-09-24",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Paychex (PAYX) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/paychex-payx-q1-2027-earnings-call-transcript",
+     "date": "2026-09-24",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-16",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000072353126000008/payx-20261015.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-23",
+    "itemsKo": [
+     "실적 발표"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000072353126000004/payx-20260923.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526310277/payx-20260716.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-24",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526280314/payx-20260624.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526122887/payx-20260325.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526021794/payx-20260123.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Paychex CEO John Gibson goes one-on-one with Jim Cramer",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/19/paychex-ceo-john-gibson-goes-one-on-one-with-jim-cramer.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "I see no signs of layoffs or recession, says Paychex CEO",
+   "url": "https://www.cnbc.com/video/2026/06/30/i-see-no-signs-of-layoffs-or-recession-says-paychex-ceo.html",
+   "date": "2026-06-30",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PAYX",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 23.6,
+  "pbr": 11.41,
+  "eps": 5.03,
+  "bps": 10.41,
+  "shares": 355980000,
+  "marketCapM": 42294,
+  "high52": 127.98,
+  "high52Date": "2026-09-01",
+  "low52": 83.4955,
+  "low52Date": "2026-04-10",
+  "last": 118.81,
+  "prevClose": 112.5,
+  "nameKo": "페이첵스",
+  "nameEn": "PAYCHEX INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 355980000
+ }
+}

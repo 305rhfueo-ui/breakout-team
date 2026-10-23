@@ -1,0 +1,789 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "ticker": "GL",
+      "price": 168.41,
+      "category": 1,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.52
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.71
+        }
+      }
+    },
+    {
+      "ticker": "BMI",
+      "price": 149.64,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.53
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.92
+        }
+      }
+    },
+    {
+      "ticker": "SPOT",
+      "price": 583.66,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.44
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.89
+        }
+      }
+    },
+    {
+      "ticker": "POOL",
+      "price": 197.21,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.67
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.97
+        }
+      }
+    },
+    {
+      "ticker": "WCN",
+      "price": 184.88,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.3
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.98
+        }
+      }
+    },
+    {
+      "ticker": "ROP",
+      "price": 436.23,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.45
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.98
+        }
+      }
+    },
+    {
+      "ticker": "APPF",
+      "price": 217.33,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.62
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.84
+        }
+      }
+    },
+    {
+      "ticker": "MEDP",
+      "price": 653.96,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.37
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.81
+        }
+      }
+    },
+    {
+      "ticker": "LOGI",
+      "price": 112.52,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.56
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.58
+        }
+      }
+    },
+    {
+      "ticker": "ROKU",
+      "price": 160.06,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 6,
+          "conf": 0.15
+        },
+        "nimble": {
+          "category": 6,
+          "conf": 0.34
+        }
+      }
+    },
+    {
+      "ticker": "CHKP",
+      "price": 151.98,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.2
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.71
+        }
+      }
+    },
+    {
+      "ticker": "LMT",
+      "price": 589.91,
+      "category": 1,
+      "confidence": "high",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.35
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.88
+        }
+      }
+    },
+    {
+      "ticker": "TW",
+      "price": 121.89,
+      "category": 3,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.29
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.53
+        }
+      }
+    },
+    {
+      "ticker": "NDAQ",
+      "price": 103.3,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.52
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.95
+        }
+      }
+    },
+    {
+      "ticker": "PKG",
+      "price": 248.92,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.66
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.94
+        }
+      }
+    },
+    {
+      "ticker": "MRNA",
+      "price": 202.63,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 2,
+          "conf": 0.25
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.16
+        }
+      }
+    },
+    {
+      "ticker": "PG",
+      "price": 165.59,
+      "category": 1,
+      "confidence": "high",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.71
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.99
+        }
+      }
+    },
+    {
+      "ticker": "MOH",
+      "price": 216.64,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.77
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.93
+        }
+      }
+    },
+    {
+      "ticker": "EGP",
+      "price": 202.7,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.32
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.71
+        }
+      }
+    },
+    {
+      "ticker": "MKTX",
+      "price": 164.66,
+      "category": 5,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.48
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.4
+        }
+      }
+    },
+    {
+      "ticker": "SAP",
+      "price": 240.59,
+      "category": 1,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.25
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.62
+        }
+      }
+    },
+    {
+      "ticker": "HALO",
+      "price": 124.54,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.36
+        },
+        "nimble": {
+          "category": 4,
+          "conf": 0.54
+        }
+      }
+    },
+    {
+      "ticker": "SSNC",
+      "price": 89.54,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.29
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.91
+        }
+      }
+    },
+    {
+      "ticker": "BPOP",
+      "price": 157.64,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.63
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.89
+        }
+      }
+    },
+    {
+      "ticker": "TXN",
+      "price": 279.5,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.59
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.9
+        }
+      }
+    },
+    {
+      "ticker": "ALLE",
+      "price": 176.52,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.48
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.85
+        }
+      }
+    },
+    {
+      "ticker": "UNP",
+      "price": 298.09,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.57
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.88
+        }
+      }
+    },
+    {
+      "ticker": "R",
+      "price": 265.53,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.4
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.91
+        }
+      }
+    },
+    {
+      "ticker": "CNI",
+      "price": 124.93,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.11
+        },
+        "nimble": {
+          "category": 3,
+          "conf": 0.64
+        }
+      }
+    },
+    {
+      "ticker": "SAM",
+      "price": 195.72,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.62
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.86
+        }
+      }
+    },
+    {
+      "ticker": "IBM",
+      "price": 252.11,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.27
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.85
+        }
+      }
+    },
+    {
+      "ticker": "EWBC",
+      "price": 132.65,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.35
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.92
+        }
+      }
+    },
+    {
+      "ticker": "CP",
+      "price": 90.62,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.84
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.41
+        }
+      }
+    },
+    {
+      "ticker": "ULTA",
+      "price": 635.01,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.19
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.84
+        }
+      }
+    },
+    {
+      "ticker": "TRI",
+      "price": 123.26,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 2,
+          "conf": 0.15
+        },
+        "nimble": {
+          "category": 5,
+          "conf": 0.93
+        }
+      }
+    },
+    {
+      "ticker": "MAR",
+      "price": 396.8,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.78
+        },
+        "nimble": {
+          "category": 3,
+          "conf": 0.35
+        }
+      }
+    },
+    {
+      "ticker": "URI",
+      "price": 1111.02,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.64
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.95
+        }
+      }
+    },
+    {
+      "ticker": "ARGX",
+      "price": 875.76,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 2,
+          "conf": 0.47
+        },
+        "nimble": {
+          "category": 6,
+          "conf": 0.41
+        }
+      }
+    },
+    {
+      "ticker": "TYL",
+      "price": 392.45,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.46
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.35
+        }
+      }
+    },
+    {
+      "ticker": "CRAI",
+      "price": 200.94,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.37
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.9
+        }
+      }
+    },
+    {
+      "ticker": "KSPI",
+      "price": 90.53,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.49
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.55
+        }
+      }
+    },
+    {
+      "ticker": "META",
+      "price": 648.85,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.12
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.8
+        }
+      }
+    },
+    {
+      "ticker": "TCBI",
+      "price": 98.78,
+      "category": 1,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.16
+        },
+        "nimble": {
+          "category": 4,
+          "conf": 0.36
+        }
+      }
+    },
+    {
+      "ticker": "AVY",
+      "price": 184.66,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.48
+        },
+        "nimble": {
+          "category": 4,
+          "conf": 0.72
+        }
+      }
+    },
+    {
+      "ticker": "HQY",
+      "price": 100.97,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 2,
+          "conf": 0.08
+        },
+        "nimble": {
+          "category": 4,
+          "conf": 0.72
+        }
+      }
+    },
+    {
+      "ticker": "ITGR",
+      "price": 126.56,
+      "category": 3,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.18
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.82
+        }
+      }
+    },
+    {
+      "ticker": "RRBI",
+      "price": 102.73,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.77
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.51
+        }
+      }
+    },
+    {
+      "ticker": "BNS",
+      "price": 93.41,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.62
+        },
+        "nimble": {
+          "category": 6,
+          "conf": 0.58
+        }
+      }
+    },
+    {
+      "ticker": "CM",
+      "price": 115.03,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.45
+        },
+        "nimble": {
+          "category": 6,
+          "conf": 0.61
+        }
+      }
+    }
+  ]
+}

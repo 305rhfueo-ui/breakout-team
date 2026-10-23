@@ -1,0 +1,216 @@
+{
+ "ticker": "CRAI",
+ "news": [
+  {
+   "title": "CRAI Stock Rises 12.4% in Three Months: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/crai-stock-rises-124-three-months-heres-what-you-should-know",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Advisory Expertise & Specialized Talent Aid CRAI Amid Stiff Rivalry",
+   "url": "https://www.nasdaq.com/articles/advisory-expertise-specialized-talent-aid-crai-amid-stiff-rivalry",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for CRA International (CRAI)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-cra-international-crai",
+   "date": "2026-08-24",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Specialized Advisory Work Benefits CRAI Amid Elevated Leverage",
+   "url": "https://www.nasdaq.com/articles/specialized-advisory-work-benefits-crai-amid-elevated-leverage",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CRA International (CRAI) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/cra-international-crai-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "CRAI Jumps 20% in 3 Months as Demand Broadens Across Key Practices",
+   "url": "https://www.nasdaq.com/articles/crai-jumps-20-3-months-demand-broadens-across-key-practices",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is CRAI Stock Worth Buying as Growth Meets Margin and Leverage Risks?",
+   "url": "https://www.nasdaq.com/articles/crai-stock-worth-buying-growth-meets-margin-and-leverage-risks",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CRA International (CRAI) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/cra-international-crai-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/crai-20260806.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000110465926085804/tm2621034d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000013/crai-20260507.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-02",
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000110465926039161/tm2610933d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000005/crai-20260225.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-30",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370625000028/crai-20251030.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001053706&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-07-04",
+    "derived": false,
+    "revenue": 210815000,
+    "profit": 23541000,
+    "netIncome": 13508000,
+    "margin": 11.2,
+    "yoy": {
+     "revenue": 12.8,
+     "profit": 19.3,
+     "netIncome": 11.4,
+     "priorEnd": "2025-06-28"
+    }
+   },
+   {
+    "periodEnd": "2026-04-04",
+    "derived": false,
+    "revenue": 200975000,
+    "profit": 18032000,
+    "netIncome": 11132000,
+    "margin": 9,
+    "yoy": {
+     "revenue": 10.5,
+     "profit": -29.4,
+     "netIncome": -38.2,
+     "priorEnd": "2025-03-29"
+    }
+   },
+   {
+    "periodEnd": "2026-01-03",
+    "derived": true,
+    "revenue": 196963000,
+    "profit": 20638000,
+    "netIncome": 13203000,
+    "margin": 10.5,
+    "yoy": {
+     "revenue": 11.6,
+     "profit": -3.8,
+     "netIncome": -12.2,
+     "priorEnd": "2024-12-28"
+    }
+   },
+   {
+    "periodEnd": "2025-09-27",
+    "derived": false,
+    "revenue": 185891000,
+    "profit": 17211000,
+    "netIncome": 11473000,
+    "margin": 9.3,
+    "yoy": {
+     "revenue": 10.8,
+     "profit": -6.4,
+     "netIncome": 0.3,
+     "priorEnd": "2024-09-28"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.35,
+  "saleNy": 4.01,
+  "epsCy": 2.92,
+  "epsNy": 12.91,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.81,
+    10.52,
+    11.63
+   ],
+   "ni": [
+    11.46,
+    -38.1,
+    -11.77
+   ],
+   "opm": [
+    11.17,
+    8.97,
+    10.48
+   ],
+   "updated": "2026-09-07 07:38:03"
+  }
+ }
+}

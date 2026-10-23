@@ -1,0 +1,186 @@
+{
+ "ticker": "MEDP",
+ "news": [
+  {
+   "title": "Medpace (MEDP) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-q3-2026-earnings-call-transcript",
+   "date": "2026-10-22",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Medpace (MEDP) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CON vs. MEDP: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/con-vs-medp-which-stock-should-value-investors-buy-now-0",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Medpace (MEDP) Dips More Than Broader Market: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-dips-more-broader-market-what-you-should-know",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Medpace (MEDP) Stock Declines While Market Improves: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-stock-declines-while-market-improves-some-information-investors",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Medpace (MEDP) Rises As Market Takes a Dip: Key Facts",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-rises-market-takes-dip-key-facts",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CON or MEDP: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/con-or-medp-which-better-value-stock-right-now",
+   "date": "2026-09-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Medpace (MEDP) Outperforms Broader Market: What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-outperforms-broader-market-what-you-need-know",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-21",
+   "reportDate": "2026-10-20",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000034/medp-20261020.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000023/medp-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000119312526257387/d162455d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-15",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000119312526230425/d101911d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000017/medp-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-09",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000004/medp-20260209.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.72,
+  "saleNy": 6.33,
+  "epsCy": 15.33,
+  "epsNy": 9.61,
+  "cyTrend": -0.46,
+  "nyTrend": 0.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.24,
+    26.5,
+    32.03
+   ],
+   "ni": [
+    34.46,
+    8.09,
+    15.44
+   ],
+   "opm": [
+    20.76,
+    20.03,
+    21.63
+   ],
+   "updated": "2026-09-08 08:14:02"
+  }
+ }
+}

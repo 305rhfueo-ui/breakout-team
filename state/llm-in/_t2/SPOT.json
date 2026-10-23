@@ -1,0 +1,207 @@
+{
+ "ticker": "SPOT",
+ "sector": "Communication Services",
+ "industry": "Internet Content & Information",
+ "nameKo": "스포티파이 테크놀로지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.62,
+  "saleNy": 14.46,
+  "epsCy": 16.26,
+  "epsNy": 25.37,
+  "est": {
+   "cyCur": 12.21943,
+   "cy30": 12.28403,
+   "nyCur": 15.31983,
+   "ny30": 15.42636
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.69,
+    20.19,
+    16.55
+   ],
+   "ni": [
+    "흑자전환",
+    256,
+    234.29
+   ],
+   "opm": [
+    13.71,
+    15.77,
+    15.34
+   ],
+   "updated": "2026-09-09 06:51:04"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "스포티파이 테크놀로지",
+  "nameEn": "SPOTIFY TECHNOLOGY S.A.",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Spotify Technology S.A. Reports Revenue of 4,969 Million Euros for the Three Months Ended September 30, 2026",
+     "url": "https://www.nasdaq.com/articles/spotify-technology-sa-reports-revenue-4969-million-euros-three-months-ended-september-30",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Why Spotify Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-spotify-stock-popped-today",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Spotify: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/spotify-3-key-takeaways-long-term-investors",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Spotify (SPOT) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/spotify-spot-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Spotify (SPOT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/spotify-spot-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Spotify Technology S.A. Reports Q3 2026 Revenue of €4,969 million",
+     "url": "https://www.nasdaq.com/articles/spotify-technology-sa-reports-q3-2026-revenue-eu4969-million",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Spotify Technology Q3 26 Earnings Conference Call AT 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/spotify-technology-q3-26-earnings-conference-call-8-00-am-et",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Spotify Q3 MAUs Up 11% YoY; Issues Q4 Outlook",
+     "url": "https://www.nasdaq.com/articles/spotify-q3-maus-11-yoy-issues-q4-outlook",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-10-23",
+     "broker": "SK증권",
+     "analyst": "박준형",
+     "title": "[스포티파이 테크놀로지 (NYS:SPOT)] SPOT 3Q26 Review: 숫자보다 질을 선택",
+     "summary": "- Signal: 3분기 실적, 가이던스 대비 소폭 상회- Key: 가격 인상 기반 구독 성장, 광고 반등, 비용 정점 통과- Step: 4분기 MAU 가이던스 달성과 2027년 레이블 재계약 확인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqeccmqgmlicgcgxecgi.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "키움증권",
+     "analyst": "임수진",
+     "title": "[스포티파이 테크놀로지 (NYS:SPOT)] 기대 이상의 프리미엄 구독 모델 효과",
+     "summary": "- 2분기 프리미엄 구독자 수 예상치 상회하며 영업이익 전년 동기 대비 +61% 증가- 3분기 가이던스 예상치 부합, 프리미엄, 광고 모델을 통한 수익성 개선 지속 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmclecxcqgklegcgxecgi.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-04-30",
+     "broker": "키움증권",
+     "analyst": "임수진",
+     "title": "[스포티파이 테크놀로지 (NYS:SPOT)] 일시적인 가이던스 후퇴, 더 높은 도약을 위한 숨 고르기",
+     "summary": "- 1분기 비용 효율화에 성공하며 사상 최대 이익 기록. 유료 가입자 수 2.93억명 달성- 2Q 가이던스 기대치 하회하며 주가 조정세, 하반기 성장 시나리오는 여전히 유효",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzczzqgxligxgcgxecgi.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Thursday's biggest analyst calls: Nvidia, CoreWeave, Walmart, Crocs, CarMax",
+   "url": "https://www.cnbc.com/2026/10/15/thursday-big-wall-street-analyst-calls-like-coreweave.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Charts show Spotify shares could soon break out, Frank Cappelleri says",
+   "url": "https://www.cnbc.com/2026/09/02/charts-show-spotify-shares-could-soon-break-out-frank-cappelleri-says.html",
+   "date": "2026-09-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Monday's biggest analyst calls: SpaceX, Nvidia, Tesla, Applied Materials, Circle, GE Vernova",
+   "url": "https://www.cnbc.com/2026/08/03/mondays-wall-street-analyst-calls-include-spacex.html",
+   "date": "2026-08-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Buy these five stocks ahead of earnings, Bank of America says",
+   "url": "https://www.cnbc.com/2026/07/11/buy-these-five-stocks-ahead-of-earnings-bank-of-america-says.html",
+   "date": "2026-07-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bank of America’s third-quarter top picks include this streamer with 40% upside",
+   "url": "https://www.cnbc.com/2026/07/05/bank-of-americas-top-picks-include-streaming-stock-with-40percent-upside.html",
+   "date": "2026-07-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: Zscaler, ServiceNow and Spotify",
+   "url": "https://www.cnbc.com/video/2026/10/22/final-trades-zscaler-servicenow-and-spotify.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SPOT",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 30.85,
+  "pbr": 12.52,
+  "eps": 18.92,
+  "bps": 46.63,
+  "shares": 205882000,
+  "marketCapM": 120165,
+  "high52": 696.9499,
+  "high52Date": "2025-10-21",
+  "low52": 405,
+  "low52Date": "2026-02-05",
+  "last": 583.66,
+  "prevClose": 525.34,
+  "nameKo": "스포티파이 테크놀로지",
+  "nameEn": "SPOTIFY TECHNOLOGY S.A.",
+  "listedOn": "2018-04-02",
+  "exchange": "뉴욕거래소",
+  "listedShares": 205882000
+ }
+}

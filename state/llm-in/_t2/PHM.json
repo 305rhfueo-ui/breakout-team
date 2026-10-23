@@ -1,0 +1,314 @@
+{
+ "ticker": "PHM",
+ "sector": "Consumer Cyclical",
+ "industry": "Residential Construction",
+ "nameKo": "풀티 그룹",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -5.74,
+  "saleNy": 2.91,
+  "epsCy": -9.72,
+  "epsNy": 8.04,
+  "est": {
+   "cyCur": 10.03863,
+   "cy30": 10.14806,
+   "nyCur": 10.84582,
+   "ny30": 11.21864
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -9.56,
+    -12.44,
+    -6.32
+   ],
+   "ni": [
+    -22.43,
+    -33.63,
+    -45.07
+   ],
+   "opm": [
+    15.53,
+    13.16,
+    14.19
+   ],
+   "updated": "2026-09-07 06:04:16"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "풀티 그룹",
+  "nameEn": "PULTE GROUP INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000822416&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 3973846000,
+     "profit": null,
+     "netIncome": 475727000,
+     "margin": null,
+     "yoy": {
+      "revenue": -9.8,
+      "profit": null,
+      "netIncome": -18.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3982957000,
+     "profit": null,
+     "netIncome": 472003000,
+     "margin": null,
+     "yoy": {
+      "revenue": -9.6,
+      "profit": null,
+      "netIncome": -22.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3408572000,
+     "profit": null,
+     "netIncome": 346996000,
+     "margin": null,
+     "yoy": {
+      "revenue": -12.4,
+      "profit": null,
+      "netIncome": -33.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 4610748000,
+     "profit": null,
+     "netIncome": 501615000,
+     "margin": null,
+     "yoy": {
+      "revenue": -6.3,
+      "profit": null,
+      "netIncome": -45.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Pulte (PHM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/pulte-phm-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "PulteGroup, Inc. Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/pultegroup-inc-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Compared to Estimates, PulteGroup (PHM) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-pultegroup-phm-q3-earnings-look-key-metrics",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PulteGroup Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/pultegroup-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "PulteGroup (PHM) Q3 Earnings and Revenues Lag Estimates",
+     "url": "https://www.nasdaq.com/articles/pultegroup-phm-q3-earnings-and-revenues-lag-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PulteGroup, Inc. Reports Decline In Q3 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/pultegroup-inc-reports-decline-q3-bottom-line",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Countdown to PulteGroup (PHM) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+     "url": "https://www.nasdaq.com/articles/countdown-pultegroup-phm-q3-earnings-look-estimates-beyond-revenue-and-eps",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PulteGroup, Inc. (PHM) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/pultegroup-inc-phm-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000041/phm-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000038/phm-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000034/phm-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000026/phm-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000021/phm-20260422.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-20",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822416/000110465926018162/tm266926d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2025-10-28",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[풀티 그룹 (NYS:PHM)] 단기 실적 부진 전망 속 중장기 모멘텀과 낮은 밸류에이션",
+     "summary": "- 회사의 FY3Q25 실적 컨센서스를 상회했음에도 실적 발표 당시 주가 보합 기록- 향후 몇 개 분기 동안 실적 악화는 지속될 것으로 전망- 중장기 모멘텀은 유지될 것으로 전망, 수익성 대비 밸류에이션은 낮다고 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxexmeximclcimgcgxecgi.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Friday's big stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/09/10/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Oracle, AeroVironment, Micron & more",
+   "url": "https://www.cnbc.com/2026/09/10/stocks-making-the-biggest-moves-midday-orcl-avav-aeo-mu-m.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Yields are driving the stock market right now. These are the stocks with the most at stake",
+   "url": "https://www.cnbc.com/2026/08/19/yields-are-driving-the-stock-market-right-now-these-are-the-stocks-with-the-most-at-stake.html",
+   "date": "2026-08-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/07/21/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Property Play: Scenes from a major housing conference the day after the Fed raised rates",
+   "url": "https://www.cnbc.com/video/2026/09/22/property-play-housing-conference-fed.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "PulteGroup CEO Ryan Marshall: Rising mortgage rates not an 'unovercomable' headwind",
+   "url": "https://www.cnbc.com/video/2026/09/17/pultegroup-ceo-ryan-marshall-rising-mortgage-rates-not-an-unovercomable-headwind.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PHM",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 12.2,
+  "pbr": 1.72,
+  "eps": 9.79,
+  "bps": 69.34,
+  "shares": 187453000,
+  "marketCapM": 22397,
+  "high52": 143.5677,
+  "high52Date": "2026-02-17",
+  "low52": 107.155,
+  "low52Date": "2026-10-14",
+  "last": 119.48,
+  "prevClose": 112.89,
+  "nameKo": "풀티 그룹",
+  "nameEn": "PULTE GROUP INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 187453000
+ }
+}

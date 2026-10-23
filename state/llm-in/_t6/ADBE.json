@@ -1,0 +1,793 @@
+{
+ "ticker": "ADBE",
+ "date": "2026-10-23",
+ "session": "2026-10-22",
+ "source": "list",
+ "plan": {
+  "ticker": "ADBE",
+  "name": "어도비",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 270.55,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 294.53,
+  "stop": 285.37,
+  "distToPivotPct": -8.14,
+  "distToPivotAdr": -2.4,
+  "riskPerSharePct": 3.11,
+  "adrPct": 3.39,
+  "extensionAdr": 2.57,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 23.7,
+   "priorMovePct": 54.9,
+   "higherLows": 1,
+   "contraction": 1.26,
+   "closeRange10Adr": 3.7,
+   "surf10": 2.57,
+   "surf20": 3.13,
+   "slope20": 0.86,
+   "baseLow": 224.67,
+   "lastSwingLow": 227
+  },
+  "reasons": [
+   "선행 상승 +55%",
+   "베이스 8주",
+   "깊이 23.7%",
+   "저점 상승 1회",
+   "✗ 진폭 1.26배 · 10일 종가폭 3.7 ADR",
+   "✗ 10일선 +2.6 ADR · 20일선 +3.1 ADR",
+   "20일선 기울기 +0.86%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18176654743437454,
+    "pct": 88.2326420198377
+   },
+   "m3": {
+    "v": -0.038669588125219534,
+    "pct": 59.37781785392245
+   },
+   "m6": {
+    "v": 0.031921717944993905,
+    "pct": 56.0414788097385
+   }
+  },
+  "ret1m": 13.23,
+  "ret3m": 2.7,
+  "ret6m": 7.91,
+  "marketCap": "105.30B",
+  "volx": 1.76,
+  "volSurgeWk": 1.63,
+  "high52": 74.39,
+  "newHigh52": false,
+  "adr": 3.33,
+  "div50": 5.72,
+  "div200": 7.1,
+  "targetStatus": false,
+  "saleCy": 11.94,
+  "saleNy": 9.14,
+  "epsCy": 16.89,
+  "epsNy": 12.39,
+  "cyTrend": 0.36,
+  "nyTrend": -0.09,
+  "est": {
+   "cyCur": 24.47602,
+   "cy30": 24.38866,
+   "nyCur": 27.50756,
+   "ny30": 27.53217
+  },
+  "fs": {
+   "sale": [
+    12.69,
+    11.97,
+    10.49
+   ],
+   "ni": [
+    1.24,
+    4.31,
+    10.28
+   ],
+   "opm": [
+    33.82,
+    37.79,
+    36.5
+   ],
+   "updated": "2026-09-08 07:22:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "어도비",
+  "nameEn": "ADOBE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000796343&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-28",
+     "derived": false,
+     "revenue": 6760000000,
+     "profit": 2354000000,
+     "netIncome": 1827000000,
+     "margin": 34.8,
+     "yoy": {
+      "revenue": 12.9,
+      "profit": 8.3,
+      "netIncome": 3.1,
+      "priorEnd": "2025-08-29"
+     }
+    },
+    {
+     "periodEnd": "2026-05-29",
+     "derived": false,
+     "revenue": 6618000000,
+     "profit": 2238000000,
+     "netIncome": 1712000000,
+     "margin": 33.8,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 6.1,
+      "netIncome": 1.2,
+      "priorEnd": "2025-05-30"
+     }
+    },
+    {
+     "periodEnd": "2026-02-27",
+     "derived": false,
+     "revenue": 6398000000,
+     "profit": 2418000000,
+     "netIncome": 1889000000,
+     "margin": 37.8,
+     "yoy": {
+      "revenue": 12,
+      "profit": 11.8,
+      "netIncome": 4.3,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-28",
+     "derived": true,
+     "revenue": 6194000000,
+     "profit": 2261000000,
+     "netIncome": 1856000000,
+     "margin": 36.5,
+     "yoy": {
+      "revenue": 10.5,
+      "profit": 15.5,
+      "netIncome": 10.3,
+      "priorEnd": "2024-11-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Should Value Investors Buy Adobe (ADBE) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-adobe-adbe-stock",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Adobe Systems (ADBE) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-adobe-systems-adbe-top-value-stock-long-term-0",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Adobe Inc. (ADBE) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/adobe-inc-adbe-attracting-investor-attention-here-what-you-should-know-1",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Adobe Systems (ADBE) Registers a Bigger Fall Than the Market: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/adobe-systems-adbe-registers-bigger-fall-market-important-facts-note",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Adobe And NVIDIA Partner For AI-powered Content Creation",
+     "url": "https://www.nasdaq.com/articles/adobe-and-nvidia-partner-ai-powered-content-creation",
+     "date": "2026-10-15",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000144/adbe-20260902.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-17",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000120/adbe-20260714.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbe-20260608.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-21",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000101/adbe-20260415.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000048/adbe-20260309.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-12",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[어도비 (NAS:ADBE)] 포기의 대가",
+     "summary": "- 어도비는 문서 프로그램, 디지털 콘텐츠, 마케팅 소프트웨어 부문 선도 기업- 실적은 컨센을 상회했으나 무료 전환 전략에 따른 ARR 목표 하향으로 주가 하락- 무료 사용자의 유료 전환 성과가 확인되는 FY27 전까지는 보수적 의견을 유지",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlegkzxegixggigcgxecgi.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "ADBE-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-06-12",
+   "title": "[어도비 (NAS:ADBE)] 포기의 대가",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlegkzxegixggigcgxecgi.pdf",
+   "pages": "7"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "U.S. suspends Microsoft, Adobe from green card labor program in worker crackdown",
+   "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+   "date": "2026-10-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer calls an aroued",
+   "url": "https://www.cnbc.com/investingclub/2026/09/11/jim-cramer-calls-an-ai-data-center-stock-a-buy-offers-a-level-to-buy-a-household-name.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jay Woods says two semi stocks may signal market's path forward",
+   "url": "https://www.cnbc.com/2026/09/08/jay-woods-says-two-semi-stocks-may-signal-markets-path-forward.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A Labor Day gas record, Amazon's jet crash and more: Morning Squawk",
+   "url": "https://www.cnbc.com/2026/09/08/5-things-to-know-before-the-market-opens-tuesday.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Calls of the Day: Adobe, eBay and Regeneron",
+   "url": "https://www.cnbc.com/video/2026/10/12/calls-of-the-day-adobe-ebay-and-regeneron.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Monday, October 12, 2026: Cramer recommends buying shares of this investment banking giant",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/12/monday-october-12-2026-cramer-recommends-buying-shares-of-this-investment-banking-giant.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Cramer's Mad Dash: Salesforce and Adobe",
+   "url": "https://www.cnbc.com/video/2026/10/12/cramers-mad-dash-salesforce-and-adobe.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC TechCheck Evening Edition: September 11, 2026",
+   "url": "https://www.cnbc.com/video/2026/09/11/cnbc-techcheck-evening-edition-september-11th-2026.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ADBE",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 15.09,
+  "pbr": 8.99,
+  "eps": 17.93,
+  "bps": 30.09,
+  "shares": 389200000,
+  "marketCapM": 105298,
+  "high52": 363.7,
+  "high52Date": "2025-10-28",
+  "low52": 190.12,
+  "low52Date": "2026-06-18",
+  "last": 270.55,
+  "prevClose": 255.06,
+  "nameKo": "어도비",
+  "nameEn": "ADOBE INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 389200000
+ },
+ "estimates": {
+  "ticker": "ADBE",
+  "url": "https://finance.yahoo.com/quote/ADBE/analysis/",
+  "fetchedAt": "2026-10-23",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "eps": 6.33,
+    "epsLow": 6.27,
+    "epsHigh": 6.44,
+    "epsYearAgo": 5.5,
+    "epsAnalysts": 29,
+    "epsGrowth": 15.1,
+    "epsCur": "USD",
+    "rev": 6830578620,
+    "revAnalysts": 27,
+    "revYearAgo": 6194000000,
+    "revGrowth": 10.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "eps": 6.75,
+    "epsLow": 6.28,
+    "epsHigh": 7.32,
+    "epsYearAgo": 6.06,
+    "epsAnalysts": 26,
+    "epsGrowth": 11.4,
+    "epsCur": "USD",
+    "rev": 7043585340,
+    "revAnalysts": 22,
+    "revYearAgo": 6398000000,
+    "revGrowth": 10.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-11-30",
+    "eps": 24.48,
+    "epsLow": 24.43,
+    "epsHigh": 24.6,
+    "epsYearAgo": 20.94,
+    "epsAnalysts": 35,
+    "epsGrowth": 16.9,
+    "epsCur": "USD",
+    "rev": 26606977610,
+    "revAnalysts": 34,
+    "revYearAgo": 23769000000,
+    "revGrowth": 11.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-11-30",
+    "eps": 27.51,
+    "epsLow": 22.67,
+    "epsHigh": 29.19,
+    "epsYearAgo": 24.48,
+    "epsAnalysts": 37,
+    "epsGrowth": 12.4,
+    "epsCur": "USD",
+    "rev": 29037582970,
+    "revAnalysts": 35,
+    "revYearAgo": 26606977610,
+    "revGrowth": 9.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "cur": "USD",
+    "now": 6.33,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0.2,
+    "ago90": 6.32,
+    "up7": 17,
+    "up30": 17,
+    "down7": 5,
+    "down30": 5
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "cur": "USD",
+    "now": 6.75,
+    "d7": -0.2,
+    "d30": -0.2,
+    "d90": 0.2,
+    "ago90": 6.73,
+    "up7": 11,
+    "up30": 11,
+    "down7": 12,
+    "down30": 12
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-11-30",
+    "cur": "USD",
+    "now": 24.48,
+    "d7": 0.3,
+    "d30": 0.4,
+    "d90": 0.6,
+    "ago90": 24.33,
+    "up7": 27,
+    "up30": 27,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-11-30",
+    "cur": "USD",
+    "now": 27.51,
+    "d7": -0.1,
+    "d30": -0.1,
+    "d90": 0.5,
+    "ago90": 27.38,
+    "up7": 21,
+    "up30": 21,
+    "down7": 10,
+    "down30": 10
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-08-31",
+    "actual": 6.13,
+    "estimate": 6.09,
+    "surprisePct": 0.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-05-31",
+    "actual": 5.96,
+    "estimate": 5.81,
+    "surprisePct": 2.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-02-28",
+    "actual": 6.06,
+    "estimate": 5.87,
+    "surprisePct": 3.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-11-30",
+    "actual": 5.5,
+    "estimate": 5.4,
+    "surprisePct": 1.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 2,
+   "initiations": 0,
+   "ptRaised": 13,
+   "ptLowered": 5,
+   "total": 22,
+   "recent": [
+    {
+     "date": "2026-10-13",
+     "firm": "HSBC",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 267,
+     "ptPrior": 310
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Wells Fargo",
+     "action": "down",
+     "from": "Overweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 225,
+     "ptPrior": 270
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 290,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 301
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 315,
+     "ptPrior": 340
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 275,
+     "ptPrior": 285
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Maintains",
+     "pt": 245,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "In-Line",
+     "to": "In-Line",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 270,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 255,
+     "ptPrior": 225
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-09",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-22",
+  "numbers": {
+   "price": 270.55,
+   "ma20": 241.84,
+   "ma50": 255.99,
+   "ma150": 243.65,
+   "distMA50": 5.69,
+   "periodHigh": 557.9,
+   "pullbackFromHigh": -51.51,
+   "volRatio20": 1.57,
+   "dryUpRatio": 1.13
+  },
+  "last10": [
+   {
+    "d": "2026-10-08",
+    "o": 232.82,
+    "h": 241.19,
+    "l": 231.07,
+    "c": 241.05,
+    "v": 5802200,
+    "clsPos": 99,
+    "gapPct": 0.02
+   },
+   {
+    "d": "2026-10-09",
+    "o": 240,
+    "h": 245.16,
+    "l": 240,
+    "c": 242.27,
+    "v": 3889700,
+    "clsPos": 44,
+    "gapPct": -0.44
+   },
+   {
+    "d": "2026-10-12",
+    "o": 234.63,
+    "h": 242.46,
+    "l": 232.85,
+    "c": 238.14,
+    "v": 4527800,
+    "clsPos": 55,
+    "gapPct": -3.15
+   },
+   {
+    "d": "2026-10-13",
+    "o": 236.28,
+    "h": 241.47,
+    "l": 235.19,
+    "c": 236.28,
+    "v": 3709600,
+    "clsPos": 17,
+    "gapPct": -0.78
+   },
+   {
+    "d": "2026-10-14",
+    "o": 235.9,
+    "h": 241.25,
+    "l": 235.9,
+    "c": 240.68,
+    "v": 3475300,
+    "clsPos": 89,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-10-15",
+    "o": 243.74,
+    "h": 254.32,
+    "l": 243.44,
+    "c": 251.67,
+    "v": 6611900,
+    "clsPos": 76,
+    "gapPct": 1.27
+   },
+   {
+    "d": "2026-10-16",
+    "o": 254.34,
+    "h": 256.51,
+    "l": 243.94,
+    "c": 245.2,
+    "v": 3917100,
+    "clsPos": 10,
+    "gapPct": 1.06
+   },
+   {
+    "d": "2026-10-19",
+    "o": 241.84,
+    "h": 247.63,
+    "l": 241.51,
+    "c": 247.09,
+    "v": 2924300,
+    "clsPos": 91,
+    "gapPct": -1.37
+   },
+   {
+    "d": "2026-10-20",
+    "o": 249.83,
+    "h": 256.78,
+    "l": 248.5,
+    "c": 256.73,
+    "v": 4405100,
+    "clsPos": 99,
+    "gapPct": 1.11
+   },
+   {
+    "d": "2026-10-22",
+    "o": 258.65,
+    "h": 272.1,
+    "l": 256.7,
+    "c": 270.55,
+    "v": 6847646,
+    "clsPos": 90,
+    "gapPct": 0.75
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ADBE-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ADBE-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 3일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

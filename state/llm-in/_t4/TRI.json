@@ -1,0 +1,46 @@
+{
+ "ticker": "TRI",
+ "news": [
+  {
+   "title": "Thomson Reuters' AI Push Gains Steam: Is TRI Poised for Growth?",
+   "url": "https://www.nasdaq.com/articles/thomson-reuters-ai-push-gains-steam-tri-poised-growth",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.33,
+  "saleNy": 8.79,
+  "epsCy": 4.26,
+  "epsNy": 18.86,
+  "cyTrend": -6.31,
+  "nyTrend": -2.77,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.47,
+    9.84,
+    5.24
+   ],
+   "ni": [
+    43.13,
+    5.76,
+    -43.37
+   ],
+   "opm": [
+    28.56,
+    30.62,
+    26.88
+   ],
+   "updated": "2026-09-07 07:58:24"
+  }
+ }
+}

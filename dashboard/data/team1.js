@@ -642,8 +642,308 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-23",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "메타, AI 지출로 현금 마르며 7% 급락",
+        "easy": "메타 주가가 하루에 7% 가까이 내렸다. 3분기 실적에서 AI 투자 지출이 늘어 잉여현금흐름(영업으로 번 돈에서 설비투자를 뺀 현금)이 마이너스로 돌아섰기 때문이다. AI에 돈을 쓰면 곧 이익이 커진다는 기대가 흔들렸다. 투자자는 이제 실적보다 지출 규모를 먼저 본다.",
+        "whyMatters": "AI 설비에 큰돈을 쓰는 인터넷·소프트웨어 업종에 부담이고, 데이터센터 장비를 파는 반도체·전력설비 쪽에도 발주 축소 걱정이 옮겨붙는다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Meta stock sinks nearly 7% as AI spend pushes free cash flow negative",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
+            "date": "2026-10-22",
+            "quote": "Meta stock sinks nearly 7% as AI spend pushes free cash flow negative",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "10년 국채금리 5% 아래로 떨어졌다",
+        "easy": "10년 만기 미국 국채 금리가 5% 아래로 내려가 약 한 달 만에 가장 낮아졌다. 하루 낙폭은 2023년 은행 위기 이후 가장 컸다. 위험을 피한 돈이 국채로 몰렸다는 뜻이고, 그렇게 몰린 구체적인 이유는 기사에 안 나왔다. 금리가 내려가면 빚이 많은 기업과 미래 이익이 큰 성장주의 부담은 줄어든다.",
+        "whyMatters": "금리에 민감한 주택건설·부동산·유틸리티와 배당주에는 유리하고, 예금과 대출의 금리 차이로 버는 은행 업종에는 불리하다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here's what's going on.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+            "date": "2026-10-22",
+            "quote": "Treasury yields log biggest drop since the 2023 banking crisis. Here's what's going on.",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html",
+            "date": "2026-10-22",
+            "quote": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "마이크론 등 반도체주가 하루 만에 급락했다",
+        "easy": "마이크론을 비롯한 반도체 종목이 목요일에 크게 내렸다. 기사는 세 가지 이유가 겹쳤다고 전하지만 그 내용은 기사에 안 나왔다. 반도체가 포함된 기술은 선정 종목의 절반 가까이를 차지하는 주도 업종이다. 그래서 반도체 하루 낙폭은 지수 전체 분위기를 끌어내린다.",
+        "whyMatters": "메모리와 반도체 장비 업종에 직접 부담이고, AI 서버를 조립해 파는 하드웨어 업종의 주문 전망도 같이 의심받는다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
+            "date": "2026-10-22",
+            "quote": "3 big reasons Micron and other chip stocks fell hard on Thursday",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "SK하이닉스가 솔리다임 상장을 접었다",
+        "easy": "SK하이닉스가 자회사 솔리다임의 기업공개(IPO, 주식시장에 새로 상장하는 일) 계획을 철회했다. 발표 뒤 SK하이닉스 주가는 내렸다. 철회 이유는 기사에 안 나왔다. 메모리 회사가 투자금 회수 계획을 미룬 것이라 메모리 수요 전망을 다시 따져 보게 된다.",
+        "whyMatters": "메모리 반도체와 AI 서버 저장장치 공급망에 부담이고, 신규 상장이 식었다는 신호여서 상장 주관으로 버는 증권 업종에도 좋지 않다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+            "date": "2026-10-23",
+            "quote": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "모더나, 암 백신 자료 유출로 급락했다",
+        "easy": "모더나 주가가 크게 빠졌다. 개발 중인 암 백신의 임상 자료가 공식 발표 전에 밖으로 새어 나갔기 때문이다. 결과 자체는 긍정적이었는데도 주가는 내렸다. 발표 순서가 깨졌다는 점이 좋은 결과보다 먼저 주가에 반영됐다.",
+        "whyMatters": "바이오·제약 업종의 임상 재료 기대가 한풀 꺾일 수 있고, 헬스케어는 지금 두 번째 주도 업종이어서 주도주 흐름이 끊기는지 봐야 한다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+            "date": "2026-10-22",
+            "quote": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "유가가 유조선 운임 급등에 전쟁 고점에 근접했다",
+        "easy": "국제 유가가 이란 전쟁 당시 고점 근처까지 올라왔다. 유조선 운임이 치솟아 원유를 실어 오는 비용이 크게 늘었기 때문이다. 공급 자체보다 운송 병목이 가격을 밀어 올린 두 번째 압박이다. 기름값이 오르면 물가가 다시 들썩여 금리 인하 기대가 약해질 수 있다.",
+        "whyMatters": "정유·에너지와 해운 업종에는 유리하고, 기름을 많이 쓰는 항공·운송과 소비재 업종에는 불리하다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+            "date": "2026-10-22",
+            "quote": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기보다 기다릴 때다. QQQ 종가 704.47 은 20일선과 50일선 아래에 있고, 10일선이 20일선 밑으로 내려간 지 3일째여서 짧은 흐름이 꺾였다. 오늘 뉴스는 AI 투자비 부담과 반도체 약세가 겹쳐 주도 업종이 먼저 흔들리는 모양새다. 빚내서 산 주식이 1년 전보다 31.4% 늘어 주의선을 넘었으니, 조정이 시작되면 낙폭이 평소보다 커질 수 있다. 이번 주는 10일선이 20일선을 다시 위로 넘는지, 반도체가 하루 낙폭을 되돌리는지를 보면 된다.",
+    "keyRisks": [
+      "AI 설비투자 부담: 메타처럼 지출이 현금을 깎는 사례가 늘면 AI 관련 주도주가 함께 밀린다.",
+      "빚으로 산 물량: 신용으로 산 주식이 많으면 하락 초반에 강제 매도가 나와 낙폭이 커진다.",
+      "주도 업종 쏠림: 선정 종목의 48%가 기술, 28%가 헬스케어다. 두 업종이 같이 흔들리면 분산 효과가 없다.",
+      "유가·운임 상승: 기름값이 더 오르면 물가가 다시 올라 금리 인하 기대가 뒤로 밀린다."
+    ],
+    "easySummary": [
+      "QQQ 는 짧은 흐름이 꺾인 상태라 새로 사기보다 기다릴 자리다.",
+      "메타의 AI 지출 부담과 반도체 급락으로 주도 업종이 먼저 흔들렸다.",
+      "국채금리는 5% 아래로 내려왔지만 유가와 신용 과열은 여전히 부담이다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 209,
+      "ok": 352,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 12,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm"
+        }
+      ],
+      "numberCut": 25,
+      "numberCuts": [
+        {
+          "sentence": "주가는 52주 고점(298달러)보다 약 34% 낮아, 이번 반등이 추세 전환인지는 아직 불확실하다.",
+          "missing": [
+            "34"
+          ]
+        },
+        {
+          "sentence": "매출 증가율이 1년 전 14%대에서 8~11%대로 낮아져 성장 속도는 느려졌다.",
+          "missing": [
+            "8",
+            "11"
+          ]
+        },
+        {
+          "sentence": "주가수익비율(PER)은 23.6배다.",
+          "missing": [
+            "23.6"
+          ]
+        },
+        {
+          "sentence": "매출은 1년 전보다 11.3% 늘었다.",
+          "missing": [
+            "11.3"
+          ]
+        },
+        {
+          "sentence": "주가가 52주 저점(130.4달러, 10월 14일)에서 147.66달러까지 올라 직전 종가 대비 약 6% 반등했다.",
+          "missing": [
+            "6"
+          ]
+        },
+        {
+          "sentence": "앞선 분기들은 2~10% 감소였다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "오늘 주가는 305달러에서 327달러로 올라 하루 약 7% 상승했다.",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "52주 저점(274달러, 10월 9일)에서는 약 19% 반등한 자리다.",
+          "missing": [
+            "19"
+          ]
+        },
+        {
+          "sentence": "실적 발표 직후 주가가 하루 새 약 5.8% 올랐다(112.89달러 → 119.48달러).",
+          "missing": [
+            "5.8"
+          ]
+        },
+        {
+          "sentence": "10월 1일 실적이 예상을 웃돌자 주가가 하루 20% 넘게 올라 역대 최고의 하루 상승률 수준을 보였다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "6개월 기준으로는 여전히 10% 하락 상태다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "버크셔 해서웨이가 레나 지분을 10%에 가깝게 늘렸다는 소식에 9월 22일 주가가 뛰었다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "주가가 고점(225.98달러) 대비 절반 이하로 내려와 이익의 8.5배 수준이 됐다.",
+          "missing": [
+            "225.98"
+          ]
+        },
+        {
+          "sentence": "실적 발표 당일 주가가 10% 넘게 올랐다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "실적 발표 공시(8-K, 항목 2.02)가 10월 22일 제출됐고, 같은 날 컨퍼런스콜이 진행됐다.",
+          "missing": [
+            "8",
+            "2.02"
+          ]
+        },
+        {
+          "sentence": "SAP가 2026-10-22 3분기 실적 컨퍼런스콜을 열었다.",
+          "missing": [
+            "10",
+            "22"
+          ]
+        },
+        {
+          "sentence": "같은 날 회사가 실적 발표 공시(8-K)를 냈고, 다음 날 3분기 실적 설명회가 열렸습니다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "AI 상위 상품 가격 인상과 함께 100만 달러 이상 대형 거래가 40% 늘었다.",
+          "missing": [
+            "100만 달러"
+          ]
+        },
+        {
+          "sentence": "2025년 4분기는 -0.5%.",
+          "missing": [
+            "0.5"
+          ]
+        },
+        {
+          "sentence": "2025년 4분기 영업이익 -14.2%.",
+          "missing": [
+            "14.2"
+          ]
+        },
+        {
+          "sentence": "Stifel 목표가 175달러, Wells Fargo 165달러로 현재가 197.21달러보다 낮다.",
+          "missing": [
+            "197.21"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 12.4%, 그 전은 19.5% 증가.",
+          "missing": [
+            "12.4",
+            "19.5"
+          ]
+        },
+        {
+          "sentence": "2025년 4분기는 7.1% 감소.",
+          "missing": [
+            "7.1"
+          ]
+        },
+        {
+          "sentence": "2026-10-15 어도비와 엔비디아의 AI 콘텐츠 제작 협업이 보도됐다.",
+          "missing": [
+            "10",
+            "15"
+          ]
+        },
+        {
+          "sentence": "증권사 4곳(Piper Sandler·UBS·TD Cowen·Barclays)이 10월 들어 목표가를 낮췄다.",
+          "missing": [
+            "4"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-23"
   }
 };

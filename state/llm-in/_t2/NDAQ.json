@@ -1,0 +1,306 @@
+{
+ "ticker": "NDAQ",
+ "sector": "Financial Services",
+ "industry": "Financial Data & Stock Exchanges",
+ "nameKo": "나스닥",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.43,
+  "saleNy": 8.41,
+  "epsCy": 18.33,
+  "epsNy": 13.68,
+  "est": {
+   "cyCur": 4.11805,
+   "cy30": 4.13505,
+   "nyCur": 4.68135,
+   "ny30": 4.67942
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    20.51,
+    1.96,
+    3.69
+   ],
+   "ni": [
+    12.17,
+    31.39,
+    45.92
+   ],
+   "opm": [
+    28.12,
+    30.74,
+    29.9
+   ],
+   "updated": "2026-09-08 09:28:40"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-23",
+  "nameKo": "나스닥",
+  "nameEn": "NASDAQ INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001120193&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2393000000,
+     "profit": 732000000,
+     "netIncome": 540000000,
+     "margin": 30.6,
+     "yoy": {
+      "revenue": 20.9,
+      "profit": 24.9,
+      "netIncome": 27.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2532000000,
+     "profit": 712000000,
+     "netIncome": 507000000,
+     "margin": 28.1,
+     "yoy": {
+      "revenue": 20.5,
+      "profit": 25.4,
+      "netIncome": 12.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2137000000,
+     "profit": 657000000,
+     "netIncome": 519000000,
+     "margin": 30.7,
+     "yoy": {
+      "revenue": 2,
+      "profit": 20.1,
+      "netIncome": 31.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2087000000,
+     "profit": 629000000,
+     "netIncome": 518000000,
+     "margin": 30.1,
+     "yoy": {
+      "revenue": 2.8,
+      "profit": 21.7,
+      "netIncome": 45.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Nasdaq (NDAQ) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/nasdaq-ndaq-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Nasdaq, Inc. Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/nasdaq-inc-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Nasdaq Q3 Earnings: Building the Infrastructure for Always-On Markets",
+     "url": "https://www.nasdaq.com/newsroom/nasdaq-q3-earnings-building-infrastructure-always-on-markets",
+     "date": "2026-10-22",
+     "publisher": "Nasdaq Newsroom"
+    },
+    {
+     "title": "Nasdaq (NDAQ) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/nasdaq-ndaq-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Nasdaq Inc. Q3 Income Climbs",
+     "url": "https://www.nasdaq.com/articles/nasdaq-inc-q3-income-climbs",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Nasdaq Q3 26 Earnings Conference Call At 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/nasdaq-q3-26-earnings-conference-call-8-00-am-et",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Unveiling Nasdaq (NDAQ) Q3 Outlook: Wall Street Estimates for Key Metrics",
+     "url": "https://www.nasdaq.com/articles/unveiling-nasdaq-ndaq-q3-outlook-wall-street-estimates-key-metrics",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000017/ndaq-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000011/ndaq-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526292723/d146997d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526272736/d154523d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526171829/d148002d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526028185/d103698d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Tokenization could unleash tens of billions in trapped capital: Nasdaq CEO",
+   "url": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nasdaq invests $100 million in crypto firm, eyes 2027 launch of 'tokenized' stocks",
+   "url": "https://www.cnbc.com/2026/09/10/nasdaq-invests-100-million-in-crypto-firm-eyes-2027-launch-of-tokenized-stocks.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Comcast, Charter, Rocket Lab, Alphabet, Verizon",
+   "url": "https://www.cnbc.com/2026/06/29/stocks-making-the-biggest-moves-midday-mu-cmcsa-rklb-googl-vz.html",
+   "date": "2026-06-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Comcast, SpaceX & more",
+   "url": "https://www.cnbc.com/2026/06/29/stocks-making-the-biggest-moves-premarket-cmcsa-spcx-chtr.html",
+   "date": "2026-06-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nasdaq CEO Adena Friedman on Q3 results, IPO pipeline and tokenization efforts",
+   "url": "https://www.cnbc.com/video/2026/10/22/nasdaq-ceo-adena-friedman-on-q3-results-ipo-pipeline-and-tokenization-efforts.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Nasdaq CEO and Chair Adena Friedman",
+   "url": "https://www.cnbc.com/video/2026/10/22/watch-cnbcs-full-interview-with-nasdaq-ceo-and-chair-adena-friedman.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "NDAQ",
+  "fetchedAt": "2026-10-23",
+  "source": "한국투자증권 Open API",
+  "per": 30.1,
+  "pbr": 4.84,
+  "eps": 3.43,
+  "bps": 21.33,
+  "shares": 558977000,
+  "marketCapM": 57742,
+  "high52": 103.39,
+  "high52Date": "2026-10-22",
+  "low52": 76.2921,
+  "low52Date": "2026-06-30",
+  "last": 103.3,
+  "prevClose": 96.12,
+  "nameKo": "나스닥",
+  "nameEn": "NASDAQ INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 558977000
+ }
+}
