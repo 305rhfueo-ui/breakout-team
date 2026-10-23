@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-23",
+  "count": 33,
+  "tickers": [
+    "MRNA",
+    "KOD",
+    "ACN",
+    "TXG",
+    "TEAM",
+    "AGL",
+    "TTAN",
+    "OKTA",
+    "GRAL",
+    "P",
+    "HNGE",
+    "ECO",
+    "RBRK",
+    "QLYS",
+    "EPAM",
+    "FET",
+    "TWST",
+    "SEZL",
+    "SNOW",
+    "NTRA",
+    "GWRE",
+    "DELL",
+    "MNDY",
+    "UTHR",
+    "CORT",
+    "VEON",
+    "CRWD",
+    "MSTR",
+    "CRL",
+    "ZS",
+    "ESTC",
+    "TEM",
+    "ILMN"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 7,
+      "sharePct": 21.2,
+      "tickers": [
+        "TEAM",
+        "TTAN",
+        "SNOW",
+        "GWRE",
+        "MNDY",
+        "MSTR",
+        "ESTC"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 3,
+        "m3": 3,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 5,
+      "sharePct": 15.2,
+      "tickers": [
+        "OKTA",
+        "RBRK",
+        "QLYS",
+        "CRWD",
+        "ZS"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 0,
+        "m3": 3,
+        "m6": 4
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 5,
+      "sharePct": 15.2,
+      "tickers": [
+        "GRAL",
+        "TWST",
+        "NTRA",
+        "CRL",
+        "ILMN"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 0,
+        "m3": 3,
+        "m6": 4
+      }
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 3,
+      "sharePct": 9.1,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "CORT"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 6.1,
+      "tickers": [
+        "ACN",
+        "EPAM"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 1,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 2,
+      "sharePct": 6.1,
+      "tickers": [
+        "P",
+        "DELL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Health Information Services",
+      "level": "Industry",
+      "name": "Health Information Services",
+      "count": 2,
+      "sharePct": 6.1,
+      "tickers": [
+        "HNGE",
+        "TEM"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 1
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "KOD",
+      "ACN",
+      "TTAN",
+      "EPAM",
+      "SEZL",
+      "GWRE",
+      "MNDY",
+      "UTHR"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "ACN",
+      "TXG",
+      "TEAM",
+      "GRAL",
+      "P",
+      "ECO",
+      "RBRK",
+      "QLYS",
+      "FET",
+      "TWST",
+      "NTRA",
+      "VEON",
+      "MSTR",
+      "ZS",
+      "ESTC",
+      "TEM"
+    ],
+    "m6": [
+      "MRNA",
+      "TXG",
+      "TEAM",
+      "AGL",
+      "OKTA",
+      "GRAL",
+      "HNGE",
+      "RBRK",
+      "QLYS",
+      "TWST",
+      "SNOW",
+      "DELL",
+      "CORT",
+      "CRWD",
+      "CRL",
+      "ESTC",
+      "ILMN"
+    ]
+  },
+  "cross": {
+    "persistent": [],
+    "newEntrants": [
+      "TTAN",
+      "EPAM",
+      "SEZL",
+      "GWRE",
+      "MNDY",
+      "UTHR"
+    ],
+    "midTerm": [
+      "MRNA",
+      "TXG",
+      "TEAM",
+      "GRAL",
+      "P",
+      "ECO",
+      "RBRK",
+      "QLYS",
+      "FET",
+      "TWST",
+      "NTRA",
+      "VEON",
+      "MSTR",
+      "ZS",
+      "ESTC",
+      "TEM"
+    ],
+    "fading": [
+      "AGL",
+      "OKTA",
+      "HNGE",
+      "SNOW",
+      "DELL",
+      "CORT",
+      "CRWD",
+      "CRL",
+      "ILMN"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "PG",
+      "SPOT",
+      "ACN",
+      "ADBE",
+      "LMT",
+      "INTU",
+      "BX",
+      "WCN",
+      "ROP",
+      "NDAQ",
+      "LULU",
+      "BIIB",
+      "LEN",
+      "KMB",
+      "EFX",
+      "DHI",
+      "POOL",
+      "PHM",
+      "WSO",
+      "PAYX"
+    ],
+    "m1": [
+      "KOD",
+      "ACN",
+      "TTAN",
+      "PTC",
+      "HAS",
+      "ETSY",
+      "IT",
+      "EPAM",
+      "INTU",
+      "SEZL",
+      "EFX",
+      "GWRE",
+      "MNDY",
+      "UTHR",
+      "PCTY",
+      "FDS",
+      "IDT",
+      "CRAI",
+      "WING",
+      "PAYC",
+      "TRI",
+      "HURN"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "TEAM",
+      "GRAL",
+      "P",
+      "ECO",
+      "RBRK",
+      "PAYC",
+      "FET",
+      "PLTR",
+      "TWST",
+      "NTRA",
+      "ANF",
+      "VEON",
+      "MSTR",
+      "VEEV",
+      "ZS",
+      "QLYS",
+      "TEM",
+      "ESTC",
+      "ACN",
+      "TXG"
+    ],
+    "m6": [
+      "MRNA",
+      "TXG",
+      "AGL",
+      "OKTA",
+      "TEAM",
+      "HNGE",
+      "NSIT",
+      "QLYS",
+      "GRAL",
+      "TWST",
+      "SNOW",
+      "RBRK",
+      "DELL",
+      "CORT",
+      "CRWD",
+      "PAYC",
+      "CRL",
+      "ESTC",
+      "FTNT",
+      "ILMN",
+      "RDVT",
+      "HAE"
+    ],
+    "all": [
+      "PAYC"
+    ]
+  }
+}
