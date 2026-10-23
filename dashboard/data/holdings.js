@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-23T13:00:25.313Z",
+  "updated": "2026-10-23T22:10:25.071Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,28 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More.",
+          "url": "https://www.nasdaq.com/articles/palantir-guided-216-billion-revenue-q3-its-last-2-quarters-suggest-we-should-expect-more",
+          "date": "2026-10-23",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어, 3분기 매출 가이던스 약 21.6억 달러 제시",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, 3분기 매출 가이던스 약 21.6억 달러 제시",
+          "easy": "팔란티어 경영진이 3분기 매출을 약 21.6억 달러로 예상한다고 밝혔다. 제목은 최근 두 분기 실적을 볼 때 이보다 더 나올 수 있다고 본다. 본문은 확인하지 못해 자세한 근거는 기사에 안 나왔다.",
+          "whyMatters": "가격이 올라야 이익인 보유자에게는 회사 가이던스가 실적 기대의 기준이 된다는 점이 참고사항이다. 다만 본문을 읽지 못해 판단 근거는 제한적이다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "Palantir Technologies Inc. (PLTR) Declines More Than Market: Some Information for Investors",
           "url": "https://www.nasdaq.com/articles/palantir-technologies-inc-pltr-declines-more-market-some-information-investors",
           "date": "2026-10-22",
           "publisher": "Zacks",
           "ko": "팔란티어 주가, 시장보다 큰 폭인 2.74% 하락 마감",
           "tone": "bad",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 주가, 시장보다 큰 폭인 2.74% 하락 마감",
           "easy": "팔란티어(PLTR)가 직전 거래일 종가 196.19달러로 마감해 전날보다 2.74% 내렸다. 제목에 따르면 이날 하락 폭이 시장 전체보다 컸다. 요약만 확인돼 구체적인 하락 원인은 기사에 안 나왔다.",
           "whyMatters": "가격이 올라야 이익인 보유 포지션에는 단기 평가액이 줄어든 소식이다. 다만 하락 이유가 확인되지 않아 추세 판단은 어렵다.",
