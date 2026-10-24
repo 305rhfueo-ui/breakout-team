@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-23T22:10:25.071Z",
+  "updated": "2026-10-24T13:00:32.465Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,28 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "What Will a $10,000 Investment in Palantir Be Worth by 2030?",
+          "url": "https://www.nasdaq.com/articles/what-will-10000-investment-palantir-be-worth-2030",
+          "date": "2026-10-24",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어에 투자하면 2030년 얼마가 될지 짚은 기사",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어에 투자하면 2030년 얼마가 될지 짚은 기사",
+          "easy": "기사 본문은 확인하지 못했다. 요약에는 팔란티어가 일부 대형 기술주 경쟁사보다 훨씬 비싸다는 점이 핵심으로 나온다. 구체적인 전망 수치는 기사에 안 나왔다.",
+          "whyMatters": "주가가 올라야 이익인 보유자에게는 높은 밸류에이션이 부담 요인이 될 수 있다는 점을 짚은 글이다. 다만 본문을 읽지 못해 결론은 알 수 없다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "Palantir Guided for $2.16 Billion in Revenue for Q3. Its Last 2 Quarters Suggest We Should Expect More.",
           "url": "https://www.nasdaq.com/articles/palantir-guided-216-billion-revenue-q3-its-last-2-quarters-suggest-we-should-expect-more",
           "date": "2026-10-23",
           "publisher": "The Motley Fool",
           "ko": "팔란티어, 3분기 매출 가이던스 약 21.6억 달러 제시",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어, 3분기 매출 가이던스 약 21.6억 달러 제시",
           "easy": "팔란티어 경영진이 3분기 매출을 약 21.6억 달러로 예상한다고 밝혔다. 제목은 최근 두 분기 실적을 볼 때 이보다 더 나올 수 있다고 본다. 본문은 확인하지 못해 자세한 근거는 기사에 안 나왔다.",
           "whyMatters": "가격이 올라야 이익인 보유자에게는 회사 가이던스가 실적 기대의 기준이 된다는 점이 참고사항이다. 다만 본문을 읽지 못해 판단 근거는 제한적이다.",
@@ -94,21 +109,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어 주가가 녹스 시스템즈와 협업 발표 후 상승",
           "easy": "요약에 따르면 팔란티어가 Knox Systems와의 협업을 발표한 뒤 주가가 올랐다. 구체적인 상승폭이나 협업 내용은 기사에 안 나왔다.",
           "whyMatters": "협업 소식이 주가에 긍정적으로 반영된 것으로 보여 보유자에게는 우호적이다. 다만 규모와 영향은 알 수 없다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Palantir Partners With Knox System For Customer Support With Missions In FedRAMP",
-          "url": "https://www.nasdaq.com/articles/palantir-partners-knox-system-customer-support-missions-fedramp",
-          "date": "2026-10-19",
-          "publisher": "RTTNews",
-          "ko": "팔란티어가 녹스와 연방 클라우드 고객 지원 제휴",
-          "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어가 녹스와 연방 클라우드 고객 지원 제휴",
-          "easy": "요약에 따르면 미국 연방기관과 전쟁부에 관리형 클라우드를 제공하는 Knox Systems가 월요일 팔란티어와의 파트너십을 발표했다. 목적은 FedRAMP와 IL5 환경에서 중요 임무를 수행하는 고객을 지원하는 것이다. 계약 금액 등은 기사에 안 나왔다.",
-          "whyMatters": "정부·국방 고객 기반의 사업 확장 소식이라 보유자에게 긍정적일 수 있다. 실적 영향은 기사에 나오지 않았다.",
           "quote": null,
           "read": false
         },
