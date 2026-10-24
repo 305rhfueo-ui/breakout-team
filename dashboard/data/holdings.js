@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-24T13:00:32.465Z",
+  "updated": "2026-10-24T22:10:21.014Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어에 투자하면 2030년 얼마가 될지 짚은 기사",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어에 투자하면 2030년 얼마가 될지 짚은 기사",
           "easy": "기사 본문은 확인하지 못했다. 요약에는 팔란티어가 일부 대형 기술주 경쟁사보다 훨씬 비싸다는 점이 핵심으로 나온다. 구체적인 전망 수치는 기사에 안 나왔다.",
           "whyMatters": "주가가 올라야 이익인 보유자에게는 높은 밸류에이션이 부담 요인이 될 수 있다는 점을 짚은 글이다. 다만 본문을 읽지 못해 결론은 알 수 없다.",
@@ -34,6 +34,21 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어, 3분기 매출 가이던스 약 21.6억 달러 제시",
           "easy": "팔란티어 경영진이 3분기 매출을 약 21.6억 달러로 예상한다고 밝혔다. 제목은 최근 두 분기 실적을 볼 때 이보다 더 나올 수 있다고 본다. 본문은 확인하지 못해 자세한 근거는 기사에 안 나왔다.",
           "whyMatters": "가격이 올라야 이익인 보유자에게는 회사 가이던스가 실적 기대의 기준이 된다는 점이 참고사항이다. 다만 본문을 읽지 못해 판단 근거는 제한적이다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
+          "title": "Palantir's Next Big Test Isn't a Partnership—It's the Numbers",
+          "url": "https://www.nasdaq.com/articles/palantirs-next-big-test-isnt-partnership-its-numbers",
+          "date": "2026-10-23",
+          "publisher": "MarketBeat",
+          "ko": "팔란티어, 실적 후 55% 올라 다음 숫자가 시험대",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, 실적 후 55% 올라 다음 숫자가 시험대",
+          "easy": "팔란티어 주가가 2026년 2분기 실적 발표 이후 55% 넘게 올라 주가의 바닥이 높아졌다는 내용이다. 다만 투자자들은 어디까지 오를 수 있는지(상단)를 궁금해하고, 비싼 가격에 사는 것을 경계한다고 한다. 요약만 확인돼 구체적인 수치나 이유는 기사에 안 나왔다.",
+          "whyMatters": "가격이 올라야 이익인 보유자에게는 이미 오른 주가가 부담이 될 수도 있어서, 앞으로 나올 실적 숫자가 주가 방향에 중요해 보입니다.",
           "quote": null,
           "read": false
         },
