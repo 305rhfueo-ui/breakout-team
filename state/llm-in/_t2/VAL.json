@@ -1,0 +1,256 @@
+{
+ "ticker": "VAL",
+ "sector": "Energy",
+ "industry": "Oil & Gas Equipment & Services",
+ "nameKo": "발라리스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -7.18,
+  "saleNy": 12.6,
+  "epsCy": -75.32,
+  "epsNy": 93.36,
+  "est": {
+   "cyCur": 3.45327,
+   "cy30": 3.46493,
+   "nyCur": 6.67731,
+   "ny30": 7.00731
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -12.35,
+    -25.02,
+    -8.04
+   ],
+   "ni": [
+    -56.21,
+    "적자축소",
+    436.65
+   ],
+   "opm": [
+    9.48,
+    4.3,
+    7.33
+   ],
+   "updated": "2026-09-08 05:52:32"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "발라리스",
+  "nameEn": "VALARIS LTD",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000314808&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 539200000,
+     "profit": 51100000,
+     "netIncome": 50400000,
+     "margin": 9.5,
+     "yoy": {
+      "revenue": -12.4,
+      "profit": -68.9,
+      "netIncome": -56.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 465400000,
+     "profit": 20000000,
+     "netIncome": -16400000,
+     "margin": 4.3,
+     "yoy": {
+      "revenue": -25,
+      "profit": -86,
+      "netIncome": 56.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 537400000,
+     "profit": 39400000,
+     "netIncome": 713800000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": -8,
+      "profit": -66.9,
+      "netIncome": 13.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 595700000,
+     "profit": 130500000,
+     "netIncome": 188100000,
+     "margin": 21.9,
+     "yoy": {
+      "revenue": -7.4,
+      "profit": 37.5,
+      "netIncome": 191.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Valaris Limited Announces November 26, 2026 Court Sanction Hearing for Proposed Transocean Ltd. Business Combination",
+     "url": "https://www.nasdaq.com/articles/valaris-limited-announces-november-26-2026-court-sanction-hearing-proposed-transocean-ltd",
+     "date": "2026-10-24",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Valaris' Latest Contract Awards Add $220M to Contract Backlog",
+     "url": "https://www.nasdaq.com/articles/valaris-latest-contract-awards-add-220m-contract-backlog",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Valaris (VAL) Soars 8.6%: Is Further Upside Left in the Stock?",
+     "url": "https://www.nasdaq.com/articles/valaris-val-soars-86-further-upside-left-stock",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Valaris Rallied Today",
+     "url": "https://www.nasdaq.com/articles/why-valaris-rallied-today",
+     "date": "2026-09-15",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Valaris Limited Announces Retreat In Q2 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/valaris-limited-announces-retreat-q2-bottom-line",
+     "date": "2026-08-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Valaris Limited (VAL) Tops Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/valaris-limited-val-tops-q2-earnings-and-revenue-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Options Traders Betting on a Big Move in Valaris Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-valaris-stock",
+     "date": "2026-07-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TechnipFMC vs. Valaris: Which Energy Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/technipfmc-vs-valaris-which-energy-stock-better-buy-2026",
+     "date": "2026-06-08",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126040674/ef20084275_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126039551/ef20083773_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126038106/ef20083020_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000031480826000139/val-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000031480826000138/val-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126027091/ef20077172_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "VAL",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 7.27,
+  "pbr": 2.09,
+  "eps": 13.39,
+  "bps": 46.47,
+  "shares": 69443100,
+  "marketCapM": 6759,
+  "high52": 114.12,
+  "high52Date": "2026-05-18",
+  "low52": 48.085,
+  "low52Date": "2025-12-17",
+  "last": 97.33,
+  "prevClose": 92.19,
+  "nameKo": "발라리스",
+  "nameEn": "VALARIS LTD",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 69443100
+ }
+}

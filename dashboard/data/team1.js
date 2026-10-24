@@ -504,8 +504,310 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-24",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "AI 데이터센터 투자에 자금 경고등이 켜졌다",
+        "easy": "AI 전용 데이터센터를 빌려주는 신생 업체들(네오클라우드)이 압박을 받고 있다. 빌린 돈을 못 갚을 위험이 커졌고, 메모리 업체 Solidigm은 상장(IPO) 계획을 철회했다. 돈을 빌려 설비를 짓던 AI 투자 확장 속도가 느려질 수 있다.",
+        "whyMatters": "AI 설비에 들어가는 돈이 비싸지면 반도체와 데이터센터 장비 업종이 먼저 부담을 받고, 외부 자금에 기대온 신생 클라우드 업체가 특히 불리하다. 현금이 넉넉한 대형 기술주와의 체력 차이가 벌어질 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+            "date": "2026-10-23",
+            "quote": "Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "반도체 레버리지 상품에 돈이 몰렸다가 손실이 났다",
+        "easy": "지난주 반도체 레버리지 ETF(지수 움직임을 몇 배로 따라가는 상품)에 사상 최대 자금이 들어갔다. 그런데 반도체 주가가 내려 결과는 좋지 않았다. 개인 자금이 가장 공격적인 상품에 쏠렸다는 뜻이다. 하락이 이어지면 손실이 훨씬 빠르게 커진다.",
+        "whyMatters": "반도체 업종의 단기 수급이 빚을 낀 자금에 기대고 있어, 조정이 오면 반도체·기술 업종이 가장 먼저 흔들린다. 반도체 관련 종목은 평소보다 흔들림 폭을 크게 보고 대응할 구간이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
+            "date": "2026-10-23",
+            "quote": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Meta 주가가 한 주 동안 9% 내렸다",
+        "easy": "Meta 주가가 이번 주 9% 떨어졌다. 하락 이유는 기사에 안 나왔다. 옵션 전략가 Mike Khouw는 이 가격대에서 매수하겠다고 밝혔다. 대형 기술주 안에서도 종목별로 방향이 갈리고 있다는 신호다.",
+        "whyMatters": "인터넷 광고에 기대는 기술·커뮤니케이션 업종의 분위기가 약해졌다는 뜻이다. 같은 광고 매출 구조를 가진 종목들이 함께 밀리는지 확인해 볼 때다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
+            "date": "2026-10-23",
+            "quote": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "백악관이 일부 캐나다산 제품 관세를 거뒀다",
+        "easy": "백악관이 일부 캐나다산 제품에 매긴 관세를 없앴다. 중간선거가 다가오면서 정치적 부담이 커진 것이 배경으로 꼽혔다. 트럼프는 대신 다른 품목으로 관세를 '교체'하겠다고 했다. 관세 대상이 바뀌는 만큼 업종별 손익이 다시 갈린다.",
+        "whyMatters": "캐나다에서 원자재·부품을 들여오는 자동차·건설자재·식품 업종은 비용 부담이 줄어든다. 반대로 새 관세 품목이 정해지기 전까지 수입 비중이 큰 산업재는 불확실성이 남는다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-24",
+            "quote": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+            "date": "2026-10-23",
+            "quote": "Trump dropping some Canada tariffs but 'replacing' them with other products",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "SpaceX의 휴대폰 사업이 통신주를 또 눌렀다",
+        "easy": "SpaceX의 위성 휴대폰 통신 계획이 한 걸음 더 나아갔다. 그 소식에 통신 회사 주가가 다시 떨어졌다. 위성이 기존 통신망을 대체할 수 있다는 걱정이 커졌기 때문이다.",
+        "whyMatters": "미국 통신 서비스 업종에는 계속 부담이고, 위성·우주 장비 업종에는 기회다. 배당 때문에 통신주를 들고 있다면 경쟁 구도가 바뀌는 속도를 함께 봐야 한다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
+            "date": "2026-10-23",
+            "quote": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "트럼프가 모기지 비용을 낮추는 행정명령을 냈다",
+        "easy": "트럼프 대통령이 주택담보대출(모기지) 보험료와 재융자(기존 대출을 새 대출로 바꾸는 것) 비용을 겨냥한 행정명령에 서명했다. 집을 사거나 대출을 갈아타는 비용을 낮추려는 조치다. 대출 부담이 줄면 주택 거래가 늘어날 수 있다.",
+        "whyMatters": "주택건설과 모기지 금융 업종에는 호재이고, 보험료 수입이 줄어드는 모기지 보증·보험 업종에는 불리하다. 주택 관련 종목의 거래량이 실제로 늘어나는지를 보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+            "date": "2026-10-23",
+            "quote": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기 좋은 때가 아니다. QQQ의 10일선이 20일선 아래로 내려간 지 4거래일째여서 쿨라매기 기준으로는 빨간불이고, 종가 704.4는 50일선 아래에 있다. 오늘 뉴스도 같은 방향을 가리킨다 — AI 데이터센터 자금 조달에 금이 가고, 반도체 레버리지 상품에 몰린 돈이 손실로 끝났다. 가장 불편한 것은 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘었다는 점으로, 하락이 시작되면 매물이 한꺼번에 쏟아지기 쉽다. 이번 주는 10일선이 20일선 위로 되돌아오는지, 그리고 캐나다 관세의 '교체' 품목이 무엇으로 정해지는지를 지켜보면 된다.",
+    "keyRisks": [
+      "AI 투자 자금 경로가 좁아진다: 네오클라우드의 신용위험과 Solidigm의 상장 철회처럼 설비 투자를 떠받쳐온 돈이 비싸지면, 반도체·장비 주문부터 줄어든다.",
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘은 상태에서 지수가 흔들리면, 손실을 줄이려는 강제 매도가 하락에 겹쳐진다.",
+      "업종 쏠림: 선정 종목의 54%가 기술, 24%가 헬스케어라 기술주 조정이 포트폴리오 전체로 바로 번진다.",
+      "관세의 방향 전환: 캐나다 관세를 거두면서 다른 품목으로 옮긴다고 했으므로, 다음 대상이 정해지기 전까지 수입 비중이 큰 제조업의 비용 추정이 흔들린다."
+    ],
+    "easySummary": [
+      "QQQ는 10일선이 20일선 아래 4일째 — 쿨라매기 기준으로 새로 사지 않는 구간이다.",
+      "AI 데이터센터 자금과 반도체 레버리지 자금 양쪽에서 균열 신호가 나왔다.",
+      "캐나다 관세 일부 철회와 모기지 비용 인하 행정명령은 수입 제조·주택 쪽에 호재다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 140,
+      "ok": 249,
+      "unverified": 4,
+      "dead": 1,
+      "stripped": 14,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/crown-castle-q3-affo-beats-estimates-lower-expenses"
+        }
+      ],
+      "numberCut": 25,
+      "numberCuts": [
+        {
+          "sentence": "실적 발표 다음 거래일인 10월 23일 종가 96.61달러로 전일보다 5.3% 올랐고, 장중 52주 최고가 101.25달러를 찍었다.",
+          "missing": [
+            "5.3"
+          ]
+        },
+        {
+          "sentence": "직전 분기(약 7,160만 달러)보다 약 10% 늘었고, 1년 전 같은 분기(약 7,570만 달러)보다도 많다.",
+          "missing": [
+            "7,160만 달러",
+            "7,570만 달러",
+            "10"
+          ]
+        },
+        {
+          "sentence": "발표 직후 주가가 78.73달러에서 84.54달러로 약 7% 뛰며 52주 최고가를 새로 썼다.",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "3분기 순이익은 1억 2천만 달러로 1년 전보다 48.1% 늘었다.",
+          "missing": [
+            "1억 2"
+          ]
+        },
+        {
+          "sentence": "직전 분기 3,900만 달러에서도 크게 회복됐다.",
+          "missing": [
+            "3,900만 달러"
+          ]
+        },
+        {
+          "sentence": "주가는 5월 고점(112.79달러)보다 낮은 86.85달러로, 최근 반등에도 6개월 기준으로는 20% 가까이 내린 상태다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "10월 5일 52주 저점(65.32달러)에서 최근 종가 85.97달러까지 반등했고, 직전 거래일 대비 약 9% 올랐다.",
+          "missing": [
+            "9"
+          ]
+        },
+        {
+          "sentence": "2026년 7월 말 분기 매출이 34억 1천만 달러로 1년 전보다 34.5% 늘었다.",
+          "missing": [
+            "34.5"
+          ]
+        },
+        {
+          "sentence": "10월 21일 신고가 기사에 이어 23일 종가 부근에서 98.14달러 고점을 찍었다.",
+          "missing": [
+            "98.14"
+          ]
+        },
+        {
+          "sentence": "매출 성장이 분기 5~6%대로 느리다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "올해 2분기(4~6월) 영업이익이 1년 전보다 40.4% 늘어 4억7,600만 달러였다.",
+          "missing": [
+            "4억7,600만 달러"
+          ]
+        },
+        {
+          "sentence": "1분기도 42.9% 증가해 이익 증가세가 이어지고 있다.",
+          "missing": [
+            "42.9"
+          ]
+        },
+        {
+          "sentence": "10월 23일 최대 5억5천만 달러 규모의 추가 자사주 매입이 승인됐다.",
+          "missing": [
+            "5억5"
+          ]
+        },
+        {
+          "sentence": "매출 증가율도 13.7%(작년 7~9월)에서 12.4%로 소폭 낮아졌다.",
+          "missing": [
+            "13.7",
+            "12.4"
+          ]
+        },
+        {
+          "sentence": "분기 매출이 4개 분기 연속 늘었다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "현재 주가는 52주 고점(111달러)보다 아직 낮다.",
+          "missing": [
+            "111"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 모두 영업이익이 크게 늘었고, 영업이익률이 5.6%에서 15.2%로 단계적으로 올라 이익 체력이 좋아지고 있다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "Ryder가 2026-10-22 발표한 3분기 순이익과 매출이 모두 증권사 예상치를 넘어섰다.",
+          "missing": [
+            "10",
+            "22"
+          ]
+        },
+        {
+          "sentence": "분기 매출이 1년 전보다 12.4% 줄고 영업이익이 68.9% 줄었다.",
+          "missing": [
+            "12.4"
+          ]
+        },
+        {
+          "sentence": "2026-10-22 3분기 실적 발표와 함께 신규 2억 달러 자사주 매입 승인",
+          "missing": [
+            "10",
+            "22"
+          ]
+        },
+        {
+          "sentence": "분기 매출이 4분기 연속 전년 대비 증가(9.3~19.6%).",
+          "missing": [
+            "9.3",
+            "19.6"
+          ]
+        },
+        {
+          "sentence": "2분기 -8.2%, 1분기 -3.4%.",
+          "missing": [
+            "8.2",
+            "3.4"
+          ]
+        },
+        {
+          "sentence": "2026-09-03 실적 발표에서 이익과 매출이 예상치를 넘었다.",
+          "missing": [
+            "09",
+            "03"
+          ]
+        },
+        {
+          "sentence": "올해 EPS 전망은 90일간 +1.8%였으나 다음 분기는 -10.3%, 내년은 -8%로 낮아졌다.",
+          "missing": [
+            "1.8"
+          ]
+        },
+        {
+          "sentence": "실적 발표 직후 증권사 3곳이 목표주가를 낮췄다.",
+          "missing": [
+            "3"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-24"
   }
 };

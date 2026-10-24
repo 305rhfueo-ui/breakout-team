@@ -49,9 +49,34 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 07:04:37"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NATH",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Nathan's Famous는 핫도그 브랜드 Nathan's를 식품 납품·상표 라이선스·가맹으로 운영해 수익을 낸다. 현재 Smithfield Foods가 주당 102달러 현금에 인수하기로 한 상태다.",
+        "volumeExplanation": "10월 23일 주주총회에서 Smithfield Foods 합병안이 압도적 찬성으로 승인됐다. 인수가가 주당 102달러로 정해져 있어 승인 직후 차익거래 자금이 몰리며 거래량이 늘었을 가능성이 있다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "c1: statement의 구체적 표수(찬성 3,229,773표, 반대 28,025표)가 quote('required vote'만 기재)에 없음. c2: statement의 합병 대가(주당 102달러)와 위임장 공시 내용이 quote(9월 30일 소송 제기)에 없음. 근거 전무로 분류 6으로 정정."
+        },
+        "originalCategory": 3,
+        "corrected": true,
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "네이선스 페이머스",
       "nameEn": "NATHANS FAMOUS INC",
@@ -556,9 +581,80 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:55:22"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FCNCA",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 23일 발표한 3분기 실적이 시장 예상치(매출·주당순이익 모두)를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "First Citizens BancShares (FCNCA) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/first-citizens-bancshares-fcnca-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-23",
+                "quote": "First Citizens BancShares (FCNCA) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적과 함께 12억 달러 규모 자사주 매입 계획을 발표했다. 순이자이익은 줄었지만 순이익은 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "First Citizens BancShares, Inc. Reports Third Quarter 2026 Results and Announces $1.2 billion Share Repurchase Program",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/first-citizens-bancshares-inc-reports-third-quarter-2026-results-and-announces-12-billion",
+                "date": "2026-10-23",
+                "quote": "First Citizens BancShares, Inc. Reports Third Quarter 2026 Results and Announces $1.2 billion Share Repurchase Program",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "First Citizens BancShares Q3 Profit Rises, Net Interest Income Drops; Plans $1.2 Bln Share Buyback",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/first-citizens-bancshares-q3-profit-rises-net-interest-income-drops-plans-12-bln-share",
+                "date": "2026-10-23",
+                "quote": "First Citizens BancShares Q3 Profit Rises, Net Interest Income Drops; Plans $1.2 Bln Share Buyback",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "같은 날 SEC에 실적 발표 8-K가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FCNCA 8-K (실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/798941/000079894126000041/fcnca-20261023.htm",
+                "date": "2026-10-23",
+                "quote": "8-K 2026-10-23 실적 발표",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "First Citizens BancShares는 미국 노스캐롤라이나에 본사를 둔 지역은행으로, 예금을 받아 대출해 번 이자와 수수료로 돈을 번다.",
+        "volumeExplanation": "10월 23일 3분기 실적이 매출·주당순이익 모두 시장 예상치를 넘었고, 12억 달러 자사주 매입도 함께 나와 거래량이 평소의 4배 넘게 늘었다. 순이자이익은 줄었지만 순이익이 늘어난 점이 매수세를 부른 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "c1: 출처 제목이 'Q3 Earnings and Revenue Estimates 초과' 명시. c2: '$1.2 billion' = 12억 달러, 자사주 매입과 순이익 증가, 순이자이익 감소가 출처 제목에 일치. c3: 8-K 실적 발표 확인. 분류 1 적절."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       }
     },
     {
@@ -602,9 +698,59 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:16:35"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SIGI",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Selective Insurance가 10월 22일 3분기 실적을 발표했고, 증권가 예상치(컨센서스)를 웃돌았다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Selective Insurance (SIGI) Q3 Earnings Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/selective-insurance-sigi-q3-earnings-top-estimates",
+                "date": "2026-10-22",
+                "quote": "Selective Insurance (SIGI) Q3 Earnings Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적과 함께 2억 달러 규모의 새 자사주 매입 계획이 승인됐다. 주주 몫을 늘리는 재료다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Selective Insurance Group, Inc. Reports Third Quarter 2026 Results and Authorizes New $200 Million Share Repurchase Program",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/selective-insurance-group-inc-reports-third-quarter-2026-results-and-authorizes-new-200",
+                "date": "2026-10-22",
+                "quote": "Selective Insurance Group, Inc. Reports Third Quarter 2026 Results and Authorizes New $200 Million Share Repurchase Program",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Selective Insurance는 미국 중소기업과 개인을 대상으로 재산·상해보험을 파는 손해보험사다. 보험료 수입과 보험금 지급 후 남는 이익, 투자수익으로 돈을 번다.",
+        "volumeExplanation": "10월 22일 3분기 실적이 예상치를 웃돌고 2억 달러 자사주 매입이 함께 발표되면서, 다음 거래일인 23일 거래량이 평소의 3.6배로 늘었다. 종가는 당일 고가권이 아니어서, 이익 개선이 이어지는지가 확인 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3: quote가 JSON 스니펫으로 불완전하고(괄호 미폐쇄), '세전이익'이 어느 레벨의 이익인지 불명확. YoY 수치는 quote에만 있고 서술된 인용문 없음. 제거 시 volumeExplanation의 '매출은 1년 전보다 줄었고' 부분 삭제.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 22일 3분기 실적이 예상치를 웃돌고 2억 달러 자사주 매입이 함께 발표되면서, 다음 거래일인 23일 거래량이 평소의 3.6배로 늘었다. 다만 매출은 1년 전보다 줄었고 종가는 당일 고가권이 아니어서, 이익 개선이 이어지는지가 확인 조건이다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       }
     },
     {
@@ -648,9 +794,66 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:24:54"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CUBI",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 22일 3분기 실적 발표에서 순이익 7,840만 달러를 냈고, 증권사 이익·매출 예상치를 모두 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Customers Bancorp (CUBI) Tops Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/customers-bancorp-cubi-tops-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-22",
+                "quote": "Customers Bancorp (CUBI) Tops Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Customers Bancorp, Inc. Reports Q3 2026 Net Income of $78.4 million",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/customers-bancorp-inc-reports-q3-2026-net-income-784-million",
+                "date": "2026-10-23",
+                "quote": "Customers Bancorp, Inc. Reports Q3 2026 Net Income of $78.4 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 전에는 이익 감소가 예상됐기 때문에 예상 밖 호실적이 주가와 거래량을 키웠다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Earnings Preview: Customers Bancorp (CUBI) Q3 Earnings Expected to Decline",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/earnings-preview-customers-bancorp-cubi-q3-earnings-expected-decline",
+                "date": "2026-10-15",
+                "quote": "Earnings Preview: Customers Bancorp (CUBI) Q3 Earnings Expected to Decline",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Customers Bancorp는 미국 지역은행으로, 기업·소비자 대출과 예금, 결제·디지털 뱅킹 서비스로 이자와 수수료 수익을 올린다.",
+        "volumeExplanation": "10월 22일 3분기 실적이 이익·매출 예상치를 넘기며 거래량이 평소의 3.4배로 늘었다. 발표 전 이익 감소가 예상됐던 만큼, 예상 밖 호실적이 확인되면 이 이야기가 맞고 다음 분기 이익이 꺾이면 틀린 것이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3: quote가 '8-K 2026-10-22 실적 발표 · 재무제표·첨부'로 문서 구조만 기재되어 있고, statement의 구체적 수치 비교(7,156만 vs 7,840만 달러)가 quote에 전혀 없음. c1(78.4 million = 7,840만 달러)과 c2(decline 예상)는 유지."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       }
     },
     {
@@ -694,9 +897,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:12:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CCI",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 21일 장 마감 후 3분기 실적을 발표했고, AFFO(리츠의 영업현금 성격 이익)가 시장 예상을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/crown-castles-q3-affo-beats-estimates-lower-expenses",
+                "date": "2026-10-22",
+                "quote": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 실적과 함께 2026년 연간 전망을 조정했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crown Castle Inc. Reports Third Quarter 2026 Results and Updates Outlook for Full Year 2026",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026",
+                "date": "2026-10-22",
+                "quote": "Crown Castle Inc. Reports Third Quarter 2026 Results and Updates Outlook for Full Year 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Crown Castle은 미국 전역의 통신 타워와 광케이블을 통신사에 임대해 임대료를 받는 리츠(부동산 투자회사)다.",
+        "volumeExplanation": "10월 21일 장 마감 후 3분기 실적을 냈고, 영업현금 성격 이익(AFFO)이 예상을 넘었다. 연간 전망도 함께 조정되어 다음 거래일 거래량이 평소의 3배 넘게 늘었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "c1: 출처 제목이 'Q3 AFFO Beats Estimates' 명시. c2: 출처 제목이 '2026년 Full Year Outlook 업데이트' 명시. 분류 1(어닝) 적절."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       }
     },
     {
@@ -740,9 +989,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 05:50:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "RY는 캐나다 최대 은행 로열뱅크오브캐나다로, 예금·대출, 자산관리, 자본시장 사업으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "로열 뱅크 오브 캐나다",
       "nameEn": "ROYAL BANK OF CANADA",
@@ -1173,9 +1442,71 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": true,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RNG",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "RingCentral이 2026년 3분기 실적을 10월 22일 발표했고, 매출과 주당순이익 모두 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "RingCentral (RNG) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/ringcentral-rng-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-10-22",
+                "quote": "RingCentral (RNG) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 다음 날인 10월 23일 주가가 올랐다는 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why RingCentral Stock Is Up Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-ringcentral-stock-today",
+                "date": "2026-10-23",
+                "quote": "Why RingCentral Stock Is Up Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "직전 분기(2026년 6월 말) 매출은 6.57억 달러로 1년 전보다 5.9% 늘었고, 영업이익은 36% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001384905&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 657011000, profit 50285000, yoy revenue 5.9, profit 36",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "RingCentral은 기업용 클라우드 전화·화상회의·고객센터 소프트웨어를 구독으로 판매해 돈을 번다.",
+        "volumeExplanation": "10월 22일 3분기 실적이 예상치를 넘겼고, 이어 10월 23일 주가가 오르며 거래량이 평소의 약 3배로 늘었다. 가이던스(회사의 다음 전망) 상향 여부는 확인하지 못했다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       }
     },
     {
@@ -1219,9 +1550,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:13:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HURN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Huron은 병원·대학·기업을 상대로 경영 컨설팅과 관리 대행 서비스를 제공해 수수료로 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       }
     },
     {
@@ -1265,9 +1616,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-16 05:50:49"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CORT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Corcept Therapeutics는 쿠싱증후군 치료제로 돈을 버는 바이오 기업이다. 올해 난소암 신약 출시로 매출 성장세가 커졌다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
@@ -1861,9 +2232,57 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:24:24"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KNSL",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 22일 3분기 실적을 발표했고, 증권사 예상치를 웃돌았다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-q3-earnings-surpass-estimates",
+                "date": "2026-10-22",
+                "quote": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "10월 23일 실적 설명회 녹취가 공개돼 경영진 설명이 시장에 알려졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kinsale Capital (KNSL) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/kinsale-capital-knsl-q3-2026-earnings-call-transcript",
+                "date": "2026-10-23",
+                "quote": "Kinsale Capital (KNSL) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Kinsale Capital은 대형 보험사가 받기 꺼리는 특수 위험(비표준 손해보험)을 받아 보험료로 돈을 번다. 시가총액 약 89억 달러의 미국 손해보험사다.",
+        "volumeExplanation": "10월 22일 3분기 실적이 증권사 예상치를 웃돌았다는 보도가 나오면서 거래량이 평소의 약 2.7배로 늘었다. 다만 예상치 초과 폭과 가이던스 변화는 확인된 수치가 없다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2 cites SEC 8-K item 5.02 and a separate filing for officer changes, but the evidence shows only items 2.02 and 9.01 in one filing dated 2026-10-22. Item 5.02 is not in the quoted evidence. Claim contains unsupported specific details."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "킨세일 캐피털 그룹",
       "nameEn": "KINSALE CAPITAL GROUP INC",
@@ -3049,9 +3468,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:39:49"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AMT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "AMT(아메리칸 타워)는 통신 기지국 타워를 통신사에 빌려주고 임대료를 받는 부동산투자신탁(REIT)이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "아메리칸 타워",
       "nameEn": "AMERICAN TOWER CORP",
@@ -3679,12 +4118,12 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "SAM",
         "category": 1,
-        "company": "Boston Beer는 샘 애덤스 맥주와 트룰리, 트위스티드 티 같은 주류 브랜드를 만들어 파는 미국 맥주 회사입니다.",
-        "volumeExplanation": "10월 22일 3분기 실적을 발표했고, 증권사 예상치보다 이익이 좋았다는 보도가 나왔습니다. 최근 몇 분기 부진했던 터라 반등 기대가 거래량으로 이어진 것으로 보입니다.",
+        "company": "보스턴 비어는 사무엘 아담스 등 맥주와 하드 사이다, 즉석 음용 칵테일(RTD)을 만들어 파는 미국 주류 회사다.",
+        "volumeExplanation": "10월 22일 3분기 실적을 발표했고, 시장 예상치를 웃돌았다는 평가가 나오면서 거래량이 평소의 2배 넘게 늘었다. 다만 매출은 1년 전보다 3.2% 줄어 성장 이야기는 아직 아니다.",
         "claims": [
           {
             "id": "c1",
-            "statement": "Boston Beer가 10월 22일 3분기 실적을 발표했고, 이익이 증권사 예상치를 넘었다는 보도가 나왔다.",
+            "statement": "10월 22일 3분기 실적을 발표했고 증권 분석 매체는 이익이 예상치를 웃돌았다고 전했다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -3697,11 +4136,11 @@ window.TEAM4_DATA = {
                 "httpStatus": 200
               },
               {
-                "title": "Boston Beer 8-K (실적 발표, item 2.02)",
+                "title": "SEC 8-K 실적 발표 (item 2.02)",
                 "publisher": "SEC EDGAR",
                 "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526428973/sam-20261022.htm",
                 "date": "2026-10-22",
-                "quote": "8-K items 2.02, 9.01 (실적 발표)",
+                "quote": "8-K 2026-10-22 실적 발표, 재무제표·첨부",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3709,15 +4148,15 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "직전까지는 실적 미달과 예상치 하향으로 약세 평가가 이어지던 종목이다.",
+            "statement": "3분기 매출은 5.2억 달러로 1년 전보다 3.2% 줄었고, 영업이익은 5,633만 달러로 9.2% 줄었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Is SAM Stock Worth Buying After Earnings Misses and Estimate Cuts?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/sam-stock-worth-buying-after-earnings-misses-and-estimate-cuts",
-                "date": "2026-07-27",
-                "quote": "Is SAM Stock Worth Buying After Earnings Misses and Estimate Cuts?",
+                "title": "SEC 실적표 (10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000949870&type=10-Q",
+                "date": "2026-09-26",
+                "quote": "periodEnd 2026-09-26, revenue 520101000, profit 56329000, yoy revenue -3.2, profit -9.2",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3726,14 +4165,16 @@ window.TEAM4_DATA = {
         ],
         "confidence": "medium",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3 statement claims '1년 평균선' but source title specifies '200-Day Moving Average' — 252 trading days vs 200 days mismatch"
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-10-23",
-        "carried": true
+        "researchedOn": "2026-10-24",
+        "carried": false
       }
     },
     {
@@ -3777,9 +4218,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:03:21"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NVS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Novartis는 스위스 제약사로 항암제, 면역질환, 심혈관 등 처방약을 팔아 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "노바티스(ADR)",
       "nameEn": "NOVARTIS AG ADR-EACH REPR 1 CHF0.5(REGD)",
@@ -4282,13 +4743,13 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "R",
         "category": 1,
-        "company": "Ryder System은 트럭 임대·리스, 물류 위탁 운영, 공급망 서비스를 제공해 돈을 번다.",
-        "volumeExplanation": "10월 22일 3분기 실적을 발표했고 매출과 이익이 모두 시장 예상을 웃돌았다는 보도가 나왔다. 이 어닝 서프라이즈로 다음 거래일 거래량이 평소의 2.2배로 늘었다.",
+        "company": "Ryder는 트럭 임대·리스, 물류 대행, 공급망 서비스를 제공해 돈을 버는 운송 장비·물류 회사입니다.",
+        "volumeExplanation": "10월 22일 3분기 실적을 발표했는데 순이익과 매출이 증권사 예상치를 웃돌았습니다. 이 발표 직후 거래량이 평소의 2배 넘게 늘며 주가가 60일 신고가를 넘었습니다.",
         "claims": [
           {
             "id": "c1",
-            "statement": "Ryder가 10월 22일 3분기 실적을 발표했고 이익과 매출이 모두 시장 예상을 웃돌았다.",
-            "evidence_level": "sourced",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
             "sources": [
               {
                 "title": "Ryder (R) Q3 Earnings and Revenues Top Estimates",
@@ -4299,19 +4760,21 @@ window.TEAM4_DATA = {
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ]
+            ],
+            "statementOriginal": "Ryder가 2026-10-22 발표한 3분기 순이익과 매출이 모두 증권사 예상치를 넘어섰다.",
+            "stripped": true
           },
           {
             "id": "c2",
-            "statement": "같은 날 실적 발표(항목 2.02) 8-K 공시가 제출됐다.",
+            "statement": "실적 발표는 SEC에 8-K(실적 발표 항목 2.02)로 같은 날 공시됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Ryder 8-K (2026-10-22, 실적 발표)",
+                "title": "Ryder 8-K (2026-10-22)",
                 "publisher": "SEC EDGAR",
                 "url": "https://www.sec.gov/Archives/edgar/data/85961/000008596126000023/r-20261022.htm",
                 "date": "2026-10-22",
-                "quote": "8-K items 2.02, 7.01, 9.01 (실적 발표, Reg FD 공시, 재무제표·첨부)",
+                "quote": "8-K items 2.02, 7.01, 9.01 (실적 발표)",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4326,8 +4789,8 @@ window.TEAM4_DATA = {
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-10-23",
-        "carried": true
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "라이더 시스템",
       "nameEn": "RYDER SYSTEM INC",
@@ -5026,9 +5489,73 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:47:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "OMC",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "OMC가 10월 22일 3분기 실적을 냈고 매출과 주당순이익이 모두 시장 예상치(컨센서스)를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Omnicom (OMC) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/omnicom-omc-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-10-22",
+                "quote": "Omnicom (OMC) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "8-K 실적 발표 (item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000024/omc-20261022.htm",
+                "date": "2026-10-22",
+                "quote": "8-K items 2.02, 7.01, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 호조의 배경은 미디어 부문 성장과 인수 후 통합 효과(시너지)로 분석됐고, 다음 날 실적 설명회가 열렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "OMC's Q3 Earnings Beat Estimates on Media Growth & Synergies",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/omcs-q3-earnings-beat-estimates-media-growth-synergies",
+                "date": "2026-10-23",
+                "quote": "OMC's Q3 Earnings Beat Estimates on Media Growth & Synergies",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Omnicom (OMC) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/omnicom-omc-q3-2026-earnings-call-transcript",
+                "date": "2026-10-23",
+                "quote": "Omnicom (OMC) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Omnicom은 광고 대행사 그룹으로, 기업의 광고·미디어 집행과 마케팅 서비스를 대행하고 수수료로 돈을 번다.",
+        "volumeExplanation": "10월 22일 3분기 실적이 매출·이익 모두 예상치를 넘어서자 10월 23일 거래가 평소보다 크게 늘었다. 미디어 부문 성장과 통합 효과가 호조의 이유로 꼽혔다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "옴니콤 그룹",
       "nameEn": "OMNICOM GROUP INC",
@@ -5661,9 +6188,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:11:23"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PFBC",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 23일 3분기 실적이 증권사 예상치를 웃돌았다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Preferred Bank (PFBC) Tops Q3 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/preferred-bank-pfbc-tops-q3-earnings-estimates",
+                "date": "2026-10-23",
+                "quote": "Preferred Bank (PFBC) Tops Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 주요 지표를 월가 예상치와 비교한 기사도 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Preferred Bank (PFBC) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/preferred-bank-pfbc-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+                "date": "2026-10-23",
+                "quote": "Preferred Bank (PFBC) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Preferred Bank는 미국 서부의 중소기업·부동산 대출이 중심인 지역은행으로, 대출 이자와 수수료로 돈을 번다.",
+        "volumeExplanation": "10월 23일 3분기 실적이 예상치를 웃돌았다는 보도가 나오면서 거래량이 평소의 2배 넘게 늘었다. 다만 증가폭 수치는 확인한 자료에 없어, 큰 폭의 서프라이즈인지는 별도 확인이 필요하다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Claims c1 and c2 both well-sourced: Q3 earnings beat (Zacks, 2026-10-23) and metrics comparison article (Zacks, 2026-10-23). Dates and facts match quotes. Category 1 appropriate."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "프리퍼드 뱅크 로스 앤젤리스",
       "nameEn": "PREFERRED BK LOS ANGELES CALIFORNIA",
@@ -6124,9 +6697,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:04:00"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BAH",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 23일 2분기 실적을 발표했고, 이익이 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Booz Allen Hamilton (BAH) Q2 Earnings Beat Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-q2-earnings-beat-estimates",
+                "date": "2026-10-23",
+                "quote": "Booz Allen Hamilton (BAH) Q2 Earnings Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 실적 발표 공시(8-K)가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BAH 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026066971/bah-20261023.htm",
+                "date": "2026-10-23",
+                "quote": "8-K 2026-10-23 items 2.02, 7.01, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Booz Allen Hamilton은 미국 정부(국방·정보기관 등)를 상대로 컨설팅과 기술 서비스를 제공해 돈을 번다.",
+        "volumeExplanation": "10월 23일 2분기 실적이 시장 예상을 웃돌아 거래량이 평소의 2배 넘게 늘었다. 다만 매출은 아직 1년 전보다 줄어드는 흐름이라, 가이던스(회사 전망) 변화는 확인되지 않았다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Claims c1 and c2 both sourced: Q2 earnings beat (Zacks, 2026-10-23) and 8-K filing (SEC EDGAR, item 2.02, 2026-10-23). Dates and facts match sources. Category 1 appropriate."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "부즈 알렌 해밀턴 홀딩",
       "nameEn": "BOOZ ALLEN HAMILTON HLDG CORP",
@@ -6771,9 +7390,48 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:23:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BCPC",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Balchem이 10월 23일 2026년 3분기 실적을 발표했고, 같은 날 실적 설명회 기록이 공개됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Balchem 8-K (실적 발표, 2026-10-23)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000032/bcpc-20261023.htm",
+                "date": "2026-10-23",
+                "quote": "On October 23, 2026, Balchem Corporation reported earnings for the quarter ended September 30, 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Balchem (BCPC) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/balchem-bcpc-q3-2026-earnings-call-transcript",
+                "date": "2026-10-23",
+                "quote": "Balchem (BCPC) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Balchem은 동물 영양제, 식품 원료, 의료·반도체용 특수 화학물질을 만들어 파는 특수화학 회사다.",
+        "volumeExplanation": "10월 23일 3분기 실적 발표가 있었고, 이를 확인하려는 거래가 몰려 거래대금이 평소의 약 2배로 늘었다. 구체적인 매출·이익 수치와 예상치 대비 결과는 확인한 원문이 없다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Claim c1 sourced by both SEC 8-K (quarter ended Sept 30, 2026) and earnings call transcript (Motley Fool, 2026-10-23). Q3 dates and announcement facts match sources. Category 1 appropriate."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "발켐",
       "nameEn": "BALCHEM CORP",
@@ -7336,9 +7994,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:17:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NPK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "National Presto Industries는 소형 가전·주방용품, 군용 탄약 등 방산 제품, 흡수성 위생용품을 만들어 판다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Correctly classified as category 6 with no_source. Volumeexplanation matches (no news catalyst)."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "내셔널 프레스토 인더스트리스",
       "nameEn": "NATIONAL PRESTO INDUSTRIES INC",
@@ -8537,9 +9215,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:38:15"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NICE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "NICE는 고객센터용 클라우드 소프트웨어와 AI 상담 분석 서비스를 파는 이스라엘 기업이다. 구독형 소프트웨어 매출이 주된 수입원이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Correctly classified as category 6 with no_source. Volumeexplanation matches (no news catalyst)."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "나이스(ADR)",
       "nameEn": "NICE LTD ADR-EACH CNV INTO 1 ORD ILS1",
@@ -9016,9 +9714,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:00:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MGRT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "홍콩 기반의 사물인터넷(IoT) 솔루션 업체로, 나스닥에 상장된 소형 정보기술 서비스 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6, no source correctly classified. volumeExplanation matches claim status."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "메가 포춘",
       "nameEn": "MEGA FORTUNE COMPANY LIMITED",
@@ -9395,9 +10113,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:04:29"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MET",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "MetLife는 생명보험·연금·단체보험을 전 세계 60여 개국에서 팔아 보험료와 투자수익으로 돈을 버는 미국 최대급 보험사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6, no source correctly classified. volumeExplanation matches claim status."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "메트라이프",
       "nameEn": "METLIFE INC",
@@ -10039,9 +10777,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:45:38"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KB",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "KB Financial Group은 한국 최대 금융지주 중 하나로, KB국민은행을 통해 예금·대출 이자와 수수료로 돈을 번다. 미국 증시에는 ADR(주식예탁증서)로 상장돼 있다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6, no source correctly classified. volumeExplanation matches claim status."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "KB 파이낸셜 그룹(ADR)",
       "nameEn": "KB FINANCIAL GROUP INC ADR EACH REPR 1 ORD SHS",
@@ -10485,9 +11243,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:20:08"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KFY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Korn Ferry는 기업의 임원 채용 대행과 인재·조직 컨설팅으로 돈을 버는 인력 서비스 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6, no source correctly classified. volumeExplanation matches claim status."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-24",
+        "carried": false
       },
       "nameKo": "콘 페리",
       "nameEn": "KORN FERRY",
@@ -11057,14 +11835,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 4,
+    "done": 26,
     "total": 26,
-    "cap": null,
-    "pending": 22,
+    "cap": 24,
+    "pending": 0,
     "failed": 0,
-    "carried": 4,
+    "carried": 2,
     "ineligible": 0,
-    "note": "26종목 중 4종목을 조사했습니다. 그중 4종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 22종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -11192,5 +11970,77 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재가 금융(은행·거래소·결제)과 산업재(철도·장비임대·폐기물)에 여럿 몰렸다. 그 밖에는 업종이 흩어져 있다.",
     "caution": "실적 호재 대부분은 \"예상치 상회\" 보도만 있고 가이던스(회사 전망) 상향은 LMT·WCN·ROP·PG 정도다. 근거가 약한 GL(예상 미달)·META(주가 하락)·SAP·TCBI는 뺐고, 뉴스 없는 이상거래량 종목은 근거 없음이라 다루지 않았다. 차트 국면은 판정하지 않았으니 직접 확인해야 한다.",
     "researchedOn": "2026-10-23"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "FCNCA",
+        "category": 1,
+        "oneLine": "3분기 매출·주당순이익이 예상을 넘었고 12억 달러 자사주 매입도 발표"
+      },
+      {
+        "ticker": "SIGI",
+        "category": 1,
+        "oneLine": "3분기 실적이 예상치를 웃돌았고 2억 달러 자사주 매입이 승인됨"
+      },
+      {
+        "ticker": "CUBI",
+        "category": 1,
+        "oneLine": "이익 감소 예상을 뒤집고 순이익 7,840만 달러, 이익·매출 모두 예상 상회"
+      },
+      {
+        "ticker": "CCI",
+        "category": 1,
+        "oneLine": "3분기 AFFO(리츠 영업현금 성격 이익)가 예상 상회, 연간 전망도 조정(방향은 자료에 없음)"
+      },
+      {
+        "ticker": "RNG",
+        "category": 1,
+        "oneLine": "3분기 매출·주당순이익이 모두 예상 상회, 발표 다음 날 주가 상승 보도"
+      },
+      {
+        "ticker": "KNSL",
+        "category": 1,
+        "oneLine": "3분기 실적이 증권사 예상치를 웃돌았다는 보도, 10/23 설명회 녹취 공개"
+      },
+      {
+        "ticker": "SAM",
+        "category": 1,
+        "oneLine": "이익은 예상 상회지만 매출 3.2%, 영업이익 9.2% 감소라 혼재된 호재"
+      },
+      {
+        "ticker": "R",
+        "category": 1,
+        "oneLine": "Ryder의 3분기 순이익·매출이 모두 증권사 예상치를 넘어섬"
+      },
+      {
+        "ticker": "OMC",
+        "category": 1,
+        "oneLine": "매출·주당순이익 모두 예상 상회, 미디어 성장과 인수 후 시너지가 배경"
+      },
+      {
+        "ticker": "PFBC",
+        "category": 1,
+        "oneLine": "10/23 3분기 실적이 증권사 예상치를 웃돌았다는 보도"
+      },
+      {
+        "ticker": "BAH",
+        "category": 1,
+        "oneLine": "10/23 발표한 분기 이익이 증권사 예상치를 웃돎"
+      },
+      {
+        "ticker": "BCPC",
+        "category": 1,
+        "oneLine": "10/23 3분기 실적 발표, 다만 예상 상회 여부는 입력 자료에 없음"
+      }
+    ],
+    "sectorSignal": "실적 호재 12건 중 은행·보험·금융 성격 종목(FCNCA, SIGI, CUBI, PFBC, KNSL)이 5건으로 가장 많습니다. 다만 업종 분류는 티커 기준 추정이고, 이 자료에는 업종 정보가 없습니다. 나머지는 리츠, 소프트웨어, 물류, 광고, 컨설팅, 화학 등으로 흩어져 있습니다.",
+    "caution": "여기서는 실적이 예상을 웃돌았는지만 추렸고, 주가가 이미 얼마나 올랐는지와 차트 상태는 보지 않았습니다. SAM은 매출이 줄었고, CCI와 BCPC는 상향 여부나 예상 상회가 확인되지 않아 강한 호재로 보기 어렵습니다. 뉴스 없는 이상거래량 종목(NATH, RY 등)은 근거가 없어 제외했습니다.",
+    "researchedOn": "2026-10-24"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 12,
+    "6": 14
   }
 };

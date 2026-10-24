@@ -1,0 +1,146 @@
+{
+ "ticker": "NATH",
+ "news": [
+  {
+   "title": "Reminder - Nathan's Famous (NATH) Goes Ex-Dividend Soon",
+   "url": "https://www.nasdaq.com/articles/reminder-nathans-famous-nath-goes-ex-dividend-soon",
+   "date": "2026-06-18",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "NATH vs. ARKR: Which Restaurant Stock Has More Upside for Investors?",
+   "url": "https://www.nasdaq.com/articles/nath-vs-arkr-which-restaurant-stock-has-more-upside-investors",
+   "date": "2026-01-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/69733/000110465926118467/tm2628126d27_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-14",
+   "reportDate": "2026-10-14",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/69733/000110465926115866/tm2627565d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/69733/000143774926026426/nath20260730_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-09",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/69733/000143774926019921/nath20260527_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/69733/000143774926003080/nath20260205_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-21",
+   "reportDate": "2026-01-20",
+   "items": [
+    "1.01",
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/69733/000110465926005233/tm263713d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.03,
+    13.9,
+    8.86
+   ],
+   "ni": [
+    -1.11,
+    -33.67,
+    -31.22
+   ],
+   "opm": [
+    23.43,
+    13.35,
+    14.94
+   ],
+   "updated": "2026-09-21 07:04:37"
+  }
+ }
+}

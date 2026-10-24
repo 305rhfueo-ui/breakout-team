@@ -1,0 +1,186 @@
+{
+ "ticker": "BAH",
+ "news": [
+  {
+   "title": "Booz Allen Hamilton (BAH) Q2 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-q2-2027-earnings-call-transcript",
+   "date": "2026-10-23",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Booz Allen (BAH) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/booz-allen-bah-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Booz Allen Hamilton (BAH) Q2 Earnings Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-q2-earnings-beat-estimates",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Technology Investments & Improved Execution Aid BAH Amid Rising Costs",
+   "url": "https://www.nasdaq.com/articles/technology-investments-improved-execution-aid-bah-amid-rising-costs",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Booz Allen Hamilton (BAH) Expected to Beat Earnings Estimates: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-expected-beat-earnings-estimates-should-you-buy",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Booz Allen Hamilton (BAH) Surpasses Market Returns: Some Facts Worth Knowing",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-surpasses-market-returns-some-facts-worth-knowing-0",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Booz Allen Hamilton (BAH) Stock Sinks As Market Gains: Here's Why",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-stock-sinks-market-gains-heres-why-0",
+   "date": "2026-10-02",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026066971/bah-20261023.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000058/bah-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926090450/tm2621893d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-22",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000029/bah-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-24",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026049494/bah-20260724.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-19",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926076094/tm2618424d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.81,
+  "saleNy": 4.66,
+  "epsCy": -2.62,
+  "epsNy": 6.08,
+  "cyTrend": -1.1,
+  "nyTrend": -0.25,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -4.24,
+    -6.45,
+    -10.18
+   ],
+   "ni": [
+    -26.94,
+    6.22,
+    6.95
+   ],
+   "opm": [
+    9.96,
+    9.45,
+    8.78
+   ],
+   "updated": "2026-09-08 09:04:00"
+  }
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "ticker": "WFRD",
+ "sector": "Energy",
+ "industry": "Oil & Gas Equipment & Services",
+ "nameKo": "웨더포드 인터내셔널",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -4.39,
+  "saleNy": 6.79,
+  "epsCy": 2.02,
+  "epsNy": 10.14,
+  "est": {
+   "cyCur": 6.05,
+   "cy30": 5.44831,
+   "nyCur": 6.66338,
+   "ny30": 7.05877
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -8.22,
+    -3.44,
+    -3.88
+   ],
+   "ni": [
+    -71.32,
+    42.11,
+    23.21
+   ],
+   "opm": [
+    9.68,
+    10.68,
+    15.44
+   ],
+   "updated": "2026-09-08 09:33:19"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "웨더포드 인터내셔널",
+  "nameEn": "WEATHERFORD INTL PLC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001603923&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1143000000,
+     "profit": 153000000,
+     "netIncome": 120000000,
+     "margin": 13.4,
+     "yoy": {
+      "revenue": -7.2,
+      "profit": -14,
+      "netIncome": 48.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1105000000,
+     "profit": 107000000,
+     "netIncome": 39000000,
+     "margin": 9.7,
+     "yoy": {
+      "revenue": -8.2,
+      "profit": -54.9,
+      "netIncome": -71.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1152000000,
+     "profit": 123000000,
+     "netIncome": 108000000,
+     "margin": 10.7,
+     "yoy": {
+      "revenue": -3.4,
+      "profit": -13.4,
+      "netIncome": 42.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1289000000,
+     "profit": 199000000,
+     "netIncome": 138000000,
+     "margin": 15.4,
+     "yoy": {
+      "revenue": -3.9,
+      "profit": 0.5,
+      "netIncome": 23.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Weatherford International Stock Crushed it Today",
+     "url": "https://www.nasdaq.com/articles/why-weatherford-international-stock-crushed-it-today",
+     "date": "2026-10-21",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Weatherford (WFRD) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/weatherford-wfrd-q3-2026-earnings-call-transcript",
+     "date": "2026-10-21",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Weatherford International Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/weatherford-international-q3-earnings-call-highlights",
+     "date": "2026-10-21",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Weatherford (WFRD) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/weatherford-wfrd-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Weatherford (WFRD) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/weatherford-wfrd-earnings-expected-grow-should-you-buy",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Weatherford (WFRD) Up 5.9% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/weatherford-wfrd-59-last-earnings-report-can-it-continue",
+     "date": "2026-08-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Weatherford International Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/weatherford-international-q2-earnings-call-highlights",
+     "date": "2026-07-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Weatherford (WFRD) Q2 Earnings Lag Estimates",
+     "url": "https://www.nasdaq.com/articles/weatherford-wfrd-q2-earnings-lag-estimates",
+     "date": "2026-07-21",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000118/wfrd-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000117/wft-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-04",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000108/wft-20260904.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000105/wft-20260903.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000097/wft-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603923/000160392326000082/wfrd-20260721.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "WFRD",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 15.51,
+  "pbr": 3.49,
+  "eps": 5.6,
+  "bps": 24.9,
+  "shares": 72688400,
+  "marketCapM": 6313,
+  "high52": 112.7945,
+  "high52Date": "2026-05-18",
+  "low52": 64.3629,
+  "low52Date": "2025-10-22",
+  "last": 86.85,
+  "prevClose": 81.18,
+  "nameKo": "웨더포드 인터내셔널",
+  "nameEn": "WEATHERFORD INTL PLC",
+  "listedOn": "2021-06-02",
+  "exchange": "나스닥",
+  "listedShares": 72688400
+ }
+}

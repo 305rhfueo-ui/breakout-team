@@ -1,0 +1,186 @@
+{
+ "ticker": "KNSL",
+ "news": [
+  {
+   "title": "Kinsale Capital (KNSL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/kinsale-capital-knsl-q3-2026-earnings-call-transcript",
+   "date": "2026-10-23",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-q3-earnings-surpass-estimates",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Kinsale Capital Group (KNSL) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-kinsale-capital-group-knsl-q3-earnings",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Curious about Kinsale Capital Group (KNSL) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/curious-about-kinsale-capital-group-knsl-q3-performance-explore-wall-street-estimates-key",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Kinsale Capital Group, Inc. (KNSL) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+   "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-expected-beat-earnings-estimates-can-stock-move-higher",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Kinsale Capital Group, Inc. (KNSL) Increases Despite Market Slip: Here's What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-increases-despite-market-slip-heres-what-you-need-know",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Kinsale Capital Group, Inc. (KNSL) Outperforms Broader Market: What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-outperforms-broader-market-what-you-need-know",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Kinsale Capital Group (KNSL) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-kinsale-capital-group-knsl-beat-estimates-again-its-next-earnings-report-0",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "reportDate": "2026-10-19",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000051/knsl-20261019.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "reportDate": "2026-10-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000049/knsl-20261022.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000039/knsl-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000035/knsl-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000031/knsl-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000029/knsl-20260429.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.14,
+  "saleNy": -0.79,
+  "epsCy": 9.76,
+  "epsNy": 1.34,
+  "cyTrend": 1.33,
+  "nyTrend": 0.25,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.75,
+    10.23,
+    17.26
+   ],
+   "ni": [
+    31.13,
+    26.14,
+    27.06
+   ],
+   "opm": [
+    40.68,
+    30.6,
+    36.79
+   ],
+   "updated": "2026-09-08 07:24:24"
+  }
+ }
+}

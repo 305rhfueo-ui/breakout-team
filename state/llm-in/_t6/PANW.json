@@ -1,0 +1,812 @@
+{
+ "ticker": "PANW",
+ "date": "2026-10-24",
+ "session": "2026-10-23",
+ "source": "list",
+ "plan": {
+  "ticker": "PANW",
+  "name": "팰로 앨토 네트웍스",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 380.55,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 432.33,
+  "stop": 415.47,
+  "distToPivotPct": -11.98,
+  "distToPivotAdr": -2.7,
+  "riskPerSharePct": 3.9,
+  "adrPct": 4.43,
+  "extensionAdr": 0.87,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 17,
+   "baseWeeks": 3.4,
+   "depthPct": 22.6,
+   "priorMovePct": 40.1,
+   "higherLows": 0,
+   "contraction": 1.15,
+   "closeRange10Adr": 3.8,
+   "surf10": 0.87,
+   "surf20": -0.22,
+   "slope20": -1.72,
+   "baseLow": 334.75,
+   "lastSwingLow": 334.75
+  },
+  "reasons": [
+   "선행 상승 +40%",
+   "베이스 3.4주",
+   "깊이 22.6%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.15배 · 10일 종가폭 3.8 ADR",
+   "✗ 10일선 +0.9 ADR · 20일선 -0.2 ADR",
+   "✗ 20일선 기울기 -1.72%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.06936576141004422,
+    "pct": 53.065825067628495
+   },
+   "m3": {
+    "v": 0.13690191593374845,
+    "pct": 87.60144274120829
+   },
+   "m6": {
+    "v": 1.0128452544497957,
+    "pct": 98.42200180342651
+   }
+  },
+  "ret1m": 1.55,
+  "ret3m": 16.85,
+  "ret6m": 106.19,
+  "marketCap": "290.32B",
+  "volx": 1.22,
+  "volSurgeWk": 1.09,
+  "high52": 88.02,
+  "newHigh52": false,
+  "adr": 4.43,
+  "div50": 2.75,
+  "div200": 43.66,
+  "targetStatus": false,
+  "saleCy": 23.46,
+  "saleNy": 14.49,
+  "epsCy": 9.14,
+  "epsNy": -47.26,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "est": {
+   "cyCur": 4.19114,
+   "cy30": 4.19114,
+   "nyCur": 2.21057,
+   "ny30": 2.21057
+  },
+  "fs": {
+   "sale": [
+    34.44,
+    31.15,
+    14.93
+   ],
+   "ni": [
+    -211.07,
+    -167.56,
+    61.8
+   ],
+   "opm": [
+    5.04,
+    -6.1,
+    15.3
+   ],
+   "updated": "2026-09-08 06:24:54"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-10-23"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "팰로 앨토 네트웍스",
+  "nameEn": "PALO ALTO NETWORKS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": true,
+     "revenue": 3410000000,
+     "profit": 172000000,
+     "netIncome": -282000000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 34.5,
+      "profit": -65.4,
+      "netIncome": -211,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 3002000000,
+     "profit": -183000000,
+     "netIncome": -177000000,
+     "margin": -6.1,
+     "yoy": {
+      "revenue": 31.1,
+      "profit": -183.6,
+      "netIncome": -167.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 2594000000,
+     "profit": 397000000,
+     "netIncome": 432000000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 14.9,
+      "profit": 64.7,
+      "netIncome": 61.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 2474000000,
+     "profit": 309000000,
+     "netIncome": 334000000,
+     "margin": 12.5,
+     "yoy": {
+      "revenue": 15.7,
+      "profit": 8,
+      "netIncome": -4.8,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts",
+     "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-stock-dips-while-market-gains-key-facts",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/panw-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "임원 변동",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526361122/d180372d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000012/panw-20260602.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-13",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526151637/d49517d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-23",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526119729/d84927d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000009/panw-20260310.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-09-11",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] FY2030E 장기 성장 목표 상회 여지가 주요 포인트",
+     "summary": "- FY4Q26 실적과 다음 분기, 연간 가이던스는 시장 컨센서스를 상회- 연간 ARR과 RPO 가이던스가 시장 기대치에 다소 미치지 못해 주가 하락- AI Agent 시대에 연간 ARR 성장률이 가속화될 수 있을지 여부에 주목해야",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmcleeczzqeqlgcgxecgk.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Review] 선행지표는 최고, 밸류는 90배, 투자의견 중립 유지",
+     "summary": "- Q4 매출 34.1억 달러·EPS 1.02달러로 가이던스 상회- FY27 밴드는 컨센서스 위, NGS ARR은 22~23%로 감속- NTM PER 91.9배, 목표가 평균까지 여유 3%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllieeexmexmxcgcgxecgk.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Preview] 3개월 87% 오른 주식이 실적으로 그 값을 증명할까, 투자의견 중립 하향",
+     "summary": "- 팔로알토 네트웍스, 3개월 주가 87% 상승해 선행 PER 75배까지 확대, 밸류에이션 부담 상승- 차세대 보안 ARR은 60% 증가했지만 인수 효과 제외 시 28%, 유기적 성장 둔화 여부가 핵심- FY27 가이던스와 마진 회복이 주가 방향 좌우, 투자의견 매수에서 중립으로 하향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzglqilizkqkgcgxecgk.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [Issue & News] 중국 CAC, 사이버보안 심사 착수 - 마이크론식 조달금지 리스크 부상",
+     "summary": "- 중국 CAC, 팔로알토 제품 사이버보안 심사 착수- 2023년 마이크론 심사·조달금지 사례와 유사한 절차- 中매출 미공시로 실적 영향 크기 파악 어려움",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxecgk.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] AI 에이전트 시대의 필요 조건은 사이버 보안",
+     "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxecgk.pdf",
+     "pages": "8"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "PANW-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-09-01",
+   "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Review] 선행지표는 최고, 밸류는 90배, 투자의견 중립 유지",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllieeexmexmxcgcgxecgk.pdf",
+   "pages": "7"
+  },
+  {
+   "file": "PANW-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-06",
+   "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [Issue & News] 중국 CAC, 사이버보안 심사 착수 - 마이크론식 조달금지 리스크 부상",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxecgk.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Why cybersecurity stocks are getting another big boost. They're key to the AI trade",
+   "url": "https://www.cnbc.com/2026/10/22/why-cybersecurity-stocks-are-getting-another-big-boost-theyre-key-to-the-ai-trade.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tale of two markets: Our 3 biggest winners and losers over the past five weeks",
+   "url": "https://www.cnbc.com/investingclub/2026/10/15/tale-of-two-markets-our-3-biggest-winners-and-losers-over-the-past-five-weeks.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+   "url": "https://www.cnbc.com/2026/10/04/top-analysts-are-upbeat-about-the-prospects-for-these-3-stocks.html",
+   "date": "2026-10-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Palo Alto CEO says slowing down AI is ‘unrealistic’, extinction threat ‘extremely small’",
+   "url": "https://www.cnbc.com/2026/09/24/palo-alto-networks-nikesh-arora-ai-slowdown.html",
+   "date": "2026-09-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday's stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/09/23/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-09-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Palo Alto Networks CEO Nikesh Arora: Our security response time has to get faster as AI gets faster",
+   "url": "https://www.cnbc.com/video/2026/10/15/palo-alto-networks-ceo-nikesh-arora-our-security-response-time-has-to-get-faster-as-ai-gets-faster.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Palo Alto CEO Nikesh Arora",
+   "url": "https://www.cnbc.com/video/2026/10/15/watch-cnbcs-full-interview-with-palo-alto-ceo-nikesh-arora.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Cybersecurity must move at the speed of AI: Palo Alto Networks Executive",
+   "url": "https://www.cnbc.com/video/2026/10/14/cybersecurity-must-move-at-the-speed-of-ai-palo-alto-networks-executive.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PANW",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 742.54,
+  "pbr": 11.28,
+  "eps": 0.51,
+  "bps": 33.73,
+  "shares": 818000000,
+  "marketCapM": 311290,
+  "high52": 432.325,
+  "high52Date": "2026-10-06",
+  "low52": 139.5706,
+  "low52Date": "2026-02-24",
+  "last": 380.55,
+  "prevClose": 354.92,
+  "nameKo": "팰로 앨토 네트웍스",
+  "nameEn": "PALO ALTO NETWORKS INC",
+  "listedOn": "2021-10-25",
+  "exchange": "나스닥",
+  "listedShares": 818000000
+ },
+ "estimates": {
+  "ticker": "PANW",
+  "url": "https://finance.yahoo.com/quote/PANW/analysis/",
+  "fetchedAt": "2026-10-24",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 0.97,
+    "epsLow": 0.95,
+    "epsHigh": 1.01,
+    "epsYearAgo": 0.93,
+    "epsAnalysts": 45,
+    "epsGrowth": 4.5,
+    "epsCur": "USD",
+    "rev": 3307503520,
+    "revAnalysts": 45,
+    "revYearAgo": 2474000000,
+    "revGrowth": 33.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 0.43,
+    "epsLow": 0.24,
+    "epsHigh": 0.99,
+    "epsYearAgo": 0.61,
+    "epsAnalysts": 16,
+    "epsGrowth": -29.4,
+    "epsCur": "USD",
+    "rev": 3418942600,
+    "revAnalysts": 44,
+    "revYearAgo": 2594000000,
+    "revGrowth": 31.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-07-31",
+    "eps": 4.19,
+    "epsLow": 4.15,
+    "epsHigh": 4.57,
+    "epsYearAgo": 3.84,
+    "epsAnalysts": 54,
+    "epsGrowth": 9.1,
+    "epsCur": "USD",
+    "rev": 14173386810,
+    "revAnalysts": 51,
+    "revYearAgo": 11480000000,
+    "revGrowth": 23.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-07-31",
+    "eps": 2.21,
+    "epsLow": 1.32,
+    "epsHigh": 3.03,
+    "epsYearAgo": 1.58,
+    "epsAnalysts": 18,
+    "epsGrowth": 40.3,
+    "epsCur": "USD",
+    "rev": 16227795210,
+    "revAnalysts": 47,
+    "revYearAgo": 14173386810,
+    "revGrowth": 14.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 0.97,
+    "d7": 0,
+    "d30": 0,
+    "d90": 3.6,
+    "ago90": 0.94,
+    "up7": 0,
+    "up30": 32,
+    "down7": 0,
+    "down30": 5
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 0.43,
+    "d7": 0,
+    "d30": -5.6,
+    "d90": -8.7,
+    "ago90": 0.47,
+    "up7": 0,
+    "up30": 2,
+    "down7": 0,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-07-31",
+    "cur": "USD",
+    "now": 4.19,
+    "d7": 0,
+    "d30": 0,
+    "d90": 1.5,
+    "ago90": 4.13,
+    "up7": 0,
+    "up30": 37,
+    "down7": 2,
+    "down30": 10
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-07-31",
+    "cur": "USD",
+    "now": 2.21,
+    "d7": 0,
+    "d30": 0,
+    "d90": -3.3,
+    "ago90": 2.29,
+    "up7": 1,
+    "up30": 6,
+    "down7": 0,
+    "down30": 5
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 1.02,
+    "estimate": 0.98,
+    "surprisePct": 4.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 0.85,
+    "estimate": 0.8,
+    "surprisePct": 6.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 1.03,
+    "estimate": 0.94,
+    "surprisePct": 9.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.93,
+    "estimate": 0.89,
+    "surprisePct": 4.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 1,
+   "ptRaised": 33,
+   "ptLowered": 0,
+   "total": 39,
+   "recent": [
+    {
+     "date": "2026-10-15",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 440,
+     "ptPrior": 410
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 525,
+     "ptPrior": 475
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Amerx",
+     "action": "init",
+     "from": null,
+     "to": "Hold",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 440,
+     "ptPrior": 400
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 425,
+     "ptPrior": 404
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 410,
+     "ptPrior": 394
+    },
+    {
+     "date": "2026-09-17",
+     "firm": "Bernstein",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 351,
+     "ptPrior": 253
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "Argus Research",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 425,
+     "ptPrior": 425
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 410,
+     "ptPrior": 400
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Roth Capital",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 300,
+     "ptPrior": 210
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-19",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-23",
+  "numbers": {
+   "price": 380.55,
+   "ma20": 384.25,
+   "ma50": 370.35,
+   "ma150": 297.11,
+   "distMA50": 2.75,
+   "periodHigh": 432.33,
+   "pullbackFromHigh": -11.98,
+   "volRatio20": 1.22,
+   "dryUpRatio": 1.04
+  },
+  "last10": [
+   {
+    "d": "2026-10-12",
+    "o": 421.41,
+    "h": 421.48,
+    "l": 397.71,
+    "c": 403.83,
+    "v": 4797500,
+    "clsPos": 26,
+    "gapPct": 0.63
+   },
+   {
+    "d": "2026-10-13",
+    "o": 397.51,
+    "h": 407.8,
+    "l": 396.04,
+    "c": 397.03,
+    "v": 3490900,
+    "clsPos": 8,
+    "gapPct": -1.57
+   },
+   {
+    "d": "2026-10-14",
+    "o": 378.96,
+    "h": 383.64,
+    "l": 370.5,
+    "c": 375.04,
+    "v": 7157800,
+    "clsPos": 35,
+    "gapPct": -4.55
+   },
+   {
+    "d": "2026-10-15",
+    "o": 367.05,
+    "h": 372.05,
+    "l": 361.68,
+    "c": 370.27,
+    "v": 5604100,
+    "clsPos": 83,
+    "gapPct": -2.13
+   },
+   {
+    "d": "2026-10-16",
+    "o": 373.51,
+    "h": 375.71,
+    "l": 339.55,
+    "c": 342,
+    "v": 8775200,
+    "clsPos": 7,
+    "gapPct": 0.88
+   },
+   {
+    "d": "2026-10-19",
+    "o": 356,
+    "h": 356,
+    "l": 345.08,
+    "c": 346.95,
+    "v": 4596400,
+    "clsPos": 17,
+    "gapPct": 4.09
+   },
+   {
+    "d": "2026-10-20",
+    "o": 345.28,
+    "h": 346.06,
+    "l": 334.75,
+    "c": 340.28,
+    "v": 4241200,
+    "clsPos": 49,
+    "gapPct": -0.48
+   },
+   {
+    "d": "2026-10-21",
+    "o": 343.44,
+    "h": 354.42,
+    "l": 339.53,
+    "c": 347.25,
+    "v": 5162500,
+    "clsPos": 52,
+    "gapPct": 0.93
+   },
+   {
+    "d": "2026-10-22",
+    "o": 356.58,
+    "h": 366.23,
+    "l": 352.24,
+    "c": 354.92,
+    "v": 7313000,
+    "clsPos": 19,
+    "gapPct": 2.69
+   },
+   {
+    "d": "2026-10-23",
+    "o": 354.3,
+    "h": 381.45,
+    "l": 351.24,
+    "c": 380.55,
+    "v": 6561456,
+    "clsPos": 97,
+    "gapPct": -0.17
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PANW-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PANW-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

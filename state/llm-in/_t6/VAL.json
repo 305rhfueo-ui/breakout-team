@@ -1,0 +1,645 @@
+{
+ "ticker": "VAL",
+ "date": "2026-10-24",
+ "session": "2026-10-23",
+ "source": "list",
+ "plan": {
+  "ticker": "VAL",
+  "name": "발라리스",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "price": 97.33,
+  "grade": "C",
+  "state": "post",
+  "pivot": 93.16,
+  "stop": 89.84,
+  "distToPivotPct": 4.48,
+  "distToPivotAdr": 1.18,
+  "riskPerSharePct": 3.57,
+  "adrPct": 3.79,
+  "extensionAdr": 2.44,
+  "breakDate": "2026-10-23",
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 17.2,
+   "priorMovePct": 30.3,
+   "higherLows": 1,
+   "contraction": 1.27,
+   "closeRange10Adr": 2.6,
+   "surf10": 1.57,
+   "surf20": 2.52,
+   "slope20": 2.09,
+   "baseLow": 77.17,
+   "lastSwingLow": 82.22
+  },
+  "reasons": [
+   "선행 상승 +30%",
+   "베이스 7.8주",
+   "깊이 17.2%",
+   "저점 상승 1회",
+   "✗ 진폭 1.27배 · 10일 종가폭 2.6 ADR",
+   "✗ 10일선 +1.6 ADR · 20일선 +2.5 ADR",
+   "20일선 기울기 +2.09%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.25561498669042537,
+    "pct": 96.25788999098287
+   },
+   "m3": {
+    "v": 0.25619814111776623,
+    "pct": 94.00360685302074
+   },
+   "m6": {
+    "v": -0.09971008949864059,
+    "pct": 28.809738503155994
+   }
+  },
+  "ret1m": 20.18,
+  "ret3m": 28.78,
+  "ret6m": -5.06,
+  "marketCap": "6.40B",
+  "volx": 0.96,
+  "volSurgeWk": 0.89,
+  "high52": 85.29,
+  "newHigh52": false,
+  "adr": 3.79,
+  "div50": 14.36,
+  "div200": 14.59,
+  "targetStatus": false,
+  "saleCy": -7.18,
+  "saleNy": 12.6,
+  "epsCy": -75.32,
+  "epsNy": 93.36,
+  "cyTrend": -0.34,
+  "nyTrend": -4.71,
+  "est": {
+   "cyCur": 3.45327,
+   "cy30": 3.46493,
+   "nyCur": 6.67731,
+   "ny30": 7.00731
+  },
+  "fs": {
+   "sale": [
+    -12.35,
+    -25.02,
+    -8.04
+   ],
+   "ni": [
+    -56.21,
+    "적자축소",
+    436.65
+   ],
+   "opm": [
+    9.48,
+    4.3,
+    7.33
+   ],
+   "updated": "2026-09-08 05:52:32"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "발라리스",
+  "nameEn": "VALARIS LTD",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000314808&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 539200000,
+     "profit": 51100000,
+     "netIncome": 50400000,
+     "margin": 9.5,
+     "yoy": {
+      "revenue": -12.4,
+      "profit": -68.9,
+      "netIncome": -56.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 465400000,
+     "profit": 20000000,
+     "netIncome": -16400000,
+     "margin": 4.3,
+     "yoy": {
+      "revenue": -25,
+      "profit": -86,
+      "netIncome": 56.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 537400000,
+     "profit": 39400000,
+     "netIncome": 713800000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": -8,
+      "profit": -66.9,
+      "netIncome": 13.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 595700000,
+     "profit": 130500000,
+     "netIncome": 188100000,
+     "margin": 21.9,
+     "yoy": {
+      "revenue": -7.4,
+      "profit": 37.5,
+      "netIncome": 191.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Valaris Limited Announces November 26, 2026 Court Sanction Hearing for Proposed Transocean Ltd. Business Combination",
+     "url": "https://www.nasdaq.com/articles/valaris-limited-announces-november-26-2026-court-sanction-hearing-proposed-transocean-ltd",
+     "date": "2026-10-24",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Valaris' Latest Contract Awards Add $220M to Contract Backlog",
+     "url": "https://www.nasdaq.com/articles/valaris-latest-contract-awards-add-220m-contract-backlog",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Valaris (VAL) Soars 8.6%: Is Further Upside Left in the Stock?",
+     "url": "https://www.nasdaq.com/articles/valaris-val-soars-86-further-upside-left-stock",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Valaris Rallied Today",
+     "url": "https://www.nasdaq.com/articles/why-valaris-rallied-today",
+     "date": "2026-09-15",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Valaris Limited Announces Retreat In Q2 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/valaris-limited-announces-retreat-q2-bottom-line",
+     "date": "2026-08-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Valaris Limited (VAL) Tops Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/valaris-limited-val-tops-q2-earnings-and-revenue-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Options Traders Betting on a Big Move in Valaris Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-valaris-stock",
+     "date": "2026-07-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TechnipFMC vs. Valaris: Which Energy Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/technipfmc-vs-valaris-which-energy-stock-better-buy-2026",
+     "date": "2026-06-08",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126040674/ef20084275_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126039551/ef20083773_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126038106/ef20083020_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000031480826000139/val-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000031480826000138/val-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/314808/000114036126027091/ef20077172_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "VAL",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 7.27,
+  "pbr": 2.09,
+  "eps": 13.39,
+  "bps": 46.47,
+  "shares": 69443100,
+  "marketCapM": 6759,
+  "high52": 114.12,
+  "high52Date": "2026-05-18",
+  "low52": 48.085,
+  "low52Date": "2025-12-17",
+  "last": 97.33,
+  "prevClose": 92.19,
+  "nameKo": "발라리스",
+  "nameEn": "VALARIS LTD",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 69443100
+ },
+ "estimates": {
+  "ticker": "VAL",
+  "url": "https://finance.yahoo.com/quote/VAL/analysis/",
+  "fetchedAt": "2026-10-24",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 1.06,
+    "epsLow": 0.98,
+    "epsHigh": 1.26,
+    "epsYearAgo": 2.65,
+    "epsAnalysts": 5,
+    "epsGrowth": -59.9,
+    "epsCur": "USD",
+    "rev": 572802740,
+    "revAnalysts": 6,
+    "revYearAgo": 595700000,
+    "revGrowth": -3.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.72,
+    "epsLow": 1.48,
+    "epsHigh": 1.9,
+    "epsYearAgo": 10.26,
+    "epsAnalysts": 4,
+    "epsGrowth": -83.2,
+    "epsCur": "USD",
+    "rev": 634919630,
+    "revAnalysts": 6,
+    "revYearAgo": 537400000,
+    "revGrowth": 18.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 3.45,
+    "epsLow": 2.88,
+    "epsHigh": 3.96,
+    "epsYearAgo": 13.99,
+    "epsAnalysts": 6,
+    "epsGrowth": -75.3,
+    "epsCur": "USD",
+    "rev": 2198810770,
+    "revAnalysts": 7,
+    "revYearAgo": 2369000000,
+    "revGrowth": -7.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 6.68,
+    "epsLow": 5.81,
+    "epsHigh": 7.67,
+    "epsYearAgo": 3.45,
+    "epsAnalysts": 7,
+    "epsGrowth": 93.4,
+    "epsCur": "USD",
+    "rev": 2475808040,
+    "revAnalysts": 8,
+    "revYearAgo": 2198810770,
+    "revGrowth": 12.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 1.06,
+    "d7": -0.1,
+    "d30": -0.1,
+    "d90": -22.2,
+    "ago90": 1.37,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.72,
+    "d7": 0,
+    "d30": 0,
+    "d90": -11.7,
+    "ago90": 1.95,
+    "up7": 1,
+    "up30": 0,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.45,
+    "d7": -0.3,
+    "d30": -0.3,
+    "d90": -0.4,
+    "ago90": 3.47,
+    "up7": 1,
+    "up30": 0,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 6.68,
+    "d7": -4.7,
+    "d30": -4.7,
+    "d90": -7.8,
+    "ago90": 7.24,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.72,
+    "estimate": 0.18,
+    "surprisePct": 295.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.24,
+    "estimate": -0.09,
+    "surprisePct": -174.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 10.26,
+    "estimate": 0.42,
+    "surprisePct": 2355,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 2.65,
+    "estimate": 0.91,
+    "surprisePct": 190.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-10-05",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 86,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 80,
+     "ptPrior": 75
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-02",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-23",
+  "numbers": {
+   "price": 97.33,
+   "ma20": 84.64,
+   "ma50": 85.11,
+   "ma150": 87.59,
+   "distMA50": 14.36,
+   "periodHigh": 114.12,
+   "pullbackFromHigh": -14.71,
+   "volRatio20": 0.83,
+   "dryUpRatio": 0.9
+  },
+  "last10": [
+   {
+    "d": "2026-10-12",
+    "o": 84.77,
+    "h": 86.3,
+    "l": 83.48,
+    "c": 84.94,
+    "v": 429100,
+    "clsPos": 52,
+    "gapPct": 1.34
+   },
+   {
+    "d": "2026-10-13",
+    "o": 86.1,
+    "h": 87.63,
+    "l": 85.37,
+    "c": 85.55,
+    "v": 742600,
+    "clsPos": 8,
+    "gapPct": 1.37
+   },
+   {
+    "d": "2026-10-14",
+    "o": 86.95,
+    "h": 88.21,
+    "l": 84.54,
+    "c": 84.73,
+    "v": 1857700,
+    "clsPos": 5,
+    "gapPct": 1.64
+   },
+   {
+    "d": "2026-10-15",
+    "o": 83.97,
+    "h": 84.67,
+    "l": 82.22,
+    "c": 83.75,
+    "v": 1039500,
+    "clsPos": 62,
+    "gapPct": -0.9
+   },
+   {
+    "d": "2026-10-16",
+    "o": 84.9,
+    "h": 87,
+    "l": 84.15,
+    "c": 85.32,
+    "v": 879200,
+    "clsPos": 41,
+    "gapPct": 1.37
+   },
+   {
+    "d": "2026-10-19",
+    "o": 86.04,
+    "h": 90.64,
+    "l": 86.04,
+    "c": 89.39,
+    "v": 1083700,
+    "clsPos": 73,
+    "gapPct": 0.84
+   },
+   {
+    "d": "2026-10-20",
+    "o": 90.04,
+    "h": 91.5,
+    "l": 87.2,
+    "c": 88.35,
+    "v": 888100,
+    "clsPos": 27,
+    "gapPct": 0.73
+   },
+   {
+    "d": "2026-10-21",
+    "o": 88.09,
+    "h": 91.82,
+    "l": 88.08,
+    "c": 91.72,
+    "v": 588400,
+    "clsPos": 97,
+    "gapPct": -0.29
+   },
+   {
+    "d": "2026-10-22",
+    "o": 92.09,
+    "h": 92.79,
+    "l": 87.42,
+    "c": 92.19,
+    "v": 693000,
+    "clsPos": 89,
+    "gapPct": 0.4
+   },
+   {
+    "d": "2026-10-23",
+    "o": 92.63,
+    "h": 98.82,
+    "l": 92.79,
+    "c": 97.33,
+    "v": 732761,
+    "clsPos": 75,
+    "gapPct": 0.48
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VAL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VAL-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,671 @@
+{
+ "ticker": "SIGI",
+ "date": "2026-10-24",
+ "session": "2026-10-23",
+ "source": "list",
+ "plan": {
+  "ticker": "SIGI",
+  "name": "셀렉티브 인슈어런스 그룹",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "price": 96.61,
+  "grade": "C",
+  "state": "post",
+  "pivot": 93.52,
+  "stop": 91.74,
+  "distToPivotPct": 3.3,
+  "distToPivotAdr": 1.54,
+  "riskPerSharePct": 1.9,
+  "adrPct": 2.15,
+  "extensionAdr": 3.64,
+  "breakDate": "2026-10-23",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 11.2,
+   "priorMovePct": 10.2,
+   "higherLows": 1,
+   "contraction": 1.07,
+   "closeRange10Adr": 4.2,
+   "surf10": 2.21,
+   "surf20": 3.03,
+   "slope20": 0.94,
+   "baseLow": 83.02,
+   "lastSwingLow": 83.1
+  },
+  "reasons": [
+   "✗ 선행 상승 +10%",
+   "베이스 8주",
+   "깊이 11.2%",
+   "저점 상승 1회",
+   "✗ 진폭 1.07배 · 10일 종가폭 4.2 ADR",
+   "✗ 10일선 +2.2 ADR · 20일선 +3 ADR",
+   "20일선 기울기 +0.94%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.17566839757377842,
+    "pct": 88.41298467087466
+   },
+   "m3": {
+    "v": -0.006304697657598144,
+    "pct": 60.9107303877367
+   },
+   "m6": {
+    "v": 0.15690091890291202,
+    "pct": 75.69882777276827
+   }
+  },
+  "ret1m": 12.18,
+  "ret3m": 2.53,
+  "ret6m": 20.6,
+  "marketCap": "5.46B",
+  "volx": 3.56,
+  "volSurgeWk": 3.59,
+  "high52": 95.42,
+  "newHigh52": false,
+  "adr": 2.15,
+  "div50": 8.66,
+  "div200": 11.48,
+  "targetStatus": false,
+  "saleCy": 2.14,
+  "saleNy": -0.25,
+  "epsCy": 12.08,
+  "epsNy": 5.91,
+  "cyTrend": 1.47,
+  "nyTrend": -0.17,
+  "est": {
+   "cyCur": 8.27125,
+   "cy30": 8.15125,
+   "nyCur": 8.76,
+   "ny30": 8.775
+  },
+  "fs": {
+   "sale": [
+    4.54,
+    5.74,
+    8.64
+   ],
+   "ni": [
+    51.94,
+    -11.36,
+    64.03
+   ],
+   "opm": [
+    12.69,
+    10.11,
+    15.34
+   ],
+   "updated": "2026-09-08 07:16:35"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "셀렉티브 인슈어런스 그룹",
+  "nameEn": "SELECTIVE INSURANCE GROUP",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000230557&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1326300000,
+     "profit": 162088000,
+     "netIncome": 128652000,
+     "margin": 12.2,
+     "yoy": {
+      "revenue": -2.5,
+      "profit": 11.2,
+      "netIncome": 11.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1387035000,
+     "profit": 162845000,
+     "netIncome": 129385000,
+     "margin": 11.7,
+     "yoy": {
+      "revenue": 4.5,
+      "profit": 49.5,
+      "netIncome": 50.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1358925000,
+     "profit": 124202000,
+     "netIncome": 97676000,
+     "margin": 9.1,
+     "yoy": {
+      "revenue": 5.7,
+      "profit": -10.6,
+      "netIncome": -11.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1364887000,
+     "profit": 196095000,
+     "netIncome": 155232000,
+     "margin": 14.4,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 64.7,
+      "netIncome": 62.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Selective Insurance (SIGI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/selective-insurance-sigi-q3-2026-earnings-call-transcript",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Selective Insurance Group Q3 26 Earnings Conference Call AT 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/selective-insurance-group-q3-26-earnings-conference-call-8-00-am-et",
+     "date": "2026-10-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Selective Insurance Group, Inc. Reports Third Quarter 2026 Results and Authorizes New $200 Million Share Repurchase Program",
+     "url": "https://www.nasdaq.com/articles/selective-insurance-group-inc-reports-third-quarter-2026-results-and-authorizes-new-200",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Selective Insurance (SIGI) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-selective-insurance-sigi-q3-earnings",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Selective Insurance (SIGI) Q3 Earnings Top Estimates",
+     "url": "https://www.nasdaq.com/articles/selective-insurance-sigi-q3-earnings-top-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Selective Insurance Group Inc Profit Climbs In Q3",
+     "url": "https://www.nasdaq.com/articles/selective-insurance-group-inc-profit-climbs-q3",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Stay Ahead of the Game With Selective Insurance (SIGI) Q3 Earnings: Wall Street's Insights on Key Metrics",
+     "url": "https://www.nasdaq.com/articles/stay-ahead-game-selective-insurance-sigi-q3-earnings-wall-streets-insights-key-metrics",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Selective Insurance (SIGI) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-selective-insurance-sigi-top-momentum-stock-long-term",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000024/sigi-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000110465926108267/tm2625551d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000018/sigi-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000110465926061133/tm2614641d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000013/sigi-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000008/sigi-20260422.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "SIGI",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 11.99,
+  "pbr": 1.66,
+  "eps": 8.06,
+  "bps": 58.13,
+  "shares": 59569100,
+  "marketCapM": 5755,
+  "high52": 101.25,
+  "high52Date": "2026-10-23",
+  "low52": 72.0061,
+  "low52Date": "2025-11-04",
+  "last": 96.61,
+  "prevClose": 91.74,
+  "nameKo": "셀렉티브 인슈어런스 그룹",
+  "nameEn": "SELECTIVE INSURANCE GROUP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 59569100
+ },
+ "estimates": {
+  "ticker": "SIGI",
+  "url": "https://finance.yahoo.com/quote/SIGI/analysis/",
+  "fetchedAt": "2026-10-24",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.47,
+    "epsLow": 2.43,
+    "epsHigh": 2.5,
+    "epsYearAgo": 2.57,
+    "epsAnalysts": 2,
+    "epsGrowth": -4.1,
+    "epsCur": "USD",
+    "rev": 1339748250,
+    "revAnalysts": 4,
+    "revYearAgo": 1364900000,
+    "revGrowth": -1.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.12,
+    "epsLow": 1.92,
+    "epsHigh": 2.29,
+    "epsYearAgo": 1.69,
+    "epsAnalysts": 7,
+    "epsGrowth": 25.3,
+    "epsCur": "USD",
+    "rev": 1332778500,
+    "revAnalysts": 4,
+    "revYearAgo": 1358900000,
+    "revGrowth": -1.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 8.47,
+    "epsLow": 8.44,
+    "epsHigh": 8.5,
+    "epsYearAgo": 7.38,
+    "epsAnalysts": 2,
+    "epsGrowth": 14.8,
+    "epsCur": "USD",
+    "rev": 5409331000,
+    "revAnalysts": 3,
+    "revYearAgo": 5336900000,
+    "revGrowth": 1.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 8.79,
+    "epsLow": 8.58,
+    "epsHigh": 9.24,
+    "epsYearAgo": 8.47,
+    "epsAnalysts": 7,
+    "epsGrowth": 3.8,
+    "epsCur": "USD",
+    "rev": 5327262360,
+    "revAnalysts": 5,
+    "revYearAgo": 5409331000,
+    "revGrowth": -1.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.47,
+    "d7": -8.4,
+    "d30": -8.8,
+    "d90": -4.6,
+    "ago90": 2.58,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.12,
+    "d7": -0.5,
+    "d30": 1.2,
+    "d90": 1.1,
+    "ago90": 2.1,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 8.47,
+    "d7": 2.4,
+    "d30": 3.9,
+    "d90": 4.9,
+    "ago90": 8.07,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 8.79,
+    "d7": 0.3,
+    "d30": 0.2,
+    "d90": -0.9,
+    "ago90": 8.87,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.37,
+    "estimate": 1.93,
+    "surprisePct": 22.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.95,
+    "estimate": 1.67,
+    "surprisePct": 16.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.69,
+    "estimate": 1.82,
+    "surprisePct": -7.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.57,
+    "estimate": 2.18,
+    "surprisePct": 17.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 1,
+   "total": 4,
+   "recent": [
+    {
+     "date": "2026-09-28",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 97,
+     "ptPrior": 105
+    },
+    {
+     "date": "2026-07-30",
+     "firm": "Keefe, Bruyette& Woods",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 102,
+     "ptPrior": 101
+    },
+    {
+     "date": "2026-07-28",
+     "firm": "BMO Capital",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Market Perform",
+     "ptAction": "Maintains",
+     "pt": 97,
+     "ptPrior": 97
+    },
+    {
+     "date": "2026-07-27",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 110
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-23",
+  "numbers": {
+   "price": 96.61,
+   "ma20": 86.88,
+   "ma50": 88.92,
+   "ma150": 88.71,
+   "distMA50": 8.65,
+   "periodHigh": 103.56,
+   "pullbackFromHigh": -6.71,
+   "volRatio20": 3.25,
+   "dryUpRatio": 1.41
+  },
+  "last10": [
+   {
+    "d": "2026-10-12",
+    "o": 84.29,
+    "h": 85.4,
+    "l": 83.91,
+    "c": 84.92,
+    "v": 391100,
+    "clsPos": 68,
+    "gapPct": 0.08
+   },
+   {
+    "d": "2026-10-13",
+    "o": 85.72,
+    "h": 85.87,
+    "l": 84.88,
+    "c": 85.15,
+    "v": 499500,
+    "clsPos": 27,
+    "gapPct": 0.94
+   },
+   {
+    "d": "2026-10-14",
+    "o": 84.89,
+    "h": 86.36,
+    "l": 83.95,
+    "c": 86.21,
+    "v": 431500,
+    "clsPos": 94,
+    "gapPct": -0.31
+   },
+   {
+    "d": "2026-10-15",
+    "o": 87.68,
+    "h": 88.39,
+    "l": 86.85,
+    "c": 87.3,
+    "v": 669000,
+    "clsPos": 29,
+    "gapPct": 1.71
+   },
+   {
+    "d": "2026-10-16",
+    "o": 87.4,
+    "h": 89.22,
+    "l": 87.01,
+    "c": 89.16,
+    "v": 399900,
+    "clsPos": 97,
+    "gapPct": 0.11
+   },
+   {
+    "d": "2026-10-19",
+    "o": 88.62,
+    "h": 89.42,
+    "l": 88.32,
+    "c": 88.87,
+    "v": 305700,
+    "clsPos": 50,
+    "gapPct": -0.61
+   },
+   {
+    "d": "2026-10-20",
+    "o": 89.39,
+    "h": 90.52,
+    "l": 89.15,
+    "c": 89.44,
+    "v": 510200,
+    "clsPos": 21,
+    "gapPct": 0.59
+   },
+   {
+    "d": "2026-10-21",
+    "o": 89.94,
+    "h": 91.35,
+    "l": 88.65,
+    "c": 91.08,
+    "v": 649100,
+    "clsPos": 90,
+    "gapPct": 0.56
+   },
+   {
+    "d": "2026-10-22",
+    "o": 91.6,
+    "h": 92.94,
+    "l": 91.14,
+    "c": 91.74,
+    "v": 556000,
+    "clsPos": 33,
+    "gapPct": 0.57
+   },
+   {
+    "d": "2026-10-23",
+    "o": 98.09,
+    "h": 101.25,
+    "l": 95.57,
+    "c": 96.61,
+    "v": 1738712,
+    "clsPos": 18,
+    "gapPct": 6.92
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SIGI-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SIGI-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

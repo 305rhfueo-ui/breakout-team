@@ -1,0 +1,152 @@
+{
+ "ticker": "AMT",
+ "news": [
+  {
+   "title": "Unlocking Q3 Potential of American Tower (AMT): Exploring Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/unlocking-q3-potential-american-tower-amt-exploring-wall-street-estimates-key-metrics",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "American Tower (AMT) Stock Sinks As Market Gains: Here's Why",
+   "url": "https://www.nasdaq.com/articles/american-tower-amt-stock-sinks-market-gains-heres-why-0",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "American Tower (AMT) Beats Stock Market Upswing: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/american-tower-amt-beats-stock-market-upswing-what-investors-need-know-0",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000145/amt-20260917.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-14",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000119312526390605/d156192d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000141/amt-20260909.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000131/amt-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-02",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000127/amt-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-06-02",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000123/amt-20260602.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.54,
+  "saleNy": 3.38,
+  "epsCy": 29.27,
+  "epsNy": -0.06,
+  "cyTrend": -0.04,
+  "nyTrend": -0.48,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.65,
+    6.82,
+    7.45
+   ],
+   "ni": [
+    136.5,
+    75.87,
+    -33.25
+   ],
+   "opm": [
+    46.15,
+    45.27,
+    42.4
+   ],
+   "updated": "2026-09-08 06:39:49"
+  }
+ }
+}

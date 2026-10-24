@@ -1,0 +1,269 @@
+{
+ "ticker": "CHRD",
+ "sector": "Energy",
+ "industry": "Oil & Gas E&P",
+ "nameKo": "코드 에너지",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 48.81,
+  "saleNy": -14.29,
+  "epsCy": 139.31,
+  "epsNy": -13.53,
+  "est": {
+   "cyCur": 22.8062,
+   "cy30": 20.71915,
+   "nyCur": 19.72027,
+   "ny30": 15.69984
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    84.04,
+    37.08,
+    -19.61
+   ],
+   "ni": [
+    "흑자전환",
+    -50.7,
+    -60.58
+   ],
+   "opm": [
+    27.74,
+    20.01,
+    7.85
+   ],
+   "updated": "2026-09-08 10:38:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "코드 에너지",
+  "nameEn": "CHORD ENERGY CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001486159&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2172685000,
+     "profit": 602720000,
+     "netIncome": 525186000,
+     "margin": 27.7,
+     "yoy": {
+      "revenue": 84,
+      "profit": 249.5,
+      "netIncome": 234.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1665635000,
+     "profit": 333222000,
+     "netIncome": 108608000,
+     "margin": 20,
+     "yoy": {
+      "revenue": 37.1,
+      "profit": -1.4,
+      "netIncome": -50.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1169439000,
+     "profit": 91857000,
+     "netIncome": 84416000,
+     "margin": 7.9,
+     "yoy": {
+      "revenue": -19.6,
+      "profit": -65.4,
+      "netIncome": -59.9,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1312081000,
+     "profit": 170790000,
+     "netIncome": 130111000,
+     "margin": 13,
+     "yoy": {
+      "revenue": -9.5,
+      "profit": -37.4,
+      "netIncome": -42.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Chord Energy Corporation (CHRD) Might be Well Poised for a Surge",
+     "url": "https://www.nasdaq.com/articles/why-chord-energy-corporation-chrd-might-be-well-poised-surge",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Chord Energy Corporation (CHRD) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-chord-energy-corporation-chrd-great-choice",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Chord Energy Corporation (CHRD) is a Top-Ranked Growth Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/chord-energy-corporation-chrd-top-ranked-growth-stock-should-you-buy",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Chord Energy Q3 Performance Exceeds Market View",
+     "url": "https://www.nasdaq.com/articles/chord-energy-q3-performance-exceeds-market-view",
+     "date": "2026-10-19",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Are Oils-Energy Stocks Lagging  Chord Energy Corporation (CHRD) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-oils-energy-stocks-lagging-chord-energy-corporation-chrd-year",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Chord Energy Corporation (CHRD) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-chord-energy-corporation-chrd-strong-momentum-stock",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is the Options Market Predicting a Spike in Chord Energy Corporation Stock?",
+     "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-chord-energy-corporation-stock",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Chord Energy Corporation (CHRD) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-chord-energy-corporation-chrd-strong-growth-stock",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000037/chrd-20261016.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000031/chrd-20260802.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000029/oas-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000017/oas-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000015/chrd-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000004/oas-20260225.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
+   "url": "https://www.cnbc.com/2026/10/11/top-analysts-prefer-these-3-dividend-stocks-for-stable-income.html",
+   "date": "2026-10-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CHRD",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 10.6,
+  "pbr": 1.04,
+  "eps": 14.92,
+  "bps": 151.41,
+  "shares": 54697900,
+  "marketCapM": 8649,
+  "high52": 159.045,
+  "high52Date": "2026-10-23",
+  "low52": 80.7602,
+  "low52Date": "2025-11-06",
+  "last": 158.13,
+  "prevClose": 150.48,
+  "nameKo": "코드 에너지",
+  "nameEn": "CHORD ENERGY CORPORATION",
+  "listedOn": "2022-07-05",
+  "exchange": "나스닥",
+  "listedShares": 54697900
+ }
+}

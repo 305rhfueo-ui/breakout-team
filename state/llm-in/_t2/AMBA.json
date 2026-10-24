@@ -1,0 +1,258 @@
+{
+ "ticker": "AMBA",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "암바렐라",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.89,
+  "saleNy": 13.34,
+  "epsCy": 29.74,
+  "epsNy": 39.3,
+  "est": {
+   "cyCur": 0.80441,
+   "cy30": 0.80441,
+   "nyCur": 1.12058,
+   "ny30": 1.12058
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    16.87,
+    20.06,
+    31.21
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -19.35,
+    -18.27,
+    -14.98
+   ],
+   "updated": "2026-09-09 06:49:21"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "암바렐라",
+  "nameEn": "AMBARELLA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001280263&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 108125000,
+     "profit": -8143000,
+     "netIncome": -6689000,
+     "margin": -7.5,
+     "yoy": {
+      "revenue": 13.2,
+      "profit": 63,
+      "netIncome": 66.5,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 100357000,
+     "profit": -19416000,
+     "netIncome": -18093000,
+     "margin": -19.3,
+     "yoy": {
+      "revenue": 16.9,
+      "profit": 24.9,
+      "netIncome": 25.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 100867000,
+     "profit": -18432000,
+     "netIncome": -16470000,
+     "margin": -18.3,
+     "yoy": {
+      "revenue": 20.1,
+      "profit": 27.3,
+      "netIncome": 18.5,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 108452000,
+     "profit": -16248000,
+     "netIncome": -15107000,
+     "margin": -15,
+     "yoy": {
+      "revenue": 31.2,
+      "profit": 36.3,
+      "netIncome": 37.2,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Are Options Traders Betting on a Big Move in Ambarella Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-ambarella-stock",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ambarella CEO Disposes of Over 6,000 Shares Worth Nearly $400,000",
+     "url": "https://www.nasdaq.com/articles/ambarella-ceo-disposes-over-6000-shares-worth-nearly-400000",
+     "date": "2026-09-21",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Ambarella CEO Sees Edge AI Growth Across Security, Autos and Wearables",
+     "url": "https://www.nasdaq.com/articles/ambarella-ceo-sees-edge-ai-growth-across-security-autos-and-wearables",
+     "date": "2026-09-13",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Ambarella (AMBA) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ambarella-amba-q2-2027-earnings-call-transcript",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Ambarella Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/ambarella-q2-earnings-call-highlights",
+     "date": "2026-09-03",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Ambarella (AMBA) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/ambarella-amba-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526381923/d88952d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526292824/d139114d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526245234/d130687d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526083175/d116451d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526076823/d108529d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-25",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312525297233/d70593d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Lightning Round: I would not abandon BlackBerry, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/12/lightning-round-i-would-not-abandon-blackberry-says-jim-cramer.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "AMBA",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 51.16,
+  "pbr": 4.73,
+  "eps": 1.3,
+  "bps": 14.05,
+  "shares": 44141000,
+  "marketCapM": 2935,
+  "high52": 96.69,
+  "high52Date": "2025-11-12",
+  "low52": 48.3,
+  "low52Date": "2026-03-30",
+  "last": 66.5,
+  "prevClose": 63.12,
+  "nameKo": "암바렐라",
+  "nameEn": "AMBARELLA INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 44141000
+ }
+}

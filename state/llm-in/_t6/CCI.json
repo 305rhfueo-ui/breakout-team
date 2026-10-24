@@ -1,0 +1,687 @@
+{
+ "ticker": "CCI",
+ "date": "2026-10-24",
+ "session": "2026-10-23",
+ "source": "list",
+ "plan": {
+  "ticker": "CCI",
+  "name": "크라운 캐슬",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
+  "price": 85.97,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 3.57,
+  "extensionAdr": 1.69,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.32110818278761577,
+    "pct": 98.96302975653742
+   },
+   "m3": {
+    "v": 0.108405689759134,
+    "pct": 83.9945897204689
+   },
+   "m6": {
+    "v": -0.07062284419735641,
+    "pct": 34.310189359783585
+   }
+  },
+  "ret1m": 26.72,
+  "ret3m": 14,
+  "ret6m": -2.15,
+  "marketCap": "33.54B",
+  "volx": 3.38,
+  "volSurgeWk": 2.84,
+  "high52": 91.12,
+  "newHigh52": false,
+  "adr": 3.57,
+  "div50": 16.14,
+  "div200": 6.89,
+  "targetStatus": false,
+  "saleCy": -5.43,
+  "saleNy": 1.69,
+  "epsCy": -8.84,
+  "epsNy": 27.8,
+  "cyTrend": -7.45,
+  "nyTrend": 1.68,
+  "est": {
+   "cyCur": 2.29717,
+   "cy30": 2.48202,
+   "nyCur": 2.93576,
+   "ny30": 2.88738
+  },
+  "fs": {
+   "sale": [
+    -4.91,
+    -4.81,
+    -4.29
+   ],
+   "ni": [
+    -67.7,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    46.63,
+    46.04,
+    48.83
+   ],
+   "updated": "2026-09-08 10:12:52"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-23",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-24",
+  "nameKo": "크라운 캐슬",
+  "nameEn": "CROWN CASTLE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051470&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 41000000,
+     "profit": 470000000,
+     "netIncome": 94000000,
+     "margin": 1146.3,
+     "yoy": {
+      "revenue": -21.2,
+      "profit": -7.1,
+      "netIncome": -67.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 49000000,
+     "profit": 465000000,
+     "netIncome": 151000000,
+     "margin": 949,
+     "yoy": {
+      "revenue": -2,
+      "profit": -10.7,
+      "netIncome": 132.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 53000000,
+     "profit": 523000000,
+     "netIncome": 294000000,
+     "margin": 986.8,
+     "yoy": {
+      "revenue": 8.2,
+      "profit": -8.2,
+      "netIncome": 106.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 60000000,
+     "profit": 525000000,
+     "netIncome": 323000000,
+     "margin": 875,
+     "yoy": {
+      "revenue": 11.1,
+      "profit": -1.3,
+      "netIncome": 6.6,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses",
+     "url": "https://www.nasdaq.com/articles/crown-castles-q3-affo-beats-estimates-lower-expenses",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Crown Castle Inc. Reports Third Quarter 2026 Results and Updates Outlook for Full Year 2026",
+     "url": "https://www.nasdaq.com/articles/crown-castle-inc-reports-third-quarter-2026-results-and-updates-outlook-full-year-2026",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Crown Castle (CCI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/crown-castle-cci-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Crown Castle (CCI) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-crown-castle-cci-said-its-q3-earnings-call",
+     "date": "2026-10-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Crown Castle Inc. Q3 Profit Declines",
+     "url": "https://www.nasdaq.com/articles/crown-castle-inc-q3-profit-declines",
+     "date": "2026-10-21",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Compared to Estimates, Crown Castle (CCI) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-crown-castle-cci-q3-earnings-look-key-metrics",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Crown Castle (CCI) Tops Q3 FFO Estimates",
+     "url": "https://www.nasdaq.com/articles/crown-castle-cci-tops-q3-ffo-estimates",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Crown Castle Q3 26 Earnings Conference Call At 4:45 PM ET",
+     "url": "https://www.nasdaq.com/articles/crown-castle-q3-26-earnings-conference-call-4-45-pm-et",
+     "date": "2026-10-21",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-21",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000085/cci-20261021.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-14",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000081/cci-20260914.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000076/cci-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000069/cci-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000065/cci-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000064/cci-20260520.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+   "url": "https://www.cnbc.com/2026/10/09/spacex-wireless-plans-lifts-tower-stocks.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators",
+   "url": "https://www.cnbc.com/video/2026/10/09/bernsteins-madison-rezaei-spacex-plan-to-buy-spectrum-portfolio-is-good-for-tower-operators.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CCI",
+  "fetchedAt": "2026-10-24",
+  "source": "한국투자증권 Open API",
+  "per": 18.95,
+  "pbr": 0,
+  "eps": 4.54,
+  "bps": 0,
+  "shares": 425455000,
+  "marketCapM": 36576,
+  "high52": 95.5804,
+  "high52Date": "2025-10-23",
+  "low52": 65.32,
+  "low52Date": "2026-10-05",
+  "last": 85.97,
+  "prevClose": 78.83,
+  "nameKo": "크라운 캐슬",
+  "nameEn": "CROWN CASTLE INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 425455000
+ },
+ "estimates": {
+  "ticker": "CCI",
+  "url": "https://finance.yahoo.com/quote/CCI/analysis/",
+  "fetchedAt": "2026-10-24",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.7,
+    "epsLow": 0.68,
+    "epsHigh": 0.74,
+    "epsYearAgo": 0.63,
+    "epsAnalysts": 7,
+    "epsGrowth": 11.9,
+    "epsCur": "USD",
+    "rev": 1019609960,
+    "revAnalysts": 15,
+    "revYearAgo": 1072000000,
+    "revGrowth": -4.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.71,
+    "epsLow": 0.7,
+    "epsHigh": 0.72,
+    "epsYearAgo": 0.5,
+    "epsAnalysts": 4,
+    "epsGrowth": 41.8,
+    "epsCur": "USD",
+    "rev": 1012349260,
+    "revAnalysts": 9,
+    "revYearAgo": 1010000000,
+    "revGrowth": 0.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 2.5,
+    "epsLow": 2.38,
+    "epsHigh": 2.57,
+    "epsYearAgo": 2.52,
+    "epsAnalysts": 3,
+    "epsGrowth": -0.9,
+    "epsCur": "USD",
+    "rev": 4031538940,
+    "revAnalysts": 19,
+    "revYearAgo": 4264000000,
+    "revGrowth": -5.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 2.93,
+    "epsLow": 2.58,
+    "epsHigh": 3.38,
+    "epsYearAgo": 2.5,
+    "epsAnalysts": 9,
+    "epsGrowth": 17.3,
+    "epsCur": "USD",
+    "rev": 4101619120,
+    "revAnalysts": 19,
+    "revYearAgo": 4031538940,
+    "revGrowth": 1.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.7,
+    "d7": 1.7,
+    "d30": 1.7,
+    "d90": 1.1,
+    "ago90": 0.7,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.71,
+    "d7": 2.2,
+    "d30": 3.4,
+    "d90": 2.5,
+    "ago90": 0.69,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.5,
+    "d7": 0.6,
+    "d30": 0.6,
+    "d90": 9.3,
+    "ago90": 2.29,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 2.93,
+    "d7": 1,
+    "d30": 1.4,
+    "d90": 0.8,
+    "ago90": 2.91,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.67,
+    "estimate": 0.69,
+    "surprisePct": -2.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.69,
+    "estimate": 0.51,
+    "surprisePct": 36.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.5,
+    "estimate": 0.47,
+    "surprisePct": 6.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.63,
+    "estimate": 0.58,
+    "surprisePct": 8.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 4,
+   "total": 6,
+   "recent": [
+    {
+     "date": "2026-10-22",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 91,
+     "ptPrior": 93
+    },
+    {
+     "date": "2026-10-22",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 98,
+     "ptPrior": 92
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 86,
+     "ptPrior": 84
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "JP Morgan",
+     "action": "down",
+     "from": "Neutral",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-08-20",
+     "firm": "Barclays",
+     "action": "up",
+     "from": "Equal-Weight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 84,
+     "ptPrior": 92
+    },
+    {
+     "date": "2026-07-28",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 87,
+     "ptPrior": 95
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-21",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-23",
+  "numbers": {
+   "price": 85.97,
+   "ma20": 74.73,
+   "ma50": 74.48,
+   "ma150": 80.65,
+   "distMA50": 15.43,
+   "periodHigh": 115.76,
+   "pullbackFromHigh": -25.73,
+   "volRatio20": 3.05,
+   "dryUpRatio": 1.36
+  },
+  "last10": [
+   {
+    "d": "2026-10-12",
+    "o": 79.5,
+    "h": 81.3,
+    "l": 78.9,
+    "c": 81.01,
+    "v": 6879600,
+    "clsPos": 88,
+    "gapPct": -0.18
+   },
+   {
+    "d": "2026-10-13",
+    "o": 81.99,
+    "h": 82.28,
+    "l": 78.63,
+    "c": 79.56,
+    "v": 4859900,
+    "clsPos": 25,
+    "gapPct": 1.21
+   },
+   {
+    "d": "2026-10-14",
+    "o": 78.93,
+    "h": 79.66,
+    "l": 77.75,
+    "c": 79.38,
+    "v": 4081000,
+    "clsPos": 85,
+    "gapPct": -0.79
+   },
+   {
+    "d": "2026-10-15",
+    "o": 80.8,
+    "h": 81.84,
+    "l": 79.82,
+    "c": 80,
+    "v": 4153400,
+    "clsPos": 9,
+    "gapPct": 1.79
+   },
+   {
+    "d": "2026-10-16",
+    "o": 80.08,
+    "h": 83.26,
+    "l": 79.52,
+    "c": 82.26,
+    "v": 9151300,
+    "clsPos": 73,
+    "gapPct": 0.1
+   },
+   {
+    "d": "2026-10-19",
+    "o": 82.26,
+    "h": 82.72,
+    "l": 80.3,
+    "c": 81.06,
+    "v": 3827000,
+    "clsPos": 31,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-20",
+    "o": 82,
+    "h": 82.43,
+    "l": 80.76,
+    "c": 81.14,
+    "v": 4498700,
+    "clsPos": 23,
+    "gapPct": 1.16
+   },
+   {
+    "d": "2026-10-21",
+    "o": 81.14,
+    "h": 81.83,
+    "l": 78.59,
+    "c": 78.65,
+    "v": 6797500,
+    "clsPos": 2,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-22",
+    "o": 76.29,
+    "h": 80.4,
+    "l": 76.29,
+    "c": 78.83,
+    "v": 6230600,
+    "clsPos": 62,
+    "gapPct": -3
+   },
+   {
+    "d": "2026-10-23",
+    "o": 91.02,
+    "h": 91.45,
+    "l": 85,
+    "c": 85.97,
+    "v": 17320678,
+    "clsPos": 15,
+    "gapPct": 15.46
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CCI-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CCI-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

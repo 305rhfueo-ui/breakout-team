@@ -1,0 +1,85 @@
+{
+ "ticker": "KB",
+ "news": [
+  {
+   "title": "KB Financial Group Inc. Reports Largest Shareholder Stake Decreased to 9.18%",
+   "url": "https://www.nasdaq.com/articles/kb-financial-group-inc-reports-largest-shareholder-stake-decreased-918",
+   "date": "2026-10-21",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Why KB Financial (KB) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-kb-financial-kb-top-dividend-stock-your-portfolio",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "KB Financial (KB) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/kb-financial-kb-could-be-great-choice-0",
+   "date": "2026-10-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "KB Financial (KB) is on the Move, Here's Why the Trend Could be Sustainable",
+   "url": "https://www.nasdaq.com/articles/kb-financial-kb-move-heres-why-trend-could-be-sustainable",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why KB Financial (KB) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-kb-financial-kb-great-choice",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "KB Financial (KB) Upgraded to Strong Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/kb-financial-kb-upgraded-strong-buy-heres-why",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Recent Price Trend in KB Financial (KB) is Your Friend, Here's Why",
+   "url": "https://www.nasdaq.com/articles/recent-price-trend-kb-financial-kb-your-friend-heres-why",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "KB Financial (KB) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/kb-financial-kb-could-be-great-choice",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.35,
+  "saleNy": 2.7,
+  "epsCy": 20.48,
+  "epsNy": 11.18,
+  "cyTrend": -2.26,
+  "nyTrend": 1.42,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    25.89,
+    -0.85,
+    50.5
+   ],
+   "ni": [
+    18.25,
+    8.86,
+    33.37
+   ],
+   "opm": [
+    24.91,
+    29.86,
+    13.78
+   ],
+   "updated": "2026-09-08 10:45:38"
+  }
+ }
+}
