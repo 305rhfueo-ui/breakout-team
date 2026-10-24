@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-24",
+  "generated": "2026-10-25",
   "sessionDate": "2026-10-23",
   "rulesVersion": "0.3",
   "regime": "red",
@@ -10,6 +10,63 @@ window.TEAM6_DATA = {
   "slipPct": 0.2,
   "earningsOk": true,
   "plans": [
+    {
+      "ticker": "BAH",
+      "name": null,
+      "sector": "Industrials",
+      "industry": "Consulting Services",
+      "grade": "A",
+      "state": "pre",
+      "asOf": "2026-10-23",
+      "price": 78.32,
+      "pivot": 81.19,
+      "pivotDate": "2026-09-15",
+      "stop": 78.29,
+      "riskPerSharePct": 3.57,
+      "weightPct": 14,
+      "weightCapped": false,
+      "distToPivotPct": -3.53,
+      "distToPivotAdr": -0.95,
+      "extensionAdr": 1.23,
+      "chase": false,
+      "adrPct": 3.7,
+      "ma10": 74.75,
+      "dollarVol20M": 129.8,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +36%",
+        "베이스 6.2주",
+        "깊이 18.1%",
+        "저점 상승 1회",
+        "진폭 1.07배 · 10일 종가폭 2.3 ADR",
+        "10일선 +1.2 ADR · 20일선 +2.1 ADR",
+        "20일선 기울기 +0.34%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 31,
+        "baseWeeks": 6.2,
+        "depthPct": 18.1,
+        "priorMovePct": 36.5,
+        "higherLows": 1,
+        "contraction": 1.07,
+        "closeRange10Adr": 2.3,
+        "surf10": 1.23,
+        "surf20": 2.06,
+        "slope20": 0.34,
+        "baseLow": 66.5,
+        "lastSwingLow": 70.86
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-24"
+      },
+      "earnings": null,
+      "blocked": "시장 빨간불 — 신규 매수 중단",
+      "shadowBook": null,
+      "watch": false,
+      "score": 71.5
+    },
     {
       "ticker": "VEON",
       "name": "비언(ADR)",
@@ -146,7 +203,7 @@ window.TEAM6_DATA = {
         "베이스 3주",
         "깊이 11.8%",
         "저점 상승 1회",
-        "진폭 0.92배 · 10일 종가폭 1.3 ADR",
+        "진폭 0.93배 · 10일 종가폭 1.3 ADR",
         "10일선 +0.6 ADR · 20일선 +0.8 ADR",
         "20일선 기울기 +1.61%"
       ],
@@ -157,7 +214,7 @@ window.TEAM6_DATA = {
         "depthPct": 11.8,
         "priorMovePct": 62.4,
         "higherLows": 1,
-        "contraction": 0.92,
+        "contraction": 0.93,
         "closeRange10Adr": 1.3,
         "surf10": 0.61,
         "surf20": 0.78,
@@ -395,6 +452,66 @@ window.TEAM6_DATA = {
       "score": 54.1
     },
     {
+      "ticker": "BCPC",
+      "name": null,
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-10-23",
+      "price": 177,
+      "pivot": 180.29,
+      "pivotDate": "2026-08-28",
+      "stop": 176.94,
+      "riskPerSharePct": 1.86,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": -1.82,
+      "distToPivotAdr": -0.96,
+      "extensionAdr": 1.71,
+      "chase": false,
+      "adrPct": 1.89,
+      "ma10": 171.27,
+      "dollarVol20M": 51.6,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +16%",
+        "베이스 8주",
+        "깊이 10.7%",
+        "저점 상승 1회",
+        "진폭 0.88배 · 10일 종가폭 2.6 ADR",
+        "✗ 10일선 +1.7 ADR · 20일선 +2.4 ADR",
+        "20일선 기울기 +0.7%"
+      ],
+      "fails": [
+        "priorMove",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 10.7,
+        "priorMovePct": 15.7,
+        "higherLows": 1,
+        "contraction": 0.88,
+        "closeRange10Adr": 2.6,
+        "surf10": 1.71,
+        "surf20": 2.42,
+        "slope20": 0.7,
+        "baseLow": 161.05,
+        "lastSwingLow": 169.72
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-24"
+      },
+      "earnings": null,
+      "blocked": "시장 빨간불 — 신규 매수 중단",
+      "shadowBook": null,
+      "watch": false,
+      "score": 53.2
+    },
+    {
       "ticker": "SIG",
       "name": null,
       "sector": "Consumer Cyclical",
@@ -566,6 +683,68 @@ window.TEAM6_DATA = {
       "score": 42.2
     },
     {
+      "ticker": "PFBC",
+      "name": null,
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-10-23",
+      "price": 106.72,
+      "pivot": 110.34,
+      "pivotDate": "2026-09-25",
+      "stop": 107.95,
+      "riskPerSharePct": 2.16,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": -3.28,
+      "distToPivotAdr": -1.47,
+      "extensionAdr": 0.92,
+      "chase": false,
+      "adrPct": 2.24,
+      "ma10": 104.53,
+      "dollarVol20M": 13.5,
+      "liquid": false,
+      "reasons": [
+        "✗ 선행 상승 +13%",
+        "베이스 5.8주",
+        "깊이 8.7%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 0.95배 · 10일 종가폭 2.8 ADR",
+        "10일선 +0.9 ADR · 20일선 +0.8 ADR",
+        "✗ 20일선 기울기 -0.34%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows",
+        "tight",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 29,
+        "baseWeeks": 5.8,
+        "depthPct": 8.7,
+        "priorMovePct": 12.9,
+        "higherLows": 0,
+        "contraction": 0.95,
+        "closeRange10Adr": 2.8,
+        "surf10": 0.92,
+        "surf20": 0.81,
+        "slope20": -0.34,
+        "baseLow": 100.78,
+        "lastSwingLow": 100.78
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-24"
+      },
+      "earnings": null,
+      "blocked": "시장 빨간불 — 신규 매수 중단",
+      "shadowBook": null,
+      "watch": false,
+      "score": 31.7
+    },
+    {
       "ticker": "KOD",
       "name": "코디악 사이언시스",
       "sector": "Healthcare",
@@ -624,7 +803,7 @@ window.TEAM6_DATA = {
       "score": 24.3
     }
   ],
-  "plansTotal": 11,
+  "plansTotal": 14,
   "post": [
     {
       "ticker": "RBRK",
@@ -674,6 +853,186 @@ window.TEAM6_DATA = {
         "lastSwingLow": 106.92
       },
       "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-23",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "SIGI",
+      "name": "셀렉티브 인슈어런스 그룹",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-23",
+      "price": 96.61,
+      "pivot": 93.52,
+      "pivotDate": "2026-08-28",
+      "stop": 91.74,
+      "riskPerSharePct": 1.9,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 3.3,
+      "distToPivotAdr": 1.54,
+      "extensionAdr": 3.64,
+      "chase": true,
+      "adrPct": 2.15,
+      "ma10": 89.05,
+      "dollarVol20M": 47.2,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +10%",
+        "베이스 8주",
+        "깊이 11.2%",
+        "저점 상승 1회",
+        "✗ 진폭 1.07배 · 10일 종가폭 4.2 ADR",
+        "✗ 10일선 +2.2 ADR · 20일선 +3 ADR",
+        "20일선 기울기 +0.94%"
+      ],
+      "fails": [
+        "priorMove",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 11.2,
+        "priorMovePct": 10.2,
+        "higherLows": 1,
+        "contraction": 1.07,
+        "closeRange10Adr": 4.2,
+        "surf10": 2.21,
+        "surf20": 3.03,
+        "slope20": 0.94,
+        "baseLow": 83.02,
+        "lastSwingLow": 83.1
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-24"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-23",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "CUBI",
+      "name": "커스터머스 뱅코프",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-23",
+      "price": 84.54,
+      "pivot": 81.09,
+      "pivotDate": "2026-09-04",
+      "stop": 79.36,
+      "riskPerSharePct": 2.13,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 4.25,
+      "distToPivotAdr": 1.61,
+      "extensionAdr": 3.73,
+      "chase": true,
+      "adrPct": 2.64,
+      "ma10": 76.2,
+      "dollarVol20M": 24.1,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +9%",
+        "베이스 7주",
+        "깊이 11.7%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 1.02배 · 10일 종가폭 3.1 ADR",
+        "✗ 10일선 +2.1 ADR · 20일선 +2.1 ADR",
+        "✗ 20일선 기울기 -0.47%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows",
+        "tight",
+        "surf",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 35,
+        "baseWeeks": 7,
+        "depthPct": 11.7,
+        "priorMovePct": 9.3,
+        "higherLows": 0,
+        "contraction": 1.02,
+        "closeRange10Adr": 3.1,
+        "surf10": 2.07,
+        "surf20": 2.12,
+        "slope20": -0.47,
+        "baseLow": 71.57,
+        "lastSwingLow": 72.05
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-24"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-23",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "FCNCA",
+      "name": "퍼스트 시티즌스 뱅크셰어스",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-23",
+      "price": 2375.84,
+      "pivot": 2219.26,
+      "pivotDate": "2026-09-04",
+      "stop": 2174.83,
+      "riskPerSharePct": 2,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 7.06,
+      "distToPivotAdr": 3.17,
+      "extensionAdr": 4.52,
+      "chase": true,
+      "adrPct": 2.23,
+      "ma10": 2136.77,
+      "dollarVol20M": 162.7,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +15%",
+        "베이스 8주",
+        "깊이 9.4%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 1.07배 · 10일 종가폭 3.2 ADR",
+        "✗ 10일선 +2 ADR · 20일선 +2.4 ADR",
+        "20일선 기울기 +0.68%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 9.4,
+        "priorMovePct": 14.6,
+        "higherLows": 0,
+        "contraction": 1.07,
+        "closeRange10Adr": 3.2,
+        "surf10": 2.04,
+        "surf20": 2.35,
+        "slope20": 0.68,
+        "baseLow": 2010.34,
+        "lastSwingLow": 2029.86
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-24"
+      },
       "earnings": null,
       "breakDate": "2026-10-23",
       "barsSinceBreak": 0
@@ -893,7 +1252,7 @@ window.TEAM6_DATA = {
       },
       "catalyst": {
         "category": 1,
-        "researchedOn": "2026-10-23"
+        "researchedOn": "2026-10-24"
       },
       "earnings": null,
       "breakDate": "2026-10-22",
@@ -950,7 +1309,7 @@ window.TEAM6_DATA = {
       },
       "catalyst": {
         "category": 1,
-        "researchedOn": "2026-10-23"
+        "researchedOn": "2026-10-24"
       },
       "earnings": null,
       "breakDate": "2026-10-22",
@@ -1031,7 +1390,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.36,
       "ma10": 315.46,
-      "dollarVol20M": 341.3,
+      "dollarVol20M": 341.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +56%",
@@ -1188,10 +1547,10 @@ window.TEAM6_DATA = {
       "weightPct": 14.4,
       "weightCapped": false,
       "distToPivotPct": 12.72,
-      "distToPivotAdr": 3.48,
+      "distToPivotAdr": 3.47,
       "extensionAdr": 2.27,
       "chase": false,
-      "adrPct": 3.66,
+      "adrPct": 3.67,
       "ma10": 211.11,
       "dollarVol20M": 183.2,
       "liquid": true,
@@ -1247,7 +1606,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 2.97,
       "ma10": 253.87,
-      "dollarVol20M": 140.2,
+      "dollarVol20M": 140.4,
       "liquid": true,
       "reasons": [
         "선행 상승 +102%",
@@ -1333,17 +1692,17 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 8
     }
   ],
-  "postTotal": 13,
+  "postTotal": 16,
   "counts": {
-    "evaluated": 71,
-    "near": 11,
+    "evaluated": 80,
+    "near": 14,
     "watch": 0,
     "A": 0,
     "B": 0,
-    "blocked": 11,
-    "post": 13,
-    "far": 31,
-    "noBase": 15,
+    "blocked": 14,
+    "post": 16,
+    "far": 32,
+    "noBase": 17,
     "noBars": 1
   },
   "noBars": [
@@ -1467,15 +1826,5 @@ window.TEAM6_DATA = {
     "watch": 0,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 0,
-    "total": 0,
-    "cap": 14,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(0) 조사 완료"
   }
 };

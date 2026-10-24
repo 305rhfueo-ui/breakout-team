@@ -1,5 +1,5 @@
 window.CHIEF_DATA = {
-  "generated": "2026-10-24",
+  "generated": "2026-10-25",
   "market": {
     "verdict": "red",
     "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
@@ -24,15 +24,15 @@ window.CHIEF_DATA = {
     "chartCheck": 10,
     "chartCheckShown": 10,
     "plans": {
-      "evaluated": 71,
-      "near": 11,
+      "evaluated": 80,
+      "near": 14,
       "watch": 0,
       "A": 0,
       "B": 0,
-      "blocked": 11,
-      "post": 13,
-      "far": 31,
-      "noBase": 15,
+      "blocked": 14,
+      "post": 16,
+      "far": 32,
+      "noBase": 17,
       "noBars": 1
     }
   },
@@ -457,6 +457,7 @@ window.CHIEF_DATA = {
       ]
     },
     "reusedFrom": null,
-    "reuseAll": null
+    "reuseAll": null,
+    "carried": true
   }
 };
