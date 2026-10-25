@@ -184,6 +184,9 @@ async function main() {
       try { const fl = await getFilings(i.ticker, { forms: ['8-K'], limit: 6 }); if (fl.ok) filings = fl.filings; } catch (e) { /* noop */ }
       fetched++;
     }
+    // 야후 기사(2026-10-26) — 아침 스캔이 받아 둔 캐시만. via:'Yahoo' 는 제목뿐인 단서(인용 불가)라고 프롬프트가 안내한다.
+    const yn = await require('./data/yahoo-estimates').getNews(i.ticker, { cacheOnly: true });
+    if (yn && yn.length) { const seenU = new Set((news || []).map((x) => x.url)); news = [...(news || []), ...yn.filter((x) => !seenU.has(x.url))]; }
     t4all.push({
       ticker: i.ticker, sector: i.sector, industry: i.industry, marketCap: i.marketCap || null,
       volx: i.volx, volSurgeWk: i.volSurgeWk, aboveMa150: i.aboveMa150,

@@ -115,7 +115,7 @@ async function build(tickerIn, { date = today(), offline = false } = {}) {
   }
 
   // 상세(SEC 실적·8-K·나스닥 뉴스·연합인포맥스 리포트) · CNBC · KIS · 실적 달력 · 리포트 PDF
-  let detail = null, rawDetail = null, detailNote = null, cnbc = null, kis = null, earnings = 'unknown', reportPdfs = [], estimates = null;
+  let detail = null, rawDetail = null, detailNote = null, cnbc = null, kis = null, earnings = 'unknown', reportPdfs = [], estimates = null, yahooNews = null;
   if (!offline) {
     try { const r = await fetchDetail(T, date); if (r.gotAny) { rawDetail = r.detail; detail = slimDetail(r.detail); } else detailNote = '실적·뉴스·공시 수집 실패 — 웹검색에 의존'; } catch (e) { detailNote = `수집 실패: ${e.message}`; }
     try { const c = await require('./data/cnbc').getTickerArticles(T); cnbc = c.ok ? c.items : null; } catch (e) { cnbc = null; }
@@ -124,6 +124,7 @@ async function build(tickerIn, { date = today(), offline = false } = {}) {
     try { const K = require('./lib/kis'); if (K.configured() && !nightOn) kis = await K.facts(T); } catch (e) { kis = null; }
     try { const E = require('./lib/earnings'); const res = await E.upcomingEarnings(lastBar || date, rules.risk.earningsBlockDays); earnings = res && res.ok ? E.earningsOf(res, T) : 'unknown'; } catch (e) { earnings = 'unknown'; }
     try { estimates = await require('./data/yahoo-estimates').getEstimates(T, { today: date }); } catch (e) { estimates = null; }
+    try { yahooNews = await require('./data/yahoo-estimates').getNews(T); } catch (e) { yahooNews = null; }   // 2026-10-26 — 제목뿐인 단서
     try { reportPdfs = await copyReportPdfs(detail && detail.krReports && detail.krReports.reports, dir, T); } catch (e) { reportPdfs = []; }
   }
   if (!sector) { sector = '확인 불가'; industry = (rawDetail && rawDetail.industryKo) || '확인 불가'; }
@@ -145,9 +146,28 @@ async function build(tickerIn, { date = today(), offline = false } = {}) {
   const hit = t5 && (t5.industries || []).find((x) => x.industry === industry);
   if (hit) industryRank = { frank: hit.frank, frank25dChg: hit.frank25dChg, headline: hit.report && hit.report.status === 'done' ? hit.report.headline : null, asOf: t5.generated };
 
+  // 팀 의견 묶음 (2026-10-26 사용자: "살까?" → 실장 종합) — 코드가 대시보드 파일에서 모은다(AI 없음). 수량·금액 없음.
+  //   AI 는 결론에서 함께 고려하되 출처(basis)로 쓰지 않는다. 하린(업종 순위)은 위 industryRank, 시장은 market 에 이미 있다.
+  const teamView = (() => {
+    const t6 = loadWindow('team6.js', 'TEAM6_DATA'), t2 = loadWindow('team2.js', 'TEAM2_DATA'), t4 = loadWindow('team4.js', 'TEAM4_DATA'), hd = loadWindow('holdings.js', 'HOLDINGS_DATA');
+    const p6 = t6 && [...(t6.plans || []), ...(t6.post || [])].find((x) => x.ticker === T);
+    const fit = p6 && t6.fitByKey ? t6.fitByKey[`${T}|${p6.pivot}`] || null : null;
+    const q2 = t2 && [...(t2.picks || []), ...(t2.listPicks || [])].find((x) => x.ticker === T);
+    const lists = t2 && t2.lists ? Object.values(t2.lists).filter((l) => (l.items || []).some((i) => i.ticker === T)).map((l) => l.label) : [];
+    const c4 = t4 && (t4.items || []).find((x) => x.ticker === T);
+    const h = hd && (hd.holdings || []).find((x) => x.ticker === T);
+    return {
+      seojun: p6 ? { asOf: t6.generated, grade: p6.grade, state: p6.state, watch: !!p6.watch, blocked: p6.blocked || null, distToPivotPct: p6.distToPivotPct ?? null,
+        fit: fit ? { nimble: fit.nimble, laya: fit.laya, note: '쿨라매기 부합도 0~4 — 로컬 모델의 검증 전 참고 점수' } : null } : null,
+      doyun: q2 || lists.length ? { lists, lead: q2 && q2.research && q2.research.status === 'done' ? q2.research.lead || null : null,
+        researchedOn: q2 && q2.research ? q2.research.researchedOn || null : null } : null,
+      jaemin: c4 && c4.catalyst && c4.catalyst.status === 'done' ? { category: c4.catalyst.categoryName || null, why: c4.catalyst.volumeExplanation || null, researchedOn: c4.catalyst.researchedOn || null } : null,
+      holding: h ? { side: h.side } : null,
+    };
+  })();
   const name = (m.ok && (m.nameKo || m.nameEn)) || (rawDetail && (rawDetail.nameKo || rawDetail.nameEn)) || null;
   const input = { ticker: T, name, exchange: m.ok ? m.exchange : null, date, session: lastBar, source: 'ondemand', sector, industry, industryRank,
-    plan, gates, checks, site, eye: null, detail, detailNote, reportPdfs, cnbc, kis, estimates,
+    plan, gates, checks, site, eye: null, detail, detailNote, reportPdfs, cnbc, kis, estimates, yahooNews, teamView,
     chart: { lastBar, numbers, last10, png3m: hasChart ? f3 : null, png6m: hasChart ? f6 : null }, market,
     note: 'gates = "매수 적정"을 막는 조건(코드 계산). checks = 코드가 계산한 체크표. site 가 null 이면 RS 사이트 목록에 없는 종목이다(RS·컨센서스 확인 불가).' };
   fs.writeFileSync(path.join(dir, `${tag}.json`), JSON.stringify(input, null, 1), 'utf8');

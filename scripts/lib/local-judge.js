@@ -13,16 +13,17 @@ const MODELS = ['laya', 'nimble'];
 
 const r2 = (v) => (Number.isFinite(v) ? Math.round(v * 100) / 100 : null);
 
-async function ask(model, state, questions) {
+async function ask(model, state, questions, timeoutMs = 60000) {
   try {
-    const r = await fetch(`${HOST}/v1/systemone`, { method: 'POST', body: JSON.stringify({ model, state, questions }), signal: AbortSignal.timeout(60000) });
+    const r = await fetch(`${HOST}/v1/systemone`, { method: 'POST', body: JSON.stringify({ model, state, questions }), signal: AbortSignal.timeout(timeoutMs) });
     if (!r.ok) return null;
     const a = (await r.json()).answers;
     if (!a) return null;
     const out = {};
     for (const [k, q] of Object.entries(questions)) {
       const x = a[k] || {};
-      out[k] = q.type === 'noul' ? r2(x.noul) : typeof x.choice === 'string' ? { v: x.choice, conf: r2(x.confidence) } : null;
+      out[k] = q.type === 'noul' ? r2(x.noul) : q.type === 'score' ? r2(x.score)          // score: 0 부터 세는 단계의 기댓값(실수)
+        : typeof x.choice === 'string' ? { v: x.choice, conf: r2(x.confidence) } : null;
     }
     return out;
   } catch (e) { return null; }
@@ -74,4 +75,41 @@ async function judgeNews({ ticker, title, text, body }) {
   return out;
 }
 
-module.exports = { judgeCatalyst, judgeNews, catalystState };
+// ── 서준(6팀) 후보 쿨라매기 부합도 (2026-10-25 사용자: "부합도를 점수로 기록하고 1주 뒤 결과로 학습시키자")
+//   QuantDinger 방식 — 규칙·등급은 코드가 정하고, 모델은 독립 질문에 점수만 준다. 화면엔 "검증 전" 참고로만, Claude 입력·매매엔 쓰지 않는다.
+//   ⚠️ SETUP_Q_V: 질문 문구든 setupInput·setupState 든 바뀌면 올린다 — 버전이 다른 점수는 섞어 채점하지 않는다(jev-claim-vs-measured 방식).
+const SETUP_Q_V = 1;
+const SETUP_Q = {
+  fit: { type: 'score', criteria: ['poor', 'weak', 'fair', 'good', 'textbook'],
+    instructions: 'How closely does this stock setup match Kristjan Kullamagi (Qullamaggie) breakout criteria? Criteria: a big prior move of 30-100%+ in the past 1-3 months; '
+      + 'then an orderly 2-8 week consolidation with higher lows and a tightening range (contraction below 1, tight 10-day closes); price surfing the rising 10- and 20-day moving averages, '
+      + 'not extended far above the 10-day MA; resting just below the pivot (within 1 ADR); liquid stock with a high ADR. Judge the stock setup only, not the overall market.' },
+  redFlag: { type: 'noul', instructions: 'Is there a clear red flag for buying this breakout now: earnings within days, price already well above the pivot (chasing), '
+    + 'or a loose or deep base? Judge the stock setup only, not the overall market.' },
+};
+const n1 = (v) => (Number.isFinite(v) ? Math.round(v * 10) / 10 : null);
+// 모델에 보내는 숫자 — 이 객체를 그대로 기록한다(fit.in). 관심 목록 항목엔 일부 숫자가 없어 나중에 다시 만들 수 없다.
+function setupInput(p, regime) {
+  const m = p.metrics || {};
+  return { state: p.state, priorMovePct: n1(m.priorMovePct), baseWeeks: n1(m.baseWeeks), depthPct: n1(m.depthPct), higherLows: m.higherLows ?? null,
+    contraction: n1(m.contraction), closeRange10Adr: n1(m.closeRange10Adr), surf10Adr: n1(m.surf10), surf20Adr: n1(m.surf20), slope20Pct: n1(m.slope20),
+    distToPivotAdr: n1(p.distToPivotAdr), extensionAdr: n1(p.extensionAdr), adrPct: n1(p.adrPct), dollarVol20M: n1(p.dollarVol20M),
+    earningsSoon: p.earnings === 'unknown' || p.earnings == null ? (p.earnings === 'unknown' ? null : false) : true, regime: regime || null };
+}
+function setupState(x) {
+  // 시장 국면은 넣지 않는다 — 빨간불이면 모든 종목이 경고로 찍혔다(2026-10-26 실측). 국면은 fit.in 에 따로 남겨 국면별로 채점한다.
+  const L = [`Setup state: ${x.state === 'post' ? 'already broke above the pivot' : 'below the pivot, not yet broken out'}`,
+    `Prior move in the last 1-3 months: ${x.priorMovePct ?? '?'}%`, `Base length: ${x.baseWeeks ?? '?'} weeks, depth ${x.depthPct ?? '?'}%`,
+    `Higher lows in the base: ${x.higherLows === 1 ? 'yes' : x.higherLows === 0 ? 'no' : '?'}; range contraction ratio: ${x.contraction ?? '?'} (below 1 = tightening)`,
+    `Last 10 closes span: ${x.closeRange10Adr ?? '?'} ADR`, `Price vs 10-day MA: ${x.surf10Adr ?? '?'} ADR; vs 20-day MA: ${x.surf20Adr ?? '?'} ADR; 20-day MA slope: ${x.slope20Pct ?? '?'}%`,
+    `Distance to pivot: ${x.distToPivotAdr ?? '?'} ADR (negative = below); extension above 10-day MA: ${x.extensionAdr ?? '?'} ADR`,
+    `Average daily range: ${x.adrPct ?? '?'}%; 20-day dollar volume: $${x.dollarVol20M ?? '?'}M`,
+    `Earnings within 5 trading days: ${x.earningsSoon === true ? 'yes' : x.earningsSoon === false ? 'no' : 'unknown'}`];
+  return L.join('\n');
+}
+// → { laya:{fit,redFlag}|null, nimble:{fit,redFlag}|null } | null — 모델 하나만 묻는다(순서·시간 상한은 부르는 쪽이 정한다)
+async function judgeSetup(model, input, timeoutMs = 20000) {
+  return ask(model, setupState(input), SETUP_Q, timeoutMs);
+}
+
+module.exports = { judgeCatalyst, judgeNews, catalystState, judgeSetup, setupInput, setupState, SETUP_Q_V, MODELS };

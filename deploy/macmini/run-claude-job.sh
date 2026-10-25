@@ -77,8 +77,11 @@ rm -f "$RUN"
 # 주간 리뷰는 docs 두 파일에 결과를 쓰지만 커밋하지 않았다 — 2026-10-04 결과가 맥미니에만 남아
 #   텔레그램 링크(GitHub STRATEGY-LOG)가 옛 내용을 보여 줬다(2026-10-08 발견). 변경이 있을 때만 올린다.
 if [ "$JOB" = review ] && [ "$TIMED_OUT" != 1 ] && [ "$RC" -eq 0 ]; then
-  if ! git diff --quiet -- docs/STRATEGY-LOG.md docs/CLAUDE-NOTES.md 2>/dev/null; then
-    git add docs/STRATEGY-LOG.md docs/CLAUDE-NOTES.md && git commit -q -m "docs: 주간 리뷰 $(date '+%Y-%m-%d')" && git push -q || echo "=== 리뷰 결과 push 실패" >> "$OUT"
+  # 부합도 학습 자료·성적표도 같이 (2026-10-26). git diff 는 처음 생긴 파일을 못 봐서 status 로 본다. 없는 경로는 빼고 add 한다.
+  REVIEW_FILES=(docs/STRATEGY-LOG.md docs/CLAUDE-NOTES.md state/learn/setups.json dashboard/data/fitscore.js)
+  EXIST=(); for f in "${REVIEW_FILES[@]}"; do [ -e "$f" ] && EXIST+=("$f"); done
+  if [ -n "$(git status --porcelain -- "${EXIST[@]}" 2>/dev/null)" ]; then
+    git add -- "${EXIST[@]}" && git commit -q -m "docs: 주간 리뷰 $(date '+%Y-%m-%d')" && git push -q || echo "=== 리뷰 결과 push 실패" >> "$OUT"
   fi
 fi
 ENDED="$(date '+%H:%M')"
