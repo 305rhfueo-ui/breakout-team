@@ -1,5 +1,5 @@
 window.CHIEF_DATA = {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "market": {
     "verdict": "red",
     "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
@@ -20,7 +20,7 @@ window.CHIEF_DATA = {
       "reentryBlocked": 4
     },
     "breakouts": 19,
-    "epCandidates": 26,
+    "epCandidates": 28,
     "chartCheck": 10,
     "chartCheckShown": 10,
     "plans": {
@@ -166,7 +166,7 @@ window.CHIEF_DATA = {
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.07, 최저 0.06)",
         "넘어야 할 선 $166.25 바로 아래(-4.5%)",
         "최근 2주 종가가 1.58% 안에서만 움직였다",
-        "1년 최고가의 95.5% 자리"
+        "1년 최고가의 95.54% 자리"
       ],
       "flags": [
         "bbSqueeze",

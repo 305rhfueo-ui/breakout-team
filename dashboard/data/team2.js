@@ -1,5 +1,5 @@
 window.TEAM2_DATA = {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "stats": {
     "universe": 1109,
     "byPeriod": {
@@ -33,21 +33,21 @@ window.TEAM2_DATA = {
   "picks": [
     {
       "ticker": "MRNA",
-      "price": 200.1,
+      "price": 200.10000610351562,
       "marketCap": "79.89B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
-          "v": 0.059995979786645746,
+          "v": 0.059995977683521856,
           "pct": 49.368800721370604
         },
         "m3": {
-          "v": 2.423188931373705,
+          "v": 2.4231890009982955,
           "pct": 99.95491433724075
         },
         "m6": {
-          "v": 3.181358190716483,
+          "v": 3.1813582833942124,
           "pct": 99.95491433724075
         }
       },
@@ -82,7 +82,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 479.68,
       "ret1d": -1.25,
       "ret5d": -8.22,
-      "dollarVolM": 4295.4,
+      "dollarVolM": 4307.1,
       "brk60d": false,
       "clsPos": 71.34,
       "targetStatus": false,
@@ -98,7 +98,7 @@ window.TEAM2_DATA = {
       "epsNy": -42.6,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 0.09,
       "fs": {
         "sale": [
@@ -149,8 +149,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.0313,
-        "m3": 0.2591,
-        "m6": 0.4235,
+        "m3": 0.2592,
+        "m6": 0.4239,
         "rankPct6": 3.76,
         "count": 38
       },
@@ -1366,21 +1366,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "KOD",
-      "price": 87.63,
+      "price": 87.62999725341797,
       "marketCap": "5.51B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
-          "v": 1.7626716716925173,
+          "v": 1.7626715539978794,
           "pct": 99.95491433724075
         },
         "m3": {
-          "v": 1.030305981727447,
+          "v": 1.030305881348197,
           "pct": 99.77457168620379
         },
         "m6": {
-          "v": 1.024506279427526,
+          "v": 1.0245061780743896,
           "pct": 98.512173128945
         }
       },
@@ -1432,7 +1432,7 @@ window.TEAM2_DATA = {
       "epsNy": -13.7,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 1.53,
       "fs": null,
       "top2Since": {
@@ -1466,8 +1466,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.0313,
-        "m3": 0.2591,
-        "m6": 0.4235,
+        "m3": 0.2592,
+        "m6": 0.4239,
         "rankPct6": 3.76,
         "count": 38
       },
@@ -1914,7 +1914,7 @@ window.TEAM2_DATA = {
       "nameKo": "코디악 사이언시스",
       "nameEn": "KODIAK SCIENCES INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "코디악 사이언시스",
         "nameEn": "KODIAK SCIENCES INC",
         "infomaxCode": "NAS:KOD",
@@ -2134,8 +2134,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-30",
               "summary": "- Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승- wAMD, 당뇨병망막병증(DR), 망막정맥폐쇄(RVO) 3개 적응증 4Q26 신약 신청(BLA)- 다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음",
               "pages": "5",
-              "secureId": "eqmcqgclimxgqmkgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecgk.pdf",
+              "secureId": "eqmcqgclimxgqmkgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecgx.pdf",
               "opinion": null
             }
           ],
@@ -2547,21 +2547,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "TEAM",
-      "price": 227.61,
+      "price": 227.61000061035156,
       "marketCap": "56.49B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.2662297853863296,
+          "v": 0.26622975584481423,
           "pct": 97.06943192064924
         },
         "m3": {
-          "v": 1.2881341223525655,
+          "v": 1.2881340928192349,
           "pct": 99.86474301172227
         },
         "m6": {
-          "v": 1.3941300243281007,
+          "v": 1.3941299945190906,
           "pct": 99.41388638412985
         }
       },
@@ -2596,7 +2596,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 209.04,
       "ret1d": 1.99,
       "ret5d": 9.52,
-      "dollarVolM": 459.6,
+      "dollarVolM": 459.7,
       "brk60d": false,
       "clsPos": 93.17,
       "targetStatus": false,
@@ -2662,9 +2662,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -3718,21 +3718,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "AGL",
-      "price": 89.71,
+      "price": 89.70999908447266,
       "marketCap": "1.52B",
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "rs": {
         "m1": {
-          "v": 0.165096586708083,
+          "v": 0.16509654257491266,
           "pct": 86.51938683498648
         },
         "m3": {
-          "v": -0.10434122909486643,
-          "pct": 31.154192966636607
+          "v": -0.10434127431147179,
+          "pct": 31.244364292155097
         },
         "m6": {
-          "v": 2.280906657931624,
+          "v": 2.280906587587027,
           "pct": 99.86474301172227
         }
       },
@@ -3749,7 +3749,7 @@ window.TEAM2_DATA = {
       "bbwthd": 0.18,
       "bbwthdLow": 0.13,
       "high52": 67.43,
-      "volx": 1,
+      "volx": 1.01,
       "volSurgeWk": 1.05,
       "aboveMa150": true,
       "aboveMa50": true,
@@ -4608,12 +4608,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.97배(20일 평균 대비) · 오늘 거래대금 1배 · 상장주식 17M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.97배(20일 평균 대비) · 오늘 거래대금 1.01배 · 상장주식 17M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 13.48% · 3M 68.85% · 6M 0.14% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 13.48% · 3M 68.76% · 6M 0.14% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -4631,21 +4631,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "TTAN",
-      "price": 87.06,
-      "marketCap": "7.94B",
+      "price": 87.05999755859375,
+      "marketCap": "8.40B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.5536032738934992,
+          "v": 0.5536031990439813,
           "pct": 99.86474301172227
         },
         "m3": {
-          "v": 0.05844487588990437,
+          "v": 0.058444809568865,
           "pct": 76.6907123534716
         },
         "m6": {
-          "v": 0.31506332391269926,
+          "v": 0.31506324929747725,
           "pct": 88.2326420198377
         }
       },
@@ -4695,7 +4695,7 @@ window.TEAM2_DATA = {
       "epsNy": 21.13,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 11.81,
       "fs": {
         "sale": [
@@ -4745,9 +4745,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "flat",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -5139,7 +5139,7 @@ window.TEAM2_DATA = {
       "nameKo": "서비스타이탄",
       "nameEn": "SERVICETITAN INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "서비스타이탄",
         "nameEn": "SERVICETITAN INC",
         "infomaxCode": "NAS:TTAN",
@@ -5917,21 +5917,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "ACN",
-      "price": 249.37,
+      "price": 249.3699951171875,
       "marketCap": "158.33B",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "rs": {
         "m1": {
-          "v": 0.4812109175194626,
+          "v": 0.48121085677855524,
           "pct": 99.77457168620379
         },
         "m3": {
-          "v": 0.5078350947258979,
+          "v": 0.5078350288295179,
           "pct": 98.42200180342651
         },
         "m6": {
-          "v": 0.3632670319380547,
+          "v": 0.36326708997958934,
           "pct": 90.21641118124435
         }
       },
@@ -5966,9 +5966,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 123.97,
       "ret1d": -3.62,
       "ret5d": 8.57,
-      "dollarVolM": 1706.9,
+      "dollarVolM": 1707.1,
       "brk60d": false,
-      "clsPos": 59.24,
+      "clsPos": 59.21,
       "targetStatus": false,
       "est": {
         "cyCur": 14.66269,
@@ -6033,7 +6033,7 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.2737,
-        "m3": 0.2535,
+        "m3": 0.2534,
         "m6": 0.1855,
         "rankPct6": 12.03,
         "count": 14
@@ -6511,7 +6511,7 @@ window.TEAM2_DATA = {
       "nameKo": "액센추어",
       "nameEn": "ACCENTURE PLC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "액센추어",
         "nameEn": "ACCENTURE PLC",
         "infomaxCode": "NYS:ACN",
@@ -6820,8 +6820,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-23",
               "summary": "- 글로벌 최대 컨설팅 및 IT서비스 기업- FY 3Q26: 수요 둔화 우려 부각- 국내 IT서비스 기업에 대한 시사점",
               "pages": "7",
-              "secureId": "eqlgexmeiilgmlxgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgexmeiilgmlxgcgxecgk.pdf",
+              "secureId": "eqlgexmeiilgmlxgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgexmeiilgmlxgcgxecgx.pdf",
               "opinion": null
             }
           ],
@@ -7289,21 +7289,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "TXG",
-      "price": 71.55,
+      "price": 71.55000305175781,
       "marketCap": "9.32B",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "rs": {
         "m1": {
-          "v": -0.11134659938052319,
+          "v": -0.11134659656746351,
           "pct": 9.69341749323715
         },
         "m3": {
-          "v": 0.41592513714673174,
+          "v": 0.4159251631319215,
           "pct": 97.15960324616772
         },
         "m6": {
-          "v": 2.2557640906077685,
+          "v": 2.2557641952059035,
           "pct": 99.77457168620379
         }
       },
@@ -7331,7 +7331,7 @@ window.TEAM2_DATA = {
       "div200": 82.77,
       "ret1m": -16.52,
       "ret3m": 44.75,
-      "ret6m": 230.48,
+      "ret6m": 230.49,
       "maxRise1m": 52.88,
       "maxRise3m": 131.61,
       "maxRise6m": 418.72,
@@ -7353,7 +7353,7 @@ window.TEAM2_DATA = {
       "epsNy": 109.08,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 0.27,
       "fs": null,
       "top2Since": {
@@ -8514,21 +8514,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "OKTA",
-      "price": 213.05,
+      "price": 213.0500030517578,
       "marketCap": "35.20B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.14536222763272105,
+          "v": 0.1453622104749648,
           "pct": 80.02705139765554
         },
         "m3": {
-          "v": 0.4856576608197309,
+          "v": 0.4856576467990115,
           "pct": 98.06131650135256
         },
         "m6": {
-          "v": 1.7092000863838432,
+          "v": 1.709200089533256,
           "pct": 99.6844003606853
         }
       },
@@ -8563,7 +8563,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 211.26,
       "ret1d": 5.82,
       "ret5d": 13.77,
-      "dollarVolM": 649.9,
+      "dollarVolM": 650.5,
       "brk60d": false,
       "clsPos": 88.76,
       "targetStatus": false,
@@ -9061,7 +9061,7 @@ window.TEAM2_DATA = {
       "nameKo": "옥타",
       "nameEn": "OKTA INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "옥타",
         "nameEn": "OKTA INC",
         "infomaxCode": "NAS:OKTA",
@@ -9325,8 +9325,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-17",
               "summary": "- Okta는 기업용 Identity 보안 플랫폼, 벤더 중립성과 폭넓은 연동 생태계가 강점- 대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
               "pages": "6",
-              "secureId": "eqlmxlzgkgmikeggcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxecgk.pdf",
+              "secureId": "eqlmxlzgkgmikeggcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxecgx.pdf",
               "opinion": null
             }
           ],
@@ -9825,21 +9825,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "GRAL",
-      "price": 132.55,
+      "price": 132.5500030517578,
       "marketCap": "5.92B",
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "rs": {
         "m1": {
-          "v": 0.09846722101437622,
+          "v": 0.09846721227223423,
           "pct": 65.23895401262398
         },
         "m3": {
-          "v": 0.831651083624952,
+          "v": 0.8316510907690787,
           "pct": 99.6844003606853
         },
         "m6": {
-          "v": 1.3323370792799392,
+          "v": 1.332337097747844,
           "pct": 99.32371505861136
         }
       },
@@ -9890,7 +9890,7 @@ window.TEAM2_DATA = {
       "epsNy": 9.78,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 0.72,
       "fs": {
         "sale": [
@@ -9940,9 +9940,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0742,
-        "m3": 0.1706,
-        "m6": 0.4667,
+        "m1": 0.0743,
+        "m3": 0.1707,
+        "m6": 0.467,
         "rankPct6": 3.01,
         "count": 21
       },
@@ -11118,21 +11118,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "RBRK",
-      "price": 128.74,
+      "price": 128.74000549316406,
       "marketCap": "26.69B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.22903277410239062,
+          "v": 0.2290327914528125,
           "pct": 95.26600541027953
         },
         "m3": {
-          "v": 0.7669706629684727,
+          "v": 0.7669707039562847,
           "pct": 99.59422903516682
         },
         "m6": {
-          "v": 1.173251439785287,
+          "v": 1.1732514982487965,
           "pct": 98.96302975653742
         }
       },
@@ -11149,8 +11149,8 @@ window.TEAM2_DATA = {
       "upDownRatio": 90.41,
       "bbwthd": 0.16,
       "bbwthdLow": 0.16,
-      "high52": 98.41,
-      "volx": 1.52,
+      "high52": 98.39,
+      "volx": 1.53,
       "volSurgeWk": 1.41,
       "aboveMa150": true,
       "aboveMa50": true,
@@ -11162,14 +11162,14 @@ window.TEAM2_DATA = {
       "ret1m": 17.52,
       "ret3m": 79.85,
       "ret6m": 122.23,
-      "maxRise1m": 23.53,
-      "maxRise3m": 86.54,
-      "maxRise6m": 135.67,
+      "maxRise1m": 23.55,
+      "maxRise3m": 86.57,
+      "maxRise6m": 135.71,
       "ret1d": 6.62,
       "ret5d": 14.53,
-      "dollarVolM": 517.9,
+      "dollarVolM": 518.4,
       "brk60d": true,
-      "clsPos": 81.83,
+      "clsPos": 81.69,
       "targetStatus": true,
       "est": {
         "cyCur": 0.50325,
@@ -11183,7 +11183,7 @@ window.TEAM2_DATA = {
       "epsNy": 52.54,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 1.08,
       "fs": {
         "sale": [
@@ -11711,7 +11711,7 @@ window.TEAM2_DATA = {
       "nameKo": "루브릭",
       "nameEn": "RUBRIK INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "루브릭",
         "nameEn": "RUBRIK INC",
         "infomaxCode": "NYS:RBRK",
@@ -12450,7 +12450,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.98배(20일 평균 대비) · 오늘 거래대금 1.52배(상승일) · 상장주식 167M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.98배(20일 평균 대비) · 오늘 거래대금 1.53배(상승일) · 상장주식 167M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -12473,21 +12473,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "ZS",
-      "price": 255.15,
+      "price": 255.14999389648438,
       "marketCap": "38.77B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.3755399529005846,
+          "v": 0.3755398884917804,
           "pct": 99.50405770964834
         },
         "m3": {
-          "v": 0.6878791247730106,
+          "v": 0.6878790478876368,
           "pct": 99.41388638412985
         },
         "m6": {
-          "v": 0.7452179838262081,
+          "v": 0.7452179045434981,
           "pct": 96.43823264201984
         }
       },
@@ -12522,7 +12522,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 113.85,
       "ret1d": 7.31,
       "ret5d": 23.04,
-      "dollarVolM": 1016,
+      "dollarVolM": 1017.2,
       "brk60d": true,
       "clsPos": 98.13,
       "targetStatus": false,
@@ -12994,7 +12994,7 @@ window.TEAM2_DATA = {
       "nameKo": "지스케일러",
       "nameEn": "ZSCALER INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "지스케일러",
         "nameEn": "ZSCALER INC",
         "infomaxCode": "NAS:ZS",
@@ -13347,7 +13347,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "ZS",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-25",
         "source": "한국투자증권 Open API",
         "per": 645.46,
         "pbr": 16.01,
@@ -13370,7 +13370,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ZS",
         "url": "https://finance.yahoo.com/quote/ZS/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-25",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -13779,21 +13779,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "TWST",
-      "price": 139.92,
+      "price": 139.9199981689453,
       "marketCap": "8.98B",
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "rs": {
         "m1": {
-          "v": -0.18083725616708843,
+          "v": -0.18083729897471734,
           "pct": 5.365193868349865
         },
         "m3": {
-          "v": 0.5004503143745257,
+          "v": 0.50045025857196,
           "pct": 98.33183047790803
         },
         "m6": {
-          "v": 1.441037006360012,
+          "v": 1.4410369374125107,
           "pct": 99.50405770964834
         }
       },
@@ -13894,9 +13894,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0742,
-        "m3": 0.1706,
-        "m6": 0.4667,
+        "m1": 0.0743,
+        "m3": 0.1707,
+        "m6": 0.467,
         "rankPct6": 3.01,
         "count": 21
       },
@@ -14945,21 +14945,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "ECO",
-      "price": 94.73,
+      "price": 94.7300033569336,
       "marketCap": "3.70B",
       "sector": "Industrials",
       "industry": "Marine Shipping",
       "rs": {
         "m1": {
-          "v": 0.2699078413897214,
+          "v": 0.2699078516900158,
           "pct": 97.2497745716862
         },
         "m3": {
-          "v": 0.6951151556081901,
+          "v": 0.6951151810429227,
           "pct": 99.50405770964834
         },
         "m6": {
-          "v": 0.8893476316372649,
+          "v": 0.8893476639685995,
           "pct": 97.61045987376015
         }
       },
@@ -14993,7 +14993,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 135.7,
       "ret1d": 5.2,
       "ret5d": 5.61,
-      "dollarVolM": 66.4,
+      "dollarVolM": 66.6,
       "brk60d": false,
       "clsPos": 90.57,
       "targetStatus": false,
@@ -15009,7 +15009,7 @@ window.TEAM2_DATA = {
       "epsNy": -61.32,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 2.43,
       "fs": {
         "sale": [
@@ -15059,9 +15059,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1036,
-        "m3": 0.1474,
-        "m6": 0.2424,
+        "m1": 0.1037,
+        "m3": 0.1477,
+        "m6": 0.2426,
         "rankPct6": 6.77,
         "count": 6
       },
@@ -15888,15 +15888,15 @@ window.TEAM2_DATA = {
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.3522953095076823,
+          "v": 0.3522952767151201,
           "pct": 99.32371505861136
         },
         "m3": {
-          "v": 0.20202451461465967,
+          "v": 0.20202447886086916,
           "pct": 92.11000901713255
         },
         "m6": {
-          "v": 0.2673450899563467,
+          "v": 0.26734505359568855,
           "pct": 85.34715960324617
         }
       },
@@ -15930,9 +15930,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 102.83,
       "ret1d": -0.34,
       "ret5d": 11.93,
-      "dollarVolM": 142,
+      "dollarVolM": 142.1,
       "brk60d": false,
-      "clsPos": 52.4,
+      "clsPos": 52.35,
       "targetStatus": false,
       "est": {
         "cyCur": 4.18833,
@@ -15996,9 +15996,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -16101,7 +16101,7 @@ window.TEAM2_DATA = {
       "nameKo": "가이드와이어 소프트웨어",
       "nameEn": "GUIDEWIRE SOFTWARE INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "가이드와이어 소프트웨어",
         "nameEn": "GUIDEWIRE SOFTWARE INC",
         "infomaxCode": "NYS:GWRE",
@@ -16838,21 +16838,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "QLYS",
-      "price": 216.7,
+      "price": 216.6999969482422,
       "marketCap": "7.33B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.31060357176205283,
+          "v": 0.3106035212709583,
           "pct": 98.69251577998197
         },
         "m3": {
-          "v": 0.4976028661957243,
+          "v": 0.49760280890670233,
           "pct": 98.24165915238953
         },
         "m6": {
-          "v": 1.2938701972079578,
+          "v": 1.2938701278517555,
           "pct": 99.23354373309287
         }
       },
@@ -16888,7 +16888,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 159.79,
       "ret1d": 4.08,
       "ret5d": 19.69,
-      "dollarVolM": 266,
+      "dollarVolM": 266.1,
       "brk60d": true,
       "clsPos": 81.42,
       "targetStatus": false,
@@ -17308,7 +17308,7 @@ window.TEAM2_DATA = {
       "nameKo": "퀄리스",
       "nameEn": "QUALYS INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "퀄리스",
         "nameEn": "QUALYS INC",
         "infomaxCode": "NAS:QLYS",
@@ -18022,21 +18022,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "MNDY",
-      "price": 106.53,
+      "price": 106.52999877929688,
       "marketCap": "4.52B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.3272299922635638,
+          "v": 0.3272299448797624,
           "pct": 99.23354373309287
         },
         "m3": {
-          "v": 0.17679472196699758,
+          "v": 0.1767946723667566,
           "pct": 90.93778178539225
         },
         "m6": {
-          "v": 0.3286948051247657,
+          "v": 0.32869475297643125,
           "pct": 88.86384129846708
         }
       },
@@ -18053,8 +18053,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.42,
       "bbwthdLow": 0.13,
       "high52": 50.61,
-      "volx": 0.76,
-      "volSurgeWk": 0.56,
+      "volx": 0.81,
+      "volSurgeWk": 0.6,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": false,
@@ -18070,9 +18070,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 68.05,
       "ret1d": -0.31,
       "ret5d": 17.88,
-      "dollarVolM": 76.6,
+      "dollarVolM": 82.4,
       "brk60d": false,
-      "clsPos": 39.89,
+      "clsPos": 38.78,
       "targetStatus": false,
       "est": {
         "cyCur": 5.49531,
@@ -18136,9 +18136,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -18149,7 +18149,7 @@ window.TEAM2_DATA = {
       "nameKo": "먼데이닷컴",
       "nameEn": "MONDAY.COM LTD",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "먼데이닷컴",
         "nameEn": "MONDAY.COM LTD",
         "infomaxCode": "NAS:MNDY",
@@ -18654,7 +18654,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.05배(20일 평균 대비) · 오늘 거래대금 0.76배 · 상장주식 42M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.05배(20일 평균 대비) · 오늘 거래대금 0.81배 · 상장주식 42M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -18677,21 +18677,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "FET",
-      "price": 87.17,
+      "price": 87.16999816894531,
       "marketCap": "0.98B",
       "sector": "Energy",
       "industry": "Oil & Gas Equipment & Services",
       "rs": {
         "m1": {
-          "v": 0.10625810355828268,
+          "v": 0.10625804865954343,
           "pct": 67.85392245266006
         },
         "m3": {
-          "v": 0.6633487596972155,
+          "v": 0.663348688340573,
           "pct": 99.23354373309287
         },
         "m6": {
-          "v": 0.4152178902907062,
+          "v": 0.41521782317152756,
           "pct": 91.56898106402164
         }
       },
@@ -18727,7 +18727,7 @@ window.TEAM2_DATA = {
       "ret5d": 10.76,
       "dollarVolM": 12.1,
       "brk60d": false,
-      "clsPos": 93.44,
+      "clsPos": 93.43,
       "targetStatus": false,
       "est": {
         "cyCur": 4.01,
@@ -18741,7 +18741,7 @@ window.TEAM2_DATA = {
       "epsNy": 23.69,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 8.48,
       "fs": {
         "sale": [
@@ -18792,7 +18792,7 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.0612,
-        "m3": 0.056,
+        "m3": 0.0561,
         "m6": -0.1091,
         "rankPct6": 79.7,
         "count": 7
@@ -18806,7 +18806,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "FET",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 587.8,
         "pbr": 3.39,
@@ -18829,7 +18829,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "FET",
         "url": "https://finance.yahoo.com/quote/FET/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -19137,21 +19137,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "P",
-      "price": 123.33,
+      "price": 123.33000183105469,
       "marketCap": "41.10B",
       "sector": "Technology",
       "industry": "Computer Hardware",
       "rs": {
         "m1": {
-          "v": 0.03267117592503759,
-          "pct": 37.91704238052299
+          "v": 0.03267115766465552,
+          "pct": 37.82687105500451
         },
         "m3": {
-          "v": 0.6115092138041152,
+          "v": 0.6115092024448723,
           "pct": 99.14337240757439
         },
         "m6": {
-          "v": 0.6461718798090162,
+          "v": 0.6461718686174948,
           "pct": 95.35617673579802
         }
       },
@@ -19185,7 +19185,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 143.16,
       "ret1d": 1.76,
       "ret5d": -0.55,
-      "dollarVolM": 261.5,
+      "dollarVolM": 261.6,
       "brk60d": false,
       "clsPos": 61.47,
       "targetStatus": false,
@@ -19201,7 +19201,7 @@ window.TEAM2_DATA = {
       "epsNy": 49.78,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 4.69,
       "fs": {
         "sale": [
@@ -20574,7 +20574,7 @@ window.TEAM2_DATA = {
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 62.08% · 3M 0.86% · 6M 4.64% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 62.17% · 3M 0.86% · 6M 4.64% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -20592,21 +20592,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "HNGE",
-      "price": 111.52,
+      "price": 111.5199966430664,
       "marketCap": "9.00B",
       "sector": "Healthcare",
       "industry": "Health Information Services",
       "rs": {
         "m1": {
-          "v": 0.22075503242426756,
+          "v": 0.22075496450631457,
           "pct": 94.63480613165014
         },
         "m3": {
-          "v": 0.453179308373237,
+          "v": 0.4531792279258829,
           "pct": 97.61045987376015
         },
         "m6": {
-          "v": 1.2319532436210812,
+          "v": 1.231953138597432,
           "pct": 99.14337240757439
         }
       },
@@ -20656,7 +20656,7 @@ window.TEAM2_DATA = {
       "epsNy": 27.44,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 0.9,
       "fs": {
         "sale": [
@@ -20706,9 +20706,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1479,
-        "m3": 0.3508,
-        "m6": 0.5579,
+        "m1": 0.1476,
+        "m3": 0.3476,
+        "m6": 0.5536,
         "rankPct6": 2.26,
         "count": 6
       },
@@ -21588,21 +21588,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "ETSY",
-      "price": 86.93,
+      "price": 86.93000030517578,
       "marketCap": "7.98B",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
       "rs": {
         "m1": {
-          "v": 0.3240252537960318,
+          "v": 0.32402522546249596,
           "pct": 99.14337240757439
         },
         "m3": {
-          "v": 0.01388362162757733,
+          "v": 0.013883589543970468,
           "pct": 67.13255184851218
         },
         "m6": {
-          "v": 0.30834698291010865,
+          "v": 0.3083469513148435,
           "pct": 87.87195671776375
         }
       },
@@ -21636,7 +21636,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 61.88,
       "ret1d": -4.28,
       "ret5d": 2.1,
-      "dollarVolM": 212.3,
+      "dollarVolM": 212.4,
       "brk60d": false,
       "clsPos": 4.99,
       "targetStatus": false,
@@ -21652,7 +21652,7 @@ window.TEAM2_DATA = {
       "epsNy": 33.89,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 12.17,
       "fs": {
         "sale": [
@@ -21826,7 +21826,7 @@ window.TEAM2_DATA = {
       "nameKo": "엣시",
       "nameEn": "ETSY INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "엣시",
         "nameEn": "ETSY INC",
         "infomaxCode": "NYS:ETSY",
@@ -21911,6 +21911,20 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "ETSY",
           "items": [
+            {
+              "title": "Advance Auto Parts vs. Etsy: Which Consumer Stock Is a Better Buy in 2026?",
+              "url": "https://www.nasdaq.com/articles/advance-auto-parts-vs-etsy-which-consumer-stock-better-buy-2026",
+              "date": "2026-10-24",
+              "desc": "Key PointsAdvance Auto Parts is navigating a turnaround while maintaining a balanced split between professional and DIY customers.",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AAP",
+                "AAP",
+                "ETSY"
+              ]
+            },
             {
               "title": "Etsy vs. Five Below: Which Consumer Stock Is a Better Buy in 2026?",
               "url": "https://www.nasdaq.com/articles/etsy-vs-five-below-which-consumer-stock-better-buy-2026",
@@ -22000,19 +22014,6 @@ window.TEAM2_DATA = {
               "tickers": [
                 "ETSY",
                 "ETSY"
-              ]
-            },
-            {
-              "title": "Etsy (ETSY) Down 0.3% Since Last Earnings Report: Can It Rebound?",
-              "url": "https://www.nasdaq.com/articles/etsy-etsy-down-03-last-earnings-report-can-it-rebound",
-              "date": "2026-09-04",
-              "desc": "Etsy (ETSY) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ETSY",
-                "CVNA"
               ]
             }
           ],
@@ -22169,6 +22170,13 @@ window.TEAM2_DATA = {
           "date": "2026-07-16",
           "publisher": "CNBC",
           "kind": "article"
+        },
+        {
+          "title": "Stock futures trade lower after tech sector sell-off",
+          "url": "https://www.cnbc.com/video/2026/10/23/stock-futures-trade-lower-after-tech-sector-sell-off.html",
+          "date": "2026-10-23",
+          "publisher": "CNBC",
+          "kind": "video"
         }
       ],
       "kis": {
@@ -22605,21 +22613,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "SNOW",
-      "price": 325.43,
+      "price": 325.42999267578125,
       "marketCap": "110.77B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.022576296501338702,
-          "pct": 34.400360685302076
+          "v": 0.022576241906613358,
+          "pct": 34.310189359783585
         },
         "m3": {
-          "v": 0.06010425051357777,
+          "v": 0.060104190190117354,
           "pct": 77.59242560865644
         },
         "m6": {
-          "v": 1.2075536655620764,
+          "v": 1.207553578412857,
           "pct": 99.0532010820559
         }
       },
@@ -22653,9 +22661,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 182.35,
       "ret1d": 3.65,
       "ret5d": 6.06,
-      "dollarVolM": 1019.3,
+      "dollarVolM": 1020.1,
       "brk60d": false,
-      "clsPos": 99.11,
+      "clsPos": 98.76,
       "targetStatus": false,
       "est": {
         "cyCur": 2.22372,
@@ -22719,9 +22727,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -23943,7 +23951,7 @@ window.TEAM2_DATA = {
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 65.6% · 3M 22.41% · 6M 0.95% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 65.69% · 3M 22.41% · 6M 0.95% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -23961,21 +23969,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "HUBS",
-      "price": 270.88,
+      "price": 270.8800048828125,
       "marketCap": "13.32B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.32119576383220605,
+          "v": 0.3211957538842793,
           "pct": 99.0532010820559
         },
         "m3": {
-          "v": 0.13049996043470022,
+          "v": 0.13049994562819578,
           "pct": 86.88007213706041
         },
         "m6": {
-          "v": 0.045688459851088124,
+          "v": 0.04568844322454732,
           "pct": 58.4761045987376
         }
       },
@@ -24075,9 +24083,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -24088,7 +24096,7 @@ window.TEAM2_DATA = {
       "nameKo": "허브스팟",
       "nameEn": "HUBSPOT INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "허브스팟",
         "nameEn": "HUBSPOT INC",
         "infomaxCode": "NYS:HUBS",
@@ -24403,7 +24411,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "HUBS",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 95.88,
         "pbr": 8.12,
@@ -24426,7 +24434,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HUBS",
         "url": "https://finance.yahoo.com/quote/HUBS/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -24835,21 +24843,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "CRWD",
-      "price": 257.57,
+      "price": 257.57000732421875,
       "marketCap": "243.64B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.0754378033543001,
+          "v": 0.07543779961111174,
           "pct": 55.500450856627594
         },
         "m3": {
-          "v": 0.3590401837072835,
+          "v": 0.3590401874968399,
           "pct": 96.16771866546439
         },
         "m6": {
-          "v": 1.146549689240061,
+          "v": 1.1465497153141393,
           "pct": 98.87285843101894
         }
       },
@@ -24866,7 +24874,7 @@ window.TEAM2_DATA = {
       "bbwthd": 0.25,
       "bbwthdLow": 0.16,
       "high52": 89.75,
-      "volx": 1.57,
+      "volx": 1.58,
       "volSurgeWk": 1.34,
       "aboveMa150": true,
       "aboveMa50": true,
@@ -24883,7 +24891,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 150.94,
       "ret1d": 8.25,
       "ret5d": 13.27,
-      "dollarVolM": 3436.7,
+      "dollarVolM": 3443.1,
       "brk60d": false,
       "clsPos": 98.53,
       "targetStatus": false,
@@ -25581,7 +25589,7 @@ window.TEAM2_DATA = {
       "nameKo": "크라우드스트라이크 홀딩스",
       "nameEn": "CROWDSTRIKE HOLDINGS INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "크라우드스트라이크 홀딩스",
         "nameEn": "CROWDSTRIKE HOLDINGS INC",
         "infomaxCode": "NAS:CRWD",
@@ -25666,6 +25674,19 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "CRWD",
           "items": [
+            {
+              "title": "Up Over 100% in 2026, Is CrowdStrike Still a Buy?",
+              "url": "https://www.nasdaq.com/articles/over-100-2026-crowdstrike-still-buy",
+              "date": "2026-10-25",
+              "desc": "Key PointsThe last time CrowdStrike stock was trading at a price-to-sales ratio this high was in late 2021.",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "CRWD",
+                "CRWD"
+              ]
+            },
             {
               "title": "Noteworthy ETF Inflows: QQQI, WMT, COST, CRWD",
               "url": "https://www.nasdaq.com/articles/noteworthy-etf-inflows-qqqi-wmt-cost-crwd",
@@ -25761,23 +25782,10 @@ window.TEAM2_DATA = {
               "tickers": [
                 "CRWD"
               ]
-            },
-            {
-              "title": "Here's What a $5,000 Investment in CrowdStrike Will Be Worth by 2028",
-              "url": "https://www.nasdaq.com/articles/heres-what-5000-investment-crowdstrike-will-be-worth-2028",
-              "date": "2026-10-18",
-              "desc": "Key PointsCrowdStrike's stock and business have become uncoupled.",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "CRWD",
-                "CRWD"
-              ]
             }
           ],
-          "directCount": 8,
-          "total": 8,
+          "directCount": 9,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -25894,8 +25902,8 @@ window.TEAM2_DATA = {
               "date": "2026-10-02",
               "summary": "- 통합 플랫폼 내에서 여러 보안 영역으로 확장하는 특징- 에이전트 실행 환경인 엔드포인트 보안의 중요도 부각- 고성능 AI 모델이 침해 속도를 늘려 역으로 보안 수요를 높이는 구조",
               "pages": "1",
-              "secureId": "eqmclmmxiqlqcgegcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmclmmxiqlqcgegcgxecgk.pdf",
+              "secureId": "eqmclmmxiqlqcgegcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmclmmxiqlqcgegcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25905,8 +25913,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-28",
               "summary": "- 사이버보안 통합 솔루션 기업- FY 2Q27 Review: 보안 SaaS 성장 재가속 중- 국내 소프트웨어 시사점",
               "pages": "8",
-              "secureId": "eqlqlqiggmcikmegcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqiggmcikmegcgxecgk.pdf",
+              "secureId": "eqlqlqiggmcikmegcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqiggmcikmegcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25916,8 +25924,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-27",
               "summary": "- CrowdStrike는 클라우드 네이티브 기반 글로벌 1위 보안 플랫폼 기업- FY27 2Q 신규 ARR 3.33억 달러로 사상 최대, 가이던스 상단을 16% 상회- AI 보안 수요의 확산 속도와 하반기 현금흐름 목표 달성 여부가 중요",
               "pages": "6",
-              "secureId": "eqlqlxqliemlxeqgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxecgk.pdf",
+              "secureId": "eqlqlxqliemlxeqgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25927,8 +25935,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-27",
               "summary": "- 엔드포인트, AIDR, SIEM, 아이덴티티 등 부문 전반의 호조- FY2Q27 Review: AI 보안 필요성 가속 및 AI랩 대비 데이터 경쟁 우위- Valuation: AI 보안 수요와 Falcon Flex는 향후 ARR 순증의 핵심 변수",
               "pages": "6",
-              "secureId": "eqlqlxxzikleqzxgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxxzikleqzxgcgxecgk.pdf",
+              "secureId": "eqlqlxxzikleqzxgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxxzikleqzxgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25938,8 +25946,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-27",
               "summary": "- 2Q Beat & FY27년 가이던스 큰 폭으로 상향, 향후 추가적인 상향 조정 가능성- AIDR(AI보안) ARR 1분기 대비 3배 증가, Flex 모델 기반 ARR +101%- 소수의 보안 통합 플랫폼 사업자에 대한 투자 심리 더욱 좋아질 것",
               "pages": "8",
-              "secureId": "eqlqlekiglixclzgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxecgk.pdf",
+              "secureId": "eqlqlekiglixclzgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25949,8 +25957,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-05",
               "summary": "- AI 인프라 레이어로의 재정의와 성장 중심으로의 전환- FY1Q27 Review: 앤트로픽과 오픈AI가 모두 초기 보안 파트너로 선택- Valuation: 단기 부담 있으나 가이던스 상향의 근거가 충분하다고 판단",
               "pages": "6",
-              "secureId": "eqlcxekgkgezzzlgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxekgkgezzzlgcgxecgk.pdf",
+              "secureId": "eqlcxekgkgezzzlgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxekgkgezzzlgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25960,8 +25968,8 @@ window.TEAM2_DATA = {
               "date": "2026-03-05",
               "summary": "- 크라우드 스트라이크의 분기 매출액은 13.1억 달러(YoY +23.2%), EPS 는 1.12 달러(YoY +8.7%)로 각각 컨센서스를 0.5%, 1.8% 상회했다- 모두 가이던스 상단(13억 달러, 1.11 달러)을 초과했고 연환산 반복 매 출(52.5억 달러)은 순수 사이버 보안 기업 중 최초로 50억 달러를 넘 어섰다. 4분기에 순증한 반복 매출(Net New Annual Recurring Revenue)은 3.3억 달러(YoY +47.6%)였다.- FY 1Q27 가이던스를 중간값 기준 매출액 13.6억 달러(YoY +23.5%, vs. 컨센서스 13.6억 달러), 영업이익 3.1억 달러(YoY +53.7%, vs. 컨 센서스 3억 달러), EPS 1.01 달러(YoY +45.9%, vs. 컨센서스 1.05 달 러)로 제시했다",
               "pages": "8",
-              "secureId": "eqqgxxzkmllezqegcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgxxzkmllezqegcgxecgk.pdf",
+              "secureId": "eqqgxxzkmllezqegcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgxxzkmllezqegcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25971,8 +25979,8 @@ window.TEAM2_DATA = {
               "date": "2026-03-05",
               "summary": "- 호실적 및 긍정적 가이던스. 전체 부문의 ARR 고성장- 사이버보안은 침해자-방어자가 모두 AI를 사용하는 대체 힘든 영역- AI의 환각이 허용되지 않는 영역. 고품질 데이터의 가치가 더욱 강조",
               "pages": "6",
-              "secureId": "eqqgxxzczeelcelgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgxxzczeelcelgcgxecgk.pdf",
+              "secureId": "eqqgxxzczeelcelgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgxxzczeelcelgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -25982,8 +25990,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-04",
               "summary": "- CrowdStrike는 클라우드 네이티브 기반 글로벌 1위 보안 플랫폼 기업- IT 대란 우려를 불식시킨 ARR(+73%) 달성 및 Falcon Flex를 통한 호실적 달성- AI 도입에 따른 보안 수요는 고무적이나 제한적 확장성 및 높은 밸류는 여전히 부담",
               "pages": "5",
-              "secureId": "eqxkllxkqlxxclxgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkllxkqlxxclxgcgxecgk.pdf",
+              "secureId": "eqxkllxkqlxxclxgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkllxkqlxxclxgcgxecgx.pdf",
               "opinion": null
             }
           ],
@@ -26050,7 +26058,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CRWD",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 7214.85,
         "pbr": 51.69,
@@ -26073,7 +26081,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CRWD",
         "url": "https://finance.yahoo.com/quote/CRWD/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -26086,7 +26094,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 45,
             "epsGrowth": 29.8,
             "epsCur": "USD",
-            "rev": 1528559430,
+            "rev": 1528559730,
             "revAnalysts": 43,
             "revYearAgo": 1234244000,
             "revGrowth": 23.8,
@@ -26118,7 +26126,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 51,
             "epsGrowth": 34.8,
             "epsCur": "USD",
-            "rev": 6007888610,
+            "rev": 6007887630,
             "revAnalysts": 49,
             "revYearAgo": 4812005000,
             "revGrowth": 24.9,
@@ -26136,7 +26144,7 @@ window.TEAM2_DATA = {
             "epsCur": "USD",
             "rev": 7378963570,
             "revAnalysts": 50,
-            "revYearAgo": 6007888610,
+            "revYearAgo": 6007887630,
             "revGrowth": 22.8,
             "revCur": "USD"
           }
@@ -26189,9 +26197,9 @@ window.TEAM2_DATA = {
             "endDate": "2028-01-31",
             "cur": "USD",
             "now": 1.61,
-            "d7": 0.1,
+            "d7": 0,
             "d30": 0.3,
-            "d90": -1,
+            "d90": -1.1,
             "ago90": 1.63,
             "up7": 1,
             "up30": 42,
@@ -26459,7 +26467,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.14배(20일 평균 대비) · 오늘 거래대금 1.57배(상승일) · 상장주식 1024M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.14배(20일 평균 대비) · 오늘 거래대금 1.58배(상승일) · 상장주식 1024M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -26482,21 +26490,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "ESTC",
-      "price": 102.43,
+      "price": 102.43000030517578,
       "marketCap": "10.77B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.21625380835013247,
+          "v": 0.2162537790207542,
           "pct": 94.00360685302074
         },
         "m3": {
-          "v": 0.5626648739224575,
+          "v": 0.5626648429184844,
           "pct": 98.87285843101894
         },
         "m6": {
-          "v": 0.97282493167416,
+          "v": 0.9728249013375007,
           "pct": 98.33183047790803
         }
       },
@@ -26533,7 +26541,7 @@ window.TEAM2_DATA = {
       "ret5d": 11.65,
       "dollarVolM": 216.2,
       "brk60d": false,
-      "clsPos": 95.58,
+      "clsPos": 95.6,
       "targetStatus": false,
       "est": {
         "cyCur": 3.35937,
@@ -26547,7 +26555,7 @@ window.TEAM2_DATA = {
       "epsNy": 17.73,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 1.71,
       "fs": {
         "sale": [
@@ -26597,9 +26605,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -27469,21 +27477,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "DELL",
-      "price": 456.44,
+      "price": 456.44000244140625,
       "marketCap": "287.99B",
       "sector": "Technology",
       "industry": "Computer Hardware",
       "rs": {
         "m1": {
-          "v": -0.1341284708350967,
+          "v": -0.1341284992843805,
           "pct": 7.980162308385934
         },
         "m3": {
-          "v": 0.09752682122289424,
+          "v": 0.09752679150845085,
           "pct": 82.64201983769162
         },
         "m6": {
-          "v": 1.1141514453833823,
+          "v": 1.1141515770323398,
           "pct": 98.78268710550046
         }
       },
@@ -27517,9 +27525,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 182.78,
       "ret1d": 0.77,
       "ret5d": 1.19,
-      "dollarVolM": 1974.2,
+      "dollarVolM": 1975.3,
       "brk60d": false,
-      "clsPos": 44.74,
+      "clsPos": 44.53,
       "targetStatus": false,
       "est": {
         "cyCur": 25.89655,
@@ -29054,15 +29062,15 @@ window.TEAM2_DATA = {
       "industry": "Information Technology Services",
       "rs": {
         "m1": {
-          "v": 0.31275471110081915,
+          "v": 0.312754678308257,
           "pct": 98.78268710550046
         },
         "m3": {
-          "v": 0.2828167909177435,
+          "v": 0.282816755163953,
           "pct": 94.54463480613165
         },
         "m6": {
-          "v": 0.18283098220609345,
+          "v": 0.18283094584543533,
           "pct": 78.58431018935978
         }
       },
@@ -29163,7 +29171,7 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "down",
       "wrs": {
         "m1": 0.2737,
-        "m3": 0.2535,
+        "m3": 0.2534,
         "m6": 0.1855,
         "rankPct6": 12.03,
         "count": 14
@@ -29281,7 +29289,7 @@ window.TEAM2_DATA = {
       "nameKo": "이팸 시스템스",
       "nameEn": "EPAM SYS INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "이팸 시스템스",
         "nameEn": "EPAM SYS INC",
         "infomaxCode": "NYS:EPAM",
@@ -29580,7 +29588,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "EPAM",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 18.45,
         "pbr": 2,
@@ -29603,7 +29611,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "EPAM",
         "url": "https://finance.yahoo.com/quote/EPAM/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -29765,8 +29773,8 @@ window.TEAM2_DATA = {
           "downgrades": 2,
           "initiations": 0,
           "ptRaised": 0,
-          "ptLowered": 8,
-          "total": 10,
+          "ptLowered": 7,
+          "total": 9,
           "recent": [
             {
               "date": "2026-08-26",
@@ -29854,16 +29862,6 @@ window.TEAM2_DATA = {
               "action": "main",
               "from": "Equal-Weight",
               "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 100,
-              "ptPrior": 112
-            },
-            {
-              "date": "2026-07-27",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
               "ptAction": "Lowers",
               "pt": 100,
               "ptPrior": 112
@@ -30012,21 +30010,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "VEON",
-      "price": 83.01,
+      "price": 83.01000213623047,
       "marketCap": "5.72B",
       "sector": "Communication Services",
       "industry": "Telecom Services",
       "rs": {
         "m1": {
-          "v": 0.18294222597634777,
+          "v": 0.18294222224024045,
           "pct": 89.49504057709649
         },
         "m3": {
-          "v": 0.5408805062322402,
+          "v": 0.5408805109450234,
           "pct": 98.78268710550046
         },
         "m6": {
-          "v": 0.6329810691598874,
+          "v": 0.6329810760865754,
           "pct": 95.08566275924257
         }
       },
@@ -30076,7 +30074,7 @@ window.TEAM2_DATA = {
       "epsNy": 20.41,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 4.96,
       "fs": {
         "sale": [
@@ -30748,21 +30746,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "RNG",
-      "price": 83.39,
+      "price": 83.38999938964844,
       "marketCap": "6.96B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.1487933221554359,
+          "v": 0.14879328134880423,
           "pct": 81.19927862939585
         },
         "m3": {
-          "v": 0.5308748721143717,
+          "v": 0.5308748249246229,
           "pct": 98.60234445446348
         },
         "m6": {
-          "v": 0.7220829090450415,
+          "v": 0.7220828597207711,
           "pct": 96.16771866546439
         }
       },
@@ -30770,7 +30768,7 @@ window.TEAM2_DATA = {
         "3mo"
       ],
       "bestPct": 98.60234445446348,
-      "adr": 5.35,
+      "adr": 5.36,
       "cyTrend": 1.37,
       "nyTrend": -0.82,
       "upCount": 41,
@@ -30798,7 +30796,7 @@ window.TEAM2_DATA = {
       "ret5d": 10.54,
       "dollarVolM": 385.5,
       "brk60d": false,
-      "clsPos": 4.41,
+      "clsPos": 4.72,
       "targetStatus": false,
       "est": {
         "cyCur": 5.10286,
@@ -30812,7 +30810,7 @@ window.TEAM2_DATA = {
       "epsNy": 8.43,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 3.88,
       "fs": null,
       "top2Since": {
@@ -30845,9 +30843,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -31218,7 +31216,7 @@ window.TEAM2_DATA = {
       "nameKo": "링센트럴",
       "nameEn": "RINGCENTRAL INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "링센트럴",
         "nameEn": "RINGCENTRAL INC",
         "infomaxCode": "NYS:RNG",
@@ -31536,7 +31534,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "RNG",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 66.41,
         "pbr": 0,
@@ -31559,7 +31557,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "RNG",
         "url": "https://finance.yahoo.com/quote/RNG/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -31567,12 +31565,12 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "eps": 1.35,
             "epsLow": 1.34,
-            "epsHigh": 1.37,
+            "epsHigh": 1.38,
             "epsYearAgo": 1.18,
-            "epsAnalysts": 14,
-            "epsGrowth": 14.5,
+            "epsAnalysts": 15,
+            "epsGrowth": 14.7,
             "epsCur": "USD",
-            "rev": 676649780,
+            "rev": 676991990,
             "revAnalysts": 14,
             "revYearAgo": 644033000,
             "revGrowth": 5.1,
@@ -31585,26 +31583,26 @@ window.TEAM2_DATA = {
             "epsLow": 1.24,
             "epsHigh": 1.37,
             "epsYearAgo": 1.2,
-            "epsAnalysts": 13,
+            "epsAnalysts": 12,
             "epsGrowth": 8.7,
             "epsCur": "USD",
-            "rev": 676705430,
-            "revAnalysts": 12,
+            "rev": 676461910,
+            "revAnalysts": 11,
             "revYearAgo": 644199000,
-            "revGrowth": 5.1,
+            "revGrowth": 5,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 5.1,
+            "eps": 5.14,
             "epsLow": 5.09,
-            "epsHigh": 5.12,
+            "epsHigh": 5.68,
             "epsYearAgo": 4.36,
-            "epsAnalysts": 14,
-            "epsGrowth": 17,
+            "epsAnalysts": 15,
+            "epsGrowth": 17.9,
             "epsCur": "USD",
-            "rev": 2653491970,
+            "rev": 2654229270,
             "revAnalysts": 15,
             "revYearAgo": 2515142000,
             "revGrowth": 5.5,
@@ -31616,13 +31614,13 @@ window.TEAM2_DATA = {
             "eps": 5.53,
             "epsLow": 5.27,
             "epsHigh": 6.03,
-            "epsYearAgo": 5.1,
+            "epsYearAgo": 5.14,
             "epsAnalysts": 15,
-            "epsGrowth": 8.4,
+            "epsGrowth": 7.6,
             "epsCur": "USD",
-            "rev": 2780090460,
+            "rev": 2782071290,
             "revAnalysts": 15,
-            "revYearAgo": 2653491970,
+            "revYearAgo": 2654229270,
             "revGrowth": 4.8,
             "revCur": "USD"
           }
@@ -31633,9 +31631,9 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": 1.35,
-            "d7": 0.6,
-            "d30": 0.6,
-            "d90": 0.4,
+            "d7": 0.7,
+            "d30": 0.7,
+            "d90": 0.5,
             "ago90": 1.35,
             "up7": 11,
             "up30": 11,
@@ -31660,10 +31658,10 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 5.1,
-            "d7": 1.4,
-            "d30": 1.4,
-            "d90": 1.3,
+            "now": 5.14,
+            "d7": 2.1,
+            "d30": 2.1,
+            "d90": 2,
             "ago90": 5.04,
             "up7": 13,
             "up30": 13,
@@ -31944,21 +31942,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "PANW",
-      "price": 380.55,
+      "price": 380.54998779296875,
       "marketCap": "290.32B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.06936576141004422,
+          "v": 0.06936569604281274,
           "pct": 53.065825067628495
         },
         "m3": {
-          "v": 0.13690191593374845,
+          "v": 0.1369018426982841,
           "pct": 87.60144274120829
         },
         "m6": {
-          "v": 1.0128452544497957,
+          "v": 1.0128451519478747,
           "pct": 98.42200180342651
         }
       },
@@ -31975,7 +31973,7 @@ window.TEAM2_DATA = {
       "bbwthd": 0.27,
       "bbwthdLow": 0.16,
       "high52": 88.02,
-      "volx": 1.22,
+      "volx": 1.23,
       "volSurgeWk": 1.09,
       "aboveMa150": true,
       "aboveMa50": true,
@@ -31992,9 +31990,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 141.27,
       "ret1d": 7.22,
       "ret5d": 11.27,
-      "dollarVolM": 2497,
+      "dollarVolM": 2505,
       "brk60d": false,
-      "clsPos": 97.02,
+      "clsPos": 96.89,
       "targetStatus": false,
       "est": {
         "cyCur": 4.19114,
@@ -32582,7 +32580,7 @@ window.TEAM2_DATA = {
       "nameKo": "팰로 앨토 네트웍스",
       "nameEn": "PALO ALTO NETWORKS INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "팰로 앨토 네트웍스",
         "nameEn": "PALO ALTO NETWORKS INC",
         "infomaxCode": "NAS:PANW",
@@ -32850,8 +32848,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-11",
               "summary": "- FY4Q26 실적과 다음 분기, 연간 가이던스는 시장 컨센서스를 상회- 연간 ARR과 RPO 가이던스가 시장 기대치에 다소 미치지 못해 주가 하락- AI Agent 시대에 연간 ARR 성장률이 가속화될 수 있을지 여부에 주목해야",
               "pages": "7",
-              "secureId": "eqlmcleeczzqeqlgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmcleeczzqeqlgcgxecgk.pdf",
+              "secureId": "eqlmcleeczzqeqlgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmcleeczzqeqlgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -32861,8 +32859,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-01",
               "summary": "- Q4 매출 34.1억 달러·EPS 1.02달러로 가이던스 상회- FY27 밴드는 컨센서스 위, NGS ARR은 22~23%로 감속- NTM PER 91.9배, 목표가 평균까지 여유 3%",
               "pages": "7",
-              "secureId": "eqllieeexmexmxcgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllieeexmexmxcgcgxecgk.pdf",
+              "secureId": "eqllieeexmexmxcgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllieeexmexmxcgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -32872,8 +32870,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-24",
               "summary": "- 팔로알토 네트웍스, 3개월 주가 87% 상승해 선행 PER 75배까지 확대, 밸류에이션 부담 상승- 차세대 보안 ARR은 60% 증가했지만 인수 효과 제외 시 28%, 유기적 성장 둔화 여부가 핵심- FY27 가이던스와 마진 회복이 주가 방향 좌우, 투자의견 매수에서 중립으로 하향",
               "pages": "5",
-              "secureId": "eqlqzglqilizkqkgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzglqilizkqkgcgxecgk.pdf",
+              "secureId": "eqlqzglqilizkqkgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzglqilizkqkgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -32883,8 +32881,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-06",
               "summary": "- 중국 CAC, 팔로알토 제품 사이버보안 심사 착수- 2023년 마이크론 심사·조달금지 사례와 유사한 절차- 中매출 미공시로 실적 영향 크기 파악 어려움",
               "pages": "5",
-              "secureId": "eqlxczlecmeceelgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxecgk.pdf",
+              "secureId": "eqlxczlecmeceelgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -32894,8 +32892,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-04",
               "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
               "pages": "8",
-              "secureId": "eqlzqmxgmmkzqzlgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxecgk.pdf",
+              "secureId": "eqlzqmxgmmkzqzlgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxecgx.pdf",
               "opinion": null
             }
           ],
@@ -32962,7 +32960,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "PANW",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 742.54,
         "pbr": 11.28,
@@ -32985,7 +32983,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PANW",
         "url": "https://finance.yahoo.com/quote/PANW/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -32998,7 +32996,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 45,
             "epsGrowth": 4.5,
             "epsCur": "USD",
-            "rev": 3307503520,
+            "rev": 3307502950,
             "revAnalysts": 45,
             "revYearAgo": 2474000000,
             "revGrowth": 33.7,
@@ -33030,7 +33028,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 54,
             "epsGrowth": 9.1,
             "epsCur": "USD",
-            "rev": 14173386810,
+            "rev": 14173386740,
             "revAnalysts": 51,
             "revYearAgo": 11480000000,
             "revGrowth": 23.5,
@@ -33048,7 +33046,7 @@ window.TEAM2_DATA = {
             "epsCur": "USD",
             "rev": 16227795210,
             "revAnalysts": 47,
-            "revYearAgo": 14173386810,
+            "revYearAgo": 14173386740,
             "revGrowth": 14.5,
             "revCur": "USD"
           }
@@ -33371,7 +33369,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.04배(20일 평균 대비) · 오늘 거래대금 1.22배(상승일) · 상장주식 818M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.04배(20일 평균 대비) · 오늘 거래대금 1.23배(상승일) · 상장주식 818M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -33400,15 +33398,15 @@ window.TEAM2_DATA = {
       "industry": "Drug Manufacturers - Specialty & Generic",
       "rs": {
         "m1": {
-          "v": 0.28953308952453716,
+          "v": 0.289533056731975,
           "pct": 98.15148782687105
         },
         "m3": {
-          "v": 0.08572611217722603,
+          "v": 0.08572607642343555,
           "pct": 80.47790802524797
         },
         "m6": {
-          "v": -0.03828094245389119,
+          "v": -0.03828097881454932,
           "pct": 40.26149684400361
         }
       },
@@ -33597,7 +33595,7 @@ window.TEAM2_DATA = {
       "nameKo": "유나이티드 테라퓨틱스",
       "nameEn": "UNITED THERAPEUTICS CORP",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "유나이티드 테라퓨틱스",
         "nameEn": "UNITED THERAPEUTICS CORP",
         "infomaxCode": "NAS:UTHR",
@@ -34287,21 +34285,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "TEM",
-      "price": 67.615,
-      "marketCap": "12.23B",
+      "price": 67.61499786376953,
+      "marketCap": "12.32B",
       "sector": "Healthcare",
       "industry": "Health Information Services",
       "rs": {
         "m1": {
-          "v": -0.1507613534027614,
+          "v": -0.15076141132448967,
           "pct": 6.898106402164111
         },
         "m3": {
-          "v": 0.49506618020458165,
+          "v": 0.49506609621799774,
           "pct": 98.15148782687105
         },
         "m6": {
-          "v": 0.1624353507928947,
+          "v": 0.1624352761553971,
           "pct": 76.6907123534716
         }
       },
@@ -34310,15 +34308,15 @@ window.TEAM2_DATA = {
       ],
       "bestPct": 98.15148782687105,
       "adr": 8.43,
-      "cyTrend": -1.94,
-      "nyTrend": -1277.75,
+      "cyTrend": -0.07,
+      "nyTrend": 480.17,
       "upCount": 2,
       "downCount": 2,
       "upDownRatio": 50,
       "bbwthd": 0.37,
       "bbwthdLow": 0.24,
       "high52": 72.41,
-      "volx": 0.68,
+      "volx": 0.69,
       "volSurgeWk": 0.91,
       "aboveMa150": true,
       "aboveMa50": false,
@@ -34335,23 +34333,23 @@ window.TEAM2_DATA = {
       "maxRise6m": 118.52,
       "ret1d": 5.96,
       "ret5d": 4.47,
-      "dollarVolM": 316.1,
+      "dollarVolM": 316.4,
       "brk60d": false,
       "clsPos": 90.32,
       "targetStatus": false,
       "est": {
-        "cyCur": -0.25214,
-        "cy30": -0.25714,
+        "cyCur": -0.26028,
+        "cy30": -0.26045,
         "nyCur": -0.04711,
-        "ny30": 0.004
+        "ny30": -0.00812
       },
       "saleCy": 25.43,
-      "saleNy": 23.45,
-      "epsCy": -58.67,
-      "epsNy": -81.32,
+      "saleNy": 23.4,
+      "epsCy": -57.33,
+      "epsNy": -81.9,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 23.35,
       "fs": {
         "sale": [
@@ -34397,9 +34395,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1479,
-        "m3": 0.3508,
-        "m6": 0.5579,
+        "m1": 0.1476,
+        "m3": 0.3476,
+        "m6": 0.5536,
         "rankPct6": 2.26,
         "count": 6
       },
@@ -34880,7 +34878,7 @@ window.TEAM2_DATA = {
       "nameKo": "템퍼스 AI",
       "nameEn": "TEMPUS AI INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "템퍼스 AI",
         "nameEn": "TEMPUS AI INC",
         "infomaxCode": "NAS:TEM",
@@ -35189,8 +35187,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-17",
               "summary": "- 유전자 NGS 사업을 통한 의료 빅데이터로 AI 사업에 나서고 있는 기업- P(보험 환급액), Q(진단 건수) 꾸준히 증가 중이나, 1분기 기대치 하회하는 실적 기록- 잉여현금흐름 2분기부터 정상화 예정, 매출액 가이던스 소폭 상향 조정",
               "pages": "13",
-              "secureId": "eqlexklzeqmgmgkgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlexklzeqmgmgkgcgxecgk.pdf",
+              "secureId": "eqlexklzeqmgmgkgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlexklzeqmgmgkgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -35200,8 +35198,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-06",
               "summary": "- 단기 비용 증가, 핵심 사업부 매출 증가세 둔화 등 세부 내용이 기대치를 미달한 실적. 중장기 성장 스토리를 뒷받침 할 수 있는 실적 성장세 필요- 1Q26 매출, GAAP EPS 3.5억달러(+36.1% YoY, -5.2% QoQ), -0.7달러로 매출은 컨센서스를 상회했으나 EPS는 기대치 미달(매출: 3.45억달러, ESP: -0.5)했고, EBITDA는 지난 분기 흑자에서 적자로 전환. 주식 보상비용 및 고용주 급여세 등 일시적 비용 증가 요인으로 수익성 악화- 대표 사업부 암/유전병 진단 플랫폼 매출 증가세 둔화 우려. 당기 유전체 진단 제품의 매출 증가율은 34.7%로 2025년 111.5%를 크게 하회. 높은 보험 수가를 적용 받는 xT CDx 제품으로 전환, 혈액 기반의 xF 승인 가 시화, 민간보험사 커버리지 확대 등 ASP 상승 요인들 존재하나 실현 여부 및 매출 증가세 반등 가시화로 중장기 성장 모멘텀 회복이 중요한 시점",
               "pages": "5",
-              "secureId": "eqqlczieliekmeggcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlczieliekmeggcgxecgk.pdf",
+              "secureId": "eqqlczieliekmeggcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlczieliekmeggcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -35211,8 +35209,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-27",
               "summary": "- 유전자 NGS 사업을 통한 의료 빅데이터로 AI 사업에 나서고 있는 기업- 진단 건수(Q), 보험 환급액(P) 모두 상승세 이어가며 역대 분기 최고치 경신 성공- `26년 조정 EBITDA 기준 흑자전환 목표 설정, 이제는 돈을 벌 차례",
               "pages": "11",
-              "secureId": "eqqgezcxlqkeqxlgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgezcxlqkeqxlgcgxecgk.pdf",
+              "secureId": "eqqgezcxlqkeqxlgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgezcxlqkeqxlgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -35222,8 +35220,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-25",
               "summary": "- 2025년까지 호실적에도 불구하고 올해부터 성장세에 대한 의구심 확대. 매출 증가세 회복을 구체화 할 수 있는 파트너십 및 컨센을 넘어서는 제품 수요 증가, ASP 상승과 같은 실적 개선 확인이 필요한 시점- 4Q25 매출, Non-GAAP EPS 3.7억달러(+83.0% YoY, +9.9% QoQ), -0.04 달러 기록해 컨센서스(매출: 3.6억달러, ESP: -0.05) 상회했으며 EBITDA 는 지난 분기에 이어 흑자 지속. 매출총이익률은 64.7%(4Q24: 61.9%, 3Q25: 62.8%)로 수익성 개선됐으며 암 진단 제품 ASP 상승에 기인- 데이터/인사이트 사업 성장 잠재력 잔존. 19개의 글로벌 빅파마, 250개 바 이오텍에 서비스 제공하며 2025년까지 20억달러 규모의 계약. 의료 AI로 데이터 중요성 커진 가운데 800만명 이상 환자 정보 제약사에 제공. 데이 터 베이스 기반 추가 파트너십 예상. 2026-27년간 11억달러 계약 전망",
               "pages": "7",
-              "secureId": "eqqgccmqlgkqczzgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgccmqlgkqczzgcgxecgk.pdf",
+              "secureId": "eqqgccmqlgkqczzgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgccmqlgkqczzgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -35233,8 +35231,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-06",
               "summary": "- 템퍼스 Al는 2015년 설립돼 2024년 상장된 헬스케어 기업으로 인공지능을 활용한 유전체 기반의 암 진단/처방에 특화된 기업. 미국내 2,000개 병원과 파트너십 체결- 유전체 기반 진단 사업은 전체 매출에서 65%를 차지하며 환자별 유전자 분석을 통해 질병의 예후 및 약물의 반응도를 예측. 6개의 암 진단 플랫폼을 제공하고 높은 정밀도와 통합적 정보로 해당 분야의 두드러진 성장세 AI도입한 암 진단/처방 플랫폼도 판매- 데이터/인사이트 및 AI 서비스 사업도 영위. 데이터/인사이트 사업은 유전체 분석에서 생성된 데이터를 사용해 높은 수익성. 대형제약사 20개 중 19개 기업이 동사 데이터/인사이트 구독. Al 부문은 유전체 진단 및 데이터 사업과 결합해시너지 창출. 추가 성장 모멘텀으로 작용",
               "pages": "1",
-              "secureId": "eqxgkcmieqgxmzigcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkcmieqgxmzigcgxecgk.pdf",
+              "secureId": "eqxgkcmieqgxmzigcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkcmieqgxmzigcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -35244,8 +35242,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-06",
               "summary": "- 유전자 NGS 사업을 통한 의료 빅데이터로 AI 사업에 나서고 있는 기업- 여전히 P(보험 환급액)와 Q(진단 건수) 개선세 이어지고 있는 상황- 기술 투자, M&A 등으로 장기 성장 유효, 3번째 연간 가이던스 상향 조정",
               "pages": "11",
-              "secureId": "eqxgileqlmxlqklgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqlmxlqklgcgxecgk.pdf",
+              "secureId": "eqxgileqlmxlqklgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqlmxlqklgcgxecgx.pdf",
               "opinion": null
             },
             {
@@ -35255,15 +35253,15 @@ window.TEAM2_DATA = {
               "date": "2025-11-05",
               "summary": "- 실적&이벤트 상승 모멘텀 지속. 단기 조정으로 매수 기회- 양호한 실적 기록. 핵심 사업부 제품 수요, 매출의 추가 성장 요인 존재- 호실적에도 시장 조정으로 동반 하락. 오히려 추가 매수 타이밍",
               "pages": "7",
-              "secureId": "eqxgiizqxmxkclxgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgiizqxmxkclxgcgxecgk.pdf",
+              "secureId": "eqxgiizqxmxkclxgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgiizqxmxkclxgcgxecgx.pdf",
               "opinion": null
             }
           ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
       },
-      "cnbc": [],
+      "cnbc": null,
       "kis": {
         "ticker": "TEM",
         "fetchedAt": "2026-10-25",
@@ -35675,7 +35673,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.73배(20일 평균 대비) · 오늘 거래대금 0.68배(상승일) · 상장주식 175M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.73배(20일 평균 대비) · 오늘 거래대금 0.69배(상승일) · 상장주식 175M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -35698,21 +35696,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "CRL",
-      "price": 345.37,
+      "price": 345.3699951171875,
       "marketCap": "16.21B",
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "rs": {
         "m1": {
-          "v": 0.23324289893638228,
+          "v": 0.23324284946982557,
           "pct": 95.4463480613165
         },
         "m3": {
-          "v": 0.4404635537189061,
+          "v": 0.4404634971535369,
           "pct": 97.52028854824167
         },
         "m6": {
-          "v": 0.9551503672126924,
+          "v": 0.9551503025163085,
           "pct": 98.06131650135256
         }
       },
@@ -35729,8 +35727,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.22,
       "bbwthdLow": 0.09,
       "high52": 98.34,
-      "volx": 0.82,
-      "volSurgeWk": 0.51,
+      "volx": 0.83,
+      "volSurgeWk": 0.52,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
@@ -35746,9 +35744,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 140.23,
       "ret1d": 1.68,
       "ret5d": 15.07,
-      "dollarVolM": 279.2,
+      "dollarVolM": 284,
       "brk60d": false,
-      "clsPos": 87.85,
+      "clsPos": 87.82,
       "targetStatus": false,
       "est": {
         "cyCur": 11.3743,
@@ -35812,9 +35810,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0742,
-        "m3": 0.1706,
-        "m6": 0.4667,
+        "m1": 0.0743,
+        "m3": 0.1707,
+        "m6": 0.467,
         "rankPct6": 3.01,
         "count": 21
       },
@@ -36998,7 +36996,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.47배(20일 평균 대비) · 오늘 거래대금 0.82배(상승일) · 상장주식 48M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.47배(20일 평균 대비) · 오늘 거래대금 0.83배(상승일) · 상장주식 48M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -37023,21 +37021,21 @@ window.TEAM2_DATA = {
   "listPicks": [
     {
       "ticker": "CCI",
-      "price": 85.97,
+      "price": 85.97000122070312,
       "marketCap": "33.54B",
       "sector": "Real Estate",
       "industry": "REIT - Specialty",
       "rs": {
         "m1": {
-          "v": 0.32110818278761577,
+          "v": 0.3211081679889096,
           "pct": 98.96302975653742
         },
         "m3": {
-          "v": 0.108405689759134,
+          "v": 0.10840567019214896,
           "pct": 83.9945897204689
         },
         "m6": {
-          "v": -0.07062284419735641,
+          "v": -0.07062286666464648,
           "pct": 34.310189359783585
         }
       },
@@ -37069,7 +37067,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 41.8,
       "ret1d": 9.06,
       "ret5d": 4.51,
-      "dollarVolM": 1489.1,
+      "dollarVolM": 1489.2,
       "brk60d": true,
       "clsPos": 15.04,
       "targetStatus": false,
@@ -37530,7 +37528,7 @@ window.TEAM2_DATA = {
       "nameKo": "크라운 캐슬",
       "nameEn": "CROWN CASTLE INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "크라운 캐슬",
         "nameEn": "CROWN CASTLE INC",
         "infomaxCode": "NYS:CCI",
@@ -37704,19 +37702,20 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Crown Castle Q3 26 Earnings Conference Call At 4:45 PM ET",
-              "url": "https://www.nasdaq.com/articles/crown-castle-q3-26-earnings-conference-call-4-45-pm-et",
-              "date": "2026-10-21",
-              "desc": "(RTTNews) - Crown Castle Inc. (CCI) will host a conference call at 4:45 PM ET on October 21, 2026, to discuss Q3 26 earnings results.",
-              "publisher": "RTTNews",
+              "title": "SpaceX Could Be a Game Changer for These 2 Dividend Stocks",
+              "url": "https://www.nasdaq.com/articles/spacex-could-be-game-changer-these-2-dividend-stocks",
+              "date": "2026-10-25",
+              "desc": "Key PointsSpaceX is reportedly seeking to lease space on 80,000 U.S. towers.",
+              "publisher": "The Motley Fool",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "CCI"
+                "CCI",
+                "AMT"
               ]
             }
           ],
-          "directCount": 8,
+          "directCount": 7,
           "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
@@ -37846,7 +37845,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CCI",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 18.95,
         "pbr": 0,
@@ -37869,7 +37868,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CCI",
         "url": "https://finance.yahoo.com/quote/CCI/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -37882,10 +37881,10 @@ window.TEAM2_DATA = {
             "epsAnalysts": 7,
             "epsGrowth": 11.9,
             "epsCur": "USD",
-            "rev": 1019609960,
-            "revAnalysts": 15,
+            "rev": 1020259340,
+            "revAnalysts": 16,
             "revYearAgo": 1072000000,
-            "revGrowth": -4.9,
+            "revGrowth": -4.8,
             "revCur": "USD"
           },
           {
@@ -37914,8 +37913,8 @@ window.TEAM2_DATA = {
             "epsAnalysts": 3,
             "epsGrowth": -0.9,
             "epsCur": "USD",
-            "rev": 4031538940,
-            "revAnalysts": 19,
+            "rev": 4032111990,
+            "revAnalysts": 20,
             "revYearAgo": 4264000000,
             "revGrowth": -5.4,
             "revCur": "USD"
@@ -37930,9 +37929,9 @@ window.TEAM2_DATA = {
             "epsAnalysts": 9,
             "epsGrowth": 17.3,
             "epsCur": "USD",
-            "rev": 4101619120,
-            "revAnalysts": 19,
-            "revYearAgo": 4031538940,
+            "rev": 4100938160,
+            "revAnalysts": 20,
+            "revYearAgo": 4032111990,
             "revGrowth": 1.7,
             "revCur": "USD"
           }
@@ -38214,26 +38213,26 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "NET",
-      "price": 325.73,
+      "price": 325.7300109863281,
       "marketCap": "108.11B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": -0.01286801881104032,
+          "v": -0.012868020125955192,
           "pct": 24.301172227231742
         },
         "m3": {
-          "v": 0.11782898240851389,
+          "v": 0.11782898542224356,
           "pct": 85.25698827772769
         },
         "m6": {
-          "v": 0.40396318501228345,
-          "pct": 91.2082957619477
+          "v": 0.403963197660539,
+          "pct": 91.11812443642921
         }
       },
       "qualifiedBy": [],
-      "bestPct": 91.2082957619477,
+      "bestPct": 91.11812443642921,
       "adr": 5.06,
       "cyTrend": 0,
       "nyTrend": 0.13,
@@ -38260,9 +38259,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 99.38,
       "ret1d": 7.29,
       "ret5d": 9.93,
-      "dollarVolM": 1357,
+      "dollarVolM": 1358,
       "brk60d": false,
-      "clsPos": 92.13,
+      "clsPos": 92.1,
       "targetStatus": false,
       "est": {
         "cyCur": 1.26316,
@@ -38277,7 +38276,7 @@ window.TEAM2_DATA = {
       "bbCenterBrk5d": false,
       "newHigh52": false,
       "apiCalled": false,
-      "siteRankPct6": 8.84,
+      "siteRankPct6": 8.93,
       "fs": {
         "sale": [
           35.87,
@@ -38339,7 +38338,7 @@ window.TEAM2_DATA = {
       "nameKo": "클라우드플레어",
       "nameEn": "CLOUDFLARE INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "클라우드플레어",
         "nameEn": "CLOUDFLARE INC",
         "infomaxCode": "NYS:NET",
@@ -38682,7 +38681,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "NET",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 558.91,
         "pbr": 71.57,
@@ -38705,7 +38704,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "NET",
         "url": "https://finance.yahoo.com/quote/NET/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -38718,7 +38717,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 29,
             "epsGrowth": 27.1,
             "epsCur": "USD",
-            "rev": 738089270,
+            "rev": 738090880,
             "revAnalysts": 28,
             "revYearAgo": 562027000,
             "revGrowth": 31.3,
@@ -38750,7 +38749,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 32,
             "epsGrowth": 35.8,
             "epsCur": "USD",
-            "rev": 2871612870,
+            "rev": 2871614190,
             "revAnalysts": 31,
             "revYearAgo": 2167937000,
             "revGrowth": 32.5,
@@ -38764,12 +38763,12 @@ window.TEAM2_DATA = {
             "epsHigh": 1.98,
             "epsYearAgo": 1.26,
             "epsAnalysts": 33,
-            "epsGrowth": 32.9,
+            "epsGrowth": 33.1,
             "epsCur": "USD",
-            "rev": 3696685680,
-            "revAnalysts": 32,
-            "revYearAgo": 2871612870,
-            "revGrowth": 28.7,
+            "rev": 3698030310,
+            "revAnalysts": 31,
+            "revYearAgo": 2871614190,
+            "revGrowth": 28.8,
             "revCur": "USD"
           }
         ],
@@ -38821,9 +38820,9 @@ window.TEAM2_DATA = {
             "endDate": "2027-12-31",
             "cur": "USD",
             "now": 1.68,
-            "d7": 0.1,
-            "d30": 0.1,
-            "d90": 6.1,
+            "d7": 0.3,
+            "d30": 0.3,
+            "d90": 6.3,
             "ago90": 1.58,
             "up7": 1,
             "up30": 5,
@@ -39096,7 +39095,7 @@ window.TEAM2_DATA = {
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 75.7% · 3M 14.74% · 6M 8.79% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 75.7% · 3M 14.74% · 6M 8.88% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -39114,21 +39113,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "FCNCA",
-      "price": 2375.84,
+      "price": 2375.840087890625,
       "marketCap": "24.81B",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "rs": {
         "m1": {
-          "v": 0.19043137116273526,
+          "v": 0.19043138041585916,
           "pct": 90.21641118124435
         },
         "m3": {
-          "v": 0.07132828585693393,
+          "v": 0.07132829090344121,
           "pct": 78.94499549143373
         },
         "m6": {
-          "v": 0.1689573738476838,
+          "v": 0.1689573825467015,
           "pct": 77.77276825969341
         }
       },
@@ -39160,7 +39159,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 28.9,
       "ret1d": 8.15,
       "ret5d": 11.87,
-      "dollarVolM": 709.3,
+      "dollarVolM": 709.2,
       "brk60d": true,
       "clsPos": 63.52,
       "targetStatus": false,
@@ -39226,9 +39225,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0423,
+        "m1": 0.0426,
         "m3": -0.076,
-        "m6": 0.0487,
+        "m6": 0.0489,
         "rankPct6": 40.6,
         "count": 57
       },
@@ -39619,7 +39618,7 @@ window.TEAM2_DATA = {
       "nameKo": "퍼스트 시티즌스 뱅크셰어스",
       "nameEn": "FIRST CITIZENS BANCSHARES INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "퍼스트 시티즌스 뱅크셰어스",
         "nameEn": "FIRST CITIZENS BANCSHARES INC",
         "infomaxCode": "NAS:FCNCA",
@@ -39928,7 +39927,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "FCNCA",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 12.71,
         "pbr": 1.34,
@@ -39951,18 +39950,18 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "FCNCA",
         "url": "https://finance.yahoo.com/quote/FCNCA/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 49.28,
-            "epsLow": 45.17,
-            "epsHigh": 53.01,
+            "eps": 52.6,
+            "epsLow": 52.14,
+            "epsHigh": 53.07,
             "epsYearAgo": 51.27,
-            "epsAnalysts": 10,
-            "epsGrowth": -3.9,
+            "epsAnalysts": 4,
+            "epsGrowth": 2.6,
             "epsCur": "USD",
             "rev": 2275800040,
             "revAnalysts": 6,
@@ -39973,12 +39972,12 @@ window.TEAM2_DATA = {
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 46.31,
+            "eps": 46.86,
             "epsLow": 44.21,
-            "epsHigh": 50.18,
+            "epsHigh": 52.96,
             "epsYearAgo": 44.86,
             "epsAnalysts": 7,
-            "epsGrowth": 3.2,
+            "epsGrowth": 4.5,
             "epsCur": "USD",
             "rev": 2268974520,
             "revAnalysts": 4,
@@ -39989,12 +39988,12 @@ window.TEAM2_DATA = {
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 195.45,
+            "eps": 197.77,
             "epsLow": 180.9,
             "epsHigh": 210,
             "epsYearAgo": 177.88,
-            "epsAnalysts": 2,
-            "epsGrowth": 9.9,
+            "epsAnalysts": 11,
+            "epsGrowth": 11.2,
             "epsCur": "USD",
             "rev": 8975000000,
             "revAnalysts": 1,
@@ -40005,10 +40004,10 @@ window.TEAM2_DATA = {
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 203.99,
+            "eps": 206.4,
             "epsLow": 188.86,
-            "epsHigh": 217.31,
-            "epsYearAgo": 195.45,
+            "epsHigh": 230,
+            "epsYearAgo": 197.77,
             "epsAnalysts": 11,
             "epsGrowth": 4.4,
             "epsCur": "USD",
@@ -40024,10 +40023,10 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 49.28,
-            "d7": 1.2,
-            "d30": 3.9,
-            "d90": 1.9,
+            "now": 52.6,
+            "d7": 8,
+            "d30": 10.9,
+            "d90": 8.8,
             "ago90": 48.35,
             "up7": 4,
             "up30": 4,
@@ -40038,10 +40037,10 @@ window.TEAM2_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 46.31,
-            "d7": 0.7,
-            "d30": 2.3,
-            "d90": 2,
+            "now": 46.86,
+            "d7": 1.9,
+            "d30": 3.5,
+            "d90": 3.2,
             "ago90": 45.4,
             "up7": 1,
             "up30": 2,
@@ -40052,10 +40051,10 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 195.45,
-            "d7": 0.6,
-            "d30": 1.4,
-            "d90": 5.5,
+            "now": 197.77,
+            "d7": 1.8,
+            "d30": 2.6,
+            "d90": 6.8,
             "ago90": 185.18,
             "up7": 4,
             "up30": 4,
@@ -40066,10 +40065,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 203.99,
-            "d7": 0.7,
-            "d30": 2.7,
-            "d90": 2.7,
+            "now": 206.4,
+            "d7": 1.9,
+            "d30": 3.9,
+            "d90": 4,
             "ago90": 198.55,
             "up7": 3,
             "up30": 5,
@@ -40112,9 +40111,9 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 3,
+          "ptRaised": 1,
           "ptLowered": 1,
-          "total": 4,
+          "total": 2,
           "recent": [
             {
               "date": "2026-10-01",
@@ -40135,33 +40134,13 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 2323,
               "ptPrior": 2150
-            },
-            {
-              "date": "2026-07-27",
-              "firm": "Piper Sandler",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 2100,
-              "ptPrior": 2050
-            },
-            {
-              "date": "2026-07-27",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 2376,
-              "ptPrior": 2346
             }
           ]
         },
         "nextEarnings": {
-          "date": "2026-10-23",
-          "upcoming": false,
-          "estimated": false
+          "date": "2027-01-22",
+          "upcoming": true,
+          "estimated": true
         }
       },
       "setup": {
@@ -40300,21 +40279,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "TTMI",
-      "price": 80.11,
+      "price": 80.11000061035156,
       "marketCap": "7.78B",
       "sector": "Technology",
       "industry": "Electronic Components",
       "rs": {
         "m1": {
-          "v": -0.325947892394801,
+          "v": -0.32594792046218257,
           "pct": 0.5861136158701533
         },
         "m3": {
-          "v": -0.3380433565963487,
+          "v": -0.3380433870661677,
           "pct": 2.7502254283137963
         },
         "m6": {
-          "v": -0.540354034159085,
+          "v": -0.540354066643757,
           "pct": 1.0369702434625787
         }
       },
@@ -40346,7 +40325,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 212.13,
       "ret1d": 8.42,
       "ret5d": -14.67,
-      "dollarVolM": 685.8,
+      "dollarVolM": 685.9,
       "brk60d": false,
       "clsPos": 93.44,
       "targetStatus": false,
@@ -40412,9 +40391,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": -0.1131,
-        "m3": -0.1368,
-        "m6": -0.1531,
+        "m1": -0.1132,
+        "m3": -0.1369,
+        "m6": -0.1535,
         "rankPct6": 87.22,
         "count": 21
       },
@@ -40425,7 +40404,7 @@ window.TEAM2_DATA = {
       "nameKo": "TTM 테크놀로지스",
       "nameEn": "TTM TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "TTM 테크놀로지스",
         "nameEn": "TTM TECHNOLOGIES INC",
         "infomaxCode": "NAS:TTMI",
@@ -40732,7 +40711,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "TTMI",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 36.16,
         "pbr": 4.36,
@@ -40742,8 +40721,8 @@ window.TEAM2_DATA = {
         "marketCapM": 8440,
         "high52": 223.83,
         "high52Date": "2026-06-22",
-        "low52": 54.43,
-        "low52Date": "2025-10-22",
+        "low52": 55.44,
+        "low52Date": "2025-11-21",
         "last": 80.11,
         "prevClose": 73.89,
         "nameKo": "TTM 테크놀로지스",
@@ -40755,7 +40734,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "TTMI",
         "url": "https://finance.yahoo.com/quote/TTMI/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -41140,15 +41119,15 @@ window.TEAM2_DATA = {
       "industry": "Semiconductors",
       "rs": {
         "m1": {
-          "v": -0.22205717514570605,
+          "v": -0.22205720793826822,
           "pct": 3.832281334535618
         },
         "m3": {
-          "v": 0.12015558321466777,
+          "v": 0.12015554746087727,
           "pct": 85.7078449053201
         },
         "m6": {
-          "v": 0.18340716260875098,
+          "v": 0.18340712624809286,
           "pct": 78.67448151487827
         }
       },
@@ -41180,7 +41159,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 95.92,
       "ret1d": 5.5,
       "ret5d": -3.46,
-      "dollarVolM": 388,
+      "dollarVolM": 388.6,
       "brk60d": false,
       "clsPos": 74.16,
       "targetStatus": true,
@@ -41703,7 +41682,7 @@ window.TEAM2_DATA = {
       "nameKo": "셈텍",
       "nameEn": "SEMTECH CORP",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "셈텍",
         "nameEn": "SEMTECH CORP",
         "infomaxCode": "NAS:SMTC",
@@ -42009,7 +41988,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "SMTC",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 87.74,
         "pbr": 16.45,
@@ -42032,7 +42011,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "SMTC",
         "url": "https://finance.yahoo.com/quote/SMTC/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -42441,27 +42420,27 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "WFRD",
-      "price": 86.85,
+      "price": 86.8499984741211,
       "marketCap": "5.82B",
       "sector": "Energy",
       "industry": "Oil & Gas Equipment & Services",
       "rs": {
         "m1": {
-          "v": 0.07466557937047594,
+          "v": 0.07466552864327734,
           "pct": 55.139765554553655
         },
         "m3": {
-          "v": -0.003082446351696494,
+          "v": -0.0030825001752299817,
           "pct": 61.54192966636609
         },
         "m6": {
-          "v": -0.24863796822829848,
+          "v": -0.24863801865212917,
           "pct": 12.759242560865644
         }
       },
       "qualifiedBy": [],
       "bestPct": 61.54192966636609,
-      "adr": 3.99,
+      "adr": 4,
       "cyTrend": 11.04,
       "nyTrend": -5.6,
       "upCount": 0,
@@ -42489,7 +42468,7 @@ window.TEAM2_DATA = {
       "ret5d": 13.99,
       "dollarVolM": 201.4,
       "brk60d": false,
-      "clsPos": 81.23,
+      "clsPos": 81.74,
       "targetStatus": false,
       "est": {
         "cyCur": 6.05,
@@ -42554,7 +42533,7 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "down",
       "wrs": {
         "m1": 0.0612,
-        "m3": 0.056,
+        "m3": 0.0561,
         "m6": -0.1091,
         "rankPct6": 79.7,
         "count": 7
@@ -42946,7 +42925,7 @@ window.TEAM2_DATA = {
       "nameKo": "웨더포드 인터내셔널",
       "nameEn": "WEATHERFORD INTL PLC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "웨더포드 인터내셔널",
         "nameEn": "WEATHERFORD INTL PLC",
         "infomaxCode": "NAS:WFRD",
@@ -43239,7 +43218,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "WFRD",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 15.51,
         "pbr": 3.49,
@@ -43249,8 +43228,8 @@ window.TEAM2_DATA = {
         "marketCapM": 6313,
         "high52": 112.7945,
         "high52Date": "2026-05-18",
-        "low52": 64.3629,
-        "low52Date": "2025-10-22",
+        "low52": 65.7563,
+        "low52Date": "2025-10-23",
         "last": 86.85,
         "prevClose": 81.18,
         "nameKo": "웨더포드 인터내셔널",
@@ -43262,7 +43241,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "WFRD",
         "url": "https://finance.yahoo.com/quote/WFRD/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -43661,21 +43640,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "FROG",
-      "price": 100.62,
+      "price": 100.62000274658203,
       "marketCap": "11.58B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.18214153163644126,
+          "v": 0.18214152964206273,
           "pct": 89.13435527502254
         },
         "m3": {
-          "v": 0.25151470694758066,
+          "v": 0.2515147062177903,
           "pct": 93.82326420198378
         },
         "m6": {
-          "v": 0.8645694634834308,
+          "v": 0.8645694793590208,
           "pct": 97.3399458972047
         }
       },
@@ -43773,9 +43752,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -43786,7 +43765,7 @@ window.TEAM2_DATA = {
       "nameKo": "제이프로그",
       "nameEn": "JFROG LTD",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "제이프로그",
         "nameEn": "JFROG LTD",
         "infomaxCode": "NAS:FROG",
@@ -44089,7 +44068,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "FROG",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 271.07,
         "pbr": 12.89,
@@ -44112,7 +44091,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "FROG",
         "url": "https://finance.yahoo.com/quote/FROG/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -44273,9 +44252,9 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 1,
-          "ptRaised": 18,
+          "ptRaised": 17,
           "ptLowered": 0,
-          "total": 24,
+          "total": 23,
           "recent": [
             {
               "date": "2026-10-21",
@@ -44521,21 +44500,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "SIGI",
-      "price": 96.61,
+      "price": 96.61000061035156,
       "marketCap": "5.46B",
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
       "rs": {
         "m1": {
-          "v": 0.17566839757377842,
+          "v": 0.1756683718684381,
           "pct": 88.41298467087466
         },
         "m3": {
-          "v": -0.006304697657598144,
+          "v": -0.006304726934045001,
           "pct": 60.9107303877367
         },
         "m6": {
-          "v": 0.15690091890291202,
+          "v": 0.15690089016129863,
           "pct": 75.69882777276827
         }
       },
@@ -44569,7 +44548,7 @@ window.TEAM2_DATA = {
       "ret5d": 8.36,
       "dollarVolM": 168,
       "brk60d": false,
-      "clsPos": 18.24,
+      "clsPos": 18.17,
       "targetStatus": false,
       "est": {
         "cyCur": 8.27125,
@@ -44636,7 +44615,7 @@ window.TEAM2_DATA = {
         "m1": 0.1459,
         "m3": -0.0087,
         "m6": 0.1043,
-        "rankPct6": 27.07,
+        "rankPct6": 27.82,
         "count": 19
       },
       "research": {
@@ -45045,7 +45024,7 @@ window.TEAM2_DATA = {
       "nameKo": "셀렉티브 인슈어런스 그룹",
       "nameEn": "SELECTIVE INSURANCE GROUP",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "셀렉티브 인슈어런스 그룹",
         "nameEn": "SELECTIVE INSURANCE GROUP",
         "infomaxCode": "NAS:SIGI",
@@ -45131,6 +45110,19 @@ window.TEAM2_DATA = {
           "ticker": "SIGI",
           "items": [
             {
+              "title": "Selective Insurance: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/selective-insurance-3-key-takeaways-long-term-investors",
+              "date": "2026-10-25",
+              "desc": "Key PointsStandard commercial renewal pricing increased 5.7% in the third quarter.",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIGI",
+                "SIGI"
+              ]
+            },
+            {
               "title": "Selective Insurance (SIGI) Q3 2026 Earnings Call Transcript",
               "url": "https://www.nasdaq.com/articles/selective-insurance-sigi-q3-2026-earnings-call-transcript",
               "date": "2026-10-23",
@@ -45215,21 +45207,9 @@ window.TEAM2_DATA = {
               "tickers": [
                 "SIGI"
               ]
-            },
-            {
-              "title": "Stay Ahead of the Game With Selective Insurance (SIGI) Q3 Earnings: Wall Street's Insights on Key Metrics",
-              "url": "https://www.nasdaq.com/articles/stay-ahead-game-selective-insurance-sigi-q3-earnings-wall-streets-insights-key-metrics",
-              "date": "2026-10-21",
-              "desc": "Get a deeper insight into the potential performance of Selective Insurance (SIGI) for the quarter ended September 2026 by going beyond Wall Street's top-and-bottom-line estimates and examining the estimates for some of its key metrics.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SIGI"
-              ]
             }
           ],
-          "directCount": 12,
+          "directCount": 13,
           "total": 14,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
@@ -45344,7 +45324,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "SIGI",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 11.99,
         "pbr": 1.66,
@@ -45367,71 +45347,71 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "SIGI",
         "url": "https://finance.yahoo.com/quote/SIGI/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 2.47,
+            "eps": 2.74,
             "epsLow": 2.43,
-            "epsHigh": 2.5,
+            "epsHigh": 3.1,
             "epsYearAgo": 2.57,
-            "epsAnalysts": 2,
-            "epsGrowth": -4.1,
+            "epsAnalysts": 8,
+            "epsGrowth": 6.7,
             "epsCur": "USD",
-            "rev": 1339748250,
-            "revAnalysts": 4,
+            "rev": 1337958600,
+            "revAnalysts": 5,
             "revYearAgo": 1364900000,
-            "revGrowth": -1.8,
+            "revGrowth": -2,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 2.12,
+            "eps": 2.15,
             "epsLow": 1.92,
             "epsHigh": 2.29,
             "epsYearAgo": 1.69,
-            "epsAnalysts": 7,
-            "epsGrowth": 25.3,
+            "epsAnalysts": 8,
+            "epsGrowth": 27,
             "epsCur": "USD",
-            "rev": 1332778500,
-            "revAnalysts": 4,
+            "rev": 1327922800,
+            "revAnalysts": 5,
             "revYearAgo": 1358900000,
-            "revGrowth": -1.9,
+            "revGrowth": -2.3,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 8.47,
+            "eps": 8.76,
             "epsLow": 8.44,
-            "epsHigh": 8.5,
+            "epsHigh": 9.1,
             "epsYearAgo": 7.38,
-            "epsAnalysts": 2,
-            "epsGrowth": 14.8,
+            "epsAnalysts": 4,
+            "epsGrowth": 18.7,
             "epsCur": "USD",
-            "rev": 5409331000,
-            "revAnalysts": 3,
+            "rev": 5402273250,
+            "revAnalysts": 4,
             "revYearAgo": 5336900000,
-            "revGrowth": 1.4,
+            "revGrowth": 1.2,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 8.79,
+            "eps": 8.93,
             "epsLow": 8.58,
-            "epsHigh": 9.24,
-            "epsYearAgo": 8.47,
-            "epsAnalysts": 7,
-            "epsGrowth": 3.8,
+            "epsHigh": 9.5,
+            "epsYearAgo": 8.76,
+            "epsAnalysts": 8,
+            "epsGrowth": 1.9,
             "epsCur": "USD",
-            "rev": 5327262360,
-            "revAnalysts": 5,
-            "revYearAgo": 5409331000,
-            "revGrowth": -1.5,
+            "rev": 5311785300,
+            "revAnalysts": 6,
+            "revYearAgo": 5402273250,
+            "revGrowth": -1.7,
             "revCur": "USD"
           }
         ],
@@ -45440,10 +45420,10 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 2.47,
-            "d7": -8.4,
-            "d30": -8.8,
-            "d90": -4.6,
+            "now": 2.74,
+            "d7": 2,
+            "d30": 1.4,
+            "d90": 6.1,
             "ago90": 2.58,
             "up7": 0,
             "up30": 1,
@@ -45454,10 +45434,10 @@ window.TEAM2_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 2.12,
-            "d7": -0.5,
-            "d30": 1.2,
-            "d90": 1.1,
+            "now": 2.15,
+            "d7": 0.8,
+            "d30": 2.6,
+            "d90": 2.4,
             "ago90": 2.1,
             "up7": 0,
             "up30": 1,
@@ -45468,10 +45448,10 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 8.47,
-            "d7": 2.4,
-            "d30": 3.9,
-            "d90": 4.9,
+            "now": 8.76,
+            "d7": 5.9,
+            "d30": 7.5,
+            "d90": 8.5,
             "ago90": 8.07,
             "up7": 2,
             "up30": 2,
@@ -45482,10 +45462,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 8.79,
-            "d7": 0.3,
-            "d30": 0.2,
-            "d90": -0.9,
+            "now": 8.93,
+            "d7": 1.9,
+            "d30": 1.8,
+            "d90": 0.7,
             "ago90": 8.87,
             "up7": 2,
             "up30": 2,
@@ -45528,9 +45508,9 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 1,
           "initiations": 0,
-          "ptRaised": 2,
+          "ptRaised": 1,
           "ptLowered": 1,
-          "total": 4,
+          "total": 3,
           "recent": [
             {
               "date": "2026-09-28",
@@ -45561,16 +45541,6 @@ window.TEAM2_DATA = {
               "ptAction": "Maintains",
               "pt": 97,
               "ptPrior": 97
-            },
-            {
-              "date": "2026-07-27",
-              "firm": "RBC Capital",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 115,
-              "ptPrior": 110
             }
           ]
         },
@@ -45716,21 +45686,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "CHRD",
-      "price": 158.13,
+      "price": 158.1300048828125,
       "marketCap": "8.23B",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
       "rs": {
         "m1": {
-          "v": 0.21427843528249566,
+          "v": 0.21427843832182863,
           "pct": 93.6429215509468
         },
         "m3": {
-          "v": 0.12236879727915462,
+          "v": 0.1223687971574257,
           "pct": 85.7980162308386
         },
         "m6": {
-          "v": 0.029178201444615075,
+          "v": 0.029178198379101475,
           "pct": 56.0414788097385
         }
       },
@@ -45744,9 +45714,9 @@ window.TEAM2_DATA = {
       "upDownRatio": 82.61,
       "bbwthd": 0.21,
       "bbwthdLow": 0.1,
-      "high52": 99.44,
-      "volx": 1.11,
-      "volSurgeWk": 0.82,
+      "high52": 99.42,
+      "volx": 1.24,
+      "volSurgeWk": 0.92,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
@@ -45757,14 +45727,14 @@ window.TEAM2_DATA = {
       "ret1m": 16.04,
       "ret3m": 15.39,
       "ret6m": 7.83,
-      "maxRise1m": 19.84,
-      "maxRise3m": 24.99,
-      "maxRise6m": 44.21,
+      "maxRise1m": 19.87,
+      "maxRise3m": 25.02,
+      "maxRise6m": 44.23,
       "ret1d": 5.08,
       "ret5d": 2.31,
-      "dollarVolM": 111.1,
+      "dollarVolM": 125.5,
       "brk60d": true,
-      "clsPos": 88.16,
+      "clsPos": 87.81,
       "targetStatus": true,
       "est": {
         "cyCur": 22.8062,
@@ -45830,7 +45800,7 @@ window.TEAM2_DATA = {
       "wrs": {
         "m1": 0.202,
         "m3": 0.1281,
-        "m6": 0.0727,
+        "m6": 0.0726,
         "rankPct6": 34.59,
         "count": 9
       },
@@ -46217,7 +46187,7 @@ window.TEAM2_DATA = {
       "nameKo": "코드 에너지",
       "nameEn": "CHORD ENERGY CORPORATION",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "코드 에너지",
         "nameEn": "CHORD ENERGY CORPORATION",
         "infomaxCode": "NAS:CHRD",
@@ -46521,7 +46491,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CHRD",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 10.6,
         "pbr": 1.04,
@@ -46544,7 +46514,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CHRD",
         "url": "https://finance.yahoo.com/quote/CHRD/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -46930,7 +46900,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.23배(20일 평균 대비) · 오늘 거래대금 1.11배(상승일) · 상장주식 55M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.23배(20일 평균 대비) · 오늘 거래대금 1.24배(상승일) · 상장주식 55M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -46954,20 +46924,20 @@ window.TEAM2_DATA = {
     {
       "ticker": "AMBA",
       "price": 66.5,
-      "marketCap": "2.91B",
+      "marketCap": "2.94B",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
       "rs": {
         "m1": {
-          "v": -0.031168621401638112,
+          "v": -0.031168654194200264,
           "pct": 20.333633904418395
         },
         "m3": {
-          "v": -0.1340193016098401,
+          "v": -0.1340193373636306,
           "pct": 24.301172227231742
         },
         "m6": {
-          "v": -0.10875781408217555,
+          "v": -0.10875785044283368,
           "pct": 27.637511271415686
         }
       },
@@ -46975,7 +46945,7 @@ window.TEAM2_DATA = {
       "bestPct": 27.637511271415686,
       "adr": 5.28,
       "cyTrend": 0,
-      "nyTrend": 0,
+      "nyTrend": -5.8,
       "upCount": 23,
       "downCount": 19,
       "upDownRatio": 54.76,
@@ -46999,23 +46969,23 @@ window.TEAM2_DATA = {
       "maxRise6m": 65.79,
       "ret1d": 5.35,
       "ret5d": 7.78,
-      "dollarVolM": 101.2,
+      "dollarVolM": 101.3,
       "brk60d": false,
-      "clsPos": 79.66,
+      "clsPos": 79.76,
       "targetStatus": false,
       "est": {
         "cyCur": 0.80441,
         "cy30": 0.80441,
-        "nyCur": 1.12058,
+        "nyCur": 1.05563,
         "ny30": 1.12058
       },
       "saleCy": 12.89,
-      "saleNy": 13.34,
+      "saleNy": 12.01,
       "epsCy": 29.74,
-      "epsNy": 39.3,
+      "epsNy": 31.23,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 72.41,
       "fs": {
         "sale": [
@@ -47065,9 +47035,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": -0.1269,
+        "m1": -0.1268,
         "m3": -0.177,
-        "m6": -0.0591,
+        "m6": -0.0589,
         "rankPct6": 63.91,
         "count": 20
       },
@@ -47468,7 +47438,7 @@ window.TEAM2_DATA = {
       "nameKo": "암바렐라",
       "nameEn": "AMBARELLA INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "암바렐라",
         "nameEn": "AMBARELLA INC",
         "infomaxCode": "NAS:AMBA",
@@ -47779,7 +47749,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "AMBA",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 51.16,
         "pbr": 4.73,
@@ -47802,7 +47772,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "AMBA",
         "url": "https://finance.yahoo.com/quote/AMBA/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -48171,27 +48141,27 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "VIST",
-      "price": 74.84,
-      "marketCap": "7.90B",
+      "price": 74.83999633789062,
+      "marketCap": "8.28B",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
       "rs": {
         "m1": {
-          "v": 0.16375338667413647,
+          "v": 0.163753299571781,
           "pct": 85.7078449053201
         },
         "m3": {
-          "v": 0.05986303863140515,
+          "v": 0.059862949470740015,
           "pct": 77.14156898106403
         },
         "m6": {
-          "v": -0.027797625530072305,
+          "v": -0.0277977118649313,
           "pct": 42.6961226330027
         }
       },
       "qualifiedBy": [],
       "bestPct": 85.7078449053201,
-      "adr": 3.27,
+      "adr": 3.29,
       "cyTrend": 19.84,
       "nyTrend": 11.96,
       "upCount": 0,
@@ -48217,9 +48187,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 36.14,
       "ret1d": 5.99,
       "ret5d": 4.02,
-      "dollarVolM": 94.5,
+      "dollarVolM": 94.6,
       "brk60d": false,
-      "clsPos": 95.49,
+      "clsPos": 95.74,
       "targetStatus": true,
       "est": {
         "cyCur": 190.2346,
@@ -48233,7 +48203,7 @@ window.TEAM2_DATA = {
       "epsNy": 2.15,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 57.35,
       "fs": {
         "sale": [
@@ -48285,7 +48255,7 @@ window.TEAM2_DATA = {
       "wrs": {
         "m1": 0.202,
         "m3": 0.1281,
-        "m6": 0.0727,
+        "m6": 0.0726,
         "rankPct6": 34.59,
         "count": 9
       },
@@ -48609,7 +48579,7 @@ window.TEAM2_DATA = {
       "nameKo": "비스타 에너지(ADR)",
       "nameEn": "VISTA ENERGY S.A.B. DE C.V. SPON ADS EACH REP 1 ORD SHS SER",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "비스타 에너지(ADR)",
         "nameEn": "VISTA ENERGY S.A.B. DE C.V. SPON ADS EACH REP 1 ORD SHS SER",
         "infomaxCode": "NYS:VIST",
@@ -48719,7 +48689,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "VIST",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 9.58,
         "pbr": 2.5,
@@ -48729,8 +48699,8 @@ window.TEAM2_DATA = {
         "marketCapM": 8309,
         "high52": 81.4395,
         "high52Date": "2026-05-20",
-        "low52": 34.6,
-        "low52Date": "2025-10-22",
+        "low52": 36.57,
+        "low52Date": "2025-10-23",
         "last": 74.84,
         "prevClose": 70.61,
         "nameKo": "비스타 에너지(ADR)",
@@ -48742,7 +48712,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "VIST",
         "url": "https://finance.yahoo.com/quote/VIST/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -49061,21 +49031,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "CUBI",
-      "price": 84.54,
+      "price": 84.54000091552734,
       "marketCap": "2.66B",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "rs": {
         "m1": {
-          "v": 0.15092890722045618,
+          "v": 0.15092888630860213,
           "pct": 82.37150586113616
         },
         "m3": {
-          "v": 0.04949783977318458,
+          "v": 0.04949781572690526,
           "pct": 74.79711451758341
         },
         "m6": {
-          "v": 0.05586771783541249,
+          "v": 0.05586769344086745,
           "pct": 60.09918845807033
         }
       },
@@ -49090,8 +49060,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.13,
       "bbwthdLow": 0.04,
       "high52": 98.01,
-      "volx": 3.4,
-      "volSurgeWk": 4.15,
+      "volx": 3.68,
+      "volSurgeWk": 4.57,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
@@ -49107,9 +49077,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 20.86,
       "ret1d": 7.38,
       "ret5d": 13.05,
-      "dollarVolM": 80.5,
+      "dollarVolM": 88.6,
       "brk60d": true,
-      "clsPos": 78.65,
+      "clsPos": 78.63,
       "targetStatus": false,
       "est": {
         "cyCur": 8.39254,
@@ -49173,9 +49143,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0423,
+        "m1": 0.0426,
         "m3": -0.076,
-        "m6": 0.0487,
+        "m6": 0.0489,
         "rankPct6": 40.6,
         "count": 57
       },
@@ -49592,7 +49562,7 @@ window.TEAM2_DATA = {
       "nameKo": "커스터머스 뱅코프",
       "nameEn": "CUSTOMERS BANCORP INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "커스터머스 뱅코프",
         "nameEn": "CUSTOMERS BANCORP INC",
         "infomaxCode": "NYS:CUBI",
@@ -49893,7 +49863,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CUBI",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 10.3,
         "pbr": 1.29,
@@ -49916,71 +49886,71 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CUBI",
         "url": "https://finance.yahoo.com/quote/CUBI/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 2.28,
-            "epsLow": 2.25,
+            "eps": 2.23,
+            "epsLow": 2.15,
             "epsHigh": 2.3,
             "epsYearAgo": 2.06,
-            "epsAnalysts": 2,
-            "epsGrowth": 10.4,
+            "epsAnalysts": 3,
+            "epsGrowth": 8.4,
             "epsCur": "USD",
-            "rev": 211629860,
-            "revAnalysts": 7,
+            "rev": 212021330,
+            "revAnalysts": 6,
             "revYearAgo": 204776000,
-            "revGrowth": 3.4,
+            "revGrowth": 3.5,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 2.19,
-            "epsLow": 2.09,
+            "eps": 2.2,
+            "epsLow": 2.11,
             "epsHigh": 2.29,
             "epsYearAgo": 1.97,
-            "epsAnalysts": 6,
-            "epsGrowth": 10.9,
+            "epsAnalysts": 5,
+            "epsGrowth": 11.7,
             "epsCur": "USD",
-            "rev": 213233750,
-            "revAnalysts": 4,
+            "rev": 214920000,
+            "revAnalysts": 3,
             "revYearAgo": 191608000,
-            "revGrowth": 11.3,
+            "revGrowth": 12.2,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 8.42,
+            "eps": 8.43,
             "epsLow": 8.4,
             "epsHigh": 8.46,
             "epsYearAgo": 7.61,
-            "epsAnalysts": 4,
+            "epsAnalysts": 5,
             "epsGrowth": 10.7,
             "epsCur": "USD",
-            "rev": 801224100,
-            "revAnalysts": 8,
+            "rev": 809280130,
+            "revAnalysts": 1,
             "revYearAgo": 751926000,
-            "revGrowth": 6.6,
+            "revGrowth": 7.6,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 9.56,
-            "epsLow": 8.94,
+            "eps": 9.57,
+            "epsLow": 9.05,
             "epsHigh": 9.85,
-            "epsYearAgo": 8.42,
-            "epsAnalysts": 9,
+            "epsYearAgo": 8.43,
+            "epsAnalysts": 8,
             "epsGrowth": 13.6,
             "epsCur": "USD",
-            "rev": 896167180,
-            "revAnalysts": 7,
-            "revYearAgo": 801224100,
-            "revGrowth": 11.9,
+            "rev": 899162980,
+            "revAnalysts": 6,
+            "revYearAgo": 809280130,
+            "revGrowth": 11.1,
             "revCur": "USD"
           }
         ],
@@ -49989,10 +49959,10 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 2.28,
-            "d7": 1,
-            "d30": 0.7,
-            "d90": 0.6,
+            "now": 2.23,
+            "d7": -0.8,
+            "d30": -1.1,
+            "d90": -1.2,
             "ago90": 2.26,
             "up7": 2,
             "up30": 2,
@@ -50003,10 +49973,10 @@ window.TEAM2_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 2.19,
-            "d7": 0,
-            "d30": -0.7,
-            "d90": -1,
+            "now": 2.2,
+            "d7": 0.7,
+            "d30": -0.1,
+            "d90": -0.3,
             "ago90": 2.21,
             "up7": 1,
             "up30": 1,
@@ -50017,10 +49987,10 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 8.42,
-            "d7": 0.3,
+            "now": 8.43,
+            "d7": 0.4,
             "d30": 0.2,
-            "d90": -0.2,
+            "d90": -0.1,
             "ago90": 8.44,
             "up7": 2,
             "up30": 2,
@@ -50031,10 +50001,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 9.56,
-            "d7": 0,
-            "d30": 0.2,
-            "d90": 0.5,
+            "now": 9.57,
+            "d7": 0.1,
+            "d30": 0.3,
+            "d90": 0.6,
             "ago90": 9.51,
             "up7": 2,
             "up30": 3,
@@ -50077,9 +50047,9 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 1,
           "initiations": 0,
-          "ptRaised": 3,
+          "ptRaised": 2,
           "ptLowered": 2,
-          "total": 5,
+          "total": 4,
           "recent": [
             {
               "date": "2026-10-05",
@@ -50120,16 +50090,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 89,
               "ptPrior": 88
-            },
-            {
-              "date": "2026-07-27",
-              "firm": "DA Davidson",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 100,
-              "ptPrior": 98
             }
           ]
         },
@@ -50252,7 +50212,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 1.3배(20일 평균 대비) · 오늘 거래대금 3.4배(상승일) · 상장주식 34M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.3배(20일 평균 대비) · 오늘 거래대금 3.68배(상승일) · 상장주식 34M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -50275,27 +50235,27 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "VAL",
-      "price": 97.33,
+      "price": 97.33000183105469,
       "marketCap": "6.40B",
       "sector": "Energy",
       "industry": "Oil & Gas Equipment & Services",
       "rs": {
         "m1": {
-          "v": 0.25561498669042537,
+          "v": 0.2556149765062684,
           "pct": 96.25788999098287
         },
         "m3": {
-          "v": 0.25619814111776623,
+          "v": 0.25619812959068444,
           "pct": 94.00360685302074
         },
         "m6": {
-          "v": -0.09971008949864059,
+          "v": -0.09971010799883492,
           "pct": 28.809738503155994
         }
       },
       "qualifiedBy": [],
       "bestPct": 96.25788999098287,
-      "adr": 3.79,
+      "adr": 3.8,
       "cyTrend": -0.34,
       "nyTrend": -4.71,
       "upCount": 0,
@@ -50316,14 +50276,14 @@ window.TEAM2_DATA = {
       "ret1m": 20.18,
       "ret3m": 28.78,
       "ret6m": -5.06,
-      "maxRise1m": 28.06,
-      "maxRise3m": 31.21,
+      "maxRise1m": 28.07,
+      "maxRise3m": 31.22,
       "maxRise6m": 59.68,
       "ret1d": 5.58,
       "ret5d": 14.08,
       "dollarVolM": 71.3,
       "brk60d": true,
-      "clsPos": 75.23,
+      "clsPos": 75.77,
       "targetStatus": false,
       "est": {
         "cyCur": 3.45327,
@@ -50388,7 +50348,7 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "down",
       "wrs": {
         "m1": 0.0612,
-        "m3": 0.056,
+        "m3": 0.0561,
         "m6": -0.1091,
         "rankPct6": 79.7,
         "count": 7
@@ -50884,7 +50844,7 @@ window.TEAM2_DATA = {
       "nameKo": "발라리스",
       "nameEn": "VALARIS LTD",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "발라리스",
         "nameEn": "VALARIS LTD",
         "infomaxCode": "NYS:VAL",
@@ -51177,7 +51137,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "VAL",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 7.27,
         "pbr": 2.09,
@@ -51200,7 +51160,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "VAL",
         "url": "https://finance.yahoo.com/quote/VAL/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -51529,21 +51489,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "PTC",
-      "price": 193.8,
+      "price": 193.8000030517578,
       "marketCap": "21.07B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.45698941674923665,
+          "v": 0.4569894060516492,
           "pct": 99.6844003606853
         },
         "m3": {
-          "v": 0.3902871332676862,
+          "v": 0.39028711990390114,
           "pct": 96.79891794409377
         },
         "m6": {
-          "v": 0.3533310852272744,
+          "v": 0.3533310709503977,
           "pct": 89.85572587917042
         }
       },
@@ -51575,7 +51535,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 80.69,
       "ret1d": -0.1,
       "ret5d": 0.42,
-      "dollarVolM": 306.1,
+      "dollarVolM": 306,
       "brk60d": false,
       "clsPos": 7.27,
       "targetStatus": false,
@@ -51641,9 +51601,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -52060,7 +52020,7 @@ window.TEAM2_DATA = {
       "nameKo": "PTC",
       "nameEn": "PTC INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "PTC",
         "nameEn": "PTC INC",
         "infomaxCode": "NAS:PTC",
@@ -52826,21 +52786,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "HAS",
-      "price": 117.44,
+      "price": 117.44000244140625,
       "marketCap": "16.53B",
       "sector": "Consumer Cyclical",
       "industry": "Leisure",
       "rs": {
         "m1": {
-          "v": 0.38704368052121707,
+          "v": 0.38704367544356416,
           "pct": 99.59422903516682
         },
         "m3": {
-          "v": 0.2201026213474746,
+          "v": 0.22010261161426414,
           "pct": 92.74120829576195
         },
         "m6": {
-          "v": 0.22036457811070229,
+          "v": 0.22036456814006644,
           "pct": 82.1009918845807
         }
       },
@@ -52855,8 +52815,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.39,
       "bbwthdLow": 0.05,
       "high52": 99.72,
-      "volx": 1.3,
-      "volSurgeWk": 0.62,
+      "volx": 1.31,
+      "volSurgeWk": 0.63,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": false,
@@ -52872,7 +52832,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 57.81,
       "ret1d": 0.18,
       "ret5d": 18.91,
-      "dollarVolM": 323.6,
+      "dollarVolM": 325,
       "brk60d": true,
       "clsPos": 87.06,
       "targetStatus": false,
@@ -53316,7 +53276,7 @@ window.TEAM2_DATA = {
       "nameKo": "해즈브로",
       "nameEn": "HASBRO INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "해즈브로",
         "nameEn": "HASBRO INC",
         "infomaxCode": "NAS:HAS",
@@ -54031,7 +53991,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.88배(20일 평균 대비) · 오늘 거래대금 1.3배(상승일) · 상장주식 141M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.88배(20일 평균 대비) · 오늘 거래대금 1.31배(상승일) · 상장주식 141M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -54054,21 +54014,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "CBOE",
-      "price": 340.42,
+      "price": 340.4200134277344,
       "marketCap": "34.22B",
       "sector": "Financial Services",
       "industry": "Financial Data & Stock Exchanges",
       "rs": {
         "m1": {
-          "v": 0.3731656152611887,
+          "v": 0.3731656345080577,
           "pct": 99.41388638412985
         },
         "m3": {
-          "v": 0.1196635246276346,
+          "v": 0.11966353428405359,
           "pct": 85.52750225428314
         },
         "m6": {
-          "v": -0.03972895092162995,
+          "v": -0.039728947468598105,
           "pct": 39.630297565374214
         }
       },
@@ -54095,14 +54055,14 @@ window.TEAM2_DATA = {
       "ret1m": 31.93,
       "ret3m": 15.12,
       "ret6m": 0.94,
-      "maxRise1m": 34.98,
-      "maxRise3m": 34.98,
+      "maxRise1m": 34.99,
+      "maxRise3m": 34.99,
       "maxRise6m": 63.07,
       "ret1d": 3.88,
       "ret5d": 8.08,
       "dollarVolM": 634.7,
       "brk60d": true,
-      "clsPos": 91.14,
+      "clsPos": 91.09,
       "targetStatus": false,
       "est": {
         "cyCur": 14.13604,
@@ -54302,7 +54262,7 @@ window.TEAM2_DATA = {
       "nameKo": "CBOE 글로벌 마켓",
       "nameEn": "CBOE GLOBAL MARKETS INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "CBOE 글로벌 마켓",
         "nameEn": "CBOE GLOBAL MARKETS INC",
         "infomaxCode": "AMS:CBOE",
@@ -54651,7 +54611,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CBOE",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 26.52,
         "pbr": 6.33,
@@ -54674,7 +54634,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CBOE",
         "url": "https://finance.yahoo.com/quote/CBOE/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -55083,35 +55043,35 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "DOCU",
-      "price": 85.27,
-      "marketCap": "15.23B",
+      "price": 85.2699966430664,
+      "marketCap": "15.94B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.317120911374773,
+          "v": 0.31712082884986137,
           "pct": 98.87285843101894
         },
         "m3": {
-          "v": 0.5390627623658786,
+          "v": 0.5390626647787204,
           "pct": 98.69251577998197
         },
         "m6": {
-          "v": 0.7108728404665191,
+          "v": 0.710872734819307,
           "pct": 96.0775473399459
         }
       },
       "qualifiedBy": [],
       "bestPct": 98.87285843101894,
       "adr": 3.7,
-      "cyTrend": 2.12,
-      "nyTrend": 2.22,
+      "cyTrend": 0,
+      "nyTrend": 0.12,
       "upCount": 50,
       "downCount": 16,
       "upDownRatio": 75.76,
       "bbwthd": 0.32,
       "bbwthdLow": 0.09,
-      "high52": 99.88,
+      "high52": 99.87,
       "volx": 0.87,
       "volSurgeWk": 0.72,
       "aboveMa150": true,
@@ -55124,20 +55084,20 @@ window.TEAM2_DATA = {
       "ret1m": 26.33,
       "ret3m": 57.06,
       "ret6m": 76,
-      "maxRise1m": 33.56,
-      "maxRise3m": 62.02,
-      "maxRise6m": 106.37,
+      "maxRise1m": 33.58,
+      "maxRise3m": 62.05,
+      "maxRise6m": 106.4,
       "ret1d": 1.02,
       "ret5d": 14.23,
-      "dollarVolM": 170.1,
+      "dollarVolM": 170.2,
       "brk60d": false,
-      "clsPos": 95.74,
+      "clsPos": 95.13,
       "targetStatus": false,
       "est": {
         "cyCur": 4.62106,
-        "cy30": 4.52524,
+        "cy30": 4.62106,
         "nyCur": 5.21004,
-        "ny30": 5.09677
+        "ny30": 5.20385
       },
       "saleCy": 8.86,
       "saleNy": 7.96,
@@ -55145,7 +55105,7 @@ window.TEAM2_DATA = {
       "epsNy": 12.75,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 3.97,
       "fs": {
         "sale": [
@@ -55191,9 +55151,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -55204,7 +55164,7 @@ window.TEAM2_DATA = {
       "nameKo": "도큐사인",
       "nameEn": "DOCUSIGN INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "도큐사인",
         "nameEn": "DOCUSIGN INC",
         "infomaxCode": "NAS:DOCU",
@@ -55524,7 +55484,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "DOCU",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 51.87,
         "pbr": 9.34,
@@ -55547,7 +55507,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "DOCU",
         "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -55956,21 +55916,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "INTU",
-      "price": 343.39,
+      "price": 343.3900146484375,
       "marketCap": "94.84B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.30478337531462263,
+          "v": 0.3047833958842687,
           "pct": 98.60234445446348
         },
         "m3": {
-          "v": 0.06189971394836386,
+          "v": 0.0618997248404166,
           "pct": 77.95311091073039
         },
         "m6": {
-          "v": -0.1976646718797817,
+          "v": -0.1976646074957033,
           "pct": 16.546438232642018
         }
       },
@@ -56002,7 +55962,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 67.69,
       "ret1d": -3.24,
       "ret5d": 5.61,
-      "dollarVolM": 869.5,
+      "dollarVolM": 870,
       "brk60d": false,
       "clsPos": 4.43,
       "targetStatus": false,
@@ -56068,9 +56028,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -56202,7 +56162,7 @@ window.TEAM2_DATA = {
       "nameKo": "인튜이트",
       "nameEn": "INTUIT INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "인튜이트",
         "nameEn": "INTUIT INC",
         "infomaxCode": "NAS:INTU",
@@ -56481,8 +56441,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-21",
               "summary": "- Intuit은 미국 1위 중소/중견기업 회계·세금 소프트웨어 기업- 중견기업들의 QBO 선호가 증가하며 GBS 중심 견고한 실적 기록- AI Agent의 효율과 OpenAI 와의 시너지를 종합해 긍정적 실적 상승을 전망",
               "pages": "5",
-              "secureId": "eqxillliilikkmlgcgxecgk",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxillliilikkmlgcgxecgk.pdf",
+              "secureId": "eqxillliilikkmlgcgxecgx",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxillliilikkmlgcgxecgx.pdf",
               "opinion": null
             }
           ],
@@ -56946,21 +56906,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "PAYC",
-      "price": 274.59,
+      "price": 274.5899963378906,
       "marketCap": "12.29B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.29939368349382883,
+          "v": 0.29939363409004816,
           "pct": 98.512173128945
         },
         "m3": {
-          "v": 0.671248374250096,
+          "v": 0.6712483157863364,
           "pct": 99.32371505861136
         },
         "m6": {
-          "v": 1.0366040063879722,
+          "v": 1.036603942211209,
           "pct": 98.60234445446348
         }
       },
@@ -56975,8 +56935,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.31,
       "bbwthdLow": 0.06,
       "high52": 99.77,
-      "volx": 1,
-      "volSurgeWk": 0.77,
+      "volx": 1.03,
+      "volSurgeWk": 0.79,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
@@ -56992,7 +56952,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 127.83,
       "ret1d": 0.73,
       "ret5d": 9.12,
-      "dollarVolM": 140,
+      "dollarVolM": 143.9,
       "brk60d": true,
       "clsPos": 89.71,
       "targetStatus": false,
@@ -57058,9 +57018,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -57417,7 +57377,7 @@ window.TEAM2_DATA = {
       "nameKo": "페이컴 소프트웨어",
       "nameEn": "PAYCOM SOFTWARE INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "페이컴 소프트웨어",
         "nameEn": "PAYCOM SOFTWARE INC",
         "infomaxCode": "NYS:PAYC",
@@ -58130,7 +58090,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.09배(20일 평균 대비) · 오늘 거래대금 1배(상승일) · 상장주식 44M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.09배(20일 평균 대비) · 오늘 거래대금 1.03배(상승일) · 상장주식 44M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -58153,27 +58113,27 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "TRI",
-      "price": 123.17,
+      "price": 123.16999816894531,
       "marketCap": "53.40B",
       "sector": "Industrials",
       "industry": "Specialty Business Services",
       "rs": {
         "m1": {
-          "v": 0.2981287766537636,
+          "v": 0.29812872536383067,
           "pct": 98.42200180342651
         },
         "m3": {
-          "v": 0.22284908408076864,
+          "v": 0.22284902967859288,
           "pct": 93.0117222723174
         },
         "m6": {
-          "v": 0.255473159529205,
+          "v": 0.2554731037748723,
           "pct": 84.35527502254283
         }
       },
       "qualifiedBy": [],
       "bestPct": 98.42200180342651,
-      "adr": 3.29,
+      "adr": 3.3,
       "cyTrend": -6.31,
       "nyTrend": -2.77,
       "upCount": 9,
@@ -58182,8 +58142,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.32,
       "bbwthdLow": 0.1,
       "high52": 78.13,
-      "volx": 1.04,
-      "volSurgeWk": 0.61,
+      "volx": 1.1,
+      "volSurgeWk": 0.65,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": false,
@@ -58199,9 +58159,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 63.3,
       "ret1d": -0.07,
       "ret5d": 12.99,
-      "dollarVolM": 170.2,
+      "dollarVolM": 180.6,
       "brk60d": false,
-      "clsPos": 87.21,
+      "clsPos": 87.14,
       "targetStatus": false,
       "est": {
         "cyCur": 4.15126,
@@ -58266,8 +58226,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.1747,
-        "m3": 0.0298,
-        "m6": 0.1689,
+        "m3": 0.03,
+        "m6": 0.1693,
         "rankPct6": 12.78,
         "count": 10
       },
@@ -58383,7 +58343,7 @@ window.TEAM2_DATA = {
       "nameKo": "톰슨 로이터",
       "nameEn": "THOMSON-REUTERS CORP",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "톰슨 로이터",
         "nameEn": "THOMSON-REUTERS CORP",
         "infomaxCode": "NAS:TRI",
@@ -58840,7 +58800,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.27배(20일 평균 대비) · 오늘 거래대금 1.04배 · 상장주식 433M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.27배(20일 평균 대비) · 오늘 거래대금 1.1배 · 상장주식 433M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -58863,21 +58823,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "HURN",
-      "price": 195.69,
+      "price": 195.69000244140625,
       "marketCap": "3.08B",
       "sector": "Industrials",
       "industry": "Consulting Services",
       "rs": {
         "m1": {
-          "v": 0.29256278702057903,
+          "v": 0.2925627696819118,
           "pct": 98.33183047790803
         },
         "m3": {
-          "v": 0.16340412807928434,
+          "v": 0.16340410723393506,
           "pct": 89.76555455365194
         },
         "m6": {
-          "v": 0.4322918235382792,
+          "v": 0.43229180565912095,
           "pct": 92.01983769161407
         }
       },
@@ -58909,9 +58869,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 139.6,
       "ret1d": 1.21,
       "ret5d": 11.91,
-      "dollarVolM": 151.9,
+      "dollarVolM": 152,
       "brk60d": true,
-      "clsPos": 19.03,
+      "clsPos": 18.99,
       "targetStatus": false,
       "est": {
         "cyCur": 9.198,
@@ -58978,7 +58938,7 @@ window.TEAM2_DATA = {
         "m1": 0.2294,
         "m3": 0.0059,
         "m6": 0.0442,
-        "rankPct6": 41.35,
+        "rankPct6": 42.11,
         "count": 7
       },
       "research": {
@@ -59063,7 +59023,7 @@ window.TEAM2_DATA = {
       "nameKo": "휴런 컨설팅 그룹",
       "nameEn": "HURON CONSULTING GROUP INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "휴런 컨설팅 그룹",
         "nameEn": "HURON CONSULTING GROUP INC",
         "infomaxCode": "NAS:HURN",
@@ -59665,21 +59625,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "PCTY",
-      "price": 177.19,
+      "price": 177.19000244140625,
       "marketCap": "9.84B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.28992717325715855,
+          "v": 0.2899271574956822,
           "pct": 98.24165915238953
         },
         "m3": {
-          "v": 0.2645248013277735,
+          "v": 0.26452478343226793,
           "pct": 94.27412082957619
         },
         "m6": {
-          "v": 0.5760632075936684,
+          "v": 0.57606319362507,
           "pct": 94.36429215509467
         }
       },
@@ -59777,9 +59737,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -59921,7 +59881,7 @@ window.TEAM2_DATA = {
       "nameKo": "페일로시티 홀딩",
       "nameEn": "PAYLOCITY HOLDING CORPORATION",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "페일로시티 홀딩",
         "nameEn": "PAYLOCITY HOLDING CORPORATION",
         "infomaxCode": "NAS:PCTY",
@@ -60643,21 +60603,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "SAM",
-      "price": 202.28,
+      "price": 202.27999877929688,
       "marketCap": "2.01B",
       "sector": "Consumer Defensive",
       "industry": "Beverages - Brewers",
       "rs": {
         "m1": {
-          "v": 0.28900847218563325,
+          "v": 0.2890084319393061,
           "pct": 98.06131650135256
         },
         "m3": {
-          "v": 0.059999920756381116,
+          "v": 0.059999878415233535,
           "pct": 77.41208295761948
         },
         "m6": {
-          "v": -0.07268964715947365,
+          "v": -0.07268968941240932,
           "pct": 33.94950405770965
         }
       },
@@ -60831,7 +60791,7 @@ window.TEAM2_DATA = {
       "nameKo": "보스턴 비어",
       "nameEn": "BOSTON BEER CO INC",
       "detail": {
-        "fetchedAt": "2026-10-25",
+        "fetchedAt": "2026-10-26",
         "nameKo": "보스턴 비어",
         "nameEn": "BOSTON BEER CO INC",
         "infomaxCode": "NYS:SAM",
@@ -61498,15 +61458,15 @@ window.TEAM2_DATA = {
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.09118965285049718,
+          "v": 0.09118962005793502,
           "pct": 63.07484220018035
         },
         "m3": {
-          "v": 0.5776989155703135,
+          "v": 0.577698879816523,
           "pct": 99.0532010820559
         },
         "m6": {
-          "v": 0.29824005105291684,
+          "v": 0.2982400146922587,
           "pct": 87.42110009017132
         }
       },
@@ -61521,8 +61481,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.15,
       "bbwthdLow": 0.12,
       "high52": 92.4,
-      "volx": 0.73,
-      "volSurgeWk": 0.69,
+      "volx": 0.8,
+      "volSurgeWk": 0.75,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
@@ -61538,7 +61498,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 100.19,
       "ret1d": 0.29,
       "ret5d": 5.76,
-      "dollarVolM": 3162.2,
+      "dollarVolM": 3465.6,
       "brk60d": false,
       "clsPos": 89.31,
       "targetStatus": false,
@@ -62054,7 +62014,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "PLTR",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "한국투자증권 Open API",
         "per": 167.66,
         "pbr": 48.37,
@@ -62077,7 +62037,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PLTR",
         "url": "https://finance.yahoo.com/quote/PLTR/analysis/",
-        "fetchedAt": "2026-10-24",
+        "fetchedAt": "2026-10-26",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -62463,7 +62423,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.91배(20일 평균 대비) · 오늘 거래대금 0.73배(상승일) · 상장주식 2301M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.91배(20일 평균 대비) · 오늘 거래대금 0.8배(상승일) · 상장주식 2301M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -62486,21 +62446,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "VEEV",
-      "price": 323.04,
+      "price": 323.0400085449219,
       "marketCap": "52.22B",
       "sector": "Healthcare",
       "industry": "Health Information Services",
       "rs": {
         "m1": {
-          "v": 0.20478087838594347,
+          "v": 0.20478087603702558,
           "pct": 92.56086564472497
         },
         "m3": {
-          "v": 0.5711225964030561,
+          "v": 0.5711226030432027,
           "pct": 98.96302975653742
         },
         "m6": {
-          "v": 0.8486934786185231,
+          "v": 0.848693492457147,
           "pct": 97.15960324616772
         }
       },
@@ -62532,7 +62492,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 116.76,
       "ret1d": 0.15,
       "ret5d": 4.09,
-      "dollarVolM": 442.9,
+      "dollarVolM": 443,
       "brk60d": false,
       "clsPos": 70.14,
       "targetStatus": false,
@@ -62598,9 +62558,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1479,
-        "m3": 0.3508,
-        "m6": 0.5579,
+        "m1": 0.1476,
+        "m3": 0.3476,
+        "m6": 0.5536,
         "rankPct6": 2.26,
         "count": 6
       },
@@ -63747,21 +63707,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "ANF",
-      "price": 155.82,
+      "price": 155.82000732421875,
       "marketCap": "6.85B",
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
       "rs": {
         "m1": {
-          "v": 0.20204522216376372,
-          "pct": 92.01983769161407
+          "v": 0.20204524334083088,
+          "pct": 91.92966636609559
         },
         "m3": {
-          "v": 0.5225827817880445,
+          "v": 0.5225828190865042,
           "pct": 98.512173128945
         },
         "m6": {
-          "v": 0.9240684797657193,
+          "v": 0.9240685361519098,
           "pct": 97.8809738503156
         }
       },
@@ -64977,7 +64937,7 @@ window.TEAM2_DATA = {
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 7.98% · 3M 1.49% · 6M 2.12% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 8.07% · 3M 1.49% · 6M 2.12% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -64995,21 +64955,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "NSIT",
-      "price": 176.77,
+      "price": 176.77000427246094,
       "marketCap": "5.03B",
       "sector": "Technology",
       "industry": "Electronics & Computer Distribution",
       "rs": {
         "m1": {
-          "v": 0.16541294028047726,
+          "v": 0.16541293435366974,
           "pct": 86.60955816050496
         },
         "m3": {
-          "v": 0.3519252695808479,
+          "v": 0.35192526726574447,
           "pct": 95.89720468890893
         },
         "m6": {
-          "v": 1.4590014290721258,
+          "v": 1.4590014533309446,
           "pct": 99.59422903516682
         }
       },
@@ -65024,8 +64984,8 @@ window.TEAM2_DATA = {
       "bbwthd": 0.15,
       "bbwthdLow": 0.07,
       "high52": 99.18,
-      "volx": 1.26,
-      "volSurgeWk": 1,
+      "volx": 1.28,
+      "volSurgeWk": 1.02,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
@@ -65041,7 +65001,7 @@ window.TEAM2_DATA = {
       "maxRise6m": 170.78,
       "ret1d": 3.21,
       "ret5d": 10.16,
-      "dollarVolM": 67.9,
+      "dollarVolM": 68.8,
       "brk60d": false,
       "clsPos": 73.26,
       "targetStatus": true,
@@ -66119,7 +66079,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.96배(20일 평균 대비) · 오늘 거래대금 1.26배(상승일) · 상장주식 29M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.96배(20일 평균 대비) · 오늘 거래대금 1.28배(상승일) · 상장주식 29M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -66142,21 +66102,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "HAE",
-      "price": 118.51,
+      "price": 118.51000213623047,
       "marketCap": "5.39B",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "rs": {
         "m1": {
-          "v": 0.1793127116159501,
+          "v": 0.17931269911047626,
           "pct": 88.86384129846708
         },
         "m3": {
-          "v": 0.365617691818454,
+          "v": 0.36561768125012056,
           "pct": 96.25788999098287
         },
         "m6": {
-          "v": 1.0931773556189963,
+          "v": 1.093177357874218,
           "pct": 98.69251577998197
         }
       },
@@ -66190,7 +66150,7 @@ window.TEAM2_DATA = {
       "ret5d": 0.19,
       "dollarVolM": 92.1,
       "brk60d": false,
-      "clsPos": 81.39,
+      "clsPos": 81.4,
       "targetStatus": false,
       "est": {
         "cyCur": 5.30928,
@@ -66204,7 +66164,7 @@ window.TEAM2_DATA = {
       "epsNy": 8.81,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 1.35,
       "fs": {
         "sale": [
@@ -66266,7 +66226,15 @@ window.TEAM2_DATA = {
       },
       "nameKo": "헤모네틱스",
       "nameEn": "HAEMONETICS CORP",
-      "cnbc": null,
+      "cnbc": [
+        {
+          "title": "Stocks making the biggest moves midday: Chipotle, Starbucks, Skydance & more",
+          "url": "https://www.cnbc.com/2026/10/08/stocks-making-the-biggest-moves-midday-cmg-sbux-skyd-mpc.html",
+          "date": "2026-10-08",
+          "publisher": "CNBC",
+          "kind": "article"
+        }
+      ],
       "kis": {
         "ticker": "HAE",
         "fetchedAt": "2026-10-25",
@@ -66701,21 +66669,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "FTNT",
-      "price": 179.99,
+      "price": 179.99000549316406,
       "marketCap": "126.92B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.09150717865411495,
+          "v": 0.09150717752974051,
           "pct": 63.255184851217315
         },
         "m3": {
-          "v": 0.13529558988837762,
+          "v": 0.13529558974667172,
           "pct": 87.42110009017132
         },
         "m6": {
-          "v": 0.9678348595110275,
+          "v": 0.9678348847053245,
           "pct": 98.24165915238953
         }
       },
@@ -66747,9 +66715,9 @@ window.TEAM2_DATA = {
       "maxRise6m": 125.83,
       "ret1d": 4.05,
       "ret5d": 6.42,
-      "dollarVolM": 579.8,
+      "dollarVolM": 580,
       "brk60d": false,
-      "clsPos": 98.05,
+      "clsPos": 98,
       "targetStatus": false,
       "est": {
         "cyCur": 3.4522,
@@ -67303,21 +67271,21 @@ window.TEAM2_DATA = {
     },
     {
       "ticker": "RDVT",
-      "price": 80.8,
+      "price": 80.80000305175781,
       "marketCap": "1.30B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.08250578783578394,
+          "v": 0.08250579389437006,
           "pct": 58.746618575293056
         },
         "m3": {
-          "v": 0.15040138300771627,
+          "v": 0.15040139189637441,
           "pct": 88.7736699729486
         },
         "m6": {
-          "v": 0.9608643584604446,
+          "v": 0.9608643980141583,
           "pct": 98.15148782687105
         }
       },
@@ -67365,7 +67333,7 @@ window.TEAM2_DATA = {
       "epsNy": 6.02,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 1.89,
       "fs": {
         "sale": [
@@ -67415,9 +67383,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1669,
-        "m3": 0.2191,
-        "m6": 0.3356,
+        "m1": 0.1672,
+        "m3": 0.2194,
+        "m6": 0.3361,
         "rankPct6": 4.51,
         "count": 50
       },
@@ -67815,12 +67783,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 8.25,
           "ret5d": 13.27,
-          "dollarVolM": 3436.7,
-          "rs1": 0.0754378033543001,
+          "dollarVolM": 3443.1,
+          "rs1": 0.07543779961111174,
           "rnk1": 44.5,
-          "rs3": 0.3590401837072835,
+          "rs3": 0.3590401874968399,
           "rnk3": 3.83,
-          "rs6": 1.146549689240061,
+          "rs6": 1.1465497153141393,
           "rnk6": 1.13,
           "adr": 4.7,
           "high52": 89.75,
@@ -67828,7 +67796,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 1.2,
           "above50": "O",
           "squeeze": 1.56,
-          "volx": 1.57,
+          "volx": 1.58,
           "fs": {
             "sale": [
               25.83,
@@ -67856,12 +67824,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 7.22,
           "ret5d": 11.27,
-          "dollarVolM": 2497,
-          "rs1": 0.06936576141004422,
+          "dollarVolM": 2505,
+          "rs1": 0.06936569604281274,
           "rnk1": 46.93,
-          "rs3": 0.13690191593374845,
+          "rs3": 0.1369018426982841,
           "rnk3": 12.4,
-          "rs6": 1.0128452544497957,
+          "rs6": 1.0128451519478747,
           "rnk6": 1.58,
           "adr": 4.43,
           "high52": 88.02,
@@ -67869,7 +67837,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 0.9,
           "above50": "O",
           "squeeze": 1.69,
-          "volx": 1.22,
+          "volx": 1.23,
           "fs": {
             "sale": [
               34.44,
@@ -67897,12 +67865,12 @@ window.TEAM2_DATA = {
           "industry": "REIT - Specialty",
           "ret1d": 9.06,
           "ret5d": 4.51,
-          "dollarVolM": 1489.1,
-          "rs1": 0.32110818278761577,
+          "dollarVolM": 1489.2,
+          "rs1": 0.3211081679889096,
           "rnk1": 1.04,
-          "rs3": 0.108405689759134,
+          "rs3": 0.10840567019214896,
           "rnk3": 16.01,
-          "rs6": -0.07062284419735641,
+          "rs6": -0.07062286666464648,
           "rnk6": 65.69,
           "adr": 3.57,
           "high52": 91.12,
@@ -67938,13 +67906,13 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 7.29,
           "ret5d": 9.93,
-          "dollarVolM": 1357,
-          "rs1": -0.01286801881104032,
+          "dollarVolM": 1358,
+          "rs1": -0.012868020125955192,
           "rnk1": 75.7,
-          "rs3": 0.11782898240851389,
+          "rs3": 0.11782898542224356,
           "rnk3": 14.74,
-          "rs6": 0.40396318501228345,
-          "rnk6": 8.79,
+          "rs6": 0.403963197660539,
+          "rnk6": 8.88,
           "adr": 5.06,
           "high52": 87.95,
           "maxRise3m": 37.52,
@@ -67979,12 +67947,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 7.31,
           "ret5d": 23.04,
-          "dollarVolM": 1016,
-          "rs1": 0.3755399529005846,
+          "dollarVolM": 1017.2,
+          "rs1": 0.3755398884917804,
           "rnk1": 0.5,
-          "rs3": 0.6878791247730106,
+          "rs3": 0.6878790478876368,
           "rnk3": 0.59,
-          "rs6": 0.7452179838262081,
+          "rs6": 0.7452179045434981,
           "rnk6": 3.56,
           "adr": 5.06,
           "high52": 75.71,
@@ -68020,12 +67988,12 @@ window.TEAM2_DATA = {
           "industry": "Banks - Regional",
           "ret1d": 8.15,
           "ret5d": 11.87,
-          "dollarVolM": 709.3,
-          "rs1": 0.19043137116273526,
+          "dollarVolM": 709.2,
+          "rs1": 0.19043138041585916,
           "rnk1": 9.78,
-          "rs3": 0.07132828585693393,
+          "rs3": 0.07132829090344121,
           "rnk3": 21.06,
-          "rs6": 0.1689573738476838,
+          "rs6": 0.1689573825467015,
           "rnk6": 22.23,
           "adr": 2.23,
           "high52": 97.77,
@@ -68061,12 +68029,12 @@ window.TEAM2_DATA = {
           "industry": "Electronic Components",
           "ret1d": 8.42,
           "ret5d": -14.67,
-          "dollarVolM": 685.8,
-          "rs1": -0.325947892394801,
+          "dollarVolM": 685.9,
+          "rs1": -0.32594792046218257,
           "rnk1": 99.41,
-          "rs3": -0.3380433565963487,
+          "rs3": -0.3380433870661677,
           "rnk3": 97.25,
-          "rs6": -0.540354034159085,
+          "rs6": -0.540354066643757,
           "rnk6": 98.96,
           "adr": 7.84,
           "high52": 35.79,
@@ -68102,12 +68070,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 5.82,
           "ret5d": 13.77,
-          "dollarVolM": 649.9,
-          "rs1": 0.14536222763272105,
+          "dollarVolM": 650.5,
+          "rs1": 0.1453622104749648,
           "rnk1": 19.97,
-          "rs3": 0.4856576608197309,
+          "rs3": 0.4856576467990115,
           "rnk3": 1.94,
-          "rs6": 1.7092000863838432,
+          "rs6": 1.709200089533256,
           "rnk6": 0.32,
           "adr": 5.49,
           "high52": 90.66,
@@ -68143,20 +68111,20 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 6.62,
           "ret5d": 14.53,
-          "dollarVolM": 517.9,
-          "rs1": 0.22903277410239062,
+          "dollarVolM": 518.4,
+          "rs1": 0.2290327914528125,
           "rnk1": 4.73,
-          "rs3": 0.7669706629684727,
+          "rs3": 0.7669707039562847,
           "rnk3": 0.41,
-          "rs6": 1.173251439785287,
+          "rs6": 1.1732514982487965,
           "rnk6": 1.04,
           "adr": 5.19,
-          "high52": 98.41,
-          "maxRise3m": 86.54,
+          "high52": 98.39,
+          "maxRise3m": 86.57,
           "ext10Adr": 1.7,
           "above50": "O",
           "squeeze": 1,
-          "volx": 1.52,
+          "volx": 1.53,
           "fs": {
             "sale": [
               37.89,
@@ -68184,12 +68152,12 @@ window.TEAM2_DATA = {
           "industry": "Semiconductors",
           "ret1d": 5.5,
           "ret5d": -3.46,
-          "dollarVolM": 388,
-          "rs1": -0.22205717514570605,
+          "dollarVolM": 388.6,
+          "rs1": -0.22205720793826822,
           "rnk1": 96.17,
-          "rs3": 0.12015558321466777,
+          "rs3": 0.12015554746087727,
           "rnk3": 14.29,
-          "rs6": 0.18340716260875098,
+          "rs6": 0.18340712624809286,
           "rnk6": 21.33,
           "adr": 7.17,
           "high52": 65.35,
@@ -68226,16 +68194,16 @@ window.TEAM2_DATA = {
           "ret1d": 5,
           "ret5d": 10.54,
           "dollarVolM": 385.5,
-          "rs1": 0.1487933221554359,
+          "rs1": 0.14879328134880423,
           "rnk1": 18.8,
-          "rs3": 0.5308748721143717,
+          "rs3": 0.5308748249246229,
           "rnk3": 1.4,
-          "rs6": 0.7220829090450415,
+          "rs6": 0.7220828597207711,
           "rnk6": 3.83,
-          "adr": 5.35,
+          "adr": 5.36,
           "high52": 84.97,
           "maxRise3m": 86.92,
-          "ext10Adr": 1,
+          "ext10Adr": 0.9,
           "above50": "O",
           "squeeze": 1.44,
           "volx": 2.98,
@@ -68249,12 +68217,12 @@ window.TEAM2_DATA = {
           "industry": "Health Information Services",
           "ret1d": 5.96,
           "ret5d": 4.47,
-          "dollarVolM": 316.1,
-          "rs1": -0.1507613534027614,
+          "dollarVolM": 316.4,
+          "rs1": -0.15076141132448967,
           "rnk1": 93.1,
-          "rs3": 0.49506618020458165,
+          "rs3": 0.49506609621799774,
           "rnk3": 1.85,
-          "rs6": 0.1624353507928947,
+          "rs6": 0.1624352761553971,
           "rnk6": 23.31,
           "adr": 8.43,
           "high52": 72.41,
@@ -68262,7 +68230,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 0.1,
           "above50": "X",
           "squeeze": 1.54,
-          "volx": 0.68,
+          "volx": 0.69,
           "fs": {
             "sale": [
               36.12,
@@ -68287,13 +68255,13 @@ window.TEAM2_DATA = {
           "ret1d": 6.98,
           "ret5d": 13.99,
           "dollarVolM": 201.4,
-          "rs1": 0.07466557937047594,
+          "rs1": 0.07466552864327734,
           "rnk1": 44.86,
-          "rs3": -0.003082446351696494,
+          "rs3": -0.0030825001752299817,
           "rnk3": 38.46,
-          "rs6": -0.24863796822829848,
+          "rs6": -0.24863801865212917,
           "rnk6": 87.24,
-          "adr": 3.99,
+          "adr": 4,
           "high52": 77,
           "maxRise3m": 37.29,
           "ext10Adr": 2.5,
@@ -68328,11 +68296,11 @@ window.TEAM2_DATA = {
           "ret1d": 7.17,
           "ret5d": 19.35,
           "dollarVolM": 191.1,
-          "rs1": 0.18214153163644126,
+          "rs1": 0.18214152964206273,
           "rnk1": 10.87,
-          "rs3": 0.25151470694758066,
+          "rs3": 0.2515147062177903,
           "rnk3": 6.18,
-          "rs6": 0.8645694634834308,
+          "rs6": 0.8645694793590208,
           "rnk6": 2.66,
           "adr": 6.16,
           "high52": 95.14,
@@ -68369,11 +68337,11 @@ window.TEAM2_DATA = {
           "ret1d": 5.31,
           "ret5d": 8.36,
           "dollarVolM": 168,
-          "rs1": 0.17566839757377842,
+          "rs1": 0.1756683718684381,
           "rnk1": 11.59,
-          "rs3": -0.006304697657598144,
+          "rs3": -0.006304726934045001,
           "rnk3": 39.09,
-          "rs6": 0.15690091890291202,
+          "rs6": 0.15690089016129863,
           "rnk6": 24.3,
           "adr": 2.15,
           "high52": 95.42,
@@ -68409,20 +68377,20 @@ window.TEAM2_DATA = {
           "industry": "Oil & Gas E&P",
           "ret1d": 5.08,
           "ret5d": 2.31,
-          "dollarVolM": 111.1,
-          "rs1": 0.21427843528249566,
+          "dollarVolM": 125.5,
+          "rs1": 0.21427843832182863,
           "rnk1": 6.36,
-          "rs3": 0.12236879727915462,
+          "rs3": 0.1223687971574257,
           "rnk3": 14.2,
-          "rs6": 0.029178201444615075,
+          "rs6": 0.029178198379101475,
           "rnk6": 43.96,
           "adr": 3,
-          "high52": 99.44,
-          "maxRise3m": 24.99,
+          "high52": 99.42,
+          "maxRise3m": 25.02,
           "ext10Adr": 1.7,
           "above50": "O",
           "squeeze": 2.1,
-          "volx": 1.11,
+          "volx": 1.24,
           "fs": {
             "sale": [
               84.04,
@@ -68450,12 +68418,12 @@ window.TEAM2_DATA = {
           "industry": "Semiconductor Equipment & Materials",
           "ret1d": 5.35,
           "ret5d": 7.78,
-          "dollarVolM": 101.2,
-          "rs1": -0.031168621401638112,
+          "dollarVolM": 101.3,
+          "rs1": -0.031168654194200264,
           "rnk1": 79.67,
-          "rs3": -0.1340193016098401,
+          "rs3": -0.1340193373636306,
           "rnk3": 75.7,
-          "rs6": -0.10875781408217555,
+          "rs6": -0.10875785044283368,
           "rnk6": 72.36,
           "adr": 5.28,
           "high52": 68.78,
@@ -68491,14 +68459,14 @@ window.TEAM2_DATA = {
           "industry": "Oil & Gas E&P",
           "ret1d": 5.99,
           "ret5d": 4.02,
-          "dollarVolM": 94.5,
-          "rs1": 0.16375338667413647,
+          "dollarVolM": 94.6,
+          "rs1": 0.163753299571781,
           "rnk1": 14.29,
-          "rs3": 0.05986303863140515,
+          "rs3": 0.059862949470740015,
           "rnk3": 22.86,
-          "rs6": -0.027797625530072305,
+          "rs6": -0.0277977118649313,
           "rnk6": 57.3,
-          "adr": 3.27,
+          "adr": 3.29,
           "high52": 91.9,
           "maxRise3m": 26.24,
           "ext10Adr": 1.7,
@@ -68532,12 +68500,12 @@ window.TEAM2_DATA = {
           "industry": "Banks - Regional",
           "ret1d": 7.38,
           "ret5d": 13.05,
-          "dollarVolM": 80.5,
-          "rs1": 0.15092890722045618,
+          "dollarVolM": 88.6,
+          "rs1": 0.15092888630860213,
           "rnk1": 17.63,
-          "rs3": 0.04949783977318458,
+          "rs3": 0.04949781572690526,
           "rnk3": 25.2,
-          "rs6": 0.05586771783541249,
+          "rs6": 0.05586769344086745,
           "rnk6": 39.9,
           "adr": 2.64,
           "high52": 98.01,
@@ -68545,7 +68513,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 4.1,
           "above50": "O",
           "squeeze": 3.25,
-          "volx": 3.4,
+          "volx": 3.68,
           "fs": {
             "sale": [
               5.9,
@@ -68574,15 +68542,15 @@ window.TEAM2_DATA = {
           "ret1d": 5.58,
           "ret5d": 14.08,
           "dollarVolM": 71.3,
-          "rs1": 0.25561498669042537,
+          "rs1": 0.2556149765062684,
           "rnk1": 3.74,
-          "rs3": 0.25619814111776623,
+          "rs3": 0.25619812959068444,
           "rnk3": 6,
-          "rs6": -0.09971008949864059,
+          "rs6": -0.09971010799883492,
           "rnk6": 71.19,
-          "adr": 3.79,
+          "adr": 3.8,
           "high52": 85.29,
-          "maxRise3m": 31.21,
+          "maxRise3m": 31.22,
           "ext10Adr": 2.7,
           "above50": "O",
           "squeeze": 2.67,
@@ -68701,11 +68669,11 @@ window.TEAM2_DATA = {
           "ret1d": 2.16,
           "ret5d": 2.19,
           "dollarVolM": 46.2,
-          "rs1": 1.7626716716925173,
+          "rs1": 1.7626715539978794,
           "rnk1": 0.05,
-          "rs3": 1.030305981727447,
+          "rs3": 1.030305881348197,
           "rnk3": 0.23,
-          "rs6": 1.024506279427526,
+          "rs6": 1.0245061780743896,
           "rnk6": 1.49,
           "adr": 10.93,
           "high52": 84.26,
@@ -68725,11 +68693,11 @@ window.TEAM2_DATA = {
           "ret1d": 2.18,
           "ret5d": 16.11,
           "dollarVolM": 147.8,
-          "rs1": 0.5536032738934992,
+          "rs1": 0.5536031990439813,
           "rnk1": 0.14,
-          "rs3": 0.05844487588990437,
+          "rs3": 0.058444809568865,
           "rnk3": 23.31,
-          "rs6": 0.31506332391269926,
+          "rs6": 0.31506324929747725,
           "rnk6": 11.77,
           "adr": 5.19,
           "high52": 78.18,
@@ -68765,12 +68733,12 @@ window.TEAM2_DATA = {
           "industry": "Information Technology Services",
           "ret1d": -3.62,
           "ret5d": 8.57,
-          "dollarVolM": 1706.9,
-          "rs1": 0.4812109175194626,
+          "dollarVolM": 1707.1,
+          "rs1": 0.48121085677855524,
           "rnk1": 0.23,
-          "rs3": 0.5078350947258979,
+          "rs3": 0.5078350288295179,
           "rnk3": 1.58,
-          "rs6": 0.3632670319380547,
+          "rs6": 0.36326708997958934,
           "rnk6": 9.78,
           "adr": 4.24,
           "high52": 88.13,
@@ -68806,12 +68774,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": -0.1,
           "ret5d": 0.42,
-          "dollarVolM": 306.1,
-          "rs1": 0.45698941674923665,
+          "dollarVolM": 306,
+          "rs1": 0.4569894060516492,
           "rnk1": 0.32,
-          "rs3": 0.3902871332676862,
+          "rs3": 0.39028711990390114,
           "rnk3": 3.2,
-          "rs6": 0.3533310852272744,
+          "rs6": 0.3533310709503977,
           "rnk6": 10.14,
           "adr": 1.32,
           "high52": 93.77,
@@ -68847,12 +68815,12 @@ window.TEAM2_DATA = {
           "industry": "Leisure",
           "ret1d": 0.18,
           "ret5d": 18.91,
-          "dollarVolM": 323.6,
-          "rs1": 0.38704368052121707,
+          "dollarVolM": 325,
+          "rs1": 0.38704367544356416,
           "rnk1": 0.41,
-          "rs3": 0.2201026213474746,
+          "rs3": 0.22010261161426414,
           "rnk3": 7.26,
-          "rs6": 0.22036457811070229,
+          "rs6": 0.22036456814006644,
           "rnk6": 17.9,
           "adr": 3.12,
           "high52": 99.72,
@@ -68860,7 +68828,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 4.1,
           "above50": "O",
           "squeeze": 7.8,
-          "volx": 1.3,
+          "volx": 1.31,
           "fs": {
             "sale": [
               16.19,
@@ -68888,12 +68856,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 7.31,
           "ret5d": 23.04,
-          "dollarVolM": 1016,
-          "rs1": 0.3755399529005846,
+          "dollarVolM": 1017.2,
+          "rs1": 0.3755398884917804,
           "rnk1": 0.5,
-          "rs3": 0.6878791247730106,
+          "rs3": 0.6878790478876368,
           "rnk3": 0.59,
-          "rs6": 0.7452179838262081,
+          "rs6": 0.7452179045434981,
           "rnk6": 3.56,
           "adr": 5.06,
           "high52": 75.71,
@@ -68930,15 +68898,15 @@ window.TEAM2_DATA = {
           "ret1d": 3.88,
           "ret5d": 8.08,
           "dollarVolM": 634.7,
-          "rs1": 0.3731656152611887,
+          "rs1": 0.3731656345080577,
           "rnk1": 0.59,
-          "rs3": 0.1196635246276346,
+          "rs3": 0.11966353428405359,
           "rnk3": 14.47,
-          "rs6": -0.03972895092162995,
+          "rs6": -0.039728947468598105,
           "rnk6": 60.37,
           "adr": 3.99,
           "high52": 92.16,
-          "maxRise3m": 34.98,
+          "maxRise3m": 34.99,
           "ext10Adr": 2.3,
           "above50": "O",
           "squeeze": 2.82,
@@ -68970,12 +68938,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": -0.34,
           "ret5d": 11.93,
-          "dollarVolM": 142,
-          "rs1": 0.3522953095076823,
+          "dollarVolM": 142.1,
+          "rs1": 0.3522952767151201,
           "rnk1": 0.68,
-          "rs3": 0.20202451461465967,
+          "rs3": 0.20202447886086916,
           "rnk3": 7.89,
-          "rs6": 0.2673450899563467,
+          "rs6": 0.26734505359568855,
           "rnk6": 14.65,
           "adr": 4.4,
           "high52": 73.86,
@@ -69011,12 +68979,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": -0.31,
           "ret5d": 17.88,
-          "dollarVolM": 76.6,
-          "rs1": 0.3272299922635638,
+          "dollarVolM": 82.4,
+          "rs1": 0.3272299448797624,
           "rnk1": 0.77,
-          "rs3": 0.17679472196699758,
+          "rs3": 0.1767946723667566,
           "rnk3": 9.06,
-          "rs6": 0.3286948051247657,
+          "rs6": 0.32869475297643125,
           "rnk6": 11.14,
           "adr": 5.73,
           "high52": 50.61,
@@ -69024,7 +68992,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 2.1,
           "above50": "O",
           "squeeze": 3.23,
-          "volx": 0.76,
+          "volx": 0.81,
           "fs": {
             "sale": [
               21.94,
@@ -69052,12 +69020,12 @@ window.TEAM2_DATA = {
           "industry": "Internet Retail",
           "ret1d": -4.28,
           "ret5d": 2.1,
-          "dollarVolM": 212.3,
-          "rs1": 0.3240252537960318,
+          "dollarVolM": 212.4,
+          "rs1": 0.32402522546249596,
           "rnk1": 0.86,
-          "rs3": 0.01388362162757733,
+          "rs3": 0.013883589543970468,
           "rnk3": 32.87,
-          "rs6": 0.30834698291010865,
+          "rs6": 0.3083469513148435,
           "rnk6": 12.13,
           "adr": 4.03,
           "high52": 95.4,
@@ -69094,11 +69062,11 @@ window.TEAM2_DATA = {
           "ret1d": 1.38,
           "ret5d": 17.29,
           "dollarVolM": 236.7,
-          "rs1": 0.32119576383220605,
+          "rs1": 0.3211957538842793,
           "rnk1": 0.95,
-          "rs3": 0.13049996043470022,
+          "rs3": 0.13049994562819578,
           "rnk3": 13.12,
-          "rs6": 0.045688459851088124,
+          "rs6": 0.04568844322454732,
           "rnk6": 41.52,
           "adr": 4.99,
           "high52": 54.4,
@@ -69134,12 +69102,12 @@ window.TEAM2_DATA = {
           "industry": "REIT - Specialty",
           "ret1d": 9.06,
           "ret5d": 4.51,
-          "dollarVolM": 1489.1,
-          "rs1": 0.32110818278761577,
+          "dollarVolM": 1489.2,
+          "rs1": 0.3211081679889096,
           "rnk1": 1.04,
-          "rs3": 0.108405689759134,
+          "rs3": 0.10840567019214896,
           "rnk3": 16.01,
-          "rs6": -0.07062284419735641,
+          "rs6": -0.07062286666464648,
           "rnk6": 65.69,
           "adr": 3.57,
           "high52": 91.12,
@@ -69175,16 +69143,16 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 1.02,
           "ret5d": 14.23,
-          "dollarVolM": 170.1,
-          "rs1": 0.317120911374773,
+          "dollarVolM": 170.2,
+          "rs1": 0.31712082884986137,
           "rnk1": 1.13,
-          "rs3": 0.5390627623658786,
+          "rs3": 0.5390626647787204,
           "rnk3": 1.31,
-          "rs6": 0.7108728404665191,
+          "rs6": 0.710872734819307,
           "rnk6": 3.92,
           "adr": 3.7,
-          "high52": 99.88,
-          "maxRise3m": 62.02,
+          "high52": 99.87,
+          "maxRise3m": 62.05,
           "ext10Adr": 2.6,
           "above50": "O",
           "squeeze": 3.56,
@@ -69213,11 +69181,11 @@ window.TEAM2_DATA = {
           "ret1d": -1.75,
           "ret5d": 11.51,
           "dollarVolM": 192.2,
-          "rs1": 0.31275471110081915,
+          "rs1": 0.312754678308257,
           "rnk1": 1.22,
-          "rs3": 0.2828167909177435,
+          "rs3": 0.282816755163953,
           "rnk3": 5.46,
-          "rs6": 0.18283098220609345,
+          "rs6": 0.18283094584543533,
           "rnk6": 21.42,
           "adr": 4.47,
           "high52": 61.23,
@@ -69253,12 +69221,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 4.08,
           "ret5d": 19.69,
-          "dollarVolM": 266,
-          "rs1": 0.31060357176205283,
+          "dollarVolM": 266.1,
+          "rs1": 0.3106035212709583,
           "rnk1": 1.31,
-          "rs3": 0.4976028661957243,
+          "rs3": 0.49760280890670233,
           "rnk3": 1.76,
-          "rs6": 1.2938701972079578,
+          "rs6": 1.2938701278517555,
           "rnk6": 0.77,
           "adr": 5.19,
           "high52": 98.94,
@@ -69294,12 +69262,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": -3.24,
           "ret5d": 5.61,
-          "dollarVolM": 869.5,
-          "rs1": 0.30478337531462263,
+          "dollarVolM": 870,
+          "rs1": 0.3047833958842687,
           "rnk1": 1.4,
-          "rs3": 0.06189971394836386,
+          "rs3": 0.0618997248404166,
           "rnk3": 22.05,
-          "rs6": -0.1976646718797817,
+          "rs6": -0.1976646074957033,
           "rnk6": 83.45,
           "adr": 3.68,
           "high52": 50.53,
@@ -69335,12 +69303,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 0.73,
           "ret5d": 9.12,
-          "dollarVolM": 140,
-          "rs1": 0.29939368349382883,
+          "dollarVolM": 143.9,
+          "rs1": 0.29939363409004816,
           "rnk1": 1.49,
-          "rs3": 0.671248374250096,
+          "rs3": 0.6712483157863364,
           "rnk3": 0.68,
-          "rs6": 1.0366040063879722,
+          "rs6": 1.036603942211209,
           "rnk6": 1.4,
           "adr": 2.97,
           "high52": 99.77,
@@ -69348,7 +69316,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 2.7,
           "above50": "O",
           "squeeze": 5.17,
-          "volx": 1,
+          "volx": 1.03,
           "fs": {
             "sale": [
               9.84,
@@ -69376,20 +69344,20 @@ window.TEAM2_DATA = {
           "industry": "Specialty Business Services",
           "ret1d": -0.07,
           "ret5d": 12.99,
-          "dollarVolM": 170.2,
-          "rs1": 0.2981287766537636,
+          "dollarVolM": 180.6,
+          "rs1": 0.29812872536383067,
           "rnk1": 1.58,
-          "rs3": 0.22284908408076864,
+          "rs3": 0.22284902967859288,
           "rnk3": 6.99,
-          "rs6": 0.255473159529205,
+          "rs6": 0.2554731037748723,
           "rnk6": 15.64,
-          "adr": 3.29,
+          "adr": 3.3,
           "high52": 78.13,
           "maxRise3m": 33.69,
           "ext10Adr": 3.2,
           "above50": "O",
           "squeeze": 3.2,
-          "volx": 1.04,
+          "volx": 1.1,
           "fs": {
             "sale": [
               9.47,
@@ -69417,12 +69385,12 @@ window.TEAM2_DATA = {
           "industry": "Consulting Services",
           "ret1d": 1.21,
           "ret5d": 11.91,
-          "dollarVolM": 151.9,
-          "rs1": 0.29256278702057903,
+          "dollarVolM": 152,
+          "rs1": 0.2925627696819118,
           "rnk1": 1.67,
-          "rs3": 0.16340412807928434,
+          "rs3": 0.16340410723393506,
           "rnk3": 10.23,
-          "rs6": 0.4322918235382792,
+          "rs6": 0.43229180565912095,
           "rnk6": 7.98,
           "adr": 3.66,
           "high52": 96.22,
@@ -69459,11 +69427,11 @@ window.TEAM2_DATA = {
           "ret1d": -0.27,
           "ret5d": 6.54,
           "dollarVolM": 81,
-          "rs1": 0.28992717325715855,
+          "rs1": 0.2899271574956822,
           "rnk1": 1.76,
-          "rs3": 0.2645248013277735,
+          "rs3": 0.26452478343226793,
           "rnk3": 5.73,
-          "rs6": 0.5760632075936684,
+          "rs6": 0.57606319362507,
           "rnk6": 5.64,
           "adr": 2.54,
           "high52": 99.41,
@@ -69500,11 +69468,11 @@ window.TEAM2_DATA = {
           "ret1d": 0.46,
           "ret5d": 10.2,
           "dollarVolM": 365,
-          "rs1": 0.28953308952453716,
+          "rs1": 0.289533056731975,
           "rnk1": 1.85,
-          "rs3": 0.08572611217722603,
+          "rs3": 0.08572607642343555,
           "rnk3": 19.52,
-          "rs6": -0.03828094245389119,
+          "rs6": -0.03828097881454932,
           "rnk6": 59.74,
           "adr": 4.32,
           "high52": 96.41,
@@ -69541,11 +69509,11 @@ window.TEAM2_DATA = {
           "ret1d": 3.35,
           "ret5d": 11.87,
           "dollarVolM": 93.3,
-          "rs1": 0.28900847218563325,
+          "rs1": 0.2890084319393061,
           "rnk1": 1.94,
-          "rs3": 0.059999920756381116,
+          "rs3": 0.059999878415233535,
           "rnk3": 22.59,
-          "rs6": -0.07268964715947365,
+          "rs6": -0.07268968941240932,
           "rnk6": 66.05,
           "adr": 3.01,
           "high52": 76.49,
@@ -69649,12 +69617,12 @@ window.TEAM2_DATA = {
           "industry": "Biotechnology",
           "ret1d": -1.25,
           "ret5d": -8.22,
-          "dollarVolM": 4295.4,
-          "rs1": 0.059995979786645746,
+          "dollarVolM": 4307.1,
+          "rs1": 0.059995977683521856,
           "rnk1": 50.63,
-          "rs3": 2.423188931373705,
+          "rs3": 2.4231890009982955,
           "rnk3": 0.05,
-          "rs6": 3.181358190716483,
+          "rs6": 3.1813582833942124,
           "rnk6": 0.05,
           "adr": 10.46,
           "high52": 78.63,
@@ -69690,12 +69658,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 1.99,
           "ret5d": 9.52,
-          "dollarVolM": 459.6,
-          "rs1": 0.2662297853863296,
+          "dollarVolM": 459.7,
+          "rs1": 0.26622975584481423,
           "rnk1": 2.93,
-          "rs3": 1.2881341223525655,
+          "rs3": 1.2881340928192349,
           "rnk3": 0.14,
-          "rs6": 1.3941300243281007,
+          "rs6": 1.3941299945190906,
           "rnk6": 0.59,
           "adr": 4.46,
           "high52": 98.98,
@@ -69732,11 +69700,11 @@ window.TEAM2_DATA = {
           "ret1d": 2.16,
           "ret5d": 2.19,
           "dollarVolM": 46.2,
-          "rs1": 1.7626716716925173,
+          "rs1": 1.7626715539978794,
           "rnk1": 0.05,
-          "rs3": 1.030305981727447,
+          "rs3": 1.030305881348197,
           "rnk3": 0.23,
-          "rs6": 1.024506279427526,
+          "rs6": 1.0245061780743896,
           "rnk6": 1.49,
           "adr": 10.93,
           "high52": 84.26,
@@ -69756,11 +69724,11 @@ window.TEAM2_DATA = {
           "ret1d": 4.32,
           "ret5d": 12.51,
           "dollarVolM": 76.2,
-          "rs1": 0.09846722101437622,
+          "rs1": 0.09846721227223423,
           "rnk1": 34.76,
-          "rs3": 0.831651083624952,
+          "rs3": 0.8316510907690787,
           "rnk3": 0.32,
-          "rs6": 1.3323370792799392,
+          "rs6": 1.332337097747844,
           "rnk6": 0.68,
           "adr": 8.48,
           "high52": 79.62,
@@ -69796,20 +69764,20 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 6.62,
           "ret5d": 14.53,
-          "dollarVolM": 517.9,
-          "rs1": 0.22903277410239062,
+          "dollarVolM": 518.4,
+          "rs1": 0.2290327914528125,
           "rnk1": 4.73,
-          "rs3": 0.7669706629684727,
+          "rs3": 0.7669707039562847,
           "rnk3": 0.41,
-          "rs6": 1.173251439785287,
+          "rs6": 1.1732514982487965,
           "rnk6": 1.04,
           "adr": 5.19,
-          "high52": 98.41,
-          "maxRise3m": 86.54,
+          "high52": 98.39,
+          "maxRise3m": 86.57,
           "ext10Adr": 1.7,
           "above50": "O",
           "squeeze": 1,
-          "volx": 1.52,
+          "volx": 1.53,
           "fs": {
             "sale": [
               37.89,
@@ -69837,12 +69805,12 @@ window.TEAM2_DATA = {
           "industry": "Marine Shipping",
           "ret1d": 5.2,
           "ret5d": 5.61,
-          "dollarVolM": 66.4,
-          "rs1": 0.2699078413897214,
+          "dollarVolM": 66.6,
+          "rs1": 0.2699078516900158,
           "rnk1": 2.75,
-          "rs3": 0.6951151556081901,
+          "rs3": 0.6951151810429227,
           "rnk3": 0.5,
-          "rs6": 0.8893476316372649,
+          "rs6": 0.8893476639685995,
           "rnk6": 2.39,
           "adr": 4.71,
           "high52": 94.09,
@@ -69878,12 +69846,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 7.31,
           "ret5d": 23.04,
-          "dollarVolM": 1016,
-          "rs1": 0.3755399529005846,
+          "dollarVolM": 1017.2,
+          "rs1": 0.3755398884917804,
           "rnk1": 0.5,
-          "rs3": 0.6878791247730106,
+          "rs3": 0.6878790478876368,
           "rnk3": 0.59,
-          "rs6": 0.7452179838262081,
+          "rs6": 0.7452179045434981,
           "rnk6": 3.56,
           "adr": 5.06,
           "high52": 75.71,
@@ -69919,12 +69887,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 0.73,
           "ret5d": 9.12,
-          "dollarVolM": 140,
-          "rs1": 0.29939368349382883,
+          "dollarVolM": 143.9,
+          "rs1": 0.29939363409004816,
           "rnk1": 1.49,
-          "rs3": 0.671248374250096,
+          "rs3": 0.6712483157863364,
           "rnk3": 0.68,
-          "rs6": 1.0366040063879722,
+          "rs6": 1.036603942211209,
           "rnk6": 1.4,
           "adr": 2.97,
           "high52": 99.77,
@@ -69932,7 +69900,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 2.7,
           "above50": "O",
           "squeeze": 5.17,
-          "volx": 1,
+          "volx": 1.03,
           "fs": {
             "sale": [
               9.84,
@@ -69961,11 +69929,11 @@ window.TEAM2_DATA = {
           "ret1d": 6.88,
           "ret5d": 10.76,
           "dollarVolM": 12.1,
-          "rs1": 0.10625810355828268,
+          "rs1": 0.10625804865954343,
           "rnk1": 32.15,
-          "rs3": 0.6633487596972155,
+          "rs3": 0.663348688340573,
           "rnk3": 0.77,
-          "rs6": 0.4152178902907062,
+          "rs6": 0.41521782317152756,
           "rnk6": 8.43,
           "adr": 5.14,
           "high52": 96.93,
@@ -70001,12 +69969,12 @@ window.TEAM2_DATA = {
           "industry": "Computer Hardware",
           "ret1d": 1.76,
           "ret5d": -0.55,
-          "dollarVolM": 261.5,
-          "rs1": 0.03267117592503759,
-          "rnk1": 62.08,
-          "rs3": 0.6115092138041152,
+          "dollarVolM": 261.6,
+          "rs1": 0.03267115766465552,
+          "rnk1": 62.17,
+          "rs3": 0.6115092024448723,
           "rnk3": 0.86,
-          "rs6": 0.6461718798090162,
+          "rs6": 0.6461718686174948,
           "rnk6": 4.64,
           "adr": 4.81,
           "high52": 78.27,
@@ -70042,12 +70010,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 0.29,
           "ret5d": 5.76,
-          "dollarVolM": 3162.2,
-          "rs1": 0.09118965285049718,
+          "dollarVolM": 3465.6,
+          "rs1": 0.09118962005793502,
           "rnk1": 36.93,
-          "rs3": 0.5776989155703135,
+          "rs3": 0.577698879816523,
           "rnk3": 0.95,
-          "rs6": 0.29824005105291684,
+          "rs6": 0.2982400146922587,
           "rnk6": 12.58,
           "adr": 3.98,
           "high52": 92.4,
@@ -70055,7 +70023,7 @@ window.TEAM2_DATA = {
           "ext10Adr": -0.2,
           "above50": "O",
           "squeeze": 1.25,
-          "volx": 0.73,
+          "volx": 0.8,
           "fs": {
             "sale": [
               92.83,
@@ -70083,12 +70051,12 @@ window.TEAM2_DATA = {
           "industry": "Health Information Services",
           "ret1d": 0.15,
           "ret5d": 4.09,
-          "dollarVolM": 442.9,
-          "rs1": 0.20478087838594347,
+          "dollarVolM": 443,
+          "rs1": 0.20478087603702558,
           "rnk1": 7.44,
-          "rs3": 0.5711225964030561,
+          "rs3": 0.5711226030432027,
           "rnk3": 1.04,
-          "rs6": 0.8486934786185231,
+          "rs6": 0.848693492457147,
           "rnk6": 2.84,
           "adr": 3.32,
           "high52": 99.1,
@@ -70125,11 +70093,11 @@ window.TEAM2_DATA = {
           "ret1d": 4.3,
           "ret5d": 11.65,
           "dollarVolM": 216.2,
-          "rs1": 0.21625380835013247,
+          "rs1": 0.2162537790207542,
           "rnk1": 6,
-          "rs3": 0.5626648739224575,
+          "rs3": 0.5626648429184844,
           "rnk3": 1.13,
-          "rs6": 0.97282493167416,
+          "rs6": 0.9728249013375007,
           "rnk6": 1.67,
           "adr": 4.33,
           "high52": 94.84,
@@ -70166,11 +70134,11 @@ window.TEAM2_DATA = {
           "ret1d": 4.72,
           "ret5d": -0.23,
           "dollarVolM": 31.6,
-          "rs1": 0.18294222597634777,
+          "rs1": 0.18294222224024045,
           "rnk1": 10.5,
-          "rs3": 0.5408805062322402,
+          "rs3": 0.5408805109450234,
           "rnk3": 1.22,
-          "rs6": 0.6329810691598874,
+          "rs6": 0.6329810760865754,
           "rnk6": 4.91,
           "adr": 4.64,
           "high52": 97.35,
@@ -70206,16 +70174,16 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 1.02,
           "ret5d": 14.23,
-          "dollarVolM": 170.1,
-          "rs1": 0.317120911374773,
+          "dollarVolM": 170.2,
+          "rs1": 0.31712082884986137,
           "rnk1": 1.13,
-          "rs3": 0.5390627623658786,
+          "rs3": 0.5390626647787204,
           "rnk3": 1.31,
-          "rs6": 0.7108728404665191,
+          "rs6": 0.710872734819307,
           "rnk6": 3.92,
           "adr": 3.7,
-          "high52": 99.88,
-          "maxRise3m": 62.02,
+          "high52": 99.87,
+          "maxRise3m": 62.05,
           "ext10Adr": 2.6,
           "above50": "O",
           "squeeze": 3.56,
@@ -70244,16 +70212,16 @@ window.TEAM2_DATA = {
           "ret1d": 5,
           "ret5d": 10.54,
           "dollarVolM": 385.5,
-          "rs1": 0.1487933221554359,
+          "rs1": 0.14879328134880423,
           "rnk1": 18.8,
-          "rs3": 0.5308748721143717,
+          "rs3": 0.5308748249246229,
           "rnk3": 1.4,
-          "rs6": 0.7220829090450415,
+          "rs6": 0.7220828597207711,
           "rnk6": 3.83,
-          "adr": 5.35,
+          "adr": 5.36,
           "high52": 84.97,
           "maxRise3m": 86.92,
-          "ext10Adr": 1,
+          "ext10Adr": 0.9,
           "above50": "O",
           "squeeze": 1.44,
           "volx": 2.98,
@@ -70268,11 +70236,11 @@ window.TEAM2_DATA = {
           "ret1d": -3.51,
           "ret5d": 1.67,
           "dollarVolM": 223.4,
-          "rs1": 0.20204522216376372,
-          "rnk1": 7.98,
-          "rs3": 0.5225827817880445,
+          "rs1": 0.20204524334083088,
+          "rnk1": 8.07,
+          "rs3": 0.5225828190865042,
           "rnk3": 1.49,
-          "rs6": 0.9240684797657193,
+          "rs6": 0.9240685361519098,
           "rnk6": 2.12,
           "adr": 3.48,
           "high52": 95.12,
@@ -70308,12 +70276,12 @@ window.TEAM2_DATA = {
           "industry": "Information Technology Services",
           "ret1d": -3.62,
           "ret5d": 8.57,
-          "dollarVolM": 1706.9,
-          "rs1": 0.4812109175194626,
+          "dollarVolM": 1707.1,
+          "rs1": 0.48121085677855524,
           "rnk1": 0.23,
-          "rs3": 0.5078350947258979,
+          "rs3": 0.5078350288295179,
           "rnk3": 1.58,
-          "rs6": 0.3632670319380547,
+          "rs6": 0.36326708997958934,
           "rnk6": 9.78,
           "adr": 4.24,
           "high52": 88.13,
@@ -70350,11 +70318,11 @@ window.TEAM2_DATA = {
           "ret1d": 3.28,
           "ret5d": 5.4,
           "dollarVolM": 259.9,
-          "rs1": -0.18083725616708843,
+          "rs1": -0.18083729897471734,
           "rnk1": 94.63,
-          "rs3": 0.5004503143745257,
+          "rs3": 0.50045025857196,
           "rnk3": 1.67,
-          "rs6": 1.441037006360012,
+          "rs6": 1.4410369374125107,
           "rnk6": 0.5,
           "adr": 9.97,
           "high52": 63.68,
@@ -70390,12 +70358,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 4.08,
           "ret5d": 19.69,
-          "dollarVolM": 266,
-          "rs1": 0.31060357176205283,
+          "dollarVolM": 266.1,
+          "rs1": 0.3106035212709583,
           "rnk1": 1.31,
-          "rs3": 0.4976028661957243,
+          "rs3": 0.49760280890670233,
           "rnk3": 1.76,
-          "rs6": 1.2938701972079578,
+          "rs6": 1.2938701278517555,
           "rnk6": 0.77,
           "adr": 5.19,
           "high52": 98.94,
@@ -70431,12 +70399,12 @@ window.TEAM2_DATA = {
           "industry": "Health Information Services",
           "ret1d": 5.96,
           "ret5d": 4.47,
-          "dollarVolM": 316.1,
-          "rs1": -0.1507613534027614,
+          "dollarVolM": 316.4,
+          "rs1": -0.15076141132448967,
           "rnk1": 93.1,
-          "rs3": 0.49506618020458165,
+          "rs3": 0.49506609621799774,
           "rnk3": 1.85,
-          "rs6": 0.1624353507928947,
+          "rs6": 0.1624352761553971,
           "rnk6": 23.31,
           "adr": 8.43,
           "high52": 72.41,
@@ -70444,7 +70412,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 0.1,
           "above50": "X",
           "squeeze": 1.54,
-          "volx": 0.68,
+          "volx": 0.69,
           "fs": {
             "sale": [
               36.12,
@@ -70468,12 +70436,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 5.82,
           "ret5d": 13.77,
-          "dollarVolM": 649.9,
-          "rs1": 0.14536222763272105,
+          "dollarVolM": 650.5,
+          "rs1": 0.1453622104749648,
           "rnk1": 19.97,
-          "rs3": 0.4856576608197309,
+          "rs3": 0.4856576467990115,
           "rnk3": 1.94,
-          "rs6": 1.7092000863838432,
+          "rs6": 1.709200089533256,
           "rnk6": 0.32,
           "adr": 5.49,
           "high52": 90.66,
@@ -70597,12 +70565,12 @@ window.TEAM2_DATA = {
           "industry": "Biotechnology",
           "ret1d": -1.25,
           "ret5d": -8.22,
-          "dollarVolM": 4295.4,
-          "rs1": 0.059995979786645746,
+          "dollarVolM": 4307.1,
+          "rs1": 0.059995977683521856,
           "rnk1": 50.63,
-          "rs3": 2.423188931373705,
+          "rs3": 2.4231890009982955,
           "rnk3": 0.05,
-          "rs6": 3.181358190716483,
+          "rs6": 3.1813582833942124,
           "rnk6": 0.05,
           "adr": 10.46,
           "high52": 78.63,
@@ -70639,11 +70607,11 @@ window.TEAM2_DATA = {
           "ret1d": -0.64,
           "ret5d": 5.39,
           "dollarVolM": 17,
-          "rs1": 0.165096586708083,
+          "rs1": 0.16509654257491266,
           "rnk1": 13.48,
-          "rs3": -0.10434122909486643,
-          "rnk3": 68.85,
-          "rs6": 2.280906657931624,
+          "rs3": -0.10434127431147179,
+          "rnk3": 68.76,
+          "rs6": 2.280906587587027,
           "rnk6": 0.14,
           "adr": 5.3,
           "high52": 67.43,
@@ -70651,7 +70619,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 0.3,
           "above50": "O",
           "squeeze": 1.38,
-          "volx": 1,
+          "volx": 1.01,
           "fs": {
             "sale": [
               7.15,
@@ -70680,11 +70648,11 @@ window.TEAM2_DATA = {
           "ret1d": 2.58,
           "ret5d": 2.42,
           "dollarVolM": 159.4,
-          "rs1": -0.11134659938052319,
+          "rs1": -0.11134659656746351,
           "rnk1": 90.31,
-          "rs3": 0.41592513714673174,
+          "rs3": 0.4159251631319215,
           "rnk3": 2.84,
-          "rs6": 2.2557640906077685,
+          "rs6": 2.2557641952059035,
           "rnk6": 0.23,
           "adr": 9.25,
           "high52": 69.59,
@@ -70703,12 +70671,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 5.82,
           "ret5d": 13.77,
-          "dollarVolM": 649.9,
-          "rs1": 0.14536222763272105,
+          "dollarVolM": 650.5,
+          "rs1": 0.1453622104749648,
           "rnk1": 19.97,
-          "rs3": 0.4856576608197309,
+          "rs3": 0.4856576467990115,
           "rnk3": 1.94,
-          "rs6": 1.7092000863838432,
+          "rs6": 1.709200089533256,
           "rnk6": 0.32,
           "adr": 5.49,
           "high52": 90.66,
@@ -70744,12 +70712,12 @@ window.TEAM2_DATA = {
           "industry": "Electronics & Computer Distribution",
           "ret1d": 3.21,
           "ret5d": 10.16,
-          "dollarVolM": 67.9,
-          "rs1": 0.16541294028047726,
+          "dollarVolM": 68.8,
+          "rs1": 0.16541293435366974,
           "rnk1": 13.39,
-          "rs3": 0.3519252695808479,
+          "rs3": 0.35192526726574447,
           "rnk3": 4.1,
-          "rs6": 1.4590014290721258,
+          "rs6": 1.4590014533309446,
           "rnk6": 0.41,
           "adr": 3.49,
           "high52": 99.18,
@@ -70757,7 +70725,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 1.6,
           "above50": "O",
           "squeeze": 2.14,
-          "volx": 1.26,
+          "volx": 1.28,
           "fs": {
             "sale": [
               14.73,
@@ -70786,11 +70754,11 @@ window.TEAM2_DATA = {
           "ret1d": 3.28,
           "ret5d": 5.4,
           "dollarVolM": 259.9,
-          "rs1": -0.18083725616708843,
+          "rs1": -0.18083729897471734,
           "rnk1": 94.63,
-          "rs3": 0.5004503143745257,
+          "rs3": 0.50045025857196,
           "rnk3": 1.67,
-          "rs6": 1.441037006360012,
+          "rs6": 1.4410369374125107,
           "rnk6": 0.5,
           "adr": 9.97,
           "high52": 63.68,
@@ -70826,12 +70794,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 1.99,
           "ret5d": 9.52,
-          "dollarVolM": 459.6,
-          "rs1": 0.2662297853863296,
+          "dollarVolM": 459.7,
+          "rs1": 0.26622975584481423,
           "rnk1": 2.93,
-          "rs3": 1.2881341223525655,
+          "rs3": 1.2881340928192349,
           "rnk3": 0.14,
-          "rs6": 1.3941300243281007,
+          "rs6": 1.3941299945190906,
           "rnk6": 0.59,
           "adr": 4.46,
           "high52": 98.98,
@@ -70868,11 +70836,11 @@ window.TEAM2_DATA = {
           "ret1d": 4.32,
           "ret5d": 12.51,
           "dollarVolM": 76.2,
-          "rs1": 0.09846722101437622,
+          "rs1": 0.09846721227223423,
           "rnk1": 34.76,
-          "rs3": 0.831651083624952,
+          "rs3": 0.8316510907690787,
           "rnk3": 0.32,
-          "rs6": 1.3323370792799392,
+          "rs6": 1.332337097747844,
           "rnk6": 0.68,
           "adr": 8.48,
           "high52": 79.62,
@@ -70908,12 +70876,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 4.08,
           "ret5d": 19.69,
-          "dollarVolM": 266,
-          "rs1": 0.31060357176205283,
+          "dollarVolM": 266.1,
+          "rs1": 0.3106035212709583,
           "rnk1": 1.31,
-          "rs3": 0.4976028661957243,
+          "rs3": 0.49760280890670233,
           "rnk3": 1.76,
-          "rs6": 1.2938701972079578,
+          "rs6": 1.2938701278517555,
           "rnk6": 0.77,
           "adr": 5.19,
           "high52": 98.94,
@@ -70950,11 +70918,11 @@ window.TEAM2_DATA = {
           "ret1d": 1.45,
           "ret5d": 12.46,
           "dollarVolM": 174.2,
-          "rs1": 0.22075503242426756,
+          "rs1": 0.22075496450631457,
           "rnk1": 5.37,
-          "rs3": 0.453179308373237,
+          "rs3": 0.4531792279258829,
           "rnk3": 2.39,
-          "rs6": 1.2319532436210812,
+          "rs6": 1.231953138597432,
           "rnk6": 0.86,
           "adr": 4.18,
           "high52": 98.27,
@@ -70990,12 +70958,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 3.65,
           "ret5d": 6.06,
-          "dollarVolM": 1019.3,
-          "rs1": 0.022576296501338702,
-          "rnk1": 65.6,
-          "rs3": 0.06010425051357777,
+          "dollarVolM": 1020.1,
+          "rs1": 0.022576241906613358,
+          "rnk1": 65.69,
+          "rs3": 0.060104190190117354,
           "rnk3": 22.41,
-          "rs6": 1.2075536655620764,
+          "rs6": 1.207553578412857,
           "rnk6": 0.95,
           "adr": 4.78,
           "high52": 84.62,
@@ -71031,20 +70999,20 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 6.62,
           "ret5d": 14.53,
-          "dollarVolM": 517.9,
-          "rs1": 0.22903277410239062,
+          "dollarVolM": 518.4,
+          "rs1": 0.2290327914528125,
           "rnk1": 4.73,
-          "rs3": 0.7669706629684727,
+          "rs3": 0.7669707039562847,
           "rnk3": 0.41,
-          "rs6": 1.173251439785287,
+          "rs6": 1.1732514982487965,
           "rnk6": 1.04,
           "adr": 5.19,
-          "high52": 98.41,
-          "maxRise3m": 86.54,
+          "high52": 98.39,
+          "maxRise3m": 86.57,
           "ext10Adr": 1.7,
           "above50": "O",
           "squeeze": 1,
-          "volx": 1.52,
+          "volx": 1.53,
           "fs": {
             "sale": [
               37.89,
@@ -71072,12 +71040,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 8.25,
           "ret5d": 13.27,
-          "dollarVolM": 3436.7,
-          "rs1": 0.0754378033543001,
+          "dollarVolM": 3443.1,
+          "rs1": 0.07543779961111174,
           "rnk1": 44.5,
-          "rs3": 0.3590401837072835,
+          "rs3": 0.3590401874968399,
           "rnk3": 3.83,
-          "rs6": 1.146549689240061,
+          "rs6": 1.1465497153141393,
           "rnk6": 1.13,
           "adr": 4.7,
           "high52": 89.75,
@@ -71085,7 +71053,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 1.2,
           "above50": "O",
           "squeeze": 1.56,
-          "volx": 1.57,
+          "volx": 1.58,
           "fs": {
             "sale": [
               25.83,
@@ -71113,12 +71081,12 @@ window.TEAM2_DATA = {
           "industry": "Computer Hardware",
           "ret1d": 0.77,
           "ret5d": 1.19,
-          "dollarVolM": 1974.2,
-          "rs1": -0.1341284708350967,
+          "dollarVolM": 1975.3,
+          "rs1": -0.1341284992843805,
           "rnk1": 92.02,
-          "rs3": 0.09752682122289424,
+          "rs3": 0.09752679150845085,
           "rnk3": 17.36,
-          "rs6": 1.1141514453833823,
+          "rs6": 1.1141515770323398,
           "rnk6": 1.22,
           "adr": 4.76,
           "high52": 76.75,
@@ -71155,11 +71123,11 @@ window.TEAM2_DATA = {
           "ret1d": 2.02,
           "ret5d": 0.19,
           "dollarVolM": 92.1,
-          "rs1": 0.1793127116159501,
+          "rs1": 0.17931269911047626,
           "rnk1": 11.14,
-          "rs3": 0.365617691818454,
+          "rs3": 0.36561768125012056,
           "rnk3": 3.74,
-          "rs6": 1.0931773556189963,
+          "rs6": 1.093177357874218,
           "rnk6": 1.31,
           "adr": 2.91,
           "high52": 95.75,
@@ -71195,12 +71163,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 0.73,
           "ret5d": 9.12,
-          "dollarVolM": 140,
-          "rs1": 0.29939368349382883,
+          "dollarVolM": 143.9,
+          "rs1": 0.29939363409004816,
           "rnk1": 1.49,
-          "rs3": 0.671248374250096,
+          "rs3": 0.6712483157863364,
           "rnk3": 0.68,
-          "rs6": 1.0366040063879722,
+          "rs6": 1.036603942211209,
           "rnk6": 1.4,
           "adr": 2.97,
           "high52": 99.77,
@@ -71208,7 +71176,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 2.7,
           "above50": "O",
           "squeeze": 5.17,
-          "volx": 1,
+          "volx": 1.03,
           "fs": {
             "sale": [
               9.84,
@@ -71237,11 +71205,11 @@ window.TEAM2_DATA = {
           "ret1d": 2.16,
           "ret5d": 2.19,
           "dollarVolM": 46.2,
-          "rs1": 1.7626716716925173,
+          "rs1": 1.7626715539978794,
           "rnk1": 0.05,
-          "rs3": 1.030305981727447,
+          "rs3": 1.030305881348197,
           "rnk3": 0.23,
-          "rs6": 1.024506279427526,
+          "rs6": 1.0245061780743896,
           "rnk6": 1.49,
           "adr": 10.93,
           "high52": 84.26,
@@ -71260,12 +71228,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 7.22,
           "ret5d": 11.27,
-          "dollarVolM": 2497,
-          "rs1": 0.06936576141004422,
+          "dollarVolM": 2505,
+          "rs1": 0.06936569604281274,
           "rnk1": 46.93,
-          "rs3": 0.13690191593374845,
+          "rs3": 0.1369018426982841,
           "rnk3": 12.4,
-          "rs6": 1.0128452544497957,
+          "rs6": 1.0128451519478747,
           "rnk6": 1.58,
           "adr": 4.43,
           "high52": 88.02,
@@ -71273,7 +71241,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 0.9,
           "above50": "O",
           "squeeze": 1.69,
-          "volx": 1.22,
+          "volx": 1.23,
           "fs": {
             "sale": [
               34.44,
@@ -71302,11 +71270,11 @@ window.TEAM2_DATA = {
           "ret1d": 4.3,
           "ret5d": 11.65,
           "dollarVolM": 216.2,
-          "rs1": 0.21625380835013247,
+          "rs1": 0.2162537790207542,
           "rnk1": 6,
-          "rs3": 0.5626648739224575,
+          "rs3": 0.5626648429184844,
           "rnk3": 1.13,
-          "rs6": 0.97282493167416,
+          "rs6": 0.9728249013375007,
           "rnk6": 1.67,
           "adr": 4.33,
           "high52": 94.84,
@@ -71342,12 +71310,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 4.05,
           "ret5d": 6.42,
-          "dollarVolM": 579.8,
-          "rs1": 0.09150717865411495,
+          "dollarVolM": 580,
+          "rs1": 0.09150717752974051,
           "rnk1": 36.74,
-          "rs3": 0.13529558988837762,
+          "rs3": 0.13529558974667172,
           "rnk3": 12.58,
-          "rs6": 0.9678348595110275,
+          "rs6": 0.9678348847053245,
           "rnk6": 1.76,
           "adr": 3.49,
           "high52": 91.31,
@@ -71384,11 +71352,11 @@ window.TEAM2_DATA = {
           "ret1d": 3.47,
           "ret5d": 9.19,
           "dollarVolM": 10,
-          "rs1": 0.08250578783578394,
+          "rs1": 0.08250579389437006,
           "rnk1": 41.25,
-          "rs3": 0.15040138300771627,
+          "rs3": 0.15040139189637441,
           "rnk3": 11.23,
-          "rs6": 0.9608643584604446,
+          "rs6": 0.9608643980141583,
           "rnk6": 1.85,
           "adr": 3.44,
           "high52": 98.78,
@@ -71424,12 +71392,12 @@ window.TEAM2_DATA = {
           "industry": "Diagnostics & Research",
           "ret1d": 1.68,
           "ret5d": 15.07,
-          "dollarVolM": 279.2,
-          "rs1": 0.23324289893638228,
+          "dollarVolM": 284,
+          "rs1": 0.23324284946982557,
           "rnk1": 4.55,
-          "rs3": 0.4404635537189061,
+          "rs3": 0.4404634971535369,
           "rnk3": 2.48,
-          "rs6": 0.9551503672126924,
+          "rs6": 0.9551503025163085,
           "rnk6": 1.94,
           "adr": 4.36,
           "high52": 98.34,
@@ -71437,7 +71405,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 2.2,
           "above50": "O",
           "squeeze": 2.44,
-          "volx": 0.82,
+          "volx": 0.83,
           "fs": {
             "sale": [
               -2.72,
@@ -71553,12 +71521,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Infrastructure",
           "ret1d": 4.08,
           "ret5d": 19.69,
-          "dollarVolM": 266,
-          "rs1": 0.31060357176205283,
+          "dollarVolM": 266.1,
+          "rs1": 0.3106035212709583,
           "rnk1": 1.31,
-          "rs3": 0.4976028661957243,
+          "rs3": 0.49760280890670233,
           "rnk3": 1.76,
-          "rs6": 1.2938701972079578,
+          "rs6": 1.2938701278517555,
           "rnk6": 0.77,
           "adr": 5.19,
           "high52": 98.94,
@@ -71594,12 +71562,12 @@ window.TEAM2_DATA = {
           "industry": "Software - Application",
           "ret1d": 0.73,
           "ret5d": 9.12,
-          "dollarVolM": 140,
-          "rs1": 0.29939368349382883,
+          "dollarVolM": 143.9,
+          "rs1": 0.29939363409004816,
           "rnk1": 1.49,
-          "rs3": 0.671248374250096,
+          "rs3": 0.6712483157863364,
           "rnk3": 0.68,
-          "rs6": 1.0366040063879722,
+          "rs6": 1.036603942211209,
           "rnk6": 1.4,
           "adr": 2.97,
           "high52": 99.77,
@@ -71607,7 +71575,7 @@ window.TEAM2_DATA = {
           "ext10Adr": 2.7,
           "above50": "O",
           "squeeze": 5.17,
-          "volx": 1,
+          "volx": 1.03,
           "fs": {
             "sale": [
               9.84,
@@ -71636,11 +71604,11 @@ window.TEAM2_DATA = {
           "ret1d": 2.16,
           "ret5d": 2.19,
           "dollarVolM": 46.2,
-          "rs1": 1.7626716716925173,
+          "rs1": 1.7626715539978794,
           "rnk1": 0.05,
-          "rs3": 1.030305981727447,
+          "rs3": 1.030305881348197,
           "rnk3": 0.23,
-          "rs6": 1.024506279427526,
+          "rs6": 1.0245061780743896,
           "rnk6": 1.49,
           "adr": 10.93,
           "high52": 84.26,
@@ -72736,314 +72704,6 @@ window.TEAM2_DATA = {
         }
       ],
       "asOf": "2026-10-23"
-    },
-    "llmCarried": {
-      "lists": [
-        {
-          "key": "dollar",
-          "commonIndustries": [
-            {
-              "industry": "Software - Infrastructure",
-              "tickers": [
-                "CRWD",
-                "PANW",
-                "NET",
-                "ZS",
-                "OKTA",
-                "RBRK"
-              ],
-              "why": "6종목 모두 사이버보안 업체로, AI 확산이 보안 수요를 키운다는 기대가 업종 전체를 끌어올렸다. 스테파니 링크의 지스케일러 매수 소식도 나왔다."
-            },
-            {
-              "industry": "Banks - Regional",
-              "tickers": [
-                "FCNCA",
-                "CUBI"
-              ],
-              "why": "두 은행 모두 3분기 실적을 막 내놓았다. 퍼스트 시티즌스는 자사주 매입 계획도 함께 발표했다."
-            },
-            {
-              "industry": "Software - Application",
-              "tickers": [
-                "RNG",
-                "FROG"
-              ],
-              "why": "링센트럴은 3분기 실적 발표 직후 올랐다. 제이프로그는 같은 이유를 확인하지 못했다. 이유 확인 안 됨."
-            },
-            {
-              "industry": "Oil & Gas Equipment & Services",
-              "tickers": [
-                "WFRD",
-                "VAL"
-              ],
-              "why": "웨더포드는 3분기 실적이 예상을 웃돌았고, 발라리스는 트랜스오션과의 합병 절차가 진행 중이다. 두 종목이 같은 이유로 올랐다는 근거는 없다."
-            },
-            {
-              "industry": "Oil & Gas E&P",
-              "tickers": [
-                "CHRD",
-                "VIST"
-              ],
-              "why": "이유 확인 안 됨"
-            }
-          ],
-          "themes": [],
-          "unexplained": [
-            "TTMI",
-            "AMBA",
-            "CHRD",
-            "VIST",
-            "FROG"
-          ],
-          "narrative": "거래대금 상위 20종목 중 6종목이 사이버보안 소프트웨어에 몰렸다. AI 확대가 보안 수요를 키운다는 기대가 배경이다. 다음으로 은행·보험이 3분기 실적과 자사주 매입을 내놓고 올랐고, 에너지 4종목도 있으나 공통 이유는 확인되지 않았다. 보안주의 AI 수요 기대가 실제 계약과 실적으로 이어지는지 확인해야 이 흐름이 맞는지 가려진다.",
-          "label": "거래대금 상위",
-          "factcheck": {
-            "verdict": "partial",
-            "removed": 2
-          }
-        },
-        {
-          "key": "m1",
-          "commonIndustries": [
-            {
-              "industry": "Software - Application",
-              "tickers": [
-                "TTAN",
-                "PTC",
-                "GWRE",
-                "MNDY",
-                "HUBS",
-                "DOCU",
-                "INTU",
-                "PAYC",
-                "PCTY"
-              ],
-              "why": "9종목이 한 달 새 함께 올랐다. TTAN·INTU는 AI 기능 강화, PTC는 인수 발표, PAYC는 연간 전망 상향이 확인된다. 나머지는 기술적 신호 기사만 있어 이유 확인 안 됨."
-            },
-            {
-              "industry": "Information Technology Services",
-              "tickers": [
-                "ACN",
-                "EPAM"
-              ],
-              "why": "ACN은 실적 호조와 AI 재편·인수 확대 기대가 겹쳤다. EPAM은 이익 개선과 목표가 상회가 확인된다."
-            },
-            {
-              "industry": "Software - Infrastructure",
-              "tickers": [
-                "ZS",
-                "QLYS"
-              ],
-              "why": "두 종목 모두 사이버보안 소프트웨어다. AI 시대 보안 수요 기대와 안정적 구독 이익이 함께 거론된다."
-            }
-          ],
-          "themes": [],
-          "unexplained": [
-            "GWRE",
-            "MNDY",
-            "DOCU",
-            "PCTY",
-            "ETSY",
-            "CBOE",
-            "CCI",
-            "HURN",
-            "SAM",
-            "EPAM"
-          ],
-          "narrative": "22종목 중 9종목이 응용 소프트웨어에 몰렸고, IT서비스와 보안 소프트웨어가 각각 2종목이다. AI 제품 출시나 AI 중심 재편이 확인된 종목이 많아 소프트웨어 반등 흐름으로 읽히지만, 이유가 확인된 곳은 일부뿐이다. PTC 인수, HAS 실적, KOD 임상, CCI 실적 같은 개별 재료도 섞여 있다. 소프트웨어 종목들이 실적 발표에서 AI 수익화를 확인해 주는지가 이 흐름의 맞고 틀림을 가를 것이다.",
-          "label": "RS(1MO)",
-          "factcheck": {
-            "verdict": "partial",
-            "removed": 2
-          }
-        },
-        {
-          "key": "m3",
-          "commonIndustries": [
-            {
-              "industry": "Software - Application",
-              "tickers": [
-                "TEAM",
-                "PAYC",
-                "ESTC",
-                "DOCU",
-                "RNG"
-              ],
-              "why": "AI에 밀려 업무용 소프트웨어가 사라질 것이라는 우려가 줄고, 실적과 연간 전망 상향이 확인되며 같이 올랐다. RNG는 3분기 실적 발표 당일 주가가 올랐다."
-            },
-            {
-              "industry": "Software - Infrastructure",
-              "tickers": [
-                "RBRK",
-                "ZS",
-                "PLTR",
-                "QLYS",
-                "OKTA"
-              ],
-              "why": "RBRK·ZS·QLYS·OKTA는 사이버보안 소프트웨어로, 실적 호조와 AI 안전 우려에 따른 보안 수요 기대가 겹쳤다. PLTR은 AI 기대로 신고가 부근에서 별도로 움직였다."
-            },
-            {
-              "industry": "Biotechnology",
-              "tickers": [
-                "MRNA",
-                "KOD"
-              ],
-              "why": "둘 다 임상 결과가 주가를 끌어올렸지만 내용은 다르다. MRNA는 암 백신 데이터, KOD는 황반변성 치료제 3상 결과다."
-            },
-            {
-              "industry": "Diagnostics & Research",
-              "tickers": [
-                "GRAL",
-                "TWST"
-              ],
-              "why": "이유 확인 안 됨. GRAL은 FDA 결정 기대, TWST는 매출 전망 상향으로 각자 다른 재료다."
-            },
-            {
-              "industry": "Health Information Services",
-              "tickers": [
-                "VEEV",
-                "TEM"
-              ],
-              "why": "둘 다 제약·의료 데이터를 다루지만 상승 이유는 따로다. VEEV는 실적과 신제품, TEM은 흑자 전환과 FDA 허가가 재료다."
-            }
-          ],
-          "themes": [
-            {
-              "name": "임상·FDA 결과 기대 바이오",
-              "plainKo": "임상 데이터와 FDA 결정 같은 개별 이벤트가 바이오·진단주를 끌어올렸다. 재료는 종목마다 다르다.",
-              "why": "MRNA는 머크와 만든 암 백신 데이터가 나왔다. KOD는 황반변성 치료제 3상에서 기존 치료제와 동등한 효과를 보였다. GRAL은 갤러리 검사의 FDA 결정이 다가오고 있다.",
-              "tickers": [
-                "MRNA",
-                "KOD",
-                "GRAL"
-              ],
-              "sources": [
-                {
-                  "title": "Doctors call Moderna, Merck's cancer vaccine data a major advancement",
-                  "publisher": "CNBC",
-                  "url": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html",
-                  "date": "2026-10-23",
-                  "quote": "Doctors call Moderna, Merck's cancer vaccine data a major advancement",
-                  "verified": "ok",
-                  "httpStatus": 200
-                },
-                {
-                  "title": "Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study",
-                  "publisher": "MarketBeat",
-                  "url": "https://www.nasdaq.com/articles/kodiak-sciences-two-wet-amd-treatments-match-aflibercept-phase-iii-study",
-                  "date": "2026-10-02",
-                  "quote": "Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study",
-                  "verified": "ok",
-                  "httpStatus": 200
-                },
-                {
-                  "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
-                  "publisher": "CNBC",
-                  "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html",
-                  "date": "2026-10-06",
-                  "quote": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "unexplained": [
-            "VEON"
-          ],
-          "narrative": "3개월 강세 22종목 중 10종목이 소프트웨어(응용·인프라)에 몰렸다. AI가 소프트웨어를 대체한다는 우려가 줄고 실적이 받쳐 주며 구독형 업체와 보안 업체가 함께 올랐다. 나머지는 MRNA·KOD·GRAL처럼 임상·FDA 이벤트 바이오와 유조선, 의류, 컨설팅 등 개별 재료다. 다음 실적에서 소프트웨어 매출 성장이 이어지는지, 바이오 이벤트가 승인으로 이어지는지가 흐름을 가른다.",
-          "label": "RS(3MO)",
-          "factcheck": {
-            "verdict": "partial",
-            "removed": 2
-          }
-        },
-        {
-          "key": "m6",
-          "commonIndustries": [
-            {
-              "industry": "Software - Infrastructure",
-              "tickers": [
-                "OKTA",
-                "QLYS",
-                "RBRK",
-                "CRWD",
-                "PANW",
-                "FTNT"
-              ],
-              "why": "6종목 중 5종목이 보안 소프트웨어입니다. AI 확산에 따른 보안 수요가 부각되며 사이버보안주가 따로 강세를 보였습니다."
-            },
-            {
-              "industry": "Software - Application",
-              "tickers": [
-                "TEAM",
-                "SNOW",
-                "PAYC",
-                "ESTC",
-                "RDVT"
-              ],
-              "why": "이유 확인 안 됨"
-            },
-            {
-              "industry": "Diagnostics & Research",
-              "tickers": [
-                "TWST",
-                "GRAL",
-                "CRL"
-              ],
-              "why": "TWST는 실적 전망 상향, GRAL은 Galleri의 FDA 결정 기대가 배경입니다. CRL은 이유 확인 안 됨."
-            },
-            {
-              "industry": "Biotechnology",
-              "tickers": [
-                "MRNA",
-                "KOD"
-              ],
-              "why": "MRNA는 암 백신 임상 자료, KOD는 3상 결과가 각각 재료입니다. 두 종목의 공통 원인은 아닙니다."
-            },
-            {
-              "industry": "Medical Devices",
-              "tickers": [
-                "TXG",
-                "HAE"
-              ],
-              "why": "이유 확인 안 됨"
-            }
-          ],
-          "themes": [],
-          "unexplained": [
-            "AGL",
-            "TXG",
-            "OKTA",
-            "NSIT",
-            "TEAM",
-            "SNOW",
-            "HNGE",
-            "DELL",
-            "HAE",
-            "PAYC",
-            "ESTC",
-            "RDVT",
-            "CRL"
-          ],
-          "narrative": "이 목록은 보안 소프트웨어에 가장 많이 몰려 있습니다. 6종목 중 5종목이 AI 시대의 보안 수요라는 같은 이유로 오르는 것으로 확인됩니다. 응용 소프트웨어 5종목과 의료기기는 공통 이유를 확인하지 못했습니다. 진단·바이오는 종목별 재료(실적 전망 상향, FDA 결정 기대, 임상 결과)가 달라 하나로 묶기 어렵습니다. 다음 보안 업체 실적에서 수요 확대가 확인되면 흐름이 맞고, AI 투자 둔화 우려가 커지면 틀릴 수 있습니다.",
-          "label": "RS(6MO)",
-          "factcheck": {
-            "verdict": "partial",
-            "removed": 1
-          }
-        },
-        {
-          "key": "all",
-          "commonIndustries": [],
-          "themes": [],
-          "unexplained": [],
-          "narrative": "3종목이 1·3·6개월 모두 상위권에 들었지만 업종이 모두 달라 겹치는 곳은 없습니다. QLYS는 9월 중순 AI 관련주가 밀릴 때 사이버보안주로 자금이 옮겨 가며 올랐고, 이익이 매출보다 빠르게 늘고 있습니다. PAYC는 연간 전망을 올린 것이 상승 이유로 확인됩니다. KOD는 습성 황반변성 치료제 3상에서 기존 표준 치료제와 효과가 같다고 나온 뒤 급등했고, 4분기 신약 허가 신청이 예정돼 있습니다. 세 종목이 같은 이유로 오른다는 근거는 없으므로 묶지 않았습니다. 각자 이유가 이어지는지는 QLYS의 보안 수요, PAYC의 실적 발표, KOD의 허가 신청 진행으로 확인할 수 있습니다.",
-          "label": "RS(1~6MO)"
-        }
-      ],
-      "researchedOn": "2026-10-24",
-      "sanitized": null
     }
   },
   "fs_coverage": {

@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "sessionDate": "2026-10-23",
   "rulesVersion": "0.3",
   "regime": "red",
