@@ -25,7 +25,7 @@ const master = require('./data/kis-master');
 
 const STATE = path.join(paths.cacheDir, 'tg-listener.json');     // { offset, day, count }
 const MAX_AGE_SEC = 6 * 3600;                                     // 이보다 오래된 요청은 버린다(맥이 꺼져 있던 동안 쌓인 것)
-const USAGE = '사용법: 티커와 함께 "심층분석"을 보내 주세요.\n예) SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)\n    보유 (보유 종목 새 뉴스·공시·증권사 리포트 확인)';
+const USAGE = '사용법: 티커와 함께 "살까?" 또는 "심층분석"을 보내 주세요.\n예) SNOW 살까?  (실장이 팀 의견을 모아 결론을 드립니다)\n    SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)\n    보유 (보유 종목 새 뉴스·공시·증권사 리포트 확인)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ── 명령 해석 (순수 함수 — 테스트 대상) ──
@@ -35,6 +35,13 @@ function parseCommand(text) {
   if (!s) return { kind: 'none' };
   if (/^(목록|list)$/i.test(s)) return { kind: 'list' };
   if (/^(보유|보유\s*종목|holdings?)$/i.test(s)) return { kind: 'holdings' };
+  // "SNOW 살까?" — 같은 분석을 실장 종합 형식으로 답한다 (2026-10-26)
+  const b = s.match(/^(.+?)\s*(살까요?|사도\s*될까요?|매수\s*할까요?)\s*\??$/);
+  if (b) {
+    const tk = b[1].split(/[,\s]+/).map((x) => x.trim()).filter(Boolean);
+    if (!tk.length || tk.length > 3 || !tk.every((t) => TICKER_RE.test(t))) return { kind: 'usage' };
+    return { kind: 'analyze', tickers: [...new Set(tk.map((t) => t.toUpperCase()))], force: false, ask: 'buy' };
+  }
   const m = s.match(/^(.+?)\s*(심층\s*분석|분석|다시|deep)$/i);
   if (!m) return { kind: 'usage' };
   const tickers = m[1].split(/[,\s]+/).map((x) => x.trim()).filter(Boolean);
@@ -57,10 +64,11 @@ function savedResult(ticker, date) {
   return (loadOndemand().items || []).find((x) => x.ticker === ticker && x.requestedOn === date) || null;
 }
 
-function runOne(ticker) {
+function runOne(ticker, ask = null) {
   return new Promise((resolve) => {
     const sh = path.join(paths.root, 'deploy', 'macmini', 'run-ondemand.sh');
-    execFile('/bin/bash', [sh, ticker], { cwd: paths.root, timeout: 30 * 60 * 1000, maxBuffer: 1e7 }, (err, stdout) => {
+    // ask 는 결과 메시지 형식만 바꾼다(finish-ondemand 가 ONDEMAND_ASK 를 읽는다) — "살까?" = 실장 종합 형식
+    execFile('/bin/bash', [sh, ticker], { cwd: paths.root, timeout: 30 * 60 * 1000, maxBuffer: 1e7, env: { ...process.env, ONDEMAND_ASK: ask || '' } }, (err, stdout) => {
       resolve({ ok: !err, tail: String(stdout || '').trim().split('\n').slice(-2).join(' ').slice(-300), code: err && err.code });
     });
   });
@@ -81,7 +89,7 @@ async function drain() {
       if (st.count >= max) { await notify(`⛔ ${job.ticker}: 오늘 분석 상한(${max}건)에 닿아 멈췄습니다. 상한은 사고 방지용입니다 — 더 필요하면 알려 주세요.`); continue; }
       st.count += 1; saveState(st);
       say('SYSTEM', `분석 시작: ${job.ticker}`);
-      const r = await runOne(job.ticker);
+      const r = await runOne(job.ticker, job.ask);
       // 결과·실패 알림은 run-ondemand.sh(→ finish-ondemand)가 보낸다. 여기서는 래퍼 자체가 죽었을 때만 알린다.
       if (!r.ok && r.code !== 1) await notify(`❌ ${job.ticker} 분석이 끝나지 못했습니다 (${r.tail || '원인 불명'})`);
       say('SYSTEM', `분석 끝: ${job.ticker} ${r.ok ? 'ok' : 'fail'}`);
@@ -113,13 +121,13 @@ async function handle(text) {
     const T = m.ok ? m.ticker : raw;                                   // 마스터를 못 받았으면 정규식을 통과한 글자 그대로 시도한다
     if (!c.force) {
       const prev = savedResult(T, today());
-      if (prev) { const { messages } = require('./finish-ondemand'); for (const x of messages(prev)) await notify(x); await notify(`(오늘 ${T} 를 이미 분석했습니다 — 저장된 결과입니다. 새로 하려면 "${T} 다시")`); continue; }
+      if (prev) { const { messages } = require('./finish-ondemand'); for (const x of messages(prev, { ask: c.ask })) await notify(x); await notify(`(오늘 ${T} 를 이미 분석했습니다 — 저장된 결과입니다. 새로 하려면 "${T} 다시")`); continue; }
     }
     if (queue.some((q) => q.ticker === T)) { await notify(`⏳ ${T}: 이미 대기 중입니다.`); continue; }
-    queue.push({ ticker: T });
+    queue.push({ ticker: T, ask: c.ask || null });
     const pos = queue.length + (working ? 1 : 0);
     await notify(busy() ? `⏳ ${T}${m.ok && m.nameKo ? ` (${m.nameKo})` : ''}: 아침 자동 실행이 돌고 있어 끝나면 바로 분석합니다.`
-      : `🔎 ${T}${m.ok && m.nameKo ? ` (${m.nameKo})` : ''} 분석을 시작합니다 — 5~10분 걸립니다${pos > 1 ? ` (앞에 ${pos - 1}건)` : ''}.`);
+      : `🔎 ${T}${m.ok && m.nameKo ? ` (${m.nameKo})` : ''} ${c.ask === 'buy' ? '실장이 팀 의견을 모아 검토합니다' : '분석을 시작합니다'} — 약 15분 걸립니다${pos > 1 ? ` (앞에 ${pos - 1}건)` : ''}.`);
   }
   drain();   // 기다리지 않는다 — 분석하는 동안에도 새 메시지를 받는다
 }

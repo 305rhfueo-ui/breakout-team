@@ -76,14 +76,32 @@ function loadOndemand() {
 }
 
 // 텔레그램 답장 — 4000자 제한이라 나눠 보낸다. 금액·수량 없음.
-function messages(rec) {
+// 텔레그램 "살까?" (2026-10-26) — 같은 분석을 실장 종합 형식으로. 판정 말만 바꾸고(매수 적정→지금 사도 됨) 판정 자체·안전장치는 그대로다.
+const BUY_KO = { '매수 적정': '🟢 지금 사도 됨', '조건부': '🟡 조건이 맞으면', '아니다': '🔴 지금은 아님', '판정 불가': '⚪ 판단 못 함' };
+function teamLines(rec, cut) {
+  const v = rec.teamView || {}, L = [];
+  const mk = rec.market && rec.market.verdict;
+  L.push(`· 시장(한별): ${{ green: '🟢 초록불', yellow: '🟡 노란불', red: '🔴 빨간불' }[mk] || '확인 불가'}${rec.market && rec.market.finraKo ? ` · ${cut(rec.market.finraKo, 60)}` : ''}`);
+  const s = v.seojun;
+  L.push(s ? `· 서준: ${s.grade}등급 · ${s.state === 'post' ? '이미 피벗 돌파(추격 구간)' : s.watch ? '오늘 밤 관심' : `막힘 — ${s.blocked || '사유 없음'}`}${s.fit && (s.fit.nimble || s.fit.laya) ? ` · 부합도 Nimble ${s.fit.nimble ? s.fit.nimble.fit : '—'} · Laya ${s.fit.laya ? s.fit.laya.fit : '—'} /4(검증 전)` : ''}` : '· 서준: 후보 아님(피벗 근처 셋업 없음)');
+  L.push(v.doyun ? `· 도윤: ${v.doyun.lists.length ? v.doyun.lists.join('·') : '선정 종목'}${v.doyun.lead ? ` — ${cut(v.doyun.lead, 120)}` : ''}` : '· 도윤: 목록에 없음');
+  L.push(v.jaemin ? `· 재민: ${v.jaemin.category}${v.jaemin.why ? ` — ${cut(v.jaemin.why, 120)}` : ''}` : '· 재민: 거래량 급증 종목 아님');
+  const r = rec.industryRank;
+  L.push(r ? `· 하린: 업종 순위 ${r.frank}위${r.headline ? ` — ${cut(r.headline, 100)}` : ''}` : '· 하린: 업종이 상위 10위 밖');
+  L.push(v.holding ? `· 보유: 이미 보유 중(${v.holding.side === 'short' ? '공매도' : '매수'}) — 추가 매수 기준으로 판단` : '· 보유: 없음');
+  return L;
+}
+function messages(rec, { ask = null } = {}) {
   const d = rec.deep, cnt = (arr, s) => (arr || []).filter((x) => x.status === s).length;
   const cut = (s, nn) => { const t = String(s || '').trim(); return t.length > nn ? t.slice(0, nn - 1) + '…' : t; };
-  const m1 = [`${ICON[rec.verdict] || '⚪'} ${rec.ticker}${rec.nameKo ? ` (${rec.nameKo})` : ''} — ${rec.verdict}`, cut(rec.verdictLine, 300), ''];
+  const buy = ask === 'buy';
+  const m1 = buy ? [`🧑‍💼 실장 — ${rec.ticker}${rec.nameKo ? ` (${rec.nameKo})` : ''} 살까?`, `결론: ${BUY_KO[rec.verdict] || rec.verdict}`, cut(rec.verdictLine, 300), '']
+    : [`${ICON[rec.verdict] || '⚪'} ${rec.ticker}${rec.nameKo ? ` (${rec.nameKo})` : ''} — ${rec.verdict}`, cut(rec.verdictLine, 300), ''];
   for (const b of rec.basis || []) m1.push(`${b.side === 'for' ? '＋' : '－'} ${cut(b.point, 220)}`);
   if ((rec.conditions || []).length) { m1.push('', '확인되면 바뀌는 조건'); for (const c of rec.conditions) m1.push(`· ${cut(c, 200)}`); }
   if (rec.invalidation) m1.push('', `틀렸다고 볼 조건: ${cut(rec.invalidation, 260)}`);
   for (const a of rec.verdictAdjusted || []) m1.push(`⚠️ 코드 조정: ${cut(a, 260)}`);
+  if (buy) m1.push('', '[팀 의견]', ...teamLines(rec, cut));
   m1.push('', `체크표(코드 계산) 쿨라매기 충족 ${cnt(rec.checks.qm, '충족')}/11 · CAN SLIM 충족 ${cnt(rec.checks.canslim, '충족')}/7 · N ${d.nVerdict || '—'}`,
     `기준 봉 ${rec.session} · 시장 판정 ${(rec.gates.asOf && rec.gates.asOf.market) || '?'} 기준${rec.setup && rec.setup.pivot ? ` · 넘으면 사는 선 ${rec.setup.pivot} · 예비 손절 ${rec.setup.stop ?? '—'}` : ''}`);
   const m2 = [`🔎 ${rec.ticker} 근거 요약`];
@@ -96,7 +114,7 @@ function messages(rec) {
   const removed = (d.factcheck && d.factcheck.removed || []).length;
   m2.push('', `전체 분석·출처: ${SITE}#tk=${encodeURIComponent(rec.ticker)}`,
     `검증: 출처 ${rec.verified ? rec.verified.checked : '?'}개 확인${removed ? ` · 팩트체크에서 ${removed}건 제거` : ''}${rec.numberCut ? ` · 숫자 대조로 ${rec.numberCut}문장 삭제` : ''}${rec.dataLimits ? ` · 자료 한계: ${cut(rec.dataLimits, 200)}` : ''}`,
-    'AI 판정 — 투자 판단 보조입니다. 최종 판단과 책임은 본인에게 있습니다.');
+    buy ? '실장 종합은 판단 보조입니다. 최종 결정과 책임은 사장님께 있습니다.' : 'AI 판정 — 투자 판단 보조입니다. 최종 판단과 책임은 본인에게 있습니다.');
   return [m1.join('\n').slice(0, 3900), m2.join('\n').slice(0, 3900)];
 }
 
@@ -150,7 +168,7 @@ async function finish(tickerIn, { date = today(), git = true, send = true, linkc
     verdict, verdictLine, basis, conditions: conditions || [], invalidation: invalidation || '', dataLimits: dataLimits || '',
     verdictAdjusted: verdictAdjusted || null, verdictOriginal: verdictOriginal || null, gates,
     setup: input.plan, checks: input.checks, kis: input.kis || null, estimates: input.estimates || null, cnbc: (input.cnbc || []).slice(0, 6), detail: input.detail || null,
-    rank: input.site ? input.site.rank : null,
+    rank: input.site ? input.site.rank : null, yahooNews: (input.yahooNews || []).slice(0, 6), teamView: input.teamView || null, market: input.market || null,
     verified: { checked: report.checked, ok: report.ok, unverified: report.unverified, dead: report.dead, stripped: report.stripped }, numberCut,
     deep: { status: 'done', ...deepRest, researchedOn: date, session: input.session, carried: false, source: 'ondemand' },
   };
@@ -177,7 +195,7 @@ async function finish(tickerIn, { date = today(), git = true, send = true, linkc
 
   let pub = { ok: true, pushed: false };
   if (git) { pub = gitPublish(files, `ondemand: ${date} ${T} — ${verdict}`); if (!pub.ok) say('WARN', `GitHub: ${pub.error}`); }
-  const msgs = messages(rec);
+  const msgs = messages(rec, { ask: process.env.ONDEMAND_ASK || null });   // 'buy' = 텔레그램 "살까?" — 실장 종합 형식
   if (send) {
     const { notify, tgPhoto } = require('./lib/notify');
     for (const m of msgs) await notify(m);
@@ -195,4 +213,4 @@ if (require.main === module) {
     .then((r) => { if (a.includes('--print') && r.messages) console.log(r.messages.join('\n\n────────\n\n')); console.log(JSON.stringify({ ok: r.ok, ticker: r.ticker, verdict: r.verdict, error: r.error, pushed: r.pushed })); process.exit(r.ok ? 0 : 1); })
     .catch((e) => { console.log(JSON.stringify({ ok: false, error: e.message })); process.exit(1); });
 }
-module.exports = { finish, enforceVerdict, messages, allClaims, loadOndemand, gitPublish };
+module.exports = { finish, enforceVerdict, messages, teamLines, allClaims, loadOndemand, gitPublish };

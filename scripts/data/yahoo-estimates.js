@@ -133,4 +133,40 @@ async function getEstimates(ticker, { today } = {}) {
   } catch (e) { return null; }
 }
 
-module.exports = { getEstimates, parseQuoteSummary, newSession, coolingDown, GAP_MS, COOLDOWN_H };
+// ── 야후 뉴스 (2026-10-26 사용자: "CNBC 말고 야후 기사도") — v1/finance/search(crumb 불필요). 전망치와 **같은 간격·쿨다운·차단 플래그**.
+//   거르기는 규칙만(모델 없음): relatedTickers 에 그 티커가 있고 3개 이하(많으면 시황 묶음) · 최근 14일 · STORY · 가격 소음 제목 제외.
+//   2026-10-25 실측: 재민 ⑥(뉴스 없음) 6종목 중 5종목에서 회사 기사(NVS 3상 결과 · NATH 합병 승인). 요청 8번 중 2번 연결 시간 초과(차단 아님)
+//   → 시간 초과면 query1 로 한 번 더, 연속 2번 실패하면 이 프로세스에선 더 부르지 않는다.
+//   WSJ·Barron's 등 유료가 많다 — 제목은 "무슨 일이 있었나" 단서로만(인용은 열 수 있는 원문에서). 종목당 하루 1번(캐시, 빈 결과도 저장).
+const NEWS_DAYS = 14;
+let newsFails = 0;
+function parseNews(j, T, now = Date.now()) {
+  const { isPriceNoise } = require('../lib/industry-ko');
+  return ((j && j.news) || []).filter((a) => a && a.type === 'STORY' && Array.isArray(a.relatedTickers) && a.relatedTickers.includes(T)
+      && a.relatedTickers.length <= 3 && a.providerPublishTime * 1000 > now - NEWS_DAYS * 864e5 && !isPriceNoise(a.title))
+    .map((a) => ({ title: a.title, url: a.link, date: new Date(a.providerPublishTime * 1000).toISOString().slice(0, 10), publisher: a.publisher || null, via: 'Yahoo' }));
+}
+async function fetchNews(T) {
+  if (blocked || coolingDown() || newsFails >= 2) return null;
+  for (const host of ['query2', 'query1']) {
+    await throttle();
+    try {
+      const r = await fetch(`https://${host}.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(T)}&quotesCount=0&newsCount=10`, { headers: UA, signal: AbortSignal.timeout(15000) });
+      if (r.status === 429 || r.status === 403) { startCooldown(r.status); return null; }   // 차단 신호 — 전망치와 함께 12시간 쉰다
+      if (!r.ok) return null;
+      newsFails = 0;
+      return parseNews(await r.json(), T);
+    } catch (e) { /* 연결 시간 초과 — 다른 주소로 한 번 더 */ }
+  }
+  newsFails++;
+  return null;
+}
+// cacheOnly: 아침 스캔이 받아 둔 것만 읽는다 — 리서치 에이전트 안에서 도는 prepare-llm-args 가 새로 부르지 않게(시간 제한)
+async function getNews(ticker, { cacheOnly = false } = {}) {
+  const T = String(ticker || '').trim().toUpperCase().replace(/\./g, '-');
+  if (!/^[A-Z][A-Z\-]{0,8}$/.test(T)) return null;
+  if (cacheOnly) return cache.get('yahooNews', T);
+  try { return await cache.through('yahooNews', T, () => fetchNews(T)); } catch (e) { return null; }
+}
+
+module.exports = { getEstimates, getNews, parseNews, parseQuoteSummary, newSession, coolingDown, GAP_MS, COOLDOWN_H };

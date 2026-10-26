@@ -14,6 +14,7 @@
 <script src="dashboard/data/holdings.js"   onerror="window.__NO_HD=1"></script>
 <script src="dashboard/data/paper.js"      onerror="window.__NO_PAPER=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
+<script src="dashboard/data/fitscore.js"   onerror="window.__NO_FIT=1"></script>
 <script src="dashboard/data/industry-ko.js"></script>
 
 <style>
@@ -540,7 +541,7 @@ function briefing(id){
   }
   if(id==='t7'){
     const I=(D.od&&D.od.items)||[];
-    if(!I.length)return `아직 물어보신 종목이 없습니다. 텔레그램 봇에 <b>"티커 심층분석"</b>(예: SNOW 심층분석)이라고 보내 주시면 5~10분 뒤 결론과 근거를 드립니다.`;
+    if(!I.length)return `아직 물어보신 종목이 없습니다. 텔레그램 봇에 <b>"티커 살까?"</b>(예: SNOW 살까?) 또는 <b>"티커 심층분석"</b>이라고 보내 주시면 약 15분 뒤 결론과 근거를 드립니다.`;
     const x=I[0],cnt=v=>I.filter(y=>y.verdict===v).length;
     P.push(`가장 최근에 물어보신 <b>${esc(x.ticker)}</b>(${esc(x.requestedOn||'')})는 <b>${VICON[x.verdict]||''} ${esc(x.verdict)}</b>입니다 — ${esc(x.verdictLine||'')}`);
     if((x.verdictAdjusted||[]).length)P.push(`이 판정은 코드가 한 번 조정했습니다(${esc(x.verdictAdjusted[0])}).`);
@@ -901,10 +902,14 @@ function openTicker(T){
   }
   if(p&&p!==od&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
   if(plan)h+=`<div class="sec"><h4>서준 매수 계획 ${plan.watch?'<span class="chip">오늘 밤 관심</span>':''}</h4>${rows([['현재가 → 피벗',`${n(plan.price)} → <b>${n(plan.pivot)}</b> (${sgn(plan.distToPivotPct)}%)`],
-    ['예비 손절 · 위험',plan.stop?`${n(plan.stop)} · ${n(plan.riskPerSharePct,1)}%`:'—'],['등급',esc(plan.grade||'—')]])}${plan.blocked?`<div class="nosrc">⛔ ${esc(plan.blocked)}</div>`:''}${plan.deep?deepBlock(plan.deep):''}</div>`;
+    ['예비 손절 · 위험',plan.stop?`${n(plan.stop)} · ${n(plan.riskPerSharePct,1)}%`:'—'],['등급',esc(plan.grade||'—')],
+    ...(fitLine(plan)?[['쿨라매기 부합도',`${fitLine(plan)}<div class="note">${fitRecord()}</div>`]]:[])])}${plan.blocked?`<div class="nosrc">⛔ ${esc(plan.blocked)}</div>`:''}${plan.deep?deepBlock(plan.deep):''}</div>`;
   h+=researchBlock(p&&p.research);
   if(ep&&ep.catalyst&&ep.catalyst.status==='done'){const C=ep.catalyst;
     h+=`<div class="sec"><h4>재민 촉매 분류 — ${esc(C.categoryName||'')}</h4>${C.volumeExplanation?`<div class="pi">${esc(C.volumeExplanation)}</div>`:''}${claimList(C.claims)||'<div class="nosrc">검증을 통과한 근거가 없습니다</div>'}</div>`;}
+  // 야후 파이낸스 기사 (2026-10-26) — 재민 종목·텔레그램 분석 종목만. 유료(WSJ·Barron's 등)가 많아 제목만 보이고, AI 는 단서로만 쓴다.
+  const yn=((ep&&ep.yahooNews)||(od&&od.yahooNews)||[]).slice(0,6);
+  if(yn.length)h+=`<div class="sec"><h4>야후 파이낸스 기사 <span class="dim">(WSJ·Barron's·IBD 등 — 유료일 수 있음)</span></h4><ul class="plist">${yn.map(x=>`<li><a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a> <span class="dim">${esc(x.publisher||'')} · ${esc(x.date||'')}</span></li>`).join('')}</ul></div>`;
   const cb=((p&&p.cnbc)||[]).slice(0,6);
   if(cb.length)h+=`<div class="sec"><h4>CNBC 기사 <span class="dim">(CNBC 가 이 종목에 태그한 기사)</span></h4><ul class="plist">${cb.map(x=>`<li><a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a> <span class="dim">${esc(x.date||'')}${x.kind==='pro'?' · Pro(유료)':x.kind==='video'?' · 영상':''}</span></li>`).join('')}</ul></div>`;
   const d=p&&p.detail;
@@ -949,6 +954,19 @@ function nRowOf(D){
   const what=dr?`${cut(dr.what,70)} (${dr.stage||''})${imp?` — ${cut(imp.statement,90)}`:' — 매출·이익 영향 근거는 아직 없음'}${(D.newDrivers||[]).length>1?` 외 ${(D.newDrivers.length-1)}건`:''}`
     :cut((String(D.nNarrative||'').match(/^.*?[.!?。](\s|$)/)||[D.nNarrative||'최근 3개월 안에 확인된 신제품·신서비스가 없다'])[0],120);
   return {item:'N 신제품·신서비스',status:st,evidence:`${D.nVerdict} · ${what} (${D.researchedOn||''} 분석 · 아래 "N — 새로운 성장 동력")`};
+}
+/* 쿨라매기 부합도 (Nimble·Laya 로컬 판정, 2026-10-26) — 검증 전 참고. 매매·등급과 무관. 성적표(FITSCORE_DATA.show)가 고른 모델을 앞에 둔다. */
+function fitLine(p){
+  const f=p&&D.t6&&D.t6.fitByKey&&D.t6.fitByKey[`${p.ticker}|${p.pivot}`];
+  if(!f||(!f.laya&&!f.nimble))return '';
+  const show=(window.FITSCORE_DATA&&window.FITSCORE_DATA.show)==='laya'?'laya':'nimble',other=show==='laya'?'nimble':'laya';
+  const nm={nimble:'Nimble',laya:'Laya'},sc=m=>f[m]&&f[m].fit!=null?n(f[m].fit,1):'—';
+  return `${nm[show]} <b>${sc(show)}</b> · ${nm[other]} ${sc(other)} <span class="dim">/ 4</span>${f[show]&&f[show].redFlag>=0.5?' ⚠ 경고':''} <span class="chip">검증 전</span>`;
+}
+function fitRecord(){
+  const F=window.FITSCORE_DATA;
+  if(!F||!F.scored5)return '아직 채점 전 — 1주(5거래일) 뒤 결과부터 성적이 쌓입니다. 모의투자 일지의 부합도 성적표에서 봅니다.';
+  return `지금까지 1주 뒤 결과로 채점 ${F.scored5}건${F.scored5<30?' — 아직 믿을 수준이 아닙니다':''} · 모의투자 일지의 부합도 성적표 참고`;
 }
 function canslimRows(rows,D,ep){
   let r=nRowOf(D);
@@ -1230,7 +1248,7 @@ function bodyFor(id){
       ${rows([['현재가 → 피벗',`${n(p.price)} → <b>${n(p.pivot)}</b> (${sg(p.distToPivotPct)}%)`],
         ['예비 손절 · 위험',`${n(p.stop)} · ${n(p.riskPerSharePct,1)}%`],
         ['비중(계좌 대비)',`${n(p.weightPct,1)}%${p.weightCapped?' (상한)':''}`],
-        ['10일선 이격',`${sg(p.extensionAdr)} ADR`]])}
+        ['10일선 이격',`${sg(p.extensionAdr)} ADR`],...(fitLine(p)?[['쿨라매기 부합도',fitLine(p)]]:[])])}
       <div class="note">${(p.reasons||[]).map(esc).join(' · ')}</div>
       ${p.lastRead?`<div class="note" style="color:var(--blu)">🤖 클로드 차트 소견 (${esc(p.lastRead.date)}) — ${esc(p.lastRead.note||p.lastRead.verdict)}</div>`:''}
       ${p.blocked?`<div class="nosrc">⛔ ${esc(p.blocked)}</div>`:''}

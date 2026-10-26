@@ -68,7 +68,8 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
 }
 
 // 밤 트리거가 읽는 파일 — 관심 종목만, 필요한 숫자만
-function watchlistOf(team6) {
+function watchlistOf(team6, fitOf = null) {
+  const fitFor = (p) => (fitOf && fitOf.get(`${p.ticker}|${p.pivot}`)) || null;   // 부합도(Nimble·Laya) — 2026-10-26, 기록·학습 자료
   return {
     date: team6.generated, sessionDate: team6.sessionDate, rulesVersion: team6.rulesVersion, regime: team6.regime,
     // 등급 C 는 실제 장부에서는 안 사지만 그림자 장부(gradeC)로 같이 돌린다 — 등급이 성적을 가르는지 보려면 C 의 결과도 필요하다
@@ -76,12 +77,12 @@ function watchlistOf(team6) {
       shadowOnly: !p.watch, shadowBook: p.shadowBook || null,
       ticker: p.ticker, grade: p.grade, pivot: p.pivot, stopPre: p.stop, adrPct: p.adrPct, weightPct: p.weightPct,
       ma10: p.ma10, metrics: p.metrics, catalyst: p.catalyst,
-      price: p.price, sector: p.sector, industry: p.industry, score: p.score, reasons: p.reasons,
+      price: p.price, sector: p.sector, industry: p.industry, score: p.score, reasons: p.reasons, fit: fitFor(p),
     })),
     // 사지 않은 후보도 남긴다 (2026-10-22 학습 고리) — 막힌 후보(사유)·이미 돌파한 후보. 주간 리뷰가 10·21거래일 뒤 결과로 채점한다.
     //   빨간불 날은 items 가 비어 채점할 것이 없었다. paper-trader 는 items 만 읽는다(others 는 매매에 쓰지 않음). 퍼센트만 — 수량 없음.
-    others: [...team6.plans.filter((p) => !p.watch && !p.shadowBook).map((p) => ({ ...slimOther(p), kind: 'blocked', blocked: p.blocked || null })),
-      ...(team6.post || []).map((p) => ({ ...slimOther(p), kind: 'post', breakDate: p.breakDate || null }))],
+    others: [...team6.plans.filter((p) => !p.watch && !p.shadowBook).map((p) => ({ ...slimOther(p), kind: 'blocked', blocked: p.blocked || null, fit: fitFor(p) })),
+      ...(team6.post || []).map((p) => ({ ...slimOther(p), kind: 'post', breakDate: p.breakDate || null, fit: fitFor(p) }))],
   };
 }
 function slimOther(p) {
