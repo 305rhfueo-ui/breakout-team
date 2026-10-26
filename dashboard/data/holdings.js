@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-25T22:10:25.267Z",
+  "updated": "2026-10-26T13:00:07.003Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어, 11월 2일 3분기 실적에서 성장 가속을 증명해야",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어, 11월 2일 3분기 실적에서 성장 가속을 증명해야",
           "easy": "기사는 팔란티어가 다시 크게 오르려면 3분기 실적에서 매출 성장세가 빨라졌다는 것을 보여줘야 한다고 말한다. 필자는 올해 주가가 220달러를 넘을 것이라고 예상했다고 한다. 본문은 제공되지 않아 자세한 내용은 기사에 안 나왔다.",
           "whyMatters": "보유 중이라면 11월 2일 실적에서 매출 성장 속도가 핵심 관전 포인트라는 의미다. 기대에 못 미치면 주가에 부담이 될 수 있다.",
@@ -30,7 +30,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": null,
           "tone": null,
-          "isNew": true,
+          "isNew": false,
           "headline": null,
           "easy": null,
           "whyMatters": null,
