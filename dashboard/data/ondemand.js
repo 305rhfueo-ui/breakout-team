@@ -1,6 +1,1458 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "CRL",
+      "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "industryRank": {
+        "frank": 1,
+        "frank25dChg": 4,
+        "headline": "신약 개발 외주 수주가 되살아나고 암 진단 검사 매출이 빠르게 늘면서 진단·연구 업종이 상위로 올라섰다.",
+        "asOf": "2026-10-26"
+      },
+      "requestedOn": "2026-10-27",
+      "session": "2026-10-26",
+      "at": "2026-10-26T23:16:01.016Z",
+      "verdict": "아니다",
+      "verdictLine": "시장이 빨간불인데다 10월 21일 피벗 333.3을 이미 7% 넘어선 추격 구간이고 11월 4일 실적도 코앞이라, 지금은 기준에 맞지 않는다.",
+      "basis": [
+        {
+          "point": "시장 판정이 빨강이라 새로 사는 것을 막는 구간이다.",
+          "side": "against",
+          "checkRef": "차트:시장"
+        },
+        {
+          "point": "10월 21일 피벗 333.3을 이미 넘어 현재가가 7.19% 위에 있다.",
+          "side": "against",
+          "checkRef": "차트:피벗 거리"
+        },
+        {
+          "point": "최근 분기 순이익이 전년비 -102.8%로 기준 +25%에 크게 못 미친다.",
+          "side": "against",
+          "checkRef": "CANSLIM:C"
+        },
+        {
+          "point": "선행 상승 56.2% 뒤 2.2주 쉬는 동안 저점이 높아지고 진폭이 0.77배로 좁아졌다.",
+          "side": "for",
+          "checkRef": "차트:저점 높아짐"
+        },
+        {
+          "point": "2027~2030년 누적 3억 달러 비용 절감이라는 새 경영 목표가 출처로 확인된다.",
+          "side": "for",
+          "checkRef": "d3"
+        }
+      ],
+      "conditions": [],
+      "invalidation": "예비 손절 320.18달러를 종가로 깨면 10월 21일 돌파가 되돌려진 것으로 본다. 11월 4일 실적에서 수주 회복이 멈추고 올해 조정 주당순이익 전망이 내려가면 이 그림의 근거가 사라진다.",
+      "dataLimits": "기관 보유 자료가 없고 국내 증권사 리포트는 1건뿐이다. 증권사 리포트 원문 PDF가 제공되지 않아 제품별 매출 전망은 요약으로만 확인했고, FDA·랩코프 공동연구는 계약 금액이 공개되지 않아 매출 영향을 숫자로 확인하지 못했다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "market_red",
+            "ko": "시장 판정이 빨간불이다 (신규 매수 금지 구간)"
+          },
+          {
+            "key": "post_breakout",
+            "ko": "이미 피벗 333.3 을 넘었다(2026-10-21) — 넘은 뒤에 사는 것은 추격이다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-10-26",
+          "market": "2026-10-23"
+        }
+      },
+      "setup": {
+        "state": "post",
+        "grade": "A",
+        "pivot": 333.3,
+        "stop": 320.18,
+        "distToPivotPct": 7.19,
+        "distToPivotAdr": 1.64,
+        "riskPerSharePct": 3.94,
+        "extensionAdr": 2.31,
+        "adrPct": 4.4,
+        "breakDate": "2026-10-21",
+        "chase": false,
+        "metrics": {
+          "baseBars": 11,
+          "baseWeeks": 2.2,
+          "depthPct": 13.5,
+          "priorMovePct": 56.2,
+          "higherLows": 1,
+          "contraction": 0.77,
+          "closeRange10Adr": 1.3,
+          "surf10": 0.99,
+          "surf20": 1.3,
+          "slope20": 2.17,
+          "baseLow": 288.43,
+          "lastSwingLow": 288.43
+        },
+        "reasons": [
+          "선행 상승 +56%",
+          "베이스 2.2주",
+          "깊이 13.5%",
+          "저점 상승 1회",
+          "진폭 0.77배 · 10일 종가폭 1.3 ADR",
+          "10일선 +1 ADR · 20일선 +1.3 ADR",
+          "20일선 기울기 +2.17%"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 56% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 2.2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.77배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 13.5% · ADR 4.4%의 3.1배 · 선행 상승의 절반 28%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 357.27 · 20일선 309.79 · 50일선 295.49"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.57배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "충족",
+            "evidence": "2026-10-21 돌파봉 거래량 = 20일 평균의 2.8배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 2026-10-21 피벗 333.3 돌파 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.94% · ADR 4.4%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.3 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 -102.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 -103%/-158%/적자확대 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 98%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.57배(20일 평균 대비) · 오늘 거래대금 0.83배(상승일) · 상장주식 48M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 4.55% · 3M 2.48% · 6M 1.94% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "CRL",
+        "fetchedAt": "2026-10-27",
+        "source": "한국투자증권 Open API",
+        "per": 73.58,
+        "pbr": 6,
+        "eps": 4.85,
+        "bps": 59.5,
+        "shares": 47738900,
+        "marketCapM": 17044,
+        "high52": 368.525,
+        "high52Date": "2026-10-26",
+        "low52": 146.195,
+        "low52Date": "2026-05-19",
+        "last": 357.03,
+        "prevClose": 345.37,
+        "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+        "nameEn": "CHARLES RIVER LABORATORIES",
+        "listedOn": null,
+        "exchange": "뉴욕거래소",
+        "listedShares": 47738900
+      },
+      "estimates": {
+        "ticker": "CRL",
+        "url": "https://finance.yahoo.com/quote/CRL/analysis/",
+        "fetchedAt": "2026-10-27",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "eps": 2.97,
+            "epsLow": 2.93,
+            "epsHigh": 3.09,
+            "epsYearAgo": 2.43,
+            "epsAnalysts": 13,
+            "epsGrowth": 22.3,
+            "epsCur": "USD",
+            "rev": 960355700,
+            "revAnalysts": 12,
+            "revYearAgo": 1004852000,
+            "revGrowth": -4.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "eps": 3.33,
+            "epsLow": 3,
+            "epsHigh": 3.44,
+            "epsYearAgo": 2.39,
+            "epsAnalysts": 13,
+            "epsGrowth": 39.3,
+            "epsCur": "USD",
+            "rev": 956346180,
+            "revAnalysts": 12,
+            "revYearAgo": 994227000,
+            "revGrowth": -3.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 11.38,
+            "epsLow": 11.02,
+            "epsHigh": 11.49,
+            "epsYearAgo": 10.28,
+            "epsAnalysts": 17,
+            "epsGrowth": 10.7,
+            "epsCur": "USD",
+            "rev": 3917009930,
+            "revAnalysts": 14,
+            "revYearAgo": 4015382000,
+            "revGrowth": -2.5,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 12.75,
+            "epsLow": 11.9,
+            "epsHigh": 13.68,
+            "epsYearAgo": 11.38,
+            "epsAnalysts": 17,
+            "epsGrowth": 12,
+            "epsCur": "USD",
+            "rev": 4016133430,
+            "revAnalysts": 15,
+            "revYearAgo": 3917009930,
+            "revGrowth": 2.5,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "cur": "USD",
+            "now": 2.97,
+            "d7": -0.1,
+            "d30": 0.7,
+            "d90": -2.5,
+            "ago90": 3.05,
+            "up7": 0,
+            "up30": 4,
+            "down7": 1,
+            "down30": 2
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 3.33,
+            "d7": -0.1,
+            "d30": 0.6,
+            "d90": 2.7,
+            "ago90": 3.24,
+            "up7": 3,
+            "up30": 3,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 11.38,
+            "d7": 0,
+            "d30": 0.4,
+            "d90": 2.5,
+            "ago90": 11.1,
+            "up7": 1,
+            "up30": 5,
+            "down7": 1,
+            "down30": 3
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 12.75,
+            "d7": -0.1,
+            "d30": 0.3,
+            "d90": 3.4,
+            "ago90": 12.33,
+            "up7": 1,
+            "up30": 6,
+            "down7": 0,
+            "down30": 3
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-06-30",
+            "actual": 3.02,
+            "estimate": 2.74,
+            "surprisePct": 10.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 2.06,
+            "estimate": 1.95,
+            "surprisePct": 5.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 2.39,
+            "estimate": 2.35,
+            "surprisePct": 1.9,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-09-30",
+            "actual": 2.43,
+            "estimate": 2.34,
+            "surprisePct": 3.9,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 1,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 15,
+          "ptLowered": 0,
+          "total": 15,
+          "recent": [
+            {
+              "date": "2026-10-13",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 340,
+              "ptPrior": 300
+            },
+            {
+              "date": "2026-09-28",
+              "firm": "Jefferies",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 340,
+              "ptPrior": 305
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "Deutsche Bank",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 320,
+              "ptPrior": 300
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "TD Cowen",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 325,
+              "ptPrior": 300
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "Evercore ISI Group",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 330,
+              "ptPrior": 320
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "RBC Capital",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 322,
+              "ptPrior": 282
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 330,
+              "ptPrior": 300
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "Mizuho",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 295,
+              "ptPrior": 264
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "Baird",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 334,
+              "ptPrior": 291
+            },
+            {
+              "date": "2026-09-11",
+              "firm": "Evercore ISI Group",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 320,
+              "ptPrior": 300
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-04",
+          "upcoming": true,
+          "estimated": false
+        }
+      },
+      "cnbc": [
+        {
+          "title": "This drug researcher that just reported earnings could keep rallying, JPMorgan says",
+          "url": "https://www.cnbc.com/2026/08/06/this-drug-researcher-will-rally-on-biotech-funding-boost-jpmorgan-says.html",
+          "date": "2026-08-06",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify & more",
+          "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-midday-googl-spcx-shop-nem-podd.html",
+          "date": "2026-08-05",
+          "publisher": "CNBC",
+          "kind": "article"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-27",
+        "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+        "nameEn": "CHARLES RIVER LABORATORIES",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100682&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-06-27",
+              "derived": false,
+              "revenue": 1004078000,
+              "profit": 119888000,
+              "netIncome": -1482000,
+              "margin": 11.9,
+              "yoy": {
+                "revenue": -2.7,
+                "profit": 19.7,
+                "netIncome": -102.8,
+                "priorEnd": "2025-06-28"
+              }
+            },
+            {
+              "periodEnd": "2026-03-28",
+              "derived": false,
+              "revenue": 995830000,
+              "profit": 119897000,
+              "netIncome": -14843000,
+              "margin": 12,
+              "yoy": {
+                "revenue": 1.2,
+                "profit": 60.6,
+                "netIncome": -158.3,
+                "priorEnd": "2025-03-29"
+              }
+            },
+            {
+              "periodEnd": "2025-12-27",
+              "derived": true,
+              "revenue": 994227000,
+              "profit": -283440000,
+              "netIncome": -276555000,
+              "margin": -28.5,
+              "yoy": {
+                "revenue": -0.8,
+                "profit": -69,
+                "netIncome": -28.9,
+                "priorEnd": "2024-12-28"
+              }
+            },
+            {
+              "periodEnd": "2025-09-27",
+              "derived": false,
+              "revenue": 1004852000,
+              "profit": 133799000,
+              "netIncome": 54422000,
+              "margin": 13.3,
+              "yoy": {
+                "revenue": -0.5,
+                "profit": 14,
+                "netIncome": -21.9,
+                "priorEnd": "2024-09-28"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "PGNY or CRL: Which Is the Better Value Stock Right Now?",
+              "url": "https://www.nasdaq.com/articles/pgny-or-crl-which-better-value-stock-right-now",
+              "date": "2026-10-07",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Charles River Laboratories International Consensus Price Target Increased by 11.46% to $307.39",
+              "url": "https://www.nasdaq.com/articles/charles-river-laboratories-international-consensus-price-target-increased-1146-30739",
+              "date": "2026-10-02",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Charles River Laboratories International Now #430 Largest Company, Surpassing Tyler Technologies",
+              "url": "https://www.nasdaq.com/articles/charles-river-laboratories-international-now-430-largest-company-surpassing-tyler",
+              "date": "2026-10-01",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Charles River Targets 5%-7% Growth, $300M Savings in 2030 Plan",
+              "url": "https://www.nasdaq.com/articles/charles-river-targets-5-7-growth-300m-savings-2030-plan",
+              "date": "2026-09-26",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "PGNY vs. CRL: Which Stock Is the Better Value Option?",
+              "url": "https://www.nasdaq.com/articles/pgny-vs-crl-which-stock-better-value-option",
+              "date": "2026-09-18",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-24",
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000142/crl-20260924.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl-20260805.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-11",
+            "itemsKo": [
+              "임원 변동",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326007060/dp246529_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-07",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000036/crl-20260507.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-25",
+            "itemsKo": [
+              "Reg FD 공시"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1100682/000162828026011395/crl-20260225.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-18",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326002326/dp241741_8k.htm"
+          }
+        ],
+        "krReports": {
+          "total": 1,
+          "reports": [
+            {
+              "date": "2026-09-17",
+              "broker": "키움증권",
+              "analyst": "신민수",
+              "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+              "summary": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxecgq.pdf",
+              "pages": "15"
+            }
+          ]
+        }
+      },
+      "rank": {
+        "m1": 4.55,
+        "m3": 2.48,
+        "m6": 1.94
+      },
+      "yahooNews": [
+        {
+          "title": "Charles River Laboratories International Insider Sold Shares Worth $8,414,700, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-laboratories-international-insider-205723305.html",
+          "date": "2026-10-26",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Charles River Laboratories’ Q3 2026 Earnings: What to Expect",
+          "url": "https://finance.yahoo.com/healthcare/articles/charles-river-laboratories-q3-2026-063256840.html",
+          "date": "2026-10-26",
+          "publisher": "Barchart",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Global Clinical Trials Market Size, Share, Growth Trends, and Forecast, 2026-2035 | Clinical Trials Market set to more than Double to $144.4bn as Drugmakers Lean on Outside Researchers",
+          "url": "https://finance.yahoo.com/healthcare/articles/global-clinical-trials-market-size-131600615.html",
+          "date": "2026-10-23",
+          "publisher": "GlobeNewswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Labcorp, Charles River and FDA Partner on Drug Abuse Research",
+          "url": "https://finance.yahoo.com/healthcare/articles/labcorp-charles-river-fda-partner-215510255.html",
+          "date": "2026-10-22",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Charles River, Labcorp, and FDA Collaborate to Validate New Preclinical Methods for Abuse Potential Assessment",
+          "url": "https://finance.yahoo.com/healthcare/articles/charles-river-labcorp-fda-collaborate-203000215.html",
+          "date": "2026-10-22",
+          "publisher": "Business Wire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Labcorp, Charles River and FDA Announce Research Collaboration to Advance Preclinical Methods for Evaluating Drug Abuse Potential",
+          "url": "https://finance.yahoo.com/healthcare/articles/labcorp-charles-river-fda-announce-203000083.html",
+          "date": "2026-10-22",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        }
+      ],
+      "teamView": {
+        "seojun": {
+          "asOf": "2026-10-26",
+          "grade": "A",
+          "state": "post",
+          "watch": false,
+          "blocked": null,
+          "distToPivotPct": 3.62,
+          "fit": null
+        },
+        "doyun": {
+          "lists": [
+            "RS(6MO)"
+          ],
+          "lead": "바이오 안전성 평가 주문이 4년 내 최고로 회복되고 올해 이익 전망이 올라가면서 주가가 올랐다. 증권사 목표주가도 오르는 중이다. 다만 하반기 마진 개선이 실제로 확인돼야 이 이야기가 유지된다.",
+          "researchedOn": "2026-10-22"
+        },
+        "jaemin": null,
+        "holding": null
+      },
+      "market": {
+        "verdict": "red",
+        "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+        "finra": "warn",
+        "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과"
+      },
+      "verified": {
+        "checked": 5,
+        "ok": 28,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 7
+      },
+      "numberCut": 7,
+      "deep": {
+        "status": "done",
+        "ticker": "CRL",
+        "company": "찰스 리버 래브러토리스는 제약·바이오 회사의 신약 개발을 대신 해 주는 외주 연구기관이다. 가장 큰 사업은 임상 전 단계의 안전성 평가(DSA)로, 2026년 2분기 매출 6억 650만 달러를 올려 분기 매출의 절반을 넘는다. 실험용 동물 모델 공급과 바이오 의약품 품질검사·제조 지원도 같이 한다.",
+        "lead": "신약 외주 주문이 4년 만에 가장 좋아지면서 주가가 올랐다. 가장 강한 근거는 2026년 2분기에 4년 만의 최고 수주를 기록하고 회사가 올해 전망을 상단으로 올린 점이다. 가장 큰 걱정은 매출 자체는 아직 제자리(올해 유기적 성장 0~1% 전망)이고 회계상 순이익이 적자라는 점이다. 11월 4일 실적에서 수주 회복이 이어지지 않으면 이 상승세는 깨질 수 있다.",
+        "newsNarrative": "9월 24일 투자자의 날이 이번 상승의 분기점이었다. 회사가 2030년까지 연 5~7% 성장과 3억 달러 비용 절감을 제시하고 올해 실적이 전망 범위 상단에 올 것이라고 밝히면서 증권사 목표주가 상향이 15건 이어졌다. 그 바탕에는 8월에 발표한 2분기 실적이 있다 — 수주가 4년 만에 최고였고 조정 주당순이익 3.02달러로 예상을 10.3% 웃돌았다. 10월 들어서는 FDA·랩코프와의 공동연구가 발표됐고 주가는 10월 21일 하루에 344.87달러까지 뛰었다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "9월 24일 투자자의 날에서 2027~2030년 연평균 5~7% 유기적 매출 성장을 목표로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charles River Laboratories Unveils Pathway to Purpose Strategy and 2030 Financial Targets",
+                "publisher": "SEC EDGAR (Charles River 8-K 첨부 보도자료)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001100682/000110068226000142/crlinvestorday2026pressr.htm",
+                "date": "2026-09-24",
+                "quote": "5% – 7% 2027-2030 CAGR",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "같은 날 회사는 2026년 매출과 비GAAP 주당순이익이 기존 전망 범위의 상단에 올 것이라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charles River Laboratories Unveils Pathway to Purpose Strategy and 2030 Financial Targets",
+                "publisher": "SEC EDGAR (Charles River 8-K 첨부 보도자료)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001100682/000110068226000142/crlinvestorday2026pressr.htm",
+                "date": "2026-09-24",
+                "quote": "revenue and non-GAAP earnings per share to be at the upper ends of their respective guidance ranges, primarily reflecting continued favorable demand from biopharmaceutical clients.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "8월 5일 2분기 실적에서 신규 수주가 4년 만에 가장 많았다고 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                "date": "2026-08-05",
+                "quote": "We recorded the highest net book-to-bill in nearly four years.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "키움증권은 9월 17일 자료에서 안전성 평가 부문 수주가 매출의 1.19배로 4년 내 최고이고 회사가 올해 조정 주당순이익 전망을 올렸다고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxecgq.pdf",
+                "date": "2026-09-17",
+                "quote": "- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "10월 22일 FDA·랩코프와 신약의 남용 가능성을 평가하는 새 검사법을 함께 개발하기로 했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charles River, Labcorp, and FDA Collaborate to Validate New Preclinical Methods for Abuse Potential Assessment",
+                "publisher": "Business Wire (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/healthcare/articles/charles-river-labcorp-fda-collaborate-203000215.html",
+                "date": "2026-10-22",
+                "quote": "Research Collaboration Agreement (RCA) with the U.S. Food and Drug Administration (FDA) and Labcorp for developing sensitive screening tools to quantify and rank the abuse potential of new drugs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Charles River Laboratories International Insider Sold Shares Worth $8,414,700, According to a Recent SEC Filing",
+                "publisher": "MT Newswires (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-laboratories-international-insider-205723305.html",
+                "date": "2026-10-26",
+                "quote": "Charles River Laboratories International Insider Sold Shares Worth $8,414,700, According to a Recent SEC Filing",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "10월 26일 내부자가 841만 4,700달러어치 주식을 팔았다는 공시가 전해졌다.",
+            "stripped": true
+          }
+        ],
+        "financialsNarrative": "매출은 아직 늘지 않지만 이익의 질은 돌아오고 있다. 유기적 성장 0.1%는 2023년 3분기 이후 가장 높은 수치였다. 조정 주당순이익은 3.02달러였고 조정 영업이익률은 직전 분기보다 4.2%포인트 오른 20.5%가 됐다. 다만 회계 기준으로는 주당 0.03달러 손실이라 흑차로 완전히 돌아섰다고 말하기는 이르다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f2",
+              "statement": "가장 큰 부문인 안전성 평가의 2분기 매출은 6억 650만 달러였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                  "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                  "date": "2026-08-05",
+                  "quote": "Revenue for the DSA segment was $606.5 million in the second quarter of 2026",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "2026년 2분기는 회계 기준으로 주당 0.03달러 손실이었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                  "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                  "date": "2026-08-05",
+                  "quote": "GAAP loss per share of $(0.03)",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                  "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                  "date": "2026-08-05",
+                  "quote": "Non-GAAP operating margin increased 420 basis points on a sequential basis to 20.5%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "일회성을 뺀 조정 영업이익률이 직전 분기보다 4.2%포인트 올라 20.5%가 됐다.",
+              "stripped": true
+            }
+          ],
+          "guidance": [
+            {
+              "id": "f5",
+              "statement": "회사가 내놓은 2026년 유기적 매출 성장 전망은 0.0~1.0%로 사실상 제자리다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                  "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                  "date": "2026-08-05",
+                  "quote": "\"Revenue growth/(decrease), organic\" range of \"0.0% - 1.0%\"",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f6",
+              "statement": "2026년 조정 주당순이익 전망은 11.15~11.45달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                  "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                  "date": "2026-08-05",
+                  "quote": "\"Non-GAAP EPS estimate\" of \"$11.15 – $11.45\"",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": [
+              {
+                "id": "f7",
+                "statement": "회사가 9월 24일 올해 매출·이익이 전망 범위 상단에 올 것이라고 밝히며 눈높이를 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories Unveils Pathway to Purpose Strategy and 2030 Financial Targets",
+                    "publisher": "SEC EDGAR (Charles River 8-K 첨부 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001100682/000110068226000142/crlinvestorday2026pressr.htm",
+                    "date": "2026-09-24",
+                    "quote": "revenue and non-GAAP earnings per share to be at the upper ends of their respective guidance ranges, primarily reflecting continued favorable demand from biopharmaceutical clients.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "f8",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxecgq.pdf",
+                    "date": "2026-09-17",
+                    "quote": "- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "키움증권은 회사가 올해 조정 주당순이익 전망을 11.15~11.45달러로 상향했고 하반기 마진이 5%포인트 개선될 것으로 봤다.",
+                "stripped": true
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "애널리스트들은 전망치를 조금씩 올리는 중이고 방향은 회사 발표와 맞는다. 올해 주당순이익 추정은 11.38달러로 90일 전보다 2.5% 올랐고 내년 추정 12.75달러는 3.4% 올랐다. 다만 올해 매출 추정은 -2.5%로 여전히 역성장이어서, 올라가는 것은 매출이 아니라 이익률이다. 최근 네 분기 실적이 모두 예상을 넘었고 2026년 2분기는 10.3% 상회했는데, 이는 매출 증가가 아니라 수주 회복과 비용 절감에서 나온 것이다.",
+        "newDrivers": [
+          {
+            "what": "패스웨이 투 퍼포스 — 2030년까지의 새 경영 전략과 '크리에이트 더 퓨처' 비용 절감 프로그램",
+            "kind": "management",
+            "stage": "발표만",
+            "since": "2026-09-24",
+            "basis": [
+              {
+                "id": "d1",
+                "statement": "9월 24일 투자자의 날에서 2027~2030년 재무 목표를 담은 새 전략을 공개했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories Unveils Pathway to Purpose Strategy and 2030 Financial Targets",
+                    "publisher": "SEC EDGAR (Charles River 8-K 첨부 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001100682/000110068226000142/crlinvestorday2026pressr.htm",
+                    "date": "2026-09-24",
+                    "quote": "5% – 7% 2027-2030 CAGR",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d2",
+                "statement": "회사는 2027~2030년 유기적 매출이 연평균 5~7% 늘어나는 것을 목표로 제시했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories Unveils Pathway to Purpose Strategy and 2030 Financial Targets",
+                    "publisher": "SEC EDGAR (Charles River 8-K 첨부 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001100682/000110068226000142/crlinvestorday2026pressr.htm",
+                    "date": "2026-09-24",
+                    "quote": "5% – 7% 2027-2030 CAGR",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d3",
+                "statement": "업무 단순화·자동화로 2027~2030년 누적 3억 달러 넘는 비용을 아끼겠다는 계획이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories Unveils Pathway to Purpose Strategy and 2030 Financial Targets",
+                    "publisher": "SEC EDGAR (Charles River 8-K 첨부 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001100682/000110068226000142/crlinvestorday2026pressr.htm",
+                    "date": "2026-09-24",
+                    "quote": "generate over $300 million in cumulative savings from 2027 through 2030",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d4",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories Unveils Pathway to Purpose Strategy and 2030 Financial Targets",
+                    "publisher": "SEC EDGAR (Charles River 8-K 첨부 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001100682/000110068226000142/crlinvestorday2026pressr.htm",
+                    "date": "2026-09-24",
+                    "quote": "Low-double-digit 2027-2030 CAGR",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "회사 자체 목표로 2027~2030년 비GAAP 주당순이익이 연평균 10%대 초반 성장한다고 밝혔다.",
+                "stripped": true
+              }
+            ],
+            "counter": [
+              {
+                "id": "d5",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                    "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                    "date": "2026-08-05",
+                    "quote": "\"Revenue growth/(decrease), organic\" range of \"0.0% - 1.0%\"",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "2026년 유기적 매출 성장 전망은 0.0~1.0%여서 5~7% 목표까지 가려면 2027년부터 속도가 크게 붙어야 한다.",
+                "stripped": true
+              }
+            ]
+          },
+          {
+            "what": "신약 안전성 평가 수주 회복 — 제약사들이 미뤘던 임상 전 연구 주문을 다시 내기 시작한 업계 변화",
+            "kind": "industry",
+            "stage": "매출 발생 중",
+            "since": "2026-08-05",
+            "basis": [
+              {
+                "id": "d6",
+                "statement": "2026년 2분기에 신규 수주가 4년 만에 가장 많았다고 회사가 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                    "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                    "date": "2026-08-05",
+                    "quote": "We recorded the highest net book-to-bill in nearly four years.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d7",
+                "statement": "안전성 평가 부문 매출이 유기적으로 0.2% 늘었고 규제용 안전성 시험 물량 증가가 이유다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                    "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                    "date": "2026-08-05",
+                    "quote": "Organic revenue increased by 0.2%, driven primarily by higher study volume for regulated safety assessment services.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d8",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxecgq.pdf",
+                    "date": "2026-09-17",
+                    "quote": "- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "키움증권은 수주 회복으로 하반기 마진이 5%포인트 개선될 것으로 봤다.",
+                "stripped": true
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d9",
+                "statement": "키움증권 자료 기준 2026년 조정 주당순이익 전망은 11.15~11.45달러다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxecgq.pdf",
+                    "date": "2026-09-17",
+                    "quote": "- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "d10",
+                "statement": "수주가 늘어도 아직 매출로는 거의 나오지 않아 2분기 유기적 성장은 0.1%에 머물렀다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                    "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                    "date": "2026-08-05",
+                    "quote": "Organic revenue growth of 0.1% reached the highest level since the third quarter of 2023.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "FDA·랩코프와의 공동연구 — 신약의 남용 가능성을 더 정확히 걸러내는 새 검사법 개발",
+            "kind": "contract",
+            "stage": "발표만",
+            "since": "2026-10-22",
+            "basis": [
+              {
+                "id": "d11",
+                "statement": "FDA·랩코프와 연구협력 계약을 맺고 남용 가능성을 수치로 매기는 선별 도구를 함께 만든다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River, Labcorp, and FDA Collaborate to Validate New Preclinical Methods for Abuse Potential Assessment",
+                    "publisher": "Business Wire (Yahoo Finance 게재)",
+                    "url": "https://finance.yahoo.com/healthcare/articles/charles-river-labcorp-fda-collaborate-203000215.html",
+                    "date": "2026-10-22",
+                    "quote": "Research Collaboration Agreement (RCA) with the U.S. Food and Drug Administration (FDA) and Labcorp for developing sensitive screening tools to quantify and rank the abuse potential of new drugs.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d12",
+                "statement": "매타완 시설의 예비 연구에서 이 접근법이 가능하다는 초기 자료를 확보했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Charles River, Labcorp, and FDA Collaborate to Validate New Preclinical Methods for Abuse Potential Assessment",
+                    "publisher": "Business Wire (Yahoo Finance 게재)",
+                    "url": "https://finance.yahoo.com/healthcare/articles/charles-river-labcorp-fda-collaborate-203000215.html",
+                    "date": "2026-10-22",
+                    "quote": "provided preliminary proof-of-concept data that demonstrated the promise of this approach.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것은 제품이 아니라 회사를 바꾸는 계획과 업계 수요의 전환이다. 9월 24일 투자자의 날에서 2030년까지의 새 전략과 비용 절감 프로그램을 공개했고, 업계에서는 제약사들이 미뤘던 임상 전 연구 주문을 다시 내기 시작했다. 매출 쪽 영향은 안전성 평가 부문 6억 650만 달러로 이미 나타나지만 증가폭은 0.2%에 그친다. 이익 쪽 근거는 누적 3억 달러 비용 절감과 하반기 마진 5%포인트 개선 전망이다. 기대 성장률은 회사 목표로 2027~2030년 매출 연 5~7%, 주당순이익 연 10%대 초반이다. 10월 22일 FDA·랩코프 공동연구는 새 일거리지만 금액이 공개되지 않아 매출 영향은 아직 숫자로 확인되지 않는다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 -102.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 3개 분기 순이익 -102.8% / -158.3% / 적자확대 — 4개 분기 모두 플러스가 아니다. 3년 추세·자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "충족",
+            "evidence": "2030년 전략과 누적 3억 달러 비용 절감 발표(9/24), 수주 4년 내 최고, FDA·랩코프 공동연구(10/22)"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.57배 · 기준 0.7 이하 · 상장주식 4,774만 주 · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1개월 4.55% · 3개월 2.48% · 6개월 1.94% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨강 · 빚내서 산 주식이 1년 전보다 +31.4%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Charles River Laboratories International Insider Sold Shares Worth $8,414,700, According to a Recent SEC Filing",
+                "publisher": "MT Newswires (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-laboratories-international-insider-205723305.html",
+                "date": "2026-10-26",
+                "quote": "Charles River Laboratories International Insider Sold Shares Worth $8,414,700, According to a Recent SEC Filing",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "내부자가 10월 26일 841만 4,700달러어치 주식을 매도했다.",
+            "stripped": true
+          },
+          {
+            "id": "r2",
+            "statement": "회사 스스로 2026년 유기적 매출 성장을 0.0~1.0%로 보고 있어 주가 상승만큼 매출이 늘고 있지 않다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                "date": "2026-08-05",
+                "quote": "\"Revenue growth/(decrease), organic\" range of \"0.0% - 1.0%\"",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "2026년 2분기는 회계 기준으로 주당 0.03달러 손실이어서 이익 회복은 아직 조정 수치에서만 보인다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charles River Laboratories 2026년 2분기 실적 발표",
+                "publisher": "SEC EDGAR (8-K 첨부 실적 보도자료)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+                "date": "2026-08-05",
+                "quote": "GAAP loss per share of $(0.03)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출의 절반 이상이 신약 안전성 평가 한 부문에서 나와 제약사 연구개발 예산이 줄면 바로 타격을 받는다.",
+          "고객인 바이오텍 기업들의 자금 조달 환경에 수주가 좌우된다.",
+          "규제기관이 임상 전 시험 요구 방식을 바꾸면 기존 서비스 수요가 달라진다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 56.2% · 기준 30% 이상"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "횡보 2.2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.77배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "횡보 깊이 13.5% · 하루 평균 변동폭 4.4%의 3.1배 · 선행 상승의 절반인 28%보다 얕다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 357.27 · 20일선 309.79 · 50일선 295.49"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.57배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "충족",
+            "evidence": "2026-10-21 돌파봉 거래량이 20일 평균의 2.8배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "2026-10-21 피벗 333.3 을 이미 넘었고 현재가는 그보다 7.19% 위(하루 변동폭의 1.64배) — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절까지 3.94% · 하루 평균 변동폭 4.4% 이내"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위로 하루 변동폭의 2.3배 · 기준 2배 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨강 — 10일선이 20일선 아래 4일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "직전 쉬는 구간은 2.2주이고 그 안에서 저점이 한 번 높아졌다. 움직이는 폭은 이전의 0.77배로 좁아졌다. 구간 깊이는 13.5%로 선행 상승 56.2%의 절반인 28%보다 얕다.",
+          "volume": "쉬는 동안 줄었던 거래량이 최근 다시 크게 늘었다. 10월 19일 50만 6,600주까지 줄었다가 10월 21일 274만 4,500주로 뛰었다. 최근 5일 거래량은 20일 평균의 1.57배로 거래량이 마른 상태가 아니다.",
+          "position": "현재가 357.27달러는 피벗 333.3달러를 7.19% 위로 넘어선 자리다. 예비 손절 320.18달러까지는 3.94% 아래이고 10일선과는 하루 변동폭의 2.3배 떨어져 있다. 10월 26일 종가는 그날 고저폭의 96% 위치에서 마감했다.",
+          "maStack": "가격이 20일선 309.79달러, 50일선 295.49달러, 150일선 229.96달러를 모두 위에 두고 있다. 20일선 기울기는 +2.17%로 오르고 있다.",
+          "note": "그림과 숫자가 일치한다. 10월 21일 긴 양봉과 함께 거래량 막대가 치솟는 모습이 그대로 보인다."
+        },
+        "entryChecklist": [
+          "시장 판정이 빨간불에서 벗어나 10일선이 20일선 위로 다시 올라서는지",
+          "2026년 11월 4일 3분기 실적에서 수주 회복과 올해 조정 주당순이익 11.15~11.45달러 전망이 유지되는지",
+          "실적 이후 새로 만들어지는 쉬는 구간의 저점과 그때 생기는 피벗이 어디인지",
+          "현재가 357.27달러가 10일선 쪽으로 돌아와 이격이 하루 변동폭 2배 이내로 줄어드는지",
+          "최근 5일 거래량이 20일 평균의 0.7배 수준까지 줄어드는지"
+        ],
+        "earningsRisk": "매매 달력에는 확정된 실적 발표 일정이 없으나, 애널리스트 전망치 자료는 다음 실적일을 2026년 11월 4일로 적고 있다. 일주일 뒤라 결과에 따라 주가가 크게 움직일 수 있는 구간이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "f1"
+          ],
+          "reasons": [
+            "f1: statement의 '2026년 2분기 매출은 10억 달러'가 quote(Organic revenue growth of 0.1%...)에 명시되지 않음. f2에서 DSA 부문만 $606.5M인데 전체 매출 10억 달러는 근거가 없음",
+            "lead: '10월 21일 이미 피벗 333.3달러를 넘어 추격 구간에 들어왔고 시장 판정이 빨간불'은 어떤 claim의 quote에도 없는 차트 판정 — CLAUDE.md 지침(모든 팀·실장은 차트 모양을 판정하지 않는다)에 위배"
+          ],
+          "leadFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "leadOriginal": "신약 외주 주문이 4년 만에 가장 좋아지면서 주가가 5개월 만에 두 배 넘게 올랐다. 가장 강한 근거는 2026년 2분기에 4년 만의 최고 수주를 기록하고 회사가 올해 전망을 상단으로 올린 점이다. 가장 큰 걱정은 매출 자체는 아직 제자리(올해 유기적 성장 0~1% 전망)이고 회계상 순이익이 적자라는 점이다. 10월 21일 이미 피벗 333.3달러를 넘어 추격 구간에 들어왔고 시장 판정이 빨간불이라, 11월 4일 실적에서 수주 회복이 이어지지 않으면 이 그림은 깨진다.",
+        "financialsNarrativeOriginal": "매출은 아직 늘지 않지만 이익의 질은 돌아오고 있다. 2026년 2분기 매출은 10억 달러로 유기적 성장 0.1%에 그쳤는데, 이게 2023년 3분기 이후 가장 높은 수치다. 조정 주당순이익은 3.02달러였고 조정 영업이익률은 직전 분기보다 4.2%포인트 오른 20.5%가 됐다. 다만 회계 기준으로는 주당 0.03달러 손실이라 흑자로 완전히 돌아섰다고 말하기는 이르다.",
+        "consensus": {
+          "saleCy": -2.44,
+          "saleNy": 2.55,
+          "epsCy": 10.64,
+          "epsNy": 12.11,
+          "cyTrend": 0.39,
+          "nyTrend": 0.32
+        },
+        "researchedOn": "2026-10-27",
+        "session": "2026-10-26",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "ZS",
       "nameKo": "지스케일러",
       "sector": "Technology",
@@ -8549,5 +10001,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-25T08:31:32.013Z"
+  "updated": "2026-10-26T23:16:01.022Z"
 };
