@@ -1,6 +1,1368 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "ZS",
+      "nameKo": "지스케일러",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "industryRank": {
+        "frank": 4,
+        "frank25dChg": 2,
+        "headline": "AI 확산이 보안 수요를 키우면서 사이버보안 기업의 실적이 좋아져 인프라 소프트웨어 업종이 상위에 올랐다.",
+        "asOf": "2026-10-26"
+      },
+      "requestedOn": "2026-10-27",
+      "session": "2026-10-26",
+      "at": "2026-10-26T23:41:50.793Z",
+      "verdict": "아니다",
+      "verdictLine": "이미 10월 22일 피벗 237.22를 9.79% 넘어선 추격 구간인 데다 시장 판정이 빨간불이어서 지금 새로 살 자리는 아니다.",
+      "basis": [
+        {
+          "point": "10월 22일에 피벗 237.22를 넘어 지금은 9.79% 위에 있다 — 넘은 뒤 사는 것은 추격이다.",
+          "side": "against",
+          "checkRef": "차트:피벗 거리"
+        },
+        {
+          "point": "시장 판정이 빨간불이라 새로 사지 않는 구간이다.",
+          "side": "against",
+          "checkRef": "차트:시장"
+        },
+        {
+          "point": "최근 분기도 순손실 336.9만 달러로 적자다.",
+          "side": "against",
+          "checkRef": "CANSLIM:C"
+        },
+        {
+          "point": "상대강도가 1개월 기준 상위 0.5%로 업종 주도주 자리에 있다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "회사 가이던스 기준 2027 회계연도 매출은 16.6~17.5% 늘어난다.",
+          "side": "for",
+          "checkRef": "f5"
+        }
+      ],
+      "conditions": [],
+      "invalidation": "예비 손절 225.77 아래로 종가가 내려가면 이번 상승 흐름은 깨진 것으로 본다. 반대로 시장이 돌아서고 피벗 위에서 저점을 높이며 조용히 쉬는 구간이 새로 생기면 이 판정은 성급했던 것이 된다.",
+      "dataLimits": "기관 보유 자료가 없고 국내 증권사 리포트도 0건이며, 신제품별 매출은 회사가 공개하지 않아 전체 수치로만 확인했다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "market_red",
+            "ko": "시장 판정이 빨간불이다 (신규 매수 금지 구간)"
+          },
+          {
+            "key": "post_breakout",
+            "ko": "이미 피벗 237.22 을 넘었다(2026-10-22) — 넘은 뒤에 사는 것은 추격이다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-10-26",
+          "market": "2026-10-23"
+        }
+      },
+      "setup": {
+        "state": "post",
+        "grade": "B",
+        "pivot": 237.22,
+        "stop": 225.77,
+        "distToPivotPct": 9.79,
+        "distToPivotAdr": 2.02,
+        "riskPerSharePct": 4.83,
+        "extensionAdr": 2.49,
+        "adrPct": 4.86,
+        "breakDate": "2026-10-22",
+        "chase": false,
+        "metrics": {
+          "baseBars": 11,
+          "baseWeeks": 2.2,
+          "depthPct": 14.3,
+          "priorMovePct": 71.9,
+          "higherLows": 0,
+          "contraction": 1.38,
+          "closeRange10Adr": 2.3,
+          "surf10": 0.89,
+          "surf20": 1.69,
+          "slope20": 1.43,
+          "baseLow": 203.33,
+          "lastSwingLow": 203.33
+        },
+        "reasons": [
+          "선행 상승 +72%",
+          "베이스 2.2주",
+          "깊이 14.3%",
+          "✗ 저점 상승 0회",
+          "진폭 1.38배 · 10일 종가폭 2.3 ADR",
+          "10일선 +0.9 ADR · 20일선 +1.7 ADR",
+          "20일선 기울기 +1.43%"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 72% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 2.2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.38배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 14.3% · ADR 4.86%의 2.9배 · 선행 상승의 절반 36%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 260.45 · 20일선 219.3 · 50일선 198.76"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.09배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "2026-10-22 돌파봉 거래량 = 20일 평균의 1.32배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 2026-10-22 피벗 237.22 돌파 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.83% · ADR 4.86%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.5 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 적자축소 (순이익 기준)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 적자축소/적자확대/적자확대 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 76%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.09배(20일 평균 대비) · 오늘 거래대금 1.69배(상승일) · 상장주식 163M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 0.5% · 3M 0.59% · 6M 3.56% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "ZS",
+        "fetchedAt": "2026-10-27",
+        "source": "한국투자증권 Open API",
+        "per": 653.68,
+        "pbr": 16.22,
+        "eps": 0.4,
+        "bps": 15.93,
+        "shares": 163055000,
+        "marketCapM": 42133,
+        "high52": 336.99,
+        "high52Date": "2025-11-03",
+        "low52": 114.625,
+        "low52Date": "2026-04-10",
+        "last": 258.4,
+        "prevClose": 255.15,
+        "nameKo": "지스케일러",
+        "nameEn": "ZSCALER INC",
+        "listedOn": "2018-03-15",
+        "exchange": "나스닥",
+        "listedShares": 163055000
+      },
+      "estimates": {
+        "ticker": "ZS",
+        "url": "https://finance.yahoo.com/quote/ZS/analysis/",
+        "fetchedAt": "2026-10-27",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-10-31",
+            "eps": 1.16,
+            "epsLow": 1.15,
+            "epsHigh": 1.2,
+            "epsYearAgo": 0.96,
+            "epsAnalysts": 41,
+            "epsGrowth": 21,
+            "epsCur": "USD",
+            "rev": 938160410,
+            "revAnalysts": 42,
+            "revYearAgo": 788112000,
+            "revGrowth": 19,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-01-31",
+            "eps": 1.18,
+            "epsLow": 1.14,
+            "epsHigh": 1.29,
+            "epsYearAgo": 1.01,
+            "epsAnalysts": 41,
+            "epsGrowth": 17.3,
+            "epsCur": "USD",
+            "rev": 957752100,
+            "revAnalysts": 41,
+            "revYearAgo": 815751000,
+            "revGrowth": 17.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-07-31",
+            "eps": 4.91,
+            "epsLow": 4.86,
+            "epsHigh": 5.42,
+            "epsYearAgo": 4.21,
+            "epsAnalysts": 44,
+            "epsGrowth": 16.6,
+            "epsCur": "USD",
+            "rev": 3931401600,
+            "revAnalysts": 46,
+            "revYearAgo": 3352523000,
+            "revGrowth": 17.3,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-07-31",
+            "eps": 5.62,
+            "epsLow": 4.68,
+            "epsHigh": 6.78,
+            "epsYearAgo": 4.91,
+            "epsAnalysts": 43,
+            "epsGrowth": 14.6,
+            "epsCur": "USD",
+            "rev": 4579063640,
+            "revAnalysts": 43,
+            "revYearAgo": 3931401600,
+            "revGrowth": 16.5,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-10-31",
+            "cur": "USD",
+            "now": 1.16,
+            "d7": 0,
+            "d30": 0,
+            "d90": 7.7,
+            "ago90": 1.08,
+            "up7": 34,
+            "up30": 34,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 1.18,
+            "d7": 0,
+            "d30": 0,
+            "d90": 6.4,
+            "ago90": 1.11,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-07-31",
+            "cur": "USD",
+            "now": 4.91,
+            "d7": 0,
+            "d30": 0,
+            "d90": 6.8,
+            "ago90": 4.6,
+            "up7": 2,
+            "up30": 2,
+            "down7": 1,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-07-31",
+            "cur": "USD",
+            "now": 5.62,
+            "d7": 0,
+            "d30": 0.4,
+            "d90": 3.3,
+            "ago90": 5.44,
+            "up7": 11,
+            "up30": 12,
+            "down7": 2,
+            "down30": 2
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-07-31",
+            "actual": 1.19,
+            "estimate": 1.09,
+            "surprisePct": 9.2,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-04-30",
+            "actual": 1.08,
+            "estimate": 1.01,
+            "surprisePct": 7.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-01-31",
+            "actual": 1.01,
+            "estimate": 0.9,
+            "surprisePct": 12.6,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-10-31",
+            "actual": 0.96,
+            "estimate": 0.86,
+            "surprisePct": 11.4,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 2,
+          "ptRaised": 48,
+          "ptLowered": 0,
+          "total": 61,
+          "recent": [
+            {
+              "date": "2026-10-22",
+              "firm": "Freedom Broker",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 270,
+              "ptPrior": 230
+            },
+            {
+              "date": "2026-10-21",
+              "firm": "DA Davidson",
+              "action": "init",
+              "from": null,
+              "to": "Neutral",
+              "ptAction": "Announces",
+              "pt": 215,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-10-15",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 260,
+              "ptPrior": 245
+            },
+            {
+              "date": "2026-10-09",
+              "firm": "Citizens",
+              "action": "main",
+              "from": "Market Outperform",
+              "to": "Market Outperform",
+              "ptAction": "Raises",
+              "pt": 265,
+              "ptPrior": 210
+            },
+            {
+              "date": "2026-10-08",
+              "firm": "Amerx",
+              "action": "init",
+              "from": null,
+              "to": "Buy",
+              "ptAction": "Announces",
+              "pt": 305,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-10-07",
+              "firm": "Macquarie",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 250,
+              "ptPrior": 200
+            },
+            {
+              "date": "2026-10-07",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 250,
+              "ptPrior": 225
+            },
+            {
+              "date": "2026-10-07",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 245,
+              "ptPrior": 205
+            },
+            {
+              "date": "2026-10-07",
+              "firm": "Jefferies",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 250,
+              "ptPrior": 220
+            },
+            {
+              "date": "2026-10-07",
+              "firm": "Canaccord Genuity",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 250,
+              "ptPrior": 210
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-24",
+          "upcoming": true,
+          "estimated": true
+        }
+      },
+      "cnbc": [
+        {
+          "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
+          "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
+          "date": "2026-09-17",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Investors should use the volatility to add to their portfolios, says Hightower's Stephanie Link",
+          "url": "https://www.cnbc.com/video/2026/10/26/investors-should-use-the-volatility-to-add-to-their-portfolios-says-hightowers-stephanie-link.html",
+          "date": "2026-10-26",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Trade Tracker: Hightower's Stephanie Link buys Zscaler, buys more Wells Fargo and sells Dover",
+          "url": "https://www.cnbc.com/video/2026/10/23/trade-tracker-stephanie-link-buys-zscaler-buys-more-wells-fargo-sells-dover.html",
+          "date": "2026-10-23",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Final Trades: Zscaler, ServiceNow and Spotify",
+          "url": "https://www.cnbc.com/video/2026/10/22/final-trades-zscaler-servicenow-and-spotify.html",
+          "date": "2026-10-22",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
+          "url": "https://www.cnbc.com/video/2026/10/06/zscaler-ceo-jay-chaudhry-on-cybersecurity-in-the-age-of-ai-company-growth-outlook.html",
+          "date": "2026-10-06",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Final Trade: HQY, EEM, C, ZS",
+          "url": "https://www.cnbc.com/video/2026/10/05/final-trade-hqy-eem-c-zs.html",
+          "date": "2026-10-05",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-27",
+        "nameKo": "지스케일러",
+        "nameEn": "ZSCALER INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-07-31",
+              "derived": true,
+              "revenue": 898185000,
+              "profit": -15492000,
+              "netIncome": -3369000,
+              "margin": -1.7,
+              "yoy": {
+                "revenue": 24.9,
+                "profit": 52,
+                "netIncome": 80.8,
+                "priorEnd": "2025-07-31"
+              }
+            },
+            {
+              "periodEnd": "2026-04-30",
+              "derived": false,
+              "revenue": 850475000,
+              "profit": -29640000,
+              "netIncome": -13883000,
+              "margin": -3.5,
+              "yoy": {
+                "revenue": 25.4,
+                "profit": -16.6,
+                "netIncome": -236.6,
+                "priorEnd": "2025-04-30"
+              }
+            },
+            {
+              "periodEnd": "2026-01-31",
+              "derived": false,
+              "revenue": 815751000,
+              "profit": -51773000,
+              "netIncome": -34312000,
+              "margin": -6.3,
+              "yoy": {
+                "revenue": 25.9,
+                "profit": -29,
+                "netIncome": -344.2,
+                "priorEnd": "2025-01-31"
+              }
+            },
+            {
+              "periodEnd": "2025-10-31",
+              "derived": false,
+              "revenue": 788112000,
+              "profit": -36362000,
+              "netIncome": -11615000,
+              "margin": -4.6,
+              "yoy": {
+                "revenue": 25.5,
+                "profit": -18.6,
+                "netIncome": 3.6,
+                "priorEnd": "2024-10-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
+              "url": "https://www.nasdaq.com/articles/zscaler-consensus-price-target-rises-1012-23839",
+              "date": "2026-10-23",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Zscaler Reaches Analyst Target Price",
+              "url": "https://www.nasdaq.com/articles/zscaler-reaches-analyst-target-price",
+              "date": "2026-10-23",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Zscaler (ZS) Ascends While Market Falls: Some Facts to Note",
+              "url": "https://www.nasdaq.com/articles/zscaler-zs-ascends-while-market-falls-some-facts-note-0",
+              "date": "2026-10-22",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Zscaler's Data Security Push: Can Its Security Tools Win More Deals?",
+              "url": "https://www.nasdaq.com/articles/zscalers-data-security-push-can-its-security-tools-win-more-deals",
+              "date": "2026-10-22",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Here's Why Zscaler (ZS) is a Strong Momentum Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-zscaler-zs-strong-momentum-stock-0",
+              "date": "2026-10-19",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Should You Invest in Zscaler (ZS) Based on Bullish Wall Street Views?",
+              "url": "https://www.nasdaq.com/articles/should-you-invest-zscaler-zs-based-bullish-wall-street-views",
+              "date": "2026-10-19",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-06",
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-24",
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-03",
+            "itemsKo": [
+              "실적 발표",
+              "2.05",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-26",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000095/zs-20260526.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-16",
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000082/zs-20260415.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-26",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-20260226.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "rank": {
+        "m1": 0.5,
+        "m3": 0.59,
+        "m6": 3.56
+      },
+      "yahooNews": [
+        {
+          "title": "CrowdStrike CEO Competes on Model Pricing: “Ours Is Like Three Cents”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-ceo-competes-model-pricing-143437629.html",
+          "date": "2026-10-26",
+          "publisher": "TIKR",
+          "via": "Yahoo"
+        }
+      ],
+      "teamView": {
+        "seojun": {
+          "asOf": "2026-10-26",
+          "grade": "B",
+          "state": "post",
+          "watch": false,
+          "blocked": null,
+          "distToPivotPct": 7.56,
+          "fit": null
+        },
+        "doyun": {
+          "lists": [
+            "거래대금 상위",
+            "RS(1MO)",
+            "RS(3MO)"
+          ],
+          "lead": "9월 초 발표한 분기 실적에서 매출이 25% 늘고 적자가 줄어든 것이 반등의 바탕으로 보인다. 52주 저점(4월) 이후 3개월 52%, 6개월 77% 올랐다. 다만 고점 대비로는 아직 크게 낮고 주가 부담이 커서, 매출 증가세가 꺾이면 이야기가 약해진다.",
+          "researchedOn": "2026-10-22"
+        },
+        "jaemin": null,
+        "holding": null
+      },
+      "market": {
+        "verdict": "red",
+        "ko": "🔴 10일선이 20일선 아래 4일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+        "finra": "warn",
+        "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과"
+      },
+      "verified": {
+        "checked": 6,
+        "ok": 26,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 0
+      },
+      "numberCut": 0,
+      "deep": {
+        "status": "done",
+        "ticker": "ZS",
+        "company": "지스케일러는 기업 직원과 기기가 인터넷·내부 업무앱에 접속할 때 거치는 보안 관문을 클라우드로 제공한다. 매출은 대부분 구독 계약(연간반복매출)에서 나온다. 최근에는 데이터 보안과 AI 보안 쪽으로 제품을 넓히고 있다.",
+        "lead": "지금은 매수 기준에 맞지 않는다. 가장 큰 걱정은 2027 회계연도 매출 증가율 전망이 16.6~17.5%로 낮아진 것이다. 다만 매출은 꾸준히 늘고 있고, 시장이 돌아서면 그림이 달라진다.",
+        "newsNarrative": "10월 주가를 움직인 것은 투자자의 날과 증권가 눈높이 상향이다. 회사는 10월 6일 투자자의 날에서 1분기와 2027 회계연도 가이던스를 그대로 유지했다. 그 뒤 증권사 목표주가 평균이 10.12% 올라 238.39달러가 됐다. 10월 23일에는 하이타워의 스테파니 링크가 지스케일러를 샀다고 CNBC에서 밝혔다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "2026년 7월 끝난 분기 매출이 1년 전보다 25% 늘어 8억 9,820만 달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                "date": "2026-09-03",
+                "quote": "Revenue: Grew 25% year over year to $898.2 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "10월 6일 투자자의 날에서 1분기와 2027 회계연도 가이던스를 그대로 유지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler, Inc. Form 8-K (Regulation FD Disclosure)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm",
+                "date": "2026-10-06",
+                "quote": "The Company also issued a press release on October 6, 2026 summarizing the presentation and reaffirmed its guidance for first quarter and fiscal year 2027.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "영업 조직을 총괄하는 최고매출책임자가 10월 1일 자로 Ross Tackett 으로 바뀌었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler, Inc. Form 8-K (Departure/Appointment of Certain Officers)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm",
+                "date": "2026-09-24",
+                "quote": "Zscaler, Inc. (the \"Company\") is promoting Ross Tackett to be the Company's Chief Revenue Officer effective October 1, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "증권사 목표주가 평균이 10.12% 올라 238.39달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/zscaler-consensus-price-target-rises-1012-23839",
+                "date": "2026-10-23",
+                "quote": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "하이타워의 스테파니 링크가 지스케일러를 매수했다고 CNBC 에서 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Trade Tracker: Hightower's Stephanie Link buys Zscaler, buys more Wells Fargo and sells Dover",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/10/23/trade-tracker-stephanie-link-buys-zscaler-buys-more-wells-fargo-sells-dover.html",
+                "date": "2026-10-23",
+                "quote": "Trade Tracker: Hightower's Stephanie Link buys Zscaler, buys more Wells Fargo and sells Dover",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 꾸준히 늘지만 이익은 아직 적자다. 2026 회계연도 매출은 25% 늘어 33.53억 달러였다. 분기 적자는 줄어 4분기 순손실이 340만 달러로 1년 전 1,760만 달러에서 작아졌다. 다만 연간으로는 순손실이 6,320만 달러로 전년 4,150만 달러보다 커졌다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026 회계연도 매출이 25% 늘어 33.53억 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                  "date": "2026-09-03",
+                  "quote": "Revenue: Grew 25% year over year to $3,353 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "연간반복매출이 25% 늘어 37.71억 달러가 됐고 그중 2.46억 달러가 순증분이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                  "date": "2026-09-03",
+                  "quote": "ARR: Grew 25% year over year to $3,771 million, of which $246 million was net new ARR",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "4분기 순손실이 340만 달러로 1년 전 1,760만 달러에서 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                  "date": "2026-09-03",
+                  "quote": "GAAP net loss was $3.4 million, compared to $17.6 million in the fourth quarter of fiscal 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "연간으로는 순손실이 6,320만 달러로 전년 4,150만 달러보다 커졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                  "date": "2026-09-03",
+                  "quote": "GAAP net loss was $63.2 million, compared to $41.5 million in fiscal 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "f5",
+              "statement": "회사 가이던스 기준 2027 회계연도 매출은 39.08억~39.38억 달러로 16.6~17.5% 늘어난다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Hosts 2026 Investor Day; Reaffirms First Quarter and Fiscal 2027 Guidance (Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm",
+                  "date": "2026-10-06",
+                  "quote": "Revenue of approximately $3.908 billion to $3.938 billion, growth of 16.6% to 17.5%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f6",
+              "statement": "1분기 매출 가이던스는 9.35억~9.39억 달러로 약 19% 증가다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Hosts 2026 Investor Day; Reaffirms First Quarter and Fiscal 2027 Guidance (Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm",
+                  "date": "2026-10-06",
+                  "quote": "Revenue of $935 million to $939 million, approximately 19% year-over-year growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": [
+              {
+                "id": "f7",
+                "statement": "증권사 목표주가 평균이 10.12% 올라 238.39달러가 됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
+                    "publisher": "Fintel (Nasdaq)",
+                    "url": "https://www.nasdaq.com/articles/zscaler-consensus-price-target-rises-1012-23839",
+                    "date": "2026-10-23",
+                    "quote": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "증권가는 눈높이를 올리는 쪽이다 — 이번 분기 주당순이익 추정치가 90일 전보다 7.7% 높아졌고 최근 30일 상향 34명·하향 0명이다. 최근 네 개 분기 실적이 모두 예상을 9.2~12.6% 웃돌았고, 이는 매출이 24.9% 늘어난 데서 나왔다. 다만 다음 회계연도 주당순이익 증가율 추정은 14.6%로 올해 16.6%보다 낮다.",
+        "newDrivers": [
+          {
+            "what": "AI 보안·에이전틱 보안운영 제품군 — AI가 만드는 새 위협과 AI 에이전트의 작업을 감시·차단하는 신제품 묶음",
+            "kind": "product",
+            "stage": "매출 발생 중",
+            "since": "2026-09",
+            "basis": [
+              {
+                "id": "d1",
+                "statement": "회사는 제로트러스트 SASE·에이전틱 보안운영·데이터 보안·AI 보안 네 갈래의 혁신이 플랫폼 채택을 늘린다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                    "date": "2026-09-03",
+                    "quote": "Our continued innovation across Zero Trust SASE, Agentic SecOps, Data Security, and Security for AI is driving increased platform adoption and creating new avenues for growth",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d3",
+                "statement": "신제품을 포함한 전체 연간반복매출이 25% 늘어 37.71억 달러가 됐고 순증분은 2.46억 달러다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                    "date": "2026-09-03",
+                    "quote": "ARR: Grew 25% year over year to $3,771 million, of which $246 million was net new ARR",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d4",
+                "statement": "회사는 1분기 비GAAP 영업이익이 2.15억~2.17억 달러로 25~26% 늘고 영업이익률 23%가 될 것으로 본다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Hosts 2026 Investor Day; Reaffirms First Quarter and Fiscal 2027 Guidance (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm",
+                    "date": "2026-10-06",
+                    "quote": "Non-GAAP income from operations of $215 million to $217 million, approximately 25% to 26% year-over-year growth, representing a 23% operating margin.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d5",
+                "statement": "회사 가이던스 기준 2027 회계연도 매출은 39.08억~39.38억 달러, 증가율 16.6~17.5%다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Hosts 2026 Investor Day; Reaffirms First Quarter and Fiscal 2027 Guidance (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm",
+                    "date": "2026-10-06",
+                    "quote": "Revenue of approximately $3.908 billion to $3.938 billion, growth of 16.6% to 17.5%.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d6",
+                "statement": "회사는 장기 목표로 연간반복매출 100억 달러를 제시했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Hosts 2026 Investor Day; Reaffirms First Quarter and Fiscal 2027 Guidance (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm",
+                    "date": "2026-10-06",
+                    "quote": "drive Zscaler towards achieving our $10 billion ARR target",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "d7",
+                "statement": "2027 회계연도 매출 증가율 전망 16.6~17.5%는 직전 회계연도 25%보다 낮다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Hosts 2026 Investor Day; Reaffirms First Quarter and Fiscal 2027 Guidance (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm",
+                    "date": "2026-10-06",
+                    "quote": "Revenue of approximately $3.908 billion to $3.938 billion, growth of 16.6% to 17.5%.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  },
+                  {
+                    "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                    "date": "2026-09-03",
+                    "quote": "Revenue: Grew 25% year over year to $3,353 million.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d8",
+                "statement": "4분기 잉여현금흐름이 6,080만 달러로 매출의 7%에 그쳐 1년 전 24%에서 낮아졌다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                    "date": "2026-09-03",
+                    "quote": "Free cash flow was $60.8 million, or 7% of revenue, compared to $171.9 million, or 24% of revenue, in the fourth quarter of fiscal 2025",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "최고매출책임자(영업 총괄) 교체 — Ross Tackett 승진",
+            "kind": "management",
+            "stage": "출시",
+            "since": "2026-10-01",
+            "basis": [
+              {
+                "id": "d9",
+                "statement": "Ross Tackett 이 10월 1일 자로 최고매출책임자로 승진했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler, Inc. Form 8-K (Departure/Appointment of Certain Officers)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm",
+                    "date": "2026-09-24",
+                    "quote": "Zscaler, Inc. (the \"Company\") is promoting Ross Tackett to be the Company's Chief Revenue Officer effective October 1, 2026.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d10",
+                "statement": "전임 Mike Rich 는 임원에서 물러나 연말까지 전략 자문으로 남는다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Zscaler, Inc. Form 8-K (Departure/Appointment of Certain Officers)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm",
+                    "date": "2026-09-24",
+                    "quote": "Mr. Tackett will succeed Mike Rich, who will step down as an officer effective October 1, 2026, but will remain with the Company as a strategic advisor for a transition period through December 31, 2026.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것은 AI 보안 제품군과 영업 총괄 교체 두 가지다. 회사는 9월 실적 발표에서 제로트러스트 SASE·에이전틱 보안운영·데이터 보안·AI 보안 네 갈래의 혁신이 플랫폼 채택을 늘리고 있다고 밝혔다. 이들을 포함한 전체 연간반복매출은 25% 늘어 37.71억 달러가 됐다. 회사 가이던스 기준 2027 회계연도 매출 증가율은 16.6~17.5%이고, 장기 목표로는 연간반복매출 100억 달러를 내걸었다. 10월 1일에는 대형 계약 영업을 이끄는 최고매출책임자가 Ross Tackett 으로 바뀌었다. 다만 회사가 제품별 매출을 따로 공개하지 않아 신제품이 얼마나 보태는지는 가려지지 않는다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순손실 336.9만 달러 — 1년 전보다 80.8% 줄었으나 흑자 전환은 아니다 · 매출 24.9% 증가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 네 개 분기 모두 영업적자 — 전년비 +52%·-16.6%·-29%·-18.6% · 3년 추세와 자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "충족",
+            "evidence": "AI 보안·데이터 보안 신제품군과 10월 1일 최고매출책임자 교체 확인 · 참고: 52주 고점의 76%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.09배로 줄지 않았다 · 상승일 거래대금 1.69배 · 상장주식 163M주 · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1개월 0.5% · 3개월 0.59% · 6개월 3.56% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨강 · 빚내서 산 주식이 1년 전보다 31.4% 늘어 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "2027 회계연도 매출 증가율 전망 16.6~17.5%는 직전 회계연도 25%보다 낮다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler Hosts 2026 Investor Day; Reaffirms First Quarter and Fiscal 2027 Guidance (Exhibit 99.1)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm",
+                "date": "2026-10-06",
+                "quote": "Revenue of approximately $3.908 billion to $3.938 billion, growth of 16.6% to 17.5%.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                "date": "2026-09-03",
+                "quote": "Revenue: Grew 25% year over year to $3,353 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "4분기 잉여현금흐름이 매출의 7%로 1년 전 24%에서 크게 낮아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                "date": "2026-09-03",
+                "quote": "Free cash flow was $60.8 million, or 7% of revenue, compared to $171.9 million, or 24% of revenue, in the fourth quarter of fiscal 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "2026 회계연도 순손실이 6,320만 달러로 전년 4,150만 달러보다 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler Reports Fourth Quarter and Fiscal Year 2026 Financial Results (Exhibit 99.1)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-07312026_991.htm",
+                "date": "2026-09-03",
+                "quote": "GAAP net loss was $63.2 million, compared to $41.5 million in fiscal 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출이 구독 계약 중심이라 신규·갱신 계약이 줄면 성장률이 곧바로 내려간다.",
+          "영업 총괄인 최고매출책임자가 막 바뀌어 대형 계약 영업 체계가 흔들릴 수 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 72% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 2.2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.38배로 좁아지지 않았다"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 14.3% · 하루 평균 변동폭 4.86%의 2.9배 · 선행 상승의 절반 아래"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 260.45 · 20일선 219.3 · 50일선 198.76"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.09배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "10월 22일 돌파봉 거래량 = 20일 평균의 1.32배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "10월 22일 피벗 237.22를 이미 넘어 9.79% 위 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.83% · 하루 평균 변동폭 4.86%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.49배 · 기준 2배 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨강"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보는 11봉, 약 2.2주 이어졌고 구간 저점은 203.33이다. 베이스 깊이는 14.3%로 하루 평균 변동폭 4.86%의 2.9배다. 횡보 중 저점이 높아진 횟수는 0회였고 폭은 1.38배로 오히려 넓어졌다.",
+          "volume": "최근 5일 거래량은 20일 평균의 1.09배로 줄지 않았다. 10월 22일 돌파봉 거래량은 20일 평균의 1.32배였다. 최근 10봉 중에서는 10월 23일 거래량이 가장 많았다.",
+          "position": "현재가 260.45는 피벗 237.22보다 9.79% 위, 하루 변동폭으로 2.02배 떨어져 있다. 예비 손절 225.77까지는 4.83%로 하루 평균 변동폭 4.86%와 비슷하다. 10일선과의 이격은 2.49배다.",
+          "maStack": "종가 260.45는 20일선 219.3, 50일선 198.76, 150일선 162.43을 모두 위에 두고 있다. 20일선 기울기는 +1.43%이고 50일선과의 이격은 31.04%다.",
+          "note": "그림과 숫자가 일치한다. 10월 중순 좁은 구간 뒤 긴 양봉이 이어지고 그 자리에서 거래량 막대가 커지는 모습이 보인다."
+        },
+        "entryChecklist": [
+          "시장 판정이 빨간불에서 벗어나 10일선이 20일선 위로 다시 올라서는지",
+          "주가가 피벗 237.22 위에서 2주 이상 쉬면서 저점을 높이는지",
+          "최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어드는지 — 지금은 1.09배",
+          "10일선 위 이격이 하루 변동폭 2배 이내로 좁혀지는지 — 지금은 2.49배",
+          "11월 24일로 추정되는 실적 발표일이 확정되고 그 전후 어디에 서 있는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 야후 파이낸스 자료는 다음 발표일을 11월 24일로 추정하는데, 날짜가 확정되지 않은 채 발표가 다가오면 그 전에 들어가는 것은 도박이 된다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "d2"
+          ],
+          "reasons": [
+            "d2의 quote가 투자자의 날의 구체적 내용(전략·플랫폼 혁신과 장기 성장 동력)을 뒷받침하지 않음 — '프레젠테이션을 요약한 보도자료 발표'라고만 기술"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "지금은 매수 기준에 맞지 않는다 — 이미 돌파한 뒤 올라선 구간이고 시장 판정이 빨간불이다. 가장 강한 근거는 매출이 꾸준히 늘고 상대강도가 1개월 기준 상위 0.5%라는 점이다. 가장 큰 걱정은 2027 회계연도 매출 증가율 전망이 16.6~17.5%로 낮아진 것이다. 시장이 돌아서고 피벗 237.22 위에서 저점을 높이며 쉬는 모습이 나오면 그림이 달라진다.",
+        "consensus": {
+          "saleCy": 17.27,
+          "saleNy": 16.47,
+          "epsCy": 16.57,
+          "epsNy": 14.57,
+          "cyTrend": -0.01,
+          "nyTrend": 0.37
+        },
+        "researchedOn": "2026-10-27",
+        "session": "2026-10-26",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "CRL",
       "nameKo": "찰스 리버 래브러토리스 인터내셔널",
       "sector": "Healthcare",
@@ -1448,1333 +2810,6 @@ window.ONDEMAND_DATA = {
         },
         "researchedOn": "2026-10-27",
         "session": "2026-10-26",
-        "carried": false,
-        "source": "ondemand"
-      }
-    },
-    {
-      "ticker": "ZS",
-      "nameKo": "지스케일러",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "industryRank": {
-        "frank": 4,
-        "frank25dChg": 2,
-        "headline": "AI 확산이 보안 수요를 키우면서 사이버보안 기업의 실적이 좋아져 인프라 소프트웨어 업종이 상위에 올랐다.",
-        "asOf": "2026-10-25"
-      },
-      "requestedOn": "2026-10-25",
-      "session": "2026-10-23",
-      "at": "2026-10-25T08:31:31.960Z",
-      "verdict": "아니다",
-      "verdictLine": "시장이 빨간불인 데다 10월 22일 피벗 237.22를 이미 넘은 추격 구간이라, 실적이 좋아도 지금 기준에는 맞지 않는다.",
-      "basis": [
-        {
-          "point": "상대강도가 1개월 상위 0.5%, 3개월 상위 0.59%로 업종 안에서 앞서 있다.",
-          "side": "for",
-          "checkRef": "CANSLIM:L"
-        },
-        {
-          "point": "분기 매출이 898.2백만 달러로 25% 늘고 연간 반복 매출도 25% 증가해 성장 축이 살아 있다.",
-          "side": "for",
-          "checkRef": "n1"
-        },
-        {
-          "point": "시장 판정이 빨강이라 신규 매수를 막는 구간이다.",
-          "side": "against",
-          "checkRef": "차트:시장"
-        },
-        {
-          "point": "10월 22일에 피벗 237.22를 이미 넘어 현재가가 7.56% 위에 있다.",
-          "side": "against",
-          "checkRef": "차트:피벗 거리"
-        },
-        {
-          "point": "피벗을 넘은 봉의 거래량이 20일 평균의 1.32배로 기준 2배에 못 미쳤다.",
-          "side": "against",
-          "checkRef": "차트:돌파 거래량"
-        }
-      ],
-      "conditions": [],
-      "invalidation": "종가가 예비 손절 225.77 아래로 내려가면 이번 상승 구간의 전제가 깨진 것으로 본다. 반대로 시장이 초록불로 돌아서고 피벗 237.22 위에서 거래량이 줄며 새로 쉬는 구간이 생기면 이 판단을 다시 봐야 한다.",
-      "dataLimits": "국내 증권사 리포트와 원문 PDF가 한 건도 없고, 기관 보유 자료도 받지 않는다. 실적 발표일은 달력에 확정돼 있지 않다.",
-      "verdictAdjusted": null,
-      "verdictOriginal": null,
-      "gates": {
-        "blocked": true,
-        "reasons": [
-          {
-            "key": "market_red",
-            "ko": "시장 판정이 빨간불이다 (신규 매수 금지 구간)"
-          },
-          {
-            "key": "post_breakout",
-            "ko": "이미 피벗 237.22 을 넘었다(2026-10-22) — 넘은 뒤에 사는 것은 추격이다"
-          }
-        ],
-        "asOf": {
-          "bar": "2026-10-23",
-          "market": "2026-10-23"
-        }
-      },
-      "setup": {
-        "state": "post",
-        "grade": "B",
-        "pivot": 237.22,
-        "stop": 225.77,
-        "distToPivotPct": 7.56,
-        "distToPivotAdr": 1.49,
-        "riskPerSharePct": 4.83,
-        "extensionAdr": 2.3,
-        "adrPct": 5.06,
-        "breakDate": "2026-10-22",
-        "chase": false,
-        "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
-          "depthPct": 14.3,
-          "priorMovePct": 71.9,
-          "higherLows": 0,
-          "contraction": 1.38,
-          "closeRange10Adr": 2.3,
-          "surf10": 0.89,
-          "surf20": 1.69,
-          "slope20": 1.43,
-          "baseLow": 203.33,
-          "lastSwingLow": 203.33
-        },
-        "reasons": [
-          "선행 상승 +72%",
-          "베이스 2.2주",
-          "깊이 14.3%",
-          "✗ 저점 상승 0회",
-          "진폭 1.38배 · 10일 종가폭 2.3 ADR",
-          "10일선 +0.9 ADR · 20일선 +1.7 ADR",
-          "20일선 기울기 +1.43%"
-        ],
-        "earnings": null
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 72% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.38배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 14.3% · ADR 5.06%의 2.8배 · 선행 상승의 절반 36%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 255.15 · 20일선 216.25 · 50일선 197.22"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.98배 (보통) · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "미충족",
-            "evidence": "2026-10-22 돌파봉 거래량 = 20일 평균의 1.32배 · 기준 2배"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "이미 2026-10-22 피벗 237.22 돌파 — 추격 구간"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 4.83% · ADR 5.06%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "미충족",
-            "evidence": "10일선 위 2.3 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 적자축소 (순이익 기준)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 적자축소/적자확대/적자확대 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 76%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 0.98배(20일 평균 대비) · 오늘 거래대금 1.69배(상승일) · 상장주식 163M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 0.5% · 3M 0.59% · 6M 3.56% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강 · 마진부채 주의(+30% 초과)"
-          }
-        ]
-      },
-      "kis": {
-        "ticker": "ZS",
-        "fetchedAt": "2026-10-25",
-        "source": "한국투자증권 Open API",
-        "per": 645.46,
-        "pbr": 16.01,
-        "eps": 0.4,
-        "bps": 15.93,
-        "shares": 163055000,
-        "marketCapM": 41603,
-        "high52": 336.99,
-        "high52Date": "2025-11-03",
-        "low52": 114.625,
-        "low52Date": "2026-04-10",
-        "last": 255.15,
-        "prevClose": 237.76,
-        "nameKo": "지스케일러",
-        "nameEn": "ZSCALER INC",
-        "listedOn": "2018-03-15",
-        "exchange": "나스닥",
-        "listedShares": 163055000
-      },
-      "estimates": {
-        "ticker": "ZS",
-        "url": "https://finance.yahoo.com/quote/ZS/analysis/",
-        "fetchedAt": "2026-10-25",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-10-31",
-            "eps": 1.16,
-            "epsLow": 1.15,
-            "epsHigh": 1.2,
-            "epsYearAgo": 0.96,
-            "epsAnalysts": 41,
-            "epsGrowth": 21,
-            "epsCur": "USD",
-            "rev": 938160410,
-            "revAnalysts": 42,
-            "revYearAgo": 788112000,
-            "revGrowth": 19,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-01-31",
-            "eps": 1.18,
-            "epsLow": 1.14,
-            "epsHigh": 1.29,
-            "epsYearAgo": 1.01,
-            "epsAnalysts": 41,
-            "epsGrowth": 17.3,
-            "epsCur": "USD",
-            "rev": 957752100,
-            "revAnalysts": 41,
-            "revYearAgo": 815751000,
-            "revGrowth": 17.4,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-07-31",
-            "eps": 4.91,
-            "epsLow": 4.86,
-            "epsHigh": 5.42,
-            "epsYearAgo": 4.21,
-            "epsAnalysts": 44,
-            "epsGrowth": 16.6,
-            "epsCur": "USD",
-            "rev": 3931401600,
-            "revAnalysts": 46,
-            "revYearAgo": 3352523000,
-            "revGrowth": 17.3,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-07-31",
-            "eps": 5.62,
-            "epsLow": 4.68,
-            "epsHigh": 6.78,
-            "epsYearAgo": 4.91,
-            "epsAnalysts": 43,
-            "epsGrowth": 14.6,
-            "epsCur": "USD",
-            "rev": 4579063640,
-            "revAnalysts": 43,
-            "revYearAgo": 3931401600,
-            "revGrowth": 16.5,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-10-31",
-            "cur": "USD",
-            "now": 1.16,
-            "d7": 0,
-            "d30": 0,
-            "d90": 7.7,
-            "ago90": 1.08,
-            "up7": 34,
-            "up30": 34,
-            "down7": 0,
-            "down30": 0
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-01-31",
-            "cur": "USD",
-            "now": 1.18,
-            "d7": 0,
-            "d30": 0,
-            "d90": 6.4,
-            "ago90": 1.11,
-            "up7": 0,
-            "up30": 0,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-07-31",
-            "cur": "USD",
-            "now": 4.91,
-            "d7": 0,
-            "d30": 0,
-            "d90": 6.8,
-            "ago90": 4.6,
-            "up7": 2,
-            "up30": 2,
-            "down7": 1,
-            "down30": 0
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-07-31",
-            "cur": "USD",
-            "now": 5.62,
-            "d7": 0,
-            "d30": 0.4,
-            "d90": 3.3,
-            "ago90": 5.44,
-            "up7": 11,
-            "up30": 12,
-            "down7": 2,
-            "down30": 2
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-07-31",
-            "actual": 1.19,
-            "estimate": 1.09,
-            "surprisePct": 9.2,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-04-30",
-            "actual": 1.08,
-            "estimate": 1.01,
-            "surprisePct": 7.1,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-01-31",
-            "actual": 1.01,
-            "estimate": 0.9,
-            "surprisePct": 12.6,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-10-31",
-            "actual": 0.96,
-            "estimate": 0.86,
-            "surprisePct": 11.4,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 2,
-          "ptRaised": 48,
-          "ptLowered": 0,
-          "total": 61,
-          "recent": [
-            {
-              "date": "2026-10-22",
-              "firm": "Freedom Broker",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 270,
-              "ptPrior": 230
-            },
-            {
-              "date": "2026-10-21",
-              "firm": "DA Davidson",
-              "action": "init",
-              "from": null,
-              "to": "Neutral",
-              "ptAction": "Announces",
-              "pt": 215,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-10-15",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 260,
-              "ptPrior": 245
-            },
-            {
-              "date": "2026-10-09",
-              "firm": "Citizens",
-              "action": "main",
-              "from": "Market Outperform",
-              "to": "Market Outperform",
-              "ptAction": "Raises",
-              "pt": 265,
-              "ptPrior": 210
-            },
-            {
-              "date": "2026-10-08",
-              "firm": "Amerx",
-              "action": "init",
-              "from": null,
-              "to": "Buy",
-              "ptAction": "Announces",
-              "pt": 305,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "Macquarie",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 250,
-              "ptPrior": 200
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "UBS",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 250,
-              "ptPrior": 225
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 245,
-              "ptPrior": 205
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "Jefferies",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 250,
-              "ptPrior": 220
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "Canaccord Genuity",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 250,
-              "ptPrior": 210
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-11-24",
-          "upcoming": true,
-          "estimated": true
-        }
-      },
-      "cnbc": [
-        {
-          "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
-          "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
-          "date": "2026-09-17",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "The jobs report, Lululemon earnings and more: Morning Squawk",
-          "url": "https://www.cnbc.com/2026/09/04/5-things-to-know-before-the-market-opens-friday.html",
-          "date": "2026-09-04",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Trade Tracker: Hightower's Stephanie Link buys Zscaler, buys more Wells Fargo and sells Dover",
-          "url": "https://www.cnbc.com/video/2026/10/23/trade-tracker-stephanie-link-buys-zscaler-buys-more-wells-fargo-sells-dover.html",
-          "date": "2026-10-23",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Final Trades: Zscaler, ServiceNow and Spotify",
-          "url": "https://www.cnbc.com/video/2026/10/22/final-trades-zscaler-servicenow-and-spotify.html",
-          "date": "2026-10-22",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
-          "url": "https://www.cnbc.com/video/2026/10/06/zscaler-ceo-jay-chaudhry-on-cybersecurity-in-the-age-of-ai-company-growth-outlook.html",
-          "date": "2026-10-06",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Final Trade: HQY, EEM, C, ZS",
-          "url": "https://www.cnbc.com/video/2026/10/05/final-trade-hqy-eem-c-zs.html",
-          "date": "2026-10-05",
-          "publisher": "CNBC",
-          "kind": "video"
-        }
-      ],
-      "detail": {
-        "fetchedAt": "2026-10-25",
-        "nameKo": "지스케일러",
-        "nameEn": "ZSCALER INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-07-31",
-              "derived": true,
-              "revenue": 898185000,
-              "profit": -15492000,
-              "netIncome": -3369000,
-              "margin": -1.7,
-              "yoy": {
-                "revenue": 24.9,
-                "profit": 52,
-                "netIncome": 80.8,
-                "priorEnd": "2025-07-31"
-              }
-            },
-            {
-              "periodEnd": "2026-04-30",
-              "derived": false,
-              "revenue": 850475000,
-              "profit": -29640000,
-              "netIncome": -13883000,
-              "margin": -3.5,
-              "yoy": {
-                "revenue": 25.4,
-                "profit": -16.6,
-                "netIncome": -236.6,
-                "priorEnd": "2025-04-30"
-              }
-            },
-            {
-              "periodEnd": "2026-01-31",
-              "derived": false,
-              "revenue": 815751000,
-              "profit": -51773000,
-              "netIncome": -34312000,
-              "margin": -6.3,
-              "yoy": {
-                "revenue": 25.9,
-                "profit": -29,
-                "netIncome": -344.2,
-                "priorEnd": "2025-01-31"
-              }
-            },
-            {
-              "periodEnd": "2025-10-31",
-              "derived": false,
-              "revenue": 788112000,
-              "profit": -36362000,
-              "netIncome": -11615000,
-              "margin": -4.6,
-              "yoy": {
-                "revenue": 25.5,
-                "profit": -18.6,
-                "netIncome": 3.6,
-                "priorEnd": "2024-10-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
-              "url": "https://www.nasdaq.com/articles/zscaler-consensus-price-target-rises-1012-23839",
-              "date": "2026-10-23",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Zscaler Reaches Analyst Target Price",
-              "url": "https://www.nasdaq.com/articles/zscaler-reaches-analyst-target-price",
-              "date": "2026-10-23",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "Zscaler (ZS) Ascends While Market Falls: Some Facts to Note",
-              "url": "https://www.nasdaq.com/articles/zscaler-zs-ascends-while-market-falls-some-facts-note-0",
-              "date": "2026-10-22",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Zscaler's Data Security Push: Can Its Security Tools Win More Deals?",
-              "url": "https://www.nasdaq.com/articles/zscalers-data-security-push-can-its-security-tools-win-more-deals",
-              "date": "2026-10-22",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Here's Why Zscaler (ZS) is a Strong Momentum Stock",
-              "url": "https://www.nasdaq.com/articles/heres-why-zscaler-zs-strong-momentum-stock-0",
-              "date": "2026-10-19",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Should You Invest in Zscaler (ZS) Based on Bullish Wall Street Views?",
-              "url": "https://www.nasdaq.com/articles/should-you-invest-zscaler-zs-based-bullish-wall-street-views",
-              "date": "2026-10-19",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Is Zscaler an Undervalued Cybersecurity Stock to Buy Right Now in October?",
-              "url": "https://www.nasdaq.com/articles/zscaler-undervalued-cybersecurity-stock-buy-right-now-october-0",
-              "date": "2026-10-15",
-              "publisher": "The Motley Fool"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-06",
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-24",
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-03",
-            "itemsKo": [
-              "실적 발표",
-              "2.05",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-26",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000095/zs-20260526.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-16",
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000082/zs-20260415.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-26",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-20260226.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "rank": {
-        "m1": 0.5,
-        "m3": 0.59,
-        "m6": 3.56
-      },
-      "verified": {
-        "checked": 9,
-        "ok": 26,
-        "unverified": 0,
-        "dead": 0,
-        "stripped": 1
-      },
-      "numberCut": 1,
-      "deep": {
-        "status": "done",
-        "ticker": "ZS",
-        "company": "지스케일러는 기업 직원과 서버가 인터넷·클라우드 앱에 접속할 때 거치는 보안 관문을 클라우드로 빌려주는 회사다. 고객은 대기업·공공기관이고, 연간 구독료(ARR, 연간 반복 매출) 형태로 돈을 번다. 최근 성장 축은 AI 사용과 AI 에이전트를 안전하게 쓰게 해 주는 보안 기능으로 옮겨가고 있다.",
-        "lead": "실적과 상대강도는 강하지만 지금 들어가는 자리는 아니다. 분기 매출이 1년 전보다 25% 늘고 연간 반복 매출도 같은 폭으로 커지면서 증권사 목표주가가 10월 들어 줄줄이 올랐다. 문제는 시장 판정이 빨간불인 데다 10월 22일에 이미 피벗 237.22를 넘어 지금 사면 추격이 된다는 점이다. 피벗 위에서 다시 쉬는 구간이 생기고 시장이 초록불로 돌아서면 그림이 달라진다.",
-        "newsNarrative": "9월 3일 실적이 이번 상승의 출발점이다. 분기 매출이 1년 전보다 25% 늘고 회사 기준 영업이익률이 24%로 최고치를 찍으면서 성장과 수익성이 같이 확인됐다. 10월 6일 투자자의 날에서 회사가 2027회계연도 전망을 그대로 유지하고 장기로 100억 달러 연간 반복 매출을 목표로 내걸자, 그 뒤 증권사 목표주가 상향이 이어졌다. 10월 23일에는 증권사 평균 목표주가가 238.39달러로 10.12% 높아졌다는 집계가 나왔다.",
-        "recentNews": [
-          {
-            "id": "n1",
-            "statement": "9월 3일 발표한 2026회계연도 4분기 매출이 898.2백만 달러로 1년 전보다 25% 늘었고, 연간 반복 매출도 같은 25% 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results (Form 8-K Exhibit 99.1)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
-                "date": "2026-09-03",
-                "quote": "Revenue grew 25% year over year to $898.2 million … ARR grew 25% year over year to $3,771 million, of which $246 million was net new ARR during the fourth quarter",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n2",
-            "statement": "10월 6일 투자자의 날에서 회사는 2027회계연도 전망을 그대로 유지하고, 장기로 100억 달러 연간 반복 매출을 목표로 제시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler 2026 Investor Day press release (Form 8-K Exhibit)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zsinvestordaypressrelease.htm",
-                "date": "2026-10-06",
-                "quote": "$10 billion ARR target",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Zscaler, Inc. Form 8-K (Regulation FD Disclosure)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm",
-                "date": "2026-10-06",
-                "quote": "The Company also issued a press release on October 6, 2026 summarizing the presentation and reaffirmed its guidance for first quarter and fiscal year 2027.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n3",
-            "statement": "9월 24일 영업 총괄인 최고매출책임자를 로스 태킷으로 교체했고, 10월 1일자로 취임했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler Appoints Ross Tackett as Chief Revenue Officer (Form 8-K Exhibit 99.1)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000193/zs-09242026_991.htm",
-                "date": "2026-09-24",
-                "quote": "Zscaler, Inc. (NASDAQ: ZS), the cybersecurity platform for the AI era, today announced the appointment of Ross Tackett as the company's Chief Revenue Officer, effective October 1, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n4",
-            "statement": "10월 23일 증권사 평균 목표주가가 238.39달러로 10.12% 올랐다는 집계가 나왔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
-                "publisher": "Fintel (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/zscaler-consensus-price-target-rises-1012-23839",
-                "date": "2026-10-23",
-                "quote": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n5",
-            "statement": "데이터 보안 제품이 추가 수주로 이어질지가 10월 들어 시장의 관심사로 다뤄졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler's Data Security Push: Can Its Security Tools Win More Deals?",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/zscalers-data-security-push-can-its-security-tools-win-more-deals",
-                "date": "2026-10-22",
-                "quote": "Zscaler's Data Security Push: Can Its Security Tools Win More Deals?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n6",
-            "statement": "10월 6일 창업자 겸 최고경영자가 방송에 나와 AI 시대의 보안 수요와 성장 전망을 설명했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/video/2026/10/06/zscaler-ceo-jay-chaudhry-on-cybersecurity-in-the-age-of-ai-company-growth-outlook.html",
-                "date": "2026-10-06",
-                "quote": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "financialsNarrative": "매출은 꾸준하고 적자는 줄어드는 중이다. 최근 네 분기 매출 증가율은 1년 전 대비 24.9%, 25.4%, 25.9%, 25.5%로 거의 변함이 없다. 가장 최근 분기 영업이익률은 -1.7%로 여전히 적자지만, 적자 폭은 1년 전보다 52% 줄었다. 회사 기준(비GAAP) 영업이익률은 매출의 24%로 최고치였다.",
-        "financials": {
-          "revenueTrend": [
-            {
-              "id": "f1",
-              "statement": "2026년 7월 결산 분기 매출이 898.2백만 달러로 1년 전보다 25% 늘었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results (Form 8-K Exhibit 99.1)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
-                  "date": "2026-09-03",
-                  "quote": "Revenue grew 25% year over year to $898.2 million",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f2",
-              "statement": "SEC 분기 자료 기준 최근 네 분기 매출 증가율은 24.9%, 25.4%, 25.9%, 25.5%로 거의 일정하다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Zscaler 분기 실적 (SEC EDGAR companyfacts)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
-                  "date": "2026-10-25",
-                  "quote": "2026-07-31 yoy.revenue 24.9 · 2026-04-30 yoy.revenue 25.4 · 2026-01-31 yoy.revenue 25.9 · 2025-10-31 yoy.revenue 25.5",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "profitTrend": [
-            {
-              "id": "f3",
-              "statement": "가장 최근 분기 영업이익률은 -1.7%로 적자지만, 적자 폭은 1년 전보다 52% 줄었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Zscaler 분기 실적 (SEC EDGAR companyfacts)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
-                  "date": "2026-10-25",
-                  "quote": "2026-07-31 margin -1.7 yoy.profit 52",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f4",
-              "statement": "회사 기준(비GAAP) 영업이익률은 매출의 24%로 최고치를 기록했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results (Form 8-K Exhibit 99.1)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
-                  "date": "2026-09-03",
-                  "quote": "Non-GAAP operating margin reached a record 24% of revenue",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "guidance": [
-            {
-              "id": "g1",
-              "statement": "회사가 내놓은 2027회계연도 매출 전망은 16.6~17.5% 성장, 연간 반복 매출 전망은 16.6~17.4% 성장이다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Zscaler 2026 Investor Day press release (Form 8-K Exhibit)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zsinvestordaypressrelease.htm",
-                  "date": "2026-10-06",
-                  "quote": "Revenue of approximately $3.908 billion to $3.938 billion, growth of 16.6% to 17.5%. · ARR of $4.396 billion to $4.426 billion, growth of approximately 16.6% to 17.4%.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "g2",
-              "statement": "이번 분기(10월 결산) 매출 전망은 1년 전보다 약 19% 증가다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Zscaler 2026 Investor Day press release (Form 8-K Exhibit)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zsinvestordaypressrelease.htm",
-                  "date": "2026-10-06",
-                  "quote": "Revenue of $935 million to $939 million, approximately 19% year-over-year growth.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "estimateRevisions": {
-            "direction": "raised",
-            "claims": [
-              {
-                "id": "e1",
-                "statement": "증권사 평균 목표주가가 10.12% 올라 238.39달러가 됐다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
-                    "publisher": "Fintel (Nasdaq)",
-                    "url": "https://www.nasdaq.com/articles/zscaler-consensus-price-target-rises-1012-23839",
-                    "date": "2026-10-23",
-                    "quote": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              },
-              {
-                "id": "e2",
-                "statement": "이번 분기 주당순이익 추정치가 90일 전보다 7.7% 올랐고, 같은 기간 목표주가 상향이 48건·하향이 0건이었다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler (ZS) Analysis — analyst estimates",
-                    "publisher": "Yahoo Finance",
-                    "url": "https://finance.yahoo.com/quote/ZS/analysis/",
-                    "date": "2026-10-25",
-                    "quote": "period 0q endDate 2026-10-31 now 1.16 d90 7.7 ago90 1.08 up30 34 down30 0 · ratings ptRaised 48 ptLowered 0",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "estimatesNarrative": "증권사 전망은 올라가는 쪽이다. 이번 분기(10월 결산) 주당순이익 추정치는 1.16달러로 1년 전 0.96달러보다 21% 많고, 90일 전보다 7.7% 상향됐다. 최근 4개 분기 실적은 추정치를 각각 9.2%, 7.1%, 12.6%, 11.4% 웃돌았는데 같은 기간 매출이 25% 안팎으로 꾸준히 늘어난 데서 나온 것이라 일회성으로 보기 어렵다. 다만 2028년 7월 결산 추정치는 최근 30일간 0.4% 움직이는 데 그쳐 상향 속도는 둔해졌다.",
-        "newDrivers": [
-          {
-            "what": "에이전틱 AI 보안 — AI 에이전트와 AI 앱이 늘면서 생긴 새 보안 수요를 회사가 신규 성장 축으로 선언했다",
-            "kind": "industry",
-            "stage": "매출 발생 중",
-            "since": "2026-10-06",
-            "basis": [
-              {
-                "id": "d1",
-                "statement": "10월 6일 투자자의 날에서 최고경영자가 에이전틱 AI 시대를 회사 역사상 가장 큰 기회라고 밝혔다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler 2026 Investor Day press release (Form 8-K Exhibit)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zsinvestordaypressrelease.htm",
-                    "date": "2026-10-06",
-                    "quote": "The agentic AI era is quickly becoming the most significant opportunity in our company's history.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              },
-              {
-                "id": "d2",
-                "statement": "9월 3일 실적 발표에서 회사는 제로트러스트 SASE·에이전틱 보안운영·데이터 보안·AI 보안 네 갈래의 신기능이 플랫폼 채택을 늘리고 있다고 설명했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results (Form 8-K Exhibit 99.1)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
-                    "date": "2026-09-03",
-                    "quote": "Our continued innovation across Zero Trust SASE, Agentic SecOps, Data Security, and Security for AI is driving increased platform adoption",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [
-              {
-                "id": "d3",
-                "statement": "연간 반복 매출이 3,771백만 달러로 1년 전보다 25% 늘었고, 그중 246백만 달러가 이번 분기에 새로 붙은 몫이다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results (Form 8-K Exhibit 99.1)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
-                    "date": "2026-09-03",
-                    "quote": "ARR grew 25% year over year to $3,771 million, of which $246 million was net new ARR during the fourth quarter",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "profitImpact": [
-              {
-                "id": "d4",
-                "statement": "신기능 확대가 비용으로 번지지 않아 회사 기준 영업이익률이 매출의 24%로 최고치를 찍었다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results (Form 8-K Exhibit 99.1)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
-                    "date": "2026-09-03",
-                    "quote": "Non-GAAP operating margin reached a record 24% of revenue",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "expectedGrowth": [
-              {
-                "id": "d5",
-                "statement": "회사 가이던스로 2027회계연도 연간 반복 매출을 16.6~17.4% 성장으로 잡았고, 장기로는 100억 달러를 목표로 내걸었다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler 2026 Investor Day press release (Form 8-K Exhibit)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zsinvestordaypressrelease.htm",
-                    "date": "2026-10-06",
-                    "quote": "ARR of $4.396 billion to $4.426 billion, growth of approximately 16.6% to 17.4%. · $10 billion ARR target",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "counter": [
-              {
-                "id": "d6",
-                "statement": "회사 스스로 2027회계연도 매출 성장률을 16.6~17.5%로 제시해, 25%였던 지난해보다 속도가 낮아진다고 본다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler 2026 Investor Day press release (Form 8-K Exhibit)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zsinvestordaypressrelease.htm",
-                    "date": "2026-10-06",
-                    "quote": "Revenue of approximately $3.908 billion to $3.938 billion, growth of 16.6% to 17.5%.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  },
-                  {
-                    "title": "Zscaler Announces Strong Fourth Quarter and Fiscal 2026 Financial Results (Form 8-K Exhibit 99.1)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
-                    "date": "2026-09-03",
-                    "quote": "Revenue grew 25% year over year to $898.2 million",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "what": "최고매출책임자 교체 — 영업·파트너 조직을 총괄하는 로스 태킷 선임",
-            "kind": "management",
-            "stage": "발표만",
-            "since": "2026-09-24",
-            "basis": [
-              {
-                "id": "d7",
-                "statement": "9월 24일 로스 태킷을 최고매출책임자로 선임했고 10월 1일자로 취임했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Zscaler Appoints Ross Tackett as Chief Revenue Officer (Form 8-K Exhibit 99.1)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000193/zs-09242026_991.htm",
-                    "date": "2026-09-24",
-                    "quote": "Zscaler, Inc. (NASDAQ: ZS), the cybersecurity platform for the AI era, today announced the appointment of Ross Tackett as the company's Chief Revenue Officer, effective October 1, 2026.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [],
-            "profitImpact": [],
-            "expectedGrowth": [],
-            "counter": []
-          }
-        ],
-        "nNarrative": "새로운 것은 AI 에이전트를 지켜 주는 보안 수요다. 회사는 10월 6일 투자자의 날에서 이 흐름을 창사 이래 가장 큰 기회라고 못 박았고, 9월 실적 발표에서도 AI 보안·데이터 보안 신기능이 플랫폼 채택을 늘린다고 설명했다. 돈으로도 이미 나타나 연간 반복 매출이 3,771백만 달러로 25% 늘었고 그중 246백만 달러가 이번 분기에 새로 붙었다. 이익 쪽도 비용이 앞서지 않아 회사 기준 영업이익률이 매출의 24%로 최고치였다. 기대치는 회사 가이던스 기준 2027회계연도 연간 반복 매출 16.6~17.4% 성장, 장기 목표 100억 달러다. 다만 그 성장률 자체가 지난해 25%보다 낮아, AI 보안 매출이 둔화를 메울 만큼 커지는지가 확인할 지점이다.",
-        "nVerdict": "충족",
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "분기 영업이익률 -1.7%로 아직 적자 · 적자 폭은 1년 전보다 52% 축소, 매출은 24.9% 증가 (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "최근 네 분기 이익 증감 +52%·-16.6%·-29%·-18.6% — 네 분기 모두 플러스는 아니다 · 3년 추세·자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "충족",
-            "evidence": "에이전틱 AI 보안 수요를 새 성장 축으로 선언(2026-10-06) · 연간 반복 매출 3,771백만 달러로 25% 증가, 신규분 246백만 달러 · 참고: 52주 고점의 76%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.98배로 마르지 않음(기준 0.7 이하) · 오늘 거래대금 1.69배 · 상장주식 163,055,000주 · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1개월 0.5% · 3개월 0.59% · 6개월 3.56% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "시장 판정 빨강(10일선이 20일선 아래 4일째) · 빚내서 산 주식이 1년 전보다 +31.4%로 주의선 초과"
-          }
-        ],
-        "risks": [
-          {
-            "id": "r1",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "Zscaler 2026 Investor Day press release (Form 8-K Exhibit)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zsinvestordaypressrelease.htm",
-                "date": "2026-10-06",
-                "quote": "Revenue of approximately $3.908 billion to $3.938 billion, growth of 16.6% to 17.5%.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "회사가 제시한 2027회계연도 매출 성장률 16.6~17.5%는 지난해 25%보다 낮아, 성장 둔화가 전망에 이미 들어가 있다.",
-            "stripped": true
-          },
-          {
-            "id": "r2",
-            "statement": "회계기준(GAAP) 영업손익은 네 분기 내내 적자로, 가장 최근 분기 영업이익률도 -1.7%다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler 분기 실적 (SEC EDGAR companyfacts)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
-                "date": "2026-10-25",
-                "quote": "2026-07-31 margin -1.7 · 2026-04-30 margin -3.5 · 2026-01-31 margin -6.3 · 2025-10-31 margin -4.6",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r3",
-            "statement": "10월 21일 한 증권사는 투자의견 중립, 목표주가 215달러로 분석을 새로 시작해 현재가보다 낮은 값을 제시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler (ZS) Analysis — rating actions",
-                "publisher": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/quote/ZS/analysis/",
-                "date": "2026-10-25",
-                "quote": "2026-10-21 DA Davidson init to Neutral ptAction Announces pt 215",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "structuralRisks": [
-          "매출이 제로트러스트 보안 플랫폼 한 축에 몰려 있어 그 수요가 흔들리면 대안이 없다.",
-          "구독 계약을 새로 따내고 갱신해야 매출이 유지되는 구조라 영업 조직 변화의 영향을 받는다."
-        ],
-        "chartCheck": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 72% · 기준 30% 이상"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "쉬는 구간 2.2주(11봉) · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점이 높아진 횟수 0회 · 폭은 1.38배로 오히려 넓어짐(1 미만이어야 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "쉬는 구간 깊이 14.3% · 하루 평균 변동폭 5.06%의 2.8배 · 선행 상승 72%의 절반 미만"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 255.15 · 20일선 216.25 · 50일선 197.22"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.98배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "미충족",
-            "evidence": "2026-10-22 돌파봉 거래량이 20일 평균의 1.32배 · 기준 2배"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "2026-10-22에 피벗 237.22를 이미 넘었고 현재가는 그보다 7.56% 위 — 추격 구간"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절까지 폭 4.83% · 하루 평균 변동폭 5.06% 이내"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "미충족",
-            "evidence": "10일선 위로 하루 변동폭의 2.3배 · 기준 2배 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "시장 판정 빨강 — 10일선이 20일선 아래 4일째(2026-10-19부터)"
-          }
-        ],
-        "chartObservation": {
-          "base": "쉬는 구간은 11봉, 2.2주로 기준의 아래쪽 끝에 걸쳐 있다. 그 안에서 저점이 높아진 적은 0회이고 가격 폭은 1.38배로 오히려 넓어졌다. 고점 대비 깊이는 14.3%로 하루 평균 변동폭 5.06%의 2.8배이며, 구간 저점은 203.33이다.",
-          "volume": "쉬는 동안 거래량이 마르지 않았다. 최근 5일 거래량은 20일 평균의 0.98배로 기준 0.7배를 넘는다. 10월 19~20일에 가장 줄었다가 10월 22~23일에 다시 늘었고, 10월 22일 피벗을 넘은 봉의 거래량은 20일 평균의 1.32배에 그쳤다.",
-          "position": "현재가 255.15는 피벗 237.22보다 7.56% 위이며, 이는 하루 평균 변동폭의 1.49배다. 피벗에서 예비 손절 225.77까지의 폭은 4.83%로 하루 평균 변동폭 5.06%보다 좁다. 10일선보다는 하루 변동폭의 2.3배 떠 있다.",
-          "maStack": "종가 255.15가 20일선 216.25, 50일선 197.22, 150일선 161.71 위에 차례로 있다. 20일선 기울기는 +1.43%로 올라가는 방향이고, 50일선보다 29.37% 위다.",
-          "note": "그림과 숫자가 일치한다. 10월 중순의 좁은 구간 뒤 마지막 두 봉이 주황 점선 위로 올라섰고, 거래량 막대도 그 두 봉에서 커졌다."
-        },
-        "entryChecklist": [
-          "시장 판정이 초록불로 바뀌는지 — 지금은 10일선이 20일선 아래 4일째다",
-          "피벗 237.22 위에서 2주 이상 새로 쉬는 구간이 생기고, 최근 5일 거래량이 20일 평균의 0.7배 아래로 줄어드는지",
-          "10일선과의 거리가 하루 평균 변동폭의 2배 아래로 좁혀지는지 — 지금은 2.3배다",
-          "다음 고점을 넘을 때 거래량이 20일 평균의 2배로 실리는지 — 10월 22일에 넘을 때는 1.32배였다",
-          "실적 발표일이 확정되는지 — 야후 추정 발표일은 2026-11-24이고 달력에는 아직 없다"
-        ],
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 야후 추정 발표일은 2026-11-24이고 다음 분기 결산일이 10월 31일이라, 날짜가 확정될 때까지는 발표 직전에 들어가는 위험을 안게 된다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
-        },
-        "consensus": {
-          "saleCy": 17.27,
-          "saleNy": 16.47,
-          "epsCy": 16.57,
-          "epsNy": 14.57,
-          "cyTrend": -0.01,
-          "nyTrend": 0.37
-        },
-        "researchedOn": "2026-10-25",
-        "session": "2026-10-23",
         "carried": false,
         "source": "ondemand"
       }
@@ -10001,5 +10036,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-26T23:16:01.022Z"
+  "updated": "2026-10-26T23:41:50.798Z"
 };
