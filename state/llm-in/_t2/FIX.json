@@ -1,0 +1,302 @@
+{
+ "ticker": "FIX",
+ "sector": "Industrials",
+ "industry": "Engineering & Construction",
+ "nameKo": "컴포트 시스템스 USA",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 50.78,
+  "saleNy": 24.25,
+  "epsCy": 76.61,
+  "epsNy": 29.13,
+  "est": {
+   "cyCur": 51.00548,
+   "cy30": 48.97338,
+   "nyCur": 65.86126,
+   "ny30": 60.17848
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    50.26,
+    56.47,
+    41.67
+   ],
+   "ni": [
+    91.3,
+    118.78,
+    126.78
+   ],
+   "opm": [
+    17.09,
+    16.95,
+    16.13
+   ],
+   "updated": "2026-09-08 05:50:10"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-27",
+  "nameKo": "컴포트 시스템스 USA",
+  "nameEn": "COMFORT SYSTEMS USA",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035983&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3265656000,
+     "profit": 557966000,
+     "netIncome": 441602000,
+     "margin": 17.1,
+     "yoy": {
+      "revenue": 50.3,
+      "profit": 86.1,
+      "netIncome": 91.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2865332000,
+     "profit": 485718000,
+     "netIncome": 370378000,
+     "margin": 17,
+     "yoy": {
+      "revenue": 56.5,
+      "profit": 132.3,
+      "netIncome": 118.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": -4624288000,
+     "profit": -678747000,
+     "netIncome": 330806000,
+     "margin": 14.7,
+     "yoy": {
+      "revenue": -347.6,
+      "profit": -399.9,
+      "netIncome": 126.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2450969000,
+     "profit": 378874000,
+     "netIncome": 291615000,
+     "margin": 15.5,
+     "yoy": {
+      "revenue": 35.2,
+      "profit": 86.7,
+      "netIncome": 99.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "FIX Q3 Earnings Call Highlights Backlog Growth and 2027 Outlook",
+     "url": "https://www.nasdaq.com/articles/fix-q3-earnings-call-highlights-backlog-growth-and-2027-outlook",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Comfort Systems: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/comfort-systems-3-key-takeaways-long-term-investors",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Comfort Systems Plunged Today",
+     "url": "https://www.nasdaq.com/articles/why-comfort-systems-plunged-today",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Comfort Systems (FIX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/comfort-systems-fix-q3-2026-earnings-call-transcript",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Comfort Systems USA (FIX) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-comfort-systems-usa-fix-said-its-q3-earnings-call",
+     "date": "2026-10-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Comfort Systems (FIX)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-comfort-systems-fix-0",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Comfort Systems USA Q3 26 Earnings Conference Call At 10:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/comfort-systems-usa-q3-26-earnings-conference-call-10-00-am-et",
+     "date": "2026-10-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Is Comfort Systems USA (FIX) Stock Outpacing Its Construction Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/comfort-systems-usa-fix-stock-outpacing-its-construction-peers-year",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/fix-20261022x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118149/tm2628079d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926089781/tm2621841d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926076386/tm2618408d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926065127/tm2615333d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-09-23",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[컴포트 시스템스 USA (NYS:FIX)] 성장 둔화에 대한 과도한 우려",
+     "summary": "- 컴포트 시스템스 USA는 미국 MEP 업체로 DC 건설과 M&A로 실적 성장을 이룸- 최근 미국 내 데이터센터 반대 여론 증가로 주가는 부진한 모습을 보임- 다만, 테크 기업들의 실적에서 데이터센터에 대한 강한 수요가 보이기 때문에 성장성에 대한 우려가 과도한 것으로 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcekekkgmcgqmgcgxecgq.pdf",
+     "pages": "8"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Chevron, CrowdStrike, American Express",
+   "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-midday-cvx-crwd-axp-skhy-t.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: AT&T, SpaceX, Moderna, Deckers, Bloom Energy and more",
+   "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-premarket-att-spacex-moderna-deckers-bloom-energy-and-more.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Goldman Sachs thinks this HVAC play will be a big winner from the AI boom",
+   "url": "https://www.cnbc.com/2026/07/09/goldman-sachs-thinks-this-hvac-play-will-be-a-big-winner-from-the-ai-boom.html",
+   "date": "2026-07-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Kevin Mahn: Comfort Systems is a 'picks-and-shovels play'",
+   "url": "https://www.cnbc.com/video/2026/10/07/kevin-mahn-comfort-systems-is-a-picks-and-shovels-play.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FIX",
+  "fetchedAt": "2026-10-27",
+  "source": "한국투자증권 Open API",
+  "per": 26.87,
+  "pbr": 13.05,
+  "eps": 46.31,
+  "bps": 95.31,
+  "shares": 34985900,
+  "marketCapM": 43529,
+  "high52": 2072.1014,
+  "high52Date": "2026-05-14",
+  "low52": 789.7421,
+  "low52Date": "2025-10-23",
+  "last": 1244.19,
+  "prevClose": 1160.86,
+  "nameKo": "컴포트 시스템스 USA",
+  "nameEn": "COMFORT SYSTEMS USA",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 34985900
+ }
+}

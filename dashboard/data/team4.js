@@ -49,9 +49,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:48:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FORTY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Formula Systems는 이스라엘 IT 서비스·소프트웨어 자회사들을 거느린 지주회사로, 자회사들의 IT 서비스 매출과 이익으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -471,9 +491,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:00:51"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AGYS",
+        "category": 1,
+        "company": "Agilysys는 호텔·카지노·리조트용 클라우드 소프트웨어(예약·결제·재고 관리)를 구독 방식으로 팔아 돈을 법니다.",
+        "volumeExplanation": "10월 26일 장 마감 후 분기 실적과 연간 전망 상향이 나오면서 다음 거래일인 27일에 거래가 몰렸습니다. 분기 매출이 1년 전보다 17.7% 늘어 예상치를 웃돌았습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 26일 발표한 7~9월 분기 매출은 9,340만 달러로 역대 최대였고, 회사는 연간 전망도 올렸습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Agilysys, Inc. Reports Record Revenue of $93.4M in Fiscal 2027 Second Quarter and Raises Full-Year Guidance",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/agilysys-inc-reports-record-revenue-934m-fiscal-2027-second-quarter-and-raises-full-year",
+                "date": "2026-10-26",
+                "quote": "Agilysys, Inc. Reports Record Revenue of $93.4M in Fiscal 2027 Second Quarter and Raises Full-Year Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "주당순이익과 매출 모두 증권사 예상치를 넘어섰습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Agilysys (AGYS) Q2 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/agilysys-agys-q2-earnings-and-revenues-surpass-estimates",
+                "date": "2026-10-26",
+                "quote": "Agilysys (AGYS) Q2 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "SEC에 제출된 실적 보고서(8-K)가 같은 날 올라왔고, 분기 매출은 1년 전보다 17.7% 증가했습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Agilysys 8-K 실적 발표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526431911/agys-20261026.htm",
+                "date": "2026-10-26",
+                "quote": "form 8-K, filingDate 2026-10-26, itemsKo 실적 발표 · revenue 93360000, yoy revenue 17.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -575,9 +657,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:05:02"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HHH",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "미국 부동산 개발사로, 계획도시 단지의 토지 분양과 상업용 부동산 임대로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1187,9 +1289,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:48:39"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CVLT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Commvault는 기업의 데이터를 백업하고 복구하며 사이버 공격에서 보호하는 소프트웨어를 구독 방식으로 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1839,9 +1961,96 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:56:35"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "category": 1,
+        "ticker": "LMT",
+        "company": "록히드마틴은 F-35 전투기와 PAC-3 같은 미사일·방공 체계를 만들어 미국 국방부와 동맹국에 파는 방위산업 기업입니다. 미사일·화력통제 부문이 가장 빠르게 성장하고 있습니다.",
+        "volumeExplanation": "10월 22일 3분기 실적이 예상치를 넘고 연간 전망이 두 분기 연속 올라 주가가 오르던 중, 모건스탠리가 투자의견을 올리면서 거래량이 평소의 2배 넘게 늘었습니다. 실적 호조가 이미 반영된 뒤라 추가 상승이 이어지는지가 관건입니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "모건스탠리가 10월 26~27일 록히드마틴 투자의견을 중립에서 비중확대로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Morgan Stanley Upgrades Lockheed Martin to Overweight from Equal-Weight",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/morgan-stanley-upgrades-lockheed-martin-overweight-equal-weight",
+                "date": "2026-10-27",
+                "quote": "Morgan Stanley Upgrades Lockheed Martin to Overweight from Equal-Weight",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "3분기 주당순이익은 7.97달러로 예상치 7.52달러를 약 6% 웃돌았고, 연간 전망을 두 분기 연속 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[록히드 마틴 (NYS:LMT)] 미사일이 끌고, 다년계약이 받친다",
+                "publisher": "신한투자증권 (연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgmllgzklcqmzgcgxecgq.pdf",
+                "date": "2026-10-26",
+                "quote": "3Q26 EPS 7.97달러로 컨센서스(7.52달러) 6% 상회. 미사일·화력통제 (MFC)가 +24% 성장을 이끌며 연간 가이던스 두 분기 연속 상향.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "올해 매출 전망은 800~820억 달러로, 주당순이익 전망은 30.35~30.75달러로 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[록히드 마틴 (NYS:LMT)] 미사일이 끌고, 다년계약이 받친다",
+                "publisher": "신한투자증권 (연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgmllgzklcqmzgcgxecgq.pdf",
+                "date": "2026-10-26",
+                "quote": "2026년 가이던스 매출 800~820억달러(이하 기존 797.5~817.5억), EPS 30.35~30.75달러(29.95~30.65달러), FCF 78~80억달러(70~72억)로 상향.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "실적 발표 직후인 10월 23일에도 주가가 크게 올랐고, 이후에도 상승이 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Lockheed Martin Stock Soared Today",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/why-lockheed-martin-stock-soared-today",
+                "date": "2026-10-23",
+                "quote": "Why Lockheed Martin Stock Soared Today",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Why Lockheed Martin Stock Keeps Going Up",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/why-lockheed-martin-stock-keeps-going",
+                "date": "2026-10-26",
+                "quote": "Why Lockheed Martin Stock Keeps Going Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1918,9 +2127,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:13:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ORKA",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 26일 Oruka가 건선(피부 염증 질환) 치료제 ORKA-001의 임상 2상 16주 결과가 긍정적이라고 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oruka Therapeutics Announces Positive Week 16 Results for ORKA-001 from the Ongoing EVERLAST-B Trial in Moderate-to-Severe Psoriasis",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/healthcare/articles/oruka-therapeutics-announces-positive-week-110000085.html",
+                "date": "2026-10-26",
+                "quote": "Oruka Therapeutics Announces Positive Week 16 Results for ORKA-001 from the Ongoing EVERLAST-B Trial in Moderate-to-Severe Psoriasis",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "긍정적 임상 데이터를 바탕으로 ORKA-001이 임상 3상(대규모 최종 시험) 단계로 나아가게 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data",
+                "date": "2026-10-26",
+                "quote": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "회사는 같은 날 발표와 관련해 SEC에 8-K(수시 공시)를 제출했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oruka 8-K (Reg FD 공시, 기타 중요사건) 2026-10-26",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026112281/ea0309594-8k_oruka.htm",
+                "date": "2026-10-26",
+                "quote": "CURRENT REPORT",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Oruka Therapeutics는 건선 등 염증성 피부질환 치료제를 개발하는 임상 단계 바이오 기업이다. 아직 매출이 없고 연구개발 비용으로 적자를 내고 있다.",
+        "volumeExplanation": "10월 26일 건선 치료제 ORKA-001의 임상 2상 16주 결과가 긍정적으로 발표되고 3상 진행 기대가 커지면서 거래량이 평소의 2배 넘게 늘었다. 이 이야기가 맞는지는 3상 설계와 이후 장기 추적 결과가 이어지는지로 확인된다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claim의 숫자/날짜/사실이 제시된 출처(title, quote)에 일치"
+        },
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2612,9 +2883,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:08:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GRVY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "그라비티는 한국 온라인 게임 라그나로크 시리즈를 운영·배급해 돈을 버는 게임사로, 미국에는 ADS(예탁증서) 형태로 상장돼 있다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 정확히 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "그라비티(ADR)",
@@ -3026,9 +3317,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:43:39"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MANH",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "MANH(맨해튼 어소시에이츠)는 기업의 물류·창고·공급망 관리 소프트웨어를 구독 형태로 판매해 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 정확히 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3721,9 +4032,73 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:17:38"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DG",
+        "category": 5,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Dollar General overcharged shoppers, FTC and states allege in lawsuit",
+                "publisher": "Reuters (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/news/us-20-states-sue-dollar-174735286.html",
+                "date": "2026-10-26",
+                "quote": "Dollar General has, for years, repeatedly mislabeled prices, overcharged consumers and failed to correct the issue despite extensive corporate knowledge of the problem.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "10월 26일 미국 연방거래위원회(FTC)와 20개 주가 달러제너럴을 상대로 가격 부풀리기(전단·계산대 가격 불일치) 소송을 냈다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 같은 날 8-K로 소송을 공시했다. 원고는 금지명령과 금전 배상, 민사 벌금을 요구하며 재무제표에 중대한 악영향이 있을 수 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dollar General Form 8-K",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465926118869/tm2628315d1_8k.htm",
+                "date": "2026-10-26",
+                "quote": "The plaintiffs seek injunctive relief, monetary judgment, civil penalties, and other relief.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "소송 발표 직후 주가가 월요일 오후 4% 넘게 하락했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dollar General overcharged shoppers, FTC and states allege in lawsuit",
+                "publisher": "Reuters (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/news/us-20-states-sue-dollar-174735286.html",
+                "date": "2026-10-26",
+                "quote": "Dollar General's shares fell over 4% on Monday afternoon following the lawsuit announcement.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "달러제너럴은 미국 전역 시골·저소득 지역에서 생활필수품을 싸게 파는 할인 소매점 체인이다.",
+        "volumeExplanation": "10월 26일 FTC와 20개 주가 가격 부풀리기 혐의로 소송을 내고 회사가 이를 공시하면서 주가가 4% 넘게 빠졌고, 매도가 몰려 거래량이 평소의 2배로 늘었다. 소송 결과와 벌금 규모가 확정되고 실적에 미칠 영향이 드러나는지가 이 이야기가 맞는지 가를 확인 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claim의 숫자(20개 주, 4%)와 사실이 제시된 출처에 일치"
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4484,9 +4859,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:39:23"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NHC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "미국 남동부에서 요양시설(스킬드 너싱)·치매 돌봄·재택/호스피스를 운영해 환자 이용료와 보험 지급금으로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 정확히 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5036,9 +5431,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-15 06:58:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KNSA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Kiniksa는 심낭염 재발 치료제 ARCALYST 등을 판매하는 바이오 제약사로, 이 약 판매가 매출 대부분을 차지한다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5633,9 +6048,29 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": true,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PBAM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "캘리포니아 라호야에 본사를 둔 지역은행 지주회사로, 예금과 대출을 취급해 이자수익으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6616,9 +7051,44 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:47:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DORM",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "증권사 예상치(컨센서스)는 웃돌았다는 평가다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dorman Products (DORM) Q3 Earnings Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/dorman-products-dorm-q3-earnings-top-estimates",
+                "date": "2026-10-26",
+                "quote": "Dorman Products (DORM) Q3 Earnings Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Dorman Products는 자동차 애프터마켓(교체용) 부품과 용품을 설계해 유통사에 공급하며 돈을 번다.",
+        "volumeExplanation": "10월 26일 장 마감 후 3분기 실적이 나왔고, 예상치를 웃돌았다는 평가로 거래량이 늘었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c3"
+          ],
+          "reason": "c1의 EPS 정보(1.98달러, 20% 감소)와 c3의 매출 성장 전망 변경(3~5%→2~3%)이 제공된 quote에 없음",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 26일 장 마감 후 3분기 실적이 나왔고, 예상치를 웃돌았다는 평가와 함께 연간 매출 전망 하향이 겹쳐 거래량이 늘었다. 전년 대비 이익은 줄었으므로, 이후 매출 성장이 전망 범위를 지키는지가 이 해석의 확인 조건이다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -7240,9 +7710,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:41:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "URBN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Urban Outfitters는 어반아웃피터스·앤트로폴로지·프리피플 브랜드로 의류와 생활용품을 매장과 온라인에서 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -7885,13 +8375,47 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 1,
+    "done": 15,
     "total": 15,
-    "cap": null,
-    "pending": 14,
+    "cap": 14,
+    "pending": 0,
     "failed": 0,
     "carried": 1,
     "ineligible": 0,
-    "note": "15종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 14종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "AGYS",
+        "category": 1,
+        "oneLine": "7~9월 매출 9,340만 달러(전년비 17.7%↑)로 역대 최대, 예상치 상회에 연간 전망도 상향."
+      },
+      {
+        "ticker": "LMT",
+        "category": 1,
+        "oneLine": "3분기 주당순이익 7.97달러로 예상치 7.52달러를 웃돌고 연간 전망 상향, 모건스탠리도 투자의견 상향."
+      },
+      {
+        "ticker": "DORM",
+        "category": 1,
+        "oneLine": "증권사 예상치(컨센서스)를 웃돌았다는 평가만 확인되며 구체적 수치는 입력에 없음."
+      },
+      {
+        "ticker": "DG",
+        "category": 5,
+        "oneLine": "호재가 아니라 악재: FTC와 20개 주가 가격 부풀리기 소송을 냈고 주가는 4% 넘게 하락."
+      }
+    ],
+    "sectorSignal": "실적 호재 3건이 나왔지만 입력에 업종 정보가 없어 특정 업종 쏠림은 판단할 수 없습니다. 정책·산업 항목 1건은 호재가 아닌 소송 악재입니다.",
+    "caution": "DORM은 근거가 \"예상치 상회\"라는 평가 한 줄뿐이라 강도를 확인할 수 없고, DG는 하락 사례라 매수 후보로 보면 안 됩니다. 나머지 종목 대부분은 뉴스 근거가 없어 제외했으며, 차트 상태는 판단하지 않았으니 직접 확인하세요.",
+    "researchedOn": "2026-10-27"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 3,
+    "2": 1,
+    "5": 1,
+    "6": 10
   }
 };

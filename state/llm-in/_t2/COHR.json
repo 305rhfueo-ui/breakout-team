@@ -1,0 +1,294 @@
+{
+ "ticker": "COHR",
+ "sector": "Technology",
+ "industry": "Scientific & Technical Instruments",
+ "nameKo": "코히어런트",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 49.17,
+  "saleNy": 38.13,
+  "epsCy": 67.34,
+  "epsNy": 48.15,
+  "est": {
+   "cyCur": 9.38758,
+   "cy30": 9.41634,
+   "nyCur": 13.90777,
+   "ny30": 13.95531
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    33.74,
+    20.55,
+    17.49
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    104
+   ],
+   "opm": [
+    14.58,
+    10.63,
+    11.57
+   ],
+   "updated": "2026-09-08 07:21:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-27",
+  "nameKo": "코히어런트",
+  "nameEn": "COHERENT CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000820318&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 2045533000,
+     "profit": null,
+     "netIncome": 222532000,
+     "margin": null,
+     "yoy": {
+      "revenue": 33.7,
+      "profit": null,
+      "netIncome": 293.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1805641000,
+     "profit": null,
+     "netIncome": 191402000,
+     "margin": null,
+     "yoy": {
+      "revenue": 20.5,
+      "profit": null,
+      "netIncome": 1118.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1685629000,
+     "profit": null,
+     "netIncome": 146717000,
+     "margin": null,
+     "yoy": {
+      "revenue": 17.5,
+      "profit": null,
+      "netIncome": 41.9,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1581378000,
+     "profit": null,
+     "netIncome": 226349000,
+     "margin": null,
+     "yoy": {
+      "revenue": 17.3,
+      "profit": null,
+      "netIncome": 774.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-31",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526375462/d110649d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-28",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526187297/d107137d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-02",
+    "itemsKo": [
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526084366/d42735d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-08-19",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[코히어런트 (NYS:COHR)] 공급이 곧 매출, 다음 목표는 분기 $3.0B",
+     "summary": "- 사상 최대 실적 달성, InP 증설과 함께 분기 매출 $3.0B 목표 가시화- NVIDIA 3중 동맹 구축 및 광 밸류체인 전 계층 커버리지로 구조적 수혜- 피어 대비 15.5% 저평가, 체질 개선 및 디레버리징 기반 리레이팅 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqezeqxcmzxizgcgxecgq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-05-14",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[코히어런트 (NYS:COHR)] 1.6T 전환 가속과 공정 혁신이 이끄는 마진 레버리지",
+     "summary": "- AI 인프라 수요가 견인한 '어닝 서프라이즈'와 시장 예상을 뛰어넘는 1.6T 보급 속도- 6인치 InP 공정 전환 및 부품 내재화를 통한 원가 절감과 수익성 개선 레버리지- 엔비디아 파트너십 기반의 CPO 시장 선점과 LTA를 통한 중장기 실적 가시성 확보",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqkeiezxeigggcgxecgq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-03-23",
+     "broker": "메리츠증권",
+     "analyst": "양승수",
+     "title": "[코히어런트 (NYS:COHR)] 독보적인광모듈경쟁력, CPO로의확장본격화",
+     "summary": "- 데이터센터 전력 소비 증가와 구리 인터커넥트의 구조적 한계로 인해 Scale-Out 연결부터 연산은 전자가 전송은 빛이 담당하는 광학 인터커넥트 방식 확대 시작 + 동시에 데이터센터 내 효율성 극대화를 위해 Scale-Out용 광트랜시버는 400G -> 800G -> 1.6T 등 고사양 광학 제품으로의 업그레이드 사이클에 진입- 2027년 출시되는 Vera Rubin Ultra 아키텍처부터 Kyber 랙을 통해 Scale-up에서도구리와 Optics를 동시에 지원하는 하이브리드 구조 도입이 예상되며, 2028년 이후 서버랙 내부 인터커넥트가 Lane당 400G를 상회할 경우 구리 케이블은 물리적 한계에 직면하기 때문에 랙 내부로의 CPO 적용 확대가 본격화될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqkggzkikxmemigcgxecgq.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-03-05",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[코히어런트 (NYS:COHR)] 차세대 AI 인프라 광학 기술의 대표주자",
+     "summary": "- 1.6T 시장 선점 및 CPO/열관리 솔루션 기반의 차세대 AI 인프라 기술 리더십 확보- 압도적 수주 가시성을 바탕으로 한 가파른 EPS 성장 및 밸류에이션 정당화- 비핵심 자산 매각 및 수직 계열화 강화를 통한 운영 효율화와 중장기 마진 개선",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgxxzegxggklmgcgxecgq.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks post back-to-back losses as oil surges, 10-year yield hits 19-year high",
+   "url": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning",
+   "url": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Amgen, Qualcomm, Expedia, CoreWeave",
+   "url": "https://www.cnbc.com/2026/09/08/stocks-making-the-biggest-moves-midday-amgn-qcom-expe-crwv.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Hidden China risks are emerging in America’s multibillion-dollar AI data center boom",
+   "url": "https://www.cnbc.com/2026/09/03/us-ai-data-centers-china-supply-chain.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Palo Alto Networks, Fervo, Apple & more",
+   "url": "https://www.cnbc.com/2026/09/01/stocks-making-the-biggest-moves-midday-panw-frvo-cvx-aapl.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "COHR",
+  "fetchedAt": "2026-10-27",
+  "source": "한국투자증권 Open API",
+  "per": 53.86,
+  "pbr": 3.98,
+  "eps": 4.11,
+  "bps": 55.7,
+  "shares": 196931000,
+  "marketCapM": 43620,
+  "high52": 440,
+  "high52Date": "2026-06-03",
+  "low52": 115,
+  "low52Date": "2025-10-23",
+  "last": 221.5,
+  "prevClose": 209.29,
+  "nameKo": "코히어런트",
+  "nameEn": "COHERENT CORP",
+  "listedOn": "2023-02-23",
+  "exchange": "뉴욕거래소",
+  "listedShares": 196931000
+ }
+}

@@ -504,8 +504,350 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-27",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "마이크로소프트, 직원 6만명에 희망퇴직 제안",
+        "easy": "마이크로소프트가 직원 6만명을 대상으로 자발적 퇴직(희망퇴직)을 받기로 했다. AI 도입으로 같은 일을 더 적은 인원으로 처리할 수 있게 되자 조직을 줄이려는 것이다. 인건비가 빠지면 이익률은 좋아진다. 다만 빅테크가 사람을 줄인다는 건 매출이 예전처럼 빠르게 늘지 않는다는 신호로도 읽힌다.",
+        "whyMatters": "소프트웨어·클라우드 업종은 비용이 줄어 이익률에 도움이 되지만, AI가 사람 일을 대체한다는 흐름이 굳어지면 인력서비스·IT 컨설팅 업종에는 불리하다. Microsoft 가 실제로 고용을 얼마나 줄이는지, 다른 빅테크가 따라 하는지를 보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+            "date": "2026-10-27",
+            "quote": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "엔비디아·AMD, 메타 350억달러 증자 참여 거론",
+        "easy": "메타가 350억 달러 규모로 주식을 새로 찍어 자금을 모은다. 여기에 Nvidia·AMD·Broadcom 이 그 주식을 사들일 수 있다는 분석이 나왔다. 칩을 파는 회사가 칩을 사 주는 회사에 다시 돈을 넣는 구조다. 왜 이런 방식을 쓰는지는 기사에 안 나왔다.",
+        "whyMatters": "반도체와 인터넷 플랫폼 업종이 서로의 돈으로 돌아가는 모양이라 Nvidia·AMD·Broadcom·Meta 가 한 묶음처럼 같이 움직이기 쉽다. 실제로 칩 회사들이 참여하는지, 증자 규모가 바뀌는지를 확인하면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
+            "date": "2026-10-26",
+            "quote": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic 상장, AI 기대감의 시험대가 된다",
+        "easy": "AI 회사 Anthropic 의 대형 상장(기업공개)이 임박했다. 월가와 실리콘밸리 모두 그 파급 효과를 주시하고 있다. 상장 후 주가가 기대에 못 미치면 AI 관련주 전체의 눈높이가 한꺼번에 내려갈 수 있다는 경고가 같이 나왔다. 회사 스스로 인류에 대한 '파국적 위험'을 언급한 점도 화제다.",
+        "whyMatters": "반도체·소프트웨어 업종에 붙어 있는 AI 기대감에 처음으로 값이 매겨지는 자리다. 공모 결과가 신통치 않으면 데이터센터·AI 장비 쪽 종목까지 같이 눌릴 수 있어 상장일 주가 흐름을 지켜보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+            "date": "2026-10-26",
+            "quote": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-26",
+            "quote": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-26",
+            "quote": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "10월엔 배당주가 강했고 기술주는 부진했다",
+        "easy": "이번 10월에는 배당을 많이 주는 종목들이 기술주보다 좋은 성적을 냈다. 기술주가 흔들리자 돈이 꾸준히 현금을 주는 쪽으로 옮겨 갔기 때문이다. 시장이 성장 기대보다 안정을 택하기 시작했다는 신호다. 이런 구간에서는 새로 치고 올라가는 종목이 줄어든다.",
+        "whyMatters": "유틸리티·필수소비재·통신처럼 배당이 큰 업종에는 유리하고, 배당 없이 성장 기대로 오르던 기술·소프트웨어 종목에는 불리하다. 이 자금 이동이 11월까지 이어지는지를 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Dividend stocks are having an excellent October as tech sector struggles",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
+            "date": "2026-10-26",
+            "quote": "Dividend stocks are having an excellent October as tech sector struggles",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "일본은행 이번 주 동결 전망, 태도는 매파",
+        "easy": "일본은행이 이번 주 회의에서 금리를 그대로 둘 것이라는 조사 결과가 나왔다. 다만 앞으로 올릴 수 있다는 매파(금리 인상을 선호하는) 태도는 유지할 전망이다. 일본 금리가 오르면 싼 엔화를 빌려 해외 주식에 넣어 둔 돈이 일본으로 돌아간다. 그래서 미국 증시에는 자금이 빠지는 쪽으로 작용한다.",
+        "whyMatters": "엔화를 빌려 투자하는 자금에 민감한 미국 기술·반도체 대형주에 부담이 된다. 회의 뒤 총재 발언 수위와 엔화 환율 방향을 같이 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+            "date": "2026-10-27",
+            "quote": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "중국 공업이익 14.4% 증가, 석 달 만에 최고",
+        "easy": "중국 공업기업 이익이 1년 전보다 14.4% 늘어 석 달 만에 가장 크게 증가했다. AI 관련 기술 제품 수출이 늘어난 것이 배경이다. 중국 공장이 돈을 벌면 설비·부품 주문도 따라 늘어난다. 세계 제조업 경기가 바닥을 지났다는 쪽에 힘이 실리는 수치다.",
+        "whyMatters": "산업재·소재 업종과 중국 매출 비중이 큰 반도체 장비 업종에 긍정적이다. 다음 달 수출·생산 지표가 같은 방향으로 나오는지 확인하면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "China industrial profits post strongest growth in three months, rising 14.4%",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
+            "date": "2026-10-27",
+            "quote": "China industrial profits post strongest growth in three months, rising 14.4%",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기보다 쉬어가며 지켜볼 때다. QQQ 10일선이 20일선 아래로 내려간 지 5일째이고, 종가 712.2 는 50일선 아래에 있다. 오늘 뉴스도 같은 방향이다 — 마이크로소프트의 6만명 희망퇴직과 10월 배당주 강세는 돈이 기술주에서 안정적인 쪽으로 옮겨 가고 있다는 뜻이다. 조심할 것은 빚이다. 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘었고, 하락이 시작되면 강제 매도가 겹쳐 낙폭이 커진다. 이번 주는 일본은행 회의와 Anthropic 상장 결과가 기술주 분위기를 가른다.",
+    "keyRisks": [
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어서, 조정이 오면 강제 매도가 겹쳐 하락 폭이 평소보다 커진다.",
+      "지수가 단기 추세선 아래: QQQ 10일선이 20일선 아래라, 돌파해서 올라가는 종목이 줄고 가짜 돌파가 늘어나는 구간이다.",
+      "AI 기대에 쏠린 시장: Anthropic 상장이 기대에 못 미치면 반도체·소프트웨어 전반의 눈높이가 한 번에 내려갈 수 있다.",
+      "엔화 자금의 역류: 일본은행이 금리 인상 신호를 키우면 엔화를 빌려 미국 기술주에 들어온 돈이 빠질 수 있다."
+    ],
+    "easySummary": [
+      "QQQ 가 단기 추세선 아래로 내려와 있어 새로 사기보다 기다리기 좋은 구간이다.",
+      "10월엔 배당주가 강하고 기술주가 약했다 — 돈이 성장에서 안정으로 옮겨 가는 중이다.",
+      "빚내서 산 주식이 주의선을 넘었고, 이번 주 일본은행 회의와 Anthropic 상장이 분위기를 가른다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 179,
+      "ok": 359,
+      "unverified": 2,
+      "dead": 0,
+      "stripped": 21,
+      "removed": [],
+      "numberCut": 30,
+      "numberCuts": [
+        {
+          "sentence": "증가율은 17%대, 20%대, 30%대로 분기마다 올라가고 있다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "주가는 6월 3일 고점 440달러에서 절반 수준으로 내려왔고, 1년 평균선보다도 25% 낮다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "4개 분기 연속 두 자리 증가다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "직전 분기(2~4월) 이익률은 1.9%로 낮았고 분기별 이익이 들쭉날쭉하다.",
+          "missing": [
+            "1.9"
+          ]
+        },
+        {
+          "sentence": "영업이익은 2.1억 달러 흑자로 돌아섰다(직전 분기는 5,600만 달러 적자).",
+          "missing": [
+            "5,600만 달러"
+          ]
+        },
+        {
+          "sentence": "10월 27일 종가는 56.27달러로 전일(52.08달러)보다 약 8% 올랐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "2분기(7~9월) 매출이 9,336만 달러로 역대 최고였고 1년 전보다 17.7% 늘었다.",
+          "missing": [
+            "17.7"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 매출 증가율이 11~18% 사이에서 이어지는 흐름이다.",
+          "missing": [
+            "4",
+            "11",
+            "18"
+          ]
+        },
+        {
+          "sentence": "52주 고점 97달러에서는 아직 낮은 가격이고, 영업이익률은 4.6%로 낮다.",
+          "missing": [
+            "4.6"
+          ]
+        },
+        {
+          "sentence": "매출 증가율이 9% 안팎이라 이익 개선 속도가 둔해지면 부담이 커질 수 있다.",
+          "missing": [
+            "9"
+          ]
+        },
+        {
+          "sentence": "10월 26일 미국 연방거래위원회(FTC)와 20개 주가 달러제너럴을 상대로 가격 부풀리기(전단·계산대 가격 불일치) 소송을 냈다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "회사는 2분기 실적 보도자료를 8-K 로 공시했다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "CNBC: ARM CEO 가 신형 AI 칩이 20억 달러 매출 목표를 달성할 수 있다는 확신이 커졌다고 밝힘 (2026-09-16).",
+          "missing": [
+            "09",
+            "16"
+          ]
+        },
+        {
+          "sentence": "ARM 공동 창업자 헤르만 하우저가 AI 거품을 경고함 (2026-08-14).",
+          "missing": [
+            "08",
+            "14"
+          ]
+        },
+        {
+          "sentence": "유진투자증권: 1분기(FY1Q27) 매출 12.9억 달러로 전년보다 22.4% 늘었고, 다음 분기 가이던스도 컨센서스를 웃돎 (2026-07-30).",
+          "missing": [
+            "07",
+            "30"
+          ]
+        },
+        {
+          "sentence": "6월 분기 매출 12.9억 달러, 1년 전보다 22.4% 증가.",
+          "missing": [
+            "12.9억 달러",
+            "22.4"
+          ]
+        },
+        {
+          "sentence": "AGI CPU 는 칩을 직접 파는 사업이라 초기 매출총이익률이 30%대 후반~40%대 초반으로, 기존 IP 사업(98%)보다 낮고 장기 50% 수준을 기대함.",
+          "missing": [
+            "98"
+          ]
+        },
+        {
+          "sentence": "2026-09-24 8-K: Anthropic이 약 116억 달러를 7년간 지급하기로 계약했다.",
+          "missing": [
+            "09",
+            "24"
+          ]
+        },
+        {
+          "sentence": "Anthropic이 기존 기본 서비스 계약 아래 프로젝트 플랜 2·3으로 약 116억 달러를 지급하기로 했다.",
+          "missing": [
+            "116억 달러",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "sentence": "약정액 약 116억 달러를 7년에 나누면 연 평균 약 16.6억 달러 규모이며, 이는 2026년 전체 매출 전망 약 45억 달러와 견줄 만하다(계산은 약정액·기간 기준, 시작 시점은 미확인).",
+          "missing": [
+            "16.6억 달러",
+            "45억 달러"
+          ]
+        },
+        {
+          "sentence": "야후 집계 증권사 24곳 평균 추정으로 2027년 매출은 16.1% 증가, EPS는 2.9% 증가(애널리스트 추정).",
+          "missing": [
+            "24"
+          ]
+        },
+        {
+          "sentence": "증권사 목표가 하향이 이어지고 있다(UBS 148→100, Piper 158→120).",
+          "missing": [
+            "158",
+            "120"
+          ]
+        },
+        {
+          "sentence": "2026-10-27 기준 주가 하락 원인을 다룬 기사가 나왔다.",
+          "missing": [
+            "10",
+            "27"
+          ]
+        },
+        {
+          "sentence": "9월 10일 8-K로 중요 계약 체결이 공시됐고, 대신증권은 이를 GPU·CPU 구매 자금으로 해석했다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "키움증권은 1.6T 보급 속도가 시장 예상을 넘었고 6인치 InP 공정 전환이 진행 중이라고 봤다.",
+          "missing": [
+            "6"
+          ]
+        },
+        {
+          "sentence": "키움증권은 InP 증설과 함께 분기 매출 30억 달러가 가시화됐다고 봤다(6월 말 분기는 20.5억 달러).",
+          "missing": [
+            "20.5억 달러"
+          ]
+        },
+        {
+          "sentence": "3분기 전망은 5.2억 달러(전년보다 31%).",
+          "missing": [
+            "5.2억 달러",
+            "31"
+          ]
+        },
+        {
+          "sentence": "SEC 최근 분기(2026-03-31) 매출 1.13억 달러, 전년 동기보다 20.2% 증가.",
+          "missing": [
+            "03",
+            "31"
+          ]
+        },
+        {
+          "sentence": "1공장이 완전 가동률에 근접했고 회사는 2공장이 필수라고 밝혔다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "증권사 3곳이 목표주가를 한꺼번에 낮췄다.",
+          "missing": [
+            "3"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-27"
   }
 };

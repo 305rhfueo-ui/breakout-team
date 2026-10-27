@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "ticker": "FORTY",
+      "price": 129.9,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.45
+        },
+        "nimble": {
+          "category": 6,
+          "conf": 0.85
+        }
+      }
+    },
+    {
+      "ticker": "AGYS",
+      "price": 123.45,
+      "category": 1,
+      "confidence": "high",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.45
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.97
+        }
+      }
+    },
+    {
+      "ticker": "HHH",
+      "price": 73.30000305175781,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.66
+        },
+        "nimble": {
+          "category": 4,
+          "conf": 0.73
+        }
+      }
+    },
+    {
+      "ticker": "CVLT",
+      "price": 167.73,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 2,
+          "conf": 0.23
+        },
+        "nimble": {
+          "category": 4,
+          "conf": 0.38
+        }
+      }
+    },
+    {
+      "ticker": "LMT",
+      "price": 635.2,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.23
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.85
+        }
+      }
+    },
+    {
+      "ticker": "ORKA",
+      "price": 90.33000183105469,
+      "category": 2,
+      "confidence": "high",
+      "local": {
+        "laya": {
+          "category": 2,
+          "conf": 0.5
+        },
+        "nimble": {
+          "category": 2,
+          "conf": 0.98
+        }
+      }
+    },
+    {
+      "ticker": "GRVY",
+      "price": 66.63999938964844,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 6,
+          "conf": 0.52
+        },
+        "nimble": {
+          "category": 6,
+          "conf": 0.95
+        }
+      }
+    },
+    {
+      "ticker": "MANH",
+      "price": 236.4,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.32
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.31
+        }
+      }
+    },
+    {
+      "ticker": "DG",
+      "price": 128.42,
+      "category": 5,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.05
+        },
+        "nimble": {
+          "category": 5,
+          "conf": 0.68
+        }
+      }
+    },
+    {
+      "ticker": "NHC",
+      "price": 223.7,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.3
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.58
+        }
+      }
+    },
+    {
+      "ticker": "KNSA",
+      "price": 72.9800033569336,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.48
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.49
+        }
+      }
+    },
+    {
+      "ticker": "PBAM",
+      "price": 85.93000030517578,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.54
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.84
+        }
+      }
+    },
+    {
+      "ticker": "DORM",
+      "price": 124.74,
+      "category": 1,
+      "confidence": "medium",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.35
+        },
+        "nimble": {
+          "category": 1,
+          "conf": 0.82
+        }
+      }
+    },
+    {
+      "ticker": "URBN",
+      "price": 90.58999633789062,
+      "category": 6,
+      "confidence": "low",
+      "local": {
+        "laya": {
+          "category": 1,
+          "conf": 0.1
+        },
+        "nimble": {
+          "category": 6,
+          "conf": 0.6
+        }
+      }
+    }
+  ]
+}

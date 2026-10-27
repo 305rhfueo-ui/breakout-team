@@ -1,0 +1,319 @@
+{
+ "ticker": "LMT",
+ "news": [
+  {
+   "title": "Morgan Stanley Upgrades Lockheed Martin to Overweight from Equal-Weight",
+   "url": "https://www.nasdaq.com/articles/morgan-stanley-upgrades-lockheed-martin-overweight-equal-weight",
+   "date": "2026-10-27",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Why Lockheed Martin Stock Keeps Going Up",
+   "url": "https://www.nasdaq.com/articles/why-lockheed-martin-stock-keeps-going",
+   "date": "2026-10-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's Why Lockheed Martin (LMT) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-lockheed-martin-lmt-strong-value-stock-0",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Lockheed Martin Corporation (LMT) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/lockheed-martin-corporation-lmt-attracting-investor-attention-here-what-you-should-know-0",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Now a Good Time to Buy Lockheed Martin?",
+   "url": "https://www.nasdaq.com/articles/now-good-time-buy-lockheed-martin",
+   "date": "2026-10-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "LMT Q3 Earnings Call Highlights Missile Growth and Higher Outlook",
+   "url": "https://www.nasdaq.com/articles/lmt-q3-earnings-call-highlights-missile-growth-and-higher-outlook",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Lockheed Martin Stock Soared Today",
+   "url": "https://www.nasdaq.com/articles/why-lockheed-martin-stock-soared-today",
+   "date": "2026-10-23",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Lockheed Martin (LMT) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-lockheed-martin-lmt-said-its-q3-earnings-call",
+   "date": "2026-10-22",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Avio (BIT:AVIO) Stock May Be Overvalued Following Solid Rocket Motor Expansion News",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/avio-bit-avio-stock-may-221650687.html",
+   "date": "2026-10-26",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lockheed Martin Shares Rise After Morgan Stanley Upgrade",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-shares-rise-morgan-182113922.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Lockheed Martin Stock Keeps Going Up",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-lockheed-martin-stock-keeps-171415212.html",
+   "date": "2026-10-26",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Analysts See 33% Potential Stock Gains For This Defense Giant",
+   "url": "https://finance.yahoo.com/m/76e3cf2d-8c91-31d3-bc91-c31426c7448b/analysts-see-33%25-potential.html",
+   "date": "2026-10-26",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Is Lockheed Martin (LMT) At The Center Of Two Fast Growing Defense Markets?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-lockheed-martin-lmt-center-150829449.html",
+   "date": "2026-10-26",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/lmt-20261022.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-28",
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/d177255d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049277/lmt-20260723.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/936468/000093646826000011/lmt-20260512.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026026683/lmt-20260423.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026003970/lmt-20260129.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936468&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-27",
+    "derived": false,
+    "revenue": 20711000000,
+    "profit": 2443000000,
+    "netIncome": 1845000000,
+    "margin": 11.8,
+    "yoy": {
+     "revenue": 11.3,
+     "profit": 7.1,
+     "netIncome": 14,
+     "priorEnd": "2025-09-28"
+    }
+   },
+   {
+    "periodEnd": "2026-06-28",
+    "derived": false,
+    "revenue": 20063000000,
+    "profit": 2479000000,
+    "netIncome": 1836000000,
+    "margin": 12.4,
+    "yoy": {
+     "revenue": 10.5,
+     "profit": 231.4,
+     "netIncome": 436.8,
+     "priorEnd": "2025-06-29"
+    }
+   },
+   {
+    "periodEnd": "2026-03-29",
+    "derived": false,
+    "revenue": 18021000000,
+    "profit": 2063000000,
+    "netIncome": 1488000000,
+    "margin": 11.4,
+    "yoy": {
+     "revenue": 0.3,
+     "profit": -13,
+     "netIncome": -13.1,
+     "priorEnd": "2025-03-30"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 20321000000,
+    "profit": 2331000000,
+    "netIncome": 1344000000,
+    "margin": 11.5,
+    "yoy": {
+     "revenue": 9.1,
+     "profit": 234.9,
+     "netIncome": 155,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 16,
+  "reports": [
+   {
+    "date": "2026-10-26",
+    "broker": "신한투자증권",
+    "analyst": "이지한, 이동헌",
+    "title": "[록히드 마틴 (NYS:LMT)] 미사일이 끌고, 다년계약이 받친다",
+    "summary": "- 3Q26 EPS 7.97달러로 컨센서스(7.52달러) 6% 상회. 미사일·화력통제 (MFC)가 +24% 성장을 이끌며 연간 가이던스 두 분기 연속 상향. PAC-3 7년 계약으로 수주잔고 2,920억달러, 신규수주/매출액 4.0배. 단기간 주가 급등 양상, 중장기적으로 실적 성장은 탄탄하여 편안한 방산주 선택지- [3Q26 실적] 매출액 207.1억달러(+11%, 이하 전년동기대비), 부문 합산 영업이익 22.3억달러(+10%, 이하 영업이익률 10.8%), 전사 영업이익 24.4억달러(+7%, 11.8%), EPS 7.97달러(+15%). 분기 FCF 30.0억달러, 누 적 56.3억달러(+35%). [부문별] 미사일·화력통제 매출 45.0억달러(+24%), 영업이익 6.3억달러(+24%, 14.0%)로 성장 주도- 2026년 가이던스 매출 800~820억달러(이하 기존 797.5~817.5억), EPS 30.35~30.75달러(29.95~30.65달러), FCF 78~80억달러(70~72억)로 상향. MFC 매출 중간값 167→173.5억달러, 항공은 F-35 다음 로트를 2027년 계약으로 가정해 322→318억달러. 연내 Lot(생산차수) 20 계약 시 추가 상 향 요인. 2027년 매출 높은 한자릿수 성장 제시",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmllgzklcqmzgcgxecgq.pdf",
+    "pages": "4"
+   },
+   {
+    "date": "2026-10-22",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[록히드 마틴 (NYS:LMT)] [3Q26 Review] 주당순이익 컨센서스 7.3% 상회와 가이던스 재상향, 투자의견 매수 유지",
+    "summary": "- 매출 207억·EPS 7.97달러, 8분기 최고치- 가이던스 2분기 연속 상향, 상향분은 현금 중심- F-35 Lot 20 자금 공백·마진 정체가 상쇄 요인",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekqzliellqgcgxecgq.pdf",
+    "pages": "10"
+   },
+   {
+    "date": "2026-09-18",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 美 국무부, 사우디 F-35 243억 달러 판매 승인",
+    "summary": "- 美 국무부, 사우디향 F-35 243억달러 판매 승인- 정식 계약 전 대외군사판매(FMS) 승인 단계- 사상 최대 수주잔고 2,300억달러에 해외 파이프라인 추가",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlxizecexxqgcgxecgq.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-09-17",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 국방부와 AIM-260 증산 프레임워크 체결 - 미사일 성장 스토리에 FMS 확장 축 추가",
+    "summary": "- 국방부, AIM-260 증산·FMS 확대 프레임워크 체결- MFC 미사일 램프 스토리에 신규 축 추가- 밸류에이션 기반영, 추가 재평가 여력 제한적",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlximqmixligcgxecgq.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-09-10",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 호주 AIR6500 방공체계 13.2억 호주달러 계약 수주 - 기록적 수주잔고에 더해진 동맹국 방공 수요",
+    "summary": "- 호주 정부, LMT호주에 AIR6500 13.2억호주달러 계약 부여- 기록적 수주잔고 2300억달러에 동맹국 방공수요 추가 확인- 선행PER 18.18배로 개별계약 주가 영향은 제한적",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmccixgkmqlgcgcgxecgq.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-09-07",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 스웨덴, HIMARS 포병로켓시스템 구매 확정 - 유럽 방공·포병 수요 확산의 연장선",
+    "summary": "- 스웨덴, 록히드 HIMARS 구매 발표(금액 미공개)- MFC 사업부 유럽 방공 수요 확대 흐름과 일치- 계약 규모·인도 일정 확정이 다음 확인 포인트",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlllicgxkgilgcgcgxecgq.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-09-01",
+    "broker": "iM증권",
+    "analyst": "변용진",
+    "title": "[록히드 마틴 (NYS:LMT)] 전쟁은 빠르고, 증산은 느리다",
+    "summary": "- 록히드마틴은 2Q26 매출액 200.6억달러(+10.5% YoY), 부문 합산 영업이익 21.6억달러(+278.6% YoY, OPM 10.8%)를 기록하며 시장 기대치를 상회했고, 실적 발표 당일(7/23) 주가는 약 +11% 급등 마감했다.- 이에 동사는 2026년 매출액 및 부문 합산 영업이익 가이던스를 상향했다[표2 참고]. 영업활동현금흐름 가이던스는 중간값 93억달러를 유지한 반면 잉여현금흐름은 65~68억달러 → 70~72억달러로 상향했는데, 이는 설비투자(CapEx) 가이던스가 25~28억달러 → 20~24억달러로 하향된 영향이 크다- 앞서 동사의 수주잔고에서 확인되듯 미사일 수요는 빠르게 증가하고 있다. 특히 이란 전쟁은 고강도 분쟁에서 핵심 미사일의 소모 속도가 생산능력을 크게 상회할 수 있음을 보여줬다",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgexqmzlzzimgcgxecgq.pdf",
+    "pages": "12"
+   },
+   {
+    "date": "2026-08-31",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[록히드 마틴 (NYS:LMT)] [Issue & News] 국방부, PAC-3 생산 3배·THAAD 생산 4배 7년 계약 체결 - 탄약 램프 스토리의 장기 가시성 확보",
+    "summary": "- 국방부, PAC-3 3배·THAAD 4배 생산 7년 계약 체결- MFC 부문 성장·최고마진 스토리와 같은 축- capex 하향과 탄약설비 투자 재확대 여부 관건",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgkgxiqgqkxxgcgxecgq.pdf",
+    "pages": "5"
+   }
+  ]
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.35,
+  "saleNy": 6.91,
+  "epsCy": 42.48,
+  "epsNy": 8.58,
+  "cyTrend": 0.45,
+  "nyTrend": 1.49,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.51,
+    0.32,
+    9.12
+   ],
+   "ni": [
+    436.84,
+    -13.08,
+    155.03
+   ],
+   "opm": [
+    12.36,
+    11.45,
+    11.47
+   ],
+   "updated": "2026-09-08 07:56:35"
+  }
+ }
+}

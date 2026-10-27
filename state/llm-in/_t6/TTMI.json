@@ -1,0 +1,704 @@
+{
+ "ticker": "TTMI",
+ "date": "2026-10-27",
+ "session": "2026-10-26",
+ "source": "list",
+ "plan": {
+  "ticker": "TTMI",
+  "name": "TTM 테크놀로지스",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "price": 85.5,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 137.88,
+  "stop": 131.03,
+  "distToPivotPct": -37.99,
+  "distToPivotAdr": -4.74,
+  "riskPerSharePct": 4.97,
+  "adrPct": 8.01,
+  "extensionAdr": -1.4,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 25,
+   "baseWeeks": 5,
+   "depthPct": 48,
+   "priorMovePct": 39,
+   "higherLows": 0,
+   "contraction": 1.1,
+   "closeRange10Adr": 6.2,
+   "surf10": -1.4,
+   "surf20": -3.56,
+   "slope20": -8.21,
+   "baseLow": 71.71,
+   "lastSwingLow": 92.15
+  },
+  "reasons": [
+   "선행 상승 +39%",
+   "베이스 5주",
+   "✗ 깊이 48%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.1배 · 10일 종가폭 6.2 ADR",
+   "✗ 10일선 -1.4 ADR · 20일선 -3.6 ADR",
+   "✗ 20일선 기울기 -8.21%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.2785054686420018,
+    "pct": 1.3074842200180343
+   },
+   "m3": {
+    "v": -0.2956236512094789,
+    "pct": 3.832281334535618
+   },
+   "m6": {
+    "v": -0.5113358963753374,
+    "pct": 1.3976555455365194
+   }
+  },
+  "ret1m": -31.15,
+  "ret3m": -25.94,
+  "ret6m": -46.42,
+  "marketCap": "9.01B",
+  "volx": 1.62,
+  "volSurgeWk": 1.06,
+  "high52": 38.2,
+  "newHigh52": false,
+  "adr": 8.01,
+  "div50": -26.47,
+  "div200": -33.28,
+  "targetStatus": false,
+  "saleCy": 53.94,
+  "saleNy": 47.22,
+  "epsCy": 101.46,
+  "epsNy": 68.2,
+  "cyTrend": 2.19,
+  "nyTrend": 20.94,
+  "est": {
+   "cyCur": 4.956,
+   "cy30": 4.85,
+   "nyCur": 8.336,
+   "ny30": 6.8925
+  },
+  "fs": {
+   "sale": [
+    37.42,
+    30.42,
+    18.95
+   ],
+   "ni": [
+    99.97,
+    55.35,
+    880.37
+   ],
+   "opm": [
+    10.86,
+    8.56,
+    10.43
+   ],
+   "updated": "2026-09-09 07:02:58"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-27",
+  "nameKo": "TTM 테크놀로지스",
+  "nameEn": "TTM TECHNOLOGIES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116942&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-29",
+     "derived": false,
+     "revenue": 1004054000,
+     "profit": 109055000,
+     "netIncome": 83047000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 37.4,
+      "profit": 76.6,
+      "netIncome": 100,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-30",
+     "derived": false,
+     "revenue": 845976000,
+     "profit": 72449000,
+     "netIncome": 49988000,
+     "margin": 8.6,
+     "yoy": {
+      "revenue": 30.4,
+      "profit": 44.1,
+      "netIncome": 55.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-29",
+     "derived": true,
+     "revenue": 774320000,
+     "profit": 80749000,
+     "netIncome": 50685000,
+     "margin": 10.4,
+     "yoy": {
+      "revenue": 18.9,
+      "profit": 794.4,
+      "netIncome": 880.4,
+      "priorEnd": "2024-12-30"
+     }
+    },
+    {
+     "periodEnd": "2025-09-29",
+     "derived": false,
+     "revenue": 752736000,
+     "profit": 71906000,
+     "netIncome": 53055000,
+     "margin": 9.6,
+     "yoy": {
+      "revenue": 22.1,
+      "profit": 41.1,
+      "netIncome": 270.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why TTM Technologies Stock Plunged This Week",
+     "url": "https://www.nasdaq.com/articles/why-ttm-technologies-stock-plunged-week",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TTM Technologies: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/ttm-technologies-3-key-takeaways-long-term-investors",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why TTM Technologies Stock Plunged 30% Today",
+     "url": "https://www.nasdaq.com/articles/why-ttm-technologies-stock-plunged-30-today",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TTM Technologies (TTMI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ttm-technologies-ttmi-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TTM Technologies Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/ttm-technologies-q3-earnings-call-highlights",
+     "date": "2026-10-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "TTM Technologies, Inc. Reports Third Quarter 2026 Net Sales of $1.2 billion",
+     "url": "https://www.nasdaq.com/articles/ttm-technologies-inc-reports-third-quarter-2026-net-sales-12-billion",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "TTM Technologies (TTMI) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/ttm-technologies-ttmi-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TTM Technologies Bottom Line Advances In Q3",
+     "url": "https://www.nasdaq.com/articles/ttm-technologies-bottom-line-advances-q3",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526428263/d282109d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526424707/d187690d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526419614/d38382d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526409136/d147406d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526401013/d186334d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526388039/d113135d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "TTMI",
+  "fetchedAt": "2026-10-27",
+  "source": "한국투자증권 Open API",
+  "per": 34.14,
+  "pbr": 4.66,
+  "eps": 2.5,
+  "bps": 18.36,
+  "shares": 105349000,
+  "marketCapM": 9007,
+  "high52": 223.83,
+  "high52Date": "2026-06-22",
+  "low52": 55.44,
+  "low52Date": "2025-11-21",
+  "last": 85.5,
+  "prevClose": 80.11,
+  "nameKo": "TTM 테크놀로지스",
+  "nameEn": "TTM TECHNOLOGIES INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 105349000
+ },
+ "estimates": {
+  "ticker": "TTMI",
+  "url": "https://finance.yahoo.com/quote/TTMI/analysis/",
+  "fetchedAt": "2026-10-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.79,
+    "epsLow": 1.77,
+    "epsHigh": 1.81,
+    "epsYearAgo": 0.7,
+    "epsAnalysts": 4,
+    "epsGrowth": 155.4,
+    "epsCur": "USD",
+    "rev": 1430336200,
+    "revAnalysts": 5,
+    "revYearAgo": 774320000,
+    "revGrowth": 84.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.79,
+    "epsLow": 1.72,
+    "epsHigh": 1.95,
+    "epsYearAgo": 0.75,
+    "epsAnalysts": 5,
+    "epsGrowth": 138.9,
+    "epsCur": "USD",
+    "rev": 1488356200,
+    "revAnalysts": 5,
+    "revYearAgo": 845976000,
+    "revGrowth": 75.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 4.96,
+    "epsLow": 4.79,
+    "epsHigh": 5.02,
+    "epsYearAgo": 2.46,
+    "epsAnalysts": 5,
+    "epsGrowth": 101.5,
+    "epsCur": "USD",
+    "rev": 4474050200,
+    "revAnalysts": 5,
+    "revYearAgo": 2906345000,
+    "revGrowth": 53.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 8.34,
+    "epsLow": 7.51,
+    "epsHigh": 8.84,
+    "epsYearAgo": 4.96,
+    "epsAnalysts": 5,
+    "epsGrowth": 68.2,
+    "epsCur": "USD",
+    "rev": 6586724400,
+    "revAnalysts": 5,
+    "revYearAgo": 4474050200,
+    "revGrowth": 47.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.79,
+    "d7": -0.9,
+    "d30": -3.8,
+    "d90": 34.4,
+    "ago90": 1.33,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.79,
+    "d7": -0.2,
+    "d30": 17.9,
+    "d90": 54.9,
+    "ago90": 1.16,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.96,
+    "d7": 2.9,
+    "d30": 2.2,
+    "d90": 22.7,
+    "ago90": 4.04,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 8.34,
+    "d7": 6.1,
+    "d30": 20.9,
+    "d90": 54.4,
+    "ago90": 5.4,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.46,
+    "estimate": 1.26,
+    "surprisePct": 16.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.99,
+    "estimate": 0.9,
+    "surprisePct": 10.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.75,
+    "estimate": 0.67,
+    "surprisePct": 12.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.7,
+    "estimate": 0.68,
+    "surprisePct": 2.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 4,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-10-23",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 170,
+     "ptPrior": 231
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 165,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 150,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 231,
+     "ptPrior": 224
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 175,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-08-18",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 220,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 224,
+     "ptPrior": 215
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-26",
+  "numbers": {
+   "price": 85.5,
+   "ma20": 109.89,
+   "ma50": 116.27,
+   "ma150": 138.43,
+   "distMA50": -26.47,
+   "periodHigh": 223.83,
+   "pullbackFromHigh": -61.8,
+   "volRatio20": 1.86,
+   "dryUpRatio": 1.94
+  },
+  "last10": [
+   {
+    "d": "2026-10-13",
+    "o": 106.3,
+    "h": 116.35,
+    "l": 104.1,
+    "c": 116.1,
+    "v": 3734600,
+    "clsPos": 98,
+    "gapPct": -3.65
+   },
+   {
+    "d": "2026-10-14",
+    "o": 113.41,
+    "h": 114.24,
+    "l": 102.61,
+    "c": 103.31,
+    "v": 4298100,
+    "clsPos": 6,
+    "gapPct": -2.32
+   },
+   {
+    "d": "2026-10-15",
+    "o": 97.58,
+    "h": 101.71,
+    "l": 92.15,
+    "c": 101.36,
+    "v": 6306800,
+    "clsPos": 96,
+    "gapPct": -5.55
+   },
+   {
+    "d": "2026-10-16",
+    "o": 98.96,
+    "h": 100.29,
+    "l": 93.26,
+    "c": 93.88,
+    "v": 3844200,
+    "clsPos": 9,
+    "gapPct": -2.37
+   },
+   {
+    "d": "2026-10-19",
+    "o": 98.65,
+    "h": 100.47,
+    "l": 96.23,
+    "c": 99.1,
+    "v": 3932100,
+    "clsPos": 68,
+    "gapPct": 5.08
+   },
+   {
+    "d": "2026-10-20",
+    "o": 96.3,
+    "h": 99.81,
+    "l": 94,
+    "c": 95.51,
+    "v": 4200400,
+    "clsPos": 26,
+    "gapPct": -2.83
+   },
+   {
+    "d": "2026-10-21",
+    "o": 99.76,
+    "h": 102.53,
+    "l": 96.67,
+    "c": 102.15,
+    "v": 4563400,
+    "clsPos": 94,
+    "gapPct": 4.45
+   },
+   {
+    "d": "2026-10-22",
+    "o": 83.75,
+    "h": 84.09,
+    "l": 71.71,
+    "c": 73.89,
+    "v": 17484300,
+    "clsPos": 18,
+    "gapPct": -18.01
+   },
+   {
+    "d": "2026-10-23",
+    "o": 75.15,
+    "h": 80.57,
+    "l": 73.56,
+    "c": 80.11,
+    "v": 8562300,
+    "clsPos": 93,
+    "gapPct": 1.71
+   },
+   {
+    "d": "2026-10-26",
+    "o": 80.44,
+    "h": 88.8,
+    "l": 79.8,
+    "c": 85.5,
+    "v": 8246400,
+    "clsPos": 63,
+    "gapPct": 0.41
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TTMI-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TTMI-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 5일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

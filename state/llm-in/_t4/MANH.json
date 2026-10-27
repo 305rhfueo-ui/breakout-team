@@ -1,0 +1,224 @@
+{
+ "ticker": "MANH",
+ "news": [
+  {
+   "title": "Will Manhattan Associates (MANH) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-manhattan-associates-manh-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Manhattan Associates (MANH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Manhattan Associates (MANH) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-manhattan-associates-manh-top-momentum-stock-long-term",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About Manhattan Associates (MANH) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-manhattan-associates-manh-rating-upgrade-buy",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Manhattan Associates (MANH) Up 5.8% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-manhattan-associates-manh-58-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Manhattan Associates (MANH) Now Trades Above Golden Cross: Time to Buy?",
+   "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-now-trades-above-golden-cross-time-buy",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Manhattan Associates (MANH) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Manhattan Associates (MANH) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What to expect from Manhattan Associates’s (MANH) Q3 earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expect-manhattan-associates-manh-q3-095047697.html",
+   "date": "2026-10-26",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Vertical software stocks Q2 recap: benchmarking Manhattan Associates (NASDAQ:MANH)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vertical-software-stocks-q2-recap-020039378.html",
+   "date": "2026-10-24",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Will Manhattan Associates (MANH) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/manhattan-associates-manh-beat-estimates-151005889.html",
+   "date": "2026-10-22",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Manhattan Associates (MANH) Stock Could Be 44% Overvalued As AI Warehouse Win Lands",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/manhattan-associates-manh-stock-could-081754939.html",
+   "date": "2026-10-22",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Microsoft (MSFT) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-earnings-expected-grow-130020297.html",
+   "date": "2026-10-21",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Manhattan Associates (MANH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/manhattan-associates-manh-earnings-expected-130020102.html",
+   "date": "2026-10-20",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526320952/manh-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-06-01",
+   "items": [
+    "2.05",
+    "7.01"
+   ],
+   "itemsKo": [
+    "2.05",
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526251382/manh-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526232142/manh-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526228194/manh-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526166709/manh-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-25",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526073584/manh-20260225.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.77,
+  "saleNy": 8.53,
+  "epsCy": 8.65,
+  "epsNy": 11.4,
+  "cyTrend": 0,
+  "nyTrend": -0.35,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.31,
+    7.39,
+    5.7
+   ],
+   "ni": [
+    -11.32,
+    -6.25,
+    8.2
+   ],
+   "opm": [
+    22.24,
+    23.01,
+    24.78
+   ],
+   "updated": "2026-09-08 09:43:39"
+  }
+ }
+}

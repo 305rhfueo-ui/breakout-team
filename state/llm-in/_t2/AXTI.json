@@ -1,0 +1,263 @@
+{
+ "ticker": "AXTI",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "AXT",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 146.79,
+  "saleNy": 111.35,
+  "epsCy": -311.71,
+  "epsNy": 159.22,
+  "est": {
+   "cyCur": 0.868,
+   "cy30": 0.298,
+   "nyCur": 2.25,
+   "ny30": 2.226
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    164.77,
+    39.1,
+    -8.22
+   ],
+   "ni": [
+    "흑자전환",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    21.9,
+    -5.89,
+    -16.64
+   ],
+   "updated": "2026-09-16 06:44:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-27",
+  "nameKo": "AXT",
+  "nameEn": "AXT INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051627&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 47589000,
+     "profit": 10423000,
+     "netIncome": 11128000,
+     "margin": 21.9,
+     "yoy": {
+      "revenue": 164.8,
+      "profit": 254.5,
+      "netIncome": 258.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 26924000,
+     "profit": -1585000,
+     "netIncome": -1620000,
+     "margin": -5.9,
+     "yoy": {
+      "revenue": 39.1,
+      "profit": 84.6,
+      "netIncome": 81.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 23041000,
+     "profit": -3833000,
+     "netIncome": -3548000,
+     "margin": -16.6,
+     "yoy": {
+      "revenue": -8.2,
+      "profit": 37.8,
+      "netIncome": 30.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 27955000,
+     "profit": -1123000,
+     "netIncome": -1906000,
+     "margin": -4,
+     "yoy": {
+      "revenue": 18.2,
+      "profit": 67,
+      "netIncome": 35.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AXT's Inventory Rises Sharply: Will Working Capital Pressure Grow?",
+     "url": "https://www.nasdaq.com/articles/axts-inventory-rises-sharply-will-working-capital-pressure-grow",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Surging InP Demand Strengthen AXT's Long-Term Growth Potential?",
+     "url": "https://www.nasdaq.com/articles/can-surging-inp-demand-strengthen-axts-long-term-growth-potential",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/axt-axti-1272-one-week-what-you-should-know",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Amkor vs. AXT: Which Semiconductor Stock Is the Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/amkor-vs-axt-which-semiconductor-stock-better-buy-now",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bull of the Day: AXT (AXTI)",
+     "url": "https://www.nasdaq.com/articles/bull-day-axt-axti",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AXT's Geographic Reach Expands: Can It Drive More Revenue Growth?",
+     "url": "https://www.nasdaq.com/articles/axts-geographic-reach-expands-can-it-drive-more-revenue-growth",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/axti20260609_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/axti20260715_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "3.03",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024882/axti20260729_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/axti20260720_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-08",
+    "itemsKo": [
+     "2.04"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022557/axti20260630_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Friday stocks from analyst calls include Nvidia, SpaceX, Amazon & more",
+   "url": "https://www.cnbc.com/2026/07/31/friday-stocks-from-analyst-calls-include-nvidia-spacex.html",
+   "date": "2026-07-31",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: AXT, Dell, Broadcom, O'Reilly & more",
+   "url": "https://www.cnbc.com/2026/07/06/stocks-making-the-biggest-moves-midday-axti-dell-avgo-orly.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "AXTI",
+  "fetchedAt": "2026-10-27",
+  "source": "한국투자증권 Open API",
+  "per": 3025.27,
+  "pbr": 4.18,
+  "eps": 0.02,
+  "bps": 13.48,
+  "shares": 65573200,
+  "marketCapM": 3690,
+  "high52": 143.16,
+  "high52Date": "2026-05-26",
+  "low52": 4.9,
+  "low52Date": "2025-10-23",
+  "last": 56.27,
+  "prevClose": 52.08,
+  "nameKo": "AXT",
+  "nameEn": "AXT INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 65573200
+ }
+}

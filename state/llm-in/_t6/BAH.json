@@ -1,0 +1,729 @@
+{
+ "ticker": "BAH",
+ "date": "2026-10-27",
+ "session": "2026-10-26",
+ "source": "list",
+ "plan": {
+  "ticker": "BAH",
+  "name": "부즈 알렌 해밀턴 홀딩",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "price": 83.36000061035156,
+  "grade": "A",
+  "state": "post",
+  "pivot": 81.19,
+  "stop": 78.29,
+  "distToPivotPct": 2.67,
+  "distToPivotAdr": 0.69,
+  "riskPerSharePct": 3.57,
+  "adrPct": 3.87,
+  "extensionAdr": 2.37,
+  "breakDate": "2026-10-26",
+  "metrics": {
+   "baseBars": 31,
+   "baseWeeks": 6.2,
+   "depthPct": 18.1,
+   "priorMovePct": 36.5,
+   "higherLows": 1,
+   "contraction": 1.07,
+   "closeRange10Adr": 2.3,
+   "surf10": 1.23,
+   "surf20": 2.06,
+   "slope20": 0.34,
+   "baseLow": 66.5,
+   "lastSwingLow": 70.86
+  },
+  "reasons": [
+   "선행 상승 +36%",
+   "베이스 6.2주",
+   "깊이 18.1%",
+   "저점 상승 1회",
+   "진폭 1.07배 · 10일 종가폭 2.3 ADR",
+   "10일선 +1.2 ADR · 20일선 +2.1 ADR",
+   "20일선 기울기 +0.34%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.21965254189995675,
+    "pct": 94.72497745716862
+   },
+   "m3": {
+    "v": 0.16843763215389504,
+    "pct": 89.67538322813346
+   },
+   "m6": {
+    "v": 0.06256750054132547,
+    "pct": 62.17312894499549
+   }
+  },
+  "ret1m": 18.66,
+  "ret3m": 20.47,
+  "ret6m": 10.97,
+  "marketCap": "9.33B",
+  "volx": 1.56,
+  "volSurgeWk": 1.39,
+  "high52": 78.16,
+  "newHigh52": false,
+  "adr": 3.87,
+  "div50": 11.95,
+  "div200": 9.78,
+  "targetStatus": false,
+  "saleCy": 1.51,
+  "saleNy": 4.7,
+  "epsCy": -0.15,
+  "epsNy": 4,
+  "cyTrend": 1.42,
+  "nyTrend": 0.28,
+  "est": {
+   "cyCur": 6.50024,
+   "cy30": 6.40948,
+   "nyCur": 6.76045,
+   "ny30": 6.74137
+  },
+  "fs": {
+   "sale": [
+    -4.24,
+    -6.45,
+    -10.18
+   ],
+   "ni": [
+    -26.94,
+    6.22,
+    6.95
+   ],
+   "opm": [
+    9.96,
+    9.45,
+    8.78
+   ],
+   "updated": "2026-09-08 09:04:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-27",
+  "nameKo": "부즈 알렌 해밀턴 홀딩",
+  "nameEn": "BOOZ ALLEN HAMILTON HLDG CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001443646&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2800000000,
+     "profit": 279000000,
+     "netIncome": 198000000,
+     "margin": 10,
+     "yoy": {
+      "revenue": -4.2,
+      "profit": 8.6,
+      "netIncome": -26.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 2783000000,
+     "profit": 263000000,
+     "netIncome": 204497000,
+     "margin": 9.5,
+     "yoy": {
+      "revenue": -6.5,
+      "profit": -4.4,
+      "netIncome": 5.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 2620000000,
+     "profit": 230000000,
+     "netIncome": 200000000,
+     "margin": 8.8,
+     "yoy": {
+      "revenue": -10.2,
+      "profit": -21,
+      "netIncome": 7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2890000000,
+     "profit": 283000000,
+     "netIncome": 175000000,
+     "margin": 9.8,
+     "yoy": {
+      "revenue": -8.1,
+      "profit": -48.5,
+      "netIncome": -55.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "TD Cowen Upgrades Booz Allen Hamilton Holding to Buy from Hold",
+     "url": "https://www.nasdaq.com/articles/td-cowen-upgrades-booz-allen-hamilton-holding-buy-hold",
+     "date": "2026-10-26",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Booz Allen Hamilton: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-3-key-takeaways-long-term-investors",
+     "date": "2026-10-25",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Booz Allen Hamilton (BAH) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-q2-2027-earnings-call-transcript",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Booz Allen Hamilton (BAH) Said on Its Q2 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-booz-allen-hamilton-bah-said-its-q2-earnings-call",
+     "date": "2026-10-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Booz Allen (BAH) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/booz-allen-bah-q2-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Booz Allen Hamilton Holding Corporation Announces Second Quarter Fiscal 2027 Results",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-holding-corporation-announces-second-quarter-fiscal-2027-results",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Booz Allen Hamilton Raises FY27 Adj. EPS Guidance",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-raises-fy27-adj-eps-guidance",
+     "date": "2026-10-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Booz Allen Hamilton Holding Q2 27 Earnings Conference Call AT 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-holding-q2-27-earnings-conference-call-8-00-am-et",
+     "date": "2026-10-23",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026066971/bah-20261023.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-24",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000058/bah-20260824.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926090450/tm2621893d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000029/bah-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026049494/bah-20260724.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926076094/tm2618424d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: American Airlines, Coherent, Tesla",
+   "url": "https://www.cnbc.com/2026/07/24/stocks-making-the-biggest-moves-midday-aal-cohr-slb-tsla.html",
+   "date": "2026-07-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Booz Allen CEO on cyber risks and the AI arms race",
+   "url": "https://www.cnbc.com/video/2026/08/10/booz-allen-ceo-on-cyber-risks-and-the-ai-arms-race.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "BAH",
+  "fetchedAt": "2026-10-27",
+  "source": "한국투자증권 Open API",
+  "per": 13.09,
+  "pbr": 8.34,
+  "eps": 6.37,
+  "bps": 9.99,
+  "shares": 120285000,
+  "marketCapM": 10027,
+  "high52": 106.656,
+  "high52Date": "2026-01-23",
+  "low52": 59.0522,
+  "low52Date": "2026-06-26",
+  "last": 83.36,
+  "prevClose": 78.32,
+  "nameKo": "부즈 알렌 해밀턴 홀딩",
+  "nameEn": "BOOZ ALLEN HAMILTON HLDG CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 120285000
+ },
+ "estimates": {
+  "ticker": "BAH",
+  "url": "https://finance.yahoo.com/quote/BAH/analysis/",
+  "fetchedAt": "2026-10-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.46,
+    "epsLow": 1.39,
+    "epsHigh": 1.55,
+    "epsYearAgo": 1.77,
+    "epsAnalysts": 11,
+    "epsGrowth": -17.2,
+    "epsCur": "USD",
+    "rev": 2823676550,
+    "revAnalysts": 14,
+    "revYearAgo": 2620000000,
+    "revGrowth": 7.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.57,
+    "epsLow": 1.47,
+    "epsHigh": 1.66,
+    "epsYearAgo": 1.78,
+    "epsAnalysts": 11,
+    "epsGrowth": -11.8,
+    "epsCur": "USD",
+    "rev": 2970034140,
+    "revAnalysts": 14,
+    "revYearAgo": 2783000000,
+    "revGrowth": 6.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 6.61,
+    "epsLow": 6.5,
+    "epsHigh": 6.71,
+    "epsYearAgo": 6.51,
+    "epsAnalysts": 12,
+    "epsGrowth": 1.5,
+    "epsCur": "USD",
+    "rev": 11380009980,
+    "revAnalysts": 15,
+    "revYearAgo": 11217000000,
+    "revGrowth": 1.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 6.77,
+    "epsLow": 6.4,
+    "epsHigh": 7.01,
+    "epsYearAgo": 6.61,
+    "epsAnalysts": 15,
+    "epsGrowth": 2.4,
+    "epsCur": "USD",
+    "rev": 11889788950,
+    "revAnalysts": 15,
+    "revYearAgo": 11380009980,
+    "revGrowth": 4.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.46,
+    "d7": -0.8,
+    "d30": -1.2,
+    "d90": -0.9,
+    "ago90": 1.48,
+    "up7": 1,
+    "up30": 2,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.57,
+    "d7": -2.5,
+    "d30": -2.6,
+    "d90": -3.6,
+    "ago90": 1.63,
+    "up7": 2,
+    "up30": 2,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 6.61,
+    "d7": 4.1,
+    "d30": 3.1,
+    "d90": 3.7,
+    "ago90": 6.37,
+    "up7": 1,
+    "up30": 1,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 6.77,
+    "d7": 0.6,
+    "d30": 0.4,
+    "d90": 0.7,
+    "ago90": 6.73,
+    "up7": 2,
+    "up30": 2,
+    "down7": 2,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.76,
+    "estimate": 1.48,
+    "surprisePct": 19,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.81,
+    "estimate": 1.48,
+    "surprisePct": 21.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.78,
+    "estimate": 1.36,
+    "surprisePct": 30.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.77,
+    "estimate": 1.29,
+    "surprisePct": 37.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 2,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 6,
+   "ptLowered": 2,
+   "total": 8,
+   "recent": [
+    {
+     "date": "2026-10-26",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 88,
+     "ptPrior": 77
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "BNP Paribas",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 70
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "TD Cowen",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 95,
+     "ptPrior": 77
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Truist Securities",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 70
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 77,
+     "ptPrior": 82
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 77,
+     "ptPrior": 75
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 82,
+     "ptPrior": 69
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-22",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-26",
+  "numbers": {
+   "price": 83.36,
+   "ma20": 73,
+   "ma50": 74.46,
+   "ma150": 74.23,
+   "distMA50": 11.95,
+   "periodHigh": 190.59,
+   "pullbackFromHigh": -56.26,
+   "volRatio20": 1.37,
+   "dryUpRatio": 1.16
+  },
+  "last10": [
+   {
+    "d": "2026-10-13",
+    "o": 74.2,
+    "h": 74.37,
+    "l": 72,
+    "c": 72.31,
+    "v": 1171400,
+    "clsPos": 13,
+    "gapPct": 0.77
+   },
+   {
+    "d": "2026-10-14",
+    "o": 72.01,
+    "h": 73.29,
+    "l": 70.86,
+    "c": 71.87,
+    "v": 1192500,
+    "clsPos": 42,
+    "gapPct": -0.41
+   },
+   {
+    "d": "2026-10-15",
+    "o": 71.87,
+    "h": 75.07,
+    "l": 71.87,
+    "c": 74.5,
+    "v": 1950900,
+    "clsPos": 82,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-16",
+    "o": 75.19,
+    "h": 75.9,
+    "l": 73.41,
+    "c": 74.26,
+    "v": 1313200,
+    "clsPos": 34,
+    "gapPct": 0.93
+   },
+   {
+    "d": "2026-10-19",
+    "o": 73.55,
+    "h": 74.19,
+    "l": 72.56,
+    "c": 74.06,
+    "v": 1001600,
+    "clsPos": 92,
+    "gapPct": -0.96
+   },
+   {
+    "d": "2026-10-20",
+    "o": 74.86,
+    "h": 75.65,
+    "l": 74.26,
+    "c": 74.97,
+    "v": 998900,
+    "clsPos": 51,
+    "gapPct": 1.08
+   },
+   {
+    "d": "2026-10-21",
+    "o": 74.97,
+    "h": 75.9,
+    "l": 74.26,
+    "c": 75.04,
+    "v": 1015300,
+    "clsPos": 48,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-22",
+    "o": 75.69,
+    "h": 79.34,
+    "l": 75.54,
+    "c": 78.57,
+    "v": 2412500,
+    "clsPos": 80,
+    "gapPct": 0.87
+   },
+   {
+    "d": "2026-10-23",
+    "o": 78.64,
+    "h": 79.4,
+    "l": 73.06,
+    "c": 78.32,
+    "v": 3568900,
+    "clsPos": 83,
+    "gapPct": 0.09
+   },
+   {
+    "d": "2026-10-26",
+    "o": 78.71,
+    "h": 84.89,
+    "l": 78.71,
+    "c": 83.36,
+    "v": 2493900,
+    "clsPos": 75,
+    "gapPct": 0.5
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BAH-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BAH-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 5일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

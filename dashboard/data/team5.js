@@ -3257,22 +3257,22 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-10-21",
-        "carried": true,
-        "headline": "헬스케어 정보서비스는 업종 순위 6위로, 한 달 새 4계단 올랐다.",
-        "summary": "헬스케어 정보서비스 업종은 5개 종목으로 전체 업종 중 6위이고, 25거래일 전보다 4계단 올랐다. 8월 20일 LS증권 시황 리포트는 헬스케어가 기술주와 엇갈려 강세를 보였다고 전했다. 업종 안에서는 비바 시스템스가 CEO 발언으로 신제품 고객 확대가 확인된 종목이다. 다만 업종 강세의 구체적 원인을 직접 다룬 기사·리포트는 제한적이어서, 이후 개별 기업 실적과 제품 성과 확인이 이어져야 한다.",
+        "researchedOn": "2026-10-27",
+        "carried": false,
+        "headline": "헬스케어 정보서비스는 6개월 상승률 상위 종목이 몰려 업종 순위 6위에 올랐다.",
+        "summary": "헬스케어 정보서비스 업종은 종목 5개로 업종 순위 6위이며, 25거래일 전보다 2계단 올랐다. 8월 LS증권 시황 리포트는 기술주가 약한 날 헬스케어가 강세였다고 전했다. 업종 안에서는 비바 시스템스가 신제품 고객 확대를 CEO가 직접 언급했다. 다만 기사 원문을 열람하지 못해 실적·계약 근거는 제한적이며, 강세가 이어지려면 개별 종목의 실적 확인이 필요하다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "LS증권은 8월 20일 시황에서 헬스케어가 강세였고 기술주는 약세였다고 정리했다. 업종이 기술주와 다른 방향으로 움직인 사례다.",
+            "statement": "LS증권은 8월 시황에서 기술주가 약한 날 헬스케어가 강세였다고 전했다. 자금이 기술주에서 헬스케어로 옮겨간 흐름이다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "미 재무부 장기물 바이백 소식과 모더나발 헬스케어 랠리, 기술주는 차익실현 지속",
                 "publisher": "LS증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlqgclzgxqmmqkgcgxecge.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqgclzgxqmmqkgcgxecgq.pdf",
                 "date": "2026-08-20",
-                "quote": "- 3 대지수 소폭 상승, 헬스케어 강세, 기술주 약세 온도차- 미 재무부 장기채 매입규모 2 배 확대 계획 발표- FOMC 의사록, 연준 위원들의 인플레 경계 확인",
+                "quote": "3 대지수 소폭 상승, 헬스케어 강세, 기술주 약세 온도차",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3282,11 +3282,11 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "VEEV",
-            "role": "제약·바이오용 클라우드 소프트웨어 업체로, 신제품 고객 확대를 CEO가 직접 밝힌 종목",
+            "role": "제약·바이오용 클라우드 소프트웨어 업체로, 신제품 고객 확대를 CEO가 직접 밝혔다.",
             "why": [
               {
                 "id": "l1a",
-                "statement": "비바 시스템스 CEO 피터 가스너는 Veeva Basics 고객이 200곳에 가깝다고 밝혔다. 신제품이 고객 기반을 넓히고 있다는 뜻이다.",
+                "statement": "비바 시스템스 CEO는 신제품 Veeva Basics 고객이 200곳에 가깝다고 CNBC에서 밝혔다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
@@ -3301,19 +3301,19 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 2.3,
-            "rnk1": 1.04,
+            "rnk6": 3.11,
+            "rnk1": 10.87,
             "name": "비바 시스템스"
           }
         ],
         "risks": [],
-        "sourceGap": "CNBC 원문은 접속이 막혀 제목만 인용했고 증권사 종목 리포트가 없어, 업종 강세의 원인과 다른 종목의 주도 근거는 충분히 확인하지 못했다.",
+        "sourceGap": "CNBC 원문이 열리지 않아(403) 제목 수준 근거만 사용했고, 증권사 종목 리포트는 없어 주도주는 1개만 제시했다.",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": ""
+          "reason": "모든 statement가 quote와 출처 제목으로 지지됨. 날짜 6개월 이내."
         },
-        "evidenceCount": 21
+        "evidenceCount": 20
       }
     },
     {
@@ -3635,7 +3635,102 @@ window.TEAM5_DATA = {
           "name": null
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-27",
+        "carried": false,
+        "headline": "의료기기는 애보트의 혈당측정기·심장 기기 성장이 이끌며 업종 순위가 한 달 새 48계단 올랐다.",
+        "summary": "의료기기 업종은 22개 종목 중 순위 7위로, 25거래일 전보다 48계단 올랐다. 대신증권이 전한 애보트 분석에서는 Libre(연속혈당측정기)와 심장 디바이스, 암 진단이 성장을 이끄는 축으로 꼽혔다. 유럽에서는 차세대 좌심방이 폐색기가 CE 마크를 받아 심장 기기 성장동력이 재확인됐다. 다만 존슨앤드존슨의 의료기기 부문은 성장이 네 분기 연속 둔화돼, 업종 전체의 성장 확산 여부가 이어져야 할 조건이다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "대신증권은 애보트의 성장을 Libre와 심장 디바이스, 암 진단이 이끈다고 분석했다. 영양과 감염진단 부진은 전체 성장의 제약 요인으로 짚었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxecgq.pdf",
+                "date": "2026-10-12",
+                "quote": "Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "애보트의 차세대 Amulet 360 좌심방이 폐색기가 유럽 CE 마크를 받아, 대신증권은 심장 기기 성장동력이 재확인됐다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[애보트 래브러토리스 (NYS:ABT)] [Issue & News] 차세대 Amulet 360 좌심방이 폐색기 CE 마크 획득 - 유럽 우선 출시로 EP 성장동력 재확인",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlqkzecqceeegcgxecgq.pdf",
+                "date": "2026-08-27",
+                "quote": "Amulet 360 좌심방이 폐색기, 유럽 CE 마크 획득",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "ABT",
+            "role": "대형 의료기기 업체로 혈당측정기와 심장 기기가 성장을 이끈다",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "대신증권은 애보트의 Libre와 심장 디바이스, 암 진단을 성장 동력으로 꼽았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxecgq.pdf",
+                    "date": "2026-10-12",
+                    "quote": "Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 21.87,
+            "rnk1": 38.1,
+            "name": "애보트 래브러토리스"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "존슨앤드존슨의 의료기기 부문 성장이 네 분기 연속 둔화돼, 업종 전반의 성장 모멘텀이 약해질 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[존슨앤드존슨 (XTR:JNJ)] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxecgq.pdf",
+                "date": "2026-10-13",
+                "quote": "MedTech +2.5%로 네 분기 연속 감속",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "업종 전반의 상승 원인을 직접 다룬 기사가 없고 애보트·존슨앤드존슨 리포트만 확보했다. CNBC 기사는 열람이 막혀 본문 근거로 쓰지 못했다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "l1b",
+            "r2"
+          ],
+          "reason": "l1b: 영양사업 분리 주장이 quote에 없음. r2: 콜 분위기 평가가 quote에 없음. 두 claim 제거 후 headline·summary는 JNJ 내용(r1)과 애보트 제품(w1, w2)만 남아 수정 불필요."
+        },
+        "evidenceCount": 47
+      }
     },
     {
       "key": "Technology|Information Technology Services",
@@ -3846,14 +3941,14 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-10-22",
-        "carried": true,
-        "headline": "AI 도입 수요가 IT 서비스 실적으로 확인되며 액센추어·IBM·펭귄 솔루션스가 업종을 끌어올렸다.",
-        "summary": "IT 서비스 업종은 전체 업종 중 10위로, 한 달 새 64계단 올랐다. 액센추어가 실적 발표 뒤 급등했고 IBM도 매출과 이익이 예상을 웃돌았다. 펭귄 솔루션스는 AI 인프라 성장 기대가 커졌다. 방산·정부 IT 쪽 CACI는 수주잔고를 내세웠다. 이 흐름이 이어지려면 AI 수요가 계약과 실적으로 계속 확인되어야 한다.",
+        "researchedOn": "2026-10-27",
+        "carried": false,
+        "headline": "액센추어·IBM 등 대형 IT 서비스 기업의 실적이 예상을 넘어서며 업종 순위가 한 달 새 67계단 올랐다.",
+        "summary": "IT 서비스 업종은 업종 순위 8위로, 25거래일 전보다 67계단 올랐다. 액센추어가 실적 발표 뒤 급등했고 IBM도 매출과 이익이 모두 예상을 웃돌았다. 정부 IT를 맡는 CACI도 회계연도 1분기 매출 25억 달러를 발표했다. 이 흐름이 이어지려면 다음 분기 실적에서도 예상 상회가 확인돼야 한다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "IT 서비스 대장주 액센추어가 실적 발표에서 예상을 웃돌며 주가가 급등해 업종 분위기를 바꿨다.",
+            "statement": "업종 최대 기업 액센추어가 실적 발표 뒤 크게 올라 업종 전체 투자심리를 끌어올렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -3869,7 +3964,7 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w2",
-            "statement": "IBM도 매출과 이익 모두 예상을 넘겼고, CEO는 AI 사업의 성과를 강조했다.",
+            "statement": "IBM이 매출과 이익 모두 예상을 넘어섰고, 최고경영자는 AI 사업의 진전을 강조했다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -3885,40 +3980,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w3",
-            "statement": "펭귄 솔루션스는 분기 실적 발표 뒤 AI 인프라 성장이 빨라질 것이라는 평가를 받았다.",
+            "statement": "정부·방산 IT 업체 CACI는 회계연도 1분기 매출 25억 달러를 발표했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
-                "publisher": "Zacks(나스닥)",
-                "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth",
-                "date": "2026-10-07",
-                "quote": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "업종 내 기업들이 인수로 데이터·AI 서비스 역량을 넓히고 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CDW's $525M Lovelytics Buyout: Can Data & AI Services Boost Growth?",
-                "publisher": "Zacks(나스닥)",
-                "url": "https://www.nasdaq.com/articles/cdws-525m-lovelytics-buyout-can-data-ai-services-boost-growth",
-                "date": "2026-09-14",
-                "quote": "CDW's $525M Lovelytics Buyout: Can Data & AI Services Boost Growth?",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
-                "publisher": "Zacks(나스닥)",
-                "url": "https://www.nasdaq.com/articles/accentures-8b-acquisition-push-growth-catalyst-acn-stock",
-                "date": "2026-10-16",
-                "quote": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
+                "title": "CACI International Inc Reports Fiscal 2027 First Quarter Revenues of $2.5 billion",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/caci-international-inc-reports-fiscal-2027-first-quarter-revenues-25-billion",
+                "date": "2026-10-22",
+                "quote": "CACI International Inc Reports Fiscal 2027 First Quarter Revenues of $2.5 billion",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3928,11 +3998,11 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "ACN",
-            "role": "업종 최대 규모(시가총액 약 1450억 달러)의 IT 서비스 기업으로 실적 호조가 업종 반등을 이끌었다.",
+            "role": "업종 최대 규모의 컨설팅·IT 서비스 기업으로 실적 상회가 업종 반등을 이끌었다.",
             "why": [
               {
                 "id": "l1a",
-                "statement": "액센추어는 실적이 예상을 웃돌며 주가가 급등했다.",
+                "statement": "액센추어는 실적이 예상을 넘어선 뒤 주가가 크게 올랐다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
@@ -3945,35 +4015,19 @@ window.TEAM5_DATA = {
                     "httpStatus": 200
                   }
                 ]
-              },
-              {
-                "id": "l1b",
-                "statement": "액센추어는 80억 달러 규모 인수 공세로 성장 동력을 넓히고 있다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
-                    "publisher": "Zacks(나스닥)",
-                    "url": "https://www.nasdaq.com/articles/accentures-8b-acquisition-push-growth-catalyst-acn-stock",
-                    "date": "2026-10-16",
-                    "quote": "Accenture's $8B Acquisition Push: A Growth Catalyst for ACN Stock?",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
               }
             ],
-            "rnk6": 11.86,
-            "rnk1": 0.41,
+            "rnk6": 9.96,
+            "rnk1": 0.05,
             "name": "액센추어"
           },
           {
             "ticker": "IBM",
-            "role": "업종 최대 거래대금의 대형주로 3분기 실적이 예상을 웃돌았다.",
+            "role": "소프트웨어와 AI 사업을 앞세운 대형 IT 서비스 기업이다.",
             "why": [
               {
                 "id": "l2a",
-                "statement": "IBM은 3분기 매출과 이익이 모두 예상을 넘었고 CEO가 AI 사업 성과를 강조했다.",
+                "statement": "IBM은 3분기 매출과 이익이 모두 예상을 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
@@ -3988,88 +4042,86 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 37.2,
-            "rnk1": 18.17,
+            "rnk6": 35.48,
+            "rnk1": 8.88,
             "name": "IBM"
           },
           {
-            "ticker": "PENG",
-            "role": "AI 인프라(메모리·컴퓨팅 시스템) 사업으로 업종 6개월 상대강도 1위권이다.",
+            "ticker": "CACI",
+            "role": "정부·방산 IT 서비스 기업이다.",
             "why": [
               {
                 "id": "l3a",
-                "statement": "펭귄 솔루션스는 AI 인프라 성장이 빨라질 것이라는 평가를 받았다.",
+                "statement": "CACI는 회계연도 1분기 매출 25억 달러를 기록했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
-                    "publisher": "Zacks(나스닥)",
-                    "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth",
-                    "date": "2026-10-07",
-                    "quote": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                    "title": "CACI International Inc Reports Fiscal 2027 First Quarter Revenues of $2.5 billion",
+                    "publisher": "Fintel",
+                    "url": "https://www.nasdaq.com/articles/caci-international-inc-reports-fiscal-2027-first-quarter-revenues-25-billion",
+                    "date": "2026-10-22",
+                    "quote": "CACI International Inc Reports Fiscal 2027 First Quarter Revenues of $2.5 billion",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 3.02,
-            "rnk1": 16.91,
-            "name": "펭귄 솔루션스"
+            "rnk6": 12.31,
+            "rnk1": 25.65,
+            "name": "CACI 인터내셔널"
           },
           {
-            "ticker": "CACI",
-            "role": "정부·방산 IT 서비스 기업으로 대규모 수주잔고를 내세웠다.",
+            "ticker": "CDW",
+            "role": "IT 솔루션 유통·서비스 기업으로 데이터·AI 서비스를 넓히는 중이다.",
             "why": [
               {
                 "id": "l4a",
-                "statement": "CACI는 연례 주주총회에서 320억 달러 수주잔고와 ARKA 인수를 내세웠다.",
+                "statement": "CDW는 데이터·AI 서비스 확대를 위해 러블리틱스 인수를 추진했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "CACI Highlights Strong FY2026, $32B Backlog and ARKA Deal at Annual Meeting",
-                    "publisher": "MarketBeat(나스닥)",
-                    "url": "https://www.nasdaq.com/articles/caci-highlights-strong-fy2026-32b-backlog-and-arka-deal-annual-meeting",
-                    "date": "2026-10-15",
-                    "quote": "CACI Highlights Strong FY2026, $32B Backlog and ARKA Deal at Annual Meeting",
+                    "title": "CDW To Acquire Lovelytics To Expand Data And AI Services",
+                    "publisher": "RTTNews",
+                    "url": "https://www.nasdaq.com/articles/cdw-acquire-lovelytics-expand-data-and-ai-services",
+                    "date": "2026-09-03",
+                    "quote": "CDW To Acquire Lovelytics To Expand Data And AI Services",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 23.13,
-            "rnk1": 49.46,
-            "name": "CACI 인터내셔널"
+            "rnk6": 23.04,
+            "rnk1": 1.67,
+            "name": "CDW"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "AI 하드웨어로 예산이 쏠리면 대형 소프트웨어 계약이 미뤄질 수 있다. 키움증권은 IBM 사례에서 대형 계약 지연으로 주가가 급락했다고 짚었다.",
+            "statement": "IBM은 좋은 실적에도 주가가 반등하지 못하고 있어, 실적 호재가 주가로 이어지지 않을 수 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[IBM (NYS:IBM)] AI 예산 재배분 충격과 소프트웨어 옥석 가리기",
-                "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlklkxeckilxqzgcgxecgg.pdf",
-                "date": "2026-07-24",
-                "quote": "2Q 실적은 잠정치 부합, AI HW 예산 쏠림에 따른 대형 계약 지연으로 주가 급락",
+                "title": "Why Isn't IBM's Stock Bouncing Back After Strong Earnings Results?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-isnt-ibms-stock-bouncing-back-after-strong-earnings-results",
+                "date": "2026-10-22",
+                "quote": "Why Isn't IBM's Stock Bouncing Back After Strong Earnings Results?",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "sourceGap": "CNBC 본문(403)을 열지 못해 제목만 근거로 썼고, 업종 검색어 증권사 리포트는 없다(IBM 리포트 1건만 있음).",
+        "sourceGap": "CNBC 본문이 열리지 않아 기사 제목만으로 작성했고, 증권사 리포트는 이 업종에 없다.",
         "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "l3b"
-          ],
-          "reason": "l3b는 뱅크오브아메리카의 미래 주가 예측일 뿐, 펭귄 솔루션스가 실제로 한 구체적인 일(실적·수주·제품)이 기사 제목에 명시되지 않았으므로 제거하였습니다. l3a(AI 인프라 성장 신호)가 여전히 같은 주장을 뒷받침합니다."
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 statement가 quote와 출처 제목으로 지지됨. 'earnings beat' 등은 회사 행동 기반. 날짜 6개월 이내."
         },
-        "evidenceCount": 60
+        "evidenceCount": 56
       }
     },
     {
@@ -4211,20 +4263,20 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-10-21",
-        "carried": true,
-        "headline": "대형 제약 업종은 일라이 릴리의 비만약 판매 급증과 암젠·애브비의 신약 성장이 실적으로 확인되며 순위 7위까지 올라왔다.",
-        "summary": "대형 제약 업종은 전체 업종 중 7위이고, 25거래일 전보다 32계단 올랐다. 일라이 릴리는 2분기 매출이 전년 대비 47.7% 늘어 기대치를 웃돌았고, 비만약 판매량이 가격 하락을 압도했다. 암젠은 Repatha와 Imdelltra 같은 신제품이 빠르게 성장했고, 애브비도 2분기 매출과 주당순이익이 컨센서스를 넘었다. 존슨 앤드 존슨은 탈크 소송 합의로 오래된 법적 부담을 덜었다. 다만 머크의 키트루다 특허 만료 대비와 애브비의 성장 둔화가 이어지는지, 헬스케어 차익 실현 의견이 확산되는지가 강세 지속의 관건이다.",
+        "researchedOn": "2026-10-27",
+        "carried": false,
+        "headline": "비만약·항암제 신약 성과가 실적과 파이프라인 기대를 끌어올리며 대형 제약이 업종 순위 9위까지 올랐다.",
+        "summary": "대형 제약 업종은 순위 9위로, 25거래일 전보다 15계단 올랐다. 일라이 릴리는 비만약(GLP-1) 판매 증가로 2분기 매출이 전년보다 47.7% 늘며 업종 강세의 중심에 섰다. 암젠은 폐암 신약 병용 임상에서 사망 위험을 58% 낮췄고, 존슨 앤드 존슨은 전립선암 신약 데이터를 잇달아 내놨다. 다만 머크는 2028년 키트루다 특허 만료 부담이 남아 있고, 업종 전반에 차익 실현 의견도 나온다. 이번 주 이어지는 3분기 실적 발표에서 성장 지속 여부가 확인돼야 한다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "일라이 릴리의 2분기 매출이 22.97B달러로 전년보다 47.7% 늘었고, 비만약 판매량 증가가 가격 하락을 압도해 업종 실적을 끌어올렸다.",
+            "statement": "일라이 릴리의 비만약 물량 증가가 가격 하락을 압도해 2분기 매출이 전년보다 47.7% 늘었고, 시장 예상치를 웃돌았다. 이 실적이 업종 상승을 이끌었다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[일라이 릴리 (NYS:LLY)] 인크레틴 시장 확장 재확인, 경구제 침투 속도가 관건",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlxczcxcmmiekkgcgxecge.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlxczcxcmmiekkgcgxecgq.pdf",
                 "date": "2026-08-06",
                 "quote": "- 2Q26 매출 $22.97B(+47.7%yoy), EPS $8.38(+32.8%yoy)로 컨센서스 상회- 인크레틴 물량이 가격 하락을 압도, 비만 시장 성장세 확인- 본업 상향분을 M&A로 재투자, 하반기 경구용 GLP-1 처방 추이에 주목",
                 "verified": "ok",
@@ -4234,24 +4286,24 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w2",
-            "statement": "암젠은 Repatha가 2분기 매출 37% 성장하고 Imdelltra가 최근 분기 매출 115% 성장하는 등 신제품이 기존 약의 매출 감소를 메우고 있다.",
+            "statement": "암젠의 폐암 치료제 Imdelltra를 임핀지와 병용하면 1차 소세포폐암에서 사망 위험이 58% 줄었다. 처방 대상이 2차에서 1차 치료로 넓어질 수 있다는 기대가 생겼다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[암젠 (NAS:AMGN)] Repatha 고위험군 사망위험 감소 데이터 공개",
+                "title": "[암젠 (NAS:AMGN)] 임핀지 병용 1차 치료 3상, 생존 중앙값 21.1개월",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqllgeeczqzzqmmgcgxecge.pdf",
-                "date": "2026-08-31",
-                "quote": "- Repatha, 첫 심장마비·뇌졸중 고위험군 사망위험 감소 데이터 발표- 2분기 매출 37% 성장한 핵심 성장동력, CHMP 긍정의견과 결 같아- Prolia·Xgeva 침식·TAVNEOS 리스크는 별개로 여전",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxecgq.pdf",
+                "date": "2026-10-26",
+                "quote": "- Imdelltra+Imfinzi 병용, 1차 소세포폐암서 사망위험 58%↓- 생존기간 중앙값 21.1개월 vs 12.7개월, 1년생존 80%대 53%- 2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공",
                 "verified": "ok",
                 "httpStatus": 200
               },
               {
-                "title": "[암젠 (NAS:AMGN)] IMDELLTRA·임핀지 병용 1차 소세포폐암 3상서 생존 개선",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxecge.pdf",
-                "date": "2026-09-08",
-                "quote": "- IMDELLTRA는 최근 분기 매출 115% 성장 성장동력 제품",
+                "title": "Amgen says drug combo slashes risk of death by 58% in patients with lung cancer",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+                "date": "2026-10-24",
+                "quote": "Amgen says drug combo slashes risk of death by 58% in patients with lung cancer",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4259,15 +4311,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w3",
-            "statement": "애브비는 2분기 매출 16.99B달러(전년 대비 10.2% 증가)와 주당순이익이 컨센서스를 웃돌았고, 면역·신경과학 사업이 고성장을 이어갔다.",
+            "statement": "존슨 앤드 존슨은 전립선암에서 수술 전후 투여 시 재발·사망 위험을 62% 낮춘 데이터를 내놨다. 신약 파이프라인이 두터워지고 있다는 신호다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[애브비 (NYS:ABBV)] 실적은 컨센서스 상회, 아포지 인수 효과 반영 예정",
+                "title": "[존슨 앤드 존슨 (NYS:JNJ)] 에르레이다, 수술 단독 대비 재발·사망 위험 62% 낮춤",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlzqeckzgemelmgcgxecge.pdf",
-                "date": "2026-08-03",
-                "quote": "- 2Q26 매출 $16.99B(+10.2%yoy), EPS $3.65(+22.9%yoy)로 컨센서스 상회- 면역, 신경과학 사업부 고성장 지속, 항암, 에스테틱은 정체- EPS 가이던스 소폭 하향, 하반기 카탈리스트 유효",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgmxmxmkkgglcgcgxecgq.pdf",
+                "date": "2026-10-26",
+                "quote": "- 에르레이다, 고위험 전립선암서 재발·사망 위험 62% 감소- 수술 전후 투여 방식의 새 적응증 확장 가능성 시사- 매출 반영은 규제·가이드라인 절차 거쳐야 확인 가능",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4275,15 +4327,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w4",
-            "statement": "존슨 앤드 존슨은 탈크 소송 55억 달러 합의로 10년간 이어진 법적 부담을 덜어 주가 부담 요인 하나가 줄었다.",
+            "statement": "시티의 분석가는 3분기 실적 발표를 앞두고 릴리와 길리어드를 헬스케어에서 눈에 띄는 종목으로 꼽았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[존슨 앤드 존슨 (NYS:JNJ)] 55억 달러 탈크 소송 전면 합의 - 10년 법적 오버행의 실질적 종결",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlzemxclgmkklxgcgxecge.pdf",
-                "date": "2026-07-28",
-                "quote": "- 탈크 소송 55억 달러 합의, 잔여 클레임 99.75% 일거 해소- 첫 지급 2027년 30억 달러 이하, 추가 납부 2028년~ 분산 구조- 10년 법적 오버행 제거로 밸류에이션 부담 논거 일부 완화",
+                "title": "Lilly and Gilead stand out ahead of healthcare earnings, says Citi's Geoff Meacham",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/10/26/lilly-and-gilead-stand-out-ahead-of-healthcare-earnings-says-citis-geoff-meacham.html",
+                "date": "2026-10-26",
+                "quote": "Lilly and Gilead stand out ahead of healthcare earnings, says Citi's Geoff Meacham",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4293,17 +4345,17 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "LLY",
-            "role": "비만약 시장을 이끄는 세계 최대 제약사로, 업종 실적 증가의 중심",
+            "role": "비만약 시장 확대의 직접 수혜로 매출 증가율이 업종에서 가장 두드러진 세계 최대 제약사",
             "why": [
               {
                 "id": "l1a",
-                "statement": "일라이 릴리는 마운자로·젭바운드 판매 호조로 2분기 매출 230억 달러(전년 대비 47.7% 증가)를 기록했고 연간 매출 가이던스를 올렸다.",
+                "statement": "릴리는 2분기 매출이 전년보다 47.7% 늘며 시장 예상치를 11.6% 웃돌았다. 마운자로·젭바운드 판매가 실적을 끌었다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[일라이 릴리 (NYS:LLY)] Earnings Flash",
                     "publisher": "한화증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlzmmmmkcgkxxqgcgxecge.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlzmmmmkcgkxxqgcgxecgq.pdf",
                     "date": "2026-08-06",
                     "quote": "- 매출액 230억 달러(YoY +47.7%), 조정 EPS 8.38달러(YoY +32.8%)로 각각 예상치 11.6%, 39.6% 상회.- 조정 *성과마진 54.8%(YoY +8.9%p), 조정 OPM 42.7%(YoY -2.2%p). 인수 관련 IPR&D 비용이 급증하며 OPM 하락- 마운자로·젭바운드 판매 호조에 따른 어닝 서프라이즈와 연간 매출 가이던스 상향에 힘입어 4.9% 상승 마감",
                     "verified": "ok",
@@ -4313,40 +4365,40 @@ window.TEAM5_DATA = {
               },
               {
                 "id": "l1b",
-                "statement": "신한투자증권은 일라이 릴리가 GLP-1 약물의 높은 점유율을 바탕으로 후속 비만약 파이프라인에서도 경쟁사를 앞서고 있다고 평가했다.",
+                "statement": "신한투자증권은 릴리가 비만약 점유율이 높고 후속 파이프라인도 경쟁사를 앞선다고 평가했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[일라이 릴리 (NYS:LLY)] 실적 & 파이프라인 기대감 상승",
                     "publisher": "신한투자증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlxccximmgxxxggcgxecge.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlxccximmgxxxggcgxecgq.pdf",
                     "date": "2026-08-06",
-                    "quote": "- GLP-1 약물의 높은 점유율로 매 분기 높아진 기대치를 상회하는 호실적. 후속 비만약 파이프라인도 경쟁사를 앞서고 있으며 RNA, 차세대 항암제 등 다양한 질병에 포트폴리오 확대로 제약바이오 선도적 입지 강화",
+                    "quote": "GLP-1 약물의 높은 점유율로 매 분기 높아진 기대치를 상회하는 호실적. 후속 비만약 파이프라인도 경쟁사를 앞서고 있으며 RNA, 차세대 항암제 등 다양한 질병에 포트폴리오 확대로 제약바이오 선도적 입지 강화",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 9.6,
-            "rnk1": 16.64,
+            "rnk6": 15.1,
+            "rnk1": 25.38,
             "name": "일라이 릴리"
           },
           {
             "ticker": "AMGN",
-            "role": "Repatha·Imdelltra 등 신제품 성장으로 기존 약 감소를 메우는 대형 바이오 제약사",
+            "role": "항암 신약의 적응증 확장으로 성장동력을 키우는 대형 바이오 제약사",
             "why": [
               {
                 "id": "l2a",
-                "statement": "암젠의 Repatha는 2분기 매출이 37% 성장했고, 첫 심장마비·뇌졸중 고위험군에서 사망위험 감소 데이터도 나왔다.",
+                "statement": "암젠의 Imdelltra는 최근 분기 매출이 115% 늘었고 1차 치료 임상 3상에서 생존이 개선됐다. 다만 승인과 매출 반영에는 여러 분기가 걸릴 전망이다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "[암젠 (NAS:AMGN)] Repatha 고위험군 사망위험 감소 데이터 공개 - 1차 예방 적응증 확대 모멘텀 강화",
+                    "title": "[암젠 (NAS:AMGN)] IMDELLTRA·임핀지 병용 1차 소세포폐암 3상서 생존 개선",
                     "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqllgeeczqzzqmmgcgxecge.pdf",
-                    "date": "2026-08-31",
-                    "quote": "- Repatha, 첫 심장마비·뇌졸중 고위험군 사망위험 감소 데이터 발표- 2분기 매출 37% 성장한 핵심 성장동력, CHMP 긍정의견과 결 같아- Prolia·Xgeva 침식·TAVNEOS 리스크는 별개로 여전",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxecgq.pdf",
+                    "date": "2026-09-08",
+                    "quote": "- IMDELLTRA+임핀지, 1차 소세포폐암 3상서 생존 개선- IMDELLTRA는 최근 분기 매출 115% 성장 성장동력 제품- 승인·매출 반영은 아직 여러 분기 소요될 전망",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -4354,13 +4406,13 @@ window.TEAM5_DATA = {
               },
               {
                 "id": "l2b",
-                "statement": "테즈스파이어가 호산구성 식도염 임상에서 52주까지 효과를 유지해, 천식 외 적응증으로 넓어지면 새 성장동력이 될 수 있다.",
+                "statement": "테즈스파이어는 호산구성 식도염 임상에서 52주까지 효과가 이어졌다. 천식을 넘어 적응증이 늘 가능성이 열렸다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[암젠 (NAS:AMGN)] 테즈스파이어, 호산구성 식도염 임상서 52주 조직학적 관해 입증",
                     "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxecge.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxecgq.pdf",
                     "date": "2026-10-20",
                     "quote": "- 테즈스파이어, 호산구성 식도염 임상서 위약 대비 관해율 압도- 52주까지 효과 유지, 삼킴곤란 증상도 개선- 승인 적응증 확대 시 신규 성장동력, 시점은 미확정",
                     "verified": "ok",
@@ -4369,39 +4421,48 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 16.73,
-            "rnk1": 11.41,
+            "rnk6": 10.96,
+            "rnk1": 31.42,
             "name": "암젠"
           },
           {
-            "ticker": "ABBV",
-            "role": "면역 사업 중심으로 실적 기대치를 웃돈 대형 제약사",
+            "ticker": "JNJ",
+            "role": "항암·면역 신약 파이프라인을 넓히는 업종 내 시가총액 대형주",
             "why": [
               {
                 "id": "l3a",
-                "statement": "애브비는 2분기 매출과 주당순이익이 컨센서스를 넘었고, 면역·신경과학 사업부가 고성장을 이어갔다.",
+                "statement": "존슨 앤드 존슨의 전립선암 신약 JNJ-6143은 1상에서 PSA 반응률 77%를 보였다. 인수로 확보한 자산이 성과를 내기 시작했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "[애브비 (NYS:ABBV)] 실적은 컨센서스 상회, 아포지 인수 효과 반영 예정",
+                    "title": "[존슨 앤드 존슨 (NYS:JNJ)] JNJ-6143 임상 1상 PSA 반응률 77%",
                     "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlzqeckzgemelmgcgxecge.pdf",
-                    "date": "2026-08-03",
-                    "quote": "- 2Q26 매출 $16.99B(+10.2%yoy), EPS $3.65(+22.9%yoy)로 컨센서스 상회- 면역, 신경과학 사업부 고성장 지속, 항암, 에스테틱은 정체- EPS 가이던스 소폭 하향, 하반기 카탈리스트 유효",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmiczmqiqcmmzcgcgxecgq.pdf",
+                    "date": "2026-10-26",
+                    "quote": "- JNJ-6143 1상서 PSA 반응률 77%, 영상반응률 75% 확인- 할다 테라퓨틱스(30.5억 달러 인수) 통해 확보한 신약 자산- 혁신의약품 파이프라인 가시성 흐름에 새 데이터 포인트 추가",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
-              },
+              }
+            ],
+            "rnk6": 24.75,
+            "rnk1": 65.87,
+            "name": "존슨 앤드 존슨"
+          },
+          {
+            "ticker": "ABBV",
+            "role": "면역 치료제의 장기 처방 지속성을 입증하며 방어력을 보인 대형 제약사",
+            "why": [
               {
-                "id": "l3b",
-                "statement": "대신증권은 스카이리지·린보크의 장기 관해율 데이터가 경쟁이 심해지는 염증성 장질환 시장에서 처방 지속성의 근거라고 해석했다.",
+                "id": "l4a",
+                "statement": "애브비의 스카이리지는 궤양성대장염 96주 관해율 54.0~73.1% 데이터를 냈다. 경쟁이 심해도 장기 처방이 이어질 근거가 됐다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "[애브비 (NYS:ABBV)] 스카이리지·린보크 장기 관해율 데이터 공개 - 경쟁 압력 속 처방 지속성 근거 강화",
+                    "title": "[애브비 (NYS:ABBV)] 스카이리지·린보크 장기 관해율 데이터 공개",
                     "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmgililecliigcgcgxecge.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgililecliigcgcgxecgq.pdf",
                     "date": "2026-10-19",
                     "quote": "- 스카이리지 궤양성대장염 96주 관해율 54.0~73.1% 공개- 린보크 크론병 144주 관해율 78.9~86.6% 공개- IBD 경쟁 심화 속 장기 처방 지속성 근거로 해석",
                     "verified": "ok",
@@ -4410,87 +4471,21 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 9.06,
-            "rnk1": 13.57,
+            "rnk6": 9.87,
+            "rnk1": 23.49,
             "name": "애브비"
-          },
-          {
-            "ticker": "MRK",
-            "role": "키트루다 특허 만료 이후를 대비해 파이프라인을 넓히는 대형 제약사",
-            "why": [
-              {
-                "id": "l4a",
-                "statement": "머크의 sac-TMT가 자궁내막암 3상에서 생존 개선을 보여, 키트루다 특허 만료 이후 매출 공백을 메울 후보가 늘었다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[머크 (NYS:MRK)] sac-TMT, 자궁내막암 3상서 생존 개선 - 키트루다 특허 만료 이후 매출 공백 메울 후보 추가",
-                    "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmemiigqlqzxkkgcgxecge.pdf",
-                    "date": "2026-10-13",
-                    "quote": "- ESMO서 sac-TMT 3상, 자궁내막암 생존 개선 확인- 직전 분기 양성 결과(TroFuse-005)의 구체적 후속 데이터- 밸류에이션 재평가엔 완만한 참고 신호, 단독 반전 요인은 아님",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 13.75,
-            "rnk1": 66.68,
-            "name": "머크"
-          },
-          {
-            "ticker": "JNJ",
-            "role": "혈액암·면역 포트폴리오를 넓히며 법적 부담을 덜어낸 업종 최대 시가총액 기업",
-            "why": [
-              {
-                "id": "l5a",
-                "statement": "존슨 앤드 존슨은 탈크 소송을 55억 달러에 합의해 잔여 청구의 99.75%를 해소하고 10년 법적 부담을 걷어냈다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[존슨 앤드 존슨 (NYS:JNJ)] 55억 달러 탈크 소송 전면 합의 - 10년 법적 오버행의 실질적 종결",
-                    "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlzemxclgmkklxgcgxecge.pdf",
-                    "date": "2026-07-28",
-                    "quote": "- 탈크 소송 55억 달러 합의, 잔여 클레임 99.75% 일거 해소- 첫 지급 2027년 30억 달러 이하, 추가 납부 2028년~ 분산 구조- 10년 법적 오버행 제거로 밸류에이션 부담 논거 일부 완화",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              },
-              {
-                "id": "l5b",
-                "statement": "유럽 규제 자문위원회가 TALVEY와 다라투무맙 병용의 적응증 확대를 권고해 처방 대상 환자가 넓어질 가능성이 생겼다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[존슨 앤드 존슨 (NYS:JNJ)] 탈퀘타맙(TALVEY)·다라투무맙 병용, CHMP가 적응증 확대 승인 권고",
-                    "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmgiliqekqxxmmgcgxecge.pdf",
-                    "date": "2026-10-16",
-                    "quote": "- CHMP, TALVEY+다라투무맙 다발골수종 조기 치료 적응증 확대 권고- 유럽위원회 최종 승인 전 단계, 처방 대상 환자군 확대 신호- DARZALEX·CARVYKTI와 같은 혈액암 포트폴리오 강화 흐름",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 31.97,
-            "rnk1": 74.8,
-            "name": "존슨 앤드 존슨"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "머크는 네덜란드 법원이 유럽 8개국에서 키트루다 피하주사 제조·판매를 금지해, 2028년 특허 만료에 대비한 전환 전략에 차질이 우려된다.",
+            "statement": "머크는 2028년 키트루다 특허 만료로 생기는 매출 공백이 그대로이고, 네덜란드 법원이 유럽 8개국에서 피하주사형 판매를 금지해 대체 전략에도 차질이 우려된다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[머크 (NYS:MRK)] 네덜란드 법원, 유럽 8개국서 케이트루다 피하주사 제조·판매 금지",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmekezixzmmqeggcgxecge.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmekezixzmmqeggcgxecgq.pdf",
                 "date": "2026-10-08",
                 "quote": "- 네덜란드 법원, 유럽 8개국 케이트루다 SC 제조·판매 금지 명령- QLEX는 직전분기 3.6배 성장한 핵심 실적 동력- 2028 특허만료 대비 SC 전환 전략에 차질 우려",
                 "verified": "ok",
@@ -4500,24 +4495,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r2",
-            "statement": "애브비는 Skyrizi 성장률이 65%에서 29%로 둔화됐고, 아포지 인수에 따른 주당순이익 희석이 2032년까지 이어진다.",
+            "statement": "애브비는 스카이리지 성장률이 둔화(65%에서 29%로)되고 경쟁이 심해져, 신약 승인 기대에도 주가 영향은 제한적이라는 평가를 받았다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[애브비 (NYS:ABBV)] 피하주사 크론병 치료제 4분기 승인 기대",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlmccizilzqxlxgcgxecge.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmccizilzqxlxgcgxecgq.pdf",
                 "date": "2026-09-09",
-                "quote": "- Skyrizi 성장률 둔화(65%→29%) 속 경쟁 심화 국면",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "[애브비 (NYS:ABBV)] Apogee Therapeutics 인수 완료 - 2032년까지 이어지는 EPS 희석 부담",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqllklglzlqllzigcgxecge.pdf",
-                "date": "2026-09-03",
-                "quote": "- 이익 가산 전환은 2032년부터 시작",
+                "quote": "- 애브비, 4분기 피하주사 크론병 치료제 FDA 승인 기대 발언- Skyrizi 성장률 둔화(65%→29%) 속 경쟁 심화 국면- 승인시 투약 편의성 강화, 주가 영향은 제한적",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4525,7 +4511,7 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r3",
-            "statement": "미즈호의 제러드 홀츠는 헬스케어 전반의 강세에서 이익을 실현하라는 의견을 냈다.",
+            "statement": "미즈호의 분석가는 헬스케어 전반의 강세를 두고 차익 실현을 권했다. 업종 전체가 오른 만큼 되돌림 가능성에 유의해야 한다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -4540,13 +4526,13 @@ window.TEAM5_DATA = {
             ]
           }
         ],
-        "sourceGap": "CNBC 기사 본문은 열람하지 않아 증권사 리포트 중심으로 작성했고, 업종 검색어 리포트는 제약 업종과 무관해 쓰지 않았다.",
+        "sourceGap": "CNBC 기사 본문은 열람하지 않아 제목과 증권사 리포트 요약 위주로 작성했고, 바이오젠·길리어드·노바티스·아스트라제네카는 증권사 리포트가 없어 주도주에서 제외했다.",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": ""
+          "reason": "모든 whyLeading(w1-w4)·leaders(l1a-l4a)·risks(r1-r3) 주장이 제시된 인용·제목과 정확히 일치. 숫자(47.7%, 58%, 62%, 115%, 77%)·날짜·회사명·데이터 내용 모두 검증됨. 출처는 모두 2026년 8월~10월로 6개월 이내. 크로스섹터 혼입 없음. 리더 근거는 해당 회사 직접 언급. 회사 행동(신약 임상·실적·파이프라인)에 기반. 제거된 주장 없음."
         },
-        "evidenceCount": 91
+        "evidenceCount": 100
       }
     },
     {
@@ -4826,7 +4812,182 @@ window.TEAM5_DATA = {
           "name": null
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-27",
+        "carried": false,
+        "headline": "손해보험 대형사들의 3분기 실적이 예상을 웃돌며 업종 순위가 한 달 새 47계단 올랐다.",
+        "summary": "손해보험 업종은 19개 종목 가운데 업종 순위 10위로, 25거래일 전보다 47계단 올랐다. 10월 중순부터 트래블러스, 킨세일, 셀렉티브, WR 버클리가 3분기 실적을 냈고 일부는 시장 예상치를 웃돌았다. 인수심사(보험료 대비 손해율) 실적이 받쳐 주는지가 강세 지속의 관건이다. 다만 본문까지 확인한 기사가 적어, 실적의 세부 원인은 제목 수준에서만 확인된다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "킨세일 캐피털은 3분기 실적이 시장 예상치를 웃돌았다고 Zacks가 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-q3-earnings-surpass-estimates",
+                "date": "2026-10-22",
+                "quote": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "셀렉티브 인슈어런스와 WR 버클리도 3분기 순이익이 예상치를 웃돌았다고 Zacks가 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Selective Insurance (SIGI) Q3 Earnings Top Estimates",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/selective-insurance-sigi-q3-earnings-top-estimates",
+                "date": "2026-10-22",
+                "quote": "Selective Insurance (SIGI) Q3 Earnings Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "W.R. Berkley (WRB) Tops Q3 Earnings Estimates",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/wr-berkley-wrb-tops-q3-earnings-estimates",
+                "date": "2026-10-19",
+                "quote": "W.R. Berkley (WRB) Tops Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "트래블러스 3분기 실적 발표에서 인수심사(보험 계약 선별·가격 결정) 부문의 강점과 2027년 전망이 부각됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/trv-q3-earnings-call-highlights-underwriting-strength-and-2027-outlook",
+                "date": "2026-10-19",
+                "quote": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "TRV",
+            "role": "업종 대형주로 3분기 인수심사 강점이 부각된 종목",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "트래블러스 3분기 실적 발표에서 인수심사 강점과 2027년 전망이 정리됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/trv-q3-earnings-call-highlights-underwriting-strength-and-2027-outlook",
+                    "date": "2026-10-19",
+                    "quote": "TRV Q3 Earnings Call Highlights Underwriting Strength and 2027 Outlook",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 12.67,
+            "rnk1": 17,
+            "name": "트래블러스 컴퍼니스"
+          },
+          {
+            "ticker": "KNSL",
+            "role": "특수보험 전문사로 3분기 예상 상회 실적",
+            "why": [
+              {
+                "id": "l2a",
+                "statement": "킨세일 캐피털은 3분기 실적이 예상치를 웃돌았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-q3-earnings-surpass-estimates",
+                    "date": "2026-10-22",
+                    "quote": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 22.14,
+            "rnk1": 10.23,
+            "name": "킨세일 캐피털 그룹"
+          },
+          {
+            "ticker": "SIGI",
+            "role": "3분기 순이익이 예상을 넘은 중형 손보사",
+            "why": [
+              {
+                "id": "l3a",
+                "statement": "셀렉티브 인슈어런스는 3분기 순이익이 예상치를 웃돌았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Selective Insurance (SIGI) Q3 Earnings Top Estimates",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/selective-insurance-sigi-q3-earnings-top-estimates",
+                    "date": "2026-10-22",
+                    "quote": "Selective Insurance (SIGI) Q3 Earnings Top Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 22.23,
+            "rnk1": 7.26,
+            "name": "셀렉티브 인슈어런스 그룹"
+          },
+          {
+            "ticker": "WRB",
+            "role": "3분기 예상 상회 실적을 낸 상업보험 대형사",
+            "why": [
+              {
+                "id": "l4a",
+                "statement": "WR 버클리는 3분기 순이익이 예상치를 웃돌았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "W.R. Berkley (WRB) Tops Q3 Earnings Estimates",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/wr-berkley-wrb-tops-q3-earnings-estimates",
+                    "date": "2026-10-19",
+                    "quote": "W.R. Berkley (WRB) Tops Q3 Earnings Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 35.75,
+            "rnk1": 21.06,
+            "name": "WR 버클리"
+          }
+        ],
+        "risks": [],
+        "sourceGap": "증권사 리포트·업종 리포트 없음, CNBC 본문은 열람 불가(403) — 나스닥(Zacks) 기사 제목만으로 작성했고 실적 수치·원인은 확인하지 못함.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 whyLeading(w1-w3)·leaders(l1a-l4a) 주장이 Zacks 제목과 일치. KNSL·SIGI·WRB·TRV 3Q 실적 상회 및 TRV 인수심사 강점이 정확히 인용됨. 출처는 2026년 10월 19~22일로 6개월 이내. 각 리더는 해당 회사 직접 언급. 회사 실적 행동에 기반. risks 섹션은 제시되지 않음. 제거된 주장 없음."
+        },
+        "evidenceCount": 49
+      }
     }
   ]
 };

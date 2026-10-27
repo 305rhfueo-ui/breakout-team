@@ -1,0 +1,184 @@
+{
+ "ticker": "HHH",
+ "news": [
+  {
+   "title": "HOWARD HUGHES Earnings Results: $HHH Reports Quarterly Earnings",
+   "url": "https://www.nasdaq.com/articles/howard-hughes-earnings-results-hhh-reports-quarterly-earnings",
+   "date": "2025-05-07",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "HOWARD HUGHES Earnings Preview: Recent $HHH Insider Trading, Hedge Fund Activity, and More",
+   "url": "https://www.nasdaq.com/articles/howard-hughes-earnings-preview-recent-hhh-insider-trading-hedge-fund-activity-and-more",
+   "date": "2025-02-24",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "How Investors May Respond To Howard Hughes Holdings Stock Joining The S&P SmallCap 600",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-howard-hughes-010935485.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Howard Hughes Holdings (HHH) Jumped, But What Is Driving Attention Now?",
+   "url": "https://finance.yahoo.com/real-estate/articles/howard-hughes-holdings-hhh-jumped-001735853.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Consumer Discretionary - Real Estate Services Q2 Earnings: Howard Hughes Holdings (NYSE:HHH) Simply the Best",
+   "url": "https://finance.yahoo.com/real-estate/articles/consumer-discretionary-real-estate-services-143227339.html",
+   "date": "2026-10-15",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Howard Hughes Stock Falls 9.3% YTD: Is the Dip a Buying Opportunity?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/howard-hughes-stock-falls-9-153100614.html",
+   "date": "2026-10-13",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-20",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1981792/000110465926118480/tm2628049d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-01",
+   "reportDate": "2026-09-30",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1981792/000110465926112836/tm2626790d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1981792/000162828026053303/hhh-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-17",
+   "reportDate": "2026-07-16",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1981792/000110465926084655/tm2620675d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-04",
+   "items": [
+    "1.01",
+    "2.01",
+    "3.02",
+    "3.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.01",
+    "3.02",
+    "3.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1981792/000110465926071029/tm2616794d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1981792/000162828026032117/hhh-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 73.16,
+  "saleNy": -7.44,
+  "epsCy": 102.18,
+  "epsNy": -23.23,
+  "cyTrend": -5.86,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    330.21,
+    18.36,
+    -36.51
+   ],
+   "ni": [
+    "흑자전환",
+    -21.9,
+    -96.16
+   ],
+   "opm": [
+    21.35,
+    21.48,
+    4.19
+   ],
+   "updated": "2026-09-08 09:05:02"
+  }
+ }
+}
