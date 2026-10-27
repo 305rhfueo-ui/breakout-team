@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-26T22:10:14.205Z",
+  "updated": "2026-10-27T13:00:13.990Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -8,6 +8,21 @@ window.HOLDINGS_DATA = {
       "side": "long",
       "items": [
         {
+          "type": "cnbc",
+          "title": "Buy Palantir ahead of earnings, says Rosenblatt",
+          "url": "https://www.cnbc.com/2026/10/27/palantir-rosenblatt-price-target-earnings.html",
+          "date": "2026-10-27",
+          "publisher": "CNBC",
+          "ko": "로젠블랫이 팔란티어 실적 발표 전 매수 의견을 냈다",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "로젠블랫이 팔란티어 실적 발표 전 매수 의견을 냈다",
+          "easy": "CNBC 제목에 따르면 로젠블랫이 팔란티어 실적 발표를 앞두고 매수를 권하는 의견을 냈다. 다만 기사 본문은 저작권 문구만 있고 내용이 없어 근거나 목표주가는 확인되지 않는다.",
+          "whyMatters": "보유자에게는 실적 발표 전 증권사의 긍정적 시각이라는 점만 확인된다. 구체적 이유와 수치는 기사에 나오지 않았다.",
+          "quote": null,
+          "read": false
+        },
+        {
           "type": "news",
           "title": "Will Palantir Technologies Stock Hit $300 Before the End of 2026?",
           "url": "https://www.nasdaq.com/articles/will-palantir-technologies-stock-hit-300-end-2026",
@@ -15,7 +30,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "앤트로픽 IPO 소식에 팔란티어가 다시 주목받을 수 있다",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "앤트로픽 IPO 소식에 팔란티어가 다시 주목받을 수 있다",
           "easy": "기사 제목과 요약에 따르면 앤트로픽의 상장(IPO) 계획이 팔란티어 주가를 다시 주목받게 할 수 있다는 내용입니다. 제목은 2026년 말 전에 300달러에 도달할지를 묻고 있습니다. 본문은 확인하지 못해 구체적인 근거와 전망은 기사에 안 나왔습니다.",
           "whyMatters": "보유 중이라면 AI 관련 대형 IPO가 관심을 끌 수 있다는 점은 참고할 만하지만, 본문을 읽지 못해 구체적 근거는 알 수 없습니다.",
@@ -30,7 +45,7 @@ window.HOLDINGS_DATA = {
           "publisher": "Zacks",
           "ko": "팔란티어가 뛰어난 성장주라는 3가지 이유를 제시한 기사",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어가 뛰어난 성장주라는 3가지 이유를 제시한 기사",
           "easy": "기사 요약에 따르면 팔란티어는 탄탄한 성장 특성 덕분에 뛰어난 수익을 낼 수 있다고 평가합니다. 3가지 이유가 있다고 하나 구체적 내용은 기사에 안 나왔습니다.",
           "whyMatters": "보유자에게는 우호적인 시각의 글이지만, 본문을 읽지 못해 근거를 확인할 수 없고 의견 성격의 글입니다.",
@@ -45,10 +60,25 @@ window.HOLDINGS_DATA = {
           "publisher": "BNK Invest",
           "ko": "ETF 자금 유입 목록에 팔란티어가 이름을 올렸다",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "ETF 자금 유입 목록에 팔란티어가 이름을 올렸다",
           "easy": "기사 요약에 따르면 ETF 발행주식 수의 주간 변화를 살펴본 결과 iShares ESG Select Screened S&P 500 ETF(XVV)에 약 2억 870만 달러가 유입됐고 30.9% 증가했습니다. 제목에는 LLY, MA, PLTR도 함께 나열됩니다. 팔란티어 관련 세부 내용은 기사에 안 나왔습니다.",
           "whyMatters": "팔란티어가 자금 유입이 확인된 ETF 종목군에 포함됐다는 정도의 정보이며, 주가에 미칠 영향은 본문 없이 판단하기 어렵습니다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "report",
+          "title": "[팔란티어 테크 (NAS:PLTR)] [26Q3 Preview] 매출 가이던스 초과 폭과 FY26 추가 상향이 관건, 투자의견 적극 매수 유지",
+          "url": "https://rreport.einfomax.co.kr/report/eqmicxccmckmmglgcgxecgq.pdf",
+          "date": "2026-10-26",
+          "publisher": "대신증권 조재운",
+          "ko": "팔란티어 3분기 실적 앞두고 증권사가 적극 매수 유지",
+          "tone": "good",
+          "isNew": true,
+          "headline": "팔란티어 3분기 실적 앞두고 증권사가 적극 매수 유지",
+          "easy": "국내 증권사가 26년 3분기 실적 프리뷰에서 투자의견 '적극 매수'를 유지했다. 핵심 확인 사항은 14분기 연속 가이던스 초과가 이어지는지와 FY26 추가 상향 여부다. 미국 상업 부문은 재가속이 성장의 축이고 해외는 정체 구간이라고 했다.",
+          "whyMatters": "보유자에게는 실적 발표에서 가이던스 초과 폭과 연간 전망 상향이 주가의 변수가 될 수 있다는 뜻이다. 이익의 질도 다음 쟁점으로 거론됐다.",
           "quote": null,
           "read": false
         },
