@@ -1,5 +1,5 @@
 {
-  "lastEod": "2026-10-26",
+  "lastEod": "2026-10-27",
   "days": {
     "2026-09-29": {
       "fired": [],
@@ -102,6 +102,11 @@
       "nextDone": true
     },
     "2026-10-26": {
+      "fired": [],
+      "newMain": 0,
+      "nextDone": true
+    },
+    "2026-10-27": {
       "fired": [],
       "newMain": 0,
       "nextDone": true
