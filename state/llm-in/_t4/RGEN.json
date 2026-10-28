@@ -1,0 +1,226 @@
+{
+ "ticker": "RGEN",
+ "news": [
+  {
+   "title": "Repligen (RGEN) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/repligen-rgen-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Repligen (RGEN) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/repligen-rgen-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Biotech Stocks At 52-Week Highs - KOD +177% On Phase 3 Data; GRAL, IOVA, RGEN",
+   "url": "https://www.nasdaq.com/articles/biotech-stocks-52-week-highs-kod-177-phase-3-data-gral-iova-rgen",
+   "date": "2026-09-29",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Record Revenue Outlook Could Be A Game Changer For Repligen (RGEN)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/record-revenue-outlook-could-game-210656172.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (RGEN) Takes $41.2 Million Impairment Charge As Quarterly Profit Turns To Loss",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-rgen-takes-41-2-201406897.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen Corp (RGEN) Q3 2026 Earnings Call Highlights: Record Revenue, Raised Guidance, and a ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-corp-rgen-q3-2026-190300533.html",
+   "date": "2026-10-27",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (RGEN) Stock Looks Fairly Valued As Cash Flow Growth Is Priced In",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-rgen-stock-looks-fairly-180724578.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-corporation-q3-2026-earnings-171133379.html",
+   "date": "2026-10-27",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (RGEN) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-rgen-q3-2026-earnings-155921919.html",
+   "date": "2026-10-27",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Repligen (RGEN) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-rgen-said-q3-earnings-150505757.html",
+   "date": "2026-10-27",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen Q3 Adjusted Earnings, Revenue Rise; 2026 Adjusted EPS Outlook Narrowed",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-q3-adjusted-earnings-revenue-120429273.html",
+   "date": "2026-10-27",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (NASDAQ:RGEN) exceeds Q3 2026 expectations, full-year outlook slightly exceeds expectations",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-nasdaq-rgen-exceeds-q3-114457442.html",
+   "date": "2026-10-27",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (RGEN) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-rgen-q3-earnings-revenues-111503600.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000162828026067405/rgen-20261027.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-06",
+   "items": [
+    "2.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526415015/d240327d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-10",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000162828026062043/rgen-20260910.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-03",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526385380/d131600d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526318853/rgen-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-21",
+   "items": [
+    "1.01",
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526311402/d141685d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.28,
+  "saleNy": 29.14,
+  "epsCy": 20.19,
+  "epsNy": 31.22,
+  "cyTrend": -0.49,
+  "nyTrend": 2.36,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.93,
+    14.83,
+    18.12
+   ],
+   "ni": [
+    -66.31,
+    42.93,
+    "흑자전환"
+   ],
+   "opm": [
+    6.85,
+    8.21,
+    9.03
+   ],
+   "updated": "2026-09-09 06:25:24"
+  }
+ }
+}

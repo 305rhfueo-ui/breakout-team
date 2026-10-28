@@ -1,0 +1,247 @@
+{
+ "ticker": "MCHP",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "마이크로칩 테크놀로지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 35.88,
+  "saleNy": 16.34,
+  "epsCy": 122.91,
+  "epsNy": 25.81,
+  "est": {
+   "cyCur": 3.65573,
+   "cy30": 3.64613,
+   "nyCur": 4.59915,
+   "ny30": 4.58355
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    38.05,
+    35.11,
+    15.59
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    22.68,
+    16.58,
+    12.79
+   ],
+   "updated": "2026-09-08 08:15:41"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "마이크로칩 테크놀로지",
+  "nameEn": "MICROCHIP TECHNOLOGY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000827054&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1484700000,
+     "profit": 336800000,
+     "netIncome": 229800000,
+     "margin": 22.7,
+     "yoy": {
+      "revenue": 38,
+      "profit": 949.2,
+      "netIncome": 1335.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 1311200000,
+     "profit": 217400000,
+     "netIncome": 144200000,
+     "margin": 16.6,
+     "yoy": {
+      "revenue": 35.1,
+      "profit": 316.7,
+      "netIncome": 193.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1186000000,
+     "profit": 151700000,
+     "netIncome": 62700000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": 15.6,
+      "profit": 390.9,
+      "netIncome": 217,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1140400000,
+     "profit": 88900000,
+     "netIncome": 41700000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": -2,
+      "profit": -39.4,
+      "netIncome": -46.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Microchip Tech (MCHP) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/microchip-tech-mchp-upgraded-buy-heres-what-you-should-know",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts See a 49% Upside in Microchip Tech (MCHP): Can the Stock Really Move This High?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-49-upside-microchip-tech-mchp-can-stock-really-move-high",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Microchip Tech (MCHP) is Poised to Beat Earnings Estimates Again",
+     "url": "https://www.nasdaq.com/articles/why-microchip-tech-mchp-poised-beat-earnings-estimates-again",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000042/mchp-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000037/mchp-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000031/mchp-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000020/mchp-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000012/mchp-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-11",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/827054/000119312526046713/d18435d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "AMD, Sandisk are two of the big chip stocks with earnings momentum this week",
+   "url": "https://www.cnbc.com/2026/08/02/amd-sandisk-are-two-of-the-big-chip-stocks-with-earnings-momentum.html",
+   "date": "2026-08-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: 'Vertiv is in speculative hands right now'",
+   "url": "https://www.cnbc.com/2026/07/16/cramers-lightning-round-vertiv-is-in-speculative-hands-right-now.html",
+   "date": "2026-07-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "MCHP",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 119.85,
+  "pbr": 6.75,
+  "eps": 0.67,
+  "bps": 11.88,
+  "shares": 543009000,
+  "marketCapM": 43533,
+  "high52": 104.7508,
+  "high52Date": "2026-05-08",
+  "low52": 47.2816,
+  "low52Date": "2025-11-21",
+  "last": 80.17,
+  "prevClose": 75.9,
+  "nameKo": "마이크로칩 테크놀로지",
+  "nameEn": "MICROCHIP TECHNOLOGY",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 543009000
+ }
+}

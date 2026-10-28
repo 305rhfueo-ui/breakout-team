@@ -1,0 +1,216 @@
+{
+ "ticker": "TEL",
+ "news": [
+  {
+   "title": "Why TE Connectivity (TEL) is Poised to Beat Earnings Estimates Again",
+   "url": "https://www.nasdaq.com/articles/why-te-connectivity-tel-poised-beat-earnings-estimates-again",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unlocking Q4 Potential of TE Connectivity (TEL): Exploring Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/unlocking-q4-potential-te-connectivity-tel-exploring-wall-street-estimates-key-metrics",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TE Connectivity (TEL) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/te-connectivity-tel-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why TE Connectivity (TEL) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-te-connectivity-tel-strong-growth-stock-0",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TEL Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/tel-crosses-above-key-moving-average-level",
+   "date": "2026-10-01",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "APH's AI Connectivity Growth Accelerates: Can It Outpace TEL & MRVL?",
+   "url": "https://www.nasdaq.com/articles/aphs-ai-connectivity-growth-accelerates-can-it-outpace-tel-mrvl",
+   "date": "2026-09-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why TE Connectivity (TEL) is Poised to Beat Earnings Estimates Again",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-te-connectivity-tel-poised-151003410.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TE Connectivity (TEL) Could Be 16% Undervalued As Earnings Views Improve",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/te-connectivity-tel-could-16-160903566.html",
+   "date": "2026-10-23",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Unlocking Q4 Potential of TE Connectivity (TEL): Exploring Wall Street Estimates for Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/unlocking-q4-potential-te-connectivity-121506595.html",
+   "date": "2026-10-23",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Beat Hopes Could Be A Game Changer For TE Connectivity Stock (TEL)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-hopes-could-game-090952488.html",
+   "date": "2026-10-23",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zacks Industry Outlook Highlights TE Connectivity, Vicor and OSI Systems",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-te-065700997.html",
+   "date": "2026-10-23",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 Electronics Components Stocks to Buy as Industry Prospects Brighten",
+   "url": "https://finance.yahoo.com/technology/articles/3-electronics-components-stocks-buy-154000451.html",
+   "date": "2026-10-22",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-07",
+   "reportDate": "2026-10-06",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926114188/tm2627096d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926085589/tel-20260722x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926046285/tel-20260422x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "reportDate": "2026-03-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926026421/tm268474d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-13",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926015617/tm266298d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926012079/tm265613d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.02,
+  "saleNy": 9.54,
+  "epsCy": 30.77,
+  "epsNy": 13.24,
+  "cyTrend": 0.02,
+  "nyTrend": 0.54,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    13.81,
+    14.51,
+    21.72
+   ],
+   "ni": [
+    17.24,
+    6476.92,
+    42.05
+   ],
+   "opm": [
+    19.01,
+    20.11,
+    20.63
+   ],
+   "updated": "2026-09-08 08:34:24"
+  }
+ }
+}

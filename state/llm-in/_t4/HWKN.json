@@ -1,0 +1,226 @@
+{
+ "ticker": "HWKN",
+ "news": [
+  {
+   "title": "Hawkins (HWKN) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/hawkins-hwkn-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AXTA vs. HWKN: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/axta-vs-hwkn-which-stock-should-value-investors-buy-now-0",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AXTA or HWKN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/axta-or-hwkn-which-better-value-stock-right-now-0",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AXTA vs. HWKN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/axta-vs-hwkn-which-stock-better-value-option-0",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Oversold Conditions For Hawkins (HWKN)",
+   "url": "https://www.nasdaq.com/articles/oversold-conditions-hawkins-hwkn",
+   "date": "2026-08-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "AXTA vs. HWKN: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/axta-vs-hwkn-which-stock-should-value-investors-buy-now",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AXTA or HWKN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/axta-or-hwkn-which-better-value-stock-right-now",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hawkins (HWKN) Q1 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/hawkins-hwkn-q1-earnings-lag-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Hawkins Stock Crushed the Market on Tuesday",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-hawkins-stock-crushed-market-000359465.html",
+   "date": "2026-10-28",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hawkins (NASDAQ:HWKN) Shares Rise 8% After Q2 Earnings Exceed Estimates and Revenue Reaches $313.8 Million",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hawkins-nasdaq-hwkn-shares-rise-111742093.html",
+   "date": "2026-10-27",
+   "publisher": "InvestorsHub",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hawkins soars 12% on strong second quarter earnings beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hawkins-soars-12-strong-second-211938695.html",
+   "date": "2026-10-26",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hawkins (HWKN) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hawkins-hwkn-beats-q2-earnings-204503842.html",
+   "date": "2026-10-26",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hawkins Fiscal Q2 Earnings, Sales Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hawkins-fiscal-q2-earnings-sales-204451251.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hawkins: Fiscal Q2 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hawkins-fiscal-q2-earnings-snapshot-202822120.html",
+   "date": "2026-10-26",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hawkins, Inc. Reports Second Quarter Fiscal 2027 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hawkins-inc-reports-second-quarter-201000773.html",
+   "date": "2026-10-26",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hawkins, Inc. Declares Quarterly Cash  Dividend of $0.20 Per Share",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hawkins-inc-declares-quarterly-cash-200500304.html",
+   "date": "2026-10-26",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000043/hwkn-20261026.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000039/hwkn-20260813.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000037/hwkn-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000033/hwkn-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000020/hwkn-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-13",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000017/hwkn-20260513.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.95,
+  "saleNy": 7.46,
+  "epsCy": 4.02,
+  "epsNy": 13.84,
+  "cyTrend": -2.4,
+  "nyTrend": -2.43,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.64,
+    8.39,
+    7.9
+   ],
+   "ni": [
+    -3.16,
+    -5.29,
+    -4.72
+   ],
+   "opm": [
+    12.25,
+    8.82,
+    9.24
+   ],
+   "updated": "2026-09-08 08:29:38"
+  }
+ }
+}

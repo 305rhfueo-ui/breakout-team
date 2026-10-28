@@ -1,0 +1,267 @@
+{
+ "ticker": "HAE",
+ "sector": "Healthcare",
+ "industry": "Medical Devices",
+ "nameKo": "헤모네틱스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.21,
+  "saleNy": 5.54,
+  "epsCy": 7.04,
+  "epsNy": 8.81,
+  "est": {
+   "cyCur": 5.30928,
+   "cy30": 5.30928,
+   "nyCur": 5.77717,
+   "ny30": 5.77717
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.6,
+    4.76,
+    -2.75
+   ],
+   "ni": [
+    -3,
+    -134.75,
+    19.33
+   ],
+   "opm": [
+    16.93,
+    -6.65,
+    19.88
+   ],
+   "updated": "2026-09-08 07:52:36"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-10-22"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 4
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "헤모네틱스",
+  "nameEn": "HAEMONETICS CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000313143&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 339380000,
+     "profit": 57458000,
+     "netIncome": 33010000,
+     "margin": 16.9,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 6.7,
+      "netIncome": -3,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": true,
+     "revenue": 346351000,
+     "profit": -23025000,
+     "netIncome": -117357692,
+     "margin": -6.6,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": -132.3,
+      "netIncome": -7.1,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": false,
+     "revenue": 338967000,
+     "profit": 67396000,
+     "netIncome": 44740000,
+     "margin": 19.9,
+     "yoy": {
+      "revenue": -2.7,
+      "profit": 14.2,
+      "netIncome": 19.3,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 327315000,
+     "profit": 58491000,
+     "netIncome": 38684000,
+     "margin": 17.9,
+     "yoy": {
+      "revenue": -5.3,
+      "profit": 13.1,
+      "netIncome": 14.3,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "All You Need to Know About Haemonetics (HAE) Rating Upgrade to Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-haemonetics-hae-rating-upgrade-buy",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Haemonetics Consensus Price Target Raised 24.88% to $145.63",
+     "url": "https://www.nasdaq.com/articles/haemonetics-consensus-price-target-raised-2488-14563",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "FDA Approves Haemonetics' PerQseal Elite For Large-Bore Arterial Procedures",
+     "url": "https://www.nasdaq.com/articles/fda-approves-haemonetics-perqseal-elite-large-bore-arterial-procedures",
+     "date": "2026-10-20",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Why Haemonetics (HAE) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-haemonetics-hae-top-momentum-stock-long-term",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "HAE Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/hae-crosses-above-average-analyst-target",
+     "date": "2026-10-09",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Strength Seen in Haemonetics (HAE): Can Its 17.5% Jump Turn into More Strength?",
+     "url": "https://www.nasdaq.com/articles/strength-seen-haemonetics-hae-can-its-175-jump-turn-more-strength",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PAHC vs. HAE: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/pahc-vs-hae-which-stock-better-value-option",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Haemonetics (HAE) is a Top-Ranked Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/haemonetics-hae-top-ranked-momentum-stock-should-you-buy",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-08",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/313143/000031314326000138/hae-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-18",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/313143/000031314326000135/hae-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/313143/000031314326000118/hae-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/313143/000031314326000095/hae-20260724.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/313143/000031314326000057/hae-20260605.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/313143/000031314326000031/hae-20260507.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Chipotle, Starbucks, Skydance & more",
+   "url": "https://www.cnbc.com/2026/10/08/stocks-making-the-biggest-moves-midday-cmg-sbux-skyd-mpc.html",
+   "date": "2026-10-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "HAE",
+  "fetchedAt": "2026-10-27",
+  "source": "한국투자증권 Open API",
+  "per": 58.14,
+  "pbr": 6.47,
+  "eps": 2.05,
+  "bps": 18.41,
+  "shares": 45497000,
+  "marketCapM": 5423,
+  "high52": 123.77,
+  "high52Date": "2026-10-13",
+  "low52": 48.98,
+  "low52Date": "2025-10-29",
+  "last": 119.19,
+  "prevClose": 118.51,
+  "nameKo": "헤모네틱스",
+  "nameEn": "HAEMONETICS CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 45497000
+ }
+}

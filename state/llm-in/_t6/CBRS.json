@@ -1,0 +1,741 @@
+{
+ "ticker": "CBRS",
+ "date": "2026-10-28",
+ "session": "2026-10-27",
+ "source": "list",
+ "plan": {
+  "ticker": "CBRS",
+  "name": "세레브라스 시스템스",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 119.31,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 222.5,
+  "stop": 214.37,
+  "distToPivotPct": -46.38,
+  "distToPivotAdr": -6.81,
+  "riskPerSharePct": 3.65,
+  "adrPct": 6.81,
+  "extensionAdr": -0.27,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 36,
+   "baseWeeks": 7.2,
+   "depthPct": 52.3,
+   "priorMovePct": 38.4,
+   "higherLows": 0,
+   "contraction": 0.86,
+   "closeRange10Adr": 4.2,
+   "surf10": -0.27,
+   "surf20": -3.1,
+   "slope20": -13.33,
+   "baseLow": 106.13,
+   "lastSwingLow": 165.22
+  },
+  "reasons": [
+   "선행 상승 +38%",
+   "베이스 7.2주",
+   "✗ 깊이 52.3%",
+   "✗ 저점 상승 0회",
+   "진폭 0.86배 · 10일 종가폭 4.2 ADR",
+   "✗ 10일선 -0.3 ADR · 20일선 -3.1 ADR",
+   "✗ 20일선 기울기 -13.33%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.3653931524031584,
+    "pct": 0.1352569882777277
+   },
+   "m3": {
+    "v": -0.48893546810290184,
+    "pct": 0.1352569882777277
+   },
+   "m6": {
+    "v": 0,
+    "pct": 49.54914337240757
+   }
+  },
+  "ret1m": -38.8,
+  "ret3m": -45.76,
+  "ret6m": null,
+  "marketCap": "25.74B",
+  "volx": 1.09,
+  "volSurgeWk": 1.6,
+  "high52": 30.88,
+  "newHigh52": false,
+  "adr": 6.81,
+  "div50": -31.82,
+  "div200": null,
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": 232.73,
+  "epsCy": null,
+  "epsNy": -371.32,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "est": {
+   "cyCur": -0.46943,
+   "cy30": -0.46943,
+   "nyCur": 1.27368,
+   "ny30": 1.27368
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:29:54"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "세레브라스 시스템스",
+  "nameEn": "CEREBRAS SYSTEMS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002021728&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 180110000,
+     "profit": -477233000,
+     "netIncome": -450528000,
+     "margin": -265,
+     "yoy": {
+      "revenue": 74.3,
+      "profit": -734.6,
+      "netIncome": -245.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 193406000,
+     "profit": -15037000,
+     "netIncome": -14006000,
+     "margin": -7.8,
+     "yoy": {
+      "revenue": 94.4,
+      "profit": 47.2,
+      "netIncome": 41.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 103322000,
+     "profit": -57182000,
+     "netIncome": 309512000,
+     "margin": -55.3,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    },
+    {
+     "periodEnd": "2025-03-31",
+     "derived": false,
+     "revenue": 99512000,
+     "profit": -28470000,
+     "netIncome": -23867000,
+     "margin": -28.6,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Cerebras Systems Stock Jumped on Tuesday",
+     "url": "https://www.nasdaq.com/articles/why-cerebras-systems-stock-jumped-tuesday",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AAOI vs. CBRS: Which AI Infrastructure Stock Has an Edge Now?",
+     "url": "https://www.nasdaq.com/articles/aaoi-vs-cbrs-which-ai-infrastructure-stock-has-edge-now",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cerebras Systems vs. SoundHound AI: Here's What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
+     "url": "https://www.nasdaq.com/articles/cerebras-systems-vs-soundhound-ai-heres-what-revenue-trends-tell-investors-about-these",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Better Artificial Intelligence Stock for 2026: BigBear.ai vs. Cerebras Systems",
+     "url": "https://www.nasdaq.com/articles/better-artificial-intelligence-stock-2026-bigbearai-vs-cerebras-systems",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cerebras Is About as Big as Nvidia's Data Center Business Was Nearly a Decade Ago. The Similarities Mostly End There.",
+     "url": "https://www.nasdaq.com/articles/cerebras-about-big-nvidias-data-center-business-was-nearly-decade-ago-similarities-mostly",
+     "date": "2026-10-11",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrs-20260812.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026044941/cbrs-20260623.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "5.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035605/closing8-k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-24",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[CEREBRAS SYSTEMS INC (NAS:CBRS)] 13 GPU 킬러 (X), Decode 킬러 (O)",
+     "summary": "- 세레브라스는 WSE(Wafer Scale Engine)을 설계하는 팹리스 업체. 일반적 인 반도체 칩이 300mm 웨이퍼 위에 다수의 다이(Die)를 형성한 후 이를 잘라내어 개별적으로 패키징 하는 것과 다르게, WSE는 웨이퍼 전체를 하나 의 거대한 컴퓨팅 패브릭으로 활용. 수율 문제는 양품 코어만 활성화하고 결 함 코어를 우회하는 라우팅 방식으로 극복. TSMC의 N5 공정으로 제조되며, HBM을 사용하는 대신 칩 면적의 50% 수준을 SRAM으로 배정해 칩 당 44GB의 SRAM 용량과 21PB/s의 대역폭을 제공. 또한 WSE-3을 전력, 냉 각 장비와 결합한 CS-3 랙시스템의 형태로 판매.- 코어 기준 1분기 매출 1.91억달러(+92% yoy), GPM 46.5%, OPM -2%를 기록하며 컨센을 상회. 하드웨어 매출은 1.12억달러(+60% yoy), 클라우드/ 서비스 매출은 7,980만달러(+167% yoy)를 기록. 가이던스는 2분기 코어 매출액 1.94억달러(+88% yoy), 연간 코어 매출액 8.6억달러를 제시- 세레브라스는 일반적인 AI 가속기와 달리 SRAM 용량 한계로 인해 모델 파 라미터를 MemoryX라는 외부 메모리 계층에 저장하는 방식을 채택. 사측 은 WSE/CS-3을 학습과 추론이 모두 가능한 웨이퍼 스케일 시스템으로 포 지셔닝 중이나, 외부 메모리 계층에 의존하는 데에 반해 칩 외부 시스템 I/O 대역폭은 CS-3 1대 기준 150GB/s 수준으로 아직까지 대형 모델이나 대규 모 컨텍스트 향으로 사용되기에는 시스템적 한계가 존재. AI Agent 확산으 로 일부 에이전트 루프에서 반복적인 Decode 호출과 메모리 접근 지연시 간의 중요성이 커질수록 WSE의 활용처는 확대될 수 있음. 다만 WSE가 AI 인프라 시장 전반으로 유의미하게 확산되기 위해서는 외부 메모리·시스템 I/O 병목 완화와 소프트웨어 생태계 확장이 필요하다고 판단.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgglgxikmlckmgcgxecgl.pdf",
+     "pages": "9"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "CBRS-report1.pdf",
+   "broker": "유진투자증권",
+   "analyst": "박재환",
+   "date": "2026-06-24",
+   "title": "[CEREBRAS SYSTEMS INC (NAS:CBRS)] 13 GPU 킬러 (X), Decode 킬러 (O)",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgglgxikmlckmgcgxecgl.pdf",
+   "pages": "9"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+   "url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "I warned against buying this AI chip stock. Now I think it could nearly double",
+   "url": "https://www.cnbc.com/2026/10/23/investor-paul-meeks-buying-cerebras-cbrs.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cerebras stock pops 9% after Sam Altman calls the chipmaker a 'close partner'",
+   "url": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cerebras stock hits post-IPO low on Nvidia pressure and lockup expiration",
+   "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nvidia's AI moat is shifting from chips to capital",
+   "url": "https://www.cnbc.com/2026/08/18/nvidias-ai-moat-is-shifting-from-chips-to-capital.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This AI chip stock is struggling. Paul Meeks thinks it's an opportunity to buy",
+   "url": "https://www.cnbc.com/video/2026/10/23/this-ai-chip-stock-is-struggling-paul-meeks-thinks-its-an-opportunity-to-buy.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Trade Tracker: Malcolm Ethridge buys more Cerebras",
+   "url": "https://www.cnbc.com/video/2026/10/22/trade-tracker-malcolm-ethridge-buys-more-cerebras.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lightning Round: Cerebras is a good company, but stock is too expensive, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/06/lightning-round-cerebras-is-a-good-company-but-stock-is-too-expensive-says-jim-cramer.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CBRS",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 52.83,
+  "pbr": 2.97,
+  "eps": 2.26,
+  "bps": 40.12,
+  "shares": 112247110,
+  "marketCapM": 13392,
+  "high52": 386.34,
+  "high52Date": "2026-05-14",
+  "low52": 106.13,
+  "low52Date": "2026-10-23",
+  "last": 119.31,
+  "prevClose": 108.37,
+  "nameKo": "세레브라스 시스템스",
+  "nameEn": "CEREBRAS SYSTEMS INC",
+  "listedOn": "2026-05-14",
+  "exchange": "나스닥",
+  "listedShares": 112247110
+ },
+ "estimates": {
+  "ticker": "CBRS",
+  "url": "https://finance.yahoo.com/quote/CBRS/analysis/",
+  "fetchedAt": "2026-10-28",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": -0.14,
+    "epsLow": -0.21,
+    "epsHigh": -0.03,
+    "epsYearAgo": null,
+    "epsAnalysts": 10,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 214702940,
+    "revAnalysts": 9,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": -0.23,
+    "epsLow": -0.33,
+    "epsHigh": -0.05,
+    "epsYearAgo": null,
+    "epsAnalysts": 10,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 274443790,
+    "revAnalysts": 9,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -0.47,
+    "epsLow": -0.71,
+    "epsHigh": -0.16,
+    "epsYearAgo": null,
+    "epsAnalysts": 11,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 887081460,
+    "revAnalysts": 10,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 1.27,
+    "epsLow": 0.84,
+    "epsHigh": 1.94,
+    "epsYearAgo": -0.47,
+    "epsAnalysts": 11,
+    "epsGrowth": 371.3,
+    "epsCur": "USD",
+    "rev": 2951591620,
+    "revAnalysts": 11,
+    "revYearAgo": 887081460,
+    "revGrowth": 232.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": -0.14,
+    "d7": 0,
+    "d30": 0,
+    "d90": 56.2,
+    "ago90": -0.32,
+    "up7": 9,
+    "up30": 9,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.23,
+    "d7": 0,
+    "d30": 0,
+    "d90": 40.6,
+    "ago90": -0.38,
+    "up7": 9,
+    "up30": 9,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.47,
+    "d7": 0,
+    "d30": 0,
+    "d90": 51.6,
+    "ago90": -0.97,
+    "up7": 9,
+    "up30": 9,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 1.27,
+    "d7": 0,
+    "d30": 0,
+    "d90": 33.1,
+    "ago90": 0.96,
+    "up7": 9,
+    "up30": 9,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": -0.05,
+    "estimate": -0.18,
+    "surprisePct": 74.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.04,
+    "estimate": -0.15,
+    "surprisePct": 74,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 3,
+   "ptLowered": 3,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-10-19",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 175,
+     "ptPrior": 275
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Freedom Capital Markets",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 209,
+     "ptPrior": 209
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "Freedom Capital Markets",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Maintains",
+     "pt": 209,
+     "ptPrior": 209
+    },
+    {
+     "date": "2026-08-19",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 300,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-08-19",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 300,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-08-13",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 330,
+     "ptPrior": 320
+    },
+    {
+     "date": "2026-08-13",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 320,
+     "ptPrior": 340
+    },
+    {
+     "date": "2026-08-13",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 290,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-08-13",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 300,
+     "ptPrior": 310
+    },
+    {
+     "date": "2026-08-13",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 300,
+     "ptPrior": 300
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-12",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-27",
+  "numbers": {
+   "price": 119.31,
+   "ma20": 144.51,
+   "ma50": 174.99,
+   "ma150": null,
+   "distMA50": -31.82,
+   "periodHigh": 386.34,
+   "pullbackFromHigh": -69.12,
+   "volRatio20": 1.32,
+   "dryUpRatio": 0.9
+  },
+  "last10": [
+   {
+    "d": "2026-10-14",
+    "o": 143.71,
+    "h": 148.26,
+    "l": 139.91,
+    "c": 141.48,
+    "v": 11828700,
+    "clsPos": 19,
+    "gapPct": -3.61
+   },
+   {
+    "d": "2026-10-15",
+    "o": 137.11,
+    "h": 142.44,
+    "l": 133.88,
+    "c": 142.17,
+    "v": 8980800,
+    "clsPos": 97,
+    "gapPct": -3.09
+   },
+   {
+    "d": "2026-10-16",
+    "o": 137.66,
+    "h": 137.88,
+    "l": 126.05,
+    "c": 127.21,
+    "v": 11823600,
+    "clsPos": 10,
+    "gapPct": -3.17
+   },
+   {
+    "d": "2026-10-19",
+    "o": 130.03,
+    "h": 130.86,
+    "l": 120.12,
+    "c": 120.66,
+    "v": 11658300,
+    "clsPos": 5,
+    "gapPct": 2.22
+   },
+   {
+    "d": "2026-10-20",
+    "o": 118.2,
+    "h": 126.1,
+    "l": 116.22,
+    "c": 118.24,
+    "v": 10078200,
+    "clsPos": 20,
+    "gapPct": -2.04
+   },
+   {
+    "d": "2026-10-21",
+    "o": 120.05,
+    "h": 121.56,
+    "l": 115.13,
+    "c": 117.98,
+    "v": 7739700,
+    "clsPos": 44,
+    "gapPct": 1.53
+   },
+   {
+    "d": "2026-10-22",
+    "o": 113.96,
+    "h": 114.19,
+    "l": 107.9,
+    "c": 108.94,
+    "v": 11147500,
+    "clsPos": 17,
+    "gapPct": -3.41
+   },
+   {
+    "d": "2026-10-23",
+    "o": 109.33,
+    "h": 114.65,
+    "l": 106.13,
+    "c": 110.82,
+    "v": 7620700,
+    "clsPos": 55,
+    "gapPct": 0.36
+   },
+   {
+    "d": "2026-10-26",
+    "o": 110.4,
+    "h": 111.33,
+    "l": 106.27,
+    "c": 108.37,
+    "v": 7925400,
+    "clsPos": 42,
+    "gapPct": -0.38
+   },
+   {
+    "d": "2026-10-27",
+    "o": 109.43,
+    "h": 120.5,
+    "l": 108.88,
+    "c": 119.31,
+    "v": 14265719,
+    "clsPos": 90,
+    "gapPct": 0.98
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CBRS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CBRS-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 6일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

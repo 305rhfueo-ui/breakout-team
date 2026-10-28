@@ -2,10 +2,10 @@
  "ticker": "AGYS",
  "news": [
   {
-   "title": "Agilysys, Inc. Reports Record Revenue of $93.4M in Fiscal 2027 Second Quarter and Raises Full-Year Guidance",
-   "url": "https://www.nasdaq.com/articles/agilysys-inc-reports-record-revenue-934m-fiscal-2027-second-quarter-and-raises-full-year",
-   "date": "2026-10-26",
-   "publisher": "Fintel"
+   "title": "Agilysys (AGYS) Q2 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/agilysys-agys-q2-2027-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
   },
   {
    "title": "Agilysys (AGYS) Reports Q2 Earnings: What Key Metrics Have to Say",
@@ -14,22 +14,10 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Agilysys Inc Q2 Income Rises",
-   "url": "https://www.nasdaq.com/articles/agilysys-inc-q2-income-rises",
-   "date": "2026-10-26",
-   "publisher": "RTTNews"
-  },
-  {
    "title": "Agilysys (AGYS) Q2 Earnings and Revenues Surpass Estimates",
    "url": "https://www.nasdaq.com/articles/agilysys-agys-q2-earnings-and-revenues-surpass-estimates",
    "date": "2026-10-26",
    "publisher": "Zacks"
-  },
-  {
-   "title": "Agilysys Q2 27 Earnings Conference Call At 4:30 PM ET",
-   "url": "https://www.nasdaq.com/articles/agilysys-q2-27-earnings-conference-call-4-30-pm-et",
-   "date": "2026-10-26",
-   "publisher": "RTTNews"
   },
   {
    "title": "HPE vs. AGYS: Which Stock Is the Better Value Option?",
@@ -44,10 +32,10 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Agilysys's 2026 Outlook: Subscription Revenue Expansion Drives High-Margin Software Growth",
-   "url": "https://www.nasdaq.com/articles/agilysyss-2026-outlook-subscription-revenue-expansion-drives-high-margin-software-growth",
-   "date": "2026-09-16",
-   "publisher": "The Motley Fool"
+   "title": "Agilysys (AGYS) Tops Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/agilysys-agys-tops-q1-earnings-and-revenue-estimates",
+   "date": "2026-07-27",
+   "publisher": "Zacks"
   },
   {
    "title": "Agilysys Q2 Earnings Call Highlights",
@@ -110,131 +98,100 @@
   {
    "form": "8-K",
    "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526431911/agys-20261026.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526431911/agys-20261026.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-09-04",
+   "reportDate": "2026-09-04",
+   "items": [
+    "5.07"
+   ],
    "itemsKo": [
     "주주총회 표결"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526383628/agys-20260904.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526383628/agys-20260904.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526318055/agys-20260727.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526318055/agys-20260727.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-06-22",
+   "reportDate": "2026-06-22",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
    "itemsKo": [
     "임원 변동",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526276749/agys-20260622.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526276749/agys-20260622.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
    "itemsKo": [
     "Reg FD 공시",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526254661/agys-20260603.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526254661/agys-20260603.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-18",
+   "reportDate": "2026-05-18",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526228898/agys-20260518.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/78749/000119312526228898/agys-20260518.htm",
+   "description": "8-K"
   }
  ],
- "financials": {
-  "profitLabel": "영업이익",
-  "marginLabel": "영업이익률",
-  "unit": "USD",
-  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000078749&type=10-Q",
-  "quarters": [
-   {
-    "periodEnd": "2026-09-30",
-    "derived": false,
-    "revenue": 93360000,
-    "profit": 15248000,
-    "netIncome": 13177000,
-    "margin": 16.3,
-    "yoy": {
-     "revenue": 17.7,
-     "profit": 7.8,
-     "netIncome": 12.5,
-     "priorEnd": "2025-09-30"
-    }
-   },
-   {
-    "periodEnd": "2026-06-30",
-    "derived": false,
-    "revenue": 87677000,
-    "profit": 9738000,
-    "netIncome": 8992000,
-    "margin": 11.1,
-    "yoy": {
-     "revenue": 14.3,
-     "profit": 115.4,
-     "netIncome": 83.9,
-     "priorEnd": "2025-06-30"
-    }
-   },
-   {
-    "periodEnd": "2026-03-31",
-    "derived": true,
-    "revenue": 82946000,
-    "profit": 12615000,
-    "netIncome": 12294000,
-    "margin": 15.2,
-    "yoy": {
-     "revenue": 11.7,
-     "profit": 137.6,
-     "netIncome": 213.2,
-     "priorEnd": "2025-03-31"
-    }
-   },
-   {
-    "periodEnd": "2025-12-31",
-    "derived": false,
-    "revenue": 80390000,
-    "profit": 11732000,
-    "netIncome": 9897000,
-    "margin": 14.6,
-    "yoy": {
-     "revenue": 15.6,
-     "profit": 58.3,
-     "netIncome": 158.4,
-     "priorEnd": "2024-12-31"
-    }
-   }
-  ]
- },
- "krReports": {
-  "total": 0,
-  "reports": []
- },
+ "financials": null,
+ "krReports": null,
  "site": {
   "targetStatus": false,
   "saleCy": 16.13,

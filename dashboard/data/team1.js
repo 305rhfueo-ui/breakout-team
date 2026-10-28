@@ -506,8 +506,363 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-28",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "SK하이닉스가 3분기 이익 예상을 넘기고 대규모 환원을 발표했다",
+        "easy": "SK하이닉스가 3분기 이익이 시장 예상치를 웃돌았다고 밝혔다. 동시에 250억 달러가 넘는 배당과 자사주 매입 계획을 내놨다. 이익이 왜 늘었는지 구체적인 설명은 기사에 안 나왔다. 메모리 반도체를 만드는 회사의 실적이 좋다는 사실이 숫자로 확인된 것이 달라진 점이다.",
+        "whyMatters": "메모리 반도체와 반도체 장비 업종에 긍정적인 신호이고, 서버용 메모리를 쓰는 데이터센터 관련 업종도 같은 방향으로 읽힌다. 다만 미국 상장 종목의 실적이 아니라 업황 확인 성격이므로, 미국 메모리 업체 실적 발표에서 같은 흐름이 나오는지를 지켜보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "SK Hynix announces over $25 billion in dividends and buyback as third-quarter profit beats estimates",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+            "date": "2026-10-28",
+            "quote": "SK Hynix announces over $25 billion in dividends and buyback as third-quarter profit beats estimates",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "AI 투자가 계속된다는 기대로 AI 관련주가 올랐다",
+        "easy": "CoreWeave를 비롯한 AI 관련주가 올랐다. Anthropic이 AI 투자가 계속될 것이라는 시장의 신뢰를 되살렸다는 것이 이유로 꼽혔다. 같은 날 Anthropic이 보유한 현금이 미국 기업 대부분보다 많다는 내용도 함께 나왔다. 돈 쓸 여력이 있다는 점이 확인되면서 AI 설비 투자 기대가 되살아난 것이 달라진 점이다.",
+        "whyMatters": "데이터센터를 빌려주는 클라우드 업종과 AI 서버용 반도체 업종에 좋은 방향이다. 반대로 투자 계획이 늦춰진다는 소식이 나오면 같은 업종이 가장 먼저 되돌려지므로, 고객사의 투자 계획 발표를 같이 보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
+            "date": "2026-10-27",
+            "quote": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html",
+            "date": "2026-10-27",
+            "quote": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "빅테크가 아닌 나머지 종목들이 시장을 앞서가고 있다",
+        "easy": "빅테크가 크게 반등한 뒤, 이제는 그 밖의 종목들이 더 잘 가고 있다. 주도권이 소수 대형주에서 넓은 쪽으로 옮겨가는 모습이다. 왜 그런 이동이 생겼는지는 기사에 안 나왔다. 대형 기술주만 들고 있으면 시장이 올라도 체감이 안 되는 국면이 될 수 있다는 점이 달라진 점이다.",
+        "whyMatters": "대형 기술주 비중이 큰 나스닥100 추종 상품에는 불리하고, 산업재·경기소비재·헬스케어처럼 그동안 뒤처졌던 업종에는 유리한 흐름이다. 내가 든 종목이 지수보다 잘 가는지 아닌지를 한 번 비교해 보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
+            "date": "2026-10-27",
+            "quote": "The rest of the market is leaving Big Tech behind after a historic comeback",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "3분기 실적에서 미국 소비자는 버티지만 부담 신호도 보였다",
+        "easy": "3분기 실적 발표 초반 결과로는 미국 소비자가 비교적 잘 버티고 있다는 평가가 나왔다. 다만 일부에서는 지출이 눌리는 신호도 함께 나타났다. 어떤 품목에서 그런 신호가 나왔는지는 기사에 안 나왔다. 소비가 꺾이는지 여부가 앞으로 실적 발표의 핵심 쟁점이 된다는 점이 달라진 점이다.",
+        "whyMatters": "소매·경기소비재 업종에는 양쪽 신호가 섞여 있어 종목별 차별화가 커지는 구간이다. 앞으로 나올 소매 업종 실적에서 다음 분기 전망(회사가 내놓는 매출·이익 예상)이 낮아지는지를 보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
+            "date": "2026-10-27",
+            "quote": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Boeing 주가가 실적 발표 뒤 크게 떨어졌다",
+        "easy": "Boeing이 실적을 발표한 뒤 주가가 크게 떨어졌다. 하락의 주된 이유가 따로 있다고 보도됐지만, 그 내용이 무엇인지는 기사 제목에 나오지 않았다. 실적 발표 하나로 주가가 크게 움직일 수 있는 구간임을 보여준다. 대형 산업재 종목에 대한 시장의 기대가 낮아졌다는 점이 달라진 점이다.",
+        "whyMatters": "항공기 제조와 그 부품·방산 업종에는 부담이고, 납품 지연이 길어지면 항공운송 업종의 비용 계획에도 영향이 간다. 같은 업종 다른 회사들의 실적에서도 비슷한 문제가 반복되는지를 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "The big reason Boeing’s stock is falling so hard after earnings",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-big-reason-boeings-stock-is-falling-so-hard-after-earnings-d31b400d?mod=mw_rss_topstories",
+            "date": "2026-10-27",
+            "quote": "The big reason Boeing’s stock is falling so hard after earnings",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "미국이 러시아 디젤의 추가 유입을 허용할지 검토 중이다",
+        "easy": "미국 에너지 장관이 러시아산 디젤이 시장에 더 들어오도록 허용할 수 있다고 밝혔다. 러시아·우크라이나 관련 협의 흐름 속에서 나온 발언이다. 같은 날 미국 소비자가 역대 가장 비싼 휘발유 값을 치르는 해라는 보도도 나왔다. 공급이 늘면 기름값 부담이 줄 수 있다는 점이 달라진 점이다.",
+        "whyMatters": "경유·휘발유를 만들어 파는 정유 업종에는 공급 증가가 부담이고, 기름을 많이 쓰는 항공·운송 업종에는 유리한 방향이다. 실제로 허용 결정이 나오는지, 디젤 가격이 내려가는지를 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
+            "date": "2026-10-27",
+            "quote": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "As Trump touts energy companies’ fortunes, U.S. consumers face the most expensive year for gas prices ever",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+            "date": "2026-10-27",
+            "quote": "As Trump touts energy companies’ fortunes, U.S. consumers face the most expensive year for gas prices ever",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기보다 기다리는 쪽이 유리한 자리다. 나스닥100(QQQ)은 종가 721.25로 짧은 이동평균이 긴 이동평균 아래에 있는 상태가 6일째 이어지고, 50일 평균선 아래에 있어 추세가 꺾인 신호다. 오늘 뉴스는 메모리 반도체 실적과 AI 투자 지속 기대가 살아 있다는 쪽이지만, 그 힘이 지수 전체를 끌어올리지는 못하고 빅테크 밖으로 주도권이 옮겨가는 모습이다. 조심할 점은 빚내서 주식을 산 금액이 1년 전보다 31.4% 늘어 주의선을 넘었다는 것으로, 하락이 시작되면 매물이 몰리기 쉽다. 이번 주에는 짧은 평균선이 긴 평균선을 다시 위로 넘는지, 그리고 기술·헬스케어가 주도 자리를 지키는지를 보면 된다.",
+    "keyRisks": [
+      "지수 추세가 꺾였다: 짧은 이동평균이 긴 이동평균 아래에 머무는 동안은 돌파를 사도 실패 확률이 높아진다.",
+      "빚으로 산 주식이 많다: 마진부채 증가율이 주의선을 넘어, 조정이 오면 강제 매도가 겹쳐 낙폭이 커질 수 있다.",
+      "주도권이 빅테크 밖으로 이동한다: 대형 기술주 비중이 큰 상품을 들고 있으면 시장이 올라도 수익이 따라오지 않는다.",
+      "실적 발표 한 건에 주가가 크게 흔들린다: Boeing처럼 발표 직후 급락이 나오는 국면이라, 발표가 임박한 종목은 비중 관리가 필요하다."
+    ],
+    "easySummary": [
+      "메모리 실적과 AI 투자 기대는 살아 있지만, 지수 자체는 추세가 꺾인 상태다.",
+      "주도권이 빅테크에서 그 밖의 종목으로 넘어가고 있고, 소비는 버티면서도 부담 신호가 보인다.",
+      "빚내서 산 주식이 주의선을 넘었으니 새 매수보다 평균선 관계가 되돌아오는지 확인할 때다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 248,
+      "ok": 430,
+      "unverified": 5,
+      "dead": 0,
+      "stripped": 18,
+      "removed": [],
+      "numberCut": 33,
+      "numberCuts": [
+        {
+          "sentence": "3분기 이익은 1년 전보다 줄었고, 직전 분기(2분기)도 영업이익이 1년 전보다 49% 감소했다.",
+          "missing": [
+            "49"
+          ]
+        },
+        {
+          "sentence": "2025년 9월 분기(7.8%)와 비교하면 수익성이 크게 좋아졌다.",
+          "missing": [
+            "7.8"
+          ]
+        },
+        {
+          "sentence": "매출은 457억 달러로 3.3% 증가에 그쳐, 이익률이 크게 좋아진 것이 핵심이다.",
+          "missing": [
+            "3.3"
+          ]
+        },
+        {
+          "sentence": "10월 27일 뉴욕거래소에서 나스닥으로 11월 17일 상장 이전을 알렸고, 이날 종가는 직전일 76.31달러에서 80.54달러로 올랐다.",
+          "missing": [
+            "76.31",
+            "80.54"
+          ]
+        },
+        {
+          "sentence": "직전 2분기 영업이익은 1년 전보다 31% 줄었고, 전기차 사업 정리 비용이 계속 나오고 있다.",
+          "missing": [
+            "31"
+          ]
+        },
+        {
+          "sentence": "2분기 때 조정 영업이익 전망을 140억~160억 달러로 높였다.",
+          "missing": [
+            "140억",
+            "160억 달러"
+          ]
+        },
+        {
+          "sentence": "Axiom 분사 과정에서 20억 달러 규모의 전환우선주를 발행한다.",
+          "missing": [
+            "20억 달러"
+          ]
+        },
+        {
+          "sentence": "1년 평균 주가보다도 18.9% 낮아 추세가 아직 회복되지 않았다.",
+          "missing": [
+            "18.9"
+          ]
+        },
+        {
+          "sentence": "직전 분기(6월 말) 매출이 46.99억 달러로 1년 전보다 62.4% 늘었고 영업이익은 68.2% 늘었다.",
+          "missing": [
+            "62.4",
+            "68.2"
+          ]
+        },
+        {
+          "sentence": "대규모 유상증자(새 주식 발행으로 기존 주주 몫이 줄어드는 것)와 성장 정점 우려로 주가 평가가 낮아졌고, 지금도 6월 고점 474달러에 한참 못 미친다.",
+          "missing": [
+            "474"
+          ]
+        },
+        {
+          "sentence": "종가는 119.31달러로 전일 108.37달러보다 올랐고, 직전 저점(10월 23일 106.13달러)에서 반등한 모습이다.",
+          "missing": [
+            "119.31",
+            "108.37",
+            "106.13"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점보다 약 24% 낮고, 직전 분기 영업이익은 1년 전보다 8.4% 줄었다.",
+          "missing": [
+            "24"
+          ]
+        },
+        {
+          "sentence": "현재 주가 119달러보다 훨씬 높아 추가 상승 여지를 보는 시각이 늘었다.",
+          "missing": [
+            "119"
+          ]
+        },
+        {
+          "sentence": "이 소식에 9월 29일 주가가 170% 넘게 뛰었다.",
+          "missing": [
+            "170"
+          ]
+        },
+        {
+          "sentence": "같은 날 SEC에 실적 발표 8-K가 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 35.1% 증가.",
+          "missing": [
+            "35.1"
+          ]
+        },
+        {
+          "sentence": "키움증권이 2026-08-06 리포트에서 Scale-Across 확대를 장기 성장 근거로 제시했다.",
+          "missing": [
+            "08",
+            "06"
+          ]
+        },
+        {
+          "sentence": "밸류에이션 부담: 12개월 선행 PER 56배로 업종 평균 26배를 웃돈다(2025-11 리포트 기준).",
+          "missing": [
+            "11"
+          ]
+        },
+        {
+          "sentence": "2025년 9월 분기는 -2%였다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "2025년 9월 분기 영업이익률은 7.8%였다.",
+          "missing": [
+            "7.8"
+          ]
+        },
+        {
+          "sentence": "2분기 영업손실 4.77억 달러, 영업이익률 -265%로 1분기(-7.8%)보다 악화",
+          "missing": [
+            "7.8"
+          ]
+        },
+        {
+          "sentence": "유진투자증권이 클라우드/서비스 매출 성장을 보고서로 정리(2026-06-24)",
+          "missing": [
+            "06",
+            "24"
+          ]
+        },
+        {
+          "sentence": "3분기 실적 발표 당일(10/20) GM이 CNBC의 장중 주요 변동 종목에 올랐다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "GM이 7월 연간 조정 EBIT 가이던스를 140~160억 달러로 올렸다(올해 두 번째 상향).",
+          "missing": [
+            "160억 달러",
+            "140"
+          ]
+        },
+        {
+          "sentence": "6월 분기에 전기차 관련 손실 23억 달러가 반영됐고, 전기차 판매는 전년비 40% 줄었다.",
+          "missing": [
+            "23억 달러"
+          ]
+        },
+        {
+          "sentence": "2분기에 중기·단기 계약을 도입해 단기 계약 첫 체결, 10억 달러 이상 계약 4건을 맺었다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "유진투자증권 추정: 2026년 매출 3,388백만 달러, 2027년 12,364백만 달러(+265%).",
+          "missing": [
+            "265"
+          ]
+        },
+        {
+          "sentence": "키움증권(2026-09)은 장기 구매 확약과 신규 이더넷 진출로 2027년 성장이 가속된다고 전망했다.",
+          "missing": [
+            "09"
+          ]
+        },
+        {
+          "sentence": "10월 5일 Flex가 Axiom 전환우선주 20억 달러어치를 팔겠다고 알려졌다.",
+          "missing": [
+            "20억 달러"
+          ]
+        },
+        {
+          "sentence": "유안타증권(2026-08)은 FY27 매출 가이던스 +65~75%yoy를 적었다.",
+          "missing": [
+            "08"
+          ]
+        },
+        {
+          "sentence": "20억 달러 규모 Axiom 전환우선주 매각으로 지분 희석 가능성이 있다.",
+          "missing": [
+            "20억 달러"
+          ]
+        },
+        {
+          "sentence": "키움증권(2026-08-25)은 UALink·광학·CXL 등 신규 영역이 2027년 이후 성장축을 다변화한다고 전망했다.",
+          "missing": [
+            "08",
+            "25"
+          ]
+        },
+        {
+          "sentence": "회계기준(GAAP) 영업이익은 1억 2,100만 달러로 1년 전보다 98.7% 늘었지만 직전 분기보다 22.6% 줄었다.",
+          "missing": [
+            "1억 2,100만 달러"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-28"
   }
 };

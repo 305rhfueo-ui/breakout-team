@@ -1,0 +1,136 @@
+{
+ "ticker": "PDS",
+ "sector": "Energy",
+ "industry": "Oil & Gas Drilling",
+ "nameKo": "프리시전 드릴링",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.24,
+  "saleNy": 5.15,
+  "epsCy": 27.64,
+  "epsNy": 83.87,
+  "est": {
+   "cyCur": 6.59417,
+   "cy30": 6.76665,
+   "nyCur": 12.12459,
+   "ny30": 12.30484
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -5.38,
+    14.91,
+    -4.06
+   ],
+   "ni": [
+    -103.59,
+    23.77,
+    -117.09
+   ],
+   "opm": [
+    3.28,
+    7.86,
+    9
+   ],
+   "updated": "2026-09-08 10:00:07"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-27",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "프리시전 드릴링",
+  "nameEn": "PRECISION DRILLING CORPORATION",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Wall Street Analysts Believe Precision Drilling (PDS) Could Rally 26.28%: Here's is How to Trade",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-precision-drilling-pds-could-rally-2628-heres-how-trade",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Precision Drilling (PDS) Shares Cross Above 200 DMA",
+     "url": "https://www.nasdaq.com/articles/precision-drilling-pds-shares-cross-above-200-dma-0",
+     "date": "2026-10-19",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Should Value Investors Buy Precision Drilling (PDS) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-precision-drilling-pds-stock",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Investors Undervaluing Precision Drilling (PDS) Right Now?",
+     "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-precision-drilling-pds-right-now",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Precision Drilling (PDS) Shares Cross Above 200 DMA",
+     "url": "https://www.nasdaq.com/articles/precision-drilling-pds-shares-cross-above-200-dma",
+     "date": "2026-08-10",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Precision Drilling Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/precision-drilling-q2-earnings-call-highlights",
+     "date": "2026-07-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Precision Drilling (PDS) Reports Q2 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/precision-drilling-pds-reports-q2-loss-beats-revenue-estimates",
+     "date": "2026-07-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Precision Drilling Stock Getting Very Oversold",
+     "url": "https://www.nasdaq.com/articles/precision-drilling-stock-getting-very-oversold",
+     "date": "2026-07-01",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "PDS",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 56.27,
+  "pbr": 1.14,
+  "eps": 1.78,
+  "bps": 87.79,
+  "shares": 12587500,
+  "marketCapM": 1258,
+  "high52": 103.8,
+  "high52Date": "2026-03-26",
+  "low52": 56.1,
+  "low52Date": "2025-11-21",
+  "last": 99.96,
+  "prevClose": 98.8,
+  "nameKo": "프리시전 드릴링",
+  "nameEn": "PRECISION DRILLING CORPORATION",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 12587500
+ }
+}

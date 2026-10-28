@@ -1,0 +1,121 @@
+{
+ "ticker": "NBN",
+ "news": [
+  {
+   "title": "Northeast Bank About To Put More Money In Your Pocket (NBN)",
+   "url": "https://www.nasdaq.com/articles/northeast-bank-about-put-more-money-your-pocket-nbn",
+   "date": "2026-05-11",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Northeast Bank NBN Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/northeast-bank-nbn-q1-2026-earnings-transcript",
+   "date": "2026-01-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Northeast Bank NBN Q4 2025 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/northeast-bank-nbn-q4-2025-earnings-transcript",
+   "date": "2026-01-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Northeast Bank NBN Q2 2025 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/northeast-bank-nbn-q2-2025-earnings-transcript",
+   "date": "2026-01-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Northeast Bank NBN Q3 2025 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/northeast-bank-nbn-q3-2025-earnings-transcript",
+   "date": "2026-01-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Northeast Bank NBN Q1 2025 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/northeast-bank-nbn-q1-2025-earnings-transcript",
+   "date": "2026-01-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Northeast Bank (NBN) Price Target Increased by 11.37% to 119.85",
+   "url": "https://www.nasdaq.com/articles/northeast-bank-nbn-price-target-increased-1137-11985",
+   "date": "2025-12-21",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Northeast Bank (NBN) (Q1 2027) Earnings Call Highlights: Record Originations and Strong Returns ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/northeast-bank-nbn-q1-2027-010344141.html",
+   "date": "2026-10-28",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Northeast Bancorp Q1 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/northeast-bancorp-q1-earnings-call-160446851.html",
+   "date": "2026-10-27",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Northeast Bank Fiscal Q1 Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/northeast-bank-fiscal-q1-earnings-210322326.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Northeast Bancorp: Fiscal Q1 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/northeast-bancorp-fiscal-q1-earnings-202928032.html",
+   "date": "2026-10-26",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Northeast Bank Reports First Quarter Results and Declares Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/northeast-bank-reports-first-quarter-201600716.html",
+   "date": "2026-10-26",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Northeast Bank Announces Dates for Fiscal 2027 First Quarter Earnings Results and Conference Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/northeast-bank-announces-dates-fiscal-160000987.html",
+   "date": "2026-10-20",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": null,
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 16.78,
+  "saleNy": 10.23,
+  "epsCy": 14.6,
+  "epsNy": 7.88,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    20.55,
+    -4.46,
+    18.81
+   ],
+   "ni": [
+    59.8,
+    -7.58,
+    31.77
+   ],
+   "opm": [
+    40.98,
+    34.6,
+    35.75
+   ],
+   "updated": "2026-09-08 05:56:20"
+  }
+ }
+}

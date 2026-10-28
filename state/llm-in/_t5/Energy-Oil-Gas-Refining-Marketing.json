@@ -1,0 +1,533 @@
+{
+ "key": "Energy|Oil & Gas Refining & Marketing",
+ "sector": "Energy",
+ "industry": "Oil & Gas Refining & Marketing",
+ "industryKo": "정유·석유제품 판매",
+ "frank": 2,
+ "frank25dChg": 0,
+ "finalWrs": 0.3989,
+ "count": 8,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "PBF",
+   "rs1": 0.0013356055051581377,
+   "rs3": 0.056926032589260676,
+   "rs6": 0.7501268521908709,
+   "rnk1": 69.12,
+   "rnk3": 22.59,
+   "rnk6": 3.74,
+   "ret1d": -8.59,
+   "high52": 79.63,
+   "dollarVolM": 212.8,
+   "marketCap": "9.55B",
+   "name": "PBF 에너지"
+  },
+  {
+   "ticker": "MPC",
+   "rs1": 0.13471253095334773,
+   "rs3": 0.39255212842813947,
+   "rs6": 0.7466665288129382,
+   "rnk1": 14.47,
+   "rnk3": 2.66,
+   "rnk6": 3.92,
+   "ret1d": -7.36,
+   "high52": 88.26,
+   "dollarVolM": 1281.6,
+   "marketCap": "137.40B",
+   "name": "매러선 페트롤리엄"
+  },
+  {
+   "ticker": "VLO",
+   "rs1": 0.0216236684351286,
+   "rs3": 0.22815079735814106,
+   "rs6": 0.6117743510130622,
+   "rnk1": 62.26,
+   "rnk3": 6.27,
+   "rnk6": 5.37,
+   "ret1d": -9.24,
+   "high52": 83.93,
+   "dollarVolM": 1963.5,
+   "marketCap": "122.88B",
+   "name": "발레로 에너지"
+  },
+  {
+   "ticker": "DINO",
+   "rs1": 0.10424031642769314,
+   "rs3": 0.2649831490297175,
+   "rs6": 0.5891375755330971,
+   "rnk1": 25.02,
+   "rnk3": 5.28,
+   "rnk6": 5.82,
+   "ret1d": -8.81,
+   "high52": 88.28,
+   "dollarVolM": 377.6,
+   "marketCap": "22.27B",
+   "name": "HF 싱클레어"
+  },
+  {
+   "ticker": "PSX",
+   "rs1": 0.0871429079752396,
+   "rs3": 0.2779271641260704,
+   "rs6": 0.5446377481928836,
+   "rnk1": 31.61,
+   "rnk3": 4.37,
+   "rnk6": 6.18,
+   "ret1d": -7.03,
+   "high52": 89.69,
+   "dollarVolM": 791.8,
+   "marketCap": "115.26B",
+   "name": "필립스 66"
+  },
+  {
+   "ticker": "DK",
+   "rs1": 0.045446719221550406,
+   "rs3": 0.03366250906539834,
+   "rs6": 0.5292719966685179,
+   "rnk1": 50.18,
+   "rnk3": 27.64,
+   "rnk6": 6.45,
+   "ret1d": -10.41,
+   "high52": 85.45,
+   "dollarVolM": 129.7,
+   "marketCap": "4.81B",
+   "name": "델렉 유에스 홀딩스"
+  },
+  {
+   "ticker": "PARR",
+   "rs1": -0.02566590738106983,
+   "rs3": -0.13196719521498504,
+   "rs6": 0.15765837800102023,
+   "rnk1": 77.59,
+   "rnk3": 74.17,
+   "rnk6": 24.03,
+   "ret1d": -10.39,
+   "high52": 82.14,
+   "dollarVolM": 64.4,
+   "marketCap": "4.17B",
+   "name": "파 퍼시픽 홀딩스"
+  },
+  {
+   "ticker": "SUN",
+   "rs1": 0.027148580396200928,
+   "rs3": -0.07606354274002179,
+   "rs6": 0.08268618584712595,
+   "rnk1": 59.47,
+   "rnk3": 60.46,
+   "rnk6": 34.31,
+   "ret1d": -1.79,
+   "high52": 90.92,
+   "dollarVolM": 20.9,
+   "marketCap": "13.99B",
+   "name": "수노코"
+  }
+ ],
+ "evidence": {
+  "PBF": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Meta, Microsoft, Teladoc & more",
+     "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-midday-meta-msft-mktx-crox.html",
+     "date": "2026-07-30",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Will Martinez Refinery Restart Strengthen PBF Energy's Cash Flow?",
+     "url": "https://www.nasdaq.com/articles/will-martinez-refinery-restart-strengthen-pbf-energys-cash-flow",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PBF Energy (PBF) Recently Broke Out Above the 50-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/pbf-energy-pbf-recently-broke-out-above-50-day-moving-average",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PBF Energy's Q3 Earnings on Deck: Should You Bet on the Stock?",
+     "url": "https://www.nasdaq.com/articles/pbf-energys-q3-earnings-deck-should-you-bet-stock",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PBF Energy Consensus Price Target Raised 11.10% to $80.77",
+     "url": "https://www.nasdaq.com/articles/pbf-energy-consensus-price-target-raised-1110-8077",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "MPC": {
+   "cnbc": [
+    {
+     "title": "The energy sector is taking the bull market lead from tech",
+     "url": "https://www.cnbc.com/2026/10/14/todd-gordon-marathon-petroleum.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks were up this week. Here are the names that are now overbought",
+     "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html",
+     "date": "2026-10-10",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "The S&P 500 just logged a losing week. These stocks could be due for a bounce",
+     "url": "https://www.cnbc.com/2026/09/19/the-sp-500-just-logged-another-losing-week-these-stocks-could-be-due-for-a-bounce.html",
+     "date": "2026-09-19",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "What's next for oil refiners after an unprecedented run to all-time highs",
+     "url": "https://www.cnbc.com/2026/09/14/whats-next-for-oil-refiners-after-an-unprecedented-run-to-all-time-highs.html",
+     "date": "2026-09-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
+     "url": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
+     "date": "2026-09-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Trump’s energy holdings have surged as the Iran war moved oil markets",
+     "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Marathon Petroleum (MPC) Stock Falls Amid Market Uptick: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-stock-falls-amid-market-uptick-what-investors-need-know-0",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Marathon Petroleum (MPC) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+     "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-earnings-expected-grow-what-know-ahead-next-weeks-release",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "VLO": {
+   "cnbc": [
+    {
+     "title": "Stocks were up this week. Here are the names that are now overbought",
+     "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html",
+     "date": "2026-10-10",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Josh Brown takes a look at winners and losers on his Best Stocks list as Q4 begins",
+     "url": "https://www.cnbc.com/2026/10/05/josh-brown-takes-a-look-at-winners-and-losers-on-his-best-stocks-list-as-q4-begins.html",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "What's next for oil refiners after an unprecedented run to all-time highs",
+     "url": "https://www.cnbc.com/2026/09/14/whats-next-for-oil-refiners-after-an-unprecedented-run-to-all-time-highs.html",
+     "date": "2026-09-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Trump’s energy holdings have surged as the Iran war moved oil markets",
+     "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Trump oil and gas stocks gained up to $15.5 million, Democrats say",
+     "url": "https://www.cnbc.com/2026/08/24/trump-oil-gas-stocks-iran-war-investments-democrats.html",
+     "date": "2026-08-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Refiner stocks are on a nearly unprecedented run. History says it could end soon",
+     "url": "https://www.cnbc.com/2026/08/17/refiner-stocks-are-on-a-nearly-unprecedented-run-history-says-it-could-end-soon.html",
+     "date": "2026-08-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[발레로 에너지 (NYS:VLO)] 한 단계 높아진 정제마진",
+     "broker": "신한투자증권",
+     "analyst": "이진명, 김명주",
+     "date": "2026-10-26",
+     "summary": "- 중동·러시아의 제품 공급 정상화 지연과 낮은 제품 재고로 글로벌 정유 산 업의 타이트한 수급은 3분기에도 재확인. 수요 둔화 우려에도 제한적인 신 규 증설과 재고 재축적 수요가 정제마진 하단을 지지할 전망- 3분기 매출액은 461억달러(+4%, 이하 QoQ), 영업이익은 91억달러 (+75%) 기록. 조정 EPS(주당순이익)는 23.96달러(+91%)로 2분기 연속 사상 최대를 경신하며 시장 기대치 상회. 사업부별 영업이익은 정유 88억 달러(+96%), 재생 디젤 3.5억달러(-51%), 에탄올 2.7억달러(-14%) 시현- 중동·러시아 공급 차질로 걸프만 디젤 마진 상승(+66%)과 중질유 할인폭 이 확대되며 실적 급증. 정유 사업 정제마진은 39.2달러/배럴(+66%)로 상 승. 4분기에도 높은 가동 수준과 베네수엘라산 처리 사상 최대 등 중질유 경쟁력과 St. Charles FCC 효과로 높은 수익성 지속될 것으로 판단",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgmxlmmzkzimigcgxecgl.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+     "broker": "iM증권",
+     "analyst": "전유진",
+     "date": "2026-09-16",
+     "summary": "- 동사는 업스트림과 석유화학 등의 사업을 영위하지 않는 대표적인 순수 정유사로, 현재 미국에 250만b/d 정제설비를 운영하고 있다.- 동사 정제설비의 61%는 Gulf Coast에 밀집되어 있는데, 경쟁사들이 약 20~40% 그치는  것  대비  매우  높은  수준이다.  해당  지역은  주요  파이프라인과  터미널이 집적되어 있어 내수운송과 원유 수입, 정제품/석유화학 수출 등이 용이한 곳이다- 이 같은 지리적 이점은 동사 원유 조달 경쟁력의 근거가 된다. 중질유 캐나다산은 Keystone 파이프라인을 통해 Port Arthur까지 연결되고, 베네수엘라와 중남미산 또한  멕시코만을  거쳐  단기에  도입된다",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmzezgggekgmcgcgxecgl.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[발레로 에너지 (NYS:VLO)] 정유업 = Printing Money",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "date": "2026-09-15",
+     "summary": "- 글로벌 정유설비 공급 여력이 제한적인 상황에 중동 및 러시아의 공급 차질이 더해지며 정제마진 강세를 견인- 미국 정유사 가동률이 98%임에도 디젤, 휘발유 재고 수준은 최근 10개년 최저 수준 감소하는 타이트한 공급 여건- 2Q26 주주환원 규모는 $2.6bn으로 조정 영업현금흐름의 59% 차지. 경영진은 변동성 완화 시 주주환원 확대 검토",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmkglqgqeclzzgcgxecgl.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+     "broker": "iM증권",
+     "analyst": "전유진",
+     "date": "2026-09-03",
+     "summary": "- 동사는 업스트림과 석유화학 등의 사업을 영위하지 않는 대표적인 순수 정유사이다. 현재 미국에 운영 중인 정제설비는 250만b/d 규모로 미국 전체 설비의 약 15%를 차지한다.- 동사 미국 정제설비의 61%는 Gulf Coast 지역에 밀집되어 있는데 이는 주요 경쟁사들이 20~40% 내외 그치는 것과 비교하면 매우 높은 수준이다(Marathon 42%, Phillips 27%, PBF Energy 18% 등). Gulf Coast는 주요 파이프라인과 터미널이 집적돼 있어 내수 운송 뿐만 아니라 원유 수입, 정제품/석유화학 수출 등이 용이한 곳이다.- 동사는 중장기 주주환원 정책으로 EBITDA 50% 이상을 목표로 하고, 배당과 자사주 매입 모두 적극적으로 활용하고 있다. 2012년 이후 배당은 한번도 줄이지 않으며 점진적으로 인상했고 자사주도 매년 일정 물량씩 매입함으로써 실질적인 EPS 개선 효과를 이끌었다. 참고로 정유업황이 황금기에 진입했던 COVID 이후에는 자사주매입 규모를 평년보다 더 늘려 2025년 기준 동사 유통주식수는 2021년 대비 27% 감소했다",
+     "url": "https://rreport.einfomax.co.kr/report/eqllimcicmgqllzgcgxecgl.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[발레로 에너지 (NYS:VLO)] 공급 부족이 드러낸 정제자산 경쟁력",
+     "broker": "신한투자증권",
+     "analyst": "이진명, 김명주",
+     "date": "2026-08-28",
+     "summary": "- 최근 미국 3-2-1  정제마진은 배럴당 71달러까지 상승하며 사상 최고치 경신. 미국 디젤 마진도 8월 17일 102.2달러로 처음 100달러 상회. 높은 가동률에도 낮은 제품 재고와 중동·러시아 공급차질로 미국 정유사의 수익 성은 과거 호황기를 상회하는 상황. Valero는 약 3.0mb/d의 정제능력과 멕 시코만 중심의 자산을 보유해 업황 강세의 수혜가 가장 직접적- 약 3,000마일의 파이프라인과 1.3억배럴 저장능력, 50개 이상 부두를 활용 해 원료와 제품의 탄력적인 이동 가능. 핵심은 높은 수출 비중보다 미국 내외 가격에 따라 판매처를 조정할 수 있는 물류 유연성. 2Q26  처리량 295만b/d(+1%, 이하 QoQ), 배럴당 정제마진 23.62달러(+59%), 정유 영 업이익 45억달러(+148%)를 기록하며 자산 경쟁력 확인- 2023년 가동한 Port Arthur 코커는 저가 중질유 처리량과 경질제품 생산 을 확대하는 설비. 3Q26 가동 예정인 2.3억달러 규모 St. Charles FCC 최 적화 프로젝트도 고부가 제품 수율 개선에 기여 전망. 중질유 처리능력과 안정적인 설비 가동이 향후 경쟁사 대비 마진 차별화의 핵심",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqlqgeemgzigigcgxecgl.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Is Valero Energy (VLO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/valero-energy-vlo-solid-growth-stock-3-reasons-think-yes",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Valero Energy (VLO) Might be Well Poised for a Surge",
+     "url": "https://www.nasdaq.com/articles/why-valero-energy-vlo-might-be-well-poised-surge",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "DINO": {
+   "cnbc": [
+    {
+     "title": "Buy these cheap dividend-paying energy stocks, Goldman Sachs says",
+     "url": "https://www.cnbc.com/2026/09/03/buy-these-cheap-dividend-paying-energy-stocks-goldman-sachs-says.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Refiner stocks are on a nearly unprecedented run. History says it could end soon",
+     "url": "https://www.cnbc.com/2026/08/17/refiner-stocks-are-on-a-nearly-unprecedented-run-history-says-it-could-end-soon.html",
+     "date": "2026-08-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "HF Sinclair (DINO) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/hf-sinclair-dino-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is HF Sinclair (DINO) Stock Outpacing Its Oils-Energy Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/hf-sinclair-dino-stock-outpacing-its-oils-energy-peers-year",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "PSX": {
+   "cnbc": [
+    {
+     "title": "Stocks were up this week. Here are the names that are now overbought",
+     "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html",
+     "date": "2026-10-10",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "What's next for oil refiners after an unprecedented run to all-time highs",
+     "url": "https://www.cnbc.com/2026/09/14/whats-next-for-oil-refiners-after-an-unprecedented-run-to-all-time-highs.html",
+     "date": "2026-09-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Trump’s energy holdings have surged as the Iran war moved oil markets",
+     "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Energy sector is in focus. Here are hedge funds' top plays",
+     "url": "https://www.cnbc.com/2026/08/21/energy-sector-is-in-focus-because-of-iran-ai-and-california-here-are-hedge-funds-top-plays.html",
+     "date": "2026-08-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Top Wall Street analysts like these 3 dividend stocks for steady income",
+     "url": "https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
+     "date": "2026-08-16",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "What Analyst Projections for Key Metrics Reveal About Phillips 66 (PSX) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/what-analyst-projections-key-metrics-reveal-about-phillips-66-psx-q3-earnings",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's How PSX's Flexible Crude Slate Supports Its Refining Economics",
+     "url": "https://www.nasdaq.com/articles/heres-how-psxs-flexible-crude-slate-supports-its-refining-economics",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Countdown to Phillips 66 (PSX) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+     "url": "https://www.nasdaq.com/articles/countdown-phillips-66-psx-q3-earnings-look-estimates-beyond-revenue-and-eps",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Phillips 66 (PSX) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/phillips-66-psx-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "DK": {
+   "cnbc": [],
+   "reports": [],
+   "news": []
+  },
+  "PARR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Par Petroleum (PARR) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+     "url": "https://www.nasdaq.com/articles/par-petroleum-parr-earnings-expected-grow-what-know-ahead-next-weeks-release",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Par Petroleum (PARR) is an Incredible Growth Stock: 3 Reasons Why",
+     "url": "https://www.nasdaq.com/articles/par-petroleum-parr-incredible-growth-stock-3-reasons-why",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "SUN": {
+   "cnbc": [],
+   "reports": [],
+   "news": []
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[엑슨 모빌 (NYS:XOM)] [Issue & News] 졸리엣 정유공장 침수로 가동 중단 장기화 - 중동발 차질에 이어 다운스트림 리스크 재부각",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-09-18",
+   "summary": "- 졸리엣 정유공장(27만5000b/d) 침수로 나흘째 가동 중단- 정전 후 안전플레어 작동, 불어난 강물이 펌프 덮쳐 복구 지연- 중동발 차질 예고와 겹쳐 다운스트림 리스크 재부각",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmxlxkmxxlcixgcgxecgl.pdf",
+   "via": "연합인포맥스",
+   "keyword": "정유"
+  },
+  {
+   "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+   "broker": "iM증권",
+   "analyst": "전유진",
+   "date": "2026-09-16",
+   "summary": "- 동사는 업스트림과 석유화학 등의 사업을 영위하지 않는 대표적인 순수 정유사로, 현재 미국에 250만b/d 정제설비를 운영하고 있다.- 동사 정제설비의 61%는 Gulf Coast에 밀집되어 있는데, 경쟁사들이 약 20~40% 그치는  것  대비  매우  높은  수준이다.  해당  지역은  주요  파이프라인과  터미널이 집적되어 있어 내수운송과 원유 수입, 정제품/석유화학 수출 등이 용이한 곳이다- 이 같은 지리적 이점은 동사 원유 조달 경쟁력의 근거가 된다. 중질유 캐나다산은 Keystone 파이프라인을 통해 Port Arthur까지 연결되고, 베네수엘라와 중남미산 또한  멕시코만을  거쳐  단기에  도입된다",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmzezgggekgmcgcgxecgl.pdf",
+   "via": "연합인포맥스",
+   "keyword": "정유"
+  },
+  {
+   "title": "[발레로 에너지 (NYS:VLO)] 정유업 = Printing Money",
+   "broker": "메리츠증권",
+   "analyst": "노우호",
+   "date": "2026-09-15",
+   "summary": "- 글로벌 정유설비 공급 여력이 제한적인 상황에 중동 및 러시아의 공급 차질이 더해지며 정제마진 강세를 견인- 미국 정유사 가동률이 98%임에도 디젤, 휘발유 재고 수준은 최근 10개년 최저 수준 감소하는 타이트한 공급 여건- 2Q26 주주환원 규모는 $2.6bn으로 조정 영업현금흐름의 59% 차지. 경영진은 변동성 완화 시 주주환원 확대 검토",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmkglqgqeclzzgcgxecgl.pdf",
+   "via": "연합인포맥스",
+   "keyword": "정유"
+  },
+  {
+   "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+   "broker": "iM증권",
+   "analyst": "전유진",
+   "date": "2026-09-03",
+   "summary": "- 동사는 업스트림과 석유화학 등의 사업을 영위하지 않는 대표적인 순수 정유사이다. 현재 미국에 운영 중인 정제설비는 250만b/d 규모로 미국 전체 설비의 약 15%를 차지한다.- 동사 미국 정제설비의 61%는 Gulf Coast 지역에 밀집되어 있는데 이는 주요 경쟁사들이 20~40% 내외 그치는 것과 비교하면 매우 높은 수준이다(Marathon 42%, Phillips 27%, PBF Energy 18% 등). Gulf Coast는 주요 파이프라인과 터미널이 집적돼 있어 내수 운송 뿐만 아니라 원유 수입, 정제품/석유화학 수출 등이 용이한 곳이다.- 동사는 중장기 주주환원 정책으로 EBITDA 50% 이상을 목표로 하고, 배당과 자사주 매입 모두 적극적으로 활용하고 있다. 2012년 이후 배당은 한번도 줄이지 않으며 점진적으로 인상했고 자사주도 매년 일정 물량씩 매입함으로써 실질적인 EPS 개선 효과를 이끌었다. 참고로 정유업황이 황금기에 진입했던 COVID 이후에는 자사주매입 규모를 평년보다 더 늘려 2025년 기준 동사 유통주식수는 2021년 대비 27% 감소했다",
+   "url": "https://rreport.einfomax.co.kr/report/eqllimcicmgqllzgcgxecgl.pdf",
+   "via": "연합인포맥스",
+   "keyword": "정유"
+  },
+  {
+   "title": "[미국주식] 미 정유주, 베네수엘라 석유 협정 단기적 수혜 제한적",
+   "broker": "한화증권",
+   "analyst": "신승윤",
+   "date": "2026-09-01",
+   "summary": "- 8월 28일, 미국과 베네수엘라가 석유 개발 계약을 체결했다. 주요 내용은 100년간 베네수엘라 유전 17곳을 개발하고, 미국이 생산량의 55%를 확보하는 것이다. 계약 전문은 공개되지 않았으나, 미국은 베네수엘라 내 매장된 650억 배럴 규모의 원유 과반 통제권을 확보하게 됐다.- 베네수엘라 원유 생산량 확대는 미국 정유사에 호재다. 미국 걸프만 대형 정유사들 은 멕시코, 베네수엘라 등의 중질유를 고부가가치 제품으로 분해하는 고도화 설비 를 갖췄다. 초경질유의 미국 셰일오일과 베네수엘라의 초중질유를 함께 배합하면 미국 정유공장 설비에 최적화된 원료가 완성된다. 상대적으로 값싼 베네수엘라 중 질유 공급이 늘어나면 미국 내 원유 가격이 하락해 정제마진이 극대화될 수 있다.- 베네수엘라와의 석유 개발 협정이 구조적인 정제마진 개선으로 연결될 수 있다. 미 국 제재 완화로 베네수엘라의 미국향 원유 수출이 본격화된 점도 긍정적이다. 노후 화된 인프라와 대형 정유사들의 보수적인 자본지출 계획 등을 감안하면 단기간 내 베네수엘라 원유 생산량 확대는 쉽지 않다. 역대 최대 규모의 협정이 장기 전망에는 호재이나, 단기 실적 요인에는 제한적일 것으로 판단된다.",
+   "url": "https://rreport.einfomax.co.kr/report/eqllgexmxqgliixgcgxecgl.pdf",
+   "via": "연합인포맥스",
+   "keyword": "정유"
+  },
+  {
+   "title": "[발레로 에너지 (NYS:VLO)] 한 단계 높아진 정제마진",
+   "broker": "신한투자증권",
+   "analyst": "이진명, 김명주",
+   "date": "2026-10-26",
+   "summary": "- 중동·러시아의 제품 공급 정상화 지연과 낮은 제품 재고로 글로벌 정유 산 업의 타이트한 수급은 3분기에도 재확인. 수요 둔화 우려에도 제한적인 신 규 증설과 재고 재축적 수요가 정제마진 하단을 지지할 전망- 3분기 매출액은 461억달러(+4%, 이하 QoQ), 영업이익은 91억달러 (+75%) 기록. 조정 EPS(주당순이익)는 23.96달러(+91%)로 2분기 연속 사상 최대를 경신하며 시장 기대치 상회. 사업부별 영업이익은 정유 88억 달러(+96%), 재생 디젤 3.5억달러(-51%), 에탄올 2.7억달러(-14%) 시현- 중동·러시아 공급 차질로 걸프만 디젤 마진 상승(+66%)과 중질유 할인폭 이 확대되며 실적 급증. 정유 사업 정제마진은 39.2달러/배럴(+66%)로 상 승. 4분기에도 높은 가동 수준과 베네수엘라산 처리 사상 최대 등 중질유 경쟁력과 St. Charles FCC 효과로 높은 수익성 지속될 것으로 판단",
+   "url": "https://rreport.einfomax.co.kr/report/eqmgmxlmmzkzimigcgxecgl.pdf",
+   "via": "연합인포맥스",
+   "keyword": "정제마진"
+  },
+  {
+   "title": "[발레로 에너지 (NYS:VLO)] 높아진 정제마진의 하단",
+   "broker": "신한투자증권",
+   "analyst": "이진명, 김명주",
+   "date": "2026-08-03",
+   "summary": "- 글로벌 정유 산업은 중동·러시아 공급 차질 정상화 지연과 제한적인 신규 증설로 타이트한 수급 지속 예상. 중국 수출쿼터 확대에도 실제 제품 수출 증가는 제한적인 가운데 견조한 운송용 수요와 낮은 재고가 정제마진 하 단을 지지- 2분기 매출액은 445억달러(+37%, 이하 QoQ), 영업이익은 52억달러 (+200%) 기록. 조정 EPS(주당순이익)는 12.54달러(+197%)로 시장 기대 치를 큰 폭 상회. 사업부별 영업이익은 정유 45억달러(+148%), 재생 디젤 7.2억달러(+416%), 에탄올 3.2억달러(+253%) 시현- 중동·러시아 공급 차질과 견조한 수요, 낮은 제품 재고를 바탕으로 정유 중심의 호실적 달성. 정유 사업의 배럴당 정제마진은 23.62달러(+59%)로 큰 폭 상승했으며 정제 처리량도 295만b/d(+1%)로 높은 수준 유지. 3분기 는 원유 조달 여건 개선에 따른 정제마진 상승과 St. Charles FCC 최적화 설비 가동으로 추가적인 수익성 개선 가능",
+   "url": "https://rreport.einfomax.co.kr/report/eqlzqecqzxcqqmigcgxecgl.pdf",
+   "via": "연합인포맥스",
+   "keyword": "정제마진"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

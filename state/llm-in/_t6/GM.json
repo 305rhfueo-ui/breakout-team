@@ -1,0 +1,855 @@
+{
+ "ticker": "GM",
+ "date": "2026-10-28",
+ "session": "2026-10-27",
+ "source": "list",
+ "plan": {
+  "ticker": "GM",
+  "name": "제너럴 모터스",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "price": 80.54,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 87.86,
+  "stop": 85.74,
+  "distToPivotPct": -8.33,
+  "distToPivotAdr": -3.16,
+  "riskPerSharePct": 2.41,
+  "adrPct": 2.63,
+  "extensionAdr": 0.41,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 15.1,
+   "priorMovePct": 18.4,
+   "higherLows": 0,
+   "contraction": 1.07,
+   "closeRange10Adr": 3.8,
+   "surf10": 0.41,
+   "surf20": 0.12,
+   "slope20": -1.35,
+   "baseLow": 74.59,
+   "lastSwingLow": 76.44
+  },
+  "reasons": [
+   "✗ 선행 상승 +18%",
+   "베이스 8주",
+   "깊이 15.1%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.07배 · 10일 종가폭 3.8 ADR",
+   "10일선 +0.4 ADR · 20일선 +0.1 ADR",
+   "✗ 20일선 기울기 -1.35%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.023473634521191788,
+    "pct": 38.63841298467087
+   },
+   "m3": {
+    "v": -0.11086051458231902,
+    "pct": 29.440937781785394
+   },
+   "m6": {
+    "v": -0.011122699634122678,
+    "pct": 46.30297565374211
+   }
+  },
+  "ret1m": 0.09,
+  "ret3m": -7.95,
+  "ret6m": 2.77,
+  "marketCap": "64.79B",
+  "volx": 1.67,
+  "volSurgeWk": 1.26,
+  "high52": 87.87,
+  "newHigh52": false,
+  "adr": 2.63,
+  "div50": -3.01,
+  "div200": 0.33,
+  "targetStatus": false,
+  "saleCy": 0.75,
+  "saleNy": 1.72,
+  "epsCy": 26,
+  "epsNy": 10.87,
+  "cyTrend": -1.15,
+  "nyTrend": -1.53,
+  "est": {
+   "cyCur": 13.35595,
+   "cy30": 13.51112,
+   "nyCur": 14.80757,
+   "ny30": 15.03836
+  },
+  "fs": {
+   "sale": [
+    1.92,
+    -0.9,
+    -5.06
+   ],
+   "ni": [
+    -30.99,
+    -22.23,
+    "적자확대"
+   ],
+   "opm": [
+    3.04,
+    6.71,
+    -8.05
+   ],
+   "updated": "2026-09-09 07:02:19"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "제너럴 모터스",
+  "nameEn": "GENERAL MOTORS CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467858&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 45706000000,
+     "profit": 3598000000,
+     "netIncome": 3335000000,
+     "margin": 7.9,
+     "yoy": {
+      "revenue": 3.3,
+      "profit": 234.4,
+      "netIncome": 151.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 43762000000,
+     "profit": 1459000000,
+     "netIncome": 1305000000,
+     "margin": 3.3,
+     "yoy": {
+      "revenue": 2.1,
+      "profit": -31.4,
+      "netIncome": -31.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 39349000000,
+     "profit": 2926000000,
+     "netIncome": 2627000000,
+     "margin": 7.4,
+     "yoy": {
+      "revenue": -1.3,
+      "profit": -12.7,
+      "netIncome": -5.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 40985000000,
+     "profit": -3646000000,
+     "netIncome": -3227000000,
+     "margin": -8.9,
+     "yoy": {
+      "revenue": -6,
+      "profit": -339.6,
+      "netIncome": -7.4,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "General Motors To Transfer Stock Listing To Nasdaq",
+     "url": "https://www.nasdaq.com/articles/general-motors-transfer-stock-listing-nasdaq",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "General Motors Company to Transfer Common Stock Listing to Nasdaq on November 17, 2026",
+     "url": "https://www.nasdaq.com/articles/general-motors-company-transfer-common-stock-listing-nasdaq-november-17-2026",
+     "date": "2026-10-27",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "The Zacks Analyst Blog Highlights Ford, General Motors and Toyota",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-ford-general-motors-and-toyota",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "General Motors Company (GM) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/general-motors-company-gm-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "GM Just Announced a $20 Billion Buyback. Tesla Trades at 350 Times Earnings. Here's Which Auto Stock I'd Buy Today.",
+     "url": "https://www.nasdaq.com/articles/gm-just-announced-20-billion-buyback-tesla-trades-350-times-earnings-heres-which-auto",
+     "date": "2026-10-25",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "상장규정 위반",
+     "5.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312526432602/d53522d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/gm-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312526344698/d145571d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000049/gm-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000044/gm-20260602.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312526239340/d110158d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-07-22",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "title": "[제너럴 모터스 (NYS:GM)] GM: 2Q26 Review",
+     "summary": "- GM은 올해 2번째로 연간 실적 가이던스를 상향: 조정 EBIT $14.0~16.0 Bil,(기존 대비 +3~4% 상향). 주요 배경은 ICE 포트폴리오(Pickups 및 SUV), 북미 사업 마진 개선(8.6%, +2.5%p YoY), EV 적자폭 축소 등이 주요 배경 2026년 상반기 GM의 전기차 판매량은 1Q 2.6만대(-19% YoY)→ 2Q 2.7만대(-40% YoY)로 미국 EV 점유율 14%(+1%p QoQ). 당분기 GM은 EV 사업 손실 반영 ($2.3 Bil): $900 Mil.(공급망 보상금), $700 Mil.(배터리 JV 구조조정 비용) 등- 올 하반기 배터리 JV 재가동 소식은 투자 센티먼트 개선 요인이나, GM은 지난 2 년간 EV 판매량 목표치를 제시하지 않음. 지난 1년간의 EV 사업부 구조조정 역시 마무리 단계로 하반기 생산설비 재가동은 최소 규모로 한정될 전망. 미국의 평균 연비 규제 제도(CAFE, Corporate Average Fuel Economy)에 구조적 변화가 없다 면 EV 전략에 특이한 변화 없음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkxlgeigkimgxgcgxecgl.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-04-29",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "title": "[제너럴 모터스 (NYS:GM)] GM 1Q26 Review",
+     "summary": "- 2026년 연간 EBIT 가이던스 상향: 관세 환급액 상향 조정으로 조정 EBIT 가이던 스 $13.5~15.5 Bil. 제시- EV부문 비용 인식 진행 중: 2026년 1분기 $1.1Bil 금액 인식. 이는 EV 사업 조정 에 공급망 기업들과의 계약해지 보상금 및 소송 비용 등 포함. 배터리 광물 기업 들과의 보상 인식 합의에는 시간이 다소 걸리나 GM 측은 2026년 2분기 말까지 완료할 계획임을 공개. 해당 금액 중 $1.0Bil.가 현금지출 예정(2025년 연간 EV 관련 누적 손실은 $7.6Bil. 발생)- 최근 중동 지정학 Risk에 대해 단기 혹은 중장기 시나리오를 감안해도 GM의 내 연기관 및 EV 차량 포트폴리오 기준 고객들의 수요 변화에 data 기준 변화가 감 지되지 않는다고 발언",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkilixcgemgmgcgxecgl.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-04-29",
+     "broker": "신한투자증권",
+     "analyst": "박광래, 한승훈",
+     "title": "[제너럴 모터스 (NYS:GM)] 신한 속보; 2026년 1분기 실적 분석",
+     "summary": "- 1Q26 매출은 436억달러(-0.9% YoY), 조정 EBIT는 43억달러(+22%, 이익률 9.7%)., 조정 EPS는 3.70달러 (+33.1%)였다. 도매 판매량은 89.9만대(-1.4%)로 전년대비 약해졌지만 이익률은 오히려 개선- 2026년 조정 EBIT 가이던스를 기존 130억~150억달러에서 135억~155억달러로 상향. 조정 EPS 가이던스 도 11.00~13.00달러에서 11.50~13.50달러로 상향. 상향의 배경은 관세 관련 5억달러 조정 효과의 반영- EBIT 가이던스는 올라갔지만 FCF 가이던스(90억~110억달러)는 유지. 관세 환급의 실제 현금 수령 시점이 불확실하기 때문에 조정 자동차 FCF 가이던스에는 이를 반영하지 않았음. 원자재·물류·DRAM 비용 부담은 기존 10억~15억달러에서 15억~20억달러로 상향 조정",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkiqexkecxqegcgxecgl.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-04-23",
+     "broker": "키움증권",
+     "analyst": "신윤철",
+     "title": "[제너럴 모터스 (NYS:GM)] 탈전기차 미국 판매전략 구체화 기대",
+     "summary": "- Q1 2026 Earnings Call: 4/28 진행 예정- Q1 2026 실적 시장 기대치는 매출액: $43.3bn, EPS: $2.59- 미국 자동차 시장에서 점유율 1위 유지 중이지만 HEV 선호 현상으로 인한 축소세",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxlzkmqkmilgkgcgxecgl.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-02-26",
+     "broker": "키움증권",
+     "analyst": "신윤철",
+     "title": "[제너럴 모터스 (NYS:GM)] 글로벌 자동차 섹터 주주환원 대장주",
+     "summary": "- HEV 라인업 부재로 인해 최대 판매처인 미국에서 점유율 축소되는 추세- 2022년 14억 주에 달했던 유통주식수가 2025년 말 기준 9억 주로 축소됨- 품목관세 충격에도 불구하고 2년 연속 60억 달러(약 8.5조 원) 규모 자기주식 매입",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgczqkqixlkmzgcgxecgl.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-01-28",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "title": "[제너럴 모터스 (NYS:GM)] 4Q25 Review: 포트폴리오 최적화 진행 중",
+     "summary": "- GM은 전일 실적 설명회를 진행. 4Q25 영업실적 매출액 $45.3Bil.(-5.1% QoQ), 조 정 EBIT $2.8Bil.(+13.3% QoQ), EPS $2.5/ROE 4.2%(-4.5%p YoY)를 발표- 전일 GM은 북미 EV 정체된 수요 환경에 맞춰 사업 포트폴리오 정비 등 최적화 전략을 시행 중임을 공개. GM은 과거 EV사업에 총 $35Bil. 투자 및 2025년 기준 100만대 판매 체력을 갖출 계획을 공유한 바 있음. 지난 24~25년 EV 판매량은 각각 10.4만대, 16.9만대, 연간 목표치를 지속 하회 중. 효율화 전략에 2026년은 수 익성 및 현금흐름 개선에 초점을 두며 기존대비 사업 축소 불가피",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmzxqiecieezcgcgxecgl.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2025-11-04",
+     "broker": "iM증권",
+     "analyst": "이상수",
+     "title": "[제너럴 모터스 (NYS:GM)] 관세, 미국 업황 모두 예상 외로 좋은 상황",
+     "summary": "- 25.3Q 매출액 485억달러, 영업이익 33.8억달러: 시장 컨센서스 상회- 25.3Q 매출액 시장 전망치 상회: 중대형 SUV 및 프리미엄 브랜드 활약- 25.3Q 영업이익 시장 전망치 상회: 자동차 부품 크레딧 정책→관세 축소",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxggcmzikkmzixgcgxecgl.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "GM-report1.pdf",
+   "broker": "메리츠증권",
+   "analyst": "노우호",
+   "date": "2026-07-22",
+   "title": "[제너럴 모터스 (NYS:GM)] GM: 2Q26 Review",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkxlgeigkimgxgcgxecgl.pdf",
+   "pages": "3"
+  },
+  {
+   "file": "GM-report2.pdf",
+   "broker": "메리츠증권",
+   "analyst": "노우호",
+   "date": "2026-04-29",
+   "title": "[제너럴 모터스 (NYS:GM)] GM 1Q26 Review",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkilixcgemgmgcgxecgl.pdf",
+   "pages": "1"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "GM will switch to Nasdaq from the NYSE on Nov. 17",
+   "url": "https://www.cnbc.com/2026/10/27/gm-nasdaq-nyse-stock-listing.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "GM aims to develop vehicles in as little as two years with AI, software push",
+   "url": "https://www.cnbc.com/2026/10/21/gm-vehicle-development-ai-software.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Hasbro, Northrop Grumman, Equifax, GM",
+   "url": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-midday-has-noc-efx-gm.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trade: GM, GOOGL, HWM, ORCL",
+   "url": "https://www.cnbc.com/video/2026/10/27/final-trade-gm-googl-hwm-orcl.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Stock Movers: Visa, UPS, General Motors",
+   "url": "https://www.cnbc.com/video/2026/10/27/stock-movers-visa-ups-general-motors.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "GM to move from NYSE to Nasdaq",
+   "url": "https://www.cnbc.com/video/2026/10/27/gm-to-move-from-nyse-to-nasdaq.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trade: Telecom, GM, TLT, CLF",
+   "url": "https://www.cnbc.com/video/2026/10/21/final-trade-telecom-gm-tlt-clf.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Highlights from GM Forward 2026",
+   "url": "https://www.cnbc.com/video/2026/10/21/highlights-from-gm-forward-2026.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "GM",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 18.46,
+  "pbr": 1.09,
+  "eps": 4.36,
+  "bps": 73.98,
+  "shares": 843549000,
+  "marketCapM": 67939,
+  "high52": 91.6604,
+  "high52Date": "2026-07-29",
+  "low52": 66.1791,
+  "low52Date": "2025-11-04",
+  "last": 80.54,
+  "prevClose": 76.31,
+  "nameKo": "제너럴 모터스",
+  "nameEn": "GENERAL MOTORS CO",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 843549000
+ },
+ "estimates": {
+  "ticker": "GM",
+  "url": "https://finance.yahoo.com/quote/GM/analysis/",
+  "fetchedAt": "2026-10-28",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.44,
+    "epsLow": 2.23,
+    "epsHigh": 2.72,
+    "epsYearAgo": 2.51,
+    "epsAnalysts": 14,
+    "epsGrowth": -2.6,
+    "epsCur": "USD",
+    "rev": 44657922920,
+    "revAnalysts": 12,
+    "revYearAgo": 45287000000,
+    "revGrowth": -1.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.2,
+    "epsLow": 2.72,
+    "epsHigh": 3.61,
+    "epsYearAgo": 3.7,
+    "epsAnalysts": 8,
+    "epsGrowth": -13.6,
+    "epsCur": "USD",
+    "rev": 44816836620,
+    "revAnalysts": 8,
+    "revYearAgo": 43624000000,
+    "revGrowth": 2.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 13.37,
+    "epsLow": 12.01,
+    "epsHigh": 13.71,
+    "epsYearAgo": 10.6,
+    "epsAnalysts": 19,
+    "epsGrowth": 26.1,
+    "epsCur": "USD",
+    "rev": 186405755420,
+    "revAnalysts": 17,
+    "revYearAgo": 185019000000,
+    "revGrowth": 0.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 14.8,
+    "epsLow": 12.19,
+    "epsHigh": 16.71,
+    "epsYearAgo": 13.37,
+    "epsAnalysts": 22,
+    "epsGrowth": 10.7,
+    "epsCur": "USD",
+    "rev": 189617737540,
+    "revAnalysts": 17,
+    "revYearAgo": 186405755420,
+    "revGrowth": 1.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.44,
+    "d7": -13,
+    "d30": -14.3,
+    "d90": -9.5,
+    "ago90": 2.7,
+    "up7": 1,
+    "up30": 1,
+    "down7": 6,
+    "down30": 6
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.2,
+    "d7": -8.5,
+    "d30": -5.1,
+    "d90": -7.4,
+    "ago90": 3.45,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 13.37,
+    "d7": -0.4,
+    "d30": -1.1,
+    "d90": -0.1,
+    "ago90": 13.39,
+    "up7": 4,
+    "up30": 4,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 14.8,
+    "d7": -2.1,
+    "d30": -1.6,
+    "d90": 0.6,
+    "ago90": 14.71,
+    "up7": 3,
+    "up30": 4,
+    "down7": 4,
+    "down30": 4
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.7,
+    "estimate": 3.63,
+    "surprisePct": 1.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.57,
+    "estimate": 3.19,
+    "surprisePct": 12,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.7,
+    "estimate": 2.64,
+    "surprisePct": 40.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.51,
+    "estimate": 2.27,
+    "surprisePct": 10.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 3,
+   "ptLowered": 7,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-10-21",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 109,
+     "ptPrior": 112
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 96,
+     "ptPrior": 112
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 132,
+     "ptPrior": 132
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 105,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 98,
+     "ptPrior": 102
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 95,
+     "ptPrior": 101
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 110,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 102,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 112,
+     "ptPrior": 114
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 112,
+     "ptPrior": 103
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-20",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-27",
+  "numbers": {
+   "price": 80.54,
+   "ma20": 80.29,
+   "ma50": 83.09,
+   "ma150": 80.83,
+   "distMA50": -3.06,
+   "periodHigh": 91.85,
+   "pullbackFromHigh": -12.31,
+   "volRatio20": 1.65,
+   "dryUpRatio": 1.03
+  },
+  "last10": [
+   {
+    "d": "2026-10-14",
+    "o": 83.18,
+    "h": 83.49,
+    "l": 82.02,
+    "c": 83.05,
+    "v": 6101500,
+    "clsPos": 70,
+    "gapPct": -0.98
+   },
+   {
+    "d": "2026-10-15",
+    "o": 83.7,
+    "h": 84.16,
+    "l": 82.76,
+    "c": 83.66,
+    "v": 5712700,
+    "clsPos": 64,
+    "gapPct": 0.78
+   },
+   {
+    "d": "2026-10-16",
+    "o": 84.76,
+    "h": 85.79,
+    "l": 83.44,
+    "c": 83.96,
+    "v": 7486400,
+    "clsPos": 22,
+    "gapPct": 1.31
+   },
+   {
+    "d": "2026-10-19",
+    "o": 83.72,
+    "h": 83.82,
+    "l": 82.34,
+    "c": 82.75,
+    "v": 7984000,
+    "clsPos": 28,
+    "gapPct": -0.29
+   },
+   {
+    "d": "2026-10-20",
+    "o": 77.22,
+    "h": 78.97,
+    "l": 75.08,
+    "c": 77.09,
+    "v": 24697400,
+    "clsPos": 52,
+    "gapPct": -6.68
+   },
+   {
+    "d": "2026-10-21",
+    "o": 76.71,
+    "h": 77.33,
+    "l": 75.32,
+    "c": 76.11,
+    "v": 9019800,
+    "clsPos": 39,
+    "gapPct": -0.49
+   },
+   {
+    "d": "2026-10-22",
+    "o": 75.49,
+    "h": 78.13,
+    "l": 75.4,
+    "c": 77.21,
+    "v": 7502100,
+    "clsPos": 66,
+    "gapPct": -0.81
+   },
+   {
+    "d": "2026-10-23",
+    "o": 76.18,
+    "h": 76.18,
+    "l": 74.59,
+    "c": 75.92,
+    "v": 6712800,
+    "clsPos": 84,
+    "gapPct": -1.33
+   },
+   {
+    "d": "2026-10-26",
+    "o": 76.27,
+    "h": 77.09,
+    "l": 75.85,
+    "c": 76.31,
+    "v": 5261900,
+    "clsPos": 37,
+    "gapPct": 0.46
+   },
+   {
+    "d": "2026-10-27",
+    "o": 78.37,
+    "h": 81.59,
+    "l": 78.37,
+    "c": 80.54,
+    "v": 13426989,
+    "clsPos": 67,
+    "gapPct": 2.7
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GM-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 6일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

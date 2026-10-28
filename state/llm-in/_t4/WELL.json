@@ -1,0 +1,236 @@
+{
+ "ticker": "WELL",
+ "news": [
+  {
+   "title": "WELL's Q3 FFO Beat Estimates on Strong SHO Portfolio Growth",
+   "url": "https://www.nasdaq.com/articles/wells-q3-ffo-beat-estimates-strong-sho-portfolio-growth",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Welltower (WELL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/welltower-well-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Welltower (WELL) Surpasses Q3 FFO and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/welltower-well-surpasses-q3-ffo-and-revenue-estimates",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unlocking Q3 Potential of Welltower (WELL): Exploring Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/unlocking-q3-potential-welltower-well-exploring-wall-street-estimates-key-metrics",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "WELL June 2027 Options Begin Trading",
+   "url": "https://www.nasdaq.com/articles/well-june-2027-options-begin-trading",
+   "date": "2026-10-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Welltower Inc (WELL) (Q3 2026) Earnings Call Highlights: 38% Revenue Surge, Raised FFO Outlook ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/welltower-inc-well-q3-2026-010226969.html",
+   "date": "2026-10-28",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "WELL's Q3 FFO Beat Estimates on Strong SHO Portfolio Growth",
+   "url": "https://finance.yahoo.com/real-estate/articles/wells-q3-ffo-beat-estimates-165000413.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Welltower (WELL) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/real-estate/articles/welltower-well-q3-2026-earnings-164821384.html",
+   "date": "2026-10-27",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Welltower shares drop as earnings miss offsets strong FFO growth",
+   "url": "https://finance.yahoo.com/healthcare/articles/welltower-shares-drop-earnings-miss-162800569.html",
+   "date": "2026-10-27",
+   "publisher": "Proactive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Welltower Fell 5% as Q3 Revenue Misses Despite Raised FFO Outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/welltower-fell-5-q3-revenue-155631259.html",
+   "date": "2026-10-27",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Welltower's Q3 Print Reflects Robust Organic Growth Trends, UBS Says",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/welltower-apos-q3-print-reflects-153550574.html",
+   "date": "2026-10-27",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Welltower Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/welltower-inc-q3-2026-earnings-123000167.html",
+   "date": "2026-10-27",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Is Welltower Stock Rising 2.2% After Its Third-Quarter 2026 Earnings?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-welltower-stock-rising-2-114131634.html",
+   "date": "2026-10-27",
+   "publisher": "InvestorsHub",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BNP Paribas Adjusts Price Target on Welltower to $265 From $272",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-adjusts-price-target-100622432.html",
+   "date": "2026-10-27",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "REITs' Share Of Senior Housing Deals Has Doubled. Will Development Follow?",
+   "url": "https://finance.yahoo.com/real-estate/articles/reits-share-senior-housing-deals-005325661.html",
+   "date": "2026-10-27",
+   "publisher": "Bisnow",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/766704/000162828026067627/well-20261027.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000043/well-20261026.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/766704/000162828026050186/well-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000026/well-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-13",
+   "reportDate": "2026-07-13",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/766704/000119312526302020/d123939d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-06-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/766704/000119312526249823/d127740d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 33.33,
+  "saleNy": 15.31,
+  "epsCy": null,
+  "epsNy": 11.11,
+  "cyTrend": 0,
+  "nyTrend": 2.24,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    39.1,
+    38.33,
+    41.33
+   ],
+   "ni": [
+    47.41,
+    182.48,
+    -19.61
+   ],
+   "opm": [
+    14.96,
+    16.21,
+    -32.16
+   ],
+   "updated": "2026-09-08 08:02:01"
+  }
+ }
+}

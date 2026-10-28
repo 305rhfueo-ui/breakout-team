@@ -1,0 +1,284 @@
+{
+ "ticker": "FLEX",
+ "sector": "Technology",
+ "industry": "Electronic Components",
+ "nameKo": "플렉스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 25.59,
+  "saleNy": 31.47,
+  "epsCy": 40.15,
+  "epsNy": 59.57,
+  "est": {
+   "cyCur": 4.625,
+   "cy30": 4.72433,
+   "nyCur": 7.38,
+   "ny30": 7.11111
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    20.58,
+    16.86,
+    7.66
+   ],
+   "ni": [
+    48.44,
+    12.61,
+    -9.13
+   ],
+   "opm": [
+    4.94,
+    4.98,
+    5.51
+   ],
+   "updated": "2026-09-08 06:08:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "플렉스",
+  "nameEn": "FLEX LTD",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866374&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-26",
+     "derived": false,
+     "revenue": 7928000000,
+     "profit": 392000000,
+     "netIncome": 285000000,
+     "margin": 4.9,
+     "yoy": {
+      "revenue": 20.6,
+      "profit": 26,
+      "netIncome": 48.4,
+      "priorEnd": "2025-06-27"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 7477000000,
+     "profit": 372000000,
+     "netIncome": null,
+     "margin": 5,
+     "yoy": {
+      "revenue": 16.9,
+      "profit": 22,
+      "netIncome": null,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 7058000000,
+     "profit": 389000000,
+     "netIncome": null,
+     "margin": 5.5,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": 16.5,
+      "netIncome": null,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-26",
+     "derived": false,
+     "revenue": 6804000000,
+     "profit": 296000000,
+     "netIncome": null,
+     "margin": 4.4,
+     "yoy": {
+      "revenue": 4,
+      "profit": -0.3,
+      "netIncome": null,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Republic Services Now #249 Largest Company, Surpassing Flex",
+     "url": "https://www.nasdaq.com/articles/republic-services-now-249-largest-company-surpassing-flex",
+     "date": "2026-10-15",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Flex's AI Infrastructure Spin-Off Could Unlock Hidden Value",
+     "url": "https://www.nasdaq.com/articles/flexs-ai-infrastructure-spin-could-unlock-hidden-value",
+     "date": "2026-10-13",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Flex To Sell $2 Bln Axiom Convertible Preferred Stock",
+     "url": "https://www.nasdaq.com/articles/flex-sell-2-bln-axiom-convertible-preferred-stock",
+     "date": "2026-10-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Can Flex Maintain Its Advanced Networking Momentum in FY27?",
+     "url": "https://www.nasdaq.com/articles/can-flex-maintain-its-advanced-networking-momentum-fy27",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526421058/d147467d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000110465926115502/tm2627474d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526413173/d123485d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000110465926113282/tm2626870d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000036/flex-20260911.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-04",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526382492/d108491d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-08-24",
+     "broker": "유안타증권",
+     "analyst": "황병준",
+     "title": "[플렉스 (NAS:FLEX)] 본업(전력) 모멘텀에 Custom Rack, 냉각이 가세",
+     "summary": "- Flex(FLEX)는 Hyperscaler, NeoCloud 업체를 대상으로 Grid-to-Chip(스위치기어→PowerPod→ PowerShelf), 수냉식 냉각 및 열관리 시스템, Custom Rack 시스템을 아우르는 AI 전력+냉각+ 시스템 통합 솔루션을 제공하는 ODM 업체. 중단기 핵심 모멘텀 요소는 1) 주요 고객 Amazon 및 NeoCloud향 전력 인프라 중심의 AI (서브)시스템 출하, 2) 27년부터 반영되기 시 작할 Google과 체결한 다년간 공급 계약 수주와 타 Hyperscaler향 추가 계약 수주- FY27 매출 가이던스 +65~75%yoy 제시. 예년 대비 +200% 확대된 올해 $15억 규모의 CapEx 집행이 올해 하반기 말부터 생산 Capa로 전환하며 내년 초 본격적으로 Ramp-Up이 진행됨에 따라 Google 다년간 공급 계약과 Cerebras의 CS-3 시스템 등 Compute – Power – Cooling Architecture가 통합된 제품 Mix 확대가 본격 반영될 것. 전력/냉각/컴퓨팅 통합 인프라 부문을 SpinCo로 분사해 자본 배분 효율성, 전방 수요 급증에 대한 기동성을 확보. 제 품 Mix가 통합 플랫폼과 모듈형 DC로 전환됨에 따른 자산회전율 둔화를 방어할 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiqczzeemlgcgxecgl.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "I was one of this stock's biggest shareholders in the 1990s. I'm bullish again",
+   "url": "https://www.cnbc.com/2026/10/13/paul-meeks-bullish-flex-because-of-ai.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This upcoming AI infrastructure spin-off could boost investors of this electronics stock",
+   "url": "https://www.cnbc.com/video/2026/10/13/this-upcoming-ai-infrastructure-spin-off-could-boost-investors-of-this-electronics-stock.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Flex CEO Revathi Advaithi on Axiom spinoff: Our focus is deploying power in the most efficient way possible",
+   "url": "https://www.cnbc.com/video/2026/09/15/flex-ceo-revathi-advaithi-on-axiom-spinoff-our-focus-is-deploying-power-in-the-most-efficient-way-possible.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Flex CEO Revathi Advaithi",
+   "url": "https://www.cnbc.com/video/2026/09/15/watch-cnbcs-full-interview-with-flex-ceo-revathi-advaithi.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FLEX",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 32.18,
+  "pbr": 5.6,
+  "eps": 2.59,
+  "bps": 14.89,
+  "shares": 369460000,
+  "marketCapM": 30794,
+  "high52": 166.86,
+  "high52Date": "2026-06-03",
+  "low52": 53.07,
+  "low52Date": "2025-11-21",
+  "last": 83.35,
+  "prevClose": 76.99,
+  "nameKo": "플렉스",
+  "nameEn": "FLEX LTD",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 369460000
+ }
+}

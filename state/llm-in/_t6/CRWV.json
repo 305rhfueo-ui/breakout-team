@@ -1,0 +1,832 @@
+{
+ "ticker": "CRWV",
+ "date": "2026-10-28",
+ "session": "2026-10-27",
+ "source": "list",
+ "plan": {
+  "ticker": "CRWV",
+  "name": "코어위브",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 59.57,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 104.59,
+  "stop": 99.96,
+  "distToPivotPct": -43.04,
+  "distToPivotAdr": -5.54,
+  "riskPerSharePct": 4.42,
+  "adrPct": 7.77,
+  "extensionAdr": -0.23,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 35,
+   "baseWeeks": 7,
+   "depthPct": 51,
+   "priorMovePct": 72.7,
+   "higherLows": 1,
+   "contraction": 1.75,
+   "closeRange10Adr": 3.3,
+   "surf10": -0.23,
+   "surf20": -2.91,
+   "slope20": -9.27,
+   "baseLow": 51.24,
+   "lastSwingLow": 83.53
+  },
+  "reasons": [
+   "선행 상승 +73%",
+   "베이스 7주",
+   "✗ 깊이 51%",
+   "저점 상승 1회",
+   "✗ 진폭 1.75배 · 10일 종가폭 3.3 ADR",
+   "✗ 10일선 -0.2 ADR · 20일선 -2.9 ADR",
+   "✗ 20일선 기울기 -9.27%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.2841575595090541,
+    "pct": 0.49594229035166815
+   },
+   "m3": {
+    "v": -0.3367147536443357,
+    "pct": 2.299368800721371
+   },
+   "m6": {
+    "v": -0.6071125957327586,
+    "pct": 0.40577096483318303
+   }
+  },
+  "ret1m": -30.68,
+  "ret3m": -30.54,
+  "ret6m": -56.83,
+  "marketCap": "30.44B",
+  "volx": 0.85,
+  "volSurgeWk": 0.72,
+  "high52": 42.01,
+  "newHigh52": false,
+  "adr": 7.77,
+  "div50": -26.76,
+  "div200": -35.1,
+  "targetStatus": false,
+  "saleCy": 150.87,
+  "saleNy": 105.62,
+  "epsCy": 88.41,
+  "epsNy": -9.53,
+  "cyTrend": 1.27,
+  "nyTrend": 7.58,
+  "est": {
+   "cyCur": -5.18125,
+   "cy30": -5.11635,
+   "nyCur": -4.68758,
+   "ny30": -4.35731
+  },
+  "fs": {
+   "sale": [
+    112.46,
+    111.61,
+    110.48
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -1.9,
+    -6.93,
+    -5.71
+   ],
+   "updated": "2026-09-08 09:13:47"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "코어위브",
+  "nameEn": "COREWEAVE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001769628&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2575000000,
+     "profit": -49000000,
+     "netIncome": -626000000,
+     "margin": -1.9,
+     "yoy": {
+      "revenue": 112.5,
+      "profit": -357.9,
+      "netIncome": -115.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2078000000,
+     "profit": -144000000,
+     "netIncome": -740000000,
+     "margin": -6.9,
+     "yoy": {
+      "revenue": 111.6,
+      "profit": -433.3,
+      "netIncome": -134.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1571904000,
+     "profit": -89589000,
+     "netIncome": -452726000,
+     "margin": -5.7,
+     "yoy": {
+      "revenue": 110.4,
+      "profit": -179.8,
+      "netIncome": -789,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1364676000,
+     "profit": 51850000,
+     "netIncome": -110124000,
+     "margin": 3.8,
+     "yoy": {
+      "revenue": 133.7,
+      "profit": -55.7,
+      "netIncome": 69.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Stock Market Today, Oct. 27: CoreWeave Surges on Denmark Data Center Launch",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-oct-27-coreweave-surges-denmark-data-center-launch",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000278/crwv-20260611.htm"
+   }
+  ],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-10-26",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[코어위브 (NAS:CRWV)] 선점의 해자, 선점의 대가",
+     "summary": "- 미국 뉴저지에 본사를 둔 GPU 특화 네오클라우드 기업. 2Q26 매출 25.8억달러(+112% yoy), EBITDA 마진 59%, OPM 5%를 기록 했으며 RPO는  1,042억달러(+246%  yoy)로  확대.  계약용량 4.2GW, 활성용량 1.5GW이며 연말 활성용량 가이던스는 1.7GW 에서 1.85GW로 상향- 대규모 클러스터 보유가 곧 해자: 전력·부지 등 데이터센터 기초 인 프라 병목으로 가동 중인 클러스터 자체가 진입장벽으로 작용. 활성 용량 1.5GW로 네오클라우드 중 최대 규모를 확보해 상대적 가치가 높아지는 구조- GPU 단가 상승: H100·B200 렌탈가는 상승 추세를 유지 중이며 코 어위브의 블랙웰·루빈 가격은 사상 최고치를 경신. 루빈 도입으로 신 규 계약 마진이 5~10%p 개선 중이며, 3Q 매출 가이던스는 35.3억 달러(+158% yoy), 4Q OPM은 10%대 초반까지 확대될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmqeggeicqxegcgxecgl.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2026-10-16",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[코어위브 (NAS:CRWV)] 중심을 잡고 긍정적으로 조망해야 할 때",
+     "summary": "- 동사는 GPU 컴퓨팅 인프라 기반의 AI 특화 네오클라우드 업체- 오픈AI 등 프런티어 업체향 계약 확장이 가시성과 성장성을 동인- 동사 내재가치 시뮬레이션 결과로 571억달러 제시, 업사이드 충분",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgeczgkkigcxegcgxecgl.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-09-07",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[코어위브 (NAS:CRWV)] 빠른 길, 더 무거운 짐",
+     "summary": "- 2분기 캐팩스는 94억달러, 계약용량은 4.2GW를 확보. 활성용량은 1.5GW 로 전분기 실적발표 시점 대비 500MW 증가하며 실행력을 재확인,  연말 활성용량 가이던스도 기존 1.7GW에서 1.85GW로 상향 조정. 3분기 가이 던스는 매출 35.3억달러(+158%yoy), OPM 6.5%로 외형성장 가속화와 마 진 개선을 동시에 제시했으며, 4분기에는 OPM이 10%대 초반까지 확대될 것으로 언급- GPU 렌탈가 상승 기조 지속. 블랙웰과 루빈 플랫폼 가격은 사상 최고치를 기록했으며, 레거시 A100까지 전년과 유사한 ASP로 2029년까지 계약이 연장. 루빈 플랫폼 도입으로 신규 계약 마진은 5~10%p 개선되며, 하반기 본격 램프 시 추가 개선을 기대 가능. 레거시 GPU는 감가상각 종료, 선단 GPU는 ASP 상승으로 수익성이 극대화되는 구조- 코어위브는 ① 우호적인 컴퓨팅 수요로 인한 MW 당 ACV 증가와 ② 오픈 웨이트 확산 수혜라는 업종 공통의 포인트를 공유. 다만 이자비용 부담이 경 쟁사 대비 높아 매크로 환경에 민감하며, 대형 고객사 의존도가 높아 하이 퍼스케일러 및 프론티어 모델랩의 컴퓨트 수요 환경 변동에 따른 실적 변동 성이 크다는 개별적 특성은 부담 요인으로 작용. 업종 내에서는 네비우스가 코어위브 대비 매력적이라고 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqiqmxczkkxcgcgxecgl.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[코어위브 (NAS:CRWV)] AI 인프라를 넘어 서비스로",
+     "summary": "- 코어위브의 2분기 매출은 25.8억달러(+112%yoy)를 기록하며 컨센을 상 회.EBITDA 마진은 59%, OPM은 5%를 기록하며 전분기 대비 뚜렷한 개선 세를 보임. 순손실은 5.67억달러로 전분기 대비 소폭 축소. 급증하는 AI 컴 퓨팅 수요로 인해 RPO는 1,042억달러(+246%yoy)로 증가.- 2분기 캐팩스는 94억달러를 기록. 계약용량은 1분기 실적발표 시점의 3.5GW 대비 700MW 증가한 4.2GW를 확보. 활성용량은 1.5GW를 기록 했는데, 이는 전분기 실적 발표 시점 대비 500MW 증가한 수치로 코어위 브의 실행력을 다시 한번 증명.- GPU 렌탈가 상승 기조 지속. H100과 B200 렌탈가는 저점대비 각각 40%, 27% 상승. 블랙웰과 루빈 플랫폼의 가격은 사상 최고치를 기록했으 며, 레거시 A100 GPU까지 전년과 유사한 수준의 ASP로 2029년까지 계 약이 연장됨",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzeemegcxxeggcgxecgl.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[코어위브 (NAS:CRWV)] Earnings Flash",
+     "summary": "- 매출액 25.8억 달러(YoY +112.3%)로 예상치 0.5% 상회. 조정 EPS는 -1.03달러로 예상치(-1.18달러) 대비 적자폭 축소- 업계 최초로 엔비디아 베라 루빈 NVL72의 초기 구동·검증 완료. GPU 외 스토리지·CPU·네트워크·소프트웨어 연환산 매출- 수주잔고 급증·가이던스 상향으로 시간외 15.7% 상승. 네오클라우드주 동반 상승(네비우스 +7.9%, 아이렌 +4.4%)",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzeeliigxgzqgcgxecgl.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2025-11-14",
+     "broker": "키움증권",
+     "analyst": "조민주",
+     "title": "[코어위브 (NAS:CRWV)] 초과 수요 속 공급 지연이라는 현실의 벽",
+     "summary": "- 2017년 설립된 GPUaaS 기업으로 엔비디아가 지분 투자한 네오클라우드 업체- 컨센서스 대비 매출액 +6.1%, EBITDA +2.0%, 순이익 적자 축소(+1.5억달러)- 백로그, 전력 확보 용량 증가가 향후 성장 궤도를 뒷받침하나, 데이터센터 공간 부족으로 단기 불확실성 유입. 내년 1분기까지 CAPEX 추가 확보 여부가 반등의 키",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxiclckeqlzkgxgcgxecgl.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2025-11-12",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[코어위브 (NAS:CRWV)] 일회성으로 놓치긴 아까운 인물",
+     "summary": "- Signal: 일회성 매출 이연으로 주가 급락- Key: RPO 급증, 전력 여유로 방향성 견고- Step: 경쟁력 입증 지속, 전력 부족 상황에 집중해야할 때",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgmceecllqkllgcgxecgl.pdf",
+     "pages": "3"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "CRWV-report1.pdf",
+   "broker": "유진투자증권",
+   "analyst": "박재환",
+   "date": "2026-10-26",
+   "title": "[코어위브 (NAS:CRWV)] 선점의 해자, 선점의 대가",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmqeggeicqxegcgxecgl.pdf",
+   "pages": "2"
+  },
+  {
+   "file": "CRWV-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "김진구",
+   "date": "2026-10-16",
+   "title": "[코어위브 (NAS:CRWV)] 중심을 잡고 긍정적으로 조망해야 할 때",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgeczgkkigcxegcgxecgl.pdf",
+   "pages": "8"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+   "url": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cracking AI trade has Street looking for a hedge. An ex-Citadel quant may have one",
+   "url": "https://www.cnbc.com/2026/10/26/gpu-futures-ai-hedge-hyperbolic.html",
+   "date": "2026-10-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Elon Musk says more than 200 neoclouds face 'guppy-level death'",
+   "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+   "date": "2026-10-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
+   "url": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "10-year Treasury yield drops to 5% this week as investors hide from AI worries",
+   "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Watch CNBC’s full discussion with the ‘Squawk on the Street’ crew",
+   "url": "https://www.cnbc.com/video/2026/10/27/watch-cnbcas-full-discussion-with-the-asquawk-on-the-streeta-crew.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Monday, October 26, 2026: Cramer calls this natural gas stock a buy amid rising data center demand",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/26/monday-october-26-2026-cramer-calls-this-natural-gas-stock-a-buy-amid-rising-data-center-demand.html",
+   "date": "2026-10-26",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Why CoreWeave is at the center of the AI selloff",
+   "url": "https://www.cnbc.com/video/2026/10/23/why-coreweave-is-at-the-center-of-the-ai-selloff.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CRWV",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 16.26,
+  "pbr": 6.53,
+  "eps": 3.66,
+  "bps": 9.12,
+  "shares": 458871700,
+  "marketCapM": 27335,
+  "high52": 141.79,
+  "high52Date": "2025-10-28",
+  "low52": 51.24,
+  "low52Date": "2026-10-26",
+  "last": 59.57,
+  "prevClose": 55.19,
+  "nameKo": "코어위브",
+  "nameEn": "COREWEAVE INC",
+  "listedOn": "2025-03-28",
+  "exchange": "나스닥",
+  "listedShares": 458871700
+ },
+ "estimates": {
+  "ticker": "CRWV",
+  "url": "https://finance.yahoo.com/quote/CRWV/analysis/",
+  "fetchedAt": "2026-10-28",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": -1.55,
+    "epsLow": -1.94,
+    "epsHigh": -0.89,
+    "epsYearAgo": -0.22,
+    "epsAnalysts": 18,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 3540875520,
+    "revAnalysts": 35,
+    "revYearAgo": 1364676000,
+    "revGrowth": 159.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": -1.09,
+    "epsLow": -1.93,
+    "epsHigh": -0.44,
+    "epsYearAgo": -0.89,
+    "epsAnalysts": 18,
+    "epsGrowth": -22.5,
+    "epsCur": "USD",
+    "rev": 4693313010,
+    "revAnalysts": 35,
+    "revYearAgo": 1572000000,
+    "revGrowth": 198.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -5.18,
+    "epsLow": -6.24,
+    "epsHigh": -3.82,
+    "epsYearAgo": -2.75,
+    "epsAnalysts": 23,
+    "epsGrowth": -88.4,
+    "epsCur": "USD",
+    "rev": 12872045660,
+    "revAnalysts": 40,
+    "revYearAgo": 5131000000,
+    "revGrowth": 150.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -4.68,
+    "epsLow": -8.75,
+    "epsHigh": -1.08,
+    "epsYearAgo": -5.18,
+    "epsAnalysts": 23,
+    "epsGrowth": 9.7,
+    "epsCur": "USD",
+    "rev": 26467802450,
+    "revAnalysts": 40,
+    "revYearAgo": 12872045660,
+    "revGrowth": 105.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": -1.55,
+    "d7": -1.5,
+    "d30": -1.8,
+    "d90": -13.5,
+    "ago90": -1.37,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -1.09,
+    "d7": -1.9,
+    "d30": -3.5,
+    "d90": -29.2,
+    "ago90": -0.84,
+    "up7": 0,
+    "up30": 2,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -5.18,
+    "d7": -0.6,
+    "d30": -1.3,
+    "d90": -2.7,
+    "ago90": -5.04,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -4.68,
+    "d7": -3.9,
+    "d30": -7.4,
+    "d90": -26.8,
+    "ago90": -3.69,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": -1.14,
+    "estimate": -1.47,
+    "surprisePct": 22.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -1.4,
+    "estimate": -1.2,
+    "surprisePct": -16.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.89,
+    "estimate": -0.68,
+    "surprisePct": -30,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": -0.22,
+    "estimate": -0.48,
+    "surprisePct": 54.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 2,
+   "downgrades": 0,
+   "initiations": 4,
+   "ptRaised": 14,
+   "ptLowered": 5,
+   "total": 33,
+   "recent": [
+    {
+     "date": "2026-10-23",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 105,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 70,
+     "ptPrior": 99
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 124,
+     "ptPrior": 153
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "HSBC",
+     "action": "reit",
+     "from": "Reduce",
+     "to": "Reduce",
+     "ptAction": "Maintains",
+     "pt": 39,
+     "ptPrior": 39
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "Goldman Sachs",
+     "action": "up",
+     "from": "Neutral",
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 106,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 88,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Freedom Capital Markets",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 151,
+     "ptPrior": 151
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Cantor Fitzgerald",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 176,
+     "ptPrior": 176
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 250,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "William Blair",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-10",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-27",
+  "numbers": {
+   "price": 59.57,
+   "ma20": 73.06,
+   "ma50": 81.34,
+   "ma150": 92.81,
+   "distMA50": -26.76,
+   "periodHigh": 187,
+   "pullbackFromHigh": -68.14,
+   "volRatio20": 0.96,
+   "dryUpRatio": 1.18
+  },
+  "last10": [
+   {
+    "d": "2026-10-14",
+    "o": 71.74,
+    "h": 72.52,
+    "l": 64.41,
+    "c": 65.78,
+    "v": 111214200,
+    "clsPos": 17,
+    "gapPct": -7.8
+   },
+   {
+    "d": "2026-10-15",
+    "o": 61.43,
+    "h": 69.76,
+    "l": 59.51,
+    "c": 69.69,
+    "v": 130537200,
+    "clsPos": 99,
+    "gapPct": -6.61
+   },
+   {
+    "d": "2026-10-16",
+    "o": 65.19,
+    "h": 66.68,
+    "l": 59.9,
+    "c": 61.39,
+    "v": 95394200,
+    "clsPos": 22,
+    "gapPct": -6.46
+   },
+   {
+    "d": "2026-10-19",
+    "o": 65.82,
+    "h": 65.92,
+    "l": 59.25,
+    "c": 61.12,
+    "v": 101010700,
+    "clsPos": 28,
+    "gapPct": 7.22
+   },
+   {
+    "d": "2026-10-20",
+    "o": 59.26,
+    "h": 64.39,
+    "l": 57.24,
+    "c": 62.13,
+    "v": 94778100,
+    "clsPos": 68,
+    "gapPct": -3.04
+   },
+   {
+    "d": "2026-10-21",
+    "o": 64.36,
+    "h": 64.58,
+    "l": 59.31,
+    "c": 61.82,
+    "v": 76589500,
+    "clsPos": 48,
+    "gapPct": 3.59
+   },
+   {
+    "d": "2026-10-22",
+    "o": 59.1,
+    "h": 60.41,
+    "l": 53.5,
+    "c": 55.6,
+    "v": 81776900,
+    "clsPos": 30,
+    "gapPct": -4.4
+   },
+   {
+    "d": "2026-10-23",
+    "o": 54.92,
+    "h": 56.11,
+    "l": 54.01,
+    "c": 54.24,
+    "v": 46947400,
+    "clsPos": 11,
+    "gapPct": -1.22
+   },
+   {
+    "d": "2026-10-26",
+    "o": 51.96,
+    "h": 57.8,
+    "l": 51.24,
+    "c": 55.19,
+    "v": 68936400,
+    "clsPos": 60,
+    "gapPct": -4.19
+   },
+   {
+    "d": "2026-10-27",
+    "o": 56.69,
+    "h": 59.94,
+    "l": 55.36,
+    "c": 59.57,
+    "v": 53151279,
+    "clsPos": 92,
+    "gapPct": 2.72
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRWV-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRWV-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 6일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

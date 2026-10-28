@@ -1,0 +1,331 @@
+{
+ "ticker": "WDC",
+ "sector": "Technology",
+ "industry": "Computer Hardware",
+ "nameKo": "웨스턴 디지털",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 64.92,
+  "saleNy": 36.92,
+  "epsCy": 142.04,
+  "epsNy": 61.45,
+  "est": {
+   "cyCur": 24.73635,
+   "cy30": 20.09143,
+   "nyCur": 39.93658,
+   "ny30": 31.74953
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    43.84,
+    45.47,
+    25.24
+   ],
+   "ni": [
+    1005.46,
+    516.35,
+    208.4
+   ],
+   "opm": [
+    41.71,
+    35.66,
+    30.1
+   ],
+   "updated": "2026-09-19 06:14:39"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "웨스턴 디지털",
+  "nameEn": "WESTERN DIGITAL CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000106040&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-03",
+     "derived": true,
+     "revenue": 3747000000,
+     "profit": 1563000000,
+     "netIncome": 3195000000,
+     "margin": 41.7,
+     "yoy": {
+      "revenue": 43.8,
+      "profit": 129.9,
+      "netIncome": 1033,
+      "priorEnd": "2025-06-27"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 3337000000,
+     "profit": 1190000000,
+     "netIncome": 3205000000,
+     "margin": 35.7,
+     "yoy": {
+      "revenue": 45.5,
+      "profit": 56.6,
+      "netIncome": 516.3,
+      "priorEnd": "2025-03-28"
+     }
+    },
+    {
+     "periodEnd": "2026-01-02",
+     "derived": false,
+     "revenue": 3017000000,
+     "profit": 908000000,
+     "netIncome": 1842000000,
+     "margin": 30.1,
+     "yoy": {
+      "revenue": 25.2,
+      "profit": 62.1,
+      "netIncome": 210.1,
+      "priorEnd": "2024-12-27"
+     }
+    },
+    {
+     "periodEnd": "2025-10-03",
+     "derived": false,
+     "revenue": 2818000000,
+     "profit": 792000000,
+     "netIncome": 1182000000,
+     "margin": 28.1,
+     "yoy": {
+      "revenue": 27.4,
+      "profit": 137.1,
+      "netIncome": 139.8,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Down More Than 50% From Its High, Is Western Digital Stock a Buy?",
+     "url": "https://www.nasdaq.com/articles/down-more-50-its-high-western-digital-stock-buy",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "All You Need to Know About Western Digital (WDC) Rating Upgrade to Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-western-digital-wdc-rating-upgrade-buy",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Arm vs. Western Digital: Which Tech Stock Is the Better Buy in November?",
+     "url": "https://www.nasdaq.com/articles/arm-vs-western-digital-which-tech-stock-better-buy-november",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Wall Street Analysts Think Western Digital (WDC) Is a Good Investment: Is It?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-western-digital-wdc-good-investment-it",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "WDC's Fiscal Q2 Forecast Improves: What's Fueling the Momentum?",
+     "url": "https://www.nasdaq.com/articles/wdcs-fiscal-q2-forecast-improves-whats-fueling-momentum",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here is What to Know Beyond Why Western Digital Corporation (WDC) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-western-digital-corporation-wdc-trending-stock",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Western Digital's AI Storage Boom Defies the Chip Sell-Off",
+     "url": "https://www.nasdaq.com/articles/why-western-digitals-ai-storage-boom-defies-chip-sell",
+     "date": "2026-10-24",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Western Digital Stock Has Fallen 53% Since June. I'd Consider a Small Position After Its Latest Report.",
+     "url": "https://www.nasdaq.com/articles/western-digital-stock-has-fallen-53-june-id-consider-small-position-after-its-latest",
+     "date": "2026-10-24",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/wdc-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-14",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526389859/d23939d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "3.02",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526365796/d376254d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/wdc-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526267514/d83915d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "3.02",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526254621/d106828d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-10-23",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[웨스턴 디지털 (NAS:WDC)] Earnings Flash",
+     "summary": "- 매출액 43.8억 달러(YoY +55.5%), 조정 EPS 4.64달러(YoY +161%)로 예상치 5.6%, 13.1% 상회- 잉여현금흐름(FCF) 13.8억 달러(YoY +130%)로 CAPEX 증가(QoQ+110%)에도 FCF 마진 31.4% 달성. 분기 중 자사주 매입 및 배당으로 11억 달러 주주환원- 호실적 및 강한 가이던스 발표에도 원가 상승·CAPEX 확대 부담 부각되며 시간 외 -6.4%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqixxixgcexegcgxecgl.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "title": "[웨스턴 디지털 (NAS:WDC)] 분명히 좋은데 비교적 아쉽다",
+     "summary": "- 실적발표 이후 11% 하락. 매출 성장분의 80% 이상을 매출총이익으로 전 환. TB당 판가 상승과 원가 하락이 동시에 나타나며 수익 구조 개선 확인. *HAMR 정보, 마진 개선 등 구체적 내용 부재가 투심에 부정적 영향- FY4Q26 매출액 37.5억달러(YoY+43.8%, 이하 전년동기대비), 영업이익 16.6억달러(+126.1%, OPM 44.2%)로 컨센서스를 각각 1.7%, 8.5% 상회. 총 출하용량은 231EB(+21.6%)으로 컨센서스를 4.5% 하회했으나 제품 믹 스와 구매 시점 인식 차이가 일시적 원인. FY27 25% 이상의 성장 목표 재 확인. 40TB ePMR 본격 출하와 UltraSMR 비중 확대로 가격/TB는 전년대 비 10% 후반 상승, 원가/TB는 8% 하락해 GPM 54.4%(+13.1%p) 달성- FY1Q27 가이던스는 중간값 기준 매출액 41억달러, GPM 55.5%, EPS 4.0 달러로 제시. 경쟁사 대비 마진 상승 속도가 느린 것을 시장은 우려. 다만 기술력의 구조적 열위가 아닌 LTA 가격 재설정과 40TB ePMR 램프 시점 차이가 원인. FY27 ePMR, UltraSMR 비중 확대로 마진 격차 축소 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxccxikccqqelgcgxecgl.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-06-24",
+     "broker": "신한투자증권",
+     "analyst": "고준혁, 김형태",
+     "title": "[웨스턴 디지털 (NAS:WDC)] 아직도 카드가 남았다",
+     "summary": "- YTD 주가수익률 +325.3%, 12MF PER 53배에도 업사이드 여력 충분. AI 패러다임 전환 속 공급량(Q) 통제로 스토리지 병목에서 재평가 가능- FY3Q26 매출액 33.4억달러(YoY+45.5%, 이하 전년대비), 영업이익 12.9 억달러(+115.9%, OPM 38.6%)로 컨센서스를 각각 3.4%, 12.1% 상회- FY4Q26 가이던스는 중간값 기준 매출액 36.5억달러, GPM 51.5%, EPS 3.25달러로 제시. 수익성 개선이 일회성이 아닌 장기간 지속될 전망. 26년 주문이 매진되었고 일부 하이퍼스케일러와 29년까지의 장기공급계약 확보",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlggzmlxecilzkgcgxecgl.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Chevron, CrowdStrike, American Express",
+   "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-midday-cvx-crwd-axp-skhy-t.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Earnings season is in full swing. These are Morgan Stanley's highest conviction plays",
+   "url": "https://www.cnbc.com/2026/10/21/morgan-stanley-western-digital-terawulf-williams.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Watch CNBC's full interview with Western Digital CEO Irving Tan",
+   "url": "https://www.cnbc.com/video/2026/10/23/watch-cnbcs-full-interview-with-western-digital-ceo-irving-tan.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Western Digital CEO: AI demand for storage remains durable and continues to grow",
+   "url": "https://www.cnbc.com/video/2026/10/23/western-digital-ceo-ai-demand-for-storage-remains-durable-and-continues-to-grow.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Memory stocks on the move: What you need to know",
+   "url": "https://www.cnbc.com/video/2026/10/23/memory-stocks-on-the-move-what-you-need-to-know.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Western Digital beats on revenue and earnings, raises dividend 17%",
+   "url": "https://www.cnbc.com/video/2026/10/22/western-digital-beats-on-revenue-and-earnings-raises-dividend-17percent.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "WDC",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 14.8,
+  "pbr": 15.51,
+  "eps": 25.74,
+  "bps": 24.55,
+  "shares": 374323000,
+  "marketCapM": 142572,
+  "high52": 799.6132,
+  "high52Date": "2026-06-18",
+  "low52": 121.6231,
+  "low52Date": "2025-10-28",
+  "last": 380.88,
+  "prevClose": 356.13,
+  "nameKo": "웨스턴 디지털",
+  "nameEn": "WESTERN DIGITAL CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 374323000
+ }
+}

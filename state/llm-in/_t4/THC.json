@@ -1,0 +1,212 @@
+{
+ "ticker": "THC",
+ "news": [
+  {
+   "title": "Here's Why Tenet Healthcare (THC) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-tenet-healthcare-thc-strong-momentum-stock",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insights Into Tenet (THC) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/insights-tenet-thc-q3-wall-street-projections-key-metrics",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Tenet (THC) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-tenet-thc-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tenet Healthcare (THC) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tenet Healthcare (THC) Stock Dips While Market Gains: Key Facts",
+   "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-stock-dips-while-market-gains-key-facts",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search Tenet Healthcare Corporation (THC): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-tenet-healthcare-corporation-thc-here-what-you-need-know",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Tenet Healthcare (THC) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-tenet-healthcare-thc-top-growth-stock-long-term-1",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Tenet Healthcare (THC) Outpaced the Stock Market Today",
+   "url": "https://www.nasdaq.com/articles/why-tenet-healthcare-thc-outpaced-stock-market-today",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Universal Health Services (UHS) Misses Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-uhs-misses-212011614.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "HCA Healthcare Sickens Hospital Stocks With 2027 Outlook",
+   "url": "https://finance.yahoo.com/m/e77731f3-6739-31a2-9cf0-5eef853a328e/hca-healthcare-sickens.html",
+   "date": "2026-10-27",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Insights Into Tenet (THC) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://finance.yahoo.com/healthcare/articles/insights-tenet-thc-q3-wall-121503940.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Will Tenet (THC) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tenet-thc-beat-estimates-again-151001618.html",
+   "date": "2026-10-22",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-22",
+   "reportDate": "2026-09-22",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000119312526397901/d104323d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000040/thc-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000032/thc-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000028/thc-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000023/thc-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-10",
+   "reportDate": "2026-04-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000019/thc-20260409.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.21,
+  "saleNy": 0.45,
+  "epsCy": 26.5,
+  "epsNy": -0.66,
+  "cyTrend": 0.01,
+  "nyTrend": 0.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.61,
+    10.68,
+    8.95
+   ],
+   "ni": [
+    186.81,
+    72.91,
+    16.67
+   ],
+   "opm": [
+    24.85,
+    22.42,
+    15.43
+   ],
+   "updated": "2026-09-08 06:03:11"
+  }
+ }
+}

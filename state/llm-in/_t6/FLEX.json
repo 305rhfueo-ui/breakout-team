@@ -1,0 +1,713 @@
+{
+ "ticker": "FLEX",
+ "date": "2026-10-28",
+ "session": "2026-10-27",
+ "source": "list",
+ "plan": {
+  "ticker": "FLEX",
+  "name": "플렉스",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "price": 83.35,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 121.84,
+  "stop": 116.79,
+  "distToPivotPct": -31.59,
+  "distToPivotAdr": -5.21,
+  "riskPerSharePct": 4.15,
+  "adrPct": 6.06,
+  "extensionAdr": -0.61,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 26,
+   "baseWeeks": 5.2,
+   "depthPct": 39.7,
+   "priorMovePct": 22.5,
+   "higherLows": 0,
+   "contraction": 1.15,
+   "closeRange10Adr": 4.7,
+   "surf10": -0.61,
+   "surf20": -3.53,
+   "slope20": -7.6,
+   "baseLow": 73.48,
+   "lastSwingLow": 108.06
+  },
+  "reasons": [
+   "✗ 선행 상승 +22%",
+   "베이스 5.2주",
+   "✗ 깊이 39.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.15배 · 10일 종가폭 4.7 ADR",
+   "✗ 10일선 -0.6 ADR · 20일선 -3.5 ADR",
+   "✗ 20일선 기울기 -7.6%"
+  ],
+  "earnings": "2026-10-28"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.24516397527296252,
+    "pct": 1.4878268710550047
+   },
+   "m3": {
+    "v": -0.32166390436156994,
+    "pct": 3.110910730387737
+   },
+   "m6": {
+    "v": -0.4201971288031248,
+    "pct": 2.569882777276826
+   }
+  },
+  "ret1m": -26.78,
+  "ret3m": -29.03,
+  "ret6m": -38.14,
+  "marketCap": "28.44B",
+  "volx": 1.95,
+  "volSurgeWk": 1.51,
+  "high52": 49.95,
+  "newHigh52": false,
+  "adr": 6.06,
+  "div50": -22.18,
+  "div200": -18.85,
+  "targetStatus": false,
+  "saleCy": 25.59,
+  "saleNy": 31.47,
+  "epsCy": 40.15,
+  "epsNy": 59.57,
+  "cyTrend": -2.1,
+  "nyTrend": 3.78,
+  "est": {
+   "cyCur": 4.625,
+   "cy30": 4.72433,
+   "nyCur": 7.38,
+   "ny30": 7.11111
+  },
+  "fs": {
+   "sale": [
+    20.58,
+    16.86,
+    7.66
+   ],
+   "ni": [
+    48.44,
+    12.61,
+    -9.13
+   ],
+   "opm": [
+    4.94,
+    4.98,
+    5.51
+   ],
+   "updated": "2026-09-08 06:08:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-28",
+  "nameKo": "플렉스",
+  "nameEn": "FLEX LTD",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866374&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-26",
+     "derived": false,
+     "revenue": 7928000000,
+     "profit": 392000000,
+     "netIncome": 285000000,
+     "margin": 4.9,
+     "yoy": {
+      "revenue": 20.6,
+      "profit": 26,
+      "netIncome": 48.4,
+      "priorEnd": "2025-06-27"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 7477000000,
+     "profit": 372000000,
+     "netIncome": null,
+     "margin": 5,
+     "yoy": {
+      "revenue": 16.9,
+      "profit": 22,
+      "netIncome": null,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 7058000000,
+     "profit": 389000000,
+     "netIncome": null,
+     "margin": 5.5,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": 16.5,
+      "netIncome": null,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-26",
+     "derived": false,
+     "revenue": 6804000000,
+     "profit": 296000000,
+     "netIncome": null,
+     "margin": 4.4,
+     "yoy": {
+      "revenue": 4,
+      "profit": -0.3,
+      "netIncome": null,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Republic Services Now #249 Largest Company, Surpassing Flex",
+     "url": "https://www.nasdaq.com/articles/republic-services-now-249-largest-company-surpassing-flex",
+     "date": "2026-10-15",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Flex's AI Infrastructure Spin-Off Could Unlock Hidden Value",
+     "url": "https://www.nasdaq.com/articles/flexs-ai-infrastructure-spin-could-unlock-hidden-value",
+     "date": "2026-10-13",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Flex To Sell $2 Bln Axiom Convertible Preferred Stock",
+     "url": "https://www.nasdaq.com/articles/flex-sell-2-bln-axiom-convertible-preferred-stock",
+     "date": "2026-10-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Can Flex Maintain Its Advanced Networking Momentum in FY27?",
+     "url": "https://www.nasdaq.com/articles/can-flex-maintain-its-advanced-networking-momentum-fy27",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526421058/d147467d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000110465926115502/tm2627474d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526413173/d123485d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000110465926113282/tm2626870d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000036/flex-20260911.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-04",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526382492/d108491d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-08-24",
+     "broker": "유안타증권",
+     "analyst": "황병준",
+     "title": "[플렉스 (NAS:FLEX)] 본업(전력) 모멘텀에 Custom Rack, 냉각이 가세",
+     "summary": "- Flex(FLEX)는 Hyperscaler, NeoCloud 업체를 대상으로 Grid-to-Chip(스위치기어→PowerPod→ PowerShelf), 수냉식 냉각 및 열관리 시스템, Custom Rack 시스템을 아우르는 AI 전력+냉각+ 시스템 통합 솔루션을 제공하는 ODM 업체. 중단기 핵심 모멘텀 요소는 1) 주요 고객 Amazon 및 NeoCloud향 전력 인프라 중심의 AI (서브)시스템 출하, 2) 27년부터 반영되기 시 작할 Google과 체결한 다년간 공급 계약 수주와 타 Hyperscaler향 추가 계약 수주- FY27 매출 가이던스 +65~75%yoy 제시. 예년 대비 +200% 확대된 올해 $15억 규모의 CapEx 집행이 올해 하반기 말부터 생산 Capa로 전환하며 내년 초 본격적으로 Ramp-Up이 진행됨에 따라 Google 다년간 공급 계약과 Cerebras의 CS-3 시스템 등 Compute – Power – Cooling Architecture가 통합된 제품 Mix 확대가 본격 반영될 것. 전력/냉각/컴퓨팅 통합 인프라 부문을 SpinCo로 분사해 자본 배분 효율성, 전방 수요 급증에 대한 기동성을 확보. 제 품 Mix가 통합 플랫폼과 모듈형 DC로 전환됨에 따른 자산회전율 둔화를 방어할 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiqczzeemlgcgxecgl.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "FLEX-report1.pdf",
+   "broker": "유안타증권",
+   "analyst": "황병준",
+   "date": "2026-08-24",
+   "title": "[플렉스 (NAS:FLEX)] 본업(전력) 모멘텀에 Custom Rack, 냉각이 가세",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiqczzeemlgcgxecgl.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "I was one of this stock's biggest shareholders in the 1990s. I'm bullish again",
+   "url": "https://www.cnbc.com/2026/10/13/paul-meeks-bullish-flex-because-of-ai.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This upcoming AI infrastructure spin-off could boost investors of this electronics stock",
+   "url": "https://www.cnbc.com/video/2026/10/13/this-upcoming-ai-infrastructure-spin-off-could-boost-investors-of-this-electronics-stock.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Flex CEO Revathi Advaithi on Axiom spinoff: Our focus is deploying power in the most efficient way possible",
+   "url": "https://www.cnbc.com/video/2026/09/15/flex-ceo-revathi-advaithi-on-axiom-spinoff-our-focus-is-deploying-power-in-the-most-efficient-way-possible.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Flex CEO Revathi Advaithi",
+   "url": "https://www.cnbc.com/video/2026/09/15/watch-cnbcs-full-interview-with-flex-ceo-revathi-advaithi.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FLEX",
+  "fetchedAt": "2026-10-28",
+  "source": "한국투자증권 Open API",
+  "per": 32.18,
+  "pbr": 5.6,
+  "eps": 2.59,
+  "bps": 14.89,
+  "shares": 369460000,
+  "marketCapM": 30794,
+  "high52": 166.86,
+  "high52Date": "2026-06-03",
+  "low52": 53.07,
+  "low52Date": "2025-11-21",
+  "last": 83.35,
+  "prevClose": 76.99,
+  "nameKo": "플렉스",
+  "nameEn": "FLEX LTD",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 369460000
+ },
+ "estimates": {
+  "ticker": "FLEX",
+  "url": "https://finance.yahoo.com/quote/FLEX/analysis/",
+  "fetchedAt": "2026-10-28",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 1.06,
+    "epsLow": 1.04,
+    "epsHigh": 1.14,
+    "epsYearAgo": 0.79,
+    "epsAnalysts": 10,
+    "epsGrowth": 34,
+    "epsCur": "USD",
+    "rev": 8179519840,
+    "revAnalysts": 9,
+    "revYearAgo": 6804000000,
+    "revGrowth": 20.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.18,
+    "epsLow": 1.15,
+    "epsHigh": 1.2,
+    "epsYearAgo": 0.87,
+    "epsAnalysts": 2,
+    "epsGrowth": 35.1,
+    "epsCur": "USD",
+    "rev": 9065905000,
+    "revAnalysts": 2,
+    "revYearAgo": 7058000000,
+    "revGrowth": 28.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 4.63,
+    "epsLow": 4.6,
+    "epsHigh": 4.65,
+    "epsYearAgo": 3.3,
+    "epsAnalysts": 2,
+    "epsGrowth": 40.2,
+    "epsCur": "USD",
+    "rev": 35056157500,
+    "revAnalysts": 2,
+    "revYearAgo": 27914000000,
+    "revGrowth": 25.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 7.38,
+    "epsLow": 7.26,
+    "epsHigh": 7.5,
+    "epsYearAgo": 4.63,
+    "epsAnalysts": 2,
+    "epsGrowth": 59.6,
+    "epsCur": "USD",
+    "rev": 46086823000,
+    "revAnalysts": 2,
+    "revYearAgo": 35056157500,
+    "revGrowth": 31.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 1.06,
+    "d7": 0,
+    "d30": 0,
+    "d90": 5.3,
+    "ago90": 1,
+    "up7": 5,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.18,
+    "d7": 0,
+    "d30": -5,
+    "d90": -1,
+    "ago90": 1.19,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 4.63,
+    "d7": 0,
+    "d30": -2.1,
+    "d90": 1.7,
+    "ago90": 4.55,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 7.38,
+    "d7": 0,
+    "d30": 3.8,
+    "d90": 6.5,
+    "ago90": 6.93,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 1,
+    "estimate": 0.92,
+    "surprisePct": 8.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.93,
+    "estimate": 0.88,
+    "surprisePct": 6.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.87,
+    "estimate": 0.79,
+    "surprisePct": 10.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.79,
+    "estimate": 0.76,
+    "surprisePct": 4.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 3,
+   "total": 5,
+   "recent": [
+    {
+     "date": "2026-10-27",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 150,
+     "ptPrior": 180
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "Freedom Capital Markets",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 150,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Freedom Capital Markets",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 150,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-07-30",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 154,
+     "ptPrior": 177
+    },
+    {
+     "date": "2026-07-30",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 144,
+     "ptPrior": 203
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-28",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-27",
+  "numbers": {
+   "price": 83.35,
+   "ma20": 101.19,
+   "ma50": 107.11,
+   "ma150": 115.58,
+   "distMA50": -22.18,
+   "periodHigh": 166.86,
+   "pullbackFromHigh": -50.05,
+   "volRatio20": 2.2,
+   "dryUpRatio": 1.63
+  },
+  "last10": [
+   {
+    "d": "2026-10-14",
+    "o": 108.26,
+    "h": 108.62,
+    "l": 99.17,
+    "c": 100.35,
+    "v": 4848600,
+    "clsPos": 12,
+    "gapPct": -2.36
+   },
+   {
+    "d": "2026-10-15",
+    "o": 96.1,
+    "h": 98.62,
+    "l": 91.68,
+    "c": 98.5,
+    "v": 8630800,
+    "clsPos": 98,
+    "gapPct": -4.24
+   },
+   {
+    "d": "2026-10-16",
+    "o": 97.15,
+    "h": 97.15,
+    "l": 90.06,
+    "c": 90.46,
+    "v": 5758200,
+    "clsPos": 6,
+    "gapPct": -1.37
+   },
+   {
+    "d": "2026-10-19",
+    "o": 92.62,
+    "h": 93.6,
+    "l": 86.95,
+    "c": 87.54,
+    "v": 6179300,
+    "clsPos": 9,
+    "gapPct": 2.39
+   },
+   {
+    "d": "2026-10-20",
+    "o": 86.33,
+    "h": 90.37,
+    "l": 84.55,
+    "c": 87.49,
+    "v": 6867100,
+    "clsPos": 51,
+    "gapPct": -1.38
+   },
+   {
+    "d": "2026-10-21",
+    "o": 89.93,
+    "h": 90.41,
+    "l": 85.83,
+    "c": 86.25,
+    "v": 8890600,
+    "clsPos": 9,
+    "gapPct": 2.79
+   },
+   {
+    "d": "2026-10-22",
+    "o": 82.87,
+    "h": 83.19,
+    "l": 76.21,
+    "c": 76.69,
+    "v": 11005800,
+    "clsPos": 7,
+    "gapPct": -3.92
+   },
+   {
+    "d": "2026-10-23",
+    "o": 76.22,
+    "h": 77.38,
+    "l": 73.48,
+    "c": 76.55,
+    "v": 5962300,
+    "clsPos": 79,
+    "gapPct": -0.61
+   },
+   {
+    "d": "2026-10-26",
+    "o": 77.42,
+    "h": 79.05,
+    "l": 75.57,
+    "c": 76.99,
+    "v": 5281400,
+    "clsPos": 41,
+    "gapPct": 1.14
+   },
+   {
+    "d": "2026-10-27",
+    "o": 79.59,
+    "h": 85,
+    "l": 77.75,
+    "c": 83.35,
+    "v": 11507206,
+    "clsPos": 77,
+    "gapPct": 3.38
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FLEX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FLEX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 6일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}
