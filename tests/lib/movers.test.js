@@ -53,10 +53,37 @@ const ok = async (name, fn) => { try { await fn(); console.log('  ✅ ' + name);
       story: { headline: '핵심', detail: '자세히 '.repeat(60), quote: 'Quoted sentence from the body text.', quoteFrom: 0, others: [], refs: [0] }, news: [{ title: 'x'.repeat(100), publisher: 'P', date: '2026-10-27' }] });
     const msgs = M.buildMessages(Array.from({ length: 15 }, (_, i) => item(i)), { basis: '10/28 10:30 ET 기준' });
     assert.ok(msgs.length >= 2 && msgs.every((m) => m.length <= 3900));
-    assert.ok(msgs[0].startsWith('🚀 개장 1시간 급등 TOP 15 — 10/28 10:30 ET 기준'));
+    assert.ok(msgs[0].startsWith('🚀 9팀 나래 · 개장 1시간 급등 TOP 15 — 10/28 10:30 ET 기준'));
+    assert.ok(!msgs[0].includes('🧩'), 'AI 정리가 없으면(themes null) 공통 테마가 없다고 단정하지 않는다');
     assert.ok(msgs.at(-1).includes('매수 권유가 아닙니다') && msgs.at(-1).includes('티커 살까?'));
     assert.ok(msgs[0].includes('1. T0 이름 +7.3% · $10 · 대금 $2.5B\n📌 핵심\n자세히'));
     assert.ok(msgs[0].includes('“Quoted sentence from the body text.” — P 10-27') && msgs[0].includes('근거: x'));
+  });
+  await ok('공통 테마 — 근거 기사가 있는 종목만, 둘 이상일 때만, 숫자는 그 기사와 대조 · 같은 업종은 코드가 센다', () => {
+    const list = [
+      { ticker: 'LITE', industry: 'Communication Equipment', news: [{ title: 'Lumentum rallies', text: 'Lumentum rallied after StoneX initiated coverage with a Buy rating, citing AI-related demand stretching into 2029.' }] },
+      { ticker: 'COHR', industry: 'Scientific & Technical Instruments', news: [{ title: 'Coherent jumps', body: 'Coherent jumped 5.6% after StoneX initiated coverage with a Buy rating.' }] },
+      { ticker: 'CRDO', industry: 'Semiconductors', news: [] },
+      { ticker: 'ALAB', industry: 'Semiconductors', news: [{ title: 'Astera Labs product' }] },
+    ];
+    const t = M.cleanThemes([
+      { name: 'AI 광부품(StoneX 매수 개시)', why: 'StoneX가 매수 의견으로 분석을 시작했다. 목표가가 50% 높다.', members: [{ ticker: 'lite', n: 0 }, { ticker: 'COHR', n: 0 }, { ticker: 'CRDO', n: 0 }] },
+      { name: 'AI 반도체', why: '같이 올랐다', members: [{ ticker: 'CRDO', n: 0 }, { ticker: 'ALAB', n: 0 }] },
+      { name: '없는 종목', why: 'x', members: [{ ticker: 'ZZZ', n: 0 }, { ticker: 'LITE', n: 0 }] }], list);
+    assert.strictEqual(t.length, 1, '근거 기사가 있는 종목이 하나뿐인 테마는 버린다');
+    assert.deepStrictEqual(t[0].members.map((x) => x.ticker), ['LITE', 'COHR'], '기사 없는 CRDO 는 뺀다');
+    assert.strictEqual(t[0].why, 'StoneX가 매수 의견으로 분석을 시작했다.', '근거에 없는 숫자 문장은 지운다');
+    assert.deepStrictEqual(M.industryGroups(list), [{ industry: 'Semiconductors', ko: '반도체', tickers: ['CRDO', 'ALAB'] }]);
+    const msg = M.buildMessages(list.map((m) => ({ ...m, nameKo: '', ratePct: 6, price: 1, amountUsd: 2e9, story: null })), { basis: 'b', themes: t })[0];
+    assert.ok(msg.includes('🧩 공통 테마\n· AI 광부품(StoneX 매수 개시) — LITE·COHR\n  StoneX가 매수 의견으로 분석을 시작했다.\n· 같은 업종: 반도체 2종목(CRDO·ALAB)'));
+    assert.ok(msg.includes('3. CRDO +6.0% · $1 · 대금 $2.0B · 반도체'));
+    assert.ok(M.buildMessages([], { basis: 'b', themes: [] })[0].includes('뚜렷한 공통 테마 없음'));
+  });
+  await ok('대시보드 자료 — 기사 본문·요약문은 싣지 않는다', () => {
+    const d = M.dashboardData([{ ticker: 'COHR', ratePct: 6, price: 1, amountUsd: 2e9, industry: 'Semiconductors', story: null,
+      news: [{ title: 'T', url: 'https://x', date: '2026-10-27', publisher: 'P', text: 'SUMMARYTEXT', body: 'BODYTEXT' }] }], { basis: 'b', themes: null, updated: 'u' });
+    assert.ok(!/SUMMARYTEXT|BODYTEXT/.test(JSON.stringify(d)));
+    assert.deepStrictEqual(d.themes, []); assert.strictEqual(d.items[0].industryKo, '반도체');
   });
   await ok('텔레그램 "급등" 명령', () => {
     const L = require('../../scripts/tg-listener');
