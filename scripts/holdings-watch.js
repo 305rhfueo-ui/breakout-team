@@ -200,7 +200,7 @@ async function articleBody(item) {
 function bodyFromHtml(h) {
   const un = (t) => t.replace(/<[^>]+>/g, ' ').replace(/&#x27;|&#39;|&rsquo;|&lsquo;/g, "'").replace(/&quot;|&ldquo;|&rdquo;/g, '"').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim();
   return [...String(h || '').matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map((m) => un(m[1]))
-    .filter((t) => t.length > 60 && !/Livestream|SIGN IN|newsletter|delivered to your inbox|Subscribe|Got a confidential/i.test(t)).join('\n').slice(0, 5000);
+    .filter((t) => t.length > 60 && !/Livestream|SIGN IN|newsletter|delivered to your inbox|Subscribe|Got a confidential|Continue »|Stock Advisor|Before you buy stock in|Create your free account|Missed AI's/i.test(t))   // 광고 문단(2026-10-28 야후 실측: Motley Fool 광고) 제외.join('\n').slice(0, 5000);
 }
 
 // 인용문이 원문 페이지에 실제로 있는가 — 페이지를 받아 태그를 걷어 내고 앞 60자를 찾는다. 못 받으면 미확인(false).
@@ -343,4 +343,4 @@ if (require.main === module) {
     .then((r) => { if (a.includes('--print') && r.messages) console.log(r.messages.join('\n\n────────\n\n')); process.exit(0); })
     .catch((e) => { console.error(e); process.exit(1); });
 }
-module.exports = { holdingsFromTrades, holdingsFromPrices, pickNew, remember, prune, cleanSummary, cleanDigest, verifyQuote, bodyFromHtml, buildMessages, dashboardData, run };
+module.exports = { holdingsFromTrades, holdingsFromPrices, pickNew, remember, prune, cleanSummary, cleanDigest, verifyQuote, bodyFromHtml, articleBody, buildMessages, dashboardData, run };

@@ -33,20 +33,30 @@ const ok = async (name, fn) => { try { await fn(); console.log('  ✅ ' + name);
     const top = await M.pickTop(rows, async (t) => t.startsWith('E'));
     assert.strictEqual(top.length, 13); assert.ok(top.every((x) => x.ticker.startsWith('S')));
   });
-  await ok('왜 올랐나 — 근거 기사에 없는 숫자 문장은 지우고, 근거가 없으면 "찾지 못했다"', () => {
-    const news = [{ title: 'SoFi beats estimates, raises guidance', text: 'Net revenue rose 44% to $1.4 billion.' }];
-    assert.strictEqual(M.cleanWhy({ why: '실적이 예상을 웃돌았다. 매출이 44% 늘었다. 주가가 30% 더 오를 것이다.', refs: [0] }, news).why, '실적이 예상을 웃돌았다. 매출이 44% 늘었다.');
-    assert.strictEqual(M.cleanWhy({ why: '좋은 소식', refs: [] }, news).why, '기사로는 이유를 찾지 못했다');
-    assert.strictEqual(M.cleanWhy({ why: '좋은 소식', refs: [5] }, news).why, '기사로는 이유를 찾지 못했다', '없는 기사 번호');
-    assert.strictEqual(M.cleanWhy(null, news), null);
+  await ok('기사 정리 — 근거에 없는 숫자 문장은 지우고, 인용은 본문에 있어야, 근거가 없으면 "찾지 못했다"', () => {
+    const news = [{ title: 'SoFi beats estimates, raises guidance', text: '', body: 'SoFi reported that adjusted net revenue climbed 44% year-over-year to a record $1.4 billion. Shares rose.' },
+      { title: 'SoFi joins new index', text: 'SoFi was added to an index on Monday.' }];
+    const s = M.cleanStory({ headline: '실적 서프라이즈·가이던스 상향', detail: '조정 순매출이 44% 늘어 14억 달러였다. 주가는 30% 더 오를 것이다.',
+      quote: 'SoFi reported that adjusted net revenue climbed 44% year-over-year to a record $1.4 billion.', quoteFrom: 0, others: [{ n: 1, line: '지수에 새로 편입됐다.' }], refs: [0] }, news);
+    assert.strictEqual(s.detail, '조정 순매출이 44% 늘어 14억 달러였다.');
+    assert.ok(s.quote.startsWith('SoFi reported') && s.quoteFrom === 0);
+    assert.deepStrictEqual(s.others, [{ n: 1, line: '지수에 새로 편입됐다.' }]);
+    assert.strictEqual(M.cleanStory({ headline: 'h', detail: 'd', quote: 'This sentence is not in the body at all.', quoteFrom: 0, others: [], refs: [0] }, news).quote, '', '본문에 없는 인용은 지운다');
+    const none = M.cleanStory({ headline: '좋은 소식', detail: '좋다', quote: '', quoteFrom: -1, others: [], refs: [] }, news);
+    assert.strictEqual(none.detail, '기사로는 이유를 찾지 못했다'); assert.strictEqual(none.headline, '');
+    assert.strictEqual(M.cleanStory(null, news), null);
+    assert.strictEqual(M.cleanStory({ headline: 'h', detail: '실적이 좋았다(기사 0, 요약 기준). 매출이 44% 늘었다 (기사 0).', quote: '', quoteFrom: -1, others: [], refs: [0] }, news).detail,
+      '실적이 좋았다. 매출이 44% 늘었다.', '내부 기사 번호는 지운다');
   });
   await ok('메시지 — 3900자 단위로 나누고 기준 시각·꼬리 문구', () => {
-    const item = (i) => ({ ticker: `T${i}`, nameKo: '이름', ratePct: 7.25, price: 10, amountUsd: 2.5e9, why: { why: '이유 '.repeat(60), refs: [0] }, news: [{ title: 'x'.repeat(100), publisher: 'P', date: '2026-10-27' }] });
+    const item = (i) => ({ ticker: `T${i}`, nameKo: '이름', ratePct: 7.25, price: 10, amountUsd: 2.5e9,
+      story: { headline: '핵심', detail: '자세히 '.repeat(60), quote: 'Quoted sentence from the body text.', quoteFrom: 0, others: [], refs: [0] }, news: [{ title: 'x'.repeat(100), publisher: 'P', date: '2026-10-27' }] });
     const msgs = M.buildMessages(Array.from({ length: 15 }, (_, i) => item(i)), { basis: '10/28 10:30 ET 기준' });
     assert.ok(msgs.length >= 2 && msgs.every((m) => m.length <= 3900));
     assert.ok(msgs[0].startsWith('🚀 개장 1시간 급등 TOP 15 — 10/28 10:30 ET 기준'));
     assert.ok(msgs.at(-1).includes('매수 권유가 아닙니다') && msgs.at(-1).includes('티커 살까?'));
-    assert.ok(msgs[0].includes('1. T0 이름 +7.3% · $10 · 대금 $2.5B'));
+    assert.ok(msgs[0].includes('1. T0 이름 +7.3% · $10 · 대금 $2.5B\n📌 핵심\n자세히'));
+    assert.ok(msgs[0].includes('“Quoted sentence from the body text.” — P 10-27') && msgs[0].includes('근거: x'));
   });
   await ok('텔레그램 "급등" 명령', () => {
     const L = require('../../scripts/tg-listener');

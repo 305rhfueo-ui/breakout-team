@@ -169,4 +169,39 @@ async function getNews(ticker, { cacheOnly = false } = {}) {
   try { return await cache.through('yahooNews', T, () => fetchNews(T)); } catch (e) { return null; }
 }
 
-module.exports = { getEstimates, getNews, parseNews, parseQuoteSummary, newSession, coolingDown, GAP_MS, COOLDOWN_H };
+// 야후에 실린 기사 본문 (2026-10-28 사용자: "기사 요약 — 최핵심은 자세히") — finance.yahoo.com 의 무료 제휴 기사(Motley Fool·Zacks·StockStory 등)만.
+//   /m/ 링크는 WSJ·Barron's 같은 유료 제휴로 넘어가므로 받지 않는다. 같은 간격(3~5초)·쿨다운을 쓴다.
+//   ⚠️ 전역 fetch 는 헤더 한도 16KB 라 야후 페이지(쿠키가 많다)에서 UND_ERR_HEADERS_OVERFLOW 로 터진다(verify-claims 와 같은 이유) → https + maxHeaderSize.
+//   429 면 12시간 쉰다. 403 은 그 기사만 건너뛴다(유료·지역 제한일 수 있다 — 전망치까지 막지 않게). 같은 기사는 7일 캐시.
+function httpsText(url, hops = 0) {
+  return new Promise((resolve) => {
+    let u; try { u = new URL(url); } catch (e) { return resolve({ status: 0 }); }
+    const req = require('https').request(u, { maxHeaderSize: 128 * 1024, timeout: 20000,
+      headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36', Accept: 'text/html' } }, (r) => {
+      if (r.statusCode >= 300 && r.statusCode < 400 && r.headers.location && hops < 4) { r.resume(); return resolve(httpsText(new URL(r.headers.location, u).toString(), hops + 1)); }
+      let d = ''; r.setEncoding('utf8'); r.on('data', (c) => { if (d.length < 3e6) d += c; }); r.on('end', () => resolve({ status: r.statusCode, html: d }));
+    });
+    req.on('timeout', () => { req.destroy(); resolve({ status: 0 }); }); req.on('error', () => resolve({ status: 0 })); req.end();
+  });
+}
+async function getArticle(url) {
+  if (!/^https:\/\/finance\.yahoo\.com\//.test(String(url || '')) || /\/m\//.test(url)) return null;
+  const key = require('crypto').createHash('sha1').update(url).digest('hex').slice(0, 20);
+  try {
+    return await cache.through('yahooArticle', key, async () => {
+      if (blocked || coolingDown()) return null;
+      await throttle();
+      const r = await httpsText(url);
+      if (r.status === 429) { startCooldown(429); return null; }
+      if (r.status !== 200) return null;
+      const body = require('../holdings-watch').bodyFromHtml(r.html);
+      if (body.length >= 200) return body;
+      // 본문이 문단(<p>)이 아니라 스크립트로 그려지는 페이지(StockStory 등, 2026-10-28 DELL 실측) — 페이지 요약(meta description)에 핵심이 있다
+      const m = r.html.match(/<meta[^>]+(?:name="description"|property="og:description")[^>]+content="([^"]{80,})"/i);
+      const desc = m ? m[1].replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim() : '';
+      return desc.length >= 80 ? desc : null;
+    }, 7 * 864e5);
+  } catch (e) { return null; }
+}
+
+module.exports = { getArticle, getEstimates, getNews, parseNews, parseQuoteSummary, newSession, coolingDown, GAP_MS, COOLDOWN_H };
