@@ -1,38 +1,16 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-10-27",
+  "generated": "2026-10-28",
   "items": [
-    {
-      "ticker": "RGEN",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.17, 최저 0.14)",
-        "넘어야 할 선 $182.52 바로 아래(-1.29%)",
-        "최근 2주 종가가 1.48% 안에서만 움직였다",
-        "1년 최고가의 90.6% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 182.52,
-      "price": 180.17,
-      "barGap": false
-    },
     {
       "ticker": "SYNA",
       "score": 8,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.42배로 줄었다",
-        "최근 1주는 더 조용하다(그 전 1주의 0.64배)",
-        "최근 1주 거래량이 한 달 평균의 0.68배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $121.98 바로 아래(-3.8%)",
-        "최근 2주 종가가 0.59% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.43배로 줄었다",
+        "최근 1주는 더 조용하다(그 전 1주의 0.6배)",
+        "최근 1주 거래량이 한 달 평균의 0.6배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $121.98 바로 아래(-3.18%)",
+        "최근 2주 종가가 0.26% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
@@ -42,7 +20,7 @@ window.CHARTCHECK_DATA = {
         "tightCloses"
       ],
       "resistance": 121.98,
-      "price": 117.35,
+      "price": 118.1,
       "barGap": false
     },
     {
@@ -50,10 +28,10 @@ window.CHARTCHECK_DATA = {
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.7배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.64배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $607.89 바로 아래(-2.48%)",
-        "1년 최고가의 97.29% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.71배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.65배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $607.89 바로 아래(-2.75%)",
+        "1년 최고가의 97.02% 자리"
       ],
       "flags": [
         "contract10",
@@ -62,7 +40,7 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 607.89,
-      "price": 592.84,
+      "price": 591.2,
       "barGap": false
     },
     {
@@ -71,9 +49,9 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.06, 최저 0.06)",
-        "넘어야 할 선 $386.23 바로 아래(-0.54%)",
-        "최근 2주 종가가 1.72% 안에서만 움직였다",
-        "1년 최고가의 97.8% 자리"
+        "넘어야 할 선 $386.23 바로 아래(-1.18%)",
+        "최근 2주 종가가 1.66% 안에서만 움직였다",
+        "1년 최고가의 97.17% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -82,67 +60,63 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 386.23,
-      "price": 384.15,
+      "price": 381.67,
       "barGap": false
     },
     {
-      "ticker": "ELF",
+      "ticker": "PLTR",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.68배)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.18, 최저 0.14)",
-        "넘어야 할 선 $118.29 바로 아래(-4.52%)",
-        "최근 2주 종가가 2.4% 안에서만 움직였다"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.14, 최저 0.12)",
+        "넘어야 할 선 $207.52 바로 아래(-4.24%)",
+        "최근 2주 종가가 2.42% 안에서만 움직였다",
+        "1년 최고가의 93.33% 자리"
       ],
       "flags": [
-        "contract5",
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 207.52,
+      "price": 198.73,
+      "barGap": false
+    },
+    {
+      "ticker": "AGL",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.16, 최저 0.13)",
+        "넘어야 할 선 $94 바로 아래(-3.56%)",
+        "최근 2주 종가가 2.2% 안에서만 움직였다"
+      ],
+      "flags": [
         "bbSqueeze",
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 118.29,
-      "price": 112.94,
+      "resistance": 94,
+      "price": 90.65,
       "barGap": false
     },
     {
-      "ticker": "FLXS",
-      "score": 6,
+      "ticker": "SNOW",
+      "score": 5,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.75배로 줄었다",
-        "넘어야 할 선 $84.47 바로 아래(-2.27%)",
-        "최근 2주 종가가 1.69% 안에서만 움직였다",
-        "1년 최고가의 91.33% 자리"
+        "최근 1주는 더 조용하다(그 전 1주의 0.62배)",
+        "최근 1주 거래량이 한 달 평균의 0.68배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $341.95 바로 아래(-1.32%)"
       ],
       "flags": [
-        "contract10",
-        "nearResist",
-        "tightCloses",
-        "high52"
+        "contract5",
+        "volDry",
+        "nearResist"
       ],
-      "resistance": 84.47,
-      "price": 82.55,
-      "barGap": false
-    },
-    {
-      "ticker": "RVTY",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.07, 최저 0.06)",
-        "넘어야 할 선 $166.25 바로 아래(-3.52%)",
-        "최근 2주 종가가 1.93% 안에서만 움직였다",
-        "1년 최고가의 96.52% 자리"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 166.25,
-      "price": 160.39,
+      "resistance": 341.95,
+      "price": 337.42,
       "barGap": false
     },
     {
@@ -150,9 +124,9 @@ window.CHARTCHECK_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.16, 최저 0.13)",
-        "넘어야 할 선 $292.72 바로 아래(-4.26%)",
-        "1년 최고가의 93.2% 자리"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.16, 최저 0.16)",
+        "넘어야 할 선 $292.72 바로 아래(-4.07%)",
+        "1년 최고가의 93.39% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -160,53 +134,66 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 292.72,
-      "price": 280.24,
+      "price": 280.82,
       "barGap": false
     },
     {
-      "ticker": "PLTR",
+      "ticker": "ELF",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.12)",
-        "넘어야 할 선 $207.52 바로 아래(-4.18%)",
-        "1년 최고가의 93.38% 자리"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.18, 최저 0.14)",
+        "넘어야 할 선 $118.29 바로 아래(-4.33%)",
+        "최근 2주 종가가 1.87% 안에서만 움직였다"
       ],
       "flags": [
         "bbSqueeze",
         "nearResist",
-        "high52"
+        "tightCloses"
       ],
-      "resistance": 207.52,
-      "price": 198.84,
+      "resistance": 118.29,
+      "price": 113.17,
       "barGap": false
     },
     {
-      "ticker": "SHOP",
+      "ticker": "TWLO",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.69배)",
-        "넘어야 할 선 $169.69 바로 아래(-0.89%)",
-        "최근 2주 종가가 2.02% 안에서만 움직였다",
-        "1년 최고가의 92.31% 자리"
+        "최근 1주는 더 조용하다(그 전 1주의 0.6배)",
+        "최근 1주 거래량이 한 달 평균의 0.47배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $258.35 바로 아래(-1.47%)"
       ],
       "flags": [
         "contract5",
-        "nearResist",
-        "tightCloses",
-        "high52"
+        "volDry",
+        "nearResist"
       ],
-      "resistance": 169.69,
-      "price": 168.18,
+      "resistance": 258.35,
+      "price": 254.56,
+      "barGap": false
+    },
+    {
+      "ticker": "RGEN",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.14)",
+        "넘어야 할 선 $182.52 바로 아래(-3.68%)",
+        "최근 2주 종가가 1.46% 안에서만 움직였다"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 182.52,
+      "price": 175.8,
       "barGap": false
     }
   ],
-  "total": 12,
+  "total": 10,
   "shown": 10,
   "cap": 10,
-  "beyondCap": [
-    "TXG(5)",
-    "WIX(5)"
-  ]
+  "beyondCap": []
 };
