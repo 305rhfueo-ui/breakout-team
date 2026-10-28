@@ -9,3 +9,4 @@ node scripts/holdings-watch.js || true   # 보유 종목 새 소식 (2026-10-17)
 node scripts/wait-rs-fresh.js
 node scripts/run-breakout.js
 case "$(date +%u)" in 2|3|4|5|6) bash deploy/macmini/run-claude-job.sh research ;; esac
+node scripts/sns-watch.js || true   # 팝업 맨 밑 SNS 반응(레딧, 2026-10-28) — 맨 끝: 예절 간격 때문에 20분 안팎이라 실장 보고를 늦추지 않게

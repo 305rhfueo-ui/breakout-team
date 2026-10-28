@@ -13,6 +13,7 @@
 <script src="dashboard/data/ondemand.js"   onerror="window.__NO_OD=1"></script>
 <script src="dashboard/data/holdings.js"   onerror="window.__NO_HD=1"></script>
 <script src="dashboard/data/movers.js"     onerror="window.__NO_MV=1"></script>
+<script src="dashboard/data/sns.js"        onerror="window.__NO_SNS=1"></script>
 <script src="dashboard/data/paper.js"      onerror="window.__NO_PAPER=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
 <script src="dashboard/data/fitscore.js"   onerror="window.__NO_FIT=1"></script>
@@ -217,7 +218,7 @@ details.deep .ck,.ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;fo
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,od:window.ONDEMAND_DATA,hd:window.HOLDINGS_DATA,mv:window.MOVERS_DATA,cc:window.CHARTCHECK_DATA};
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,od:window.ONDEMAND_DATA,hd:window.HOLDINGS_DATA,mv:window.MOVERS_DATA,sns:window.SNS_DATA,cc:window.CHARTCHECK_DATA};
 const $=i=>document.getElementById(i);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -945,6 +946,7 @@ function openTicker(T){
   h+=estBlock(T,(p&&p.estimates)||(od&&od.estimates)||null,DL);   // 맨 아래 — 전망치 (자료가 없어도 야후 링크는 나간다)
   if(!(p&&p.research&&['done','no_source'].includes(p.research.status))&&!(plan&&plan.deep)&&!(ep&&ep.catalyst&&ep.catalyst.status==='done')&&!d&&!od)
     h+=`<div class="sec"><div class="note" style="margin:0">아직 조사 전입니다 — 거래대금 상위·세 기간 공통 종목부터 매일 순환 조사합니다.</div></div>`;
+  h+=snsBlock(T);   // 맨 밑 — SNS 반응 (2026-10-28)
   $('mbox2').innerHTML=h;$('modal2').classList.add('on');$('modal2').scrollTop=0;
   loadOhlc(T,r=>{const b=$('ohlcBox');if(!b)return;b.innerHTML=r&&r.length>20?candleSvg(r):'<div class="empty">차트 데이터가 없습니다 (봉 수집 대상이 아닌 종목)</div>';});
   loadSeries(T,S=>{const b=$('rsBox');if(!b)return;b.innerHTML=S?rsSvg(S):'<div class="empty">RS 시계열이 없습니다 (RS 사이트 목록 밖이거나 다음 아침 스캔에서 만들어집니다)</div>';});
@@ -997,6 +999,23 @@ function canslimRows(rows,D,ep){
   return r?(rows||[]).map(x=>String(x.item||'')[0]==='N'?r:x):rows;
 }
 
+/* ── SNS 반응 (2026-10-28 사용자: "분석 자료 제일 밑에 SNS 글 분석 — 레딧이랑 X") ──
+   레딧은 아침에 모은 최근 1주 글 + AI 정리(scripts/sns-watch.js). X 는 자동 수집하지 않고 $티커 검색 링크만(사용자 결정 — 계정 정지 위험). */
+function snsBlock(T){
+  const x=((D.sns&&D.sns.items)||{})[T],q=encodeURIComponent('$'+T);
+  const MOOD={bull:'🟢 낙관 우세',bear:'🔴 비관 우세',mixed:'🟡 엇갈림'};
+  let h=`<div class="sec"><h4>SNS 반응 <span class="dim">(레딧 최근 1주${x?` · ${esc(x.fetchedOn)} 수집`:''})</span>
+    <a href="https://x.com/search?q=${q}&f=live" target="_blank" style="font-size:13px;margin-left:6px">X 에서 $${esc(T)} 최신 ↗</a>
+    <a href="https://x.com/search?q=${q}&f=top" target="_blank" style="font-size:13px;margin-left:6px">X 인기 글 ↗</a></h4>`;
+  const P=(x&&x.posts)||[];
+  if(!P.length)h+=`<div class="note">${x?'최근 1주 레딧에서 이 종목 글을 찾지 못했습니다(두 글자 이하 티커는 $ON 처럼 쓴 글만 셉니다).':'레딧 자료가 아직 없습니다 — 매일 아침 팝업 종목을 모읍니다.'}</div>`;
+  else{
+    if(x.summary)h+=`<div style="margin-bottom:6px"><span class="chip">${MOOD[x.mood]||'🟡 엇갈림'}</span> <span class="dim">글 ${P.length}개 · 추천 합 ${P.reduce((a,p)=>a+(p.score||0),0).toLocaleString()}</span></div><div class="pi">${esc(x.summary)}</div>`
+      +(x.heat?`<div class="pi">🔥 <b>과열 신호</b> ${esc(x.heat)}</div>`:'');
+    h+=`<ul class="plist">${P.slice(0,6).map(p=>`<li><a href="${esc(p.url)}" target="_blank">${esc(p.title)}</a> <span class="dim">r/${esc(p.sub)} · ▲${p.score} · 💬${p.comments}${p.date?' · '+esc(p.date.slice(5)):''}</span></li>`).join('')}</ul>`;
+  }
+  return h+`<div class="note">레딧 글은 개인 의견이고 사실 확인을 거치지 않았습니다. 많이 떠들수록 '서로의 반응'일 수 있으니 매수 이유가 아니라 과열 경고로 보세요. X 는 자동으로 모으지 않고 검색 링크만 둡니다.</div></div>`;
+}
 /* ── 전망치 — 야후 파이낸스 analysis 자료 (2026-10-15). 숫자·요약문은 코드, 해석은 가장 최근 심층 분석의 estimatesNarrative ── */
 const CURKO={USD:'달러',EUR:'유로',TWD:'대만달러',JPY:'엔',CNY:'위안',KRW:'원',GBP:'파운드',CAD:'캐나다달러',HKD:'홍콩달러',CHF:'스위스프랑'};
 function estSummary(e){

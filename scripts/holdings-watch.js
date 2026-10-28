@@ -343,4 +343,4 @@ if (require.main === module) {
     .then((r) => { if (a.includes('--print') && r.messages) console.log(r.messages.join('\n\n────────\n\n')); process.exit(0); })
     .catch((e) => { console.error(e); process.exit(1); });
 }
-module.exports = { holdingsFromTrades, holdingsFromPrices, pickNew, remember, prune, cleanSummary, cleanDigest, verifyQuote, bodyFromHtml, articleBody, buildMessages, dashboardData, run };
+module.exports = { holdingsFromTrades, holdingsFromPrices, pickNew, remember, prune, cleanSummary, cleanDigest, verifyQuote, bodyFromHtml, articleBody, findClaude, buildMessages, dashboardData, run };

@@ -204,4 +204,4 @@ async function getArticle(url) {
   } catch (e) { return null; }
 }
 
-module.exports = { getArticle, getEstimates, getNews, parseNews, parseQuoteSummary, newSession, coolingDown, GAP_MS, COOLDOWN_H };
+module.exports = { getArticle, getEstimates, getNews, parseNews, parseQuoteSummary, newSession, coolingDown, httpsText, GAP_MS, COOLDOWN_H };
