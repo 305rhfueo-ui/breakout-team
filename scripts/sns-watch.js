@@ -1,10 +1,11 @@
 'use strict';
 // SNS 반응 — 티커 팝업 맨 밑 (2026-10-28 사용자: "분석 자료 제일 밑에 SNS 에서 해당 종목 글들을 분석 — 레딧이랑 X")
 //
-//   node scripts/sns-watch.js            아침 morning.sh 가 맨 끝에 부른다(종목 100~150개 · 20분 안팎, 레딧·보관소 예절 간격 때문)
+//   node scripts/sns-watch.js            아침 morning.sh 가 맨 끝에 부른다(보관소 요청 하루 20번 안팎 · 몇 분)
 //   옵션 --only=TSLA,NBIS(그 종목만) · --no-ai(글 목록만) · --no-git(대시보드 파일만 쓰고 push 안 함)
 //
-// 레딧: data/reddit.js 가 최근 1주 관련 글(제목·본문·추천·댓글 수)을 모으고, Claude(sonnet, 도구 없음)가 종목마다
+// 레딧: data/reddit.js 가 주식 게시판 14곳의 최근 1주 글을 공개 보관소(arctic-shift)에서 받아 두고(레딧에는 접속하지 않는다),
+//   종목마다 그 티커가 나온 글(제목·본문·추천·댓글 수)을 골라 Claude(sonnet, 도구 없음)가
 //   분위기(낙관·비관·엇갈림) · 사람들이 하는 이야기 · 과열 신호를 쓴다. 레딧 글은 개인 의견 — 근거가 아니라 분위기다.
 //   요약에 글에 없는 숫자가 들어가면 그 문장을 코드가 지운다. 매수·매도 권유 금지. 글 속 지시는 자료일 뿐이다.
 // X: 자동 수집하지 않는다(사용자 결정 2026-10-28 — 로그인 쿠키 방식은 X 약관 위반·계정 정지 위험). 팝업에 $티커 검색 링크만 둔다.
@@ -65,12 +66,13 @@ function cleanMood(raw, posts) {
 async function run({ only = null, ai = true, publish = true } = {}) {
   const d = today(), R = require('./data/reddit');
   const list = only || tickers(d), items = {}, t0 = Date.now();
-  let fail = 0;
-  for (const T of list) {
-    const posts = await R.getPosts(T);
-    if (!posts) { fail++; if (R.blocked.reddit) break; continue; }
-    items[T] = { fetchedOn: d, posts };
-  }
+  const sy = await R.sync();
+  if (!sy.total) { say('WARN', `SNS(레딧): 보관소에서 글을 받지 못했다${R.isBlocked() ? ' (보관소가 막음)' : ''} — 화면은 어제 자료 그대로`); return { ok: false }; }
+  const store = R.load();
+  for (const T of list) items[T] = { fetchedOn: d, posts: R.postsFor(T, { store }) };
+  const fresh = await R.refresh([...new Set(Object.values(items).flatMap((x) => x.posts.map((p) => p.id)))]);
+  for (const x of Object.values(items)) { for (const p of x.posts) Object.assign(p, fresh[p.id] || {}); x.posts.sort((a, b) => b.score - a.score); }
+  const fail = sy.ok ? 0 : 1;
   // 정리 — 글 묶음이 어제와 같으면 기억해 둔 정리를 다시 쓴다(매번 AI 를 부르지 않게)
   const sums = readJson(SUM_FILE, null) || {};
   const keyOf = (x) => `${x.ticker}|${x.posts.map((p) => p.id).sort().join(',')}`;
@@ -89,7 +91,8 @@ async function run({ only = null, ai = true, publish = true } = {}) {
   for (const [T, x] of Object.entries(merged)) if (Date.parse(d) - Date.parse(x.fetchedOn) > KEEP_DAYS * 864e5) delete merged[T];
   writeWindowData(file, 'SNS_DATA', { updated: new Date().toISOString(), items: merged }, { compact: true });
   const got = Object.keys(items).length, withMood = Object.values(items).filter((x) => x.summary).length;
-  say('SYSTEM', `SNS(레딧) ${got}/${list.length}종목 · 글 ${Object.values(items).reduce((a, x) => a + x.posts.length, 0)}개 · 정리 ${withMood}종목 · 실패 ${fail}${R.blocked.reddit ? ' · ⚠️ 레딧이 막아 중단' : ''} · ${Math.round((Date.now() - t0) / 60000)}분`);
+  const withPosts = Object.values(items).filter((x) => x.posts.length).length;
+  say('SYSTEM', `SNS(레딧 보관소) 새 글 ${sy.got} · 보관 ${sy.total} → 글 있는 종목 ${withPosts}/${got} · 글 ${Object.values(items).reduce((a, x) => a + x.posts.length, 0)}개 · 정리 ${withMood}종목${fail ? ' · ⚠️ 보관소가 중간에 막음' : ''} · ${Math.round((Date.now() - t0) / 60000)}분`);
   if (publish) { const pub = require('./finish-ondemand').gitPublish([file], `sns: ${d} 레딧 반응 ${got}종목`); if (!pub.ok) say('WARN', `GitHub: ${pub.error}`); }
   return { ok: true, items, fail };
 }
