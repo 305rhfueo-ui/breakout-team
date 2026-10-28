@@ -1000,15 +1000,15 @@ function canslimRows(rows,D,ep){
 }
 
 /* ── SNS 반응 (2026-10-28 사용자: "분석 자료 제일 밑에 SNS 글 분석 — 레딧이랑 X") ──
-   레딧은 아침에 모은 최근 1주 글 + AI 정리(scripts/sns-watch.js). X 는 자동 수집하지 않고 $티커 검색 링크만(사용자 결정 — 계정 정지 위험). */
+   레딧은 아침에 공개 보관소(arctic-shift)에서 받은 주식 게시판 최근 1주 글 + AI 정리(scripts/sns-watch.js). X 는 자동 수집하지 않고 $티커 검색 링크만(사용자 결정 — 계정 정지 위험). */
 function snsBlock(T){
   const x=((D.sns&&D.sns.items)||{})[T],q=encodeURIComponent('$'+T);
   const MOOD={bull:'🟢 낙관 우세',bear:'🔴 비관 우세',mixed:'🟡 엇갈림'};
-  let h=`<div class="sec"><h4>SNS 반응 <span class="dim">(레딧 최근 1주${x?` · ${esc(x.fetchedOn)} 수집`:''})</span>
+  let h=`<div class="sec"><h4>SNS 반응 <span class="dim">(레딧 주식 게시판 14곳 최근 1주${x?` · ${esc(x.fetchedOn)} 수집`:''})</span>
     <a href="https://x.com/search?q=${q}&f=live" target="_blank" style="font-size:13px;margin-left:6px">X 에서 $${esc(T)} 최신 ↗</a>
     <a href="https://x.com/search?q=${q}&f=top" target="_blank" style="font-size:13px;margin-left:6px">X 인기 글 ↗</a></h4>`;
   const P=(x&&x.posts)||[];
-  if(!P.length)h+=`<div class="note">${x?'최근 1주 레딧에서 이 종목 글을 찾지 못했습니다(두 글자 이하 티커는 $ON 처럼 쓴 글만 셉니다).':'레딧 자료가 아직 없습니다 — 매일 아침 팝업 종목을 모읍니다.'}</div>`;
+  if(!P.length)h+=`<div class="note">${x?'최근 1주 레딧 주식 게시판(wallstreetbets·stocks 등 14곳)에서 이 종목 글을 찾지 못했습니다. 두 글자 이하 티커는 $ON 처럼 쓴 글만 세고, 종목 전용 게시판은 보지 못합니다.':'레딧 자료가 아직 없습니다 — 매일 아침 팝업 종목을 모읍니다.'}</div>`;
   else{
     if(x.summary)h+=`<div style="margin-bottom:6px"><span class="chip">${MOOD[x.mood]||'🟡 엇갈림'}</span> <span class="dim">글 ${P.length}개 · 추천 합 ${P.reduce((a,p)=>a+(p.score||0),0).toLocaleString()}</span></div><div class="pi">${esc(x.summary)}</div>`
       +(x.heat?`<div class="pi">🔥 <b>과열 신호</b> ${esc(x.heat)}</div>`:'');
