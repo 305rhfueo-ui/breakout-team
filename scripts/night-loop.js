@@ -8,7 +8,7 @@
 // 그래야 Windows 와 맥에서 똑같이 돈다. 장이 안 열리는 날이면 바로 끝난다.
 
 const path = require('path');
-const { spawnSync } = require('child_process');
+const { spawnSync, spawn } = require('child_process');
 const { loadEnv, say, readJson, paths } = require('./lib/util');
 const cal = require('./lib/market-calendar');
 const { etParts } = require('./paper-trader');
@@ -30,9 +30,13 @@ const run = (args) => spawnSync(process.execPath, [path.join(__dirname, 'paper-t
     say('T6', '개장 전 — 관심 종목의 거래량 프로필을 미리 받아 둡니다');
     run(['--prep']);
   }
+  let moversSpawned = false;
   for (;;) {
     const et = etParts(Date.now());
     if (et.date !== session || et.hm > '1700') break;
+    // 개장 1시간 급등 TOP 15 (2026-10-28 사용자) — 10:30 ET 에 한 번. 기다리지 않는다(매매 틱을 막지 않게). 세션당 한 번은 그 스크립트가 지킨다.
+    //   11:30 ET 가 넘어 루프를 켰으면 보내지 않는다("개장 1시간 뒤" 자료가 아니게 된다).
+    if (!moversSpawned && et.hm >= '1030' && et.hm < '1130') { moversSpawned = true; spawn(process.execPath, [path.join(__dirname, 'open-movers.js')], { stdio: 'inherit', cwd: paths.root }); }
     if (et.hm >= '0935') {
       run(pass);
       const meta = readJson(path.join(paths.paperDir, 'meta.json'), {});
