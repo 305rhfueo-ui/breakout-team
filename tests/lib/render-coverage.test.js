@@ -176,6 +176,20 @@ console.log('\n[9팀] 나래 — 개장 급등 카드·탭 (2026-10-28)');
   ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e9.document.getElementById('team').innerHTML.includes('나래')); assert.ok(e9.bodyFor('t9').includes('아직 확인 전')); });
 }
 
+console.log('\n[팝업] SNS 반응 — 레딧 정리·글 목록·X 검색 링크 (2026-10-28)');
+{
+  const cs = loadRoom(`window.SNS_DATA = ${JSON.stringify({ items: { ZZSNS: { fetchedOn: '2026-10-28', mood: 'bear', summary: 'SNSSUM 요약', heat: 'SNSHEAT 과열',
+    posts: [{ id: 'a', sub: 'stocks', title: 'SNSPOST title', url: 'https://www.reddit.com/r/stocks/comments/a/', date: '2026-10-27', score: 164, comments: 40, body: 'BODYTEXT' }] } } })};`);
+  cs.openTicker('ZZSNS'); const h = cs.document.getElementById('mbox2').innerHTML;
+  ok('팝업 맨 밑에 분위기·요약·과열 신호·레딧 글·X $티커 링크', () => {
+    for (const k of ['SNS 반응', '🔴 비관 우세', 'SNSSUM 요약', '🔥 <b>과열 신호</b> SNSHEAT 과열', 'href="https://www.reddit.com/r/stocks/comments/a/"', 'r/stocks · ▲164 · 💬40 · 10-27',
+      'https://x.com/search?q=%24ZZSNS&f=live', '과열 경고로 보세요']) assert.ok(h.includes(k), `없음: ${k}`);
+    assert.ok(h.lastIndexOf('SNS 반응') > h.lastIndexOf('전망치'), 'SNS 칸이 전망치보다 아래');
+  });
+  cs.openTicker('ZZNONE'); const h0 = cs.document.getElementById('mbox2').innerHTML;
+  ok('레딧 자료가 없어도 X 링크는 나간다', () => { assert.ok(h0.includes('레딧 자료가 아직 없습니다') && h0.includes('q=%24ZZNONE')); });
+}
+
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
 const done2 = doneAll;
 if (T2 && T2.lists) {
