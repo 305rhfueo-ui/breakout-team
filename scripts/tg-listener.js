@@ -25,7 +25,7 @@ const master = require('./data/kis-master');
 
 const STATE = path.join(paths.cacheDir, 'tg-listener.json');     // { offset, day, count }
 const MAX_AGE_SEC = 6 * 3600;                                     // 이보다 오래된 요청은 버린다(맥이 꺼져 있던 동안 쌓인 것)
-const USAGE = '사용법: 티커와 함께 "살까?" 또는 "심층분석"을 보내 주세요.\n예) SNOW 살까?  (실장이 팀 의견을 모아 결론을 드립니다)\n    SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)\n    보유 (보유 종목 새 뉴스·공시·증권사 리포트 확인)';
+const USAGE = '사용법: 티커와 함께 "살까?" 또는 "심층분석"을 보내 주세요.\n예) SNOW 살까?  (실장이 팀 의견을 모아 결론을 드립니다)\n    SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)\n    보유 (보유 종목 새 뉴스·공시·증권사 리포트 확인)\n    급등 (개장 후 +5% 이상 · 거래대금 상위 15 · 매일 10:30 ET 자동)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ── 명령 해석 (순수 함수 — 테스트 대상) ──
@@ -35,6 +35,7 @@ function parseCommand(text) {
   if (!s) return { kind: 'none' };
   if (/^(목록|list)$/i.test(s)) return { kind: 'list' };
   if (/^(보유|보유\s*종목|holdings?)$/i.test(s)) return { kind: 'holdings' };
+  if (/^(급등|급등주|movers)$/i.test(s)) return { kind: 'movers' };
   // "SNOW 살까?" — 같은 분석을 실장 종합 형식으로 답한다 (2026-10-26)
   const b = s.match(/^(.+?)\s*(살까요?|사도\s*될까요?|매수\s*할까요?)\s*\??$/);
   if (b) {
@@ -106,6 +107,13 @@ async function handle(text) {
     await notify('🔎 보유 종목 새 소식을 확인합니다 — 1~2분 걸립니다.');
     execFile(process.execPath, [path.join(paths.root, 'scripts', 'holdings-watch.js'), '--force'], { cwd: paths.root, timeout: 10 * 60 * 1000 },
       (err) => { if (err) notify('❌ 보유 종목 소식 확인이 끝나지 못했습니다 — 잠시 뒤 "보유"를 다시 보내 주세요.'); });
+    return;
+  }
+  if (c.kind === 'movers') {
+    // 개장 1시간 급등 TOP 15 (2026-10-28) — 매일 10:30 ET 자동, 이 명령은 지금 다시. 1~3분. 결과는 그 스크립트가 보낸다.
+    await notify('📈 전일 대비 +5% 이상 오른 종목 중 거래대금 상위 15개를 확인합니다 — 1~3분 걸립니다.');
+    execFile(process.execPath, [path.join(paths.root, 'scripts', 'open-movers.js'), '--force'], { cwd: paths.root, timeout: 15 * 60 * 1000 },
+      (err) => { if (err) notify('❌ 급등 종목 확인이 끝나지 못했습니다 — 잠시 뒤 "급등"을 다시 보내 주세요.'); });
     return;
   }
   if (c.kind === 'list') {

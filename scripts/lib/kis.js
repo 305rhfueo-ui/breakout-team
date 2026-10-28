@@ -271,7 +271,24 @@ async function ping() {
   return p.ok ? { ok: true, tokenCached: tk.cached, qqq: p.last } : { ok: false, error: p.error };
 }
 
-module.exports = { configured, kisSymbol, token, price, minuteBars, dailyBars, resolveExcd, ping, etToEpoch, etOffsetMs, facts, mapPriceDetail, mapProductInfo };
+// 해외주식 조건검색 HHDFS76410000 (2026-10-28 실측) — 등락률·거래대금 조건으로 한 거래소의 종목을 받는다. "무료실시간".
+//   · 한 번에 **상승률 순 100개까지만** 준다(쪽 넘김 없음 — tr_cont N 을 보내도 같은 1쪽). 그래서 거래대금 하한(amtMinK, 천 달러 단위)으로 대상을 100개 안으로 줄여 부른다.
+//   · 단위 실측: CO_ST_AMT 1000 → 최소 거래대금 $1.1M · 10000 → $10.4M · 100000 → $103.6M (천 달러).
+//   · 응답 output2: symb·name(한글)·ename·last·rate(전일 대비 %)·tvol(거래량)·excd. output1.trec = 조건에 맞는 전체 수.
+async function search({ excd, rateMin = 5, rateMax = 100000, amtMinK = null }) {
+  const P = { AUTH: '', EXCD: excd, KEYB: '' };
+  for (const k of ['PRICECUR', 'RATE', 'VALX', 'SHAR', 'VOLUME', 'AMT', 'EPS', 'PER']) { P[`CO_YN_${k}`] = ''; P[`CO_ST_${k}`] = ''; P[`CO_EN_${k}`] = ''; }
+  Object.assign(P, { CO_YN_RATE: '1', CO_ST_RATE: String(rateMin), CO_EN_RATE: String(rateMax) });
+  if (amtMinK != null) Object.assign(P, { CO_YN_AMT: '1', CO_ST_AMT: String(amtMinK), CO_EN_AMT: '999999999999' });
+  const r = await call('/uapi/overseas-price/v1/quotations/inquire-search', 'HHDFS76410000', P);
+  if (!r.ok) return r;
+  const rows = (r.j.output2 || []).map((x) => ({ ticker: String(x.symb || '').trim(), excd: x.excd || excd, nameKo: (x.name || '').trim() || null, nameEn: (x.ename || '').trim() || null,
+    price: Number(x.last), ratePct: Number(x.rate), volume: Number(x.tvol) })).filter((x) => x.ticker && Number.isFinite(x.price) && Number.isFinite(x.volume));
+  for (const x of rows) x.amountUsd = Math.round(x.price * x.volume);
+  return { ok: true, total: Number((r.j.output1 || {}).trec) || rows.length, rows };
+}
+
+module.exports = { configured, kisSymbol, token, price, minuteBars, dailyBars, resolveExcd, ping, etToEpoch, etOffsetMs, facts, mapPriceDetail, mapProductInfo, search };
 
 if (require.main === module) {
   require('./util').loadEnv();
