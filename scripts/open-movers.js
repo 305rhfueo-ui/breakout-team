@@ -3,7 +3,7 @@
 //
 //   node scripts/open-movers.js             밤 루프가 10:30 ET 에 한 번 띄운다(세션당 한 번 — CACHE 에 표시)
 //   node scripts/open-movers.js --force     지금 다시(텔레그램 "급등" 명령). 장중이 아니면 지난 세션 자료다
-//   node scripts/open-movers.js --no-send   텔레그램 대신 터미널에 찍는다 · --no-ai  AI 요약 없이 기사 제목만
+//   node scripts/open-movers.js --no-send   텔레그램 대신 터미널에 찍는다(대시보드도 안 올림) · --no-ai  AI 요약 없이 기사 제목만 · --no-git  대시보드 파일 안 올림
 //
 // 순위: 한국투자증권 해외주식 조건검색(무료실시간, 나스닥·뉴욕·아멕스). 한 번에 상승률 순 100개까지만 주므로
 //   거래대금 하한을 높은 데서부터 낮춰 가며 "거래소마다 100개 이하 · 합계 15개 이상"이 되는 하한에서 멈춘다 → 그 하한 위는 전부 받았으니 상위 15개가 정확하다.
@@ -12,10 +12,14 @@
 // 요약(2026-10-28 사용자: "기사 요약 — 최핵심은 자세히"): 종목마다 읽을 수 있는 기사 본문(야후 무료 제휴 1건 · CNBC 일반 기사 1건)을 코드가 받아
 //   Claude(sonnet, 도구 없음)가 📌 핵심 한 줄 · 자세히 3~5문장 · 원문 인용 · 그 밖의 기사 한 줄을 쓴다. 주어진 제목·요약·본문에 있는 사실만.
 //   출처에 없는 숫자가 든 문장은 코드가 지우고(number-guard), 인용문은 본문에 실제로 있어야 남긴다. 이유를 못 찾으면 그렇다고 쓴다. 판단 보조.
+// 공통 테마(2026-10-28 사용자: "공통된 테마가 있으면 알려줘") — 두 갈래.
+//   · 기사 테마: 2종목 이상이 같은 이유로 올랐다고 각자의 기사가 말할 때만(종목마다 근거 기사 번호, 근거 없는 종목은 코드가 뺀다).
+//   · 같은 업종: RS 사이트 스냅샷의 업종(Industry)이 같은 종목끼리 — 코드가 센다. 기사 없이 함께 오른 종목도 여기서 보인다.
+// 담당은 9팀 나래(2026-10-28 사용자: "에이전트 하나 더 만들어서 이거 알려주는 애") — 텔레그램 머리말 · 대시보드 카드(dashboard/data/movers.js, 그 파일만 커밋).
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { loadEnv, paths, readJson, writeJson, say } = require('./lib/util');
+const { loadEnv, paths, readJson, writeJson, writeWindowData, say } = require('./lib/util');
 const cal = require('./lib/market-calendar');
 
 const TOP = 15, RATE_MIN = 5, NEWS_DAYS = 3, CHUNK = 3900;
@@ -61,6 +65,20 @@ async function pickTop(rows, isEtf, n = TOP) {
   return out;
 }
 
+// 업종 — RS 사이트 스냅샷(가장 최근 날짜)의 Industry. RS 유니버스 밖 종목은 비운다
+function industries() {
+  try {
+    const f = fs.readdirSync(paths.snapshotCache).filter((x) => /^result_\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
+    return new Map((readJson(path.join(paths.snapshotCache, f), {}).data || []).map((r) => [r.T, r.I]));
+  } catch (e) { return new Map(); }
+}
+const indKo = (i) => (i ? require('./lib/industry-ko').industryKo(i).name || i : null);
+function industryGroups(list) {
+  const g = new Map();
+  for (const m of list) if (m.industry) g.set(m.industry, [...(g.get(m.industry) || []), m.ticker]);
+  return [...g].filter(([, t]) => t.length >= 2).map(([industry, tickers]) => ({ industry, ko: indKo(industry), tickers })).sort((a, b) => b.tickers.length - a.tickers.length);
+}
+
 async function newsFor(T, nowMs = Date.now()) {
   const since = new Date(nowMs - NEWS_DAYS * 864e5).toISOString().slice(0, 10);
   const items = [];
@@ -96,19 +114,27 @@ const SCHEMA = { type: 'object', properties: { items: { type: 'array', items: { 
   ticker: { type: 'string' },
   headline: { type: 'string', description: '📌 핵심 한 줄(40자 안팎) — 오늘 왜 올랐나. 근거가 없으면 빈 문자열' },
   detail: { type: 'string', description: '자세히 3~5문장: 무슨 일이 있었나 → 핵심 숫자(본문·요약에 있는 그대로, 단위·기간 포함) → 왜 주가가 움직였나 → 주의할 점·반대 근거. 근거가 없으면 정확히 "기사로는 이유를 찾지 못했다"' },
-  quote: { type: 'string', description: 'body 에 있는 핵심 문장 하나를 한 글자도 바꾸지 말고 그대로(영어 원문). body 가 없으면 빈 문자열' },
+  quote: { type: 'string', description: 'body 에 있는 핵심 문장 하나(300자 이하)를 한 글자도 바꾸지 말고 그대로(영어 원문). body 가 없으면 빈 문자열' },
   quoteFrom: { type: 'number', description: 'quote 를 딴 기사 번호(n). 없으면 -1' },
   others: { type: 'array', items: { type: 'object', properties: { n: { type: 'number' }, line: { type: 'string', description: '그 기사 한 줄 요약(한국어)' } }, required: ['n', 'line'] }, description: '핵심 기사 말고 참고할 기사 최대 2개' },
   refs: { type: 'array', items: { type: 'number' }, description: 'headline·detail 의 근거 기사 번호(n)' },
-}, required: ['ticker', 'headline', 'detail', 'quote', 'quoteFrom', 'others', 'refs'] } } }, required: ['items'] };
+}, required: ['ticker', 'headline', 'detail', 'quote', 'quoteFrom', 'others', 'refs'] } },
+  themes: { type: 'array', description: '2종목 이상이 같은 이유로 오른 공통 테마, 최대 3개. 없으면 빈 배열', items: { type: 'object', properties: {
+    name: { type: 'string', description: '테마 이름(20자 안팎, 예: AI 데이터센터 투자)' },
+    why: { type: 'string', description: '1~2문장 — 이 종목들이 공통으로 오른 이유. 기사에 있는 사실로만' },
+    members: { type: 'array', items: { type: 'object', properties: { ticker: { type: 'string' }, n: { type: 'number', description: '그 종목 news 중 이 테마를 뒷받침하는 기사 번호' } }, required: ['ticker', 'n'] } },
+  }, required: ['name', 'why', 'members'] } } }, required: ['items', 'themes'] };
 function summarize(list) {
   const claude = findClaude();
-  if (!claude) return {};
-  const input = list.map((m) => ({ ticker: m.ticker, name: m.nameKo || m.nameEn, changePct: m.ratePct,
+  if (!claude) return null;
+  const input = list.map((m) => ({ ticker: m.ticker, name: m.nameKo || m.nameEn, industry: m.industry || null, changePct: m.ratePct,
     news: m.news.map((x, n) => ({ n, date: x.date, publisher: x.publisher, title: x.title, summary: String(x.text || '').slice(0, 600), body: String(x.body || '').slice(0, 4000) })) }));
   const prompt = `미국 장 개장 1시간 뒤 전일 대비 크게 오른 종목들이다. 종목마다 기사를 정리한다. 독자는 직장인 일반 투자자다.
 1. body 가 있는 기사는 **본문을 읽고** 핵심을 자세히 쓴다. body 가 없으면 제목·summary 만으로 짧게 쓴다.
 2. headline(📌 핵심 한 줄) · detail(자세히 3~5문장: 무슨 일 → 핵심 숫자 → 왜 주가가 움직였나 → 주의할 점) · quote(body 원문 문장 그대로) · others(그 밖의 참고 기사 한 줄, 최대 2개).
+3. themes(공통 테마, 최대 3개): 기사로 보아 **2종목 이상이 같은 이유**(같은 산업 소식·같은 거시·정책 재료·같은 고객사·같은 행사)로 올랐으면 묶는다.
+   members 에는 그 테마를 뒷받침하는 **자기 기사 번호(n)**가 있는 종목만 넣는다. 업종이 같다는 것만으로는 묶지 마라(업종 묶음은 코드가 따로 보인다). 공통 이유가 없으면 빈 배열.
+   테마로 묶은 종목은 그 종목 headline·detail 에도 같은 이유를 쓴다 — 테마와 종목 설명이 어긋나면 안 된다(LITE 실측: 테마는 "StoneX 매수 개시", 종목 설명은 "직접 설명한 기사 없다").
 규칙(어기면 코드가 지운다):
 - **주어진 제목·summary·body 에 있는 사실만** 쓴다. 기억·추측으로 채우지 마라. 숫자는 그 글에 있는 그대로, 단위·기간을 붙여서.
 - 오늘 상승을 설명하는 기사가 없으면 headline 은 빈 문자열, detail 은 정확히 "기사로는 이유를 찾지 못했다", refs 는 빈 배열.
@@ -125,11 +151,12 @@ ${JSON.stringify(input)}`;
     const res = j.structured_output || (typeof j.result === 'string' ? JSON.parse(j.result.replace(/^```json|```$/g, '')) : j.result) || j;
     const map = {};
     for (const r of res.items || []) map[String(r.ticker || '').toUpperCase()] = r;
-    return map;
-  } catch (e) { say('WARN', `급등 기사 정리 실패 — 기사 제목만 보낸다 (${String(e.message).split('\n')[0].slice(0, 120)})`); return {}; }
+    return { map, themes: res.themes || [] };
+  } catch (e) { say('WARN', `급등 기사 정리 실패 — 기사 제목만 보낸다 (${String(e.message).split('\n')[0].slice(0, 120)})`); return null; }
 }
 // 출처에 없는 숫자가 든 문장은 지우고(근거 기사의 제목·요약·본문과만 대조), 인용문은 본문에 실제로 있어야 남긴다
 const NOT_FOUND = '기사로는 이유를 찾지 못했다';
+const noRef = (t) => String(t).replace(/\s*\((?:기사|article)\s*\d+[^)]*\)/gi, '').trim();   // 내부 번호 "(기사 3, 요약 기준)" 이 새어 나왔다(2026-10-28 실측)
 const nq = (t) => String(t || '').replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim();
 function cleanStory(raw, news) {
   if (!raw || typeof raw.detail !== 'string') return null;
@@ -140,12 +167,12 @@ function cleanStory(raw, news) {
   if (refs.length) {
     const corpus = NG.corpusOf(refs.map(src));
     out.headline = NG.checkText(String(raw.headline || '').trim(), corpus).text.trim().slice(0, 80);
-    const noRef = (t) => String(t).replace(/\s*\((?:기사|article)\s*\d+[^)]*\)/gi, '').trim();   // 내부 번호 "(기사 3, 요약 기준)" 이 새어 나왔다(2026-10-28 실측)
     out.headline = noRef(out.headline);
     out.detail = noRef(NG.checkText(raw.detail.trim(), corpus).text.trim()).slice(0, 700) || NOT_FOUND;
   }
   const qn = raw.quoteFrom, q = nq(raw.quote);
-  if (Number.isInteger(qn) && news[qn] && news[qn].body && q.length >= 20 && nq(news[qn].body).includes(q.slice(0, 80))) { out.quote = q.slice(0, 300); out.quoteFrom = qn; }
+  // 300자 넘는 인용은 버린다 — 보도자료는 문장 끝이 없어 첫머리 300자가 중간에 잘려 나왔다(DAVI 실측)
+  if (Number.isInteger(qn) && news[qn] && news[qn].body && q.length >= 20 && q.length <= 300 && nq(news[qn].body).includes(q.slice(0, 80))) { out.quote = q; out.quoteFrom = qn; }
   for (const o of (raw.others || []).slice(0, 2)) {
     if (!Number.isInteger(o.n) || !news[o.n] || refs.includes(o.n)) continue;
     const line = NG.checkText(String(o.line || '').trim(), NG.corpusOf([src(o.n)])).text.trim();
@@ -154,13 +181,37 @@ function cleanStory(raw, news) {
   if (out.detail === NOT_FOUND) { out.headline = ''; out.refs = []; }
   return out;
 }
+// 공통 테마 — 근거 기사가 실제로 있는 종목만 남기고, 그런 종목이 둘 이상일 때만 테마. 문장은 그 기사들과만 숫자 대조
+function cleanThemes(raw, list) {
+  const NG = require('./lib/number-guard');
+  const by = new Map(list.map((m) => [m.ticker, m]));
+  const out = [];
+  for (const t of (raw || []).slice(0, 3)) {
+    const members = [];
+    for (const x of t.members || []) {
+      const m = by.get(String(x.ticker || '').toUpperCase());
+      if (m && Number.isInteger(x.n) && m.news[x.n] && !members.some((y) => y.ticker === m.ticker)) members.push({ ticker: m.ticker, n: x.n });
+    }
+    if (members.length < 2) continue;
+    const corpus = NG.corpusOf(members.map((x) => { const a = by.get(x.ticker).news[x.n]; return `${a.title} ${a.text || ''} ${a.body || ''}`; }));
+    const name = NG.checkText(String(t.name || '').trim(), corpus).text.trim();
+    if (name) out.push({ name: noRef(name).slice(0, 40), why: noRef(NG.checkText(String(t.why || '').trim(), corpus).text.trim()).slice(0, 300), members });
+  }
+  return out;
+}
 
 const money = (v) => (v >= 1e9 ? `$${(v / 1e9).toFixed(1)}B` : `$${Math.round(v / 1e6)}M`);
-function buildMessages(list, { basis, exact = true }) {
-  const head = `🚀 개장 1시간 급등 TOP ${list.length} — ${basis}\n전일 대비 +${RATE_MIN}% 이상 · 거래대금 순 · ETF 제외${exact === false ? ' · ⚠️ 급등 종목이 너무 많아 순위 일부 추정' : ''}`;
+function themeLines(themes, groups) {
+  const L = (themes || []).map((t) => `· ${t.name} — ${t.members.map((x) => x.ticker).join('·')}${t.why ? `\n  ${t.why}` : ''}`);
+  if (groups.length) L.push(`· 같은 업종: ${groups.map((g) => `${g.ko} ${g.tickers.length}종목(${g.tickers.join('·')})`).join(' · ')}`);
+  if (!L.length) return themes ? '🧩 공통 테마 — 뚜렷한 공통 테마 없음, 종목마다 따로 재료' : null;   // AI 정리가 실패했으면(null) 없다고 단정하지 않는다
+  return `🧩 공통 테마\n${L.join('\n')}`;
+}
+function buildMessages(list, { basis, exact = true, themes = null }) {
+  const head = `🚀 9팀 나래 · 개장 1시간 급등 TOP ${list.length} — ${basis}\n전일 대비 +${RATE_MIN}% 이상 · 거래대금 순 · ETF 제외${exact === false ? ' · ⚠️ 급등 종목이 너무 많아 순위 일부 추정' : ''}`;
   const src = (x) => `${x.publisher}${x.date ? ` ${x.date.slice(5)}` : ''}`;
   const blocks = list.map((m, i) => {
-    const L = [`${i + 1}. ${m.ticker}${m.nameKo ? ` ${m.nameKo}` : ''} +${m.ratePct.toFixed(1)}% · $${m.price} · 대금 ${money(m.amountUsd)}`];
+    const L = [`${i + 1}. ${m.ticker}${m.nameKo ? ` ${m.nameKo}` : ''} +${m.ratePct.toFixed(1)}% · $${m.price} · 대금 ${money(m.amountUsd)}${m.industry ? ` · ${indKo(m.industry)}` : ''}`];
     const s = m.story;
     if (s && s.headline) L.push(`📌 ${s.headline}`);
     if (s) L.push(s.detail);
@@ -172,13 +223,22 @@ function buildMessages(list, { basis, exact = true }) {
     return L.join('\n');
   });
   const foot = '기사 제목·요약·본문에 있는 내용만 AI 가 정리했습니다(숫자·인용문은 코드가 원문과 대조). 판단 보조이며 매수 권유가 아닙니다. 궁금한 종목은 "티커 살까?"';
-  const msgs = []; let cur = head;
+  const th = themeLines(themes, industryGroups(list));
+  const msgs = []; let cur = th ? `${head}\n\n${th}` : head;
   for (const b of [...blocks, foot]) { if ((cur + '\n\n' + b).length > CHUNK) { msgs.push(cur); cur = b.length > CHUNK ? b.slice(0, CHUNK - 1) + '…' : b; } else cur += '\n\n' + b; }
   msgs.push(cur);
   return msgs;
 }
 
-async function run({ force = false, send = true, ai = true } = {}) {
+// 대시보드(9팀 나래 카드) — 기사 본문·요약문은 싣지 않는다(제목·링크·AI 정리만). 종목 가격·거래대금은 시장 자료다(사용자 금액 아님)
+function dashboardData(top, { basis, exact, amtMinK, themes, updated }) {
+  return { updated, basis, exact, amtMinK, themes: themes || [], groups: industryGroups(top),
+    items: top.map((m) => ({ ticker: m.ticker, nameKo: m.nameKo || null, nameEn: m.nameEn || null, ratePct: m.ratePct, price: m.price, amountUsd: m.amountUsd,
+      industry: m.industry || null, industryKo: indKo(m.industry), story: m.story || null,
+      news: m.news.map((x) => ({ title: x.title, url: x.url, date: x.date || null, publisher: x.publisher })) })) };
+}
+
+async function run({ force = false, send = true, ai = true, publish = true } = {}) {
   const now = etParts(Date.now());
   const live = cal.isTradingDay(now.date) && now.hm >= '0930' && now.hm < '1600';
   if (!force && (readJson(FLAG, {}) || {}).session === now.date) return { ok: true, skipped: 'already' };
@@ -189,14 +249,24 @@ async function run({ force = false, send = true, ai = true } = {}) {
   if (!sc.ok) { if (send) await notify(`⚠️ 개장 후 급등 종목을 받지 못했습니다 — ${sc.error}`); return sc; }
   const master = require('./data/kis-master');
   const top = await pickTop(sc.rows, async (t) => { const m = await master.lookup(t); return m.ok && m.isEtf; });
-  for (const m of top) { m.news = await newsFor(m.ticker); if (ai) await readBodies(m.news); }
-  const sums = ai ? summarize(top) : {};
-  for (const m of top) m.story = ai ? cleanStory(sums[m.ticker], m.news) : null;
-  const basis = live ? `${now.date.slice(5).replace('-', '/')} ${now.hm.slice(0, 2)}:${now.hm.slice(2)} ET 기준` : '장이 닫혀 있어 마지막 거래일 마감 기준';
-  const msgs = buildMessages(top, { basis, exact: sc.exact });
+  const ind = industries();
+  for (const m of top) { m.industry = ind.get(m.ticker) || null; m.news = await newsFor(m.ticker); if (ai) await readBodies(m.news); }
+  const sums = ai ? summarize(top) : null;
+  for (const m of top) m.story = sums ? cleanStory(sums.map[m.ticker], m.news) : null;
+  const themes = sums ? cleanThemes(sums.themes, top) : null;
+  // 정규장 밖이면 한국투자증권 시세에 프리마켓·애프터마켓·주간거래가 섞인다(2026-10-28 04:07 ET 실측: 그날 새벽 실적 낸 SKHY +8% · 대금 수천만 달러)
+  const stamp = `${now.date.slice(5).replace('-', '/')} ${now.hm.slice(0, 2)}:${now.hm.slice(2)} ET`;
+  const basis = live ? `${stamp} 기준` : `${stamp} — 정규장 밖이라 장외 거래 시세가 섞여 있을 수 있음`;
+  const msgs = buildMessages(top, { basis, exact: sc.exact, themes });
   if (send) for (const m of msgs) await notify(m); else console.log(msgs.join('\n\n────────\n\n'));
   if (!force && send) writeJson(FLAG, { session: now.date, at: new Date().toISOString() });
-  writeJson(path.join(paths.cacheDir, 'open-movers-last.json'), { at: new Date().toISOString(), basis, amtMinK: sc.amtMinK, top });
+  writeJson(path.join(paths.cacheDir, 'open-movers-last.json'), { at: new Date().toISOString(), basis, amtMinK: sc.amtMinK, themes, top });
+  if (publish) {   // 그 파일만 커밋·push (밤 루프·아침 실행이 쓰던 파일은 건드리지 않는다)
+    const file = path.join(paths.dashboardData, 'movers.js');
+    writeWindowData(file, 'MOVERS_DATA', dashboardData(top, { basis, exact: sc.exact, amtMinK: sc.amtMinK, themes, updated: new Date().toISOString() }));
+    const pub = require('./finish-ondemand').gitPublish([file], `movers: ${now.date} 개장 급등 TOP ${top.length}`);
+    if (!pub.ok) say('WARN', `GitHub: ${pub.error}`);
+  }
   say('SYSTEM', `개장 후 급등 ${top.length}종목 (거래대금 하한 $${sc.amtMinK / 1000}M) · 메시지 ${msgs.length}개`);
   return { ok: true, top, messages: msgs };
 }
@@ -204,7 +274,7 @@ async function run({ force = false, send = true, ai = true } = {}) {
 if (require.main === module) {
   loadEnv();
   const a = process.argv.slice(2);
-  run({ force: a.includes('--force'), send: !a.includes('--no-send'), ai: !a.includes('--no-ai') })
+  run({ force: a.includes('--force'), send: !a.includes('--no-send'), ai: !a.includes('--no-ai'), publish: !a.includes('--no-git') && !a.includes('--no-send') })
     .then((r) => process.exit(r.ok ? 0 : 1)).catch((e) => { console.error(e); process.exit(1); });
 }
-module.exports = { scan, pickTop, cleanStory, buildMessages, run };
+module.exports = { scan, pickTop, cleanStory, cleanThemes, industryGroups, buildMessages, dashboardData, run };

@@ -155,6 +155,27 @@ console.log('\n[8팀] 다온 — 보유 종목 소식 카드·탭 (2026-10-18)')
   });
 }
 
+console.log('\n[9팀] 나래 — 개장 급등 카드·탭 (2026-10-28)');
+{
+  const M = require('../../scripts/open-movers');
+  const data = M.dashboardData([
+    { ticker: 'LITE', nameKo: '루멘텀', ratePct: 5.9, price: 866.18, amountUsd: 4.8e9, industry: 'Semiconductors',
+      story: { headline: 'MVHEAD 핵심', detail: 'MVDETAIL 자세히', quote: 'MVQUOTE sentence', quoteFrom: 0, others: [], refs: [0] },
+      news: [{ title: 'MVTITLE', url: 'https://example.com/a', date: '2026-10-27', publisher: 'StockStory' }] },
+    { ticker: 'CRDO', ratePct: 10.8, price: 167.43, amountUsd: 1.3e9, industry: 'Semiconductors', story: null, news: [] }],
+    { basis: '10/28 10:30 ET 기준', exact: true, themes: [{ name: 'MVTHEME', why: 'MVWHY', members: [{ ticker: 'LITE', n: 0 }, { ticker: 'CRDO', n: 0 }] }], updated: '2026-10-28T14:30:00Z' });
+  const c9 = loadRoom(`window.MOVERS_DATA = ${JSON.stringify(data)};`);
+  c9.cards(); const card = c9.document.getElementById('team').innerHTML, b = c9.bodyFor('t9'), br = c9.briefing('t9');
+  ok('카드에 나래·공통 테마, 탭에 테마·같은 업종·종목별 핵심·자세히·인용·기사 링크, 브리핑', () => {
+    assert.ok(card.includes('나래') && card.includes('MVTHEME') && card.includes('LITE · CRDO'));
+    for (const k of ['🧩 공통 테마', 'MVTHEME', 'MVWHY', '같은 업종(RS 사이트 분류): 반도체 LITE·CRDO', 'data-tk="LITE"', '📌 MVHEAD 핵심', 'MVDETAIL 자세히', 'MVQUOTE sentence — StockStory 10-27',
+      'href="https://example.com/a"', '대금 $4.8B', '최근 3일 기사 없음', '매수 권유가 아닙니다']) assert.ok(b.includes(k), `없음: ${k}`);
+    assert.ok(br.includes('<b>MVTHEME</b>(LITE·CRDO)') && br.includes('반도체 2종목'));
+  });
+  const e9 = loadRoom(''); e9.cards();
+  ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e9.document.getElementById('team').innerHTML.includes('나래')); assert.ok(e9.bodyFor('t9').includes('아직 확인 전')); });
+}
+
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
 const done2 = doneAll;
 if (T2 && T2.lists) {

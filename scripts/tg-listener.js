@@ -25,7 +25,7 @@ const master = require('./data/kis-master');
 
 const STATE = path.join(paths.cacheDir, 'tg-listener.json');     // { offset, day, count }
 const MAX_AGE_SEC = 6 * 3600;                                     // 이보다 오래된 요청은 버린다(맥이 꺼져 있던 동안 쌓인 것)
-const USAGE = '사용법: 티커와 함께 "살까?" 또는 "심층분석"을 보내 주세요.\n예) SNOW 살까?  (실장이 팀 의견을 모아 결론을 드립니다)\n    SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)\n    보유 (보유 종목 새 뉴스·공시·증권사 리포트 확인)\n    급등 (개장 후 +5% 이상 · 거래대금 상위 15 · 매일 10:30 ET 자동)';
+const USAGE = '사용법: 티커와 함께 "살까?" 또는 "심층분석"을 보내 주세요.\n예) SNOW 살까?  (실장이 팀 의견을 모아 결론을 드립니다)\n    SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)\n    보유 (보유 종목 새 뉴스·공시·증권사 리포트 확인)\n    급등 (9팀 나래 — 개장 후 +5% 이상 · 거래대금 상위 15 · 공통 테마 · 매일 10:30 ET 자동)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ── 명령 해석 (순수 함수 — 테스트 대상) ──
@@ -110,8 +110,8 @@ async function handle(text) {
     return;
   }
   if (c.kind === 'movers') {
-    // 개장 1시간 급등 TOP 15 (2026-10-28) — 매일 10:30 ET 자동, 이 명령은 지금 다시. 1~3분. 결과는 그 스크립트가 보낸다.
-    await notify('📈 전일 대비 +5% 이상 오른 종목 중 거래대금 상위 15개를 확인합니다 — 1~3분 걸립니다.');
+    // 개장 1시간 급등 TOP 15 (2026-10-28) — 매일 10:30 ET 자동, 이 명령은 지금 다시. 3~5분. 결과는 그 스크립트가 보낸다.
+    await notify('📈 9팀 나래가 전일 대비 +5% 이상 오른 종목 중 거래대금 상위 15개와 공통 테마를 확인합니다 — 기사 본문까지 읽어 3~5분 걸립니다.');
     execFile(process.execPath, [path.join(paths.root, 'scripts', 'open-movers.js'), '--force'], { cwd: paths.root, timeout: 15 * 60 * 1000 },
       (err) => { if (err) notify('❌ 급등 종목 확인이 끝나지 못했습니다 — 잠시 뒤 "급등"을 다시 보내 주세요.'); });
     return;
