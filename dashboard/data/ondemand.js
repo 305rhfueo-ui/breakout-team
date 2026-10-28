@@ -1,6 +1,1501 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "TSLA",
+      "nameKo": "테슬라",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "industryRank": null,
+      "requestedOn": "2026-10-28",
+      "session": "2026-10-27",
+      "at": "2026-10-28T03:54:29.214Z",
+      "verdict": "아니다",
+      "verdictLine": "시장이 빨간불이고 쉬는 구간이 없어 넘으면 사는 선이 없으며, 영업이익도 56% 줄어 지금 기준에 맞지 않는다",
+      "basis": [
+        {
+          "point": "시장 판정이 빨강이라 신규 매수를 막는 구간이다.",
+          "side": "against",
+          "checkRef": "차트:시장"
+        },
+        {
+          "point": "쉬는 구간이 없어 넘으면 사는 선도 예비 손절도 계산되지 않는다.",
+          "side": "against",
+          "checkRef": "차트:횡보 길이"
+        },
+        {
+          "point": "최근 분기 순이익이 전년비 -4.9%로 기준 +25%에 크게 못 미친다.",
+          "side": "against",
+          "checkRef": "CANSLIM:C"
+        },
+        {
+          "point": "상대강도는 1개월 상위 7.44%, 3개월 상위 6%로 주도주 기준을 넘는다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "프리몬트 Optimus 양산 시작으로 새로운 성장 동력이 출처로 확인된다.",
+          "side": "for",
+          "checkRef": "b1"
+        }
+      ],
+      "conditions": [],
+      "invalidation": "2주 이상의 쉬는 구간이 새로 생기면서 저점이 높아지고 거래량이 20일 평균의 0.7배 이하로 마르는데도 보지 않았다면 이 판단이 틀린 것이다. 쉬는 구간이 없어 예비 손절 값은 계산되지 않았다.",
+      "dataLimits": "기관 보유 자료가 없고 CNBC 기사 본문은 열리지 않아 제목만 확인했다. 쉬는 구간이 없어 피벗·손절·베이스 지표 자체가 계산되지 않았고, 다른 팀 의견도 비어 있다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "market_red",
+            "ko": "시장 판정이 빨간불이다 (신규 매수 금지 구간)"
+          },
+          {
+            "key": "no_base",
+            "ko": "쉬는 구간(베이스)이 없어 넘으면 사는 선(피벗)이 없다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-10-27",
+          "market": "2026-10-27"
+        }
+      },
+      "setup": {
+        "state": "none",
+        "grade": null,
+        "pivot": null,
+        "stop": null,
+        "distToPivotPct": null,
+        "distToPivotAdr": null,
+        "riskPerSharePct": null,
+        "extensionAdr": 2.63,
+        "adrPct": 2.95,
+        "breakDate": null,
+        "chase": false,
+        "metrics": null,
+        "reasons": [
+          "쉬는 구간 없음"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "3개월 최대상승 29% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 407.46 · 20일선 374.31 · 50일선 366.12"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.24배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.6 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 -4.9% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 -5%/17%/-60% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 82%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.24배(20일 평균 대비) · 오늘 거래대금 1.3배(상승일) · 상장주식 3953M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 7.44% · 3M 6% · 6M 54.42% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "TSLA",
+        "fetchedAt": "2026-10-28",
+        "source": "한국투자증권 Open API",
+        "per": 448.2,
+        "pbr": 18.04,
+        "eps": 0.91,
+        "bps": 22.59,
+        "shares": 3952760000,
+        "marketCapM": 1610592,
+        "high52": 498.83,
+        "high52Date": "2025-12-22",
+        "low52": 297.38,
+        "low52Date": "2026-07-29",
+        "last": 407.46,
+        "prevClose": 391.62,
+        "nameKo": "테슬라",
+        "nameEn": "TESLA INC",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 3952760000
+      },
+      "estimates": {
+        "ticker": "TSLA",
+        "url": "https://finance.yahoo.com/quote/TSLA/analysis/",
+        "fetchedAt": "2026-10-28",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 0.5,
+            "epsLow": 0.34,
+            "epsHigh": 0.88,
+            "epsYearAgo": 0.5,
+            "epsAnalysts": 28,
+            "epsGrowth": 0.7,
+            "epsCur": "USD",
+            "rev": 29322961330,
+            "revAnalysts": 28,
+            "revYearAgo": 24901000000,
+            "revGrowth": 17.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 0.46,
+            "epsLow": 0.28,
+            "epsHigh": 0.9,
+            "epsYearAgo": 0.41,
+            "epsAnalysts": 13,
+            "epsGrowth": 12.2,
+            "epsCur": "USD",
+            "rev": 26501696410,
+            "revAnalysts": 15,
+            "revYearAgo": 22387000000,
+            "revGrowth": 18.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 1.74,
+            "epsLow": 1.17,
+            "epsHigh": 2.28,
+            "epsYearAgo": 1.66,
+            "epsAnalysts": 35,
+            "epsGrowth": 4.8,
+            "epsCur": "USD",
+            "rev": 107787605400,
+            "revAnalysts": 43,
+            "revYearAgo": 94827000000,
+            "revGrowth": 13.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 2.16,
+            "epsLow": 1.03,
+            "epsHigh": 4.13,
+            "epsYearAgo": 1.74,
+            "epsAnalysts": 33,
+            "epsGrowth": 23.8,
+            "epsCur": "USD",
+            "rev": 122322999010,
+            "revAnalysts": 43,
+            "revYearAgo": 107787605400,
+            "revGrowth": 13.5,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 0.5,
+            "d7": 3.6,
+            "d30": 2.3,
+            "d90": 1.4,
+            "ago90": 0.5,
+            "up7": 1,
+            "up30": 3,
+            "down7": 3,
+            "down30": 5
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 0.46,
+            "d7": -1.1,
+            "d30": 0.5,
+            "d90": -0.7,
+            "ago90": 0.46,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 4
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 1.74,
+            "d7": -0.2,
+            "d30": -1.2,
+            "d90": -2.1,
+            "ago90": 1.78,
+            "up7": 2,
+            "up30": 4,
+            "down7": 4,
+            "down30": 9
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 2.16,
+            "d7": -0.6,
+            "d30": -0.8,
+            "d90": -2.8,
+            "ago90": 2.22,
+            "up7": 1,
+            "up30": 1,
+            "down7": 3,
+            "down30": 10
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 0.48,
+            "estimate": 0.45,
+            "surprisePct": 6.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 0.33,
+            "estimate": 0.54,
+            "surprisePct": -39.2,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 0.41,
+            "estimate": 0.35,
+            "surprisePct": 17.2,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 0.5,
+            "estimate": 0.45,
+            "surprisePct": 11,
+            "cur": "USD"
+          }
+        ],
+        "beats": 3,
+        "ratings": {
+          "upgrades": 3,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 11,
+          "ptLowered": 2,
+          "total": 27,
+          "recent": [
+            {
+              "date": "2026-10-26",
+              "firm": "Barclays",
+              "action": "up",
+              "from": "Equal-Weight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 450,
+              "ptPrior": 370
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 425,
+              "ptPrior": 391
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "CLSA",
+              "action": "up",
+              "from": "Underperform",
+              "to": "Hold",
+              "ptAction": "Raises",
+              "pt": 400,
+              "ptPrior": 310
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "Canaccord Genuity",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 442,
+              "ptPrior": 410
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 410,
+              "ptPrior": 400
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "BNP Paribas",
+              "action": "up",
+              "from": "Underperform",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 420,
+              "ptPrior": 266
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "RBC Capital",
+              "action": "reit",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Maintains",
+              "pt": 480,
+              "ptPrior": 480
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 430,
+              "ptPrior": 415
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "TD Cowen",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Maintains",
+              "pt": 460,
+              "ptPrior": 460
+            },
+            {
+              "date": "2026-10-22",
+              "firm": "Piper Sandler",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 475,
+              "ptPrior": 450
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-10-21",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "cnbc": [
+        {
+          "title": "SpaceX, Tesla and Anthropic may reshape the S&P 500—but not right away",
+          "url": "https://www.cnbc.com/make-it/2026/10/27/spacex-tesla-anthropic-and-sp-500-index-rules.html",
+          "date": "2026-10-27",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Lockheed, JetBlue, CoreWeave, Surgery Partners & more",
+          "url": "https://www.cnbc.com/2026/10/26/stocks-making-the-biggest-moves-midday-lockheed-jetblue-coreweave-surgery-partners-more.html",
+          "date": "2026-10-26",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Monday's big analyst calls: Tesla, Nvidia, SpaceX, Apple, Ross, Lockheed Martin",
+          "url": "https://www.cnbc.com/2026/10/26/monday-biggest-wall-street-analyst-calls-like-tesla.html",
+          "date": "2026-10-26",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Buy Tesla ahead of potential SpaceX merger, says Barclays",
+          "url": "https://www.cnbc.com/2026/10/26/tesla-spacex-merger-barclays.html",
+          "date": "2026-10-26",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Texas Senate race: New Talarico ad rips Elon Musk 'dark money' push",
+          "url": "https://www.cnbc.com/2026/10/23/james-talarico-campaign-ad-elon-musk-texas-senate-election.html",
+          "date": "2026-10-23",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
+          "url": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
+          "date": "2026-10-23",
+          "publisher": "CNBC",
+          "kind": "article"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-28",
+        "nameKo": "테슬라",
+        "nameEn": "TESLA INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 28046000000,
+              "profit": 718000000,
+              "netIncome": 787000000,
+              "margin": 2.6,
+              "yoy": {
+                "revenue": -0.2,
+                "profit": -55.8,
+                "netIncome": -42.7,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 28236000000,
+              "profit": 398000000,
+              "netIncome": 1114000000,
+              "margin": 1.4,
+              "yoy": {
+                "revenue": 25.5,
+                "profit": -56.9,
+                "netIncome": -4.9,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 22387000000,
+              "profit": 941000000,
+              "netIncome": 477000000,
+              "margin": 4.2,
+              "yoy": {
+                "revenue": 15.8,
+                "profit": 135.8,
+                "netIncome": 16.6,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 24901000000,
+              "profit": 1409000000,
+              "netIncome": 901000000,
+              "margin": 5.7,
+              "yoy": {
+                "revenue": -3.1,
+                "profit": -11,
+                "netIncome": -58.9,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "3 Types of Investors Who Should Avoid SpaceX and Tesla Stocks as the Companies Explore a Potential Merger",
+              "url": "https://www.nasdaq.com/articles/3-types-investors-who-should-avoid-spacex-and-tesla-stocks-companies-explore-potential",
+              "date": "2026-10-27",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Tesla's Q3 Per-Car Fiscal Metrics Show Minor but Important Progress",
+              "url": "https://www.nasdaq.com/articles/teslas-q3-car-fiscal-metrics-show-minor-important-progress",
+              "date": "2026-10-27",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Zacks Investment Ideas feature highlights: SpaceX and Tesla",
+              "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-spacex-and-tesla",
+              "date": "2026-10-27",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "In a SpaceX-Tesla Merger, Tesla Shareholders Might Be the Junior Partner",
+              "url": "https://www.nasdaq.com/articles/spacex-tesla-merger-tesla-shareholders-might-be-junior-partner",
+              "date": "2026-10-27",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Elon Musk Reveals the Real Reason He Hasn't Confirmed a SpaceX-Tesla Merger Will Happen",
+              "url": "https://www.nasdaq.com/articles/elon-musk-reveals-real-reason-he-hasnt-confirmed-spacex-tesla-merger-will-happen",
+              "date": "2026-10-27",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Elon Musk Says Merging SpaceX and Tesla Would Be a Good Idea. Here's What Investors Should Know.",
+              "url": "https://www.nasdaq.com/articles/elon-musk-says-merging-spacex-and-tesla-would-be-good-idea-heres-what-investors-should",
+              "date": "2026-10-27",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Tesla Is Investing Aggressively in its Next Generation Technology",
+              "url": "https://www.nasdaq.com/articles/tesla-investing-aggressively-its-next-generation-technology",
+              "date": "2026-10-27",
+              "publisher": "The Motley Fool"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-21",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-02",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/tsla-20261002.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-29",
+            "itemsKo": [
+              "중요 계약 체결",
+              "1.02",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026063820/tsla-20260929.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/tsla-20260722.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-02",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/tsla-20260702.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-22",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/tsla-20260422.htm"
+          }
+        ],
+        "krReports": {
+          "total": 34,
+          "reports": [
+            {
+              "date": "2026-10-23",
+              "broker": "신한투자증권",
+              "analyst": "함형도",
+              "title": "[테슬라 (NAS:TSLA)] 신사업 수익 가시성 확보에 주목",
+              "summary": "- 자금 조달과 현금흐름 우려 상존하지만 FSD 확산과 로보택시 수익화로 우려는 점차 완화될 것. 27년 하반기부터 본격적인 성장 모멘텀 반영 기대- 3분기 매출액 280억달러(-0.2%, 이하 YoY), GPM +19.6%(+1.6%p), Adj-EPS 0.48달러(-4%)로 컨센대비 각각 -0.3%, +1.9%p, +10% 달성- [자동차] 매출액 206억달러(-3%), 크레딧 제외 GPM +18.1%(+2.7%p) 기록. 차량 판매량 48.7만대(3Q25 49.7만대, 2Q26 48.0만대) 기록. APAC 지역 판매 증가와 FSD 구독 매출 증가로 마진율 방어",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqcmzzexexiqgcgxecgl.pdf",
+              "pages": "4"
+            },
+            {
+              "date": "2026-10-23",
+              "broker": "iM증권",
+              "analyst": "이상수",
+              "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+              "summary": "- ① Automotive: 매출액 매출액 205.6억달러 (-3.0% YoY) 실적 기록. 26.3Q 차량 인도 대수는 486,532대 (-2.1% YoY, +1.3% QoQ)로 2개 분기 연속 48만대를 상회했으나, 탄소 규제 크레딧 매출이 1.13억달러로 전년 동기 4.17억달러 대비 72.9% 급감- ② Energy Generation & Storage: 매출액 28.8억달러 (-15.6% YoY) 실적 기록. 26.3Q 설치용량은 13.7GWh (+9.6% YoY)로 역대 두번째 수준이었으나, 관세 관련 고객 환불이 매출에서 차감되며 외형은 감소- ③ Service and Others: 매출액 46.1억달러 (+32.5% YoY) 실적 기록. 동사업부 매출총이익은 7.3억달러로 사상 최대를 기록했고, GPM은 15.9%로 직전 분기 14.1% 대비 1.8%p 개선",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+              "pages": "9"
+            },
+            {
+              "date": "2026-10-22",
+              "broker": "대신증권",
+              "analyst": "김회재",
+              "title": "[테슬라 (NAS:TSLA)] 기대에 못 미친 실적, 로보택시·옵티머스 실행 구체화",
+              "summary": "- 차량 판매 예상 상회했지만 매출은 전년 수준에 정체- 로보택시·옵티머스·테라팹 실행계획 구체화. 향후 수익화가 핵심- 스페이스X와의 합병 공식 검토 시작, 두 기업 간 AI 역할 분담 가능성",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqeexelcgikxgcgxecgl.pdf",
+              "pages": "13"
+            },
+            {
+              "date": "2026-10-22",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "title": "[테슬라 (NAS:TSLA)] 자동차 UP vs 에너지 Down",
+              "summary": "- 테슬라는 전기차를 기반으로 FSD·로보택시·ESS·로봇 사업을 확장하는 기업- FY3Q26은 크레딧 감소에도 마진이 개선됐으나 에너지 매출이 부진- 투자와 주요 일정이 2027년으로 넘어간 만큼 규제 승인과 합병 조건 확인이 필요",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqcqcqqgzzzggcgxecgl.pdf",
+              "pages": "7"
+            },
+            {
+              "date": "2026-10-22",
+              "broker": "한화증권",
+              "analyst": "박제인",
+              "title": "[테슬라 (NAS:TSLA)] Earnings Flash",
+              "summary": "- 매출액 280억 달러(YoY -0.2%), 조정 EPS 0.48달러(YoY -4%)로 예상치 0.3% 하회, 9.6% 상회- *FSD 유료 가입·구매 고객 174만 명(YoY +67%). 북미 신규 인도 차량의 75% 이상이 출고 시 FSD 유료 구독 신청- AI·로보틱스 투자비 증가에 따른 수익성 악화와 CAPEX 가이던스 하향에 따른 성장 둔화 우려로 시간 외 -3.3%",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxzclgmckxkqgcgxecgl.pdf",
+              "pages": "1"
+            },
+            {
+              "date": "2026-10-22",
+              "broker": "하나증권",
+              "analyst": "송선재",
+              "title": "[테슬라 (NAS:TSLA)] 마진은 바닥 통과, 시선은 로보택시와 스페이스X로",
+              "summary": "- 3Q26 실적: 판매 -2% (YoY), 매출액 flat, EPS $0.48(vs. 컨센서스 $0.44)- 실적 발표의 내용: 자동차는 증설 목표 구체화, 로보택시는 확장, 옵티머스는 속도 조절- 시사점: 마진은 바닥 통과, 주가는 당분간 자율주행/합병 이슈에 연동",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxkzkgmqlkqkgcgxecgl.pdf",
+              "pages": "8"
+            },
+            {
+              "date": "2026-10-22",
+              "broker": "신영증권",
+              "analyst": "문용권",
+              "title": "[테슬라 (NAS:TSLA)] 차세대 성장을 견인할 신사업을 준비하는 시간",
+              "summary": "- 매출 $280억(전년동기 대비 -0.2%), 영업이익 $7.2억(-56%), 영업이익률 2.6%- 북미 FSD 채택률이 75%(2Q 대비 약 +20%P), 로봇택시는 2027년 기대- 2027년 기대 요인: 로보택시 확대와 Optimus 외부 판매 개시",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxkkiekilzkzgcgxecgl.pdf",
+              "pages": "5"
+            },
+            {
+              "date": "2026-10-21",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "title": "[테슬라 (NAS:TSLA)] [26Q3 Review] 설비투자(CapEx) 가이던스 5분기 만에 첫 하향, 투자의견 중립 유지",
+              "summary": "- 조정 EPS 0.48달러로 컨센 0.44 상회- FCF 15.3억 흑자, IBES -49억 추정 반전- CapEx 가이던스 250억→200억 첫 하향",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxigmgzgzkelgcgxecgl.pdf",
+              "pages": "10"
+            }
+          ]
+        }
+      },
+      "rank": {
+        "m1": 7.44,
+        "m3": 6,
+        "m6": 54.42
+      },
+      "yahooNews": [
+        {
+          "title": "‘Where Are The Cybercabs?’ Tesla Investor Ross Gerber Takes Aim at Elon Musk as Amazon’s Zoox Eyes Expansion With Santa Monica Deal for 150 Robotaxis",
+          "url": "https://finance.yahoo.com/technology/articles/where-cybercabs-tesla-investor-ross-023011208.html",
+          "date": "2026-10-28",
+          "publisher": "Benzinga",
+          "via": "Yahoo"
+        },
+        {
+          "title": "TSLA Stock Rises As Cybercabs Overtake Model Ys In Authorized Texas Robotaxi Fleet",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html",
+          "date": "2026-10-27",
+          "publisher": "Stocktwits",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Scott Galloway Warns Tesla Is the ‘Patient’ and SpaceX Its ‘Organ Donor’ in Elon Musk’s $3.5 Trillion Merger Plan: 'Real Merger With a Fake Premise'",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/scott-galloway-warns-tesla-patient-213018121.html",
+          "date": "2026-10-27",
+          "publisher": "Benzinga",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Has Space Exploration Technologies (SPCX) Become Fully Valued Following Its $3.42b Shelf Filing?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-spcx-become-210745055.html",
+          "date": "2026-10-27",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Tesla Stock Rises In A Buy Range; Musk Touts Cybercab Fleet Expansion",
+          "url": "https://finance.yahoo.com/m/85f94354-9e71-320a-a15d-a3a35ca2bddb/tesla-stock-rises-in-a-buy.html",
+          "date": "2026-10-27",
+          "publisher": "Investor's Business Daily",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Want to Test Tesla’s Full Self-Driving? Rent It on Turo.",
+          "url": "https://finance.yahoo.com/m/090e3be6-8740-3fee-8c26-265560ecca31/want-to-test-tesla%E2%80%99s-full.html",
+          "date": "2026-10-27",
+          "publisher": "Barrons.com",
+          "via": "Yahoo"
+        }
+      ],
+      "teamView": {
+        "seojun": null,
+        "doyun": null,
+        "jaemin": null,
+        "holding": null
+      },
+      "market": {
+        "verdict": "red",
+        "ko": "🔴 10일선이 20일선 아래 6일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+        "finra": "warn",
+        "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과"
+      },
+      "verified": {
+        "checked": 6,
+        "ok": 28,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 0
+      },
+      "numberCut": 0,
+      "deep": {
+        "status": "done",
+        "ticker": "TSLA",
+        "company": "테슬라는 전기차를 팔아 매출 대부분을 번다 — 3분기 자동차 부문이 205.6억달러로 전체 280.5억달러의 큰 축이다. 여기에 에너지 저장장치와 충전·보험 같은 서비스 매출이 붙는다. 최근 성장 축은 자율주행 구독(FSD)과 로보택시, 휴머노이드 로봇 Optimus 쪽으로 옮겨가는 중이다.",
+        "lead": "지금 테슬라는 실적이 아니라 합병과 로봇 기대로 움직이고 있다. 새로운 것이 실제로 돌아가기 시작한 건 사실로, Optimus 양산이 시작됐고 FSD 유료 고객은 174만명으로 늘었다. 다만 본업은 매출 280.5억달러로 제자리인데 영업이익이 56% 줄어 이익률이 2.6%까지 내려왔다. 합병안이 주주총회에서 부결되면 지금 붙은 프리미엄 기대는 사라진다.",
+        "newsNarrative": "10월 21일 3분기 실적이 나온 뒤 시선은 곧바로 합병으로 옮겨갔다. 실적 자체는 매출 280.5억달러로 제자리였지만 조정 EPS 0.48달러가 예상을 웃돌았다. 같은 자리에서 설비투자 계획이 250억 달러에서 200억 달러로 낮아지며 성장 둔화 우려가 나왔다. 이어 양사 이사회가 합병 검토 특별위원회를 꾸린 사실이 알려지고 바클레이즈가 투자의견을 올리면서 합병이 당장의 주가 재료가 됐다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "3분기 매출 280.5억달러로 1년 전과 같은 수준이었고 조정 EPS 0.48달러는 4.0% 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                "publisher": "iM증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                "date": "2026-10-23",
+                "quote": "Tesla는 26.3Q 매출액 280.5억달러 (-0.2% YoY), 조정 EPS 0.48달러 (-4.0% YoY) 등의 실적을 기록했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "머스크가 프리몬트 공장에서 양산 품질 수준의 Optimus 생산이 시작됐다고 실적 발표에서 확인했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                "publisher": "iM증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                "date": "2026-10-23",
+                "quote": "26.3Q 어닝콜에서는 Optimus의 양산이 공식적으로 확인되었다. 일론 머스크는 프리몬트 공장에서 양산 품질 수준이 확보된 Optimus 생산이 시작되었으며, 생산 설비의 구축 또한 대부분 완료되었다고 밝혔다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "테슬라와 SpaceX 이사회가 각각 합병 검토를 위한 특별위원회를 구성했다고 머스크가 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                "publisher": "iM증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                "date": "2026-10-23",
+                "quote": "일론 머스크는 Tesla와 SpaceX 이사회가 각각 합병 검토를 위한 특별위원회를 구성했다고 밝혔다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "설비투자 가이던스를 250억 달러에서 200억 달러로 처음 낮췄다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] [26Q3 Review] 설비투자(CapEx) 가이던스 5분기 만에 첫 하향, 투자의견 중립 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgxigmgzgzkelgcgxecgl.pdf",
+                "date": "2026-10-21",
+                "quote": "- CapEx 가이던스 250억→200억 첫 하향",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "FSD 유료 가입·구매 고객이 174만 명으로 1년 전보다 67% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] Earnings Flash",
+                "publisher": "한화증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgxzclgmckxkqgcgxecgl.pdf",
+                "date": "2026-10-22",
+                "quote": "- *FSD 유료 가입·구매 고객 174만 명(YoY +67%). 북미 신규 인도 차량의 75% 이상이 출고 시 FSD 유료 구독 신청",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "바클레이즈가 합병 가능성을 앞세워 테슬라 투자의견을 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Buy Tesla ahead of potential SpaceX merger, says Barclays",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/26/tesla-spacex-merger-barclays.html",
+                "date": "2026-10-26",
+                "quote": "Buy Tesla ahead of potential SpaceX merger, says Barclays",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 1년째 제자리인데 이익은 반 토막이다. 3분기 매출은 280.5억달러로 전년비 0.2% 줄었고 영업이익은 7.2억달러로 56% 감소해 영업이익률이 2.6%다. 부문별로는 서비스·기타가 46.1억달러로 32.5% 늘었지만 에너지가 28.8억달러로 15.6% 줄며 외형을 깎았다. 다만 크레딧을 뺀 자동차 매출총이익률은 18.1%로 직전 분기 16.3%보다 1.8%p 올라 마진 쪽은 되돌아오는 흐름이다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "3분기 매출 280.5억달러로 전년 동기 대비 0.2% 줄며 성장이 멈췄다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                  "publisher": "iM증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                  "date": "2026-10-23",
+                  "quote": "Tesla는 26.3Q 매출액 280.5억달러 (-0.2% YoY), 조정 EPS 0.48달러 (-4.0% YoY) 등의 실적을 기록했다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "서비스·기타가 46.1억달러로 32.5% 늘어난 반면 에너지는 28.8억달러로 15.6% 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                  "publisher": "iM증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                  "date": "2026-10-23",
+                  "quote": "② Energy Generation & Storage: 매출액 28.8억달러 (-15.6% YoY) 실적 기록. 26.3Q 설치용량은 13.7GWh (+9.6% YoY)로 역대 두번째 수준이었으나, 관세 관련 고객 환불이 매출에서 차감되며 외형은 감소- ③ Service and Others: 매출액 46.1억달러 (+32.5% YoY) 실적 기록.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "3분기 영업이익은 7.2억달러로 56% 줄었고 영업이익률은 2.6%에 그쳤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테슬라 (NAS:TSLA)] 차세대 성장을 견인할 신사업을 준비하는 시간",
+                  "publisher": "신영증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgxkkiekilzkzgcgxecgl.pdf",
+                  "date": "2026-10-22",
+                  "quote": "- 매출 $280억(전년동기 대비 -0.2%), 영업이익 $7.2억(-56%), 영업이익률 2.6%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "크레딧을 뺀 자동차 매출총이익률은 18.1%로 직전 분기 16.3%보다 1.8%p 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                  "publisher": "iM증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                  "date": "2026-10-23",
+                  "quote": "그럼에도 크레딧 제외 Automotive GPM은 18.1%로 직전 분기 16.3% 대비 1.8%p 개선.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "f5",
+              "statement": "회사가 설비투자 가이던스를 250억 달러에서 200억 달러로 낮췄다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테슬라 (NAS:TSLA)] [26Q3 Review] 설비투자(CapEx) 가이던스 5분기 만에 첫 하향, 투자의견 중립 유지",
+                  "publisher": "대신증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgxigmgzgzkelgcgxecgl.pdf",
+                  "date": "2026-10-21",
+                  "quote": "- CapEx 가이던스 250억→200억 첫 하향",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f6",
+              "statement": "회사는 로보택시 수익이 2H27에 크게 기여할 것이라고 언급했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테슬라 (NAS:TSLA)] 신사업 수익 가시성 확보에 주목",
+                  "publisher": "신한투자증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgqcmzzexexiqgcgxecgl.pdf",
+                  "date": "2026-10-23",
+                  "quote": "신사업의 실적 기여 시점 확인 필요한데, 로보택시 수익이 2H27에 크게 기여할 것으로 언급.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "f7",
+                "statement": "바클레이즈는 합병 가능성을 이유로 투자의견을 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Buy Tesla ahead of potential SpaceX merger, says Barclays",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/10/26/tesla-spacex-merger-barclays.html",
+                    "date": "2026-10-26",
+                    "quote": "Buy Tesla ahead of potential SpaceX merger, says Barclays",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "f8",
+                "statement": "대신증권은 설비투자 가이던스 첫 하향을 들어 투자의견 중립을 유지했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] [26Q3 Review] 설비투자(CapEx) 가이던스 5분기 만에 첫 하향, 투자의견 중립 유지",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgxigmgzgzkelgcgxecgl.pdf",
+                    "date": "2026-10-21",
+                    "quote": "[테슬라 (NAS:TSLA)] [26Q3 Review] 설비투자(CapEx) 가이던스 5분기 만에 첫 하향, 투자의견 중립 유지",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "애널리스트들은 올해·내년 전망치를 조금씩 낮추는 쪽이다. 올해 EPS 전망 1.74달러는 30일 전보다 1.2% 낮고, 같은 기간 하향 9명에 상향 4명이었다. 반면 직전 분기 실적은 예상을 6.4% 웃돌았는데, 매출이 늘어서가 아니라 원가 절감과 FSD 구독 부가 매출로 마진이 올라온 덕이다.",
+        "newDrivers": [
+          {
+            "what": "휴머노이드 로봇 Optimus — 프리몬트 공장에서 양산 품질 로봇 생산을 시작한 신제품",
+            "kind": "product",
+            "stage": "출시",
+            "since": "2026-10",
+            "basis": [
+              {
+                "id": "b1",
+                "statement": "3분기 실적 발표에서 프리몬트 공장의 Optimus 양산 시작이 공식 확인됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "26.3Q 어닝콜에서는 Optimus의 양산이 공식적으로 확인되었다. 일론 머스크는 프리몬트 공장에서 양산 품질 수준이 확보된 Optimus 생산이 시작되었으며, 생산 설비의 구축 또한 대부분 완료되었다고 밝혔다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [
+              {
+                "id": "g1",
+                "statement": "회사는 연간 100만대 생산이 가능하고 2027년 말부터 외부 고객 공급을 목표한다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "덱스트러스 등 양산을 늦추는 병목이 존재함은 인정했으나, 그럼에도 연간 100만대 생산량이 가능하고, 2027년 말부터 외부고객에게 Optimus 공급을 목표하고 있다는 점도 확인되었다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "c1",
+                "statement": "머스크 스스로 덱스트러스 등 양산을 늦추는 병목이 있다고 인정했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "덱스트러스 등 양산을 늦추는 병목이 존재함은 인정했으나, 그럼에도 연간 100만대 생산량이 가능하고, 2027년 말부터 외부고객에게 Optimus 공급을 목표하고 있다는 점도 확인되었다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "자율주행 구독 FSD와 Austin에서 운행을 시작한 Cybercab 로보택시 — 차를 판 뒤에도 돈을 받는 서비스",
+            "kind": "service",
+            "stage": "매출 발생 중",
+            "since": "2026-09",
+            "basis": [
+              {
+                "id": "b2",
+                "statement": "지난달 Austin에서 Cybercab 로보택시 운행이 시작됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "지난달 Austin에서 운행을 시작한 Cybercab 로보택시 매출 역시 동사업부에 포함되나, 실적 기여도는 크지 않은 것으로 파악됨.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "r1",
+                "statement": "FSD 활성 고객이 174만명으로 늘었고 북미 신차 인도 시 유료 가입률이 75%를 넘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] 신사업 수익 가시성 확보에 주목",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqcmzzexexiqgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "FSD 활성 고객은 174만명(3Q25 104만, 2Q26 148만)으로 확대. 북미 지역의 신차 인도 시 유료 FSD 구독 가입률이 75%(+20%p) 이상 기록",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "p1",
+                "statement": "FSD 구독 매출 증가로 크레딧 제외 자동차 매출총이익률이 18.1%로 2.7%p 올랐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] 신사업 수익 가시성 확보에 주목",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqcmzzexexiqgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "[자동차] 매출액 206억달러(-3%), 크레딧 제외 GPM +18.1%(+2.7%p) 기록. 차량 판매량 48.7만대(3Q25 49.7만대, 2Q26 48.0만대) 기록. APAC 지역 판매 증가와 FSD 구독 매출 증가로 마진율 방어.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "g2",
+                "statement": "신한투자증권은 로보택시 수익이 2H27에 크게 기여할 것이라는 회사 언급과 마일당 0.3달러 비용 목표를 전했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] 신사업 수익 가시성 확보에 주목",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqcmzzexexiqgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "신사업의 실적 기여 시점 확인 필요한데, 로보택시 수익이 2H27에 크게 기여할 것으로 언급. 비용 목표인 0.3달러/마일로 감축 중(현재 운임 1.4달러/마일 수준). 27년 로보택시 모멘텀 기대",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "c2",
+                "statement": "Austin 로보택시 매출의 실적 기여도는 아직 크지 않은 것으로 파악됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "지난달 Austin에서 운행을 시작한 Cybercab 로보택시 매출 역시 동사업부에 포함되나, 실적 기여도는 크지 않은 것으로 파악됨.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "SpaceX와의 합병 검토 — 양사 이사회가 특별위원회를 꾸려 지배구조 자체가 바뀔 수 있는 변화",
+            "kind": "management",
+            "stage": "발표만",
+            "since": "2026-10",
+            "basis": [
+              {
+                "id": "b3",
+                "statement": "양사 이사회가 각각 합병 검토 특별위원회를 구성했고 위원회는 머스크를 뺀 독립 이사로 꾸려진다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "일론 머스크는 Tesla와 SpaceX 이사회가 각각 합병 검토를 위한 특별위원회를 구성했다고 밝혔다. 해당 특별위원회는 이해상충 당사자인 일론 머스크를 제외한 독립 이사로 구성될 예정이다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": [
+              {
+                "id": "c3",
+                "statement": "합병은 양사 주주총회 의결을 거쳐야 하고 부결될 가능성이 있다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                    "date": "2026-10-23",
+                    "quote": "단 전술한바와 같이 합병은 양사 주주총회의 의결을 모두 거쳐야 한다. Tesla에 대한 일론 머스크의 실제 지배력은 20% 수준이기에, 주주총회에서 합병 안건이 부결될 가능성은 존재하기에, 합병 안건의 통과에 대한 시나리오 분석이 필요하다고 판단된다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "nNarrative": "새로운 것은 셋이다 — 프리몬트에서 시작된 Optimus 양산, Austin의 Cybercab 로보택시, SpaceX 합병 검토. 매출로 실제 돈이 되고 있는 것은 아직 FSD 구독뿐이다. FSD 활성 고객은 174만명으로 늘었고 북미 신차 인도 시 유료 가입률이 75%를 넘었다. 이익에서도 FSD 부가 매출 덕에 크레딧 제외 자동차 매출총이익률이 18.1%로 2.7%p 올랐다. 기대 성장은 아직 회사 목표에 기대고 있다 — Optimus는 연간 100만대 생산과 2027년 말 외부 공급, 로보택시는 2H27 수익 기여다. 확인할 것은 Optimus 양산 병목이 풀리는지와 로보택시 매출이 실제 숫자로 잡히는 시점이다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 -4.9% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 3분기 순이익 전년비 -5%/17%/-60% — 모두 늘지 않았다. 3년 추세·ROE 는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "충족",
+            "evidence": "프리몬트 Optimus 양산 시작 · FSD 유료 고객 174만 명(전년비 +67%) · 참고: 52주 고점의 82%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.24배(20일 평균 대비) · 오늘 거래대금 1.3배(상승일) · 상장주식 3953M주 · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 7.44% · 3M 6% · 6M 54.42% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 · 빚내서 산 주식(마진부채)이 1년 전보다 +31.4%"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "AI·로보틱스 투자비 증가와 설비투자 가이던스 하향으로 성장 둔화 우려가 나와 시간외 주가가 3.3% 떨어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] Earnings Flash",
+                "publisher": "한화증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgxzclgmckxkqgcgxecgl.pdf",
+                "date": "2026-10-22",
+                "quote": "- AI·로보틱스 투자비 증가에 따른 수익성 악화와 CAPEX 가이던스 하향에 따른 성장 둔화 우려로 시간 외 -3.3%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "27년 대규모 자금 집행으로 현금흐름 우려가 남아 있고 Terafab에만 장기적으로 1천억달러 이상이 필요하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] 신사업 수익 가시성 확보에 주목",
+                "publisher": "신한투자증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqcmzzexexiqgcgxecgl.pdf",
+                "date": "2026-10-23",
+                "quote": "FCF는 2Q -11억달러, 3Q +15억달러(-62%)로 개선. 26년 CapEx 축소 때문이지만, 27년 대규모 자금 집행으로 현금흐름 우려 상존. SpaceX와 분담 예정인 Terafab만 28년 초까지 수백억달러에서 장기적으로 1천억달러 이상 필요.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "statement": "합병이 성사되면 주주는 1주 1의결권을 포기하고 머스크 단독 과반 의결권 체제를 받아들이게 된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                "publisher": "iM증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                "date": "2026-10-23",
+                "quote": "위와 같은 합병 성공 시나리오에서 Tesla 주주는 20~40% 수준의 프리미엄과 함께 합병법인 지분 42~49%를 받게 되나 (기존 Tesla 주주 수령 프리미엄 0~30% 기준), 그 대가로 1주 1의결권을 포기하고 머스크 단독 과반 의결권 체제를 받아들이게 된다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k4",
+            "statement": "합병안이 부결되면 프리미엄 기대가 사라지며 단기 주가 조정이 올 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+                "publisher": "iM증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxecgl.pdf",
+                "date": "2026-10-23",
+                "quote": "프리미엄 기대 소멸에 따른 단기 주가 조정. 본업. FSD 실적 중심의 밸류에이션으로 회귀, Terafab 비용 분담이 별도 변수",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "중국 사업 비중이 커서 합병을 추진하면 반독점·국가안보 심사에 걸릴 수 있다.",
+          "탄소 규제 크레딧처럼 정책에 기대는 매출이 줄면 이익이 곧바로 깎인다.",
+          "에너지 부문은 관세와 고객 환불 같은 외부 변수에 분기 실적이 흔들린다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "3개월 최대상승 29% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 407.46 · 20일선 374.31 · 50일선 366.12"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.24배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.6 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "chartObservation": {
+          "base": "쉬는 구간(횡보)이 없어 베이스 길이·저점 높아짐·깊이를 잴 수 없다. 최근 10봉은 10월 16일 종가 354.72에서 10월 27일 407.46까지 한 방향으로 올랐다. 3개월 그림에도 'NO BASE'가 표시돼 숫자와 같다.",
+          "volume": "횡보 중 거래량이 줄어드는 모습은 없다. 최근 5일 거래량이 20일 평균의 1.24배로 오히려 많다. 최근 10봉에서는 10월 26일 5309만주, 10월 27일 4519만주로 늘어난 날이 이어졌다.",
+          "position": "쉬는 구간이 없어 넘으면 사는 선(피벗)과 예비 손절 값이 계산되지 않았다. 현재가 407.46은 50일선 366.12보다 11.29% 위에 있다. 10일선 기준으로는 2.63 ADR(하루 평균 변동폭 2.95%) 위에 떠 있다.",
+          "maStack": "가격 407.46이 20일선 374.31·50일선 366.12·150일선 376.94를 모두 넘어 있다. 6개월 그림에서 20일선이 50일선 위로 올라와 둘 다 오르는 중이고 150일선은 아직 완만하다.",
+          "note": "그림과 숫자가 일치한다."
+        },
+        "entryChecklist": [
+          "2주 이상 옆으로 가는 구간이 새로 생기면서 저점이 높아지는지",
+          "그 구간에서 최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어드는지 (지금 1.24배)",
+          "시장 판정이 빨간불에서 벗어나 10일선이 20일선 위로 올라오는지",
+          "10일선 위 이격이 2 ADR 이하로 좁혀지는지 (지금 2.63 ADR)",
+          "합병 특별위원회 결론과 12.03 주주총회 결과가 확인되는지"
+        ],
+        "earningsRisk": "3분기 실적은 2026-10-21에 이미 발표했고 확정된 실적 발표 일정 없음(달력 기준)이다. 대신 12.03 주주총회가 예정돼 당분간은 실적보다 합병 안건이 변동성의 원인이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "consensus": {
+          "saleCy": 13.64,
+          "saleNy": 13.51,
+          "epsCy": 6.75,
+          "epsNy": 23.03,
+          "cyTrend": 0.58,
+          "nyTrend": 0.33
+        },
+        "researchedOn": "2026-10-28",
+        "session": "2026-10-27",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "ZS",
       "nameKo": "지스케일러",
       "sector": "Technology",
@@ -10036,5 +11531,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-26T23:41:50.798Z"
+  "updated": "2026-10-28T03:54:29.223Z"
 };
