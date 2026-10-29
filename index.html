@@ -16,7 +16,6 @@
 <script src="dashboard/data/sns.js"        onerror="window.__NO_SNS=1"></script>
 <script src="dashboard/data/paper.js"      onerror="window.__NO_PAPER=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
-<script src="dashboard/data/fitscore.js"   onerror="window.__NO_FIT=1"></script>
 <script src="dashboard/data/industry-ko.js"></script>
 
 <style>
@@ -922,8 +921,7 @@ function openTicker(T){
   }
   if(p&&p!==od&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
   if(plan)h+=`<div class="sec"><h4>서준 매수 계획 ${plan.watch?'<span class="chip">오늘 밤 관심</span>':''}</h4>${rows([['현재가 → 피벗',`${n(plan.price)} → <b>${n(plan.pivot)}</b> (${sgn(plan.distToPivotPct)}%)`],
-    ['예비 손절 · 위험',plan.stop?`${n(plan.stop)} · ${n(plan.riskPerSharePct,1)}%`:'—'],['등급',esc(plan.grade||'—')],
-    ...(fitLine(plan)?[['쿨라매기 부합도',`${fitLine(plan)}<div class="note">${fitRecord()}</div>`]]:[])])}${plan.blocked?`<div class="nosrc">⛔ ${esc(plan.blocked)}</div>`:''}${plan.deep?deepBlock(plan.deep):''}</div>`;
+    ['예비 손절 · 위험',plan.stop?`${n(plan.stop)} · ${n(plan.riskPerSharePct,1)}%`:'—'],['등급',esc(plan.grade||'—')]])}${plan.blocked?`<div class="nosrc">⛔ ${esc(plan.blocked)}</div>`:''}${plan.deep?deepBlock(plan.deep):''}</div>`;
   h+=researchBlock(p&&p.research);
   if(ep&&ep.catalyst&&ep.catalyst.status==='done'){const C=ep.catalyst;
     h+=`<div class="sec"><h4>재민 촉매 분류 — ${esc(C.categoryName||'')}</h4>${C.volumeExplanation?`<div class="pi">${esc(C.volumeExplanation)}</div>`:''}${claimList(C.claims)||'<div class="nosrc">검증을 통과한 근거가 없습니다</div>'}</div>`;}
@@ -975,19 +973,6 @@ function nRowOf(D){
   const what=dr?`${cut(dr.what,70)} (${dr.stage||''})${imp?` — ${cut(imp.statement,90)}`:' — 매출·이익 영향 근거는 아직 없음'}${(D.newDrivers||[]).length>1?` 외 ${(D.newDrivers.length-1)}건`:''}`
     :cut((String(D.nNarrative||'').match(/^.*?[.!?。](\s|$)/)||[D.nNarrative||'최근 3개월 안에 확인된 신제품·신서비스가 없다'])[0],120);
   return {item:'N 신제품·신서비스',status:st,evidence:`${D.nVerdict} · ${what} (${D.researchedOn||''} 분석 · 아래 "N — 새로운 성장 동력")`};
-}
-/* 쿨라매기 부합도 (Nimble·Laya 로컬 판정, 2026-10-26) — 검증 전 참고. 매매·등급과 무관. 성적표(FITSCORE_DATA.show)가 고른 모델을 앞에 둔다. */
-function fitLine(p){
-  const f=p&&D.t6&&D.t6.fitByKey&&D.t6.fitByKey[`${p.ticker}|${p.pivot}`];
-  if(!f||(!f.laya&&!f.nimble))return '';
-  const show=(window.FITSCORE_DATA&&window.FITSCORE_DATA.show)==='laya'?'laya':'nimble',other=show==='laya'?'nimble':'laya';
-  const nm={nimble:'Nimble',laya:'Laya'},sc=m=>f[m]&&f[m].fit!=null?n(f[m].fit,1):'—';
-  return `${nm[show]} <b>${sc(show)}</b> · ${nm[other]} ${sc(other)} <span class="dim">/ 4</span>${f[show]&&f[show].redFlag>=0.5?' ⚠ 경고':''} <span class="chip">검증 전</span>`;
-}
-function fitRecord(){
-  const F=window.FITSCORE_DATA;
-  if(!F||!F.scored5)return '아직 채점 전 — 1주(5거래일) 뒤 결과부터 성적이 쌓입니다. 모의투자 일지의 부합도 성적표에서 봅니다.';
-  return `지금까지 1주 뒤 결과로 채점 ${F.scored5}건${F.scored5<30?' — 아직 믿을 수준이 아닙니다':''} · 모의투자 일지의 부합도 성적표 참고`;
 }
 function canslimRows(rows,D,ep){
   let r=nRowOf(D);
@@ -1305,7 +1290,7 @@ function bodyFor(id){
       ${rows([['현재가 → 피벗',`${n(p.price)} → <b>${n(p.pivot)}</b> (${sg(p.distToPivotPct)}%)`],
         ['예비 손절 · 위험',`${n(p.stop)} · ${n(p.riskPerSharePct,1)}%`],
         ['비중(계좌 대비)',`${n(p.weightPct,1)}%${p.weightCapped?' (상한)':''}`],
-        ['10일선 이격',`${sg(p.extensionAdr)} ADR`],...(fitLine(p)?[['쿨라매기 부합도',fitLine(p)]]:[])])}
+        ['10일선 이격',`${sg(p.extensionAdr)} ADR`]])}
       <div class="note">${(p.reasons||[]).map(esc).join(' · ')}</div>
       ${p.lastRead?`<div class="note" style="color:var(--blu)">🤖 클로드 차트 소견 (${esc(p.lastRead.date)}) — ${esc(p.lastRead.note||p.lastRead.verdict)}</div>`:''}
       ${p.blocked?`<div class="nosrc">⛔ ${esc(p.blocked)}</div>`:''}

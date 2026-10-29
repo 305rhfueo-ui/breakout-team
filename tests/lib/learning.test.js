@@ -1,11 +1,9 @@
 'use strict';
-// 학습 고리 1단계 (2026-10-22) — 사지 않은 후보 기록 · 한 건 채점 · 로컬 판정 모델이 꺼져 있을 때
+// 학습 고리 (2026-10-22) — 사지 않은 후보 기록 · 한 건 채점 · 서준 후보 학습 자료
 //   node tests/lib/learning.test.js
 const assert = require('assert');
-process.env.OLLAMA_URL = 'http://127.0.0.1:1';            // 아무것도 듣지 않는 곳 — 이 기기에 Ollama 가 있든 없든 같은 결과
-const { watchlistOf } = require('../../scripts/lib/team6');
+const { watchlistOf, setupInput, LEARN_V } = require('../../scripts/lib/team6');
 const { scoreAt } = require('../../scripts/paper-review');
-const LJ = require('../../scripts/lib/local-judge');
 let pass = 0, fail = 0;
 const ok = async (name, fn) => { try { await fn(); console.log('  ✅ ' + name); pass++; } catch (e) { console.log('  ❌ ' + name + '\n     ' + e.message); fail++; } };
 
@@ -37,52 +35,30 @@ const ok = async (name, fn) => { try { await fn(); console.log('  ✅ ' + name);
     assert.strictEqual(scoreAt(bars, { asOf: '2026-10-01', price: 100 }, 3).r, null, '피벗 없으면 R 없음');
   });
 
-  await ok('Ollama 가 응답하지 않으면 null — throw 하지 않는다', async () => {
-    assert.strictEqual(await LJ.judgeNews({ ticker: 'X', title: 't' }), null);
-    assert.strictEqual(await LJ.judgeCatalyst({ ticker: 'X', news: [{ title: 'n' }], filings: [{ filingDate: '2026-10-01', form: '8-K', items: ['2.02'] }] }), null);
-  });
-  await ok('촉매 입력 = Claude 가 받은 원문 제목·8-K 항목', () => {
-    const s = LJ.catalystState({ ticker: 'X', news: [{ date: '2026-10-20', title: 'X beats Q3 estimates' }], filings: [{ filingDate: '2026-10-19', form: '8-K', items: ['2.02', '9.01'] }] });
-    assert.ok(s.includes('X beats Q3 estimates') && s.includes('earnings results, financial exhibits'));
-  });
-
-  // ── 부합도 · 학습 자료 · 야후 기사 · "살까?" (2026-10-26) ──
+  // ── 학습 자료 · 야후 기사 · "살까?" (2026-10-26) ──
   const PR = require('../../scripts/paper-review');
-  await ok('부합도는 fitOf 로만 들어간다 — 계획 객체엔 없고, 없으면 null', () => {
-    const f = { v: LJ.SETUP_Q_V, at: '2026-10-22', in: LJ.setupInput(t6.plans[0], 'red'), laya: { fit: 2.2, redFlag: 0.6 }, nimble: { fit: 2.9, redFlag: 0.2 } };
+  await ok('학습 입력은 fitOf 로만 들어간다 — 계획 객체엔 없고, 없으면 null', () => {
+    const f = { v: LEARN_V, at: '2026-10-22', in: setupInput(t6.plans[0], 'red') };
     const w2 = watchlistOf(t6, new Map([['W|105', f]]));
-    assert.strictEqual(w2.items[0].fit.nimble.fit, 2.9); assert.strictEqual(w2.items[1].fit, null); assert.strictEqual(w.items[0].fit, null);
+    assert.strictEqual(w2.items[0].fit.in.baseWeeks, 3); assert.strictEqual(w2.items[1].fit, null); assert.strictEqual(w.items[0].fit, null);
     assert.ok(!('fit' in t6.plans[0]));
     assert.ok(!/weight|qty|shares|usd|amount/i.test(JSON.stringify(f.in)), '입력에 수량·금액 없음');
   });
-  await ok('score 응답을 0~4 실수로 읽는다 (실측 응답 모양)', async () => {
-    const real = global.fetch;
-    global.fetch = async () => ({ ok: true, json: async () => ({ answers: { fit: { type: 'score', score: 2.734, legend: { 0: 'poor' } }, redFlag: { type: 'noul', noul: 0.41 } } }) });
-    try { assert.deepStrictEqual(await LJ.judgeSetup('nimble', LJ.setupInput(t6.plans[0], 'red')), { fit: 2.73, redFlag: 0.41 }); } finally { global.fetch = real; }
-    assert.strictEqual(await LJ.judgeSetup('nimble', {}), null, 'Ollama 없음 → null');
-  });
   await ok('학습 자료 — 5세션 뒤 기록 생성, 21세션 뒤 같은 기록에 채움, 두 번 돌려도 같음, QQQ 없으면 라벨 null', () => {
-    const fit = { v: LJ.SETUP_Q_V, at: '2026-10-01', in: {}, laya: null, nimble: { fit: 3, redFlag: 0.1 } };
+    const fit = { v: LEARN_V, at: '2026-10-01', in: {}, nimble: { fit: 3, redFlag: 0.1 } };   // 10/26~28 기록엔 모델 점수가 남아 있다 — 학습 자료엔 입력만
     const rec = { src: 'cand', ticker: 'X', pivot: 105, asOf: '2026-10-01', setup: 'pre', kind: 'k', grade: 'A', regime: 'red', fit };
     const o5 = { src: 'cand', ticker: 'X', pivot: 105, h: 5, retPct: 4, maxUpPct: 6, maxDownPct: -1, broke: true, r: 0.5, qqqPct: 1 };
     const map = {};
     assert.deepStrictEqual(PR.updateSetups(map, [rec], [o5], '2026-10-10'), { added: 1, filled: 1 });
+    assert.deepStrictEqual(map['X|105'].fit, { v: LEARN_V, at: '2026-10-01', in: {} });
     assert.strictEqual(map['X|105'].up1w, true); assert.strictEqual(map['X|105'].up1m, null);
     assert.deepStrictEqual(PR.updateSetups(map, [rec], [o5], '2026-10-10'), { added: 0, filled: 0 }, '중복 없음');
     PR.updateSetups(map, [rec], [{ ...o5, h: 21, retPct: -2, qqqPct: null }], '2026-11-01');
     assert.strictEqual(map['X|105'].out[21].retPct, -2); assert.strictEqual(map['X|105'].up1m, null, 'QQQ 없으면 null');
     PR.updateSetups(map, [{ ...rec, fit: null, ticker: 'Y' }], [], '2026-11-01');
-    assert.ok(!map['Y|105'], '부합도 없는 후보는 학습 자료에 넣지 않음');
+    assert.ok(!map['Y|105'], '입력 없는 후보(10/26 이전 목록)는 학습 자료에 넣지 않음');
   });
-  await ok('부합도 표는 돌파 전 후보만 · 화면 모델은 30건 미만이면 nimble · 재학습 조건', () => {
-    const row = (o) => ({ src: 'cand', setup: 'pre', h: 5, retPct: 2, qqqPct: 1, broke: false, r: null, regime: 'red', grade: 'A',
-      fit: { v: LJ.SETUP_Q_V, nimble: { fit: 3, redFlag: 0 }, laya: { fit: 1, redFlag: 0 } }, ...o });
-    const out = [row({}), row({ setup: 'post' })];
-    assert.strictEqual(PR.fitSection(out).rows.length, 1);
-    assert.strictEqual(PR.pickShow(out), 'nimble');
-    const many = Array.from({ length: 30 }, () => row({ fit: { v: LJ.SETUP_Q_V, nimble: { fit: 1 }, laya: { fit: 3 } }, retPct: 5 }));
-    assert.strictEqual(PR.pickShow(many), 'laya', '30건 이상이고 Laya 높음 묶음만 있으면 laya');
-    assert.strictEqual(PR.fitBand(1.49), '낮음'); assert.strictEqual(PR.fitBand(2.5), '높음');
+  await ok('학습 조건 — 1주 정답 1,000건 · 빨간불·초록불 각 100건', () => {
     const m = {}; for (let i = 0; i < 1000; i++) m['T' + i] = { up1w: true, regime: i < 500 ? 'red' : 'green' };
     assert.strictEqual(PR.retrainStatus(m).ready, true); assert.strictEqual(PR.retrainStatus({ a: { up1w: true, regime: 'red' } }).ready, false);
   });
@@ -108,10 +84,11 @@ const ok = async (name, fn) => { try { await fn(); console.log('  ✅ ' + name);
     const { messages } = require('../../scripts/finish-ondemand');
     const rec = { ticker: 'SNOW', verdict: '조건부', verdictLine: 'VLINE', basis: [{ side: 'for', point: 'P1' }], conditions: [], invalidation: '', checks: { qm: [], canslim: [] },
       gates: { asOf: {} }, session: '2026-10-23', deep: { factcheck: { removed: [] } }, verified: { checked: 3 }, market: { verdict: 'red' }, industryRank: { frank: 3, headline: 'HL' },
-      teamView: { seojun: { grade: 'B', state: 'pre', watch: false, blocked: '시장 빨간불', fit: { nimble: { fit: 2.4 }, laya: null } }, doyun: { lists: ['RS 1개월'], lead: 'LEAD' }, jaemin: null, holding: { side: 'long' } } };
+      teamView: { seojun: { grade: 'B', state: 'pre', watch: false, blocked: '시장 빨간불' }, doyun: { lists: ['RS 1개월'], lead: 'LEAD' }, jaemin: null, holding: { side: 'long' } } };
     const [m1, m2] = messages(rec, { ask: 'buy' });
-    for (const k of ['🧑‍💼 실장 — SNOW', '결론: 🟡 조건이 맞으면', '[팀 의견]', '🔴 빨간불', 'B등급', 'Nimble 2.4', 'RS 1개월 — LEAD', '거래량 급증 종목 아님', '업종 순위 3위', '이미 보유 중']) assert.ok(m1.includes(k), `없음: ${k}`);
+    for (const k of ['🧑‍💼 실장 — SNOW', '결론: 🟡 조건이 맞으면', '[팀 의견]', '🔴 빨간불', 'B등급', 'RS 1개월 — LEAD', '거래량 급증 종목 아님', '업종 순위 3위', '이미 보유 중']) assert.ok(m1.includes(k), `없음: ${k}`);
     assert.ok(m2.includes('최종 결정과 책임은 사장님'));
+    assert.ok(!/부합도|Nimble|Laya/.test(m1), '로컬 모델 점수는 뺐다(2026-10-29)');
     assert.ok(messages(rec)[0].startsWith('🟡 SNOW — 조건부'), '"심층분석"은 지금 형식 그대로');
     assert.ok(!/qty|수량|주\b|\$\d/.test(m1));
   });

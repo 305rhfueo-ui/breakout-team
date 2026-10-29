@@ -83,7 +83,7 @@ function teamLines(rec, cut) {
   const mk = rec.market && rec.market.verdict;
   L.push(`· 시장(한별): ${{ green: '🟢 초록불', yellow: '🟡 노란불', red: '🔴 빨간불' }[mk] || '확인 불가'}${rec.market && rec.market.finraKo ? ` · ${cut(rec.market.finraKo, 60)}` : ''}`);
   const s = v.seojun;
-  L.push(s ? `· 서준: ${s.grade}등급 · ${s.state === 'post' ? '이미 피벗 돌파(추격 구간)' : s.watch ? '오늘 밤 관심' : `막힘 — ${s.blocked || '사유 없음'}`}${s.fit && (s.fit.nimble || s.fit.laya) ? ` · 부합도 Nimble ${s.fit.nimble ? s.fit.nimble.fit : '—'} · Laya ${s.fit.laya ? s.fit.laya.fit : '—'} /4(검증 전)` : ''}` : '· 서준: 후보 아님(피벗 근처 셋업 없음)');
+  L.push(s ? `· 서준: ${s.grade}등급 · ${s.state === 'post' ? '이미 피벗 돌파(추격 구간)' : s.watch ? '오늘 밤 관심' : `막힘 — ${s.blocked || '사유 없음'}`}` : '· 서준: 후보 아님(피벗 근처 셋업 없음)');
   L.push(v.doyun ? `· 도윤: ${v.doyun.lists.length ? v.doyun.lists.join('·') : '선정 종목'}${v.doyun.lead ? ` — ${cut(v.doyun.lead, 120)}` : ''}` : '· 도윤: 목록에 없음');
   L.push(v.jaemin ? `· 재민: ${v.jaemin.category}${v.jaemin.why ? ` — ${cut(v.jaemin.why, 120)}` : ''}` : '· 재민: 거래량 급증 종목 아님');
   const r = rec.industryRank;

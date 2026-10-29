@@ -450,17 +450,12 @@ async function main() {
       writeWindowData(f, 'TEAM4_DATA', d);
       merged.push(`team4(촉매 ${done}${carried ? ` · 이월 ${carried}` : ''}${failedCount ? ` · 실패 ${failedCount}` : ''})`);
       // 재민 촉매 기록 (2026-10-22 학습 고리) — team4.js 는 매일 덮이므로 그날 새로 분류한 것만 따로 남긴다(주간 리뷰가 10·21거래일 뒤 결과로 채점).
-      //   Laya·Nimble(로컬 판정 모델)은 Claude 가 받은 것과 같은 원문(_t4/<T>.json 뉴스 제목·8-K)만 읽는다 — 기록만, 판단에 쓰지 않는다. Ollama 가 없으면 local:null.
+      //   Claude 가 읽은 원문(_t4/<T>.json 뉴스 제목·8-K)은 아침 커밋에 같이 남는다 — 나중에 로컬 모델을 학습·검증할 때 이 분류가 정답, 그 원문이 입력.
       if (byTicker.size) {
-        const lj = require('./lib/local-judge');
-        const log = [], until = Date.now() + 90e3;     // 로컬 판정은 최대 90초 — 병합(5·6팀·실장·커밋)이 늦어지지 않게. 넘으면 나머지는 local:null (17종목 실측 25초)
-        for (const it of d.items || []) {
-          if (!byTicker.has(it.ticker)) continue;
-          const t4 = readJson(path.join(paths.llmInDir, '_t4', `${it.ticker}.json`), null);
-          log.push({ ticker: it.ticker, price: it.price, category: it.catalyst.category, confidence: it.catalyst.confidence || null, local: t4 && Date.now() < until ? await lj.judgeCatalyst(t4) : null });
-        }
+        const log = (d.items || []).filter((it) => byTicker.has(it.ticker))
+          .map((it) => ({ ticker: it.ticker, price: it.price, category: it.catalyst.category, confidence: it.catalyst.confidence || null }));
         writeJson(path.join(paths.root, 'state', 'ep-log', `${dateStr}.json`), { date: dateStr, items: log });
-        say('SYSTEM', `재민 촉매 기록 ${log.length}건 (로컬 모델 ${log.filter((x) => x.local).length}건)`);
+        say('SYSTEM', `재민 촉매 기록 ${log.length}건`);
       }
     }
   }
