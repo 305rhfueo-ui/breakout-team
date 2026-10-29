@@ -275,15 +275,16 @@ async function ping() {
 //   · 한 번에 **상승률 순 100개까지만** 준다(쪽 넘김 없음 — tr_cont N 을 보내도 같은 1쪽). 그래서 거래대금 하한(amtMinK, 천 달러 단위)으로 대상을 100개 안으로 줄여 부른다.
 //   · 단위 실측: CO_ST_AMT 1000 → 최소 거래대금 $1.1M · 10000 → $10.4M · 100000 → $103.6M (천 달러).
 //   · 응답 output2: symb·name(한글)·ename·last·rate(전일 대비 %)·tvol(거래량)·excd. output1.trec = 조건에 맞는 전체 수.
-async function search({ excd, rateMin = 5, rateMax = 100000, amtMinK = null }) {
+async function search({ excd, rateMin = 5, rateMax = 100000, amtMinK = null, priceMin = null, priceMax = null }) {
   const P = { AUTH: '', EXCD: excd, KEYB: '' };
   for (const k of ['PRICECUR', 'RATE', 'VALX', 'SHAR', 'VOLUME', 'AMT', 'EPS', 'PER']) { P[`CO_YN_${k}`] = ''; P[`CO_ST_${k}`] = ''; P[`CO_EN_${k}`] = ''; }
-  Object.assign(P, { CO_YN_RATE: '1', CO_ST_RATE: String(rateMin), CO_EN_RATE: String(rateMax) });
+  if (rateMin != null) Object.assign(P, { CO_YN_RATE: '1', CO_ST_RATE: String(rateMin), CO_EN_RATE: String(rateMax) });
+  if (priceMin != null) Object.assign(P, { CO_YN_PRICECUR: '1', CO_ST_PRICECUR: String(priceMin), CO_EN_PRICECUR: String(priceMax ?? 99999999) });   // 달러
   if (amtMinK != null) Object.assign(P, { CO_YN_AMT: '1', CO_ST_AMT: String(amtMinK), CO_EN_AMT: '999999999999' });
   const r = await call('/uapi/overseas-price/v1/quotations/inquire-search', 'HHDFS76410000', P);
   if (!r.ok) return r;
   const rows = (r.j.output2 || []).map((x) => ({ ticker: String(x.symb || '').trim(), excd: x.excd || excd, nameKo: (x.name || '').trim() || null, nameEn: (x.ename || '').trim() || null,
-    price: Number(x.last), ratePct: Number(x.rate), volume: Number(x.tvol) })).filter((x) => x.ticker && Number.isFinite(x.price) && Number.isFinite(x.volume));
+    price: Number(x.last), ratePct: Number(x.rate), volume: Number(x.tvol), valx: Number(x.valx) })).filter((x) => x.ticker && Number.isFinite(x.price) && Number.isFinite(x.volume));
   for (const x of rows) x.amountUsd = Math.round(x.price * x.volume);
   return { ok: true, total: Number((r.j.output1 || {}).trec) || rows.length, rows };
 }
