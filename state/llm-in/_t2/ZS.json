@@ -1,0 +1,299 @@
+{
+ "ticker": "ZS",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "지스케일러",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 17.27,
+  "saleNy": 16.47,
+  "epsCy": 16.57,
+  "epsNy": 14.57,
+  "est": {
+   "cyCur": 4.90779,
+   "cy30": 4.90819,
+   "nyCur": 5.62282,
+   "ny30": 5.602
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.88,
+    25.43,
+    25.91
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -1.72,
+    -3.49,
+    -6.35
+   ],
+   "updated": "2026-09-08 10:17:18"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-23",
+   "m3": "2026-10-22",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 4,
+   "m3": 5,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-29",
+  "nameKo": "지스케일러",
+  "nameEn": "ZSCALER INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": true,
+     "revenue": 898185000,
+     "profit": -15492000,
+     "netIncome": -3369000,
+     "margin": -1.7,
+     "yoy": {
+      "revenue": 24.9,
+      "profit": 52,
+      "netIncome": 80.8,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 850475000,
+     "profit": -29640000,
+     "netIncome": -13883000,
+     "margin": -3.5,
+     "yoy": {
+      "revenue": 25.4,
+      "profit": -16.6,
+      "netIncome": -236.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 815751000,
+     "profit": -51773000,
+     "netIncome": -34312000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 25.9,
+      "profit": -29,
+      "netIncome": -344.2,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 788112000,
+     "profit": -36362000,
+     "netIncome": -11615000,
+     "margin": -4.6,
+     "yoy": {
+      "revenue": 25.5,
+      "profit": -18.6,
+      "netIncome": 3.6,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Zscaler vs. Alphabet: Which Cloud Security Stock Has the Edge?",
+     "url": "https://www.nasdaq.com/articles/zscaler-vs-alphabet-which-cloud-security-stock-has-edge",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zscaler, Inc. (ZS) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/zscaler-inc-zs-trending-stock-facts-know-betting-it",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zscaler Consensus Price Target Rises 10.12% to $238.39",
+     "url": "https://www.nasdaq.com/articles/zscaler-consensus-price-target-rises-1012-23839",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Zscaler Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/zscaler-reaches-analyst-target-price",
+     "date": "2026-10-23",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Zscaler (ZS) Ascends While Market Falls: Some Facts to Note",
+     "url": "https://www.nasdaq.com/articles/zscaler-zs-ascends-while-market-falls-some-facts-note-0",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zscaler's Data Security Push: Can Its Security Tools Win More Deals?",
+     "url": "https://www.nasdaq.com/articles/zscalers-data-security-push-can-its-security-tools-win-more-deals",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Zscaler (ZS) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-zscaler-zs-strong-momentum-stock-0",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "실적 발표",
+     "2.05",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000095/zs-20260526.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000082/zs-20260415.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-20260226.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
+   "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Investors should use the volatility to add to their portfolios, says Hightower's Stephanie Link",
+   "url": "https://www.cnbc.com/video/2026/10/26/investors-should-use-the-volatility-to-add-to-their-portfolios-says-hightowers-stephanie-link.html",
+   "date": "2026-10-26",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Trade Tracker: Hightower's Stephanie Link buys Zscaler, buys more Wells Fargo and sells Dover",
+   "url": "https://www.cnbc.com/video/2026/10/23/trade-tracker-stephanie-link-buys-zscaler-buys-more-wells-fargo-sells-dover.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: Zscaler, ServiceNow and Spotify",
+   "url": "https://www.cnbc.com/video/2026/10/22/final-trades-zscaler-servicenow-and-spotify.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
+   "url": "https://www.cnbc.com/video/2026/10/06/zscaler-ceo-jay-chaudhry-on-cybersecurity-in-the-age-of-ai-company-growth-outlook.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trade: HQY, EEM, C, ZS",
+   "url": "https://www.cnbc.com/video/2026/10/05/final-trade-hqy-eem-c-zs.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ZS",
+  "fetchedAt": "2026-10-29",
+  "source": "한국투자증권 Open API",
+  "per": 647.1,
+  "pbr": 16.05,
+  "eps": 0.4,
+  "bps": 15.93,
+  "shares": 163055000,
+  "marketCapM": 41709,
+  "high52": 336.99,
+  "high52Date": "2025-11-03",
+  "low52": 114.625,
+  "low52Date": "2026-04-10",
+  "last": 255.8,
+  "prevClose": 260.15,
+  "nameKo": "지스케일러",
+  "nameEn": "ZSCALER INC",
+  "listedOn": "2018-03-15",
+  "exchange": "나스닥",
+  "listedShares": 163055000
+ }
+}

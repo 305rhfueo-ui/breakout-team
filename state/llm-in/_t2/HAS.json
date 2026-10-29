@@ -1,0 +1,302 @@
+{
+ "ticker": "HAS",
+ "sector": "Consumer Cyclical",
+ "industry": "Leisure",
+ "nameKo": "해즈브로",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 9.88,
+  "saleNy": 6.81,
+  "epsCy": 23.06,
+  "epsNy": 0.99,
+  "est": {
+   "cyCur": 6.81755,
+   "cy30": 6.15514,
+   "nyCur": 6.88535,
+   "ny30": 6.51371
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.19,
+    12.75,
+    31.25
+   ],
+   "ni": [
+    "흑자전환",
+    101.22,
+    "흑자전환"
+   ],
+   "opm": [
+    22.16,
+    27.02,
+    20.58
+   ],
+   "updated": "2026-09-08 06:41:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-21",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 6,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-29",
+  "nameKo": "해즈브로",
+  "nameEn": "HASBRO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000046080&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-28",
+     "derived": false,
+     "revenue": 1139600000,
+     "profit": 252500000,
+     "netIncome": 160900000,
+     "margin": 22.2,
+     "yoy": {
+      "revenue": 16.2,
+      "profit": 131.6,
+      "netIncome": 118.8,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-29",
+     "derived": false,
+     "revenue": 1000200000,
+     "profit": 270300000,
+     "netIncome": 198400000,
+     "margin": 27,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 58.3,
+      "netIncome": 101.2,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-28",
+     "derived": true,
+     "revenue": 1445900000,
+     "profit": 297500000,
+     "netIncome": 201600000,
+     "margin": 20.6,
+     "yoy": {
+      "revenue": 31.3,
+      "profit": 397.5,
+      "netIncome": 687.8,
+      "priorEnd": "2024-12-29"
+     }
+    },
+    {
+     "periodEnd": "2025-09-28",
+     "derived": false,
+     "revenue": 1387500000,
+     "profit": 341100000,
+     "netIncome": 233200000,
+     "margin": 24.6,
+     "yoy": {
+      "revenue": 8.3,
+      "profit": 13,
+      "netIncome": 4.5,
+      "priorEnd": "2024-09-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Hasbro, Inc. Appoints Dan Ayoub as President of Wizards of the Coast and Hasbro Digital Games, Effective November 2, 2026",
+     "url": "https://www.nasdaq.com/articles/hasbro-inc-appoints-dan-ayoub-president-wizards-coast-and-hasbro-digital-games-effective",
+     "date": "2026-10-27",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Hasbro and Campbell's have been highlighted as Zacks Bull and Bear of the Day",
+     "url": "https://www.nasdaq.com/articles/hasbro-and-campbells-have-been-highlighted-zacks-bull-and-bear-day",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bull of the Day: Hasbro (HAS)",
+     "url": "https://www.nasdaq.com/articles/bull-day-hasbro-has",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Hasbro Stock Surged This Week",
+     "url": "https://www.nasdaq.com/articles/why-hasbro-stock-surged-week",
+     "date": "2026-10-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hasbro (HAS) Is Up 5.83% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/hasbro-has-583-one-week-what-you-should-know",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Accenture, Hasbro and MSCI",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-accenture-hasbro-and-msci",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Hasbro Stock Jumped Today",
+     "url": "https://www.nasdaq.com/articles/why-hasbro-stock-jumped-today",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hasbro: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/hasbro-3-key-takeaways-long-term-investors",
+     "date": "2026-10-20",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000062/has-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000058/has-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000047/has-20260727.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000044/has-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000034/has-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000029/has-20260520.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Hasbro, Northrop Grumman, Equifax, GM",
+   "url": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-midday-has-noc-efx-gm.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Buy these high-quality dividend stocks with plenty of free cash flow, BofA says",
+   "url": "https://www.cnbc.com/2026/09/21/buy-these-high-quality-dividend-stocks-with-plenty-of-free-cash-flow.html",
+   "date": "2026-09-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Coinbase, Micron, Hasbro, Utz & more",
+   "url": "https://www.cnbc.com/2026/07/21/stocks-making-the-biggest-moves-midday-coin-mu-nbis-has-utz.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Here are the 6 big things we're watching in the stock market this week",
+   "url": "https://www.cnbc.com/investingclub/2026/07/19/here-are-the-6-big-things-were-watching-in-the-stock-market-this-week.html",
+   "date": "2026-07-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The 10 worst state economies in America in 2026",
+   "url": "https://www.cnbc.com/2026/07/13/worst-state-economies-2026.html",
+   "date": "2026-07-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Trading cards are now the biggest category in toys and games, says Hasbro CEO Chris Cocks",
+   "url": "https://www.cnbc.com/video/2026/10/20/trading-cards-are-now-the-biggest-category-in-toys-and-games-says-hasbro-ceo-chris-cocks.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "HAS",
+  "fetchedAt": "2026-10-29",
+  "source": "한국투자증권 Open API",
+  "per": 17.73,
+  "pbr": 23.77,
+  "eps": 6.69,
+  "bps": 4.99,
+  "shares": 141044000,
+  "marketCapM": 16739,
+  "high52": 121.04,
+  "high52Date": "2026-10-28",
+  "low52": 72.4722,
+  "low52Date": "2025-11-05",
+  "last": 118.68,
+  "prevClose": 118.33,
+  "nameKo": "해즈브로",
+  "nameEn": "HASBRO INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 141044000
+ }
+}

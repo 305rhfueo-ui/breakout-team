@@ -2,6 +2,12 @@
  "ticker": "UHS",
  "news": [
   {
+   "title": "UHS (UHS) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/uhs-uhs-q3-2026-earnings-call-transcript",
+   "date": "2026-10-28",
+   "publisher": "The Motley Fool"
+  },
+  {
    "title": "Compared to Estimates, Universal Health Services (UHS) Q3 Earnings: A Look at Key Metrics",
    "url": "https://www.nasdaq.com/articles/compared-estimates-universal-health-services-uhs-q3-earnings-look-key-metrics",
    "date": "2026-10-27",
@@ -24,6 +30,41 @@
    "url": "https://www.nasdaq.com/articles/analysts-estimate-universal-health-services-uhs-report-decline-earnings-what-look-out",
    "date": "2026-10-20",
    "publisher": "Zacks"
+  },
+  {
+   "title": "Universal Health Services: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-q3-earnings-183608964.html",
+   "date": "2026-10-28",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UHS (UHS) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/uhs-uhs-q3-2026-earnings-170035104.html",
+   "date": "2026-10-28",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Universal Health Services' Q3 EBITDA Miss Driven by Weaker Pricing, BofA Securities Says",
+   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-apos-q3-154352715.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Universal Health Services, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-inc-q3-123000023.html",
+   "date": "2026-10-28",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BofA Securities Adjusts Universal Health Services PT to $170 From $175, Maintains Underperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-universal-health-122329219.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
   },
   {
    "title": "Compared to Estimates, Universal Health Services (UHS) Q3 Earnings: A Look at Key Metrics",
@@ -51,34 +92,6 @@
    "url": "https://finance.yahoo.com/healthcare/articles/universal-health-q3-adjusted-earnings-205326575.html",
    "date": "2026-10-27",
    "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Universal Health Services (NYSE:UHS) posts Q3 2026 sales in line with estimates",
-   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-nyse-uhs-202335960.html",
-   "date": "2026-10-27",
-   "publisher": "StockStory",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Universal Health Services, Inc. Announces Financial Results for the Three and Nine-Month Periods Ended September 30, 2026",
-   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-inc-announces-201600143.html",
-   "date": "2026-10-27",
-   "publisher": "GlobeNewswire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Universal Health Services Fell 6% as Rival HCA Guides 2027 Earnings “Generally Consistent” With 2026",
-   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-fell-6-175718272.html",
-   "date": "2026-10-27",
-   "publisher": "TIKR",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Universal Health Services earnings: what to look for from UHS",
-   "url": "https://finance.yahoo.com/healthcare/articles/universal-health-services-earnings-look-105447782.html",
-   "date": "2026-10-26",
-   "publisher": "StockStory",
    "via": "Yahoo"
   }
  ],

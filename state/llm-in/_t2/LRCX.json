@@ -1,0 +1,357 @@
+{
+ "ticker": "LRCX",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "램 리서치",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 52.35,
+  "saleNy": 20.36,
+  "epsCy": 65.43,
+  "epsNy": 26.23,
+  "est": {
+   "cyCur": 9.62799,
+   "cy30": 9.46781,
+   "nyCur": 12.15311,
+   "ny30": 11.73954
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    29.99,
+    23.76,
+    22.14
+   ],
+   "ni": [
+    32.39,
+    37.18,
+    33.83
+   ],
+   "opm": [
+    37.39,
+    35.04,
+    33.87
+   ],
+   "updated": "2026-09-08 07:07:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-29",
+  "nameKo": "램 리서치",
+  "nameEn": "LAM RESEARCH CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000707549&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-27",
+     "derived": false,
+     "revenue": 8219418000,
+     "profit": 3283727000,
+     "netIncome": 2753138000,
+     "margin": 40,
+     "yoy": {
+      "revenue": 54.4,
+      "profit": 79.5,
+      "netIncome": 75.5,
+      "priorEnd": "2025-09-28"
+     }
+    },
+    {
+     "periodEnd": "2026-06-28",
+     "derived": true,
+     "revenue": 6722238000,
+     "profit": 2513488000,
+     "netIncome": 2277282000,
+     "margin": 37.4,
+     "yoy": {
+      "revenue": 30,
+      "profit": 44.4,
+      "netIncome": 32.4,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-29",
+     "derived": false,
+     "revenue": 5841488000,
+     "profit": 2047016000,
+     "netIncome": 1825460000,
+     "margin": 35,
+     "yoy": {
+      "revenue": 23.8,
+      "profit": 31.1,
+      "netIncome": 37.2,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-28",
+     "derived": false,
+     "revenue": 5344791000,
+     "profit": 1810203000,
+     "netIncome": 1593994000,
+     "margin": 33.9,
+     "yoy": {
+      "revenue": 22.1,
+      "profit": 35.7,
+      "netIncome": 33.8,
+      "priorEnd": "2024-12-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Lam Research Sees Record Foundry Sales: Can the Momentum Continue?",
+     "url": "https://www.nasdaq.com/articles/lam-research-sees-record-foundry-sales-can-momentum-continue",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Teradyne, Lam Research and ATI",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-teradyne-lam-research-and-ati",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Equities Bounce: 3 Top Ranked Stocks to Buy Now (TER, LRCX, ATI)",
+     "url": "https://www.nasdaq.com/articles/equities-bounce-3-top-ranked-stocks-buy-now-ter-lrcx-ati",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Lam Research (LRCX) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-lam-research-lrcx-top-growth-stock-long-term",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AMAT vs. LRCX: Which Stock Has an Edge in the WFE Space?",
+     "url": "https://www.nasdaq.com/articles/amat-vs-lrcx-which-stock-has-edge-wfe-space",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx-20261021.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000043/lrcx-20260824.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx-20260422.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000012/lrcx-20260130.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000006/lrcx-20260128.htm"
+   }
+  ],
+  "krReports": {
+   "total": 9,
+   "reports": [
+    {
+     "date": "2026-10-23",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[램 리서치 (NAS:LRCX)] 수요가 강해야 병목도 생긴다",
+     "summary": "- 클린룸, 공급망 병목 완화 시 가이던스는 재차 상향 가능- FY1Q27 Review: 메모리 비중 46%. 적극적인 CapEx 집행 기조 확인- FY2Q27 가이던스는 시장 예상 부합. 향후 신장비 모멘텀이 기대 요인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqclgcqqmgzigcgxecgm.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[램 리서치 (NAS:LRCX)] [27Q1 Review] 사상 최고 이익률, 12월 가이던스는 컨센서스 부합, 투자의견 매수 유지",
+     "summary": "- 매출 82.2억 달러, 영업이익률 40% 첫 돌파- 12월 가이던스는 컨센 인라인, 서프라이즈 패턴 단절- 중국 비중 35% 재확대·CSBG 보합이 새 견제 축",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxgqkimcexexgcgxecgm.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-19",
+     "broker": "SK증권",
+     "analyst": "이동주",
+     "title": "[램 리서치 (NAS:LRCX)] 메모리로 재확장",
+     "summary": "- 식각·증착 특화 장비사, WFE 상향의 직접 수혜- 비메모리에서 쌓은 3D 역량, DRAM으로 확장- 극저온 식각, 우선 순위는 여전히 램리서치",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgixkqcggeciigcgxecgm.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-13",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[램 리서치 (NAS:LRCX)] [27Q1 Preview] 81억 달러 가이던스 달성 여부와 중국 규제 변수, 투자의견 매수 유지",
+     "summary": "- 램리서치는 10 월 22 일 9 월 결산분기 실적을 내놓는다. 이 회사는 반도체를 만들 때 쓰는 식각·증착 장비를 공급하는 업체로, 메모리 공정 투자 사이클에 특히 민감하다. 이번 발표의 초점은 하나로 모인다. 경영진이 직전 분기에 제시한 매출 81 억달러 가이던스(자체 전망)를 실제로 채울 수 있느냐다. 직전 분기 매출이 67 억달러였으니 전분기 대비 20.5% 증가를 뜻하는 숫자다. 상승 사이클 안에서도 이례적으로 큰 순차 증분이어서, 시장은 이 수치를 자신감의 표현으로도, 실행 위험의 출발점으로도 읽고 있다.- 최근 흐름 자체는 견조하다. 직전 분기 매출 67.22 억달러는 분기 사상 최고치이면서 열두 분기 연속 전분기 대비 성장이었고, 주당순이익도 1.47 달러에서 1.82 달러 수준으로 올라섰다. 마진(이익률)도 같이 올라갔다. 조정 기준 매출총이익률 52.0%, 영업이익률 38.4%는 모두 분기 최고 기록이며 회사가 제시했던 50.5%·37%를 꽤 웃돌았다. 경영진은 중장기적으로 매출총이익률 50% 중반대를 목표로 언급해 왔다. 이번 분기에 이 마진 레벨이 유지되는지가 매출 레버리지가 구조적인가를 가늠하는 대목이다. 참고로 우리 하우스는 지난 7 월 이번 분기 매출을 78~84 억달러, 주당순이익을 2.05~2.30 달러로 제시했고, 이번 발표가 그 전망의 첫 검증이다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmelklikglgmexgcgxecgm.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-14",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[램 리서치 (NAS:LRCX)] [Issue & News] R&D 랩 네트워크에 5년간 30억 달러 이상 투자 - AI발 WFE 확장 사이클에 대한 선제적 베팅",
+     "summary": "- R&D 랩에 5년간 30억달러+ 투자, 실험역량 50%↑ 목표- WFE 8분기 연속 상향과 맞물린 구조적 확장 베팅- 주가 조정 국면 속 밸류에이션·수출규제 부담 여전",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxxxxcqimmekgcgxecgm.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[램 리서치 (NAS:LRCX)] [26Q4 Review] 트리플 신고에 가이던스 폭발, 매수 유지",
+     "summary": "- Q4 FY26 매출·마진·EPS 트리플 신고 달성- Q1 FY27 가이던스 $8.1B로 QoQ +20.5% 파격- 주가 1개월 -39% 후 시간외 +5.9% 반등 중",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlziqgleecmmqegcgxecgm.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-04-24",
+     "broker": "하나증권",
+     "analyst": "김록호",
+     "title": "[램 리서치 (NAS:LRCX)] 보수적으로 봐도 매분기 사상 최대 실적 경신",
+     "summary": "- FY3Q26 Review: 또다시 분기 사상 최대 실적 경신- FY4Q26 가이던스: 또 또다시 매분기 최대 실적 경신 가능- 2026년 WFE 지출 전망치 상향. 추가적인 상향 여력도 상존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmlezilcmmmigcgxecgm.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-02-27",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[램 리서치 (NAS:LRCX)] 2026년 DRAM, 2027년 NAND로 이어지는 투자 사이클",
+     "summary": "- 4Q25CY 실적 기대치 상회, 1Q26CY 가이던스도 시장 컨센서스 크게 상회- 2026년 WFE $135B(+25%YoY) 예상. 첨단 패키징 실적 +40% 이상 가이던스 제시- 2027년 실적도 강한 성장세가 예상돼, 당분간 주가 상승세가 이어질 것으로 판단함",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgezeclcqkmxggcgxecgm.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: P&G, Southwest, TTM Technologies & more",
+   "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-midday-pg-lrcx-bx-luv-ttmi-.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This chip stock is not for the faint of heart. Here's why I see opportunity",
+   "url": "https://www.cnbc.com/2026/10/15/lam-research-stock-ai-chip-demand.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Top Wall Street analysts like these 3 stocks for their solid growth potential",
+   "url": "https://www.cnbc.com/2026/08/09/top-analysts-like-these-3-stocks-for-their-solid-growth-potential.html",
+   "date": "2026-08-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AMD and Micron surge, Lam Research climbs 17% as chip stocks rip higher",
+   "url": "https://www.cnbc.com/2026/07/30/chip-stock-rally-lam-research-micron-amd.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "How a nightmare from my hedge funds days informs my current market view",
+   "url": "https://www.cnbc.com/investingclub/2026/07/16/cramer-a-nightmare-from-my-hedge-fund-days-informs-my-current-view.html",
+   "date": "2026-07-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday, October 22, 2026: What's driving this tech stock's pullback despite strong AI adoption",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/22/thursday-october-22-2026-whats-driving-this-tech-stock-pullback-strong-ai-adoption.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "LRCX",
+  "fetchedAt": "2026-10-29",
+  "source": "한국투자증권 Open API",
+  "per": 37.77,
+  "pbr": 22.8,
+  "eps": 6.72,
+  "bps": 11.13,
+  "shares": 1249170000,
+  "marketCapM": 317064,
+  "high52": 438.0348,
+  "high52Date": "2026-06-30",
+  "low52": 134.8769,
+  "low52Date": "2025-11-21",
+  "last": 253.82,
+  "prevClose": 240.85,
+  "nameKo": "램 리서치",
+  "nameEn": "LAM RESEARCH CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 1249170000
+ }
+}

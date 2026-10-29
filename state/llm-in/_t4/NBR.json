@@ -1,0 +1,236 @@
+{
+ "ticker": "NBR",
+ "news": [
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - NBR",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-nbr-0",
+   "date": "2026-10-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Nabors (NBR) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/nabors-nbr-q3-2026-earnings-call-transcript",
+   "date": "2026-10-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Nabors Industries (NBR) Reports Q3 Loss, Tops Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/nabors-industries-nbr-reports-q3-loss-tops-revenue-estimates",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts See a 26.52% Upside in Nabors (NBR): Can the Stock Really Move This High?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2652-upside-nabors-nbr-can-stock-really-move-high",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Nabors Industries (NBR) Report Negative Earnings Next Week? What You Should Know",
+   "url": "https://www.nasdaq.com/articles/will-nabors-industries-nbr-report-negative-earnings-next-week-what-you-should-know",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - NBR",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-nbr",
+   "date": "2026-10-05",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Nabors (NBR) Up 10.4% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/nabors-nbr-104-last-earnings-report-can-it-continue",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Nabors Industries Ltd (NBR) Q3 2026 Earnings Call Highlights: Record International Margins, ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nabors-industries-ltd-nbr-q3-230939203.html",
+   "date": "2026-10-28",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nabors Industries Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/energy/articles/nabors-industries-q3-earnings-call-220423323.html",
+   "date": "2026-10-28",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nabors (NBR) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nabors-nbr-q3-2026-earnings-194357422.html",
+   "date": "2026-10-28",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nabors: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nabors-q3-earnings-snapshot-183425463.html",
+   "date": "2026-10-28",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nabors Industries (NBR) Reports Q3 Loss, Tops Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nabors-industries-nbr-reports-q3-212008453.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nabors Industries’s (NYSE:NBR) Q3 2026 sales beat estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nabors-industries-nyse-nbr-q3-203243847.html",
+   "date": "2026-10-27",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Record International Drilling Margin. $75 Million in Adjusted Free Cash Flow. Nabors Reports Third Quarter 2026 Results.",
+   "url": "https://finance.yahoo.com/energy/articles/record-international-drilling-margin-75-201500707.html",
+   "date": "2026-10-27",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What to expect from Nabors Industries’s (NBR) Q3 earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expect-nabors-industries-nbr-q3-151847390.html",
+   "date": "2026-10-26",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163739/000110465926119167/tm2628332d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163739/000110465926105673/tm2624844d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-26",
+   "items": [
+    "3.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.02",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163739/000110465926101937/tm2622350d4_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-23",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163739/000110465926088124/tm2621313d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163739/000110465926087564/tm2621313d2_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-02",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163739/000110465926070958/tm2616737d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.28,
+  "saleNy": 9.51,
+  "epsCy": -124,
+  "epsNy": -195.91,
+  "cyTrend": -0.24,
+  "nyTrend": 10.9,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -2.62,
+    5.88,
+    9
+   ],
+   "ni": [
+    "적자축소",
+    -188.72,
+    "흑자전환"
+   ],
+   "opm": [
+    1.82,
+    2.69,
+    3.03
+   ],
+   "updated": "2026-09-08 08:04:20"
+  }
+ }
+}

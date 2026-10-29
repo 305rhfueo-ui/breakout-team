@@ -1,0 +1,266 @@
+{
+ "ticker": "HONA",
+ "sector": "Industrials",
+ "industry": "Aerospace & Defense",
+ "nameKo": "허니웰 에어로스페이스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.58,
+  "saleNy": 7.81,
+  "epsCy": null,
+  "epsNy": 29.76,
+  "est": {
+   "cyCur": 6.87147,
+   "cy30": 6.65047,
+   "nyCur": 8.91615,
+   "ny30": 9.08799
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": null,
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-29",
+  "nameKo": "허니웰 에어로스페이스",
+  "nameEn": "HONEYWELL AEROSPACE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002089271&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-26",
+     "derived": false,
+     "revenue": 4644000000,
+     "profit": 1161000000,
+     "netIncome": 726000000,
+     "margin": 25,
+     "yoy": {
+      "revenue": 2.4,
+      "profit": 0.9,
+      "netIncome": 12.7,
+      "priorEnd": "2025-09-27"
+     }
+    },
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 4522000000,
+     "profit": 995000000,
+     "netIncome": 246000000,
+     "margin": 22,
+     "yoy": {
+      "revenue": 5.4,
+      "profit": -6.7,
+      "netIncome": -70.9,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 4533000000,
+     "profit": 1151000000,
+     "netIncome": 644000000,
+     "margin": 25.4,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    },
+    {
+     "periodEnd": "2025-06-28",
+     "derived": false,
+     "revenue": 4289000000,
+     "profit": 1066000000,
+     "netIncome": 844000000,
+     "margin": 24.9,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Honeywell Aerospace (HONA) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/honeywell-aerospace-hona-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Honeywell Aerospace Inc. Q3 Income Climbs",
+     "url": "https://www.nasdaq.com/articles/honeywell-aerospace-inc-q3-income-climbs",
+     "date": "2026-10-28",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Honeywell Aerospace Forecasts 9,950 New Business Jet Deliveries Over Next Decade",
+     "url": "https://www.nasdaq.com/articles/honeywell-aerospace-forecasts-9950-new-business-jet-deliveries-over-next-decade",
+     "date": "2026-10-20",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Susquehanna Initiates Coverage of Honeywell Aerospace at Positive",
+     "url": "https://www.nasdaq.com/articles/susquehanna-initiates-coverage-honeywell-aerospace-positive",
+     "date": "2026-09-17",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000031/hona-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000020/hona-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "실적 발표",
+     "2.03",
+     "3.03",
+     "5.01",
+     "임원 변동",
+     "5.03",
+     "5.05",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026045874/hona-20260625.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026045348/hona-20260624.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026043193/hona-20260614.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "We're exiting our remaining stake in an industrial stock spin-off gone wrong",
+   "url": "https://www.cnbc.com/investingclub/2026/10/14/were-exiting-our-remaining-stake-in-an-industrial-stock-spin-off-gone-wrong.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Here are our top 10 things to watch in the stock market Monday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/14/here-are-our-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Monday's biggest analyst calls: Nvidia, SpaceX, Apple, GM, Affirm, Caterpillar",
+   "url": "https://www.cnbc.com/2026/09/14/monday-wall-street-analyst-calls-like-nvidia.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Sphere Entertainment",
+   "url": "https://www.cnbc.com/2026/09/11/cramers-lightning-round-buy-sphere-entertainment.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Big lessons from 12 stock exits, including Cramer's biggest-ever disappointment",
+   "url": "https://www.cnbc.com/investingclub/2026/09/03/big-lessons-from-12-stock-exits-including-cramers-biggest-ever-disappointment-.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Honeywell Aerospace is now too cheap to ignore, says Morgan Stanley",
+   "url": "https://www.cnbc.com/2026/08/19/honeywell-aerospace-is-now-too-cheap-to-ignore-says-morgan-stanley.html",
+   "date": "2026-08-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "HONA",
+  "fetchedAt": "2026-10-29",
+  "source": "한국투자증권 Open API",
+  "per": 0,
+  "pbr": 0,
+  "eps": 0,
+  "bps": 0,
+  "shares": 316952730,
+  "marketCapM": 56110,
+  "high52": 266.6199,
+  "high52Date": "2026-07-06",
+  "low52": 149.19,
+  "low52Date": "2026-09-10",
+  "last": 177.03,
+  "prevClose": 167.9,
+  "nameKo": "허니웰 에어로스페이스",
+  "nameEn": "HONEYWELL AEROSPACE INC",
+  "listedOn": "2026-06-29",
+  "exchange": "나스닥",
+  "listedShares": 316952730
+ }
+}

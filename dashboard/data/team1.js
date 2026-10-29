@@ -507,8 +507,447 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-29",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "구글 모회사 알파벳, 실적 발표 뒤 10% 급락",
+        "easy": "알파벳 주가가 3분기 실적 발표 뒤 10% 떨어졌다. 올해(2026년) 설비투자 계획은 그대로 두면서 내년에는 크게 늘리겠다고 밝힌 것이 원인으로 꼽힌다. 투자를 더 하겠다는 말은 그만큼 돈이 나가고 이익이 늦게 돌아온다는 뜻이라 시장이 싫어했다. 수년 만에 가장 큰 하락폭이 될 수 있다는 분석이 나왔다.",
+        "whyMatters": "인터넷 광고·대형 기술주 전반에 부담이고, 알파벳의 투자 증가가 확정되면 그 돈을 받는 반도체·데이터센터 장비 쪽에는 시간차를 두고 유리하다. 당장은 AI 투자 경쟁에 돈을 쓰는 회사 주가가 먼저 눌린다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+            "date": "2026-10-28",
+            "quote": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Why Alphabet's stock could see its worst drop in years after the latest results",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+            "date": "2026-10-29",
+            "quote": "Why Alphabet&#x2019;s stock could see its worst drop in years after the latest results",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "연준 금리 동결, 10년 국채 금리는 오히려 올랐다",
+        "easy": "연준이 이번 회의에서 기준금리를 그대로 두었다. 금리를 묶었는데도 10년 만기 국채 금리는 조금 더 올랐고, 오른 이유는 기사에 나오지 않았다. 채권 투자자 제프 건들락은 연준의 동결을 두고 '무엇을 기다리느냐'고 공개적으로 따졌다. 금리 인하가 빨리 오지 않는다는 쪽으로 분위기가 기울었다.",
+        "whyMatters": "장기 금리가 오르면 이익이 먼 미래에 몰린 소프트웨어·바이오 같은 업종이 가장 불리하고, 은행·보험에는 상대적으로 덜 나쁘다. 지금 기술주 조정의 바닥에 깔린 압력이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+            "date": "2026-10-28",
+            "quote": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "10-year Treasury yield creeps higher even as Fed keeps rates the same",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
+            "date": "2026-10-28",
+            "quote": "10-year Treasury yield creeps higher even as Fed keeps rates the same",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+            "date": "2026-10-28",
+            "quote": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "마이크로소프트, 클라우드 성장에 주가 4% 상승",
+        "easy": "마이크로소프트가 분기 매출과 이익 모두 시장 예상을 넘겼고 주가는 4% 올랐다. 클라우드(남의 서버를 빌려 쓰는 사업) 성장이 실적을 끌어올린 것이 이유다. 수천 명 감원을 발표한 지 며칠 만에 이익이 크게 늘었다는 점도 함께 보도됐다. 알파벳이 빠진 날 마이크로소프트는 올라, 같은 AI 테마 안에서도 방향이 갈렸다.",
+        "whyMatters": "기업용 소프트웨어·클라우드 업종에는 좋은 신호이고, 비용을 줄이면서 이익을 키우는 회사가 지금 시장에서 더 대접받는다는 뜻이다. 다만 마이크로소프트의 투자 규모는 아래 뉴스처럼 다른 업종에 역풍이 됐다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+            "date": "2026-10-28",
+            "quote": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "The major reason Microsoft's stock is heading higher after earnings",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+            "date": "2026-10-29",
+            "quote": "The major reason Microsoft&#x2019;s stock is heading higher after earnings",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Microsoft profits soar days after announcing thousands of layoffs",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-29",
+            "quote": "Microsoft profits soar days after announcing thousands of layoffs",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "CoreWeave 등 AI 임대 서버 주식 동반 하락",
+        "easy": "CoreWeave를 비롯한 '네오클라우드'(AI용 서버를 빌려주는 신생 업체) 주식들이 함께 떨어졌다. 마이크로소프트가 내놓은 설비투자 금액이 시장 기대보다 적었던 것이 원인이다. 이들 회사는 빅테크가 서버를 빌려 써야 매출이 생기기 때문에 투자 축소 신호에 특히 민감하다. 마이크로소프트 주가는 오르고 이들은 내린, 한쪽만 아픈 날이었다.",
+        "whyMatters": "AI 데이터센터 임대·전력·서버 장비 업종에 직접적인 악재이고, 빅테크의 투자 금액이 곧 이들의 매출이라는 구조를 다시 확인시켰다. CoreWeave 같은 종목은 빅테크 투자 계획 발표 때마다 크게 흔들린다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "CoreWeave and other neocloud stocks drop after Microsoft capex comes in below expectations",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html",
+            "date": "2026-10-29",
+            "quote": "CoreWeave and other neocloud stocks drop after Microsoft capex comes in below expectations",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "서비스나우·포티넷, 실적 발표 뒤 나란히 급락",
+        "easy": "ServiceNow 주가가 실적이 예상에 못 미치면서 떨어졌다. AI 관련 전망은 오히려 높여 잡았지만 실적 미달이 그 효과를 덮었다. 보안 소프트웨어 회사 Fortinet도 실적 발표 뒤 크게 하락했다. AI 기대만으로는 주가를 지켜 주지 못한다는 사례가 하루에 둘 나왔다.",
+        "whyMatters": "기업용 소프트웨어와 보안 업종에 좋지 않고, 같은 업종의 실적 발표를 앞둔 종목은 변동성이 커진다. AI 전망을 올려도 당장 숫자가 빠지면 주가는 내린다는 점을 지켜볼 만하다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "ServiceNow's stock slides as earnings miss overshadows a raised AI outlook",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385?mod=mw_rss_topstories",
+            "date": "2026-10-28",
+            "quote": "ServiceNow&#x2019;s stock slides as earnings miss overshadows a raised AI outlook",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Fortinet's stock is taking a dive after earnings. Here's why.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/fortinets-stock-is-taking-a-dive-after-earnings-heres-why-d407896e?mod=mw_rss_topstories",
+            "date": "2026-10-28",
+            "quote": "Fortinet&#x2019;s stock is taking a dive after earnings. Here&#x2019;s why.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "삼성전자 3분기 이익 예상 부합, AI 메모리 수요 증가",
+        "easy": "삼성전자의 3분기 이익이 시장 예상과 비슷하게 나왔다. AI에 쓰이는 메모리 반도체 수요가 늘어난 것이 배경이다. 기대를 뛰어넘지는 않았지만 AI 수요가 실제 매출로 들어오고 있다는 확인이다. AI 투자 논쟁이 한창인 날에 나온, 수요 쪽 소식이다.",
+        "whyMatters": "메모리 반도체 업종에 우호적이고, 미국에 상장된 Micron·SK하이닉스 관련 종목과 반도체 장비주가 같은 방향으로 움직이기 쉽다. 데이터센터 투자가 줄면 이 수요도 함께 식는다는 점은 같이 봐야 한다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+            "date": "2026-10-29",
+            "quote": "Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기보다 기다릴 때다. QQQ 종가는 725.61이고 10일선이 20일선 아래로 내려간 지 7일째라 단기 흐름이 꺾여 있다. 오늘 알파벳이 10% 빠지고 CoreWeave 같은 AI 서버 임대 종목이 밀린 것은, AI에 들어가는 돈이 계속 늘어날지를 시장이 의심하기 시작했다는 뜻이다. 반면 마이크로소프트는 클라우드 실적으로 올라, 같은 AI 안에서도 돈을 버는 쪽과 쓰는 쪽이 갈리고 있다. 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘은 만큼, 이번 주는 10년 만기 국채 금리가 더 오르는지와 기술주가 단기 평균선 위로 되돌아오는지를 보면 된다.",
+    "keyRisks": [
+      "AI 투자 축소 신호: 빅테크가 설비투자를 기대만큼 늘리지 않으면 AI 서버·데이터센터·전력 관련 종목이 먼저 흔들린다.",
+      "장기 금리 상승: 연준이 금리를 묶어도 10년 만기 국채 금리가 오르면 이익이 먼 미래에 몰린 소프트웨어·바이오가 더 눌린다.",
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어, 하락이 시작되면 강제 매도가 겹쳐 낙폭이 커질 수 있다.",
+      "실적 발표 변동성: ServiceNow·Fortinet처럼 전망을 올려도 숫자가 미달이면 하루에 크게 빠진다 — 발표 직전 진입은 위험하다."
+    ],
+    "easySummary": [
+      "알파벳이 실적 발표 뒤 10% 급락했고, 내년 투자를 크게 늘리겠다는 계획이 부담으로 읽혔다.",
+      "마이크로소프트는 클라우드 성장으로 4% 올랐지만, 투자 금액이 기대에 못 미쳐 CoreWeave 등 AI 서버 임대주는 떨어졌다.",
+      "연준은 금리를 동결했고 10년 만기 국채 금리는 오히려 올라, 기술주에는 계속 부담이 남는다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 204,
+      "ok": 335,
+      "unverified": 4,
+      "dead": 0,
+      "stripped": 29,
+      "removed": [
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": ""
+        },
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": ""
+        },
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": ""
+        }
+      ],
+      "numberCut": 38,
+      "numberCuts": [
+        {
+          "sentence": "주가는 올해 1월 고점(89.6달러)보다 약 15% 낮다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "9월 분기 매출은 82억 달러로 1년 전보다 54% 늘었다.",
+          "missing": [
+            "54"
+          ]
+        },
+        {
+          "sentence": "마이크론은 직전 분기 매출 542억 달러로 1년 전보다 379% 늘었고, 다음 분기 매출 전망도 증권사 예상 568억 달러보다 높은 615억 달러로 제시했다.",
+          "missing": [
+            "568억 달러",
+            "615억 달러"
+          ]
+        },
+        {
+          "sentence": "회사가 올해 조정 주당순이익 전망을 $11.15~11.45로 올렸고, 하반기 이익률이 5%포인트 개선될 것으로 봤다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "회사가 올해 조정 주당순이익 전망을 $11.15~11.45로 올렸고, 증권사 평균 목표가도 11.46% 올라 $307.39가 됐다.",
+          "missing": [
+            "11.46",
+            "307.39"
+          ]
+        },
+        {
+          "sentence": "3분기 제품 매출이 2.86억 달러로 1년 전보다 58% 늘었다.",
+          "missing": [
+            "58"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 약 97배, 시가총액 약 46억 달러로 높은 성장이 이미 가격에 반영돼 있다.",
+          "missing": [
+            "46억 달러"
+          ]
+        },
+        {
+          "sentence": "현재가 194.97달러와의 차이가 크지 않아 추가 상승 여지는 작다.",
+          "missing": [
+            "194.97"
+          ]
+        },
+        {
+          "sentence": "6월 마감 분기 매출은 11억 4천만 달러로 1년 전보다 16.2% 늘었다.",
+          "missing": [
+            "11억 4"
+          ]
+        },
+        {
+          "sentence": "발표 직후 주가가 전날보다 약 12% 올랐다.",
+          "missing": [
+            "12"
+          ]
+        },
+        {
+          "sentence": "영업적자도 1.5천만 달러로 1년 전보다 52% 줄었다.",
+          "missing": [
+            "1.5"
+          ]
+        },
+        {
+          "sentence": "현재가는 52주 고점(336.99달러)에 아직 못 미치고, 목표주가 평균 238달러를 이미 넘어섰다.",
+          "missing": [
+            "238"
+          ]
+        },
+        {
+          "sentence": "실적 발표 당일 8-K(실적 발표 항목)가 공시됐고, 회사 설명회 녹취록도 같은 날 공개됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "3분기 제품 매출이 2억 8,600만 달러로 1년 전보다 58% 늘었고, ARCALYST의 올해 매출 전망도 높아졌다.",
+          "missing": [
+            "2억 8,600만 달러"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 73억 달러로 1년 전보다 12% 늘고, 조정 주당순이익은 6.76달러로 50% 늘었다.",
+          "missing": [
+            "6.76",
+            "50"
+          ]
+        },
+        {
+          "sentence": "AEP가 10월 28일 3분기 실적을 발표하면서 5년 투자계획을 1,000억 달러로 늘리고 2026년 이익 전망을 올렸다.",
+          "missing": [
+            "1,000억 달러"
+          ]
+        },
+        {
+          "sentence": "직전 세 분기는 0.9~1.2% 증가 수준이었다.",
+          "missing": [
+            "0.9",
+            "1.2"
+          ]
+        },
+        {
+          "sentence": "6월·3월 분기는 순이익이 각각 64.3%·34.9% 감소했다.",
+          "missing": [
+            "64.3",
+            "34.9"
+          ]
+        },
+        {
+          "sentence": "분기 영업이익이 446억 달러로 1년 전보다 1,029% 늘었고 영업이익률은 82.3%였다.",
+          "missing": [
+            "82.3"
+          ]
+        },
+        {
+          "sentence": "3분기 실적 발표 — 순이익이 늘었다는 보도(10-28).",
+          "missing": [
+            "10",
+            "28"
+          ]
+        },
+        {
+          "sentence": "회사는 향후 10년간 신규 비즈니스 제트 인도를 9,950대로 전망했다(10-20).",
+          "missing": [
+            "10",
+            "20"
+          ]
+        },
+        {
+          "sentence": "Morgan Stanley가 투자의견을 Equal-Weight에서 Overweight로 올렸다(8-19).",
+          "missing": [
+            "8",
+            "19"
+          ]
+        },
+        {
+          "sentence": "Susquehanna가 Positive로 분석을 시작했다(9-17).",
+          "missing": [
+            "9",
+            "17"
+          ]
+        },
+        {
+          "sentence": "Stifel이 10/8 ENTG를 매수 의견으로 신규 커버리지했다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 5.0% 증가.",
+          "missing": [
+            "5.0"
+          ]
+        },
+        {
+          "sentence": "Citigroup이 10/20 목표가를 170달러에서 195달러로 올렸다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "2026-10-28 회사가 2030 회계연도 매출 목표 2,250억 달러 이상을 발표하고 2027 회계연도 전망을 유지했다.",
+          "missing": [
+            "10",
+            "28"
+          ]
+        },
+        {
+          "sentence": "2026-10-27 OpenAI와 제휴를 넓혀 ChatGPT를 더 많은 오라클 제품에 넣기로 했다.",
+          "missing": [
+            "10",
+            "27"
+          ]
+        },
+        {
+          "sentence": "2027 회계연도 매출 900억 달러 이상, EPS 8.1달러 가이던스(유진투자증권 정리), 2분기 매출 212억 달러 전망.",
+          "missing": [
+            "212억 달러"
+          ]
+        },
+        {
+          "sentence": "2026-10-28 FY30 매출 목표 2,250억 달러 이상을 발표하고 FY27 전망을 유지했다.",
+          "missing": [
+            "10",
+            "28"
+          ]
+        },
+        {
+          "sentence": "2026-10-27 OpenAI와 ChatGPT 내장 확대 계약을 발표했다.",
+          "missing": [
+            "10",
+            "27"
+          ]
+        },
+        {
+          "sentence": "중국 매출 비중이 35%로 다시 커져 수출규제 변수에 노출돼 있다.",
+          "missing": [
+            "35"
+          ]
+        },
+        {
+          "sentence": "실적 이후 목표주가 하향이 이어졌다(Morgan Stanley 385→339달러, Needham 390→290달러).",
+          "missing": [
+            "390",
+            "290"
+          ]
+        },
+        {
+          "sentence": "실적 발표(10/29)를 앞두고 데이터센터·엣지 수요가 매출을 받칠지 점검하는 기사가 나왔다.",
+          "missing": [
+            "29"
+          ]
+        },
+        {
+          "sentence": "6월 이후 주가가 거의 절반으로 줄어든 상태에서 목요일(10/29) 실적을 앞두고 있었다.",
+          "missing": [
+            "29"
+          ]
+        },
+        {
+          "sentence": "9/22 Rosenblatt가 커버리지를 시작하며 2026년 600% 넘게 오른 뒤에도 여력이 있다고 봤다.",
+          "missing": [
+            "22"
+          ]
+        },
+        {
+          "sentence": "10/26 Cantor Fitzgerald가 목표가를 2,900달러에서 2,200달러로 낮췄다(투자의견은 Overweight 유지).",
+          "missing": [
+            "26"
+          ]
+        },
+        {
+          "sentence": "대신증권(2026-08)이 회사 투자자의 날 목표를 인용: 물량이 두자릿수 중후반 성장.",
+          "missing": [
+            "08"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-29"
   }
 };

@@ -1,0 +1,874 @@
+{
+ "ticker": "SNDK",
+ "date": "2026-10-29",
+ "session": "2026-10-28",
+ "source": "list",
+ "plan": {
+  "ticker": "SNDK",
+  "name": "샌디스크",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "price": 1404.77,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 1909.48,
+  "stop": 1833.86,
+  "distToPivotPct": -26.43,
+  "distToPivotAdr": -4.91,
+  "riskPerSharePct": 3.96,
+  "adrPct": 5.38,
+  "extensionAdr": 1.02,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 28,
+   "baseWeeks": 5.6,
+   "depthPct": 35.6,
+   "priorMovePct": 91.3,
+   "higherLows": 0,
+   "contraction": 0.98,
+   "closeRange10Adr": 2.2,
+   "surf10": 1.02,
+   "surf20": -0.86,
+   "slope20": -7.11,
+   "baseLow": 1228.89,
+   "lastSwingLow": 1228.89
+  },
+  "reasons": [
+   "선행 상승 +91%",
+   "베이스 5.6주",
+   "✗ 깊이 35.6%",
+   "✗ 저점 상승 0회",
+   "진폭 0.98배 · 10일 종가폭 2.2 ADR",
+   "✗ 10일선 +1 ADR · 20일선 -0.9 ADR",
+   "✗ 20일선 기울기 -7.11%"
+  ],
+  "earnings": "2026-10-29"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.17346877414597872,
+    "pct": 3.0207394048692517
+   },
+   "m3": {
+    "v": -0.019481684056989117,
+    "pct": 51.8034265103697
+   },
+   "m6": {
+    "v": 0.001997168075345661,
+    "pct": 50.81154192966637
+   }
+  },
+  "ret1m": -19.26,
+  "ret3m": -1.6,
+  "ret6m": 4.84,
+  "marketCap": "181.47B",
+  "volx": 1.05,
+  "volSurgeWk": 1.15,
+  "high52": 59.67,
+  "newHigh52": false,
+  "adr": 5.38,
+  "div50": -10.62,
+  "div200": 12.32,
+  "targetStatus": false,
+  "saleCy": 142.67,
+  "saleNy": 18.93,
+  "epsCy": 203.08,
+  "epsNy": 23.96,
+  "cyTrend": 0.43,
+  "nyTrend": 1.07,
+  "est": {
+   "cyCur": 214.82326,
+   "cy30": 213.90302,
+   "nyCur": 266.2971,
+   "ny30": 263.48553
+  },
+  "fs": {
+   "sale": [
+    371.59,
+    251.03,
+    61.25
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    672.12
+   ],
+   "opm": [
+    78.49,
+    69.09,
+    35.21
+   ],
+   "updated": "2026-09-09 06:45:37"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-29",
+  "nameKo": "샌디스크",
+  "nameEn": "SANDISK CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023554&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-03",
+     "derived": true,
+     "revenue": 8965000000,
+     "profit": 7037000000,
+     "netIncome": 6903000000,
+     "margin": 78.5,
+     "yoy": {
+      "revenue": 371.6,
+      "profit": 38994.4,
+      "netIncome": 30113,
+      "priorEnd": "2025-06-27"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 5950000000,
+     "profit": 4111000000,
+     "netIncome": 3615000000,
+     "margin": 69.1,
+     "yoy": {
+      "revenue": 251,
+      "profit": 318.6,
+      "netIncome": 287,
+      "priorEnd": "2025-03-28"
+     }
+    },
+    {
+     "periodEnd": "2026-01-02",
+     "derived": false,
+     "revenue": 3025000000,
+     "profit": 1065000000,
+     "netIncome": 803000000,
+     "margin": 35.2,
+     "yoy": {
+      "revenue": 61.2,
+      "profit": 446.2,
+      "netIncome": 672.1,
+      "priorEnd": "2024-12-27"
+     }
+    },
+    {
+     "periodEnd": "2025-10-03",
+     "derived": false,
+     "revenue": 2308000000,
+     "profit": 176000000,
+     "netIncome": 112000000,
+     "margin": 7.6,
+     "yoy": {
+      "revenue": 22.6,
+      "profit": -39.5,
+      "netIncome": -46.9,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Can Strong Data Center & Edge Boost SNDK's Top Line in Q1 Earnings?",
+     "url": "https://www.nasdaq.com/articles/can-strong-data-center-edge-boost-sndks-top-line-q1-earnings",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Sandisk Stock Rallied Today",
+     "url": "https://www.nasdaq.com/articles/why-sandisk-stock-rallied-today-1",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Will Sandisk Corporation (SNDK) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-sandisk-corporation-sndk-beat-estimates-again-its-next-earnings-report-0",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Sandisk Stock Is Down 45% From Its High. History Suggests This Is What Happens Next.",
+     "url": "https://www.nasdaq.com/articles/sandisk-stock-down-45-its-high-history-suggests-what-happens-next",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Lumentum vs. Sandisk: Which Tech Stock Is the Better Buy in November?",
+     "url": "https://www.nasdaq.com/articles/lumentum-vs-sandisk-which-tech-stock-better-buy-november",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Sandisk Stock Has Been Cut Nearly in Half Since June. Should You Buy It Before Thursday's Report?",
+     "url": "https://www.nasdaq.com/articles/sandisk-stock-has-been-cut-nearly-half-june-should-you-buy-it-thursdays-report",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Zacks.com featured highlights include NVIDIA, Micron Technology and Sandisk",
+     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-include-nvidia-micron-technology-and-sandisk",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026062267/sndk-20260910.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-11",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526389293/d138343d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndk-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526224694/d157363d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndk-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-25",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526122705/d136592d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 8,
+   "reports": [
+    {
+     "date": "2026-10-21",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[샌디스크 (NAS:SNDK)] [27Q1 Preview] 매출 가이던스 상회보다 총마진 85% 근접 여부, 투자의견 중립 유지",
+     "summary": "- 10월 30일, 시장이 보는 건 이익 규모가 아니라 사이클의 남은 길- 가격이 끌어올린 이익은 되돌림도 빠르다- 데이터센터가 전체를 끌고, 컨슈머는 두 분기 연속 줄어들 수 있음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzkgzxeqekecgcgxecgm.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[샌디스크 (NAS:SNDK)] [Issue & News] 키옥시아와 6년간 5조엔 공동투자 - NAND 공급 사이클 상단에서의 증설 베팅",
+     "summary": "- 키옥시아·샌디스크, 6년간 5조엔 공동투자 발표- 신규 생산시설에 1.8조엔 투입, 증설 베팅- 가격 사이클 지속 여부가 향후 마진의 관건",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxmlkiiigekgcgxecgm.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-14",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[샌디스크 (NAS:SNDK)] [Issue & News] 투자자의 날에서 물량 성장·HBF 로드맵 공개 - 가격 사이클 이후 성장동력 다각화 신호",
+     "summary": "- 투자자의날서 물량 두자릿수 중후반 성장·HBF 로드맵 공개- 8개 고객사 총계약가치 939억달러, NBM 계약 흐름과 결 같아- 가격기여·마진 고원 리스크는 여전, 방향성 제시 수준",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxxxkgkmlcklgcgxecgm.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[샌디스크 (NAS:SNDK)] Earnings Flash",
+     "summary": "- 매출액 89.7억 달러(YOY +371.6%), 영업이익 70.4억 달러(YoY +38,994.4%), 조정 EPS 39.3 달러 (YoY +13,434.5%)로 각각 예상치 3.8%, 9.7%, 14.2% 상회- 2분기 자사주 45.2억 달러 매입. 140억 달러 추가 자사주 매입 승인으로 잔여 한도 155억 달러로 확대- 가격 상승폭 둔화와 NBM 계약으로 인해 판매량 증가율이 둔화된다는 가이던스에 따라 시간 외 8% 하락",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxcczlkqixekegcgxecgm.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[샌디스크 (NAS:SNDK)] [26Q4 Review] 마진 상향의 시대가 끝났다, 투자의견 중립 신규",
+     "summary": "- Q4 매출 $8.97B·비GAAP EPS $39.25로 컨센 상회- Q1 매출 가이던스 컨센 하회, 시간외 11% 하락- 자사주 잔여한도 $15.5B, NTM PER 6.8배",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmqeqgkxgcligcgxecgm.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-05-04",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[샌디스크 (NAS:SNDK)] 과소평가된 NAND 업황",
+     "summary": "- NAND 턴어라운드 3Q25부터 가속화. 단기 모멘텀이 아닌 구조적 변화로 해석. AI 추론 수요와 동행하는 SSD 호황 장기화 기대. 엔비디아의 DPU 를 비롯한 SSD 활용 시도 다각화 전망. 단순 데이터 저장 용도가 아닌 추 론 보조 연산 역할로 급부상 → 공급 부족 심화 구간 진입- 매출 59.5억달러(+97%, 전분기대비), EPS 23.41달러로 컨센서스를 각각 26.5%, 61% 상회. 부문별 실적은 데이터센터 14.7억달러(+233.4%), 엣지 36.6억달러(+118.3%), 컨슈머 8.2억달러(-9.6%)로 엔터프라이즈향 SSD 수요가 실적 견인. 지난 분기부터 높아졌던 추정치를 대폭 상회하며 업황 호조 재차 증명. 구속력 있는 장기 계약 확대로 외형 성장 가시성도 확보- FY4Q26 가이던스 매출 80억달러, EPS 31.50달러로 컨센서스(65억달러, 22.83달러) 대폭 상회. 장기 계약 3건 기준 최소 계약 매출 420억달러. 100억달러 수준의 금융 보증 포함. FY2027 예정된 출하 물량 1/3이 장기 계약 구조로 공급 예정. 가격은 단기 고정, 장기 변동 반영 구조. 가격 상 승세 지속, 고부가 제품 비중 확대 → 매출총이익률 가이던스 80% 제시",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqlzeiqkxliligcgxecgm.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2025-11-11",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[샌디스크 (NAS:SNDK)] eSSD 수요 전망치 상향",
+     "summary": "- 3Q25CY 실적 기대치 상회, 4Q25CY 가이던스도 컨센서스 크게 상회- 2026년 eSSD 수요 전망치 기존 +24~26%YoY에서 +44~46%YoY로 상향- 당분간 NAND의 가격 상승 흐름 이어질 것으로 판단함",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgleleqqmllqqgcgxecgm.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2025-11-07",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[샌디스크 (NAS:SNDK)] Earnings Flash",
+     "summary": "- 매출액 23.1억 달러(YoY +22.6%), 조정 EPS 1.22 달러(YoY -33.3%)로 각각 예상치 7.2%, 37.1% 상회- 수요가 공급을 초과함에 따라 재고 회전일수가 135일에서 115일로 감소- 실적 예상 대폭 상회. 주요 클라우드 기업들의 CAPEX 확대 지속되며 스토리지 수요 증가 기대감 확산. 시간 외 6.9% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkmcgqcqeqzlgcgxecgm.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "SNDK-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-21",
+   "title": "[샌디스크 (NAS:SNDK)] [27Q1 Preview] 매출 가이던스 상회보다 총마진 85% 근접 여부, 투자의견 중립 유지",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzkgzxeqekecgcgxecgm.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "SNDK-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-27",
+   "title": "[샌디스크 (NAS:SNDK)] [Issue & News] 키옥시아와 6년간 5조엔 공동투자 - NAND 공급 사이클 상단에서의 증설 베팅",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxmlkiiigekgcgxecgm.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Tuesday's big analyst calls: Nvidia, Netflix, Broadcom, SanDisk, Meta, CoreWeave",
+   "url": "https://www.cnbc.com/2026/09/22/big-wall-street-analyst-calls-tuesday.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Sandisk has gained more than 600% in 2026 and has room to run, Rosenblatt says",
+   "url": "https://www.cnbc.com/2026/09/22/sndk-is-up-600percent-in-2026-and-has-more-room-to-run-rosenblatt-says.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Leopold Aschenbrenner's Situational Awareness is active in options market",
+   "url": "https://www.cnbc.com/2026/09/11/leopold-aschenbrenners-situational-awareness-is-active-in-options-market-sources-say.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
+   "url": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+   "url": "https://www.cnbc.com/investingclub/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+   "date": "2026-08-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "url": "https://www.cnbc.com/investingclub/2026/08/25/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Alibaba, Marvell, Sandisk and more",
+   "url": "https://www.cnbc.com/2026/08/24/stocks-making-the-biggest-moves-premarket-baba-mrvl-sndk-and-more.html",
+   "date": "2026-08-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Options Action: Key names get new options trading hours",
+   "url": "https://www.cnbc.com/video/2026/10/19/options-action-key-names-get-new-options-trading-hours.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SNDK",
+  "fetchedAt": "2026-10-29",
+  "source": "한국투자증권 Open API",
+  "per": 19.27,
+  "pbr": 13.03,
+  "eps": 72.89,
+  "bps": 107.78,
+  "shares": 144527560,
+  "marketCapM": 203028,
+  "high52": 2354.3899,
+  "high52Date": "2026-06-22",
+  "low52": 164.56,
+  "low52Date": "2025-10-28",
+  "last": 1404.77,
+  "prevClose": 1304.84,
+  "nameKo": "샌디스크",
+  "nameEn": "SANDISK CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 144527560
+ },
+ "estimates": {
+  "ticker": "SNDK",
+  "url": "https://finance.yahoo.com/quote/SNDK/analysis/",
+  "fetchedAt": "2026-10-29",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 46.41,
+    "epsLow": 44.05,
+    "epsHigh": 49.8,
+    "epsYearAgo": 1.22,
+    "epsAnalysts": 18,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 10700329480,
+    "revAnalysts": 19,
+    "revYearAgo": 2308000000,
+    "revGrowth": 363.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 53.35,
+    "epsLow": 48.4,
+    "epsHigh": 59.94,
+    "epsYearAgo": 6.2,
+    "epsAnalysts": 18,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 12292377260,
+    "revAnalysts": 18,
+    "revYearAgo": 3025000000,
+    "revGrowth": 306.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "eps": 214.82,
+    "epsLow": 186.97,
+    "epsHigh": 238.36,
+    "epsYearAgo": 70.88,
+    "epsAnalysts": 22,
+    "epsGrowth": 203.1,
+    "epsCur": "USD",
+    "rev": 49135340890,
+    "revAnalysts": 21,
+    "revYearAgo": 20248000000,
+    "revGrowth": 142.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "eps": 266.3,
+    "epsLow": 173.37,
+    "epsHigh": 361.2,
+    "epsYearAgo": 214.82,
+    "epsAnalysts": 21,
+    "epsGrowth": 24,
+    "epsCur": "USD",
+    "rev": 58436134900,
+    "revAnalysts": 20,
+    "revYearAgo": 49135340890,
+    "revGrowth": 18.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 46.41,
+    "d7": 0.3,
+    "d30": 0.5,
+    "d90": 5,
+    "ago90": 44.21,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 53.35,
+    "d7": 0.8,
+    "d30": 1.1,
+    "d90": 0.9,
+    "ago90": 52.87,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "cur": "USD",
+    "now": 214.82,
+    "d7": 0,
+    "d30": 0.4,
+    "d90": 0.9,
+    "ago90": 212.95,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "cur": "USD",
+    "now": 266.3,
+    "d7": 0,
+    "d30": 1.1,
+    "d90": 4.2,
+    "ago90": 255.63,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 39.25,
+    "estimate": 34.52,
+    "surprisePct": 13.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 23.41,
+    "estimate": 14.66,
+    "surprisePct": 59.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 6.2,
+    "estimate": 3.54,
+    "surprisePct": 75,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 1.22,
+    "estimate": 0.89,
+    "surprisePct": 36.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 4,
+   "ptLowered": 5,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-10-26",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 2200,
+     "ptPrior": 2900
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 2050,
+     "ptPrior": 1875
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Rosenblatt",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 2400,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-25",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 1875,
+     "ptPrior": 1900
+    },
+    {
+     "date": "2026-08-14",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 1600,
+     "ptPrior": 1300
+    },
+    {
+     "date": "2026-08-14",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 1550,
+     "ptPrior": 1400
+    },
+    {
+     "date": "2026-08-14",
+     "firm": "Wedbush",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 2000,
+     "ptPrior": 2000
+    },
+    {
+     "date": "2026-08-14",
+     "firm": "Cantor Fitzgerald",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 2900,
+     "ptPrior": 2900
+    },
+    {
+     "date": "2026-08-10",
+     "firm": "Argus Research",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 1300,
+     "ptPrior": 1000
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-28",
+  "numbers": {
+   "price": 1404.77,
+   "ma20": 1470.1,
+   "ma50": 1571.68,
+   "ma150": 1469.69,
+   "distMA50": -10.62,
+   "periodHigh": 2354.39,
+   "pullbackFromHigh": -40.33,
+   "volRatio20": 1.11,
+   "dryUpRatio": 1
+  },
+  "last10": [
+   {
+    "d": "2026-10-15",
+    "o": 1313.66,
+    "h": 1397.64,
+    "l": 1276,
+    "c": 1394.83,
+    "v": 13279800,
+    "clsPos": 98,
+    "gapPct": -6.39
+   },
+   {
+    "d": "2026-10-16",
+    "o": 1348.82,
+    "h": 1362.35,
+    "l": 1296.19,
+    "c": 1299.3,
+    "v": 8954700,
+    "clsPos": 5,
+    "gapPct": -3.3
+   },
+   {
+    "d": "2026-10-19",
+    "o": 1359,
+    "h": 1407,
+    "l": 1357.64,
+    "c": 1371.12,
+    "v": 8535400,
+    "clsPos": 27,
+    "gapPct": 4.59
+   },
+   {
+    "d": "2026-10-20",
+    "o": 1336.96,
+    "h": 1388.88,
+    "l": 1330,
+    "c": 1365.38,
+    "v": 6579900,
+    "clsPos": 60,
+    "gapPct": -2.49
+   },
+   {
+    "d": "2026-10-21",
+    "o": 1415.23,
+    "h": 1424.48,
+    "l": 1327.62,
+    "c": 1378.22,
+    "v": 6964100,
+    "clsPos": 52,
+    "gapPct": 3.65
+   },
+   {
+    "d": "2026-10-22",
+    "o": 1317.26,
+    "h": 1355,
+    "l": 1244.6,
+    "c": 1260.93,
+    "v": 10414800,
+    "clsPos": 15,
+    "gapPct": -4.42
+   },
+   {
+    "d": "2026-10-23",
+    "o": 1271.62,
+    "h": 1299.99,
+    "l": 1228.89,
+    "c": 1238.03,
+    "v": 7923500,
+    "clsPos": 13,
+    "gapPct": 0.85
+   },
+   {
+    "d": "2026-10-26",
+    "o": 1251.88,
+    "h": 1287.84,
+    "l": 1229,
+    "c": 1255.58,
+    "v": 6713900,
+    "clsPos": 45,
+    "gapPct": 1.12
+   },
+   {
+    "d": "2026-10-27",
+    "o": 1267.9,
+    "h": 1315.98,
+    "l": 1259,
+    "c": 1304.84,
+    "v": 7061900,
+    "clsPos": 80,
+    "gapPct": 0.98
+   },
+   {
+    "d": "2026-10-28",
+    "o": 1356.6,
+    "h": 1408.45,
+    "l": 1343.85,
+    "c": 1404.77,
+    "v": 9166200,
+    "clsPos": 94,
+    "gapPct": 3.97
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SNDK-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SNDK-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 7일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

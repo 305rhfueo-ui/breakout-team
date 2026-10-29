@@ -1,0 +1,219 @@
+{
+ "ticker": "FTNT",
+ "news": [
+  {
+   "title": "Fortinet (FTNT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/fortinet-ftnt-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fortinet (FTNT) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/fortinet-ftnt-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fortinet (FTNT) Is Up 6.42% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/fortinet-ftnt-642-one-week-what-you-should-know",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Exploring Analyst Estimates for Fortinet (FTNT) Q3 Earnings, Beyond Revenue and EPS",
+   "url": "https://www.nasdaq.com/articles/exploring-analyst-estimates-fortinet-ftnt-q3-earnings-beyond-revenue-and-eps",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fortinet Earnings Top Views, But Billings Growth Underwhelms",
+   "url": "https://finance.yahoo.com/m/0484a241-9500-3753-8710-5a78f56b3352/fortinet-earnings-top-views%2C.html",
+   "date": "2026-10-28",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Fortinet (FTNT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-ftnt-q3-earnings-taking-210002214.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Fortinet Beats Expectations But Rosier Outlook Apparently Not Rosy Enough",
+   "url": "https://finance.yahoo.com/m/4301be71-08a8-3a17-875d-9caa6d48d5ab/fortinet-beats-expectations.html",
+   "date": "2026-10-28",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Fortinet Q3 Adjusted Earnings, Revenue Rise; Sets Q4 Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-q3-adjusted-earnings-revenue-203220682.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Fortinet (FTNT) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-ftnt-q3-earnings-revenues-202002159.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Fortinet: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fortinet-q3-earnings-snapshot-201820626.html",
+   "date": "2026-10-28",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Fortinet Reports Strong Third Quarter 2026 Financial Results",
+   "url": "https://finance.yahoo.com/technology/articles/fortinet-reports-strong-third-quarter-200500343.html",
+   "date": "2026-10-28",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "If You Invested $1000 in Fortinet a Decade Ago, This is How Much It'd Be Worth Now",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-fortinet-decade-ago-113002156.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "The Bet Fortinet Holders Made Before A 138% Jump",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bet-fortinet-holders-made-138-020853722.html",
+   "date": "2026-10-28",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "reportDate": "2026-10-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000024/ftnt-20261028.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftnt-20260729.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000015/ftnt-20260612.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000010/ftnt-20260506.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000003/ftnt-20260205.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-05",
+   "reportDate": "2025-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000036/ftnt-20251105.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 19.44,
+  "saleNy": 11.41,
+  "epsCy": 25.08,
+  "epsNy": 9.83,
+  "cyTrend": 0.06,
+  "nyTrend": 0.4,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    25.64,
+    20.13,
+    14.75
+   ],
+   "ni": [
+    37.76,
+    23.33,
+    -3.84
+   ],
+   "opm": [
+    33.66,
+    31.36,
+    32.84
+   ],
+   "updated": "2026-09-08 06:58:42"
+  }
+ }
+}

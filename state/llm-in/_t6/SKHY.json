@@ -1,0 +1,575 @@
+{
+ "ticker": "SKHY",
+ "date": "2026-10-29",
+ "session": "2026-10-28",
+ "source": "list",
+ "plan": {
+  "ticker": "SKHY",
+  "name": "SK하이닉스(ADR)",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 164.7,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 199.87,
+  "stop": 193.22,
+  "distToPivotPct": -17.6,
+  "distToPivotAdr": -4.36,
+  "riskPerSharePct": 3.33,
+  "adrPct": 4.04,
+  "extensionAdr": 3.26,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 36,
+   "baseWeeks": 7.2,
+   "depthPct": 34.6,
+   "priorMovePct": 60.2,
+   "higherLows": 0,
+   "contraction": 0.94,
+   "closeRange10Adr": 5,
+   "surf10": 3.26,
+   "surf20": 0.85,
+   "slope20": -6.17,
+   "baseLow": 130.79,
+   "lastSwingLow": 130.79
+  },
+  "reasons": [
+   "선행 상승 +60%",
+   "베이스 7.2주",
+   "✗ 깊이 34.6%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.94배 · 10일 종가폭 5 ADR",
+   "10일선 +3.3 ADR · 20일선 +0.9 ADR",
+   "✗ 20일선 기울기 -6.17%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.08647927820631493,
+    "pct": 9.963931469792605
+   },
+   "m3": {
+    "v": 0.06337197591461201,
+    "pct": 76.0595130748422
+   },
+   "m6": {
+    "v": 0,
+    "pct": 50
+   }
+  },
+  "ret1m": -10.56,
+  "ret3m": 6.68,
+  "ret6m": null,
+  "marketCap": "1039.51B",
+  "volx": 2.38,
+  "volSurgeWk": 2.49,
+  "high52": 82.4,
+  "newHigh52": false,
+  "adr": 4.04,
+  "div50": -2.57,
+  "div200": null,
+  "targetStatus": false,
+  "saleCy": 254.02,
+  "saleNy": 54.27,
+  "epsCy": null,
+  "epsNy": 29.16,
+  "cyTrend": 2.53,
+  "nyTrend": 3.62,
+  "est": {
+   "cyCur": 27.11399,
+   "cy30": 26.44459,
+   "nyCur": 35.02158,
+   "ny30": 33.79838
+  },
+  "fs": null,
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-29",
+  "nameKo": "SK하이닉스(ADR)",
+  "nameEn": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": []
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Jim Cramer sees major implications from SK Hynix's home-run quarter",
+   "url": "https://www.cnbc.com/2026/10/28/cramer-sk-hynix-ai-chip-stocks.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
+   "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer digs into SK Hynix",
+   "url": "https://www.cnbc.com/video/2026/10/28/jim-cramer-digs-into-sk-hynix.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "SK Hynix is probably the most important company you've never heard of, says Jim Cramer",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/28/sk-hynix-is-probably-the-most-important-company-youve-never-heard-of-says-jim-cramer.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "SK Hynix jumps on Q3 earnings",
+   "url": "https://www.cnbc.com/video/2026/10/28/sk-hynix-jumps-on-q3-earnings.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Wednesday, October 28, 2026: Cramer believes this energy stock is priced wrong and worth buying",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/28/wednesday-october-28-2026-cramer-believes-this-energy-stock-is-priced-wrong-and-worth-buying.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Market Open",
+   "url": "https://www.cnbc.com/video/2026/10/28/market-open-october-28-2026.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with T. Rowe Price's Dom Rizzo",
+   "url": "https://www.cnbc.com/video/2026/10/28/watch-cnbcs-full-interview-with-t-rowe-prices-dom-rizzo.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SKHY",
+  "fetchedAt": "2026-10-29",
+  "source": "한국투자증권 Open API",
+  "per": 10.61,
+  "pbr": 6.92,
+  "eps": 15.53,
+  "bps": 23.82,
+  "shares": 7288651350,
+  "marketCapM": 1200441,
+  "high52": 199.865,
+  "high52Date": "2026-09-09",
+  "low52": 124.8001,
+  "low52Date": "2026-07-29",
+  "last": 164.7,
+  "prevClose": 145.36,
+  "nameKo": "SK하이닉스(ADR)",
+  "nameEn": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 7288651350
+ },
+ "estimates": {
+  "ticker": "SKHY",
+  "url": "https://finance.yahoo.com/quote/SKHY/analysis/",
+  "fetchedAt": "2026-10-29",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 8.49,
+    "epsLow": 8.17,
+    "epsHigh": 8.73,
+    "epsYearAgo": null,
+    "epsAnalysts": 3,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 127406931060000,
+    "revAnalysts": 23,
+    "revYearAgo": 32826654000000,
+    "revGrowth": 288.1,
+    "revCur": "KRW"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 6.35,
+    "epsLow": 6.35,
+    "epsHigh": 6.35,
+    "epsYearAgo": null,
+    "epsAnalysts": 1,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 129627626560000,
+    "revAnalysts": 27,
+    "revYearAgo": 52576287000000,
+    "revGrowth": 146.6,
+    "revCur": "KRW"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 27.42,
+    "epsLow": 26.11,
+    "epsHigh": 29.76,
+    "epsYearAgo": null,
+    "epsAnalysts": 4,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 361777958220000,
+    "revAnalysts": 30,
+    "revYearAgo": 97146675000000,
+    "revGrowth": 272.4,
+    "revCur": "KRW"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 39.06,
+    "epsLow": 26.88,
+    "epsHigh": 46,
+    "epsYearAgo": 27.42,
+    "epsAnalysts": 4,
+    "epsGrowth": 42.5,
+    "epsCur": "USD",
+    "rev": 564023467480000,
+    "revAnalysts": 46,
+    "revYearAgo": 361777958220000,
+    "revGrowth": 55.9,
+    "revCur": "KRW"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 8.49,
+    "d7": 19.3,
+    "d30": 18.7,
+    "d90": 6.2,
+    "ago90": 7.99,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 6.35,
+    "d7": -11,
+    "d30": -11,
+    "d90": -25.1,
+    "ago90": 8.47,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 27.42,
+    "d7": 2.1,
+    "d30": 3.1,
+    "d90": 4.6,
+    "ago90": 26.22,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 39.06,
+    "d7": 12.6,
+    "d30": 14.9,
+    "d90": 16.9,
+    "ago90": 33.42,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 90.62,
+    "estimate": 4.87,
+    "surprisePct": 1760.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 8,
+   "ptRaised": 3,
+   "ptLowered": 1,
+   "total": 14,
+   "recent": [
+    {
+     "date": "2026-10-28",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 200,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 400,
+     "ptPrior": 320
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Cantor Fitzgerald",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 250,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 235,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "JP Morgan",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 245,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 220,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "Wolfe Research",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 200,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "RBC Capital",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 200,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "Cantor Fitzgerald",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 300,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-27",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-28",
+  "numbers": {
+   "price": 164.7,
+   "ma20": 159.04,
+   "ma50": 169.05,
+   "ma150": null,
+   "distMA50": -2.57,
+   "periodHigh": 199.87,
+   "pullbackFromHigh": -17.6,
+   "volRatio20": 2.3,
+   "dryUpRatio": 1.24
+  },
+  "last10": [
+   {
+    "d": "2026-10-15",
+    "o": 137.88,
+    "h": 146.39,
+    "l": 137.8,
+    "c": 146.11,
+    "v": 34072700,
+    "clsPos": 97,
+    "gapPct": -6.55
+   },
+   {
+    "d": "2026-10-16",
+    "o": 141.33,
+    "h": 141.51,
+    "l": 136.23,
+    "c": 136.49,
+    "v": 29664000,
+    "clsPos": 5,
+    "gapPct": -3.27
+   },
+   {
+    "d": "2026-10-19",
+    "o": 143.25,
+    "h": 148,
+    "l": 141.27,
+    "c": 142.87,
+    "v": 19608000,
+    "clsPos": 24,
+    "gapPct": 4.95
+   },
+   {
+    "d": "2026-10-20",
+    "o": 137.61,
+    "h": 142.45,
+    "l": 137.14,
+    "c": 139.79,
+    "v": 15769600,
+    "clsPos": 50,
+    "gapPct": -3.68
+   },
+   {
+    "d": "2026-10-21",
+    "o": 145.36,
+    "h": 145.97,
+    "l": 139.93,
+    "c": 143.25,
+    "v": 14058800,
+    "clsPos": 55,
+    "gapPct": 3.98
+   },
+   {
+    "d": "2026-10-22",
+    "o": 137.01,
+    "h": 139.3,
+    "l": 130.79,
+    "c": 131.69,
+    "v": 24312600,
+    "clsPos": 11,
+    "gapPct": -4.36
+   },
+   {
+    "d": "2026-10-23",
+    "o": 136.61,
+    "h": 138.52,
+    "l": 135.21,
+    "c": 137.02,
+    "v": 16311700,
+    "clsPos": 55,
+    "gapPct": 3.74
+   },
+   {
+    "d": "2026-10-26",
+    "o": 140.59,
+    "h": 143.47,
+    "l": 139.15,
+    "c": 142.62,
+    "v": 17139300,
+    "clsPos": 80,
+    "gapPct": 2.61
+   },
+   {
+    "d": "2026-10-27",
+    "o": 146.44,
+    "h": 146.89,
+    "l": 143.91,
+    "c": 145.36,
+    "v": 26667700,
+    "clsPos": 49,
+    "gapPct": 2.68
+   },
+   {
+    "d": "2026-10-28",
+    "o": 157.76,
+    "h": 166.06,
+    "l": 156.5,
+    "c": 164.7,
+    "v": 49486400,
+    "clsPos": 86,
+    "gapPct": 8.53
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SKHY-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SKHY-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 7일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

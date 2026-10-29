@@ -1,0 +1,277 @@
+{
+ "ticker": "CRL",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -2.45,
+  "saleNy": 2.53,
+  "epsCy": 10.66,
+  "epsNy": 12.05,
+  "est": {
+   "cyCur": 11.37581,
+   "cy30": 11.33064,
+   "nyCur": 12.74616,
+   "ny30": 12.71092
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -2.72,
+    1.18,
+    -0.83
+   ],
+   "ni": [
+    -102.83,
+    -158.28,
+    "적자확대"
+   ],
+   "opm": [
+    11.94,
+    12.04,
+    -28.51
+   ],
+   "updated": "2026-09-08 09:43:21"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-28",
+   "m3": "2026-10-26",
+   "m6": "2026-10-28"
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 3,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-29",
+  "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+  "nameEn": "CHARLES RIVER LABORATORIES",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100682&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 1004078000,
+     "profit": 119888000,
+     "netIncome": -1482000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": -2.7,
+      "profit": 19.7,
+      "netIncome": -102.8,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 995830000,
+     "profit": 119897000,
+     "netIncome": -14843000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 1.2,
+      "profit": 60.6,
+      "netIncome": -158.3,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 994227000,
+     "profit": -283440000,
+     "netIncome": -276555000,
+     "margin": -28.5,
+     "yoy": {
+      "revenue": -0.8,
+      "profit": -69,
+      "netIncome": -28.9,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 1004852000,
+     "profit": 133799000,
+     "netIncome": 54422000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": -0.5,
+      "profit": 14,
+      "netIncome": -21.9,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Charles River Laboratories (CRL) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-crl-earnings-expected-grow-should-you-buy",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PGNY or CRL: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/pgny-or-crl-which-better-value-stock-right-now",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Charles River Laboratories International Consensus Price Target Increased by 11.46% to $307.39",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-international-consensus-price-target-increased-1146-30739",
+     "date": "2026-10-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Charles River Laboratories International Now #430 Largest Company, Surpassing Tyler Technologies",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-international-now-430-largest-company-surpassing-tyler",
+     "date": "2026-10-01",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Charles River Targets 5%-7% Growth, $300M Savings in 2030 Plan",
+     "url": "https://www.nasdaq.com/articles/charles-river-targets-5-7-growth-300m-savings-2030-plan",
+     "date": "2026-09-26",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "PGNY vs. CRL: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/pgny-vs-crl-which-stock-better-value-option",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000142/crl-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326007060/dp246529_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000036/crl-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-25",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000162828026011395/crl-20260225.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326002326/dp241741_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-09-17",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+     "summary": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxecgm.pdf",
+     "pages": "15"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "This drug researcher that just reported earnings could keep rallying, JPMorgan says",
+   "url": "https://www.cnbc.com/2026/08/06/this-drug-researcher-will-rally-on-biotech-funding-boost-jpmorgan-says.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify & more",
+   "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-midday-googl-spcx-shop-nem-podd.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CRL",
+  "fetchedAt": "2026-10-29",
+  "source": "한국투자증권 Open API",
+  "per": 77.07,
+  "pbr": 6.29,
+  "eps": 4.85,
+  "bps": 59.5,
+  "shares": 47738900,
+  "marketCapM": 17853,
+  "high52": 378.23,
+  "high52Date": "2026-10-28",
+  "low52": 146.195,
+  "low52Date": "2026-05-19",
+  "last": 373.98,
+  "prevClose": 358.84,
+  "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+  "nameEn": "CHARLES RIVER LABORATORIES",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 47738900
+ }
+}
