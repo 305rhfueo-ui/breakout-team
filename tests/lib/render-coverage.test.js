@@ -176,6 +176,30 @@ console.log('\n[9팀] 나래 — 개장 급등 카드·탭 (2026-10-28)');
   ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e9.document.getElementById('team').innerHTML.includes('나래')); assert.ok(e9.bodyFor('t9').includes('아직 확인 전')); });
 }
 
+console.log('\n[10팀] 윤슬 — 금리 전환 감시 · 연준 경제전망 (2026-10-29)');
+{
+  const F = require('../../scripts/fed-watch');
+  const target = [['2022-01-03', 0.25], ['2022-03-17', 0.5], ['2023-07-27', 5.5], ['2024-09-19', 5.0], ['2025-12-11', 3.75], ['2026-09-17', 4.0], ['2026-10-28', 4.0]];
+  const sp = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 5].map((c, i) => [`2025-${String(i + 1).padStart(2, '0')}-28`, c]).concat([['2026-01-05', 1]]);
+  const st = F.evaluate({ target, sp, sahm: [['2026-09-01', 0]], curve: [['2026-10-28', 0.87]], now: '2026-10-29' }); st.ko = F.koLine(st);
+  const sep = F.parseSep(fs.readFileSync(path.join(__dirname, '..', 'fixtures', 'fed-sep-20260916.html'), 'utf8'));
+  st.sep = { date: '2026-09-16', url: 'https://www.federalreserve.gov/x.htm', years: sep.years, rows: sep.rows,
+    analysis: { headline: 'FEDHEAD 매파', growth: 'FEDGROW', labor: 'FEDLAB', inflation: 'FEDINF', rates: 'FEDRATE', tilt: 'hawkish', meaning: 'FEDMEAN' } };
+  const cf = loadRoom(`window.FED_DATA = ${JSON.stringify(st)};`);
+  cf.cards(); cf.board();
+  const card = cf.document.getElementById('team').innerHTML, b = cf.bodyFor('t10'), br = cf.briefing('t10'), bd = cf.document.getElementById('board').innerHTML;
+  ok('카드·보드에 경보 단계, 탭에 규칙·금리·10개월선·SEP 표·해석, 브리핑', () => {
+    for (const k of ['윤슬', '🔴 비중 축소 검토', '기준금리 4.00% · 인상기']) assert.ok(card.includes(k), `카드에 없음: ${k}`);
+    for (const k of ['🏦 연준 🔴 비중 축소 검토', '장기 보유분 비중 축소 검토']) assert.ok(bd.includes(k), `보드에 없음: ${k} — ${bd.slice(0, 300)}`);
+    for (const k of ['🏦 금리 전환 감시', '2024-09-19 (그 앞 인상 +5.25%p)', '2025-12 5 &lt; 10', '매도 조건 아님', '연준 경제전망(SEP) 2026-09-16', 'FEDHEAD 매파',
+      '기준금리 중간값', '2026 3.8→4.1%', 'FEDGROW', 'FEDMEAN', 'href="https://www.federalreserve.gov/x.htm"', '매매 지시가 아니다']) assert.ok(b.includes(k), `없음: ${k}`);
+    assert.ok(br.includes('FEDHEAD 매파'));
+    assert.ok(!cf.bodyFor('t1').includes('금리 전환 감시'), '1팀 탭에 중복으로 넣지 않는다');
+  });
+  const e10 = loadRoom(''); e10.cards();
+  ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e10.document.getElementById('team').innerHTML.includes('윤슬')); assert.ok(e10.bodyFor('t10').includes('아직 확인 전')); });
+}
+
 console.log('\n[팝업] SNS 반응 — 레딧 정리·글 목록·X 검색 링크 (2026-10-28)');
 {
   const cs = loadRoom(`window.SNS_DATA = ${JSON.stringify({ items: { ZZSNS: { fetchedOn: '2026-10-28', mood: 'bear', summary: 'SNSSUM 요약', heat: 'SNSHEAT 과열',
