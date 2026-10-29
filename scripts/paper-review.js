@@ -63,27 +63,24 @@ async function scoreReads(log, horizon = 10) {
 
 // 사지 않은 후보·재민 촉매·로컬 판정 모델 채점 (2026-10-22 학습 고리)
 //   **참고 자료다** — 규칙 변경 근거는 여전히 실제 모의거래 30건 규칙(review.md)뿐. 칸 표본 30 미만은 "판단 보류".
-const HORIZONS = [5, 10, 21];        // 5 = 1주 — 부합도 학습의 주 정답 (2026-10-26 사용자: "한 달 말고 일주일 뒤")
+const HORIZONS = [5, 10, 21];        // 5 = 1주 — 학습 자료의 주 정답 (2026-10-26 사용자: "한 달 말고 일주일 뒤")
 const dayBefore = (d) => new Date(Date.parse(d) - 864e5).toISOString().slice(0, 10);
 const jsonFiles = (dir) => { try { return fs.readdirSync(dir).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().slice(-120).map((f) => path.join(dir, f)); } catch (e) { return []; } };
 async function scoreLearning() {
   const recs = [];
   const seen = new Set();                        // 같은 셋업(티커·피벗)이 며칠 연속 목록에 오르면 처음 오른 날 한 건만 — 표본을 부풀리지 않게
-  const byKey = new Map();
-  // 처음 오른 날 한 건만. 다만 그날 부합도가 비었는데(Ollama 오류 등) 다음 날 붙었으면 그 점수를 첫 기록에 옮긴다 — 학습 자료에서 빠지지 않게.
-  const fresh = (p) => { const k = `${p.ticker}|${p.pivot}`; if (seen.has(k)) { const r0 = byKey.get(k); if (r0 && !r0.fit && p.fit) r0.fit = p.fit; return false; } seen.add(k); return true; };
+  const fresh = (p) => { const k = `${p.ticker}|${p.pivot}`; if (seen.has(k)) return false; seen.add(k); return true; };
   for (const f of jsonFiles(paths.watchlistDir)) {
     const w = readJson(f, null); if (!w) continue;
     const asOf = w.sessionDate || dayBefore(w.date);
     const fitOf = (p) => ({ fit: p.fit || null, regime: w.regime || null, setup: p.kind === 'post' ? 'post' : 'pre' });
-    const add = (r) => { recs.push(r); byKey.set(`${r.ticker}|${r.pivot}`, r); };
+    const add = (r) => recs.push(r);
     for (const p of (w.items || []).filter(fresh)) add({ src: 'cand', ...fitOf(p), ticker: p.ticker, asOf, price: p.price, pivot: p.pivot, stop: p.stopPre, grade: p.grade, kind: p.shadowOnly ? `그림자(${{ gradeC: '등급 C', far: '피벗에서 1~1.5 ADR' }[p.shadowBook] || p.shadowBook})` : '관심(매수 대상)' });
     for (const p of (w.others || []).filter(fresh)) add({ src: 'cand', ...fitOf(p), ticker: p.ticker, asOf, price: p.price, pivot: p.pivot, stop: p.stopPre, grade: p.grade, kind: p.kind === 'post' ? '이미 돌파' : `막힘: ${p.blocked || '미상'}` });
   }
   for (const f of jsonFiles(path.join(paths.root, 'state', 'ep-log'))) {
     const e = readJson(f, null); if (!e) continue;
-    for (const x of e.items || []) recs.push({ src: 'ep', ticker: x.ticker, asOf: dayBefore(e.date), price: x.price, claude: x.category,
-      laya: x.local && x.local.laya ? x.local.laya.category : null, nimble: x.local && x.local.nimble ? x.local.nimble.category : null });
+    for (const x of e.items || []) recs.push({ src: 'ep', ticker: x.ticker, asOf: dayBefore(e.date), price: x.price, claude: x.category });
   }
   const qqq = await barsOf('QQQ');
   const closeOn = (d, upTo) => { if (!qqq) return null; const b = upTo ? [...qqq].reverse().find((x) => barDateET(x.t) <= d) : qqq.find((x) => barDateET(x.t) === d); return b ? b.c : null; };
@@ -114,36 +111,9 @@ const tbl = (title, rows, key) => {
       return `| ${k} | ${s.n}${hold(s.n)} | ${s.broke} | ${s.ret}% | ${s.qqq ?? '—'}% | ${s.rN ? `${s.r}R (${s.rN})` : '—'} |`; }), ''];
 };
 
-// ── 서준 후보 부합도 (Nimble·Laya) 채점 · 학습 자료 · 성적표 (2026-10-26) ──
-//   구간은 질문 버전(SETUP_Q_V)에 묶어 고정 — 매주 바뀌는 3등분을 쓰지 않는다. 돌파 전 후보만(이미 돌파한 후보는 R·돌파가 성립하지 않는다).
-const FIT_V = require('./lib/local-judge').SETUP_Q_V;
-const fitBand = (v) => (v == null ? null : v < 1.5 ? '낮음' : v < 2.5 ? '중간' : '높음');
+// ── 서준 후보 학습 자료 (2026-10-26 · 로컬 모델 점수는 2026-10-29 뺌 — 입력 숫자와 결과만 쌓는다) ──
+const FIT_V = require('./lib/team6').LEARN_V;
 const RETRAIN = { rows: 1000, perRegime: 100 };
-function fitRows(out) { return out.filter((x) => x.src === 'cand' && x.setup === 'pre' && x.fit && x.fit.v === FIT_V); }
-// 화면에 보일 모델 — 채점 30건 이상인 "높음" 묶음 중 1주 초과수익이 가장 큰 모델. 없으면 nimble.
-function pickShow(rows) {
-  let best = null;
-  for (const m of ['nimble', 'laya']) {
-    const a = rows.filter((x) => x.h === 5 && x.fit[m] && fitBand(x.fit[m].fit) === '높음' && x.qqqPct != null);
-    if (a.length < MIN_SAMPLE) continue;
-    const e = avg(a.map((x) => x.retPct - x.qqqPct));
-    if (!best || e > best.excess) best = { model: m, excess: e, n: a.length };
-  }
-  return best ? best.model : 'nimble';
-}
-function fitSection(out) {
-  const rows = fitRows(out);
-  const L = ['### 서준 후보 쿨라매기 부합도 (Nimble·Laya, 검증 전 — 참고)', ''];
-  if (!rows.length) return { L: [...L, '- 부합도가 붙은 후보 중 5세션이 다 지난 것이 아직 없다.', ''], rows, table: [] };
-  const key = (m) => (x) => `${x.regime || '?'} · ${m === 'nimble' ? 'Nimble' : 'Laya'} ${fitBand(x.fit[m] && x.fit[m].fit) || '점수 없음'}`;
-  L.push(...tbl('Nimble 부합도별', rows, key('nimble')), ...tbl('Laya 부합도별', rows, key('laya')),
-    ...tbl('등급 안에서 Nimble 부합도 (부합도가 등급을 되풀이하는지)', rows, (x) => `등급 ${x.grade || '?'} · ${fitBand(x.fit.nimble && x.fit.nimble.fit) === '높음' ? '높음' : '그 외'}`),
-    ...tbl('Nimble 경고(redFlag ≥ 0.5)', rows, (x) => `경고 ${x.fit.nimble && x.fit.nimble.redFlag != null ? (x.fit.nimble.redFlag >= 0.5 ? '예' : '아니오') : '?'}`),
-    ...tbl('전체 (비교 기준)', rows, () => '전체'));
-  L.push('- 같은 기간에 겹치는 후보가 많아 실제 독립 표본은 건수보다 적다. 30건 미만 칸은 판단 보류.', '');
-  const table = Object.entries(groupRows(rows, key('nimble'))).filter(([k]) => /5세션$/.test(k)).map(([k, a]) => ({ key: k, ...statOf(a) }));
-  return { L, rows, table };
-}
 // 학습 자료 — 키 티커|피벗 → 기록 하나. 5·10·21세션이 지나는 대로 같은 기록에 결과를 채운다(덧붙이기만 하면 중복이 생긴다).
 //   up1w(주 정답) = 5세션 수익률 > 같은 기간 QQQ. QQQ 가 없으면 null(false 가 아니다).
 function updateSetups(map, recs, out, todayStr) {
@@ -151,7 +121,7 @@ function updateSetups(map, recs, out, todayStr) {
   for (const r of recs) {
     if (r.src !== 'cand' || !r.fit || r.fit.v !== FIT_V) continue;
     const k = `${r.ticker}|${r.pivot}`;
-    if (!map[k]) { map[k] = { ticker: r.ticker, pivot: r.pivot, sessionDate: r.asOf, setup: r.setup, kind: r.kind, grade: r.grade, regime: r.regime, fit: r.fit, out: {} }; added++; }
+    if (!map[k]) { map[k] = { ticker: r.ticker, pivot: r.pivot, sessionDate: r.asOf, setup: r.setup, kind: r.kind, grade: r.grade, regime: r.regime, fit: { v: r.fit.v, at: r.fit.at, in: r.fit.in }, out: {} }; added++; }
     const row = map[k];
     if (r.noBars && !row.out[5] && Date.parse(todayStr) - Date.parse(r.asOf) > 14 * 864e5) row.reason = 'no_bars';
     for (const x of out) {
@@ -173,24 +143,8 @@ function learnSection({ recs, out }) {
   const cand = out.filter((x) => x.src === 'cand'), ep = out.filter((x) => x.src === 'ep');
   L.push(`- 기록: 후보 ${recs.filter((x) => x.src === 'cand').length}건 · 재민 촉매 ${recs.filter((x) => x.src === 'ep').length}건 · 결과가 다 나온 것 ${out.length}건(10·21세션 따로 셈)`, '');
   L.push(...tbl('후보 종류·막힌 사유별', cand, (x) => x.kind), ...tbl('후보 등급별', cand, (x) => `등급 ${x.grade || '미상'}`));
-  // 같은 기사·공시를 읽은 세 판정 — 분류마다 그 뒤 수익률이 얼마나 갈렸나. 분류가 결과를 잘 가를수록 칸 사이 차이가 크다
-  if (ep.length) {
-    L.push('**재민 촉매 분류별 — Claude · Laya · Nimble (같은 원문)**', '', '| 분류 · 기간 | Claude 건수 / 평균 | Laya 건수 / 평균 | Nimble 건수 / 평균 |', '|---|---|---|---|');
-    for (const h of HORIZONS) for (let c = 1; c <= 6; c++) {
-      const cell = (who) => { const a = ep.filter((x) => x.h === h && x[who] === c).map((x) => x.retPct); return a.length ? `${a.length}${hold(a.length)} / ${avg(a)}%` : '—'; };
-      L.push(`| ${'①②③④⑤⑥'[c - 1]} · ${h}세션 | ${cell('claude')} | ${cell('laya')} | ${cell('nimble')} |`);
-    }
-    L.push('');
-  }
-  const both = recs.filter((x) => x.src === 'ep' && x.laya != null);
-  if (both.length) L.push(`- 분류 일치: Laya ${both.filter((x) => x.laya === x.claude).length}/${both.length} · Nimble ${both.filter((x) => x.nimble === x.claude).length}/${recs.filter((x) => x.src === 'ep' && x.nimble != null).length} (Claude 기준)`);
-  // 다온 보유 소식 — 표본이 작아(보유 1~2종목) 일치율만 본다
-  const sums = Object.values(readJson(path.join(paths.cacheDir, 'holdings-summaries.json'), null) || {}).filter((x) => x.local && x.about);
-  if (sums.length) for (const m of ['laya', 'nimble']) {
-    const a = sums.filter((x) => x.local[m]);
-    const flip = (t, side) => (side === 'short' && t !== 'neutral' ? (t === 'good' ? 'bad' : 'good') : t);   // Claude 는 포지션 기준, 로컬 모델은 주가 기준
-    L.push(`- 다온 소식 ${m}: ${a.length}건 · 회사 기사 판단 일치 ${a.filter((x) => (x.local[m].about >= 0.5) === (x.about === 'yes')).length} · 호재/악재 일치 ${a.filter((x) => flip(x.local[m].tone, x.side) === x.claudeTone).length}`);
-  }
+  // 분류마다 그 뒤 수익률이 얼마나 갈렸나. 분류가 결과를 잘 가를수록 칸 사이 차이가 크다
+  if (ep.length) L.push(...tbl('재민 촉매 분류별 (Claude)', ep, (x) => `${'①②③④⑤⑥'[x.claude - 1] || '?'}`));
   if (!out.length) L.push('- 10세션이 다 지난 기록이 아직 없다.');
   L.push('');
   return L;
@@ -249,13 +203,11 @@ async function main() {
 
   const learned = await scoreLearning();
   L.push(...learnSection(learned));
-  const fs6 = fitSection(learned.out);
-  L.push(...fs6.L);
   const setupsFile = path.join(paths.root, 'state', 'learn', 'setups.json');
   const setups = readJson(setupsFile, null) || {};
   const upd = updateSetups(setups, learned.recs, learned.out, today());
   const rt = retrainStatus(setups);
-  L.push(`- 학습 자료(state/learn/setups.json): ${Object.keys(setups).length}건 · 이번 주 새로 ${upd.added} · 결과 채움 ${upd.filled} · 1주 정답 ${rt.have}/${rt.need}건 (빨간불 ${rt.red} · 초록불 ${rt.green}) — ${rt.ready ? '**재학습 가능**' : '재학습 조건 미충족'}`, '');
+  L.push(`- 학습 자료(state/learn/setups.json): ${Object.keys(setups).length}건 · 이번 주 새로 ${upd.added} · 결과 채움 ${upd.filled} · 1주 정답 ${rt.have}/${rt.need}건 (빨간불 ${rt.red} · 초록불 ${rt.green}) — ${rt.ready ? '**로컬 모델 학습 시험 가능**' : '학습 조건 미충족'}`, '');
 
   console.log(L.join('\n'));
   if (!dry) {
@@ -263,17 +215,15 @@ async function main() {
     fs.appendFileSync(f, '\n' + L.join('\n') + '\n', 'utf8');
     say('SYSTEM', `docs/STRATEGY-LOG.md 에 붙였습니다`);
     require('./lib/util').writeJson(setupsFile, setups);                                   // 비어 있어도 만든다 — 리뷰 커밋 목록에 늘 있다
-    require('./lib/util').writeWindowData(path.join(paths.dashboardData, 'fitscore.js'), 'FITSCORE_DATA', {
-      updated: today(), v: FIT_V, show: pickShow(fs6.rows), scored5: fs6.rows.filter((x) => x.h === 5).length, table: fs6.table, retrain: rt });
-    // 재학습 조건이 처음 채워진 주에 텔레그램 한 번 (사용자가 "재학습해" 하면 진행)
+    // 학습 조건이 처음 채워진 주에 텔레그램 한 번 (사용자가 "학습해" 하면 LayaStudio 등으로 학습 → 저장된 입력의 뒤 기간으로만 채점)
     const flag = path.join(paths.cacheDir, 'notified-retrain.json');
     if (rt.ready && !readJson(flag, null)) {
-      const r = await require('./lib/notify').notify(`📚 부합도 학습 자료가 찼습니다 — 1주 정답 ${rt.have}건(빨간불 ${rt.red} · 초록불 ${rt.green}). Laya 재학습이 가능합니다. 원하시면 "재학습해"라고 말씀해 주세요.`);
+      const r = await require('./lib/notify').notify(`📚 서준 후보 학습 자료가 찼습니다 — 1주 정답 ${rt.have}건(빨간불 ${rt.red} · 초록불 ${rt.green}). 로컬 모델(Laya)을 학습시켜 시험해 볼 수 있습니다. 원하시면 "학습해"라고 말씀해 주세요.`);
       if (r.ok) require('./lib/util').writeJson(flag, { at: today() });
     }
   }
 }
 
-module.exports = { scoreReads, scoreAt, fitSection, updateSetups, retrainStatus, pickShow, fitBand };
+module.exports = { scoreReads, scoreAt, updateSetups, retrainStatus };
 
 if (require.main === module) main().catch((e) => { console.error('리뷰 오류:', e); process.exit(1); });

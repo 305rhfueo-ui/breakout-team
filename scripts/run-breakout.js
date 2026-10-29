@@ -828,31 +828,19 @@ async function main() {
     const reads = require('./mark-breakout').latestReads(readJson(paths.breakoutLog, { entries: [] }),
       { sinceDate: cal.addDays(dateStr, -7) });
     for (const p of [...built.plans, ...built.post]) { const r = reads.get(p.ticker); if (r) p.lastRead = r; }
-    // ── 6b) 쿨라매기 부합도 (2026-10-26 사용자) — Nimble·Laya 가 후보마다 부합도(0~4)·경고를 매긴다. 화면엔 "검증 전" 참고, Claude 입력·매매엔 쓰지 않는다.
-    //   계획 객체(p)에 붙이지 않는다 — prepare-deepdive-args 가 계획을 통째로 Claude 에 넘긴다. 관심 목록(watchlistOf)·team6.fitByKey 로만.
-    //   같은 셋업(티커|피벗)·같은 질문 버전은 지난 관심 목록에서 이어받고 새 것만 묻는다(아침 작업은 주말에도 같은 세션을 다시 돈다).
-    //   Laya 로 전부 본 뒤 Nimble — 최대 2분. 못 본 것은 null 로 두고 다음 실행에서 다시 묻는다(입력 fit.in 은 처음 본 날 것 그대로).
+    // ── 6b) 학습 입력 (team6lib.setupInput) — 후보마다 그날 숫자를 남긴다. 계획 객체(p)에 붙이지 않는다 — prepare-deepdive-args 가 계획을 통째로 Claude 에 넘긴다.
+    //   같은 셋업(티커|피벗)은 지난 관심 목록에서 이어받는다(입력은 처음 본 날 것 그대로 — 아침 작업은 주말에도 같은 세션을 다시 돈다).
     const fitOf = new Map();
     {
-      const lj = require('./lib/local-judge');
       const prevFit = new Map();
       for (const f of require('fs').readdirSync(paths.watchlistDir).filter((x) => /^\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().slice(-3)) {
         const w = readJson(path.join(paths.watchlistDir, f), null) || {};
-        for (const it of [...(w.items || []), ...(w.others || [])]) if (it.fit && it.fit.v === lj.SETUP_Q_V) prevFit.set(`${it.ticker}|${it.pivot}`, it.fit);
+        for (const it of [...(w.items || []), ...(w.others || [])]) if (it.fit && it.fit.v === team6lib.LEARN_V) prevFit.set(`${it.ticker}|${it.pivot}`, { v: it.fit.v, at: it.fit.at, in: it.fit.in });
       }
-      let carried = 0, asked = 0;
       for (const p of [...built.plans, ...built.post]) {
-        const k = `${p.ticker}|${p.pivot}`, old = prevFit.get(k);
-        if (old) carried++;
-        fitOf.set(k, old || { v: lj.SETUP_Q_V, at: dateStr, in: lj.setupInput(p, regime), laya: null, nimble: null });
+        const k = `${p.ticker}|${p.pivot}`;
+        fitOf.set(k, prevFit.get(k) || { v: team6lib.LEARN_V, at: dateStr, in: team6lib.setupInput(p, regime) });
       }
-      const t0 = Date.now();
-      for (const m of lj.MODELS) for (const f of fitOf.values()) {
-        if (f[m] || Date.now() - t0 > 120e3) continue;
-        f[m] = await lj.judgeSetup(m, f.in); asked++;
-      }
-      const empty = [...fitOf.values()].filter((f) => !f.laya && !f.nimble).length;
-      if (fitOf.size) say('T6', `부합도 판정 ${fitOf.size}개 — 이어받음 ${carried} · 이번에 물음 ${asked} · 점수 없음 ${empty} (${Math.round((Date.now() - t0) / 1000)}초)`);
     }
     // 밤 루프(paper-trader)가 채우는 칸은 지난 파일에서 이어받는다
     const prev6 = readPrevWindow('team6.js', 'TEAM6_DATA') || {};
@@ -868,7 +856,6 @@ async function main() {
       triggers: prev6.triggers || [], positions: prev6.positions || [], trades: prev6.trades || [],
       stats: prev6.stats || null, health: prev6.health || null,
     };
-    team6.fitByKey = Object.fromEntries([...fitOf].map(([k, f]) => [k, { at: f.at, laya: f.laya, nimble: f.nimble }]));   // 화면용 — 입력(in)은 빼고
     writeJson(path.join(paths.watchlistDir, `${dateStr}.json`), team6lib.watchlistOf(team6, fitOf));
     // 모의투자 일지(paper.html) — 거래가 없는 날에도 페이지가 비지 않게 아침마다 다시 쓴다
     const paperData = require('./lib/paper-publish').publishFromDisk(rules, { health: prev6.health || null });

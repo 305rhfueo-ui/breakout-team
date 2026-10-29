@@ -361,24 +361,16 @@ console.log('\n[재민 팝업] 도윤 목록에 없는 재민 종목도 체크�
   ok('상세 자료가 없는 예전 재민 종목은 체크표 없이 (깨지지 않음)', () => { c.openTicker('ZZOLD'); assert.ok(!c.document.getElementById('mbox2').innerHTML.includes('CAN SLIM 체크')); });
 }
 
-console.log('\n[부합도·야후 기사] 서준 부합도(검증 전) 줄 · 성적 한 줄 · 재민 팝업 야후 기사 (2026-10-26)');
+console.log('\n[서준 팝업·야후 기사] 부합도 줄 없음 · 재민 팝업 야후 기사 (2026-10-26)');
 {
   const plan = { ticker: 'ZZFT', name: 'n', grade: 'A', state: 'pre', price: 10, pivot: 11, stop: 9.5, distToPivotPct: -9, riskPerSharePct: 5, weightPct: 10, extensionAdr: 0.5, watch: true, reasons: [] };
   const t6 = { generated: '2026-10-26', regime: 'green', plans: [plan, { ...plan, ticker: 'ZZNF', pivot: 12 }], post: [], counts: {}, fitByKey: { 'ZZFT|11': { at: '2026-10-26', nimble: { fit: 3.14, redFlag: 0.7 }, laya: { fit: 2.2, redFlag: 0.1 } } } };
   const ep = { ticker: 'ZZYN', price: 10, checks: { qm: [], canslim: [] }, catalyst: { status: 'pending' }, yahooNews: [{ title: 'YNSENT Phase 3 results', url: 'https://finance.yahoo.com/x', date: '2026-10-24', publisher: 'MarketBeat', via: 'Yahoo' }] };
   const c = loadRoom(`window.TEAM6_DATA = ${JSON.stringify(t6)}; window.TEAM4_DATA = ${JSON.stringify({ items: [ep] })};`);
   c.openTicker('ZZFT'); const h = c.document.getElementById('mbox2').innerHTML;
-  ok('팝업 서준 매수 계획에 부합도(성적표가 없으면 Nimble 앞) · 경고 · 검증 전 · 성적 한 줄', () => {
-    for (const k of ['쿨라매기 부합도', 'Nimble <b>3.1</b>', 'Laya 2.2', '⚠ 경고', '검증 전', '아직 채점 전']) assert.ok(h.includes(k), `없음: ${k}`);
-  });
-  ok('서준 탭 카드에도 부합도 줄, 점수 없는 종목엔 줄 없음', () => {
-    const b = c.bodyFor('t6'); assert.ok(b.includes('Nimble <b>3.1</b>'));
-    c.openTicker('ZZNF'); assert.ok(!c.document.getElementById('mbox2').innerHTML.includes('쿨라매기 부합도'));
-  });
-  ok('성적표가 Laya 를 고르면 Laya 가 앞 · 채점 건수 표시', () => {
-    const c2 = loadRoom(`window.TEAM6_DATA = ${JSON.stringify(t6)}; window.FITSCORE_DATA = { show: 'laya', scored5: 12 };`);
-    c2.openTicker('ZZFT'); const h2 = c2.document.getElementById('mbox2').innerHTML;
-    assert.ok(h2.includes('Laya <b>2.2</b>') && h2.includes('채점 12건') && h2.includes('아직 믿을 수준이 아닙니다'));
+  ok('서준 팝업·탭에 부합도 없음 — 옛 자료에 fitByKey 가 남아 있어도 (로컬 모델은 2026-10-29 뺌)', () => {
+    assert.ok(h.includes('서준 매수 계획') && !/부합도|Nimble|Laya/.test(h));
+    assert.ok(!/부합도|Nimble|Laya/.test(c.bodyFor('t6')));
   });
   ok('재민 팝업에 야후 파이낸스 기사(유료일 수 있음)', () => {
     c.openTicker('ZZYN'); const h3 = c.document.getElementById('mbox2').innerHTML;

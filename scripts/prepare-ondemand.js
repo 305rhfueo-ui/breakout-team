@@ -151,14 +151,12 @@ async function build(tickerIn, { date = today(), offline = false } = {}) {
   const teamView = (() => {
     const t6 = loadWindow('team6.js', 'TEAM6_DATA'), t2 = loadWindow('team2.js', 'TEAM2_DATA'), t4 = loadWindow('team4.js', 'TEAM4_DATA'), hd = loadWindow('holdings.js', 'HOLDINGS_DATA');
     const p6 = t6 && [...(t6.plans || []), ...(t6.post || [])].find((x) => x.ticker === T);
-    const fit = p6 && t6.fitByKey ? t6.fitByKey[`${T}|${p6.pivot}`] || null : null;
     const q2 = t2 && [...(t2.picks || []), ...(t2.listPicks || [])].find((x) => x.ticker === T);
     const lists = t2 && t2.lists ? Object.values(t2.lists).filter((l) => (l.items || []).some((i) => i.ticker === T)).map((l) => l.label) : [];
     const c4 = t4 && (t4.items || []).find((x) => x.ticker === T);
     const h = hd && (hd.holdings || []).find((x) => x.ticker === T);
     return {
-      seojun: p6 ? { asOf: t6.generated, grade: p6.grade, state: p6.state, watch: !!p6.watch, blocked: p6.blocked || null, distToPivotPct: p6.distToPivotPct ?? null,
-        fit: fit ? { nimble: fit.nimble, laya: fit.laya, note: '쿨라매기 부합도 0~4 — 로컬 모델의 검증 전 참고 점수' } : null } : null,
+      seojun: p6 ? { asOf: t6.generated, grade: p6.grade, state: p6.state, watch: !!p6.watch, blocked: p6.blocked || null, distToPivotPct: p6.distToPivotPct ?? null } : null,
       doyun: q2 || lists.length ? { lists, lead: q2 && q2.research && q2.research.status === 'done' ? q2.research.lead || null : null,
         researchedOn: q2 && q2.research ? q2.research.researchedOn || null : null } : null,
       jaemin: c4 && c4.catalyst && c4.catalyst.status === 'done' ? { category: c4.catalyst.categoryName || null, why: c4.catalyst.volumeExplanation || null, researchedOn: c4.catalyst.researchedOn || null } : null,

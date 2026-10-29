@@ -67,9 +67,22 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
   };
 }
 
+// 서준 후보 학습 입력 (2026-10-26) — 그날 셋업 숫자를 관심 목록 fit.in 에 남기고, 주간 리뷰가 1주·2주·1개월 결과를 붙여 state/learn/setups.json 에 쌓는다.
+//   로컬 모델(Laya·Nimble) 판정은 2026-10-29 뺐다(Laya 는 종목이 달라도 2.3~2.7 로 거의 같은 점수). 나중에 학습한 모델은 저장된 입력에 한꺼번에 돌려 결과와 맞춰 본다.
+//   ⚠️ LEARN_V: setupInput 이 바뀌면 올린다 — 모양이 다른 입력은 섞지 않는다. 관심 목록 항목엔 일부 숫자가 없어 나중에 다시 만들 수 없다.
+const LEARN_V = 1;
+const n1 = (v) => (Number.isFinite(v) ? Math.round(v * 10) / 10 : null);
+function setupInput(p, regime) {
+  const m = p.metrics || {};
+  return { state: p.state, priorMovePct: n1(m.priorMovePct), baseWeeks: n1(m.baseWeeks), depthPct: n1(m.depthPct), higherLows: m.higherLows ?? null,
+    contraction: n1(m.contraction), closeRange10Adr: n1(m.closeRange10Adr), surf10Adr: n1(m.surf10), surf20Adr: n1(m.surf20), slope20Pct: n1(m.slope20),
+    distToPivotAdr: n1(p.distToPivotAdr), extensionAdr: n1(p.extensionAdr), adrPct: n1(p.adrPct), dollarVol20M: n1(p.dollarVol20M),
+    earningsSoon: p.earnings === 'unknown' || p.earnings == null ? (p.earnings === 'unknown' ? null : false) : true, regime: regime || null };
+}
+
 // 밤 트리거가 읽는 파일 — 관심 종목만, 필요한 숫자만
 function watchlistOf(team6, fitOf = null) {
-  const fitFor = (p) => (fitOf && fitOf.get(`${p.ticker}|${p.pivot}`)) || null;   // 부합도(Nimble·Laya) — 2026-10-26, 기록·학습 자료
+  const fitFor = (p) => (fitOf && fitOf.get(`${p.ticker}|${p.pivot}`)) || null;   // 학습 입력 { v, at, in } — 위 setupInput
   return {
     date: team6.generated, sessionDate: team6.sessionDate, rulesVersion: team6.rulesVersion, regime: team6.regime,
     // 등급 C 는 실제 장부에서는 안 사지만 그림자 장부(gradeC)로 같이 돌린다 — 등급이 성적을 가르는지 보려면 C 의 결과도 필요하다
@@ -135,4 +148,4 @@ function digestLine(t6) {
   return [head, ...w.slice(0, 8).map((p) => `  - ${p.ticker}(${p.grade}) 피벗 $${p.pivot} · 현재 ${sg(p.distToPivotPct)}% · 예비 손절 $${p.stop} · 비중 ${p.weightPct}%`)];
 }
 
-module.exports = { buildPlans, watchlistOf, reportSection, digestLine, sharesFor };
+module.exports = { buildPlans, watchlistOf, reportSection, digestLine, sharesFor, setupInput, LEARN_V };
