@@ -114,6 +114,9 @@ paper.html               서준의 모의투자 일지 (누적 수익률 곡선 
   LLM 테마종합의 byPeriod/rotation 티커는 `build-chief-report` 가 Node 목록과 교집합으로 정제한다. 상세: `docs/PERIOD-THEMES-2026-09-07.md`
 - 사이트 `RS_Rank_Pct` 는 NaN 정렬 버그로 틀려 있다(2026-09-07 실측 1378/1392 불일치) → 자체 백분위(`__p`)만 쓴다. 사이트 PR 반영 후 재확인
 - 사이트 `market_condition`(사용자 시트 A1)은 QQQ 판정을 **덮어쓰지 않고 병기**한다. `fs_data.json` 은 `scripts/data/rs-fs-data.js`(하루 캐시)
+- **RS 사이트 티커 목록**(사용자 구글 시트 첫 탭 A열 — RS_Investment 가 매일 읽는 종목) 자동 갱신(`scripts/ticker-universe.js`, 2026-10-29 사용자 "해보자"): 토요일 아침 작업이
+  한투 조건검색 $70 이상 보통주를 넣고, 이미 있는 종목은 $50 밑이어야 뺀다(기준은 기존 시트에서 거꾸로 찾음). ETF·ETN·우선주·폐쇄형 펀드는 나스닥 공식 상장 목록으로 거른다.
+  사용자가 직접 넣는 종목은 "수기" 탭 — 첫 탭은 통째로 바뀐다. 30% 넘게 바뀌거나 조건검색이 잘리면 쓰지 않는다. 서비스 계정 키는 `~/.config/breakout-team/google-sa.json`(저장소 밖, 사용자가 둔다).
 - `const CAP = (A && A.cap) || N` 은 `cap:0` 을 N 으로 둔갑시킨다 → `Number.isFinite` 로 판정
 - **NotebookLM `setup_auth` 는 세션 MCP 서버로는 절대 성공하지 못한다.** 서버가 `headless:true`
   로 떠 있어 로그인 창이 안 보인 채 죽는다. `HEADLESS=false` 로 서버를 따로 띄워 로그인만 끝낸다
