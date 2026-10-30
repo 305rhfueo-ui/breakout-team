@@ -1,6 +1,1228 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "ICLR",
+      "nameKo": "아이콘",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "industryRank": {
+        "frank": 1,
+        "frank25dChg": 2,
+        "headline": "신약 개발 위탁·암 진단 기업들의 실적이 예상을 웃돌면서 진단·연구 업종이 상위를 차지했다.",
+        "asOf": "2026-10-29"
+      },
+      "requestedOn": "2026-10-30",
+      "session": "2026-10-29",
+      "at": "2026-10-30T01:12:15.010Z",
+      "verdict": "아니다",
+      "verdictLine": "시장이 빨간불인 데다 이미 피벗 177.67 을 21% 넘겨 추격 구간이라 지금은 기준에 맞지 않는다.",
+      "basis": [
+        {
+          "point": "시장 판정이 빨간불이고 10일선이 20일선 아래 7일째라 신규 매수를 막는 구간이다.",
+          "side": "against",
+          "checkRef": "차트:시장"
+        },
+        {
+          "point": "2026-10-21 에 피벗 177.67 을 넘었고 현재가는 그보다 21.28%(4.18 하루 변동폭) 위다.",
+          "side": "against",
+          "checkRef": "차트:피벗 거리"
+        },
+        {
+          "point": "최근 5일 거래량이 20일 평균의 1.62배로, 쉬면서 거래량이 마르는 모습이 아니다.",
+          "side": "against",
+          "checkRef": "차트:거래량 마름"
+        },
+        {
+          "point": "상대강도가 1개월 상위 1.49%로 업종 주도주 기준은 넘는다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "3분기 순수주 3,150백만 달러, 수주잔고 24.5십억 달러로 수주 흐름은 좋다.",
+          "side": "for",
+          "checkRef": "n1"
+        }
+      ],
+      "conditions": [],
+      "invalidation": "예비 손절은 169.72 지만 현재가 215.48 에서 21% 아래라 지금 가격에는 쓸 수 없는 값이다. 시장이 초록으로 바뀌고 2주 이상 새 횡보 구간이 생겨 손절 폭이 하루 변동폭 5.09% 안으로 좁혀지면 이 판단을 다시 봐야 한다.",
+      "dataLimits": "기관 보유 자료 없음 · 국내 증권사 리포트와 8-K 공시 0건 · 코드 체크표의 최근 분기 이익은 9월 8일자 요약값이라 3분기 실적 반영 전 숫자다",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "market_red",
+            "ko": "시장 판정이 빨간불이다 (신규 매수 금지 구간)"
+          },
+          {
+            "key": "post_breakout",
+            "ko": "이미 피벗 177.67 을 넘었다(2026-10-21) — 넘은 뒤에 사는 것은 추격이다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-10-29",
+          "market": "2026-10-28"
+        }
+      },
+      "setup": {
+        "state": "post",
+        "grade": "B",
+        "pivot": 177.67,
+        "stop": 169.72,
+        "distToPivotPct": 21.28,
+        "distToPivotAdr": 4.18,
+        "riskPerSharePct": 4.47,
+        "extensionAdr": 2.64,
+        "adrPct": 5.09,
+        "breakDate": "2026-10-21",
+        "chase": false,
+        "metrics": {
+          "baseBars": 40,
+          "baseWeeks": 8,
+          "depthPct": 11.8,
+          "priorMovePct": 52.5,
+          "higherLows": 0,
+          "contraction": 0.95,
+          "closeRange10Adr": 1.4,
+          "surf10": 0.8,
+          "surf20": 0.79,
+          "slope20": 0.37,
+          "baseLow": 156.7,
+          "lastSwingLow": 157.38
+        },
+        "reasons": [
+          "선행 상승 +53%",
+          "베이스 8주",
+          "깊이 11.8%",
+          "✗ 저점 상승 0회",
+          "진폭 0.95배 · 10일 종가폭 1.4 ADR",
+          "10일선 +0.8 ADR · 20일선 +0.8 ADR",
+          "20일선 기울기 +0.37%"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 53% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 0.95배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 11.8% · ADR 5.09%의 2.3배 · 선행 상승의 절반 26%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 215.48 · 20일선 176.13 · 50일선 171.22"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.62배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "2026-10-21 돌파봉 거래량 = 20일 평균의 1.26배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 2026-10-21 피벗 177.67 돌파 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.47% · ADR 5.09%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.6 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 -64.3% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 -64%/-35%/-166% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 100%"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량 1.62배(20일 평균 대비) · 오늘 거래대금 4.6배(상승일) · 상장주식 77M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 1.49% · 3M 3.2% · 6M 3.74% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "ICLR",
+        "fetchedAt": "2026-10-29",
+        "source": "한국투자증권 Open API",
+        "per": 388.75,
+        "pbr": 1.76,
+        "eps": 0.55,
+        "bps": 121.55,
+        "shares": 77154200,
+        "marketCapM": 16523,
+        "high52": 214.94,
+        "high52Date": "2026-10-28",
+        "low52": 66.57,
+        "low52Date": "2026-02-12",
+        "last": 214.16,
+        "prevClose": 182.98,
+        "nameKo": "아이콘",
+        "nameEn": "ICON PLC",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 77154200
+      },
+      "estimates": {
+        "ticker": "ICLR",
+        "url": "https://finance.yahoo.com/quote/ICLR/analysis/",
+        "fetchedAt": "2026-10-29",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 2.88,
+            "epsLow": 2.72,
+            "epsHigh": 3.02,
+            "epsYearAgo": 2.52,
+            "epsAnalysts": 14,
+            "epsGrowth": 14.2,
+            "epsCur": "USD",
+            "rev": 2029377500,
+            "revAnalysts": 13,
+            "revYearAgo": 2112517000,
+            "revGrowth": -3.9,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 2.74,
+            "epsLow": 2.6,
+            "epsHigh": 2.84,
+            "epsYearAgo": 2.5,
+            "epsAnalysts": 10,
+            "epsGrowth": 9.8,
+            "epsCur": "USD",
+            "rev": 2059004760,
+            "revAnalysts": 9,
+            "revYearAgo": 2033999000,
+            "revGrowth": 1.2,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 10.54,
+            "epsLow": 10.41,
+            "epsHigh": 10.66,
+            "epsYearAgo": 12.53,
+            "epsAnalysts": 16,
+            "epsGrowth": -15.9,
+            "epsCur": "USD",
+            "rev": 8145217280,
+            "revAnalysts": 17,
+            "revYearAgo": 8251340000,
+            "revGrowth": -1.3,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 11.77,
+            "epsLow": 10.88,
+            "epsHigh": 12.48,
+            "epsYearAgo": 10.54,
+            "epsAnalysts": 18,
+            "epsGrowth": 11.7,
+            "epsCur": "USD",
+            "rev": 8451837410,
+            "revAnalysts": 16,
+            "revYearAgo": 8145217280,
+            "revGrowth": 3.8,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 2.88,
+            "d7": 1,
+            "d30": 1.2,
+            "d90": 0.6,
+            "ago90": 2.86,
+            "up7": 2,
+            "up30": 4,
+            "down7": 1,
+            "down30": 2
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 2.74,
+            "d7": 0,
+            "d30": -0.8,
+            "d90": -0.1,
+            "ago90": 2.75,
+            "up7": 1,
+            "up30": 1,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 10.54,
+            "d7": -0.2,
+            "d30": -0.4,
+            "d90": -0.9,
+            "ago90": 10.64,
+            "up7": 1,
+            "up30": 1,
+            "down7": 2,
+            "down30": 4
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 11.77,
+            "d7": 0,
+            "d30": -0.3,
+            "d90": -0.7,
+            "ago90": 11.85,
+            "up7": 1,
+            "up30": 1,
+            "down7": 3,
+            "down30": 5
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 2.66,
+            "estimate": 2.63,
+            "surprisePct": 1.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 2.56,
+            "estimate": 2.52,
+            "surprisePct": 1.7,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 2.5,
+            "estimate": 2.43,
+            "surprisePct": 3.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 2.52,
+            "estimate": 3.11,
+            "surprisePct": -18.9,
+            "cur": "USD"
+          }
+        ],
+        "beats": 3,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 2,
+          "ptLowered": 1,
+          "total": 3,
+          "recent": [
+            {
+              "date": "2026-09-18",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Lowers",
+              "pt": 175,
+              "ptPrior": 180
+            },
+            {
+              "date": "2026-07-31",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 180,
+              "ptPrior": 165
+            },
+            {
+              "date": "2026-07-31",
+              "firm": "Truist Securities",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 209,
+              "ptPrior": 207
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-10-27",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "cnbc": [],
+      "detail": {
+        "fetchedAt": "2026-10-30",
+        "nameKo": "아이콘",
+        "nameEn": "ICON PLC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001060955&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 2024757000,
+              "profit": 198841000,
+              "netIncome": 122130000,
+              "margin": 9.8,
+              "yoy": {
+                "revenue": -2.9,
+                "profit": 189.2,
+                "netIncome": 143,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 2063486000,
+              "profit": 137829000,
+              "netIncome": 72582000,
+              "margin": 6.7,
+              "yoy": {
+                "revenue": 1.2,
+                "profit": -40.3,
+                "netIncome": -64.3,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 2033999000,
+              "profit": 173734000,
+              "netIncome": 104751000,
+              "margin": 8.5,
+              "yoy": {
+                "revenue": 0.9,
+                "profit": -23.5,
+                "netIncome": -34.9,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 2112517000,
+              "profit": 207847000,
+              "netIncome": 149194000,
+              "margin": 9.8,
+              "yoy": {
+                "revenue": 2.5,
+                "profit": -37.1,
+                "netIncome": -49.4,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "What Icon (ICLR) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-icon-iclr-said-its-q3-earnings-call",
+              "date": "2026-10-28",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "ICON (ICLR) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/icon-iclr-q3-2026-earnings-call-transcript",
+              "date": "2026-10-28",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "ICON plc Reports $2.15 Billion Senior Notes Issuance and Debt Repayments",
+              "url": "https://www.nasdaq.com/articles/icon-plc-reports-215-billion-senior-notes-issuance-and-debt-repayments",
+              "date": "2026-10-28",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "ICON Public Limited Company Reports Third Quarter 2026 Results",
+              "url": "https://www.nasdaq.com/articles/icon-public-limited-company-reports-third-quarter-2026-results",
+              "date": "2026-10-28",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Icon PLC (ICLR) Q3 Earnings and Revenues Beat Estimates",
+              "url": "https://www.nasdaq.com/articles/icon-plc-iclr-q3-earnings-and-revenues-beat-estimates",
+              "date": "2026-10-27",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Analysts Estimate Icon PLC (ICLR) to Report a Decline in Earnings: What to Look Out for",
+              "url": "https://www.nasdaq.com/articles/analysts-estimate-icon-plc-iclr-report-decline-earnings-what-look-out",
+              "date": "2026-10-20",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Icon PLC (ICLR) Up 2.5% Since Last Earnings Report: Can It Continue?",
+              "url": "https://www.nasdaq.com/articles/icon-plc-iclr-25-last-earnings-report-can-it-continue",
+              "date": "2026-08-28",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Is ICON a Buy as Valuation Improves but Earnings Risks Still Persist?",
+              "url": "https://www.nasdaq.com/articles/icon-buy-valuation-improves-earnings-risks-still-persist",
+              "date": "2026-08-06",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "rank": {
+        "m1": 1.49,
+        "m3": 3.2,
+        "m6": 3.74
+      },
+      "yahooNews": [
+        {
+          "title": "UBS Adjusts Price Target on ICON to $236 From $195, Maintains Neutral Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-icon-141407234.html",
+          "date": "2026-10-29",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Deutsche Bank Adjusts ICON Price Target to $250 From $200, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-icon-price-114836987.html",
+          "date": "2026-10-29",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "RBC Raises Price Target on ICON to $226 From $185, Keeps Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-icon-113841574.html",
+          "date": "2026-10-29",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Truist Securities Adjusts Price Target on ICON to $268 From $209, Keeps Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-101019674.html",
+          "date": "2026-10-29",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "ICON (ICLR) Could Be 15% Overvalued After Record Wins And Fresh Buyback",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/icon-iclr-could-15-overvalued-071140953.html",
+          "date": "2026-10-29",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Icon PLC (ICLR) (Q3 2026) Earnings Call Highlights: Record $3. ...",
+          "url": "https://finance.yahoo.com/healthcare/articles/icon-plc-iclr-q3-2026-230512171.html",
+          "date": "2026-10-28",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        }
+      ],
+      "teamView": {
+        "seojun": {
+          "asOf": "2026-10-29",
+          "grade": "B",
+          "state": "post",
+          "watch": false,
+          "blocked": null,
+          "distToPivotPct": 20.54
+        },
+        "doyun": {
+          "lists": [
+            "거래대금 상위",
+            "RS(1MO)"
+          ],
+          "lead": "ICLR은 10월 28일 발표한 3분기 실적이 예상치를 웃돌면서 주가가 올랐다. 다음 분기에도 이익 개선이 이어지는지 확인되지 않으면 이 반등은 일회성에 그칠 수 있다.",
+          "researchedOn": "2026-10-29"
+        },
+        "jaemin": {
+          "category": "어닝 서프라이즈/가이던스 상향",
+          "why": "10월 27일 발표한 3분기 실적이 시장 예상을 웃돌았고 회사가 올해 전망도 높였습니다. 이 소식이 반영된 28일에 거래량이 평소보다 크게 늘었습니다.",
+          "researchedOn": "2026-10-29"
+        },
+        "holding": null
+      },
+      "market": {
+        "verdict": "red",
+        "ko": "🔴 10일선이 20일선 아래 7일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+        "finra": "warn",
+        "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과"
+      },
+      "verified": {
+        "checked": 6,
+        "ok": 24,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 0
+      },
+      "numberCut": 0,
+      "deep": {
+        "status": "done",
+        "ticker": "ICLR",
+        "company": "ICON(아이콘)은 제약·바이오 회사의 임상시험을 대신 설계하고 운영해 주는 아일랜드 본사의 위탁 연구기관(CRO)이다. 고객은 대형 제약사와 바이오텍이며, 수주를 받아 쌓아 둔 잔고를 시간을 두고 매출로 바꾼다. 최근에는 임상 속도를 높인다는 AI 기반 디지털 플랫폼을 성장 축으로 내세우고 있다.",
+        "lead": "ICLR은 3분기 수주가 크게 늘었지만 지금 가격은 매수 기준에서 벗어나 있다. 가장 강한 근거는 분기 순수주 3,150백만 달러와 24.5십억 달러까지 늘어난 수주잔고다. 가장 큰 걱정은 매출이 1년 전보다 2.9% 줄었고 조정 기준 이익도 떨어졌다는 점이다. 시장 신호등이 초록으로 바뀌고 새 횡보 구간과 새 피벗이 생기는지가 이 그림을 다시 볼 기준이다.",
+        "newsNarrative": "10월 27일 발표한 3분기 실적이 주가를 끌어올렸다. 매출은 2,024.8백만 달러로 1년 전보다 2.9% 줄었지만, 새로 따낸 수주가 3,150백만 달러로 북투빌 1.56배를 기록했다. 회사는 올해 전망을 매출 8,100~8,200백만 달러, 조정 희석 EPS 10.35~10.65달러로 제시하고 3분기에 400.0백만 달러어치 자사주를 사들였다. 발표 다음 날 증권사들이 목표주가를 잇따라 올렸다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "3분기 순수주가 3,150백만 달러, 북투빌 1.56배로 늘었고 수주잔고는 24.5십억 달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Reports Third Quarter 2026 Results",
+                "publisher": "ICON plc (finanznachrichten.de 게재)",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                "date": "2026-10-27",
+                "quote": "Strong commercial performance with net business wins in the quarter of $3,150 million; a net book-to-bill of 1.56x and closing backlog of $24.5 billion, up 4.8% sequentially.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "3분기 매출은 2,024.8백만 달러로 1년 전보다 2.9% 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Reports Third Quarter 2026 Results",
+                "publisher": "ICON plc (finanznachrichten.de 게재)",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                "date": "2026-10-27",
+                "quote": "Revenue for the third quarter was $2,024.8 million. This represents a decrease of 2.9% on quarter three 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "회사는 올해 전망을 매출 8,100~8,200백만 달러, 조정 희석 EPS 10.35~10.65달러로 갱신했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Reports Third Quarter 2026 Results",
+                "publisher": "ICON plc (finanznachrichten.de 게재)",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                "date": "2026-10-27",
+                "quote": "Updating 2026 full-year financial guidance issued with revenue expected in the range of $8,100 $8,200 million and adjusted diluted earnings per share* expected in the range of $10.35 $10.65.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "3분기에 자사주 400.0백만 달러어치를 평균 170달러에 매입해 주주에게 돌려줬다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Reports Third Quarter 2026 Results",
+                "publisher": "ICON plc (finanznachrichten.de 게재)",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                "date": "2026-10-27",
+                "quote": "$400.0 million worth of stock repurchased in quarter three at an average price of $170 per share",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "8월에 2.15십억 달러 규모 투자등급 채권을 발행했고 9월 말 순부채는 2.6십억 달러다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Reports Third Quarter 2026 Results",
+                "publisher": "ICON plc (finanznachrichten.de 게재)",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                "date": "2026-10-27",
+                "quote": "In August 2026, ICON completed a successful investment grade bond issuance of $2.15 billion. … Net debt as at September 30, 2026 was $2.6 billion.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "실적 발표 다음 날 증권사들이 목표주가를 올렸다 — 도이체방크는 200달러에서 250달러로 높였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Deutsche Bank Adjusts ICON Price Target to $250 From $200, Maintains Buy Rating",
+                "publisher": "MT Newswires (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-icon-price-114836987.html",
+                "date": "2026-10-29",
+                "quote": "Deutsche Bank Adjusts ICON Price Target to $250 From $200, Maintains Buy Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 줄고 수주는 늘어난 분기였다. 3분기 매출은 2,024.8백만 달러로 1년 전보다 2.9% 감소했다. 같은 기간 새로 따낸 수주는 3,150백만 달러, 수주잔고는 24.5십억 달러까지 쌓였다. 회사가 내놓은 올해 전망은 매출 8,100~8,200백만 달러, 조정 희석 EPS 10.35~10.65달러다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "3분기 매출 2,024.8백만 달러로 1년 전보다 2.9% 줄어 매출 감소가 이어졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ICON Reports Third Quarter 2026 Results",
+                  "publisher": "ICON plc (finanznachrichten.de 게재)",
+                  "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                  "date": "2026-10-27",
+                  "quote": "Revenue for the third quarter was $2,024.8 million. This represents a decrease of 2.9% on quarter three 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "총수주 3,789백만 달러는 1년 전보다 26.9% 늘었고 취소 639백만 달러를 뺀 순수주가 3,150백만 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ICON Reports Third Quarter 2026 Results",
+                  "publisher": "ICON plc (finanznachrichten.de 게재)",
+                  "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                  "date": "2026-10-27",
+                  "quote": "In quarter three 2026, gross bookings were $3,789 million, an increase of 26.9% on quarter three 2025, with cancellations of $639 million. This resulted in net business wins of $3,150 million and a book-to-bill of 1.56x. Backlog as at September 30, 2026 was $24.5 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "회사는 사업 구성이 좋아지고 비용을 조인 덕에 조정 EBITDA 가 전 분기보다 3% 늘었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ICON Reports Third Quarter 2026 Results",
+                  "publisher": "ICON plc (finanznachrichten.de 게재)",
+                  "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                  "date": "2026-10-27",
+                  "quote": "Adjusted EBITDA grew 3% sequentially, reflecting improved business mix and strong cost discipline, while sustained commercial excellence supported another quarter of exceptional bookings performance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "조정 기준으로는 3분기 이익과 매출이 모두 떨어졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ICON Q3 Non-GAAP Earnings, Revenue Fall; Lifts 2026 Guidance",
+                  "publisher": "MT Newswires (Yahoo Finance 게재)",
+                  "url": "https://finance.yahoo.com/healthcare/articles/icon-q3-non-gaap-earnings-212258927.html",
+                  "date": "2026-10-27",
+                  "quote": "ICON Q3 Non-GAAP Earnings, Revenue Fall; Lifts 2026 Guidance",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "f5",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 올해 매출 8,100~8,200백만 달러, 조정 희석 EPS 10.35~10.65달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ICON Reports Third Quarter 2026 Results",
+                  "publisher": "ICON plc (finanznachrichten.de 게재)",
+                  "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                  "date": "2026-10-27",
+                  "quote": "Updating 2026 full-year financial guidance issued with revenue expected in the range of $8,100 $8,200 million and adjusted diluted earnings per share* expected in the range of $10.35 $10.65.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "f6",
+                "statement": "실적 뒤 트루이스트는 목표주가를 209달러에서 268달러로 올리며 매수 의견을 유지했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Truist Securities Adjusts Price Target on ICON to $268 From $209, Keeps Buy Rating",
+                    "publisher": "MT Newswires (Yahoo Finance 게재)",
+                    "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-101019674.html",
+                    "date": "2026-10-29",
+                    "quote": "Truist Securities Adjusts Price Target on ICON to $268 From $209, Keeps Buy Rating",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "f7",
+                "statement": "UBS 는 목표주가를 195달러에서 236달러로 올렸지만 투자의견은 중립을 유지했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "UBS Adjusts Price Target on ICON to $236 From $195, Maintains Neutral Rating",
+                    "publisher": "MT Newswires (Yahoo Finance 게재)",
+                    "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-icon-141407234.html",
+                    "date": "2026-10-29",
+                    "quote": "UBS Adjusts Price Target on ICON to $236 From $195, Maintains Neutral Rating",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "애널리스트들은 목표주가는 올렸지만 이익 추정치는 아직 내리는 쪽이다. 올해(2026-12-31 결산) EPS 추정은 10.54달러로 1년 전 12.53달러보다 15.9% 낮고, 최근 30일 동안 0.4% 내렸다(상향 1명·하향 4명). 반면 이번 분기 추정은 30일간 1.2% 올랐고, 3분기 실적은 2.66달러로 추정 2.63달러를 1.3% 넘겨 최근 4분기 중 3번 예상을 웃돌았다.",
+        "newDrivers": [
+          {
+            "what": "분기 수주 급증 — 새로 따낸 임상시험 계약이 크게 늘어 수주잔고가 불어났다",
+            "kind": "contract",
+            "stage": "매출 발생 중",
+            "since": "2026-10-27",
+            "basis": [
+              {
+                "id": "d1",
+                "statement": "3분기 순수주 3,150백만 달러, 북투빌 1.56배로 수주가 크게 늘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "ICON Reports Third Quarter 2026 Results",
+                    "publisher": "ICON plc (finanznachrichten.de 게재)",
+                    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                    "date": "2026-10-27",
+                    "quote": "Strong commercial performance with net business wins in the quarter of $3,150 million; a net book-to-bill of 1.56x and closing backlog of $24.5 billion, up 4.8% sequentially.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d2",
+                "statement": "총수주가 3,789백만 달러로 1년 전보다 26.9% 늘었고 수주잔고는 24.5십억 달러까지 쌓였다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "ICON Reports Third Quarter 2026 Results",
+                    "publisher": "ICON plc (finanznachrichten.de 게재)",
+                    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                    "date": "2026-10-27",
+                    "quote": "In quarter three 2026, gross bookings were $3,789 million, an increase of 26.9% on quarter three 2025, with cancellations of $639 million. This resulted in net business wins of $3,150 million and a book-to-bill of 1.56x. Backlog as at September 30, 2026 was $24.5 billion.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d3",
+                "statement": "사업 구성 개선과 비용 통제로 조정 EBITDA 가 전 분기보다 3% 늘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "ICON Reports Third Quarter 2026 Results",
+                    "publisher": "ICON plc (finanznachrichten.de 게재)",
+                    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                    "date": "2026-10-27",
+                    "quote": "Adjusted EBITDA grew 3% sequentially, reflecting improved business mix and strong cost discipline, while sustained commercial excellence supported another quarter of exceptional bookings performance.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d4",
+                "statement": "회사 가이던스 기준 2026년 매출은 8,100~8,200백만 달러, 조정 희석 EPS 는 10.35~10.65달러다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "ICON Reports Third Quarter 2026 Results",
+                    "publisher": "ICON plc (finanznachrichten.de 게재)",
+                    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                    "date": "2026-10-27",
+                    "quote": "Updating 2026 full-year financial guidance issued with revenue expected in the range of $8,100 $8,200 million and adjusted diluted earnings per share* expected in the range of $10.35 $10.65.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "d5",
+                "statement": "수주가 늘어도 3분기 매출은 2,024.8백만 달러로 1년 전보다 2.9% 줄었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "ICON Reports Third Quarter 2026 Results",
+                    "publisher": "ICON plc (finanznachrichten.de 게재)",
+                    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                    "date": "2026-10-27",
+                    "quote": "Revenue for the third quarter was $2,024.8 million. This represents a decrease of 2.9% on quarter three 2025",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d6",
+                "statement": "같은 분기에 고객이 취소한 과제가 639백만 달러로, 따낸 수주가 그대로 남지 않는다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "ICON Reports Third Quarter 2026 Results",
+                    "publisher": "ICON plc (finanznachrichten.de 게재)",
+                    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                    "date": "2026-10-27",
+                    "quote": "In quarter three 2026, gross bookings were $3,789 million, an increase of 26.9% on quarter three 2025, with cancellations of $639 million. This resulted in net business wins of $3,150 million and a book-to-bill of 1.56x. Backlog as at September 30, 2026 was $24.5 billion.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "AI 기반 디지털 플랫폼 — 임상시험의 생산성·예측 가능성·속도를 높인다는 자체 서비스",
+            "kind": "service",
+            "stage": "매출 발생 중",
+            "since": "",
+            "basis": [
+              {
+                "id": "d7",
+                "statement": "최고경영자는 고객 상당수가 이 플랫폼 때문에 ICON 을 고른다고 말했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "ICON Reports Third Quarter 2026 Results",
+                    "publisher": "ICON plc (finanznachrichten.de 게재)",
+                    "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                    "date": "2026-10-27",
+                    "quote": "I am particularly pleased that our AI-enabled digital platform continues to resonate with customers, many of whom choose ICON because of its impact on productivity, predictability and speed.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것은 신제품이 아니라 새로 따낸 계약이다. 3분기 순수주가 3,150백만 달러, 북투빌 1.56배로 늘면서 수주잔고가 24.5십억 달러까지 쌓였다. 이익 쪽에서는 사업 구성 개선과 비용 통제로 조정 EBITDA 가 전 분기보다 3% 늘었다. 기대 성장은 회사 가이던스 기준 올해 매출 8,100~8,200백만 달러, 조정 희석 EPS 10.35~10.65달러다. 고객들이 선택 이유로 꼽는다는 AI 기반 디지털 플랫폼이 더해지지만 그 매출·이익 기여를 보여 주는 숫자는 확인되지 않았다. 따낸 수주가 실제 매출로 바뀌는지가 관건으로, 3분기 매출은 아직 1년 전보다 2.9% 줄었고 취소도 639백만 달러 있었다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "3분기(2026-09-30) 영업이익 전년비 +189.2% · 순이익 +143% · 매출은 -2.9% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 영업이익 전년비 +189.2%/-40.3%/-23.5%/-37.1% — 네 분기가 모두 플러스는 아니다. 3년 추세·ROE 는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "충족",
+            "evidence": "3분기 순수주 3,150백만 달러·수주잔고 24.5십억 달러 + AI 기반 디지털 플랫폼 · 참고로 52주 고점 근처"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.62배로 기준 0.7 이하를 넘었다 · 오늘 거래대금은 20일 평균의 4.6배(상승일) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1개월 1.49% · 3개월 3.2% · 6개월 3.74% · 기준 상위 20% · 진단·연구 업종 순위 1위"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨강 · 빚내서 산 주식이 1년 전보다 +31.4%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "매출이 1년 전보다 2.9% 줄어 수주 증가가 아직 매출로 이어지지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Reports Third Quarter 2026 Results",
+                "publisher": "ICON plc (finanznachrichten.de 게재)",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                "date": "2026-10-27",
+                "quote": "Revenue for the third quarter was $2,024.8 million. This represents a decrease of 2.9% on quarter three 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "조정 기준 3분기 이익과 매출이 함께 떨어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Q3 Non-GAAP Earnings, Revenue Fall; Lifts 2026 Guidance",
+                "publisher": "MT Newswires (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/healthcare/articles/icon-q3-non-gaap-earnings-212258927.html",
+                "date": "2026-10-27",
+                "quote": "ICON Q3 Non-GAAP Earnings, Revenue Fall; Lifts 2026 Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "9월 말 순부채가 2.6십억 달러로, 자사주 매입과 함께 빚 부담이 남아 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON Reports Third Quarter 2026 Results",
+                "publisher": "ICON plc (finanznachrichten.de 게재)",
+                "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69952489-icon-plc-icon-reports-third-quarter-2026-results-004.htm",
+                "date": "2026-10-27",
+                "quote": "Net debt as at September 30, 2026 was $2.6 billion.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "수주 기록과 자사주 매입에도 지금 주가가 비싸다는 평가가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ICON (ICLR) Could Be 15% Overvalued After Record Wins And Fresh Buyback",
+                "publisher": "Simply Wall St. (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/icon-iclr-could-15-overvalued-071140953.html",
+                "date": "2026-10-29",
+                "quote": "ICON (ICLR) Could Be 15% Overvalued After Record Wins And Fresh Buyback",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출이 제약사의 임상 개발 예산에 달려 있어 고객이 과제를 줄이면 바로 영향을 받는다.",
+          "따낸 임상시험은 중간에 취소될 수 있어 총수주가 그대로 매출로 남지 않는다.",
+          "수주잔고가 매출로 바뀌는 데 시간이 걸려 수주 증가와 매출 반등 사이에 시차가 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 52.5% · 기준 30% 이상"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주(40봉) · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 0.95배(1 미만이면 폭이 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 11.8% · 하루 변동폭 5.09%의 2.3배 · 선행 상승 52.5%의 절반 아래"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 215.48 · 20일선 176.13 · 50일선 171.22 · 150일선 150.95"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.62배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "2026-10-21 돌파봉 거래량이 20일 평균의 1.26배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "2026-10-21 에 피벗 177.67 을 넘었고 현재가는 그보다 21.28%(4.18 하루 변동폭) 위"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.47% · 하루 변동폭 5.09% 안"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.64 하루 변동폭 · 기준 2 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨강 — 10일선이 20일선 아래 7일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "9월 초부터 10월 중순까지 8주(40봉) 동안 좁은 구간에 머물렀다. 그 구간의 저점은 156.7 이고 고점 대비 깊이는 11.8%로 하루 변동폭 5.09%의 2.3배다. 다만 저점이 높아진 횟수가 0회이고 진폭은 0.95배로 거의 줄지 않았다.",
+          "volume": "횡보 구간이던 10월 16~20일 거래량은 66.8만~93.6만 주였다. 10월 28일에는 394.7만 주로 크게 늘었고 다음 날도 179.5만 주였다. 그 결과 최근 5일 거래량이 20일 평균의 1.62배로 오히려 늘어난 상태다.",
+          "position": "현재가 215.48 은 피벗 177.67 보다 21.28% 위이고, 하루 변동폭으로 재면 4.18배 떨어져 있다. 예비 손절 169.72 도 현재가보다 한참 아래라 지금 가격에는 맞지 않는 값이다. 10일선 기준으로도 2.64 하루 변동폭만큼 떠 있다.",
+          "maStack": "종가 215.48 이 20일선 176.13, 50일선 171.22, 150일선 150.95 를 모두 위에서 지나고 있다. 20일선 기울기는 +0.37%로 올라가는 중이고 50일선과의 거리는 25.85%다.",
+          "note": "그림에서도 8주 횡보 뒤 10월 28일에 긴 양봉과 함께 거래량 막대가 한 번 크게 솟는 모습이 보인다. 그림과 숫자가 일치한다."
+        },
+        "entryChecklist": [
+          "시장 판정이 빨간불에서 벗어나 10일선이 20일선 위로 올라서는지",
+          "현재가 215.48 이 피벗 177.67 보다 21.28% 높은 상태에서, 2주 이상 새로 쉬는 구간이 생겨 새 피벗이 만들어지는지",
+          "10일선 위 2.64 하루 변동폭인 이격이 2 하루 변동폭 이하로 좁아지는지",
+          "최근 5일 거래량이 20일 평균의 1.62배에서 0.7배 이하로 줄어드는지",
+          "다음 분기(2026-12-31 결산)에 매출이 전년비 -3.9% 추정을 넘어 돌아서는지"
+        ],
+        "earningsRisk": "3분기 실적은 2026년 10월 27일에 이미 발표됐고, 확정된 실적 발표 일정 없음(달력 기준). 다음 결산은 2026년 12월 31일 분기로, 발표일이 잡히면 그 전에 들어가지 않는 것이 규칙이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 claim의 숫자·날짜가 quote와 정확히 일치 (3,150백만 달러, 1.56배, 24.5십억 달러, 2,024.8백만 달러, 2.9%, 639백만 달러 등)",
+            "단위 환산 정확 (백만=million, 십억=billion)",
+            "모든 증권사 목표주가 조정 내용 확인 (도이체방크 200→250, 트루이스트 209→268, UBS 195→236)",
+            "출처의 title·date·quote가 모두 statement를 뒷받침",
+            "서술문(lead·newsNarrative·financialsNarrative·nNarrative)의 모든 숫자가 유지된 claim에서만 나옴",
+            "AI 플랫폼 주장은 CEO 직접 인용으로 명확히 근거됨"
+          ]
+        },
+        "consensus": {
+          "saleCy": -1.36,
+          "saleNy": 3.39,
+          "epsCy": -15.7,
+          "epsNy": 11.41,
+          "cyTrend": -0.14,
+          "nyTrend": -0.26
+        },
+        "researchedOn": "2026-10-30",
+        "session": "2026-10-29",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "TSLA",
       "nameKo": "테슬라",
       "sector": "Consumer Cyclical",
@@ -11531,5 +12753,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-28T03:54:29.223Z"
+  "updated": "2026-10-30T01:12:15.015Z"
 };
