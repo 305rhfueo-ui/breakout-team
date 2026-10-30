@@ -1,5 +1,5 @@
 'use strict';
-// 10팀 연준팀 (2026-10-29) — 올리다가 처음 내림 감지 · 월말 10개월선 · 경보 단계 · 알림 · SEP 표 읽기 · 숫자 대조
+// 10팀 윤슬(연준) (2026-10-29) — 올리다가 처음 내림 감지 · 월말 10개월선 · 경보 단계 · 알림 · SEP 표 읽기 · 숫자 대조
 //   node tests/lib/fed.test.js
 const assert = require('assert');
 const fs = require('fs');
@@ -67,18 +67,36 @@ ok('SEP 표 1 — 연도·중간값·지난번 중간값, 각주 번호·빈 칸
   assert.deepStrictEqual(s.rows.core.now.slice(0, 4), [3.4, 2.5, 2.2, 2.0]);
   assert.deepStrictEqual(s.rows.pce.now[0], 3.7);
   assert.deepStrictEqual(s.rows.unemp.prev[0], 4.3);
-  assert.match(F.sepLines(s)[0], /기준금리 2026 3\.8→4\.1% · 2027 3\.6→4\.1%/);
+  assert.match(F.sepTable(s), /^2026 {5}2027 {5}2028/);
+  assert.match(F.sepTable(s), /\n4\.1\(3\.8\) 4\.1\(3\.6\) 3\.9\(3\.4\) 기준금리$/);
   assert.strictEqual(F.parseSep('<html>바뀐 페이지</html>'), null);
   assert.match(F.parseStatement(fx('fed-stmt-20260916.html')), /raise the target range[\s\S]*Inflation remains elevated/);
 });
 
-ok('SEP 해석 숫자 대조 — 표·성명서에 없는 숫자가 든 문장은 지운다', () => {
+ok('SEP 자료 글 — 표 1·점도표·리스크 판단은 넣고, 확산지수 이력·표 2 는 뺀다', () => {
+  const d = F.sepDigest(fx('fed-sep-20260916.html'));
+  assert.match(d, /^Federal funds rate \| 4\.1 \| 4\.1 \| 3\.9 \| 3\.6 \| 3\.2 \|/m);
+  assert.match(d, /^4\.375 \| 4 \| 8 \| · \| · \| ·$/m, '점도표');
+  assert.match(d, /Risks to GDP growth[\s\S]*?^June projections \| 5 \| 10 \| 3$/m, '리스크 판단 지난번');
+  assert.ok(!/October 2007|1\.6 to 4\.4|^Note:/m.test(d), '확산지수·표 2·각주 없음');
+  assert.strictEqual(F.sepDigest('<html>바뀐 페이지</html>'), null);
+});
+
+ok('SEP 해석 숫자 대조 — 자료에 없는 숫자가 든 문장은 지운다', () => {
+  const corpus = [F.sepDigest(fx('fed-sep-20260916.html')), F.parseStatement(fx('fed-stmt-20260916.html'))].join('\n');
+  const a = F.cleanSep({ conclusion: '금리 경로를 높였습니다.', summary: '"높게 오래"',
+    points: [{ title: '금리가 높아졌습니다.', body: '2027년 4.375%를 찍은 위원이 8명입니다. 5.1%까지 본 위원도 있습니다.' }, { title: '9.9%로 내려옵니다.', body: '없는 숫자' }] }, corpus);
+  assert.deepStrictEqual(a.points, [{ title: '금리가 높아졌습니다.', body: '2027년 4.375%를 찍은 위원이 8명입니다.' }], '제목이 지워진 포인트는 통째로 뺀다');
+  assert.strictEqual(F.cleanSep({ conclusion: '', points: [] }, ''), null);
+});
+
+ok('SEP 텔레그램 — 굵은 결론·고정폭 표·핵심 포인트·한 줄 요약, AI 글은 HTML 이스케이프', () => {
   const s = F.parseSep(fx('fed-sep-20260916.html'));
-  const a = F.cleanSep({ headline: '금리 경로를 높였다.', growth: '성장률을 2026년 2.2→2.3%로 올렸다. 2.9%까지 본다.', labor: '실업률 4.3→4.1%.', inflation: '물가 3.7%.', rates: '4.1%.', tilt: 'hawkish', meaning: '높은 금리가 오래 간다.' },
-    [F.sepText(s), F.parseStatement(fx('fed-stmt-20260916.html'))].join('\n'));
-  assert.strictEqual(a.growth, '성장률을 2026년 2.2→2.3%로 올렸다.');
-  assert.strictEqual(a.labor, '실업률 4.3→4.1%.');
-  assert.strictEqual(F.cleanSep({ headline: '', tilt: 'x' }, ''), null);
+  const m = F.sepMessage('2026-09-16', s, { conclusion: '물가 <끈질김> & 금리', points: [{ title: 'T1', body: 'B1' }], summary: '"S"' });
+  assert.match(m, /<b>결론: 물가 &lt;끈질김&gt; &amp; 금리<\/b>/);
+  assert.match(m, /괄호는 6월 전망\)\n<pre>2026 [\s\S]*기준금리<\/pre>/);
+  assert.match(m, /<b>핵심 포인트<\/b>\n• <b>T1<\/b> B1\n\n한 줄로 요약하면 "S"\n\n판단 보조이며 매매 지시가 아닙니다/);
+  assert.match(F.sepMessage('2026-09-16', s, null), /\(해석 없음 — 표만 보냅니다\)[\s\S]*<pre>/);
 });
 
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);

@@ -82,7 +82,7 @@ paper.html               서준의 모의투자 일지 (누적 수익률 곡선 
 | 장중 시세·분봉 (6팀) | 한투 KIS `openapi.koreainvestment.com:9443` | **시세 전용**. 호출 간격 700ms. 점 티커는 `BRK.B→BRK/B`. 키는 `.env` |
 | 실적 발표일 (6팀) | Nasdaq `api.nasdaq.com/api/calendar/earnings?date=` | 야후 quoteSummary 는 crumb 401 |
 | 기준금리·S&P500·삼 지표·장단기 (10팀) | FRED `fred.stlouisfed.org/graph/fredgraph.csv?id=` (키 없음) | DFEDTARU 는 결정 다음 날 날짜로 바뀐다 · SP500 은 10년치만 |
-| 연준 경제전망(SEP) (10팀) | `federalreserve.gov/monetarypolicy/fomcprojtablYYYYMMDD.htm` 표 1 + 성명서 `monetaryYYYYMMDDa.htm` | 발표일은 FRED FEDTARMDLR 마지막 날짜로 안다 |
+| 연준 경제전망(SEP) (10팀) | `federalreserve.gov/monetarypolicy/fomcprojtablYYYYMMDD.htm` 표 1 + 성명서 `monetaryYYYYMMDDa.htm` | 표 1 ~ 그림 5(점도표·분포·위원 리스크 판단) 전부. 발표일은 FRED FEDTARMDLR 마지막 날짜로 안다 |
 
 ## 알려진 함정 (다시 밟지 말 것)
 
@@ -155,7 +155,8 @@ paper.html               서준의 모의투자 일지 (누적 수익률 곡선 
   ① 기준금리가 **올리다가 처음 내리면** 🟠 알리고 36개월 감시 → 그동안 **S&P500 월말 종가 < 10개월 이동평균**이면 🔴 장기 보유분 비중 축소(현금·단기 국채) 검토, 위로 오면 🟢.
   근거(FRED, 1958~2026 월간·배당 3% 근사·세금 제외): 계속 보유 연 10.1%·최대 -51% / 첫 인하 뒤 36개월만 10개월선 11.4%·-26%. 첫 인하에 **바로 매도는 18번 중 7번만** 보유보다 나았다 — 그렇게 바꾸지 마라.
   **삼 법칙은 매도 조건이 아니다**(2024-09 첫 인하 때 0.50 이었는데 침체 없음) — 장단기 금리차와 함께 참고로만. 10개월은 Faber 의 값 — 결과 보고 고쳐 맞추지 마라.
-  ② SEP(3·6·9·12월): FEDTARMDLR 날짜가 바뀌면 표 1 중간값(이번·지난번)과 성명서를 코드가 받아 Claude(opus, 도구 없음)가 해석, 표·성명서에 없는 숫자가 든 문장은 number-guard 가 지운다.
+  ② SEP(3·6·9·12월): FEDTARMDLR 날짜가 바뀌면 SEP 페이지(표 1 · 점도표 · 분포 · 위원 불확실성·리스크 판단 — 확산지수 이력·표 2 는 뺌)와 성명서를 코드가 받아 Claude(opus, 도구 없음)가 해석, 자료에 없는 숫자가 든 문장은 number-guard 가 지운다.
+  형식(2026-10-30 사용자가 claude.ai 답을 보고 고름 — 바꾸지 마라): **굵은 결론** → 중간값 표(괄호 지난번, 표는 코드가 만듦) → 핵심 포인트 3~5개(굵은 한 줄 + 숫자 근거) → "한 줄로 요약하면 …". 텔레그램은 HTML(<b>·<pre>), 실패하면 일반 글. 해석 실패 뒤 다시: `node scripts/fed-watch.js --sep`.
   상태는 `state/fed/state.json`(바뀐 것만 알림) · SEP 는 `state/fed/sep-날짜.json` · 화면 `dashboard/data/fed.js`(10팀 카드·보드 한 줄) — 그 파일들만 커밋·push. 서준 시장 신호등(새로 살까)과 다른 층(장기 보유분)이다. 판단 보조, 매매 지시 아님.
 - **팝업 SNS 반응**(`scripts/sns-watch.js` · `scripts/data/reddit.js`, 2026-10-28): 아침 morning.sh 맨 끝. **레딧에는 접속하지 않는다** —
   공개 보관소 arctic-shift 에서 주식 게시판 14곳의 새 글을 받아 쌓고(하루 20번 안팎, 3~5초 간격) 티커가 나온 글($TSLA·대문자 TSLA)을 골라

@@ -585,7 +585,7 @@ function briefing(id){
     const f=window.FED_DATA; if(!f)return '';
     P.push(esc(f.ko||''));
     const a=f.sep&&f.sep.analysis;
-    if(a)P.push(`가장 최근 경제전망(${esc(f.sep.date)}): ${esc(a.headline)}`);
+    if(a&&a.conclusion)P.push(`가장 최근 경제전망(${esc(f.sep.date)}): ${esc(a.conclusion)}`);
     return P.join(' ');
   }
   if(id==='t9'){
@@ -1170,11 +1170,13 @@ function fedSec(){
       ['장단기 금리차 10년-3개월(참고)',f.curve?`${n(f.curve.value,2)}%p (${esc(f.curve.date)})`:'—']])}
     <div class="ko" style="color:var(--dim);font-size:13px">규칙: 올리다가 처음 내리면 36개월 감시 → 그동안 S&P500 월말 종가가 10개월선 아래면 장기 보유분 비중 축소(현금·단기 국채) 검토, 위로 돌아오면 다시 삼. 판단 보조이며 매매 지시가 아니다.</div></div>`;
   if(sp){
-    const nm={ffr:'기준금리',pce:'물가(PCE)',core:'근원 물가',gdp:'성장률',unemp:'실업률'},y=sp.years||[];
-    h+=`<div class="sec"><h4>연준 경제전망(SEP) ${esc(sp.date)}</h4>${a?`<div class="ko">${esc(a.headline)}</div>`:''}
-      ${rows(['ffr','pce','core','gdp','unemp'].filter(k=>sp.rows&&sp.rows[k]).map(k=>{const v=sp.rows[k];
-        return [`${nm[k]} 중간값`,[0,1].filter(i=>y[i]).map(i=>`${esc(y[i])} ${v.prev&&v.prev[i]!=null?n(v.prev[i],1)+'→':''}${v.now[i]!=null?n(v.now[i],1):'—'}%`).join(' · ')];}))}
-      ${a?rows([['성장',esc(a.growth)],['고용',esc(a.labor)],['물가',esc(a.inflation)],['금리',esc(a.rates)],['나에게',esc(a.meaning)]]):''}
+    const nm=[['gdp','실질 GDP'],['unemp','실업률'],['pce','PCE 물가'],['core','근원 PCE'],['ffr','기준금리']],y=sp.years||[],r=sp.rows||{};
+    const pv={March:'3월',June:'6월',September:'9월',December:'12월'}[r.ffr&&r.ffr.prevLabel]||'지난번';
+    const c=(v,i)=>(v.now[i]==null?'—':n(v.now[i],1))+(v.prev&&v.prev[i]!=null?` <span class="dim">(${n(v.prev[i],1)})</span>`:'');
+    h+=`<div class="sec"><h4>연준 경제전망(SEP) ${esc(sp.date)}</h4>${a&&a.conclusion?`<div class="ko"><b>결론: ${esc(a.conclusion)}</b></div>`:''}
+      <h5>중간값 전망 <span class="dim">(%, 괄호는 ${pv} 전망)</span></h5><div style="overflow-x:auto"><table class="lt"><thead><tr><th>항목</th>${y.map(x=>`<th>${/^Longer/i.test(x)?'장기':esc(x)}</th>`).join('')}</tr></thead><tbody>
+      ${nm.filter(([k])=>r[k]).map(([k,l])=>`<tr><td>${l}</td>${y.map((_,i)=>`<td>${c(r[k],i)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+      ${a&&a.points?`<h5>핵심 포인트</h5><ul>${a.points.map(p=>`<li><b>${esc(p.title)}</b> ${esc(p.body)}</li>`).join('')}</ul>${a.summary?`<div class="ko">한 줄로 요약하면 ${esc(a.summary)}</div>`:''}`:''}
       <div class="ko" style="font-size:13px"><a href="${esc(sp.url)}" target="_blank" rel="noopener">연준 원문 표 →</a></div></div>`;
   }
   return h;

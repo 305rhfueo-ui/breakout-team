@@ -184,15 +184,15 @@ console.log('\n[10팀] 윤슬 — 금리 전환 감시 · 연준 경제전망 (2
   const st = F.evaluate({ target, sp, sahm: [['2026-09-01', 0]], curve: [['2026-10-28', 0.87]], now: '2026-10-29' }); st.ko = F.koLine(st);
   const sep = F.parseSep(fs.readFileSync(path.join(__dirname, '..', 'fixtures', 'fed-sep-20260916.html'), 'utf8'));
   st.sep = { date: '2026-09-16', url: 'https://www.federalreserve.gov/x.htm', years: sep.years, rows: sep.rows,
-    analysis: { headline: 'FEDHEAD 매파', growth: 'FEDGROW', labor: 'FEDLAB', inflation: 'FEDINF', rates: 'FEDRATE', tilt: 'hawkish', meaning: 'FEDMEAN' } };
+    analysis: { conclusion: 'FEDHEAD 매파', points: [{ title: 'FEDPT1', body: 'FEDBODY1' }, { title: 'FEDPT2', body: 'FEDBODY2' }], summary: 'FEDSUM' } };
   const cf = loadRoom(`window.FED_DATA = ${JSON.stringify(st)};`);
   cf.cards(); cf.board();
   const card = cf.document.getElementById('team').innerHTML, b = cf.bodyFor('t10'), br = cf.briefing('t10'), bd = cf.document.getElementById('board').innerHTML;
   ok('카드·보드에 경보 단계, 탭에 규칙·금리·10개월선·SEP 표·해석, 브리핑', () => {
     for (const k of ['윤슬', '🔴 비중 축소 검토', '기준금리 4.00% · 인상기']) assert.ok(card.includes(k), `카드에 없음: ${k}`);
     for (const k of ['🏦 연준 🔴 비중 축소 검토', '장기 보유분 비중 축소 검토']) assert.ok(bd.includes(k), `보드에 없음: ${k} — ${bd.slice(0, 300)}`);
-    for (const k of ['🏦 금리 전환 감시', '2024-09-19 (그 앞 인상 +5.25%p)', '2025-12 5 &lt; 10', '매도 조건 아님', '연준 경제전망(SEP) 2026-09-16', 'FEDHEAD 매파',
-      '기준금리 중간값', '2026 3.8→4.1%', 'FEDGROW', 'FEDMEAN', 'href="https://www.federalreserve.gov/x.htm"', '매매 지시가 아니다']) assert.ok(b.includes(k), `없음: ${k}`);
+    for (const k of ['🏦 금리 전환 감시', '2024-09-19 (그 앞 인상 +5.25%p)', '2025-12 5 &lt; 10', '매도 조건 아님', '연준 경제전망(SEP) 2026-09-16', '<b>결론: FEDHEAD 매파</b>',
+      '괄호는 6월 전망', '<th>장기</th>', '<td>기준금리</td><td>4.1 <span class="dim">(3.8)</span></td>', '<b>FEDPT2</b> FEDBODY2', '한 줄로 요약하면 FEDSUM', 'href="https://www.federalreserve.gov/x.htm"', '매매 지시가 아니다']) assert.ok(b.includes(k), `없음: ${k}`);
     assert.ok(br.includes('FEDHEAD 매파'));
     assert.ok(!cf.bodyFor('t1').includes('금리 전환 감시'), '1팀 탭에 중복으로 넣지 않는다');
   });
