@@ -15,6 +15,7 @@ const { etParts } = require('./paper-trader');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const run = (args) => spawnSync(process.execPath, [path.join(__dirname, 'paper-trader.js'), ...args], { stdio: 'inherit', cwd: paths.root });
+const runCC = (args) => spawnSync(process.execPath, [path.join(__dirname, 'chartcheck-watch.js'), ...args], { stdio: 'inherit', cwd: paths.root });
 
 (async () => {
   loadEnv();
@@ -29,8 +30,10 @@ const run = (args) => spawnSync(process.execPath, [path.join(__dirname, 'paper-t
   if (start.hm < '0930') {
     say('T6', '개장 전 — 관심 종목의 거래량 프로필을 미리 받아 둡니다');
     run(['--prep']);
+    runCC(['--prep']);
   }
-  let moversSpawned = false;
+  let moversSpawned = false, ccClosed = false;
+  const ccCloseHm = cal.EARLY_CLOSE && cal.EARLY_CLOSE.has(session) ? '1330' : '1630';   // 장 마감 30분 뒤
   for (;;) {
     const et = etParts(Date.now());
     if (et.date !== session || et.hm > '1700') break;
@@ -39,8 +42,11 @@ const run = (args) => spawnSync(process.execPath, [path.join(__dirname, 'paper-t
     if (!moversSpawned && et.hm >= '1030' && et.hm < '1130') { moversSpawned = true; spawn(process.execPath, [path.join(__dirname, 'open-movers.js')], { stdio: 'inherit', cwd: paths.root }); }
     if (et.hm >= '0935') {
       run(pass);
+      // 실장 차트 확인 종목 (2026-10-30 사용자) — 개장 2시간 안 '선 돌파 + 거래량' 알림 · 장 마감 30분 뒤 요약. 창 판정은 그 스크립트가 한다
+      if (et.hm < '1140') runCC(['--intraday']);
+      if (!ccClosed && et.hm >= ccCloseHm) ccClosed = runCC(['--close']).status === 0;
       const meta = readJson(path.join(paths.paperDir, 'meta.json'), {});
-      if (meta.lastEod === session) { say('T6', '장 마감 처리 완료 — 밤 루프를 끝냅니다'); break; }
+      if (meta.lastEod === session && ccClosed) { say('T6', '장 마감 처리 · 차트 확인 요약 완료 — 밤 루프를 끝냅니다'); break; }
     }
     // 다음 5분 경계 + 20초 (봉이 완성되고 시세 서버에 올라올 시간)
     const now = Date.now();
