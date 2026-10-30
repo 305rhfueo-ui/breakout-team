@@ -51,7 +51,9 @@ const T2 = ctx.window.TEAM2_DATA, T4 = ctx.window.TEAM4_DATA;
 // 2026-10-06: 2팀 종목 분석은 목록 표의 티커를 누르면 뜨는 팝업(openTicker → #mbox2)으로 옮겼다.
 const popup = (t) => { ctx.openTicker(t); return ctx.document.getElementById('mbox2').innerHTML; };
 const doneAll = [...((T2 && T2.picks) || []), ...((T2 && T2.listPicks) || [])].filter((p) => p.research && p.research.status === 'done');
-const h2 = doneAll.map((p) => popup(p.ticker)).join('\n'), h4 = ctx.bodyFor('t4');
+const h2 = doneAll.map((p) => popup(p.ticker)).join('\n');
+// 2026-10-30: 4팀(재민)도 탭은 종목 표만, 촉매 근거·출처는 티커 팝업으로 옮겼다
+const h4 = ((T4 && T4.items) || []).filter((i) => i.catalyst && i.catalyst.status === 'done').map((i) => popup(i.ticker)).join('\n');
 /* ⚠️ 렌더는 esc() 로 & < > " 를 이스케이프한다(주입 방어). 원문 그대로 찾으면 오탐이 난다.
    2026-08-14: VSXY 회사명 "Victoria's Secret & Co." 의 & 때문에 멀쩡한 렌더가 실패로 잡혔다.
    ⚠️ ctx.esc 를 쓰면 안 된다 — index.html 의 esc 는 `const` 라 VM 전역 속성이 되지 않는다
@@ -323,7 +325,7 @@ else {
 if (!done4.length) skipIt('4팀 company 렌더', '4팀 촉매 데이터 없음');
 else ok('4팀 company(회사 설명)가 렌더된다', () => {
   done4[0].catalyst.company = SENT + 'C';
-  assert.ok(ctx.bodyFor('t4').includes(SENT + 'C'), '4팀 회사 설명이 화면에 없다');
+  assert.ok(popup(done4[0].ticker).includes(SENT + 'C'), '4팀 회사 설명이 팝업에 없다');
 });
 /* 1팀 뉴스도 같은 병을 앓고 있었다 (2026-08-14).
    · index.html 이 digest.slice(0,4) 라 7건 중 4건만 그렸다
@@ -367,6 +369,21 @@ ok('표 열 렌더러가 행 데이터를 읽지 않고 상수 배지를 뿌리�
   }
   assert.strictEqual(bad.length, 0, `행 데이터를 안 읽는 열: ${bad.join(' | ')}`);
 });
+
+console.log('\n[재민 탭] 도윤처럼 종목 표 — 티커는 한 번, 분석 전문은 팝업 (2026-10-30)');
+if (!done4.length) skipIt('재민 탭 표', '4팀 촉매 데이터 없음');
+else {
+  const b = ctx.bodyFor('t4'), br = ctx.briefing('t4');
+  ok('촉매 분류 표에 종목마다 티커가 딱 한 번(누르면 팝업), 근거 목록은 탭에 없다', () => {
+    for (const i of done4) assert.strictEqual(b.split(`data-tk="${E(i.ticker)}"`).length - 1, 1, `${i.ticker} 가 한 번이 아니다`);
+    assert.ok(b.includes('<th>분류</th><th>거래량</th><th>한 줄</th>'));
+    assert.ok(!b.includes('★ 어닝 서프라이즈 · 산업 돌파</h4>'), '★ 칸은 표의 ★ 표시로 합쳤다');
+    const url = done4.flatMap((i) => (i.catalyst.claims || []).flatMap((c) => (c.sources || []).map((x) => x && x.url))).find(Boolean);
+    if (url) assert.ok(!b.includes(E(url)), '출처 링크는 팝업에만');
+  });
+  const hl = ((T4.llm && T4.llm.highlights) || []);
+  if (hl.length > 1) ok('브리핑은 종목 이름을 늘어놓지 않고 개수만', () => { assert.ok(br.includes(`<b>${hl.length}개</b>`)); assert.ok(!br.includes(hl.map((x) => x.ticker).join(', '))); });
+}
 
 console.log('\n[재민 팝업] 도윤 목록에 없는 재민 종목도 체크표·KIS·전망치·촉매로 팝업이 채워진다 (2026-10-22)');
 {
