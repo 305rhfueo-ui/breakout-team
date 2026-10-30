@@ -2,6 +2,12 @@
  "ticker": "PDS",
  "news": [
   {
+   "title": "Precision Drilling: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/precision-drilling-3-key-takeaways-long-term-investors",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
    "title": "Precision Drilling (PDS) Q3 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/precision-drilling-pds-q3-2026-earnings-call-transcript",
    "date": "2026-10-28",
@@ -44,10 +50,32 @@
    "publisher": "MarketBeat"
   },
   {
-   "title": "Precision Drilling (PDS) Reports Q2 Loss, Beats Revenue Estimates",
-   "url": "https://www.nasdaq.com/articles/precision-drilling-pds-reports-q2-loss-beats-revenue-estimates",
-   "date": "2026-07-29",
-   "publisher": "Zacks"
+   "title": "Precision Drilling (TSX:PD) Stock Can Q3 Earnings Sustain Its Rally",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/precision-drilling-tsx-pd-stock-082211579.html",
+   "date": "2026-10-29",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Precision Drilling Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/energy/articles/precision-drilling-q3-earnings-call-070425461.html",
+   "date": "2026-10-29",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Precision Drilling Corp (TSX:PD) (Q3 2026) Earnings Call Highlights: Revenue Jumps 15% as Net ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/precision-drilling-corp-tsx-pd-050621111.html",
+   "date": "2026-10-29",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Precision Drilling: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/precision-drilling-3-key-takeaways-024204480.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
   },
   {
    "title": "Precision Drilling (PDS) Q3 2026 Earnings Call Transcript",
@@ -83,34 +111,6 @@
    "date": "2026-10-28",
    "publisher": "MT Newswires",
    "via": "Yahoo"
-  },
-  {
-   "title": "Precision Drilling Announces 2026 Third Quarter Unaudited Financial Statements",
-   "url": "https://finance.yahoo.com/energy/articles/precision-drilling-announces-2026-third-224200681.html",
-   "date": "2026-10-27",
-   "publisher": "GlobeNewswire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Noble Corporation PLC (NE) Reports Q3 Loss, Tops Revenue Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/noble-corporation-plc-ne-reports-212502035.html",
-   "date": "2026-10-26",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Precision Drilling Shares Rise After National Bank Financial Upgrade",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/precision-drilling-shares-rise-national-190622065.html",
-   "date": "2026-10-26",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Correction: National Bank Financial Upgrades Precision Drilling at Outperform From Sector Perform",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/correction-national-bank-financial-upgrades-110944119.html",
-   "date": "2026-10-26",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
   }
  ],
  "filings": [],
@@ -121,12 +121,12 @@
  },
  "site": {
   "targetStatus": false,
-  "saleCy": 11.24,
-  "saleNy": 5.15,
-  "epsCy": 27.64,
-  "epsNy": 83.87,
-  "cyTrend": -2.55,
-  "nyTrend": -1.46,
+  "saleCy": 12,
+  "saleNy": 5.59,
+  "epsCy": 43.02,
+  "epsNy": 72.7,
+  "cyTrend": 9.2,
+  "nyTrend": 3.7,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

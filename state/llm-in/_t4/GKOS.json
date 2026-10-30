@@ -1,0 +1,264 @@
+{
+ "ticker": "GKOS",
+ "news": [
+  {
+   "title": "Glaukos Sets $1 Billion 2027 Sales Goal: Rapid Earnings Reaction",
+   "url": "https://www.nasdaq.com/articles/glaukos-sets-1-billion-2027-sales-goal-rapid-earnings-reaction",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market",
+   "url": "https://www.nasdaq.com/articles/glaukos-swings-profit-q3-lifts-full-year-2026-guidance-shares-surge-pre-market",
+   "date": "2026-10-29",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Glaukos (GKOS) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/glaukos-gkos-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Glaukos Corporation Reports Record Q3 2026 Net Sales of $211.0 Million and Raises Full-Year Guidance",
+   "url": "https://www.nasdaq.com/articles/glaukos-corporation-reports-record-q3-2026-net-sales-2110-million-and-raises-full-year",
+   "date": "2026-10-29",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Glaukos Q3 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/glaukos-q3-earnings-call-highlights",
+   "date": "2026-10-28",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Glaukos (GKOS) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/glaukos-gkos-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Glaukos (GKOS) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-glaukos-gkos-q3-earnings-look-key-metrics",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Glaukos (GKOS) Earnings, Outlook ‘Brighter’; Shares Soar to All-Time High",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/glaukos-gkos-earnings-outlook-brighter-015824688.html",
+   "date": "2026-10-30",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Glaukos (GKOS) Stock Charges Higher On Q3 Earnings Surprise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/glaukos-gkos-stock-charges-higher-001548807.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Glaukos Sets $1 Billion 2027 Sales Goal: Rapid Earnings Reaction",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/glaukos-sets-1-billion-2027-195013669.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Sector Update: Healthcare",
+   "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-192646912.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Glaukos Shares Rise After Q3 Beat, Guidance Raised",
+   "url": "https://finance.yahoo.com/healthcare/articles/glaukos-shares-rise-q3-beat-190341171.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Top Midday Gainers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-gainers-173032568.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Glaukos Stock Is Surging 30% and Headed for Record Close After Earnings",
+   "url": "https://finance.yahoo.com/m/09763b46-4599-30fb-ada1-87516e9abbea/why-glaukos-stock-is-surging.html",
+   "date": "2026-10-29",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Glaukos Soars 26% on “Exceptional” Quarter and $1 Billion 2027 Sales Outlook",
+   "url": "https://finance.yahoo.com/healthcare/articles/glaukos-soars-26-exceptional-quarter-141824901.html",
+   "date": "2026-10-29",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526436147/gkos-20261028.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119244826000002/gkos-20260729.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526323729/gkos-20260729.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526255758/gkos-20260528.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526202466/d135093d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526191553/gkos-20260429.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001192448&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 211030000,
+    "profit": 828000,
+    "netIncome": 2018000,
+    "margin": 0.4,
+    "yoy": {
+     "revenue": 58,
+     "profit": 105.1,
+     "netIncome": 112.4,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 185610000,
+    "profit": -17267000,
+    "netIncome": -18377000,
+    "margin": -9.3,
+    "yoy": {
+     "revenue": 49.5,
+     "profit": 23.9,
+     "netIncome": 6.5,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 150571000,
+    "profit": -19856000,
+    "netIncome": -19783000,
+    "margin": -13.2,
+    "yoy": {
+     "revenue": 41.2,
+     "profit": 4,
+     "netIncome": -9,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 143121000,
+    "profit": -139868000,
+    "netIncome": -133657000,
+    "margin": -97.7,
+    "yoy": {
+     "revenue": 35.7,
+     "profit": -387.9,
+     "netIncome": -298,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 52.21,
+  "saleNy": 30.06,
+  "epsCy": -167.17,
+  "epsNy": 25.7,
+  "cyTrend": -308.04,
+  "nyTrend": 50.21,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    49.54,
+    41.16,
+    35.66
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -9.3,
+    -13.19,
+    -97.73
+   ],
+   "updated": "2026-09-08 09:34:38"
+  }
+ }
+}

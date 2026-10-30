@@ -1,0 +1,171 @@
+{
+ "ticker": "MRVL",
+ "news": [
+  {
+   "title": "Marvell Technology (MRVL) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+   "url": "https://www.nasdaq.com/articles/marvell-technology-mrvl-sees-more-significant-dip-broader-market-some-facts-know",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Marvell Technology, Inc. (MRVL) Is a Trending Stock: Facts to Know Before Betting on It",
+   "url": "https://www.nasdaq.com/articles/marvell-technology-inc-mrvl-trending-stock-facts-know-betting-it-0",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Marvell Technology (MRVL) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-sees-more-204504625.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Not Nvidia. Not AMD. This Custom AI Chip Designer Could Outperform Both by 2030.",
+   "url": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-amd-custom-195000708.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nvidia-Backed Marvell, Lumentum Could Be Nearing a Deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-backed-marvell-lumentum-could-191329102.html",
+   "date": "2026-10-29",
+   "publisher": "Investopedia",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-22",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-25",
+   "reportDate": "2026-09-25",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-18",
+   "items": [
+    "1.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-09",
+   "reportDate": "2026-07-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526299843/d82462d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-25",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026045564/mrvl-20260625.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 47.29,
+  "saleNy": 63.35,
+  "epsCy": 48.67,
+  "epsNy": 73.57,
+  "cyTrend": 0.26,
+  "nyTrend": 8.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    36.55,
+    27.57,
+    22.08
+   ],
+   "ni": [
+    58.11,
+    -80.61,
+    97.85
+   ],
+   "opm": [
+    16.78,
+    14.04,
+    18.23
+   ],
+   "updated": "2026-09-08 07:52:55"
+  }
+ }
+}

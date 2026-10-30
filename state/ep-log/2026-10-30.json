@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "ticker": "GKOS",
+      "price": 242.47999572753906,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "CROX",
+      "price": 150.25999450683594,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "EG",
+      "price": 400.59,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FCN",
+      "price": 181.24000549316406,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "HII",
+      "price": 316.2099914550781,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "WST",
+      "price": 416.67,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "DVA",
+      "price": 193.30999755859375,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MANH",
+      "price": 240.83999633789062,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "LNG",
+      "price": 318.94000244140625,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TXT",
+      "price": 87.45999908447266,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "WEC",
+      "price": 114.62999725341797,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "TYL",
+      "price": 373.93,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BMO",
+      "price": 175.8800048828125,
+      "category": 4,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VMC",
+      "price": 280.30999755859375,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CP",
+      "price": 88.37000274658203,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FLS",
+      "price": 80.3499984741211,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "HLI",
+      "price": 139.33999633789062,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "AAMI",
+      "price": 91.31999969482422,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GATX",
+      "price": 180.47000122070312,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CHKP",
+      "price": 153.5,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "MHK",
+      "price": 129.99000549316406,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RTX",
+      "price": 199.39999389648438,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PDS",
+      "price": 107.68000030517578,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "THC",
+      "price": 270.57000732421875,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FSV",
+      "price": 144.5,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "H",
+      "price": 184.3000030517578,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "LLYVA",
+      "price": 99.08000183105469,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "JLL",
+      "price": 353.4700012207031,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "SN",
+      "price": 209.1199951171875,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "WCC",
+      "price": 366.71,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "EHC",
+      "price": 131.49000549316406,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CHDN",
+      "price": 91.16000366210938,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LLY",
+      "price": 1373.7,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "CACC",
+      "price": 575.78,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SITE",
+      "price": 110.72000122070312,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "STNG",
+      "price": 95.06999969482422,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "CNXN",
+      "price": 85.62000274658203,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "W",
+      "price": 120.12000274658203,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NEU",
+      "price": 803.07,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MRVL",
+      "price": 218.33999633789062,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CPAY",
+      "price": 397.97,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SUNC",
+      "price": 72.33999633789062,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TWLO",
+      "price": 241.89999389648438,
+      "category": 1,
+      "confidence": "medium"
+    }
+  ]
+}

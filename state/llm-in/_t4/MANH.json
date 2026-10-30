@@ -52,6 +52,13 @@
    "via": "Yahoo"
   },
   {
+   "title": "Manhattan Associates, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/manhattan-associates-inc-q3-2026-123000301.html",
+   "date": "2026-10-28",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
    "title": "Truist Adjusts Price Target on Manhattan Associates to $305 From $240, Maintains Buy Rating",
    "url": "https://finance.yahoo.com/markets/stocks/articles/truist-adjusts-price-target-manhattan-091519938.html",
    "date": "2026-10-28",
@@ -96,13 +103,6 @@
   {
    "title": "Manhattan Associates (MANH) Reports Q3 Earnings: What Key Metrics Have to Say",
    "url": "https://finance.yahoo.com/markets/stocks/articles/manhattan-associates-manh-reports-q3-213002401.html",
-   "date": "2026-10-27",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/manhattan-associates-manh-surpasses-q3-212008310.html",
    "date": "2026-10-27",
    "publisher": "Zacks",
    "via": "Yahoo"
@@ -216,12 +216,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 7.77,
-  "saleNy": 8.53,
-  "epsCy": 8.65,
-  "epsNy": 11.4,
-  "cyTrend": 0,
-  "nyTrend": -0.35,
+  "saleCy": 8.91,
+  "saleNy": 8.03,
+  "epsCy": 10.18,
+  "epsNy": 10.78,
+  "cyTrend": 1.44,
+  "nyTrend": 0.54,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

@@ -1,0 +1,733 @@
+{
+ "ticker": "FTAI",
+ "date": "2026-10-30",
+ "session": "2026-10-29",
+ "source": "list",
+ "plan": {
+  "ticker": "FTAI",
+  "name": "FTAI 에비에이션",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
+  "price": 196.00999450683594,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 202.47,
+  "stop": 191.39,
+  "distToPivotPct": -3.19,
+  "distToPivotAdr": -0.56,
+  "riskPerSharePct": 5.47,
+  "adrPct": 5.65,
+  "extensionAdr": 2.88,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 27.7,
+   "priorMovePct": 13,
+   "higherLows": 0,
+   "contraction": 1.1,
+   "closeRange10Adr": 3.8,
+   "surf10": 2.88,
+   "surf20": 2.66,
+   "slope20": -0.35,
+   "baseLow": 146.48,
+   "lastSwingLow": 146.48
+  },
+  "reasons": [
+   "✗ 선행 상승 +13%",
+   "베이스 8주",
+   "✗ 깊이 27.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.1배 · 10일 종가폭 3.8 ADR",
+   "✗ 10일선 +2.9 ADR · 20일선 +2.7 ADR",
+   "✗ 20일선 기울기 -0.35%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.20743669613192833,
+    "pct": 94.54463480613165
+   },
+   "m3": {
+    "v": -0.12025998154463377,
+    "pct": 19.341749323715057
+   },
+   "m6": {
+    "v": -0.27990774573888294,
+    "pct": 7.258791704238051
+   }
+  },
+  "ret1m": 17.15,
+  "ret3m": -12.2,
+  "ret6m": -27.2,
+  "marketCap": "20.13B",
+  "volx": 2.1,
+  "volSurgeWk": 1.78,
+  "high52": 60.93,
+  "newHigh52": false,
+  "adr": 5.65,
+  "div50": 9.39,
+  "div200": -15.36,
+  "targetStatus": false,
+  "saleCy": 55.83,
+  "saleNy": 68.93,
+  "epsCy": 25.22,
+  "epsNy": 130.38,
+  "cyTrend": -0.85,
+  "nyTrend": 6.76,
+  "est": {
+   "cyCur": 5.86,
+   "cy30": 5.91,
+   "nyCur": 13.5,
+   "ny30": 12.645
+  },
+  "fs": {
+   "sale": [
+    40.94,
+    65.45,
+    32.72
+   ],
+   "ni": [
+    -27.28,
+    49.19,
+    29.02
+   ],
+   "opm": [
+    13.71,
+    13.12,
+    17.82
+   ],
+   "updated": "2026-09-09 06:21:35"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "FTAI 에비에이션",
+  "nameEn": "FTAI AVIATION LTD",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590364&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 953085000,
+     "profit": 150713000,
+     "netIncome": 125094000,
+     "margin": 15.8,
+     "yoy": {
+      "revenue": 40.9,
+      "profit": -25.9,
+      "netIncome": -24.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 830697000,
+     "profit": 169359000,
+     "netIncome": 137899000,
+     "margin": 20.4,
+     "yoy": {
+      "revenue": 65.5,
+      "profit": 35.2,
+      "netIncome": 34.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 662028000,
+     "profit": 134115000,
+     "netIncome": 115562000,
+     "margin": 20.3,
+     "yoy": {
+      "revenue": 32.7,
+      "profit": 24.1,
+      "netIncome": 12.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 667064000,
+     "profit": 144048000,
+     "netIncome": 117718000,
+     "margin": 21.6,
+     "yoy": {
+      "revenue": 43.2,
+      "profit": 53.5,
+      "netIncome": 36.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why FTAI Aviation Stock Popped on Thursday",
+     "url": "https://www.nasdaq.com/articles/why-ftai-aviation-stock-popped-thursday",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "FTAI (FTAI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ftai-ftai-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "FTAI Aviation Ltd. Reports Strong Third Quarter 2026 Performance and Announces $500.0 Million Accelerated Share Repurchase",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-ltd-reports-strong-third-quarter-2026-performance-and-announces-5000-million",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "FTAI Aviation (FTAI) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-ftai-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FTAI Aviation Ltd. Profit Advances In Q3",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-ltd-profit-advances-q3",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Macquarie Initiates Coverage of FTAI Aviation at Outperform",
+     "url": "https://www.nasdaq.com/articles/macquarie-initiates-coverage-ftai-aviation-outperform",
+     "date": "2026-10-16",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "FTAI Buys 27 Boeing 737-700 Aircraft From WestJet",
+     "url": "https://www.nasdaq.com/articles/ftai-buys-27-boeing-737-700-aircraft-westjet",
+     "date": "2026-09-28",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "FTAI Aviation Authorizes $500 Mln Share Repurchase Program",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-authorizes-500-mln-share-repurchase-program",
+     "date": "2026-09-16",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000159036426000092/ftai-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000162828026050622/ftai-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000114036126023226/ef20075112_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000114036126017931/ef20071938_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000162828026028390/ftai-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-06",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000114036126008165/ef20067294_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-05-04",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[FTAI 에비에이션 (NAS:FTAI)] 엔진 정비를 넘어 전력 시장으로",
+     "summary": "- FTAI는 항공 엔진 MRO 시장 내 엔진 교체 및 모듈 교체 방식을 적용해 정비 비용과 시간을 단축시키면서 시장 점유율 확대. 항공 엔진 모듈 생산 확대와 4분기 발전 터빈 인도를 감안한다면 성장성 대비 저평가 구간- 매출 8.3억달러(+65.5% YoY, 이하 YoY), 조정 EBITDA 3.3억달러 (+21.4%), 순이익 1.3억달러(+49.2%), ESP 1.29달러(+48.3%)로 컨센 대비 각각 +11.7%, +1.8%, -10.3%, -10.6% 기록. 항공우주제품 매출 7.4억달 러(+103.7%)로 전체 매출 성장 견인. 1Q 항공 엔진 모듈 생산량 270대로 전년 대비 132대(+95.7%) 증가했고 올해 목표 1,050대의 26% 달성. 엔 진 MRO 시장 내 시장점유율 12%로 25년말 대비 2%p 확대- 4월 말 리볼빙 한도를 4억달러에서 20.3억달러로 증액. JP모건, MUFG, 골 드만 삭스 등 15개 대형 은행 연합 참여. 향후 항공 엔진 모듈 생산 확장, FTAI Power 개발, M&A 등에 활용할 계획",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqlqeqeizzcixgcgxecic.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "FTAI-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "이주은",
+   "date": "2026-05-04",
+   "title": "[FTAI 에비에이션 (NAS:FTAI)] 엔진 정비를 넘어 전력 시장으로",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqlqeqeizzcixgcgxecic.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Wednesday's top analyst calls: Nvidia, SpaceX, Tesla, Apple, Chevron, Micron",
+   "url": "https://www.cnbc.com/2026/09/16/wednesday-biggest-analyst-calls-like-nvidia.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's big analyst calls: Nvidia, SpaceX, Tesla, Cava, AMD, Microsoft",
+   "url": "https://www.cnbc.com/2026/07/15/wednesday-stocks-by-analyst-calls-like-spacex.html",
+   "date": "2026-07-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: FTAI Aviation, Albertsons, NextEra Energy and Interactive Brokers",
+   "url": "https://www.cnbc.com/video/2026/10/21/final-trades-ftai-aviation-albertsons-nextera-energy-interactive-brokers.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FTAI",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 42.7,
+  "pbr": 49.8,
+  "eps": 4.59,
+  "bps": 3.94,
+  "shares": 102707000,
+  "marketCapM": 20132,
+  "high52": 321.7039,
+  "high52Date": "2026-02-26",
+  "low52": 146.48,
+  "low52Date": "2026-10-23",
+  "last": 196.01,
+  "prevClose": 167.14,
+  "nameKo": "FTAI 에비에이션",
+  "nameEn": "FTAI AVIATION LTD",
+  "listedOn": "2022-04-26",
+  "exchange": "나스닥",
+  "listedShares": 102707000
+ },
+ "estimates": {
+  "ticker": "FTAI",
+  "url": "https://finance.yahoo.com/quote/FTAI/analysis/",
+  "fetchedAt": "2026-10-30",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.89,
+    "epsLow": 1.53,
+    "epsHigh": 2.46,
+    "epsYearAgo": 1.08,
+    "epsAnalysts": 9,
+    "epsGrowth": 74.6,
+    "epsCur": "USD",
+    "rev": 1120493540,
+    "revAnalysts": 8,
+    "revYearAgo": 662028000,
+    "revGrowth": 69.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.34,
+    "epsLow": 2.34,
+    "epsHigh": 2.34,
+    "epsYearAgo": 1.46,
+    "epsAnalysts": 1,
+    "epsGrowth": 59.8,
+    "epsCur": "USD",
+    "rev": 1291199600,
+    "revAnalysts": 5,
+    "revYearAgo": 830697000,
+    "revGrowth": 55.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.86,
+    "epsLow": 5.86,
+    "epsHigh": 5.86,
+    "epsYearAgo": 4.68,
+    "epsAnalysts": 1,
+    "epsGrowth": 25.2,
+    "epsCur": "USD",
+    "rev": 3907292940,
+    "revAnalysts": 9,
+    "revYearAgo": 2507409000,
+    "revGrowth": 55.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 13.5,
+    "epsLow": 13.5,
+    "epsHigh": 13.5,
+    "epsYearAgo": 5.86,
+    "epsAnalysts": 1,
+    "epsGrowth": 130.4,
+    "epsCur": "USD",
+    "rev": 6600774460,
+    "revAnalysts": 9,
+    "revYearAgo": 3907292940,
+    "revGrowth": 68.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.89,
+    "d7": 3.2,
+    "d30": 2.5,
+    "d90": -10.2,
+    "ago90": 2.1,
+    "up7": 1,
+    "up30": 4,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.34,
+    "d7": 0,
+    "d30": null,
+    "d90": -7.5,
+    "ago90": 2.53,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.86,
+    "d7": 0,
+    "d30": -0.8,
+    "d90": -16.5,
+    "ago90": 7.02,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 13.5,
+    "d7": 0,
+    "d30": 6.8,
+    "d90": 2.4,
+    "ago90": 13.19,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.72,
+    "estimate": 1.47,
+    "surprisePct": 17.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.26,
+    "estimate": 2.09,
+    "surprisePct": -39.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.46,
+    "estimate": 1.6,
+    "surprisePct": -8.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.24,
+    "estimate": 1.18,
+    "surprisePct": 4.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 1,
+   "ptLowered": 4,
+   "total": 6,
+   "recent": [
+    {
+     "date": "2026-10-28",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 310,
+     "ptPrior": 360
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Macquarie",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 305,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-16",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 310,
+     "ptPrior": 350
+    },
+    {
+     "date": "2026-08-21",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 360,
+     "ptPrior": 319
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 350,
+     "ptPrior": 400
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-29",
+  "numbers": {
+   "price": 196.01,
+   "ma20": 166.59,
+   "ma50": 179.18,
+   "ma150": 219.4,
+   "distMA50": 9.39,
+   "periodHigh": 323.51,
+   "pullbackFromHigh": -39.41,
+   "volRatio20": 1.8,
+   "dryUpRatio": 1.09
+  },
+  "last10": [
+   {
+    "d": "2026-10-16",
+    "o": 169.09,
+    "h": 172.28,
+    "l": 164.14,
+    "c": 164.46,
+    "v": 1736400,
+    "clsPos": 4,
+    "gapPct": 0.31
+   },
+   {
+    "d": "2026-10-19",
+    "o": 166.75,
+    "h": 167.5,
+    "l": 161.55,
+    "c": 163.34,
+    "v": 1434500,
+    "clsPos": 30,
+    "gapPct": 1.39
+   },
+   {
+    "d": "2026-10-20",
+    "o": 160.8,
+    "h": 166.52,
+    "l": 157.41,
+    "c": 157.95,
+    "v": 1434000,
+    "clsPos": 6,
+    "gapPct": -1.56
+   },
+   {
+    "d": "2026-10-21",
+    "o": 161.8,
+    "h": 171.44,
+    "l": 161.2,
+    "c": 163.52,
+    "v": 2481200,
+    "clsPos": 23,
+    "gapPct": 2.44
+   },
+   {
+    "d": "2026-10-22",
+    "o": 158,
+    "h": 161.87,
+    "l": 153.23,
+    "c": 157.5,
+    "v": 2666300,
+    "clsPos": 49,
+    "gapPct": -3.38
+   },
+   {
+    "d": "2026-10-23",
+    "o": 154.42,
+    "h": 158.07,
+    "l": 146.48,
+    "c": 154.37,
+    "v": 1583500,
+    "clsPos": 68,
+    "gapPct": -1.96
+   },
+   {
+    "d": "2026-10-26",
+    "o": 155.97,
+    "h": 160.38,
+    "l": 152.5,
+    "c": 157.59,
+    "v": 1809400,
+    "clsPos": 65,
+    "gapPct": 1.04
+   },
+   {
+    "d": "2026-10-27",
+    "o": 158.28,
+    "h": 159.04,
+    "l": 154.12,
+    "c": 158.67,
+    "v": 1383400,
+    "clsPos": 93,
+    "gapPct": 0.44
+   },
+   {
+    "d": "2026-10-28",
+    "o": 159.91,
+    "h": 168,
+    "l": 157.83,
+    "c": 167.14,
+    "v": 2197100,
+    "clsPos": 92,
+    "gapPct": 0.78
+   },
+   {
+    "d": "2026-10-29",
+    "o": 184.98,
+    "h": 196.26,
+    "l": 177.9,
+    "c": 196.01,
+    "v": 3433400,
+    "clsPos": 99,
+    "gapPct": 10.67
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FTAI-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FTAI-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 8일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

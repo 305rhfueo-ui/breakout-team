@@ -50,8 +50,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "yahooNews": [
         {
@@ -471,9 +470,81 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:34:38"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GKOS",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "회사는 연간 전망도 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Glaukos Corporation Reports Record Q3 2026 Net Sales of $211.0 Million and Raises Full-Year Guidance",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/glaukos-corporation-reports-record-q3-2026-net-sales-2110-million-and-raises-full-year",
+                "date": "2026-10-29",
+                "quote": "Glaukos Corporation Reports Record Q3 2026 Net Sales of $211.0 Million and Raises Full-Year Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "3분기 매출이 2.11억 달러로 사상 최대였고, 1년 전보다 58% 늘었다. 회사는 연간 전망도 올렸다."
+          },
+          {
+            "id": "c2",
+            "statement": "적자였던 회사가 3분기에 영업 흑자로 돌아섰고, 시장 예상치도 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/glaukos-swings-profit-q3-lifts-full-year-2026-guidance-shares-surge-pre-market",
+                "date": "2026-10-29",
+                "quote": "Glaukos Swings To Profit In Q3, Lifts Full-Year 2026 Guidance; Shares Surge Pre-Market",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Glaukos (GKOS) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/glaukos-gkos-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-10-28",
+                "quote": "Glaukos (GKOS) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "회사가 2027년 매출 10억 달러 목표를 내놓아 성장 기대가 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Glaukos Sets $1 Billion 2027 Sales Goal: Rapid Earnings Reaction",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/glaukos-sets-1-billion-2027-sales-goal-rapid-earnings-reaction",
+                "date": "2026-10-29",
+                "quote": "Glaukos Sets $1 Billion 2027 Sales Goal: Rapid Earnings Reaction",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Glaukos는 녹내장 등 안과 질환용 의료기기와 약물 이식 제품을 만들어 파는 회사다. 병원에 공급하는 수술용 기기와 치료 제품 매출이 수익의 중심이다.",
+        "volumeExplanation": "10월 28일 3분기 실적 발표에서 매출이 사상 최대(2.11억 달러, 1년 전보다 58% 증가)였고 영업 흑자로 돌아서며 연간 전망도 올렸다. 2027년 매출 10억 달러 목표까지 나오자 주가가 급등하며 거래량이 크게 늘었다. 다음 분기에도 매출 증가세와 흑자가 이어지는지 확인되면 이 이야기가 맞다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "c1의 '1년 전보다 58% 늘었다'는 quote 제목에 없음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -575,9 +646,80 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:49:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CROX",
+        "category": 1,
+        "company": "Crocs는 클로그 신발 Crocs 브랜드와 HEYDUDE 브랜드를 팔아 돈을 버는 신발 회사입니다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 예상치를 넘었고 올해 전망(가이던스)도 올려서 거래량이 평소의 약 4.8배로 늘었습니다. 영업이익이 1년 전보다 40.6% 늘어 이익 증가가 뚜렷했습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 매출과 주당순이익이 시장 예상치를 모두 넘었습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crocs (CROX) Beats Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/crocs-crox-beats-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-29",
+                "quote": "Crocs (CROX) Beats Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 올해 전체 전망을 올렸습니다. 이 사실이 장 시작 전부터 주가를 끌어올렸습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crocs, Inc. Reports Strong Third Quarter 2026 Results; Raises Full-Year 2026 Outlook",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/crocs-inc-reports-strong-third-quarter-2026-results-raises-full-year-2026-outlook",
+                "date": "2026-10-29",
+                "quote": "Crocs, Inc. Reports Strong Third Quarter 2026 Results; Raises Full-Year 2026 Outlook",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/crocs-q3-profit-climbs-raises-fy26-guidance-pre-market-shares",
+                "date": "2026-10-29",
+                "quote": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "성장의 중심이 해외로 옮겨갔다는 평가가 나왔습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crocs Lifts Outlook as Growth Shifts Overseas: Rapid Earnings Reaction",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/crocs-lifts-outlook-growth-shifts-overseas-rapid-earnings-reaction",
+                "date": "2026-10-29",
+                "quote": "Crocs Lifts Outlook as Growth Shifts Overseas: Rapid Earnings Reaction",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "volumeExplanation의 '영업이익이 1년 전보다 40.6% 늘었다'는 claims에 근거 없음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -679,9 +821,39 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:24:42"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EG",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 실적을 10월 28일 발표했고 이익·매출 모두 시장 예상에 못 미쳤다. 호재로 볼 서프라이즈는 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Everest Group (EG) Misses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/everest-group-eg-misses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-28",
+                "quote": "Everest Group (EG) Misses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Everest Group은 보험사가 가입하는 재보험(보험의 보험)을 파는 회사로, 보험료와 투자 수익으로 돈을 번다.",
+        "volumeExplanation": "10월 28일 3분기 실적 발표 직후 거래량이 평소의 4배 넘게 늘었지만, 예상 미달 실적이어서 호재 때문이라고 보기는 어렵다. 주가 방향과 구체적 이유는 확인되지 않았다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6(불명확)이 올바름. 예상 미달이므로 호재가 아님을 정확히 표현"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1360,9 +1532,73 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:58:05"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FCN",
+        "category": 1,
+        "company": "FTI Consulting은 기업 위기관리, 소송·재무 자문, 사이버보안 등 전문 컨설팅 서비스를 제공해 수수료로 돈을 버는 회사입니다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 시장 예상을 웃돌고 올해 주당순이익 전망이 올라가면서 주가가 급등했고 거래량이 평소의 3배 넘게 늘었습니다. 매출은 사상 최대인 10억 달러를 넘겼고 5개 사업부문이 모두 성장했습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 조정 주당순이익이 예상치를 넘었고 올해 주당순이익 전망도 상향됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FTI Consulting Shares Rise as Q3 Adjusted Earnings Beat Estimates, 2026 EPS Outlook Raised",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/fti-consulting-shares-rise-q3-142151933.html",
+                "date": "2026-10-29",
+                "quote": "FTI Consulting Shares Rise as Q3 Adjusted Earnings Beat Estimates, 2026 EPS Outlook Raised",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "FTI Consulting Reports Record Third Quarter 2026 Revenues of $1.013 Billion, With Growth Across All Five Business Segments",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/fti-consulting-reports-record-third-113000557.html",
+                "date": "2026-10-29",
+                "quote": "FTI Consulting Reports Record Third Quarter 2026 Revenues of $1.013 Billion, With Growth Across All Five Business Segments",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "3분기 매출이 사상 최대인 10억 1,300만 달러였고 5개 사업부문 모두 성장했다.",
+            "stripped": true
+          },
+          {
+            "id": "c3",
+            "statement": "Zacks도 주당순이익과 매출 모두 예상을 웃돌았다고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FTI Consulting (FCN) Beats Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-beats-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-29",
+                "quote": "FTI Consulting (FCN) Beats Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 클레임의 숫자와 팩트가 quote와 일치함"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1478,9 +1714,44 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:37:24"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HII",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 29일 3분기 실적이 증권사 예상치(매출·주당순이익)를 모두 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Huntington Ingalls (HII) Q3 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/huntington-ingalls-hii-q3-earnings-and-revenues-beat-estimates",
+                "date": "2026-10-29",
+                "quote": "Huntington Ingalls (HII) Q3 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "HII는 미 해군 항공모함·잠수함·상륙함을 만드는 미국 최대 군함 조선사다. 매출 대부분이 미 해군 등 정부 방산 계약에서 나온다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 매출·이익 모두 예상치를 넘어서면서 주가가 급등했다. 실적 호재에 매수가 몰려 거래량이 평소의 3배 넘게 늘었다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2",
+            "c3"
+          ],
+          "reason": "c2: 1년 전 대비 10.8% 증가·영업이익 수치가 quote에 없음. c3: 함선 건조·드론 수요 내용이 quote에 없음",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 29일 3분기 실적이 매출·이익 모두 예상치를 넘어서고 매출이 역대 최대를 기록하면서 주가가 급등했다. 실적 호재에 매수가 몰려 거래량이 평소의 3배 넘게 늘었다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1575,9 +1846,43 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:27:50"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WST",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "회사가 올해 조정 주당순이익 전망을 크게 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "West Reports Third-Quarter 2026 Results",
+                "publisher": "PR Newswire",
+                "url": "https://finance.yahoo.com/healthcare/articles/west-reports-third-quarter-2026-100000534.html",
+                "date": "2026-10-29",
+                "quote": "Full-year 2026 adjusted-diluted EPS guidance increased to a range of $9.38 to $9.48, up from the previous range of $8.85 to $9.05.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "West Pharmaceutical Services는 주사제용 고무마개·밀봉 부품과 약물 전달 장치를 제약사에 공급해 돈을 번다.",
+        "volumeExplanation": "10월 29일 3분기 실적을 발표하면서 올해 조정 주당순이익 전망을 크게 올려 거래량이 평소의 3.3배로 늘었다. 앞으로 전망이 유지되고 추가 상향이 있을지가 확인 대상이다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1 statement의 '매출도 8.7% 증가했다' 부분이 인용문과 출처 제목 어디에도 없음. EPS 35.7% 증가는 맞으나 매출 수치 근거 없음.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 29일 3분기 실적에서 조정 주당순이익이 35.7% 늘고 올해 전망치도 크게 올라 거래량이 평소의 3.3배로 늘었다. 실적 발표 기사는 예상치를 웃돌았다고 전했으며, 다음 분기에도 전망 상향이 유지되는지가 이 이야기가 맞는지 가르는 조건이다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2282,9 +2587,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:16:55"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DVA",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 29일 3분기 실적에서 매출과 주당순이익 모두 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "DaVita HealthCare (DVA) Beats Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/davita-healthcare-dva-beats-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-29",
+                "quote": "DaVita HealthCare (DVA) Beats Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "3분기 순이익이 전년 동기보다 늘었다고 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "DaVita Inc. Profit Advances In Q3",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/davita-inc-profit-advances-q3",
+                "date": "2026-10-29",
+                "quote": "DaVita Inc. Profit Advances In Q3",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "같은 날 SEC에 실적발표 8-K를 제출했다. 분기 매출 35.8억 달러로 1년 전보다 4.6% 늘었고 순이익은 48.3% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "DaVita 8-K (실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000132/dva-20261029.htm",
+                "date": "2026-10-29",
+                "quote": "8-K 2026-10-29 실적 발표 · 재무제표·첨부 (2026-09-30 분기 매출 3,578,126,000 USD, 순이익 222,931,000 USD, 전년 대비 매출 +4.6% · 순이익 +48.3%)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "DaVita는 미국에서 신장 투석 센터를 운영하며 환자 치료비로 돈을 버는 헬스케어 서비스 회사다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 매출·주당순이익 모두 예상치를 넘어서며 거래량이 평소의 3배 이상으로 늘었다. 분기 순이익이 1년 전보다 48% 늘었지만 영업이익은 1.3% 줄어, 이익의 질을 두고 매매가 몰린 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2388,13 +2755,29 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "MANH",
-        "category": 6,
-        "company": "Manhattan Associates는 물류·재고·유통 업체가 쓰는 공급망 관리 소프트웨어를 클라우드로 팔아 돈을 번다. 구독과 서비스 수수료가 주 수입원이다.",
-        "volumeExplanation": "3분기 매출이 시장 예상을 웃돌았고 증권사 Truist가 목표주가를 올리면서 거래량이 늘었습니다.",
+        "category": 1,
+        "company": "Manhattan Associates는 물류·유통 기업이 창고와 재고, 주문을 관리하는 클라우드 소프트웨어를 팔아 돈을 법니다.",
+        "volumeExplanation": "10월 27일 발표한 3분기 실적이 시장 예상치를 넘겼고, 클라우드 성장 기대가 커졌습니다. 이후 Truist가 목표주가를 240달러에서 305달러로 올리면서 거래가 늘었습니다.",
         "claims": [
           {
+            "id": "c1",
+            "statement": "3분기 매출과 주당순이익 모두 시장 예상치를 웃돌았습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-27",
+                "quote": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
             "id": "c2",
-            "statement": "증권사 Truist가 목표주가를 240달러에서 305달러로 올리고 매수 의견을 유지했다.",
+            "statement": "Truist가 목표주가를 240달러에서 305달러로 올리고 매수 의견을 유지했습니다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2411,20 +2794,14 @@ window.TEAM4_DATA = {
         ],
         "confidence": "medium",
         "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c1"
-          ],
-          "reason": "c1의 주당순이익 숫자가 quote에 없음. 남은 근거(목표주가 상향)는 어닝과 무관",
-          "narrativeFixed": true
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
         },
-        "originalCategory": 1,
-        "corrected": true,
-        "volumeExplanationOriginal": "10월 27일 장 마감 후 3분기 실적이 시장 예상을 웃돌았고 연간 전망도 제시되면서, 다음 거래일부터 거래량이 늘었다. 목표주가를 올리는 증권사도 나왔다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-29",
-        "carried": true
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3148,9 +3525,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:26:23"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LNG",
+        "category": 1,
+        "company": "Cheniere Energy는 미국산 천연가스를 액화(LNG)해 해외 고객에게 장기 계약으로 파는 회사입니다. 수출 터미널을 운영하며 수수료와 판매 마진으로 돈을 법니다.",
+        "volumeExplanation": "Cheniere가 10월 29일 3분기 실적을 내며 올해 전망치를 올리고 배당도 12% 넘게 늘렸습니다. 분기 매출이 1년 전보다 42% 늘어난 점과 함께 이 소식이 거래량으로 이어진 것으로 보입니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Cheniere가 3분기 실적과 함께 올해 전망치를 올리고 분기 배당을 12% 넘게 늘렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cheniere Reports Third Quarter 2026 Results, Raises Full Year 2026 Financial Guidance, and Increases Quarterly Dividend by Over 12%",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/energy/articles/cheniere-reports-third-quarter-2026-113000247.html",
+                "date": "2026-10-29",
+                "quote": "Cheniere Reports Third Quarter 2026 Results, Raises Full Year 2026 Financial Guidance, and Increases Quarterly Dividend by Over 12%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "3분기 매출은 약 61억 달러로 1년 전보다 42% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cheniere Energy 8-K (실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000040/lng-20261029.htm",
+                "date": "2026-10-29",
+                "quote": "8-K 2026-10-29 실적 발표 · 재무제표·첨부 (2026-09-30 분기 매출 6,097,000,000 USD, 전년 동기 대비 +42%)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "주당순이익은 시장 예상치에는 못 미쳤지만, 전망치 상향이 더 크게 받아들여진 것으로 보인다. 이후 실적 발표 결과와 추가 상향 여부가 확인 대상이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cheniere Energy (LNG) Misses Q3 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/cheniere-energy-lng-misses-q3-earnings-estimates",
+                "date": "2026-10-29",
+                "quote": "Cheniere Energy (LNG) Misses Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3252,9 +3691,64 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:44:21"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TXT",
+        "category": 1,
+        "company": "텍스트론은 세스나 사업용 제트기와 벨 헬리콥터를 만들고 방산 장비도 공급하는 항공·방산 제조사입니다. 항공기 판매와 부품·정비 서비스로 돈을 법니다.",
+        "volumeExplanation": "10월 29일 3분기 실적을 발표했는데 증권사 예상치를 웃돌았고 연간 전망도 올려, 거래량이 평소의 약 3배로 늘었습니다. 실적 발표 직후 주가가 크게 오르며 매수가 몰린 것으로 보입니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "텍스트론이 10월 29일 3분기 실적을 발표했고 증권사 예상 평균(컨센서스)을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Textron (TXT) Q3 Earnings Beat Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/textron-txt-q3-earnings-beat-estimates",
+                "date": "2026-10-29",
+                "quote": "Textron (TXT) Q3 Earnings Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Textron 8-K (실적 발표, Item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000043/txt-20261029.htm",
+                "date": "2026-10-29",
+                "quote": "Textron Inc. issued a press release announcing its financial results for the fiscal quarter ended October 3, 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표와 함께 연간 전망(가이던스)을 올렸다는 보도가 나왔고, 주가는 하루 새 크게 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Textron Inc (TXT) (Q3 2026) Earnings Call Highlights: Raised Guidance, Aviation Momentum, and ...",
+                "publisher": "GuruFocus.com (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/textron-inc-txt-q3-2026-210746062.html",
+                "date": "2026-10-29",
+                "quote": "Textron Inc (TXT) (Q3 2026) Earnings Call Highlights: Raised Guidance, Aviation Momentum, and ...",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3914,9 +4408,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:38:22"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WEC",
+        "category": 1,
+        "company": "WEC Energy Group은 미국 위스콘신 등에서 전기와 가스를 공급하는 규제 대상 전력·가스 유틸리티(공공 유틸리티) 회사입니다. 규제 요금으로 번 돈이 주된 수익입니다.",
+        "volumeExplanation": "10월 29일 3분기 실적을 발표했는데, 매출과 이익이 시장 예상을 웃돌았고 2026년 연간 주당순이익 전망도 올렸습니다. 예상보다 좋은 실적과 전망 상향이 겹치면서 거래량이 평소의 2.6배로 늘었습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 매출과 주당순이익이 모두 증권사 예상(컨센서스)을 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "WEC Energy Group (WEC) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/wec-energy-group-wec-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-29",
+                "quote": "WEC Energy Group (WEC) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 3분기 순이익 3억 8,930만 달러를 발표하면서 2026년 연간 가이던스(회사가 내놓은 전망)를 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "WEC Energy Group, Inc. Reports Third-Quarter 2026 Net Income of $389.3 Million and Raises Full-Year Guidance",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/wec-energy-group-inc-reports-third-quarter-2026-net-income-3893-million-and-raises-full",
+                "date": "2026-10-29",
+                "quote": "WEC Energy Group, Inc. Reports Third-Quarter 2026 Net Income of $389.3 Million and Raises Full-Year Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "올해 주당순이익(EPS) 전망치가 상향됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "WEC Energy Boosts FY26 EPS Outlook - Update",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/wec-energy-boosts-fy26-eps-outlook-update",
+                "date": "2026-10-29",
+                "quote": "WEC Energy Boosts FY26 EPS Outlook - Update",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "3분기 실적 발표 관련 모든 claim이 출처 제목·quote와 일치. 숫자($389.3M = 3억 8,930만) 환산 정상."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4566,33 +5122,18 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "TYL",
         "category": 1,
-        "company": "Tyler Technologies는 지방정부·공공기관에 쓰이는 소프트웨어를 구독 형태로 팔아 돈을 법니다.",
-        "volumeExplanation": "10월 28일 장 마감 후 3분기 실적을 발표했고, 주당순이익은 예상을 넘었지만 매출은 예상에 못 미쳤고 내년 이익 전망도 약했다는 보도가 나왔다. 이 실적에 대한 반응이 이어지며 29일 거래량이 평소의 약 2배로 늘었다.",
+        "company": "Tyler Technologies는 미국 지방정부·공공기관에 클라우드 소프트웨어(SaaS)를 판매하고 구독·유지보수 수수료로 돈을 번다.",
+        "volumeExplanation": "10월 28일 장 마감 후 3분기 실적이 발표됐고, 이익이 시장 예상치를 웃돌았다는 보도가 나왔다. 실적 발표 직후라 거래량이 평소보다 크게 늘었다.",
+        "confidence": "low",
         "claims": [
           {
             "id": "c1",
-            "statement": "10월 28일 3분기 실적을 발표했다(SEC 8-K 실적 항목).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Tyler Technologies 8-K (Item 2.02)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000056/tyl-20261028.htm",
-                "date": "2026-10-28",
-                "quote": "issued the earnings news release announcing results from operations and financial condition as of September 30, 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "주당순이익은 증권사 예상치를 웃돌았다.",
+            "statement": "10월 28일 3분기 실적이 발표됐고 이익이 시장 예상치를 웃돌았다는 보도가 나왔다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Tyler Technologies (TYL) Q3 Earnings Top Estimates",
-                "publisher": "Zacks/Nasdaq",
+                "publisher": "Zacks (Nasdaq)",
                 "url": "https://www.nasdaq.com/articles/tyler-technologies-tyl-q3-earnings-top-estimates",
                 "date": "2026-10-28",
                 "quote": "Tyler Technologies (TYL) Q3 Earnings Top Estimates",
@@ -4602,32 +5143,31 @@ window.TEAM4_DATA = {
             ]
           },
           {
-            "id": "c3",
-            "statement": "반면 매출이 예상에 못 미치고 회사 전망이 약해 주가가 하락했다는 보도가 나왔다. 실적 호조·부진이 엇갈려 거래가 늘었다.",
+            "id": "c2",
+            "statement": "회사는 같은 날 실적 발표 공시(8-K, 항목 2.02)를 제출했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Tyler Technologies falls on revenue miss, soft guidance",
-                "publisher": "Investing.com (Yahoo Finance)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/tyler-technologies-falls-revenue-miss-221329212.html",
+                "title": "Tyler Technologies 8-K (item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000056/tyl-20261028.htm",
                 "date": "2026-10-28",
-                "quote": "Tyler Technologies falls on revenue miss, soft guidance",
+                "quote": "8-K 2026-10-28 items 2.02 실적 발표",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "모든 claims가 sources의 quote/제목과 일치하고 category 1 적절"
+          "reason": "3분기 실적 발표와 8-K 공시 모두 quote에 명시. 날짜 2026-10-28 일치."
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-10-29",
-        "carried": true
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5322,9 +5862,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:49:11"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BMO",
+        "category": 4,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "BMO가 10월 29일 운송·벤더 금융 사업(장비금융) 매각을 마무리했다. 매수자는 스톤피크다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BMO Closes Sale of Transportation and Vendor Finance Businesses",
+                "publisher": "PR Newswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-closes-sale-transportation-vendor-223000652.html",
+                "date": "2026-10-29",
+                "quote": "BMO Closes Sale of Transportation and Vendor Finance Businesses",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "스톤피크도 같은 날 인수 완료를 발표하고 새 회사 Longview Capital Solutions를 출범시켰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Stonepeak Completes Acquisition of BMO's Transportation and Vendor Finance Businesses and Launches Longview Capital Solutions",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/small-business/articles/stonepeak-completes-acquisition-bmos-transportation-223900191.html",
+                "date": "2026-10-29",
+                "quote": "Stonepeak Completes Acquisition of BMO's Transportation and Vendor Finance Businesses and Launches Longview Capital Solutions",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "BMO(몬트리올은행)는 캐나다 대형 은행으로, 예금·대출과 자산관리, 투자은행 업무로 돈을 번다. 미국 사업도 크다.",
+        "volumeExplanation": "10월 29일 BMO가 운송·벤더 금융 사업 매각을 마무리했고, 이날 거래량이 평소의 약 2.5배로 늘었다. 다만 주가를 크게 움직일 만한 호재인지는 뚜렷하지 않고, 매각 완료와의 연결은 시점상의 추정이다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "매각 완료(10-29) 및 스톤피크 인수 완료·Longview 출범 모두 제목과 일치."
+        },
+        "categoryName": "기업 턴어라운드",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5837,9 +6423,43 @@ window.TEAM4_DATA = {
         "updated": "2026-09-11 05:56:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "category": 1,
+        "ticker": "VMC",
+        "company": "Vulcan Materials는 미국 최대 건설용 골재(자갈·모래·쇄석) 생산업체로, 도로·건물 건설에 쓰이는 골재와 아스팔트·콘크리트를 팔아 돈을 법니다.",
+        "volumeExplanation": "10월 29일 3분기 실적 발표에서 주당순이익은 시장 예상치를 넘었습니다. 실적 발표 직후 평소보다 많은 거래가 몰린 것으로 보입니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 29일 3분기 실적을 발표했고, 주당순이익은 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Vulcan Materials (VMC) Surpasses Q3 Earnings Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/vulcan-materials-vmc-surpasses-q3-earnings-estimates",
+                "date": "2026-10-29",
+                "quote": "Vulcan Materials (VMC) Surpasses Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 구체적 숫자(1년 전 대비 4.7% 감소, 21.8억 달러)가 quote '발표 제목'에 없음. quote는 제목만 포함. c1만 유효. volumeExplanation에서 근거 없는 '매출은 예상에 못 미쳤습니다' 문구 제거.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 29일 3분기 실적 발표에서 주당순이익은 시장 예상치를 넘었지만 매출은 예상에 못 미쳤습니다. 실적 발표 직후 평소보다 많은 거래가 몰린 것으로 보입니다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5941,9 +6561,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:47:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "캐나다 철도 회사로, 캐나다·미국·멕시코를 잇는 화물 철도 운송으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "이미 category 6(근거 없음)으로 올바르게 분류됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "캐나디안 퍼시픽 레일웨이",
@@ -6560,9 +7200,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:08:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FLS",
+        "category": 1,
+        "company": "Flowserve는 석유화학·발전·산업 현장에 쓰이는 펌프, 밸브, 밀봉장치를 만들고 설치 후 정비 서비스로도 돈을 번다.",
+        "volumeExplanation": "10월 28일 3분기 실적에서 이익과 매출이 시장 예상치를 넘었고, 올해 전망치는 범위만 좁혀졌다. 이후 주가가 1년 평균선 위로 올라서며 거래가 늘었다.",
+        "confidence": "medium",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 이익과 매출이 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flowserve (FLS) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/flowserve-fls-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-10-28",
+                "quote": "Flowserve (FLS) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "올해 전망치는 상향이 아니라 범위를 좁히는 수준이었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flowserve Q3 Adjusted Earnings, Revenue Rise; 2026 Guidance Narrowed",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/flowserve-q3-adjusted-earnings-revenue-210914644.html",
+                "date": "2026-10-28",
+                "quote": "Flowserve Q3 Adjusted Earnings, Revenue Rise; 2026 Guidance Narrowed",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 다음 날 주가가 1년 평균선(200일 이동평균)을 상향 돌파했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flowserve Breaks Above 200-Day Moving Average - Bullish for FLS",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/flowserve-breaks-above-200-day-moving-average-bullish-fls",
+                "date": "2026-10-29",
+                "quote": "Flowserve Breaks Above 200-Day Moving Average - Bullish for FLS",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -7216,9 +7918,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:04:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HLI",
+        "category": 1,
+        "company": "Houlihan Lokey는 기업 인수합병(M&A) 자문, 기업 구조조정, 재무 자문 수수료로 돈을 버는 투자은행입니다.",
+        "volumeExplanation": "10월 28일 장 마감 뒤 회계연도 2분기 실적을 발표했고, 증권사 예상치를 웃돌았다는 평가가 나왔습니다. 이 실적을 소화하는 과정에서 다음 거래일 거래량이 평소보다 늘어난 것으로 보입니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Houlihan Lokey가 10월 28일 2분기 실적을 발표했고, 이익과 매출이 모두 증권사 예상치를 넘었다는 평가를 받았습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Houlihan Lokey (HLI) Tops Q2 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/houlihan-lokey-hli-tops-q2-earnings-and-revenue-estimates",
+                "date": "2026-10-28",
+                "quote": "Houlihan Lokey (HLI) Tops Q2 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적은 장 마감 뒤 나왔고, 발표 직후 시간외에서는 주가가 오히려 하락했습니다. 이후 거래일에 거래량이 몰린 배경입니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Houlihan Lokey Fiscal Q2 Earnings, Revenue Rise; Shares Fall After Hours",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/houlihan-lokey-fiscal-q2-earnings-210105950.html",
+                "date": "2026-10-28",
+                "quote": "Houlihan Lokey Fiscal Q2 Earnings, Revenue Rise; Shares Fall After Hours",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -7883,27 +8631,69 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "AAMI",
-        "category": 6,
+        "category": 1,
         "claims": [
           {
             "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
+            "statement": "3분기 주당순이익이 증권사 예상치보다 높았다. 예상은 1.22달러, 실제는 1.36달러다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Acadian Asset Management (AAMI) Surpasses Q3 Earnings Estimates",
+                "publisher": "Zacks (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/acadian-asset-management-aami-surpasses-133002061.html",
+                "date": "2026-10-29",
+                "quote": "Acadian Asset Management (AAMI) came out with quarterly earnings of $1.36 per share, beating the Zacks Consensus Estimate of $1.22 per share.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "매출은 1억 8,910만 달러로 예상보다 2.38% 낮았다. 이익은 좋았지만 매출은 부진했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Acadian Asset Management (AAMI) Surpasses Q3 Earnings Estimates",
+                "publisher": "Zacks (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/acadian-asset-management-aami-surpasses-133002061.html",
+                "date": "2026-10-29",
+                "quote": "posted revenues of $189.1 million for the quarter ended September 2026, missing the Zacks Consensus Estimate by 2.38%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "10월 29일 8-K로 3분기 실적을 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Acadian 8-K (Item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1748824/000174882426000003/aami-20261029.htm",
+                "date": "2026-10-29",
+                "quote": "the Company issued presentation materials setting forth its financial and operating results for the quarter ended September 30, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "company": "Acadian Asset Management는 퀀트(수학 모델) 방식으로 기관투자자 자금을 굴리고 운용 수수료를 받아 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
+        "company": "Acadian Asset Management는 기관투자자를 대상으로 퀀트(데이터 기반) 투자 전략을 운용하고, 운용 자산에 비례한 수수료로 돈을 버는 자산운용사다.",
+        "volumeExplanation": "10월 29일 3분기 실적을 발표했고, 주당순이익이 예상치 1.22달러를 넘겨 1.36달러를 기록했다. 매출은 예상보다 2.38% 낮아 엇갈렸지만, 이익 호조가 거래량을 늘린 것으로 보인다. 실적 발표 직후 거래가 몰린 것이 이유이며, 다음 분기에도 이익 증가가 이어지는지가 이 이야기가 맞는지 확인할 조건이다.",
+        "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "category 6 '근거 없음'이 정확함."
+          "reason": ""
         },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-29",
-        "carried": true
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8587,9 +9377,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:23:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GATX",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 29일 3분기 실적을 발표했고, 순이익은 1억 520만 달러였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GATX Corporation Reports 2026 Third-Quarter Net Income of $105.2 million",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/gatx-corporation-reports-2026-third-quarter-net-income-1052-million",
+                "date": "2026-10-29",
+                "quote": "GATX Corporation Reports 2026 Third-Quarter Net Income of $105.2 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 올해 전체 이익이 기존 전망(가이던스)의 상단을 소폭 웃돌 것으로 내다봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GATX Q3 Earnings, Revenue Rise; Sees Full-Year Earnings 'Modestly' Exceeding High End of Guidance",
+                "publisher": "MT Newswires (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/gatx-q3-earnings-revenue-rise-132229210.html",
+                "date": "2026-10-29",
+                "quote": "GATX Q3 Earnings, Revenue Rise; Sees Full-Year Earnings 'Modestly' Exceeding High End of Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "시장 예상치를 넘어서며 주가가 크게 올랐다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GATX (NYSE:GATX) exceeds Q3 2026 expectations, stock soars",
+                "publisher": "StockStory (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/gatx-nyse-gatx-exceeds-q3-124523252.html",
+                "date": "2026-10-29",
+                "quote": "GATX (NYSE:GATX) exceeds Q3 2026 expectations, stock soars",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "GATX는 철도 화차와 선박, 항공기 엔진 등을 임대해 임대료로 돈을 번다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 시장 예상치를 넘어섰고, 올해 이익이 기존 전망 상단을 소폭 웃돌 것이라고 밝혀 거래량이 평소의 2배 넘게 늘었다. 이 이야기는 다음 분기에도 이익 성장이 이어지는지로 확인된다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9251,9 +10103,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:13:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CHKP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "이스라엘 기반 사이버보안 회사로, 방화벽과 보안 소프트웨어를 구독 형태로 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9809,9 +10681,84 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:13:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MHK",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 29일 3분기 실적에서 조정 주당순이익이 증권사 예상을 웃돌았다. 조정 주당순이익은 2.72달러로 1년 전보다 약 2% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mohawk Industries (MHK) Surpasses Q3 Earnings Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-surpasses-q3-earnings-estimates",
+                "date": "2026-10-29",
+                "quote": "Mohawk Industries (MHK) Surpasses Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Mohawk Industries Reports Q3 2026 Results",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-reports-q3-2026-201500731.html",
+                "date": "2026-10-29",
+                "quote": "adjusted EPS of $2.72, up approximately 2%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "같은 날 5억 달러 규모의 새 자사주 매입(회사가 자기 주식을 사들여 주주에게 돌려주는 일)을 승인했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mohawk Industries Introduces Strategic and Capital Allocation Framework and Announces New $500 Million Share Repurchase Authorization",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-introduces-strategic-capital-201700202.html",
+                "date": "2026-10-29",
+                "quote": "a new $500 million share repurchase program, effective immediately",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "4분기 조정 주당순이익 전망은 1.35~1.45달러다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mohawk Industries Reports Q3 2026 Results",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-reports-q3-2026-201500731.html",
+                "date": "2026-10-29",
+                "quote": "the Company expects adjusted EPS in the range of $1.35 to $1.45",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Mohawk Industries는 카펫, 세라믹 타일, 바닥재를 만들어 주택·상업 시설용으로 파는 세계 최대급 바닥재 업체다.",
+        "volumeExplanation": "10월 29일 3분기 실적에서 조정 주당순이익이 예상을 넘었고 5억 달러 자사주 매입도 함께 나와 거래량이 평소의 2배 넘게 늘었다. 4분기 전망(주당 1.35~1.45달러)이 시장 기대와 맞는지가 이 이야기가 맞는지 가리는 기준이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 인용문에 FCF 증가(78%)와 가격 상승이 약한 수요를 상쇄한다는 내용이 없음",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 29일 3분기 실적에서 조정 주당순이익이 예상을 넘었고 5억 달러 자사주 매입도 함께 나와 거래량이 평소의 2배 넘게 늘었다. 다만 매출 성장은 1%로 작아 서프라이즈 폭은 크지 않다. 4분기 전망(주당 1.35~1.45달러)이 시장 기대와 맞는지가 이 이야기가 맞는지 가리는 기준이다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -10537,9 +11484,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:46:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RTX",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "RTX는 항공기 엔진(프랫앤휘트니), 항공전자(콜린스), 미사일·방공 시스템(레이시온)을 만들어 파는 미국 항공우주·방산 기업입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "뚜렷한 뉴스가 없는 상태로 카테고리 6으로 정확히 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -11339,44 +12306,53 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "PDS",
-        "category": 6,
-        "company": "Precision Drilling은 캐나다 기반으로 북미 석유·가스 시추 장비(리그)를 시추 업체에 빌려주고 일당 요금으로 돈을 법니다. 완공·정비 서비스도 함께 제공합니다.",
-        "volumeExplanation": "10월 27~28일 자사주 매입과 부채 감축으로 거래량이 평소의 2.6배로 늘었습니다.",
+        "category": 1,
+        "company": "PDS(Precision Drilling)는 캐나다·미국 등에서 석유·가스 시추 장비와 인력을 빌려주고 일당 요금을 받아 돈을 버는 시추 서비스 회사다.",
+        "volumeExplanation": "10월 28일 3분기 실적을 발표했고 이후 실적 설명회 기록과 분석 기사가 이어지며 거래가 늘었다. 다만 예상치 대비 얼마나 좋았는지는 확인된 원문이 없어 실적 발표가 거래량의 원인일 가능성이 높다는 정도로 본다.",
         "claims": [
           {
-            "id": "c3",
-            "statement": "올해 들어 자사주 4,700만 달러를 사들이고 부채를 7,500만 달러 줄여 주주환원이 이어지고 있다.",
+            "id": "c1",
+            "statement": "PDS는 2026년 10월 28일 3분기 실적을 발표하고 설명회를 열었다. 거래량 증가 시점과 겹친다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Precision Drilling Announces 2026 Third Quarter Unaudited Financial Statements",
-                "publisher": "GlobeNewswire (Yahoo Finance)",
-                "url": "https://finance.yahoo.com/energy/articles/precision-drilling-announces-2026-third-224200681.html",
-                "date": "2026-10-27",
-                "quote": "Year to date, we have repurchased $47 million of shares while reducing debt by $75 million.",
+                "title": "Precision Drilling (PDS) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/precision-drilling-pds-q3-2026-earnings-call-transcript",
+                "date": "2026-10-28",
+                "quote": "Precision Drilling (PDS) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 다음 날에도 장기 투자자용 핵심 정리 기사가 나와 시장의 관심이 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Precision Drilling: 3 Key Takeaways for Long-Term Investors",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/precision-drilling-3-key-takeaways-long-term-investors",
+                "date": "2026-10-29",
+                "quote": "Precision Drilling: 3 Key Takeaways for Long-Term Investors",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "confidence": "medium",
+        "confidence": "low",
         "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c1",
-            "c2"
-          ],
-          "reason": "c1의 매출 15% 증가와 c2의 마진 개선이 quote에 없음. 남은 근거(c3)는 자금 정책으로 어닝과 무관",
-          "narrativeFixed": true
+          "verdict": "pass",
+          "removed": [],
+          "reason": "10월 28일 3분기 실적 발표와 설명회, 다음 날 팔로우 기사 근거가 명확함"
         },
-        "originalCategory": 1,
-        "corrected": true,
-        "volumeExplanationOriginal": "10월 27~28일 3분기 실적이 공개돼 매출이 1년 전보다 15% 늘고 순이익이 흑자로 돌아섰습니다. 2027년 초 활동 증가 가능성과 미국 리그 마진 개선 전망이 겹쳐 거래량이 평소의 2.6배로 늘었습니다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-29",
-        "carried": true
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -11485,9 +12461,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:03:11"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "THC",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 29일 3분기 실적이 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Tenet Healthcare (THC) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-29",
+                "quote": "Tenet Healthcare (THC) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 2026년 연간 전망(가이던스)을 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Tenet Healthcare's Q3 Adjusted Earnings, Revenue Rise; Increases 2026 Guidance; Shares Down Pre-Bell",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-apos-q3-adjusted-115206212.html",
+                "date": "2026-10-29",
+                "quote": "Tenet Healthcare's Q3 Adjusted Earnings, Revenue Rise; Increases 2026 Guidance; Shares Down Pre-Bell",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Tenet Healthcare는 미국에서 병원과 외래 수술센터를 운영하며 환자 진료비로 돈을 번다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 증권사 예상치를 웃돌고 회사가 올해 전망을 올리면서 거래량이 평소의 2배 넘게 늘었다. 장 시작 전에는 주가가 내렸다는 보도도 있어, 이후 흐름은 이 자료만으로는 알 수 없다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "3분기 실적 상향, 연간 전망 상향 근거가 출처 제목에 명확히 표현됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -12159,9 +13181,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:20:37"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FSV",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "FirstService는 북미에서 아파트·주택단지 관리 서비스와 복구·수리, 부동산 서비스를 제공해 수수료로 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거가 없는 상태로 카테고리 6으로 정확히 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -12687,9 +13729,61 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:58:38"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "H",
+        "category": 1,
+        "company": "하얏트 호텔 브랜드를 운영하는 호텔 기업으로, 호텔 운영·프랜차이즈 수수료와 리조트 사업으로 돈을 번다.",
+        "volumeExplanation": "10월 29일 3분기 실적에서 연간 전망을 올렸고 거래량이 평소의 2배 넘게 늘었다.",
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "회사는 2026년 연간 객실당 매출 성장 전망을 5~5.5%로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Luxury drives Hyatt’s Q3 RevPAR growth above expectations",
+                "publisher": "Hotel Dive",
+                "url": "https://finance.yahoo.com/real-estate/articles/luxury-drives-hyatt-q3-revpar-161051479.html",
+                "date": "2026-10-29",
+                "quote": "raising its full-year 2026 RevPAR growth outlook to a range of between 5% and 5.5%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Hyatt Hotels (H) Q3 Earnings Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/hyatt-hotels-h-q3-earnings-surpass-estimates",
+                "date": "2026-10-29",
+                "quote": "Hyatt Hotels (H) Q3 Earnings Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "실적 발표 당일 SEC에 실적 8-K가 제출됐고, 이익은 예상을 웃돌았다는 제목의 기사가 나왔다.",
+            "stripped": true
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 '미국은 8.2% 올라'가 출처 quote에 없음. c2, c3의 main claim은 정상",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 29일 3분기 실적에서 객실당 매출이 7.2% 오르고 연간 전망도 올려, 다음 날 거래량이 평소의 2배 넘게 늘었다. 이익이 예상을 웃돈 것으로 보도됐지만 매출은 예상에 못 미쳤다는 평가도 있다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -13489,9 +14583,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:07:31"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LLYVA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Liberty Live Holdings는 콘서트 같은 라이브 음악 행사를 기획하고 공연장을 운영하며 아티스트와 선수를 관리해 돈을 번다. 라이브 네이션 지분과 연결된 지주회사 성격이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "리버티 라이브 A",
@@ -14026,54 +15140,20 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "JLL",
         "category": 1,
-        "company": "JLL은 기업과 투자자에게 상업용 부동산 임대 중개, 매매 자문, 자산·시설 관리를 제공하고 수수료로 돈을 버는 부동산 서비스 회사다.",
-        "volumeExplanation": "10월 28일 3분기 실적에서 매출 73억 달러(12% 증가), 조정 주당순이익 6.76달러(50% 증가)로 예상을 웃돌았고 연간 이익 목표도 올렸다. 실적과 전망 상향이 겹치며 거래량이 평소의 2배 넘게 늘었다.",
+        "company": "JLL은 상업용 부동산 임대 중개, 자산·시설 관리, 투자 자문과 개발을 하는 부동산 서비스 회사입니다. 수수료와 관리 용역 매출이 중심입니다.",
+        "volumeExplanation": "10월 28일 3분기 실적이 분기 기준 사상 최대였고 올해 주당순이익 목표도 올렸습니다. 거래량이 평소의 2배 넘게 늘었습니다.",
         "claims": [
           {
-            "id": "c1",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "JLL Reports Financial Results for Third-Quarter 2026",
-                "publisher": "PR Newswire",
-                "url": "https://finance.yahoo.com/real-estate/articles/jll-reports-financial-results-third-113000367.html",
-                "date": "2026-10-28",
-                "quote": "Revenue was $7.3 billion, up 12% in USD and LC",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "3분기 매출이 73억 달러로 1년 전보다 12% 늘고, 조정 주당순이익은 6.76달러로 50% 늘었다.",
-            "stripped": true
-          },
-          {
             "id": "c2",
-            "statement": "회사는 연간 조정 주당순이익 목표 범위를 올렸고, 중간값 기준 37% 성장을 제시했다.",
+            "statement": "회사가 2026년 주당순이익 목표 범위를 25.20~26.30달러로 올렸다. 중간값 기준 전년 대비 37% 성장이다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "JLL Reports Financial Results for Third-Quarter 2026",
-                "publisher": "PR Newswire",
-                "url": "https://finance.yahoo.com/real-estate/articles/jll-reports-financial-results-third-113000367.html",
-                "date": "2026-10-28",
-                "quote": "have raised our full-year Adjusted EPS target range, reflecting 37% growth at the midpoint",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "증권사 예상치(컨센서스)도 매출과 이익 모두 웃돌았다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Jones Lang LaSalle (JLL) Q3 Earnings and Revenues Top Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/jones-lang-lasalle-jll-q3-earnings-and-revenues-top-estimates",
-                "date": "2026-10-28",
-                "quote": "Jones Lang LaSalle (JLL) Q3 Earnings and Revenues Top Estimates",
+                "title": "Jones Lang LaSalle Inc (JLL) (Q3 2026) Earnings Call Highlights: Record Quarter, Raised EPS ...",
+                "publisher": "GuruFocus.com (Yahoo)",
+                "url": "https://finance.yahoo.com/real-estate/articles/jones-lang-lasalle-inc-jll-030520851.html",
+                "date": "2026-10-29",
+                "quote": "Full-year 2026 target range raised to $25.20-$26.30 (37% growth at midpoint)",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -14083,13 +15163,18 @@ window.TEAM4_DATA = {
         "confidence": "high",
         "factcheck": {
           "verdict": "partial",
-          "removed": [],
-          "reason": "c1의 '조정 주당순이익은 6.76달러로 50% 늘었다' 부분이 c1 quote에 없음. quote는 'Revenue was $7.3 billion, up 12%'만 제공. EPS 수치는 따로 근거 필요. volumeExplanation에 이 수치가 남아있어 수정 필요."
+          "removed": [
+            "c1",
+            "c3"
+          ],
+          "reason": "c1에서 12% 성장률이 quote에 없음 ('Record'만 있음). c3에서 8-K 제출 날짜가 quote에 없음",
+          "narrativeFixed": true
         },
+        "volumeExplanationOriginal": "10월 28일 3분기 실적이 분기 기준 사상 최대였고 올해 주당순이익 목표도 올렸습니다. 이 발표 뒤 주가가 급등하며 거래량이 평소의 2배 넘게 늘었습니다.",
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-10-29",
-        "carried": true
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -14777,9 +15862,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:22:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "SharkNinja는 샤크 청소기, 닌자 주방가전, 뷰티 기기를 전 세계에 팔아 돈을 버는 생활가전 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -14860,9 +15965,75 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:44:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WCC",
+        "category": 1,
+        "company": "Wesco는 전기·통신·산업용 자재를 유통하는 회사로, 데이터센터와 건설 현장 등에 제품을 공급해 돈을 번다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 시장 예상을 웃돌고 올해 전망(가이던스)까지 올리면서 거래량이 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 실적이 시장 예상치(매출·주당순이익)를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Wesco International (WCC) Tops Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/wesco-international-wcc-tops-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-29",
+                "quote": "Wesco International (WCC) Tops Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 2026년 연간 가이던스(회사 전망)를 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Wesco Raises 2026 Guidance",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/wesco-raises-2026-guidance",
+                "date": "2026-10-29",
+                "quote": "Wesco Raises 2026 Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "실적 발표 당일 주가가 급등했다고 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "WESCO (NYSE:WCC) reports bullish Q3 2026, stock soars",
+                "publisher": "StockStory (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/wesco-nyse-wcc-reports-bullish-101415406.html",
+                "date": "2026-10-29",
+                "quote": "WESCO (NYSE:WCC) reports bullish Q3 2026, stock soars",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3의 16.6% 성장률과 영업이익(4억 5,080만, 30.5% 성장)이 quote에 없음. Net Sales 금액만 quote에 있음",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 29일 3분기 실적이 시장 예상을 웃돌고 올해 전망(가이던스)까지 올리면서 거래량이 늘었다. 분기 매출이 1년 전보다 16.6% 늘고 영업이익은 30.5% 늘어 실적 개선 폭이 컸다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -14978,9 +16149,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:57:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EHC",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 28일 3분기 실적을 발표했는데 주당순이익과 매출이 모두 시장 예상치를 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Encompass Health (EHC) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/encompass-health-ehc-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-10-28",
+                "quote": "Encompass Health (EHC) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 올해 연간 전망(가이던스)을 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Encompass Health Q3 Adjusted Earnings, Revenue Rise; FY Guidance Lifted",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/healthcare/articles/encompass-health-q3-adjusted-earnings-205752814.html",
+                "date": "2026-10-28",
+                "quote": "Encompass Health Q3 Adjusted Earnings, Revenue Rise; FY Guidance Lifted",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 이튿날 BofA가 목표주가를 153달러에서 157달러로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BofA Securities Adjusts Encompass Health Price Target to $157 From $153",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-encompass-health-122200640.html",
+                "date": "2026-10-29",
+                "quote": "BofA Securities Adjusts Encompass Health Price Target to $157 From $153",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Encompass Health는 미국에서 입원 재활병원(뇌졸중·낙상 후 재활 등)을 운영하며 환자 진료비로 돈을 번다.",
+        "volumeExplanation": "10월 28일 3분기 실적이 예상치를 넘고 연간 전망까지 올라가면서 다음 날 거래량이 늘었다. 증권사 목표주가 상향이 이어져 매수세를 거들었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장(c1, c2, c3)이 출처로 뒷받침됨. 10/28 실적 발표, 전망 상향, 목표주가 상향이 순차적으로 확인됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -15669,9 +16902,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:32:08"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CHDN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Churchill Downs는 켄터키 더비 경마장과 경마 베팅, 지역 카지노·게임 사업으로 돈을 버는 도박·레저 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음이 올바르게 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -16962,9 +18215,82 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:29:34"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LLY",
+        "category": 1,
+        "company": "일라이 릴리는 비만·당뇨 주사제 마운자로와 젭바운드를 팔아 돈을 버는 세계 최대 제약사다. 경구 비만약과 항암제 등으로 제품군을 넓히고 있다.",
+        "volumeExplanation": "10월 29일 발표한 3분기 실적이 예상치를 웃돌고 올해 매출 전망도 올라갔다. 이 실적을 소화하는 과정에서 거래량이 평소의 2배 수준으로 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Eli Lilly (LLY) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/eli-lilly-lly-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-29",
+                "quote": "Eli Lilly (LLY) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/eli-lilly-reports-39-q3-revenue-growth-raises-2026-sales-outlook-and-advances-drug",
+                "date": "2026-10-29",
+                "quote": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "3분기 매출 243.97억 달러로 1년 전보다 약 39% 늘었고, 증권가 예상치도 웃돌았다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 올해 매출 전망(가이던스)을 다시 올렸고, 발표 직후 주가가 뛰었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "LLY Stock Jumps as Q3 Earnings Beat Estimates, 2026 Sales View Raised",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/lly-stock-jumps-q3-earnings-beat-estimates-2026-sales-view-raised",
+                "date": "2026-10-29",
+                "quote": "LLY Stock Jumps as Q3 Earnings Beat Estimates, 2026 Sales View Raised",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "가격은 내렸지만 판매량이 크게 늘어 매출이 커졌다. 판매량 증가가 가격 하락을 압도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Eli Lilly Sells 53% More at Lower Prices: Rapid Earnings Reaction",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/eli-lilly-sells-53-more-lower-prices-rapid-earnings-reaction",
+                "date": "2026-10-29",
+                "quote": "Eli Lilly Sells 53% More at Lower Prices: Rapid Earnings Reaction",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장이 출처로 뒷받침됨. 39% 매출 성장, 전망 상향, 판매량 53% 증가가 quote에 확인됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -17038,9 +18364,36 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:33:17"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CACC",
+        "category": 6,
+        "company": "Credit Acceptance는 신용이 낮은 소비자의 중고차 구매 대출을 딜러를 통해 취급하고 이자 수익으로 돈을 법니다.",
+        "volumeExplanation": "10월 29일 장 마감 뒤 3분기 실적이 발표되며 거래량이 평소의 2배 수준으로 늘었습니다.",
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "c1: 1년 전 $10.28, 14.9% 증가율, 순손실 수치가 quote에 없음. c2: 자사주 매입 $160M이 quote에 없음. 모든 claim 제거로 근거 불충분하여 category 6으로 정정",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "10월 29일 장 마감 뒤 3분기 실적이 나왔고, 일회성 항목을 뺀 조정 이익이 1년 전보다 늘고 대출 취급액이 크게 늘었습니다. 이 실적이 반영되며 30일 거래량이 평소의 2배 수준으로 늘었습니다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -17680,9 +19033,73 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:00:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SITE",
+        "category": 1,
+        "company": "SiteOne은 미국 전역에서 조경·잔디·관개 자재를 전문 조경업자에게 유통해 돈을 번다.",
+        "volumeExplanation": "10월 28일 3분기 실적을 발표했고 같은 날 5억 달러 규모의 자사주 매입 한도 확대도 알렸다. 실적 호조와 주주환원 소식이 겹쳐 거래량이 평소의 약 2배로 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 28일 3분기 실적을 발표하면서 자사주 매입 한도를 5억 달러 늘린다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SiteOne Landscape Supply Reports Third Quarter 2026 Results and Announces $500 million Share Repurchase Increase",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/siteone-landscape-supply-reports-third-quarter-2026-results-and-announces-500-million",
+                "date": "2026-10-28",
+                "quote": "SiteOne Landscape Supply Reports Third Quarter 2026 Results and Announces $500 million Share Repurchase Increase",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "3분기 주당순이익과 매출이 시장 예상치를 웃돌았다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SiteOne Landscape (SITE) Q3 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/siteone-landscape-site-q3-earnings-and-revenues-beat-estimates",
+                "date": "2026-10-28",
+                "quote": "SiteOne Landscape (SITE) Q3 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "UBS가 실적 다음 날 목표주가를 110달러에서 122달러로 올렸다(투자의견 중립 유지).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UBS Adjusts Price Target on SiteOne Landscape Supply to $122 From $110, Maintains Neutral Rating",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-siteone-143435110.html",
+                "date": "2026-10-29",
+                "quote": "UBS Adjusts Price Target on SiteOne Landscape Supply to $122 From $110, Maintains Neutral Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3의 숫자(12.9억 달러, 2.6%, 12.4%, 8.1%)가 quote '​Q3 Profit Rises'에 없음. 실적 발표와 자사주 상향은 확인됨(c1, c2, c4)"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -17798,9 +19215,44 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:09:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STNG",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "실적과 함께 배당을 67% 올리고 운임이 사상 최고 수준이라고 밝혀 주가가 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Scorpio Tankers Inc (STNG) Q3 2026 Earnings Call Highlights: Record Rates, a 67% Dividend Hike, ...",
+                "publisher": "GuruFocus.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/scorpio-tankers-inc-stng-q3-190609410.html",
+                "date": "2026-10-28",
+                "quote": "Scorpio Tankers Inc (STNG) Q3 2026 Earnings Call Highlights: Record Rates, a 67% Dividend Hike, ...",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Scorpio Tankers는 원유 정제제품(휘발유·경유 등)을 실어 나르는 탱커선을 운영해 운임으로 돈을 법니다.",
+        "volumeExplanation": "10월 28일 배당이 67% 늘고 운임이 사상 최고 수준이라는 소식에 거래량이 늘었다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c3"
+          ],
+          "reason": "c1에서 진술한 조정 주당순이익 2.49달러와 예상치 1.83달러는 quote에 없음 (quote는 순이익 224.3백만달러만 기재). c3에서 도이치뱅크는 출처에 언급되지 않음(B. Riley만 확인됨).",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "10월 28일 3분기 실적이 예상치를 크게 넘고 배당이 67% 늘면서 거래량이 평소의 2배로 늘었다. 이튿날 증권사 목표주가 상향이 이어졌다. 실적 내용이 이후 분기에도 이어지는지가 이 이야기가 맞는지 가르는 확인점이다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -18349,9 +19801,57 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:04:00"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CNXN",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 28일 장 마감 뒤 3분기 실적을 냈고, 매출과 이익 모두 증권사 예상치를 넘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PC Connection (CNXN) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/pc-connection-cnxn-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-10-28",
+                "quote": "PC Connection (CNXN) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "PC Connection Inc (CNXN) (Q3 2026) Earnings Call Highlights: Record Sales and Profit Growth",
+                "publisher": "GuruFocus.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/pc-connection-inc-cnxn-q3-051006447.html",
+                "date": "2026-10-29",
+                "quote": "PC Connection Inc (CNXN) (Q3 2026) Earnings Call Highlights: Record Sales and Profit Growth ...",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "실적 발표 직후 SEC에 실적 발표 8-K를 제출했고, 다음 날 실적 설명회에서 매출과 이익이 사상 최고라는 평가가 나왔다.",
+            "stripped": true
+          }
+        ],
+        "company": "PC Connection(CNXN)은 기업·공공기관에 컴퓨터, 소프트웨어, IT 서비스를 판매하는 유통 업체다. 제품 판매 마진과 IT 솔루션 서비스로 돈을 번다.",
+        "volumeExplanation": "10월 28일 장 마감 뒤 발표한 3분기 실적이 예상치를 넘어서 29~30일 거래량이 평소보다 늘었다. 다만 종가는 당일 고가권보다 낮아 매수세가 끝까지 이어지지는 않았다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "c1의 earnings/revenues beat는 quote 제목과 일치. c2의 record sales/profit growth는 earnings call highlights에 확인됨. 날짜와 주요 수치 모두 검증됨."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -18964,9 +20464,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:30:22"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "W",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Wayfair는 온라인으로 가구와 생활용품을 팔아 돈을 버는 미국 인터넷 소매업체다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류됨. no_source 정상."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -19740,9 +21260,57 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:51:56"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NEU",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 순이익 1억 2,410만 달러, 주당 13.50달러로 1년 전 10.67달러보다 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NewMarket Corporation Reports Third Quarter and First Nine Months 2026 Results",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/newmarket-corporation-reports-third-quarter-210100792.html",
+                "date": "2026-10-28",
+                "quote": "Net income for the third quarter of 2026 was $124.1 million, or $13.50 per share, compared to net income of $100.3 million, or $10.67 per share, for the third quarter of 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "NewMarket Corporation Increases Quarterly Dividend",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/newmarket-corporation-increases-quarterly-dividend-210100459.html",
+                "date": "2026-10-29",
+                "quote": "an increase of $0.25, or approximately 8%, as compared to the last quarterly dividend of $3.00 per share",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "다음 날 분기 배당을 주당 3.00달러에서 3.25달러로 약 8% 올렸다.",
+            "stripped": true
+          }
+        ],
+        "company": "NewMarket은 자동차·산업용 윤활유 첨가제를 만들어 파는 특수화학 회사다. 첨가제 부문이 매출 대부분을 차지한다.",
+        "volumeExplanation": "10월 28일 장 마감 후 발표한 3분기 순이익이 주당 13.50달러로 1년 전보다 늘었고, 29일에는 배당 약 8% 인상도 나왔다. 이 두 소식에 거래대금이 평소의 1.68배로 늘었다. 실적이 시장 예상을 얼마나 웃돌았는지는 확인되지 않았다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "c1: $124.1백만=1억2410만달러, $13.50, $10.67 모두 quote에 일치. c2: $0.25 인상(약8%)과 $3.00 기준도 quote에 정확히 확인됨."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -20315,9 +21883,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:52:55"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MRVL",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "블룸버그 보도로 Marvell이 광부품 업체 Lumentum 인수를 위한 막바지 협의 중이며 다음 주 발표가 가능하다는 소식이 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Nvidia-Backed Marvell, Lumentum Could Be Nearing a Deal",
+                "publisher": "Investopedia (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-backed-marvell-lumentum-could-191329102.html",
+                "date": "2026-10-29",
+                "quote": "Marvell is in advanced talks to buy Lumentum, with an announcement possible next week.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "Marvell 주가는 이 소식에 14% 넘게 하락한 것으로 전해졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Nvidia-Backed Marvell, Lumentum Could Be Nearing a Deal",
+                "publisher": "Investopedia (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-backed-marvell-lumentum-could-191329102.html",
+                "date": "2026-10-29",
+                "quote": "Marvell shares declined over 14% on the news",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Marvell은 데이터센터와 AI용 맞춤 반도체, 고속 연결 칩을 설계해 파는 반도체 회사다.",
+        "volumeExplanation": "Marvell이 레이저 부품 공급사 Lumentum 인수를 막바지 협의 중이라는 보도가 나오면서 주가가 14% 넘게 떨어졌고, 매도가 몰려 거래량이 늘었다. 인수 발표가 실제로 나오는지, 그리고 시장이 인수 조건을 어떻게 받아들이는지가 이 이야기가 맞는지 가릴 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "c1: advanced talks, Lumentum 인수, next week announcement 모두 quote에 확인. c2: over 14% decline과 주가 반응도 quote에 명시됨. M&A 분류 적절."
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -21131,9 +22745,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:02:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CPAY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Corpay는 기업 대금 결제, 법인 차량 연료카드, 해외송금·환전 서비스를 제공하고 수수료로 돈을 버는 결제 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -21853,9 +23487,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-11 05:43:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SUNC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "SUNC는 선버거 계열 연료 유통·송유관·터미널 사업을 하는 Sunoco LP의 지분을 가진 상장 회사다. 주유소 연료 도매와 송유관 이용료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -22399,9 +24053,41 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:38:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TWLO",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Twilio가 10월 29일 3분기 실적을 발표했고, 이익과 매출이 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twilio (TWLO) Q3 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/twilio-twlo-q3-earnings-and-revenues-beat-estimates",
+                "date": "2026-10-29",
+                "quote": "Twilio (TWLO) Q3 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Twilio는 기업이 고객에게 문자·음성·메시지를 보내는 클라우드 통신 플랫폼을 제공하고 사용량과 구독료로 돈을 번다.",
+        "volumeExplanation": "10월 29일 3분기 실적이 예상치를 웃돌며 발표되어 거래량이 평소보다 크게 늘었다. 실적 발표 직후 매매가 몰린 것이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 '거래량이 몰린 시점과 일치한다'는 주장이 SEC 8-K quote에 없음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-30",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -23195,14 +24881,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 6,
+    "done": 44,
     "total": 45,
-    "cap": null,
-    "pending": 39,
+    "cap": 43,
+    "pending": 1,
     "failed": 0,
-    "carried": 6,
+    "carried": 1,
     "ineligible": 0,
-    "note": "45종목 중 6종목을 조사했습니다. 그중 6종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 39종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "45종목 중 44종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 1종목은 상한(43) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -23315,5 +25001,164 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재가 병원·의료·바이오(건강관리) 계열에 가장 많이 몰렸고, 외식(레스토랑)과 리츠(부동산 투자회사)도 여러 건 나왔습니다. 그 밖에는 업종이 흩어져 있습니다.",
     "caution": "category 1 로 분류됐어도 UHS·NOW·FLXS·GRMN·TYL·RNR·NBR·CLH 는 예상치 미달이거나 엇갈린 결과, 또는 근거 부족이라 호재 목록에서 뺐습니다. 산업 기술 돌파(category 5) 후보는 없었고, 주가 반응과 차트는 확인하지 않았으니 매수 판단은 직접 하세요.",
     "researchedOn": "2026-10-29"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "GKOS",
+        "category": 1,
+        "oneLine": "3분기 매출 2.11억 달러(사상 최대, +58%), 흑자 전환, 연간 전망 상향"
+      },
+      {
+        "ticker": "CROX",
+        "category": 1,
+        "oneLine": "3분기 매출·주당순이익 모두 예상 상회, 연간 전망 상향"
+      },
+      {
+        "ticker": "FCN",
+        "category": 1,
+        "oneLine": "조정 주당순이익 예상 상회, 매출 10.13억 달러(사상 최대), 전망 상향"
+      },
+      {
+        "ticker": "HII",
+        "category": 1,
+        "oneLine": "3분기 매출·주당순이익이 증권사 예상치를 모두 상회"
+      },
+      {
+        "ticker": "WST",
+        "category": 1,
+        "oneLine": "올해 조정 주당순이익 전망을 크게 상향"
+      },
+      {
+        "ticker": "DVA",
+        "category": 1,
+        "oneLine": "매출·주당순이익 예상 상회, 매출 35.8억 달러(+4.6%), 순이익 +48.3%"
+      },
+      {
+        "ticker": "MANH",
+        "category": 1,
+        "oneLine": "매출·주당순이익 예상 상회, Truist 목표가 240→305달러"
+      },
+      {
+        "ticker": "LNG",
+        "category": 1,
+        "oneLine": "전망 상향·배당 12% 증액, 매출 +42%. 주당순이익은 예상 하회"
+      },
+      {
+        "ticker": "TXT",
+        "category": 1,
+        "oneLine": "실적이 예상 평균을 웃돌고 연간 전망 상향 보도, 주가 급등"
+      },
+      {
+        "ticker": "WEC",
+        "category": 1,
+        "oneLine": "매출·주당순이익 예상 상회, 2026년 가이던스(회사 전망) 상향"
+      },
+      {
+        "ticker": "TYL",
+        "category": 1,
+        "oneLine": "3분기 이익이 예상 상회 보도. 전망 상향 근거는 없음"
+      },
+      {
+        "ticker": "VMC",
+        "category": 1,
+        "oneLine": "3분기 주당순이익이 시장 예상치를 상회"
+      },
+      {
+        "ticker": "FLS",
+        "category": 1,
+        "oneLine": "이익·매출 예상 상회. 전망은 상향 아닌 범위 좁히기 수준"
+      },
+      {
+        "ticker": "HLI",
+        "category": 1,
+        "oneLine": "이익·매출 예상 상회, 그러나 발표 직후 시간외 주가는 하락"
+      },
+      {
+        "ticker": "AAMI",
+        "category": 1,
+        "oneLine": "주당순이익 1.36달러(예상 1.22달러), 매출은 예상보다 2.38% 낮음"
+      },
+      {
+        "ticker": "GATX",
+        "category": 1,
+        "oneLine": "순이익 1.05억 달러, 올해 이익이 전망 상단을 소폭 넘을 전망"
+      },
+      {
+        "ticker": "MHK",
+        "category": 1,
+        "oneLine": "조정 주당순이익 2.72달러로 예상 상회, 5억 달러 자사주 매입 승인"
+      },
+      {
+        "ticker": "PDS",
+        "category": 1,
+        "oneLine": "3분기 실적 발표와 거래량 증가가 겹침. 예상 상회 근거는 없음"
+      },
+      {
+        "ticker": "THC",
+        "category": 1,
+        "oneLine": "3분기 실적 예상 상회, 2026년 연간 전망 상향"
+      },
+      {
+        "ticker": "H",
+        "category": 1,
+        "oneLine": "연간 객실당 매출 성장 전망을 5~5.5%로 상향, 이익 예상 상회"
+      },
+      {
+        "ticker": "JLL",
+        "category": 1,
+        "oneLine": "2026년 주당순이익 목표를 25.20~26.30달러로 상향(중간값 +37%)"
+      },
+      {
+        "ticker": "WCC",
+        "category": 1,
+        "oneLine": "매출·주당순이익 예상 상회, 2026년 가이던스 상향, 주가 급등"
+      },
+      {
+        "ticker": "EHC",
+        "category": 1,
+        "oneLine": "주당순이익·매출 예상 상회, 전망 상향, BofA 목표가 153→157달러"
+      },
+      {
+        "ticker": "LLY",
+        "category": 1,
+        "oneLine": "3분기 매출 243.97억 달러(+39%), 예상 상회, 연간 매출 전망 재상향"
+      },
+      {
+        "ticker": "SITE",
+        "category": 1,
+        "oneLine": "주당순이익·매출 예상 상회, 자사주 매입 한도 5억 달러 증액"
+      },
+      {
+        "ticker": "STNG",
+        "category": 1,
+        "oneLine": "배당 67% 인상, 운임 사상 최고라고 밝힘. 예상 대비 근거는 없음"
+      },
+      {
+        "ticker": "CNXN",
+        "category": 1,
+        "oneLine": "매출·이익 모두 예상 상회, 사상 최고 평가"
+      },
+      {
+        "ticker": "NEU",
+        "category": 1,
+        "oneLine": "주당순이익 13.50달러(전년 10.67달러), 분기 배당 약 8% 인상"
+      },
+      {
+        "ticker": "TWLO",
+        "category": 1,
+        "oneLine": "3분기 이익과 매출이 시장 예상치를 상회"
+      }
+    ],
+    "sectorSignal": "실적 호재 29건이 거의 전부이고, 산업재(HII·TXT·FCN·GATX·FLS·WCC)와 헬스케어(GKOS·WST·DVA·THC·EHC·LLY)가 비교적 많지만 한 업종에 쏠렸다고 보기는 어렵습니다. 산업 기술 돌파 호재는 없었습니다.",
+    "caution": "같은 실적 호재라도 강도가 다릅니다. 예상 상회와 전망 상향이 같이 확인된 종목이 있는 반면, LNG(주당순이익 하회), FLS(전망 범위만 좁힘), HLI(시간외 하락), AAMI(매출 하회), PDS·TYL·STNG는 서프라이즈 근거가 약합니다. 차트 상태는 보지 않았으니 직접 확인하세요.",
+    "researchedOn": "2026-10-30"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 29,
+    "3": 1,
+    "4": 1,
+    "6": 13
   }
 };

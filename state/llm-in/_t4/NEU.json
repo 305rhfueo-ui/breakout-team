@@ -1,0 +1,201 @@
+{
+ "ticker": "NEU",
+ "news": [
+  {
+   "title": "NewMarket (NEU) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/newmarket-neu-q1-2026-earnings-transcript",
+   "date": "2026-04-23",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "NewMarket (NEU) Q3 2025 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/newmarket-neu-q3-2025-earnings-call-transcript",
+   "date": "2026-04-14",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "NewMarket (NEU) Q4 2024 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/newmarket-neu-q4-2024-earnings-call-transcript",
+   "date": "2026-04-14",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "NewMarket (NEU) Passes Through 2% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/newmarket-neu-passes-through-2-yield-mark",
+   "date": "2026-02-12",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - NEU",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-neu",
+   "date": "2025-12-24",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "NewMarket Corporation Increases Quarterly Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/newmarket-corporation-increases-quarterly-dividend-210100459.html",
+   "date": "2026-10-29",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NewMarket Q3 Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/newmarket-q3-earnings-revenue-rise-211115708.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NewMarket: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/newmarket-q3-earnings-snapshot-210850192.html",
+   "date": "2026-10-28",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NewMarket Corporation Reports Third Quarter and First Nine Months 2026 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/newmarket-corporation-reports-third-quarter-210100792.html",
+   "date": "2026-10-28",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NewMarket (NEU) Stock May Offer A 35% Discount To Cash Flow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/newmarket-neu-stock-may-offer-111700477.html",
+   "date": "2026-10-24",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1282637/000119312526438002/d141263d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "reportDate": "2026-10-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1282637/000128263726000019/neu-20261028.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1282637/000119312526349568/d157718d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1282637/000128263726000015/neu-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1282637/000119312526173975/d127448d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1282637/000128263726000008/neu-20260422.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.96,
+    -4.46,
+    -2.94
+   ],
+   "ni": [
+    20.21,
+    -6.26,
+    -26.62
+   ],
+   "opm": [
+    21.91,
+    21.39,
+    17.32
+   ],
+   "updated": "2026-09-21 06:51:56"
+  }
+ }
+}

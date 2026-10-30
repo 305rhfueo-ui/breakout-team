@@ -1,0 +1,306 @@
+{
+ "ticker": "HWM",
+ "sector": "Industrials",
+ "industry": "Aerospace & Defense",
+ "nameKo": "하우멧 에어로스페이스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 22.56,
+  "saleNy": 14.15,
+  "epsCy": 41.65,
+  "epsNy": 21.79,
+  "est": {
+   "cyCur": 5.34018,
+   "cy30": 5.33459,
+   "nyCur": 6.5036,
+   "ny30": 6.45787
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.06,
+    19.1,
+    14.65
+   ],
+   "ni": [
+    31.2,
+    69.1,
+    18.47
+   ],
+   "opm": [
+    27.92,
+    32.56,
+    22.56
+   ],
+   "updated": "2026-09-08 07:01:07"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "하우멧 에어로스페이스",
+  "nameEn": "HOWMET AEROSPACE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004281&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2703000000,
+     "profit": 777000000,
+     "netIncome": 567000000,
+     "margin": 28.7,
+     "yoy": {
+      "revenue": 29.4,
+      "profit": 43.4,
+      "netIncome": 47.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2547000000,
+     "profit": 711000000,
+     "netIncome": 534000000,
+     "margin": 27.9,
+     "yoy": {
+      "revenue": 24.1,
+      "profit": 36.5,
+      "netIncome": 31.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2313000000,
+     "profit": 753000000,
+     "netIncome": 580000000,
+     "margin": 32.6,
+     "yoy": {
+      "revenue": 19.1,
+      "profit": 52.4,
+      "netIncome": 68.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2168000000,
+     "profit": 489000000,
+     "netIncome": 372000000,
+     "margin": 22.6,
+     "yoy": {
+      "revenue": 14.6,
+      "profit": 9.9,
+      "netIncome": 18.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Howmet Aerospace (HWM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/howmet-aerospace-hwm-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Howmet Stock Is Flying Higher Today",
+     "url": "https://www.nasdaq.com/articles/why-howmet-stock-flying-higher-today",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Howmet Aerospace Reports Third Quarter 2026 Results and Additional $5 Billion Share Repurchase Authorization",
+     "url": "https://www.nasdaq.com/articles/howmet-aerospace-reports-third-quarter-2026-results-and-additional-5-billion-share",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Howmet Aerospace Q3 26 Earnings Conference Call At 10:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/howmet-aerospace-q3-26-earnings-conference-call-10-00-am-et",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Howmet (HWM) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/howmet-hwm-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Howmet Aerospace Inc. Profit Climbs In Q3",
+     "url": "https://www.nasdaq.com/articles/howmet-aerospace-inc-profit-climbs-q3",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Howmet (HWM) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+     "url": "https://www.nasdaq.com/articles/howmet-hwm-q3-earnings-preview-what-you-should-know-beyond-headline-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "HWM vs. ATI: Which Aerospace & Defense Stock Has More Upside Potential?",
+     "url": "https://www.nasdaq.com/articles/hwm-vs-ati-which-aerospace-defense-stock-has-more-upside-potential",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926119857/tm2628456d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926091610/tm2622325d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926067497/hwm-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926066305/tm2615511d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926056645/tm2613779d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-06",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926039959/tm2611203d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-09-09",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[하우멧 에어로스페이스 (NYS:HWM)] 스페이스X에 이어 GE까지 내재화 발표",
+     "summary": "- 스페이스X와 GE의 가스터빈, 항공엔진 주조사업 내재화 발표 등으로 PE 는 48배에서 38배까지 하락. 대형 기업의 핵심 부품 내재화는 멀티플 하 락 요인.- GE 에어로스페이스는 117.5억달러에 정밀주조기업 CPP(Consolidated Precision Products) 인수 발표. 2H27 완료 예정. CPP는 GE와 15년 이상 협력해 온 기업으로, LEAP, GEnX, T700, F110, F404 엔진에 사용되는 터 빈 에어포일의 주조품 공급.- 1H26기준 매출에서 GE는 14%의 최대 고객이며, 시장별로 상업·방산 항 공우주 70%, 산업용 가스터빈 13% 차지. 엔진제품 매출은 55%. 최대 고 객인 GE의 핵심 에어포일 주조역량 내재화와 스페이스X의 가스터빈 주조 공장 건설로 중장기적 경쟁 심화는 우려",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmkixkxexemlgcgxecic.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2025-12-04",
+     "broker": "키움증권",
+     "analyst": "조민주",
+     "title": "[하우멧 에어로스페이스 (NYS:HWM)] 항공 수요와 데이터센터향 전력 수요가 만나다",
+     "summary": "- 항공 엔진, 항공 구조 부품 및 산업용 가스 터빈 등을 생산하는 항공·방산 기업- FY3Q25 실적 사상 최고치 경신 및 FY25 연간 가이던스 추가 상향- 항공기 및 산업용 전력 가스터빈 수요 증가의 직접적인 수혜 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkllxzgkcimgxgcgxecic.pdf",
+     "pages": "8"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Cramer's lightning round: Buy Howmet Aerospace",
+   "url": "https://www.cnbc.com/2026/09/02/cramers-lightning-round-buy-howmet-aerospace.html",
+   "date": "2026-09-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Howmet was hit hard by a SpaceX move. Two analysts say buy the dip",
+   "url": "https://www.cnbc.com/2026/09/01/howmet-was-hit-hard-by-a-spacex-move-two-analysts-say-buy-the-dip.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: PG&E, Apple, Howmet, Eli Lilly & more",
+   "url": "https://www.cnbc.com/2026/08/31/stocks-making-the-biggest-moves-midday-pcg-eix-agco-hwm-more-.html",
+   "date": "2026-08-31",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trade: GM, GOOGL, HWM, ORCL",
+   "url": "https://www.cnbc.com/video/2026/10/27/final-trade-gm-googl-hwm-orcl.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "HWM",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 44.42,
+  "pbr": 14.37,
+  "eps": 4.64,
+  "bps": 14.33,
+  "shares": 398801000,
+  "marketCapM": 82129,
+  "high52": 309.8503,
+  "high52Date": "2026-08-06",
+  "low52": 183.52,
+  "low52Date": "2026-10-23",
+  "last": 205.94,
+  "prevClose": 195.19,
+  "nameKo": "하우멧 에어로스페이스",
+  "nameEn": "HOWMET AEROSPACE INC",
+  "listedOn": "2020-04-01",
+  "exchange": "뉴욕거래소",
+  "listedShares": 398801000
+ }
+}

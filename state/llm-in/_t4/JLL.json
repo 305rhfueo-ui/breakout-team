@@ -8,6 +8,12 @@
    "publisher": "BNK Invest"
   },
   {
+   "title": "What Jones Lang LaSalle (JLL) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-jones-lang-lasalle-jll-said-its-q3-earnings-call",
+   "date": "2026-10-28",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "JLL (JLL) Q3 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/jll-jll-q3-2026-earnings-call-transcript",
    "date": "2026-10-28",
@@ -44,10 +50,25 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Is Jones Lang LaSalle (JLL) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
-   "url": "https://www.nasdaq.com/articles/jones-lang-lasalle-jll-solid-growth-stock-3-reasons-think-yes",
-   "date": "2026-10-12",
-   "publisher": "Zacks"
+   "title": "Market fundamentals remain strong despite economic uncertainty, JLL CEO says",
+   "url": "https://finance.yahoo.com/real-estate/articles/market-fundamentals-remain-strong-despite-155036698.html",
+   "date": "2026-10-29",
+   "publisher": "Facilities Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Jones Lang LaSalle Inc (JLL) (Q3 2026) Earnings Call Highlights: Record Quarter, Raised EPS ...",
+   "url": "https://finance.yahoo.com/real-estate/articles/jones-lang-lasalle-inc-jll-030520851.html",
+   "date": "2026-10-29",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why are JLL (JLL) shares soaring today",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-jll-jll-shares-soaring-030234280.html",
+   "date": "2026-10-29",
+   "publisher": "StockStory",
+   "via": "Yahoo"
   },
   {
    "title": "CIVITAS CAPITAL GROUP PROVIDES $386 MILLION CONSTRUCTION LOAN FOR INTERCONTINENTAL ORLANDO",
@@ -96,27 +117,6 @@
    "url": "https://finance.yahoo.com/real-estate/articles/jones-lang-lasalle-jll-q3-123003038.html",
    "date": "2026-10-28",
    "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Jones Lang LaSalle's Q3 Adjusted Earnings, Revenue Rise",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/jones-lang-lasalle-apos-q3-122653111.html",
-   "date": "2026-10-28",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "JLL’s (NYSE:JLL) Q3 2026 sales beat estimates",
-   "url": "https://finance.yahoo.com/real-estate/articles/jll-nyse-jll-q3-2026-121059677.html",
-   "date": "2026-10-28",
-   "publisher": "StockStory",
-   "via": "Yahoo"
-  },
-  {
-   "title": "JLL Reports Financial Results for Third-Quarter 2026",
-   "url": "https://finance.yahoo.com/real-estate/articles/jll-reports-financial-results-third-113000367.html",
-   "date": "2026-10-28",
-   "publisher": "PR Newswire",
    "via": "Yahoo"
   }
  ],
@@ -220,12 +220,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 11.16,
-  "saleNy": 7.83,
-  "epsCy": 32.46,
-  "epsNy": 12.58,
-  "cyTrend": -0.67,
-  "nyTrend": -1.32,
+  "saleCy": 10.39,
+  "saleNy": 8.64,
+  "epsCy": 35.47,
+  "epsNy": 11.44,
+  "cyTrend": 1.41,
+  "nyTrend": -0.32,
   "newHigh52": false,
   "bbCenterBrk5d": true,
   "fs": {

@@ -1,0 +1,301 @@
+{
+ "ticker": "NXPI",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "NXP 세미컨덕터스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 16.67,
+  "saleNy": 11.96,
+  "epsCy": 28.4,
+  "epsNy": 20.78,
+  "est": {
+   "cyCur": 15.16446,
+   "cy30": 15.0591,
+   "nyCur": 18.31523,
+   "ny30": 18.13491
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    19.48,
+    12.2,
+    7.2
+   ],
+   "ni": [
+    72.36,
+    128.98,
+    -8.08
+   ],
+   "opm": [
+    30.64,
+    47.31,
+    22.31
+   ],
+   "updated": "2026-09-08 06:24:17"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "NXP 세미컨덕터스",
+  "nameEn": "NXP SEMICONDUCTORS N V",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413447&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-27",
+     "derived": false,
+     "revenue": 3786000000,
+     "profit": 1228000000,
+     "netIncome": 884000000,
+     "margin": 32.4,
+     "yoy": {
+      "revenue": 19.3,
+      "profit": 37.5,
+      "netIncome": 40.1,
+      "priorEnd": "2025-09-28"
+     }
+    },
+    {
+     "periodEnd": "2026-06-28",
+     "derived": false,
+     "revenue": 3496000000,
+     "profit": 1071000000,
+     "netIncome": 767000000,
+     "margin": 30.6,
+     "yoy": {
+      "revenue": 19.5,
+      "profit": 55.9,
+      "netIncome": 72.4,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-29",
+     "derived": false,
+     "revenue": 3181000000,
+     "profit": 1505000000,
+     "netIncome": 1122000000,
+     "margin": 47.3,
+     "yoy": {
+      "revenue": 12.2,
+      "profit": 108.2,
+      "netIncome": 129,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3335000000,
+     "profit": 744000000,
+     "netIncome": 455000000,
+     "margin": 22.3,
+     "yoy": {
+      "revenue": 7.2,
+      "profit": 10.2,
+      "netIncome": -8.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "NXPI Q3 Earnings Call Highlights SDV and Data Center Growth",
+     "url": "https://www.nasdaq.com/articles/nxpi-q3-earnings-call-highlights-sdv-and-data-center-growth",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "NXP Semiconductors N.V. Reports Third Quarter 2026 Results and Announces $5 Billion Share Repurchase Authorization",
+     "url": "https://www.nasdaq.com/articles/nxp-semiconductors-nv-reports-third-quarter-2026-results-and-announces-5-billion-share",
+     "date": "2026-10-28",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "What NXP Semiconductors (NXPI) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-nxp-semiconductors-nxpi-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "NXP (NXPI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/nxp-nxpi-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "NXP (NXPI) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/nxp-nxpi-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "NXP Semiconductors N.V. Q3 Income Climbs",
+     "url": "https://www.nasdaq.com/articles/nxp-semiconductors-nv-q3-income-climbs",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "NXP Semiconductors (NXPI) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/nxp-semiconductors-nxpi-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "NXP Semiconductors N.V. Q3 26 Earnings Conference Call At 4:30 PM ET",
+     "url": "https://www.nasdaq.com/articles/nxp-semiconductors-nv-q3-26-earnings-conference-call-4-30-pm-et",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000057/nxpi-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000051/nxpi-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-28",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000047/nxpi-20260828.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000044/nxpi-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000039/nxpi-20260610.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000032/nxpi-20260428.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-04-29",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "title": "[NXP 세미컨덕터스 (NAS:NXPI)] 견조한 본업과 새로운 성장 스토리",
+     "summary": "- 실적발표 이후 +16% 상승. 차량 대수에 연동되는 구조→차량 전자구조 전환 수혜주로 재평가. 데이터센터 전력·냉각·제어 병목의 수혜 전망- 1Q26 매출액 31.8억달러(YoY+12.2%, 이하 전년동기대비), 영업이익 10.5억달러(+16.4%, OPM 33.1%)을 기록해 컨센서스 영업이익 10.3억달 러를 소폭 상회. 부문별 매출액은 전장 17.8억달러(+6%), 산업·IoT 6.3억 달러(+24%), 모바일 3.9억달러(+16%), 통신/인프라 3.8억달러(+21%)- 전장 부문은 MEMS 매각 영향 제외시 +10% 성장. 단순 자동차 생산량 회복이 아닌 소프트웨어 중심의 자동차, 구역형 전자구조, 레이더, 차량 연 결성에 따른 차량당 반도체 탑재량 증가가 핵심. 데이터센터 매출도 25년 2억달러에서 26년 5억달러로 긍정적 전망. 중요도가 확대되고 있는 전력, 냉각, 제어 네트워킹 영역에서 데이터센터향 새로운 성장 동력 발견",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkkxiqqiiggcgcgxecic.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2025-12-01",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[NXP 세미컨덕터스 (NAS:NXPI)] Automotive 재고 정상화",
+     "summary": "- 3Q25CY 실적 기대치 부합, 4Q25CY 가이던스는 시장 컨센서스 상회- Automotive 반도체 재고 정상화 언급됐으나, 아직까지 상승 사이클 신호는 부재- 2026년 상반기, Automotive 반도체 시장 회복과 함께 주가 반등 있을 것으로 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkzkimgecqgxqgcgxecic.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa and more",
+   "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-after-hours-f-ter-v-klac-and-more.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "NXP Semiconductors shares slide despite beating on revenue and earnings",
+   "url": "https://www.cnbc.com/video/2026/10/27/nxp-semiconductors-shares-slide-despite-beating-on-revenue-and-earnings.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Stacy Rasgon: Finding comfort in semiconductor fundamentals despite recent weakness",
+   "url": "https://www.cnbc.com/video/2026/07/28/stacy-rasgon-finding-comfort-in-semiconductor-fundamentals-despite-recent-weakness.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "NXPI",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 22.58,
+  "pbr": 5.89,
+  "eps": 11.78,
+  "bps": 45.19,
+  "shares": 252053000,
+  "marketCapM": 67046,
+  "high52": 337.2828,
+  "high52Date": "2026-05-27",
+  "low52": 179.8237,
+  "low52Date": "2025-11-20",
+  "last": 266,
+  "prevClose": 251.69,
+  "nameKo": "NXP 세미컨덕터스",
+  "nameEn": "NXP SEMICONDUCTORS N V",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 252053000
+ }
+}

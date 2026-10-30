@@ -457,8 +457,8 @@
       "count": 11
     },
     "SN": {
-      "last": "2026-10-22",
-      "count": 6
+      "last": "2026-10-30",
+      "count": 7
     },
     "AAOI": {
       "last": "2026-10-27",
@@ -673,8 +673,8 @@
       "count": 2
     },
     "GKOS": {
-      "last": "2026-08-26",
-      "count": 1
+      "last": "2026-10-30",
+      "count": 2
     },
     "LITE": {
       "last": "2026-10-27",
@@ -965,8 +965,8 @@
       "count": 1
     },
     "FTAI": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-30",
+      "count": 2
     },
     "JDZG": {
       "last": "2026-10-08",
@@ -1535,6 +1535,74 @@
     "HRI": {
       "last": "2026-10-29",
       "count": 1
+    },
+    "CROX": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "LLY": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "LNG": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "LHX": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "HII": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "VMC": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "MO": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "NXPI": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "INSM": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "DVA": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "ATI": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "IR": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "DASH": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "WCC": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "KLAC": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "HWM": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "CRS": {
+      "last": "2026-10-30",
+      "count": 1
     }
   },
   "team4": {
@@ -1641,8 +1709,10 @@
       "evid": "540b96d89cc8e967"
     },
     "FSV": {
-      "last": "2026-08-14",
-      "count": 5
+      "last": "2026-10-30",
+      "count": 6,
+      "cat": 6,
+      "evid": "94fc60db3a3f4fb5"
     },
     "ASND": {
       "last": "2026-08-14",
@@ -1899,8 +1969,10 @@
       "count": 2
     },
     "GATX": {
-      "last": "2026-08-21",
-      "count": 2
+      "last": "2026-10-30",
+      "count": 3,
+      "cat": 1,
+      "evid": "00c1729378c54560"
     },
     "TKO": {
       "last": "2026-08-25",
@@ -2024,10 +2096,10 @@
       "count": 2
     },
     "EHC": {
-      "last": "2026-10-20",
-      "count": 2,
-      "cat": 6,
-      "evid": "a26c8b6bd53c29df"
+      "last": "2026-10-30",
+      "count": 3,
+      "cat": 1,
+      "evid": "9b7b7ecf306f7817"
     },
     "FLUT": {
       "last": "2026-09-01",
@@ -2387,10 +2459,10 @@
       "evid": "f60c2781f60ed163"
     },
     "AAMI": {
-      "last": "2026-10-29",
-      "count": 2,
-      "cat": 6,
-      "evid": "520ad6352547d6ec"
+      "last": "2026-10-30",
+      "count": 3,
+      "cat": 1,
+      "evid": "8554149d7a0b58b7"
     },
     "ECO": {
       "last": "2026-10-15",
@@ -2447,10 +2519,10 @@
       "evid": "a807efcb99bd2ea2"
     },
     "WST": {
-      "last": "2026-09-16",
-      "count": 1,
+      "last": "2026-10-30",
+      "count": 2,
       "cat": 1,
-      "evid": "dc8bd686b51fb7b7"
+      "evid": "a68a43926ac2d4b6"
     },
     "FITB": {
       "last": "2026-09-16",
@@ -2519,10 +2591,10 @@
       "evid": "b3f58e765f22fef2"
     },
     "STNG": {
-      "last": "2026-10-02",
-      "count": 2,
-      "cat": 6,
-      "evid": "54fa328813a416ed"
+      "last": "2026-10-30",
+      "count": 3,
+      "cat": 1,
+      "evid": "4b3338a0be3bc3e5"
     },
     "USB": {
       "last": "2026-09-17",
@@ -2669,10 +2741,10 @@
       "evid": "17a08b54c5e9b9cb"
     },
     "CROX": {
-      "last": "2026-09-18",
-      "count": 1,
-      "cat": 6,
-      "evid": "37a834673b59da9d"
+      "last": "2026-10-30",
+      "count": 2,
+      "cat": 1,
+      "evid": "e437e0522162bf81"
     },
     "ATLC": {
       "last": "2026-10-08",
@@ -2681,10 +2753,10 @@
       "evid": "3a79d3053c7cd62e"
     },
     "CACC": {
-      "last": "2026-09-18",
-      "count": 1,
-      "cat": 5,
-      "evid": "24831c3cf216a6bf"
+      "last": "2026-10-30",
+      "count": 2,
+      "cat": 6,
+      "evid": "c4903883209a4695"
     },
     "SEZL": {
       "last": "2026-09-18",
@@ -2783,10 +2855,10 @@
       "evid": "1d248d8ac4ce9812"
     },
     "EG": {
-      "last": "2026-09-21",
-      "count": 4,
+      "last": "2026-10-30",
+      "count": 5,
       "cat": 6,
-      "evid": "8b96372f566835d3"
+      "evid": "5b614cff00176a3e"
     },
     "NHC": {
       "last": "2026-10-27",
@@ -2957,10 +3029,10 @@
       "evid": "787f9e9de0cf6717"
     },
     "BMO": {
-      "last": "2026-10-22",
-      "count": 4,
-      "cat": 6,
-      "evid": "25a88ae749248626"
+      "last": "2026-10-30",
+      "count": 5,
+      "cat": 4,
+      "evid": "cf8a4d8d35a3c94a"
     },
     "SYNA": {
       "last": "2026-10-03",
@@ -2993,10 +3065,10 @@
       "evid": "7468b5686b906e26"
     },
     "TWLO": {
-      "last": "2026-10-17",
-      "count": 2,
-      "cat": 6,
-      "evid": "146f5683e7866eb2"
+      "last": "2026-10-30",
+      "count": 3,
+      "cat": 1,
+      "evid": "4fd0035a4f3ae504"
     },
     "FORM": {
       "last": "2026-10-06",
@@ -3035,10 +3107,10 @@
       "evid": "b10e07c626ee05e3"
     },
     "MRVL": {
-      "last": "2026-10-07",
-      "count": 1,
+      "last": "2026-10-30",
+      "count": 2,
       "cat": 3,
-      "evid": "2b30c73fdde50603"
+      "evid": "4d3ad0a9424032c4"
     },
     "CIEN": {
       "last": "2026-10-07",
@@ -3069,10 +3141,10 @@
       "evid": "316fc986c22509d2"
     },
     "SUNC": {
-      "last": "2026-10-07",
-      "count": 1,
+      "last": "2026-10-30",
+      "count": 2,
       "cat": 6,
-      "evid": "c59a89b55358bf68"
+      "evid": "ef7a80639a512a61"
     },
     "BKH": {
       "last": "2026-10-08",
@@ -3111,10 +3183,10 @@
       "evid": "ca91b5c9bee065d0"
     },
     "GKOS": {
-      "last": "2026-10-09",
-      "count": 1,
-      "cat": 6,
-      "evid": "e15ea2cdee6fe77b"
+      "last": "2026-10-30",
+      "count": 2,
+      "cat": 1,
+      "evid": "fb6e0f4c19f26a00"
     },
     "VRSN": {
       "last": "2026-10-09",
@@ -3213,10 +3285,10 @@
       "evid": "143f1f691e654971"
     },
     "MANH": {
-      "last": "2026-10-29",
-      "count": 3,
-      "cat": 6,
-      "evid": "cc4dedaf79af89df"
+      "last": "2026-10-30",
+      "count": 4,
+      "cat": 1,
+      "evid": "1f0f4d1f22a0338c"
     },
     "BHRB": {
       "last": "2026-10-13",
@@ -3273,10 +3345,10 @@
       "evid": "8d03437a7d0509ee"
     },
     "CNXN": {
-      "last": "2026-10-14",
-      "count": 1,
-      "cat": 6,
-      "evid": "0478166857bec9ed"
+      "last": "2026-10-30",
+      "count": 2,
+      "cat": 1,
+      "evid": "b9e778a66cb6f0a7"
     },
     "ASML": {
       "last": "2026-10-15",
@@ -3435,10 +3507,10 @@
       "evid": "0552ae5ea4485029"
     },
     "W": {
-      "last": "2026-10-16",
-      "count": 1,
+      "last": "2026-10-30",
+      "count": 2,
       "cat": 6,
-      "evid": "3138fe6a933eb86c"
+      "evid": "3aed5aef2900b539"
     },
     "SIG": {
       "last": "2026-10-16",
@@ -3531,10 +3603,10 @@
       "evid": "eae3e76cceaf6e0b"
     },
     "CHKP": {
-      "last": "2026-10-23",
-      "count": 2,
+      "last": "2026-10-30",
+      "count": 3,
       "cat": 6,
-      "evid": "1eb62bedab9fd28e"
+      "evid": "7e4ad7bf40e64e24"
     },
     "PAYX": {
       "last": "2026-10-17",
@@ -3841,10 +3913,10 @@
       "evid": "f833aac7fd49bc6a"
     },
     "CP": {
-      "last": "2026-10-23",
-      "count": 1,
+      "last": "2026-10-30",
+      "count": 2,
       "cat": 6,
-      "evid": "93afa5e69ef129f7"
+      "evid": "c287c73a3628e79d"
     },
     "ULTA": {
       "last": "2026-10-23",
@@ -3865,10 +3937,10 @@
       "evid": "8a7d87a1a0b22788"
     },
     "TYL": {
-      "last": "2026-10-29",
-      "count": 2,
+      "last": "2026-10-30",
+      "count": 3,
       "cat": 1,
-      "evid": "840bb30b70458494"
+      "evid": "bf62d3fb6dee12da"
     },
     "CRAI": {
       "last": "2026-10-23",
@@ -4123,10 +4195,10 @@
       "evid": "c21752e16943a7da"
     },
     "THC": {
-      "last": "2026-10-28",
-      "count": 1,
-      "cat": 6,
-      "evid": "97d789e7a3a11cf5"
+      "last": "2026-10-30",
+      "count": 2,
+      "cat": 1,
+      "evid": "b5393ad62a6f5036"
     },
     "CAKE": {
       "last": "2026-10-29",
@@ -4201,10 +4273,10 @@
       "evid": "994214536ec76ca5"
     },
     "PDS": {
-      "last": "2026-10-29",
-      "count": 1,
-      "cat": 6,
-      "evid": "f1c93e9c7a7312af"
+      "last": "2026-10-30",
+      "count": 2,
+      "cat": 1,
+      "evid": "1c93e2e8e3024b81"
     },
     "FTNT": {
       "last": "2026-10-29",
@@ -4213,10 +4285,10 @@
       "evid": "303951ab178da2cf"
     },
     "JLL": {
-      "last": "2026-10-29",
-      "count": 1,
+      "last": "2026-10-30",
+      "count": 2,
       "cat": 1,
-      "evid": "8fd6d607c3350936"
+      "evid": "6f347cdb2006123f"
     },
     "CHE": {
       "last": "2026-10-29",
@@ -4289,6 +4361,126 @@
       "count": 1,
       "cat": 6,
       "evid": "ecd2b2fce1e901eb"
+    },
+    "FCN": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "2cc2f93d026dea3f"
+    },
+    "HII": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "c32908542b9bc032"
+    },
+    "DVA": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "45461c114621df1f"
+    },
+    "LNG": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "c870c27e0a4963c6"
+    },
+    "TXT": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "8e66b9b3daf3802b"
+    },
+    "WEC": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "c82b91bf03837c94"
+    },
+    "VMC": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "2731068a24af945f"
+    },
+    "FLS": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "e61b2c9a1831413e"
+    },
+    "HLI": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "d6b7001db957a324"
+    },
+    "MHK": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "12f54a4af566b1d9"
+    },
+    "RTX": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 6,
+      "evid": "48408fa1c487e3fc"
+    },
+    "H": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "a5778f434e37a33b"
+    },
+    "LLYVA": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 6,
+      "evid": "cd4a7382aac37dd2"
+    },
+    "SN": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 6,
+      "evid": "f15f9594f587fde1"
+    },
+    "WCC": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "36e134d0e4249e6d"
+    },
+    "CHDN": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 6,
+      "evid": "4bd21440c4b1c76a"
+    },
+    "LLY": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "21a3b4feb5ed2757"
+    },
+    "SITE": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "497f11a6ba86ae7a"
+    },
+    "NEU": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 1,
+      "evid": "6fb249633face1d1"
+    },
+    "CPAY": {
+      "last": "2026-10-30",
+      "count": 1,
+      "cat": 6,
+      "evid": "fcd816388d45b4ef"
     }
   },
   "team5": {
@@ -4325,8 +4517,8 @@
       "count": 2
     },
     "Healthcare|Health Information Services": {
-      "last": "2026-10-27",
-      "count": 4
+      "last": "2026-10-30",
+      "count": 5
     },
     "Healthcare|Biotechnology": {
       "last": "2026-10-28",
@@ -4345,24 +4537,24 @@
       "count": 2
     },
     "Healthcare|Drug Manufacturers - General": {
-      "last": "2026-10-27",
-      "count": 3
+      "last": "2026-10-30",
+      "count": 4
     },
     "Healthcare|Medical Devices": {
-      "last": "2026-10-27",
-      "count": 3
+      "last": "2026-10-30",
+      "count": 4
     },
     "Financial Services|Credit Services": {
       "last": "2026-10-20",
       "count": 1
     },
     "Financial Services|Insurance - Property & Casualty": {
-      "last": "2026-10-27",
-      "count": 2
+      "last": "2026-10-30",
+      "count": 3
     },
     "Technology|Information Technology Services": {
-      "last": "2026-10-27",
-      "count": 2
+      "last": "2026-10-30",
+      "count": 3
     }
   },
   "team6": {
@@ -5154,6 +5346,62 @@
     },
     "LRCX": {
       "last": "2026-10-29",
+      "count": 1
+    },
+    "GKOS": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "CROX": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "LLY": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "FTAI": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "LNG": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "LHX": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "HII": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "VMC": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "MO": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "NXPI": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "INSM": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "DVA": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "ATI": {
+      "last": "2026-10-30",
+      "count": 1
+    },
+    "IR": {
+      "last": "2026-10-30",
       "count": 1
     }
   }

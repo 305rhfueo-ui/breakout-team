@@ -1,0 +1,686 @@
+{
+ "ticker": "MO",
+ "date": "2026-10-30",
+ "session": "2026-10-29",
+ "source": "list",
+ "plan": {
+  "ticker": "MO",
+  "name": "알트리아 그룹",
+  "sector": "Consumer Defensive",
+  "industry": "Tobacco",
+  "price": 76.75,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 1.87,
+  "extensionAdr": 1.57,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1823468804038536,
+    "pct": 89.31469792605952
+   },
+   "m3": {
+    "v": 0.14102385036436968,
+    "pct": 85.34715960324617
+   },
+   "m6": {
+    "v": 0.1538680742269168,
+    "pct": 69.83769161406673
+   }
+  },
+  "ret1m": 14.64,
+  "ret3m": 13.93,
+  "ret6m": 16.18,
+  "marketCap": "122.71B",
+  "volx": 1.69,
+  "volSurgeWk": 1.93,
+  "high52": 99.92,
+  "newHigh52": false,
+  "adr": 1.87,
+  "div50": 9.85,
+  "div200": 14.32,
+  "targetStatus": false,
+  "saleCy": 2.03,
+  "saleNy": 0.82,
+  "epsCy": 4.81,
+  "epsNy": 3.49,
+  "cyTrend": 0.01,
+  "nyTrend": 0,
+  "est": {
+   "cyCur": 5.68095,
+   "cy30": 5.68049,
+   "nyCur": 5.87899,
+   "ny30": 5.87896
+  },
+  "fs": {
+   "sale": [
+    0.15,
+    3.21,
+    -2.14
+   ],
+   "ni": [
+    -3.33,
+    103.17,
+    -63.21
+   ],
+   "opm": [
+    51.32,
+    54.46,
+    28.24
+   ],
+   "updated": "2026-09-08 10:04:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "알트리아 그룹",
+  "nameEn": "ALTRIA GROUP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764180&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 6132000000,
+     "profit": 3313000000,
+     "netIncome": 2518000000,
+     "margin": 54,
+     "yoy": {
+      "revenue": 1,
+      "profit": 2.6,
+      "netIncome": 6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 6111000000,
+     "profit": 3136000000,
+     "netIncome": 2298000000,
+     "margin": 51.3,
+     "yoy": {
+      "revenue": 0.1,
+      "profit": -2.9,
+      "netIncome": -3.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 5428000000,
+     "profit": 2956000000,
+     "netIncome": 2183000000,
+     "margin": 54.5,
+     "yoy": {
+      "revenue": 3.2,
+      "profit": 65.3,
+      "netIncome": 102.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 5846000000,
+     "profit": 1651000000,
+     "netIncome": 1117000000,
+     "margin": 28.2,
+     "yoy": {
+      "revenue": -2.1,
+      "profit": -42.7,
+      "netIncome": -63.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Altria (MO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/altria-mo-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Altria Group, Inc. Reports 2026 Third-Quarter Results, Expands Share Repurchase Program by $1 billion, and Raises Full-Year Guidance",
+     "url": "https://www.nasdaq.com/articles/altria-group-inc-reports-2026-third-quarter-results-expands-share-repurchase-program-1",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Altria Q3 Profit Climbs, Raises FY26 Outlook",
+     "url": "https://www.nasdaq.com/articles/altria-q3-profit-climbs-raises-fy26-outlook",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Altria (MO) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/altria-mo-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Altria (MO) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/altria-mo-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Altria Group  Inc. Announces Rise In Q3 Income",
+     "url": "https://www.nasdaq.com/articles/altria-group-inc-announces-rise-q3-income",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "All It Takes Is 226 Shares of Altria Stock to Earn $1,000 a Year in Dividends. Is It Worth It?",
+     "url": "https://www.nasdaq.com/articles/all-it-takes-226-shares-altria-stock-earn-1000-year-dividends-it-worth-it",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000112/mo-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000105/mo-20261007.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-28",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000098/mo-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000093/mo-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000073/mo-20260513.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000056/mo-20260430.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-08-24",
+     "broker": "유안타증권",
+     "analyst": "황병준",
+     "title": "[모딘 매뉴팩처링 (NYS:MOD)] Chiller Ramp-Up in progress, 모듈러 DC 업체로 확장",
+     "summary": "- Modine Manufacturing Company(MOD)는 Hyperscaler 등 데이터센터 운영 업체를 대상 으로 Chiller를 중심, AHU, CDU, 정밀공조 장비 등 데이터센터 열관리(Thermal Managament) 인프라를 설계∙제조하는 열관리 플랫폼 업체. 25년 하반기부터는 AHU, CDU, 열교환기, 인클 로저를 결합한 모듈러 DC 초기 물량을 출하, 3세대 제품을 개발하는 등 데이터센터향 냉각 인프라 업체로서의 포지셔닝 강화 중- 동사는 이미 Chiller 중심 생산 Ramp-Up이 진행 중. 27~29년 예정된 $40억 규모 LTA 소 화를 위한 선제 증설 본격화. 26.1H 기준 Grenada(5개), Dallas(5개), Jefferson(2개)의 12 개 Chiller 생산 라인과 Franklin 복합 생산 라인(Chiller+AHU+CDU 등 포괄)이 가동 중. 27년 상 반기 말까지 총 20개의 Chiller 생산 라인이 Set-Up될 예정. 해당 Capa는 DC 부문 매출 $40억을 커버할 수 있는 용량(cf. TTM DC 매출 $13억)",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiziqilciigcgxecic.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-02-20",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "title": "[알트리아 그룹 (NYS:MO)] 연기 없는 미래를 향해",
+     "summary": "- 메인 브랜드 말보로(Marlboro)로 유명한 미국 궐련 담배 1위 업체- 가격 전가력과 니코틴파우치 판매량 성장으로 주당 배당금 꾸준히 확대 중- 니코틴 파우치 제품 다변화에 따른 전사 성장성 제고도 기대 요인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezimklcgcqiggcgxecic.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2025-12-16",
+     "broker": "iM증권",
+     "analyst": "정재원",
+     "title": "[몰리나 헬스케어 (NYS:MOH)] 왜 Molina였을까",
+     "summary": "- Molina Healthcare는 민간보험사로 Managed Care(MC)에 집중하는 기업이다. Managed Care는 쉽게 말해 주정부가 저소득층, 노인 등에 대한 의료비를 보험사에게 맡기고, 보험사가 받은 예산 내에서 의료비를 관리하는 방식을 일컫는다- 트럼프 정부의 약가 인하 정책과 OBBBA 법안 내 메디케이드 예산 삭감, 인구 고령화에 따른 의료비 상승 추세 등이 복합적으로 맞물리면서 MC를 주력 비즈니스 모델로 영위 중인 기업들의 장기 수익성에 대한 우려가 생기는 상황이다- 동사는 피어그룹 대비 TSR(총주주수익률, Total Shareholder Return)이 높다. 2024년 Investor day를 통해 언급한 내용에 따르면 2019년부터 누적 기준 Molina의 TSR은 130%에 육박했으며 피어그룹 30% 대비 월등히 높았다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxzlimlmeckmeggcgxecic.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MO-report1.pdf",
+   "broker": "유안타증권",
+   "analyst": "황병준",
+   "date": "2026-08-24",
+   "title": "[모딘 매뉴팩처링 (NYS:MOD)] Chiller Ramp-Up in progress, 모듈러 DC 업체로 확장",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiziqilciigcgxecic.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "MO-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "박상준",
+   "date": "2026-02-20",
+   "title": "[알트리아 그룹 (NYS:MO)] 연기 없는 미래를 향해",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezimklcgcqiggcgxecic.pdf",
+   "pages": "7"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks stumbled out of the gate in September. Use these hedges, Evercore ISI says",
+   "url": "https://www.cnbc.com/2026/09/02/stocks-stumble-out-of-the-gate-in-september-use-these-hedges-evercore-isi-says.html",
+   "date": "2026-09-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Watch out: These stocks could succumb to margin pressure",
+   "url": "https://www.cnbc.com/2026/09/01/watch-out-these-stocks-could-succumb-to-margin-pressure-.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Meta, Microsoft, Teladoc & more",
+   "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-premarket-meta-msft-tdoc-nclh.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "MO",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 16.16,
+  "pbr": 0,
+  "eps": 4.75,
+  "bps": 0,
+  "shares": 1669740000,
+  "marketCapM": 128153,
+  "high52": 76.81,
+  "high52Date": "2026-10-29",
+  "low52": 52.1726,
+  "low52Date": "2026-01-07",
+  "last": 76.75,
+  "prevClose": 72.99,
+  "nameKo": "알트리아 그룹",
+  "nameEn": "ALTRIA GROUP INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 1669740000
+ },
+ "estimates": {
+  "ticker": "MO",
+  "url": "https://finance.yahoo.com/quote/MO/analysis/",
+  "fetchedAt": "2026-10-30",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.37,
+    "epsLow": 1.32,
+    "epsHigh": 1.41,
+    "epsYearAgo": 1.3,
+    "epsAnalysts": 12,
+    "epsGrowth": 5.6,
+    "epsCur": "USD",
+    "rev": 5101106380,
+    "revAnalysts": 10,
+    "revYearAgo": 5079000000,
+    "revGrowth": 0.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.36,
+    "epsLow": 1.33,
+    "epsHigh": 1.39,
+    "epsYearAgo": 1.32,
+    "epsAnalysts": 6,
+    "epsGrowth": 2.7,
+    "epsCur": "USD",
+    "rev": 4728152720,
+    "revAnalysts": 6,
+    "revYearAgo": 4758000000,
+    "revGrowth": -0.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.68,
+    "epsLow": 5.63,
+    "epsHigh": 5.72,
+    "epsYearAgo": 5.42,
+    "epsAnalysts": 12,
+    "epsGrowth": 4.8,
+    "epsCur": "USD",
+    "rev": 20547559670,
+    "revAnalysts": 12,
+    "revYearAgo": 20139000000,
+    "revGrowth": 2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 5.88,
+    "epsLow": 5.74,
+    "epsHigh": 6.07,
+    "epsYearAgo": 5.68,
+    "epsAnalysts": 13,
+    "epsGrowth": 3.5,
+    "epsCur": "USD",
+    "rev": 20715564710,
+    "revAnalysts": 12,
+    "revYearAgo": 20547559670,
+    "revGrowth": 0.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.37,
+    "d7": 0.2,
+    "d30": 0.1,
+    "d90": -0.1,
+    "ago90": 1.37,
+    "up7": 0,
+    "up30": 5,
+    "down7": 1,
+    "down30": 5
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.36,
+    "d7": 0,
+    "d30": 0,
+    "d90": -0.3,
+    "ago90": 1.36,
+    "up7": 1,
+    "up30": 1,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.68,
+    "d7": 0,
+    "d30": 0,
+    "d90": -0.1,
+    "ago90": 5.69,
+    "up7": 1,
+    "up30": 3,
+    "down7": 1,
+    "down30": 6
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 5.88,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0.1,
+    "ago90": 5.88,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.52,
+    "estimate": 1.51,
+    "surprisePct": 0.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.48,
+    "estimate": 1.5,
+    "surprisePct": -1.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.32,
+    "estimate": 1.25,
+    "surprisePct": 5.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.3,
+    "estimate": 1.32,
+    "surprisePct": -1.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 1,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-08-11",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 58,
+     "ptPrior": 64
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-29",
+  "numbers": {
+   "price": 76.75,
+   "ma20": 72.57,
+   "ma50": 70.24,
+   "ma150": 69.93,
+   "distMA50": 9.27,
+   "periodHigh": 77.06,
+   "pullbackFromHigh": -0.4,
+   "volRatio20": 1.6,
+   "dryUpRatio": 0.97
+  },
+  "last10": [
+   {
+    "d": "2026-10-16",
+    "o": 74.5,
+    "h": 75.2,
+    "l": 74.5,
+    "c": 75.11,
+    "v": 9647800,
+    "clsPos": 87,
+    "gapPct": 0.89
+   },
+   {
+    "d": "2026-10-19",
+    "o": 74.25,
+    "h": 74.85,
+    "l": 73.68,
+    "c": 74.09,
+    "v": 6991100,
+    "clsPos": 35,
+    "gapPct": -1.14
+   },
+   {
+    "d": "2026-10-20",
+    "o": 74.6,
+    "h": 75.52,
+    "l": 74.23,
+    "c": 74.64,
+    "v": 8371000,
+    "clsPos": 32,
+    "gapPct": 0.69
+   },
+   {
+    "d": "2026-10-21",
+    "o": 74,
+    "h": 74.82,
+    "l": 73.61,
+    "c": 73.83,
+    "v": 5500500,
+    "clsPos": 18,
+    "gapPct": -0.86
+   },
+   {
+    "d": "2026-10-22",
+    "o": 74.68,
+    "h": 76.09,
+    "l": 74.28,
+    "c": 76.07,
+    "v": 7156900,
+    "clsPos": 99,
+    "gapPct": 1.15
+   },
+   {
+    "d": "2026-10-23",
+    "o": 75.75,
+    "h": 76.06,
+    "l": 74.29,
+    "c": 74.31,
+    "v": 6392400,
+    "clsPos": 1,
+    "gapPct": -0.42
+   },
+   {
+    "d": "2026-10-26",
+    "o": 73.7,
+    "h": 74.54,
+    "l": 73.43,
+    "c": 73.62,
+    "v": 5492000,
+    "clsPos": 17,
+    "gapPct": -0.82
+   },
+   {
+    "d": "2026-10-27",
+    "o": 72.71,
+    "h": 73.6,
+    "l": 72.3,
+    "c": 73.49,
+    "v": 5293300,
+    "clsPos": 92,
+    "gapPct": -1.24
+   },
+   {
+    "d": "2026-10-28",
+    "o": 73.1,
+    "h": 73.71,
+    "l": 72.75,
+    "c": 72.99,
+    "v": 8055300,
+    "clsPos": 25,
+    "gapPct": -0.53
+   },
+   {
+    "d": "2026-10-29",
+    "o": 75.29,
+    "h": 76.81,
+    "l": 74.48,
+    "c": 76.75,
+    "v": 12501400,
+    "clsPos": 97,
+    "gapPct": 3.15
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 8일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "ticker": "TWLO",
+ "news": [
+  {
+   "title": "Twilio (TWLO) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/twilio-twlo-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Twilio (TWLO) Dipped More Than Broader Market Today",
+   "url": "https://www.nasdaq.com/articles/why-twilio-twlo-dipped-more-broader-market-today",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Twilio (TWLO) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/twilio-twlo-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About Twilio (TWLO) Rating Upgrade to Strong Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-twilio-twlo-rating-upgrade-strong-buy",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Twilio Sees Slower Q4 Growth and Lower Profit: Rapid Earnings Reaction",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-sees-slower-q4-growth-211153515.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twilio Q3 Adjusted Earnings, Revenue Rise; Q4 Outlook Issued",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-q3-adjusted-earnings-revenue-203938581.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twilio (TWLO) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-twlo-q3-earnings-revenues-203507708.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twilio Earnings Top Estimates. Shares Fall On Slowing Organic Growth.",
+   "url": "https://finance.yahoo.com/m/3c055d6a-def1-3cc7-b1f7-173e5fd41f45/twilio-earnings-top.html",
+   "date": "2026-10-29",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twilio (NYSE:TWLO) posts better-than-expected sales in Q3 2026 but stock drops 14.3%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-nyse-twlo-posts-better-202821689.html",
+   "date": "2026-10-29",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twilio: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-q3-earnings-snapshot-202439531.html",
+   "date": "2026-10-29",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twilio Announces Third Quarter 2026 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-announces-third-quarter-2026-200500972.html",
+   "date": "2026-10-29",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Bandwidth Sinks 13% on In-Line Guidance Despite Q3 Beat: “More Conversations Between People and Agents”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bandwidth-sinks-13-line-guidance-190941990.html",
+   "date": "2026-10-29",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000106/twlo-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000088/twlo-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000055/twlo-20260616.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000046/twlo-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-24",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000027/twlo-20260324.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000010/twlo-20260212.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.44,
+  "saleNy": 11.66,
+  "epsCy": 21.32,
+  "epsNy": 14.64,
+  "cyTrend": 0.05,
+  "nyTrend": 0.15,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    22.03,
+    20,
+    14.32
+   ],
+   "ni": [
+    4659.44,
+    350.31,
+    "적자확대"
+   ],
+   "opm": [
+    5.64,
+    7.65,
+    4.16
+   ],
+   "updated": "2026-09-08 08:38:14"
+  }
+ }
+}

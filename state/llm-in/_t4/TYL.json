@@ -2,6 +2,12 @@
  "ticker": "TYL",
  "news": [
   {
+   "title": "Tyler Technologies (TYL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/tyler-technologies-tyl-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
    "title": "Tyler Technologies (TYL) Reports Q3 Earnings: What Key Metrics Have to Say",
    "url": "https://www.nasdaq.com/articles/tyler-technologies-tyl-reports-q3-earnings-what-key-metrics-have-say",
    "date": "2026-10-28",
@@ -32,16 +38,25 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Tyler Technologies (TYL) Up 14.4% Since Last Earnings Report: Can It Continue?",
-   "url": "https://www.nasdaq.com/articles/tyler-technologies-tyl-144-last-earnings-report-can-it-continue",
-   "date": "2026-08-28",
-   "publisher": "Zacks"
+   "title": "Tyler Technologies Inc (TYL) (Q3 2026) Earnings Call Highlights: Record Cash Flow, SaaS ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tyler-technologies-inc-tyl-q3-230910501.html",
+   "date": "2026-10-29",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
   },
   {
-   "title": "TYL Crosses Above Key Moving Average Level",
-   "url": "https://www.nasdaq.com/articles/tyl-crosses-above-key-moving-average-level",
-   "date": "2026-08-27",
-   "publisher": "BNK Invest"
+   "title": "Tyler Technologies (TYL) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tyler-technologies-tyl-q3-2026-193131478.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Netskope And 2 Other AI Security Stocks To Own",
+   "url": "https://finance.yahoo.com/technology/ai/articles/netskope-2-other-ai-security-120913107.html",
+   "date": "2026-10-29",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
   },
   {
    "title": "Tyler Technologies falls on revenue miss, soft guidance",
@@ -76,27 +91,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/tyler-technologies-q3-earnings-snapshot-203755591.html",
    "date": "2026-10-28",
    "publisher": "Associated Press",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Tyler Technologies Reports Third Quarter 2026 Results",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/tyler-technologies-reports-third-quarter-201700083.html",
-   "date": "2026-10-28",
-   "publisher": "Business Wire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Local Governments Turn to Tyler Technologies’ Priority Based Budgeting to Strengthen Fiscal Sustainability",
-   "url": "https://finance.yahoo.com/economy/policy/articles/local-governments-turn-tyler-technologies-131700718.html",
-   "date": "2026-10-27",
-   "publisher": "Business Wire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Needham Adjusts Price Target on Tyler Technologies to $500 From $400",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/needham-adjusts-price-target-tyler-103724390.html",
-   "date": "2026-10-27",
-   "publisher": "MT Newswires",
    "via": "Yahoo"
   }
  ],
@@ -206,8 +200,8 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 9.5,
-  "saleNy": 9.98,
+  "saleCy": 9.65,
+  "saleNy": 9.83,
   "epsCy": 15.81,
   "epsNy": 17.31,
   "cyTrend": -0.01,

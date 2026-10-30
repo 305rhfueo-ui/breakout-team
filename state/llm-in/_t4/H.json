@@ -1,0 +1,229 @@
+{
+ "ticker": "H",
+ "news": [
+  {
+   "title": "Here's What Key Metrics Tell Us About Hyatt Hotels (H) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-hyatt-hotels-h-q3-earnings",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hyatt Hotels (H) Q3 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/hyatt-hotels-h-q3-earnings-surpass-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hyatt Hotels (H) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/hyatt-hotels-h-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wolfe Research Initiates Coverage of Hyatt Hotels (H) at Outperform",
+   "url": "https://www.nasdaq.com/articles/wolfe-research-initiates-coverage-hyatt-hotels-h-outperform",
+   "date": "2026-09-03",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Ex-Div Reminder for Hyatt Hotels (H)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-hyatt-hotels-h",
+   "date": "2026-08-25",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Hyatt Hotels Corp (H) (Q3 2026) Earnings Call Highlights: RevPAR Surges 7. ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-corp-h-q3-231419493.html",
+   "date": "2026-10-29",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Luxury drives Hyatt’s Q3 RevPAR growth above expectations",
+   "url": "https://finance.yahoo.com/real-estate/articles/luxury-drives-hyatt-q3-revpar-161051479.html",
+   "date": "2026-10-29",
+   "publisher": "Hotel Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Hyatt Hotels (H) Q3 Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-133002315.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hyatt Hotels Swings to Q3 Adjusted Earnings, Revenue Decreases",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-swings-q3-adjusted-130731940.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hyatt Hotels (H) Q3 Earnings Surpass Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-h-q3-earnings-113506881.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hyatt Hotels (NYSE:H) misses Q3 2026 sales expectations",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-nyse-h-misses-113030714.html",
+   "date": "2026-10-29",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hyatt Hotels: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-q3-earnings-snapshot-110610166.html",
+   "date": "2026-10-29",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hyatt Reports Third Quarter 2026 Results",
+   "url": "https://finance.yahoo.com/real-estate/articles/hyatt-reports-third-quarter-2026-105500655.html",
+   "date": "2026-10-29",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "The StandardX to make North American debut with New York hotel",
+   "url": "https://finance.yahoo.com/news/standardx-north-american-debut-york-102309037.html",
+   "date": "2026-10-29",
+   "publisher": "Hotel Management Network",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000029/h-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000021/h-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1468174/000110465926067209/tm2615108d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1468174/000110465926065756/tm2615108d2_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000013/h-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-27",
+   "reportDate": "2026-03-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1468174/000110465926036206/tm269877d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.84,
+  "saleNy": 8.26,
+  "epsCy": 63.86,
+  "epsNy": 35.53,
+  "cyTrend": -0.15,
+  "nyTrend": -0.18,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.16,
+    1.75,
+    11.67
+   ],
+   "ni": [
+    "흑자전환",
+    90,
+    "적자축소"
+   ],
+   "opm": [
+    6.94,
+    6.75,
+    4.97
+   ],
+   "updated": "2026-09-08 08:58:38"
+  }
+ }
+}

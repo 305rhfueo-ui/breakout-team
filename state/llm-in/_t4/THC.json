@@ -1,0 +1,234 @@
+{
+ "ticker": "THC",
+ "news": [
+  {
+   "title": "Tenet (THC) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/tenet-thc-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Tenet (THC) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/tenet-thc-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tenet Healthcare (THC) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Tenet Healthcare (THC) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-tenet-healthcare-thc-strong-value-stock-0",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Tenet Healthcare (THC) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-tenet-healthcare-thc-strong-momentum-stock",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insights Into Tenet (THC) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/insights-tenet-thc-q3-wall-street-projections-key-metrics",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Tenet (THC) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-tenet-thc-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tenet Healthcare Corp (THC) Q3 2026 Earnings Call Highlights: Strong EPS Growth and Raised ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-corp-thc-q3-231459902.html",
+   "date": "2026-10-29",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tenet Healthcare Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-corporation-q3-2026-211452025.html",
+   "date": "2026-10-29",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tenet (THC) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-thc-q3-2026-earnings-201424443.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tenet (THC) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-thc-reports-q3-earnings-143001194.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tenet Healthcare's Q3 Adjusted Earnings, Revenue Rise; Increases 2026 Guidance; Shares Down Pre-Bell",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-apos-q3-adjusted-115206212.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tenet Healthcare (THC) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-thc-surpasses-q3-113510766.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tenet Healthcare (NYSE:THC) exceeds Q3 2026 expectations",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-nyse-thc-exceeds-112913676.html",
+   "date": "2026-10-29",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tenet Healthcare (NYSE:THC) exceeds Q3 2026 expectations",
+   "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-nyse-thc-exceeds-112553522.html",
+   "date": "2026-10-29",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000045/thc-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-22",
+   "reportDate": "2026-09-22",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000119312526397901/d104323d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000040/thc-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000032/thc-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000028/thc-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000023/thc-20260430.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.21,
+  "saleNy": 0.45,
+  "epsCy": 26.5,
+  "epsNy": -0.66,
+  "cyTrend": 0.01,
+  "nyTrend": -0.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    14.61,
+    10.68,
+    8.95
+   ],
+   "ni": [
+    186.81,
+    72.91,
+    16.67
+   ],
+   "opm": [
+    24.85,
+    22.42,
+    15.43
+   ],
+   "updated": "2026-09-08 06:03:11"
+  }
+ }
+}

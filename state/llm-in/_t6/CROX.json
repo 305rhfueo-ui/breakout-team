@@ -1,0 +1,687 @@
+{
+ "ticker": "CROX",
+ "date": "2026-10-30",
+ "session": "2026-10-29",
+ "source": "list",
+ "plan": {
+  "ticker": "CROX",
+  "name": "크록스",
+  "sector": "Consumer Cyclical",
+  "industry": "Footwear & Accessories",
+  "price": 150.25999450683594,
+  "grade": "C",
+  "state": "post",
+  "pivot": 127.75,
+  "stop": 123.94,
+  "distToPivotPct": 17.62,
+  "distToPivotAdr": 5.11,
+  "riskPerSharePct": 2.98,
+  "adrPct": 3.45,
+  "extensionAdr": 5.23,
+  "breakDate": "2026-10-29",
+  "metrics": {
+   "baseBars": 29,
+   "baseWeeks": 5.8,
+   "depthPct": 10.7,
+   "priorMovePct": 17.7,
+   "higherLows": 1,
+   "contraction": 1.24,
+   "closeRange10Adr": 1.6,
+   "surf10": -0.24,
+   "surf20": 0.17,
+   "slope20": -0.57,
+   "baseLow": 114.09,
+   "lastSwingLow": 117
+  },
+  "reasons": [
+   "✗ 선행 상승 +18%",
+   "베이스 5.8주",
+   "깊이 10.7%",
+   "저점 상승 1회",
+   "진폭 1.24배 · 10일 종가폭 1.6 ADR",
+   "10일선 -0.2 ADR · 20일선 +0.2 ADR",
+   "✗ 20일선 기울기 -0.57%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.29611651218212115,
+    "pct": 98.60234445446348
+   },
+   "m3": {
+    "v": 0.09592565829201516,
+    "pct": 78.85482416591523
+   },
+   "m6": {
+    "v": 0.44203299158234105,
+    "pct": 91.02795311091073
+   }
+  },
+  "ret1m": 26.01,
+  "ret3m": 9.42,
+  "ret6m": 45,
+  "marketCap": "7.20B",
+  "volx": 4.77,
+  "volSurgeWk": 4.15,
+  "high52": 98.97,
+  "newHigh52": false,
+  "adr": 3.45,
+  "div50": 25.37,
+  "div200": 37.12,
+  "targetStatus": false,
+  "saleCy": 1.42,
+  "saleNy": 2.45,
+  "epsCy": 11.6,
+  "epsNy": 7.48,
+  "cyTrend": 0.08,
+  "nyTrend": 0.4,
+  "est": {
+   "cyCur": 13.96169,
+   "cy30": 13.95039,
+   "nyCur": 15.00588,
+   "ny30": 14.94673
+  },
+  "fs": {
+   "sale": [
+    2.62,
+    -1.69,
+    -3.25
+   ],
+   "ni": [
+    "흑자전환",
+    -14.08,
+    -71.49
+   ],
+   "opm": [
+    24.22,
+    21.8,
+    15.29
+   ],
+   "updated": "2026-09-08 10:49:18"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-29",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "크록스",
+  "nameEn": "CROCS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001334036&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1042583000,
+     "profit": 291927000,
+     "netIncome": 216755000,
+     "margin": 28,
+     "yoy": {
+      "revenue": 4.6,
+      "profit": 40.6,
+      "netIncome": 48.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1179468000,
+     "profit": 285678000,
+     "netIncome": 204887000,
+     "margin": 24.2,
+     "yoy": {
+      "revenue": 2.6,
+      "profit": 166.8,
+      "netIncome": 141.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 921457000,
+     "profit": 200844000,
+     "netIncome": 137556000,
+     "margin": 21.8,
+     "yoy": {
+      "revenue": -1.7,
+      "profit": -9.9,
+      "netIncome": -14.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 957640000,
+     "profit": 146397000,
+     "netIncome": 105163000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": -3.2,
+      "profit": -26.8,
+      "netIncome": -71.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Crocs (CROX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/crocs-crox-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Crocs Lifts Outlook as Growth Shifts Overseas: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/crocs-lifts-outlook-growth-shifts-overseas-rapid-earnings-reaction",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Crocs, Inc. Reports Strong Third Quarter 2026 Results; Raises Full-Year 2026 Outlook",
+     "url": "https://www.nasdaq.com/articles/crocs-inc-reports-strong-third-quarter-2026-results-raises-full-year-2026-outlook",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up",
+     "url": "https://www.nasdaq.com/articles/crocs-q3-profit-climbs-raises-fy26-guidance-pre-market-shares",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Crocs (CROX) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-crocs-crox-q3-earnings",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Crocs (CROX) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/crocs-crox-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Crocs Inc. Q3 Profit Rises",
+     "url": "https://www.nasdaq.com/articles/crocs-inc-q3-profit-rises",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Stay Ahead of the Game With Crocs (CROX) Q3 Earnings: Wall Street's Insights on Key Metrics",
+     "url": "https://www.nasdaq.com/articles/stay-ahead-game-crocs-crox-q3-earnings-wall-streets-insights-key-metrics",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000050/crox-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000046/crox-20260609.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000029/crox-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000004/crox-20260212.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403625000099/crox-20251030.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix",
+   "url": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-premarket-crwv-rklb-skhy.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This ugly shoe brand's stock deserves a close look",
+   "url": "https://www.cnbc.com/2026/10/13/crocs-stock-gen-z-china-valuation.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Microsoft, Teladoc & more",
+   "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-midday-meta-msft-mktx-crox.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Crocs CEO: We're very confident about future growth",
+   "url": "https://www.cnbc.com/video/2026/10/29/crocs-ceo-were-very-confident-about-future-growth.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Crocs may be an overlooked play in the footwear space",
+   "url": "https://www.cnbc.com/video/2026/10/13/crocs-may-be-an-overlooked-play-in-the-footwear-space.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CROX",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 12.98,
+  "pbr": 5.22,
+  "eps": 11.57,
+  "bps": 28.79,
+  "shares": 47945100,
+  "marketCapM": 7204,
+  "high52": 151.82,
+  "high52Date": "2026-10-29",
+  "low52": 73.205,
+  "low52Date": "2025-11-14",
+  "last": 150.26,
+  "prevClose": 119.69,
+  "nameKo": "크록스",
+  "nameEn": "CROCS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 47945100
+ },
+ "estimates": {
+  "ticker": "CROX",
+  "url": "https://finance.yahoo.com/quote/CROX/analysis/",
+  "fetchedAt": "2026-10-30",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 3.11,
+    "epsLow": 2.88,
+    "epsHigh": 3.27,
+    "epsYearAgo": 2.29,
+    "epsAnalysts": 13,
+    "epsGrowth": 36,
+    "epsCur": "USD",
+    "rev": 993202540,
+    "revAnalysts": 12,
+    "revYearAgo": 957640000,
+    "revGrowth": 3.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.29,
+    "epsLow": 3.21,
+    "epsHigh": 3.42,
+    "epsYearAgo": 2.99,
+    "epsAnalysts": 7,
+    "epsGrowth": 10,
+    "epsCur": "USD",
+    "rev": 945264600,
+    "revAnalysts": 6,
+    "revYearAgo": 921457000,
+    "revGrowth": 2.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 13.96,
+    "epsLow": 13.75,
+    "epsHigh": 14.17,
+    "epsYearAgo": 12.51,
+    "epsAnalysts": 15,
+    "epsGrowth": 11.6,
+    "epsCur": "USD",
+    "rev": 4098099020,
+    "revAnalysts": 13,
+    "revYearAgo": 4040647000,
+    "revGrowth": 1.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 15.01,
+    "epsLow": 13.55,
+    "epsHigh": 15.72,
+    "epsYearAgo": 13.96,
+    "epsAnalysts": 15,
+    "epsGrowth": 7.5,
+    "epsCur": "USD",
+    "rev": 4198439210,
+    "revAnalysts": 13,
+    "revYearAgo": 4098099020,
+    "revGrowth": 2.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.11,
+    "d7": -0.1,
+    "d30": 0.1,
+    "d90": 9.4,
+    "ago90": 2.85,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.29,
+    "d7": 1.9,
+    "d30": 1.9,
+    "d90": 2.9,
+    "ago90": 3.2,
+    "up7": 0,
+    "up30": 2,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 13.96,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 2,
+    "ago90": 13.69,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 15.01,
+    "d7": 0,
+    "d30": 0.4,
+    "d90": 3.2,
+    "ago90": 14.55,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.69,
+    "estimate": 3.31,
+    "surprisePct": 11.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 4.55,
+    "estimate": 4.35,
+    "surprisePct": 4.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.99,
+    "estimate": 2.79,
+    "surprisePct": 7.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.29,
+    "estimate": 1.91,
+    "surprisePct": 19.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-10-29",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 190,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Barclays",
+     "action": "up",
+     "from": "Equal-Weight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 139,
+     "ptPrior": 118
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-29",
+  "numbers": {
+   "price": 150.26,
+   "ma20": 120.6,
+   "ma50": 119.86,
+   "ma150": 117.51,
+   "distMA50": 25.37,
+   "periodHigh": 151.82,
+   "pullbackFromHigh": -1.03,
+   "volRatio20": 3.98,
+   "dryUpRatio": 1.6
+  },
+  "last10": [
+   {
+    "d": "2026-10-16",
+    "o": 125.46,
+    "h": 127.28,
+    "l": 122.68,
+    "c": 123.14,
+    "v": 1017000,
+    "clsPos": 10,
+    "gapPct": 0.55
+   },
+   {
+    "d": "2026-10-19",
+    "o": 122.18,
+    "h": 123.49,
+    "l": 118.51,
+    "c": 120.18,
+    "v": 834700,
+    "clsPos": 34,
+    "gapPct": -0.78
+   },
+   {
+    "d": "2026-10-20",
+    "o": 119.02,
+    "h": 121.98,
+    "l": 119.02,
+    "c": 121.37,
+    "v": 721600,
+    "clsPos": 79,
+    "gapPct": -0.97
+   },
+   {
+    "d": "2026-10-21",
+    "o": 121.35,
+    "h": 121.85,
+    "l": 117.32,
+    "c": 118.49,
+    "v": 683400,
+    "clsPos": 26,
+    "gapPct": -0.02
+   },
+   {
+    "d": "2026-10-22",
+    "o": 117.13,
+    "h": 121.26,
+    "l": 117,
+    "c": 120.99,
+    "v": 946500,
+    "clsPos": 94,
+    "gapPct": -1.15
+   },
+   {
+    "d": "2026-10-23",
+    "o": 117.21,
+    "h": 121.24,
+    "l": 117.14,
+    "c": 119.23,
+    "v": 1112600,
+    "clsPos": 51,
+    "gapPct": -3.12
+   },
+   {
+    "d": "2026-10-26",
+    "o": 120.16,
+    "h": 122.41,
+    "l": 118.2,
+    "c": 118.85,
+    "v": 1152700,
+    "clsPos": 15,
+    "gapPct": 0.78
+   },
+   {
+    "d": "2026-10-27",
+    "o": 118.63,
+    "h": 120.98,
+    "l": 117.92,
+    "c": 119.5,
+    "v": 1054700,
+    "clsPos": 52,
+    "gapPct": -0.19
+   },
+   {
+    "d": "2026-10-28",
+    "o": 118.03,
+    "h": 121,
+    "l": 117.47,
+    "c": 119.69,
+    "v": 1630800,
+    "clsPos": 63,
+    "gapPct": -1.23
+   },
+   {
+    "d": "2026-10-29",
+    "o": 140,
+    "h": 151.82,
+    "l": 139.33,
+    "c": 150.26,
+    "v": 4897000,
+    "clsPos": 88,
+    "gapPct": 16.97
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CROX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CROX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 8일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

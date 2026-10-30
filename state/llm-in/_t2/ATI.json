@@ -1,0 +1,281 @@
+{
+ "ticker": "ATI",
+ "sector": "Industrials",
+ "industry": "Metal Fabrication",
+ "nameKo": "ATI",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.15,
+  "saleNy": 9.9,
+  "epsCy": 58.22,
+  "epsNy": 24.57,
+  "est": {
+   "cyCur": 5.1264,
+   "cy30": 5.11692,
+   "nyCur": 6.38616,
+   "ny30": 6.37289
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.58,
+    0.62,
+    0.38
+   ],
+   "ni": [
+    49.95,
+    21.86,
+    -28.39
+   ],
+   "opm": [
+    17.45,
+    14.22,
+    14.49
+   ],
+   "updated": "2026-09-07 06:42:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "ATI",
+  "nameEn": "ATI INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018963&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-27",
+     "derived": false,
+     "revenue": 1423700000,
+     "profit": 271900000,
+     "netIncome": 189800000,
+     "margin": 19.1,
+     "yoy": {
+      "revenue": 26.5,
+      "profit": 67.4,
+      "netIncome": 72.5,
+      "priorEnd": "2025-09-28"
+     }
+    },
+    {
+     "periodEnd": "2026-06-28",
+     "derived": false,
+     "revenue": 1261100000,
+     "profit": 220000000,
+     "netIncome": 151000000,
+     "margin": 17.4,
+     "yoy": {
+      "revenue": 10.6,
+      "profit": 36.6,
+      "netIncome": 50,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-29",
+     "derived": false,
+     "revenue": 1151500000,
+     "profit": 163800000,
+     "netIncome": 118200000,
+     "margin": 14.2,
+     "yoy": {
+      "revenue": 0.6,
+      "profit": 11.5,
+      "netIncome": 21.9,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-28",
+     "derived": true,
+     "revenue": 1177100000,
+     "profit": 170600000,
+     "netIncome": 96600000,
+     "margin": 14.5,
+     "yoy": {
+      "revenue": 0.4,
+      "profit": -18.3,
+      "netIncome": -29.5,
+      "priorEnd": "2024-12-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "ATI Inc. Reports Third Quarter 2026 Sales of $1.42 billion and Raises Full-Year Adjusted EBITDA Guidance",
+     "url": "https://www.nasdaq.com/articles/ati-inc-reports-third-quarter-2026-sales-142-billion-and-raises-full-year-adjusted-ebitda",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "ATI (ATI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ati-ati-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ATI (ATI) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/ati-ati-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ATI Boosts FY26 Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/ati-boosts-fy26-outlook-update",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "ATI (ATI) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/ati-ati-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ATI Inc. Q3 Income Advances",
+     "url": "https://www.nasdaq.com/articles/ati-inc-q3-income-advances",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Is ATI Stock a Smart Investment Option Before Q3 Earnings Release?",
+     "url": "https://www.nasdaq.com/articles/ati-stock-smart-investment-option-q3-earnings-release",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Teradyne, Lam Research and ATI",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-teradyne-lam-research-and-ati",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000101896326000004/ati-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026053856/ati-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000119312526261769/d163250d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000119312526255755/d74245d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000119312526254681/d100672d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-19",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000119312526230739/d89066d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-08-05",
+     "broker": "유진투자증권",
+     "analyst": "김소정",
+     "title": "[ATI (NYS:ATI)] 제트엔진 부품 경쟁력을 갖춘 항공소재 강자",
+     "summary": "- 1996년 특수강 기업 Allegheny Ludlum과 산업·항공우주 기업 Teledyne의 합병을 통해 설립되었음. 이후 Allegheny Steel(1901 년), Allvac(1957년), Wah Chang, Ladish 등 미국 특수금속 산업 을 대표하는 기업들의 기술과 사업을 통합하며 고성능 소재 기업으 로 성장했음. 현재는 항공우주·방산을 중심으로 극한 환경에 적용되 는 고성능 특수합금 및 첨단 소재를 공급하는 글로벌 선도 기업- 제트엔진 소재/부품 Sole Vendor: 동사가 공급하는 제트엔진향 소 재/부품 7종 중 5종에 대한 단독 공급 지위를 확보 중. 신규 항공기 생산 증가 및 MRO 수요 확대에 따라 제트엔진향 매출은 2025년 14.7억달러(+21%yoy, 매출비중 38%)를 기록하였으며, 2026년 mid-teen 성장, 2029년 까지 double-digit 성장 전망- CAPA 증설 진행 중: 제트엔진 hot-section용 니켈계 초내열합금 수 요 증가에 대응하기 위해 5번째 VIM(Vacuum Induction Melting) 니켈 용융 설비 증설 중. 해당 설비는 2027년 가동, 2028년 고객사 인증 완료를 목표로 하며 정상화 시 연간 약 3.5억 달러의 니켈 추가 매출 창출 기대됨",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzllxlxmgiggxgcgxecic.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-05-18",
+     "broker": "신한투자증권",
+     "analyst": "박광래, 한승훈",
+     "title": "[ATI (NYS:ATI)] 대체 불가능한 항공·방산 소재 플랫폼",
+     "summary": "- 현재 주가는 PER(주가수익비율)은 약 37배로 미래 성장에 대한 기대감이 선반영된 상태. 1Q26 수주잔고가 전분기대비 10% 증가한 사상 최대치 41 억달러를 기록하며 강력한 하방 지지선 형성. 향후 20% 이상의 수익성을 유지한다면 현재의 높은 멀티플이 정당화될 수 있을 전망- 1Q26 매출 11.5억달러로 전년대비 1% 증가에 그쳤으나, 조정 EBITDA 2.32 억달러(+19% YoY, 이하 YoY), 조정 EPS 1.0달러(+39%). 2026년 연간 가이 던스는 조정 EBITDA 10.1억~10.6억달러, 조정 EPS 4.20~4.48달러로 상향- 사업 부문별로는 HPMC(High Performance Materials & Components) 매출 6.14억달러(+5%), EBITDA 1.53억달러(+17%). 제트엔진과 Specialty Energy 매출은 각각 8%, 26% 증가. 2026년 제트엔진 매출은 10% 중반대 성장 전망. AA&S(Advanced Alloys & Solutions) 부문은 매출이 5.37억달러로 4% 감소 했으나, 산업재·의료·전자 등 저마진 매출을 줄이고 고마진 방산·원전·특수에 너지로 생산능력을 재배치하여 EBITDA는 9,700만달러(+16%)로 증가",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmcxgmqiezgxqgcgxecic.pdf",
+     "pages": "3"
+    }
+   ]
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "ATI",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 51.16,
+  "pbr": 12.7,
+  "eps": 3.42,
+  "bps": 13.78,
+  "shares": 136170000,
+  "marketCapM": 23830,
+  "high52": 243.5694,
+  "high52Date": "2026-08-12",
+  "low52": 93.11,
+  "low52Date": "2025-11-21",
+  "last": 175,
+  "prevClose": 165.3,
+  "nameKo": "ATI",
+  "nameEn": "ATI INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 136170000
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "ticker": "DASH",
+ "sector": "Consumer Cyclical",
+ "industry": "Internet Retail",
+ "nameKo": "도어대시",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 30.04,
+  "saleNy": 20.76,
+  "epsCy": 20.86,
+  "epsNy": 74.47,
+  "est": {
+   "cyCur": 2.57425,
+   "cy30": 2.58571,
+   "nyCur": 4.49123,
+   "ny30": 4.48428
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    35.63,
+    33.11,
+    37.66
+   ],
+   "ni": [
+    -29.82,
+    -4.66,
+    51.06
+   ],
+   "opm": [
+    3.5,
+    3.74,
+    3.72
+   ],
+   "updated": "2026-09-07 07:24:59"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "도어대시",
+  "nameEn": "DOORDASH INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001792789&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 4454000000,
+     "profit": 156000000,
+     "netIncome": 200000000,
+     "margin": 3.5,
+     "yoy": {
+      "revenue": 35.6,
+      "profit": -4.3,
+      "netIncome": -29.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 4036000000,
+     "profit": 151000000,
+     "netIncome": 184000000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": 33.1,
+      "profit": -2.6,
+      "netIncome": -4.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3955000000,
+     "profit": 147000000,
+     "netIncome": 213000000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": 37.7,
+      "profit": 25.6,
+      "netIncome": 51.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 3446000000,
+     "profit": 258000000,
+     "netIncome": 244000000,
+     "margin": 7.5,
+     "yoy": {
+      "revenue": 27.3,
+      "profit": 141.1,
+      "netIncome": 50.6,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Domino’s (DPZ) Tops Estimates as Value Deals & DoorDash Boost Digital Sales",
+     "url": "https://www.nasdaq.com/articles/dominos-dpz-tops-estimates-value-deals-doordash-boost-digital-sales",
+     "date": "2025-07-22",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "New Analyst Forecast: $DASH Given $275.0 Price Target",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-dash-given-2750-price-target",
+     "date": "2025-07-21",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "New Analyst Forecast: $DASH Given $295.0 Price Target",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-dash-given-2950-price-target",
+     "date": "2025-07-14",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Insider Sale: Director at $DASH Sells 1,250 Shares",
+     "url": "https://www.nasdaq.com/articles/insider-sale-director-dash-sells-1250-shares",
+     "date": "2025-07-11",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "$DASH stock is up 2% today. Here's what we see in our data.",
+     "url": "https://www.nasdaq.com/articles/dash-stock-2-today-heres-what-we-see-our-data",
+     "date": "2025-07-09",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $60,000 of DOORDASH lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-60000-doordash-lobbying-was-just-disclosed",
+     "date": "2025-07-08",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "DoorDash, Inc. (DASH) Opinions on Recent Stock Surge and Analyst Upgrades",
+     "url": "https://www.nasdaq.com/articles/doordash-inc-dash-opinions-recent-stock-surge-and-analyst-upgrades",
+     "date": "2025-07-06",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "New Analyst Forecast: $DASH Given 'Overweight' Rating",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-dash-given-overweight-rating",
+     "date": "2025-06-26",
+     "publisher": "Quiver Quantitative"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126041111/ef20084547_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000062/dash-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-18",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126037109/ef20081998_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126032235/ef20079912_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000048/dash-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000040/dash-20260610.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: ADT, Alphabet, Caterpillar, Eli Lilly, Chipotle",
+   "url": "https://www.cnbc.com/2026/10/29/stocks-making-the-biggest-moves-midday-adt-googl-cat-lly-cmg.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "DoorDash to acquire Instacart for $17 billion",
+   "url": "https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lowe's launching drone delivery service in partnership with DoorDash, Alphabet",
+   "url": "https://www.cnbc.com/2026/09/24/lowes-drones-delivery-doordash-alphabet.html",
+   "date": "2026-09-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: UWM Holdings, Honeywell Aerospace, Peloton",
+   "url": "https://www.cnbc.com/2026/08/06/stocks-making-the-biggest-moves-midday-umwc-hona-mtsi-pton.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says this is a 'good rule' to follow when stocks double",
+   "url": "https://www.cnbc.com/investingclub/2026/08/06/jim-cramer-says-this-is-a-good-rule-to-follow-when-stocks-double-.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "CNBC TechCheck Evening Edition: October 29, 2026",
+   "url": "https://www.cnbc.com/video/2026/10/29/cnbc-techcheck-evening-edition-october-29th-2026.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "DASH",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 93.99,
+  "pbr": 7.82,
+  "eps": 1.9,
+  "bps": 22.9,
+  "shares": 408993000,
+  "marketCapM": 73210,
+  "high52": 268,
+  "high52Date": "2025-10-29",
+  "low52": 143.3,
+  "low52Date": "2026-03-27",
+  "last": 179,
+  "prevClose": 169.49,
+  "nameKo": "도어대시",
+  "nameEn": "DOORDASH INC",
+  "listedOn": "2023-09-27",
+  "exchange": "나스닥",
+  "listedShares": 408993000
+ }
+}

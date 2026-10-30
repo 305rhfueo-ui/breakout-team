@@ -514,8 +514,384 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-30",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "인텔, PC 수요 둔화 전망에 21% 급락",
+        "easy": "인텔 주가가 하루에 21% 떨어졌다. 회사가 내놓은 다음 분기 전망(가이던스)이 기대보다 낮았고, 회사는 그 이유로 PC 판매 둔화를 들었다. 2년 만에 가장 큰 하락폭이다. PC용 반도체를 파는 쪽의 수요 가정이 한 단계 내려간 셈이다.",
+        "whyMatters": "PC용 반도체와 PC 완제품 쪽에 직접 나쁜 소식이고, 데이터센터·AI용 반도체는 수요 성격이 달라 같은 반도체 업종 안에서도 영향이 갈린다. 반도체를 한 묶음으로 보지 말고 매출이 어디서 나오는지 구분해서 봐야 한다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+            "date": "2026-10-30",
+            "quote": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Why Intel's stock is sinking toward its worst drop in two years",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
+            "date": "2026-10-29",
+            "quote": "Why Intel's stock is sinking toward its worst drop in two years",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Intel plunges on a major guidance miss. What went wrong — and how to proceed",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/investingclub/2026/10/29/intel-plunges-on-a-major-guidance-miss-what-went-wrong-how-to-proceed.html",
+            "date": "2026-10-30",
+            "quote": "Intel plunges on a major guidance miss. What went wrong — and how to proceed",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "서비스나우, AI 대체 우려에 27% 폭락",
+        "easy": "ServiceNow 주가가 27% 떨어져 상장 이후 최악의 하루를 보냈다. 실적 발표가 AI 때문에 기업용 소프트웨어가 설 자리를 잃을 수 있다는 걱정을 다시 불러왔다. AI가 기존 업무용 프로그램의 일을 가져갈 수 있다는 의심이다. 소프트웨어 업종 전반의 성장 가정이 흔들린 날이다.",
+        "whyMatters": "기업용 소프트웨어(구독형 서비스) 업종에 직접 나쁘고, 같은 방식으로 돈을 버는 회사들도 함께 의심받는다. 반대로 AI 설비·반도체 쪽은 이 의심의 대상이 아니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+            "date": "2026-10-29",
+            "quote": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "AI 불안에 구글 시가총액 5천억 달러 증발",
+        "easy": "구글(Alphabet)의 시가총액이 5천억 달러 줄었다. AI를 둘러싼 불안이 월가 전체를 흔들면서 대형 기술주가 함께 밀렸다. 시가총액이 큰 회사가 흔들리면 지수도 같이 내려간다. 지수를 떠받치던 대형 기술주에서 돈이 빠져나갔다는 신호다.",
+        "whyMatters": "기술 업종과 QQQ·S&P500을 따라가는 상품에 직접 나쁘고, AI 이야기와 거리가 먼 헬스케어·필수소비 같은 업종이 상대적으로 버틸 수 있다. 지금 주도 섹터에 헬스케어가 가장 많은 것도 같은 흐름이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-29",
+            "quote": "Google value plunges by $500bn as AI fears rattle Wall Street",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "아마존, 현금 유출에도 투자 계획은 그대로",
+        "easy": "아마존의 3분기 잉여현금흐름(영업으로 번 돈에서 설비투자를 뺀 금액)이 마이너스 424억 달러였다. AI·클라우드 설비에 돈을 크게 쓰면서도 올해 투자 계획은 바꾸지 않았다. 클라우드 매출 전망을 자신 있게 내놨지만 주가는 떨어졌다. 투자 규모가 커질수록 성과를 증명해야 하는 부담도 커진다.",
+        "whyMatters": "데이터센터에 장비를 파는 반도체·전력·설비 업종에는 수요가 유지된다는 뜻이고, 투자 주체인 아마존 쪽은 현금 부담이 커진다. 투자 계획을 줄인다는 말이 나오는지가 장비 쪽 분기점이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+            "date": "2026-10-29",
+            "quote": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Amazon's stock drops — even in the face of a bold new cloud forecast",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
+            "date": "2026-10-30",
+            "quote": "Amazon's stock drops — even in the face of a bold new cloud forecast",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "마이크로소프트, AI 설비 위해 250억 달러 차입",
+        "easy": "마이크로소프트가 250억 달러를 빚(채권)으로 조달한다고 밝혔다. AI 설비를 계속 늘리기 위한 자금이다. 현금이 많은 회사도 투자 속도를 벌어들인 돈만으로는 맞추지 못한다는 뜻이다. AI 투자가 남는 돈으로 하는 단계를 지났다.",
+        "whyMatters": "데이터센터·전력·반도체 장비 업종에는 발주가 이어진다는 신호이고, 빚으로 하는 투자라 금리가 오르면 부담이 커진다. 채권 금리 움직임을 같이 봐야 하는 이유다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
+            "date": "2026-10-30",
+            "quote": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "연준은 금리를 동결했고 경제는 성장했다",
+        "easy": "미국 중앙은행(연준)이 기준금리를 그대로 두었다. 경제가 성장을 이어가고 있다는 판단이 함께 나왔다. 금리가 내려가지 않으면 빚으로 투자하는 회사들의 이자 부담이 그대로 유지된다. 반대로 경기가 급하게 꺾이는 신호도 아니다.",
+        "whyMatters": "금리에 민감한 부동산·중소형 성장주는 기다림이 길어지고, 은행·보험 같은 금융 업종은 지금 금리 수준이 유지되는 쪽이 편하다. 다음 회의까지 물가 지표를 보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "US interest rates held steady and economy grows - what it means for you",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-29",
+            "quote": "US interest rates held steady and economy grows - what it means for you",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니다. QQQ는 10일선이 20일선 아래로 내려간 지 8일째라 쿨라매기 기준으로 빨간불이고, 종가 715.34는 20일선과 50일선 아래에 있다. 오늘 뉴스는 'AI가 정말 돈을 벌어줄까'라는 의심이 값으로 드러난 날이다 — ServiceNow와 Alphabet이 AI 우려로 급락했고, 인텔은 PC 둔화로 전망을 낮췄다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 +31.4%로 주의선을 넘었다는 것이다 — 하락이 시작되면 강제 매도가 겹친다. 이번 주는 10일선이 20일선 위로 되돌아오는지, 반도체·소프트웨어 급락이 다른 업종으로 번지는지를 지켜보면 된다.",
+    "keyRisks": [
+      "AI 수익성 의심: ServiceNow·Alphabet 급락처럼 'AI가 돈을 벌어줄까'라는 의심이 대형주를 한꺼번에 때린다. 지수 비중이 큰 종목들이어서 지수 전체가 같이 내려간다.",
+      "빚으로 산 주식: 마진부채가 주의선을 넘어 있어 하락이 오면 강제 청산 매도가 겹친다. 평소보다 떨어지는 속도가 빨라질 수 있다.",
+      "시장 신호등 빨간불: 단기 이동평균이 중기 아래에 머무는 구간이 이어지고 있다. 이런 때의 돌파 시도는 되돌림으로 끝날 확률이 높다.",
+      "실적 발표 한가운데: 인텔·ServiceNow처럼 하루 20% 넘게 빠지는 사례가 실제로 나왔다. 발표를 앞둔 종목은 들고 있는 것 자체가 변동성 위험이다."
+    ],
+    "easySummary": [
+      "QQQ는 단기 이동평균이 중기 아래에 있는 빨간불 — 새로 사기보다 들고 있는 것 점검이 먼저다.",
+      "AI 수익성 의심이 값으로 나왔다 — ServiceNow·구글 급락, 인텔은 PC 둔화로 21% 하락.",
+      "아마존·마이크로소프트는 AI 투자를 줄이지 않았다 — 설비·전력 쪽 수요는 아직 살아 있다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 197,
+      "ok": 325,
+      "unverified": 2,
+      "dead": 0,
+      "stripped": 22,
+      "removed": [],
+      "numberCut": 35,
+      "numberCuts": [
+        {
+          "sentence": "3분기 매출이 244억 달러로 1년 전보다 38.6% 늘어 증권사 예상치를 웃돌았다.",
+          "missing": [
+            "244억 달러",
+            "38.6"
+          ]
+        },
+        {
+          "sentence": "먹는 비만약 파운다요의 처방이 늘어야 한다는 조건이 붙어 있고, 주가수익비율은 약 47배로 기대가 이미 많이 반영돼 있다.",
+          "missing": [
+            "47"
+          ]
+        },
+        {
+          "sentence": "분기 영업이익이 7.86억 달러로 1년 전보다 26.6% 늘었고, 영업이익률은 13%였다.",
+          "missing": [
+            "13"
+          ]
+        },
+        {
+          "sentence": "매출 증가율(7.1%)보다 이익 증가율이 훨씬 높다.",
+          "missing": [
+            "7.1"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 35억 3,700만 달러로 1년 전보다 10.8% 늘어 역대 최대를 기록했다.",
+          "missing": [
+            "10.8"
+          ]
+        },
+        {
+          "sentence": "이번 급등에도 주가는 3월 고점(455.9달러)보다 약 31% 낮다.",
+          "missing": [
+            "31"
+          ]
+        },
+        {
+          "sentence": "3분기 영업이익률은 24%로, 직전 분기 21.1%보다 높아졌다.",
+          "missing": [
+            "21.1"
+          ]
+        },
+        {
+          "sentence": "주가는 이익의 33배(PER)로 비싸고, 52주 고점 329달러보다 15% 낮다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "시가총액 약 670억 달러의 7% 안팎이라 주당 가치를 지지하는 재료다.",
+          "missing": [
+            "670억 달러",
+            "7"
+          ]
+        },
+        {
+          "sentence": "10월 초 CFO 사임이 알려져 주가가 한 차례 밀렸고, 현재가는 52주 고점(212.75달러)의 절반 수준이다.",
+          "missing": [
+            "212.75"
+          ]
+        },
+        {
+          "sentence": "3분기 영업이익은 4억 9,926만 달러로 1년 전보다 1.3% 감소했고, 영업이익률도 14%로 직전 분기 16.3%보다 낮아졌다.",
+          "missing": [
+            "16.3"
+          ]
+        },
+        {
+          "sentence": "6개월 수익률도 -2.69%로, 실적 발표 전까지는 약세 흐름이었다.",
+          "missing": [
+            "2.69"
+          ]
+        },
+        {
+          "sentence": "이번 분기는 19.1%다.",
+          "missing": [
+            "19.1"
+          ]
+        },
+        {
+          "sentence": "발표 다음 거래일 주가는 75.45달러에서 80.01달러로 약 6% 올랐다.",
+          "missing": [
+            "75.45",
+            "80.01",
+            "6"
+          ]
+        },
+        {
+          "sentence": "1분기 영업이익은 1년 전보다 4.2% 줄었고 3분기 매출 증가율은 2분기(8.5%)보다 둔화될 수 있어, 회복이 일시적인지 확인이 필요하다.",
+          "missing": [
+            "8.5"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점 268달러보다 크게 낮고 3개월 -13.6%다.",
+          "missing": [
+            "13.6"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점(8월 6일)보다 3분의 1 가까이 낮고, 주가수익비율이 44배로 아직 높다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "실적 발표 다음 날 하루에 약 34% 올라 52주 최고가 부근이다.",
+          "missing": [
+            "34"
+          ]
+        },
+        {
+          "sentence": "주가는 올해 2월 고점(약 321.7달러)보다 약 40% 낮고, 주가수익비율이 42.7배로 높다.",
+          "missing": [
+            "40"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 2.11억 달러로 사상 최대였고, 1년 전보다 58% 늘었다.",
+          "missing": [
+            "58"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 사상 최대인 10억 1,300만 달러였고 5개 사업부문 모두 성장했다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "실적 발표 당일 SEC에 실적 8-K가 제출됐고, 이익은 예상을 웃돌았다는 제목의 기사가 나왔다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "3분기 매출 243.97억 달러로 1년 전보다 약 39% 늘었고, 증권가 예상치도 웃돌았다.",
+          "missing": [
+            "243.97억 달러"
+          ]
+        },
+        {
+          "sentence": "실적 발표 직후 SEC에 실적 발표 8-K를 제출했고, 다음 날 실적 설명회에서 매출과 이익이 사상 최고라는 평가가 나왔다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "다음 날 분기 배당을 주당 3.00달러에서 3.25달러로 약 8% 올렸다.",
+          "missing": [
+            "3.25"
+          ]
+        },
+        {
+          "sentence": "2026년 9월 분기 매출 2억 1,103만 달러, 1년 전보다 58% 증가했다.",
+          "missing": [
+            "58"
+          ]
+        },
+        {
+          "sentence": "2026년 3분기 매출 10.4억 달러, 1년 전보다 4.6% 증가(2분기 2.6%, 1분기 -1.7%).",
+          "missing": [
+            "2.6",
+            "1.7"
+          ]
+        },
+        {
+          "sentence": "3분기 매출 243.97억 달러, 1년 전보다 38.6% 증가.",
+          "missing": [
+            "38.6"
+          ]
+        },
+        {
+          "sentence": "2분기 47.7%, 1분기 55.5%.",
+          "missing": [
+            "47.7",
+            "55.5"
+          ]
+        },
+        {
+          "sentence": "증권사들이 10월에 목표가를 잇달아 낮췄다(RBC 300→250달러, 모건스탠리 360→310달러 등).",
+          "missing": [
+            "300",
+            "250"
+          ]
+        },
+        {
+          "sentence": "10/29 3분기 실적이 매출·이익 모두 시장 예상을 웃돌았다.",
+          "missing": [
+            "29"
+          ]
+        },
+        {
+          "sentence": "10/7 짐 크레이머는 LHX가 내려가면 안 된다고 말했다(의견).",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "3분기 실적 발표 — 8-K로 공시됐다(2026-10-29).",
+          "missing": [
+            "8",
+            "10",
+            "29"
+          ]
+        },
+        {
+          "sentence": "실적 직후 증권사 다수가 목표주가를 낮췄고, 최근 의견 변경에서 하향 2건이 있었다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "유진투자증권은 제트엔진 매출이 2026년 10% 중반대, 2029년까지 두 자릿수 성장할 것으로 본다.",
+          "missing": [
+            "10"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-30"
   }
 };

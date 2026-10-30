@@ -1,0 +1,715 @@
+{
+ "ticker": "LNG",
+ "date": "2026-10-30",
+ "session": "2026-10-29",
+ "source": "list",
+ "plan": {
+  "ticker": "LNG",
+  "name": "셰니어 에너지",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "price": 318.94000244140625,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 2.73,
+  "extensionAdr": 2.79,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.20682065808851097,
+    "pct": 94.27412082957619
+   },
+   "m3": {
+    "v": 0.25633529664646737,
+    "pct": 94.27412082957619
+   },
+   "m6": {
+    "v": 0.32634325008906284,
+    "pct": 86.78990081154193
+   }
+  },
+  "ret1m": 17.09,
+  "ret3m": 25.46,
+  "ret6m": 33.43,
+  "marketCap": "65.87B",
+  "volx": 2.84,
+  "volSurgeWk": 2.12,
+  "high52": 99.29,
+  "newHigh52": false,
+  "adr": 2.73,
+  "div50": 13.46,
+  "div200": 24.99,
+  "targetStatus": false,
+  "saleCy": 13.38,
+  "saleNy": 3.32,
+  "epsCy": 115.49,
+  "epsNy": -10.43,
+  "cyTrend": 1.42,
+  "nyTrend": -0.24,
+  "est": {
+   "cyCur": 23.12848,
+   "cy30": 22.80495,
+   "nyCur": 20.71605,
+   "ny30": 20.76683
+  },
+  "fs": {
+   "sale": [
+    23.51,
+    7.79,
+    22.86
+   ],
+   "ni": [
+    88.68,
+    -1092.07,
+    134.08
+   ],
+   "opm": [
+    74.84,
+    -59.44,
+    69.8
+   ],
+   "updated": "2026-09-08 08:26:23"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "셰니어 에너지",
+  "nameEn": "CHENIERE ENERGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000003570&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 6097000000,
+     "profit": 1915000000,
+     "netIncome": 1170000000,
+     "margin": 31.4,
+     "yoy": {
+      "revenue": 42,
+      "profit": 5.4,
+      "netIncome": 11.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 5677000000,
+     "profit": 4290000000,
+     "netIncome": 3068000000,
+     "margin": 75.6,
+     "yoy": {
+      "revenue": 26,
+      "profit": 69.6,
+      "netIncome": 88.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 6587000000,
+     "profit": -3488000000,
+     "netIncome": -3502000000,
+     "margin": -53,
+     "yoy": {
+      "revenue": 24.5,
+      "profit": -463,
+      "netIncome": -1092.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 5375000000,
+     "profit": 3804000000,
+     "netIncome": 3766000000,
+     "margin": 70.8,
+     "yoy": {
+      "revenue": 20.3,
+      "profit": 118.7,
+      "netIncome": 69.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Cheniere (LNG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cheniere-lng-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cheniere Energy, Inc. Reports Third Quarter 2026 Results, Raises Full Year Guidance, and Declares $0.625 Dividend",
+     "url": "https://www.nasdaq.com/articles/cheniere-energy-inc-reports-third-quarter-2026-results-raises-full-year-guidance-and",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Cheniere Energy Q3 26 Earnings Conference Call At 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/cheniere-energy-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Cheniere Energy (LNG) Misses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/cheniere-energy-lng-misses-q3-earnings-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cheniere Energy Inc. Announces Advance In Q3 Income",
+     "url": "https://www.nasdaq.com/articles/cheniere-energy-inc-announces-advance-q3-income",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "VG vs. LNG: Which Energy Stock Offers More Upside for Investors?",
+     "url": "https://www.nasdaq.com/articles/vg-vs-lng-which-energy-stock-offers-more-upside-investors",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Countdown to Cheniere Energy (LNG) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+     "url": "https://www.nasdaq.com/articles/countdown-cheniere-energy-lng-q3-earnings-look-estimates-beyond-revenue-and-eps",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Woodside in Talks With QatarEnergy for Long-Term LNG Supply Deal",
+     "url": "https://www.nasdaq.com/articles/woodside-talks-qatarenergy-long-term-lng-supply-deal",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000040/lng-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000030/lng-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000025/lng-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000023/lng-20260714.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/3570/000119312526294777/d73800d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/3570/000119312526263943/d318413d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Cramer's lightning round: Buy Hinge Health",
+   "url": "https://www.cnbc.com/2026/08/11/cramers-lightning-round-buy-hinge-health.html",
+   "date": "2026-08-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Kratos Defense & Security Solutions",
+   "url": "https://www.cnbc.com/2026/07/14/cramers-lightning-round-buy-kratos-defense-security-solutions.html",
+   "date": "2026-07-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: Nvidia, Cheniere Energy, Antofagasta and Steel Dynamics",
+   "url": "https://www.cnbc.com/video/2026/10/05/final-trades-nvidia-cheniere-energy-antofagasta-and-steel-dynamics.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "LNG",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 23.73,
+  "pbr": 10.71,
+  "eps": 13.44,
+  "bps": 29.78,
+  "shares": 206534000,
+  "marketCapM": 65872,
+  "high52": 321.22,
+  "high52Date": "2026-10-29",
+  "low52": 184.8786,
+  "low52Date": "2025-12-16",
+  "last": 318.94,
+  "prevClose": 297.77,
+  "nameKo": "셰니어 에너지",
+  "nameEn": "CHENIERE ENERGY INC",
+  "listedOn": "2024-02-05",
+  "exchange": "뉴욕거래소",
+  "listedShares": 206534000
+ },
+ "estimates": {
+  "ticker": "LNG",
+  "url": "https://finance.yahoo.com/quote/LNG/analysis/",
+  "fetchedAt": "2026-10-30",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 5.66,
+    "epsLow": 5.02,
+    "epsHigh": 6.14,
+    "epsYearAgo": 2.59,
+    "epsAnalysts": 4,
+    "epsGrowth": 118.2,
+    "epsCur": "USD",
+    "rev": 6034307740,
+    "revAnalysts": 8,
+    "revYearAgo": 5450000000,
+    "revGrowth": 10.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 4.71,
+    "epsLow": 3.61,
+    "epsHigh": 5.57,
+    "epsYearAgo": 9.17,
+    "epsAnalysts": 3,
+    "epsGrowth": -48.7,
+    "epsCur": "USD",
+    "rev": 6186330620,
+    "revAnalysts": 4,
+    "revYearAgo": 5868000000,
+    "revGrowth": 5.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 23.13,
+    "epsLow": 18.39,
+    "epsHigh": 29.45,
+    "epsYearAgo": 10.73,
+    "epsAnalysts": 5,
+    "epsGrowth": 115.5,
+    "epsCur": "USD",
+    "rev": 22649377430,
+    "revAnalysts": 10,
+    "revYearAgo": 19976000000,
+    "revGrowth": 13.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 20.72,
+    "epsLow": 15.02,
+    "epsHigh": 29.72,
+    "epsYearAgo": 23.13,
+    "epsAnalysts": 6,
+    "epsGrowth": -10.4,
+    "epsCur": "USD",
+    "rev": 23402175530,
+    "revAnalysts": 11,
+    "revYearAgo": 22649377430,
+    "revGrowth": 3.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.66,
+    "d7": 1,
+    "d30": 8.8,
+    "d90": 10,
+    "ago90": 5.15,
+    "up7": 2,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 4.71,
+    "d7": -4.9,
+    "d30": -10.9,
+    "d90": -14.6,
+    "ago90": 5.51,
+    "up7": 0,
+    "up30": 1,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 23.13,
+    "d7": -0.2,
+    "d30": 1.4,
+    "d90": 29,
+    "ago90": 17.93,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 20.72,
+    "d7": -0.4,
+    "d30": -0.2,
+    "d90": 5,
+    "ago90": 19.74,
+    "up7": 1,
+    "up30": 2,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.62,
+    "estimate": 4.73,
+    "surprisePct": -23.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.02,
+    "estimate": 3.15,
+    "surprisePct": -4.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 9.17,
+    "estimate": 4.69,
+    "surprisePct": 95.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.59,
+    "estimate": 3.87,
+    "surprisePct": -33,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 6,
+   "ptLowered": 0,
+   "total": 8,
+   "recent": [
+    {
+     "date": "2026-10-29",
+     "firm": "Bernstein",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 283,
+     "ptPrior": 283
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 344,
+     "ptPrior": 334
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Bernstein",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 283,
+     "ptPrior": 283
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 287,
+     "ptPrior": 279
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Scotiabank",
+     "action": "main",
+     "from": "Sector Outperform",
+     "to": "Sector Outperform",
+     "ptAction": "Raises",
+     "pt": 312,
+     "ptPrior": 290
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 319,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 290,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 279,
+     "ptPrior": 274
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-29",
+  "numbers": {
+   "price": 318.94,
+   "ma20": 286.15,
+   "ma50": 281.1,
+   "ma150": 263.46,
+   "distMA50": 13.46,
+   "periodHigh": 321.22,
+   "pullbackFromHigh": -0.71,
+   "volRatio20": 2.58,
+   "dryUpRatio": 1.52
+  },
+  "last10": [
+   {
+    "d": "2026-10-16",
+    "o": 281.65,
+    "h": 289.49,
+    "l": 280.08,
+    "c": 289.43,
+    "v": 1629400,
+    "clsPos": 99,
+    "gapPct": 0.9
+   },
+   {
+    "d": "2026-10-19",
+    "o": 288.28,
+    "h": 292.5,
+    "l": 284.92,
+    "c": 286.6,
+    "v": 1605500,
+    "clsPos": 22,
+    "gapPct": -0.4
+   },
+   {
+    "d": "2026-10-20",
+    "o": 288.74,
+    "h": 290.08,
+    "l": 281.26,
+    "c": 283.35,
+    "v": 1301700,
+    "clsPos": 24,
+    "gapPct": 0.75
+   },
+   {
+    "d": "2026-10-21",
+    "o": 283.35,
+    "h": 287.41,
+    "l": 281.9,
+    "c": 284.22,
+    "v": 1795000,
+    "clsPos": 42,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-22",
+    "o": 285.92,
+    "h": 289.39,
+    "l": 277.63,
+    "c": 287.01,
+    "v": 1892800,
+    "clsPos": 80,
+    "gapPct": 0.6
+   },
+   {
+    "d": "2026-10-23",
+    "o": 289.51,
+    "h": 299.45,
+    "l": 288.44,
+    "c": 298.67,
+    "v": 2304900,
+    "clsPos": 93,
+    "gapPct": 0.87
+   },
+   {
+    "d": "2026-10-26",
+    "o": 298,
+    "h": 302.45,
+    "l": 294.6,
+    "c": 300.59,
+    "v": 2335600,
+    "clsPos": 76,
+    "gapPct": -0.22
+   },
+   {
+    "d": "2026-10-27",
+    "o": 298.86,
+    "h": 304.73,
+    "l": 297.56,
+    "c": 299.74,
+    "v": 2223500,
+    "clsPos": 30,
+    "gapPct": -0.58
+   },
+   {
+    "d": "2026-10-28",
+    "o": 300,
+    "h": 302,
+    "l": 296.53,
+    "c": 297.77,
+    "v": 2334700,
+    "clsPos": 23,
+    "gapPct": 0.09
+   },
+   {
+    "d": "2026-10-29",
+    "o": 314.19,
+    "h": 321.22,
+    "l": 306.11,
+    "c": 318.94,
+    "v": 4713800,
+    "clsPos": 85,
+    "gapPct": 5.51
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LNG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LNG-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 8일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

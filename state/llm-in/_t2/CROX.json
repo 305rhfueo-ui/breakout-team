@@ -1,0 +1,298 @@
+{
+ "ticker": "CROX",
+ "sector": "Consumer Cyclical",
+ "industry": "Footwear & Accessories",
+ "nameKo": "크록스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.42,
+  "saleNy": 2.45,
+  "epsCy": 11.6,
+  "epsNy": 7.48,
+  "est": {
+   "cyCur": 13.96169,
+   "cy30": 13.95039,
+   "nyCur": 15.00588,
+   "ny30": 14.94673
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    2.62,
+    -1.69,
+    -3.25
+   ],
+   "ni": [
+    "흑자전환",
+    -14.08,
+    -71.49
+   ],
+   "opm": [
+    24.22,
+    21.8,
+    15.29
+   ],
+   "updated": "2026-09-08 10:49:18"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-29",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "크록스",
+  "nameEn": "CROCS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001334036&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1042583000,
+     "profit": 291927000,
+     "netIncome": 216755000,
+     "margin": 28,
+     "yoy": {
+      "revenue": 4.6,
+      "profit": 40.6,
+      "netIncome": 48.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1179468000,
+     "profit": 285678000,
+     "netIncome": 204887000,
+     "margin": 24.2,
+     "yoy": {
+      "revenue": 2.6,
+      "profit": 166.8,
+      "netIncome": 141.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 921457000,
+     "profit": 200844000,
+     "netIncome": 137556000,
+     "margin": 21.8,
+     "yoy": {
+      "revenue": -1.7,
+      "profit": -9.9,
+      "netIncome": -14.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 957640000,
+     "profit": 146397000,
+     "netIncome": 105163000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": -3.2,
+      "profit": -26.8,
+      "netIncome": -71.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Crocs (CROX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/crocs-crox-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Crocs Lifts Outlook as Growth Shifts Overseas: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/crocs-lifts-outlook-growth-shifts-overseas-rapid-earnings-reaction",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Crocs, Inc. Reports Strong Third Quarter 2026 Results; Raises Full-Year 2026 Outlook",
+     "url": "https://www.nasdaq.com/articles/crocs-inc-reports-strong-third-quarter-2026-results-raises-full-year-2026-outlook",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Crocs Q3 Profit Climbs, Raises FY26 Guidance; Pre-market Shares Up",
+     "url": "https://www.nasdaq.com/articles/crocs-q3-profit-climbs-raises-fy26-guidance-pre-market-shares",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Crocs (CROX) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-crocs-crox-q3-earnings",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Crocs (CROX) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/crocs-crox-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Crocs Inc. Q3 Profit Rises",
+     "url": "https://www.nasdaq.com/articles/crocs-inc-q3-profit-rises",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Stay Ahead of the Game With Crocs (CROX) Q3 Earnings: Wall Street's Insights on Key Metrics",
+     "url": "https://www.nasdaq.com/articles/stay-ahead-game-crocs-crox-q3-earnings-wall-streets-insights-key-metrics",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000050/crox-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000046/crox-20260609.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000029/crox-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000004/crox-20260212.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403625000099/crox-20251030.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix",
+   "url": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-premarket-crwv-rklb-skhy.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This ugly shoe brand's stock deserves a close look",
+   "url": "https://www.cnbc.com/2026/10/13/crocs-stock-gen-z-china-valuation.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Microsoft, Teladoc & more",
+   "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-midday-meta-msft-mktx-crox.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Crocs CEO: We're very confident about future growth",
+   "url": "https://www.cnbc.com/video/2026/10/29/crocs-ceo-were-very-confident-about-future-growth.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Crocs may be an overlooked play in the footwear space",
+   "url": "https://www.cnbc.com/video/2026/10/13/crocs-may-be-an-overlooked-play-in-the-footwear-space.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CROX",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 12.98,
+  "pbr": 5.22,
+  "eps": 11.57,
+  "bps": 28.79,
+  "shares": 47945100,
+  "marketCapM": 7204,
+  "high52": 151.82,
+  "high52Date": "2026-10-29",
+  "low52": 73.205,
+  "low52Date": "2025-11-14",
+  "last": 150.26,
+  "prevClose": 119.69,
+  "nameKo": "크록스",
+  "nameEn": "CROCS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 47945100
+ }
+}

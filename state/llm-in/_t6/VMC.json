@@ -1,0 +1,717 @@
+{
+ "ticker": "VMC",
+ "date": "2026-10-30",
+ "session": "2026-10-29",
+ "source": "list",
+ "plan": {
+  "ticker": "VMC",
+  "name": "벌칸 머티리얼스",
+  "sector": "Basic Materials",
+  "industry": "Building Materials",
+  "price": 280.30999755859375,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 2.51,
+  "extensionAdr": 2.3,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18487459231464676,
+    "pct": 89.9458972046889
+   },
+   "m3": {
+    "v": -0.01901728471572774,
+    "pct": 46.84400360685302
+   },
+   "m6": {
+    "v": -0.01614860424876366,
+    "pct": 34.67087466185753
+   }
+  },
+  "ret1m": 14.89,
+  "ret3m": -2.07,
+  "ret6m": -0.82,
+  "marketCap": "36.32B",
+  "volx": 2.48,
+  "volSurgeWk": 2.65,
+  "high52": 85.15,
+  "newHigh52": false,
+  "adr": 2.51,
+  "div50": 9.71,
+  "div200": 0.27,
+  "targetStatus": false,
+  "saleCy": 2.42,
+  "saleNy": 5.07,
+  "epsCy": 10.2,
+  "epsNy": 15.98,
+  "cyTrend": -3.36,
+  "nyTrend": -3.49,
+  "est": {
+   "cyCur": 8.81603,
+   "cy30": 9.12246,
+   "nyCur": 10.22491,
+   "ny30": 10.59474
+  },
+  "fs": {
+   "sale": [
+    2.54,
+    7.42,
+    3.18
+   ],
+   "ni": [
+    0.78,
+    28.39,
+    -14.17
+   ],
+   "opm": [
+    21.13,
+    15.11,
+    19.82
+   ],
+   "updated": "2026-09-11 05:56:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "벌칸 머티리얼스",
+  "nameEn": "VULCAN MATERIALS CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001396009&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2184600000,
+     "profit": 524600000,
+     "netIncome": 362300000,
+     "margin": 24,
+     "yoy": {
+      "revenue": -4.7,
+      "profit": -3.4,
+      "netIncome": -3.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2155800000,
+     "profit": 455500000,
+     "netIncome": 323400000,
+     "margin": 21.1,
+     "yoy": {
+      "revenue": 2.5,
+      "profit": -3.3,
+      "netIncome": 0.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1755900000,
+     "profit": 265400000,
+     "netIncome": 165500000,
+     "margin": 15.1,
+     "yoy": {
+      "revenue": 7.4,
+      "profit": 17.2,
+      "netIncome": 28.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1912600000,
+     "profit": 378900000,
+     "netIncome": 252000000,
+     "margin": 19.8,
+     "yoy": {
+      "revenue": 3.2,
+      "profit": -5.5,
+      "netIncome": -14.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Vulcan Materials (VMC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/vulcan-materials-vmc-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Vulcan Materials (VMC) Shares Cross Above 200 DMA",
+     "url": "https://www.nasdaq.com/articles/vulcan-materials-vmc-shares-cross-above-200-dma",
+     "date": "2026-10-29",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Vulcan Materials Company Reports Third Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/vulcan-materials-company-reports-third-quarter-2026-results",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Vulcan Materials Q3 26 Earnings Conference Call At 10:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/vulcan-materials-q3-26-earnings-conference-call-10-00-am-et",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Vulcan (VMC) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/vulcan-vmc-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Vulcan Materials (VMC) Surpasses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/vulcan-materials-vmc-surpasses-q3-earnings-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Vulcan Materials Co. Reports Decline In Q3 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/vulcan-materials-co-reports-decline-q3-bottom-line",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Unveiling Vulcan (VMC) Q3 Outlook: Wall Street Estimates for Key Metrics",
+     "url": "https://www.nasdaq.com/articles/unveiling-vulcan-vmc-q3-outlook-wall-street-estimates-key-metrics",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126041095/ef20084525_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126040518/ef20084094_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126029958/ef20078928_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126029775/ef20078709_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126020591/ef20072943_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126017638/ef20071724_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Jim Cramer shares his take on Vulcan and Martin Marietta",
+   "url": "https://www.cnbc.com/video/2026/07/28/jim-cramer-shares-his-take-on-vulcan-and-martin-marietta.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VMC",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 33.09,
+  "pbr": 4.29,
+  "eps": 8.47,
+  "bps": 65.42,
+  "shares": 129579000,
+  "marketCapM": 36322,
+  "high52": 329.1965,
+  "high52Date": "2026-02-10",
+  "low52": 237.03,
+  "low52Date": "2026-10-01",
+  "last": 280.31,
+  "prevClose": 265,
+  "nameKo": "벌칸 머티리얼스",
+  "nameEn": "VULCAN MATERIALS CO",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 129579000
+ },
+ "estimates": {
+  "ticker": "VMC",
+  "url": "https://finance.yahoo.com/quote/VMC/analysis/",
+  "fetchedAt": "2026-10-30",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.07,
+    "epsLow": 1.78,
+    "epsHigh": 2.31,
+    "epsYearAgo": 1.7,
+    "epsAnalysts": 16,
+    "epsGrowth": 21.7,
+    "epsCur": "USD",
+    "rev": 1960926710,
+    "revAnalysts": 14,
+    "revYearAgo": 1912600000,
+    "revGrowth": 2.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.46,
+    "epsLow": 1.2,
+    "epsHigh": 1.68,
+    "epsYearAgo": 1.35,
+    "epsAnalysts": 11,
+    "epsGrowth": 8.1,
+    "epsCur": "USD",
+    "rev": 1789585010,
+    "revAnalysts": 11,
+    "revYearAgo": 1755900000,
+    "revGrowth": 1.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 8.82,
+    "epsLow": 8.24,
+    "epsHigh": 9.24,
+    "epsYearAgo": 8,
+    "epsAnalysts": 21,
+    "epsGrowth": 10.2,
+    "epsCur": "USD",
+    "rev": 8132936380,
+    "revAnalysts": 21,
+    "revYearAgo": 7941100000,
+    "revGrowth": 2.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 10.22,
+    "epsLow": 8.68,
+    "epsHigh": 11,
+    "epsYearAgo": 8.82,
+    "epsAnalysts": 22,
+    "epsGrowth": 16,
+    "epsCur": "USD",
+    "rev": 8545653370,
+    "revAnalysts": 21,
+    "revYearAgo": 8132936380,
+    "revGrowth": 5.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.07,
+    "d7": -0.8,
+    "d30": -8.4,
+    "d90": -7.9,
+    "ago90": 2.24,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 5
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.46,
+    "d7": 1.7,
+    "d30": -4.4,
+    "d90": -5.5,
+    "ago90": 1.54,
+    "up7": 1,
+    "up30": 0,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 8.82,
+    "d7": -0.6,
+    "d30": -3.4,
+    "d90": -3.5,
+    "ago90": 9.14,
+    "up7": 0,
+    "up30": 0,
+    "down7": 5,
+    "down30": 8
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 10.22,
+    "d7": -0.3,
+    "d30": -3.5,
+    "d90": -5.3,
+    "ago90": 10.8,
+    "up7": 0,
+    "up30": 0,
+    "down7": 5,
+    "down30": 9
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.83,
+    "estimate": 2.81,
+    "surprisePct": 0.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.59,
+    "estimate": 2.47,
+    "surprisePct": 4.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.35,
+    "estimate": 1.1,
+    "surprisePct": 22.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.7,
+    "estimate": 2.11,
+    "surprisePct": -19.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 1,
+   "ptRaised": 0,
+   "ptLowered": 9,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-10-28",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 320,
+     "ptPrior": 333
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Raymond James",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 308,
+     "ptPrior": 320
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 300,
+     "ptPrior": 320
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 256,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 326,
+     "ptPrior": 349
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 249,
+     "ptPrior": 254
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 320,
+     "ptPrior": 360
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 300,
+     "ptPrior": 350
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 330,
+     "ptPrior": 330
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Wells Fargo",
+     "action": "down",
+     "from": "Equal-Weight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 254,
+     "ptPrior": 305
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-29",
+  "numbers": {
+   "price": 280.31,
+   "ma20": 254.83,
+   "ma50": 255.5,
+   "ma150": 275.49,
+   "distMA50": 9.71,
+   "periodHigh": 331.09,
+   "pullbackFromHigh": -15.34,
+   "volRatio20": 2.27,
+   "dryUpRatio": 1.11
+  },
+  "last10": [
+   {
+    "d": "2026-10-16",
+    "o": 255.41,
+    "h": 259.62,
+    "l": 253.93,
+    "c": 257.63,
+    "v": 1738000,
+    "clsPos": 65,
+    "gapPct": 1.19
+   },
+   {
+    "d": "2026-10-19",
+    "o": 258.23,
+    "h": 259.25,
+    "l": 255.09,
+    "c": 257.45,
+    "v": 1286500,
+    "clsPos": 57,
+    "gapPct": 0.23
+   },
+   {
+    "d": "2026-10-20",
+    "o": 257.93,
+    "h": 263.76,
+    "l": 255.95,
+    "c": 261.92,
+    "v": 1678600,
+    "clsPos": 76,
+    "gapPct": 0.19
+   },
+   {
+    "d": "2026-10-21",
+    "o": 263.7,
+    "h": 266.16,
+    "l": 262.12,
+    "c": 264.64,
+    "v": 1358100,
+    "clsPos": 62,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-10-22",
+    "o": 264.64,
+    "h": 269.15,
+    "l": 262.91,
+    "c": 268.72,
+    "v": 1230800,
+    "clsPos": 93,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-23",
+    "o": 267.06,
+    "h": 267.6,
+    "l": 260.41,
+    "c": 261.69,
+    "v": 1060200,
+    "clsPos": 18,
+    "gapPct": -0.62
+   },
+   {
+    "d": "2026-10-26",
+    "o": 262.76,
+    "h": 263.96,
+    "l": 260.14,
+    "c": 261.48,
+    "v": 1065400,
+    "clsPos": 35,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-10-27",
+    "o": 262.4,
+    "h": 263.22,
+    "l": 259.99,
+    "c": 262.5,
+    "v": 730400,
+    "clsPos": 78,
+    "gapPct": 0.35
+   },
+   {
+    "d": "2026-10-28",
+    "o": 261.97,
+    "h": 265.65,
+    "l": 261.05,
+    "c": 265,
+    "v": 1252300,
+    "clsPos": 86,
+    "gapPct": -0.2
+   },
+   {
+    "d": "2026-10-29",
+    "o": 265.85,
+    "h": 286.46,
+    "l": 259.98,
+    "c": 280.31,
+    "v": 2832400,
+    "clsPos": 77,
+    "gapPct": 0.32
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VMC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VMC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 8일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

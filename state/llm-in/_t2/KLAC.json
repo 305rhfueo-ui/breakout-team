@@ -1,0 +1,322 @@
+{
+ "ticker": "KLAC",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "KLA",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 38.72,
+  "saleNy": 18.99,
+  "epsCy": 50.5,
+  "epsNy": 23.05,
+  "est": {
+   "cyCur": 5.65867,
+   "cy30": 5.4548,
+   "nyCur": 6.96319,
+   "ny30": 6.70539
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.21,
+    11.49,
+    7.16
+   ],
+   "ni": [
+    13.32,
+    10.34,
+    38.95
+   ],
+   "opm": [
+    42.49,
+    41.21,
+    41.31
+   ],
+   "updated": "2026-09-07 07:45:30"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-30",
+  "nameKo": "KLA",
+  "nameEn": "KLA CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000319201&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 4136015000,
+     "profit": null,
+     "netIncome": 1548588000,
+     "margin": null,
+     "yoy": {
+      "revenue": 28.9,
+      "profit": null,
+      "netIncome": 38.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 3657556000,
+     "profit": null,
+     "netIncome": 1363059000,
+     "margin": null,
+     "yoy": {
+      "revenue": 15.2,
+      "profit": null,
+      "netIncome": 13.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3415078000,
+     "profit": null,
+     "netIncome": 1200990000,
+     "margin": null,
+     "yoy": {
+      "revenue": 11.5,
+      "profit": null,
+      "netIncome": 10.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 3297146000,
+     "profit": null,
+     "netIncome": 1145682000,
+     "margin": null,
+     "yoy": {
+      "revenue": 7.2,
+      "profit": null,
+      "netIncome": 39,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why KLA Corporation Rallied Today",
+     "url": "https://www.nasdaq.com/articles/why-kla-corporation-rallied-today",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "KLA (KLAC) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kla-klac-q1-2027-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "KLA Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/kla-q1-earnings-call-highlights",
+     "date": "2026-10-29",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "KLA (KLAC) Surpasses Q1 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/kla-klac-surpasses-q1-earnings-and-revenue-estimates",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "KLA Corporation Q1 Income Climbs",
+     "url": "https://www.nasdaq.com/articles/kla-corporation-q1-income-climbs",
+     "date": "2026-10-28",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "AEIS Rides on Strong Data Center Demand: Can It Outpace KLA & MKS?",
+     "url": "https://www.nasdaq.com/articles/aeis-rides-strong-data-center-demand-can-it-outpace-kla-mks",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "KLAC Takes Over #55 Spot From Walt Disney",
+     "url": "https://www.nasdaq.com/articles/klac-takes-over-55-spot-walt-disney",
+     "date": "2026-10-27",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Advanced Energy vs. KLA: Which Semiconductor Stock Is a Better Buy?",
+     "url": "https://www.nasdaq.com/articles/advanced-energy-vs-kla-which-semiconductor-stock-better-buy",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000032/klac-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526338242/d165938d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000024/klac-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526269375/d144278d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526212093/d116682d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000014/klac-20260429.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-01-13",
+     "broker": "iM증권",
+     "analyst": "신희철",
+     "title": "[KLA (NAS:KLAC)] AI 시대, 검사/계측 장비는 선택이 아닌 필수",
+     "summary": "- KLA는 1997년 설립된 반도체 검사 장비 기업으로, 반도체 전공정 및 후공정에서 검사(Inspection) 및 계측(Metrology) 솔루션을 제공한다.- 2025년 3분기(FY 1Q26) KLA는 매출액 32.1억달러(+13.0% YoY), GPM 62.5%를 기록하며 가이던스를 각각 1.9%, 0.5%p 상회하는 견조한 실적을 달성했다.- Advanced Package 시장 내 입지 강화: CoWoS-S(Chip on Wafer on Substrates) 공정 내 실리콘 인터포저의 RDL(Redistribution Layer: 재배선층) 미세화 속 어드밴스드 패키징 시장 내 고가의 전공정급 검사 장비가 도입이 필수화 되는 중.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlgzmgcmqegkkgcgxecic.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2025-11-17",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[KLA (NAS:KLAC)] 메모리 설비 투자 확대 수혜",
+     "summary": "- 3Q25CY 실적 기대치 소폭 상회, 4Q25 가이던스는 시장 컨센서스 부합- 4Q25CY에는 메모리, 특히 DRAM 및 HBM에 대한 실적 급증 예상- 2026년은 하반기로 갈수록 실적 성장이 강해지는 해가 될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxiiizzmmqmcqqgcgxecic.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Cramer's lightning round: KLA Corporation is 'a great company'",
+   "url": "https://www.cnbc.com/2026/09/01/cramers-lightning-round-kla-corporation-is-a-great-company.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+   "url": "https://www.cnbc.com/investingclub/2026/07/29/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+   "date": "2026-07-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Dow drops 1,100 points for worst day since April 2025 on fear the Fed is falling behind on inflation",
+   "url": "https://www.cnbc.com/2026/07/28/stock-market-today-live-updates.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa and more",
+   "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-after-hours-f-ter-v-klac-and-more.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Fiserv, Crinetics Pharmaceuticals, Micron",
+   "url": "https://www.cnbc.com/2026/07/07/stocks-making-the-biggest-moves-premarket-fisv-crnx-mu.html",
+   "date": "2026-07-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nasdaq drops 1% as chip stocks tumble and oil spikes; Dow slips below 53,000",
+   "url": "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "KLAC",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 45.65,
+  "pbr": 34.46,
+  "eps": 3.67,
+  "bps": 4.86,
+  "shares": 1305010000,
+  "marketCapM": 218498,
+  "high52": 307.0273,
+  "high52Date": "2026-06-30",
+  "low52": 106.7996,
+  "low52Date": "2025-11-21",
+  "last": 167.43,
+  "prevClose": 158.77,
+  "nameKo": "KLA",
+  "nameEn": "KLA CORPORATION",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 1305010000
+ }
+}
