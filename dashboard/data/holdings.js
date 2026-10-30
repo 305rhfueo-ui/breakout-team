@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-30T13:00:16.132Z",
+  "updated": "2026-10-30T22:10:15.566Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -7,6 +7,36 @@ window.HOLDINGS_DATA = {
       "ticker": "PLTR",
       "side": "long",
       "items": [
+        {
+          "type": "news",
+          "title": "Will Top-Line Improvement Benefit Palantir in Q3 Earnings?",
+          "url": "https://www.nasdaq.com/articles/will-top-line-improvement-benefit-palantir-q3-earnings",
+          "date": "2026-10-30",
+          "publisher": "Zacks",
+          "ko": "팔란티어 3분기 매출 84% 증가 전망",
+          "tone": "good",
+          "isNew": true,
+          "headline": "팔란티어 3분기 매출 84% 증가 전망",
+          "easy": "기사 본문은 확인하지 못했고 제목과 요약만 봤다. 요약에 따르면 팔란티어의 3분기 매출은 84% 늘 것으로 예상된다. AI 수요가 정부와 상업 부문 사업을 끌어올리고 있다는 설명이다. 실제 실적 발표에서 이 기대를 충족하는지가 관건이다.",
+          "whyMatters": "보유 중이라면 매출 성장 기대가 이미 반영돼 있을 수 있어, 실적이 예상에 못 미치면 주가에 부담이 될 수 있다. 기사에 주가 영향은 나오지 않았다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
+          "title": "Should Palantir Stock Be in Your Portfolio Before Q3 Earnings?",
+          "url": "https://www.nasdaq.com/articles/should-palantir-stock-be-your-portfolio-q3-earnings",
+          "date": "2026-10-30",
+          "publisher": "Zacks",
+          "ko": "팔란티어, 실적 앞두고 기대와 부담이 공존",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, 실적 앞두고 기대와 부담이 공존",
+          "easy": "기사 본문은 확인하지 못했고 제목과 요약만 봤다. 요약에 따르면 강한 AI 수요와 매출 성장이 기대를 키우고 있다. 반면 주가가 60% 올랐고, 밸류에이션이 높으며, ESP가 부정적이라는 우려도 있다. 자세한 근거는 기사에 안 나왔다.",
+          "whyMatters": "보유자에게는 실적 호조 기대와 높은 주가 부담이 동시에 있다는 뜻이다. 실적 발표 결과에 따라 주가 변동이 커질 수 있다.",
+          "quote": null,
+          "read": false
+        },
         {
           "type": "news",
           "title": "What a $1,000 Investment in Palantir Could Be Worth by the End of 2027 (The Answer May Surprise You)",
@@ -83,36 +113,6 @@ window.HOLDINGS_DATA = {
           "read": false
         },
         {
-          "type": "news",
-          "title": "Exploring Analyst Estimates for Palantir Technologies (PLTR) Q3 Earnings, Beyond Revenue and EPS",
-          "url": "https://www.nasdaq.com/articles/exploring-analyst-estimates-palantir-technologies-pltr-q3-earnings-beyond-revenue-and-eps",
-          "date": "2026-10-28",
-          "publisher": "Zacks",
-          "ko": "팔란티어 3분기 실적 앞두고 세부 지표 전망치를 점검",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어 3분기 실적 앞두고 세부 지표 전망치를 점검",
-          "easy": "2026년 9월에 끝난 분기의 팔란티어 실적을 앞두고, 월가의 매출·EPS 외 주요 지표 전망치를 살펴보는 기사입니다. 본문은 확인하지 못해 제목과 요약만 봤고, 구체적인 수치는 기사에 안 나왔습니다.",
-          "whyMatters": "보유자라면 실적 발표 때 매출·EPS뿐 아니라 세부 지표가 기대에 부합하는지도 주가 반응에 영향을 줄 수 있습니다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Bull of the Day: Palantir (PLTR)",
-          "url": "https://www.nasdaq.com/articles/bull-day-palantir-pltr",
-          "date": "2026-10-28",
-          "publisher": "Zacks",
-          "ko": "팔란티어를 AI 선도 기업으로 꼽은 낙관 기사가 나왔다",
-          "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어를 AI 선도 기업으로 꼽은 낙관 기사가 나왔다",
-          "easy": "Zacks의 'Bull of the Day'로 팔란티어가 선정됐다. 제목 요약에 따르면 정부 인증, 가속하는 매출 성장, 자본이 적게 드는 적용 모델이 강점으로 꼽혔다. 본문은 확인하지 못해 자세한 근거는 기사에 안 나왔다.",
-          "whyMatters": "보유 포지션에는 우호적인 논조지만, 새 실적이나 사건이 아니라 의견성 기사라는 점은 감안해야 한다.",
-          "quote": null,
-          "read": false
-        },
-        {
           "type": "cnbc",
           "title": "Buy Palantir ahead of earnings, says Rosenblatt",
           "url": "https://www.cnbc.com/2026/10/27/palantir-rosenblatt-price-target-earnings.html",
@@ -135,7 +135,7 @@ window.HOLDINGS_DATA = {
           "publisher": "대신증권 조재운",
           "ko": "팔란티어 3분기 실적, 가이던스 초과 폭이 관건",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 3분기 실적, 가이던스 초과 폭이 관건",
           "easy": "국내 증권사가 팔란티어 26년 3분기 실적 발표를 앞두고 프리뷰를 냈다. 14분기 연속 가이던스를 넘겨온 흐름이 이어지는지가 첫 확인 사항이라고 한다. 미국 상업 부문 성장이 재가속하는 것이 성장의 축이고 해외는 정체 구간이며, 이익 기준 밸류에이션은 이미 압축돼 이익의 질이 다음 쟁점이라고 했다. 투자의견은 '적극 매수'를 유지했다. 본문은 못 읽고 요약만 봤다.",
           "whyMatters": "보유 중이라면 실적에서 가이던스 초과 폭과 연간 전망 추가 상향이 나오는지가 주가에 중요한 변수가 될 수 있다. 다만 이 글은 증권사 전망이어서 실제 결과와 다를 수 있다.",
