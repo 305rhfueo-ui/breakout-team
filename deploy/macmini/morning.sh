@@ -12,3 +12,4 @@ node scripts/run-breakout.js
 case "$(date +%u)" in 2|3|4|5|6) bash deploy/macmini/run-claude-job.sh research ;; esac
 node scripts/sns-watch.js || true   # 팝업 맨 밑 SNS 반응(레딧, 2026-10-28) — 맨 끝: 예절 간격 때문에 20분 안팎이라 실장 보고를 늦추지 않게
 if [ "$(date +%u)" = 6 ]; then node scripts/ticker-universe.js --write || true; fi   # RS 사이트 티커 목록(사용자 구글 시트 첫 탭) 주 1회 — $70 넣고 $50 밑이면 뺌 (2026-10-29)
+if [ "$(date +%u)" = 7 ]; then node scripts/covered-call-watch.js || true; fi   # 11팀 시윤 — 커버드콜 × 와인스타인 단계 주 1회(일요일 · 야후 분배금 59개 4~5분 — 토요일 야후 부담과 나눔) (2026-11-01)
