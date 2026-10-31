@@ -1,0 +1,620 @@
+{
+ "ticker": "VLTO",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "VLTO",
+  "name": "버럴토",
+  "sector": "Industrials",
+  "industry": "Pollution & Treatment Controls",
+  "price": 111.1,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 2.15,
+  "extensionAdr": 3.11,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2522571071300748,
+    "pct": 92.47069431920649
+   },
+   "m3": {
+    "v": 0.1677688134809927,
+    "pct": 86.60955816050496
+   },
+   "m6": {
+    "v": 0.3168683292452825,
+    "pct": 82.7321911632101
+   }
+  },
+  "ret1m": 17.34,
+  "ret3m": 13.5,
+  "ret6m": 28.7,
+  "marketCap": "25.37B",
+  "volx": 2.46,
+  "volSurgeWk": 2.28,
+  "high52": 96.47,
+  "newHigh52": false,
+  "adr": 2.15,
+  "div50": 13.21,
+  "div200": 19.77,
+  "targetStatus": false,
+  "saleCy": 7.37,
+  "saleNy": 5.82,
+  "epsCy": 12.9,
+  "epsNy": 8.75,
+  "cyTrend": 0.03,
+  "nyTrend": 0.27,
+  "est": {
+   "cyCur": 4.40294,
+   "cy30": 4.40177,
+   "nyCur": 4.78832,
+   "ny30": 4.77545
+  },
+  "fs": {
+   "sale": [
+    7.51,
+    6.76,
+    3.79
+   ],
+   "ni": [
+    8.56,
+    12.89,
+    11.89
+   ],
+   "opm": [
+    21.37,
+    23.77,
+    22.64
+   ],
+   "updated": "2026-09-08 07:08:18"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "버럴토",
+  "nameEn": "VERALTO CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001967680&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-10-02",
+     "derived": false,
+     "revenue": 1509000000,
+     "profit": 298000000,
+     "netIncome": 253000000,
+     "margin": 19.7,
+     "yoy": {
+      "revenue": 7.5,
+      "profit": -8.6,
+      "netIncome": 5.9,
+      "priorEnd": "2025-10-03"
+     }
+    },
+    {
+     "periodEnd": "2026-07-03",
+     "derived": false,
+     "revenue": 1474000000,
+     "profit": 315000000,
+     "netIncome": 241000000,
+     "margin": 21.4,
+     "yoy": {
+      "revenue": 7.5,
+      "profit": 0.6,
+      "netIncome": 8.6,
+      "priorEnd": "2025-07-04"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 1422000000,
+     "profit": 338000000,
+     "netIncome": 254000000,
+     "margin": 23.8,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": 5,
+      "netIncome": 12.9,
+      "priorEnd": "2025-04-04"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1396000000,
+     "profit": 316000000,
+     "netIncome": 254000000,
+     "margin": 22.6,
+     "yoy": {
+      "revenue": 3.8,
+      "profit": 2.6,
+      "netIncome": 11.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Veralto (VLTO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/veralto-vlto-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Veralto Q3 26 Earnings Conference Call AT 7:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/veralto-q3-26-earnings-conference-call-7-30-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Veralto Corporation Reports Third Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/veralto-corporation-reports-third-quarter-2026-results",
+     "date": "2026-10-30",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Veralto (VLTO) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/veralto-vlto-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veralto Corporation Bottom Line Climbs In Q3",
+     "url": "https://www.nasdaq.com/articles/veralto-corporation-bottom-line-climbs-q3",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Veralto Now #348 Largest Company, Surpassing Church & Dwight",
+     "url": "https://www.nasdaq.com/articles/veralto-now-348-largest-company-surpassing-church-dwight",
+     "date": "2026-10-28",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Why Veralto (VLTO) is Poised to Beat Earnings Estimates Again",
+     "url": "https://www.nasdaq.com/articles/why-veralto-vlto-poised-beat-earnings-estimates-again",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veralto Gears Up to Report Q3 Earnings: What's in the Cards?",
+     "url": "https://www.nasdaq.com/articles/veralto-gears-report-q3-earnings-whats-cards",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000047/vlto-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000043/vlto-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000034/vlto-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000028/vlto-20260513.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-28",
+    "itemsKo": [
+     "실적 발표"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000023/vlto-20260428.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000003/vlto-20260203.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "VLTO",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 28,
+  "pbr": 8.76,
+  "eps": 3.97,
+  "bps": 12.68,
+  "shares": 243793350,
+  "marketCapM": 27085,
+  "high52": 115.1699,
+  "high52Date": "2026-10-30",
+  "low52": 79.8047,
+  "low52Date": "2026-05-28",
+  "last": 111.1,
+  "prevClose": 104.06,
+  "nameKo": "버럴토",
+  "nameEn": "VERALTO CORPORATION",
+  "listedOn": "2023-10-02",
+  "exchange": "뉴욕거래소",
+  "listedShares": 243793350
+ },
+ "estimates": {
+  "ticker": "VLTO",
+  "url": "https://finance.yahoo.com/quote/VLTO/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.13,
+    "epsLow": 1.11,
+    "epsHigh": 1.16,
+    "epsYearAgo": 1.04,
+    "epsAnalysts": 13,
+    "epsGrowth": 8.9,
+    "epsCur": "USD",
+    "rev": 1516011000,
+    "revAnalysts": 13,
+    "revYearAgo": 1396000000,
+    "revGrowth": 8.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.15,
+    "epsLow": 1.13,
+    "epsHigh": 1.18,
+    "epsYearAgo": 1.07,
+    "epsAnalysts": 6,
+    "epsGrowth": 7.7,
+    "epsCur": "USD",
+    "rev": 1507296220,
+    "revAnalysts": 6,
+    "revYearAgo": 1422000000,
+    "revGrowth": 6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 4.4,
+    "epsLow": 4.37,
+    "epsHigh": 4.43,
+    "epsYearAgo": 3.9,
+    "epsAnalysts": 16,
+    "epsGrowth": 12.9,
+    "epsCur": "USD",
+    "rev": 5908744400,
+    "revAnalysts": 15,
+    "revYearAgo": 5503000000,
+    "revGrowth": 7.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 4.79,
+    "epsLow": 4.61,
+    "epsHigh": 4.9,
+    "epsYearAgo": 4.4,
+    "epsAnalysts": 16,
+    "epsGrowth": 8.8,
+    "epsCur": "USD",
+    "rev": 6252889680,
+    "revAnalysts": 15,
+    "revYearAgo": 5908744400,
+    "revGrowth": 5.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.13,
+    "d7": 0,
+    "d30": 0.3,
+    "d90": 2,
+    "ago90": 1.11,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.15,
+    "d7": 0.5,
+    "d30": 0.3,
+    "d90": 0.6,
+    "ago90": 1.15,
+    "up7": 7,
+    "up30": 8,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.4,
+    "d7": 0,
+    "d30": 0,
+    "d90": 3.3,
+    "ago90": 4.26,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 4.79,
+    "d7": 0,
+    "d30": 0.3,
+    "d90": 2.6,
+    "ago90": 4.67,
+    "up7": 3,
+    "up30": 4,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.18,
+    "estimate": 1.09,
+    "surprisePct": 8.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.11,
+    "estimate": 1.01,
+    "surprisePct": 10.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.07,
+    "estimate": 1.01,
+    "surprisePct": 6.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.04,
+    "estimate": 0.98,
+    "surprisePct": 6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 0,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-10-05",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 106,
+     "ptPrior": 104
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 111.1,
+   "ma20": 100.94,
+   "ma50": 98.2,
+   "ma150": 92.54,
+   "distMA50": 13.13,
+   "periodHigh": 115.17,
+   "pullbackFromHigh": -3.53,
+   "volRatio20": 2.37,
+   "dryUpRatio": 1.33
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 100.62,
+    "h": 100.94,
+    "l": 100.19,
+    "c": 100.47,
+    "v": 963900,
+    "clsPos": 37,
+    "gapPct": -0.42
+   },
+   {
+    "d": "2026-10-20",
+    "o": 101.21,
+    "h": 102.35,
+    "l": 100.56,
+    "c": 101.36,
+    "v": 1793500,
+    "clsPos": 45,
+    "gapPct": 0.74
+   },
+   {
+    "d": "2026-10-21",
+    "o": 100.97,
+    "h": 101.57,
+    "l": 100.28,
+    "c": 101.31,
+    "v": 1119400,
+    "clsPos": 80,
+    "gapPct": -0.38
+   },
+   {
+    "d": "2026-10-22",
+    "o": 102,
+    "h": 104.9,
+    "l": 102,
+    "c": 104.9,
+    "v": 1717900,
+    "clsPos": 100,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-10-23",
+    "o": 104.74,
+    "h": 105.61,
+    "l": 103.6,
+    "c": 104.33,
+    "v": 1129300,
+    "clsPos": 36,
+    "gapPct": -0.15
+   },
+   {
+    "d": "2026-10-26",
+    "o": 103.31,
+    "h": 104.21,
+    "l": 102.43,
+    "c": 103.35,
+    "v": 1566900,
+    "clsPos": 52,
+    "gapPct": -0.98
+   },
+   {
+    "d": "2026-10-27",
+    "o": 102.67,
+    "h": 103.41,
+    "l": 102.02,
+    "c": 103.19,
+    "v": 1932700,
+    "clsPos": 84,
+    "gapPct": -0.66
+   },
+   {
+    "d": "2026-10-28",
+    "o": 102.61,
+    "h": 103.3,
+    "l": 102.18,
+    "c": 102.8,
+    "v": 2513400,
+    "clsPos": 55,
+    "gapPct": -0.56
+   },
+   {
+    "d": "2026-10-29",
+    "o": 103.4,
+    "h": 104.09,
+    "l": 102.67,
+    "c": 104.06,
+    "v": 1969600,
+    "clsPos": 98,
+    "gapPct": 0.58
+   },
+   {
+    "d": "2026-10-30",
+    "o": 108.01,
+    "h": 115.17,
+    "l": 107.5,
+    "c": 111.1,
+    "v": 4402100,
+    "clsPos": 47,
+    "gapPct": 3.8
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VLTO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VLTO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,578 @@
+{
+ "ticker": "BTSGU",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "BTSGU",
+  "name": "BrightSpring Health Services, Inc.",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "price": 218.16000366210938,
+  "grade": "C",
+  "state": "post",
+  "pivot": 211.79,
+  "stop": 209.69,
+  "distToPivotPct": 3.01,
+  "distToPivotAdr": 2.33,
+  "riskPerSharePct": 0.99,
+  "adrPct": 1.29,
+  "extensionAdr": 6.27,
+  "breakDate": "2026-10-30",
+  "metrics": {
+   "baseBars": 15,
+   "baseWeeks": 3,
+   "depthPct": 12.2,
+   "priorMovePct": 15.6,
+   "higherLows": 1,
+   "contraction": 2.11,
+   "closeRange10Adr": 7.4,
+   "surf10": -0.09,
+   "surf20": -1.3,
+   "slope20": 1.07,
+   "baseLow": 186,
+   "lastSwingLow": 186
+  },
+  "reasons": [
+   "✗ 선행 상승 +16%",
+   "베이스 3주",
+   "깊이 12.2%",
+   "저점 상승 1회",
+   "✗ 진폭 2.11배 · 10일 종가폭 7.4 ADR",
+   "✗ 10일선 -0.1 ADR · 20일선 -1.3 ADR",
+   "20일선 기울기 +1.07%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18877982552662012,
+    "pct": 79.21550946798918
+   },
+   "m3": {
+    "v": 0.10399389135031889,
+    "pct": 76.33002705139765
+   },
+   "m6": {
+    "v": 0.22975969811999947,
+    "pct": 74.34625788999098
+   }
+  },
+  "ret1m": 10.99,
+  "ret3m": 7.12,
+  "ret6m": 19.99,
+  "marketCap": "N/A",
+  "volx": 7.41,
+  "volSurgeWk": 7.71,
+  "high52": 86.04,
+  "newHigh52": false,
+  "adr": 1.29,
+  "div50": 11.02,
+  "div200": 21.47,
+  "targetStatus": false,
+  "saleCy": 19.01,
+  "saleNy": 13.41,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "fs": null,
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": null,
+  "nameEn": null,
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001865782&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 4213234000,
+     "profit": 160480000,
+     "netIncome": 100138000,
+     "margin": 3.8,
+     "yoy": {
+      "revenue": 26.4,
+      "profit": 82.7,
+      "netIncome": 79.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3873140000,
+     "profit": 130391000,
+     "netIncome": 84290000,
+     "margin": 3.4,
+     "yoy": {
+      "revenue": 23,
+      "profit": 168.5,
+      "netIncome": 198.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3613721000,
+     "profit": 121449000,
+     "netIncome": 148767000,
+     "margin": 3.4,
+     "yoy": {
+      "revenue": 25.6,
+      "profit": 139.4,
+      "netIncome": 403.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3550631000,
+     "profit": 108113000,
+     "netIncome": 75527000,
+     "margin": 3,
+     "yoy": {
+      "revenue": 29.3,
+      "profit": 94.7,
+      "netIncome": 38.4,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "BrightSpring Health Services (BTSGU) Price Target Increased by 16.18% to 204.99",
+     "url": "https://www.nasdaq.com/articles/brightspring-health-services-btsgu-price-target-increased-1618-20499",
+     "date": "2026-05-15",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "BrightSpring Health Services (BTSGU) Price Target Increased by 19.44% to 179.35",
+     "url": "https://www.nasdaq.com/articles/brightspring-health-services-btsgu-price-target-increased-1944-17935",
+     "date": "2026-04-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "BTIG Maintains BrightSpring Health Services (BTSGU) Buy Recommendation",
+     "url": "https://www.nasdaq.com/articles/btig-maintains-brightspring-health-services-btsgu-buy-recommendation-0",
+     "date": "2025-12-24",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Mizuho Maintains BrightSpring Health Services (BTSGU) Outperform Recommendation",
+     "url": "https://www.nasdaq.com/articles/mizuho-maintains-brightspring-health-services-btsgu-outperform-recommendation-0",
+     "date": "2025-12-18",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Keybanc Upgrades BrightSpring Health Services (BTSGU)",
+     "url": "https://www.nasdaq.com/articles/keybanc-upgrades-brightspring-health-services-btsgu",
+     "date": "2025-12-13",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Stephens & Co. Initiates Coverage of BrightSpring Health Services (BTSGU) with Overweight Recommendation",
+     "url": "https://www.nasdaq.com/articles/stephens-co-initiates-coverage-brightspring-health-services-btsgu-overweight",
+     "date": "2025-12-12",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "B of A Securities Maintains BrightSpring Health Services (BTSGU) Buy Recommendation",
+     "url": "https://www.nasdaq.com/articles/b-securities-maintains-brightspring-health-services-btsgu-buy-recommendation",
+     "date": "2025-12-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "William Blair Initiates Coverage of BrightSpring Health Services (BTSGU) with Outperform Recommendation",
+     "url": "https://www.nasdaq.com/articles/william-blair-initiates-coverage-brightspring-health-services-btsgu-outperform",
+     "date": "2025-12-09",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000186578226000011/btsg-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526326654/btsg-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526269360/btsg-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526259531/btsg-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526234435/btsg-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526198983/btsg-20260501.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "BTSGU",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 0,
+  "pbr": 0,
+  "eps": 0,
+  "bps": 0,
+  "shares": 8000000,
+  "marketCapM": 1745,
+  "high52": 253.5443,
+  "high52Date": "2026-06-17",
+  "low52": 103.8195,
+  "low52Date": "2025-11-18",
+  "last": 218.16,
+  "prevClose": 198.3,
+  "nameKo": "브라이트스프링 헬스 서비시스 유닛",
+  "nameEn": "BRIGHTSPRING HEALTH SERVICES INC TANGIBLE EQUITY UNIT",
+  "listedOn": "2024-01-26",
+  "exchange": "나스닥",
+  "listedShares": 8000000
+ },
+ "estimates": {
+  "ticker": "BTSGU",
+  "url": "https://finance.yahoo.com/quote/BTSGU/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 4011353940,
+    "revAnalysts": 15,
+    "revYearAgo": 3550631000,
+    "revGrowth": 13,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 4122214060,
+    "revAnalysts": 10,
+    "revYearAgo": 3613721000,
+    "revGrowth": 14.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 15365247030,
+    "revAnalysts": 17,
+    "revYearAgo": 12910564000,
+    "revGrowth": 19,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 17425010140,
+    "revAnalysts": 18,
+    "revYearAgo": 15365247030,
+    "revGrowth": 13.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   }
+  ],
+  "surprises": [],
+  "beats": 0,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 0,
+   "recent": []
+  },
+  "nextEarnings": null
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 218.16,
+   "ma20": 202.08,
+   "ma50": 197.11,
+   "ma150": 196.15,
+   "distMA50": 10.68,
+   "periodHigh": 255.51,
+   "pullbackFromHigh": -14.62,
+   "volRatio20": 7.05,
+   "dryUpRatio": 2.27
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 201.58,
+    "h": 201.58,
+    "l": 201.58,
+    "c": 201.58,
+    "v": 600,
+    "clsPos": null,
+    "gapPct": 1.86
+   },
+   {
+    "d": "2026-10-20",
+    "o": 202.46,
+    "h": 205.04,
+    "l": 202.46,
+    "c": 204.97,
+    "v": 600,
+    "clsPos": 97,
+    "gapPct": 0.44
+   },
+   {
+    "d": "2026-10-21",
+    "o": 206.06,
+    "h": 207.52,
+    "l": 206.06,
+    "c": 207.52,
+    "v": 600,
+    "clsPos": 100,
+    "gapPct": 0.53
+   },
+   {
+    "d": "2026-10-22",
+    "o": 197.19,
+    "h": 197.19,
+    "l": 197.19,
+    "c": 197.19,
+    "v": 600,
+    "clsPos": null,
+    "gapPct": -4.98
+   },
+   {
+    "d": "2026-10-23",
+    "o": 197.83,
+    "h": 197.83,
+    "l": 197.83,
+    "c": 197.83,
+    "v": 900,
+    "clsPos": null,
+    "gapPct": 0.32
+   },
+   {
+    "d": "2026-10-26",
+    "o": 192.65,
+    "h": 192.71,
+    "l": 192.59,
+    "c": 192.59,
+    "v": 2400,
+    "clsPos": 0,
+    "gapPct": -2.62
+   },
+   {
+    "d": "2026-10-27",
+    "o": 192.46,
+    "h": 192.46,
+    "l": 190.93,
+    "c": 191.91,
+    "v": 2200,
+    "clsPos": 64,
+    "gapPct": -0.07
+   },
+   {
+    "d": "2026-10-28",
+    "o": 193.18,
+    "h": 195.24,
+    "l": 191.52,
+    "c": 195.18,
+    "v": 4000,
+    "clsPos": 98,
+    "gapPct": 0.66
+   },
+   {
+    "d": "2026-10-29",
+    "o": 202.08,
+    "h": 202.7,
+    "l": 198.3,
+    "c": 198.3,
+    "v": 5900,
+    "clsPos": 0,
+    "gapPct": 3.54
+   },
+   {
+    "d": "2026-10-30",
+    "o": 223.41,
+    "h": 223.41,
+    "l": 210.2,
+    "c": 218.16,
+    "v": 23740,
+    "clsPos": 60,
+    "gapPct": 12.66
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BTSGU-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BTSGU-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

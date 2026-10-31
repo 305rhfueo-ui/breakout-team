@@ -1,0 +1,788 @@
+{
+ "ticker": "CBOE",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "CBOE",
+  "name": "CBOE 글로벌 마켓",
+  "sector": "Financial Services",
+  "industry": "Financial Data & Stock Exchanges",
+  "price": 335.53,
+  "grade": "C",
+  "state": "post",
+  "pivot": 317.74,
+  "stop": 304.87,
+  "distToPivotPct": 5.6,
+  "distToPivotAdr": 1.44,
+  "riskPerSharePct": 4.05,
+  "adrPct": 3.88,
+  "extensionAdr": 0.9,
+  "breakDate": "2026-10-21",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 20.4,
+   "priorMovePct": 39.9,
+   "higherLows": 0,
+   "contraction": 0.95,
+   "closeRange10Adr": 2.6,
+   "surf10": 1.05,
+   "surf20": 2.32,
+   "slope20": 3.57,
+   "baseLow": 252.82,
+   "lastSwingLow": 252.82
+  },
+  "reasons": [
+   "선행 상승 +40%",
+   "베이스 8주",
+   "깊이 20.4%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.95배 · 10일 종가폭 2.6 ADR",
+   "10일선 +1.1 ADR · 20일선 +2.3 ADR",
+   "20일선 기울기 +3.57%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.31576214576186434,
+    "pct": 97.52028854824167
+   },
+   "m3": {
+    "v": 0.19634411267713975,
+    "pct": 89.404869251578
+   },
+   "m6": {
+    "v": -0.008093422009956178,
+    "pct": 30.25247971145176
+   }
+  },
+  "ret1m": 23.69,
+  "ret3m": 16.35,
+  "ret6m": -3.8,
+  "marketCap": "32.82B",
+  "volx": 2.06,
+  "volSurgeWk": 2.02,
+  "high52": 90.84,
+  "newHigh52": false,
+  "adr": 3.87,
+  "div50": 13.93,
+  "div200": 15.11,
+  "targetStatus": false,
+  "saleCy": 18.03,
+  "saleNy": 3.22,
+  "epsCy": 32.11,
+  "epsNy": 7.51,
+  "cyTrend": -0.1,
+  "nyTrend": -0.45,
+  "est": {
+   "cyCur": 14.09612,
+   "cy30": 14.11087,
+   "nyCur": 15.15407,
+   "ny30": 15.223
+  },
+  "fs": {
+   "sale": [
+    22.95,
+    6.51,
+    8.7
+   ],
+   "ni": [
+    50.41,
+    54.01,
+    59.61
+   ],
+   "opm": [
+    32.99,
+    39.72,
+    33.54
+   ],
+   "updated": "2026-09-08 07:07:41"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "CBOE 글로벌 마켓",
+  "nameEn": "CBOE GLOBAL MARKETS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001374310&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1442800000,
+     "profit": 476000000,
+     "netIncome": 353100000,
+     "margin": 33,
+     "yoy": {
+      "revenue": 22.9,
+      "profit": 40.4,
+      "netIncome": 50.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1272800000,
+     "profit": 505600000,
+     "netIncome": 385700000,
+     "margin": 39.7,
+     "yoy": {
+      "revenue": 6.5,
+      "profit": 42.9,
+      "netIncome": 53.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1204000000,
+     "profit": 403800000,
+     "netIncome": 313500000,
+     "margin": 33.5,
+     "yoy": {
+      "revenue": 8.7,
+      "profit": 35.3,
+      "netIncome": 59.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1141700000,
+     "profit": 370300000,
+     "netIncome": 300800000,
+     "margin": 32.4,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": 20.5,
+      "netIncome": 37.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Cboe (CBOE) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cboe-cboe-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About CBOE (CBOE) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-cboe-cboe-q3-earnings",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CBOE Global (CBOE) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/cboe-global-cboe-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CBOE Global Markets, Inc. Reveals Climb In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/cboe-global-markets-inc-reveals-climb-q3-profit",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "CBOE Global Markets Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/cboe-global-markets-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "CBOE Global (CBOE) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/cboe-global-cboe-earnings-expected-grow-should-you-buy",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cboe Authorized Up To Additional $550 Mln Buyback",
+     "url": "https://www.nasdaq.com/articles/cboe-authorized-additional-550-mln-buyback",
+     "date": "2026-10-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Cboe Global Markets Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/cboe-global-markets-reaches-analyst-target-price",
+     "date": "2026-10-22",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026068432/cboe-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926111989/tm2626203d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026051217/cboe-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926087625/tm2621346d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926078295/tm2618643d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926063250/tm2614804d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Cboe to expand options trading hours for major stocks and ETFs",
+   "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's big analyst calls: Nvidia, SpaceX, Tesla, Boeing, American Express",
+   "url": "https://www.cnbc.com/2026/10/09/friday-biggest-analyst-calls-like-nvidia-spacex.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This exchange stock is a buy on renewed options deal, Morgan Stanley says",
+   "url": "https://www.cnbc.com/2026/10/09/this-exchange-stock-is-a-buy-on-renewed-options-deal-morgan-stanley-says.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bearproof stocks with a history of holding up when the market struggles",
+   "url": "https://www.cnbc.com/2026/08/23/bearproof-stocks-with-a-history-of-holding-up-when-the-market-struggles.html",
+   "date": "2026-08-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wall Street's existential crisis over perpetual futures just got urgent",
+   "url": "https://www.cnbc.com/2026/08/21/wall-streets-existential-crisis-over-perpetual-futures-the-24/7-security-on-steroids-just-got-urgent.html",
+   "date": "2026-08-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Kalshi wants to launch ‘perps’ tied to equity indexes",
+   "url": "https://www.cnbc.com/2026/08/18/kalshi-wants-to-launch-perps-tied-to-equity-indexes.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Opening Bell: October 21, 2026",
+   "url": "https://www.cnbc.com/video/2026/10/21/opening-bell-october-21-2026.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Extended options trading hours: What to expect from Cboe & NYSE",
+   "url": "https://www.cnbc.com/video/2026/10/19/extended-options-trading-hour-what-to-expect-from-cboe-nyse.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CBOE",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 26.14,
+  "pbr": 6.24,
+  "eps": 12.84,
+  "bps": 53.81,
+  "shares": 104431000,
+  "marketCapM": 35040,
+  "high52": 369.3775,
+  "high52Date": "2026-05-19",
+  "low52": 226.5208,
+  "low52Date": "2026-06-29",
+  "last": 335.53,
+  "prevClose": 314.25,
+  "nameKo": "CBOE 글로벌 마켓",
+  "nameEn": "CBOE GLOBAL MARKETS INC",
+  "listedOn": "2018-09-17",
+  "exchange": "아멕스",
+  "listedShares": 104431000
+ },
+ "estimates": {
+  "ticker": "CBOE",
+  "url": "https://finance.yahoo.com/quote/CBOE/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 3.45,
+    "epsLow": 3.22,
+    "epsHigh": 3.62,
+    "epsYearAgo": 3.06,
+    "epsAnalysts": 11,
+    "epsGrowth": 12.6,
+    "epsCur": "USD",
+    "rev": 709367750,
+    "revAnalysts": 9,
+    "revYearAgo": 671100000,
+    "revGrowth": 5.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.71,
+    "epsLow": 3.48,
+    "epsHigh": 4,
+    "epsYearAgo": 3.7,
+    "epsAnalysts": 8,
+    "epsGrowth": 0.4,
+    "epsCur": "USD",
+    "rev": 740361570,
+    "revAnalysts": 7,
+    "revYearAgo": 728900000,
+    "revGrowth": 1.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 14.1,
+    "epsLow": 13.78,
+    "epsHigh": 14.36,
+    "epsYearAgo": 10.67,
+    "epsAnalysts": 14,
+    "epsGrowth": 32.1,
+    "epsCur": "USD",
+    "rev": 2867173510,
+    "revAnalysts": 10,
+    "revYearAgo": 2429100000,
+    "revGrowth": 18,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 15.15,
+    "epsLow": 14.87,
+    "epsHigh": 16.19,
+    "epsYearAgo": 14.1,
+    "epsAnalysts": 14,
+    "epsGrowth": 7.5,
+    "epsCur": "USD",
+    "rev": 2959393230,
+    "revAnalysts": 10,
+    "revYearAgo": 2867173510,
+    "revGrowth": 3.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.45,
+    "d7": 0,
+    "d30": -1,
+    "d90": 0.2,
+    "ago90": 3.44,
+    "up7": 1,
+    "up30": 2,
+    "down7": 5,
+    "down30": 6
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.71,
+    "d7": 0,
+    "d30": -1.4,
+    "d90": 0,
+    "ago90": 3.71,
+    "up7": 3,
+    "up30": 4,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 14.1,
+    "d7": -0.3,
+    "d30": -0.1,
+    "d90": 0.9,
+    "ago90": 13.98,
+    "up7": 3,
+    "up30": 3,
+    "down7": 3,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 15.15,
+    "d7": -0.3,
+    "d30": -0.5,
+    "d90": 0.9,
+    "ago90": 15.02,
+    "up7": 4,
+    "up30": 4,
+    "down7": 2,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.63,
+    "estimate": 3.43,
+    "surprisePct": 5.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.56,
+    "estimate": 3.49,
+    "surprisePct": 2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.7,
+    "estimate": 3.38,
+    "surprisePct": 9.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 3.06,
+    "estimate": 2.95,
+    "surprisePct": 3.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 3,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 7,
+   "ptLowered": 2,
+   "total": 10,
+   "recent": [
+    {
+     "date": "2026-10-28",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Raises",
+     "pt": 332,
+     "ptPrior": 288
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 309,
+     "ptPrior": 301
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 342,
+     "ptPrior": 334
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Morgan Stanley",
+     "action": "up",
+     "from": "Underweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 358,
+     "ptPrior": 258
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 343,
+     "ptPrior": 354
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "TD Cowen",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 334,
+     "ptPrior": 315
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Wells Fargo",
+     "action": "init",
+     "from": null,
+     "to": "Equal-Weight",
+     "ptAction": "Announces",
+     "pt": 301,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Goldman Sachs",
+     "action": "up",
+     "from": "Sell",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 300,
+     "ptPrior": 304
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 315,
+     "ptPrior": 304
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 354,
+     "ptPrior": 347
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-30",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 335.53,
+   "ma20": 309.36,
+   "ma50": 294.61,
+   "ma150": 296.07,
+   "distMA50": 13.89,
+   "periodHigh": 371.18,
+   "pullbackFromHigh": -9.6,
+   "volRatio20": 1.91,
+   "dryUpRatio": 1.04
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 311.65,
+    "h": 311.98,
+    "l": 303.54,
+    "c": 306.47,
+    "v": 942200,
+    "clsPos": 35,
+    "gapPct": -1.06
+   },
+   {
+    "d": "2026-10-20",
+    "o": 308.41,
+    "h": 317.45,
+    "l": 306.47,
+    "c": 315,
+    "v": 1435400,
+    "clsPos": 78,
+    "gapPct": 0.63
+   },
+   {
+    "d": "2026-10-21",
+    "o": 315,
+    "h": 320,
+    "l": 312.34,
+    "c": 318.82,
+    "v": 1063900,
+    "clsPos": 85,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-22",
+    "o": 321.35,
+    "h": 330.56,
+    "l": 320,
+    "c": 327.72,
+    "v": 954900,
+    "clsPos": 73,
+    "gapPct": 0.79
+   },
+   {
+    "d": "2026-10-23",
+    "o": 333,
+    "h": 341.27,
+    "l": 331.73,
+    "c": 340.42,
+    "v": 1864600,
+    "clsPos": 91,
+    "gapPct": 1.61
+   },
+   {
+    "d": "2026-10-26",
+    "o": 339.2,
+    "h": 340.4,
+    "l": 330.47,
+    "c": 335.25,
+    "v": 1297000,
+    "clsPos": 48,
+    "gapPct": -0.36
+   },
+   {
+    "d": "2026-10-27",
+    "o": 335.89,
+    "h": 336.92,
+    "l": 323,
+    "c": 324.68,
+    "v": 968400,
+    "clsPos": 12,
+    "gapPct": 0.19
+   },
+   {
+    "d": "2026-10-28",
+    "o": 320.33,
+    "h": 325.94,
+    "l": 318.81,
+    "c": 320.42,
+    "v": 752500,
+    "clsPos": 23,
+    "gapPct": -1.34
+   },
+   {
+    "d": "2026-10-29",
+    "o": 325.07,
+    "h": 326.3,
+    "l": 309.72,
+    "c": 314.25,
+    "v": 1205900,
+    "clsPos": 27,
+    "gapPct": 1.45
+   },
+   {
+    "d": "2026-10-30",
+    "o": 322.99,
+    "h": 342.86,
+    "l": 320.01,
+    "c": 335.53,
+    "v": 2459100,
+    "clsPos": 68,
+    "gapPct": 2.78
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CBOE-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CBOE-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

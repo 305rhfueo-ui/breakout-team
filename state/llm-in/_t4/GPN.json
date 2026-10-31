@@ -1,0 +1,206 @@
+{
+ "ticker": "GPN",
+ "news": [
+  {
+   "title": "Global Payments (GPN) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Global Payments (GPN) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-global-payments-gpn-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can Global Payments Gain From Growing Consumer Trust in AI Commerce?",
+   "url": "https://www.nasdaq.com/articles/can-global-payments-gain-growing-consumer-trust-ai-commerce",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can Genius Emerge as a Key Growth Driver for Global Payments?",
+   "url": "https://www.nasdaq.com/articles/can-genius-emerge-key-growth-driver-global-payments",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can Worldpay Help Global Payments Build a Stronger Growth Story?",
+   "url": "https://www.nasdaq.com/articles/can-worldpay-help-global-payments-build-stronger-growth-story",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Global Payments Takes Over #373 Spot From First Solar",
+   "url": "https://www.nasdaq.com/articles/global-payments-takes-over-373-spot-first-solar",
+   "date": "2026-09-11",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Global Payments (GPN) Up 4.7% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-47-last-earnings-report-can-it-continue",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000082/gpn-20260805.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926056781/tm2613880d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000070/gpn-20260506.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926054479/tm2613397d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-12",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926027067/tm268658d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926026460/tm266812d2_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001123360&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 3320791000,
+    "profit": 337121000,
+    "netIncome": 12971000,
+    "margin": 10.2,
+    "yoy": {
+     "revenue": 68.6,
+     "profit": -14.3,
+     "netIncome": -94.6,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 2969682000,
+    "profit": -15646000,
+    "netIncome": -1799878000,
+    "margin": -0.5,
+    "yoy": {
+     "revenue": 63.1,
+     "profit": -104.2,
+     "netIncome": -688.7,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 1932807000,
+    "profit": 169308000,
+    "netIncome": 217524000,
+    "margin": 8.8,
+    "yoy": {
+     "revenue": 0,
+     "profit": -75.7,
+     "netIncome": -61.6,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 2007637000,
+    "profit": 778014000,
+    "netIncome": 635209000,
+    "margin": 38.8,
+    "yoy": {
+     "revenue": 0.5,
+     "profit": 75.7,
+     "netIncome": 101.6,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 32.61,
+  "saleNy": 5.21,
+  "epsCy": 11.63,
+  "epsNy": 18.04,
+  "cyTrend": -0.07,
+  "nyTrend": 0.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    68.63,
+    63.14,
+    41.69
+   ],
+   "ni": [
+    -94.63,
+    -688.71,
+    -61.65
+   ],
+   "opm": [
+    10.15,
+    -0.53,
+    11.07
+   ],
+   "updated": "2026-09-08 08:48:14"
+  }
+ }
+}

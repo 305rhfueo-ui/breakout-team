@@ -1,0 +1,213 @@
+{
+ "ticker": "MO",
+ "news": [
+  {
+   "title": "MO Q3 Earnings Call Highlights Higher Guidance and Nicotine Strategy",
+   "url": "https://www.nasdaq.com/articles/mo-q3-earnings-call-highlights-higher-guidance-and-nicotine-strategy",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Altria (MO) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/altria-mo-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Altria (MO) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/altria-mo-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Altria (MO) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/altria-mo-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Altria's Smokeable Volumes Continue to Outperform Industry, Needham Says",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/altria-apos-smokeable-volumes-continue-191217428.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Goldman Sees More Upside in Altria After Strong Quarter",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sees-more-upside-altria-172724280.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "These Stocks Top Buy Points After Positive Earnings Reports",
+   "url": "https://finance.yahoo.com/m/104b0f1a-441d-3c34-92e6-6a1ac96f39f8/these-stocks-top-buy-points.html",
+   "date": "2026-10-30",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UBS Raises Price Target on Altria Group to $83 From $79, Keeps Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-raises-price-target-altria-133707082.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MO Q3 Earnings Call Highlights Higher Guidance and Nicotine Strategy",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mo-q3-earnings-call-highlights-130000373.html",
+   "date": "2026-10-30",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Altria Group (MO) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/altria-group-mo-said-q3-121430229.html",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Adjusts Altria Group Price Target to $73 From $66, Maintains Hold Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-altria-group-114734189.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-28",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000112/mo-20261028.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-09",
+   "reportDate": "2026-10-07",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000105/mo-20261007.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-28",
+   "reportDate": "2026-08-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000098/mo-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000093/mo-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000073/mo-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000056/mo-20260430.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.76,
+  "saleNy": 1.04,
+  "epsCy": 5.12,
+  "epsNy": 3.74,
+  "cyTrend": 0.3,
+  "nyTrend": 0.54,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.15,
+    3.21,
+    -2.14
+   ],
+   "ni": [
+    -3.33,
+    103.17,
+    -63.21
+   ],
+   "opm": [
+    51.32,
+    54.46,
+    28.24
+   ],
+   "updated": "2026-09-08 10:04:38"
+  }
+ }
+}

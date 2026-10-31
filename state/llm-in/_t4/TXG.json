@@ -1,0 +1,211 @@
+{
+ "ticker": "TXG",
+ "news": [
+  {
+   "title": "Interesting TXG Put And Call Options For December 18th",
+   "url": "https://www.nasdaq.com/articles/interesting-txg-put-and-call-options-december-18th",
+   "date": "2026-10-12",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "10x Genomics Consensus Price Target Increased by 13.66% to $60.62",
+   "url": "https://www.nasdaq.com/articles/10x-genomics-consensus-price-target-increased-1366-6062",
+   "date": "2026-10-02",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "10x Genomics Consensus Price Target Raised 10.70% to $53.33",
+   "url": "https://www.nasdaq.com/articles/10x-genomics-consensus-price-target-raised-1070-5333",
+   "date": "2026-09-15",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Single-Cell eQTL Clinical Workflows Market Forecast to Reach $4.51 Billion by 2030 | Capitalize on 19.9% CAGR with Illumina, QIAGEN, 10x Genomics, Singleron and More",
+   "url": "https://finance.yahoo.com/healthcare/articles/single-cell-eqtl-clinical-workflows-152700378.html",
+   "date": "2026-10-29",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Slide-DNA-Sequencing for Copy Number Mapping Global Market Report 2026 | Capitalize on AI and Spatial Genomics with Illumina, 10x Genomics and BGI Genomics",
+   "url": "https://finance.yahoo.com/healthcare/articles/slide-dna-sequencing-copy-number-152600109.html",
+   "date": "2026-10-29",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Long-Read Full-Length cDNA Sequencing Global Market Report 2026 | Capitalize on 18.9% CAGR and Single-Cell Demand With PacBio, Oxford Nanopore, 10x Genomics and QIAGEN",
+   "url": "https://finance.yahoo.com/healthcare/articles/long-read-full-length-cdna-143600566.html",
+   "date": "2026-10-29",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Butterfly Network, Inc. (BFLY) Reports Q3 Loss, Beats Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/butterfly-network-inc-bfly-reports-104503025.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience Soars 12%, 10x Genomics Up 12% as Genomics Stocks Rebound",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twist-bioscience-soars-12-10x-183451735.html",
+   "date": "2026-10-28",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "10x Genomics (TXG) Stock Looks Expensive On Its 485% One Year Run",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/10x-genomics-txg-stock-looks-061726352.html",
+   "date": "2026-10-28",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "10x Genomics to Participate in the 2026 Jefferies Global Healthcare Conference",
+   "url": "https://finance.yahoo.com/healthcare/articles/10x-genomics-participate-2026-jefferies-200500715.html",
+   "date": "2026-10-27",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026054273/txg-20260806.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026041651/txg-20260604.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026032073/txg-20260507.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026007673/txg-20260212.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-12",
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026001808/txg-20260111.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-14",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828025052154/txg-20251112.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001770787&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 151036000,
+    "profit": -19555000,
+    "netIncome": -17931000,
+    "margin": -12.9,
+    "yoy": {
+     "revenue": -12.6,
+     "profit": -164.9,
+     "netIncome": -151.9,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 150843000,
+    "profit": -17046000,
+    "netIncome": -13470000,
+    "margin": -11.3,
+    "yoy": {
+     "revenue": -2.6,
+     "profit": 56.7,
+     "netIncome": 60.8,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 166030000,
+    "profit": -19541000,
+    "netIncome": -16208000,
+    "margin": -11.8,
+    "yoy": {
+     "revenue": 0.6,
+     "profit": 60.8,
+     "netIncome": 66.9,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 149002000,
+    "profit": -32242000,
+    "netIncome": -27472000,
+    "margin": -21.6,
+    "yoy": {
+     "revenue": -1.7,
+     "profit": 22.3,
+     "netIncome": 23.2,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": -3.46,
+  "saleNy": 10.11,
+  "epsCy": -70.21,
+  "epsNy": 109.08,
+  "cyTrend": -65.08,
+  "nyTrend": -62.29,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": null
+ }
+}

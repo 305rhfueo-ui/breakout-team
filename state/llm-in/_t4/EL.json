@@ -1,0 +1,194 @@
+{
+ "ticker": "EL",
+ "news": [
+  {
+   "title": "Exploring Analyst Estimates for Estee Lauder (EL) Q1 Earnings, Beyond Revenue and EPS",
+   "url": "https://www.nasdaq.com/articles/exploring-analyst-estimates-estee-lauder-el-q1-earnings-beyond-revenue-and-eps",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Estee Lauder (EL) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/estee-lauder-el-earnings-expected-grow-should-you-buy-0",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Estee Lauder (EL) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-estee-lauder-el-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Estée Lauder Expands Microsoft AI Partnership As It Targets Productivity, Personalized Experiences",
+   "url": "https://finance.yahoo.com/technology/ai/articles/est-e-lauder-expands-microsoft-161245838.html",
+   "date": "2026-10-30",
+   "publisher": "Stocktwits",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Estee Lauder Signs Cloud, Data Partnership With Microsoft",
+   "url": "https://finance.yahoo.com/technology/articles/estee-lauder-signs-cloud-data-140645858.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "The Estée Lauder Companies and Microsoft Announce a New Strategic Partnership to Power Enterprise Efficiency and Consumer-Centric Growth",
+   "url": "https://finance.yahoo.com/technology/ai/articles/est-e-lauder-companies-microsoft-132200985.html",
+   "date": "2026-10-30",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Estee Lauder's Fiscal Q1 Results Expected to Meet Consensus, RBC Says",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/estee-lauder-apos-fiscal-q1-162323413.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Estée Lauder (EL) Stock Looks Fairly Valued On Cash Flow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/est-e-lauder-el-stock-150721002.html",
+   "date": "2026-10-28",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Preview: e.l.f. Beauty (ELF) Q2 Earnings Expected to Decline",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-e-l-f-130013592.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000045/el-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000038/el-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000033/el-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000017/el-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000010/el-20260323.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000004/el-20260205.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.55,
+  "saleNy": 4.28,
+  "epsCy": 32.58,
+  "epsNy": 18.23,
+  "cyTrend": 0.15,
+  "nyTrend": 0.47,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.33,
+    4.56,
+    5.62
+   ],
+   "ni": [
+    "적자축소",
+    -44.03,
+    "흑자전환"
+   ],
+   "opm": [
+    -1.08,
+    6.71,
+    9.48
+   ],
+   "updated": "2026-09-08 07:40:37"
+  }
+ }
+}

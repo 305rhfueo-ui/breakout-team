@@ -1,0 +1,198 @@
+{
+ "ticker": "NWE",
+ "news": [
+  {
+   "title": "Analysts Estimate NorthWestern (NWE) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-northwestern-nwe-report-decline-earnings-what-look-out",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NorthWestern Energy (NWE) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/northwestern-energy-nwe-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "NorthWestern (NWE) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/northwestern-nwe-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NorthWestern (NWE) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/northwestern-nwe-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NorthWestern (NWE) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/northwestern-nwe-q1-2026-earnings-transcript",
+   "date": "2026-04-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Analysts Estimate NorthWestern (NWE) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-northwestern-nwe-report-130020963.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "FirstEnergy (FE) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/firstenergy-fe-q3-earnings-revenues-212006821.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Black Hills, NorthWestern Energy to Be Renamed Bright Horizon Energy After Merger",
+   "url": "https://finance.yahoo.com/energy/articles/black-hills-northwestern-energy-renamed-072602868.html",
+   "date": "2026-10-23",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Subject to Receipt of Satisfactory Final Regulatory Approval and Completion of Proposed Merger, Black Hills Corp. to be Renamed Bright Horizon Energy Corporation with Ticker Symbol “HZN”",
+   "url": "https://finance.yahoo.com/energy/articles/subject-receipt-satisfactory-final-regulatory-230000434.html",
+   "date": "2026-10-22",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000054/nwe-20260909.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000052/nwe-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-15",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000046/nwe-20260615.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-05-27",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000044/nwe-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-06-02",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000042/nwe-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000038/nwe-20260527.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.61,
+  "saleNy": 4.43,
+  "epsCy": 4.33,
+  "epsNy": 6.24,
+  "cyTrend": -0.42,
+  "nyTrend": -0.05,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.56,
+    6.63,
+    10.92
+   ],
+   "ni": [
+    17.74,
+    -17.53,
+    -44.52
+   ],
+   "opm": [
+    16.36,
+    22.93,
+    14.49
+   ],
+   "updated": "2026-09-09 06:08:58"
+  }
+ }
+}

@@ -1,0 +1,245 @@
+{
+ "ticker": "FDXF",
+ "sector": "Industrials",
+ "industry": "Integrated Freight & Logistics",
+ "nameKo": "페덱스 프레이트",
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": 4.96,
+  "epsCy": null,
+  "epsNy": 15.41,
+  "est": {
+   "cyCur": 4.4624,
+   "cy30": 4.3053,
+   "nyCur": 5.083,
+   "ny30": 5.06343
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:00:42"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "페덱스 프레이트",
+  "nameEn": "FEDEX FREIGHT HOLDING CO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002082247&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2442000000,
+     "profit": 253000000,
+     "netIncome": 147000000,
+     "margin": 10.4,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": -12.8,
+      "netIncome": -49.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2259000000,
+     "profit": 290000000,
+     "netIncome": 291000000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "FDXF Four-Month Transition Period Earnings Beat Estimates on Higher Yields",
+     "url": "https://www.nasdaq.com/articles/fdxf-four-month-transition-period-earnings-beat-estimates-higher-yields",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FedEx Freight Gears Up for This Earnings Season: What's in Store?",
+     "url": "https://www.nasdaq.com/articles/fedex-freight-gears-earnings-season-whats-store",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bernstein Initiates Coverage of FedEx Freight Holding at Market Perform",
+     "url": "https://www.nasdaq.com/articles/bernstein-initiates-coverage-fedex-freight-holding-market-perform",
+     "date": "2026-09-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "JP Morgan Initiates Coverage of FedEx Freight Holding at Overweight",
+     "url": "https://www.nasdaq.com/articles/jp-morgan-initiates-coverage-fedex-freight-holding-overweight",
+     "date": "2026-09-08",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000162828026068228/fdxf-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "5.08",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926113295/tm2626881d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926104793/tm2624680d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000162828026054314/fdxf-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926078270/tm2619027d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000162828026045515/fdxf-20260625.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Cramer sees 3 stocks to buy — plus, why he is not selling the Intel plunge",
+   "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
+   "date": "2026-10-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "FedEx Freight delivers a much-needed quarterly beat. Where we stand on shares now",
+   "url": "https://www.cnbc.com/investingclub/2026/10/29/fedex-freight-delivers-a-much-needed-quarterly-beat-where-we-stand-on-shares-now.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says this enterprise software stock is 'way too cheap'",
+   "url": "https://www.cnbc.com/investingclub/2026/09/16/jim-cramer-says-this-enterprise-software-stock-is-way-too-cheap.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A rapid-fire update on our 33-stock portfolio, including 6 stocks to buy now",
+   "url": "https://www.cnbc.com/investingclub/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/10/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer wants to buy more FedEx Freight once this 1 thing happens",
+   "url": "https://www.cnbc.com/investingclub/2026/09/08/jim-cramer-wants-to-buy-more-fedex-freight-once-this-1-thing-happens.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "FDXF",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 0,
+  "pbr": 0,
+  "eps": 0,
+  "bps": 0,
+  "shares": 149518130,
+  "marketCapM": 18845,
+  "high52": 194.27,
+  "high52Date": "2026-06-09",
+  "low52": 103.475,
+  "low52Date": "2026-10-28",
+  "last": 126.04,
+  "prevClose": 109.69,
+  "nameKo": "페덱스 프레이트",
+  "nameEn": "FEDEX FREIGHT HOLDING CO INC",
+  "listedOn": "2026-06-01",
+  "exchange": "뉴욕거래소",
+  "listedShares": 149518130
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "ticker": "LNT",
+ "news": [
+  {
+   "title": "Alliant Energy (LNT) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/alliant-energy-lnt-q3-2026-earnings-call-transcript",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Alliant Energy (LNT) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/alliant-energy-lnt-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for Alliant Energy (LNT)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-alliant-energy-lnt",
+   "date": "2026-10-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Alliant Energy (LNT) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/alliant-energy-lnt-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Alliant Energy Corp (LNT) (Q3 2026) Earnings Call Highlights: Raised Capital Plan, 8%+ Growth ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-corp-lnt-q3-010855944.html",
+   "date": "2026-10-31",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy (LNT) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-lnt-q3-2026-204739183.html",
+   "date": "2026-10-30",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-q3-earnings-call-181529979.html",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-corporation-q3-2026-123000721.html",
+   "date": "2026-10-30",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy Corp's Dividend Analysis",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-corps-dividend-analysis-110529349.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy's Q3 Non-GAAP Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-apos-q3-non-104457913.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy Boosts Capex to $15.9 Billion as Q3 Earnings Surge",
+   "url": "https://finance.yahoo.com/energy/articles/alliant-energy-boosts-capex-15-014841356.html",
+   "date": "2026-10-30",
+   "publisher": "Oilprice.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy (LNT) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-lnt-q3-earnings-002001577.html",
+   "date": "2026-10-30",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alliant Energy: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alliant-energy-q3-earnings-snapshot-220835248.html",
+   "date": "2026-10-29",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000045/lnt-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "reportDate": "2026-10-26",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352541/000119312526435177/d160574d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-21",
+   "reportDate": "2026-08-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352541/000119312526360020/d440334d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000042/lnt-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000036/lnt-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000030/lnt-20260430.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.39,
+  "saleNy": 5.85,
+  "epsCy": 6.42,
+  "epsNy": 7.25,
+  "cyTrend": 0.08,
+  "nyTrend": -0.33,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.04,
+    4.96,
+    9.03
+   ],
+   "ni": [
+    -2.3,
+    5.16,
+    -5.33
+   ],
+   "opm": [
+    19.05,
+    21.03,
+    18.44
+   ],
+   "updated": "2026-09-08 08:07:43"
+  }
+ }
+}

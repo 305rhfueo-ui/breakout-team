@@ -1,0 +1,340 @@
+{
+ "ticker": "TMUS",
+ "sector": "Communication Services",
+ "industry": "Telecom Services",
+ "nameKo": "T 모바일 US",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.09,
+  "saleNy": 4.4,
+  "epsCy": 15.36,
+  "epsNy": 25.3,
+  "est": {
+   "cyCur": 11.21317,
+   "cy30": 10.95095,
+   "nyCur": 14.0499,
+   "ny30": 13.93442
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    7.85,
+    10.63,
+    11.26
+   ],
+   "ni": [
+    0.53,
+    -15.2,
+    -29.45
+   ],
+   "opm": [
+    24.09,
+    19.46,
+    15.35
+   ],
+   "updated": "2026-09-21 06:16:48"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "T 모바일 US",
+  "nameEn": "T-MOBILE US INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001283699&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 23584000000,
+     "profit": 5661000000,
+     "netIncome": 3455000000,
+     "margin": 24,
+     "yoy": {
+      "revenue": 7.4,
+      "profit": 25,
+      "netIncome": 27.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 22791000000,
+     "profit": 5490000000,
+     "netIncome": 3239000000,
+     "margin": 24.1,
+     "yoy": {
+      "revenue": 7.9,
+      "profit": 5.3,
+      "netIncome": 0.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 23107000000,
+     "profit": 4497000000,
+     "netIncome": 2504000000,
+     "margin": 19.5,
+     "yoy": {
+      "revenue": 10.6,
+      "profit": -6.3,
+      "netIncome": -15.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 24334000000,
+     "profit": 3736000000,
+     "netIncome": 2103000000,
+     "margin": 15.4,
+     "yoy": {
+      "revenue": 11.3,
+      "profit": -18.5,
+      "netIncome": -29.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "T-Mobile Raises 2026 Outlook as Service Growth Boosts Free Cash Flow",
+     "url": "https://www.nasdaq.com/articles/t-mobile-raises-2026-outlook-service-growth-boosts-free-cash-flow",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is TMUS Worth Buying as Growth Strength Clashes With High Debt Risks?",
+     "url": "https://www.nasdaq.com/articles/tmus-worth-buying-growth-strength-clashes-high-debt-risks",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "T-Mobile Falls 18.2% in 3 Months as Risks Cloud a Potential Rebound",
+     "url": "https://www.nasdaq.com/articles/t-mobile-falls-182-3-months-risks-cloud-potential-rebound",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "T-Mobile: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/t-mobile-3-key-takeaways-long-term-investors",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "T-Mobile Profit Up 27% as Account Churn Rises: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/t-mobile-profit-27-account-churn-rises-rapid-earnings-reaction",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights T-Mobile, Array Digital Infrastructure and Cogent Communications",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-t-mobile-array-digital-infrastructure-and-cogent",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "T-Mobile Q3 Earnings Call Highlights Growth and Higher Outlook",
+     "url": "https://www.nasdaq.com/articles/t-mobile-q3-earnings-call-highlights-growth-and-higher-outlook",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "T-Mobile (TMUS) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/t-mobile-tmus-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000128/tmus-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000119312526435233/d130644d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000119312526381901/d155079d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000100/tmus-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-07",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000119312526297534/d170112d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000119312526275787/d167113d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-10-28",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[T 모바일 US (NAS:TMUS)] [26Q3 Review] EBITDA·현금흐름 가이던스 상향, 해지율 상승, 투자의견 매수 유지",
+     "summary": "- EPS 3.22달러로 컨센 11.4% 상회, 8분기 최고- ARPA +4%, 순증 274K·해지율 1.09%로 둔화- NTM PER 10.9배인데 주가 연초 이후 -27.7%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiicqkceimxzzgcgxecie.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[T 모바일 US (NAS:TMUS)] [26Q3 Preview] 후불 가입자 순증 25만 명 상회 여부가 관건, 투자의견 매수 유지",
+     "summary": "- 10월 29일, 시장이 보는 것은 이익이 아니라 가입자- 경영진이 제시한 순증 25만, 이 숫자를 넘는지가 첫 분기점- 마진은 이미 돌아서는 중, 남은 것은 통합 비용의 끝",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgkxczclzcqkmgcgxecie.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[T 모바일 US (NAS:TMUS)] [Issue & News] 도이치텔레콤과의 합병(비상장화) 논의 교착 - 소수주주 프리미엄·거버넌스 불확실성 재부각",
+     "summary": "- 도이치텔레콤과 합병(비상장화) 논의 교착, 구체 조건 미공개- 직전 분기 EPS·영업이익률은 컨센서스 상회하며 정상화 진행- 가입자 순증 둔화 지속 속 지배구조 불확실성 새로 부각",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqekzexxigkqgcgxecie.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-07-23",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[T 모바일 US (NAS:TMUS)] [2Q26 Review] EPS 15% 서프라이즈에 마진 반등, 매수 유지",
+     "summary": "- EPS $2.99, 컨센 대비 +15% 서프라이즈- 영업이익률 24.1%로 마진 반등 확인- FCF 가이던스 상향, 계정 순증은 둔화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzcxmqicqximegcgxecie.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "The SpaceX threat to telecom is real. How it could play out",
+   "url": "https://www.cnbc.com/2026/10/13/spacex-wireless-telecom-threat.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "What's behind the recovery rally in tech stocks — plus, Elon Musk's very good week",
+   "url": "https://www.cnbc.com/investingclub/2026/10/09/whats-behind-the-recovery-rally-in-tech-stocks-plus-musks-good-week.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Verizon closes worst day since 2002 as SpaceX plans for U.S. network",
+   "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's big analyst calls: Nvidia, Apple, SpaceX, SanDisk, JPMorgan, Dell & more",
+   "url": "https://www.cnbc.com/2026/08/14/friday-analyst-call-stocks-include-spacex-nvidia-apple-dell-micron.html",
+   "date": "2026-08-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Monday, October 12, 2026: Cramer recommends buying shares of this investment banking giant",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/12/monday-october-12-2026-cramer-recommends-buying-shares-of-this-investment-banking-giant.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Tower-based telecom companies getting boost 'makes a lot of sense,' says Raymond James Frank Louthan",
+   "url": "https://www.cnbc.com/video/2026/10/09/tower-based-telecom-companies-getting-boost-makes-a-lot-of-sense-says-raymond-james-frank-louthan.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TMUS",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 16.37,
+  "pbr": 2.99,
+  "eps": 9.56,
+  "bps": 52.35,
+  "shares": 1072670000,
+  "marketCapM": 167808,
+  "high52": 221.1909,
+  "high52Date": "2026-02-24",
+  "low52": 143.75,
+  "low52Date": "2026-10-28",
+  "last": 156.44,
+  "prevClose": 147.29,
+  "nameKo": "T 모바일 US",
+  "nameEn": "T-MOBILE US INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 1072670000
+ }
+}

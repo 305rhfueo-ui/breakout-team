@@ -1,0 +1,179 @@
+{
+ "ticker": "RVTY",
+ "news": [
+  {
+   "title": "Will Revvity (RVTY) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-revvity-rvty-beat-estimates-again-its-next-earnings-report-0",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Revvity (RVTY) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/revvity-rvty-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ELV vs. RVTY: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/elv-vs-rvty-which-stock-better-value-option",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Revvity Board Declares Quarterly Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/revvity-board-declares-quarterly-dividend-200500742.html",
+   "date": "2026-10-30",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Revvity (RVTY) Stock May Be Trading At A Premium On Its AI Workflow Launch",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/revvity-rvty-stock-may-trading-151324057.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "ETFs Are Net Sellers of Revvity (RVTY) on Oct. 28",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-revvity-rvty-110227295.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000022/pki-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000016/pki-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-04-28",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/31791/000119312526201401/d146870d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-02",
+   "reportDate": "2026-02-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000007/pki-20260202.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-13",
+   "reportDate": "2026-01-12",
+   "items": [
+    "2.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000003/pki-20260112.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-27",
+   "reportDate": "2025-10-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179125000032/pki-20251027.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.13,
+  "saleNy": 5.44,
+  "epsCy": 5.75,
+  "epsNy": 10.15,
+  "cyTrend": 0.01,
+  "nyTrend": 0.15,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.31,
+    6.97,
+    5.85
+   ],
+   "ni": [
+    -3.94,
+    -3.6,
+    3.93
+   ],
+   "opm": [
+    12.24,
+    10.67,
+    14.47
+   ],
+   "updated": "2026-09-08 06:14:00"
+  }
+ }
+}

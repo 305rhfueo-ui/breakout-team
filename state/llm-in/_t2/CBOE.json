@@ -1,0 +1,305 @@
+{
+ "ticker": "CBOE",
+ "sector": "Financial Services",
+ "industry": "Financial Data & Stock Exchanges",
+ "nameKo": "CBOE 글로벌 마켓",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.03,
+  "saleNy": 3.22,
+  "epsCy": 32.11,
+  "epsNy": 7.51,
+  "est": {
+   "cyCur": 14.09612,
+   "cy30": 14.11087,
+   "nyCur": 15.15407,
+   "ny30": 15.223
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    22.95,
+    6.51,
+    8.7
+   ],
+   "ni": [
+    50.41,
+    54.01,
+    59.61
+   ],
+   "opm": [
+    32.99,
+    39.72,
+    33.54
+   ],
+   "updated": "2026-09-08 07:07:41"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "CBOE 글로벌 마켓",
+  "nameEn": "CBOE GLOBAL MARKETS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001374310&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1442800000,
+     "profit": 476000000,
+     "netIncome": 353100000,
+     "margin": 33,
+     "yoy": {
+      "revenue": 22.9,
+      "profit": 40.4,
+      "netIncome": 50.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1272800000,
+     "profit": 505600000,
+     "netIncome": 385700000,
+     "margin": 39.7,
+     "yoy": {
+      "revenue": 6.5,
+      "profit": 42.9,
+      "netIncome": 53.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1204000000,
+     "profit": 403800000,
+     "netIncome": 313500000,
+     "margin": 33.5,
+     "yoy": {
+      "revenue": 8.7,
+      "profit": 35.3,
+      "netIncome": 59.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1141700000,
+     "profit": 370300000,
+     "netIncome": 300800000,
+     "margin": 32.4,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": 20.5,
+      "netIncome": 37.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Cboe (CBOE) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cboe-cboe-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About CBOE (CBOE) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-cboe-cboe-q3-earnings",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CBOE Global (CBOE) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/cboe-global-cboe-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CBOE Global Markets, Inc. Reveals Climb In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/cboe-global-markets-inc-reveals-climb-q3-profit",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "CBOE Global Markets Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/cboe-global-markets-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "CBOE Global (CBOE) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/cboe-global-cboe-earnings-expected-grow-should-you-buy",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cboe Authorized Up To Additional $550 Mln Buyback",
+     "url": "https://www.nasdaq.com/articles/cboe-authorized-additional-550-mln-buyback",
+     "date": "2026-10-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Cboe Global Markets Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/cboe-global-markets-reaches-analyst-target-price",
+     "date": "2026-10-22",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026068432/cboe-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926111989/tm2626203d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026051217/cboe-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926087625/tm2621346d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926078295/tm2618643d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000110465926063250/tm2614804d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Cboe to expand options trading hours for major stocks and ETFs",
+   "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's big analyst calls: Nvidia, SpaceX, Tesla, Boeing, American Express",
+   "url": "https://www.cnbc.com/2026/10/09/friday-biggest-analyst-calls-like-nvidia-spacex.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This exchange stock is a buy on renewed options deal, Morgan Stanley says",
+   "url": "https://www.cnbc.com/2026/10/09/this-exchange-stock-is-a-buy-on-renewed-options-deal-morgan-stanley-says.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bearproof stocks with a history of holding up when the market struggles",
+   "url": "https://www.cnbc.com/2026/08/23/bearproof-stocks-with-a-history-of-holding-up-when-the-market-struggles.html",
+   "date": "2026-08-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wall Street's existential crisis over perpetual futures just got urgent",
+   "url": "https://www.cnbc.com/2026/08/21/wall-streets-existential-crisis-over-perpetual-futures-the-24/7-security-on-steroids-just-got-urgent.html",
+   "date": "2026-08-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Kalshi wants to launch ‘perps’ tied to equity indexes",
+   "url": "https://www.cnbc.com/2026/08/18/kalshi-wants-to-launch-perps-tied-to-equity-indexes.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CBOE",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 26.14,
+  "pbr": 6.24,
+  "eps": 12.84,
+  "bps": 53.81,
+  "shares": 104431000,
+  "marketCapM": 35040,
+  "high52": 369.3775,
+  "high52Date": "2026-05-19",
+  "low52": 226.5208,
+  "low52Date": "2026-06-29",
+  "last": 335.53,
+  "prevClose": 314.25,
+  "nameKo": "CBOE 글로벌 마켓",
+  "nameEn": "CBOE GLOBAL MARKETS INC",
+  "listedOn": "2018-09-17",
+  "exchange": "아멕스",
+  "listedShares": 104431000
+ }
+}

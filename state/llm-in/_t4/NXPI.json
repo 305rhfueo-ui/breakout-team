@@ -1,0 +1,199 @@
+{
+ "ticker": "NXPI",
+ "news": [
+  {
+   "title": "NXPI Q3 Earnings Call Highlights SDV and Data Center Growth",
+   "url": "https://www.nasdaq.com/articles/nxpi-q3-earnings-call-highlights-sdv-and-data-center-growth",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What NXP Semiconductors (NXPI) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-nxp-semiconductors-nxpi-said-its-q3-earnings-call",
+   "date": "2026-10-27",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "NXP (NXPI) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/nxp-nxpi-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "NXP (NXPI) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/nxp-nxpi-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NXP Semiconductors (NXPI) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/nxp-semiconductors-nxpi-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NXPI Q3 deep dive: structural growth in automotive, industrial, and data center segments",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nxpi-q3-deep-dive-structural-003529657.html",
+   "date": "2026-10-31",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "The 5 most interesting analyst questions from NXP Semiconductors’s Q3 earnings call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-085129950.html",
+   "date": "2026-10-30",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NXP: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nxp-q3-earnings-snapshot-183425458.html",
+   "date": "2026-10-28",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Can NXP Semiconductors (NXPI) Justify Its Valuation After Soft Guidance And A $5b Buyback?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-nxpi-justify-valuation-180708261.html",
+   "date": "2026-10-28",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NXP Semiconductors Sinks 3% as Soft Fourth-Quarter Guidance Overshadows Third-Quarter Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nxp-semiconductors-sinks-3-soft-154147516.html",
+   "date": "2026-10-28",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000057/nxpi-20261027.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-02",
+   "reportDate": "2026-09-01",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000051/nxpi-20260901.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-28",
+   "reportDate": "2026-08-28",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000047/nxpi-20260828.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000044/nxpi-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000039/nxpi-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000032/nxpi-20260428.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 16.67,
+  "saleNy": 11.96,
+  "epsCy": 28.4,
+  "epsNy": 20.78,
+  "cyTrend": 0.7,
+  "nyTrend": 0.99,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    19.48,
+    12.2,
+    7.2
+   ],
+   "ni": [
+    72.36,
+    128.98,
+    -8.08
+   ],
+   "opm": [
+    30.64,
+    47.31,
+    22.31
+   ],
+   "updated": "2026-09-08 06:24:17"
+  }
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "ticker": "TEM",
+ "news": [
+  {
+   "title": "TEM vs. DOCS: Which Medical Info Systems Stock Is the Better Pick Now?",
+   "url": "https://www.nasdaq.com/articles/tem-vs-docs-which-medical-info-systems-stock-better-pick-now",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tempus AI (TEM) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+   "url": "https://www.nasdaq.com/articles/tempus-ai-tem-expected-beat-earnings-estimates-can-stock-move-higher",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "This Stock Offers Juicy Option Premiums, But Also Is Highly Risky",
+   "url": "https://finance.yahoo.com/m/f89ba99a-2a06-384f-9bba-50c2062f6440/this-stock-offers-juicy.html",
+   "date": "2026-10-29",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Preview: Schrodinger, Inc. (SDGR) Q3 Earnings Expected to Decline",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-schrodinger-inc-sdgr-130016881.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tempus AI (TEM) Could Be 5% Undervalued After Bristol Myers And Pathos Deals",
+   "url": "https://finance.yahoo.com/technology/ai/articles/tempus-ai-tem-could-5-220832913.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-23",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526429533/d135568d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526326083/tem-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-20",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526309073/d128960d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526308469/d124162d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526236814/d109019d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-07",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526220115/d117982d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 25.43,
+  "saleNy": 23.37,
+  "epsCy": -57.99,
+  "epsNy": -81.9,
+  "cyTrend": -1.6,
+  "nyTrend": 471.31,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    36.12,
+    82.98,
+    84.72
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-06-12 07:39:19"
+  }
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "ticker": "IMO",
+ "sector": "Energy",
+ "industry": "Oil & Gas Integrated",
+ "nameKo": "임페리얼 오일",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 30.55,
+  "saleNy": 3.34,
+  "epsCy": 84.66,
+  "epsNy": -13.28,
+  "est": {
+   "cyCur": 15.75169,
+   "cy30": 14.70378,
+   "nyCur": 13.65973,
+   "ny30": 12.30785
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    42.86,
+    4.07,
+    -9.94
+   ],
+   "ni": [
+    130.55,
+    -23.61,
+    -58.35
+   ],
+   "opm": [
+    17.81,
+    9.9,
+    5.75
+   ],
+   "updated": "2026-09-07 07:32:48"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "임페리얼 오일",
+  "nameEn": "IMPERIAL OIL",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Imperial Oil (IMO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Imperial Oil (IMO) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Imperial Oil Q3 26 Earnings Conference Call AT 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Imperial Oil Q3 Net Profit Soars; Declares Dividend",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-q3-net-profit-soars-declares-dividend",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Imperial Oil (IMO) Surpasses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-surpasses-q3-earnings-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Imperial Oil (IMO) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Imperial Oil Stock Rises 49% YTD: Time to Hold or Lock in Profits?",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-stock-rises-49-ytd-time-hold-or-lock-profits",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000049/imo-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000048/imo-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000045/imo-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000038/imo-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000036/imo-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000035/imo-20260731.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "IMO",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 22.48,
+  "pbr": 3.86,
+  "eps": 6.14,
+  "bps": 35.77,
+  "shares": 483593000,
+  "marketCapM": 66784,
+  "high52": 138.52,
+  "high52Date": "2026-10-30",
+  "low52": 82.0233,
+  "low52Date": "2025-12-19",
+  "last": 138.1,
+  "prevClose": 130.87,
+  "nameKo": "임페리얼 오일",
+  "nameEn": "IMPERIAL OIL",
+  "listedOn": null,
+  "exchange": "아멕스",
+  "listedShares": 483593000
+ }
+}

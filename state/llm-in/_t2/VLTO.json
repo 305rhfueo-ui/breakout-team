@@ -1,0 +1,260 @@
+{
+ "ticker": "VLTO",
+ "sector": "Industrials",
+ "industry": "Pollution & Treatment Controls",
+ "nameKo": "버럴토",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.37,
+  "saleNy": 5.82,
+  "epsCy": 12.9,
+  "epsNy": 8.75,
+  "est": {
+   "cyCur": 4.40294,
+   "cy30": 4.40177,
+   "nyCur": 4.78832,
+   "ny30": 4.77545
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.51,
+    6.76,
+    3.79
+   ],
+   "ni": [
+    8.56,
+    12.89,
+    11.89
+   ],
+   "opm": [
+    21.37,
+    23.77,
+    22.64
+   ],
+   "updated": "2026-09-08 07:08:18"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "버럴토",
+  "nameEn": "VERALTO CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001967680&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-10-02",
+     "derived": false,
+     "revenue": 1509000000,
+     "profit": 298000000,
+     "netIncome": 253000000,
+     "margin": 19.7,
+     "yoy": {
+      "revenue": 7.5,
+      "profit": -8.6,
+      "netIncome": 5.9,
+      "priorEnd": "2025-10-03"
+     }
+    },
+    {
+     "periodEnd": "2026-07-03",
+     "derived": false,
+     "revenue": 1474000000,
+     "profit": 315000000,
+     "netIncome": 241000000,
+     "margin": 21.4,
+     "yoy": {
+      "revenue": 7.5,
+      "profit": 0.6,
+      "netIncome": 8.6,
+      "priorEnd": "2025-07-04"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 1422000000,
+     "profit": 338000000,
+     "netIncome": 254000000,
+     "margin": 23.8,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": 5,
+      "netIncome": 12.9,
+      "priorEnd": "2025-04-04"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1396000000,
+     "profit": 316000000,
+     "netIncome": 254000000,
+     "margin": 22.6,
+     "yoy": {
+      "revenue": 3.8,
+      "profit": 2.6,
+      "netIncome": 11.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Veralto (VLTO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/veralto-vlto-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Veralto Q3 26 Earnings Conference Call AT 7:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/veralto-q3-26-earnings-conference-call-7-30-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Veralto Corporation Reports Third Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/veralto-corporation-reports-third-quarter-2026-results",
+     "date": "2026-10-30",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Veralto (VLTO) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/veralto-vlto-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veralto Corporation Bottom Line Climbs In Q3",
+     "url": "https://www.nasdaq.com/articles/veralto-corporation-bottom-line-climbs-q3",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Veralto Now #348 Largest Company, Surpassing Church & Dwight",
+     "url": "https://www.nasdaq.com/articles/veralto-now-348-largest-company-surpassing-church-dwight",
+     "date": "2026-10-28",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Why Veralto (VLTO) is Poised to Beat Earnings Estimates Again",
+     "url": "https://www.nasdaq.com/articles/why-veralto-vlto-poised-beat-earnings-estimates-again",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veralto Gears Up to Report Q3 Earnings: What's in the Cards?",
+     "url": "https://www.nasdaq.com/articles/veralto-gears-report-q3-earnings-whats-cards",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000047/vlto-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000043/vlto-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000034/vlto-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000028/vlto-20260513.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-28",
+    "itemsKo": [
+     "실적 발표"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000023/vlto-20260428.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000003/vlto-20260203.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "VLTO",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 28,
+  "pbr": 8.76,
+  "eps": 3.97,
+  "bps": 12.68,
+  "shares": 243793350,
+  "marketCapM": 27085,
+  "high52": 115.1699,
+  "high52Date": "2026-10-30",
+  "low52": 79.8047,
+  "low52Date": "2026-05-28",
+  "last": 111.1,
+  "prevClose": 104.06,
+  "nameKo": "버럴토",
+  "nameEn": "VERALTO CORPORATION",
+  "listedOn": "2023-10-02",
+  "exchange": "뉴욕거래소",
+  "listedShares": 243793350
+ }
+}

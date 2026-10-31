@@ -1,0 +1,180 @@
+{
+ "ticker": "KMB",
+ "news": [
+  {
+   "title": "Klabin SA (KLBAY) Q3 2026 Earnings Call Highlights: Resilient Revenue Growth Amid Cost ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/klabin-sa-klbay-q3-2026-011324805.html",
+   "date": "2026-10-31",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kimberly Clark (KMB) Just Gave Investors Something To Think About",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-just-gave-151923959.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kenvue misses third-quarter profit expectations",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kenvue-misses-third-quarter-profit-112106668.html",
+   "date": "2026-10-30",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kenvue Profit, Revenue Rise as Turnaround Efforts Continue",
+   "url": "https://finance.yahoo.com/m/44be91a6-9d8a-3413-9530-17ff5f53c122/kenvue-profit%2C-revenue-rise.html",
+   "date": "2026-10-30",
+   "publisher": "The Wall Street Journal",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Is Kimberly Clark (KMB) Issuing $4.9 Billion In New Notes?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-kimberly-clark-kmb-issuing-110912549.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kimberly-Clark Corporation Announces Successful Completion of $4.9 Billion Private Offering of Senior Notes",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-corporation-announces-successful-211000719.html",
+   "date": "2026-10-29",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926120274/tm2628370d2_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "reportDate": "2026-10-27",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926119289/tm2628370d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-20",
+   "reportDate": "2026-10-19",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926117036/tm2627826d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-15",
+   "reportDate": "2026-10-15",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926115960/tm2627599d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926115239/tm2627373d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-01",
+   "reportDate": "2026-09-29",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926112571/tm2626685d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.98,
+  "saleNy": 2.52,
+  "epsCy": -1.86,
+  "epsNy": 0.51,
+  "cyTrend": 0.14,
+  "nyTrend": -0.52,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.62,
+    2.69,
+    24.35
+   ],
+   "ni": [
+    -32.22,
+    17.28,
+    11.63
+   ],
+   "opm": [
+    15.11,
+    18.09,
+    12.43
+   ],
+   "updated": "2026-09-08 10:02:47"
+  }
+ }
+}

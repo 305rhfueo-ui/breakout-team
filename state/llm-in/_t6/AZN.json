@@ -1,0 +1,534 @@
+{
+ "ticker": "AZN",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "AZN",
+  "name": "아스트라제네카",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
+  "price": 186.65,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 1.89,
+  "extensionAdr": 4.21,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2684420965358483,
+    "pct": 93.91343552750226
+   },
+   "m3": {
+    "v": 0.19161289549229393,
+    "pct": 88.95401262398556
+   },
+   "m6": {
+    "v": 0.056229858023551,
+    "pct": 43.237150586113614
+   }
+  },
+  "ret1m": 18.96,
+  "ret3m": 15.88,
+  "ret6m": 2.63,
+  "marketCap": "270.48B",
+  "volx": 1.94,
+  "volSurgeWk": 1.75,
+  "high52": 88.66,
+  "newHigh52": false,
+  "adr": 1.89,
+  "div50": 13.48,
+  "div200": 3.73,
+  "targetStatus": false,
+  "saleCy": 7.8,
+  "saleNy": 6.39,
+  "epsCy": 119.43,
+  "epsNy": 12.87,
+  "cyTrend": -0.35,
+  "nyTrend": -2.04,
+  "est": {
+   "cyCur": 10.05,
+   "cy30": 10.085,
+   "nyCur": 11.34333,
+   "ny30": 11.58
+  },
+  "fs": {
+   "sale": [
+    6.41,
+    12.51,
+    4.11
+   ],
+   "ni": [
+    2.33,
+    5.62,
+    55.17
+   ],
+   "opm": [
+    20.57,
+    27.77,
+    19.21
+   ],
+   "updated": "2026-09-09 06:36:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "아스트라제네카",
+  "nameEn": "ASTRAZENECA PLC",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Astrazeneca (AZN) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/astrazeneca-azn-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AstraZeneca Q3 Profit Rises; Pipeline Delivers 12 Positive Phase 3 Readouts; Stock Up",
+     "url": "https://www.nasdaq.com/articles/astrazeneca-q3-profit-rises-pipeline-delivers-12-positive-phase-3-readouts-stock",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "AstraZeneca Q3 Profit Rises; Reconfirms FY26 Revenue, Core EPS Guidance At CER",
+     "url": "https://www.nasdaq.com/articles/astrazeneca-q3-profit-rises-reconfirms-fy26-revenue-core-eps-guidance-cer",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "AstraZeneca PLC Announces EU Approval of Enhertu for HER2-Positive Early Breast Cancer Following 53% Risk Reduction in Phase III Trial",
+     "url": "https://www.nasdaq.com/articles/astrazeneca-plc-announces-eu-approval-enhertu-her2-positive-early-breast-cancer-following",
+     "date": "2026-10-27",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "AstraZeneca, Daiichi Sankyo's Enhertu Wins First EU Approval In Early Breast Cancer Setting",
+     "url": "https://www.nasdaq.com/articles/astrazeneca-daiichi-sankyos-enhertu-wins-first-eu-approval-early-breast-cancer-setting",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "AstraZeneca Names Onco360 National Speciality Pharmacy Partner For Zegfrovy",
+     "url": "https://www.nasdaq.com/articles/astrazeneca-names-onco360-national-speciality-pharmacy-partner-zegfrovy",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Big Pharma’s China deal spree grows with latest tie-up worth up to $7.8 billion",
+   "url": "https://www.cnbc.com/2026/10/02/novartis-abogen-china-biotech-deal.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Novo shares slide as drugmaker lays out post-Wegovy growth strategy",
+   "url": "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html",
+   "date": "2026-09-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, Tesla, Dell, Affirm, Teva, Robinhood",
+   "url": "https://www.cnbc.com/2026/09/09/wednesday-big-analyst-calls-include-nvidia-tesla-dell-first-solar.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: 'I am not going to put my money on AstraZeneca'",
+   "url": "https://www.cnbc.com/2026/09/08/cramers-lightning-round-i-am-not-going-to-put-my-money-on-astrazeneca.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AstraZeneca's COPD drug shows late-stage trial wins, boosts blockbuster hopes",
+   "url": "https://www.cnbc.com/2026/09/08/astrazeneca-copd-drug-tozorakimab-shows-positive-late-stage-trial-results.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AstraZeneca may buck a decade of pharma strategy to buy U.S. scale",
+   "url": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AstraZeneca CFO Aradhana Sarin on Q3 results, oncology portfolio and drug pipeline outlook",
+   "url": "https://www.cnbc.com/video/2026/10/30/astrazeneca-cfo-aradhana-sarin-on-q3-results-oncology-portfolio-and-drug-pipeline-outlook.html",
+   "date": "2026-10-30",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "AstraZeneca, Oracle to launch their first global AI program in Abu Dhabi: CEO",
+   "url": "https://www.cnbc.com/video/2026/10/20/astrazeneca-oracle-launch-first-global-ai-program-in-abu-dhabi-ceo.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "AZN",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 27.7,
+  "pbr": 5.76,
+  "eps": 6.74,
+  "bps": 32.43,
+  "shares": 1550902453,
+  "marketCapM": 289476,
+  "high52": 209.1121,
+  "high52Date": "2026-02-18",
+  "low52": 152.4038,
+  "low52Date": "2026-08-03",
+  "last": 186.65,
+  "prevClose": 174.4,
+  "nameKo": "아스트라제네카",
+  "nameEn": "ASTRAZENECA PLC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 1550902453
+ },
+ "estimates": {
+  "ticker": "AZN",
+  "url": "https://finance.yahoo.com/quote/AZN/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.61,
+    "epsLow": 1.61,
+    "epsHigh": 1.61,
+    "epsYearAgo": null,
+    "epsAnalysts": 1,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 16664943730,
+    "revAnalysts": 13,
+    "revYearAgo": 15503000000,
+    "revGrowth": 7.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 15971500000,
+    "revAnalysts": 2,
+    "revYearAgo": 15288000000,
+    "revGrowth": 4.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 10.05,
+    "epsLow": 10,
+    "epsHigh": 10.11,
+    "epsYearAgo": 4.58,
+    "epsAnalysts": 3,
+    "epsGrowth": 119.4,
+    "epsCur": "USD",
+    "rev": 63323022090,
+    "revAnalysts": 25,
+    "revYearAgo": 58739000000,
+    "revGrowth": 7.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 11.34,
+    "epsLow": 10.84,
+    "epsHigh": 11.84,
+    "epsYearAgo": 10.05,
+    "epsAnalysts": 3,
+    "epsGrowth": 12.9,
+    "epsCur": "USD",
+    "rev": 67369190470,
+    "revAnalysts": 24,
+    "revYearAgo": 63323022090,
+    "revGrowth": 6.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.61,
+    "d7": null,
+    "d30": null,
+    "d90": 23.2,
+    "ago90": 1.3,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 10.05,
+    "d7": 0,
+    "d30": -0.3,
+    "d90": -0.3,
+    "ago90": 10.09,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 11.34,
+    "d7": 0,
+    "d30": -2,
+    "d90": -2,
+    "ago90": 11.58,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1,
+    "estimate": 1.15,
+    "surprisePct": -12.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.32,
+    "estimate": 1.25,
+    "surprisePct": 4.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.29,
+    "estimate": 1.27,
+    "surprisePct": 1.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-08-24",
+     "firm": "CICC",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 198,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-30",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 186.65,
+   "ma20": 165.97,
+   "ma50": 164.48,
+   "ma150": 175.69,
+   "distMA50": 13.48,
+   "periodHigh": 212.71,
+   "pullbackFromHigh": -12.25,
+   "volRatio20": 1.77,
+   "dryUpRatio": 1.1
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 164.51,
+    "h": 166.1,
+    "l": 163.91,
+    "c": 163.95,
+    "v": 2322100,
+    "clsPos": 2,
+    "gapPct": -0.54
+   },
+   {
+    "d": "2026-10-20",
+    "o": 166.77,
+    "h": 169.24,
+    "l": 166.66,
+    "c": 168.82,
+    "v": 4592300,
+    "clsPos": 84,
+    "gapPct": 1.72
+   },
+   {
+    "d": "2026-10-21",
+    "o": 168.91,
+    "h": 169.84,
+    "l": 168.09,
+    "c": 168.45,
+    "v": 1896800,
+    "clsPos": 21,
+    "gapPct": 0.05
+   },
+   {
+    "d": "2026-10-22",
+    "o": 169.86,
+    "h": 173.91,
+    "l": 169.32,
+    "c": 172.57,
+    "v": 2773200,
+    "clsPos": 71,
+    "gapPct": 0.84
+   },
+   {
+    "d": "2026-10-23",
+    "o": 171.28,
+    "h": 171.75,
+    "l": 169.51,
+    "c": 171.49,
+    "v": 3691400,
+    "clsPos": 88,
+    "gapPct": -0.75
+   },
+   {
+    "d": "2026-10-26",
+    "o": 171.54,
+    "h": 172.37,
+    "l": 170.68,
+    "c": 172.06,
+    "v": 3309800,
+    "clsPos": 82,
+    "gapPct": 0.03
+   },
+   {
+    "d": "2026-10-27",
+    "o": 169.68,
+    "h": 171.72,
+    "l": 169.45,
+    "c": 170.08,
+    "v": 2905100,
+    "clsPos": 28,
+    "gapPct": -1.38
+   },
+   {
+    "d": "2026-10-28",
+    "o": 168.65,
+    "h": 171.94,
+    "l": 167.96,
+    "c": 169.51,
+    "v": 1697900,
+    "clsPos": 39,
+    "gapPct": -0.84
+   },
+   {
+    "d": "2026-10-29",
+    "o": 173.26,
+    "h": 175.35,
+    "l": 172.87,
+    "c": 174.4,
+    "v": 3714800,
+    "clsPos": 62,
+    "gapPct": 2.21
+   },
+   {
+    "d": "2026-10-30",
+    "o": 183.59,
+    "h": 188.39,
+    "l": 183.1,
+    "c": 186.65,
+    "v": 5464500,
+    "clsPos": 67,
+    "gapPct": 5.27
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AZN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AZN-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

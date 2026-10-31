@@ -1,0 +1,243 @@
+{
+ "ticker": "BTSGU",
+ "sector": "Healthcare",
+ "industry": "Health Information Services",
+ "nameKo": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 19.01,
+  "saleNy": 13.41,
+  "epsCy": null,
+  "epsNy": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": null,
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": null,
+  "nameEn": null,
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001865782&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 4213234000,
+     "profit": 160480000,
+     "netIncome": 100138000,
+     "margin": 3.8,
+     "yoy": {
+      "revenue": 26.4,
+      "profit": 82.7,
+      "netIncome": 79.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3873140000,
+     "profit": 130391000,
+     "netIncome": 84290000,
+     "margin": 3.4,
+     "yoy": {
+      "revenue": 23,
+      "profit": 168.5,
+      "netIncome": 198.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3613721000,
+     "profit": 121449000,
+     "netIncome": 148767000,
+     "margin": 3.4,
+     "yoy": {
+      "revenue": 25.6,
+      "profit": 139.4,
+      "netIncome": 403.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3550631000,
+     "profit": 108113000,
+     "netIncome": 75527000,
+     "margin": 3,
+     "yoy": {
+      "revenue": 29.3,
+      "profit": 94.7,
+      "netIncome": 38.4,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "BrightSpring Health Services (BTSGU) Price Target Increased by 16.18% to 204.99",
+     "url": "https://www.nasdaq.com/articles/brightspring-health-services-btsgu-price-target-increased-1618-20499",
+     "date": "2026-05-15",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "BrightSpring Health Services (BTSGU) Price Target Increased by 19.44% to 179.35",
+     "url": "https://www.nasdaq.com/articles/brightspring-health-services-btsgu-price-target-increased-1944-17935",
+     "date": "2026-04-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "BTIG Maintains BrightSpring Health Services (BTSGU) Buy Recommendation",
+     "url": "https://www.nasdaq.com/articles/btig-maintains-brightspring-health-services-btsgu-buy-recommendation-0",
+     "date": "2025-12-24",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Mizuho Maintains BrightSpring Health Services (BTSGU) Outperform Recommendation",
+     "url": "https://www.nasdaq.com/articles/mizuho-maintains-brightspring-health-services-btsgu-outperform-recommendation-0",
+     "date": "2025-12-18",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Keybanc Upgrades BrightSpring Health Services (BTSGU)",
+     "url": "https://www.nasdaq.com/articles/keybanc-upgrades-brightspring-health-services-btsgu",
+     "date": "2025-12-13",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Stephens & Co. Initiates Coverage of BrightSpring Health Services (BTSGU) with Overweight Recommendation",
+     "url": "https://www.nasdaq.com/articles/stephens-co-initiates-coverage-brightspring-health-services-btsgu-overweight",
+     "date": "2025-12-12",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "B of A Securities Maintains BrightSpring Health Services (BTSGU) Buy Recommendation",
+     "url": "https://www.nasdaq.com/articles/b-securities-maintains-brightspring-health-services-btsgu-buy-recommendation",
+     "date": "2025-12-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "William Blair Initiates Coverage of BrightSpring Health Services (BTSGU) with Outperform Recommendation",
+     "url": "https://www.nasdaq.com/articles/william-blair-initiates-coverage-brightspring-health-services-btsgu-outperform",
+     "date": "2025-12-09",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000186578226000011/btsg-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526326654/btsg-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526269360/btsg-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526259531/btsg-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526234435/btsg-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526198983/btsg-20260501.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "BTSGU",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 0,
+  "pbr": 0,
+  "eps": 0,
+  "bps": 0,
+  "shares": 8000000,
+  "marketCapM": 1745,
+  "high52": 253.5443,
+  "high52Date": "2026-06-17",
+  "low52": 103.8195,
+  "low52Date": "2025-11-18",
+  "last": 218.16,
+  "prevClose": 198.3,
+  "nameKo": "브라이트스프링 헬스 서비시스 유닛",
+  "nameEn": "BRIGHTSPRING HEALTH SERVICES INC TANGIBLE EQUITY UNIT",
+  "listedOn": "2024-01-26",
+  "exchange": "나스닥",
+  "listedShares": 8000000
+ }
+}

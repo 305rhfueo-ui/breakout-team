@@ -1,0 +1,266 @@
+{
+ "ticker": "MHK",
+ "sector": "Consumer Cyclical",
+ "industry": "Furnishings, Fixtures & Appliances",
+ "nameKo": "모호크 인더스트리스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.28,
+  "saleNy": 2.04,
+  "epsCy": 9.3,
+  "epsNy": 1.23,
+  "est": {
+   "cyCur": 9.79338,
+   "cy30": 9.82999,
+   "nyCur": 9.91343,
+   "ny30": 10.04636
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.76,
+    8.03,
+    2.37
+   ],
+   "ni": [
+    33.86,
+    61.29,
+    -53.49
+   ],
+   "opm": [
+    8.48,
+    4.1,
+    2.53
+   ],
+   "updated": "2026-09-08 08:13:06"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "모호크 인더스트리스",
+  "nameEn": "MOHAWK INDUSTRIES",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851968&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-04",
+     "derived": false,
+     "revenue": 2991400000,
+     "profit": 253700000,
+     "netIncome": 196100000,
+     "margin": 8.5,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": 34.4,
+      "netIncome": 33.9,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-04-04",
+     "derived": false,
+     "revenue": 2728700000,
+     "profit": 111800000,
+     "netIncome": 117100000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 8,
+      "profit": 16.5,
+      "netIncome": 61.3,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2699700000,
+     "profit": 68300000,
+     "netIncome": 42000000,
+     "margin": 2.5,
+     "yoy": {
+      "revenue": 2.4,
+      "profit": -43.4,
+      "netIncome": -53.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 2757900000,
+     "profit": 136700000,
+     "netIncome": 108800000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 1.4,
+      "profit": -35.6,
+      "netIncome": -32.8,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Mohawk (MHK) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mohawk-mhk-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Mohawk Industries Q3 26 Earnings Conference Call At 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Mohawk Industries, Inc. Announces New $500 Million Share Repurchase Program",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-inc-announces-new-500-million-share-repurchase-program",
+     "date": "2026-10-30",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Surpasses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-surpasses-q3-earnings-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Mohawk Industries Inc Reports Advance In Q3 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-inc-reports-advance-q3-bottom-line",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Will Mohawk Industries (MHK) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-mohawk-industries-mhk-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Expected to Beat Earnings Estimates: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-expected-beat-earnings-estimates-should-you-buy",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000085196826000038/mhk-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926104307/tm2624393d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000085196826000031/mhk-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926072955/tm2617713d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926065151/tm2615069d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926060295/tm2614381d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "MHK",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 17.23,
+  "pbr": 0.92,
+  "eps": 7.54,
+  "bps": 141.17,
+  "shares": 60438100,
+  "marketCapM": 7856,
+  "high52": 140.3,
+  "high52Date": "2026-08-13",
+  "low52": 92.99,
+  "low52Date": "2026-05-19",
+  "last": 129.99,
+  "prevClose": 127.78,
+  "nameKo": "모호크 인더스트리스",
+  "nameEn": "MOHAWK INDUSTRIES",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 60438100
+ }
+}

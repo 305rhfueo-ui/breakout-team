@@ -1,0 +1,203 @@
+{
+ "ticker": "DELL",
+ "news": [
+  {
+   "title": "DELL Expands AI Security Capabilities: Can It Challenge CSCO & HPE?",
+   "url": "https://www.nasdaq.com/articles/dell-expands-ai-security-capabilities-can-it-challenge-csco-hpe",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Everpure vs. Dell: Which Data Storage Stock is the Better Buy Now?",
+   "url": "https://www.nasdaq.com/articles/everpure-vs-dell-which-data-storage-stock-better-buy-now",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dell Technologies (DELL) Stock Declines While Market Improves: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/dell-technologies-dell-stock-declines-while-market-improves-some-information-investors",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Advanced Micro Devices vs. Dell Technologies: Which Technology Stock Is a Better Buy in 2026?",
+   "url": "https://www.nasdaq.com/articles/advanced-micro-devices-vs-dell-technologies-which-technology-stock-better-buy-2026",
+   "date": "2026-10-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Dell Technologies vs. Marvell Technology: Which Tech Stock Is the Better Buy in 2026?",
+   "url": "https://www.nasdaq.com/articles/dell-technologies-vs-marvell-technology-which-tech-stock-better-buy-2026",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Is Dell Technologies (DELL) Stock Outpacing Its Computer and Technology Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/dell-technologies-dell-stock-outpacing-its-computer-and-technology-peers-year",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dell Technologies Inc. (DELL) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/dell-technologies-inc-dell-attracting-investor-attention-here-what-you-should-know-2",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dell Technologies (DELL) Joins 33 Companies Objecting To Unauthorized Tokenized Shares",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-joins-33-011250174.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Desktop Virtualization - Global Strategic Business Report: Capitalize on the $26.2 Billion Market by 2030 as Microsoft, Citrix, VMware, Cisco, and Dell Accelerate DaaS Disruption",
+   "url": "https://finance.yahoo.com/technology/articles/desktop-virtualization-global-strategic-business-144800314.html",
+   "date": "2026-10-30",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Intel CEO Warning Sends Dell Stock Sinking",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intel-ceo-warning-sends-dell-142403672.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-21",
+   "reportDate": "2026-10-19",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/dell-20260901.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-02",
+   "items": [
+    "3.03",
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526296224/d32716d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-25",
+   "items": [
+    "3.03",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 70.41,
+  "saleNy": 19.24,
+  "epsCy": 151.46,
+  "epsNy": 8.88,
+  "cyTrend": 0.01,
+  "nyTrend": 14.34,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    57.75,
+    87.54,
+    39.48
+   ],
+   "ni": [
+    255.07,
+    256.27,
+    47.36
+   ],
+   "opm": [
+    11.46,
+    8.34,
+    9.26
+   ],
+   "updated": "2026-09-08 06:01:32"
+  }
+ }
+}

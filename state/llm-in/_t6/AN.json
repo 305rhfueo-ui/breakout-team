@@ -1,0 +1,804 @@
+{
+ "ticker": "AN",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "AN",
+  "name": "오토네이션",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
+  "price": 179.64,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 213.21,
+  "stop": 206.37,
+  "distToPivotPct": -15.75,
+  "distToPivotAdr": -4.14,
+  "riskPerSharePct": 3.21,
+  "adrPct": 3.81,
+  "extensionAdr": 2.34,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 28.8,
+   "priorMovePct": 17.1,
+   "higherLows": 1,
+   "contraction": 1.59,
+   "closeRange10Adr": 3.9,
+   "surf10": 2.34,
+   "surf20": 2.78,
+   "slope20": 1.11,
+   "baseLow": 151.82,
+   "lastSwingLow": 152.22
+  },
+  "reasons": [
+   "✗ 선행 상승 +17%",
+   "베이스 8주",
+   "✗ 깊이 28.8%",
+   "저점 상승 1회",
+   "✗ 진폭 1.59배 · 10일 종가폭 3.9 ADR",
+   "✗ 10일선 +2.3 ADR · 20일선 +2.8 ADR",
+   "20일선 기울기 +1.11%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18457989469940153,
+    "pct": 77.68259693417492
+   },
+   "m3": {
+    "v": -0.11715504426253329,
+    "pct": 18.07935076645627
+   },
+   "m6": {
+    "v": -0.07405958023435535,
+    "pct": 21.14517583408476
+   }
+  },
+  "ret1m": 10.57,
+  "ret3m": -15,
+  "ret6m": -10.4,
+  "marketCap": "5.60B",
+  "volx": 2.28,
+  "volSurgeWk": 2.09,
+  "high52": 76.18,
+  "newHigh52": false,
+  "adr": 3.8,
+  "div50": 1.57,
+  "div200": -7.23,
+  "targetStatus": false,
+  "saleCy": -0.16,
+  "saleNy": 2.89,
+  "epsCy": 3.69,
+  "epsNy": 12.57,
+  "cyTrend": -3.74,
+  "nyTrend": -5.52,
+  "est": {
+   "cyCur": 20.96707,
+   "cy30": 21.78085,
+   "nyCur": 23.60333,
+   "ny30": 24.98197
+  },
+  "fs": {
+   "sale": [
+    -0.64,
+    -2.07,
+    -3.94
+   ],
+   "ni": [
+    110.76,
+    17.04,
+    -7.52
+   ],
+   "opm": [
+    4.6,
+    4.8,
+    4.53
+   ],
+   "updated": "2026-09-08 10:05:53"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "오토네이션",
+  "nameEn": "AUTONATION INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000350698&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 7010300000,
+     "profit": 314600000,
+     "netIncome": 162300000,
+     "margin": 4.5,
+     "yoy": {
+      "revenue": -0.4,
+      "profit": -15.5,
+      "netIncome": -24.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 6929800000,
+     "profit": 319000000,
+     "netIncome": 182100000,
+     "margin": 4.6,
+     "yoy": {
+      "revenue": -0.6,
+      "profit": 46.6,
+      "netIncome": 110.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 6552100000,
+     "profit": 314300000,
+     "netIncome": 205400000,
+     "margin": 4.8,
+     "yoy": {
+      "revenue": -2.1,
+      "profit": -6.5,
+      "netIncome": 17,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 6929200000,
+     "profit": 313900000,
+     "netIncome": 172100000,
+     "margin": 4.5,
+     "yoy": {
+      "revenue": -3.9,
+      "profit": -7.5,
+      "netIncome": -7.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AutoNation (AN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/autonation-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, AutoNation (AN) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-autonation-q3-earnings-look-key-metrics",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AutoNation Q3 26 Earnings Conference Call At 9:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/autonation-q3-26-earnings-conference-call-9-00-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "AutoNation (AN) Q3 Earnings and Revenues Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/autonation-q3-earnings-and-revenues-miss-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AutoNation  Inc. Announces Decline In Q3 Income",
+     "url": "https://www.nasdaq.com/articles/autonation-inc-announces-decline-q3-income",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "AutoNation Consensus Price Target Decreased by 12.47% to $220.21",
+     "url": "https://www.nasdaq.com/articles/autonation-consensus-price-target-decreased-1247-22021",
+     "date": "2026-10-24",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "AutoNation (AN) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+     "url": "https://www.nasdaq.com/articles/autonation-earnings-expected-grow-what-know-ahead-next-weeks-release",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Penske (PAG) Surges 8.8%: Is This an Indication of Further Gains?",
+     "url": "https://www.nasdaq.com/articles/penske-pag-surges-88-indication-further-gains",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/350698/000162828026068426/an-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-16",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/350698/000162828026066051/an-20261013.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/350698/000119312526391953/d83423d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/350698/000162828026051209/an-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/350698/000162828026029100/an-20260501.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/350698/000162828026028353/an-20260428.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-08-06",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] Scale-Across의 부상",
+     "summary": "- 아리스타 네트웍스는 AI 데이터센터 중심의 이더넷 네트워크 장비 기업- FY2Q26 실적은 공급망 개선에 힘입어 매출 성장과 가이던스 상향을 기록- 부품 원가 및 고객 집중도 변수가 있으나 Scale-Across 확대로 장기 성장 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmxmcglxmklxgcgxecie.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-02-13",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] SO FAR SO GOOD",
+     "summary": "- 아리스타 네트웍스는 AI 데이터센터용 이더넷 네트워크 장비 기업- FY4Q25 실적은 매출 성장 및 수익성 개선이 동반되며 긍정적 흐름을 보임- 고객사의 CapEx 집행 및 메모리 가격 변수가 있으나 AI 고도화 속 장기 성장 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcmxzlceiqlmxgcgxecie.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-02-09",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] AI 네트워크의 개방형 표준 리더",
+     "summary": "- 개방형 이더넷 표준 주도권과 하이퍼스케일러 점유율의 압도적 우위- 1.6T 플랫폼 전환 가속화 및 CPO 통합 기반의 마진 스프레드 확대- 강력한 EPS 성장 가시성이 뒷받침된 밸류에이션 프리미엄의 당위성",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczzgllczkqzzgcgxecie.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2025-11-27",
+     "broker": "키움증권",
+     "analyst": "조소정",
+     "title": "[애버크롬비 앤드 피치 (NYS:ANF)] 저점 통과, 점차 낮아지는 리스크",
+     "summary": "- 캐주얼 의류 브랜드사 (Hollister, Abercrombie)- 3Q26 실적은 매출과 EPS가 시장 기대치를 상회. Hollister가 매출 성장을 견인한 가운데, 재고 관리와 프로모션 축소로 관세 여파를 상쇄한 덕분- 주가는 선행 PER 9배 수준. 최근 주가 급등에도 밸류에이션 부담은 없음. 향후 실적 가시성 개선될 전망인 만큼, 주가 상승 여력이 커질 듯.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxecie.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2025-11-05",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] 투자 포인트",
+     "summary": "- 투자 포인트: 1) AI 데이터센터 전환 수혜: 고비용·폐쇄형 구조의 InfiniBand 대신 개방적이고 호환성이 높은 UEC 표준 이더넷으로 시장이 이동하면서, Arista의 경쟁우위 강화- 또한 향후 Etherlink 스위치 포트폴리오 중심으로 대규모 GPU 클러스터 연결(Scale-out) 수요 증가의 직접 수혜 예상. 2) 소프트웨어 플랫폼 기반 고마진 구조: EOS와 CloudVision을 결합해 네트워크 자동화·가시성·보안 기능을 통합 제공- 실적 및 밸류에이션: FY3Q25 매출 23.1억 달러(+27.5% YoY), EPS 0.75달러(+25.0% YoY), GPM 65.2%, OPM 48.6% 기록. 12m fwd PER는 56배로 업종 평균(26배)을 상회하나, AI 인프라 확장에 따른 구조적 성장성과 업계 최고 수준의 수익성을 고려하면 프리미엄 정당화 가능",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgillklezmilmgcgxecie.pdf",
+     "pages": "3"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "AN-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-08-06",
+   "title": "[아리스타 네트웍스 (NYS:ANET)] Scale-Across의 부상",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmxmcglxmklxgcgxecie.pdf",
+   "pages": "6"
+  },
+  {
+   "file": "AN-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-02-13",
+   "title": "[아리스타 네트웍스 (NYS:ANET)] SO FAR SO GOOD",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcmxzlceiqlmxgcgxecie.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Car dealerships are relying more on parts and service for profits",
+   "url": "https://www.cnbc.com/2026/08/19/car-dealerships-parts-and-service.html",
+   "date": "2026-08-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "AN",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 8.32,
+  "pbr": 2.63,
+  "eps": 21.59,
+  "bps": 68.19,
+  "shares": 33060800,
+  "marketCapM": 5939,
+  "high52": 235.81,
+  "high52Date": "2026-07-29",
+  "low52": 151.82,
+  "low52Date": "2026-10-14",
+  "last": 179.64,
+  "prevClose": 169.34,
+  "nameKo": "오토네이션",
+  "nameEn": "AUTONATION INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 33060800
+ },
+ "estimates": {
+  "ticker": "AN",
+  "url": "https://finance.yahoo.com/quote/AN/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 5.08,
+    "epsLow": 4.9,
+    "epsHigh": 5.5,
+    "epsYearAgo": 5.01,
+    "epsAnalysts": 11,
+    "epsGrowth": 1.4,
+    "epsCur": "USD",
+    "rev": 6934096140,
+    "revAnalysts": 9,
+    "revYearAgo": 7037400000,
+    "revGrowth": -1.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 5.54,
+    "epsLow": 5,
+    "epsHigh": 6.01,
+    "epsYearAgo": 5.08,
+    "epsAnalysts": 11,
+    "epsGrowth": 9.1,
+    "epsCur": "USD",
+    "rev": 7104966140,
+    "revAnalysts": 9,
+    "revYearAgo": 6929200000,
+    "revGrowth": 2.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 20.97,
+    "epsLow": 20.14,
+    "epsHigh": 21.85,
+    "epsYearAgo": 20.22,
+    "epsAnalysts": 13,
+    "epsGrowth": 3.7,
+    "epsCur": "USD",
+    "rev": 27587845940,
+    "revAnalysts": 11,
+    "revYearAgo": 27631400000,
+    "revGrowth": -0.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 23.6,
+    "epsLow": 20.85,
+    "epsHigh": 25.8,
+    "epsYearAgo": 20.97,
+    "epsAnalysts": 13,
+    "epsGrowth": 12.6,
+    "epsCur": "USD",
+    "rev": 28386485080,
+    "revAnalysts": 11,
+    "revYearAgo": 27587845940,
+    "revGrowth": 2.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 5.08,
+    "d7": 0,
+    "d30": -10.8,
+    "d90": -12.1,
+    "ago90": 5.78,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 7
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.54,
+    "d7": 0,
+    "d30": -6,
+    "d90": -3.6,
+    "ago90": 5.75,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 7
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 20.97,
+    "d7": 0,
+    "d30": -3.7,
+    "d90": -3.2,
+    "ago90": 21.65,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 8
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 23.6,
+    "d7": 0,
+    "d30": -5.5,
+    "d90": -3.2,
+    "ago90": 24.39,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 7
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 5.56,
+    "estimate": 5.46,
+    "surprisePct": 1.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 4.69,
+    "estimate": 4.61,
+    "surprisePct": 1.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 5.08,
+    "estimate": 4.88,
+    "surprisePct": 4.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 5.01,
+    "estimate": 4.84,
+    "surprisePct": 3.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 5,
+   "ptLowered": 7,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-10-12",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 213,
+     "ptPrior": 248
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 185,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 230,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Morgan Stanley",
+     "action": "down",
+     "from": "Overweight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 175,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 255,
+     "ptPrior": 290
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Argus Research",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 246,
+     "ptPrior": 241
+    },
+    {
+     "date": "2026-08-10",
+     "firm": "Stephens & Co.",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 232,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 240
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 210,
+     "ptPrior": 235
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-30",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 179.64,
+   "ma20": 160.62,
+   "ma50": 176.87,
+   "ma150": 191.4,
+   "distMA50": 1.57,
+   "periodHigh": 235.81,
+   "pullbackFromHigh": -23.82,
+   "volRatio20": 2.06,
+   "dryUpRatio": 1.24
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 162.56,
+    "h": 162.56,
+    "l": 158.89,
+    "c": 160.39,
+    "v": 482400,
+    "clsPos": 41,
+    "gapPct": 0.51
+   },
+   {
+    "d": "2026-10-20",
+    "o": 160.39,
+    "h": 163.09,
+    "l": 159.98,
+    "c": 161.89,
+    "v": 434100,
+    "clsPos": 61,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-21",
+    "o": 166,
+    "h": 168.22,
+    "l": 152.22,
+    "c": 153.01,
+    "v": 705400,
+    "clsPos": 5,
+    "gapPct": 2.54
+   },
+   {
+    "d": "2026-10-22",
+    "o": 153.37,
+    "h": 162.11,
+    "l": 153.21,
+    "c": 161.84,
+    "v": 702000,
+    "clsPos": 97,
+    "gapPct": 0.24
+   },
+   {
+    "d": "2026-10-23",
+    "o": 160.12,
+    "h": 161.15,
+    "l": 155.8,
+    "c": 161.05,
+    "v": 473400,
+    "clsPos": 98,
+    "gapPct": -1.06
+   },
+   {
+    "d": "2026-10-26",
+    "o": 160.49,
+    "h": 162.6,
+    "l": 159.38,
+    "c": 160.2,
+    "v": 375000,
+    "clsPos": 25,
+    "gapPct": -0.35
+   },
+   {
+    "d": "2026-10-27",
+    "o": 159.3,
+    "h": 165.23,
+    "l": 159.3,
+    "c": 164.81,
+    "v": 575800,
+    "clsPos": 93,
+    "gapPct": -0.56
+   },
+   {
+    "d": "2026-10-28",
+    "o": 164,
+    "h": 165.64,
+    "l": 162.32,
+    "c": 164.18,
+    "v": 550000,
+    "clsPos": 56,
+    "gapPct": -0.49
+   },
+   {
+    "d": "2026-10-29",
+    "o": 162.24,
+    "h": 170.34,
+    "l": 162.24,
+    "c": 169.34,
+    "v": 999300,
+    "clsPos": 88,
+    "gapPct": -1.18
+   },
+   {
+    "d": "2026-10-30",
+    "o": 177.35,
+    "h": 192.99,
+    "l": 176.41,
+    "c": 179.64,
+    "v": 1244800,
+    "clsPos": 19,
+    "gapPct": 4.73
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AN-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

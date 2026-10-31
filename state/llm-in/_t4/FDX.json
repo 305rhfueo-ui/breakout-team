@@ -1,0 +1,211 @@
+{
+ "ticker": "FDX",
+ "news": [
+  {
+   "title": "FDX Q3 Earnings Call Highlights Raised Outlook and Margin Pressures",
+   "url": "https://www.nasdaq.com/articles/fdx-q3-earnings-call-highlights-raised-outlook-and-margin-pressures",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "FedEx (FDX) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/fedex-fdx-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "🎧 Listen: How UPS and FedEx Shrug Off High Diesel Prices",
+   "url": "https://finance.yahoo.com/m/da391807-a2cd-3e7d-bf61-01dfada03b5d/%F0%9F%8E%A7-listen%3A-how-ups-and-fedex.html",
+   "date": "2026-10-30",
+   "publisher": "The Wall Street Journal",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why FedEx Freight Stock Popped After Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-autonation-stock-popped-earnings-175418178.html",
+   "date": "2026-10-30",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BofA Securities Adjusts Price Target on FedEx to $137 From $140, Maintains Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-142023363.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Evercore ISI Adjusts FedEx Freight Price Target to $165 From $135",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-fedex-freight-133032887.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What FedEx Freight (FDXF) Said on Its Q1 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-freight-fdxf-said-q1-131440067.html",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Citigroup Adjusts Price Target on FedEx to $374 From $373",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-price-target-fedex-131416059.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JPMorgan Adjusts Price Target on FedEx Freight to $151 From $149",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-fedex-102602286.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "FedEx Corp (FDX) (Q3 2026) Earnings Call Highlights: Double-Digit Revenue Growth, Raised EPS ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-q3-2026-070453317.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "FedEx Freight sees volumes stabilize, eyes Q4 margin improvement",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-freight-sees-volumes-stabilize-004455811.html",
+   "date": "2026-10-30",
+   "publisher": "FreightWaves",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "reportDate": "2026-10-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000128/fdx-20261028.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "reportDate": "2026-10-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000126/fdx-20261028.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465926118604/tm2628225d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-29",
+   "reportDate": "2026-09-28",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465926111970/tm2626524d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465926107511/tm2625313d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465926086643/tm2621019d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.87,
+  "saleNy": 3.11,
+  "epsCy": -1.33,
+  "epsNy": 17.28,
+  "cyTrend": 1.08,
+  "nyTrend": 0.89,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    8.3,
+    6.84
+   ],
+   "ni": [
+    null,
+    16.17,
+    29.01
+   ],
+   "opm": [
+    null,
+    5.62,
+    5.87
+   ],
+   "updated": "2026-09-21 06:25:35"
+  }
+ }
+}

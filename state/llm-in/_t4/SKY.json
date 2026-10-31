@@ -1,0 +1,199 @@
+{
+ "ticker": "SKY",
+ "news": [
+  {
+   "title": "Champion Homes (SKY) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-shares-cross-above-200-dma",
+   "date": "2026-10-30",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Analysts Estimate Champion Homes (SKY) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-champion-homes-sky-report-decline-earnings-what-look-out",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SKY Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/sky-crosses-below-key-moving-average-level",
+   "date": "2026-10-07",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Champion Homes (SKY) Q1 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-q1-earnings-lag-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Champion Homes Breaks Below 200-Day Moving Average - Notable for SKY",
+   "url": "https://www.nasdaq.com/articles/champion-homes-breaks-below-200-day-moving-average-notable-sky",
+   "date": "2026-07-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Cavco Soars 12% on Earnings Beat as “Data Center Workforce Housing” Orders Arrive",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cavco-soars-12-earnings-beat-173714118.html",
+   "date": "2026-10-30",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "1 profitable stock to target this week and 2 we turn down",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-target-week-103525267.html",
+   "date": "2026-10-29",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Analysts Estimate Champion Homes (SKY) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-champion-homes-sky-130011008.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes Announces Second Quarter Fiscal 2027 Earnings Release Date and Conference Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/champion-homes-announces-second-quarter-201500006.html",
+   "date": "2026-10-21",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Winnebago Industries (WGO) Misses Q4 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/winnebago-industries-wgo-misses-q4-111504076.html",
+   "date": "2026-10-21",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-05",
+   "reportDate": "2026-10-05",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526414136/sky-20261005.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526368465/sky-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526332837/sky-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526330664/sky-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526253964/sky-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-31",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526249679/d80225d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.8,
+  "saleNy": 7.49,
+  "epsCy": -10.05,
+  "epsNy": 21.19,
+  "cyTrend": -0.43,
+  "nyTrend": -1.56,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.27,
+    4.62,
+    1.81
+   ],
+   "ni": [
+    -24.01,
+    -18.36,
+    -11.7
+   ],
+   "opm": [
+    8.49,
+    5.79,
+    9.51
+   ],
+   "updated": "2026-09-08 05:59:33"
+  }
+ }
+}

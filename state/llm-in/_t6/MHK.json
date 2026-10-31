@@ -1,0 +1,725 @@
+{
+ "ticker": "MHK",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "MHK",
+  "name": "모호크 인더스트리스",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "price": 139.41,
+  "grade": "C",
+  "state": "post",
+  "pivot": 134.45,
+  "stop": 129.65,
+  "distToPivotPct": 3.69,
+  "distToPivotAdr": 0.92,
+  "riskPerSharePct": 3.57,
+  "adrPct": 4,
+  "extensionAdr": 2.55,
+  "breakDate": "2026-10-30",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 14.9,
+   "priorMovePct": 32.8,
+   "higherLows": 0,
+   "contraction": 1.77,
+   "closeRange10Adr": 3,
+   "surf10": 1.4,
+   "surf20": 1.59,
+   "slope20": 0.27,
+   "baseLow": 114.37,
+   "lastSwingLow": 114.37
+  },
+  "reasons": [
+   "선행 상승 +33%",
+   "베이스 8주",
+   "깊이 14.9%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.77배 · 10일 종가폭 3 ADR",
+   "10일선 +1.4 ADR · 20일선 +1.6 ADR",
+   "20일선 기울기 +0.27%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18167076616653893,
+    "pct": 76.6907123534716
+   },
+   "m3": {
+    "v": 0.08558661239841694,
+    "pct": 73.26420198376915
+   },
+   "m6": {
+    "v": 0.4105980434672335,
+    "pct": 88.14247069431921
+   }
+  },
+  "ret1m": 10.28,
+  "ret3m": 5.28,
+  "ret6m": 38.07,
+  "marketCap": "8.81B",
+  "volx": 2.49,
+  "volSurgeWk": 2.01,
+  "high52": 98.95,
+  "newHigh52": false,
+  "adr": 3.98,
+  "div50": 10.96,
+  "div200": 19.84,
+  "targetStatus": false,
+  "saleCy": 3.28,
+  "saleNy": 2.04,
+  "epsCy": 9.3,
+  "epsNy": 1.23,
+  "cyTrend": -0.37,
+  "nyTrend": -1.32,
+  "est": {
+   "cyCur": 9.79338,
+   "cy30": 9.82999,
+   "nyCur": 9.91343,
+   "ny30": 10.04636
+  },
+  "fs": {
+   "sale": [
+    6.76,
+    8.03,
+    2.37
+   ],
+   "ni": [
+    33.86,
+    61.29,
+    -53.49
+   ],
+   "opm": [
+    8.48,
+    4.1,
+    2.53
+   ],
+   "updated": "2026-09-08 08:13:06"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "모호크 인더스트리스",
+  "nameEn": "MOHAWK INDUSTRIES",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851968&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-04",
+     "derived": false,
+     "revenue": 2991400000,
+     "profit": 253700000,
+     "netIncome": 196100000,
+     "margin": 8.5,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": 34.4,
+      "netIncome": 33.9,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-04-04",
+     "derived": false,
+     "revenue": 2728700000,
+     "profit": 111800000,
+     "netIncome": 117100000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 8,
+      "profit": 16.5,
+      "netIncome": 61.3,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2699700000,
+     "profit": 68300000,
+     "netIncome": 42000000,
+     "margin": 2.5,
+     "yoy": {
+      "revenue": 2.4,
+      "profit": -43.4,
+      "netIncome": -53.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 2757900000,
+     "profit": 136700000,
+     "netIncome": 108800000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 1.4,
+      "profit": -35.6,
+      "netIncome": -32.8,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Mohawk (MHK) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mohawk-mhk-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Mohawk Industries Q3 26 Earnings Conference Call At 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Mohawk Industries, Inc. Announces New $500 Million Share Repurchase Program",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-inc-announces-new-500-million-share-repurchase-program",
+     "date": "2026-10-30",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Surpasses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-surpasses-q3-earnings-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Mohawk Industries Inc Reports Advance In Q3 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-inc-reports-advance-q3-bottom-line",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Will Mohawk Industries (MHK) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-mohawk-industries-mhk-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Expected to Beat Earnings Estimates: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-expected-beat-earnings-estimates-should-you-buy",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000085196826000038/mhk-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926104307/tm2624393d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000085196826000031/mhk-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926072955/tm2617713d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926065151/tm2615069d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851968/000110465926060295/tm2614381d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "MHK",
+  "fetchedAt": "2026-10-30",
+  "source": "한국투자증권 Open API",
+  "per": 17.23,
+  "pbr": 0.92,
+  "eps": 7.54,
+  "bps": 141.17,
+  "shares": 60438100,
+  "marketCapM": 7856,
+  "high52": 140.3,
+  "high52Date": "2026-08-13",
+  "low52": 92.99,
+  "low52Date": "2026-05-19",
+  "last": 129.99,
+  "prevClose": 127.78,
+  "nameKo": "모호크 인더스트리스",
+  "nameEn": "MOHAWK INDUSTRIES",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 60438100
+ },
+ "estimates": {
+  "ticker": "MHK",
+  "url": "https://finance.yahoo.com/quote/MHK/analysis/",
+  "fetchedAt": "2026-10-30",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.64,
+    "epsLow": 1.42,
+    "epsHigh": 1.8,
+    "epsYearAgo": 2,
+    "epsAnalysts": 17,
+    "epsGrowth": -17.9,
+    "epsCur": "USD",
+    "rev": 2602211610,
+    "revAnalysts": 16,
+    "revYearAgo": 2699600000,
+    "revGrowth": -3.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.8,
+    "epsLow": 1.51,
+    "epsHigh": 2.15,
+    "epsYearAgo": 1.9,
+    "epsAnalysts": 11,
+    "epsGrowth": -5,
+    "epsCur": "USD",
+    "rev": 2761994690,
+    "revAnalysts": 9,
+    "revYearAgo": 2728700000,
+    "revGrowth": 1.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 9.79,
+    "epsLow": 9.57,
+    "epsHigh": 9.93,
+    "epsYearAgo": 8.96,
+    "epsAnalysts": 17,
+    "epsGrowth": 9.3,
+    "epsCur": "USD",
+    "rev": 11138863270,
+    "revAnalysts": 16,
+    "revYearAgo": 10785400000,
+    "revGrowth": 3.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 9.91,
+    "epsLow": 8.91,
+    "epsHigh": 10.92,
+    "epsYearAgo": 9.79,
+    "epsAnalysts": 17,
+    "epsGrowth": 1.2,
+    "epsCur": "USD",
+    "rev": 11366226800,
+    "revAnalysts": 16,
+    "revYearAgo": 11138863270,
+    "revGrowth": 2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.64,
+    "d7": -0.4,
+    "d30": -2.4,
+    "d90": -3.5,
+    "ago90": 1.7,
+    "up7": 0,
+    "up30": 0,
+    "down7": 3,
+    "down30": 4
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.8,
+    "d7": -0.2,
+    "d30": -3.7,
+    "d90": -4.6,
+    "ago90": 1.89,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 9.79,
+    "d7": 0,
+    "d30": -0.4,
+    "d90": 14.6,
+    "ago90": 8.55,
+    "up7": 0,
+    "up30": 0,
+    "down7": 3,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 9.91,
+    "d7": -0.5,
+    "d30": -1.3,
+    "d90": 1.5,
+    "ago90": 9.76,
+    "up7": 1,
+    "up30": 1,
+    "down7": 2,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.72,
+    "estimate": 2.58,
+    "surprisePct": 5.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.67,
+    "estimate": 2.58,
+    "surprisePct": 42,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.9,
+    "estimate": 1.81,
+    "surprisePct": 4.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2,
+    "estimate": 1.98,
+    "surprisePct": 1.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 1,
+   "ptRaised": 6,
+   "ptLowered": 2,
+   "total": 9,
+   "recent": [
+    {
+     "date": "2026-10-07",
+     "firm": "RBC Capital",
+     "action": "down",
+     "from": "Sector Perform",
+     "to": "Underperform",
+     "ptAction": "Lowers",
+     "pt": 112,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Melius Research",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 188,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "In-Line",
+     "to": "In-Line",
+     "ptAction": "Lowers",
+     "pt": 129,
+     "ptPrior": 132
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 155,
+     "ptPrior": 135
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 130,
+     "ptPrior": 117
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "In-Line",
+     "to": "In-Line",
+     "ptAction": "Raises",
+     "pt": 132,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 125,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 109
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 132,
+     "ptPrior": 112
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 139.41,
+   "ma20": 123.02,
+   "ma50": 125.64,
+   "ma150": 115.89,
+   "distMA50": 10.96,
+   "periodHigh": 148.57,
+   "pullbackFromHigh": -6.17,
+   "volRatio20": 2.23,
+   "dryUpRatio": 1.41
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 121.61,
+    "h": 121.61,
+    "l": 114.37,
+    "c": 115.78,
+    "v": 1768100,
+    "clsPos": 19,
+    "gapPct": 1.1
+   },
+   {
+    "d": "2026-10-20",
+    "o": 116.74,
+    "h": 119.31,
+    "l": 116.11,
+    "c": 118.95,
+    "v": 1234000,
+    "clsPos": 89,
+    "gapPct": 0.83
+   },
+   {
+    "d": "2026-10-21",
+    "o": 120.82,
+    "h": 120.82,
+    "l": 117.16,
+    "c": 118.04,
+    "v": 726900,
+    "clsPos": 24,
+    "gapPct": 1.57
+   },
+   {
+    "d": "2026-10-22",
+    "o": 116.68,
+    "h": 128.97,
+    "l": 116.68,
+    "c": 128.7,
+    "v": 1632600,
+    "clsPos": 98,
+    "gapPct": -1.15
+   },
+   {
+    "d": "2026-10-23",
+    "o": 125.22,
+    "h": 125.81,
+    "l": 122.23,
+    "c": 124.72,
+    "v": 967800,
+    "clsPos": 70,
+    "gapPct": -2.7
+   },
+   {
+    "d": "2026-10-26",
+    "o": 124.92,
+    "h": 125.66,
+    "l": 122.62,
+    "c": 123.35,
+    "v": 796800,
+    "clsPos": 24,
+    "gapPct": 0.16
+   },
+   {
+    "d": "2026-10-27",
+    "o": 123.8,
+    "h": 126.06,
+    "l": 120.98,
+    "c": 125.05,
+    "v": 1624200,
+    "clsPos": 80,
+    "gapPct": 0.36
+   },
+   {
+    "d": "2026-10-28",
+    "o": 125.94,
+    "h": 127.96,
+    "l": 124.36,
+    "c": 127.78,
+    "v": 1439400,
+    "clsPos": 95,
+    "gapPct": 0.71
+   },
+   {
+    "d": "2026-10-29",
+    "o": 128.01,
+    "h": 132.48,
+    "l": 125.81,
+    "c": 129.99,
+    "v": 2689500,
+    "clsPos": 63,
+    "gapPct": 0.18
+   },
+   {
+    "d": "2026-10-30",
+    "o": 140.5,
+    "h": 141.17,
+    "l": 129.67,
+    "c": 139.41,
+    "v": 3016800,
+    "clsPos": 85,
+    "gapPct": 8.09
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MHK-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MHK-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

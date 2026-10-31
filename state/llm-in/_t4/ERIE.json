@@ -1,0 +1,225 @@
+{
+ "ticker": "ERIE",
+ "news": [
+  {
+   "title": "Erie Indemnity Reports Third Quarter 2026 Results",
+   "url": "https://www.nasdaq.com/articles/erie-indemnity-reports-third-quarter-2026-results",
+   "date": "2026-10-30",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Erie Indemnity Co Q3 Income Falls",
+   "url": "https://www.nasdaq.com/articles/erie-indemnity-co-q3-income-falls",
+   "date": "2026-10-29",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Erie Indemnity (ERIE) Q3 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/erie-indemnity-erie-q3-earnings-surpass-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Erie Indemnity (ERIE) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/erie-indemnity-erie-upgraded-buy-heres-why",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Erie Indemnity (ERIE) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/erie-indemnity-erie-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Erie Indemnity Co Reveals Advance In Q2 Bottom Line",
+   "url": "https://www.nasdaq.com/articles/erie-indemnity-co-reveals-advance-q2-bottom-line",
+   "date": "2026-07-30",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Strength Seen in Erie Indemnity (ERIE): Can Its 7.5% Jump Turn into More Strength?",
+   "url": "https://www.nasdaq.com/articles/strength-seen-erie-indemnity-erie-can-its-75-jump-turn-more-strength",
+   "date": "2026-07-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Erie Indemnity (ERIE) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/erie-indemnity-erie-q1-2026-earnings-transcript",
+   "date": "2026-04-24",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Erie Indemnity Company Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/erie-indemnity-company-q3-2026-123000459.html",
+   "date": "2026-10-30",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Erie Indemnity Q3 Earnings Rise, Revenue Flat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/erie-indemnity-q3-earnings-rise-205902214.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Erie Indemnity (ERIE) Q3 Earnings Surpass Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/erie-indemnity-erie-q3-earnings-203503917.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Erie Indemnity: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/erie-indemnity-q3-earnings-snapshot-202604600.html",
+   "date": "2026-10-29",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Erie Indemnity Reports Third Quarter 2026 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/erie-indemnity-reports-third-quarter-201500212.html",
+   "date": "2026-10-29",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026068265/erie-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026051071/erie-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026037267/erie-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026026857/erie-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-23",
+   "reportDate": "2026-02-19",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026010640/erie-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-20",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026010105/erie-20260220.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.51,
+  "saleNy": null,
+  "epsCy": 3.69,
+  "epsNy": null,
+  "cyTrend": 0.32,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    2.8,
+    2.28,
+    2.91
+   ],
+   "ni": [
+    3.21,
+    8.71,
+    -58.31
+   ],
+   "opm": [
+    18.73,
+    16.48,
+    16.58
+   ],
+   "updated": "2026-09-08 10:01:23"
+  }
+ }
+}

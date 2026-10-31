@@ -1,0 +1,558 @@
+{
+ "ticker": "IMO",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "IMO",
+  "name": "임페리얼 오일",
+  "sector": "Energy",
+  "industry": "Oil & Gas Integrated",
+  "price": 138.1,
+  "grade": "B",
+  "state": "post",
+  "pivot": 137.03,
+  "stop": 133.57,
+  "distToPivotPct": 0.78,
+  "distToPivotAdr": 0.24,
+  "riskPerSharePct": 2.53,
+  "adrPct": 3.24,
+  "extensionAdr": 1.02,
+  "breakDate": "2026-10-30",
+  "metrics": {
+   "baseBars": 12,
+   "baseWeeks": 2.4,
+   "depthPct": 8.9,
+   "priorMovePct": 15.1,
+   "higherLows": 1,
+   "contraction": 1.35,
+   "closeRange10Adr": 1.9,
+   "surf10": -0.65,
+   "surf20": 0.54,
+   "slope20": 1.78,
+   "baseLow": 124.9,
+   "lastSwingLow": 124.9
+  },
+  "reasons": [
+   "✗ 선행 상승 +15%",
+   "베이스 2.4주",
+   "깊이 8.9%",
+   "저점 상승 1회",
+   "진폭 1.35배 · 10일 종가폭 1.9 ADR",
+   "10일선 -0.7 ADR · 20일선 +0.5 ADR",
+   "20일선 기울기 +1.78%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.17765323636588687,
+    "pct": 75.51848512173129
+   },
+   "m3": {
+    "v": 0.13156978627657745,
+    "pct": 80.9287646528404
+   },
+   "m6": {
+    "v": 0.10072716238576886,
+    "pct": 52.79531109107304
+   }
+  },
+  "ret1m": 9.88,
+  "ret3m": 9.88,
+  "ret6m": 7.08,
+  "marketCap": "65.07B",
+  "volx": 1.72,
+  "volSurgeWk": 1.96,
+  "high52": 99.7,
+  "newHigh52": false,
+  "adr": 3.02,
+  "div50": 6.74,
+  "div200": 12.19,
+  "targetStatus": true,
+  "saleCy": 30.55,
+  "saleNy": 3.34,
+  "epsCy": 84.66,
+  "epsNy": -13.28,
+  "cyTrend": 7.13,
+  "nyTrend": 10.98,
+  "est": {
+   "cyCur": 15.75169,
+   "cy30": 14.70378,
+   "nyCur": 13.65973,
+   "ny30": 12.30785
+  },
+  "fs": {
+   "sale": [
+    42.86,
+    4.07,
+    -9.94
+   ],
+   "ni": [
+    130.55,
+    -23.61,
+    -58.35
+   ],
+   "opm": [
+    17.81,
+    9.9,
+    5.75
+   ],
+   "updated": "2026-09-07 07:32:48"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "임페리얼 오일",
+  "nameEn": "IMPERIAL OIL",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Imperial Oil (IMO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Imperial Oil (IMO) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Imperial Oil Q3 26 Earnings Conference Call AT 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Imperial Oil Q3 Net Profit Soars; Declares Dividend",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-q3-net-profit-soars-declares-dividend",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Imperial Oil (IMO) Surpasses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-surpasses-q3-earnings-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Imperial Oil (IMO) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-imo-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Imperial Oil Stock Rises 49% YTD: Time to Hold or Lock in Profits?",
+     "url": "https://www.nasdaq.com/articles/imperial-oil-stock-rises-49-ytd-time-hold-or-lock-profits",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000049/imo-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000048/imo-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000045/imo-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000038/imo-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000036/imo-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/49938/000004993826000035/imo-20260731.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "IMO",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 22.48,
+  "pbr": 3.86,
+  "eps": 6.14,
+  "bps": 35.77,
+  "shares": 483593000,
+  "marketCapM": 66784,
+  "high52": 138.52,
+  "high52Date": "2026-10-30",
+  "low52": 82.0233,
+  "low52Date": "2025-12-19",
+  "last": 138.1,
+  "prevClose": 130.87,
+  "nameKo": "임페리얼 오일",
+  "nameEn": "IMPERIAL OIL",
+  "listedOn": null,
+  "exchange": "아멕스",
+  "listedShares": 483593000
+ },
+ "estimates": {
+  "ticker": "IMO",
+  "url": "https://finance.yahoo.com/quote/IMO/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 4.82,
+    "epsLow": 4.29,
+    "epsHigh": 5.27,
+    "epsYearAgo": 2.17,
+    "epsAnalysts": 8,
+    "epsGrowth": 122.1,
+    "epsCur": "CAD",
+    "rev": 15576482850,
+    "revAnalysts": 2,
+    "revYearAgo": 12049000000,
+    "revGrowth": 29.3,
+    "revCur": "CAD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 4.9,
+    "epsLow": 3.21,
+    "epsHigh": 5.74,
+    "epsYearAgo": 1.97,
+    "epsAnalysts": 5,
+    "epsGrowth": 148.9,
+    "epsCur": "CAD",
+    "rev": 16180399210,
+    "revAnalysts": 2,
+    "revYearAgo": 11280000000,
+    "revGrowth": 43.4,
+    "revCur": "CAD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 15.75,
+    "epsLow": 14.15,
+    "epsHigh": 17.13,
+    "epsYearAgo": 8.53,
+    "epsAnalysts": 8,
+    "epsGrowth": 84.7,
+    "epsCur": "CAD",
+    "rev": 61462201520,
+    "revAnalysts": 6,
+    "revYearAgo": 47078000000,
+    "revGrowth": 30.6,
+    "revCur": "CAD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 13.66,
+    "epsLow": 7.78,
+    "epsHigh": 16.74,
+    "epsYearAgo": 15.75,
+    "epsAnalysts": 9,
+    "epsGrowth": -13.3,
+    "epsCur": "CAD",
+    "rev": 63516278050,
+    "revAnalysts": 6,
+    "revYearAgo": 61462201520,
+    "revGrowth": 3.3,
+    "revCur": "CAD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "CAD",
+    "now": 4.82,
+    "d7": 1.8,
+    "d30": 7.8,
+    "d90": 32.4,
+    "ago90": 3.64,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "CAD",
+    "now": 4.9,
+    "d7": 3,
+    "d30": 21.9,
+    "d90": 41.7,
+    "ago90": 3.46,
+    "up7": 1,
+    "up30": 2,
+    "down7": 1,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "CAD",
+    "now": 15.75,
+    "d7": 0.7,
+    "d30": 7.1,
+    "d90": 18.9,
+    "ago90": 13.25,
+    "up7": 2,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "CAD",
+    "now": 13.66,
+    "d7": 0.3,
+    "d30": 11,
+    "d90": 24.3,
+    "ago90": 10.99,
+    "up7": 1,
+    "up30": 5,
+    "down7": 1,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 4.52,
+    "estimate": 4.17,
+    "surprisePct": 8.4,
+    "cur": "CAD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.94,
+    "estimate": 2.4,
+    "surprisePct": -19.3,
+    "cur": "CAD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.97,
+    "estimate": 1.89,
+    "surprisePct": 4.1,
+    "cur": "CAD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 2.17,
+    "estimate": 1.96,
+    "surprisePct": 10.6,
+    "cur": "CAD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 0,
+   "recent": []
+  },
+  "nextEarnings": {
+   "date": "2026-10-30",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 138.1,
+   "ma20": 129.63,
+   "ma50": 129.5,
+   "ma150": 126.84,
+   "distMA50": 6.64,
+   "periodHigh": 139.44,
+   "pullbackFromHigh": -0.96,
+   "volRatio20": 1.85,
+   "dryUpRatio": 1.08
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 132.85,
+    "h": 135.97,
+    "l": 132.85,
+    "c": 135.24,
+    "v": 434400,
+    "clsPos": 77,
+    "gapPct": -0.8
+   },
+   {
+    "d": "2026-10-20",
+    "o": 134.76,
+    "h": 136.88,
+    "l": 131.61,
+    "c": 134.99,
+    "v": 761700,
+    "clsPos": 64,
+    "gapPct": -0.35
+   },
+   {
+    "d": "2026-10-21",
+    "o": 134.85,
+    "h": 136.71,
+    "l": 134.32,
+    "c": 135.57,
+    "v": 403500,
+    "clsPos": 52,
+    "gapPct": -0.1
+   },
+   {
+    "d": "2026-10-22",
+    "o": 137,
+    "h": 137.03,
+    "l": 130.55,
+    "c": 131.84,
+    "v": 571500,
+    "clsPos": 20,
+    "gapPct": 1.05
+   },
+   {
+    "d": "2026-10-23",
+    "o": 133.07,
+    "h": 135.37,
+    "l": 132.77,
+    "c": 134.8,
+    "v": 300100,
+    "clsPos": 78,
+    "gapPct": 0.93
+   },
+   {
+    "d": "2026-10-26",
+    "o": 133.25,
+    "h": 135.51,
+    "l": 132.77,
+    "c": 134.49,
+    "v": 498300,
+    "clsPos": 63,
+    "gapPct": -1.15
+   },
+   {
+    "d": "2026-10-27",
+    "o": 133.61,
+    "h": 134.64,
+    "l": 128.44,
+    "c": 128.83,
+    "v": 531800,
+    "clsPos": 6,
+    "gapPct": -0.65
+   },
+   {
+    "d": "2026-10-28",
+    "o": 129.98,
+    "h": 131.67,
+    "l": 129.36,
+    "c": 130.66,
+    "v": 483800,
+    "clsPos": 56,
+    "gapPct": 0.89
+   },
+   {
+    "d": "2026-10-29",
+    "o": 131.39,
+    "h": 132.66,
+    "l": 128.23,
+    "c": 130.87,
+    "v": 486400,
+    "clsPos": 60,
+    "gapPct": 0.56
+   },
+   {
+    "d": "2026-10-30",
+    "o": 120.89,
+    "h": 138.52,
+    "l": 120.89,
+    "c": 138.1,
+    "v": 1047900,
+    "clsPos": 98,
+    "gapPct": -7.63
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IMO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IMO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

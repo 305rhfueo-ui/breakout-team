@@ -1,0 +1,184 @@
+{
+ "ticker": "DDOG",
+ "news": [
+  {
+   "title": "Seeking Clues to Datadog (DDOG) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/seeking-clues-datadog-ddog-q3-earnings-peek-wall-street-projections-key-metrics",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Datadog (DDOG) Suffers a Larger Drop Than the General Market: Key Insights",
+   "url": "https://www.nasdaq.com/articles/datadog-ddog-suffers-larger-drop-general-market-key-insights",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Datadog (DDOG) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/datadog-ddog-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Datadog (DDOG) Stock Falls Amid Market Uptick: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/datadog-ddog-stock-falls-amid-market-uptick-what-investors-need-know",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Datadog (DDOG) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-datadog-ddog-top-momentum-stock-long-term",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Most-Watched Stock Datadog, Inc. (DDOG) Worth Betting on Now?",
+   "url": "https://www.nasdaq.com/articles/most-watched-stock-datadog-inc-ddog-worth-betting-now",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cybersecurity Stocks To Watch As Binance Hack Fuels Demand For Digital Defense",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cybersecurity-stocks-watch-binance-hack-141157165.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Seeking Clues to Datadog (DDOG) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/seeking-clues-datadog-ddog-q3-121506013.html",
+   "date": "2026-10-30",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ddog-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026043590/ddog-20260615.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026031677/ddog-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-21",
+   "items": [
+    "3.03",
+    "5.03",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000119312526168261/d81305d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-02-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026013236/ddog-20260226.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-10",
+   "reportDate": "2026-02-10",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026006645/ddog-20260210.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 30.55,
+  "saleNy": 22.64,
+  "epsCy": 23.31,
+  "epsNy": 18.06,
+  "cyTrend": 0.02,
+  "nyTrend": 0.37,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    35.64,
+    32.15,
+    29.21
+   ],
+   "ni": [
+    1583.34,
+    113.35,
+    2.13
+   ],
+   "opm": [
+    0.49,
+    0.73,
+    0.98
+   ],
+   "updated": "2026-09-08 07:08:37"
+  }
+ }
+}

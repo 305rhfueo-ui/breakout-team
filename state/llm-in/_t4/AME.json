@@ -1,0 +1,140 @@
+{
+ "ticker": "AME",
+ "news": [
+  {
+   "title": "Unlocking Q3 Potential of Ametek (AME): Exploring Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/unlocking-q3-potential-ametek-ame-exploring-wall-street-estimates-key-metrics",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000191/ame-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-07",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000183/ame-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000173/ame-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000166/ame-20260609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000163/ame-20260526.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000157/ame-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.17,
+  "saleNy": 16.29,
+  "epsCy": 12.75,
+  "epsNy": 13.67,
+  "cyTrend": 0.46,
+  "nyTrend": -0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    14.98,
+    11.34,
+    13.44
+   ],
+   "ni": [
+    13.54,
+    13.53,
+    2.93
+   ],
+   "opm": [
+    25.84,
+    26.7,
+    25.29
+   ],
+   "updated": "2026-09-09 06:01:02"
+  }
+ }
+}

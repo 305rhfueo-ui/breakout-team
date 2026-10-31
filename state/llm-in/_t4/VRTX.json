@@ -1,0 +1,193 @@
+{
+ "ticker": "VRTX",
+ "news": [
+  {
+   "title": "Ahead of Vertex (VRTX) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/ahead-vertex-vrtx-q3-earnings-get-ready-wall-street-estimates-key-metrics",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here is What to Know Beyond Why Vertex Pharmaceuticals Incorporated (VRTX) is a Trending Stock",
+   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-vertex-pharmaceuticals-incorporated-vrtx-trending-stock",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Vertex Pharmaceuticals (VRTX) Stock Sinks As Market Gains: Here's Why",
+   "url": "https://www.nasdaq.com/articles/vertex-pharmaceuticals-vrtx-stock-sinks-market-gains-heres-why-0",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Vertex Pharmaceuticals (VRTX) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/vertex-pharmaceuticals-vrtx-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 large-cap stocks with solid fundamentals",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-large-cap-stocks-solid-153129076.html",
+   "date": "2026-10-30",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Vertex Pharmaceuticals Says UK Approves Casgevy for Children Aged 5 and Older",
+   "url": "https://finance.yahoo.com/healthcare/articles/vertex-pharmaceuticals-says-uk-approves-100817333.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Biogen Crushes Earnings Estimates. As Old Blockbusters Fade, New Bets Pick Up the Slack.",
+   "url": "https://finance.yahoo.com/m/a0b5a1af-a777-3690-9120-9d945f8dfe1c/biogen-crushes-earnings.html",
+   "date": "2026-10-28",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Royalty Pharma (RPRX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/royalty-pharma-rprx-earnings-expected-130016635.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ahead of Vertex (VRTX) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-vertex-vrtx-q3-earnings-121507000.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-20",
+   "reportDate": "2026-10-20",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000278/vrtx-20261020.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-08-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000264/vrtx-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000256/vrtx-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-07",
+   "reportDate": "2026-07-06",
+   "items": [
+    "1.01",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000119312526296710/d113650d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000204/vrtx-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000171/vrtx-20260504.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.62,
+  "saleNy": 9.95,
+  "epsCy": 1.82,
+  "epsNy": 8.87,
+  "cyTrend": 10.19,
+  "nyTrend": 1.49,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.45,
+    7.82,
+    9.55
+   ],
+   "ni": [
+    6.48,
+    59.59,
+    30.46
+   ],
+   "opm": [
+    37.4,
+    38.1,
+    37.8
+   ],
+   "updated": "2026-09-08 08:43:13"
+  }
+ }
+}

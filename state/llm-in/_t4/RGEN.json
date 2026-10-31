@@ -1,0 +1,221 @@
+{
+ "ticker": "RGEN",
+ "news": [
+  {
+   "title": "Repligen (RGEN) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/repligen-rgen-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Repligen (RGEN) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-repligen-rgen-said-its-q3-earnings-call",
+   "date": "2026-10-27",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Repligen (RGEN) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/repligen-rgen-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Biotech Stocks At 52-Week Highs - KOD +177% On Phase 3 Data; GRAL, IOVA, RGEN",
+   "url": "https://www.nasdaq.com/articles/biotech-stocks-52-week-highs-kod-177-phase-3-data-gral-iova-rgen",
+   "date": "2026-09-29",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Repligen to Issue $1 Billion in Convertible Notes Due 2031",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-issue-1-billion-convertible-102006533.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen Announces $1 Billion Private Convertible Senior Notes Transaction",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-announces-1-billion-private-100000786.html",
+   "date": "2026-10-30",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen Corporation (RGEN) Benefits From Biotech Momentum and Strong Earnings",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-corporation-rgen-benefits-biotech-141447166.html",
+   "date": "2026-10-28",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RBC Raises Price Target on Repligen to $200 From $185, Keeps Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-repligen-121034437.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (RGEN) Could Be 12% Undervalued As Record Revenue Lifts Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-rgen-could-12-undervalued-011039090.html",
+   "date": "2026-10-28",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Record Revenue Outlook Could Be A Game Changer For Repligen (RGEN)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/record-revenue-outlook-could-game-210656172.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (RGEN) Takes $41.2 Million Impairment Charge As Quarterly Profit Turns To Loss",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-rgen-takes-41-2-201406897.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen Corp (RGEN) Q3 2026 Earnings Call Highlights: Record Revenue, Raised Guidance, and a ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/repligen-corp-rgen-q3-2026-190300533.html",
+   "date": "2026-10-27",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Repligen (RGEN) Stock Looks Fairly Valued As Cash Flow Growth Is Priced In",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/repligen-rgen-stock-looks-fairly-180724578.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "reportDate": "2026-10-29",
+   "items": [
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000162828026068382/rgen-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000162828026067405/rgen-20261027.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-06",
+   "items": [
+    "2.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526415015/d240327d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-10",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000162828026062043/rgen-20260910.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-03",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526385380/d131600d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526318853/rgen-20260728.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.98,
+  "saleNy": 26.04,
+  "epsCy": 21.31,
+  "epsNy": 27.61,
+  "cyTrend": 0.43,
+  "nyTrend": 0.47,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.93,
+    14.83,
+    18.12
+   ],
+   "ni": [
+    -66.31,
+    42.93,
+    "흑자전환"
+   ],
+   "opm": [
+    6.85,
+    8.21,
+    9.03
+   ],
+   "updated": "2026-09-09 06:25:24"
+  }
+ }
+}

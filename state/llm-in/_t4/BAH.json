@@ -1,0 +1,252 @@
+{
+ "ticker": "BAH",
+ "news": [
+  {
+   "title": "BigBear.ai vs. Booz Allen: Which Government AI Stock is Better Now?",
+   "url": "https://www.nasdaq.com/articles/bigbearai-vs-booz-allen-which-government-ai-stock-better-now",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BAH Stock Gains 6.1% After Q2 Earnings Beat, Revenues Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/bah-stock-gains-61-after-q2-earnings-beat-revenues-miss-estimates",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TD Cowen Upgrades Booz Allen Hamilton Holding to Buy from Hold",
+   "url": "https://www.nasdaq.com/articles/td-cowen-upgrades-booz-allen-hamilton-holding-buy-hold",
+   "date": "2026-10-26",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Booz Allen Hamilton: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-3-key-takeaways-long-term-investors",
+   "date": "2026-10-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Booz Allen Hamilton (BAH) Q2 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-q2-2027-earnings-call-transcript",
+   "date": "2026-10-23",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Booz Allen Hamilton (BAH) Said on Its Q2 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-booz-allen-hamilton-bah-said-its-q2-earnings-call",
+   "date": "2026-10-23",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Booz Allen (BAH) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/booz-allen-bah-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Booz Allen Hamilton Holding Corporation Announces Second Quarter Fiscal 2027 Results",
+   "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-holding-corporation-announces-second-quarter-fiscal-2027-results",
+   "date": "2026-10-23",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "BAH Stock Gains 6.1% After Q2 Earnings Beat, Revenues Miss Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bah-stock-gains-6-1-162200924.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Booz Allen Hamilton (BAH) stock is up today",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-booz-allen-hamilton-bah-011847995.html",
+   "date": "2026-10-27",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Booz Allen Hamilton Shares Rise After TD Cowen Upgrade",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booz-allen-hamilton-shares-rise-184147754.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Booz Allen Jumped 7% as TD Cowen Upgrades to Buy on Improving Backlog",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/booz-allen-jumped-7-td-172054116.html",
+   "date": "2026-10-26",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UBS Adjusts Booz Allen Hamilton Price Target to $86 From $79, Maintains Neutral Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-booz-allen-hamilton-134625443.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026066971/bah-20261023.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000058/bah-20260824.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926090450/tm2621893d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000029/bah-20260722.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026049494/bah-20260724.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926076094/tm2618424d1_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001443646&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 2800000000,
+    "profit": 279000000,
+    "netIncome": 198000000,
+    "margin": 10,
+    "yoy": {
+     "revenue": -4.2,
+     "profit": 8.6,
+     "netIncome": -26.9,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": true,
+    "revenue": 2783000000,
+    "profit": 263000000,
+    "netIncome": 204497000,
+    "margin": 9.5,
+    "yoy": {
+     "revenue": -6.5,
+     "profit": -4.4,
+     "netIncome": 5.9,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": false,
+    "revenue": 2620000000,
+    "profit": 230000000,
+    "netIncome": 200000000,
+    "margin": 8.8,
+    "yoy": {
+     "revenue": -10.2,
+     "profit": -21,
+     "netIncome": 7,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 2890000000,
+    "profit": 283000000,
+    "netIncome": 175000000,
+    "margin": 9.8,
+    "yoy": {
+     "revenue": -8.1,
+     "profit": -48.5,
+     "netIncome": -55.1,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.37,
+  "saleNy": 4.61,
+  "epsCy": 1.63,
+  "epsNy": 2,
+  "cyTrend": 3.23,
+  "nyTrend": 0.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -4.24,
+    -6.45,
+    -10.18
+   ],
+   "ni": [
+    -26.94,
+    6.22,
+    6.95
+   ],
+   "opm": [
+    9.96,
+    9.45,
+    8.78
+   ],
+   "updated": "2026-09-08 09:04:00"
+  }
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "ticker": "ADI",
+ "news": [
+  {
+   "title": "Analog Devices (ADI) Rises As Market Takes a Dip: Key Facts",
+   "url": "https://www.nasdaq.com/articles/analog-devices-adi-rises-market-takes-dip-key-facts",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Living On The Edge With Nvidia, AI Enabler Analog Devices Tests Buy Zone",
+   "url": "https://finance.yahoo.com/m/4364a01c-d452-3ae6-8e18-06c61a12054d/living-on-the-edge-with.html",
+   "date": "2026-10-30",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "VICR Gains From Hardware Boom and Rising Backlog: What's Ahead?",
+   "url": "https://finance.yahoo.com/technology/articles/vicr-gains-hardware-boom-rising-125900891.html",
+   "date": "2026-10-30",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What to Expect From Analog Devices’ Q4 2026 Earnings Report",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expect-analog-devices-q4-2026-124945295.html",
+   "date": "2026-10-30",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Texas Instruments Pays $1.52 a Quarter, Analog Devices $1.10. Which Dividend Is Stronger?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-pays-1-52-184731350.html",
+   "date": "2026-10-29",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-17",
+   "reportDate": "2026-09-15",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526394361/d175690d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526385938/d924057d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000072/adi-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-06-23",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526324223/d158253d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-07-02",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000119312526294488/d112344d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000050/adi-20260520.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 37.26,
+  "saleNy": 21.59,
+  "epsCy": 65.33,
+  "epsNy": 28.12,
+  "cyTrend": 0.26,
+  "nyTrend": 1,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    39.63,
+    37.25,
+    30.42
+   ],
+   "ni": [
+    158.45,
+    106.46,
+    112.32
+   ],
+   "opm": [
+    40.1,
+    38.08,
+    31.55
+   ],
+   "updated": "2026-09-09 07:19:50"
+  }
+ }
+}

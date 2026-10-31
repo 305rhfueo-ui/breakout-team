@@ -1,0 +1,183 @@
+{
+ "ticker": "SHOP",
+ "news": [
+  {
+   "title": "Investors Heavily Search Shopify Inc. (SHOP): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-shopify-inc-shop-here-what-you-need-know",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Shopify (SHOP) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+   "url": "https://www.nasdaq.com/articles/shopify-shop-q3-earnings-preview-what-you-should-know-beyond-headline-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ring Up A Hefty Return With This Shopify Stock Spread Strategy",
+   "url": "https://finance.yahoo.com/m/038588bc-840a-3977-883b-5ae2a33c164d/ring-up-a-hefty-return-with.html",
+   "date": "2026-10-30",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MIA appoints Ahmad Syahazan Yaacob as president",
+   "url": "https://finance.yahoo.com/news/mia-appoints-ahmad-syahazan-yaacob-141521515.html",
+   "date": "2026-10-30",
+   "publisher": "The Accountant",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Investors Heavily Search Shopify Inc. (SHOP): Here is What You Need to Know",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-shopify-inc-120002582.html",
+   "date": "2026-10-30",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "2 Stocks That Could Quietly Become Big Winners in the Artificial Intelligence (AI) Revolution",
+   "url": "https://finance.yahoo.com/technology/ai/articles/2-stocks-could-quietly-become-212202078.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tracking Recession Probabilities on the FRED Macro System",
+   "url": "https://finance.yahoo.com/economy/articles/tracking-recession-probabilities-fred-macro-182500575.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000046/shop-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-07-02",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000035/shop-20260702.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000030/shop-20260616.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-06-02",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000028/shop-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000022/shop-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000018/shop-20260505.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 32.01,
+  "saleNy": 25.98,
+  "epsCy": 33.68,
+  "epsNy": 28.61,
+  "cyTrend": 0.05,
+  "nyTrend": 0.33,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    33.69,
+    34.32,
+    30.58
+   ],
+   "ni": [
+    65.78,
+    "적자축소",
+    -42.54
+   ],
+   "opm": [
+    13.62,
+    12.05,
+    17.18
+   ],
+   "updated": "2026-09-07 07:57:23"
+  }
+ }
+}

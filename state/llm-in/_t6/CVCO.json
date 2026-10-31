@@ -1,0 +1,640 @@
+{
+ "ticker": "CVCO",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "CVCO",
+  "name": "카브코 인더스트리스",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
+  "price": 619,
+  "grade": "C",
+  "state": "post",
+  "pivot": 597.31,
+  "stop": 576.89,
+  "distToPivotPct": 3.63,
+  "distToPivotAdr": 0.93,
+  "riskPerSharePct": 3.42,
+  "adrPct": 3.9,
+  "extensionAdr": 3.28,
+  "breakDate": "2026-10-30",
+  "metrics": {
+   "baseBars": 24,
+   "baseWeeks": 4.8,
+   "depthPct": 15.4,
+   "priorMovePct": 15.8,
+   "higherLows": 0,
+   "contraction": 1.08,
+   "closeRange10Adr": 1.8,
+   "surf10": 0.84,
+   "surf20": 0.47,
+   "slope20": -1.14,
+   "baseLow": 505.04,
+   "lastSwingLow": 505.04
+  },
+  "reasons": [
+   "✗ 선행 상승 +16%",
+   "베이스 4.8주",
+   "깊이 15.4%",
+   "✗ 저점 상승 0회",
+   "진폭 1.08배 · 10일 종가폭 1.8 ADR",
+   "10일선 +0.8 ADR · 20일선 +0.5 ADR",
+   "✗ 20일선 기울기 -1.14%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.13671539675448308,
+    "pct": 61.63210099188458
+   },
+   "m3": {
+    "v": 0.10341940936405658,
+    "pct": 76.14968440036068
+   },
+   "m6": {
+    "v": 0.3169002569942128,
+    "pct": 82.82236248872859
+   }
+  },
+  "ret1m": 5.79,
+  "ret3m": 7.06,
+  "ret6m": 28.7,
+  "marketCap": "4.21B",
+  "volx": 2.63,
+  "volSurgeWk": 2.98,
+  "high52": 86.82,
+  "newHigh52": false,
+  "adr": 3.9,
+  "div50": 12.74,
+  "div200": 12.5,
+  "targetStatus": false,
+  "saleCy": 9.17,
+  "saleNy": 7.74,
+  "epsCy": -5.91,
+  "epsNy": 26.5,
+  "cyTrend": -0.16,
+  "nyTrend": -0.99,
+  "est": {
+   "cyCur": 22.56215,
+   "cy30": 22.5993,
+   "nyCur": 28.54064,
+   "ny30": 28.82628
+  },
+  "fs": {
+   "sale": [
+    9.54,
+    8.22,
+    11.29
+   ],
+   "ni": [
+    -18.15,
+    16.88,
+    -21.95
+   ],
+   "opm": [
+    8.65,
+    9.36,
+    9.39
+   ],
+   "updated": "2026-09-07 06:35:22"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "카브코 인더스트리스",
+  "nameEn": "CAVCO INDUSTRIES",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000278166&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-26",
+     "derived": false,
+     "revenue": 656378000,
+     "profit": 69902000,
+     "netIncome": 55439000,
+     "margin": 10.6,
+     "yoy": {
+      "revenue": 17.9,
+      "profit": 12.4,
+      "netIncome": 5.8,
+      "priorEnd": "2025-09-27"
+     }
+    },
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 609959000,
+     "profit": 52755000,
+     "netIncome": 42271000,
+     "margin": 8.6,
+     "yoy": {
+      "revenue": 9.5,
+      "profit": -12.6,
+      "netIncome": -18.1,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": true,
+     "revenue": 550127000,
+     "profit": 51473000,
+     "netIncome": 43098000,
+     "margin": 9.4,
+     "yoy": {
+      "revenue": 8.2,
+      "profit": 33.2,
+      "netIncome": 18.6,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": false,
+     "revenue": 580994000,
+     "profit": 54560000,
+     "netIncome": 44067000,
+     "margin": 9.4,
+     "yoy": {
+      "revenue": 11.3,
+      "profit": -14.7,
+      "netIncome": -22,
+      "priorEnd": "2024-12-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Cavco (CVCO) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cavco-cvco-q2-2027-earnings-call-transcript",
+     "date": "2026-10-31",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Oppenheimer Initiates Coverage of Cavco Industries with Outperform",
+     "url": "https://www.nasdaq.com/articles/oppenheimer-initiates-coverage-cavco-industries-outperform",
+     "date": "2026-10-01",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Is the Options Market Predicting a Spike in Cavco Industries Stock?",
+     "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-cavco-industries-stock",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cavco Industries (CVCO) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cavco-industries-cvco-q1-2027-earnings-call-transcript",
+     "date": "2026-08-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cavco Industries Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/cavco-industries-q1-earnings-call-highlights",
+     "date": "2026-07-31",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Cavco Industries Q4 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/cavco-industries-q4-earnings-call-highlights",
+     "date": "2026-05-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Cavco (CVCO) Q4 2026 Earnings Transcript",
+     "url": "https://www.nasdaq.com/articles/cavco-cvco-q4-2026-earnings-transcript",
+     "date": "2026-05-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cavco Industries Inc Reveals Advance In Q4 Income",
+     "url": "https://www.nasdaq.com/articles/cavco-industries-inc-reveals-advance-q4-income",
+     "date": "2026-05-22",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/278166/000162828026068294/cvco-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/278166/000162828026051407/cvco-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/278166/000162828026051115/cvco-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/278166/000162828026037575/cvco-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/278166/000162828026004168/cvco-20260129.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/278166/000162828025047635/cvco-20251030.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "CVCO",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 26.93,
+  "pbr": 4.3,
+  "eps": 22.98,
+  "bps": 144.03,
+  "shares": 7689400,
+  "marketCapM": 4760,
+  "high52": 713.005,
+  "high52Date": "2026-01-22",
+  "low52": 443.335,
+  "low52Date": "2026-05-19",
+  "last": 619,
+  "prevClose": 547.25,
+  "nameKo": "카브코 인더스트리스",
+  "nameEn": "CAVCO INDUSTRIES",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 7689400
+ },
+ "estimates": {
+  "ticker": "CVCO",
+  "url": "https://finance.yahoo.com/quote/CVCO/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 5.95,
+    "epsLow": 5.74,
+    "epsHigh": 6.17,
+    "epsYearAgo": 5.58,
+    "epsAnalysts": 4,
+    "epsGrowth": 6.7,
+    "epsCur": "USD",
+    "rev": 622850800,
+    "revAnalysts": 5,
+    "revYearAgo": 580994000,
+    "revGrowth": 7.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 5.77,
+    "epsLow": 5.63,
+    "epsHigh": 6.08,
+    "epsYearAgo": 5.42,
+    "epsAnalysts": 4,
+    "epsGrowth": 6.4,
+    "epsCur": "USD",
+    "rev": 604279390,
+    "revAnalysts": 5,
+    "revYearAgo": 550127000,
+    "revGrowth": 9.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 22.56,
+    "epsLow": 22.45,
+    "epsHigh": 22.75,
+    "epsYearAgo": 23.98,
+    "epsAnalysts": 4,
+    "epsGrowth": -5.9,
+    "epsCur": "USD",
+    "rev": 2450214140,
+    "revAnalysts": 5,
+    "revYearAgo": 2244505000,
+    "revGrowth": 9.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 28.54,
+    "epsLow": 27.71,
+    "epsHigh": 29.15,
+    "epsYearAgo": 22.56,
+    "epsAnalysts": 4,
+    "epsGrowth": 26.5,
+    "epsCur": "USD",
+    "rev": 2639753860,
+    "revAnalysts": 5,
+    "revYearAgo": 2450214140,
+    "revGrowth": 7.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.95,
+    "d7": -0.5,
+    "d30": 1.1,
+    "d90": -8.3,
+    "ago90": 6.49,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 5.77,
+    "d7": -0.5,
+    "d30": -1.9,
+    "d90": -3.2,
+    "ago90": 5.96,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 22.56,
+    "d7": -0.1,
+    "d30": -0.2,
+    "d90": -5.8,
+    "ago90": 23.95,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 28.54,
+    "d7": -1,
+    "d30": -1,
+    "d90": -2.9,
+    "ago90": 29.4,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 7.17,
+    "estimate": 5.42,
+    "surprisePct": 32.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 5.43,
+    "estimate": 5.55,
+    "surprisePct": -2.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 5.42,
+    "estimate": 5.3,
+    "surprisePct": 2.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 5.58,
+    "estimate": 6,
+    "surprisePct": -7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-09-30",
+     "firm": "Oppenheimer",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 720,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-28",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 619,
+   "ma20": 539.37,
+   "ma50": 549.07,
+   "ma150": 547.49,
+   "distMA50": 12.74,
+   "periodHigh": 713.01,
+   "pullbackFromHigh": -13.18,
+   "volRatio20": 2.35,
+   "dryUpRatio": 1.11
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 528.63,
+    "h": 528.75,
+    "l": 508.85,
+    "c": 510.97,
+    "v": 76100,
+    "clsPos": 11,
+    "gapPct": 1.28
+   },
+   {
+    "d": "2026-10-20",
+    "o": 512.77,
+    "h": 532.27,
+    "l": 511.54,
+    "c": 519.54,
+    "v": 68100,
+    "clsPos": 39,
+    "gapPct": 0.35
+   },
+   {
+    "d": "2026-10-21",
+    "o": 522.76,
+    "h": 527.78,
+    "l": 510.57,
+    "c": 516.25,
+    "v": 57600,
+    "clsPos": 33,
+    "gapPct": 0.62
+   },
+   {
+    "d": "2026-10-22",
+    "o": 515.88,
+    "h": 547.85,
+    "l": 514.49,
+    "c": 547.44,
+    "v": 76600,
+    "clsPos": 99,
+    "gapPct": -0.07
+   },
+   {
+    "d": "2026-10-23",
+    "o": 540.95,
+    "h": 544.49,
+    "l": 533.82,
+    "c": 534.25,
+    "v": 71900,
+    "clsPos": 4,
+    "gapPct": -1.19
+   },
+   {
+    "d": "2026-10-26",
+    "o": 538.51,
+    "h": 541.71,
+    "l": 530.38,
+    "c": 531.53,
+    "v": 68900,
+    "clsPos": 10,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-10-27",
+    "o": 535.71,
+    "h": 541.26,
+    "l": 523.7,
+    "c": 539.21,
+    "v": 89300,
+    "clsPos": 88,
+    "gapPct": 0.79
+   },
+   {
+    "d": "2026-10-28",
+    "o": 541.91,
+    "h": 541.95,
+    "l": 526.6,
+    "c": 532.57,
+    "v": 85200,
+    "clsPos": 39,
+    "gapPct": 0.5
+   },
+   {
+    "d": "2026-10-29",
+    "o": 536.87,
+    "h": 552.08,
+    "l": 522.1,
+    "c": 547.25,
+    "v": 98700,
+    "clsPos": 84,
+    "gapPct": 0.81
+   },
+   {
+    "d": "2026-10-30",
+    "o": 613.77,
+    "h": 632.89,
+    "l": 594.74,
+    "c": 619,
+    "v": 248700,
+    "clsPos": 64,
+    "gapPct": 12.16
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CVCO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CVCO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

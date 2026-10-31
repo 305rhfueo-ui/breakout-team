@@ -1,0 +1,278 @@
+{
+ "ticker": "ATR",
+ "news": [
+  {
+   "title": "AptarGroup (ATR) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/aptargroup-atr-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AptarGroup  Inc. Reveals Fall In Q3 Profit",
+   "url": "https://www.nasdaq.com/articles/aptargroup-inc-reveals-fall-q3-profit",
+   "date": "2026-10-29",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - ATR",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-atr",
+   "date": "2026-10-22",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Earnings Preview: AptarGroup (ATR) Q3 Earnings Expected to Decline",
+   "url": "https://www.nasdaq.com/articles/earnings-preview-aptargroup-atr-q3-earnings-expected-decline",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AptarGroup (ATR) Loses 5.9% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+   "url": "https://www.nasdaq.com/articles/aptargroup-atr-loses-59-4-weeks-heres-why-trend-reversal-may-be-around-corner",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Zacks Industry Outlook Highlights Avery Dennison, AptarGroup and Karat Packaging",
+   "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-avery-dennison-aptargroup-and-karat-packaging",
+   "date": "2026-09-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AptarGroup Breaks Below 200-Day Moving Average - Notable for ATR",
+   "url": "https://www.nasdaq.com/articles/aptargroup-breaks-below-200-day-moving-average-notable-atr",
+   "date": "2026-09-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Aptar (ATR) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/aptar-atr-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What AptarGroup (ATR) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aptargroup-atr-said-q3-earnings-161559475.html",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AptarGroup (ATR) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aptargroup-atr-q3-earnings-revenues-220503879.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Update: AptarGroup Q3 Adjusted Earnings Fall, Sales Rise; Dividend Increased",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aptargroup-q3-adjusted-earnings-fall-215438010.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AptarGroup Q3 Adjusted Earnings Fall, Sales Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aptargroup-q3-adjusted-earnings-fall-212023336.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AptarGroup: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aptargroup-q3-earnings-snapshot-210740138.html",
+   "date": "2026-10-29",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Aptar Reports Third Quarter 2026 Results",
+   "url": "https://finance.yahoo.com/healthcare/articles/aptar-reports-third-quarter-2026-210000211.html",
+   "date": "2026-10-29",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Aptar Increases Quarterly Dividend to $0.50 Per Share",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aptar-increases-quarterly-dividend-0-205500308.html",
+   "date": "2026-10-29",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Aptar Pharma and Stevanato Group Collaborate to Help Accelerate Pre-Filled Syringe System Selection",
+   "url": "https://finance.yahoo.com/healthcare/articles/aptar-pharma-stevanato-group-collaborate-110000376.html",
+   "date": "2026-10-27",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Aptar Taps Pharma Packaging Veteran Virginie Maes as President of its Pharma Business",
+   "url": "https://finance.yahoo.com/healthcare/articles/aptar-taps-pharma-packaging-veteran-213000960.html",
+   "date": "2026-10-22",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Preview: AptarGroup (ATR) Q3 Earnings Expected to Decline",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-aptargroup-atr-q3-130020854.html",
+   "date": "2026-10-22",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/896622/000089662226000187/atr-20261029.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-21",
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/896622/000110465926109359/tm2625862d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/896622/000110465926106706/tm2624932d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/896622/000110465926104037/tm2624106d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/896622/000089662226000165/atr-20260730.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/896622/000110465926059751/tm2614379d1_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896622&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 1019119000,
+    "profit": 135007000,
+    "netIncome": 32602000,
+    "margin": 13.2,
+    "yoy": {
+     "revenue": 6,
+     "profit": -1.4,
+     "netIncome": -74.5,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 1026508000,
+    "profit": 126722000,
+    "netIncome": 87573000,
+    "margin": 12.3,
+    "yoy": {
+     "revenue": 6.3,
+     "profit": -12.2,
+     "netIncome": -21.6,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 982868000,
+    "profit": 107496000,
+    "netIncome": 72674000,
+    "margin": 10.9,
+    "yoy": {
+     "revenue": 10.8,
+     "profit": -5.2,
+     "netIncome": -7.8,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 962736000,
+    "profit": 106274000,
+    "netIncome": 74344000,
+    "margin": 11,
+    "yoy": {
+     "revenue": 13.5,
+     "profit": -11.5,
+     "netIncome": -26.4,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.19,
+  "saleNy": 3.41,
+  "epsCy": -4.27,
+  "epsNy": 12.41,
+  "cyTrend": -0.4,
+  "nyTrend": -2.22,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.26,
+    10.77,
+    13.52
+   ],
+   "ni": [
+    -21.61,
+    -7.77,
+    -26.35
+   ],
+   "opm": [
+    12.34,
+    10.94,
+    11.04
+   ],
+   "updated": "2026-09-21 06:20:04"
+  }
+ }
+}

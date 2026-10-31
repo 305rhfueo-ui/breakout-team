@@ -1,0 +1,218 @@
+{
+ "ticker": "ILMN",
+ "news": [
+  {
+   "title": "Illumina (ILMN) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/illumina-ilmn-q3-2026-earnings-call-transcript",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ILMN Q3 Earnings Call Highlights Higher Guidance and Clinical Growth",
+   "url": "https://www.nasdaq.com/articles/ilmn-q3-earnings-call-highlights-higher-guidance-and-clinical-growth",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Illumina (ILMN) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/illumina-ilmn-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Illumina (ILMN) Q3 Earnings Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/illumina-ilmn-q3-earnings-beat-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Illumina (ILMN) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://www.nasdaq.com/articles/illumina-ilmn-q3-earnings-horizon-analysts-insights-key-performance-measures",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Illumina (ILMN) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/illumina-ilmn-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Illumina (ILMN) Lifts Outlook Following Q3 Results But Valuation Still Looks Stretched",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/illumina-ilmn-lifts-outlook-following-211042089.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Illumina Crashes As Tariffs, AI Woes Eat Into 157% Run-Up",
+   "url": "https://finance.yahoo.com/m/a713f373-6142-3972-a58e-536633ac55ab/illumina-crashes-as-tariffs%2C.html",
+   "date": "2026-10-30",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Illumina Inc (ILMN) Q3 2026 Earnings Call Highlights: Raised Guidance, Strong NovaSeq X ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/illumina-inc-ilmn-q3-2026-150809713.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Illumina (ILMN) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/illumina-ilmn-q3-2026-earnings-144430690.html",
+   "date": "2026-10-30",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Global Clinical Knowledge Graphs for Genomics Market Report 2026 | Capitalize on 20.7% CAGR as Microsoft, IBM, Illumina and Genomenon Scale AI, Cloud and Precision Medicine",
+   "url": "https://finance.yahoo.com/healthcare/articles/global-clinical-knowledge-graphs-genomics-143200423.html",
+   "date": "2026-10-30",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Global De Novo Genome Assembly Market 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Cloud Genomics with Illumina, PacBio, Oxford Nanopore, and QIAGEN",
+   "url": "https://finance.yahoo.com/healthcare/articles/global-novo-genome-assembly-market-142900595.html",
+   "date": "2026-10-30",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000202/ilmn-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-13",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000195/ilmn-20261013.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526354010/d51146d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000095015726000888/form8-k.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-10",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526345802/d141344d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000168/ilmn-20260807.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.48,
+  "saleNy": 6.46,
+  "epsCy": 10.69,
+  "epsNy": 14.39,
+  "cyTrend": 0.04,
+  "nyTrend": 0.38,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    9.44,
+    4.8,
+    4.98
+   ],
+   "ni": [
+    -11.91,
+    2.29,
+    79.57
+   ],
+   "opm": [
+    21.14,
+    19.16,
+    17.43
+   ],
+   "updated": "2026-09-08 08:05:37"
+  }
+ }
+}

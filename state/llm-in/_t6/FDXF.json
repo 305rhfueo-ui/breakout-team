@@ -1,0 +1,687 @@
+{
+ "ticker": "FDXF",
+ "date": "2026-10-31",
+ "session": "2026-10-30",
+ "source": "list",
+ "plan": {
+  "ticker": "FDXF",
+  "name": "페덱스 프레이트",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
+  "price": 126.04,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 132.61,
+  "stop": 127.51,
+  "distToPivotPct": -4.95,
+  "distToPivotAdr": -1.22,
+  "riskPerSharePct": 3.85,
+  "adrPct": 4.05,
+  "extensionAdr": 2.93,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 22,
+   "priorMovePct": 7.6,
+   "higherLows": 0,
+   "contraction": 1.38,
+   "closeRange10Adr": 3.5,
+   "surf10": 2.93,
+   "surf20": 2.8,
+   "slope20": 0.21,
+   "baseLow": 103.48,
+   "lastSwingLow": 105.75
+  },
+  "reasons": [
+   "✗ 선행 상승 +8%",
+   "베이스 8주",
+   "깊이 22%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.38배 · 10일 종가폭 3.5 ADR",
+   "✗ 10일선 +2.9 ADR · 20일선 +2.8 ADR",
+   "20일선 기울기 +0.21%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.19531591292548708,
+    "pct": 80.47790802524797
+   },
+   "m3": {
+    "v": -0.10638861495525245,
+    "pct": 19.792605951307486
+   },
+   "m6": {
+    "v": 0,
+    "pct": 32.19116321009919
+   }
+  },
+  "ret1m": 11.65,
+  "ret3m": -13.92,
+  "ret6m": null,
+  "marketCap": "16.40B",
+  "volx": 2.71,
+  "volSurgeWk": 2.63,
+  "high52": 63.02,
+  "newHigh52": false,
+  "adr": 3.96,
+  "div50": 6.07,
+  "div200": null,
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": 4.96,
+  "epsCy": null,
+  "epsNy": 15.41,
+  "cyTrend": 3.65,
+  "nyTrend": 0.39,
+  "est": {
+   "cyCur": 4.4624,
+   "cy30": 4.3053,
+   "nyCur": 5.083,
+   "ny30": 5.06343
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:00:42"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-31",
+  "nameKo": "페덱스 프레이트",
+  "nameEn": "FEDEX FREIGHT HOLDING CO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002082247&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2442000000,
+     "profit": 253000000,
+     "netIncome": 147000000,
+     "margin": 10.4,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": -12.8,
+      "netIncome": -49.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2259000000,
+     "profit": 290000000,
+     "netIncome": 291000000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "FDXF Four-Month Transition Period Earnings Beat Estimates on Higher Yields",
+     "url": "https://www.nasdaq.com/articles/fdxf-four-month-transition-period-earnings-beat-estimates-higher-yields",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FedEx Freight Gears Up for This Earnings Season: What's in Store?",
+     "url": "https://www.nasdaq.com/articles/fedex-freight-gears-earnings-season-whats-store",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bernstein Initiates Coverage of FedEx Freight Holding at Market Perform",
+     "url": "https://www.nasdaq.com/articles/bernstein-initiates-coverage-fedex-freight-holding-market-perform",
+     "date": "2026-09-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "JP Morgan Initiates Coverage of FedEx Freight Holding at Overweight",
+     "url": "https://www.nasdaq.com/articles/jp-morgan-initiates-coverage-fedex-freight-holding-overweight",
+     "date": "2026-09-08",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000162828026068228/fdxf-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "5.08",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926113295/tm2626881d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926104793/tm2624680d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000162828026054314/fdxf-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926078270/tm2619027d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000162828026045515/fdxf-20260625.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Cramer sees 3 stocks to buy — plus, why he is not selling the Intel plunge",
+   "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
+   "date": "2026-10-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "FedEx Freight delivers a much-needed quarterly beat. Where we stand on shares now",
+   "url": "https://www.cnbc.com/investingclub/2026/10/29/fedex-freight-delivers-a-much-needed-quarterly-beat-where-we-stand-on-shares-now.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says this enterprise software stock is 'way too cheap'",
+   "url": "https://www.cnbc.com/investingclub/2026/09/16/jim-cramer-says-this-enterprise-software-stock-is-way-too-cheap.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A rapid-fire update on our 33-stock portfolio, including 6 stocks to buy now",
+   "url": "https://www.cnbc.com/investingclub/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/10/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer wants to buy more FedEx Freight once this 1 thing happens",
+   "url": "https://www.cnbc.com/investingclub/2026/09/08/jim-cramer-wants-to-buy-more-fedex-freight-once-this-1-thing-happens.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/08/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tuesday's top analyst calls: Nvidia, SpaceX, Apple, Shake Shack, Lockheed Martin",
+   "url": "https://www.cnbc.com/2026/09/08/big-tuesday-wall-street-analyst-calls-include-nvidia-spacex-airbnb.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "FDXF",
+  "fetchedAt": "2026-10-31",
+  "source": "한국투자증권 Open API",
+  "per": 0,
+  "pbr": 0,
+  "eps": 0,
+  "bps": 0,
+  "shares": 149518130,
+  "marketCapM": 18845,
+  "high52": 194.27,
+  "high52Date": "2026-06-09",
+  "low52": 103.475,
+  "low52Date": "2026-10-28",
+  "last": 126.04,
+  "prevClose": 109.69,
+  "nameKo": "페덱스 프레이트",
+  "nameEn": "FEDEX FREIGHT HOLDING CO INC",
+  "listedOn": "2026-06-01",
+  "exchange": "뉴욕거래소",
+  "listedShares": 149518130
+ },
+ "estimates": {
+  "ticker": "FDXF",
+  "url": "https://finance.yahoo.com/quote/FDXF/analysis/",
+  "fetchedAt": "2026-10-31",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-05-31",
+    "eps": 1.56,
+    "epsLow": 1.48,
+    "epsHigh": 1.64,
+    "epsYearAgo": null,
+    "epsAnalysts": 8,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 2228460570,
+    "revAnalysts": 7,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.89,
+    "epsLow": 0.64,
+    "epsHigh": 1.41,
+    "epsYearAgo": null,
+    "epsAnalysts": 7,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 2301506000,
+    "revAnalysts": 5,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-05-31",
+    "eps": 4.46,
+    "epsLow": 4,
+    "epsHigh": 5.3,
+    "epsYearAgo": null,
+    "epsAnalysts": 10,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 9135350680,
+    "revAnalysts": 9,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-05-31",
+    "eps": 5.15,
+    "epsLow": 5.15,
+    "epsHigh": 5.56,
+    "epsYearAgo": 4.46,
+    "epsAnalysts": 12,
+    "epsGrowth": 15.4,
+    "epsCur": "USD",
+    "rev": 9588037070,
+    "revAnalysts": 9,
+    "revYearAgo": 9135350680,
+    "revGrowth": 5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-05-31",
+    "cur": "USD",
+    "now": 0.54,
+    "d7": 1.2,
+    "d30": 0.6,
+    "d90": 2.2,
+    "ago90": 0.53,
+    "up7": 2,
+    "up30": 2,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.89,
+    "d7": 3.7,
+    "d30": 0.5,
+    "d90": 28.8,
+    "ago90": 0.69,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-05-31",
+    "cur": "USD",
+    "now": 4.46,
+    "d7": 0,
+    "d30": 3.6,
+    "d90": 4.9,
+    "ago90": 4.25,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-05-31",
+    "cur": "USD",
+    "now": 5.08,
+    "d7": 0,
+    "d30": 0.4,
+    "d90": 0.1,
+    "ago90": 5.08,
+    "up7": 1,
+    "up30": 1,
+    "down7": 3,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.49,
+    "estimate": 1.39,
+    "surprisePct": 7.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 2,
+   "ptLowered": 4,
+   "total": 8,
+   "recent": [
+    {
+     "date": "2026-10-30",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 151,
+     "ptPrior": 149
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 139,
+     "ptPrior": 135
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 129,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 115,
+     "ptPrior": 155
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 149,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-09-29",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 157
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Bernstein",
+     "action": "init",
+     "from": null,
+     "to": "Market Perform",
+     "ptAction": "Announces",
+     "pt": 133,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "JP Morgan",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 160,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-30",
+  "numbers": {
+   "price": 126.04,
+   "ma20": 111.73,
+   "ma50": 118.83,
+   "ma150": null,
+   "distMA50": 6.07,
+   "periodHigh": 200,
+   "pullbackFromHigh": -36.98,
+   "volRatio20": 2.42,
+   "dryUpRatio": 1.27
+  },
+  "last10": [
+   {
+    "d": "2026-10-19",
+    "o": 113.25,
+    "h": 113.25,
+    "l": 108.68,
+    "c": 110.2,
+    "v": 2065700,
+    "clsPos": 33,
+    "gapPct": 0.04
+   },
+   {
+    "d": "2026-10-20",
+    "o": 110.17,
+    "h": 113.14,
+    "l": 109.2,
+    "c": 109.54,
+    "v": 1045500,
+    "clsPos": 9,
+    "gapPct": -0.03
+   },
+   {
+    "d": "2026-10-21",
+    "o": 110.25,
+    "h": 110.5,
+    "l": 107.37,
+    "c": 107.95,
+    "v": 1010100,
+    "clsPos": 19,
+    "gapPct": 0.65
+   },
+   {
+    "d": "2026-10-22",
+    "o": 108,
+    "h": 113.23,
+    "l": 107.9,
+    "c": 111.02,
+    "v": 1816600,
+    "clsPos": 59,
+    "gapPct": 0.05
+   },
+   {
+    "d": "2026-10-23",
+    "o": 110.92,
+    "h": 111.21,
+    "l": 106.85,
+    "c": 110.05,
+    "v": 1014400,
+    "clsPos": 73,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-10-26",
+    "o": 110.3,
+    "h": 112.07,
+    "l": 108.18,
+    "c": 109.45,
+    "v": 857000,
+    "clsPos": 33,
+    "gapPct": 0.23
+   },
+   {
+    "d": "2026-10-27",
+    "o": 109.53,
+    "h": 109.94,
+    "l": 106.21,
+    "c": 108.5,
+    "v": 1057100,
+    "clsPos": 61,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-10-28",
+    "o": 108.89,
+    "h": 108.89,
+    "l": 103.48,
+    "c": 108.33,
+    "v": 1780300,
+    "clsPos": 90,
+    "gapPct": 0.36
+   },
+   {
+    "d": "2026-10-29",
+    "o": 108.01,
+    "h": 110.6,
+    "l": 106.36,
+    "c": 109.69,
+    "v": 2129400,
+    "clsPos": 79,
+    "gapPct": -0.3
+   },
+   {
+    "d": "2026-10-30",
+    "o": 115.2,
+    "h": 128,
+    "l": 115.2,
+    "c": 126.04,
+    "v": 3597000,
+    "clsPos": 85,
+    "gapPct": 5.02
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FDXF-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FDXF-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 9일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

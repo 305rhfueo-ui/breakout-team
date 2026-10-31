@@ -1,0 +1,218 @@
+{
+ "ticker": "MOH",
+ "news": [
+  {
+   "title": "Molina Healthcare (MOH) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/molina-healthcare-moh-q3-2026-earnings-call-transcript",
+   "date": "2026-10-22",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Molina (MOH) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/molina-moh-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Molina (MOH) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/molina-moh-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Analyst Projections for Key Metrics Reveal About Molina (MOH) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/what-analyst-projections-key-metrics-reveal-about-molina-moh-q3-earnings",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Molina: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/healthcare/articles/molina-3-key-takeaways-long-222002819.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lucie and CHOICE Broaden the Growth Runway for Oscar Health",
+   "url": "https://finance.yahoo.com/healthcare/articles/lucie-choice-broaden-growth-runway-172500624.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Adjusts Molina Healthcare Price Target to $163 From $147, Maintains Hold Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-molina-healthcare-110756799.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "California Healthcare Stocks Tied To State Funding And Senior Care Demand",
+   "url": "https://finance.yahoo.com/healthcare/articles/california-healthcare-stocks-tied-state-111345379.html",
+   "date": "2026-10-24",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Molina Healthcare (MOH) Stock Drops After Q3 Results Expose Margin Squeeze",
+   "url": "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-drops-231406386.html",
+   "date": "2026-10-23",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MOH Q3 deep dive: Medicaid margin stabilization and rate cycle drive cautious optimism",
+   "url": "https://finance.yahoo.com/healthcare/articles/moh-q3-deep-dive-medicaid-214439613.html",
+   "date": "2026-10-23",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UBS Adjusts Price Target on Molina Healthcare to $225 From $202, Maintains Neutral Rating",
+   "url": "https://finance.yahoo.com/healthcare/articles/ubs-adjusts-price-target-molina-134141669.html",
+   "date": "2026-10-23",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "5 must-read analyst questions from Molina Healthcare’s Q3 earnings call",
+   "url": "https://finance.yahoo.com/healthcare/articles/5-must-read-analyst-questions-131239498.html",
+   "date": "2026-10-23",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-21",
+   "reportDate": "2026-10-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1179929/000117992926000042/moh-20261021.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1179929/000117992926000036/moh-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-10",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1179929/000143774926020160/moh20260610_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.02",
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1179929/000117992926000026/moh-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1179929/000143774926015766/moh20260507_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1179929/000117992926000020/moh-20260422.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.58,
+  "saleNy": 6.65,
+  "epsCy": -52.18,
+  "epsNy": 80.83,
+  "cyTrend": 0.47,
+  "nyTrend": 11.54,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -4.84,
+    -3.15,
+    8.34
+   ],
+   "ni": [
+    -76.47,
+    -95.3,
+    -163.75
+   ],
+   "opm": [
+    1.33,
+    0.77,
+    -1.42
+   ],
+   "updated": "2026-09-09 07:23:43"
+  }
+ }
+}

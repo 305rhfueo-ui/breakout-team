@@ -1,0 +1,305 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "ticker": "GPN",
+      "price": 96.84,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FBIZ",
+      "price": 75.4,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "REGN",
+      "price": 927.89,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "ERIE",
+      "price": 261.39,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RGEN",
+      "price": 176.94,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "EL",
+      "price": 109.23,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RMD",
+      "price": 229.94,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CVCO",
+      "price": 619,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CZFS",
+      "price": 85.35,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MO",
+      "price": 78.03,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SKY",
+      "price": 84.7,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "LNG",
+      "price": 330.32,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MHK",
+      "price": 139.41,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ICLR",
+      "price": 211.36,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "VLTO",
+      "price": 111.1,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MMSI",
+      "price": 86.24,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ROP",
+      "price": 466.6,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "DOV",
+      "price": 207.74,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GDDY",
+      "price": 117.24,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "FRHC",
+      "price": 187,
+      "category": 5,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ZBRA",
+      "price": 361.26,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BAH",
+      "price": 88.49,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "VRTX",
+      "price": 558.88,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LLY",
+      "price": 1417.54,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "ENTG",
+      "price": 154.39,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "AJG",
+      "price": 276.07,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ADI",
+      "price": 417.11,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FDX",
+      "price": 313.28,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NXPI",
+      "price": 259.61,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "LNT",
+      "price": 71.6500015258789,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ATR",
+      "price": 137.2,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "KMB",
+      "price": 107.94,
+      "category": 4,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GD",
+      "price": 372.59,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CBOE",
+      "price": 335.53,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "KYMR",
+      "price": 126.63,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FDS",
+      "price": 329.57,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ILMN",
+      "price": 235.99,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MOH",
+      "price": 204.78,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NWE",
+      "price": 79.81,
+      "category": 5,
+      "confidence": "low"
+    },
+    {
+      "ticker": "RVTY",
+      "price": 157,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "AME",
+      "price": 241.12,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DDOG",
+      "price": 235.27,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "AMD",
+      "price": 504.8,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SNOW",
+      "price": 306.08,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TEM",
+      "price": 72.22,
+      "category": 3,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SLAB",
+      "price": 222.45,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NRP",
+      "price": 115.62,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DELL",
+      "price": 424.3,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SHOP",
+      "price": 157.49,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TXG",
+      "price": 70.11,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

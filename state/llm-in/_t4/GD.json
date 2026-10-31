@@ -1,0 +1,224 @@
+{
+ "ticker": "GD",
+ "news": [
+  {
+   "title": "General Dynamics (GD) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/general-dynamics-gd-q3-2026-earnings-call-transcript",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "General Dynamics (GD) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/general-dynamics-gd-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "General Dynamics (GD) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/general-dynamics-gd-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why General Dynamics (GD) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-general-dynamics-gd-strong-value-stock",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "General Dynamics (GD) Rises Higher Than Market: Key Facts",
+   "url": "https://www.nasdaq.com/articles/general-dynamics-gd-rises-higher-market-key-facts-0",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "General Dynamics (GD) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/general-dynamics-gd-shares-cross-above-200-dma",
+   "date": "2026-10-26",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "General Dynamics Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-corporation-q3-2026-212432132.html",
+   "date": "2026-10-30",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "General Dynamics (GD) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-gd-q3-2026-202831800.html",
+   "date": "2026-10-30",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What General Dynamics (GD) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-gd-said-q3-201443043.html",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "General Dynamics Raises Full-Year Guidance Following Third-Quarter Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-raises-full-guidance-180408926.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "General Dynamics Shares Rise 2.3% as Q3 Earnings Beat Forecasts and Order Backlog Surges",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-shares-rise-2-141401184.html",
+   "date": "2026-10-30",
+   "publisher": "InvestorsHub",
+   "via": "Yahoo"
+  },
+  {
+   "title": "GD Stock Surges After General Dynamics’ Q3 Revenue Jumps 13%, Backlog Hits Record $220B",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gd-stock-surges-general-dynamics-140347402.html",
+   "date": "2026-10-30",
+   "publisher": "Stocktwits",
+   "via": "Yahoo"
+  },
+  {
+   "title": "General Dynamics (NYSE:GD) delivers strong Q3 2026 numbers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/general-dynamics-nyse-gd-delivers-133157753.html",
+   "date": "2026-10-30",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "General Dynamics tops quarterly estimates on robust Gulfstream, marine bookings",
+   "url": "https://finance.yahoo.com/news/general-dynamics-posts-higher-profit-110649009.html",
+   "date": "2026-10-30",
+   "publisher": "Reuters",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "reportDate": "2026-10-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000036/gd-20261030.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-08",
+   "reportDate": "2026-10-07",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40533/000119312526417188/d122892d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-05",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40533/000119312526340490/d129075d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-07-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40533/000119312526332899/d122083d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000029/gd-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000014/gd-20260511.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.46,
+  "saleNy": 4.76,
+  "epsCy": 10.03,
+  "epsNy": 9.63,
+  "cyTrend": 0.06,
+  "nyTrend": 0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.07,
+    10.29,
+    7.8
+   ],
+   "ni": [
+    14.4,
+    13.18,
+    -0.44
+   ],
+   "opm": [
+    10.36,
+    10.53,
+    10.1
+   ],
+   "updated": "2026-09-07 06:20:17"
+  }
+ }
+}

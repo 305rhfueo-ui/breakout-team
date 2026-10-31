@@ -1,0 +1,198 @@
+{
+ "ticker": "DOV",
+ "news": [
+  {
+   "title": "Dover (DOV) Reliance on International Sales: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/dover-dov-reliance-international-sales-what-investors-need-know",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dover (DOV) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/dover-dov-q3-2026-earnings-call-transcript",
+   "date": "2026-10-22",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Dover (DOV) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/dover-dov-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dover Corporation (DOV) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/dover-corporation-dov-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dover Announces Upsize of Its Tender Cap and Extension of Expiration Date of Previously Announced Offer to Purchase for Cash Certain of Its Outstanding Debt Securities",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dover-announces-upsize-tender-cap-183800041.html",
+   "date": "2026-10-30",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Dover: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dover-3-key-takeaways-long-024217724.html",
+   "date": "2026-10-30",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CDS Visual Launches New Platform Enabling Collaboration Between Industrial Manufacturers and Partners",
+   "url": "https://finance.yahoo.com/technology/articles/cds-visual-launches-platform-enabling-201500149.html",
+   "date": "2026-10-29",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Dover (DOV) Reliance on International Sales: What Investors Need to Know",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dover-dov-reliance-international-sales-121503406.html",
+   "date": "2026-10-26",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "reportDate": "2026-10-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000032/dov-20261022.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000026/dov-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-08",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29905/000119312526219689/d150207d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000014/dov-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-08",
+   "reportDate": "2026-04-02",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29905/000119312526147940/d111508d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "reportDate": "2026-01-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000004/dov-20260129.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.61,
+  "saleNy": 5.63,
+  "epsCy": 11.19,
+  "epsNy": 10.26,
+  "cyTrend": 0.15,
+  "nyTrend": 1.19,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.85,
+    10.05,
+    8.77
+   ],
+   "ni": [
+    11.89,
+    3.3,
+    -80.36
+   ],
+   "opm": [
+    17.89,
+    14.9,
+    16.45
+   ],
+   "updated": "2026-09-08 05:51:50"
+  }
+ }
+}

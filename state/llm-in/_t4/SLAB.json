@@ -1,0 +1,187 @@
+{
+ "ticker": "SLAB",
+ "news": [
+  {
+   "title": "Silicon Laboratories (SLAB) Beats Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/silicon-laboratories-slab-beats-q2-earnings-estimates",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Silicon Laboratories (SLAB) Surpasses Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/silicon-laboratories-slab-surpasses-q1-earnings-and-revenue-estimates",
+   "date": "2026-05-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Silicon Laboratories (SLAB) Price Target Increased by 41.64% to 219.88",
+   "url": "https://www.nasdaq.com/articles/silicon-laboratories-slab-price-target-increased-4164-21988",
+   "date": "2026-02-24",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "All You Need to Know About Silicon Labs (SLAB) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-silicon-labs-slab-rating-upgrade-buy",
+   "date": "2026-02-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can Texas Instruments (TXN) Justify Its Price On Future Cash Flow?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-justify-price-181544898.html",
+   "date": "2026-10-29",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Beat Might Change Texas Instruments Stock Narrative",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-might-change-texas-200658265.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Texas Instruments Prices $2 Billion in Senior Notes",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-prices-2-billion-081905153.html",
+   "date": "2026-10-27",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Texas Instruments prices $2.0 billion of investment grade notes",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-prices-2-0-011500910.html",
+   "date": "2026-10-27",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "ETFs Sold $18.0 Million of Silicon Labs (SLAB) on Monday",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-sold-18-0-million-110303817.html",
+   "date": "2026-10-21",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000027/slab-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-22",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000119312526237879/d467226d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000018/slab-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000014/slab-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000012/slab-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000002/slab-20260204.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.15,
+  "saleNy": 16.47,
+  "epsCy": 212.74,
+  "epsNy": 51.58,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    18.33,
+    20.14,
+    25.24
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -4.67,
+    -8,
+    -1.56
+   ],
+   "updated": "2026-09-08 07:03:18"
+  }
+ }
+}

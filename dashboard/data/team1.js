@@ -523,8 +523,317 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-31",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "AI 투자 부담에 미국 기술주 급락",
+        "easy": "미국 기술주가 하루 동안 크게 떨어졌다. 대형 기술기업들이 AI에 쏟아붓는 돈이 1조 달러에 가까워지면서, 돈은 지금 쓰는데 이익은 언제 돌아오느냐는 의심이 커진 탓이다. 나스닥의 이번 흐름이 2000년 닷컴 거품이 꺼질 때와 닮았다는 비교도 나왔다. 그 결과 실적이 아니라 'AI 기대'로 올랐던 종목부터 먼저 팔리고 있다.",
+        "whyMatters": "반도체·소프트웨어처럼 AI 설비투자 기대로 올라온 업종이 가장 불리하고, 헬스케어·필수소비재처럼 이익이 꾸준한 업종으로 돈이 옮겨가기 쉽다. AI 설비 수주로 먹고사는 장비·전력 관련 종목은 발주 계획이 늦어지는지를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-30",
+            "quote": "US tech stocks see sharp falls as AI spending nears $1tn",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Has the tech bubble burst? Why the Nasdaq's rough ride looks eerily like 2000.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+            "date": "2026-10-30",
+            "quote": "Has the tech bubble burst? Why the Nasdaq's rough ride looks eerily like 2000.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Intel, 1970년대 이후 최악의 하루",
+        "easy": "Intel 주가가 1970년대 이후 가장 큰 하루 낙폭을 기록했다. 시가총액은 약 1,400억 달러가 사라졌고, 미국 정부가 들고 있는 Intel 지분 가치도 약 120억 달러 줄었다. 실적 발표 이후 투자자들이 회사의 전망을 받아들이지 못한 결과다. 정부가 주주인 회사라고 해서 주가가 보호되지는 않는다는 점이 드러났다.",
+        "whyMatters": "반도체 업종 전반의 심리에 나쁘고, 특히 Intel 파운드리 투자에 기대던 반도체 장비·소재 쪽에 부담이다. 같은 반도체라도 Intel의 점유율을 가져가는 쪽은 반대로 유리하게 읽힌다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+            "date": "2026-10-30",
+            "quote": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Why Intel's stock saw its worst day in decades — and a $140 billion wipeout",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
+            "date": "2026-10-30",
+            "quote": "Why Intel's stock saw its worst day in decades — and a $140 billion wipeout",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "S&P, Meta 신용 전망을 '부정적'으로",
+        "easy": "신용평가사 S&P가 Meta의 신용 전망을 '부정적'으로 내렸다. 회사에 들어오는 현금보다 설비투자(데이터센터 등에 쓰는 돈)가 커져 현금흐름이 마이너스로 돌아선 점을 이유로 들었다. 등급 자체가 내려간 것은 아니지만 앞으로 내릴 수 있다는 경고다. AI 투자를 많이 하는 회사의 재무 부담이 숫자로 지적된 신호다.",
+        "whyMatters": "광고·인터넷 플랫폼 업종에 나쁘고, 빚을 내서 데이터센터를 짓는 회사들의 자금 조달 비용이 올라갈 수 있다. 데이터센터 건설·전력 업종은 당장 수주는 유지되더라도 신규 발주가 줄어드는지를 함께 봐야 한다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+            "date": "2026-10-30",
+            "quote": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Microsoft, 클라우드 경쟁의 승자로 꼽혔다",
+        "easy": "기술주가 흔들리는 가운데 Microsoft는 클라우드 경쟁에서 앞서 있다는 평가를 받았다. 월가가 지금 가장 선호하는 종목으로 거론된다는 내용이다. AI에 돈을 쓰는 회사 중에서도 그 돈이 매출로 돌아오는 곳과 아닌 곳이 갈리고 있다는 뜻이다. 같은 기술주라도 차별화가 커지는 국면이다.",
+        "whyMatters": "클라우드 매출이 실제로 늘어나는 소프트웨어 업종에는 유리하고, AI 기대만으로 올랐던 중소형 기술주에는 불리하다. 돈이 기술주에서 완전히 빠지는지, 대형 클라우드로만 좁혀지는지를 보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Microsoft is winning the cloud wars and becoming Wall Street's new golden child",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
+            "date": "2026-10-30",
+            "quote": "Microsoft is winning the cloud wars and becoming Wall Street's new golden child",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "금값이 1년 만의 최저로 내려갔다",
+        "easy": "금 가격이 1년 만에 가장 낮은 수준으로 떨어졌다. 이란 관련 불안이 다시 커졌는데도 금이 내려갔다는 점이 특이하다. 내린 이유는 기사에 설명이 나오지 않았다. 안전자산으로 피하던 돈이 금에서 빠져나가는 흐름으로 읽힌다.",
+        "whyMatters": "Newmont 같은 금 채굴 업종에 직접 불리하고, 금 관련 ETF도 손실 구간이 길어질 수 있다. 주식과 금이 같이 내리는지(돈이 현금으로 빠지는 신호)를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+            "date": "2026-10-30",
+            "quote": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "I 본드 금리 연 5.51%로 정해졌다",
+        "easy": "미국 재무부가 물가연동 저축채권(I 본드)의 다음 6개월 금리를 연 5.51%로 발표했다. 물가 상승률에 맞춰 반년마다 다시 정하는 상품인데 이번에 꽤 높은 수준이 나왔다. 주식을 쉬어갈 때 돈을 둘 곳의 수익률이 그만큼 높아졌다는 뜻이다. 동시에 물가가 아직 식지 않았다는 신호로도 읽힌다.",
+        "whyMatters": "안전한 이자가 높아지면 배당으로 버티는 유틸리티·리츠 업종이 상대적으로 밀리고, 이익이 먼 미래에 몰린 기술주에도 불리하다. 다음 물가 지표가 이 금리를 더 밀어올릴 흐름인지 보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+            "date": "2026-10-30",
+            "quote": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니다. QQQ(나스닥 100 ETF)는 690.49에 마감했고 10일선이 20일선 아래로 내려간 지 9일째여서, 쿨라매기 기준으로는 신규 매수를 멈추고 들고 있는 것도 정리할지 따져보는 구간이다. 오늘 뉴스도 방향이 한쪽으로 모인다 — AI에 쏟는 돈 때문에 기술주가 흔들리고, Intel은 1970년대 이후 최악의 하루를 보냈고, Meta는 현금흐름 때문에 신용 전망이 깎였다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% 늘어 주의선을 넘었다는 것인데, 하락이 길어지면 강제 매도가 겹쳐 낙폭이 커진다. 이번 주는 돈이 기술주에서 헬스케어·필수소비재로 계속 옮겨가는지, 그리고 QQQ의 10일선이 20일선 위로 돌아서는지를 보면 된다.",
+    "keyRisks": [
+      "AI 설비투자 되돌림: 기업들이 투자 계획을 늦추면 그 기대로 올라온 반도체·데이터센터·전력 종목이 먼저 빠진다.",
+      "빚으로 산 주식이 많다: 하락이 길어지면 담보가 모자라 강제로 팔아야 하는 물량이 나와 낙폭을 키운다.",
+      "주도 업종이 방어적으로 바뀌는 중: 후보의 30%가 헬스케어여서 공격적인 돌파 매매가 먹히기 어려운 국면이다.",
+      "금리가 다시 오를 가능성: I 본드 금리가 높게 정해진 것처럼 물가가 식지 않으면 이익이 먼 미래에 있는 성장주가 더 불리해진다."
+    ],
+    "easySummary": [
+      "QQQ는 10일선이 20일선 아래에 9일째 머물러 빨간불 — 새로 사기보다 쉬어갈 구간이다.",
+      "AI에 쓰는 돈이 1조 달러에 가까워졌다는 우려로 기술주가 급락하고, Intel은 1970년대 이후 최악의 하루를 보냈다.",
+      "빚내서 산 주식이 1년 전보다 +31.4% 늘어 주의선을 넘었으니, 하락이 길어질 때의 강제 매도를 염두에 둬야 한다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 175,
+      "ok": 268,
+      "unverified": 4,
+      "dead": 0,
+      "stripped": 13,
+      "removed": [],
+      "numberCut": 26,
+      "numberCuts": [
+        {
+          "sentence": "3분기 매출이 51억 달러로 1년 전보다 36% 늘었다.",
+          "missing": [
+            "51억 달러"
+          ]
+        },
+        {
+          "sentence": "직전 분기 증가율 17%에서 크게 빨라졌다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점 510달러에서 약 27% 낮은 373.93달러이고, 주가수익비율(PER)은 49.55배로 높은 편이다.",
+          "missing": [
+            "27"
+          ]
+        },
+        {
+          "sentence": "하루 상승폭은 약 13%다.",
+          "missing": [
+            "13"
+          ]
+        },
+        {
+          "sentence": "주가는 1월 고점(713달러)보다 아직 13% 낮고, 주가수익비율이 약 27배로 낮지 않다.",
+          "missing": [
+            "13"
+          ]
+        },
+        {
+          "sentence": "주가 218달러는 6월 17일 52주 고점 253.5달러보다 약 14% 낮다.",
+          "missing": [
+            "14"
+          ]
+        },
+        {
+          "sentence": "현재가 179.64달러는 직전 종가 169.34달러보다 약 6% 높다.",
+          "missing": [
+            "6"
+          ]
+        },
+        {
+          "sentence": "주가는 7월 고점(235.81달러)보다 약 24% 낮고, 매출은 4분기 연속 줄었거나 정체 상태다.",
+          "missing": [
+            "24"
+          ]
+        },
+        {
+          "sentence": "9월 11일 NFE가 수십억 달러 규모 부채를 없애는 구조조정을 마쳤고, 채권단에게 이 우선주 약 245만 주를 나눠 줬다.",
+          "missing": [
+            "245"
+          ]
+        },
+        {
+          "sentence": "상장 직후 가격이 38.4~519.84달러로 널뛰었고 현재 280달러로 고점의 절반 수준이다.",
+          "missing": [
+            "38.4",
+            "519.84",
+            "280"
+          ]
+        },
+        {
+          "sentence": "5억 5천만 달러 규모 자사주 매입을 추가로 승인했다.",
+          "missing": [
+            "5억 5"
+          ]
+        },
+        {
+          "sentence": "10X는 바이오 전반 강세 속에서 목표가가 올랐다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "같은 날 회사가 SEC에 실적발표 8-K를 제출했다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "전 세계 사무직 1만 4천 명 넘게 Copilot(AI 업무 도우미)을 확대하고, 소비자·제품 정보를 잇는 통합 데이터 플랫폼을 만든다.",
+          "missing": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "sentence": "수주 잔고가 3.48억 달러로 직전 분기보다 5천만 달러 늘어 앞으로 8~10주치 생산량을 확보했다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "10월 26일 회사는 카자흐스탄 AI 인프라 계획을 발표했고, 첫 단계 용량의 2배 수요가 있다고 밝혔다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "같은 날 SEC에 실적 발표 8-K도 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "3분기 실적이 시장 예상치를 웃돌았다(10/30 발표).",
+          "missing": [
+            "30"
+          ]
+        },
+        {
+          "sentence": "10월 23일 5.5억 달러 규모 추가 자사주 매입이 승인됐다.",
+          "missing": [
+            "5.5억 달러"
+          ]
+        },
+        {
+          "sentence": "2026년 1분기 순이익이 18억 달러 적자였고 2분기에도 순이익이 94.6% 줄었다.",
+          "missing": [
+            "94.6"
+          ]
+        },
+        {
+          "sentence": "직전 분기 6.1%, 12월 분기 6.8%.",
+          "missing": [
+            "6.1",
+            "6.8"
+          ]
+        },
+        {
+          "sentence": "3분기 주당순이익이 시장 예상보다 12.7% 낮았다.",
+          "missing": [
+            "12.7"
+          ]
+        },
+        {
+          "sentence": "회사가 3분기 결과를 공식 발표했다(8-K 실적 발표).",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "10월 29일 2분기 실적 발표 8-K 공시가 나왔고, 실적 콜 기록이 공개됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "분기 매출이 8.2%, 9.5%, 17.9%로 증가율이 높아졌다.",
+          "missing": [
+            "8.2",
+            "9.5"
+          ]
+        },
+        {
+          "sentence": "2026-09-30 분기 매출 24.42억 달러, 전년 동기 대비 8.1% 증가.",
+          "missing": [
+            "8.1"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-31"
   }
 };

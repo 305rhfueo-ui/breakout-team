@@ -1,0 +1,193 @@
+{
+ "ticker": "AMD",
+ "news": [
+  {
+   "title": "AMD Reports on Nov. 3. Here's What You Should Do Before Then.",
+   "url": "https://www.nasdaq.com/articles/amd-reports-nov-3-heres-what-you-should-do-then",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "AMD Expands AI Footprint With Meta: Can It Outpace NVDA & AVGO?",
+   "url": "https://www.nasdaq.com/articles/amd-expands-ai-footprint-meta-can-it-outpace-nvda-avgo",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search Advanced Micro Devices, Inc. (AMD): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-advanced-micro-devices-inc-amd-here-what-you-need-know",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should You Buy AMD Stock Before the Huge Investor Update?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-amd-stock-huge-investor-update",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Cerebras Expands AI Footprint With Oracle: Can It Outpace NVDA & AMD?",
+   "url": "https://www.nasdaq.com/articles/cerebras-expands-ai-footprint-oracle-can-it-outpace-nvda-amd",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Chip Stocks Plunge After Intel's Q4 Warning",
+   "url": "https://finance.yahoo.com/m/219d84e6-8bed-3b3e-8c50-2e085c192b16/chip-stocks-plunge-after.html",
+   "date": "2026-10-30",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why AMD Stock Plunged Nearly 10% on Friday",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-amd-stock-plunged-nearly-192937175.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AMD Stocks Drop 11% With a $13 Billion Revenue Test Approaching",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-drop-11-13-181919459.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-28",
+   "reportDate": "2026-09-26",
+   "items": [
+    "3.02"
+   ],
+   "itemsKo": [
+    "3.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-17",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-13",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/amd-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-13",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 47.23,
+  "saleNy": 75.07,
+  "epsCy": 82.43,
+  "epsNy": 108.32,
+  "cyTrend": 0.26,
+  "nyTrend": 1.73,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    50.11,
+    37.85,
+    34.11
+   ],
+   "ni": [
+    163.42,
+    95.06,
+    213.49
+   ],
+   "opm": [
+    17.25,
+    14.4,
+    17.06
+   ],
+   "updated": "2026-09-08 08:30:21"
+  }
+ }
+}
