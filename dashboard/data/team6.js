@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "sessionDate": "2026-10-30",
   "rulesVersion": "0.3",
   "regime": "red",
@@ -458,6 +458,63 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 0
     },
     {
+      "ticker": "FRHC",
+      "name": null,
+      "sector": "Financial Services",
+      "industry": "Financial Conglomerates",
+      "grade": "B",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 187,
+      "pivot": 184.76,
+      "pivotDate": "2026-10-19",
+      "stop": 177.85,
+      "riskPerSharePct": 3.74,
+      "weightPct": 13.4,
+      "weightCapped": false,
+      "distToPivotPct": 1.21,
+      "distToPivotAdr": 0.34,
+      "extensionAdr": 1.77,
+      "chase": false,
+      "adrPct": 3.54,
+      "ma10": 175.33,
+      "dollarVol20M": 17.6,
+      "liquid": false,
+      "reasons": [
+        "✗ 선행 상승 +28%",
+        "베이스 2.8주",
+        "깊이 9.8%",
+        "저점 상승 1회",
+        "진폭 1.13배 · 10일 종가폭 2.3 ADR",
+        "10일선 +1.3 ADR · 20일선 +1.4 ADR",
+        "20일선 기울기 +0.68%"
+      ],
+      "fails": [
+        "priorMove"
+      ],
+      "metrics": {
+        "baseBars": 14,
+        "baseWeeks": 2.8,
+        "depthPct": 9.8,
+        "priorMovePct": 28.3,
+        "higherLows": 1,
+        "contraction": 1.13,
+        "closeRange10Adr": 2.3,
+        "surf10": 1.29,
+        "surf20": 1.43,
+        "slope20": 0.68,
+        "baseLow": 166.62,
+        "lastSwingLow": 166.9
+      },
+      "catalyst": {
+        "category": 5,
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": "2026-11-06",
+      "breakDate": "2026-10-30",
+      "barsSinceBreak": 0
+    },
+    {
       "ticker": "MHK",
       "name": "모호크 인더스트리스",
       "sector": "Consumer Cyclical",
@@ -509,7 +566,121 @@ window.TEAM6_DATA = {
       },
       "catalyst": {
         "category": 1,
-        "researchedOn": "2026-10-30"
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-30",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "CVCO",
+      "name": "카브코 인더스트리스",
+      "sector": "Consumer Cyclical",
+      "industry": "Residential Construction",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 619,
+      "pivot": 597.31,
+      "pivotDate": "2026-10-02",
+      "stop": 576.89,
+      "riskPerSharePct": 3.42,
+      "weightPct": 14.6,
+      "weightCapped": false,
+      "distToPivotPct": 3.63,
+      "distToPivotAdr": 0.93,
+      "extensionAdr": 3.28,
+      "chase": true,
+      "adrPct": 3.9,
+      "ma10": 539.8,
+      "dollarVol20M": 58.1,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +16%",
+        "베이스 4.8주",
+        "깊이 15.4%",
+        "✗ 저점 상승 0회",
+        "진폭 1.08배 · 10일 종가폭 1.8 ADR",
+        "10일선 +0.8 ADR · 20일선 +0.5 ADR",
+        "✗ 20일선 기울기 -1.14%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 24,
+        "baseWeeks": 4.8,
+        "depthPct": 15.4,
+        "priorMovePct": 15.8,
+        "higherLows": 0,
+        "contraction": 1.08,
+        "closeRange10Adr": 1.8,
+        "surf10": 0.84,
+        "surf20": 0.47,
+        "slope20": -1.14,
+        "baseLow": 505.04,
+        "lastSwingLow": 505.04
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-30",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "REGN",
+      "name": "리제네론 파머슈티컬스",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "grade": "A",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 927.89,
+      "pivot": 859.34,
+      "pivotDate": "2026-09-03",
+      "stop": 839.6,
+      "riskPerSharePct": 2.3,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 7.98,
+      "distToPivotAdr": 2.76,
+      "extensionAdr": 4.01,
+      "chase": true,
+      "adrPct": 2.89,
+      "ma10": 820.3,
+      "dollarVol20M": 604,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +44%",
+        "베이스 8주",
+        "깊이 16%",
+        "저점 상승 1회",
+        "진폭 0.96배 · 10일 종가폭 1.9 ADR",
+        "10일선 +0.6 ADR · 20일선 +2 ADR",
+        "20일선 기울기 +1.81%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 16,
+        "priorMovePct": 44.5,
+        "higherLows": 1,
+        "contraction": 0.96,
+        "closeRange10Adr": 1.9,
+        "surf10": 0.62,
+        "surf20": 2,
+        "slope20": 1.81,
+        "baseLow": 722.02,
+        "lastSwingLow": 796.61
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
       },
       "earnings": null,
       "breakDate": "2026-10-30",
@@ -565,6 +736,121 @@ window.TEAM6_DATA = {
         "lastSwingLow": 86.32
       },
       "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-29",
+      "barsSinceBreak": 1
+    },
+    {
+      "ticker": "FBIZ",
+      "name": null,
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "grade": "B",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 75.4,
+      "pivot": 73.74,
+      "pivotDate": "2026-09-14",
+      "stop": 72.12,
+      "riskPerSharePct": 2.2,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 2.25,
+      "distToPivotAdr": 0.95,
+      "extensionAdr": 1.68,
+      "chase": false,
+      "adrPct": 2.36,
+      "ma10": 72.41,
+      "dollarVol20M": 5.7,
+      "liquid": false,
+      "reasons": [
+        "✗ 선행 상승 +29%",
+        "베이스 8주",
+        "깊이 8.4%",
+        "저점 상승 2회",
+        "진폭 0.97배 · 10일 종가폭 1.8 ADR",
+        "10일선 +0.7 ADR · 20일선 +1.2 ADR",
+        "20일선 기울기 +1.1%"
+      ],
+      "fails": [
+        "priorMove"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 8.4,
+        "priorMovePct": 29.4,
+        "higherLows": 2,
+        "contraction": 0.97,
+        "closeRange10Adr": 1.8,
+        "surf10": 0.74,
+        "surf20": 1.18,
+        "slope20": 1.1,
+        "baseLow": 67.54,
+        "lastSwingLow": 68.51
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-29",
+      "barsSinceBreak": 1
+    },
+    {
+      "ticker": "GD",
+      "name": null,
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 372.59,
+      "pivot": 370.37,
+      "pivotDate": "2026-09-02",
+      "stop": 364.8,
+      "riskPerSharePct": 1.5,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 0.6,
+      "distToPivotAdr": 0.33,
+      "extensionAdr": 2.73,
+      "chase": false,
+      "adrPct": 1.83,
+      "ma10": 354.04,
+      "dollarVol20M": 448.6,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +9%",
+        "베이스 7.8주",
+        "깊이 13.1%",
+        "✗ 저점 상승 0회",
+        "진폭 0.89배 · 10일 종가폭 3.6 ADR",
+        "10일선 +1.2 ADR · 20일선 +2.6 ADR",
+        "20일선 기울기 +1.42%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 39,
+        "baseWeeks": 7.8,
+        "depthPct": 13.1,
+        "priorMovePct": 9.2,
+        "higherLows": 0,
+        "contraction": 0.89,
+        "closeRange10Adr": 3.6,
+        "surf10": 1.17,
+        "surf20": 2.63,
+        "slope20": 1.42,
+        "baseLow": 322,
+        "lastSwingLow": 322
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
       "earnings": null,
       "breakDate": "2026-10-29",
       "barsSinceBreak": 1
@@ -785,6 +1071,61 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 4
     },
     {
+      "ticker": "BAH",
+      "name": "부즈 알렌 해밀턴 홀딩",
+      "sector": "Industrials",
+      "industry": "Consulting Services",
+      "grade": "A",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 88.49,
+      "pivot": 81.19,
+      "pivotDate": "2026-09-15",
+      "stop": 78.29,
+      "riskPerSharePct": 3.57,
+      "weightPct": 14,
+      "weightCapped": false,
+      "distToPivotPct": 8.99,
+      "distToPivotAdr": 2.35,
+      "extensionAdr": 2.39,
+      "chase": false,
+      "adrPct": 3.82,
+      "ma10": 80.39,
+      "dollarVol20M": 145.9,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +36%",
+        "베이스 6.2주",
+        "깊이 18.1%",
+        "저점 상승 1회",
+        "진폭 1.07배 · 10일 종가폭 2.3 ADR",
+        "10일선 +1.2 ADR · 20일선 +2.1 ADR",
+        "20일선 기울기 +0.34%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 31,
+        "baseWeeks": 6.2,
+        "depthPct": 18.1,
+        "priorMovePct": 36.5,
+        "higherLows": 1,
+        "contraction": 1.07,
+        "closeRange10Adr": 2.3,
+        "surf10": 1.23,
+        "surf20": 2.06,
+        "slope20": 0.34,
+        "baseLow": 66.5,
+        "lastSwingLow": 70.86
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-26",
+      "barsSinceBreak": 4
+    },
+    {
       "ticker": "RBRK",
       "name": "루브릭",
       "sector": "Technology",
@@ -835,6 +1176,64 @@ window.TEAM6_DATA = {
       "earnings": null,
       "breakDate": "2026-10-23",
       "barsSinceBreak": 5
+    },
+    {
+      "ticker": "MMSI",
+      "name": null,
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 86.24,
+      "pivot": 92.18,
+      "pivotDate": "2026-09-02",
+      "stop": 90.06,
+      "riskPerSharePct": 2.3,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": -6.44,
+      "distToPivotAdr": -2.19,
+      "extensionAdr": -2.24,
+      "chase": false,
+      "adrPct": 2.95,
+      "ma10": 91.93,
+      "dollarVol20M": 65.5,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +54%",
+        "베이스 8주",
+        "깊이 8.9%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 1.06배 · 10일 종가폭 2.9 ADR",
+        "10일선 +1.2 ADR · 20일선 +1.8 ADR",
+        "20일선 기울기 +1.19%"
+      ],
+      "fails": [
+        "higherLows",
+        "tight"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 8.9,
+        "priorMovePct": 53.6,
+        "higherLows": 0,
+        "contraction": 1.06,
+        "closeRange10Adr": 2.9,
+        "surf10": 1.19,
+        "surf20": 1.76,
+        "slope20": 1.19,
+        "baseLow": 83.94,
+        "lastSwingLow": 83.94
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-22",
+      "barsSinceBreak": 6
     },
     {
       "ticker": "HUBS",
@@ -1000,6 +1399,123 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 6
     },
     {
+      "ticker": "LNT",
+      "name": null,
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 71.65,
+      "pivot": 69.19,
+      "pivotDate": "2026-08-26",
+      "stop": 68.01,
+      "riskPerSharePct": 1.71,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 3.56,
+      "distToPivotAdr": 2.16,
+      "extensionAdr": 1.85,
+      "chase": false,
+      "adrPct": 1.65,
+      "ma10": 69.47,
+      "dollarVol20M": 194,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +2%",
+        "베이스 8주",
+        "깊이 9.6%",
+        "✗ 저점 상승 0회",
+        "진폭 1배 · 10일 종가폭 2.4 ADR",
+        "10일선 +1.1 ADR · 20일선 +2.4 ADR",
+        "20일선 기울기 +1.03%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 9.6,
+        "priorMovePct": 2.4,
+        "higherLows": 0,
+        "contraction": 1,
+        "closeRange10Adr": 2.4,
+        "surf10": 1.07,
+        "surf20": 2.36,
+        "slope20": 1.03,
+        "baseLow": 62.54,
+        "lastSwingLow": 62.54
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-22",
+      "barsSinceBreak": 6
+    },
+    {
+      "ticker": "ROP",
+      "name": "로퍼 테크놀로지스",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-30",
+      "price": 466.6,
+      "pivot": 429.6,
+      "pivotDate": "2026-09-03",
+      "stop": 420.9,
+      "riskPerSharePct": 2.02,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": 8.61,
+      "distToPivotAdr": 3.34,
+      "extensionAdr": 3.15,
+      "chase": true,
+      "adrPct": 2.58,
+      "ma10": 428.67,
+      "dollarVol20M": 386.6,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +36%",
+        "베이스 8주",
+        "깊이 19.1%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 0.99배 · 10일 종가폭 3.9 ADR",
+        "✗ 10일선 +2.2 ADR · 20일선 +3.4 ADR",
+        "20일선 기울기 +1.4%"
+      ],
+      "fails": [
+        "higherLows",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 19.1,
+        "priorMovePct": 35.6,
+        "higherLows": 0,
+        "contraction": 0.99,
+        "closeRange10Adr": 3.9,
+        "surf10": 2.24,
+        "surf20": 3.41,
+        "slope20": 1.4,
+        "baseLow": 347.45,
+        "lastSwingLow": 347.45
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-22",
+      "barsSinceBreak": 6
+    },
+    {
       "ticker": "CRL",
       "name": "찰스 리버 래브러토리스 인터내셔널",
       "sector": "Healthcare",
@@ -1101,7 +1617,10 @@ window.TEAM6_DATA = {
         "baseLow": 252.82,
         "lastSwingLow": 252.82
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
       "earnings": null,
       "breakDate": "2026-10-21",
       "barsSinceBreak": 7
@@ -1155,23 +1674,26 @@ window.TEAM6_DATA = {
         "baseLow": 156.7,
         "lastSwingLow": 157.38
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-31"
+      },
       "earnings": null,
       "breakDate": "2026-10-21",
       "barsSinceBreak": 7
     }
   ],
-  "postTotal": 14,
+  "postTotal": 23,
   "counts": {
-    "evaluated": 72,
+    "evaluated": 90,
     "near": 7,
     "watch": 0,
     "A": 0,
     "B": 0,
     "blocked": 7,
-    "post": 14,
-    "far": 29,
-    "noBase": 21,
+    "post": 23,
+    "far": 28,
+    "noBase": 31,
     "noBars": 1
   },
   "noBars": [
@@ -1295,15 +1817,5 @@ window.TEAM6_DATA = {
     "watch": 0,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 0,
-    "total": 0,
-    "cap": 14,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(0) 조사 완료"
   }
 };

@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -71,7 +71,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": []
     },
@@ -180,7 +180,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -257,7 +257,7 @@ window.TEAM4_DATA = {
       "nameKo": "퍼스트 비즈니스 파이낸셜 서비시스",
       "nameEn": "FIRST BUSINESS FINL SERVICES INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "퍼스트 비즈니스 파이낸셜 서비시스",
         "nameEn": "FIRST BUSINESS FINL SERVICES INC",
         "financials": {
@@ -327,10 +327,22 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
+              "title": "First Business Financial: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/first-business-financial-3-key-takeaways-long-term-investors",
+              "date": "2026-10-31",
+              "publisher": "The Motley Fool"
+            },
+            {
               "title": "First Business (FBIZ) Q3 2026 Earnings Call Transcript",
               "url": "https://www.nasdaq.com/articles/first-business-fbiz-q3-2026-earnings-call-transcript",
               "date": "2026-10-30",
               "publisher": "The Motley Fool"
+            },
+            {
+              "title": "What First Business Financial Services (FBIZ) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-first-business-financial-services-fbiz-said-its-q3-earnings-call",
+              "date": "2026-10-30",
+              "publisher": "MarketBeat"
             },
             {
               "title": "First Business Financial Services, Inc. Reports Q3 2026 Net Income of $16.4 million",
@@ -360,18 +372,6 @@ window.TEAM4_DATA = {
               "title": "Why First Business Financial Services (FBIZ) is Poised to Beat Earnings Estimates Again",
               "url": "https://www.nasdaq.com/articles/why-first-business-financial-services-fbiz-poised-beat-earnings-estimates-again",
               "date": "2026-10-15",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "FBIZ Q2 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/fbiz-q2-2026-earnings-call-transcript",
-              "date": "2026-08-08",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "All You Need to Know About First Business Financial Services (FBIZ) Rating Upgrade to Buy",
-              "url": "https://www.nasdaq.com/articles/all-you-need-know-about-first-business-financial-services-fbiz-rating-upgrade-buy",
-              "date": "2026-08-04",
               "publisher": "Zacks"
             }
           ]
@@ -902,49 +902,77 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
-          "title": "Health Care Roundup: Market Talk",
-          "url": "https://finance.yahoo.com/m/ee46ee8b-cb85-3370-a87c-7c801e230571/health-care-roundup%3A-market.html",
-          "date": "2026-10-30",
-          "publisher": "The Wall Street Journal",
+          "title": "Regeneron (REGN) Stock Looks At A Discount To Earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-regn-stock-looks-discount-181326200.html",
+          "date": "2026-10-31",
+          "publisher": "Simply Wall St.",
           "via": "Yahoo"
         },
         {
-          "title": "Regeneron, Sanofi Surge As Dupixent Wallops Sales Forecasts",
-          "url": "https://finance.yahoo.com/m/10130d32-3ffe-3110-8ce7-984fc87d885a/regeneron%2C-sanofi-surge-as.html",
+          "title": "Why Regeneron Shares Are In Focus After Strong Earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-regeneron-shares-focus-strong-161549071.html",
+          "date": "2026-10-31",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Regeneron: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-3-key-takeaways-long-150948729.html",
+          "date": "2026-10-31",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Regeneron Stock Just Hit a 2-Year High. Here's Why.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-stock-just-hit-2-143004101.html",
+          "date": "2026-10-31",
+          "publisher": "Barchart",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Regeneron Pharmaceuticals (REGN) Jumped, But What Is The Market Seeing Now?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-pharmaceuticals-regn-jumped-market-110817057.html",
+          "date": "2026-10-31",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Regeneron (REGN) stock trades up, here is why",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-regn-stock-trades-why-093929499.html",
+          "date": "2026-10-31",
+          "publisher": "StockStory",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Regeneron Pharmaceuticals Inc (REGN) Q3 2026 Earnings Call Highlights: Record Dupixent and ...",
+          "url": "https://finance.yahoo.com/healthcare/articles/regeneron-pharmaceuticals-inc-regn-q3-011044851.html",
+          "date": "2026-10-31",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Regeneron Bolts 13% Higher, Breaking Out To A Two-Year High On Dupixent Dominance",
+          "url": "https://finance.yahoo.com/m/10130d32-3ffe-3110-8ce7-984fc87d885a/regeneron-bolts-13%25-higher%2C.html",
           "date": "2026-10-30",
           "publisher": "Investor's Business Daily",
           "via": "Yahoo"
         },
         {
-          "title": "REGN Stock Hits 2-Year Highs Pre-Market: CFO Says Regeneron Is Positioned To Deliver One Of ‘Strongest Years Ever’ After Q3 Earnings Beat",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/regn-stock-hits-2-highs-123054450.html",
+          "title": "US Equity Markets End Lower After Sell-Off in Technology Stocks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201952161.html",
           "date": "2026-10-30",
-          "publisher": "Stocktwits",
+          "publisher": "MT Newswires",
           "via": "Yahoo"
         },
         {
-          "title": "Regeneron (REGN) Reports Q3 Earnings: What Key Metrics Have to Say",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-regn-reports-q3-earnings-123003358.html",
+          "title": "REGN Q3 Earnings Beat on Dupixent Profits & Eylea HD Growth, Stock Up",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/regn-q3-earnings-beat-dupixent-175500061.html",
           "date": "2026-10-30",
           "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Regeneron (NASDAQ:REGN) surprises with strong Q3 2026, stock soars",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-nasdaq-regn-surprises-strong-122432174.html",
-          "date": "2026-10-30",
-          "publisher": "StockStory",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Regeneron Q3 revenue tops estimates on Sanofi Dupixent profit; shares rise 4%",
-          "url": "https://finance.yahoo.com/healthcare/articles/regeneron-q3-revenue-tops-estimates-111308591.html",
-          "date": "2026-10-30",
-          "publisher": "Investing.com",
           "via": "Yahoo"
         }
       ]
@@ -1039,7 +1067,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -1081,7 +1109,7 @@ window.TEAM4_DATA = {
       "nameKo": "이리 인뎀너티",
       "nameEn": "ERIE INDEMNITY CO",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "이리 인뎀너티",
         "nameEn": "ERIE INDEMNITY CO",
         "financials": {
@@ -1693,7 +1721,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -1763,7 +1791,7 @@ window.TEAM4_DATA = {
       "nameKo": "레플리젠",
       "nameEn": "REPLIGEN CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "레플리젠",
         "nameEn": "REPLIGEN CORP",
         "financials": {
@@ -2390,7 +2418,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -2439,7 +2467,7 @@ window.TEAM4_DATA = {
       "nameKo": "에스티 로더",
       "nameEn": "ESTEE LAUDER COMPANIES INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "에스티 로더",
         "nameEn": "ESTEE LAUDER COMPANIES INC",
         "financials": {
@@ -2674,7 +2702,28 @@ window.TEAM4_DATA = {
           ]
         }
       },
-      "kis": null,
+      "kis": {
+        "ticker": "EL",
+        "fetchedAt": "2026-11-01",
+        "source": "한국투자증권 Open API",
+        "per": 219.51,
+        "pbr": 10.38,
+        "eps": 0.5,
+        "bps": 10.52,
+        "shares": 247815000,
+        "marketCapM": 27069,
+        "high52": 120.3786,
+        "high52Date": "2026-02-03",
+        "low52": 65.7416,
+        "low52Date": "2026-04-02",
+        "last": 109.23,
+        "prevClose": 108.81,
+        "nameKo": "에스티 로더",
+        "nameEn": "ESTEE LAUDER COMPANIES INC",
+        "listedOn": null,
+        "exchange": "뉴욕거래소",
+        "listedShares": 247815000
+      },
       "cnbc": [
         {
           "title": "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
@@ -3098,7 +3147,7 @@ window.TEAM4_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 1.31배(20일 평균 대비) · 오늘 거래대금 2.9배(상승일) · 상장주식 수 자료 없음 · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.31배(20일 평균 대비) · 오늘 거래대금 2.9배(상승일) · 상장주식 248M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -3186,6 +3235,20 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "ALINA Residences Receives Forbes Travel Guide VERIFIED™ Luxury Residences Plaque",
+          "url": "https://finance.yahoo.com/real-estate/articles/alina-residences-receives-forbes-travel-165500499.html",
+          "date": "2026-10-30",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "FirstService: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/firstservice-3-key-takeaways-long-152002237.html",
+          "date": "2026-10-30",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
           "title": "PIER 4 Residences Celebrates Forbes Travel Guide VERIFIED™ Luxury Residences Plaque",
           "url": "https://finance.yahoo.com/real-estate/articles/pier-4-residences-celebrates-forbes-200700806.html",
           "date": "2026-10-29",
@@ -3221,7 +3284,7 @@ window.TEAM4_DATA = {
           "via": "Yahoo"
         },
         {
-          "title": "FirstService Residential debuts Los Angeles episode of Skyline Sessions",
+          "title": "/C O R R E C T I O N - FirstService Residential/",
           "url": "https://finance.yahoo.com/real-estate/articles/firstservice-residential-debuts-los-angeles-140000557.html",
           "date": "2026-10-27",
           "publisher": "PR Newswire",
@@ -3233,26 +3296,12 @@ window.TEAM4_DATA = {
           "date": "2026-10-26",
           "publisher": "PR Newswire",
           "via": "Yahoo"
-        },
-        {
-          "title": "FirstService (TSX:FSV) Q3 Results Confront A Margin Squeeze",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/firstservice-tsx-fsv-q3-results-111724490.html",
-          "date": "2026-10-23",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "FirstService Corp (FSV) (Q3 2026) Earnings Call Highlights: Solid Revenue Growth and Buybacks ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/firstservice-corp-fsv-q3-2026-110324431.html",
-          "date": "2026-10-23",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
         }
       ],
       "nameKo": "퍼스트서비스",
       "nameEn": "FIRSTSERVICE CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "퍼스트서비스",
         "nameEn": "FIRSTSERVICE CORP",
         "financialsError": "매출 태그 없음",
@@ -3316,20 +3365,20 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "FSV",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "한국투자증권 Open API",
-        "per": 44.12,
-        "pbr": 5.24,
+        "per": 44.27,
+        "pbr": 5.26,
         "eps": 3.28,
         "bps": 27.59,
         "shares": 45722500,
-        "marketCapM": 6607,
+        "marketCapM": 6629,
         "high52": 165.6074,
         "high52Date": "2026-02-04",
         "low52": 118.8722,
         "low52Date": "2026-05-18",
-        "last": 144.5,
-        "prevClose": 138.96,
+        "last": 144.98,
+        "prevClose": 144.5,
         "nameKo": "퍼스트서비스",
         "nameEn": "FIRSTSERVICE CORP",
         "listedOn": null,
@@ -3340,7 +3389,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "FSV",
         "url": "https://finance.yahoo.com/quote/FSV/analysis/",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -3772,7 +3821,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -3842,7 +3891,7 @@ window.TEAM4_DATA = {
       "nameKo": "레즈메드",
       "nameEn": "RESMED INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "레즈메드",
         "nameEn": "RESMED INC",
         "financials": {
@@ -3924,6 +3973,12 @@ window.TEAM4_DATA = {
               "publisher": "Zacks"
             },
             {
+              "title": "What ResMed (RMD) Said on Its Q1 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-resmed-rmd-said-its-q1-earnings-call",
+              "date": "2026-10-30",
+              "publisher": "MarketBeat"
+            },
+            {
               "title": "ResMed Inc. Reports Q1 Fiscal Year 2027 Revenue of $1.4 billion and Declares Quarterly Cash Dividend of $0.66 per share",
               "url": "https://www.nasdaq.com/articles/resmed-inc-reports-q1-fiscal-year-2027-revenue-14-billion-and-declares-quarterly-cash",
               "date": "2026-10-30",
@@ -3951,12 +4006,6 @@ window.TEAM4_DATA = {
               "title": "Here's Why ResMed (RMD) is a Strong Growth Stock",
               "url": "https://www.nasdaq.com/articles/heres-why-resmed-rmd-strong-growth-stock",
               "date": "2026-10-29",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Unlocking Q1 Potential of ResMed (RMD): Exploring Wall Street Estimates for Key Metrics",
-              "url": "https://www.nasdaq.com/articles/unlocking-q1-potential-resmed-rmd-exploring-wall-street-estimates-key-metrics",
-              "date": "2026-10-28",
               "publisher": "Zacks"
             }
           ]
@@ -4572,7 +4621,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -4701,7 +4750,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -4750,7 +4799,7 @@ window.TEAM4_DATA = {
       "nameKo": "시티즌스 파이낸셜 서비시스",
       "nameEn": "CITIZENS FINANCIAL SERVICES INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "시티즌스 파이낸셜 서비시스",
         "nameEn": "CITIZENS FINANCIAL SERVICES INC",
         "financials": {
@@ -5328,7 +5377,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -5384,7 +5433,7 @@ window.TEAM4_DATA = {
       "nameKo": "알트리아 그룹",
       "nameEn": "ALTRIA GROUP INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "알트리아 그룹",
         "nameEn": "ALTRIA GROUP INC",
         "financials": {
@@ -5460,6 +5509,12 @@ window.TEAM4_DATA = {
               "publisher": "Zacks"
             },
             {
+              "title": "What Altria Group (MO) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-altria-group-mo-said-its-q3-earnings-call",
+              "date": "2026-10-30",
+              "publisher": "MarketBeat"
+            },
+            {
               "title": "Altria (MO) Q3 2026 Earnings Call Transcript",
               "url": "https://www.nasdaq.com/articles/altria-mo-q3-2026-earnings-call-transcript",
               "date": "2026-10-29",
@@ -5494,12 +5549,6 @@ window.TEAM4_DATA = {
               "url": "https://www.nasdaq.com/articles/altria-group-inc-announces-rise-q3-income",
               "date": "2026-10-29",
               "publisher": "RTTNews"
-            },
-            {
-              "title": "All It Takes Is 226 Shares of Altria Stock to Earn $1,000 a Year in Dividends. Is It Worth It?",
-              "url": "https://www.nasdaq.com/articles/all-it-takes-226-shares-altria-stock-earn-1000-year-dividends-it-worth-it",
-              "date": "2026-10-27",
-              "publisher": "The Motley Fool"
             }
           ]
         },
@@ -5603,20 +5652,20 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "MO",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "한국투자증권 Open API",
-        "per": 16.16,
+        "per": 16.43,
         "pbr": 0,
         "eps": 4.75,
         "bps": 0,
         "shares": 1669740000,
-        "marketCapM": 128153,
-        "high52": 76.81,
-        "high52Date": "2026-10-29",
+        "marketCapM": 130290,
+        "high52": 79.81,
+        "high52Date": "2026-10-30",
         "low52": 52.1726,
         "low52Date": "2026-01-07",
-        "last": 76.75,
-        "prevClose": 72.99,
+        "last": 78.03,
+        "prevClose": 76.75,
         "nameKo": "알트리아 그룹",
         "nameEn": "ALTRIA GROUP INC",
         "listedOn": null,
@@ -5649,71 +5698,71 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "MO",
         "url": "https://finance.yahoo.com/quote/MO/analysis/",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 1.37,
+            "eps": 1.38,
             "epsLow": 1.32,
-            "epsHigh": 1.41,
+            "epsHigh": 1.42,
             "epsYearAgo": 1.3,
             "epsAnalysts": 12,
-            "epsGrowth": 5.6,
+            "epsGrowth": 5.9,
             "epsCur": "USD",
-            "rev": 5101106380,
-            "revAnalysts": 10,
+            "rev": 5164869340,
+            "revAnalysts": 9,
             "revYearAgo": 5079000000,
-            "revGrowth": 0.4,
+            "revGrowth": 1.7,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 1.36,
+            "eps": 1.37,
             "epsLow": 1.33,
-            "epsHigh": 1.39,
+            "epsHigh": 1.4,
             "epsYearAgo": 1.32,
-            "epsAnalysts": 6,
-            "epsGrowth": 2.7,
+            "epsAnalysts": 7,
+            "epsGrowth": 3.6,
             "epsCur": "USD",
-            "rev": 4728152720,
-            "revAnalysts": 6,
+            "rev": 4818691830,
+            "revAnalysts": 5,
             "revYearAgo": 4758000000,
-            "revGrowth": -0.6,
+            "revGrowth": 1.3,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 5.68,
+            "eps": 5.7,
             "epsLow": 5.63,
-            "epsHigh": 5.72,
+            "epsHigh": 5.73,
             "epsYearAgo": 5.42,
             "epsAnalysts": 12,
-            "epsGrowth": 4.8,
+            "epsGrowth": 5.1,
             "epsCur": "USD",
-            "rev": 20547559670,
-            "revAnalysts": 12,
+            "rev": 20695109690,
+            "revAnalysts": 9,
             "revYearAgo": 20139000000,
-            "revGrowth": 2,
+            "revGrowth": 2.8,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 5.88,
+            "eps": 5.91,
             "epsLow": 5.74,
             "epsHigh": 6.07,
-            "epsYearAgo": 5.68,
+            "epsYearAgo": 5.7,
             "epsAnalysts": 13,
-            "epsGrowth": 3.5,
+            "epsGrowth": 3.8,
             "epsCur": "USD",
-            "rev": 20715564710,
-            "revAnalysts": 12,
-            "revYearAgo": 20547559670,
-            "revGrowth": 0.8,
+            "rev": 20910455000,
+            "revAnalysts": 11,
+            "revYearAgo": 20695109690,
+            "revGrowth": 1,
             "revCur": "USD"
           }
         ],
@@ -5722,10 +5771,10 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 1.37,
-            "d7": 0.2,
-            "d30": 0.1,
-            "d90": -0.1,
+            "now": 1.38,
+            "d7": 0.6,
+            "d30": 0.5,
+            "d90": 0.3,
             "ago90": 1.37,
             "up7": 0,
             "up30": 5,
@@ -5736,10 +5785,10 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 1.36,
-            "d7": 0,
-            "d30": 0,
-            "d90": -0.3,
+            "now": 1.37,
+            "d7": 0.9,
+            "d30": 0.9,
+            "d90": 0.9,
             "ago90": 1.36,
             "up7": 1,
             "up30": 1,
@@ -5750,11 +5799,11 @@ window.TEAM4_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 5.68,
-            "d7": 0,
-            "d30": 0,
-            "d90": -0.1,
-            "ago90": 5.69,
+            "now": 5.7,
+            "d7": 0.3,
+            "d30": 0.3,
+            "d90": 0.4,
+            "ago90": 5.67,
             "up7": 1,
             "up30": 3,
             "down7": 1,
@@ -5764,11 +5813,11 @@ window.TEAM4_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 5.88,
-            "d7": 0,
-            "d30": 0,
-            "d90": 0.1,
-            "ago90": 5.88,
+            "now": 5.91,
+            "d7": 0.6,
+            "d30": 0.6,
+            "d90": 0.8,
+            "ago90": 5.87,
             "up7": 1,
             "up30": 1,
             "down7": 0,
@@ -5810,10 +5859,40 @@ window.TEAM4_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 0,
+          "ptRaised": 3,
           "ptLowered": 1,
-          "total": 1,
+          "total": 4,
           "recent": [
+            {
+              "date": "2026-10-31",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 83,
+              "ptPrior": 79
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 72,
+              "ptPrior": 70
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 77,
+              "ptPrior": 71
+            },
             {
               "date": "2026-08-11",
               "firm": "Barclays",
@@ -5827,9 +5906,9 @@ window.TEAM4_DATA = {
           ]
         },
         "nextEarnings": {
-          "date": "2026-10-29",
-          "upcoming": false,
-          "estimated": false
+          "date": "2027-01-28",
+          "upcoming": true,
+          "estimated": true
         }
       },
       "setup": {
@@ -6037,7 +6116,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -6079,7 +6158,7 @@ window.TEAM4_DATA = {
       "nameKo": "챔피언 홈스",
       "nameEn": "CHAMPION HOMES INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "챔피언 홈스",
         "nameEn": "CHAMPION HOMES INC",
         "financials": {
@@ -6737,70 +6816,49 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
-          "title": "Cheniere (LNG) Q3 2026 Earnings Call Transcript",
-          "url": "https://finance.yahoo.com/energy/articles/cheniere-lng-q3-2026-earnings-205855850.html",
-          "date": "2026-10-29",
-          "publisher": "Motley Fool",
+          "title": "What Cheniere Energy (LNG) Said on Its Q3 Earnings Call",
+          "url": "https://finance.yahoo.com/energy/articles/cheniere-energy-lng-said-q3-231830545.html",
+          "date": "2026-10-30",
+          "publisher": "MarketBeat",
           "via": "Yahoo"
         },
         {
-          "title": "NextDecade Soars 14% as Rio Grande LNG Runs “A Quarter Ahead” of Schedule",
-          "url": "https://finance.yahoo.com/energy/articles/nextdecade-soars-14-rio-grande-174708627.html",
-          "date": "2026-10-29",
-          "publisher": "TIKR",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Cheniere Energy (LNG) Misses Q3 Earnings Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-lng-misses-q3-133007104.html",
-          "date": "2026-10-29",
+          "title": "Cheniere Energy (LNG) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-lng-reports-q3-190002091.html",
+          "date": "2026-10-30",
           "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "Cheniere Energy: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-q3-earnings-snapshot-113838829.html",
-          "date": "2026-10-29",
-          "publisher": "Associated Press",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Cheniere Reports Third Quarter 2026 Results, Raises Full Year 2026 Financial Guidance, and Increases Quarterly Dividend by Over 12%",
-          "url": "https://finance.yahoo.com/energy/articles/cheniere-reports-third-quarter-2026-113000247.html",
-          "date": "2026-10-29",
-          "publisher": "Business Wire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Cheniere Energy Q3 Earnings, Total Revenue Rise",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-q3-earnings-total-102906784.html",
-          "date": "2026-10-29",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Range Resources Corporation (RRC) Hit a 52 Week High, Can the Run Continue?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/range-resources-corporation-rrc-hit-121502658.html",
-          "date": "2026-10-28",
+          "title": "Cheniere Q3 Earnings Call Highlights Higher Guidance and LNG Demand",
+          "url": "https://finance.yahoo.com/energy/articles/cheniere-q3-earnings-call-highlights-155500169.html",
+          "date": "2026-10-30",
           "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "Countdown to Cheniere Energy (LNG) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/countdown-cheniere-energy-lng-q3-121505231.html",
-          "date": "2026-10-27",
+          "title": "APA or LNG: Which Is the Better Value Stock Right Now?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apa-lng-better-value-stock-144002172.html",
+          "date": "2026-10-30",
           "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Cheniere Energy Inc (LNG) (Q3 2026) Earnings Call Highlights: Record Volumes, Raised Guidance ...",
+          "url": "https://finance.yahoo.com/energy/articles/cheniere-energy-inc-lng-q3-050949950.html",
+          "date": "2026-10-30",
+          "publisher": "GuruFocus.com",
           "via": "Yahoo"
         }
       ],
       "nameKo": "셰니어 에너지",
       "nameEn": "CHENIERE ENERGY INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "셰니어 에너지",
         "nameEn": "CHENIERE ENERGY INC",
         "financials": {
@@ -6991,20 +7049,20 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "LNG",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "한국투자증권 Open API",
-        "per": 23.73,
-        "pbr": 10.71,
+        "per": 24.58,
+        "pbr": 11.09,
         "eps": 13.44,
         "bps": 29.78,
         "shares": 206534000,
-        "marketCapM": 65872,
-        "high52": 321.22,
-        "high52Date": "2026-10-29",
+        "marketCapM": 68222,
+        "high52": 330.73,
+        "high52Date": "2026-10-30",
         "low52": 184.8786,
         "low52Date": "2025-12-16",
-        "last": 318.94,
-        "prevClose": 297.77,
+        "last": 330.32,
+        "prevClose": 318.94,
         "nameKo": "셰니어 에너지",
         "nameEn": "CHENIERE ENERGY INC",
         "listedOn": "2024-02-05",
@@ -7037,55 +7095,55 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "LNG",
         "url": "https://finance.yahoo.com/quote/LNG/analysis/",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 5.66,
-            "epsLow": 5.02,
-            "epsHigh": 6.14,
+            "eps": 7.9,
+            "epsLow": 7.9,
+            "epsHigh": 7.9,
             "epsYearAgo": 2.59,
-            "epsAnalysts": 4,
-            "epsGrowth": 118.2,
+            "epsAnalysts": 1,
+            "epsGrowth": 204.5,
             "epsCur": "USD",
-            "rev": 6034307740,
+            "rev": 6136619190,
             "revAnalysts": 8,
             "revYearAgo": 5450000000,
-            "revGrowth": 10.7,
+            "revGrowth": 12.6,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 4.71,
-            "epsLow": 3.61,
-            "epsHigh": 5.57,
+            "eps": 5.69,
+            "epsLow": 4.94,
+            "epsHigh": 6.55,
             "epsYearAgo": 9.17,
             "epsAnalysts": 3,
-            "epsGrowth": -48.7,
+            "epsGrowth": -38,
             "epsCur": "USD",
-            "rev": 6186330620,
+            "rev": 6197538250,
             "revAnalysts": 4,
             "revYearAgo": 5868000000,
-            "revGrowth": 5.4,
+            "revGrowth": 5.6,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 23.13,
-            "epsLow": 18.39,
-            "epsHigh": 29.45,
+            "eps": 20.81,
+            "epsLow": 19.28,
+            "epsHigh": 22.33,
             "epsYearAgo": 10.73,
-            "epsAnalysts": 5,
-            "epsGrowth": 115.5,
+            "epsAnalysts": 2,
+            "epsGrowth": 93.8,
             "epsCur": "USD",
-            "rev": 22649377430,
+            "rev": 23110758860,
             "revAnalysts": 10,
             "revYearAgo": 19976000000,
-            "revGrowth": 13.4,
+            "revGrowth": 15.7,
             "revCur": "USD"
           },
           {
@@ -7094,14 +7152,14 @@ window.TEAM4_DATA = {
             "eps": 20.72,
             "epsLow": 15.02,
             "epsHigh": 29.72,
-            "epsYearAgo": 23.13,
+            "epsYearAgo": 20.81,
             "epsAnalysts": 6,
-            "epsGrowth": -10.4,
+            "epsGrowth": -0.4,
             "epsCur": "USD",
-            "rev": 23402175530,
+            "rev": 23395335600,
             "revAnalysts": 11,
-            "revYearAgo": 22649377430,
-            "revGrowth": 3.3,
+            "revYearAgo": 23110758860,
+            "revGrowth": 1.2,
             "revCur": "USD"
           }
         ],
@@ -7110,10 +7168,10 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 5.66,
-            "d7": 1,
-            "d30": 8.8,
-            "d90": 10,
+            "now": 7.9,
+            "d7": 39.6,
+            "d30": 45.5,
+            "d90": 53.5,
             "ago90": 5.15,
             "up7": 2,
             "up30": 3,
@@ -7124,10 +7182,10 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 4.71,
-            "d7": -4.9,
-            "d30": -10.9,
-            "d90": -14.6,
+            "now": 5.69,
+            "d7": 20.8,
+            "d30": 5.6,
+            "d90": 3.2,
             "ago90": 5.51,
             "up7": 0,
             "up30": 1,
@@ -7138,10 +7196,10 @@ window.TEAM4_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 23.13,
-            "d7": -0.2,
-            "d30": 1.4,
-            "d90": 29,
+            "now": 20.81,
+            "d7": -10,
+            "d30": -9.8,
+            "d90": 16,
             "ago90": 17.93,
             "up7": 1,
             "up30": 1,
@@ -7198,10 +7256,50 @@ window.TEAM4_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 6,
+          "ptRaised": 10,
           "ptLowered": 0,
-          "total": 8,
+          "total": 12,
           "recent": [
+            {
+              "date": "2026-10-30",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 322,
+              "ptPrior": 310
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 374,
+              "ptPrior": 335
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 328,
+              "ptPrior": 287
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Bernstein",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 312,
+              "ptPrior": 283
+            },
             {
               "date": "2026-10-29",
               "firm": "Bernstein",
@@ -7261,26 +7359,6 @@ window.TEAM4_DATA = {
               "ptAction": "Raises",
               "pt": 319,
               "ptPrior": 300
-            },
-            {
-              "date": "2026-08-11",
-              "firm": "TD Cowen",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 290,
-              "ptPrior": 280
-            },
-            {
-              "date": "2026-08-07",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 279,
-              "ptPrior": 274
             }
           ]
         },
@@ -7505,9 +7583,58 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
+        {
+          "title": "Is Mohawk Industries (MHK) Stock Cheap After A 64% Recovery?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-stock-cheap-210847014.html",
+          "date": "2026-10-31",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Why Did Mohawk Industries (MHK) Jump After Its Latest Update?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-mohawk-industries-mhk-151422549.html",
+          "date": "2026-10-31",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "MHK Q3 deep dive: management emphasizes capital discipline as demand softens and margins improve",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mhk-q3-deep-dive-management-101129231.html",
+          "date": "2026-10-31",
+          "publisher": "StockStory",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Mohawk Industries Inc (MHK) Q3 2026 Earnings Call Highlights: Strong Cash Flow and Share ...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-inc-mhk-q3-050800543.html",
+          "date": "2026-10-31",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Mohawk Industries Q3 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-q3-earnings-call-221401609.html",
+          "date": "2026-10-30",
+          "publisher": "MarketBeat",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Mohawk (MHK) Q3 2026 Earnings Call Transcript",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-mhk-q3-2026-earnings-194602607.html",
+          "date": "2026-10-30",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Mohawk Industries, Inc. Q3 2026 Earnings Call Summary",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-inc-q3-2026-123000723.html",
+          "date": "2026-10-30",
+          "publisher": "Moby",
+          "via": "Yahoo"
+        },
         {
           "title": "Mohawk Industries (MHK) Surpasses Q3 Earnings Estimates",
           "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-surpasses-q3-220508261.html",
@@ -7527,48 +7654,6 @@ window.TEAM4_DATA = {
           "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-q3-adjusted-earnings-210328122.html",
           "date": "2026-10-29",
           "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Mohawk Industries: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-q3-earnings-snapshot-204607570.html",
-          "date": "2026-10-29",
-          "publisher": "Associated Press",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Mohawk Industries (NYSE:MHK) reports sales below analyst estimates in Q3 2026 earnings",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-nyse-mhk-reports-204050014.html",
-          "date": "2026-10-29",
-          "publisher": "StockStory",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Mohawk Industries Introduces Strategic and Capital Allocation Framework and Announces New $500 Million Share Repurchase Authorization",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-introduces-strategic-capital-201700202.html",
-          "date": "2026-10-29",
-          "publisher": "GlobeNewswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Mohawk Industries Reports Q3 2026 Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-reports-q3-2026-201500731.html",
-          "date": "2026-10-29",
-          "publisher": "GlobeNewswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Mohawk Industries (MHK) to report earnings tomorrow: here is what to expect",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-report-earnings-070234345.html",
-          "date": "2026-10-28",
-          "publisher": "StockStory",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Will Mohawk Industries (MHK) Beat Estimates Again in Its Next Earnings Report?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-beat-estimates-151005225.html",
-          "date": "2026-10-22",
-          "publisher": "Zacks",
           "via": "Yahoo"
         }
       ]
@@ -7687,7 +7772,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -7867,7 +7952,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -8035,7 +8120,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -8105,7 +8190,7 @@ window.TEAM4_DATA = {
       "nameKo": "메리트 메디컬 시스템스",
       "nameEn": "MERIT MEDICAL SYSTEMS",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "메리트 메디컬 시스템스",
         "nameEn": "MERIT MEDICAL SYSTEMS",
         "financials": {
@@ -8818,7 +8903,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -8942,7 +9027,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -8977,7 +9062,7 @@ window.TEAM4_DATA = {
       "nameKo": "도버",
       "nameEn": "DOVER CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "도버",
         "nameEn": "DOVER CORP",
         "financials": {
@@ -9716,7 +9801,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -9864,7 +9949,7 @@ window.TEAM4_DATA = {
         "categoryName": "매크로·정책·산업 돌파",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -9878,7 +9963,7 @@ window.TEAM4_DATA = {
       "nameKo": "프리덤 홀딩",
       "nameEn": "FREEDOM HOLDING CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "프리덤 홀딩",
         "nameEn": "FREEDOM HOLDING CORP",
         "financials": {
@@ -10460,7 +10545,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -10516,7 +10601,7 @@ window.TEAM4_DATA = {
       "nameKo": "지브라 테크놀로지스",
       "nameEn": "ZEBRA TECHNOLOGIES",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "지브라 테크놀로지스",
         "nameEn": "ZEBRA TECHNOLOGIES",
         "financials": {
@@ -11234,7 +11319,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -11337,7 +11422,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -11379,7 +11464,7 @@ window.TEAM4_DATA = {
       "nameKo": "버텍스 파머슈티컬",
       "nameEn": "VERTEX PHARMACEUTICAL",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "버텍스 파머슈티컬",
         "nameEn": "VERTEX PHARMACEUTICAL",
         "financials": {
@@ -12073,42 +12158,70 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
-          "title": "Eli Lilly and Company Q3 2026 Earnings Call Summary",
-          "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-company-q3-2026-221536273.html",
-          "date": "2026-10-29",
+          "title": "Prediction: $100 per Month Invested in Eli Lilly (LLY) Stock Will Be Worth This Much by 2030",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-100-per-month-invested-162700495.html",
+          "date": "2026-10-31",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
+          "title": "OmniAb Inc (OABI) (Q3 2026) Earnings Call Highlights: Lilly Deal, Raised Guidance and a Busy ...",
+          "url": "https://finance.yahoo.com/healthcare/articles/omniab-inc-oabi-q3-2026-090853975.html",
+          "date": "2026-10-31",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Eli Lilly Soars 11% in a Week on a $5.5 Billion Guidance Raise: “Beating on the Up”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-soars-11-week-090002528.html",
+          "date": "2026-10-31",
+          "publisher": "TIKR",
+          "via": "Yahoo"
+        },
+        {
+          "title": "What Eli Lilly and Company (LLY) Said on Its Q3 Earnings Call",
+          "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-company-lly-said-231732107.html",
+          "date": "2026-10-30",
+          "publisher": "MarketBeat",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Novo Nordisk (NYSE:NVO) Could Be 61% Undervalued Following Rising GLP 1 Competition",
+          "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-nyse-nvo-could-221413251.html",
+          "date": "2026-10-30",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "OmniAb, Inc. Q3 2026 Earnings Call Summary",
+          "url": "https://finance.yahoo.com/healthcare/articles/omniab-inc-q3-2026-earnings-210355151.html",
+          "date": "2026-10-30",
           "publisher": "Moby",
           "via": "Yahoo"
         },
         {
-          "title": "Eli Lilly (LLY) Q3 2026 Earnings Call Transcript",
-          "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-q3-2026-201424920.html",
-          "date": "2026-10-29",
-          "publisher": "Motley Fool",
+          "title": "BofA Makes Major Call on Eli Lilly Stock",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-makes-major-call-eli-200441552.html",
+          "date": "2026-10-30",
+          "publisher": "GuruFocus.com",
           "via": "Yahoo"
         },
         {
-          "title": "Why Eli Lilly’s CFO Sees Cancer Drugs as the Next Growth Drivers",
-          "url": "https://finance.yahoo.com/m/1c54c832-f3c1-3dbe-aaa9-5e44207b7efe/why-eli-lilly%E2%80%99s-cfo-sees.html",
-          "date": "2026-10-29",
-          "publisher": "Barrons.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Eli Lilly Sells 53% More at Lower Prices: Rapid Earnings Reaction",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-sells-53-more-194220181.html",
-          "date": "2026-10-29",
-          "publisher": "Motley Fool",
+          "title": "Eli Lilly Stocks Rise 3.4% With Higher Sales but Lower EPS Guidance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-rise-3-200201639.html",
+          "date": "2026-10-30",
+          "publisher": "GuruFocus.com",
           "via": "Yahoo"
         }
       ],
       "nameKo": "일라이 릴리",
       "nameEn": "ELI LILLY AND COMPANY",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "일라이 릴리",
         "nameEn": "ELI LILLY AND COMPANY",
         "financials": {
@@ -12178,6 +12291,12 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
+              "title": "Prediction: $100 per Month Invested in Eli Lilly (LLY) Stock Will Be Worth This Much by 2030",
+              "url": "https://www.nasdaq.com/articles/prediction-100-month-invested-eli-lilly-lly-stock-will-be-worth-much-2030",
+              "date": "2026-10-31",
+              "publisher": "The Motley Fool"
+            },
+            {
               "title": "Eli Lilly Is Now Worth as Much as Warren Buffett's Berkshire Hathaway. Can the Rally Keep Going?",
               "url": "https://www.nasdaq.com/articles/eli-lilly-now-worth-much-warren-buffetts-berkshire-hathaway-can-rally-keep-going",
               "date": "2026-10-30",
@@ -12216,12 +12335,6 @@ window.TEAM4_DATA = {
             {
               "title": "Eli Lilly Reports 39% Q3 Revenue Growth, Raises 2026 Sales Outlook And Advances Drug Pipeline",
               "url": "https://www.nasdaq.com/articles/eli-lilly-reports-39-q3-revenue-growth-raises-2026-sales-outlook-and-advances-drug",
-              "date": "2026-10-29",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Eli Lilly And Co. Q3 26 Earnings Conference Call At 10:00 AM ET",
-              "url": "https://www.nasdaq.com/articles/eli-lilly-and-co-q3-26-earnings-conference-call-10-00-am-et",
               "date": "2026-10-29",
               "publisher": "RTTNews"
             }
@@ -12368,20 +12481,20 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "LLY",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "한국투자증권 Open API",
-        "per": 46.68,
-        "pbr": 38.18,
+        "per": 48.17,
+        "pbr": 39.39,
         "eps": 29.43,
         "bps": 35.98,
         "shares": 941357000,
-        "marketCapM": 1293142,
-        "high52": 1408.38,
-        "high52Date": "2026-10-29",
-        "low52": 804.5567,
-        "low52Date": "2025-10-29",
-        "last": 1373.7,
-        "prevClose": 1288.3,
+        "marketCapM": 1334411,
+        "high52": 1449.68,
+        "high52Date": "2026-10-30",
+        "low52": 807.1602,
+        "low52Date": "2025-10-30",
+        "last": 1417.54,
+        "prevClose": 1373.7,
         "nameKo": "일라이 릴리",
         "nameEn": "ELI LILLY AND COMPANY",
         "listedOn": null,
@@ -12449,71 +12562,71 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "LLY",
         "url": "https://finance.yahoo.com/quote/LLY/analysis/",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 10.21,
-            "epsLow": 9,
-            "epsHigh": 11.46,
+            "eps": 11.12,
+            "epsLow": 10.15,
+            "epsHigh": 12.42,
             "epsYearAgo": 7.54,
-            "epsAnalysts": 12,
-            "epsGrowth": 35.4,
+            "epsAnalysts": 13,
+            "epsGrowth": 47.4,
             "epsCur": "USD",
-            "rev": 23570178880,
-            "revAnalysts": 14,
+            "rev": 24602759720,
+            "revAnalysts": 11,
             "revYearAgo": 19292000000,
-            "revGrowth": 22.2,
+            "revGrowth": 27.5,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 10.09,
+            "eps": 10.46,
             "epsLow": 8.82,
-            "epsHigh": 10.48,
+            "epsHigh": 11.63,
             "epsYearAgo": 8.55,
             "epsAnalysts": 6,
-            "epsGrowth": 18,
+            "epsGrowth": 22.4,
             "epsCur": "USD",
-            "rev": 22826280800,
+            "rev": 22930955200,
             "revAnalysts": 5,
             "revYearAgo": 19799000000,
-            "revGrowth": 15.3,
+            "revGrowth": 15.8,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 33.16,
-            "epsLow": 31.74,
-            "epsHigh": 35.92,
+            "eps": 35.13,
+            "epsLow": 32.34,
+            "epsHigh": 36.22,
             "epsYearAgo": 24.21,
-            "epsAnalysts": 17,
-            "epsGrowth": 37,
+            "epsAnalysts": 21,
+            "epsGrowth": 45.1,
             "epsCur": "USD",
-            "rev": 88618988770,
-            "revAnalysts": 29,
+            "rev": 91654783150,
+            "revAnalysts": 18,
             "revYearAgo": 65179000000,
-            "revGrowth": 36,
+            "revGrowth": 40.6,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 47.46,
+            "eps": 49.36,
             "epsLow": 41.28,
-            "epsHigh": 53.09,
-            "epsYearAgo": 33.16,
+            "epsHigh": 59.81,
+            "epsYearAgo": 35.13,
             "epsAnalysts": 26,
-            "epsGrowth": 43.2,
+            "epsGrowth": 40.5,
             "epsCur": "USD",
-            "rev": 102334458160,
-            "revAnalysts": 27,
-            "revYearAgo": 88618988770,
-            "revGrowth": 15.5,
+            "rev": 104831700600,
+            "revAnalysts": 28,
+            "revYearAgo": 91654783150,
+            "revGrowth": 14.4,
             "revCur": "USD"
           }
         ],
@@ -12522,10 +12635,10 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 10.21,
-            "d7": 0.4,
-            "d30": 1.5,
-            "d90": 2.9,
+            "now": 11.12,
+            "d7": 9.3,
+            "d30": 10.5,
+            "d90": 12,
             "ago90": 9.92,
             "up7": 2,
             "up30": 6,
@@ -12536,10 +12649,10 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 10.09,
-            "d7": 0,
-            "d30": 1.3,
-            "d90": 3.7,
+            "now": 10.46,
+            "d7": 3.7,
+            "d30": 5.1,
+            "d90": 7.5,
             "ago90": 9.73,
             "up7": 0,
             "up30": 1,
@@ -12550,10 +12663,10 @@ window.TEAM4_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 33.16,
-            "d7": -4.1,
-            "d30": -10.2,
-            "d90": -4,
+            "now": 35.13,
+            "d7": 1.6,
+            "d30": -4.9,
+            "d90": 1.7,
             "ago90": 34.54,
             "up7": 0,
             "up30": 5,
@@ -12564,10 +12677,10 @@ window.TEAM4_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 47.46,
-            "d7": 0.5,
-            "d30": -0.1,
-            "d90": 5.3,
+            "now": 49.36,
+            "d7": 4.5,
+            "d30": 3.9,
+            "d90": 9.5,
             "ago90": 45.08,
             "up7": 3,
             "up30": 7,
@@ -12610,10 +12723,100 @@ window.TEAM4_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 9,
+          "ptRaised": 18,
           "ptLowered": 0,
-          "total": 11,
+          "total": 20,
           "recent": [
+            {
+              "date": "2026-10-31",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 1625,
+              "ptPrior": 1425
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 1650,
+              "ptPrior": 1500
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 1650,
+              "ptPrior": 1600
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Scotiabank",
+              "action": "main",
+              "from": "Sector Outperform",
+              "to": "Sector Outperform",
+              "ptAction": "Raises",
+              "pt": 1605,
+              "ptPrior": 1300
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 1596,
+              "ptPrior": 1430
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 1500,
+              "ptPrior": 1330
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Truist Securities",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 1612,
+              "ptPrior": 1376
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "RBC Capital",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 1600,
+              "ptPrior": 1500
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Argus Research",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 1550,
+              "ptPrior": 1300
+            },
             {
               "date": "2026-10-21",
               "firm": "Leerink Partners",
@@ -12623,96 +12826,6 @@ window.TEAM4_DATA = {
               "ptAction": "Raises",
               "pt": 1316,
               "ptPrior": 1309
-            },
-            {
-              "date": "2026-10-12",
-              "firm": "RBC Capital",
-              "action": "reit",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Maintains",
-              "pt": 1500,
-              "ptPrior": 1500
-            },
-            {
-              "date": "2026-10-08",
-              "firm": "Cantor Fitzgerald",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 1440,
-              "ptPrior": 1410
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 1430,
-              "ptPrior": 1419
-            },
-            {
-              "date": "2026-09-28",
-              "firm": "JP Morgan",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 1500,
-              "ptPrior": 1400
-            },
-            {
-              "date": "2026-09-22",
-              "firm": "TD Cowen",
-              "action": "reit",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Maintains",
-              "pt": 1250,
-              "ptPrior": 1250
-            },
-            {
-              "date": "2026-09-18",
-              "firm": "Guggenheim",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 1284,
-              "ptPrior": 1273
-            },
-            {
-              "date": "2026-09-10",
-              "firm": "HSBC",
-              "action": "main",
-              "from": "Reduce",
-              "to": "Reduce",
-              "ptAction": "Raises",
-              "pt": 940,
-              "ptPrior": 850
-            },
-            {
-              "date": "2026-08-07",
-              "firm": "Truist Securities",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 1376,
-              "ptPrior": 1370
-            },
-            {
-              "date": "2026-08-06",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 1330,
-              "ptPrior": 1280
             }
           ]
         },
@@ -12955,7 +13068,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -13011,7 +13124,7 @@ window.TEAM4_DATA = {
       "nameKo": "인테그리스",
       "nameEn": "ENTEGRIS INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "인테그리스",
         "nameEn": "ENTEGRIS INC",
         "financials": {
@@ -13743,7 +13856,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -13813,7 +13926,7 @@ window.TEAM4_DATA = {
       "nameKo": "아서 갤러거 앤드 컴퍼니",
       "nameEn": "GALLAGHER(ARTHUR J.)& CO",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "아서 갤러거 앤드 컴퍼니",
         "nameEn": "GALLAGHER(ARTHUR J.)& CO",
         "financials": {
@@ -13889,6 +14002,12 @@ window.TEAM4_DATA = {
               "publisher": "The Motley Fool"
             },
             {
+              "title": "What Arthur J. Gallagher & Co. (AJG) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-arthur-j-gallagher-co-ajg-said-its-q3-earnings-call",
+              "date": "2026-10-30",
+              "publisher": "MarketBeat"
+            },
+            {
               "title": "Compared to Estimates, Arthur J. Gallagher (AJG) Q3 Earnings: A Look at Key Metrics",
               "url": "https://www.nasdaq.com/articles/compared-estimates-arthur-j-gallagher-ajg-q3-earnings-look-key-metrics",
               "date": "2026-10-29",
@@ -13911,12 +14030,6 @@ window.TEAM4_DATA = {
               "url": "https://www.nasdaq.com/articles/ajg-september-2027-options-begin-trading",
               "date": "2026-10-26",
               "publisher": "BNK Invest"
-            },
-            {
-              "title": "Arthur J. Gallagher (AJG) Earnings Expected to Grow: Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/arthur-j-gallagher-ajg-earnings-expected-grow-should-you-buy",
-              "date": "2026-10-22",
-              "publisher": "Zacks"
             }
           ]
         },
@@ -14463,7 +14576,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -14498,7 +14611,7 @@ window.TEAM4_DATA = {
       "nameKo": "아날로그 디바이시스",
       "nameEn": "ANALOG DEVICES INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "아날로그 디바이시스",
         "nameEn": "ANALOG DEVICES INC",
         "financials": {
@@ -15174,7 +15287,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -15244,7 +15357,7 @@ window.TEAM4_DATA = {
       "nameKo": "페덱스",
       "nameEn": "FEDEX CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "페덱스",
         "nameEn": "FEDEX CORP",
         "financials": {
@@ -15314,6 +15427,12 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
+              "title": "FedEx: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/fedex-3-key-takeaways-long-term-investors",
+              "date": "2026-10-31",
+              "publisher": "The Motley Fool"
+            },
+            {
               "title": "UPS vs. FedEx: Which Stock Is the Better Buy After Strong Q3 Results?",
               "url": "https://www.nasdaq.com/articles/ups-vs-fedex-which-stock-better-buy-after-strong-q3-results",
               "date": "2026-10-29",
@@ -15352,12 +15471,6 @@ window.TEAM4_DATA = {
             {
               "title": "FedEx Q3 Profit Slips, But Adjusted Earnings Rise; Raises 2026 Outlook",
               "url": "https://www.nasdaq.com/articles/fedex-q3-profit-slips-adjusted-earnings-rise-raises-2026-outlook",
-              "date": "2026-10-28",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "FedEx Q3 26 Earnings Conference Call At 5:30 PM ET",
-              "url": "https://www.nasdaq.com/articles/fedex-q3-26-earnings-conference-call-5-30-pm-et",
               "date": "2026-10-28",
               "publisher": "RTTNews"
             }
@@ -15988,7 +16101,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -16030,7 +16143,7 @@ window.TEAM4_DATA = {
       "nameKo": "NXP 세미컨덕터스",
       "nameEn": "NXP SEMICONDUCTORS N V",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "NXP 세미컨덕터스",
         "nameEn": "NXP SEMICONDUCTORS N V",
         "financials": {
@@ -16237,20 +16350,20 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "NXPI",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "한국투자증권 Open API",
-        "per": 22.58,
-        "pbr": 5.89,
+        "per": 22.03,
+        "pbr": 5.75,
         "eps": 11.78,
         "bps": 45.19,
         "shares": 252053000,
-        "marketCapM": 67046,
+        "marketCapM": 65435,
         "high52": 337.2828,
         "high52Date": "2026-05-27",
         "low52": 179.8237,
         "low52Date": "2025-11-20",
-        "last": 266,
-        "prevClose": 251.69,
+        "last": 259.61,
+        "prevClose": 266,
         "nameKo": "NXP 세미컨덕터스",
         "nameEn": "NXP SEMICONDUCTORS N V",
         "listedOn": null,
@@ -16283,7 +16396,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "NXPI",
         "url": "https://finance.yahoo.com/quote/NXPI/analysis/",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -16745,7 +16858,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -16815,7 +16928,7 @@ window.TEAM4_DATA = {
       "nameKo": "얼라이언트 에너지",
       "nameEn": "ALLIANT ENERGY CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "얼라이언트 에너지",
         "nameEn": "ALLIANT ENERGY CORP",
         "financials": {
@@ -16889,6 +17002,12 @@ window.TEAM4_DATA = {
               "url": "https://www.nasdaq.com/articles/alliant-energy-lnt-q3-2026-earnings-call-transcript",
               "date": "2026-10-30",
               "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Alliant Energy Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/alliant-energy-q3-earnings-call-highlights",
+              "date": "2026-10-30",
+              "publisher": "MarketBeat"
             },
             {
               "title": "Alliant Energy Corp Q3 Profit Rises",
@@ -17459,7 +17578,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -17611,7 +17730,7 @@ window.TEAM4_DATA = {
         "categoryName": "기업 턴어라운드",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -17660,7 +17779,7 @@ window.TEAM4_DATA = {
       "nameKo": "킴벌리클라크",
       "nameEn": "KIMBERLY CLARK CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "킴벌리클라크",
         "nameEn": "KIMBERLY CLARK CORP",
         "financials": {
@@ -17729,6 +17848,12 @@ window.TEAM4_DATA = {
         },
         "news": {
           "items": [
+            {
+              "title": "Celsius vs. Kimberly-Clark: Which Stock Matches Your Investing Style?",
+              "url": "https://www.nasdaq.com/articles/celsius-vs-kimberly-clark-which-stock-matches-your-investing-style",
+              "date": "2026-10-31",
+              "publisher": "The Motley Fool"
+            },
             {
               "title": "Kimberly-Clark Corporation Extends Exchange Offers for Kenvue Notes to November 2, 2026",
               "url": "https://www.nasdaq.com/articles/kimberly-clark-corporation-extends-exchange-offers-kenvue-notes-november-2-2026",
@@ -18449,7 +18574,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -18512,7 +18637,7 @@ window.TEAM4_DATA = {
       "nameKo": "제너럴 다이내믹스",
       "nameEn": "GENERAL DYNAMICS CORP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "제너럴 다이내믹스",
         "nameEn": "GENERAL DYNAMICS CORP",
         "financials": {
@@ -18588,6 +18713,12 @@ window.TEAM4_DATA = {
               "publisher": "The Motley Fool"
             },
             {
+              "title": "What General Dynamics (GD) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-general-dynamics-gd-said-its-q3-earnings-call",
+              "date": "2026-10-30",
+              "publisher": "MarketBeat"
+            },
+            {
               "title": "General Dynamics (GD) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
               "url": "https://www.nasdaq.com/articles/general-dynamics-gd-q3-earnings-how-key-metrics-compare-wall-street-estimates",
               "date": "2026-10-30",
@@ -18621,12 +18752,6 @@ window.TEAM4_DATA = {
               "title": "Here's Why General Dynamics (GD) is a Strong Value Stock",
               "url": "https://www.nasdaq.com/articles/heres-why-general-dynamics-gd-strong-value-stock",
               "date": "2026-10-27",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "General Dynamics (GD) Rises Higher Than Market: Key Facts",
-              "url": "https://www.nasdaq.com/articles/general-dynamics-gd-rises-higher-market-key-facts-0",
-              "date": "2026-10-26",
               "publisher": "Zacks"
             }
           ]
@@ -19225,9 +19350,44 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
+        {
+          "title": "Cboe Global Markets (CBOE) Stock May Trade Above Fair Value Despite Fresh Buyback News",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cboe-global-markets-cboe-stock-171140952.html",
+          "date": "2026-10-31",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Cboe Global Markets Inc (CBOE) (Q3 2026) Earnings Call Highlights: Record Revenue, 36% EPS ...",
+          "url": "https://finance.yahoo.com/markets/options/articles/cboe-global-markets-inc-cboe-070839547.html",
+          "date": "2026-10-31",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Cboe (CBOE) Q3 2026 Earnings Call Transcript",
+          "url": "https://finance.yahoo.com/markets/options/articles/cboe-cboe-q3-2026-earnings-184322376.html",
+          "date": "2026-10-30",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Cboe Global Markets, Inc. Q3 2026 Earnings Call Summary",
+          "url": "https://finance.yahoo.com/markets/options/articles/cboe-global-markets-inc-q3-164942963.html",
+          "date": "2026-10-30",
+          "publisher": "Moby",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Here's What Key Metrics Tell Us About CBOE (CBOE) Q3 Earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-key-metrics-tell-us-133001394.html",
+          "date": "2026-10-30",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
         {
           "title": "Cboe Global Markets Q3 Adjusted Earnings, Revenue Increased; 2026 Revenue Growth Outlook Increased",
           "url": "https://finance.yahoo.com/markets/stocks/articles/cboe-global-markets-q3-adjusted-120517638.html",
@@ -19240,34 +19400,6 @@ window.TEAM4_DATA = {
           "url": "https://finance.yahoo.com/markets/options/articles/cboe-global-cboe-q3-earnings-114002864.html",
           "date": "2026-10-30",
           "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "CBOE: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cboe-q3-earnings-snapshot-113835378.html",
-          "date": "2026-10-30",
-          "publisher": "Associated Press",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Cboe Global Markets Reports Results for Third Quarter 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cboe-global-markets-reports-results-113000501.html",
-          "date": "2026-10-30",
-          "publisher": "PR Newswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "IntercontinentalExchange (ICE) Tops Q3 Earnings and Revenue Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/intercontinentalexchange-ice-tops-q3-earnings-133006412.html",
-          "date": "2026-10-29",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "TradeStation Europe Expands Options Capability, Including Extended-Hours Trading",
-          "url": "https://finance.yahoo.com/markets/options/articles/tradestation-europe-expands-options-capability-104300021.html",
-          "date": "2026-10-29",
-          "publisher": "Business Wire",
           "via": "Yahoo"
         }
       ]
@@ -19343,7 +19475,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -19420,7 +19552,7 @@ window.TEAM4_DATA = {
       "nameKo": "키메라 테라퓨틱스",
       "nameEn": "KYMERA THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "키메라 테라퓨틱스",
         "nameEn": "KYMERA THERAPEUTICS INC",
         "financials": {
@@ -20078,13 +20210,13 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [],
       "nameKo": "팩트셋 리서치 시스템스",
       "nameEn": "FACTSET RESEARCH SYSTEMS",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "팩트셋 리서치 시스템스",
         "nameEn": "FACTSET RESEARCH SYSTEMS",
         "financials": {
@@ -20784,7 +20916,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -20833,7 +20965,7 @@ window.TEAM4_DATA = {
       "nameKo": "일루미나",
       "nameEn": "ILLUMINA INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "일루미나",
         "nameEn": "ILLUMINA INC",
         "financials": {
@@ -21024,20 +21156,20 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "ILMN",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "한국투자증권 Open API",
-        "per": 54.06,
-        "pbr": 15.43,
+        "per": 43.98,
+        "pbr": 12.56,
         "eps": 5.37,
         "bps": 18.79,
         "shares": 151000000,
-        "marketCapM": 43799,
+        "marketCapM": 35634,
         "high52": 309.345,
         "high52Date": "2026-10-06",
         "low52": 94,
         "low52Date": "2025-10-30",
-        "last": 290.06,
-        "prevClose": 288.79,
+        "last": 235.99,
+        "prevClose": 290.06,
         "nameKo": "일루미나",
         "nameEn": "ILLUMINA INC",
         "listedOn": null,
@@ -21077,37 +21209,37 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "ILMN",
         "url": "https://finance.yahoo.com/quote/ILMN/analysis/",
-        "fetchedAt": "2026-10-30",
+        "fetchedAt": "2026-11-01",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
             "eps": 1.53,
-            "epsLow": 1.5,
-            "epsHigh": 1.58,
+            "epsLow": 1.51,
+            "epsHigh": 1.56,
             "epsYearAgo": 1.35,
-            "epsAnalysts": 17,
-            "epsGrowth": 13.7,
+            "epsAnalysts": 16,
+            "epsGrowth": 13.4,
             "epsCur": "USD",
-            "rev": 1215080310,
+            "rev": 1221271210,
             "revAnalysts": 16,
             "revYearAgo": 1159000000,
-            "revGrowth": 4.8,
+            "revGrowth": 5.4,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 1.31,
+            "eps": 1.32,
             "epsLow": 1.07,
-            "epsHigh": 1.5,
+            "epsHigh": 1.53,
             "epsYearAgo": 1.15,
-            "epsAnalysts": 12,
-            "epsGrowth": 14.3,
+            "epsAnalysts": 11,
+            "epsGrowth": 14.8,
             "epsCur": "USD",
-            "rev": 1157022360,
-            "revAnalysts": 11,
+            "rev": 1157453600,
+            "revAnalysts": 10,
             "revYearAgo": 1091000000,
             "revGrowth": 6.1,
             "revCur": "USD"
@@ -21115,33 +21247,33 @@ window.TEAM4_DATA = {
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 5.36,
-            "epsLow": 5.32,
-            "epsHigh": 5.4,
+            "eps": 5.44,
+            "epsLow": 5.35,
+            "epsHigh": 5.64,
             "epsYearAgo": 4.84,
-            "epsAnalysts": 21,
-            "epsGrowth": 10.7,
+            "epsAnalysts": 20,
+            "epsGrowth": 12.3,
             "epsCur": "USD",
-            "rev": 4624396020,
-            "revAnalysts": 19,
+            "rev": 4631965800,
+            "revAnalysts": 18,
             "revYearAgo": 4343000000,
-            "revGrowth": 6.5,
+            "revGrowth": 6.7,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 6.13,
-            "epsLow": 5.84,
-            "epsHigh": 6.56,
-            "epsYearAgo": 5.36,
-            "epsAnalysts": 21,
-            "epsGrowth": 14.4,
+            "eps": 6.16,
+            "epsLow": 5.83,
+            "epsHigh": 6.62,
+            "epsYearAgo": 5.44,
+            "epsAnalysts": 20,
+            "epsGrowth": 13.3,
             "epsCur": "USD",
-            "rev": 4923233270,
-            "revAnalysts": 19,
-            "revYearAgo": 4624396020,
-            "revGrowth": 6.5,
+            "rev": 4941219870,
+            "revAnalysts": 18,
+            "revYearAgo": 4631965800,
+            "revGrowth": 6.7,
             "revCur": "USD"
           }
         ],
@@ -21151,10 +21283,10 @@ window.TEAM4_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": 1.53,
-            "d7": 0,
-            "d30": 0,
-            "d90": 2.5,
-            "ago90": 1.5,
+            "d7": -0.3,
+            "d30": -0.4,
+            "d90": 0.3,
+            "ago90": 1.53,
             "up7": 2,
             "up30": 2,
             "down7": 1,
@@ -21164,11 +21296,11 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 1.31,
-            "d7": 0,
-            "d30": -0.8,
-            "d90": 1.9,
-            "ago90": 1.29,
+            "now": 1.32,
+            "d7": 0.4,
+            "d30": -0.4,
+            "d90": 0.1,
+            "ago90": 1.32,
             "up7": 2,
             "up30": 10,
             "down7": 0,
@@ -21178,11 +21310,11 @@ window.TEAM4_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 5.36,
-            "d7": 0,
-            "d30": 0,
-            "d90": 2.5,
-            "ago90": 5.23,
+            "now": 5.44,
+            "d7": 1.5,
+            "d30": 1.5,
+            "d90": 1.7,
+            "ago90": 5.35,
             "up7": 3,
             "up30": 2,
             "down7": 0,
@@ -21192,11 +21324,11 @@ window.TEAM4_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 6.13,
-            "d7": 0,
-            "d30": 0.4,
-            "d90": 3.3,
-            "ago90": 5.93,
+            "now": 6.16,
+            "d7": 0.5,
+            "d30": 0.8,
+            "d90": 1.8,
+            "ago90": 6.05,
             "up7": 2,
             "up30": 2,
             "down7": 1,
@@ -21206,9 +21338,9 @@ window.TEAM4_DATA = {
         "surprises": [
           {
             "quarter": "2026-09-30",
-            "actual": 1.62,
+            "actual": 1.44,
             "estimate": 1.36,
-            "surprisePct": 19.3,
+            "surprisePct": 6.1,
             "cur": "USD"
           },
           {
@@ -21239,9 +21371,29 @@ window.TEAM4_DATA = {
           "downgrades": 0,
           "initiations": 0,
           "ptRaised": 12,
-          "ptLowered": 0,
-          "total": 12,
+          "ptLowered": 2,
+          "total": 14,
           "recent": [
+            {
+              "date": "2026-10-30",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Lowers",
+              "pt": 300,
+              "ptPrior": 320
+            },
+            {
+              "date": "2026-10-30",
+              "firm": "Evercore ISI Group",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Lowers",
+              "pt": 275,
+              "ptPrior": 290
+            },
             {
               "date": "2026-10-19",
               "firm": "Canaccord Genuity",
@@ -21321,26 +21473,6 @@ window.TEAM4_DATA = {
               "ptAction": "Raises",
               "pt": 260,
               "ptPrior": 135
-            },
-            {
-              "date": "2026-09-03",
-              "firm": "Argus Research",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 235,
-              "ptPrior": 180
-            },
-            {
-              "date": "2026-08-03",
-              "firm": "Canaccord Genuity",
-              "action": "main",
-              "from": "Hold",
-              "to": "Hold",
-              "ptAction": "Raises",
-              "pt": 205,
-              "ptPrior": 190
             }
           ]
         },
@@ -21547,7 +21679,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -21610,7 +21742,7 @@ window.TEAM4_DATA = {
       "nameKo": "몰리나 헬스케어",
       "nameEn": "MOLINA HEALTHCARE INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "몰리나 헬스케어",
         "nameEn": "MOLINA HEALTHCARE INC",
         "financials": {
@@ -22280,7 +22412,7 @@ window.TEAM4_DATA = {
         "categoryName": "매크로·정책·산업 돌파",
         "isHighlight": true,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -22315,7 +22447,7 @@ window.TEAM4_DATA = {
       "nameKo": "노스웨스턴 에너지 그룹",
       "nameEn": "NORTHWESTERN ENERGY GROUP INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "노스웨스턴 에너지 그룹",
         "nameEn": "NORTHWESTERN ENERGY GROUP INC",
         "financials": {
@@ -22914,7 +23046,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -22942,7 +23074,7 @@ window.TEAM4_DATA = {
       "nameKo": "레비티",
       "nameEn": "REVVITY INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "레비티",
         "nameEn": "REVVITY INC",
         "financials": {
@@ -23553,13 +23685,13 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [],
       "nameKo": "아메텍",
       "nameEn": "AMETEK INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "아메텍",
         "nameEn": "AMETEK INC",
         "financials": {
@@ -24199,7 +24331,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -24220,7 +24352,7 @@ window.TEAM4_DATA = {
       "nameKo": "데이터도그",
       "nameEn": "DATADOG INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "데이터도그",
         "nameEn": "DATADOG INC",
         "financials": {
@@ -25005,7 +25137,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -25033,7 +25165,7 @@ window.TEAM4_DATA = {
       "nameKo": "AMD",
       "nameEn": "ADVANCED MICRO DEVICES INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "AMD",
         "nameEn": "ADVANCED MICRO DEVICES INC",
         "financials": {
@@ -25103,6 +25235,12 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
+              "title": "Intel Has a Massive Warning for AMD Stock Investors. Is It Time to Book Profits Before Nov. 3?",
+              "url": "https://www.nasdaq.com/articles/intel-has-massive-warning-amd-stock-investors-it-time-book-profits-nov-3",
+              "date": "2026-10-31",
+              "publisher": "The Motley Fool"
+            },
+            {
               "title": "AMD Reports on Nov. 3. Here's What You Should Do Before Then.",
               "url": "https://www.nasdaq.com/articles/amd-reports-nov-3-heres-what-you-should-do-then",
               "date": "2026-10-30",
@@ -25125,12 +25263,6 @@ window.TEAM4_DATA = {
               "url": "https://www.nasdaq.com/articles/should-you-buy-amd-stock-huge-investor-update",
               "date": "2026-10-30",
               "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Cerebras Expands AI Footprint With Oracle: Can It Outpace NVDA & AMD?",
-              "url": "https://www.nasdaq.com/articles/cerebras-expands-ai-footprint-oracle-can-it-outpace-nvda-amd",
-              "date": "2026-10-29",
-              "publisher": "Zacks"
             }
           ]
         },
@@ -25831,7 +25963,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -25958,7 +26090,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -26047,7 +26179,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -26089,7 +26221,7 @@ window.TEAM4_DATA = {
       "nameKo": "실리콘 래브러토리스",
       "nameEn": "SILICON LABORATORIES",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "실리콘 래브러토리스",
         "nameEn": "SILICON LABORATORIES",
         "financials": {
@@ -26661,7 +26793,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -26682,7 +26814,7 @@ window.TEAM4_DATA = {
       "nameKo": "내추럴 리소스 파트너스",
       "nameEn": "NATURAL RESOURCE PARTNERS LP",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "내추럴 리소스 파트너스",
         "nameEn": "NATURAL RESOURCE PARTNERS LP",
         "financials": {
@@ -27236,7 +27368,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -27264,7 +27396,7 @@ window.TEAM4_DATA = {
       "nameKo": "델 테크놀로지스",
       "nameEn": "DELL TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "델 테크놀로지스",
         "nameEn": "DELL TECHNOLOGIES INC",
         "financials": {
@@ -28064,7 +28196,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -28106,7 +28238,7 @@ window.TEAM4_DATA = {
       "nameKo": "쇼피파이",
       "nameEn": "SHOPIFY INC",
       "detail": {
-        "fetchedAt": "2026-10-31",
+        "fetchedAt": "2026-11-01",
         "nameKo": "쇼피파이",
         "nameEn": "SHOPIFY INC",
         "financials": {
@@ -28799,7 +28931,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-31",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -28935,166 +29067,14 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 51,
     "total": 51,
-    "cap": 50,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 1,
+    "carried": 51,
     "ineligible": 0,
-    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 51종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "GKOS",
-        "category": 1,
-        "oneLine": "3분기 매출 2.11억 달러(사상 최대, +58%), 흑자 전환, 연간 전망 상향"
-      },
-      {
-        "ticker": "CROX",
-        "category": 1,
-        "oneLine": "3분기 매출·주당순이익 모두 예상 상회, 연간 전망 상향"
-      },
-      {
-        "ticker": "FCN",
-        "category": 1,
-        "oneLine": "조정 주당순이익 예상 상회, 매출 10.13억 달러(사상 최대), 전망 상향"
-      },
-      {
-        "ticker": "HII",
-        "category": 1,
-        "oneLine": "3분기 매출·주당순이익이 증권사 예상치를 모두 상회"
-      },
-      {
-        "ticker": "WST",
-        "category": 1,
-        "oneLine": "올해 조정 주당순이익 전망을 크게 상향"
-      },
-      {
-        "ticker": "DVA",
-        "category": 1,
-        "oneLine": "매출·주당순이익 예상 상회, 매출 35.8억 달러(+4.6%), 순이익 +48.3%"
-      },
-      {
-        "ticker": "MANH",
-        "category": 1,
-        "oneLine": "매출·주당순이익 예상 상회, Truist 목표가 240→305달러"
-      },
-      {
-        "ticker": "LNG",
-        "category": 1,
-        "oneLine": "전망 상향·배당 12% 증액, 매출 +42%. 주당순이익은 예상 하회"
-      },
-      {
-        "ticker": "TXT",
-        "category": 1,
-        "oneLine": "실적이 예상 평균을 웃돌고 연간 전망 상향 보도, 주가 급등"
-      },
-      {
-        "ticker": "WEC",
-        "category": 1,
-        "oneLine": "매출·주당순이익 예상 상회, 2026년 가이던스(회사 전망) 상향"
-      },
-      {
-        "ticker": "TYL",
-        "category": 1,
-        "oneLine": "3분기 이익이 예상 상회 보도. 전망 상향 근거는 없음"
-      },
-      {
-        "ticker": "VMC",
-        "category": 1,
-        "oneLine": "3분기 주당순이익이 시장 예상치를 상회"
-      },
-      {
-        "ticker": "FLS",
-        "category": 1,
-        "oneLine": "이익·매출 예상 상회. 전망은 상향 아닌 범위 좁히기 수준"
-      },
-      {
-        "ticker": "HLI",
-        "category": 1,
-        "oneLine": "이익·매출 예상 상회, 그러나 발표 직후 시간외 주가는 하락"
-      },
-      {
-        "ticker": "AAMI",
-        "category": 1,
-        "oneLine": "주당순이익 1.36달러(예상 1.22달러), 매출은 예상보다 2.38% 낮음"
-      },
-      {
-        "ticker": "GATX",
-        "category": 1,
-        "oneLine": "순이익 1.05억 달러, 올해 이익이 전망 상단을 소폭 넘을 전망"
-      },
-      {
-        "ticker": "MHK",
-        "category": 1,
-        "oneLine": "조정 주당순이익 2.72달러로 예상 상회, 5억 달러 자사주 매입 승인"
-      },
-      {
-        "ticker": "PDS",
-        "category": 1,
-        "oneLine": "3분기 실적 발표와 거래량 증가가 겹침. 예상 상회 근거는 없음"
-      },
-      {
-        "ticker": "THC",
-        "category": 1,
-        "oneLine": "3분기 실적 예상 상회, 2026년 연간 전망 상향"
-      },
-      {
-        "ticker": "H",
-        "category": 1,
-        "oneLine": "연간 객실당 매출 성장 전망을 5~5.5%로 상향, 이익 예상 상회"
-      },
-      {
-        "ticker": "JLL",
-        "category": 1,
-        "oneLine": "2026년 주당순이익 목표를 25.20~26.30달러로 상향(중간값 +37%)"
-      },
-      {
-        "ticker": "WCC",
-        "category": 1,
-        "oneLine": "매출·주당순이익 예상 상회, 2026년 가이던스 상향, 주가 급등"
-      },
-      {
-        "ticker": "EHC",
-        "category": 1,
-        "oneLine": "주당순이익·매출 예상 상회, 전망 상향, BofA 목표가 153→157달러"
-      },
-      {
-        "ticker": "LLY",
-        "category": 1,
-        "oneLine": "3분기 매출 243.97억 달러(+39%), 예상 상회, 연간 매출 전망 재상향"
-      },
-      {
-        "ticker": "SITE",
-        "category": 1,
-        "oneLine": "주당순이익·매출 예상 상회, 자사주 매입 한도 5억 달러 증액"
-      },
-      {
-        "ticker": "STNG",
-        "category": 1,
-        "oneLine": "배당 67% 인상, 운임 사상 최고라고 밝힘. 예상 대비 근거는 없음"
-      },
-      {
-        "ticker": "CNXN",
-        "category": 1,
-        "oneLine": "매출·이익 모두 예상 상회, 사상 최고 평가"
-      },
-      {
-        "ticker": "NEU",
-        "category": 1,
-        "oneLine": "주당순이익 13.50달러(전년 10.67달러), 분기 배당 약 8% 인상"
-      },
-      {
-        "ticker": "TWLO",
-        "category": 1,
-        "oneLine": "3분기 이익과 매출이 시장 예상치를 상회"
-      }
-    ],
-    "sectorSignal": "실적 호재 29건이 거의 전부이고, 산업재(HII·TXT·FCN·GATX·FLS·WCC)와 헬스케어(GKOS·WST·DVA·THC·EHC·LLY)가 비교적 많지만 한 업종에 쏠렸다고 보기는 어렵습니다. 산업 기술 돌파 호재는 없었습니다.",
-    "caution": "같은 실적 호재라도 강도가 다릅니다. 예상 상회와 전망 상향이 같이 확인된 종목이 있는 반면, LNG(주당순이익 하회), FLS(전망 범위만 좁힘), HLI(시간외 하락), AAMI(매출 하회), PDS·TYL·STNG는 서프라이즈 근거가 약합니다. 차트 상태는 보지 않았으니 직접 확인하세요.",
-    "researchedOn": "2026-10-30"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "FBIZ",
@@ -29240,13 +29220,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재가 26건으로 압도적이고, 정책·산업 쪽은 2건뿐이다. 입력에 업종 정보가 없어 특정 업종 쏠림은 판단하지 않았다.",
     "caution": "실적 호재 상당수는 예상치 상회 사실만 확인된 것이고, ERIE·BAH·MHK·AJG는 매출 부진이나 예상 미달 보도가 섞여 있다. 가격·차트 자료를 받지 않아 이미 주가에 반영됐는지는 알 수 없다.",
     "researchedOn": "2026-10-31"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 26,
-    "3": 2,
-    "4": 1,
-    "5": 2,
-    "6": 20
   }
 };
