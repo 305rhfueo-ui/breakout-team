@@ -203,5 +203,42 @@ async function getArticle(url) {
     }, 7 * 864e5);
   } catch (e) { return null; }
 }
+// ── 커버드콜·WeeklyPay 분배금 (2026-11-01 11팀 시윤) — v8 chart(crumb 불필요)로 400일 일봉 + 분배 이벤트 한 번에. 같은 간격·쿨다운.
+//   나스닥 dividends API 는 NYSE Arca·Cboe 상품(TSLY 등)을 "Non-Nasdaq symbols" 로 거절한다(2026-10-30 실측) → 야후.
+//   close·분배금 모두 분할 조정값이라 역분할이 있어도 서로 맞는다.
+function parseDistributions(j) {
+  const r = (((j || {}).chart || {}).result || [])[0], q = r && (((r.indicators || {}).quote || [])[0] || {});
+  if (!r || !r.timestamp || !q.close) return null;
+  const rows = r.timestamp.map((t, i) => [ymdOf(t), q.close[i]]).filter((x) => x[1] != null);
+  if (!rows.length) return null;
+  const divs = Object.values((r.events || {}).dividends || {}).map((d) => [ymdOf(d.date), d.amount]).sort((a, b) => a[0].localeCompare(b[0]));
+  const [d1, price] = rows[rows.length - 1], yearAgo = new Date(Date.parse(d1) - 365 * 864e5).toISOString().slice(0, 10);
+  const [since, base] = rows.find((x) => x[0] >= yearAgo);
+  const paid = divs.filter((x) => x[0] > since).reduce((s, x) => s + x[1], 0);
+  const q90 = divs.filter((x) => Date.parse(d1) - Date.parse(x[0]) <= 91 * 864e5).length;
+  const perYear = q90 >= 9 ? 52 : q90 >= 2 ? 12 : q90 ? 4 : 0, last = divs[divs.length - 1];
+  return { price: r2(price), date: d1, since, perYear, last: last ? { date: last[0], amount: last[1] } : null,
+    ratePct: last && perYear ? r1((last[1] * perYear / price) * 100) : null,           // 최근 분배 × 연 횟수 ÷ 현재가 (운용사가 말하는 분배율)
+    paidPct: r1((paid / base) * 100), pricePct: r1((price / base - 1) * 100), totalPct: r1(((price + paid) / base - 1) * 100) };
+}
+async function fetchChart(T) {
+  if (blocked || coolingDown()) return null;
+  const p2 = Math.floor(Date.now() / 1000), p1 = p2 - 400 * 86400;
+  for (const host of ['query2', 'query1']) {
+    await throttle();
+    try {
+      const r = await fetch(`https://${host}.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(T)}?period1=${p1}&period2=${p2}&interval=1d&events=div`, { headers: UA, signal: AbortSignal.timeout(20000) });
+      if (r.status === 429 || r.status === 403) { startCooldown(r.status); return null; }
+      if (!r.ok) return null;
+      return await r.json();
+    } catch (e) { /* 연결 시간 초과 — 다른 주소로 한 번 더 */ }
+  }
+  return null;
+}
+async function getDistributions(ticker) {
+  const T = String(ticker || '').trim().toUpperCase();
+  if (!/^[A-Z]{1,6}$/.test(T)) return null;
+  try { return await cache.through('yahooDist', T, async () => parseDistributions(await fetchChart(T))); } catch (e) { return null; }
+}
 
-module.exports = { getArticle, getEstimates, getNews, parseNews, parseQuoteSummary, newSession, coolingDown, httpsText, GAP_MS, COOLDOWN_H };
+module.exports = { getArticle, getEstimates, getNews, parseNews, getDistributions, parseDistributions, parseQuoteSummary, newSession, coolingDown, httpsText, GAP_MS, COOLDOWN_H };

@@ -202,6 +202,41 @@ console.log('\n[10팀] 윤슬 — 금리 전환 감시 · 연준 경제전망 (2
   ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e10.document.getElementById('team').innerHTML.includes('윤슬')); assert.ok(e10.bodyFor('t10').includes('아직 확인 전')); });
 }
 
+console.log('\n[11팀 시윤] 커버드콜 × 와인스타인 단계 — 표·브리핑·팝업 요건 (2026-11-01)');
+{
+  const W = require(path.join(REPO, 'scripts/lib/weinstein'));
+  const dateOf = (t) => new Date(t).toISOString().slice(0, 10), T0 = Date.UTC(2024, 0, 1);
+  const daily = (cl) => cl.flatMap((c, w) => [0, 1, 2, 3, 4].map((d) => ({ t: T0 + (w * 7 + d) * 864e5, h: c * 1.01, l: c * 0.99, c, v: w < 40 ? 2000 : 1000 })));
+  const closes = [...Array.from({ length: 40 }, (_, i) => 200 - i * 2.5), ...Array.from({ length: 40 }, (_, k) => 100 + 5 * Math.sin((2 * Math.PI * (k + 0.5)) / 6))];
+  const one = { ticker: 'ZZONE', ...W.analyze(daily(closes), daily(Array(80).fill(100)), { dateOf }),
+    products: [{ ticker: 'ZZCC', kind: 'cc', ratePct: 51.5, paidPct: 40.5, pricePct: -45.3, totalPct: -4.8, underPct: -9.2, since: '2025-10-30', last: { date: '2026-10-29', amount: 0.223 } },
+      { ticker: 'ZZWP', kind: 'wp', ratePct: 20.6, paidPct: 33.9, pricePct: -48.6, totalPct: -14.6, underPct: -9.2, since: '2025-10-30', last: { date: '2026-10-26', amount: 0.075 }, stale: true }] };
+  const data = { updated: '2026-11-01T00:00:00Z', asOf: '2026-10-30', yahoo: { got: 1, total: 2, cooldown: false },
+    items: [one, { ticker: 'ZZNEW', verdict: '판정 불가', reason: '주봉 20주뿐 — 상장이 짧음', products: [] }] };
+  const cw = loadRoom(`window.COVEREDCALL_DATA = ${JSON.stringify(data)};`);
+  cw.cards();
+  const card = cw.document.getElementById('team').innerHTML, b = cw.bodyFor('t11'), br = cw.briefing('t11');
+  ok('카드·탭 표에 단계·상품 분배율·총수익·기초, WeeklyPay 칸 분리, 경고 문구', () => {
+    assert.strictEqual(one.verdict, '1단계');
+    for (const k of ['시윤', 'ZZONE']) assert.ok(card.includes(k), `카드에 없음: ${k}`);
+    for (const k of ['data-tk="ZZONE"', '🟢 1단계', '<b>ZZCC</b> 51.5%', '총 -4.8% · 기초 -9.2%', '<b>ZZWP</b> 20.6%', '지난주 값', '커버드콜이 아닙니다', '33%뿐', '분배금 1/2개만 새로 받음', '상장이 짧아 판정 불가']) assert.ok(b.includes(k), `탭에 없음: ${k}`);
+    assert.ok(b.indexOf('ZZCC') < b.indexOf('ZZWP'), 'WeeklyPay 는 오른쪽 칸');
+    assert.ok(br.includes('<b>ZZONE</b>') && br.includes('33%뿐'));
+  });
+  cw.openTicker('ZZONE'); const h = cw.document.getElementById('mbox2').innerHTML;
+  ok('팝업 맨 위에 와인스타인 요건 6가지 ✓/✗·주봉 그림·돌파선·상품 표', () => {
+    for (const k of ['와인스타인 단계', '🟢 1단계', '① 직전이 하락', '② 30주선이 평평', '③ 30주선을 위아래로 오감', '④ 박스권', '⑤ 거래량 감소', '⑥ 상대강도 바닥 다지기',
+      '✅', '<polyline', '2단계 돌파선', 'Roundhill 1.2배 · 커버드콜 아님', '2026-10-29 $0.223', '(지난주 값)']) assert.ok(h.includes(k), `없음: ${k}`);
+    assert.ok(h.indexOf('와인스타인 단계') < h.indexOf('ohlcBox'), '일봉 차트보다 위');
+  });
+  cw.openTicker('ZZNEW');
+  ok('판정 불가는 이유만(요건 없음)', () => { const h2 = cw.document.getElementById('mbox2').innerHTML; assert.ok(h2.includes('상장이 짧음') && !h2.includes('① 직전이 하락')); });
+  cw.openTicker('ZZOTHER');
+  ok('커버드콜 기초가 아닌 종목 팝업엔 칸이 없다', () => assert.ok(!cw.document.getElementById('mbox2').innerHTML.includes('와인스타인 단계')));
+  const e11 = loadRoom(''); e11.cards();
+  ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e11.document.getElementById('team').innerHTML.includes('시윤')); assert.ok(e11.bodyFor('t11').includes('아직 확인 전')); });
+}
+
 console.log('\n[팝업] SNS 반응 — 레딧 정리·글 목록·X 검색 링크 (2026-10-28)');
 {
   const cs = loadRoom(`window.SNS_DATA = ${JSON.stringify({ items: { ZZSNS: { fetchedOn: '2026-10-28', mood: 'bear', summary: 'SNSSUM 요약', heat: 'SNSHEAT 과열',
