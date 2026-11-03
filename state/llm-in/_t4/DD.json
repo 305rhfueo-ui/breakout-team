@@ -1,0 +1,142 @@
+{
+ "ticker": "DD",
+ "news": [
+  {
+   "title": "DuPont Net-Zero Climate Targets Validated by Science Based Targets initiative",
+   "url": "https://finance.yahoo.com/energy/articles/dupont-net-zero-climate-targets-130000018.html",
+   "date": "2026-10-29",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Avient (AVNT) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/avient-avnt-reports-next-week-130025880.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What to Expect From DuPont de Nemours’ Next Quarterly Earnings Report",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expect-dupont-nemours-next-quarterly-061005012.html",
+   "date": "2026-10-27",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-09",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000055/dd-20260909.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000049/dd-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-23",
+   "items": [
+    "3.03",
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000046/dd-20260623.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000034/dd-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000029/dd-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-15",
+   "reportDate": "2026-04-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000025/dd-20260413.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.62,
+  "saleNy": 3.97,
+  "epsCy": 43.9,
+  "epsNy": 10.03,
+  "cyTrend": -0.07,
+  "nyTrend": 0.3,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": null
+ }
+}

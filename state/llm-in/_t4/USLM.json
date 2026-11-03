@@ -1,0 +1,172 @@
+{
+ "ticker": "USLM",
+ "news": [
+  {
+   "title": "United States Lime & Minerals (USLM) Price Target Increased by 10.40% to 140.76",
+   "url": "https://www.nasdaq.com/articles/united-states-lime-minerals-uslm-price-target-increased-1040-14076",
+   "date": "2026-03-27",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "United States Lime (USLM) Q2 Up 20%",
+   "url": "https://www.nasdaq.com/articles/united-states-lime-uslm-q2-20",
+   "date": "2025-08-01",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "United States Lime & Minerals (USLM) Stock Cools After Q3 Earnings Margin Slip",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/united-states-lime-minerals-uslm-060913791.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "United States Lime & Minerals Q3 Earnings Fall, Revenue Rises",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/united-states-lime-minerals-q3-204849424.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "United States Lime: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/united-states-lime-q3-earnings-204428651.html",
+   "date": "2026-10-30",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "United States Lime & Minerals Reports Third Quarter 2026 Results and Declares Regular Quarterly Cash Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/united-states-lime-minerals-reports-203600163.html",
+   "date": "2026-10-30",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "reportDate": "2026-10-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926120672/uslm-20261030x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926088183/uslm-20260729x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-01",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926054909/uslm-20260501x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926051741/uslm-20260429x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-02",
+   "reportDate": "2026-02-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926009218/uslm-20260202x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-29",
+   "reportDate": "2025-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465925103779/uslm-20251029x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.88,
+  "saleNy": 13.43,
+  "epsCy": 7.92,
+  "epsNy": 13.1,
+  "cyTrend": -1.95,
+  "nyTrend": -2.4,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.31,
+    -3.75,
+    9.84
+   ],
+   "ni": [
+    11.93,
+    -10.35,
+    13.19
+   ],
+   "opm": [
+    41.01,
+    40.74,
+    40.95
+   ],
+   "updated": "2026-09-08 08:35:26"
+  }
+ }
+}

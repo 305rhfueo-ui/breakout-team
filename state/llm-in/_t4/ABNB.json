@@ -1,0 +1,212 @@
+{
+ "ticker": "ABNB",
+ "news": [
+  {
+   "title": "Airbnb (ABNB) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://www.nasdaq.com/articles/airbnb-abnb-q3-earnings-horizon-analysts-insights-key-performance-measures",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Nasdaq-100® Inside the Index: Airbnb (ABNB)",
+   "url": "https://www.nasdaq.com/articles/global-indexes/inside-the-index/abnb",
+   "date": "2026-10-28",
+   "publisher": "Nasdaq Index Insights Team"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Stock Sinks As Market Gains: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-stock-sinks-market-gains-what-you-should-know",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb (ABNB) is an Incredible Growth Stock: 3 Reasons Why",
+   "url": "https://www.nasdaq.com/articles/airbnb-abnb-incredible-growth-stock-3-reasons-why",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Is a Trending Stock: Facts to Know Before Betting on It",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-trending-stock-facts-know-betting-it-1",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb (ABNB) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-abnb-q3-earnings-horizon-131503788.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Guidance Raised Might Change The Case For Investing In Amex Stock (AXP)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-guidance-raised-might-change-231054410.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Airbnb (ABNB) Commits To 1 Million Free Emergency Housing Nights Each Year",
+   "url": "https://finance.yahoo.com/small-business/articles/airbnb-abnb-commits-1-million-110802380.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Best Stocks to Buy Now",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/best-stocks-buy-now-181322412.html",
+   "date": "2026-10-30",
+   "publisher": "Kiplinger",
+   "via": "Yahoo"
+  },
+  {
+   "title": "2 profitable stocks with impressive fundamentals and 1 facing challenges",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-impressive-fundamentals-153929658.html",
+   "date": "2026-10-30",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Airbnb owners hit by £800m tax raid",
+   "url": "https://finance.yahoo.com/real-estate/articles/airbnb-owners-hit-800m-tax-135402366.html",
+   "date": "2026-10-30",
+   "publisher": "The Telegraph",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-16",
+   "reportDate": "2026-03-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526108514/d106317d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-21",
+   "reportDate": "2025-11-18",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525291024/d41935d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.83,
+  "saleNy": 11.56,
+  "epsCy": 31.81,
+  "epsNy": 18,
+  "cyTrend": -0.03,
+  "nyTrend": 0.37,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    16.54,
+    17.87,
+    12.02
+   ],
+   "ni": [
+    27.1,
+    3.9,
+    -26.03
+   ],
+   "opm": [
+    21.01,
+    3.21,
+    9.68
+   ],
+   "updated": "2026-09-07 05:58:13"
+  }
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "ticker": "HSIC",
+ "news": [
+  {
+   "title": "Why Henry Schein (HSIC) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-henry-schein-hsic-top-momentum-stock-long-term",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Analysts Estimate Henry Schein (HSIC) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-henry-schein-hsic-report-decline-earnings-what-look-out",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Henry Schein (HSIC) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-henry-schein-hsic-top-growth-stock-long-term-0",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Henry Schein (HSIC) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/henry-schein-hsic-top-ranked-value-stock-should-you-buy",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HSIC or MMSI: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/hsic-or-mmsi-which-better-value-stock-right-now",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Henry Schein (HSIC) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-henry-schein-hsic-stock-0",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Henry Schein (HSIC) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-henry-schein-hsic-strong-growth-stock",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Henry Schein (HSIC) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-henry-schein-hsic-right-now-0",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Henry Schein (HSIC) reports earnings tomorrow: what to expect",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/henry-schein-hsic-reports-earnings-084536565.html",
+   "date": "2026-11-02",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Henry Schein (HSIC), What Is Behind The Fresh Attention Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/henry-schein-hsic-behind-fresh-020903101.html",
+   "date": "2026-10-29",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Preview: Staar Surgical (STAA) Q3 Earnings Expected to Decline",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-staar-surgical-staa-130017637.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Analysts Estimate Henry Schein (HSIC) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-henry-schein-hsic-130013417.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-08",
+   "reportDate": "2026-10-06",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000119312526417409/d159348d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-22",
+   "reportDate": "2026-09-21",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000119312526397208/d110297d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000043/hsic-20260804.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000119312526324857/d55491d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000119312526235496/d21093d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000021/hsic-20260505.htm",
+   "description": "CURRENT REPORT FILING"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.17,
+  "saleNy": 4,
+  "epsCy": 8.38,
+  "epsNy": 11.21,
+  "cyTrend": 0.19,
+  "nyTrend": 0.01,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    6.73,
+    6.31,
+    7.71
+   ],
+   "ni": [
+    9.3,
+    -2.73,
+    7.45
+   ],
+   "opm": [
+    4.95,
+    5.4,
+    4.74
+   ],
+   "updated": "2026-09-08 09:45:09"
+  }
+ }
+}

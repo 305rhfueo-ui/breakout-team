@@ -1,0 +1,262 @@
+{
+ "ticker": "IDXX",
+ "news": [
+  {
+   "title": "IDEXX Sales Rise 10% as Margin Outlook Slips: Rapid Earnings Reaction",
+   "url": "https://www.nasdaq.com/articles/idexx-sales-rise-10-margin-outlook-slips-rapid-earnings-reaction",
+   "date": "2026-11-02",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "IDEXX (IDXX) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/idexx-idxx-q3-2026-earnings-call-transcript",
+   "date": "2026-11-02",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Idexx (IDXX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/idexx-idxx-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IDEXX Laboratories Q3 26 Earnings Conference Call At 8:30 AM ET",
+   "url": "https://www.nasdaq.com/articles/idexx-laboratories-q3-26-earnings-conference-call-8-30-am-et",
+   "date": "2026-11-02",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "IDEXX Laboratories Boost FY26 Outlook - Update",
+   "url": "https://www.nasdaq.com/articles/idexx-laboratories-boost-fy26-outlook-update",
+   "date": "2026-11-02",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Idexx Laboratories (IDXX) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/idexx-laboratories-idxx-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IDEXX Laboratories Inc Q3 Profit Climbs",
+   "url": "https://www.nasdaq.com/articles/idexx-laboratories-inc-q3-profit-climbs",
+   "date": "2026-11-02",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Idexx Labs Barks Up A Third-Quarter Beat; Can It Fetch This Next Bullish Move?",
+   "url": "https://finance.yahoo.com/m/2ae6ebb1-985e-3b1e-80f6-bf07b5e92bdd/idexx-labs-barks-up-a.html",
+   "date": "2026-11-02",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Sector Update: Healthcare",
+   "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-135732459.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Idexx (IDXX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/idexx-idxx-q3-earnings-key-133002684.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "IDEXX Laboratories Shares Rise 2.57% as Q3 Earnings Beat Forecasts and FY2026 Guidance Increases",
+   "url": "https://finance.yahoo.com/healthcare/articles/idexx-laboratories-shares-rise-2-131810094.html",
+   "date": "2026-11-02",
+   "publisher": "InvestorsHub",
+   "via": "Yahoo"
+  },
+  {
+   "title": "IDEXX Labs beats estimates, raises guidance as stock gains",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/idexx-labs-beats-estimates-raises-121533333.html",
+   "date": "2026-11-02",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "IDEXX Laboratories' Q3 Comparable Earnings, Revenue Increase; 2026 Outlook Raised",
+   "url": "https://finance.yahoo.com/healthcare/articles/idexx-laboratories-apos-q3-comparable-114522259.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Idexx Laboratories (IDXX) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/idexx-laboratories-idxx-beats-q3-114502680.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Idexx: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/idexx-q3-earnings-snapshot-114248570.html",
+   "date": "2026-11-02",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926120892/tm2628647d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926090033/tm2622041d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000110/idxx-20260512.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926055203/tm2613510d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-26",
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926034906/tm269826d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-13",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000007/idxx-20260213.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874716&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 1214237000,
+    "profit": 402348000,
+    "netIncome": 317145000,
+    "margin": 33.1,
+    "yoy": {
+     "revenue": 9.9,
+     "profit": 13.4,
+     "netIncome": 15.5,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 1216585000,
+    "profit": 425566000,
+    "netIncome": 338412000,
+    "margin": 35,
+    "yoy": {
+     "revenue": 9.7,
+     "profit": 14.1,
+     "netIncome": 15.1,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 1140820000,
+    "profit": 362586000,
+    "netIncome": 278446000,
+    "margin": 31.8,
+    "yoy": {
+     "revenue": 14.3,
+     "profit": 14.5,
+     "netIncome": 14.7,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 1090579000,
+    "profit": 315605000,
+    "netIncome": 248188000,
+    "margin": 28.9,
+    "yoy": {
+     "revenue": 14.3,
+     "profit": 20.6,
+     "netIncome": 14.8,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.77,
+  "saleNy": 8.87,
+  "epsCy": 13.73,
+  "epsNy": 12.48,
+  "cyTrend": 0.28,
+  "nyTrend": -0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.66,
+    14.26,
+    14.28
+   ],
+   "ni": [
+    15.11,
+    14.74,
+    14.82
+   ],
+   "opm": [
+    34.98,
+    31.78,
+    28.94
+   ],
+   "updated": "2026-09-20 06:43:27"
+  }
+ }
+}

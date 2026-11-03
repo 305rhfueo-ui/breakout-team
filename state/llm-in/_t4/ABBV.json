@@ -1,0 +1,202 @@
+{
+ "ticker": "ABBV",
+ "news": [
+  {
+   "title": "ABBV Q3 Earnings Call Highlights Raised Outlook and Pipeline Progress",
+   "url": "https://www.nasdaq.com/articles/abbv-q3-earnings-call-highlights-raised-outlook-and-pipeline-progress",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AbbVie (ABBV) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/abbvie-abbv-q3-2026-earnings-call-transcript",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What AbbVie (ABBV) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-abbvie-abbv-said-its-q3-earnings-call",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "ABBV Beats on Q3 Earnings & Sales, Stock Rises on Raised '26 EPS View",
+   "url": "https://www.nasdaq.com/articles/abbv-beats-q3-earnings-sales-stock-rises-raised-26-eps-view",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About AbbVie (ABBV) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-abbvie-abbv-q3-earnings",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ABBV Q3 deep dive: Immunology and neuroscience drive growth, pipeline progress continues",
+   "url": "https://finance.yahoo.com/healthcare/articles/abbv-q3-deep-dive-immunology-195736947.html",
+   "date": "2026-11-02",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AbbVie Stocks Decline 2.3% With RBC Target Increase Backing Its Immunology Transition",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/abbvie-stocks-decline-2-3-174905317.html",
+   "date": "2026-11-02",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Canaccord Genuity Adjusts Price Target on AbbVie to $338 From $290",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/canaccord-genuity-adjusts-price-target-153143551.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Leerink Partners Adjusts Price Target on AbbVie to $325 From $279",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/leerink-partners-adjusts-price-target-153100002.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AbbVie License Deal With Brise Potentially Valued at $757 Million",
+   "url": "https://finance.yahoo.com/healthcare/articles/abbvie-license-deal-brise-potentially-151109132.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AbbVie (ABBV) Lands Phase 3 Migraine Study Win In The Lancet Neurology",
+   "url": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-lands-phase-3-150654738.html",
+   "date": "2026-11-02",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "reportDate": "2026-10-28",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926121322/tm2628215d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "reportDate": "2026-10-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000033/abbv-20261030.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-15",
+   "reportDate": "2026-10-14",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926116227/tm2627361d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-05",
+   "reportDate": "2026-10-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000030/abbv-20261005.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "reportDate": "2026-09-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926104940/tm2624674d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-18",
+   "reportDate": "2026-08-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926098367/tm2623337d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.8,
+  "saleNy": 8.77,
+  "epsCy": 40.37,
+  "epsNy": 15.14,
+  "cyTrend": 0.23,
+  "nyTrend": -0.59,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.16,
+    12.43,
+    10.04
+   ],
+   "ni": [
+    285.18,
+    -46.32,
+    "흑자전환"
+   ],
+   "opm": [
+    37.86,
+    26.6,
+    27.34
+   ],
+   "updated": "2026-09-08 05:46:22"
+  }
+ }
+}

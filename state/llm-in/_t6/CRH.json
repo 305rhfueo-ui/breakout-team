@@ -1,0 +1,753 @@
+{
+ "ticker": "CRH",
+ "date": "2026-11-03",
+ "session": "2026-11-02",
+ "source": "list",
+ "plan": {
+  "ticker": "CRH",
+  "name": "CRH",
+  "sector": "Basic Materials",
+  "industry": "Building Materials",
+  "price": 96.59,
+  "grade": "C",
+  "state": "post",
+  "pivot": 94.72,
+  "stop": 92.23,
+  "distToPivotPct": 1.97,
+  "distToPivotAdr": 0.7,
+  "riskPerSharePct": 2.63,
+  "adrPct": 2.82,
+  "extensionAdr": 3.22,
+  "breakDate": "2026-11-02",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 17,
+   "priorMovePct": 5,
+   "higherLows": 0,
+   "contraction": 1.33,
+   "closeRange10Adr": 3.1,
+   "surf10": 1.73,
+   "surf20": 2.69,
+   "slope20": 1.47,
+   "baseLow": 78.62,
+   "lastSwingLow": 78.62
+  },
+  "reasons": [
+   "✗ 선행 상승 +5%",
+   "베이스 8주",
+   "깊이 17%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.33배 · 10일 종가폭 3.1 ADR",
+   "✗ 10일선 +1.7 ADR · 20일선 +2.7 ADR",
+   "20일선 기울기 +1.47%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.26798860511068856,
+    "pct": 90.21641118124435
+   },
+   "m3": {
+    "v": 0.022162758578886492,
+    "pct": 44.04869251577998
+   },
+   "m6": {
+    "v": -0.09131332787240347,
+    "pct": 17.718665464382326
+   }
+  },
+  "ret1m": 16.87,
+  "ret3m": -3.49,
+  "ret6m": -12.62,
+  "marketCap": "60.41B",
+  "volx": 2.2,
+  "volSurgeWk": 1.86,
+  "high52": 74.25,
+  "newHigh52": false,
+  "adr": 2.81,
+  "div50": 10.76,
+  "div200": -6.6,
+  "targetStatus": false,
+  "saleCy": 6.19,
+  "saleNy": 8.58,
+  "epsCy": -5.81,
+  "epsNy": 16.63,
+  "cyTrend": -9.59,
+  "nyTrend": -3.76,
+  "est": {
+   "cyCur": 5.29,
+   "cy30": 5.85091,
+   "nyCur": 6.16984,
+   "ny30": 6.41102
+  },
+  "fs": {
+   "sale": [
+    5.59,
+    9.09,
+    6.16
+   ],
+   "ni": [
+    12.66,
+    "적자확대",
+    45.81
+   ],
+   "opm": [
+    18.81,
+    -0.16,
+    14.49
+   ],
+   "updated": "2026-09-07 05:59:07"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-03",
+  "nameKo": "CRH",
+  "nameEn": "CRH",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849395&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 11396000000,
+     "profit": 1896000000,
+     "netIncome": 1245000000,
+     "margin": 16.6,
+     "yoy": {
+      "revenue": 3,
+      "profit": -8.9,
+      "netIncome": -17.2,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 10777000000,
+     "profit": 2079000000,
+     "netIncome": 1486000000,
+     "margin": 19.3,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 7.4,
+      "netIncome": 12.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7370000000,
+     "profit": -38000000,
+     "netIncome": -176000000,
+     "margin": -0.5,
+     "yoy": {
+      "revenue": 9.1,
+      "profit": -311.1,
+      "netIncome": -87.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 9416000000,
+     "profit": 1406000000,
+     "netIncome": 1025000000,
+     "margin": 14.9,
+     "yoy": {
+      "revenue": 6.2,
+      "profit": 27.4,
+      "netIncome": 45.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "What CRH (CRH) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-crh-crh-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "CRH plc Reports Q3 2026 Results, Completes $8.5B Arcosa Acquisition, and Announces $6B Share Buyback",
+     "url": "https://www.nasdaq.com/articles/crh-plc-reports-q3-2026-results-completes-85b-arcosa-acquisition-and-announces-6b-share",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "CRH (CRH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/crh-crh-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, CRH (CRH) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-crh-crh-q3-earnings-look-key-metrics",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRH Plc Q3 26 Earnings Conference Call At 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/crh-plc-q3-26-earnings-conference-call-8-00-am-et",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Unlocking Q3 Potential of CRH (CRH): Exploring Wall Street Estimates for Key Metrics",
+     "url": "https://www.nasdaq.com/articles/unlocking-q3-potential-crh-crh-exploring-wall-street-estimates-key-metrics",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRH (CRH) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/crh-crh-falls-more-steeply-broader-market-what-investors-need-know-0",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRH plc Completes $8.5B Acquisition of Arcosa",
+     "url": "https://www.nasdaq.com/articles/crh-plc-completes-85b-acquisition-arcosa",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000084939526000012/crh-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000119312526429523/d187492d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000162828026050752/crh-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-17",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000162828026048660/crh-20260717.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000119312526276686/d864737d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000162828026043417/crh-20260616.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Great British sell-off? UK takeovers accelerate in a big way",
+   "url": "https://www.cnbc.com/2026/07/22/uk-takeovers-rotork-gooch-housego-ramsdens-mitie.html",
+   "date": "2026-07-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer shares his take on Vulcan and Martin Marietta",
+   "url": "https://www.cnbc.com/video/2026/07/28/jim-cramer-shares-his-take-on-vulcan-and-martin-marietta.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CRH CEO Jim Mintern sits down with Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/07/27/crh-ceo-jim-mintern-sits-down-with-jim-cramer.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CRH",
+  "fetchedAt": "2026-11-03",
+  "source": "한국투자증권 Open API",
+  "per": 17.03,
+  "pbr": 2.53,
+  "eps": 5.67,
+  "bps": 38.13,
+  "shares": 665284500,
+  "marketCapM": 64260,
+  "high52": 130.0918,
+  "high52Date": "2026-01-09",
+  "low52": 78.62,
+  "low52Date": "2026-10-14",
+  "last": 96.59,
+  "prevClose": 90.81,
+  "nameKo": "CRH",
+  "nameEn": "CRH",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 665284500
+ },
+ "estimates": {
+  "ticker": "CRH",
+  "url": "https://finance.yahoo.com/quote/CRH/analysis/",
+  "fetchedAt": "2026-11-03",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.36,
+    "epsLow": 1.16,
+    "epsHigh": 1.51,
+    "epsYearAgo": 1.51,
+    "epsAnalysts": 4,
+    "epsGrowth": -9.5,
+    "epsCur": "USD",
+    "rev": 10059300000,
+    "revAnalysts": 2,
+    "revYearAgo": 9416000000,
+    "revGrowth": 6.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": -0.2,
+    "epsLow": -0.32,
+    "epsHigh": -0.08,
+    "epsYearAgo": -0.2,
+    "epsAnalysts": 5,
+    "epsGrowth": 2,
+    "epsCur": "USD",
+    "rev": 7884020000,
+    "revAnalysts": 3,
+    "revYearAgo": 7370000000,
+    "revGrowth": 7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.34,
+    "epsLow": 4.87,
+    "epsHigh": 5.55,
+    "epsYearAgo": 5.62,
+    "epsAnalysts": 4,
+    "epsGrowth": -5,
+    "epsCur": "USD",
+    "rev": 39706975000,
+    "revAnalysts": 4,
+    "revYearAgo": 37447000000,
+    "revGrowth": 6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 6.03,
+    "epsLow": 5.06,
+    "epsHigh": 6.84,
+    "epsYearAgo": 4.93,
+    "epsAnalysts": 11,
+    "epsGrowth": 22.1,
+    "epsCur": "USD",
+    "rev": 43231060600,
+    "revAnalysts": 12,
+    "revYearAgo": 39706975000,
+    "revGrowth": 8.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.36,
+    "d7": -12.3,
+    "d30": -16.4,
+    "d90": -14.4,
+    "ago90": 1.59,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 4
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": -0.2,
+    "d7": 10.9,
+    "d30": -36.1,
+    "d90": -78.2,
+    "ago90": -0.11,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.34,
+    "d7": -5.5,
+    "d30": -7.6,
+    "d90": -9.7,
+    "ago90": 5.91,
+    "up7": 1,
+    "up30": 1,
+    "down7": 2,
+    "down30": 6
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 6.03,
+    "d7": -3.6,
+    "d30": -5.1,
+    "d90": -8.6,
+    "ago90": 6.59,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 7
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.09,
+    "estimate": 2.03,
+    "surprisePct": 2.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.21,
+    "estimate": 2.02,
+    "surprisePct": 9.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.2,
+    "estimate": -0.23,
+    "surprisePct": 11.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.51,
+    "estimate": 1.53,
+    "surprisePct": -1.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 2,
+   "ptLowered": 9,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-11-02",
+     "firm": "Stephens & Co.",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 105
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 108,
+     "ptPrior": 106
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 114,
+     "ptPrior": 117
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 100,
+     "ptPrior": 106
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 110,
+     "ptPrior": 131
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 135,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 106,
+     "ptPrior": 107
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 105,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 106,
+     "ptPrior": 122
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 135,
+     "ptPrior": 147
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-02",
+  "numbers": {
+   "price": 96.59,
+   "ma20": 84.82,
+   "ma50": 87.21,
+   "ma150": 100,
+   "distMA50": 10.76,
+   "periodHigh": 131.55,
+   "pullbackFromHigh": -26.58,
+   "volRatio20": 1.95,
+   "dryUpRatio": 1.27
+  },
+  "last10": [
+   {
+    "d": "2026-10-20",
+    "o": 82.96,
+    "h": 85.85,
+    "l": 82.75,
+    "c": 85.22,
+    "v": 5832900,
+    "clsPos": 80,
+    "gapPct": -0.26
+   },
+   {
+    "d": "2026-10-21",
+    "o": 86.03,
+    "h": 86.33,
+    "l": 84.83,
+    "c": 86.03,
+    "v": 4550600,
+    "clsPos": 80,
+    "gapPct": 0.95
+   },
+   {
+    "d": "2026-10-22",
+    "o": 85.41,
+    "h": 86.82,
+    "l": 84.59,
+    "c": 86.43,
+    "v": 4501200,
+    "clsPos": 83,
+    "gapPct": -0.72
+   },
+   {
+    "d": "2026-10-23",
+    "o": 86.54,
+    "h": 86.9,
+    "l": 84.28,
+    "c": 84.89,
+    "v": 3661600,
+    "clsPos": 23,
+    "gapPct": 0.13
+   },
+   {
+    "d": "2026-10-26",
+    "o": 84.82,
+    "h": 85.8,
+    "l": 84.57,
+    "c": 85.43,
+    "v": 4677700,
+    "clsPos": 70,
+    "gapPct": -0.08
+   },
+   {
+    "d": "2026-10-27",
+    "o": 85.7,
+    "h": 86.14,
+    "l": 84.57,
+    "c": 85.77,
+    "v": 3250900,
+    "clsPos": 76,
+    "gapPct": 0.32
+   },
+   {
+    "d": "2026-10-28",
+    "o": 85.8,
+    "h": 86.99,
+    "l": 85.16,
+    "c": 86.54,
+    "v": 4611100,
+    "clsPos": 75,
+    "gapPct": 0.03
+   },
+   {
+    "d": "2026-10-29",
+    "o": 84.05,
+    "h": 91.09,
+    "l": 83.28,
+    "c": 90.62,
+    "v": 10652500,
+    "clsPos": 94,
+    "gapPct": -2.88
+   },
+   {
+    "d": "2026-10-30",
+    "o": 90.77,
+    "h": 91.68,
+    "l": 89.34,
+    "c": 90.81,
+    "v": 5998100,
+    "clsPos": 63,
+    "gapPct": 0.17
+   },
+   {
+    "d": "2026-11-02",
+    "o": 92.5,
+    "h": 97.06,
+    "l": 92.39,
+    "c": 96.59,
+    "v": 10837300,
+    "clsPos": 90,
+    "gapPct": 1.86
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRH-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRH-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 10일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

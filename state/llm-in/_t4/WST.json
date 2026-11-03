@@ -1,0 +1,246 @@
+{
+ "ticker": "WST",
+ "news": [
+  {
+   "title": "What West Pharmaceutical Services (WST) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-west-pharmaceutical-services-wst-said-its-q3-earnings-call",
+   "date": "2026-10-31",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "West (WST) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/west-wst-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, West Pharmaceutical (WST) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-west-pharmaceutical-wst-q3-earnings-look-key-metrics",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "West Pharmaceutical Services (WST) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/west-pharmaceutical-services-wst-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "West Pharmaceutical (WST) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+   "url": "https://www.nasdaq.com/articles/west-pharmaceutical-wst-q3-earnings-preview-what-you-should-know-beyond-headline-estimates",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Jefferies Adjusts West Pharmaceutical Services Price Target to $475 From $410",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-west-pharmaceutical-services-152726951.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "How Investors Are Reacting To West (WST) Earnings Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-west-wst-earnings-190823567.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "West Pharmaceutical Services (WST) Lifted Its Outlook, Is The Stock Fully Priced?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-wst-lifted-180721158.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "WST Q3 deep dive: Biologics and regulatory tailwinds fuel margin expansion, HVP mix shift continues",
+   "url": "https://finance.yahoo.com/healthcare/articles/wst-q3-deep-dive-biologics-020300294.html",
+   "date": "2026-11-01",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What West Pharmaceutical Services (WST) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/healthcare/articles/west-pharmaceutical-services-wst-said-061400708.html",
+   "date": "2026-10-31",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stephens Adjusts West Pharmaceutical Services Price Target to $490 From $450",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stephens-adjusts-west-pharmaceutical-services-143016483.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Adjusts West Pharmaceutical Services PT to $450 From $420, Maintains Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-west-pharmaceutical-123928706.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BNP Paribas Adjusts Price Target on West Pharmaceutical Services to $466 From $459",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-adjusts-price-target-111242059.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Rothschild & Co Redburn Adjusts Price Target on West Pharmaceutical Services to $480 From $410",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rothschild-co-redburn-adjusts-price-111236226.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "West Pharmaceutical Services, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-inc-q3-212716012.html",
+   "date": "2026-10-29",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000118/wst-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000114/wst-20261026.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000097/wst-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000093/wst-20260714.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-31",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000080/wst-20260531.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-07",
+   "items": [
+    "1.05",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "1.05",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000068/wst-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.28,
+  "saleNy": 6.01,
+  "epsCy": 30.17,
+  "epsNy": 8.2,
+  "cyTrend": 5.88,
+  "nyTrend": 2.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.8,
+    21.05,
+    7.51
+   ],
+   "ni": [
+    16.84,
+    54.57,
+    1.54
+   ],
+   "opm": [
+    20.53,
+    20.96,
+    19.45
+   ],
+   "updated": "2026-09-08 06:27:50"
+  }
+ }
+}

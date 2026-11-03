@@ -2,6 +2,12 @@
  "ticker": "LNG",
  "news": [
   {
+   "title": "What Cheniere Energy (LNG) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-cheniere-energy-lng-said-its-q3-earnings-call",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Cheniere Energy (LNG) Reports Q3 Earnings: What Key Metrics Have to Say",
    "url": "https://www.nasdaq.com/articles/cheniere-energy-lng-reports-q3-earnings-what-key-metrics-have-say",
    "date": "2026-10-30",
@@ -38,71 +44,38 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Countdown to Cheniere Energy (LNG) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
-   "url": "https://www.nasdaq.com/articles/countdown-cheniere-energy-lng-q3-earnings-look-estimates-beyond-revenue-and-eps",
-   "date": "2026-10-27",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Woodside in Talks With QatarEnergy for Long-Term LNG Supply Deal",
-   "url": "https://www.nasdaq.com/articles/woodside-talks-qatarenergy-long-term-lng-supply-deal",
-   "date": "2026-10-26",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Cheniere (LNG) Q3 2026 Earnings Call Transcript",
-   "url": "https://finance.yahoo.com/energy/articles/cheniere-lng-q3-2026-earnings-205855850.html",
-   "date": "2026-10-29",
-   "publisher": "Motley Fool",
-   "via": "Yahoo"
-  },
-  {
-   "title": "NextDecade Soars 14% as Rio Grande LNG Runs “A Quarter Ahead” of Schedule",
-   "url": "https://finance.yahoo.com/energy/articles/nextdecade-soars-14-rio-grande-174708627.html",
-   "date": "2026-10-29",
-   "publisher": "TIKR",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Cheniere Energy (LNG) Misses Q3 Earnings Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-lng-misses-q3-133007104.html",
-   "date": "2026-10-29",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Cheniere Energy: Q3 Earnings Snapshot",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-q3-earnings-snapshot-113838829.html",
-   "date": "2026-10-29",
-   "publisher": "Associated Press",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Cheniere Reports Third Quarter 2026 Results, Raises Full Year 2026 Financial Guidance, and Increases Quarterly Dividend by Over 12%",
-   "url": "https://finance.yahoo.com/energy/articles/cheniere-reports-third-quarter-2026-113000247.html",
-   "date": "2026-10-29",
+   "title": "Cheniere Announces Pricing of $1.2 Billion of Senior Notes due 2037",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-announces-pricing-1-2-214000455.html",
+   "date": "2026-11-02",
    "publisher": "Business Wire",
    "via": "Yahoo"
   },
   {
-   "title": "Cheniere Energy Q3 Earnings, Total Revenue Rise",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-q3-earnings-total-102906784.html",
-   "date": "2026-10-29",
+   "title": "Cheniere Energy to Offer Senior Notes due 2037",
+   "url": "https://finance.yahoo.com/energy/articles/cheniere-energy-offer-senior-notes-135649242.html",
+   "date": "2026-11-02",
    "publisher": "MT Newswires",
    "via": "Yahoo"
   },
   {
-   "title": "Range Resources Corporation (RRC) Hit a 52 Week High, Can the Run Continue?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/range-resources-corporation-rrc-hit-121502658.html",
-   "date": "2026-10-28",
-   "publisher": "Zacks",
+   "title": "BMO Raises Price Target on Cheniere Energy to $350 From $306, Keeps Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-raises-price-target-cheniere-134353417.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
    "via": "Yahoo"
   },
   {
-   "title": "Countdown to Cheniere Energy (LNG) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/countdown-cheniere-energy-lng-q3-121505231.html",
-   "date": "2026-10-27",
-   "publisher": "Zacks",
+   "title": "Cheniere Announces Offering of Senior Notes due 2037",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-announces-offering-senior-notes-133100791.html",
+   "date": "2026-11-02",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Cheniere Shipped Its First LNG Cargo in 2016. Here’s What $1,000 Invested Then Is Worth",
+   "url": "https://finance.yahoo.com/energy/articles/cheniere-shipped-first-lng-cargo-171235706.html",
+   "date": "2026-11-01",
+   "publisher": "24/7 Wall St.",
    "via": "Yahoo"
   }
  ],
@@ -214,11 +187,11 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 13.38,
-  "saleNy": 3.32,
-  "epsCy": 115.49,
-  "epsNy": -10.43,
-  "cyTrend": 1.42,
+  "saleCy": 16.6,
+  "saleNy": 0.91,
+  "epsCy": 95.82,
+  "epsNy": -1.44,
+  "cyTrend": -8.91,
   "nyTrend": -0.24,
   "newHigh52": false,
   "bbCenterBrk5d": false,

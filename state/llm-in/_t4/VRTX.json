@@ -2,6 +2,18 @@
  "ticker": "VRTX",
  "news": [
   {
+   "title": "Vertex (VRTX) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/vertex-vrtx-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Vertex Pharmaceuticals (VRTX) Misses Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/vertex-pharmaceuticals-vrtx-misses-q3-earnings-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
    "title": "Ahead of Vertex (VRTX) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
    "url": "https://www.nasdaq.com/articles/ahead-vertex-vrtx-q3-earnings-get-ready-wall-street-estimates-key-metrics",
    "date": "2026-10-28",
@@ -26,42 +38,86 @@
    "publisher": "Zacks"
   },
   {
-   "title": "3 large-cap stocks with solid fundamentals",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/3-large-cap-stocks-solid-153129076.html",
-   "date": "2026-10-30",
+   "title": "Vertex Pharmaceuticals Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/healthcare/articles/vertex-pharmaceuticals-q3-earnings-call-021409793.html",
+   "date": "2026-11-03",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Vertex Yo-Yos On Mixed Third-Quarter Report, Light Guidance Hike",
+   "url": "https://finance.yahoo.com/m/018728d0-3aaa-3c41-8bd5-0c6aa6e0503c/vertex-yo-yos-on-mixed.html",
+   "date": "2026-11-02",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Vertex Spends Its CF Growth on New Launches: Rapid Earnings Reaction",
+   "url": "https://finance.yahoo.com/healthcare/articles/vertex-spends-cf-growth-launches-215021994.html",
+   "date": "2026-11-02",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Casgevy Starts Paying Off for CRISPR: Rapid Earnings Reaction",
+   "url": "https://finance.yahoo.com/healthcare/articles/casgevy-starts-paying-off-crispr-213437220.html",
+   "date": "2026-11-02",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Vertex (VRTX) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vertex-vrtx-q3-earnings-taking-213001736.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Vertex Pharmaceuticals (VRTX) Misses Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vertex-pharmaceuticals-vrtx-misses-q3-212503002.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Vertex Pharmaceuticals’s (NASDAQ:VRTX) Q3 2026 sales top estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/vertex-pharmaceuticals-nasdaq-vrtx-q3-212026401.html",
+   "date": "2026-11-02",
    "publisher": "StockStory",
    "via": "Yahoo"
   },
   {
-   "title": "Vertex Pharmaceuticals Says UK Approves Casgevy for Children Aged 5 and Older",
-   "url": "https://finance.yahoo.com/healthcare/articles/vertex-pharmaceuticals-says-uk-approves-100817333.html",
-   "date": "2026-10-30",
+   "title": "Vertex Pharmaceuticals Q3 Adjusted Earnings Fall, Revenue Rises",
+   "url": "https://finance.yahoo.com/healthcare/articles/vertex-pharmaceuticals-q3-adjusted-earnings-210805583.html",
+   "date": "2026-11-02",
    "publisher": "MT Newswires",
    "via": "Yahoo"
   },
   {
-   "title": "Biogen Crushes Earnings Estimates. As Old Blockbusters Fade, New Bets Pick Up the Slack.",
-   "url": "https://finance.yahoo.com/m/a0b5a1af-a777-3690-9120-9d945f8dfe1c/biogen-crushes-earnings.html",
-   "date": "2026-10-28",
-   "publisher": "Barrons.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Royalty Pharma (RPRX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/royalty-pharma-rprx-earnings-expected-130016635.html",
-   "date": "2026-10-28",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Ahead of Vertex (VRTX) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-vertex-vrtx-q3-earnings-121507000.html",
-   "date": "2026-10-28",
-   "publisher": "Zacks",
+   "title": "Vertex Reports Third Quarter 2026 Financial Results",
+   "url": "https://finance.yahoo.com/healthcare/articles/vertex-reports-third-quarter-2026-210100681.html",
+   "date": "2026-11-02",
+   "publisher": "Business Wire",
    "via": "Yahoo"
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "reportDate": "2026-11-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/vrtx-20261102.htm",
+   "description": "8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-10-20",
@@ -141,34 +197,18 @@
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000204/vrtx-20260513.htm",
    "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-05-04",
-   "reportDate": "2026-05-04",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
-   "itemsKo": [
-    "실적 발표",
-    "재무제표·첨부"
-   ],
-   "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000171/vrtx-20260504.htm",
-   "description": "8-K"
   }
  ],
  "financials": null,
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 10.62,
-  "saleNy": 9.95,
-  "epsCy": 1.82,
-  "epsNy": 8.87,
-  "cyTrend": 10.19,
-  "nyTrend": 1.49,
+  "saleCy": 10.66,
+  "saleNy": 9.94,
+  "epsCy": 1.99,
+  "epsNy": 8.81,
+  "cyTrend": 10.36,
+  "nyTrend": 1.55,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

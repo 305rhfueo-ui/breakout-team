@@ -1,0 +1,672 @@
+{
+ "ticker": "IDXX",
+ "date": "2026-11-03",
+ "session": "2026-11-02",
+ "source": "list",
+ "plan": {
+  "ticker": "IDXX",
+  "name": "아이덱스 래버러토리스",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "price": 671.64,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 2.8,
+  "extensionAdr": 5.24,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3736155145885839,
+    "pct": 98.42200180342651
+   },
+   "m3": {
+    "v": 0.20185879497848044,
+    "pct": 88.50315599639315
+   },
+   "m6": {
+    "v": 0.292853059971804,
+    "pct": 79.39585211902615
+   }
+  },
+  "ret1m": 27.43,
+  "ret3m": 14.48,
+  "ret6m": 25.79,
+  "marketCap": "43.42B",
+  "volx": 3.73,
+  "volSurgeWk": 3.27,
+  "high52": 87.23,
+  "newHigh52": false,
+  "adr": 2.8,
+  "div50": 25.17,
+  "div200": 17.33,
+  "targetStatus": false,
+  "saleCy": 9.77,
+  "saleNy": 8.87,
+  "epsCy": 13.73,
+  "epsNy": 12.48,
+  "cyTrend": 0.28,
+  "nyTrend": -0.04,
+  "est": {
+   "cyCur": 14.87645,
+   "cy30": 14.83498,
+   "nyCur": 16.73288,
+   "ny30": 16.7397
+  },
+  "fs": {
+   "sale": [
+    9.66,
+    14.26,
+    14.28
+   ],
+   "ni": [
+    15.11,
+    14.74,
+    14.82
+   ],
+   "opm": [
+    34.98,
+    31.78,
+    28.94
+   ],
+   "updated": "2026-09-20 06:43:27"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-02",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-03",
+  "nameKo": "아이덱스 래버러토리스",
+  "nameEn": "IDEXX LABORATORIES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874716&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1214237000,
+     "profit": 402348000,
+     "netIncome": 317145000,
+     "margin": 33.1,
+     "yoy": {
+      "revenue": 9.9,
+      "profit": 13.4,
+      "netIncome": 15.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1216585000,
+     "profit": 425566000,
+     "netIncome": 338412000,
+     "margin": 35,
+     "yoy": {
+      "revenue": 9.7,
+      "profit": 14.1,
+      "netIncome": 15.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1140820000,
+     "profit": 362586000,
+     "netIncome": 278446000,
+     "margin": 31.8,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 14.5,
+      "netIncome": 14.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1090579000,
+     "profit": 315605000,
+     "netIncome": 248188000,
+     "margin": 28.9,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 20.6,
+      "netIncome": 14.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "IDEXX Sales Rise 10% as Margin Outlook Slips: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/idexx-sales-rise-10-margin-outlook-slips-rapid-earnings-reaction",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "IDEXX (IDXX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/idexx-idxx-q3-2026-earnings-call-transcript",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Idexx (IDXX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/idexx-idxx-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "IDEXX Laboratories Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/idexx-laboratories-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-11-02",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "IDEXX Laboratories Boost FY26 Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/idexx-laboratories-boost-fy26-outlook-update",
+     "date": "2026-11-02",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Idexx Laboratories (IDXX) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/idexx-laboratories-idxx-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "IDEXX Laboratories Inc Q3 Profit Climbs",
+     "url": "https://www.nasdaq.com/articles/idexx-laboratories-inc-q3-profit-climbs",
+     "date": "2026-11-02",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926120892/tm2628647d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926090033/tm2622041d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000110/idxx-20260512.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926055203/tm2613510d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-26",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926034906/tm269826d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-13",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000007/idxx-20260213.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Fat cat? Weight-loss drugs may be coming for your overweight pet",
+   "url": "https://www.cnbc.com/2026/07/18/cats-glp-1-ozempic-pets-weight-loss.html",
+   "date": "2026-07-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "IDXX",
+  "fetchedAt": "2026-11-03",
+  "source": "한국투자증권 Open API",
+  "per": 47.21,
+  "pbr": 32.85,
+  "eps": 14.23,
+  "bps": 20.45,
+  "shares": 78781100,
+  "marketCapM": 52913,
+  "high52": 769.98,
+  "high52Date": "2025-11-26",
+  "low52": 500.61,
+  "low52Date": "2026-09-11",
+  "last": 671.64,
+  "prevClose": 551.21,
+  "nameKo": "아이덱스 래버러토리스",
+  "nameEn": "IDEXX LABORATORIES INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 78781100
+ },
+ "estimates": {
+  "ticker": "IDXX",
+  "url": "https://finance.yahoo.com/quote/IDXX/analysis/",
+  "fetchedAt": "2026-11-03",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 3.27,
+    "epsLow": 3.09,
+    "epsHigh": 3.39,
+    "epsYearAgo": 3.08,
+    "epsAnalysts": 5,
+    "epsGrowth": 6,
+    "epsCur": "USD",
+    "rev": 1178218600,
+    "revAnalysts": 10,
+    "revYearAgo": 1090579000,
+    "revGrowth": 8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.97,
+    "epsLow": 3.88,
+    "epsHigh": 4.04,
+    "epsYearAgo": 3.47,
+    "epsAnalysts": 7,
+    "epsGrowth": 14.5,
+    "epsCur": "USD",
+    "rev": 1225866860,
+    "revAnalysts": 7,
+    "revYearAgo": 1140820000,
+    "revGrowth": 7.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 15,
+    "epsLow": 14.91,
+    "epsHigh": 15.05,
+    "epsYearAgo": 13.08,
+    "epsAnalysts": 5,
+    "epsGrowth": 14.6,
+    "epsCur": "USD",
+    "rev": 4737475710,
+    "revAnalysts": 13,
+    "revYearAgo": 4303702000,
+    "revGrowth": 10.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 16.79,
+    "epsLow": 16.07,
+    "epsHigh": 17.22,
+    "epsYearAgo": 15,
+    "epsAnalysts": 10,
+    "epsGrowth": 11.9,
+    "epsCur": "USD",
+    "rev": 5156408810,
+    "revAnalysts": 13,
+    "revYearAgo": 4737475710,
+    "revGrowth": 8.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.27,
+    "d7": -2.8,
+    "d30": -2.7,
+    "d90": -4.6,
+    "ago90": 3.42,
+    "up7": 1,
+    "up30": 1,
+    "down7": 8,
+    "down30": 8
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.97,
+    "d7": 0.1,
+    "d30": 0.3,
+    "d90": 1.9,
+    "ago90": 3.9,
+    "up7": 3,
+    "up30": 3,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 15,
+    "d7": 0.8,
+    "d30": 1.1,
+    "d90": 1.8,
+    "ago90": 14.73,
+    "up7": 2,
+    "up30": 11,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 16.79,
+    "d7": 0.3,
+    "d30": 0.3,
+    "d90": 1.3,
+    "ago90": 16.57,
+    "up7": 2,
+    "up30": 11,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 4.01,
+    "estimate": 3.71,
+    "surprisePct": 8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 4.27,
+    "estimate": 3.93,
+    "surprisePct": 8.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.47,
+    "estimate": 3.41,
+    "surprisePct": 1.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 3.08,
+    "estimate": 2.94,
+    "surprisePct": 4.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 2,
+   "ptLowered": 3,
+   "total": 6,
+   "recent": [
+    {
+     "date": "2026-10-27",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 627,
+     "ptPrior": 670
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 750,
+     "ptPrior": 775
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Keybanc",
+     "action": "init",
+     "from": null,
+     "to": "Sector Weight",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 710,
+     "ptPrior": 800
+    },
+    {
+     "date": "2026-08-05",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 670,
+     "ptPrior": 620
+    },
+    {
+     "date": "2026-08-05",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 670,
+     "ptPrior": 650
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-02",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-02",
+  "numbers": {
+   "price": 671.64,
+   "ma20": 551.08,
+   "ma50": 536.56,
+   "ma150": 553.27,
+   "distMA50": 25.17,
+   "periodHigh": 769.98,
+   "pullbackFromHigh": -12.77,
+   "volRatio20": 3.13,
+   "dryUpRatio": 1.42
+  },
+  "last10": [
+   {
+    "d": "2026-10-20",
+    "o": 559.14,
+    "h": 561.83,
+    "l": 552.78,
+    "c": 557.93,
+    "v": 439500,
+    "clsPos": 57,
+    "gapPct": 0.6
+   },
+   {
+    "d": "2026-10-21",
+    "o": 549.7,
+    "h": 560.63,
+    "l": 547.48,
+    "c": 553.48,
+    "v": 406700,
+    "clsPos": 46,
+    "gapPct": -1.48
+   },
+   {
+    "d": "2026-10-22",
+    "o": 562.01,
+    "h": 568.67,
+    "l": 558.39,
+    "c": 566.76,
+    "v": 430100,
+    "clsPos": 81,
+    "gapPct": 1.54
+   },
+   {
+    "d": "2026-10-23",
+    "o": 564.8,
+    "h": 569.56,
+    "l": 558.29,
+    "c": 560.38,
+    "v": 398300,
+    "clsPos": 19,
+    "gapPct": -0.35
+   },
+   {
+    "d": "2026-10-26",
+    "o": 564.23,
+    "h": 571.75,
+    "l": 557.94,
+    "c": 570.21,
+    "v": 528100,
+    "clsPos": 89,
+    "gapPct": 0.69
+   },
+   {
+    "d": "2026-10-27",
+    "o": 563.23,
+    "h": 567.55,
+    "l": 559.03,
+    "c": 561.25,
+    "v": 489000,
+    "clsPos": 26,
+    "gapPct": -1.22
+   },
+   {
+    "d": "2026-10-28",
+    "o": 556.78,
+    "h": 567.77,
+    "l": 555.21,
+    "c": 562.91,
+    "v": 351800,
+    "clsPos": 61,
+    "gapPct": -0.8
+   },
+   {
+    "d": "2026-10-29",
+    "o": 570.17,
+    "h": 576.17,
+    "l": 568.01,
+    "c": 575.98,
+    "v": 478000,
+    "clsPos": 98,
+    "gapPct": 1.29
+   },
+   {
+    "d": "2026-10-30",
+    "o": 583.75,
+    "h": 586,
+    "l": 540.61,
+    "c": 551.21,
+    "v": 1173500,
+    "clsPos": 23,
+    "gapPct": 1.35
+   },
+   {
+    "d": "2026-11-02",
+    "o": 625,
+    "h": 673.19,
+    "l": 620.2,
+    "c": 671.64,
+    "v": 1976100,
+    "clsPos": 97,
+    "gapPct": 13.39
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IDXX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IDXX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 10일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

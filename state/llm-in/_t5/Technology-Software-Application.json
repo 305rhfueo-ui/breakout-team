@@ -1,0 +1,1212 @@
+{
+ "key": "Technology|Software - Application",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "industryKo": "응용 소프트웨어",
+ "frank": 3,
+ "frank25dChg": 6,
+ "finalWrs": 0.4109,
+ "count": 47,
+ "winRatePct": 87.2,
+ "members": [
+  {
+   "ticker": "TEAM",
+   "rs1": 0.05066047819722818,
+   "rs3": 0.3120051770836191,
+   "rs6": 1.235852931568965,
+   "rnk1": 71.19,
+   "rnk3": 4.1,
+   "rnk6": 0.77,
+   "ret1d": -2.42,
+   "high52": 81.35,
+   "dollarVolM": 592.8,
+   "marketCap": "48.53B",
+   "name": "아틀라시언"
+  },
+  {
+   "ticker": "PAYC",
+   "rs1": 0.27758861255149,
+   "rs3": 0.2967946749184741,
+   "rs6": 0.9767965883198131,
+   "rnk1": 7.71,
+   "rnk3": 4.73,
+   "rnk6": 1.4,
+   "ret1d": 0.7,
+   "high52": 96.66,
+   "dollarVolM": 214.7,
+   "marketCap": "11.91B",
+   "name": "페이컴 소프트웨어"
+  },
+  {
+   "ticker": "SNOW",
+   "rs1": -0.04318596402624303,
+   "rs3": -0.0634331192275634,
+   "rs6": 0.9475318904556265,
+   "rnk1": 85.98,
+   "rnk3": 76.96,
+   "rnk6": 1.67,
+   "ret1d": -5.03,
+   "high52": 75.59,
+   "dollarVolM": 1871.2,
+   "marketCap": "107.99B",
+   "name": "스노우플레이크"
+  },
+  {
+   "ticker": "MANH",
+   "rs1": 0.3318396017640781,
+   "rs3": 0.35405865293830346,
+   "rs6": 0.9128412039057263,
+   "rnk1": 3.47,
+   "rnk3": 2.3,
+   "rnk6": 1.85,
+   "ret1d": 1.94,
+   "high52": 97.48,
+   "dollarVolM": 189.2,
+   "marketCap": "14.42B",
+   "name": "맨해튼 어소시에이츠"
+  },
+  {
+   "ticker": "RNG",
+   "rs1": 0.0826294400323391,
+   "rs3": 0.29079680722120244,
+   "rs6": 0.898240068432632,
+   "rnk1": 62.98,
+   "rnk3": 4.82,
+   "rnk6": 2.12,
+   "ret1d": -4.52,
+   "high52": 79.21,
+   "dollarVolM": 152.4,
+   "marketCap": "6.80B",
+   "name": "링센트럴"
+  },
+  {
+   "ticker": "ESTC",
+   "rs1": 0.0617109704143541,
+   "rs3": 0.27310742554921985,
+   "rs6": 0.8584294177406863,
+   "rnk1": 68.49,
+   "rnk3": 5.55,
+   "rnk6": 2.39,
+   "ret1d": -6.11,
+   "high52": 84.57,
+   "dollarVolM": 222,
+   "marketCap": "10.21B",
+   "name": "엘라스틱"
+  },
+  {
+   "ticker": "WK",
+   "rs1": 0.27865229038372175,
+   "rs3": 0.35837530591722655,
+   "rs6": 0.8443034895895757,
+   "rnk1": 7.53,
+   "rnk3": 2.21,
+   "rnk6": 2.57,
+   "ret1d": 1.39,
+   "high52": 87.31,
+   "dollarVolM": 59.6,
+   "marketCap": "4.61B",
+   "name": "워키바"
+  },
+  {
+   "ticker": "DOCU",
+   "rs1": 0.26525449772693577,
+   "rs3": 0.41198622708102584,
+   "rs6": 0.8421273250072209,
+   "rnk1": 10.32,
+   "rnk3": 1.31,
+   "rnk6": 2.66,
+   "ret1d": -0.63,
+   "high52": 95.05,
+   "dollarVolM": 175.4,
+   "marketCap": "15.26B",
+   "name": "도큐사인"
+  },
+  {
+   "ticker": "AGYS",
+   "rs1": 0.285054232999948,
+   "rs3": 0.14359645168356722,
+   "rs6": 0.7388401727757857,
+   "rnk1": 6.81,
+   "rnk3": 20.78,
+   "rnk6": 3.38,
+   "ret1d": 1.88,
+   "high52": 88.49,
+   "dollarVolM": 52.4,
+   "marketCap": "3.27B",
+   "name": "어질리시스"
+  },
+  {
+   "ticker": "WDAY",
+   "rs1": 0.14785434169071138,
+   "rs3": 0.1599524394055216,
+   "rs6": 0.7052034041660462,
+   "rnk1": 43.15,
+   "rnk3": 17.36,
+   "rnk6": 3.74,
+   "ret1d": 0.16,
+   "high52": 82.2,
+   "dollarVolM": 362.8,
+   "marketCap": "47.67B",
+   "name": "워크데이"
+  },
+  {
+   "ticker": "RDVT",
+   "rs1": 0.07228842110004464,
+   "rs3": 0.2440137330983746,
+   "rs6": 0.6785996065502445,
+   "rnk1": 65.6,
+   "rnk3": 7.17,
+   "rnk6": 4.1,
+   "ret1d": -2.84,
+   "high52": 93.48,
+   "dollarVolM": 13.2,
+   "marketCap": "1.28B",
+   "name": "레드 바이올렛"
+  },
+  {
+   "ticker": "SPSC",
+   "rs1": 0.15674543775921906,
+   "rs3": 0.21646839086474848,
+   "rs6": 0.6716951477351595,
+   "rnk1": 40.71,
+   "rnk3": 9.51,
+   "rnk6": 4.19,
+   "ret1d": 2.52,
+   "high52": 88.13,
+   "dollarVolM": 67.2,
+   "marketCap": "2.94B",
+   "name": "SPS 커머스"
+  },
+  {
+   "ticker": "PCTY",
+   "rs1": 0.28047764026841876,
+   "rs3": 0.21438376506531318,
+   "rs6": 0.6566164823878506,
+   "rnk1": 7.35,
+   "rnk3": 9.6,
+   "rnk6": 4.55,
+   "ret1d": 1.86,
+   "high52": 97.51,
+   "dollarVolM": 146.5,
+   "marketCap": "8.92B",
+   "name": null
+  },
+  {
+   "ticker": "SHOP",
+   "rs1": 0.0750297894245984,
+   "rs3": 0.0877032017146519,
+   "rs6": 0.5996153381323877,
+   "rnk1": 64.97,
+   "rnk3": 35.03,
+   "rnk6": 5.73,
+   "ret1d": -0.81,
+   "high52": 86.37,
+   "dollarVolM": 2174.5,
+   "marketCap": "202.63B",
+   "name": null
+  },
+  {
+   "ticker": "CVLT",
+   "rs1": 0.12606080338359496,
+   "rs3": 0.22387580264529505,
+   "rs6": 0.5788811849819446,
+   "rnk1": 50.45,
+   "rnk3": 9.06,
+   "rnk6": 6.27,
+   "ret1d": -4.41,
+   "high52": 90.58,
+   "dollarVolM": 125.2,
+   "marketCap": "6.76B",
+   "name": null
+  },
+  {
+   "ticker": "ROP",
+   "rs1": 0.4189909361329279,
+   "rs3": 0.2521679823043671,
+   "rs6": 0.5226940424454023,
+   "rnk1": 0.77,
+   "rnk3": 6.63,
+   "rnk6": 8.7,
+   "ret1d": 2.77,
+   "high52": 99.04,
+   "dollarVolM": 556.2,
+   "marketCap": "46.15B",
+   "name": null
+  },
+  {
+   "ticker": "APPF",
+   "rs1": 0.20023134253784558,
+   "rs3": 0.18845232238375345,
+   "rs6": 0.48207350650641195,
+   "rnk1": 26.74,
+   "rnk3": 12.67,
+   "rnk6": 9.33,
+   "ret1d": 5.44,
+   "high52": 84.85,
+   "dollarVolM": 95.9,
+   "marketCap": "7.56B",
+   "name": null
+  },
+  {
+   "ticker": "TTAN",
+   "rs1": 0.24830003258223116,
+   "rs3": 0.02300359800200647,
+   "rs6": 0.47682479857663745,
+   "rnk1": 14.38,
+   "rnk3": 55.68,
+   "rnk6": 9.51,
+   "ret1d": -1.6,
+   "high52": 74.45,
+   "dollarVolM": 83.4,
+   "marketCap": "8.00B",
+   "name": null
+  },
+  {
+   "ticker": "ADP",
+   "rs1": 0.24733138702126806,
+   "rs3": 0.16528083274346492,
+   "rs6": 0.451933729134561,
+   "rnk1": 14.56,
+   "rnk3": 15.83,
+   "rnk6": 10.23,
+   "ret1d": 1.68,
+   "high52": 96.57,
+   "dollarVolM": 810.5,
+   "marketCap": "116.00B",
+   "name": null
+  },
+  {
+   "ticker": "SAP",
+   "rs1": 0.22390436047080464,
+   "rs3": 0.19022185364175892,
+   "rs6": 0.43157579546907937,
+   "rnk1": 20.33,
+   "rnk3": 12.22,
+   "rnk6": 11.05,
+   "ret1d": -0.6,
+   "high52": 89.39,
+   "dollarVolM": 343.6,
+   "marketCap": "271.26B",
+   "name": null
+  },
+  {
+   "ticker": "DSGX",
+   "rs1": 0.2323366481030099,
+   "rs3": 0.20569848509806238,
+   "rs6": 0.39442380977944635,
+   "rnk1": 17.9,
+   "rnk3": 10.96,
+   "rnk6": 13.21,
+   "ret1d": 0.86,
+   "high52": 95.8,
+   "dollarVolM": 34.7,
+   "marketCap": "7.75B",
+   "name": null
+  },
+  {
+   "ticker": "PTC",
+   "rs1": 0.10998826299585068,
+   "rs3": 0.37250733858053897,
+   "rs6": 0.3822283433338948,
+   "rnk1": 55.14,
+   "rnk3": 1.85,
+   "rnk6": 13.48,
+   "ret1d": -0.63,
+   "high52": 97.76,
+   "dollarVolM": 380.7,
+   "marketCap": "21.24B",
+   "name": null
+  },
+  {
+   "ticker": "DAVE",
+   "rs1": -0.02822903191612053,
+   "rs3": 0.06944849911926947,
+   "rs6": 0.36362176541829405,
+   "rnk1": 84.45,
+   "rnk3": 40.53,
+   "rnk6": 14.83,
+   "ret1d": 1.61,
+   "high52": 70.24,
+   "dollarVolM": 147.6,
+   "marketCap": "4.04B",
+   "name": null
+  },
+  {
+   "ticker": "CRM",
+   "rs1": 0.0836156224588863,
+   "rs3": 0.23258679703560514,
+   "rs6": 0.36094474513881536,
+   "rnk1": 62.8,
+   "rnk3": 8.43,
+   "rnk6": 15.1,
+   "ret1d": -1.3,
+   "high52": 84.46,
+   "dollarVolM": 1497.7,
+   "marketCap": "188.61B",
+   "name": null
+  },
+  {
+   "ticker": "MNDY",
+   "rs1": 0.25175718644088974,
+   "rs3": 0.07989564268024305,
+   "rs6": 0.3581511331612226,
+   "rnk1": 13.03,
+   "rnk3": 37.56,
+   "rnk6": 15.46,
+   "ret1d": -0.36,
+   "high52": 45.26,
+   "dollarVolM": 74.8,
+   "marketCap": "4.04B",
+   "name": null
+  },
+  {
+   "ticker": "TYL",
+   "rs1": 0.32964963641166223,
+   "rs3": 0.3498391571465925,
+   "rs6": 0.339416867199353,
+   "rnk1": 3.65,
+   "rnk3": 2.39,
+   "rnk6": 16.73,
+   "ret1d": 2.44,
+   "high52": 83.88,
+   "dollarVolM": 509.7,
+   "marketCap": "15.68B",
+   "name": null
+  },
+  {
+   "ticker": "HUBS",
+   "rs1": 0.15770915967650134,
+   "rs3": 0.16650405975418997,
+   "rs6": 0.33511220959922233,
+   "rnk1": 40.35,
+   "rnk3": 15.64,
+   "rnk6": 17.09,
+   "ret1d": -0.59,
+   "high52": 46.89,
+   "dollarVolM": 191.1,
+   "marketCap": "11.71B",
+   "name": null
+  },
+  {
+   "ticker": "NICE",
+   "rs1": 0.06962687807986408,
+   "rs3": 0.16050989172971025,
+   "rs6": 0.33122091260727626,
+   "rnk1": 66.59,
+   "rnk3": 17,
+   "rnk6": 17.18,
+   "ret1d": -1.2,
+   "high52": 81.1,
+   "dollarVolM": 58,
+   "marketCap": "6.53B",
+   "name": null
+  },
+  {
+   "ticker": "DUOL",
+   "rs1": 0.018904069643407934,
+   "rs3": 0.09040866825915593,
+   "rs6": 0.3109234263949053,
+   "rnk1": 76.42,
+   "rnk3": 34.31,
+   "rnk6": 19.07,
+   "ret1d": 2.8,
+   "high52": 48.31,
+   "dollarVolM": 151.8,
+   "marketCap": "6.13B",
+   "name": null
+  },
+  {
+   "ticker": "PAYX",
+   "rs1": 0.2685594809712727,
+   "rs3": 0.028918334806635314,
+   "rs6": 0.30902427070440824,
+   "rnk1": 9.51,
+   "rnk3": 53.97,
+   "rnk6": 19.16,
+   "ret1d": 3.01,
+   "high52": 91.16,
+   "dollarVolM": 285.4,
+   "marketCap": "39.91B",
+   "name": null
+  },
+  {
+   "ticker": "DJCO",
+   "rs1": 0.05057205557906109,
+   "rs3": 0.1544052163715212,
+   "rs6": 0.3053205491259955,
+   "rnk1": 71.28,
+   "rnk3": 18.08,
+   "rnk6": 19.7,
+   "ret1d": -1.5,
+   "high52": 89.48,
+   "dollarVolM": 30,
+   "marketCap": "0.87B",
+   "name": null
+  },
+  {
+   "ticker": "FROG",
+   "rs1": -0.030962582409367417,
+   "rs3": 0.007761658346684963,
+   "rs6": 0.2948672866294035,
+   "rnk1": 84.9,
+   "rnk3": 60.55,
+   "rnk6": 20.51,
+   "ret1d": -9.83,
+   "high52": 80.47,
+   "dollarVolM": 257.9,
+   "marketCap": "11.64B",
+   "name": null
+  },
+  {
+   "ticker": "GWRE",
+   "rs1": 0.09442455597587557,
+   "rs3": 0.009525390309866766,
+   "rs6": 0.27124905121039367,
+   "rnk1": 60.01,
+   "rnk3": 60.19,
+   "rnk6": 23.4,
+   "ret1d": -0.1,
+   "high52": 70.06,
+   "dollarVolM": 163.2,
+   "marketCap": "13.44B",
+   "name": null
+  },
+  {
+   "ticker": "SSNC",
+   "rs1": 0.13055975912825094,
+   "rs3": 0.09004128558290353,
+   "rs6": 0.26672898983336507,
+   "rnk1": 49.1,
+   "rnk3": 34.49,
+   "rnk6": 23.76,
+   "ret1d": 1.44,
+   "high52": 90.8,
+   "dollarVolM": 126.4,
+   "marketCap": "18.86B",
+   "name": null
+  },
+  {
+   "ticker": "NOW",
+   "rs1": -0.12164737778257201,
+   "rs3": -0.09408068490883154,
+   "rs6": 0.22603535060399466,
+   "rnk1": 91.03,
+   "rnk3": 81.56,
+   "rnk6": 28.45,
+   "ret1d": 0.85,
+   "high52": 57.48,
+   "dollarVolM": 2591.6,
+   "marketCap": "109.11B",
+   "name": null
+  },
+  {
+   "ticker": "IDCC",
+   "rs1": 0.035673382399516715,
+   "rs3": -0.023938446082410532,
+   "rs6": 0.21150563838509567,
+   "rnk1": 73.62,
+   "rnk3": 68.58,
+   "rnk6": 30.43,
+   "ret1d": 1.41,
+   "high52": 79.72,
+   "dollarVolM": 84.1,
+   "marketCap": "8.02B",
+   "name": null
+  },
+  {
+   "ticker": "ADSK",
+   "rs1": 0.2633895130640308,
+   "rs3": 0.09247480735159277,
+   "rs6": 0.13300859744435956,
+   "rnk1": 10.41,
+   "rnk3": 33.59,
+   "rnk6": 44.23,
+   "ret1d": 3.33,
+   "high52": 80.6,
+   "dollarVolM": 523.2,
+   "marketCap": "52.17B",
+   "name": null
+  },
+  {
+   "ticker": "DDOG",
+   "rs1": -0.11887894571667032,
+   "rs3": -0.019194995664117996,
+   "rs6": 0.11573598917494436,
+   "rnk1": 90.76,
+   "rnk3": 67.49,
+   "rnk6": 47.57,
+   "ret1d": -8.15,
+   "high52": 71.87,
+   "dollarVolM": 1005.2,
+   "marketCap": "84.48B",
+   "name": null
+  },
+  {
+   "ticker": "PLUS",
+   "rs1": 0.05847419459786638,
+   "rs3": 0.05613290516064572,
+   "rs6": 0.10034049239394592,
+   "rnk1": 69.75,
+   "rnk3": 44.95,
+   "rnk6": 51.17,
+   "ret1d": -3.97,
+   "high52": 90.85,
+   "dollarVolM": 27.8,
+   "marketCap": "2.42B",
+   "name": null
+  },
+  {
+   "ticker": "ADBE",
+   "rs1": 0.15242667052586173,
+   "rs3": 0.0052163866228320185,
+   "rs6": 0.07909228945060988,
+   "rnk1": 41.7,
+   "rnk3": 61.45,
+   "rnk6": 55.05,
+   "ret1d": 0.5,
+   "high52": 69.33,
+   "dollarVolM": 976.3,
+   "marketCap": "97.39B",
+   "name": null
+  },
+  {
+   "ticker": "STRD",
+   "rs1": 0.04501464011642738,
+   "rs3": 0.1485472786674061,
+   "rs6": 0.004401037066944953,
+   "rnk1": 72,
+   "rnk3": 19.52,
+   "rnk6": 68.76,
+   "ret1d": -0.14,
+   "high52": 92.93,
+   "dollarVolM": 3.6,
+   "marketCap": "0.82B",
+   "name": null
+  },
+  {
+   "ticker": "CDNS",
+   "rs1": 0.03151408632871108,
+   "rs3": 0.028342626013804384,
+   "rs6": -0.04477210107420064,
+   "rnk1": 74.53,
+   "rnk3": 54.24,
+   "rnk6": 77.68,
+   "ret1d": 0.49,
+   "high52": 79.08,
+   "dollarVolM": 738.1,
+   "marketCap": "89.97B",
+   "name": null
+  },
+  {
+   "ticker": "INTU",
+   "rs1": 0.3419219472754792,
+   "rs3": 0.14462565403604605,
+   "rs6": -0.04872854679739515,
+   "rnk1": 2.75,
+   "rnk3": 20.24,
+   "rnk6": 78.31,
+   "ret1d": 3.23,
+   "high52": 52.33,
+   "dollarVolM": 1247.1,
+   "marketCap": "91.15B",
+   "name": null
+  },
+  {
+   "ticker": "ZM",
+   "rs1": 0.08180793652101392,
+   "rs3": -0.0627842551609995,
+   "rs6": -0.0717315936011917,
+   "rnk1": 63.44,
+   "rnk3": 76.69,
+   "rnk6": 80.84,
+   "ret1d": -3.69,
+   "high52": 80.16,
+   "dollarVolM": 232.3,
+   "marketCap": "27.87B",
+   "name": null
+  },
+  {
+   "ticker": "UBER",
+   "rs1": 0.05945795559992109,
+   "rs3": -0.053746064140634355,
+   "rs6": -0.09146331736388565,
+   "rnk1": 69.3,
+   "rnk3": 74.71,
+   "rnk6": 82.37,
+   "ret1d": 2.24,
+   "high52": 66.48,
+   "dollarVolM": 1183.5,
+   "marketCap": "136.26B",
+   "name": null
+  },
+  {
+   "ticker": "MSTR",
+   "rs1": -0.10544236117122899,
+   "rs3": 0.3644935824261211,
+   "rs6": -0.2560545105003679,
+   "rnk1": 90.04,
+   "rnk3": 1.94,
+   "rnk6": 92.29,
+   "ret1d": 0.19,
+   "high52": 48.37,
+   "dollarVolM": 1743.3,
+   "marketCap": "55.28B",
+   "name": null
+  },
+  {
+   "ticker": "FICO",
+   "rs1": 0.14946989654127144,
+   "rs3": -0.2475752365152665,
+   "rs6": -0.2982466242754723,
+   "rnk1": 42.7,
+   "rnk3": 95.27,
+   "rnk6": 94.36,
+   "ret1d": 1.82,
+   "high52": 38.96,
+   "dollarVolM": 489.5,
+   "marketCap": "15.36B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "TEAM": {
+   "cnbc": [
+    {
+     "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+     "url": "https://www.cnbc.com/investingclub/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+     "date": "2026-09-01",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+     "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+     "date": "2026-08-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: SpaceX, Coherent, Airbnb & more",
+     "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-midday-spcx-cohr-team-abnb-ttd.html",
+     "date": "2026-08-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Atlassian, Wendy's, Vista & more",
+     "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-premarket-atlassian-corporation-wendys-vista-corp-first-solar-airbnb-more.html",
+     "date": "2026-08-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Software companies are evaporating the terminal risk fears AI models posed: Citi's Fatima Boolani",
+     "url": "https://www.cnbc.com/video/2026/08/07/software-companies-are-evaporating-the-terminal-risk-fears-ai-models-posed-citis-fatima-boolani.html",
+     "date": "2026-08-07",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": []
+  },
+  "PAYC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Will Paycom (PAYC) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-paycom-payc-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "SNOW": {
+   "cnbc": [
+    {
+     "title": "Palantir is a bargain compared to AI-linked software peers, UBS says",
+     "url": "https://www.cnbc.com/2026/09/15/palantir-is-a-bargain-compared-to-ai-linked-software-peers-ubs-says.html",
+     "date": "2026-09-15",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Tesla, Ciena, Meta, Snowflake & more",
+     "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-midday-tsla-cien-meta-snow-rare.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer says Microsoft's improved cloud transparency is a win for investors",
+     "url": "https://www.cnbc.com/investingclub/2026/09/03/cramer-says-microsofts-improved-cloud-transparency-is-a-win-for-investors-.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+     "url": "https://www.cnbc.com/2026/09/03/software-is-up-40percent-since-saaspocalypse-bottom-ways-to-play-the-sector-.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Snowflake CEO on the AI frontier",
+     "url": "https://www.cnbc.com/video/2026/10/15/snowflake-ceo-ai-frontier.html",
+     "date": "2026-10-15",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Trade Tracker: Rocket Companies, Mitsubishi Heavy Industries and Snowflake",
+     "url": "https://www.cnbc.com/video/2026/10/01/trade-tracker-rocket-companies-mitsubishi-heavy-industries-and-snowflake.html",
+     "date": "2026-10-01",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Here's Why Snowflake Inc. (SNOW) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-snowflake-inc-snow-fell-more-broader-market",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SNOW Rides on Strong Enterprise AI Push: Can It Outpace AVGO and ORCL?",
+     "url": "https://www.nasdaq.com/articles/snow-rides-strong-enterprise-ai-push-can-it-outpace-avgo-and-orcl",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Snowflake Inc. (SNOW) Outpaced the Stock Market Today",
+     "url": "https://www.nasdaq.com/articles/why-snowflake-inc-snow-outpaced-stock-market-today",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "MANH": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa and more",
+     "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-after-hours-f-ter-v-klac-and-more.html",
+     "date": "2026-07-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Manhattan Associates (MANH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Manhattan Associates (MANH) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Manhattan Associates (MANH) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-manhattan-associates-manh-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Manhattan Associates (MANH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-earnings-expected-grow-what-know-ahead-next-weeks-release",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "RNG": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves after hours: Western Digital, Bloom Energy",
+     "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-in-after-hours-wdc-be-deck.html",
+     "date": "2026-10-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "These stocks reporting next week have a history of earnings beats",
+     "url": "https://www.cnbc.com/2026/10/15/stocks-reporting-next-week-with-history-of-earnings-beats.html",
+     "date": "2026-10-15",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "RingCentral (RNG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ringcentral-rng-q3-2026-earnings-call-transcript",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What RingCentral (RNG) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-ringcentral-rng-said-its-q3-earnings-call",
+     "date": "2026-10-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About RingCentral (RNG) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-ringcentral-rng-q3-earnings",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ESTC": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+     "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+     "date": "2026-08-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: PayPal, Affirm Holdings, Gap, Marvell",
+     "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-premarket-pypl-afrm-gap-mrvl.html",
+     "date": "2026-08-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
+     "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-after-hours-gap-wday-adsk-and-more.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Elastic (ESTC) Just Overtook the 20-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/elastic-estc-just-overtook-20-day-moving-average",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "WK": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "WK Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/wk-crosses-above-average-analyst-target",
+     "date": "2026-08-28",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Workiva (WK) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/workiva-wk-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Workiva (WK) Reports Q2 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/workiva-wk-reports-q2-earnings-what-key-metrics-have-say",
+     "date": "2026-08-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Workiva (WK) Q2 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/workiva-wk-q2-earnings-and-revenues-beat-estimates",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Workiva (WK) Soars 5.9%: Is Further Upside Left in the Stock?",
+     "url": "https://www.nasdaq.com/articles/workiva-wk-soars-59-further-upside-left-stock",
+     "date": "2026-06-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "DOCU": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves premarket: AMC, Lululemon, Adobe",
+     "url": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-premarket-.html",
+     "date": "2026-09-04",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
+     "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-after-hours-lulu-zs-gwre.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Final Trades: Netflix, AbbVie and Docusign",
+     "url": "https://www.cnbc.com/video/2026/10/12/final-trades-netflix-abbvie-and-docusign.html",
+     "date": "2026-10-12",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "DocuSign (DOCU) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/docusign-docu-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "DocuSign (DOCU) Beats Stock Market Upswing: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/docusign-docu-beats-stock-market-upswing-what-investors-need-know",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "AGYS": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "All You Need to Know About Agilysys (AGYS) Rating Upgrade to Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-agilysys-agys-rating-upgrade-buy",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Agilysys (AGYS) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/agilysys-agys-q2-2027-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Agilysys (AGYS) Reports Q2 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/agilysys-agys-reports-q2-earnings-what-key-metrics-have-say",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Agilysys (AGYS) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/agilysys-agys-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "WDAY": {
+   "cnbc": [
+    {
+     "title": "Semiconductors are out, software is in. Why that’s not about to change",
+     "url": "https://www.cnbc.com/2026/10/16/software-stocks-semiconductor-rotation.html",
+     "date": "2026-10-16",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Workday, Generac, Vital Farms, Vicor, Tower Semi & more",
+     "url": "https://www.cnbc.com/2026/09/17/stocks-making-the-biggest-moves-premarket-wday-gnrc-vicr-tsem-vitl.html",
+     "date": "2026-09-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+     "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+     "date": "2026-08-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
+     "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-after-hours-gap-wday-adsk-and-more.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+     "url": "https://www.cnbc.com/investingclub/2026/08/25/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+     "date": "2026-08-25",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Eli Lilly and J&J bounce on new data, as software stocks give up last week's gains",
+     "url": "https://www.cnbc.com/investingclub/2026/08/17/eli-lilly-and-jj-bounce-on-new-data-as-software-gives-up-gains.html",
+     "date": "2026-08-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Workday (WDAY) Stock Slides as Market Rises: Facts to Know Before You Trade",
+     "url": "https://www.nasdaq.com/articles/workday-wday-stock-slides-market-rises-facts-know-you-trade-0",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Workday (WDAY) Beats Stock Market Upswing: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/workday-wday-beats-stock-market-upswing-what-investors-need-know",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "RDVT": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Red Violet (RDVT)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-red-violet-rdvt-0",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Red Violet (RDVT) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/red-violet-rdvt-solid-growth-stock-3-reasons-think-yes",
+     "date": "2026-09-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Red Violet, Inc. (RDVT) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-red-violet-inc-rdvt-great-choice",
+     "date": "2026-09-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Red Violet (RDVT) is an Incredible Growth Stock: 3 Reasons Why",
+     "url": "https://www.nasdaq.com/articles/red-violet-rdvt-incredible-growth-stock-3-reasons-why",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Needham Initiates Coverage of Red Violet (RDVT) with Buy Recommendation",
+     "url": "https://www.nasdaq.com/articles/needham-initiates-coverage-red-violet-rdvt-buy-recommendation",
+     "date": "2026-09-01",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "SPSC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "SPS Commerce (SPSC) is an Incredible Growth Stock: 3 Reasons Why",
+     "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-incredible-growth-stock-3-reasons-why",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SPS Commerce (SPSC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What SPS Commerce (SPSC) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-sps-commerce-spsc-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "SPS Commerce (SPSC) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SPS Commerce (SPSC) Surges 7.1%: Is This an Indication of Further Gains?",
+     "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-surges-71-indication-further-gains",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 보안 SaaS 성장 재가속 중",
+   "broker": "LS증권",
+   "analyst": "선유진",
+   "date": "2026-08-28",
+   "summary": "- 사이버보안 통합 솔루션 기업- FY 2Q27 Review: 보안 SaaS 성장 재가속 중- 국내 소프트웨어 시사점",
+   "url": "https://rreport.einfomax.co.kr/report/eqlqlqiggmcikmegcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "SaaS"
+  },
+  {
+   "title": "[데이터도그 (NAS:DDOG)] 사스포칼립스는 기우였나",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-09-17",
+   "summary": "- 데이터도그는 IT 시스템을 실시간 감시·진단하는 옵저버빌리티 소프트웨어 기업- 사용량 과금·업셀·락인 구조상 사스포칼립스와 별개로 견조한 사업- 최대 고객 제외 사업 가속 지속 여부 확인이 필요한 구간",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmxlzekzkzzeggcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "사스포칼립스"
+  },
+  {
+   "title": "[마이크로소프트 (NAS:MSFT)] Azure 성장 재가속, AI 투자 효율 개선 본격화",
+   "broker": "대신증권",
+   "analyst": "김회재",
+   "date": "2026-10-29",
+   "summary": "- Azure 매출 48% 성장, AI 컴퓨팅 수요와 효율 개선 확인- Copilot 사용 확대, 기업용 AI 에이전트 상용화 가속- Azure 성장 추가 가속 전망, CapEx와 수익성이 관건",
+   "url": "https://rreport.einfomax.co.kr/report/eqmiiekglkmgmqggcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "AI 에이전트"
+  },
+  {
+   "title": "[글로벌 이슈] Muse 이후의 AI 에이전트와 사이버보안",
+   "broker": "신한투자증권",
+   "analyst": "심지현",
+   "date": "2026-10-02",
+   "summary": "- 메타의 Muse 출시와 사이버보안 및 에이전트 테마의 상승- 메타에게는 수익 다각화의 수단, 에이전트 테마에게는 산업 재편의 기회- 사이버보안, 반복되는 보안 사고로 빠르게 도입해야 하는 필요성 증대",
+   "url": "https://rreport.einfomax.co.kr/report/eqmclmxeqllmlzkgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "AI 에이전트"
+  },
+  {
+   "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-09-17",
+   "summary": "- Okta는 기업용 Identity 보안 플랫폼, 벤더 중립성과 폭넓은 연동 생태계가 강점- 대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "AI 에이전트"
+  },
+  {
+   "title": "[미국주식] AI 속도 조절, 메모리 비중 확대의 기회",
+   "broker": "한화증권",
+   "analyst": "신승윤",
+   "date": "2026-09-16",
+   "summary": "- 9/12, 앤트로픽의 아모데이 CEO가 최첨단 모델 개발 속도 조절에 대한 필요성을 제기했다. 위험 예방 역량이 기술 발전 속도를 따라잡아야 한다는 취지다. 7월 OpenAI 테스트 환경에서 AI 에이전트 약 1,200개가 할당 범위를 벗어나 해킹을 시도한 사건, AI의 재귀적 자기 개선이 가속화되고 있는 점이 배경이다.- 우리는 3사 CEO의 속도 조절론이 업계 진입장벽을 높이기 위한 전략적 의도에 가 깝다고 생각한다. 오픈웨이트와 프론티어 모델 간의 성능 격차가 빠르게 좁혀지고 있고, 모델 성능이 좋아져도 AI 활용은 여전히 기존 업무 효율화, 코딩 보조 위주에 국한된다- 아모데이 발언에 따른 AI 데이터센터 계약 취소 및 빅테크 CAPEX 가이던스 하향 은 없었다. 중국 업체(딥시크, 알리바바)의 공조 없이 서구권만 추진한다면 실효성 도 제한된다",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmzeixeexgeglgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "AI 에이전트"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

@@ -1,0 +1,643 @@
+{
+ "ticker": "NVR",
+ "date": "2026-11-03",
+ "session": "2026-11-02",
+ "source": "list",
+ "plan": {
+  "ticker": "NVR",
+  "name": "NVR",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
+  "price": 6265.1,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 6383.3,
+  "stop": 6167.35,
+  "distToPivotPct": -1.85,
+  "distToPivotAdr": -0.54,
+  "riskPerSharePct": 3.38,
+  "adrPct": 3.45,
+  "extensionAdr": 1.44,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 13.1,
+   "priorMovePct": 7.8,
+   "higherLows": 0,
+   "contraction": 1.48,
+   "closeRange10Adr": 2.5,
+   "surf10": 1.44,
+   "surf20": 1.6,
+   "slope20": -0.54,
+   "baseLow": 5550,
+   "lastSwingLow": 5550
+  },
+  "reasons": [
+   "✗ 선행 상승 +8%",
+   "베이스 8주",
+   "깊이 13.1%",
+   "✗ 저점 상승 0회",
+   "진폭 1.48배 · 10일 종가폭 2.5 ADR",
+   "10일선 +1.4 ADR · 20일선 +1.6 ADR",
+   "✗ 20일선 기울기 -0.54%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.14871916907034777,
+    "pct": 57.033363390441835
+   },
+   "m3": {
+    "v": 0.03745668989733751,
+    "pct": 49.09828674481515
+   },
+   "m6": {
+    "v": 0.11591026624188451,
+    "pct": 52.52479711451758
+   }
+  },
+  "ret1m": 4.94,
+  "ret3m": -1.96,
+  "ret6m": 8.1,
+  "marketCap": "15.88B",
+  "volx": 1.13,
+  "volSurgeWk": 1.23,
+  "high52": 76.4,
+  "newHigh52": false,
+  "adr": 3.43,
+  "div50": 2.48,
+  "div200": -4.1,
+  "targetStatus": false,
+  "saleCy": -12.26,
+  "saleNy": -1.34,
+  "epsCy": -22.71,
+  "epsNy": 5.08,
+  "cyTrend": -6.29,
+  "nyTrend": -11.5,
+  "est": {
+   "cyCur": 337.40094,
+   "cy30": 360.0354,
+   "nyCur": 354.5528,
+   "ny30": 400.6172
+  },
+  "fs": {
+   "sale": [
+    -10.48,
+    -21.72,
+    -4.67
+   ],
+   "ni": [
+    -29.15,
+    -33.79,
+    -20.47
+   ],
+   "opm": [
+    14,
+    13.76,
+    17.55
+   ],
+   "updated": "2026-09-08 08:01:41"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-03",
+  "nameKo": "NVR",
+  "nameEn": "NVR INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000906163&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2326356000,
+     "profit": null,
+     "netIncome": 236458000,
+     "margin": null,
+     "yoy": {
+      "revenue": -10.5,
+      "profit": null,
+      "netIncome": -29.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1881063000,
+     "profit": null,
+     "netIncome": 198359000,
+     "margin": null,
+     "yoy": {
+      "revenue": -21.7,
+      "profit": null,
+      "netIncome": -33.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2712608000,
+     "profit": null,
+     "netIncome": 363815000,
+     "margin": null,
+     "yoy": {
+      "revenue": -4.7,
+      "profit": null,
+      "netIncome": -20.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2609505000,
+     "profit": null,
+     "netIncome": 342688000,
+     "margin": null,
+     "yoy": {
+      "revenue": -4.5,
+      "profit": null,
+      "netIncome": -20.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "NVR, Inc. Reports Third Quarter 2026 Net Income of $248.6 million",
+     "url": "https://www.nasdaq.com/articles/nvr-inc-reports-third-quarter-2026-net-income-2486-million",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "NVR  Inc. Bottom Line Falls In Q3",
+     "url": "https://www.nasdaq.com/articles/nvr-inc-bottom-line-falls-q3",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "NVR (NVR) Q3 Earnings and Revenues Lag Estimates",
+     "url": "https://www.nasdaq.com/articles/nvr-nvr-q3-earnings-and-revenues-lag-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Earnings Preview: NVR (NVR) Q3 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-nvr-nvr-q3-earnings-expected-decline",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bear of the Day: NVR, Inc. (NVR)",
+     "url": "https://www.nasdaq.com/articles/bear-day-nvr-inc-nvr",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Morgan Stanley Initiates Coverage of NVR at Underweight",
+     "url": "https://www.nasdaq.com/articles/morgan-stanley-initiates-coverage-nvr-underweight",
+     "date": "2026-10-01",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "PSMMY or NVR: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/psmmy-or-nvr-which-better-value-stock-right-now",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000099/nvr-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000086/nvr-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000051/nvr-20260514.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-08",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000044/nvr-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000034/nvr-20260422.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000004/nvr-20260128.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "NVR",
+  "fetchedAt": "2026-11-03",
+  "source": "한국투자증권 Open API",
+  "per": 17.27,
+  "pbr": 4.63,
+  "eps": 362.72,
+  "bps": 1353.65,
+  "shares": 2664860,
+  "marketCapM": 16696,
+  "high52": 8200,
+  "high52Date": "2026-02-12",
+  "low52": 5501.01,
+  "low52Date": "2026-05-15",
+  "last": 6265.1,
+  "prevClose": 5958.56,
+  "nameKo": "NVR",
+  "nameEn": "NVR INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 2664860
+ },
+ "estimates": {
+  "ticker": "NVR",
+  "url": "https://finance.yahoo.com/quote/NVR/analysis/",
+  "fetchedAt": "2026-11-03",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 98.16,
+    "epsLow": 85.29,
+    "epsHigh": 105.42,
+    "epsYearAgo": 121.54,
+    "epsAnalysts": 7,
+    "epsGrowth": -19.2,
+    "epsCur": "USD",
+    "rev": 2356075000,
+    "revAnalysts": 4,
+    "revYearAgo": 2635214000,
+    "revGrowth": -10.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 65.28,
+    "epsLow": 61.37,
+    "epsHigh": 71.91,
+    "epsYearAgo": 67.76,
+    "epsAnalysts": 4,
+    "epsGrowth": -3.7,
+    "epsCur": "USD",
+    "rev": 1837700000,
+    "revAnalysts": 1,
+    "revYearAgo": 1834879000,
+    "revGrowth": 0.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 337.4,
+    "epsLow": 325.75,
+    "epsHigh": 345.39,
+    "epsYearAgo": 436.55,
+    "epsAnalysts": 6,
+    "epsGrowth": -22.7,
+    "epsCur": "USD",
+    "rev": 8856500000,
+    "revAnalysts": 4,
+    "revYearAgo": 10094269000,
+    "revGrowth": -12.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 354.55,
+    "epsLow": 323,
+    "epsHigh": 398,
+    "epsYearAgo": 337.4,
+    "epsAnalysts": 7,
+    "epsGrowth": 5.1,
+    "epsCur": "USD",
+    "rev": 8737625000,
+    "revAnalysts": 4,
+    "revYearAgo": 8856500000,
+    "revGrowth": -1.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 98.16,
+    "d7": -7.9,
+    "d30": -7.9,
+    "d90": -8.6,
+    "ago90": 107.36,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 65.28,
+    "d7": -11.8,
+    "d30": -15.9,
+    "d90": -17.2,
+    "ago90": 78.85,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 337.4,
+    "d7": -6,
+    "d30": -6.3,
+    "d90": -6.6,
+    "ago90": 361.1,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 354.55,
+    "d7": -9.7,
+    "d30": -11.5,
+    "d90": -13.9,
+    "ago90": 411.62,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 4
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 89.45,
+    "estimate": 102.77,
+    "surprisePct": -13,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 83.96,
+    "estimate": 89.98,
+    "surprisePct": -6.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 67.76,
+    "estimate": 79.2,
+    "surprisePct": -14.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 121.54,
+    "estimate": 105.9,
+    "surprisePct": 14.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 1,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-10-23",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 7425,
+     "ptPrior": 7400
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Morgan Stanley",
+     "action": "init",
+     "from": null,
+     "to": "Underweight",
+     "ptAction": "Announces",
+     "pt": 5058,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-27",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-02",
+  "numbers": {
+   "price": 6265.1,
+   "ma20": 5919.51,
+   "ma50": 6113.63,
+   "ma150": 6286.36,
+   "distMA50": 2.48,
+   "periodHigh": 9527.85,
+   "pullbackFromHigh": -34.24,
+   "volRatio20": 1.07,
+   "dryUpRatio": 0.89
+  },
+  "last10": [
+   {
+    "d": "2026-10-20",
+    "o": 5865.74,
+    "h": 6024.27,
+    "l": 5839.21,
+    "c": 5977.67,
+    "v": 40800,
+    "clsPos": 75,
+    "gapPct": 0.65
+   },
+   {
+    "d": "2026-10-21",
+    "o": 5958.42,
+    "h": 6017,
+    "l": 5884.77,
+    "c": 5900,
+    "v": 43900,
+    "clsPos": 12,
+    "gapPct": -0.32
+   },
+   {
+    "d": "2026-10-22",
+    "o": 5760.22,
+    "h": 6118.77,
+    "l": 5550,
+    "c": 6110.63,
+    "v": 68700,
+    "clsPos": 99,
+    "gapPct": -2.37
+   },
+   {
+    "d": "2026-10-23",
+    "o": 6000,
+    "h": 6114.45,
+    "l": 5951,
+    "c": 5983.68,
+    "v": 68600,
+    "clsPos": 20,
+    "gapPct": -1.81
+   },
+   {
+    "d": "2026-10-26",
+    "o": 5932.25,
+    "h": 6048.5,
+    "l": 5710.01,
+    "c": 5727.77,
+    "v": 45300,
+    "clsPos": 5,
+    "gapPct": -0.86
+   },
+   {
+    "d": "2026-10-27",
+    "o": 5700,
+    "h": 5812.46,
+    "l": 5666.8,
+    "c": 5806.02,
+    "v": 38500,
+    "clsPos": 96,
+    "gapPct": -0.48
+   },
+   {
+    "d": "2026-10-28",
+    "o": 5793.15,
+    "h": 5873.34,
+    "l": 5734.01,
+    "c": 5792.63,
+    "v": 38700,
+    "clsPos": 42,
+    "gapPct": -0.22
+   },
+   {
+    "d": "2026-10-29",
+    "o": 5850,
+    "h": 6021.98,
+    "l": 5848.86,
+    "c": 6018.95,
+    "v": 42000,
+    "clsPos": 98,
+    "gapPct": 0.99
+   },
+   {
+    "d": "2026-10-30",
+    "o": 6066.99,
+    "h": 6125,
+    "l": 5925.86,
+    "c": 5958.56,
+    "v": 41900,
+    "clsPos": 16,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-11-02",
+    "o": 6010,
+    "h": 6299.79,
+    "l": 5963,
+    "c": 6265.1,
+    "v": 50900,
+    "clsPos": 90,
+    "gapPct": 0.86
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NVR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NVR-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 10일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

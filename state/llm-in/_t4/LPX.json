@@ -1,0 +1,231 @@
+{
+ "ticker": "LPX",
+ "news": [
+  {
+   "title": "Insights Into Louisiana-Pacific (LPX) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/insights-louisiana-pacific-lpx-q3-wall-street-projections-key-metrics",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-lpx-expected-beat-earnings-estimates-can-stock-move-higher",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Stock Declines While Market Improves: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-lpx-stock-declines-while-market-improves-some-information-investors",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Louisiana-Pacific Corporation (LPX) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-corporation-lpx-attracting-investor-attention-here-what-you-should-0",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Laps the Stock Market: Here's Why",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-lpx-laps-stock-market-heres-why",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is It Worth Investing in Louisiana-Pacific (LPX) Based on Wall Street's Bullish Views?",
+   "url": "https://www.nasdaq.com/articles/it-worth-investing-louisiana-pacific-lpx-based-wall-streets-bullish-views",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Increases Despite Market Slip: Here's What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-lpx-increases-despite-market-slip-heres-what-you-need-know",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BCC vs. LPX: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/bcc-vs-lpx-which-stock-better-value-option",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insights Into Louisiana-Pacific (LPX) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/insights-louisiana-pacific-lpx-q3-131504177.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Weyerhaeuser (WY) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-beats-q3-earnings-203507369.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UFP Industries (UFPI) Lags Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ufp-industries-ufpi-lags-q3-204508104.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Trex (TREX) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/trex-trex-expected-beat-earnings-130017886.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/louisiana-pacific-lpx-expected-beat-130007892.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Siding Industry - Global Strategic Business Report: Secure Share of the $42.1 Billion Surge as James Hardie, Certain Teed, Etex, Louisiana-Pacific, and Wienerberger Reshape Competition",
+   "url": "https://finance.yahoo.com/real-estate/articles/siding-industry-global-strategic-business-143900880.html",
+   "date": "2026-10-26",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Oppenheimer Adjusts Price Target on Louisiana-Pacific to $104 From $107, Keeps Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-adjusts-price-target-louisiana-131252172.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000038/lpx-20260901.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000033/lpx-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000030/lpx-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000024/lpx-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000019/lpx-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-01",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000016/lpx-20260501.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -7.84,
+  "saleNy": 9.95,
+  "epsCy": -59.16,
+  "epsNy": 164.26,
+  "cyTrend": 0.53,
+  "nyTrend": -5.88,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -12.05,
+    -20.72,
+    -16.89
+   ],
+   "ni": [
+    -51.85,
+    -70.33,
+    -112.9
+   ],
+   "opm": [
+    4.52,
+    6.1,
+    -1.94
+   ],
+   "updated": "2026-09-08 10:20:43"
+  }
+ }
+}

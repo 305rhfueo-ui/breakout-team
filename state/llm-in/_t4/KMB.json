@@ -2,49 +2,52 @@
  "ticker": "KMB",
  "news": [
   {
-   "title": "Klabin SA (KLBAY) Q3 2026 Earnings Call Highlights: Resilient Revenue Growth Amid Cost ...",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/klabin-sa-klbay-q3-2026-011324805.html",
-   "date": "2026-10-31",
-   "publisher": "GuruFocus.com",
+   "title": "Kimberly-Clark Completes Acquisition of Kenvue",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-completes-acquisition-kenvue-150010726.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
    "via": "Yahoo"
   },
   {
-   "title": "Kimberly Clark (KMB) Just Gave Investors Something To Think About",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-just-gave-151923959.html",
-   "date": "2026-10-30",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Kenvue misses third-quarter profit expectations",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/kenvue-misses-third-quarter-profit-112106668.html",
-   "date": "2026-10-30",
-   "publisher": "Investing.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Kenvue Profit, Revenue Rise as Turnaround Efforts Continue",
-   "url": "https://finance.yahoo.com/m/44be91a6-9d8a-3413-9530-17ff5f53c122/kenvue-profit%2C-revenue-rise.html",
-   "date": "2026-10-30",
-   "publisher": "The Wall Street Journal",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Why Is Kimberly Clark (KMB) Issuing $4.9 Billion In New Notes?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/why-kimberly-clark-kmb-issuing-110912549.html",
-   "date": "2026-10-30",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Kimberly-Clark Corporation Announces Successful Completion of $4.9 Billion Private Offering of Senior Notes",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-corporation-announces-successful-211000719.html",
-   "date": "2026-10-29",
+   "title": "Kimberly-Clark Completes Acquisition of Kenvue, Creating the Preeminent Global Consumer Health and Wellness Leader",
+   "url": "https://finance.yahoo.com/healthcare/articles/kimberly-clark-completes-acquisition-kenvue-140200917.html",
+   "date": "2026-11-02",
    "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kimberly Clark (KMB) Stock Could Be 26% Below Fair Value On Debt Funded Acquisition",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-stock-could-061808887.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
    "via": "Yahoo"
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "reportDate": "2026-10-30",
+   "items": [
+    "2.01",
+    "2.05",
+    "5.02",
+    "5.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "2.05",
+    "임원 변동",
+    "5.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926120990/tm2628636d1_8k.htm",
+   "description": "FORM 8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-10-29",
@@ -130,31 +133,17 @@
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926115239/tm2627373d1_8k.htm",
    "description": "FORM 8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-10-01",
-   "reportDate": "2026-09-29",
-   "items": [
-    "5.02"
-   ],
-   "itemsKo": [
-    "임원 변동"
-   ],
-   "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926112571/tm2626685d1_8k.htm",
-   "description": "FORM 8-K"
   }
  ],
  "financials": null,
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 0.98,
-  "saleNy": 2.52,
-  "epsCy": -1.86,
-  "epsNy": 0.51,
-  "cyTrend": 0.14,
+  "saleCy": 1.05,
+  "saleNy": 2.45,
+  "epsCy": -1.64,
+  "epsNy": 0.28,
+  "cyTrend": 0.37,
   "nyTrend": -0.52,
   "newHigh52": false,
   "bbCenterBrk5d": false,

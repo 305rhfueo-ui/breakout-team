@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "ticker": "MGRC",
+      "price": 129.44,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "HURN",
+      "price": 195,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "IDXX",
+      "price": 671.64,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RRBI",
+      "price": 107.77,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "EW",
+      "price": 93.26,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "XEL",
+      "price": 79.33,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TEM",
+      "price": 78.48,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "USLM",
+      "price": 118.99,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CHH",
+      "price": 118.61,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ADUS",
+      "price": 125.75,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "WING",
+      "price": 163.04,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "EL",
+      "price": 104.77,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "REGN",
+      "price": 961.26,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GPN",
+      "price": 99.63,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "VLTO",
+      "price": 115.7,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CIGI",
+      "price": 104.35,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VRTX",
+      "price": 553.15,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "WST",
+      "price": 407.88,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "AME",
+      "price": 241.91,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "THG",
+      "price": 248.4,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "MHK",
+      "price": 148.58,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CPA",
+      "price": 137.34,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DD",
+      "price": 141.3,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SKY",
+      "price": 88.7,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LPX",
+      "price": 75.58,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "USPH",
+      "price": 84.9,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "HSIC",
+      "price": 86.62,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LNG",
+      "price": 311.67,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PFGC",
+      "price": 100.84,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ICFI",
+      "price": 98.52,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VVX",
+      "price": 83.2,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "WAT",
+      "price": 449.53,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "XMTR",
+      "price": 95.49,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "KMB",
+      "price": 108.25,
+      "category": 4,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PFIS",
+      "price": 74.92,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ABNB",
+      "price": 171.11,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NUTX",
+      "price": 185.6,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ABBV",
+      "price": 288.84,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "HALO",
+      "price": 128.95,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SHOP",
+      "price": 156.22,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FROG",
+      "price": 85.11,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FANG",
+      "price": 199.74,
+      "category": 1,
+      "confidence": "medium"
+    }
+  ]
+}

@@ -2,6 +2,18 @@
  "ticker": "MHK",
  "news": [
   {
+   "title": "Evercore ISI Group Upgrades Mohawk Industries to Outperform from In-Line",
+   "url": "https://www.nasdaq.com/articles/evercore-isi-group-upgrades-mohawk-industries-outperform-line",
+   "date": "2026-11-02",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Mohawk Industries Q3 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/mohawk-industries-q3-earnings-call-highlights",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Mohawk (MHK) Q3 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/mohawk-mhk-q3-2026-earnings-call-transcript",
    "date": "2026-10-30",
@@ -38,77 +50,65 @@
    "publisher": "RTTNews"
   },
   {
-   "title": "Will Mohawk Industries (MHK) Beat Estimates Again in Its Next Earnings Report?",
-   "url": "https://www.nasdaq.com/articles/will-mohawk-industries-mhk-beat-estimates-again-its-next-earnings-report",
-   "date": "2026-10-22",
-   "publisher": "Zacks"
+   "title": "Mohawk Industries (MHK) Stock Rallies On Q3 Earnings Margin Resilience",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-stock-rallies-071050406.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
   },
   {
-   "title": "Mohawk Industries (MHK) Expected to Beat Earnings Estimates: Should You Buy?",
-   "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-expected-beat-earnings-estimates-should-you-buy",
-   "date": "2026-10-22",
-   "publisher": "Zacks"
+   "title": "Is Mohawk Industries (MHK) Stock Cheap After A 64% Recovery?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-stock-cheap-210847014.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Did Mohawk Industries (MHK) Jump After Its Latest Update?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-mohawk-industries-mhk-151422549.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MHK Q3 deep dive: management emphasizes capital discipline as demand softens and margins improve",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mhk-q3-deep-dive-management-101129231.html",
+   "date": "2026-10-31",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Mohawk Industries Inc (MHK) Q3 2026 Earnings Call Highlights: Strong Cash Flow and Share ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-inc-mhk-q3-050800543.html",
+   "date": "2026-10-31",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Mohawk Industries Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-q3-earnings-call-221401609.html",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Mohawk (MHK) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-mhk-q3-2026-earnings-194602607.html",
+   "date": "2026-10-30",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Mohawk Industries, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-inc-q3-2026-123000723.html",
+   "date": "2026-10-30",
+   "publisher": "Moby",
+   "via": "Yahoo"
   },
   {
    "title": "Mohawk Industries (MHK) Surpasses Q3 Earnings Estimates",
    "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-surpasses-q3-220508261.html",
    "date": "2026-10-29",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mohawk Industries (MHK) Reports Q3 Earnings: What Key Metrics Have to Say",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-reports-q3-213002134.html",
-   "date": "2026-10-29",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mohawk Industries Q3 Adjusted Earnings, Net Sales Rise; Guides Q4",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-q3-adjusted-earnings-210328122.html",
-   "date": "2026-10-29",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mohawk Industries: Q3 Earnings Snapshot",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-q3-earnings-snapshot-204607570.html",
-   "date": "2026-10-29",
-   "publisher": "Associated Press",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mohawk Industries (NYSE:MHK) reports sales below analyst estimates in Q3 2026 earnings",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-nyse-mhk-reports-204050014.html",
-   "date": "2026-10-29",
-   "publisher": "StockStory",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mohawk Industries Introduces Strategic and Capital Allocation Framework and Announces New $500 Million Share Repurchase Authorization",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-introduces-strategic-capital-201700202.html",
-   "date": "2026-10-29",
-   "publisher": "GlobeNewswire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mohawk Industries Reports Q3 2026 Results",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-reports-q3-2026-201500731.html",
-   "date": "2026-10-29",
-   "publisher": "GlobeNewswire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mohawk Industries (MHK) to report earnings tomorrow: here is what to expect",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-report-earnings-070234345.html",
-   "date": "2026-10-28",
-   "publisher": "StockStory",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Will Mohawk Industries (MHK) Beat Estimates Again in Its Next Earnings Report?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mohawk-industries-mhk-beat-estimates-151005225.html",
-   "date": "2026-10-22",
    "publisher": "Zacks",
    "via": "Yahoo"
   }
@@ -252,11 +252,11 @@
  "site": {
   "targetStatus": false,
   "saleCy": 3.28,
-  "saleNy": 2.04,
-  "epsCy": 9.3,
-  "epsNy": 1.23,
-  "cyTrend": -0.37,
-  "nyTrend": -1.32,
+  "saleNy": 1.6,
+  "epsCy": 9.28,
+  "epsNy": -0.15,
+  "cyTrend": -0.42,
+  "nyTrend": -2.5,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

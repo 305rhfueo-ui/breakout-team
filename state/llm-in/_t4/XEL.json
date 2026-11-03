@@ -1,0 +1,223 @@
+{
+ "ticker": "XEL",
+ "news": [
+  {
+   "title": "XEL Crosses Above 3% Yield Territory",
+   "url": "https://www.nasdaq.com/articles/xel-crosses-above-3-yield-territory",
+   "date": "2026-11-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "What Xcel Energy (XEL) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-xcel-energy-xel-said-its-q3-earnings-call",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Xcel Energy (XEL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/xcel-energy-xel-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Xcel Energy (XEL) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/xcel-energy-xel-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Xcel Energy (XEL) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/xcel-energy-xel-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Xcel Energy names Hanna Grene VP, Enterprise Growth and Commercialization",
+   "url": "https://finance.yahoo.com/energy/articles/xcel-energy-names-hanna-grene-213000725.html",
+   "date": "2026-11-02",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Xcel Energy Plans $2 Billion Convertible Notes Offering to Repay Short-Term Debt",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/xcel-energy-plans-2-billion-122642205.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Xcel Energy Announces Proposed Offering of Convertible Senior Notes due 2027",
+   "url": "https://finance.yahoo.com/energy/articles/xcel-energy-announces-proposed-offering-115800700.html",
+   "date": "2026-11-02",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Barclays Adjusts Price Target on Xcel Energy to $94 From $85",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-price-target-xcel-145934604.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Xcel Energy rolls out $70B, 5-year capital plan focused on renewables",
+   "url": "https://finance.yahoo.com/energy/articles/xcel-energy-rolls-70b-5-120000774.html",
+   "date": "2026-10-30",
+   "publisher": "Utility Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Xcel Energy Inc (XEL) (Q3 2026) Earnings Call Highlights: Strong EPS Growth and a $70 Billion ...",
+   "url": "https://finance.yahoo.com/energy/articles/xcel-energy-inc-xel-q3-110745894.html",
+   "date": "2026-10-30",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Xcel Energy (XEL) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/energy/articles/xcel-energy-xel-said-q3-031404247.html",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Xcel Energy Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/energy/articles/xcel-energy-inc-q3-2026-213119845.html",
+   "date": "2026-10-29",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Xcel Energy (XEL) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/energy/articles/xcel-energy-xel-q3-2026-192958739.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "reportDate": "2026-11-02",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/d132424d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "reportDate": "2026-10-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526441768/d183277d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000178/xel-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-09",
+   "reportDate": "2026-10-09",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000175/xel-20261009.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-19",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000160/xel-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000149/xel-20260730.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.78,
+  "saleNy": 10.56,
+  "epsCy": 8.92,
+  "epsNy": 10.06,
+  "cyTrend": 0.57,
+  "nyTrend": 0.39,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -5.11,
+    2.94,
+    14.13
+   ],
+   "ni": [
+    31.98,
+    15.11,
+    22.2
+   ],
+   "opm": [
+    22.64,
+    18.75,
+    16.29
+   ],
+   "updated": "2026-09-08 07:36:52"
+  }
+ }
+}

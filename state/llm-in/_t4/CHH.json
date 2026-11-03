@@ -1,0 +1,221 @@
+{
+ "ticker": "CHH",
+ "news": [
+  {
+   "title": "Choice Hotels (CHH) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/choice-hotels-chh-q3-2026-earnings-call-transcript",
+   "date": "2026-11-02",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Choice Hotels (CHH) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/choice-hotels-chh-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Choice Hotels (CHH) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/choice-hotels-chh-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Choice Hotels (CHH) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/choice-hotels-chh-reports-next-week-wall-street-expects-earnings-growth-0",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Choice Hotels International Inc (CHH) (Q3 2026) Earnings Call Highlights: RevPAR Beats, ...",
+   "url": "https://finance.yahoo.com/real-estate/articles/choice-hotels-international-inc-chh-230336795.html",
+   "date": "2026-11-02",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels International, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-international-inc-q3-215029733.html",
+   "date": "2026-11-02",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels (CHH) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-chh-q3-2026-184322218.html",
+   "date": "2026-11-02",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels cites extended stay as ‘key growth driver’ in Q3",
+   "url": "https://finance.yahoo.com/real-estate/articles/choice-hotels-cites-extended-stay-183911773.html",
+   "date": "2026-11-02",
+   "publisher": "Hotel Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels International Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-international-q3-earnings-181240785.html",
+   "date": "2026-11-02",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels (CHH) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-chh-q3-earnings-133002859.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels Shares Rise 2.55% as Q3 Earnings Beat Forecasts and RevPAR Outlook Improves",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-shares-rise-2-131909381.html",
+   "date": "2026-11-02",
+   "publisher": "InvestorsHub",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels beats Q3 estimates, raises RevPAR outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-beats-q3-estimates-121913908.html",
+   "date": "2026-11-02",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Choice Hotels International Q3 Adjusted Earnings, Revenue Increase; 2026 Adjusted EPS Outlook Narrowed",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-international-q3-adjusted-115840918.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "reportDate": "2026-11-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1046311/000104631126000030/chh-20261102.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-01",
+   "reportDate": "2026-09-29",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1046311/000119312526409974/d120513d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-31",
+   "reportDate": "2026-08-30",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1046311/000119312526375580/d767448d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-28",
+   "reportDate": "2026-08-28",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1046311/000119312526374377/d110369d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1046311/000104631126000023/chh-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1046311/000162828026046377/chh-20260626.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2,
+  "saleNy": 3.49,
+  "epsCy": 1.09,
+  "epsNy": 7.48,
+  "cyTrend": 0.09,
+  "nyTrend": 0.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.36,
+    2.32,
+    0.1
+   ],
+   "ni": [
+    -21.22,
+    -54.41,
+    -16.27
+   ],
+   "opm": [
+    23.63,
+    17.63,
+    26
+   ],
+   "updated": "2026-09-08 07:58:56"
+  }
+ }
+}

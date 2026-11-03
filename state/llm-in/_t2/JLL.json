@@ -1,0 +1,280 @@
+{
+ "ticker": "JLL",
+ "sector": "Real Estate",
+ "industry": "Real Estate Services",
+ "nameKo": "존스 랭 라살",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.53,
+  "saleNy": 8.09,
+  "epsCy": 35.72,
+  "epsNy": 11.64,
+  "est": {
+   "cyCur": 25.516,
+   "cy30": 25.11353,
+   "nyCur": 28.48529,
+   "ny30": 28.4731
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    10.84,
+    11.14,
+    11.71
+   ],
+   "ni": [
+    91.99,
+    187.52,
+    66.54
+   ],
+   "opm": [
+    4.2,
+    3.2,
+    6.66
+   ],
+   "updated": "2026-09-08 06:10:41"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-03",
+  "nameKo": "존스 랭 라살",
+  "nameEn": "JONES LANG LASALLE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001037976&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 6927900000,
+     "profit": 290900000,
+     "netIncome": 214300000,
+     "margin": 4.2,
+     "yoy": {
+      "revenue": 10.8,
+      "profit": 47.4,
+      "netIncome": 93.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 6386500000,
+     "profit": 204600000,
+     "netIncome": 159400000,
+     "margin": 3.2,
+     "yoy": {
+      "revenue": 11.1,
+      "profit": 70.5,
+      "netIncome": 177.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 7608700000,
+     "profit": 506900000,
+     "netIncome": 401800000,
+     "margin": 6.7,
+     "yoy": {
+      "revenue": 11.7,
+      "profit": 35.8,
+      "netIncome": 66.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 6510400000,
+     "profit": 273700000,
+     "netIncome": 222400000,
+     "margin": 4.2,
+     "yoy": {
+      "revenue": 10.9,
+      "profit": 19.9,
+      "netIncome": 43.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Jones Lang LaSalle (JLL) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-jones-lang-lasalle-jll-top-momentum-stock-long-term",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "JLL Crosses Above Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/jll-crosses-above-key-moving-average-level",
+     "date": "2026-10-28",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "What Jones Lang LaSalle (JLL) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-jones-lang-lasalle-jll-said-its-q3-earnings-call",
+     "date": "2026-10-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Jones Lang LaSalle Incorporated Reports Third-Quarter 2026 Results and Plans $500 million Accelerated Share Repurchase",
+     "url": "https://www.nasdaq.com/articles/jones-lang-lasalle-incorporated-reports-third-quarter-2026-results-and-plans-500-million",
+     "date": "2026-10-28",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "JLL (JLL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/jll-jll-q3-2026-earnings-call-transcript",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Jones Lang LaSalle (JLL) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/jones-lang-lasalle-jll-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Jones Lang Lasalle Q3 Profit Advances",
+     "url": "https://www.nasdaq.com/articles/jones-lang-lasalle-q3-profit-advances",
+     "date": "2026-10-28",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Here's Why Jones Lang LaSalle (JLL) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-jones-lang-lasalle-jll-strong-growth-stock-0",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000191/jll-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000187/jll-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000173/jll-20260928.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000167/jll-20260916.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000150/jll-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1037976/000103797626000108/jll-20260528.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "JLL CEO Christian Ulbrich on whether data center investment is cooling: ‘Nobody is pulling back’",
+   "url": "https://www.cnbc.com/video/2026/10/28/jll-ceo-christian-ulbrich-on-whether-data-center-investment-is-cooling-nobody-is-pulling-back.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with JLL CEO Christian Ulbrich",
+   "url": "https://www.cnbc.com/video/2026/10/28/watch-cnbcs-full-interview-with-jll-ceo-christian-ulbrich.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "JLL CEO: U.S. office market showing ‘very solid growth’",
+   "url": "https://www.cnbc.com/video/2026/07/30/jll-ceo-office-market-in-the-u-s-showing-very-solid-growth.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "JLL",
+  "fetchedAt": "2026-11-03",
+  "source": "한국투자증권 Open API",
+  "per": 18.17,
+  "pbr": 2.34,
+  "eps": 20.87,
+  "bps": 162.19,
+  "shares": 45679300,
+  "marketCapM": 17326,
+  "high52": 393.84,
+  "high52Date": "2026-08-19",
+  "low52": 259.83,
+  "low52Date": "2026-02-12",
+  "last": 379.29,
+  "prevClose": 359.79,
+  "nameKo": "존스 랭 라살",
+  "nameEn": "JONES LANG LASALLE INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 45679300
+ }
+}

@@ -2,6 +2,12 @@
  "ticker": "REGN",
  "news": [
   {
+   "title": "Regeneron: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/regeneron-3-key-takeaways-long-term-investors",
+   "date": "2026-10-31",
+   "publisher": "The Motley Fool"
+  },
+  {
    "title": "REGN Q3 Earnings Beat on Dupixent Profits & Eylea HD Growth, Stock Up",
    "url": "https://www.nasdaq.com/articles/regn-q3-earnings-beat-dupixent-profits-eylea-hd-growth-stock",
    "date": "2026-10-30",
@@ -14,57 +20,71 @@
    "publisher": "RTTNews"
   },
   {
+   "title": "What Regeneron Pharmaceuticals (REGN) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-regeneron-pharmaceuticals-regn-said-its-q3-earnings-call",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Regeneron (REGN) Q3 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/regeneron-regn-q3-2026-earnings-call-transcript",
    "date": "2026-10-30",
    "publisher": "The Motley Fool"
   },
   {
-   "title": "Regeneron (REGN) Reports Q3 Earnings: What Key Metrics Have to Say",
-   "url": "https://www.nasdaq.com/articles/regeneron-regn-reports-q3-earnings-what-key-metrics-have-say",
-   "date": "2026-10-30",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Health Care Roundup: Market Talk",
-   "url": "https://finance.yahoo.com/m/ee46ee8b-cb85-3370-a87c-7c801e230571/health-care-roundup%3A-market.html",
-   "date": "2026-10-30",
-   "publisher": "The Wall Street Journal",
+   "title": "Regeneron Announces Investor Conference Presentations",
+   "url": "https://finance.yahoo.com/healthcare/articles/regeneron-announces-investor-conference-presentations-210500591.html",
+   "date": "2026-11-02",
+   "publisher": "GlobeNewswire",
    "via": "Yahoo"
   },
   {
-   "title": "Regeneron, Sanofi Surge As Dupixent Wallops Sales Forecasts",
-   "url": "https://finance.yahoo.com/m/10130d32-3ffe-3110-8ce7-984fc87d885a/regeneron%2C-sanofi-surge-as.html",
-   "date": "2026-10-30",
-   "publisher": "Investor's Business Daily",
-   "via": "Yahoo"
-  },
-  {
-   "title": "REGN Stock Hits 2-Year Highs Pre-Market: CFO Says Regeneron Is Positioned To Deliver One Of ‘Strongest Years Ever’ After Q3 Earnings Beat",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/regn-stock-hits-2-highs-123054450.html",
-   "date": "2026-10-30",
-   "publisher": "Stocktwits",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Regeneron (REGN) Reports Q3 Earnings: What Key Metrics Have to Say",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-regn-reports-q3-earnings-123003358.html",
-   "date": "2026-10-30",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Regeneron (NASDAQ:REGN) surprises with strong Q3 2026, stock soars",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-nasdaq-regn-surprises-strong-122432174.html",
-   "date": "2026-10-30",
+   "title": "REGN Q3 deep dive: pipeline progress and core brands drive outperformance",
+   "url": "https://finance.yahoo.com/healthcare/articles/regn-q3-deep-dive-pipeline-193336375.html",
+   "date": "2026-11-02",
    "publisher": "StockStory",
    "via": "Yahoo"
   },
   {
-   "title": "Regeneron Q3 revenue tops estimates on Sanofi Dupixent profit; shares rise 4%",
-   "url": "https://finance.yahoo.com/healthcare/articles/regeneron-q3-revenue-tops-estimates-111308591.html",
-   "date": "2026-10-30",
-   "publisher": "Investing.com",
+   "title": "Regeneron's 'Strong Commercial' Q3 Underscores Core Business Health, RBC Capital Markets Says",
+   "url": "https://finance.yahoo.com/healthcare/articles/regeneron-apos-apos-strong-commercial-164005831.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings roundup: AstraZeneca’s cost cuts, Alnylam’s slump and Regeneron’s resilience",
+   "url": "https://finance.yahoo.com/healthcare/articles/earnings-roundup-astrazeneca-cost-cuts-140000440.html",
+   "date": "2026-11-02",
+   "publisher": "BioPharma Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "The top 5 analyst questions from Regeneron’s Q3 earnings call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-regeneron-134936444.html",
+   "date": "2026-11-02",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BMO Raises Price Target on Regeneron Pharmaceuticals to $1,050 From $920, Keeps Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-raises-price-target-regeneron-134823977.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RBC Raises Price Target on Regeneron Pharmaceuticals to $913 From $810, Keeps Sector Perform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-regeneron-130030075.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Cantor Fitzgerald Adjusts Price Target on Regeneron Pharmaceuticals to $980 From $795",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-adjusts-price-target-111254738.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
    "via": "Yahoo"
   }
  ],
@@ -198,13 +218,13 @@
   "reports": []
  },
  "site": {
-  "targetStatus": false,
+  "targetStatus": true,
   "saleCy": 22.74,
-  "saleNy": 5.58,
-  "epsCy": 33.37,
-  "epsNy": -11.89,
-  "cyTrend": 9.24,
-  "nyTrend": 2.86,
+  "saleNy": 11.26,
+  "epsCy": 53.55,
+  "epsNy": -15.91,
+  "cyTrend": 25.76,
+  "nyTrend": 13.01,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

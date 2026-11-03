@@ -2,6 +2,12 @@
  "ticker": "GPN",
  "news": [
   {
+   "title": "Global Payments (GPN) Surges 13.0%: Is This an Indication of Further Gains?",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-surges-130-indication-further-gains",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
    "title": "Global Payments (GPN) Reports Next Week: Wall Street Expects Earnings Growth",
    "url": "https://www.nasdaq.com/articles/global-payments-gpn-reports-next-week-wall-street-expects-earnings-growth",
    "date": "2026-10-29",
@@ -14,78 +20,119 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Can Global Payments Gain From Growing Consumer Trust in AI Commerce?",
-   "url": "https://www.nasdaq.com/articles/can-global-payments-gain-growing-consumer-trust-ai-commerce",
-   "date": "2026-09-24",
-   "publisher": "Zacks"
+   "title": "Global Payments deal could reach your checkout",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-deal-could-reach-180700257.html",
+   "date": "2026-11-02",
+   "publisher": "TheStreet",
+   "via": "Yahoo"
   },
   {
-   "title": "Can Genius Emerge as a Key Growth Driver for Global Payments?",
-   "url": "https://www.nasdaq.com/articles/can-genius-emerge-key-growth-driver-global-payments",
-   "date": "2026-09-21",
-   "publisher": "Zacks"
+   "title": "Global Payments (GPN) Surges 13.0%: Is This an Indication of Further Gains?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-surges-13-135600331.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
   },
   {
-   "title": "Can Worldpay Help Global Payments Build a Stronger Growth Story?",
-   "url": "https://www.nasdaq.com/articles/can-worldpay-help-global-payments-build-stronger-growth-story",
-   "date": "2026-09-17",
-   "publisher": "Zacks"
+   "title": "CD&R explores potential take-private deal for Global Payments – report",
+   "url": "https://finance.yahoo.com/news/cd-r-explores-potential-private-120225957.html",
+   "date": "2026-11-02",
+   "publisher": "Electronic Payments",
+   "via": "Yahoo"
   },
   {
-   "title": "Global Payments Takes Over #373 Spot From First Solar",
-   "url": "https://www.nasdaq.com/articles/global-payments-takes-over-373-spot-first-solar",
-   "date": "2026-09-11",
-   "publisher": "BNK Invest"
+   "title": "Michael Burry’s Fiserv Buyout Math Hits $120 — Reaffirms PayPal As A ‘Fat Pitch’ Amid Global Payments Deal Buzz",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-fiserv-buyout-math-084842243.html",
+   "date": "2026-11-02",
+   "publisher": "Stocktwits",
+   "via": "Yahoo"
   },
   {
-   "title": "Global Payments (GPN) Up 4.7% Since Last Earnings Report: Can It Continue?",
-   "url": "https://www.nasdaq.com/articles/global-payments-gpn-47-last-earnings-report-can-it-continue",
-   "date": "2026-09-04",
-   "publisher": "Zacks"
+   "title": "Global Payments (GPN) Stock Looks Fully Priced After Its 28% Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-stock-looks-111428674.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "GPN Clocks Best Day In Over Eight Months On Reports Of CD&R-GTCR Take-Private Bid",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gpn-clocks-best-day-over-212822996.html",
+   "date": "2026-10-30",
+   "publisher": "Stocktwits",
+   "via": "Yahoo"
   }
  ],
  "filings": [
   {
    "form": "8-K",
    "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000082/gpn-20260805.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000082/gpn-20260805.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-07",
+   "reportDate": "2026-05-06",
+   "items": [
+    "8.01"
+   ],
    "itemsKo": [
     "기타 중요사건"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926056781/tm2613880d1_8k.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926056781/tm2613880d1_8k.htm",
+   "description": "FORM 8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000070/gpn-20260506.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000070/gpn-20260506.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-04",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.07"
+   ],
    "itemsKo": [
     "주주총회 표결"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926054479/tm2613397d1_8k.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926054479/tm2613397d1_8k.htm",
+   "description": "FORM 8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-03-12",
+   "reportDate": "2026-03-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
    "itemsKo": [
     "중요 계약 체결",
     "2.03",
@@ -93,87 +140,28 @@
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926027067/tm268658d1_8k.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926027067/tm268658d1_8k.htm",
+   "description": "FORM 8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-03-11",
+   "reportDate": "2026-03-05",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
    "itemsKo": [
     "중요 계약 체결",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926026460/tm266812d2_8k.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926026460/tm266812d2_8k.htm",
+   "description": "FORM 8-K"
   }
  ],
- "financials": {
-  "profitLabel": "영업이익",
-  "marginLabel": "영업이익률",
-  "unit": "USD",
-  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001123360&type=10-Q",
-  "quarters": [
-   {
-    "periodEnd": "2026-06-30",
-    "derived": false,
-    "revenue": 3320791000,
-    "profit": 337121000,
-    "netIncome": 12971000,
-    "margin": 10.2,
-    "yoy": {
-     "revenue": 68.6,
-     "profit": -14.3,
-     "netIncome": -94.6,
-     "priorEnd": "2025-06-30"
-    }
-   },
-   {
-    "periodEnd": "2026-03-31",
-    "derived": false,
-    "revenue": 2969682000,
-    "profit": -15646000,
-    "netIncome": -1799878000,
-    "margin": -0.5,
-    "yoy": {
-     "revenue": 63.1,
-     "profit": -104.2,
-     "netIncome": -688.7,
-     "priorEnd": "2025-03-31"
-    }
-   },
-   {
-    "periodEnd": "2025-12-31",
-    "derived": true,
-    "revenue": 1932807000,
-    "profit": 169308000,
-    "netIncome": 217524000,
-    "margin": 8.8,
-    "yoy": {
-     "revenue": 0,
-     "profit": -75.7,
-     "netIncome": -61.6,
-     "priorEnd": "2024-12-31"
-    }
-   },
-   {
-    "periodEnd": "2025-09-30",
-    "derived": false,
-    "revenue": 2007637000,
-    "profit": 778014000,
-    "netIncome": 635209000,
-    "margin": 38.8,
-    "yoy": {
-     "revenue": 0.5,
-     "profit": 75.7,
-     "netIncome": 101.6,
-     "priorEnd": "2024-09-30"
-    }
-   }
-  ]
- },
- "krReports": {
-  "total": 0,
-  "reports": []
- },
+ "financials": null,
+ "krReports": null,
  "site": {
   "targetStatus": false,
   "saleCy": 32.61,

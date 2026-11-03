@@ -516,8 +516,373 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-03",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "나스닥100, 올해 세 번째 조정 구간 진입",
+        "easy": "나스닥100 지수가 조정(고점 대비 10% 이상 하락) 구간에 들어갔다. 올해 벌써 세 번째다. AI 투자에 대한 걱정이 커진 것이 원인으로 기사에 적혀 있다. 지수를 끌고 올라온 대형 기술주가 함께 밀려, 시장 전체 신호등이 새로 사기 어려운 쪽으로 바뀌었다.",
+        "whyMatters": "기술·반도체 업종에 가장 나쁘다 — Palantir·Apple처럼 지수를 끌어온 대형주에서 돈이 빠지고 있다. 반면 지금 후보 종목이 가장 많은 헬스케어 업종은 상대적으로 버티는 국면이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+            "date": "2026-11-03",
+            "quote": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Palantir 사상 최대 실적에도 주가는 내렸다",
+        "easy": "3분기 매출이 1년 전의 거의 두 배로 늘어 처음 20억 달러를 넘었다. 미국 민간 매출은 148% 늘어 9억8,400만 달러가 되며 정부 매출을 처음 앞질렀다. 회사는 연간 전망(가이던스)도 올렸다. 그런데 주가는 시간외에서 약 3% 내렸다 — 기대가 이미 주가에 들어가 있어 좋은 숫자로는 더 오르지 못한 것이다.",
+        "whyMatters": "AI 소프트웨어 업종에 나쁜 신호다 — 기대가 높은 종목은 실적이 좋아도 매물이 나온다. 같은 이유로 소프트웨어 업종의 다른 고평가 종목도 실적 발표 때 흔들릴 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+            "date": "2026-11-02",
+            "quote": "U.S. commercial revenue jumped 148% to $984 million, surpassing U.S. government revenue of $953 million, which was up 96%.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Here's why Palantir's stock is down despite a 'bombastic' quarter",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+            "date": "2026-11-03",
+            "quote": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Apple, 아이폰 호조인데 주가는 하락",
+        "easy": "아이폰 사업은 잘 되고 있는데 주가는 내렸다. 접는 아이폰은 매진됐고, Apple은 추가 물량이 언제 나올지 아직 모른다고 밝혔다. 잘 팔리는 제품을 더 내놓지 못하면 이 호조가 다음 분기 매출로 이어지지 못한다. 좋은 실적만으로는 주가가 오르지 않는 지금 시장 분위기도 겹쳤다.",
+        "whyMatters": "스마트폰 부품·반도체 업종에 부담이다 — Apple 공급망 종목은 주문 전망이 흐려지면 같이 눌린다. 다만 수요가 꺾인 게 아니라 공급이 모자란 상황이라는 점은 따로 확인할 부분이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Apple's iPhone business is booming. Here's why the stock is falling anyway.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+            "date": "2026-11-03",
+            "quote": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Apple unsure when more foldable iPhones will be available after selling out",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-03",
+            "quote": "Apple unsure when more foldable iPhones will be available after selling out",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "국제 유가 7% 급락 — 이란 협상 기대",
+        "easy": "국제 유가가 하루에 7% 넘게 내렸다. 트럼프 대통령이 이란이 합의를 원한다고 말했고, 이란 대통령도 대화로 문제를 풀겠다고 밝힌 것이 계기다. 중동 전쟁 위험이 줄면 공급이 끊길 걱정이 줄어 기름값이 내려간다. 미국 중간선거를 앞두고 나온 움직임이다.",
+        "whyMatters": "에너지 업종에는 나쁘고, 기름을 많이 쓰는 항공·운송과 소비 업종에는 좋다. 유가 하락은 물가 압력을 낮춰 금리 쪽에도 유리하게 작용한다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+            "date": "2026-11-02",
+            "quote": "President Donald Trump told reporters Monday that Iran wants to 'make a deal and that could happen.'",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Intel, 10월 45% 급락 뒤 위탁생산 시험대",
+        "easy": "Intel 주가가 10월 한 달에 45% 내렸다. 회사가 이번 분기 매출이 시장 예상보다 10억~20억 달러 적을 것이라고 밝혔기 때문이다. 메모리 등 부품 값이 급등해 PC 시장 부진이 계속되는 탓이다. 남은 관문은 외부 고객을 받는 파운드리(위탁생산)인데, 1년 안에 대형 고객을 잡지 못하면 수익 압박이 더 커진다는 지적이 나온다.",
+        "whyMatters": "PC·메모리 수요에 걸린 반도체·하드웨어 종목에 나쁘다 — 부품값 상승은 PC 제조·유통의 비용으로 돌아온다. 반대로 메모리를 파는 쪽에는 가격 상승이 유리하다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+            "date": "2026-11-02",
+            "quote": "the company said revenue this quarter will be between $1 billion and $2 billion shy of analysts' estimates as the PC market continues to suffer from soaring costs for memory and other components.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "인기주가 밀리고 소외주가 버티는 흐름",
+        "easy": "월가가 가장 싫어했던 종목들이 가장 좋아했던 종목들보다 잘 버티고 있다. 사람이 몰려 있던 AI·기술 인기주에서 돈이 빠져나가고 있다는 뜻이다. 같은 기간 나스닥100 반등을 노려 레버리지 ETF(지수 움직임을 배로 따라가는 상품)에 들어간 투자자들은 손실을 봤다. 쏠려 있던 자리에서 먼저 손실이 나는 국면이다.",
+        "whyMatters": "기술·AI 인기주에는 나쁘고, 그동안 소외됐던 헬스케어·산업재 업종에는 유리한 흐름이다. 지금 후보 종목이 헬스케어에 가장 많이 몰려 있는 것과도 방향이 맞는다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Wall Street's most hated stocks are faring far better than its favorites",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+            "date": "2026-11-02",
+            "quote": "Wall Street’s most hated stocks are faring far better than its favorites",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+            "date": "2026-11-02",
+            "quote": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "새로 사기에 좋은 때는 아니다 — 시장 신호등은 빨간불이고 열흘째 그대로다. QQQ는 10일선이 20일선 아래로 내려간 상태가 이어지고 있고, 종가 681.09는 50일선 아래에 있다. 오늘 뉴스는 그 이유를 설명한다 — 나스닥100이 올해 세 번째 조정에 들어갔고, Palantir·Apple은 실적이 좋았는데도 주가가 내렸다. 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘었다는 점이 걸린다 — 하락이 깊어지면 빚을 줄이려는 매도가 겹칠 수 있는 구간이다. 이번 주는 미국 중간선거 결과와, QQQ의 10일선이 20일선 위로 다시 올라오는지를 지켜보면 된다.",
+    "keyRisks": [
+      "실적이 좋아도 주가가 빠진다: Palantir·Apple처럼 기대치가 이미 높은 종목은 좋은 숫자에도 매물이 나온다. 남은 AI·기술주 실적 발표에서 같은 일이 반복될 수 있다.",
+      "빚으로 산 물량: 마진부채가 주의선을 넘어섰다. 하락이 깊어지면 담보를 채우기 위한 강제 매도가 하락을 더 키운다.",
+      "레버리지 상품 쏠림: 지수 반등을 노려 배로 따라가는 ETF에 들어간 돈이 손실을 봤다. 손실을 복구하려는 물량이 쌓이면 반등할 때마다 매도가 나온다.",
+      "유가 급락의 양면: 물가에는 도움이지만 에너지 업종 이익에는 직격이다. 이란 협상이 틀어지면 하루 만에 되돌릴 수 있는 재료다."
+    ],
+    "easySummary": [
+      "나스닥100이 올해 세 번째 조정에 들어갔다 — 시장 신호등은 빨간불, 새로 사기보다 지켜볼 때다.",
+      "Palantir는 사상 최대 실적, Apple은 아이폰 호조였는데 둘 다 주가가 내렸다 — 기대가 너무 높았던 탓이다.",
+      "유가는 이란 협상 기대로 7% 급락했고, 돈은 AI 인기주에서 소외 업종으로 옮겨가고 있다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 216,
+      "ok": 339,
+      "unverified": 5,
+      "dead": 0,
+      "stripped": 18,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000067/rrbi-20261030.htm"
+        }
+      ],
+      "numberCut": 32,
+      "numberCuts": [
+        {
+          "sentence": "앞선 분기(매출 +18.3%)보다 성장이 빨라졌다.",
+          "missing": [
+            "18.3"
+          ]
+        },
+        {
+          "sentence": "주가는 9월 16일 52주 저점(1,071달러)에서 반등해 1,213달러까지 올랐다.",
+          "missing": [
+            "1,213"
+          ]
+        },
+        {
+          "sentence": "오늘 하루 상승률은 약 5.8%다.",
+          "missing": [
+            "5.8"
+          ]
+        },
+        {
+          "sentence": "52주 고점(1,463달러, 1월)보다 아직 17% 낮고, 이익 증가율(순이익 +9.6%)은 매출 증가율보다 느리다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "올해 1분기 6.8%, 2분기 7.5%에 이어 증가율이 계속 올라가고 있다.",
+          "missing": [
+            "6.8",
+            "7.5"
+          ]
+        },
+        {
+          "sentence": "스톡턴은 주가가 아직 하락 추세 범위 안에 있다고 보며, 200일 평균선(약 333달러) 위로 370~380달러 구간이 다음 저항이라고 했다.",
+          "missing": [
+            "333"
+          ]
+        },
+        {
+          "sentence": "앞선 분기도 매출 21.7% 감소, 순이익 33.8% 감소였다.",
+          "missing": [
+            "21.7",
+            "33.8"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점 236.19달러보다 63% 낮고, 10월 14일에 52주 저점 72.56달러를 찍은 뒤 반등한 상태다.",
+          "missing": [
+            "63"
+          ]
+        },
+        {
+          "sentence": "지난 분기 영업손실 1억 4,400만 달러라 적자 폭이 줄어드는지가 관건이다.",
+          "missing": [
+            "1억 4,400만 달러"
+          ]
+        },
+        {
+          "sentence": "회사가 7억 5천만 달러 규모의 새 자사주 매입 계획을 발표했다.",
+          "missing": [
+            "7억 5"
+          ]
+        },
+        {
+          "sentence": "현재 시가총액 약 68억 달러의 11% 안팎에 해당해 주당 가치를 받치는 재료다.",
+          "missing": [
+            "68억 달러",
+            "11"
+          ]
+        },
+        {
+          "sentence": "주가는 10월 8일 52주 저점 73.09달러에서 99.01달러까지 올랐다.",
+          "missing": [
+            "73.09"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점 118.35달러보다 아직 16% 낮다.",
+          "missing": [
+            "118.35",
+            "16"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 36.4배이고, 52주 고점(190달러)보다는 아직 17% 낮다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "매출은 8.9% 늘어 이익이 매출보다 3배 이상 빨리 커졌다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "주가는 1월 고점 222.5달러보다 35% 낮아 반등 후에도 회복 폭이 절반 남짓이다.",
+          "missing": [
+            "35"
+          ]
+        },
+        {
+          "sentence": "ORKA-001이 건선 2b상에서 완전 피부 청결률 61%를 보였다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "3분기 매출과 이익이 모두 예상을 넘었다(10/28).",
+          "missing": [
+            "28"
+          ]
+        },
+        {
+          "sentence": "주가가 주요 이동평균선을 넘어섰다는 기사가 나왔다(10/28).",
+          "missing": [
+            "28"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 증가율은 10.8~11.7%다.",
+          "missing": [
+            "4",
+            "11.7"
+          ]
+        },
+        {
+          "sentence": "현재가 379.29달러와 가깝다.",
+          "missing": [
+            "379.29"
+          ]
+        },
+        {
+          "sentence": "8월 5일 CEO 교체를 발표했고 10월 1일 임원 변동 8-K가 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "실적 직후 여러 증권사가 목표주가를 내렸다(스코샤뱅크 275→235달러, 웰스파고 230→200달러, 바클레이즈 230→205달러).",
+          "missing": [
+            "230",
+            "200",
+            "230",
+            "205"
+          ]
+        },
+        {
+          "sentence": "실적 뒤 증권사 7곳 중 6곳이 목표가를 낮췄다(UBS만 상향).",
+          "missing": [
+            "7",
+            "6"
+          ]
+        },
+        {
+          "sentence": "10월 28일 공시된 계약은 총 10억 달러 규모 선순위 회사채 발행이다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "10월 말 총 10억 달러 규모 회사채를 새로 발행해 부채 부담이 늘 수 있다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "3분기 순이익이 2억 4,860만 달러로 줄었다는 보도가 나왔다.",
+          "missing": [
+            "2억 4,860만 달러"
+          ]
+        },
+        {
+          "sentence": "9월 말 분기 매출은 53.4억 달러로 전년 동기보다 17.4% 늘었고, 직전 두 분기 증가율(35.2%, 34.6%)보다 둔화됐다.",
+          "missing": [
+            "35.2",
+            "34.6"
+          ]
+        },
+        {
+          "sentence": "9월 말 분기 순이익은 3.57억 달러로 전년 동기보다 1308% 늘었고 세전이익률은 9.1%로 직전 분기(9.9%)보다 낮다.",
+          "missing": [
+            "9.9"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 1.5% 증가였다.",
+          "missing": [
+            "1.5"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 24.1% 증가.",
+          "missing": [
+            "24.1"
+          ]
+        },
+        {
+          "sentence": "산업용 가스터빈은 1H26 기준 매출의 13%를 차지한다(신한투자증권).",
+          "missing": [
+            "1"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-03"
   }
 };

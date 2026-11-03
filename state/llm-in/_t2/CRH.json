@@ -1,0 +1,284 @@
+{
+ "ticker": "CRH",
+ "sector": "Basic Materials",
+ "industry": "Building Materials",
+ "nameKo": "CRH",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.19,
+  "saleNy": 8.58,
+  "epsCy": -5.81,
+  "epsNy": 16.63,
+  "est": {
+   "cyCur": 5.29,
+   "cy30": 5.85091,
+   "nyCur": 6.16984,
+   "ny30": 6.41102
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.59,
+    9.09,
+    6.16
+   ],
+   "ni": [
+    12.66,
+    "적자확대",
+    45.81
+   ],
+   "opm": [
+    18.81,
+    -0.16,
+    14.49
+   ],
+   "updated": "2026-09-07 05:59:07"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-03",
+  "nameKo": "CRH",
+  "nameEn": "CRH",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849395&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 11396000000,
+     "profit": 1896000000,
+     "netIncome": 1245000000,
+     "margin": 16.6,
+     "yoy": {
+      "revenue": 3,
+      "profit": -8.9,
+      "netIncome": -17.2,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 10777000000,
+     "profit": 2079000000,
+     "netIncome": 1486000000,
+     "margin": 19.3,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 7.4,
+      "netIncome": 12.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7370000000,
+     "profit": -38000000,
+     "netIncome": -176000000,
+     "margin": -0.5,
+     "yoy": {
+      "revenue": 9.1,
+      "profit": -311.1,
+      "netIncome": -87.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 9416000000,
+     "profit": 1406000000,
+     "netIncome": 1025000000,
+     "margin": 14.9,
+     "yoy": {
+      "revenue": 6.2,
+      "profit": 27.4,
+      "netIncome": 45.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "What CRH (CRH) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-crh-crh-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "CRH plc Reports Q3 2026 Results, Completes $8.5B Arcosa Acquisition, and Announces $6B Share Buyback",
+     "url": "https://www.nasdaq.com/articles/crh-plc-reports-q3-2026-results-completes-85b-arcosa-acquisition-and-announces-6b-share",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "CRH (CRH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/crh-crh-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, CRH (CRH) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-crh-crh-q3-earnings-look-key-metrics",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRH Plc Q3 26 Earnings Conference Call At 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/crh-plc-q3-26-earnings-conference-call-8-00-am-et",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Unlocking Q3 Potential of CRH (CRH): Exploring Wall Street Estimates for Key Metrics",
+     "url": "https://www.nasdaq.com/articles/unlocking-q3-potential-crh-crh-exploring-wall-street-estimates-key-metrics",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRH (CRH) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/crh-crh-falls-more-steeply-broader-market-what-investors-need-know-0",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRH plc Completes $8.5B Acquisition of Arcosa",
+     "url": "https://www.nasdaq.com/articles/crh-plc-completes-85b-acquisition-arcosa",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000084939526000012/crh-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000119312526429523/d187492d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000162828026050752/crh-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-17",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000162828026048660/crh-20260717.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000119312526276686/d864737d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/849395/000162828026043417/crh-20260616.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Great British sell-off? UK takeovers accelerate in a big way",
+   "url": "https://www.cnbc.com/2026/07/22/uk-takeovers-rotork-gooch-housego-ramsdens-mitie.html",
+   "date": "2026-07-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer shares his take on Vulcan and Martin Marietta",
+   "url": "https://www.cnbc.com/video/2026/07/28/jim-cramer-shares-his-take-on-vulcan-and-martin-marietta.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CRH CEO Jim Mintern sits down with Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/07/27/crh-ceo-jim-mintern-sits-down-with-jim-cramer.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CRH",
+  "fetchedAt": "2026-11-03",
+  "source": "한국투자증권 Open API",
+  "per": 17.03,
+  "pbr": 2.53,
+  "eps": 5.67,
+  "bps": 38.13,
+  "shares": 665284500,
+  "marketCapM": 64260,
+  "high52": 130.0918,
+  "high52Date": "2026-01-09",
+  "low52": 78.62,
+  "low52Date": "2026-10-14",
+  "last": 96.59,
+  "prevClose": 90.81,
+  "nameKo": "CRH",
+  "nameEn": "CRH",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 665284500
+ }
+}

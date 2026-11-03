@@ -1,0 +1,182 @@
+{
+ "ticker": "PFGC",
+ "news": [
+  {
+   "title": "Performance Food Group (PFGC) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/performance-food-group-pfgc-earnings-expected-grow-should-you-buy-0",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Oversold Conditions For Performance Food Group (PFGC)",
+   "url": "https://www.nasdaq.com/articles/oversold-conditions-performance-food-group-pfgc",
+   "date": "2026-09-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Performance Food Group (PFGC) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/performance-food-group-pfgc-q4-2026-earnings-call-transcript",
+   "date": "2026-08-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, Performance Food (PFGC) Q4 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-performance-food-pfgc-q4-earnings-look-key-metrics",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Performance Food Group (PFGC) Q4 Earnings and Revenues Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/performance-food-group-pfgc-q4-earnings-and-revenues-miss-estimates",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "A 61-unit Outback Steakhouse franchisee files for bankruptcy",
+   "url": "https://finance.yahoo.com/small-business/articles/61-unit-outback-steakhouse-franchisee-160737581.html",
+   "date": "2026-11-02",
+   "publisher": "Nation's Restaurant News",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Sprouts Farmers (SFM) Misses Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sprouts-farmers-sfm-misses-q3-202003346.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526363739/pfgc-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526357838/d134405d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526345718/pfgc-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526207521/pfgc-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526059455/d59092d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526043019/d51098d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.32,
+  "saleNy": 2.98,
+  "epsCy": 23.72,
+  "epsNy": 18.96,
+  "cyTrend": 0.66,
+  "nyTrend": 0.33,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.43,
+    6.43,
+    5.16
+   ],
+   "ni": [
+    23.42,
+    -28.47,
+    45.52
+   ],
+   "opm": [
+    1.8,
+    0.91,
+    1.16
+   ],
+   "updated": "2026-09-08 07:55:16"
+  }
+ }
+}

@@ -1,0 +1,1005 @@
+{
+ "key": "Healthcare|Biotechnology",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "industryKo": "바이오테크",
+ "frank": 5,
+ "frank25dChg": 16,
+ "finalWrs": 0.3584,
+ "count": 38,
+ "winRatePct": 65.8,
+ "members": [
+  {
+   "ticker": "MRNA",
+   "rs1": 0.18603388516295738,
+   "rs3": 2.7891522402220725,
+   "rs6": 3.180396983225793,
+   "rnk1": 31.7,
+   "rnk3": 0.05,
+   "rnk6": 0.05,
+   "ret1d": -0.4,
+   "high52": 86.78,
+   "dollarVolM": 1863.4,
+   "marketCap": "88.52B",
+   "name": "모더나"
+  },
+  {
+   "ticker": "KOD",
+   "rs1": 0.13999292312457462,
+   "rs3": 1.2087766671385576,
+   "rs6": 1.5070564968200058,
+   "rnk1": 45.85,
+   "rnk3": 0.14,
+   "rnk6": 0.23,
+   "ret1d": -1.57,
+   "high52": 93.87,
+   "dollarVolM": 58.1,
+   "marketCap": "6.23B",
+   "name": "코디악 사이언시스"
+  },
+  {
+   "ticker": "HALO",
+   "rs1": 0.2898897381233629,
+   "rs3": 0.3075091959665542,
+   "rs6": 0.8529013144553991,
+   "rnk1": 6.09,
+   "rnk3": 4.19,
+   "rnk6": 2.48,
+   "ret1d": -1.5,
+   "high52": 96.23,
+   "dollarVolM": 433.8,
+   "marketCap": "14.86B",
+   "name": "할로자임 테라퓨틱스"
+  },
+  {
+   "ticker": "CORT",
+   "rs1": -0.2413283411768323,
+   "rs3": -0.21660566494365033,
+   "rs6": 0.6076248168649317,
+   "rnk1": 96.62,
+   "rnk3": 93.73,
+   "rnk6": 5.28,
+   "ret1d": -0.81,
+   "high52": 63.67,
+   "dollarVolM": 128.1,
+   "marketCap": "8.77B",
+   "name": "코셉트 테라퓨틱스"
+  },
+  {
+   "ticker": "TECH",
+   "rs1": 0.10056557554681646,
+   "rs3": 0.06339414721684872,
+   "rs6": 0.5719243390733016,
+   "rnk1": 58.66,
+   "rnk3": 42.97,
+   "rnk6": 6.54,
+   "ret1d": 0.01,
+   "high52": 99.89,
+   "dollarVolM": 146.5,
+   "marketCap": "11.41B",
+   "name": "바이오 테크네"
+  },
+  {
+   "ticker": "KYMR",
+   "rs1": 0.26009028501542303,
+   "rs3": 0.24294329311486074,
+   "rs6": 0.561063704141511,
+   "rnk1": 10.78,
+   "rnk3": 7.35,
+   "rnk6": 7.35,
+   "ret1d": 0.69,
+   "high52": 98.05,
+   "dollarVolM": 165.1,
+   "marketCap": "10.81B",
+   "name": "키메라 테라퓨틱스"
+  },
+  {
+   "ticker": "ORKA",
+   "rs1": 0.23028082925129284,
+   "rs3": 0.022719563661571886,
+   "rs6": 0.5110138084262501,
+   "rnk1": 18.53,
+   "rnk3": 55.86,
+   "rnk6": 8.97,
+   "ret1d": -1.49,
+   "high52": 82.61,
+   "dollarVolM": 62.4,
+   "marketCap": "6.41B",
+   "name": "오루카 테라퓨틱스"
+  },
+  {
+   "ticker": "PTGX",
+   "rs1": 0.09036587394042103,
+   "rs3": 0.01246416440357271,
+   "rs6": 0.4293089962725905,
+   "rnk1": 61.54,
+   "rnk3": 59.02,
+   "rnk6": 11.32,
+   "ret1d": -3.78,
+   "high52": 86.67,
+   "dollarVolM": 67.8,
+   "marketCap": "9.37B",
+   "name": "프로타고니스트 테라퓨틱스"
+  },
+  {
+   "ticker": "LGND",
+   "rs1": 0.10014056841698595,
+   "rs3": 0.10433804103254479,
+   "rs6": 0.4178847280713495,
+   "rnk1": 58.93,
+   "rnk3": 30.52,
+   "rnk6": 11.68,
+   "ret1d": -4.87,
+   "high52": 94,
+   "dollarVolM": 81.5,
+   "marketCap": "6.46B",
+   "name": "리간드 파머슈티컬"
+  },
+  {
+   "ticker": "REGN",
+   "rs1": 0.42251861739054186,
+   "rs3": 0.2839896723139399,
+   "rs6": 0.36724041111100514,
+   "rnk1": 0.59,
+   "rnk3": 5.09,
+   "rnk6": 14.29,
+   "ret1d": 3.6,
+   "high52": 98.69,
+   "dollarVolM": 1596.7,
+   "marketCap": "95.99B",
+   "name": "리제네론 파머슈티컬스"
+  },
+  {
+   "ticker": "RVMD",
+   "rs1": 0.00538301773149269,
+   "rs3": -0.02574432125682722,
+   "rs6": 0.32622384968862694,
+   "rnk1": 79.13,
+   "rnk3": 69.48,
+   "rnk6": 17.54,
+   "ret1d": -1.64,
+   "high52": 83.89,
+   "dollarVolM": 257.4,
+   "marketCap": "41.00B",
+   "name": "레볼루션 메디신"
+  },
+  {
+   "ticker": "SYRE",
+   "rs1": 0.1294161715630437,
+   "rs3": -0.0325762845469641,
+   "rs6": 0.30769958605157416,
+   "rnk1": 49.37,
+   "rnk3": 70.83,
+   "rnk6": 19.34,
+   "ret1d": -1.09,
+   "high52": 86.69,
+   "dollarVolM": 71.8,
+   "marketCap": "9.02B",
+   "name": "스파이어 테라퓨틱스"
+  },
+  {
+   "ticker": "MANE",
+   "rs1": 0.1890033638825519,
+   "rs3": 0.18937859008917676,
+   "rs6": 0.28159123630836774,
+   "rnk1": 30.7,
+   "rnk3": 12.31,
+   "rnk6": 22.41,
+   "ret1d": -7.27,
+   "high52": 88.37,
+   "dollarVolM": 82.5,
+   "marketCap": "5.84B",
+   "name": null
+  },
+  {
+   "ticker": "VRTX",
+   "rs1": 0.19793532166072947,
+   "rs3": 0.17208874704883012,
+   "rs6": 0.2688228159213402,
+   "rnk1": 27.73,
+   "rnk3": 14.92,
+   "rnk6": 23.58,
+   "ret1d": -1.03,
+   "high52": 97.27,
+   "dollarVolM": 1774.7,
+   "marketCap": "141.65B",
+   "name": null
+  },
+  {
+   "ticker": "TARS",
+   "rs1": 0.08408145838716005,
+   "rs3": 0.1886804610596809,
+   "rs6": 0.2603838887452678,
+   "rnk1": 62.62,
+   "rnk3": 12.49,
+   "rnk6": 24.48,
+   "ret1d": -2.04,
+   "high52": 80.1,
+   "dollarVolM": 31.4,
+   "marketCap": "3.43B",
+   "name": null
+  },
+  {
+   "ticker": "INCY",
+   "rs1": 0.1511086695070649,
+   "rs3": 0.052711172399265,
+   "rs6": 0.24584692433001976,
+   "rnk1": 42.06,
+   "rnk3": 45.94,
+   "rnk6": 26.83,
+   "ret1d": -0.29,
+   "high52": 90.53,
+   "dollarVolM": 209.8,
+   "marketCap": "24.54B",
+   "name": null
+  },
+  {
+   "ticker": "PVLA",
+   "rs1": 0.20654408210563502,
+   "rs3": -0.015486284558052503,
+   "rs6": 0.19819976634710884,
+   "rnk1": 24.39,
+   "rnk3": 66.14,
+   "rnk6": 32.42,
+   "ret1d": 0.12,
+   "high52": 90.67,
+   "dollarVolM": 44.4,
+   "marketCap": "2.11B",
+   "name": null
+  },
+  {
+   "ticker": "ONC",
+   "rs1": 0.09827486697757003,
+   "rs3": 0.09435175095771454,
+   "rs6": 0.18154580975861512,
+   "rnk1": 59.47,
+   "rnk3": 33.05,
+   "rnk6": 35.48,
+   "ret1d": -2.45,
+   "high52": 92.95,
+   "dollarVolM": 121.8,
+   "marketCap": "42.13B",
+   "name": null
+  },
+  {
+   "ticker": "PCVX",
+   "rs1": -0.07948773654224622,
+   "rs3": 0.10093688213844478,
+   "rs6": 0.1568810567750642,
+   "rnk1": 88.23,
+   "rnk3": 31.61,
+   "rnk6": 40.8,
+   "ret1d": -2.27,
+   "high52": 66.8,
+   "dollarVolM": 80,
+   "marketCap": "9.54B",
+   "name": null
+  },
+  {
+   "ticker": "MNPR",
+   "rs1": -0.05407843084560962,
+   "rs3": -0.3869820137548877,
+   "rs6": 0.11527038017574318,
+   "rnk1": 86.43,
+   "rnk3": 98.78,
+   "rnk6": 47.84,
+   "ret1d": -5.75,
+   "high52": 53.1,
+   "dollarVolM": 14.5,
+   "marketCap": "0.47B",
+   "name": null
+  },
+  {
+   "ticker": "ARGX",
+   "rs1": 0.05780818279282919,
+   "rs3": 0.06850362092582805,
+   "rs6": 0.11138719539575717,
+   "rnk1": 69.84,
+   "rnk3": 40.98,
+   "rnk6": 48.47,
+   "ret1d": -2,
+   "high52": 81.56,
+   "dollarVolM": 263.6,
+   "marketCap": "56.15B",
+   "name": null
+  },
+  {
+   "ticker": "ASND",
+   "rs1": 0.1911994718733025,
+   "rs3": 0.03184913481368553,
+   "rs6": 0.08258693454084165,
+   "rnk1": 29.8,
+   "rnk3": 52.98,
+   "rnk6": 54.51,
+   "ret1d": -0.91,
+   "high52": 88.24,
+   "dollarVolM": 119.5,
+   "marketCap": "16.53B",
+   "name": null
+  },
+  {
+   "ticker": "RYTM",
+   "rs1": 0.11003411422343091,
+   "rs3": -0.1348808384355996,
+   "rs6": 0.0582389098279496,
+   "rnk1": 55.05,
+   "rnk3": 86.61,
+   "rnk6": 58.66,
+   "ret1d": 0.94,
+   "high52": 76.46,
+   "dollarVolM": 187.2,
+   "marketCap": "6.37B",
+   "name": null
+  },
+  {
+   "ticker": "BLTE",
+   "rs1": 0.06471073283382328,
+   "rs3": -0.0005040258928114202,
+   "rs6": 0.022889166909802066,
+   "rnk1": 67.49,
+   "rnk3": 63.53,
+   "rnk6": 64.79,
+   "ret1d": -0.69,
+   "high52": 76.83,
+   "dollarVolM": 17.7,
+   "marketCap": "6.23B",
+   "name": null
+  },
+  {
+   "ticker": "SLGL",
+   "rs1": -0.06862877957393168,
+   "rs3": -0.19649836999353545,
+   "rs6": 0.012296086222049852,
+   "rnk1": 87.42,
+   "rnk3": 92.11,
+   "rnk6": 67.4,
+   "ret1d": -3.89,
+   "high52": 67.05,
+   "dollarVolM": 3.7,
+   "marketCap": "0.22B",
+   "name": null
+  },
+  {
+   "ticker": "DNTH",
+   "rs1": 0.03356001896018325,
+   "rs3": -0.18783424185131495,
+   "rs6": -0.010358139931252272,
+   "rnk1": 73.99,
+   "rnk3": 90.85,
+   "rnk6": 72.09,
+   "ret1d": -0.16,
+   "high52": 69.77,
+   "dollarVolM": 68.9,
+   "marketCap": "4.61B",
+   "name": null
+  },
+  {
+   "ticker": "KRYS",
+   "rs1": -0.016995166953627128,
+   "rs3": -0.036558154789016535,
+   "rs6": -0.011525670933547574,
+   "rnk1": 82.46,
+   "rnk3": 71.91,
+   "rnk6": 72.45,
+   "ret1d": -10.95,
+   "high52": 77.35,
+   "dollarVolM": 356.2,
+   "marketCap": "9.84B",
+   "name": null
+  },
+  {
+   "ticker": "INSM",
+   "rs1": 0.15210415158975102,
+   "rs3": -0.10918468230170941,
+   "rs6": -0.022760658694726814,
+   "rnk1": 41.88,
+   "rnk3": 83.54,
+   "rnk6": 74.08,
+   "ret1d": -2.9,
+   "high52": 51.38,
+   "dollarVolM": 463.7,
+   "marketCap": "24.70B",
+   "name": null
+  },
+  {
+   "ticker": "JAZZ",
+   "rs1": 0.007815702050779735,
+   "rs3": -0.10714775824701872,
+   "rs6": -0.023901432020965695,
+   "rnk1": 78.85,
+   "rnk3": 83.09,
+   "rnk6": 74.35,
+   "ret1d": -0.71,
+   "high52": 80.5,
+   "dollarVolM": 223.8,
+   "marketCap": "14.02B",
+   "name": null
+  },
+  {
+   "ticker": "BNTX",
+   "rs1": -0.0042180342723230485,
+   "rs3": -0.008524893163528065,
+   "rs6": -0.03053777962750444,
+   "rnk1": 80.39,
+   "rnk3": 65.15,
+   "rnk6": 75.16,
+   "ret1d": -0.73,
+   "high52": 70.59,
+   "dollarVolM": 62.1,
+   "marketCap": "22.15B",
+   "name": null
+  },
+  {
+   "ticker": "MDGL",
+   "rs1": -0.027219112082105423,
+   "rs3": -0.09763999693484449,
+   "rs6": -0.12011706991567829,
+   "rnk1": 84.17,
+   "rnk3": 82.01,
+   "rnk6": 83.99,
+   "ret1d": 0.18,
+   "high52": 70.11,
+   "dollarVolM": 213.5,
+   "marketCap": "9.94B",
+   "name": null
+  },
+  {
+   "ticker": "MIRM",
+   "rs1": 0.15225448182207948,
+   "rs3": -0.09111276442810676,
+   "rs6": -0.16288014045429594,
+   "rnk1": 41.79,
+   "rnk3": 81.38,
+   "rnk6": 86.88,
+   "ret1d": 0.87,
+   "high52": 65.95,
+   "dollarVolM": 44.8,
+   "marketCap": "5.52B",
+   "name": null
+  },
+  {
+   "ticker": "PRAX",
+   "rs1": 0.06557612709170402,
+   "rs3": -0.18349567658486332,
+   "rs6": -0.1667491124580066,
+   "rnk1": 67.22,
+   "rnk3": 90.22,
+   "rnk6": 86.97,
+   "ret1d": -4.18,
+   "high52": 69.77,
+   "dollarVolM": 85.5,
+   "marketCap": "7.98B",
+   "name": null
+  },
+  {
+   "ticker": "ABVX",
+   "rs1": 0.02497692405455257,
+   "rs3": -0.2944611330602099,
+   "rs6": -0.2656072297691633,
+   "rnk1": 75.43,
+   "rnk3": 96.8,
+   "rnk6": 92.92,
+   "ret1d": -1.94,
+   "high52": 57.05,
+   "dollarVolM": 62,
+   "marketCap": "7.58B",
+   "name": null
+  },
+  {
+   "ticker": "INBX",
+   "rs1": -0.1375610233393369,
+   "rs3": -0.12907989470112907,
+   "rs6": -0.30093731083272235,
+   "rnk1": 92.11,
+   "rnk3": 85.8,
+   "rnk6": 94.63,
+   "ret1d": 0.53,
+   "high52": 46.47,
+   "dollarVolM": 16.9,
+   "marketCap": "1.06B",
+   "name": null
+  },
+  {
+   "ticker": "AXSM",
+   "rs1": -0.13260348976424555,
+   "rs3": -0.30365066157911885,
+   "rs6": -0.3579820504584844,
+   "rnk1": 91.84,
+   "rnk3": 97.07,
+   "rnk6": 96.62,
+   "ret1d": -5.83,
+   "high52": 52.27,
+   "dollarVolM": 369.6,
+   "marketCap": "7.57B",
+   "name": null
+  },
+  {
+   "ticker": "ALNY",
+   "rs1": -0.18213331949548725,
+   "rs3": -0.22217271297757837,
+   "rs6": -0.4240479385616939,
+   "rnk1": 94,
+   "rnk3": 94,
+   "rnk6": 97.79,
+   "ret1d": -4.24,
+   "high52": 32.93,
+   "dollarVolM": 752.6,
+   "marketCap": "22.10B",
+   "name": null
+  },
+  {
+   "ticker": "CELC",
+   "rs1": 0.010355167314192532,
+   "rs3": -0.220082768368172,
+   "rs6": -0.427151127193614,
+   "rnk1": 78.31,
+   "rnk3": 93.91,
+   "rnk6": 97.88,
+   "ret1d": -2.98,
+   "high52": 44.41,
+   "dollarVolM": 52,
+   "marketCap": "3.38B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "MRNA": {
+   "cnbc": [
+    {
+     "title": "How to invest in biotech’s rebound",
+     "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+     "date": "2026-10-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Chevron, CrowdStrike, American Express",
+     "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-midday-cvx-crwd-axp-skhy-t.html",
+     "date": "2026-10-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Doctors call Moderna, Merck's cancer vaccine data a major advancement",
+     "url": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html",
+     "date": "2026-10-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: AT&T, SpaceX, Moderna, Deckers, Bloom Energy and more",
+     "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-premarket-att-spacex-moderna-deckers-bloom-energy-and-more.html",
+     "date": "2026-10-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "We asked analysts what's behind the massive gains in biotech stocks",
+     "url": "https://www.cnbc.com/video/2026/10/24/we-asked-analysts-whats-behind-the-massive-gains-in-biotech-stocks.html",
+     "date": "2026-10-24",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "William Blair analyst on Moderna’s stock plunge following cancer vaccine data leaks",
+     "url": "https://www.cnbc.com/video/2026/10/23/william-blair-analyst-on-moderna-stock.html",
+     "date": "2026-10-23",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[모더나 (NAS:MRNA)] [3Q26 Preview] 분기 실적보다 파이프라인 일정 확인이 먼저, 투자의견 중립 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-28",
+     "summary": "- 11월 6일 발표에서는 분기 손익보다 임상 결과의 검증이 더 중요- 머크와 공동 개발한 흑색종 백신 3상 결과로 밸류에이션 기준이 달라졌음- 3분기 매출 컨센서스가 회사 가이던스 산술 범위 상단을 넘어서 있음",
+     "url": "https://rreport.einfomax.co.kr/report/eqmieklkkcxggkigcgxeeci.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동개발 흑색종 백신 3상 데이터 공개 후 급락 - 파이프라인 가치는 증명됐지만 매출 기여는 없다",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-23",
+     "summary": "- 흑색종 백신 3상 전체 데이터 공개, 재발·사망 위험 42% 감소- 모더나 주가 급락, 선반영된 기대에 대한 차익실현 성격- 밸류에이션 부담·다른 암종 확장성 입증이 다음 관찰 변수",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeeci.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채 사모 발행 추진 - 흑색종 데이터發 주가 급등을 활용한 자본조달",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-28",
+     "summary": "- 20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeeci.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-26",
+     "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxeeci.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
+     "broker": "키움증권",
+     "analyst": "허혜민",
+     "date": "2026-08-21",
+     "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxeeci.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Earnings Preview: Moderna (MRNA) Q3 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-moderna-mrna-q3-earnings-expected-decline",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Moderna, Inc. (MRNA): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-moderna-inc-mrna-here-what-you-need-know",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "KOD": {
+   "cnbc": [],
+   "reports": [
+    {
+     "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+     "broker": "키움증권",
+     "analyst": "허혜민",
+     "date": "2026-09-30",
+     "summary": "- Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승- wAMD, 당뇨병망막병증(DR), 망막정맥폐쇄(RVO) 3개 적응증 4Q26 신약 신청(BLA)- 다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음",
+     "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeeci.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Can Zenkuda's Multi-Indication Potential Drive KOD Stock Higher?",
+     "url": "https://www.nasdaq.com/articles/can-zenkudas-multi-indication-potential-drive-kod-stock-higher",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Kodiak Sciences (KOD): Stock Up Over 440% In A Year - Did It Catch Your Eye?",
+     "url": "https://www.nasdaq.com/articles/kodiak-sciences-kod-stock-over-440-year-did-it-catch-your-eye",
+     "date": "2026-09-28",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "HALO": {
+   "cnbc": [
+    {
+     "title": "Inside Edge’s Todd Gordon: Halozyme Therapeutics are beating estimates; raised full-year guidance",
+     "url": "https://www.cnbc.com/video/2026/10/15/inside-edgeas-todd-gordon-halozyme-therapeutics-are-beating-estimates-raised-full-year-guidance.html",
+     "date": "2026-10-15",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Halozyme Therapeutics (HALO) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/halozyme-therapeutics-halo-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CORT": {
+   "cnbc": [
+    {
+     "title": "Cramer's lightning round: Buy Amprius Technologies",
+     "url": "https://www.cnbc.com/2026/07/08/cramers-lightning-round-buy-amprius-technologies.html",
+     "date": "2026-07-08",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": []
+  },
+  "TECH": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "INCY or TECH: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/incy-or-tech-which-better-value-stock-right-now",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Techne (TECH) Q4 Earnings Meet Estimates",
+     "url": "https://www.nasdaq.com/articles/techne-tech-q4-earnings-meet-estimates",
+     "date": "2026-08-12",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "KYMR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Kymera (KYMR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-kymr-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Can KYMR's Targeted Protein Degradation Pipeline Drive Future Growth?",
+     "url": "https://www.nasdaq.com/articles/can-kymrs-targeted-protein-degradation-pipeline-drive-future-growth",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Kymera Therapeutics (KYMR) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "KYMR Q2 Earnings and Revenues Top Estimates on Gilead, Sanofi Payments",
+     "url": "https://www.nasdaq.com/articles/kymr-q2-earnings-and-revenues-top-estimates-gilead-sanofi-payments",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ORKA": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+     "url": "https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
+     "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data",
+     "date": "2026-10-26",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Oruka Reports Positive Week 28 Results For ORKA-001 In Plaque Psoriasis; Stock Down",
+     "url": "https://www.nasdaq.com/articles/oruka-reports-positive-week-28-results-orka-001-plaque-psoriasis-stock-down",
+     "date": "2026-09-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
+     "url": "https://www.nasdaq.com/articles/show-me-money-orka-makes-splash-500-gain-more-catalysts-ahead",
+     "date": "2026-08-21",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "PTGX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Protagonist Therapeutics (PTGX) to Report Q3 Results: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/protagonist-therapeutics-ptgx-report-q3-results-wall-street-expects-earnings-growth",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "LGND": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Ligand (LGND) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ligand-lgnd-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Ligand Pharmaceuticals (LGND) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-ligand-pharmaceuticals-lgnd-said-its-q3-earnings-call",
+     "date": "2026-10-29",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Ligand (LGND) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ligand-lgnd-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "REGN": {
+   "cnbc": [
+    {
+     "title": "Thursday's biggest analyst calls: Nvidia, CoreWeave, Walmart, Crocs, CarMax",
+     "url": "https://www.cnbc.com/2026/10/15/thursday-big-wall-street-analyst-calls-like-coreweave.html",
+     "date": "2026-10-15",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Final Trades: Invesco S&P 500 Equal Weight, Cleveland-Cliffs, UnitedHealth and Regeneron",
+     "url": "https://www.cnbc.com/video/2026/11/02/final-trades-invesco-sp-500-equal-weight-cleveland-cliffs-unitedhealth-and-regeneron.html",
+     "date": "2026-11-02",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Calls of the Day: Adobe, eBay and Regeneron",
+     "url": "https://www.cnbc.com/video/2026/10/12/calls-of-the-day-adobe-ebay-and-regeneron.html",
+     "date": "2026-10-12",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Regeneron Founder and CEO Leonard Schleifer on America’s entrepreneurial spirit",
+     "url": "https://www.cnbc.com/video/2026/08/06/regeneron-founder-and-ceo-leonard-schleifer-on-americas-entrepreneurial-spirit.html",
+     "date": "2026-08-06",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "REGN Q3 Earnings Beat on Dupixent Profits & Eylea HD Growth, Stock Up",
+     "url": "https://www.nasdaq.com/articles/regn-q3-earnings-beat-dupixent-profits-eylea-hd-growth-stock",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Regeneron Pharmaceuticals (REGN) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-regeneron-pharmaceuticals-regn-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Regeneron (REGN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/regeneron-regn-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "RVMD": {
+   "cnbc": [
+    {
+     "title": "Biotechs buck a sluggish IPO market, but investors should tread warily",
+     "url": "https://www.cnbc.com/2026/10/28/biotech-ipo-market-investor-risks.html",
+     "date": "2026-10-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Lightning Round: Penguin Solutions and Revolution Medicines",
+     "url": "https://www.cnbc.com/video/2026/10/27/lightning-round-penguin-solutions-and-revolution-medicines.html",
+     "date": "2026-10-27",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Watch CNBC's full interview with Revolution Medicines CEO Mark Goldsmith",
+     "url": "https://www.cnbc.com/video/2026/08/27/watch-cnbcs-full-interview-with-revolution-medicines-ceo-mark-goldsmith.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Revolution Medicines CEO Mark Goldsmith on FDA approval: 'A monumental step forward'",
+     "url": "https://www.cnbc.com/video/2026/08/27/revolution-medicines-ceo-mark-goldsmith-on-fda-approval-a-monumental-step-forward.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Stempoint Capital's Michelle Ross talks her biotech investing playbook",
+     "url": "https://www.cnbc.com/video/2026/08/10/stempoint-capitals-michelle-ross-talks-her-biotech-investing-playbook.html",
+     "date": "2026-08-10",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "RVMD's RASONQUE Shows Survival Benefit Across Key Patient Group In Metastatic Pancreatic Cancer",
+     "url": "https://www.nasdaq.com/articles/rvmds-rasonque-shows-survival-benefit-across-key-patient-group-metastatic-pancreatic",
+     "date": "2026-10-23",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "SYRE": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
+     "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk",
+     "date": "2026-08-24",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+   "broker": "키움증권",
+   "analyst": "신민수",
+   "date": "2026-09-17",
+   "summary": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "바이오"
+  },
+  {
+   "title": "[바이오헤이븐 (NYS:BHVN)] 오파칼림에 사활을 걸어야 한다",
+   "broker": "키움증권",
+   "analyst": "허혜민",
+   "date": "2026-09-14",
+   "summary": "- 2022년 기존 편두통 사업의 Pfizer 인수 이후 분사된 임상단계 바이오텍으로, 신경계에서 축적한 신약개발 역량 기반 면역질환·대사질환·항암으로 영역 확대- 현금 소진 압박 속 8/26일 SK바이오팜에 오파칼림 라이선스 계약 체결하면 반전 시도. 계약 직후 9/10일 FDA가 오파칼림 2/3상 부분 임상 보류 통보- 거래 종결 전으로 SK바이오팜은 계약금($350M) 미지급 상태",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmiillkmmeglxgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "바이오"
+  },
+  {
+   "title": "[비자 (NYS:V)] [Issue & News] 바이오캐치 24억 달러 현금 인수 - VAS 사기방지 역량 확장",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-03",
+   "summary": "- 비자, 바이오캐치 24억달러 현금 인수 발표- VAS 성장축(상수달러+34%) M&A로 확장 행보- 재무 부담 제한적, 실적 기여 세부는 미공시",
+   "url": "https://rreport.einfomax.co.kr/report/eqlzlcczmzxzczkgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "바이오"
+  },
+  {
+   "title": "[존슨 앤드 존슨 (NYS:JNJ)] [Issue & News] JNJ-6143 임상 1상 PSA 반응률 77% - 전립선암 포트폴리오에 새 작용기전 약물 추가",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-26",
+   "summary": "- JNJ-6143 1상서 PSA 반응률 77%, 영상반응률 75% 확인- 할다 테라퓨틱스(30.5억 달러 인수) 통해 확보한 신약 자산- 혁신의약품 파이프라인 가시성 흐름에 새 데이터 포인트 추가",
+   "url": "https://rreport.einfomax.co.kr/report/eqmiczmqiqcmmzcgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "임상"
+  },
+  {
+   "title": "[암젠 (NAS:AMGN)] [Issue & News] 테즈스파이어, 호산구성 식도염 임상서 52주 조직학적 관해 입증 - 천식 적응증을 넘어 신규 성장동력 가능성",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-20",
+   "summary": "- 테즈스파이어, 호산구성 식도염 임상서 위약 대비 관해율 압도- 52주까지 효과 유지, 삼킴곤란 증상도 개선- 승인 적응증 확대 시 신규 성장동력, 시점은 미확정",
+   "url": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "임상"
+  },
+  {
+   "title": "[머크 (NYS:MRK)] [Issue & News] 흑색종 개인맞춤 mRNA 백신 대규모 임상 양성 - 키트루다 특허만료 이후 파이프라인 다변화",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-20",
+   "summary": "- 흑색종 mRNA 백신+키트루다 대규모 임상서 재발·전이 억제 확인- 정량 수치는 미공개, 생존율 데이터는 추적 관찰 중- 2028 LOE 이후 파이프라인 다변화 후보로 부상",
+   "url": "https://rreport.einfomax.co.kr/report/eqlqeqmkizieilmgcgxeeci.pdf",
+   "via": "연합인포맥스",
+   "keyword": "임상"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}
