@@ -1,6 +1,28 @@
 window.HISTORY_DATA = {
   "runs": [
     {
+      "date": "2026-11-04",
+      "qqq": "red",
+      "finraYoY": 31.4,
+      "picks": 27,
+      "breakouts": 10,
+      "chartCheck": 7,
+      "plansWatch": 0,
+      "droppedToday": 9,
+      "reentryBlocked": 1,
+      "barsNotice": null,
+      "crossCounts": {
+        "persistent": 0,
+        "newEntrants": 4,
+        "midTerm": 8,
+        "fading": 12,
+        "other": 3,
+        "total": 27
+      },
+      "siteCondition": "BAD",
+      "theme": "Diagnostics & Research 5종목(18.5%) · Software - Infrastructure 3종목(11.1%) · Software - Application 3종목(11.1%)"
+    },
+    {
       "date": "2026-11-03",
       "qqq": "red",
       "finraYoY": 31.4,
