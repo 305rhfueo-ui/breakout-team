@@ -1,7 +1,7 @@
 {
   "rate": {
     "current": 4,
-    "asOf": "2026-11-03",
+    "asOf": "2026-11-04",
     "last": {
       "date": "2026-09-17",
       "from": 3.75,
@@ -32,10 +32,10 @@
     "value": 0
   },
   "curve": {
-    "date": "2026-11-03",
-    "value": 0.74
+    "date": "2026-11-04",
+    "value": 0.69
   },
-  "checkedOn": "2026-11-04",
+  "checkedOn": "2026-11-05",
   "sep": {
     "date": "2026-09-16",
     "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
