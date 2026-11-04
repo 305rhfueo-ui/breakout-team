@@ -1,0 +1,213 @@
+{
+ "ticker": "RAL",
+ "news": [
+  {
+   "title": "NTTYY or RAL: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/nttyy-or-ral-which-better-value-stock-right-now",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ralliant (RAL) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/ralliant-ral-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Ralliant (RAL) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-ralliant-ral-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Makes Ralliant (RAL) a New Strong Buy Stock",
+   "url": "https://www.nasdaq.com/articles/what-makes-ralliant-ral-new-strong-buy-stock",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Ralliant Corporation (RAL) Outperforming Other Business Services Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/ralliant-corporation-ral-outperforming-other-business-services-stocks-year",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NTTYY vs. RAL: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/nttyy-vs-ral-which-stock-better-value-option",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NTTYY vs. RAL: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/nttyy-vs-ral-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Business Services Stocks Lagging  Ralliant Corporation (RAL) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-ralliant-corporation-ral-year",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ralliant Declares Regular Quarterly Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ralliant-declares-regular-quarterly-dividend-201500169.html",
+   "date": "2026-10-30",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ralliant (RAL) Stock Could Be 23% Overvalued On Cash Flow Grounds",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ralliant-ral-stock-could-23-043307961.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NTTYY or RAL: Which Is the Better Value Stock Right Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nttyy-ral-better-value-stock-144003902.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ralliant (RAL) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ralliant-ral-earnings-expected-grow-130021921.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Will Ralliant (RAL) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ralliant-ral-beat-estimates-again-151003671.html",
+   "date": "2026-10-26",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000204138526000062/ral-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000204138526000055/ral-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-12",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000204138526000050/ral-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000204138526000043/ral-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-31",
+   "reportDate": "2026-03-30",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000118518526001195/ralliant8k033026.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2041385/000204138526000020/ral-20260217.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.03,
+  "saleNy": 6.93,
+  "epsCy": 6.8,
+  "epsNy": 17.64,
+  "cyTrend": 0.45,
+  "nyTrend": 1.44,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    12.82,
+    10.96,
+    null
+   ],
+   "ni": [
+    20.17,
+    -30.83,
+    null
+   ],
+   "opm": [
+    14.48,
+    12.74,
+    -246.61
+   ],
+   "updated": "2026-09-08 07:28:00"
+  }
+ }
+}

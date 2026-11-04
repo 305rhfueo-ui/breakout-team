@@ -1,0 +1,851 @@
+{
+ "ticker": "APP",
+ "date": "2026-11-04",
+ "session": "2026-11-03",
+ "source": "list",
+ "plan": {
+  "ticker": "APP",
+  "name": "앱러빈",
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
+  "price": 245.51,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 338.34,
+  "stop": 327.85,
+  "distToPivotPct": -27.44,
+  "distToPivotAdr": -6.42,
+  "riskPerSharePct": 3.1,
+  "adrPct": 4.27,
+  "extensionAdr": -0.75,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 38,
+   "baseWeeks": 7.6,
+   "depthPct": 33.4,
+   "priorMovePct": 13.7,
+   "higherLows": 0,
+   "contraction": 0.85,
+   "closeRange10Adr": 3.8,
+   "surf10": -0.75,
+   "surf20": -1.69,
+   "slope20": -3.36,
+   "baseLow": 225.19,
+   "lastSwingLow": 260.59
+  },
+  "reasons": [
+   "✗ 선행 상승 +14%",
+   "베이스 7.6주",
+   "✗ 깊이 33.4%",
+   "✗ 저점 상승 0회",
+   "진폭 0.85배 · 10일 종가폭 3.8 ADR",
+   "✗ 10일선 -0.7 ADR · 20일선 -1.7 ADR",
+   "✗ 20일선 기울기 -3.36%"
+  ],
+  "earnings": "2026-11-04"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.02142922031522422,
+    "pct": 16.90712353471596
+   },
+   "m3": {
+    "v": -0.22740137588711168,
+    "pct": 4.914337240757439
+   },
+   "m6": {
+    "v": -0.4195449907153379,
+    "pct": 1.93868349864743
+   }
+  },
+  "ret1m": -11.93,
+  "ret3m": -27.58,
+  "ret6m": -45.87,
+  "marketCap": "76.76B",
+  "volx": 1.18,
+  "volSurgeWk": 1.04,
+  "high52": 33.27,
+  "newHigh52": false,
+  "adr": 4.27,
+  "div50": -15.81,
+  "div200": -40.45,
+  "targetStatus": false,
+  "saleCy": 47.32,
+  "saleNy": 24.87,
+  "epsCy": 60.07,
+  "epsNy": 25.67,
+  "cyTrend": -0.35,
+  "nyTrend": -1.95,
+  "est": {
+   "cyCur": 15.60686,
+   "cy30": 15.66192,
+   "nyCur": 19.61358,
+   "ny30": 20.00319
+  },
+  "fs": {
+   "sale": [
+    52.82,
+    58.97,
+    167.52
+   ],
+   "ni": [
+    54.54,
+    109.16,
+    83.51
+   ],
+   "opm": [
+    77.68,
+    78.15,
+    76.92
+   ],
+   "updated": "2026-09-08 07:49:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-04",
+  "nameKo": "앱러빈",
+  "nameEn": "APPLOVIN CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751008&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1923686000,
+     "profit": 1494277000,
+     "netIncome": 1266538000,
+     "margin": 77.7,
+     "yoy": {
+      "revenue": 52.8,
+      "profit": 56,
+      "netIncome": 54.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1842449000,
+     "profit": 1439933000,
+     "netIncome": 1205613000,
+     "margin": 78.2,
+     "yoy": {
+      "revenue": 59,
+      "profit": 71.4,
+      "netIncome": 109.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1657944000,
+     "profit": 1275243000,
+     "netIncome": 1102505000,
+     "margin": 76.9,
+     "yoy": {
+      "revenue": 65.9,
+      "profit": 103,
+      "netIncome": 83.9,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1405045000,
+     "profit": 1079007000,
+     "netIncome": 835545000,
+     "margin": 76.8,
+     "yoy": {
+      "revenue": 68.2,
+      "profit": 101.9,
+      "netIncome": 92.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AppLovin Is the Worst-Performing Stock in the S&P 500 This Year. Has the Market Overreacted?",
+     "url": "https://www.nasdaq.com/articles/applovin-worst-performing-stock-sp-500-year-has-market-overreacted",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
+     "url": "https://www.nasdaq.com/articles/should-applovin-stock-be-your-portfolio-q3-earnings",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AppLovin vs. Magnite: Which Digital Advertising Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/applovin-vs-magnite-which-digital-advertising-stock-better-buy-2026",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Is Trending Stock AppLovin Corporation (APP) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-applovin-corporation-app-buy-now",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is AppLovin Stock Falling, and is it a Buying Opportunity?",
+     "url": "https://www.nasdaq.com/articles/why-applovin-stock-falling-and-it-buying-opportunity",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AppLovin (APP) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/applovin-app-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can AppLovin's 84% EBITDA Margin Sustain APP Stock's Growth?",
+     "url": "https://www.nasdaq.com/articles/can-applovins-84-ebitda-margin-sustain-app-stocks-growth",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AppLovin (APP) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/applovin-app-earnings-expected-grow-should-you-buy",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000057/app-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000050/app-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000042/app-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-07",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000014/app-20260402.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000005/app-20260211.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100825000079/app-20251105.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-02-12",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[앱러빈 (NAS:APP)] 경쟁사 진입은 구조적 수혜, AI 발전은 성장 동력",
+     "summary": "- 앱러빈의 FY 4Q25 매출액은 16.6억 달러(YoY +20.8%), EPS는 3.24 달러(YoY +87.3%)를 기록해 컨센서스를 각각 3.2%, 9.8% 상회했다. 매출총이익률은 88.9%(YoY +12.2%p), 영업이익률은 76.9%(YoY +32.6%p)였다.- 앱러빈은 연말 쇼핑 시즌 광고 수요로 인해 1분기가 4분기보다 약세인 계절성이 있으며 1분기 영업일수가 더 적음에도 불구하고, FY 1Q26 매출액 가이던스를 중간값 기준 17.6억 달러(YoY +18.6%, QoQ +6.2%, vs. 컨센서스 17억 달러)로 제시했다.- 조정 EBITDA는 14.8억 달러(YoY +47.3%, vs. 컨센서스 14억 달러), 조정 EBITDA 마진은 최 고치였던 4분기 수준(84%)을 유지할 것으로 예상했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcllkqleeicqxgcgxeeck.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-02-12",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[앱러빈 (NAS:APP)] 잘 해낼테지만, 증명은 필요",
+     "summary": "- Signal: 산업 우려, 경쟁 진입 등으로 2026년 주가 급락- Key: Rule of 40상 120점 이상, 여전히 강한 Moat- Step: 그러나 Meta 시장 진입 우려 해소에는 시간 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeeck.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2025-11-07",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[앱러빈 (NAS:APP)] $28B 매출을 향해!",
+     "summary": "- Signal: AXON 엔진 강화로 강력한 해자 구축- Key: 이커머스 고객 유입 시작, 큰 시장 진출- Step: META 매출 역산 시 $28/연 매출 가능",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgqkcgzxqgczkgcgxeeck.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[앱러빈 (NAS:APP)] 광고? 주인장 마음대로!",
+     "summary": "- 광고주와 퍼블리셔(앱·웹 운영자)를 Ad Tech 기반으로 연결하는 광고 중개 기업- FY3Q25 실적은 광고 수익 전환율 상승에 따라 긍정적 모습을 연출- 셀프 서비스 광고 도입 및 전자상거래 진입에 따른 TAM 확대와 실적 기대감 고조",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkxmxggkkgezgcgxeeck.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[앱러빈 (NAS:APP)] Earnings Flash",
+     "summary": "- 매출액 14.1억 달러(YoY +17.3%), 조정 EBITDA 11.6억 달러(YoY +60.4%), 조정 EPS 2.45 달러(YoY +96%)로 각각 예상치 5%, 6.3%, 2.1% 상회. 매출액과 조정 EBITDA는 각각 가이던스 상단(13.4억 달러, 10.9억 달러) 상회- 지속사업부문 비용: 1 매출원가 1.7억 달러(YoY +44.6%) 2) 판매 및 마케팅 0.5억 달러(YoY -22.8%) 3 R&D 0.4억 달러(YoY -45.7%) 4 일반관리비 0.6억 달러(YoY +62.3%) 5 이자비용 0.5억 달러(YoY -31.4%)- 양호한 실적 및 예상을 상회하는 가이던스 발표. 지속사업부문 기준, 매출 성장세 대폭 확대. 시간 외 6.4% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgimixgxezxxcgcgxeeck.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "APP-report1.pdf",
+   "broker": "한화증권",
+   "analyst": "임해인",
+   "date": "2026-02-12",
+   "title": "[앱러빈 (NAS:APP)] 경쟁사 진입은 구조적 수혜, AI 발전은 성장 동력",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcllkqleeicqxgcgxeeck.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "APP-report2.pdf",
+   "broker": "SK증권",
+   "analyst": "박제민",
+   "date": "2026-02-12",
+   "title": "[앱러빈 (NAS:APP)] 잘 해낼테지만, 증명은 필요",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeeck.pdf",
+   "pages": "2"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Cramer's lightning round: 'Do not own' MFA Financial",
+   "url": "https://www.cnbc.com/2026/10/19/cramers-lightning-round-do-not-own-mfa-financial.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Sphere Entertainment",
+   "url": "https://www.cnbc.com/2026/09/11/cramers-lightning-round-buy-sphere-entertainment.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Jabil, AppLovin, Apollo, SpaceX & more",
+   "url": "https://www.cnbc.com/2026/08/11/stocks-making-the-biggest-moves-midday-jbl-app-apo-spcx-upwk.html",
+   "date": "2026-08-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: UWM Holdings, Honeywell Aerospace, Peloton",
+   "url": "https://www.cnbc.com/2026/08/06/stocks-making-the-biggest-moves-midday-umwc-hona-mtsi-pton.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AppLovin stock tanks on Q2 revenue miss",
+   "url": "https://www.cnbc.com/2026/08/06/applovin-stock-q2-earnings-revenue.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Zillow, Peloton, Sandisk and more",
+   "url": "https://www.cnbc.com/2026/08/06/stocks-making-the-biggest-moves-premarket-.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Sandisk, Western Digital & more",
+   "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-after-hours-sndk-wdc-elf-app.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Nio, Braiin, AppLovin, SpaceX, SK Hynix & more",
+   "url": "https://www.cnbc.com/2026/07/13/stocks-making-the-biggest-moves-midday-nio-brai-app-spcx-skhy.html",
+   "date": "2026-07-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "APP",
+  "fetchedAt": "2026-11-04",
+  "source": "한국투자증권 Open API",
+  "per": 18.87,
+  "pbr": 26.03,
+  "eps": 13.01,
+  "bps": 9.43,
+  "shares": 304443000,
+  "marketCapM": 74744,
+  "high52": 738.01,
+  "high52Date": "2025-12-22",
+  "low52": 225.1901,
+  "low52Date": "2026-10-30",
+  "last": 245.51,
+  "prevClose": 228.85,
+  "nameKo": "앱러빈",
+  "nameEn": "APPLOVIN CORP",
+  "listedOn": "2021-04-14",
+  "exchange": "나스닥",
+  "listedShares": 304443000
+ },
+ "estimates": {
+  "ticker": "APP",
+  "url": "https://finance.yahoo.com/quote/APP/analysis/",
+  "fetchedAt": "2026-11-04",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 4.03,
+    "epsLow": 3.76,
+    "epsHigh": 4.53,
+    "epsYearAgo": 2.45,
+    "epsAnalysts": 19,
+    "epsGrowth": 64.6,
+    "epsCur": "USD",
+    "rev": 2073809650,
+    "revAnalysts": 22,
+    "revYearAgo": 1405045000,
+    "revGrowth": 47.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 4.4,
+    "epsLow": 4.04,
+    "epsHigh": 4.93,
+    "epsYearAgo": 3.24,
+    "epsAnalysts": 19,
+    "epsGrowth": 35.7,
+    "epsCur": "USD",
+    "rev": 2247148510,
+    "revAnalysts": 23,
+    "revYearAgo": 1657944000,
+    "revGrowth": 35.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 15.61,
+    "epsLow": 13.22,
+    "epsHigh": 16.6,
+    "epsYearAgo": 9.75,
+    "epsAnalysts": 27,
+    "epsGrowth": 60.1,
+    "epsCur": "USD",
+    "rev": 8074130030,
+    "revAnalysts": 31,
+    "revYearAgo": 5480717000,
+    "revGrowth": 47.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 19.61,
+    "epsLow": 16,
+    "epsHigh": 21.78,
+    "epsYearAgo": 15.61,
+    "epsAnalysts": 27,
+    "epsGrowth": 25.7,
+    "epsCur": "USD",
+    "rev": 10082122900,
+    "revAnalysts": 32,
+    "revYearAgo": 8074130030,
+    "revGrowth": 24.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 4.03,
+    "d7": 0,
+    "d30": 0.5,
+    "d90": -0.9,
+    "ago90": 4.07,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.4,
+    "d7": -0.9,
+    "d30": -1.3,
+    "d90": -5.8,
+    "ago90": 4.67,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 15.61,
+    "d7": -0.2,
+    "d30": -0.4,
+    "d90": -2.6,
+    "ago90": 16.02,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 19.61,
+    "d7": -1.1,
+    "d30": -1.9,
+    "d90": -7.3,
+    "ago90": 21.17,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.76,
+    "estimate": 3.74,
+    "surprisePct": 0.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.56,
+    "estimate": 3.44,
+    "surprisePct": 3.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 3.24,
+    "estimate": 2.94,
+    "surprisePct": 10.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 2.45,
+    "estimate": 2.39,
+    "surprisePct": 2.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 3,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 30,
+   "total": 31,
+   "recent": [
+    {
+     "date": "2026-10-28",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 414,
+     "ptPrior": 790
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 500,
+     "ptPrior": 575
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 500,
+     "ptPrior": 600
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 400,
+     "ptPrior": 465
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 560,
+     "ptPrior": 610
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 400,
+     "ptPrior": 450
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 490,
+     "ptPrior": 560
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 375,
+     "ptPrior": 550
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 475,
+     "ptPrior": 475
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 450,
+     "ptPrior": 650
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-03",
+  "numbers": {
+   "price": 245.51,
+   "ma20": 263.23,
+   "ma50": 291.6,
+   "ma150": 399.1,
+   "distMA50": -15.81,
+   "periodHigh": 745.61,
+   "pullbackFromHigh": -67.07,
+   "volRatio20": 1.25,
+   "dryUpRatio": 1.33
+  },
+  "last10": [
+   {
+    "d": "2026-10-21",
+    "o": 271.38,
+    "h": 272.65,
+    "l": 264.08,
+    "c": 267.9,
+    "v": 2722300,
+    "clsPos": 45,
+    "gapPct": -0.4
+   },
+   {
+    "d": "2026-10-22",
+    "o": 265.25,
+    "h": 270.6,
+    "l": 260.95,
+    "c": 264.28,
+    "v": 2853200,
+    "clsPos": 35,
+    "gapPct": -0.99
+   },
+   {
+    "d": "2026-10-23",
+    "o": 263.04,
+    "h": 264,
+    "l": 258.32,
+    "c": 260.25,
+    "v": 2348400,
+    "clsPos": 34,
+    "gapPct": -0.47
+   },
+   {
+    "d": "2026-10-26",
+    "o": 261.39,
+    "h": 262.93,
+    "l": 255.46,
+    "c": 260.74,
+    "v": 2197600,
+    "clsPos": 71,
+    "gapPct": 0.44
+   },
+   {
+    "d": "2026-10-27",
+    "o": 262.5,
+    "h": 264.05,
+    "l": 257.5,
+    "c": 262.82,
+    "v": 2261400,
+    "clsPos": 81,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-10-28",
+    "o": 257.54,
+    "h": 262.79,
+    "l": 257.1,
+    "c": 259.97,
+    "v": 2257500,
+    "clsPos": 50,
+    "gapPct": -2.01
+   },
+   {
+    "d": "2026-10-29",
+    "o": 258.1,
+    "h": 261.18,
+    "l": 252,
+    "c": 254.91,
+    "v": 3914500,
+    "clsPos": 32,
+    "gapPct": -0.72
+   },
+   {
+    "d": "2026-10-30",
+    "o": 242.08,
+    "h": 242.56,
+    "l": 225.19,
+    "c": 228.5,
+    "v": 9141800,
+    "clsPos": 19,
+    "gapPct": -5.03
+   },
+   {
+    "d": "2026-11-02",
+    "o": 234.52,
+    "h": 239.74,
+    "l": 227.4,
+    "c": 228.85,
+    "v": 5216100,
+    "clsPos": 12,
+    "gapPct": 2.63
+   },
+   {
+    "d": "2026-11-03",
+    "o": 231.25,
+    "h": 248.48,
+    "l": 231.1,
+    "c": 245.51,
+    "v": 4739203,
+    "clsPos": 83,
+    "gapPct": 1.05
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/APP-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/APP-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 11일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "ticker": "LYV",
+ "news": [
+  {
+   "title": "Live Nation (LYV) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://www.nasdaq.com/articles/live-nation-lyv-q3-earnings-horizon-analysts-insights-key-performance-measures",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Live Nation (LYV) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/live-nation-lyv-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "S&P 500 Analyst Moves: LYV",
+   "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-lyv",
+   "date": "2026-10-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "May 2027 Options Now Available For Live Nation Entertainment (LYV)",
+   "url": "https://www.nasdaq.com/articles/may-2027-options-now-available-live-nation-entertainment-lyv",
+   "date": "2026-08-31",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "LYV November 20th Options Begin Trading",
+   "url": "https://www.nasdaq.com/articles/lyv-november-20th-options-begin-trading",
+   "date": "2026-08-12",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Live Nation Entertainment (LYV) Nears Earnings, Is The 11% Undervalued View Still Convincing?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-entertainment-lyv-nears-010949432.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Live Nation (LYV) Stock Could Be Near Fair Value On Cash Flow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-stock-could-222407382.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Live Nation (LYV) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-q3-earnings-131507334.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Live Nation (LYV) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-reports-next-130018628.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 Cash-Producing Stocks We Find Risky",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-risky-220553929.html",
+   "date": "2026-10-22",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Live Nation Entertainment Schedules Third Quarter 2026 Earnings Release and Teleconference, Sets Date for Investor Presentation",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-entertainment-schedules-third-201500788.html",
+   "date": "2026-10-22",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-16",
+   "reportDate": "2026-10-15",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000048/lyv-20261015.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-09",
+   "reportDate": "2026-10-07",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000046/lyv-20261007.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-02",
+   "reportDate": "2026-09-30",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000041/lyv-20260930.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-25",
+   "reportDate": "2026-09-25",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000038/lyv-20260925.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000034/lyv-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000025/lyv-20260611.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.59,
+  "saleNy": 9.27,
+  "epsCy": 89.54,
+  "epsNy": -518.05,
+  "cyTrend": 2.85,
+  "nyTrend": 0.72,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.42,
+    12.15,
+    11.12
+   ],
+   "ni": [
+    20.97,
+    -1776.96,
+    -1000.19
+   ],
+   "opm": [
+    6.81,
+    -9.77,
+    -2.26
+   ],
+   "updated": "2026-09-07 07:05:09"
+  }
+ }
+}

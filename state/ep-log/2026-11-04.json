@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "ticker": "OKTA",
+      "price": 189.68,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GKOS",
+      "price": 233.04,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NBIX",
+      "price": 164.85,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "XMTR",
+      "price": 111.29,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "DD",
+      "price": 153.46,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "KMB",
+      "price": 104.46,
+      "category": 4,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ZBRA",
+      "price": 329.5,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "HSIC",
+      "price": 82.5,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RACE",
+      "price": 414.77,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "IT",
+      "price": 204.22,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SN",
+      "price": 210.59,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VRSN",
+      "price": 313.88,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LDOS",
+      "price": 134.72,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SHOP",
+      "price": 142.57,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CRVL",
+      "price": 82.64,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "DUOL",
+      "price": 128,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VVX",
+      "price": 80.82,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TRNS",
+      "price": 89.52,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NICE",
+      "price": 106.27,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "RAL",
+      "price": 71.31,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NTRA",
+      "price": 388.63,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BR",
+      "price": 183.76,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "LYV",
+      "price": 178.87,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ADUS",
+      "price": 126.55,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CVCO",
+      "price": 648.27,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "IDXX",
+      "price": 672.04,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RHP",
+      "price": 135.62,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TLN",
+      "price": 357.28,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "EPAM",
+      "price": 138.17,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "AVT",
+      "price": 88.73,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VOYA",
+      "price": 103.11,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BXC",
+      "price": 72.56,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PLTR",
+      "price": 175.4,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "VCTR",
+      "price": 115.75,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "INSP",
+      "price": 61.9,
+      "category": 1,
+      "confidence": "medium"
+    }
+  ]
+}

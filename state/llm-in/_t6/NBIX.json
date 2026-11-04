@@ -1,0 +1,732 @@
+{
+ "ticker": "NBIX",
+ "date": "2026-11-04",
+ "session": "2026-11-03",
+ "source": "list",
+ "plan": {
+  "ticker": "NBIX",
+  "name": "뉴로크린 바이오사이언시스",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "price": 164.85,
+  "grade": "C",
+  "state": "post",
+  "pivot": 159.94,
+  "stop": 156.6,
+  "distToPivotPct": 3.07,
+  "distToPivotAdr": 1.22,
+  "riskPerSharePct": 2.09,
+  "adrPct": 2.51,
+  "extensionAdr": 4.37,
+  "breakDate": "2026-11-03",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 17.3,
+   "priorMovePct": 7.5,
+   "higherLows": 0,
+   "contraction": 0.94,
+   "closeRange10Adr": 1.5,
+   "surf10": 0.27,
+   "surf20": 1.01,
+   "slope20": 0.75,
+   "baseLow": 132.25,
+   "lastSwingLow": 132.25
+  },
+  "reasons": [
+   "✗ 선행 상승 +8%",
+   "베이스 8주",
+   "깊이 17.3%",
+   "✗ 저점 상승 0회",
+   "진폭 0.94배 · 10일 종가폭 1.5 ADR",
+   "10일선 +0.3 ADR · 20일선 +1 ADR",
+   "20일선 기울기 +0.75%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2308240621335619,
+    "pct": 86.33904418394951
+   },
+   "m3": {
+    "v": 0.04795589790799698,
+    "pct": 56.22182146077548
+   },
+   "m6": {
+    "v": 0.06100560094858708,
+    "pct": 40.892696122633005
+   }
+  },
+  "ret1m": 13.29,
+  "ret3m": -0.04,
+  "ret6m": 2.19,
+  "marketCap": "14.85B",
+  "volx": 3.38,
+  "volSurgeWk": 3.15,
+  "high52": 88.57,
+  "newHigh52": false,
+  "adr": 2.51,
+  "div50": 12.35,
+  "div200": 11.69,
+  "targetStatus": false,
+  "saleCy": 36.46,
+  "saleNy": 16.62,
+  "epsCy": 60.25,
+  "epsNy": 16.93,
+  "cyTrend": 0.07,
+  "nyTrend": 0.81,
+  "est": {
+   "cyCur": 10.23998,
+   "cy30": 10.23248,
+   "nyCur": 11.97319,
+   "ny30": 11.87737
+  },
+  "fs": {
+   "sale": [
+    39.49,
+    42.25,
+    28.33
+   ],
+   "ni": [
+    34.33,
+    2405.06,
+    49.08
+   ],
+   "opm": [
+    15.8,
+    23.74,
+    26.18
+   ],
+   "updated": "2026-09-09 07:38:46"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-04",
+  "nameKo": "뉴로크린 바이오사이언시스",
+  "nameEn": "NEUROCRINE BIOSCIENCES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000914475&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1122700000,
+     "profit": 331300000,
+     "netIncome": 206500000,
+     "margin": 29.5,
+     "yoy": {
+      "revenue": 41.2,
+      "profit": 38.6,
+      "netIncome": -1.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 959000000,
+     "profit": 151500000,
+     "netIncome": 144400000,
+     "margin": 15.8,
+     "yoy": {
+      "revenue": 39.5,
+      "profit": 4.1,
+      "netIncome": 34.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 814500000,
+     "profit": 193400000,
+     "netIncome": 197900000,
+     "margin": 23.7,
+     "yoy": {
+      "revenue": 42.2,
+      "profit": 719.5,
+      "netIncome": 2405.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 805500000,
+     "profit": 210900000,
+     "netIncome": 153700000,
+     "margin": 26.2,
+     "yoy": {
+      "revenue": 28.3,
+      "profit": 48.5,
+      "netIncome": 49.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "NBIX Beats on Q3 Earnings & Sales, Raises '26 Ingrezza Sales View",
+     "url": "https://www.nasdaq.com/articles/nbix-beats-q3-earnings-sales-raises-26-ingrezza-sales-view",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Neurocrine (NBIX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/neurocrine-nbix-q3-2026-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Neurocrine Biosciences (NBIX) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/neurocrine-biosciences-nbix-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Neurocrine (NBIX) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/neurocrine-nbix-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Neurocrine Biosciences Inc Reveals Drop In Q3 Income",
+     "url": "https://www.nasdaq.com/articles/neurocrine-biosciences-inc-reveals-drop-q3-income",
+     "date": "2026-11-02",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Here's Why Neurocrine Biosciences (NBIX) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-neurocrine-biosciences-nbix-strong-value-stock",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Neurocrine Biosciences (NBIX) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-neurocrine-biosciences-nbix-strong-growth-stock",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Neurocrine Sets Benchmark For Measuring Health Improvements In Tardive Dyskinesia Patients",
+     "url": "https://www.nasdaq.com/articles/neurocrine-sets-benchmark-measuring-health-improvements-tardive-dyskinesia-patients",
+     "date": "2026-10-26",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000053/nbix-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000045/nbix-20260925.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000035/nbix-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000029/nbix-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/914475/000119312526228013/d94926d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000025/nbix-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Cramer's lightning round: Buy Uber",
+   "url": "https://www.cnbc.com/2026/08/17/cramers-lightning-round-buy-uber.html",
+   "date": "2026-08-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "NBIX",
+  "fetchedAt": "2026-11-04",
+  "source": "한국투자증권 Open API",
+  "per": 24.15,
+  "pbr": 4.53,
+  "eps": 6.83,
+  "bps": 36.35,
+  "shares": 101649000,
+  "marketCapM": 16757,
+  "high52": 186.12,
+  "high52Date": "2026-07-30",
+  "low52": 122.1375,
+  "low52Date": "2026-02-12",
+  "last": 164.85,
+  "prevClose": 145.35,
+  "nameKo": "뉴로크린 바이오사이언시스",
+  "nameEn": "NEUROCRINE BIOSCIENCES INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 101649000
+ },
+ "estimates": {
+  "ticker": "NBIX",
+  "url": "https://finance.yahoo.com/quote/NBIX/analysis/",
+  "fetchedAt": "2026-11-04",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.75,
+    "epsLow": 2.07,
+    "epsHigh": 3.33,
+    "epsYearAgo": 1.88,
+    "epsAnalysts": 17,
+    "epsGrowth": 46,
+    "epsCur": "USD",
+    "rev": 1085340910,
+    "revAnalysts": 21,
+    "revYearAgo": 805500000,
+    "revGrowth": 34.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 2.79,
+    "epsLow": 2.55,
+    "epsHigh": 3.07,
+    "epsYearAgo": 1.88,
+    "epsAnalysts": 11,
+    "epsGrowth": 48.2,
+    "epsCur": "USD",
+    "rev": 1071678290,
+    "revAnalysts": 7,
+    "revYearAgo": 814500000,
+    "revGrowth": 31.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 10.64,
+    "epsLow": 10.39,
+    "epsHigh": 11.11,
+    "epsYearAgo": 6.39,
+    "epsAnalysts": 5,
+    "epsGrowth": 66.5,
+    "epsCur": "USD",
+    "rev": 3903400100,
+    "revAnalysts": 26,
+    "revYearAgo": 2860500000,
+    "revGrowth": 36.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 11.97,
+    "epsLow": 8.37,
+    "epsHigh": 16.06,
+    "epsYearAgo": 10.64,
+    "epsAnalysts": 15,
+    "epsGrowth": 12.5,
+    "epsCur": "USD",
+    "rev": 4575473400,
+    "revAnalysts": 25,
+    "revYearAgo": 3903400100,
+    "revGrowth": 17.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.75,
+    "d7": -0.6,
+    "d30": 0.2,
+    "d90": 1.8,
+    "ago90": 2.7,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.79,
+    "d7": 1.7,
+    "d30": 5,
+    "d90": 5,
+    "ago90": 2.65,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 10.64,
+    "d7": 3.6,
+    "d30": 4,
+    "d90": 4.6,
+    "ago90": 10.17,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 11.97,
+    "d7": 0,
+    "d30": 0.8,
+    "d90": -2.3,
+    "ago90": 12.26,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.29,
+    "estimate": 2.75,
+    "surprisePct": 19.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.94,
+    "estimate": 1.7,
+    "surprisePct": 14.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 2.17,
+    "estimate": 2.07,
+    "surprisePct": 4.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 6,
+   "ptLowered": 3,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-11-03",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 185,
+     "ptPrior": 183
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 190,
+     "ptPrior": 187
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 220,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 215,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 204,
+     "ptPrior": 204
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Lowers",
+     "pt": 150,
+     "ptPrior": 164
+    },
+    {
+     "date": "2026-09-29",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 214,
+     "ptPrior": 231
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 183,
+     "ptPrior": 182
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 198,
+     "ptPrior": 198
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 253,
+     "ptPrior": 249
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-02",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-03",
+  "numbers": {
+   "price": 164.85,
+   "ma20": 142.93,
+   "ma50": 146.72,
+   "ma150": 152.79,
+   "distMA50": 12.35,
+   "periodHigh": 186.12,
+   "pullbackFromHigh": -11.43,
+   "volRatio20": 2.98,
+   "dryUpRatio": 1.37
+  },
+  "last10": [
+   {
+    "d": "2026-10-21",
+    "o": 141.38,
+    "h": 142.77,
+    "l": 140.84,
+    "c": 141.31,
+    "v": 815500,
+    "clsPos": 24,
+    "gapPct": -0.44
+   },
+   {
+    "d": "2026-10-22",
+    "o": 141.62,
+    "h": 143.83,
+    "l": 140.75,
+    "c": 143.29,
+    "v": 1244500,
+    "clsPos": 82,
+    "gapPct": 0.22
+   },
+   {
+    "d": "2026-10-23",
+    "o": 142.74,
+    "h": 143.83,
+    "l": 140.9,
+    "c": 142.7,
+    "v": 1033400,
+    "clsPos": 61,
+    "gapPct": -0.38
+   },
+   {
+    "d": "2026-10-26",
+    "o": 143.99,
+    "h": 146,
+    "l": 142.34,
+    "c": 145.87,
+    "v": 1283900,
+    "clsPos": 96,
+    "gapPct": 0.9
+   },
+   {
+    "d": "2026-10-27",
+    "o": 145.01,
+    "h": 146.59,
+    "l": 143.91,
+    "c": 146,
+    "v": 1179300,
+    "clsPos": 78,
+    "gapPct": -0.59
+   },
+   {
+    "d": "2026-10-28",
+    "o": 144.56,
+    "h": 145.98,
+    "l": 143,
+    "c": 145.53,
+    "v": 1091600,
+    "clsPos": 85,
+    "gapPct": -0.99
+   },
+   {
+    "d": "2026-10-29",
+    "o": 146.57,
+    "h": 147.17,
+    "l": 145.37,
+    "c": 146.38,
+    "v": 831100,
+    "clsPos": 56,
+    "gapPct": 0.71
+   },
+   {
+    "d": "2026-10-30",
+    "o": 147.13,
+    "h": 149.25,
+    "l": 145.22,
+    "c": 146.1,
+    "v": 1322300,
+    "clsPos": 22,
+    "gapPct": 0.51
+   },
+   {
+    "d": "2026-11-02",
+    "o": 145.7,
+    "h": 147.57,
+    "l": 143.75,
+    "c": 145.35,
+    "v": 2016000,
+    "clsPos": 42,
+    "gapPct": -0.27
+   },
+   {
+    "d": "2026-11-03",
+    "o": 159,
+    "h": 169.53,
+    "l": 157.91,
+    "c": 164.85,
+    "v": 4056105,
+    "clsPos": 60,
+    "gapPct": 9.39
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NBIX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NBIX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 11일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

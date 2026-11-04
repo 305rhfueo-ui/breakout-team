@@ -1,0 +1,263 @@
+{
+ "ticker": "TLN",
+ "news": [
+  {
+   "title": "Talen Energy (TLN) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/talen-energy-tln-q3-2026-earnings-call-transcript",
+   "date": "2026-11-03",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Talen Energy Corporation (TLN) Lags Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/talen-energy-corporation-tln-lags-q3-earnings-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Talen Energy Corporation (TLN) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/talen-energy-corporation-tln-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HSBC Initiates Coverage of Talen Energy with Buy Rating",
+   "url": "https://www.nasdaq.com/articles/hsbc-initiates-coverage-talen-energy-buy-rating",
+   "date": "2026-10-22",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Talen Energy Corporation (TLN) Moves 12.4% Higher: Will This Strength Last?",
+   "url": "https://www.nasdaq.com/articles/talen-energy-corporation-tln-moves-124-higher-will-strength-last",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Talen Energy (TLN) Could Be 22% Undervalued As Buyback And Q3 Results Reset The Debate",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/talen-energy-tln-could-22-001904857.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Talen Energy Corp (TLN) (Q3 2026) Earnings Call Highlights: Adjusted EBITDA Nearly Doubles as ...",
+   "url": "https://finance.yahoo.com/energy/articles/talen-energy-corp-tln-q3-210515734.html",
+   "date": "2026-11-03",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Talen Energy (TLN) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/talen-energy-tln-q3-2026-203931905.html",
+   "date": "2026-11-03",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Talen Energy Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/energy/articles/talen-energy-corporation-q3-2026-181854471.html",
+   "date": "2026-11-03",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Talen Energy Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/energy/articles/talen-energy-q3-earnings-call-171457270.html",
+   "date": "2026-11-03",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Talen Energy Corporation (TLN) Lags Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/talen-energy-corporation-tln-lags-131503778.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Buy, Sell or Hold OKLO Stock? Key Tips Ahead of Q3 Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-oklo-stock-130300839.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Talen Energy: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/talen-energy-q3-earnings-snapshot-124555260.html",
+   "date": "2026-11-03",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Talen Energy's Q3 Earnings Fall, Revenue Rises",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/talen-energy-apos-q3-earnings-123355868.html",
+   "date": "2026-11-03",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000084/tln-20261103.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-29",
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/tln-20260925.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/tln-20260805.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000058/tln-20260714.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.01",
+    "2.03",
+    "3.02",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000048/tln-20260615.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000042/tln-20260520.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001622536&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 894000000,
+    "profit": -72000000,
+    "netIncome": -92000000,
+    "margin": -8.1,
+    "yoy": {
+     "revenue": 118.6,
+     "profit": -209.1,
+     "netIncome": -227.8,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 1568000000,
+    "profit": 210000000,
+    "netIncome": null,
+    "margin": 13.4,
+    "yoy": {
+     "revenue": 139.8,
+     "profit": 298.1,
+     "netIncome": null,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 758000000,
+    "profit": -313000000,
+    "netIncome": -363000000,
+    "margin": -41.3,
+    "yoy": {
+     "revenue": 114.7,
+     "profit": -2056.2,
+     "netIncome": -542.7,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 697000000,
+    "profit": 263000000,
+    "netIncome": 207000000,
+    "margin": 37.7,
+    "yoy": {
+     "revenue": 51.9,
+     "profit": 66.5,
+     "netIncome": 23.2,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 71.94,
+  "saleNy": 18.68,
+  "epsCy": 152.43,
+  "epsNy": 40.49,
+  "cyTrend": 2.74,
+  "nyTrend": 4.48,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    18.57,
+    189.49,
+    60.39
+   ],
+   "ni": [
+    -227.78,
+    "흑자전환",
+    -542.68
+   ],
+   "opm": [
+    -9.64,
+    18.6,
+    -41.79
+   ],
+   "updated": "2026-09-08 05:59:54"
+  }
+ }
+}

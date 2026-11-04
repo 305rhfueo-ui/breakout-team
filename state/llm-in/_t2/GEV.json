@@ -1,0 +1,344 @@
+{
+ "ticker": "GEV",
+ "sector": "Industrials",
+ "industry": "Specialty Industrial Machinery",
+ "nameKo": "GE베르노바",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 23.28,
+  "saleNy": 13.94,
+  "epsCy": 79.13,
+  "epsNy": -18.85,
+  "est": {
+   "cyCur": 31.6879,
+   "cy30": 30.6543,
+   "nyCur": 25.71557,
+   "ny30": 24.58196
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    21.87,
+    16.27,
+    3.77
+   ],
+   "ni": [
+    29.96,
+    1768.11,
+    657.02
+   ],
+   "opm": [
+    5.9,
+    1.93,
+    5.48
+   ],
+   "updated": "2026-09-08 08:58:56"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-04",
+  "nameKo": "GE베르노바",
+  "nameEn": "GE VERNOVA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001996810&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 12642000000,
+     "profit": 1394000000,
+     "netIncome": 1291000000,
+     "margin": 11,
+     "yoy": {
+      "revenue": 26.8,
+      "profit": 280.9,
+      "netIncome": 185.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 11104000000,
+     "profit": 653000000,
+     "netIncome": 668000000,
+     "margin": 5.9,
+     "yoy": {
+      "revenue": 21.9,
+      "profit": 72.8,
+      "netIncome": 30,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 9339000000,
+     "profit": 179000000,
+     "netIncome": 4745000000,
+     "margin": 1.9,
+     "yoy": {
+      "revenue": 16.3,
+      "profit": 316.3,
+      "netIncome": 1768.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 10956000000,
+     "profit": 601000000,
+     "netIncome": 3664000000,
+     "margin": 5.5,
+     "yoy": {
+      "revenue": 3.8,
+      "profit": 1.3,
+      "netIncome": 657,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is It Worth Investing in GE Vernova (GEV) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-ge-vernova-gev-based-wall-streets-bullish-views",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "GE Vernova Inc. (GEV) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/ge-vernova-inc-gev-trending-stock-facts-know-betting-it",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Makes GE Vernova (GEV) a New Buy Stock",
+     "url": "https://www.nasdaq.com/articles/what-makes-ge-vernova-gev-new-buy-stock",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/gev-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000153/gev-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gev-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000115/gev-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000063/gev-20260422.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-04",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000114036126003735/ef20064707_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 23,
+   "reports": [
+    {
+     "date": "2026-11-03",
+     "broker": "iM증권",
+     "analyst": "이상헌",
+     "title": "[GE베르노바 (NYS:GEV)] 가격인상 효과 본격화 되면서 수익성 개선 가속화",
+     "summary": "- 올해 3분기 파워 및 전력부문 등이 매출 성장을 이끌면서 분기 최고 매출을 경신함⇒ 수익성 개선 가속화- 가스터빈 공급자 우위 시장 구조에서 판매가격 우상향 중 ⇒ 해를 거듭할수록 가스터빈 CAPA 증설효과 가시화 되면서 실적개선 가속화- 전력부문 테이터센터 수주증가로 수주잔고 확대되면서 수익성 개선 본격화 & 차세대 전력 패러다임 800VDC 관련하여 수주 가시화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixxczeciielqgcgxeeck.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-10-30",
+     "broker": "SK증권",
+     "analyst": "나민식",
+     "title": "[GE베르노바 (NYS:GEV)] 가스터빈 마진상승효과 본격화",
+     "summary": "- 3Q26 발전부문 매출 60.7억달러(YoY +25%), EBITDA 마진 21.4%로 2026년 마진 가이던스 19~21%로 상향- 가스터빈 출하 확대와 신규 수주 kW당 가격 약 50% 상승으로 수주잔고·SRA 122GW, 연말 130GW 전망- 약 90억달러 Trench 인수로 부품 내재화 추진, 풍력은 흑자전환에도 수주 회복 시점 관망 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiexmqeqmzxigcgxeeck.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2026-10-30",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "title": "[GE베르노바 (NYS:GEV)] 자금조달 우려에도 실적 방향성에 주목",
+     "summary": "- 초고압 변압기 부품 기업인 Trench Group 인수에 45억달러 부채 조달 이 슈로 주가는 하락. 하지만 인수 후 영업 시너지 기대와, 본업 성장성으로 결국 실적 방향성에 주목할 것. 27년 가이던스에 배팅 할 시점- 에너지 기자재 회사인 GE베르노바의 3분기 실적은 매출액 126억달러 (+27% YoY, 이하 YoY), Adj-EBITDA 마진율 +15.4%(+7.3%p), AdjEPS 4.81달러(+193%)로 컨센 대비 각각 +5%, +1.3%p, +22% 기록- [파워] 매출액 61억달러(+25%), 마진율 +21.4%(+8.0%p). 가스터빈 판매 5GW 달성, ASP 상승으로 수익성 향상. 가스터빈 수주 17GW(24년 20GW, 25년 30GW, 3Q26 누적 37GW) 기록. 수주잔고는 122GW(확정 64, 예약 58)이며, 연말 최소 130GW 목표",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiieximxqxzkegcgxeeck.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[GE베르노바 (NYS:GEV)] 이제는 수주보다 이익을 볼 때",
+     "summary": "- 컨센서스 상회 및 가이던스 재상향, 고단가 가스터빈 출하로 Power 마진 21.4%- 신규 슬롯 둔화에 주가 하락, ‘32년 슬롯까지 판매되는 등 수요가 아닌 납기의 문제- P/E는 1년 평균 하회, 수주 단가 상승과 Trench 인수로 이익 사이클은 이제 시작",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigxelmlxemqmgcgxeeck.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[GE베르노바 (NYS:GEV)] [Issue & News] 코트디부아르 송공 발전소 372MW 수주 - 회사 전체 마진 전환 속도를 바꿀 변수는 아님",
+     "summary": "- 코트디부아르 송공 발전소 372MW 수주, 2026년 3분기 수주 반영- 500만 가구 공급 규모, 2029년 전력 기반 최대 12% 차지 전망- 계약 금액 미제공, Power 수주 모멘텀 연장선 수준으로 해석",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzgmmgllqmzegcgxeeck.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-19",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[GE베르노바 (NYS:GEV)] [26Q3 Preview] 풍력 적자 축소와 전력화 부문 마진 유지가 관건, 투자의견 적극 매수 유지",
+     "summary": "- 10월 28일, 시장이 확인하려는 건 매출이 아니라 수익성- 수주와 수주잔고는 이미 의심의 영역을 벗어났다- 전력화 마진은 지켜지고, 풍력 적자는 줄어드는지가 관건",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgilkkizqgeeqgcgxeeck.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[GE베르노바 (NYS:GEV)] [Issue & News] 비니어드윈드 해상풍력 소송 합의 - Wind 부문 리스크의 부분적 해소",
+     "summary": "- 비니어드윈드 해상풍력 소송 합의로 종결- Wind 상반기 손실 6.57 억달러, 연간 가이던스 초과- 하반기 Wind 부문 손익 개선 여부 주시 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxcqlmxlklkegcgxeeck.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "iM증권",
+     "analyst": "이상헌",
+     "title": "[GE베르노바 (NYS:GEV)] 데이터센터 800VDC 관련 제품군 ⇒ 신성장 동력",
+     "summary": "- 차세대 AI 데이터센터 전력 패러다임 800VDC 관련하여 동사 SST 및 MV-UPS 제품군 등 개발 중⇒ 향후 신성장 동력으로 자리매김 할 듯- 가스터빈 공급자 우위 시장 구조에서 판매가격 우상향 중 ⇒ 해를 거듭할수록 가스터빈 CAPA 증설효과 가시화 되면서 실적개선 가속화- 파워부문의 경우 글로벌 빅테크 기업들과 가스터빈 공급계약이 본격화 되면서 수주잔고도 확대 중에 있다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmkgqmelzmckegcgxeeck.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "GE Vernova shares slip despite a beat-and-raise. What the sellers are getting wrong",
+   "url": "https://www.cnbc.com/investingclub/2026/10/28/ge-vernova-shares-slip-despite-a-beat-and-raise-what-the-sellers-are-getting-wrong.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Wendy's, Wingstop, F5, Enphase Energy",
+   "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-midday-wen-wing-ffiv-enph-lh.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer sees buying opportunities in these 2 beaten-down stocks",
+   "url": "https://www.cnbc.com/investingclub/2026/10/28/jim-cramer-sees-buying-opportunities-in-these-2-beaten-down-stocks.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+   "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+   "date": "2026-10-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "What we want to see when this data center stock reports earnings next week",
+   "url": "https://www.cnbc.com/investingclub/2026/10/23/what-we-want-to-see-when-this-data-center-stock-reports-earnings-next-week.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday, October 28, 2026: Cramer believes this energy stock is priced wrong and worth buying",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/28/wednesday-october-28-2026-cramer-believes-this-energy-stock-is-priced-wrong-and-worth-buying.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "GEV",
+  "fetchedAt": "2026-11-04",
+  "source": "한국투자증권 Open API",
+  "per": 26.28,
+  "pbr": 20.45,
+  "eps": 34.93,
+  "bps": 44.89,
+  "shares": 264677060,
+  "marketCapM": 243026,
+  "high52": 1195.2404,
+  "high52Date": "2026-07-06",
+  "low52": 528.8697,
+  "low52Date": "2025-11-21",
+  "last": 918.2,
+  "prevClose": 862.25,
+  "nameKo": "GE베르노바",
+  "nameEn": "GE VERNOVA INC",
+  "listedOn": "2024-04-02",
+  "exchange": "뉴욕거래소",
+  "listedShares": 264677060
+ }
+}

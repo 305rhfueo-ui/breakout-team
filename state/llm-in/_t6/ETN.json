@@ -1,0 +1,838 @@
+{
+ "ticker": "ETN",
+ "date": "2026-11-04",
+ "session": "2026-11-03",
+ "source": "list",
+ "plan": {
+  "ticker": "ETN",
+  "name": "이턴 코퍼레이션",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "price": 391.7,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 452,
+  "stop": 437.77,
+  "distToPivotPct": -13.34,
+  "distToPivotAdr": -3.67,
+  "riskPerSharePct": 3.15,
+  "adrPct": 3.63,
+  "extensionAdr": 0.83,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 32,
+   "baseWeeks": 6.4,
+   "depthPct": 20.7,
+   "priorMovePct": 26.2,
+   "higherLows": 0,
+   "contraction": 0.94,
+   "closeRange10Adr": 2,
+   "surf10": 0.83,
+   "surf20": -0.29,
+   "slope20": -3.26,
+   "baseLow": 358.51,
+   "lastSwingLow": 358.51
+  },
+  "reasons": [
+   "✗ 선행 상승 +26%",
+   "베이스 6.4주",
+   "깊이 20.7%",
+   "✗ 저점 상승 0회",
+   "진폭 0.94배 · 10일 종가폭 2 ADR",
+   "✗ 10일선 +0.8 ADR · 20일선 -0.3 ADR",
+   "✗ 20일선 기울기 -3.26%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.022041068638498112,
+    "pct": 16.72678088367899
+   },
+   "m3": {
+    "v": -0.07131580053062271,
+    "pct": 21.415689810640217
+   },
+   "m6": {
+    "v": 0.004041690491112068,
+    "pct": 30.613165013525702
+   }
+  },
+  "ret1m": -12,
+  "ret3m": -11.97,
+  "ret6m": -3.51,
+  "marketCap": "143.70B",
+  "volx": 1.22,
+  "volSurgeWk": 1.14,
+  "high52": 81.95,
+  "newHigh52": false,
+  "adr": 3.63,
+  "div50": -4.4,
+  "div200": -1.11,
+  "targetStatus": false,
+  "saleCy": 19.88,
+  "saleNy": 12.27,
+  "epsCy": 12.7,
+  "epsNy": 19.8,
+  "cyTrend": 0.29,
+  "nyTrend": 1.1,
+  "est": {
+   "cyCur": 13.60251,
+   "cy30": 13.56339,
+   "nyCur": 16.29552,
+   "ny30": 16.11763
+  },
+  "fs": {
+   "sale": [
+    21.39,
+    16.84,
+    13.06
+   ],
+   "ni": [
+    -16.4,
+    -10.17,
+    16.48
+   ],
+   "opm": [
+    16.32,
+    15.73,
+    19.63
+   ],
+   "updated": "2026-09-08 09:31:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-04",
+  "nameKo": "이턴 코퍼레이션",
+  "nameEn": "EATON CORPORATION PLC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551182&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 8947000000,
+     "profit": null,
+     "netIncome": 1078000000,
+     "margin": null,
+     "yoy": {
+      "revenue": 28,
+      "profit": null,
+      "netIncome": 6.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 8531000000,
+     "profit": null,
+     "netIncome": 821000000,
+     "margin": null,
+     "yoy": {
+      "revenue": 21.4,
+      "profit": null,
+      "netIncome": -16.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7451000000,
+     "profit": null,
+     "netIncome": 866000000,
+     "margin": null,
+     "yoy": {
+      "revenue": 16.8,
+      "profit": null,
+      "netIncome": -10.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 7055000000,
+     "profit": null,
+     "netIncome": 1132000000,
+     "margin": null,
+     "yoy": {
+      "revenue": 13.1,
+      "profit": null,
+      "netIncome": 16.6,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Eaton (ETN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/eaton-etn-q3-2026-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Eaton Q3 Earnings Top Estimates on Strong Organic Sales, View Up",
+     "url": "https://www.nasdaq.com/articles/eaton-q3-earnings-top-estimates-strong-organic-sales-view",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Eaton Sales Up 28%; GAAP EPS Rises Just 7%: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/eaton-sales-28-gaap-eps-rises-just-7-rapid-earnings-reaction",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Eaton Corp. Q3 26 Earnings Conference Call At 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/eaton-corp-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Eaton Corporation plc Reports Record Third Quarter 2026 Results, Raises Guidance, and Details €810 million COL Group Acquisition",
+     "url": "https://www.nasdaq.com/articles/eaton-corporation-plc-reports-record-third-quarter-2026-results-raises-guidance-and",
+     "date": "2026-11-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Compared to Estimates, Eaton (ETN) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-eaton-etn-q3-earnings-look-key-metrics",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Eaton Raises FY26 Organic Growth Outlook- Update",
+     "url": "https://www.nasdaq.com/articles/eaton-raises-fy26-organic-growth-outlook-update",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Eaton (ETN) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/eaton-etn-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-16",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000034/etn-20261016.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126038523/ef20083229_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 10,
+   "reports": [
+    {
+     "date": "2026-08-05",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] 27년까지 이어질 실적 성장세",
+     "summary": "- 1분기 실적에서 수익성에 대한 우려를 주가에 온전히 반영 후 2분기 실적 을 기점으로 주가는 역사상 신고가 기록. 27년까지 이어질 실적 성장세 감 안하면 주가 상단을 열어둘 필요- 종합 전력 솔루션 업체인 이튼 코퍼레이션의 2분기 실적은 매출액 85억달 러(+21% YoY, 이하 YoY), Adj-OPM +23.1%(-0.8%p), Adj-EPS 3.15달 러(+7%)로 컨센대비 각각 +5%, +0.4%p, +2% 기록- [전력기기-미주] 매출액 39억달러(+18%), Adj-OPM +27.5%(-2.0%p) 기 록. 1분기 마진율 +25.6%(-4.4%p) 대비 개선됐으며, 이는 이튼 목표치였 던 +150bp QoQ를 상회한 성과. 이튼은 글로벌 공장에 24개의 증설 프로 젝트 진행에 따른 비용 부담이 1Q26에 집중될 것으로 내다봤으며, 예상보 다 빠른 수익성 회복 확인. 향후 마진율은 3Q +30.0%, 4Q 32.5%로 점진 적 확대될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzllkmezmilmzgcgxeeck.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "하나증권",
+     "analyst": "김시현",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] 데이터센터를 넘어서는 구조적 변화에 부합",
+     "summary": "- 2Q26 Re: 미국 캐파 증설 효과 양호, 15년치 데이터센터 수주잔고- 데이터센터를 넘어서는 구조적 전력 트렌드에 부합하는 포트폴리오- 3분기 EPS 가이던스 컨센 부합",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlclccimxlzxgcgxeeck.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-05-06",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] 전력 인프라의 구조적 수요는 여전, 인수에 따른 수익성 약화",
+     "summary": "- 이튼의 FY 1Q26 실적이 발표됐습니다. 실적은 예상을 상회했고, 수주잔 고는 최고치를 경신했습니다. 주가는 2.7% 내렸습니다- 이튼의 FY 1Q26 매출액은 74.5억 달러(YoY +16.8%), 조정 EPS는 2.81 달러(YoY +3.3%)로 각각 컨센서스를 4.5%, 2.2% 상회했다. 본 업매출 성장률은 YoY +10%로 가이던스(+5% ~ +7%) 상단을 초과했 다.- 1월 23일, 항공기용 전자제어·센서 등을 제조하는 Ultra PCS를 인수해 항공우주 사업부를 확장했다. 3월 12일에는 Boyd Corporation의 Thermal 사업부를 골드만삭스로부터 인수해 데이터센터 액체 냉각 포 트폴리오를 확보했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlczzmmemzemqgcgxeeck.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-05-06",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] 수주에 주목하면 보이는 주가 방향성",
+     "summary": "- 단기 실적보다 수주 방향성에 주목. 26년 미국 유틸사 합산 CapEx는 20% 증가 전망. 이는 06년 이후 첫 20%대 증가. 이튼 수주잔고 증가세도 더욱 가팔라질 전망- 종합 전력 솔루션 업체인 이튼 코퍼레이션의 1분기 실적은 매출액 74억달 러(+17% YoY, 이하 YoY), Adj-OPM +22.7%(-1.2%p), Adj-EPS 2.81달 러(+3%)로 컨센대비 각각 +5%, +0.2%p, +2.3% 기록- 전력 사업부 수주잔고는 176억달러(1Q25 125, 4Q25 153)로 증가. 1분기 미주 메가프로젝트 착공 규모가 540억달러로 전년대비 2배가량 증가. 데 이터센터 수주 240% 증가하며 성장 견인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlczzckilzekmgcgxeeck.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-05-06",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] 보수적 시선 속 흔들림 없는 흐름",
+     "summary": "- 1분기 매출은 $75억(YoY +17%), 유기적 성장률은 10%로 사상 최고 수준 기록- 현재 시장은 단기 마진에 초점을 맞추고 있어 주가 상승의 제약 요인으로 작용.그러나 이는 생산능력 제약에 따른 일시적 현상- 현 시점은 단기 이익보다 중장기 성장 경로의 가시성이 더욱 중요한 구간",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlckzckikezqmgcgxeeck.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-02-04",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] 마진율 개선 필요, 쉬어갈 상반기",
+     "summary": "- 미주 전력 사업부 마진율은 24년부터 30% 내외를 유지. 25년에는 투자 확 대, 관세 등 영향에도 불구하고 마진율을 유지한 것은 고무적.- 종합 전력 솔루션 업체인 이튼 코퍼레이션의 4분기 실적은 매출액 70억달 러(+13% YoY, 이하 YoY), Adj-OPM +24.9%(+0.2%p), Adj-EPS 3.33달 러(+18%)로 컨센대비 각각 -1%, +0.4%p, +0% 기록- 유기적 성장률은 25년 +8%에서 26년 +7~9%로 제시. Adj-EPS는 13.00~13.50달러 가이던스로 컨센 13.48달러 대비 부진.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcemellizgkqigcgxeeck.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-02-04",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] 기다림의 끝이 가까워진다",
+     "summary": "- 2H26부터 Boyd 인수에 따른 시너지 가시화가 예상되며, 고사양 데이터센터 중심의 ASP 및 매출 성장 기대- 내년 1분기 모빌리티 사업 분할 완료 시 저성장 사업 비중 축소 효과가 반영되며, 유기적 성장률과 영업이익률 모두에 구조적 개선 요인으로 작용할 전망- 잔여 프로젝트는 올해 상반기 마무리 예정으로 '27년부터 실적 레버리지 본격화 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcexclqckmxemgcgxeeck.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-01-27",
+     "broker": "메리츠증권",
+     "analyst": "황수욱",
+     "title": "[이턴 코퍼레이션 (NYS:ETN)] SST 기술내재화,800VDC 전환중장기수혜주",
+     "summary": "- 차세대 AI 랙은 MW 단위의 랙당 전력 밀도를 요구할 것으로 예상. 이는 데이터센터 전체 전력 부하가 ms(마이크로초) 단위로 급변하는 고변동성 환경으로 이어질 것을 시사- 개별 랙 중심의 분산 제어만으로는 전체 전력 안정성 확보가 불가능 → 중앙 단계에서의 전력 정밀 제어 필요성 부각- 800VDC 아키텍처에서 중앙 제어를 담당하는 곳은 SST. 고전압 AC 입력을 처리하는 변압 기술과 DC-DC 정류 기술의 결합",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmkqxkzemixgcgcgxeeck.pdf",
+     "pages": "2"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "ETN-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "함형도",
+   "date": "2026-08-05",
+   "title": "[이턴 코퍼레이션 (NYS:ETN)] 27년까지 이어질 실적 성장세",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzllkmezmilmzgcgxeeck.pdf",
+   "pages": "4"
+  },
+  {
+   "file": "ETN-report2.pdf",
+   "broker": "하나증권",
+   "analyst": "김시현",
+   "date": "2026-08-04",
+   "title": "[이턴 코퍼레이션 (NYS:ETN)] 데이터센터를 넘어서는 구조적 변화에 부합",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlclccimxlzxgcgxeeck.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Eaton's strong quarter should mark a bottom for shares of the AI buildout winner",
+   "url": "https://www.cnbc.com/investingclub/2026/11/03/eatons-strong-quarter-should-mark-a-bottom-for-shares-of-the-ai-buildout-winner.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks stage a comeback after Fed-induced declines — plus, what's ailing Boeing",
+   "url": "https://www.cnbc.com/investingclub/2026/09/17/stocks-stage-a-comeback-after-fed-induced-declines-plus-whats-ailing-boeing.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A rapid-fire update on our 33-stock portfolio, including 6 stocks to buy now",
+   "url": "https://www.cnbc.com/investingclub/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: Amazon, BlackRock Inc., Eaton Corp., and Pfizer",
+   "url": "https://www.cnbc.com/video/2026/11/03/final-trades-amazon-blackrock-inc-eaton-corp-pfizer.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Cramer's Mad Dash: Eaton",
+   "url": "https://www.cnbc.com/video/2026/11/03/cramers-mad-dash-eaton.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Monday, November 2, 2026: Cramer expects a brief dip before this consumer stock reaches new highs",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/02/monday-november-2-2026-cramers-expects-a-brief-dip-before-this-consumer-stock-reaches-new-highs.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Wednesday, October 21, 2026: The Club says these stocks could benefit from SpaceX's growing power demands",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/21/wednesday-october-21-2026-the-club-says-these-stocks-could-benefit-from-spacexs-growing-power-demands.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: ServiceNow, JPMorgan Chase, Eaton Corporation and SentinelOne",
+   "url": "https://www.cnbc.com/video/2026/10/16/final-trades-servicenow-jpmorgan-chase-eaton-corporation-and-sentinelone.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ETN",
+  "fetchedAt": "2026-11-04",
+  "source": "한국투자증권 Open API",
+  "per": 39.85,
+  "pbr": 7.51,
+  "eps": 9.83,
+  "bps": 52.15,
+  "shares": 388400000,
+  "marketCapM": 152136,
+  "high52": 478,
+  "high52Date": "2026-08-12",
+  "low52": 309.3276,
+  "low52Date": "2025-12-17",
+  "last": 391.7,
+  "prevClose": 366.07,
+  "nameKo": "이턴 코퍼레이션",
+  "nameEn": "EATON CORPORATION PLC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 388400000
+ },
+ "estimates": {
+  "ticker": "ETN",
+  "url": "https://finance.yahoo.com/quote/ETN/analysis/",
+  "fetchedAt": "2026-11-04",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 4.09,
+    "epsLow": 3.9,
+    "epsHigh": 4.23,
+    "epsYearAgo": 3.33,
+    "epsAnalysts": 18,
+    "epsGrowth": 23,
+    "epsCur": "USD",
+    "rev": 8496943130,
+    "revAnalysts": 15,
+    "revYearAgo": 7055000000,
+    "revGrowth": 20.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.51,
+    "epsLow": 3.39,
+    "epsHigh": 3.76,
+    "epsYearAgo": 2.81,
+    "epsAnalysts": 7,
+    "epsGrowth": 24.8,
+    "epsCur": "USD",
+    "rev": 8744519220,
+    "revAnalysts": 6,
+    "revYearAgo": 7451000000,
+    "revGrowth": 17.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 13.6,
+    "epsLow": 13.25,
+    "epsHigh": 14.12,
+    "epsYearAgo": 12.07,
+    "epsAnalysts": 26,
+    "epsGrowth": 12.7,
+    "epsCur": "USD",
+    "rev": 32906557080,
+    "revAnalysts": 24,
+    "revYearAgo": 27448000000,
+    "revGrowth": 19.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 16.31,
+    "epsLow": 15,
+    "epsHigh": 17.37,
+    "epsYearAgo": 13.6,
+    "epsAnalysts": 24,
+    "epsGrowth": 19.9,
+    "epsCur": "USD",
+    "rev": 36961308730,
+    "revAnalysts": 22,
+    "revYearAgo": 32906557080,
+    "revGrowth": 12.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.09,
+    "d7": 0.1,
+    "d30": 0.6,
+    "d90": 1.6,
+    "ago90": 4.03,
+    "up7": 2,
+    "up30": 7,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.51,
+    "d7": 0.3,
+    "d30": 0.7,
+    "d90": 0.2,
+    "ago90": 3.5,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 13.6,
+    "d7": 0,
+    "d30": 0.2,
+    "d90": 0.8,
+    "ago90": 13.49,
+    "up7": 2,
+    "up30": 13,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 16.31,
+    "d7": 0.1,
+    "d30": 0.6,
+    "d90": 1.9,
+    "ago90": 16.01,
+    "up7": 4,
+    "up30": 8,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.68,
+    "estimate": 3.55,
+    "surprisePct": 3.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.15,
+    "estimate": 3.08,
+    "surprisePct": 2.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.81,
+    "estimate": 2.73,
+    "surprisePct": 2.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 3.33,
+    "estimate": 3.32,
+    "surprisePct": 0.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 5,
+   "ptLowered": 0,
+   "total": 6,
+   "recent": [
+    {
+     "date": "2026-10-14",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 526,
+     "ptPrior": 512
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 498,
+     "ptPrior": 485
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Wells Fargo",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 503,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "UBS",
+     "action": "up",
+     "from": "Neutral",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 515,
+     "ptPrior": 450
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 520,
+     "ptPrior": 500
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 515,
+     "ptPrior": 502
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-03",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-03",
+  "numbers": {
+   "price": 391.7,
+   "ma20": 395.8,
+   "ma50": 409.73,
+   "ma150": 409.2,
+   "distMA50": -4.4,
+   "periodHigh": 478,
+   "pullbackFromHigh": -18.05,
+   "volRatio20": 1.22,
+   "dryUpRatio": 1.11
+  },
+  "last10": [
+   {
+    "d": "2026-10-21",
+    "o": 392.06,
+    "h": 395.86,
+    "l": 388.31,
+    "c": 393.94,
+    "v": 2341300,
+    "clsPos": 75,
+    "gapPct": 2.64
+   },
+   {
+    "d": "2026-10-22",
+    "o": 379.96,
+    "h": 380.65,
+    "l": 362.49,
+    "c": 368.99,
+    "v": 3851600,
+    "clsPos": 36,
+    "gapPct": -3.55
+   },
+   {
+    "d": "2026-10-23",
+    "o": 362.49,
+    "h": 371.31,
+    "l": 358.51,
+    "c": 366.11,
+    "v": 2266200,
+    "clsPos": 59,
+    "gapPct": -1.76
+   },
+   {
+    "d": "2026-10-26",
+    "o": 369.76,
+    "h": 375.67,
+    "l": 365,
+    "c": 371.92,
+    "v": 1997700,
+    "clsPos": 65,
+    "gapPct": 1
+   },
+   {
+    "d": "2026-10-27",
+    "o": 379.41,
+    "h": 386.3,
+    "l": 374.75,
+    "c": 384.2,
+    "v": 2711700,
+    "clsPos": 82,
+    "gapPct": 2.01
+   },
+   {
+    "d": "2026-10-28",
+    "o": 397.38,
+    "h": 399.3,
+    "l": 388.22,
+    "c": 392.88,
+    "v": 2725700,
+    "clsPos": 42,
+    "gapPct": 3.43
+   },
+   {
+    "d": "2026-10-29",
+    "o": 385.56,
+    "h": 398.48,
+    "l": 384.31,
+    "c": 393.72,
+    "v": 2190100,
+    "clsPos": 66,
+    "gapPct": -1.86
+   },
+   {
+    "d": "2026-10-30",
+    "o": 373.65,
+    "h": 382.24,
+    "l": 364.84,
+    "c": 369.97,
+    "v": 3641300,
+    "clsPos": 29,
+    "gapPct": -5.1
+   },
+   {
+    "d": "2026-11-02",
+    "o": 373.92,
+    "h": 377.89,
+    "l": 363.76,
+    "c": 366.07,
+    "v": 3187900,
+    "clsPos": 16,
+    "gapPct": 1.07
+   },
+   {
+    "d": "2026-11-03",
+    "o": 379.55,
+    "h": 395.63,
+    "l": 376.56,
+    "c": 391.7,
+    "v": 3305528,
+    "clsPos": 79,
+    "gapPct": 3.68
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ETN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ETN-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 11일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

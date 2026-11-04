@@ -1,0 +1,271 @@
+{
+ "ticker": "MPWR",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "모놀리식 파워 시스템",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 55.38,
+  "saleNy": 48.2,
+  "epsCy": 64.59,
+  "epsNy": 51.08,
+  "est": {
+   "cyCur": 29.24781,
+   "cy30": 27.43092,
+   "nyCur": 44.18892,
+   "ny30": 34.8707
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    47.56,
+    26.14,
+    20.83
+   ],
+   "ni": [
+    90.58,
+    43.08,
+    -86.2
+   ],
+   "opm": [
+    30.99,
+    29.99,
+    26.62
+   ],
+   "updated": "2026-09-07 07:12:49"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-04",
+  "nameKo": "모놀리식 파워 시스템",
+  "nameEn": "MONOLITHIC POWER SYSTEM INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001280452&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1202409000,
+     "profit": 357687000,
+     "netIncome": 271067000,
+     "margin": 29.7,
+     "yoy": {
+      "revenue": 63.1,
+      "profit": 83.3,
+      "netIncome": 50.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 980642000,
+     "profit": 303894000,
+     "netIncome": 257298000,
+     "margin": 31,
+     "yoy": {
+      "revenue": 47.6,
+      "profit": 84.4,
+      "netIncome": 90.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 804185000,
+     "profit": 241152000,
+     "netIncome": 193226000,
+     "margin": 30,
+     "yoy": {
+      "revenue": 26.1,
+      "profit": 42.9,
+      "netIncome": 43.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 751155000,
+     "profit": 199936000,
+     "netIncome": 171656000,
+     "margin": 26.6,
+     "yoy": {
+      "revenue": 20.8,
+      "profit": 22.4,
+      "netIncome": -86.3,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "MPWR Fell 15.9% in the Past Month. Is the Weakness a Buying Chance?",
+     "url": "https://www.nasdaq.com/articles/mpwr-fell-159-past-month-weakness-buying-chance",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "MPWR's AI Power Boom Accelerates as Enterprise Data Sales Surge 164.6%",
+     "url": "https://www.nasdaq.com/articles/mpwrs-ai-power-boom-accelerates-enterprise-data-sales-surge-1646",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is MPWR Worth Buying as AI Growth Collides With a Premium Valuation?",
+     "url": "https://www.nasdaq.com/articles/mpwr-worth-buying-ai-growth-collides-premium-valuation",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Twilio Takes Over #37 Spot From Monolithic Power Systems",
+     "url": "https://www.nasdaq.com/articles/twilio-takes-over-37-spot-monolithic-power-systems",
+     "date": "2026-11-02",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "MPWR Q3 Earnings Call Highlights AI Demand and Capacity Expansion",
+     "url": "https://www.nasdaq.com/articles/mpwr-q3-earnings-call-highlights-ai-demand-and-capacity-expansion",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Monolithic Power Systems (MPWR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/monolithic-power-systems-mpwr-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Monolithic Power Systems, Inc. Reports Q3 2026 Results, Appoints Tony Balow as CFO and Robert Dean as CAO",
+     "url": "https://www.nasdaq.com/articles/monolithic-power-systems-inc-reports-q3-2026-results-appoints-tony-balow-cfo-and-robert",
+     "date": "2026-10-30",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Monolithic Power Systems Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/monolithic-power-systems-q3-earnings-call-highlights",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026068202/mpwr-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026061318/mpwr-20260910.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026051029/mpwr-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026042820/mpwr-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926014182/mpwr20260305_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-27",
+    "itemsKo": [
+     "4.02"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926006112/mpwr20260225_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-26",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[모놀리식 파워 시스템 (NAS:MPWR)] 압도적 펀더멘털 위에 더해진 고전압 모멘텀",
+     "summary": "- 독보적인 단일 칩 통합 기술(BCD)을 바탕으로 전력 및 신호 종합 솔루션 기업 진화- AI 서버 수요 폭증과 800V 고전압 패러다임 전환에 따른 구조적 성장 및 수혜 기대- 고성장·고수익을 동반한 압도적 재무 건전성과 FCF 기반의 적극적인 주주환원",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgkgxcecexcqegcgxeeck.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "MPWR",
+  "fetchedAt": "2026-11-04",
+  "source": "한국투자증권 Open API",
+  "per": 81.4,
+  "pbr": 16.76,
+  "eps": 16.32,
+  "bps": 79.27,
+  "shares": 49143000,
+  "marketCapM": 65277,
+  "high52": 1708.9549,
+  "high52Date": "2026-05-26",
+  "low52": 827.6275,
+  "low52Date": "2025-11-21",
+  "last": 1328.3,
+  "prevClose": 1243.95,
+  "nameKo": "모놀리식 파워 시스템",
+  "nameEn": "MONOLITHIC POWER SYSTEM INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 49143000
+ }
+}

@@ -1,0 +1,713 @@
+{
+ "ticker": "MANH",
+ "date": "2026-11-04",
+ "session": "2026-11-03",
+ "source": "list",
+ "plan": {
+  "ticker": "MANH",
+  "name": "맨해튼 어소시에이츠",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 255.14,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 3.6,
+  "extensionAdr": 1.39,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3557509053018788,
+    "pct": 98.24165915238953
+   },
+   "m3": {
+    "v": 0.3521771402647197,
+    "pct": 98.24165915238953
+   },
+   "m6": {
+    "v": 1.07114027892313,
+    "pct": 98.60234445446348
+   }
+  },
+  "ret1m": 25.78,
+  "ret3m": 30.38,
+  "ret6m": 103.2,
+  "marketCap": "14.42B",
+  "volx": 1.37,
+  "volSurgeWk": 0.82,
+  "high52": 98.22,
+  "newHigh52": false,
+  "adr": 3.6,
+  "div50": 16.93,
+  "div200": 52.65,
+  "targetStatus": false,
+  "saleCy": 8.91,
+  "saleNy": 8.03,
+  "epsCy": 10.13,
+  "epsNy": 10.8,
+  "cyTrend": 1.4,
+  "nyTrend": 0.51,
+  "est": {
+   "cyCur": 5.57269,
+   "cy30": 5.49582,
+   "nyCur": 6.17432,
+   "ny30": 6.1432
+  },
+  "fs": {
+   "sale": [
+    9.31,
+    7.39,
+    5.7
+   ],
+   "ni": [
+    -11.32,
+    -6.25,
+    8.2
+   ],
+   "opm": [
+    22.24,
+    23.01,
+    24.78
+   ],
+   "updated": "2026-09-08 09:43:39"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-03",
+   "m3": "2026-11-03",
+   "m6": "2026-11-02"
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 1,
+   "m6": 2
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-04",
+  "nameKo": "맨해튼 어소시에이츠",
+  "nameEn": "MANHATTAN ASSOCIATES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001056696&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 297794000,
+     "profit": 66231000,
+     "netIncome": 50352000,
+     "margin": 22.2,
+     "yoy": {
+      "revenue": 9.3,
+      "profit": -10.2,
+      "netIncome": -11.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 282215000,
+     "profit": 64937000,
+     "netIncome": 49295000,
+     "margin": 23,
+     "yoy": {
+      "revenue": 7.4,
+      "profit": 2.8,
+      "netIncome": -6.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 270389000,
+     "profit": 67012000,
+     "netIncome": 51953000,
+     "margin": 24.8,
+     "yoy": {
+      "revenue": 5.7,
+      "profit": 10.4,
+      "netIncome": 8.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 275795000,
+     "profit": 75828000,
+     "netIncome": 58633000,
+     "margin": 27.5,
+     "yoy": {
+      "revenue": 3.4,
+      "profit": 1,
+      "netIncome": -8.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Manhattan Associates Consensus Price Target Raised 13.96% to $268.69",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-consensus-price-target-raised-1396-26869",
+     "date": "2026-11-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Manhattan: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/manhattan-3-key-takeaways-long-term-investors",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Manhattan Associates Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-q3-earnings-call-highlights",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Manhattan Associates (MANH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Manhattan Associates (MANH) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Manhattan Associates, Inc. Amends Bylaws on October 22, 2026, and Elects Juan Perez to Board",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-inc-amends-bylaws-october-22-2026-and-elects-juan-perez-board",
+     "date": "2026-10-27",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Manhattan Associates Inc. Q3 Profit Advances",
+     "url": "https://www.nasdaq.com/articles/manhattan-associates-inc-q3-profit-advances",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "2.01",
+     "3.03",
+     "임원 변동",
+     "5.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526434178/manh-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526320952/manh-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "2.05",
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526251382/manh-20260601.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526232142/manh-20260514.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526228194/manh-20260514.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526166709/manh-20260421.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": null,
+ "kis": {
+  "ticker": "MANH",
+  "fetchedAt": "2026-11-03",
+  "source": "한국투자증권 Open API",
+  "per": 72.49,
+  "pbr": 93.73,
+  "eps": 3.49,
+  "bps": 2.7,
+  "shares": 58305000,
+  "marketCapM": 14764,
+  "high52": 259.76,
+  "high52Date": "2026-11-02",
+  "low52": 119.06,
+  "low52Date": "2026-04-10",
+  "last": 253.22,
+  "prevClose": 248.39,
+  "nameKo": "맨해튼 어소시에이츠",
+  "nameEn": "MANHATTAN ASSOCIATES INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 58305000
+ },
+ "estimates": {
+  "ticker": "MANH",
+  "url": "https://finance.yahoo.com/quote/MANH/analysis/",
+  "fetchedAt": "2026-11-03",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.4,
+    "epsLow": 1.38,
+    "epsHigh": 1.47,
+    "epsYearAgo": 1.21,
+    "epsAnalysts": 10,
+    "epsGrowth": 15.5,
+    "epsCur": "USD",
+    "rev": 291483320,
+    "revAnalysts": 8,
+    "revYearAgo": 270389000,
+    "revGrowth": 7.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.4,
+    "epsLow": 1.33,
+    "epsHigh": 1.48,
+    "epsYearAgo": 1.24,
+    "epsAnalysts": 10,
+    "epsGrowth": 13.1,
+    "epsCur": "USD",
+    "rev": 303661450,
+    "revAnalysts": 8,
+    "revYearAgo": 282215000,
+    "revGrowth": 7.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.57,
+    "epsLow": 5.56,
+    "epsHigh": 5.65,
+    "epsYearAgo": 5.06,
+    "epsAnalysts": 10,
+    "epsGrowth": 10.1,
+    "epsCur": "USD",
+    "rev": 1177704730,
+    "revAnalysts": 9,
+    "revYearAgo": 1081392000,
+    "revGrowth": 8.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 6.18,
+    "epsLow": 5.91,
+    "epsHigh": 6.49,
+    "epsYearAgo": 5.57,
+    "epsAnalysts": 11,
+    "epsGrowth": 10.9,
+    "epsCur": "USD",
+    "rev": 1272272080,
+    "revAnalysts": 10,
+    "revYearAgo": 1177704730,
+    "revGrowth": 8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.4,
+    "d7": -0.1,
+    "d30": 0,
+    "d90": 0.2,
+    "ago90": 1.4,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.4,
+    "d7": 0.1,
+    "d30": -0.3,
+    "d90": -0.4,
+    "ago90": 1.41,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.57,
+    "d7": 1.4,
+    "d30": 1.4,
+    "d90": 1.7,
+    "ago90": 5.48,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 6.18,
+    "d7": 0.9,
+    "d30": 0.6,
+    "d90": 1,
+    "ago90": 6.12,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.55,
+    "estimate": 1.46,
+    "surprisePct": 5.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.39,
+    "estimate": 1.32,
+    "surprisePct": 5.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.24,
+    "estimate": 1.11,
+    "surprisePct": 11.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.21,
+    "estimate": 1.13,
+    "surprisePct": 6.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 10,
+   "ptLowered": 0,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-11-02",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 275,
+     "ptPrior": 239
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 280,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 230,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Truist Securities",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 305,
+     "ptPrior": 240
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 300,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 260,
+     "ptPrior": 203
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Morgan Stanley",
+     "action": "up",
+     "from": "Equal-Weight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 180
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "DA Davidson",
+     "action": "down",
+     "from": "Buy",
+     "to": "Neutral",
+     "ptAction": "Maintains",
+     "pt": 210,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 239,
+     "ptPrior": 201
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-27",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-03",
+  "numbers": {
+   "price": 255.14,
+   "ma20": 230.29,
+   "ma50": 218.2,
+   "ma150": 174.61,
+   "distMA50": 16.93,
+   "periodHigh": 312.6,
+   "pullbackFromHigh": -18.38,
+   "volRatio20": 1.26,
+   "dryUpRatio": 1.58
+  },
+  "last10": [
+   {
+    "d": "2026-10-21",
+    "o": 230.64,
+    "h": 236.62,
+    "l": 229.75,
+    "c": 235.83,
+    "v": 596300,
+    "clsPos": 89,
+    "gapPct": -0.95
+   },
+   {
+    "d": "2026-10-22",
+    "o": 237.13,
+    "h": 242.49,
+    "l": 237.13,
+    "c": 242.17,
+    "v": 630700,
+    "clsPos": 94,
+    "gapPct": 0.55
+   },
+   {
+    "d": "2026-10-23",
+    "o": 241.05,
+    "h": 242.63,
+    "l": 237.07,
+    "c": 238.19,
+    "v": 928300,
+    "clsPos": 20,
+    "gapPct": -0.46
+   },
+   {
+    "d": "2026-10-26",
+    "o": 237.81,
+    "h": 241.32,
+    "l": 233.97,
+    "c": 236.4,
+    "v": 1251000,
+    "clsPos": 33,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-10-27",
+    "o": 234.17,
+    "h": 237.19,
+    "l": 231.73,
+    "c": 233.98,
+    "v": 864900,
+    "clsPos": 41,
+    "gapPct": -0.94
+   },
+   {
+    "d": "2026-10-28",
+    "o": 250.5,
+    "h": 254,
+    "l": 237.28,
+    "c": 239.73,
+    "v": 1731400,
+    "clsPos": 15,
+    "gapPct": 7.06
+   },
+   {
+    "d": "2026-10-29",
+    "o": 235.3,
+    "h": 243.43,
+    "l": 232.98,
+    "c": 240.84,
+    "v": 2234900,
+    "clsPos": 75,
+    "gapPct": -1.85
+   },
+   {
+    "d": "2026-10-30",
+    "o": 244.45,
+    "h": 250.79,
+    "l": 243.02,
+    "c": 248.39,
+    "v": 1074900,
+    "clsPos": 69,
+    "gapPct": 1.5
+   },
+   {
+    "d": "2026-11-02",
+    "o": 249.42,
+    "h": 259.76,
+    "l": 248.37,
+    "c": 253.22,
+    "v": 747200,
+    "clsPos": 43,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-11-03",
+    "o": 248.93,
+    "h": 258.83,
+    "l": 246.46,
+    "c": 255.14,
+    "v": 1097312,
+    "clsPos": 70,
+    "gapPct": -1.69
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MANH-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MANH-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 11일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

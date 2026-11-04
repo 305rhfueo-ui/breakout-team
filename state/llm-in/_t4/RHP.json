@@ -1,0 +1,238 @@
+{
+ "ticker": "RHP",
+ "news": [
+  {
+   "title": "Ryman Hospitality (RHP) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/ryman-hospitality-rhp-q3-2026-earnings-call-transcript",
+   "date": "2026-11-03",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Ryman Hospitality Properties (RHP) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/ryman-hospitality-properties-rhp-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ryman Hospitality Properties (RHP) Q3 FFO and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/ryman-hospitality-properties-rhp-q3-ffo-and-revenues-top-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ryman Hospitality Properties (RHP) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/ryman-hospitality-properties-rhp-could-be-great-choice-0",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Growth Investors Will Love Ryman Hospitality Properties (RHP)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-ryman-hospitality-properties-rhp",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "RHP or PSA: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/rhp-or-psa-which-better-value-stock-right-now-0",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Ryman Hospitality Properties (RHP) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-ryman-hospitality-properties-rhp-great-dividend-stock-right-now-0",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ryman Hospitality (RHP) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-rhp-q3-2026-204102758.html",
+   "date": "2026-11-03",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ryman Hospitality Properties: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/real-estate/articles/ryman-hospitality-properties-q3-earnings-042718514.html",
+   "date": "2026-11-03",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ryman Hospitality Properties (RHP) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-properties-rhp-reports-223001316.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ryman Hospitality Properties (RHP) Q3 FFO and Revenues Top Estimates",
+   "url": "https://finance.yahoo.com/real-estate/articles/ryman-hospitality-properties-rhp-q3-215505204.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ryman Hospitality Properties Q3 Adjusted FFO, Revenue Rise; 2026 Guidance Raised",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-properties-q3-adjusted-215502390.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Host Hotels Paid More Than Twice Its Regular Dividend Rate. Here’s Why",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/host-hotels-paid-more-twice-171718347.html",
+   "date": "2026-10-30",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Does Ryman Hospitality Properties (RHP) Have More Cash Flow Upside?",
+   "url": "https://finance.yahoo.com/news/does-ryman-hospitality-properties-rhp-070748675.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gaylord National Resort Announces Activation of Major Rooftop Solar Installation",
+   "url": "https://finance.yahoo.com/energy/articles/gaylord-national-resort-announces-activation-140000843.html",
+   "date": "2026-10-21",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926121676/tmb-20261102x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926107949/tm2625282d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "2.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926104349/tm2624390d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-25",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926100822/tm2623756d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-10",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926094901/tm2622522d6_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "1.01",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926092958/tm2622522d4_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.39,
+  "saleNy": 12.17,
+  "epsCy": -1.29,
+  "epsNy": 13.03,
+  "cyTrend": -0.47,
+  "nyTrend": 0.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.56,
+    13.16,
+    13.92
+   ],
+   "ni": [
+    29.26,
+    11.93,
+    7.36
+   ],
+   "opm": [
+    23.3,
+    20.73,
+    19.36
+   ],
+   "updated": "2026-09-08 07:09:18"
+  }
+ }
+}

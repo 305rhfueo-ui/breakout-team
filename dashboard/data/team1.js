@@ -515,8 +515,336 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-04",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "AMD, 데이터센터 매출 2배에 주가 8% 급등",
+        "easy": "AMD 3분기 매출이 1년 전보다 45% 늘고, 데이터센터 매출은 거의 두 배가 됐다. AI 서버용 칩 주문이 몰린 덕이다. 4분기 매출 전망도 시장 예상보다 높게 내놨고, 발표 뒤 주가는 8% 올랐다. CEO 는 2027년에도 서버 매출이 두 배가 될 것으로 본다고 말했다.",
+        "whyMatters": "반도체와 AI 서버 부품 업종에 좋은 소식으로, AMD·Super Micro 처럼 데이터센터에 납품하는 회사의 수요가 아직 꺾이지 않았음을 보여준다. 다만 지수 전체는 약해서 AI 관련주만 따로 오르는 쏠림이 될 수 있다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+            "date": "2026-11-03",
+            "quote": "Advanced Micro Devices reported third-quarter earnings on Tuesday that beat Wall Street's expectations, with revenue jumping 45% and data center sales nearly doubling from a year earlier.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Here's why AMD's stock is rising — and sending a confident message about the AI trade",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+            "date": "2026-11-04",
+            "quote": "Here&#x2019;s why AMD&#x2019;s stock is rising &#x2014; and sending a confident message about the AI trade",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Super Micro, AI 서버 수요 확인에 주가 상승",
+        "easy": "Super Micro 주가가 실적 발표 뒤 올랐다. AI 서버 주문이 몰리고 있다는 내용이 실적에 담긴 덕이다. AMD 와 같은 방향의 소식이어서, AI 데이터센터 투자가 아직 줄지 않았다는 쪽에 무게가 실린다.",
+        "whyMatters": "서버·컴퓨터 하드웨어 업종에 좋은 신호이며, 칩을 만드는 AMD 와 서버를 조립하는 Super Micro 가 같이 확인됐다는 점이 핵심이다. 반대로 AI 투자 속도가 느려진다는 말이 나오면 이 두 종목이 가장 먼저 흔들린다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Super Micro's stock pops as earnings show booming demand for AI servers",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+            "date": "2026-11-04",
+            "quote": "Super Micro&#x2019;s stock pops as earnings show booming demand for AI servers",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "중간선거 결과가 업종 희비를 가른다",
+        "easy": "화요일 중간선거에서 민주당이 의회를 가져가면 시장이 흔들릴 수 있다. 민주당이 생활비 부담과 맞닿은 업종을 먼저 겨냥할 것으로 보기 때문이다. 분석가들은 방위산업에는 부담, 헬스케어에는 보탬이 될 것으로 본다. 다만 1980년 이후 11번의 중간선거 뒤 1년 수익률은 모두 플러스였고 평균 13.7%였다.",
+        "whyMatters": "방위산업에는 불리하고 헬스케어에는 유리하다는 쪽이 많은데, 지금 주도 업종 1위가 헬스케어(30%)라는 점과 방향이 같다. AI 관련주는 규제 얘기가 커지면 추가 압력을 받을 수 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+            "date": "2026-11-04",
+            "quote": "A blue wave might pressure defense shares, while boosting healthcare stocks, analysts and investors said.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Stock market after midterm elections: What S&P 500 history shows",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+            "date": "2026-11-03",
+            "quote": "The S&P 500 averaged a 13.7% one-year gain after 11 midterm elections since 1980.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Apple, 실적 발표 뒤 주가 하락",
+        "easy": "Apple 주가가 실적 발표 뒤 떨어졌다. 애널리스트들의 평가는 한쪽으로 모이지 않고 엇갈리고 있다. 떨어진 구체적인 이유는 기사에 안 나왔다. 시가총액이 가장 큰 종목이라 지수를 함께 끌어내리는 무게가 있다.",
+        "whyMatters": "기술 업종 가운데 AI 수요로 오르는 반도체와, 소비자 기기를 파는 Apple 의 방향이 갈리고 있다는 점이 중요하다. Apple 협력사(부품·조립)에도 같은 방향의 부담이 될 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "What analysts are telling us while Apple's stock falls after earnings report",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+            "date": "2026-11-03",
+            "quote": "What analysts are telling us while Apple&#x2019;s stock falls after earnings report",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "S&P500, 기술적 분기점 앞에 섰다",
+        "easy": "S&P500 이 중요한 기술적 지점의 끝자리에 와 있다는 지적이 나왔다. 최근 하락으로 지수가 지지선 가까이 내려온 탓이다. 여기서 더 밀리면 어디까지 내려가는지가 논점이 됐다.",
+        "whyMatters": "지수가 밀리면 업종을 가리지 않고 같이 떨어지기 때문에, 실적이 좋은 AMD·Super Micro 도 혼자 버티기 어렵다. 지수가 지지선 위에서 버티는지를 먼저 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories",
+            "date": "2026-11-03",
+            "quote": "S&P 500 is looking over the edge of a technical cliff &#x2014; what happens if it falls off?",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Shopify, 실적 발표 뒤 주가 하락",
+        "easy": "Shopify 주가가 실적 발표 뒤 떨어졌다. 월가가 걱정하는 부분이 실적 안에 있다는 지적이 따라붙었다. 어느 항목이 문제였는지는 기사에 안 나왔다.",
+        "whyMatters": "온라인 쇼핑 플랫폼과 소비 관련 업종에는 부담이며, 소비자 지출이 예전 같지 않다는 쪽 근거로 쓰인다. 같은 소비 경기를 보는 종목들의 실적 발표를 함께 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Shopify's stock slides after earnings. This is what's worrying Wall Street.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+            "date": "2026-11-03",
+            "quote": "Shopify&#x2019;s stock slides after earnings. This is what&#x2019;s worrying Wall Street.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 자리가 아니다. QQQ 는 10일선이 20일선 아래로 내려간 지 11일째이고, 종가 685.28 은 50일선보다 아래에 있어 돌파 매수가 가장 잘 깨지는 구간이다. 여기에 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘었다. 오늘 뉴스는 AI 반도체·서버 실적은 좋은데 Apple·Shopify 같은 큰 종목은 실적 뒤 떨어졌다는 것으로, 돈이 전체로 퍼지지 않고 몇 종목에만 몰려 있다는 뜻이다. 이번 주는 중간선거 결과와 S&P500 이 지지선 위에서 버티는지, 그리고 10일선이 20일선 위로 돌아오는지를 보면 된다.",
+    "keyRisks": [
+      "지수 추세가 꺾였다: 10일선이 20일선 아래에 있고 종가가 50일선 아래라, 돌파가 나와도 되돌려지는 날이 많다.",
+      "빚으로 산 주식이 많다: 신용 규모가 주의선을 넘어, 하락이 시작되면 강제 매도가 겹쳐 낙폭이 커진다.",
+      "선거 불확실성: 의회 구성에 따라 방위산업·헬스케어·AI 관련주의 방향이 하루 만에 바뀔 수 있다.",
+      "좋은 실적이 주가로 안 이어진다: AMD·Super Micro 는 올랐지만 Apple·Shopify 는 실적 뒤 떨어졌다."
+    ],
+    "easySummary": [
+      "AI 반도체·서버는 실적이 좋았지만, 지수 자체는 추세가 아래로 꺾여 있다.",
+      "빚내서 산 주식이 주의선을 넘어, 떨어질 때 낙폭이 커질 소지가 있다.",
+      "새로 사기보다 중간선거 결과와 지수의 추세 회복을 먼저 확인할 때다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 214,
+      "ok": 357,
+      "unverified": 6,
+      "dead": 0,
+      "stripped": 12,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1301787/000162828026069495/bxc-20261103.htm"
+        }
+      ],
+      "numberCut": 28,
+      "numberCuts": [
+        {
+          "sentence": "이사회가 40억 달러 규모 자사주 매입과 배당 인상을 발표했다.",
+          "missing": [
+            "40억 달러"
+          ]
+        },
+        {
+          "sentence": "키움증권이 실적 발표 후 주당순이익 전망을 50% 올렸고, CommScope 인수 효과로 마진이 더 오를 여지가 있다고 봤다.",
+          "missing": [
+            "50"
+          ]
+        },
+        {
+          "sentence": "최근 한 달 주가는 5% 내렸고, 10월 6일 기록한 고점(89.93달러)에는 못 미친다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "분기 매출 11.2억 달러(1년 전보다 41.2% 증가), 영업이익 3.3억 달러로 이익률이 직전 분기 15.8%에서 29.5%로 높아졌다.",
+          "missing": [
+            "15.8"
+          ]
+        },
+        {
+          "sentence": "순이익은 1년 전보다 1.4% 줄었다.",
+          "missing": [
+            "1.4"
+          ]
+        },
+        {
+          "sentence": "회사가 올해 발전 부문 마진 전망을 19~21%로 올렸고, 3분기 이익은 증권사 예상치를 웃돌았다.",
+          "missing": [
+            "19"
+          ]
+        },
+        {
+          "sentence": "매출은 28% 늘었지만 순이익은 6.7% 증가에 그쳤다.",
+          "missing": [
+            "6.7"
+          ]
+        },
+        {
+          "sentence": "직전 분기 증가율 62%에서 크게 빨라졌다.",
+          "missing": [
+            "62"
+          ]
+        },
+        {
+          "sentence": "반등에도 6개월 기준 약 48% 내린 상태다.",
+          "missing": [
+            "48"
+          ]
+        },
+        {
+          "sentence": "현재가(253.22달러)보다 높은 수준이다.",
+          "missing": [
+            "253.22"
+          ]
+        },
+        {
+          "sentence": "매출은 늘었지만 영업이익은 1년 전보다 10.2% 줄었고, 영업이익률도 27.5%에서 22.2%로 낮아졌다.",
+          "missing": [
+            "27.5"
+          ]
+        },
+        {
+          "sentence": "비트코인이 분기 중 39% 올라 보유 자산 평가이익이 커진 영향이다.",
+          "missing": [
+            "39"
+          ]
+        },
+        {
+          "sentence": "직전 거래일 대비 약 7% 올라 245.51달러가 됐다.",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "한 증권사는 목표가를 665달러에서 385달러로 낮췄다.",
+          "missing": [
+            "665",
+            "385"
+          ]
+        },
+        {
+          "sentence": "3분기 주당순이익이 증권사 예상에 못 미쳤고, 직전 분기에는 영업적자(-7,200만 달러)였다.",
+          "missing": [
+            "7,200만 달러"
+          ]
+        },
+        {
+          "sentence": "2분기 매출이 5.82억 달러로 1년 전보다 454% 늘었고, 연간 목표(매출 32억 달러, 연환산 매출 80억 달러)를 유지했다.",
+          "missing": [
+            "32억 달러",
+            "80억 달러"
+          ]
+        },
+        {
+          "sentence": "짧은 계약으로 바꾸면서 설비 1MW당 연 계약 가치가 크게 올랐다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "이 발표 당일 주가가 20% 넘게 올랐다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "순이익은 60만 달러 적자다.",
+          "missing": [
+            "60만 달러"
+          ]
+        },
+        {
+          "sentence": "3분기 매출 102.3억 달러, 1년 전보다 65.1% 증가.",
+          "missing": [
+            "102.3억 달러",
+            "65.1"
+          ]
+        },
+        {
+          "sentence": "영업이익 30.2억 달러로 77.5% 증가했다.",
+          "missing": [
+            "30.2억 달러",
+            "77.5"
+          ]
+        },
+        {
+          "sentence": "일회성 관세 환입을 빼면 영업이익률은 직전 분기보다 0.7%p 개선됐다.",
+          "missing": [
+            "0.7"
+          ]
+        },
+        {
+          "sentence": "3분기 IT Datacom 부문이 전분기보다 30% 성장했고 이 중 약 4분의 3이 AI 관련 매출이다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "IT Datacom 이 전체 매출의 48%를 차지하고 통신 솔루션 부문 매출은 1년 전보다 98.9% 늘었다.",
+          "missing": [
+            "48"
+          ]
+        },
+        {
+          "sentence": "2026년 3분기 매출 89.47억 달러, 전년 동기 대비 28% 증가",
+          "missing": [
+            "89.47억 달러"
+          ]
+        },
+        {
+          "sentence": "4개 분기 증가율이 계속 올랐다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "3분기 실적 발표 — 주당순이익 5.89달러로 예상치 7.46달러를 21% 밑돌았다.",
+          "missing": [
+            "5.89",
+            "7.46",
+            "21"
+          ]
+        },
+        {
+          "sentence": "회사는 2026년 연간 매출 가이던스를 39~42억 달러에서 44~46억 달러로 올렸다.",
+          "missing": [
+            "42억 달러"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-04"
   }
 };

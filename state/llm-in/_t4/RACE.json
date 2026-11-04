@@ -1,0 +1,124 @@
+{
+ "ticker": "RACE",
+ "news": [
+  {
+   "title": "Ferrari (RACE) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/ferrari-race-q3-2026-earnings-call-transcript",
+   "date": "2026-11-03",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Ferrari (RACE) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/ferrari-race-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ferrari (RACE) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/ferrari-race-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MGA or RACE: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/mga-or-race-which-better-value-stock-right-now",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ferrari: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-3-key-takeaways-long-003644807.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ferrari N.V. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-n-v-q3-2026-225135866.html",
+   "date": "2026-11-03",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ferrari (RACE) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-race-q3-2026-earnings-211753919.html",
+   "date": "2026-11-03",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ferrari’s controversial Luce EV is sold out for 2027",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-controversial-luce-ev-sold-185133138.html",
+   "date": "2026-11-03",
+   "publisher": "TechCrunch",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ferrari earnings analysis: questions answered and next catalysts",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-earnings-analysis-questions-answered-182958442.html",
+   "date": "2026-11-03",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ferrari Finds More Growth Without Selling More Cars",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-finds-more-growth-without-180212556.html",
+   "date": "2026-11-03",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ferrari (BIT:RACE) Stock Could Be Overvalued Following Raised 2026 Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-bit-race-stock-could-171453446.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Will Earnings Beat Change Ferrari Stock Narrative (BIT:RACE)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-change-ferrari-stock-161607778.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Ferrari (BIT:RACE) Fully Valued As Q3 Earnings Beat And Guidance Lift Impress?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-bit-race-fully-valued-151244474.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.89,
+  "saleNy": 8.2,
+  "epsCy": 10.05,
+  "epsNy": 11.54,
+  "cyTrend": -0.52,
+  "nyTrend": -0.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.03,
+    14.65,
+    13.61
+   ],
+   "ni": [
+    11.59,
+    11.43,
+    8.69
+   ],
+   "opm": [
+    31.22,
+    29.65,
+    28.59
+   ],
+   "updated": "2026-09-08 09:54:16"
+  }
+ }
+}

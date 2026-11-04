@@ -1,0 +1,192 @@
+{
+ "ticker": "AVT",
+ "news": [
+  {
+   "title": "AVT vs. SNX: Which Technology Distributor Has an Edge in AI Space?",
+   "url": "https://www.nasdaq.com/articles/avt-vs-snx-which-technology-distributor-has-edge-ai-space",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can AVT's IP&E Business Sustain Growth Amid Rising Technology Demand?",
+   "url": "https://www.nasdaq.com/articles/can-avts-ipe-business-sustain-growth-amid-rising-technology-demand",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Embodied AI's Next Frontier: Integrating Intelligence with Real-World Systems",
+   "url": "https://finance.yahoo.com/technology/ai/articles/embodied-ais-next-frontier-integrating-020000161.html",
+   "date": "2026-11-04",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Data I/O Appoints Douglas Adams as SVP Global Services, Support and Quality, Reuniting the Leadership Team That Built the World's Largest Programming Services Business",
+   "url": "https://finance.yahoo.com/technology/articles/data-o-appoints-douglas-adams-140000917.html",
+   "date": "2026-11-03",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Wishbone Management LP Issues Letter to Avnet, Inc. Shareholders Announcing Its Intention to Vote Against Two Directors at 2026 Annual Meeting",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wishbone-management-lp-issues-letter-130000453.html",
+   "date": "2026-11-03",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Wesco International (WCC) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wesco-international-wcc-tops-q3-104506145.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "ETFs Are Net Sellers of Avnet (AVT) on Friday",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-avnet-avt-110347620.html",
+   "date": "2026-10-27",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Avnet to Report First Quarter Fiscal Year 2027 Earnings on November 4",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-report-first-quarter-fiscal-120000235.html",
+   "date": "2026-10-21",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-15",
+   "reportDate": "2026-10-13",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/8858/000000885826000116/avt-20261013x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-21",
+   "reportDate": "2026-08-19",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/8858/000110465926099682/tm2623221d4_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/8858/000000885826000066/avt-20260805x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-01",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/8858/000000885826000062/avt-20260701x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/8858/000000885826000040/avt-20260429x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/8858/000000885826000023/avt-20260128x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 34.12,
+  "saleNy": 5.84,
+  "epsCy": 101.19,
+  "epsNy": 9.23,
+  "cyTrend": 7.9,
+  "nyTrend": 12.79,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    47.66,
+    33.95,
+    11.58
+   ],
+   "ni": [
+    1978.81,
+    7.29,
+    -29.25
+   ],
+   "opm": [
+    2.78,
+    2.89,
+    2.31
+   ],
+   "updated": "2026-09-07 07:22:36"
+  }
+ }
+}

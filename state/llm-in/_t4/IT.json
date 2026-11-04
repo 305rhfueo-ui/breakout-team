@@ -1,0 +1,219 @@
+{
+ "ticker": "IT",
+ "news": [
+  {
+   "title": "Gartner (IT) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/gartner-it-q3-2026-earnings-call-transcript",
+   "date": "2026-11-03",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Gartner (IT) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/gartner-it-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Gartner (IT) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/gartner-it-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Gartner Inc (IT) (Q3 2026) Earnings Call Highlights: Accelerating Contract Value, Raised ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gartner-inc-q3-2026-earnings-230507055.html",
+   "date": "2026-11-03",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gartner Stock Crashed Despite Raised Guidance. Here's What Spooked Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gartner-stock-crashed-despite-raised-205058926.html",
+   "date": "2026-11-03",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gartner (IT) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gartner-q3-2026-earnings-call-203932218.html",
+   "date": "2026-11-03",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Top Midday Decliners",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-decliners-200258536.html",
+   "date": "2026-11-03",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gartner Stock Sinks. Weak Forecast Underscores Threat From Cheaper AI Services.",
+   "url": "https://finance.yahoo.com/m/eda8cb55-a7b4-3dee-b05f-bef36a372c23/gartner-stock-sinks.-weak.html",
+   "date": "2026-11-03",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Goldman Sachs Adjusts Gartner Price Target to $207 From $181",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-gartner-price-180423910.html",
+   "date": "2026-11-03",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gartner, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gartner-inc-q3-2026-earnings-175333213.html",
+   "date": "2026-11-03",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Global Relay Named a Leader in the 2026 Gartner® Magic Quadrant™ for Digital Communications Governance and Archiving Solutions",
+   "url": "https://finance.yahoo.com/technology/ai/articles/global-relay-named-leader-2026-171500358.html",
+   "date": "2026-11-03",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gartner Q3 Earnings Beat Estimates, Revenues Move Up 2% Y/Y",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gartner-q3-earnings-beat-estimates-151900783.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000305/it-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-08",
+   "reportDate": "2026-10-03",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/749251/000119312526417937/d158580d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000243/it-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000198/it-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000165/it-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-01-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000028/it-20260129.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.27,
+  "saleNy": 4.02,
+  "epsCy": 9.72,
+  "epsNy": 13.4,
+  "cyTrend": 0.02,
+  "nyTrend": 0.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -0.62,
+    -1.51,
+    2.18
+   ],
+   "ni": [
+    14.42,
+    5.41,
+    -39.25
+   ],
+   "opm": [
+    22.59,
+    20.92,
+    19.07
+   ],
+   "updated": "2026-09-08 07:56:54"
+  }
+ }
+}
