@@ -1,539 +1,52 @@
 window.MOVERS_DATA = {
-  "updated": "2026-11-03T15:33:33.147Z",
-  "basis": "11/03 10:30 ET 기준",
+  "updated": "2026-11-04T15:34:23.773Z",
+  "basis": "11/04 10:30 ET 기준",
   "exact": true,
   "amtMinK": 100000,
   "themes": [
     {
-      "name": "AI 자금 조달·낙폭 반등",
-      "why": "AI 인프라 구축 자금 조달 우려로 급락했던 네비우스와 오라클이 함께 올랐다. 다만 오늘 상승을 직접 설명한 기사는 없다.",
+      "name": "민주당 의회 장악 정책 기대",
+      "why": "중간선거에서 민주당이 상·하원을 모두 차지하자 정책 변화 기대가 나왔다. 퍼스트솔라는 재생에너지 지원 기대로 올랐고, 애플은 이것이 호재일 수 있다는 분석이 나왔다.",
       "members": [
         {
-          "ticker": "NBIS",
-          "n": 1
+          "ticker": "FSLR",
+          "n": 0
         },
         {
-          "ticker": "ORCL",
-          "n": 3
+          "ticker": "AAPL",
+          "n": 0
         }
       ]
     }
   ],
   "groups": [
     {
-      "industry": "Semiconductors",
-      "ko": "반도체",
+      "industry": "Internet Content & Information",
+      "ko": "인터넷 콘텐츠",
       "tickers": [
-        "LSCC",
-        "CBRS",
-        "MPWR"
+        "GOOGL",
+        "GOOG"
       ]
     },
     {
-      "industry": "Software - Infrastructure",
-      "ko": "인프라 소프트웨어",
+      "industry": "Software - Application",
+      "ko": "응용 소프트웨어",
       "tickers": [
-        "ORCL",
-        "CRWV"
+        "MSTR",
+        "UBER"
       ]
     }
   ],
   "items": [
     {
-      "ticker": "SNDK",
-      "nameKo": "샌디스크",
-      "nameEn": "SANDISK CORP",
-      "ratePct": 5.47,
-      "price": 1133.935,
-      "amountUsd": 2563281612,
-      "industry": "Computer Hardware",
-      "industryKo": "컴퓨터 하드웨어",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [
-          {
-            "n": 0,
-            "line": "샌디스크 주가가 10월 한 달간 24% 하락했다는 기사"
-          },
-          {
-            "n": 2,
-            "line": "키옥시아(Kioxia)의 경고로 일주일간 14% 하락했으나 웨드부시는 여전히 2,000달러를 제시"
-          }
-        ],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Why Sandisk Stock Dropped 24% in October",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-sandisk-stock-dropped-24-135631489.html",
-          "date": "2026-11-03",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Not Micron. Not Sandisk. This AI Memory Stock Is the One Wall Street Is Overlooking.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/not-micron-not-sandisk-ai-110900029.html",
-          "date": "2026-11-03",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Sandisk Lost 14% in a Week on Kioxia’s Warning. Wedbush Still Sees $2,000",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-lost-14-week-kioxia-091815302.html",
-          "date": "2026-11-03",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Seagate Just Dropped 30% in a Month. Is It Time to Sell, or Load Up?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-just-dropped-30-month-031723929.html",
-          "date": "2026-11-03",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Investing in Sandisk Corporation (SNDK)? Don't Miss Assessing Its International Revenue Trends",
-          "url": "https://www.nasdaq.com/articles/investing-sandisk-corporation-sndk-dont-miss-assessing-its-international-revenue-trends",
-          "date": "2026-11-02",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "ORCL",
-      "nameKo": "오라클",
-      "nameEn": "ORACLE CORP",
-      "ratePct": 5.35,
-      "price": 125.595,
-      "amountUsd": 1921404432,
-      "industry": "Software - Infrastructure",
-      "industryKo": "인프라 소프트웨어",
-      "story": {
-        "headline": "AI 투자 자금 조달 우려 속 전날 8.8% 급락한 뒤 반등",
-        "detail": "오라클은 월요일 AI 인프라 구축 자금 마련을 위해 보통주 100억 달러와 선순위채(우선 변제권이 있는 회사채) 100억 달러, 총 200억 달러 발행을 신고했고 주가는 8.8% 하락했다. 이 계획은 지난주 투자자 설명회에서 이미 예고된 내용이었고, 당시 회사는 2027~2030 회계연도 추가 자금 조달을 이 200억 달러로 제한하겠다고 밝혔다. 베어드 애널리스트는 시장 반응이 이해되지 않는다고 평가했다. 오늘 반등을 직접 설명한 기사는 없고, 전날 낙폭에 대한 되돌림일 가능성이 있다. 다만 올해 주가는 33% 하락한 상태이고 부채가 1,253억 4,000만 달러(8월 31일 기준)에 달해 신용 우려는 여전하다.",
-        "quote": "This seems to be exactly what they previewed,\" said Rob Oliver, senior research analyst at Baird.",
-        "quoteFrom": 3,
-        "others": [
-          {
-            "n": 2,
-            "line": "자금 조달 제한을 약속한 지 며칠 만에 한도를 채워 주가가 급락했다는 분석"
-          }
-        ],
-        "refs": [
-          3,
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "PLTR Stock Gets Price Target Hikes After ‘Another Top-Line Blowout,’ But Jefferies Sees Better AI Bets In MSFT, ORCL, SNOW Shares",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/pltr-stock-gets-price-target-143848219.html",
-          "date": "2026-11-03",
-          "publisher": "Stocktwits"
-        },
-        {
-          "title": "Deloitte Forms US Oracle Business Group to Power End-to-End Enterprise Transformation",
-          "url": "https://finance.yahoo.com/technology/ai/articles/deloitte-forms-us-oracle-business-140000187.html",
-          "date": "2026-11-03",
-          "publisher": "PR Newswire"
-        },
-        {
-          "title": "5 Days After Promising to Limit Fundraising, Oracle Hit the Limit",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-days-promising-limit-fundraising-121903191.html",
-          "date": "2026-11-03",
-          "publisher": "24/7 Wall St."
-        },
-        {
-          "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
-          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-          "date": "2026-11-02",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "BE",
-      "nameKo": "블룸 에너지",
-      "nameEn": "BLOOM ENERGY CORPORATION",
-      "ratePct": 11.54,
-      "price": 218.9,
-      "amountUsd": 755376837,
-      "industry": "Electrical Equipment & Parts",
-      "industryKo": "전기장비·부품",
-      "story": {
-        "headline": "바클레이즈, 수요 가속을 이유로 투자의견 '비중확대'로 상향",
-        "detail": "바클레이즈가 블룸 에너지 투자의견을 '중립(Equal Weight)'에서 '비중확대(Overweight)'로 올렸다. 수요가 예상보다 더 가파르게 변곡(증가세로 전환)하고 있다는 이유다. 목표주가는 316달러에서 289달러로 낮췄다. 시장 평균 목표가는 297.18달러다. 목표가를 내렸다는 점은 참고할 만하다.",
-        "quote": "Investing.com -- Barclays upgraded Bloom Energy to Overweight from Equal Weight, saying demand is inflecting more sharply than it expected.",
-        "quoteFrom": 0,
-        "others": [
-          {
-            "n": 3,
-            "line": "캘리포니아 리소시스 실적 호조와 블룸 에너지 파트너십 소식"
-          }
-        ],
-        "refs": [
-          0,
-          2
-        ]
-      },
-      "news": [
-        {
-          "title": "Barclays raises Bloom Energy to Overweight on stronger-than-expected demand",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-raises-bloom-energy-overweight-133911647.html",
-          "date": "2026-11-03",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "FCEL's Fuel Cells Offer Reliable Power for Utilities and IPPs",
-          "url": "https://finance.yahoo.com/energy/articles/fcels-fuel-cells-offer-reliable-123500635.html",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Barclays Upgrades Bloom Energy to Overweight From Equalweight, $289 Price Target",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-upgrades-bloom-energy-overweight-121437963.html",
-          "date": "2026-11-03",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "California Resources Stock Earnings Beat Meets Bloom Energy Partnership",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/california-resources-stock-earnings-beat-091211683.html",
-          "date": "2026-11-03",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "California Resources (CRC) Stock Still Looks Cheap Despite Market Caution",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/california-resources-crc-stock-still-070824728.html",
-          "date": "2026-11-03",
-          "publisher": "Simply Wall St."
-        }
-      ]
-    },
-    {
-      "ticker": "NBIS",
-      "nameKo": "네비우스 그룹",
-      "nameEn": "NEBIUS GROUP N V",
-      "ratePct": 7,
-      "price": 151.285,
-      "amountUsd": 614733436,
-      "industry": "Internet Content & Information",
-      "industryKo": "인터넷 콘텐츠",
-      "story": {
-        "headline": "AI 자금 조달 우려로 급락한 뒤 반발 매수 가능성",
-        "detail": "네비우스는 지난달 실적 악재 없이 35% 하락했고, AI 구축 자금 조달 우려가 다른 AI 주식으로 번지는 전염 우려가 배경으로 꼽힌다. 한 월가 애널리스트는 이 하락이 165% 상승 여지를 만들었다고 본다. 오늘 상승을 직접 설명한 기사는 없다. 낙폭 이후의 반등일 수 있으나 자금 조달 우려가 해소된 것은 아니다.",
-        "quote": "Concerns about funding the AI build-out have triggered a violent sell-off in Nebius and other AI stocks.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          0,
-          1
-        ]
-      },
-      "news": [
-        {
-          "title": "Nebius Lost 35% Last Month As Contagion Spikes: One Wall Street Pro Says 165% Gains Are Coming",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-lost-35-last-month-154507947.html",
-          "date": "2026-11-02",
-          "publisher": "24/7 Wall St."
-        },
-        {
-          "title": "Is Nebius Stock a Buy After Its 36% Pullback?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-buy-36-pullback-193500423.html",
-          "date": "2026-11-01",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Top Investor: CoreWeave Locked In Compute “Way, Way Under Market.” Rising GPU Prices Won’t Save It",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/top-investor-coreweave-locked-compute-114909818.html",
-          "date": "2026-11-01",
-          "publisher": "TIKR"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWV",
-      "nameKo": "코어위브",
-      "nameEn": "COREWEAVE INC",
-      "ratePct": 6.65,
-      "price": 53.4871,
-      "amountUsd": 467902316,
-      "industry": "Software - Infrastructure",
-      "industryKo": "인프라 소프트웨어",
-      "story": {
-        "headline": "3분기 실적 발표를 앞두고 어닝 서프라이즈 기대",
-        "detail": "코어위브가 곧 발표할 3분기 실적에서 시장 예상을 웃돌 가능성이 높다는 전망이 나왔다. 이 기사는 실적 상회에 필요한 두 가지 핵심 요소를 갖췄다고 평가했다. 오늘 상승을 직접 설명한 기사는 없고, 실적 기대감이 반영됐을 수 있다. 실적 발표 결과에 따라 방향이 달라질 수 있다.",
-        "quote": "CoreWeave (CRWV) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report.",
-        "quoteFrom": 0,
-        "others": [
-          {
-            "n": 3,
-            "line": "CNBC, 투자자들이 코어위브를 포기하고 있지만 세 배 상승 가능성을 본다는 칼럼"
-          }
-        ],
-        "refs": [
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "CoreWeave (CRWV) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-expected-beat-earnings-140004833.html",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "What Backblaze (BLZE) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/backblaze-blze-said-q3-earnings-001411932.html",
-          "date": "2026-11-03",
-          "publisher": "MarketBeat"
-        },
-        {
-          "title": "AI Debt Boom Has A Skeptic: Canada’s Biggest Pension Fund Gets Selective",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-debt-boom-skeptic-canada-215630702.html",
-          "date": "2026-11-02",
-          "publisher": "Benzinga Private Markets"
-        },
-        {
-          "title": "Investors are giving up on CoreWeave. I see a potential triple",
-          "url": "https://www.cnbc.com/2026/11/02/wall-street-sees-a-debt-disaster-in-coreweave-i-see-a-stock-that-could-triple.html",
-          "date": "2026-11-02",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "GEV",
-      "nameKo": "GE베르노바",
-      "nameEn": "GE VERNOVA INC",
-      "ratePct": 5.98,
-      "price": 913.83,
-      "amountUsd": 455151308,
-      "industry": "Specialty Industrial Machinery",
-      "industryKo": "산업기계",
-      "story": {
-        "headline": "HSBC, GE베르노바 투자의견 '매수'로 상향",
-        "detail": "HSBC가 GE베르노바를 '보유(Hold)'에서 '매수(Buy)'로 올렸고 목표주가는 1,100달러다. 아거스리서치는 목표가를 1,300달러에서 1,100달러로 낮췄다. 또 트렌치 그룹을 90억 달러에 인수한다는 소식도 전해졌다. 증권사 의견이 엇갈린다는 점은 유의할 대목이다.",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": [
-          5,
-          1,
-          4
-        ]
-      },
-      "news": [
-        {
-          "title": "GE Vernova Inc. (GEV) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://www.nasdaq.com/articles/ge-vernova-inc-gev-trending-stock-facts-know-betting-it",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "GE Vernova Is Paying $9 Billion for Trench Group. Here's Why the Grid Is Crucial to the Electricity Supercycle.",
-          "url": "https://finance.yahoo.com/energy/articles/ge-vernova-paying-9-billion-142000695.html",
-          "date": "2026-11-03",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Is Forum Energy Technologies (FET) Stock Outpacing Its Oils-Energy Peers This Year?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/forum-energy-technologies-fet-stock-134003444.html",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Is It Worth Investing in GE Vernova (GEV) Based on Wall Street's Bullish Views?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-ge-vernova-gev-133004471.html",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Argus Research Adjusts GE Vernova Price Target to $1,100 From $1,300",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/argus-research-adjusts-ge-vernova-130655646.html",
-          "date": "2026-11-03",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "HSBC Upgrades GE Vernova to Buy From Hold, $1,100 Price Target",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-upgrades-ge-vernova-buy-121336268.html",
-          "date": "2026-11-03",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Energy Transition Today - Australia's Wind Energy Surge Driven By Coal Phase-Out",
-          "url": "https://finance.yahoo.com/energy/articles/energy-transition-today-australias-wind-113658958.html",
-          "date": "2026-11-03",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "What Makes GE Vernova (GEV) a New Buy Stock",
-          "url": "https://www.nasdaq.com/articles/what-makes-ge-vernova-gev-new-buy-stock",
-          "date": "2026-11-02",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "LSCC",
-      "nameKo": "래티스 세미컨덕터",
-      "nameEn": "LATTICE SEMICONDUCTOR",
-      "ratePct": 12.42,
-      "price": 107.295,
-      "amountUsd": 289291461,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "3분기 실적 호조와 2027년 60% 성장 목표 제시",
-        "detail": "래티스 세미컨덕터가 3분기 실적에서 시장 예상을 웃돌았고, AI 인프라 수요와 AMI 인수 효과가 성장을 이끌고 있다. 경영진은 2027년 60% 성장을 목표로 제시했다. 도이체방크는 목표주가를 125달러에서 150달러로 올리고 매수 의견을 유지했다. 시장 평균 목표가는 162.69달러다. 다른 기사에서는 주가가 이미 충분히 반영됐다는 평가도 나왔다.",
-        "quote": "Lattice Semiconductor's Q3 earnings beat, surging AI infrastructure demand and AMI integration fuel growth momentum, with management targeting 60% growth in 2027.",
-        "quoteFrom": 1,
-        "others": [
-          {
-            "n": 7,
-            "line": "AI 수요 소식 이후 주가가 충분히 반영된 수준이라는 분석"
-          }
-        ],
-        "refs": [
-          1,
-          2
-        ]
-      },
-      "news": [
-        {
-          "title": "Lattice (LSCC) Q3 2026 Earnings Call Transcript",
-          "url": "https://www.nasdaq.com/articles/lattice-lscc-q3-2026-earnings-call-transcript",
-          "date": "2026-11-03",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "LSCC Q3 Earnings Call Highlights AI Demand and Strong 2027 Outlook",
-          "url": "https://finance.yahoo.com/technology/ai/articles/lscc-q3-earnings-call-highlights-140000970.html",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Deutsche Bank Raises Price Target on Lattice Semiconductor to $150 From $125, Keeps Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-raises-price-target-132946599.html",
-          "date": "2026-11-03",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Lattice Semiconductor: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-3-key-takeaways-124201208.html",
-          "date": "2026-11-03",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Should Earnings Beat Require Action From Lattice Semiconductor (LSCC) Investors?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-require-action-lattice-080929941.html",
-          "date": "2026-11-03",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Lattice Semiconductor Corp (LSCC) (Q3 2026) Earnings Call Highlights: Record Revenue of $291 ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-corp-lscc-q3-050522960.html",
-          "date": "2026-11-03",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Lattice: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-q3-earnings-snapshot-042936609.html",
-          "date": "2026-11-03",
-          "publisher": "Associated Press"
-        },
-        {
-          "title": "Lattice Semiconductor (LSCC) Stock Looks Fully Valued After Fresh AI Demand News",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lattice-semiconductor-lscc-stock-looks-032121246.html",
-          "date": "2026-11-03",
-          "publisher": "Simply Wall St."
-        }
-      ]
-    },
-    {
-      "ticker": "COIN",
-      "nameKo": "코인베이스 글로벌",
-      "nameEn": "COINBASE GLOBAL INC",
-      "ratePct": 5.62,
-      "price": 145.575,
-      "amountUsd": 266939858,
-      "industry": "Financial Data & Stock Exchanges",
-      "industryKo": "금융데이터·거래소",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [
-          {
-            "n": 3,
-            "line": "뉴저지 규제당국이 2023년 중지명령을 철회해 스테이킹 재개 가능"
-          },
-          {
-            "n": 0,
-            "line": "KBW가 목표가를 237달러에서 221달러로 낮췄지만 아웃퍼폼 유지"
-          }
-        ],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Coinbase Has Lost 57% in a Year. Keefe, Bruyette & Woods Still Sees $221",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coinbase-lost-57-keefe-bruyette-143755864.html",
-          "date": "2026-11-03",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Why Is Coinbase Global (COIN) Spending $200 Million On The 2026 Midterms?",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/why-coinbase-global-coin-spending-131200660.html",
-          "date": "2026-11-03",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Goldman Sachs names stock winners and losers after $6.3 bln Binance heist",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/goldman-sachs-names-stock-winners-123713018.html",
-          "date": "2026-11-03",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "Coinbase Says New Jersey Users Can Resume Staking as Regulator Rescinds 2023 Cease-and-Desist Order",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-says-jersey-users-resume-091520214.html",
-          "date": "2026-11-03",
-          "publisher": "Unchained"
-        },
-        {
-          "title": "Is an XRP Relief Rally Coming? Wallet and Sentiment Data Explained",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-relief-rally-coming-wallet-070000630.html",
-          "date": "2026-11-03",
-          "publisher": "BeInCrypto"
-        },
-        {
-          "title": "Morgan Stanley Turns Bearish on Coinbase, Cutting Price Target by More Than Half",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/morgan-stanley-turns-bearish-coinbase-013500116.html",
-          "date": "2026-11-03",
-          "publisher": "CryptoProwl"
-        },
-        {
-          "title": "Coinbase CEO Brian Armstrong Says Quantum Computing Is a Bigger Threat to Crypto Than AI: ‘When, Not If’",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-ceo-brian-armstrong-says-013006325.html",
-          "date": "2026-11-03",
-          "publisher": "Benzinga"
-        },
-        {
-          "title": "COIN Q3 deep dive: Diversification offsets crypto trading slump, margin pressure persists",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/coin-q3-deep-dive-diversification-234136633.html",
-          "date": "2026-11-02",
-          "publisher": "StockStory"
-        }
-      ]
-    },
-    {
-      "ticker": "IREN",
-      "nameKo": "IREN",
-      "nameEn": "IREN LIMITED",
-      "ratePct": 9.24,
-      "price": 24.0536,
-      "amountUsd": 244791852,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "AMZN",
+      "nameKo": "아마존닷컴",
+      "nameEn": "AMAZON COM INC",
+      "ratePct": 7.43,
+      "price": 269.31,
+      "amountUsd": 6056482966,
+      "industry": "Internet Retail",
+      "industryKo": "온라인 유통",
       "story": {
         "headline": "",
         "detail": "기사로는 이유를 찾지 못했다",
@@ -544,271 +57,115 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "PJT Partners (PJT) Q3 Earnings and Revenues Lag Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/pjt-partners-pjt-q3-earnings-120003155.html",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "COHR",
-      "nameKo": "코히어런트",
-      "nameEn": "COHERENT CORP",
-      "ratePct": 5.91,
-      "price": 211.76,
-      "amountUsd": 209934417,
-      "industry": "Scientific & Technical Instruments",
-      "industryKo": "과학·기술 측정기기",
-      "story": {
-        "headline": "마벨의 루멘텀 인수로 광통신 부품 가치 부각, 노스랜드 상향",
-        "detail": "마벨이 루멘텀을 1,150억 달러 규모 전액 주식 거래로 인수한다는 소식이 나왔고, 한 기사는 이를 희소한 AI 광학 부품의 가치를 보여준다고 평가했다. 노스랜드 증권은 코히어런트를 '아웃퍼폼'으로 올리고 목표가를 280달러로 제시했다. JP모건은 목표가를 465달러에서 385달러로 낮췄지만 광학 수요에 대한 낙관은 유지했다. 오늘 상승을 직접 설명한 기사는 없어 정황으로 보는 것이 맞다. 직접 설명한 기사는 없다.",
-        "quote": "Northland upgraded Coherent following a steep share-price pullback, while JPMorgan maintained its bullish outlook on optical demand ahead of the company's quarterly earnings.",
-        "quoteFrom": 3,
-        "others": [
-          {
-            "n": 1,
-            "line": "루멘텀이 마벨 인수 발표에 19% 하락"
-          }
-        ],
-        "refs": [
-          3,
-          5,
-          4
-        ]
-      },
-      "news": [
-        {
-          "title": "Is Booz Allen Hamilton (BAH) Outperforming Other Business Services Stocks This Year?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/booz-allen-hamilton-bah-outperforming-134003091.html",
-          "date": "2026-11-03",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Lumentum Sinks 19% on $115 Billion All-Stock Marvell Deal Billed as “Once in a Generation”",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-sinks-19-115-billion-011001822.html",
-          "date": "2026-11-03",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Cramer: “All the Copper in Data Centers Will Eventually Be Replaced” by Fiber. Lumentum Wins",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cramer-copper-data-centers-eventually-213631067.html",
-          "date": "2026-11-02",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cohr-stock-draws-upgrade-marvell-155006320.html",
-          "date": "2026-11-02",
-          "publisher": "Stocktwits"
-        },
-        {
-          "title": "JPMorgan Adjusts Coherent Price Target to $385 From $465",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-coherent-price-target-134430667.html",
-          "date": "2026-11-02",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Northland Securities Upgrades Coherent to Outperform, $280 Price Target",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/northland-securities-upgrades-coherent-outperform-133434638.html",
-          "date": "2026-11-02",
-          "publisher": "MT Newswires"
-        }
-      ]
-    },
-    {
-      "ticker": "APH",
-      "nameKo": "암페놀",
-      "nameEn": "AMPHENOL CORP",
-      "ratePct": 5.35,
-      "price": 84.11,
-      "amountUsd": 194386537,
-      "industry": "Electronic Components",
-      "industryKo": "전자부품",
-      "story": {
-        "headline": "3분기 매출 65% 급증, 4분기 가이던스도 기대 상회",
-        "detail": "암페놀의 2026년 3분기 매출은 전년 대비 65.1% 늘어난 102억 3,000만 달러로 시장 예상을 웃돌았다. 비GAAP(일부 항목을 제외한 조정 기준) 주당순이익은 0.80달러로 예상치보다 9.5% 높았다. 다음 분기 매출 가이던스(회사 전망) 중간값은 104억 달러로 예상보다 6.1% 높았다. AI 수요와 인수가 성장을 이끈 것으로 분석된다. 바클레이즈는 목표가를 100달러에서 111달러로 올렸다.",
-        "quote": "Electrical connector manufacturer Amphenol (NYSE:APH) reported Q3 2026 results topping the market's revenue expectations, with sales up 65.1% year on year to $10.23 billion.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          1,
-          3
-        ]
-      },
-      "news": [
-        {
-          "title": "Rep Com International Announces Nationwide Partnership with Charles Industries, an Amphenol Company",
-          "url": "https://finance.yahoo.com/technology/ai/articles/rep-com-international-announces-nationwide-150000845.html",
-          "date": "2026-11-03",
-          "publisher": "PR Newswire"
-        },
-        {
-          "title": "APH Q3 deep dive: AI demand and acquisitions drive exceptional growth and outlook",
-          "url": "https://finance.yahoo.com/technology/ai/articles/aph-q3-deep-dive-ai-063736934.html",
-          "date": "2026-11-03",
-          "publisher": "StockStory"
-        },
-        {
-          "title": "How Amphenol Corp. (APH) Powers the Infrastructure of a More Connected World?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amphenol-corp-aph-powers-infrastructure-150530254.html",
-          "date": "2026-11-02",
-          "publisher": "Insider Monkey"
-        },
-        {
-          "title": "Barclays Adjusts Price Target on Amphenol to $111 From $100",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-price-target-amphenol-112735255.html",
-          "date": "2026-11-02",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "5 insightful analyst questions from Amphenol’s Q3 earnings call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-amphenol-075529029.html",
-          "date": "2026-10-31",
-          "publisher": "StockStory"
-        }
-      ]
-    },
-    {
-      "ticker": "PARA",
-      "nameKo": "반자이 인터내셔널",
-      "nameEn": "PARABOLIC TECHNOLOGIES INC",
-      "ratePct": 242.6,
-      "price": 5.79,
-      "amountUsd": 191884722,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "CBRS",
-      "nameKo": "세레브라스 시스템스",
-      "nameEn": "CEREBRAS SYSTEMS INC",
-      "ratePct": 5.94,
-      "price": 102.085,
-      "amountUsd": 185450163,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [
-          {
-            "n": 1,
-            "line": "전날 세레브라스 주가가 급락한 이유를 다룬 기사"
-          },
-          {
-            "n": 3,
-            "line": "UBS가 목표가를 330달러에서 250달러로 낮추고 매수 유지"
-          }
-        ],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "3 Founder Led Stocks To Watch In November 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-founder-led-stocks-watch-151344711.html",
-          "date": "2026-11-03",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Why Cerebras Systems Stock Is Plummeting Today",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-cerebras-systems-stock-plummeting-184356904.html",
-          "date": "2026-11-02",
+          "title": "Amazon Stock Fell After Earnings. Should Investors Be Worried?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-fell-earnings-investors-152000250.html",
+          "date": "2026-11-04",
           "publisher": "Motley Fool"
         },
         {
-          "title": "Elite Insider Owned Growth Stocks To Own In November 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elite-insider-owned-growth-stocks-181137188.html",
-          "date": "2026-11-02",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "UBS Cuts Price Target on Cerebras Systems to $250 From $330, Keeps Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-cuts-price-target-cerebras-144851495.html",
-          "date": "2026-11-02",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Global AI Inference Chip Market Size, Share, Trends and Forecast 2027-2037 | Token Economics, Custom ASICs and Edge AI Create Strategic Growth Opportunities",
-          "url": "https://finance.yahoo.com/technology/ai/articles/global-ai-inference-chip-market-140700263.html",
-          "date": "2026-11-02",
+          "title": "New Book, \"Stop Paying for Bullsh*t,\" Debuts at #1 in 26 Categories",
+          "url": "https://finance.yahoo.com/small-business/articles/book-stop-paying-bullsh-t-150000491.html",
+          "date": "2026-11-04",
           "publisher": "GlobeNewswire"
         },
         {
-          "title": "CoreWeave And 2 Other Top Growth Stocks With Insider Buying",
-          "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-2-other-top-growth-051252381.html",
-          "date": "2026-10-31",
-          "publisher": "Simply Wall St."
+          "title": "Cosmos Health's Amazon UK Business Surpasses $2 Million in TTM Sales, Up 90%, with a 23% Net Profit Margin; Expects Sales to Grow Approximately 72% to $3.9 Million Over the Next Twelve Months",
+          "url": "https://finance.yahoo.com/healthcare/articles/cosmos-healths-amazon-uk-business-142700444.html",
+          "date": "2026-11-04",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "Attain enhances the power of purchase data across Amazon Ads DVA+ with direct audience integration",
+          "url": "https://finance.yahoo.com/media-advertising/articles/attain-enhances-power-purchase-data-142600522.html",
+          "date": "2026-11-04",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "November 18th Options Now Available For Amazon.com (AMZN)",
+          "url": "https://www.nasdaq.com/articles/november-18th-options-now-available-amazoncom-amzn",
+          "date": "2026-11-03",
+          "publisher": "BNK Invest"
+        },
+        {
+          "title": "Jim Cramer says lower oil prices are giving stocks a boost. Can it last?",
+          "url": "https://www.cnbc.com/2026/11/02/jim-cramer-oil-yields-non-tech-stocks.html",
+          "date": "2026-11-02",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "Monday's big analyst calls: Nvidia, SpaceX, Apple, Rivian, Amazon, CrowdStrike",
+          "url": "https://www.cnbc.com/2026/11/02/biggest-stocks-by-analyst-calls-on-wall-street.html",
+          "date": "2026-11-02",
+          "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "MPWR",
-      "nameKo": "모놀리식 파워 시스템",
-      "nameEn": "MONOLITHIC POWER SYSTEM INC",
-      "ratePct": 8.36,
-      "price": 1347.985,
-      "amountUsd": 183689916,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
+      "ticker": "AAPL",
+      "nameKo": "애플",
+      "nameEn": "APPLE INC",
+      "ratePct": 6.64,
+      "price": 353.93,
+      "amountUsd": 5874792402,
+      "industry": "Consumer Electronics",
+      "industryKo": "소비자 가전",
       "story": {
-        "headline": "3분기 매출 63% 증가와 4분기 가이던스 상회",
-        "detail": "모놀리식 파워 시스템의 3분기 매출은 전년 대비 63.1% 늘어난 12억 달러로 시장 예상을 웃돌았다. 비GAAP 주당순이익은 8.19달러로 예상보다 5.7% 높았다. 4분기 매출 가이던스(회사 전망) 중간값은 13억 5,000만 달러로 예상보다 10.2% 높았다. 실적은 10월 31일 기사로 나온 것이어서 오늘 상승을 직접 설명한 기사는 아니며, 실적 호조가 반영된 것으로 보인다. 직접 설명한 기사는 없다.",
-        "quote": "Power management chips maker Monolithic Power Systems (NASDAQ:MPWR) reported Q3 2026 results beating Wall Street's revenue expectations, with sales up 63.1% year on year to $1.20 billion.",
-        "quoteFrom": 1,
-        "others": [],
+        "headline": "민주당 의회 장악 기대감이 애플에 호재일 수 있다는 분석",
+        "detail": "미국 중간선거에서 민주당이 의회를 장악한 가운데, 이것이 애플 주가에 좋을 수 있다는 제목의 기사가 나왔다. 다만 구체적인 근거나 수치는 확인되지 않는다. 같은 날 애플이 연례 보고서에서 AI 에이전트(스스로 작업을 수행하는 AI)가 예기치 못하게 행동할 위험을 새 위험 요인으로 밝힌 기사도 있었으나 주가 상승 요인으로 보긴 어렵다. 상승을 직접 설명한 기사는 없다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 3,
+            "line": "애플이 연례 보고서에서 AI 에이전트가 의도치 않게 행동할 위험을 새 위험 요인으로 경고했다."
+          }
+        ],
         "refs": [
-          1,
-          3
+          0
         ]
       },
       "news": [
         {
-          "title": "Nvidia Stock And 2 US Growth Stocks Facing A Treasury Yield Reset",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-2-us-growth-031837097.html",
+          "title": "Why the Democrat blue wave could be a good thing for Apple stock",
+          "url": "https://finance.yahoo.com/markets/stocks/article/why-the-democrat-blue-wave-could-be-a-good-thing-for-apple-stock-100051134.html",
+          "date": "2026-11-04",
+          "publisher": "Yahoo Finance"
+        },
+        {
+          "title": "Equable Analysis: State and Local Pension Funds Have at Least $578 Billion Invested in AI Companies",
+          "url": "https://finance.yahoo.com/technology/ai/articles/equable-analysis-state-local-pension-140600715.html",
+          "date": "2026-11-04",
+          "publisher": "PR Newswire"
+        },
+        {
+          "title": "Interesting AAPL Put And Call Options For November 18th",
+          "url": "https://www.nasdaq.com/articles/interesting-aapl-put-and-call-options-november-18th",
           "date": "2026-11-03",
-          "publisher": "Simply Wall St."
+          "publisher": "BNK Invest"
         },
         {
-          "title": "MPWR Q3 deep dive: diversified end-market demand and design wins drive outlook upgrade",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mpwr-q3-deep-dive-diversified-223500949.html",
-          "date": "2026-10-31",
-          "publisher": "StockStory"
+          "title": "Apple warns of AI agents behaving in 'unintended or unpredictable' ways",
+          "url": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html",
+          "date": "2026-11-03",
+          "publisher": "CNBC"
         },
         {
-          "title": "Revenue Outlook Raised Could Be A Game Changer For Monolithic Power Systems Stock",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/revenue-outlook-raised-could-game-111044190.html",
-          "date": "2026-10-31",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Why Monolithic Power Systems (MPWR) Is Getting Attention Today",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-monolithic-power-systems-mpwr-001738831.html",
-          "date": "2026-10-31",
-          "publisher": "Simply Wall St."
+          "title": "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
+          "url": "https://www.cnbc.com/investingclub/2026/11/03/election-day-here-is-the-no-1-issue-were-watching-as-a-signal-for-stocks.html",
+          "date": "2026-11-03",
+          "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "AXTI",
-      "nameKo": "AXT",
-      "nameEn": "AXT INC",
-      "ratePct": 9.69,
-      "price": 52.8725,
-      "amountUsd": 177142226,
-      "industry": "Semiconductor Equipment & Materials",
-      "industryKo": "반도체 장비·소재",
+      "ticker": "MSFT",
+      "nameKo": "마이크로소프트",
+      "nameEn": "MICROSOFT CORP",
+      "ratePct": 6.04,
+      "price": 552.47,
+      "amountUsd": 5388164222,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
       "story": {
         "headline": "",
         "detail": "기사로는 이유를 찾지 못했다",
@@ -817,7 +174,703 @@ window.MOVERS_DATA = {
         "others": [],
         "refs": []
       },
-      "news": []
+      "news": [
+        {
+          "title": "AudioCodes Q3 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/audiocodes-q3-earnings-call-highlights-151425468.html",
+          "date": "2026-11-04",
+          "publisher": "MarketBeat"
+        },
+        {
+          "title": "If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2029",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-1-000-microsoft-today-150614446.html",
+          "date": "2026-11-04",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Virtual Machines - Global Strategic Business Report 2026: Secure Share of a Market Accelerating at 16.8% CAGR to $36.9 Billion by 2032, Led by AWS, Microsoft, Google Cloud, VMware, and Oracle",
+          "url": "https://finance.yahoo.com/technology/articles/virtual-machines-global-strategic-business-144700481.html",
+          "date": "2026-11-04",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "Brookfield plans for a $27 billion AI data center at UK power station",
+          "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+          "date": "2026-11-03",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "The AI trade has broken down. How we got here and what investors should expect next",
+          "url": "https://www.cnbc.com/investingclub/2026/11/01/cramer-the-ai-trade-has-broken-down-how-we-got-here-what-to-expect.html",
+          "date": "2026-11-01",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "nameKo": "알파벳 A",
+      "nameEn": "ALPHABET INC",
+      "ratePct": 5.31,
+      "price": 294.9,
+      "amountUsd": 3839321974,
+      "industry": "Internet Content & Information",
+      "industryKo": "인터넷 콘텐츠",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Brookfield plans for a $27 billion AI data center at UK power station",
+          "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+          "date": "2026-11-03",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "Why AI is boosting Meta's ad business while hurting Google search",
+          "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+          "date": "2026-11-01",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "nameKo": "알파벳 C",
+      "nameEn": "ALPHABET INC",
+      "ratePct": 5.26,
+      "price": 292.92,
+      "amountUsd": 2330583415,
+      "industry": "Internet Content & Information",
+      "industryKo": "인터넷 콘텐츠",
+      "story": {
+        "headline": "테라울프, 구글과 앤트로픽 임대 190억 달러 신용보증 계약",
+        "detail": "비트코인 채굴·데이터센터 업체 테라울프(WULF)가 알파벳 산하 구글과 앤트로픽 관련 임대 계약 190억 달러에 대한 신용지원(대금 지급을 뒷받침하는 보증) 계약을 맺었다고 밝혔다. 구글이 AI 인프라 수요의 핵심 주체로 부각된 것이 주가에 우호적이었을 수 있다. 알파벳 3분기 실적 콜에서는 AI 클라우드 수요 급증과 TPU(구글의 AI 칩) 판매 확대가 언급됐지만, 인프라 비용 증가가 현금흐름과 마진을 압박한다는 점도 함께 지적됐다. 상승을 직접 설명한 기사는 없다.",
+        "quote": "TeraWulf (WULF) said Wednesday it signed credit support agreements with Alphabet's (GOOG, GOOGL) Goo",
+        "quoteFrom": 2,
+        "others": [],
+        "refs": [
+          2,
+          3
+        ]
+      },
+      "news": [
+        {
+          "title": "The Ashton Real Estate Group, BHHS Florida Properties Group and ENRG Realty Join HouseCanary's Google Listings Program",
+          "url": "https://finance.yahoo.com/real-estate/articles/ashton-real-estate-group-bhhs-150000266.html",
+          "date": "2026-11-04",
+          "publisher": "PR Newswire"
+        },
+        {
+          "title": "If You Invest $1,000 in Marvell Today, Here’s What It Could Be Worth by 2030",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-1-000-marvell-today-143347767.html",
+          "date": "2026-11-04",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "TeraWulf Signs Credit Support Deals With Google for $19 Billion Anthropic Leases",
+          "url": "https://finance.yahoo.com/technology/ai/articles/terawulf-signs-credit-support-deals-140405898.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "GOOGL Q3 Earnings Call Highlights AI Growth and Spending Pressures",
+          "url": "https://finance.yahoo.com/technology/ai/articles/googl-q3-earnings-call-highlights-140000677.html",
+          "date": "2026-11-04",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Wall St set for higher open as Democrats win Congress; data center stocks slide",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html",
+          "date": "2026-11-04",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "TTD or GOOG: Which Is the Better Value Stock Right Now?",
+          "url": "https://www.nasdaq.com/articles/ttd-or-goog-which-better-value-stock-right-now",
+          "date": "2026-11-03",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Brookfield plans for a $27 billion AI data center at UK power station",
+          "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+          "date": "2026-11-03",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "Why AI is boosting Meta's ad business while hurting Google search",
+          "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+          "date": "2026-11-01",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "MRNA",
+      "nameKo": "모더나",
+      "nameEn": "MODERNA INC",
+      "ratePct": 6.49,
+      "price": 243.275,
+      "amountUsd": 829365102,
+      "industry": "Biotechnology",
+      "industryKo": "바이오테크",
+      "story": {
+        "headline": "mRNA-2808 임상 데이터, ASH 학회 구두 발표 선정",
+        "detail": "모더나가 다발골수종(혈액암) 대상 1/2상 임상의 mRNA-2808 초기 데이터가 미국혈액학회(ASH) 연례 학회에서 구두 발표로 선정됐다고 밝혔다. 학회는 2026년 12월 12~15일 뉴올리언스에서 열린다. 암 치료 쪽 파이프라인에 관심이 쏠린 것이 상승 배경일 수 있다. 다만 아직 초기 임상이라 실제 결과는 발표를 봐야 하며, 상승을 직접 설명한 기사는 없다.",
+        "quote": "today announced that initial clinical data from its ongoing Phase 1/2 study of mRNA-2808 have been selected for oral presentation at the 68th American Society of Hematology (ASH) Annual Meeting, taking place December 12-15, 2026, in New Orleans, Louisiana.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "Moderna Announces Oral Presentation of mRNA-2808 Clinical Data at 2026 American Society of Hematology Annual Meeting",
+          "url": "https://finance.yahoo.com/healthcare/articles/moderna-announces-oral-presentation-mrna-145000808.html",
+          "date": "2026-11-04",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "Caribou Biosciences, Inc. (CRBU) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/caribou-biosciences-inc-crbu-expected-140004563.html",
+          "date": "2026-11-04",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Could Investing in Moderna's Stock Double Your Money?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/could-investing-modernas-stock-double-102802847.html",
+          "date": "2026-11-03",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "What Is Moderna (MRNA) Answering As FDA Vaccine Betting Markets Grow?",
+          "url": "https://finance.yahoo.com/healthcare/articles/moderna-mrna-answering-fda-vaccine-190936296.html",
+          "date": "2026-11-02",
+          "publisher": "Simply Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "nameKo": "아리스타 네트웍스",
+      "nameEn": "ARISTA NETWORKS INC",
+      "ratePct": 9.91,
+      "price": 186.74,
+      "amountUsd": 788210866,
+      "industry": "Computer Hardware",
+      "industryKo": "컴퓨터 하드웨어",
+      "story": {
+        "headline": "3분기 사상 최대 실적, 2027년 전망 제시에 급등",
+        "detail": "아리스타가 2026년 3분기 사상 최대 실적을 내놨고 매출·이익 모두 월가 예상을 넘었으며 연간 가이던스(회사가 내놓은 실적 전망)도 올렸다. 주당순이익과 매출 서프라이즈는 각각 +11.11%, +10.41%였다. 2027년 매출 185억 달러, 이 중 AI 네트워크 70억 달러를 목표로 제시해 AI 수요 기대가 커졌다. 파이퍼샌들러는 목표가를 240달러에서 261달러로, 골드만삭스는 225달러에서 240달러로 올렸다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": [
+          3,
+          4,
+          7,
+          0,
+          6
+        ]
+      },
+      "news": [
+        {
+          "title": "Piper Sandler Adjusts Price Target on Arista Networks to $261 From $240",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-adjusts-price-target-151553431.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Arista Networks Insider Sold Shares Worth $45,859,344, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-insider-sold-shares-151053883.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Arista Says Its AI Business Will Double to $7 Billion",
+          "url": "https://finance.yahoo.com/technology/ai/articles/arista-says-ai-business-double-142942022.html",
+          "date": "2026-11-04",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Arista Networks Q3 Earnings Call Maps Out 2027 AI Expansion",
+          "url": "https://finance.yahoo.com/technology/ai/articles/arista-networks-q3-earnings-call-140000891.html",
+          "date": "2026-11-04",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Arista Networks Shares Surge 9.6% as Record Q3 Earnings and Strong AI Demand Lift 2027 Outlook",
+          "url": "https://finance.yahoo.com/technology/ai/articles/arista-networks-shares-surge-9-133920965.html",
+          "date": "2026-11-04",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-apos-demand-strength-132908679.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Goldman Sachs Adjusts Price Target on Arista Networks to $240 From $225",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-132052542.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Arista Networks (ANET) Q3 Earnings and Revenues Beat Estimates",
+          "url": "https://www.nasdaq.com/articles/arista-networks-anet-q3-earnings-and-revenues-beat-estimates",
+          "date": "2026-11-03",
+          "publisher": "Zacks"
+        }
+      ]
+    },
+    {
+      "ticker": "MSTR",
+      "nameKo": "스트래티지",
+      "nameEn": "STRATEGY INC",
+      "ratePct": 5.97,
+      "price": 143.73,
+      "amountUsd": 668728690,
+      "industry": "Software - Application",
+      "industryKo": "응용 소프트웨어",
+      "story": {
+        "headline": "3분기 비트코인 평가이익으로 순이익 급증",
+        "detail": "스트래티지가 3분기에 비트코인 공정가치 평가이익으로 순이익 약 191억 달러, 주당순이익 약 47.78달러를 기록했다. 최근 한 달간 주가가 부진했는데, 해당 기사는 실적 발표 후 주가가 3.7% 올라 135.63달러가 됐다고 전했다. 실적 콜에서는 우선주를 통한 비트코인 매입 가속 계획이 언급됐다. 다만 이익이 비트코인 평가 변동에 좌우되고 자금 조달 위험이 남아 있다는 점은 주의해야 한다.",
+        "quote": "the stock jumped 3.7% today to US$135.63.",
+        "quoteFrom": 0,
+        "others": [
+          {
+            "n": 1,
+            "line": "바이낸스 해킹 여파로 비트코인·이더리움 ETF에서 자금이 빠져나갔다."
+          }
+        ],
+        "refs": [
+          0,
+          4
+        ]
+      },
+      "news": [
+        {
+          "title": "Strategy (MSTR) Q3 Earnings Ride Bitcoin Windfall As Funding Risks Linger",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-q3-earnings-ride-061936805.html",
+          "date": "2026-11-04",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Morning Minute: Tom Lee Calls the Binance Hack Bullish for Ethereum",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/morning-minute-tom-lee-calls-131147196.html",
+          "date": "2026-11-03",
+          "publisher": "decrypt"
+        },
+        {
+          "title": "B. Riley Adjusts Strategy Price Target to $180 From $195, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-strategy-price-124401203.html",
+          "date": "2026-11-03",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Is Strategy (MSTR) Still Doubling Down On Bitcoin With A $65 Million Move?",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-still-doubling-down-100842528.html",
+          "date": "2026-11-03",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "MSTR Q3 Earnings Call Highlights Digital Credit Expansion",
+          "url": "https://www.nasdaq.com/articles/mstr-q3-earnings-call-highlights-digital-credit-expansion",
+          "date": "2026-11-02",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Here is What to Know Beyond Why Strategy Inc (MSTR) is a Trending Stock",
+          "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-strategy-inc-mstr-trending-stock",
+          "date": "2026-11-02",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Could XRP Hit $5 Before Bitcoin Reaches $200,000? ChatGPT Weighs In",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/could-xrp-hit-5-bitcoin-232337768.html",
+          "date": "2026-11-02",
+          "publisher": "24/7 Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "FSLR",
+      "nameKo": "퍼스트 솔라",
+      "nameEn": "FIRST SOLAR INC",
+      "ratePct": 8.91,
+      "price": 202.455,
+      "amountUsd": 507005222,
+      "industry": "Solar",
+      "industryKo": "태양광",
+      "story": {
+        "headline": "민주당 의회 장악에 재생에너지 지원 기대감",
+        "detail": "미국 중간선거에서 민주당이 상·하원을 모두 차지하면서 퍼스트솔라가 수요일 장 시작 전 거래에서 최대 9% 올랐다. 청정에너지에 대한 연방 지원이 되살아날 것이라는 기대가 반영됐다. 기사에 따르면 트럼프 관세가 이미 퍼스트솔라에 유리하게 작용하고 있기도 하다. 정책 기대에 따른 움직임이어서 실제 입법 여부에 따라 달라질 수 있다.",
+        "quote": "First Solar (NASDAQ:FSLR) shares surged 8. 1% in premarket trading on Wednesday after Democrats secured control of both chambers of the US Congress in the midterm elections, raising investor expectations for policies that could support domestic renewable energy manufacturing.",
+        "quoteFrom": 2,
+        "others": [],
+        "refs": [
+          0,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "First Solar Jumps 9% After Democratic Sweep, but Trump’s Tariffs Already Favor It",
+          "url": "https://finance.yahoo.com/energy/articles/first-solar-jumps-9-democratic-141525106.html",
+          "date": "2026-11-04",
+          "publisher": "Benzinga Prediction Markets"
+        },
+        {
+          "title": "Wall St loves gridlock: 5 AI-picked stocks primed for post-midterm rally",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-loves-gridlock-5-140737193.html",
+          "date": "2026-11-04",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "First Solar Shares Surge 8.1% as Democratic Midterm Victory Boosts Renewable Energy Stocks",
+          "url": "https://finance.yahoo.com/energy/articles/first-solar-shares-surge-8-134023936.html",
+          "date": "2026-11-04",
+          "publisher": "InvestorsHub"
+        }
+      ]
+    },
+    {
+      "ticker": "UBER",
+      "nameKo": "우버 테크놀로지스",
+      "nameEn": "UBER TECHNOLOGIES INC",
+      "ratePct": 7.04,
+      "price": 71.288,
+      "amountUsd": 474100559,
+      "industry": "Software - Application",
+      "industryKo": "응용 소프트웨어",
+      "story": {
+        "headline": "예약액 5분기 연속 20%대 성장, 4분기 전망도 견조",
+        "detail": "우버의 총예약액이 5분기 연속 20% 넘게 늘었고, 4분기 총예약액을 632억 5천만~652억 5천만 달러(환율 효과 제외 18~22% 증가)로 전망했다. 4분기 비GAAP 주당순이익 전망은 0.95~0.99달러다. 매출은 예상을 소폭 웃돌았지만 주당순이익은 예상을 크게 밑돌았다는 평가도 있어 이익 쪽은 주의가 필요하다. 사장 질 하젤베이커의 11월 30일 퇴임도 함께 발표됐다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 0,
+            "line": "질 하젤베이커 사장이 11월 30일 퇴임한다."
+          }
+        ],
+        "refs": [
+          1,
+          2,
+          3
+        ]
+      },
+      "news": [
+        {
+          "title": "Uber Technologies, Inc. Reports Third Quarter 2026 Results",
+          "url": "https://www.nasdaq.com/articles/uber-technologies-inc-reports-third-quarter-2026-results",
+          "date": "2026-11-04",
+          "publisher": "Fintel"
+        },
+        {
+          "title": "Uber Bookings Jump 20% as Profit Grows Faster: Rapid Earnings Reaction",
+          "url": "https://www.nasdaq.com/articles/uber-bookings-jump-20-profit-grows-faster-rapid-earnings-reaction",
+          "date": "2026-11-04",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "Uber Issues Q4 Outlook; Projects Gross Bookings Growth Of 18% To 22%",
+          "url": "https://www.nasdaq.com/articles/uber-issues-q4-outlook-projects-gross-bookings-growth-18-22",
+          "date": "2026-11-04",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "Uber Technologies (UBER) Lags Q3 Earnings Estimates",
+          "url": "https://www.nasdaq.com/articles/uber-technologies-uber-lags-q3-earnings-estimates",
+          "date": "2026-11-04",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Amended: Uber Technologies, Inc. Q3 Sales Increase",
+          "url": "https://www.nasdaq.com/articles/amended-uber-technologies-inc-q3-sales-increase",
+          "date": "2026-11-04",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "Uber Technologies, Inc. Q3 Sales Increase",
+          "url": "https://www.nasdaq.com/articles/uber-technologies-inc-q3-sales-increase",
+          "date": "2026-11-04",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "Uber Beats Wall Street, but Its Earnings Come With a Catch",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/uber-beats-wall-street-earnings-150934183.html",
+          "date": "2026-11-04",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "'FOOD TRUTH: HOW ULTRA-PROCESSED FOOD DESTROYED OUR HEALTH AND HOW TO MAKE FOOD A FORCE FOR GOOD' BY PETER CASTLEMAN TO BE RELEASED WORLDWIDE NOV. 10",
+          "url": "https://finance.yahoo.com/healthcare/articles/food-truth-ultra-processed-food-150000161.html",
+          "date": "2026-11-04",
+          "publisher": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "ticker": "BKNG",
+      "nameKo": "부킹 홀딩스",
+      "nameEn": "BOOKING HOLDINGS INC",
+      "ratePct": 9.06,
+      "price": 169.775,
+      "amountUsd": 457101531,
+      "industry": "Travel Services",
+      "industryKo": "여행 서비스",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Update: Booking Q3 Adjusted Earnings Rise, Revenue Falls",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/booking-q3-adjusted-earnings-rise-151411089.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "BofA Securities Adjusts Price Target on Booking Holdings to $219 From $232",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-144702496.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "KeyBanc Adjusts Booking Holdings Price Target to $197 From $240",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/keybanc-adjusts-booking-holdings-price-142908816.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "BNP Paribas Adjusts Price Target on Booking Holdings to $220 From $255",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-adjusts-price-target-140424989.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "BKNG Q3 Earnings Call Highlights Travel Slowdown and AI Push",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bkng-q3-earnings-call-highlights-140000807.html",
+          "date": "2026-11-04",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "From Payday to Showtime, OpenTable Reveals Americans Are Finding New Reasons to Dine Out in 2027",
+          "url": "https://finance.yahoo.com/media-advertising/articles/payday-showtime-opentable-reveals-americans-140000761.html",
+          "date": "2026-11-04",
+          "publisher": "PR Newswire"
+        },
+        {
+          "title": "OpenTable Reveals the Top 100 Restaurants in America for 2026",
+          "url": "https://finance.yahoo.com/media-advertising/articles/opentable-reveals-top-100-restaurants-140000585.html",
+          "date": "2026-11-04",
+          "publisher": "PR Newswire"
+        },
+        {
+          "title": "Booking Holdings Shares Little Changed as Revenue Miss and Weaker Q4 Outlook Offset Earnings Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/booking-holdings-shares-little-changed-134842502.html",
+          "date": "2026-11-04",
+          "publisher": "InvestorsHub"
+        }
+      ]
+    },
+    {
+      "ticker": "ISRG",
+      "nameKo": "인튜이티브 서지컬",
+      "nameEn": "INTUITIVE SURGICAL INC",
+      "ratePct": 7.64,
+      "price": 474.425,
+      "amountUsd": 409921703,
+      "industry": "Medical Instruments & Supplies",
+      "industryKo": "의료기구·소모품",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "HSBC Adjusts Price Target on Intuitive Surgical to $392 From $391",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-adjusts-price-target-intuitive-135303532.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Intuitive Surgical (ISRG) Stock May Be Near Fair Value On Cash Flow",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-stock-may-161645303.html",
+          "date": "2026-11-03",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Intuitive Appoints Aaron Martin to its Board of Directors",
+          "url": "https://finance.yahoo.com/healthcare/articles/intuitive-appoints-aaron-martin-board-211500601.html",
+          "date": "2026-11-02",
+          "publisher": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "ticker": "RIOT",
+      "nameKo": "라이엇 플랫폼스",
+      "nameEn": "RIOT PLATFORMS INC",
+      "ratePct": 14.59,
+      "price": 16.065,
+      "amountUsd": 388700290,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "AI 연구소와 15년 280억 달러 임대 계약",
+        "detail": "라이엇 플랫폼스가 코시카나 부지 전체를 프런티어 AI 연구소에 15년간 임대하는 280억 달러 규모 계약을 발표했고 주가는 13% 올랐다. 일반 데이터센터의 절반 비용으로 지을 수 있고 자금 조달을 위한 주식 매각은 예상하지 않는다고 한다. 3분기는 이익이 줄고 매출은 늘었다. 다만 연말까지 모건스탠리의 5억 7,300만 달러 브리지론(단기 대출)을 대체해야 한다는 부담이 있다.",
+        "quote": "Riot Platforms jumped 13% on a 15-year, $28 billion lease for its whole Corsicana campus with a frontier AI lab.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "Riot Platforms Soars 13% on $28 Billion Frontier AI Lab Lease That “Matters as Much as the Scale”",
+          "url": "https://finance.yahoo.com/technology/ai/articles/riot-platforms-soars-13-28-144628723.html",
+          "date": "2026-11-04",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "Riot Platforms Q3 Earnings Fall, Revenue Rises; Shares up",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/riot-platforms-q3-earnings-fall-131603007.html",
+          "date": "2026-11-04",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Why Riot Platforms Stock Is In Focus As $573 Million Loan Deadline Nears",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-riot-platforms-stock-focus-011156227.html",
+          "date": "2026-11-04",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "What's in the Offing for Riot Platforms Stock This Earnings Season?",
+          "url": "https://www.nasdaq.com/articles/whats-offing-riot-platforms-stock-earnings-season",
+          "date": "2026-11-02",
+          "publisher": "Zacks"
+        }
+      ]
+    },
+    {
+      "ticker": "CVNA",
+      "nameKo": "카바나",
+      "nameEn": "CARVANA CO",
+      "ratePct": 7.06,
+      "price": 76.31,
+      "amountUsd": 335816272,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Teamshares Establishes Investor Relations Function, Appoints Mike Levin as Senior Director of IR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/teamshares-establishes-investor-relations-function-163500019.html",
+          "date": "2026-11-03",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "3 quality compounders with promising prospects",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-quality-compounders-promising-prospects-111736875.html",
+          "date": "2026-11-03",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "CVNA Q3 deep dive: operational efficiency and platform expansion drive growth amid margin pressures",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cvna-q3-deep-dive-operational-044536607.html",
+          "date": "2026-11-03",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "Carvana (CVNA) Stock Fair Value Edges Lower After Analysts Trim Growth Assumptions",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/carvana-cvna-stock-fair-value-200807088.html",
+          "date": "2026-11-01",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Carvana (CVNA) Stock Looks Fully Priced On Current Cash Flow",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/carvana-cvna-stock-looks-fully-140701469.html",
+          "date": "2026-11-01",
+          "publisher": "Simply Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "APP",
+      "nameKo": "앱러빈",
+      "nameEn": "APPLOVIN CORP",
+      "ratePct": 9.1,
+      "price": 267.84,
+      "amountUsd": 333198852,
+      "industry": "Advertising Agencies",
+      "industryKo": "광고",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "AppLovin Fell 60% Even With Today’s Pop. Tomorrow We Learn if Earnings Fell With It",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-fell-60-even-today-192721624.html",
+          "date": "2026-11-03",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "Down 69% from its high: Is this 84% margin ad-tech stock a bargain?",
+          "url": "https://finance.yahoo.com/media-advertising/articles/down-69-high-84-margin-081407514.html",
+          "date": "2026-11-03",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "Has AppLovin (APP) Fallen Far Enough To Still Be A Bargain?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-app-fallen-far-enough-221143924.html",
+          "date": "2026-11-02",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "AppLovin Is the Worst-Performing Stock in the S&P 500 This Year. Has the Market Overreacted?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-worst-performing-stock-p-205901203.html",
+          "date": "2026-11-02",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-stock-portfolio-q3-earnings-171600582.html",
+          "date": "2026-11-02",
+          "publisher": "Zacks"
+        }
+      ]
     }
   ]
 };
