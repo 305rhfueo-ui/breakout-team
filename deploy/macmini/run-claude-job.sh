@@ -62,6 +62,8 @@ echo "=== $JOB 시작 $STARTED  ($CLAUDE, opus-5, 최대 ${MAX_MIN}분)" >> "$OU
 # -p: 비대화(헤드리스) 실행. 감시 프로세스가 MAX_MIN 뒤에 강제 종료한다.
 # --add-dir: 작업 폴더 밖이라 막히던 로그 폴더를 읽게 한다 (daily.log · daily.err.log — 07:10 스캔의 출력과 ⛔).
 TIMED_OUT=0
+# -p 는 백그라운드 작업(Workflow·Agent)을 600초만 기다리고 죽인다 → 4팀·실장이 통째로 빠졌다(2026-11-05 research, 10-17·10-30·11-04 ondemand). 끝은 위 MAX_MIN 감시가 정한다.
+export CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0
 "$CLAUDE" -p "$PROMPT" --model claude-opus-5 --add-dir "$LOGS" --allowedTools "${ALLOWED[@]}" > "$RUN" 2>&1 &
 PID=$!
 ( sleep $((MAX_MIN * 60)); kill "$PID" 2>/dev/null && touch "$RUN.timeout" ) &
