@@ -1,0 +1,127 @@
+{
+ "ticker": "WF",
+ "news": [
+  {
+   "title": "WF or HDB: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/wf-or-hdb-which-better-value-stock-right-now",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Woori Bank (WF) Could be Great Choice for a Bottom Fisher",
+   "url": "https://www.nasdaq.com/articles/heres-why-woori-bank-wf-could-be-great-choice-bottom-fisher",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "WF vs. HDB: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/wf-vs-hdb-which-stock-better-value-option",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "WF vs. HDB: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/wf-vs-hdb-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "WF or CM: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/wf-or-cm-which-better-value-stock-right-now",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Woori Financial (WF) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/woori-financial-wf-q2-2026-earnings-call-transcript",
+   "date": "2026-07-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "WF Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/wf-crosses-below-key-moving-average-level",
+   "date": "2026-06-22",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Woori Financial Group (WF) Shares Cross Below 200 DMA",
+   "url": "https://www.nasdaq.com/articles/woori-financial-group-wf-shares-cross-below-200-dma",
+   "date": "2026-05-19",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WF or HDB: Which Is the Better Value Stock Right Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wf-hdb-better-value-stock-144001275.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Here's Why Woori Bank (WF) Could be Great Choice for a Bottom Fisher",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-woori-bank-wf-125502655.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Woori Financial Group Doubters Missed",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/woori-financial-group-doubters-missed-042218762.html",
+   "date": "2026-10-26",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Woori Bank Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/woori-bank-q3-earnings-call-170439512.html",
+   "date": "2026-10-23",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Woori Financial Group Inc (WF) (Q3 2026) Earnings Call Highlights: Second Consecutive Quarter ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/woori-financial-group-inc-wf-150426118.html",
+   "date": "2026-10-23",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Woori Financial Group Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/woori-financial-group-inc-q3-123000020.html",
+   "date": "2026-10-23",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.08,
+  "saleNy": 5.13,
+  "epsCy": 6.32,
+  "epsNy": 18.28,
+  "cyTrend": -2.07,
+  "nyTrend": -1.79,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    37.39,
+    8.7,
+    17.82
+   ],
+   "ni": [
+    14.16,
+    4.7,
+    89.47
+   ],
+   "opm": [
+    17.56,
+    12.77,
+    7.43
+   ],
+   "updated": "2026-09-08 08:03:59"
+  }
+ }
+}

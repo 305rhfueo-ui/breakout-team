@@ -1,0 +1,357 @@
+{
+ "ticker": "AAPL",
+ "sector": "Technology",
+ "industry": "Consumer Electronics",
+ "nameKo": "애플",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.79,
+  "saleNy": 8.18,
+  "epsCy": 26.66,
+  "epsNy": 11.88,
+  "est": {
+   "cyCur": 8.84445,
+   "cy30": 8.8342,
+   "nyCur": 10.571,
+   "ny30": 10.82781
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    16.36,
+    16.6,
+    15.65
+   ],
+   "ni": [
+    27.12,
+    19.36,
+    15.87
+   ],
+   "opm": [
+    32.62,
+    32.28,
+    35.37
+   ],
+   "updated": "2026-09-08 09:23:11"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-05",
+  "nameKo": "애플",
+  "nameEn": "APPLE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-26",
+     "derived": true,
+     "revenue": 114477000000,
+     "profit": 35631000000,
+     "netIncome": 30711000000,
+     "margin": 31.1,
+     "yoy": {
+      "revenue": 11.7,
+      "profit": 9.9,
+      "netIncome": 11.8,
+      "priorEnd": "2025-09-27"
+     }
+    },
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 109417000000,
+     "profit": 35695000000,
+     "netIncome": 29789000000,
+     "margin": 32.6,
+     "yoy": {
+      "revenue": 16.4,
+      "profit": 26.6,
+      "netIncome": 27.1,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 111184000000,
+     "profit": 35885000000,
+     "netIncome": 29578000000,
+     "margin": 32.3,
+     "yoy": {
+      "revenue": 16.6,
+      "profit": 21.3,
+      "netIncome": 19.4,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": false,
+     "revenue": 143756000000,
+     "profit": 50852000000,
+     "netIncome": 42097000000,
+     "margin": 35.4,
+     "yoy": {
+      "revenue": 15.7,
+      "profit": 18.7,
+      "netIncome": 15.9,
+      "priorEnd": "2024-12-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Apple Stock a Buy After Earnings?",
+     "url": "https://www.nasdaq.com/articles/apple-stock-buy-after-earnings",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Is Apple Stock a Buy Right Now?",
+     "url": "https://www.nasdaq.com/articles/apple-stock-buy-right-now",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Apple and Palantir Technologies",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-apple-and-palantir-technologies",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Apple Says It Will Keep Paying More for Memory Chips After December. That's Good News for Micron Stock.",
+     "url": "https://www.nasdaq.com/articles/apple-says-it-will-keep-paying-more-memory-chips-after-december-thats-good-news-micron",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Apple: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/apple-3-key-takeaways-long-term-investors",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-20",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-24",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126006577/ef20060722_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm"
+   }
+  ],
+  "krReports": {
+   "total": 26,
+   "reports": [
+    {
+     "date": "2026-11-03",
+     "broker": "대신증권",
+     "analyst": "김회재",
+     "title": "[애플 (NAS:AAPL)] 아이폰이 견인한 실적, Siri AI 경쟁력은 검증 단계",
+     "summary": "- 매출 1,144.8억 달러로 예상 상회. 아이폰 +17%, Mac +24% 성장- 12월 분기 매출 성장 전망에도 총마진율 45~46%로 하락 예상- Siri AI의 개인용 에이전트 확장과 유료화 가능성 부각",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqkxczxeiqelgcgxeecz.pdf",
+     "pages": "16"
+    },
+    {
+     "date": "2026-11-03",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[애플 (NAS:AAPL)] 원가 상승 속 1차 여진",
+     "summary": "- 애플은 iPhone·Mac 등 하드웨어와 서비스를 아우르는 글로벌 기술기업- FY4Q26 실적은 가격 인상에도 iPhone·Mac 호조로 9월 분기 최대 매출을 달성- 가격 결정력은 유효하나 메모리 원가 시차와 서비스 둔화로 마진 부담 지속 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixmzexckgxqzgcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-11-03",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[애플 (NAS:AAPL)] Earnings Flash",
+     "summary": "- 매출액 1,145억 달러(YoY +11.7%), EPS 2.1달러(YoY +13.5%)로 예상치 각각 0.9%, 5.1% 상회. 9월 분기 사상 최대 실적.- 4분기 영업현금흐름 281억 달러, 자사주 매입 240억 달러 및 배당 39억 달러 기록. 분기 말 현금·유가증권 1,370억 달러 보유. *순현금 중립 목표 폐기 방침 재확인하며 투자 및 주주환원 관련 자본배분 유연성 확대- 메모리 원가 상승에 따른 매출총이익률 하락 전망에 시간 외 -2.8%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixmeeizqxekxgcgxeecz.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[애플 (NAS:AAPL)] [26Q4 Preview] 관세 환급 제외 실질 총마진 46~47% 방어 관건, 투자의견 중립 유지",
+     "summary": "- 9월 분기는 관세 환급이 줄고 메모리 원가가 온전히 반영되는 첫 분기- 서프라이즈의 크기보다 그 구성이 주가를 좌우- 옵션시장은 방향보다 변동폭 자체에 경계를 두고 있다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmickmeggmmlmigcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[애플 (NAS:AAPL)] [Issue & News] Taction, 57억 달러 특허 평결에 이자와 평결 이후 판매분 배상까지 청구 - 잠재 배상 부담 확대",
+     "summary": "- Taction, $5.7억 평결에 추가 6개월분 배상·법정이자 요청- Masimo 소송서도 원금 평결 뒤 이자 추가 지급 선례 존재- 펀더멘털과 무관한 개별 소송 리스크, 주가 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgkzxkkkelleggcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-15",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[애플 (NAS:AAPL)] [Issue & News] OpenAI, 이직 직원이 미공개 기기 파일 100건 이상 유출 주장 - 소송이 증거 공방 국면으로 진입",
+     "summary": "- OpenAI, 전직원이 미공개 기기자료 100건+ 유출 주장- 애플이 기밀자료 미보유·미사용 확인 안 해줬다고 주장- 영업비밀 소송, 구체적 증거 공방 국면으로 심화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgcemkmcekixkgcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-14",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[애플 (NAS:AAPL)] [Issue & News] Taction에 57억 달러 특허 배상 평결, 애플 파기 신청 - 실적과 무관한 불확실성 요인 추가",
+     "summary": "- 애플, 57억달러 특허 배상 판결에 파기 요청- 역대 최대 특허소송, 항소 절차 국면 진입- 밸류에이션 부담에 법적 불확실성 추가",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgcemzlzqiglkgcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-12",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[애플 (NAS:AAPL)] [Issue & News] 아이폰 18 프로 생산 축소 지시 - 수요 둔화 신호, 9월 분기 가이던스 리스크 부각",
+     "summary": "- 니케이, 애플 아이폰18 프로 생산축소 지시 보도(수요부진)- 9월 분기 공급제약 확대 가이던스와 같은 결의 리스크- 밸류에이션 부담 속 되돌림 지속 가능성, 단정은 유보",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmeqxgkzlkzzkqgcgxeecz.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Cramer warns on Wall Street's midterm rally",
+   "url": "https://www.cnbc.com/2026/11/04/cramer-midterms-ai-stocks.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Hyperscalers and Apple surge after investors see more certainty post-election",
+   "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The tariffs regime will likely be repealed, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/11/04/the-tariffs-regime-will-likely-be-repealed-says-jim-cramer.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC Markets Now: November 4, 2026",
+   "url": "https://www.cnbc.com/video/2026/11/04/cnbc-markets-now-november-4-2026.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Market Close",
+   "url": "https://www.cnbc.com/video/2026/11/04/post-market-wrap-november-4-2026.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: Amazon, Coeur Mining, FTAI Aviation and Apple",
+   "url": "https://www.cnbc.com/video/2026/11/04/final-trades-amazon-coeur-mining-ftai-aviation-apple.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "AAPL",
+  "fetchedAt": "2026-11-05",
+  "source": "한국투자증권 Open API",
+  "per": 40.07,
+  "pbr": 47.49,
+  "eps": 8.72,
+  "bps": 7.36,
+  "shares": 14594200000,
+  "marketCapM": 5100819,
+  "high52": 354.5,
+  "high52Date": "2026-11-04",
+  "low52": 242.7592,
+  "low52Date": "2026-01-20",
+  "last": 349.51,
+  "prevClose": 331.9,
+  "nameKo": "애플",
+  "nameEn": "APPLE INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 14594200000
+ }
+}

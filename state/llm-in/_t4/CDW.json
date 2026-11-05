@@ -1,0 +1,236 @@
+{
+ "ticker": "CDW",
+ "news": [
+  {
+   "title": "CDW (CDW) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/cdw-cdw-q3-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "CDW Corp. Q3 26 Earnings Conference Call At 8:30 AM ET",
+   "url": "https://www.nasdaq.com/articles/cdw-corp-q3-26-earnings-conference-call-8-30-am-et",
+   "date": "2026-11-04",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "CDW (CDW) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/cdw-cdw-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CDW Corporation Reports Rise In Q3 Profit",
+   "url": "https://www.nasdaq.com/articles/cdw-corporation-reports-rise-q3-profit",
+   "date": "2026-11-04",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "CDW's Buyback Pace Jumps: Can Stronger Cash Flow Sustain Returns?",
+   "url": "https://www.nasdaq.com/articles/cdws-buyback-pace-jumps-can-stronger-cash-flow-sustain-returns",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is the Options Market Predicting a Spike in CDW Stock?",
+   "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-cdw-stock",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CDW (CDW) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cdw-cdw-q3-earnings-key-013002934.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CDW Stock Returns To Buy Zone After Earnings Beat",
+   "url": "https://finance.yahoo.com/m/101a65dd-0f0c-3960-85e0-69d2aeffa6ba/cdw-stock-returns-to-buy-zone.html",
+   "date": "2026-11-04",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CDW Corp (CDW) Q3 2026 Earnings Call Highlights: Record $6. ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cdw-corp-cdw-q3-2026-211156489.html",
+   "date": "2026-11-04",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CDW (CDW) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cdw-cdw-q3-2026-earnings-191627062.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CDW Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cdw-corporation-q3-2026-earnings-183337754.html",
+   "date": "2026-11-04",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Raymond James Adjusts CDW Price Target to $190 From $155",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-adjusts-cdw-price-165942680.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Reevaluating CDW Corp. (CDW): Moving On from a “Good But Not Great” Business",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/reevaluating-cdw-corp-cdw-moving-163051376.html",
+   "date": "2026-11-04",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CDW Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cdw-q3-earnings-call-highlights-161445305.html",
+   "date": "2026-11-04",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-19",
+   "reportDate": "2026-10-15",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000106/cdw-20261015.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-21",
+   "reportDate": "2026-09-21",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1402057/000119312526396653/d240122d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-14",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1402057/000119312526392039/d180681d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-03",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000064/cdw-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000062/cdw-20260805.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.38,
+  "saleNy": 3.87,
+  "epsCy": 9.59,
+  "epsNy": 9.87,
+  "cyTrend": 0.2,
+  "nyTrend": 0.41,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    9.97,
+    9.25,
+    6.27
+   ],
+   "ni": [
+    1.18,
+    4.67,
+    5.79
+   ],
+   "opm": [
+    6.52,
+    6.62,
+    7.82
+   ],
+   "updated": "2026-09-08 10:05:34"
+  }
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "ticker": "SYRE",
+ "news": [
+  {
+   "title": "Spyre Therapeutics (SYRE) Down 16.6% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/spyre-therapeutics-syre-down-166-last-earnings-report-can-it-rebound",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
+   "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wedbush Trims Price Target on Spyre Therapeutics to $120 From $123, Keeps Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-trims-price-target-spyre-124822112.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Spyre Therapeutics: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/healthcare/articles/spyre-therapeutics-q3-earnings-snapshot-211244258.html",
+   "date": "2026-11-03",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Spyre Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
+   "url": "https://finance.yahoo.com/healthcare/articles/spyre-therapeutics-reports-third-quarter-210100007.html",
+   "date": "2026-11-03",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Spyre Therapeutics (SYRE) Stock May Be Fully Priced Following New IBD Data Preview",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/spyre-therapeutics-syre-stock-may-011529384.html",
+   "date": "2026-10-24",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/syre-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-07",
+   "reportDate": "2026-10-05",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636282/000162828026065291/syre-20261005.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000113/syre-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-25",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000105/syre-20260825.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000098/syre-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-15",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000083/syre-20260615.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": 42.61,
+  "epsNy": 27.05,
+  "cyTrend": -1.56,
+  "nyTrend": 1.91,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:16:30"
+  }
+ }
+}

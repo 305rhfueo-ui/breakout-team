@@ -1,0 +1,217 @@
+{
+ "ticker": "STE",
+ "news": [
+  {
+   "title": "Compared to Estimates, Steris (STE) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-steris-ste-q2-earnings-look-key-metrics",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Steris (STE) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/steris-ste-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Steris (STE) Down 2.1% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/steris-ste-down-21-last-earnings-report-can-it-rebound",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "STE Ex-Dividend Reminder - 9/4/26",
+   "url": "https://www.nasdaq.com/articles/ste-ex-dividend-reminder-9-4-26",
+   "date": "2026-09-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "STE Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/ste-crosses-above-key-moving-average-level",
+   "date": "2026-08-07",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "STERIS (NYSE:STE) posts better-than-expected sales in Q3 CY2026, stock soars",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/steris-nyse-ste-posts-better-231449513.html",
+   "date": "2026-11-04",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "STERIS Fiscal Q2 Adjusted Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/healthcare/articles/steris-fiscal-q2-adjusted-earnings-223048199.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Compared to Estimates, Steris (STE) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-steris-ste-q2-223002421.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Steris (STE) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/steris-ste-q2-earnings-revenues-215009113.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Steris: Fiscal Q2 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/steris-fiscal-q2-earnings-snapshot-214253370.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "STERIS Announces Financial Results for Fiscal 2027 Second Quarter",
+   "url": "https://finance.yahoo.com/healthcare/articles/steris-announces-financial-results-fiscal-213000834.html",
+   "date": "2026-11-04",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "STERIS (STE) Dividend Reaffirms The Story As Undervalued Views Face A P E Reality",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/steris-ste-dividend-reaffirms-story-070843600.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526447617/d533343d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "2.05",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "2.05",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026070220/ste-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-11",
+   "items": [
+    "1.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526420487/d165776d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-07-31",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000119312526338137/d141533d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "2.05",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "2.05",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026053412/ste-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026033580/ste-20260511.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.47,
+  "saleNy": 6.73,
+  "epsCy": 10.1,
+  "epsNy": 10.14,
+  "cyTrend": 0.23,
+  "nyTrend": 0.69,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.3,
+    7.28,
+    9.16
+   ],
+   "ni": [
+    12.8,
+    51.06,
+    11.18
+   ],
+   "opm": [
+    19.15,
+    19.94,
+    18.27
+   ],
+   "updated": "2026-09-08 05:49:11"
+  }
+ }
+}

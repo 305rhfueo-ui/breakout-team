@@ -1,0 +1,151 @@
+{
+ "ticker": "EVRG",
+ "news": [
+  {
+   "title": "Are Utilities Stocks Lagging  Companhia Paranaense de Energia - Copel Unsponsored ADR (ELPC) This Year?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/utilities-stocks-lagging-companhia-paranaense-134003126.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-16",
+   "reportDate": "2026-09-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526393088/d504888d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "1.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "1.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526363625/d417229d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526336661/d55157d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526292566/d917808d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-30",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526292565/d82314d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526210269/d947347d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.84,
+  "saleNy": 5.87,
+  "epsCy": 12.15,
+  "epsNy": 6.22,
+  "cyTrend": 0.8,
+  "nyTrend": -0.05,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.39,
+    5.03,
+    6.59
+   ],
+   "ni": [
+    25.51,
+    21.2,
+    7.8
+   ],
+   "opm": [
+    25.37,
+    22.05,
+    17.83
+   ],
+   "updated": "2026-09-08 06:57:30"
+  }
+ }
+}

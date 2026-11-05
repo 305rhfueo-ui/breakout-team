@@ -1,0 +1,216 @@
+{
+ "ticker": "WCN",
+ "news": [
+  {
+   "title": "CLH vs. WCN: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/clh-vs-wcn-which-stock-should-value-investors-buy-now",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "WCN Stock Gains 11% After Reporting Q3 Earnings & Revenue Beat",
+   "url": "https://www.nasdaq.com/articles/wcn-stock-gains-11-after-reporting-q3-earnings-revenue-beat",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Waste Connections (WCN) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/waste-connections-wcn-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Waste Connections (WCN) Moves 5.5% Higher: Will This Strength Last?",
+   "url": "https://www.nasdaq.com/articles/waste-connections-wcn-moves-55-higher-will-strength-last",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Waste Connections (WCN) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/waste-connections-wcn-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "WEX Q3 Earnings & Revenues Beat Estimates, Stock Declines 3.5%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wex-q3-earnings-revenues-beat-172800325.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Waste Connections Insider Sold Shares Worth $370,440, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/waste-connections-insider-sold-shares-202542350.html",
+   "date": "2026-10-29",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "WM Q3 Earnings Miss Estimates, Revenues Increase 6.3% Y/Y",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wm-q3-earnings-miss-estimates-143200197.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "IQVIA Holdings Q3 Earnings Beat Estimates, Revenues Increase 8% Y/Y",
+   "url": "https://finance.yahoo.com/healthcare/articles/iqvia-holdings-q3-earnings-beat-134200349.html",
+   "date": "2026-10-27",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UBS Adjusts Price Target on Waste Connections to $215 From $200, Maintains Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-waste-132304596.html",
+   "date": "2026-10-27",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "WCN Stock Gains 11% After Reporting Q3 Earnings & Revenue Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wcn-stock-gains-11-reporting-141200754.html",
+   "date": "2026-10-26",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-21",
+   "reportDate": "2026-10-21",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926117838/wcn-20261021x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926092680/tm2622609d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926090339/tm2622128d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926087330/tm2621340d6_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926085802/wcn-20260722x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-15",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926062507/tm2614785d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.63,
+  "saleNy": 6.01,
+  "epsCy": 10.6,
+  "epsNy": 8.28,
+  "cyTrend": 0.93,
+  "nyTrend": -0.62,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.42,
+    6.39,
+    5
+   ],
+   "ni": [
+    2.11,
+    -9.18,
+    "흑자전환"
+   ],
+   "opm": [
+    17.08,
+    15.36,
+    17.73
+   ],
+   "updated": "2026-09-09 06:31:01"
+  }
+ }
+}

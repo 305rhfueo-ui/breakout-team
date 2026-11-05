@@ -1,0 +1,225 @@
+{
+ "ticker": "PFGC",
+ "news": [
+  {
+   "title": "PFG (PFGC) Q1 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/pfg-pfgc-q1-2027-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Performance Food Group (PFGC) Tops Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/performance-food-group-pfgc-tops-q1-earnings-and-revenue-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Performance Food Group (PFGC) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/performance-food-group-pfgc-earnings-expected-grow-should-you-buy-0",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Oversold Conditions For Performance Food Group (PFGC)",
+   "url": "https://www.nasdaq.com/articles/oversold-conditions-performance-food-group-pfgc",
+   "date": "2026-09-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Performance Food Group Company Q1 2027 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/performance-food-group-company-q1-224024221.html",
+   "date": "2026-11-04",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Performance Food Group (PFGC) Tops Q1 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/performance-food-group-pfgc-tops-125506399.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Performance Food Group Fiscal Q1 Adjusted Earnings, Net Sales Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/performance-food-group-fiscal-q1-124459719.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Performance Food Group (NYSE:PFGC) reports Q3 CY2026 in line with expectations, stock soars",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/performance-food-group-nyse-pfgc-123428898.html",
+   "date": "2026-11-04",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Performance Food: Fiscal Q1 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/performance-food-fiscal-q1-earnings-121942893.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Performance Food Group Company Reports First-Quarter Fiscal 2027 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/performance-food-group-company-reports-120000937.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is USFD Worth Buying as Fast EPS Growth Meets a Premium Valuation?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/usfd-worth-buying-fast-eps-154900594.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "USFD Jumps 11.8% in the Past Month as Growth Momentum Accelerates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/usfd-jumps-11-8-past-154600278.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "USFD Q2 Earnings Jump as Restaurant Growth and Margins Strengthen",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/usfd-q2-earnings-jump-restaurant-154300849.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526446175/pfgc-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526363739/pfgc-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526357838/d134405d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526345718/pfgc-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526207521/pfgc-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526059455/d59092d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.3,
+  "saleNy": 2.97,
+  "epsCy": 23.63,
+  "epsNy": 19,
+  "cyTrend": -0.79,
+  "nyTrend": -0.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.43,
+    6.43,
+    5.16
+   ],
+   "ni": [
+    23.42,
+    -28.47,
+    45.52
+   ],
+   "opm": [
+    1.8,
+    0.91,
+    1.16
+   ],
+   "updated": "2026-09-08 07:55:16"
+  }
+ }
+}

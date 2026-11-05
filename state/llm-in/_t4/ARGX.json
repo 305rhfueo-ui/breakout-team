@@ -1,0 +1,123 @@
+{
+ "ticker": "ARGX",
+ "news": [
+  {
+   "title": "Best Biotech Stocks to Buy Now as AI Stocks Tank: ARGX",
+   "url": "https://www.nasdaq.com/articles/best-biotech-stocks-buy-now-ai-stocks-tank-argx",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "argenx (ARGX) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/argenx-argx-q3-2026-earnings-call-transcript",
+   "date": "2026-10-23",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What argenex (ARGX) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-argenex-argx-said-its-q3-earnings-call",
+   "date": "2026-10-22",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "HRMY or ARGX: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/hrmy-or-argx-which-better-value-stock-right-now",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ARGX Stock Down on Stopping Late-Stage Autoimmune Disease Study",
+   "url": "https://www.nasdaq.com/articles/argx-stock-down-stopping-late-stage-autoimmune-disease-study",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Best Biotech Stocks to Buy Now as AI Stocks Tank: ARGX",
+   "url": "https://finance.yahoo.com/healthcare/articles/best-biotech-stocks-buy-now-214200486.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "argenx to Present at Upcoming Investor Conferences",
+   "url": "https://finance.yahoo.com/healthcare/articles/argenx-present-upcoming-investor-conferences-060000626.html",
+   "date": "2026-11-03",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "argenx (ENXTBR:ARGX) Stock Looks Overvalued After Its 202% Five Year Run",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/argenx-enxtbr-argx-stock-looks-041618523.html",
+   "date": "2026-10-25",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "argenx (ENXTBR:ARGX) Posted Q3 2026 Results, Is It Fully Priced?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/argenx-enxtbr-argx-posted-q3-021139147.html",
+   "date": "2026-10-25",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "argenx (ENXTBR:ARGX) Reports Positive Phase 3 Data In Autoimmune Myositis",
+   "url": "https://finance.yahoo.com/healthcare/articles/argenx-enxtbr-argx-reports-positive-161523931.html",
+   "date": "2026-10-24",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Argenx (ENXTBR:ARGX) Stock Faces Margin Questions After Q3 Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/argenx-enxtbr-argx-stock-faces-121142685.html",
+   "date": "2026-10-24",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Argenx's Vyvgart Sales Growth, Pipeline Progress Support Outlook, Oppenheimer Says",
+   "url": "https://finance.yahoo.com/healthcare/articles/argenx-apos-vyvgart-sales-growth-170038325.html",
+   "date": "2026-10-23",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Argenx's Vyvgart Beats Expectations With Focus Shifting to December Data, RBC Says",
+   "url": "https://finance.yahoo.com/healthcare/articles/argenx-apos-vyvgart-beats-expectations-164658171.html",
+   "date": "2026-10-23",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 51.09,
+  "saleNy": 22.63,
+  "epsCy": 44.48,
+  "epsNy": 17.82,
+  "cyTrend": 51.39,
+  "nyTrend": -4.06,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    59.46,
+    62.7,
+    73.76
+   ],
+   "ni": [
+    92.65,
+    116.57,
+    -31.05
+   ],
+   "opm": [
+    32.04,
+    30.01,
+    27.79
+   ],
+   "updated": "2026-09-20 06:55:30"
+  }
+ }
+}

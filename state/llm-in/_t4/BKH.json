@@ -1,0 +1,200 @@
+{
+ "ticker": "BKH",
+ "news": [
+  {
+   "title": "Upcoming Dividend Run For BKH?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-bkh",
+   "date": "2026-11-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Black Hills (BKH) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/black-hills-bkh-shares-cross-above-200-dma",
+   "date": "2026-10-07",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "BKH Ex-Dividend Reminder - 8/17/26",
+   "url": "https://www.nasdaq.com/articles/bkh-ex-dividend-reminder-8-17-26",
+   "date": "2026-08-14",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Black Hills (BKH) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/black-hills-bkh-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Black Hills: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/black-hills-q3-earnings-snapshot-222546140.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Black Hills Corp. Reports 2026 Third-Quarter Results and Reaffirms 2026 Earnings Guidance",
+   "url": "https://finance.yahoo.com/energy/articles/black-hills-corp-reports-2026-220500100.html",
+   "date": "2026-11-04",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "When One Social Security Check Stops: How Much a 74-Year-Old Widow Needs Invested to Replace $2,100 a Month",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/one-social-security-check-stops-190347478.html",
+   "date": "2026-11-02",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Black Hills Corp. Announces Quarterly Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/black-hills-corp-announces-quarterly-201500831.html",
+   "date": "2026-10-28",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Black Hills, NorthWestern Energy to Be Renamed Bright Horizon Energy After Merger",
+   "url": "https://finance.yahoo.com/energy/articles/black-hills-northwestern-energy-renamed-072602868.html",
+   "date": "2026-10-23",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Subject to Receipt of Satisfactory Final Regulatory Approval and Completion of Proposed Merger, Black Hills Corp. to be Renamed Bright Horizon Energy Corporation with Ticker Symbol “HZN”",
+   "url": "https://finance.yahoo.com/energy/articles/subject-receipt-satisfactory-final-regulatory-230000434.html",
+   "date": "2026-10-22",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526447656/bkh-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-22",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526429192/bkh-20261022.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-06",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526415597/bkh-20261006.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-20260817.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526335259/bkh-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-15",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526226896/bkh-20260515.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.27,
+  "saleNy": 76.33,
+  "epsCy": 6.18,
+  "epsNy": 6.13,
+  "cyTrend": 0.35,
+  "nyTrend": 0.27,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.14,
+    -3.04,
+    6.45
+   ],
+   "ni": [
+    38.91,
+    -2.46,
+    7.04
+   ],
+   "opm": [
+    21.42,
+    25.86,
+    26.95
+   ],
+   "updated": "2026-09-07 07:40:44"
+  }
+ }
+}

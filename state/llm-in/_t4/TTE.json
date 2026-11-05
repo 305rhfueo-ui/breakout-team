@@ -1,0 +1,123 @@
+{
+ "ticker": "TTE",
+ "news": [
+  {
+   "title": "TotalEnergies (TTE) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/totalenergies-tte-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Should Value Investors Buy TotalEnergies (TTE) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-totalenergies-tte-stock-0",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insights Into TotalEnergies (TTE) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/insights-totalenergies-tte-q3-wall-street-projections-key-metrics",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TotalEnergies SE Sponsored ADR (TTE) is a Great Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/totalenergies-se-sponsored-adr-tte-great-momentum-stock-should-you-buy",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TotalEnergies SE Sponsored ADR (TTE) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/totalenergies-se-sponsored-adr-tte-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TotalEnergies (ENXTPA:TTE) Could Be 7% Below Fair Value Following Malaysia Gas Deal",
+   "url": "https://finance.yahoo.com/energy/articles/totalenergies-enxtpa-tte-could-7-221048862.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Saft Unveils EnerShift, an Integrated Solution Combining Battery Storage, Energy Trading, and Financing",
+   "url": "https://finance.yahoo.com/energy/articles/saft-unveils-enershift-integrated-solution-113921129.html",
+   "date": "2026-11-04",
+   "publisher": "POWER Magazine",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TotalEnergies to Supply 900,000 Tons of LNG a Year to China's Jiangsu Guoxin",
+   "url": "https://finance.yahoo.com/energy/articles/totalenergies-supply-900-000-tons-083535246.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "China: TotalEnergies to Supply 900,000 Tons of LNG per Year to Jiangsu Guoxin Group for 15 Years",
+   "url": "https://finance.yahoo.com/energy/articles/china-totalenergies-supply-900-000-071800101.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "China: TotalEnergies to Supply 900,000 Tons of LNG per Year to Jiangsu Guoxin Group for 15 Years",
+   "url": "https://finance.yahoo.com/energy/articles/china-totalenergies-supply-900-000-071800335.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "If You Ride the TotalEnergies Stock Merry-Go-Round, Make Sure You Have an Exit Plan",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ride-totalenergies-stock-merry-round-192503426.html",
+   "date": "2026-11-03",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Director/PDMR Shareholding",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/director-pdmr-shareholding-174300733.html",
+   "date": "2026-11-03",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TotalEnergies Signs ELF Motor Oil Distribution Deal With SSF",
+   "url": "https://finance.yahoo.com/energy/articles/totalenergies-signs-elf-motor-oil-151635471.html",
+   "date": "2026-11-03",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 18.97,
+  "saleNy": -2.94,
+  "epsCy": 84.71,
+  "epsNy": -6.7,
+  "cyTrend": 13.84,
+  "nyTrend": 10.55,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    27.8,
+    3.38,
+    -2.53
+   ],
+   "ni": [
+    102.38,
+    50.87,
+    -26.54
+   ],
+   "opm": [
+    13.37,
+    18.99,
+    9.79
+   ],
+   "updated": "2026-09-08 07:12:43"
+  }
+ }
+}

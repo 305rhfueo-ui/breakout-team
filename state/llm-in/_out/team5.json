@@ -1,1 +1,245 @@
-{"date":"2026-11-04","team":5,"industries":[{"key":"Healthcare|Health Information Services","headline":"헬스케어 정보서비스는 힌지 헬스·템퍼스 AI·GE 헬스케어가 3분기 실적을 예상보다 좋게 내놓으며 상위권에 올랐다.","summary":"업종 순위 5위로, 25거래일 전보다 2계단 올랐다. 힌지 헬스, 템퍼스 AI, GE 헬스케어가 3분기 실적과 매출에서 시장 예상치를 웃돌았다. 템퍼스 AI는 종양 진단기기가 실적 개선을 이끌고 항암 백신 기대감까지 더해졌다고 신한투자증권이 전했다. 이 실적 흐름이 이어지는지가 강세 지속의 관건이다.","whyLeading":[{"id":"w1","statement":"힌지 헬스가 3분기 실적과 매출에서 시장 예상치를 웃돌았다.","evidence_level":"sourced","sources":[{"title":"Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/hinge-health-inc-hnge-beats-q3-earnings-and-revenue-estimates","date":"2026-11-02","quote":"Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates"}]},{"id":"w2","statement":"템퍼스 AI도 3분기 실적과 매출이 예상치를 넘어섰다.","evidence_level":"sourced","sources":[{"title":"Tempus AI (TEM) Beats Q3 Earnings and Revenue Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/tempus-ai-tem-beats-q3-earnings-and-revenue-estimates","date":"2026-11-02","quote":"Tempus AI (TEM) Beats Q3 Earnings and Revenue Estimates"}]},{"id":"w3","statement":"GE 헬스케어 테크놀로지스 역시 3분기 실적과 매출이 예상치를 웃돌았다.","evidence_level":"sourced","sources":[{"title":"GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/ge-healthcare-technologies-gehc-q3-earnings-and-revenues-beat-estimates","date":"2026-10-28","quote":"GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates"}]}],"leaders":[{"ticker":"TEM","role":"업종 안에서 증권사 리포트가 실적 개선과 신규 모멘텀을 직접 다룬 종목","why":[{"id":"l1a","statement":"신한투자증권은 종양 진단기기가 실적 개선을 이끌고, 항암 백신이 의료 AI를 넘어서는 새 성장 이야기가 됐다고 전했다.","evidence_level":"sourced","sources":[{"title":"[템퍼스 AI (NAS:TEM)] 실적 개선 & 항암 백신 기대감","publisher":"신한투자증권(연합인포맥스)","url":"https://rreport.einfomax.co.kr/report/eqmixmceizcceqqgcgxeeck.pdf","date":"2026-11-03","quote":"- 견조한 실적 확인. 항암 백신, 의료 AI 뛰어넘는 내러티브- 종양 진단기기, 실적 개선 견인. 항암 백신 관련 코멘트로 기대감 확대- 실적 성장세 회복&항암 백신으로 신규 모멘텀 확보"}]}]},{"ticker":"HNGE","role":"3분기 실적 호조를 낸 디지털 건강 서비스 업체","why":[{"id":"l1b","statement":"힌지 헬스는 3분기 실적과 매출이 시장 예상치를 웃돌았다.","evidence_level":"sourced","sources":[{"title":"Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/hinge-health-inc-hnge-beats-q3-earnings-and-revenue-estimates","date":"2026-11-02","quote":"Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates"}]}]},{"ticker":"GEHC","role":"의료 영상 장비 대형사로 3분기 실적이 예상을 웃돔","why":[{"id":"l1c","statement":"GE 헬스케어는 3분기 실적과 매출이 예상치를 넘어섰다.","evidence_level":"sourced","sources":[{"title":"GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/ge-healthcare-technologies-gehc-q3-earnings-and-revenues-beat-estimates","date":"2026-10-28","quote":"GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates"}]}]},{"ticker":"VEEV","role":"제약·바이오용 클라우드 소프트웨어 업체","why":[{"id":"l1d","statement":"비바 시스템스 CEO는 신규 제품 비바 베이직스의 고객이 200곳에 가깝다고 밝혔다.","evidence_level":"sourced","sources":[{"title":"We have almost 200 customers on Veeva Basics, says CEO Peter Gassner","publisher":"CNBC","url":"https://www.cnbc.com/investingclub/video/2026/10/07/we-have-almost-200-customers-on-veeva-basics-says-ceo-peter-gassner.html","date":"2026-10-07","quote":"We have almost 200 customers on Veeva Basics, says CEO Peter Gassner"}]}]}],"risks":[],"sourceGap":"증권사 리포트는 템퍼스 AI 1건뿐이고 나머지 종목은 기사 제목 수준이라 세부 수치 근거가 부족하며, 리스크 근거는 찾지 못했다.","factcheck":{"verdict":"pass","removed":[],"reason":"모든 주장(w1, w2, w3, leaders의 l1a~l1d)이 제공된 quote와 출처로 완전하게 입증됨. 날짜 모두 6개월 이내"}},{"key":"Healthcare|Medical Devices","headline":"의료기기 업종은 3분기 실적이 시장 예상을 넘긴 기업이 잇따르며 업종 순위 6위로 올라섰다.","summary":"의료기기 업종은 업종 순위 6위로, 25거래일 전보다 54계단 올랐다. 덱스컴·인스파이어 메디컬 시스템스·UFP 테크놀로지스가 3분기 실적에서 시장 예상을 웃돌았다. 인슐렛은 매출이 전년 대비 23.5% 늘었고, 애보트는 연속혈당측정기와 심장 기기가 성장을 이끈다. 다만 존슨앤드존슨 의료기기 부문은 네 분기 연속 성장이 둔화됐다. 실적 호조가 업종 전반으로 이어지는지가 관건이다.","whyLeading":[{"id":"w1","statement":"덱스컴, 인스파이어 메디컬 시스템스, UFP 테크놀로지스가 3분기 매출과 이익에서 시장 예상을 웃돌았다. 실적 확인이 업종 상승을 받쳤다.","evidence_level":"sourced","sources":[{"title":"DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates","publisher":"Zacks(나스닥)","url":"https://www.nasdaq.com/articles/dexcom-dxcm-surpasses-q3-earnings-and-revenue-estimates","date":"2026-10-29","quote":"DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates"},{"title":"Inspire Medical Systems (INSP) Q3 Earnings and Revenues Beat Estimates","publisher":"Zacks(나스닥)","url":"https://www.nasdaq.com/articles/inspire-medical-systems-insp-q3-earnings-and-revenues-beat-estimates","date":"2026-11-02","quote":"Inspire Medical Systems (INSP) Q3 Earnings and Revenues Beat Estimates"},{"title":"UFP Technologies (UFPT) Q3 Earnings and Revenues Surpass Estimates","publisher":"Zacks(나스닥)","url":"https://www.nasdaq.com/articles/ufp-technologies-ufpt-q3-earnings-and-revenues-surpass-estimates","date":"2026-11-03","quote":"UFP Technologies (UFPT) Q3 Earnings and Revenues Surpass Estimates"}]},{"id":"w2","statement":"당뇨 관리 기기 수요가 강하다. 인슐렛 매출이 전년 대비 23.5% 늘어 시장 예상을 넘겼다.","evidence_level":"sourced","sources":[{"title":"This medical device stock looks like a gift for patient investors","publisher":"CNBC","url":"https://www.cnbc.com/2026/09/01/this-medical-device-stock-looks-like-a-gift-for-patient-investors.html","date":"2026-09-01","quote":"Revenue grew 23.5% year-over-year, exceeding consensus expectations."}]},{"id":"w3","statement":"대신증권은 애보트의 성장을 Libre(연속혈당측정기)와 심장 디바이스, 암 진단이 이끈다고 봤다.","evidence_level":"sourced","sources":[{"title":"[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지","publisher":"대신증권(연합인포맥스)","url":"https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxeeck.pdf","date":"2026-10-12","quote":"Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인"}]}],"leaders":[{"ticker":"DXCM","role":"연속혈당측정기 업체로 3분기 실적이 예상을 넘겼다.","why":[{"id":"l1a","statement":"덱스컴은 3분기 매출과 이익이 시장 예상을 웃돌았다.","evidence_level":"sourced","sources":[{"title":"DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates","publisher":"Zacks(나스닥)","url":"https://www.nasdaq.com/articles/dexcom-dxcm-surpasses-q3-earnings-and-revenue-estimates","date":"2026-10-29","quote":"DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates"}]}]},{"ticker":"INSP","role":"수면무호흡 치료기기 업체로 3분기 실적이 예상을 넘겼다.","why":[{"id":"l2a","statement":"인스파이어 메디컬 시스템스는 3분기 매출과 이익이 시장 예상을 웃돌았다.","evidence_level":"sourced","sources":[{"title":"Inspire Medical Systems (INSP) Q3 Earnings and Revenues Beat Estimates","publisher":"Zacks(나스닥)","url":"https://www.nasdaq.com/articles/inspire-medical-systems-insp-q3-earnings-and-revenues-beat-estimates","date":"2026-11-02","quote":"Inspire Medical Systems (INSP) Q3 Earnings and Revenues Beat Estimates"}]}]},{"ticker":"PODD","role":"인슐린 펌프 업체로 매출이 빠르게 늘고 있다.","why":[{"id":"l3a","statement":"인슐렛은 매출이 전년 대비 23.5% 늘어 시장 예상을 넘겼다.","evidence_level":"sourced","sources":[{"title":"This medical device stock looks like a gift for patient investors","publisher":"CNBC","url":"https://www.cnbc.com/2026/09/01/this-medical-device-stock-looks-like-a-gift-for-patient-investors.html","date":"2026-09-01","quote":"Revenue grew 23.5% year-over-year, exceeding consensus expectations."}]}]},{"ticker":"ABT","role":"업종 최대 규모 기업으로 연속혈당측정기와 심장 기기가 성장을 이끈다.","why":[{"id":"l4a","statement":"대신증권은 애보트의 성장을 Libre와 심장 디바이스, 암 진단이 이끈다고 봤다.","evidence_level":"sourced","sources":[{"title":"[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지","publisher":"대신증권(연합인포맥스)","url":"https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxeeck.pdf","date":"2026-10-12","quote":"Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인"}]}]},{"ticker":"UFPT","role":"의료기기 부품·소재 업체로 3분기 실적이 예상을 넘겼다.","why":[{"id":"l5a","statement":"UFP 테크놀로지스는 3분기 매출과 이익이 시장 예상을 웃돌았다.","evidence_level":"sourced","sources":[{"title":"UFP Technologies (UFPT) Q3 Earnings and Revenues Surpass Estimates","publisher":"Zacks(나스닥)","url":"https://www.nasdaq.com/articles/ufp-technologies-ufpt-q3-earnings-and-revenues-surpass-estimates","date":"2026-11-03","quote":"UFP Technologies (UFPT) Q3 Earnings and Revenues Surpass Estimates"}]}]}],"risks":[{"id":"r1","statement":"존슨앤드존슨의 의료기기 부문 성장이 네 분기 연속 둔화됐다. 업종 수요가 식으면 강세가 꺾일 수 있다.","evidence_level":"sourced","sources":[{"title":"[존슨앤드존슨 (XTR:JNJ)] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지","publisher":"대신증권(연합인포맥스)","url":"https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxeeck.pdf","date":"2026-10-13","quote":"MedTech +2.5%로 네 분기 연속 감속"}]},{"id":"r2","statement":"애보트는 올해 매출 성장률 전망을 세 번째로 낮췄다. 대형주의 성장 둔화가 업종 부담이다.","evidence_level":"sourced","sources":[{"title":"[애보트 래브러토리스 (NYS:ABT)] [26Q3 Review] 컨센서스 부합, 연간 매출성장률 약 6.0%로 하향, 투자의견 중립 유지","publisher":"대신증권(연합인포맥스)","url":"https://rreport.einfomax.co.kr/report/eqmgxgiglekzgglgcgxeeck.pdf","date":"2026-10-21","quote":"FY26 매출성장 약 6%로 하향, 올해 세 번째"}]},{"id":"r3","statement":"인티거 홀딩스는 3분기 매출과 이익이 시장 예상에 못 미쳤다. 업종 안에서도 실적이 엇갈린다.","evidence_level":"sourced","sources":[{"title":"Integer (ITGR) Q3 Earnings and Revenues Miss Estimates","publisher":"Zacks(나스닥)","url":"https://www.nasdaq.com/articles/integer-itgr-q3-earnings-and-revenues-miss-estimates","date":"2026-10-29","quote":"Integer (ITGR) Q3 Earnings and Revenues Miss Estimates"}]}],"sourceGap":"증권사 리포트는 애보트·존슨앤드존슨뿐이고 나스닥 기사는 제목 위주라 실적 수치는 담지 못했다. 업종 전체를 직접 다룬 기사는 없다.","factcheck":{"verdict":"pass","removed":[],"reason":"모든 주장(w1~w3, leaders의 l1a~l5a, risks의 r1~r3)이 제공된 quote와 출처로 입증됨. 날짜 모두 6개월 이내, 숫자 일치(인슐렛 23.5% 등)"}},{"key":"Technology|Information Technology Services","headline":"액센추어가 실적과 수주에서 예상을 웃돌며 업종이 한 달 새 58계단 올랐다.","summary":"IT 서비스 업종은 전체 8위로, 25거래일 전보다 58계단 올랐다. 액센추어는 분기 실적이 예상을 웃돌고 대형 계약 수주가 사상 최대를 기록해 주가가 급등했다. 브로드리지는 금융 시장 인프라 사업이 토큰화 흐름에서도 입지를 지킨다는 평가를 받았다. 이 흐름이 이어지려면 AI 관련 수주가 다른 종목의 실적으로도 확인되어야 한다.","whyLeading":[{"id":"w1","statement":"액센추어가 회계 4분기 실적이 예상을 웃돌았고 대형 고객 수주가 사상 최대였다. 이를 계기로 업종 전반의 평가가 바뀌었다.","evidence_level":"sourced","sources":[{"title":"Accenture stock rallies after earnings beat expectations","publisher":"CNBC","url":"https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html","date":"2026-10-01","quote":"The company posted a record in big-ticket client bookings, while also increasing its quarterly dividend."}]}],"leaders":[{"ticker":"ACN","role":"세계 최대급 IT 컨설팅 기업으로 업종 반등의 출발점이 된 종목","why":[{"id":"l1a","statement":"액센추어는 회계 4분기 실적이 예상을 웃돌았고, 2027 회계연도 매출과 주당순이익 모두 3~6% 성장을 제시했다.","evidence_level":"sourced","sources":[{"title":"Accenture stock rallies after earnings beat expectations","publisher":"CNBC","url":"https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html","date":"2026-10-01","quote":"For its fiscal-year 2027 outlook, Accenture sees 3%-6% year-over-year growth in both revenue and adjusted earnings per share."}]}]},{"ticker":"IBM","role":"소프트웨어와 컨설팅에서 AI 매출을 키우는 대형주","why":[{"id":"l2a","statement":"IBM은 3분기 소프트웨어 매출이 78억 달러로 8% 늘었다.","evidence_level":"sourced","sources":[{"title":"IBM beats on top and bottom line, CEO touts 'Super Intelligence' traction","publisher":"CNBC","url":"https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html","date":"2026-10-21","quote":"In the third quarter, IBM generated $7.80 billion in software revenue, growing 8%."}]}]},{"ticker":"BR","role":"증권 의결권·결제 인프라를 쥔 금융 IT 기업","why":[{"id":"l3a","statement":"CNBC는 브로드리지의 핵심 사업이 금융기관 깊숙이 내장돼 교체가 어렵고, 토큰화가 오히려 사업을 늘린다고 전했다.","evidence_level":"sourced","sources":[{"title":"Broadridge runs Wall Street's market plumbing. Tokenization may expand its role","publisher":"CNBC","url":"https://www.cnbc.com/2026/10/30/broadridge-tokenization-stock.html","date":"2026-10-30","quote":"Tokenization is creating more business for Broadridge, not less."}]}]}],"risks":[],"sourceGap":"증권사 리포트와 업종 검색어 리포트가 없어 CNBC 기사만으로 작성했고, 리스크 근거는 확보하지 못했다.","factcheck":{"verdict":"partial","removed":["w2"],"reason":"w2: statement에서 '3분기 소프트웨어 매출이 8% 늘었고'라는 주장이 제공된 quote에 없음. quote는 AI가 컨설팅 매출 30%·수주잔고 35%인 부분만 다룸. 같은 출처의 l2a에서는 이 수치가 있지만, w2의 quote는 이 부분을 담고 있지 않음"},"headlineOriginal":"액센추어·IBM 등 대형 IT 서비스 기업이 AI 수요로 실적을 내며 업종이 한 달 새 58계단 올랐다.","summaryOriginal":"IT 서비스 업종은 전체 8위로, 25거래일 전보다 58계단 올랐다. 액센추어는 분기 실적이 예상을 웃돌고 대형 계약 수주가 사상 최대를 기록해 주가가 급등했다. IBM은 소프트웨어 매출이 8% 늘었고 AI가 컨설팅 매출의 약 30%를 차지했다. 브로드리지는 금융 시장 인프라 사업이 토큰화 흐름에서도 입지를 지킨다는 평가를 받았다. 이 흐름이 이어지려면 AI 관련 수주가 다른 종목의 실적으로도 확인되어야 한다."},{"key":"Financial Services|Insurance - Property & Casualty","headline":"손해보험은 트래블러스·처브의 이익이 시장 예상을 크게 웃돌며 업종 순위가 한 달 새 35계단 뛰었다.","summary":"손해보험 업종은 전체 업종 중 10위로, 25거래일 전보다 35계단 올랐다. CNBC는 7월 보험을 \"가장 뜨거운 업종\"으로 다루며 트래블러스의 2분기 이익이 예상의 두 배에 가까웠고 자연재해 손실이 줄었다고 전했다. 처브도 영업이익이 1년 전보다 85% 늘어 업종 강세를 받쳤다. 이 흐름이 이어지려면 재해 손실이 낮게 유지되고 이익 증가가 계속돼야 한다.","whyLeading":[{"id":"w2","statement":"트래블러스의 자연재해 손실이 5억 1,800만 달러로 전년 9억 2,700만 달러의 절반에 가까웠다. 손실이 줄면 보험사 이익이 그대로 늘어난다.","evidence_level":"sourced","sources":[{"title":"Three 'Dividend Aristocrats' on Josh Brown's list in July's hottest sector","publisher":"CNBC","url":"https://www.cnbc.com/2026/07/20/theres-an-insurance-name-on-josh-browns-best-stocks-list-thats-been-a-homerun.html","date":"2026-07-20","quote":"Catastrophe losses of $518 million were nearly half of last year's $927 million"}]}],"leaders":[{"ticker":"TRV","role":"2분기 이익이 예상을 크게 웃돌며 업종 강세를 이끈 대형 손해보험사","why":[{"id":"l1a","statement":"2분기 핵심 주당순이익이 예상치 약 5.39달러의 거의 두 배인 10.04달러였다.","evidence_level":"sourced","sources":[{"title":"Three 'Dividend Aristocrats' on Josh Brown's list in July's hottest sector","publisher":"CNBC","url":"https://www.cnbc.com/2026/07/20/theres-an-insurance-name-on-josh-browns-best-stocks-list-thats-been-a-homerun.html","date":"2026-07-20","quote":"Q2 core EPS of $10.04 against a consensus estimate of roughly $5.39 — nearly double what the Street was looking for"}]}]},{"ticker":"CB","role":"영업이익이 크게 늘어난 세계 최대급 손해보험사","why":[{"id":"l2a","statement":"처브의 영업 주당순이익은 6.82달러로 1년 전보다 85% 늘었다.","evidence_level":"sourced","sources":[{"title":"Three 'Dividend Aristocrats' on Josh Brown's list in July's hottest sector","publisher":"CNBC","url":"https://www.cnbc.com/2026/07/20/theres-an-insurance-name-on-josh-browns-best-stocks-list-thats-been-a-homerun.html","date":"2026-07-20","quote":"Operating EPS of $6.82 grew 85% year over year"}]}]}],"risks":[],"sourceGap":"증권사 리포트와 업종 전반 리포트가 없고 CNBC 7월 기사 한 건이 핵심 근거다. 최근 3분기 실적 기사는 열람하지 못했다.","factcheck":{"verdict":"partial","removed":["w1"],"reason":"Claim w1 statement includes '자연재해 손실도 전년의 절반 수준으로 줄어 이익이 크게 늘었다' which is not present in the w1 quote or source title. This fact is properly sourced only in w2, so w1 should focus solely on the EPS beat claim. No headline/summary corrections needed as all facts are covered by remaining claims (l1a for Travelers EPS beat, l2a for Chubb earnings growth, w2 for loss reduction)."}}],"failed":[],"coverage":{"done":4,"total":4,"failed":0}}
+{
+  "date": "2026-11-05",
+  "team": 5,
+  "industries": [
+    {
+      "key": "Healthcare|Drug Manufacturers - General",
+      "headline": "대형 제약사들이 3분기 실적과 연간 전망 상향으로 동반 강세를 보이며 업종 순위가 올랐다.",
+      "summary": "일라이 릴리·머크·애브비가 10월 말 3분기 실적에서 시장 예상을 웃돌고 연간 전망을 올렸다. 릴리는 비만·당뇨 치료제 티르제파타이드 매출이 크게 늘어 연간 가이던스를 3분기 연속 올렸다. 암젠은 폐암 신약 병용 임상 결과로 처방 대상 확대 기대를 받았다.",
+      "whyLeading": [
+        {
+          "id": "w1",
+          "statement": "일라이 릴리는 3분기 매출과 주당순이익이 시장 예상을 웃돌았고, 연간 가이던스를 누적 100억 달러 올렸다. 비만·당뇨 치료제 티르제파타이드 매출이 큰 폭으로 늘었다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "[일라이 릴리 (NYS:LLY)] 연간 가이던스 3분기 연속 상향",
+              "publisher": "대신증권(연합인포맥스)",
+              "url": "https://rreport.einfomax.co.kr/report/eqmizqxieicemgggcgxeecz.pdf",
+              "date": "2026-10-30",
+              "quote": "3Q26 매출 $24.40B(+38.6%yoy), EPS $7.48(+6.6%yoy)로 컨센서스 상회- Tirzepatide $16.1B(+59.1%yoy), 미국과 해외에서 동반 성장- 26년 가이던스 누적 $10B 상향, 27년 성장률(1월 가이던스)이 주가 관건"
+            }
+          ]
+        },
+        {
+          "id": "w2",
+          "statement": "머크는 주사형 키트루다가 실적을 끌어 3분기 예상치를 웃돌고 이익 전망을 올렸다. 3분기 매출은 분기 최고치였다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Merck tops estimates, hikes profit outlook on strength of injectable Keytruda",
+              "publisher": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+              "date": "2026-10-29",
+              "quote": "Merck tops estimates, hikes profit outlook on strength of injectable Keytruda"
+            },
+            {
+              "title": "[머크 (NYS:MRK)] [3Q26 Review] 매출 분기 최고치에도 조정이익은 감소, 투자의견 중립 유지",
+              "publisher": "대신증권(연합인포맥스)",
+              "url": "https://rreport.einfomax.co.kr/report/eqmizxqekgczgxigcgxeecz.pdf",
+              "date": "2026-10-29",
+              "quote": "매출 180.9억 달러, 컨센 4.3% 상회"
+            }
+          ]
+        },
+        {
+          "id": "w3",
+          "statement": "애브비도 3분기 매출과 조정 주당순이익이 예상치를 넘었고 연간 가이던스를 올렸으며, 분기 배당금을 5.2% 인상한다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "[애브비 (NYS:ABBV)] Earnings Flash",
+              "publisher": "한화증권(연합인포맥스)",
+              "url": "https://rreport.einfomax.co.kr/report/eqmizmlileimeecgcgxeecz.pdf",
+              "date": "2026-11-02",
+              "quote": "매출액 174억 달러(YoY +10.3%), 조정 EPS 3.82달러(YOY +115.3%)로 예상치 각각 0.4%, 2.2% 상회."
+            }
+          ]
+        },
+        {
+          "id": "w4",
+          "statement": "신한투자증권은 비만 치료제가 여전히 제약 업종의 주도 테마이며, 실적 성장 기대가 주가 상승을 이끈다고 봤다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "[일라이 릴리 (NYS:LLY)] 비만, 여전히 주도 테마",
+              "publisher": "신한투자증권(연합인포맥스)",
+              "url": "https://rreport.einfomax.co.kr/report/eqmizgzczgxeceigcgxeecz.pdf",
+              "date": "2026-10-30",
+              "quote": "실적 성장 기대감, 주가 상승 주도. 후속 제품이 뒷받침"
+            }
+          ]
+        },
+        {
+          "id": "w5",
+          "statement": "CNBC는 머크와 릴리의 실적 발표 이후 바이오·제약주가 함께 올랐다고 전했다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Biopharma stocks climb on Merck and Eli Lilly earnings",
+              "publisher": "CNBC",
+              "url": "https://www.cnbc.com/video/2026/10/29/biopharma-stocks-climb-on-merck-and-eli-lilly-earnings.html",
+              "date": "2026-10-29",
+              "quote": "Biopharma stocks climb on Merck and Eli Lilly earnings"
+            }
+          ]
+        }
+      ],
+      "leaders": [
+        {
+          "ticker": "LLY",
+          "role": "세계 제약 시가총액 1위로, 비만·당뇨 치료제 성장이 업종 강세의 중심",
+          "why": [
+            {
+              "id": "l1a",
+              "statement": "릴리는 티르제파타이드(비만·당뇨 치료제) 매출이 크게 늘어 3분기 실적이 예상을 웃돌았고, 연간 가이던스를 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[일라이 릴리 (NYS:LLY)] 연간 가이던스 3분기 연속 상향",
+                  "publisher": "대신증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmizqxieicemgggcgxeecz.pdf",
+                  "date": "2026-10-30",
+                  "quote": "Tirzepatide $16.1B(+59.1%yoy), 미국과 해외에서 동반 성장- 26년 가이던스 누적 $10B 상향, 27년 성장률(1월 가이던스)이 주가 관건"
+                }
+              ]
+            },
+            {
+              "id": "l1b",
+              "statement": "키움증권은 릴리를 글로벌 제약사 중 시가총액 1위로 소개하며, 2분기에 판매량 증가가 가격 하락을 압도했다고 평가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[일라이 릴리 (NYS:LLY)] 다이어트의 계절…여름",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlxczzqgqmzlezgcgxeecz.pdf",
+                  "date": "2026-08-07",
+                  "quote": "일라이 릴리는 글로벌 제약 기업 중 시가총액 1위의 기업- FY2Q26는 판매가격 하락을 판매량 증가가 압도해 매출과 수익성이 예상치를 상회"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticker": "MRK",
+          "role": "키트루다(항암제) 중심의 대형 제약사로 3분기 매출이 분기 최고치",
+          "why": [
+            {
+              "id": "l2a",
+              "statement": "머크는 주사형 키트루다 호조로 예상치를 넘고 이익 전망을 올렸다. 대신증권에 따르면 3분기 매출은 컨센서스를 4.3% 웃돌았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Merck tops estimates, hikes profit outlook on strength of injectable Keytruda",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+                  "date": "2026-10-29",
+                  "quote": "Merck tops estimates, hikes profit outlook on strength of injectable Keytruda"
+                },
+                {
+                  "title": "[머크 (NYS:MRK)] [3Q26 Review] 매출 분기 최고치에도 조정이익은 감소, 투자의견 중립 유지",
+                  "publisher": "대신증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmizxqekgczgxigcgxeecz.pdf",
+                  "date": "2026-10-29",
+                  "quote": "매출 180.9억 달러, 컨센 4.3% 상회"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticker": "ABBV",
+          "role": "면역·신약 포트폴리오로 안정적 현금 창출력을 보인 대형 제약사",
+          "why": [
+            {
+              "id": "l3a",
+              "statement": "애브비는 3분기 말 현금 108억 달러, 1~3분기 누적 잉여현금흐름 약 140억 달러를 기록했다. 이를 바탕으로 분기 배당금을 5.2% 올린다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[애브비 (NYS:ABBV)] Earnings Flash",
+                  "publisher": "한화증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmizmlileimeecgcgxeecz.pdf",
+                  "date": "2026-11-02",
+                  "quote": "3분기 말 현금 108억 달러, 1~3분기 누적 잉여현금흐름(FCF) 약 140억 달러 기록. 견조한 현금창출력을 바탕으로 2027년 2월 지급분부터 분기 배당금 5.2% 인상(주당 1.73달러→ 1.82달러)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticker": "AMGN",
+          "role": "소세포폐암 신약 병용 임상으로 처방 대상 확대 기대를 받는 종목",
+          "why": [
+            {
+              "id": "l4a",
+              "statement": "대신증권에 따르면 암젠의 Imdelltra와 임핀지 병용은 1차 소세포폐암에서 사망 위험을 58% 낮췄고, 2차에서 1차 치료로 확장하면 성장동력이 추가된다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[암젠 (NAS:AMGN)] [Issue & News] 임핀지 병용 1차 치료 3상, 생존 중앙값 21.1개월 - 2차에서 1차로 처방 환자군 확대 기대",
+                  "publisher": "대신증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeecz.pdf",
+                  "date": "2026-10-26",
+                  "quote": "Imdelltra+Imfinzi 병용, 1차 소세포폐암서 사망위험 58%↓- 생존기간 중앙값 21.1개월 vs 12.7개월, 1년생존 80%대 53%- 2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ticker": "JNJ",
+          "role": "전립선암·혈액암 등 신약 파이프라인을 넓히는 초대형 제약사",
+          "why": [
+            {
+              "id": "l5a",
+              "statement": "대신증권에 따르면 존슨앤드존슨의 에르레이다는 고위험 전립선암에서 재발·사망 위험을 62% 낮춰 조기 치료 영역으로 확장할 발판을 마련했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[존슨 앤드 존슨 (NYS:JNJ)] [Issue & News] 에르레이다, 수술 단독 대비 재발·사망 위험 62% 낮춤 - 전립선암 조기조기치료 영역으로 확장 발판 마련",
+                  "publisher": "대신증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgmxmxmkkgglcgcgxeecz.pdf",
+                  "date": "2026-10-26",
+                  "quote": "에르레이다, 고위험 전립선암서 재발·사망 위험 62% 감소- 수술 전후 투여 방식의 새 적응증 확장 가능성 시사- 매출 반영은 규제·가이드라인 절차 거쳐야 확인 가능"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "id": "r3",
+          "statement": "애브비의 면역질환 치료제 스카이리지는 성장률이 65%에서 29%로 둔화했고 경쟁이 심해지는 국면이다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "[애브비 (NYS:ABBV)] [Issue & News] 피하주사 크론병 치료제 4분기 승인 기대 - IBD 프랜차이즈 성장 둔화 방어 카드",
+              "publisher": "대신증권(연합인포맥스)",
+              "url": "https://rreport.einfomax.co.kr/report/eqlmccizilzqxlxgcgxeecz.pdf",
+              "date": "2026-09-09",
+              "quote": "Skyrizi 성장률 둔화(65%→29%) 속 경쟁 심화 국면"
+            }
+          ]
+        }
+      ],
+      "sourceGap": "업종 전체를 직접 다룬 리포트는 없어 개별 종목 기사와 리포트로 구성했다. 길리어드·바이오젠·노바티스·아스트라제네카는 증권사 리포트가 없어 주도주에서 제외했다.",
+      "factcheck": {
+        "verdict": "partial",
+        "removed": [
+          "r1",
+          "r2"
+        ],
+        "reason": "r1 quote('적응증 확장으로 매출원 다변화')가 제목의 주장('매출 공백은 그대로')과 모순. r2 '기대 미달 시 강세 약화'는 quote의 '성장률이 주가 관건'에서 유추한 것으로 직접 서술이 아님"
+      },
+      "summaryOriginal": "일라이 릴리·머크·애브비가 10월 말 3분기 실적에서 시장 예상을 웃돌고 연간 전망을 올렸다. 릴리는 비만·당뇨 치료제 티르제파타이드 매출이 크게 늘어 연간 가이던스를 3분기 연속 올렸다. 암젠은 폐암 신약 병용 임상 결과로 처방 대상 확대 기대를 받았다. 이 흐름이 이어지려면 릴리의 내년 성장률과 머크의 키트루다 특허 만료 이후 매출 공백 대응이 확인돼야 한다."
+    }
+  ],
+  "failed": [],
+  "coverage": {
+    "done": 1,
+    "total": 1,
+    "failed": 0
+  }
+}

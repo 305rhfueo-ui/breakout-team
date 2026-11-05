@@ -1,0 +1,231 @@
+{
+ "ticker": "SPB",
+ "news": [
+  {
+   "title": "Here's Why Spectrum Brands (SPB) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-spectrum-brands-spb-strong-value-stock-0",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Spectrum Brands (SPB) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-spectrum-brands-spb-strong-value-stock",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Spectrum Brands (SPB) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-spectrum-brands-spb-top-momentum-stock-long-term",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Spectrum Brands (SPB) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/spectrum-brands-spb-q3-2026-earnings-call-transcript",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Why Spectrum Brands (SPB) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-spectrum-brands-spb-top-value-stock-long-term",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Upcoming Dividend Run For SPB?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-spb",
+   "date": "2026-08-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Is Spectrum Brands Holdings (SPB) Still Below Fair Value On Its Rejuvenate Launch?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/spectrum-brands-holdings-spb-still-201219581.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Helen of Troy Rejects Empower Brands' $37-Per-Share Acquisition Proposal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/helen-troy-rejects-empower-brands-182502825.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Helen of Troy Confirms Rejection of Unsolicited, Non-Binding Proposal from Spectrum Brands and Oaktree Capital Management",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/helen-troy-confirms-rejection-unsolicited-175800525.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Hydro Flask, Osprey owner receives acquisition proposal valued at $1.6B",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hydro-flask-osprey-owner-receives-163100876.html",
+   "date": "2026-11-04",
+   "publisher": "Retail Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Spectrum Brands' Empower Brands Proposes to Buy Helen of Troy for $37 a Share in Cash",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/spectrum-brands-apos-empower-brands-145940630.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Empower Brands Makes Unsolicited Bid to Buy Helen of Troy for $1.6 Billion",
+   "url": "https://finance.yahoo.com/m/180f5045-b072-38aa-b632-314db42a6f25/empower-brands-makes.html",
+   "date": "2026-11-04",
+   "publisher": "The Wall Street Journal",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Reynolds Consumer Products (REYN) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/reynolds-consumer-products-reyn-q3-125506088.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Empower Brands Announces Proposal to Acquire Helen of Troy Ltd. for $37.00 Per Share in Cash",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/empower-brands-announces-proposal-acquire-120000520.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Spectrum Brands Holdings (SPB) Stock May Look Rich Given Its Earnings Path",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/spectrum-brands-holdings-spb-stock-111217596.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000095010326016905/dp256289_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000038/spb-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000035/spb-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000018/spb-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-01",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000013/spb-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000007/spb-20260205.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.92,
+  "saleNy": 1.26,
+  "epsCy": 11.87,
+  "epsNy": -5.13,
+  "cyTrend": -2.94,
+  "nyTrend": 2.83,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.68,
+    4.91,
+    -3.31
+   ],
+   "ni": [
+    -234.67,
+    2355.56,
+    20.85
+   ],
+   "opm": [
+    2.11,
+    6.14,
+    4
+   ],
+   "updated": "2026-09-08 05:57:38"
+  }
+ }
+}

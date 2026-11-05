@@ -2,34 +2,90 @@
  "ticker": "KMB",
  "news": [
   {
+   "title": "Bear of the Day: KimberlyClark (KMB)",
+   "url": "https://www.nasdaq.com/articles/bear-day-kimberlyclark-kmb",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
    "title": "Gear Up for Kimberly-Clark (KMB) Q3 Earnings: Wall Street Estimates for Key Metrics",
    "url": "https://www.nasdaq.com/articles/gear-kimberly-clark-kmb-q3-earnings-wall-street-estimates-key-metrics",
    "date": "2026-11-03",
    "publisher": "Zacks"
   },
   {
-   "title": "Kimberly-Clark Completes Acquisition of Kenvue",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-completes-acquisition-kenvue-150010726.html",
-   "date": "2026-11-02",
-   "publisher": "MT Newswires",
+   "title": "Is Kimberly-Clark the Safest Dividend Stock You Can Buy Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-safest-dividend-stock-193500624.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
    "via": "Yahoo"
   },
   {
-   "title": "Kimberly-Clark Completes Acquisition of Kenvue, Creating the Preeminent Global Consumer Health and Wellness Leader",
-   "url": "https://finance.yahoo.com/healthcare/articles/kimberly-clark-completes-acquisition-kenvue-140200917.html",
-   "date": "2026-11-02",
+   "title": "Bear of the Day: KimberlyClark (KMB)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bear-day-kimberlyclark-kmb-083000782.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Texas Instruments and KimberlyClark have been highlighted as Zacks Bull and Bear of the Day",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-kimberlyclark-highlighted-zacks-072800436.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 Defensive Consumer Stocks To Watch If Rates Stay Higher For Longer",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-defensive-consumer-stocks-watch-141133427.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kimberly Clark (KMB) Completes Kenvue Acquisition",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-completes-kenvue-141047351.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kimberly-Clark Corporation Announces Expiration and Final Results of Exchange Offers for Kenvue Notes",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-corporation-announces-expiration-141000898.html",
+   "date": "2026-11-03",
    "publisher": "PR Newswire",
    "via": "Yahoo"
   },
   {
-   "title": "Kimberly Clark (KMB) Stock Could Be 26% Below Fair Value On Debt Funded Acquisition",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-stock-could-061808887.html",
-   "date": "2026-10-31",
-   "publisher": "Simply Wall St.",
+   "title": "Earnings Preview: Grocery Outlet Holding Corp. (GO) Q3 Earnings Expected to Decline",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-grocery-outlet-holding-140002539.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
    "via": "Yahoo"
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-02",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926122765/tm2628875d1_8k.htm",
+   "description": "FORM 8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-11-02",
@@ -123,22 +179,6 @@
    "isEarnings": true,
    "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926115960/tm2627599d1_8k.htm",
    "description": "FORM 8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-10-13",
-   "reportDate": "2026-10-09",
-   "items": [
-    "8.01",
-    "9.01"
-   ],
-   "itemsKo": [
-    "기타 중요사건",
-    "재무제표·첨부"
-   ],
-   "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926115239/tm2627373d1_8k.htm",
-   "description": "FORM 8-K"
   }
  ],
  "financials": null,
@@ -146,13 +186,13 @@
  "site": {
   "targetStatus": false,
   "saleCy": 1.05,
-  "saleNy": 2.45,
-  "epsCy": -1.64,
-  "epsNy": 0.28,
-  "cyTrend": 0.37,
-  "nyTrend": -0.52,
+  "saleNy": 2.37,
+  "epsCy": -1.86,
+  "epsNy": 0.11,
+  "cyTrend": 0.14,
+  "nyTrend": -0.91,
   "newHigh52": false,
-  "bbCenterBrk5d": false,
+  "bbCenterBrk5d": true,
   "fs": {
    "sale": [
     0.62,

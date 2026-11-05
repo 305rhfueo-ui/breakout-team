@@ -1,0 +1,307 @@
+{
+ "ticker": "HCA",
+ "sector": "Healthcare",
+ "industry": "Medical Care Facilities",
+ "nameKo": "HCA 헬스케어",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.71,
+  "saleNy": 3.16,
+  "epsCy": 6.93,
+  "epsNy": 3.72,
+  "est": {
+   "cyCur": 30.16439,
+   "cy30": 29.48904,
+   "nyCur": 31.28544,
+   "ny30": 32.01582
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.73,
+    4.3,
+    6.72
+   ],
+   "ni": [
+    2.78,
+    0.62,
+    30.6
+   ],
+   "opm": [
+    15.24,
+    15.03,
+    16.41
+   ],
+   "updated": "2026-09-07 07:40:26"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-05",
+  "nameKo": "HCA 헬스케어",
+  "nameEn": "HCA HEALTHCARE INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000860730&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 19109000000,
+     "profit": 2287000000,
+     "netIncome": 1620000000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 4.3,
+      "profit": -1.7,
+      "netIncome": 0.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 19513000000,
+     "profit": 2672000000,
+     "netIncome": 1878000000,
+     "margin": 13.7,
+     "yoy": {
+      "revenue": 6.7,
+      "profit": 25.3,
+      "netIncome": 30.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 19161000000,
+     "profit": 2418000000,
+     "netIncome": 1643000000,
+     "margin": 12.6,
+     "yoy": {
+      "revenue": 9.6,
+      "profit": 26.9,
+      "netIncome": 29.4,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 18605000000,
+     "profit": 2415000000,
+     "netIncome": 1653000000,
+     "margin": 13,
+     "yoy": {
+      "revenue": 6.4,
+      "profit": 8,
+      "netIncome": 13.1,
+      "priorEnd": "2024-06-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why HCA Healthcare (HCA) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-hca-healthcare-hca-top-growth-stock-long-term",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What HCA Healthcare (HCA) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-hca-healthcare-hca-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "HCA (HCA) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hca-hca-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "HCA (HCA) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/hca-hca-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "HCA Healthcare Reports Third Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/hca-healthcare-reports-third-quarter-2026-results",
+     "date": "2026-10-27",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "HCA Healthcare Q3 26 Earnings Conference Call At 10:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/hca-healthcare-q3-26-earnings-conference-call-10-00-am-et",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "HCA Healthcare, Inc. Q3 Sales Increase",
+     "url": "https://www.nasdaq.com/articles/hca-healthcare-inc-q3-sales-increase",
+     "date": "2026-10-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "HCA Healthcare (HCA) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/hca-healthcare-hca-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526443864/hca-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526432665/hca-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "2.03",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526323731/d315311d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526315151/hca-20260724.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526302539/hca-20260714.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526275086/d163825d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Wednesday's biggest analyst calls: SpaceX, Apple, Micron, Microsoft, CoreWeave",
+   "url": "https://www.cnbc.com/2026/09/23/wednesday-biggest-analyst-calls-on-wall-street.html",
+   "date": "2026-09-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A healthcare provider is set up for a big move higher, according to the charts",
+   "url": "https://www.cnbc.com/2026/09/16/a-healthcare-provider-is-set-up-for-a-big-move-higher-according-to-the-charts.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: 'Fortinet is good",
+   "url": "https://www.cnbc.com/2026/08/05/cramers-lightning-round-fortinet-is-good.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's big stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/07/23/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-07-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks stumble as oil surges, and Lilly takes a new path on next-gen obesity drug",
+   "url": "https://www.cnbc.com/investingclub/2026/07/23/wall-street-stumbles-as-oil-surges-and-lilly-takes-a-new-path-on-next-gen-obesity-drug.html",
+   "date": "2026-07-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cybersecurity stocks surge thanks to IBM, and Nvidia climbs on more good China news",
+   "url": "https://www.cnbc.com/investingclub/2026/07/14/cybersecurity-stocks-surge-thanks-to-ibm-and-nvidia-climbs-on-more-good-china-news.html",
+   "date": "2026-07-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "HCA",
+  "fetchedAt": "2026-11-05",
+  "source": "한국투자증권 Open API",
+  "per": 17.1,
+  "pbr": 0,
+  "eps": 29.87,
+  "bps": 0,
+  "shares": 208893000,
+  "marketCapM": 106682,
+  "high52": 553.5617,
+  "high52Date": "2026-03-12",
+  "low52": 353.3387,
+  "low52Date": "2026-07-14",
+  "last": 510.7,
+  "prevClose": 462.86,
+  "nameKo": "HCA 헬스케어",
+  "nameEn": "HCA HEALTHCARE INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 208893000
+ }
+}

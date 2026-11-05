@@ -1,0 +1,181 @@
+{
+ "ticker": "AFRM",
+ "news": [
+  {
+   "title": "Affirm Holdings (AFRM) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+   "url": "https://www.nasdaq.com/articles/affirm-holdings-afrm-q1-earnings-preview-what-you-should-know-beyond-headline-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Affirm Holdings (AFRM) Increases Despite Market Slip: Here's What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/affirm-holdings-afrm-increases-despite-market-slip-heres-what-you-need-know",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What's in the Cards for BILL Holdings Stock This Earnings Season?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/whats-cards-bill-holdings-stock-152400427.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Shopify Sinks 15% as Q3 GMV and Subscription Revenue Miss Estimates: Not “Uncommonly Good”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-sinks-15-q3-gmv-141817096.html",
+   "date": "2026-11-03",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BMO Lifts Price Target on Affirm Holdings to $102 From $101, Keeps Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-lifts-price-target-affirm-133447767.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Affirm Holdings (AFRM) Stock Too Stretched To Look Reasonable?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/affirm-holdings-afrm-stock-too-171652451.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Affirm Holdings (AFRM) Heads Into Holiday Checkout Push With New Pay Over Time Deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/affirm-holdings-afrm-heads-holiday-141511957.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-25",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059271/afrm-20260825.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-18",
+   "items": [
+    "1.01",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026045491/afrm-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026032105/afrm-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026005772/afrm-20260205.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-16",
+   "reportDate": "2026-01-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026002442/afrm-20260113.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-18",
+   "reportDate": "2025-12-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828025057930/afrm-20251215.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 28.91,
+  "saleNy": 24.68,
+  "epsCy": -45.07,
+  "epsNy": 30.25,
+  "cyTrend": 0.52,
+  "nyTrend": 3.89,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    33.04,
+    32.64,
+    29.62
+   ],
+   "ni": [
+    2234.66,
+    3569.76,
+    61.26
+   ],
+   "opm": [
+    12.63,
+    8.51,
+    10.47
+   ],
+   "updated": "2026-09-08 10:08:51"
+  }
+ }
+}

@@ -26,6 +26,20 @@
    "publisher": "Zacks"
   },
   {
+   "title": "Ferrari's New Luce Is Already Sold Out for 2027 — Before Customer Test Drives Begin",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferraris-luce-already-sold-2027-123007943.html",
+   "date": "2026-11-04",
+   "publisher": "Benzinga",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ferrari Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-q3-earnings-call-highlights-081421676.html",
+   "date": "2026-11-04",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
    "title": "Ferrari: 3 Key Takeaways for Long-Term Investors",
    "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-3-key-takeaways-long-003644807.html",
    "date": "2026-11-04",
@@ -66,27 +80,6 @@
    "date": "2026-11-03",
    "publisher": "GuruFocus.com",
    "via": "Yahoo"
-  },
-  {
-   "title": "Ferrari (BIT:RACE) Stock Could Be Overvalued Following Raised 2026 Guidance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-bit-race-stock-could-171453446.html",
-   "date": "2026-11-03",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Will Earnings Beat Change Ferrari Stock Narrative (BIT:RACE)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-change-ferrari-stock-161607778.html",
-   "date": "2026-11-03",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Is Ferrari (BIT:RACE) Fully Valued As Q3 Earnings Beat And Guidance Lift Impress?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/ferrari-bit-race-fully-valued-151244474.html",
-   "date": "2026-11-03",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
   }
  ],
  "filings": [],
@@ -94,14 +87,14 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 6.89,
-  "saleNy": 8.2,
-  "epsCy": 10.05,
-  "epsNy": 11.54,
-  "cyTrend": -0.52,
-  "nyTrend": -0.08,
+  "saleCy": 6.88,
+  "saleNy": 8.22,
+  "epsCy": 10.68,
+  "epsNy": 11.14,
+  "cyTrend": 0.67,
+  "nyTrend": -0.26,
   "newHigh52": false,
-  "bbCenterBrk5d": true,
+  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     11.03,

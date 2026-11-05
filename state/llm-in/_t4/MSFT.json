@@ -1,0 +1,269 @@
+{
+ "ticker": "MSFT",
+ "news": [
+  {
+   "title": "MSFT Q1 Earnings Call Highlights Azure Growth and AI Spending",
+   "url": "https://www.nasdaq.com/articles/msft-q1-earnings-call-highlights-azure-growth-and-ai-spending",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What's Going on With Microsoft Stock?",
+   "url": "https://www.nasdaq.com/articles/whats-going-microsoft-stock-0",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "AudioCodes Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/audiocodes-q3-earnings-call-highlights-151425468.html",
+   "date": "2026-11-04",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "If You Invest $1,000 in Microsoft Today, Here’s What It Could Be Worth by 2029",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/invest-1-000-microsoft-today-150614446.html",
+   "date": "2026-11-04",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Virtual Machines - Global Strategic Business Report 2026: Secure Share of a Market Accelerating at 16.8% CAGR to $36.9 Billion by 2032, Led by AWS, Microsoft, Google Cloud, VMware, and Oracle",
+   "url": "https://finance.yahoo.com/technology/articles/virtual-machines-global-strategic-business-144700481.html",
+   "date": "2026-11-04",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-02",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/d26760d8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 92279000000,
+    "profit": 45915000000,
+    "netIncome": 36629000000,
+    "margin": 49.8,
+    "yoy": {
+     "revenue": 18.8,
+     "profit": 21,
+     "netIncome": 32,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": true,
+    "revenue": 90007000000,
+    "profit": 40603000000,
+    "netIncome": 35766000000,
+    "margin": 45.1,
+    "yoy": {
+     "revenue": 17.7,
+     "profit": 18.3,
+     "netIncome": 31.3,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 82886000000,
+    "profit": 38398000000,
+    "netIncome": 31778000000,
+    "margin": 46.3,
+    "yoy": {
+     "revenue": 18.3,
+     "profit": 20,
+     "netIncome": 23.1,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": false,
+    "revenue": 81273000000,
+    "profit": 38275000000,
+    "netIncome": 38458000000,
+    "margin": 47.1,
+    "yoy": {
+     "revenue": 16.7,
+     "profit": 20.9,
+     "netIncome": 59.5,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 26,
+  "reports": [
+   {
+    "date": "2026-10-30",
+    "broker": "신한투자증권",
+    "analyst": "심지현",
+    "title": "[마이크로소프트 (NAS:MSFT)] 만족스러운 Azure, 덜 불안한 재무제표",
+    "summary": "- 토큰 단가와 효율 개선이 성장에 주효- FY1Q27 Review: 계속되는 Azure 성장률 가속, 하반기 늘어날 CapEx- Valuation & Risks: AI 인프라들이 유리한 상황에서 가장 안정적 옵션",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiezmckgziiqgcgxeecz.pdf",
+    "pages": "6"
+   },
+   {
+    "date": "2026-10-29",
+    "broker": "대신증권",
+    "analyst": "김회재",
+    "title": "[마이크로소프트 (NAS:MSFT)] Azure 성장 재가속, AI 투자 효율 개선 본격화",
+    "summary": "- Azure 매출 48% 성장, AI 컴퓨팅 수요와 효율 개선 확인- Copilot 사용 확대, 기업용 AI 에이전트 상용화 가속- Azure 성장 추가 가속 전망, CapEx와 수익성이 관건",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiekglkmgmqggcgxeecz.pdf",
+    "pages": "15"
+   },
+   {
+    "date": "2026-10-29",
+    "broker": "키움증권",
+    "analyst": "김승혁",
+    "title": "[마이크로소프트 (NAS:MSFT)] 비용을 이긴 효율",
+    "summary": "- 마이크로소프트는 클라우드(Azure)와 업무용 SaaS, AI 서비스를 개발하는 IT 기업- FY1Q27은 증설 지연에도 기존 설비 효율로 Azure가 48% 성장, FCF 흑자를 유지- 사용량이 매출이 되는 과금 구조와 기존설비 효율성 증가 기반 긍정적 흐름 전망",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigxqigzcmkxegcgxeecz.pdf",
+    "pages": "7"
+   },
+   {
+    "date": "2026-10-29",
+    "broker": "SK증권",
+    "analyst": "박제민",
+    "title": "[마이크로소프트 (NAS:MSFT)] 완성되는 기업용 AI 왕국",
+    "summary": "- Signal: 시대정신의 수혜 지속- Key: 완성되는 기업용 AI 왕국- Step: 내부 효율화의 효과",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigxcczzzxxmlgcgxeecz.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-10-29",
+    "broker": "하나증권",
+    "analyst": "김재임",
+    "title": "[마이크로소프트 (NAS:MSFT)] 예상보다 빠른 Azure 성장 가속, 수익성도 개선",
+    "summary": "- 주요 실적 지표와 가이던스 시장 기대치 여유 있게 상회- 하반기 투자 집행 가속 전망, FY27년 FCF 흑자 유지 재확인- Azure 성장과 AI 수익화 성과로 투자 매력 강화",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigzqkzmqgcmqgcgxeecz.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-10-29",
+    "broker": "한화증권",
+    "analyst": "신승윤",
+    "title": "[마이크로소프트 (NAS:MSFT)] Earnings Flash",
+    "summary": "- 매출액 922.8억 달러(YoY +18.8%), 영업이익 459.2억 달러(YoY +21%), 조정 EPS 4.89달러(YoY +18.4%)로 각각 예상치 1.8%, 4.6%. 3.5% 상회- 1Q27 주주환원 102억 달러 집행(배당 72.8억 달러, 자사주 매입 29.3억 달러)- 실적으로 확인된 Azure 수요, FCF 혹자 유지 전망으로 AI 투자 부담 완화되며 시간 외 +2.9%(vs. Alphabet -10%)",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigzklmgccizcgcgxeecz.pdf",
+    "pages": "1"
+   },
+   {
+    "date": "2026-10-27",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[마이크로소프트 (NAS:MSFT)] [Issue & News] 약 6만 명에 희망퇴직 보상안 제안 - 분기 설비투자 500억 달러 이상 예고 속 비용구조 조정 가능성",
+    "summary": "- 마이크로소프트, 약 6만 명에 바이아웃 제안(세부 미공개)- 총이익률 7분기 연속 하락 속 비용구조 재점검 해석- Azure +43%·cRPO +84%로 성장 모멘텀은 여전히 견조",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiczmmeqkqmiggcgxeecz.pdf",
+    "pages": "4"
+   },
+   {
+    "date": "2026-10-20",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[마이크로소프트 (NAS:MSFT)] [27Q1 Preview] Azure 매출 성장률 43% 유지 여부가 분수령, 투자의견 적극 매수 유지",
+    "summary": "- 이번 실적은 Azure 성장률 43% 수준 유지 여부가 핵심- AI 인프라 비용 부담 속 마진 하락이 멈추는지와 대규모 설비투자에 따른 현금흐름 부담도 중요- 클라우드와 Copilot 성장세가 전사 성장을 이끌고 있어 Azure 둔화 시 대체 성장축은 제한적",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgkxckgmmexkkgcgxeecz.pdf",
+    "pages": "5"
+   }
+  ]
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 19.29,
+  "saleNy": 20.23,
+  "epsCy": 15.76,
+  "epsNy": 20.87,
+  "cyTrend": 1.29,
+  "nyTrend": 2.25,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    17.75,
+    18.3,
+    16.72
+   ],
+   "ni": [
+    31.33,
+    23.06,
+    59.52
+   ],
+   "opm": [
+    45.11,
+    46.33,
+    47.09
+   ],
+   "updated": "2026-09-08 09:05:21"
+  }
+ }
+}

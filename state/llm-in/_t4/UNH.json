@@ -1,0 +1,181 @@
+{
+ "ticker": "UNH",
+ "news": [
+  {
+   "title": "See Which Recent 13F Filers Hold UNH",
+   "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-unh",
+   "date": "2026-11-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Will UNH's Optum Insight Spending Translate Into Profit Growth?",
+   "url": "https://www.nasdaq.com/articles/will-unhs-optum-insight-spending-translate-profit-growth",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why UnitedHealth Group (UNH) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-unitedhealth-group-unh-strong-value-stock-0",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "UnitedHealth Stock And Medicare Advantage Insurers In Focus After Midterm Gridlock",
+   "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-stock-medicare-advantage-insurers-232105666.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CVS Health Sinks 12% on Historic Breakup Plan: “One Great Company and Making It Two”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cvs-health-sinks-12-historic-153132938.html",
+   "date": "2026-11-04",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UnitedHealth Group (UNH) Draws Breakup Pressure As AI Threat Enters The Story",
+   "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-draws-breakup-151157985.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UnitedHealth Group Board Authorizes Payment of Quarterly Dividend",
+   "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-board-authorizes-payment-130000211.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UnitedHealth Just Gained 11% in a Month: Take Profits, or Buy More?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-just-gained-11-month-173331820.html",
+   "date": "2026-11-03",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000255/unh-20261013.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000205/unh-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000191/unh-20260716.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000138/unh-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000129/unh-20260511.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000121/unh-20260421.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.34,
+  "saleNy": 3.12,
+  "epsCy": 25.94,
+  "epsNy": 13.09,
+  "cyTrend": 3.65,
+  "nyTrend": 2.99,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.37,
+    1.96,
+    12.31
+   ],
+   "ni": [
+    61.01,
+    -0.19,
+    -99.82
+   ],
+   "opm": [
+    7.13,
+    8.05,
+    0.34
+   ],
+   "updated": "2026-09-08 10:03:59"
+  }
+ }
+}

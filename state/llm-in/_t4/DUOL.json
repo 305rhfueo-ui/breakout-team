@@ -2,6 +2,42 @@
  "ticker": "DUOL",
  "news": [
   {
+   "title": "Why Duolingo Stock Skyrocketed Today",
+   "url": "https://www.nasdaq.com/articles/why-duolingo-stock-skyrocketed-today",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Duolingo: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/duolingo-3-key-takeaways-long-term-investors",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Duolingo's User Surge Starts Paying Off: Rapid Earnings Reaction",
+   "url": "https://www.nasdaq.com/articles/duolingos-user-surge-starts-paying-rapid-earnings-reaction",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Duolingo (DUOL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/duolingo-duol-q3-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Duolingo Reports Q3 2026 Results with 29% Daily Active User Growth and Raises Full-Year Guidance",
+   "url": "https://www.nasdaq.com/articles/duolingo-reports-q3-2026-results-29-daily-active-user-growth-and-raises-full-year-guidance",
+   "date": "2026-11-04",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "What Duolingo (DUOL) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-duolingo-duol-said-its-q3-earnings-call",
+   "date": "2026-11-04",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Duolingo (DUOL) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
    "url": "https://www.nasdaq.com/articles/duolingo-duol-q3-earnings-taking-look-key-metrics-versus-estimates",
    "date": "2026-11-03",
@@ -14,95 +50,52 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Insights Into Duolingo (DUOL) Q3: Wall Street Projections for Key Metrics",
-   "url": "https://www.nasdaq.com/articles/insights-duolingo-duol-q3-wall-street-projections-key-metrics",
-   "date": "2026-10-29",
-   "publisher": "Zacks"
+   "title": "Why Duolingo Stock Skyrocketed Today",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-duolingo-stock-skyrocketed-today-012509187.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
   },
   {
-   "title": "Duolingo, Inc. (DUOL) Expected to Beat Earnings Estimates: Should You Buy?",
-   "url": "https://www.nasdaq.com/articles/duolingo-inc-duol-expected-beat-earnings-estimates-should-you-buy",
-   "date": "2026-10-27",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Duolingo, Inc. (DUOL) Stock Dips While Market Gains: Key Facts",
-   "url": "https://www.nasdaq.com/articles/duolingo-inc-duol-stock-dips-while-market-gains-key-facts",
-   "date": "2026-10-26",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Here is What to Know Beyond Why Duolingo, Inc. (DUOL) is a Trending Stock",
-   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-duolingo-inc-duol-trending-stock",
-   "date": "2026-10-23",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Duolingo, Inc. (DUOL) Stock Sinks As Market Gains: What You Should Know",
-   "url": "https://www.nasdaq.com/articles/duolingo-inc-duol-stock-sinks-market-gains-what-you-should-know",
-   "date": "2026-10-20",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Duolingo, Inc. (DUOL) Falls More Steeply Than Broader Market: What Investors Need to Know",
-   "url": "https://www.nasdaq.com/articles/duolingo-inc-duol-falls-more-steeply-broader-market-what-investors-need-know",
-   "date": "2026-10-13",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "What Duolingo (DUOL) Said on Its Q3 Earnings Call",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-duol-said-q3-earnings-011409080.html",
+   "title": "Duolingo stock soars 26% on strong user growth, monetization plans",
+   "url": "https://finance.yahoo.com/markets/stocks/article/duolingo-stock-soars-26-on-strong-user-growth-monetization-plans-213408219.html",
    "date": "2026-11-04",
-   "publisher": "MarketBeat",
+   "publisher": "Yahoo Finance",
    "via": "Yahoo"
   },
   {
-   "title": "Duolingo (DUOL) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-duol-q3-earnings-taking-233003195.html",
-   "date": "2026-11-03",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Duolingo Sees Booking Growth Accelerate Along With Users",
-   "url": "https://finance.yahoo.com/m/48004128-8029-3d23-abca-1dfa996b404c/duolingo-sees-booking-growth.html",
-   "date": "2026-11-03",
-   "publisher": "Barrons.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Duolingo’s (NASDAQ:DUOL) Q3 2026 sales beat estimates, stock jumps 11.1%",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-nasdaq-duol-q3-2026-221902289.html",
-   "date": "2026-11-03",
-   "publisher": "StockStory",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Duolingo, Inc. (DUOL) Q3 Earnings Miss Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-inc-duol-q3-earnings-215003363.html",
-   "date": "2026-11-03",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Duolingo Q3 Earnings Fall, Revenue Rises",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-q3-earnings-fall-revenue-212835520.html",
-   "date": "2026-11-03",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Duolingo Reports Third Quarter 2026 Results",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-reports-third-quarter-2026-210100884.html",
-   "date": "2026-11-03",
-   "publisher": "GlobeNewswire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Duolingo (DUOL) Faces Class Actions, Is The Stock Fairly Valued?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-duol-faces-class-actions-231835766.html",
-   "date": "2026-10-30",
+   "title": "Duolingo Stock What Changed After Strong User Growth And Raised Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-stock-changed-strong-user-191014109.html",
+   "date": "2026-11-04",
    "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Duolingo (DUOL) Stock May Sit Above Fair Value On Current Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-duol-stock-may-sit-170914688.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Duolingo Is Up 11% After Hours as Its User Growth Speeds Up Again",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-11-hours-user-growth-170227707.html",
+   "date": "2026-11-04",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Duolingo shares jump as revenue and outlook top estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-shares-jump-revenue-outlook-165800698.html",
+   "date": "2026-11-04",
+   "publisher": "Proactive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Duolingo: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-3-key-takeaways-long-162701279.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
    "via": "Yahoo"
   }
  ],
@@ -110,110 +103,141 @@
   {
    "form": "8-K",
    "filingDate": "2026-11-03",
-   "reportDate": "2026-11-03",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069474/duol-20261103.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069474/duol-20261103.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-19",
-   "reportDate": "2026-08-18",
-   "items": [
-    "7.01"
-   ],
    "itemsKo": [
     "Reg FD 공시"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026057818/duol-20260818.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026057818/duol-20260818.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-10",
-   "reportDate": "2026-08-10",
-   "items": [
-    "5.02",
-    "7.01",
-    "9.01"
-   ],
    "itemsKo": [
     "임원 변동",
     "Reg FD 공시",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026055015/duol-20260810.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026055015/duol-20260810.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-05",
-   "reportDate": "2026-08-05",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/duol-20260805.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/duol-20260805.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-06-05",
-   "reportDate": "2026-06-03",
-   "items": [
-    "5.07"
-   ],
    "itemsKo": [
     "주주총회 표결"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026041280/duol-20260603.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026041280/duol-20260603.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-04",
-   "reportDate": "2026-05-04",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026029790/duol-20260504.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026029790/duol-20260504.htm"
   }
  ],
- "financials": null,
- "krReports": null,
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001562088&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 298454000,
+    "profit": 33945000,
+    "netIncome": 33158000,
+    "margin": 11.4,
+    "yoy": {
+     "revenue": 18.3,
+     "profit": 1.7,
+     "netIncome": -26,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 291967000,
+    "profit": 44527000,
+    "netIncome": 43460000,
+    "margin": 15.3,
+    "yoy": {
+     "revenue": 26.5,
+     "profit": 88.7,
+     "netIncome": 23.7,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 282868000,
+    "profit": 43454000,
+    "netIncome": 41956000,
+    "margin": 15.4,
+    "yoy": {
+     "revenue": 35,
+     "profit": 213,
+     "netIncome": 208.2,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 271713000,
+    "profit": 35159000,
+    "netIncome": 292195000,
+    "margin": 12.9,
+    "yoy": {
+     "revenue": 41.1,
+     "profit": 159,
+     "netIncome": 1150.8,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
  "site": {
   "targetStatus": false,
-  "saleCy": 16.4,
-  "saleNy": 13.31,
+  "saleCy": 17.71,
+  "saleNy": 12.24,
   "epsCy": -43.79,
   "epsNy": 15.51,
   "cyTrend": 0,
   "nyTrend": -0.01,
   "newHigh52": false,
-  "bbCenterBrk5d": false,
+  "bbCenterBrk5d": true,
   "fs": {
    "sale": [
     18.31,

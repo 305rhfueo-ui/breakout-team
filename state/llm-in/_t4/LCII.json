@@ -1,0 +1,282 @@
+{
+ "ticker": "LCII",
+ "news": [
+  {
+   "title": "LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners to Acquire LCI for $101 Per Share in Cash",
+   "url": "https://www.nasdaq.com/articles/lci-industries-confirms-receipt-unsolicited-non-binding-proposal-monomoy-capital-partners",
+   "date": "2026-10-28",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "LCI (LCII) Earnings Expected to Grow: What to Know Ahead of Q3 Release",
+   "url": "https://www.nasdaq.com/articles/lci-lcii-earnings-expected-grow-what-know-ahead-q3-release",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LCI Industries is Oversold",
+   "url": "https://www.nasdaq.com/articles/lci-industries-oversold",
+   "date": "2026-09-11",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "LCII Ex-Dividend Reminder - 8/21/26",
+   "url": "https://www.nasdaq.com/articles/lcii-ex-dividend-reminder-8-21-26",
+   "date": "2026-08-19",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "LCI Industries (LCII) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/lci-industries-lcii-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "LCI Industries Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/lci-industries-q2-earnings-call-highlights",
+   "date": "2026-08-08",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "LCI (LCII) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/lci-lcii-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LCI (LCII) Q2 Earnings Top Estimates",
+   "url": "https://www.nasdaq.com/articles/lci-lcii-q2-earnings-top-estimates",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cooper-Standard (CPS) Reports Q3 Loss, Beats Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cooper-standard-cps-reports-q3-234505286.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 Dividend Stocks With Yields Over 3%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-yields-over-171345996.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "SolarWindow Scales Up Sales and OEM Integration: Adds Former Lippert Executive and Manufacturing Teams to Meet Growing Customer Interest in Its Ultra-Thin Bendable Solar",
+   "url": "https://finance.yahoo.com/energy/articles/solarwindow-scales-sales-oem-integration-133000796.html",
+   "date": "2026-11-03",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Analysts Estimate EVgo Inc. (EVGO) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-evgo-inc-evgo-140008262.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LCI Industries (LCII) Stock Looks About Right After Merger Backing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lci-industries-lcii-stock-looks-191205325.html",
+   "date": "2026-10-31",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LCI Industries Board Rejects Monomoy Capital's $101 Per Share Acquisition Bid",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lci-industries-board-rejects-monomoy-120544049.html",
+   "date": "2026-10-30",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LCI Board Determines That the Unsolicited, Non-Binding Proposal From Monomoy Capital Partners Does Not Constitute a Superior Proposal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lci-board-determines-unsolicited-non-113000153.html",
+   "date": "2026-10-30",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lear (LEA) Q3 Earnings Top Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lear-lea-q3-earnings-top-111502182.html",
+   "date": "2026-10-30",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Patrick Industries (PATK) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/patrick-industries-patk-said-q3-191444537.html",
+   "date": "2026-10-29",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Patrick Reaffirms LCI Industries Merger After Monomoy Buyout Approach",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/patrick-reaffirms-lci-industries-merger-135902872.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000101/lcii-20261030.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000094/lcii-20261028.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000093/lcii-20261022.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000089/lcii-20261009.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000084/lcii-20260904.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000082/lcii-20260810.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000763744&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 968675000,
+    "profit": 95960000,
+    "netIncome": 67141000,
+    "margin": 9.9,
+    "yoy": {
+     "revenue": -12.5,
+     "profit": 9.3,
+     "netIncome": 16.5,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 1090517000,
+    "profit": 95159000,
+    "netIncome": 62947000,
+    "margin": 8.7,
+    "yoy": {
+     "revenue": 4.3,
+     "profit": 17,
+     "netIncome": 27.3,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 932700000,
+    "profit": 35362000,
+    "netIncome": 18684000,
+    "margin": 3.8,
+    "yoy": {
+     "revenue": 16.1,
+     "profit": 119.2,
+     "netIncome": 95.7,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 1036477000,
+    "profit": 75439000,
+    "netIncome": 62493000,
+    "margin": 7.3,
+    "yoy": {
+     "revenue": 13.2,
+     "profit": 40,
+     "netIncome": 75.5,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": -3.32,
+  "saleNy": 3.92,
+  "epsCy": 12.2,
+  "epsNy": 9.19,
+  "cyTrend": -1.53,
+  "nyTrend": -3.32,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -12.52,
+    4.3,
+    16.13
+   ],
+   "ni": [
+    16.49,
+    27.33,
+    95.71
+   ],
+   "opm": [
+    9.91,
+    8.73,
+    3.79
+   ],
+   "updated": "2026-09-08 10:17:37"
+  }
+ }
+}

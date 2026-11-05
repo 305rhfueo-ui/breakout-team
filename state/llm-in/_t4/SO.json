@@ -1,0 +1,148 @@
+{
+ "ticker": "SO",
+ "news": [
+  {
+   "title": "Curious about Southern Co. (SO) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/curious-about-southern-co-so-q3-performance-explore-wall-street-estimates-key-metrics",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VST or SO: Which Utility Stock Offers Stronger Growth Potential?",
+   "url": "https://www.nasdaq.com/articles/vst-or-so-which-utility-stock-offers-stronger-growth-potential",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "reportDate": "2026-10-20",
+   "items": [
+    "5.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000065/so-20261020.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.03",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.03",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000063/so-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000060/so-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000058/so-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000056/so-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000046/so-20260608.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.43,
+  "saleNy": 5.84,
+  "epsCy": 6.82,
+  "epsNy": 7.07,
+  "cyTrend": 0.09,
+  "nyTrend": -0.1,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.06,
+    8,
+    10.11
+   ],
+   "ni": [
+    33.41,
+    1.65,
+    -22.1
+   ],
+   "opm": [
+    25.46,
+    24.03,
+    13.13
+   ],
+   "updated": "2026-09-08 10:32:58"
+  }
+ }
+}

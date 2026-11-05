@@ -8,6 +8,12 @@
    "publisher": "The Motley Fool"
   },
   {
+   "title": "What Broadridge Financial Solutions (BR) Said on Its Q1 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-broadridge-financial-solutions-br-said-its-q1-earnings-call",
+   "date": "2026-11-03",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "BR's Q1 Earnings Beat Estimates on Strong Recurring Revenue Growth",
    "url": "https://www.nasdaq.com/articles/brs-q1-earnings-beat-estimates-strong-recurring-revenue-growth",
    "date": "2026-11-03",
@@ -32,6 +38,34 @@
    "publisher": "Zacks"
   },
   {
+   "title": "Morgan Stanley Adjusts Price Target on Broadridge Financial Solutions to $181 From $176",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-104900655.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Broadridge Financial Solutions Inc (BR) (Q1 2027) Earnings Call Highlights: Recurring Revenue ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-solutions-inc-br-090458107.html",
+   "date": "2026-11-04",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "How Investors May Respond To Broadridge Financial Solutions (BR) Earnings Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-broadridge-financial-071019132.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Broadridge Financial Solutions (BR) Ties Its Governance Tools To A New Tokenized Market",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/broadridge-financial-solutions-br-ties-032214492.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
    "title": "Broadridge: 3 Key Takeaways for Long-Term Investors",
    "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-3-key-takeaways-long-005326097.html",
    "date": "2026-11-04",
@@ -50,41 +84,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-solutions-br-said-201427718.html",
    "date": "2026-11-03",
    "publisher": "MarketBeat",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Compared to Estimates, Broadridge Financial (BR) Q1 Earnings: A Look at Key Metrics",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-broadridge-financial-br-133006204.html",
-   "date": "2026-11-03",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Broadridge’s (NYSE:BR) Q3 CY2026: beats on revenue",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-nyse-br-q3-cy2026-124343321.html",
-   "date": "2026-11-03",
-   "publisher": "StockStory",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Broadridge Financial Solutions Fiscal Q1 Adjusted Earnings, Revenue Rise; Reaffirms Fiscal 2027 Guidance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-solutions-fiscal-q1-122423285.html",
-   "date": "2026-11-03",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Broadridge Financial Solutions (BR) Q1 Earnings and Revenues Beat Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-solutions-br-q1-121502821.html",
-   "date": "2026-11-03",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Broadridge Financial: Fiscal Q1 Earnings Snapshot",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-fiscal-q1-earnings-120602911.html",
-   "date": "2026-11-03",
-   "publisher": "Associated Press",
    "via": "Yahoo"
   }
  ],
@@ -192,12 +191,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 5.08,
-  "saleNy": 4.92,
+  "saleCy": 5.25,
+  "saleNy": 4.66,
   "epsCy": 9.89,
-  "epsNy": 9.61,
+  "epsNy": 9.49,
   "cyTrend": 0.01,
-  "nyTrend": -0.11,
+  "nyTrend": -0.21,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

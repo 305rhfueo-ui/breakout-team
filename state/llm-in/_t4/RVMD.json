@@ -1,0 +1,203 @@
+{
+ "ticker": "RVMD",
+ "news": [
+  {
+   "title": "Revolution Medicines, Inc. (RVMD) Reports Q3 Loss, Beats Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/revolution-medicines-inc-rvmd-reports-q3-loss-beats-revenue-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "RVMD's RASONQUE Shows Survival Benefit Across Key Patient Group In Metastatic Pancreatic Cancer",
+   "url": "https://www.nasdaq.com/articles/rvmds-rasonque-shows-survival-benefit-across-key-patient-group-metastatic-pancreatic",
+   "date": "2026-10-23",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Revolution Medicines Q3 Loss Widens",
+   "url": "https://finance.yahoo.com/healthcare/articles/revolution-medicines-q3-loss-widens-212822106.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Revolution Medicines, Inc. (RVMD) Reports Q3 Loss, Beats Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/revolution-medicines-inc-rvmd-reports-211503788.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Revolution Medicines Reports Third Quarter 2026 Financial Results and Update on Corporate Progress",
+   "url": "https://finance.yahoo.com/healthcare/articles/revolution-medicines-reports-third-quarter-210200150.html",
+   "date": "2026-11-04",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Royalty Pharma reports third quarter 2026 results",
+   "url": "https://finance.yahoo.com/healthcare/articles/royalty-pharma-reports-third-quarter-120000688.html",
+   "date": "2026-11-04",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Medicilon Presents Revolution Medicines with the \"Excellence in Client Partnership Award\"",
+   "url": "https://finance.yahoo.com/healthcare/articles/medicilon-presents-revolution-medicines-excellence-160000340.html",
+   "date": "2026-10-30",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Novocure CEO Says RVMD’s Daraxonrasib Slowed Optune Pax Adoption – Wedbush Sees Disruption Rather Than Direct Competition",
+   "url": "https://finance.yahoo.com/healthcare/articles/novocure-ceo-says-rvmd-daraxonrasib-175134756.html",
+   "date": "2026-10-29",
+   "publisher": "Stocktwits",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NovoCure Sinks 5% Despite Guidance Raise as Pancreatic Cancer Launch Access Is “Significantly Limited”",
+   "url": "https://finance.yahoo.com/healthcare/articles/novocure-sinks-5-despite-guidance-154421296.html",
+   "date": "2026-10-29",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Could Revolution Medicines Be a Millionaire-Maker Stock?",
+   "url": "https://finance.yahoo.com/healthcare/articles/could-revolution-medicines-millionaire-maker-090400085.html",
+   "date": "2026-10-29",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Billionaire Stanley Druckenmiller Added to Revolution Medicines Before Its FDA Win. Is the Stock Still a Buy After a 134% Run?",
+   "url": "https://finance.yahoo.com/healthcare/articles/billionaire-stanley-druckenmiller-added-revolution-220100450.html",
+   "date": "2026-10-27",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526447193/rvmd-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-08",
+   "items": [
+    "2.03",
+    "8.01"
+   ],
+   "itemsKo": [
+    "2.03",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1628171/000162817126000004/rvmd-20261008.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-08-27",
+   "items": [
+    "1.01",
+    "2.03"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526377362/rvmd-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526366931/rvmd-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526335039/rvmd-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-18",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526276718/d123125d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 526.64,
+  "epsCy": 61.02,
+  "epsNy": -39.84,
+  "cyTrend": -1.26,
+  "nyTrend": -5.75,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:47:20"
+  }
+ }
+}

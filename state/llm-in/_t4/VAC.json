@@ -1,0 +1,222 @@
+{
+ "ticker": "VAC",
+ "news": [
+  {
+   "title": "Marriott Vacations (VAC) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/marriott-vacations-vac-q3-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Marriott Vacations Worldwide (VAC) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/marriott-vacations-worldwide-vac-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Marriott Vacations Worldwide (VAC) Tops Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/marriott-vacations-worldwide-vac-tops-q3-earnings-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Marriott Vacations Worldwide (VAC) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/marriott-vacations-worldwide-vac-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Marriott Vacations (VAC) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-vacations-vac-q3-2026-193325338.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marriott Vacations Worldwide Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-vacations-worldwide-corporation-q3-182225505.html",
+   "date": "2026-11-04",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marriott Vacations Worldwide (VAC) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-vacations-worldwide-vac-q3-133003604.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marriott Vacations Worldwide (VAC) Tops Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-vacations-worldwide-vac-tops-125507416.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marriott Vacations (NYSE:VAC) misses Q3 2026 revenue estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-vacations-nyse-vac-misses-124459097.html",
+   "date": "2026-11-04",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marriott Vacations Worldwide: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-vacations-worldwide-q3-earnings-121626533.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marriott Vacations Worldwide Reports Third Quarter 2026 Financial Results",
+   "url": "https://finance.yahoo.com/real-estate/articles/marriott-vacations-worldwide-reports-third-120000112.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marriott Vacations Worldwide (VAC) Stock Looks Undervalued After Its 86% Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/marriott-vacations-worldwide-vac-stock-161008096.html",
+   "date": "2026-10-25",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000040/vac-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000035/vac-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-30",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000031/vac-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000029/vac-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-15",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000024/vac-20260515.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000020/vac-20260505.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.25,
+  "saleNy": 3.97,
+  "epsCy": 22.34,
+  "epsNy": 9.86,
+  "cyTrend": 1.7,
+  "nyTrend": 0.59,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.94,
+    4.75,
+    -0.3
+   ],
+   "ni": [
+    11.59,
+    -60.71,
+    -962
+   ],
+   "opm": [
+    12.2,
+    7,
+    -35.75
+   ],
+   "updated": "2026-09-08 08:53:01"
+  }
+ }
+}

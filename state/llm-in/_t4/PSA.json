@@ -1,0 +1,230 @@
+{
+ "ticker": "PSA",
+ "news": [
+  {
+   "title": "Public Storage (PSA) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/public-storage-psa-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, Public Storage (PSA) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-public-storage-psa-q3-earnings-look-key-metrics",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Public Storage (PSA) Surpasses Q3 FFO and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/public-storage-psa-surpasses-q3-ffo-and-revenue-estimates",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Gear Up for Public Storage (PSA) Q3 Earnings: Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/gear-public-storage-psa-q3-earnings-wall-street-estimates-key-metrics",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "UBS Adjusts Price Target on Public Storage to $334 From 294",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-public-100856725.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Public Storage Declares Fourth Quarter 2026 Dividends",
+   "url": "https://finance.yahoo.com/real-estate/articles/public-storage-declares-fourth-quarter-210500439.html",
+   "date": "2026-11-03",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Self-Storage REITs Post Q3 Gains as Extra Space NOI Rises 4.6%",
+   "url": "https://finance.yahoo.com/real-estate/articles/self-storage-reits-post-q3-165041001.html",
+   "date": "2026-11-03",
+   "publisher": "CRE Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CubeSmart, Other Self-Storage REITs Signal Continued Recovery Following Q3 Results, BofA Says",
+   "url": "https://finance.yahoo.com/real-estate/articles/cubesmart-other-self-storage-reits-171858359.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BofA Securities Adjusts Price Target on Public Storage to $348 From $341, Maintains Neutral Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-131150713.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 Dividend Stocks With Yields Up To 4%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-yields-4-211004095.html",
+   "date": "2026-10-30",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "DLR Q3 FFO & Revenues Beat Estimates on Rental Growth, '26 View Raised",
+   "url": "https://finance.yahoo.com/real-estate/articles/dlr-q3-ffo-revenues-beat-132600918.html",
+   "date": "2026-10-30",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Public Storage Prices Public Offering of $500 Million of Senior Notes at an Effective Interest Rate of 5.200%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/public-storage-prices-public-offering-215700272.html",
+   "date": "2026-10-29",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Public Storage (PSA) Q3 Results Lift FFO Outlook As Synergies Lag",
+   "url": "https://finance.yahoo.com/real-estate/articles/public-storage-psa-q3-results-120803056.html",
+   "date": "2026-10-28",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RBC Raises Price Target on Public Storage to $323 From $318, Keeps Sector Perform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-public-120528202.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-30",
+   "reportDate": "2026-10-29",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526441763/d90432d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026067283/psa-20261026.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-16",
+   "reportDate": "2026-09-16",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526393149/d130476d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-14",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026061900/psa-20260914.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-09",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526387986/d117471d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-08-31",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526377690/d71712d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.02,
+  "saleNy": 7.92,
+  "epsCy": -3.76,
+  "epsNy": 0.86,
+  "cyTrend": 0,
+  "nyTrend": -2.88,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    2.65,
+    2.92,
+    3.26
+   ],
+   "ni": [
+    45.73,
+    33.1,
+    -19.03
+   ],
+   "opm": [
+    37.85,
+    38.95,
+    57.65
+   ],
+   "updated": "2026-09-08 09:31:20"
+  }
+ }
+}

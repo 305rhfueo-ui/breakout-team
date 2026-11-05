@@ -1,0 +1,219 @@
+{
+ "ticker": "LIVN",
+ "news": [
+  {
+   "title": "LivaNova (LIVN) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/livanova-livn-q3-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "LivaNova (LIVN) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/livanova-livn-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LivaNova (LIVN) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/livanova-livn-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LivaNova (LIVN) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/livanova-livn-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "LivaNova PLC (LIVN) (Q3 2026) Earnings Call Highlights: Double-Digit Growth Fuels Raised ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/livanova-plc-livn-q3-2026-010643539.html",
+   "date": "2026-11-05",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova PLC Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/healthcare/articles/livanova-plc-q3-2026-earnings-230733706.html",
+   "date": "2026-11-04",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova (LIVN) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/livanova-livn-q3-2026-earnings-182909599.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/healthcare/articles/livanova-q3-earnings-call-highlights-181427120.html",
+   "date": "2026-11-04",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova (LIVN) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/livanova-livn-reports-q3-earnings-133005696.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova Q3 Adjusted Earnings, Revenue Rise; 2026 Guidance Upgraded",
+   "url": "https://finance.yahoo.com/healthcare/articles/livanova-q3-adjusted-earnings-revenue-113320792.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova (LIVN) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/livanova-livn-surpasses-q3-earnings-112003722.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/livanova-q3-earnings-snapshot-111955710.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LivaNova Reports Third-Quarter 2026 Results; Raises Full-Year 2026 Revenue and Adjusted Diluted EPS Guidance",
+   "url": "https://finance.yahoo.com/healthcare/articles/livanova-reports-third-quarter-2026-110000495.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000111/livn-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000085/livn-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000053/livn-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000031/livn-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000006/livn-20260225.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-14",
+   "reportDate": "2026-01-12",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000002/livn-20260112.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.65,
+  "saleNy": 7.1,
+  "epsCy": 11.69,
+  "epsNy": 7.51,
+  "cyTrend": 0.01,
+  "nyTrend": 0.14,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.8,
+    14.33,
+    12.15
+   ],
+   "ni": [
+    299.72,
+    "흑자전환",
+    -44.7
+   ],
+   "opm": [
+    12.67,
+    11.45,
+    11.8
+   ],
+   "updated": "2026-09-08 06:36:43"
+  }
+ }
+}

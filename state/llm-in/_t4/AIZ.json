@@ -1,0 +1,229 @@
+{
+ "ticker": "AIZ",
+ "news": [
+  {
+   "title": "Assurant (AIZ) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/assurant-aiz-q3-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Assurant (AIZ) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/assurant-aiz-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Assurant (AIZ) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-assurant-aiz-q3-earnings-look-key-metrics",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Assurant (AIZ) Outperforming Other Finance Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/assurant-aiz-outperforming-other-finance-stocks-year-0",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Assurant (AIZ) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-assurant-aiz-stock-0",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Assurant (AIZ) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-aiz-said-q3-earnings-211419810.html",
+   "date": "2026-11-04",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Assurant (AIZ) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-aiz-q3-2026-earnings-160007347.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Assurant, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-inc-q3-2026-earnings-133000598.html",
+   "date": "2026-11-04",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Assurant (AIZ) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-aiz-beats-q3-earnings-235503387.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Compared to Estimates, Assurant (AIZ) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-assurant-aiz-q3-223002862.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Assurant Q3 Adjusted Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-q3-adjusted-earnings-revenue-215709896.html",
+   "date": "2026-11-03",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Assurant: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-q3-earnings-snapshot-214955217.html",
+   "date": "2026-11-03",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Assurant’s (NYSE:AIZ) Q3 2026: beats on revenue",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-nyse-aiz-q3-2026-214758829.html",
+   "date": "2026-11-03",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Assurant Increases Full-Year Outlook, Delivers Double-Digit Earnings and EPS Growth Year-to-Date",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/assurant-increases-full-outlook-delivers-211000770.html",
+   "date": "2026-11-03",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000043/aiz-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000039/aiz-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000033/aiz-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000024/aiz-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-10",
+   "reportDate": "2026-02-10",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000006/aiz-20260210.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000003/aiz-20260128.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.14,
+  "saleNy": 5.49,
+  "epsCy": 13.66,
+  "epsNy": 4.37,
+  "cyTrend": 0.92,
+  "nyTrend": 0.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.37,
+    11.26,
+    7.91
+   ],
+   "ni": [
+    27.06,
+    87.19,
+    14.15
+   ],
+   "opm": [
+    10.91,
+    9.81,
+    8.46
+   ],
+   "updated": "2026-09-08 07:27:19"
+  }
+ }
+}

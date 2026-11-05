@@ -1,0 +1,178 @@
+{
+ "ticker": "ADSK",
+ "news": [
+  {
+   "title": "Autodesk (ADSK) Stock Slides as Market Rises: Facts to Know Before You Trade",
+   "url": "https://www.nasdaq.com/articles/autodesk-adsk-stock-slides-market-rises-facts-know-you-trade",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Autodesk (ADSK) Falls More Steeply Than Broader Market: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/autodesk-adsk-falls-more-steeply-broader-market-what-investors-need-know-0",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CRM vs. ADSK: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/crm-vs-adsk-which-stock-better-value-option",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Autodesk (ADSK) Fell More Than Broader Market",
+   "url": "https://www.nasdaq.com/articles/heres-why-autodesk-adsk-fell-more-broader-market",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Autodesk (ADSK) Stock Slides as Market Rises: Facts to Know Before You Trade",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/autodesk-adsk-stock-slides-market-221501169.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Autodesk extends invitation to join financial results conference call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/autodesk-extends-invitation-join-financial-130000668.html",
+   "date": "2026-11-02",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-08",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000119312526387877/d103766d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000059/adsk-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000121390026084276/ea0300009-8k_autodesk.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-13",
+   "reportDate": "2026-07-13",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000121390026077574/ea0296272-8k_autodesk.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000050/adsk-20260617.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-15",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/769397/000121390026068533/ea0294709-8k_autodesk.htm",
+   "description": "CURRENT REPORT"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.52,
+  "saleNy": 11.02,
+  "epsCy": 20.92,
+  "epsNy": 12.58,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.05,
+    18.43,
+    19.4
+   ],
+   "ni": [
+    57.19,
+    223.03,
+    4.29
+   ],
+   "opm": [
+    29.28,
+    27.97,
+    22.02
+   ],
+   "updated": "2026-09-08 05:43:25"
+  }
+ }
+}

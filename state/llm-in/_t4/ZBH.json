@@ -1,0 +1,232 @@
+{
+ "ticker": "ZBH",
+ "news": [
+  {
+   "title": "Zimmer Biomet (ZBH) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/zimmer-biomet-zbh-q3-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Zimmer (ZBH) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/zimmer-zbh-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Zimmer Biomet (ZBH) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/zimmer-biomet-zbh-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Zimmer Biomet (ZBH) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-zimmer-biomet-zbh-top-value-stock-long-term",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Zimmer Biomet (ZBH) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-zimmer-biomet-zbh-stock",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Zimmer Biomet (ZBH) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/zimmer-biomet-zbh-top-ranked-value-stock-should-you-buy",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Zimmer Biomet (ZBH) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/zimmer-biomet-zbh-q3-2026-184822752.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zimmer raises sales forecast despite slower knee business",
+   "url": "https://finance.yahoo.com/healthcare/articles/zimmer-raises-sales-forecast-despite-173043006.html",
+   "date": "2026-11-04",
+   "publisher": "MedTech Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zimmer Biomet stock rises 9% after reporting positive Q3",
+   "url": "https://finance.yahoo.com/news/zimmer-biomet-stock-rises-9-172208713.html",
+   "date": "2026-11-04",
+   "publisher": "Medical Device Network",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Evercore ISI Adjusts Price Target on Zimmer Biomet to $122 From $115",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-price-target-163329518.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zimmer (ZBH) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zimmer-zbh-q3-earnings-taking-133007381.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zimmer Biomet Q3 Adjusted Earnings Flat, Revenue Rises; 2026 Adjusted EPS, Revenue Outlook Updated",
+   "url": "https://finance.yahoo.com/healthcare/articles/zimmer-biomet-q3-adjusted-earnings-120538918.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zimmer Biomet (NYSE:ZBH) exceeds Q3 2026 expectations",
+   "url": "https://finance.yahoo.com/healthcare/articles/zimmer-biomet-nyse-zbh-exceeds-114055163.html",
+   "date": "2026-11-04",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zimmer: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zimmer-q3-earnings-snapshot-113604170.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526446145/zbh-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526385256/d304716d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526335108/zbh-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526333761/zbh-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-26",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526288390/d158696d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-22",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526242207/zbh-20260522.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.43,
+  "saleNy": 3.54,
+  "epsCy": 4.1,
+  "epsNy": 6.06,
+  "cyTrend": 0.03,
+  "nyTrend": -0.15,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.8,
+    9.3,
+    10.9
+   ],
+   "ni": [
+    29.78,
+    30.82,
+    -41.8
+   ],
+   "opm": [
+    14.98,
+    17.88,
+    6.89
+   ],
+   "updated": "2026-09-21 07:04:55"
+  }
+ }
+}

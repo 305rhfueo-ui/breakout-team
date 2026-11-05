@@ -1,0 +1,237 @@
+{
+ "ticker": "SKY",
+ "news": [
+  {
+   "title": "Champion Homes (SKY) Q2 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-q2-2027-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Champion Homes (SKY) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Champion Homes (SKY) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-shares-cross-above-200-dma",
+   "date": "2026-10-30",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Analysts Estimate Champion Homes (SKY) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-champion-homes-sky-report-decline-earnings-what-look-out",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SKY Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/sky-crosses-below-key-moving-average-level",
+   "date": "2026-10-07",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Champion Homes (SKY) Q1 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-q1-earnings-lag-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Champion Homes (SKY) Q2 2027 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/champion-homes-sky-q2-2027-225937568.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes Inc (SKY) (Q2 2027) Earnings Call Highlights: Orders Jump 17% as Backlog Swells ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/champion-homes-inc-sky-q2-210911445.html",
+   "date": "2026-11-04",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes, Inc. Q2 2027 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/real-estate/articles/champion-homes-inc-q2-2027-133000519.html",
+   "date": "2026-11-04",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes (SKY) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/champion-homes-sky-q2-earnings-235508416.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes Fiscal Q2 Adjusted Earnings Fall, Revenue Rises",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/champion-homes-fiscal-q2-adjusted-222018006.html",
+   "date": "2026-11-03",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes: Fiscal Q2 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/champion-homes-fiscal-q2-earnings-221456573.html",
+   "date": "2026-11-03",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes (NYSE:SKY) exceeds Q3 CY2026 expectations",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/champion-homes-nyse-sky-exceeds-215509142.html",
+   "date": "2026-11-03",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Champion Homes Announces Second Quarter Fiscal 2027 Results",
+   "url": "https://finance.yahoo.com/real-estate/articles/champion-homes-announces-second-quarter-211000404.html",
+   "date": "2026-11-03",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Does Champion Homes (SKY) Still Trade Near Fair Value On Cash Flow?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-champion-homes-sky-still-070857432.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526445376/sky-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-05",
+   "reportDate": "2026-10-05",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526414136/sky-20261005.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526368465/sky-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526332837/sky-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526330664/sky-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526253964/sky-20260601.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.8,
+  "saleNy": 7.49,
+  "epsCy": -10.05,
+  "epsNy": 21.19,
+  "cyTrend": -0.43,
+  "nyTrend": -1.56,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.27,
+    4.62,
+    1.81
+   ],
+   "ni": [
+    -24.01,
+    -18.36,
+    -11.7
+   ],
+   "opm": [
+    8.49,
+    5.79,
+    9.51
+   ],
+   "updated": "2026-09-08 05:59:33"
+  }
+ }
+}

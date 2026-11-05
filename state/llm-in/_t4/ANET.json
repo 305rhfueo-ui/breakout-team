@@ -1,0 +1,300 @@
+{
+ "ticker": "ANET",
+ "news": [
+  {
+   "title": "Arista (ANET) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/arista-anet-q3-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Arista Networks Q3 Earnings Call Maps Out 2027 AI Expansion",
+   "url": "https://www.nasdaq.com/articles/arista-networks-q3-earnings-call-maps-out-2027-ai-expansion",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Arista Networks, Inc. Reports Third Quarter 2026 Financial Results",
+   "url": "https://www.nasdaq.com/articles/arista-networks-inc-reports-third-quarter-2026-financial-results",
+   "date": "2026-11-04",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Arista Revenue Up 58% as Q4 Outlook Slows: Rapid Earnings Reaction",
+   "url": "https://www.nasdaq.com/articles/arista-revenue-58-q4-outlook-slows-rapid-earnings-reaction",
+   "date": "2026-11-03",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Arista Networks (ANET) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/arista-networks-anet-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Arista Networks, Inc. Reports Advance In Q3 Bottom Line",
+   "url": "https://www.nasdaq.com/articles/arista-networks-inc-reports-advance-q3-bottom-line",
+   "date": "2026-11-03",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Arista Networks Q3 26 Earnings Conference Call At 4:30 PM ET",
+   "url": "https://www.nasdaq.com/articles/arista-networks-q3-26-earnings-conference-call-4-30-pm-et",
+   "date": "2026-11-03",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Piper Sandler Adjusts Price Target on Arista Networks to $261 From $240",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-adjusts-price-target-151553431.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Arista Networks Insider Sold Shares Worth $45,859,344, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-insider-sold-shares-151053883.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Arista Says Its AI Business Will Double to $7 Billion",
+   "url": "https://finance.yahoo.com/technology/ai/articles/arista-says-ai-business-double-142942022.html",
+   "date": "2026-11-04",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Arista Networks Q3 Earnings Call Maps Out 2027 AI Expansion",
+   "url": "https://finance.yahoo.com/technology/ai/articles/arista-networks-q3-earnings-call-140000891.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Arista Networks Shares Surge 9.6% as Record Q3 Earnings and Strong AI Demand Lift 2027 Outlook",
+   "url": "https://finance.yahoo.com/technology/ai/articles/arista-networks-shares-surge-9-133920965.html",
+   "date": "2026-11-04",
+   "publisher": "InvestorsHub",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Arista Networks' Demand Strength, Supply Efficiency Help Lift Revenue Outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-apos-demand-strength-132908679.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Goldman Sachs Adjusts Price Target on Arista Networks to $240 From $225",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-132052542.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/anet-20261103.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/anet-20260804.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000118/anet-20260529.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000074/anet-20260505.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/anet-20260212.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-04",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000284/anet-20251104.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 3035700000,
+    "profit": 1378000000,
+    "netIncome": 1212900000,
+    "margin": 45.4,
+    "yoy": {
+     "revenue": 37.7,
+     "profit": 39.7,
+     "netIncome": 36.5,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 2709000000,
+    "profit": 1157800000,
+    "netIncome": 1022900000,
+    "margin": 42.7,
+    "yoy": {
+     "revenue": 35.1,
+     "profit": 34.8,
+     "netIncome": 25.7,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 2487800000,
+    "profit": 1032900000,
+    "netIncome": -2555596489,
+    "margin": 41.5,
+    "yoy": {
+     "revenue": 28.9,
+     "profit": 29.2,
+     "netIncome": -24.6,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 2308300000,
+    "profit": 978200000,
+    "netIncome": 853000000,
+    "margin": 42.4,
+    "yoy": {
+     "revenue": 27.5,
+     "profit": 24.6,
+     "netIncome": 14,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 5,
+  "reports": [
+   {
+    "date": "2026-11-04",
+    "broker": "한화증권",
+    "analyst": "신승윤",
+    "title": "[아리스타 네트웍스 (NYS:ANET)] Earnings Flash",
+    "summary": "- 매출액 36.6억 달러(YoY +58.5%), EPS 1.2달러(YoY +55.8%)로 예상치 각각 9.7%, 11.6% 상회, 상장 이후 최대 매출 성장률 기록, 매출총이익률 64%(YoY -1.2%p), 영업이익률 49.1%(YoY +0.5%p)- 3분기 영업현금흐름 약 12억 달러, 분기 말 현금·유가증권 144억 달러 보유. *재고자산 전분기 25억 달러→32억 달러, 구매약정 97억 달러→114억 달러로 증가. AI 인프라 수요 대응 위한 선제적 부품 확보 지속- 2027년 매출 가이던스의 시장 예상치 상회, AI 네트워킹 고성장과 높은 수익성 유지 기대에 시간 외 +9.5%",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqqgxmqlkkkegcgxeecz.pdf",
+    "pages": "1"
+   },
+   {
+    "date": "2026-08-06",
+    "broker": "키움증권",
+    "analyst": "김승혁",
+    "title": "[아리스타 네트웍스 (NYS:ANET)] Scale-Across의 부상",
+    "summary": "- 아리스타 네트웍스는 AI 데이터센터 중심의 이더넷 네트워크 장비 기업- FY2Q26 실적은 공급망 개선에 힘입어 매출 성장과 가이던스 상향을 기록- 부품 원가 및 고객 집중도 변수가 있으나 Scale-Across 확대로 장기 성장 기대",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmxmcglxmklxgcgxeecz.pdf",
+    "pages": "6"
+   },
+   {
+    "date": "2026-02-13",
+    "broker": "키움증권",
+    "analyst": "김승혁",
+    "title": "[아리스타 네트웍스 (NYS:ANET)] SO FAR SO GOOD",
+    "summary": "- 아리스타 네트웍스는 AI 데이터센터용 이더넷 네트워크 장비 기업- FY4Q25 실적은 매출 성장 및 수익성 개선이 동반되며 긍정적 흐름을 보임- 고객사의 CapEx 집행 및 메모리 가격 변수가 있으나 AI 고도화 속 장기 성장 기대",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcmxzlceiqlmxgcgxeecz.pdf",
+    "pages": "6"
+   },
+   {
+    "date": "2026-02-09",
+    "broker": "키움증권",
+    "analyst": "박기현",
+    "title": "[아리스타 네트웍스 (NYS:ANET)] AI 네트워크의 개방형 표준 리더",
+    "summary": "- 개방형 이더넷 표준 주도권과 하이퍼스케일러 점유율의 압도적 우위- 1.6T 플랫폼 전환 가속화 및 CPO 통합 기반의 마진 스프레드 확대- 강력한 EPS 성장 가시성이 뒷받침된 밸류에이션 프리미엄의 당위성",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczzgllczkqzzgcgxeecz.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2025-11-05",
+    "broker": "키움증권",
+    "analyst": "박기현",
+    "title": "[아리스타 네트웍스 (NYS:ANET)] 투자 포인트",
+    "summary": "- 투자 포인트: 1) AI 데이터센터 전환 수혜: 고비용·폐쇄형 구조의 InfiniBand 대신 개방적이고 호환성이 높은 UEC 표준 이더넷으로 시장이 이동하면서, Arista의 경쟁우위 강화- 또한 향후 Etherlink 스위치 포트폴리오 중심으로 대규모 GPU 클러스터 연결(Scale-out) 수요 증가의 직접 수혜 예상. 2) 소프트웨어 플랫폼 기반 고마진 구조: EOS와 CloudVision을 결합해 네트워크 자동화·가시성·보안 기능을 통합 제공- 실적 및 밸류에이션: FY3Q25 매출 23.1억 달러(+27.5% YoY), EPS 0.75달러(+25.0% YoY), GPM 65.2%, OPM 48.6% 기록. 12m fwd PER는 56배로 업종 평균(26배)을 상회하나, AI 인프라 확장에 따른 구조적 성장성과 업계 최고 수준의 수익성을 고려하면 프리미엄 정당화 가능",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgillklezmilmgcgxeecz.pdf",
+    "pages": "3"
+   }
+  ]
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 42.28,
+  "saleNy": 45.19,
+  "epsCy": 45.77,
+  "epsNy": 24.3,
+  "cyTrend": 5.64,
+  "nyTrend": 3.8,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    37.69,
+    35.13,
+    28.87
+   ],
+   "ni": [
+    36.46,
+    25.69,
+    19.33
+   ],
+   "opm": [
+    45.39,
+    42.74,
+    41.52
+   ],
+   "updated": "2026-09-08 08:12:22"
+  }
+ }
+}

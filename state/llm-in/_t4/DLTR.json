@@ -1,0 +1,180 @@
+{
+ "ticker": "DLTR",
+ "news": [
+  {
+   "title": "Dollar Tree, Inc. to Host Third Quarter Earnings Conference Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-inc-host-third-210500329.html",
+   "date": "2026-11-03",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What to Expect From Dollar Tree's Q3 2026 Earnings Report",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expect-dollar-trees-q3-2026-132908444.html",
+   "date": "2026-10-30",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Evercore ISI Adjusts Price Target on Dollar Tree to $140 From $135",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-price-target-131623106.html",
+   "date": "2026-10-28",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 profitable stocks with questionable fundamentals",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-questionable-fundamentals-175047879.html",
+   "date": "2026-10-26",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JPMorgan Adjusts Price Target on Dollar Tree to $159 From $170",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-dollar-104443551.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JPMorgan Cuts Price Target on Dollar Tree to $159 From $170, Overweight Rating Kept",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-cuts-price-target-dollar-100132277.html",
+   "date": "2026-10-26",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000128/dltr-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-25",
+   "reportDate": "2026-09-24",
+   "items": [
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000116/dltr-20260924.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000108/dltr-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000101/dltr-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-07-01",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000075/dltr-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000071/dltr-20260616.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.54,
+  "saleNy": 6.03,
+  "epsCy": 37.84,
+  "epsNy": -0.4,
+  "cyTrend": 0.47,
+  "nyTrend": -0.18,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.02,
+    7.24,
+    9.02
+   ],
+   "ni": [
+    173.09,
+    1.14,
+    "흑자전환"
+   ],
+   "opm": [
+    14.11,
+    9.51,
+    12.75
+   ],
+   "updated": "2026-09-08 09:56:22"
+  }
+ }
+}

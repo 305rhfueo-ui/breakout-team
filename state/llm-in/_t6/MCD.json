@@ -1,0 +1,820 @@
+{
+ "ticker": "MCD",
+ "date": "2026-11-05",
+ "session": "2026-11-04",
+ "source": "list",
+ "plan": {
+  "ticker": "MCD",
+  "name": "맥도날드",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
+  "price": 280.22,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 1.91,
+  "extensionAdr": 4.21,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3005159645895353,
+    "pct": 91.29846708746618
+   },
+   "m3": {
+    "v": 0.06528784171925886,
+    "pct": 59.828674481514874
+   },
+   "m6": {
+    "v": 0.0699159896304884,
+    "pct": 41.5238954012624
+   }
+  },
+  "ret1m": 21.37,
+  "ret3m": 2.94,
+  "ret6m": 3.33,
+  "marketCap": "198.30B",
+  "volx": 2.2,
+  "volSurgeWk": 2.13,
+  "high52": 83.6,
+  "newHigh52": false,
+  "adr": 1.91,
+  "div50": 12.96,
+  "div200": 0.13,
+  "targetStatus": false,
+  "saleCy": 4.7,
+  "saleNy": 2.56,
+  "epsCy": 5.59,
+  "epsNy": 6.58,
+  "cyTrend": -0.15,
+  "nyTrend": -0.68,
+  "est": {
+   "cyCur": 12.88163,
+   "cy30": 12.9005,
+   "nyCur": 13.72926,
+   "ny30": 13.82314
+  },
+  "fs": {
+   "sale": [
+    3.74,
+    9.42,
+    9.71
+   ],
+   "ni": [
+    4.84,
+    6.16,
+    7.29
+   ],
+   "opm": [
+    47.02,
+    45.31,
+    45.02
+   ],
+   "updated": "2026-09-08 07:02:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-05",
+  "nameKo": "맥도날드",
+  "nameEn": "MCDONALD S CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000063908&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 7099000000,
+     "profit": 3338000000,
+     "netIncome": 2362000000,
+     "margin": 47,
+     "yoy": {
+      "revenue": 3.7,
+      "profit": 3.3,
+      "netIncome": 4.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 6517000000,
+     "profit": 2953000000,
+     "netIncome": 1983000000,
+     "margin": 45.3,
+     "yoy": {
+      "revenue": 9.4,
+      "profit": 11.5,
+      "netIncome": 6.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 7009000000,
+     "profit": 3156000000,
+     "netIncome": 2164000000,
+     "margin": 45,
+     "yoy": {
+      "revenue": 9.7,
+      "profit": 10,
+      "netIncome": 7.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 7078000000,
+     "profit": 3357000000,
+     "netIncome": 2278000000,
+     "margin": 47.4,
+     "yoy": {
+      "revenue": 3,
+      "profit": 5.3,
+      "netIncome": 1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "McDonald's (MCD) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mcdonalds-mcd-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "McDonald's Corporation Reports Third Quarter 2026 Results with 4% Increase in Systemwide Sales",
+     "url": "https://www.nasdaq.com/articles/mcdonalds-corporation-reports-third-quarter-2026-results-4-increase-systemwide-sales",
+     "date": "2026-11-04",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "McDonald's (MCD) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/mcdonalds-mcd-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McDonald's (MCD) Beats Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/mcdonalds-mcd-beats-q3-earnings-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McDonald`s Corp. Reports Increase In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/mcdonalds-corp-reports-increase-q3-profit",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "McDonald's Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/mcdonalds-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000080/mcd-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/mcd-20260923.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000069/mcd-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000067/mcd-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000055/mcd-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000048/mcd-20260507.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[맥도날드 (NYS:MCD)] [26Q3 Preview] 미국 동일점포 고객 수 증가 전환 여부가 관건, 투자의견 중립 유지",
+     "summary": "- 11월 4일 발표의 초점은 손익이 아니라 미국 트래픽- 컨센서스는 +4.7% 성장을 반영하고 있으나 하단 착지 가능성이 높음- 밸류에이션은 5년 평균 대비 18% 할인이나 재평가 방아쇠가 없음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmicxcegqgigeqgcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[맥도날드 (NYS:MCD)] [2Q26 Review] 미국 사업부 수장 전격 교체, 스카이 앤더슨 신임 사장 선임 - 2분기 실적 부진의 공식 인정",
+     "summary": "- 美 실적 부진에 맥도날드USA 사장 교체, 앤더슨 선임- 2분기 comp+0.8%는 가격 효과, 방문객수는 감소- 할인 축소·신메뉴 조합 실수가 매출미스 3분의2 원인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlliqegzqmlcgcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[맥도날드 (NYS:MCD)] [26Q2 Review] 객단가로 버틴 분기, 트래픽이 문제, 투자의견 중립 유지",
+     "summary": "- 미국 comp +0.8%, 고객 수는 다시 마이너스- 조정 EPS $3.38 비트, 매출은 컨센 소폭 하회- 미국 사업 대표 교체, NTM PE 19.5x로 할인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzllcgllkeqligcgxeecz.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-07-27",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[맥도날드 (NYS:MCD)] [26Q2 Preview] 경영진이 예고한 감속, 얼마나 깊을까",
+     "summary": "- 4월 마이너스 comp 이후 반등 여부가 이번 분기의 전부다- 셀사이드 하향이 줄줄이-시장은 보수적 자세를 취했다- 마진 46%선이 유지되는지가 이익의 방향을 가른다- 미국·해외·신흥시장 세 축 모두 '감속의 깊이'가 관건이다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzeeiiqxzggligcgxeecz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-05-08",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[맥도날드 (NYS:MCD)] 2분기 약세 전망, 공급망 리스크 잔존",
+     "summary": "- 맥도날드의 FY 1Q26 매출액은 65.2억 달러(YoY +9.4%), 조정 EPS는 2.83 달러(YoY +6%)로 각각 컨센서스를 0.8%, 2.9% 상회했다.- 미국, 국제운영시장(IOM), 국제개발라이선스시장(IDL)의 동일매장매 출 성장률은 각각 전년 동기 대비 +3.9%, +3.9%, +3.4%를 기록했다- 분기말 전 세계 45,000개 이상의 매장을 운영 중이며, 2027년 말까지 50,000개 매장을 확보하는 것을 목표로 제시했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqliqgqcmccckegcgxeecz.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MCD-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-26",
+   "title": "[맥도날드 (NYS:MCD)] [26Q3 Preview] 미국 동일점포 고객 수 증가 전환 여부가 관건, 투자의견 중립 유지",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmicxcegqgigeqgcgxeecz.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "MCD-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-05",
+   "title": "[맥도날드 (NYS:MCD)] [2Q26 Review] 미국 사업부 수장 전격 교체, 스카이 앤더슨 신임 사장 선임 - 2분기 실적 부진의 공식 인정",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlliqegzqmlcgcgxeecz.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Jim Cramer says this fast food giant has more room to run",
+   "url": "https://www.cnbc.com/2026/11/04/cramer-mcdonalds-q3-2026-turnaround.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
+   "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer talks the turnaround brewing in this fast food giant's stock",
+   "url": "https://www.cnbc.com/video/2026/11/04/jim-cramer-talks-the-turnaround-brewing-in-this-fast-food-giants-stock.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "I think McDonald's rallied on management's clearer outlook for what comes next, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/11/04/i-think-mcdonalds-rallied-on-managements-clearer-outlook-for-what-comes-next-says-jim-cramer.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Fast Money: MCD, LLY, MLPX, CAT",
+   "url": "https://www.cnbc.com/video/2026/11/04/fast-money-mcd-lly-mlpx-cat.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Wednesday, November 4th, 2026: Cramer calls this home improvement retailer 'the No. 1 stock'",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/04/wednesday-november-4th-2026-cramer-calls-this-home-improvement-retailer-the-no-1-stock.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "BTIG's Peter Saleh previews Wednesday's McDonald's earnings",
+   "url": "https://www.cnbc.com/video/2026/11/03/btigs-peter-saleh-previews-wednesdays-mcdonalds-earnings.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trade: WSE, CVX, MCD, DVN",
+   "url": "https://www.cnbc.com/video/2026/10/19/final-trade-wse-cvx-mcd-dvn.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MCD",
+  "fetchedAt": "2026-11-05",
+  "source": "한국투자증권 Open API",
+  "per": 22.76,
+  "pbr": 0,
+  "eps": 12.31,
+  "bps": 0,
+  "shares": 707642000,
+  "marketCapM": 198295,
+  "high52": 335.1798,
+  "high52Date": "2026-03-02",
+  "low52": 229.2,
+  "low52Date": "2026-10-05",
+  "last": 280.22,
+  "prevClose": 263.04,
+  "nameKo": "맥도날드",
+  "nameEn": "MCDONALD S CORPORATION",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 707642000
+ },
+ "estimates": {
+  "ticker": "MCD",
+  "url": "https://finance.yahoo.com/quote/MCD/analysis/",
+  "fetchedAt": "2026-11-05",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 3.28,
+    "epsLow": 3.13,
+    "epsHigh": 3.5,
+    "epsYearAgo": 3.12,
+    "epsAnalysts": 26,
+    "epsGrowth": 5.2,
+    "epsCur": "USD",
+    "rev": 7228441630,
+    "revAnalysts": 25,
+    "revYearAgo": 7009000000,
+    "revGrowth": 3.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3,
+    "epsLow": 2.89,
+    "epsHigh": 3.12,
+    "epsYearAgo": 2.83,
+    "epsAnalysts": 16,
+    "epsGrowth": 6.1,
+    "epsCur": "USD",
+    "rev": 6731615930,
+    "revAnalysts": 17,
+    "revYearAgo": 6517000000,
+    "revGrowth": 3.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 12.88,
+    "epsLow": 12.63,
+    "epsHigh": 13.23,
+    "epsYearAgo": 12.2,
+    "epsAnalysts": 30,
+    "epsGrowth": 5.6,
+    "epsCur": "USD",
+    "rev": 28147791860,
+    "revAnalysts": 29,
+    "revYearAgo": 26885000000,
+    "revGrowth": 4.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 13.73,
+    "epsLow": 12.81,
+    "epsHigh": 14.73,
+    "epsYearAgo": 12.88,
+    "epsAnalysts": 31,
+    "epsGrowth": 6.6,
+    "epsCur": "USD",
+    "rev": 28867576200,
+    "revAnalysts": 31,
+    "revYearAgo": 28147791860,
+    "revGrowth": 2.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.28,
+    "d7": -0.1,
+    "d30": -0.3,
+    "d90": -1.7,
+    "ago90": 3.34,
+    "up7": 0,
+    "up30": 1,
+    "down7": 4,
+    "down30": 14
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3,
+    "d7": -0.1,
+    "d30": -0.5,
+    "d90": -1.2,
+    "ago90": 3.04,
+    "up7": 0,
+    "up30": 4,
+    "down7": 3,
+    "down30": 9
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 12.88,
+    "d7": 0,
+    "d30": -0.1,
+    "d90": 0,
+    "ago90": 12.89,
+    "up7": 1,
+    "up30": 4,
+    "down7": 3,
+    "down30": 16
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 13.73,
+    "d7": -0.1,
+    "d30": -0.7,
+    "d90": -2.2,
+    "ago90": 14.04,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 22
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.57,
+    "estimate": 3.38,
+    "surprisePct": 5.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.38,
+    "estimate": 3.32,
+    "surprisePct": 1.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.83,
+    "estimate": 2.74,
+    "surprisePct": 3.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 3.12,
+    "estimate": 3.05,
+    "surprisePct": 2.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 1,
+   "ptLowered": 22,
+   "total": 26,
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 285,
+     "ptPrior": 270
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 260,
+     "ptPrior": 290
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 295,
+     "ptPrior": 295
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 295,
+     "ptPrior": 305
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 295
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 280,
+     "ptPrior": 305
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 270,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 290
+    },
+    {
+     "date": "2026-09-29",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "Melius Research",
+     "action": "main",
+     "from": "Sell",
+     "to": "Sell",
+     "ptAction": "Lowers",
+     "pt": 230,
+     "ptPrior": 250
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-04",
+  "numbers": {
+   "price": 280.22,
+   "ma20": 248.96,
+   "ma50": 248.22,
+   "ma150": 269.7,
+   "distMA50": 12.89,
+   "periodHigh": 341.75,
+   "pullbackFromHigh": -18,
+   "volRatio20": 1.97,
+   "dryUpRatio": 1.2
+  },
+  "last10": [
+   {
+    "d": "2026-10-22",
+    "o": 248.16,
+    "h": 252.88,
+    "l": 246.47,
+    "c": 252.63,
+    "v": 5084800,
+    "clsPos": 96,
+    "gapPct": 0.78
+   },
+   {
+    "d": "2026-10-23",
+    "o": 250.53,
+    "h": 251.75,
+    "l": 246.67,
+    "c": 248.46,
+    "v": 4158500,
+    "clsPos": 35,
+    "gapPct": -0.83
+   },
+   {
+    "d": "2026-10-26",
+    "o": 248.44,
+    "h": 252.88,
+    "l": 247.98,
+    "c": 250.83,
+    "v": 4736500,
+    "clsPos": 58,
+    "gapPct": -0.01
+   },
+   {
+    "d": "2026-10-27",
+    "o": 249.16,
+    "h": 250.18,
+    "l": 248.35,
+    "c": 249.47,
+    "v": 3799000,
+    "clsPos": 61,
+    "gapPct": -0.67
+   },
+   {
+    "d": "2026-10-28",
+    "o": 248.42,
+    "h": 252.39,
+    "l": 248,
+    "c": 250.5,
+    "v": 3398900,
+    "clsPos": 57,
+    "gapPct": -0.42
+   },
+   {
+    "d": "2026-10-29",
+    "o": 254.82,
+    "h": 257.65,
+    "l": 253.71,
+    "c": 257.38,
+    "v": 4554200,
+    "clsPos": 93,
+    "gapPct": 1.72
+   },
+   {
+    "d": "2026-10-30",
+    "o": 260.38,
+    "h": 262.88,
+    "l": 257.11,
+    "c": 258.12,
+    "v": 6526400,
+    "clsPos": 18,
+    "gapPct": 1.17
+   },
+   {
+    "d": "2026-11-02",
+    "o": 260.02,
+    "h": 265.67,
+    "l": 259.75,
+    "c": 265.64,
+    "v": 6472000,
+    "clsPos": 99,
+    "gapPct": 0.74
+   },
+   {
+    "d": "2026-11-03",
+    "o": 262.79,
+    "h": 264,
+    "l": 261,
+    "c": 263.04,
+    "v": 6097100,
+    "clsPos": 68,
+    "gapPct": -1.07
+   },
+   {
+    "d": "2026-11-04",
+    "o": 268.79,
+    "h": 281.14,
+    "l": 267.8,
+    "c": 280.22,
+    "v": 11520800,
+    "clsPos": 93,
+    "gapPct": 2.19
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MCD-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MCD-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 12일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}
