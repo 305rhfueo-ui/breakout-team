@@ -1,14 +1,14 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "items": [
     {
       "ticker": "SYNA",
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.67배로 줄었다",
+        "최근 2주 가격 흔들림이 그 전 2주의 0.76배로 줄었다",
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.03, 최저 0.03)",
-        "넘어야 할 선 $121.98 바로 아래(-3.75%)",
+        "넘어야 할 선 $119.13 바로 아래(-1.38%)",
         "최근 2주 종가가 0.38% 안에서만 움직였다"
       ],
       "flags": [
@@ -17,50 +17,28 @@ window.CHARTCHECK_DATA = {
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 121.98,
-      "price": 117.41,
+      "resistance": 119.13,
+      "price": 117.49,
       "barGap": false
     },
     {
-      "ticker": "MANE",
-      "score": 7,
+      "ticker": "ELF",
+      "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.68배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.61배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $136.72 바로 아래(-2.27%)",
-        "1년 최고가의 91.15% 자리"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.1, 최저 0.1)",
+        "넘어야 할 선 $118.29 바로 아래(-3.94%)",
+        "최근 2주 종가가 1.35% 안에서만 움직였다",
+        "1년 최고가의 92.87% 자리"
       ],
       "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "high52"
-      ],
-      "resistance": 136.72,
-      "price": 133.61,
-      "barGap": false
-    },
-    {
-      "ticker": "UTHR",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.72배로 줄었다",
-        "최근 1주는 더 조용하다(그 전 1주의 0.66배)",
-        "넘어야 할 선 $607.89 바로 아래(-1.08%)",
-        "최근 2주 종가가 1.8% 안에서만 움직였다",
-        "1년 최고가의 98.58% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "contract5",
+        "bbSqueeze",
         "nearResist",
         "tightCloses",
         "high52"
       ],
-      "resistance": 607.89,
-      "price": 601.32,
+      "resistance": 118.29,
+      "price": 113.63,
       "barGap": false
     },
     {
@@ -69,9 +47,9 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
-        "넘어야 할 선 $111 바로 아래(-0.7%)",
-        "최근 2주 종가가 2.46% 안에서만 움직였다",
-        "1년 최고가의 92.91% 자리"
+        "넘어야 할 선 $118.46 바로 아래(-2.59%)",
+        "최근 2주 종가가 2.6% 안에서만 움직였다",
+        "1년 최고가의 97.27% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -79,46 +57,8 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 111,
-      "price": 110.22,
-      "barGap": false
-    },
-    {
-      "ticker": "SIG",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.72배로 줄었다",
-        "넘어야 할 선 $122.64 바로 아래(-3.05%)",
-        "최근 2주 종가가 1.6% 안에서만 움직였다",
-        "1년 최고가의 97.24% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 122.64,
-      "price": 118.9,
-      "barGap": false
-    },
-    {
-      "ticker": "VEON",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "최근 1주 거래량이 한 달 평균의 0.62배로 줄었다(팔 사람이 줄어듦)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.17, 최저 0.15)",
-        "넘어야 할 선 $78.83 바로 아래(-0.91%)"
-      ],
-      "flags": [
-        "volDry",
-        "bbSqueeze",
-        "nearResist"
-      ],
-      "resistance": 78.83,
-      "price": 78.11,
+      "resistance": 118.46,
+      "price": 115.39,
       "barGap": false
     },
     {
@@ -126,9 +66,9 @@ window.CHARTCHECK_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.13)",
-        "넘어야 할 선 $182.52 바로 아래(-2.33%)",
-        "최근 2주 종가가 2.51% 안에서만 움직였다"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
+        "넘어야 할 선 $182.52 바로 아래(-2.37%)",
+        "최근 2주 종가가 2.52% 안에서만 움직였다"
       ],
       "flags": [
         "bbSqueeze",
@@ -136,12 +76,48 @@ window.CHARTCHECK_DATA = {
         "tightCloses"
       ],
       "resistance": 182.52,
-      "price": 178.27,
+      "price": 178.2,
+      "barGap": false
+    },
+    {
+      "ticker": "MANE",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.6배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.65배로 줄었다(팔 사람이 줄어듦)",
+        "1년 최고가의 93.13% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "volDry",
+        "high52"
+      ],
+      "resistance": null,
+      "price": 136.51,
+      "barGap": false
+    },
+    {
+      "ticker": "KOD",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.77배로 줄었다",
+        "넘어야 할 선 $103.27 바로 아래(-4.61%)",
+        "1년 최고가의 94.72% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "high52"
+      ],
+      "resistance": 103.27,
+      "price": 98.51,
       "barGap": false
     }
   ],
-  "total": 7,
-  "shown": 7,
+  "total": 6,
+  "shown": 6,
   "cap": 10,
   "beyondCap": []
 };
