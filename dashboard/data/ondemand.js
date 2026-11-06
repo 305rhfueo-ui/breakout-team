@@ -1,6 +1,1087 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "REGN",
+      "nameKo": "리제네론 파머슈티컬스",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "industryRank": {
+        "frank": 2,
+        "frank25dChg": 15,
+        "headline": "바이오테크 업종이 암 백신·안과 신약 등 임상 성공과 대형주 실적 호조를 업고 업종 순위 2위로 올라섰다.",
+        "asOf": "2026-11-06"
+      },
+      "requestedOn": "2026-11-06",
+      "session": "2026-11-05",
+      "at": "2026-11-06T07:52:44.934Z",
+      "verdict": "조건부",
+      "verdictLine": "실적과 신규 계약은 강하지만 시장이 빨간불이고 피벗 859.34 를 이미 넘은 추격 구간이라 조건부다.",
+      "basis": [
+        {
+          "point": "시장 판정이 빨간불이다 — 10일선이 20일선 아래 13일째여서 새로 사는 구간이 아니다.",
+          "side": "against",
+          "checkRef": "차트:시장"
+        },
+        {
+          "point": "10월 30일 피벗 859.34 를 이미 넘었고 지금은 그보다 5.07% 위여서 추격이 된다.",
+          "side": "against",
+          "checkRef": "차트:피벗 거리"
+        }
+      ],
+      "conditions": [
+        "시장 판정이 빨간불에서 벗어나는지 — 10일선이 20일선 위로 복귀",
+        "주가가 20일선 829.95 부근까지 되돌려 2주 이상 새 쉬는 구간을 만들고 저점이 높아지는지",
+        "최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어드는지 — 지금은 1.88배",
+        "52주 고점 991.73 을 20일 평균 2배 이상 거래량으로 종가 돌파하는지"
+      ],
+      "invalidation": "종가가 예비 손절 839.6 아래로 내려가면 이번 돌파 흐름은 틀린 것으로 본다. 50일선 802.45 아래 마감이면 더 분명하다.",
+      "dataLimits": "기관 보유 자료 없음, 국내 증권사 리포트 0건, 증권사 리포트 원문 없음, 다른 팀 의견 없음, 실적 발표 확정일 없음(2027-01-28 은 추정). 코드 체크표는 9월 7일자 사이트 재무로 C·A 를 미충족으로 계산했으나, 여기서는 기준 문서대로 SEC 9월 분기 자료로 C 를 판정했다.",
+      "verdictAdjusted": [
+        "근거 1개 삭제 — 가리키는 체크표·출처와 맞지 않음"
+      ],
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "market_red",
+            "ko": "시장 판정이 빨간불이다 (신규 매수 금지 구간)"
+          },
+          {
+            "key": "post_breakout",
+            "ko": "이미 피벗 859.34 을 넘었다(2026-10-30) — 넘은 뒤에 사는 것은 추격이다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-11-05",
+          "market": "2026-11-05"
+        }
+      },
+      "setup": {
+        "state": "post",
+        "grade": "A",
+        "pivot": 859.34,
+        "stop": 839.6,
+        "distToPivotPct": 5.07,
+        "distToPivotAdr": 1.49,
+        "riskPerSharePct": 2.3,
+        "extensionAdr": 0.89,
+        "adrPct": 3.4,
+        "breakDate": "2026-10-30",
+        "chase": false,
+        "metrics": {
+          "baseBars": 40,
+          "baseWeeks": 8,
+          "depthPct": 16,
+          "priorMovePct": 44.5,
+          "higherLows": 1,
+          "contraction": 0.96,
+          "closeRange10Adr": 1.9,
+          "surf10": 0.62,
+          "surf20": 2,
+          "slope20": 1.81,
+          "baseLow": 722.02,
+          "lastSwingLow": 796.61
+        },
+        "reasons": [
+          "선행 상승 +44%",
+          "베이스 8주",
+          "깊이 16%",
+          "저점 상승 1회",
+          "진폭 0.96배 · 10일 종가폭 1.9 ADR",
+          "10일선 +0.6 ADR · 20일선 +2 ADR",
+          "20일선 기울기 +1.81%"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 45% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.96배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 16% · ADR 3.4%의 4.7배 · 선행 상승의 절반 22%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 902.9 · 20일선 829.95 · 50일선 802.45"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.88배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "충족",
+            "evidence": "2026-10-30 돌파봉 거래량 = 20일 평균의 4.54배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 2026-10-30 피벗 859.34 돌파 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.3% · ADR 3.4%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.9 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 -6.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 -7%/-10%/-8% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 91%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.88배(20일 평균 대비) · 오늘 거래대금 1.62배 · 상장주식 102M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 3.92% · 3M 12.22% · 6M 18.35% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "REGN",
+        "fetchedAt": "2026-11-06",
+        "source": "한국투자증권 Open API",
+        "per": 22.31,
+        "pbr": 2.94,
+        "eps": 40.46,
+        "bps": 306.69,
+        "shares": 101631000,
+        "marketCapM": 91763,
+        "high52": 991.73,
+        "high52Date": "2026-11-04",
+        "low52": 590.8303,
+        "low52Date": "2026-06-02",
+        "last": 902.9,
+        "prevClose": 930.67,
+        "nameKo": "리제네론 파머슈티컬스",
+        "nameEn": "REGENERON PHARMACEUTICALS INC",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 101631000
+      },
+      "estimates": {
+        "ticker": "REGN",
+        "url": "https://finance.yahoo.com/quote/REGN/analysis/",
+        "fetchedAt": "2026-11-06",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 25.39,
+            "epsLow": 17.7,
+            "epsHigh": 30.44,
+            "epsYearAgo": 11.44,
+            "epsAnalysts": 22,
+            "epsGrowth": 122,
+            "epsCur": "USD",
+            "rev": 5850231350,
+            "revAnalysts": 20,
+            "revYearAgo": 3884300000,
+            "revGrowth": 50.6,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 15.89,
+            "epsLow": 12.9,
+            "epsHigh": 18.8,
+            "epsYearAgo": 9.47,
+            "epsAnalysts": 9,
+            "epsGrowth": 67.8,
+            "epsCur": "USD",
+            "rev": 4595664620,
+            "revAnalysts": 8,
+            "revYearAgo": 3605400000,
+            "revGrowth": 27.5,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 68.75,
+            "epsLow": 61.35,
+            "epsHigh": 74.53,
+            "epsYearAgo": 44.31,
+            "epsAnalysts": 25,
+            "epsGrowth": 55.2,
+            "epsCur": "USD",
+            "rev": 17604178700,
+            "revAnalysts": 26,
+            "revYearAgo": 14342900000,
+            "revGrowth": 22.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 62.12,
+            "epsLow": 54.89,
+            "epsHigh": 73.76,
+            "epsYearAgo": 59.27,
+            "epsAnalysts": 10,
+            "epsGrowth": 4.8,
+            "epsCur": "USD",
+            "rev": 20149877690,
+            "revAnalysts": 24,
+            "revYearAgo": 17604178700,
+            "revGrowth": 14.5,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 25.39,
+            "d7": 24.2,
+            "d30": 55.3,
+            "d90": 63.6,
+            "ago90": 15.52,
+            "up7": 4,
+            "up30": 13,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 15.89,
+            "d7": 22.1,
+            "d30": 21.1,
+            "d90": 21.1,
+            "ago90": 13.12,
+            "up7": 2,
+            "up30": 7,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 68.75,
+            "d7": 16.5,
+            "d30": 24.9,
+            "d90": 29.7,
+            "ago90": 53,
+            "up7": 8,
+            "up30": 18,
+            "down7": 0,
+            "down30": 2
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 62.12,
+            "d7": 20.1,
+            "d30": 22.7,
+            "d90": 23.8,
+            "ago90": 50.18,
+            "up7": 3,
+            "up30": 4,
+            "down7": 1,
+            "down30": 0
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 20.07,
+            "estimate": 16.25,
+            "surprisePct": 23.5,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 14.29,
+            "estimate": 10.21,
+            "surprisePct": 40,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 9.47,
+            "estimate": 8.9,
+            "surprisePct": 6.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 11.44,
+            "estimate": 10.75,
+            "surprisePct": 6.4,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 2,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 25,
+          "ptLowered": 0,
+          "total": 27,
+          "recent": [
+            {
+              "date": "2026-11-02",
+              "firm": "Leerink Partners",
+              "action": "main",
+              "from": "Market Perform",
+              "to": "Market Perform",
+              "ptAction": "Raises",
+              "pt": 997,
+              "ptPrior": 835
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Bernstein",
+              "action": "main",
+              "from": "Market Perform",
+              "to": "Market Perform",
+              "ptAction": "Raises",
+              "pt": 812,
+              "ptPrior": 756
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 855,
+              "ptPrior": 779
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Truist Securities",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 982,
+              "ptPrior": 780
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "RBC Capital",
+              "action": "main",
+              "from": "Sector Perform",
+              "to": "Sector Perform",
+              "ptAction": "Raises",
+              "pt": 913,
+              "ptPrior": 810
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Guggenheim",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 1100,
+              "ptPrior": 1030
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 925,
+              "ptPrior": 750
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Evercore ISI Group",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 1075,
+              "ptPrior": 900
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Canaccord Genuity",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 1175,
+              "ptPrior": 922
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Cantor Fitzgerald",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 980,
+              "ptPrior": 795
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2027-01-28",
+          "upcoming": true,
+          "estimated": true
+        }
+      },
+      "cnbc": [
+        {
+          "title": "Thursday's biggest analyst calls: Nvidia, CoreWeave, Walmart, Crocs, CarMax",
+          "url": "https://www.cnbc.com/2026/10/15/thursday-big-wall-street-analyst-calls-like-coreweave.html",
+          "date": "2026-10-15",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Final Trades: Invesco S&P 500 Equal Weight, Cleveland-Cliffs, UnitedHealth and Regeneron",
+          "url": "https://www.cnbc.com/video/2026/11/02/final-trades-invesco-sp-500-equal-weight-cleveland-cliffs-unitedhealth-and-regeneron.html",
+          "date": "2026-11-02",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Calls of the Day: Adobe, eBay and Regeneron",
+          "url": "https://www.cnbc.com/video/2026/10/12/calls-of-the-day-adobe-ebay-and-regeneron.html",
+          "date": "2026-10-12",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Regeneron Founder and CEO Leonard Schleifer on America’s entrepreneurial spirit",
+          "url": "https://www.cnbc.com/video/2026/08/06/regeneron-founder-and-ceo-leonard-schleifer-on-americas-entrepreneurial-spirit.html",
+          "date": "2026-08-06",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-11-06",
+        "nameKo": "리제네론 파머슈티컬스",
+        "nameEn": "REGENERON PHARMACEUTICALS INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000872589&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 5115800000,
+              "profit": 2048200000,
+              "netIncome": 1948700000,
+              "margin": 40,
+              "yoy": {
+                "revenue": 36.3,
+                "profit": 99.5,
+                "netIncome": 33.5,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 4290700000,
+              "profit": 1293500000,
+              "netIncome": 1296900000,
+              "margin": 30.1,
+              "yoy": {
+                "revenue": 16.7,
+                "profit": 19.8,
+                "netIncome": -6.8,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 3605400000,
+              "profit": 642900000,
+              "netIncome": 727200000,
+              "margin": 17.8,
+              "yoy": {
+                "revenue": 19,
+                "profit": 8.7,
+                "netIncome": -10.1,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 3884300000,
+              "profit": 879900000,
+              "netIncome": 844600000,
+              "margin": 22.7,
+              "yoy": {
+                "revenue": 2.5,
+                "profit": -11.1,
+                "netIncome": -8,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Why Regeneron (REGN) Might be Well Poised for a Surge",
+              "url": "https://www.nasdaq.com/articles/why-regeneron-regn-might-be-well-poised-surge",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "REGN vs. ILMN: Which Stock Is the Better Value Option?",
+              "url": "https://www.nasdaq.com/articles/regn-vs-ilmn-which-stock-better-value-option",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Regeneron: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/regeneron-3-key-takeaways-long-term-investors",
+              "date": "2026-10-31",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "REGN Q3 Earnings Beat on Dupixent Profits & Eylea HD Growth, Stock Up",
+              "url": "https://www.nasdaq.com/articles/regn-q3-earnings-beat-dupixent-profits-eylea-hd-growth-stock",
+              "date": "2026-10-30",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Regeneron Q3 Revenue Rises 36%; Pipeline Advances, FDA Catalysts Ahead; Stock Up",
+              "url": "https://www.nasdaq.com/articles/regeneron-q3-revenue-rises-36-pipeline-advances-fda-catalysts-ahead-stock",
+              "date": "2026-10-30",
+              "publisher": "RTTNews"
+            },
+            {
+              "title": "What Regeneron Pharmaceuticals (REGN) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-regeneron-pharmaceuticals-regn-said-its-q3-earnings-call",
+              "date": "2026-10-30",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Regeneron (REGN) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/regeneron-regn-q3-2026-earnings-call-transcript",
+              "date": "2026-10-30",
+              "publisher": "The Motley Fool"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-30",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/regn-20261030.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-06",
+            "itemsKo": [
+              "중요 계약 체결",
+              "실적 발표",
+              "기타 중요사건"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/872589/000110465926113895/tm2627077d1_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-30",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/872589/000110465926112340/tm2626090d1_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-30",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000023/regn-20260730.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-06",
+            "itemsKo": [
+              "실적 발표"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/872589/000110465926080562/tm2619682d1_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-17",
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/872589/000110465926075127/tm2618117d1_8k.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "rank": {
+        "m1": 3.92,
+        "m3": 12.22,
+        "m6": 18.35
+      },
+      "yahooNews": [
+        {
+          "title": "Mary Tyler Moore Vision Initiative Welcomes Regeneron and Adaptive Sensory Technology to Its Consortium",
+          "url": "https://finance.yahoo.com/healthcare/articles/mary-tyler-moore-vision-initiative-160600910.html",
+          "date": "2026-11-05",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "DZ Bank Adjusts Price Target on Regeneron Pharmaceuticals to $1,067 From $900",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dz-bank-adjusts-price-target-103035676.html",
+          "date": "2026-11-05",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Why Regeneron (REGN) Might be Well Poised for a Surge",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-regeneron-regn-might-well-162002464.html",
+          "date": "2026-11-04",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Regeneron Announces Investor Conference Presentations",
+          "url": "https://finance.yahoo.com/healthcare/articles/regeneron-announces-investor-conference-presentations-210500591.html",
+          "date": "2026-11-02",
+          "publisher": "GlobeNewswire",
+          "via": "Yahoo"
+        }
+      ],
+      "teamView": {
+        "seojun": null,
+        "doyun": null,
+        "jaemin": null,
+        "holding": null
+      },
+      "market": {
+        "verdict": "red",
+        "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+        "finra": "warn",
+        "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과"
+      },
+      "verified": {
+        "checked": 2,
+        "ok": 9,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 0
+      },
+      "numberCut": 7,
+      "deep": {
+        "status": "done",
+        "ticker": "REGN",
+        "company": "리제네론은 사람 항체를 만들어 신약으로 파는 미국 바이오 회사다. 사노피와 함께 파는 아토피 치료제 듀피젠트, 눈 황반변성 치료제 아일리아 HD, 항암제 립타요가 매출의 축이다. 2026년 3분기에 이 세 제품이 모두 분기 최대 매출을 냈다.",
+        "lead": "분기 실적이 크게 좋아졌고 사노피와 맺은 새 공동개발 계약까지 더해져 시장이 다시 보는 종목이다. 가장 강한 근거는 3분기 매출이 1년 전보다 36% 늘어 51억 달러가 되고 일회성을 뺀 주당순이익이 70% 늘어난 것이다. 가장 큰 걱정은 이 소식이 10월 30일 하루 6.19% 갭 상승으로 이미 반영돼, 주가가 넘으면 사는 선 859.34달러보다 5.07% 위에 있다는 점이다. 종가가 예비 손절 839.6달러 아래로 내려가면 이번 상승 흐름은 깨진 것으로 본다.",
+        "newsNarrative": "10월 30일 3분기 실적 발표가 주가를 끌어올린 분기점이었다. 매출이 1년 전보다 36% 늘어 51억 달러가 됐고 일회성을 뺀 주당순이익은 70% 늘어 20.07달러를 기록했다. 듀피젠트·아일리아 HD·립타요가 모두 사상 최대 분기 매출을 냈다고 회사가 밝혔고, 발표 당일 주가는 6.19% 갭 상승으로 출발했다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "2026년 3분기 매출이 1년 전보다 36% 늘어 51억 달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                "date": "2026-10-30",
+                "quote": "Third quarter 2026 revenues increased 36% to $5.1 billion versus third quarter 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "일회성을 뺀 주당순이익이 1년 전보다 70% 늘어 20.07달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                "date": "2026-10-30",
+                "quote": "GAAP EPS increased 35% to $18.45; non-GAAP EPS(a) increased 70% to $20.07",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "회사는 듀피젠트·아일리아 HD·립타요 세 제품이 모두 분기 최대 매출을 냈다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                "date": "2026-10-30",
+                "quote": "This was an outstanding quarter for Regeneron, with Dupixent, EYLEA HD, and Libtayo each achieving record net sales.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "아일리아 HD 미국 매출이 1년 전보다 62% 늘어 6억 9,900만 달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                "date": "2026-10-30",
+                "quote": "EYLEA HD® U.S. net sales increased 62% to $699 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출과 이익이 동시에 빨라지고 있다. 2026년 9월 분기 매출은 51억 1,580만 달러로 1년 전보다 36.3% 늘었고, 영업이익은 20억 4,820만 달러로 99.5% 늘어 영업이익률이 40%가 됐다. 직전 두 분기 매출 증가율이 19.0%·16.7%였던 것과 비교하면 증가 속도가 뚜렷하게 올라왔다. 다만 2025년 12월 분기 영업이익이 1년 전보다 11.1% 줄어, 네 분기 내내 늘어난 흐름은 아니다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026년 3분기 매출이 1년 전보다 36% 늘어 51억 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                  "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                  "date": "2026-10-30",
+                  "quote": "Third quarter 2026 revenues increased 36% to $5.1 billion versus third quarter 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "립타요 글로벌 매출이 1년 전보다 51% 늘어 5억 5,000만 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                  "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                  "date": "2026-10-30",
+                  "quote": "Libtayo® global net sales increased 51% to $550 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "3분기 일회성을 뺀 주당순이익이 70% 늘어 20.07달러, 회계기준 주당순이익은 35% 늘어 18.45달러였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                  "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                  "date": "2026-10-30",
+                  "quote": "GAAP EPS increased 35% to $18.45; non-GAAP EPS(a) increased 70% to $20.07",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": []
+          }
+        },
+        "estimatesNarrative": "애널리스트들이 전망치를 빠르게 올리는 중이다. 2026년 결산 주당순이익 추정은 68.75달러로 30일 전보다 24.9% 높아졌고, 같은 기간 올린 사람이 18명·내린 사람이 2명이다. 최근 4개 분기 모두 예상을 넘었고 직전 분기는 20.07달러로 예상 16.25달러를 23.5% 웃돌았는데, 이는 매출이 36% 늘어난 데서 나온 것이지 일회성이 아니다. 다만 2027년 추정 주당순이익 62.12달러는 2026년 추정 68.75달러보다 낮아, 올해만 한 증익은 기대되지 않는다.",
+        "newDrivers": [
+          {
+            "what": "파사트루(Pasatru) — 희귀 골질환 FOP 환자의 새 뼈 생성과 통증 발작을 줄이는 신약",
+            "kind": "product",
+            "stage": "출시",
+            "since": "2026-08",
+            "basis": [
+              {
+                "id": "d2",
+                "statement": "2026년 8월 미국 FDA가 성인 FOP 환자 대상으로 파사트루를 승인했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Press Release Reporting Third Quarter 2026 Financial and Operating Results",
+                    "publisher": "Regeneron Pharmaceuticals (SEC 8-K 첨부)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000032/exhibit991q32026.htm",
+                    "date": "2026-10-30",
+                    "quote": "In August 2026, the FDA approved Pasatru to reduce formation of new heterotopic ossification lesions and clinician-assessed flare-ups in adults with FOP.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것이 두 가지 확인된다. 이익은 사노피와 절반씩 나누므로 받는 금액 전부가 리제네론 몫은 아니지만, 개발비도 나눠 내기 때문에 혼자 할 때보다 부담이 작다. 둘째는 8월 FDA 승인을 받은 희귀 골질환 신약 파사트루. 다만 두 가지 모두 매출로 얼마가 잡힐지에 대한 회사 전망이나 증권사 추정은 확인되지 않는다. 계약금이 어느 분기 매출로 들어오는지, 파사트루 처방이 얼마나 나오는지가 다음 실적에서 확인돼야 한다.",
+        "nVerdict": "부분 충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "2026년 9월 분기 영업이익 전년비 +99.5% · 순이익 +33.5% · 매출 +36.3% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 영업이익 전년비 +99.5%/+19.8%/+8.7%/-11.1% — 네 분기 모두 플러스는 아니다. 3년 추세·ROE 는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.88배 · 기준 0.7 이하 · 오늘 거래대금 1.62배 · 상장주식 101,631,000주 · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 — 10일선이 20일선 아래 13일째 · 빚내서 산 주식이 1년 전보다 +31.4%로 주의선 +30% 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "창업자 두 명의 주식 보상이 2036년까지 일회성 성과주 한 묶음으로 대체돼, 앞으로 10년간 보상으로 성과를 조절할 여지가 없어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Form 8-K — Item 5.02 Compensatory Arrangements of Certain Officers",
+                "publisher": "Regeneron Pharmaceuticals (SEC)",
+                "url": "https://www.sec.gov/Archives/edgar/data/872589/000110465926112340/tm2626090d1_8k.htm",
+                "date": "2026-09-30",
+                "quote": "replace annual equity awards under the Company's long-term incentive plan for the CEO and the CSO until 2036",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "주력 제품 듀피젠트의 매출은 사노피가 인식하고 이익을 나누는 구조라 단독으로 통제하지 못한다.",
+          "새 제품 매출이 미국 FDA 승인과 허가 범위에 달려 있어 규제 판단이 실적을 좌우한다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 44.5% · 기준 30% 이상"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주(40봉) · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.96배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 16% · ADR 3.4%의 4.7배 · 선행 상승 44.5%의 절반보다 얕다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 902.9 · 20일선 829.95 · 50일선 802.45 · 150일선 733.62"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.88배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "충족",
+            "evidence": "2026-10-30 돌파봉 거래량 2,870,600주 = 20일 평균의 4.54배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "2026-10-30 에 피벗 859.34 를 이미 넘었고 종가 902.9 는 그보다 5.07%(1.49 ADR) 위 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.3% · ADR 3.4% 이내"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.89 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강 — 10일선이 20일선 아래 13일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "8주(40봉) 동안 쉬는 구간이 있었고 그 저점은 722.02였다. 저점이 한 번 높아졌고 움직이는 폭은 0.96배로 조금 좁아졌다. 구간 깊이는 16%로 하루 평균 변동폭 3.4%의 4.7배이고, 앞선 상승 44.5%의 절반보다 얕다.",
+          "volume": "10월 30일에 2,870,600주로 20일 평균의 4.54배가 실렸다. 그 뒤로도 11월 2일 1,660,200주, 11월 5일 1,407,000주가 이어져 최근 5일 거래량이 20일 평균의 1.88배로 여전히 많다.",
+          "position": "종가 902.9는 넘으면 사는 선 859.34보다 5.07%(1.49 ADR) 위에 있다. 예비 손절 839.6보다도 위이고, 10일선과의 거리는 0.89 ADR이다. 52주 고점 991.73에서는 8.96% 내려온 자리다.",
+          "maStack": "가격이 20일선 829.95, 50일선 802.45, 150일선 733.62를 모두 위에 두고 있다. 20일선 기울기는 +1.81%로 올라가는 중이다.",
+          "note": "그림에서 9~10월 횡보 뒤 10월 30일 큰 갭 상승 봉과 거래량 막대 급증이 보여 숫자와 일치한다. 다만 최근 두 봉은 종가 위치가 봉 아래쪽 5%·3%로 마감했다."
+        },
+        "entryChecklist": [
+          "시장 판정이 빨간불에서 벗어나는지 — 10일선이 20일선 위로 다시 올라오는지",
+          "주가가 20일선 829.95 부근까지 내려와 2주 이상 새로 쉬는 구간을 만드는지",
+          "52주 고점 991.73 을 20일 평균 2배 이상 거래량으로 종가 돌파하는지",
+          "다음 실적 발표일이 확정되는지 — 지금 2027-01-28 은 추정일이다",
+          "종가가 예비 손절 839.6 위에서 지켜지는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준)이며, 10월 30일 3분기 발표는 이미 지나갔다. 야후 추정으로 다음 발표는 2027-01-28이라 당장 실적 임박 위험은 크지 않다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "n3",
+            "n6",
+            "d1"
+          ],
+          "reasons": [
+            "n3: '10월 1일'과 '항체 4종' 미검증 — 8-K 제출일은 10-06, quote에 계약 내용 없음",
+            "n6: '9월 24일' 미검증 — 8-K 제출일은 09-30, quote에 날짜 없음",
+            "d1: '항체 4종' 미검증 — quote 및 제목에 구체적 품목 명시 없음"
+          ],
+          "newsNarrativeFixed": true,
+          "nNarrativeFixed": true
+        },
+        "newsNarrativeOriginal": "10월 30일 3분기 실적 발표가 주가를 끌어올린 분기점이었다. 매출이 1년 전보다 36% 늘어 51억 달러가 됐고 일회성을 뺀 주당순이익은 70% 늘어 20.07달러를 기록했다. 듀피젠트·아일리아 HD·립타요가 모두 사상 최대 분기 매출을 냈다고 회사가 밝혔고, 발표 당일 주가는 6.19% 갭 상승으로 출발했다. 그보다 앞선 10월 1일에는 사노피와 항체 4종을 함께 개발·판매하는 계약을 맺어 선지급 10억 달러를 받기로 했다.",
+        "nNarrativeOriginal": "새로운 것이 두 가지 확인된다. 첫째는 10월 1일 사노피와 맺은 항체 4종 공동개발 계약으로, 선지급 10억 달러에 더해 성과에 따라 최대 70억 달러를 더 받는 구조다. 이익은 사노피와 절반씩 나누므로 받는 금액 전부가 리제네론 몫은 아니지만, 개발비도 나눠 내기 때문에 혼자 할 때보다 부담이 작다. 둘째는 8월 FDA 승인을 받은 희귀 골질환 신약 파사트루다. 다만 두 가지 모두 매출로 얼마가 잡힐지에 대한 회사 전망이나 증권사 추정은 확인되지 않는다. 계약금이 어느 분기 매출로 들어오는지, 파사트루 처방이 얼마나 나오는지가 다음 실적에서 확인돼야 한다.",
+        "consensus": {
+          "saleCy": 22.74,
+          "saleNy": 14.46,
+          "epsCy": 55.16,
+          "epsNy": -9.64,
+          "cyTrend": 24.86,
+          "nyTrend": 22.71
+        },
+        "researchedOn": "2026-11-06",
+        "session": "2026-11-05",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "CRL",
       "nameKo": "찰스 리버 래브러토리스 인터내셔널",
       "sector": "Healthcare",
@@ -12593,5 +13674,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-30T01:36:46.690Z"
+  "updated": "2026-11-06T07:52:44.938Z"
 };
