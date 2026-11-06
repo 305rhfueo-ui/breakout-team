@@ -1,19 +1,19 @@
 window.TEAM1_DATA = {
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "data_source": {
-    "rs_last_updated": "2026-11-05 02:53:42 UTC",
-    "sessionDate": "2026-11-04",
+    "rs_last_updated": "2026-11-06 02:06:49 UTC",
+    "sessionDate": "2026-11-05",
     "stale": false,
     "source": "live",
     "columns": 54,
-    "qqqLastBar": "2026-11-04",
+    "qqqLastBar": "2026-11-05",
     "sessionMismatch": false,
     "barGaps": 0,
     "barsNotice": null,
     "siteCondition": "BAD",
     "apiCalled": {
-      "fresh": 1038,
-      "cached": 71,
+      "fresh": 93,
+      "cached": 1016,
       "total": 1109
     },
     "degraded": false,
@@ -22,8 +22,8 @@ window.TEAM1_DATA = {
       "total": 1109,
       "blank_rows": 0,
       "null_rate": 0,
-      "api_called_count": 1038,
-      "duration_s": 3676.7,
+      "api_called_count": 93,
+      "duration_s": 942.2,
       "threshold": 0.15
     },
     "rsQuality": {
@@ -39,35 +39,35 @@ window.TEAM1_DATA = {
   },
   "qqq": {
     "ok": true,
-    "price": 691.95,
-    "ma10": 703.21,
-    "ma20": 717.42,
-    "ma50": 723.56,
+    "price": 647.05,
+    "ma10": 697.47,
+    "ma20": 712.4,
+    "ma50": 722.27,
     "ma10AboveMa20": false,
-    "slope10Pct": -1.88,
-    "slope20Pct": -2.06,
+    "slope10Pct": -2.51,
+    "slope20Pct": -2.56,
     "slope10Up": false,
     "slope20Up": false,
     "goldenCrossDate": "2026-09-17",
-    "daysSinceGoldenCross": 34,
+    "daysSinceGoldenCross": 35,
     "deathCrossDate": "2026-10-19",
-    "daysSinceDeathCross": 12,
+    "daysSinceDeathCross": 13,
     "priceAboveAll": false,
     "sweetSpot": false,
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-05",
     "verdict": "red",
-    "ko": "🔴 10일선이 20일선 아래 12일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+    "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
     "actions": [
       "신규 매수 전면 보류",
       "보유 종목 손절 라인 점검",
       "현금 비중 확대"
     ],
-    "chart_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 960 560\" width=\"100%\" style=\"max-width:960px;height:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace\"><rect width=\"960\" height=\"560\" fill=\"#0d1117\" rx=\"8\"/><text x=\"16\" y=\"26\" fill=\"#c9d1d9\" font-size=\"15\" font-weight=\"700\">QQQ DAILY</text><text x=\"16\" y=\"44\" fill=\"#7d8590\" font-size=\"11\">10 / 20 / 50 DAY MA   LAST 3 MONTHS</text><line x1=\"855.8\" y1=\"22\" x2=\"867.8\" y2=\"22\" stroke=\"#a1a1aa\" stroke-width=\"2.5\"/><text x=\"871.8\" y=\"26\" fill=\"#a1a1aa\" font-size=\"11\">MA50 723.56</text><line x1=\"769.5999999999999\" y1=\"22\" x2=\"781.5999999999999\" y2=\"22\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"785.5999999999999\" y=\"26\" fill=\"#3b82f6\" font-size=\"11\">MA20 717.42</text><line x1=\"683.3999999999999\" y1=\"22\" x2=\"695.3999999999999\" y2=\"22\" stroke=\"#f5a524\" stroke-width=\"2.5\"/><text x=\"699.3999999999999\" y=\"26\" fill=\"#f5a524\" font-size=\"11\">MA10 703.21</text><line x1=\"62\" y1=\"395.2\" x2=\"942\" y2=\"395.2\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"399.2\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">680.0</text><line x1=\"62\" y1=\"317.2\" x2=\"942\" y2=\"317.2\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"321.2\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">700.0</text><line x1=\"62\" y1=\"239.2\" x2=\"942\" y2=\"239.2\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"243.2\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">720.0</text><line x1=\"62\" y1=\"161.2\" x2=\"942\" y2=\"161.2\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"165.2\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">740.0</text><line x1=\"62\" y1=\"83.2\" x2=\"942\" y2=\"83.2\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"87.2\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">760.0</text><line x1=\"303.3\" y1=\"56\" x2=\"303.3\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"303.3\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">SEP</text><line x1=\"601.4\" y1=\"56\" x2=\"601.4\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"601.4\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">OCT</text><line x1=\"913.6\" y1=\"56\" x2=\"913.6\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"913.6\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">NOV</text><line x1=\"62.0\" y1=\"225.1\" x2=\"62.0\" y2=\"252.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"58.0\" y=\"227.4\" width=\"8.0\" height=\"11.2\" fill=\"#2ea043\"/><line x1=\"76.2\" y1=\"221.0\" x2=\"76.2\" y2=\"237.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"72.2\" y=\"229.9\" width=\"8.0\" height=\"5.9\" fill=\"#f85149\"/><line x1=\"90.4\" y1=\"226.2\" x2=\"90.4\" y2=\"256.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"86.4\" y=\"226.4\" width=\"8.0\" height=\"18.9\" fill=\"#f85149\"/><line x1=\"104.6\" y1=\"210.9\" x2=\"104.6\" y2=\"227.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"100.6\" y=\"211.6\" width=\"8.0\" height=\"13.2\" fill=\"#f85149\"/><line x1=\"118.8\" y1=\"184.8\" x2=\"118.8\" y2=\"223.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"114.8\" y=\"192.2\" width=\"8.0\" height=\"27.0\" fill=\"#2ea043\"/><line x1=\"133.0\" y1=\"183.1\" x2=\"133.0\" y2=\"206.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"186.9\" width=\"8.0\" height=\"9.1\" fill=\"#f85149\"/><line x1=\"147.2\" y1=\"182.4\" x2=\"147.2\" y2=\"203.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"143.2\" y=\"188.7\" width=\"8.0\" height=\"12.0\" fill=\"#f85149\"/><line x1=\"161.4\" y1=\"230.9\" x2=\"161.4\" y2=\"255.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"157.4\" y=\"238.4\" width=\"8.0\" height=\"10.5\" fill=\"#f85149\"/><line x1=\"175.5\" y1=\"233.4\" x2=\"175.5\" y2=\"268.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"171.5\" y=\"237.7\" width=\"8.0\" height=\"16.8\" fill=\"#f85149\"/><line x1=\"189.7\" y1=\"259.0\" x2=\"189.7\" y2=\"284.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"185.7\" y=\"270.1\" width=\"8.0\" height=\"4.5\" fill=\"#f85149\"/><line x1=\"203.9\" y1=\"256.1\" x2=\"203.9\" y2=\"281.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"199.9\" y=\"257.8\" width=\"8.0\" height=\"7.0\" fill=\"#f85149\"/><line x1=\"218.1\" y1=\"279.0\" x2=\"218.1\" y2=\"306.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"214.1\" y=\"279.5\" width=\"8.0\" height=\"13.0\" fill=\"#f85149\"/><line x1=\"232.3\" y1=\"262.5\" x2=\"232.3\" y2=\"288.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"228.3\" y=\"273.5\" width=\"8.0\" height=\"1.9\" fill=\"#f85149\"/><line x1=\"246.5\" y1=\"266.4\" x2=\"246.5\" y2=\"286.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"242.5\" y=\"272.9\" width=\"8.0\" height=\"11.5\" fill=\"#2ea043\"/><line x1=\"260.7\" y1=\"234.0\" x2=\"260.7\" y2=\"260.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"256.7\" y=\"234.9\" width=\"8.0\" height=\"16.3\" fill=\"#2ea043\"/><line x1=\"274.9\" y1=\"223.1\" x2=\"274.9\" y2=\"258.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"270.9\" y=\"240.2\" width=\"8.0\" height=\"12.9\" fill=\"#f85149\"/><line x1=\"289.1\" y1=\"248.7\" x2=\"289.1\" y2=\"265.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"285.1\" y=\"251.9\" width=\"8.0\" height=\"6.2\" fill=\"#2ea043\"/><line x1=\"303.3\" y1=\"269.2\" x2=\"303.3\" y2=\"299.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"299.3\" y=\"287.4\" width=\"8.0\" height=\"1.0\" fill=\"#2ea043\"/><line x1=\"317.5\" y1=\"279.0\" x2=\"317.5\" y2=\"297.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"313.5\" y=\"281.2\" width=\"8.0\" height=\"8.3\" fill=\"#2ea043\"/><line x1=\"331.7\" y1=\"243.4\" x2=\"331.7\" y2=\"279.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"327.7\" y=\"248.3\" width=\"8.0\" height=\"26.6\" fill=\"#2ea043\"/><line x1=\"345.9\" y1=\"232.0\" x2=\"345.9\" y2=\"252.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"341.9\" y=\"241.8\" width=\"8.0\" height=\"1.5\" fill=\"#f85149\"/><line x1=\"360.1\" y1=\"231.8\" x2=\"360.1\" y2=\"256.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"356.1\" y=\"235.7\" width=\"8.0\" height=\"9.9\" fill=\"#f85149\"/><line x1=\"374.3\" y1=\"240.4\" x2=\"374.3\" y2=\"262.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"370.3\" y=\"253.3\" width=\"8.0\" height=\"1.0\" fill=\"#f85149\"/><line x1=\"388.5\" y1=\"270.2\" x2=\"388.5\" y2=\"290.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"384.5\" y=\"283.3\" width=\"8.0\" height=\"4.4\" fill=\"#2ea043\"/><line x1=\"402.6\" y1=\"248.5\" x2=\"402.6\" y2=\"264.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"398.6\" y=\"256.1\" width=\"8.0\" height=\"3.1\" fill=\"#f85149\"/><line x1=\"416.8\" y1=\"266.7\" x2=\"416.8\" y2=\"306.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"412.8\" y=\"281.4\" width=\"8.0\" height=\"22.8\" fill=\"#2ea043\"/><line x1=\"431.0\" y1=\"280.0\" x2=\"431.0\" y2=\"303.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"427.0\" y=\"282.9\" width=\"8.0\" height=\"16.6\" fill=\"#f85149\"/><line x1=\"445.2\" y1=\"270.9\" x2=\"445.2\" y2=\"317.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"441.2\" y=\"286.0\" width=\"8.0\" height=\"12.8\" fill=\"#f85149\"/><line x1=\"459.4\" y1=\"246.9\" x2=\"459.4\" y2=\"265.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"455.4\" y=\"251.2\" width=\"8.0\" height=\"3.8\" fill=\"#2ea043\"/><line x1=\"473.6\" y1=\"232.5\" x2=\"473.6\" y2=\"258.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"469.6\" y=\"233.6\" width=\"8.0\" height=\"10.2\" fill=\"#2ea043\"/><line x1=\"487.8\" y1=\"148.7\" x2=\"487.8\" y2=\"208.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"483.8\" y=\"155.5\" width=\"8.0\" height=\"53.0\" fill=\"#2ea043\"/><line x1=\"502.0\" y1=\"128.7\" x2=\"502.0\" y2=\"157.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"498.0\" y=\"132.1\" width=\"8.0\" height=\"25.3\" fill=\"#2ea043\"/><line x1=\"516.2\" y1=\"133.4\" x2=\"516.2\" y2=\"168.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"512.2\" y=\"134.1\" width=\"8.0\" height=\"22.5\" fill=\"#f85149\"/><line x1=\"530.4\" y1=\"150.9\" x2=\"530.4\" y2=\"182.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"526.4\" y=\"156.9\" width=\"8.0\" height=\"22.7\" fill=\"#2ea043\"/><line x1=\"544.6\" y1=\"138.1\" x2=\"544.6\" y2=\"162.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"540.6\" y=\"143.7\" width=\"8.0\" height=\"6.5\" fill=\"#2ea043\"/><line x1=\"558.8\" y1=\"155.7\" x2=\"558.8\" y2=\"193.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"554.8\" y=\"159.4\" width=\"8.0\" height=\"15.3\" fill=\"#f85149\"/><line x1=\"573.0\" y1=\"159.0\" x2=\"573.0\" y2=\"179.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"569.0\" y=\"160.6\" width=\"8.0\" height=\"8.7\" fill=\"#f85149\"/><line x1=\"587.2\" y1=\"141.3\" x2=\"587.2\" y2=\"163.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"583.2\" y=\"160.5\" width=\"8.0\" height=\"1.6\" fill=\"#f85149\"/><line x1=\"601.4\" y1=\"143.0\" x2=\"601.4\" y2=\"175.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"597.4\" y=\"151.4\" width=\"8.0\" height=\"1.9\" fill=\"#f85149\"/><line x1=\"615.5\" y1=\"104.5\" x2=\"615.5\" y2=\"131.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"611.5\" y=\"117.1\" width=\"8.0\" height=\"6.7\" fill=\"#f85149\"/><line x1=\"629.7\" y1=\"95.3\" x2=\"629.7\" y2=\"125.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"625.7\" y=\"98.1\" width=\"8.0\" height=\"26.7\" fill=\"#2ea043\"/><line x1=\"643.9\" y1=\"72.1\" x2=\"643.9\" y2=\"86.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"639.9\" y=\"81.2\" width=\"8.0\" height=\"3.4\" fill=\"#f85149\"/><line x1=\"658.1\" y1=\"89.9\" x2=\"658.1\" y2=\"115.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"654.1\" y=\"92.1\" width=\"8.0\" height=\"15.4\" fill=\"#2ea043\"/><line x1=\"672.3\" y1=\"94.2\" x2=\"672.3\" y2=\"148.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"668.3\" y=\"106.8\" width=\"8.0\" height=\"24.9\" fill=\"#f85149\"/><line x1=\"686.5\" y1=\"111.0\" x2=\"686.5\" y2=\"128.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"682.5\" y=\"112.3\" width=\"8.0\" height=\"5.0\" fill=\"#f85149\"/><line x1=\"700.7\" y1=\"123.1\" x2=\"700.7\" y2=\"142.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"696.7\" y=\"123.4\" width=\"8.0\" height=\"14.2\" fill=\"#f85149\"/><line x1=\"714.9\" y1=\"144.9\" x2=\"714.9\" y2=\"165.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"710.9\" y=\"147.3\" width=\"8.0\" height=\"15.8\" fill=\"#2ea043\"/><line x1=\"729.1\" y1=\"159.2\" x2=\"729.1\" y2=\"214.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"725.1\" y=\"169.1\" width=\"8.0\" height=\"35.2\" fill=\"#f85149\"/><line x1=\"743.3\" y1=\"202.4\" x2=\"743.3\" y2=\"257.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"739.3\" y=\"208.0\" width=\"8.0\" height=\"36.8\" fill=\"#2ea043\"/><line x1=\"757.5\" y1=\"216.0\" x2=\"757.5\" y2=\"289.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"753.5\" y=\"217.7\" width=\"8.0\" height=\"61.3\" fill=\"#f85149\"/><line x1=\"771.7\" y1=\"221.5\" x2=\"771.7\" y2=\"252.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"767.7\" y=\"240.7\" width=\"8.0\" height=\"4.9\" fill=\"#f85149\"/><line x1=\"785.9\" y1=\"228.5\" x2=\"785.9\" y2=\"276.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"781.9\" y=\"248.5\" width=\"8.0\" height=\"9.3\" fill=\"#2ea043\"/><line x1=\"800.1\" y1=\"208.2\" x2=\"800.1\" y2=\"240.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"796.1\" y=\"218.9\" width=\"8.0\" height=\"11.6\" fill=\"#2ea043\"/><line x1=\"814.3\" y1=\"257.0\" x2=\"814.3\" y2=\"309.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"810.3\" y=\"264.1\" width=\"8.0\" height=\"35.6\" fill=\"#f85149\"/><line x1=\"828.5\" y1=\"280.9\" x2=\"828.5\" y2=\"312.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"824.5\" y=\"300.1\" width=\"8.0\" height=\"8.6\" fill=\"#2ea043\"/><line x1=\"842.6\" y1=\"257.7\" x2=\"842.6\" y2=\"295.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"838.6\" y=\"269.6\" width=\"8.0\" height=\"20.0\" fill=\"#2ea043\"/><line x1=\"856.8\" y1=\"228.0\" x2=\"856.8\" y2=\"264.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"852.8\" y=\"234.3\" width=\"8.0\" height=\"23.9\" fill=\"#2ea043\"/><line x1=\"871.0\" y1=\"215.3\" x2=\"871.0\" y2=\"238.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"867.0\" y=\"217.3\" width=\"8.0\" height=\"5.8\" fill=\"#2ea043\"/><line x1=\"885.2\" y1=\"246.7\" x2=\"885.2\" y2=\"271.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"881.2\" y=\"252.7\" width=\"8.0\" height=\"4.7\" fill=\"#f85149\"/><line x1=\"899.4\" y1=\"322.5\" x2=\"899.4\" y2=\"381.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"895.4\" y=\"328.1\" width=\"8.0\" height=\"26.2\" fill=\"#f85149\"/><line x1=\"913.6\" y1=\"319.4\" x2=\"913.6\" y2=\"393.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"909.6\" y=\"335.5\" width=\"8.0\" height=\"55.5\" fill=\"#f85149\"/><line x1=\"927.8\" y1=\"361.3\" x2=\"927.8\" y2=\"382.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"923.8\" y=\"374.6\" width=\"8.0\" height=\"3.5\" fill=\"#2ea043\"/><line x1=\"942.0\" y1=\"311.6\" x2=\"942.0\" y2=\"364.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"938.0\" y=\"348.6\" width=\"8.0\" height=\"13.7\" fill=\"#2ea043\"/><path d=\"M62.0 329.0 L76.2 313.9 L90.4 297.1 L104.6 273.0 L118.8 254.0 L133.0 237.2 L147.2 225.6 L161.4 228.1 L175.5 228.6 L189.7 230.0 L203.9 233.8 L218.1 239.4 L232.3 242.5 L246.5 247.3 L260.7 251.5 L274.9 257.2 L289.1 262.4 L303.3 266.2 L317.5 268.9 L331.7 266.2 L345.9 264.1 L360.1 259.4 L374.3 257.2 L388.5 258.3 L402.6 260.7 L416.8 263.5 L431.0 268.3 L445.2 269.4 L459.4 266.4 L473.6 265.0 L487.8 256.2 L502.0 244.8 L516.2 235.1 L530.4 222.5 L544.6 210.9 L558.8 200.3 L573.0 187.2 L587.2 173.6 L601.4 163.8 L615.5 152.8 L629.7 147.1 L643.9 142.3 L658.1 135.9 L672.3 133.3 L686.5 130.7 L700.7 127.0 L714.9 124.8 L729.1 129.0 L743.3 134.5 L757.5 150.0 L771.7 164.8 L785.9 181.1 L800.1 193.8 L814.3 210.6 L828.5 228.9 L842.6 242.1 L856.8 250.8 L871.0 252.1 L885.2 257.1 L899.4 264.6 L913.6 279.1 L927.8 291.7 L942.0 304.7\" fill=\"none\" stroke=\"#f5a524\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 315.9 L76.2 314.1 L90.4 314.3 L104.6 313.2 L118.8 308.1 L133.0 301.1 L147.2 294.5 L161.4 292.9 L175.5 290.8 L189.7 287.1 L203.9 281.4 L218.1 276.7 L232.3 269.8 L246.5 260.1 L260.7 252.8 L274.9 247.2 L289.1 244.0 L303.3 247.2 L317.5 248.7 L331.7 248.1 L345.9 248.9 L360.1 249.4 L374.3 249.8 L388.5 252.8 L402.6 256.1 L416.8 260.4 L431.0 265.3 L445.2 267.8 L459.4 267.6 L473.6 265.6 L487.8 260.1 L502.0 252.1 L516.2 246.2 L530.4 240.4 L544.6 235.8 L558.8 231.9 L573.0 227.8 L587.2 221.5 L601.4 215.1 L615.5 208.9 L629.7 201.6 L643.9 193.6 L658.1 185.5 L672.3 177.9 L686.5 170.8 L700.7 163.6 L714.9 156.0 L729.1 151.3 L743.3 149.1 L757.5 151.4 L771.7 155.9 L785.9 161.7 L800.1 164.9 L814.3 172.0 L828.5 179.8 L842.6 184.6 L856.8 187.8 L871.0 190.6 L885.2 195.8 L899.4 207.3 L913.6 221.9 L927.8 236.4 L942.0 249.3\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 260.4 L76.2 261.6 L90.4 263.1 L104.6 264.6 L118.8 265.7 L133.0 266.7 L147.2 267.5 L161.4 266.6 L175.5 266.6 L189.7 266.3 L203.9 264.8 L218.1 265.6 L232.3 266.5 L246.5 269.0 L260.7 269.7 L274.9 270.2 L289.1 272.0 L303.3 274.4 L317.5 274.7 L331.7 274.2 L345.9 274.0 L360.1 273.1 L374.3 273.7 L388.5 275.8 L402.6 276.6 L416.8 276.9 L431.0 278.3 L445.2 278.7 L459.4 278.3 L473.6 278.4 L487.8 277.2 L502.0 274.4 L516.2 272.7 L530.4 270.9 L544.6 267.9 L558.8 264.7 L573.0 261.4 L587.2 259.0 L601.4 256.1 L615.5 251.6 L629.7 246.0 L643.9 240.0 L658.1 233.6 L672.3 226.9 L686.5 221.6 L700.7 217.1 L714.9 213.7 L729.1 213.3 L743.3 212.4 L757.5 212.8 L771.7 213.2 L785.9 213.4 L800.1 212.9 L814.3 214.4 L828.5 216.6 L842.6 218.0 L856.8 218.7 L871.0 218.1 L885.2 218.1 L899.4 219.7 L913.6 222.2 L927.8 223.9 L942.0 225.3\" fill=\"none\" stroke=\"#a1a1aa\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"62\" y=\"438\" fill=\"#7d8590\" font-size=\"10\">VOLUME</text><rect x=\"58.0\" y=\"497.4\" width=\"8.0\" height=\"30.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"72.2\" y=\"502.1\" width=\"8.0\" height=\"25.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"86.4\" y=\"499.1\" width=\"8.0\" height=\"28.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"100.6\" y=\"499.4\" width=\"8.0\" height=\"28.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"114.8\" y=\"496.9\" width=\"8.0\" height=\"31.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"129.0\" y=\"504.6\" width=\"8.0\" height=\"23.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"143.2\" y=\"501.9\" width=\"8.0\" height=\"26.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"157.4\" y=\"479.7\" width=\"8.0\" height=\"48.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"171.5\" y=\"492.7\" width=\"8.0\" height=\"35.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"185.7\" y=\"495.1\" width=\"8.0\" height=\"32.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"199.9\" y=\"495.1\" width=\"8.0\" height=\"32.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"214.1\" y=\"491.1\" width=\"8.0\" height=\"36.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"228.3\" y=\"504.5\" width=\"8.0\" height=\"23.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"242.5\" y=\"507.9\" width=\"8.0\" height=\"20.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"256.7\" y=\"499.7\" width=\"8.0\" height=\"28.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"270.9\" y=\"494.4\" width=\"8.0\" height=\"33.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"285.1\" y=\"496.2\" width=\"8.0\" height=\"31.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"299.3\" y=\"493.3\" width=\"8.0\" height=\"34.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"313.5\" y=\"504.9\" width=\"8.0\" height=\"23.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"327.7\" y=\"499.0\" width=\"8.0\" height=\"29.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"341.9\" y=\"495.6\" width=\"8.0\" height=\"32.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"356.1\" y=\"500.1\" width=\"8.0\" height=\"27.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"370.3\" y=\"501.6\" width=\"8.0\" height=\"26.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"384.5\" y=\"497.0\" width=\"8.0\" height=\"31.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"398.6\" y=\"501.7\" width=\"8.0\" height=\"26.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"412.8\" y=\"493.3\" width=\"8.0\" height=\"34.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"427.0\" y=\"501.8\" width=\"8.0\" height=\"26.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"441.2\" y=\"492.8\" width=\"8.0\" height=\"35.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"455.4\" y=\"491.3\" width=\"8.0\" height=\"36.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"469.6\" y=\"480.2\" width=\"8.0\" height=\"47.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"483.8\" y=\"482.0\" width=\"8.0\" height=\"46.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"498.0\" y=\"488.5\" width=\"8.0\" height=\"39.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"512.2\" y=\"495.3\" width=\"8.0\" height=\"32.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"526.4\" y=\"499.4\" width=\"8.0\" height=\"28.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"540.6\" y=\"498.2\" width=\"8.0\" height=\"29.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"554.8\" y=\"486.8\" width=\"8.0\" height=\"41.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"569.0\" y=\"501.3\" width=\"8.0\" height=\"26.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"583.2\" y=\"498.6\" width=\"8.0\" height=\"29.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"597.4\" y=\"492.8\" width=\"8.0\" height=\"35.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"611.5\" y=\"494.0\" width=\"8.0\" height=\"34.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"625.7\" y=\"502.8\" width=\"8.0\" height=\"25.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"639.9\" y=\"501.9\" width=\"8.0\" height=\"26.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"654.1\" y=\"502.9\" width=\"8.0\" height=\"25.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"668.3\" y=\"479.0\" width=\"8.0\" height=\"49.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"682.5\" y=\"507.1\" width=\"8.0\" height=\"20.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"696.7\" y=\"503.2\" width=\"8.0\" height=\"24.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"710.9\" y=\"499.7\" width=\"8.0\" height=\"28.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"725.1\" y=\"476.4\" width=\"8.0\" height=\"51.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"739.3\" y=\"478.9\" width=\"8.0\" height=\"49.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"753.5\" y=\"462.0\" width=\"8.0\" height=\"66.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"767.7\" y=\"491.3\" width=\"8.0\" height=\"36.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"781.9\" y=\"497.9\" width=\"8.0\" height=\"30.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"796.1\" y=\"496.0\" width=\"8.0\" height=\"32.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"810.3\" y=\"464.4\" width=\"8.0\" height=\"63.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"824.5\" y=\"498.2\" width=\"8.0\" height=\"29.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"838.6\" y=\"495.4\" width=\"8.0\" height=\"32.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"852.8\" y=\"497.5\" width=\"8.0\" height=\"30.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"867.0\" y=\"497.9\" width=\"8.0\" height=\"30.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"881.2\" y=\"490.3\" width=\"8.0\" height=\"37.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"895.4\" y=\"444.0\" width=\"8.0\" height=\"84.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"909.6\" y=\"474.1\" width=\"8.0\" height=\"53.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"923.8\" y=\"491.0\" width=\"8.0\" height=\"37.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"938.0\" y=\"466.8\" width=\"8.0\" height=\"61.2\" fill=\"#2ea043\" opacity=\"0.55\"/><text x=\"942\" y=\"550\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">2026-11-04 · $691.95</text></svg>",
-    "chart_png": "charts/qqq-2026-11-05.png",
+    "chart_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 960 560\" width=\"100%\" style=\"max-width:960px;height:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace\"><rect width=\"960\" height=\"560\" fill=\"#0d1117\" rx=\"8\"/><text x=\"16\" y=\"26\" fill=\"#c9d1d9\" font-size=\"15\" font-weight=\"700\">QQQ DAILY</text><text x=\"16\" y=\"44\" fill=\"#7d8590\" font-size=\"11\">10 / 20 / 50 DAY MA   LAST 3 MONTHS</text><line x1=\"855.8\" y1=\"22\" x2=\"867.8\" y2=\"22\" stroke=\"#a1a1aa\" stroke-width=\"2.5\"/><text x=\"871.8\" y=\"26\" fill=\"#a1a1aa\" font-size=\"11\">MA50 722.27</text><line x1=\"769.5999999999999\" y1=\"22\" x2=\"781.5999999999999\" y2=\"22\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"785.5999999999999\" y=\"26\" fill=\"#3b82f6\" font-size=\"11\">MA20 712.40</text><line x1=\"683.3999999999999\" y1=\"22\" x2=\"695.3999999999999\" y2=\"22\" stroke=\"#f5a524\" stroke-width=\"2.5\"/><text x=\"699.3999999999999\" y=\"26\" fill=\"#f5a524\" font-size=\"11\">MA10 697.47</text><line x1=\"62\" y1=\"385.7\" x2=\"942\" y2=\"385.7\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"389.7\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">650.0</text><line x1=\"62\" y1=\"246.8\" x2=\"942\" y2=\"246.8\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"250.8\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">700.0</text><line x1=\"62\" y1=\"107.8\" x2=\"942\" y2=\"107.8\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"111.8\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">750.0</text><line x1=\"289.1\" y1=\"56\" x2=\"289.1\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"289.1\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">SEP</text><line x1=\"587.2\" y1=\"56\" x2=\"587.2\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"587.2\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">OCT</text><line x1=\"899.4\" y1=\"56\" x2=\"899.4\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"899.4\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">NOV</text><line x1=\"62.0\" y1=\"178.2\" x2=\"62.0\" y2=\"190.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"58.0\" y=\"184.6\" width=\"8.0\" height=\"4.2\" fill=\"#f85149\"/><line x1=\"76.2\" y1=\"181.9\" x2=\"76.2\" y2=\"203.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"72.2\" y=\"182.0\" width=\"8.0\" height=\"13.4\" fill=\"#f85149\"/><line x1=\"90.4\" y1=\"171.0\" x2=\"90.4\" y2=\"183.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"86.4\" y=\"171.5\" width=\"8.0\" height=\"9.4\" fill=\"#f85149\"/><line x1=\"104.6\" y1=\"152.4\" x2=\"104.6\" y2=\"180.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"100.6\" y=\"157.7\" width=\"8.0\" height=\"19.2\" fill=\"#2ea043\"/><line x1=\"118.8\" y1=\"151.2\" x2=\"118.8\" y2=\"168.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"114.8\" y=\"153.9\" width=\"8.0\" height=\"6.5\" fill=\"#f85149\"/><line x1=\"133.0\" y1=\"150.7\" x2=\"133.0\" y2=\"165.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"155.2\" width=\"8.0\" height=\"8.6\" fill=\"#f85149\"/><line x1=\"147.2\" y1=\"185.3\" x2=\"147.2\" y2=\"202.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"143.2\" y=\"190.6\" width=\"8.0\" height=\"7.5\" fill=\"#f85149\"/><line x1=\"161.4\" y1=\"187.0\" x2=\"161.4\" y2=\"211.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"157.4\" y=\"190.1\" width=\"8.0\" height=\"12.0\" fill=\"#f85149\"/><line x1=\"175.5\" y1=\"205.3\" x2=\"175.5\" y2=\"223.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"171.5\" y=\"213.2\" width=\"8.0\" height=\"3.2\" fill=\"#f85149\"/><line x1=\"189.7\" y1=\"203.2\" x2=\"189.7\" y2=\"221.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"185.7\" y=\"204.4\" width=\"8.0\" height=\"5.0\" fill=\"#f85149\"/><line x1=\"203.9\" y1=\"219.6\" x2=\"203.9\" y2=\"239.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"199.9\" y=\"219.9\" width=\"8.0\" height=\"9.3\" fill=\"#f85149\"/><line x1=\"218.1\" y1=\"207.8\" x2=\"218.1\" y2=\"226.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"214.1\" y=\"215.6\" width=\"8.0\" height=\"1.4\" fill=\"#f85149\"/><line x1=\"232.3\" y1=\"210.6\" x2=\"232.3\" y2=\"224.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"228.3\" y=\"215.2\" width=\"8.0\" height=\"8.2\" fill=\"#2ea043\"/><line x1=\"246.5\" y1=\"187.4\" x2=\"246.5\" y2=\"206.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"242.5\" y=\"188.1\" width=\"8.0\" height=\"11.6\" fill=\"#2ea043\"/><line x1=\"260.7\" y1=\"179.7\" x2=\"260.7\" y2=\"204.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"256.7\" y=\"191.9\" width=\"8.0\" height=\"9.2\" fill=\"#f85149\"/><line x1=\"274.9\" y1=\"197.9\" x2=\"274.9\" y2=\"210.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"270.9\" y=\"200.2\" width=\"8.0\" height=\"4.4\" fill=\"#2ea043\"/><line x1=\"289.1\" y1=\"212.6\" x2=\"289.1\" y2=\"233.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"285.1\" y=\"225.5\" width=\"8.0\" height=\"1.0\" fill=\"#2ea043\"/><line x1=\"303.3\" y1=\"219.5\" x2=\"303.3\" y2=\"232.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"299.3\" y=\"221.1\" width=\"8.0\" height=\"5.9\" fill=\"#2ea043\"/><line x1=\"317.5\" y1=\"194.2\" x2=\"317.5\" y2=\"219.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"313.5\" y=\"197.7\" width=\"8.0\" height=\"19.0\" fill=\"#2ea043\"/><line x1=\"331.7\" y1=\"186.0\" x2=\"331.7\" y2=\"200.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"327.7\" y=\"193.0\" width=\"8.0\" height=\"1.1\" fill=\"#f85149\"/><line x1=\"345.9\" y1=\"185.9\" x2=\"345.9\" y2=\"203.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"341.9\" y=\"188.7\" width=\"8.0\" height=\"7.1\" fill=\"#f85149\"/><line x1=\"360.1\" y1=\"192.0\" x2=\"360.1\" y2=\"207.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"356.1\" y=\"201.2\" width=\"8.0\" height=\"1.0\" fill=\"#f85149\"/><line x1=\"374.3\" y1=\"213.3\" x2=\"374.3\" y2=\"227.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"370.3\" y=\"222.6\" width=\"8.0\" height=\"3.2\" fill=\"#2ea043\"/><line x1=\"388.5\" y1=\"197.8\" x2=\"388.5\" y2=\"208.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"384.5\" y=\"203.2\" width=\"8.0\" height=\"2.2\" fill=\"#f85149\"/><line x1=\"402.6\" y1=\"210.8\" x2=\"402.6\" y2=\"239.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"398.6\" y=\"221.3\" width=\"8.0\" height=\"16.3\" fill=\"#2ea043\"/><line x1=\"416.8\" y1=\"220.3\" x2=\"416.8\" y2=\"236.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"412.8\" y=\"222.3\" width=\"8.0\" height=\"11.8\" fill=\"#f85149\"/><line x1=\"431.0\" y1=\"213.8\" x2=\"431.0\" y2=\"246.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"427.0\" y=\"224.5\" width=\"8.0\" height=\"9.1\" fill=\"#f85149\"/><line x1=\"445.2\" y1=\"196.6\" x2=\"445.2\" y2=\"209.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"441.2\" y=\"199.8\" width=\"8.0\" height=\"2.7\" fill=\"#2ea043\"/><line x1=\"459.4\" y1=\"186.4\" x2=\"459.4\" y2=\"204.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"455.4\" y=\"187.2\" width=\"8.0\" height=\"7.3\" fill=\"#2ea043\"/><line x1=\"473.6\" y1=\"126.7\" x2=\"473.6\" y2=\"169.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"469.6\" y=\"131.5\" width=\"8.0\" height=\"37.7\" fill=\"#2ea043\"/><line x1=\"487.8\" y1=\"112.4\" x2=\"487.8\" y2=\"133.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"483.8\" y=\"114.9\" width=\"8.0\" height=\"18.0\" fill=\"#2ea043\"/><line x1=\"502.0\" y1=\"115.8\" x2=\"502.0\" y2=\"140.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"498.0\" y=\"116.2\" width=\"8.0\" height=\"16.0\" fill=\"#f85149\"/><line x1=\"516.2\" y1=\"128.2\" x2=\"516.2\" y2=\"150.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"512.2\" y=\"132.6\" width=\"8.0\" height=\"16.1\" fill=\"#2ea043\"/><line x1=\"530.4\" y1=\"119.2\" x2=\"530.4\" y2=\"136.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"526.4\" y=\"123.1\" width=\"8.0\" height=\"4.6\" fill=\"#2ea043\"/><line x1=\"544.6\" y1=\"131.7\" x2=\"544.6\" y2=\"158.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"540.6\" y=\"134.3\" width=\"8.0\" height=\"10.9\" fill=\"#f85149\"/><line x1=\"558.8\" y1=\"134.0\" x2=\"558.8\" y2=\"148.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"554.8\" y=\"135.2\" width=\"8.0\" height=\"6.2\" fill=\"#f85149\"/><line x1=\"573.0\" y1=\"121.4\" x2=\"573.0\" y2=\"137.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"569.0\" y=\"135.1\" width=\"8.0\" height=\"1.2\" fill=\"#f85149\"/><line x1=\"587.2\" y1=\"122.6\" x2=\"587.2\" y2=\"146.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"583.2\" y=\"128.6\" width=\"8.0\" height=\"1.3\" fill=\"#f85149\"/><line x1=\"601.4\" y1=\"95.2\" x2=\"601.4\" y2=\"114.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"597.4\" y=\"104.2\" width=\"8.0\" height=\"4.8\" fill=\"#f85149\"/><line x1=\"615.5\" y1=\"88.6\" x2=\"615.5\" y2=\"110.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"611.5\" y=\"90.6\" width=\"8.0\" height=\"19.0\" fill=\"#2ea043\"/><line x1=\"629.7\" y1=\"72.1\" x2=\"629.7\" y2=\"82.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"625.7\" y=\"78.6\" width=\"8.0\" height=\"2.4\" fill=\"#f85149\"/><line x1=\"643.9\" y1=\"84.8\" x2=\"643.9\" y2=\"103.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"639.9\" y=\"86.3\" width=\"8.0\" height=\"10.9\" fill=\"#2ea043\"/><line x1=\"658.1\" y1=\"87.9\" x2=\"658.1\" y2=\"126.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"654.1\" y=\"96.8\" width=\"8.0\" height=\"17.8\" fill=\"#f85149\"/><line x1=\"672.3\" y1=\"99.9\" x2=\"672.3\" y2=\"112.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"668.3\" y=\"100.7\" width=\"8.0\" height=\"3.6\" fill=\"#f85149\"/><line x1=\"686.5\" y1=\"108.4\" x2=\"686.5\" y2=\"122.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"682.5\" y=\"108.7\" width=\"8.0\" height=\"10.1\" fill=\"#f85149\"/><line x1=\"700.7\" y1=\"123.9\" x2=\"700.7\" y2=\"138.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"696.7\" y=\"125.7\" width=\"8.0\" height=\"11.3\" fill=\"#2ea043\"/><line x1=\"714.9\" y1=\"134.1\" x2=\"714.9\" y2=\"173.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"710.9\" y=\"141.2\" width=\"8.0\" height=\"25.1\" fill=\"#f85149\"/><line x1=\"729.1\" y1=\"165.0\" x2=\"729.1\" y2=\"203.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"725.1\" y=\"169.0\" width=\"8.0\" height=\"26.3\" fill=\"#2ea043\"/><line x1=\"743.3\" y1=\"174.6\" x2=\"743.3\" y2=\"226.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"739.3\" y=\"175.9\" width=\"8.0\" height=\"43.7\" fill=\"#f85149\"/><line x1=\"757.5\" y1=\"178.5\" x2=\"757.5\" y2=\"200.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"753.5\" y=\"192.3\" width=\"8.0\" height=\"3.5\" fill=\"#f85149\"/><line x1=\"771.7\" y1=\"183.6\" x2=\"771.7\" y2=\"217.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"767.7\" y=\"197.8\" width=\"8.0\" height=\"6.6\" fill=\"#2ea043\"/><line x1=\"785.9\" y1=\"169.1\" x2=\"785.9\" y2=\"192.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"781.9\" y=\"176.7\" width=\"8.0\" height=\"8.3\" fill=\"#2ea043\"/><line x1=\"800.1\" y1=\"203.9\" x2=\"800.1\" y2=\"241.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"796.1\" y=\"208.9\" width=\"8.0\" height=\"25.4\" fill=\"#f85149\"/><line x1=\"814.3\" y1=\"220.9\" x2=\"814.3\" y2=\"243.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"810.3\" y=\"234.5\" width=\"8.0\" height=\"6.1\" fill=\"#2ea043\"/><line x1=\"828.5\" y1=\"204.4\" x2=\"828.5\" y2=\"231.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"824.5\" y=\"212.9\" width=\"8.0\" height=\"14.3\" fill=\"#2ea043\"/><line x1=\"842.6\" y1=\"183.2\" x2=\"842.6\" y2=\"209.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"838.6\" y=\"187.7\" width=\"8.0\" height=\"17.0\" fill=\"#2ea043\"/><line x1=\"856.8\" y1=\"174.1\" x2=\"856.8\" y2=\"190.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"852.8\" y=\"175.6\" width=\"8.0\" height=\"4.1\" fill=\"#2ea043\"/><line x1=\"871.0\" y1=\"196.6\" x2=\"871.0\" y2=\"214.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"867.0\" y=\"200.8\" width=\"8.0\" height=\"3.3\" fill=\"#f85149\"/><line x1=\"885.2\" y1=\"250.6\" x2=\"885.2\" y2=\"292.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"881.2\" y=\"254.5\" width=\"8.0\" height=\"18.7\" fill=\"#f85149\"/><line x1=\"899.4\" y1=\"248.4\" x2=\"899.4\" y2=\"301.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"895.4\" y=\"259.8\" width=\"8.0\" height=\"39.5\" fill=\"#f85149\"/><line x1=\"913.6\" y1=\"278.2\" x2=\"913.6\" y2=\"293.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"909.6\" y=\"287.7\" width=\"8.0\" height=\"2.5\" fill=\"#2ea043\"/><line x1=\"927.8\" y1=\"242.7\" x2=\"927.8\" y2=\"280.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"923.8\" y=\"269.1\" width=\"8.0\" height=\"9.8\" fill=\"#2ea043\"/><line x1=\"942.0\" y1=\"292.2\" x2=\"942.0\" y2=\"393.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"938.0\" y=\"293.7\" width=\"8.0\" height=\"100.2\" fill=\"#f85149\"/><path d=\"M62.0 244.4 L76.2 232.5 L90.4 215.2 L104.6 201.8 L118.8 189.8 L133.0 181.5 L147.2 183.3 L161.4 183.6 L175.5 184.6 L189.7 187.3 L203.9 191.3 L218.1 193.5 L232.3 196.9 L246.5 200.0 L260.7 204.0 L274.9 207.7 L289.1 210.4 L303.3 212.3 L317.5 210.4 L331.7 208.9 L345.9 205.6 L360.1 204.0 L374.3 204.8 L388.5 206.5 L402.6 208.5 L416.8 211.9 L431.0 212.7 L445.2 210.6 L459.4 209.5 L473.6 203.3 L487.8 195.2 L502.0 188.3 L516.2 179.3 L530.4 171.0 L544.6 163.4 L558.8 154.2 L573.0 144.4 L587.2 137.4 L601.4 129.6 L615.5 125.5 L629.7 122.1 L643.9 117.5 L658.1 115.7 L672.3 113.9 L686.5 111.2 L700.7 109.7 L714.9 112.7 L729.1 116.6 L743.3 127.6 L757.5 138.1 L771.7 149.8 L785.9 158.8 L800.1 170.8 L814.3 183.9 L828.5 193.3 L842.6 199.5 L856.8 200.4 L871.0 203.9 L885.2 209.3 L899.4 219.6 L913.6 228.6 L927.8 237.9 L942.0 253.8\" fill=\"none\" stroke=\"#f5a524\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 244.6 L76.2 244.7 L90.4 243.9 L104.6 240.3 L118.8 235.3 L133.0 230.6 L147.2 229.4 L161.4 227.9 L175.5 225.3 L189.7 221.2 L203.9 217.9 L218.1 213.0 L232.3 206.1 L246.5 200.9 L260.7 196.9 L274.9 194.6 L289.1 196.8 L303.3 198.0 L317.5 197.5 L331.7 198.1 L345.9 198.5 L360.1 198.8 L374.3 200.8 L388.5 203.2 L402.6 206.3 L416.8 209.8 L431.0 211.6 L445.2 211.5 L459.4 210.0 L473.6 206.1 L487.8 200.4 L502.0 196.1 L516.2 192.0 L530.4 188.8 L544.6 186.0 L558.8 183.0 L573.0 178.6 L587.2 174.0 L601.4 169.6 L615.5 164.4 L629.7 158.7 L643.9 152.9 L658.1 147.5 L672.3 142.4 L686.5 137.3 L700.7 131.9 L714.9 128.5 L729.1 127.0 L743.3 128.6 L757.5 131.8 L771.7 136.0 L785.9 138.2 L800.1 143.3 L814.3 148.9 L828.5 152.2 L842.6 154.6 L856.8 156.5 L871.0 160.2 L885.2 168.4 L899.4 178.9 L913.6 189.2 L927.8 198.4 L942.0 212.3\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 207.1 L76.2 208.2 L90.4 209.3 L104.6 210.1 L118.8 210.8 L133.0 211.4 L147.2 210.7 L161.4 210.7 L175.5 210.5 L189.7 209.4 L203.9 210.0 L218.1 210.6 L232.3 212.4 L246.5 212.9 L260.7 213.2 L274.9 214.6 L289.1 216.3 L303.3 216.5 L317.5 216.1 L331.7 216.0 L345.9 215.3 L360.1 215.7 L374.3 217.3 L388.5 217.9 L402.6 218.0 L416.8 219.1 L431.0 219.3 L445.2 219.0 L459.4 219.1 L473.6 218.2 L487.8 216.2 L502.0 215.0 L516.2 213.7 L530.4 211.6 L544.6 209.3 L558.8 207.0 L573.0 205.3 L587.2 203.2 L601.4 200.0 L615.5 196.0 L629.7 191.7 L643.9 187.2 L658.1 182.4 L672.3 178.6 L686.5 175.4 L700.7 173.0 L714.9 172.7 L729.1 172.1 L743.3 172.4 L757.5 172.6 L771.7 172.8 L785.9 172.4 L800.1 173.5 L814.3 175.0 L828.5 176.1 L842.6 176.6 L856.8 176.1 L871.0 176.2 L885.2 177.3 L899.4 179.1 L913.6 180.3 L927.8 181.3 L942.0 184.9\" fill=\"none\" stroke=\"#a1a1aa\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"62\" y=\"438\" fill=\"#7d8590\" font-size=\"10\">VOLUME</text><rect x=\"58.0\" y=\"510.4\" width=\"8.0\" height=\"17.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"72.2\" y=\"508.4\" width=\"8.0\" height=\"19.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"86.4\" y=\"508.6\" width=\"8.0\" height=\"19.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"100.6\" y=\"506.9\" width=\"8.0\" height=\"21.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"114.8\" y=\"512.1\" width=\"8.0\" height=\"15.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"129.0\" y=\"510.3\" width=\"8.0\" height=\"17.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"143.2\" y=\"495.2\" width=\"8.0\" height=\"32.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"157.4\" y=\"504.1\" width=\"8.0\" height=\"23.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"171.5\" y=\"505.7\" width=\"8.0\" height=\"22.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"185.7\" y=\"505.7\" width=\"8.0\" height=\"22.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"199.9\" y=\"503.0\" width=\"8.0\" height=\"25.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"214.1\" y=\"512.0\" width=\"8.0\" height=\"16.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"228.3\" y=\"514.4\" width=\"8.0\" height=\"13.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"242.5\" y=\"508.8\" width=\"8.0\" height=\"19.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"256.7\" y=\"505.2\" width=\"8.0\" height=\"22.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"270.9\" y=\"506.4\" width=\"8.0\" height=\"21.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"285.1\" y=\"504.4\" width=\"8.0\" height=\"23.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"299.3\" y=\"512.3\" width=\"8.0\" height=\"15.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"313.5\" y=\"508.3\" width=\"8.0\" height=\"19.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"327.7\" y=\"506.0\" width=\"8.0\" height=\"22.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"341.9\" y=\"509.0\" width=\"8.0\" height=\"19.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"356.1\" y=\"510.1\" width=\"8.0\" height=\"17.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"370.3\" y=\"507.0\" width=\"8.0\" height=\"21.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"384.5\" y=\"510.2\" width=\"8.0\" height=\"17.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"398.6\" y=\"504.4\" width=\"8.0\" height=\"23.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"412.8\" y=\"510.2\" width=\"8.0\" height=\"17.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"427.0\" y=\"504.1\" width=\"8.0\" height=\"23.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"441.2\" y=\"503.1\" width=\"8.0\" height=\"24.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"455.4\" y=\"495.6\" width=\"8.0\" height=\"32.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"469.6\" y=\"496.7\" width=\"8.0\" height=\"31.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"483.8\" y=\"501.2\" width=\"8.0\" height=\"26.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"498.0\" y=\"505.8\" width=\"8.0\" height=\"22.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"512.2\" y=\"508.6\" width=\"8.0\" height=\"19.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"526.4\" y=\"507.7\" width=\"8.0\" height=\"20.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"540.6\" y=\"500.1\" width=\"8.0\" height=\"27.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"554.8\" y=\"509.9\" width=\"8.0\" height=\"18.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"569.0\" y=\"508.1\" width=\"8.0\" height=\"19.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"583.2\" y=\"504.1\" width=\"8.0\" height=\"23.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"597.4\" y=\"504.9\" width=\"8.0\" height=\"23.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"611.5\" y=\"510.9\" width=\"8.0\" height=\"17.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"625.7\" y=\"510.3\" width=\"8.0\" height=\"17.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"639.9\" y=\"511.0\" width=\"8.0\" height=\"17.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"654.1\" y=\"494.8\" width=\"8.0\" height=\"33.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"668.3\" y=\"513.8\" width=\"8.0\" height=\"14.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"682.5\" y=\"511.2\" width=\"8.0\" height=\"16.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"696.7\" y=\"508.8\" width=\"8.0\" height=\"19.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"710.9\" y=\"493.0\" width=\"8.0\" height=\"35.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"725.1\" y=\"494.7\" width=\"8.0\" height=\"33.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"739.3\" y=\"483.2\" width=\"8.0\" height=\"44.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"753.5\" y=\"503.1\" width=\"8.0\" height=\"24.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"767.7\" y=\"507.6\" width=\"8.0\" height=\"20.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"781.9\" y=\"506.3\" width=\"8.0\" height=\"21.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"796.1\" y=\"484.8\" width=\"8.0\" height=\"43.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"810.3\" y=\"507.8\" width=\"8.0\" height=\"20.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"824.5\" y=\"505.9\" width=\"8.0\" height=\"22.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"838.6\" y=\"507.3\" width=\"8.0\" height=\"20.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"852.8\" y=\"507.6\" width=\"8.0\" height=\"20.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"867.0\" y=\"502.4\" width=\"8.0\" height=\"25.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"881.2\" y=\"471.0\" width=\"8.0\" height=\"57.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"895.4\" y=\"491.4\" width=\"8.0\" height=\"36.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"909.6\" y=\"502.9\" width=\"8.0\" height=\"25.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"923.8\" y=\"486.3\" width=\"8.0\" height=\"41.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"938.0\" y=\"444.0\" width=\"8.0\" height=\"84.0\" fill=\"#f85149\" opacity=\"0.55\"/><text x=\"942\" y=\"550\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">2026-11-05 · $647.05</text></svg>",
+    "chart_png": "charts/qqq-2026-11-06.png",
     "index_dip": {
       "status": "normal",
-      "div200": 1.67,
-      "ko": "지수 200일선 1.67% — 정상 구간"
+      "div200": -4.94,
+      "ko": "지수 200일선 -4.94% — 정상 구간"
     }
   },
   "finra": {
@@ -190,7 +190,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-11-05T02:55:56.918Z"
+    "fetched_at": "2026-11-06T02:11:31.453Z"
   },
   "leaders": {
     "stocks": [
@@ -198,43 +198,44 @@ window.TEAM1_DATA = {
         "ticker": "MRNA",
         "sector": "Healthcare",
         "industry": "Biotechnology",
-        "price": 258.38,
+        "price": 241.46,
         "bestPct": 99.95,
         "rs": {
-          "m1": 98.24165915238953,
+          "m1": 96.34806131650136,
           "m3": 99.95491433724075,
           "m6": 99.95491433724075
         },
-        "div200": 188.7,
-        "div50": 37.6,
-        "adr": 10.57,
-        "high52": 99.87,
+        "div200": 166.94,
+        "div50": 27.34,
+        "adr": 10.86,
+        "high52": 92.63,
         "overheat": {
-          "status": "normal",
-          "label": "정상(+189%)",
-          "div200": 188.7,
-          "threshold": 200
+          "status": "overheat",
+          "label": "🔥과열(+167%)",
+          "div200": 166.94,
+          "threshold": 112,
+          "note": "고변동성(ADR 10.86%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
         }
       },
       {
-        "ticker": "FCN",
-        "sector": "Industrials",
-        "industry": "Consulting Services",
-        "price": 198.32,
+        "ticker": "EPAM",
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "price": 165.7,
         "bestPct": 99.95,
         "rs": {
           "m1": 99.95491433724075,
-          "m3": 97.79080252479712,
-          "m6": 83.54373309287647
+          "m3": 99.6844003606853,
+          "m6": 97.70063119927863
         },
-        "div200": 23.86,
-        "div50": 32.55,
-        "adr": 3.53,
-        "high52": 98.69,
+        "div200": 37.36,
+        "div50": 37.03,
+        "adr": 4.61,
+        "high52": 74.46,
         "overheat": {
           "status": "normal",
-          "label": "정상(+24%)",
-          "div200": 23.86,
+          "label": "정상(+37%)",
+          "div200": 37.36,
           "threshold": 150
         }
       },
@@ -242,21 +243,21 @@ window.TEAM1_DATA = {
         "ticker": "WING",
         "sector": "Consumer Cyclical",
         "industry": "Restaurants",
-        "price": 167.6199951171875,
+        "price": 165.73,
         "bestPct": 99.86,
         "rs": {
           "m1": 99.86474301172227,
-          "m3": 99.59422903516682,
-          "m6": 88.2326420198377
+          "m3": 99.50405770964834,
+          "m6": 80.74842200180342
         },
-        "div200": 4.03,
-        "div50": 42.03,
-        "adr": 6.01,
-        "high52": 55.73,
+        "div200": 3.17,
+        "div50": 39.17,
+        "adr": 6,
+        "high52": 55.1,
         "overheat": {
           "status": "normal",
-          "label": "정상(+4%)",
-          "div200": 4.03,
+          "label": "정상(+3%)",
+          "div200": 3.17,
           "threshold": 150
         }
       },
@@ -264,21 +265,21 @@ window.TEAM1_DATA = {
         "ticker": "KOD",
         "sector": "Healthcare",
         "industry": "Biotechnology",
-        "price": 98.51000213623047,
+        "price": 91.02,
         "bestPct": 99.86,
         "rs": {
-          "m1": 57.48422001803426,
+          "m1": 36.384129846708746,
           "m3": 99.86474301172227,
-          "m6": 99.6844003606853
+          "m6": 99.77457168620379
         },
-        "div200": 128.22,
-        "div50": 46.32,
-        "adr": 7.08,
-        "high52": 94.72,
+        "div200": 109.3,
+        "div50": 33.15,
+        "adr": 7.25,
+        "high52": 87.52,
         "overheat": {
           "status": "normal",
-          "label": "정상(+128%)",
-          "div200": 128.22,
+          "label": "정상(+109%)",
+          "div200": 109.3,
           "threshold": 150
         }
       },
@@ -286,65 +287,21 @@ window.TEAM1_DATA = {
         "ticker": "TXG",
         "sector": "Healthcare",
         "industry": "Medical Devices",
-        "price": 67.5199966430664,
+        "price": 58.06,
         "bestPct": 99.86,
         "rs": {
-          "m1": 17.538322813345356,
-          "m3": 87.24075743913436,
+          "m1": 9.783588818755636,
+          "m3": 60.00901713255185,
           "m6": 99.86474301172227
         },
-        "div200": 63.78,
-        "div50": -8.99,
-        "adr": 8.99,
-        "high52": 65.67,
+        "div200": 40.23,
+        "div50": -21.61,
+        "adr": 9.06,
+        "high52": 56.47,
         "overheat": {
           "status": "normal",
-          "label": "정상(+64%)",
-          "div200": 63.78,
-          "threshold": 112
-        }
-      },
-      {
-        "ticker": "GKOS",
-        "sector": "Healthcare",
-        "industry": "Medical Devices",
-        "price": 246.7,
-        "bestPct": 99.77,
-        "rs": {
-          "m1": 99.77457168620379,
-          "m3": 98.42200180342651,
-          "m6": 96.79891794409377
-        },
-        "div200": 72.21,
-        "div50": 39.68,
-        "adr": 5.53,
-        "high52": 96.67,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+72%)",
-          "div200": 72.21,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "TWST",
-        "sector": "Healthcare",
-        "industry": "Diagnostics & Research",
-        "price": 142.58,
-        "bestPct": 99.77,
-        "rs": {
-          "m1": 21.505861136158703,
-          "m3": 87.87195671776375,
-          "m6": 99.77457168620379
-        },
-        "div200": 57.63,
-        "div50": -6.56,
-        "adr": 10.13,
-        "high52": 64.89,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+58%)",
-          "div200": 57.63,
+          "label": "정상(+40%)",
+          "div200": 40.23,
           "threshold": 112
         }
       },
@@ -352,65 +309,109 @@ window.TEAM1_DATA = {
         "ticker": "GRAL",
         "sector": "Healthcare",
         "industry": "Diagnostics & Research",
-        "price": 143.66,
+        "price": 119.13,
         "bestPct": 99.77,
         "rs": {
-          "m1": 57.123534715960325,
+          "m1": 25.83408476104599,
           "m3": 99.77457168620379,
-          "m6": 99.14337240757439
+          "m6": 98.78268710550046
         },
-        "div200": 82.62,
-        "div50": 24.32,
-        "adr": 7.8,
-        "high52": 86.3,
+        "div200": 51.26,
+        "div50": 2.39,
+        "adr": 8.06,
+        "high52": 71.56,
         "overheat": {
           "status": "normal",
-          "label": "정상(+83%)",
-          "div200": 82.62,
+          "label": "정상(+51%)",
+          "div200": 51.26,
+          "threshold": 112
+        }
+      },
+      {
+        "ticker": "FCN",
+        "sector": "Industrials",
+        "industry": "Consulting Services",
+        "price": 195.99,
+        "bestPct": 99.77,
+        "rs": {
+          "m1": 99.77457168620379,
+          "m3": 97.79080252479712,
+          "m6": 86.60955816050496
+        },
+        "div200": 22.35,
+        "div50": 30.22,
+        "adr": 3.63,
+        "high52": 96.92,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+22%)",
+          "div200": 22.35,
           "threshold": 150
+        }
+      },
+      {
+        "ticker": "TWST",
+        "sector": "Healthcare",
+        "industry": "Diagnostics & Research",
+        "price": 120.61,
+        "bestPct": 99.68,
+        "rs": {
+          "m1": 13.300270513976557,
+          "m3": 49.54914337240757,
+          "m6": 99.6844003606853
+        },
+        "div200": 32.78,
+        "div50": -20.65,
+        "adr": 10.54,
+        "high52": 54.9,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+33%)",
+          "div200": 32.78,
+          "threshold": 112
         }
       },
       {
         "ticker": "POOL",
         "sector": "Industrials",
         "industry": "Industrial Distribution",
-        "price": 219.26,
+        "price": 216.66,
         "bestPct": 99.68,
         "rs": {
           "m1": 99.6844003606853,
-          "m3": 75.96934174932372,
-          "m6": 77.14156898106403
+          "m3": 80.83859332732192,
+          "m6": 77.68259693417492
         },
-        "div200": 9.8,
-        "div50": 24.24,
-        "adr": 3.69,
-        "high52": 80.41,
+        "div200": 8.62,
+        "div50": 22.38,
+        "adr": 3.73,
+        "high52": 79.46,
         "overheat": {
           "status": "normal",
-          "label": "정상(+10%)",
-          "div200": 9.8,
+          "label": "정상(+9%)",
+          "div200": 8.62,
           "threshold": 150
         }
       },
       {
-        "ticker": "ECO",
-        "sector": "Industrials",
-        "industry": "Marine Shipping",
-        "price": 84.9000015258789,
-        "bestPct": 99.68,
+        "ticker": "ACN",
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "price": 265.16,
+        "bestPct": 99.59,
         "rs": {
-          "m1": 28.268710550045085,
-          "m3": 99.6844003606853,
-          "m6": 96.97926059513074
+          "m1": 98.24165915238953,
+          "m3": 99.59422903516682,
+          "m6": 95.62669071235347
         },
-        "div200": 51.9,
-        "div50": 1.2,
-        "adr": 4.95,
-        "high52": 82.78,
+        "div200": 41.16,
+        "div50": 27.55,
+        "adr": 4.03,
+        "high52": 93.71,
         "overheat": {
           "status": "normal",
-          "label": "정상(+52%)",
-          "div200": 51.9,
+          "label": "정상(+41%)",
+          "div200": 41.16,
           "threshold": 150
         }
       }
@@ -418,44 +419,44 @@ window.TEAM1_DATA = {
     "sectors": [
       {
         "name": "Healthcare",
-        "count": 15,
+        "count": 14,
         "tickers": [
           "MRNA",
           "KOD",
           "TXG",
-          "GKOS",
-          "TWST",
           "GRAL",
-          "IDXX",
+          "TWST",
+          "GKOS",
+          "AGL",
           "HAE"
         ],
-        "sharePct": 30
+        "sharePct": 28
       },
       {
         "name": "Technology",
-        "count": 12,
+        "count": 13,
         "tickers": [
-          "QLYS",
-          "MSTR",
-          "ROP",
-          "OKTA",
-          "ACN",
-          "TEAM",
           "EPAM",
-          "MANH"
+          "ACN",
+          "ROP",
+          "QLYS",
+          "TEAM",
+          "MSTR",
+          "OKTA",
+          "DOCU"
         ],
-        "sharePct": 24
+        "sharePct": 26
       },
       {
         "name": "Consumer Cyclical",
         "count": 10,
         "tickers": [
           "WING",
-          "CROX",
-          "ANF",
           "VSXY",
-          "ETSY",
+          "ANF",
+          "CROX",
           "SN",
+          "W",
           "SIG",
           "HAS"
         ],
@@ -463,16 +464,26 @@ window.TEAM1_DATA = {
       },
       {
         "name": "Industrials",
-        "count": 6,
+        "count": 7,
         "tickers": [
           "FCN",
           "POOL",
           "ECO",
-          "SITE",
           "EFX",
-          "SWK"
+          "SITE",
+          "SWK",
+          "ATKR"
         ],
-        "sharePct": 12
+        "sharePct": 14
+      },
+      {
+        "name": "Financial Services",
+        "count": 2,
+        "tickers": [
+          "SEZL",
+          "CRVL"
+        ],
+        "sharePct": 4
       },
       {
         "name": "Consumer Defensive",
@@ -482,24 +493,15 @@ window.TEAM1_DATA = {
           "ELF"
         ],
         "sharePct": 4
-      },
-      {
-        "name": "Financial Services",
-        "count": 2,
-        "tickers": [
-          "CRVL",
-          "CFFI"
-        ],
-        "sharePct": 4
       }
     ],
     "market_overheat": {
       "count": 1092,
       "over150": 1,
       "over100": 2,
-      "reentry": 97,
-      "max": 188.7,
-      "median": 5.54,
+      "reentry": 133,
+      "max": 166.94,
+      "median": 2.88,
       "ko": "200일선 +150% 초과 1종목 · +100% 초과 2종목 — 과열 임계 미달"
     }
   },
