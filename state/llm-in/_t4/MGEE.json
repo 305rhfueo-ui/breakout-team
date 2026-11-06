@@ -1,0 +1,230 @@
+{
+ "ticker": "MGEE",
+ "news": [
+  {
+   "title": "Why MGE (MGEE) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-mge-mgee-great-dividend-stock-right-now-0",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MGE (MGEE) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/mge-mgee-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Preview: MGE (MGEE) Q3 Earnings Expected to Decline",
+   "url": "https://www.nasdaq.com/articles/earnings-preview-mge-mgee-q3-earnings-expected-decline",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MGE (MGEE) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/mge-mgee-upgraded-buy-heres-why",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why MGE (MGEE) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-mge-mgee-top-dividend-stock-your-portfolio-0",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MGE (MGEE) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/mge-mgee-could-be-great-choice-1",
+   "date": "2026-10-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Defensive Dividend Stocks To Watch If Washington Shakes Markets",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-defensive-dividend-stocks-watch-121542727.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why MGE (MGEE) is a Great Dividend Stock Right Now",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-mge-mgee-great-dividend-154501633.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MGE Energy Q3 Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mge-energy-q3-earnings-revenue-141702789.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MGE (MGEE) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mge-mgee-q3-earnings-revenues-140502781.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MGE Energy Reports Third-Quarter 2026 Earnings",
+   "url": "https://finance.yahoo.com/energy/articles/mge-energy-reports-third-quarter-140000158.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MGE: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mge-q3-earnings-snapshot-134954719.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ameren (AEE) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ameren-aee-earnings-expected-grow-130013660.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Preview: MGE (MGEE) Q3 Earnings Expected to Decline",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-mge-mgee-q3-130009191.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526449172/mgee-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526446285/mgee-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-05",
+   "reportDate": "2026-10-01",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526414025/mgee-20261001.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-21",
+   "reportDate": "2026-08-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526360327/mgee-20260821.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526334011/mgee-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-19",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526279300/mgee-20260619.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.85,
+  "saleNy": 5.22,
+  "epsCy": 7.29,
+  "epsNy": 5.24,
+  "cyTrend": 0.09,
+  "nyTrend": 0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.09,
+    10.84,
+    10.58
+   ],
+   "ni": [
+    25.87,
+    16.56,
+    5.81
+   ],
+   "opm": [
+    20.25,
+    21.9,
+    17.14
+   ],
+   "updated": "2026-09-07 07:54:11"
+  }
+ }
+}

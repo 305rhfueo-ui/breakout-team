@@ -1,0 +1,253 @@
+{
+ "ticker": "RGLD",
+ "sector": "Basic Materials",
+ "industry": "Gold",
+ "nameKo": "로열 골드",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 80.75,
+  "saleNy": 14.7,
+  "epsCy": 45.29,
+  "epsNy": 21.18,
+  "est": {
+   "cyCur": 10.64999,
+   "cy30": 10.42727,
+   "nyCur": 12.90554,
+   "ny30": 12.86
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    114.91,
+    142.52,
+    85.29
+   ],
+   "ni": [
+    78.61,
+    147.7,
+    -11.92
+   ],
+   "opm": [
+    62.13,
+    63.33,
+    56.18
+   ],
+   "updated": "2026-09-08 07:01:28"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "로열 골드",
+  "nameEn": "ROYAL GOLD INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000085535&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 464766000,
+     "profit": 303726000,
+     "netIncome": 227421000,
+     "margin": 65.4,
+     "yoy": {
+      "revenue": 84.4,
+      "profit": 87.1,
+      "netIncome": 79.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 450539000,
+     "profit": 279938000,
+     "netIncome": 236393000,
+     "margin": 62.1,
+     "yoy": {
+      "revenue": 114.9,
+      "profit": 97.4,
+      "netIncome": 78.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 469125000,
+     "profit": 297091000,
+     "netIncome": 281130000,
+     "margin": 63.3,
+     "yoy": {
+      "revenue": 142.5,
+      "profit": 141.3,
+      "netIncome": 147.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 375323000,
+     "profit": 210871000,
+     "netIncome": 93611000,
+     "margin": 56.2,
+     "yoy": {
+      "revenue": 85.3,
+      "profit": 58,
+      "netIncome": -12.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Royal Gold (RGLD) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/royal-gold-rgld-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Royal Gold Inc. Reports Increase In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/royal-gold-inc-reports-increase-q3-profit",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Wall Street Analysts Predict a 27.33% Upside in Royal Gold (RGLD): Here's  What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-2733-upside-royal-gold-rgld-heres-what-you-should-know",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Gold Highlights Record Results, Debt Paydown and Growth After Major Deals",
+     "url": "https://www.nasdaq.com/articles/royal-gold-highlights-record-results-debt-paydown-and-growth-after-major-deals",
+     "date": "2026-10-15",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Royal Gold Eyes Growth as Acquisitions Extend Reserve Life and Fuel Cash Flow",
+     "url": "https://www.nasdaq.com/articles/royal-gold-eyes-growth-acquisitions-extend-reserve-life-and-fuel-cash-flow",
+     "date": "2026-10-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Royal Gold Details Transformational Portfolio Shift, Growth Pipeline at Conference",
+     "url": "https://www.nasdaq.com/articles/royal-gold-details-transformational-portfolio-shift-growth-pipeline-conference",
+     "date": "2026-09-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Is Royal Gold Benefiting From Its 2025 Portfolio Expansion Actions?",
+     "url": "https://www.nasdaq.com/articles/royal-gold-benefiting-its-2025-portfolio-expansion-actions",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000049/rgld-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000044/rgld-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000038/rgld-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000032/rgld-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000030/rgld-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000026/rgld-20260506.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "RGLD",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 28.48,
+  "pbr": 2.92,
+  "eps": 9.17,
+  "bps": 89.6,
+  "shares": 84727900,
+  "marketCapM": 22138,
+  "high52": 304.3456,
+  "high52Date": "2026-01-29",
+  "low52": 167.4712,
+  "low52Date": "2025-11-04",
+  "last": 261.28,
+  "prevClose": 246.08,
+  "nameKo": "로열 골드",
+  "nameEn": "ROYAL GOLD INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 84727900
+ }
+}

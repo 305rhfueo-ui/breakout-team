@@ -2,21 +2,45 @@
  "ticker": "SEZL",
  "news": [
   {
+   "title": "Sezzle (SEZL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/sezzle-sezl-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Sezzle Q3 Earnings Call Highlights Higher Outlook and New Products",
+   "url": "https://www.nasdaq.com/articles/sezzle-q3-earnings-call-highlights-higher-outlook-and-new-products",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Sezzle Inc. Reports Third Quarter 2026 Total Revenue of $166.5 million",
+   "url": "https://www.nasdaq.com/articles/sezzle-inc-reports-third-quarter-2026-total-revenue-1665-million",
+   "date": "2026-11-05",
+   "publisher": "Fintel"
+  },
+  {
    "title": "Sezzle Inc. (SEZL) Q3 Earnings and Revenues Surpass Estimates",
    "url": "https://www.nasdaq.com/articles/sezzle-inc-sezl-q3-earnings-and-revenues-surpass-estimates",
    "date": "2026-11-04",
    "publisher": "Zacks"
   },
   {
-   "title": "Sezzle Inc. (SEZL) Reports Next Week: Wall Street Expects Earnings Growth",
-   "url": "https://www.nasdaq.com/articles/sezzle-inc-sezl-reports-next-week-wall-street-expects-earnings-growth",
-   "date": "2026-10-28",
+   "title": "Sezzle Profit Jumps 79% as Credit Costs Ease: Rapid Earnings Reaction",
+   "url": "https://www.nasdaq.com/articles/sezzle-profit-jumps-79-credit-costs-ease-rapid-earnings-reaction",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Sezzle Set to Report Q3 Earnings: What's in Store for the Stock?",
+   "url": "https://www.nasdaq.com/articles/sezzle-set-report-q3-earnings-whats-store-stock",
+   "date": "2026-11-03",
    "publisher": "Zacks"
   },
   {
-   "title": "Here's Why Sezzle Inc. (SEZL) is a Strong Growth Stock",
-   "url": "https://www.nasdaq.com/articles/heres-why-sezzle-inc-sezl-strong-growth-stock-0",
-   "date": "2026-09-30",
+   "title": "Sezzle Inc. (SEZL) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/sezzle-inc-sezl-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-10-28",
    "publisher": "Zacks"
   },
   {
@@ -94,102 +118,132 @@
   {
    "form": "8-K",
    "filingDate": "2026-11-04",
-   "reportDate": "2026-11-04",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000169/sezl-20261104.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000169/sezl-20261104.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-10-08",
-   "reportDate": "2026-10-08",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000165/sezl-20261008.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000165/sezl-20261008.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-28",
-   "reportDate": "2026-08-28",
-   "items": [
-    "8.01"
-   ],
    "itemsKo": [
     "기타 중요사건"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000148/sezl-20260828.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000148/sezl-20260828.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-18",
-   "reportDate": "2026-08-12",
-   "items": [
-    "1.01",
-    "2.03",
-    "9.01"
-   ],
    "itemsKo": [
     "중요 계약 체결",
     "2.03",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000144/sezl-20260812.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000144/sezl-20260812.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-12",
-   "reportDate": "2026-08-12",
-   "items": [
-    "7.01",
-    "9.01"
-   ],
    "itemsKo": [
     "Reg FD 공시",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000132/sezl-20260812.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000132/sezl-20260812.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-06",
-   "reportDate": "2026-08-06",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000124/sezl-20260806.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000124/sezl-20260806.htm"
   }
  ],
- "financials": null,
- "krReports": null,
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662991&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 84721000,
+    "profit": 54961000,
+    "netIncome": 40765000,
+    "margin": 64.9,
+    "yoy": {
+     "revenue": 62.9,
+     "profit": 52.3,
+     "netIncome": 47.7,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 73285000,
+    "profit": 69036000,
+    "netIncome": 51303000,
+    "margin": 94.2,
+    "yoy": {
+     "revenue": 52.1,
+     "profit": 38.4,
+     "netIncome": 41.9,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 69389000,
+    "profit": 55247000,
+    "netIncome": -90305870,
+    "margin": 79.6,
+    "yoy": {
+     "revenue": 43.3,
+     "profit": 79,
+     "netIncome": -70.1,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 57481000,
+    "profit": 35561000,
+    "netIncome": 26671000,
+    "margin": 61.9,
+    "yoy": {
+     "revenue": 61.7,
+     "profit": 70.6,
+     "netIncome": 72.7,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
  "site": {
   "targetStatus": false,
   "saleCy": 35.24,

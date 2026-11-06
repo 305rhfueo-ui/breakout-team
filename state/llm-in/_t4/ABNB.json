@@ -1,0 +1,227 @@
+{
+ "ticker": "ABNB",
+ "news": [
+  {
+   "title": "Compared to Estimates, Airbnb (ABNB) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-airbnb-abnb-q3-earnings-look-key-metrics",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Just Flashed Golden Cross Signal: Do You Buy?",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-just-flashed-golden-cross-signal-do-you-buy",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb (ABNB) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://www.nasdaq.com/articles/airbnb-abnb-q3-earnings-horizon-analysts-insights-key-performance-measures",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Nasdaq-100® Inside the Index: Airbnb (ABNB)",
+   "url": "https://www.nasdaq.com/articles/global-indexes/inside-the-index/abnb",
+   "date": "2026-10-28",
+   "publisher": "Nasdaq Index Insights Team"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Stock Sinks As Market Gains: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-stock-sinks-market-gains-what-you-should-know",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-q3-earnings-call-highlights-001430309.html",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Airbnb Is Growing Again—and Even It’s Surprised",
+   "url": "https://finance.yahoo.com/m/9cfcfa4c-8b60-366b-b84b-ca1d15965384/airbnb-is-growing-again%E2%80%94and.html",
+   "date": "2026-11-06",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Update: Airbnb Q3 Earnings, Revenue Rise; Shares Jump After Hours",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-q3-earnings-revenue-rise-225416587.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Airbnb (NASDAQ:ABNB) surprises with Q3 2026 sales, stock jumps 11.7%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-nasdaq-abnb-surprises-q3-220615975.html",
+   "date": "2026-11-05",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Airbnb Beats Quarterly Views as Revenue Growth Hits Fastest Pace in More Than 3 Years",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-beats-quarterly-views-revenue-215905554.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Airbnb beats third-quarter estimates as travel demand accelerates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-beats-third-quarter-estimates-215613698.html",
+   "date": "2026-11-05",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Airbnb Stock Jumps After Q3 Earnings Beat",
+   "url": "https://finance.yahoo.com/m/fed02c60-24b4-350e-bb1e-c8f389f244c4/airbnb-stock-jumps-after-q3.html",
+   "date": "2026-11-05",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-16",
+   "reportDate": "2026-03-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526108514/d106317d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.83,
+  "saleNy": 11.59,
+  "epsCy": 31.75,
+  "epsNy": 17.93,
+  "cyTrend": 0.22,
+  "nyTrend": 0.19,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    16.54,
+    17.87,
+    12.02
+   ],
+   "ni": [
+    27.1,
+    3.9,
+    -26.03
+   ],
+   "opm": [
+    21.01,
+    3.21,
+    9.68
+   ],
+   "updated": "2026-09-07 05:58:13"
+  }
+ }
+}

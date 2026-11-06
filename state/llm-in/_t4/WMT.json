@@ -1,0 +1,160 @@
+{
+ "ticker": "WMT",
+ "news": [
+  {
+   "title": "Walmart (WMT) Stock Moves -1.12%: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/walmart-wmt-stock-moves-112-what-you-should-know",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Walmart (WMT) Stock Is Down 3%. Here's Why I'd Buy in November and Hold for a Decade.",
+   "url": "https://www.nasdaq.com/articles/walmart-wmt-stock-down-3-heres-why-id-buy-november-and-hold-decade",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Grubhub parent Wonder files confidentially to go public in the US",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grubhub-parent-wonder-files-confidentially-162745655.html",
+   "date": "2026-11-05",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Should Investors Bet on SYM Stock Post the Walmart Deal Expansion?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-bet-sym-stock-post-155000093.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-19",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526429539/d184548d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-04",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000095/wmt-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-27",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526194086/d131601d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-27",
+   "reportDate": "2026-03-27",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000067/wmt-20260327.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.57,
+  "saleNy": 4.35,
+  "epsCy": 9.34,
+  "epsNy": 11.77,
+  "cyTrend": 0,
+  "nyTrend": -0.09,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.94,
+    7.33,
+    5.6
+   ],
+   "ni": [
+    -9.39,
+    18.79,
+    -19.36
+   ],
+   "opm": [
+    4.99,
+    4.22,
+    4.57
+   ],
+   "updated": "2026-09-08 08:05:17"
+  }
+ }
+}

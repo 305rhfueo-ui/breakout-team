@@ -1,0 +1,208 @@
+{
+ "ticker": "ALL",
+ "news": [
+  {
+   "title": "Allstate (ALL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/allstate-all-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, Allstate (ALL) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-allstate-all-q3-earnings-look-key-metrics",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Allstate (ALL) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/allstate-all-tops-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Allstate Corp (ALL) (Q3 2026) Earnings Call Highlights: Strong Policy Growth and 39. ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/allstate-corp-q3-2026-earnings-011222247.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Allstate (ALL) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/allstate-q3-2026-earnings-call-204935716.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Evercore ISI Adjusts Allstate Price Target to $269 From $262",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-allstate-price-134221409.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "The Allstate Corporation Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/allstate-corporation-q3-2026-earnings-133000240.html",
+   "date": "2026-11-05",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Barclays Adjusts Price Target on Allstate to $228 From $221",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-price-target-allstate-125229079.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Goldman Sachs Adjusts Allstate Price Target to $275 From $250",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-allstate-price-124111651.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "How Investors May Respond To Allstate (ALL) Third Quarter Earnings Report",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-allstate-third-081612855.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Compared to Estimates, Allstate (ALL) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-allstate-q3-earnings-013001926.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000156/all-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-15",
+   "reportDate": "2026-10-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000150/all-20261015.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-17",
+   "reportDate": "2026-09-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000135/all-20260917.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000127/all-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000117/all-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000111/all-20260716.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.7,
+  "saleNy": 3.54,
+  "epsCy": 3.25,
+  "epsNy": -21.82,
+  "cyTrend": 1.62,
+  "nyTrend": 1.2,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.8,
+    2.97,
+    5.08
+   ],
+   "ni": [
+    55.89,
+    328.98,
+    100.26
+   ],
+   "opm": [
+    22.83,
+    18.95,
+    29.02
+   ],
+   "updated": "2026-09-08 08:21:18"
+  }
+ }
+}

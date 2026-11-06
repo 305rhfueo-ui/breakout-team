@@ -1,0 +1,257 @@
+{
+ "ticker": "FWONA",
+ "news": [
+  {
+   "title": "Wall Street Analysts Believe Liberty Media Corporation - Liberty Formula One Series A (FWONA) Could Rally 29.13%: Here's is How to Trade",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-liberty-media-corporation-liberty-formula-one-series-fwona",
+   "date": "2026-06-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Does Liberty Media Corporation - Liberty Formula One Series A (FWONA) Have the Potential to Rally 29.3% as Wall Street Analysts Expect?",
+   "url": "https://www.nasdaq.com/articles/does-liberty-media-corporation-liberty-formula-one-series-fwona-have-potential-rally-293",
+   "date": "2026-05-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Liberty Media Corporation - Liberty Formula One Series A (FWONA) Q1 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/liberty-media-corporation-liberty-formula-one-series-fwona-q1-earnings-and-revenues-beat",
+   "date": "2026-05-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Preview: Liberty Media Corporation - Liberty Formula One Series A (FWONA) Q1 Earnings Expected to Decline",
+   "url": "https://www.nasdaq.com/articles/earnings-preview-liberty-media-corporation-liberty-formula-one-series-fwona-q1-earnings",
+   "date": "2026-04-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Citizens Initiates Coverage of Formula One Group (FWONA) with Market Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/citizens-initiates-coverage-formula-one-group-fwona-market-outperform-recommendation",
+   "date": "2026-03-31",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Wall Street Analysts Predict a 41.97% Upside in Liberty Media Corporation - Liberty Formula One Series A (FWONA): Here's  What You Should Know",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-4197-upside-liberty-media-corporation-liberty-formula-one",
+   "date": "2026-03-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Liberty Media Corporation - Liberty Formula One Series A (FWONA) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
+   "url": "https://www.nasdaq.com/articles/liberty-media-corporation-liberty-formula-one-series-fwona-may-find-bottom-soon-heres-why",
+   "date": "2026-03-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About Liberty Media Corporation - Liberty Formula One Series A (FWONA) Rating Upgrade to Strong Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-liberty-media-corporation-liberty-formula-one-series-fwona-rating",
+   "date": "2026-03-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Liberty Media Corporation Reports Third Quarter 2026 Operating and Financial Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-media-corporation-reports-third-133000570.html",
+   "date": "2026-11-05",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Liberty Media Corporation Announces Acquisition of High-Vote Series B Common Stock from John C. Malone-Related Entities",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-media-corporation-announces-acquisition-133000423.html",
+   "date": "2026-11-05",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Fundación Reintegra wins F1® Allwyn Global Community Award in Mexico to transform youth social reintegration",
+   "url": "https://finance.yahoo.com/small-business/articles/fundaci-n-reintegra-wins-f1-201600528.html",
+   "date": "2026-10-29",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Formula One Group (FWON.K) Revenue Outlook Improves On Las Vegas Grand Prix Demand",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/formula-one-group-fwon-k-211331857.html",
+   "date": "2026-10-28",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "PACSUN TAKES A VICTORY LAP IN AUSTIN WITH ITS BIGGEST FORMULA 1 UNITED STATES GRAND PRIX WEEKEND YET",
+   "url": "https://finance.yahoo.com/media-advertising/articles/pacsun-takes-victory-lap-austin-192900211.html",
+   "date": "2026-10-26",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Formula One Group (FWON.K) Undervalued Or Is Its Rich P/E Already Priced In?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/formula-one-group-fwon-k-140716035.html",
+   "date": "2026-10-25",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000028/lmca-20261105x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "3.02",
+    "3.03",
+    "임원 변동",
+    "5.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926123092/tm2628888d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-09",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000026/lmca-20261008x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-02",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000024/lmca-20260831x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "itemsKo": [
+    "3.02",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926095991/tm2622631d2_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926093023/tm2622631d1_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001560385&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 1226000000,
+    "profit": 237000000,
+    "netIncome": 163000000,
+    "margin": 19.3,
+    "yoy": {
+     "revenue": 13,
+     "profit": 50,
+     "netIncome": 1153.8,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 934000000,
+    "profit": 88000000,
+    "netIncome": 5000000,
+    "margin": 9.4,
+    "yoy": {
+     "revenue": -30.4,
+     "profit": -68.6,
+     "netIncome": -97.5,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 711000000,
+    "profit": 64000000,
+    "netIncome": 57000000,
+    "margin": 9,
+    "yoy": {
+     "revenue": 59.1,
+     "profit": 195.5,
+     "netIncome": 1040,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": false,
+    "revenue": 1609000000,
+    "profit": 206000000,
+    "netIncome": 333000000,
+    "margin": 12.8,
+    "yoy": {
+     "revenue": 37.9,
+     "profit": 795.7,
+     "netIncome": 193.8,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.9,
+  "saleNy": 10.99,
+  "epsCy": -15.21,
+  "epsNy": 26.99,
+  "cyTrend": -0.78,
+  "nyTrend": -0.41,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:21:23"
+  }
+ }
+}

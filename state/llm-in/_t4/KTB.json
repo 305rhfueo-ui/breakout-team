@@ -1,0 +1,228 @@
+{
+ "ticker": "KTB",
+ "news": [
+  {
+   "title": "Kontoor Brands (KTB) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/kontoor-brands-ktb-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, Kontoor (KTB) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-kontoor-ktb-q3-earnings-look-key-metrics",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Kontoor Brands (KTB) Tops Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/kontoor-brands-ktb-tops-q3-earnings-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Consumer Discretionary Stocks Lagging  Kontoor Brands (KTB) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-consumer-discretionary-stocks-lagging-kontoor-brands-ktb-year-0",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Kontoor Brands (KTB) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-brands-ktb-q3-2026-211814846.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kontoor Lifts 2026 Guidance, Sharpens Focus on Wrangler Growth",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-brands-lifts-2026-guidance-192955547.html",
+   "date": "2026-11-05",
+   "publisher": "Sourcing Journal",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kontoor Brands Raises 2026 Earnings Outlook After Q3 Profit Exceeds Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-brands-raises-2026-earnings-150445140.html",
+   "date": "2026-11-05",
+   "publisher": "InvestorsHub",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Compared to Estimates, Kontoor (KTB) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-kontoor-ktb-q3-150002537.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kontoor Brands (NYSE:KTB) misses Q3 2026 revenue estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-brands-nyse-ktb-misses-144142753.html",
+   "date": "2026-11-05",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kontoor Brands Fiscal Q3 Adjusted Earnings, Revenue Rise; Updates 2026 Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-brands-fiscal-q3-adjusted-133355488.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kontoor Brands (KTB) Tops Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-brands-ktb-tops-q3-121507524.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kontoor: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-q3-earnings-snapshot-120712250.html",
+   "date": "2026-11-05",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Kontoor Brands Reports 2026 Third Quarter Results and Strengthens Earnings Outlook; Expects to Repurchase $450 Million of Shares Following the Successful Completion of the Divestiture of Lee; Provides Initial 2027 Outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kontoor-brands-reports-2026-third-115000095.html",
+   "date": "2026-11-05",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "One Jeanswear Group Begins New Chapter Leading Lee® Operations in the US and Canada",
+   "url": "https://finance.yahoo.com/small-business/articles/one-jeanswear-group-begins-chapter-205100658.html",
+   "date": "2026-11-03",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1760965/000176096526000072/ktb-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "reportDate": "2026-10-22",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1760965/000176096526000068/ktb-20261022.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-24",
+   "reportDate": "2026-09-23",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1760965/000176096526000064/ktb-20260923.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-02",
+   "reportDate": "2026-09-02",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1760965/000176096526000061/ktb-20260902.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1760965/000176096526000057/ktb-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1760965/000176096526000055/ktb-20260812.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -14.26,
+  "saleNy": 4.2,
+  "epsCy": -5.3,
+  "epsNy": 23.08,
+  "cyTrend": 0.14,
+  "nyTrend": -0.97,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    18.61,
+    44.99,
+    97.86
+   ],
+   "ni": [
+    -12.27,
+    115.57,
+    15.28
+   ],
+   "opm": [
+    15.49,
+    14.69,
+    13.34
+   ],
+   "updated": "2026-09-08 07:25:02"
+  }
+ }
+}

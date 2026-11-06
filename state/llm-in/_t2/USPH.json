@@ -1,0 +1,258 @@
+{
+ "ticker": "USPH",
+ "sector": "Healthcare",
+ "industry": "Medical Care Facilities",
+ "nameKo": "US 피지컬 테라피",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.57,
+  "saleNy": 7.59,
+  "epsCy": 9.81,
+  "epsNy": 15.25,
+  "est": {
+   "cyCur": 2.888,
+   "cy30": 2.898,
+   "nyCur": 3.32833,
+   "ny30": 3.35
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    8.47,
+    7.89,
+    12.35
+   ],
+   "ni": [
+    -56.82,
+    -115.29,
+    -42.62
+   ],
+   "opm": [
+    10.25,
+    6.29,
+    8.27
+   ],
+   "updated": "2026-09-08 08:21:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "US 피지컬 테라피",
+  "nameEn": "US PHYSICAL THERAPY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000885978&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 214059000,
+     "profit": 21946000,
+     "netIncome": 9898000,
+     "margin": 10.3,
+     "yoy": {
+      "revenue": 8.5,
+      "profit": -12,
+      "netIncome": -20.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 198286000,
+     "profit": 12481000,
+     "netIncome": 5038000,
+     "margin": 6.3,
+     "yoy": {
+      "revenue": 7.9,
+      "profit": -36.5,
+      "netIncome": -49.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 202726000,
+     "profit": 16767000,
+     "netIncome": 4153000,
+     "margin": 8.3,
+     "yoy": {
+      "revenue": 12.3,
+      "profit": -14.7,
+      "netIncome": -55.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 197132000,
+     "profit": 25330000,
+     "netIncome": 13138000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": 17.3,
+      "profit": 97.2,
+      "netIncome": 98.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "US Physical Therapy (USPH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About U.S. Physical Therapy (USPH) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-us-physical-therapy-usph-q3-earnings",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "USPH (USPH) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/usph-usph-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Lags Q2 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-lags-q2-earnings-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-q2-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cash Dividend On The Way From U.S. Physical Therapy (USPH)",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-us-physical-therapy-usph",
+     "date": "2026-05-20",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000060/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000057/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000052/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000048/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000045/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000042/form8-k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "USPH",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 574.13,
+  "pbr": 3.23,
+  "eps": 0.17,
+  "bps": 30.06,
+  "shares": 14922700,
+  "marketCapM": 1450,
+  "high52": 100.98,
+  "high52Date": "2026-11-05",
+  "low52": 57.4235,
+  "low52Date": "2026-05-08",
+  "last": 97.2,
+  "prevClose": 89.18,
+  "nameKo": "US 피지컬 테라피",
+  "nameEn": "US PHYSICAL THERAPY",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 14922700
+ }
+}

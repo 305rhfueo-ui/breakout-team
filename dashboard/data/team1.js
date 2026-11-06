@@ -515,8 +515,406 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-06",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "기술주 급락, 매그니피센트7 하루에 1조 달러 날아갔다",
+        "easy": "어제 미국 기술주가 한꺼번에 무너져 나스닥 지수가 5.5% 떨어졌다. 중간선거에서 민주당이 크게 이기면서 데이터센터 건설이 규제될 수 있다는 걱정이 커진 탓이다. 엔비디아는 9% 내려 올해 수익률이 마이너스로 돌아섰다. S&P500의 11개 업종이 전부 하락해 피할 곳이 없었다.",
+        "whyMatters": "AI 설비투자에 매출이 걸린 반도체와 소프트웨어 업종이 가장 약하다. 엔비디아·AMD 같은 AI 칩 쪽은 규제 논의가 잦아들기 전까지 반등이 나와도 힘이 약할 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
+            "date": "2026-11-05",
+            "quote": "AI-linked technology shares led the decline as investors worried that data-center developments could slow after the midterm election results.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
+            "date": "2026-11-05",
+            "quote": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "민주당, AI 데이터센터 건설 중단을 요구했다",
+        "easy": "중간선거를 이긴 민주당 인사들이 데이터센터 건설을 멈추라고 나섰다. 샌더스 상원의원은 전국 데이터센터 중단(모라토리엄)을 지금 하자고 했고, 텍사스 주지사 후보도 승인 전면 중단을 공약했다. 유권자 56%가 AI·데이터센터를 투표에 중요한 요인으로 꼽았고 그 중 65%가 민주당 후보를 지지했다. 이 발언 뒤 반도체 ETF(SOXX)는 9% 가까이, AMD는 14% 넘게 내렸다.",
+        "whyMatters": "데이터센터에 납품하는 반도체·전력·건설 업종이 직접 영향을 받는다. AMD처럼 AI 설비투자 비중이 큰 종목이 먼저 흔들린다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+            "date": "2026-11-05",
+            "quote": "National data center moratorium now. Americans don't want Big Tech oligarchs wreck the environment, gutting jobs and threatening humanity's future.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "아시아 반도체주도 동반 급락, TSMC 9.6% 내렸다",
+        "easy": "오늘 아시아 반도체주가 간밤 미국 급락을 따라 크게 떨어졌다. 미국 데이터센터 규제가 강해지면 AI 칩 수요가 줄 수 있다는 우려가 번진 것이다. TSMC가 9.6%, SK하이닉스가 8% 넘게, 삼성전자가 7% 내렸고 소프트뱅크는 11.6% 급락했다. 미국 개장 전부터 AI 공급망 전체가 같이 눌리고 있다는 뜻이다.",
+        "whyMatters": "메모리·파운드리와 반도체 장비 업종에 나쁘다. TSMC·SK하이닉스에 부품을 공급하거나 이들의 투자에 기대는 장비 쪽이 같이 약해진다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+            "date": "2026-11-06",
+            "quote": "The rout came as investors worried that Democrats' sweeping victory in the U.S. midterm elections could lead to tighter restrictions on data-center development, potentially slowing demand for AI chips.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "테슬라·스페이스X 시총 이틀에 4,200억 달러 줄었다",
+        "easy": "머스크가 이끄는 테슬라와 스페이스X가 중간선거 이후 이틀 동안 시가총액 4,200억 달러 넘게 잃었다. 민주당이 양원을 가져가고 텍사스까지 이기면서 규제와 의회 조사가 강해질 것이라는 걱정이 커졌다. 목요일 하루에 테슬라는 11%, 스페이스X는 9% 내렸다. 텍사스 주지사 당선자가 대형 데이터센터 세제 혜택에 반대해 두 회사의 AI 설비 확장 계획도 불확실해졌다.",
+        "whyMatters": "전기차와 우주항공 업종에 나쁘고, 특히 정부 계약·보조금에 기대는 사업 비중이 큰 회사가 불리하다. 테슬라는 AI 설비 투자 계획까지 걸려 있어 규제 뉴스에 더 민감해졌다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+            "date": "2026-11-05",
+            "quote": "While policy is naturally hard to predict, we could envision SpaceX facing some incremental headwinds in this type of backdrop.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "The ‘Musk selloff' deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f?mod=mw_rss_topstories",
+            "date": "2026-11-05",
+            "quote": "The ‘Musk selloff' deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "금요일 10월 고용보고서, 신규고용 5만9천명 예상",
+        "epsNote": "",
+        "easy": "미국 노동부가 금요일 오전 8시 30분(미 동부시간)에 10월 고용보고서를 낸다. 비농업 신규고용은 5만9천명, 실업률은 4.2% 유지가 예상된다. 9월 신규고용이 2만9천명이었으니 조금 나아지는 수준이다. 해고는 여전히 적은데 장기 실업자는 2025년 1월 이후 49만5천명 늘어, 연준이 금리를 판단하기 어려운 상태다.",
+        "whyMatters": "금리에 민감한 주택건설·금융과 중소형주의 방향이 이 숫자에 달려 있다. 고용이 크게 나쁘면 경기 둔화 쪽으로 읽혀 지금의 하락을 더 밀어낼 수 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The October jobs report is out Friday. Here's everything to expect",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+            "date": "2026-11-05",
+            "quote": "An aging workforce is pushing a lot of people into retirement...meaning we don't have a lot of people who are coming in to replace those retiring workers.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "클라우드플레어, 4년 만에 가장 빠른 매출 성장",
+        "easy": "보안·클라우드 회사 Cloudflare 주가가 크게 반등했다. 매출 증가 속도가 약 4년 만에 가장 빨랐다는 점이 계기였다. 기술주가 전반적으로 급락한 날에 나온 반등이다. 실적이 뒷받침되는 종목은 시장과 따로 움직일 수 있다는 것을 보여준다.",
+        "whyMatters": "AI 수요 걱정이 번진 와중에도 보안·클라우드 소프트웨어는 실적으로 차별화될 수 있다. 다만 지수가 내리는 국면에서 개별 반등은 짧게 끝나는 경우가 많다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Cloudflare's stock mounts a big comeback after fastest sales surge in nearly 4 years",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
+            "date": "2026-11-06",
+            "quote": "Cloudflare's stock mounts a big comeback after fastest sales surge in nearly 4 years",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "새로 사기에 좋은 때가 아니다. QQQ는 10일선이 20일선 아래로 내려간 지 13일째이고, 종가 647.05는 10일·20일·50일선 모두보다 낮다. 어제 미국 기술주는 중간선거 결과로 데이터센터 규제가 강해질 수 있다는 걱정에 급락해 매그니피센트7 시가총액만 1조 달러 넘게 줄었다. 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘어 있어, 하락이 길어지면 강제 청산이 낙폭을 키울 수 있다. 이번 주는 금요일 10월 고용보고서, 데이터센터 규제 발언이 법안으로 가는지, 그리고 짧은 이동평균이 긴 이동평균 위로 다시 올라오는지를 보면 된다.",
+    "keyRisks": [
+      "데이터센터 규제 입법: 민주당이 양원을 장악해 중단 요구가 실제 법안으로 갈 수 있다 — AI 설비투자에 매출이 걸린 반도체·전력 업종이 직접 타격을 받는다.",
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어 있어 하락이 깊어지면 강제 청산 매물이 추가로 나온다.",
+      "금요일 고용지표: 예상보다 나쁘면 규제 우려에 경기 둔화 우려가 겹쳐 반등 시도가 꺾인다.",
+      "추세 자체가 아래: 짧은 이동평균이 긴 이동평균 아래에 있는 구간에서는 돌파 신호가 실패하는 비율이 올라간다."
+    ],
+    "easySummary": [
+      "중간선거 뒤 데이터센터 규제 우려로 미국 기술주가 급락했고 매그니피센트7 시총이 1조 달러 넘게 줄었다.",
+      "반도체 약세는 아시아까지 번져 TSMC·SK하이닉스·삼성전자가 함께 내렸고, 테슬라·스페이스X는 규제 우려로 더 밀렸다.",
+      "지수 추세가 아래를 향하고 빚투 규모도 주의선을 넘어, 새로 사기보다 금요일 고용보고서와 추세 반전을 확인할 구간이다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 274,
+      "ok": 418,
+      "unverified": 6,
+      "dead": 0,
+      "stripped": 18,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/duk-20261105.htm"
+        }
+      ],
+      "numberCut": 38,
+      "numberCuts": [
+        {
+          "sentence": "하루 26% 급등으로 기대치가 이미 높아졌다.",
+          "missing": [
+            "26"
+          ]
+        },
+        {
+          "sentence": "3분기 매출은 1년 전과 같았고, 앞선 두 분기도 1~2% 증가에 그쳤다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "분기 매출은 8.09억 달러로 1년 전보다 5.3% 늘었다.",
+          "missing": [
+            "8.09억 달러",
+            "5.3"
+          ]
+        },
+        {
+          "sentence": "자사주 매입 한도를 1조 3천억 엔으로 늘렸다.",
+          "missing": [
+            "1조 3"
+          ]
+        },
+        {
+          "sentence": "7~9월 분기 매출은 18.9억 달러로 1년 전보다 11.1% 늘었다.",
+          "missing": [
+            "18.9억 달러",
+            "11.1"
+          ]
+        },
+        {
+          "sentence": "영업이익은 4.2억 달러로 29.3% 증가해 이익이 매출보다 빠르게 늘었다.",
+          "missing": [
+            "4.2억 달러",
+            "29.3"
+          ]
+        },
+        {
+          "sentence": "현재가 134.17달러는 8월 10일 52주 고점 164.18달러보다 약 18% 낮다.",
+          "missing": [
+            "18"
+          ]
+        },
+        {
+          "sentence": "3개월 수익률은 아직 -12.4%다.",
+          "missing": [
+            "12.4"
+          ]
+        },
+        {
+          "sentence": "2분기에도 매출이 21.5% 늘어 두 자릿수 성장이 이어지고 있다.",
+          "missing": [
+            "21.5"
+          ]
+        },
+        {
+          "sentence": "실적 발표 다음 날 종가 기준 447달러로, 전일 418.6달러보다 크게 올랐다.",
+          "missing": [
+            "447",
+            "418.6"
+          ]
+        },
+        {
+          "sentence": "2026년 7~9월 분기 매출이 4.65억 달러로 1년 전보다 84.4% 늘었다.",
+          "missing": [
+            "4.65억 달러",
+            "84.4"
+          ]
+        },
+        {
+          "sentence": "영업이익은 87.1%, 순이익은 79.3% 증가했다.",
+          "missing": [
+            "87.1",
+            "79.3"
+          ]
+        },
+        {
+          "sentence": "영업이익률이 65.4%로 직전 두 분기(62.1%, 63.3%)보다 높아졌다.",
+          "missing": [
+            "62.1",
+            "63.3"
+          ]
+        },
+        {
+          "sentence": "10월 말 보잉 항공기 옵션 6대를 행사했다.",
+          "missing": [
+            "6"
+          ]
+        },
+        {
+          "sentence": "제프리스는 매수 의견에 목표가 115달러를 냈고, 애플TV 중계 계약으로 고소득 시청층이 늘 것으로 봤다.",
+          "missing": [
+            "115"
+          ]
+        },
+        {
+          "sentence": "직전 2분기(4~6월)는 매출 30%, 영업이익 69% 감소했고 Zacks 집계로 예상치에도 못 미쳤다.",
+          "missing": [
+            "30",
+            "69"
+          ]
+        },
+        {
+          "sentence": "올해 1분기 7.3% 감소에서 성장세로 돌아선 흐름이다.",
+          "missing": [
+            "7.3"
+          ]
+        },
+        {
+          "sentence": "시가총액 약 179억 달러의 5% 남짓이라 주가를 받치는 재료가 된다.",
+          "missing": [
+            "179억 달러",
+            "5"
+          ]
+        },
+        {
+          "sentence": "하루 만에 13% 올라 52주 최고가 근처에 있다.",
+          "missing": [
+            "13"
+          ]
+        },
+        {
+          "sentence": "분기 매출은 12.26억 달러로 1년 전보다 13% 늘었고, 영업이익은 2.37억 달러로 50% 늘었다.",
+          "missing": [
+            "12.26억 달러",
+            "2.37억 달러",
+            "13",
+            "50"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 1.23억 달러로 1년 전보다 47% 늘었다.",
+          "missing": [
+            "47"
+          ]
+        },
+        {
+          "sentence": "주당순이익은 3.16달러로 예상치 2.85달러보다 0.31달러 높았습니다.",
+          "missing": [
+            "0.31"
+          ]
+        },
+        {
+          "sentence": "Lee 매각이 끝나면 4억5천만 달러어치 자사주를 사들일 계획이다.",
+          "missing": [
+            "4억5"
+          ]
+        },
+        {
+          "sentence": "3분기 매출은 17.2억 달러로 1년 전보다 10.5% 늘었고, 회사는 올해 매출 성장 전망을 10~11%에서 약 11.5%로 올렸다.",
+          "missing": [
+            "17.2억 달러",
+            "10.5"
+          ]
+        },
+        {
+          "sentence": "2분기(7~9월) 매출이 전년보다 51% 늘어 31분기 연속 성장했고, 회사는 연간 매출 성장 전망을 22~24%로 올렸습니다.",
+          "missing": [
+            "51"
+          ]
+        },
+        {
+          "sentence": "Jacobs는 교량 15개 등의 설계를 맡는다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "같은 날 실적 발표 8-K가 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "코디악은 Zenkuda가 6개월 1회 투여로 아일리아 대비 비열등성을 입증했고, 3개 적응증 신약 신청을 4분기에 계획한다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "오루카의 ORKA-001은 건선 2b상에서 61%가 피부 완전 개선을 보였다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "3분기 실적과 18억 달러 자사주 매입 프로그램 발표(2026-11-05).",
+          "missing": [
+            "11",
+            "05"
+          ]
+        },
+        {
+          "sentence": "회사가 2026년 3분기 결과를 발표했다(8-K 실적 발표).",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "3분기 실적이 매출·이익 모두 예상을 웃돌았다(11/4).",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "3분기 실적 발표 컨퍼런스콜이 열렸다(11/5).",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "3분기 실적이 시장 예상을 웃돌았다(11/4).",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "회사가 3분기 실적을 공식 발표하고 8-K를 제출.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "보잉 항공기 첫 옵션 6대를 행사하고 임원 고용계약을 체결.",
+          "missing": [
+            "6"
+          ]
+        },
+        {
+          "sentence": "10월 23일 보잉과 첫 옵션 6대를 행사했다고 8-K로 공시.",
+          "missing": [
+            "6",
+            "8"
+          ]
+        },
+        {
+          "sentence": "제프리스가 F1 을 매수로 제시했다.",
+          "missing": [
+            "1"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-06"
   }
 };

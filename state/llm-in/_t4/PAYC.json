@@ -1,0 +1,249 @@
+{
+ "ticker": "PAYC",
+ "news": [
+  {
+   "title": "Paycom (PAYC) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/paycom-payc-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Paycom Software, Inc. Reports Third Quarter 2026 Total Revenues of $543.8 million",
+   "url": "https://www.nasdaq.com/articles/paycom-software-inc-reports-third-quarter-2026-total-revenues-5438-million",
+   "date": "2026-11-05",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Paycom Software (PAYC) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/paycom-software-payc-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Paycom Software, Inc. Profit Climbs In Q3",
+   "url": "https://www.nasdaq.com/articles/paycom-software-inc-profit-climbs-q3",
+   "date": "2026-11-04",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Paycom Software Consensus Price Target Increased by 14.34% to $256.72",
+   "url": "https://www.nasdaq.com/articles/paycom-software-consensus-price-target-increased-1434-25672",
+   "date": "2026-11-02",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Paycom Software (PAYC) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/paycom-software-payc-earnings-expected-grow-should-you-buy",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Paycom (PAYC) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-payc-q3-2026-earnings-190134859.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Up More Than 40% in Just 1 Year, Paycom Stock Is Really ‘Paying Up’",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/more-40-just-1-paycom-171003401.html",
+   "date": "2026-11-05",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Adjusts Paycom Software Price Target to $275 From $205, Maintains Hold Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-paycom-software-131817917.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Paycom Software (PAYC) Beats And Lifts Guidance, Is The Stock Fully Valued?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-software-payc-beats-lifts-121815192.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Does Earnings Beat Change The Bull Case For Paycom (PAYC)?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-earnings-beat-change-bull-111521249.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Paycom (PAYC) Stock Could Be Rich Despite Raised Revenue Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-payc-stock-could-rich-091342539.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Paycom Software (PAYC) Declares Its First Cash Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/paycom-software-payc-declares-first-072151843.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526447248/payc-20261104.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526443880/payc-20261102.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526335105/payc-20260805.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526330818/payc-20260803.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-09",
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526299695/payc-20260708.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526211919/payc-20260504.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590955&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 543800000,
+    "profit": 195800000,
+    "netIncome": 133200000,
+    "margin": 36,
+    "yoy": {
+     "revenue": 10.2,
+     "profit": 73.9,
+     "netIncome": 20.3,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 531200000,
+    "profit": 168500000,
+    "netIncome": 107400000,
+    "margin": 31.7,
+    "yoy": {
+     "revenue": 9.8,
+     "profit": 50,
+     "netIncome": 20,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 571900000,
+    "profit": 210200000,
+    "netIncome": 155700000,
+    "margin": 36.8,
+    "yoy": {
+     "revenue": 7.8,
+     "profit": 13.6,
+     "netIncome": 11.7,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 544300000,
+    "profit": 157100000,
+    "netIncome": 113800000,
+    "margin": 28.9,
+    "yoy": {
+     "revenue": 10.2,
+     "profit": 5.8,
+     "netIncome": 0.2,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.67,
+  "saleNy": 7.46,
+  "epsCy": 30.92,
+  "epsNy": 15.36,
+  "cyTrend": 0.04,
+  "nyTrend": 0.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.84,
+    7.8,
+    10.2
+   ],
+   "ni": [
+    20,
+    11.69,
+    0.26
+   ],
+   "opm": [
+    31.72,
+    36.75,
+    28.88
+   ],
+   "updated": "2026-09-08 10:13:31"
+  }
+ }
+}

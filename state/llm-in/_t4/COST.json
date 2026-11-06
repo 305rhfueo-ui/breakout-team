@@ -1,0 +1,201 @@
+{
+ "ticker": "COST",
+ "news": [
+  {
+   "title": "Costco (COST) Rises Higher Than Market: Key Facts",
+   "url": "https://www.nasdaq.com/articles/costco-cost-rises-higher-market-key-facts",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here is What to Know Beyond Why Costco Wholesale Corporation (COST) is a Trending Stock",
+   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-costco-wholesale-corporation-cost-trending-stock",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Costco (COST) Ascends While Market Falls: Some Facts to Note",
+   "url": "https://www.nasdaq.com/articles/costco-cost-ascends-while-market-falls-some-facts-note",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Jim Cramer Says Costco Is Still a Great Value. Charlie Munger’s Rule Explains Why",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-costco-still-220728674.html",
+   "date": "2026-11-05",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Costco Wholesale Shares Rise After Net Sales Increase in October",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-shares-rise-net-192230885.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Costco retains BofA \"buy\" as October US comps rise 8.1%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/costco-retains-bofa-buy-october-192000711.html",
+   "date": "2026-11-05",
+   "publisher": "Proactive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Workers Caught In 'The Great 2026 Mass Layoff Wave' Share What Life Looks Like Now. 'Been Playing A Lot Of Video Games, But…'",
+   "url": "https://finance.yahoo.com/economy/articles/workers-caught-great-2026-mass-183008813.html",
+   "date": "2026-11-05",
+   "publisher": "Benzinga",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Jackery Expands Retail Footprint of Award-Winning FridgeGuard, Announces First-Ever Holiday Promotional Pricing for Black Friday and Cyber Monday",
+   "url": "https://finance.yahoo.com/technology/articles/jackery-expands-retail-footprint-award-140000148.html",
+   "date": "2026-11-05",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gordon Haskett Adjusts Price Target on Costco Wholesale to $1,200 From $1,100",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gordon-haskett-adjusts-price-target-130643706.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Adjusts Price Target on Costco Wholesale to $1,082 From $1,079",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-price-target-130640509.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-16",
+   "reportDate": "2026-10-13",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000100/cost-20261013.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-14",
+   "reportDate": "2026-10-14",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000096/cost-20261014.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-24",
+   "reportDate": "2026-09-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-08",
+   "reportDate": "2026-07-07",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000060/cost-20260707.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000046/cost-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-15",
+   "reportDate": "2026-04-15",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000041/cost-20260415.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.69,
+  "saleNy": 7.37,
+  "epsCy": 9.87,
+  "epsNy": 9.94,
+  "cyTrend": 0.11,
+  "nyTrend": 0.47,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.58,
+    9.22,
+    8.3
+   ],
+   "ni": [
+    15.19,
+    13.81,
+    11.29
+   ],
+   "opm": [
+    3.99,
+    3.74,
+    3.66
+   ],
+   "updated": "2026-09-08 06:52:34"
+  }
+ }
+}

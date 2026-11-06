@@ -1,0 +1,238 @@
+{
+ "ticker": "WTS",
+ "news": [
+  {
+   "title": "Watts Water (WTS) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/watts-water-wts-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Watts Water (WTS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/watts-water-wts-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Watts Water (WTS) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/watts-water-wts-tops-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Watts Water (WTS) Down 5.7% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-watts-water-wts-down-57-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Watts Water Technologies (WTS) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/watts-water-technologies-wts-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Watts Water (WTS) Is Up 13.43% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/watts-water-wts-1343-one-week-what-you-should-know",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Watts Water (WTS) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-wts-q3-2026-190134583.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water Technologies, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-technologies-inc-q3-133000851.html",
+   "date": "2026-11-05",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Watts Water Technologies Stock's Raised Guidance Means For Shareholders",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-technologies-stocks-raised-111128194.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water Technologies (WTS) Lifted Guidance, Is The Stock Still Cheap?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-technologies-wts-lifted-091513942.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water Technologies’s (NYSE:WTS) Q3 2026: strong sales",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-technologies-nyse-wts-224246772.html",
+   "date": "2026-11-04",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water Technologies Q3 Adjusted Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-technologies-q3-adjusted-223319851.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water (WTS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-wts-q3-earnings-223002962.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-q3-earnings-snapshot-214851877.html",
+   "date": "2026-11-04",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water Technologies Reports Record Third Quarter 2026 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-technologies-reports-record-213500691.html",
+   "date": "2026-11-04",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Watts Water Technologies, Inc. Declares Quarterly Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watts-water-technologies-inc-declares-223000500.html",
+   "date": "2026-11-02",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926122745/wts-20261104x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-01",
+   "reportDate": "2026-09-28",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926112656/wts-20260928x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926091165/wts-20260805x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-19",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926064461/wts-20260519x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926056325/wts-20260506x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926013437/wts-20260211x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.98,
+  "saleNy": 5.73,
+  "epsCy": 20.04,
+  "epsNy": 10.44,
+  "cyTrend": -1.23,
+  "nyTrend": -0.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    18.56,
+    21.38,
+    15.67
+   ],
+   "ni": [
+    17.24,
+    34.59,
+    24
+   ],
+   "opm": [
+    20.18,
+    19.64,
+    18.19
+   ],
+   "updated": "2026-09-08 08:40:13"
+  }
+ }
+}

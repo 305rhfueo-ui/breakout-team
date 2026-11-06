@@ -1,0 +1,264 @@
+{
+ "ticker": "ECPG",
+ "sector": "Financial Services",
+ "industry": "Credit Services",
+ "nameKo": "앙코어 캐피털 그룹",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.01,
+  "saleNy": 1.42,
+  "epsCy": 23.9,
+  "epsNy": 9.08,
+  "est": {
+   "cyCur": 13.5175,
+   "cy30": 13.5175,
+   "nyCur": 14.745,
+   "ny30": 14.62
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.25,
+    21.04,
+    78.28
+   ],
+   "ni": [
+    8.99,
+    84.3,
+    "흑자전환"
+   ],
+   "opm": [
+    16.84,
+    23.5,
+    20.66
+   ],
+   "updated": "2026-09-08 06:19:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-05",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "앙코어 캐피털 그룹",
+  "nameEn": "ENCORE CAPITAL GROUP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084961&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 17474000,
+     "profit": 230605000,
+     "netIncome": 124013000,
+     "margin": 1319.7,
+     "yoy": {
+      "revenue": -21.2,
+      "profit": 33.2,
+      "netIncome": 66.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 18228000,
+     "profit": 186902000,
+     "netIncome": 63999000,
+     "margin": 1025.4,
+     "yoy": {
+      "revenue": -18.3,
+      "profit": 24,
+      "netIncome": 9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 20638000,
+     "profit": 183992000,
+     "netIncome": 86243000,
+     "margin": 891.5,
+     "yoy": {
+      "revenue": -8.5,
+      "profit": 42.3,
+      "netIncome": 84.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 21366000,
+     "profit": 173393000,
+     "netIncome": 76823000,
+     "margin": 811.5,
+     "yoy": {
+      "revenue": 4.1,
+      "profit": 229.2,
+      "netIncome": 134.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Encore Capital (ECPG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/encore-capital-ecpg-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Encore Capital Group (ECPG) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/encore-capital-group-ecpg-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Encore Capital Stock Soars 73.8% YTD: Is There Further Upside Left?",
+     "url": "https://www.nasdaq.com/articles/encore-capital-stock-soars-738-ytd-there-further-upside-left",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Encore Capital Group Has Doubled—But Its Best Tailwind Won’t Last Forever",
+     "url": "https://www.nasdaq.com/articles/encore-capital-group-has-doubled-its-best-tailwind-wont-last-forever",
+     "date": "2026-09-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights Enova International and Encore Capital",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-enova-international-and-encore-capital",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is Encore Capital Group (ECPG) Down 1% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-encore-capital-group-ecpg-down-1-last-earnings-report",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Encore Capital's Raised 2026 Outlook Drive More Earnings Growth?",
+     "url": "https://www.nasdaq.com/articles/can-encore-capitals-raised-2026-outlook-drive-more-earnings-growth",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is ECPG a Buy Now as Cheap Valuation Meets Rising Earnings Momentum?",
+     "url": "https://www.nasdaq.com/articles/ecpg-buy-now-cheap-valuation-meets-rising-earnings-momentum",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000069/ecpg-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000062/ecpg-20260819.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000057/ecpg-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000052/ecpg-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "임원 변동",
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000050/ecpg-20260612.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000048/ck0001084961-20260528.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "ECPG",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 9.55,
+  "pbr": 2.48,
+  "eps": 13.21,
+  "bps": 50.86,
+  "shares": 21209400,
+  "marketCapM": 2676,
+  "high52": 126.74,
+  "high52Date": "2026-11-05",
+  "low52": 41.055,
+  "low52Date": "2025-11-04",
+  "last": 126.17,
+  "prevClose": 99.93,
+  "nameKo": "앙코어 캐피털 그룹",
+  "nameEn": "ENCORE CAPITAL GROUP INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 21209400
+ }
+}

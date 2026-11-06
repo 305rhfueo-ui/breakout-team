@@ -1,0 +1,521 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "ticker": "RYTM",
+      "price": 105.02,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SSNC",
+      "price": 78.305,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FWONK",
+      "price": 106.52,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FWONA",
+      "price": 99.72,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SEZL",
+      "price": 155,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CPAY",
+      "price": 447,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "IPAR",
+      "price": 135.28,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ECPG",
+      "price": 126.17,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "EPAM",
+      "price": 165.7,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RVMD",
+      "price": 177.65,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "AGL",
+      "price": 113.77,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TM",
+      "price": 218.11,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BLLN",
+      "price": 112.39,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "RDVT",
+      "price": 72.12,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MSI",
+      "price": 517.01,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "KOF",
+      "price": 114.75,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DEO",
+      "price": 100.25,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CRAI",
+      "price": 202.94,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GMED",
+      "price": 81.44,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ALGT",
+      "price": 87.59,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TKO",
+      "price": 189.14,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "EVRG",
+      "price": 87.41,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PLMR",
+      "price": 155.67,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NSC",
+      "price": 329.25,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "EXPE",
+      "price": 272.48,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NXST",
+      "price": 187.97,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RL",
+      "price": 381.78,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BANF",
+      "price": 115.12,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "USFD",
+      "price": 106.85,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "VCTR",
+      "price": 112.41,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ASH",
+      "price": 76.28,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PAYC",
+      "price": 250.02,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SLAB",
+      "price": 221.35,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "HCI",
+      "price": 192.03,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ABNB",
+      "price": 170.13,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "SO",
+      "price": 93.34,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ONC",
+      "price": 387.25,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FTDR",
+      "price": 95.98,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BDX",
+      "price": 213.55,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MGEE",
+      "price": 78.36,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "STE",
+      "price": 254.12,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "PAC",
+      "price": 245.91,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SYNA",
+      "price": 116.4,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ZTS",
+      "price": 82.11,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ROP",
+      "price": 490.96,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "KTB",
+      "price": 79.18,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ADSK",
+      "price": 269.16,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "MORN",
+      "price": 247.17,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "EW",
+      "price": 100.82,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "ELF",
+      "price": 109.85,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "UNP",
+      "price": 297.95,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ICUI",
+      "price": 167.65,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "V",
+      "price": 422.59,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DUK",
+      "price": 130.08,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ED",
+      "price": 121.44,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "WTS",
+      "price": 347.46,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FNV",
+      "price": 250.69,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LYV",
+      "price": 181.25,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BRK.B",
+      "price": 572.33,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "APD",
+      "price": 309.49,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "VRSK",
+      "price": 211.47,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "JBTM",
+      "price": 126.82,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CNI",
+      "price": 126.49,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GSAT",
+      "price": 83.53,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "OTIS",
+      "price": 79.49,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "COST",
+      "price": 1065.59,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NUE",
+      "price": 245.68,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TRNS",
+      "price": 100.38,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ALL",
+      "price": 266.72,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "J",
+      "price": 147.54,
+      "category": 3,
+      "confidence": "low"
+    },
+    {
+      "ticker": "WMT",
+      "price": 127.72,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VLTO",
+      "price": 116.55,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SWK",
+      "price": 115.27,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GWW",
+      "price": 1451.39,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GH",
+      "price": 153.43,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LAMR",
+      "price": 157.3,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TFX",
+      "price": 152.15,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "DLTR",
+      "price": 137.94,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TXRH",
+      "price": 191.79,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FMX",
+      "price": 128.05,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GRAL",
+      "price": 119.13,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PANW",
+      "price": 314.67,
+      "category": 5,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "KSPI",
+      "price": 91.58,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SAP",
+      "price": 243.53,
+      "category": 5,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PM",
+      "price": 201.5,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "P",
+      "price": 93.44,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

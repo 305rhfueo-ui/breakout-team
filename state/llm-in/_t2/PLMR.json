@@ -1,0 +1,232 @@
+{
+ "ticker": "PLMR",
+ "sector": "Financial Services",
+ "industry": "Insurance - Property & Casualty",
+ "nameKo": "팔로마 홀딩스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 47.35,
+  "saleNy": 24.29,
+  "epsCy": 27.91,
+  "epsNy": 12.36,
+  "est": {
+   "cyCur": 10.05341,
+   "cy30": 10.10191,
+   "nyCur": 11.29583,
+   "ny30": 11.36572
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    54.65,
+    59.73,
+    62.67
+   ],
+   "ni": [
+    13.03,
+    0.06,
+    60.63
+   ],
+   "opm": [
+    22.2,
+    19.17,
+    28.68
+   ],
+   "updated": "2026-09-09 07:33:10"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "팔로마 홀딩스",
+  "nameEn": "PALOMAR HOLDINGS INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001761312&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 314423000,
+     "profit": 69803000,
+     "netIncome": 52592000,
+     "margin": 22.2,
+     "yoy": {
+      "revenue": 54.7,
+      "profit": 16.6,
+      "netIncome": 13,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 278938000,
+     "profit": 53461000,
+     "netIncome": 42947000,
+     "margin": 19.2,
+     "yoy": {
+      "revenue": 59.7,
+      "profit": -0.5,
+      "netIncome": 0.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 253363000,
+     "profit": 72658000,
+     "netIncome": 56165000,
+     "margin": 28.7,
+     "yoy": {
+      "revenue": 62.7,
+      "profit": 61.6,
+      "netIncome": 60.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 244660000,
+     "profit": 67139000,
+     "netIncome": 51455000,
+     "margin": 27.4,
+     "yoy": {
+      "revenue": 64.8,
+      "profit": 74.4,
+      "netIncome": 68.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's What Key Metrics Tell Us About Palomar (PLMR) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-palomar-plmr-q3-earnings",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Palomar (PLMR) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/palomar-plmr-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Palomar (PLMR) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/palomar-plmr-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526343050/plmr-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526246399/plmr-20260529.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526239334/plmr-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526209013/plmr-20260506.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "PLMR",
+  "fetchedAt": "2026-11-05",
+  "source": "한국투자증권 Open API",
+  "per": 19.35,
+  "pbr": 3.85,
+  "eps": 7.45,
+  "bps": 37.46,
+  "shares": 26317700,
+  "marketCapM": 3791,
+  "high52": 147.1078,
+  "high52Date": "2026-07-08",
+  "low52": 100.4603,
+  "low52Date": "2026-06-03",
+  "last": 144.04,
+  "prevClose": 142.21,
+  "nameKo": "팔로마 홀딩스",
+  "nameEn": "PALOMAR HOLDINGS INC",
+  "listedOn": "2019-04-16",
+  "exchange": "나스닥",
+  "listedShares": 26317700
+ }
+}

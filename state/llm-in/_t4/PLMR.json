@@ -73,106 +73,134 @@
   {
    "form": "8-K",
    "filingDate": "2026-11-04",
-   "reportDate": "2026-11-04",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-20261104.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-20261104.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-11",
-   "reportDate": "2026-08-10",
-   "items": [
-    "7.01",
-    "9.01"
-   ],
    "itemsKo": [
     "Reg FD 공시",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526343050/plmr-20260810.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526343050/plmr-20260810.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-04",
-   "reportDate": "2026-08-04",
-   "items": [
-    "2.02",
-    "8.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "기타 중요사건"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-20260804.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-20260804.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-29",
-   "reportDate": "2026-05-29",
-   "items": [
-    "7.01",
-    "8.01",
-    "9.01"
-   ],
    "itemsKo": [
     "Reg FD 공시",
     "기타 중요사건",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526246399/plmr-20260529.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526246399/plmr-20260529.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-26",
-   "reportDate": "2026-05-21",
-   "items": [
-    "5.02",
-    "5.07",
-    "7.01"
-   ],
    "itemsKo": [
     "임원 변동",
     "주주총회 표결",
     "Reg FD 공시"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526239334/plmr-20260521.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526239334/plmr-20260521.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-06",
-   "reportDate": "2026-05-06",
-   "items": [
-    "2.02",
-    "8.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "기타 중요사건"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526209013/plmr-20260506.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526209013/plmr-20260506.htm"
   }
  ],
- "financials": null,
- "krReports": null,
+ "financials": {
+  "profitLabel": "세전이익",
+  "marginLabel": "세전이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001761312&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 314423000,
+    "profit": 69803000,
+    "netIncome": 52592000,
+    "margin": 22.2,
+    "yoy": {
+     "revenue": 54.7,
+     "profit": 16.6,
+     "netIncome": 13,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 278938000,
+    "profit": 53461000,
+    "netIncome": 42947000,
+    "margin": 19.2,
+    "yoy": {
+     "revenue": 59.7,
+     "profit": -0.5,
+     "netIncome": 0.1,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 253363000,
+    "profit": 72658000,
+    "netIncome": 56165000,
+    "margin": 28.7,
+    "yoy": {
+     "revenue": 62.7,
+     "profit": 61.6,
+     "netIncome": 60.6,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 244660000,
+    "profit": 67139000,
+    "netIncome": 51455000,
+    "margin": 27.4,
+    "yoy": {
+     "revenue": 64.8,
+     "profit": 74.4,
+     "netIncome": 68.7,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
  "site": {
   "targetStatus": false,
   "saleCy": 47.35,

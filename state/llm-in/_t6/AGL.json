@@ -1,0 +1,663 @@
+{
+ "ticker": "AGL",
+ "date": "2026-11-06",
+ "session": "2026-11-05",
+ "source": "list",
+ "plan": {
+  "ticker": "AGL",
+  "name": "애질론 헬스",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "price": 113.77,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 6.42,
+  "extensionAdr": 3.02,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.4773681427443017,
+    "pct": 99.41388638412985
+   },
+   "m3": {
+    "v": 0.4239019612522981,
+    "pct": 98.42200180342651
+   },
+   "m6": {
+    "v": 0.47735376071502406,
+    "pct": 88.2326420198377
+   }
+  },
+  "ret1m": 34.29,
+  "ret3m": 31.89,
+  "ret6m": 39.2,
+  "marketCap": "1.62B",
+  "volx": 3.42,
+  "volSurgeWk": 2.34,
+  "high52": 85.52,
+  "newHigh52": false,
+  "adr": 6.42,
+  "div50": 29.41,
+  "div200": 71.3,
+  "targetStatus": false,
+  "saleCy": -1.77,
+  "saleNy": 7.05,
+  "epsCy": -92.48,
+  "epsNy": -232.29,
+  "cyTrend": 0,
+  "nyTrend": -1.67,
+  "est": {
+   "cyCur": -1.78506,
+   "cy30": -1.78506,
+   "nyCur": 2.36143,
+   "ny30": 2.40143
+  },
+  "fs": {
+   "sale": [
+    7.15,
+    -7.33,
+    3.09
+   ],
+   "ni": [
+    "흑자전환",
+    303.86,
+    "적자확대"
+   ],
+   "opm": [
+    0.79,
+    0.28,
+    -12.35
+   ],
+   "updated": "2026-09-15 06:29:02"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-05",
+   "m3": "2026-11-05",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "애질론 헬스",
+  "nameEn": "AGILON HEALTH INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001831097&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1519486000,
+     "profit": 24109000,
+     "netIncome": 34912000,
+     "margin": 1.6,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 118.4,
+      "netIncome": 131.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1494743000,
+     "profit": 11770000,
+     "netIncome": 17956000,
+     "margin": 0.8,
+     "yoy": {
+      "revenue": 7.2,
+      "profit": 110.1,
+      "netIncome": 117.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1420460000,
+     "profit": 3997000,
+     "netIncome": 48916000,
+     "margin": 0.3,
+     "yoy": {
+      "revenue": -7.3,
+      "profit": 118.1,
+      "netIncome": 303.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1569491000,
+     "profit": -193825000,
+     "netIncome": -188882000,
+     "margin": -12.3,
+     "yoy": {
+      "revenue": 3.1,
+      "profit": -79.3,
+      "netIncome": -78.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "agilon health (AGL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/agilon-health-agl-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "agilon health, inc. Reports Third Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/agilon-health-inc-reports-third-quarter-2026-results",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Compared to Estimates, Agilon (AGL) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-agilon-agl-q3-earnings-look-key-metrics",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Agilon Health (AGL) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/agilon-health-agl-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Medical Stocks Lagging  Agilon Health (AGL) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-agilon-health-agl-year",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Agilon Health (AGL) Stock Outpacing Its Medical Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/agilon-health-agl-stock-outpacing-its-medical-peers-year",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Agilon Health is Now Oversold (AGL)",
+     "url": "https://www.nasdaq.com/articles/agilon-health-now-oversold-agl",
+     "date": "2026-09-24",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Is Agilon Health (AGL) Outperforming Other Medical Stocks This Year?",
+     "url": "https://www.nasdaq.com/articles/agilon-health-agl-outperforming-other-medical-stocks-year",
+     "date": "2026-08-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026070132/agl-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026053328/agl-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026049080/agl-20260717.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026040370/agl-20260602.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026031254/agl-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-27",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026027512/agl-20260424.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "AGL",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 7.49,
+  "pbr": 8.39,
+  "eps": 15.2,
+  "bps": 13.56,
+  "shares": 16791200,
+  "marketCapM": 1910,
+  "high52": 133.04,
+  "high52Date": "2026-07-17",
+  "low52": 7.48,
+  "low52Date": "2026-03-31",
+  "last": 113.77,
+  "prevClose": 96.23,
+  "nameKo": "애질론 헬스",
+  "nameEn": "AGILON HEALTH INC",
+  "listedOn": "2021-04-14",
+  "exchange": "뉴욕거래소",
+  "listedShares": 16791200
+ },
+ "estimates": {
+  "ticker": "AGL",
+  "url": "https://finance.yahoo.com/quote/AGL/analysis/",
+  "fetchedAt": "2026-11-06",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -2.98,
+    "epsLow": -4.36,
+    "epsHigh": -2.11,
+    "epsYearAgo": -8.95,
+    "epsAnalysts": 6,
+    "epsGrowth": 66.7,
+    "epsCur": "USD",
+    "rev": 1456178930,
+    "revAnalysts": 13,
+    "revYearAgo": 1569491000,
+    "revGrowth": -7.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.23,
+    "epsLow": 1.79,
+    "epsHigh": 2.66,
+    "epsYearAgo": 2.32,
+    "epsAnalysts": 2,
+    "epsGrowth": -4,
+    "epsCur": "USD",
+    "rev": 1542313600,
+    "revAnalysts": 6,
+    "revYearAgo": 1420460000,
+    "revGrowth": 8.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -1.79,
+    "epsLow": -5.34,
+    "epsHigh": 2.07,
+    "epsYearAgo": -23.75,
+    "epsAnalysts": 11,
+    "epsGrowth": 92.5,
+    "epsCur": "USD",
+    "rev": 5827321360,
+    "revAnalysts": 14,
+    "revYearAgo": 5932576000,
+    "revGrowth": -1.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 2.36,
+    "epsLow": -2.38,
+    "epsHigh": 6.15,
+    "epsYearAgo": -0.16,
+    "epsAnalysts": 7,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 6238380850,
+    "revAnalysts": 14,
+    "revYearAgo": 5827321360,
+    "revGrowth": 7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -2.98,
+    "d7": 0.6,
+    "d30": 3.8,
+    "d90": 19.5,
+    "ago90": -3.7,
+    "up7": 2,
+    "up30": 5,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.23,
+    "d7": 15,
+    "d30": 83.9,
+    "d90": 2305.4,
+    "ago90": 0.09,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -1.79,
+    "d7": 0,
+    "d30": 0,
+    "d90": 37.9,
+    "ago90": -2.88,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 2.36,
+    "d7": 0,
+    "d30": -1.7,
+    "d90": 480,
+    "ago90": -0.62,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.08,
+    "estimate": -0.73,
+    "surprisePct": 384.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.15,
+    "estimate": 0.27,
+    "surprisePct": 691.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.32,
+    "estimate": 0.93,
+    "surprisePct": 150,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -8.95,
+    "estimate": -6.85,
+    "surprisePct": -30.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 2,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 5,
+   "ptLowered": 0,
+   "total": 5,
+   "recent": [
+    {
+     "date": "2026-11-05",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "In-Line",
+     "to": "In-Line",
+     "ptAction": "Raises",
+     "pt": 105,
+     "ptPrior": 95
+    },
+    {
+     "date": "2026-09-15",
+     "firm": "Bernstein",
+     "action": "up",
+     "from": "Market Perform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 125,
+     "ptPrior": 86
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 31
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 146,
+     "ptPrior": 141
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Citigroup",
+     "action": "up",
+     "from": "Sell",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 105
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-05",
+  "numbers": {
+   "price": 113.77,
+   "ma20": 89.68,
+   "ma50": 87.91,
+   "ma150": 83.8,
+   "distMA50": 29.41,
+   "periodHigh": 152,
+   "pullbackFromHigh": -25.15,
+   "volRatio20": 2.77,
+   "dryUpRatio": 1.61
+  },
+  "last10": [
+   {
+    "d": "2026-10-23",
+    "o": 89.6,
+    "h": 90.37,
+    "l": 85.37,
+    "c": 89.71,
+    "v": 189600,
+    "clsPos": 87,
+    "gapPct": -0.76
+   },
+   {
+    "d": "2026-10-26",
+    "o": 89.55,
+    "h": 93.24,
+    "l": 88.72,
+    "c": 90.34,
+    "v": 175900,
+    "clsPos": 36,
+    "gapPct": -0.18
+   },
+   {
+    "d": "2026-10-27",
+    "o": 91.5,
+    "h": 91.5,
+    "l": 88.15,
+    "c": 90.65,
+    "v": 123800,
+    "clsPos": 75,
+    "gapPct": 1.28
+   },
+   {
+    "d": "2026-10-28",
+    "o": 89.4,
+    "h": 94.2,
+    "l": 89.4,
+    "c": 91,
+    "v": 232000,
+    "clsPos": 33,
+    "gapPct": -1.38
+   },
+   {
+    "d": "2026-10-29",
+    "o": 90.59,
+    "h": 92.85,
+    "l": 85.22,
+    "c": 85.94,
+    "v": 138600,
+    "clsPos": 9,
+    "gapPct": -0.45
+   },
+   {
+    "d": "2026-10-30",
+    "o": 84.31,
+    "h": 85.5,
+    "l": 82.24,
+    "c": 84.9,
+    "v": 217500,
+    "clsPos": 82,
+    "gapPct": -1.9
+   },
+   {
+    "d": "2026-11-02",
+    "o": 86.12,
+    "h": 88.07,
+    "l": 83.78,
+    "c": 86.63,
+    "v": 281500,
+    "clsPos": 66,
+    "gapPct": 1.44
+   },
+   {
+    "d": "2026-11-03",
+    "o": 86.2,
+    "h": 91.11,
+    "l": 85.26,
+    "c": 87.79,
+    "v": 329700,
+    "clsPos": 43,
+    "gapPct": -0.5
+   },
+   {
+    "d": "2026-11-04",
+    "o": 91.17,
+    "h": 98.02,
+    "l": 90.23,
+    "c": 96.23,
+    "v": 282800,
+    "clsPos": 77,
+    "gapPct": 3.85
+   },
+   {
+    "d": "2026-11-05",
+    "o": 111.95,
+    "h": 127,
+    "l": 105.26,
+    "c": 113.77,
+    "v": 585610,
+    "clsPos": 39,
+    "gapPct": 16.34
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AGL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AGL-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

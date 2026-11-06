@@ -1,0 +1,92 @@
+{
+ "ticker": "PAC",
+ "news": [
+  {
+   "title": "Grupo Aeroportuario del Pacífico Announces Dividend Payment Date of November 6, 2026",
+   "url": "https://www.nasdaq.com/articles/grupo-aeroportuario-del-pacifico-announces-dividend-payment-date-november-6-2026",
+   "date": "2026-10-28",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Grupo Aeroportuario del Pacífico: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/grupo-aeroportuario-del-pacifico-3-key-takeaways-long-term-investors",
+   "date": "2026-10-21",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "GAP (PAC) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/gap-pac-q3-2026-earnings-call-transcript",
+   "date": "2026-10-21",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Grupo Aeroportuario Del Pacifico (PAC) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-grupo-aeroportuario-del-pacifico-pac-said-its-q3-earnings-call",
+   "date": "2026-10-20",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Grupo Aeroportuario del Pacifico (PAC) Surges 4.5%: Is This an Indication of Further Gains?",
+   "url": "https://www.nasdaq.com/articles/grupo-aeroportuario-del-pacifico-pac-surges-45-indication-further-gains",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Banco Bradesco BBI S.A Upgrades Grupo Aeroportuario del Pacífico, S.A.B. de C.V. - Depositary Receipt (PAC)",
+   "url": "https://www.nasdaq.com/articles/banco-bradesco-bbi-sa-upgrades-grupo-aeroportuario-del-pacifico-sab-de-cv-depositary",
+   "date": "2026-05-06",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Grupo Aeroportuario PAC Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/grupo-aeroportuario-pac-earnings-call-transcript",
+   "date": "2026-04-20",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "PAC Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/pac-crosses-above-key-moving-average-level-0",
+   "date": "2026-04-16",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Grupo Aeroportuario del Pacífico Announces Dividend Payment Date as Approved at the Annual General Ordinary Shareholders’ Meeting",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grupo-aeroportuario-del-pac-fico-005300867.html",
+   "date": "2026-10-28",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.61,
+  "saleNy": 11.37,
+  "epsCy": -1.1,
+  "epsNy": 11.29,
+  "cyTrend": -8.77,
+  "nyTrend": 16.94,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.29,
+    19.43,
+    25.67
+   ],
+   "ni": [
+    22.15,
+    34.56,
+    -25.38
+   ],
+   "opm": [
+    44.16,
+    44.47,
+    42
+   ],
+   "updated": "2026-09-08 07:13:48"
+  }
+ }
+}

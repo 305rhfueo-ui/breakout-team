@@ -1,0 +1,287 @@
+{
+ "ticker": "FWONK",
+ "sector": "Communication Services",
+ "industry": "Entertainment",
+ "nameKo": "리버티 포뮬러 원 C",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.9,
+  "saleNy": 10.99,
+  "epsCy": -28.52,
+  "epsNy": 22,
+  "est": {
+   "cyCur": 1.5984,
+   "cy30": 1.61174,
+   "nyCur": 1.95006,
+   "ny30": 1.95839
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:37:20"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "리버티 포뮬러 원 C",
+  "nameEn": "LIBERTY MEDIA CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001560385&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1226000000,
+     "profit": 237000000,
+     "netIncome": 163000000,
+     "margin": 19.3,
+     "yoy": {
+      "revenue": 13,
+      "profit": 50,
+      "netIncome": 1153.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 934000000,
+     "profit": 88000000,
+     "netIncome": 5000000,
+     "margin": 9.4,
+     "yoy": {
+      "revenue": -30.4,
+      "profit": -68.6,
+      "netIncome": -97.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 711000000,
+     "profit": 64000000,
+     "netIncome": 57000000,
+     "margin": 9,
+     "yoy": {
+      "revenue": 59.1,
+      "profit": 195.5,
+      "netIncome": 1040,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1609000000,
+     "profit": 206000000,
+     "netIncome": 333000000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": 37.9,
+      "profit": 795.7,
+      "netIncome": 193.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "FWONK April 2027 Options Begin Trading",
+     "url": "https://www.nasdaq.com/articles/fwonk-april-2027-options-begin-trading",
+     "date": "2026-10-21",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Liberty Media Corporation - Liberty Formula One Series C (FWONK) Upgraded to Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/liberty-media-corporation-liberty-formula-one-series-c-fwonk-upgraded-buy-heres-why",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Interesting FWONK Put And Call Options For December 2027",
+     "url": "https://www.nasdaq.com/articles/interesting-fwonk-put-and-call-options-december-2027",
+     "date": "2026-08-12",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Liberty Media Corporation - Liberty Formula One Series C (FWONK) Q2 Earnings and Revenues Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/liberty-media-corporation-liberty-formula-one-series-c-fwonk-q2-earnings-and-revenues-miss",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Liberty Media Corporation - Liberty Formula One Series C (FWONK) Expected to Beat Earnings Estimates: What to Know Ahead of Q2 Release",
+     "url": "https://www.nasdaq.com/articles/liberty-media-corporation-liberty-formula-one-series-c-fwonk-expected-beat-earnings-0",
+     "date": "2026-07-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Liberty Media Corporation - Liberty Formula One Series C (FWONK) Tops Q1 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/liberty-media-corporation-liberty-formula-one-series-c-fwonk-tops-q1-earnings-and-revenue",
+     "date": "2026-05-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000028/lmca-20261105x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "3.02",
+     "3.03",
+     "임원 변동",
+     "5.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926123092/tm2628888d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000026/lmca-20261008x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000024/lmca-20260831x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "3.02",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926095991/tm2622631d2_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926093023/tm2622631d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, Tesla, Dell, Affirm, Teva, Robinhood",
+   "url": "https://www.cnbc.com/2026/09/09/wednesday-big-analyst-calls-include-nvidia-tesla-dell-first-solar.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jefferies names Formula One a buy as it doubles down on its audience",
+   "url": "https://www.cnbc.com/2026/09/09/jefferies-says-formula-ones-parent-is-a-buy-as-it-focuses-on-premium.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Formula One lags other sport stocks. Analysts think it's poised to race ahead",
+   "url": "https://www.cnbc.com/2026/08/08/formula-one-is-lagging-other-sport-stocks-why-analysts-think-its-poised-to-race-ahead.html",
+   "date": "2026-08-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Want to diversify away from AI? Goldman says look at these stocks",
+   "url": "https://www.cnbc.com/2026/07/21/want-to-diversify-away-from-ai-goldman-says-look-at-these-stocks.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Faber Report: Liberty Media acquires high-vote Series B shares of John C. Malone-related enterprises",
+   "url": "https://www.cnbc.com/video/2026/11/05/faber-report-liberty-media-acquires-high-vote-series-b-shares-of-john-c-malone-related-enterprises.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FWONK",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 65.85,
+  "pbr": 3.51,
+  "eps": 1.62,
+  "bps": 30.39,
+  "shares": 224336000,
+  "marketCapM": 23896,
+  "high52": 108.35,
+  "high52Date": "2026-11-05",
+  "low52": 80.15,
+  "low52Date": "2026-03-27",
+  "last": 106.52,
+  "prevClose": 98.93,
+  "nameKo": "리버티 포뮬러 원 C",
+  "nameEn": "LIBERTY MEDIA CORPORATION",
+  "listedOn": "2017-01-25",
+  "exchange": "나스닥",
+  "listedShares": 224336000
+ }
+}

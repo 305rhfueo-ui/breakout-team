@@ -1,0 +1,1202 @@
+{
+ "key": "Financial Services|Banks - Regional",
+ "sector": "Financial Services",
+ "industry": "Banks - Regional",
+ "industryKo": "지역은행",
+ "frank": 8,
+ "frank25dChg": 29,
+ "finalWrs": 0.3333,
+ "count": 57,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "CIB",
+   "rs1": 0.11470349500349715,
+   "rs3": 0.0988978846390912,
+   "rs6": 0.617765949906496,
+   "rnk1": 60.55,
+   "rnk3": 42.25,
+   "rnk6": 7.08,
+   "ret1d": -2.29,
+   "high52": 88.7,
+   "dollarVolM": 17.7,
+   "marketCap": "22.29B",
+   "name": "그루포 시베스트 우선주(ADR)"
+  },
+  {
+   "ticker": "CFFI",
+   "rs1": 0.20185642367142337,
+   "rs3": 0.3338069383681941,
+   "rs6": 0.6049506479698133,
+   "rnk1": 36.65,
+   "rnk3": 3.65,
+   "rnk6": 7.35,
+   "ret1d": -3.46,
+   "high52": 93.89,
+   "dollarVolM": 8.1,
+   "marketCap": "0.36B",
+   "name": "C&F 파이낸셜"
+  },
+  {
+   "ticker": "FBIZ",
+   "rs1": 0.19480531089823744,
+   "rs3": 0.16187126640232963,
+   "rs6": 0.4833675071732565,
+   "rnk1": 39.09,
+   "rnk3": 28.09,
+   "rnk6": 11.59,
+   "ret1d": -3.16,
+   "high52": 94.14,
+   "dollarVolM": 7.7,
+   "marketCap": "0.62B",
+   "name": "퍼스트 비즈니스 파이낸셜 서비시스"
+  },
+  {
+   "ticker": "CZFS",
+   "rs1": 0.21728289520395716,
+   "rs3": 0.14863740417879343,
+   "rs6": 0.46749083193105656,
+   "rnk1": 32.24,
+   "rnk3": 30.25,
+   "rnk6": 12.13,
+   "ret1d": -1.44,
+   "high52": 97.2,
+   "dollarVolM": 3.3,
+   "marketCap": "0.42B",
+   "name": "시티즌스 파이낸셜 서비시스"
+  },
+  {
+   "ticker": "PFIS",
+   "rs1": 0.19050404128735213,
+   "rs3": 0.13753912567233,
+   "rs6": 0.40520701509040186,
+   "rnk1": 39.99,
+   "rnk3": 32.15,
+   "rnk6": 16.37,
+   "ret1d": -2.34,
+   "high52": 95.36,
+   "dollarVolM": 5,
+   "marketCap": "0.73B",
+   "name": "피플스 파이낸셜 서비시스"
+  },
+  {
+   "ticker": "CHMG",
+   "rs1": 0.1814703490304323,
+   "rs3": 0.12995925106727918,
+   "rs6": 0.3928568940225931,
+   "rnk1": 42.43,
+   "rnk3": 34.31,
+   "rnk6": 17.27,
+   "ret1d": -2.3,
+   "high52": 95.01,
+   "dollarVolM": 6.1,
+   "marketCap": "0.42B",
+   "name": "셔멍 파이낸셜"
+  },
+  {
+   "ticker": "NIC",
+   "rs1": 0.18793975950600478,
+   "rs3": 0.0810725512547161,
+   "rs6": 0.35092186862494273,
+   "rnk1": 40.89,
+   "rnk3": 46.03,
+   "rnk6": 20.69,
+   "ret1d": -1.39,
+   "high52": 96.16,
+   "dollarVolM": 27.4,
+   "marketCap": "3.64B",
+   "name": "니콜레 뱅크셰어스"
+  },
+  {
+   "ticker": "SRCE",
+   "rs1": 0.1672088677158201,
+   "rs3": 0.09687940114018306,
+   "rs6": 0.3238415493932083,
+   "rnk1": 46.57,
+   "rnk3": 42.88,
+   "rnk6": 23.4,
+   "ret1d": -2.08,
+   "high52": 95.96,
+   "dollarVolM": 9.4,
+   "marketCap": "2.15B",
+   "name": "퍼스트 소스"
+  },
+  {
+   "ticker": "TMP",
+   "rs1": 0.17041381699937594,
+   "rs3": 0.1019920207663456,
+   "rs6": 0.3127972776716544,
+   "rnk1": 45.76,
+   "rnk3": 41.43,
+   "rnk6": 24.57,
+   "ret1d": -2.51,
+   "high52": 95.26,
+   "dollarVolM": 13.5,
+   "marketCap": "1.47B",
+   "name": "톰킨스 파이낸셜"
+  },
+  {
+   "ticker": "RBCAA",
+   "rs1": 0.12126332674629929,
+   "rs3": 0.048380749264210286,
+   "rs6": 0.306211259665752,
+   "rnk1": 58.84,
+   "rnk3": 55.05,
+   "rnk6": 25.38,
+   "ret1d": -1.78,
+   "high52": 89.62,
+   "dollarVolM": 10.9,
+   "marketCap": "1.82B",
+   "name": "리퍼블릭 뱅코프"
+  },
+  {
+   "ticker": "GSBC",
+   "rs1": 0.16471893719096944,
+   "rs3": 0.11333429039549062,
+   "rs6": 0.3002209927516756,
+   "rnk1": 47.2,
+   "rnk3": 39.45,
+   "rnk6": 25.65,
+   "ret1d": -2.48,
+   "high52": 95.7,
+   "dollarVolM": 7.9,
+   "marketCap": "0.90B",
+   "name": "그레이트 서던 뱅코프"
+  },
+  {
+   "ticker": "ESQ",
+   "rs1": 0.20943582826215476,
+   "rs3": 0.06147207939412815,
+   "rs6": 0.2909000783027233,
+   "rnk1": 34.49,
+   "rnk3": 52.07,
+   "rnk6": 26.47,
+   "ret1d": -0.35,
+   "high52": 94.4,
+   "dollarVolM": 22,
+   "marketCap": "1.55B",
+   "name": "에스콰이어 파이낸셜 홀딩스"
+  },
+  {
+   "ticker": "FCNCA",
+   "rs1": 0.2500803290914182,
+   "rs3": 0.12066408485369187,
+   "rs6": 0.28288051424528565,
+   "rnk1": 23.22,
+   "rnk3": 37.56,
+   "rnk6": 27.46,
+   "ret1d": -1.16,
+   "high52": 94.85,
+   "dollarVolM": 165.2,
+   "marketCap": "25.91B",
+   "name": null
+  },
+  {
+   "ticker": "CHCO",
+   "rs1": 0.15198287057197984,
+   "rs3": 0.07680655146782946,
+   "rs6": 0.2713445766001146,
+   "rnk1": 51.53,
+   "rnk3": 47.57,
+   "rnk6": 29.98,
+   "ret1d": -1.72,
+   "high52": 96.03,
+   "dollarVolM": 18.6,
+   "marketCap": "2.03B",
+   "name": null
+  },
+  {
+   "ticker": "THFF",
+   "rs1": 0.17073418750113106,
+   "rs3": 0.044276036043079545,
+   "rs6": 0.2678557154659327,
+   "rnk1": 45.58,
+   "rnk3": 56.04,
+   "rnk6": 30.34,
+   "ret1d": -3.32,
+   "high52": 90.99,
+   "dollarVolM": 12,
+   "marketCap": "0.94B",
+   "name": null
+  },
+  {
+   "ticker": "RRBI",
+   "rs1": 0.16029622529116383,
+   "rs3": 0.1284684645124901,
+   "rs6": 0.2652109216106214,
+   "rnk1": 48.74,
+   "rnk3": 34.85,
+   "rnk6": 30.79,
+   "ret1d": -2.97,
+   "high52": 95.13,
+   "dollarVolM": 6.3,
+   "marketCap": "0.71B",
+   "name": null
+  },
+  {
+   "ticker": "CFR",
+   "rs1": 0.1628278167862147,
+   "rs3": 0.04352468608122048,
+   "rs6": 0.2648822033362513,
+   "rnk1": 48.11,
+   "rnk3": 56.22,
+   "rnk6": 30.88,
+   "ret1d": -1.88,
+   "high52": 92.32,
+   "dollarVolM": 73.6,
+   "marketCap": "9.93B",
+   "name": null
+  },
+  {
+   "ticker": "CUBI",
+   "rs1": 0.2647688515301483,
+   "rs3": 0.12346292990577624,
+   "rs6": 0.24981129003677272,
+   "rnk1": 19.25,
+   "rnk3": 36.29,
+   "rnk6": 33.23,
+   "ret1d": -3.27,
+   "high52": 94.11,
+   "dollarVolM": 19.7,
+   "marketCap": "2.94B",
+   "name": null
+  },
+  {
+   "ticker": "PFBC",
+   "rs1": 0.14285356532761084,
+   "rs3": 0.08269852968395265,
+   "rs6": 0.24628840031112037,
+   "rnk1": 53.52,
+   "rnk3": 45.58,
+   "rnk6": 33.86,
+   "ret1d": -3.16,
+   "high52": 93.58,
+   "dollarVolM": 11.2,
+   "marketCap": "1.27B",
+   "name": null
+  },
+  {
+   "ticker": "QCRH",
+   "rs1": 0.1606561737212959,
+   "rs3": 0.06253331454012202,
+   "rs6": 0.2428766449841807,
+   "rnk1": 48.65,
+   "rnk3": 51.89,
+   "rnk6": 34.58,
+   "ret1d": -2.58,
+   "high52": 93.67,
+   "dollarVolM": 14.5,
+   "marketCap": "1.70B",
+   "name": null
+  },
+  {
+   "ticker": "HIFS",
+   "rs1": 0.1774323054976264,
+   "rs3": 0.07194405023007003,
+   "rs6": 0.24068331315460623,
+   "rnk1": 43.6,
+   "rnk3": 49.28,
+   "rnk6": 35.12,
+   "ret1d": -5.53,
+   "high52": 90.07,
+   "dollarVolM": 13.7,
+   "marketCap": "0.70B",
+   "name": null
+  },
+  {
+   "ticker": "SYBT",
+   "rs1": 0.17953915663471826,
+   "rs3": 0.04171653256680505,
+   "rs6": 0.2404403094427653,
+   "rnk1": 42.88,
+   "rnk3": 56.49,
+   "rnk6": 35.21,
+   "ret1d": -2.72,
+   "high52": 89.26,
+   "dollarVolM": 12.4,
+   "marketCap": "2.53B",
+   "name": null
+  },
+  {
+   "ticker": "BAP",
+   "rs1": 0.04932222008626301,
+   "rs3": 0.03988653426902741,
+   "rs6": 0.23748637316661436,
+   "rnk1": 72,
+   "rnk3": 56.67,
+   "rnk6": 35.93,
+   "ret1d": -3.12,
+   "high52": 84.21,
+   "dollarVolM": 91.6,
+   "marketCap": "28.53B",
+   "name": null
+  },
+  {
+   "ticker": "BHRB",
+   "rs1": 0.147671936632461,
+   "rs3": 0.0578573955433275,
+   "rs6": 0.23042446316470422,
+   "rnk1": 52.71,
+   "rnk3": 52.71,
+   "rnk6": 37.2,
+   "ret1d": -2.84,
+   "high52": 93.74,
+   "dollarVolM": 7.3,
+   "marketCap": "1.41B",
+   "name": null
+  },
+  {
+   "ticker": "SSB",
+   "rs1": 0.17573871609744432,
+   "rs3": 0.05387697011005681,
+   "rs6": 0.22782328781749112,
+   "rnk1": 44.32,
+   "rnk3": 53.97,
+   "rnk6": 37.92,
+   "ret1d": -1.81,
+   "high52": 93.33,
+   "dollarVolM": 97.1,
+   "marketCap": "10.31B",
+   "name": null
+  },
+  {
+   "ticker": "PBAM",
+   "rs1": 0.11919825444050273,
+   "rs3": 0.08763633692260162,
+   "rs6": 0.22616399306207924,
+   "rnk1": 59.29,
+   "rnk3": 44.23,
+   "rnk6": 38.1,
+   "ret1d": -3.78,
+   "high52": 91.35,
+   "dollarVolM": 4.4,
+   "marketCap": "0.50B",
+   "name": null
+  },
+  {
+   "ticker": "WSFS",
+   "rs1": 0.18380419882922497,
+   "rs3": 0.08021045667724215,
+   "rs6": 0.22031848436320528,
+   "rnk1": 41.7,
+   "rnk3": 46.3,
+   "rnk6": 38.64,
+   "ret1d": -2.41,
+   "high52": 94.99,
+   "dollarVolM": 26.9,
+   "marketCap": "4.17B",
+   "name": null
+  },
+  {
+   "ticker": "BANR",
+   "rs1": 0.18307564379293523,
+   "rs3": 0.06003559121506568,
+   "rs6": 0.21413706118959436,
+   "rnk1": 41.97,
+   "rnk3": 52.43,
+   "rnk6": 40.26,
+   "ret1d": -2.49,
+   "high52": 93.69,
+   "dollarVolM": 20.4,
+   "marketCap": "2.56B",
+   "name": null
+  },
+  {
+   "ticker": "HWC",
+   "rs1": 0.11659468829008085,
+   "rs3": 0.014464122057572498,
+   "rs6": 0.21407276457512686,
+   "rnk1": 60.01,
+   "rnk3": 62.26,
+   "rnk6": 40.35,
+   "ret1d": -2.53,
+   "high52": 89.71,
+   "dollarVolM": 43.4,
+   "marketCap": "5.73B",
+   "name": null
+  },
+  {
+   "ticker": "INDB",
+   "rs1": 0.22887222351734782,
+   "rs3": 0.10194139500942938,
+   "rs6": 0.2125596347523746,
+   "rnk1": 28.81,
+   "rnk3": 41.52,
+   "rnk6": 40.62,
+   "ret1d": -2.34,
+   "high52": 95.28,
+   "dollarVolM": 31.8,
+   "marketCap": "4.05B",
+   "name": null
+  },
+  {
+   "ticker": "AX",
+   "rs1": 0.17969211076976582,
+   "rs3": 0.02838205422971983,
+   "rs6": 0.19689658077436767,
+   "rnk1": 42.79,
+   "rnk3": 59.74,
+   "rnk6": 42.79,
+   "ret1d": -2.23,
+   "high52": 87.44,
+   "dollarVolM": 35.1,
+   "marketCap": "5.36B",
+   "name": null
+  },
+  {
+   "ticker": "PRK",
+   "rs1": 0.14142222012369737,
+   "rs3": -0.01650709618768209,
+   "rs6": 0.1881343327771519,
+   "rnk1": 53.97,
+   "rnk3": 69.48,
+   "rnk6": 44.23,
+   "ret1d": -1.65,
+   "high52": 84.04,
+   "dollarVolM": 26.2,
+   "marketCap": "3.30B",
+   "name": null
+  },
+  {
+   "ticker": "CTBI",
+   "rs1": 0.054357203335739485,
+   "rs3": -0.0012825845211152237,
+   "rs6": 0.1867593993566485,
+   "rnk1": 71.1,
+   "rnk3": 66.23,
+   "rnk6": 44.5,
+   "ret1d": -1.92,
+   "high52": 87.57,
+   "dollarVolM": 10.4,
+   "marketCap": "1.26B",
+   "name": null
+  },
+  {
+   "ticker": "PB",
+   "rs1": 0.21364617243668155,
+   "rs3": 0.07972132182172594,
+   "rs6": 0.18583197542614474,
+   "rnk1": 33.23,
+   "rnk3": 46.48,
+   "rnk6": 44.77,
+   "ret1d": -2.2,
+   "high52": 95.34,
+   "dollarVolM": 58.9,
+   "marketCap": "8.62B",
+   "name": null
+  },
+  {
+   "ticker": "MCB",
+   "rs1": 0.22575342934463466,
+   "rs3": 0.11434964949270693,
+   "rs6": 0.18526732971002347,
+   "rnk1": 29.53,
+   "rnk3": 39.27,
+   "rnk6": 44.95,
+   "ret1d": -2.66,
+   "high52": 93.92,
+   "dollarVolM": 14.2,
+   "marketCap": "1.21B",
+   "name": null
+  },
+  {
+   "ticker": "BPOP",
+   "rs1": 0.1362712566431651,
+   "rs3": -0.004299271487373191,
+   "rs6": 0.18028349359699744,
+   "rnk1": 55.5,
+   "rnk3": 67.31,
+   "rnk6": 45.58,
+   "ret1d": -1.67,
+   "high52": 87.55,
+   "dollarVolM": 82.5,
+   "marketCap": "9.97B",
+   "name": null
+  },
+  {
+   "ticker": "EWBC",
+   "rs1": 0.16286227006388815,
+   "rs3": 0.06635990388920926,
+   "rs6": 0.1793081580182456,
+   "rnk1": 47.93,
+   "rnk3": 51.08,
+   "rnk6": 45.76,
+   "ret1d": -3.74,
+   "high52": 93.94,
+   "dollarVolM": 112.6,
+   "marketCap": "18.37B",
+   "name": null
+  },
+  {
+   "ticker": "UMBF",
+   "rs1": 0.1675286091879375,
+   "rs3": 0.009489759406808823,
+   "rs6": 0.17334586993768433,
+   "rnk1": 46.3,
+   "rnk3": 63.62,
+   "rnk6": 47.2,
+   "ret1d": -2.75,
+   "high52": 88.17,
+   "dollarVolM": 77.2,
+   "marketCap": "10.52B",
+   "name": null
+  },
+  {
+   "ticker": "BANF",
+   "rs1": 0.21136820060570605,
+   "rs3": 0.1170167656152957,
+   "rs6": 0.17327851917494627,
+   "rnk1": 34.04,
+   "rnk3": 38.46,
+   "rnk6": 47.29,
+   "ret1d": 0.11,
+   "high52": 95.33,
+   "dollarVolM": 40.3,
+   "marketCap": "3.87B",
+   "name": null
+  },
+  {
+   "ticker": "MTB",
+   "rs1": 0.14467801521363852,
+   "rs3": -0.022612525124152696,
+   "rs6": 0.17241948849368974,
+   "rnk1": 53.07,
+   "rnk3": 70.47,
+   "rnk6": 47.66,
+   "ret1d": -2.16,
+   "high52": 86.42,
+   "dollarVolM": 283.5,
+   "marketCap": "32.28B",
+   "name": null
+  },
+  {
+   "ticker": "NBN",
+   "rs1": 0.12104900484528076,
+   "rs3": 0.03514403178854854,
+   "rs6": 0.17006267865701044,
+   "rnk1": 58.93,
+   "rnk3": 57.84,
+   "rnk6": 48.2,
+   "ret1d": -4.41,
+   "high52": 87.79,
+   "dollarVolM": 18.8,
+   "marketCap": "1.12B",
+   "name": null
+  },
+  {
+   "ticker": "PNFP",
+   "rs1": 0.20651365989089185,
+   "rs3": 0.054996473072009944,
+   "rs6": 0.16987760963554904,
+   "rnk1": 35.39,
+   "rnk3": 53.34,
+   "rnk6": 48.29,
+   "ret1d": -2.66,
+   "high52": 92.42,
+   "dollarVolM": 98.2,
+   "marketCap": "15.76B",
+   "name": null
+  },
+  {
+   "ticker": "PNC",
+   "rs1": 0.1761493862019022,
+   "rs3": 0.0007596999965049367,
+   "rs6": 0.16905467854910772,
+   "rnk1": 44.14,
+   "rnk3": 65.6,
+   "rnk6": 48.38,
+   "ret1d": -2.87,
+   "high52": 88.37,
+   "dollarVolM": 427.8,
+   "marketCap": "92.74B",
+   "name": null
+  },
+  {
+   "ticker": "WF",
+   "rs1": 0.07819212408866401,
+   "rs3": 0.079407038812051,
+   "rs6": 0.16754688239108492,
+   "rnk1": 67.94,
+   "rnk3": 46.57,
+   "rnk6": 48.65,
+   "ret1d": -0.36,
+   "high52": 80.96,
+   "dollarVolM": 13.4,
+   "marketCap": "16.76B",
+   "name": null
+  },
+  {
+   "ticker": "TCBI",
+   "rs1": 0.25028732933464504,
+   "rs3": 0.1292001685138648,
+   "rs6": 0.16379221070507344,
+   "rnk1": 23.13,
+   "rnk3": 34.4,
+   "rnk6": 49.01,
+   "ret1d": -2.77,
+   "high52": 95.03,
+   "dollarVolM": 48.7,
+   "marketCap": "4.61B",
+   "name": null
+  },
+  {
+   "ticker": "KB",
+   "rs1": 0.050976701341051214,
+   "rs3": 0.054070284148327444,
+   "rs6": 0.15895387790238902,
+   "rnk1": 71.64,
+   "rnk3": 53.79,
+   "rnk6": 49.82,
+   "ret1d": -2.72,
+   "high52": 83.91,
+   "dollarVolM": 27.1,
+   "marketCap": "39.91B",
+   "name": null
+  },
+  {
+   "ticker": "SMBC",
+   "rs1": 0.12286064105643153,
+   "rs3": 0.020490539626945137,
+   "rs6": 0.14939295667874197,
+   "rnk1": 58.66,
+   "rnk3": 61.09,
+   "rnk6": 51.44,
+   "ret1d": -2.66,
+   "high52": 88.77,
+   "dollarVolM": 5.6,
+   "marketCap": "0.78B",
+   "name": null
+  },
+  {
+   "ticker": "WTFC",
+   "rs1": 0.18662373646736888,
+   "rs3": 0.038069744203443015,
+   "rs6": 0.1383029686777698,
+   "rnk1": 41.07,
+   "rnk3": 56.94,
+   "rnk6": 53.52,
+   "ret1d": -2.82,
+   "high52": 91.04,
+   "dollarVolM": 74.5,
+   "marketCap": "10.53B",
+   "name": null
+  },
+  {
+   "ticker": "BFC",
+   "rs1": 0.1308923859368304,
+   "rs3": 0.048205758787740915,
+   "rs6": 0.1382142923660385,
+   "rnk1": 56.94,
+   "rnk3": 55.23,
+   "rnk6": 53.7,
+   "ret1d": -1.44,
+   "high52": 93.05,
+   "dollarVolM": 19.5,
+   "marketCap": "1.66B",
+   "name": null
+  },
+  {
+   "ticker": "BOKF",
+   "rs1": 0.16302954543204168,
+   "rs3": 0.007022377506046007,
+   "rs6": 0.1188651938555168,
+   "rnk1": 47.66,
+   "rnk3": 63.89,
+   "rnk6": 56.04,
+   "ret1d": -1.64,
+   "high52": 88.94,
+   "dollarVolM": 30.8,
+   "marketCap": "8.03B",
+   "name": null
+  },
+  {
+   "ticker": "WAL",
+   "rs1": 0.1395070348274983,
+   "rs3": 0.028096752179249534,
+   "rs6": 0.11015938554504705,
+   "rnk1": 54.78,
+   "rnk3": 59.83,
+   "rnk6": 57.57,
+   "ret1d": -4.24,
+   "high52": 79.25,
+   "dollarVolM": 66.4,
+   "marketCap": "8.52B",
+   "name": null
+  },
+  {
+   "ticker": "ABCB",
+   "rs1": 0.15983164563196114,
+   "rs3": 0.029488951271184158,
+   "rs6": 0.07933808491682913,
+   "rnk1": 48.92,
+   "rnk3": 59.47,
+   "rnk6": 62.89,
+   "ret1d": -2.92,
+   "high52": 87.84,
+   "dollarVolM": 30.7,
+   "marketCap": "5.65B",
+   "name": null
+  },
+  {
+   "ticker": "SHG",
+   "rs1": -0.027505352076155093,
+   "rs3": -0.03742867220639949,
+   "rs6": 0.07036175391017094,
+   "rnk1": 82.1,
+   "rnk3": 72.81,
+   "rnk6": 63.8,
+   "ret1d": -2.91,
+   "high52": 73.82,
+   "dollarVolM": 17.4,
+   "marketCap": "30.12B",
+   "name": null
+  },
+  {
+   "ticker": "HBCP",
+   "rs1": 0.04949984635421349,
+   "rs3": -0.04828857387426559,
+   "rs6": 0.06829148273618514,
+   "rnk1": 71.91,
+   "rnk3": 74.17,
+   "rnk6": 64.43,
+   "ret1d": -1.94,
+   "high52": 81.92,
+   "dollarVolM": 5.8,
+   "marketCap": "0.47B",
+   "name": null
+  },
+  {
+   "ticker": "IBOC",
+   "rs1": 0.13301191166506693,
+   "rs3": 0.05376537661288269,
+   "rs6": 0.05929723634140674,
+   "rnk1": 56.13,
+   "rnk3": 54.06,
+   "rnk6": 66.23,
+   "ret1d": -1.04,
+   "high52": 87.93,
+   "dollarVolM": 32.5,
+   "marketCap": "4.29B",
+   "name": null
+  },
+  {
+   "ticker": "CASH",
+   "rs1": 0.19758952625700182,
+   "rs3": -0.001733008553331708,
+   "rs6": 0.04572584312171599,
+   "rnk1": 38.1,
+   "rnk3": 66.5,
+   "rnk6": 68.21,
+   "ret1d": -3,
+   "high52": 75.78,
+   "dollarVolM": 18.4,
+   "marketCap": "1.64B",
+   "name": null
+  },
+  {
+   "ticker": "BOH",
+   "rs1": 0.16740851012951763,
+   "rs3": -0.006446192308624782,
+   "rs6": 0.025958486956531253,
+   "rnk1": 46.39,
+   "rnk3": 67.85,
+   "rnk6": 70.83,
+   "ret1d": -1.77,
+   "high52": 81.77,
+   "dollarVolM": 26,
+   "marketCap": "2.79B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "CIB": {
+   "cnbc": [
+    {
+     "title": "Tuesday's biggest analyst calls: SpaceX, Nvidia, Tesla, Apple, Best Buy, Boeing",
+     "url": "https://www.cnbc.com/2026/08/11/tuesday-top-stocks-by-analyst-calls-like-nvidia.html",
+     "date": "2026-08-11",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Tuesday's biggest analyst calls: SpaceX, Apple, Tesla, Berkshire Hathaway & more",
+     "url": "https://www.cnbc.com/2026/07/28/tuesday-big-analyst-calls-on-wall-street-include-spacex.html",
+     "date": "2026-07-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Are Conglomerates Stocks Lagging  Grupo Cibest S.A. - Sponsored ADR (CIB) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-conglomerates-stocks-lagging-grupo-cibest-sa-sponsored-adr-cib-year-0",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Conglomerates Stocks Lagging  Grupo Cibest S.A. - Sponsored ADR (CIB) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-conglomerates-stocks-lagging-grupo-cibest-sa-sponsored-adr-cib-year",
+     "date": "2026-09-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CIB or ITT: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/cib-or-itt-which-better-value-stock-right-now",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Grupo Cibest S.A. - Sponsored ADR (CIB) Stock Outpacing Its Conglomerates Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/grupo-cibest-sa-sponsored-adr-cib-stock-outpacing-its-conglomerates-peers-year",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CFFI": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "CFFI Gains 35% in a Year: Is More Upside Ahead for the Stock?",
+     "url": "https://www.nasdaq.com/articles/cffi-gains-35-year-more-upside-ahead-stock",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CFFI Q2 Earnings Rise Y/Y on Loan Growth & Margin Gains",
+     "url": "https://www.nasdaq.com/articles/cffi-q2-earnings-rise-y-y-loan-growth-margin-gains",
+     "date": "2026-07-24",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "FBIZ": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "First Business Financial Services, Inc. (FBIZ) Hit a 52 Week High, Can the Run Continue?",
+     "url": "https://www.nasdaq.com/articles/first-business-financial-services-inc-fbiz-hit-52-week-high-can-run-continue",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "First Business (FBIZ) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/first-business-fbiz-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What First Business Financial Services (FBIZ) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-first-business-financial-services-fbiz-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "First Business Financial Services (FBIZ) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/first-business-financial-services-fbiz-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "First Business Financial Services (FBIZ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/first-business-financial-services-fbiz-q3-earnings-taking-look-key-metrics-versus",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CZFS": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Citizens Financial Services (CZFS) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/citizens-financial-services-czfs-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Citizens Financial Services (CZFS) is a Great Dividend Stock Right Now",
+     "url": "https://www.nasdaq.com/articles/why-citizens-financial-services-czfs-great-dividend-stock-right-now",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Citizens Financial Services (CZFS) Could Be a Great Choice",
+     "url": "https://www.nasdaq.com/articles/citizens-financial-services-czfs-could-be-great-choice-2",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Citizens Financial Services (CZFS) is a Great Dividend Stock Right Now",
+     "url": "https://www.nasdaq.com/articles/why-citizens-financial-services-czfs-great-dividend-stock-right-now-0",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "PFIS": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Peoples Financial Services (PFIS) Could Be a Great Choice",
+     "url": "https://www.nasdaq.com/articles/peoples-financial-services-pfis-could-be-great-choice-0",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Peoples Financial Services (PFIS) Could Be a Great Choice",
+     "url": "https://www.nasdaq.com/articles/peoples-financial-services-pfis-could-be-great-choice",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Peoples Financial Services (PFIS) Price Target Increased by 15.00% to 58.65",
+     "url": "https://www.nasdaq.com/articles/peoples-financial-services-pfis-price-target-increased-1500-5865",
+     "date": "2026-02-25",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Why Peoples Financial Services (PFIS) is a Great Dividend Stock Right Now",
+     "url": "https://www.nasdaq.com/articles/why-peoples-financial-services-pfis-great-dividend-stock-right-now",
+     "date": "2025-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Peoples Financial (PFIS) Q2 EPS Up 265%",
+     "url": "https://www.nasdaq.com/articles/peoples-financial-pfis-q2-eps-265",
+     "date": "2025-08-01",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "CHMG": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Earnings Estimates Rising for Chemung Financial (CHMG): Will It Gain?",
+     "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-chemung-financial-chmg-will-it-gain",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Compared to Estimates, Chemung Financial (CHMG) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-chemung-financial-chmg-q3-earnings-look-key-metrics",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Chemung Financial (CHMG) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/chemung-financial-chmg-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Raymond James Initiates Coverage of Chemung Financial (CHMG) with Outperform Recommendation",
+     "url": "https://www.nasdaq.com/articles/raymond-james-initiates-coverage-chemung-financial-chmg-outperform-recommendation",
+     "date": "2026-09-02",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "NIC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Nicolet Bankshares (NIC) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/nicolet-bankshares-nic-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Nicolet Bankshares (NIC) to Report Q3 Results: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/nicolet-bankshares-nic-report-q3-results-wall-street-expects-earnings-growth",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Nicolet Bankshares (NIC) Q2 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-nicolet-bankshares-nic-q2-earnings",
+     "date": "2026-07-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Nicolet Bankshares (NIC) Q2 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/nicolet-bankshares-nic-q2-earnings-and-revenues-top-estimates",
+     "date": "2026-07-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Nicolet Bankshares (NIC) to Report Q2 Results: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/nicolet-bankshares-nic-report-q2-results-wall-street-expects-earnings-growth",
+     "date": "2026-07-14",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "SRCE": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "1st Source (SRCE) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/1st-source-srce-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "1st Source (SRCE) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/1st-source-srce-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "TMP": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Ex-Div Reminder for Tompkins Financial (TMP)",
+     "url": "https://www.nasdaq.com/articles/ex-div-reminder-tompkins-financial-tmp",
+     "date": "2026-11-05",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Tompkins Financial (TMP) Tops Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/tompkins-financial-tmp-tops-q3-earnings-estimates",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Tompkins Financial (TMP) is a Top Dividend Stock for Your Portfolio",
+     "url": "https://www.nasdaq.com/articles/why-tompkins-financial-tmp-top-dividend-stock-your-portfolio",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tompkins Financial (TMP) Could Be a Great Choice",
+     "url": "https://www.nasdaq.com/articles/tompkins-financial-tmp-could-be-great-choice-1",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "RBCAA": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Republic Bancorp (RBCAA) Q3 Earnings Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-q3-earnings-miss-estimates",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RBCAA Ex-Dividend Reminder - 3/20/26",
+     "url": "https://www.nasdaq.com/articles/rbcaa-ex-dividend-reminder-3-20-26",
+     "date": "2026-03-18",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Republic Bancorp (RBCAA) Q4 Earnings Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-q4-earnings-miss-estimates",
+     "date": "2026-01-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Republic Bancorp Breaks Below 200-Day Moving Average - Notable for RBCAA",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-breaks-below-200-day-moving-average-notable-rbcaa",
+     "date": "2026-01-27",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "RBCAA Crosses Below Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/rbcaa-crosses-below-key-moving-average-level",
+     "date": "2025-12-26",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "GSBC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Great Southern Bancorp (GSBC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/great-southern-bancorp-gsbc-q3-2026-earnings-call-transcript",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Great Southern Bancorp (GSBC) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/great-southern-bancorp-gsbc-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Analysts Estimate Great Southern Bancorp (GSBC) to Report a Decline in Earnings: What to Look Out for",
+     "url": "https://www.nasdaq.com/articles/analysts-estimate-great-southern-bancorp-gsbc-report-decline-earnings-what-look-out",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Great Southern Bancorp (GSBC) Beats Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/great-southern-bancorp-gsbc-beats-q2-earnings-and-revenue-estimates",
+     "date": "2026-07-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Earnings Preview: Great Southern Bancorp (GSBC) Q2 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-great-southern-bancorp-gsbc-q2-earnings-expected-decline",
+     "date": "2026-07-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ESQ": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Can Esquire Financial (ESQ) Run Higher on Rising Earnings Estimates?",
+     "url": "https://www.nasdaq.com/articles/can-esquire-financial-esq-run-higher-rising-earnings-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Esquire Financial (ESQ) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/esquire-financial-esq-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Esquire Financial (ESQ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/esquire-financial-esq-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Esquire Financial Holdings, Inc. (ESQ) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/esquire-financial-holdings-inc-esq-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Esquire Financial Holdings, Inc. (ESQ) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/esquire-financial-holdings-inc-esq-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

@@ -1,0 +1,615 @@
+{
+ "key": "Healthcare|Medical Care Facilities",
+ "sector": "Healthcare",
+ "industry": "Medical Care Facilities",
+ "industryKo": "의료기관",
+ "frank": 10,
+ "frank25dChg": 4,
+ "finalWrs": 0.3201,
+ "count": 12,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "USPH",
+   "rs1": 0.2982670724695292,
+   "rs3": 0.29810801687231353,
+   "rs6": 0.65351379599379,
+   "rnk1": 11.05,
+   "rnk3": 5.18,
+   "rnk6": 5.28,
+   "ret1d": 8.99,
+   "high52": 96.26,
+   "dollarVolM": 29.9,
+   "marketCap": "1.33B",
+   "name": "US 피지컬 테라피"
+  },
+  {
+   "ticker": "NUTX",
+   "rs1": 0.07901323831958845,
+   "rs3": 0.2278586642252244,
+   "rs6": 0.6185062478972387,
+   "rnk1": 67.76,
+   "rnk3": 14.11,
+   "rnk6": 6.99,
+   "ret1d": -5.64,
+   "high52": 85.62,
+   "dollarVolM": 28.7,
+   "marketCap": "1.41B",
+   "name": "뉴텍스 헬스"
+  },
+  {
+   "ticker": "THC",
+   "rs1": 0.23383298870691016,
+   "rs3": 0.1787108145800811,
+   "rs6": 0.5419569259396022,
+   "rnk1": 27.19,
+   "rnk3": 24.21,
+   "rnk6": 8.88,
+   "ret1d": -1.98,
+   "high52": 95.03,
+   "dollarVolM": 306.1,
+   "marketCap": "23.26B",
+   "name": "테넷 헬스케어"
+  },
+  {
+   "ticker": "ADUS",
+   "rs1": 0.24431111486796192,
+   "rs3": 0.1790973274198942,
+   "rs6": 0.4791540715103746,
+   "rnk1": 24.84,
+   "rnk3": 24.12,
+   "rnk6": 11.68,
+   "ret1d": -0.88,
+   "high52": 96.37,
+   "dollarVolM": 33.3,
+   "marketCap": "2.39B",
+   "name": "아듀스 홈케어"
+  },
+  {
+   "ticker": "AGL",
+   "rs1": 0.4773681427443017,
+   "rs3": 0.4239019612522981,
+   "rs6": 0.47735376071502406,
+   "rnk1": 0.59,
+   "rnk3": 1.58,
+   "rnk6": 11.77,
+   "ret1d": 18.23,
+   "high52": 85.52,
+   "dollarVolM": 66.6,
+   "marketCap": "1.62B",
+   "name": "애질론 헬스"
+  },
+  {
+   "ticker": "EHC",
+   "rs1": 0.28732196324794934,
+   "rs3": 0.2366815425459045,
+   "rs6": 0.4125634936923122,
+   "rnk1": 13.66,
+   "rnk3": 12.4,
+   "rnk6": 15.92,
+   "ret1d": 0.17,
+   "high52": 98.55,
+   "dollarVolM": 220.5,
+   "marketCap": "13.86B",
+   "name": "인컴퍼스 헬스"
+  },
+  {
+   "ticker": "CHE",
+   "rs1": 0.20576343554125476,
+   "rs3": 0.0928795179503467,
+   "rs6": 0.3170135639835652,
+   "rnk1": 35.75,
+   "rnk3": 43.33,
+   "rnk6": 24.21,
+   "ret1d": -2.71,
+   "high52": 94.94,
+   "dollarVolM": 73.3,
+   "marketCap": "7.11B",
+   "name": "케미드"
+  },
+  {
+   "ticker": "HCA",
+   "rs1": 0.27485276511001855,
+   "rs3": 0.33129209589815695,
+   "rs6": 0.289668560211097,
+   "rnk1": 17,
+   "rnk3": 3.74,
+   "rnk6": 26.65,
+   "ret1d": -0.63,
+   "high52": 91.68,
+   "dollarVolM": 840.1,
+   "marketCap": "106.68B",
+   "name": "HCA 헬스케어"
+  },
+  {
+   "ticker": "UHS",
+   "rs1": 0.26462415341033313,
+   "rs3": 0.2579164695445917,
+   "rs6": 0.2659393669617402,
+   "rnk1": 19.52,
+   "rnk3": 10.23,
+   "rnk6": 30.7,
+   "ret1d": 1.08,
+   "high52": 80.97,
+   "dollarVolM": 261.3,
+   "marketCap": "11.58B",
+   "name": "유니버설 헬스 서비시스"
+  },
+  {
+   "ticker": "NHC",
+   "rs1": 0.05653281858232968,
+   "rs3": 0.04453495165884362,
+   "rs6": 0.16418923921966566,
+   "rnk1": 70.83,
+   "rnk3": 55.95,
+   "rnk6": 48.92,
+   "ret1d": -2.25,
+   "high52": 83.65,
+   "dollarVolM": 25.1,
+   "marketCap": "3.33B",
+   "name": "내셔널 헬스 케어"
+  },
+  {
+   "ticker": "ENSG",
+   "rs1": 0.19803444564367628,
+   "rs3": 0.10959414218577676,
+   "rs6": 0.1126999023941731,
+   "rnk1": 38.01,
+   "rnk3": 40.26,
+   "rnk6": 57.3,
+   "ret1d": -3.14,
+   "high52": 83.76,
+   "dollarVolM": 72.5,
+   "marketCap": "10.99B",
+   "name": "엔사인 그룹"
+  },
+  {
+   "ticker": "DVA",
+   "rs1": 0.23502750544394752,
+   "rs3": 0.1783708781074949,
+   "rs6": 0.06069925628486396,
+   "rnk1": 26.83,
+   "rnk3": 24.39,
+   "rnk6": 66.05,
+   "ret1d": 1.12,
+   "high52": 78.72,
+   "dollarVolM": 123.4,
+   "marketCap": "12.12B",
+   "name": "다비타"
+  }
+ ],
+ "evidence": {
+  "USPH": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "US Physical Therapy (USPH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About U.S. Physical Therapy (USPH) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-us-physical-therapy-usph-q3-earnings",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "USPH (USPH) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/usph-usph-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Lags Q2 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-lags-q2-earnings-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "NUTX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Nutex Health Inc. (NUTX) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/nutex-health-inc-nutx-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What Could Help Nutex Health (NUTX) Maintain Its Recent Price Strength",
+     "url": "https://www.nasdaq.com/articles/heres-what-could-help-nutex-health-nutx-maintain-its-recent-price-strength",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Makes Nutex Health (NUTX) a Good Fit for 'Trend Investing'",
+     "url": "https://www.nasdaq.com/articles/what-makes-nutex-health-nutx-good-fit-trend-investing",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "THC": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves premarket: Intel, Oracle, American Express",
+     "url": "https://www.cnbc.com/2026/07/24/stocks-making-the-biggest-moves-premarket-intc-orcl-axp.html",
+     "date": "2026-07-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Tenet Healthcare Corporation (THC) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/tenet-healthcare-corporation-thc-trending-stock-facts-know-betting-it",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "THC Q3 Earnings Call Highlights Higher Outlook and Margin Gains",
+     "url": "https://www.nasdaq.com/articles/thc-q3-earnings-call-highlights-higher-outlook-and-margin-gains",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tenet (THC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/tenet-thc-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Tenet (THC) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/tenet-thc-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tenet Healthcare (THC) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ADUS": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Addus HomeCare (ADUS) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/addus-homecare-adus-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Addus HomeCare (ADUS) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/addus-homecare-adus-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Addus HomeCare (ADUS) Surpasses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/addus-homecare-adus-surpasses-q3-earnings-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Addus HomeCare (ADUS) Just Flashed Golden Cross Signal: Do You Buy?",
+     "url": "https://www.nasdaq.com/articles/addus-homecare-adus-just-flashed-golden-cross-signal-do-you-buy",
+     "date": "2026-08-12",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "AGL": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "agilon health (AGL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/agilon-health-agl-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Agilon (AGL) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-agilon-agl-q3-earnings-look-key-metrics",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Agilon Health (AGL) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/agilon-health-agl-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Medical Stocks Lagging  Agilon Health (AGL) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-agilon-health-agl-year",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Agilon Health (AGL) Stock Outpacing Its Medical Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/agilon-health-agl-stock-outpacing-its-medical-peers-year",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "EHC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Encompass Health (EHC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/encompass-health-ehc-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Encompass Health (EHC) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/encompass-health-ehc-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CHE": {
+   "cnbc": [
+    {
+     "title": "This hospice services stock is outperforming the S&P 500. Jefferies sees more gains ahead",
+     "url": "https://www.cnbc.com/2026/10/28/chemed-jefferies-upgrade-buy-price-target.html",
+     "date": "2026-10-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "What Chemed (CHE) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-chemed-che-said-its-q3-earnings-call",
+     "date": "2026-10-29",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Chemed (CHE) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/chemed-che-q3-2026-earnings-call-transcript",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Chemed (CHE) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/chemed-che-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "HCA": {
+   "cnbc": [
+    {
+     "title": "Wednesday's biggest analyst calls: SpaceX, Apple, Micron, Microsoft, CoreWeave",
+     "url": "https://www.cnbc.com/2026/09/23/wednesday-biggest-analyst-calls-on-wall-street.html",
+     "date": "2026-09-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "A healthcare provider is set up for a big move higher, according to the charts",
+     "url": "https://www.cnbc.com/2026/09/16/a-healthcare-provider-is-set-up-for-a-big-move-higher-according-to-the-charts.html",
+     "date": "2026-09-16",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer's lightning round: 'Fortinet is good",
+     "url": "https://www.cnbc.com/2026/08/05/cramers-lightning-round-fortinet-is-good.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Friday's big stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/07/23/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-07-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks stumble as oil surges, and Lilly takes a new path on next-gen obesity drug",
+     "url": "https://www.cnbc.com/investingclub/2026/07/23/wall-street-stumbles-as-oil-surges-and-lilly-takes-a-new-path-on-next-gen-obesity-drug.html",
+     "date": "2026-07-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cybersecurity stocks surge thanks to IBM, and Nvidia climbs on more good China news",
+     "url": "https://www.cnbc.com/investingclub/2026/07/14/cybersecurity-stocks-surge-thanks-to-ibm-and-nvidia-climbs-on-more-good-china-news.html",
+     "date": "2026-07-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "HCA Healthcare (HCA) Just Flashed Golden Cross Signal: Do You Buy?",
+     "url": "https://www.nasdaq.com/articles/hca-healthcare-hca-just-flashed-golden-cross-signal-do-you-buy",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What HCA Healthcare (HCA) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-hca-healthcare-hca-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "HCA (HCA) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hca-hca-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "HCA (HCA) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/hca-hca-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "UHS": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves after hours: Cadence Design, Rambus and more",
+     "url": "https://www.cnbc.com/2026/07/27/stocks-making-the-biggest-moves-after-hours-cdns-rmbs-well.html",
+     "date": "2026-07-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Talkspace CEO Dr. Jon Cohen on leveraging AI in mental health treatment",
+     "url": "https://www.cnbc.com/video/2026/08/21/talkspace-ceo-dr-jon-cohen-on-leveraging-ai-in-mental-health-treatment.html",
+     "date": "2026-08-21",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "UHS (UHS) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/uhs-uhs-q3-2026-earnings-call-transcript",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Universal Health Services (UHS) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-universal-health-services-uhs-q3-earnings-look-key-metrics",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Universal Health Services (UHS) Misses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/universal-health-services-uhs-misses-q3-earnings-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Universal Health Services (UHS) Shares Cross Below 200 DMA",
+     "url": "https://www.nasdaq.com/articles/universal-health-services-uhs-shares-cross-below-200-dma",
+     "date": "2026-10-27",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "NHC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "NHC Breaks Above 2% Yield Territory",
+     "url": "https://www.nasdaq.com/articles/nhc-breaks-above-2-yield-territory",
+     "date": "2025-11-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "NHC Crosses Above Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/nhc-crosses-above-key-moving-average-level",
+     "date": "2025-08-11",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "NHC Revenue Jumps 25%",
+     "url": "https://www.nasdaq.com/articles/nhc-revenue-jumps-25",
+     "date": "2025-08-08",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "ENSG": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Ensign Group (ENSG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ensign-group-ensg-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Ensign Group (ENSG) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-ensign-group-ensg-q3-earnings-look-key-metrics",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ensign Group (ENSG) Beats Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/ensign-group-ensg-beats-q3-earnings-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "DVA": {
+   "cnbc": [
+    {
+     "title": "Stocks making big moves after the bell: SpaceX, AMD, Pinterest, Arista Networks",
+     "url": "https://www.cnbc.com/2026/08/04/stocks-making-the-biggest-moves-after-the-bell-spcx-amd-pins-anet-wynn.html",
+     "date": "2026-08-04",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Investors Heavily Search DaVita Inc. (DVA): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-davita-inc-dva-here-what-you-need-know",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "DaVita (DVA) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/davita-dva-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What DaVita (DVA) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-davita-dva-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "DaVita HealthCare (DVA) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/davita-healthcare-dva-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "DaVita HealthCare (DVA) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/davita-healthcare-dva-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

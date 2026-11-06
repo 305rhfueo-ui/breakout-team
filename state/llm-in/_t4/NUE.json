@@ -1,0 +1,236 @@
+{
+ "ticker": "NUE",
+ "news": [
+  {
+   "title": "Bull of the Day: Nucor (NUE)",
+   "url": "https://www.nasdaq.com/articles/bull-day-nucor-nue",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Stocks Showing Impressive Relative Strength: LMT, ACN, NUE",
+   "url": "https://www.nasdaq.com/articles/3-stocks-showing-impressive-relative-strength-lmt-acn-nue",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Nucor (NUE) Stock Outpacing Its Basic Materials Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/nucor-nue-stock-outpacing-its-basic-materials-peers-year",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can NUE's Strong Balance Sheet Power Bigger Shareholder Returns Ahead?",
+   "url": "https://www.nasdaq.com/articles/can-nues-strong-balance-sheet-power-bigger-shareholder-returns-ahead",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Nucor (NUE) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-nucor-nue-strong-momentum-stock",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Nucor (NUE) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-nucor-nue-said-its-q3-earnings-call",
+   "date": "2026-10-27",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Nucor (NUE) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/nucor-nue-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Bull of the Day: Nucor (NUE)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-nucor-nue-103000288.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zacks Investment Ideas feature highlights: Lockheed Martin, Accenture and Nucor",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-071900093.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nucor Insider Sold Shares Worth $2,903,800, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nucor-insider-sold-shares-worth-194929295.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nucor: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nucor-3-key-takeaways-long-162213998.html",
+   "date": "2026-11-04",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 Stocks Showing Impressive Relative Strength: LMT, ACN, NUE",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-showing-impressive-relative-153000357.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Nucor (NUE) Stock Outpacing Its Basic Materials Peers This Year?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nucor-nue-stock-outpacing-basic-134002412.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nucor (NUE) Could Be 5% Undervalued After Strong Earnings And Steady Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nucor-nue-could-5-undervalued-201314607.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Nucor (NUE) Stock May Be 34% Undervalued Despite Strong Q3 Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nucor-nue-stock-may-34-171445805.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526432117/d129328d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526318190/d468854d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526230790/d45402d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526182332/d150975d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-03",
+   "reportDate": "2026-02-27",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526086912/d94870d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-19",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526060448/d116401d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 27.8,
+  "saleNy": 3.15,
+  "epsCy": 158.03,
+  "epsNy": 8.36,
+  "cyTrend": 3.44,
+  "nyTrend": 7.75,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    22.95,
+    21.28,
+    8.63
+   ],
+   "ni": [
+    92,
+    374.36,
+    31.93
+   ],
+   "opm": [
+    15.67,
+    11.83,
+    6.87
+   ],
+   "updated": "2026-09-07 07:56:24"
+  }
+ }
+}

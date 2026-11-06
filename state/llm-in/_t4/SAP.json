@@ -1,0 +1,115 @@
+{
+ "ticker": "SAP",
+ "news": [
+  {
+   "title": "SAP: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/sap-3-key-takeaways-long-term-investors",
+   "date": "2026-10-24",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SAP (SAP) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/sap-sap-q3-2026-earnings-call-transcript",
+   "date": "2026-10-22",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What SAP (SAP) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-sap-sap-said-its-q3-earnings-call",
+   "date": "2026-10-22",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management",
+   "url": "https://www.nasdaq.com/articles/sap-acquire-techwolf-strengthen-ai-powered-workforce-management",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IBM, SAP Launch Solution To Support Business Modernization, AI-readiness",
+   "url": "https://www.nasdaq.com/articles/ibm-sap-launch-solution-support-business-modernization-ai-readiness",
+   "date": "2026-10-07",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "How Will SAP's AI Platform Support Cloud Revenue Growth?",
+   "url": "https://www.nasdaq.com/articles/how-will-saps-ai-platform-support-cloud-revenue-growth",
+   "date": "2026-09-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AceUp Elevates Leadership Development Amid AI Transformation for NTT DATA Business Solutions with Ally 3.0",
+   "url": "https://finance.yahoo.com/technology/ai/articles/aceup-elevates-leadership-development-amid-130000395.html",
+   "date": "2026-11-05",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NTT DATA earns recognition from SAP as client-adopted AI agents create real business impact",
+   "url": "https://finance.yahoo.com/technology/ai/articles/ntt-data-earns-recognition-sap-113000843.html",
+   "date": "2026-11-05",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "SAP Stocks Rise 4.1% as Sovereign AI Launch Faces Its First Commercial Test",
+   "url": "https://finance.yahoo.com/technology/ai/articles/sap-stocks-rise-4-1-185945004.html",
+   "date": "2026-11-04",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Reply Included in The SAP Services Landscape, Q3 2026",
+   "url": "https://finance.yahoo.com/technology/articles/reply-included-sap-services-landscape-150000424.html",
+   "date": "2026-11-04",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "SAP Stocks Decline as Sovereign AI Faces a Margin Test",
+   "url": "https://finance.yahoo.com/technology/ai/articles/sap-stocks-decline-sovereign-ai-181856399.html",
+   "date": "2026-11-03",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "SAP (XTRA:SAP) Gains Ground In European E Invoicing Compliance",
+   "url": "https://finance.yahoo.com/technology/articles/sap-xtra-sap-gains-ground-091519101.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.86,
+  "saleNy": 11.94,
+  "epsCy": 9.8,
+  "epsNy": 18.28,
+  "cyTrend": -2.19,
+  "nyTrend": -1.59,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.08,
+    17.78,
+    12.7
+   ],
+   "ni": [
+    31.57,
+    20.58,
+    14.2
+   ],
+   "opm": [
+    26.77,
+    28.68,
+    24.16
+   ],
+   "updated": "2026-09-08 09:24:35"
+  }
+ }
+}

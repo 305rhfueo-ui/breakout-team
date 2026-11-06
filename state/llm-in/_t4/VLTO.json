@@ -1,0 +1,233 @@
+{
+ "ticker": "VLTO",
+ "news": [
+  {
+   "title": "What Veralto (VLTO) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-veralto-vlto-said-its-q3-earnings-call",
+   "date": "2026-10-31",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Veralto (VLTO) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/veralto-vlto-q3-2026-earnings-call-transcript",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Veralto (VLTO) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/veralto-vlto-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Veralto (VLTO) is Poised to Beat Earnings Estimates Again",
+   "url": "https://www.nasdaq.com/articles/why-veralto-vlto-poised-beat-earnings-estimates-again",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Veralto (VLTO) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/veralto-vlto-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-10-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Veralto (VLTO) Upgraded to Buy: What Does It Mean for the Stock?",
+   "url": "https://www.nasdaq.com/articles/veralto-vlto-upgraded-buy-what-does-it-mean-stock",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Veralto Insider Sold Shares Worth $1,054,679, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/veralto-insider-sold-shares-worth-224406605.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stifel Nicolaus Adjusts Veralto Price Target to $132 From $113",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-nicolaus-adjusts-veralto-price-152905794.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BMO Capital Adjusts Price Target on Veralto to $130 From $123",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-capital-adjusts-price-target-133650216.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RBC Raises Price Target on Veralto to $121 From $109, Keeps Sector Perform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-veralto-131757489.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Veralto (VLTO) Jumps After Earnings, Is The Upside Already Priced In?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/veralto-vlto-jumps-earnings-upside-101328204.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Does Veralto (VLTO) Still Look Undervalued After Raised Guidance?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-veralto-vlto-still-look-041934560.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Earnings Beat Might Change The Case For Veralto (VLTO) Stock",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-might-change-case-031947769.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Veralto (VLTO) Stock Jumps After Q3 Earnings Lift Growth Outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/veralto-vlto-stock-jumps-q3-010831479.html",
+   "date": "2026-11-01",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "VLTO Q3 deep dive: water analytics growth and cost optimization drive strong results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vlto-q3-deep-dive-water-205100747.html",
+   "date": "2026-10-31",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000047/vlto-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000043/vlto-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-27",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000034/vlto-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000028/vlto-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000023/vlto-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-02-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000003/vlto-20260203.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.96,
+  "saleNy": 5.25,
+  "epsCy": 15.61,
+  "epsNy": 8.18,
+  "cyTrend": 2.41,
+  "nyTrend": 1.91,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.51,
+    6.76,
+    3.79
+   ],
+   "ni": [
+    8.56,
+    12.89,
+    11.89
+   ],
+   "opm": [
+    21.37,
+    23.77,
+    22.64
+   ],
+   "updated": "2026-09-08 07:08:18"
+  }
+ }
+}

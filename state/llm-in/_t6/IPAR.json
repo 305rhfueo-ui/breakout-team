@@ -1,0 +1,641 @@
+{
+ "ticker": "IPAR",
+ "date": "2026-11-06",
+ "session": "2026-11-05",
+ "source": "list",
+ "plan": {
+  "ticker": "IPAR",
+  "name": "인터파퓸스",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
+  "price": 135.28,
+  "grade": "B",
+  "state": "post",
+  "pivot": 119.75,
+  "stop": 117,
+  "distToPivotPct": 12.97,
+  "distToPivotAdr": 4.47,
+  "riskPerSharePct": 2.29,
+  "adrPct": 2.9,
+  "extensionAdr": 4.21,
+  "breakDate": "2026-11-02",
+  "metrics": {
+   "baseBars": 28,
+   "baseWeeks": 5.6,
+   "depthPct": 8.3,
+   "priorMovePct": 15,
+   "higherLows": 1,
+   "contraction": 0.97,
+   "closeRange10Adr": 1.2,
+   "surf10": 0.43,
+   "surf20": 0.77,
+   "slope20": 0.3,
+   "baseLow": 109.84,
+   "lastSwingLow": 112.65
+  },
+  "reasons": [
+   "✗ 선행 상승 +15%",
+   "베이스 5.6주",
+   "깊이 8.3%",
+   "저점 상승 1회",
+   "진폭 0.97배 · 10일 종가폭 1.2 ADR",
+   "10일선 +0.4 ADR · 20일선 +0.8 ADR",
+   "20일선 기울기 +0.3%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.34666031874695397,
+    "pct": 95.62669071235347
+   },
+   "m3": {
+    "v": 0.2588849039664435,
+    "pct": 90.03606853020739
+   },
+   "m6": {
+    "v": 0.6792523591973137,
+    "pct": 95.4463480613165
+   }
+  },
+  "ret1m": 21.22,
+  "ret3m": 15.39,
+  "ret6m": 59.39,
+  "marketCap": "3.96B",
+  "volx": 3.58,
+  "volSurgeWk": 3.12,
+  "high52": 99.62,
+  "newHigh52": false,
+  "adr": 2.9,
+  "div50": 17.74,
+  "div200": 29.98,
+  "targetStatus": false,
+  "saleCy": 0.02,
+  "saleNy": 7.19,
+  "epsCy": -6.72,
+  "epsNy": 6.42,
+  "cyTrend": -0.04,
+  "nyTrend": -0.04,
+  "est": {
+   "cyCur": 4.888,
+   "cy30": 4.89,
+   "nyCur": 5.202,
+   "ny30": 5.204
+  },
+  "fs": {
+   "sale": [
+    2.13,
+    1.79,
+    6.82
+   ],
+   "ni": [
+    -4.69,
+    2.06,
+    15.97
+   ],
+   "opm": [
+    14.35,
+    21.5,
+    7.12
+   ],
+   "updated": "2026-09-08 08:48:53"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "인터파퓸스",
+  "nameEn": "INTERPARFUMS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000822663&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 429508000,
+     "profit": 117874000,
+     "netIncome": 68203000,
+     "margin": 27.4,
+     "yoy": {
+      "revenue": 0,
+      "profit": 8.6,
+      "netIncome": 3.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 341037000,
+     "profit": 48941000,
+     "netIncome": 30487000,
+     "margin": 14.4,
+     "yoy": {
+      "revenue": 2.1,
+      "profit": -17.3,
+      "netIncome": -4.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 344885000,
+     "profit": 74134000,
+     "netIncome": 43366000,
+     "margin": 21.5,
+     "yoy": {
+      "revenue": 1.8,
+      "profit": -1.3,
+      "netIncome": 2.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 386175000,
+     "profit": 27508000,
+     "netIncome": 67711000,
+     "margin": 7.1,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": -23.6,
+      "netIncome": 7.7,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Interparfums (IPAR) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/interparfums-ipar-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Interparfums (IPAR) Upgraded to Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/interparfums-ipar-upgraded-buy-heres-why",
+     "date": "2026-08-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Interparfums (IPAR) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/interparfums-ipar-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Interparfums Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/interparfums-q2-earnings-call-highlights",
+     "date": "2026-08-05",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ipar-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001970/ipar-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001849/ipar-20260922.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001830/ipar-20260917.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001798/ipar-20260915.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001319/ipar-20260804.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "IPAR",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 25.87,
+  "pbr": 4.98,
+  "eps": 5.23,
+  "bps": 27.18,
+  "shares": 32025800,
+  "marketCapM": 4332,
+  "high52": 135.79,
+  "high52Date": "2026-11-05",
+  "low52": 74.6749,
+  "low52Date": "2025-11-19",
+  "last": 135.28,
+  "prevClose": 123.57,
+  "nameKo": "인터파퓸스",
+  "nameEn": "INTERPARFUMS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 32025800
+ },
+ "estimates": {
+  "ticker": "IPAR",
+  "url": "https://finance.yahoo.com/quote/IPAR/analysis/",
+  "fetchedAt": "2026-11-06",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.67,
+    "epsLow": 0.66,
+    "epsHigh": 0.67,
+    "epsYearAgo": 0.88,
+    "epsAnalysts": 3,
+    "epsGrowth": -24.2,
+    "epsCur": "USD",
+    "rev": 370700000,
+    "revAnalysts": 1,
+    "revYearAgo": 386000000,
+    "revGrowth": -4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.38,
+    "epsLow": 1.38,
+    "epsHigh": 1.38,
+    "epsYearAgo": 1.35,
+    "epsAnalysts": 1,
+    "epsGrowth": 2.2,
+    "epsCur": "USD",
+    "rev": 357714500,
+    "revAnalysts": 2,
+    "revYearAgo": 345000000,
+    "revGrowth": 3.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 4.89,
+    "epsLow": 4.85,
+    "epsHigh": 4.99,
+    "epsYearAgo": 5.24,
+    "epsAnalysts": 5,
+    "epsGrowth": -6.7,
+    "epsCur": "USD",
+    "rev": 1489355670,
+    "revAnalysts": 6,
+    "revYearAgo": 1489000000,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 5.2,
+    "epsLow": 4.97,
+    "epsHigh": 5.48,
+    "epsYearAgo": 4.89,
+    "epsAnalysts": 5,
+    "epsGrowth": 6.4,
+    "epsCur": "USD",
+    "rev": 1596385500,
+    "revAnalysts": 6,
+    "revYearAgo": 1489355670,
+    "revGrowth": 7.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.67,
+    "d7": 0,
+    "d30": 0,
+    "d90": -13.6,
+    "ago90": 0.77,
+    "up7": 1,
+    "up30": 1,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.38,
+    "d7": -13.2,
+    "d30": -13.2,
+    "d90": -13.2,
+    "ago90": 1.59,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.89,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0.6,
+    "ago90": 4.86,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 5.2,
+    "d7": 0,
+    "d30": 0,
+    "d90": -6.8,
+    "ago90": 5.58,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2,
+    "estimate": 1.89,
+    "surprisePct": 5.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.95,
+    "estimate": 0.97,
+    "surprisePct": -2.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.35,
+    "estimate": 1.18,
+    "surprisePct": 14.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.88,
+    "estimate": 0.78,
+    "surprisePct": 12.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 2,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 0,
+   "total": 3,
+   "recent": [
+    {
+     "date": "2026-08-17",
+     "firm": "BWS Financial",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Maintains",
+     "pt": 85,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-08-10",
+     "firm": "TD Cowen",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-08-10",
+     "firm": "Goldman Sachs",
+     "action": "down",
+     "from": "Buy",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 129,
+     "ptPrior": 110
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-05",
+  "numbers": {
+   "price": 135.28,
+   "ma20": 116.57,
+   "ma50": 115.09,
+   "ma150": 108.17,
+   "distMA50": 17.54,
+   "periodHigh": 148.15,
+   "pullbackFromHigh": -8.69,
+   "volRatio20": 3.14,
+   "dryUpRatio": 1.46
+  },
+  "last10": [
+   {
+    "d": "2026-10-23",
+    "o": 115.89,
+    "h": 115.94,
+    "l": 114.09,
+    "c": 115.22,
+    "v": 155700,
+    "clsPos": 61,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-10-26",
+    "o": 115.11,
+    "h": 116.34,
+    "l": 114.63,
+    "c": 115.36,
+    "v": 158700,
+    "clsPos": 43,
+    "gapPct": -0.1
+   },
+   {
+    "d": "2026-10-27",
+    "o": 115.18,
+    "h": 115.37,
+    "l": 113.5,
+    "c": 115.19,
+    "v": 158400,
+    "clsPos": 90,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-10-28",
+    "o": 114.32,
+    "h": 115.03,
+    "l": 113.2,
+    "c": 114.24,
+    "v": 190000,
+    "clsPos": 57,
+    "gapPct": -0.76
+   },
+   {
+    "d": "2026-10-29",
+    "o": 115.2,
+    "h": 115.91,
+    "l": 114.05,
+    "c": 115.5,
+    "v": 211700,
+    "clsPos": 78,
+    "gapPct": 0.84
+   },
+   {
+    "d": "2026-10-30",
+    "o": 117.47,
+    "h": 118.6,
+    "l": 115.73,
+    "c": 116.37,
+    "v": 271900,
+    "clsPos": 22,
+    "gapPct": 1.71
+   },
+   {
+    "d": "2026-11-02",
+    "o": 118.23,
+    "h": 121.56,
+    "l": 118.23,
+    "c": 119.86,
+    "v": 203500,
+    "clsPos": 49,
+    "gapPct": 1.6
+   },
+   {
+    "d": "2026-11-03",
+    "o": 120.33,
+    "h": 120.66,
+    "l": 116.51,
+    "c": 117.09,
+    "v": 275600,
+    "clsPos": 14,
+    "gapPct": 0.39
+   },
+   {
+    "d": "2026-11-04",
+    "o": 120.18,
+    "h": 126.51,
+    "l": 119.47,
+    "c": 123.57,
+    "v": 235400,
+    "clsPos": 58,
+    "gapPct": 2.64
+   },
+   {
+    "d": "2026-11-05",
+    "o": 125.96,
+    "h": 135.79,
+    "l": 125.96,
+    "c": 135.28,
+    "v": 747306,
+    "clsPos": 95,
+    "gapPct": 1.93
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IPAR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IPAR-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

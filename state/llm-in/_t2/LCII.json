@@ -42,13 +42,13 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 1,
+   "m1": 2,
    "m3": 0,
    "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-11-05",
+  "fetchedAt": "2026-11-06",
   "nameKo": "LCI 인더스트리스",
   "nameEn": "LCI INDUSTRIES",
   "financials": {
@@ -118,6 +118,36 @@
   "news": {
    "items": [
     {
+     "title": "LCI Industries (LCII) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/lci-industries-lcii-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "LCI Industries Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/lci-industries-reports-third-quarter-2026-financial-results",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "LCI (LCII) Q3 Earnings Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/lci-lcii-q3-earnings-surpass-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "LCI (LCII) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/lci-lcii-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "LCI Industries Profit Retreats In Q3",
+     "url": "https://www.nasdaq.com/articles/lci-industries-profit-retreats-q3",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
      "title": "LCI Industries Confirms Receipt of Unsolicited, Non-Binding Proposal from Monomoy Capital Partners to Acquire LCI for $101 Per Share in Cash",
      "url": "https://www.nasdaq.com/articles/lci-industries-confirms-receipt-unsolicited-non-binding-proposal-monomoy-capital-partners",
      "date": "2026-10-28",
@@ -134,36 +164,6 @@
      "url": "https://www.nasdaq.com/articles/lci-industries-oversold",
      "date": "2026-09-11",
      "publisher": "BNK Invest"
-    },
-    {
-     "title": "LCII Ex-Dividend Reminder - 8/21/26",
-     "url": "https://www.nasdaq.com/articles/lcii-ex-dividend-reminder-8-21-26",
-     "date": "2026-08-19",
-     "publisher": "BNK Invest"
-    },
-    {
-     "title": "LCI Industries (LCII) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/lci-industries-lcii-q2-2026-earnings-call-transcript",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "LCI Industries Q2 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/lci-industries-q2-earnings-call-highlights",
-     "date": "2026-08-08",
-     "publisher": "MarketBeat"
-    },
-    {
-     "title": "LCI (LCII) Reports Q2 Earnings: What Key Metrics Have to Say",
-     "url": "https://www.nasdaq.com/articles/lci-lcii-reports-q2-earnings-what-key-metrics-have-say",
-     "date": "2026-08-05",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "LCI (LCII) Q2 Earnings Top Estimates",
-     "url": "https://www.nasdaq.com/articles/lci-lcii-q2-earnings-top-estimates",
-     "date": "2026-08-05",
-     "publisher": "Zacks"
     }
    ]
   },

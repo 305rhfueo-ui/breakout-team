@@ -1,0 +1,289 @@
+{
+ "ticker": "VRSK",
+ "sector": "Industrials",
+ "industry": "Consulting Services",
+ "nameKo": "베리스크 애널리틱스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.76,
+  "saleNy": 6.75,
+  "epsCy": 7.64,
+  "epsNy": 12.84,
+  "est": {
+   "cyCur": 7.70677,
+   "cy30": 7.70718,
+   "nyCur": 8.69637,
+   "ny30": 8.69836
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.36,
+    3.93,
+    5.87
+   ],
+   "ni": [
+    -9.75,
+    0.82,
+    -6.27
+   ],
+   "opm": [
+    45.11,
+    45,
+    40.27
+   ],
+   "updated": "2026-09-21 06:46:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "베리스크 애널리틱스",
+  "nameEn": "VERISK ANALYTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 809000000,
+     "profit": 365300000,
+     "netIncome": 219200000,
+     "margin": 45.2,
+     "yoy": {
+      "revenue": 5.3,
+      "profit": 5.6,
+      "netIncome": -2.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 806300000,
+     "profit": 363700000,
+     "netIncome": 228600000,
+     "margin": 45.1,
+     "yoy": {
+      "revenue": 4.4,
+      "profit": 2.7,
+      "netIncome": -9.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 782600000,
+     "profit": 352200000,
+     "netIncome": 234200000,
+     "margin": 45,
+     "yoy": {
+      "revenue": 3.9,
+      "profit": 6.7,
+      "netIncome": 0.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 778800000,
+     "profit": 313600000,
+     "netIncome": 197200000,
+     "margin": 40.3,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": -0.9,
+      "netIncome": -6.3,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Verisk Analytics, Inc. Reports Third Quarter 2026 Revenue of $809 million",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-inc-reports-third-quarter-2026-revenue-809-million",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Verisk (VRSK) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/verisk-vrsk-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Verisk Analytics Q3 Earnings Beat Estimates, Revenues Jump 5% Y/Y",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-earnings-beat-estimates-revenues-jump-5-y-y",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Verisk Analytics (VRSK) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-vrsk-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Verisk Analytics Q3 Adj. EBITDA, Revenues Rise; Confirms FY26 Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-adj-ebitda-revenues-rise-confirms-fy26-outlook-update",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Verisk Analytics Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Verisk Analytics Inc. Q3 Sales Increase",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-inc-q3-sales-increase",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "VRSK is Set to Report Q3 Earnings: Here's What Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/vrsk-set-report-q3-earnings-heres-what-investors-should-know",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926035082/vrsk20260820_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000095010326016441/dp255815_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526385242/d133172d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-18",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526355652/d172499d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926024748/vrsk20260526_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526321243/d86289d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "AI fears have hit this data stock. Investor Sarat Sethi sees a buying opportunity",
+   "url": "https://www.cnbc.com/2026/09/11/sarat-sethi-buying-verisk-analytics.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: NetApp, MarineMax, Doximity & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Berkshire, Intel, GameStop, & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Why this insurance analytics stock could be more 'bulletproof' than investors realize",
+   "url": "https://www.cnbc.com/video/2026/09/11/why-this-insurance-analytics-stock-could-be-more-bulletproof-than-investors-realize.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VRSK",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 32.49,
+  "pbr": 0,
+  "eps": 6.51,
+  "bps": 0,
+  "shares": 130156000,
+  "marketCapM": 27524,
+  "high52": 225.4757,
+  "high52Date": "2026-07-29",
+  "low52": 155.1001,
+  "low52Date": "2026-05-14",
+  "last": 211.47,
+  "prevClose": 197.85,
+  "nameKo": "베리스크 애널리틱스",
+  "nameEn": "VERISK ANALYTICS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 130156000
+ }
+}

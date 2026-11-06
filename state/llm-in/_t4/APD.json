@@ -1,0 +1,221 @@
+{
+ "ticker": "APD",
+ "news": [
+  {
+   "title": "Air Products (APD) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/air-products-apd-q4-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Air Products and Chemicals (APD) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-q4-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Air Products and Chemicals (APD) Surpasses Q4 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-surpasses-q4-earnings-and-revenue-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Analyst Projections for Key Metrics Reveal About Air Products and Chemicals (APD) Q4 Earnings",
+   "url": "https://www.nasdaq.com/articles/what-analyst-projections-key-metrics-reveal-about-air-products-and-chemicals-apd-q4",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Air Products And Chemicals (APD) Could Be 8% Undervalued Following Annual Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-apd-could-211329088.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Air Products (APD) Q4 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-apd-q4-2026-201734433.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Air Products and Chemicals, Inc. Q4 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-inc-q4-180304675.html",
+   "date": "2026-11-05",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Mizuho Adjusts Price Target on Air Products and Chemicals to $360 From $355",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mizuho-adjusts-price-target-air-155053123.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Air Products and Chemicals (APD) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-apd-q4-133004342.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Air Products gains in premarket trading as FY27 earnings outlook tops estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-gains-premarket-trading-121125533.html",
+   "date": "2026-11-05",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Air Products and Chemicals Fiscal Q4 Adjusted Earnings, Sales Rise; Initiates Fiscal 2027 Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-fiscal-q4-111603073.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Air Products and Chemicals: Fiscal Q4 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-fiscal-q4-111442539.html",
+   "date": "2026-11-05",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Air Products and Chemicals (APD) Surpasses Q4 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-apd-surpasses-111001481.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000043/apd-20261105.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/apd-20260730.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "reportDate": "2026-06-26",
+   "items": [
+    "2.06",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.06",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312526289427/d97956d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000018/apd-20260430.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-30",
+   "reportDate": "2026-01-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000006/apd-20260130.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "reportDate": "2026-01-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312526029381/d884680d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.06,
+  "saleNy": 5.7,
+  "epsCy": 11.83,
+  "epsNy": 7.36,
+  "cyTrend": 0,
+  "nyTrend": 0.05,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.58,
+    8.76,
+    5.83
+   ],
+   "ni": [
+    -301.85,
+    "흑자전환",
+    9.85
+   ],
+   "opm": [
+    -66.34,
+    23.73,
+    23.67
+   ],
+   "updated": "2026-09-09 07:28:45"
+  }
+ }
+}

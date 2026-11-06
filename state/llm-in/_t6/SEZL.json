@@ -1,0 +1,656 @@
+{
+ "ticker": "SEZL",
+ "date": "2026-11-06",
+ "session": "2026-11-05",
+ "source": "list",
+ "plan": {
+  "ticker": "SEZL",
+  "name": "세즐",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
+  "price": 155,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 7.67,
+  "extensionAdr": 1.87,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.45677385728877373,
+    "pct": 99.23354373309287
+   },
+   "m3": {
+    "v": 0.34063293451036486,
+    "pct": 96.79891794409377
+   },
+   "m6": {
+    "v": 0.657020573478022,
+    "pct": 94.90532010820559
+   }
+  },
+  "ret1m": 32.23,
+  "ret3m": 23.57,
+  "ret6m": 57.17,
+  "marketCap": "4.62B",
+  "volx": 3.76,
+  "volSurgeWk": 2.51,
+  "high52": 79.2,
+  "newHigh52": false,
+  "adr": 7.67,
+  "div50": 27.15,
+  "div200": 40.94,
+  "targetStatus": false,
+  "saleCy": 35.24,
+  "saleNy": 24.34,
+  "epsCy": 46.52,
+  "epsNy": 26.39,
+  "cyTrend": 0,
+  "nyTrend": 0.02,
+  "est": {
+   "cyCur": 5.26,
+   "cy30": 5.26,
+   "nyCur": 6.64833,
+   "ny30": 6.64667
+  },
+  "fs": {
+   "sale": [
+    51.65,
+    29.19,
+    32.22
+   ],
+   "ni": [
+    47.68,
+    41.86,
+    68.29
+   ],
+   "opm": [
+    36.72,
+    50.93,
+    42.54
+   ],
+   "updated": "2026-09-08 06:25:14"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-05",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "세즐",
+  "nameEn": "SEZZLE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662991&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 84721000,
+     "profit": 54961000,
+     "netIncome": 40765000,
+     "margin": 64.9,
+     "yoy": {
+      "revenue": 62.9,
+      "profit": 52.3,
+      "netIncome": 47.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 73285000,
+     "profit": 69036000,
+     "netIncome": 51303000,
+     "margin": 94.2,
+     "yoy": {
+      "revenue": 52.1,
+      "profit": 38.4,
+      "netIncome": 41.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 69389000,
+     "profit": 55247000,
+     "netIncome": -90305870,
+     "margin": 79.6,
+     "yoy": {
+      "revenue": 43.3,
+      "profit": 79,
+      "netIncome": -70.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 57481000,
+     "profit": 35561000,
+     "netIncome": 26671000,
+     "margin": 61.9,
+     "yoy": {
+      "revenue": 61.7,
+      "profit": 70.6,
+      "netIncome": 72.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Sezzle (SEZL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/sezzle-sezl-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Sezzle Q3 Earnings Call Highlights Higher Outlook and New Products",
+     "url": "https://www.nasdaq.com/articles/sezzle-q3-earnings-call-highlights-higher-outlook-and-new-products",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Sezzle Inc. Reports Third Quarter 2026 Total Revenue of $166.5 million",
+     "url": "https://www.nasdaq.com/articles/sezzle-inc-reports-third-quarter-2026-total-revenue-1665-million",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Sezzle Inc. (SEZL) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/sezzle-inc-sezl-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Sezzle Profit Jumps 79% as Credit Costs Ease: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/sezzle-profit-jumps-79-credit-costs-ease-rapid-earnings-reaction",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Sezzle Set to Report Q3 Earnings: What's in Store for the Stock?",
+     "url": "https://www.nasdaq.com/articles/sezzle-set-report-q3-earnings-whats-store-stock",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Sezzle Inc. (SEZL) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/sezzle-inc-sezl-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000169/sezl-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-08",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000165/sezl-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-28",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000148/sezl-20260828.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-18",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000144/sezl-20260812.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000132/sezl-20260812.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000124/sezl-20260806.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "SEZL",
+  "fetchedAt": "2026-11-05",
+  "source": "한국투자증권 Open API",
+  "per": 29.72,
+  "pbr": 19.75,
+  "eps": 4.6,
+  "bps": 6.92,
+  "shares": 33783400,
+  "marketCapM": 4618,
+  "high52": 195.71,
+  "high52Date": "2026-07-16",
+  "low52": 49.5,
+  "low52Date": "2025-11-18",
+  "last": 136.69,
+  "prevClose": 122.43,
+  "nameKo": "세즐",
+  "nameEn": "SEZZLE INC",
+  "listedOn": "2023-08-17",
+  "exchange": "나스닥",
+  "listedShares": 33783400
+ },
+ "estimates": {
+  "ticker": "SEZL",
+  "url": "https://finance.yahoo.com/quote/SEZL/analysis/",
+  "fetchedAt": "2026-11-05",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 1.29,
+    "epsLow": 1.21,
+    "epsHigh": 1.37,
+    "epsYearAgo": 0.71,
+    "epsAnalysts": 6,
+    "epsGrowth": 81.5,
+    "epsCur": "USD",
+    "rev": 154959000,
+    "revAnalysts": 7,
+    "revYearAgo": 116796000,
+    "revGrowth": 32.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.42,
+    "epsLow": 1.33,
+    "epsHigh": 1.53,
+    "epsYearAgo": 1.21,
+    "epsAnalysts": 6,
+    "epsGrowth": 17.4,
+    "epsCur": "USD",
+    "rev": 169309330,
+    "revAnalysts": 6,
+    "revYearAgo": 129869000,
+    "revGrowth": 30.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.26,
+    "epsLow": 5.21,
+    "epsHigh": 5.33,
+    "epsYearAgo": 3.59,
+    "epsAnalysts": 6,
+    "epsGrowth": 46.5,
+    "epsCur": "USD",
+    "rev": 608939710,
+    "revAnalysts": 7,
+    "revYearAgo": 450279000,
+    "revGrowth": 35.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 6.65,
+    "epsLow": 6.38,
+    "epsHigh": 7.24,
+    "epsYearAgo": 5.26,
+    "epsAnalysts": 6,
+    "epsGrowth": 26.4,
+    "epsCur": "USD",
+    "rev": 757161710,
+    "revAnalysts": 7,
+    "revYearAgo": 608939710,
+    "revGrowth": 24.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 1.29,
+    "d7": 0,
+    "d30": 0.9,
+    "d90": 4.1,
+    "ago90": 1.24,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.42,
+    "d7": 0,
+    "d30": 0,
+    "d90": -1.4,
+    "ago90": 1.44,
+    "up7": 1,
+    "up30": 1,
+    "down7": 4,
+    "down30": 4
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.26,
+    "d7": 0,
+    "d30": 0,
+    "d90": 2.7,
+    "ago90": 5.12,
+    "up7": 6,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 6.65,
+    "d7": 0,
+    "d30": 0,
+    "d90": 1.6,
+    "ago90": 6.54,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.13,
+    "estimate": 1.01,
+    "surprisePct": 11.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.43,
+    "estimate": 1.24,
+    "surprisePct": 15.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.21,
+    "estimate": 0.96,
+    "surprisePct": 26,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.71,
+    "estimate": 0.65,
+    "surprisePct": 9.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 2,
+   "total": 5,
+   "recent": [
+    {
+     "date": "2026-10-06",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 160,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-08-20",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 172,
+     "ptPrior": 172
+    },
+    {
+     "date": "2026-08-10",
+     "firm": "TD Cowen",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 165,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Keefe, Bruyette & Woods",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Lowers",
+     "pt": 155,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 172,
+     "ptPrior": 166
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-05",
+  "numbers": {
+   "price": 155,
+   "ma20": 131.71,
+   "ma50": 121.91,
+   "ma150": 124.3,
+   "distMA50": 27.15,
+   "periodHigh": 195.71,
+   "pullbackFromHigh": -20.8,
+   "volRatio20": 3.27,
+   "dryUpRatio": 1.78
+  },
+  "last10": [
+   {
+    "d": "2026-10-23",
+    "o": 137.48,
+    "h": 141,
+    "l": 131.88,
+    "c": 132.12,
+    "v": 552200,
+    "clsPos": 3,
+    "gapPct": -1.31
+   },
+   {
+    "d": "2026-10-26",
+    "o": 132.33,
+    "h": 134.46,
+    "l": 122,
+    "c": 127.44,
+    "v": 493900,
+    "clsPos": 44,
+    "gapPct": 0.16
+   },
+   {
+    "d": "2026-10-27",
+    "o": 127.94,
+    "h": 131.46,
+    "l": 125.76,
+    "c": 127.36,
+    "v": 394100,
+    "clsPos": 28,
+    "gapPct": 0.39
+   },
+   {
+    "d": "2026-10-28",
+    "o": 126.9,
+    "h": 130.74,
+    "l": 124.77,
+    "c": 130.02,
+    "v": 307600,
+    "clsPos": 88,
+    "gapPct": -0.36
+   },
+   {
+    "d": "2026-10-29",
+    "o": 129.63,
+    "h": 136.79,
+    "l": 125.77,
+    "c": 133.86,
+    "v": 523400,
+    "clsPos": 73,
+    "gapPct": -0.3
+   },
+   {
+    "d": "2026-10-30",
+    "o": 131.85,
+    "h": 135.05,
+    "l": 126.94,
+    "c": 134.85,
+    "v": 633600,
+    "clsPos": 98,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-11-02",
+    "o": 135.64,
+    "h": 141.72,
+    "l": 127.25,
+    "c": 128.32,
+    "v": 758300,
+    "clsPos": 7,
+    "gapPct": 0.59
+   },
+   {
+    "d": "2026-11-03",
+    "o": 128.6,
+    "h": 130.01,
+    "l": 121.41,
+    "c": 122.43,
+    "v": 820300,
+    "clsPos": 12,
+    "gapPct": 0.22
+   },
+   {
+    "d": "2026-11-04",
+    "o": 124.5,
+    "h": 139.74,
+    "l": 124.5,
+    "c": 136.69,
+    "v": 1177600,
+    "clsPos": 80,
+    "gapPct": 1.69
+   },
+   {
+    "d": "2026-11-05",
+    "o": 172.76,
+    "h": 178.55,
+    "l": 152.12,
+    "c": 155,
+    "v": 1966664,
+    "clsPos": 11,
+    "gapPct": 26.39
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SEZL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SEZL-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

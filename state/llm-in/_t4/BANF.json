@@ -1,0 +1,183 @@
+{
+ "ticker": "BANF",
+ "news": [
+  {
+   "title": "BancFirst (BANF) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/bancfirst-banf-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BancFirst (BANF) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/bancfirst-banf-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BancFirst (BANF) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/bancfirst-banf-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BancFirst (BANF) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/bancfirst-banf-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-07-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About BancFirst (BANF) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-bancfirst-banf-rating-upgrade-buy",
+   "date": "2026-05-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is BancFirst (BANF) Stock Outpacing Its Finance Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/bancfirst-banf-stock-outpacing-its-finance-peers-year",
+   "date": "2026-05-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BancFirst (BANF) Surpasses Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/bancfirst-banf-surpasses-q1-earnings-and-revenue-estimates",
+   "date": "2026-04-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is BancFirst (BANF) Outperforming Other Finance Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/bancfirst-banf-outperforming-other-finance-stocks-year",
+   "date": "2026-04-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BancFirst (BANF) Stock Climbs As Q3 Earnings Face Valuation Doubts",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bancfirst-banf-stock-climbs-q3-101425702.html",
+   "date": "2026-10-23",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-23",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526429812/banf-20261023.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "reportDate": "2026-10-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526427999/banf-20261021.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-21",
+   "reportDate": "2026-09-21",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526396549/banf-20260921.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526314223/banf-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-10",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526266024/banf-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07",
+    "7.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526245174/banf-20260528.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.22,
+  "saleNy": 7,
+  "epsCy": 8.16,
+  "epsNy": 6.33,
+  "cyTrend": 0.26,
+  "nyTrend": 4.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.44,
+    4.41,
+    6.38
+   ],
+   "ni": [
+    6.96,
+    12.27,
+    5.35
+   ],
+   "opm": [
+    34.12,
+    33.14,
+    30.35
+   ],
+   "updated": "2026-09-08 06:34:38"
+  }
+ }
+}

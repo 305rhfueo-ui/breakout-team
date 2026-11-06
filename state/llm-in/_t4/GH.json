@@ -1,0 +1,213 @@
+{
+ "ticker": "GH",
+ "news": [
+  {
+   "title": "Guardant Health (GH) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/guardant-health-gh-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Countdown to Guardant Health (GH) Q3 Earnings: Wall Street Forecasts for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/countdown-guardant-health-gh-q3-earnings-wall-street-forecasts-key-metrics",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Guardant Health (GH) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release",
+   "url": "https://www.nasdaq.com/articles/guardant-health-gh-expected-beat-earnings-estimates-what-know-ahead-q3-release",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Guardant Health (GH) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-gh-said-q3-021430199.html",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Guardant Health (GH) Reports Q3 Loss, Tops Revenue Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-gh-reports-q3-000008709.html",
+   "date": "2026-11-06",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Guardant Health (GH) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/guardant-health-gh-q3-earnings-233002456.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Guardant Health falls 12% as cash burn guidance disappoints",
+   "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-falls-12-cash-231626240.html",
+   "date": "2026-11-05",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Guardant Health: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-q3-earnings-snapshot-223947530.html",
+   "date": "2026-11-05",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "It Was Already A Gory Day For Blood-Testing Stocks — Then, Natera And Guardant Reported",
+   "url": "https://finance.yahoo.com/m/08399e0f-5b0a-3f7c-be4c-fb25e7b6b8dc/it-was-already-a-gory-day-for.html",
+   "date": "2026-11-05",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Guardant Health Q3 Adjusted Loss Narrows, Revenue Rises; Shares Fall After Hours",
+   "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-q3-adjusted-loss-214741195.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TwinStrand announces patentability of Duplex Sequencing technology",
+   "url": "https://finance.yahoo.com/healthcare/articles/twinstrand-announces-patentability-duplex-sequencing-213406052.html",
+   "date": "2026-11-05",
+   "publisher": "TipRanks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Guardant Health’s (NASDAQ:GH) Q3 2026 sales beat estimates but stock drops 10.2%",
+   "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-nasdaq-gh-q3-213108707.html",
+   "date": "2026-11-05",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000043/gh-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-02",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000119312526445514/d173393d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-02",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000119312526444416/d457424d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000036/gh-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000119312526275864/d166199d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000024/gh-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 38.41,
+  "saleNy": 35.18,
+  "epsCy": -20.47,
+  "epsNy": -73.8,
+  "cyTrend": -1.64,
+  "nyTrend": -9.27,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    44.33,
+    48.26,
+    39.37
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -38.55,
+    -40.23,
+    -42.95
+   ],
+   "updated": "2026-09-07 07:28:02"
+  }
+ }
+}

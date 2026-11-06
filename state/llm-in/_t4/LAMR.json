@@ -1,0 +1,226 @@
+{
+ "ticker": "LAMR",
+ "news": [
+  {
+   "title": "Lamar Advertising (LAMR) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/lamar-advertising-lamr-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Lamar Advertising (LAMR) Beats Q3 FFO and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/lamar-advertising-lamr-beats-q3-ffo-and-revenue-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LAMR Ex-Dividend Reminder - 9/21/26",
+   "url": "https://www.nasdaq.com/articles/lamr-ex-dividend-reminder-9-21-26",
+   "date": "2026-09-18",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Lamar Advertising Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/media-advertising/articles/lamar-advertising-q3-earnings-call-221434617.html",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Lamar Advertising (LAMR) Fairly Valued Following Its Third Quarter 2026 Results?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lamar-advertising-lamr-fairly-valued-201158986.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lamar Advertising Company Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/media-advertising/articles/lamar-advertising-company-q3-2026-180055741.html",
+   "date": "2026-11-05",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lamar Advertising (LAMR) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lamar-advertising-lamr-q3-2026-170050987.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lamar Advertising (LAMR) Beats Q3 FFO and Revenue Estimates",
+   "url": "https://finance.yahoo.com/media-advertising/articles/lamar-advertising-lamr-beats-q3-113503670.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lamar Advertising Q3 AFFO, Revenue Rise; Raises 2026 AFFO Guidance",
+   "url": "https://finance.yahoo.com/media-advertising/articles/lamar-advertising-q3-affo-revenue-112524123.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lamar: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/real-estate/articles/lamar-q3-earnings-snapshot-112054855.html",
+   "date": "2026-11-05",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Lamar Advertising Company Announces Third Quarter Ended September 30, 2026 Operating Results",
+   "url": "https://finance.yahoo.com/media-advertising/articles/lamar-advertising-company-announces-third-110000573.html",
+   "date": "2026-11-05",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Lamar Advertising (LAMR) Undervalued on Its Cash Flow?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lamar-advertising-lamr-undervalued-cash-021713017.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Host Hotels (HST) Q3 FFO Top Estimates",
+   "url": "https://finance.yahoo.com/real-estate/articles/host-hotels-hst-q3-ffo-215006900.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042526000027/lamr-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-01",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526415546/d180378d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526378592/d81164d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1090425/000109042526000021/lamr-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526230735/d227765d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1090425/000119312526224221/d74412d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.81,
+  "saleNy": 3.83,
+  "epsCy": 19.41,
+  "epsNy": 3.69,
+  "cyTrend": -0.82,
+  "nyTrend": -0.63,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.46,
+    4.47,
+    2.82
+   ],
+   "ni": [
+    4.14,
+    -27.02,
+    "흑자전환"
+   ],
+   "opm": [
+    33.72,
+    27.66,
+    32.9
+   ],
+   "updated": "2026-09-08 06:26:53"
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "ticker": "DEO",
+ "news": [
+  {
+   "title": "All You Need to Know About Diageo (DEO) Rating Upgrade to Strong Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-diageo-deo-rating-upgrade-strong-buy",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Diageo (LSE:DGE) Flags Rising UK And Irish Competition In Core Stout Market",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/diageo-lse-dge-flags-rising-011742073.html",
+   "date": "2026-11-06",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Diageo (DEO) Said on Its Q1 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/diageo-deo-said-q1-earnings-141427617.html",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CROWN ROYAL AND FEEDING AMERICA RALLY COMMUNITIES TO FIGHT HUNGER THIS GIVING SEASON",
+   "url": "https://finance.yahoo.com/small-business/articles/crown-royal-feeding-america-rally-140600291.html",
+   "date": "2026-11-05",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Sector Update: Consumer",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-135551406.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Guinness boom threatened by rival stout makers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/guinness-boom-threatened-rival-stout-134924283.html",
+   "date": "2026-11-05",
+   "publisher": "The Telegraph",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Johnnie Walker Maker Diageo Warns U.S. Turnaround Will Take Time",
+   "url": "https://finance.yahoo.com/m/800c6dd4-5e49-3a28-910c-5b3255838aa7/johnnie-walker-maker-diageo.html",
+   "date": "2026-11-05",
+   "publisher": "The Wall Street Journal",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Diageo's Fiscal Q1 Sales Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/diageo-apos-fiscal-q1-sales-091024312.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Diageo beats estimates with first quarter revenue growth",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/diageo-beats-estimates-first-quarter-080211280.html",
+   "date": "2026-11-05",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -2.67,
+  "saleNy": 0.78,
+  "epsCy": 2.47,
+  "epsNy": 6.16,
+  "cyTrend": 0.45,
+  "nyTrend": -0.22,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:20:25"
+  }
+ }
+}

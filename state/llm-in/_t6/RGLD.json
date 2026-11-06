@@ -1,0 +1,632 @@
+{
+ "ticker": "RGLD",
+ "date": "2026-11-06",
+ "session": "2026-11-05",
+ "source": "list",
+ "plan": {
+  "ticker": "RGLD",
+  "name": "로열 골드",
+  "sector": "Basic Materials",
+  "industry": "Gold",
+  "price": 261.28,
+  "grade": "C",
+  "state": "post",
+  "pivot": 259.88,
+  "stop": 252.89,
+  "distToPivotPct": 0.54,
+  "distToPivotAdr": 0.18,
+  "riskPerSharePct": 2.69,
+  "adrPct": 3.05,
+  "extensionAdr": 2.89,
+  "breakDate": "2026-11-05",
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 14.2,
+   "priorMovePct": 39.5,
+   "higherLows": 0,
+   "contraction": 1.05,
+   "closeRange10Adr": 2.7,
+   "surf10": 1.49,
+   "surf20": 1.54,
+   "slope20": 0.34,
+   "baseLow": 223.02,
+   "lastSwingLow": 225.23
+  },
+  "reasons": [
+   "선행 상승 +39%",
+   "베이스 7.8주",
+   "깊이 14.2%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.05배 · 10일 종가폭 2.7 ADR",
+   "10일선 +1.5 ADR · 20일선 +1.5 ADR",
+   "20일선 기울기 +0.34%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2646755325823058,
+    "pct": 80.65825067628494
+   },
+   "m3": {
+    "v": 0.22698187068768622,
+    "pct": 85.61767357980162
+   },
+   "m6": {
+    "v": 0.232430940863305,
+    "pct": 63.07484220018035
+   }
+  },
+  "ret1m": 13.02,
+  "ret3m": 12.2,
+  "ret6m": 14.71,
+  "marketCap": "20.85B",
+  "volx": 1.85,
+  "volSurgeWk": 1.6,
+  "high52": 85.67,
+  "newHigh52": false,
+  "adr": 3.05,
+  "div50": 6.89,
+  "div200": 8.74,
+  "targetStatus": false,
+  "saleCy": 80.75,
+  "saleNy": 14.7,
+  "epsCy": 45.29,
+  "epsNy": 21.18,
+  "cyTrend": 2.14,
+  "nyTrend": 0.35,
+  "est": {
+   "cyCur": 10.64999,
+   "cy30": 10.42727,
+   "nyCur": 12.90554,
+   "ny30": 12.86
+  },
+  "fs": {
+   "sale": [
+    114.91,
+    142.52,
+    85.29
+   ],
+   "ni": [
+    78.61,
+    147.7,
+    -11.92
+   ],
+   "opm": [
+    62.13,
+    63.33,
+    56.18
+   ],
+   "updated": "2026-09-08 07:01:28"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "로열 골드",
+  "nameEn": "ROYAL GOLD INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000085535&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 464766000,
+     "profit": 303726000,
+     "netIncome": 227421000,
+     "margin": 65.4,
+     "yoy": {
+      "revenue": 84.4,
+      "profit": 87.1,
+      "netIncome": 79.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 450539000,
+     "profit": 279938000,
+     "netIncome": 236393000,
+     "margin": 62.1,
+     "yoy": {
+      "revenue": 114.9,
+      "profit": 97.4,
+      "netIncome": 78.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 469125000,
+     "profit": 297091000,
+     "netIncome": 281130000,
+     "margin": 63.3,
+     "yoy": {
+      "revenue": 142.5,
+      "profit": 141.3,
+      "netIncome": 147.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 375323000,
+     "profit": 210871000,
+     "netIncome": 93611000,
+     "margin": 56.2,
+     "yoy": {
+      "revenue": 85.3,
+      "profit": 58,
+      "netIncome": -12.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Royal Gold (RGLD) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/royal-gold-rgld-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Royal Gold Inc. Reports Increase In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/royal-gold-inc-reports-increase-q3-profit",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Wall Street Analysts Predict a 27.33% Upside in Royal Gold (RGLD): Here's  What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-2733-upside-royal-gold-rgld-heres-what-you-should-know",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Gold Highlights Record Results, Debt Paydown and Growth After Major Deals",
+     "url": "https://www.nasdaq.com/articles/royal-gold-highlights-record-results-debt-paydown-and-growth-after-major-deals",
+     "date": "2026-10-15",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Royal Gold Eyes Growth as Acquisitions Extend Reserve Life and Fuel Cash Flow",
+     "url": "https://www.nasdaq.com/articles/royal-gold-eyes-growth-acquisitions-extend-reserve-life-and-fuel-cash-flow",
+     "date": "2026-10-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Royal Gold Details Transformational Portfolio Shift, Growth Pipeline at Conference",
+     "url": "https://www.nasdaq.com/articles/royal-gold-details-transformational-portfolio-shift-growth-pipeline-conference",
+     "date": "2026-09-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Is Royal Gold Benefiting From Its 2025 Portfolio Expansion Actions?",
+     "url": "https://www.nasdaq.com/articles/royal-gold-benefiting-its-2025-portfolio-expansion-actions",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000049/rgld-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000044/rgld-20261020.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000038/rgld-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000032/rgld-20260721.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000030/rgld-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000026/rgld-20260506.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "RGLD",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 28.48,
+  "pbr": 2.92,
+  "eps": 9.17,
+  "bps": 89.6,
+  "shares": 84727900,
+  "marketCapM": 22138,
+  "high52": 304.3456,
+  "high52Date": "2026-01-29",
+  "low52": 167.4712,
+  "low52Date": "2025-11-04",
+  "last": 261.28,
+  "prevClose": 246.08,
+  "nameKo": "로열 골드",
+  "nameEn": "ROYAL GOLD INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 84727900
+ },
+ "estimates": {
+  "ticker": "RGLD",
+  "url": "https://finance.yahoo.com/quote/RGLD/analysis/",
+  "fetchedAt": "2026-11-06",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.67,
+    "epsLow": 2.24,
+    "epsHigh": 3.17,
+    "epsYearAgo": 1.92,
+    "epsAnalysts": 6,
+    "epsGrowth": 38.8,
+    "epsCur": "USD",
+    "rev": 460633600,
+    "revAnalysts": 2,
+    "revYearAgo": 375323000,
+    "revGrowth": 22.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.33,
+    "epsLow": 2.7,
+    "epsHigh": 3.82,
+    "epsYearAgo": 2.72,
+    "epsAnalysts": 4,
+    "epsGrowth": 22.4,
+    "epsCur": "USD",
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 10.65,
+    "epsLow": 8.52,
+    "epsHigh": 11.35,
+    "epsYearAgo": 7.33,
+    "epsAnalysts": 11,
+    "epsGrowth": 45.3,
+    "epsCur": "USD",
+    "rev": 1862621040,
+    "revAnalysts": 4,
+    "revYearAgo": 1030471000,
+    "revGrowth": 80.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 12.91,
+    "epsLow": 11.03,
+    "epsHigh": 15.4,
+    "epsYearAgo": 10.65,
+    "epsAnalysts": 10,
+    "epsGrowth": 21.2,
+    "epsCur": "USD",
+    "rev": 2136436360,
+    "revAnalysts": 4,
+    "revYearAgo": 1862621040,
+    "revGrowth": 14.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.67,
+    "d7": -1.1,
+    "d30": -3.2,
+    "d90": 0.4,
+    "ago90": 2.65,
+    "up7": 0,
+    "up30": 3,
+    "down7": 1,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.33,
+    "d7": -0.4,
+    "d30": 4.7,
+    "d90": 9.5,
+    "ago90": 3.04,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 10.65,
+    "d7": 0,
+    "d30": 2.1,
+    "d90": -2,
+    "ago90": 10.87,
+    "up7": 5,
+    "up30": 4,
+    "down7": 2,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 12.91,
+    "d7": -0.2,
+    "d30": 0.4,
+    "d90": -1.3,
+    "ago90": 13.07,
+    "up7": 3,
+    "up30": 3,
+    "down7": 2,
+    "down30": 4
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.8,
+    "estimate": 2.79,
+    "surprisePct": 0.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.56,
+    "estimate": 2.54,
+    "surprisePct": 0.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.72,
+    "estimate": 2.75,
+    "surprisePct": -0.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.92,
+    "estimate": 2.64,
+    "surprisePct": -27.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 0,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-09-16",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 325,
+     "ptPrior": 305
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-05",
+  "numbers": {
+   "price": 261.28,
+   "ma20": 236.85,
+   "ma50": 244.43,
+   "ma150": 231.25,
+   "distMA50": 6.89,
+   "periodHigh": 306.25,
+   "pullbackFromHigh": -14.68,
+   "volRatio20": 1.68,
+   "dryUpRatio": 1.26
+  },
+  "last10": [
+   {
+    "d": "2026-10-23",
+    "o": 232.9,
+    "h": 236.38,
+    "l": 225.59,
+    "c": 227.42,
+    "v": 585900,
+    "clsPos": 17,
+    "gapPct": -0.78
+   },
+   {
+    "d": "2026-10-26",
+    "o": 229.16,
+    "h": 234.64,
+    "l": 227.16,
+    "c": 234.11,
+    "v": 508200,
+    "clsPos": 93,
+    "gapPct": 0.77
+   },
+   {
+    "d": "2026-10-27",
+    "o": 234.11,
+    "h": 239.67,
+    "l": 233.84,
+    "c": 239.66,
+    "v": 642600,
+    "clsPos": 100,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-28",
+    "o": 238.43,
+    "h": 242.24,
+    "l": 236.71,
+    "c": 241.95,
+    "v": 822200,
+    "clsPos": 95,
+    "gapPct": -0.51
+   },
+   {
+    "d": "2026-10-29",
+    "o": 238.03,
+    "h": 239.47,
+    "l": 235.85,
+    "c": 236.83,
+    "v": 414300,
+    "clsPos": 27,
+    "gapPct": -1.62
+   },
+   {
+    "d": "2026-10-30",
+    "o": 229.5,
+    "h": 231.32,
+    "l": 225.23,
+    "c": 228.77,
+    "v": 934200,
+    "clsPos": 58,
+    "gapPct": -3.1
+   },
+   {
+    "d": "2026-11-02",
+    "o": 232.54,
+    "h": 238.76,
+    "l": 232.38,
+    "c": 235.99,
+    "v": 584900,
+    "clsPos": 57,
+    "gapPct": 1.65
+   },
+   {
+    "d": "2026-11-03",
+    "o": 236.32,
+    "h": 238.19,
+    "l": 230.28,
+    "c": 230.92,
+    "v": 654400,
+    "clsPos": 8,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-11-04",
+    "o": 243,
+    "h": 247.89,
+    "l": 239.92,
+    "c": 246.08,
+    "v": 750500,
+    "clsPos": 77,
+    "gapPct": 5.23
+   },
+   {
+    "d": "2026-11-05",
+    "o": 257.48,
+    "h": 264.5,
+    "l": 248.24,
+    "c": 261.28,
+    "v": 1066569,
+    "clsPos": 80,
+    "gapPct": 4.63
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RGLD-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RGLD-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

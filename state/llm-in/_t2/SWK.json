@@ -42,13 +42,13 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 1,
+   "m1": 2,
    "m3": 0,
    "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-11-05",
+  "fetchedAt": "2026-11-06",
   "nameKo": "스탠리 블랙 앤 데커",
   "nameEn": "STANLEY BLACK & DECKER INC",
   "financials": {
@@ -118,6 +118,12 @@
   "news": {
    "items": [
     {
+     "title": "Stanley Black & Decker (SWK) is a Top-Ranked Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/stanley-black-decker-swk-top-ranked-momentum-stock-should-you-buy",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Stanley Black (SWK) Q3 2026 Earnings Call Transcript",
      "url": "https://www.nasdaq.com/articles/stanley-black-swk-q3-2026-earnings-call-transcript",
      "date": "2026-11-04",
@@ -156,12 +162,6 @@
     {
      "title": "Implied Volatility Surging for Stanley Black & Decker Stock Options",
      "url": "https://www.nasdaq.com/articles/implied-volatility-surging-stanley-black-decker-stock-options-0",
-     "date": "2026-11-02",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Stanley Black & Decker, Inc. (SWK) Hit a 52 Week High, Can the Run Continue?",
-     "url": "https://www.nasdaq.com/articles/stanley-black-decker-inc-swk-hit-52-week-high-can-run-continue",
      "date": "2026-11-02",
      "publisher": "Zacks"
     }

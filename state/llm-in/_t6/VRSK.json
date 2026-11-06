@@ -1,0 +1,688 @@
+{
+ "ticker": "VRSK",
+ "date": "2026-11-06",
+ "session": "2026-11-05",
+ "source": "list",
+ "plan": {
+  "ticker": "VRSK",
+  "name": "베리스크 애널리틱스",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "price": 211.47,
+  "grade": "C",
+  "state": "post",
+  "pivot": 204.19,
+  "stop": 198.03,
+  "distToPivotPct": 3.57,
+  "distToPivotAdr": 1.02,
+  "riskPerSharePct": 3.02,
+  "adrPct": 3.5,
+  "extensionAdr": 2.03,
+  "breakDate": "2026-11-05",
+  "metrics": {
+   "baseBars": 13,
+   "baseWeeks": 2.6,
+   "depthPct": 9.3,
+   "priorMovePct": 26.4,
+   "higherLows": 1,
+   "contraction": 1.15,
+   "closeRange10Adr": 2.5,
+   "surf10": 0.36,
+   "surf20": 1.32,
+   "slope20": 4.23,
+   "baseLow": 185.28,
+   "lastSwingLow": 185.75
+  },
+  "reasons": [
+   "✗ 선행 상승 +26%",
+   "베이스 2.6주",
+   "깊이 9.3%",
+   "저점 상승 1회",
+   "✗ 진폭 1.15배 · 10일 종가폭 2.5 ADR",
+   "10일선 +0.4 ADR · 20일선 +1.3 ADR",
+   "20일선 기울기 +4.23%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3394998119284316,
+    "pct": 94.45446348061316
+   },
+   "m3": {
+    "v": 0.2804833266160174,
+    "pct": 93.19206492335438
+   },
+   "m6": {
+    "v": 0.3933304043544702,
+    "pct": 82.91253381424707
+   }
+  },
+  "ret1m": 20.5,
+  "ret3m": 17.55,
+  "ret6m": 30.8,
+  "marketCap": "25.75B",
+  "volx": 2.07,
+  "volSurgeWk": 1.83,
+  "high52": 93.79,
+  "newHigh52": false,
+  "adr": 3.5,
+  "div50": 15.85,
+  "div200": 14.13,
+  "targetStatus": false,
+  "saleCy": 4.76,
+  "saleNy": 6.75,
+  "epsCy": 7.64,
+  "epsNy": 12.84,
+  "cyTrend": -0.01,
+  "nyTrend": -0.02,
+  "est": {
+   "cyCur": 7.70677,
+   "cy30": 7.70718,
+   "nyCur": 8.69637,
+   "ny30": 8.69836
+  },
+  "fs": {
+   "sale": [
+    4.36,
+    3.93,
+    5.87
+   ],
+   "ni": [
+    -9.75,
+    0.82,
+    -6.27
+   ],
+   "opm": [
+    45.11,
+    45,
+    40.27
+   ],
+   "updated": "2026-09-21 06:46:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "베리스크 애널리틱스",
+  "nameEn": "VERISK ANALYTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 809000000,
+     "profit": 365300000,
+     "netIncome": 219200000,
+     "margin": 45.2,
+     "yoy": {
+      "revenue": 5.3,
+      "profit": 5.6,
+      "netIncome": -2.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 806300000,
+     "profit": 363700000,
+     "netIncome": 228600000,
+     "margin": 45.1,
+     "yoy": {
+      "revenue": 4.4,
+      "profit": 2.7,
+      "netIncome": -9.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 782600000,
+     "profit": 352200000,
+     "netIncome": 234200000,
+     "margin": 45,
+     "yoy": {
+      "revenue": 3.9,
+      "profit": 6.7,
+      "netIncome": 0.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 778800000,
+     "profit": 313600000,
+     "netIncome": 197200000,
+     "margin": 40.3,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": -0.9,
+      "netIncome": -6.3,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Verisk Analytics, Inc. Reports Third Quarter 2026 Revenue of $809 million",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-inc-reports-third-quarter-2026-revenue-809-million",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Verisk (VRSK) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/verisk-vrsk-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Verisk Analytics Q3 Earnings Beat Estimates, Revenues Jump 5% Y/Y",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-earnings-beat-estimates-revenues-jump-5-y-y",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Verisk Analytics (VRSK) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-vrsk-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Verisk Analytics Q3 Adj. EBITDA, Revenues Rise; Confirms FY26 Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-adj-ebitda-revenues-rise-confirms-fy26-outlook-update",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Verisk Analytics Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Verisk Analytics Inc. Q3 Sales Increase",
+     "url": "https://www.nasdaq.com/articles/verisk-analytics-inc-q3-sales-increase",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "VRSK is Set to Report Q3 Earnings: Here's What Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/vrsk-set-report-q3-earnings-heres-what-investors-should-know",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926035082/vrsk20260820_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000095010326016441/dp255815_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526385242/d133172d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-18",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526355652/d172499d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926024748/vrsk20260526_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526321243/d86289d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "AI fears have hit this data stock. Investor Sarat Sethi sees a buying opportunity",
+   "url": "https://www.cnbc.com/2026/09/11/sarat-sethi-buying-verisk-analytics.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: NetApp, MarineMax, Doximity & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Berkshire, Intel, GameStop, & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Why this insurance analytics stock could be more 'bulletproof' than investors realize",
+   "url": "https://www.cnbc.com/video/2026/09/11/why-this-insurance-analytics-stock-could-be-more-bulletproof-than-investors-realize.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VRSK",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 32.49,
+  "pbr": 0,
+  "eps": 6.51,
+  "bps": 0,
+  "shares": 130156000,
+  "marketCapM": 27524,
+  "high52": 225.4757,
+  "high52Date": "2026-07-29",
+  "low52": 155.1001,
+  "low52Date": "2026-05-14",
+  "last": 211.47,
+  "prevClose": 197.85,
+  "nameKo": "베리스크 애널리틱스",
+  "nameEn": "VERISK ANALYTICS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 130156000
+ },
+ "estimates": {
+  "ticker": "VRSK",
+  "url": "https://finance.yahoo.com/quote/VRSK/analysis/",
+  "fetchedAt": "2026-11-06",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.97,
+    "epsLow": 1.93,
+    "epsHigh": 2.02,
+    "epsYearAgo": 1.82,
+    "epsAnalysts": 15,
+    "epsGrowth": 8.3,
+    "epsCur": "USD",
+    "rev": 824861940,
+    "revAnalysts": 14,
+    "revYearAgo": 778800000,
+    "revGrowth": 5.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.06,
+    "epsLow": 2.01,
+    "epsHigh": 2.11,
+    "epsYearAgo": 1.82,
+    "epsAnalysts": 13,
+    "epsGrowth": 13.3,
+    "epsCur": "USD",
+    "rev": 836516130,
+    "revAnalysts": 9,
+    "revYearAgo": 782600000,
+    "revGrowth": 6.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 7.71,
+    "epsLow": 7.62,
+    "epsHigh": 7.8,
+    "epsYearAgo": 7.16,
+    "epsAnalysts": 18,
+    "epsGrowth": 7.6,
+    "epsCur": "USD",
+    "rev": 3219081030,
+    "revAnalysts": 16,
+    "revYearAgo": 3072700000,
+    "revGrowth": 4.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 8.7,
+    "epsLow": 8.45,
+    "epsHigh": 8.99,
+    "epsYearAgo": 7.71,
+    "epsAnalysts": 18,
+    "epsGrowth": 12.8,
+    "epsCur": "USD",
+    "rev": 3436310390,
+    "revAnalysts": 16,
+    "revYearAgo": 3219081030,
+    "revGrowth": 6.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.97,
+    "d7": 0,
+    "d30": -0.2,
+    "d90": -0.2,
+    "ago90": 1.98,
+    "up7": 1,
+    "up30": 2,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.06,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0.1,
+    "ago90": 2.06,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 7.71,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0.5,
+    "ago90": 7.67,
+    "up7": 1,
+    "up30": 1,
+    "down7": 3,
+    "down30": 5
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 8.7,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0.2,
+    "ago90": 8.68,
+    "up7": 2,
+    "up30": 4,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.96,
+    "estimate": 1.92,
+    "surprisePct": 2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.98,
+    "estimate": 1.93,
+    "surprisePct": 2.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.82,
+    "estimate": 1.74,
+    "surprisePct": 4.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.82,
+    "estimate": 1.61,
+    "surprisePct": 12.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 3,
+   "total": 3,
+   "recent": [
+    {
+     "date": "2026-10-13",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 217,
+     "ptPrior": 248
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 215,
+     "ptPrior": 235
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 225,
+     "ptPrior": 275
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-05",
+  "numbers": {
+   "price": 211.47,
+   "ma20": 191.54,
+   "ma50": 182.65,
+   "ma150": 182.24,
+   "distMA50": 15.78,
+   "periodHigh": 322.92,
+   "pullbackFromHigh": -34.51,
+   "volRatio20": 1.89,
+   "dryUpRatio": 1.2
+  },
+  "last10": [
+   {
+    "d": "2026-10-23",
+    "o": 203,
+    "h": 204.19,
+    "l": 192.6,
+    "c": 195.88,
+    "v": 2019400,
+    "clsPos": 28,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-10-26",
+    "o": 193.94,
+    "h": 197.99,
+    "l": 192.62,
+    "c": 196.19,
+    "v": 983400,
+    "clsPos": 66,
+    "gapPct": -0.99
+   },
+   {
+    "d": "2026-10-27",
+    "o": 194.96,
+    "h": 195.13,
+    "l": 186.48,
+    "c": 187.73,
+    "v": 1137900,
+    "clsPos": 14,
+    "gapPct": -0.63
+   },
+   {
+    "d": "2026-10-28",
+    "o": 186.13,
+    "h": 189.91,
+    "l": 185.75,
+    "c": 189.8,
+    "v": 920000,
+    "clsPos": 97,
+    "gapPct": -0.85
+   },
+   {
+    "d": "2026-10-29",
+    "o": 191.31,
+    "h": 192.46,
+    "l": 188.99,
+    "c": 190.71,
+    "v": 1370200,
+    "clsPos": 50,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-10-30",
+    "o": 196.37,
+    "h": 198.13,
+    "l": 195.37,
+    "c": 196.3,
+    "v": 1367200,
+    "clsPos": 34,
+    "gapPct": 2.97
+   },
+   {
+    "d": "2026-11-02",
+    "o": 194.74,
+    "h": 201.65,
+    "l": 194.74,
+    "c": 201.5,
+    "v": 1264400,
+    "clsPos": 98,
+    "gapPct": -0.79
+   },
+   {
+    "d": "2026-11-03",
+    "o": 198.29,
+    "h": 199.14,
+    "l": 194.12,
+    "c": 197,
+    "v": 971400,
+    "clsPos": 57,
+    "gapPct": -1.59
+   },
+   {
+    "d": "2026-11-04",
+    "o": 200.04,
+    "h": 204.04,
+    "l": 197.62,
+    "c": 197.85,
+    "v": 1861400,
+    "clsPos": 4,
+    "gapPct": 1.54
+   },
+   {
+    "d": "2026-11-05",
+    "o": 194,
+    "h": 216.42,
+    "l": 193.81,
+    "c": 211.47,
+    "v": 2502030,
+    "clsPos": 78,
+    "gapPct": -1.95
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VRSK-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VRSK-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

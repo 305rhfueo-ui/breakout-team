@@ -1,0 +1,653 @@
+{
+ "ticker": "ECPG",
+ "date": "2026-11-06",
+ "session": "2026-11-05",
+ "source": "list",
+ "plan": {
+  "ticker": "ECPG",
+  "name": "앙코어 캐피털 그룹",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
+  "price": 126.17,
+  "grade": "C",
+  "state": "post",
+  "pivot": 105.98,
+  "stop": 102.73,
+  "distToPivotPct": 19.05,
+  "distToPivotAdr": 4.86,
+  "riskPerSharePct": 3.07,
+  "adrPct": 3.92,
+  "extensionAdr": 4.74,
+  "breakDate": "2026-11-05",
+  "metrics": {
+   "baseBars": 22,
+   "baseWeeks": 4.4,
+   "depthPct": 10,
+   "priorMovePct": 28.1,
+   "higherLows": 1,
+   "contraction": 0.93,
+   "closeRange10Adr": 1.4,
+   "surf10": -0.06,
+   "surf20": -0.34,
+   "slope20": 0.78,
+   "baseLow": 95.42,
+   "lastSwingLow": 98.54
+  },
+  "reasons": [
+   "✗ 선행 상승 +28%",
+   "베이스 4.4주",
+   "깊이 10%",
+   "저점 상승 1회",
+   "진폭 0.93배 · 10일 종가폭 1.4 ADR",
+   "✗ 10일선 -0.1 ADR · 20일선 -0.3 ADR",
+   "20일선 기울기 +0.78%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3954173869506459,
+    "pct": 97.79080252479712
+   },
+   "m3": {
+    "v": 0.39903373040671086,
+    "pct": 98.06131650135256
+   },
+   "m6": {
+    "v": 0.6311533551447894,
+    "pct": 93.73309287646528
+   }
+  },
+  "ret1m": 26.09,
+  "ret3m": 29.41,
+  "ret6m": 54.58,
+  "marketCap": "2.12B",
+  "volx": 3.56,
+  "volSurgeWk": 3.06,
+  "high52": 99.55,
+  "newHigh52": false,
+  "adr": 3.92,
+  "div50": 26.68,
+  "div200": 49.85,
+  "targetStatus": false,
+  "saleCy": 8.01,
+  "saleNy": 1.42,
+  "epsCy": 23.9,
+  "epsNy": 9.08,
+  "cyTrend": 0,
+  "nyTrend": 0.85,
+  "est": {
+   "cyCur": 13.5175,
+   "cy30": 13.5175,
+   "nyCur": 14.745,
+   "ny30": 14.62
+  },
+  "fs": {
+   "sale": [
+    11.25,
+    21.04,
+    78.28
+   ],
+   "ni": [
+    8.99,
+    84.3,
+    "흑자전환"
+   ],
+   "opm": [
+    16.84,
+    23.5,
+    20.66
+   ],
+   "updated": "2026-09-08 06:19:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-05",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-06",
+  "nameKo": "앙코어 캐피털 그룹",
+  "nameEn": "ENCORE CAPITAL GROUP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001084961&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 17474000,
+     "profit": 230605000,
+     "netIncome": 124013000,
+     "margin": 1319.7,
+     "yoy": {
+      "revenue": -21.2,
+      "profit": 33.2,
+      "netIncome": 66.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 18228000,
+     "profit": 186902000,
+     "netIncome": 63999000,
+     "margin": 1025.4,
+     "yoy": {
+      "revenue": -18.3,
+      "profit": 24,
+      "netIncome": 9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 20638000,
+     "profit": 183992000,
+     "netIncome": 86243000,
+     "margin": 891.5,
+     "yoy": {
+      "revenue": -8.5,
+      "profit": 42.3,
+      "netIncome": 84.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 21366000,
+     "profit": 173393000,
+     "netIncome": 76823000,
+     "margin": 811.5,
+     "yoy": {
+      "revenue": 4.1,
+      "profit": 229.2,
+      "netIncome": 134.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Encore Capital (ECPG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/encore-capital-ecpg-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Encore Capital Group (ECPG) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/encore-capital-group-ecpg-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Encore Capital Stock Soars 73.8% YTD: Is There Further Upside Left?",
+     "url": "https://www.nasdaq.com/articles/encore-capital-stock-soars-738-ytd-there-further-upside-left",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Encore Capital Group Has Doubled—But Its Best Tailwind Won’t Last Forever",
+     "url": "https://www.nasdaq.com/articles/encore-capital-group-has-doubled-its-best-tailwind-wont-last-forever",
+     "date": "2026-09-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights Enova International and Encore Capital",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-enova-international-and-encore-capital",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is Encore Capital Group (ECPG) Down 1% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-encore-capital-group-ecpg-down-1-last-earnings-report",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Encore Capital's Raised 2026 Outlook Drive More Earnings Growth?",
+     "url": "https://www.nasdaq.com/articles/can-encore-capitals-raised-2026-outlook-drive-more-earnings-growth",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is ECPG a Buy Now as Cheap Valuation Meets Rising Earnings Momentum?",
+     "url": "https://www.nasdaq.com/articles/ecpg-buy-now-cheap-valuation-meets-rising-earnings-momentum",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000069/ecpg-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000062/ecpg-20260819.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000057/ecpg-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000052/ecpg-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "임원 변동",
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000050/ecpg-20260612.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1084961/000108496126000048/ck0001084961-20260528.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "ECPG",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 9.55,
+  "pbr": 2.48,
+  "eps": 13.21,
+  "bps": 50.86,
+  "shares": 21209400,
+  "marketCapM": 2676,
+  "high52": 126.74,
+  "high52Date": "2026-11-05",
+  "low52": 41.055,
+  "low52Date": "2025-11-04",
+  "last": 126.17,
+  "prevClose": 99.93,
+  "nameKo": "앙코어 캐피털 그룹",
+  "nameEn": "ENCORE CAPITAL GROUP INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 21209400
+ },
+ "estimates": {
+  "ticker": "ECPG",
+  "url": "https://finance.yahoo.com/quote/ECPG/analysis/",
+  "fetchedAt": "2026-11-06",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 3.51,
+    "epsLow": 3.3,
+    "epsHigh": 3.66,
+    "epsYearAgo": 3.37,
+    "epsAnalysts": 4,
+    "epsGrowth": 4.2,
+    "epsCur": "USD",
+    "rev": 476411250,
+    "revAnalysts": 4,
+    "revYearAgo": 473552000,
+    "revGrowth": 0.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.59,
+    "epsLow": 3.41,
+    "epsHigh": 3.78,
+    "epsYearAgo": 3.86,
+    "epsAnalysts": 4,
+    "epsGrowth": -7.1,
+    "epsCur": "USD",
+    "rev": 479701250,
+    "revAnalysts": 4,
+    "revYearAgo": 475411000,
+    "revGrowth": 0.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 13.52,
+    "epsLow": 13.4,
+    "epsHigh": 13.65,
+    "epsYearAgo": 10.91,
+    "epsAnalysts": 4,
+    "epsGrowth": 23.9,
+    "epsCur": "USD",
+    "rev": 1910502000,
+    "revAnalysts": 4,
+    "revYearAgo": 1768802000,
+    "revGrowth": 8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 14.75,
+    "epsLow": 14,
+    "epsHigh": 15.5,
+    "epsYearAgo": 13.52,
+    "epsAnalysts": 4,
+    "epsGrowth": 9.1,
+    "epsCur": "USD",
+    "rev": 1937652000,
+    "revAnalysts": 4,
+    "revYearAgo": 1910502000,
+    "revGrowth": 1.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.51,
+    "d7": 0,
+    "d30": 0,
+    "d90": 7.4,
+    "ago90": 3.27,
+    "up7": 2,
+    "up30": 2,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.59,
+    "d7": 0.1,
+    "d30": 0.1,
+    "d90": 4,
+    "ago90": 3.45,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 13.52,
+    "d7": 0,
+    "d30": 0,
+    "d90": 4,
+    "ago90": 13,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 14.75,
+    "d7": 0.9,
+    "d30": 0.9,
+    "d90": 4.5,
+    "ago90": 14.11,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 5.57,
+    "estimate": 3.35,
+    "surprisePct": 66.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.95,
+    "estimate": 2.62,
+    "surprisePct": 50.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.91,
+    "estimate": 2.78,
+    "surprisePct": 40.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 3.48,
+    "estimate": 1.75,
+    "surprisePct": 98.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-11-05",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 122,
+     "ptPrior": 112
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Citizens",
+     "action": "main",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Raises",
+     "pt": 140,
+     "ptPrior": 115
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-05",
+  "numbers": {
+   "price": 126.17,
+   "ma20": 102.33,
+   "ma50": 99.6,
+   "ma150": 91.17,
+   "distMA50": 26.68,
+   "periodHigh": 126.74,
+   "pullbackFromHigh": -0.45,
+   "volRatio20": 2.96,
+   "dryUpRatio": 1.39
+  },
+  "last10": [
+   {
+    "d": "2026-10-23",
+    "o": 99.95,
+    "h": 100.16,
+    "l": 95.87,
+    "c": 97.73,
+    "v": 241600,
+    "clsPos": 43,
+    "gapPct": -0.41
+   },
+   {
+    "d": "2026-10-26",
+    "o": 98.51,
+    "h": 100.99,
+    "l": 98.09,
+    "c": 99.64,
+    "v": 200400,
+    "clsPos": 53,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-10-27",
+    "o": 100.24,
+    "h": 100.72,
+    "l": 99.26,
+    "c": 99.46,
+    "v": 150300,
+    "clsPos": 14,
+    "gapPct": 0.6
+   },
+   {
+    "d": "2026-10-28",
+    "o": 99.81,
+    "h": 102.13,
+    "l": 99.81,
+    "c": 101.62,
+    "v": 227800,
+    "clsPos": 78,
+    "gapPct": 0.35
+   },
+   {
+    "d": "2026-10-29",
+    "o": 102.72,
+    "h": 104.58,
+    "l": 102,
+    "c": 102.36,
+    "v": 203200,
+    "clsPos": 14,
+    "gapPct": 1.08
+   },
+   {
+    "d": "2026-10-30",
+    "o": 101.88,
+    "h": 101.95,
+    "l": 98.54,
+    "c": 99.98,
+    "v": 246200,
+    "clsPos": 42,
+    "gapPct": -0.47
+   },
+   {
+    "d": "2026-11-02",
+    "o": 101.49,
+    "h": 103.22,
+    "l": 100.09,
+    "c": 100.23,
+    "v": 222500,
+    "clsPos": 4,
+    "gapPct": 1.51
+   },
+   {
+    "d": "2026-11-03",
+    "o": 100.75,
+    "h": 101.51,
+    "l": 99.18,
+    "c": 99.83,
+    "v": 188100,
+    "clsPos": 28,
+    "gapPct": 0.52
+   },
+   {
+    "d": "2026-11-04",
+    "o": 102.39,
+    "h": 103.41,
+    "l": 99.04,
+    "c": 99.93,
+    "v": 294600,
+    "clsPos": 20,
+    "gapPct": 2.56
+   },
+   {
+    "d": "2026-11-05",
+    "o": 109.92,
+    "h": 126.74,
+    "l": 109.54,
+    "c": 126.17,
+    "v": 707700,
+    "clsPos": 97,
+    "gapPct": 10
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ECPG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ECPG-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 13일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}
