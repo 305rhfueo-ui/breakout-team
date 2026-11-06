@@ -16,3 +16,4 @@ state/llm-in/_t6/*.pdf
 # 7팀 온디맨드 작업 폴더(재료·PNG·PDF·중간 결과) — 결과는 dashboard/data/ondemand.js 로 나간다
 state/ondemand/
 *.pdf
+state/llm-in/_n/

@@ -29,13 +29,22 @@ function tokens(text) {
   const out = [];
   const t = String(text || '');
   // 금액 (한국어 단위)
-  const reKo = /(\d+(?:[.,]\d+)*)\s*(조|억|만)\s*(\d+(?:[.,]\d+)*\s*(?:억|만)\s*)?(?:\d+\s*)?(?:달러|원|USD)?/g;
+  const reKo = /(\d+(?:[.,]\d+)*)\s*(천\s*)?(조|억|만)\s*(\d+(?:[.,]\d+)*\s*(?:억|만)\s*)?(?:\d+\s*)?(?:달러|원|USD)?/g;   // "3천억" = 3,000억
   const used = [];
   let m;
+  // "1만 1,000대" = 11,000 — 달러·원이 붙지 않은 만 단위 수. 쪼개 읽으면 1 과 1,000 이 되어 멀쩡한 문장을 지운다 (2026-11-06 N 심층 실측)
+  //   "1만1천대" = 11,000 · "3천 명" = 3,000 도 같은 방식
+  const reMan = /(\d+(?:[.,]\d+)*)\s*(만|천)(?:\s*(\d+(?:\.\d+)?)\s*천|\s*(\d{1,3}(?:,\d{3})+|\d{1,4}))?(?!\s*(?:[\d.,]|달러|원|USD|억|만))/g;
+  while ((m = reMan.exec(t))) {
+    if (m[2] === '천' && (m[3] || m[4])) continue;
+    const v = num(m[1]) * (m[2] === '만' ? 1e4 : 1e3) + (m[3] ? num(m[3]) * 1e3 : m[4] ? num(m[4]) : 0);
+    out.push({ kind: 'num', raw: m[0].trim(), value: v, dec: 0 });
+    used.push([m.index, m.index + m[0].length]);
+  }
   while ((m = reKo.exec(t))) {
-    if (!/달러|원|USD/.test(m[0]) && !/억|조/.test(m[2])) continue;           // "3만" 처럼 단위 없는 것은 일반 숫자로
-    let v = num(m[1]) * MONEY_KO[m[2]];
-    if (m[3]) { const mm = m[3].match(/(\d+(?:[.,]\d+)*)\s*(억|만)/); if (mm) v += num(mm[1]) * MONEY_KO[mm[2]]; }
+    if (!/달러|원|USD/.test(m[0]) && !/억|조/.test(m[3])) continue;           // "3만" 처럼 단위 없는 것은 일반 숫자로(위 reMan)
+    let v = num(m[1]) * (m[2] ? 1e3 : 1) * MONEY_KO[m[3]];
+    if (m[4]) { const mm = m[4].match(/(\d+(?:[.,]\d+)*)\s*(억|만)/); if (mm) v += num(mm[1]) * MONEY_KO[mm[2]]; }
     out.push({ kind: 'money', raw: m[0].trim(), value: v });
     used.push([m.index, m.index + m[0].length]);
   }
@@ -56,6 +65,7 @@ function tokens(text) {
     const after = t.slice(b, b + 8), before = t.slice(Math.max(0, a - 3), a);
     const v = num(m[0]);
     if (/^(19|20)\d\d$/.test(m[0])) continue;                              // 연도
+    if (/^\d\d$/.test(m[0]) && /['’‘]$/.test(t.slice(a - 1, a))) continue;   // Team'26 · FY'27 같은 연도 약칭
     if (SKIP_AFTER.test(after) || SKIP_BEFORE.test(before) || NAME_BEFORE.test(t.slice(Math.max(0, a - 9), a))) continue;
     if (/^\d{1,2}$/.test(m[0]) && /^\s*[/.]\s*\d{1,2}\b/.test(after)) continue; // 9/30 같은 날짜
     if (/^[/.-]\d{1,2}$/.test(t.slice(a - 3, a).slice(-3)) && /^\d{1,2}$/.test(m[0])) continue;
@@ -71,15 +81,20 @@ function corpusOf(...vals) {
   const money = toks.filter((x) => x.kind === 'money').map((x) => x.value)
     .concat(toks.filter((x) => x.kind === 'num' && x.value >= 1e5).map((x) => x.value));
   const nums = toks.filter((x) => x.kind === 'num').map((x) => x.value);
-  return { money, nums };
+  // 짧은 근거(주장 하나의 인용문)는 표 한 줄일 때가 많다 — SEC 표의 단위(천·백만 달러)는 표 머리에 있어 인용문에 안 나온다.
+  //   443,245(천 달러) = 4.432억 달러 · ~$160(백만 달러) = 1.6억 달러. 긴 원문 전체와 맞출 때는 우연히 맞는 수가 많아 허용하지 않는다 (2026-11-06)
+  return { money, nums, short: text.length <= 1500 };
 }
 
 function supported(tok, c) {
-  if (tok.kind === 'money') return c.money.some((v) => v > 0 && Math.abs(v - tok.value) / tok.value <= 0.015);
+  if (tok.kind === 'money') return c.money.some((v) => v > 0 && Math.abs(v - tok.value) / tok.value <= 0.015)
+    || (!!c.short && c.nums.some((x) => x > 0 && [1e3, 1e6].some((u) => Math.abs(x * u - tok.value) / tok.value <= 0.015)));
   const v = tok.value;
   if (v === 0) return true;
   const f = 10 ** (tok.dec || 0);
   return c.nums.some((x) => Math.round(x * f) / f === v || Math.round(Math.abs(x) * f) / f === v)
+    // "월 사용자 200만 명" ← "2 million monthly users" — 영어 원문의 million 은 금액이 아니어도 금액으로 읽힌다 (2026-11-06)
+    || (v >= 1e4 && c.money.some((x) => Math.abs(x - v) / v <= 0.015))
     // 금액 원값(달러)을 줄여 쓴 경우: 1.82(억) ← 182175000, 6,190(만) ← 61902000
     || c.money.some((x) => [1e8, 1e4, 1e9, 1e6].some((u) => Math.round((x / u) * f) / f === v));
 }

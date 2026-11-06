@@ -31,7 +31,8 @@ tg() {
 case "$JOB" in
   research) PROMPT="start breakout"; TITLE="📊 실장 리포트"; URL="https://305rhfueo-ui.github.io/breakout-team/" ;;
   review)   PROMPT="/review";        TITLE="📋 주간 리뷰";   URL="https://github.com/305rhfueo-ui/breakout-team/blob/master/docs/STRATEGY-LOG.md" ;;
-  *) echo "용법: $0 research|review"; exit 2 ;;
+  ndeep)    PROMPT="/n-deep ${2:-all}"; TITLE="🔬 N 심층분석"; URL="https://305rhfueo-ui.github.io/breakout-team/"; MAX_MIN=180 ;;   # 전 종목 다시 채우기 (2026-11-06)
+  *) echo "용법: $0 research|review|ndeep [all|TICKER,TICKER]"; exit 2 ;;
 esac
 
 # launchd 는 사용자의 셸 PATH 를 모른다. claude 가 있을 만한 곳을 직접 찾는다.
