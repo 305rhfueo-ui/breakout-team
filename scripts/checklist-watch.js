@@ -92,7 +92,7 @@ async function writeAndPublish(x, { dry = false, day = today() } = {}) {
   writeJson(path.join(out, 'facts.json'), facts);
   say('T13', `${x.ticker} 점검 글: ${W.title} · ${W.lines.length}줄 · 숫자 대조 삭제 ${W.cut.length} → ${out}`);
   if (dry) return { ok: true, dry: true, dir: out, title: W.title };
-  const pub = TS.publish({ title: W.title, lines: W.lines, images, category: TS.CATEGORY.analysis });
+  const pub = TS.publish({ title: W.title, lines: W.lines, images, category: TS.CATEGORY.analysis || TS.CATEGORY.company });
   if (!pub.ok) return { ok: false, error: `티스토리 발행 실패: ${pub.error}`, dir: out, rec };
   const post = await TS.findPublished(W.title);
   return { ok: true, title: W.title, url: post ? post.url : TS.BLOG, telegram: W.telegram, rec };
