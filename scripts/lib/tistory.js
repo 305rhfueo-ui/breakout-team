@@ -13,10 +13,11 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { paths, writeWindowData, say } = require('./util');
 
 const BLOG = 'https://aiinvestmentworkbook.tistory.com';
 const ASIDE = path.join(process.env.HOME || '', '.local/bin/aside');
-const CATEGORY = { tradeStock: '1313367', tradeMarket: '1313366', strategy: '1320050', company: '1313688' };
+const CATEGORY = { tradeStock: '1313367', tradeMarket: '1313366', strategy: '1320050', company: '1313688', analysis: 'TBD' };   // analysis = 종목 분석 (2026-11-07 사용자가 만들라고 함 — 13팀 글)
 const UA = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36' };
 
 const unescape = (s) => String(s || '').replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
@@ -84,6 +85,7 @@ const DRY = ${!!dry}; const IMGS = ${JSON.stringify(imgs)};
 const HTML = ${JSON.stringify(html)}; const TITLE = ${JSON.stringify(title)}; const CAT = ${JSON.stringify(String(category))};
 const page = await openTab("about:blank"); page.on("dialog", d => { console.log("창:", d.message()); d.dismiss().catch(()=>{}); });
 await page.goto("${BLOG}/manage/newpost/"); await sleep(7000);
+if (page.url().includes("/auth/login")) { console.log("RESULT " + JSON.stringify({ ok: false, error: "티스토리 로그인이 풀림 — Aside 브라우저에서 티스토리(카카오) 다시 로그인" })); } else {
 await page.evaluate(() => tinymce.activeEditor.setContent("")); await page.fill("#post-title-inp", "");
 await page.evaluate((imgs) => { window.__imgs = imgs.map(([n,b]) => { const bin = atob(b); const u8 = new Uint8Array(bin.length); for (let i=0;i<bin.length;i++) u8[i] = bin.charCodeAt(i); return new File([u8], n, {type:"image/png"}); }); const orig = HTMLInputElement.prototype.click; HTMLInputElement.prototype.click = function() { if (this.type === "file" && window.__next) { const dt = new DataTransfer(); dt.items.add(window.__next); window.__next = null; this.files = dt.files; this.dispatchEvent(new Event("change", {bubbles:true})); return; } return orig.call(this); }; }, IMGS);
 const count = () => page.evaluate(() => (tinymce.activeEditor.getContent().match(/\\[##_Image\\|/g) || []).length);
@@ -105,7 +107,7 @@ if (blocks.length !== IMGS.length) { console.log("RESULT " + JSON.stringify({ ok
   if (DRY || !still || !/공개/.test(btn) || /비공개|보호/.test(btn)) { console.log("RESULT " + JSON.stringify({ ok: !!DRY && still, dry: DRY, error: DRY ? null : (!still ? "본문이 덮임" : "버튼: " + btn) })); } else {
     await page.click("#publish-btn"); await sleep(6000); console.log("RESULT " + JSON.stringify({ ok: true, after: page.url() }));
   }
-}`;
+}}`;
   try {
     const out = execFileSync(ASIDE, ['repl'], { input: js.split('\n').join(' ') + '\n', maxBuffer: 1 << 24, timeout: 240000 }).toString().replace(/\x1b\[[0-9;]*m/g, '');
     const m = out.match(/RESULT (\{.*\})/);
@@ -124,4 +126,16 @@ async function findPublished(title, { tries = 6, waitMs = 10000 } = {}) {
   return null;
 }
 
-module.exports = { BLOG, CATEGORY, recentPosts, readPost, searchPosts, toHtml, publish, findPublished, textOf };
+// 대시보드 12·13팀 카드 자료 (dashboard/data/blog.js) — fn(d) 로 고친 뒤 이 파일만 커밋·push
+const BOARD = path.join(paths.root, 'dashboard', 'data', 'blog.js');
+function board(fn, { git = true, msg = 'blog: 12·13팀 글 기록' } = {}) {
+  let d = {};
+  try { d = JSON.parse(fs.readFileSync(BOARD, 'utf8').match(/=\s*([\s\S]*);\s*$/)[1]); } catch (e) { /* 첫 실행 */ }
+  d.t12 = { posts: [], ...d.t12 }; d.t13 = { posts: [], ...d.t13 };
+  fn(d);
+  d.t12.posts = d.t12.posts.slice(0, 30); d.t13.posts = d.t13.posts.slice(0, 30); d.updated = new Date().toISOString();
+  writeWindowData(BOARD, 'BLOG_DATA', d);
+  if (git) { const r = require('../finish-ondemand').gitPublish([BOARD], msg); if (!r.ok) say('WARN', `GitHub: ${r.error}`); }
+}
+
+module.exports = { BLOG, CATEGORY, recentPosts, readPost, searchPosts, toHtml, publish, findPublished, textOf, board };

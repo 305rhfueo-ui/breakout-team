@@ -172,6 +172,7 @@ async function main() {
     const k = keyOf(t), rec = done.done[k] || { ticker: t.ticker, tries: 0 };
     if (r.ok) {
       done.done[k] = { ...rec, url: r.url, at: new Date().toISOString() };
+      TS.board((d) => d.t12.posts.unshift({ ticker: t.ticker, entryDate: t.entryDate, exitDate: t.exitDate, result: r.facts.result, returnPct: r.facts.returnPct, title: r.title, url: r.url, at: today() }), { msg: `blog: 12팀 ${t.ticker} 복기 글` });
       await notify(`📝 12팀 도담 — ${t.ticker} 매매 복기 (${r.facts.result} ${r.facts.returnPct}%)\n${r.telegram}\n티스토리에 올렸습니다: ${r.url}`);
     } else {
       done.done[k] = { ...rec, tries: (rec.tries || 0) + 1, lastError: r.error };

@@ -92,10 +92,10 @@ async function writeAndPublish(x, { dry = false, day = today() } = {}) {
   writeJson(path.join(out, 'facts.json'), facts);
   say('T13', `${x.ticker} 점검 글: ${W.title} · ${W.lines.length}줄 · 숫자 대조 삭제 ${W.cut.length} → ${out}`);
   if (dry) return { ok: true, dry: true, dir: out, title: W.title };
-  const pub = TS.publish({ title: W.title, lines: W.lines, images, category: TS.CATEGORY.company });
+  const pub = TS.publish({ title: W.title, lines: W.lines, images, category: TS.CATEGORY.analysis });
   if (!pub.ok) return { ok: false, error: `티스토리 발행 실패: ${pub.error}`, dir: out, rec };
   const post = await TS.findPublished(W.title);
-  return { ok: true, url: post ? post.url : TS.BLOG, telegram: W.telegram, rec };
+  return { ok: true, title: W.title, url: post ? post.url : TS.BLOG, telegram: W.telegram, rec };
 }
 
 function message(x, sc, r) {
@@ -127,7 +127,10 @@ async function main() {
   }
   const hits = readJson(HITS_FILE, { v: 1, hits: {} });
   const todo = sc.items.filter((x) => x.miss.length <= MAX_MISS && !hits.hits[`${x.ticker}|${x.num.breakDate}`]).slice(0, DAILY_CAP);
-  if (!todo.length) { say('T13', '체크리스트 부합 종목 없음'); return; }
+  const scan = { session: sc.session, regime: sc.regime, snapDate: sc.snapDate, breakouts: sc.items.length,
+    near: sc.items.filter((x) => x.miss.length <= 2).slice(0, 8).map((x) => ({ ticker: x.ticker, miss: x.miss, breakVol: x.num.breakVol })) };
+  const posts = [], save = () => TS.board((d) => { d.t13.lastScan = scan; d.t13.posts.unshift(...posts); }, { msg: `blog: 13팀 ${sc.session} 돌파 ${sc.items.length}종목 · 부합 ${posts.length}` });
+  if (!todo.length) { say('T13', '체크리스트 부합 종목 없음'); save(); return; }
   const { notify } = require('./lib/notify');
   for (const x of todo) {
     say('T13', `${x.ticker} 부합 — 지우 심층분석 시작`);
@@ -138,8 +141,10 @@ async function main() {
     } catch (e) { r = { ok: false, error: `심층분석 실패 (${String(e.message).split('\n')[0].slice(0, 120)})` }; }
     hits.hits[`${x.ticker}|${x.num.breakDate}`] = { at: new Date().toISOString(), url: r.url || null, error: r.ok ? null : r.error };
     writeJson(HITS_FILE, hits);
+    posts.push({ ticker: x.ticker, breakDate: x.num.breakDate, verdict: r.rec ? r.rec.verdict : null, title: r.title || null, url: r.url || null, error: r.ok ? null : String(r.error).slice(0, 150), at: today() });
     await notify(message(x, sc, r));
   }
+  save();
 }
 
 if (require.main === module) main().catch((e) => { say('ERROR', e.stack || e.message); process.exit(1); });
