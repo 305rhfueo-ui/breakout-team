@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-06T22:10:16.357Z",
+  "updated": "2026-11-07T13:00:16.860Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,28 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Palantir Stock Investors Just Got Great News From a Wall Street Analyst (Hint: The Stock Could Soar)",
+          "url": "https://www.nasdaq.com/articles/palantir-stock-investors-just-got-great-news-wall-street-analyst-hint-stock-could-soar",
+          "date": "2026-11-07",
+          "publisher": "The Motley Fool",
+          "ko": "JP모건 애널리스트가 팔란티어 목표가 262달러로 분석 시작",
+          "tone": "good",
+          "isNew": true,
+          "headline": "JP모건 애널리스트가 팔란티어 목표가 262달러로 분석 시작",
+          "easy": "JP모건의 브라이언 에섹스 애널리스트가 팔란티어 분석을 새로 시작했다. 제시한 목표주가는 주당 262달러로, 월가에서 가장 높은 축에 속한다고 제목·요약에 나왔다. 본문은 확인하지 못해 그 밖의 근거는 기사에 안 나왔다.",
+          "whyMatters": "보유자에게는 대형 투자은행이 높은 목표가를 낸 점이 긍정적인 신호다. 다만 목표가는 전망일 뿐 주가를 보장하지 않는다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "The Biggest Takeaway From Palantir Technologies’ Latest Quarterly Report Is a Potential Warning Sign Investors Shouldn’t Miss",
           "url": "https://www.nasdaq.com/articles/biggest-takeaway-palantir-technologies-latest-quarterly-report-potential-warning-sign",
           "date": "2026-11-06",
           "publisher": "The Motley Fool",
           "ko": "팔란티어 3분기 계약 총액 증가세가 크게 둔화됐다",
           "tone": "bad",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 3분기 계약 총액 증가세가 크게 둔화됐다",
           "easy": "기사 제목과 요약에 따르면 팔란티어의 3분기 실적에서 총계약가치(TCV) 증가 속도가 크게 느려졌다. 본문은 확인하지 못해 원인과 구체적인 수치는 기사 요약에 나오지 않았다. 투자자가 놓치면 안 될 경고 신호로 제시됐다.",
           "whyMatters": "보유 중이라면 앞으로의 매출 성장 기대에 영향을 줄 수 있는 신호다. 다만 요약만으로는 둔화 폭을 알 수 없어 원문 확인이 필요하다.",
@@ -30,7 +45,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어에 5,000달러 투자 시 2031년 가치를 예측한 글",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어에 5,000달러 투자 시 2031년 가치를 예측한 글",
           "easy": "기사 제목과 요약에 따르면 팔란티어가 고객에게 생산성 향상을 제공하며 매출이 크게 늘었다는 점을 근거로 2031년까지 5,000달러 투자의 가치를 전망하는 글이다. 본문은 확인하지 못해 구체적인 예상 금액과 근거는 기사 요약에 나오지 않았다.",
           "whyMatters": "보유자에게 장기 성장 시나리오를 보여주는 의견성 글이다. 예측일 뿐이어서 실제 주가를 보장하지 않는다.",
@@ -128,21 +143,6 @@ window.HOLDINGS_DATA = {
           "read": false
         },
         {
-          "type": "news",
-          "title": "Palantir Just Delivered a Monster Quarter, but the Stock Is Plummeting. The Reason Why Is Obvious.",
-          "url": "https://www.nasdaq.com/articles/palantir-just-delivered-monster-quarter-stock-plummeting-reason-why-obvious",
-          "date": "2026-11-05",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어 3분기 호실적에도 주가는 하락 중",
-          "tone": "bad",
-          "isNew": false,
-          "headline": "팔란티어 3분기 호실적에도 주가는 하락 중",
-          "easy": "기사 본문은 확인하지 못했고 제목과 요약만 봤다. 팔란티어가 3분기에 사상 최대 매출과 10억 달러가 넘는 이익을 냈다. 그런데도 주가가 급락하고 있다고 제목은 전한다. 구체적인 하락 이유는 요약에 안 나왔다.",
-          "whyMatters": "좋은 실적에도 주가가 떨어지는 모습이라, 보유자에게는 단기 변동성이 커질 수 있다는 신호다.",
-          "quote": null,
-          "read": false
-        },
-        {
           "type": "cnbc",
           "title": "Tuesday's biggest analyst calls of the day: Apple, SpaceX, Nvidia, Palantir & more",
           "url": "https://www.cnbc.com/2026/11/03/big-wall-street-analyst-calls-tuesday-include-apple-spacex-palantir.html",
@@ -175,51 +175,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] 실적은 견조, 선행지표 후속 점검 필요",
-          "url": "https://rreport.einfomax.co.kr/report/eqmixmgmqzieeqzgcgxeecx.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmixmgmqzieeqzgcgxeecq.pdf",
           "date": "2026-11-03",
           "publisher": "신한투자증권 심지현",
-          "ko": "증권사, 팔란티어 실적은 견조하나 계약 후속 점검 필요",
+          "ko": "팔란티어 3분기 실적은 최고 수준이나 계약 후속 점검 필요",
           "tone": "neutral",
-          "isNew": false,
-          "headline": "증권사, 팔란티어 실적은 견조하나 계약 후속 점검 필요",
-          "easy": "증권사 리포트는 팔란티어가 또 역대 최고 수준 실적을 냈다고 평가했다. 다만 앞으로 계약 기간과 규모가 커지는지가 관건이라고 봤다. 파일럿에서 대형 계약으로 빠르게 넘어가는 데는 소버린 AI가 주효했다고 한다.",
-          "whyMatters": "현재 실적은 좋지만 선행지표인 계약 흐름을 더 지켜봐야 한다는 의견이다. 보유자는 다음 분기 계약 관련 수치를 확인할 필요가 있다.",
-          "quote": null,
-          "read": false
-        }
-      ]
-    },
-    {
-      "ticker": "ZS",
-      "side": "long",
-      "items": [
-        {
-          "type": "news",
-          "title": "Why Zscaler (ZS) Dipped More Than Broader Market Today",
-          "url": "https://www.nasdaq.com/articles/why-zscaler-zs-dipped-more-broader-market-today",
-          "date": "2026-11-05",
-          "publisher": "Zacks",
-          "ko": "지스케일러 주가가 하루 9.16% 급락해 203.88달러 마감",
-          "tone": "bad",
-          "isNew": false,
-          "headline": "지스케일러 주가가 하루 9.16% 급락해 203.88달러 마감",
-          "easy": "지스케일러(ZS) 주가가 최근 거래일에 직전 종가 대비 9.16% 하락한 203.88달러로 마감했고 시장 전체보다 더 크게 내렸다. 하락 원인은 요약에 나오지 않았고 본문도 확인하지 못했다.",
-          "whyMatters": "주가 상승이 이익인 보유자에게는 하루 만에 평가손실이 커진 상황이다. 원인은 기사에 안 나와 추가 확인이 필요하다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Zacks Industry Outlook Highlights Fortinet, Zscaler and Qualys",
-          "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-fortinet-zscaler-and-qualys",
-          "date": "2026-11-03",
-          "publisher": "Zacks",
-          "ko": "사이버보안 수요 증가로 지스케일러 등이 수혜를 볼 전망이다",
-          "tone": "good",
-          "isNew": false,
-          "headline": "사이버보안 수요 증가로 지스케일러 등이 수혜를 볼 전망이다",
-          "easy": "요약에 따르면 Zacks 산업 전망은 포티넷, 지스케일러, 퀄리스가 사이버보안 수요 증가의 수혜를 볼 위치에 있다고 본다. AI 혁신과 이익 모멘텀이 성장 전망을 좌우한다고 한다. 구체적인 숫자는 기사에 안 나왔다.",
-          "whyMatters": "지스케일러 보유자에게는 업종 환경이 우호적이라는 평가이지만, 요약만으로는 세부 근거를 알 수 없다.",
+          "isNew": true,
+          "headline": "팔란티어 3분기 실적은 최고 수준이나 계약 후속 점검 필요",
+          "easy": "증권사 리포트는 팔란티어가 또다시 역대 최고 수준의 실적을 냈다고 요약했다. 다만 앞으로 계약 기간과 규모가 커지는지가 관건이라고 했다. 파일럿에서 대형 계약으로 빠르게 넘어가는 데는 소버린 AI가 주효했다고 한다.",
+          "whyMatters": "실적 자체는 보유자에게 좋은 소식이다. 하지만 선행지표인 계약 기간·규모가 커지는지 계속 확인해야 한다는 단서가 붙었다.",
           "quote": null,
           "read": false
         }
