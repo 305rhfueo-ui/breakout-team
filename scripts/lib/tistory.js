@@ -13,7 +13,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { paths, writeWindowData, say } = require('./util');
+const { paths, writeWindowData, say, readJson, writeJson } = require('./util');
 
 const BLOG = 'https://aiinvestmentworkbook.tistory.com';
 const ASIDE = path.join(process.env.HOME || '', '.local/bin/aside');
@@ -85,7 +85,7 @@ const DRY = ${!!dry}; const IMGS = ${JSON.stringify(imgs)};
 const HTML = ${JSON.stringify(html)}; const TITLE = ${JSON.stringify(title)}; const CAT = ${JSON.stringify(String(category))};
 const page = await openTab("about:blank"); page.on("dialog", d => { console.log("창:", d.message()); d.dismiss().catch(()=>{}); });
 await page.goto("${BLOG}/manage/newpost/"); await sleep(7000);
-if (page.url().includes("/auth/login")) { console.log("RESULT " + JSON.stringify({ ok: false, error: "티스토리 로그인이 풀림 — Aside 브라우저에서 티스토리(카카오) 다시 로그인" })); } else {
+if (page.url().includes("/auth/login")) { console.log("RESULT " + JSON.stringify({ ok: false, login: true, error: "티스토리 로그인이 풀림 — Aside 브라우저에서 티스토리(카카오) 다시 로그인" })); } else {
 await page.evaluate(() => tinymce.activeEditor.setContent("")); await page.fill("#post-title-inp", "");
 await page.evaluate((imgs) => { window.__imgs = imgs.map(([n,b]) => { const bin = atob(b); const u8 = new Uint8Array(bin.length); for (let i=0;i<bin.length;i++) u8[i] = bin.charCodeAt(i); return new File([u8], n, {type:"image/png"}); }); const orig = HTMLInputElement.prototype.click; HTMLInputElement.prototype.click = function() { if (this.type === "file" && window.__next) { const dt = new DataTransfer(); dt.items.add(window.__next); window.__next = null; this.files = dt.files; this.dispatchEvent(new Event("change", {bubbles:true})); return; } return orig.call(this); }; }, IMGS);
 const count = () => page.evaluate(() => (tinymce.activeEditor.getContent().match(/\\[##_Image\\|/g) || []).length);
@@ -138,4 +138,49 @@ function board(fn, { git = true, msg = 'blog: 12·13팀 글 기록' } = {}) {
   if (git) { const r = require('../finish-ondemand').gitPublish([BOARD], msg); if (!r.ok) say('WARN', `GitHub: ${r.error}`); }
 }
 
-module.exports = { BLOG, CATEGORY, recentPosts, readPost, searchPosts, toHtml, publish, findPublished, textOf, board };
+// ── 발행 → 기록·대시보드·텔레그램 (2026-11-07 사용자: "로그인 어려움 겪으면 텔레그램으로 로그인 해달라고 알려줘, 내가 '로그인 했어' 할게") ──
+// item = { team:'t12'|'t13', title, lines, images, category, text(텔레그램 — 링크 자리 {{URL}}), entry(대시보드 카드 줄), rec:{ file, root, key }(그 팀 기록) }
+// 로그인이 풀렸으면 글을 버리지 않고 대기열에 넣고 로그인을 부탁한다(3시간에 한 번) → 텔레그램 "로그인 했어" → retryPending() 이 그대로 다시 올린다.
+const PENDING = path.join(paths.cacheDir, 'tistory-pending.json');
+const LOGIN_ASK = '🔑 티스토리 로그인이 풀려 글을 올리지 못했습니다.\nAside 브라우저에서 티스토리(카카오)에 로그인한 뒤 여기에 "로그인 했어"라고 보내 주세요 — 써 둔 글을 그대로 다시 올립니다.';
+const tellDefault = (m) => require('./notify').notify(m);
+
+async function finish(item, tell) {
+  const p = await findPublished(item.title), url = p ? p.url : BLOG;
+  if (item.rec) { const j = readJson(item.rec.file, {}); j[item.rec.root] = j[item.rec.root] || {}; j[item.rec.root][item.rec.key] = { ...j[item.rec.root][item.rec.key], url, pending: false, at: new Date().toISOString() }; writeJson(item.rec.file, j); }
+  board((d) => d[item.team].posts.unshift({ ...item.entry, url }), { msg: `blog: ${item.team === 't12' ? '12팀' : '13팀'} ${item.entry.ticker} 글` });
+  await tell(item.text.replace('{{URL}}', url));
+  return url;
+}
+
+// → { ok, url } · { ok:false, queued:true } · { ok:false, error }
+async function post(item, { tell = tellDefault, pub = publish, file = PENDING } = {}) {
+  const r = pub(item);
+  if (r.ok) return { ok: true, url: await finish(item, tell) };
+  if (!r.login) return { ok: false, error: r.error };
+  const q = readJson(file, { items: [], askedAt: 0 }), ask = Date.now() - (q.askedAt || 0) > 3 * 3600e3;
+  q.items = q.items.filter((x) => x.title !== item.title).concat(item);
+  if (ask) q.askedAt = Date.now();
+  writeJson(file, q);
+  if (ask) await tell(LOGIN_ASK);
+  return { ok: false, queued: true, error: r.error };
+}
+
+async function retryPending({ tell = tellDefault, pub = publish, file = PENDING } = {}) {
+  const q = readJson(file, { items: [] }), left = [];
+  if (!q.items.length) return tell('✅ 다시 올릴 티스토리 글이 없습니다.');
+  await tell(`🔄 티스토리 글 ${q.items.length}편을 다시 올립니다 — 한 편에 1~2분.`);
+  for (let i = 0; i < q.items.length; i++) {
+    const it = q.items[i], r = pub(it);
+    if (r.ok) { await finish(it, tell); continue; }
+    if (r.login) { left.push(...q.items.slice(i)); await tell('🔑 아직 티스토리 로그인 화면이 뜹니다 — 로그인한 뒤 다시 "로그인 했어"라고 보내 주세요.'); break; }
+    it.tries = (it.tries || 0) + 1;
+    if (it.tries < 3) left.push(it);
+    await tell(`⚠️ ${it.entry.ticker} 글을 다시 올리지 못했습니다 (${it.tries}/3) — ${String(r.error).slice(0, 150)}`);
+  }
+  writeJson(file, { ...q, items: left });
+}
+
+module.exports = { BLOG, CATEGORY, recentPosts, readPost, searchPosts, toHtml, publish, findPublished, textOf, board, post, retryPending, PENDING };
+
+if (require.main === module && process.argv[2] === 'retry') { require('./util').loadEnv(); retryPending().catch((e) => { say('ERROR', e.stack || e.message); process.exit(1); }); }

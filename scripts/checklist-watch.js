@@ -68,7 +68,7 @@ const TASK = (x) => `너는 블로그 주인의 "매수 전 점검" 글을 대�
 - "## 7. 정리" — 지우 판정과 한 줄 결론, 다시 볼 조건
 제목: "(BO, 단기용) ${x.ticker} 매수 전 점검 — 한 줄 요지" (요지에 "시장 빼고 체크리스트 통과" 같은 사실을 담는다)`;
 
-async function writeAndPublish(x, { dry = false, day = today() } = {}) {
+async function writeAndPublish(x, { dry = false, day = today(), sc } = {}) {
   const dir = dirOf(day), tag = tagOf(x.ticker);
   const input = readJson(path.join(dir, `${tag}.json`), null), rec = readJson(path.join(dir, `${tag}-final.json`), null);
   if (!input || !rec) return { ok: false, error: '심층분석 결과 없음' };
@@ -92,10 +92,11 @@ async function writeAndPublish(x, { dry = false, day = today() } = {}) {
   writeJson(path.join(out, 'facts.json'), facts);
   say('T13', `${x.ticker} 점검 글: ${W.title} · ${W.lines.length}줄 · 숫자 대조 삭제 ${W.cut.length} → ${out}`);
   if (dry) return { ok: true, dry: true, dir: out, title: W.title };
-  const pub = TS.publish({ title: W.title, lines: W.lines, images, category: TS.CATEGORY.analysis || TS.CATEGORY.company });
-  if (!pub.ok) return { ok: false, error: `티스토리 발행 실패: ${pub.error}`, dir: out, rec };
-  const post = await TS.findPublished(W.title);
-  return { ok: true, title: W.title, url: post ? post.url : TS.BLOG, telegram: W.telegram, rec };
+  const r = await TS.post({ team: 't13', title: W.title, lines: W.lines, images, category: TS.CATEGORY.analysis || TS.CATEGORY.company,
+    text: message(x, sc, { ok: true, telegram: W.telegram, url: '{{URL}}', rec }),
+    entry: { ticker: x.ticker, breakDate: x.num.breakDate, verdict: rec ? rec.verdict : null, title: W.title, at: day },
+    rec: { file: HITS_FILE, root: 'hits', key: `${x.ticker}|${x.num.breakDate}` } });
+  return { ...r, title: W.title, dir: out, rec, error: r.error && `티스토리 발행 실패: ${r.error}` };
 }
 
 function message(x, sc, r) {
@@ -121,7 +122,7 @@ async function main() {
   if (only) {
     const x = sc.items.find((i) => i.ticker === only);
     if (!x) { say('WARN', `${only}: 오늘 돌파 종목이 아니다`); return; }
-    const r = await writeAndPublish(x, { dry });
+    const r = await writeAndPublish(x, { dry, sc });
     say('T13', JSON.stringify({ ok: r.ok, dir: r.dir, title: r.title, url: r.url, error: r.error }));
     return;
   }
@@ -129,7 +130,7 @@ async function main() {
   const todo = sc.items.filter((x) => x.miss.length <= MAX_MISS && !hits.hits[`${x.ticker}|${x.num.breakDate}`]).slice(0, DAILY_CAP);
   const scan = { session: sc.session, regime: sc.regime, snapDate: sc.snapDate, breakouts: sc.items.length,
     near: sc.items.filter((x) => x.miss.length <= 2).slice(0, 8).map((x) => ({ ticker: x.ticker, miss: x.miss, breakVol: x.num.breakVol })) };
-  const posts = [], save = () => TS.board((d) => { d.t13.lastScan = scan; d.t13.posts.unshift(...posts); }, { msg: `blog: 13팀 ${sc.session} 돌파 ${sc.items.length}종목 · 부합 ${posts.length}` });
+  const posts = [], save = () => TS.board((d) => { d.t13.lastScan = scan; d.t13.posts.unshift(...posts); }, { msg: `blog: 13팀 ${sc.session} 돌파 ${sc.items.length}종목 · 부합 ${todo.length}` });
   if (!todo.length) { say('T13', '체크리스트 부합 종목 없음'); save(); return; }
   const { notify } = require('./lib/notify');
   for (const x of todo) {
@@ -137,15 +138,16 @@ async function main() {
     let r;
     try {
       execFileSync('bash', [path.join(REPO, 'deploy/macmini/run-ondemand.sh'), x.ticker], { cwd: REPO, env: { ...process.env, ONDEMAND_QUIET: '1' }, stdio: 'inherit', timeout: 30 * 60 * 1000 });
-      r = await writeAndPublish(x);
+      r = await writeAndPublish(x, { sc });
     } catch (e) { r = { ok: false, error: `심층분석 실패 (${String(e.message).split('\n')[0].slice(0, 120)})` }; }
-    hits.hits[`${x.ticker}|${x.num.breakDate}`] = { at: new Date().toISOString(), url: r.url || null, error: r.ok ? null : r.error };
+    hits.hits[`${x.ticker}|${x.num.breakDate}`] = { at: new Date().toISOString(), url: r.url || null, pending: !!r.queued, error: r.ok || r.queued ? null : r.error };
     writeJson(HITS_FILE, hits);
-    posts.push({ ticker: x.ticker, breakDate: x.num.breakDate, verdict: r.rec ? r.rec.verdict : null, title: r.title || null, url: r.url || null, error: r.ok ? null : String(r.error).slice(0, 150), at: today() });
+    if (r.ok || r.queued) continue;   // 올렸으면 TS.post 가 대시보드·텔레그램까지 했고, 로그인 대기면 로그인을 부탁했다
+    posts.push({ ticker: x.ticker, breakDate: x.num.breakDate, verdict: r.rec ? r.rec.verdict : null, title: r.title || null, url: null, error: String(r.error).slice(0, 150), at: today() });
     await notify(message(x, sc, r));
   }
   save();
 }
 
 if (require.main === module) main().catch((e) => { say('ERROR', e.stack || e.message); process.exit(1); });
-module.exports = { screen, writeAndPublish };
+module.exports = { screen, writeAndPublish, message };

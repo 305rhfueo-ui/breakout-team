@@ -148,10 +148,12 @@ async function review(trade, { dry = false } = {}) {
   writeJson(path.join(dir, 'facts.json'), tf.facts);
   say('T12', `${T} 복기 글: ${W.title} · ${W.lines.length}줄 · 숫자 대조 삭제 ${W.cut.length} → ${dir}`);
   if (dry) return { ok: true, dry: true, dir, title: W.title };
-  const pub = TS.publish({ title: W.title, lines: W.lines, images, category: TS.CATEGORY.tradeStock });
-  if (!pub.ok) return { ok: false, error: `티스토리 발행 실패: ${pub.error}`, dir };
-  const post = await TS.findPublished(W.title);
-  return { ok: true, dir, title: W.title, url: post ? post.url : TS.BLOG, telegram: W.telegram, facts: tf.facts };
+  const f = tf.facts;
+  const r = await TS.post({ team: 't12', title: W.title, lines: W.lines, images, category: TS.CATEGORY.tradeStock,
+    text: `📝 12팀 도담 — ${T} 매매 복기 (${f.result} ${f.returnPct}%)\n${W.telegram}\n티스토리에 올렸습니다: {{URL}}`,
+    entry: { ticker: T, entryDate: trade.entryDate, exitDate: trade.exitDate, result: f.result, returnPct: f.returnPct, title: W.title, at: today() },
+    rec: { file: DONE_FILE, root: 'done', key: keyOf(trade) } });
+  return { ...r, dir, title: W.title, error: r.error && `티스토리 발행 실패: ${r.error}` };
 }
 
 async function main() {
@@ -164,17 +166,15 @@ async function main() {
   const closed = trades.filter((t) => t && t.ticker && t.exitDate && t.exitPrice != null && t.entryDate && t.entryPrice != null);
   const done = readJson(DONE_FILE, { v: 1, done: {} });
   if (a.includes('--seed')) { for (const t of closed) done.done[keyOf(t)] = done.done[keyOf(t)] || { ticker: t.ticker, seeded: today() }; writeJson(DONE_FILE, done); say('T12', `기록만: ${closed.map((t) => t.ticker).join(', ')}`); return; }
-  const todo = only ? closed.filter((t) => String(t.ticker).toUpperCase() === only) : closed.filter((t) => !(done.done[keyOf(t)] && (done.done[keyOf(t)].url || done.done[keyOf(t)].seeded || done.done[keyOf(t)].tries >= MAX_TRIES)));
+  const todo = only ? closed.filter((t) => String(t.ticker).toUpperCase() === only) : closed.filter((t) => !(done.done[keyOf(t)] && (done.done[keyOf(t)].url || done.done[keyOf(t)].seeded || done.done[keyOf(t)].pending || done.done[keyOf(t)].tries >= MAX_TRIES)));
   if (!todo.length) { say('T12', '새로 청산된 거래 없음'); return; }
   for (const t of todo) {
     const r = await review(t, { dry }).catch((e) => ({ ok: false, error: e.message }));
     if (dry || only) { say('T12', JSON.stringify({ ok: r.ok, dir: r.dir, title: r.title, error: r.error })); continue; }
     const k = keyOf(t), rec = done.done[k] || { ticker: t.ticker, tries: 0 };
-    if (r.ok) {
-      done.done[k] = { ...rec, url: r.url, at: new Date().toISOString() };
-      TS.board((d) => d.t12.posts.unshift({ ticker: t.ticker, entryDate: t.entryDate, exitDate: t.exitDate, result: r.facts.result, returnPct: r.facts.returnPct, title: r.title, url: r.url, at: today() }), { msg: `blog: 12팀 ${t.ticker} 복기 글` });
-      await notify(`📝 12팀 도담 — ${t.ticker} 매매 복기 (${r.facts.result} ${r.facts.returnPct}%)\n${r.telegram}\n티스토리에 올렸습니다: ${r.url}`);
-    } else {
+    if (r.ok) done.done[k] = { ...rec, url: r.url, at: new Date().toISOString() };   // 대시보드·텔레그램은 TS.post 가 했다
+    else if (r.queued) done.done[k] = { ...rec, pending: true };                       // 로그인 대기 — 텔레그램 "로그인 했어" 때 이 글 그대로 올린다
+    else {
       done.done[k] = { ...rec, tries: (rec.tries || 0) + 1, lastError: r.error };
       say('WARN', `${t.ticker} 복기 실패: ${r.error}`);
       await notify(`⚠️ 12팀 도담 — ${t.ticker} 복기 글을 올리지 못했습니다 (${done.done[k].tries}/${MAX_TRIES}번째, 다음 아침 다시)\n${String(r.error).slice(0, 200)}${r.dir ? `\n글 초안: ${r.dir}` : ''}`);
