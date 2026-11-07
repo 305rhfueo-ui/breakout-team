@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-07T13:00:16.860Z",
+  "updated": "2026-11-07T22:10:10.510Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,28 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Palantir Stock Just Fell 8 Days in a Row. History Says What Followed Its Only 2 Longer Losing Streaks.",
+          "url": "https://www.nasdaq.com/articles/palantir-stock-just-fell-8-days-row-history-says-what-followed-its-only-2-longer-losing",
+          "date": "2026-11-07",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어 주가가 8거래일 연속 하락했다",
+          "tone": "bad",
+          "isNew": true,
+          "headline": "팔란티어 주가가 8거래일 연속 하락했다",
+          "easy": "팔란티어 주가가 11월 5일까지 8거래일 연속 하락 마감했고, 그 사이 약 22% 떨어졌다. 기사 제목은 과거 이보다 더 길게 하락한 사례가 2번뿐이었다며 그 뒤 흐름을 짚는다고 했다. 다만 하락 원인과 과거 사례 이후의 결과는 제공된 요약에 나오지 않았다.",
+          "whyMatters": "주가가 올라야 이익인 보유자에게는 단기간에 평가손실이 커진 상황이다. 과거 사례 이후 흐름은 기사 본문을 확인해야 알 수 있다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "Palantir Stock Investors Just Got Great News From a Wall Street Analyst (Hint: The Stock Could Soar)",
           "url": "https://www.nasdaq.com/articles/palantir-stock-investors-just-got-great-news-wall-street-analyst-hint-stock-could-soar",
           "date": "2026-11-07",
           "publisher": "The Motley Fool",
           "ko": "JP모건 애널리스트가 팔란티어 목표가 262달러로 분석 시작",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "JP모건 애널리스트가 팔란티어 목표가 262달러로 분석 시작",
           "easy": "JP모건의 브라이언 에섹스 애널리스트가 팔란티어 분석을 새로 시작했다. 제시한 목표주가는 주당 262달러로, 월가에서 가장 높은 축에 속한다고 제목·요약에 나왔다. 본문은 확인하지 못해 그 밖의 근거는 기사에 안 나왔다.",
           "whyMatters": "보유자에게는 대형 투자은행이 높은 목표가를 낸 점이 긍정적인 신호다. 다만 목표가는 전망일 뿐 주가를 보장하지 않는다.",
@@ -128,21 +143,6 @@ window.HOLDINGS_DATA = {
           "read": false
         },
         {
-          "type": "news",
-          "title": "Palantir Just Made Company History. Is the Stock a Buy?",
-          "url": "https://www.nasdaq.com/articles/palantir-just-made-company-history-stock-buy",
-          "date": "2026-11-05",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어 사상 최초 기록, 주가는 이미 많이 반영됐다는 시각",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어 사상 최초 기록, 주가는 이미 많이 반영됐다는 시각",
-          "easy": "기사 본문은 확인하지 못했고 제목과 요약만 봤다. 팔란티어가 회사 역사상 처음인 기록을 세웠다는 내용이다. 요약은 주가에 미래 성장이 너무 많이 반영돼 있다고 지적한다. 어떤 기록인지는 기사에 안 나왔다.",
-          "whyMatters": "보유 중이라면 호재성 기록에도 주가 부담을 경고하는 시각이 있다는 점을 참고할 만하다. 세부 내용은 본문 확인이 필요하다.",
-          "quote": null,
-          "read": false
-        },
-        {
           "type": "cnbc",
           "title": "Tuesday's biggest analyst calls of the day: Apple, SpaceX, Nvidia, Palantir & more",
           "url": "https://www.cnbc.com/2026/11/03/big-wall-street-analyst-calls-tuesday-include-apple-spacex-palantir.html",
@@ -180,7 +180,7 @@ window.HOLDINGS_DATA = {
           "publisher": "신한투자증권 심지현",
           "ko": "팔란티어 3분기 실적은 최고 수준이나 계약 후속 점검 필요",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 3분기 실적은 최고 수준이나 계약 후속 점검 필요",
           "easy": "증권사 리포트는 팔란티어가 또다시 역대 최고 수준의 실적을 냈다고 요약했다. 다만 앞으로 계약 기간과 규모가 커지는지가 관건이라고 했다. 파일럿에서 대형 계약으로 빠르게 넘어가는 데는 소버린 AI가 주효했다고 한다.",
           "whyMatters": "실적 자체는 보유자에게 좋은 소식이다. 하지만 선행지표인 계약 기간·규모가 커지는지 계속 확인해야 한다는 단서가 붙었다.",
