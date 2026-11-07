@@ -2,6 +2,12 @@
  "ticker": "LYV",
  "news": [
   {
+   "title": "Live Nation (LYV) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/live-nation-lyv-q3-2026-earnings-call-transcript",
+   "date": "2026-11-06",
+   "publisher": "The Motley Fool"
+  },
+  {
    "title": "Live Nation (LYV) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
    "url": "https://www.nasdaq.com/articles/live-nation-lyv-q3-earnings-how-key-metrics-compare-wall-street-estimates",
    "date": "2026-11-05",
@@ -32,49 +38,79 @@
    "publisher": "BNK Invest"
   },
   {
-   "title": "TKO Group Holdings (TKO) Tops Q3 Earnings Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/tko-group-holdings-tko-tops-211503762.html",
-   "date": "2026-11-04",
+   "title": "JPMorgan Adjusts Price Target on Live Nation Entertainment to $200 From $205",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-live-112246702.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "MoffettNathanson Adjusts Price Target on Live Nation Entertainment to $208 From $205, Keeps Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/moffettnathanson-adjusts-price-target-live-101405601.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Live Nation Entertainment Inc (LYV) (Q3 2026) Earnings Call Highlights: Record Attendance and ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-entertainment-inc-lyv-091700546.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Live Nation (NYSE:LYV) beats expectations in strong Q3 2026",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-nyse-lyv-beats-230654791.html",
+   "date": "2026-11-05",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Live Nation (LYV) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-q3-earnings-220002039.html",
+   "date": "2026-11-05",
    "publisher": "Zacks",
    "via": "Yahoo"
   },
   {
-   "title": "How Strong Concert Demand At Live Nation Entertainment Stock Has Changed Its Investment Story",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/strong-concert-demand-live-nation-021009386.html",
-   "date": "2026-11-04",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Live Nation Entertainment (LYV) Nears Earnings, Is The 11% Undervalued View Still Convincing?",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-entertainment-lyv-nears-010949432.html",
-   "date": "2026-11-04",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Live Nation (LYV) Stock Could Be Near Fair Value On Cash Flow",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-stock-could-222407382.html",
-   "date": "2026-11-03",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Live Nation (LYV) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-q3-earnings-131507334.html",
-   "date": "2026-11-03",
+   "title": "Live Nation (LYV) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-q3-earnings-214511923.html",
+   "date": "2026-11-05",
    "publisher": "Zacks",
    "via": "Yahoo"
   },
   {
-   "title": "Live Nation (LYV) Reports Next Week: Wall Street Expects Earnings Growth",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-lyv-reports-next-130018628.html",
-   "date": "2026-10-29",
-   "publisher": "Zacks",
+   "title": "Live Nation Entertainment Q3 Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/live-nation-entertainment-q3-earnings-213053919.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LIVE NATION ENTERTAINMENT REPORTS THIRD QUARTER 2026 RESULTS",
+   "url": "https://finance.yahoo.com/media-advertising/articles/live-nation-entertainment-reports-third-211000299.html",
+   "date": "2026-11-05",
+   "publisher": "PR Newswire",
    "via": "Yahoo"
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000052/lyv-20261105.htm",
+   "description": "8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-10-16",
@@ -157,22 +193,6 @@
    ],
    "isEarnings": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000034/lyv-20260730.htm",
-   "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-06-12",
-   "reportDate": "2026-06-11",
-   "items": [
-    "5.07",
-    "9.01"
-   ],
-   "itemsKo": [
-    "주주총회 표결",
-    "재무제표·첨부"
-   ],
-   "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000025/lyv-20260611.htm",
    "description": "8-K"
   }
  ],

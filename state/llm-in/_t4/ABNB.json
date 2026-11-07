@@ -2,48 +2,6 @@
  "ticker": "ABNB",
  "news": [
   {
-   "title": "Compared to Estimates, Airbnb (ABNB) Q3 Earnings: A Look at Key Metrics",
-   "url": "https://www.nasdaq.com/articles/compared-estimates-airbnb-abnb-q3-earnings-look-key-metrics",
-   "date": "2026-11-05",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Airbnb, Inc. (ABNB) Beats Q3 Earnings and Revenue Estimates",
-   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-beats-q3-earnings-and-revenue-estimates",
-   "date": "2026-11-05",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Airbnb, Inc. (ABNB) Just Flashed Golden Cross Signal: Do You Buy?",
-   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-just-flashed-golden-cross-signal-do-you-buy",
-   "date": "2026-11-05",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Airbnb (ABNB) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
-   "url": "https://www.nasdaq.com/articles/airbnb-abnb-q3-earnings-horizon-analysts-insights-key-performance-measures",
-   "date": "2026-11-02",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Airbnb, Inc. (ABNB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-earnings-expected-grow-what-know-ahead-next-weeks-release",
-   "date": "2026-10-29",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Nasdaq-100® Inside the Index: Airbnb (ABNB)",
-   "url": "https://www.nasdaq.com/articles/global-indexes/inside-the-index/abnb",
-   "date": "2026-10-28",
-   "publisher": "Nasdaq Index Insights Team"
-  },
-  {
-   "title": "Airbnb, Inc. (ABNB) Stock Sinks As Market Gains: What You Should Know",
-   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-stock-sinks-market-gains-what-you-should-know",
-   "date": "2026-10-27",
-   "publisher": "Zacks"
-  },
-  {
    "title": "Airbnb Q3 Earnings Call Highlights",
    "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-q3-earnings-call-highlights-001430309.html",
    "date": "2026-11-06",
@@ -97,75 +55,45 @@
   {
    "form": "8-K",
    "filingDate": "2026-11-05",
-   "reportDate": "2026-11-05",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988d8k.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988d8k.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-06",
-   "reportDate": "2026-08-06",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413d8k.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413d8k.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-06-11",
-   "reportDate": "2026-06-05",
-   "items": [
-    "5.07"
-   ],
    "itemsKo": [
     "주주총회 표결"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-07",
-   "reportDate": "2026-05-07",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351d8k.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351d8k.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-03-16",
-   "reportDate": "2026-03-12",
-   "items": [
-    "1.01",
-    "2.03",
-    "8.01",
-    "9.01"
-   ],
    "itemsKo": [
     "중요 계약 체결",
     "2.03",
@@ -173,28 +101,97 @@
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526108514/d106317d8k.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526108514/d106317d8k.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-02-12",
-   "reportDate": "2026-02-12",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm"
   }
  ],
- "financials": null,
- "krReports": null,
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559720&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 3608000000,
+    "profit": 758000000,
+    "netIncome": 816000000,
+    "margin": 21,
+    "yoy": {
+     "revenue": 16.5,
+     "profit": 23.9,
+     "netIncome": 27.1,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 2678000000,
+    "profit": 86000000,
+    "netIncome": 160000000,
+    "margin": 3.2,
+    "yoy": {
+     "revenue": 17.9,
+     "profit": 126.3,
+     "netIncome": 3.9,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 2778000000,
+    "profit": 269000000,
+    "netIncome": 341277000,
+    "margin": 9.7,
+    "yoy": {
+     "revenue": 12,
+     "profit": -37.4,
+     "netIncome": -26,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 4095000000,
+    "profit": 1625000000,
+    "netIncome": 1374000000,
+    "margin": 39.7,
+    "yoy": {
+     "revenue": 9.7,
+     "profit": 6.6,
+     "netIncome": 0.4,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 1,
+  "reports": [
+   {
+    "date": "2026-08-07",
+    "broker": "한화증권",
+    "analyst": "박제인",
+    "title": "[에어비앤비 (NAS:ABNB)] Earnings Flash",
+    "summary": "- 매출액 36.1억 달러(YoY +16.5%), EPS 1.37달러(YoY +33%)로 각각 예상치 0.8%, 8.7% 상회- 순이익률 22.6%(YoY +1.9%p), 조정 EBITDA 마진 35%(YoY +1.3%p)로 수익성 개선.- 글로벌 예약 성장 가속과 연간 매출·수익성 가이던스 상향, AI 기반 운영 효율성 부각되며 시간외 7.8% 상승",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxgxqklqqemzmgcgxeecq.pdf",
+    "pages": "1"
+   }
+  ]
+ },
  "site": {
   "targetStatus": false,
   "saleCy": 15.83,

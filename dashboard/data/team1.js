@@ -516,8 +516,308 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-07",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "중간선거 뒤 AI 주식이 급락했다가 하루 만에 반등했다",
+        "easy": "미국 중간선거 결과가 나온 뒤 AI 관련 주식이 한꺼번에 팔려 시가총액이 수조 달러 줄었다. 선거 결과가 데이터센터·전기요금 문제를 정치 쟁점으로 만들 수 있다는 걱정이 방아쇠였다. 다음 날 AI 주식은 다시 올랐지만, 떨어진 폭을 되찾지는 못했다. 즉 AI 설비투자를 둘러싼 정치 리스크가 주가에 새로 들어온 셈이다.",
+        "whyMatters": "반도체·소프트웨어처럼 AI 설비투자에 매출이 걸린 업종과 데이터센터용 전력·유틸리티 업종이 선거 뉴스에 같이 흔들린다. 반대로 AI 비중이 낮은 헬스케어·필수소비 쪽은 상대적으로 덜 움직인다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Why the US midterms sparked an AI stock selloff",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-06",
+            "quote": "Why the US midterms sparked an AI stock selloff",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "AI stocks climb after trillions wiped from market values",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-06",
+            "quote": "AI stocks climb after trillions wiped from market values",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "반도체주가 되올랐지만 안심은 이르다는 평가가 나왔다",
+        "easy": "Nvidia와 AMD 등 반도체 주식이 전날 급락분을 일부 되돌렸다. 급락 자체가 빠르고 거칠었던 만큼, 이번 반등이 잠깐 쉬는 것인지 바닥인지를 두고 의견이 갈린다. 반등 하루로 추세가 바뀌었다고 보기는 어렵다는 쪽이 기사 제목의 취지다. 지켜볼 것은 되돌림이 이어지는지, 다시 저점을 깨는지다.",
+        "whyMatters": "반도체 업종이 지수를 끌고 가는 구조여서, 여기서 다시 밀리면 기술 업종 전체가 같이 눌린다. Nvidia·AMD의 되돌림이 이어지는지가 기술주 방향의 가늠자다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Nvidia, AMD and other chip stocks rebound but is relief from the 'violent' selloff only temporary?",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+            "date": "2026-11-06",
+            "quote": "Nvidia, AMD and other chip stocks rebound but is relief from the 'violent' selloff only temporary?",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "데이터센터가 빚으로 지어져 채권시장 부담이 커진다",
+        "easy": "데이터센터 건설 자금이 대부분 빌린 돈으로 조달되고 있다는 지적이다. 그래서 올해 채권시장에 부담이 됐고 앞으로 더 심해질 것이라는 전망이 기사 요지다. 빚으로 짓는 설비가 늘면 이자 부담과 자금 조달 조건이 투자 속도를 좌우한다. 즉 AI 투자 이야기가 주식 문제에서 채권 문제로 번지고 있다.",
+        "whyMatters": "데이터센터 임대·건설에 돈을 쓰는 데이터센터 리츠와 설비·전력 업종은 조달 비용이 오르면 계획을 줄여야 한다. 반대로 신용등급이 높고 현금으로 투자하는 대형 기술 기업은 상대적으로 버티기 쉽다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Data centers run on debt. That was a problem for bonds this year and it's only going to get worse.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
+            "date": "2026-11-06",
+            "quote": "Data centers run on debt. That was a problem for bonds this year and it's only going to get worse.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI는 선거 결과와 무관하게 데이터센터 투자를 계속한다고 밝혔다",
+        "easy": "OpenAI 최고재무책임자는 선거 결과에도 데이터센터 투자를 계속하겠다고 말했다. 전기요금을 올리지 않겠다고도 했는데, 데이터센터가 주민 전기요금을 밀어올린다는 반발을 달래려는 발언이다. Arm 최고경영자는 선거 뒤 걱정이 아주 단기적인 생각이라고 했고, Qualcomm 최고경영자는 자사 사업이 데이터센터 밖에도 있다고 했다. 설비투자 계획이 당장 줄지는 않는다는 쪽에 무게가 실린 셈이다.",
+        "whyMatters": "AI 설비투자가 유지되면 반도체·네트워크 장비·데이터센터 건설 업종의 주문이 이어진다. Arm·Qualcomm처럼 매출이 데이터센터에만 묶이지 않은 회사는 같은 악재에서 덜 깎인다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
+            "date": "2026-11-06",
+            "quote": "Arm CEO Rene Haas characterized the postelection concerns as \"very, very short term thinking\"",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+            "date": "2026-11-06",
+            "quote": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic 상장 기업가치 기대가 1조 달러까지 낮아졌다",
+        "easy": "Anthropic은 최근까지 상장에서 2조 달러 기업가치를 바라봤다. 그런데 이번 주 기술주 하락으로 투자자들은 1조 5천억 달러도 어렵다고 보고, 일부는 1조 달러까지 내려갈 수 있다고 말한다. 비상장 AI 기업의 값이 공개시장 주가에 그대로 따라 내려오는 모습이다. 상장 가격이 어디서 정해지는지가 AI 투자 열기의 온도계가 된다.",
+        "whyMatters": "AI 비상장 기업의 값이 깎이면 그 지분을 들고 있는 기술·금융 업종과 벤처 투자 비중이 큰 회사의 평가이익이 줄어든다. 신규 상장이 식으면 증권·자산운용 업종의 수수료 기대도 낮아진다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+            "date": "2026-11-06",
+            "quote": "With the tech selloff this week, some Anthropic investors now expect Anthropic to list below a $1.5 trillion valuation, with some saying that number could dip to $1 trillion.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "고용 숫자는 좋았지만 장기 실업자가 늘고 있다",
+        "easy": "10월 고용 지표는 겉으로 튼튼했지만 실업 기간이 길어지고 있다. 평균 실업 기간이 27.1주로 팬데믹 시기를 빼면 10년 만에 가장 길었다. 27주 이상 일자리를 못 구한 사람이 약 200만 명으로 전체 실업자의 27.6%다. 즉 해고가 폭증한 게 아니라 한번 실업하면 재취업이 안 되는 쪽으로 노동시장이 식고 있다.",
+        "whyMatters": "재취업이 늦어지면 소비가 먼저 줄어 소매·여행·외식 같은 경기소비 업종에 부담이 간다. 반대로 금리 인하 기대를 키워 유틸리티·부동산처럼 금리에 민감한 업종에는 숨통이 될 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+            "date": "2026-11-06",
+            "quote": "The average duration of unemployment rose to 27.1 weeks in October, the highest outside of the pandemic period in a decade.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니다. QQQ 종가 656.1 로 10일선이 20일선 아래로 내려간 지 14일째이고, 지수가 10일·20일·50일선 모두 아래에 있어 추세가 꺾인 자리다. 오늘 뉴스는 중간선거 뒤 AI 주식이 한꺼번에 팔렸다가 하루 만에 일부 되돌린 것으로, 하락 원인이 실적이 아니라 AI 설비투자를 둘러싼 정치·자금 조달 걱정이라는 뜻이다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘었다는 것으로, 하락이 이어지면 반대매매가 낙폭을 키운다. 이번 주는 반도체주의 되돌림이 이어지는지와 10일선이 20일선 위로 되올라오는지를 보면 된다.",
+    "keyRisks": [
+      "AI 설비투자 정치 리스크: 선거 뒤 데이터센터·전기요금이 쟁점이 되면 투자 계획 자체가 늦춰질 수 있고, 그 기대로 올라온 반도체·전력 업종이 먼저 깎인다.",
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어 늘어난 상태라 하락이 며칠 이어지면 강제 매도가 겹쳐 낙폭이 커진다.",
+      "조달 비용: 데이터센터가 빌린 돈으로 지어지고 있어 채권시장이 흔들리면 설비투자 속도가 바로 줄어든다.",
+      "노동시장 냉각: 실업 기간이 길어지는 흐름이 계속되면 소비가 줄어 경기소비 업종 실적 전망이 내려간다."
+    ],
+    "easySummary": [
+      "중간선거 뒤 AI 주식이 크게 팔렸고, 하루 만에 일부만 되돌렸다.",
+      "AI 설비투자는 계속한다는 경영진 발언이 나왔지만, 데이터센터가 빚으로 지어진다는 부담과 Anthropic 상장 기대 하향이 같이 왔다.",
+      "지수는 추세가 꺾인 자리이고 빚내서 산 주식도 많아, 새로 사기보다 되돌림이 이어지는지 확인할 때다."
+    ],
+    "candidateCount": 16,
+    "verified": {
+      "checked": 192,
+      "ok": 359,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 11,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://rreport.einfomax.co.kr/report/eqmiqlemeqxlxkegcgxeecq.pdf"
+        }
+      ],
+      "numberCut": 24,
+      "numberCuts": [
+        {
+          "sentence": "AI 관련주 전반이 흔들리며 주가가 10월 5일 고점 487.47달러에서 많이 내려왔고, 최근 기사에서도 과매도(너무 많이 팔린 상태) 구간에 들어갔다고 짚었다.",
+          "missing": [
+            "487.47"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점(195.66달러, 2025년 11월)보다 여전히 약 36% 낮다.",
+          "missing": [
+            "36"
+          ]
+        },
+        {
+          "sentence": "코로나19 백신 판매가 이를 이끌었다.",
+          "missing": [
+            "19"
+          ]
+        },
+        {
+          "sentence": "7~9월 분기 매출이 145.8억 달러로 1년 전보다 161% 늘었고, 영업이익 27.9억 달러로 흑자로 돌아섰다.",
+          "missing": [
+            "161"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 영업손실 1.4억 달러였다.",
+          "missing": [
+            "1.4억 달러"
+          ]
+        },
+        {
+          "sentence": "다음 분기 투자액은 375억 달러로 1년 전의 약 5배이고, 자금 조달 부담도 커졌다.",
+          "missing": [
+            "375억 달러",
+            "5"
+          ]
+        },
+        {
+          "sentence": "조정 EPS는 0.35달러로 증권사 예상 0.15달러의 2배를 넘었다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "6월 말 분기 매출이 20억 달러를 넘어 1년 전보다 33.7% 늘었다.",
+          "missing": [
+            "20억 달러"
+          ]
+        },
+        {
+          "sentence": "순이익은 약 2.2억 달러로 1년 전의 약 4배다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "성장 속도가 앞선 분기(17.5%→20.5%→33.7%)보다 계속 빨라졌다.",
+          "missing": [
+            "17.5"
+          ]
+        },
+        {
+          "sentence": "매출이 빠르게 늘어 영업이익률도 33% 수준까지 오를 것으로 보인다.",
+          "missing": [
+            "33"
+          ]
+        },
+        {
+          "sentence": "9월 분기 매출은 82.2억 달러로 1년 전보다 54% 늘었다.",
+          "missing": [
+            "54"
+          ]
+        },
+        {
+          "sentence": "11월 6일 250억 달러 규모 자사주 매입이 승인됐다.",
+          "missing": [
+            "250억 달러"
+          ]
+        },
+        {
+          "sentence": "직전 분기 증가율 15.2%에서 크게 빨라졌다.",
+          "missing": [
+            "15.2"
+          ]
+        },
+        {
+          "sentence": "같은 시기 3분기 실적 발표와 7억 5천만 달러 자금 조달도 있었으나, 거래량 급증의 중심은 인수 제안 보도다.",
+          "missing": [
+            "7억 5"
+          ]
+        },
+        {
+          "sentence": "회사가 SEC에 실적 발표 공시(8-K)를 냈고, 같은 날 3분기 결과를 공식 발표했다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "이 두 소식이 나온 날 주가가 14~15% 하락했다.",
+          "missing": [
+            "14"
+          ]
+        },
+        {
+          "sentence": "3분기 매출은 47.3억 달러(+15.5%)를 가이던스로 제시했다.",
+          "missing": [
+            "47.3억 달러",
+            "15.5"
+          ]
+        },
+        {
+          "sentence": "Meta향 CPU 공급과 AWS 공동 개발이 예정돼 있고 FY2027 데이터센터 매출 목표 50억 달러를 유지했다.",
+          "missing": [
+            "50억 달러"
+          ]
+        },
+        {
+          "sentence": "고객 2곳에 매출이 쏠려 있고, 신한투자증권은 단계별 매출화 검증이 필요하다고 봤다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "대신증권은 8월 실적에서 3분기 총마진 가이던스가 58.0%로 0.9%p 낮아졌다고 짚었다.",
+          "missing": [
+            "0.9"
+          ]
+        },
+        {
+          "sentence": "KLA가 2026-10-28 실적 발표 8-K를 제출했다.",
+          "missing": [
+            "10",
+            "28"
+          ]
+        },
+        {
+          "sentence": "4분기 설비투자가 375억 달러로 전년의 5배 넘게 늘고 자금 조달 부담이 있다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "영업이익은 3.6억 달러(영업이익률 28.5%)로 크게 늘었다.",
+          "missing": [
+            "28.5"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-07"
   }
 };

@@ -1,0 +1,173 @@
+{
+ "ticker": "RHLD",
+ "news": [
+  {
+   "title": "Resolute Holdings Reports Third Quarter 2026 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/resolute-holdings-reports-third-quarter-120000355.html",
+   "date": "2026-11-05",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2039497/000110465926123027/rhld-20261105x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2039497/000110465926091621/rhld-20260806x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2039497/000110465926073481/rhld-20260611x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "itemsKo": [
+    "중요 계약 체결",
+    "실적 발표",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2039497/000110465926056668/rhld-20260507x8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-23",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2039497/000095014226000800/eh260753464_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-16",
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2039497/000110465926028017/tm268864d1_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002039497&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 509600000,
+    "profit": 118500000,
+    "netIncome": -5800000,
+    "margin": 23.3,
+    "yoy": {
+     "revenue": 321.5,
+     "profit": 186.2,
+     "netIncome": -2800,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 473200000,
+    "profit": 35200000,
+    "netIncome": -12400000,
+    "margin": 7.4,
+    "yoy": {
+     "revenue": 295.7,
+     "profit": -13.3,
+     "netIncome": -1966.7,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 407800000,
+    "profit": -5800000,
+    "netIncome": 61500000,
+    "margin": -1.4,
+    "yoy": {
+     "revenue": 292.5,
+     "profit": -122.7,
+     "netIncome": 1908.8,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 117755000,
+    "profit": 35559000,
+    "netIncome": -1723000,
+    "margin": 30.2,
+    "yoy": {
+     "revenue": 16.8,
+     "profit": 1607.9,
+     "netIncome": 26.2,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    295.65,
+    292.49,
+    16.69
+   ],
+   "ni": [
+    "적자확대",
+    "흑자전환",
+    "적자축소"
+   ],
+   "opm": [
+    7.44,
+    -1.42,
+    30.25
+   ],
+   "updated": "2026-09-08 08:02:19"
+  }
+ }
+}

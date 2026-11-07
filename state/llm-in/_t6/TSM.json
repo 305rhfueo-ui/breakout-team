@@ -1,0 +1,700 @@
+{
+ "ticker": "TSM",
+ "date": "2026-11-07",
+ "session": "2026-11-06",
+ "source": "list",
+ "plan": {
+  "ticker": "TSM",
+  "name": "TSMC(ADR)",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 375.44,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 487.47,
+  "stop": 475.74,
+  "distToPivotPct": -22.98,
+  "distToPivotAdr": -7.35,
+  "riskPerSharePct": 2.41,
+  "adrPct": 3.13,
+  "extensionAdr": -2.66,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 26,
+   "baseWeeks": 5.2,
+   "depthPct": 28,
+   "priorMovePct": 30.8,
+   "higherLows": 1,
+   "contraction": 1.19,
+   "closeRange10Adr": 7.4,
+   "surf10": -2.66,
+   "surf20": -3.49,
+   "slope20": -4.84,
+   "baseLow": 351.19,
+   "lastSwingLow": 410.22
+  },
+  "reasons": [
+   "선행 상승 +31%",
+   "베이스 5.2주",
+   "✗ 깊이 28%",
+   "저점 상승 1회",
+   "✗ 진폭 1.19배 · 10일 종가폭 7.4 ADR",
+   "✗ 10일선 -2.7 ADR · 20일선 -3.5 ADR",
+   "✗ 20일선 기울기 -4.84%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.045102049464399746,
+    "pct": 16.456266907123535
+   },
+   "m3": {
+    "v": -0.022697484410133556,
+    "pct": 28.89990982867448
+   },
+   "m6": {
+    "v": 0.02150160832060667,
+    "pct": 31.424706943192067
+   }
+  },
+  "ret1m": -17.18,
+  "ret3m": -12.55,
+  "ret6m": -4.7,
+  "marketCap": "2052.55B",
+  "volx": 1.49,
+  "volSurgeWk": 1.16,
+  "high52": 77.02,
+  "newHigh52": false,
+  "adr": 3.13,
+  "div50": -12.97,
+  "div200": -6.15,
+  "targetStatus": false,
+  "saleCy": 46.55,
+  "saleNy": 37.78,
+  "epsCy": 64.2,
+  "epsNy": 34.01,
+  "cyTrend": 3.31,
+  "nyTrend": 6.91,
+  "est": {
+   "cyCur": 17.48724,
+   "cy30": 16.92658,
+   "nyCur": 23.4342,
+   "ny30": 21.91887
+  },
+  "fs": {
+   "sale": [
+    32.7,
+    40.47,
+    29.68
+   ],
+   "ni": [
+    73.04,
+    64.58,
+    44.72
+   ],
+   "opm": [
+    60.34,
+    58.1,
+    54.03
+   ],
+   "updated": "2026-09-08 08:06:42"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-07",
+  "nameKo": "TSMC(ADR)",
+  "nameEn": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS EACH REP 5 ORD T",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Taiwan Semiconductor Manufacturing Enters Oversold Territory",
+     "url": "https://www.nasdaq.com/articles/taiwan-semiconductor-manufacturing-enters-oversold-territory",
+     "date": "2026-11-05",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Advanced Micro Devices vs. Taiwan Semiconductor Manufacturing: The AI Sell-Off Is Exposing a Critical Difference Investors Shouldn't Ignore for 2027",
+     "url": "https://www.nasdaq.com/articles/advanced-micro-devices-vs-taiwan-semiconductor-manufacturing-ai-sell-exposing-critical",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Broadcom vs. Taiwan Semiconductor: Two AI Powerhouses, but One Offers a Better Value for 2027",
+     "url": "https://www.nasdaq.com/articles/broadcom-vs-taiwan-semiconductor-two-ai-powerhouses-one-offers-better-value-2027",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Taiwan Semi or Broadcom: If I Could Only Own 1 for the Next 5 Years, It Would Be This",
+     "url": "https://www.nasdaq.com/articles/taiwan-semi-or-broadcom-if-i-could-only-own-1-next-5-years-it-would-be",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 9,
+   "reports": [
+    {
+     "date": "2026-10-16",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[TSMC(ADR) (NYS:TSM)] 전방 수요 이상 無",
+     "summary": "- 선단공정 비중 79%, 3nm 이하 비중 전분기대비 +8%p- 3Q26 Review: HPC 비중 68%, AI 산업 구조적 성장 수혜 재확인- 향후 3년간 CapEx 우상향 전망 유지 → 밸류체인 전반의 훈풍 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgegkqlgqqcgegcgxeecq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-07-20",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[TSMC(ADR) (NYS:TSM)] Earnings Flash",
+     "summary": "- 매출액 1.3조 대만달러(YoY +36.0%), EPS 27.25 대만달러(YoY +81.4%)로 각각 예상치 0.3%, 13.1% 상회- 12인치 웨이퍼 환산 기준 4분기 출하량은 433.6만 장으로 전년 동기 대비 16.6% 증가- 기록적인 실적과 연간 매출 전망 상향에도 불구하고, 이미 높아진 AI 성장 기대와 3Q26 GPM 하락 전망에 2.3% 하락",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkziggkqgmlqqgcgxeecq.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-04-20",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[TSMC(ADR) (NYS:TSM)] 매출총이익률, 수년간의 하락세 진입",
+     "summary": "- 1Q26CY 실적, 시장 컨센서스 상회- 2Q25CY 가이던스, 2026년 실적 및 CapEx 전망치 모두 시장 기대치 상회- 다만 해외 공장 가동에 따른 수년간의 수익성 하락 언급, 단기적 주가 약세 예상",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxxileiemllqmgcgxeecq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-04-17",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[TSMC(ADR) (NYS:TSM)] 초과 수요 환경 지속",
+     "summary": "- 선단공정 수요 견조, 원가 절감 → 기대 이상의 수익성- 1Q26 Review: HPC 비중 61%, AI 산업의 구조적 성장 수혜 지속- 향후 3년간 CapEx 우상향 전망 → 초과 수요 환경 장기화 예상",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxileeqzgkxiggcgxeecq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-04-17",
+     "broker": "메리츠증권",
+     "analyst": "김동관",
+     "title": "[TSMC(ADR) (NYS:TSM)] 견조한 AI/HPC 수요 환경 재확인",
+     "summary": "- TSMC는 컨센서스 및 가이던스를 모두 상회하는 호실적을 발표- 동사는 2Q26 가이던스로 하단이 컨센서스보다 높은 낙관적 전망치를 제시. 매출액은 390-402억달러(컨센서스 381억달러; 4% 상회), GPM 65.5-67.5%(컨센서스 64.1%), OPM 56.5-58.5%(컨센서스 55.2%)를 제시- 해외 fab 가동으로 인한 수익성 희석에도 불구 생산성 향상, 가동률 상승, 원가 절감 노력에 힘입어 수익성 추가 개선을 전망함- 2026년 전체 매출액 성장률로는 ‘+30% 이상’를 제시. 이는 3개월 전 발표한 수치 (+30% YoY) 대비 상향된 표현- 동사는 2026년 CAPEX가 520-560억달러 범위의 ‘상단’에 가까울 것으로 전망- 경쟁사의 LPU 칩 수주 등에 대한 질문에서는 모든 사업 기회에 집중한다는 원론적 답변을 제시. 중장기 AI 매출 가이던스 등 보 다 구체적인 전망치 상향은 2H26E 이후 나타날 것으로 예상됨",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxilcqmgigckzgcgxeecq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-01-19",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[TSMC(ADR) (NYS:TSM)] 예상치를 넘어선 수익성과 공격적인 CapEx 전망 제시",
+     "summary": "- 4Q25CY 실적, 시장 컨센서스 상회- 4Q25CY 가이던스 및 2026년 CapEx 전망치 모두 시장 기대치 상회했음- 주요 CSPs의 AI 중장기 수요 전망이 여전히 강하다는 것을 재확인할 수 있었음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlqqlxmmcilkxgcgxeecq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-01-16",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[TSMC(ADR) (NYS:TSM)] AI 수요 강세 지속",
+     "summary": "- HPC 수요 강세 → 선단공정(7nm 이하) 비중 확대. 수익성 개선으로 체질 개선세 지속. 북미 고객사 수요 증가 → 스마트폰, HPC 합산 비중 82%. 선단공정 매출 77%로 고부가 공정에서 압도적 존재감 재차 증명- 매출 10,461억NT$(+5.7%, 이하 전분기대비), EPS 19.50NT$로 컨센서스 각각 1.5%, 11% 상회. 매출총이익률(GPM)은 62.3%(+2.8%p)로 해외 Fab 가동으로 인한 수익성 둔화 우려 불식. 7nm 이하 선단공정 세부 비중 은 3nm 28%, 5nm 35%, 7nm 14%. HPC, 스마트폰, IoT 수요 강세 지속- 하이엔드 제품 수요 강세 이어지며 스마트폰, HPC 매출 비중 지속 증가 전망. 2026년 연간 CapEx 540억달러로 2025년 대비 30% 이상 확대 계 획. 과거 반복적으로 보수적 CapEx 가이던스를 제시했다는 점을 감안하면 발표된 규모 대비 강도 높은 투자 확대가 이뤄질 가능성",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlzelkxgikikegcgxeecq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-01-15",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[TSMC(ADR) (NYS:TSM)] Earnings Flash",
+     "summary": "- 매출액 1,046억 대만달러(YoY +20.5%), EPS 19.50 대만달러(YoY +34.9%)로 각각 컨센서스 1.4%, 23.4% 상회- 기술별 매출 기여: *선단 기술이 전체 웨이퍼 매출의 77% 차지. 3nm, 5nm, 7nm 비중은 각각 28%, 35%, 14%- 실적 예상 상회. 매출총이익률은 견조하게 유지하며, 비용 효율화를 통한 영업 레버리지 극대화. 개장 전 2.4% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlkqxkiiilzlzgcgxeecq.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "TSM-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "김형태, 송혜수",
+   "date": "2026-10-16",
+   "title": "[TSMC(ADR) (NYS:TSM)] 전방 수요 이상 無",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgegkqlgqqcgegcgxeecq.pdf",
+   "pages": "4"
+  },
+  {
+   "file": "TSM-report2.pdf",
+   "broker": "한화증권",
+   "analyst": "박제인",
+   "date": "2026-07-20",
+   "title": "[TSMC(ADR) (NYS:TSM)] Earnings Flash",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkziggkqgmlqqgcgxeecq.pdf",
+   "pages": "1"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+   "url": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
+   "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Tesla, SpaceX, Alcoa, CoreWeave, Travelers & more",
+   "url": "https://www.cnbc.com/2026/10/16/stocks-making-the-biggest-moves-premarket-tsla-spcx-aa-crwv.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nvidia's Jensen Huang came to London with big checks — and a blunt message",
+   "url": "https://www.cnbc.com/2026/10/16/nvidia-jensen-huang-london.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "TSMC chip capacity is ‘fierce’ battleground for customers, amid record quarter",
+   "url": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Why South Korea’s chip giants could face greater AI regulation risk",
+   "url": "https://www.cnbc.com/video/2026/11/06/why-south-koreas-chip-giants-could-face-greater-ai-regulation-risk.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Markets are ‘shooting first and asking questions later’ on AI uncertainty",
+   "url": "https://www.cnbc.com/video/2026/11/06/ai-related-market-sell-off-is-aoverdonea-as-fundamentals-remain-intact.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "AI chip boom won't last forever as price competition intensifies: PM",
+   "url": "https://www.cnbc.com/video/2026/10/28/ai-chip-boom-wont-last-forever-as-price-competition-intensifies-pm.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TSM",
+  "fetchedAt": "2026-11-07",
+  "source": "한국투자증권 Open API",
+  "per": 27.1,
+  "pbr": 9.64,
+  "eps": 13.86,
+  "bps": 38.93,
+  "shares": 5186480000,
+  "marketCapM": 1947212,
+  "high52": 487.47,
+  "high52Date": "2026-10-05",
+  "low52": 264.0577,
+  "low52Date": "2025-11-21",
+  "last": 375.44,
+  "prevClose": 353.1,
+  "nameKo": "TSMC(ADR)",
+  "nameEn": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS EACH REP 5 ORD T",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 5186480000
+ },
+ "estimates": {
+  "ticker": "TSM",
+  "url": "https://finance.yahoo.com/quote/TSM/analysis/",
+  "fetchedAt": "2026-11-07",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 5.16,
+    "epsLow": 5.1,
+    "epsHigh": 5.28,
+    "epsYearAgo": 3.14,
+    "epsAnalysts": 8,
+    "epsGrowth": 64.5,
+    "epsCur": "USD",
+    "rev": 1707801676350,
+    "revAnalysts": 26,
+    "revYearAgo": 1046090000000,
+    "revGrowth": 63.3,
+    "revCur": "TWD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 5.19,
+    "epsLow": 4.95,
+    "epsHigh": 5.4,
+    "epsYearAgo": 3.49,
+    "epsAnalysts": 10,
+    "epsGrowth": 48.8,
+    "epsCur": "USD",
+    "rev": 1731735924800,
+    "revAnalysts": 21,
+    "revYearAgo": 1134103000000,
+    "revGrowth": 52.7,
+    "revCur": "TWD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 17.5,
+    "epsLow": 17.18,
+    "epsHigh": 17.95,
+    "epsYearAgo": 10.65,
+    "epsAnalysts": 11,
+    "epsGrowth": 64.4,
+    "epsCur": "USD",
+    "rev": 5582146967720,
+    "revAnalysts": 40,
+    "revYearAgo": 3809054000000,
+    "revGrowth": 46.6,
+    "revCur": "TWD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 23.39,
+    "epsLow": 21.45,
+    "epsHigh": 25.87,
+    "epsYearAgo": 17.5,
+    "epsAnalysts": 13,
+    "epsGrowth": 33.6,
+    "epsCur": "USD",
+    "rev": 7691236153280,
+    "revAnalysts": 41,
+    "revYearAgo": 5582146967720,
+    "revGrowth": 37.8,
+    "revCur": "TWD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.16,
+    "d7": 2.3,
+    "d30": 4,
+    "d90": 4.1,
+    "ago90": 4.96,
+    "up7": 6,
+    "up30": 6,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 5.19,
+    "d7": 2.7,
+    "d30": 4.6,
+    "d90": 6.2,
+    "ago90": 4.89,
+    "up7": 6,
+    "up30": 6,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 17.5,
+    "d7": 2.8,
+    "d30": 3.4,
+    "d90": 4.8,
+    "ago90": 16.7,
+    "up7": 9,
+    "up30": 9,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 23.39,
+    "d7": 4.9,
+    "d30": 6.7,
+    "d90": 9.9,
+    "ago90": 21.28,
+    "up7": 10,
+    "up30": 10,
+    "down7": 2,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 4.6,
+    "estimate": 4.52,
+    "surprisePct": 1.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 4.31,
+    "estimate": 3.89,
+    "surprisePct": 10.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.49,
+    "estimate": 3.33,
+    "surprisePct": 4.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 3.14,
+    "estimate": 2.98,
+    "surprisePct": 5.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 5,
+   "ptLowered": 0,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 600,
+     "ptPrior": 554
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 670,
+     "ptPrior": 665
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 500,
+     "ptPrior": 500
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 560,
+     "ptPrior": 530
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 665,
+     "ptPrior": 650
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Stifel",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 515,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 554,
+     "ptPrior": 430
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-14",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-06",
+  "numbers": {
+   "price": 375.44,
+   "ma20": 416.44,
+   "ma50": 431.64,
+   "ma150": 419.11,
+   "distMA50": -13.02,
+   "periodHigh": 487.47,
+   "pullbackFromHigh": -22.98,
+   "volRatio20": 1.62,
+   "dryUpRatio": 1.41
+  },
+  "last10": [
+   {
+    "d": "2026-10-26",
+    "o": 418.07,
+    "h": 428.85,
+    "l": 417.72,
+    "c": 424.37,
+    "v": 9627100,
+    "clsPos": 60,
+    "gapPct": -0.11
+   },
+   {
+    "d": "2026-10-27",
+    "o": 427.16,
+    "h": 438.58,
+    "l": 426,
+    "c": 436.87,
+    "v": 9022500,
+    "clsPos": 86,
+    "gapPct": 0.66
+   },
+   {
+    "d": "2026-10-28",
+    "o": 438.24,
+    "h": 440.88,
+    "l": 436.84,
+    "c": 439.51,
+    "v": 8037400,
+    "clsPos": 66,
+    "gapPct": 0.31
+   },
+   {
+    "d": "2026-10-29",
+    "o": 431.69,
+    "h": 436.24,
+    "l": 428.43,
+    "c": 431.81,
+    "v": 8465900,
+    "clsPos": 43,
+    "gapPct": -1.78
+   },
+   {
+    "d": "2026-10-30",
+    "o": 414.08,
+    "h": 418.09,
+    "l": 400.12,
+    "c": 406.13,
+    "v": 21971100,
+    "clsPos": 33,
+    "gapPct": -4.11
+   },
+   {
+    "d": "2026-11-02",
+    "o": 412.52,
+    "h": 414.76,
+    "l": 398.29,
+    "c": 398.63,
+    "v": 13190900,
+    "clsPos": 2,
+    "gapPct": 1.57
+   },
+   {
+    "d": "2026-11-03",
+    "o": 404.99,
+    "h": 408.37,
+    "l": 403.03,
+    "c": 404.8,
+    "v": 9421100,
+    "clsPos": 33,
+    "gapPct": 1.6
+   },
+   {
+    "d": "2026-11-04",
+    "o": 400.64,
+    "h": 410.59,
+    "l": 391.61,
+    "c": 395.75,
+    "v": 14516500,
+    "clsPos": 22,
+    "gapPct": -1.03
+   },
+   {
+    "d": "2026-11-05",
+    "o": 379.75,
+    "h": 380.78,
+    "l": 351.19,
+    "c": 353.1,
+    "v": 43030700,
+    "clsPos": 6,
+    "gapPct": -4.04
+   },
+   {
+    "d": "2026-11-06",
+    "o": 380.56,
+    "h": 380.72,
+    "l": 367.95,
+    "c": 375.44,
+    "v": 23801300,
+    "clsPos": 59,
+    "gapPct": 7.78
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TSM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TSM-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 14일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

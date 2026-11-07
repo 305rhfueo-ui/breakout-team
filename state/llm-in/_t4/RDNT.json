@@ -1,0 +1,203 @@
+{
+ "ticker": "RDNT",
+ "news": [
+  {
+   "title": "Elanco Animal Health Incorporated (ELAN) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/elanco-animal-health-incorporated-elan-113502544.html",
+   "date": "2026-11-06",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Astrana Health, Inc. (ASTH) Q3 Earnings Lag Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/astrana-health-inc-asth-q3-214504115.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RadNet (RDNT) Benefits from Rising Demand for Advanced Imaging",
+   "url": "https://finance.yahoo.com/healthcare/articles/radnet-rdnt-benefits-rising-demand-162933009.html",
+   "date": "2026-11-05",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RadNet (RDNT) Soars 9.7%: Is Further Upside Left in the Stock?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/radnet-rdnt-soars-9-7-082000878.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RadNet (RDNT) Stock Looks Priced At A Premium After ONRAD Deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/radnet-rdnt-stock-looks-priced-010947476.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RadNet (RDNT) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/radnet-rdnt-reports-next-week-140007174.html",
+   "date": "2026-11-02",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RadNet, Inc. Announces Date of its Third Quarter 2026 Financial Results Conference Call",
+   "url": "https://finance.yahoo.com/healthcare/articles/radnet-inc-announces-date-third-100000082.html",
+   "date": "2026-10-29",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 Reasons to avoid RDNT and 1 stock to buy instead",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-rdnt-1-224634393.html",
+   "date": "2026-10-28",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RadNet expands into teleradiology with $350M Onrad deal",
+   "url": "https://finance.yahoo.com/healthcare/articles/radnet-expands-teleradiology-350m-onrad-140000902.html",
+   "date": "2026-10-28",
+   "publisher": "MedTech Dive",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "1.01",
+    "3.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/790526/000168316826008094/radnet_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-14",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/790526/000168316826006479/radnet_8k.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-09",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/790526/000168316826006125/radnet_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-10",
+   "items": [
+    "1.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/790526/000168316826004716/radnet_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/790526/000168316826004522/radnet_8k-annualmtg.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/790526/000168316826004475/radnet_8k.htm",
+   "description": "CURRENT REPORT"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 22.9,
+  "saleNy": 12.36,
+  "epsCy": 31.87,
+  "epsNy": 59.44,
+  "cyTrend": 0,
+  "nyTrend": -7.52,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.99,
+    22.11,
+    14.8
+   ],
+   "ni": [
+    -47.9,
+    "적자축소",
+    -111.17
+   ],
+   "opm": [
+    6.34,
+    -4.15,
+    5.08
+   ],
+   "updated": "2026-09-08 06:59:04"
+  }
+ }
+}

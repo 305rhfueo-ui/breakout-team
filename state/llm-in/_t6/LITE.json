@@ -1,0 +1,841 @@
+{
+ "ticker": "LITE",
+ "date": "2026-11-07",
+ "session": "2026-11-06",
+ "source": "list",
+ "plan": {
+  "ticker": "LITE",
+  "name": "루멘텀 홀딩스",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "price": 538.59,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 1143,
+  "stop": 1094.63,
+  "distToPivotPct": -52.88,
+  "distToPivotAdr": -5.89,
+  "riskPerSharePct": 4.23,
+  "adrPct": 8.98,
+  "extensionAdr": -4.16,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 26,
+   "baseWeeks": 5.2,
+   "depthPct": 55.7,
+   "priorMovePct": 92.2,
+   "higherLows": 0,
+   "contraction": 1.16,
+   "closeRange10Adr": 8.5,
+   "surf10": -4.16,
+   "surf20": -5.39,
+   "slope20": -13.28,
+   "baseLow": 506.69,
+   "lastSwingLow": 736.01
+  },
+  "reasons": [
+   "선행 상승 +92%",
+   "베이스 5.2주",
+   "✗ 깊이 55.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.16배 · 10일 종가폭 8.5 ADR",
+   "✗ 10일선 -4.2 ADR · 20일선 -5.4 ADR",
+   "✗ 20일선 기울기 -13.28%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.3851826943431745,
+    "pct": 0.1352569882777277
+   },
+   "m3": {
+    "v": -0.28541054015528594,
+    "pct": 4.192966636609558
+   },
+   "m6": {
+    "v": -0.3228791107537232,
+    "pct": 4.733994589720469
+   }
+  },
+  "ret1m": -51.19,
+  "ret3m": -38.83,
+  "ret6m": -39.14,
+  "marketCap": "56.84B",
+  "volx": 0.57,
+  "volSurgeWk": 0.54,
+  "high52": 47.12,
+  "newHigh52": false,
+  "adr": 8.98,
+  "div50": -39.76,
+  "div200": -33.32,
+  "targetStatus": true,
+  "saleCy": 121.98,
+  "saleNy": 49.24,
+  "epsCy": 186.36,
+  "epsNy": 57.13,
+  "cyTrend": 13.99,
+  "nyTrend": 9.69,
+  "est": {
+   "cyCur": 24.82721,
+   "cy30": 21.78099,
+   "nyCur": 39.01087,
+   "ny30": 35.56593
+  },
+  "fs": {
+   "sale": [
+    109.34,
+    90.12,
+    65.46
+   ],
+   "ni": [
+    -3456.77,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    27.76,
+    21.59,
+    9.66
+   ],
+   "updated": "2026-09-08 10:19:47"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-07",
+  "nameKo": "루멘텀 홀딩스",
+  "nameEn": "LUMENTUM HLDGS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001633978&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-26",
+     "derived": false,
+     "revenue": 1262600000,
+     "profit": 359800000,
+     "netIncome": 360300000,
+     "margin": 28.5,
+     "yoy": {
+      "revenue": 136.5,
+      "profit": 5270.1,
+      "netIncome": 8478.6,
+      "priorEnd": "2025-09-27"
+     }
+    },
+    {
+     "periodEnd": "2026-06-27",
+     "derived": true,
+     "revenue": 1006300000,
+     "profit": 279300000,
+     "netIncome": -7161700000,
+     "margin": 27.8,
+     "yoy": {
+      "revenue": 109.3,
+      "profit": 3425,
+      "netIncome": -3457.6,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 808400000,
+     "profit": 174500000,
+     "netIncome": 144200000,
+     "margin": 21.6,
+     "yoy": {
+      "revenue": 90.1,
+      "profit": 562.9,
+      "netIncome": 427,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": false,
+     "revenue": 665500000,
+     "profit": 64300000,
+     "netIncome": 78200000,
+     "margin": 9.7,
+     "yoy": {
+      "revenue": 65.5,
+      "profit": 224.6,
+      "netIncome": 228.4,
+      "priorEnd": "2024-12-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Lumentum (LITE) is Poised for a Turnaround After Losing 51.4% in 4 Weeks",
+     "url": "https://www.nasdaq.com/articles/heres-why-lumentum-lite-poised-turnaround-after-losing-514-4-weeks",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Marvell Agreed to Pay $1,132 a Share for Lumentum. The Stock Trades Near $510. Here's Why It’s Not as Good As It Looks.",
+     "url": "https://www.nasdaq.com/articles/marvell-agreed-pay-1132-share-lumentum-stock-trades-near-510-heres-why-its-not-good-it",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Marvell's Deal to Acquire Lumentum Could Be a Game Changer for the Stock",
+     "url": "https://www.nasdaq.com/articles/marvells-deal-acquire-lumentum-could-be-game-changer-stock",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526442758/d163169d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026051078/lite-20260727.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "3.02"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526249535/d112771d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 10,
+   "reports": [
+    {
+     "date": "2026-11-04",
+     "broker": "신한투자증권",
+     "analyst": "김아람, 김효원",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] 이제는 마벨과 한몸처럼",
+     "summary": "- 28년 상반기 합병 완료까지 마벨 주가와 연동되겠으나 단기 급락은 과도- 11/2 마벨의 루멘텀 인수 발표. 루멘텀 1주당 마벨 4.5주를 지급하는 형 태. 관련 루머가 확산되기 전 주가 기준(10/28 마벨 252달러, 루멘텀 914 달러) 대비 약 24% 프리미엄. 계약이 완료되면 합병 법인의 주주구성은 기존 마벨 주주 67%, 기존 루멘텀 주주 33%일 전망- 애널리스트들이 ‘양 사 간 시너지’와 ‘왜 지금인가’를 집중적으로 질문했으 나 ‘중장기 시장 전망이 밝다’ 외 새롭게 내놓은 설명은 없었음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqkxkeziqleegcgxeecq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "신영증권",
+     "analyst": "정원석",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] 광통신의 과거이자 현재이자 미래",
+     "summary": "- 광통신 수요 확대에 13분기 만에 흑자전환, 2분기 매출 10.6억달러로 109% 증가- CY3Q26 매출 가이던스 12.5억달러 제시, 800G·1.6T·레이저·OCS 확대로 중기 목표 조기 달성- CPO·OCS 확대와 중국산 트랜시버 규제 가능성에 스케일업 네트워크 수혜 지속 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqzqgclgezegcgxeecq.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] 실적으로 일축한 CPO 노이즈, NPO로 넓어지는 TAM",
+     "summary": "- 4Q GPM 50% 조기 돌파 및 1Q 가이던스 상향으로 이익 체력 입증- 심화된 레이저 공급 부족 속 NPO 가세로 스케일업 성장축 다변화- OCS 양산 가속 및 이익 추정치 상향에 따른 밸류에이션 매력 부각",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmgiexkeiiqgcgxeecq.pdf",
+     "pages": "9"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "신한투자증권",
+     "analyst": "김아람",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] 꺾이지 않는 QoQ 성장률",
+     "summary": "- 지난 분기부터 영업이익 서프라이즈 강도 낮아졌지만 여전히 고성장 기업. 다음 분기 가이던스로 매출액 12.25~12.75억달러(중앙값 기준 매출액 성 장률 +134%YoY, +24%QoQ), 영업이익률 39.5~40.5%(+21.3%pYoY, +3.4%QoQ) 제시- 4분기 Non-GAPP 매출액과 EPS(주당순이익)은 각각(이하 YoY) 10.1억달 러(+110%), 3.23달러(+267%)로 컨센서스를 2%, 9% 상회. 28년까지 신규 팹(Greensboro) 오픈 없음에도 기존 팹 공정 개선, 제품 믹스 개선, 가격 재조정 등 통해 매출액 및 수익성 개선. 매출총이익률 50.4% 달성- 1) Component(+103%YoY, +22%QoQ): 전 제품군 초과수요 지속. 펌프 레이저(+80%) 시장점유율 70~80%, 향후 생산량 4배로 늘리지만 사실상 매진 상태. EML 수요-공급 불균형 20% 이상. CW 레이저는 다이 크기 줄여 EML과 수익성 격차 좁힘. CPO/NPO는 27년 중반부터 램프업",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzlemmecxkikgcgxeecq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] Earnings Flash",
+     "summary": "- 매출액 10.1억 달러(YoY +109.3%), 영업이익 3.7억 달러(YoY +410.1%), 조정 EPS 3.23 달러(YoY +267%)로 각각 예상치 1.7%, 5%, 8.9% 상회- 첫 ELS 모듈 구매 주문을 수주했으며, 인도 시점은 CY 2027 하반기. ASP는 투입 레이저 대비 유의미하게 높은 반면, GPM은 전사 평균을 상회하지만 레이저 칩 대비 낮은 수준. 회사는 마진 일부를 포기하고 매출 성장을 확보했다고 설명- 실적과 가이던스가 예상치를 상회했음에도 높아진 시장 기대치가 추가 상승을 제한해 시간 외 +2.5%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzeemelmeleggcgxeecq.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-05-21",
+     "broker": "유진투자증권",
+     "analyst": "이찬영",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] 돌고 돌아 광원",
+     "summary": "- AI 데이터센터 네트워크 확장의 공통분모는 결국 광원. Scale Out에서는 EML·CW 레이저, Scale Up CPO에서는 초고출력 레이저·외부광원, Scale Across에서는 협선폭 레이저·펌프레이저가 필요함.  광 수요가 특정 제품 하나에 머무는 것이 아니라, AI 클러스터의 모든 확장축에서 고성능 광원 수 요로 재구성되는 국면. 루멘텀은 이 세 영역 모두에 노출된 대표 광원 업체- 핵심은 단순 수요 증가가 아니라 공급자 우위임. 루멘텀은 AI 데이터센터향 InP 광채널 수요가 EML·CW·초고출력 레이저를 중심으로 구조적으로 성 장할 것으로 제시하고 있으며, EML 출하량은 FY20~FY26E 기간 8배 이상 증가, 2026년 말 생산능력도 전년 말 대비 50% 이상 확대될 전망임. 그럼 에도 회사는 EML 수요 대비 공급 부족이 30% 이상이라고 언급함. 즉 광 원 병목은 동사의 가격 협상력과 캐파 배분권을 동시에 강화하는 요인임- CPO는 루멘텀의 다음 성장축임. Scale-Out CPO에서는 2027년 수억 달러 규모의 초고출력 레이저 매출이 기대되고, 외부광원 모듈까지 확장할 경우 기회는 레이저 칩 단독 대비 약 2배로 확대될 수 있다고 제시함. Scale-Up CPO는 구리 연결 한계를 광으로 대체하는 더 큰 시장이며, 회사는 첫 출하 시점을 2027년 말로 제시함. 엔비디아의 직접 투자는 이 흐름을 상징적으 로 보여주는 이벤트로, 광원이 단순 조달 부품이 아니라 AI 시스템 램프업 속도를 좌우하는 전략 자산으로 격상됐음을 의미함",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmiggxzlgiglxgcgxeecq.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-05-08",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] 사상 최대 실적 달성 및 하반기 성장 가시성 확보",
+     "summary": "- AI 수요 폭발과 30% 이상의 공급 부족이 견인하는 역대급 실적 성장세- 1.6T·OCS·CPO 기술 선점 및 제조 효율화를 통한 가파른 영업마진 확장- 압도적 EPS 성장과 대규모 자금력을 바탕으로 한 밸류에이션 리레이팅 가시성",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlgelleqzklgigcgxeecq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-05-07",
+     "broker": "신한투자증권",
+     "analyst": "김아람",
+     "title": "[루멘텀 홀딩스 (NAS:LITE)] 공급 부족, 언제까지 지속되는 거에요?",
+     "summary": "- 3분기 Non-GAPP 매출액과 EPS(주당순이익)은 각각(이하 YoY) 8.08억달 러(+90%), 2.37달러(+316%)로 컨센서스에 부합- 1) Component(+77%): Scale-across 제품군이 전사 매출총이익률/영업이 익률 상승을 이끄는 핵심 축으로 새롭게 부각. 펌프 레이저, 협대역 레일 저 어셈블리는 각각 전년대비 80%, 120% 초고성장. EML도 사상 최대 매 출 기록. 공급 확대에도 불구하고 수급 불균형은 이전 분기 25~30%에서 30% 이상으로 추가 악화. Scale-out CPO는 12월부터 수익화- 2) System(+121%): 트랜시버 매출액 전분기대비 40% 이상 성장. OCS(광 학 스위치) 역시 공급 제약 상태. CSP 세 곳이 주문 확대하고 있으며, 기 존 수 억달러 규모 수주 확보에 이어 유사한 규모의 추가 수주 임박",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqleclqzqeigkkgcgxeecq.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "LITE-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "김아람, 김효원",
+   "date": "2026-11-04",
+   "title": "[루멘텀 홀딩스 (NAS:LITE)] 이제는 마벨과 한몸처럼",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqkxkeziqleegcgxeecq.pdf",
+   "pages": "6"
+  },
+  {
+   "file": "LITE-report2.pdf",
+   "broker": "신영증권",
+   "analyst": "정원석",
+   "date": "2026-08-28",
+   "title": "[루멘텀 홀딩스 (NAS:LITE)] 광통신의 과거이자 현재이자 미래",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqzqgclgezegcgxeecq.pdf",
+   "pages": "2"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Watch CNBC's full interview with Lumentum CEO Michael Hurlston",
+   "url": "https://www.cnbc.com/video/2026/11/06/watch-cnbcs-full-interview-with-lumentum-ceo-michael-hurlston.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lumentum CEO Michael Hurlston: Our demand couldn't be stronger but we're seeing a massive sell-off",
+   "url": "https://www.cnbc.com/video/2026/11/06/lumentum-ceo-michael-hurlston-our-demand-couldnt-be-stronger-but-were-seeing-a-massive-sell-off.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer recaps the latest M&A action in the market",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/02/jim-cramer-recaps-the-latest-ma-action-in-the-market.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "TechCheck Evening Edition: November 2, 2026",
+   "url": "https://www.cnbc.com/video/2026/11/02/techcheck-evening-edition-november-2nd-2026.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Late Morning",
+   "url": "https://www.cnbc.com/video/2026/11/02/the-late-morning-rundown-november-2-2026.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Monday, November 2, 2026: Cramer expects a brief dip before this consumer stock reaches new highs",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/02/monday-november-2-2026-cramers-expects-a-brief-dip-before-this-consumer-stock-reaches-new-highs.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Kimberly Clark CEO Mike Hsu",
+   "url": "https://www.cnbc.com/video/2026/11/02/watch-cnbcs-full-interview-with-kimberly-clark-ceo-mike-hsu.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Marvell CEO Matt Murphy on Lumentum deal: We're creating the 'category leader in AI connectivity'",
+   "url": "https://www.cnbc.com/video/2026/11/02/marvell-ceo-matt-murphy-on-lumentum-deal-were-creating-the-category-leader-in-ai-connectivity.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "LITE",
+  "fetchedAt": "2026-11-07",
+  "source": "한국투자증권 Open API",
+  "per": 6.55,
+  "pbr": 10.28,
+  "eps": 82.23,
+  "bps": 52.41,
+  "shares": 90700000,
+  "marketCapM": 48850,
+  "high52": 1143,
+  "high52Date": "2026-10-09",
+  "low52": 213,
+  "low52Date": "2025-11-05",
+  "last": 538.59,
+  "prevClose": 509.7,
+  "nameKo": "루멘텀 홀딩스",
+  "nameEn": "LUMENTUM HLDGS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 90700000
+ },
+ "estimates": {
+  "ticker": "LITE",
+  "url": "https://finance.yahoo.com/quote/LITE/analysis/",
+  "fetchedAt": "2026-11-07",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 4.22,
+    "epsLow": 4.17,
+    "epsHigh": 4.37,
+    "epsYearAgo": 1.1,
+    "epsAnalysts": 23,
+    "epsGrowth": 284,
+    "epsCur": "USD",
+    "rev": 1585515200,
+    "revAnalysts": 18,
+    "revYearAgo": 665500000,
+    "revGrowth": 138.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 6.81,
+    "epsLow": 6.12,
+    "epsHigh": 7.51,
+    "epsYearAgo": 1.67,
+    "epsAnalysts": 18,
+    "epsGrowth": 307.9,
+    "epsCur": "USD",
+    "rev": 1805100870,
+    "revAnalysts": 17,
+    "revYearAgo": 808400000,
+    "revGrowth": 123.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "eps": 24.99,
+    "epsLow": 21.2,
+    "epsHigh": 27.08,
+    "epsYearAgo": 8.67,
+    "epsAnalysts": 21,
+    "epsGrowth": 188.2,
+    "epsCur": "USD",
+    "rev": 6690419310,
+    "revAnalysts": 21,
+    "revYearAgo": 3014000000,
+    "revGrowth": 122,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "eps": 39.75,
+    "epsLow": 29.14,
+    "epsHigh": 49.3,
+    "epsYearAgo": 24.99,
+    "epsAnalysts": 23,
+    "epsGrowth": 59.1,
+    "epsCur": "USD",
+    "rev": 9984945880,
+    "revAnalysts": 23,
+    "revYearAgo": 6690419310,
+    "revGrowth": 49.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 4.22,
+    "d7": 0.2,
+    "d30": 0.4,
+    "d90": 16.3,
+    "ago90": 3.63,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 6.81,
+    "d7": 16.1,
+    "d30": 17.3,
+    "d90": 36.6,
+    "ago90": 4.99,
+    "up7": 2,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "cur": "USD",
+    "now": 24.99,
+    "d7": 14.6,
+    "d30": 14.7,
+    "d90": 33.4,
+    "ago90": 18.73,
+    "up7": 1,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "cur": "USD",
+    "now": 39.75,
+    "d7": 11.3,
+    "d30": 11.8,
+    "d90": 33.2,
+    "ago90": 29.85,
+    "up7": 1,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 4.57,
+    "estimate": 4.22,
+    "surprisePct": 8.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.37,
+    "estimate": 2.27,
+    "surprisePct": 4.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.67,
+    "estimate": 1.41,
+    "surprisePct": 18.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 4,
+   "ptRaised": 7,
+   "ptLowered": 6,
+   "total": 20,
+   "recent": [
+    {
+     "date": "2026-11-03",
+     "firm": "B. Riley Securities",
+     "action": "down",
+     "from": "Buy",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 770,
+     "ptPrior": 1142
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 685,
+     "ptPrior": 820
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Positive",
+     "to": "Positive",
+     "ptAction": "Lowers",
+     "pt": 950,
+     "ptPrior": 1100
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 900,
+     "ptPrior": 1300
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 800,
+     "ptPrior": 1040
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "StoneX",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 1200,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 1250,
+     "ptPrior": 1200
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 1300,
+     "ptPrior": 1300
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 1232,
+     "ptPrior": 1100
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "Bernstein",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 1220,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-02",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-06",
+  "numbers": {
+   "price": 538.59,
+   "ma20": 799.39,
+   "ma50": 894.14,
+   "ma150": 871.1,
+   "distMA50": -39.76,
+   "periodHigh": 1143,
+   "pullbackFromHigh": -52.88,
+   "volRatio20": 0.82,
+   "dryUpRatio": 1.45
+  },
+  "last10": [
+   {
+    "d": "2026-10-26",
+    "o": 766.32,
+    "h": 840.47,
+    "l": 756,
+    "c": 818.1,
+    "v": 6055000,
+    "clsPos": 74,
+    "gapPct": 1.34
+   },
+   {
+    "d": "2026-10-27",
+    "o": 846.38,
+    "h": 892.99,
+    "l": 820.3,
+    "c": 866.18,
+    "v": 5583900,
+    "clsPos": 63,
+    "gapPct": 3.46
+   },
+   {
+    "d": "2026-10-28",
+    "o": 877.22,
+    "h": 921,
+    "l": 872.4,
+    "c": 913.95,
+    "v": 5949000,
+    "clsPos": 85,
+    "gapPct": 1.27
+   },
+   {
+    "d": "2026-10-29",
+    "o": 947.88,
+    "h": 978.4,
+    "l": 899.38,
+    "c": 919.53,
+    "v": 7504100,
+    "clsPos": 25,
+    "gapPct": 3.71
+   },
+   {
+    "d": "2026-10-30",
+    "o": 861.28,
+    "h": 887.6,
+    "l": 805.29,
+    "c": 840.7,
+    "v": 7733700,
+    "clsPos": 43,
+    "gapPct": -6.33
+   },
+   {
+    "d": "2026-11-02",
+    "o": 802.55,
+    "h": 802.55,
+    "l": 679,
+    "c": 684.4,
+    "v": 15343000,
+    "clsPos": 4,
+    "gapPct": -4.54
+   },
+   {
+    "d": "2026-11-03",
+    "o": 681.01,
+    "h": 719.97,
+    "l": 667.26,
+    "c": 680.16,
+    "v": 7164700,
+    "clsPos": 24,
+    "gapPct": -0.5
+   },
+   {
+    "d": "2026-11-04",
+    "o": 640.94,
+    "h": 651.08,
+    "l": 598.7,
+    "c": 626.75,
+    "v": 9546900,
+    "clsPos": 54,
+    "gapPct": -5.77
+   },
+   {
+    "d": "2026-11-05",
+    "o": 594.2,
+    "h": 596.82,
+    "l": 506.69,
+    "c": 509.7,
+    "v": 10038000,
+    "clsPos": 3,
+    "gapPct": -5.19
+   },
+   {
+    "d": "2026-11-06",
+    "o": 550.7,
+    "h": 559,
+    "l": 518.01,
+    "c": 538.59,
+    "v": 5380777,
+    "clsPos": 50,
+    "gapPct": 8.04
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LITE-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LITE-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 14일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

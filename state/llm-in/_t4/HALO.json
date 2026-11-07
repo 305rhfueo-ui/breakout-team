@@ -1,0 +1,197 @@
+{
+ "ticker": "HALO",
+ "news": [
+  {
+   "title": "Halozyme Therapeutics (HALO) Following Record Results And Higher Guidance Is The Stock Still Undervalued",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/halozyme-therapeutics-halo-following-record-171521155.html",
+   "date": "2026-11-06",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Stocks Slip 4.28% Despite 39% Revenue Growth and Modestly Higher Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/halozyme-stocks-slip-4-28-165843998.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Says US FDA Approves Rybrevant Faspro Co-Formulated With Enhanze to Treat Head, Neck Cancer",
+   "url": "https://finance.yahoo.com/healthcare/articles/halozyme-says-us-fda-approves-152504128.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Reaffirms It Projects Zero to Minimal Impact to Royalty Revenue Through At Least 2035 Based on Medicare Drug Price Negotiation Program Final Rule for IPAY 2029",
+   "url": "https://finance.yahoo.com/healthcare/articles/halozyme-reaffirms-projects-zero-minimal-150400152.html",
+   "date": "2026-11-06",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "U.S. FDA Approves RYBREVANT FASPRO™ (amivantamab and hyaluronidase-lpuj) Co-Formulated with Halozyme's ENHANZE® Technology for the Treatment of Advanced Head and Neck Cancer",
+   "url": "https://finance.yahoo.com/healthcare/articles/u-fda-approves-rybrevant-faspro-145700396.html",
+   "date": "2026-11-06",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "HALO Q3 Earnings Call Highlights Royalty Growth and Patent Dispute",
+   "url": "https://finance.yahoo.com/healthcare/articles/halo-q3-earnings-call-highlights-140000311.html",
+   "date": "2026-11-06",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Stock Jumps On Strong Earnings But Guidance Reset Raises Questions",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/halozyme-stock-jumps-strong-earnings-131137759.html",
+   "date": "2026-11-06",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme (HALO) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/halozyme-halo-q3-2026-earnings-074859771.html",
+   "date": "2026-11-06",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Therapeutics Inc (HALO) (Q3 2026) Earnings Call Highlights: Record Revenue, Raised ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/halozyme-therapeutics-inc-halo-q3-052836929.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000143/halo-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-30",
+   "reportDate": "2026-09-28",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000128/halo-20260928.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-22",
+   "reportDate": "2026-09-22",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000119312526398015/d148460d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000126/halo-20260917.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-16",
+   "reportDate": "2026-09-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000121/halo-20260916.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-18",
+   "reportDate": "2026-08-14",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000106/halo-20260814.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 34.73,
+  "saleNy": 11.71,
+  "epsCy": 113.07,
+  "epsNy": 20.94,
+  "cyTrend": 3.09,
+  "nyTrend": 2.9,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    47.67,
+    42.23,
+    51.6
+   ],
+   "ni": [
+    39.21,
+    27.06,
+    -203.34
+   ],
+   "opm": [
+    59.8,
+    48.98,
+    -20.56
+   ],
+   "updated": "2026-09-09 07:25:34"
+  }
+ }
+}

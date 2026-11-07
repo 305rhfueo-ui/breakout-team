@@ -1,0 +1,174 @@
+{
+ "ticker": "NHC",
+ "news": [
+  {
+   "title": "National HealthCare: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/healthcare/articles/national-healthcare-q3-earnings-snapshot-123644562.html",
+   "date": "2026-11-06",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NHC Reports Third Quarter 2026 Earnings",
+   "url": "https://finance.yahoo.com/healthcare/articles/nhc-reports-third-quarter-2026-123000328.html",
+   "date": "2026-11-06",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "NHC Announces Common Dividend",
+   "url": "https://finance.yahoo.com/healthcare/articles/nhc-announces-common-dividend-010000811.html",
+   "date": "2026-11-06",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "National HealthCare (NHC) Stock Looks About Right On Its 222% Run",
+   "url": "https://finance.yahoo.com/healthcare/articles/national-healthcare-nhc-stock-looks-011613622.html",
+   "date": "2026-11-04",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-06",
+   "reportDate": "2026-11-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926035417/nhc20261104_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-06",
+   "reportDate": "2026-11-05",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926035415/nhc20261104c_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-06",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926026960/nhc20260806_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926026957/nhc20260806c_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-29",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.01",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926022306/nhc20260630_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926018604/nhc20260527_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.83,
+    2.17,
+    4.65
+   ],
+   "ni": [
+    69.96,
+    11.34,
+    308.63
+   ],
+   "opm": [
+    11.99,
+    8.45,
+    8.57
+   ],
+   "updated": "2026-09-08 10:39:23"
+  }
+ }
+}

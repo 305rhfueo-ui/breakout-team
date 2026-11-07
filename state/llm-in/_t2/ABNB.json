@@ -1,0 +1,265 @@
+{
+ "ticker": "ABNB",
+ "sector": "Consumer Cyclical",
+ "industry": "Travel Services",
+ "nameKo": "에어비앤비",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.83,
+  "saleNy": 11.59,
+  "epsCy": 31.75,
+  "epsNy": 17.93,
+  "est": {
+   "cyCur": 5.30966,
+   "cy30": 5.29812,
+   "nyCur": 6.26193,
+   "ny30": 6.25014
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    16.54,
+    17.87,
+    12.02
+   ],
+   "ni": [
+    27.1,
+    3.9,
+    -26.03
+   ],
+   "opm": [
+    21.01,
+    3.21,
+    9.68
+   ],
+   "updated": "2026-09-07 05:58:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-07",
+  "nameKo": "에어비앤비",
+  "nameEn": "AIRBNB INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559720&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3608000000,
+     "profit": 758000000,
+     "netIncome": 816000000,
+     "margin": 21,
+     "yoy": {
+      "revenue": 16.5,
+      "profit": 23.9,
+      "netIncome": 27.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2678000000,
+     "profit": 86000000,
+     "netIncome": 160000000,
+     "margin": 3.2,
+     "yoy": {
+      "revenue": 17.9,
+      "profit": 126.3,
+      "netIncome": 3.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2778000000,
+     "profit": 269000000,
+     "netIncome": 341277000,
+     "margin": 9.7,
+     "yoy": {
+      "revenue": 12,
+      "profit": -37.4,
+      "netIncome": -26,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 4095000000,
+     "profit": 1625000000,
+     "netIncome": 1374000000,
+     "margin": 39.7,
+     "yoy": {
+      "revenue": 9.7,
+      "profit": 6.6,
+      "netIncome": 0.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-16",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526108514/d106317d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-08-07",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[에어비앤비 (NAS:ABNB)] Earnings Flash",
+     "summary": "- 매출액 36.1억 달러(YoY +16.5%), EPS 1.37달러(YoY +33%)로 각각 예상치 0.8%, 8.7% 상회- 순이익률 22.6%(YoY +1.9%p), 조정 EBITDA 마진 35%(YoY +1.3%p)로 수익성 개선.- 글로벌 예약 성장 가속과 연간 매출·수익성 가이던스 상향, AI 기반 운영 효율성 부각되며 시간외 7.8% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxgxqklqqemzmgcgxeecq.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Moderna, Airbnb, Cloudflare, Affirm & more",
+   "url": "https://www.cnbc.com/2026/11/06/stocks-making-the-biggest-moves-premarket-moderna-airbnb-cloudflare-affirm-more.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "American Express brings Airbnb bookings and rewards to Amex Travel platform",
+   "url": "https://www.cnbc.com/2026/10/22/american-express-airbnb-travel-platform.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's biggest analyst calls: Nvidia, SpaceX, Apple, Nike, Airbnb, Strategy, Netflix, Blackrock",
+   "url": "https://www.cnbc.com/2026/10/02/biggest-wall-street-calls-on-friday-include-nvidia-spacex.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Airbnb is looking cheaper than usual. KeyBanc says to buy it now",
+   "url": "https://www.cnbc.com/2026/10/02/airbnb-is-looking-cheaper-than-usual-keybanc-says-to-buy-it-now.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Chesky: Humans need to 'surf the wave' of AI rather than get swallowed by it",
+   "url": "https://www.cnbc.com/2026/09/10/goldman-sachs-communacopia-technology-conference-ai-tech.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "40% of our tickets are now handled by AI, says Airbnb CEO Brian Chesky",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/05/40percent-of-our-tickets-are-now-handled-by-ai-says-airbnb-ceo-brian-chesky.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ABNB",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 38.67,
+  "pbr": 12.87,
+  "eps": 4.4,
+  "bps": 13.22,
+  "shares": 419530000,
+  "marketCapM": 71375,
+  "high52": 193.4529,
+  "high52Date": "2026-08-24",
+  "low52": 110.81,
+  "low52Date": "2025-11-20",
+  "last": 170.13,
+  "prevClose": 176.37,
+  "nameKo": "에어비앤비",
+  "nameEn": "AIRBNB INC",
+  "listedOn": "2020-12-08",
+  "exchange": "나스닥",
+  "listedShares": 419530000
+ }
+}

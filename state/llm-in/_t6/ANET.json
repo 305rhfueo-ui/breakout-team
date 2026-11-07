@@ -1,0 +1,823 @@
+{
+ "ticker": "ANET",
+ "date": "2026-11-07",
+ "session": "2026-11-06",
+ "source": "list",
+ "plan": {
+  "ticker": "ANET",
+  "name": "아리스타 네트웍스",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "price": 170.8,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 217.41,
+  "stop": 209.61,
+  "distToPivotPct": -21.44,
+  "distToPivotAdr": -4.7,
+  "riskPerSharePct": 3.59,
+  "adrPct": 4.56,
+  "extensionAdr": -0.49,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 36,
+   "baseWeeks": 7.2,
+   "depthPct": 27.2,
+   "priorMovePct": 40.5,
+   "higherLows": 0,
+   "contraction": 1.02,
+   "closeRange10Adr": 3.6,
+   "surf10": -0.49,
+   "surf20": -1.26,
+   "slope20": -5.82,
+   "baseLow": 158.35,
+   "lastSwingLow": 168.24
+  },
+  "reasons": [
+   "선행 상승 +41%",
+   "베이스 7.2주",
+   "✗ 깊이 27.2%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.02배 · 10일 종가폭 3.6 ADR",
+   "✗ 10일선 -0.5 ADR · 20일선 -1.3 ADR",
+   "✗ 20일선 기울기 -5.82%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.08528020266157224,
+    "pct": 11.857529305680794
+   },
+   "m3": {
+    "v": -0.058342205186132895,
+    "pct": 24.571686203787195
+   },
+   "m6": {
+    "v": 0.2738091795135027,
+    "pct": 74.97745716862038
+   }
+  },
+  "ret1m": -21.2,
+  "ret3m": -16.12,
+  "ret6m": 20.53,
+  "marketCap": "225.10B",
+  "volx": 1.43,
+  "volSurgeWk": 0.97,
+  "high52": 78.56,
+  "newHigh52": false,
+  "adr": 4.56,
+  "div50": -11.34,
+  "div200": 2.82,
+  "targetStatus": false,
+  "saleCy": 42.28,
+  "saleNy": 45.19,
+  "epsCy": 45.77,
+  "epsNy": 24.3,
+  "cyTrend": 5.64,
+  "nyTrend": 3.8,
+  "est": {
+   "cyCur": 4.344,
+   "cy30": 4.11217,
+   "nyCur": 5.39952,
+   "ny30": 5.20199
+  },
+  "fs": {
+   "sale": [
+    37.69,
+    35.13,
+    28.87
+   ],
+   "ni": [
+    36.46,
+    25.69,
+    19.33
+   ],
+   "opm": [
+    45.39,
+    42.74,
+    41.52
+   ],
+   "updated": "2026-09-08 08:12:22"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-07",
+  "nameKo": "아리스타 네트웍스",
+  "nameEn": "ARISTA NETWORKS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3035700000,
+     "profit": 1378000000,
+     "netIncome": 1212900000,
+     "margin": 45.4,
+     "yoy": {
+      "revenue": 37.7,
+      "profit": 39.7,
+      "netIncome": 36.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2709000000,
+     "profit": 1157800000,
+     "netIncome": 1022900000,
+     "margin": 42.7,
+     "yoy": {
+      "revenue": 35.1,
+      "profit": 34.8,
+      "netIncome": 25.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2487800000,
+     "profit": 1032900000,
+     "netIncome": -2555596489,
+     "margin": 41.5,
+     "yoy": {
+      "revenue": 28.9,
+      "profit": 29.2,
+      "netIncome": -24.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2308300000,
+     "profit": 978200000,
+     "netIncome": 853000000,
+     "margin": 42.4,
+     "yoy": {
+      "revenue": 27.5,
+      "profit": 24.6,
+      "netIncome": 14,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is ANET Worth Buying as AI Growth Meets a Rich Valuation Premium?",
+     "url": "https://www.nasdaq.com/articles/anet-worth-buying-ai-growth-meets-rich-valuation-premium",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ANET Falls 21.2% in a Month: Is This Now a Buying Opportunity?",
+     "url": "https://www.nasdaq.com/articles/anet-falls-212-month-now-buying-opportunity",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Arista Networks vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/arista-networks-vs-servicenow-which-technology-stock-better-buy-2027",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "3 Reasons Growth Investors Will Love Arista Networks (ANET)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-arista-networks-anet",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should You Add ANET Stock to Your Portfolio Post Solid Q3 Earnings?",
+     "url": "https://www.nasdaq.com/articles/should-you-add-anet-stock-your-portfolio-post-solid-q3-earnings",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/anet-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/anet-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000118/anet-20260529.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000074/anet-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/anet-20260212.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000284/anet-20251104.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-11-04",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] Earnings Flash",
+     "summary": "- 매출액 36.6억 달러(YoY +58.5%), EPS 1.2달러(YoY +55.8%)로 예상치 각각 9.7%, 11.6% 상회, 상장 이후 최대 매출 성장률 기록, 매출총이익률 64%(YoY -1.2%p), 영업이익률 49.1%(YoY +0.5%p)- 3분기 영업현금흐름 약 12억 달러, 분기 말 현금·유가증권 144억 달러 보유. *재고자산 전분기 25억 달러→32억 달러, 구매약정 97억 달러→114억 달러로 증가. AI 인프라 수요 대응 위한 선제적 부품 확보 지속- 2027년 매출 가이던스의 시장 예상치 상회, AI 네트워킹 고성장과 높은 수익성 유지 기대에 시간 외 +9.5%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqqgxmqlkkkegcgxeecq.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] Scale-Across의 부상",
+     "summary": "- 아리스타 네트웍스는 AI 데이터센터 중심의 이더넷 네트워크 장비 기업- FY2Q26 실적은 공급망 개선에 힘입어 매출 성장과 가이던스 상향을 기록- 부품 원가 및 고객 집중도 변수가 있으나 Scale-Across 확대로 장기 성장 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmxmcglxmklxgcgxeecq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-02-13",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] SO FAR SO GOOD",
+     "summary": "- 아리스타 네트웍스는 AI 데이터센터용 이더넷 네트워크 장비 기업- FY4Q25 실적은 매출 성장 및 수익성 개선이 동반되며 긍정적 흐름을 보임- 고객사의 CapEx 집행 및 메모리 가격 변수가 있으나 AI 고도화 속 장기 성장 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcmxzlceiqlmxgcgxeecq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-02-09",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[아리스타 네트웍스 (NYS:ANET)] AI 네트워크의 개방형 표준 리더",
+     "summary": "- 개방형 이더넷 표준 주도권과 하이퍼스케일러 점유율의 압도적 우위- 1.6T 플랫폼 전환 가속화 및 CPO 통합 기반의 마진 스프레드 확대- 강력한 EPS 성장 가시성이 뒷받침된 밸류에이션 프리미엄의 당위성",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczzgllczkqzzgcgxeecq.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "ANET-report1.pdf",
+   "broker": "한화증권",
+   "analyst": "신승윤",
+   "date": "2026-11-04",
+   "title": "[아리스타 네트웍스 (NYS:ANET)] Earnings Flash",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqqgxmqlkkkegcgxeecq.pdf",
+   "pages": "1"
+  },
+  {
+   "file": "ANET-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-08-06",
+   "title": "[아리스타 네트웍스 (NYS:ANET)] Scale-Across의 부상",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmxmcglxmklxgcgxeecq.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Trump Media, Tesla, CoreWeave, more",
+   "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-premarket-djt-tsla-crwv-nvo.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+   "url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "SpaceX gives Nvidia a much-needed boost. Plus, Cramer on an 'undervalued' stock",
+   "url": "https://www.cnbc.com/investingclub/2026/08/05/spacex-gives-nvidia-a-much-needed-boost-cramers-undervalued-stock-.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's Mad Dash: Arista Networks",
+   "url": "https://www.cnbc.com/video/2026/11/04/cramers-mad-dash-arista-networks.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer talks key metrics to watch in Big Tech stocks",
+   "url": "https://www.cnbc.com/video/2026/11/03/jim-cramer-talks-key-metrics-to-watch-in-big-tech-stocks.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: Hewlett Packard, Wells Fargo, Arista Networks and UnitedHealth",
+   "url": "https://www.cnbc.com/video/2026/10/09/final-trades-hewlett-packard-wells-fargo-arista-networks-and-unitedhealth.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "KKM Financial’s Jeff Kilburg on buying the 'net' names",
+   "url": "https://www.cnbc.com/video/2026/10/05/kkm-financialas-jeff-kilburg-on-buying-the-net-names.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ANET",
+  "fetchedAt": "2026-11-07",
+  "source": "한국투자증권 Open API",
+  "per": 53.85,
+  "pbr": 14.56,
+  "eps": 3.17,
+  "bps": 11.73,
+  "shares": 1261220000,
+  "marketCapM": 215416,
+  "high52": 217.4099,
+  "high52Date": "2026-10-09",
+  "low52": 114.52,
+  "low52Date": "2025-11-21",
+  "last": 170.8,
+  "prevClose": 159.16,
+  "nameKo": "아리스타 네트웍스",
+  "nameEn": "ARISTA NETWORKS INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 1261220000
+ },
+ "estimates": {
+  "ticker": "ANET",
+  "url": "https://finance.yahoo.com/quote/ANET/analysis/",
+  "fetchedAt": "2026-11-07",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.25,
+    "epsLow": 1.14,
+    "epsHigh": 1.37,
+    "epsYearAgo": 0.82,
+    "epsAnalysts": 23,
+    "epsGrowth": 51.9,
+    "epsCur": "USD",
+    "rev": 3918208650,
+    "revAnalysts": 15,
+    "revYearAgo": 2487800000,
+    "revGrowth": 57.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.27,
+    "epsLow": 1.07,
+    "epsHigh": 1.4,
+    "epsYearAgo": 0.87,
+    "epsAnalysts": 17,
+    "epsGrowth": 46.4,
+    "epsCur": "USD",
+    "rev": 4128500230,
+    "revAnalysts": 9,
+    "revYearAgo": 2709000000,
+    "revGrowth": 52.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 4.28,
+    "epsLow": 4.05,
+    "epsHigh": 4.45,
+    "epsYearAgo": 2.98,
+    "epsAnalysts": 24,
+    "epsGrowth": 43.7,
+    "epsCur": "USD",
+    "rev": 13034205730,
+    "revAnalysts": 26,
+    "revYearAgo": 9005700000,
+    "revGrowth": 44.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 5.64,
+    "epsLow": 4.66,
+    "epsHigh": 6.35,
+    "epsYearAgo": 4.28,
+    "epsAnalysts": 28,
+    "epsGrowth": 31.8,
+    "epsCur": "USD",
+    "rev": 18544983040,
+    "revAnalysts": 14,
+    "revYearAgo": 13034205730,
+    "revGrowth": 42.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.25,
+    "d7": 8.3,
+    "d30": 8.5,
+    "d90": 8.5,
+    "ago90": 1.15,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.27,
+    "d7": 9.6,
+    "d30": 9.7,
+    "d90": 9.9,
+    "ago90": 1.16,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.28,
+    "d7": 4,
+    "d30": 4.1,
+    "d90": 4.1,
+    "ago90": 4.11,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 5.64,
+    "d7": 8.1,
+    "d30": 8.5,
+    "d90": 11,
+    "ago90": 5.08,
+    "up7": 2,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.2,
+    "estimate": 1.08,
+    "surprisePct": 11.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.02,
+    "estimate": 0.89,
+    "surprisePct": 15.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.87,
+    "estimate": 0.81,
+    "surprisePct": 7.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.82,
+    "estimate": 0.76,
+    "surprisePct": 8.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 6,
+   "ptLowered": 3,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 291,
+     "ptPrior": 259
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 270,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 261,
+     "ptPrior": 240
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 236,
+     "ptPrior": 289
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 245,
+     "ptPrior": 255
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 240,
+     "ptPrior": 234
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 230,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 280,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 260,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 205,
+     "ptPrior": 250
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-03",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-06",
+  "numbers": {
+   "price": 170.8,
+   "ma20": 180.59,
+   "ma50": 192.65,
+   "ma150": 176.64,
+   "distMA50": -11.34,
+   "periodHigh": 217.41,
+   "pullbackFromHigh": -21.44,
+   "volRatio20": 1.49,
+   "dryUpRatio": 1.63
+  },
+  "last10": [
+   {
+    "d": "2026-10-26",
+    "o": 174.21,
+    "h": 179.56,
+    "l": 172.69,
+    "c": 177.24,
+    "v": 4256800,
+    "clsPos": 66,
+    "gapPct": 1.07
+   },
+   {
+    "d": "2026-10-27",
+    "o": 180.6,
+    "h": 189.27,
+    "l": 180,
+    "c": 187,
+    "v": 5653600,
+    "clsPos": 76,
+    "gapPct": 1.9
+   },
+   {
+    "d": "2026-10-28",
+    "o": 190.17,
+    "h": 191.11,
+    "l": 184.77,
+    "c": 186.72,
+    "v": 5004800,
+    "clsPos": 31,
+    "gapPct": 1.7
+   },
+   {
+    "d": "2026-10-29",
+    "o": 183.5,
+    "h": 187.38,
+    "l": 182.65,
+    "c": 184.22,
+    "v": 5367100,
+    "clsPos": 33,
+    "gapPct": -1.72
+   },
+   {
+    "d": "2026-10-30",
+    "o": 173.57,
+    "h": 174.99,
+    "l": 166.86,
+    "c": 168.86,
+    "v": 8341100,
+    "clsPos": 25,
+    "gapPct": -5.78
+   },
+   {
+    "d": "2026-11-02",
+    "o": 170.6,
+    "h": 171,
+    "l": 163.25,
+    "c": 164.14,
+    "v": 7404500,
+    "clsPos": 11,
+    "gapPct": 1.03
+   },
+   {
+    "d": "2026-11-03",
+    "o": 165.6,
+    "h": 171.84,
+    "l": 165.21,
+    "c": 169.91,
+    "v": 12814800,
+    "clsPos": 71,
+    "gapPct": 0.89
+   },
+   {
+    "d": "2026-11-04",
+    "o": 179,
+    "h": 188.53,
+    "l": 176.66,
+    "c": 178.48,
+    "v": 18613700,
+    "clsPos": 15,
+    "gapPct": 5.35
+   },
+   {
+    "d": "2026-11-05",
+    "o": 167.35,
+    "h": 171.75,
+    "l": 158.35,
+    "c": 159.16,
+    "v": 14856900,
+    "clsPos": 6,
+    "gapPct": -6.24
+   },
+   {
+    "d": "2026-11-06",
+    "o": 172.8,
+    "h": 173.2,
+    "l": 167.15,
+    "c": 170.8,
+    "v": 11975777,
+    "clsPos": 60,
+    "gapPct": 8.57
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ANET-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ANET-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 14일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

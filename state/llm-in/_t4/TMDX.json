@@ -1,0 +1,235 @@
+{
+ "ticker": "TMDX",
+ "news": [
+  {
+   "title": "TransMedics (TMDX) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-2026-earnings-call-transcript",
+   "date": "2026-11-06",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "TransMedics (TMDX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-11-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Analyst Projections for Key Metrics Reveal About TransMedics (TMDX) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/what-analyst-projections-key-metrics-reveal-about-transmedics-tmdx-q3-earnings",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is TMDX Stock Worth Buying as Growth Meets Rising Margin Pressure?",
+   "url": "https://www.nasdaq.com/articles/tmdx-stock-worth-buying-growth-meets-rising-margin-pressure",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is TransMedics (TMDX) Up 10.2% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-transmedics-tmdx-102-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TransMedics Group Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-group-q3-earnings-call-211441005.html",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Unusual Options Volume Report: 3 Stocks Moving After Earnings",
+   "url": "https://finance.yahoo.com/markets/options/articles/unusual-options-volume-report-3-164545826.html",
+   "date": "2026-11-06",
+   "publisher": "Schaeffer's Investment Research",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics Stock Gains Attention After Revenue Guidance Raise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-stock-gains-attention-revenue-151842482.html",
+   "date": "2026-11-06",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics Group Inc (TMDX) (Q3 2026) Earnings Call Highlights: Record $203 Million Revenue ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-group-inc-tmdx-q3-091755833.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics (TMDX) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-tmdx-q3-2026-earnings-064613375.html",
+   "date": "2026-11-06",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics (TMDX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-tmdx-q3-earnings-key-013002032.html",
+   "date": "2026-11-06",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-tmdx-q3-earnings-revenues-212003041.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-q3-earnings-snapshot-211218700.html",
+   "date": "2026-11-05",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics Reports Third Quarter 2026 Financial Results",
+   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-reports-third-quarter-2026-210200128.html",
+   "date": "2026-11-05",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-10",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526387960/d116447d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526332767/tmdx-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526234440/d79022d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526206347/tmdx-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-27",
+   "reportDate": "2026-02-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526079392/d80286d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 22.5,
+  "saleNy": 17.97,
+  "epsCy": -42.41,
+  "epsNy": 48.99,
+  "cyTrend": -0.47,
+  "nyTrend": -1.32,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    20.7,
+    21.18,
+    32.18
+   ],
+   "ni": [
+    -57.94,
+    -71.52,
+    1436.87
+   ],
+   "opm": [
+    12.5,
+    7.64,
+    13.23
+   ],
+   "updated": "2026-09-08 06:11:57"
+  }
+ }
+}

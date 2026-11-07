@@ -1,0 +1,219 @@
+{
+ "ticker": "ASML",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "ASML 홀딩(ADR)",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 36.19,
+  "saleNy": 28.99,
+  "epsCy": 67.88,
+  "epsNy": 36.04,
+  "est": {
+   "cyCur": 41.48298,
+   "cy30": 38.34441,
+   "nyCur": 56.43418,
+   "ny30": 51.73157
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.19,
+    25.81,
+    13.94
+   ],
+   "ni": [
+    30.48,
+    30.05,
+    14.78
+   ],
+   "opm": [
+    37.06,
+    36.02,
+    35.37
+   ],
+   "updated": "2026-09-08 08:40:31"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-07",
+  "nameKo": "ASML 홀딩(ADR)",
+  "nameEn": "ASML HOLDING NV EUR0.09 NY REGISTRY SHS 2012",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Could $10,000 Invested in ASML Set You Up for Life?",
+     "url": "https://www.nasdaq.com/articles/could-10000-invested-asml-set-you-life",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ASML vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
+     "url": "https://www.nasdaq.com/articles/asml-vs-marvell-technology-which-artificial-intelligence-stock-better-buy-going-2027",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ASML Holding N.V. (ASML) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/asml-holding-nv-asml-trending-stock-facts-know-betting-it",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ASML Surges 48% in the Past Year: How Should You Play the Stock Now?",
+     "url": "https://www.nasdaq.com/articles/asml-surges-48-past-year-how-should-you-play-stock-now",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-10-22",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 2030년 장비 주문을 원하는 고객들",
+     "summary": "- 3Q26CY 메모리 장비 매출액 +98%YoY 급증, 중국향 판매 +110%QoQ 급증- 4Q26CY 가이던스 시장 컨센서스 상회. 중국 비중도 높은 수준 유지 예상- 2028년까지 장비 발주 대폭 증가. 메모리 수급 전망에는 부담 요인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxgiqegixkikgcgxeecq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-16",
+     "broker": "하나증권",
+     "analyst": "김록호",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 27, 28년 30%씩 증설",
+     "summary": "- 3Q26 Review: 수익성 서프라이즈- 4Q26 Preview: 생산능력 증대로 인한 비용 반영- 고객사 수요에 대응하기 위한 CAPA 증대 및 가격 인상",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgcmmcgckxzzzgcgxeecq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-07-16",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] Earnings Flash",
+     "summary": "- 매출액 93.3억 유로(YoY +21.3%), 영업이익 29.2억 유로(YoY +27.4%), EPS 7.59 유로(YoY +28.6%)로 각각 예상치 5.4%, 10.6%, 10.9% 상회- 사업부별 매출액: 시스템 65.6억유로(YoY +17.3%), 장비 유지보수 27.6억유로(YoY +31.8%)- 시장 예상치를 웃돈 실적과 가이던스 상향, 2027~2028년 생산능력 확대 계획이 긍정적으로 작용해 2.2% 상승 마감",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkelgxqxqmeqxgcgxeecq.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-07-16",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 모두의 증설이 향하는 곳",
+     "summary": "- ASML의 2분기 실적은 매출 93.3억 유로(+21% yoy), 시스템 매출 65.7 억 유로(+17% yoy), 설치기반 매출 27.6억 유로(+32% yoy)를 기록하며 컨센을 상회. 3분기 매출 가이던스도 115억 유로를 제시하며 컨센을 상회- 수익성 개선도 두드러지는 양상. 2분기 GPM은 54%를 기록하며 컨센을 2%p 상회하였으며, 3분기 GPM 가이던스는 56%를 제시하며 컨센을 3.5%p 상회. GPM 개선은 1) EUV 수요 강세로 인한 믹스 개선과 2) 장비 업그레이드 수요로 인한 고마진 설치기반 매출 성장이 주 원인으로 파악. 2026년 연간 매출 가이던스는 380억 유로에서 440억 유로로, GPM 가이 던스는 52%에서 55%로 큰 폭 상향 조정- 급증하는 AI 반도체 수요로 로직과 DRAM 고객사 모두 증설 기조에 진입했 으며, 이에 따라 리소그래피 장비 수요 강세가 포착. 로직의 경우 TSMC와 인텔 파운드리가 공격적으로 선단 노드 캐파를 확장 중. 특히 애플 칩 수주 와 서버 CPU 호조로 인해 인텔 파운드리의 구조적 턴어라운드 가능성이 높 아지고 있으며, 테라팹 향 업사이드 또한 기대가 가능한 상황. 이는 TSMC 의 증설에만 의존했던 로직 향 반도체 장비사들에게 신규 수요처가 확대되 는 효과.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkezqezemciimgcgxeecq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-04-28",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] EUV 장비 판매량 급증 전망",
+     "summary": "- 1Q26CY 메모리 실적 성장세 지속. 2Q26CY 실적 가이던스는 시장 기대치 하회- 그러나, 2026년 실적 가이던스는 지난 분기에 이어 또 한차례 상향 조정했음- EUV 판매량 가이던스: 25년 48대, 26년 60대, 27년 80대로 제시되며, 기대치 상회",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqiiexmcgmmzcgcgxeecq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-04-17",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 하반기 성장 기대감 유효",
+     "summary": "- 4Q25 수주 급반등 → 리드타임 고려 시 2H26 강세 예상- 1Q26 Review: 메모리 비중 51%로 4년만에 로직/파운드리 비중 역전- 2Q26 가이던스는 다소 아쉽지만 2H26부터 이익 가시성 높아질 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxileczglgixegcgxeecq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-04-16",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 중장기 성장 유효, 단기 규제 불확실성 잔존",
+     "summary": "- ASML의 FY 1026 실적이 발표됐습니다. 실적이 예상 대비 좋았으나 주가는 2.4% 내림- 매출 인식 시점의 차이로 2분기 가이던스가 보수적으로 제시됐으며, 논의가 진행 중인 대중 수출 규제 법안에 따른 불확실성 영향- AI 확산에 따라 고사양 EUV의 매출 비중도 대폭 증가- 설치된 제품의 관리 서비스는 전사 매출 비중이 28%로 낮지만, 이익률 이 높아 해당 분야에서 발생하는 중국 매출 감소분을 타 지역 수요가 얼 마나 상쇄할 수 있는지가 향후 주가 방향을 결정할 것으로 전망합니다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxiqmziqxgcglgcgxeecq.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries",
+   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says don't give up on this unpredictable market. Here's why",
+   "url": "https://www.cnbc.com/2026/10/14/cramer-stock-market-selloff-inflation.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Global AI sell-off jolts European chip stocks",
+   "url": "https://www.cnbc.com/video/2026/10/15/global-ai-sell-off-jolts-european-chip-stocks.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Markets can stay irrational for longer than you can stay solvent, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/14/markets-can-stay-irrational-for-longer-than-you-can-stay-solvent-says-jim-cramer.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trade: DAL, QQQ, JPM, ASML",
+   "url": "https://www.cnbc.com/video/2026/10/14/final-trade-dal-qqq-jpm-asml.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "ASML beats profit estimates: Here's what you need to know",
+   "url": "https://www.cnbc.com/video/2026/10/14/asml-beats-profit-estimates-heres-what-you-need-to-know.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ASML",
+  "fetchedAt": "2026-11-07",
+  "source": "한국투자증권 Open API",
+  "per": 35.06,
+  "pbr": 21.91,
+  "eps": 40.64,
+  "bps": 65.02,
+  "shares": 385417991,
+  "marketCapM": 549124,
+  "high52": 1994.7155,
+  "high52Date": "2026-06-30",
+  "low52": 940.3319,
+  "low52Date": "2025-11-21",
+  "last": 1424.75,
+  "prevClose": 1356.65,
+  "nameKo": "ASML 홀딩(ADR)",
+  "nameEn": "ASML HOLDING NV EUR0.09 NY REGISTRY SHS 2012",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 385417991
+ }
+}

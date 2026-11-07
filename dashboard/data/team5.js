@@ -5087,7 +5087,336 @@ window.TEAM5_DATA = {
           "name": "아스트라제네카"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-11-07",
+        "carried": false,
+        "headline": "대형 제약사들이 3분기 실적과 연간 전망 상향을 잇달아 내놓으며 업종 순위 9위로 올라섰다.",
+        "summary": "일라이 릴리가 비만·당뇨약 매출 급증으로 3분기 실적이 시장 예상을 넘고 연간 가이던스를 올렸다. 머크와 애브비도 매출이 예상을 웃돌았다. 기술주가 흔들리는 국면에서 대형 제약주가 안전한 대안으로 거론된 점도 업종에 힘을 줬다. 암젠과 존슨 앤드 존슨은 임상 결과로 적응증 확대 기대를 키웠다. 다만 머크의 2028년 키트루다 특허 만료와 애브비 스카이리지의 성장 둔화는 이어서 확인해야 할 부담이다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "일라이 릴리의 3분기 매출이 38.6% 늘고 티르제파타이드(비만·당뇨 치료제) 매출이 59.1% 증가해 컨센서스를 웃돌았고, 연간 가이던스도 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[일라이 릴리 (NYS:LLY)] 연간 가이던스 3분기 연속 상향",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmizqxieicemgggcgxeecq.pdf",
+                "date": "2026-10-30",
+                "quote": "- 3Q26 매출 $24.40B(+38.6%yoy), EPS $7.48(+6.6%yoy)로 컨센서스 상회- Tirzepatide $16.1B(+59.1%yoy), 미국과 해외에서 동반 성장- 26년 가이던스 누적 $10B 상향, 27년 성장률(1월 가이던스)이 주가 관건",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "머크는 주사형 키트루다의 힘으로 예상을 웃돌고 이익 전망을 올렸고, 같은 날 머크와 릴리 실적에 바이오 제약주가 함께 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Merck tops estimates, hikes profit outlook on strength of injectable Keytruda",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+                "date": "2026-10-29",
+                "quote": "Merck tops estimates, hikes profit outlook on strength of injectable Keytruda",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Biopharma stocks climb on Merck and Eli Lilly earnings",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/10/29/biopharma-stocks-climb-on-merck-and-eli-lilly-earnings.html",
+                "date": "2026-10-29",
+                "quote": "Biopharma stocks climb on Merck and Eli Lilly earnings",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "애브비는 3분기 매출 174억 달러로 예상치를 웃돌았고 연간 가이던스를 올렸으며 분기 배당금도 5.2% 인상한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[애브비 (NYS:ABBV)] Earnings Flash",
+                "publisher": "한화증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmizmlileimeecgcgxeecq.pdf",
+                "date": "2026-11-02",
+                "quote": "- 매출액 174억 달러(YoY +10.3%), 조정 EPS 3.82달러(YOY +115.3%)로 예상치 각각 0.4%, 2.2% 상회. EPS 급증은 전년 동기 인수 관련 연구개발비(IPR&D) 1.5달러 반영에 따른 낮은 기저 영향.- 3분기 말 현금 108억 달러, 1~3분기 누적 잉여현금흐름(FCF) 약 140억 달러 기록. 견조한 현금창출력을 바탕으로 2027년 2월 지급분부터 분기 배당금 5.2% 인상(주당 1.73달러→ 1.82달러)- 호실적 및 연간 가이던스 상향에도 추가 상승 모멘텀 부족으로 주가 1.4% 상승 마감",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "AI·기술주 매도가 거세지는 국면에서 대형 제약주 일라이 릴리가 안전한 대안으로 거론됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AI and Tech Selloff Heats Up: Buy Big Pharma Stock LLY as a Safe Haven?",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/ai-and-tech-selloff-heats-buy-big-pharma-stock-lly-safe-haven",
+                "date": "2026-11-05",
+                "quote": "AI and Tech Selloff Heats Up: Buy Big Pharma Stock LLY as a Safe Haven?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w5",
+            "statement": "암젠은 1차 소세포폐암 3상에서 병용요법이 사망 위험을 58% 낮춰, 처방 환자군이 넓어질 기대가 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[암젠 (NAS:AMGN)] [Issue & News] 임핀지 병용 1차 치료 3상, 생존 중앙값 21.1개월 - 2차에서 1차로 처방 환자군 확대 기대",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeecq.pdf",
+                "date": "2026-10-26",
+                "quote": "- Imdelltra+Imfinzi 병용, 1차 소세포폐암서 사망위험 58%↓- 생존기간 중앙값 21.1개월 vs 12.7개월, 1년생존 80%대 53%- 2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "LLY",
+            "role": "비만·당뇨약 성장으로 업종 실적을 끌어올린 시가총액 최대 제약사",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "3분기 티르제파타이드 매출이 59.1% 늘어 전체 매출이 38.6% 증가했고 연간 가이던스를 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[일라이 릴리 (NYS:LLY)] 연간 가이던스 3분기 연속 상향",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmizqxieicemgggcgxeecq.pdf",
+                    "date": "2026-10-30",
+                    "quote": "- 3Q26 매출 $24.40B(+38.6%yoy), EPS $7.48(+6.6%yoy)로 컨센서스 상회- Tirzepatide $16.1B(+59.1%yoy), 미국과 해외에서 동반 성장- 26년 가이던스 누적 $10B 상향, 27년 성장률(1월 가이던스)이 주가 관건",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l1b",
+                "statement": "신한투자증권은 후속 제품 성과가 가시화되며 실적과 파이프라인 경쟁력이 입증됐다고 짚었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[일라이 릴리 (NYS:LLY)] 비만, 여전히 주도 테마",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmizgzczgxeceigcgxeecq.pdf",
+                    "date": "2026-10-30",
+                    "quote": "- 실적 성장 기대감, 주가 상승 주도. 후속 제품이 뒷받침- GLP-1 당뇨/비만약, 글로벌 시장 견조한 매출. 후속 제품 성과 가시화- 실적과 파이프라인 경쟁력 입증으로 추가 상승 모멘텀 확보",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 11.5,
+            "rnk1": 11.05,
+            "name": "일라이 릴리"
+          },
+          {
+            "ticker": "MRK",
+            "role": "키트루다 중심으로 분기 최고 매출을 낸 대형 항암제 기업",
+            "why": [
+              {
+                "id": "l2a",
+                "statement": "3분기 매출 180.9억 달러로 컨센서스를 4.3% 웃돌아 분기 최고치를 기록했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[머크 (NYS:MRK)] [3Q26 Review] 매출 분기 최고치에도 조정이익은 감소, 투자의견 중립 유지",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmizxqekgczgxigcgxeecq.pdf",
+                    "date": "2026-10-29",
+                    "quote": "- 매출 180.9억 달러, 컨센 4.3% 상회- 비용·일회성에 non-GAAP 순이익 4% 감소- NTM PE 17.5배, 할인 소멸로 중립 유지",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l2b",
+                "statement": "사크-투모테칸이 FDA 우선심사를 받아 키트루다 특허 만료 뒤 매출 공백을 메울 후보로 꼽힌다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[머크 (NYS:MRK)] [Issue & News] ESMO 자궁내막암 데이터 2건 공개 - 2028년 키트루다 특허만료 매출 공백은 그대로",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmiczmlqxzgcmigcgxeecq.pdf",
+                    "date": "2026-10-27",
+                    "quote": "- 사크-투모테칸 FDA 우선심사 접수, 결정 2027년 6월 예정- 키트루다 KEYNOTE-C93 단독요법, 진행·사망위험 43%↓- 2028 특허만료 앞두고 적응증 확장으로 매출원 다변화",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 14.92,
+            "rnk1": 52.16,
+            "name": "머크"
+          },
+          {
+            "ticker": "ABBV",
+            "role": "면역·신약 포트폴리오로 매출과 가이던스를 올린 대형 제약사",
+            "why": [
+              {
+                "id": "l3a",
+                "statement": "3분기 매출이 174억 달러로 예상을 웃돌았고 1~3분기 잉여현금흐름이 약 140억 달러에 달했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[애브비 (NYS:ABBV)] Earnings Flash",
+                    "publisher": "한화증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmizmlileimeecgcgxeecq.pdf",
+                    "date": "2026-11-02",
+                    "quote": "- 매출액 174억 달러(YoY +10.3%), 조정 EPS 3.82달러(YOY +115.3%)로 예상치 각각 0.4%, 2.2% 상회. EPS 급증은 전년 동기 인수 관련 연구개발비(IPR&D) 1.5달러 반영에 따른 낮은 기저 영향.- 3분기 말 현금 108억 달러, 1~3분기 누적 잉여현금흐름(FCF) 약 140억 달러 기록. 견조한 현금창출력을 바탕으로 2027년 2월 지급분부터 분기 배당금 5.2% 인상(주당 1.73달러→ 1.82달러)- 호실적 및 연간 가이던스 상향에도 추가 상승 모멘텀 부족으로 주가 1.4% 상승 마감",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l3b",
+                "statement": "스카이리지와 린보크의 장기 관해율 데이터가 공개돼 경쟁 속에서도 처방이 이어질 근거가 강화됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[애브비 (NYS:ABBV)] [Issue & News] 스카이리지·린보크 장기 관해율 데이터 공개 - 경쟁 압력 속 처방 지속성 근거 강화",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgililecliigcgcgxeecq.pdf",
+                    "date": "2026-10-19",
+                    "quote": "- 스카이리지 궤양성대장염 96주 관해율 54.0~73.1% 공개- 린보크 크론병 144주 관해율 78.9~86.6% 공개- IBD 경쟁 심화 속 장기 처방 지속성 근거로 해석",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 9.6,
+            "rnk1": 37.29,
+            "name": "애브비"
+          },
+          {
+            "ticker": "AMGN",
+            "role": "항암·신규 적응증 확장으로 성장동력을 넓히는 바이오 대형주",
+            "why": [
+              {
+                "id": "l4b",
+                "statement": "임델트라는 최근 분기 매출이 115% 성장한 성장동력 제품이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[암젠 (NAS:AMGN)] [Issue & News] IMDELLTRA·임핀지 병용 1차 소세포폐암 3상서 생존 개선 - 성장동력 제품의 적응증 확장 신호",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxeecq.pdf",
+                    "date": "2026-09-08",
+                    "quote": "- IMDELLTRA+임핀지, 1차 소세포폐암 3상서 생존 개선- IMDELLTRA는 최근 분기 매출 115% 성장 성장동력 제품- 승인·매출 반영은 아직 여러 분기 소요될 전망",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 8.7,
+            "rnk1": 21.33,
+            "name": "암젠"
+          },
+          {
+            "ticker": "JNJ",
+            "role": "전립선암·혈액암·면역 파이프라인을 넓히는 업종 최대 규모 종합 제약사",
+            "why": [
+              {
+                "id": "l5a",
+                "statement": "에르레이다가 고위험 전립선암에서 재발·사망 위험을 62% 낮춰 조기 치료 영역으로 확장할 발판을 마련했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[존슨 앤드 존슨 (NYS:JNJ)] [Issue & News] 에르레이다, 수술 단독 대비 재발·사망 위험 62% 낮춤 - 전립선암 조기조기치료 영역으로 확장 발판 마련",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgmxmxmkkgglcgcgxeecq.pdf",
+                    "date": "2026-10-26",
+                    "quote": "- 에르레이다, 고위험 전립선암서 재발·사망 위험 62% 감소- 수술 전후 투여 방식의 새 적응증 확장 가능성 시사- 매출 반영은 규제·가이드라인 절차 거쳐야 확인 가능",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 23.31,
+            "rnk1": 38.37,
+            "name": "존슨 앤드 존슨"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "머크는 2028년 키트루다 특허가 끝나면 매출 공백이 생기는데, 증권사는 신약 데이터가 나와도 이 공백은 그대로라고 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[머크 (NYS:MRK)] [Issue & News] ESMO 자궁내막암 데이터 2건 공개 - 2028년 키트루다 특허만료 매출 공백은 그대로",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmiczmlqxzgcmigcgxeecq.pdf",
+                "date": "2026-10-27",
+                "quote": "[머크 (NYS:MRK)] [Issue & News] ESMO 자궁내막암 데이터 2건 공개 - 2028년 키트루다 특허만료 매출 공백은 그대로",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "애브비 스카이리지의 성장률이 65%에서 29%로 둔화하고 경쟁이 심해져, 면역 사업의 성장 둔화가 이어질 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[애브비 (NYS:ABBV)] [Issue & News] 피하주사 크론병 치료제 4분기 승인 기대 - IBD 프랜차이즈 성장 둔화 방어 카드",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmccizilzqxlxgcgxeecq.pdf",
+                "date": "2026-09-09",
+                "quote": "- 애브비, 4분기 피하주사 크론병 치료제 FDA 승인 기대 발언- Skyrizi 성장률 둔화(65%→29%) 속 경쟁 심화 국면- 승인시 투약 편의성 강화, 주가 영향은 제한적",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "길리어드는 3분기 실적 발표에서 전망 상향과 함께 약가 압력 위험이 지적됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GILD Q3 Earnings Call Highlights Raised Outlook and Pricing Risks",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/gild-q3-earnings-call-highlights-raised-outlook-and-pricing-risks",
+                "date": "2026-10-30",
+                "quote": "GILD Q3 Earnings Call Highlights Raised Outlook and Pricing Risks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "웹 검색 없이 제공 자료만 사용했고 CNBC 본문은 열지 않아 CNBC 근거는 제목 수준이다. 길리어드·바이오젠·노바티스·아스트라제네카는 증권사 리포트가 없어 주도주에서 제외했다.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 whyLeading 항목(w1~w5), leaders(LLY/MRK/ABBV/AMGN/JNJ, 총 10개 근거), risks(r1~r3) 항목의 statement가 quote 및 출처 제목과 일치. 숫자(38.6%, 59.1%, 174억달러, 5.2%, 58%, 62% 등)·날짜·사실 모두 원문 기사와 완일치하며, 모든 출처가 해당 주장을 직접 뒷받침."
+        },
+        "evidenceCount": 104
+      }
     },
     {
       "key": "Technology|Information Technology Services",

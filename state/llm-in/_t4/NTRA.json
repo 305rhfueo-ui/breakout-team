@@ -1,0 +1,221 @@
+{
+ "ticker": "NTRA",
+ "news": [
+  {
+   "title": "Oversold Conditions For Natera (NTRA)",
+   "url": "https://www.nasdaq.com/articles/oversold-conditions-natera-ntra",
+   "date": "2026-11-06",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Natera (NTRA) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/natera-ntra-q3-2026-earnings-call-transcript",
+   "date": "2026-11-06",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Natera (NTRA) Reports Q3 Loss, Beats Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/natera-ntra-reports-q3-loss-beats-revenue-estimates",
+   "date": "2026-11-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Natera (NTRA) May Report Negative Earnings: Know the Trend Ahead of Q3 Release",
+   "url": "https://www.nasdaq.com/articles/natera-ntra-may-report-negative-earnings-know-trend-ahead-q3-release",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IBD Stock Of The Day Quest Diagnostics Is Bucking The Medtech Malaise",
+   "url": "https://finance.yahoo.com/m/a3f24338-729e-3ae8-ab2a-c21c4cc2467a/ibd-stock-of-the-day-quest.html",
+   "date": "2026-11-06",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "It Was Already A Gory Day For Blood-Testing Stocks — Then, Natera And Guardant Reported",
+   "url": "https://finance.yahoo.com/m/08399e0f-5b0a-3f7c-be4c-fb25e7b6b8dc/it-was-already-a-gory-day-for.html",
+   "date": "2026-11-06",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Sector Update: Healthcare",
+   "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-203145677.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Natera Q3 Results, 2029 Revenue Target Support Growth Outlook, RBC Says",
+   "url": "https://finance.yahoo.com/healthcare/articles/natera-q3-results-2029-revenue-194709976.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Update: Natera Shares Fall After Wider-Than-Expected Q3 Loss",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/natera-shares-fall-wider-expected-194518296.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Natera promotes Solomon Moshkevich to CEO",
+   "url": "https://finance.yahoo.com/healthcare/articles/natera-promotes-solomon-moshkevich-ceo-174612971.html",
+   "date": "2026-11-06",
+   "publisher": "MedTech Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Natera Stocks Slide 15.07% After Wider Loss and Sudden CEO Change",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/natera-stocks-slide-15-07-171239578.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Natera (NTRA) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/natera-ntra-q3-2026-earnings-170516574.html",
+   "date": "2026-11-06",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Natera Sinks 14% as CEO Steve Chapman Steps Down Despite Q3 Beat: “An Excellent Time to Transition”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/natera-sinks-14-ceo-steve-143345879.html",
+   "date": "2026-11-06",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000032/ntra-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000015/ntra-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-01",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000005/ntra-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000003/ntra-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-02",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000002/a20260605newdirectortomlyn.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604821/000162828026032101/ntra-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 26.2,
+  "saleNy": 20.89,
+  "epsCy": -3.76,
+  "epsNy": -87.84,
+  "cyTrend": 5.87,
+  "nyTrend": 186.15,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    37.71,
+    38.82,
+    39.79
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "흑자전환"
+   ],
+   "opm": [
+    -10.07,
+    -13.42,
+    -3.42
+   ],
+   "updated": "2026-09-07 07:27:41"
+  }
+ }
+}

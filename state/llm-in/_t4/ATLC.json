@@ -1,0 +1,243 @@
+{
+ "ticker": "ATLC",
+ "news": [
+  {
+   "title": "Atlanticus (ATLC) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/atlanticus-atlc-q3-2026-earnings-call-transcript",
+   "date": "2026-11-06",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Atlanticus (ATLC) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-atlanticus-atlc-said-its-q3-earnings-call",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Atlanticus Holdings Corporation (ATLC) Q3 Earnings Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/atlanticus-holdings-corporation-atlc-q3-earnings-beat-estimates",
+   "date": "2026-11-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Atlanticus (ATLC) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-atlanticus-atlc-right-now-0",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Atlanticus (ATLC) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-atlanticus-atlc-stock",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Atlanticus (ATLC) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-atlanticus-atlc-right-now",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts See a 41.59% Upside in Atlanticus (ATLC): Can the Stock Really Move This High?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-4159-upside-atlanticus-atlc-can-stock-really-move-high",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Atlanticus (ATLC) Stock Undervalued Right Now?",
+   "url": "https://www.nasdaq.com/articles/atlanticus-atlc-stock-undervalued-right-now-0",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Atlanticus (ATLC) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-atlc-q3-2026-earnings-233546681.html",
+   "date": "2026-11-06",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Atlanticus Holdings Stock Gains Focus After Record Earnings",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-holdings-stock-gains-focus-181505737.html",
+   "date": "2026-11-06",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Atlanticus Holdings Corp (ATLC) (Q3 2026) Earnings Call Highlights: Record Results, Mercury ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-holdings-corp-atlc-q3-072026743.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Atlanticus (ATLC) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-atlc-said-q3-earnings-001432298.html",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Atlanticus Holdings Corporation (ATLC) Q3 Earnings Beat Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-holdings-corporation-atlc-q3-000008331.html",
+   "date": "2026-11-06",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Atlanticus Holdings’s (NASDAQ:ATLC) Q3 2026: strong sales",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-holdings-nasdaq-atlc-q3-223923774.html",
+   "date": "2026-11-05",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Atlanticus Reports Third Quarter 2026 Financial Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-reports-third-quarter-2026-212100882.html",
+   "date": "2026-11-05",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Atlanticus to Participate in KBW Fintech Ecosystem Conference",
+   "url": "https://finance.yahoo.com/technology/articles/atlanticus-participate-kbw-fintech-ecosystem-210100363.html",
+   "date": "2026-11-03",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "The Bancorp (TBBK) Misses Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bancorp-tbbk-misses-q3-earnings-203506483.html",
+   "date": "2026-10-29",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-06",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926032179/atlc20261006_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-17",
+   "reportDate": "2026-09-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926030605/atlc20260915_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926016553/atlc20260512_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-09-17",
+   "reportDate": "2025-09-11",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774925029311/atlc20250917_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-20",
+   "reportDate": "2025-08-20",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774925027466/atlc20250819_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-05-13",
+   "reportDate": "2025-05-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774925016493/atlc20250513_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 53.8,
+  "saleNy": 14.02,
+  "epsCy": 64.51,
+  "epsNy": 38.68,
+  "cyTrend": 1.79,
+  "nyTrend": 1.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    88.84,
+    96.89,
+    107.75
+   ],
+   "ni": [
+    67.23,
+    49.81,
+    24.87
+   ],
+   "opm": [
+    8.87,
+    8.66,
+    6.29
+   ],
+   "updated": "2026-09-08 07:42:57"
+  }
+ }
+}

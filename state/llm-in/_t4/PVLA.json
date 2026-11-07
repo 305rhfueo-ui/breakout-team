@@ -1,0 +1,232 @@
+{
+ "ticker": "PVLA",
+ "news": [
+  {
+   "title": "Oppenheimer Adjusts Palvella Therapeutics Price Target to $232 From $210, Maintains Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-adjusts-palvella-therapeutics-price-161026428.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella Therapeutics Inc (PVLA) (Q3 2026) Earnings Call Highlights: FDA Priority Review, $236. ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-inc-pvla-q3-231655678.html",
+   "date": "2026-11-05",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella Therapeutics, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-inc-q3-2026-223045057.html",
+   "date": "2026-11-05",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Palvella Therapeutics (PVLA) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-pvla-said-q3-221434652.html",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella (PVLA) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-pvla-q3-2026-earnings-193309044.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella Therapeutics Shares Drop After Q3 Net Loss Widens",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-shares-drop-q3-152849702.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella Therapeutics: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-q3-earnings-snapshot-124850912.html",
+   "date": "2026-11-05",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-reports-third-quarter-123000037.html",
+   "date": "2026-11-05",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella Therapeutics to Participate in the Stifel 2026 Healthcare Conference",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-participate-stifel-2026-123000066.html",
+   "date": "2026-11-03",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Palvella Therapeutics to Host Third Quarter 2026 Financial Results and Corporate Update Conference Call on November 5, 2026",
+   "url": "https://finance.yahoo.com/healthcare/articles/palvella-therapeutics-host-third-quarter-113000435.html",
+   "date": "2026-10-29",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1583648/000119312526448594/pvla-20261105.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1583648/000119312526435113/pvla-20261028.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1583648/000119312526331556/pvla-20260804.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1583648/000119312526303307/pvla-20260714.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1583648/000110465926079087/tm2619348d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1583648/000110465926074338/tm2618003d1_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001583648&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2024-09-30",
+    "derived": false,
+    "revenue": 0,
+    "profit": -5062000,
+    "netIncome": -6775000,
+    "margin": null,
+    "yoy": {
+     "revenue": -100,
+     "profit": 57.1,
+     "netIncome": 37,
+     "priorEnd": "2023-09-30"
+    }
+   },
+   {
+    "periodEnd": "2024-06-30",
+    "derived": false,
+    "revenue": 0,
+    "profit": -2908000,
+    "netIncome": -4172000,
+    "margin": null,
+    "yoy": {
+     "revenue": -100,
+     "profit": -241,
+     "netIncome": -204.9,
+     "priorEnd": "2023-06-30"
+    }
+   },
+   {
+    "periodEnd": "2024-03-31",
+    "derived": false,
+    "revenue": 53000,
+    "profit": -1759000,
+    "netIncome": -2536000,
+    "margin": -3318.9,
+    "yoy": {
+     "revenue": -97.3,
+     "profit": 88.7,
+     "netIncome": 80.8,
+     "priorEnd": "2023-03-31"
+    }
+   },
+   {
+    "periodEnd": "2023-12-31",
+    "derived": true,
+    "revenue": 1299000,
+    "profit": 13386000,
+    "netIncome": 38650000,
+    "margin": 1030.5,
+    "yoy": {
+     "revenue": -77.8,
+     "profit": 216.2,
+     "netIncome": 577,
+     "priorEnd": "2022-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": 72.15,
+  "epsNy": 23.79,
+  "cyTrend": -0.17,
+  "nyTrend": 5.45,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:37:02"
+  }
+ }
+}

@@ -1,0 +1,739 @@
+{
+ "ticker": "ABNB",
+ "date": "2026-11-07",
+ "session": "2026-11-06",
+ "source": "list",
+ "plan": {
+  "ticker": "ABNB",
+  "name": "에어비앤비",
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services",
+  "price": 189.99,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 2.89,
+  "extensionAdr": 3.43,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2720939643828235,
+    "pct": 88.32281334535618
+   },
+   "m3": {
+    "v": 0.1290921657047901,
+    "pct": 68.8458070333634
+   },
+   "m6": {
+    "v": 0.48319947130644686,
+    "pct": 90.84761045987376
+   }
+  },
+  "ret1m": 14.54,
+  "ret3m": 2.63,
+  "ret6m": 41.47,
+  "marketCap": "103.99B",
+  "volx": 3.1,
+  "volSurgeWk": 2.13,
+  "high52": 98.21,
+  "newHigh52": false,
+  "adr": 2.89,
+  "div50": 12.37,
+  "div200": 28.56,
+  "targetStatus": false,
+  "saleCy": 15.83,
+  "saleNy": 11.59,
+  "epsCy": 31.75,
+  "epsNy": 17.93,
+  "cyTrend": 0.22,
+  "nyTrend": 0.19,
+  "est": {
+   "cyCur": 5.30966,
+   "cy30": 5.29812,
+   "nyCur": 6.26193,
+   "ny30": 6.25014
+  },
+  "fs": {
+   "sale": [
+    16.54,
+    17.87,
+    12.02
+   ],
+   "ni": [
+    27.1,
+    3.9,
+    -26.03
+   ],
+   "opm": [
+    21.01,
+    3.21,
+    9.68
+   ],
+   "updated": "2026-09-07 05:58:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-07",
+  "nameKo": "에어비앤비",
+  "nameEn": "AIRBNB INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001559720&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3608000000,
+     "profit": 758000000,
+     "netIncome": 816000000,
+     "margin": 21,
+     "yoy": {
+      "revenue": 16.5,
+      "profit": 23.9,
+      "netIncome": 27.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2678000000,
+     "profit": 86000000,
+     "netIncome": 160000000,
+     "margin": 3.2,
+     "yoy": {
+      "revenue": 17.9,
+      "profit": 126.3,
+      "netIncome": 3.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2778000000,
+     "profit": 269000000,
+     "netIncome": 341277000,
+     "margin": 9.7,
+     "yoy": {
+      "revenue": 12,
+      "profit": -37.4,
+      "netIncome": -26,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 4095000000,
+     "profit": 1625000000,
+     "netIncome": 1374000000,
+     "margin": 39.7,
+     "yoy": {
+      "revenue": 9.7,
+      "profit": 6.6,
+      "netIncome": 0.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-16",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526108514/d106317d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-08-07",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[에어비앤비 (NAS:ABNB)] Earnings Flash",
+     "summary": "- 매출액 36.1억 달러(YoY +16.5%), EPS 1.37달러(YoY +33%)로 각각 예상치 0.8%, 8.7% 상회- 순이익률 22.6%(YoY +1.9%p), 조정 EBITDA 마진 35%(YoY +1.3%p)로 수익성 개선.- 글로벌 예약 성장 가속과 연간 매출·수익성 가이던스 상향, AI 기반 운영 효율성 부각되며 시간외 7.8% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxgxqklqqemzmgcgxeecq.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "ABNB-report1.pdf",
+   "broker": "한화증권",
+   "analyst": "박제인",
+   "date": "2026-08-07",
+   "title": "[에어비앤비 (NAS:ABNB)] Earnings Flash",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxgxqklqqemzmgcgxeecq.pdf",
+   "pages": "1"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Moderna, Airbnb, Cloudflare, Affirm & more",
+   "url": "https://www.cnbc.com/2026/11/06/stocks-making-the-biggest-moves-premarket-moderna-airbnb-cloudflare-affirm-more.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "American Express brings Airbnb bookings and rewards to Amex Travel platform",
+   "url": "https://www.cnbc.com/2026/10/22/american-express-airbnb-travel-platform.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's biggest analyst calls: Nvidia, SpaceX, Apple, Nike, Airbnb, Strategy, Netflix, Blackrock",
+   "url": "https://www.cnbc.com/2026/10/02/biggest-wall-street-calls-on-friday-include-nvidia-spacex.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Airbnb is looking cheaper than usual. KeyBanc says to buy it now",
+   "url": "https://www.cnbc.com/2026/10/02/airbnb-is-looking-cheaper-than-usual-keybanc-says-to-buy-it-now.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Chesky: Humans need to 'surf the wave' of AI rather than get swallowed by it",
+   "url": "https://www.cnbc.com/2026/09/10/goldman-sachs-communacopia-technology-conference-ai-tech.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "40% of our tickets are now handled by AI, says Airbnb CEO Brian Chesky",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/05/40percent-of-our-tickets-are-now-handled-by-ai-says-airbnb-ceo-brian-chesky.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Airbnb posts its fastest revenue growth in more than three years as bookings accelerate",
+   "url": "https://www.cnbc.com/video/2026/11/05/airbnb-pops-on-quarterly-beat-lyft-shared-slide-on-disappointing-q3-results.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: SK Hynix, Airbnb, Meta and ServiceTitan",
+   "url": "https://www.cnbc.com/video/2026/10/07/final-trades-sk-hynix-airbnb-meta-servicetitan.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ABNB",
+  "fetchedAt": "2026-11-06",
+  "source": "한국투자증권 Open API",
+  "per": 38.67,
+  "pbr": 12.87,
+  "eps": 4.4,
+  "bps": 13.22,
+  "shares": 419530000,
+  "marketCapM": 71375,
+  "high52": 193.4529,
+  "high52Date": "2026-08-24",
+  "low52": 110.81,
+  "low52Date": "2025-11-20",
+  "last": 170.13,
+  "prevClose": 176.37,
+  "nameKo": "에어비앤비",
+  "nameEn": "AIRBNB INC",
+  "listedOn": "2020-12-08",
+  "exchange": "나스닥",
+  "listedShares": 419530000
+ },
+ "estimates": {
+  "ticker": "ABNB",
+  "url": "https://finance.yahoo.com/quote/ABNB/analysis/",
+  "fetchedAt": "2026-11-06",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.83,
+    "epsLow": 0.71,
+    "epsHigh": 1.02,
+    "epsYearAgo": 0.56,
+    "epsAnalysts": 31,
+    "epsGrowth": 49,
+    "epsCur": "USD",
+    "rev": 3161529550,
+    "revAnalysts": 35,
+    "revYearAgo": 2778000000,
+    "revGrowth": 13.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.41,
+    "epsLow": 0,
+    "epsHigh": 0.57,
+    "epsYearAgo": 0.26,
+    "epsAnalysts": 15,
+    "epsGrowth": 55.9,
+    "epsCur": "USD",
+    "rev": 3023630700,
+    "revAnalysts": 16,
+    "revYearAgo": 2678000000,
+    "revGrowth": 12.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.31,
+    "epsLow": 5,
+    "epsHigh": 5.74,
+    "epsYearAgo": 4.03,
+    "epsAnalysts": 39,
+    "epsGrowth": 31.8,
+    "epsCur": "USD",
+    "rev": 14178689200,
+    "revAnalysts": 42,
+    "revYearAgo": 12241000000,
+    "revGrowth": 15.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 6.26,
+    "epsLow": 5.71,
+    "epsHigh": 8.09,
+    "epsYearAgo": 5.31,
+    "epsAnalysts": 39,
+    "epsGrowth": 17.9,
+    "epsCur": "USD",
+    "rev": 15822192990,
+    "revAnalysts": 41,
+    "revYearAgo": 14178689200,
+    "revGrowth": 11.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.83,
+    "d7": 0,
+    "d30": -0.1,
+    "d90": 5,
+    "ago90": 0.79,
+    "up7": 1,
+    "up30": 2,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.41,
+    "d7": -0.9,
+    "d30": -0.4,
+    "d90": 0.4,
+    "ago90": 0.4,
+    "up7": 3,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.31,
+    "d7": 0,
+    "d30": 0.2,
+    "d90": 4.3,
+    "ago90": 5.09,
+    "up7": 1,
+    "up30": 5,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 6.26,
+    "d7": 0,
+    "d30": 0.2,
+    "d90": 3.7,
+    "ago90": 6.04,
+    "up7": 2,
+    "up30": 4,
+    "down7": 2,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.16,
+    "estimate": 2.85,
+    "surprisePct": 11,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.37,
+    "estimate": 1.25,
+    "surprisePct": 9.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.26,
+    "estimate": 0.3,
+    "surprisePct": -14.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.56,
+    "estimate": 0.66,
+    "surprisePct": -15.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 2,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 10,
+   "ptLowered": 1,
+   "total": 15,
+   "recent": [
+    {
+     "date": "2026-11-03",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 181,
+     "ptPrior": 172
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 210,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 185,
+     "ptPrior": 186
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Keybanc",
+     "action": "up",
+     "from": "Sector Weight",
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 191,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 195,
+     "ptPrior": 195
+    },
+    {
+     "date": "2026-09-18",
+     "firm": "Citizens",
+     "action": "main",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Raises",
+     "pt": 200,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 161,
+     "ptPrior": 134
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Raymond James",
+     "action": "up",
+     "from": "Market Perform",
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 200,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 200,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-09-01",
+     "firm": "Rosenblatt",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 220,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-06",
+  "numbers": {
+   "price": 189.99,
+   "ma20": 171.46,
+   "ma50": 169.07,
+   "ma150": 154.27,
+   "distMA50": 12.37,
+   "periodHigh": 193.45,
+   "pullbackFromHigh": -1.79,
+   "volRatio20": 2.84,
+   "dryUpRatio": 1.71
+  },
+  "last10": [
+   {
+    "d": "2026-10-26",
+    "o": 171.18,
+    "h": 172.17,
+    "l": 169.26,
+    "c": 171.05,
+    "v": 2090100,
+    "clsPos": 61,
+    "gapPct": -0.48
+   },
+   {
+    "d": "2026-10-27",
+    "o": 171.32,
+    "h": 171.55,
+    "l": 167.27,
+    "c": 168.82,
+    "v": 3084000,
+    "clsPos": 36,
+    "gapPct": 0.16
+   },
+   {
+    "d": "2026-10-28",
+    "o": 168.43,
+    "h": 169.46,
+    "l": 164.83,
+    "c": 166.04,
+    "v": 2680300,
+    "clsPos": 26,
+    "gapPct": -0.23
+   },
+   {
+    "d": "2026-10-29",
+    "o": 167.19,
+    "h": 168.52,
+    "l": 165.76,
+    "c": 166.45,
+    "v": 2557500,
+    "clsPos": 25,
+    "gapPct": 0.69
+   },
+   {
+    "d": "2026-10-30",
+    "o": 166.67,
+    "h": 166.85,
+    "l": 164.1,
+    "c": 164.39,
+    "v": 4023900,
+    "clsPos": 11,
+    "gapPct": 0.13
+   },
+   {
+    "d": "2026-11-02",
+    "o": 167.6,
+    "h": 173.05,
+    "l": 166.51,
+    "c": 171.11,
+    "v": 5957000,
+    "clsPos": 70,
+    "gapPct": 1.95
+   },
+   {
+    "d": "2026-11-03",
+    "o": 170.94,
+    "h": 171.28,
+    "l": 166.7,
+    "c": 166.96,
+    "v": 3738200,
+    "clsPos": 6,
+    "gapPct": -0.1
+   },
+   {
+    "d": "2026-11-04",
+    "o": 173.28,
+    "h": 180.06,
+    "l": 172.9,
+    "c": 176.37,
+    "v": 5734600,
+    "clsPos": 48,
+    "gapPct": 3.79
+   },
+   {
+    "d": "2026-11-05",
+    "o": 177.22,
+    "h": 177.49,
+    "l": 166.67,
+    "c": 170.13,
+    "v": 9242600,
+    "clsPos": 32,
+    "gapPct": 0.48
+   },
+   {
+    "d": "2026-11-06",
+    "o": 191.15,
+    "h": 192.5,
+    "l": 184.08,
+    "c": 189.99,
+    "v": 12197700,
+    "clsPos": 70,
+    "gapPct": 12.36
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ABNB-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ABNB-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 14일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

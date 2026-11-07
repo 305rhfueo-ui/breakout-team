@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-07",
+  "items": [
+    {
+      "ticker": "TMDX",
+      "price": 88.24,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ATLC",
+      "price": 91.23,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ROKU",
+      "price": 160.52,
+      "category": 3,
+      "confidence": "high"
+    },
+    {
+      "ticker": "RYTM",
+      "price": 112.28,
+      "category": 3,
+      "confidence": "high"
+    },
+    {
+      "ticker": "FROG",
+      "price": 100.98,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "ABNB",
+      "price": 189.99,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "ASH",
+      "price": 76.62,
+      "category": 3,
+      "confidence": "low"
+    },
+    {
+      "ticker": "RHLD",
+      "price": 153.71,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "EPAM",
+      "price": 159.31,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "WK",
+      "price": 72.76,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SOLV",
+      "price": 90.38,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RDNT",
+      "price": 76,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NHC",
+      "price": 208.85,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "LYV",
+      "price": 175.25,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GH",
+      "price": 150.87,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TPC",
+      "price": 89.89,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NTRA",
+      "price": 310.67,
+      "category": 4,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PVLA",
+      "price": 175.92,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BUD",
+      "price": 83.96,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "HALO",
+      "price": 103.63,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CPAY",
+      "price": 455.16,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "MIDD",
+      "price": 136.5,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "RVMD",
+      "price": 192.28,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "HUM",
+      "price": 433.74,
+      "category": 1,
+      "confidence": "medium"
+    }
+  ]
+}

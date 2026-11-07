@@ -1,0 +1,631 @@
+{
+ "ticker": "ASML",
+ "date": "2026-11-07",
+ "session": "2026-11-06",
+ "source": "list",
+ "plan": {
+  "ticker": "ASML",
+  "name": "ASML 홀딩(ADR)",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "price": 1424.75,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 1873.5,
+  "stop": 1828.39,
+  "distToPivotPct": -23.95,
+  "distToPivotAdr": -7.57,
+  "riskPerSharePct": 2.41,
+  "adrPct": 3.17,
+  "extensionAdr": -2.75,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 29,
+   "baseWeeks": 5.8,
+   "depthPct": 27.7,
+   "priorMovePct": 22.4,
+   "higherLows": 0,
+   "contraction": 1.04,
+   "closeRange10Adr": 7.1,
+   "surf10": -2.75,
+   "surf20": -3.88,
+   "slope20": -5.03,
+   "baseLow": 1355.05,
+   "lastSwingLow": 1550
+  },
+  "reasons": [
+   "✗ 선행 상승 +22%",
+   "베이스 5.8주",
+   "✗ 깊이 27.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.04배 · 10일 종가폭 7.1 ADR",
+   "✗ 10일선 -2.7 ADR · 20일선 -3.9 ADR",
+   "✗ 20일선 기울기 -5.03%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.07199691292933025,
+    "pct": 13.300270513976557
+   },
+   "m3": {
+    "v": -0.12513217409000651,
+    "pct": 14.923354373309289
+   },
+   "m6": {
+    "v": 0.03870491649907838,
+    "pct": 33.67899008115419
+   }
+  },
+  "ret1m": -19.87,
+  "ret3m": -22.8,
+  "ret6m": -2.98,
+  "marketCap": "576.70B",
+  "volx": 0.99,
+  "volSurgeWk": 0.85,
+  "high52": 71.43,
+  "newHigh52": false,
+  "adr": 3.17,
+  "div50": -14.96,
+  "div200": -10.72,
+  "targetStatus": true,
+  "saleCy": 36.19,
+  "saleNy": 28.99,
+  "epsCy": 67.88,
+  "epsNy": 36.04,
+  "cyTrend": 8.19,
+  "nyTrend": 9.09,
+  "est": {
+   "cyCur": 41.48298,
+   "cy30": 38.34441,
+   "nyCur": 56.43418,
+   "ny30": 51.73157
+  },
+  "fs": {
+   "sale": [
+    24.19,
+    25.81,
+    13.94
+   ],
+   "ni": [
+    30.48,
+    30.05,
+    14.78
+   ],
+   "opm": [
+    37.06,
+    36.02,
+    35.37
+   ],
+   "updated": "2026-09-08 08:40:31"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-07",
+  "nameKo": "ASML 홀딩(ADR)",
+  "nameEn": "ASML HOLDING NV EUR0.09 NY REGISTRY SHS 2012",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Could $10,000 Invested in ASML Set You Up for Life?",
+     "url": "https://www.nasdaq.com/articles/could-10000-invested-asml-set-you-life",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ASML vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
+     "url": "https://www.nasdaq.com/articles/asml-vs-marvell-technology-which-artificial-intelligence-stock-better-buy-going-2027",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ASML Holding N.V. (ASML) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/asml-holding-nv-asml-trending-stock-facts-know-betting-it",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ASML Surges 48% in the Past Year: How Should You Play the Stock Now?",
+     "url": "https://www.nasdaq.com/articles/asml-surges-48-past-year-how-should-you-play-stock-now",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-10-22",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 2030년 장비 주문을 원하는 고객들",
+     "summary": "- 3Q26CY 메모리 장비 매출액 +98%YoY 급증, 중국향 판매 +110%QoQ 급증- 4Q26CY 가이던스 시장 컨센서스 상회. 중국 비중도 높은 수준 유지 예상- 2028년까지 장비 발주 대폭 증가. 메모리 수급 전망에는 부담 요인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxgiqegixkikgcgxeecq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-16",
+     "broker": "하나증권",
+     "analyst": "김록호",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 27, 28년 30%씩 증설",
+     "summary": "- 3Q26 Review: 수익성 서프라이즈- 4Q26 Preview: 생산능력 증대로 인한 비용 반영- 고객사 수요에 대응하기 위한 CAPA 증대 및 가격 인상",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgcmmcgckxzzzgcgxeecq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-07-16",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] Earnings Flash",
+     "summary": "- 매출액 93.3억 유로(YoY +21.3%), 영업이익 29.2억 유로(YoY +27.4%), EPS 7.59 유로(YoY +28.6%)로 각각 예상치 5.4%, 10.6%, 10.9% 상회- 사업부별 매출액: 시스템 65.6억유로(YoY +17.3%), 장비 유지보수 27.6억유로(YoY +31.8%)- 시장 예상치를 웃돈 실적과 가이던스 상향, 2027~2028년 생산능력 확대 계획이 긍정적으로 작용해 2.2% 상승 마감",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkelgxqxqmeqxgcgxeecq.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-07-16",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 모두의 증설이 향하는 곳",
+     "summary": "- ASML의 2분기 실적은 매출 93.3억 유로(+21% yoy), 시스템 매출 65.7 억 유로(+17% yoy), 설치기반 매출 27.6억 유로(+32% yoy)를 기록하며 컨센을 상회. 3분기 매출 가이던스도 115억 유로를 제시하며 컨센을 상회- 수익성 개선도 두드러지는 양상. 2분기 GPM은 54%를 기록하며 컨센을 2%p 상회하였으며, 3분기 GPM 가이던스는 56%를 제시하며 컨센을 3.5%p 상회. GPM 개선은 1) EUV 수요 강세로 인한 믹스 개선과 2) 장비 업그레이드 수요로 인한 고마진 설치기반 매출 성장이 주 원인으로 파악. 2026년 연간 매출 가이던스는 380억 유로에서 440억 유로로, GPM 가이 던스는 52%에서 55%로 큰 폭 상향 조정- 급증하는 AI 반도체 수요로 로직과 DRAM 고객사 모두 증설 기조에 진입했 으며, 이에 따라 리소그래피 장비 수요 강세가 포착. 로직의 경우 TSMC와 인텔 파운드리가 공격적으로 선단 노드 캐파를 확장 중. 특히 애플 칩 수주 와 서버 CPU 호조로 인해 인텔 파운드리의 구조적 턴어라운드 가능성이 높 아지고 있으며, 테라팹 향 업사이드 또한 기대가 가능한 상황. 이는 TSMC 의 증설에만 의존했던 로직 향 반도체 장비사들에게 신규 수요처가 확대되 는 효과.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkezqezemciimgcgxeecq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-04-28",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] EUV 장비 판매량 급증 전망",
+     "summary": "- 1Q26CY 메모리 실적 성장세 지속. 2Q26CY 실적 가이던스는 시장 기대치 하회- 그러나, 2026년 실적 가이던스는 지난 분기에 이어 또 한차례 상향 조정했음- EUV 판매량 가이던스: 25년 48대, 26년 60대, 27년 80대로 제시되며, 기대치 상회",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqiiexmcgmmzcgcgxeecq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-04-17",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 하반기 성장 기대감 유효",
+     "summary": "- 4Q25 수주 급반등 → 리드타임 고려 시 2H26 강세 예상- 1Q26 Review: 메모리 비중 51%로 4년만에 로직/파운드리 비중 역전- 2Q26 가이던스는 다소 아쉽지만 2H26부터 이익 가시성 높아질 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxileczglgixegcgxeecq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-04-16",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[ASML 홀딩(ADR) (NAS:ASML)] 중장기 성장 유효, 단기 규제 불확실성 잔존",
+     "summary": "- ASML의 FY 1026 실적이 발표됐습니다. 실적이 예상 대비 좋았으나 주가는 2.4% 내림- 매출 인식 시점의 차이로 2분기 가이던스가 보수적으로 제시됐으며, 논의가 진행 중인 대중 수출 규제 법안에 따른 불확실성 영향- AI 확산에 따라 고사양 EUV의 매출 비중도 대폭 증가- 설치된 제품의 관리 서비스는 전사 매출 비중이 28%로 낮지만, 이익률 이 높아 해당 분야에서 발생하는 중국 매출 감소분을 타 지역 수요가 얼 마나 상쇄할 수 있는지가 향후 주가 방향을 결정할 것으로 전망합니다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxiqmziqxgcglgcgxeecq.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "ASML-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "박유악",
+   "date": "2026-10-22",
+   "title": "[ASML 홀딩(ADR) (NAS:ASML)] 2030년 장비 주문을 원하는 고객들",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxgiqegixkikgcgxeecq.pdf",
+   "pages": "7"
+  },
+  {
+   "file": "ASML-report2.pdf",
+   "broker": "하나증권",
+   "analyst": "김록호",
+   "date": "2026-10-16",
+   "title": "[ASML 홀딩(ADR) (NAS:ASML)] 27, 28년 30%씩 증설",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgcmmcgckxzzzgcgxeecq.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries",
+   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says don't give up on this unpredictable market. Here's why",
+   "url": "https://www.cnbc.com/2026/10/14/cramer-stock-market-selloff-inflation.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Global AI sell-off jolts European chip stocks",
+   "url": "https://www.cnbc.com/video/2026/10/15/global-ai-sell-off-jolts-european-chip-stocks.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Markets can stay irrational for longer than you can stay solvent, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/14/markets-can-stay-irrational-for-longer-than-you-can-stay-solvent-says-jim-cramer.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trade: DAL, QQQ, JPM, ASML",
+   "url": "https://www.cnbc.com/video/2026/10/14/final-trade-dal-qqq-jpm-asml.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "ASML beats profit estimates: Here's what you need to know",
+   "url": "https://www.cnbc.com/video/2026/10/14/asml-beats-profit-estimates-heres-what-you-need-to-know.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Wednesday, October 14, 2026: Cramer says this financial firm is the one investors want to buy",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/14/wednesday-october-14-2026-cramer-says-this-financial-firm-is-the-one-investors-want-to-buy.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC’s full discussion with the ‘Squawk on the Street’ crew",
+   "url": "https://www.cnbc.com/video/2026/10/14/watch-cnbcas-full-discussion-with-the-asquawk-on-the-streeta-crew.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ASML",
+  "fetchedAt": "2026-11-07",
+  "source": "한국투자증권 Open API",
+  "per": 35.06,
+  "pbr": 21.91,
+  "eps": 40.64,
+  "bps": 65.02,
+  "shares": 385417991,
+  "marketCapM": 549124,
+  "high52": 1994.7155,
+  "high52Date": "2026-06-30",
+  "low52": 940.3319,
+  "low52Date": "2025-11-21",
+  "last": 1424.75,
+  "prevClose": 1356.65,
+  "nameKo": "ASML 홀딩(ADR)",
+  "nameEn": "ASML HOLDING NV EUR0.09 NY REGISTRY SHS 2012",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 385417991
+ },
+ "estimates": {
+  "ticker": "ASML",
+  "url": "https://finance.yahoo.com/quote/ASML/analysis/",
+  "fetchedAt": "2026-11-07",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 15.39,
+    "epsLow": 14.84,
+    "epsHigh": 16.11,
+    "epsYearAgo": 7.34,
+    "epsAnalysts": 7,
+    "epsGrowth": 109.7,
+    "epsCur": "EUR",
+    "rev": 14816055140,
+    "revAnalysts": 18,
+    "revYearAgo": 9718100000,
+    "revGrowth": 52.5,
+    "revCur": "EUR"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 12.94,
+    "epsLow": 10.74,
+    "epsHigh": 14.37,
+    "epsYearAgo": 7.15,
+    "epsAnalysts": 8,
+    "epsGrowth": 81,
+    "epsCur": "EUR",
+    "rev": 13313561770,
+    "revAnalysts": 13,
+    "revYearAgo": 8767000000,
+    "revGrowth": 51.9,
+    "revCur": "EUR"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 41.41,
+    "epsLow": 37.12,
+    "epsHigh": 43.77,
+    "epsYearAgo": 24.71,
+    "epsAnalysts": 24,
+    "epsGrowth": 67.6,
+    "epsCur": "EUR",
+    "rev": 44490989200,
+    "revAnalysts": 35,
+    "revYearAgo": 32667300000,
+    "revGrowth": 36.2,
+    "revCur": "EUR"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 56.43,
+    "epsLow": 37.43,
+    "epsHigh": 63.89,
+    "epsYearAgo": 41.41,
+    "epsAnalysts": 27,
+    "epsGrowth": 36.3,
+    "epsCur": "EUR",
+    "rev": 57389468110,
+    "revAnalysts": 38,
+    "revYearAgo": 44490989200,
+    "revGrowth": 29,
+    "revCur": "EUR"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "EUR",
+    "now": 15.39,
+    "d7": 16,
+    "d30": 17.1,
+    "d90": 17.1,
+    "ago90": 13.14,
+    "up7": 7,
+    "up30": 7,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "EUR",
+    "now": 12.94,
+    "d7": 7.1,
+    "d30": 7.1,
+    "d90": 7.1,
+    "ago90": 12.09,
+    "up7": 6,
+    "up30": 6,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "EUR",
+    "now": 41.41,
+    "d7": 0.5,
+    "d30": 8,
+    "d90": 8.8,
+    "ago90": 38.05,
+    "up7": 19,
+    "up30": 19,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "EUR",
+    "now": 56.43,
+    "d7": 0.9,
+    "d30": 9.1,
+    "d90": 10.5,
+    "ago90": 51.09,
+    "up7": 21,
+    "up30": 21,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 11.82,
+    "estimate": 10.76,
+    "surprisePct": 9.9,
+    "cur": "EUR"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 7.58,
+    "estimate": 6.95,
+    "surprisePct": 9.1,
+    "cur": "EUR"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 7.15,
+    "estimate": 6.62,
+    "surprisePct": 8,
+    "cur": "EUR"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 7.34,
+    "estimate": 7.55,
+    "surprisePct": -2.7,
+    "cur": "EUR"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 1,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-10-15",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 2350,
+     "ptPrior": 2400
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-27",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-06",
+  "numbers": {
+   "price": 1424.75,
+   "ma20": 1599.54,
+   "ma50": 1677.25,
+   "ma150": 1669.16,
+   "distMA50": -15.05,
+   "periodHigh": 1999.96,
+   "pullbackFromHigh": -28.76,
+   "volRatio20": 1.1,
+   "dryUpRatio": 1.26
+  },
+  "last10": [
+   {
+    "d": "2026-10-26",
+    "o": 1588.02,
+    "h": 1612,
+    "l": 1582.88,
+    "c": 1590.9,
+    "v": 1944800,
+    "clsPos": 28,
+    "gapPct": 1.03
+   },
+   {
+    "d": "2026-10-27",
+    "o": 1617.74,
+    "h": 1643.67,
+    "l": 1598.66,
+    "c": 1635.57,
+    "v": 1363300,
+    "clsPos": 82,
+    "gapPct": 1.69
+   },
+   {
+    "d": "2026-10-28",
+    "o": 1656.74,
+    "h": 1673.06,
+    "l": 1647.81,
+    "c": 1662.85,
+    "v": 1071000,
+    "clsPos": 60,
+    "gapPct": 1.29
+   },
+   {
+    "d": "2026-10-29",
+    "o": 1657.42,
+    "h": 1690.1,
+    "l": 1650.82,
+    "c": 1675.7,
+    "v": 1272700,
+    "clsPos": 63,
+    "gapPct": -0.33
+   },
+   {
+    "d": "2026-10-30",
+    "o": 1587.82,
+    "h": 1609.26,
+    "l": 1535.33,
+    "c": 1565.9,
+    "v": 2174000,
+    "clsPos": 41,
+    "gapPct": -5.24
+   },
+   {
+    "d": "2026-11-02",
+    "o": 1577.32,
+    "h": 1600.8,
+    "l": 1518,
+    "c": 1526.14,
+    "v": 1814700,
+    "clsPos": 10,
+    "gapPct": 0.73
+   },
+   {
+    "d": "2026-11-03",
+    "o": 1558.67,
+    "h": 1575.6,
+    "l": 1547.01,
+    "c": 1552.14,
+    "v": 1190800,
+    "clsPos": 18,
+    "gapPct": 2.13
+   },
+   {
+    "d": "2026-11-04",
+    "o": 1512.25,
+    "h": 1532.24,
+    "l": 1478.96,
+    "c": 1496.3,
+    "v": 1974900,
+    "clsPos": 33,
+    "gapPct": -2.57
+   },
+   {
+    "d": "2026-11-05",
+    "o": 1434.26,
+    "h": 1443.48,
+    "l": 1355.05,
+    "c": 1356.65,
+    "v": 4012400,
+    "clsPos": 2,
+    "gapPct": -4.15
+   },
+   {
+    "d": "2026-11-06",
+    "o": 1446.08,
+    "h": 1447.49,
+    "l": 1409.21,
+    "c": 1424.75,
+    "v": 1903600,
+    "clsPos": 41,
+    "gapPct": 6.59
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ASML-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ASML-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 14일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

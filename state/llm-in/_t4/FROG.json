@@ -1,0 +1,219 @@
+{
+ "ticker": "FROG",
+ "news": [
+  {
+   "title": "JFrog (FROG) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/jfrog-frog-q3-2026-earnings-call-transcript",
+   "date": "2026-11-06",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "JFrog Ltd. (FROG) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/jfrog-ltd-frog-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why JFrog Ltd. (FROG) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-jfrog-ltd-frog-strong-momentum-stock-0",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why JFrog Ltd. (FROG) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-jfrog-ltd-frog-top-momentum-stock-long-term",
+   "date": "2026-09-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BofA Securities Adjusts JFrog Price Target to $120 From $115, Maintains Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-jfrog-price-155906395.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JFrog Posts Blowout Earnings. AI Coding Was the Biggest Growth Driver.",
+   "url": "https://finance.yahoo.com/m/a3bb50b2-48f1-3b8b-b19f-09f5ef3d6b72/jfrog-posts-blowout-earnings..html",
+   "date": "2026-11-06",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RBC Raises Price Target on JFrog to $121 From $118, Keeps Outperform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-jfrog-135416963.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Truist Securities Adjusts Price Target on JFrog to $120 From $115, Keeps Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-105819193.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JFrog (FROG) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-frog-q3-2026-earnings-073044745.html",
+   "date": "2026-11-06",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What JFrog (FROG) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-frog-said-q3-earnings-061438045.html",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JFrog Ltd (FROG) (Q3 2026) Earnings Call Highlights: Cloud Revenue Surges 60% as AI and ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-ltd-frog-q3-2026-052221905.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JFrog Q3 Non-GAAP Earnings, Revenue Rise; Guides Q4, 2026 Guidance Raised; Shares Gain After Hours",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-q3-non-gaap-earnings-220102466.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "JFrog (NASDAQ:FROG) delivers impressive Q3 2026, stock jumps 22.5%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jfrog-nasdaq-frog-delivers-impressive-213022665.html",
+   "date": "2026-11-05",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526449797/frog-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526236917/frog-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526211940/frog-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526073842/frog-20260226.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526048726/frog-20260212.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 22.36,
+  "saleNy": 17.98,
+  "epsCy": 19.61,
+  "epsNy": 16.82,
+  "cyTrend": 0.06,
+  "nyTrend": 0.06,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    28.73,
+    25.79,
+    25.18
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -8.09,
+    -8.4,
+    -14.67
+   ],
+   "updated": "2026-09-07 07:59:05"
+  }
+ }
+}

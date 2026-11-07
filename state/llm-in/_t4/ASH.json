@@ -2,6 +2,12 @@
  "ticker": "ASH",
  "news": [
   {
+   "title": "What Ashland (ASH) Said on Its Q4 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-ashland-ash-said-its-q4-earnings-call",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Ashland Inc. (ASH) Q4 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/ashland-inc-ash-q4-2026-earnings-call-transcript",
    "date": "2026-11-04",
@@ -32,10 +38,32 @@
    "publisher": "Zacks"
   },
   {
-   "title": "ASH Launches Permexa Sodium Caprate to Support Oral Biologics Growth",
-   "url": "https://www.nasdaq.com/articles/ash-launches-permexa-sodium-caprate-support-oral-biologics-growth",
-   "date": "2026-08-25",
-   "publisher": "Zacks"
+   "title": "Market Chatter: Evonik Cooling on Bid for Ashland",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-evonik-cooling-bid-182112988.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UBS Raises Ashland Price Target to $88 From $80, Maintains Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-raises-ashland-price-target-151621874.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ashland Inc (ASH) (Q4 2026) Earnings Call Highlights: Record Life Sciences Margins and Strong ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ashland-inc-ash-q4-2026-150523672.html",
+   "date": "2026-11-05",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Ashland (ASH) Said on Its Q4 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ashland-ash-said-q4-earnings-081421659.html",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
   },
   {
    "title": "Ashland Inc. (ASH) Q4 2026 Earnings Call Transcript",
@@ -77,34 +105,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/ashland-fiscal-q4-earnings-snapshot-224605888.html",
    "date": "2026-11-03",
    "publisher": "Associated Press",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Ashland reports fourth quarter and full-year fiscal 2026 results and issues outlook for fiscal 2027",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/ashland-reports-fourth-quarter-full-222100426.html",
-   "date": "2026-11-03",
-   "publisher": "GlobeNewswire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Sensient Technologies (SXT) Beats Q3 Earnings and Revenue Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/sensient-technologies-sxt-beats-q3-110503274.html",
-   "date": "2026-10-30",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Ashland (ASH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/ashland-ash-earnings-expected-grow-130005681.html",
-   "date": "2026-10-27",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Ecolab (ECL) Q3 Earnings Meet Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/ecolab-ecl-q3-earnings-meet-121001136.html",
-   "date": "2026-10-27",
-   "publisher": "Zacks",
    "via": "Yahoo"
   }
  ],
