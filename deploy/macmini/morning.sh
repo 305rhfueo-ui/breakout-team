@@ -7,9 +7,11 @@
 cd "$(dirname "$0")/../.."
 node scripts/holdings-watch.js || true   # 보유 종목 새 소식 (2026-10-17) — RS 대기(몇 시간) 전에 먼저, 실패해도 계속
 node scripts/fed-watch.js || true        # 10팀 윤슬 — 연준 금리 전환 감시 + 경제전망(SEP, 연 4회) (2026-10-29) — 몇 초, SEP 날엔 해석 1~3분
+node scripts/trade-review.js || true     # 12팀 도담 — 새로 청산된 거래가 있으면 복기 글 → 티스토리 → 텔레그램 (2026-11-07) — RS 대기 전에, 없으면 몇 초
 node scripts/wait-rs-fresh.js
 node scripts/run-breakout.js
 case "$(date +%u)" in 2|3|4|5|6) bash deploy/macmini/run-claude-job.sh research ;; esac
+node scripts/checklist-watch.js || true   # 13팀 라온 — 오늘 돌파 종목 중 시장 칸 빼고 체크리스트(블로그 21번) 전부 ✅ → 지우 심층분석 → 티스토리 → 텔레그램 (2026-11-07)
 node scripts/sns-watch.js || true   # 팝업 맨 밑 SNS 반응(레딧, 2026-10-28) — 맨 끝: 예절 간격 때문에 20분 안팎이라 실장 보고를 늦추지 않게
 if [ "$(date +%u)" = 6 ]; then node scripts/ticker-universe.js --write || true; fi   # RS 사이트 티커 목록(사용자 구글 시트 첫 탭) 주 1회 — $70 넣고 $50 밑이면 뺌 (2026-10-29)
 if [ "$(date +%u)" = 7 ]; then node scripts/covered-call-watch.js || true; fi   # 11팀 시윤 — 커버드콜 × 와인스타인 단계 주 1회(일요일 · 야후 분배금 59개 4~5분 — 토요일 야후 부담과 나눔) (2026-11-01)
