@@ -64,7 +64,7 @@ if [ ! -s "state/ondemand/$DAY/$TAG-out.json" ]; then
 fi
 
 # ③ 검증 · 대시보드 · 텔레그램
-FIN="$(node scripts/finish-ondemand.js "$TAG" --date="$DAY" 2>>"$OUT" | tail -1)"
+FIN="$(node scripts/finish-ondemand.js "$TAG" --date="$DAY" ${ONDEMAND_QUIET:+--no-send} 2>>"$OUT" | tail -1)"   # ONDEMAND_QUIET=1: 13팀이 부를 때 — 답장은 13팀이 한 번에 보낸다
 echo "$FIN" >> "$OUT"
 case "$FIN" in
   *'"ok":true'*) exit 0 ;;
