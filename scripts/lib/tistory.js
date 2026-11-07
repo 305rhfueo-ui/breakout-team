@@ -142,7 +142,7 @@ function board(fn, { git = true, msg = 'blog: 12·13팀 글 기록' } = {}) {
 // item = { team:'t12'|'t13', title, lines, images, category, text(텔레그램 — 링크 자리 {{URL}}), entry(대시보드 카드 줄), rec:{ file, root, key }(그 팀 기록) }
 // 로그인이 풀렸으면 글을 버리지 않고 대기열에 넣고 로그인을 부탁한다(3시간에 한 번) → 텔레그램 "로그인 했어" → retryPending() 이 그대로 다시 올린다.
 const PENDING = path.join(paths.cacheDir, 'tistory-pending.json');
-const LOGIN_ASK = '🔑 티스토리 로그인이 풀려 글을 올리지 못했습니다.\nAside 브라우저에서 티스토리(카카오)에 로그인한 뒤 여기에 "로그인 했어"라고 보내 주세요 — 써 둔 글을 그대로 다시 올립니다.';
+const LOGIN_ASK = '🔑 티스토리에 올릴 글이 있는데 로그인이 풀려 있습니다.\n맥미니 Aside 브라우저에서 티스토리(카카오)에 로그인한 뒤 "어사이드로 로그인했어"라고 보내 주세요 — 여기 텔레그램이나 맥미니 Claude 대화창 어디든 됩니다. 써 둔 글을 그대로 올립니다.';
 const tellDefault = (m) => require('./notify').notify(m);
 
 async function finish(item, tell) {
@@ -173,7 +173,7 @@ async function retryPending({ tell = tellDefault, pub = publish, file = PENDING 
   for (let i = 0; i < q.items.length; i++) {
     const it = q.items[i], r = pub(it);
     if (r.ok) { await finish(it, tell); continue; }
-    if (r.login) { left.push(...q.items.slice(i)); await tell('🔑 아직 티스토리 로그인 화면이 뜹니다 — 로그인한 뒤 다시 "로그인 했어"라고 보내 주세요.'); break; }
+    if (r.login) { left.push(...q.items.slice(i)); await tell('🔑 아직 티스토리 로그인 화면이 뜹니다 — 로그인한 뒤 다시 "어사이드로 로그인했어"라고 보내 주세요.'); break; }
     it.tries = (it.tries || 0) + 1;
     if (it.tries < 3) left.push(it);
     await tell(`⚠️ ${it.entry.ticker} 글을 다시 올리지 못했습니다 (${it.tries}/3) — ${String(r.error).slice(0, 150)}`);

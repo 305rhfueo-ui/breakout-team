@@ -91,7 +91,7 @@ ok('HTML — 이스케이프 · 소제목 · 인용 · 그림 자리 · 들여�
   ok('로그인이 풀리면 대기열에 넣고 로그인 부탁은 한 번만', () => {
     assert.ok(a.queued && b.queued && !a.ok);
     assert.deepStrictEqual(items().map((x) => x.title), ['AAA 점검', 'BBB 점검']);
-    assert.strictEqual(said.filter((m) => m.includes('"로그인 했어"')).length, 1);
+    assert.strictEqual(said.filter((m) => m.includes('"어사이드로 로그인했어"')).length, 1);
   });
   const c = await TS.post(item('CCC'), { tell, pub: () => ({ ok: false, error: '버튼: 비공개' }), file });
   ok('로그인 말고 다른 실패는 대기열에 넣지 않는다', () => { assert.ok(!c.ok && !c.queued); assert.strictEqual(items().length, 2); });
@@ -100,7 +100,7 @@ ok('HTML — 이스케이프 · 소제목 · 인용 · 그림 자리 · 들여�
   for (let i = 0; i < 3; i++) await TS.retryPending({ tell, pub: () => ({ ok: false, error: '그림 블록 0/2' }), file });
   ok('다른 실패는 3번까지만 다시', () => assert.strictEqual(items().length, 0));
   ok('텔레그램 "로그인 했어" 해석', () => {
-    for (const t of ['로그인 했어', '로그인했어', '티스토리 로그인 완료', '로그인 했어요.']) assert.strictEqual(parseCommand(t).kind, 'login', t);
+    for (const t of ['로그인 했어', '로그인했어', '티스토리 로그인 완료', '로그인 했어요.', '어사이드로 로그인했어', '어사이드 로그인 했어', 'Aside로 로그인했어']) assert.strictEqual(parseCommand(t).kind, 'login', t);
     assert.strictEqual(parseCommand('로그인 해줘').kind, 'usage');
   });
   console.log(`\n${pass} 통과 · ${fail} 실패`);
