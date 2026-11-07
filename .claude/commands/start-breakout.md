@@ -61,6 +61,7 @@ node scripts/run-breakout.js
 ```bash
 node scripts/prepare-llm-args.js        # 1·2·4팀 인자 → state/llm-in/_args.json (2팀 목록 테마 자료 _t2lists.json 포함)
 node scripts/prepare-deepdive-args.js   # 6팀 심층 분석 인자 → state/llm-in/_t6args.json (차트 PNG 포함)
+node scripts/prepare-n-args.js          # N 심층분석 인자 → state/llm-in/_nargs.json (새 실적 공시·신규 종목만, 하루 8개)
 ```
 
 ```
@@ -69,6 +70,7 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team2-research.js', args: {...}
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team4-catalyst.js', args: {...} })
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-industry.js', args: {...} })   ← team5args.items 가 있을 때만
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team6-deepdive.js', args: {...} })   ← 관심 종목이 있을 때만
+Workflow({ scriptPath: '<REPO>/scripts/workflows/n-deep.js',         args: {...} })   ← _nargs.json 의 items 가 있을 때만
 ```
 
 ⚠️ **2·4팀 인자는 인라인으로 붙여넣지 마라.** `prepare-llm-args.js` 가
@@ -95,7 +97,13 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team6-deepdive.js', args: {...}
   결과는 build-chief-report 가 서준 종목은 team6.js 에, 목록 종목은 team2.js 에 붙인다.
   기준은 `docs/기준-쿨라매기-차트.md`·`docs/기준-CANSLIM-재무.md` — 에이전트가 매번 읽는다.
 
-1·2·4·5팀과 심층 분석(관심 종목이 있을 때)은 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
+- `n-deep` (2026-11-06, N 심층분석): `state/llm-in/_nargs.json` 내용을 args 로 그대로 넘긴다. 종목당 오퍼스 1명이
+  `docs/기준-N-심층.md` 와 회사 공시 원문(실적 보도자료 `release-*.txt`·10-Q/10-K 경영진 설명 `mdna.txt`)을 읽고
+  오닐 N + 미너비니 이익의 질을 조사한다. **끝나면 바로** `node scripts/finish-n.js --task=<그 워크플로 task id>` —
+  결과를 손으로 옮겨 적지 마라(출력 파일에서 읽는다). push 는 4번 build-chief-report 가 같이 한다.
+  6팀 심층 분석은 N 을 조사하지 않는다(체크표 N 줄에 `nDeep` 판정만 옮긴다).
+
+1·2·4·5팀·심층 분석(관심 종목이 있을 때)·N 심층분석(대상이 있을 때)은 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
 
 **조사 대상은 매일 순환하고, TTL(5거래일) 안에 조사한 대상은 건너뛴다.** `prepare-llm-args.js` 가
 ① 신규 ② TTL 경과 ③ 변화(오늘 돌파·차트확인 진입·최근 8-K 실적) 만 남기고, 나머지는
@@ -172,6 +180,7 @@ push 를 원하지 않으면 `node scripts/build-chief-report.js --no-git`.
   모의 보유·어젯밤 체결·성적이 있으면 같이. 등급을 추천 강도처럼 말하지 마라(`/team6` 의 보고 규칙).
   사용자가 원하면 `/chart-read` 로 관심 종목 차트를 그려 직접 읽고 소견을 붙인다
 - 👁️ **오늘 차트를 봐야 할 종목**과 각각 왜 골랐는지(변동폭 축소·거래량 감소·저항선 근접) — 쉬운 말로
+- 🔬 **N 심층분석 N종목** — finish-n 이 찍은 판정 분포·실패·숫자 대조 삭제 수 (내용은 옮기지 않는다)
 - 🔎 **심층 분석 N/M** (실패 종목 있으면 티커). 내용은 옮기지 않는다 — 특히 **차트 관찰 칸은 채팅 보고에 쓰지 않는다**
   (대시보드 서준 탭에서 본다. 실장·채팅 보고는 여전히 차트 모양을 판정하지 않는다)
 - ⚠️ 차트 모양(횡보·베이스·돌파 실패·리테스트·눌림)은 **어느 팀도 판정하지 않는다** — `build-chief-report` 가

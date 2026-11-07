@@ -301,7 +301,82 @@ async function getFilings(ticker, { forms = ['8-K', '10-Q', '10-K'], limit = 20 
   return { ok: true, ticker, cik, companyName: data.name || null, filings: out };
 }
 
-module.exports = { getCompanyFacts, pickTag, getQuarterlyFinancials, getFilings, cikOf, getCikMap, getNameMap, nameOf, quarterlySeries, REVENUE_TAGS };
+// ── 공시 본문 (N 심층용, 2026-11-06) ──
+// 제품별 매출·신제품 설명은 뉴스가 아니라 회사 실적 보도자료(8-K 첨부 99.x)와 10-Q·10-K 경영진 설명(MD&A)에 있다.
+// 공시 본문은 바뀌지 않으므로 URL 단위로 오래 캐시한다.
+function htmlToText(html) {
+  return String(html || '')
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/<ix:header>[\s\S]*?<\/ix:header>/gi, ' ')          // 인라인 XBRL 머리(숨은 사실 목록)
+    .replace(/<\/(td|th)>/gi, ' | ').replace(/<br\s*\/?>|<\/(p|div|tr|li|h\d|table)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;|&#160;|&#xa0;/gi, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d)).replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&[a-z]+;/gi, ' ')
+    .replace(/[ \t\r\f\v]+/g, ' ').replace(/ ?\| ?(\| ?)+/g, ' | ').replace(/\n\s*/g, '\n').replace(/\n{2,}/g, '\n').trim();
+}
+
+async function docText(url) {
+  return cache.through('secDoc', url, async () => {
+    const r = await secFetch(url, { json: false });
+    return r.ok ? htmlToText(r.data) : null;
+  }, 365 * 86400000);
+}
+
+// 실적 8-K(항목 2.02) 첨부 — 보도자료(99.1)·CFO 설명·주주서한(99.2 등). 표지(primary)·XBRL 뷰어(R*.htm)는 뺀다.
+async function earningsExhibits(filing) {
+  const dir = filing.url.replace(/[^/]+$/, '');
+  const primary = filing.url.slice(dir.length);
+  const idx = await cache.through('secIndex', dir, async () => {
+    const r = await secFetch(`${dir}index.json`);
+    return r.ok ? r.data : null;
+  }, 365 * 86400000);
+  const names = ((idx && idx.directory && idx.directory.item) || []).map((i) => i.name)
+    .filter((n) => /\.html?$/i.test(n) && n !== primary && !/^R\d+\.htm$|index/i.test(n));
+  const ex = names.filter((n) => /ex-?99|ex99|991|992/i.test(n));
+  const out = [];
+  for (const n of (ex.length ? ex : names).sort()) {
+    const text = await docText(dir + n);
+    if (text) out.push({ url: dir + n, name: n, text });
+  }
+  return out;
+}
+
+// 10-Q 는 Item 2, 10-K 는 Item 7 이 MD&A. 목차에도 같은 제목이 있으므로 시작 후보마다 다음 항목까지 잘라 가장 긴 구간을 쓴다.
+// 끝은 줄 머리의 제목만 본다 — 본문의 "Item 8 참고" 같은 언급에서 끊으면 1천 자짜리가 된다(2026-11-06 TEAM 실측).
+function mdnaOf(text, form) {
+  const H = (n, w) => new RegExp(`(?:^|\\n)\\s*(?:item\\s*)?${n}\\s*\\.?[\\s|:–—-]*${w}`, 'gi');   // MRNA 는 "Item" 없이 "2. MANAGEMENT’S…"
+  const [start, ends] = form === '10-K'
+    ? [H(7, 'management.{0,3}s\\s+discussion'), [H('7a', 'quantitative'), H(8, 'financial\\s+statements')]]
+    : [H(2, 'management.{0,3}s\\s+discussion'), [H(3, 'quantitative'), H(4, 'controls')]];
+  const endAt = (s) => Math.min(...ends.map((re) => { const i = s.search(new RegExp(re.source, 'i')); return i < 0 ? Infinity : i; }));
+  let best = '';
+  for (const m of text.matchAll(start)) {
+    const rest = text.slice(m.index);
+    const e = endAt(rest.slice(m[0].length));
+    const sec = e === Infinity ? rest : rest.slice(0, e + m[0].length);
+    if (sec.length > best.length) best = sec;
+  }
+  return best.trim() || null;
+}
+
+async function getNDocs(ticker, { releases = 2 } = {}) {
+  const r = await getFilings(ticker, { forms: ['8-K', '10-Q', '10-K'], limit: 60 });
+  if (!r.ok) return { ok: false, ticker, error: r.error };
+  const earn = r.filings.filter((f) => f.form === '8-K' && f.isEarnings).slice(0, releases);
+  const per = r.filings.find((f) => f.form === '10-Q' || f.form === '10-K') || null;
+  const rel = [];
+  for (const f of earn) rel.push({ filingDate: f.filingDate, exhibits: await earningsExhibits(f) });
+  let mdna = null;
+  if (per) {
+    const full = await docText(per.url);
+    const t = full && mdnaOf(full, per.form);
+    mdna = { form: per.form, filingDate: per.filingDate, reportDate: per.reportDate, url: per.url, text: t, note: full && !t ? 'MD&A 구간을 찾지 못함' : null };
+  }
+  return { ok: true, ticker, cik: r.cik, companyName: r.companyName, releases: rel, mdna,
+    asOf: [...earn.map((f) => f.filingDate), per && per.filingDate].filter(Boolean).sort().pop() || null };
+}
+
+module.exports = { getCompanyFacts, pickTag, getQuarterlyFinancials, getFilings, cikOf, getCikMap, getNameMap, nameOf, quarterlySeries, REVENUE_TAGS, htmlToText, mdnaOf, getNDocs };
 
 if (require.main === module) {
   require('../lib/util').loadEnv();

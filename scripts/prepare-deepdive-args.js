@@ -77,20 +77,21 @@ async function main() {
 
   // ③ 도윤 목록 종목 순환 (2026-10-08) — 거래대금 상위·세 기간 공통 → 1개월 → 3·6개월 순, 하루 DEEP_LIST_CAP 개, 5거래일마다 갱신.
   //    plan 자리에는 run-breakout 이 서준과 같은 gradeSetup 으로 계산한 setup(피벗·손절·베이스 지표)을 넣는다.
-  const LCAP = Number.isFinite(Number(process.env.DEEP_LIST_CAP)) ? Number(process.env.DEEP_LIST_CAP) : 14;   // 2026-10-15 8→14: N 심층을 전 종목에 빨리 채우려고
+  const LCAP = Number.isFinite(Number(process.env.DEEP_LIST_CAP)) ? Number(process.env.DEEP_LIST_CAP) : 14;   // 2026-10-15 8→14 (그때는 N 을 채우려고 — 2026-11-06 N 은 n-deep 으로 분리)
   const watchSet = new Set(watch.map((p) => p.ticker));
   const pool2 = [...(t2.picks || []), ...(t2.listPicks || [])];
   const listRank = t2.lists ? require('./lib/lists').listRankOf(t2.lists) : new Map();
-  // 2026-10-15: 선정(picks)만 된 종목도 대상 — 체크표 N 줄을 전 종목에 채운다. N 분석이 없는 종목(10-13 이전 분석·미분석)을 맨 앞에.
-  const noN = (q) => !(q.deep && q.deep.status === 'done' && q.deep.nVerdict);
+  // 2026-10-15: 선정(picks)만 된 종목도 대상. 심층 분석이 없는 종목을 맨 앞에.
+  //   (2026-11-06 전에는 "N 분석이 없는 종목"이 기준이었다 — N 은 이제 n-deep 이 따로 채운다)
+  const noN = (q) => !(q.deep && q.deep.status === 'done');
   const listCands = pool2.filter((q) => !watchSet.has(q.ticker)
-    && !(q.deep && q.deep.status === 'done' && q.deep.nVerdict && session && q.deep.session === session));
+    && !(q.deep && q.deep.status === 'done' && session && q.deep.session === session));
   const rankL = (q) => (noN(q) ? -1 : 0) + (listRank.has(q.ticker) ? listRank.get(q.ticker) : rot.RANK_OTHER);
   const ordered0 = rot.orderForResearch(listCands, { rankOf: rankL, cache: rc, bucket: 'deep2', today: date,
     ttl: Number(process.env.DEEP_LIST_TTL || 5), metric: (q) => q.bestPct || 0 });
   const ordered = [...ordered0.filter(noN), ...ordered0.filter((q) => !noN(q))];   // TTL 안에 조사했어도 N 이 없으면 먼저
   const selL = rot.selectForResearch(ordered, { cache: rc, bucket: 'deep2', today: date, ttl: Number(process.env.DEEP_LIST_TTL || 5), cap: LCAP,
-    changed: (q) => (noN(q) ? 'N 분석 없음' : null) });
+    changed: (q) => (noN(q) ? '심층 분석 없음' : null) });
   for (const q of selL.picked) {
     const S = q.setup || {};
     picked.push({ ticker: q.ticker, name: q.nameKo || q.nameEn || null, sector: q.sector, industry: q.industry, price: q.price,
@@ -118,6 +119,8 @@ async function main() {
   const eyeOf = new Map((cc.items || []).map((c) => [c.ticker, { score: c.score, reasons: c.reasons, resistance: c.resistance ?? null }]));
   const market = t1 ? { verdict: t1.qqq && t1.qqq.verdict, ko: t1.qqq && t1.qqq.ko, finraKo: t1.finra && t1.finra.ko, finraLevel: t1.finra && t1.finra.level } : null;
 
+  const nst = readJson(paths.nDeep, { items: {} }).items || {};   // N 심층분석 결과 — 체크표 N 줄에 옮기기만 한다
+  const nDeepOf = (t) => { const e = nst[t]; return e && e.status === 'done' ? { nVerdict: e.nVerdict, headline: e.headline, researchedOn: e.researchedOn } : null; };
   const items = [];
   let fetched = 0, reused = 0;
   for (const p of picked) {
@@ -149,7 +152,7 @@ async function main() {
     let reportPdfs = [];
     try { reportPdfs = await copyReportPdfs(detail && detail.krReports && detail.krReports.reports, argsDir, p.ticker); } catch (e) { reportPdfs = []; }
     fs.writeFileSync(path.join(argsDir, `${p.ticker}.json`), JSON.stringify({
-      ticker: p.ticker, date, session, source: _source, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, reportPdfs, cnbc, kis, estimates, chart, market,
+      ticker: p.ticker, date, session, source: _source, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, reportPdfs, cnbc, kis, estimates, chart, market, nDeep: nDeepOf(p.ticker),
     }, null, 1), 'utf8');
     items.push({ ticker: p.ticker, name: p.name || null, grade: p.grade, sector: p.sector, industry: p.industry, price: p.price, pivot: p.pivot, stop: p.stop,
       distToPivotPct: p.distToPivotPct, earnings: p.earnings || null, hasChart: !!(chart && chart.png3m), hasDetail: !!detail,

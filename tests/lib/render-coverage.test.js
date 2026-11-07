@@ -94,22 +94,34 @@ console.log('\n[7팀] 지우 — 결론 블록 · N 심층 블록이 렌더되�
     verdictAdjusted: ['A7SENT 조정 사유'], gates: { reasons: [{ key: 'x', ko: 'G7SENT 막는 조건' }], asOf: { market: '2026-10-09' } },
     setup: { pivot: 100, stop: 95 }, checks: { qm: [{ item: '선행 상승', status: '충족', evidence: 'e' }], canslim: [{ item: 'C 최근 분기 이익', status: '미충족', evidence: 'e' }] }, kis: null, cnbc: [],
     deep: { status: 'done', researchedOn: '2026-10-13', company: 'co', lead: 'ld', recentNews: [], financials: {}, risks: [], canslim: [], chartCheck: [], confidence: 'medium',
-      nVerdict: '충족', nNarrative: 'NN7SENT 서술', consensus: { saleCy: 34.9, epsCy: 77.8, saleNy: 28.2, epsNy: 35.2, cyTrend: 0.3, nyTrend: null },
-      newDrivers: [{ what: 'W7SENT 신제품', kind: 'product', stage: '매출 발생 중', since: '2026-02', basis: [cl('d1', 'DB7SENT 출시')], revenueImpact: [cl('d2', 'RI7SENT 매출')], profitImpact: [], expectedGrowth: [cl('d3', 'EG7SENT 성장')], counter: [] }] } }] };
-  const c7 = loadRoom(`window.ONDEMAND_DATA = ${JSON.stringify(od)};`);
+      nVerdict: '충족', nNarrative: 'OLDN7SENT 옛 서술', newDrivers: [{ what: 'OLDW7SENT', kind: 'product', stage: '출시', basis: [cl('o1', 'OLDB7SENT')], revenueImpact: [], profitImpact: [], expectedGrowth: [], counter: [] }] } }] };
+  // 2026-11-06: N 은 심층 분석 안이 아니라 N 심층분석(ndeep.js)에서 온다
+  const nd = { items: { ZZOD: { status: 'done', ticker: 'ZZOD', nVerdict: '충족', headline: 'H7SENT 한 줄', narrative: 'NN7SENT 서술', growthLink: 'GL7SENT 연결', researchedOn: '2026-11-06', asOf: '2026-11-02',
+    consensus: { saleCy: 34.9, epsCy: 77.8, saleNy: 28.2, epsNy: 35.2 }, watch: ['WA7SENT 확인'], docs: [{ label: 'L7SENT 보도자료', url: 'https://www.sec.gov/y.htm' }],
+    code33: { rows: [{ periodEnd: '2026-09-30', revenueYoy: 30, netIncomeYoy: 50, netMargin: 12 }, { periodEnd: '2026-06-30', revenueYoy: 20, netIncomeYoy: 40, netMargin: 11 }, { periodEnd: '2026-03-31', revenueYoy: 10, netIncomeYoy: 30, netMargin: 10 }], rising: { revenue: true, netIncome: true, netMargin: true }, all: true },
+    quality: { newProduct: [], marketShare: [cl('q1', 'MS7SENT 점유율')], marketStructure: [], salesMargin: [], costProductivity: [] },
+    drivers: [{ what: 'W7SENT 신제품', kind: 'product', stage: '매출 발생 중', since: '2026-02', basis: [cl('d1', 'DB7SENT 출시')], revenueImpact: [cl('d2', 'RI7SENT 매출')], profitImpact: [], expectedGrowth: [cl('d3', 'EG7SENT 성장')], counter: [] }] } } };
+  const c7 = loadRoom(`window.ONDEMAND_DATA = ${JSON.stringify(od)}; window.NDEEP_DATA = ${JSON.stringify(nd)};`);
   c7.openTicker('ZZOD');
   const h = c7.document.getElementById('mbox2').innerHTML;
   ok('결론·근거·조건·무효화·막는 조건·코드 조정 사유·AI 판정 표시가 다 나온다', () => {
     for (const k of ['🟡 조건부', 'V7SENT', 'B7SENT', 'C7SENT', 'I7SENT', 'D7SENT', 'A7SENT', 'G7SENT', 'AI 판정 · 투자 판단 보조', '테스트회사']) assert.ok(h.includes(k), `없음: ${k}`);
   });
-  ok('N 심층 — 동력·매출 영향·기대 성장·인용문·컨센서스(코드가 붙인 값), 근거 없는 칸은 "근거 없음"', () => {
-    for (const k of ['N — 새로운 성장 동력', 'NN7SENT', 'W7SENT', 'DB7SENT', 'RI7SENT', 'EG7SENT', 'Q7SENT', '신제품', '매출 발생 중', '올해 매출 +34.9%', '근거 없음 (지어내지 않습니다)']) assert.ok(h.includes(k), `없음: ${k}`);
+  ok('N 심층분석 칸 — 한 줄 결론·서술·코드 33 표·동력·매출 영향·기대 성장·인용문·이익의 질·확인할 것·읽은 공시·컨센서스, 근거 없는 칸은 "근거 없음"', () => {
+    for (const k of ['N 심층분석 — 새로운 성장 동력', 'H7SENT', 'NN7SENT', 'GL7SENT', '미너비니 코드 33', '세 가지 모두 3분기 연속 상승', '+50.0%', 'W7SENT', 'DB7SENT', 'RI7SENT', 'EG7SENT', 'Q7SENT', '신제품', '매출 발생 중',
+      '이익의 질 — 미너비니 5가지 질문', 'MS7SENT', 'WA7SENT', 'L7SENT', 'www.sec.gov/y.htm', '공시 기준 2026-11-02', '올해 매출 +34.9%', '근거 없음 (지어내지 않습니다)']) assert.ok(h.includes(k), `없음: ${k}`);
+  });
+  ok('회사 분석(심층 분석)에는 옛 N 이 나오지 않는다 — N 은 N 심층분석 칸 하나', () => {
+    for (const k of ['OLDN7SENT', 'OLDW7SENT', 'OLDB7SENT', 'N — 새로운 성장 동력 <']) assert.ok(!h.includes(k), `옛 N 이 보인다: ${k}`);
   });
   ok('목록에 없는 종목도 7팀 자료(체크표)로 팝업이 채워지고 "아직 조사 전" 문구가 같이 뜨지 않는다', () => {
     assert.ok(h.includes('쿨라매기 돌파 셋업 체크')); assert.ok(!h.includes('아직 조사 전입니다'));
   });
   ok('7팀 카드·탭', () => { c7.cards(); assert.ok(c7.document.getElementById('team').innerHTML.includes('지우')); assert.ok(c7.bodyFor('t7').includes('data-tk="ZZOD"')); });
-  ok('N 칸이 없던 예전 심층 분석은 N 블록을 그리지 않는다', () => assert.strictEqual(c7.nBlock({ status: 'done', canslim: [] }), ''));
+  ok('N 심층분석 전·실패면 그렇다고 쓴다', () => {
+    assert.ok(c7.nDeepSec(null).includes('아직 분석 전입니다'));
+    assert.ok(c7.nDeepSec({ status: 'failed', note: 'F7SENT 실패' }).includes('F7SENT'));
+  });
 }
 
 console.log('\n[전망치·N 줄] 팝업 맨 아래 전망치 칸 · 체크표 N 줄이 실제 N 분석으로 (2026-10-15)');
@@ -119,20 +131,22 @@ console.log('\n[전망치·N 줄] 팝업 맨 아래 전망치 칸 · 체크표 N
   const src = [{ title: 't', publisher: 'p', url: 'https://x.com/a', date: '2026-10-01', quote: 'quote quote q' }];
   const base = { ticker: 'ZZES', requestedOn: '2026-10-15', session: '2026-10-14', verdict: '조건부', verdictLine: 'v', basis: [], gates: {},
     checks: { qm: [], canslim: [{ item: 'C 최근 분기 이익', status: '충족', evidence: 'c' }, { item: 'N 신제품·신서비스', status: '확인 불가', evidence: 'N 분석 대기 — 목록 순환' }] } };
-  const withN = { ...base, estimates: est, deep: { status: 'done', researchedOn: '2026-10-14', canslim: [], nVerdict: '충족', estimatesNarrative: 'ESN15SENT 해석',
-    newDrivers: [{ what: 'NEWPRODSENT 신제품', stage: '매출 발생 중', kind: 'product', basis: [{ id: 'b', statement: 's', evidence_level: 'sourced', sources: src }],
-      revenueImpact: [{ id: 'r', statement: 'REVIMPSENT 매출 영향', evidence_level: 'sourced', sources: src }], profitImpact: [], expectedGrowth: [], counter: [] }] } };
+  const withN = { ...base, estimates: est, deep: { status: 'done', researchedOn: '2026-10-14', canslim: [], estimatesNarrative: 'ESN15SENT 해석' } };
   const noN = { ...base, ticker: 'ZZNO', estimates: null, deep: { status: 'done', researchedOn: '2026-10-14', canslim: [] } };
-  const c = loadRoom(`window.ONDEMAND_DATA = ${JSON.stringify({ items: [withN, noN] })};`);
+  const nd = { items: { ZZES: { status: 'done', nVerdict: '충족', headline: 'NEWPRODSENT 신제품이 매출을 끈다', researchedOn: '2026-11-06', quality: {}, docs: [],
+    drivers: [{ what: 'NEWPRODSENT 신제품', stage: '매출 발생 중', kind: 'product', basis: [{ id: 'b', statement: 's', evidence_level: 'sourced', sources: src }],
+      revenueImpact: [{ id: 'r', statement: 'REVIMPSENT 매출 영향', evidence_level: 'sourced', sources: src }], profitImpact: [], expectedGrowth: [], counter: [] }] } } };
+  const c = loadRoom(`window.ONDEMAND_DATA = ${JSON.stringify({ items: [withN, noN] })}; window.NDEEP_DATA = ${JSON.stringify(nd)};`);
   c.openTicker('ZZES'); const h = c.document.getElementById('mbox2').innerHTML;
   ok('전망치 칸이 팝업 맨 아래 — 야후 링크·코드 요약문·표 4개·AI 해석', () => {
     for (const k of ['야후 파이낸스 analysis ↗', 'finance.yahoo.com/quote/ZZES/analysis/', '결산일별 컨센서스', 'EPS 추정치 변화', '최근 실적 서프라이즈', '최근 90일 투자의견·목표가',
       '애널리스트 18명 평균 46.27달러로 30일 전보다 0.1% 올랐다', '4번 추정치를 넘었고', '13.7% 상회했다', 'ESN15SENT', 'n/m']) assert.ok(h.includes(k), `없음: ${k}`);
     assert.ok(h.lastIndexOf('<div class="sec"><h4>전망치') > h.lastIndexOf('CAN SLIM 체크'), '전망치가 맨 아래가 아니다');
   });
-  ok('체크표 N 줄 = 가장 최근 N 분석 (판정·신제품·매출 영향·분석일)', () => {
+  ok('체크표 N 줄 = N 심층분석 (판정·한 줄 결론·분석일), 동력·매출 영향은 아래 N 심층분석 칸', () => {
     assert.ok(/✅ N 신제품·신서비스<\/span><span>충족 · NEWPRODSENT/.test(h), 'N 줄이 바뀌지 않았다');
-    assert.ok(h.includes('REVIMPSENT')); assert.ok(h.includes('2026-10-14 분석'));
+    assert.ok(h.includes('2026-11-06 분석')); assert.ok(h.includes('REVIMPSENT'));
+    assert.ok(h.indexOf('N 심층분석 — 새로운 성장 동력') > h.indexOf('CAN SLIM 체크'), 'N 심층분석 칸이 CAN SLIM 체크 아래가 아니다');
   });
   c.openTicker('ZZNO'); const h2 = c.document.getElementById('mbox2').innerHTML;
   ok('N 분석 전이면 "대기" — "코드로 판정하지 않는다" 문구는 어디에도 없다', () => {

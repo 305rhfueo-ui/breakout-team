@@ -102,6 +102,16 @@ const DEEP = { type: 'object', properties: {
   confidence: { type: 'string', enum: ['high', 'medium', 'low'], description: '근거의 충실도' },
 }, required: ['ticker', 'company', 'lead', 'newsNarrative', 'recentNews', 'financialsNarrative', 'financials', 'estimatesNarrative', 'newDrivers', 'nNarrative', 'nVerdict', 'canslim', 'risks', 'chartCheck', 'chartObservation', 'entryChecklist', 'earningsRisk', 'confidence'] }
 
+// ── N 은 N 심층분석(workflows/n-deep.js)이 회사 공시 원문으로 따로 한다 (2026-11-06 사용자: "N 만 따로 떼어 심층분석") ──
+//   6팀 관심·목록 순환은 N 동력을 조사하지 않고, 체크표 N 줄에 입력의 nDeep 판정만 옮긴다.
+//   7팀(텔레그램 판정)은 결론에 N 이 필요해 지금처럼 같이 본다.
+const N_FIELDS = ['newDrivers', 'nNarrative', 'nVerdict']
+if (!VERDICT) {
+  for (const k of N_FIELDS) delete DEEP.properties[k]
+  DEEP.required = DEEP.required.filter((k) => !N_FIELDS.includes(k))
+  DEEP.properties.canslim = { ...DEEP.properties.canslim, description: 'docs/기준-CANSLIM-재무.md 의 C·A·N·S·L·I·M 순서로 7개. item 은 "C 최근 분기 이익" 처럼 글자+이름. I 는 항상 "확인 불가". C·A 의 evidence 에는 "(순이익 기준, 주식 수 변동 미반영)" 을 붙인다. N 줄은 입력의 nDeep(N 심층분석 결과)을 옮기기만 한다: status 는 충족→"충족", 부분 충족·미충족→"미충족", 그 밖→"확인 불가", evidence 는 "N 심층분석: <판정> · <headline>". nDeep 이 null 이면 status "확인 불가", evidence "N 심층분석 대기"' }
+}
+
 // ── 7팀 결론 칸 (mode:'verdict' 일 때만 스키마에 붙는다) ──
 if (VERDICT) {
   Object.assign(DEEP.properties, {
@@ -148,13 +158,13 @@ const RULES = `
    그림에서 눈으로 읽은 가격·이평선 값을 쓰지 마라. 숫자는 전부 입력 JSON 의 \`plan.metrics\`·\`chart.numbers\`·\`chart.last10\` 에서 인용한다.
    PNG 는 숫자가 맞는지 모양으로 확인하는 용도다(횡보 구간이 보이는지, 거래량 막대가 줄어드는지).
 7. Node 가 확정한 수치(현재가·피벗·손절·거리·등급·실적일·업종 흐름)는 바꾸지 마라. 해석만 하라.
-8. **N(새로운 성장 동력)은 따로 깊게 본다** — 사용자가 가장 중요하게 보는 항목이다.
+${VERDICT ? `8. **N(새로운 성장 동력)은 따로 깊게 본다** — 사용자가 가장 중요하게 보는 항목이다.
    - "새로운 것" = 신제품·신서비스·신경영진·신규 대형계약·업계의 새 변화. **주가 상승·신고가·지수 편입·목표주가·투자의견은 N 이 아니다.**
    - 동력마다 다섯 가지를 출처로 답한다: ①무엇이 새로 나왔나(basis) ②매출에 얼마나(revenueImpact) ③이익·마진에 어떻게(profitImpact) ④기대 성장률은 — 회사 가이던스인지 ○○증권 추정인지, 어느 연도인지(expectedGrowth) ⑤무엇이 이 기대를 꺾을 수 있나(counter).
    - 자료 순서: \`reportPdfs\`(증권사 리포트 원문 PDF — 있으면 **Read 로 직접 읽어라**. 제품별 매출 전망·이익률 가정이 여기 있다) → \`detail.krReports\` 요약 → \`detail.filings\`(8-K 실적 발표·가이던스) → \`cnbc\`(URL 을 열어 본문 인용) → 웹검색(회사 IR·실적 발표문).
    - PDF 를 인용할 때: publisher 는 "○○증권(연합인포맥스)", url 은 그 리포트의 pdfUrl, quote 는 PDF 의 문장·표의 줄 그대로.
    - **영향·성장률 숫자는 quote 에 있어야 한다**(코드가 숫자를 하나하나 대조해 없으면 그 문장을 지운다). 새로운 것은 확인되는데 매출·이익 영향 근거를 못 찾으면 그 칸은 **빈 배열**로 두고 nVerdict 는 "부분 충족" — 추정치를 지어내지 마라.
-   - \`site\` 의 컨센서스(saleCy·epsCy 등)는 주장에 쓰지 마라. 화면이 "Node 확정" 줄로 따로 보여 준다.
+   - \`site\` 의 컨센서스(saleCy·epsCy 등)는 주장에 쓰지 마라. 화면이 "Node 확정" 줄로 따로 보여 준다.` : `8. **N(새로운 성장 동력)은 이번 조사에서 하지 않는다** — N 심층분석이 회사 공시 원문으로 따로 맡는다. canslim 의 N 줄에는 입력의 \`nDeep\` 판정과 한 줄 결론을 옮기기만 하라.`}
 ${VERDICT ? `10. **결론(verdict)은 기준 문서와 근거에서만 낸다.** 감으로 판정하지 마라.
    - basis 의 각 항목은 체크표 항목("차트:항목이름" · "CANSLIM:글자")이나 출처 주장 id 를 가리켜야 한다. 유리한 근거와 불리한 근거를 둘 다 적는다.
    - 다음 중 하나라도 해당하면 **"매수 적정"을 줄 수 없다**("조건부" 또는 "아니다"): 시장 판정이 빨간불 · 종가가 50일선 아래 · 실적 발표가 임박했거나 날짜를 모른다 · 쉬는 구간(피벗)이 없다 · 이미 피벗을 넘어 추격 구간이다. 입력 JSON 의 \`gates\` 가 이 조건들을 계산해 뒀다 — \`gates.blocked\` 가 true 면 그 사유를 verdictLine 에 밝혀라.
@@ -194,7 +204,7 @@ const researched = await parallel(targets.map((it) => () => {
 
 ## 할 일
 스키마의 각 필드를 채운다. 분량·조건은 스키마 설명을 따른다. 순서:
-company → newsNarrative·recentNews → financialsNarrative·financials → estimatesNarrative(전망치 해석) → newDrivers·nNarrative·nVerdict(N 심층) → canslim(7개) → risks·structuralRisks → chartCheck(11개)·chartObservation → entryChecklist → earningsRisk → lead(마지막에, 전체 요약) → confidence${VERDICT ? ' → verdict·verdictLine·basis·conditions·invalidation·dataLimits(맨 마지막에, 위 전부를 근거로)' : ''}
+company → newsNarrative·recentNews → financialsNarrative·financials → estimatesNarrative(전망치 해석) → ${VERDICT ? 'newDrivers·nNarrative·nVerdict(N 심층) → ' : ''}canslim(7개) → risks·structuralRisks → chartCheck(11개)·chartObservation → entryChecklist → earningsRisk → lead(마지막에, 전체 요약) → confidence${VERDICT ? ' → verdict·verdictLine·basis·conditions·invalidation·dataLimits(맨 마지막에, 위 전부를 근거로)' : ''}
 ${RULES}`,
     { label: `심층:${it.ticker}`, phase: '심층분석', schema: DEEP, model: it.model || MODEL }
   )

@@ -16,6 +16,19 @@ ok('SEC 원값·반올림 — 1.82억 ← 182175000, 20.4 ← 20.43, 180 ← 179
   assert.ok(kept('영업이익은 6,190만 달러로 20.4% 늘었다.', 'profit 61902000 yoy 20.43'));
   assert.ok(kept('3개월간 약 180% 올랐다.', { ret3m: 179.75 }));
 });
+ok('N 심층 실측(2026-11-06) — 만 단위 수 · SEC 표 단위(천·백만 달러) · 연도 약칭은 같은 값, 지어낸 숫자는 그대로 잡는다', () => {
+  assert.ok(kept('설치 기반이 1만 1,000대에 근접했다.', 'driving installed base to nearly 11,000 instruments'));
+  const row = 'IDEXX VetLab consumables | 443,245 | 387,813 | 55,432 | 14.3 | %';
+  assert.ok(kept('소모품 매출은 4.432억 달러로 1년 전 3.878억 달러에서 14.3% 증가했다.', row));
+  assert.ok(kept('설비투자 전망을 약 1.6억 달러로 낮췄다.', 'Capital Expenditures | ~$160 | ~$180 |'));
+  assert.ok(kept("Team'26 Europe 에서 AMP 를 공개했다.", 'Agentic Multiplayer Protocol (AMP)'));
+  assert.ok(!kept('소모품 매출은 5.1억 달러였다.', row), '없는 금액');
+  assert.ok(!kept('설치 기반이 2만 대를 넘었다.', 'driving installed base to nearly 11,000 instruments'), '없는 수');
+  assert.ok(!kept('소모품 매출은 4.432억 달러였다.', row.repeat(40)), '긴 근거(원문 전체)에서는 표 단위 환산을 허용하지 않는다');
+  assert.ok(kept('설치 1만1천대.', 'nearly 11,000') && kept('3천억 달러 규모.', '$300 billion'));
+  assert.ok(kept('월 사용자 200만 명, 하루 1,500만 건.', 'over 2 million monthly users and more than 15 million daily tool calls'));
+  assert.ok(!kept('월 사용자 300만 명.', 'over 2 million monthly users') && !kept('설치 2만1천대.', 'nearly 11,000'));
+});
 ok('날짜·기간·단계·개수는 숫자로 안 센다', () => {
   assert.ok(kept('MPC는 4~6월 분기에 흑색종 3상, 10일선 위 12일째, 3종목 모두.', 'days 12'));
 });

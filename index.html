@@ -10,6 +10,7 @@
 <script src="dashboard/data/team4.js"      onerror="window.__NO_T4=1"></script>
 <script src="dashboard/data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="dashboard/data/team6.js"      onerror="window.__NO_T6=1"></script>
+<script src="dashboard/data/ndeep.js"      onerror="window.__NO_ND=1"></script>
 <script src="dashboard/data/ondemand.js"   onerror="window.__NO_OD=1"></script>
 <script src="dashboard/data/holdings.js"   onerror="window.__NO_HD=1"></script>
 <script src="dashboard/data/movers.js"     onerror="window.__NO_MV=1"></script>
@@ -219,7 +220,7 @@ details.deep .ck,.ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;fo
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,od:window.ONDEMAND_DATA,hd:window.HOLDINGS_DATA,mv:window.MOVERS_DATA,sns:window.SNS_DATA,cc:window.CHARTCHECK_DATA};
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,nd:window.NDEEP_DATA,od:window.ONDEMAND_DATA,hd:window.HOLDINGS_DATA,mv:window.MOVERS_DATA,sns:window.SNS_DATA,cc:window.CHARTCHECK_DATA};
 const $=i=>document.getElementById(i);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -950,13 +951,14 @@ function openTicker(T){
     ['52주 고점 · 저점',`${K.high52==null?'—':n(K.high52)} (${esc(K.high52Date||'')}) · ${K.low52==null?'—':n(K.low52)} (${esc(K.low52Date||'')})`]])}
     <div class="note">PER 이 크거나 '—' 이면 이익이 아주 작거나 적자라는 뜻입니다. 미국 종목 증권사 분석 리포트는 한국투자증권 API 에 없습니다.</div></div>`;
   const CKS=p&&p.checks;
-  const DL=latestDeep(plan&&plan.deep,p&&p.deep,od&&od.deep);   // 가장 최근 심층 분석 — N 줄·전망치 해석에 쓴다
+  const DL=latestDeep(plan&&plan.deep,p&&p.deep,od&&od.deep);   // 가장 최근 심층 분석 — 전망치 해석에 쓴다 (N 은 nDeepOf)
   if(CKS){
     h+=`<div class="sec"><h4>쿨라매기 돌파 셋업 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.qm)}
       <div class="note">기준: docs/기준-쿨라매기-차트.md · 피벗·베이스 수치는 서준과 같은 계산${p.setup&&p.setup.pivot?` (피벗 ${n(p.setup.pivot)} · 예비 손절 ${n(p.setup.stop)})`:''}</div></div>`;
-    h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · N 은 AI 심층 분석</span></h4>${ck(canslimRows(CKS.canslim,DL,p===ep?ep:null))}
-      <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · C·A 는 EPS 대신 순이익 증가율로 근사 · N(신제품·신서비스와 그 매출·이익 영향)은 증권사 리포트·기사를 읽은 심층 분석 결과 · 기관 보유 자료 없음</div></div>`;
+    h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · N 은 N 심층분석</span></h4>${ck(canslimRows(CKS.canslim,nDeepOf(T),p===ep?ep:null))}
+      <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · C·A 는 EPS 대신 순이익 증가율로 근사 · N(신제품·신서비스와 그 매출·이익 영향)은 아래 N 심층분석 결과 · 기관 보유 자료 없음</div></div>`;
   }
+  if(CKS||nDeepOf(T))h+=nDeepSec(nDeepOf(T));
   if(p&&p!==od&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
   if(plan)h+=`<div class="sec"><h4>서준 매수 계획 ${plan.watch?'<span class="chip">오늘 밤 관심</span>':''}</h4>${rows([['현재가 → 피벗',`${n(plan.price)} → <b>${n(plan.pivot)}</b> (${sgn(plan.distToPivotPct)}%)`],
     ['예비 손절 · 위험',plan.stop?`${n(plan.stop)} · ${n(plan.riskPerSharePct,1)}%`:'—'],['등급',esc(plan.grade||'—')]])}${plan.blocked?`<div class="nosrc">⛔ ${esc(plan.blocked)}</div>`:''}${plan.deep?deepBlock(plan.deep):''}</div>`;
@@ -1000,20 +1002,17 @@ function latestDeep(...cands){
   ok.sort((a,b)=>((b.nVerdict?1:0)-(a.nVerdict?1:0))||String(b.researchedOn||'').localeCompare(String(a.researchedOn||'')));
   return ok[0]||null;
 }
-/* ── 체크표 N 줄 = 실제 N 심층 분석 결과 (2026-10-15 사용자: "코드로 판정하지 않는다"는 쓸모없다) ──
-   N 분석이 아직 없으면 코드 줄(대기)을 그대로 둔다. */
-function nRowOf(D){
-  if(!D||!D.nVerdict)return null;
-  const st={'충족':'충족','부분 충족':'부분 충족','미충족':'미충족'}[D.nVerdict]||'확인 불가';
-  const dr=(D.newDrivers||[])[0];
-  const imp=dr?[...(dr.revenueImpact||[]),...(dr.expectedGrowth||[]),...(dr.profitImpact||[])].find(c=>c&&c.evidence_level==='sourced'):null;
-  const cut=(t,k)=>{t=String(t||'').trim();return t.length>k?t.slice(0,k-1)+'…':t;};
-  const what=dr?`${cut(dr.what,70)} (${dr.stage||''})${imp?` — ${cut(imp.statement,90)}`:' — 매출·이익 영향 근거는 아직 없음'}${(D.newDrivers||[]).length>1?` 외 ${(D.newDrivers.length-1)}건`:''}`
-    :cut((String(D.nNarrative||'').match(/^.*?[.!?。](\s|$)/)||[D.nNarrative||'최근 3개월 안에 확인된 신제품·신서비스가 없다'])[0],120);
-  return {item:'N 신제품·신서비스',status:st,evidence:`${D.nVerdict} · ${what} (${D.researchedOn||''} 분석 · 아래 "N — 새로운 성장 동력")`};
+/* ── 체크표 N 줄 = N 심층분석 결과 (2026-10-15 사용자: "코드로 판정하지 않는다"는 쓸모없다 · 2026-11-06 N 심층분석 칸으로 분리) ──
+   N 심층분석이 아직 없으면 코드 줄(대기)을 그대로 둔다. */
+const nDeepOf=T=>(D.nd&&D.nd.items&&D.nd.items[T])||null;
+function nRowOf(N){
+  if(!N)return null;
+  if(N.status!=='done')return {item:'N 신제품·신서비스',status:'확인 불가',evidence:`N 심층분석 ${N.status==='failed'?'실패 — 다음 실행에서 다시 시도':'대기'} (아래 "N 심층분석")`};
+  const st={'충족':'충족','부분 충족':'부분 충족','미충족':'미충족'}[N.nVerdict]||'확인 불가';
+  return {item:'N 신제품·신서비스',status:st,evidence:`${N.nVerdict} · ${N.headline||''} (${N.researchedOn||''} 분석 · 아래 "N 심층분석")`};
 }
-function canslimRows(rows,D,ep){
-  let r=nRowOf(D);
+function canslimRows(rows,N,ep){
+  let r=nRowOf(N);
   // 재민 종목은 목록 순환 심층 분석 대상이 아니다 — "순환 대기"라고 쓰면 거짓이 된다. 재민의 촉매 분류를 대신 보인다(판정은 하지 않음).
   if(!r&&ep){const c=ep.catalyst||{};
     r={item:'N 신제품·신서비스',status:'확인 불가',evidence:c.status==='done'
@@ -1086,27 +1085,45 @@ function ck(list){
     return `<span class="${cls}">${mark} ${esc(x.item||'')}</span><span>${esc(x.evidence||'')}</span>`;}).join('');
   return `<div class="note" style="margin:0 0 6px">충족 ${cnt.ok}${cnt.part?` · 부분 충족 ${cnt.part}`:''} · 미충족 ${cnt.no} · 확인 불가 ${cnt.na}</div><div class="ck">${body}</div>`;
 }
-/* ── CAN SLIM N 심층 (2026-10-13) — 신제품·신서비스가 매출·이익에 주는 영향과 기대 성장. 전부 출처·인용이 붙은 것만.
-   이 칸이 생기기 전에 조사한 분석(newDrivers 없음)은 아무것도 그리지 않는다. */
-function nBlock(D){
-  if(!D||D.nVerdict==null)return '';
-  const vc={'충족':'var(--grn)','부분 충족':'var(--yel)','미충족':'var(--red)','확인 불가':'var(--dim)'}[D.nVerdict]||'var(--dim)';
+/* ── N 심층분석 (2026-11-06 사용자: "N 내용이 너무 부실하다 — N 만 따로 떼어 심층분석 칸을 만들어라. 중요하다") ──
+   오닐 CAN SLIM 의 N + 미너비니 이익의 질. 근거는 회사 공시 원문(실적 보도자료·10-Q/10-K 경영진 설명) 우선 — 전부 출처·인용이 붙은 것만.
+   숫자 표(코드 33)는 코드가 SEC 분기 자료로 계산한 값. 기준: docs/기준-N-심층.md */
+function nDeepSec(N){
+  const head=`<div class="sec"><h4>N 심층분석 — 새로운 성장 동력 <span class="dim">(오닐 CAN SLIM · 미너비니 이익의 질)</span>`;
+  if(!N)return `${head}</h4><div class="note">아직 분석 전입니다 — 다음 아침 실행에서 회사 공시 원문으로 채웁니다.</div></div>`;
+  if(N.status!=='done')return `${head}</h4><div class="nosrc">🔎 ${esc(N.note||'N 심층분석 실패')}</div></div>`;
+  const vc={'충족':'var(--grn)','부분 충족':'var(--yel)','미충족':'var(--red)','확인 불가':'var(--dim)'}[N.nVerdict]||'var(--dim)';
   const kindKo={product:'신제품',service:'신서비스',management:'신경영진',contract:'신규 계약',industry:'업계 변화'};
-  const pct=v=>v==null?'—':(v>0?'+':'')+n(v,1)+'%';
-  let b=`<h5>N — 새로운 성장 동력 <span class="chip" style="color:${vc}">${esc(D.nVerdict)}</span></h5>`;
-  if(D.nNarrative)b+=`<div class="pi">${esc(D.nNarrative)}</div>`;
+  const pct=v=>v==null?'—':(v>0?'+':'')+n(v,1)+'%', yn=v=>v===true?'✅':v===false?'❌':'—';
   const part=(lab,cl)=>{const h=claimList(cl);return `<div style="margin-top:6px"><b style="font-size:12.5px;color:var(--dim)">${lab}</b>${h||'<div class="note">근거 없음 (지어내지 않습니다)</div>'}</div>`;};
-  for(const d of (D.newDrivers||[])){
+  const fc=N.factcheck;
+  let b=`${head} <span class="chip" style="color:${vc}">${esc(N.nVerdict)}</span></h4>
+    <div class="note">분석 ${esc(N.researchedOn||'')} · 공시 기준 ${esc(N.asOf||'—')}${N.failedOn?` · ${esc(N.failedOn)} 재분석 실패(지난 분석)`:''}${fc?` · ${fc.verdict==='unchecked'?'⚠️ 팩트체크 안 됨':`팩트체크 ${esc(fc.verdict)}${(fc.removed||[]).length?` · ${fc.removed.length}건 제거`:''}`}`:''}</div>`;
+  if(N.headline)b+=`<div class="pi lead">${esc(N.headline)}</div>`;
+  if(N.narrative)b+=`<div class="pi">${esc(N.narrative)}</div>`;
+  const C=N.code33;
+  if(C)b+=`<h5>숫자 — 미너비니 코드 33 <span class="chip">코드 계산</span>${C.all?' <span class="chip" style="color:var(--grn)">세 가지 모두 3분기 연속 상승</span>':''}</h5>
+    <div style="overflow-x:auto"><table class="lt"><thead><tr><th>분기 말</th><th>매출 전년비</th><th>순이익 전년비</th><th>순이익률</th></tr></thead><tbody>${
+      C.rows.slice().reverse().map(r=>`<tr><td>${esc(r.periodEnd)}</td><td>${pct(r.revenueYoy)}</td><td>${pct(r.netIncomeYoy)}</td><td>${r.netMargin==null?'—':n(r.netMargin,1)+'%'}</td></tr>`).join('')}</tbody></table></div>
+    <div class="note">3분기 연속 상승 — 매출 증가율 ${yn(C.rising.revenue)} · 순이익 증가율 ${yn(C.rising.netIncome)} · 순이익률 ${yn(C.rising.netMargin)} (SEC 분기 자료 · 이익은 순이익 기준, EPS 아님)</div>`;
+  if(N.growthLink)b+=`<div class="pi" style="margin-top:6px"><b>숫자와 동력의 연결</b> ${esc(N.growthLink)}</div>`;
+  b+=`<h5>새로운 성장 동력</h5>`;
+  for(const d of (N.drivers||[])){
     b+=`<div style="margin:10px 0;padding:8px 12px;border:1px solid var(--bd);border-radius:9px">
       <div><span class="chip">${esc(kindKo[d.kind]||d.kind||'')}</span> <span class="chip">${esc(d.stage||'')}${d.since?` · ${esc(d.since)}`:''}</span> <b>${esc(d.what||'')}</b></div>
       ${claimList(d.basis)||''}
       ${part('매출에 주는 영향',d.revenueImpact)}${part('이익·마진에 주는 영향',d.profitImpact)}${part('기대 성장 (회사 가이던스·증권사 추정)',d.expectedGrowth)}
       ${claimList(d.counter)?part('이 기대가 꺾일 수 있는 근거',d.counter):''}</div>`;
   }
-  if(!(D.newDrivers||[]).length)b+=`<div class="note">최근 3개월 안에 출처로 확인된 신제품·신서비스·경영 변화가 없습니다.</div>`;
-  const c=D.consensus;
-  if(c)b+=`<div class="note" style="margin-top:6px">컨센서스(RS 사이트 · 코드가 붙인 값): 올해 매출 ${pct(c.saleCy)} · EPS ${pct(c.epsCy)} / 내년 매출 ${pct(c.saleNy)} · EPS ${pct(c.epsNy)}${c.cyTrend!=null?` · 30일 전망 변화 올해 ${pct(c.cyTrend)}${c.nyTrend!=null?` · 내년 ${pct(c.nyTrend)}`:''}`:''}</div>`;
-  return b;
+  if(!(N.drivers||[]).length)b+=`<div class="note">회사 공시를 다 읽었지만 출처로 확인된 새로운 성장 동력이 없습니다.</div>`;
+  const Q=N.quality||{};
+  b+=`<h5>이익의 질 — 미너비니 5가지 질문</h5>`+[['newProduct','① 새 제품·서비스 또는 업계의 긍정적 변화가 있는가'],['marketShare','② 시장 점유율을 늘리고 있는가'],['marketStructure','③ 소수 기업이 지배하는 시장인가'],['salesMargin','④ 매출·마진을 늘리려고 무엇을 하나'],['costProductivity','⑤ 비용 절감·생산성 향상은']].map(([k,lab])=>part(lab,Q[k])).join('');
+  if((N.watch||[]).length)b+=`<h5>다음 실적에서 확인할 것</h5><ul class="plist">${N.watch.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+  const c=N.consensus;
+  if(c&&[c.saleCy,c.epsCy,c.saleNy,c.epsNy].some(v=>v!=null))b+=`<div class="note" style="margin-top:6px">컨센서스(RS 사이트 · 코드가 붙인 값): 올해 매출 ${pct(c.saleCy)} · EPS ${pct(c.epsCy)} / 내년 매출 ${pct(c.saleNy)} · EPS ${pct(c.epsNy)}</div>`;
+  const docs=N.docs||[];
+  b+=`<div class="note" style="margin-top:6px">읽은 공시 원문: ${docs.length?docs.map(d=>`<a href="${esc(d.url)}" target="_blank">${esc(d.label)}</a>`).join(' · '):'없음'}${N.sourceGap?` · 자료 한계: ${esc(N.sourceGap)}`:''}</div>`;
+  return b+`</div>`;
 }
 
 function deepBlock(D){
@@ -1123,8 +1140,7 @@ function deepBlock(D){
   const fin=claimList([...(F.revenueTrend||[]),...(F.profitTrend||[]),...(F.guidance||[]),...((rev.claims)||[])],{quote:false});
   if(fin)b+=fin;
   if(D.estimatesNarrative)b+=`<div class="pi" style="margin-top:6px"><b>전망치 해석</b> ${esc(D.estimatesNarrative)} <span class="dim">(숫자는 팝업 맨 아래 "전망치")</span></div>`;
-  b+=nBlock(D);
-  if((D.canslim||[]).length)b+=`<h5>CAN SLIM 체크 <span class="note" style="display:inline">(오닐 기준 · 기관 보유 자료 없음)</span></h5>`+ck(D.canslim);
+  if((D.canslim||[]).length)b+=`<h5>CAN SLIM 체크 <span class="note" style="display:inline">(오닐 기준 · 기관 보유 자료 없음 · N 은 위 "N 심층분석")</span></h5>`+ck(canslimRows(D.canslim,nDeepOf(D.ticker)));
   b+=`<h5>리스크</h5>`+(claimList(D.risks)||`<div class="note">보도된 리스크 근거 없음 (지어내지 않습니다)</div>`);
   if((D.structuralRisks||[]).length)b+=`<ul class="plist">${D.structuralRisks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
   if((D.chartCheck||[]).length)b+=`<h5>쿨라매기 돌파 셋업 체크 <span class="chip">판정 아님 · 관찰</span></h5>`+ck(D.chartCheck);

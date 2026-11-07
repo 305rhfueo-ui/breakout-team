@@ -42,6 +42,7 @@ const paths = {
   finraCache: path.join(ROOT, 'state', 'finra-margin.json'),
   chartCheck: path.join(ROOT, 'state', 'chart-check.json'),
   researchCache: path.join(ROOT, 'state', 'research-cache.json'),
+  nDeep: path.join(ROOT, 'state', 'n-deep.json'),        // N 심층분석 결과 (종목별, 새 실적 공시 때만 갱신)
   breakoutLog: path.join(ROOT, 'state', 'breakout-log.json'),
   watchlistDir: path.join(ROOT, 'state', 'watchlist'),   // 6팀 아침 관심 목록 (밤 트리거가 읽는다)
   paperDir: path.join(ROOT, 'state', 'paper'),           // 6팀 자체 원장 (모의 체결)
