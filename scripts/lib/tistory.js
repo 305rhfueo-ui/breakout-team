@@ -17,7 +17,7 @@ const { paths, writeWindowData, say, readJson, writeJson } = require('./util');
 
 const BLOG = 'https://aiinvestmentworkbook.tistory.com';
 const ASIDE = path.join(process.env.HOME || '', '.local/bin/aside');
-const CATEGORY = { tradeStock: '1313367', tradeMarket: '1313366', strategy: '1320050', company: '1313688', analysis: null };   // analysis = 종목 분석 (2026-11-07 사용자가 만들라고 함 — 13팀 글) · 번호를 넣기 전엔 기업분석으로
+const CATEGORY = { tradeStock: '1313367', tradeMarket: '1313366', strategy: '1320050', company: '1313688', analysis: '1332454' };   // analysis = 종목 분석 (2026-11-08 만듦 — 13팀 글)
 const UA = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36' };
 
 const unescape = (s) => String(s || '').replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
