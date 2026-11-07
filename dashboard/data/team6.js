@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "sessionDate": "2026-11-06",
   "rulesVersion": "0.3",
   "regime": "red",
@@ -85,7 +85,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 7.4,
       "ma10": 96.29,
-      "dollarVol20M": 96.3,
+      "dollarVol20M": 96.4,
       "liquid": true,
       "reasons": [
         "선행 상승 +249%",
@@ -119,6 +119,66 @@ window.TEAM6_DATA = {
       "shadowBook": null,
       "watch": false,
       "score": 55.5
+    },
+    {
+      "ticker": "HUM",
+      "name": null,
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-11-06",
+      "price": 433.74,
+      "pivot": 456.5,
+      "pivotDate": "2026-10-09",
+      "stop": 439.95,
+      "riskPerSharePct": 3.63,
+      "weightPct": 13.8,
+      "weightCapped": false,
+      "distToPivotPct": -4.99,
+      "distToPivotAdr": -1.31,
+      "extensionAdr": 1.03,
+      "chase": false,
+      "adrPct": 3.82,
+      "ma10": 416.72,
+      "dollarVol20M": 591.8,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +29%",
+        "베이스 4주",
+        "깊이 12.5%",
+        "✗ 저점 상승 0회",
+        "진폭 1.14배 · 10일 종가폭 1.4 ADR",
+        "10일선 +1 ADR · 20일선 +0.8 ADR",
+        "20일선 기울기 +0.81%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 20,
+        "baseWeeks": 4,
+        "depthPct": 12.5,
+        "priorMovePct": 29.1,
+        "higherLows": 0,
+        "contraction": 1.14,
+        "closeRange10Adr": 1.4,
+        "surf10": 1.03,
+        "surf20": 0.82,
+        "slope20": 0.81,
+        "baseLow": 399.35,
+        "lastSwingLow": 399.35
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-11-07"
+      },
+      "earnings": null,
+      "blocked": "시장 빨간불 — 신규 매수 중단",
+      "shadowBook": null,
+      "watch": false,
+      "score": 50
     },
     {
       "ticker": "KNSA",
@@ -233,10 +293,193 @@ window.TEAM6_DATA = {
       "shadowBook": null,
       "watch": false,
       "score": 43.5
+    },
+    {
+      "ticker": "FROG",
+      "name": null,
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-11-06",
+      "price": 100.98,
+      "pivot": 103.4,
+      "pivotDate": "2026-10-28",
+      "stop": 95.29,
+      "riskPerSharePct": 7.84,
+      "weightPct": 6.4,
+      "weightCapped": false,
+      "distToPivotPct": -2.34,
+      "distToPivotAdr": -0.29,
+      "extensionAdr": 0.99,
+      "chase": false,
+      "adrPct": 8.03,
+      "ma10": 92.93,
+      "dollarVol20M": 216.9,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +43%",
+        "베이스 8주",
+        "✗ 깊이 28.5%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 0.99배 · 10일 종가폭 3.3 ADR",
+        "10일선 +1 ADR · 20일선 +0.9 ADR",
+        "✗ 20일선 기울기 -3.03%"
+      ],
+      "fails": [
+        "depth",
+        "higherLows",
+        "tight",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 28.5,
+        "priorMovePct": 43.3,
+        "higherLows": 0,
+        "contraction": 0.99,
+        "closeRange10Adr": 3.3,
+        "surf10": 0.99,
+        "surf20": 0.91,
+        "slope20": -3.03,
+        "baseLow": 73.97,
+        "lastSwingLow": 84.02
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-11-07"
+      },
+      "earnings": null,
+      "blocked": "시장 빨간불 — 신규 매수 중단",
+      "shadowBook": null,
+      "watch": false,
+      "score": 32.7
+    },
+    {
+      "ticker": "TMDX",
+      "name": null,
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-11-06",
+      "price": 88.24,
+      "pivot": 90.67,
+      "pivotDate": "2026-09-15",
+      "stop": 85.6,
+      "riskPerSharePct": 5.59,
+      "weightPct": 8.9,
+      "weightCapped": false,
+      "distToPivotPct": -2.68,
+      "distToPivotAdr": -0.47,
+      "extensionAdr": 3.51,
+      "chase": true,
+      "adrPct": 5.74,
+      "ma10": 70.44,
+      "dollarVol20M": 84.8,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +40%",
+        "베이스 8주",
+        "✗ 깊이 28.7%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 1.16배 · 10일 종가폭 4.4 ADR",
+        "✗ 10일선 +3.5 ADR · 20일선 +3.1 ADR",
+        "✗ 20일선 기울기 -2.51%"
+      ],
+      "fails": [
+        "depth",
+        "higherLows",
+        "tight",
+        "surf",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 28.7,
+        "priorMovePct": 39.8,
+        "higherLows": 0,
+        "contraction": 1.16,
+        "closeRange10Adr": 4.4,
+        "surf10": 3.51,
+        "surf20": 3.15,
+        "slope20": -2.51,
+        "baseLow": 64.64,
+        "lastSwingLow": 64.64
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-11-07"
+      },
+      "earnings": null,
+      "blocked": "시장 빨간불 — 신규 매수 중단",
+      "shadowBook": null,
+      "watch": false,
+      "score": 22.3
     }
   ],
-  "plansTotal": 4,
+  "plansTotal": 7,
   "post": [
+    {
+      "ticker": "TPC",
+      "name": null,
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-11-06",
+      "price": 89.89,
+      "pivot": 89.62,
+      "pivotDate": "2026-10-06",
+      "stop": 86.26,
+      "riskPerSharePct": 3.75,
+      "weightPct": 13.3,
+      "weightCapped": false,
+      "distToPivotPct": 0.3,
+      "distToPivotAdr": 0.07,
+      "extensionAdr": 2.01,
+      "chase": false,
+      "adrPct": 4.36,
+      "ma10": 82.01,
+      "dollarVol20M": 44.9,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +22%",
+        "베이스 8주",
+        "깊이 16.5%",
+        "저점 상승 2회",
+        "진폭 1.38배 · 10일 종가폭 1.9 ADR",
+        "10일선 +0.3 ADR · 20일선 +0.5 ADR",
+        "✗ 20일선 기울기 -1.55%"
+      ],
+      "fails": [
+        "priorMove",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 16.5,
+        "priorMovePct": 22.2,
+        "higherLows": 2,
+        "contraction": 1.38,
+        "closeRange10Adr": 1.9,
+        "surf10": 0.34,
+        "surf20": 0.46,
+        "slope20": -1.55,
+        "baseLow": 74.81,
+        "lastSwingLow": 78.77
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-11-07"
+      },
+      "earnings": null,
+      "breakDate": "2026-11-06",
+      "barsSinceBreak": 0
+    },
     {
       "ticker": "RHLD",
       "name": "리절루트 홀딩스 매니지먼트",
@@ -287,7 +530,10 @@ window.TEAM6_DATA = {
         "baseLow": 109.59,
         "lastSwingLow": 109.59
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 6,
+        "researchedOn": "2026-11-07"
+      },
       "earnings": null,
       "breakDate": "2026-11-06",
       "barsSinceBreak": 0
@@ -363,7 +609,7 @@ window.TEAM6_DATA = {
       "distToPivotAdr": -1.38,
       "extensionAdr": -0.27,
       "chase": false,
-      "adrPct": 4.93,
+      "adrPct": 4.94,
       "ma10": 82.84,
       "dollarVol20M": 111.2,
       "liquid": true,
@@ -417,7 +663,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 10.79,
       "ma10": 226.88,
-      "dollarVol20M": 3692.6,
+      "dollarVol20M": 3692.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +383%",
@@ -470,7 +716,7 @@ window.TEAM6_DATA = {
       "distToPivotAdr": 1.44,
       "extensionAdr": 2.27,
       "chase": false,
-      "adrPct": 6.52,
+      "adrPct": 6.53,
       "ma10": 149.87,
       "dollarVol20M": 38.3,
       "liquid": true,
@@ -502,7 +748,10 @@ window.TEAM6_DATA = {
         "baseLow": 118.22,
         "lastSwingLow": 121.34
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 2,
+        "researchedOn": "2026-11-07"
+      },
       "earnings": null,
       "breakDate": "2026-11-04",
       "barsSinceBreak": 2
@@ -559,7 +808,7 @@ window.TEAM6_DATA = {
       },
       "catalyst": {
         "category": 1,
-        "researchedOn": "2026-11-06"
+        "researchedOn": "2026-11-07"
       },
       "earnings": null,
       "breakDate": "2026-11-04",
@@ -731,11 +980,70 @@ window.TEAM6_DATA = {
       },
       "catalyst": {
         "category": 1,
-        "researchedOn": "2026-11-06"
+        "researchedOn": "2026-11-07"
       },
       "earnings": null,
       "breakDate": "2026-10-30",
       "barsSinceBreak": 5
+    },
+    {
+      "ticker": "ATLC",
+      "name": null,
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-11-06",
+      "price": 91.23,
+      "pivot": 97.87,
+      "pivotDate": "2026-09-03",
+      "stop": 94.46,
+      "riskPerSharePct": 3.48,
+      "weightPct": 14.4,
+      "weightCapped": false,
+      "distToPivotPct": -6.78,
+      "distToPivotAdr": -1.41,
+      "extensionAdr": -0.45,
+      "chase": false,
+      "adrPct": 4.82,
+      "ma10": 93.2,
+      "dollarVol20M": 10.7,
+      "liquid": false,
+      "reasons": [
+        "✗ 선행 상승 +22%",
+        "베이스 7.8주",
+        "깊이 12.5%",
+        "✗ 저점 상승 0회",
+        "진폭 1.05배 · 10일 종가폭 2.2 ADR",
+        "10일선 +0.4 ADR · 20일선 +0 ADR",
+        "✗ 20일선 기울기 -0.05%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 39,
+        "baseWeeks": 7.8,
+        "depthPct": 12.5,
+        "priorMovePct": 21.7,
+        "higherLows": 0,
+        "contraction": 1.05,
+        "closeRange10Adr": 2.2,
+        "surf10": 0.36,
+        "surf20": 0.02,
+        "slope20": -0.05,
+        "baseLow": 85.65,
+        "lastSwingLow": 85.65
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-11-07"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-29",
+      "barsSinceBreak": 6
     },
     {
       "ticker": "WING",
@@ -807,7 +1115,7 @@ window.TEAM6_DATA = {
       "weightPct": 9.7,
       "weightCapped": false,
       "distToPivotPct": 15.7,
-      "distToPivotAdr": 3.04,
+      "distToPivotAdr": 3.03,
       "extensionAdr": 1.43,
       "chase": false,
       "adrPct": 5.17,
@@ -844,17 +1152,17 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 9
     }
   ],
-  "postTotal": 11,
+  "postTotal": 13,
   "counts": {
-    "evaluated": 64,
-    "near": 4,
+    "evaluated": 71,
+    "near": 7,
     "watch": 0,
     "A": 0,
     "B": 0,
-    "blocked": 4,
-    "post": 11,
+    "blocked": 7,
+    "post": 13,
     "far": 27,
-    "noBase": 21,
+    "noBase": 23,
     "noBars": 1
   },
   "noBars": [
@@ -978,15 +1286,5 @@ window.TEAM6_DATA = {
     "watch": 0,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 0,
-    "total": 0,
-    "cap": 14,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(0) 조사 완료"
   }
 };
