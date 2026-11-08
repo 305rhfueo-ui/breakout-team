@@ -1,6 +1,28 @@
 window.HISTORY_DATA = {
   "runs": [
     {
+      "date": "2026-11-09",
+      "qqq": "red",
+      "finraYoY": 31.4,
+      "picks": 30,
+      "breakouts": 11,
+      "chartCheck": 3,
+      "plansWatch": 0,
+      "droppedToday": 0,
+      "reentryBlocked": 3,
+      "barsNotice": null,
+      "crossCounts": {
+        "persistent": 0,
+        "newEntrants": 4,
+        "midTerm": 10,
+        "fading": 11,
+        "other": 5,
+        "total": 30
+      },
+      "siteCondition": "BAD",
+      "theme": "Diagnostics & Research 5종목(16.7%) · Biotechnology 4종목(13.3%)"
+    },
+    {
       "date": "2026-11-08",
       "qqq": "red",
       "finraYoY": 31.4,
