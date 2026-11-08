@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-08T13:00:15.062Z",
+  "updated": "2026-11-08T22:10:02.395Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -128,21 +128,6 @@ window.HOLDINGS_DATA = {
           "read": false
         },
         {
-          "type": "news",
-          "title": "Is Palantir Stock a Buy on the Dip as Revenue Continues to Surge?",
-          "url": "https://www.nasdaq.com/articles/palantir-stock-buy-dip-revenue-continues-surge",
-          "date": "2026-11-05",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어, 매출 성장세 가속에도 주가는 하락 중",
-          "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어, 매출 성장세 가속에도 주가는 하락 중",
-          "easy": "기사 제목은 팔란티어 주가가 하락했지만 매출이 계속 늘고 있어 매수 기회인지 묻는다. 요약에는 또 한 분기 매출 성장률이 빨라졌다는 내용이 있다. 하락 폭과 구체적인 매출 수치는 기사에 안 나왔다.",
-          "whyMatters": "실적은 개선되는데 주가는 내려갔다는 구도라, 보유자에게는 펀더멘털은 양호하고 주가만 부진하다는 신호로 읽힌다. 다만 본문을 읽지 못했다.",
-          "quote": null,
-          "read": false
-        },
-        {
           "type": "cnbc",
           "title": "Tuesday's biggest analyst calls of the day: Apple, SpaceX, Nvidia, Palantir & more",
           "url": "https://www.cnbc.com/2026/11/03/big-wall-street-analyst-calls-tuesday-include-apple-spacex-palantir.html",
@@ -180,10 +165,25 @@ window.HOLDINGS_DATA = {
           "publisher": "신한투자증권 심지현",
           "ko": "팔란티어 실적은 견조하나 계약 선행지표 점검 필요",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 실적은 견조하나 계약 선행지표 점검 필요",
           "easy": "국내 증권사 리포트가 팔란티어의 3분기 실적이 또 역대 최고 수준이라고 평가했다. 다만 앞으로 계약 기간과 규모가 커질지가 관건이라고 짚었다. 파일럿에서 대형 계약으로 빠르게 넘어간 데는 소버린 AI가 주효했다고 한다. 요약문만 확인했고 세부 수치는 기사에 안 나왔다.",
           "whyMatters": "보유자에게 현재 실적은 긍정적이지만, 계약 규모·기간 같은 선행지표가 이어질지가 주가 판단의 핵심 변수라는 뜻입니다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "report",
+          "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+          "url": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeecl.pdf",
+          "date": "2026-11-03",
+          "publisher": "한화증권 신승윤",
+          "ko": "팔란티어, 실적 상회에도 신규 계약 둔화로 시간외 하락",
+          "tone": "neutral",
+          "isNew": false,
+          "headline": "팔란티어, 실적 상회에도 신규 계약 둔화로 시간외 하락",
+          "easy": "팔란티어의 매출은 23.1억 달러(YoY +95.9%)로 예상치를 6.6% 웃돌았고 연간 가이던스도 상향됐다. 그러나 신규 계약 성장률이 YoY +48.6%에서 +5.7%로 둔화됐고, 장기 RPO가 전분기보다 2.5% 감소했다. 이 영향으로 시간 외에서 주가는 -3%를 기록했다.",
+          "whyMatters": "보유자에게 실적과 가이던스는 호재지만, 계약 성장 둔화가 주가에 부담으로 작용해 단기 변동성을 키울 수 있습니다.",
           "quote": null,
           "read": false
         }
