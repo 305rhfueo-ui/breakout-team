@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-07T22:10:10.510Z",
+  "updated": "2026-11-08T13:00:15.062Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어 주가가 8거래일 연속 하락했다",
           "tone": "bad",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 주가가 8거래일 연속 하락했다",
           "easy": "팔란티어 주가가 11월 5일까지 8거래일 연속 하락 마감했고, 그 사이 약 22% 떨어졌다. 기사 제목은 과거 이보다 더 길게 하락한 사례가 2번뿐이었다며 그 뒤 흐름을 짚는다고 했다. 다만 하락 원인과 과거 사례 이후의 결과는 제공된 요약에 나오지 않았다.",
           "whyMatters": "주가가 올라야 이익인 보유자에게는 단기간에 평가손실이 커진 상황이다. 과거 사례 이후 흐름은 기사 본문을 확인해야 알 수 있다.",
@@ -175,15 +175,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] 실적은 견조, 선행지표 후속 점검 필요",
-          "url": "https://rreport.einfomax.co.kr/report/eqmixmgmqzieeqzgcgxeecq.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmixmgmqzieeqzgcgxeecl.pdf",
           "date": "2026-11-03",
           "publisher": "신한투자증권 심지현",
-          "ko": "팔란티어 3분기 실적은 최고 수준이나 계약 후속 점검 필요",
+          "ko": "팔란티어 실적은 견조하나 계약 선행지표 점검 필요",
           "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어 3분기 실적은 최고 수준이나 계약 후속 점검 필요",
-          "easy": "증권사 리포트는 팔란티어가 또다시 역대 최고 수준의 실적을 냈다고 요약했다. 다만 앞으로 계약 기간과 규모가 커지는지가 관건이라고 했다. 파일럿에서 대형 계약으로 빠르게 넘어가는 데는 소버린 AI가 주효했다고 한다.",
-          "whyMatters": "실적 자체는 보유자에게 좋은 소식이다. 하지만 선행지표인 계약 기간·규모가 커지는지 계속 확인해야 한다는 단서가 붙었다.",
+          "isNew": true,
+          "headline": "팔란티어 실적은 견조하나 계약 선행지표 점검 필요",
+          "easy": "국내 증권사 리포트가 팔란티어의 3분기 실적이 또 역대 최고 수준이라고 평가했다. 다만 앞으로 계약 기간과 규모가 커질지가 관건이라고 짚었다. 파일럿에서 대형 계약으로 빠르게 넘어간 데는 소버린 AI가 주효했다고 한다. 요약문만 확인했고 세부 수치는 기사에 안 나왔다.",
+          "whyMatters": "보유자에게 현재 실적은 긍정적이지만, 계약 규모·기간 같은 선행지표가 이어질지가 주가 판단의 핵심 변수라는 뜻입니다.",
           "quote": null,
           "read": false
         }
