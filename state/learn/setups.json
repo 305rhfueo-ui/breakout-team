@@ -29,8 +29,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -8.6,
+        "maxUpPct": -0.4,
+        "maxDownPct": -10.9,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.4
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -64,8 +73,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -14.6,
+        "maxUpPct": 3.8,
+        "maxDownPct": -15.5,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.4
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -99,8 +117,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -16,
+        "maxUpPct": 4,
+        "maxDownPct": -16.8,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.4
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -134,8 +161,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -22.9,
+        "maxUpPct": 1.7,
+        "maxDownPct": -23,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.4
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -169,8 +205,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 4.2,
+        "maxUpPct": 4.9,
+        "maxDownPct": -7.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.4
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -204,8 +249,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -7.4,
+        "maxUpPct": 7.5,
+        "maxDownPct": -12.3,
+        "broke": false,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -239,8 +293,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -8.7,
+        "maxUpPct": 1.6,
+        "maxDownPct": -10.4,
+        "broke": false,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -274,8 +337,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -21.6,
+        "maxUpPct": 1.5,
+        "maxDownPct": -22.7,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -309,8 +381,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -13.6,
+        "maxUpPct": 1.2,
+        "maxDownPct": -19.1,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -344,8 +425,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 20.6,
+        "maxUpPct": 20.8,
+        "maxDownPct": 0.6,
+        "broke": true,
+        "r": 0,
+        "qqqPct": -4.6
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -379,8 +469,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 21,
+        "maxUpPct": 26.3,
+        "maxDownPct": -1.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.6
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -414,8 +513,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -4.7,
+        "maxUpPct": 5,
+        "maxDownPct": -7.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -449,8 +557,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -5.2,
+        "maxUpPct": 2.3,
+        "maxDownPct": -5.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -484,8 +601,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 23,
+        "maxUpPct": 25.1,
+        "maxDownPct": -2.3,
+        "broke": true,
+        "r": -1,
+        "qqqPct": -9.5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -519,8 +645,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 7.3,
+        "maxUpPct": 9.9,
+        "maxDownPct": -0.1,
+        "broke": true,
+        "r": -1,
+        "qqqPct": -9.5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -554,8 +689,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 6.2,
+        "maxUpPct": 12,
+        "maxDownPct": 0.1,
+        "broke": true,
+        "r": -0.17,
+        "qqqPct": -9.5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -589,8 +733,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -9.5,
+        "maxUpPct": 8.5,
+        "maxDownPct": -16.4,
+        "broke": false,
+        "r": null,
+        "qqqPct": -9.5
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -624,8 +777,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -8.9,
+        "maxUpPct": 2.8,
+        "maxDownPct": -11.3,
+        "broke": false,
+        "r": null,
+        "qqqPct": -9.5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -659,8 +821,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 10.8,
+        "maxUpPct": 32.4,
+        "maxDownPct": -10,
+        "broke": true,
+        "r": -0.25,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -694,8 +865,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -10.2,
+        "maxUpPct": 3.4,
+        "maxDownPct": -11.8,
+        "broke": false,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -729,8 +909,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -14.2,
+        "maxUpPct": 2.7,
+        "maxDownPct": -16.5,
+        "broke": false,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -764,8 +953,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 8,
+        "maxUpPct": 11.8,
+        "maxDownPct": 2.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -799,8 +997,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -4.4,
+        "maxUpPct": 1.9,
+        "maxDownPct": -6.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -834,8 +1041,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 3.2,
+        "maxUpPct": 11.9,
+        "maxDownPct": 1.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -869,8 +1085,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -2.5,
+        "maxUpPct": 6.9,
+        "maxDownPct": -4.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -904,8 +1129,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -1.6,
+        "maxUpPct": 5.5,
+        "maxDownPct": -1.9,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -939,8 +1173,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -5,
+        "maxUpPct": 1.3,
+        "maxDownPct": -6.3,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -974,8 +1217,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 1.1,
+        "maxUpPct": 7.7,
+        "maxDownPct": -3.1,
+        "broke": false,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -1009,8 +1261,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 1.4,
+        "maxUpPct": 4.8,
+        "maxDownPct": -0.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -1040,6 +1301,820 @@
         "extensionAdr": 3.2,
         "adrPct": 2.6,
         "dollarVol20M": 386.6,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {
+      "5": {
+        "retPct": 2.1,
+        "maxUpPct": 8.7,
+        "maxDownPct": -0.7,
+        "broke": true,
+        "r": null,
+        "qqqPct": -5
+      }
+    },
+    "up1w": true,
+    "up2w": null,
+    "up1m": null
+  },
+  "TTAN|87.75": {
+    "ticker": "TTAN",
+    "pivot": 87.75,
+    "sessionDate": "2026-11-02",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "A",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-03",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 65.6,
+        "baseWeeks": 2,
+        "depthPct": 16.1,
+        "higherLows": 1,
+        "contraction": 1.1,
+        "closeRange10Adr": 1.6,
+        "surf10Adr": 0,
+        "surf20Adr": 1.2,
+        "slope20Pct": 5,
+        "distToPivotAdr": -1.2,
+        "extensionAdr": 0,
+        "adrPct": 4.8,
+        "dollarVol20M": 124,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "WK|86.56": {
+    "ticker": "WK",
+    "pivot": 86.56,
+    "sessionDate": "2026-11-02",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-03",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 62.3,
+        "baseWeeks": 1.8,
+        "depthPct": 10.8,
+        "higherLows": 1,
+        "contraction": 0.9,
+        "closeRange10Adr": 2.1,
+        "surf10Adr": 0.3,
+        "surf20Adr": 1.8,
+        "slope20Pct": 5,
+        "distToPivotAdr": -0.5,
+        "extensionAdr": 0.3,
+        "adrPct": 4,
+        "dollarVol20M": 66.8,
+        "earningsSoon": true,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "BMI|139": {
+    "ticker": "BMI",
+    "pivot": 139,
+    "sessionDate": "2026-11-02",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-03",
+      "in": {
+        "state": "post",
+        "priorMovePct": 15.5,
+        "baseWeeks": 8,
+        "depthPct": 12.2,
+        "higherLows": 1,
+        "contraction": 1.1,
+        "closeRange10Adr": 1.3,
+        "surf10Adr": 0.6,
+        "surf20Adr": 0.9,
+        "slope20Pct": -0.6,
+        "distToPivotAdr": 2.6,
+        "extensionAdr": 1.3,
+        "adrPct": 5.3,
+        "dollarVol20M": 77.1,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "VVX|79.13": {
+    "ticker": "VVX",
+    "pivot": 79.13,
+    "sessionDate": "2026-11-03",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-04",
+      "in": {
+        "state": "post",
+        "priorMovePct": 12.7,
+        "baseWeeks": 6.4,
+        "depthPct": 15.5,
+        "higherLows": 0,
+        "contraction": 0.9,
+        "closeRange10Adr": 3.3,
+        "surf10Adr": 1.7,
+        "surf20Adr": 2.2,
+        "slope20Pct": 0.7,
+        "distToPivotAdr": 0.6,
+        "extensionAdr": 1.1,
+        "adrPct": 3.8,
+        "dollarVol20M": 29,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "MGRC|119.55": {
+    "ticker": "MGRC",
+    "pivot": 119.55,
+    "sessionDate": "2026-11-03",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-04",
+      "in": {
+        "state": "post",
+        "priorMovePct": 9.9,
+        "baseWeeks": 4.2,
+        "depthPct": 6.9,
+        "higherLows": 1,
+        "contraction": 1,
+        "closeRange10Adr": 2.4,
+        "surf10Adr": 1.5,
+        "surf20Adr": 1.4,
+        "slope20Pct": 0.5,
+        "distToPivotAdr": 3.9,
+        "extensionAdr": 3.2,
+        "adrPct": 2.9,
+        "dollarVol20M": 56.8,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "NSIT|182.12": {
+    "ticker": "NSIT",
+    "pivot": 182.12,
+    "sessionDate": "2026-11-04",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "A",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-05",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 58.7,
+        "baseWeeks": 2.4,
+        "depthPct": 11.6,
+        "higherLows": 1,
+        "contraction": 1.1,
+        "closeRange10Adr": 1.6,
+        "surf10Adr": 0.2,
+        "surf20Adr": 0.8,
+        "slope20Pct": 1.8,
+        "distToPivotAdr": -0.8,
+        "extensionAdr": 0.2,
+        "adrPct": 4.2,
+        "dollarVol20M": 65.6,
+        "earningsSoon": true,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "CAKE|118.63": {
+    "ticker": "CAKE",
+    "pivot": 118.63,
+    "sessionDate": "2026-11-04",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-05",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 56.9,
+        "baseWeeks": 4.8,
+        "depthPct": 17.8,
+        "higherLows": 0,
+        "contraction": 1.6,
+        "closeRange10Adr": 2,
+        "surf10Adr": 0.9,
+        "surf20Adr": 0.7,
+        "slope20Pct": 1,
+        "distToPivotAdr": -0.6,
+        "extensionAdr": 0.9,
+        "adrPct": 4.2,
+        "dollarVol20M": 176.4,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "HSIC|89.12": {
+    "ticker": "HSIC",
+    "pivot": 89.12,
+    "sessionDate": "2026-11-04",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-05",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 13.4,
+        "baseWeeks": 8,
+        "depthPct": 10.9,
+        "higherLows": 0,
+        "contraction": 1.2,
+        "closeRange10Adr": 2.4,
+        "surf10Adr": 1.2,
+        "surf20Adr": 1.3,
+        "slope20Pct": 0.4,
+        "distToPivotAdr": -0.4,
+        "extensionAdr": 1.2,
+        "adrPct": 2.7,
+        "dollarVol20M": 131.9,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "BR|186.46": {
+    "ticker": "BR",
+    "pivot": 186.46,
+    "sessionDate": "2026-11-04",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-05",
+      "in": {
+        "state": "post",
+        "priorMovePct": 24.3,
+        "baseWeeks": 2,
+        "depthPct": 6.3,
+        "higherLows": 0,
+        "contraction": 1.4,
+        "closeRange10Adr": 2.2,
+        "surf10Adr": 0.7,
+        "surf20Adr": 2,
+        "slope20Pct": 3.1,
+        "distToPivotAdr": 0.6,
+        "extensionAdr": 1.6,
+        "adrPct": 2.4,
+        "dollarVol20M": 162.1,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "DUOL|154.66": {
+    "ticker": "DUOL",
+    "pivot": 154.66,
+    "sessionDate": "2026-11-04",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-05",
+      "in": {
+        "state": "post",
+        "priorMovePct": 38.1,
+        "baseWeeks": 8,
+        "depthPct": 19.1,
+        "higherLows": 1,
+        "contraction": 1.1,
+        "closeRange10Adr": 2.4,
+        "surf10Adr": -1.4,
+        "surf20Adr": -2.1,
+        "slope20Pct": -2.1,
+        "distToPivotAdr": 0.8,
+        "extensionAdr": 2.6,
+        "adrPct": 5.3,
+        "dollarVol20M": 203.4,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "TRNS|92.49": {
+    "ticker": "TRNS",
+    "pivot": 92.49,
+    "sessionDate": "2026-11-04",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-05",
+      "in": {
+        "state": "post",
+        "priorMovePct": 17,
+        "baseWeeks": 6.6,
+        "depthPct": 14.3,
+        "higherLows": 0,
+        "contraction": 1.1,
+        "closeRange10Adr": 2.6,
+        "surf10Adr": 1,
+        "surf20Adr": 1.4,
+        "slope20Pct": -0.4,
+        "distToPivotAdr": 4.4,
+        "extensionAdr": 4.7,
+        "adrPct": 3.9,
+        "dollarVol20M": 16.1,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "MANE|146.58": {
+    "ticker": "MANE",
+    "pivot": 146.58,
+    "sessionDate": "2026-11-06",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "A",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-07",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 56.3,
+        "baseWeeks": 2.6,
+        "depthPct": 22.6,
+        "higherLows": 1,
+        "contraction": 0.9,
+        "closeRange10Adr": 1.7,
+        "surf10Adr": 0.2,
+        "surf20Adr": 0.9,
+        "slope20Pct": 2.8,
+        "distToPivotAdr": -0.8,
+        "extensionAdr": 0.2,
+        "adrPct": 6.6,
+        "dollarVol20M": 86.2,
+        "earningsSoon": true,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "KNSA|98.48": {
+    "ticker": "KNSA",
+    "pivot": 98.48,
+    "sessionDate": "2026-11-06",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-07",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 39.4,
+        "baseWeeks": 1.6,
+        "depthPct": 16.5,
+        "higherLows": 1,
+        "contraction": 2,
+        "closeRange10Adr": 4.7,
+        "surf10Adr": 0.6,
+        "surf20Adr": 1.7,
+        "slope20Pct": 4.4,
+        "distToPivotAdr": -0.8,
+        "extensionAdr": 0.6,
+        "adrPct": 5.5,
+        "dollarVol20M": 85.9,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "ICLR|219.04": {
+    "ticker": "ICLR",
+    "pivot": 219.04,
+    "sessionDate": "2026-11-06",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-07",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 45.2,
+        "baseWeeks": 1.4,
+        "depthPct": 10.6,
+        "higherLows": 1,
+        "contraction": 1,
+        "closeRange10Adr": 3.3,
+        "surf10Adr": 0.2,
+        "surf20Adr": 1.7,
+        "slope20Pct": 5.5,
+        "distToPivotAdr": -1.4,
+        "extensionAdr": 0.2,
+        "adrPct": 4.7,
+        "dollarVol20M": 243.6,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "RHLD|134.57": {
+    "ticker": "RHLD",
+    "pivot": 134.57,
+    "sessionDate": "2026-11-06",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-07",
+      "in": {
+        "state": "post",
+        "priorMovePct": 15.3,
+        "baseWeeks": 8,
+        "depthPct": 18.6,
+        "higherLows": 0,
+        "contraction": 1.2,
+        "closeRange10Adr": 1.8,
+        "surf10Adr": 1.1,
+        "surf20Adr": 1.6,
+        "slope20Pct": 1.8,
+        "distToPivotAdr": 2.4,
+        "extensionAdr": 3,
+        "adrPct": 5.9,
+        "dollarVol20M": 15.8,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "PVLA|160.84": {
+    "ticker": "PVLA",
+    "pivot": 160.84,
+    "sessionDate": "2026-11-06",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-07",
+      "in": {
+        "state": "post",
+        "priorMovePct": 57.7,
+        "baseWeeks": 8,
+        "depthPct": 26.5,
+        "higherLows": 1,
+        "contraction": 1,
+        "closeRange10Adr": 3.1,
+        "surf10Adr": 1.7,
+        "surf20Adr": 2.2,
+        "slope20Pct": 3.1,
+        "distToPivotAdr": 1.4,
+        "extensionAdr": 2.3,
+        "adrPct": 6.5,
+        "dollarVol20M": 38.3,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "CPAY|416.3": {
+    "ticker": "CPAY",
+    "pivot": 416.3,
+    "sessionDate": "2026-11-06",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-07",
+      "in": {
+        "state": "post",
+        "priorMovePct": 19.1,
+        "baseWeeks": 2.6,
+        "depthPct": 6.1,
+        "higherLows": 0,
+        "contraction": 1,
+        "closeRange10Adr": 2.1,
+        "surf10Adr": 0.3,
+        "surf20Adr": 0.5,
+        "slope20Pct": 0.4,
+        "distToPivotAdr": 3.5,
+        "extensionAdr": 3.4,
+        "adrPct": 2.7,
+        "dollarVol20M": 226.3,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "FWONA|89.38": {
+    "ticker": "FWONA",
+    "pivot": 89.38,
+    "sessionDate": "2026-11-06",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-07",
+      "in": {
+        "state": "post",
+        "priorMovePct": 10,
+        "baseWeeks": 8,
+        "depthPct": 9.7,
+        "higherLows": 0,
+        "contraction": 1,
+        "closeRange10Adr": 2.6,
+        "surf10Adr": 1.6,
+        "surf20Adr": 1.4,
+        "slope20Pct": 0.1,
+        "distToPivotAdr": 4.6,
+        "extensionAdr": 4.3,
+        "adrPct": 2.9,
+        "dollarVol20M": 24.1,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "HUM|456.5": {
+    "ticker": "HUM",
+    "pivot": 456.5,
+    "sessionDate": "2026-11-06",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-08",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 29.1,
+        "baseWeeks": 4,
+        "depthPct": 12.5,
+        "higherLows": 0,
+        "contraction": 1.1,
+        "closeRange10Adr": 1.4,
+        "surf10Adr": 1,
+        "surf20Adr": 0.8,
+        "slope20Pct": 0.8,
+        "distToPivotAdr": -1.3,
+        "extensionAdr": 1,
+        "adrPct": 3.8,
+        "dollarVol20M": 591.8,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "FROG|103.4": {
+    "ticker": "FROG",
+    "pivot": 103.4,
+    "sessionDate": "2026-11-06",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-08",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 43.3,
+        "baseWeeks": 8,
+        "depthPct": 28.5,
+        "higherLows": 0,
+        "contraction": 1,
+        "closeRange10Adr": 3.3,
+        "surf10Adr": 1,
+        "surf20Adr": 0.9,
+        "slope20Pct": -3,
+        "distToPivotAdr": -0.3,
+        "extensionAdr": 1,
+        "adrPct": 8,
+        "dollarVol20M": 216.9,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "TMDX|90.67": {
+    "ticker": "TMDX",
+    "pivot": 90.67,
+    "sessionDate": "2026-11-06",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-08",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 39.8,
+        "baseWeeks": 8,
+        "depthPct": 28.7,
+        "higherLows": 0,
+        "contraction": 1.2,
+        "closeRange10Adr": 4.4,
+        "surf10Adr": 3.5,
+        "surf20Adr": 3.2,
+        "slope20Pct": -2.5,
+        "distToPivotAdr": -0.5,
+        "extensionAdr": 3.5,
+        "adrPct": 5.7,
+        "dollarVol20M": 84.8,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "TPC|89.62": {
+    "ticker": "TPC",
+    "pivot": 89.62,
+    "sessionDate": "2026-11-06",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-08",
+      "in": {
+        "state": "post",
+        "priorMovePct": 22.2,
+        "baseWeeks": 8,
+        "depthPct": 16.5,
+        "higherLows": 2,
+        "contraction": 1.4,
+        "closeRange10Adr": 1.9,
+        "surf10Adr": 0.3,
+        "surf20Adr": 0.5,
+        "slope20Pct": -1.5,
+        "distToPivotAdr": 0.1,
+        "extensionAdr": 2,
+        "adrPct": 4.4,
+        "dollarVol20M": 44.9,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "ATLC|97.87": {
+    "ticker": "ATLC",
+    "pivot": 97.87,
+    "sessionDate": "2026-11-06",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-08",
+      "in": {
+        "state": "post",
+        "priorMovePct": 21.7,
+        "baseWeeks": 7.8,
+        "depthPct": 12.5,
+        "higherLows": 0,
+        "contraction": 1.1,
+        "closeRange10Adr": 2.2,
+        "surf10Adr": 0.4,
+        "surf20Adr": 0,
+        "slope20Pct": 0,
+        "distToPivotAdr": -1.4,
+        "extensionAdr": -0.4,
+        "adrPct": 4.8,
+        "dollarVol20M": 10.7,
         "earningsSoon": false,
         "regime": "red"
       }
