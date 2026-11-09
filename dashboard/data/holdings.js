@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-09T13:00:15.725Z",
+  "updated": "2026-11-09T22:10:13.326Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,16 +9,46 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Here is What to Know Beyond Why Palantir Technologies Inc. (PLTR) is a Trending Stock",
+          "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-palantir-technologies-inc-pltr-trending-stock",
+          "date": "2026-11-09",
+          "publisher": "Zacks",
+          "ko": "팔란티어가 Zacks 사용자들 사이에서 주목받았다",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어가 Zacks 사용자들 사이에서 주목받았다",
+          "easy": "Zacks.com 이용자들 사이에서 팔란티어(PLTR)에 대한 관심이 최근 높아졌다는 내용이다. 기사 본문은 제공되지 않아 제목과 요약만 확인했다. 구체적인 실적이나 주가 전망 등은 기사에 안 나왔다.",
+          "whyMatters": "관심이 늘었다는 사실만으로 주가 방향을 알 수는 없어, 보유 포지션에는 중립적인 소식이다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "Could Buying Palantir Stock Today Set You Up for Life?",
           "url": "https://www.nasdaq.com/articles/could-buying-palantir-stock-today-set-you-life",
           "date": "2026-11-09",
           "publisher": "The Motley Fool",
           "ko": null,
           "tone": null,
-          "isNew": true,
+          "isNew": false,
           "headline": null,
           "easy": null,
           "whyMatters": null,
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "cnbc",
+          "title": "These stocks on Josh Brown's list got washed out in last week's sell-off. Where to go from here",
+          "url": "https://www.cnbc.com/2026/11/09/these-stocks-on-josh-browns-list-got-washed-out-in-last-weeks-sell-off-where-to-go-from-here.html",
+          "date": "2026-11-09",
+          "publisher": "CNBC",
+          "ko": "CNBC, 지난주 급락장에서 밀린 종목들 점검",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "CNBC, 지난주 급락장에서 밀린 종목들 점검",
+          "easy": "CNBC가 Josh Brown의 종목 리스트 중 지난주 하락장에서 크게 밀린 종목들과 앞으로의 방향을 다룬 기사다. 제공된 본문에는 저작권 문구만 있어 실제 내용을 읽지 못했다. 팔란티어가 여기에 포함되는지는 기사에 안 나왔다.",
+          "whyMatters": "본문이 없어 팔란티어와의 관련성이나 영향을 판단할 수 없다.",
           "quote": null,
           "read": false
         },
@@ -98,21 +128,6 @@ window.HOLDINGS_DATA = {
           "read": false
         },
         {
-          "type": "news",
-          "title": "Palantir Is Down 16% From Its High. History Suggests This Is What Happens Next.",
-          "url": "https://www.nasdaq.com/articles/palantir-down-16-its-high-history-suggests-what-happens-next",
-          "date": "2026-11-06",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어, 3분기 호실적에도 고점 대비 16% 하락",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어, 3분기 호실적에도 고점 대비 16% 하락",
-          "easy": "팔란티어의 최근 3분기 실적은 매출과 이익이 모두 강하게 늘었지만 주가는 오히려 내렸다. 제목 기준 고점 대비 16% 낮은 수준이다. 본문은 확인하지 못했고 과거 사례가 어떻게 이어졌는지는 기사에 안 나왔다.",
-          "whyMatters": "실적이 좋아도 주가가 따로 움직일 수 있다는 점을 보여준다. 보유자는 실적과 주가 흐름이 엇갈리는 상황임을 알아둘 만하다.",
-          "quote": null,
-          "read": false
-        },
-        {
           "type": "cnbc",
           "title": "Tuesday's biggest analyst calls of the day: Apple, SpaceX, Nvidia, Palantir & more",
           "url": "https://www.cnbc.com/2026/11/03/big-wall-street-analyst-calls-tuesday-include-apple-spacex-palantir.html",
@@ -169,21 +184,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어, 실적 상회에도 신규 계약 둔화로 시간외 3% 하락",
           "easy": "매출 23.1억 달러(YoY +95.9%), 영업이익 14.3억 달러로 예상치를 웃돌았고 연간 가이던스도 상향됐다. 하지만 신규 계약 성장률이 YoY +48.6%에서 +5.7%로 둔화되고 장기 RPO가 전분기보다 2.5% 감소했다. 그 영향으로 시간외 주가는 3% 내렸다.",
           "whyMatters": "실적 자체는 강하지만 시장이 계약 성장 둔화에 민감하게 반응했다. 보유자에게는 단기 주가 부담 요인이다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "8k",
-          "title": "8-K 공시: 실적 발표 · Reg FD 공시",
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm",
-          "date": "2026-11-02",
-          "publisher": "SEC",
-          "ko": "실적 발표 공시 — 실적 발표 · Reg FD 공시",
-          "tone": null,
-          "isNew": false,
-          "headline": null,
-          "easy": null,
-          "whyMatters": null,
           "quote": null,
           "read": false
         }
