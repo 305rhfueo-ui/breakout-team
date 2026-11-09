@@ -80,5 +80,29 @@ ok('HTML — 이스케이프 · 소제목 · 인용 · 그림 자리 · 들여�
   assert.ok(!h.includes('<script'));
 });
 
-console.log(`\n${pass} 통과 · ${fail} 실패`);
-process.exit(fail ? 1 : 0);
+// 로그인 대기열 (2026-11-07) — 로그인이 풀리면 글을 버리지 않고 대기 · 로그인 부탁은 3시간에 한 번 · 텔레그램 "로그인 했어" 때 그대로 다시
+(async () => {
+  const os = require('os'), fs = require('fs'), path = require('path');
+  const TS = require('../../scripts/lib/tistory'), { parseCommand } = require('../../scripts/tg-listener');
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'tsq-')), 'q.json'), said = [], items = () => JSON.parse(fs.readFileSync(file)).items;
+  const tell = async (m) => said.push(m), login = () => ({ ok: false, login: true, error: '로그인 풀림' });
+  const item = (T) => ({ team: 't13', title: `${T} 점검`, lines: ['a'], images: [], category: '1', text: `${T} {{URL}}`, entry: { ticker: T } });
+  const a = await TS.post(item('AAA'), { tell, pub: login, file }), b = await TS.post(item('BBB'), { tell, pub: login, file });
+  ok('로그인이 풀리면 대기열에 넣고 로그인 부탁은 한 번만', () => {
+    assert.ok(a.queued && b.queued && !a.ok);
+    assert.deepStrictEqual(items().map((x) => x.title), ['AAA 점검', 'BBB 점검']);
+    assert.strictEqual(said.filter((m) => m.includes('"어사이드로 로그인했어"')).length, 1);
+  });
+  const c = await TS.post(item('CCC'), { tell, pub: () => ({ ok: false, error: '버튼: 비공개' }), file });
+  ok('로그인 말고 다른 실패는 대기열에 넣지 않는다', () => { assert.ok(!c.ok && !c.queued); assert.strictEqual(items().length, 2); });
+  said.length = 0; await TS.retryPending({ tell, pub: login, file });
+  ok('"로그인 했어" 뒤에도 로그인 화면이면 글을 그대로 두고 다시 부탁', () => { assert.strictEqual(items().length, 2); assert.ok(said.some((m) => m.includes('아직 티스토리 로그인 화면'))); });
+  for (let i = 0; i < 3; i++) await TS.retryPending({ tell, pub: () => ({ ok: false, error: '그림 블록 0/2' }), file });
+  ok('다른 실패는 3번까지만 다시', () => assert.strictEqual(items().length, 0));
+  ok('텔레그램 "로그인 했어" 해석', () => {
+    for (const t of ['로그인 했어', '로그인했어', '티스토리 로그인 완료', '로그인 했어요.', '어사이드로 로그인했어', '어사이드 로그인 했어', 'Aside로 로그인했어']) assert.strictEqual(parseCommand(t).kind, 'login', t);
+    assert.strictEqual(parseCommand('로그인 해줘').kind, 'usage');
+  });
+  console.log(`\n${pass} 통과 · ${fail} 실패`);
+  process.exit(fail ? 1 : 0);
+})();

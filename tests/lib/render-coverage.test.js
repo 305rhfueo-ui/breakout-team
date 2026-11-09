@@ -251,6 +251,27 @@ console.log('\n[11팀 시윤] 커버드콜 × 와인스타인 단계 — 표·�
   ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e11.document.getElementById('team').innerHTML.includes('시윤')); assert.ok(e11.bodyFor('t11').includes('아직 확인 전')); });
 }
 
+console.log('\n[카드] 12팀 도담 · 13팀 라온 — 티스토리 글 (2026-11-07)');
+{
+  const data = { t12: { posts: [{ ticker: 'ZZW', entryDate: '2026-10-01', exitDate: '2026-10-20', result: '승', returnPct: 12.34, title: 'ZZW 복기(승)', url: 'https://aiinvestmentworkbook.tistory.com/99' }] },
+    t13: { lastScan: { session: '2026-11-06', regime: { verdict: 'red' }, snapDate: '2026-11-06', breakouts: 11, near: [{ ticker: 'ZZA', miss: [], breakVol: 3.1 }, { ticker: 'ZZB', miss: ['3-4'], breakVol: 2.2 }] },
+      posts: [{ ticker: 'ZZA', breakDate: '2026-11-06', verdict: '조건부', title: 'ZZA 매수 전 점검', url: 'https://aiinvestmentworkbook.tistory.com/100' }, { ticker: 'ZZC', breakDate: '2026-11-05', error: '티스토리 로그인이 풀림' }] } };
+  const bw = loadRoom(`window.BLOG_DATA = ${JSON.stringify(data)};`); bw.cards();
+  const card = bw.document.getElementById('team').innerHTML, b12 = bw.bodyFor('t12'), b13 = bw.bodyFor('t13');
+  ok('카드에 도담·라온, 탭에 글 링크·빠진 칸·발행 실패 사유', () => {
+    for (const k of ['도담', '라온', 'ZZW 승', '12.3%', '돌파 11종목', 'ZZA(✅)', 'ZZB(❌1)']) assert.ok(card.includes(k), `카드에 없음: ${k}`);
+    for (const k of ['data-tk="ZZW"', '/99', '2026-10-01 → 2026-10-20']) assert.ok(b12.includes(k), `12팀 탭에 없음: ${k}`);
+    for (const k of ['🔴', '✅ 시장 칸 빼고 전부 충족', '❌ 3-4', '/100', '지우 조건부', '⚠️ 글을 올리지 못했습니다 — 티스토리 로그인이 풀림']) assert.ok(b13.includes(k), `13팀 탭에 없음: ${k}`);
+    assert.ok(bw.briefing('t13').includes('<b>ZZA</b>') && !bw.briefing('t12').includes('[결론]'), '브리핑이 실장 보고로 새지 않음');
+  });
+  const e = loadRoom(''); e.cards();
+  ok('자료가 없어도 카드·탭이 깨지지 않는다 (실장 보고로 새지 않음)', () => {
+    const c = e.document.getElementById('team').innerHTML; assert.ok(c.includes('도담') && c.includes('라온'));
+    assert.ok(e.bodyFor('t12').includes('아직 복기 글이 없습니다') && e.bodyFor('t13').includes('아직 확인 전'));
+    assert.ok(!e.briefing('t12').includes('[결론]') && e.briefing('t13') === '');
+  });
+}
+
 console.log('\n[팝업] SNS 반응 — 레딧 정리·글 목록·X 검색 링크 (2026-10-28)');
 {
   const cs = loadRoom(`window.SNS_DATA = ${JSON.stringify({ items: { ZZSNS: { fetchedOn: '2026-10-28', mood: 'bear', summary: 'SNSSUM 요약', heat: 'SNSHEAT 과열',
