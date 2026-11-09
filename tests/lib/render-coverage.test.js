@@ -255,13 +255,18 @@ console.log('\n[카드] 12팀 도담 · 13팀 라온 — 티스토리 글 (2026-
 {
   const data = { t12: { posts: [{ ticker: 'ZZW', entryDate: '2026-10-01', exitDate: '2026-10-20', result: '승', returnPct: 12.34, title: 'ZZW 복기(승)', url: 'https://aiinvestmentworkbook.tistory.com/99' }] },
     t13: { lastScan: { session: '2026-11-06', regime: { verdict: 'red' }, snapDate: '2026-11-06', breakouts: 11, near: [{ ticker: 'ZZA', miss: [], breakVol: 3.1 }, { ticker: 'ZZB', miss: ['3-4'], breakVol: 2.2 }] },
-      posts: [{ ticker: 'ZZA', breakDate: '2026-11-06', verdict: '조건부', title: 'ZZA 매수 전 점검', url: 'https://aiinvestmentworkbook.tistory.com/100' }, { ticker: 'ZZC', breakDate: '2026-11-05', error: '티스토리 로그인이 풀림' }] } };
+      posts: [{ ticker: 'ZZA', breakDate: '2026-11-06', verdict: '조건부', title: 'ZZA 매수 전 점검', url: 'https://aiinvestmentworkbook.tistory.com/100' }, { ticker: 'ZZC', breakDate: '2026-11-05', error: '티스토리 로그인이 풀림' }],
+      list: [{ ticker: 'ZZA', breakDate: '2026-11-06', kind: 'full', miss: [], breakVol: 3.1, analyzed: true, rows: [{ no: '1', item: 'QQQ 10일선 > 20일선', status: 'no', detail: '🔴' }, { no: '4-2', item: '거래량 배수 2배 이상 (그날 ÷ 직전 20거래일 평균)', status: 'ok', detail: '3.1배' }] },
+        { ticker: 'ZZB', breakDate: '2026-11-06', kind: 'near', miss: ['3-4'], breakVol: 2.2, analyzed: false, rows: [{ no: '3-4', item: '거래량이 마른다 : 최근 5일 평균 ÷ 20일 평균 0.7 이하', status: 'no', detail: '0.95배' }, { no: '4-2', item: '거래량 배수 2배 이상', status: 'ok', detail: '2.2배' }] }] } };
   const bw = loadRoom(`window.BLOG_DATA = ${JSON.stringify(data)};`); bw.cards();
   const card = bw.document.getElementById('team').innerHTML, b12 = bw.bodyFor('t12'), b13 = bw.bodyFor('t13');
   ok('카드에 도담·라온, 탭에 글 링크·빠진 칸·발행 실패 사유', () => {
-    for (const k of ['도담', '라온', 'ZZW 승', '12.3%', '돌파 11종목', 'ZZA(✅)', 'ZZB(❌1)']) assert.ok(card.includes(k), `카드에 없음: ${k}`);
+    for (const k of ['도담', '라온', 'ZZW 승', '12.3%', '돌파 11종목', 'ZZA(✅)', 'ZZB(🟡)', '목록 2종목']) assert.ok(card.includes(k), `카드에 없음: ${k}`);
     for (const k of ['data-tk="ZZW"', '/99', '2026-10-01 → 2026-10-20']) assert.ok(b12.includes(k), `12팀 탭에 없음: ${k}`);
-    for (const k of ['🔴', '✅ 시장 칸 빼고 전부 충족', '❌ 3-4', '/100', '지우 조건부', '⚠️ 글을 올리지 못했습니다 — 티스토리 로그인이 풀림']) assert.ok(b13.includes(k), `13팀 탭에 없음: ${k}`);
+    for (const k of ['🔴', '✅ 시장 칸 빼고 전부 충족', '❌ 3-4', '/100', '지우 조건부', '⚠️ 글을 올리지 못했습니다 — 티스토리 로그인이 풀림',
+      '부합 · 한 칸 빠짐 목록', '✅ 전부 충족 · 글', '🟡 한 칸 빠짐: 3-4 거래량이 마른다', '심층분석 전']) assert.ok(b13.includes(k), `13팀 탭에 없음: ${k}`);
+    bw.openTicker('ZZB'); const pop = bw.document.getElementById('mbox2').innerHTML;
+    for (const k of ['라온 체크리스트 대조', '🟡 시장 칸 빼고 한 칸 빠짐', '3-4. 거래량이 마른다', '0.95배', '❌', '✅']) assert.ok(pop.includes(k), `팝업에 없음: ${k}`);
     assert.ok(bw.briefing('t13').includes('<b>ZZA</b>') && !bw.briefing('t12').includes('[결론]'), '브리핑이 실장 보고로 새지 않음');
   });
   const e = loadRoom(''); e.cards();
