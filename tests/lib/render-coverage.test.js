@@ -266,7 +266,7 @@ console.log('\n[카드] 12팀 도담 · 13팀 라온 — 티스토리 글 (2026-
     for (const k of ['🔴', '✅ 시장 칸 빼고 전부 충족', '❌ 3-4', '/100', '지우 조건부', '⚠️ 글을 올리지 못했습니다 — 티스토리 로그인이 풀림',
       '부합 · 한 칸 빠짐 목록', '✅ 전부 충족 · 글', '🟡 한 칸 빠짐: 3-4 거래량이 마른다', '심층분석 전']) assert.ok(b13.includes(k), `13팀 탭에 없음: ${k}`);
     bw.openTicker('ZZB'); const pop = bw.document.getElementById('mbox2').innerHTML;
-    for (const k of ['라온 체크리스트 대조', '🟡 시장 칸 빼고 한 칸 빠짐', '3-4. 거래량이 마른다', '0.95배', '❌', '✅']) assert.ok(pop.includes(k), `팝업에 없음: ${k}`);
+    for (const k of ['라온 체크리스트 대조', '🟡 시장 칸 빼고 한 칸 빠짐', '3-4. 거래량이 마른다', '0.95배', '❌', '✅', '충족 1 · 미충족 1']) assert.ok(pop.includes(k), `팝업에 없음: ${k}`);
     assert.ok(bw.briefing('t13').includes('<b>ZZA</b>') && !bw.briefing('t12').includes('[결론]'), '브리핑이 실장 보고로 새지 않음');
   });
   const e = loadRoom(''); e.cards();

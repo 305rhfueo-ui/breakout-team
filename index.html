@@ -939,9 +939,12 @@ const VICON={'매수 적정':'🟢','조건부':'🟡','아니다':'🔴','판�
 function raonSec(T){
   const x=(((window.BLOG_DATA||{}).t13||{}).list||[]).find(i=>i.ticker===T);
   if(!x||!(x.rows||[]).length)return '';
-  const ST={ok:'충족',no:'미충족',half:'부분 충족'};
+  const ST={ok:'충족',no:'미충족',half:'부분 충족'},IC={ok:'✅',no:'❌',half:'🟡'};
+  const mk=x.rows.find(r=>r.no==='1'),info=x.rows.filter(r=>r.status==='info'),core=x.rows.filter(r=>r.no!=='1'&&r.status!=='info');
   return `<div class="sec"><h4>라온 체크리스트 대조 <span class="dim">(21번 글 · ${esc(x.breakDate)} 돌파)</span> <span class="chip">${x.kind==='full'?'✅ 시장 칸 빼고 전부 충족':'🟡 시장 칸 빼고 한 칸 빠짐'}</span></h4>`
-    +ck(x.rows.map(r=>({item:`${r.no}. ${r.item}${r.no==='1'?' (시장 — 셈에서 뺌)':r.status==='info'?' (참고)':''}`,evidence:r.detail||'',status:ST[r.status]||''})))
+    +(mk?`<div class="note" style="margin:0 0 6px">시장 칸(1번 — 셈에서 뺌): ${IC[mk.status]||'—'} ${esc(mk.detail||'')}</div>`:'')
+    +ck(core.map(r=>({item:`${r.no}. ${r.item}`,evidence:r.detail||'',status:ST[r.status]||''})))
+    +info.map(r=>`<div class="note">참고 ${esc(r.no)}. ${esc(r.item)} — ${esc(r.detail||'')}</div>`).join('')
     +`<div class="note">코드가 채점한 결과입니다. 판단 보조이며 매수 권유가 아닙니다.</div></div>`;
 }
 function verdictBlock(x){
