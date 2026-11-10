@@ -1,0 +1,266 @@
+{
+ "ticker": "EPAM",
+ "sector": "Technology",
+ "industry": "Information Technology Services",
+ "nameKo": "이팸 시스템스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.65,
+  "saleNy": 3.33,
+  "epsCy": 15.5,
+  "epsNy": 5.56,
+  "est": {
+   "cyCur": 13.28303,
+   "cy30": 13.15114,
+   "nyCur": 14.02189,
+   "ny30": 14.05828
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.53,
+    7.56,
+    12.75
+   ],
+   "ni": [
+    16.99,
+    12.3,
+    5.86
+   ],
+   "opm": [
+    10.76,
+    8.34,
+    10.6
+   ],
+   "updated": "2026-09-08 06:03:53"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-05",
+   "m3": "2026-10-30",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 3,
+   "m3": 7,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-10",
+  "nameKo": "이팸 시스템스",
+  "nameEn": "EPAM SYS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001352010&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1426430000,
+     "profit": 175928000,
+     "netIncome": 130311000,
+     "margin": 12.3,
+     "yoy": {
+      "revenue": 2.3,
+      "profit": 21.4,
+      "netIncome": 22,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1414767000,
+     "profit": 152222000,
+     "netIncome": 102979000,
+     "margin": 10.8,
+     "yoy": {
+      "revenue": 4.5,
+      "profit": 20.4,
+      "netIncome": 17,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1400061000,
+     "profit": 116768000,
+     "netIncome": 82521000,
+     "margin": 8.3,
+     "yoy": {
+      "revenue": 7.6,
+      "profit": 17.6,
+      "netIncome": 12.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1407548000,
+     "profit": 149254000,
+     "netIncome": 109354000,
+     "margin": 10.6,
+     "yoy": {
+      "revenue": 12.8,
+      "profit": 9.3,
+      "netIncome": 5.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "EPAM Systems Consensus Price Target Raised 29.44% to $168.64",
+     "url": "https://www.nasdaq.com/articles/epam-systems-consensus-price-target-raised-2944-16864",
+     "date": "2026-11-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "EPAM Systems Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/epam-systems-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Epam (EPAM) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/epam-epam-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "EPAM Systems (EPAM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/epam-systems-epam-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "EPAM Systems, Inc. Reports Third Quarter 2026 Results and Announces $1.8 billion Share Repurchase Program",
+     "url": "https://www.nasdaq.com/articles/epam-systems-inc-reports-third-quarter-2026-results-and-announces-18-billion-share",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Epam (EPAM) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/epam-epam-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "EPAM Systems Boosts FY26 Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/epam-systems-boosts-fy26-outlook-update",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "EPAM Systems, Inc. Announces Rise In Q3 Profit",
+     "url": "https://www.nasdaq.com/articles/epam-systems-inc-announces-rise-q3-profit",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000048/epam-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000043/epam-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "임원 변동",
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000034/epam-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000026/epam-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-01",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000024/epam-20260331.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000021/epam-20260312.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "EPAM",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 21.24,
+  "pbr": 2.3,
+  "eps": 7.38,
+  "bps": 68.21,
+  "shares": 51023300,
+  "marketCapM": 8001,
+  "high52": 222.53,
+  "high52Date": "2026-01-15",
+  "low52": 73.055,
+  "low52Date": "2026-06-22",
+  "last": 156.82,
+  "prevClose": 159.31,
+  "nameKo": "이팸 시스템스",
+  "nameEn": "EPAM SYS INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 51023300
+ }
+}

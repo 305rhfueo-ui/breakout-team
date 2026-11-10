@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-10",
+  "items": [
+    {
+      "ticker": "BIO.B",
+      "price": 389.9800109863281,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PRAX",
+      "price": 332.9700012207031,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FERG",
+      "price": 259.92999267578125,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "VCTR",
+      "price": 126.80000305175781,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NBN",
+      "price": 134.3300018310547,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "MIDD",
+      "price": 138,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ALGN",
+      "price": 174.25999450683594,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BIO",
+      "price": 388.30999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SENEA",
+      "price": 167.24000549316406,
+      "category": 4,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TPC",
+      "price": 94.69999694824219,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MSGE",
+      "price": 80.29000091552734,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FTDR",
+      "price": 100.7300033569336,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "GWW",
+      "price": 1447.6700439453125,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "RHLD",
+      "price": 163.85000610351562,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GSAT",
+      "price": 85.77999877929688,
+      "category": 3,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LAMR",
+      "price": 158.75,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TMDX",
+      "price": 93.79000091552734,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "UI",
+      "price": 685.6799926757812,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ORKA",
+      "price": 104.55999755859375,
+      "category": 2,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DDS",
+      "price": 651.5999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "RGLD",
+      "price": 282.6600036621094,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TDG",
+      "price": 1218.8499755859375,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "WIX",
+      "price": 69.75,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BNS",
+      "price": 93.33999633789062,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "FORTY",
+      "price": 117.05000305175781,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

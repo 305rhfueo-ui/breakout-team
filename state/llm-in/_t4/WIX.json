@@ -1,0 +1,109 @@
+{
+ "ticker": "WIX",
+ "news": [
+  {
+   "title": "Insights Into Wix.com (WIX) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/insights-wixcom-wix-q3-wall-street-projections-key-metrics",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search Wix.com Ltd. (WIX): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-wixcom-ltd-wix-here-what-you-need-know",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Analysts Estimate Wix.com (WIX) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-wixcom-wix-report-decline-earnings-what-look-out",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wix.com (WIX) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+   "url": "https://www.nasdaq.com/articles/wixcom-wix-sees-more-significant-dip-broader-market-some-facts-know",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wix.com (WIX) Stock Drops Despite Market Gains: Important Facts to Note",
+   "url": "https://www.nasdaq.com/articles/wixcom-wix-stock-drops-despite-market-gains-important-facts-note",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here is What to Know Beyond Why Wix.com Ltd. (WIX) is a Trending Stock",
+   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-wixcom-ltd-wix-trending-stock",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wix.com (WIX) Laps the Stock Market: Here's Why",
+   "url": "https://www.nasdaq.com/articles/wixcom-wix-laps-stock-market-heres-why",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wix.com (WIX) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/wixcom-wix-declines-more-market-some-information-investors",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insights Into Wix.com (WIX) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/insights-wix-com-wix-q3-131508651.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Investors Heavily Search Wix.com Ltd. (WIX): Here is What You Need to Know",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-wix-com-130002976.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Analysts Estimate Wix.com (WIX) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-wix-com-wix-140003083.html",
+   "date": "2026-11-03",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Wix Introduces Studio Two, a Truly Open, AI-Native Visual Editor for Professional Web Creation",
+   "url": "https://finance.yahoo.com/technology/ai/articles/wix-introduces-studio-two-truly-140000531.html",
+   "date": "2026-11-02",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.22,
+  "saleNy": 10.93,
+  "epsCy": -36.4,
+  "epsNy": 47.31,
+  "cyTrend": 0.23,
+  "nyTrend": 0.36,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    14.26,
+    13.86,
+    13.61
+   ],
+   "ni": [
+    -270.19,
+    -183.78,
+    -102.2
+   ],
+   "opm": null,
+   "updated": "2026-06-11 08:15:16"
+  }
+ }
+}

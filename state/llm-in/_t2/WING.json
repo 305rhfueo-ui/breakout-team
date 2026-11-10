@@ -1,0 +1,291 @@
+{
+ "ticker": "WING",
+ "sector": "Consumer Cyclical",
+ "industry": "Restaurants",
+ "nameKo": "윙스톱",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.16,
+  "saleNy": 14.81,
+  "epsCy": 1.77,
+  "epsNy": 21.25,
+  "est": {
+   "cyCur": 4.15218,
+   "cy30": 4.4298,
+   "nyCur": 5.03437,
+   "ny30": 5.34172
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.44,
+    7.38,
+    8.57
+   ],
+   "ni": [
+    16.91,
+    -67.61,
+    0.03
+   ],
+   "opm": [
+    29.44,
+    27.44,
+    26.66
+   ],
+   "updated": "2026-09-09 06:33:58"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-28",
+   "m3": "2026-11-02",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 9,
+   "m3": 6,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-10",
+  "nameKo": "윙스톱",
+  "nameEn": "WINGSTOP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636222&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 185564000,
+     "profit": 54631000,
+     "netIncome": 31288000,
+     "margin": 29.4,
+     "yoy": {
+      "revenue": 6.4,
+      "profit": 20.8,
+      "netIncome": 16.9,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 183725000,
+     "profit": 50408000,
+     "netIncome": 29883000,
+     "margin": 27.4,
+     "yoy": {
+      "revenue": 7.4,
+      "profit": 31.7,
+      "netIncome": -67.6,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 175694000,
+     "profit": 46835000,
+     "netIncome": 26761000,
+     "margin": 26.7,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 11.9,
+      "netIncome": 0,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 175736000,
+     "profit": 48961000,
+     "netIncome": 28478000,
+     "margin": 27.9,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": 23,
+      "netIncome": 10.7,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Wingstop Rallied in October",
+     "url": "https://www.nasdaq.com/articles/why-wingstop-rallied-october",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here is What to Know Beyond Why Wingstop Inc. (WING) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-wingstop-inc-wing-trending-stock",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Wingstop Stock Keeps Going Up",
+     "url": "https://www.nasdaq.com/articles/why-wingstop-stock-keeps-going",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Wingstop: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/wingstop-3-key-takeaways-long-term-investors",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Wingstop (WING) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-wingstop-wing-said-its-q3-earnings-call",
+     "date": "2026-10-29",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Wingstop Inc. Reports Third Quarter 2026 Revenue of $185.1 million",
+     "url": "https://www.nasdaq.com/articles/wingstop-inc-reports-third-quarter-2026-revenue-1851-million",
+     "date": "2026-10-28",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Wingstop (WING) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/wingstop-wing-q3-2026-earnings-call-transcript",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Wingstop (WING) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-wingstop-wing-q3-earnings",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026067723/wing-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026058878/wing-20260824.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026054376/wing-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026050401/wing-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000163622226000020/wing-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636222/000163622226000015/wing-20260428.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-04-30",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[윙스톱 (NAS:WING)] 수요 회복 점검 필요",
+     "summary": "- 1Q 소비자 지출 둔화가 지속되며 동일매장매출(SSS) 성장률은 YoY 8.7% 감소, 수요 약화가 뚜렷하게 나타난 구간- 다만, 공격적인 출점이 이를 상쇄하며 외형 성장 유지. 이번 분기 97개 매장이 순증된 가운데, 매출액은 YoY 7.4% 증가한 $1억 8,370만을 기록- 단기적으로 주가의 유의미한 반등보다 박스권 흐름 이어질 가능성 우세. SSSG 회복 여부가 확인되는 시점까지는 관망 전략이 유효하다고 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcqxmmegzzmgcgxeeec.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-02-20",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[윙스톱 (NAS:WING)] 확장의 시간",
+     "summary": "- 4Q 회계상 매출은 $1.76억으로 컨센서스를 하회했으며, 동일매장매출은 전년 대비 5.8% 감소해 부진함 지속되는 모습- 출점 중심 성장과 디지털 인프라 확대를 통한 실적 개선 가능성을 감안할 때 구조적 성장 스토리는 유효한 상황- 이에 따라 단기 밸류 부담은 상당 부분 완화된 반면, 중장기적 재평가 가능성은 여전히 존재",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezkilqmqemgkgcgxeeec.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Monday's biggest analyst calls: SpaceX, Nvidia, Tesla, Applied Materials, Circle, GE Vernova",
+   "url": "https://www.cnbc.com/2026/08/03/mondays-wall-street-analyst-calls-include-spacex.html",
+   "date": "2026-08-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "WING",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 42.02,
+  "pbr": 0,
+  "eps": 4.21,
+  "bps": 0,
+  "shares": 27053100,
+  "marketCapM": 4788,
+  "high52": 301.1613,
+  "high52Date": "2026-02-18",
+  "low52": 95.82,
+  "low52Date": "2026-09-25",
+  "last": 176.98,
+  "prevClose": 163.28,
+  "nameKo": "윙스톱",
+  "nameEn": "WINGSTOP INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 27053100
+ }
+}

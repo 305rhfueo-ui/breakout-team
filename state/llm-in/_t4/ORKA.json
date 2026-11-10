@@ -1,0 +1,218 @@
+{
+ "ticker": "ORKA",
+ "news": [
+  {
+   "title": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+   "url": "https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study",
+   "date": "2026-10-27",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Oruka's Experimental Drug Shows Strong Skin Clearance In Phase 2 Psoriasis Trial",
+   "url": "https://www.nasdaq.com/articles/orukas-experimental-drug-shows-strong-skin-clearance-phase-2-psoriasis-trial",
+   "date": "2026-10-26",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
+   "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data",
+   "date": "2026-10-26",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Oruka Reports Positive Week 28 Results For ORKA-001 In Plaque Psoriasis; Stock Down",
+   "url": "https://www.nasdaq.com/articles/oruka-reports-positive-week-28-results-orka-001-plaque-psoriasis-stock-down",
+   "date": "2026-09-23",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "ORKA Stock Up More Than 60% in 3 Months: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/orka-stock-more-60-3-months-heres-what-you-should-know",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
+   "url": "https://www.nasdaq.com/articles/show-me-money-orka-makes-splash-500-gain-more-catalysts-ahead",
+   "date": "2026-08-21",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Oruka Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
+   "url": "https://finance.yahoo.com/healthcare/articles/oruka-therapeutics-reports-third-quarter-210400987.html",
+   "date": "2026-11-09",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Oruka Therapeutics to Participate in Multiple Upcoming Conferences",
+   "url": "https://finance.yahoo.com/healthcare/articles/oruka-therapeutics-participate-multiple-upcoming-120000689.html",
+   "date": "2026-11-03",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Oruka Therapeutics Stock Gets A Lift From Psoriasis Trial Results",
+   "url": "https://finance.yahoo.com/healthcare/articles/oruka-therapeutics-stock-gets-lift-070642621.html",
+   "date": "2026-10-27",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026112281/ea0309594-8k_oruka.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026093021/ea0302923-8k_oruka.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea0301312-8k_oruka.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026065294/ea0293648-8k_oruka.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026063481/ea0292876-8k_oruka.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026050249/ea0288461-8k_oruka.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000907654&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2024-03-31",
+    "derived": false,
+    "revenue": 0,
+    "profit": -2482000,
+    "netIncome": -2009000,
+    "margin": null,
+    "yoy": {
+     "revenue": null,
+     "profit": -38.2,
+     "netIncome": -49.3,
+     "priorEnd": "2023-03-31"
+    }
+   },
+   {
+    "periodEnd": "2023-12-31",
+    "derived": true,
+    "revenue": 0,
+    "profit": -1590000,
+    "netIncome": -1089000,
+    "margin": null,
+    "yoy": {
+     "revenue": null,
+     "profit": -2.7,
+     "netIncome": 7.2,
+     "priorEnd": "2022-12-31"
+    }
+   },
+   {
+    "periodEnd": "2023-03-31",
+    "derived": false,
+    "revenue": 0,
+    "profit": -1796000,
+    "netIncome": -1346000,
+    "margin": null,
+    "yoy": {
+     "revenue": null,
+     "profit": 45.2,
+     "netIncome": 58.9,
+     "priorEnd": "2022-03-31"
+    }
+   },
+   {
+    "periodEnd": "2022-12-31",
+    "derived": true,
+    "revenue": 0,
+    "profit": -1548000,
+    "netIncome": -1174000,
+    "margin": null,
+    "yoy": {
+     "revenue": null,
+     "profit": 72.7,
+     "netIncome": 79.3,
+     "priorEnd": "2021-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": 27.91,
+  "epsNy": 20.95,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자축소"
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:13:40"
+  }
+ }
+}

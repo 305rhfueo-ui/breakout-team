@@ -2,6 +2,18 @@
  "ticker": "TMDX",
  "news": [
   {
+   "title": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
+   "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-flashed-golden-cross-signal-do-you-buy",
+   "date": "2026-11-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TransMedics (TMDX) Recently Broke Out Above the 50-Day Moving Average",
+   "url": "https://www.nasdaq.com/articles/transmedics-tmdx-recently-broke-out-above-50-day-moving-average",
+   "date": "2026-11-09",
+   "publisher": "Zacks"
+  },
+  {
    "title": "TransMedics (TMDX) Q3 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-2026-earnings-call-transcript",
    "date": "2026-11-06",
@@ -26,16 +38,39 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Is TMDX Stock Worth Buying as Growth Meets Rising Margin Pressure?",
-   "url": "https://www.nasdaq.com/articles/tmdx-stock-worth-buying-growth-meets-rising-margin-pressure",
-   "date": "2026-09-03",
-   "publisher": "Zacks"
+   "title": "TransMedics: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-3-key-takeaways-long-005659697.html",
+   "date": "2026-11-10",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
   },
   {
-   "title": "Why Is TransMedics (TMDX) Up 10.2% Since Last Earnings Report?",
-   "url": "https://www.nasdaq.com/articles/why-transmedics-tmdx-102-last-earnings-report",
-   "date": "2026-09-03",
-   "publisher": "Zacks"
+   "title": "UBS Adjusts TransMedics Group Price Target to $88 From $77, Maintains Neutral Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-transmedics-group-price-134204651.html",
+   "date": "2026-11-09",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-tmdx-just-flashed-golden-133501840.html",
+   "date": "2026-11-09",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransMedics (TMDX) Recently Broke Out Above the 50-Day Moving Average",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-tmdx-recently-broke-above-133002705.html",
+   "date": "2026-11-09",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Some Experts Think TransMedics Group (TMDX) Has a Near-Monopoly on Keeping Donor Organs Alive",
+   "url": "https://finance.yahoo.com/healthcare/articles/experts-think-transmedics-group-tmdx-124206222.html",
+   "date": "2026-11-07",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
   },
   {
    "title": "TransMedics Group Q3 Earnings Call Highlights",
@@ -59,45 +94,17 @@
    "via": "Yahoo"
   },
   {
+   "title": "TransMedics Group, Inc. Q3 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-group-inc-q3-2026-133000133.html",
+   "date": "2026-11-06",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
    "title": "TransMedics Group Inc (TMDX) (Q3 2026) Earnings Call Highlights: Record $203 Million Revenue ...",
    "url": "https://finance.yahoo.com/healthcare/articles/transmedics-group-inc-tmdx-q3-091755833.html",
    "date": "2026-11-06",
    "publisher": "GuruFocus.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "TransMedics (TMDX) Q3 2026 Earnings Call Transcript",
-   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-tmdx-q3-2026-earnings-064613375.html",
-   "date": "2026-11-06",
-   "publisher": "Motley Fool",
-   "via": "Yahoo"
-  },
-  {
-   "title": "TransMedics (TMDX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-tmdx-q3-earnings-key-013002032.html",
-   "date": "2026-11-06",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-tmdx-q3-earnings-revenues-212003041.html",
-   "date": "2026-11-05",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "TransMedics: Q3 Earnings Snapshot",
-   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-q3-earnings-snapshot-211218700.html",
-   "date": "2026-11-05",
-   "publisher": "Associated Press",
-   "via": "Yahoo"
-  },
-  {
-   "title": "TransMedics Reports Third Quarter 2026 Financial Results",
-   "url": "https://finance.yahoo.com/healthcare/articles/transmedics-reports-third-quarter-2026-210200128.html",
-   "date": "2026-11-05",
-   "publisher": "PR Newswire",
    "via": "Yahoo"
   }
  ],
@@ -205,11 +212,11 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 22.5,
-  "saleNy": 17.97,
-  "epsCy": -42.41,
-  "epsNy": 48.99,
-  "cyTrend": -0.47,
+  "saleCy": 27.02,
+  "saleNy": 16.38,
+  "epsCy": -36.14,
+  "epsNy": 34.38,
+  "cyTrend": 10.87,
   "nyTrend": -1.32,
   "newHigh52": false,
   "bbCenterBrk5d": true,

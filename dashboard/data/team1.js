@@ -515,8 +515,385 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-10",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아 CEO 스캔달에 주가 4% 넘게 빠졌다",
+        "easy": "엔비디아 젠슨 황 CEO가 중국 스파이 의혹을 받는 여성과의 관계를 인정했다. 이사회는 그가 외국 정보기관의 표적이 됐는지 조사에 들어갔고, 국가안보나 회사 기밀이 새어 나갔다고 볼 근거는 없다고 밝혔다. 월요일 시장 전체가 크게 올랐는데도 엔비디아만 4% 넘게 떨어졌다. 뒤를 이을 후계자가 정해져 있지 않다는 점이 불안을 키웠다.",
+        "whyMatters": "AI 설비 투자에 얹혀 있던 반도체 업종 전반에 부담이고, 엔비디아 비중이 큰 지수도 같이 눌린다. 반대로 AMD·Broadcom 같은 경쟁사에는 점유율을 가져올 기회로 읽힌다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
+            "date": "2026-11-09",
+            "quote": "Shares of Nvidia sank more than 4% on Monday, even as the broader market rallied sharply.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-09",
+            "quote": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "10월 소비자물가가 화요일에 나온다",
+        "easy": "미국 10월 소비자물가지수 발표가 화요일로 예정돼 있다. 전월 대비 0.3% 상승, 변동이 큰 식품·에너지를 뺀 근원은 0.2% 상승이 예상된다. 9월의 0.6%·0.3%보다 오름폭이 줄어드는 그림이다. 예상보다 높게 나오면 연준이 금리를 내릴 시점이 뒤로 밀린다.",
+        "whyMatters": "금리에 민감한 기술·성장주와 부동산 업종이 이 숫자 하나에 가장 크게 흔들린다. 숫자가 예상대로 둔화하면 최근 상대적으로 강한 헬스케어·산업재 흐름이 이어질 여지가 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+            "date": "2026-11-09",
+            "quote": "The CPI reading for all items is expected to show an increase of 0.3%. Core inflation, which excludes volatile food and energy costs, is forecast to increase 0.2%",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "10월 고용 16만5천명 — 예상을 크게 넘었다",
+        "easy": "10월 비농업 신규 고용이 16만5천명으로 월가 예상을 크게 웃돌았다. 경영·과학·기술 컨설팅 인력이 2년 가까운 기간 중 가장 큰 폭으로 늘었고, 단기 계약직 채용과 중간선거 관련 일자리가 보탬이 됐다. 고용이 튼튼하면 경기 침체 걱정은 줄어든다. 다만 연준이 금리를 서둘러 내릴 이유도 같이 줄어든다.",
+        "whyMatters": "인력·컨설팅 서비스 업종에는 수요가 살아 있다는 신호다. 금리 인하를 기다려 온 기술·성장주에는 반대로 부담으로 작용한다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "3 unexpected reasons the October jobs report was so strong",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+            "date": "2026-11-09",
+            "quote": "Nonfarm payrolls grew by 165,000 jobs in October, according to the Friday report from the Bureau of Labor Statistics.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "다우가 나흘 새 세 번 1,000포인트 널뛰었다",
+        "easy": "다우지수가 나흘 사이 1,000포인트 넘게 움직인 날이 세 번 나왔다. 기사는 이런 큰 출렁임이 아직 끝나지 않았다고 본다. 하루 안에 방향이 뒤집히는 장에서는 돌파 매수가 다음 날 되돌려지는 일이 잦다. 들고 있는 종목도 손절선에 닿을 확률이 평소보다 높아진다.",
+        "whyMatters": "쏠림이 심했던 반도체·AI 업종의 흔들림이 가장 크고, 헬스케어·필수소비재가 상대적으로 버티는 구간이다. 지금은 진입 폭을 좁히기보다 신호가 다시 정리될 때까지 기다리는 쪽이 안전하다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn't over yet.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
+            "date": "2026-11-09",
+            "quote": "Dow sees its third 1,000-point swing in four days. Why the volatility isn't over yet.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "중국 10월 수출 35.2% 급증, 흑자는 줄었다",
+        "easy": "중국의 10월 수출이 1년 전보다 35.2% 늘어 시장 예상을 넘었다. 수입은 41.6% 늘며 수출보다 더 빠르게 증가했다. 기술 제품과 핵심 원자재 수요가 수입을 끌어올린 것으로 설명된다. 수입이 더 크게 늘어 월간 무역흑자는 지난 4월 이후 가장 작은 수준으로 줄었다.",
+        "whyMatters": "반도체 장비와 산업용 원자재를 중국에 파는 기업들에는 수요가 살아 있다는 신호다. 다만 교역 규모가 커지면 미국의 대중 수출 규제 이슈가 다시 불붙을 수 있다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "China exports, imports soar past expectations in October — surplus narrows sharply",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+            "date": "2026-11-10",
+            "quote": "Goods exports soared by 35.2% last month from a year earlier, according to the official data released Tuesday, exceeding expectations for a 33.5% jump",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "소프트뱅크 13% 급등, 아시아 기술주가 반등했다",
+        "easy": "소프트뱅크 그룹 주가가 13.4% 올랐다. 전날 밤 미국 증시가 반등한 흐름을 따라간 것으로, 유가가 크게 떨어져 투자 심리가 풀린 영향이라고 기사는 설명한다. 반도체 종목에 다시 매수가 들어온 것도 아시아로 번졌다. 지난주 큰 하락 뒤의 되돌림이라는 점은 함께 봐야 한다.",
+        "whyMatters": "반도체와 반도체 장비 업종에 단기적으로 숨통이 트이는 흐름이다. 엔비디아가 흔들린 자리를 대신할 후보로 AMD·Broadcom이 거론된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+            "date": "2026-11-10",
+            "quote": "Japan's technology investment giant SoftBank Group surged 13.4%, while chip-testing equipment maker Advantest gained 2.36%.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
+            "date": "2026-11-09",
+            "quote": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 자리가 아니다. QQQ 종가가 679.35이고 10일선이 20일선 아래에 15일째 머물러 있어 쿨라매기 기준으로는 빨간불이다. 오늘 뉴스는 엔비디아 CEO 리스크로 AI 주도주가 흔들리는 가운데 중국 수출과 미국 고용 같은 실물 숫자는 오히려 강한 엇갈린 그림이다. 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘었으니, 하락이 시작되면 낙폭이 평소보다 커질 수 있다. 이번 주는 화요일 소비자물가 발표와 10일선이 20일선을 되올라가는지, 이 두 가지를 보면 된다.",
+    "keyRisks": [
+      "엔비디아 CEO 공백: 후계자가 정해지지 않은 채 조사가 길어지면 AI 주도주 전반의 주가 배수(주가가 이익의 몇 배인지)가 함께 깎일 수 있다.",
+      "빚투 과열: 신용으로 산 물량이 주의선을 넘은 상태라 하락이 시작되면 강제 청산이 낙폭을 키운다.",
+      "물가 지표 충격: 화요일 소비자물가가 예상보다 높게 나오면 금리 인하 기대가 밀리고 기술·성장주가 먼저 맞는다.",
+      "큰 출렁임: 하루 안에 방향이 뒤집히는 장에서는 돌파 매수가 다음 날 되돌려져 손절만 쌓이기 쉽다."
+    ],
+    "easySummary": [
+      "QQQ는 10일선이 20일선 아래에 15일째 — 쿨라매기 기준으로 새로 사는 자리가 아니다.",
+      "엔비디아 CEO 스캔달로 AI 주도주가 흔들렸고, 대안으로 AMD·Broadcom이 거론된다.",
+      "중국 수출과 미국 고용은 강했다. 화요일 소비자물가가 이번 주 분기점이다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 191,
+      "ok": 294,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 12,
+      "removed": [],
+      "numberCut": 35,
+      "numberCuts": [
+        {
+          "sentence": "모건스탠리는 HDD 수요가 공급을 앞선다며 목표주가를 1,200달러로 올렸다.",
+          "missing": [
+            "1,200"
+          ]
+        },
+        {
+          "sentence": "최근 현물 계약 가격이 기존 계약의 2~5배라는 점도 근거로 들었다.",
+          "missing": [
+            "2",
+            "5"
+          ]
+        },
+        {
+          "sentence": "주가는 3개월 새 48% 빠졌다.",
+          "missing": [
+            "48"
+          ]
+        },
+        {
+          "sentence": "3분기 조정 EPS(주당순이익)는 0.48달러로 시장 예상 0.44달러를 넘었고, 잉여현금흐름도 15.3억 달러 흑자였다.",
+          "missing": [
+            "0.44"
+          ]
+        },
+        {
+          "sentence": "52주 고점 498.83달러에는 아직 못 미친다.",
+          "missing": [
+            "498.83"
+          ]
+        },
+        {
+          "sentence": "주가는 6월 고점 738.88달러에서 크게 내려온 상태다.",
+          "missing": [
+            "738.88"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 모두 매출이 7~13% 늘며 성장세가 이어지고 있다.",
+          "missing": [
+            "4",
+            "7"
+          ]
+        },
+        {
+          "sentence": "시가총액 약 68억 달러의 15% 정도로, 주당 이익을 키우고 주가를 받치는 재료다.",
+          "missing": [
+            "68억 달러",
+            "15"
+          ]
+        },
+        {
+          "sentence": "주가가 한 달 새 29% 올라 이익 대비 주가 배수(PER)가 약 27배까지 높아졌다.",
+          "missing": [
+            "29",
+            "27"
+          ]
+        },
+        {
+          "sentence": "반면 매출 증가율은 분기 4~6% 수준이라 성장 속도에 비해 기대가 앞서 있을 수 있다.",
+          "missing": [
+            "4",
+            "6"
+          ]
+        },
+        {
+          "sentence": "10월 26일 건선 임상 2b상에서 ORKA-001이 환자 61%에게 피부 완전 청결 효과를 냈다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "3분기 세전이익이 1억 2천만 달러로 1년 전보다 약 3배(+215.8%) 늘어 시장의 눈길을 끌었다.",
+          "missing": [
+            "1억 2",
+            "3"
+          ]
+        },
+        {
+          "sentence": "매출 증가율은 3월 분기 41%, 6월 분기 50%에 이어 계속 가팔라졌다.",
+          "missing": [
+            "41",
+            "50"
+          ]
+        },
+        {
+          "sentence": "이익 대비 주가 배수가 73배, 순자산 대비 약 20배이고 현재가는 52주 고점(255달러)에 가깝다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "3분기 조정 주당이익이 3.69달러로 증권사 예상(3.31달러)을 넘었다.",
+          "missing": [
+            "3.31"
+          ]
+        },
+        {
+          "sentence": "부진하던 헤이듀드 브랜드가 매출 6.1% 증가로 돌아섰고, 크록스 브랜드 해외 매출은 예상(6.6%)보다 높은 11.8% 늘었다.",
+          "missing": [
+            "6.1"
+          ]
+        },
+        {
+          "sentence": "시가총액이 약 80억 달러라 주주 몫을 키우는 규모가 크다.",
+          "missing": [
+            "80억 달러"
+          ]
+        },
+        {
+          "sentence": "주주들이 5대1 액면분할을 승인했고, 분할 후 주식은 11월 17일 개장부터 거래됩니다.",
+          "missing": [
+            "5",
+            "1"
+          ]
+        },
+        {
+          "sentence": "수수료 기반 주당이익이 0.69달러로 1년 전 0.13달러의 5배 이상이다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "10월 26일 ORKA-001이 2b상 건선 시험에서 피부 완전 청결 61%를 기록했다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "11월 4일 실적 발표 공시(8-K, 항목 2.02)가 올라왔다.",
+          "missing": [
+            "8",
+            "2.02"
+          ]
+        },
+        {
+          "sentence": "10x 지노믹스는 신제품 아테라 출시와 함께 연간 전망을 상향했다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "10x 지노믹스는 3분기 실적 발표에서 아테라 출시와 상향된 전망을 내놨다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "샤크닌자는 Shark로 청소·미용기기를, Ninja로 주방 가전을 파는 회사로, 2분기 순매출이 22.2% 늘었다.",
+          "missing": [
+            "22.2"
+          ]
+        },
+        {
+          "sentence": "최근 4분기 모두 20% 이상 성장.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "최근 4분기 증가율 21.5%→44.1%→48.5%→61%로 가속.",
+          "missing": [
+            "21.5",
+            "44.1",
+            "48.5"
+          ]
+        },
+        {
+          "sentence": "직전 두 분기도 92.8%, 84.7% 증가해 증가율이 이어졌다.",
+          "missing": [
+            "92.8",
+            "84.7"
+          ]
+        },
+        {
+          "sentence": "신규 계약 체결 증가율이 48.6%에서 5.7%로 둔화됐고 장기 잔여계약(RPO)은 전분기보다 줄었다.",
+          "missing": [
+            "48.6",
+            "5.7"
+          ]
+        },
+        {
+          "sentence": "2026-08-13 실적에서 분기 매출·주당이익이 사상 최대였고 다음 분기 가이던스는 102억 5천만 달러였다.",
+          "missing": [
+            "102억 5",
+            "08",
+            "13"
+          ]
+        },
+        {
+          "sentence": "직전 분기 11.4%, 그 앞 분기 -2.1%.",
+          "missing": [
+            "11.4",
+            "2.1"
+          ]
+        },
+        {
+          "sentence": "회사가 250억 달러 규모의 자사주 매입을 승인받았다.",
+          "missing": [
+            "250억 달러"
+          ]
+        },
+        {
+          "sentence": "직전 3개 분기 증가율은 30%, 23.8%, 22.1%였다.",
+          "missing": [
+            "3",
+            "30",
+            "23.8",
+            "22.1"
+          ]
+        },
+        {
+          "sentence": "순이익은 27.5억 달러로 75.5% 증가했다.",
+          "missing": [
+            "27.5억 달러"
+          ]
+        },
+        {
+          "sentence": "최근 분기 영업이익 87.8억 달러, 영업이익률 79.6%로 4분기 전(35.2%)보다 크게 높아졌다.",
+          "missing": [
+            "35.2"
+          ]
+        },
+        {
+          "sentence": "9월 분기 영업이익은 8,984만 달러로 전년 대비 23.7% 감소했고, 6월 분기도 14.3% 감소했다.",
+          "missing": [
+            "14.3"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-10"
   }
 };

@@ -1,0 +1,700 @@
+{
+ "key": "Healthcare|Medical Devices",
+ "sector": "Healthcare",
+ "industry": "Medical Devices",
+ "industryKo": "의료기기",
+ "frank": 5,
+ "frank25dChg": 23,
+ "finalWrs": 0.3255,
+ "count": 22,
+ "winRatePct": 86.4,
+ "members": [
+  {
+   "ticker": "TXG",
+   "rs1": -0.04546635071708782,
+   "rs3": 0.2295206946101669,
+   "rs6": 1.9478913959601876,
+   "rnk1": 84.17,
+   "rnk3": 10.32,
+   "rnk6": 0.23,
+   "ret1d": 9.73,
+   "high52": 63.27,
+   "dollarVolM": 180.2,
+   "marketCap": "7.72B",
+   "name": "10X 지노믹스"
+  },
+  {
+   "ticker": "HAE",
+   "rs1": 0.05785014282437975,
+   "rs3": 0.37164956646950353,
+   "rs6": 1.1088739574977369,
+   "rnk1": 66.41,
+   "rnk3": 1.76,
+   "rnk6": 1.04,
+   "ret1d": -1.43,
+   "high52": 89.55,
+   "dollarVolM": 118.1,
+   "marketCap": "5.46B",
+   "name": "헤모네틱스"
+  },
+  {
+   "ticker": "GKOS",
+   "rs1": 0.5102942657122056,
+   "rs3": 0.36355078212254843,
+   "rs6": 0.7360471033651015,
+   "rnk1": 0.14,
+   "rnk3": 1.94,
+   "rnk6": 2.75,
+   "ret1d": 6.39,
+   "high52": 93.56,
+   "dollarVolM": 203.9,
+   "marketCap": "13.28B",
+   "name": "글라우코스"
+  },
+  {
+   "ticker": "INSP",
+   "rs1": -0.01076181956134227,
+   "rs3": 0.1963974007596784,
+   "rs6": 0.5421217856898852,
+   "rnk1": 79.4,
+   "rnk3": 14.83,
+   "rnk6": 7.08,
+   "ret1d": 0.55,
+   "high52": 43.75,
+   "dollarVolM": 33.6,
+   "marketCap": "1.85B",
+   "name": "인스파이어 메디컬 시스템스"
+  },
+  {
+   "ticker": "UFPT",
+   "rs1": 0.16727711986520316,
+   "rs3": 0.06076436911768785,
+   "rs6": 0.4975225262262596,
+   "rnk1": 37.56,
+   "rnk3": 47.2,
+   "rnk6": 8.7,
+   "ret1d": 5.07,
+   "high52": 93.2,
+   "dollarVolM": 27.2,
+   "marketCap": "2.35B",
+   "name": "UFP 테크놀로지스"
+  },
+  {
+   "ticker": "BIO.B",
+   "rs1": 0.15759629420273297,
+   "rs3": 0.22698808870482196,
+   "rs6": 0.4877931816998095,
+   "rnk1": 40.62,
+   "rnk3": 10.6,
+   "rnk6": 9.24,
+   "ret1d": 2.76,
+   "high52": 100,
+   "dollarVolM": 0.1,
+   "marketCap": "10.21B",
+   "name": "바이오 래드 래브러토리스 B"
+  },
+  {
+   "ticker": "TMDX",
+   "rs1": 0.28921293858733915,
+   "rs3": 0.1285942507486375,
+   "rs6": 0.4478094659732853,
+   "rnk1": 7.44,
+   "rnk3": 28.27,
+   "rnk6": 10.78,
+   "ret1d": 6.29,
+   "high52": 60.12,
+   "dollarVolM": 193.8,
+   "marketCap": "3.06B",
+   "name": "트랜스메딕스 그룹"
+  },
+  {
+   "ticker": "ITGR",
+   "rs1": 0.08970815840408503,
+   "rs3": 0.08015574979094907,
+   "rs6": 0.42892308365629556,
+   "rnk1": 59.11,
+   "rnk3": 42.16,
+   "rnk6": 11.59,
+   "ret1d": 0,
+   "high52": 99.79,
+   "dollarVolM": 90.5,
+   "marketCap": "4.30B",
+   "name": "인티거 홀딩스"
+  },
+  {
+   "ticker": "BIO",
+   "rs1": 0.15494817598136007,
+   "rs3": 0.15973972390218233,
+   "rs6": 0.411182672327104,
+   "rnk1": 41.79,
+   "rnk3": 21.24,
+   "rnk6": 13.66,
+   "ret1d": 1.77,
+   "high52": 98,
+   "dollarVolM": 212.6,
+   "marketCap": "10.26B",
+   "name": "바이오 래드 래브러토리스"
+  },
+  {
+   "ticker": "MDT",
+   "rs1": 0.20752536419899764,
+   "rs3": 0.20523283669021244,
+   "rs6": 0.3602633021771066,
+   "rnk1": 22.23,
+   "rnk3": 13.12,
+   "rnk6": 17.27,
+   "ret1d": 0.97,
+   "high52": 96.79,
+   "dollarVolM": 590.1,
+   "marketCap": "130.22B",
+   "name": "메드트로닉"
+  },
+  {
+   "ticker": "EW",
+   "rs1": 0.3014535747781625,
+   "rs3": 0.21289965340158537,
+   "rs6": 0.3040067351146912,
+   "rnk1": 5.82,
+   "rnk3": 12.13,
+   "rnk6": 21.69,
+   "ret1d": 2.52,
+   "high52": 99.37,
+   "dollarVolM": 699.8,
+   "marketCap": "58.73B",
+   "name": "에드워즈 라이프사이언시스"
+  },
+  {
+   "ticker": "LIVN",
+   "rs1": 0.2879167093901487,
+   "rs3": 0.1961456445360914,
+   "rs6": 0.2995643255885215,
+   "rnk1": 7.89,
+   "rnk3": 15.01,
+   "rnk6": 22.23,
+   "ret1d": 2.91,
+   "high52": 93.19,
+   "dollarVolM": 58.2,
+   "marketCap": "4.96B",
+   "name": "리바노바"
+  },
+  {
+   "ticker": "ZBH",
+   "rs1": 0.26472023672133377,
+   "rs3": 0.14891691839514462,
+   "rs6": 0.2946910843417008,
+   "rnk1": 11.32,
+   "rnk3": 23.76,
+   "rnk6": 22.86,
+   "ret1d": 2.59,
+   "high52": 96.25,
+   "dollarVolM": 272.2,
+   "marketCap": "19.98B",
+   "name": null
+  },
+  {
+   "ticker": "ABT",
+   "rs1": 0.18142004003582307,
+   "rs3": 0.06924075285017746,
+   "rs6": 0.2903320831868993,
+   "rnk1": 32.78,
+   "rnk3": 45.49,
+   "rnk6": 23.22,
+   "ret1d": 0.53,
+   "high52": 85.78,
+   "dollarVolM": 866.2,
+   "marketCap": "190.39B",
+   "name": null
+  },
+  {
+   "ticker": "DXCM",
+   "rs1": 0.032944153694271464,
+   "rs3": -0.02693572171043268,
+   "rs6": 0.24044605355872023,
+   "rnk1": 71.37,
+   "rnk3": 69.57,
+   "rnk6": 28.45,
+   "ret1d": 2.09,
+   "high52": 87.56,
+   "dollarVolM": 332.3,
+   "marketCap": "29.62B",
+   "name": null
+  },
+  {
+   "ticker": "STE",
+   "rs1": 0.2627411939600811,
+   "rs3": 0.17456126562623225,
+   "rs6": 0.2350775985436359,
+   "rnk1": 11.5,
+   "rnk3": 17.63,
+   "rnk6": 29.53,
+   "ret1d": 1.84,
+   "high52": 96.18,
+   "dollarVolM": 290.8,
+   "marketCap": "24.50B",
+   "name": null
+  },
+  {
+   "ticker": "SYK",
+   "rs1": 0.24201055170189123,
+   "rs3": 0.033078936903676276,
+   "rs6": 0.06064798679380591,
+   "rnk1": 15.28,
+   "rnk3": 55.05,
+   "rnk6": 60.64,
+   "ret1d": -0.04,
+   "high52": 84.38,
+   "dollarVolM": 831.1,
+   "marketCap": "124.06B",
+   "name": null
+  },
+  {
+   "ticker": "IRMD",
+   "rs1": 0.061114374679026785,
+   "rs3": 0.06966242815830381,
+   "rs6": 0.027023562029709867,
+   "rnk1": 65.6,
+   "rnk3": 45.22,
+   "rnk6": 66.86,
+   "ret1d": 0.73,
+   "high52": 81.1,
+   "dollarVolM": 8.9,
+   "marketCap": "1.10B",
+   "name": null
+  },
+  {
+   "ticker": "PEN",
+   "rs1": 0.09216497253059491,
+   "rs3": 0.053967994724198005,
+   "rs6": 0.015149503586302206,
+   "rnk1": 58.57,
+   "rnk3": 49.46,
+   "rnk6": 68.76,
+   "ret1d": 0.83,
+   "high52": 88.81,
+   "dollarVolM": 80.9,
+   "marketCap": "12.58B",
+   "name": null
+  },
+  {
+   "ticker": "PODD",
+   "rs1": 0.16091763880257998,
+   "rs3": 0.11491481874930529,
+   "rs6": -0.001503533460832731,
+   "rnk1": 39.36,
+   "rnk3": 31.97,
+   "rnk6": 72.81,
+   "ret1d": 2.25,
+   "high52": 42.21,
+   "dollarVolM": 199.6,
+   "marketCap": "10.16B",
+   "name": null
+  },
+  {
+   "ticker": "GMED",
+   "rs1": 0.09109720136192674,
+   "rs3": -0.04116556713332474,
+   "rs6": -0.014996597412347861,
+   "rnk1": 58.66,
+   "rnk3": 72.36,
+   "rnk6": 74.71,
+   "ret1d": 7.49,
+   "high52": 75.32,
+   "dollarVolM": 279.5,
+   "marketCap": "9.43B",
+   "name": null
+  },
+  {
+   "ticker": "IRTC",
+   "rs1": -0.07886819277388593,
+   "rs3": -0.22846683989919148,
+   "rs6": -0.19103033562632782,
+   "rnk1": 88.05,
+   "rnk3": 92.92,
+   "rnk6": 89.86,
+   "ret1d": -1.65,
+   "high52": 46.1,
+   "dollarVolM": 127.7,
+   "marketCap": "2.99B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "TXG": {
+   "cnbc": [
+    {
+     "title": "We asked analysts what's behind the massive gains in biotech stocks",
+     "url": "https://www.cnbc.com/video/2026/10/24/we-asked-analysts-whats-behind-the-massive-gains-in-biotech-stocks.html",
+     "date": "2026-10-24",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "TXG Q3 Earnings Call Highlights Atera Launch and Raised Outlook",
+     "url": "https://www.nasdaq.com/articles/txg-q3-earnings-call-highlights-atera-launch-and-raised-outlook",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What 10x Genomics (TXG) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-10x-genomics-txg-said-its-q3-earnings-call",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "10x Genomics (TXG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/10x-genomics-txg-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, 10x Genomics (TXG) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-10x-genomics-txg-q3-earnings-look-key-metrics",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "10x Genomics (TXG) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/10x-genomics-txg-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "HAE": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Chipotle, Starbucks, Skydance & more",
+     "url": "https://www.cnbc.com/2026/10/08/stocks-making-the-biggest-moves-midday-cmg-sbux-skyd-mpc.html",
+     "date": "2026-10-08",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "International Markets and Haemonetics (HAE): A Deep Dive for Investors",
+     "url": "https://www.nasdaq.com/articles/international-markets-and-haemonetics-hae-deep-dive-investors",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Haemonetics (HAE) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/haemonetics-hae-q2-2027-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Haemonetics (HAE) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/haemonetics-hae-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "GKOS": {
+   "cnbc": [],
+   "reports": [],
+   "news": []
+  },
+  "INSP": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Inspire (INSP) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/inspire-insp-q3-2026-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Inspire Medical Systems (INSP) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/inspire-medical-systems-insp-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Inspire (INSP) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-inspire-insp-q3-earnings",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "UFPT": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "What UFP Technologies (UFPT) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-ufp-technologies-ufpt-said-its-q3-earnings-call",
+     "date": "2026-11-04",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "UFP Technologies (UFPT) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ufp-technologies-ufpt-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "UFP Technologies (UFPT) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/ufp-technologies-ufpt-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "UFP Technologies (UFPT) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ufp-technologies-ufpt-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "BIO.B": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Citigroup Maintains Bio-Rad Laboratories (BIO.B) Buy Recommendation",
+     "url": "https://www.nasdaq.com/articles/citigroup-maintains-bio-rad-laboratories-biob-buy-recommendation",
+     "date": "2025-10-31",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Wells Fargo Maintains Bio-Rad Laboratories (BIO.B) Equal-Weight Recommendation",
+     "url": "https://www.nasdaq.com/articles/wells-fargo-maintains-bio-rad-laboratories-biob-equal-weight-recommendation",
+     "date": "2025-10-31",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Citigroup Upgrades Bio-Rad Laboratories (BIO.B)",
+     "url": "https://www.nasdaq.com/articles/citigroup-upgrades-bio-rad-laboratories-biob",
+     "date": "2024-10-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Wells Fargo Initiates Coverage of Bio-Rad Laboratories (BIO.B) with Equal-Weight Recommendation",
+     "url": "https://www.nasdaq.com/articles/wells-fargo-initiates-coverage-bio-rad-laboratories-biob-equal-weight-recommendation",
+     "date": "2024-08-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Bio-Rad Laboratories Inc (BIO) (BIO.B) Q2 2020 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-inc-bio-bio.b-q2-2020-earnings-call-transcript-2020-08-01",
+     "date": "2020-08-01",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "TMDX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-flashed-golden-cross-signal-do-you-buy",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TransMedics (TMDX) Recently Broke Out Above the 50-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-recently-broke-out-above-50-day-moving-average",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TransMedics (TMDX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TransMedics (TMDX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ITGR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Integer (ITGR) Q3 Earnings and Revenues Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/integer-itgr-q3-earnings-and-revenues-miss-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "How Could KKR's $5.7 Billion Buyout Reshape ITGR for Shareholders?",
+     "url": "https://www.nasdaq.com/articles/how-could-kkrs-57-billion-buyout-reshape-itgr-shareholders",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "GMED or ITGR: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/gmed-or-itgr-which-better-value-stock-right-now",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "BIO": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Why Bio-Rad (BIO) International Revenue Trends Deserve Your Attention",
+     "url": "https://www.nasdaq.com/articles/why-bio-rad-bio-international-revenue-trends-deserve-your-attention",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bio-Rad (BIO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/bio-rad-bio-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Bio-Rad Laboratories (BIO) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-bio-rad-laboratories-bio-said-its-q3-earnings-call",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Bio-Rad Laboratories (BIO) Q3 Earnings Top Estimates",
+     "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-bio-q3-earnings-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bio-Rad Laboratories Bets on Digital PCR, Margins and Smarter M&A Growth",
+     "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-bets-digital-pcr-margins-and-smarter-ma-growth",
+     "date": "2026-09-26",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "MDT": {
+   "cnbc": [
+    {
+     "title": "Cramer's lightning round: 'I do not like MiniMed'",
+     "url": "https://www.cnbc.com/2026/10/07/cramers-lightning-round-i-do-not-like-minimed.html",
+     "date": "2026-10-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer says investors are too focused on AI stocks. Here’s where he says to look instead",
+     "url": "https://www.cnbc.com/2026/09/08/jim-cramer-investors-focused-ai-stocks.html",
+     "date": "2026-09-08",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+     "url": "https://www.cnbc.com/investingclub/2026/09/02/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+     "date": "2026-09-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "This medical device stock looks like a gift for patient investors",
+     "url": "https://www.cnbc.com/2026/09/01/this-medical-device-stock-looks-like-a-gift-for-patient-investors.html",
+     "date": "2026-09-01",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Palo Alto Networks, Fervo, Apple & more",
+     "url": "https://www.cnbc.com/2026/09/01/stocks-making-the-biggest-moves-midday-panw-frvo-cvx-aapl.html",
+     "date": "2026-09-01",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Tuesday's stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/08/31/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-08-31",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Medtronic (MDT) Ascends While Market Falls: Some Facts to Note",
+     "url": "https://www.nasdaq.com/articles/medtronic-mdt-ascends-while-market-falls-some-facts-note",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "EW": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Edwards Life (EW) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/edwards-life-ew-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "LIVN": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "LivaNova (LIVN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/livanova-livn-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "LivaNova (LIVN) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/livanova-livn-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "LivaNova (LIVN) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/livanova-livn-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "LivaNova (LIVN) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/livanova-livn-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[존슨앤드존슨 (XTR:JNJ)] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-13",
+   "summary": "- 매출 254억 달러, 가이던스 4분기 연속 상향- 조정 EPS 2.59달러, 딜 비용에 7.5% 역성장- MedTech +2.5%로 네 분기 연속 감속",
+   "url": "https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxeeec.pdf",
+   "via": "연합인포맥스",
+   "keyword": "의료기기"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

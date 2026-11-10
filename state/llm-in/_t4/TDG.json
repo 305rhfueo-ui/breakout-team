@@ -1,0 +1,175 @@
+{
+ "ticker": "TDG",
+ "news": [
+  {
+   "title": "TransDigm Group (TDG) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/transdigm-group-tdg-earnings-expected-grow-should-you-buy",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will TransDigm (TDG) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-transdigm-tdg-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Rocket Lab Corporation (RKLB) Reports Q3 Loss, Tops Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-corporation-rklb-reports-223507021.html",
+   "date": "2026-11-09",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Dan Loeb and 2 Other Big Funds Bought TransDigm. Is It a Buy Before Earnings?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dan-loeb-2-other-big-070716272.html",
+   "date": "2026-11-09",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Rocket Lab to Report Q3 Earnings: Should Investors Hold or Fold?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-report-q3-earnings-152100347.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CAE (CAE) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cae-cae-earnings-expected-grow-140003185.html",
+   "date": "2026-11-04",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TransDigm Fourth Quarter Earnings Report and Conference Call Set for Tuesday, November 10, 2026",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/transdigm-fourth-quarter-earnings-report-121500431.html",
+   "date": "2026-11-02",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-29",
+   "reportDate": "2026-09-28",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1260221/000119312526406037/d317756d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-28",
+   "reportDate": "2026-09-28",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000064/tdg-20260928.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-21",
+   "reportDate": "2026-09-21",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000062/tdg-20260921.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-14",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000059/tdg-20260914.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-14",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000057/tdg-20260914.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-14",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000056/tdg-20260914.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 19.25,
+  "saleNy": 11.61,
+  "epsCy": 10.26,
+  "epsNy": 18.21,
+  "cyTrend": -0.03,
+  "nyTrend": 0.59,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    22.53,
+    18.33,
+    13.91
+   ],
+   "ni": [
+    9.55,
+    11.69,
+    -13.06
+   ],
+   "opm": [
+    44.76,
+    46.31,
+    45.6
+   ],
+   "updated": "2026-09-08 10:20:05"
+  }
+ }
+}

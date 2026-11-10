@@ -49,9 +49,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:29:54"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BIO.B",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Bio-Rad는 생명과학 연구용 장비·시약과 임상 진단 제품을 팔아 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "바이오 래드 래브러토리스 B",
@@ -584,9 +604,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:36:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PRAX",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 9일 3분기 실적과 함께 신약 2건의 FDA 심사 일정이 재확인됐다. 릴루트리진은 2026년 12월 27일, 울릭사칼타민은 2027년 1월 29일이 결정 목표일이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Praxis Precision Medicines Provides Corporate Update and Reports Third Quarter 2026 Financial Results",
+                "publisher": "GlobeNewswire (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/healthcare/articles/praxis-precision-medicines-provides-corporate-120000799.html",
+                "date": "2026-11-09",
+                "quote": "The NDA for relutrigine for the treatment of SCN2A and SCN8A DEEs remains under FDA review, with a Prescription Drug User Fee Act (PDUFA) target action date of December 27, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "현금과 투자자산이 약 13억 달러로 2028년까지 버틸 자금이 있어, 승인 전 증자 부담이 작다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Praxis Precision Medicines Provides Corporate Update and Reports Third Quarter 2026 Financial Results",
+                "publisher": "GlobeNewswire (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/healthcare/articles/praxis-precision-medicines-provides-corporate-120000799.html",
+                "date": "2026-11-09",
+                "quote": "Cash and investments of approximately $1.3 billion as of September 30, 2026 maintain runway into 2028.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "올해 4분기에 광범위 뇌전증성 뇌병증 임상(EMERALD) 결과가 예정돼 있고, 11월 12일 투자자의 날이 열린다. 이 일정들이 기대를 키웠다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Praxis Precision Medicines Provides Corporate Update and Reports Third Quarter 2026 Financial Results",
+                "publisher": "GlobeNewswire (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/healthcare/articles/praxis-precision-medicines-provides-corporate-120000799.html",
+                "date": "2026-11-09",
+                "quote": "An Investor Day is scheduled for November 12, 2026, to discuss launch strategies and pipeline progress",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Praxis는 뇌전증·본태성 떨림 등 신경계 질환 신약을 개발하는 바이오 기업으로, 아직 매출이 없다. 신약 2건이 FDA 심사 중이다.",
+        "volumeExplanation": "11월 9일 3분기 실적과 함께 FDA 승인 심사 일정(12월 27일, 1월 29일)과 13억 달러 현금이 재확인되며 거래량이 늘었다. 4분기 임상 결과와 11월 12일 투자자의 날이 앞에 있어 승인 기대가 몰린 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "c1의 울릭사칼타민 1월 29일 심사 일정이 제공된 quote에 없음. c3의 EMERALD 임상 결과가 제공된 quote에 없음."
+        },
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -681,9 +763,73 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:34:26"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FERG",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 9일 Ferguson이 회계 3분기(9월 30일 마감) 실적을 발표했다. 같은 날 SEC에 실적 발표 8-K(항목 2.02)를 제출했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Ferguson (FERG) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/ferguson-ferg-q3-2026-earnings-call-transcript",
+                "date": "2026-11-09",
+                "quote": "Ferguson (FERG) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Ferguson 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/2011641/000201164126000042/ferg-20261109.htm",
+                "date": "2026-11-09",
+                "quote": "8-K 2.02 실적 발표",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적이 예상을 웃돌았고 회사가 매출 성장 전망을 올렸다는 보도가 나왔다. 해당 기사들은 야후 제목 기준이라 본문은 확인하지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Ferguson Enterprises Lifts Sales Growth Outlook Following Third-Quarter Beat",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ferguson-enterprises-lifts-sales-growth-151632604.html",
+                "date": "2026-11-09",
+                "quote": "Ferguson Enterprises Lifts Sales Growth Outlook Following Third-Quarter Beat",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Ferguson Soars 12% on Raised Guidance as Non-Residential Sales Jump 15% Despite “Challenging Residential Market”",
+                "publisher": "TIKR",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ferguson-soars-12-raised-guidance-155723637.html",
+                "date": "2026-11-09",
+                "quote": "Ferguson Soars 12% on Raised Guidance as Non-Residential Sales Jump 15% Despite “Challenging Residential Market”",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Ferguson은 미국 배관·냉난방(HVAC) 자재를 주택·상업 건설 업체에 유통해 돈을 번다.",
+        "volumeExplanation": "11월 9일 3분기 실적이 예상을 넘고 회사가 매출 성장 전망을 올리자 주가가 급등하며 거래량이 평소의 2.65배로 늘었다. 상업용 건물 매출이 크게 늘어난 점이 부각됐다는 보도가 있다(제목 기준).",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1356,9 +1502,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:33:24"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VCTR",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 4일 3분기 실적에서 역대 최대 총판매와 순유입(고객 자금이 들어온 순액)을 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Victory Capital Reports Strong Third Quarter 2026 Results, Highlighted by Record Gross Sales and Net Flows",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/victory-capital-reports-strong-third-213000156.html",
+                "date": "2026-11-04",
+                "quote": "Victory Capital Reports Strong Third Quarter 2026 Results, Highlighted by Record Gross Sales and Net Flows",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "주당순이익과 매출은 증권사 예상치에는 조금 못 미쳤지만, 자금 유입이 이를 상쇄했다는 평가가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Victory Capital Holdings (VCTR) Q3 Earnings and Revenues Lag Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/victory-capital-holdings-vctr-q3-earnings-and-revenues-lag-estimates",
+                "date": "2026-11-04",
+                "quote": "Victory Capital Holdings (VCTR) Q3 Earnings and Revenues Lag Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Victory Capital은 여러 투자 운용사를 인수·통합해 펀드와 ETF 등을 운용하고, 운용자산에 매기는 수수료로 돈을 법니다.",
+        "volumeExplanation": "11월 4일 3분기 실적에서 기록적인 자금 유입이 확인되면서, 예상치를 소폭 밑돈 실적에도 주가가 신고가 부근까지 올랐고 거래량이 늘었다. 다만 실적 발표는 일주일 전이라 오늘 거래량과의 직접 연결은 확정할 수 없다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2031,9 +2223,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:56:20"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NBN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Northeast Bank는 미국 북동부 지역은행으로, 다른 은행에서 사들인 대출 채권과 직접 대출로 이자 수익을 낸다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2505,12 +2717,10 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "MIDD",
         "category": 1,
-        "company": "Middleby는 식당·식품 가공 업체에 쓰는 상업용 주방 장비와 식품 가공 설비를 만들어 파는 회사다.",
-        "volumeExplanation": "11월 5일 3분기 실적이 예상치를 웃돌았고 회사가 올해 가이던스(회사가 내놓은 연간 전망)를 올렸다. 같은 날 CEO 교체도 발표되면서 거래량이 평소의 2배 넘게 늘었다.",
         "claims": [
           {
             "id": "c1",
-            "statement": "3분기 매출이 분기 기준 사상 최대인 6억 5,300만 달러였고, 회사가 올해 가이던스를 올렸다.",
+            "statement": "11월 5일 3분기 실적에서 분기 매출이 6억 5,300만 달러로 역대 최대였고, 회사는 2026년 연간 전망을 올렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2526,7 +2736,7 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "3분기 순이익과 매출이 모두 증권사 예상치를 넘어섰다.",
+            "statement": "주당순이익과 매출 모두 증권사 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2542,7 +2752,7 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c3",
-            "statement": "같은 날 최고상업책임자 Steve Spittle이 Tim FitzGerald의 뒤를 이어 CEO가 된다고 발표했다.",
+            "statement": "같은 날 최고상업책임자 Steve Spittle 이 Tim FitzGerald 의 뒤를 이어 CEO 가 된다고 발표했다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2557,16 +2767,18 @@ window.TEAM4_DATA = {
             ]
           }
         ],
-        "confidence": "high",
+        "company": "Middleby 는 식당·식품 가공업체에 조리 장비(오븐·튀김기 등)를 만들어 파는 산업기계 회사다. 장비 판매와 서비스·부품 매출로 돈을 번다.",
+        "volumeExplanation": "11월 5일 3분기 실적이 예상치를 넘고 연간 전망이 올라간 데다 CEO 교체까지 발표되면서, 이후 거래가 평소의 2.4배로 늘었다. 거래량 급증의 직접 원인은 이 실적·전망 상향 발표로 보인다.",
+        "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": ""
+          "reason": "All three claims are properly sourced with matching numbers and dates. Category 1 is appropriate for earnings announcement with guidance raise and CEO transition."
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-11-07",
-        "carried": true
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2682,9 +2894,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:19:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ALGN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "투명 교정 장치 인비절align을 만드는 치과 교정 전문 의료기기 회사로, 장치와 스캐너 판매로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "No source evidence provided; category 6 is correctly assigned."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3362,9 +3594,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:07:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BIO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Bio-Rad는 생명과학 연구용 장비·시약과 임상 진단 제품을 팔아 돈을 버는 회사입니다. 디지털 PCR(유전자 정밀 검출 기술) 등이 주력입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "No source evidence provided; category 6 is correctly assigned."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3992,9 +4244,44 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:33:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SENEA",
+        "category": 4,
+        "company": "Seneca Foods는 미국 통조림 과일·채소를 만들어 유통업체와 식품 회사에 파는 포장식품 업체입니다.",
+        "volumeExplanation": "11월 4일 5대1 주식분할 승인 소식이 나온 뒤 관심이 몰렸습니다. 분할은 11월 17일부터 거래됩니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "주가 부담이 낮아져 거래가 늘 수 있는 재료입니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Seneca Foods Announces Shareholder Approval of Five-For-One Forward Stock Split",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/seneca-foods-announces-shareholder-approval-212000530.html",
+                "date": "2026-11-04",
+                "quote": "Trading of Seneca's Class A Common Stock and Class B Common Stock is expected to begin on a split-adjusted basis at market open on November 17, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "주주들이 5대1 액면분할을 승인했고, 분할 후 주식은 11월 17일 개장부터 거래됩니다. 주가 부담이 낮아져 거래가 늘 수 있는 재료입니다."
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "Claim c2 contains unsourced numbers: -0.5% EPS change, 1.8% stock price decline, and $100M debt paydown are not in the provided quote. Only the 7.1% sales growth is confirmed. Category 4 (corporate action) remains appropriate for the stock split catalyst (c1).",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 4일 분기 실적 발표와 같은 날 5대1 주식분할 승인 소식이 나온 뒤 관심이 몰렸습니다. 분할은 11월 17일부터 거래되는데, 실적 자체는 매출만 늘고 주당순이익이 줄어 뚜렷한 호재로 보기 어렵습니다.",
+        "categoryName": "기업 턴어라운드",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4597,7 +4884,7 @@ window.TEAM4_DATA = {
         "claims": [
           {
             "id": "c1",
-            "statement": "11월 4일 장 마감 후 3분기 실적을 발표했고 매출과 주당순이익 모두 증권사 예상치를 웃돌았다.",
+            "statement": "11월 4일 3분기 실적을 발표했고, 매출과 주당순이익 모두 증권사 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -4613,7 +4900,7 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "실적 설명회에서 회사 연간 전망치를 올렸고 수주잔고도 늘었다고 밝혔다.",
+            "statement": "회사가 연간 전망(가이던스)을 올렸고 수주잔고도 늘었다고 실적 발표 후 컨퍼런스콜에서 밝혔다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -4629,12 +4916,12 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c3",
-            "statement": "UBS는 실적 직후 목표주가를 105달러에서 107달러로 올리고 매수 의견을 유지했다.",
+            "statement": "실적 발표 뒤 UBS가 목표주가를 105달러에서 107달러로 올리고 매수 의견을 유지했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "UBS Adjusts Price Target on Tutor Perini to $107 From $105, Maintains Buy Rating",
-                "publisher": "MT Newswires (Yahoo)",
+                "publisher": "MT Newswires (Yahoo Finance)",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-tutor-153116064.html",
                 "date": "2026-11-05",
                 "quote": "UBS Adjusts Price Target on Tutor Perini to $107 From $105, Maintains Buy Rating",
@@ -4642,20 +4929,36 @@ window.TEAM4_DATA = {
                 "httpStatus": 200
               }
             ]
+          },
+          {
+            "id": "c4",
+            "statement": "11월 9일에는 애널리스트 목표가가 현재가보다 30.6% 높다는 분석 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Wall Street Analysts Believe Tutor Perini (TPC) Could Rally 30.6%: Here's is How to Trade",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-tutor-perini-tpc-could-rally-306-heres-how-trade",
+                "date": "2026-11-09",
+                "quote": "Wall Street Analysts Believe Tutor Perini (TPC) Could Rally 30.6%: Here's is How to Trade",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "company": "Tutor Perini는 미국 건설 업체로, 빌딩·교통·수자원 등 대형 토목·건축 공사를 수주해 매출을 올린다.",
-        "volumeExplanation": "11월 4일 3분기 실적이 예상치를 넘고 연간 전망치 상향과 수주잔고 증가가 알려지면서 거래량이 늘었다. 다음 날 UBS의 목표주가 상향까지 겹쳐 매수세가 이어진 것으로 보인다.",
+        "company": "Tutor Perini는 미국 건설사로 교량·철도·병원·호텔 같은 대형 건축·토목 공사를 수주해 매출을 올린다.",
+        "volumeExplanation": "11월 4일 3분기 실적이 예상치를 넘고 연간 전망이 올라갔으며 수주잔고도 늘었다. 이후 목표주가 상향과 저평가 분석 기사가 이어지며 관심이 계속된 것으로 보인다. 11월 10일 당일에 새로 나온 소식은 확인되지 않았다.",
         "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "모든 주장이 출처에 의해 입증됨"
+          "reason": "All four claims are properly sourced with matching numbers and dates. Category 1 is appropriate for earnings announcement with subsequent analyst upgrades and price target increases."
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-11-07",
-        "carried": true
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5289,9 +5592,52 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:45:11"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MSGE",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 4일 회계 1분기 실적이 증권사 예상치를 웃돌았고, 직전 분기 적자에서 흑자로 돌아섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Madison Square Garden Entertainment (MSGE) Q1 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/madison-square-garden-entertainment-msge-q1-earnings-and-revenues-surpass-estimates",
+                "date": "2026-11-04",
+                "quote": "Madison Square Garden Entertainment (MSGE) Q1 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Madison Square Garden Entertainment Fiscal Q1 Swings to Profit, Revenue Increases",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/madison-square-garden-entertainment-fiscal-134931515.html",
+                "date": "2026-11-04",
+                "quote": "Madison Square Garden Entertainment Fiscal Q1 Swings to Profit, Revenue Increases",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "MSG Entertainment는 뉴욕 매디슨스퀘어가든과 라스베이거스 스피어 같은 공연장을 운영하며 공연·행사 입장권과 후원 수익으로 돈을 법니다.",
+        "volumeExplanation": "11월 4일 분기 실적이 예상치를 넘고 흑자로 돌아서며 거래량이 평소의 2배 안팎으로 유지됐다. 다만 10일 당일에 새로 나온 소식은 확인되지 않았다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 statement에서 '최근 분기 매출은 1년 전보다 27.37% 늘었다'는 구체적 수치가 quote 제목에 없다.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 4일 분기 실적이 예상치를 넘고 흑자로 돌아서자 투자의견 상향과 저평가 분석 기사가 이어졌고, 그 뒤에도 거래량이 평소의 2배 안팎으로 유지됐다. 다만 10일 당일에 새로 나온 소식은 확인되지 않았다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6020,9 +6366,60 @@ window.TEAM4_DATA = {
         "updated": "2026-09-19 06:30:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FTDR",
+        "category": 1,
+        "company": "Frontdoor는 미국 가정을 대상으로 주택 보증(고장 난 가전·설비 수리비 보장) 서비스를 판매해 돈을 번다. 가입비와 수리 연결 수수료가 매출의 중심이다.",
+        "volumeExplanation": "11월 5일 3분기 실적이 시장 예상을 웃돌고 올해 매출 전망을 올렸다. 실적 발표 다음 날 10억 달러 자사주 매입 승인과 목표주가 상향이 겹치며 거래량이 늘었다.",
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "회사가 올해 매출 전망(가이던스)을 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Frontdoor Q3 Adjusted Earnings, Revenue Rise; 2026 Revenue Outlook Lifted",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/frontdoor-q3-adjusted-earnings-revenue-134209198.html",
+                "date": "2026-11-05",
+                "quote": "Frontdoor Q3 Adjusted Earnings, Revenue Rise; 2026 Revenue Outlook Lifted",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표와 함께 10억 달러 규모 새 자사주 매입 승인을 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Frontdoor, Inc. Reports Third Quarter 2026 Results and Announces New $1 Billion Share Repurchase Authorization",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/frontdoor-inc-reports-third-quarter-2026-results-and-announces-new-1-billion-share",
+                "date": "2026-11-05",
+                "quote": "Frontdoor, Inc. Reports Third Quarter 2026 Results and Announces New $1 Billion Share Repurchase Authorization",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c4"
+          ],
+          "reason": "c1의 '분기 매출은 6.55억 달러로 1년 전보다 6% 늘었다'와 c4의 '4분기 매출 전망도 예상을 소폭 웃돌았다'는 부분이 각각 quote에 없다.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 5일 3분기 실적이 시장 예상을 웃돌고 올해 매출 전망도 올라갔다. 같은 날 10억 달러 자사주 매입 계획과 목표주가 상향이 겹치며 거래량이 늘었다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6131,9 +6528,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:22:39"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GWW",
+        "category": 1,
+        "company": "W.W. Grainger는 기업과 기관에 공구·안전용품·설비 소모품 등 산업용 자재를 유통해 돈을 번다.",
+        "volumeExplanation": "11월 4일 3분기 실적이 시장 예상치를 웃돌았고, 다음 날 증권사 여러 곳이 목표주가를 올렸다. 실적 호조가 재평가로 이어지며 거래가 평소보다 늘어난 것으로 보인다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 4일 발표한 3분기 실적에서 매출과 주당순이익이 모두 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "W.W. Grainger (GWW) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/ww-grainger-gww-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-11-04",
+                "quote": "W.W. Grainger (GWW) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 다음 날 RBC가 목표주가를 1,427달러에서 1,582달러로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "RBC Raises Price Target on W.W. Grainger to $1,582 From $1,427, Keeps Sector Perform Rating",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-w-145539784.html",
+                "date": "2026-11-05",
+                "quote": "RBC Raises Price Target on W.W. Grainger to $1,582 From $1,427, Keeps Sector Perform Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "Jefferies도 목표주가를 1,300달러에서 1,500달러로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Jefferies Adjusts Price Target on W.W. Grainger to $1,500 From $1,300",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-w-131814894.html",
+                "date": "2026-11-05",
+                "quote": "Jefferies Adjusts Price Target on W.W. Grainger to $1,500 From $1,300",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claim이 quote에서 검증됨."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6800,34 +7259,43 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "RHLD",
-        "category": 6,
-        "company": "Resolute Holdings는 CompoSecure·Husky 등 자회사 경영을 맡고 관리 수수료를 받아 돈을 버는 관리 서비스 회사다. 회계상 GPGI Holdings 실적이 합쳐져 매출이 크게 잡힌다.",
-        "volumeExplanation": "11월 5일 3분기 실적을 발표했고, 거래량이 늘었다.",
+        "category": 1,
+        "company": "Resolute Holdings는 CompoSecure·Husky Holdings 같은 회사를 관리해 주고 받는 수수료로 돈을 버는 지주·운용 회사입니다. 관리 대상 회사의 실적이 연결로 잡혀 매출이 크게 보입니다.",
+        "volumeExplanation": "11월 5일 발표한 3분기 실적에서 수수료 기반 이익이 크게 증가했습니다.",
         "claims": [
           {
-            "id": "none",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
+            "id": "c2",
+            "statement": "이 발표에 회사의 향후 전망(가이던스) 수치는 없었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Resolute Holdings Reports Third Quarter 2026 Results",
+                "publisher": "GlobeNewswire (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/resolute-holdings-reports-third-quarter-120000355.html",
+                "date": "2026-11-05",
+                "quote": "Fee-Related Earnings per share of $0.69 compared to $0.13 in the prior year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "수수료 기반 주당이익이 0.69달러로 1년 전 0.13달러의 5배 이상이다. 이 발표에 회사의 향후 전망(가이던스) 수치는 없었다."
           }
         ],
         "confidence": "medium",
         "factcheck": {
-          "verdict": "reject",
+          "verdict": "partial",
           "removed": [
             "c1",
-            "c2"
+            "c3"
           ],
-          "reason": "Specific financial figures (FRE $0.69/$0.13, operating income $118.5M, 321.5% YoY growth) not present in provided quotes; only general mechanisms confirmed",
+          "reason": "c1의 구체적 숫자(5억 960만 달러, 1억 2,090만 달러, 약 4배)와 c3의 모든 구체적 숫자(1억 1,850만 달러, 23.3%, 186%, 580만 달러 적자)가 quote에 없다.",
           "narrativeFixed": true
         },
-        "originalCategory": 1,
-        "corrected": true,
-        "volumeExplanationOriginal": "11월 5일 3분기 실적을 발표했고, 관리 수수료 기반 이익이 1년 전보다 크게 늘었다. 이 실적이 거래량 증가로 이어진 것으로 보인다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-07",
-        "carried": true
+        "volumeExplanationOriginal": "11월 5일 발표한 3분기 실적에서 분기 매출이 5억 960만 달러로 1년 전의 약 4배가 됐고, 수수료 기반 이익도 크게 늘었습니다. 이 실적이 거래량 증가로 이어진 것으로 보이지만 회사의 향후 전망 수치는 발표에 없었습니다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6880,9 +7348,41 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:26:35"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GSAT",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "11월 5일 3분기 실적은 적자였고 매출이 예상에 못 미쳤다. 실적 자체는 거래량 급증의 이유로 보기 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Globalstar (GSAT) Reports Q3 Loss, Lags Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/globalstar-gsat-reports-q3-loss-lags-revenue-estimates",
+                "date": "2026-11-05",
+                "quote": "Globalstar (GSAT) Reports Q3 Loss, Lags Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Globalstar는 저궤도 위성으로 휴대용 위성 통신 서비스를 제공하는 통신 회사다. 위성 음성·데이터 서비스와 장비 판매로 매출을 낸다.",
+        "volumeExplanation": "11월 9일 프랑스가 차세대 위성망 C-3 운용을 승인하면서 해외 사업 확대 기대가 커져 거래량이 평소의 2배 넘게 늘었다. 다만 직전 분기 실적은 적자에 매출 부진이어서 이 승인이 주가를 움직인 직접 원인인지는 확인이 더 필요하다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 '승인 국가는 20개국 이상, 인구 10억 명 이상으로 넓어졌다'는 부분이 quote에 없다."
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -7447,9 +7947,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:26:53"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LAMR",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 5일 3분기 실적에서 주당 FFO(리츠의 영업현금 성격 이익)와 매출이 모두 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Lamar Advertising (LAMR) Beats Q3 FFO and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/lamar-advertising-lamr-beats-q3-ffo-and-revenue-estimates",
+                "date": "2026-11-05",
+                "quote": "Lamar Advertising (LAMR) Beats Q3 FFO and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 같은 날 2026년 AFFO(조정 FFO) 가이던스(회사 전망)를 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Lamar Advertising Q3 AFFO, Revenue Rise; Raises 2026 AFFO Guidance",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/media-advertising/articles/lamar-advertising-q3-affo-revenue-112524123.html",
+                "date": "2026-11-05",
+                "quote": "Lamar Advertising Q3 AFFO, Revenue Rise; Raises 2026 AFFO Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "컨퍼런스콜에서 10월 매출이 사상 최고라는 점도 언급됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Lamar Advertising Co (LAMR) Q3 2026 Earnings Call Highlights: Record October Revenue, Raised ...",
+                "publisher": "GuruFocus.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/lamar-advertising-co-lamr-q3-071016289.html",
+                "date": "2026-11-06",
+                "quote": "Lamar Advertising Co (LAMR) Q3 2026 Earnings Call Highlights: Record October Revenue, Raised ...",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Lamar Advertising은 미국 전역의 옥외광고판(빌보드)과 교통시설 광고를 임대해 광고 수수료로 돈을 버는 리츠다.",
+        "volumeExplanation": "11월 5일 3분기 실적이 예상치를 넘고 올해 AFFO 가이던스가 상향되면서 이후 거래대금이 평소의 2.1배로 늘었다. 10월 매출이 사상 최고라는 언급이 실적 이후 매수세를 받친 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims이 출처로 뒷받침되며, 날짜·숫자 일치. category 1 (어닝) 적절"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8104,12 +8666,46 @@ window.TEAM4_DATA = {
         "claims": [
           {
             "id": "c1",
-            "statement": "11월 5일 장 마감 후 3분기 실적을 발표했고, 매출이 사상 최대인 약 2.03억 달러를 기록했다.",
+            "statement": "11월 5일 3분기 실적이 시장 예상치를 웃돌았다. 8-K 실적 발표 공시가 같은 날 나왔다.",
             "evidence_level": "sourced",
             "sources": [
               {
+                "title": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-11-05",
+                "quote": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "TransMedics 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-20261105.htm",
+                "date": "2026-11-05",
+                "quote": "8-K, items 2.02, 9.01 (실적 발표, 재무제표·첨부)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적과 함께 매출 전망(가이던스)을 올렸다는 보도가 나왔고, 분기 매출은 사상 최대인 2.03억 달러였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TransMedics Stock Gains Attention After Revenue Guidance Raise",
+                "publisher": "Simply Wall St. (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-stock-gains-attention-revenue-151842482.html",
+                "date": "2026-11-06",
+                "quote": "TransMedics Stock Gains Attention After Revenue Guidance Raise",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
                 "title": "TransMedics Group Inc (TMDX) (Q3 2026) Earnings Call Highlights: Record $203 Million Revenue ...",
-                "publisher": "GuruFocus.com (via Yahoo)",
+                "publisher": "GuruFocus.com (Yahoo)",
                 "url": "https://finance.yahoo.com/healthcare/articles/transmedics-group-inc-tmdx-q3-091755833.html",
                 "date": "2026-11-06",
                 "quote": "TransMedics Group Inc (TMDX) (Q3 2026) Earnings Call Highlights: Record $203 Million Revenue ...",
@@ -8119,50 +8715,43 @@ window.TEAM4_DATA = {
             ]
           },
           {
-            "id": "c2",
-            "statement": "실적이 증권사 예상치를 웃돌았다.",
+            "id": "c3",
+            "statement": "11월 9일 UBS가 목표주가를 77달러에서 88달러로 올렸고, 주가가 50일선을 넘고 골든크로스(50일선이 200일선 위로 올라감) 기사가 나와 후속 관심이 이어졌다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-and-revenues-surpass-estimates",
-                "date": "2026-11-05",
-                "quote": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
+                "title": "UBS Adjusts TransMedics Group Price Target to $88 From $77, Maintains Neutral Rating",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-transmedics-group-price-134204651.html",
+                "date": "2026-11-09",
+                "quote": "UBS Adjusts TransMedics Group Price Target to $88 From $77, Maintains Neutral Rating",
                 "verified": "ok",
                 "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "회사가 연간 매출 전망을 올렸고, 주가가 크게 올랐다.",
-            "evidence_level": "sourced",
-            "sources": [
+              },
               {
-                "title": "TransMedics Stock Gains Attention After Revenue Guidance Raise",
-                "publisher": "Simply Wall St. (via Yahoo)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/transmedics-stock-gains-attention-revenue-151842482.html",
-                "date": "2026-11-06",
-                "quote": "The company raised full year revenue guidance, citing record case volumes and broader use of its organ care and logistics platform.",
+                "title": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-flashed-golden-cross-signal-do-you-buy",
+                "date": "2026-11-09",
+                "quote": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "company": "TransMedics는 장기이식용 장기를 살아 있는 상태로 보존·운송하는 장비(OCS)와 항공 물류 서비스를 병원에 제공해 돈을 번다. 이식 건수가 늘수록 매출이 늘어나는 구조다.",
-        "volumeExplanation": "11월 5일 장 마감 후 3분기 실적이 예상치를 넘고 연간 매출 전망이 올라가자, 6일 거래량이 평소의 4배 넘게 터졌다. 매출 기록 경신과 전망 상향이 매수세를 불렀다.",
+        "company": "장기 이식용 장기를 몸 밖에서 살아 있게 보존·운송하는 장비와 항공 운송 서비스를 팔아 돈을 번다. 미국 심장·폐·간 이식 시장에서 거의 독점적 위치다.",
+        "volumeExplanation": "11월 5일 발표한 3분기 실적이 예상을 웃돌고 매출 전망도 올라가 매수세가 붙었다. 11월 9일 UBS 목표주가 상향과 50일선 돌파 기사가 이어지며 거래량이 평소의 2배 수준으로 유지됐다.",
         "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": ""
+          "reason": "모든 claims이 출처로 뒷받침되며, $203M=2.03억 달러, 목표주가 77→88, 골든크로스 기사 확인. category 1 적절"
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-11-07",
-        "carried": true
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8870,9 +9459,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:20:04"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "UI",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 6일 발표한 2027 회계연도 1분기 실적이 시장 예상을 웃돌았다. 매출과 주당순이익 모두 예상치를 넘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Ubiquiti Inc. (UI) Q1 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/ubiquiti-inc-ui-q1-earnings-and-revenues-beat-estimates",
+                "date": "2026-11-06",
+                "quote": "Ubiquiti Inc. (UI) Q1 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "분기 매출이 처음 10억 달러를 넘어 전년 대비 40% 늘었고, 실적 발표일 주가는 15% 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Ubiquiti Soars 15% on Record $1 Billion Quarter as Revenue Jumps 40%",
+                "publisher": "TIKR (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ubiquiti-soars-15-record-1-151056309.html",
+                "date": "2026-11-06",
+                "quote": "Ubiquiti Soars 15% on Record $1 Billion Quarter as Revenue Jumps 40%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "11월 10일에도 실적 호조와 배당 발표를 다룬 기사가 나와 관심이 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Ubiquiti Stock In Focus After Earnings Beat And Dividend",
+                "publisher": "Simply Wall St. (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ubiquiti-stock-focus-earnings-beat-031038512.html",
+                "date": "2026-11-10",
+                "quote": "Ubiquiti Stock In Focus After Earnings Beat And Dividend",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Ubiquiti는 기업·가정용 네트워크 장비(와이파이 기기, 스위치, 보안 카메라)를 팔아 돈을 번다. 영업이익률이 36% 안팎으로 높은 편이다.",
+        "volumeExplanation": "11월 6일 분기 매출이 처음 10억 달러를 넘고 예상을 웃돌아 주가가 15% 뛰었다. 10일에도 실적과 배당 기사가 이어지며 거래량이 평소의 2배 수준을 유지했다. 실적이 계속 예상 이상으로 나오는지가 이 이야기가 맞는지 가르는 기준이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims이 출처로 뒷받침되며, $1B=10억 달러, 40% 성장, 15% 상승, 배당 기사 확인. category 1 적절"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9533,9 +10184,65 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:13:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ORKA",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3상 진행 계획도 함께 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+                "publisher": "MarketBeat (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study",
+                "date": "2026-10-27",
+                "quote": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data",
+                "date": "2026-10-26",
+                "quote": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "10월 26일 ORKA-001이 2b상 건선 시험에서 피부 완전 청결 61%를 기록했다. 3상 진행 계획도 함께 나왔다."
+          },
+          {
+            "id": "c2",
+            "statement": "11월 9일 장 마감 뒤 2026년 3분기 실적과 회사 현황이 발표됐다. 다음 거래일인 10일에 거래량이 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oruka Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
+                "publisher": "GlobeNewswire (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/healthcare/articles/oruka-therapeutics-reports-third-quarter-210400987.html",
+                "date": "2026-11-09",
+                "quote": "Oruka Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Oruka Therapeutics는 건선 등 염증성 피부질환 치료제를 개발하는 임상 단계 바이오 기업이다. 매출은 없고 신약 임상 결과가 주가를 좌우한다.",
+        "volumeExplanation": "10월 26일 건선 2b상 결과로 3상 진출 기대가 생겼고, 11월 9일 3분기 실적 발표가 이어지며 10일 거래량이 평소의 약 2배로 늘었다. 다만 10일 당일의 개별 재료는 확인되지 않아 임상 후속 관심과 실적 발표의 영향으로 본다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "임상 데이터(61% skin clearance, phase 2b→3 진행) 및 실적 발표 기사 모두 지원됨. category 2 적절"
+        },
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9602,9 +10309,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:51:41"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DDS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Dillard's는 미국 중남부 중심의 백화점 체인으로, 매장 상품 판매로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 분류되었고, volumeExplanation도 일치. category 6 적절"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -10151,9 +10878,72 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:01:28"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RGLD",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 4일 3분기 실적을 발표했고, 매출은 사상 최대, 재무는 무차입 상태로 전해졌다. 실적 발표 직후 투자자 관심이 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Royal Gold Inc (RGLD) (Q3 2026) Earnings Call Highlights: Record Revenue, Debt-Free Balance ...",
+                "publisher": "GuruFocus.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/royal-gold-inc-rgld-q3-012047365.html",
+                "date": "2026-11-06",
+                "quote": "Royal Gold Inc (RGLD) (Q3 2026) Earnings Call Highlights: Record Revenue, Debt-Free Balance ...",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "UBS가 11월 6일 목표주가를 285달러에서 300달러로 올리고 매수 의견을 유지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UBS Adjusts Royal Gold Price Target to $300 From $285, Maintains Buy Rating",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-royal-gold-price-153558939.html",
+                "date": "2026-11-06",
+                "quote": "UBS Adjusts Royal Gold Price Target to $300 From $285, Maintains Buy Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "11월 9일에는 투자한 Solaris가 로열골드 자금 지원 패키지의 마지막 5천만 달러를 받았다는 발표가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Solaris Receives Final US$50 Million Tranche Under Royal Gold Funding Package",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/solaris-receives-final-us-50-120000795.html",
+                "date": "2026-11-09",
+                "quote": "Solaris Receives Final US$50 Million Tranche Under Royal Gold Funding Package",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 4일 실적 발표 공시(8-K, 항목 2.02)가 올라왔다. 11월 9일에는 투자한 Solaris가 로열골드 자금 지원 패키지의 마지막 5천만 달러를 받았다는 발표가 나왔다."
+          }
+        ],
+        "company": "로열골드는 금·은 등 광산의 생산량 일부를 미리 사들이거나 로열티를 받아 수익을 내는 귀금속 로열티 회사다. 광산을 직접 운영하지 않아 비용 부담이 작고 마진이 높다.",
+        "volumeExplanation": "11월 4일 발표한 3분기 실적이 사상 최대 매출로 전해지고 UBS가 목표가를 300달러로 올리면서 매수세가 며칠째 이어진 것으로 보인다. 다만 10일 당일의 직접적인 새 소식은 확인되지 않았고, 11월 9일 Solaris 자금 집행 발표가 있었다. 실적 발표 이후 후속 기사와 증권사 의견이 거래량을 키웠다는 해석이며 당일 촉매는 단정하기 어렵다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims이 출처에 의해 뒷받침됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -10785,9 +11575,41 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:20:05"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TDG",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "TransDigm은 2026년 11월 10일 장 시작 전에 회계 4분기 실적을 발표하고 컨퍼런스콜을 열도록 예정돼 있었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TransDigm Fourth Quarter Earnings Report and Conference Call Set for Tuesday, November 10, 2026",
+                "publisher": "PR Newswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/transdigm-fourth-quarter-earnings-report-121500431.html",
+                "date": "2026-11-02",
+                "quote": "TransDigm Fourth Quarter Earnings Report and Conference Call Set for Tuesday, November 10, 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "TransDigm은 항공기 부품(고유 설계 제품)을 만들어 항공사·제조사에 공급하고 교체 부품 판매로 높은 이익률을 내는 회사다.",
+        "volumeExplanation": "오늘(11월 10일) 장 시작 전에 회계 4분기 실적 발표가 예정돼 있어, 실적을 확인하려는 거래로 거래량이 늘었을 가능성이 크다. 다만 실제 실적과 향후 전망치(가이던스) 내용은 확인하지 못했으며, 예상보다 좋은 수치와 상향 전망이 나왔는지 확인되면 이 설명이 맞는지 가려진다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 '대형 펀드 매수' 주장에 대한 출처 미검증"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -11450,9 +12272,35 @@ window.TEAM4_DATA = {
         "updated": "2026-06-11 08:15:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WIX",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Wix는 웹사이트 제작·호스팅 구독과 결제·비즈니스 솔루션으로 돈을 버는 이스라엘 소프트웨어 기업이다. 최근 AI 기반 제작 도구(Studio Two 등)를 내놓고 있다.",
+        "volumeExplanation": "거래량이 평소보다 늘어난 것으로 보인다. 다만 실제 실적 발표 일정과 결과는 확인하지 못했다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 '11월 10일' 발표 날짜가 출처 제목에 명시되지 않음",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "3분기 실적 발표일(11월 10일) 전후라 거래량이 평소보다 늘어난 것으로 보인다. 다만 실제 실적 결과와 주가 반응은 확인하지 못했다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -11956,9 +12804,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:03:55"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BNS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "캐나다 3위권 대형 은행 스코샤뱅크로, 예금·대출과 자산운용, 국제 은행 사업으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -12418,9 +13286,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:48:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FORTY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Formula Systems는 이스라엘 IT 서비스·소프트웨어 지주회사로, 자회사들의 컨설팅과 소프트웨어 사업에서 매출을 얻는다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-10",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "포뮬러 시스템스 1985(ADR)",
@@ -12811,13 +13699,93 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 4,
+    "done": 25,
     "total": 25,
-    "cap": null,
-    "pending": 21,
+    "cap": 25,
+    "pending": 0,
     "failed": 0,
-    "carried": 4,
+    "carried": 0,
     "ineligible": 0,
-    "note": "25종목 중 4종목을 조사했습니다. 그중 4종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 21종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "FERG",
+        "category": 1,
+        "oneLine": "회계 3분기 실적이 예상을 웃돌고 매출 성장 전망도 올렸다(야후 제목 기준, 본문 미확인)."
+      },
+      {
+        "ticker": "VCTR",
+        "category": 1,
+        "oneLine": "3분기 역대 최대 판매·순유입(고객 자금 순증)을 냈으나 이익·매출은 예상치에 소폭 못 미쳤다."
+      },
+      {
+        "ticker": "MIDD",
+        "category": 1,
+        "oneLine": "3분기 매출 6.53억 달러로 역대 최대, 예상치 상회에 연간 전망도 올렸다."
+      },
+      {
+        "ticker": "TPC",
+        "category": 1,
+        "oneLine": "3분기 매출·주당순이익이 예상을 넘었고 연간 전망과 수주잔고가 늘었다. UBS 목표가 107달러."
+      },
+      {
+        "ticker": "MSGE",
+        "category": 1,
+        "oneLine": "회계 1분기 실적이 예상을 웃돌았고 직전 분기 적자에서 흑자로 돌아섰다."
+      },
+      {
+        "ticker": "FTDR",
+        "category": 1,
+        "oneLine": "올해 매출 전망을 올리고 10억 달러 규모 자사주 매입을 새로 승인했다."
+      },
+      {
+        "ticker": "GWW",
+        "category": 1,
+        "oneLine": "3분기 매출·주당순이익이 모두 예상을 넘었고 RBC·Jefferies가 목표가를 올렸다."
+      },
+      {
+        "ticker": "RHLD",
+        "category": 1,
+        "oneLine": "수수료 기반 주당이익이 0.69달러로 1년 전 0.13달러의 5배 이상. 회사 전망 수치는 없었다."
+      },
+      {
+        "ticker": "LAMR",
+        "category": 1,
+        "oneLine": "3분기 FFO(리츠 영업현금 성격 이익)·매출이 예상을 넘었고 연간 AFFO 전망을 올렸다."
+      },
+      {
+        "ticker": "TMDX",
+        "category": 1,
+        "oneLine": "3분기 매출 2.03억 달러로 사상 최대, 예상 상회에 매출 전망 상향 보도. UBS 목표가 88달러."
+      },
+      {
+        "ticker": "UI",
+        "category": 1,
+        "oneLine": "분기 매출 첫 10억 달러 돌파(전년 대비 40% 증가), 예상 상회에 발표일 주가 15% 상승."
+      },
+      {
+        "ticker": "RGLD",
+        "category": 1,
+        "oneLine": "3분기 매출 사상 최대·무차입 상태이고 UBS가 목표가를 300달러로 올렸다."
+      },
+      {
+        "ticker": "TDG",
+        "category": 1,
+        "oneLine": "11월 10일 장 시작 전 회계 4분기 실적 발표 예정이었으나, 입력에 결과 내용은 없다."
+      }
+    ],
+    "sectorSignal": "호재가 특정 업종에 뚜렷하게 몰리지는 않았고, 실적 호재 13건이 산업재·의료기기·금융·리츠·귀금속 로열티 등에 흩어져 있다. 산업 기술 돌파로 분류된 종목은 없다.",
+    "caution": "대부분 이미 발표된 실적 뒤의 반응이라 이미 가격에 반영됐을 수 있다. VCTR은 예상치 미달, TDG는 결과 없이 예정 사실만 있고, FERG·TMDX의 전망 상향은 보도 제목 기준이라 원문 확인이 필요하다.",
+    "researchedOn": "2026-11-10"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 13,
+    "2": 2,
+    "3": 1,
+    "4": 1,
+    "6": 8
   }
 };

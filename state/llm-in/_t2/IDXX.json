@@ -1,0 +1,256 @@
+{
+ "ticker": "IDXX",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "아이덱스 래버러토리스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.43,
+  "saleNy": 8.87,
+  "epsCy": 14.67,
+  "epsNy": 12.56,
+  "est": {
+   "cyCur": 14.99872,
+   "cy30": 14.82696,
+   "nyCur": 16.88303,
+   "ny30": 16.73722
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.66,
+    14.26,
+    14.28
+   ],
+   "ni": [
+    15.11,
+    14.74,
+    14.82
+   ],
+   "opm": [
+    34.98,
+    31.78,
+    28.94
+   ],
+   "updated": "2026-09-20 06:43:27"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-02",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 6,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-10",
+  "nameKo": "아이덱스 래버러토리스",
+  "nameEn": "IDEXX LABORATORIES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874716&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1214237000,
+     "profit": 402348000,
+     "netIncome": 317145000,
+     "margin": 33.1,
+     "yoy": {
+      "revenue": 9.9,
+      "profit": 13.4,
+      "netIncome": 15.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1216585000,
+     "profit": 425566000,
+     "netIncome": 338412000,
+     "margin": 35,
+     "yoy": {
+      "revenue": 9.7,
+      "profit": 14.1,
+      "netIncome": 15.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1140820000,
+     "profit": 362586000,
+     "netIncome": 278446000,
+     "margin": 31.8,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 14.5,
+      "netIncome": 14.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1090579000,
+     "profit": 315605000,
+     "netIncome": 248188000,
+     "margin": 28.9,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 20.6,
+      "netIncome": 14.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "3 Reasons Growth Investors Will Love Idexx (IDXX)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-idexx-idxx",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Idexx Laboratories (IDXX) Crossed Above the 200-Day Moving Average: What That Means for Investors",
+     "url": "https://www.nasdaq.com/articles/idexx-laboratories-idxx-crossed-above-200-day-moving-average-what-means-investors",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "IDEXX Sales Rise 10% as Margin Outlook Slips: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/idexx-sales-rise-10-margin-outlook-slips-rapid-earnings-reaction",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "IDEXX (IDXX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/idexx-idxx-q3-2026-earnings-call-transcript",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "IDEXX Laboratories Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/idexx-laboratories-q3-earnings-call-highlights",
+     "date": "2026-11-02",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Idexx (IDXX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/idexx-idxx-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926120892/tm2628647d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926090033/tm2622041d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000110/idxx-20260512.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926055203/tm2613510d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-26",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000110465926034906/tm269826d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-13",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000007/idxx-20260213.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Fat cat? Weight-loss drugs may be coming for your overweight pet",
+   "url": "https://www.cnbc.com/2026/07/18/cats-glp-1-ozempic-pets-weight-loss.html",
+   "date": "2026-07-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "IDXX",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 49.67,
+  "pbr": 34.56,
+  "eps": 14.23,
+  "bps": 20.45,
+  "shares": 78786300,
+  "marketCapM": 55674,
+  "high52": 769.98,
+  "high52Date": "2025-11-26",
+  "low52": 500.61,
+  "low52Date": "2026-09-11",
+  "last": 706.65,
+  "prevClose": 676.04,
+  "nameKo": "아이덱스 래버러토리스",
+  "nameEn": "IDEXX LABORATORIES INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 78786300
+ }
+}

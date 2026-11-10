@@ -1,0 +1,259 @@
+{
+ "ticker": "FTDR",
+ "sector": "Consumer Cyclical",
+ "industry": "Personal Services",
+ "nameKo": "프론트도어",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.07,
+  "saleNy": 5.7,
+  "epsCy": 14.51,
+  "epsNy": 9.44,
+  "est": {
+   "cyCur": 4.68361,
+   "cy30": 4.71161,
+   "nyCur": 5.12597,
+   "ny30": 5.19397
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.54,
+    5.87,
+    12.79
+   ],
+   "ni": [
+    12.61,
+    10.81,
+    -88.89
+   ],
+   "opm": [
+    25.74,
+    11.31,
+    0.23
+   ],
+   "updated": "2026-09-19 06:30:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-09",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-10",
+  "nameKo": "프론트도어",
+  "nameEn": "FRONTDOOR INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001727263&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 655000000,
+     "profit": 154000000,
+     "netIncome": 116000000,
+     "margin": 23.5,
+     "yoy": {
+      "revenue": 6,
+      "profit": 8.5,
+      "netIncome": 9.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 645000000,
+     "profit": 167000000,
+     "netIncome": 125000000,
+     "margin": 25.9,
+     "yoy": {
+      "revenue": 4.5,
+      "profit": 14.4,
+      "netIncome": 12.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 451000000,
+     "profit": 51000000,
+     "netIncome": 41000000,
+     "margin": 11.3,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 6.3,
+      "netIncome": 10.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 433000000,
+     "profit": 2000000,
+     "netIncome": 2000000,
+     "margin": 0.5,
+     "yoy": {
+      "revenue": 13.4,
+      "profit": -66.7,
+      "netIncome": -77.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Frontdoor Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/frontdoor-reaches-analyst-target-price",
+     "date": "2026-11-06",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Frontdoor (FTDR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/frontdoor-ftdr-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Frontdoor (FTDR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-frontdoor-ftdr-said-its-q3-earnings-call",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Frontdoor, Inc. Reports Third Quarter 2026 Results and Announces New $1 Billion Share Repurchase Authorization",
+     "url": "https://www.nasdaq.com/articles/frontdoor-inc-reports-third-quarter-2026-results-and-announces-new-1-billion-share",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Frontdoor, Inc. Bottom Line Advances In Q3",
+     "url": "https://www.nasdaq.com/articles/frontdoor-inc-bottom-line-advances-q3",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Frontdoor (FTDR) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/frontdoor-ftdr-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Frontdoor (FTDR) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/frontdoor-ftdr-solid-growth-stock-3-reasons-think-yes",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Frontdoor (FTDR) is an Incredible Growth Stock: 3 Reasons Why",
+     "url": "https://www.nasdaq.com/articles/frontdoor-ftdr-incredible-growth-stock-3-reasons-why",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1727263/000172726326000020/ftdr-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1727263/000172726326000016/ftdr-20260831.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1727263/000172726326000011/ftdr-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-29",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1727263/000119312526288411/ftdr-20260629.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1727263/000172726326000008/ftdr-20260513.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1727263/000172726326000006/ftdr-20260430.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "FTDR",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 26.66,
+  "pbr": 24.57,
+  "eps": 3.78,
+  "bps": 4.1,
+  "shares": 67588500,
+  "marketCapM": 6808,
+  "high52": 103.07,
+  "high52Date": "2026-11-05",
+  "low52": 48.47,
+  "low52Date": "2025-11-10",
+  "last": 100.73,
+  "prevClose": 97.09,
+  "nameKo": "프론트도어",
+  "nameEn": "FRONTDOOR INC",
+  "listedOn": "2018-10-01",
+  "exchange": "나스닥",
+  "listedShares": 67588500
+ }
+}

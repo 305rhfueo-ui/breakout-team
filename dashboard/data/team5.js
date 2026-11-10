@@ -1361,19 +1361,35 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-04",
-        "carried": true,
-        "headline": "헬스케어 정보서비스는 힌지 헬스·템퍼스 AI·GE 헬스케어가 3분기 실적을 예상보다 좋게 내놓으며 상위권에 올랐다.",
-        "summary": "업종 순위 5위로, 25거래일 전보다 2계단 올랐다. 힌지 헬스, 템퍼스 AI, GE 헬스케어가 3분기 실적과 매출에서 시장 예상치를 웃돌았다. 템퍼스 AI는 종양 진단기기가 실적 개선을 이끌고 항암 백신 기대감까지 더해졌다고 신한투자증권이 전했다. 이 실적 흐름이 이어지는지가 강세 지속의 관건이다.",
+        "researchedOn": "2026-11-10",
+        "carried": false,
+        "headline": "헬스케어 정보서비스는 템퍼스 AI의 매출·데이터 수주 성장과 힌지 헬스·GE 헬스케어의 실적 호조로 업종 순위 3위에 올랐다.",
+        "summary": "헬스케어 정보서비스 업종은 순위 3위로, 한 달 새 5계단 올랐다. 템퍼스 AI가 3분기 매출 증가와 데이터 수주 확대를 보였고 힌지 헬스는 예상을 웃도는 실적을 냈다. GE 헬스케어는 이번 실적에서 전망을 올렸다. 다만 GE 헬스케어는 마진 부담이 함께 거론돼, 실적 성장이 이어지는지가 관건이다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "힌지 헬스가 3분기 실적과 매출에서 시장 예상치를 웃돌았다.",
+            "statement": "템퍼스 AI는 3분기 매출이 전년 대비 23.1% 늘었고, 데이터 사업이 32.9% 늘어 성장을 이끌었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[템퍼스 AI (NAS:TEM)] AI 헬스케어의 특이점이 온다",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkeleeqzgexqegcgxeeec.pdf",
+                "date": "2026-11-09",
+                "quote": "- 3Q26 매출액 $412M(YoY +23.1%), 진단 $304M(+20.0%)·데이터 $108M(+32.9%)- 데이터 수주 YTD $550M+: BMS·Pathos $192.5M 제휴로 비종양 첫 대형 진출- FY26 가이던스 하단 상향 $1.60~1.605B, 조정 EBITDA 약 $65M 유지",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "힌지 헬스는 3분기 실적과 매출이 시장 예상을 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates",
-                "publisher": "Zacks",
+                "publisher": "Zacks(나스닥)",
                 "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-beats-q3-earnings-and-revenue-estimates",
                 "date": "2026-11-02",
                 "quote": "Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates",
@@ -1383,32 +1399,16 @@ window.TEAM5_DATA = {
             ]
           },
           {
-            "id": "w2",
-            "statement": "템퍼스 AI도 3분기 실적과 매출이 예상치를 넘어섰다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Tempus AI (TEM) Beats Q3 Earnings and Revenue Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/tempus-ai-tem-beats-q3-earnings-and-revenue-estimates",
-                "date": "2026-11-02",
-                "quote": "Tempus AI (TEM) Beats Q3 Earnings and Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
             "id": "w3",
-            "statement": "GE 헬스케어 테크놀로지스 역시 3분기 실적과 매출이 예상치를 웃돌았다.",
+            "statement": "GE 헬스케어는 3분기 실적 발표에서 연간 전망을 상향했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/ge-healthcare-technologies-gehc-q3-earnings-and-revenues-beat-estimates",
-                "date": "2026-10-28",
-                "quote": "GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates",
+                "title": "GEHC Q3 Earnings Call Highlights Raised Outlook and Margin Risks",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/gehc-q3-earnings-call-highlights-raised-outlook-and-margin-risks",
+                "date": "2026-11-04",
+                "quote": "GEHC Q3 Earnings Call Highlights Raised Outlook and Margin Risks",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1418,17 +1418,33 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "TEM",
-            "role": "업종 안에서 증권사 리포트가 실적 개선과 신규 모멘텀을 직접 다룬 종목",
+            "role": "AI 기반 진단·데이터 사업으로 업종 성장 근거가 가장 뚜렷한 종목",
             "why": [
               {
                 "id": "l1a",
-                "statement": "신한투자증권은 종양 진단기기가 실적 개선을 이끌고, 항암 백신이 의료 AI를 넘어서는 새 성장 이야기가 됐다고 전했다.",
+                "statement": "템퍼스 AI는 3분기 매출이 23.1% 늘었고 데이터 수주가 누적 550M달러를 넘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[템퍼스 AI (NAS:TEM)] AI 헬스케어의 특이점이 온다",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmkeleeqzgexqegcgxeeec.pdf",
+                    "date": "2026-11-09",
+                    "quote": "- 3Q26 매출액 $412M(YoY +23.1%), 진단 $304M(+20.0%)·데이터 $108M(+32.9%)- 데이터 수주 YTD $550M+: BMS·Pathos $192.5M 제휴로 비종양 첫 대형 진출- FY26 가이던스 하단 상향 $1.60~1.605B, 조정 EBITDA 약 $65M 유지",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l1b",
+                "statement": "신한투자증권은 종양 진단기기가 실적 개선을 이끌고 항암 백신이 새 모멘텀이라고 봤다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[템퍼스 AI (NAS:TEM)] 실적 개선 & 항암 백신 기대감",
                     "publisher": "신한투자증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmixmceizcceqqgcgxeeck.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmixmceizcceqqgcgxeeec.pdf",
                     "date": "2026-11-03",
                     "quote": "- 견조한 실적 확인. 항암 백신, 의료 AI 뛰어넘는 내러티브- 종양 진단기기, 실적 개선 견인. 항암 백신 관련 코멘트로 기대감 확대- 실적 성장세 회복&항암 백신으로 신규 모멘텀 확보",
                     "verified": "ok",
@@ -1437,22 +1453,22 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 4.01,
-            "rnk1": 30.34,
+            "rnk6": 1.67,
+            "rnk1": 3.65,
             "name": "템퍼스 AI"
           },
           {
             "ticker": "HNGE",
-            "role": "3분기 실적 호조를 낸 디지털 건강 서비스 업체",
+            "role": "디지털 건강관리 업체로 3분기 실적이 예상을 웃돈 종목",
             "why": [
               {
-                "id": "l1b",
-                "statement": "힌지 헬스는 3분기 실적과 매출이 시장 예상치를 웃돌았다.",
+                "id": "l2a",
+                "statement": "힌지 헬스는 3분기 실적과 매출이 시장 예상을 넘었다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates",
-                    "publisher": "Zacks",
+                    "publisher": "Zacks(나스닥)",
                     "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-beats-q3-earnings-and-revenue-estimates",
                     "date": "2026-11-02",
                     "quote": "Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates",
@@ -1462,69 +1478,61 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 0.95,
-            "rnk1": 5.28,
+            "rnk6": 0.77,
+            "rnk1": 12.76,
             "name": "힌지 헬스"
           },
           {
             "ticker": "GEHC",
-            "role": "의료 영상 장비 대형사로 3분기 실적이 예상을 웃돔",
+            "role": "의료기기 대형주로 3분기에 연간 전망을 올린 종목",
             "why": [
               {
-                "id": "l1c",
-                "statement": "GE 헬스케어는 3분기 실적과 매출이 예상치를 넘어섰다.",
+                "id": "l3a",
+                "statement": "GE 헬스케어는 3분기 실적 발표에서 전망을 상향했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates",
-                    "publisher": "Zacks",
-                    "url": "https://www.nasdaq.com/articles/ge-healthcare-technologies-gehc-q3-earnings-and-revenues-beat-estimates",
-                    "date": "2026-10-28",
-                    "quote": "GE HealthCare Technologies (GEHC) Q3 Earnings and Revenues Beat Estimates",
+                    "title": "GEHC Q3 Earnings Call Highlights Raised Outlook and Margin Risks",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/gehc-q3-earnings-call-highlights-raised-outlook-and-margin-risks",
+                    "date": "2026-11-04",
+                    "quote": "GEHC Q3 Earnings Call Highlights Raised Outlook and Margin Risks",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 17.36,
-            "rnk1": 2.03,
+            "rnk6": 15.19,
+            "rnk1": 3.74,
             "name": "GE 헬스케어 테크놀로지스"
-          },
-          {
-            "ticker": "VEEV",
-            "role": "제약·바이오용 클라우드 소프트웨어 업체",
-            "why": [
-              {
-                "id": "l1d",
-                "statement": "비바 시스템스 CEO는 신규 제품 비바 베이직스의 고객이 200곳에 가깝다고 밝혔다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "We have almost 200 customers on Veeva Basics, says CEO Peter Gassner",
-                    "publisher": "CNBC",
-                    "url": "https://www.cnbc.com/investingclub/video/2026/10/07/we-have-almost-200-customers-on-veeva-basics-says-ceo-peter-gassner.html",
-                    "date": "2026-10-07",
-                    "quote": "We have almost 200 customers on Veeva Basics, says CEO Peter Gassner",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 1.94,
-            "rnk1": 34.13,
-            "name": "비바 시스템스"
           }
         ],
-        "risks": [],
-        "sourceGap": "증권사 리포트는 템퍼스 AI 1건뿐이고 나머지 종목은 기사 제목 수준이라 세부 수치 근거가 부족하며, 리스크 근거는 찾지 못했다.",
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "GE 헬스케어는 전망 상향과 함께 마진 위험이 거론돼, 수익성이 흔들리면 업종 강세의 한 축이 약해질 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GEHC Q3 Earnings Call Highlights Raised Outlook and Margin Risks",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/gehc-q3-earnings-call-highlights-raised-outlook-and-margin-risks",
+                "date": "2026-11-04",
+                "quote": "GEHC Q3 Earnings Call Highlights Raised Outlook and Margin Risks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "CNBC 본문과 증권사 리포트는 템퍼스 AI 중심이다. 힌지 헬스·GE 헬스케어는 나스닥 기사 제목만 근거이고, 비바 시스템스·헬스에퀴티는 근거가 부족해 주도주에서 뺐다.",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "모든 주장(w1, w2, w3, leaders의 l1a~l1d)이 제공된 quote와 출처로 완전하게 입증됨. 날짜 모두 6개월 이내"
+          "reason": "모든 주장(w1-w3, l1a-l1b, l2a, l3a, r1)이 quote 또는 출처 제목과 일치. 숫자·사실 모두 확인됨."
         },
-        "evidenceCount": 33
+        "evidenceCount": 34
       }
     },
     {
@@ -2713,111 +2721,63 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-04",
-        "carried": true,
-        "headline": "의료기기 업종은 3분기 실적이 시장 예상을 넘긴 기업이 잇따르며 업종 순위 6위로 올라섰다.",
-        "summary": "의료기기 업종은 업종 순위 6위로, 25거래일 전보다 54계단 올랐다. 덱스컴·인스파이어 메디컬 시스템스·UFP 테크놀로지스가 3분기 실적에서 시장 예상을 웃돌았다. 인슐렛은 매출이 전년 대비 23.5% 늘었고, 애보트는 연속혈당측정기와 심장 기기가 성장을 이끈다. 다만 존슨앤드존슨 의료기기 부문은 네 분기 연속 성장이 둔화됐다. 실적 호조가 업종 전반으로 이어지는지가 관건이다.",
+        "researchedOn": "2026-11-10",
+        "carried": false,
+        "headline": "근거 없음 — 출처 검증을 통과한 상위 이유가 없다",
+        "summary": "",
         "whyLeading": [
           {
-            "id": "w1",
-            "statement": "덱스컴, 인스파이어 메디컬 시스템스, UFP 테크놀로지스가 3분기 매출과 이익에서 시장 예상을 웃돌았다. 실적 확인이 업종 상승을 받쳤다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates",
-                "publisher": "Zacks(나스닥)",
-                "url": "https://www.nasdaq.com/articles/dexcom-dxcm-surpasses-q3-earnings-and-revenue-estimates",
-                "date": "2026-10-29",
-                "quote": "DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Inspire Medical Systems (INSP) Q3 Earnings and Revenues Beat Estimates",
-                "publisher": "Zacks(나스닥)",
-                "url": "https://www.nasdaq.com/articles/inspire-medical-systems-insp-q3-earnings-and-revenues-beat-estimates",
-                "date": "2026-11-02",
-                "quote": "Inspire Medical Systems (INSP) Q3 Earnings and Revenues Beat Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "UFP Technologies (UFPT) Q3 Earnings and Revenues Surpass Estimates",
-                "publisher": "Zacks(나스닥)",
-                "url": "https://www.nasdaq.com/articles/ufp-technologies-ufpt-q3-earnings-and-revenues-surpass-estimates",
-                "date": "2026-11-03",
-                "quote": "UFP Technologies (UFPT) Q3 Earnings and Revenues Surpass Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
             "id": "w2",
-            "statement": "당뇨 관리 기기 수요가 강하다. 인슐렛 매출이 전년 대비 23.5% 늘어 시장 예상을 넘겼다.",
-            "evidence_level": "sourced",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
             "sources": [
               {
-                "title": "This medical device stock looks like a gift for patient investors",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/09/01/this-medical-device-stock-looks-like-a-gift-for-patient-investors.html",
-                "date": "2026-09-01",
-                "quote": "Revenue grew 23.5% year-over-year, exceeding consensus expectations.",
+                "title": "TXG Q3 Earnings Call Highlights Atera Launch and Raised Outlook",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/txg-q3-earnings-call-highlights-atera-launch-and-raised-outlook",
+                "date": "2026-11-06",
+                "quote": "TXG Q3 Earnings Call Highlights Atera Launch and Raised Outlook",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "대신증권은 애보트의 성장을 Libre(연속혈당측정기)와 심장 디바이스, 암 진단이 이끈다고 봤다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxeeck.pdf",
-                "date": "2026-10-12",
-                "quote": "Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            ],
+            "statementOriginal": "10x 지노믹스는 신제품 아테라 출시와 함께 연간 전망을 상향했다.",
+            "stripped": true
           }
         ],
         "leaders": [
           {
-            "ticker": "DXCM",
-            "role": "연속혈당측정기 업체로 3분기 실적이 예상을 넘겼다.",
+            "ticker": "TMDX",
+            "role": "장기 상승 뒤 3분기 실적도 예상을 넘긴 장기 이식용 장기 관류 업체",
             "why": [
               {
-                "id": "l1a",
-                "statement": "덱스컴은 3분기 매출과 이익이 시장 예상을 웃돌았다.",
+                "id": "l1b",
+                "statement": "트랜스메딕스는 3분기 이익과 매출이 모두 예상치를 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates",
+                    "title": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
                     "publisher": "Zacks(나스닥)",
-                    "url": "https://www.nasdaq.com/articles/dexcom-dxcm-surpasses-q3-earnings-and-revenue-estimates",
-                    "date": "2026-10-29",
-                    "quote": "DexCom (DXCM) Surpasses Q3 Earnings and Revenue Estimates",
+                    "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-and-revenues-surpass-estimates",
+                    "date": "2026-11-05",
+                    "quote": "TransMedics (TMDX) Q3 Earnings and Revenues Surpass Estimates",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 9.96,
-            "rnk1": 59.65,
-            "name": "덱스컴"
+            "rnk6": 10.78,
+            "rnk1": 7.44,
+            "name": "트랜스메딕스 그룹"
           },
           {
             "ticker": "INSP",
-            "role": "수면무호흡 치료기기 업체로 3분기 실적이 예상을 넘겼다.",
+            "role": "수면무호흡 치료기기 업체로 3분기 실적이 예상을 넘김",
             "why": [
               {
-                "id": "l2a",
-                "statement": "인스파이어 메디컬 시스템스는 3분기 매출과 이익이 시장 예상을 웃돌았다.",
+                "id": "l1c",
+                "statement": "인스파이어 메디컬은 3분기 이익과 매출이 모두 예상치를 넘어섰다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
@@ -2832,67 +2792,17 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 8.7,
-            "rnk1": 79.76,
+            "rnk6": 7.08,
+            "rnk1": 79.4,
             "name": "인스파이어 메디컬 시스템스"
           },
           {
-            "ticker": "PODD",
-            "role": "인슐린 펌프 업체로 매출이 빠르게 늘고 있다.",
-            "why": [
-              {
-                "id": "l3a",
-                "statement": "인슐렛은 매출이 전년 대비 23.5% 늘어 시장 예상을 넘겼다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "This medical device stock looks like a gift for patient investors",
-                    "publisher": "CNBC",
-                    "url": "https://www.cnbc.com/2026/09/01/this-medical-device-stock-looks-like-a-gift-for-patient-investors.html",
-                    "date": "2026-09-01",
-                    "quote": "Revenue grew 23.5% year-over-year, exceeding consensus expectations.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 54.42,
-            "rnk1": 10.6,
-            "name": null
-          },
-          {
-            "ticker": "ABT",
-            "role": "업종 최대 규모 기업으로 연속혈당측정기와 심장 기기가 성장을 이끈다.",
-            "why": [
-              {
-                "id": "l4a",
-                "statement": "대신증권은 애보트의 성장을 Libre와 심장 디바이스, 암 진단이 이끈다고 봤다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지",
-                    "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxeeck.pdf",
-                    "date": "2026-10-12",
-                    "quote": "Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 15.83,
-            "rnk1": 16.55,
-            "name": "애보트 래브러토리스"
-          },
-          {
             "ticker": "UFPT",
-            "role": "의료기기 부품·소재 업체로 3분기 실적이 예상을 넘겼다.",
+            "role": "의료기기 부품 위탁 생산 업체로 3분기 실적이 예상을 넘김",
             "why": [
               {
-                "id": "l5a",
-                "statement": "UFP 테크놀로지스는 3분기 매출과 이익이 시장 예상을 웃돌았다.",
+                "id": "l1d",
+                "statement": "UFP 테크놀로지스는 3분기 이익과 매출이 모두 예상치를 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
@@ -2907,21 +2817,21 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 19.7,
-            "rnk1": 76.24,
+            "rnk6": 8.7,
+            "rnk1": 37.56,
             "name": "UFP 테크놀로지스"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "존슨앤드존슨의 의료기기 부문 성장이 네 분기 연속 둔화됐다. 업종 수요가 식으면 강세가 꺾일 수 있다.",
+            "statement": "존슨앤드존슨의 의료기기 부문 성장률이 네 분기 연속 둔화돼, 대형사 성장 둔화가 업종 전반으로 번질 수 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[존슨앤드존슨 (XTR:JNJ)] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지",
+                "title": "[존슨앤드존슨] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxeeck.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxeeec.pdf",
                 "date": "2026-10-13",
                 "quote": "MedTech +2.5%로 네 분기 연속 감속",
                 "verified": "ok",
@@ -2931,23 +2841,7 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r2",
-            "statement": "애보트는 올해 매출 성장률 전망을 세 번째로 낮췄다. 대형주의 성장 둔화가 업종 부담이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[애보트 래브러토리스 (NYS:ABT)] [26Q3 Review] 컨센서스 부합, 연간 매출성장률 약 6.0%로 하향, 투자의견 중립 유지",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmgxgiglekzgglgcgxeeck.pdf",
-                "date": "2026-10-21",
-                "quote": "FY26 매출성장 약 6%로 하향, 올해 세 번째",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r3",
-            "statement": "인티거 홀딩스는 3분기 매출과 이익이 시장 예상에 못 미쳤다. 업종 안에서도 실적이 엇갈린다.",
+            "statement": "인티거는 3분기 실적이 예상에 못 미쳐, 모든 종목이 호조는 아니다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2962,13 +2856,15 @@ window.TEAM5_DATA = {
             ]
           }
         ],
-        "sourceGap": "증권사 리포트는 애보트·존슨앤드존슨뿐이고 나스닥 기사는 제목 위주라 실적 수치는 담지 못했다. 업종 전체를 직접 다룬 기사는 없다.",
+        "sourceGap": "기사 본문을 열지 못해 나스닥 기사 제목만 근거로 썼고, 업종을 직접 다룬 증권사 리포트는 존슨앤드존슨 1건뿐이다.",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 주장(w1~w3, leaders의 l1a~l5a, risks의 r1~r3)이 제공된 quote와 출처로 입증됨. 날짜 모두 6개월 이내, 숫자 일치(인슐렛 23.5% 등)"
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reason": "w1은 statement에서 '리바노바·헤모네틱스'를 언급했으나 sources에는 없음. 처음 3개사(INSP, TMDX, UFPT)만 출처 있음. 이로 인해 summary의 '인스파이어·트랜스메딕스·UFP·리바노바·헤모네틱스' 부분을 처음 3개사로만 수정. headline은 '주요 종목'으로 구체 회사명이 없어 수정 불필요."
         },
-        "evidenceCount": 56
+        "evidenceCount": 48
       }
     },
     {
@@ -3024,7 +2920,56 @@ window.TEAM5_DATA = {
           "name": "플렉스스틸 인더스트리스"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-11-10",
+        "carried": false,
+        "headline": "가전 업체 샤크닌자가 두 자릿수 매출 성장을 이어가며 가구·인테리어·가전 업종 상위권을 이끌고 있다.",
+        "summary": "가구·인테리어·가전 업종은 업종 순위 6위로, 한 달 새 3계단 내렸지만 상위권이다. 중심은 청소·주방 가전의 샤크닌자다. 2분기 순매출이 22.2% 늘어 17.7억 달러를 기록하며 13분기 연속 두 자릿수 성장을 이어갔다. 업종 종목이 3개뿐이라 한 종목의 실적에 좌우되기 쉽다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "샤크닌자의 2분기 순매출이 22.2% 늘어 17.7억 달러를 기록했고, 13분기 연속 두 자릿수 성장을 이어갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html",
+                "date": "2026-08-20",
+                "quote": "Net sales grew 22.2% to $1.77 billion, the 13th consecutive quarter of double-digit growth.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "주방·음료 부문 순매출이 36.5% 늘어 4.99억 달러를 기록했다. 최근 2년 중 가장 높은 성장률이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html",
+                "date": "2026-08-20",
+                "quote": "Cooking and Beverage net sales grew 36.5% to $499 million in Q2, the category's best growth in at least two years.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [],
+        "risks": [],
+        "sourceGap": "증권사 리포트·업종 리포트 없음. 샤크닌자 외 종목(모호크·플렉스스틸)은 직접 열어 본 근거가 없고, 3분기 실적 기사는 열람하지 못했다. 리스크 근거 없음.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "w1·w2의 모든 숫자(22.2%, 17.7억 달러, 36.5%, 4.99억 달러, 13분기 연속 두 자릿수)와 l1a의 제품 설명이 quote와 정확히 일치."
+        },
+        "evidenceCount": 17
+      }
     },
     {
       "key": "Technology|Software - Infrastructure",
@@ -4184,22 +4129,22 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-04",
-        "carried": true,
-        "headline": "액센추어가 실적과 수주에서 예상을 웃돌며 업종이 한 달 새 58계단 올랐다.",
-        "summary": "IT 서비스 업종은 전체 8위로, 25거래일 전보다 58계단 올랐다. 액센추어는 분기 실적이 예상을 웃돌고 대형 계약 수주가 사상 최대를 기록해 주가가 급등했다. 브로드리지는 금융 시장 인프라 사업이 토큰화 흐름에서도 입지를 지킨다는 평가를 받았다. 이 흐름이 이어지려면 AI 관련 수주가 다른 종목의 실적으로도 확인되어야 한다.",
+        "researchedOn": "2026-11-10",
+        "carried": false,
+        "headline": "IT 서비스는 액센추어·IBM·브로드리지의 실적으로 업종 순위 9위까지 올랐다.",
+        "summary": "IT 서비스 업종은 한 달 새 54계단 올라 업종 순위 9위다. 액센추어가 10월 1일 실적에서 예상을 웃돌았고, IBM은 3분기 매출·이익이 모두 예상을 넘었다. 브로드리지는 반복 매출이 늘었다. 강세가 이어지려면 AI 관련 수주가 실제 매출로 이어지는지 확인돼야 한다.",
         "whyLeading": [
           {
-            "id": "w1",
-            "statement": "액센추어가 회계 4분기 실적이 예상을 웃돌았고 대형 고객 수주가 사상 최대였다. 이를 계기로 업종 전반의 평가가 바뀌었다.",
+            "id": "w2",
+            "statement": "IBM은 3분기 매출·이익이 예상을 웃돌았고 연간 잉여현금흐름 전망을 올렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Accenture stock rallies after earnings beat expectations",
+                "title": "IBM beats on top and bottom line, CEO touts 'Super Intelligence' traction",
                 "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
-                "date": "2026-10-01",
-                "quote": "The company posted a record in big-ticket client bookings, while also increasing its quarterly dividend.",
+                "url": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
+                "date": "2026-10-21",
+                "quote": "IBM beat on the top and bottom lines and raised its full-year forecast for free cash flow.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4208,37 +4153,12 @@ window.TEAM5_DATA = {
         ],
         "leaders": [
           {
-            "ticker": "ACN",
-            "role": "세계 최대급 IT 컨설팅 기업으로 업종 반등의 출발점이 된 종목",
-            "why": [
-              {
-                "id": "l1a",
-                "statement": "액센추어는 회계 4분기 실적이 예상을 웃돌았고, 2027 회계연도 매출과 주당순이익 모두 3~6% 성장을 제시했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Accenture stock rallies after earnings beat expectations",
-                    "publisher": "CNBC",
-                    "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
-                    "date": "2026-10-01",
-                    "quote": "For its fiscal-year 2027 outlook, Accenture sees 3%-6% year-over-year growth in both revenue and adjusted earnings per share.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 5.28,
-            "rnk1": 0.32,
-            "name": "액센추어"
-          },
-          {
             "ticker": "IBM",
-            "role": "소프트웨어와 컨설팅에서 AI 매출을 키우는 대형주",
+            "role": "소프트웨어와 AI 컨설팅으로 3분기 실적 호조를 낸 대형주",
             "why": [
               {
                 "id": "l2a",
-                "statement": "IBM은 3분기 소프트웨어 매출이 78억 달러로 8% 늘었다.",
+                "statement": "IBM은 3분기 매출·이익이 예상을 넘었고 연간 잉여현금흐름 전망을 올렸다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
@@ -4246,53 +4166,31 @@ window.TEAM5_DATA = {
                     "publisher": "CNBC",
                     "url": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
                     "date": "2026-10-21",
-                    "quote": "In the third quarter, IBM generated $7.80 billion in software revenue, growing 8%.",
+                    "quote": "IBM beat on the top and bottom lines and raised its full-year forecast for free cash flow.",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 31.61,
-            "rnk1": 14.47,
+            "rnk6": 46.12,
+            "rnk1": 35.39,
             "name": "IBM"
-          },
-          {
-            "ticker": "BR",
-            "role": "증권 의결권·결제 인프라를 쥔 금융 IT 기업",
-            "why": [
-              {
-                "id": "l3a",
-                "statement": "CNBC는 브로드리지의 핵심 사업이 금융기관 깊숙이 내장돼 교체가 어렵고, 토큰화가 오히려 사업을 늘린다고 전했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Broadridge runs Wall Street's market plumbing. Tokenization may expand its role",
-                    "publisher": "CNBC",
-                    "url": "https://www.cnbc.com/2026/10/30/broadridge-tokenization-stock.html",
-                    "date": "2026-10-30",
-                    "quote": "Tokenization is creating more business for Broadridge, not less.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 18.26,
-            "rnk1": 9.24,
-            "name": "브로드리지 파이낸셜 솔루션"
           }
         ],
         "risks": [],
-        "sourceGap": "증권사 리포트와 업종 검색어 리포트가 없어 CNBC 기사만으로 작성했고, 리스크 근거는 확보하지 못했다.",
+        "sourceGap": "증권사 리포트·업종 리포트 없음 — CNBC 기사 3건만으로 작성. CDW·EPAM 등 나스닥 기사만 있는 종목은 제외.",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w2"
+            "w1",
+            "l1a",
+            "w3",
+            "l3a"
           ],
-          "reason": "w2: statement에서 '3분기 소프트웨어 매출이 8% 늘었고'라는 주장이 제공된 quote에 없음. quote는 AI가 컨설팅 매출 30%·수주잔고 35%인 부분만 다룸. 같은 출처의 l2a에서는 이 수치가 있지만, w2의 quote는 이 부분을 담고 있지 않음"
+          "reason": "w1·l1a의 'AI·데이터 수요 강조·CEO 선도'는 인용문에 명시되지 않음. w3·l3a의 '토큰화 사업 현재 진행'은 인용문에 없고, 출처 제목에는 'may expand(미래)'로만 언급되어 제목이 현재 참여를 뒷받침하지 않음."
         },
-        "evidenceCount": 63
+        "evidenceCount": 71
       }
     },
     {

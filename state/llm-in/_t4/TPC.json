@@ -2,6 +2,24 @@
  "ticker": "TPC",
  "news": [
   {
+   "title": "Wall Street Analysts Believe Tutor Perini (TPC) Could Rally 30.6%: Here's is How to Trade",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-tutor-perini-tpc-could-rally-306-heres-how-trade",
+   "date": "2026-11-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Tutor Perini (TPC) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-tutor-perini-tpc-stock-0",
+   "date": "2026-11-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Tutor Perini (TPC) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-tutor-perini-tpc-said-its-q3-earnings-call",
+   "date": "2026-11-08",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Tutor Perini (TPC) Q3 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-q3-2026-earnings-call-transcript",
    "date": "2026-11-05",
@@ -32,22 +50,11 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Tutor Perini (TPC) Rises Higher Than Market: Key Facts",
-   "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-rises-higher-market-key-facts",
-   "date": "2026-10-26",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Tutor Perini (TPC) Dips More Than Broader Market: What You Should Know",
-   "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-dips-more-broader-market-what-you-should-know-0",
-   "date": "2026-10-22",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Why Tutor Perini (TPC) Dipped More Than Broader Market Today",
-   "url": "https://www.nasdaq.com/articles/why-tutor-perini-tpc-dipped-more-broader-market-today",
-   "date": "2026-10-16",
-   "publisher": "Zacks"
+   "title": "Should Value Investors Buy Tutor Perini (TPC) Stock?",
+   "url": "https://finance.yahoo.com/news/value-investors-buy-tutor-perini-134002788.html",
+   "date": "2026-11-09",
+   "publisher": "Zacks",
+   "via": "Yahoo"
   },
   {
    "title": "Tutor Perini sees $200B in potential bids. Almost none of them are data centers.",
@@ -89,34 +96,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/tutor-perini-tpc-bargain-raised-141401184.html",
    "date": "2026-11-05",
    "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Tutor Perini Corp (TPC) (Q3 2026) Earnings Call Highlights: Record $1. ...",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/tutor-perini-corp-tpc-q3-111042426.html",
-   "date": "2026-11-05",
-   "publisher": "GuruFocus.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Tutor Perini (TPC) Surpasses Q3 Earnings and Revenue Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/tutor-perini-tpc-surpasses-q3-234519177.html",
-   "date": "2026-11-04",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Tutor Perini: Q3 Earnings Snapshot",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/tutor-perini-q3-earnings-snapshot-220119811.html",
-   "date": "2026-11-04",
-   "publisher": "Associated Press",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Tutor Perini (NYSE:TPC) beats expectations in strong Q3 2026",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/tutor-perini-nyse-tpc-beats-214524488.html",
-   "date": "2026-11-04",
-   "publisher": "StockStory",
    "via": "Yahoo"
   }
  ],
@@ -222,8 +201,8 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 15.1,
-  "saleNy": 12.66,
+  "saleCy": 16.94,
+  "saleNy": 13.21,
   "epsCy": 256.02,
   "epsNy": 12.84,
   "cyTrend": 0,

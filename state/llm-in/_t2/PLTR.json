@@ -1,0 +1,380 @@
+{
+ "ticker": "PLTR",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "팔란티어 테크",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 91.05,
+  "saleNy": 53.35,
+  "epsCy": 126.94,
+  "epsNy": 48.95,
+  "est": {
+   "cyCur": 1.70205,
+   "cy30": 1.62012,
+   "nyCur": 2.53522,
+   "ny30": 2.34416
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    92.83,
+    84.71,
+    70
+   ],
+   "ni": [
+    225.01,
+    306.73,
+    670.39
+   ],
+   "opm": [
+    47.12,
+    46.18,
+    40.9
+   ],
+   "updated": "2026-09-08 07:04:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-10",
+  "nameKo": "팔란티어 테크",
+  "nameEn": "PALANTIR TECH INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2313411000,
+     "profit": 1084845000,
+     "netIncome": 1128012000,
+     "margin": 46.9,
+     "yoy": {
+      "revenue": 95.9,
+      "profit": 175.9,
+      "netIncome": 137.2,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1935464000,
+     "profit": 912004000,
+     "netIncome": 1061890000,
+     "margin": 47.1,
+     "yoy": {
+      "revenue": 92.8,
+      "profit": 238.6,
+      "netIncome": 225,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1632583000,
+     "profit": 753998000,
+     "netIncome": 870527000,
+     "margin": 46.2,
+     "yoy": {
+      "revenue": 84.7,
+      "profit": 328.3,
+      "netIncome": 306.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1406802000,
+     "profit": 575394000,
+     "netIncome": 608676000,
+     "margin": 40.9,
+     "yoy": {
+      "revenue": 70,
+      "profit": 5110.5,
+      "netIncome": 670.4,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Forget Palantir? This IPO Candidate May Be the New &quot;Autonomy Giant&quot; in Defense.",
+     "url": "https://www.nasdaq.com/articles/forget-palantir-ipo-candidate-may-be-new-autonomy-giant-defense",
+     "date": "2026-11-10",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here is What to Know Beyond Why Palantir Technologies Inc. (PLTR) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-palantir-technologies-inc-pltr-trending-stock",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Palantir vs. Snowflake: The AI Sell-Off Is Exposing a Critical Difference for 2027",
+     "url": "https://www.nasdaq.com/articles/palantir-vs-snowflake-ai-sell-exposing-critical-difference-2027",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Could Buying Palantir Stock Today Set You Up for Life?",
+     "url": "https://www.nasdaq.com/articles/could-buying-palantir-stock-today-set-you-life",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Adobe vs. Palantir Technologies: Which Technology Stock Is a Better Buy Going Into 2027?",
+     "url": "https://www.nasdaq.com/articles/adobe-vs-palantir-technologies-which-technology-stock-better-buy-going-2027",
+     "date": "2026-11-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Palantir Stock Just Fell 8 Days in a Row. History Says What Followed Its Only 2 Longer Losing Streaks.",
+     "url": "https://www.nasdaq.com/articles/palantir-stock-just-fell-8-days-row-history-says-what-followed-its-only-2-longer-losing",
+     "date": "2026-11-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Palantir Stock Investors Just Got Great News From a Wall Street Analyst (Hint: The Stock Could Soar)",
+     "url": "https://www.nasdaq.com/articles/palantir-stock-investors-just-got-great-news-wall-street-analyst-hint-stock-could-soar",
+     "date": "2026-11-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "The Biggest Takeaway From Palantir Technologies’ Latest Quarterly Report Is a Potential Warning Sign Investors Shouldn’t Miss",
+     "url": "https://www.nasdaq.com/articles/biggest-takeaway-palantir-technologies-latest-quarterly-report-potential-warning-sign",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000033/pltr-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/pltr-20260504.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-02",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/pltr-20251103.htm"
+   }
+  ],
+  "krReports": {
+   "total": 14,
+   "reports": [
+    {
+     "date": "2026-11-03",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 실적은 견조, 선행지표 후속 점검 필요",
+     "summary": "- 또 다시 역대 최고 수준 실적을 경신- 3Q26 Review: 향후 계약 기간과 규모 증대 여부가 관건- 파일럿에서 대형 ACV로의 빠른 전환 속도에는 소버린 AI가 주효",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixmgmqzieeqzgcgxeeec.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-11-03",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+     "summary": "- 매출액 23.1억 달러(YoY +95.9%), 영업이익 14.3억 달러(YoY +137.6%), 조정 EPS 0.44달러(YoY +109.5%)로 각각 예상치 6.6%, 9.7%, 7.1% 상회- 분기 중 29.2억 달러 규모 신규 계약 체결(YoY +5.7%). 3분기 말 기준 RPO 48.8억 달러(YoY +87.7%, QoQ -0.4%). 단기 RPO 21.4억 달러로 전분기 대비 2.4% 증가했지만, 장기 RPO 27.4억 달러로 전분기 대비 2.5% 감소한 영향- 실적 호조와 연간 가이던스 상향에도 신규 계약 성장률 둔화(YoY +48.6% → +5.7%)로 시간 외 -3%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeeec.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[팔란티어 테크 (NAS:PLTR)] [26Q3 Preview] 매출 가이던스 초과 폭과 FY26 추가 상향이 관건, 투자의견 적극 매수 유지",
+     "summary": "- 14분기 연속 가이던스 초과 패턴이 이어지는지가 첫 확인 사항- 미국 상업 부문의 재가속이 성장의 축이고 해외는 정체 구간- 이익 기준 밸류에이션은 이미 압축됐고 이익의 질이 다음 쟁점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmicxccmckmmglgcgxeeec.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 소버린 중심 전략이 중장기 워킹할지가 미지수",
+     "summary": "- 동사는 K-LLM 기반 AIP 확장 및 미국 중심 소버린 전략을 지속 피력 중- 프런티어 업체와 데이터 플랫폼 업체 제휴를 통한 구독경제 확장성이 변수- 동사 내재가치 시뮬레이션 결과치로 4,152억달러 제시, 단기 잠재력은 상존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmkgxmexgzzgzgcgxeeec.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "신한투자증권",
+     "analyst": "리서치본부",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 또 한번 역대급 실적으로 존재감 증명",
+     "summary": "- 팔란티어는 2Q26에도 전 지표에서 기대를 상회하고 다시 한번 연간 가이 던스를 큰 폭으로 상향하며 주가 급등. Rule of 40(매출 성장+영업이익률) 이 155%, 기존 고객 유지율이 157%로 재차 확대- AI랩 대비 팔란티어의 경쟁력에 대해, 1) 토큰 과금 모델은 랩에게는 유효 하나 구매자에게는 그렇지 않다는 구조(AI Slop과 관련), 2) 기업이 프론티 어 모델에 노출하는 것은 원 데이터 및 그보다 가치가 큰 ‘알파’(메타데이 터, 추론 궤적, 사용 패턴 등)인데, 기업에는 이를 통제할 메커니즘이 아직 없다는 설명, 3) 모델 종속 및 단절 리스크(팔란티어는 계약 구조 자체가 모델 교체를 전제로 설계), 4) 벤치마크와 실무의 불일치 등이 폭넓게 제시- 특히 기업들도 소버린(주권) 개념 하에 자사의 데이터, 로직, 액션, 보안에 대한 완전한 소유권을 요구하는 경우가 증가. 따라서 고객 보안 내에서 실 행되고, 학습 재료가 운영 텔레메트리며, 산출물인 가중치의 소유권이 고 객인 경우가 더욱 중요해지기에 AIP와 FDE가 경쟁력을 갖는다는 설명",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlglixmzeiezgcgxeeec.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "하나증권",
+     "analyst": "김재임",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 미국 사업 모멘텀 강화, 전망도 대폭 상향",
+     "summary": "- 미국 커머셜 149%, 전체 매출 성장 93%로 가속화, Rule of 40 155pt (컨센 138)- 2026년 가이던스 매출 성장 82%, 조정 OPM 60%로 상향조정- 미국 사업 모멘텀 지속 기대하는 이유",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlggzkgcmkzxgcgxeeec.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+     "summary": "- 매출액 19.4억 달러(YoY +92.8%), 조정 EPS 0.41달러(YoY +156.3%)로 각각 예상치 7.0%, 18.2% 상회- 1,000만 달러 이상 계약 73건, 500만 달러 이상 계약 98건, 100만 달러 이상 계약 220건 체결- 어닝 서프라이즈와 연간 가이던스 상향으로 시간외 14.9% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlelqxmzkilmgcgxeeec.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[팔란티어 테크 (NAS:PLTR)] [26Q2 Review] 성장 가속과 배수 압축의 교차, 투자의견 적극 매수 상향",
+     "summary": "- 매출 $1,935M(+93% YoY), 14분기 연속 가이던스 상회- FY26 가이던스 $8.15B로 $500M 상향, 컨센 5.5% 위- NTM PE 67.5x, 5년 중간값 첫 하회 — bullish/high",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmmclkkkkizgcgxeeec.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "These stocks on Josh Brown's list got washed out in last week's sell-off. Where to go from here",
+   "url": "https://www.cnbc.com/2026/11/09/these-stocks-on-josh-browns-list-got-washed-out-in-last-weeks-sell-off-where-to-go-from-here.html",
+   "date": "2026-11-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase & more",
+   "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-midday-aapl-pltr-nvda-coin-be.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tuesday's biggest analyst calls of the day: Apple, SpaceX, Nvidia, Palantir & more",
+   "url": "https://www.cnbc.com/2026/11/03/big-wall-street-analyst-calls-tuesday-include-apple-spacex-palantir.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Palantir is dropping on earnings. Wall Street analysts remain bullish",
+   "url": "https://www.cnbc.com/2026/11/03/palantir-stock-q3-earnings-analyst-ratings.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Revvity, Pfizer, Palantir & more",
+   "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The Investment Committee debates whether more volatility is on the way",
+   "url": "https://www.cnbc.com/video/2026/11/03/the-investment-committee-debates-whether-more-volatility-on-the-way.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PLTR",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 144.18,
+  "pbr": 41.6,
+  "eps": 1.17,
+  "bps": 4.07,
+  "shares": 2306710000,
+  "marketCapM": 390295,
+  "high52": 212.9399,
+  "high52Date": "2026-10-12",
+  "low52": 106.37,
+  "low52Date": "2026-06-25",
+  "last": 169.2,
+  "prevClose": 160.38,
+  "nameKo": "팔란티어 테크",
+  "nameEn": "PALANTIR TECH INC",
+  "listedOn": "2024-11-26",
+  "exchange": "나스닥",
+  "listedShares": 2306710000
+ }
+}

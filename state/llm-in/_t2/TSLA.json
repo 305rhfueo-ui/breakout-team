@@ -1,0 +1,360 @@
+{
+ "ticker": "TSLA",
+ "sector": "Consumer Cyclical",
+ "industry": "Auto Manufacturers",
+ "nameKo": "테슬라",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.74,
+  "saleNy": 13.54,
+  "epsCy": 3.87,
+  "epsNy": 25.23,
+  "est": {
+   "cyCur": 1.72424,
+   "cy30": 1.73252,
+   "nyCur": 2.15922,
+   "ny30": 2.24057
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    25.52,
+    15.78,
+    -3.14
+   ],
+   "ni": [
+    -4.95,
+    16.63,
+    -59.73
+   ],
+   "opm": [
+    1.41,
+    4.2,
+    5.66
+   ],
+   "updated": "2026-09-21 06:35:27"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-10",
+  "nameKo": "테슬라",
+  "nameEn": "TESLA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 28046000000,
+     "profit": 718000000,
+     "netIncome": 787000000,
+     "margin": 2.6,
+     "yoy": {
+      "revenue": -0.2,
+      "profit": -55.8,
+      "netIncome": -42.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 28236000000,
+     "profit": 398000000,
+     "netIncome": 1114000000,
+     "margin": 1.4,
+     "yoy": {
+      "revenue": 25.5,
+      "profit": -56.9,
+      "netIncome": -4.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 22387000000,
+     "profit": 941000000,
+     "netIncome": 477000000,
+     "margin": 4.2,
+     "yoy": {
+      "revenue": 15.8,
+      "profit": 135.8,
+      "netIncome": 16.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 24901000000,
+     "profit": 1409000000,
+     "netIncome": 901000000,
+     "margin": 5.7,
+     "yoy": {
+      "revenue": -3.1,
+      "profit": -11,
+      "netIncome": -58.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Cathie Wood's ARK Invest Says Tesla's Robotaxi Cash Flow Could Bankroll SpaceX's AI Ambitions, Backing a Potential Merger of Elon Musk's Two Companies. Is This the Thesis That Finally Reprices Tesla Stock?",
+     "url": "https://www.nasdaq.com/articles/cathie-woods-ark-invest-says-teslas-robotaxi-cash-flow-could-bankroll-spacexs-ai-ambitions",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What a $1,000 Investment in Tesla Stock Could Be Worth in 5 Years",
+     "url": "https://www.nasdaq.com/articles/heres-what-1000-investment-tesla-stock-could-be-worth-5-years",
+     "date": "2026-11-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Tesla's FSD (Supervised) Attach Rate Hit 75% on New Vehicles. Here's Why That Single Number Could Matter More Than Robotaxi for the Stock in 2027.",
+     "url": "https://www.nasdaq.com/articles/teslas-fsd-supervised-attach-rate-hit-75-new-vehicles-heres-why-single-number-could-matter",
+     "date": "2026-11-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Elon Musk Says Tesla Will End Cybertruck Production -- Here's Why",
+     "url": "https://www.nasdaq.com/articles/elon-musk-says-tesla-will-end-cybertruck-production-heres-why",
+     "date": "2026-11-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Tesla Stock Hasn't Closed at a Record in Nearly 11 Months. Here's How Its Past Record Droughts Ended.",
+     "url": "https://www.nasdaq.com/articles/tesla-stock-hasnt-closed-record-nearly-11-months-heres-how-its-past-record-droughts-ended",
+     "date": "2026-11-08",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/tsla-20261002.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026063820/tsla-20260929.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/tsla-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/tsla-20260702.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/tsla-20260422.htm"
+   }
+  ],
+  "krReports": {
+   "total": 33,
+   "reports": [
+    {
+     "date": "2026-10-23",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "title": "[테슬라 (NAS:TSLA)] 신사업 수익 가시성 확보에 주목",
+     "summary": "- 자금 조달과 현금흐름 우려 상존하지만 FSD 확산과 로보택시 수익화로 우려는 점차 완화될 것. 27년 하반기부터 본격적인 성장 모멘텀 반영 기대- 3분기 매출액 280억달러(-0.2%, 이하 YoY), GPM +19.6%(+1.6%p), Adj-EPS 0.48달러(-4%)로 컨센대비 각각 -0.3%, +1.9%p, +10% 달성- [자동차] 매출액 206억달러(-3%), 크레딧 제외 GPM +18.1%(+2.7%p) 기록. 차량 판매량 48.7만대(3Q25 49.7만대, 2Q26 48.0만대) 기록. APAC 지역 판매 증가와 FSD 구독 매출 증가로 마진율 방어",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqcmzzexexiqgcgxeeec.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-23",
+     "broker": "iM증권",
+     "analyst": "이상수",
+     "title": "[테슬라 (NAS:TSLA)] Optimus로 쏘아올린 합병의 신호탄",
+     "summary": "- ① Automotive: 매출액 매출액 205.6억달러 (-3.0% YoY) 실적 기록. 26.3Q 차량 인도 대수는 486,532대 (-2.1% YoY, +1.3% QoQ)로 2개 분기 연속 48만대를 상회했으나, 탄소 규제 크레딧 매출이 1.13억달러로 전년 동기 4.17억달러 대비 72.9% 급감- ② Energy Generation & Storage: 매출액 28.8억달러 (-15.6% YoY) 실적 기록. 26.3Q 설치용량은 13.7GWh (+9.6% YoY)로 역대 두번째 수준이었으나, 관세 관련 고객 환불이 매출에서 차감되며 외형은 감소- ③ Service and Others: 매출액 46.1억달러 (+32.5% YoY) 실적 기록. 동사업부 매출총이익은 7.3억달러로 사상 최대를 기록했고, GPM은 15.9%로 직전 분기 14.1% 대비 1.8%p 개선",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqclqkqmggzlgcgxeeec.pdf",
+     "pages": "9"
+    },
+    {
+     "date": "2026-10-22",
+     "broker": "대신증권",
+     "analyst": "김회재",
+     "title": "[테슬라 (NAS:TSLA)] 기대에 못 미친 실적, 로보택시·옵티머스 실행 구체화",
+     "summary": "- 차량 판매 예상 상회했지만 매출은 전년 수준에 정체- 로보택시·옵티머스·테라팹 실행계획 구체화. 향후 수익화가 핵심- 스페이스X와의 합병 공식 검토 시작, 두 기업 간 AI 역할 분담 가능성",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqeexelcgikxgcgxeeec.pdf",
+     "pages": "13"
+    },
+    {
+     "date": "2026-10-22",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[테슬라 (NAS:TSLA)] 자동차 UP vs 에너지 Down",
+     "summary": "- 테슬라는 전기차를 기반으로 FSD·로보택시·ESS·로봇 사업을 확장하는 기업- FY3Q26은 크레딧 감소에도 마진이 개선됐으나 에너지 매출이 부진- 투자와 주요 일정이 2027년으로 넘어간 만큼 규제 승인과 합병 조건 확인이 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqcqcqqgzzzggcgxeeec.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-22",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[테슬라 (NAS:TSLA)] Earnings Flash",
+     "summary": "- 매출액 280억 달러(YoY -0.2%), 조정 EPS 0.48달러(YoY -4%)로 예상치 0.3% 하회, 9.6% 상회- *FSD 유료 가입·구매 고객 174만 명(YoY +67%). 북미 신규 인도 차량의 75% 이상이 출고 시 FSD 유료 구독 신청- AI·로보틱스 투자비 증가에 따른 수익성 악화와 CAPEX 가이던스 하향에 따른 성장 둔화 우려로 시간 외 -3.3%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxzclgmckxkqgcgxeeec.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-10-22",
+     "broker": "하나증권",
+     "analyst": "송선재",
+     "title": "[테슬라 (NAS:TSLA)] 마진은 바닥 통과, 시선은 로보택시와 스페이스X로",
+     "summary": "- 3Q26 실적: 판매 -2% (YoY), 매출액 flat, EPS $0.48(vs. 컨센서스 $0.44)- 실적 발표의 내용: 자동차는 증설 목표 구체화, 로보택시는 확장, 옵티머스는 속도 조절- 시사점: 마진은 바닥 통과, 주가는 당분간 자율주행/합병 이슈에 연동",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxkzkgmqlkqkgcgxeeec.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-10-22",
+     "broker": "신영증권",
+     "analyst": "문용권",
+     "title": "[테슬라 (NAS:TSLA)] 차세대 성장을 견인할 신사업을 준비하는 시간",
+     "summary": "- 매출 $280억(전년동기 대비 -0.2%), 영업이익 $7.2억(-56%), 영업이익률 2.6%- 북미 FSD 채택률이 75%(2Q 대비 약 +20%P), 로봇택시는 2027년 기대- 2027년 기대 요인: 로보택시 확대와 Optimus 외부 판매 개시",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxkkiekilzkzgcgxeeec.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[테슬라 (NAS:TSLA)] [26Q3 Review] 설비투자(CapEx) 가이던스 5분기 만에 첫 하향, 투자의견 중립 유지",
+     "summary": "- 조정 EPS 0.48달러로 컨센 0.44 상회- FCF 15.3억 흑자, IBES -49억 추정 반전- CapEx 가이던스 250억→200억 첫 하향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxigmgzgzkelgcgxeeec.pdf",
+     "pages": "10"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "A long-term Tesla backer has cashed out — and trimmed its SpaceX exposure",
+   "url": "https://www.cnbc.com/2026/11/06/scottish-mortgage-tesla-spacex.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tesla to wind down Cybertruck production in Texas next year, Musk says",
+   "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap",
+   "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Markets cool after the monster midterm rally",
+   "url": "https://www.cnbc.com/2026/11/05/markets-cool-midterm-musk-stocks-under-pressure.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A blue wave sends futures into the green",
+   "url": "https://www.cnbc.com/2026/11/04/a-blue-wave-sends-futures-into-the-green.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Elon Musk's $224 million Texas election gamble fails as AI backlash grows",
+   "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "TSLA",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 415.85,
+  "pbr": 16.74,
+  "eps": 0.91,
+  "bps": 22.59,
+  "shares": 3952760000,
+  "marketCapM": 1494341,
+  "high52": 498.83,
+  "high52Date": "2025-12-22",
+  "low52": 297.38,
+  "low52Date": "2026-07-29",
+  "last": 378.05,
+  "prevClose": 358.22,
+  "nameKo": "테슬라",
+  "nameEn": "TESLA INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 3952760000
+ }
+}

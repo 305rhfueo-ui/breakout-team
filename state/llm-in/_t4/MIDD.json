@@ -2,6 +2,12 @@
  "ticker": "MIDD",
  "news": [
   {
+   "title": "What Middleby (MIDD) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-middleby-midd-said-its-q3-earnings-call",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "The Middleby Corporation Announces Chief Executive Officer Transition",
    "url": "https://www.nasdaq.com/articles/middleby-corporation-announces-chief-executive-officer-transition",
    "date": "2026-11-05",
@@ -44,10 +50,11 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Middleby (MIDD) Q2 2026 Earnings Call Transcript",
-   "url": "https://www.nasdaq.com/articles/middleby-midd-q2-2026-earnings-call-transcript",
-   "date": "2026-08-19",
-   "publisher": "The Motley Fool"
+   "title": "Did Earnings Beat Just Shift Middleby (MIDD) Investment Narrative?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-071421662.html",
+   "date": "2026-11-07",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
   },
   {
    "title": "What Middleby (MIDD) Said on Its Q3 Earnings Call",
@@ -110,13 +117,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/middleby-announces-chief-executive-officer-120000639.html",
    "date": "2026-11-05",
    "publisher": "Business Wire",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Mueller Water Products (MWA) Misses Q4 Earnings and Revenue Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mueller-water-products-mwa-misses-234523229.html",
-   "date": "2026-11-04",
-   "publisher": "Zacks",
    "via": "Yahoo"
   }
  ],
@@ -255,10 +255,10 @@
   "targetStatus": false,
   "saleCy": -21.55,
   "saleNy": 3.92,
-  "epsCy": -26.39,
-  "epsNy": 13.98,
-  "cyTrend": -0.89,
-  "nyTrend": -0.37,
+  "epsCy": -23.15,
+  "epsNy": 13.17,
+  "cyTrend": 3.41,
+  "nyTrend": 3.28,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

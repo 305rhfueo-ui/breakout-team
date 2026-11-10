@@ -1,0 +1,145 @@
+{
+ "ticker": "DDS",
+ "news": [
+  {
+   "title": "Dillard's Unlikely to Provide Annual Guidance in Q3 Financial Report, UBS Says",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dillard-apos-unlikely-annual-guidance-173041914.html",
+   "date": "2026-11-03",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "3.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "상장규정 위반",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926108945/tm2625597d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000024/dds-20260813x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "2.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926070529/tm2616894d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000015/dds-20260514x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000009/dds-20260514x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-20",
+   "reportDate": "2026-03-20",
+   "items": [
+    "1.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926032749/tm269181d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.51,
+  "saleNy": 1.07,
+  "epsCy": 2.09,
+  "epsNy": -4.14,
+  "cyTrend": 6.35,
+  "nyTrend": 1.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -0.36,
+    2.69,
+    -3.03
+   ],
+   "ni": [
+    34.14,
+    52.95,
+    -4.96
+   ],
+   "opm": [
+    8.45,
+    14.3,
+    10.39
+   ],
+   "updated": "2026-09-07 07:51:41"
+  }
+ }
+}
