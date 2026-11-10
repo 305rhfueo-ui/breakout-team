@@ -1,187 +1,287 @@
 window.MOVERS_DATA = {
-  "updated": "2026-11-09T15:33:37.795Z",
-  "basis": "11/09 10:30 ET 기준",
+  "updated": "2026-11-10T15:33:48.831Z",
+  "basis": "11/10 10:30 ET 기준",
   "exact": true,
-  "amtMinK": 100000,
-  "themes": [
-    {
-      "name": "선거 쇼크 급락 후 반도체 반등",
-      "why": "중간선거 뒤 데이터센터 우려로 목요일 AI·반도체주가 급락했다가, 엔비디아 약세 속에서도 경쟁 칩 업체와 반도체주가 반등했다.",
-      "members": [
-        {
-          "ticker": "AVGO",
-          "n": 1
-        },
-        {
-          "ticker": "ASML",
-          "n": 1
-        }
-      ]
-    },
-    {
-      "name": "메모리 장기계약·신기술 기대",
-      "why": "마이크론의 320억 달러 규모 장기 공급계약 소식과 낸드 신기술(HBF) 성장 기회 분석이 메모리 업종에 부각됐다.",
-      "members": [
-        {
-          "ticker": "MU",
-          "n": 2
-        },
-        {
-          "ticker": "SNDK",
-          "n": 0
-        }
-      ]
-    }
-  ],
+  "amtMinK": 10000,
+  "themes": [],
   "groups": [
     {
-      "industry": "Semiconductors",
-      "ko": "반도체",
+      "industry": "Software - Infrastructure",
+      "ko": "인프라 소프트웨어",
       "tickers": [
-        "AMD",
-        "MU",
-        "AVGO",
-        "MRVL"
-      ]
-    },
-    {
-      "industry": "Semiconductor Equipment & Materials",
-      "ko": "반도체 장비·소재",
-      "tickers": [
-        "AMAT",
-        "ASML"
+        "DOCN",
+        "TWLO"
       ]
     }
   ],
   "items": [
     {
-      "ticker": "AMD",
-      "nameKo": "AMD",
-      "nameEn": "ADVANCED MICRO DEVICES INC",
-      "ratePct": 9.62,
-      "price": 492.225,
-      "amountUsd": 5462293182,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
+      "ticker": "TTWO",
+      "nameKo": "테이크 투 인터랙티브 소프트웨어",
+      "nameEn": "TAKE TWO INTERACTIVE SOFTWARE INC",
+      "ratePct": 8.2,
+      "price": 224.4,
+      "amountUsd": 465248296,
+      "industry": "Electronic Gaming & Multimedia",
+      "industryKo": "게임·멀티미디어",
       "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "AMD Stock Guided for 80% Growth Next Year. Why Isn’t the Market Impressed?",
-          "url": "https://www.nasdaq.com/articles/amd-stock-guided-80-growth-next-year-why-isnt-market-impressed",
-          "date": "2026-11-09",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "AMD: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://www.nasdaq.com/articles/amd-3-key-takeaways-long-term-investors",
-          "date": "2026-11-09",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "Google's chip business is on a faster track than Nvidia's own AI boom",
-          "url": "https://finance.yahoo.com/markets/article/googles-chip-business-is-on-a-faster-track-than-nvidias-own-ai-boom-135447046.html",
-          "date": "2026-11-09",
-          "publisher": "Yahoo Finance"
-        },
-        {
-          "title": "Google Expands AI Chip Portfolio as Nvidia Faces Investigation Involving CEO",
-          "url": "https://finance.yahoo.com/technology/ai/articles/google-expands-ai-chip-portfolio-144536130.html",
-          "date": "2026-11-09",
-          "publisher": "InvestorsHub"
-        },
-        {
-          "title": "Cathie Wood Goes Bargain Hunting: 3 Stocks She Bought Last Week",
-          "url": "https://finance.yahoo.com/news/cathie-wood-goes-bargain-hunting-143700353.html",
-          "date": "2026-11-09",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "AMD shares are primed for a comeback, says Oppenheimer",
-          "url": "https://www.cnbc.com/2026/11/09/amd-oppenheimer-upgrade-outperform.html",
-          "date": "2026-11-09",
-          "publisher": "CNBC"
-        },
-        {
-          "title": "AMD or Nvidia: Which AI Chip Stock Would I Buy With $1,000 Today?",
-          "url": "https://www.nasdaq.com/articles/amd-or-nvidia-which-ai-chip-stock-would-i-buy-1000-today",
-          "date": "2026-11-08",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "AMD Stock Has More Than Doubled in 2026. Here's How Its Last 8 Doubles Played Out the Next Year.",
-          "url": "https://www.nasdaq.com/articles/amd-stock-has-more-doubled-2026-heres-how-its-last-8-doubles-played-out-next-year",
-          "date": "2026-11-08",
-          "publisher": "The Motley Fool"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "nameKo": "마이크론 테크놀로지",
-      "nameEn": "MICRON TECHNOLOGY INC",
-      "ratePct": 6.05,
-      "price": 731.75,
-      "amountUsd": 5300968230,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "마이크론의 장기 고정 공급계약(테이크오어페이) 부각, 메모리 반등",
-        "detail": "마이크론이 26건의 테이크오어페이(고객이 쓰든 안 쓰든 약정 물량 대금을 내는 계약)를 맺었다는 분석이 나왔다. 고객 약정 규모는 320억 달러이고 가격 보호 장치는 2030년까지 이어진다. 실적 변동성이 줄 수 있다는 기대가 메모리 업종 매수세로 이어졌을 가능성이 있다. 다만 이 기사가 오늘 상승을 직접 설명하는지는 불분명하고, 같은 날 AI 반도체주 전반이 급락 후 반등한 영향도 있을 수 있다. 직접 설명한 기사는 없다.",
-        "quote": "MU's 26 take-or-pay agreements are likely to reshape earnings stability, backed by $32B in customer commitments and long-term pricing protections through 2030.",
-        "quoteFrom": 2,
+        "headline": "GTA VI 출시를 앞두고 사전 예약이 기대를 크게 웃돈다는 소식",
+        "detail": "전날 종가는 $207.40으로 연초 대비 19.5% 하락, 장전 거래에서는 $215.50(+3.9%)로 표시됐다. UBS는 GTA VI가 실적 부진에도 예약 매출(bookings)·이익·잉여현금흐름을 끌어올릴 것으로 봤고, 목표가를 $300에서 $295로 소폭 낮추되 매수 의견을 유지했다. 회사는 $8bn 예약 매출 전망을 유지했다. 이미 출시일이 알려진 이벤트라 기대가 주가에 상당 부분 반영됐을 수 있다는 점은 주의할 부분이다.",
+        "quote": "Yet Take-Two Interactive (TTWO) closed at $207.40 on Nov 9, down 19.5% YTD and 18.2% over 3 months.",
+        "quoteFrom": 1,
         "others": [
           {
-            "n": 1,
-            "line": "시게이트(STX)가 회계 2027년 1분기 사상 최대 이익을 냈고, AI 저장장치 수요가 성장을 이끌지 주목된다."
+            "n": 6,
+            "line": "HSBC가 목표가를 $285에서 $282로 소폭 조정했다."
           }
         ],
         "refs": [
-          2
+          1,
+          2,
+          4,
+          5
         ]
       },
       "news": [
         {
-          "title": "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://www.nasdaq.com/articles/micron-technology-inc-mu-trending-stock-facts-know-betting-it",
-          "date": "2026-11-09",
-          "publisher": "Zacks"
+          "title": "Take-Two (TTWO) Q2 2027 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/take-two-ttwo-q2-2027-earnings-call-transcript",
+          "date": "2026-11-10",
+          "publisher": "The Motley Fool"
         },
         {
-          "title": "STX Posts Record Q1 FY27 Profit: Can AI Storage Demand Drive Growth?",
-          "url": "https://finance.yahoo.com/technology/articles/stx-posts-record-q1-fy27-121300140.html",
-          "date": "2026-11-09",
-          "publisher": "Zacks"
+          "title": "Is the imminent GTA VI launch already priced into Take-Two stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/imminent-gta-vi-launch-already-142613695.html",
+          "date": "2026-11-10",
+          "publisher": "Investing.com"
         },
         {
-          "title": "Micron's 26 SCAs: Can Take-or-Pay Deals Boost Earnings Stability?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microns-26-scas-pay-deals-120800703.html",
-          "date": "2026-11-09",
-          "publisher": "Zacks"
+          "title": "TTWO Stock In Focus As GTA VI Preorders Run ‘Far In Excess’ Of Expectations — UBS Trims Target",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ttwo-stock-focus-gta-vi-141520077.html",
+          "date": "2026-11-10",
+          "publisher": "Stocktwits"
         },
         {
-          "title": "AI Chips Today - AI Tech Leaders Gather to Define Future Innovation",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-ai-tech-113730173.html",
-          "date": "2026-11-09",
-          "publisher": "Simply Wall St."
+          "title": "GTA 6 Prepares for Star-Studded Miami Launch as Wall Street Eyes 37% Stock Rally",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gta-6-prepares-star-studded-140925258.html",
+          "date": "2026-11-10",
+          "publisher": "BeInCrypto"
+        },
+        {
+          "title": "UBS Adjusts Take-Two Interactive Software Price Target to $295 From $300, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-two-interactive-software-134156189.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Take-Two holds $8bn bookings outlook as Grand Theft Auto VI launch approaches",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/two-holds-8bn-bookings-outlook-133900018.html",
+          "date": "2026-11-10",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "HSBC Adjusts Price Target on Take-Two Interactive Software to $282 From $285",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-adjusts-price-target-two-131458748.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Take-Two: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/two-3-key-takeaways-long-120108732.html",
+          "date": "2026-11-10",
+          "publisher": "Motley Fool"
         }
       ]
     },
     {
-      "ticker": "SPCX",
-      "nameKo": "스페이스X",
-      "nameEn": "SPACE EXPLORATION TECHNOLOGIES CORP",
-      "ratePct": 5.81,
-      "price": 142.065,
-      "amountUsd": 3805662223,
-      "industry": "Aerospace & Defense",
-      "industryKo": "항공우주·방산",
+      "ticker": "SE",
+      "nameKo": "SEA(ADR)",
+      "nameEn": "SEA LIMITED ADS EACH REP ONE CLASS A ORD SHS",
+      "ratePct": 7.35,
+      "price": 83.69,
+      "amountUsd": 285526094,
+      "industry": "Internet Retail",
+      "industryKo": "온라인 유통",
+      "story": {
+        "headline": "3분기 매출 예상 상회, $10억 자사주 매입 승인",
+        "detail": "SEA는 3분기 매출이 시장 예상을 웃돌고 이익도 늘었으며, 이사회가 $10억 규모 자사주 매입을 승인했다. 일부 기사는 실적 직후 주가가 약 9% 하락했다고 전해, 이날 상승은 자사주 매입 등이 영향을 줬을 가능성이 있으나 직접 설명한 기사는 없다.",
+        "quote": "Sea Limited (NYSE:SE) reported third-quarter 2026 adjusted earnings of $0. 78 per share, below analysts' expectations of $0.",
+        "quoteFrom": 1,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          3
+        ]
+      },
+      "news": [
+        {
+          "title": "Sea Third-Quarter Revenue Tops Views; Shopee Growth Slows",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sea-third-quarter-revenue-tops-145739118.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Sea Limited Shares Fall Nearly 9% After Q3 Earnings Miss Despite 43% Revenue Growth",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sea-limited-shares-fall-nearly-145457767.html",
+          "date": "2026-11-10",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Compared to Estimates, Sea Limited (SE) Q3 Earnings: A Look at Key Metrics",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-sea-limited-se-133002984.html",
+          "date": "2026-11-10",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Sea's Q3 Earnings and Revenue Rise; Board Approves $1 Billion Share Buyback",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sea-apos-q3-earnings-revenue-120858409.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Vesalius Longevity Labs Announces Commencement of Trading on the Canadian Securities Exchange Under the Symbol \"VLAB\"",
+          "url": "https://finance.yahoo.com/news/vesalius-longevity-labs-announces-commencement-120000253.html",
+          "date": "2026-11-10",
+          "publisher": "CNW Group"
+        },
+        {
+          "title": "Sea (NYSE:SE) exceeds Q3 2026 expectations but stock drops",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sea-nyse-se-exceeds-q3-114016734.html",
+          "date": "2026-11-10",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "Sea Limited Reports Third Quarter 2026 Results",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sea-limited-reports-third-quarter-113000884.html",
+          "date": "2026-11-10",
+          "publisher": "Business Wire"
+        }
+      ]
+    },
+    {
+      "ticker": "PEPG",
+      "nameKo": "펩젠",
+      "nameEn": "PEPGEN INC",
+      "ratePct": 154.81,
+      "price": 6.09,
+      "amountUsd": 272721722,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "근긴장성 이영양증 2상 임상 긍정적 결과",
+        "detail": "펩젠은 근긴장성 이영양증 1형(DM1) 치료제 PGN-EDODM1의 2상(FREEDOM2-DM1) 10 mg/kg 용량 결과가 긍정적이라고 발표했다. 회사는 보고된 것 중 가장 높은 스플라이싱(유전자 정보 편집 과정) 교정과 여러 기능 지표 개선을 내세웠다. 장전에서 주가가 115% 넘게 올랐고, 월가 Wedbush는 목표가를 $4에서 $10으로 올리고 아웃퍼폼 의견을 유지했다. 초기 임상 단계라 향후 추가 데이터와 규제 과정이 변수다.",
+        "quote": "Investing.com -- PepGen Ltd (NASDAQ:PEPG) shares rose over 115% in premarket trade Tuesday following the release of positive topline results from the 10 mg/kg cohort of its Phase 2 FREEDOM2-DM1 trial evaluating PGN-EDODM1 in patients with myotonic dystrophy type 1 (DM1).",
+        "quoteFrom": 1,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          3
+        ]
+      },
+      "news": [
+        {
+          "title": "Wedbush Adjusts PepGen Price Target to $10 From $4, Maintains Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-adjusts-pepgen-price-target-152002001.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "PepGen stock soars over 100% on positive Phase 2 trial data for DM1 drug",
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-stock-soars-over-100-140645055.html",
+          "date": "2026-11-10",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "PepGen Reports Third Quarter 2026 Financial Results and Recent Corporate Highlights",
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-reports-third-quarter-2026-120500816.html",
+          "date": "2026-11-10",
+          "publisher": "Business Wire"
+        },
+        {
+          "title": "PepGen Announces Positive Phase 2 FREEDOM2-DM1 10 mg/kg Results Demonstrating Highest Reported Splicing Correction and Improvements Across Multiple Functional Measures",
+          "url": "https://finance.yahoo.com/healthcare/articles/pepgen-announces-positive-phase-2-120100228.html",
+          "date": "2026-11-10",
+          "publisher": "Business Wire"
+        }
+      ]
+    },
+    {
+      "ticker": "SANM",
+      "nameKo": "산미나",
+      "nameEn": "SANMINA CORP",
+      "ratePct": 10.91,
+      "price": 165.96,
+      "amountUsd": 207164217,
+      "industry": "Electronic Components",
+      "industryKo": "전자부품",
+      "story": {
+        "headline": "4분기 실적 호조와 AI 수요 기반 내년 가이던스 상향",
+        "detail": "산미나는 4분기(2026 회계연도) 매출이 84% 증가한 $38.6억, 비GAAP 주당순이익 $4.43을 기록했다. 실적·매출 서프라이즈는 각각 +35.47%, +10.92%였다. 최근 30일간 31.2% 하락한 뒤의 반등이라는 점도 감안해야 한다.",
+        "quote": "Sanmina Corp (SANM) posted 84% revenue growth to $3.86 billion and $4.43 non-GAAP EPS in Q4 FY2026, while guiding FY2027 revenue to $17.5--$19.5 billion on booming cloud and AI infrastructure demand.",
+        "quoteFrom": 4,
+        "others": [],
+        "refs": [
+          1,
+          4,
+          5
+        ]
+      },
+      "news": [
+        {
+          "title": "Sanmina (SANM) Q4 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/sanmina-sanm-q4-2026-earnings-call-transcript",
+          "date": "2026-11-10",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "Sanmina (SANM) Could Be 40% Undervalued As AI Driven Guidance Resets The Debate",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sanmina-sanm-could-40-undervalued-140827338.html",
+          "date": "2026-11-10",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Sanmina Q4 Earnings Call Highlights AI Growth and Platform Expansion",
+          "url": "https://finance.yahoo.com/technology/ai/articles/sanmina-q4-earnings-call-highlights-140000734.html",
+          "date": "2026-11-10",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Sanmina (SANM) Stock Looks Discounted Following Its 271% Five Year Run",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sanmina-sanm-stock-looks-discounted-130910920.html",
+          "date": "2026-11-10",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Sanmina Corp (SANM) Q4 2026 Earnings Call Highlights: Record Revenue Surge and Ambitious FY2027 ...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sanmina-corp-sanm-q4-2026-051017531.html",
+          "date": "2026-11-10",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Sanmina (SANM) Beats Q4 Earnings and Revenue Estimates",
+          "url": "https://www.nasdaq.com/articles/sanmina-sanm-beats-q4-earnings-and-revenue-estimates",
+          "date": "2026-11-09",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Here are the 2 big things we're watching in the stock market in the week ahead",
+          "url": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+          "date": "2026-11-08",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "OMH",
+      "nameKo": "오마이홈",
+      "nameEn": "OHMYHOME LIMITED",
+      "ratePct": 69.5,
+      "price": 43.8,
+      "amountUsd": 206190121,
+      "industry": null,
+      "industryKo": null,
       "story": {
         "headline": "",
         "detail": "기사로는 이유를 찾지 못했다",
@@ -192,69 +292,27 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Goldman Sachs (GS) Stock Looks Cheap Based On Excess Returns",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-gs-stock-looks-150935006.html",
+          "title": "Top Premarket Gainers",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/top-premarket-gainers-122245969.html",
           "date": "2026-11-09",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "SpaceX Cratered 20% in The Last Month: This Wall Street Pro Predicts 500% Returns at Today’s Price",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-cratered-20-last-month-134532080.html",
-          "date": "2026-11-09",
-          "publisher": "24/7 Wall St."
-        },
-        {
-          "title": "Here's What Must Happen for SpaceX Stock to Rebound",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-must-happen-spacex-stock-134200549.html",
-          "date": "2026-11-09",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Goldman Sachs Delivers Surprising Take on SpaceX Stock",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-delivers-surprising-spacex-133339696.html",
-          "date": "2026-11-09",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Alphabet Makes $548 Million In Major Tech Stock, Keeps Massive SpaceX Stake",
-          "url": "https://finance.yahoo.com/technology/articles/alphabet-makes-548-million-major-133014032.html",
-          "date": "2026-11-09",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Elon Musk Sets Massive 2032 Chipmaking Target for Tesla, SpaceX",
-          "url": "https://finance.yahoo.com/technology/articles/elon-musk-sets-massive-2032-132619609.html",
-          "date": "2026-11-09",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Baillie Gifford's Top Q3 2026 Move: Space Exploration Technologies Corp at a -1.92% Portfolio Impact",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/baillie-giffords-top-q3-2026-130104037.html",
-          "date": "2026-11-09",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Nvidia Stock Falls 6%. What That Tells Us About CEO Jensen Huang’s Future.",
-          "url": "https://finance.yahoo.com/m/cd92ecdf-5dd5-33c2-8165-ebf9bfa1317f/nvidia-stock-falls-6%25.-what.html",
-          "date": "2026-11-09",
-          "publisher": "Barrons.com"
+          "publisher": "MT Newswires"
         }
       ]
     },
     {
-      "ticker": "SNDK",
-      "nameKo": "샌디스크",
-      "nameEn": "SANDISK CORP",
-      "ratePct": 6.2,
-      "price": 886.8484,
-      "amountUsd": 2962932125,
-      "industry": "Computer Hardware",
-      "industryKo": "컴퓨터 하드웨어",
+      "ticker": "SMX",
+      "nameKo": "SMX(시큐리티 매터스)",
+      "nameEn": "SMX (SECURITY MATTERS) PLC",
+      "ratePct": 63.63,
+      "price": 15.2992,
+      "amountUsd": 154979504,
+      "industry": null,
+      "industryKo": null,
       "story": {
-        "headline": "마이크론 장기계약·HBF 기대에 낸드 메모리 관심",
-        "detail": "마이크론이 26건의 테이크오어페이 계약으로 320억 달러 규모 고객 약정을 확보했다는 소식이 나왔다. 번스타인은 AI 확산으로 메모리 용량·대역폭 수요가 커지면서, 새 저장 기술인 HBF(고대역폭 플래시)가 낸드플래시 업계의 새 성장 기회가 될 수 있다고 봤다. 메모리 업종에 대한 긍정적 시각이 샌디스크에도 영향을 줬을 가능성이 있다. 다만 샌디스크 자체의 소식은 아니어서 직접 설명한 기사는 없다.",
-        "quote": "",
-        "quoteFrom": -1,
+        "headline": "AI 기반 소재 연구 플랫폼 개발 발표",
+        "detail": "SMX는 AI로 소재 연구를 가속하는 'SMX Scientific Intelligence(SMX SCI)' 플랫폼을 개발 중이라고 발표했다. 제조에 쓰이는 화학 첨가제 등의 종합 데이터베이스를 만들고 신규 상업 서비스를 추진하며, 출시 목표는 2027년이다. 아직 개발 단계라 실제 매출 기여는 불확실하다.",
+        "quote": "SMX is expanding its technology capabilities with the development of SMX Scientific Intelligence (SMX SCI), an artificial intelligence-powered platform designed to accelerate material research, improve industrial applications and create new commercial opportunities.",
+        "quoteFrom": 0,
         "others": [],
         "refs": [
           0,
@@ -263,28 +321,137 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Micron's 26 SCAs: Can Take-or-Pay Deals Boost Earnings Stability?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microns-26-scas-pay-deals-120800703.html",
-          "date": "2026-11-09",
-          "publisher": "Zacks"
+          "title": "SMX Develops AI-Powered Scientific Intelligence Platform to Accelerate Material Research and Expand Commercial Services",
+          "url": "https://finance.yahoo.com/technology/ai/articles/smx-develops-ai-powered-scientific-150000977.html",
+          "date": "2026-11-10",
+          "publisher": "ACCESS Newswire"
         },
         {
-          "title": "Could HBF be the solution to the Memory bottleneck?",
-          "url": "https://finance.yahoo.com/technology/ai/articles/could-hbf-solution-memory-bottleneck-224023081.html",
-          "date": "2026-11-08",
-          "publisher": "Investing.com"
+          "title": "SMX Expands Into AI-Driven Material Science With New Scientific Intelligence Platform",
+          "url": "https://finance.yahoo.com/technology/ai/articles/smx-expands-ai-driven-material-140000962.html",
+          "date": "2026-11-10",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "SMX Advances Development of its Scientific Intelligence, an AI-Powered Platform Intended to Create a Comprehensive Codex for Chemical Agents, Additives and Supplements",
+          "url": "https://finance.yahoo.com/technology/ai/articles/smx-advances-development-scientific-intelligence-130000529.html",
+          "date": "2026-11-10",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "Global Tensions Highlight the Need for Greater Plastic Recycling; the Age of Parity Has Made It Possible",
+          "url": "https://finance.yahoo.com/energy/articles/global-tensions-highlight-greater-plastic-211000869.html",
+          "date": "2026-11-09",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "Media Continues to Profile SMX Technology and Growth",
+          "url": "https://finance.yahoo.com/technology/articles/media-continues-profile-smx-technology-210000785.html",
+          "date": "2026-11-09",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "SMX Proves \"Made in America\" Is Great Again",
+          "url": "https://finance.yahoo.com/economy/policy/articles/smx-proves-made-america-great-150000600.html",
+          "date": "2026-11-09",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "SMX Four-Layer Digital Platform for Plastics Connects Physical Material to Digital Passports, Markets and Credits",
+          "url": "https://finance.yahoo.com/energy/articles/smx-four-layer-digital-platform-143000205.html",
+          "date": "2026-11-09",
+          "publisher": "ACCESS Newswire"
+        },
+        {
+          "title": "SMX Is Building a Verifiable Identity Layer for Fashion, From Cotton Fields to Luxury Resale",
+          "url": "https://finance.yahoo.com/technology/articles/smx-building-verifiable-identity-layer-140000743.html",
+          "date": "2026-11-09",
+          "publisher": "ACCESS Newswire"
         }
       ]
     },
     {
-      "ticker": "TSLA",
-      "nameKo": "테슬라",
-      "nameEn": "TESLA INC",
-      "ratePct": 5.63,
-      "price": 378.38,
-      "amountUsd": 2900548701,
-      "industry": "Auto Manufacturers",
-      "industryKo": "완성차",
+      "ticker": "MARA",
+      "nameKo": "마라 홀딩스",
+      "nameEn": "MARA HOLDINGS INC",
+      "ratePct": 13.33,
+      "price": 7.525,
+      "amountUsd": 111358938,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "비트코인 담보 대출 상환과 $5억 자사주 매입 승인",
+        "detail": "마라는 비트코인 담보 대출 $7.5억을 갚고 $5억 자사주 매입을 승인했다. 3분기 순이익은 $6.321억으로 전년 $1.231억보다 늘었지만 매출은 35% 감소한 $1.642억이었다. 부채 $14억을 줄였다고 밝혔다. 3분기 이후 비트코인 13,597개를 팔았고 추가 매도 가능성도 있어, 매출 부진과 AI 인프라 자금 조달 환경 변화는 주의할 점이다.",
+        "quote": "Paying off its $750 million in bitcoin-collateralized loans left MARA Holdings with about $350 million from its bitcoin sale, by Unchained's calculation.",
+        "quoteFrom": 2,
+        "others": [],
+        "refs": [
+          2,
+          4,
+          5,
+          7
+        ]
+      },
+      "news": [
+        {
+          "title": "MARA Holdings (MARA) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/mara-holdings-mara-q3-2026-earnings-call-transcript",
+          "date": "2026-11-10",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "RIOT Stock Gains After Jefferies Upgrade, JP Morgan Price Target Hike: Analysts See Favorable Economics In Corsicana Data Center Deal",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/riot-stock-gains-jefferies-upgrade-131729912.html",
+          "date": "2026-11-10",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "Bitcoin Miner MARA Clears Its BTC-Backed Debt and Approves $500 Million Buyback After Q3 Profit",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-miner-mara-clears-btc-111552314.html",
+          "date": "2026-11-10",
+          "publisher": "Unchained"
+        },
+        {
+          "title": "MARA Holdings (MARA) Stock Sees Modest Fair Value Cut As Analysts Split On AI Pivot",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mara-holdings-mara-stock-sees-110753641.html",
+          "date": "2026-11-10",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "MARA Sold 13,597 Bitcoin After Q3, and It Isn't Done Selling",
+          "url": "https://finance.yahoo.com/news/mara-sold-13-597-bitcoin-033313868.html",
+          "date": "2026-11-10",
+          "publisher": "BeInCrypto"
+        },
+        {
+          "title": "MARA Stock Slips Overnight On Revenue Miss: CEO Says Market Is Becoming More Selective About How AI Infrastructure Is Financed",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mara-stock-slips-overnight-revenue-032212860.html",
+          "date": "2026-11-10",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "MARA Q3 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/mara-q3-earnings-call-highlights-011444527.html",
+          "date": "2026-11-10",
+          "publisher": "MarketBeat"
+        },
+        {
+          "title": "MARA Holdings, Inc. Reports Q3 2026 Net Income of $632.1 million and $1.4 billion Debt Reduction",
+          "url": "https://www.nasdaq.com/articles/mara-holdings-inc-reports-q3-2026-net-income-6321-million-and-14-billion-debt-reduction",
+          "date": "2026-11-09",
+          "publisher": "Fintel"
+        }
+      ]
+    },
+    {
+      "ticker": "AMIX",
+      "nameKo": "오토노믹스 메디컬",
+      "nameEn": "AUTONOMIX MEDICAL INC",
+      "ratePct": 58.82,
+      "price": 2.6999,
+      "amountUsd": 102917815,
+      "industry": null,
+      "industryKo": null,
       "story": {
         "headline": "",
         "detail": "기사로는 이유를 찾지 못했다",
@@ -293,368 +460,284 @@ window.MOVERS_DATA = {
         "others": [],
         "refs": []
       },
+      "news": []
+    },
+    {
+      "ticker": "AAON",
+      "nameKo": "에이에이온",
+      "nameEn": "AAON INC",
+      "ratePct": 24.35,
+      "price": 78.18,
+      "amountUsd": 95196424,
+      "industry": "Building Products & Equipment",
+      "industryKo": "건축자재·설비",
+      "story": {
+        "headline": "3분기 사상 최대 실적과 연간 전망 상향",
+        "detail": "HVAC(냉난방공조) 장비업체 에이에이온은 3분기 매출이 84% 늘어 $7.07억의 기록을 세웠고 영업이익은 두 배 넘게 늘어 $1억가 됐다. 실적·매출 서프라이즈는 각각 +45.61%, +18.31%였고 연간 가이던스도 올렸다. 장전에서 약 22% 올랐다. 다만 1·2분기 재무제표 재작성과 내부통제 중대한 미비점도 함께 공개돼 주의가 필요하다.",
+        "quote": "AAON Inc (AAON) posted 84% revenue growth with operating income more than doubling to $100 million, while flagging a first-half restatement and a material weakness in internal controls.",
+        "quoteFrom": 4,
+        "others": [
+          {
+            "n": 1,
+            "line": "Oppenheimer가 목표가를 $115에서 $105로 낮췄다."
+          }
+        ],
+        "refs": [
+          0,
+          3,
+          4,
+          6
+        ]
+      },
       "news": [
         {
-          "title": "Overall Tesla China Sales Rise 10%, Sales Inside China Sink To 4-Year Low; Robotaxi Launches New Market",
-          "url": "https://finance.yahoo.com/m/2ae36c92-8967-3edc-b819-36aaec68c362/overall-tesla-china-sales.html",
-          "date": "2026-11-09",
-          "publisher": "Investor's Business Daily"
+          "title": "AAON, Inc. Restates First and Second Quarter 2026 Financials, Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+          "url": "https://www.nasdaq.com/articles/aaon-inc-restates-first-and-second-quarter-2026-financials-reports-record-third-quarter",
+          "date": "2026-11-10",
+          "publisher": "Fintel"
         },
         {
-          "title": "Tesla to return some Cybertruck deposits, as enthusiasts swoop in ahead of halt",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-return-cybertruck-deposits-enthusiasts-150752289.html",
-          "date": "2026-11-09",
-          "publisher": "Investing.com"
+          "title": "Oppenheimer Adjusts Price Target on AAON to $105 From $115, Maintains Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-adjusts-price-target-aaon-142446711.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "Tesla to refund Cybertruck deposits as production nears end",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-refund-cybertruck-deposits-production-144600033.html",
-          "date": "2026-11-09",
-          "publisher": "Proactive"
+          "title": "The Aaon Group Announces Quarterly Cash Dividend",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aaon-group-announces-quarterly-cash-120000880.html",
+          "date": "2026-11-10",
+          "publisher": "PR Newswire"
         },
         {
-          "title": "Elon Musk says Tesla will return some Cybertruck deposits",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-tesla-return-140712048.html",
-          "date": "2026-11-09",
-          "publisher": "CBS News"
+          "title": "AAON Shares Surge 22% Premarket After Q3 Earnings Beat and Higher 2026 Revenue Guidance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aaon-shares-surge-22-premarket-114230425.html",
+          "date": "2026-11-10",
+          "publisher": "InvestorsHub"
         },
         {
-          "title": "Tesla Is Killing the Cybertruck, and Many Buyers Will Not Get One",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-killing-cybertruck-many-buyers-134338123.html",
-          "date": "2026-11-09",
+          "title": "AAON Inc (AAON) Q3 2026 Earnings Call Highlights: Record $707 Million Sales, Raised 72%-75% ...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aaon-inc-aaon-q3-2026-051007925.html",
+          "date": "2026-11-10",
           "publisher": "GuruFocus.com"
         },
         {
-          "title": "Musk says Tesla will refund some Cybertruck deposits, defends decision to end production",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/musk-says-tesla-refund-cybertruck-134328989.html",
-          "date": "2026-11-09",
-          "publisher": "TechCrunch"
+          "title": "AAON Q3 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aaon-q3-earnings-call-highlights-001430307.html",
+          "date": "2026-11-10",
+          "publisher": "MarketBeat"
         },
         {
-          "title": "Musk Says Tesla Will Refund “a Lot” of Cybertruck Deposits as Cybercab Takes the Line",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/musk-says-tesla-refund-lot-133439348.html",
+          "title": "Aaon (AAON) Q3 Earnings and Revenues Top Estimates",
+          "url": "https://www.nasdaq.com/articles/aaon-aaon-q3-earnings-and-revenues-top-estimates",
           "date": "2026-11-09",
-          "publisher": "TIKR"
+          "publisher": "Zacks"
         },
         {
-          "title": "Elon Musk Makes Stunning Tesla Cybertruck Decision",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-makes-stunning-tesla-133223965.html",
+          "title": "AAON Q3 Adjusted Earnings, Sales Rise; Shares Up After Hours",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aaon-q3-adjusted-earnings-sales-215518606.html",
           "date": "2026-11-09",
+          "publisher": "MT Newswires"
+        }
+      ]
+    },
+    {
+      "ticker": "ONTO",
+      "nameKo": "온투 이노베이션",
+      "nameEn": "ONTO INNOVATION INC",
+      "ratePct": 6.67,
+      "price": 206.98,
+      "amountUsd": 90846006,
+      "industry": "Semiconductor Equipment & Materials",
+      "industryKo": "반도체 장비·소재",
+      "story": {
+        "headline": "3분기 사상 최대 매출과 $13억 수주 잔고",
+        "detail": "온투 이노베이션은 3분기 매출이 $4.097억으로 전년 대비 87.8% 늘어난 기록을 냈다. 수주 잔고는 $13억이며 연간 매출 가이던스 중간값은 $14.85억이다. 첨단 패키징과 칩 제조용 검사·계측 장비 수요가 성장을 이끌었다.",
+        "quote": "Onto Innovation Inc (ONTO) posted Q3 revenue of $410 million, up nearly 90% year over year, with a record $1.3 billion backlog and full-year 2026 revenue guidance of $1.485 billion at the midpoint.",
+        "quoteFrom": 7,
+        "others": [
+          {
+            "n": 3,
+            "line": "Deutsche Bank가 목표가를 $330에서 $240으로 낮췄다."
+          },
+          {
+            "n": 4,
+            "line": "B. Riley가 목표가를 $285에서 $308로 올렸다."
+          }
+        ],
+        "refs": [
+          2,
+          6,
+          7
+        ]
+      },
+      "news": [
+        {
+          "title": "Onto Innovation (ONTO) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/innovation-q3-2026-earnings-call-transcript",
+          "date": "2026-11-10",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "Onto Innovation Inc. Bottom Line Rises In Q3",
+          "url": "https://www.nasdaq.com/articles/innovation-inc-bottom-line-rises-q3",
+          "date": "2026-11-10",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "Onto Innovation Reports 2026 Third Quarter Results",
+          "url": "https://www.nasdaq.com/articles/innovation-reports-2026-third-quarter-results",
+          "date": "2026-11-10",
+          "publisher": "Fintel"
+        },
+        {
+          "title": "Deutsche Bank Adjusts Onto Innovation Price Target to $240 From $330, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-onto-innovation-125426627.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "B. Riley Adjusts Price Target on Onto Innovation to $308 From $285, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-price-target-125301651.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "RBC Cuts Price Target on Onto Innovation to $350 From $400, Keeps Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-cuts-price-target-onto-122351134.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Onto Innovation Q3 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/onto-innovation-q3-earnings-call-051424002.html",
+          "date": "2026-11-10",
+          "publisher": "MarketBeat"
+        },
+        {
+          "title": "Onto Innovation Inc (ONTO) (Q3 2026) Earnings Call Highlights: Record Revenue, Surging Backlog ...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/onto-innovation-inc-onto-q3-051215512.html",
+          "date": "2026-11-10",
           "publisher": "GuruFocus.com"
         }
       ]
     },
     {
-      "ticker": "AVGO",
-      "nameKo": "브로드컴",
-      "nameEn": "BROADCOM INC",
-      "ratePct": 7.94,
-      "price": 317,
-      "amountUsd": 1992580214,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
+      "ticker": "ASX",
+      "nameKo": "ASE 테크놀로지 홀딩(ADR)",
+      "nameEn": "ASE TECHNOLOGY HOLDING CO LTD SPON ADS EACH REP",
+      "ratePct": 5.03,
+      "price": 36.09,
+      "amountUsd": 71365196,
+      "industry": null,
+      "industryKo": null,
       "story": {
-        "headline": "엔비디아 약세 속 경쟁 칩 업체로 매수세",
-        "detail": "월스트리트저널은 엔비디아가 장 시작 전 하락하는 가운데 경쟁 칩 업체들이 올랐다고 전했다. 엔비디아는 CEO 관련 조사로 흔들리고 있고, 지난 목요일 급락한 AI·반도체주가 반등하는 흐름이다. 브로드컴은 이날 오픈소스 프로젝트 기여 발표와 12월 9일 4분기 실적 발표 일정도 공개했지만 주가 재료로 보기는 어렵다. 엔비디아 이슈가 길어지면 반도체 전반에 부담이 될 수 있다는 분석도 있다.",
-        "quote": "",
-        "quoteFrom": -1,
+        "headline": "10월 매출 증가 발표",
+        "detail": "월간 매출 공개가 상승에 영향을 줬을 가능성이 있으나 직접 설명한 기사는 없다.",
+        "quote": "ASE Technology (ASX) reported October revenue Tuesday of 88.62 billion New Taiwan dollars ($2.70 bil",
+        "quoteFrom": 0,
         "others": [],
         "refs": [
-          1,
-          2
+          0,
+          1
         ]
       },
       "news": [
         {
-          "title": "Broadcom Contributes VM API Open Source Project to Cloud Native Computing Foundation",
-          "url": "https://finance.yahoo.com/technology/articles/broadcom-contributes-vm-api-open-140000669.html",
-          "date": "2026-11-09",
-          "publisher": "GlobeNewswire"
+          "title": "ASE Technology October Revenue Increases",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-october-revenue-increases-090919831.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "As Nvidia Sinks Premarket, Rival Chipmakers Jump",
-          "url": "https://finance.yahoo.com/m/d4a9fd21-87c3-3236-8e6d-ade3ef445ce9/as-nvidia-sinks-premarket%2C.html",
-          "date": "2026-11-09",
-          "publisher": "The Wall Street Journal"
-        },
-        {
-          "title": "Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on Wednesday, December 9, 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-announce-fourth-quarter-130000392.html",
-          "date": "2026-11-09",
+          "title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-holding-co-ltd-070000383.html",
+          "date": "2026-11-10",
           "publisher": "PR Newswire"
         }
       ]
     },
     {
-      "ticker": "MRVL",
-      "nameKo": "마벨 테크놀로지 그룹",
-      "nameEn": "MARVELL TECHNOLOGY INC",
-      "ratePct": 9.24,
-      "price": 154.25,
-      "amountUsd": 1009954652,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
+      "ticker": "ZETA",
+      "nameKo": "제타 글로벌 홀딩스",
+      "nameEn": "ZETA GLOBAL HLDGS CORP",
+      "ratePct": 6.68,
+      "price": 34.585,
+      "amountUsd": 65020630,
+      "industry": null,
+      "industryKo": null,
       "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "B. Riley Adjusts Price Target on Marvell Technology to $250 From $275, Maintains Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-price-target-125024729.html",
-          "date": "2026-11-09",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "ETFs Bought $13.1 Million of Marvell (MRVL) on Thursday",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-13-1-million-110211994.html",
-          "date": "2026-11-09",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-fell-58-record-110102390.html",
-          "date": "2026-11-09",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Marvell Is 57% Below Its High After a $115 Billion Deal: Is It Time to Sell, or Load Up?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-57-below-high-115-155440409.html",
-          "date": "2026-11-08",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "GFS or MRVL: Which Is the Better Value Stock Right Now?",
-          "url": "https://www.nasdaq.com/articles/gfs-or-mrvl-which-better-value-stock-right-now",
-          "date": "2026-11-06",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "LITE",
-      "nameKo": "루멘텀 홀딩스",
-      "nameEn": "LUMENTUM HLDGS INC",
-      "ratePct": 12.01,
-      "price": 603.29,
-      "amountUsd": 922531763,
-      "industry": "Communication Equipment",
-      "industryKo": "통신장비",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-fell-58-record-110102390.html",
-          "date": "2026-11-09",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Bernstein Adjusts Price Target on Lumentum Holdings to $635 From $900",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-adjusts-price-target-lumentum-105642142.html",
-          "date": "2026-11-09",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Marvell Is 57% Below Its High After a $115 Billion Deal: Is It Time to Sell, or Load Up?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-57-below-high-115-155440409.html",
-          "date": "2026-11-08",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Astera Labs Stock Drops 26% in a Week Despite Strong Earnings. Is It a Buy Now?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-stock-drops-26-112455818.html",
-          "date": "2026-11-08",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Here’s Why Lumentum (LITE) Was Downgraded",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-lumentum-lite-downgraded-184016295.html",
-          "date": "2026-11-07",
-          "publisher": "Insider Monkey"
-        },
-        {
-          "title": "Here's Why Lumentum (LITE) is Poised for a Turnaround After Losing 51.4% in 4 Weeks",
-          "url": "https://www.nasdaq.com/articles/heres-why-lumentum-lite-poised-turnaround-after-losing-514-4-weeks",
-          "date": "2026-11-06",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "BE",
-      "nameKo": "블룸 에너지",
-      "nameEn": "BLOOM ENERGY CORPORATION",
-      "ratePct": 13.59,
-      "price": 196.79,
-      "amountUsd": 840951759,
-      "industry": "Electrical Equipment & Parts",
-      "industryKo": "전기장비·부품",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Bloom Energy Stock Fell 16% on the Same Day 2 Giant Data Center Deals Named It. Is It a Buy?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-fell-16-003602254.html",
-          "date": "2026-11-09",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Bloom Energy (BE) Lands 900 Megawatt Data Center Power Deal In Biggest Overseas Win",
-          "url": "https://finance.yahoo.com/energy/articles/bloom-energy-lands-900-megawatt-160915925.html",
-          "date": "2026-11-08",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Fervo Energy Just Dropped 35% in a Month. Is It Time to Sell, or Load Up?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fervo-energy-just-dropped-35-032611021.html",
-          "date": "2026-11-08",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Here's What $10,000 Invested in Bloom Energy (BE) Stock Could Be Worth in 3 Years",
-          "url": "https://www.nasdaq.com/articles/heres-what-10000-invested-bloom-energy-be-stock-could-be-worth-3-years",
-          "date": "2026-11-07",
-          "publisher": "The Motley Fool"
-        }
-      ]
-    },
-    {
-      "ticker": "AMAT",
-      "nameKo": "어플라이드 머티어리얼즈",
-      "nameEn": "APPLIED MATERIALS INC",
-      "ratePct": 8.99,
-      "price": 362.635,
-      "amountUsd": 777340760,
-      "industry": "Semiconductor Equipment & Materials",
-      "industryKo": "반도체 장비·소재",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "A Fund With $4.4 Billion in US Equities Bought These 3 Stocks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fund-4-4-billion-us-135107188.html",
-          "date": "2026-11-09",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Applied Materials (AMAT) Stock Looks Above Fair Value After Its 127% Run",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-looks-131021140.html",
-          "date": "2026-11-09",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "B. Riley Adjusts Applied Materials Price Target to $475 From $700, Maintains Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-applied-materials-123722420.html",
-          "date": "2026-11-09",
-          "publisher": "MT Newswires"
-        }
-      ]
-    },
-    {
-      "ticker": "MRNA",
-      "nameKo": "모더나",
-      "nameEn": "MODERNA INC",
-      "ratePct": 7.08,
-      "price": 272.18,
-      "amountUsd": 740998891,
-      "industry": "Biotechnology",
-      "industryKo": "바이오테크",
-      "story": {
-        "headline": "3분기 흑자 전환·가이던스 상향에 목표가 줄상향",
-        "detail": "모더나는 2026년 매출 성장 전망을 올렸다. 3분기에 순이익 1억 6,200만 달러, 매출 13억 달러로 흑자 전환했다. 이날 골드만삭스는 목표주가를 137달러에서 195달러로, 파이퍼샌들러는 230달러에서 305달러로 올렸다. 실적 발표 직후에도 주가가 올랐던 만큼 단기 급등 부담은 있다.",
-        "quote": "MRNA raises its 2026 revenue growth outlook after strong Q3 results, lower costs and respiratory vaccine gains, while advancing its oncology pipeline.",
-        "quoteFrom": 0,
+        "headline": "3분기 호실적과 2026 전망 상향",
+        "detail": "제타 글로벌은 3분기 매출 $4.93억, 조정 EBITDA(상각 전 영업이익) 55% 증가를 기록했고 매출은 46% 늘었다. AI 기반 Athena 플랫폼 도입이 확대되며 2026년 전망을 $18.55억으로 올렸다. BofA($40→$44), RBC($40→$41) 등이 목표가를 올렸다.",
+        "quote": "Zeta Global Holdings Corp (ZETA) posts $493 million in Q3 revenue, 55% Adjusted EBITDA growth, and accelerating Athena adoption as it raises 2026 outlook to $1.855 billion.",
+        "quoteFrom": 6,
         "others": [],
         "refs": [
-          0,
           1,
           2,
-          4
+          4,
+          6
         ]
       },
       "news": [
         {
-          "title": "Moderna Q3 Earnings Call Highlights Raised Outlook and Oncology",
-          "url": "https://finance.yahoo.com/healthcare/articles/moderna-q3-earnings-call-highlights-132000769.html",
-          "date": "2026-11-09",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Goldman Sachs Adjusts Price Target on Moderna to $195 From $137",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-111258604.html",
-          "date": "2026-11-09",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Piper Sandler Adjusts Price Target on Moderna to $305 From $230",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-adjusts-price-target-111126483.html",
-          "date": "2026-11-09",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Moderna: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finance.yahoo.com/healthcare/articles/moderna-3-key-takeaways-long-011937094.html",
-          "date": "2026-11-09",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Moderna (MRNA) Stock Climbs As Q3 Earnings Mark Return To Profit",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-mrna-stock-climbs-q3-001637855.html",
-          "date": "2026-11-07",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Moderna (MRNA) Q3 2026 Earnings Call Transcript",
-          "url": "https://www.nasdaq.com/articles/moderna-mrna-q3-2026-earnings-call-transcript",
-          "date": "2026-11-06",
+          "title": "Zeta Global (ZETA) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/zeta-global-zeta-q3-2026-earnings-call-transcript",
+          "date": "2026-11-10",
           "publisher": "The Motley Fool"
         },
         {
-          "title": "MRNA Q3 Earnings Beat on COVID Sales, Raises '26 Outlook, Stock Rises",
-          "url": "https://www.nasdaq.com/articles/mrna-q3-earnings-beat-covid-sales-raises-26-outlook-stock-rises",
-          "date": "2026-11-06",
+          "title": "ZETA Q3 Earnings Call Highlights AI Growth and Higher Outlook",
+          "url": "https://finance.yahoo.com/technology/ai/articles/zeta-q3-earnings-call-highlights-140000805.html",
+          "date": "2026-11-10",
           "publisher": "Zacks"
         },
         {
-          "title": "What Moderna (MRNA) Said on Its Q3 Earnings Call",
-          "url": "https://www.nasdaq.com/articles/what-moderna-mrna-said-its-q3-earnings-call",
-          "date": "2026-11-06",
+          "title": "BofA Adjusts Price Target on Zeta Global to $44 From $40",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-zeta-131319015.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "B. Riley Adjusts PT on Zeta Global Holdings to $39 From $38, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-pt-zeta-131119453.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "RBC Lifts Price Target on Zeta Global Holdings to $41 From $40, Keeps Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-lifts-price-target-zeta-125208553.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Truist Adjusts Price Target on Zeta Global to $40 From $38, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/truist-adjusts-price-target-zeta-101552369.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Zeta Global Holdings Corp (ZETA) Q3 2026 Earnings Call Highlights: Record 46% Revenue Growth, ...",
+          "url": "https://finance.yahoo.com/news/zeta-global-holdings-corp-zeta-070900311.html",
+          "date": "2026-11-10",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "What Zeta Global (ZETA) Said on Its Q3 Earnings Call",
+          "url": "https://finance.yahoo.com/technology/ai/articles/zeta-global-zeta-said-q3-061246279.html",
+          "date": "2026-11-10",
           "publisher": "MarketBeat"
         }
       ]
     },
     {
-      "ticker": "NBIS",
-      "nameKo": "네비우스 그룹",
-      "nameEn": "NEBIUS GROUP N V",
-      "ratePct": 7.17,
-      "price": 138.77,
-      "amountUsd": 658453381,
-      "industry": "Internet Content & Information",
-      "industryKo": "인터넷 콘텐츠",
+      "ticker": "DOCN",
+      "nameKo": "디지털오션 홀딩스",
+      "nameEn": "DIGITALOCEAN HLDGS INC",
+      "ratePct": 7.66,
+      "price": 84.3,
+      "amountUsd": 60702660,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
       "story": {
         "headline": "",
         "detail": "기사로는 이유를 찾지 못했다",
@@ -663,87 +746,52 @@ window.MOVERS_DATA = {
         "others": [],
         "refs": []
       },
-      "news": [
-        {
-          "title": "Nebius Q3 Earnings Preview: What To Expect From Upcoming Report",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-q3-earnings-preview-expect-111135990.html",
-          "date": "2026-11-09",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Nebius Group (NBIS) Draws Fresh Scrutiny Over Data Center Permits",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nebius-group-nbis-draws-fresh-042516725.html",
-          "date": "2026-11-09",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
-          "url": "https://www.nasdaq.com/articles/nebius-group-nbis-loses-452-4-weeks-heres-why-trend-reversal-may-be-around-corner",
-          "date": "2026-11-06",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "AI stocks hammered by midterm shock as data center buildout becomes 'war of attrition'",
-          "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
-          "date": "2026-11-06",
-          "publisher": "CNBC"
-        }
-      ]
+      "news": []
     },
     {
-      "ticker": "ASML",
-      "nameKo": "ASML 홀딩(ADR)",
-      "nameEn": "ASML HOLDING NV EUR0.09 NY REGISTRY SHS 2012",
-      "ratePct": 5.6,
-      "price": 1504.505,
-      "amountUsd": 579723389,
-      "industry": "Semiconductor Equipment & Materials",
-      "industryKo": "반도체 장비·소재",
+      "ticker": "PXLW",
+      "nameKo": "픽셀웍스",
+      "nameEn": "PIXELWORKS INC",
+      "ratePct": 22.19,
+      "price": 6.3723,
+      "amountUsd": 54929373,
+      "industry": null,
+      "industryKo": null,
       "story": {
-        "headline": "선거 쇼크 급락 뒤 반도체주 반등 흐름에 동참",
-        "detail": "월요일 TSMC와 ASML 등 반도체주가 아시아·유럽에서 올랐다. 중간선거 후 데이터센터 투자 우려로 지난 목요일 AI 관련주가 크게 빠진 뒤 반등하는 흐름이다. 유럽장에서 ASML은 1.7% 올랐고, 대만 가권지수는 최대 6.7% 상승했다. 엔비디아 CEO 조사 건이 길어지면 다른 반도체 업체 지원에 영향을 줄 수 있다는 우려도 있다.",
-        "quote": "Chip stocks, including TSMC and ASML , were higher in Asia and Europe on Monday, after Nvidia's board launched an independent investigation on Sunday.",
+        "headline": "메타와 다년 VR 기술 제휴 계약",
+        "detail": "픽셀웍스는 메타와 다년 파트너십 및 기기 인증 계약을 맺었다. 메타의 VR 기기와 출시 예정 Meta VR Glasses가 TrueCut Motion 영상을 지원하도록 인증받는다. 장전에서 최대 20% 올랐다. 계약 금액은 제시되지 않아 실적 기여는 불확실하다.",
+        "quote": "Pixelworks, Inc. (NASDAQ: PXLW) (\"Pixelworks\" or the \"Company\"), a provider of innovative cinematic and enhanced visualization solutions, today announced a new multi-year partnership and device certification agreement with Meta.",
         "quoteFrom": 1,
-        "others": [
-          {
-            "n": 0,
-            "line": "ASML이 자사주 매입 거래 내역을 공시했다."
-          }
-        ],
+        "others": [],
         "refs": [
+          0,
           1
         ]
       },
       "news": [
         {
-          "title": "ASML reports transactions under its current share buyback program",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asml-reports-transactions-under-current-130000262.html",
-          "date": "2026-11-09",
-          "publisher": "GlobeNewswire"
+          "title": "Pixelworks stock surges on multi-year Meta VR technology deal",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pixelworks-stock-surges-multi-meta-141357595.html",
+          "date": "2026-11-10",
+          "publisher": "Investing.com"
         },
         {
-          "title": "Chip stocks gain despite Nvidia investigating Jensen Huang's affair",
-          "url": "https://www.cnbc.com/2026/11/09/asia-chip-stocks-south-korea-taiwan-nvidia.html",
-          "date": "2026-11-09",
-          "publisher": "CNBC"
-        },
-        {
-          "title": "Why ASML Holdings Fell in October",
-          "url": "https://www.nasdaq.com/articles/why-asml-holdings-fell-october",
-          "date": "2026-11-08",
-          "publisher": "The Motley Fool"
+          "title": "Pixelworks Partners with Meta to Bring TrueCut Motion Cinematic Content to Newly Launched Meta VR Glasses",
+          "url": "https://finance.yahoo.com/technology/articles/pixelworks-partners-meta-bring-truecut-130000711.html",
+          "date": "2026-11-10",
+          "publisher": "PR Newswire"
         }
       ]
     },
     {
-      "ticker": "COHR",
-      "nameKo": "코히어런트",
-      "nameEn": "COHERENT CORP",
-      "ratePct": 14.66,
-      "price": 221.075,
-      "amountUsd": 541676196,
-      "industry": "Scientific & Technical Instruments",
-      "industryKo": "과학·기술 측정기기",
+      "ticker": "TWLO",
+      "nameKo": "트윌리오",
+      "nameEn": "TWILIO INC",
+      "ratePct": 5.69,
+      "price": 218.39,
+      "amountUsd": 50198252,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
       "story": {
         "headline": "",
         "detail": "기사로는 이유를 찾지 못했다",
@@ -754,78 +802,22 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Applied Optoelectronics Says AI Demand Will Outrun Its Capacity Through 2027",
-          "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-says-ai-demand-170637357.html",
-          "date": "2026-11-07",
-          "publisher": "24/7 Wall St."
-        },
-        {
-          "title": "Coherent Signed a $20 Billion Deal. The Market Sold It Off 13% Anyway",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-signed-20-billion-deal-114344042.html",
-          "date": "2026-11-06",
-          "publisher": "TIKR"
-        }
-      ]
-    },
-    {
-      "ticker": "GEV",
-      "nameKo": "GE버노바",
-      "nameEn": "GE VERNOVA INC",
-      "ratePct": 6.62,
-      "price": 825.3755,
-      "amountUsd": 508238996,
-      "industry": "Specialty Industrial Machinery",
-      "industryKo": "산업기계",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Is the Options Market Predicting a Spike in GE Vernova Stock?",
-          "url": "https://finance.yahoo.com/markets/options/articles/options-market-predicting-spike-ge-134800693.html",
-          "date": "2026-11-09",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "GE Vernova Lands Wind Turbine Order With 20-Year Service Deal",
-          "url": "https://finance.yahoo.com/energy/articles/ge-vernova-lands-wind-turbine-125506997.html",
-          "date": "2026-11-09",
-          "publisher": "Benzinga"
-        },
-        {
-          "title": "GE Vernova Secures New German Wind Turbine Order — Adds 20-Year Service Agreement",
-          "url": "https://finance.yahoo.com/energy/articles/ge-vernova-secures-german-wind-124755808.html",
-          "date": "2026-11-09",
-          "publisher": "Stocktwits"
-        },
-        {
-          "title": "GE Vernova Secures German Wind Turbine Order from Stadtwerke Heidenheim for 16.5 MW Project",
-          "url": "https://finance.yahoo.com/energy/articles/ge-vernova-secures-german-wind-114029355.html",
-          "date": "2026-11-09",
-          "publisher": "InvestorsHub"
-        },
-        {
-          "title": "GE Vernova to Supply Onshore Wind Turbines for German Wind Farm",
-          "url": "https://finance.yahoo.com/energy/articles/ge-vernova-supply-onshore-wind-094152797.html",
-          "date": "2026-11-09",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "GE Vernova Continues Wind Energy Expansion in Germany With New Order From Stadtwerke Heidenheim AG",
-          "url": "https://finance.yahoo.com/energy/articles/ge-vernova-continues-wind-energy-090000953.html",
-          "date": "2026-11-09",
+          "title": "Verint Appoints Abhi Sharma as Chief Product and Technology Officer",
+          "url": "https://finance.yahoo.com/technology/ai/articles/verint-appoints-abhi-sharma-chief-133300987.html",
+          "date": "2026-11-10",
           "publisher": "Business Wire"
         },
         {
-          "title": "What NuScale Power (SMR) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-said-q3-201417452.html",
-          "date": "2026-11-08",
-          "publisher": "MarketBeat"
+          "title": "Daiwa Securities Adjusts Price Target on Twilio to $230 From $277",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/daiwa-securities-adjusts-price-target-105419968.html",
+          "date": "2026-11-10",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "The AI Expectations Gap: Twilio’s Report Finds Businesses Are Measuring AI Success on Metrics Customers Don't Care About",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-expectations-gap-twilio-report-140000952.html",
+          "date": "2026-11-09",
+          "publisher": "Business Wire"
         }
       ]
     }
