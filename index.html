@@ -256,7 +256,7 @@ const AGENTS=[
   {id:'t12',name:'도담',role:'12팀 · 매매 복기',tab:'t12',job:'매매 복기 글',
    duty:'사장님 <b>매매일지(trading-journal)에 매도가 기록되면</b> 이겼든 졌든 그 거래의 <b>복기 글</b>을 써서 티스토리 \'매매일지(종목)\'에 올리고 텔레그램으로 링크를 보내 드립니다. 매일 아침 7시쯤 확인합니다. 채점 기준은 결과가 아니라 <b>사장님이 정한 규칙(매수 전 체크리스트 21번 글 · Break Out 전략)을 지켰는지</b>입니다 — 시장 신호등, 돌파 거래량 2배, 다음 날 시가 상한(피벗 + 1 ADR), 손절선(매수가 − 1 ADR)이 언제 깨졌고 실제 매도가 며칠 늦었는지, 10·20일선 이탈과 판 뒤 흐름까지 <b>코드가 숫자로</b> 계산하고, 글은 그 숫자로만 사장님 문체로 씁니다. 이겨도 규칙을 어겼으면 "운"이라고 씁니다. 자료에 없는 숫자가 든 문장은 코드가 지우고, 수량·금액은 쓰지 않습니다.'},
   {id:'t13',name:'라온',role:'13팀 · 체크리스트 부합',tab:'t13',job:'체크리스트 부합 종목',
-   duty:'매일 아침 <b>직전 장에서 피벗을 돌파한 종목</b>을 사장님 <b>매수 전 체크리스트(티스토리 21번 글)</b>로 코드가 한 칸씩 채점합니다 — 30% 상승 + RS 상위 2%, ADR 4% 이상, 150일선 우상향·50일선 위, 2~8주 횡보, 깊이 25% 이내, 저점 상승·폭 축소, 거래량 마름(5일 ÷ 20일 0.7 이하), 피벗 위 마감, 돌파 거래량 2배 이상. <b>시장 칸(QQQ 10일선 &gt; 20일선)만 빼고 나머지가 전부 ✅</b>인 종목이 나오면 7팀 지우가 심층분석(N·실적·뉴스·리스크)을 하고, 쿨라매기 관점에서 무엇이 어떻게 맞는지 <b>"매수 전 점검" 글</b>을 사장님 문체로 써서 티스토리 \'종목 분석\'에 올리고 텔레그램으로 알려 드립니다. 시장이 빨간불이면 "체크리스트상 지금은 매수 금지"라고 분명히 씁니다. 하루 최대 3종목. 판단 보조이며 매수 권유가 아닙니다.'},
+   duty:'매일 아침 <b>직전 장에서 피벗을 돌파한 종목</b>을 사장님 <b>매수 전 체크리스트(티스토리 21번 글)</b>로 코드가 한 칸씩 채점합니다 — 30% 상승 + RS 상위 2%, ADR 4% 이상, 150일선 우상향·50일선 위, 2~8주 횡보, 깊이 25% 이내, 저점 상승·폭 축소, 거래량 마름(5일 ÷ 20일 0.7 이하), 피벗 위 마감, 돌파 거래량 2배 이상. <b>시장 칸(QQQ 10일선 &gt; 20일선)만 빼고 나머지가 전부 ✅</b>인 종목이 나오면 7팀 지우가 심층분석(N·실적·뉴스·리스크)을 하고, 쿨라매기 관점에서 무엇이 어떻게 맞는지 <b>"매수 전 점검" 글</b>을 사장님 문체로 써서 티스토리 \'종목 분석\'에 올리고 텔레그램으로 알려 드립니다. 시장이 빨간불이면 "체크리스트상 지금은 매수 금지"라고 분명히 씁니다. <b>한 칸만 빠진 종목</b>도 목록에 올립니다 — 단 <b>돌파 거래량 2배(그날 ÷ 직전 20거래일 평균)는 꼭 ✅</b>여야 하고, 글은 쓰지 않고 지우 심층분석만 해 둡니다. 티커를 누르면 체크리스트 전체와 심층분석이 뜹니다. 심층분석은 하루 최대 3종목(글 쓸 종목 먼저). 판단 보조이며 매수 권유가 아닙니다.'},
 ];
 const avatar=(a,cls='av')=>`<img class="${cls}" src="assets/avatars/${a.id}.svg" alt="${esc(a.name)}" loading="lazy" width="56" height="56">`;
 
@@ -358,8 +358,9 @@ function _dd(id){
   }
   if(id==='t13'){
     const t=(window.BLOG_DATA||{}).t13||{},P=t.posts||[],s=t.lastScan;
-    return {stat:s?P.filter(p=>p.breakDate===s.session).length:'—',statl:'체크리스트 부합 종목 (시장 칸 빼고)',
-      line:s?`${esc(s.session)} 돌파 ${s.breakouts}종목${(s.near||[]).length?` · 가까운 ${s.near.slice(0,3).map(x=>`${esc(x.ticker)}(${x.miss.length?'❌'+x.miss.length:'✅'})`).join(' ')}`:''}<br>지금까지 글 ${P.filter(p=>p.url).length}편`:'아직 확인 전 — 매일 아침 리서치 뒤',
+    const L=t.list||[];
+    return {stat:s?L.filter(x=>x.breakDate===s.session).length:'—',statl:'부합 · 한 칸 빠짐 (시장 칸 빼고)',
+      line:s?`${esc(s.session)} 돌파 ${s.breakouts}종목${L.length?` · 목록 ${L.slice(0,3).map(x=>`${esc(x.ticker)}(${x.kind==='full'?'✅':'🟡'})`).join(' ')}`:''}<br>지금까지 글 ${P.filter(p=>p.url).length}편 · 목록 ${L.length}종목`:'아직 확인 전 — 매일 아침 리서치 뒤',
       busy:!!s};
   }
   if(id==='t11'){
@@ -622,8 +623,8 @@ function briefing(id){
   }
   if(id==='t13'){
     const t=(window.BLOG_DATA||{}).t13||{},s=t.lastScan; if(!s)return '';
-    const full=(s.near||[]).filter(x=>!x.miss.length);
-    return `${esc(s.session)} 장에서 피벗을 돌파한 ${s.breakouts}종목을 체크리스트로 채점했습니다. 시장 칸을 뺀 나머지가 전부 ✅ 인 종목은 ${full.length?full.map(x=>`<b>${esc(x.ticker)}</b>`).join(', ')+'입니다':'없었습니다'}. 지난 넉 달을 되짚어 보면 전부 충족은 0건이었을 만큼 드문 조건입니다.`;
+    const full=(s.near||[]).filter(x=>!x.miss.length),one=(t.list||[]).filter(x=>x.kind==='near'&&x.breakDate===s.session);
+    return `${esc(s.session)} 장에서 피벗을 돌파한 ${s.breakouts}종목을 체크리스트로 채점했습니다. 시장 칸을 뺀 나머지가 전부 ✅ 인 종목은 ${full.length?full.map(x=>`<b>${esc(x.ticker)}</b>`).join(', ')+'입니다':'없었습니다'}. 한 칸만 빠진 종목(돌파 거래량 2배는 충족)은 ${one.length?one.map(x=>`<b>${esc(x.ticker)}</b>`).join(', ')+' — 목록에 올리고 심층분석만 해 뒀습니다':'없었습니다'}. 지난 넉 달을 되짚어 보면 전부 충족은 0건, 한 칸 빠짐은 6건이었을 만큼 드문 조건입니다.`;
   }
   if(id==='t11'){
     const c=window.COVEREDCALL_DATA; if(!c)return '';
@@ -934,6 +935,18 @@ function researchBlock(R){
 }
 /* ── 7팀 지우 — 결론 블록 (2026-10-13). 결론을 내는 유일한 팀. 코드가 조정했으면 그 사유를 그대로 보인다. ── */
 const VICON={'매수 적정':'🟢','조건부':'🟡','아니다':'🔴','판정 불가':'⚪'},VCOL={'매수 적정':'var(--grn)','조건부':'var(--yel)','아니다':'var(--red)','판정 불가':'var(--dim)'};
+// 13팀 라온 목록에 있는 종목이면 사장님 체크리스트(21번 글) 칸별 결과 — 코드 채점 그대로
+function raonSec(T){
+  const x=(((window.BLOG_DATA||{}).t13||{}).list||[]).find(i=>i.ticker===T);
+  if(!x||!(x.rows||[]).length)return '';
+  const ST={ok:'충족',no:'미충족',half:'부분 충족'},IC={ok:'✅',no:'❌',half:'🟡'};
+  const mk=x.rows.find(r=>r.no==='1'),info=x.rows.filter(r=>r.status==='info'),core=x.rows.filter(r=>r.no!=='1'&&r.status!=='info');
+  return `<div class="sec"><h4>라온 체크리스트 대조 <span class="dim">(21번 글 · ${esc(x.breakDate)} 돌파)</span> <span class="chip">${x.kind==='full'?'✅ 시장 칸 빼고 전부 충족':'🟡 시장 칸 빼고 한 칸 빠짐'}</span></h4>`
+    +(mk?`<div class="note" style="margin:0 0 6px">시장 칸(1번 — 셈에서 뺌): ${IC[mk.status]||'—'} ${esc(mk.detail||'')}</div>`:'')
+    +ck(core.map(r=>({item:`${r.no}. ${r.item}`,evidence:r.detail||'',status:ST[r.status]||''})))
+    +info.map(r=>`<div class="note">참고 ${esc(r.no)}. ${esc(r.item)} — ${esc(r.detail||'')}</div>`).join('')
+    +`<div class="note">코드가 채점한 결과입니다. 판단 보조이며 매수 권유가 아닙니다.</div></div>`;
+}
 function verdictBlock(x){
   if(!x)return '';
   const G=x.gates||{},B=x.basis||[];
@@ -969,6 +982,7 @@ function openTicker(T){
   h+=`<div class="chartbox" id="ohlcBox"><div class="empty">차트 불러오는 중…</div></div>`;
   h+=`<div class="chartbox" id="rsBox" style="margin-top:8px"><div class="empty">RS 그래프 불러오는 중…</div></div><div class="note" style="margin:2px 0 8px">RS = 그 기간 QQQ 대비 초과 수익(RS 사이트 일별 값, 최근 3개월). 세 선이 함께 오르면 강해지는 중이고, 1개월선만 꺾이면 최근 힘이 빠지는 중입니다.</div>`;
   h+=verdictBlock(od);
+  h+=raonSec(T);   // 13팀 라온 목록 종목 — 21번 글 체크리스트 칸별 결과 (2026-11-10)
   if(it)h+=`<div class="sec"><h4>핵심 지표 <span class="dim">(RS 사이트 · 쿨라매기 기준)</span></h4>${rows(colsFor('all').slice(1).map(([lab,tip,f])=>[`<span title="${esc(tip)}">${lab}</span>`,f(it)]))}</div>`;
   const K=p&&p.kis;
   if(K)h+=`<div class="sec"><h4>기업 기본 수치 <span class="dim">(한국투자증권 Open API · ${esc(K.fetchedAt||'')})</span></h4>${rows([
@@ -1408,8 +1422,15 @@ function bodyFor(id){
   if(id==='t13'){
     const t=(window.BLOG_DATA||{}).t13||{},P=t.posts||[],s=t.lastScan;
     if(!s)return '<div class="empty">아직 확인 전입니다 — 매일 아침 리서치가 끝난 뒤 직전 장의 돌파 종목을 채점합니다.</div>';
-    const MK={green:'🟢',yellow:'🟡',red:'🔴'};
-    let h=`<div class="sec"><h4>${esc(s.session)} 돌파 ${s.breakouts}종목 채점 <span class="dim">시장 ${MK[(s.regime||{}).verdict]||'⚪'} · RS ${esc(s.snapDate||'')}</span></h4>`
+    const MK={green:'🟢',yellow:'🟡',red:'🔴'},L=t.list||[],od=(D.od&&D.od.items)||[];
+    const lab=x=>{const no=x.miss[0],r=(x.rows||[]).find(q=>q.no===no);return r?`${no} ${r.item.split(/[:(]/)[0].trim()}`:no;};
+    let h=`<div class="sec"><h4>부합 · 한 칸 빠짐 목록 <span class="dim">최근 ${L.length}종목 · 시장 칸 빼고 · 돌파 거래량 2배 필수</span></h4>`
+      +(L.length?L.map(x=>{const v=(od.find(o=>o.ticker===x.ticker)||{}).verdict;
+        return `<div style="margin-bottom:8px"><span class="tk" data-tk="${esc(x.ticker)}">${esc(x.ticker)}</span> <span class="dim" style="font-size:12px">${esc(x.breakDate)} 돌파 · 거래량 ${n(x.breakVol,2)}배</span>
+          ${x.kind==='full'?'<span class="chip">✅ 전부 충족 · 글</span>':`<span class="chip">🟡 한 칸 빠짐: ${esc(lab(x))}</span>`}${v?` <span class="chip" style="color:${VCOL[v]||'var(--dim)'}">${VICON[v]||'⚪'} 지우 ${esc(v)}</span>`:x.analyzed?'':' <span class="dim" style="font-size:12px">심층분석 전</span>'}</div>`;}).join('')
+        :'<div class="note">아직 없습니다 — 시장 칸을 뺀 나머지가 전부 ✅ 이거나 한 칸만 빠진(돌파 거래량 2배는 ✅) 종목이 나오면 올립니다.</div>')
+      +'<div class="note">티커를 누르면 체크리스트 전체(칸마다 숫자)와 지우 심층분석이 뜹니다. 한 칸 빠진 종목은 글을 쓰지 않습니다.</div></div>';
+    h+=`<div class="sec"><h4>${esc(s.session)} 돌파 ${s.breakouts}종목 채점 <span class="dim">시장 ${MK[(s.regime||{}).verdict]||'⚪'} · RS ${esc(s.snapDate||'')}</span></h4>`
       +((s.near||[]).length?s.near.map(x=>`<div style="margin-bottom:6px"><span class="tk" data-tk="${esc(x.ticker)}">${esc(x.ticker)}</span> ${x.miss.length?`❌ ${x.miss.map(esc).join(' · ')}`:'✅ 시장 칸 빼고 전부 충족'} <span class="dim">돌파 거래량 ${n(x.breakVol,2)}배</span></div>`).join('')
         :'<div class="note">❌ 가 두 칸 이하인 종목이 없었습니다.</div>')
       +'<div class="note">❌ 옆 번호는 21번 글 체크리스트 칸입니다(예: 3-4 거래량 마름 · 2-1 30% 상승 + RS 상위 2%). 시장 칸(1번)은 빼고 셉니다. ❌ 두 칸 이하만 보입니다.</div></div>';

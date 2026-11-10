@@ -55,6 +55,14 @@ ok('13팀 기준 — 시장 칸만 ❌ 면 통과 · 확인 불가는 통과 아
   assert.strictEqual(UC.passesExceptMarket(rows), true);
   assert.strictEqual(UC.passesExceptMarket([...rows, { no: '3-4', status: 'na' }]), false);
 });
+ok('13팀 목록 — 전부 ✅ 는 글, 한 칸만 빠짐은 목록(돌파 거래량 2배 4-2 가 빠진 건 제외), 두 칸 이상은 제외', () => {
+  const { pick } = require('../../scripts/checklist-watch');
+  const it = (t, miss) => ({ ticker: t, miss });
+  const r = pick([it('FULL', []), it('ONE', ['3-4']), it('VOL', ['4-2']), it('TWO', ['2-1', '3-4'])]);
+  assert.deepStrictEqual(r.full.map((x) => x.ticker), ['FULL']);
+  assert.deepStrictEqual(r.near.map((x) => x.ticker), ['ONE']);
+});
+
 ok('RS 순위 — 상위 몇 % · 같은 업종 상위 2% 종목', () => {
   const data = Array.from({ length: 100 }, (_, i) => ({ T: `T${i}`, I: i < 3 ? 'Semis' : 'Other', r1: 100 - i, r3: i, r6: null }));
   const m = UC.rsRanks({ data });

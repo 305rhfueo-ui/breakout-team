@@ -2,6 +2,7 @@
 // 13팀 라온 — 체크리스트 부합 종목 (2026-11-07 사용자: "시장 조건 QQQ 10 > 20 이 안 맞더라도 나머지를 충족하는 게 있으면
 //   심층분석 글까지 포함해서 쿨라매기 관점에서 어떤 것들이 어떻게 부합하는지 티스토리에 올리고 텔레그램으로 알려줘")
 //   node scripts/checklist-watch.js                 정기(아침 morning.sh, 스캔 뒤) — 오늘 돌파 종목 중 시장 칸 빼고 전부 ✅ → 지우 심층분석 → 글 → 티스토리 → 텔레그램
+//                                                    시장 칸 빼고 한 칸만 빠짐(돌파 거래량 2배는 ✅) → 지우 심층분석만, 대시보드 목록(글·텔레그램 없음)
 //   node scripts/checklist-watch.js --list          오늘 돌파 종목 체크리스트만 찍는다 (분석·발행·알림 없음)
 //   node scripts/checklist-watch.js --ticker=X --dry   오늘 심층분석이 이미 있는 X 로 글만 만들어 CACHE_DIR/blog/ 에 저장
 //
@@ -22,11 +23,18 @@ const UC = require('./lib/user-checklist');
 const TS = require('./lib/tistory');
 const { dirOf, tagOf } = require('./prepare-ondemand');
 
-const MAX_MISS = 0;          // 시장 칸 말고 ✅ 가 아닌 줄을 몇 개까지 봐줄지 — 사용자 요청은 0 ("나머지를 충족하면")
-const DAILY_CAP = 3;         // 하루 심층분석 상한 (하나에 오퍼스 12~15분)
+const MAX_MISS = 0;          // 글: 시장 칸 말고 ✅ 가 아닌 줄을 몇 개까지 봐줄지 — 사용자 요청은 0 ("나머지를 충족하면")
+const MUST = '4-2';          // 목록: 시장 칸 말고 한 칸만 빠진 종목도 올리되 돌파 거래량 2배(그날 ÷ 직전 20일 평균)는 꼭 ✅
+                             //   (2026-11-10 사용자: "한 칸만 빠져도 리스트 표시, 글은 쓰지 말고 티커 누르면 세부 분석 · 거래량 20일 평균 대비 2배는 무조건")
+const DAILY_CAP = 3;         // 하루 심층분석 상한 (하나에 오퍼스 12~15분) — 글 쓸 종목 먼저, 남으면 한 칸 빠진 종목
+const LIST_KEEP = 30;        // 대시보드 목록에 남길 최근 종목 수
 const HITS_FILE = path.join(paths.cacheDir, 'checklist-hits.json');
 const OUT_DIR = path.join(paths.cacheDir, 'blog');
 const REPO = path.join(__dirname, '..');
+
+// full = 글 쓸 종목(시장 칸 빼고 전부 ✅) · near = 목록만(한 칸 빠짐, 거래량 2배는 ✅)
+const pick = (items) => ({ full: items.filter((x) => x.miss.length <= MAX_MISS),
+  near: items.filter((x) => x.miss.length === 1 && !x.miss.includes(MUST)) });
 
 function screen(day = today()) {
   const dir = path.join(paths.barsCache, day);
@@ -127,11 +135,33 @@ async function main() {
     return;
   }
   const hits = readJson(HITS_FILE, { v: 1, hits: {} });
-  const todo = sc.items.filter((x) => x.miss.length <= MAX_MISS && !hits.hits[`${x.ticker}|${x.num.breakDate}`]).slice(0, DAILY_CAP);
+  const key = (x) => `${x.ticker}|${x.num.breakDate}`;
+  const { full, near } = pick(sc.items);
+  const todo = full.filter((x) => !hits.hits[key(x)]).slice(0, DAILY_CAP);
+  const look = near.filter((x) => !hits.hits[key(x)]).slice(0, DAILY_CAP - todo.length);
   const scan = { session: sc.session, regime: sc.regime, snapDate: sc.snapDate, breakouts: sc.items.length,
     near: sc.items.filter((x) => x.miss.length <= 2).slice(0, 8).map((x) => ({ ticker: x.ticker, miss: x.miss, breakVol: x.num.breakVol })) };
-  const posts = [], save = () => TS.board((d) => { d.t13.lastScan = scan; d.t13.posts.unshift(...posts); }, { msg: `blog: 13팀 ${sc.session} 돌파 ${sc.items.length}종목 · 부합 ${todo.length}` });
-  if (!todo.length) { say('T13', '체크리스트 부합 종목 없음'); save(); return; }
+  // 목록 줄 — 티커 팝업에 체크리스트 전체가 뜨도록 칸별 결과도 담는다. 심층분석이 됐는지는 hits 로 안다.
+  const entry = (x, kind) => { const h = hits.hits[key(x)];
+    return { ticker: x.ticker, breakDate: x.num.breakDate, kind, miss: x.miss, breakVol: x.num.breakVol, analyzed: !!h && !h.error,
+      rows: x.rows.map(({ no, item, status, detail }) => ({ no, item, status, detail })), at: today() }; };
+  const posts = [], save = () => {
+    const listed = [...full.map((x) => entry(x, 'full')), ...near.map((x) => entry(x, 'near'))];
+    return TS.board((d) => {
+      d.t13.lastScan = scan; d.t13.posts.unshift(...posts);
+      d.t13.list = [...listed, ...(d.t13.list || []).filter((o) => !listed.some((q) => q.ticker === o.ticker && q.breakDate === o.breakDate))].slice(0, LIST_KEEP);
+    }, { msg: `blog: 13팀 ${sc.session} 돌파 ${sc.items.length}종목 · 부합 ${full.length} · 한 칸 빠짐 ${near.length}` });
+  };
+  for (const x of look) {   // 한 칸 빠진 종목 — 글은 안 쓰고 지우 심층분석만 (대시보드 팝업에 뜬다, 텔레그램 없음)
+    say('T13', `${x.ticker} 한 칸 빠짐(${x.miss[0]}) — 목록에 올리고 지우 심층분석 (글은 안 씀)`);
+    let error = null;
+    try {
+      execFileSync('bash', [path.join(REPO, 'deploy/macmini/run-ondemand.sh'), x.ticker], { cwd: REPO, env: { ...process.env, ONDEMAND_QUIET: '1' }, stdio: 'inherit', timeout: 30 * 60 * 1000 });
+    } catch (e) { error = `심층분석 실패 (${String(e.message).split('\n')[0].slice(0, 120)})`; say('WARN', `13팀 ${x.ticker}: ${error}`); }
+    hits.hits[key(x)] = { at: new Date().toISOString(), kind: 'list', error };
+    writeJson(HITS_FILE, hits);
+  }
+  if (!todo.length) { say('T13', `체크리스트 부합 종목 없음${near.length ? ` · 한 칸 빠짐 ${near.map((x) => x.ticker).join(', ')}` : ''}`); save(); return; }
   const { notify } = require('./lib/notify');
   for (const x of todo) {
     say('T13', `${x.ticker} 부합 — 지우 심층분석 시작`);
@@ -140,7 +170,7 @@ async function main() {
       execFileSync('bash', [path.join(REPO, 'deploy/macmini/run-ondemand.sh'), x.ticker], { cwd: REPO, env: { ...process.env, ONDEMAND_QUIET: '1' }, stdio: 'inherit', timeout: 30 * 60 * 1000 });
       r = await writeAndPublish(x, { sc });
     } catch (e) { r = { ok: false, error: `심층분석 실패 (${String(e.message).split('\n')[0].slice(0, 120)})` }; }
-    hits.hits[`${x.ticker}|${x.num.breakDate}`] = { at: new Date().toISOString(), url: r.url || null, pending: !!r.queued, error: r.ok || r.queued ? null : r.error };
+    hits.hits[key(x)] = { at: new Date().toISOString(), url: r.url || null, pending: !!r.queued, error: r.ok || r.queued ? null : r.error };
     writeJson(HITS_FILE, hits);
     if (r.ok || r.queued) continue;   // 올렸으면 TS.post 가 대시보드·텔레그램까지 했고, 로그인 대기면 로그인을 부탁했다
     posts.push({ ticker: x.ticker, breakDate: x.num.breakDate, verdict: r.rec ? r.rec.verdict : null, title: r.title || null, url: null, error: String(r.error).slice(0, 150), at: today() });
@@ -150,4 +180,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch((e) => { say('ERROR', e.stack || e.message); process.exit(1); });
-module.exports = { screen, writeAndPublish, message };
+module.exports = { screen, pick, writeAndPublish, message };
