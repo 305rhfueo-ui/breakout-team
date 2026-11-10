@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-10T13:00:13.521Z",
+  "updated": "2026-11-10T22:10:03.607Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어 대신 볼 만한 방산 자율주행 IPO 후보 소개",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 대신 볼 만한 방산 자율주행 IPO 후보 소개",
           "easy": "기사 본문은 확인하지 못했고 제목과 요약만 봤다. 팔란티어가 2020년 상장 이후 주가가 16배 올랐다는 점을 언급하며, 방산 분야의 새로운 '자율주행(autonomy) 강자' IPO 후보를 소개하는 글로 보인다. 구체적인 내용은 기사에 안 나왔다.",
           "whyMatters": "팔란티어를 직접 분석한 기사가 아니라 다른 IPO 후보를 부각하는 글로 보여, 보유 포지션에 미치는 영향은 이 요약만으로는 알 수 없다.",
@@ -113,21 +113,6 @@ window.HOLDINGS_DATA = {
           "read": false
         },
         {
-          "type": "news",
-          "title": "Prediction: $5,000 Invested in Palantir Will Be Worth This Much by 2031",
-          "url": "https://www.nasdaq.com/articles/prediction-5000-invested-palantir-will-be-worth-much-2031",
-          "date": "2026-11-06",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어에 5,000달러 투자 시 2031년 가치를 예측한 글",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어에 5,000달러 투자 시 2031년 가치를 예측한 글",
-          "easy": "기사 제목과 요약에 따르면 팔란티어가 고객에게 생산성 향상을 제공하며 매출이 크게 늘었다는 점을 근거로 2031년까지 5,000달러 투자의 가치를 전망하는 글이다. 본문은 확인하지 못해 구체적인 예상 금액과 근거는 기사 요약에 나오지 않았다.",
-          "whyMatters": "보유자에게 장기 성장 시나리오를 보여주는 의견성 글이다. 예측일 뿐이어서 실제 주가를 보장하지 않는다.",
-          "quote": null,
-          "read": false
-        },
-        {
           "type": "cnbc",
           "title": "Tuesday's biggest analyst calls of the day: Apple, SpaceX, Nvidia, Palantir & more",
           "url": "https://www.cnbc.com/2026/11/03/big-wall-street-analyst-calls-tuesday-include-apple-spacex-palantir.html",
@@ -184,6 +169,21 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어 호실적에도 신규 계약 둔화로 시간외 3% 하락",
           "easy": "증권사 요약 기준으로 매출은 23.1억 달러(YoY +95.9%)로 예상치를 6.6% 웃돌았고 연간 가이던스도 올렸다. 그러나 신규 계약 성장률이 YoY +48.6%에서 +5.7%로 크게 둔화됐고, 장기 RPO가 전분기보다 2.5% 줄었다. 이 때문에 시간외에서 주가가 3% 내렸다.",
           "whyMatters": "실적과 가이던스는 좋았지만 계약 성장 둔화가 시장 반응을 끌어내렸다. 보유자에게는 단기 하락 요인이지만 향후 계약 흐름이 핵심 변수다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "8k",
+          "title": "8-K 공시: 실적 발표 · Reg FD 공시",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm",
+          "date": "2026-11-02",
+          "publisher": "SEC",
+          "ko": "실적 발표 공시 — 실적 발표 · Reg FD 공시",
+          "tone": null,
+          "isNew": false,
+          "headline": null,
+          "easy": null,
+          "whyMatters": null,
           "quote": null,
           "read": false
         }
