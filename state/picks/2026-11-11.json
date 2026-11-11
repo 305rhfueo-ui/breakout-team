@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-11",
+  "count": 35,
+  "tickers": [
+    "MRNA",
+    "KOD",
+    "GKOS",
+    "GRAL",
+    "TXG",
+    "TWST",
+    "EPAM",
+    "ELF",
+    "ORKA",
+    "TEM",
+    "PRAX",
+    "ACN",
+    "VSXY",
+    "WING",
+    "HNGE",
+    "CRL",
+    "ANF",
+    "RHLD",
+    "MANE",
+    "OKTA",
+    "RVTY",
+    "AGL",
+    "RYTM",
+    "PVLA",
+    "EL",
+    "ALGT",
+    "NSIT",
+    "ESAB",
+    "XMTR",
+    "CAKE",
+    "SYRE",
+    "ICLR",
+    "SNOW",
+    "VEON",
+    "KNSA"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 8,
+      "sharePct": 22.9,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "ORKA",
+        "PRAX",
+        "MANE",
+        "RYTM",
+        "PVLA",
+        "SYRE"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 5,
+        "m3": 3,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 5,
+      "sharePct": 14.3,
+      "tickers": [
+        "GRAL",
+        "TWST",
+        "CRL",
+        "RVTY",
+        "ICLR"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 4
+      }
+    },
+    {
+      "key": "Industry:Medical Devices",
+      "level": "Industry",
+      "name": "Medical Devices",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "GKOS",
+        "TXG"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 0,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "EPAM",
+        "ACN"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 2,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Household & Personal Products",
+      "level": "Industry",
+      "name": "Household & Personal Products",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "ELF",
+        "EL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Health Information Services",
+      "level": "Industry",
+      "name": "Health Information Services",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "TEM",
+        "HNGE"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "VSXY",
+        "ANF"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Restaurants",
+      "level": "Industry",
+      "name": "Restaurants",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "WING",
+        "CAKE"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 1
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "GKOS",
+      "EPAM",
+      "ORKA",
+      "PRAX",
+      "WING",
+      "RHLD",
+      "AGL",
+      "RYTM",
+      "PVLA",
+      "ALGT",
+      "ESAB",
+      "SYRE"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "GRAL",
+      "EPAM",
+      "TEM",
+      "ACN",
+      "VSXY",
+      "WING",
+      "HNGE",
+      "ANF",
+      "MANE",
+      "RVTY",
+      "EL",
+      "XMTR",
+      "VEON"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "GRAL",
+      "TXG",
+      "TWST",
+      "ELF",
+      "ORKA",
+      "TEM",
+      "VSXY",
+      "HNGE",
+      "CRL",
+      "ANF",
+      "OKTA",
+      "NSIT",
+      "CAKE",
+      "ICLR",
+      "SNOW",
+      "KNSA"
+    ]
+  },
+  "cross": {
+    "persistent": [],
+    "newEntrants": [
+      "GKOS",
+      "PRAX",
+      "RHLD",
+      "AGL",
+      "RYTM",
+      "PVLA",
+      "ALGT",
+      "ESAB",
+      "SYRE"
+    ],
+    "midTerm": [
+      "MRNA",
+      "KOD",
+      "GRAL",
+      "TEM",
+      "ACN",
+      "VSXY",
+      "HNGE",
+      "ANF",
+      "MANE",
+      "RVTY",
+      "EL",
+      "XMTR",
+      "VEON"
+    ],
+    "fading": [
+      "TXG",
+      "TWST",
+      "ELF",
+      "CRL",
+      "OKTA",
+      "NSIT",
+      "CAKE",
+      "ICLR",
+      "SNOW",
+      "KNSA"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "RKLB",
+      "TTWO",
+      "CHTR",
+      "AAON",
+      "EMBJ",
+      "AXSM",
+      "ANIP",
+      "MLAB",
+      "FORTY"
+    ],
+    "m1": [
+      "APP",
+      "FCN",
+      "GKOS",
+      "EPAM",
+      "ORKA",
+      "PRAX",
+      "POOL",
+      "CROX",
+      "WING",
+      "RHLD",
+      "IDXX",
+      "AGL",
+      "RYTM",
+      "PVLA",
+      "ALGT",
+      "ESAB",
+      "MIDD",
+      "SYRE",
+      "ROP",
+      "NXST",
+      "SITE",
+      "SWK"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "GRAL",
+      "EPAM",
+      "TEM",
+      "ACN",
+      "WING",
+      "ANF",
+      "HNGE",
+      "SIG",
+      "MANE",
+      "RVTY",
+      "HAE",
+      "EL",
+      "ULTA",
+      "PTC",
+      "XMTR",
+      "FCN",
+      "VSXY",
+      "TYL",
+      "VEON",
+      "MANH"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "TXG",
+      "TWST",
+      "ELF",
+      "VSXY",
+      "HNGE",
+      "CRL",
+      "SN",
+      "ANF",
+      "HAE",
+      "OKTA",
+      "GRAL",
+      "MANH",
+      "VEEV",
+      "NSIT",
+      "CAKE",
+      "ORKA",
+      "ICLR",
+      "SNOW",
+      "TEM",
+      "KNSA"
+    ],
+    "all": []
+  }
+}
