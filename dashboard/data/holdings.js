@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-11T13:00:11.932Z",
+  "updated": "2026-11-11T22:10:08.544Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어, 소버린 AI를 방산·건설·헬스케어로 확대",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어, 소버린 AI를 방산·건설·헬스케어로 확대",
           "easy": "팔란티어가 국가 단위 AI(소버린 AI) 도입을 방산, 건설, 헬스케어로 넓히고 있다. 고객과의 관계가 깊어지고 반복 매출 기회가 생길 수 있다. 다만 이번 발표에는 계약 금액이 공개되지 않았다.",
           "whyMatters": "사업 확장 방향은 긍정적이지만 계약 규모가 불명확해 실적 기여도는 아직 가늠하기 어렵다.",
@@ -79,21 +79,6 @@ window.HOLDINGS_DATA = {
           "headline": "CNBC, 지난주 급락장에서 밀린 종목들 점검",
           "easy": "CNBC가 Josh Brown의 종목 리스트 중 지난주 하락장에서 크게 밀린 종목들과 앞으로의 방향을 다룬 기사다. 제공된 본문에는 저작권 문구만 있어 실제 내용을 읽지 못했다. 팔란티어가 여기에 포함되는지는 기사에 안 나왔다.",
           "whyMatters": "본문이 없어 팔란티어와의 관련성이나 영향을 판단할 수 없다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Palantir Stock Just Fell 8 Days in a Row. History Says What Followed Its Only 2 Longer Losing Streaks.",
-          "url": "https://www.nasdaq.com/articles/palantir-stock-just-fell-8-days-row-history-says-what-followed-its-only-2-longer-losing",
-          "date": "2026-11-07",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어 주가가 8거래일 연속 하락했다",
-          "tone": "bad",
-          "isNew": false,
-          "headline": "팔란티어 주가가 8거래일 연속 하락했다",
-          "easy": "팔란티어 주가가 11월 5일까지 8거래일 연속 하락 마감했고, 그 사이 약 22% 떨어졌다. 기사 제목은 과거 이보다 더 길게 하락한 사례가 2번뿐이었다며 그 뒤 흐름을 짚는다고 했다. 다만 하락 원인과 과거 사례 이후의 결과는 제공된 요약에 나오지 않았다.",
-          "whyMatters": "주가가 올라야 이익인 보유자에게는 단기간에 평가손실이 커진 상황이다. 과거 사례 이후 흐름은 기사 본문을 확인해야 알 수 있다.",
           "quote": null,
           "read": false
         },
