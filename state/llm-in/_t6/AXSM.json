@@ -1,0 +1,725 @@
+{
+ "ticker": "AXSM",
+ "date": "2026-11-11",
+ "session": "2026-11-10",
+ "source": "list",
+ "plan": {
+  "ticker": "AXSM",
+  "name": "액섬 테라퓨틱스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 140.97,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 216.47,
+  "stop": 209.32,
+  "distToPivotPct": -34.88,
+  "distToPivotAdr": -6.88,
+  "riskPerSharePct": 3.3,
+  "adrPct": 5.07,
+  "extensionAdr": 0.4,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 43.2,
+   "priorMovePct": 9.9,
+   "higherLows": 0,
+   "contraction": 1.3,
+   "closeRange10Adr": 2,
+   "surf10": 0.4,
+   "surf20": -0.71,
+   "slope20": -5.18,
+   "baseLow": 123,
+   "lastSwingLow": 123
+  },
+  "reasons": [
+   "✗ 선행 상승 +10%",
+   "베이스 8주",
+   "✗ 깊이 43.2%",
+   "✗ 저점 상승 0회",
+   "진폭 1.3배 · 10일 종가폭 2 ADR",
+   "✗ 10일선 +0.4 ADR · 20일선 -0.7 ADR",
+   "✗ 20일선 기울기 -5.18%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.00565599819831758,
+    "pct": 21.505861136158703
+   },
+   "m3": {
+    "v": -0.27363267692218635,
+    "pct": 5.365193868349865
+   },
+   "m6": {
+    "v": -0.33692991913149495,
+    "pct": 3.651938683498648
+   }
+  },
+  "ret1m": -9.82,
+  "ret3m": -34.82,
+  "ret6m": -38.87,
+  "marketCap": "7.42B",
+  "volx": 1.12,
+  "volSurgeWk": 1.14,
+  "high52": 54.18,
+  "newHigh52": false,
+  "adr": 5.07,
+  "div50": -19.52,
+  "div200": -28.68,
+  "targetStatus": false,
+  "saleCy": 49.13,
+  "saleNy": 52.2,
+  "epsCy": -27.16,
+  "epsNy": -240.26,
+  "cyTrend": -8.52,
+  "nyTrend": -23.89,
+  "est": {
+   "cyCur": -2.53053,
+   "cy30": -2.7661,
+   "nyCur": 3.54927,
+   "ny30": 4.66364
+  },
+  "fs": {
+   "sale": [
+    45.54,
+    57.42,
+    65.03
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자축소"
+   ],
+   "opm": [
+    -22.73,
+    -33.14,
+    -13.75
+   ],
+   "updated": "2026-09-08 06:10:20"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-11",
+  "nameKo": "액섬 테라퓨틱스",
+  "nameEn": "AXSOME THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579428&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 259691000,
+     "profit": -11068000,
+     "netIncome": -12877000,
+     "margin": -4.3,
+     "yoy": {
+      "revenue": 51.9,
+      "profit": 76,
+      "netIncome": 72.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 218375000,
+     "profit": -49646000,
+     "netIncome": -51314000,
+     "margin": -22.7,
+     "yoy": {
+      "revenue": 45.5,
+      "profit": -35.2,
+      "netIncome": -7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 191203000,
+     "profit": -63357000,
+     "netIncome": -64542000,
+     "margin": -33.1,
+     "yoy": {
+      "revenue": 57.4,
+      "profit": -11.2,
+      "netIncome": -8.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 195999000,
+     "profit": -26957000,
+     "netIncome": -28559000,
+     "margin": -13.8,
+     "yoy": {
+      "revenue": 65,
+      "profit": 62.9,
+      "netIncome": 61.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Axsome Therapeutics vs. BioNTech: Which Healthcare Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/axsome-therapeutics-vs-biontech-which-healthcare-stock-better-buy-2027",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axsome: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/axsome-3-key-takeaways-long-term-investors",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axsome (AXSM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/axsome-axsm-q3-2026-earnings-call-transcript",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Axsome Therapeutics (AXSM) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-axsome-therapeutics-axsm-said-its-q3-earnings-call",
+     "date": "2026-11-02",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Axsome Therapeutics Q3 Sales Rise Across Key Brands; Pipeline Milestones Set For 2027",
+     "url": "https://www.nasdaq.com/articles/axsome-therapeutics-q3-sales-rise-across-key-brands-pipeline-milestones-set-2027",
+     "date": "2026-11-02",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Axsome (AXSM) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/axsome-axsm-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Axsome Therapeutics (AXSM) Reports Q3 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/axsome-therapeutics-axsm-reports-q3-loss-tops-revenue-estimates",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Could Axsome Therapeutics Turn $5,000 Into $50,000 by 2035?",
+     "url": "https://www.nasdaq.com/articles/could-axsome-therapeutics-turn-5000-50000-2035",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526442628/axsm-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526341206/axsm-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526304039/axsm-20260715.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526264047/axsm-20260605.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526264043/axsm-20260605.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526254708/axsm-20260603.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "AXSM",
+  "fetchedAt": "2026-11-11",
+  "source": "한국투자증권 Open API",
+  "per": 37.5,
+  "pbr": 88.5,
+  "eps": 3.76,
+  "bps": 1.59,
+  "shares": 52600000,
+  "marketCapM": 7415,
+  "high52": 260.19,
+  "high52Date": "2026-06-18",
+  "low52": 123.0001,
+  "low52Date": "2026-11-02",
+  "last": 140.97,
+  "prevClose": 133.96,
+  "nameKo": "액섬 테라퓨틱스",
+  "nameEn": "AXSOME THERAPEUTICS INC",
+  "listedOn": "2015-11-18",
+  "exchange": "나스닥",
+  "listedShares": 52600000
+ },
+ "estimates": {
+  "ticker": "AXSM",
+  "url": "https://finance.yahoo.com/quote/AXSM/analysis/",
+  "fetchedAt": "2026-11-11",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -0.11,
+    "epsLow": -1,
+    "epsHigh": -0.41,
+    "epsYearAgo": -0.56,
+    "epsAnalysts": 13,
+    "epsGrowth": 80,
+    "epsCur": "USD",
+    "rev": 283153390,
+    "revAnalysts": 20,
+    "revYearAgo": 195999000,
+    "revGrowth": 44.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 0.03,
+    "epsLow": -0.21,
+    "epsHigh": 0.36,
+    "epsYearAgo": -0.56,
+    "epsAnalysts": 12,
+    "epsGrowth": 105.4,
+    "epsCur": "USD",
+    "rev": 297489860,
+    "revAnalysts": 7,
+    "revYearAgo": 191203000,
+    "revGrowth": 55.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -2.53,
+    "epsLow": -3.33,
+    "epsHigh": -0.68,
+    "epsYearAgo": -3.47,
+    "epsAnalysts": 13,
+    "epsGrowth": 27.2,
+    "epsCur": "USD",
+    "rev": 952180090,
+    "revAnalysts": 21,
+    "revYearAgo": 638496000,
+    "revGrowth": 49.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 3.38,
+    "epsLow": 0.93,
+    "epsHigh": 7.25,
+    "epsYearAgo": -2.53,
+    "epsAnalysts": 13,
+    "epsGrowth": 233.6,
+    "epsCur": "USD",
+    "rev": 1449190490,
+    "revAnalysts": 21,
+    "revYearAgo": 952180090,
+    "revGrowth": 52.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.64,
+    "d7": -0.6,
+    "d30": -33.3,
+    "d90": -108.3,
+    "ago90": -0.31,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 8
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.03,
+    "d7": 108.8,
+    "d30": -81.7,
+    "d90": -89.9,
+    "ago90": 0.3,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -2.53,
+    "d7": -4.4,
+    "d30": 8.5,
+    "d90": 0.1,
+    "ago90": -2.53,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 7
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 3.38,
+    "d7": -8.3,
+    "d30": -27.5,
+    "d90": -33.1,
+    "ago90": 5.05,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 5
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -0.25,
+    "estimate": -0.64,
+    "surprisePct": 60.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -1.26,
+    "estimate": -0.86,
+    "surprisePct": -46,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": -0.94,
+    "estimate": -0.9,
+    "surprisePct": -4.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 9,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 272,
+     "ptPrior": 284
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 249,
+     "ptPrior": 247
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 239,
+     "ptPrior": 256
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 273,
+     "ptPrior": 295
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 275
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 220,
+     "ptPrior": 246
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 238,
+     "ptPrior": 258
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 295,
+     "ptPrior": 297
+    },
+    {
+     "date": "2026-09-29",
+     "firm": "Deutsche Bank",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 267,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 247,
+     "ptPrior": 251
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-02",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-10",
+  "numbers": {
+   "price": 140.97,
+   "ma20": 146.07,
+   "ma50": 175.16,
+   "ma150": 206.56,
+   "distMA50": -19.52,
+   "periodHigh": 260.19,
+   "pullbackFromHigh": -45.82,
+   "volRatio20": 1.15,
+   "dryUpRatio": 0.94
+  },
+  "last10": [
+   {
+    "d": "2026-10-28",
+    "o": 141.04,
+    "h": 144.14,
+    "l": 140.49,
+    "c": 143.51,
+    "v": 739300,
+    "clsPos": 83,
+    "gapPct": -0.82
+   },
+   {
+    "d": "2026-10-29",
+    "o": 146.79,
+    "h": 147.49,
+    "l": 140.42,
+    "c": 143.45,
+    "v": 850300,
+    "clsPos": 43,
+    "gapPct": 2.29
+   },
+   {
+    "d": "2026-10-30",
+    "o": 143.23,
+    "h": 146.16,
+    "l": 131.26,
+    "c": 144.43,
+    "v": 2171500,
+    "clsPos": 88,
+    "gapPct": -0.15
+   },
+   {
+    "d": "2026-11-02",
+    "o": 137.15,
+    "h": 138.1,
+    "l": 123,
+    "c": 136.01,
+    "v": 2717800,
+    "clsPos": 86,
+    "gapPct": -5.04
+   },
+   {
+    "d": "2026-11-03",
+    "o": 136.88,
+    "h": 145.5,
+    "l": 136.88,
+    "c": 139.61,
+    "v": 1679400,
+    "clsPos": 32,
+    "gapPct": 0.64
+   },
+   {
+    "d": "2026-11-04",
+    "o": 140.56,
+    "h": 140.56,
+    "l": 134.38,
+    "c": 137,
+    "v": 1034200,
+    "clsPos": 42,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-11-05",
+    "o": 137,
+    "h": 137.56,
+    "l": 128.99,
+    "c": 129.8,
+    "v": 1109500,
+    "clsPos": 9,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-06",
+    "o": 130.46,
+    "h": 133.79,
+    "l": 130,
+    "c": 132.37,
+    "v": 718300,
+    "clsPos": 63,
+    "gapPct": 0.51
+   },
+   {
+    "d": "2026-11-09",
+    "o": 133.29,
+    "h": 134.71,
+    "l": 131.41,
+    "c": 133.96,
+    "v": 1117900,
+    "clsPos": 77,
+    "gapPct": 0.7
+   },
+   {
+    "d": "2026-11-10",
+    "o": 134.6,
+    "h": 142.93,
+    "l": 133.87,
+    "c": 140.97,
+    "v": 1285500,
+    "clsPos": 78,
+    "gapPct": 0.48
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AXSM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AXSM-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 16일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": null
+}

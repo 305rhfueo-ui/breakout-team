@@ -1,0 +1,96 @@
+{
+ "ticker": "BAP",
+ "news": [
+  {
+   "title": "BAP Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/bap-makes-bullish-cross-above-critical-moving-average",
+   "date": "2026-11-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Credicorp (BAP) Misses Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/credicorp-bap-misses-q3-earnings-estimates",
+   "date": "2026-11-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Credicorp (BAP) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-credicorp-bap-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Credicorp (BAP) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-credicorp-bap-great-dividend-stock-right-now-0",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Credicorp (BAP) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/credicorp-bap-said-q3-earnings-221442975.html",
+   "date": "2026-11-10",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Credicorp (BAP) Misses Q3 Earnings Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/credicorp-bap-misses-q3-earnings-010502781.html",
+   "date": "2026-11-10",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Credicorp: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/credicorp-q3-earnings-snapshot-224405100.html",
+   "date": "2026-11-09",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Has Citigroup (C) Outpaced Other Finance Stocks This Year?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-c-outpaced-other-finance-134002438.html",
+   "date": "2026-11-05",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Standard Chartered PLC (SCBFF) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/standard-chartered-plc-scbff-q3-101003366.html",
+   "date": "2026-10-28",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.97,
+  "saleNy": 10.81,
+  "epsCy": 12.17,
+  "epsNy": 17.85,
+  "cyTrend": -2.43,
+  "nyTrend": -0.17,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.23,
+    17.07,
+    29.31
+   ],
+   "ni": [
+    15.82,
+    26.93,
+    70.53
+   ],
+   "opm": [
+    38.09,
+    40.58,
+    34.92
+   ],
+   "updated": "2026-09-07 07:14:35"
+  }
+ }
+}

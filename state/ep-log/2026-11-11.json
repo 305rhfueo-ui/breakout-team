@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "ticker": "CLX",
+      "price": 106.5999984741211,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ORKA",
+      "price": 109.5,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CIB",
+      "price": 91.1500015258789,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TTWO",
+      "price": 224.63999938964844,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MLAB",
+      "price": 136.91000366210938,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "EMBJ",
+      "price": 82.5,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "AMG",
+      "price": 401.32000732421875,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BAP",
+      "price": 367.79998779296875,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "OGS",
+      "price": 82.3,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "STRD",
+      "price": 68.5,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CWST",
+      "price": 93,
+      "category": 1,
+      "confidence": "medium"
+    }
+  ]
+}

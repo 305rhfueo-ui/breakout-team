@@ -1,0 +1,746 @@
+{
+ "ticker": "CHTR",
+ "date": "2026-11-11",
+ "session": "2026-11-10",
+ "source": "list",
+ "plan": {
+  "ticker": "CHTR",
+  "name": "차터 커뮤니케이션스",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
+  "price": 134.05999755859375,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 141,
+  "stop": 134.15,
+  "distToPivotPct": -4.92,
+  "distToPivotAdr": -0.96,
+  "riskPerSharePct": 4.86,
+  "adrPct": 5.11,
+  "extensionAdr": 2.42,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 28.3,
+   "priorMovePct": 26.4,
+   "higherLows": 0,
+   "contraction": 1.61,
+   "closeRange10Adr": 4.2,
+   "surf10": 2.42,
+   "surf20": 3.13,
+   "slope20": 4.16,
+   "baseLow": 101.11,
+   "lastSwingLow": 101.11
+  },
+  "reasons": [
+   "✗ 선행 상승 +26%",
+   "베이스 7.8주",
+   "✗ 깊이 28.3%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.61배 · 10일 종가폭 4.2 ADR",
+   "✗ 10일선 +2.4 ADR · 20일선 +3.1 ADR",
+   "20일선 기울기 +4.16%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.34602300113440365,
+    "pct": 96.88908926961226
+   },
+   "m3": {
+    "v": 0.0048693332415835205,
+    "pct": 36.74481514878269
+   },
+   "m6": {
+    "v": -0.021150081816553055,
+    "pct": 22.678088367899008
+   }
+  },
+  "ret1m": 25.35,
+  "ret3m": -6.97,
+  "ret6m": -7.3,
+  "marketCap": "15.34B",
+  "volx": 1.73,
+  "volSurgeWk": 1.12,
+  "high52": 52.76,
+  "newHigh52": false,
+  "adr": 5.11,
+  "div50": 11.79,
+  "div200": -17.48,
+  "targetStatus": false,
+  "saleCy": 6.75,
+  "saleNy": 10.76,
+  "epsCy": -11.49,
+  "epsNy": 38.38,
+  "cyTrend": -22.55,
+  "nyTrend": -5.64,
+  "est": {
+   "cyCur": 32.05076,
+   "cy30": 41.38333,
+   "nyCur": 44.35033,
+   "ny30": 47
+  },
+  "fs": {
+   "sale": [
+    -1.74,
+    -1,
+    -2.33
+   ],
+   "ni": [
+    -0.69,
+    -4.44,
+    -9.14
+   ],
+   "opm": [
+    22.65,
+    23.59,
+    23.98
+   ],
+   "updated": "2026-09-09 07:17:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-11",
+  "nameKo": "차터 커뮤니케이션스",
+  "nameEn": "CHARTER COMMUNICATIONS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001091667&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 14922000000,
+     "profit": -3526000000,
+     "netIncome": -2397000000,
+     "margin": -23.6,
+     "yoy": {
+      "revenue": 9.1,
+      "profit": -212.6,
+      "netIncome": -310.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 13526000000,
+     "profit": 3063000000,
+     "netIncome": 1292000000,
+     "margin": 22.6,
+     "yoy": {
+      "revenue": -1.7,
+      "profit": -6.6,
+      "netIncome": -0.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 13597000000,
+     "profit": 3208000000,
+     "netIncome": 1163000000,
+     "margin": 23.6,
+     "yoy": {
+      "revenue": -1,
+      "profit": -0.9,
+      "netIncome": -4.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 13601000000,
+     "profit": 3261000000,
+     "netIncome": 1332000000,
+     "margin": 24,
+     "yoy": {
+      "revenue": -2.3,
+      "profit": -3.8,
+      "netIncome": -9.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Charter (CHTR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/charter-chtr-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+     "url": "https://www.nasdaq.com/articles/charter-communications-inc-announces-third-quarter-2026-results-and-launches-new-operating",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Charter Communications Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/charter-communications-q3-earnings-call-highlights",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Charter (CHTR) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/charter-chtr-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Charter Communications Posts Loss In Q3; Announces New Operating Model",
+     "url": "https://www.nasdaq.com/articles/charter-communications-posts-loss-q3-announces-new-operating-model",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Charter Communications Q3 26 Earning Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/charter-communications-q3-26-earning-conference-call-8-30-am-et",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Charter Communications (CHTR) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/charter-communications-chtr-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtr-20261106.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000064/chtr-20261026.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000060/chtr-20261019.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1091667/000114036126039336/ef20083641_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000055/chtr-20260915.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-31",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1091667/000114036126035084/ef20081340_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Goldman Sachs' Communacopia: AI blowback, broadband and Disney's free tier",
+   "url": "https://www.cnbc.com/2026/09/09/goldman-sachs-communcacopia-technology-conference-ai.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+   "url": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html",
+   "date": "2026-08-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "url": "https://www.cnbc.com/investingclub/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Intel, Oracle, American Express",
+   "url": "https://www.cnbc.com/2026/07/24/stocks-making-the-biggest-moves-premarket-intc-orcl-axp.html",
+   "date": "2026-07-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Watch CNBC's full interview with Charter CEO Chris Winfrey",
+   "url": "https://www.cnbc.com/video/2026/09/09/watch-cnbcs-full-interview-with-charter-ceo-chris-winfrey.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Charter CEO: We're now the leading internet and video provider in the country",
+   "url": "https://www.cnbc.com/video/2026/09/09/charter-ceo-were-now-the-leading-internet-and-video-provider-in-the-country.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Cramer’s Mad Dash: Charter Communications",
+   "url": "https://www.cnbc.com/video/2026/07/27/crameras-mad-dash-charter-communications.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CHTR",
+  "fetchedAt": "2026-11-11",
+  "source": "한국투자증권 Open API",
+  "per": 3.48,
+  "pbr": 1.06,
+  "eps": 38.49,
+  "bps": 126.71,
+  "shares": 160611000,
+  "marketCapM": 21532,
+  "high52": 254.11,
+  "high52Date": "2026-04-23",
+  "low52": 101.11,
+  "low52Date": "2026-10-26",
+  "last": 134.06,
+  "prevClose": 121.2,
+  "nameKo": "차터 커뮤니케이션스",
+  "nameEn": "CHARTER COMMUNICATIONS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 160611000
+ },
+ "estimates": {
+  "ticker": "CHTR",
+  "url": "https://finance.yahoo.com/quote/CHTR/analysis/",
+  "fetchedAt": "2026-11-11",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 9.41,
+    "epsLow": 7.16,
+    "epsHigh": 12.95,
+    "epsYearAgo": 10.34,
+    "epsAnalysts": 7,
+    "epsGrowth": -8.9,
+    "epsCur": "USD",
+    "rev": 16505740010,
+    "revAnalysts": 10,
+    "revYearAgo": 13601000000,
+    "revGrowth": 21.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 9.35,
+    "epsLow": 6.18,
+    "epsHigh": 13.12,
+    "epsYearAgo": 9.17,
+    "epsAnalysts": 5,
+    "epsGrowth": 1.9,
+    "epsCur": "USD",
+    "rev": 16254100440,
+    "revAnalysts": 5,
+    "revYearAgo": 13597000000,
+    "revGrowth": 19.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 32.05,
+    "epsLow": 9.77,
+    "epsHigh": 59.96,
+    "epsYearAgo": 36.21,
+    "epsAnalysts": 9,
+    "epsGrowth": -11.5,
+    "epsCur": "USD",
+    "rev": 58469860920,
+    "revAnalysts": 10,
+    "revYearAgo": 54774000000,
+    "revGrowth": 6.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 44.35,
+    "epsLow": 28.4,
+    "epsHigh": 78.72,
+    "epsYearAgo": 32.05,
+    "epsAnalysts": 9,
+    "epsGrowth": 38.4,
+    "epsCur": "USD",
+    "rev": 64763055610,
+    "revAnalysts": 16,
+    "revYearAgo": 58469860920,
+    "revGrowth": 10.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 9.41,
+    "d7": -26.7,
+    "d30": -26.7,
+    "d90": -20,
+    "ago90": 11.76,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 9.35,
+    "d7": -13.2,
+    "d30": -13.2,
+    "d90": -9.4,
+    "ago90": 10.32,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 32.05,
+    "d7": -23.9,
+    "d30": -22.6,
+    "d90": -23.5,
+    "ago90": 41.92,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 44.35,
+    "d7": -7.1,
+    "d30": -5.6,
+    "d90": -2,
+    "ago90": 45.26,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -20.5,
+    "estimate": 8.5,
+    "surprisePct": -341.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 10.66,
+    "estimate": 10.06,
+    "surprisePct": 5.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 9.17,
+    "estimate": 10.08,
+    "surprisePct": -9.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 10.34,
+    "estimate": 9.93,
+    "surprisePct": 4.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 4,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-11-10",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 150,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-11-09",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 345,
+     "ptPrior": 372
+    },
+    {
+     "date": "2026-11-09",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Raises",
+     "pt": 103,
+     "ptPrior": 101
+    },
+    {
+     "date": "2026-11-09",
+     "firm": "StoneX",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 200,
+     "ptPrior": 380
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 180
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "Wolfe Research",
+     "action": "down",
+     "from": "Peer Perform",
+     "to": "Underperform",
+     "ptAction": "Announces",
+     "pt": 118,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-29",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-10",
+  "numbers": {
+   "price": 134.06,
+   "ma20": 112.66,
+   "ma50": 119.92,
+   "ma150": 142.5,
+   "distMA50": 11.79,
+   "periodHigh": 437.06,
+   "pullbackFromHigh": -69.33,
+   "volRatio20": 1.48,
+   "dryUpRatio": 1.49
+  },
+  "last10": [
+   {
+    "d": "2026-10-28",
+    "o": 104.93,
+    "h": 106.37,
+    "l": 104.06,
+    "c": 105.39,
+    "v": 2280900,
+    "clsPos": 58,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-29",
+    "o": 107.8,
+    "h": 109.83,
+    "l": 106.04,
+    "c": 109,
+    "v": 1807700,
+    "clsPos": 78,
+    "gapPct": 2.29
+   },
+   {
+    "d": "2026-10-30",
+    "o": 110.57,
+    "h": 111.89,
+    "l": 109.26,
+    "c": 111.49,
+    "v": 2094200,
+    "clsPos": 85,
+    "gapPct": 1.44
+   },
+   {
+    "d": "2026-11-02",
+    "o": 112.17,
+    "h": 115.87,
+    "l": 111.39,
+    "c": 115.54,
+    "v": 2384400,
+    "clsPos": 93,
+    "gapPct": 0.61
+   },
+   {
+    "d": "2026-11-03",
+    "o": 113.99,
+    "h": 115.55,
+    "l": 112.31,
+    "c": 113.79,
+    "v": 1854500,
+    "clsPos": 46,
+    "gapPct": -1.34
+   },
+   {
+    "d": "2026-11-04",
+    "o": 117.62,
+    "h": 123.13,
+    "l": 116.51,
+    "c": 120.25,
+    "v": 3258100,
+    "clsPos": 56,
+    "gapPct": 3.37
+   },
+   {
+    "d": "2026-11-05",
+    "o": 122.35,
+    "h": 127.16,
+    "l": 116.75,
+    "c": 125.86,
+    "v": 4491300,
+    "clsPos": 88,
+    "gapPct": 1.75
+   },
+   {
+    "d": "2026-11-06",
+    "o": 115.74,
+    "h": 123.66,
+    "l": 110.58,
+    "c": 118.07,
+    "v": 6463300,
+    "clsPos": 57,
+    "gapPct": -8.04
+   },
+   {
+    "d": "2026-11-09",
+    "o": 119.82,
+    "h": 121.65,
+    "l": 115.95,
+    "c": 121.2,
+    "v": 3477900,
+    "clsPos": 92,
+    "gapPct": 1.48
+   },
+   {
+    "d": "2026-11-10",
+    "o": 121.88,
+    "h": 134.92,
+    "l": 117.67,
+    "c": 134.06,
+    "v": 4373000,
+    "clsPos": 95,
+    "gapPct": 0.56
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CHTR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CHTR-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 16일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": null
+}

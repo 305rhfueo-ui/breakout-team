@@ -516,8 +516,315 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-11",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아, CEO 스캔달로 이틀 연속 급락",
+        "easy": "엔비디아 주가가 월요일 4% 하락에 이어 화요일 5.47% 더 떨어졌다. 젠슨 황 CEO가 중국 스파이로 의심되는 여성과 불륜 관계였다는 주장이 나왔고, 투자자들이 회사 지배구조 문제로 번질 수 있다고 봤기 때문이다. 회사는 미국 대형 법률회사를 선임해 자체 조사에 들어갔다. AI 반도체 대표주가 실적이 아닌 경영진 리스크로 흔들리는 국면이다.",
+        "whyMatters": "반도체와 AI 인프라 업종 전반의 심리에 나쁘다 — 엔비디아 비중이 큰 지수와 AI 장비주가 같이 눌린다. 조사 결과와 경영진 공백 여부가 나오기 전까지는 반등이 나와도 되돌림이 잦을 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+            "date": "2026-11-10",
+            "quote": "Nvidia shares sank 5.47% on Tuesday as investors continued to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
+            "date": "2026-11-10",
+            "quote": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "코어위브 매출 168% 늘고 전망도 올렸다",
+        "easy": "코어위브가 3분기 매출이 1년 전보다 168% 늘었다고 밝히고 올해 전망치(회사가 내놓은 연간 실적 예상)도 높였다. AI 투자가 꺾이는 게 아니냐는 걱정이 돌던 중에 나온 숫자라 시간외에서 주가가 올랐다. 이 종목은 지난 한 달 동안 40% 넘게 빠져 있었다. 빚으로 데이터센터를 짓는 구조를 두고 나온 우려도 새 자금조달 방식으로 일부 가라앉았다.",
+        "whyMatters": "AI 데이터센터·클라우드 임대 업종에 좋은 신호이고, 전력·서버 장비처럼 뒤에 붙는 업종의 수요 전망도 함께 지켜볼 만하다. 다만 AI 수요가 아니라 부채 비용이 문제였던 종목이라 금리와 자금조달 조건이 변수다.",
+        "whyMattersNote": "",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+            "date": "2026-11-10",
+            "quote": "CoreWeave said revenue jumped 168% in the third quarter",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
+            "date": "2026-11-11",
+            "quote": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "백악관, 물가 반발에도 관세를 계속 밀고 간다",
+        "easy": "중간선거에서 물가 상승에 대한 반발이 나왔지만 백악관은 관세를 계속 유지하겠다고 했다. 관세는 결국 미국 소비자가 내는 세금이라는 비판이 함께 나왔다. 뉴욕 연은 연구는 관세 인상분의 약 26%가 소비자 가격으로 넘어갔고 그 효과가 9~12개월에 걸쳐 나타난다고 추정했다. 즉 올해 올린 관세의 물가 영향이 내년까지 이어진다는 뜻이다.",
+        "whyMatters": "수입 원가가 큰 소매·의류·가구 업종에 나쁘고, 가격을 소비자에게 떠넘기기 어려운 저가 유통업체가 더 불리하다. 물가가 늦게 올라오면 금리 인하 기대가 뒤로 밀릴 수 있어 성장주 쪽도 같이 지켜봐야 한다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+            "date": "2026-11-10",
+            "quote": "A Federal Reserve Bank of New York study estimated that about 26% of tariff increases were passed through to consumer prices, with some effects taking nine to 12 months to work through supply chains.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "클로드 개발사가 1.3조 달러 몸값으로 상장한다",
+        "easy": "AI 챗봇 클로드를 만든 회사가 1조 3천억 달러 기업가치로 주식시장에 상장할 준비를 하고 있다. 회사 스스로 AI의 '파국적' 위험을 경고해 온 상황에서 나온 상장이다. 비상장이던 대형 AI 회사가 공개시장에 들어오면 AI 업종의 몸값을 시장이 직접 매기게 된다. 상장 규모가 큰 만큼 다른 AI 주식에서 자금이 옮겨갈 수 있다.",
+        "whyMatters": "AI 소프트웨어 업종의 기준 잣대가 새로 생기는 일이라 기존 AI 관련주에는 양날이다 — 상장이 흥행하면 업종 심리가 올라가고, 실망하면 AI 전체의 몸값 논란으로 번진다. 상장일 수요와 공모 규모를 먼저 확인하는 편이 낫다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-10",
+            "quote": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "AMD는 엔비디아 혼란의 반사이익을 못 지켰다",
+        "easy": "엔비디아가 흔들리면 AMD가 점유율을 가져갈 거라는 기대로 올랐던 주가가 다시 밀렸다. 투자자들이 이번 혼란이 실제 수주로 이어질지 확신하지 못했기 때문이다. 경쟁사의 사고는 보통 점유율로 바로 바뀌지 않고 고객의 설계 교체 주기를 기다려야 한다. 결과적으로 반도체 업종 안에서 돈이 돌기만 하고 업종 전체는 약했다.",
+        "whyMatters": "반도체 업종 안의 교체 매수는 오래 가지 않는다는 신호이고, AI 가속기 경쟁 구도가 실제로 바뀌는지는 고객 수주 발표로만 확인된다. 지금은 반도체 업종 자체의 방향이 개별 종목 호재보다 세다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+            "date": "2026-11-10",
+            "quote": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "반도체 저가 매수는 선을 확인하고 하라는 조언",
+        "easy": "반도체 주식이 크게 빠지자 저가 매수를 노리는 수요가 생겼다. 다만 지금의 출렁임은 무시하고 기준선에 닿을 때까지 기다리라는 기술적 조언이 나왔다. 하락 중에 너무 일찍 사면 추가 하락을 그대로 맞기 때문이다. 떨어졌다는 사실만으로는 바닥의 근거가 되지 않는다는 이야기다.",
+        "whyMatters": "반도체·AI 장비 업종을 보는 사람에게 진입 시점을 늦추라는 쪽의 의견이다. 지수와 종목이 주요 이동평균선 위로 되돌아오는지를 먼저 확인하면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
+            "date": "2026-11-10",
+            "quote": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 적절한 때가 아니다. QQQ 종가 674.76 은 10일·20일·50일 이동평균선 아래에 있고, 10일선이 20일선 밑으로 내려간 지 16일째다 — 들고 있는 것도 정리를 검토하라는 쪽의 신호다. 오늘 소식은 방향이 엇갈린다: 코어위브 실적은 AI 수요가 꺾이지 않았음을 보여 줬지만, 지수에서 비중이 큰 엔비디아가 경영진 스캔달로 이틀 연속 밀려 업종 전체를 끌어내렸다. 조심할 점은 빚으로 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘은 상태라는 것 — 하락이 시작되면 강제 매도가 매도를 부른다. 이번 주는 엔비디아 조사 진행과 반도체 업종이 주요 이동평균선 위로 되돌아오는지, 그리고 관세가 물가 지표에 어떻게 찍히는지를 보면 된다.",
+    "keyRisks": [
+      "엔비디아 경영진 리스크: 실적이 아닌 지배구조 문제라 끝나는 시점을 가늠할 수 없고, 지수 비중이 커서 한 종목 문제가 시장 전체로 번진다.",
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어 있어, 하락이 깊어지면 강제 청산이 추가 매도를 불러 낙폭을 키운다.",
+      "관세의 물가 전가가 아직 남았다: 인상분이 소비자 가격에 반영되는 데 9~12개월이 걸리므로 내년까지 물가 압력이 이어지고 금리 인하 기대가 밀릴 수 있다.",
+      "쏠린 주도 섹터: 선정 종목의 42%가 헬스케어로 한쪽에 몰려 있어, 이 업종이 식으면 대안이 마땅치 않다."
+    ],
+    "easySummary": [
+      "QQQ 가 주요 이동평균선 아래에 있고 10일선이 20일선 밑으로 내려간 지 16일째 — 새로 사기에 좋은 자리가 아니다.",
+      "엔비디아는 CEO 스캔달로 이틀 연속 급락했고, 코어위브는 매출 168% 증가와 전망 상향으로 AI 수요 우려를 일부 덜었다.",
+      "빚내서 산 주식이 1년 전보다 31.4% 늘어 주의선을 넘었다 — 하락 때 낙폭이 커질 수 있다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 178,
+      "ok": 284,
+      "unverified": 3,
+      "dead": 1,
+      "stripped": 16,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/embraer-embj-earnings-taking-look-key-metrics-versus-estimates"
+        }
+      ],
+      "numberCut": 25,
+      "numberCuts": [
+        {
+          "sentence": "주가는 52주 고점(254달러) 대비 절반 수준이다.",
+          "missing": [
+            "254"
+          ]
+        },
+        {
+          "sentence": "2분기 실적 발표 뒤 연간 순예약액 전망 80~82억 달러를 그대로 유지했다.",
+          "missing": [
+            "80"
+          ]
+        },
+        {
+          "sentence": "회사는 연간 순예약액 전망 80~82억 달러를 바꾸지 않았다.",
+          "missing": [
+            "80"
+          ]
+        },
+        {
+          "sentence": "1·2분기 재무제표를 정정했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 2.6억 달러로 1년 전보다 52% 늘었고, 시장 예상치도 넘었다.",
+          "missing": [
+            "2.6억 달러",
+            "52"
+          ]
+        },
+        {
+          "sentence": "수주잔고가 35.7억 달러로 1년 전보다 3배 넘게 늘었다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "정부·상업 고객에게서 10억 달러 규모 발사 계약도 따냈다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "LG Chem과의 계약을 고쳐 비만 신약 개발용으로 최대 7억 5천만 달러 자금을 확보했다.",
+          "missing": [
+            "7억 5"
+          ]
+        },
+        {
+          "sentence": "10월에 3억5천만 달러 규모 공모 증자를 마쳤다.",
+          "missing": [
+            "3억5"
+          ]
+        },
+        {
+          "sentence": "주가는 올랐어도 작년 12월 고점 738달러보다 훨씬 낮다.",
+          "missing": [
+            "738"
+          ]
+        },
+        {
+          "sentence": "9월 분기 매출이 5.2억 달러로 1년 전보다 51% 늘었고 시장 예상을 웃돌았다.",
+          "missing": [
+            "5.2억 달러"
+          ]
+        },
+        {
+          "sentence": "10월 26일 건선 2b상에서 ORKA-001이 피부 완전 청소 61%를 보였고, 이 결과가 3상 진행의 근거가 됐다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "11월 10일 3분기 실적발표에서 2026년 대출 성장 전망을 연 7~8%에서 8~9%로 올렸다.",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "회사는 연간 순예약액(Net Bookings, 게임 판매·인앱 결제 합계) 전망 80억~82억 달러를 그대로 유지했다.",
+          "missing": [
+            "80억"
+          ]
+        },
+        {
+          "sentence": "오루카의 ORKA-001이 건선 2b상에서 61%의 환자에게 완전한 피부 개선을 보였다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "2분기 실적 발표에서 연간 순예약액 80~82억 달러 전망을 유지했다.",
+          "missing": [
+            "80"
+          ]
+        },
+        {
+          "sentence": "회사는 연간 순예약액 80~82억 달러 전망을 유지했다.",
+          "missing": [
+            "80"
+          ]
+        },
+        {
+          "sentence": "UBS가 목표가를 300달러에서 295달러로 낮췄다.",
+          "missing": [
+            "300",
+            "295"
+          ]
+        },
+        {
+          "sentence": "같은 날 중요 계약·재무 의무 관련 8-K도 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "AAON 이 1·2분기 재무제표를 정정하고 3분기 최대 실적과 연간 전망 상향을 발표했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "1·2분기 재무제표를 정정했다(회계 관련 공시 4.02).",
+          "missing": [
+            "1",
+            "4.02"
+          ]
+        },
+        {
+          "sentence": "실적 직후 증권사 2곳이 목표가를 내렸다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "ORKA-001 이 건선 2b상에서 완전 피부 청소 61% 를 기록했다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "LG Chem 계약을 고쳐 비만 파이프라인용 자금을 최대 7억 5천만 달러까지 확보했다.",
+          "missing": [
+            "7억 5"
+          ]
+        },
+        {
+          "sentence": "3분기 제품 순매출 9,210만 달러, 1년 전보다 79.6% 증가.",
+          "missing": [
+            "79.6"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-11"
   }
 };

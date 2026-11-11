@@ -1,0 +1,145 @@
+{
+ "ticker": "EMBJ",
+ "sector": "Industrials",
+ "industry": "Aerospace & Defense",
+ "nameKo": "EMBRAER SA SPON ADS EACH REP 4 ORD SHS",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.77,
+  "saleNy": 11.17,
+  "epsCy": 133.72,
+  "epsNy": 23.5,
+  "est": {
+   "cyCur": 3.2282,
+   "cy30": 3.21987,
+   "nyCur": 3.98692,
+   "ny30": 3.97492
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    22.87,
+    31.16,
+    14.72
+   ],
+   "ni": [
+    170.48,
+    -54.5,
+    82.68
+   ],
+   "opm": [
+    12.79,
+    5.65,
+    8.19
+   ],
+   "updated": "2026-09-08 07:33:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-11",
+  "nameKo": "EMBRAER SA SPON ADS EACH REP 4 ORD SHS",
+  "nameEn": "EMBRAER SA SPON ADS EACH REP 4 ORD SHS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Embraer (EMBJ) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/embraer-embj-q3-2026-earnings-call-transcript",
+     "date": "2026-11-10",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/embraer-embj-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "EMBJ or RTX: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/embj-or-rtx-which-better-value-stock-right-now",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Embraer (EMBJ) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-embraer-embj-strong-value-stock-0",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "EMBJ vs. RTX: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/embj-vs-rtx-which-stock-better-value-option",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "All You Need to Know About Embraer (EMBJ) Rating Upgrade to Strong Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-embraer-embj-rating-upgrade-strong-buy",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Embraer (EMBJ) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-embraer-embj-top-value-stock-long-term-0",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Brazilian stocks rocked as Lula wins presidential election",
+   "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+   "date": "2026-10-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Embraer CEO: Seeing resilience in the industry despite jet fuel spike",
+   "url": "https://www.cnbc.com/video/2026/07/22/embraer-ceo-seeing-resilience-in-the-industry-despite-jet-fuel-spike.html",
+   "date": "2026-07-22",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "EMBJ",
+  "fetchedAt": "2026-11-11",
+  "source": "한국투자증권 Open API",
+  "per": 33.37,
+  "pbr": 4.27,
+  "eps": 2.47,
+  "bps": 19.33,
+  "shares": 177958250,
+  "marketCapM": 14682,
+  "high52": 83.46,
+  "high52Date": "2026-11-10",
+  "low52": 53.2599,
+  "low52Date": "2026-06-11",
+  "last": 82.5,
+  "prevClose": 77.07,
+  "nameKo": "EMBRAER SA SPON ADS EACH REP 4 ORD SHS",
+  "nameEn": "EMBRAER SA SPON ADS EACH REP 4 ORD SHS",
+  "listedOn": "2025-11-03",
+  "exchange": "뉴욕거래소",
+  "listedShares": 177958250
+ }
+}

@@ -1,5 +1,5 @@
 window.NDEEP_DATA = {
-  "generated": "2026-11-10",
+  "generated": "2026-11-11",
   "v": 2,
   "items": {
     "MRNA": {
@@ -56167,6 +56167,5449 @@ window.NDEEP_DATA = {
         "saleNy": 21.7,
         "epsCy": 23.98,
         "epsNy": 16.65
+      }
+    },
+    "MANE": {
+      "drivers": [
+        {
+          "what": "VDPHL01 — 먹는 서방형(천천히 녹는) 미녹시딜 탈모약. 남성 탈모 허가용 임상 2건이 연속 성공했다",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-04",
+          "basis": [
+            {
+              "id": "d1-b1",
+              "statement": "남성 탈모 3상 Study ‘304’ 가 모든 평가지표를 충족했고, Study ‘302’ 의 12개월 장기 데이터도 긍정적으로 나왔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "Positive topline results from Phase 3 Study ‘304’ and positive 12-month data from Phase 2/3 Study ‘302’ position VDPHL01 to potentially become the first oral treatment to receive FDA approval for pattern hair loss in nearly 30 years … In October 2026, Veradermics announced positive topline results from Part A of its Phase 3 trial evaluating the safety and efficacy of VDPHL01 in males with mild-to-moderate pattern hair loss. The trial met all primary and secondary endpoints with high statistical significance, defined by rapid onset of activity, consistent response across patients, and robust increases in hair count",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                  "date": "2026-11-10",
+                  "quote": "Patients achieved an average increase in non-vellus TAHC of 28.6 hairs/cm² (p<0.0001) and 36.4 hairs/cm² (p<0.0001) in QD and BID VDPHL01 treatment arms, respectively. Those receiving placebo showed a 6.6 hairs/cm² increase from baseline at Month 6.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "3상 Study ‘304’ 에서 모발 수는 하루 두 번 복용군이 36.4개/cm², 한 번 복용군이 28.6개/cm² 늘어 위약의 6.6개/cm² 를 앞섰다.",
+              "stripped": true
+            },
+            {
+              "id": "d1-b3",
+              "statement": "장기 데이터에서는 12개월까지 모발 수가 두 번 복용군 43.9개/cm², 한 번 복용군 29.7개/cm² 늘었고 심장 관련 중대 이상반응은 보고되지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "Among participants in the VDPHL01 continued group who received VDPHL01 8.5 mg twice (BID) or once (QD) daily for twelve months, participants achieved a mean increase in non-vellus target area hair count (TAHC) of 43.9 hairs/cm² (BID) and 29.7 hairs/cm² (QD) at Month 12. … No treatment-related serious adverse events (SAEs), no adverse events of special interest (AESIs) of cardiac origin, and no new safety signals were observed in the study.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1-r1",
+              "statement": "아직 승인받은 제품이 없어 제품 판매 매출은 전혀 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                  "date": "2026-11-10",
+                  "quote": "We currently generate no revenue from sales of any products, and we may never be able to develop or commercialize a marketable product.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r2",
+              "statement": "매출이 아니라 환자 수만 제시돼 있다 — 회사는 미국 탈모 인구를 남성 5,000만 명, 여성 3,000만 명으로 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 2분기 실적 보도자료 (2026-08-11)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/ex991q226earnings.htm",
+                  "date": "2026-08-11",
+                  "quote": "VDPHL01 has the potential to be the first extended-release oral minoxidil therapy for women and men with pattern hair loss, a condition affecting an estimated 30 million women and 50 million men in the United States",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1-p1",
+              "statement": "3분기 순손실은 2,100만 달러로 1년 전 2,010만 달러와 거의 같았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "Net Loss: Net loss was $21.0 million for the third quarter of 2026, as compared to a net loss of $20.1 million for the third quarter of 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-p2",
+              "statement": "출시 준비 비용이 먼저 나가는 단계로, 판매·관리비가 1,270만 달러로 1년 전 230만 달러에서 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "General and administrative (G&A) expenses were $12.7 million for the quarter ended September 30, 2026 as compared with $2.3 million for the quarter ended September 30, 2025. The increase in G&A expenses of $10.5 million was primarily due to an increase in payroll and personnel-related costs, including an increase of $3.1 million in stock-based compensation. G&A expenses also increased due to additional commercial readiness costs and other professional fees, as compared to the same period in the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-p3",
+              "statement": "현금성 자산이 7억 9,840만 달러여서 회사는 2030년까지 버틸 수 있다고 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "Cash, cash equivalents and marketable securities of $798.4 million as of September 30, 2026, expected to fund operations into 2030 through multiple Phase 3 readouts and potential commercial launch of VDPHL01",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1-e1",
+              "statement": "회사가 내놓은 전망(가이던스)은 매출이 아니라 일정뿐이다 — 승인되면 남녀 모두에게 쓰는 유일한 먹는 비호르몬 탈모약이 된다고만 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "If approved, VDPHL01 would be the only FDA-approved oral non-hormonal treatment for pattern hair loss in both male and female patients.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1-c1",
+              "statement": "회사는 승인받은 제품이 없고 성공이 VDPHL01 의 허가·상업화에 달려 있어, 실패하거나 늦어지면 사업이 크게 훼손된다고 위험 요인에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "Veradermics’ anticipation that its success will depend on the approval and successful commercialization of VDPHL01, which is its lead product candidate, and if Veradermics is unable to obtain regulatory approval for, and successfully commercialize, VDPHL01, or any other current or future product candidates, or experience significant delays in doing so, its business will be materially harmed",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-c2",
+              "statement": "대신증권은 효과는 확실해졌지만 출시 뒤 관건은 약값과 처방이 실제로 늘어나는지라고 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[VERADERMICS INC (NYS:MANE)] 확실한 효과, 관건은 약가",
+                  "publisher": "대신증권 (이희영)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmixlmkiizgemegcgxeeee.pdf",
+                  "date": "2026-11-04",
+                  "quote": "- 남성 탈모 임상 2건 연속 성공, 위약 대비 모발 수 +22.0~29.9개/cm²- 2H26 12개월 장기 데이터, 1H27 여성 탈모 2/3상 결과 발표- 출시 후 관건은 약가와 처방 추이",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-c3",
+              "statement": "회사는 다른 회사와의 경쟁, 그리고 약이 일으킬 수 있는 이상반응도 위험으로 함께 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "the risk that adverse events or undesirable side effects are caused by Veradermics’ product candidates; competition from other companies; and other risks and uncertainties identified in the “Risk Factors” section",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "여성 탈모 적응증 — 미국에서 여성 전용 먹는 탈모약 허가용 임상(Study ‘306’) 모집을 마쳤다",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-07",
+          "basis": [
+            {
+              "id": "d2-b1",
+              "statement": "여성 환자를 대상으로 한 2상 Study ‘207’ 이 성공했고, 회사는 이를 미국에서 여성 탈모 먹는 약의 첫 임상 성공이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 2분기 실적 보도자료 (2026-08-11)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/ex991q226earnings.htm",
+                  "date": "2026-08-11",
+                  "quote": "The positive Phase 2 results from Study ‘207’ marked the first successful clinical demonstration of an oral treatment for female pattern hair loss in the United States and increased our conviction in VDPHL01 as a potential treatment for women",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-b2",
+              "statement": "여성 환자에서 모발 수는 하루 한 번 복용군 22.7개/cm², 두 번 복용군 23.3개/cm² 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 2분기 실적 보도자료 (2026-08-11)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/ex991q226earnings.htm",
+                  "date": "2026-08-11",
+                  "quote": "Participants achieved a mean increase in non-vellus target area hair count (TAHC) of 22.7 hairs/cm² (QD) and 23.3 hairs/cm² (BID) at Month 6, and 88.9% (QD) and 90.0% (BID) of participants achieved ‘improved’ or ‘much improved’ hair coverage on the Androgenetic Alopecia Impact Rating Scale (AAIRS) at Month 6.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-b3",
+              "statement": "허가용 임상 Study ‘306’ 은 여성 556명을 모집해 52주간 보는 시험이며, 모집이 끝났다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 2분기 실적 보도자료 (2026-08-11)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/ex991q226earnings.htm",
+                  "date": "2026-08-11",
+                  "quote": "Veradermics has completed enrollment of Study ‘306’, a Phase 2/3 multi-center, randomized, double-blind, placebo-controlled study evaluating the safety and efficacy of VDPHL01 at two dose regimens (4.5 mg once-daily and twice-daily) over 52 weeks in 556 female participants with mild-to-moderate pattern hair loss.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d2-e1",
+              "statement": "회사는 여성 탈모 Study ‘306’ 의 핵심 결과를 2027년 상반기에 내놓겠다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "Company remains on track to deliver topline data from Phase 2/3 Study ‘306’ evaluating VDPHL01 in female pattern hair loss in 1H27",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-e2",
+              "statement": "대신증권도 2027년 상반기 여성 탈모 2/3상 결과 발표를 다음 관문으로 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[VERADERMICS INC (NYS:MANE)] 확실한 효과, 관건은 약가",
+                  "publisher": "대신증권 (이희영)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmixlmkiizgemegcgxeeee.pdf",
+                  "date": "2026-11-04",
+                  "quote": "- 남성 탈모 임상 2건 연속 성공, 위약 대비 모발 수 +22.0~29.9개/cm²- 2H26 12개월 장기 데이터, 1H27 여성 탈모 2/3상 결과 발표- 출시 후 관건은 약가와 처방 추이",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2-c1",
+              "statement": "회사는 Study ‘306’ 결과 발표 시점과 약의 효과에 대한 전망을 그대로 믿지 말라고 투자자에게 주의를 줬다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                  "date": "2026-11-10",
+                  "quote": "Investors are cautioned not to place undue reliance on these forward-looking statements, including statements regarding the perceived efficacy of VDPHL01; the timing of reporting additional clinical results, including anticipated data from Study ‘306’",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-c2",
+              "statement": "여성 적응증은 남성 허가 뒤 추가 신청(sNDA)으로 가는 방안도 함께 검토되고 있어, 승인 시점이 남성보다 늦어질 수 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                  "publisher": "Veradermics, Incorporated (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                  "date": "2026-11-10",
+                  "quote": "We believe that a marketing application could initially seek approval in male patients, followed by an sNDA for female patients, or could alternatively pursue approval in both male and female patients simultaneously depending on the timing of the completion of our clinical trials.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33은 계산되지 않았다 — 회사가 제품 매출이 없어 매출 증가율·순이익률 자체를 볼 수 없다. 3분기 순손실은 2,100만 달러로 1년 전 2,010만 달러와 거의 같았지만, 그 안에서 임상비는 줄고 출시 준비·상장 비용이 늘었다. 지금 숫자를 움직인 것은 매출이 아니라 지출 항목의 이동이며, 임상 성공과 손익을 잇는 연결 근거는 아직 없다.",
+      "headline": "먹는 탈모약 VDPHL01 임상 3상 성공 — 새롭지만 아직 매출은 0",
+      "nVerdict": "부분 충족",
+      "narrative": "새로운 것은 분명하다 — 하루 한두 번 먹는 서방형 미녹시딜 VDPHL01 이 남성 탈모 허가용 임상 두 건을 연속으로 통과했다. 3상 Study ‘304’ 에서 모발 수는 두 번 복용군 36.4개/cm², 한 번 복용군 28.6개/cm² 늘어 위약 6.6개/cm² 를 크게 앞섰고, 12개월 장기 데이터에서는 두 번 복용군이 43.9개/cm² 로 더 깊어졌다. 여성 쪽에서도 2상 Study ‘207’ 이 성공했고 허가용 임상 Study ‘306’ 은 여성 556명 모집을 마쳤다. 다만 매출에 미친 영향은 아직 없다 — 회사는 승인받은 제품이 없어 제품 판매 매출이 전혀 없다고 직접 밝혔다. 이익 쪽은 오히려 비용이 먼저 나가는 구간으로, 판매·관리비가 1,270만 달러로 1년 전 230만 달러에서 늘었고 3분기 순손실은 2,100만 달러였다. 회사가 내놓은 전망도 매출이 아니라 일정뿐이어서, 여성 탈모 Study ‘306’ 결과를 2027년 상반기에 발표하겠다는 수준이다. 현금성 자산 7억 9,840만 달러로 2030년까지 버틸 수 있다고 보지만, 그 돈은 매출이 아니라 주식을 발행해 받은 것이다. 이 그림을 꺾을 수 있는 것은 허가 실패나 지연, 그리고 대신증권이 지적한 약값과 실제 처방 증가 여부다. 따라서 N 은 확인되지만 숫자로 이어지지 않은 단계 — 부분 충족이다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1-1",
+            "statement": "VDPHL01 이 승인되면 남성과 여성 모두에게 쓰는 유일한 FDA 승인 먹는 비호르몬 탈모 치료제가 된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                "date": "2026-11-10",
+                "quote": "If approved, VDPHL01 would be the only FDA-approved oral non-hormonal treatment for pattern hair loss in both male and female patients.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2-1",
+            "statement": "판매하는 제품이 없어 점유율을 말할 단계가 아니다 — 임상 개발을 끝내고 허가를 받기 전까지는 제품 매출이 생기지 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                "date": "2026-11-10",
+                "quote": "We will not generate revenue from product sales unless and until we successfully complete clinical development and obtain regulatory approval for our product candidates.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3-1",
+            "statement": "현재 치료 선택지는 적고, 여성에게는 FDA 승인된 먹는 약이 아예 없다고 회사는 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                "date": "2026-11-10",
+                "quote": "Limited FDA-approved treatment options, and no FDA-approved oral options for women",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3-2",
+            "statement": "VDPHL01 은 특허로 둘러싸여 있고 가장 먼저 끝나는 특허가 2043년에 만료된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 3분기 실적 보도자료 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+                "date": "2026-11-10",
+                "quote": "VDPHL01 is protected by a broad library of patents and patent applications related to the key innovations of VDPHL01. The earliest expiring patent term is 2043.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4-1",
+            "statement": "출시를 미리 준비하는 데 쓰는 비용이 3분기에 270만 달러 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                "date": "2026-11-10",
+                "quote": "a $2.7 million increase in costs related to pre-commercial preparation activities for the potential launch of VDPHL01",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4-2",
+            "statement": "판매·마케팅·유통 조직을 세우는 단계로 가고 있다고 회사는 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                "date": "2026-11-10",
+                "quote": "take steps toward supporting commercial activities, including establishing sales, marketing and distribution infrastructure;",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5-1",
+            "statement": "진행 중인 임상이 모두 모집을 마쳐 VDPHL01 관련 연구개발비가 350만 달러 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                "date": "2026-11-10",
+                "quote": "a $3.5 million decrease in costs related to VDPHL01 primarily due to a $4.9 million decrease in clinical trial expenses, including investigator fees, pass-through costs, and program management fees, and a $1.7 million decrease in clinical trial marketing and recruitment costs, as all on-going clinical trials were fully enrolled by September 30, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5-2",
+            "statement": "다른 후보 물질 활동을 멈추고 VDPHL01 에 자원을 모은 결과 그쪽 비용이 80만 달러 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics 10-Q 경영진 설명 (2026-11-10)",
+                "publisher": "Veradermics, Incorporated (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+                "date": "2026-11-10",
+                "quote": "a decrease in costs related to other program candidates and expenses of $0.8 million. These decreases were primarily attributable to the Company’s decision to pause activities related to these programs to focus efforts on VDPHL01",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "sourceGap": "대신증권 리포트 원문 PDF와 실적 발표 콜 원고를 열지 못해, 증권사의 매출·약값 추정 숫자는 확인하지 못했다.",
+      "ticker": "MANE",
+      "watch": [
+        "허가 신청(NDA) 제출 사실과 그 대상이 남성만인지 남녀 동시인지 — 여성까지 한 번에 가면 매출 시점이 앞당겨진다",
+        "2027년 상반기 여성 탈모 Study ‘306’ 결과 — 여기서 실패하면 여성 적응증 동력은 사라진다",
+        "판매·관리비 안의 출시 준비 비용이 계속 늘어나는지 — 늘면 회사가 출시를 실제로 준비하고 있다는 신호, 줄면 일정이 밀렸다는 신호",
+        "약값·보험 적용에 대한 회사의 첫 언급 — 대신증권이 꼽은 관건이 숫자로 나오는지"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-10",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-10)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000041/ex991q326earnings.htm",
+          "filingDate": "2026-11-10"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-11)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/ex991q226earnings.htm",
+          "filingDate": "2026-08-11"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-10)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000043/mane-20260930.htm",
+          "filingDate": "2026-11-10"
+        }
+      ],
+      "code33": null,
+      "quarters": [],
+      "consensus": {
+        "saleCy": 0,
+        "saleNy": 0,
+        "epsCy": -97.44,
+        "epsNy": -9.3
+      }
+    },
+    "RYTM": {
+      "ticker": "RYTM",
+      "headline": "3월 승인된 후천성 시상하부 비만 적응증이 분기 매출 29% 증가를 끌고 있다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "IMCIVREE(세트멜라노타이드)의 후천성 시상하부 비만(aHO·뇌 시상하부 손상 뒤 생기는 희귀 비만) 적응증 확대 — 2026년 3월 미국 승인 뒤 미국에서 본격 출시",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-03",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "미국 FDA가 3월 19일 IMCIVREE 를 후천성 시상하부 비만 치료제로 승인했고, 9월 말까지 처방 개시 신청서가 700건 넘게 들어왔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/q32026earningspr.htm",
+                  "date": "2026-11-03",
+                  "quote": "Today, the Company announced it has received more than 700 patient start forms for IMCIVREE for acquired HO from more than 500 prescribers as of September 30, 2026, following approval by the U.S. Food and Drug Administration (FDA) on March 19, 2026;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "일본 후생노동성 승인까지 받아 미국·유럽·일본에서 이 질환에 처음으로 승인된 치료제가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Japan's Ministry of Health, Labour and Welfare (MHLW) also approved IMCIVREE to treat patients with acquired HO on August 24, 2026, making it the first approved therapy in the United States, Europe and Japan for patients with this rare disease.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "전 세계 IMCIVREE 매출은 3분기 9,210만 달러로 직전 분기보다 29% 늘었고, 급여로 치료받는 환자 수도 20% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Revenue from global sales of IMCIVREE was $92.1 million for the third quarter of 2026, an increase of 29% on a sequential basis from the second quarter of 2026. The number of patients on reimbursed therapy globally increased by 20% as compared to the second quarter of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "미국 매출은 6,750만 달러로 제품 매출의 73%를 차지하며 직전 분기보다 32% 늘었는데, 회사는 후천성 시상하부 비만 환자 수요 증가가 주된 이유라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "U.S.: Revenue of $67.5 million, or 73% of product revenue, was generated in the United States in the third quarter of 2026, an increase of $16.5 million or 32% compared to the second quarter of 2026. The sequential quarter-over-quarter growth in U.S. revenue was driven primarily by increased patient demand for IMCIVREE in acquired HO, as well as continued growth in demand in Bardet-Biedl syndrome (BBS).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "1년 전과 비교하면 제품 매출이 80% 늘었고, 회사는 그 이유를 국내외 판매량 증가와 3월 승인된 미국 후천성 시상하부 비만 매출의 성장으로 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Product revenue, net increased by $40.8 million to $92.1 million for the three months ended September 30, 2026 from $51.3 million for the three months ended September 30, 2025, an increase of 80%, primarily due to higher volume of product sold both domestically and internationally. We expect our sales of IMCIVREE to continue to increase. ... Additionally, we experienced continued revenue growth in the third quarter of 2026 for acquired HO in the United States, which was approved in March 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "보통주 귀속 순손실은 4,240만 달러(주당 0.61달러)로 1년 전 5,430만 달러보다 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/q32026earningspr.htm",
+                  "date": "2026-11-03",
+                  "quote": "Net Loss attributable to common stockholders: Net loss attributable to common stockholders was $(42.4) million for the third quarter of 2026, or a net loss per basic and diluted share of $(0.61) , as compared to a net loss attributable to common stockholders of $(54.3) million for the third quarter of 2025, or a net loss per basic and diluted share of $(0.82).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "회사는 매출원가가 앞으로도 매출의 10~12% 범위에 머물 것으로 본다 — 매출이 늘수록 원가 위 이익이 그대로 남는 구조다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "We expect cost of sales as a percentage of revenue to continue to be in a range of 10% to 12% in the foreseeable future.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 비GAAP(일회성을 뺀 회사 기준) 영업비용 3.6억~3.8억 달러뿐이고, 매출 전망치는 내놓지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/q32026earningspr.htm",
+                  "date": "2026-11-03",
+                  "quote": "Financial Guidance: For the year ending December 31, 2026, Rhythm anticipates approximately $360 million to $380 million in Non-GAAP Operating Expenses.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 10-Q 경영진 설명에서 후천성 시상하부 비만용 IMCIVREE 매출이 계속 늘 것으로 본다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "We expect sales of IMCIVREE for acquired HO to increase and we also continue to collaborate with authorities to achieve access in additional markets for acquired HO.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "판매·관리비(SG&A)가 9개월 누적 1.978억 달러로 1년 전보다 44% 늘어, 매출이 늘어도 적자가 이어지고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Selling, general and administrative expense increased by $60.3 million to $197.8 million for the nine months ended September 30, 2026 from $137.5 million for the nine months ended September 30, 2025, an increase of 44%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 앞으로도 상당한 비용과 영업손실이 이어질 것으로 보며, 9월 말 누적 결손금은 15억 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "As of September 30, 2026, we had an accumulated deficit of $1.5 billion. Our net loss was $41.4 million and $52.9 million for the three months ended September 30, 2026 and September 30, 2025. ... We expect to continue to incur significant expenses and operating losses for the foreseeable future.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "보험 급여는 아직 전부 확보되지 않았다 — 메디케이드 급여 인구의 60%, 민간 보험 급여 인구의 75%에서 긍정적 급여 정책을 받은 단계다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "13 Progress in Time to Approval and Expanding Patient Access Note: Between FDA approval on March 19, 2026 and September 30, 2026. Reimbursement Approvals 75% of approvals at or without prior auth 2/3 of approvals occur in less than 60 days Payers Positive Policies Secured 60% of Medicaid covered lives 75% of commercial covered lives",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "같은 적응증의 해외 출시 — 2026년 10월 일본 상업 출시, 2027년 독일을 시작으로 유럽 국가별 출시 예정",
+          "kind": "product",
+          "stage": "출시",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 10월 13일 일본에서 후천성 시상하부 비만 환자용 IMCIVREE 상업 출시를 시작했다고 알렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "On October 13, 2026, we announced the commercial launch of IMCIVREE® (setmelanotide) in Japan for patients with acquired HO;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "회사 CEO 는 일본이 두 번째로 큰 시장이 될 가능성이 있는 곳이라고 말했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/q32026earningspr.htm",
+                  "date": "2026-11-03",
+                  "quote": "Our commercial launch in Japan represents another important milestone in a market with the potential to become our second largest,” said David Meeker, M.D., Chairman, Chief Executive Officer and President of Rhythm Pharmaceuticals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "미국 밖 매출은 3분기 2,470만 달러로 제품 매출의 27%였고 직전 분기보다 22% 늘었다 — 급여 환자 수가 계속 늘어난 결과다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Ex-U.S.: Revenue of $24.7 million, or 27% of product revenue, was generated outside the United States, a sequential increase of $4.4 million or 22% compared to the second quarter of 2026. The number of reimbursed patients on IMCIVREE continued to increase in the third quarter of 2026;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "일본에는 직원 50명 이상을 두었고, 우선 병원 350곳 가운데 300곳과 접촉해 1,000명이 넘는 투여 가능 환자를 확인했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "18 Experienced Rare Disease Team in Place to Support Japan Launch An Experienced Team in Place Targeting Strategy >50 Rhythm Employees in Japan 16 Hospital Affairs Leads 6 Scientific Affairs Managers ~350 Priority hospitals … 19 Physician Engagement, Patient Identification Provide Strong Starting Point ~300 Out of 350 priority hospitals where brain tumors are treated >1,000 patients likely eligible for IMCIVREE Field teams already have engaged with…. … and identified….",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "미국·일본 출시를 위한 마케팅·판촉비가 9개월 누적으로 540만 달러 늘어, 해외 출시는 비용이 먼저 나가는 구간이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "an increase of $5.4 million related to increased marketing and promotion costs to support continued revenue growth, and our launch for acquired HO, primarily in the United States and Japan, and",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 일본의 후천성 시상하부 비만 환자를 5,000~8,000명으로 추정한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "16 IMCIVREE Now Commercially Available for aHO in Japan Commercial launch initiated October 13, 2026 5,000 – 8,000 estimated patients with acquired HO in Japan1 1. Rhythm estimates the prevalence of acquired hypothalamic obesity in Japan to be approximately 5,000 to 8,000 based on our review of tumor registries and claims data.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2e2",
+              "statement": "회사 추정 유럽 환자는 약 1만 명이고, 국가별 출시는 2027년 독일부터 시작할 계획이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "20 IMCIVREE HO Country-level Launches Expected in 2027 1. European estimates limited to the EU4 (Germany, France, Spain, Italy), UK and the Netherlands and prevalence of 0.1-0.3 in 10,000 patients ~10,000 estimated European prevalence1",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Begin country-level launches of IMCIVREE for acquired HO in Europe beginning with Germany in 2027 and",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "유럽은 아직 급여 심사 단계다 — 독일은 G-BA 절차를 시작했고 프랑스·이탈리아·영국·스페인·네덜란드는 급여 서류를 낸 상태다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "• Germany G-BA process initiated • Reimbursement dossiers submitted: • France • Italy • UK • Spain • The Netherlands",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "해외 매출은 각국 약가 제도에 흔들린다 — 2분기에는 프랑스 약가 환급 제도 때문에 380만 달러를 소급해 차감했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2분기 실적 보도자료 (2026-08-04)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/q22026earningspr_draft.htm",
+                  "date": "2026-08-04",
+                  "quote": "The Company incurred a $3.8 million retrospective charge associated with the Contribution M mechanism in France, of which $3.1 million was related to revenue booked in periods prior to the second quarter of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "차세대 MC4R 작용제 bivamelagon(하루 한 번 먹는 약)의 3상 진입과 LG화학 계약 변경 — 로열티율을 1%로 낮춤",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-11",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 11월 2일 LG화학과의 bivamelagon 독점 실시권 계약을 고쳐, 4년에 걸쳐 3.5억 달러를 고정 지급하는 대신 MC4R 제품군 순매출 로열티를 1%로 낮췄다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "On November 2, 2026, we announced an amendment to our exclusive license agreement with LG Chem for bivamelagon. Under the terms of the amendment, Rhythm has agreed to pay LG Chem $350 million in fixed payments over four years in order to reduce the low-to-mid single digit royalty in the original agreement to 1% royalty on net product revenue generated by Rhythm’s MC4R portfolio;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "bivamelagon 은 후천성 시상하부 비만과 프래더-윌리 증후군 두 적응증에서 위약 대조 3상 시험에 들어간다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "7 Bivamelagon Advancing into Two Pivotal Trials Acquired hypothalamic obesity • Global, phase 3 placebo-controlled trial • 52 weeks • Primary endpoint: BMI reduction Prader-Willi syndrome • Global, phase 3 placebo-controlled trial • 26 weeks • Primary endpoint: Hyperphagia reduction (HQ-CT)",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "로열티율이 한 자릿수 초중반에서 1%로 내려가는데, 적용 시점은 2029년 1월 또는 bivamelagon 첫 판매 시점이고 그 대가로 3.5억 달러를 4년간 나눠 낸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "22 Rhythm, LG Chem Amend Bivamelagon Exclusive License Agreement Royalty on MC4R Portfolio Sales Low-to-mid-single digits → 1% Beginning Jan. 1, 2029, or first commercial sale of bivamelagon, if earlier Original Agreement Amendment Cash paid / payable $80M upfront $350M additional paid over four years*",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d3e1",
+              "statement": "수정 계약에서 상업화 마일스톤이 걸리는 연매출 문턱은 기존 5억·10억·20억 달러에서 7.5억·15억·22.5억 달러로 올랐다 — 회사와 LG화학이 MC4R 제품군 전체에 두고 합의한 매출 눈금이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "**Triggering annual sales for commercial milestone payments now applicable to MC4R portfolio (setmelanotide, Bivamelagon and RM-718) and thresholds increased from $0.5B, $1.0B and $2.0B in the original agreement to $0.75B, $1.5B and $2.25B in amended agreement.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "회사는 이번 계약과 차입으로 고정·조건부 지급 의무, 이자 비용, 원리금 부담이 커지고 일부 사업 활동을 제한하는 약정이 붙었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "However, the transactions also increase our fixed and contingent payment obligations, future interest expense and debt-service requirements and impose covenants that may restrict certain business activities.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3c2",
+              "statement": "자금은 빌려서 댔다 — 총 한도 7.5억 달러의 5년 만기 차입에서 2.5억 달러를 먼저 끌어 썼고 금리는 SOFR(미국 단기 기준금리)에 4.60%를 더한 수준이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "3분기 실적 발표 자료 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                  "date": "2026-11-03",
+                  "quote": "23 $750M Term Loan Facility Secured SOFR: Secured Overnight Financing Rate; HealthCare Royalty Partners / HCRX: KKR’s HealthCare Royalty; Blackstone: Blackstone Life Sciences; RIFA: Revenue Interest Financing Agreement SOFR + 4.60% 1.00% SOFR floor 5-year term No amortization $750M Total Facility $250M Initial draw",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3c3",
+              "statement": "이 회사의 3상이 늘 성공한 것은 아니다 — EMANATE 3상은 네 개 하위 시험 전부에서 1차 평가지표를 달성하지 못했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Our Phase 3 EMANATE trial did not achieve the primary endpoint in each of its four independent substudies evaluating setmelanotide in genetically caused MC4R pathway diseases, but we did see positive signals in two genetic indications.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 으로 보면 순이익률은 최근 3분기 -92.6% → -69.2% → -44.9% 로 꾸준히 개선되는데, 매출 증가율은 83.8% → 46.9% → 79.6% 로 들쭉날쭉하다. 회사는 3분기 매출이 1년 전보다 80% 늘어난 이유를 국내외 판매량 증가와 3월 승인된 미국 후천성 시상하부 비만 매출의 성장으로 직접 설명했다 — 가속을 만든 것은 이 새 적응증이다. 반면 2분기 증가율이 낮았던 데는 프랑스 약가 환급 제도에 따른 380만 달러 소급 차감이 끼어 있었다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "후천성 시상하부 비만 적응증 확대로 IMCIVREE 는 미국·유럽·일본에서 이 희귀질환에 처음 승인된 치료제가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "IMCIVREE’s label expansion to treat patients living with acquired HO was approved by the U.S. FDA on March 19, 2026, and a similar expansion of its marketing authorization was approved by the European Commission on April 30, 2026. Japan's Ministry of Health, Labour and Welfare (MHLW) also approved IMCIVREE to treat patients with acquired HO on August 24, 2026, making it the first approved therapy in the United States, Europe and Japan for patients with this rare disease.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 미국의 시상하부 비만 환자를 약 1만 명으로 추정하는데, 승인 뒤 반년 남짓 동안 처방 개시 신청서 700건 이상을 받았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "We estimate there are approximately 10,000 people living with hypothalamic obesity in the U.S., 5,000 to 8,000 people living with hypothalamic obesity in Japan, and approximately 10,000 people living with hypothalamic obesity in the E.U.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/q32026earningspr.htm",
+                "date": "2026-11-03",
+                "quote": "Today, the Company announced it has received more than 700 patient start forms for IMCIVREE for acquired HO from more than 500 prescribers as of September 30, 2026, following approval by the U.S. Food and Drug Administration (FDA) on March 19, 2026;",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "처방 기반도 넓어지고 있다 — 처방의의 80%가 내분비내과이고 약 25%는 이미 두 번 이상 처방한 의사다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "3분기 실적 발표 자료 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                "date": "2026-11-03",
+                "quote": "12 Specialty Opportunity with Broadening Prescriber Base Prescribers Specialty Note: Between FDA approval on March 19, 2026 and September 30, 2026. >500 Unique prescribers 80% Endocrinologists evenly split among adult and pediatric providers~25% Repeat aHO Prescribers",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사가 전 세계 권리를 가진 MC4R 작용제 IMCIVREE 는 이 희귀질환군에서 미국·유럽연합·영국·캐나다 등에서 승인된 최초의 치료제다 — 경쟁 약이 없는 시장이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "IMCIVREE, an MC4R agonist for which we hold worldwide rights, is the first-ever therapy developed for patients with certain rare diseases that is approved or authorized in the United States, European Union (EU), United Kingdom, Canada and other countries and regions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "비만 유전자 데이터베이스에 약 12만 건의 염기서열 샘플을 쌓아 둔 것도 후발 주자가 따라오기 어려운 자산이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "We continue to leverage what we believe is the largest known DNA database focused on obesity - with approximately 120,000 sequencing samples as of December 31, 2025 - to improve the understanding, diagnosis and care of people living with severe obesity due to certain variants in genes associated with the MC4R pathway.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "보험 급여를 넓히는 데 힘을 쏟고 있다 — 메디케이드 급여 인구의 60%, 민간 보험 급여 인구의 75%에서 긍정적 급여 정책을 확보했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "3분기 실적 발표 자료 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+                "date": "2026-11-03",
+                "quote": "13 Progress in Time to Approval and Expanding Patient Access Note: Between FDA approval on March 19, 2026 and September 30, 2026. Reimbursement Approvals 75% of approvals at or without prior auth 2/3 of approvals occur in less than 60 days Payers Positive Policies Secured 60% of Medicaid covered lives 75% of commercial covered lives",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "LG화학에 주던 로열티를 MC4R 제품군 순매출의 1%로 낮춰 매출에 붙는 고정 부담을 줄였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Under the terms of the amendment, Rhythm has agreed to pay LG Chem $350 million in fixed payments over four years in order to reduce the low-to-mid single digit royalty in the original agreement to 1% royalty on net product revenue generated by Rhythm’s MC4R portfolio;",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "2026년 비GAAP 영업비용 전망을 3.63억~3.97억 달러에서 3.6억~3.8억 달러로 낮췄다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2분기 실적 보도자료 (2026-08-04)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/q22026earningspr_draft.htm",
+                "date": "2026-08-04",
+                "quote": "Financial Guidance: For the year ending December 31, 2026, Rhythm anticipates approximately $363 million to $397 million in Non-GAAP Operating Expenses.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/q32026earningspr.htm",
+                "date": "2026-11-03",
+                "quote": "Financial Guidance: For the year ending December 31, 2026, Rhythm anticipates approximately $360 million to $380 million in Non-GAAP Operating Expenses.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "끝난 임상에서 비용이 빠지고 있다 — 9개월 기준 임상시험비가 100만 달러, 제조·품질 관련 비용이 270만 달러 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Rhythm Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "a decrease of $2.7 million due to phasing of spending associated with chemistry, manufacturing, and controls (CMC) costs for drug formulation and autoinjector development to support our ongoing RM-718 and bivamelagon trials, and a net decrease of $1.0 million in our clinical trial costs due to the completion and wind down of various studies including our long-term extension trial, EMANATE phase 3, HO Phase 3, partially offset by an uptick in Bivamelagon-related clinical trials.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 분명하다. 2026년 3월 미국 FDA 가 IMCIVREE 를 후천성 시상하부 비만(뇌 시상하부 손상 뒤 생기는 희귀 비만) 치료제로 승인해, 기존 희귀 유전성 비만에만 쓰이던 약의 쓸 수 있는 환자군이 넓어졌다. 매출로 이미 들어오고 있다 — 3분기 전 세계 매출 9,210만 달러로 직전 분기보다 29% 늘었고, 1년 전과 비교하면 80% 증가다. 미국이 6,750만 달러로 73%를 차지했는데 회사는 그 증가의 주된 이유를 새 적응증 환자 수요라고 직접 적었다. 이익 쪽은 아직 적자지만 방향은 개선이다. 보통주 귀속 순손실이 4,240만 달러로 1년 전 5,430만 달러보다 줄었고, 회사는 매출원가를 매출의 10~12% 범위로 유지할 것으로 본다. 다만 판매·관리비(SG&A)가 9개월 누적 1.978억 달러로 44% 늘어 흑자 전환을 미루고 있다. 기대 성장은 두 번째 동력에 걸려 있다 — 10월 일본 출시(회사 추정 환자 5,000~8,000명), 2027년 독일을 시작하는 유럽 출시(약 1만 명)이고, 회사가 내놓은 숫자는 2026년 비GAAP 영업비용 3.6억~3.8억 달러뿐 매출 가이던스(회사가 내놓은 전망)는 없다. 꺾을 수 있는 것은 자금과 임상이다 — LG화학 로열티를 1%로 낮추려 3.5억 달러를 고정 지급하기로 하면서 7.5억 달러 한도 차입을 끌어왔고, 회사 스스로 고정·조건부 지급 의무와 이자 부담이 커진다고 밝혔으며 과거 EMANATE 3상은 네 하위 시험 전부에서 1차 지표를 놓쳤다.",
+      "watch": [
+        "처방 개시 신청서가 700건에서 계속 늘고, 급여로 치료받는 환자 수 증가율(3분기 20%)이 유지되는지 — 초기 적체 환자 소진 뒤 둔화하면 그림이 바뀐다",
+        "일본 매출이 4분기 미국 밖 매출(3분기 2,470만 달러)에 실제로 얼마나 붙는지 — '두 번째로 큰 시장' 주장의 첫 검증이다",
+        "판매·관리비가 2026년 가이던스(연 1.95억~2.05억 달러) 안에서 멈추고 순손실 축소가 이어지는지",
+        "bivamelagon 후천성 시상하부 비만 3상이 연말까지 개시됐는지, LG화학 고정 지급과 차입 이자가 현금 흐름에 어떻게 잡히는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고(기사 제목만 있고 원문은 확인하지 않음)와 국내 증권사 리포트가 없어, 매출 전망치는 회사 공시에 적힌 범위에서만 확인했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-03",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/q32026earningspr.htm",
+          "filingDate": "2026-11-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytmq3-26_vf.htm",
+          "filingDate": "2026-11-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/q22026earningspr_draft.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytmq2-26earningsslides_.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026052170/rytmq22026rm-718.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+          "filingDate": "2026-11-03"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 79.6,
+            "netIncomeYoy": 21.8,
+            "netMargin": -44.9
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 46.9,
+            "netIncomeYoy": -5.7,
+            "netMargin": -69.2
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 83.8,
+            "netIncomeYoy": -12.4,
+            "netMargin": -92.6
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": true,
+          "netMargin": true
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 92128000,
+          "netIncome": -41369000,
+          "yoy": {
+            "revenue": 79.6,
+            "profit": 25.4,
+            "netIncome": 21.8,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 71255000,
+          "netIncome": -49298000,
+          "yoy": {
+            "revenue": 46.9,
+            "profit": -7.2,
+            "netIncome": -5.7,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 60112000,
+          "netIncome": -55639000,
+          "yoy": {
+            "revenue": 83.8,
+            "profit": -11.4,
+            "netIncome": -12.4,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 57253000,
+          "netIncome": 148837461,
+          "yoy": {
+            "revenue": 36.9,
+            "profit": -14.1,
+            "netIncome": -31.4,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 74.2,
+        "saleNy": 74.91,
+        "epsCy": 58.71,
+        "epsNy": -73.7
+      }
+    },
+    "XMTR": {
+      "ticker": "XMTR",
+      "headline": "새 AI 가격·소싱 모델과 대기업 고객 확대가 마켓플레이스 43% 성장을 끌고 있다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "새 세대 AI 가격·소싱 모델 — 부품 원가 예측과 작업별 동적 가격, 공급업체 적합도 점수를 AI 가 자동으로 매긴다",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "2026-07",
+          "basis": [
+            {
+              "id": "n1-b1",
+              "statement": "회사는 부품의 형상·재질·마감까지 보고 가격을 매기는 새 세대 원가 예측 모델을 내놨다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-08-04)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-ex99_1.htm",
+                  "date": "2026-08-04",
+                  "quote": "Xometry introduced a new generation of cost-prediction models that price each part based on the specific parameters required to manufacture it. The models consider greater breadth and depth of inputs, including geometry, material, finish, and whether the part is a standalone part or one of several in a job.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-b2",
+              "statement": "작업마다 가격을 동적으로 매기고 공급업체의 설비·품질·납기 이력을 점수화해 배정하는 적응형 소싱 모델도 함께 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-08-04)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-ex99_1.htm",
+                  "date": "2026-08-04",
+                  "quote": "Xometry launched new adaptive sourcing models that leverage a proprietary supplier data layer to price each job dynamically, moving quickly on well-understood jobs. The new models also incorporate an upgraded job-partner suitability that scores every job against a supplier partner's machine characteristics, quality history and on-time shipping record.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-b3",
+              "statement": "3분기에는 7월에 도입한 AI 소싱 모델 위에 공급 파트너용 차세대 Workcenter 화면을 얹었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "Xometry unveiled its next-gen Workcenter experience for manufacturing partners, building on the AI sourcing models introduced in July.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "n1-r1",
+              "statement": "3분기 마켓플레이스 매출은 1억 6,660만 달러에서 2억 3,800만 달러로 43% 늘어, 전체 매출 40% 증가를 사실상 혼자 만들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Total revenue increased $71.7 million, or 40%, from $180.7 million for the three months ended September 30, 2025 to $252.4 million for the three months ended September 30, 2026. This growth was primarily a result of an increase in marketplace revenue. Marketplace revenue increased $71.4 million, or 43%, from $166.6 million for the three months ended September 30, 2025 to $238.0 million for the three months ended September 30, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-r2",
+              "statement": "회사는 마켓플레이스 매출 43% 증가의 이유로 구매자·공급자 네트워크 확대와 지갑 점유율(한 고객이 쓰는 돈 가운데 우리 몫) 상승을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "Q3 marketplace revenue increased 43% year-over-year, driven by expanding networks of buyers and suppliers and increasing wallet share.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "n1-p1",
+              "statement": "3분기 마켓플레이스 매출총이익률은 36.0% 로 1년 전 35.7% 보다 올랐고, 회사는 개선의 주된 이유로 AI 기반 플랫폼과 늘어난 공급업체 네트워크의 가격 최적화를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Gross margin for marketplace was 36.0% for the three months ended September 30, 2026, as compared to 35.7% for the three months ended September 30, 2025. The improvement was due largely to our AI-driven platform and expanding network of active suppliers which optimize pricing to buyers and suppliers.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-p2",
+              "statement": "3분기 조정 EBITDA(일회성·비현금 비용을 뺀 회사 기준 영업이익)는 1년 전보다 1,530만 달러 늘어 2,140만 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "Q3 Adjusted EBITDA improved $15.3 million year-over-year to Adjusted EBITDA of $21.4 million, driven by strong marketplace gross profit growth and significant operating expense leverage.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "n1-g1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 연간 매출 성장률을 기존 33~34% 에서 최소 37% 로 올렸고, 마켓플레이스는 약 41% 성장을 전제한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "For Full Year 2026, we are raising our revenue growth outlook from previous guidance of 33-34% to at least 37% driven by approximately 41% marketplace growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-g2",
+              "statement": "회사는 2026년 연간 조정 EBITDA 를 6,800만~6,850만 달러로 보는데, 1년 전 1,850만 달러에서 크게 늘어나는 수준이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "For Full Year 2026, we expect Adjusted EBITDA of $68-$68.5 million, an improvement from an Adjusted EBITDA of $18.5 million in Full Year 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "n1-c1",
+              "statement": "회사 자신의 전망대로면 4분기 매출 성장률은 32~33% 로, 3분기 40% 보다 느려진다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "For Q4 2026, we expect revenue of $254-$256 million, representing 32-33% growth year-over-year driven by approximately 35-36% marketplace growth. Total revenue for the third quarter of 2026 was $252 million, an increase of 40% year-over-year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-c2",
+              "statement": "전체 매출총이익률은 39.1% 로 1년 전 39.9% 보다 낮아졌는데, 이익률이 낮은 마켓플레이스가 더 빨리 커진 탓이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Total gross margin was 39.1% for the three months ended September 30, 2026 as compared to 39.9% for the three months ended September 30, 2025. The decrease was primarily driven by faster growth and associated mix shift to marketplace revenue which has lower gross margin than services.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "대기업 고객 공략 — 큰 계정의 지갑 점유율을 높이고 고객사 구매 시스템에 마켓플레이스를 직접 연결한다",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "n2-b1",
+              "statement": "회사는 마켓플레이스 매출 증가의 주된 이유로 플랫폼 구매 활동 증가, 특히 대기업 고객의 활동 증가를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "The increase in marketplace revenue was primarily due to increased buyer activity on the platform, particularly with respect to enterprise customers, for the three months ended September 30, 2026 as compared to the prior year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n2-b2",
+              "statement": "TradeCentric 와의 협력을 넓혀 발주·청구 자동화를 더했고, Coupa·SAP Ariba·Microsoft Dynamics 를 포함한 220개 넘는 기업 구매 시스템과 연결된다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "Xometry expanded its partnership with TradeCentric, adding Purchase Order Automation and Invoice Automation to the PunchOut capability already available between its marketplace and customers' eProcurement systems. The integration connects with over 220 eProcurement solutions, including Coupa, SAP Ariba and Microsoft Dynamics, and is available now to U.S. customers, with international expansion planned.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "n2-r1",
+              "statement": "최근 1년 지출이 많은 대형 계정 수는 1,724개에서 2,172개로 26% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "Marketplace Accounts with Last Twelve-Months Spend of at least $50,000 increased 26% from 1,724 as of September 30, 2025 to 2,172 as of September 30, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n2-r2",
+              "statement": "활성 구매자는 78,282명에서 93,812명으로 20% 늘었고, 3분기 순증 4,255명은 분기 기준 최대였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "Marketplace Active Buyers increased 20% from 78,282 as of September 30, 2025 to 93,812 as of September 30, 2026, with record net buyer additions of 4,255 in the third quarter of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "n2-p1",
+              "statement": "판매·마케팅비는 9% 늘었을 뿐이어서 매출 대비 비중이 18.1% 에서 14.1% 로 내려갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Sales and marketing expense increased $2.9 million, or 9%, from $32.6 million for the three months ended September 30, 2025 to $35.6 million for the three months ended September 30, 2026... As a percent of total revenue, sales and marketing expenses decreased to 14.1% for the three months ended September 30, 2026 from 18.1% for the three months ended September 30, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n2-p2",
+              "statement": "미국 부문 조정 EBITDA 는 1,030만 달러에서 2,200만 달러로 늘었고, 해외 부문 적자는 420만 달러에서 60만 달러로 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Segment Adjusted EBITDA from our U.S. reportable segment for the three months ended September 30, 2026 and 2025 was $22.0 million and $10.3 million, respectively. Segment Adjusted EBITDA from our International reportable segment for the three months ended September 30, 2026 and 2025 was $(0.6) million and $(4.2) million, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "n2-g1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "For Q4 2026, we expect revenue of $254-$256 million, representing 32-33% growth year-over-year driven by approximately 35-36% marketplace growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 4분기 매출을 2억 5,400만~2억 5,600만 달러, 성장률 32~33% 로 보며 마켓플레이스 약 35~36% 성장을 전제했다.",
+              "stripped": true
+            }
+          ],
+          "counter": [
+            {
+              "id": "n2-c1",
+              "statement": "회사는 경기 불확실성 시기에 기업이 정보기술·제조 지출을 늦출 수 있고 그 영향이 뒤늦게 실적에 나타날 수 있다고 공시에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Historically, during periods of economic uncertainty and downturns, businesses may slow spending on information technology and manufacturing, which may impact our business and our customers' businesses. The effect of macroeconomic conditions may not be fully reflected in our results of operations until future periods.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n2-c2",
+              "statement": "이익률이 높은 서비스 부문 매출은 1년 전보다 2% 늘어 사실상 제자리였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 실적 보도자료 (2026-11-03)",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "Services revenue for the third quarter of 2026 was $14.4 million, up 2% year-over-year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Siemens Industry Software 와의 계약 — 조메트리 마켓플레이스 기능을 Siemens 산업용 소프트웨어 안에 직접 넣는다",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-05",
+          "basis": [
+            {
+              "id": "n3-b1",
+              "statement": "2026년 5월 조메트리는 Siemens Industry Software 와 마켓플레이스 기능을 Siemens 산업용 소프트웨어 생태계에 직접 통합하는 계약을 맺었고, 일정 기간 독점 조건이 붙는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "On May 6, 2026, we entered into an agreement with Siemens Industry Software Inc. (\"Siemens ISW\") to integrate Xometry marketplace capabilities directly into the Siemens ISW industrial software ecosystem. Under the terms of the agreement, Xometry will develop the necessary software (\"Software Deliverable\") with support from Siemens ISW, and then provide the Software Deliverable to Siemens ISW at no cost through an original equipment manufacturer agreement (the \"OEM Agreement\"). Certain exclusivity terms apply for a period of up to seven years from the Siemens ISW Agreement's effective date.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n3-b2",
+              "statement": "계약과 함께 Siemens 계열사가 조메트리 주식 1,049,759주를 약 5,000만 달러에 사들였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "In connection with the Siemens ISW Agreement, the Company and Siemens Beteiligungen Inland GmbH, an affiliate of Siemens ISW (\"SBI GmbH\"), entered into a stock purchase agreement pursuant to which SBI GmbH purchased 1,049,759 shares of our Class A common stock for approximately $50 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "n3-p1",
+              "statement": "조메트리가 소프트웨어를 개발해 Siemens 에 무상 제공하고 양측이 각자 비용을 부담하므로, 개발 단계에서는 매출 없이 비용만 나간다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "then provide the Software Deliverable to Siemens ISW at no cost through an original equipment manufacturer agreement (the \"OEM Agreement\")... Each party is responsible for its own costs during the software development and commercialization phases.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "n3-c1",
+              "statement": "독점 기간은 소프트웨어 납품이 끝난 뒤부터 적용되는 구조여서, 이 계약이 언제 매출로 바뀌는지는 공시에 적혀 있지 않다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "조메트리 10-Q 경영진 설명",
+                  "publisher": "Xometry, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Based on the planned collaboration timeline, exclusivity terms will apply for five years subsequent to the completion of the Software Deliverable.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 으로 보면 분기 매출 증가율이 29.5% → 35.9% → 41.1% 로 석 달마다 빨라졌고, 순이익률도 -4.5% → -2.6% → -2.3% 로 적자 폭이 줄었다. 회사는 이 매출 증가를 \"주로 마켓플레이스 매출 증가, 특히 대기업 고객의 구매 활동 증가\" 때문이라고 직접 설명한다. 이익률 쪽 가속은 AI 기반 플랫폼과 공급업체 네트워크 확대가 마켓플레이스 매출총이익률을 36.0% 로 끌어올린 것, 그리고 판매·마케팅비 비중이 18.1% 에서 14.1% 로 내려간 비용 레버리지가 함께 만들었다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q-np1",
+            "statement": "구매자가 도면을 올리면 20가지 공정 가운데 최적 공정을 골라 주는 AI 공정 추천 기능을 새로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 실적 보도자료 (2026-08-04)",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-ex99_1.htm",
+                "date": "2026-08-04",
+                "quote": "Xometry launched an upgraded context-aware AI process recommender. Buyers get a manufacturing recommendation when they upload a part, providing them with the optimal process from among 20 supported manufacturing techniques .",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-np2",
+            "statement": "미국 사출성형 역량을 보강하고 사출 부품 재주문을 고객이 직접 하도록 만들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 실적 보도자료 (2026-08-04)",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-ex99_1.htm",
+                "date": "2026-08-04",
+                "quote": "Xometry bolstered its U.S. injection molding capabilities, delivering enhanced accuracy and speed... Xometry also launched self-serve reordering for injection molded parts to make reordering simple and seamless.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q-mss1",
+            "statement": "경영진은 연 매출 10억 달러 환산 수준을 넘었다며, 온라인 전환을 빠르게 넓혀 시장 점유율 확대를 가속하고 있다고 말했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 실적 보도자료 (2026-11-03)",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                "date": "2026-11-03",
+                "quote": "Our key growth initiatives drove record results in the third quarter, with marketplace growth of 43% year-over-year, as we surpassed the $1 billion revenue run rate... We continue to strengthen Xometry's position as the infrastructure layer for custom manufacturing, enabling us to rapidly scale online adoption and accelerate market share gains.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-mss2",
+            "statement": "구매 고객 수는 1년 사이 20% 늘었고 3분기 순증 4,255명으로 분기 최대를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 실적 보도자료 (2026-11-03)",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                "date": "2026-11-03",
+                "quote": "Marketplace Active Buyers increased 20% from 78,282 as of September 30, 2025 to 93,812 as of September 30, 2026, with record net buyer additions of 4,255 in the third quarter of 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q-mst1",
+            "statement": "회사 스스로 이 시장을 방대하고 파편화된 오프라인 시장으로 표현한다 — 소수 기업이 지배하는 구조가 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 실적 보도자료 (2026-08-04)",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-ex99_1.htm",
+                "date": "2026-08-04",
+                "quote": "This foundation is enabling us to rapidly penetrate the vast, fragmented offline market and accelerate our market share gains.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-mst2",
+            "statement": "대신 구매자가 늘면 수요가 커져 공급업체가 더 모이는 네트워크 효과를 진입장벽으로 내세운다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 10-Q 경영진 설명",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Our business benefits from a network effect, because adding buyers to our platform generates greater demand on our marketplace which in turn attracts more suppliers to the platform, allowing us to rapidly scale and increase the number of manufacturing processes offered on our platform.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q-sm1",
+            "statement": "확장 가능한 플랫폼에 새 공정·기술을 계속 더해 기존 구매자의 지갑 점유율을 높이는 방식을 쓴다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 10-Q 경영진 설명",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Xometry's extensible technology platform allows the Company to add new technologies and processes to gain more wallet share with our buyers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-sm2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "조메트리 실적 보도자료 (2026-11-03)",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+                "date": "2026-11-03",
+                "quote": "Revenue growth remained robust at the 40% level for the second quarter in a row, alongside record marketplace gross margin of 36.0%. This durable top line growth was paired with yet another quarter of improved Adjusted EBITDA profit margin, up 510 basis points year-over-year to 8.5%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "재무 책임자는 마켓플레이스 매출총이익률 36.0% 와 함께 조정 EBITDA 이익률을 1년 전보다 510bp(0.01%p) 높인 8.5% 로 올렸다고 밝혔다.",
+            "stripped": true
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q-cp1",
+            "statement": "2025년과 2026년에 각각 인력의 약 5%, 4% 를 줄이는 구조조정을 했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 10-Q 경영진 설명",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "During 2025 and 2026, we initiated restructuring actions to help improve efficiency and align resources by reducing our workforce by approximately 5% and 4%, respectively.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-cp2",
+            "statement": "운영·지원비는 26% 늘었지만 매출 대비 비중은 10.2% 에서 9.2% 로 낮아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "조메트리 10-Q 경영진 설명",
+                "publisher": "Xometry, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Operations and support expense increased $4.9 million, or 26%, from $18.4 million for the three months ended September 30, 2025 to $23.3 million for the three months ended September 30, 2026... As a percent of total revenue, operations and support expenses decreased to 9.2% for the three months ended September 30, 2026 from 10.2% for the three months ended September 30, 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 조메트리가 2026년에 올린 자체 AI 모델 묶음이다 — 부품의 형상·재질·마감까지 보고 가격을 내는 새 세대 원가 예측 모델, 작업마다 가격을 동적으로 매기고 공급업체 적합도를 점수화하는 적응형 소싱 모델, 7월 도입한 AI 소싱 모델 위에 얹은 공급 파트너용 차세대 Workcenter 화면이다. 매출 쪽 효과는 분명하다. 3분기 마켓플레이스 매출은 1억 6,660만 달러에서 2억 3,800만 달러로 43% 늘어 전체 매출 40% 증가를 사실상 혼자 만들었고, 회사는 그 이유로 구매자·공급자 네트워크 확대와 지갑 점유율 상승을 들었다. 이익 쪽에서도 마켓플레이스 매출총이익률이 36.0% 로 1년 전 35.7% 보다 올랐는데, 회사는 개선의 주된 이유를 AI 기반 플랫폼과 늘어난 공급업체 네트워크의 가격 최적화라고 직접 썼다. 두 번째 동력은 대기업 고객이다 — 회사는 마켓플레이스 매출 증가가 특히 대기업 고객의 구매 활동 증가 때문이라고 설명했고, 최근 1년 지출이 많은 대형 계정은 1,724개에서 2,172개로 26% 늘었다. 고정비가 매출만큼 늘지 않아 판매·마케팅비 비중이 18.1% 에서 14.1% 로 내려가면서 3분기 조정 EBITDA 는 1년 전보다 1,530만 달러 늘어 2,140만 달러가 됐다. 기대 성장률은 회사 가이던스 기준으로 2026년 매출 성장률 최소 37%(마켓플레이스 약 41%), 연간 조정 EBITDA 6,800만~6,850만 달러다. 세 번째는 아직 숫자가 없는 Siemens Industry Software 계약이다 — 2026년 5월에 맺었고 마켓플레이스 기능을 Siemens 산업용 소프트웨어에 직접 넣는 조건이지만, 소프트웨어를 무상 제공하고 각자 비용을 부담해 지금은 매출 없이 비용만 나간다. 꺾을 수 있는 것은 회사 자신의 전망에 이미 들어 있다 — 4분기 성장률 전망은 32~33% 로 3분기 40% 보다 느리고, 전체 매출총이익률은 이익률 낮은 마켓플레이스 비중이 커지면서 39.9% 에서 39.1% 로 내려갔다. 서비스 부문 매출이 1년 전보다 2% 늘어 제자리인 점, 경기 둔화 시 기업이 제조 지출을 늦출 수 있다고 회사가 공시에 적은 점도 함께 봐야 한다.",
+      "watch": [
+        "4분기 마켓플레이스 성장률이 회사 전망인 약 35~36% 를 지키는지 — 3분기 43% 에서 둔화가 더 커지면 이 그림이 흔들린다",
+        "마켓플레이스 매출총이익률이 36.0% 에서 더 오르는지 — AI 가격·소싱 모델 효과가 계속되는지 보는 자리다",
+        "대형 계정 수(3분기 2,172개)와 분기 순증 구매자(4,255명)가 계속 늘어나는지",
+        "Siemens 산업용 소프트웨어용 납품 시점과 매출 인식 방식이 다음 공시에 나오는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고는 기사 제목만 있어 원문을 열지 못했고, 국내 증권사 리포트는 없었다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-03",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-ex99_1.htm",
+          "filingDate": "2026-11-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-ex99_1.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526445554/xmtr-20260930.htm",
+          "filingDate": "2026-11-03"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 41.1,
+            "netIncomeYoy": 79.9,
+            "netMargin": -2.3
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 35.9,
+            "netIncomeYoy": 65.1,
+            "netMargin": -2.6
+          },
+          {
+            "periodEnd": "2025-12-31",
+            "revenueYoy": 29.5,
+            "netIncomeYoy": 12.7,
+            "netMargin": -4.5
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": true,
+          "netMargin": true
+        },
+        "all": true
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 229280000,
+          "netIncome": -5314000,
+          "yoy": {
+            "revenue": 41.1,
+            "profit": 46.1,
+            "netIncome": 79.9,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 205138000,
+          "netIncome": -5259000,
+          "yoy": {
+            "revenue": 35.9,
+            "profit": 66.1,
+            "netIncome": 65.1,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 192397000,
+          "netIncome": -8638000,
+          "yoy": {
+            "revenue": 29.5,
+            "profit": 23.8,
+            "netIncome": 12.7,
+            "priorEnd": "2024-12-31"
+          }
+        },
+        {
+          "periodEnd": "2025-09-30",
+          "revenue": 180715000,
+          "netIncome": -11597000,
+          "yoy": {
+            "revenue": 27.5,
+            "profit": 3.7,
+            "netIncome": -13.7,
+            "priorEnd": "2024-09-30"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 37.31,
+        "saleNy": 22.81,
+        "epsCy": 118.14,
+        "epsNy": 65.42
+      }
+    },
+    "SYRE": {
+      "ticker": "SYRE",
+      "headline": "매출 0인 임상 단계 — 장질환 병용과 피부과 신규 진출이 N, 숫자 근거는 아직 없다",
+      "nVerdict": "부분 충족",
+      "drivers": [
+        {
+          "what": "SKYLINE 임상 2상 — 염증성 장질환(IBD) 단독요법 3종(SPY001·SPY002·SPY003)의 개념 증명을 끝내고 병용 3종(SPY120·SPY130·SPY230)으로 넘어간 단계",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2025-05",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "2026년 9월 SPY003 데이터로 염증성 장질환 단독요법의 임상 2상 개념 증명이 모두 끝났고, 병용 후보의 유도 데이터는 2027년 3분기로 예정됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                  "date": "2026-11-03",
+                  "quote": "Announced positive topline induction data for SPY003 from Part A of the Phase 2 SKYLINE trial (“SKYLINE”), completing proof-of-concept for all three monotherapies in inflammatory bowel disease (“IBD”). SKYLINE Part B is enrolling ahead of schedule, enabling the Company to increase enrollment and provide topline induction results for three potential best-in-indication combinations, which are expected in Q3 2027",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "세 단독요법 모두 1차 지표를 달성해 RHI(로바츠 조직병리 지수) 점수가 각각 9.2점·10.7점·10.0점 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "SPY001, SPY002, and SPY003 achieved their respective primary endpoints, demonstrating a statistically significant reduction in the RHI score of 9.2 points, 10.7 points, and 10.0 points, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "회사는 설립 이후 어떤 제품으로도 상업 매출을 낸 적이 없다고 직접 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "We are a clinical stage biotechnology company with a limited operating history, and due to our significant research and development expenditures, we have generated operating losses since our inception and have not generated any revenue from the commercial sale of any products.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 연구개발비가 8,920만 달러로 1년 전보다 97% 늘어, 임상 확대가 지금은 손실을 키우고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Research and Development Expenses . Research and development expenses increased by $43.9 million, or 97%, to $89.2 million for the three months ended September 30, 2026, from $45.2 million for the three months ended September 30, 2025. The increase was primarily driven by higher manufacturing expenses, clinical trial expenses, and compensation costs partially offset by a decrease in licensing fees.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "늘어난 비용의 중심은 소화기 프로그램으로, 외부 연구개발비가 1년 전보다 54% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Gastroenterology | 38,328 | 24,949 | 13,379 | 54 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사는 염증성 장질환 시장이 2035년까지 450억 달러를 넘을 것으로 전망한다 — 회사 매출 전망이 아니라 시장 규모 전망이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "• Gastroenterology : Advancing three potential first- and best-in-class combination programs in inflammatory bowel disease (“IBD”), a market forecasted to exceed $45 billion by 2035 (includes ulcerative colitis (“UC”) and Crohn’s disease (“CD”))",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사 전망으로는 병용 임상의 환자 모집이 예정보다 빨라 모집 목표를 늘렸고, 유도 데이터는 2027년 3분기에 나온다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "• Part B: Randomized and placebo-controlled assessment of the safety and efficacy of monotherapies and combinations, designed to provide dose-ranging data on monotherapies, proof-of-concept and contribution of components for combinations, with induction data expected in Q3 2027. Study is enrolling ahead of schedule, enabling an increased enrollment target.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "가장 늦게 나온 SPY003 은 임상적 완화율 20%, 내시경 개선율 30% 로 SPY001 의 40%·51% 보다 낮았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                  "date": "2026-11-03",
+                  "quote": "Rates of key secondary endpoints of clinical remission and endoscopic improvement were clinically meaningful at 40% and 51%, respectively, for SPY001, 33% and 42%, respectively, for SPY002, and 20% and 30%, respectively, for SPY003.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 중간 데이터가 예정된 기간에 나오지 않을 수 있고 최종 데이터가 중간 데이터와 다를 수 있다고 공시에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                  "date": "2026-11-03",
+                  "quote": "the potential for interim data not being delivered within expected time frames or final data not being consistent with or different than the interim data reported for the Company’s programs",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "화농성 한선염(HS) 진출 — SKYLIGHT 임상 2상 개시와 SPY072 단독요법 중추 임상 계획, 공모 자금으로 조달",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-09",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "2026년 9월 화농성 한선염 임상 2상 SKYLIGHT 를 새로 시작했고, 10월 공모로 4억 달러가 넘는 총액을 모아 SPY072 의 중추 임상 자금으로 쓴다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                  "date": "2026-11-03",
+                  "quote": "Initiated a new Phase 2 trial (“SKYLIGHT”) designed to provide clinical proof-of-concept for dual TL1A and IL-17A/F inhibition in hidradenitis suppurativa (“HS”). Raised over $400 million in gross proceeds from an underwritten public offering in October to fund a pivotal program in HS with SPY072, our potential best-in-class TL1A monotherapy",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "회사는 SPY072 단독요법을 2027년에 화농성 한선염 중추 임상으로 올릴 계획이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Additionally, we plan to advance SPY072 monotherapy into pivotal studies for HS in 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "피부과 프로그램은 1년 전에는 없던 비용 항목으로, 3분기 외부 연구개발비에 1,194만 달러가 새로 들어갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Dermatology | 11,935 | — | 11,935 | — |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 화농성 한선염 시장이 2035년까지 100억 달러를 넘을 것으로 전망한다 — 회사 매출 전망이 아니라 시장 규모 전망이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "• Dermatology : Advancing a potential first- and best-in-class anti-TL1A + IL-17A/F combination program, as well as a potential best-in-class anti-TL1A agent, in hidradenitis suppurativa (“HS”), a market forecasted to exceed $10 billion by 2035",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2e2",
+              "statement": "회사 계획으로는 SKYLIGHT 의 16주 결과가 2027년 말이나 2028년 초에 나온다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "The trial serves as a surrogate proof-of-concept study for our internal SPY772 combination program combining SPY072 (long-acting anti-TL1A) and SPY007 (long-acting anti-IL-17A/F). Topline results are planned in late 2027 or early 2028.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "같은 SPY072 가 류마티스 질환에서는 회사 기준을 넘지 못해 개발이 중단됐고, 건선성 관절염과 축성 척추관절염에서는 1차 지표를 놓쳤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                  "date": "2026-11-03",
+                  "quote": "Reported positive topline results for SPY072 in rheumatoid arthritis (“RA”) sub-study of the Phase 2 SKYWAY basket trial (“SKYWAY”), though with a magnitude of benefit insufficient to prioritize advancement. SPY072 was well-tolerated but did not meet its primary endpoint in the psoriatic arthritis (“PsA”) or axial spondyloarthritis (“axSpA”) SKYWAY sub-studies. SPY072 will not be advanced in rheumatic disease",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "화농성 한선염에는 이미 IL-17A/F 표준치료가 있어, 회사의 병용 임상도 그 표준치료 위에 얹는 설계다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Spyre Therapeutics (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                  "date": "2026-11-03",
+                  "quote": "Beyond IBD, we were thrilled to see excellent external proof-of-concept data for TL1A in hidradenitis suppurativa, supporting the expansion of our pipeline to include a pivotal monotherapy program as well as a combination study with the current standard of care, IL17-A/F.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 은 이 종목에서 성립하지 않는다 — 제품 매출이 0이라 매출 증가율과 순이익률을 셀 수 없고, 손익도 오르는 흐름이 아니다. 3분기 순손실은 9,610만 달러로 1년 전 1,120만 달러보다 커졌는데, 회사 설명으로는 연구개발비가 97% 늘고 전년에 있던 조건부가치권(CVR) 평가이익이 사라진 결과다. 지금의 숫자 변화는 새 동력이 만든 이익이 아니라 임상 확대에 쓴 비용이며, 동력과 이익을 잇는 근거는 아직 없다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1",
+            "statement": "염증성 장질환 단독요법 세 가지가 모두 임상 2상 개념 증명을 끝내고 병용 후보로 넘어갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Spyre Therapeutics (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                "date": "2026-11-03",
+                "quote": "Announced positive topline induction data for SPY003 from Part A of the Phase 2 SKYLINE trial (“SKYLINE”), completing proof-of-concept for all three monotherapies in inflammatory bowel disease (“IBD”).",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [
+          {
+            "id": "q3",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Spyre Therapeutics (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                "date": "2026-11-03",
+                "quote": "supporting the expansion of our pipeline to include a pivotal monotherapy program as well as a combination study with the current standard of care, IL17-A/F.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "화농성 한선염의 현재 표준치료는 IL-17A/F 계열이고, 회사는 거기에 TL1A 억제를 더하는 자리로 들어간다.",
+            "stripped": true
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4",
+            "statement": "회사의 차별화 전략은 기존 표준치료를 뚜렷하게 넘는 효능·안전성과 투여 편의다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Spyre Therapeutics (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                "date": "2026-11-03",
+                "quote": "we plan to deliver topline data in Q3 2027 with the potential for efficacy, safety, and convenience that meaningfully surpasses today's standard of care",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5",
+            "statement": "파이프라인이 임상 단계로 올라가면서 초기 연구 단계 외부 비용은 9개월 기준 1년 전보다 52% 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "스파이어 테라퓨틱스 10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Spyre Therapeutics (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Preclinical | $ | 7,280 | $ | 15,078 | $ | (7,798) | (52) | % |",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "statement": "10월 공모를 포함한 프로 포마 현금 15억 달러로 2029년 하반기까지 운영 자금이 버틴다고 회사는 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "스파이어 테라퓨틱스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Spyre Therapeutics (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+                "date": "2026-11-03",
+                "quote": "$1.5 billion in pro forma cash, cash equivalents, and marketable securities as of September 30, 2026, with expected runway into the second half of 2029",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "스파이어 테라퓨틱스는 아직 승인 제품이 없는 임상 단계 회사이고, 회사 스스로 어떤 제품으로도 상업 매출을 낸 적이 없다고 적었다. 새로운 것은 분명히 있다 — 염증성 장질환 단독요법 세 가지가 모두 임상 2상 개념 증명을 끝내고 병용 후보로 넘어갔으며, 세 약 모두 1차 지표에서 RHI 점수를 9.2점·10.7점·10.0점 줄였다. 둘째 동력은 2026년 9월 시작한 화농성 한선염 임상 2상 SKYLIGHT 와 2027년 예정된 SPY072 단독요법 중추 임상이고, 10월 공모로 4억 달러가 넘는 총액을 그 자금으로 모았다. 매출 영향은 어느 쪽도 숫자로 보여 줄 수 없다 — 두 적응증 모두 임상 중이라 제품 매출이 없다. 이익에는 지금 반대 방향으로 작용한다. 3분기 연구개발비가 8,920만 달러로 1년 전보다 97% 늘었고, 피부과 프로그램에만 1년 전 없던 1,194만 달러가 새로 들어갔다. 회사가 내놓은 기대치는 매출 전망이 아니라 시장 규모 전망뿐이다 — 염증성 장질환 시장은 2035년까지 450억 달러 초과, 화농성 한선염 시장은 100억 달러 초과. 그림을 꺾을 수 있는 것은 임상 결과 자체다. 같은 SPY072 가 류마티스 질환에서는 회사 기준을 넘지 못해 개발이 중단됐고, 가장 늦게 나온 SPY003 의 임상적 완화율 20%·내시경 개선율 30% 는 SPY001 의 40%·51% 보다 낮았다. 회사도 중간 데이터가 예정대로 나오지 않거나 최종 데이터가 중간 데이터와 달라질 수 있다고 공시했다.",
+      "watch": [
+        "2027년 3분기 SKYLINE 병용 유도 데이터가 단독요법보다 뚜렷하게 좋은지 — 이 그림의 핵심 분기점",
+        "SPY072 단독요법 화농성 한선염 중추 임상이 2027년에 실제로 시작되는지, 일정이 밀리는지",
+        "SKYLIGHT 결과 시점이 2027년 말~2028년 초에서 유지되는지",
+        "연구개발비 증가 속도와 2029년 하반기 현금 소진 전망이 유지되는지 — 다시 공모하면 주식 수가 더 늘어난다"
+      ],
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트가 없어 회사 밖 추정 매출·성장률은 확인하지 못함",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-03",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000132/spyre-20260930xexx991pd.htm",
+          "filingDate": "2026-11-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000098/spyre-20260630xexx991.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000131/syre-20260930.htm",
+          "filingDate": "2026-11-03"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2024-12-31",
+            "revenueYoy": null,
+            "netIncomeYoy": 10.9,
+            "netMargin": null
+          },
+          {
+            "periodEnd": "2024-09-30",
+            "revenueYoy": null,
+            "netIncomeYoy": -72.1,
+            "netMargin": null
+          },
+          {
+            "periodEnd": "2024-06-30",
+            "revenueYoy": -100,
+            "netIncomeYoy": 82.1,
+            "netMargin": null
+          }
+        ],
+        "rising": {
+          "revenue": null,
+          "netIncome": false,
+          "netMargin": null
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2024-12-31",
+          "revenue": 0,
+          "netIncome": -56296000,
+          "yoy": {
+            "revenue": null,
+            "profit": -33.4,
+            "netIncome": 10.9,
+            "priorEnd": "2023-12-31"
+          }
+        },
+        {
+          "periodEnd": "2024-09-30",
+          "revenue": 0,
+          "netIncome": -69028000,
+          "yoy": {
+            "revenue": null,
+            "profit": -202.1,
+            "netIncome": -72.1,
+            "priorEnd": "2023-09-30"
+          }
+        },
+        {
+          "periodEnd": "2024-06-30",
+          "revenue": 0,
+          "netIncome": -38837000,
+          "yoy": {
+            "revenue": -100,
+            "profit": 72.3,
+            "netIncome": 82.1,
+            "priorEnd": "2023-06-30"
+          }
+        },
+        {
+          "periodEnd": "2024-03-31",
+          "revenue": 0,
+          "netIncome": -43857000,
+          "yoy": {
+            "revenue": -100,
+            "profit": -154,
+            "netIncome": -138.1,
+            "priorEnd": "2023-03-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 0,
+        "saleNy": 0,
+        "epsCy": 53.67,
+        "epsNy": 21.36
+      }
+    },
+    "RKLB": {
+      "ticker": "RKLB",
+      "headline": "위성 제조가 매출 73% 증가를 끌고, 뉴트론은 발사 전인데 수주가 먼저 쌓인다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "우주 시스템(위성·부품 제조) — GEOST·Mynaric·Motiv 인수를 더해 매출 중심이 발사에서 위성 제조로 옮겨갔다",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2025-08",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 2020년 Sinclair Interplanetary 인수로 위성 부품 시장에 들어온 뒤 GEOST·Mynaric·Motiv까지 인수를 이어 왔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "We entered this market in 2020 with our acquisition of leading spacecraft components manufacturer Sinclair Interplanetary, and have since expanded our market participation with the acquisitions of Planetary Systems Corporation, SolAero Technologies Corp., Advanced Solutions, Incorporated, GEOST LLC (“GEOST”), Mynaric AG (“Mynaric”) and Motiv Space Systems, LLC (“Motiv”).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "가장 최근 인수는 GEOST가 2025년 8월, Mynaric이 2026년 4월, Motiv가 2026년 5월에 끝났다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "We have flight hardware and spacecraft with an extensive flight heritage, including legacy missions enabled by Sinclair Interplanetary (acquired April 2020), Advanced Solutions, Incorporated (acquired October 2021), Planetary Systems Corporation (acquired November 2021), SolAero Technologies Corp. (acquired January 2022), GEOST (acquired August 2025), Mynaric (acquired April 2026) and Motiv (acquired May 2026).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b3",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "• More than 55 spacecraft now in development and build across Rocket Lab’s production complexes, including spacecraft for NASA, the Space Development Agency, USSF, and commercial constellation operators.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "3분기에 로켓 랩이 만든 위성 12기가 궤도에서 작동을 시작했고, 55기 넘는 위성이 현재 개발·생산 중이다.",
+              "stripped": true
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 우주 시스템 매출은 2.148억 달러로 1년 전보다 88% 늘었고, 회사는 그 이유를 위성 제조 성장과 인수라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Space systems revenue was $214.8 million for the three months ended September 30, 2026, an increase of $100.6 million, or 88%, primarily due to spacecraft manufacturing growth and acquisitions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "3분기 전체 매출은 1년 전보다 73%, 금액으로 1.128억 달러 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Revenue increased by $112.8 million, or 73%, for the three months ended September 30, 2026 as compared to the three months ended September 30, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "그 증가분 가운데 우주 시스템이 1.006억 달러, 발사 서비스가 1,220만 달러를 보탰다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "This year-on-year increase resulted from space systems revenue growth of $100.6 million, primarily driven by satellite manufacturing and acquisitions, and an increase in launch revenue of $12.2 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "9개월 누적 총이익률(매출에서 원가를 뺀 비율)은 35.8%로 1년 전 32.9%보다 올라갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Gross profit | 251,140 | 35.8 | % | 138,949 | 32.9 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "다만 3분기만 보면 총이익률이 33.6%로 1년 전 37.0%보다 내려갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Gross profit | 90,071 | 33.6 | % | 57,314 | 37.0 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 4분기 매출 2.7~2.9억 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "• Revenue between $270 million and $290 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "같은 4분기 가이던스에서 회계 기준(GAAP) 총이익률은 34~36%로, 3분기 실적보다 높은 수준을 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "• GAAP Gross Margins between 34% and 36%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "3분기 우주 시스템 매출원가가 1.434억 달러로 78% 늘어, 인수와 제조 확대가 원가도 함께 끌어올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Space systems cost of revenue was $143.4 million for the three months ended September 30, 2026, an increase of $62.8 million, or 78%, primarily due to acquisitions and spacecraft manufacturing growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "대신증권은 시장 추정치가 회사 가이던스 중간값에 붙어 매출이 전망을 크게 넘길 여지는 제한적이라고 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] [26Q3 Preview] 뉴트론 2027년 연기 후 총마진 밴드 확인이 관건, 투자의견 중립 유지",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmixzgmegkmxizgcgxeeee.pdf",
+                  "date": "2026-11-02",
+                  "quote": "- 컨센서스가 가이던스 중간값에 붙어 매출 서프라이즈 여지는 제한적",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "뉴트론(Neutron) 중형 재사용 로켓 — 첫 발사 전인데 발사 공급이 모자라 수주와 발사 단가가 먼저 오르고 있다",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2021-03",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2021년 3월에 재사용형 중형 로켓 뉴트론 개발 계획을 발표했고, 저궤도 재사용 발사 기준 약 13,000kg을 실을 수 있다고 설명한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "In March 2021, we announced plans to develop our reusable-ready medium-capacity Neutron launch vehicle that will increase the payload capacity of our space launch vehicles to approximately 13,000 kg for reusable configuration launches to low Earth orbit and support lighter payloads for higher orbits.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "3분기에도 조립·통합·시험과 첫 비행 장비의 발사장 인도에서 주요 단계를 통과했다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "With first launch now targeted for no earlier than 2027, critical milestones continue to be achieved across assembly, integration, testing, and delivery of first flight hardware to Launch Complex 3.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기에 뉴트론 발사 계약 5.15억 달러 이상을 따내 첫 발사 전인데도 수주가 16회로 늘었고, 일부 임무의 기본 발사 가격은 7,000만 달러로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "• Secured over $515M in Neutron launch contracts from constellation operators in Q3, growing the rocket’s backlog to 16 missions ahead of its debut and lifting the base launch price to $70 million for several of these missions as industry launch capacity tightens.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "Electron·HASTE·뉴트론을 합쳐 3분기에만 약 10억 달러 신규 발사 계약을 맺어 발사 수주가 117회가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "• Approximately $1 billion in new launch contracts signed across Electron, HASTE, and Neutron, bringing Rocket Lab’s total launch backlog to 117 launches: a new record.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r3",
+              "statement": "수주잔고(이미 계약했지만 아직 매출로 잡지 않은 금액)는 9월 말 35.730억 달러로 지난해 말 18.473억 달러에서 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Backlog increased from $1,847.3 million as of December 31, 2025 to $3,573.0 million as of September 30, 2026, of which $1,724.7 million is related to space systems and $1,848.3 million is related to launch services.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r4",
+              "statement": "신한투자증권은 제한적 발사 공급 때문에 대규모 신규 수주와 평균 판매단가 상승이 나타났다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] 발사 공급 부족이 만든 성장 기회",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkgmlczzeklgcgcgxeeee.pdf",
+                  "date": "2026-11-10",
+                  "quote": "반면 제한적 발사 공급을 바탕으로 수요가 증 가하면서 대규모 신규 수주와 ASP 상승 발생",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "For the three months ended September 30, 2026 and 2025, revenue per launch was $7.8 million and $10.1 million, respectively. Meanwhile, cost per launch for the three months ended September 30, 2026 and 2025 was $5.0 million and $5.9 million, respectively. The decrease in revenue per launch reflects changes in customer mix and mission complexity during the period in which the launches occurred. The decrease in cost per launch was primarily driven by efficiencies of scale.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "3분기 발사 1회당 원가는 500만 달러로 1년 전 590만 달러보다 내려갔고, 회사는 규모의 효율 때문이라고 설명했다.",
+              "stripped": true
+            },
+            {
+              "id": "d2p2",
+              "statement": "뉴트론 개발비는 아직 비용으로만 들어가며, 3분기 연구개발비가 39% 늘어난 이유의 하나로 회사가 뉴트론 진척을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Research and development expenses increased by $27.7 million, or 39%, for the three months ended September 30, 2026 as compared to the three months ended September 30, 2025, primarily due to Neutron development progress, incremental research and development spend at recently acquired businesses, increased staff and staff-related expenses as a result of hiring and prototype spend focused on expanding our spacecraft and spacecraft components product portfolio.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "신한투자증권은 뉴트론의 다음 계약 가능 슬롯이 2030년대 이후로 넘어갔다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] 발사 공급 부족이 만든 성장 기회",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkgmlczzeklgcgcgxeeee.pdf",
+                  "date": "2026-11-10",
+                  "quote": "뉴트론은 첫 시험 발사 이전임에도 8회, 5.2억달러 이상의 신규 계약 을 추가 확보하며 총 16회 발사 물량 확보, 다음 계약 가능 슬롯은 30년 대 이후로 넘어간 상황",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "In October 2026, during manufacturing of first-stage composite structures, we identified a manufacturing process issue that resulted in voids within portions of a composite propellant tank dome. Following investigation and testing, we implemented process refinements and obtained encouraging results from subsequent testing and manufacturing activities. As a result of the time required to investigate, resolve, and validate the manufacturing process, as well as manufacture a replacement forward dome, we now expect Neutron’s inaugural launch to occur in 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "10월 1단 복합재 구조물 제조에서 공극 결함이 나와 첫 발사를 2027년으로 미뤘다.",
+              "stripped": true
+            },
+            {
+              "id": "d2c2",
+              "statement": "회사는 뉴트론 생산이 늦어지거나 목표 생산 속도를 못 맞추면 고객 수용과 앞으로의 매출에 중대한 영향이 있을 수 있다고 공시에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Any delay in the production of the Neutron launch vehicle or in our ability to produce these launch vehicles at our expected rate of production and with a reliable quality management system could have a material impact on customer acceptance as well as our future revenue, financial condition and results of operations.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c3",
+              "statement": "신한투자증권은 연이은 첫 발사 연기와 구체적 목표 시점의 부재가 투자심리 회복을 늦추는 요인이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] 이번 연기가 마지막이길",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgczzeeezelilgcgxeeee.pdf",
+                  "date": "2026-10-15",
+                  "quote": "빠른 반복 발사를 위한 신뢰도 확보는 필수적 이나, 연이은 첫 발사 일정 연기와 구체적인 발사 목표 시점의 부재는 투 자심리 회복을 지연시키는 요인",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "이리듐 커뮤니케이션스 인수 — 발사·위성 제조에서 위성통신 운영으로 넓혀 반복 매출을 들이는 계약",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-06",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "2026년 6월 28일 이리듐 커뮤니케이션스를 인수하는 확정 계약을 맺었고, 규제 승인 등을 거쳐 2027년 마감 예정이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "On June 28, 2026, we entered into a definitive agreement to acquire Iridium Communications Inc. The transaction is subject to customary closing conditions, including regulatory approval, and, if approved, is currently expected to close in 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "인수 조건은 주당 54달러의 현금·주식 혼합이며 기업가치는 약 80억 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "On June 28, 2026, we entered into a definitive agreement to acquire all outstanding shares of Iridium for $54 per share in a cash and stock transaction. This represents an enterprise value of approximately $8.0 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b3",
+              "statement": "3분기에 증자로 인수대금 조달을 끝냈고 이리듐 주주 승인도 받았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "• Fully funded Rocket Lab’s pending acquisition of Iridium Communications through a completed ATM equity offering and received approval by Iridium lenders to maintain Iridium’s credit facility post-transaction, and obtained overwhelming approval from Iridium shareholders in favor of the acquisition.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "신한투자증권에 따르면 이리듐은 가입자 255만 명을 두고 2025년 매출 8.71억 달러를 냈다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] 발사+위성 제조에 저궤도 위성 통신 확보",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlglcxxeklxqeqgcgxeeee.pdf",
+                  "date": "2026-06-30",
+                  "quote": "미국 정부가 주요 고객이며 가입자 255만명 보유. 25년 매출 8.71억달러, OEBITDA 마진 57%, FCF 1.7억달러 기록",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "신한투자증권은 이리듐의 2025년 영업 EBITDA 마진이 57%, 잉여현금흐름이 1.7억 달러였다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] 발사+위성 제조에 저궤도 위성 통신 확보",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlglcxxeklxqeqgcgxeeee.pdf",
+                  "date": "2026-06-30",
+                  "quote": "25년 매출 8.71억달러, OEBITDA 마진 57%, FCF 1.7억달러 기록",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3p2",
+              "statement": "반면 인수용 브리지론을 해지하면서 2,730만 달러 손실이 3분기 손익에 들어갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Loss on extinguishment of debt increased by $27.3 million for the three months ended September 30, 2026 as compared to the three months ended September 30, 2025, as a result of the termination of the Bridge Loan commitment related to the Iridium Transaction, which resulted in the write-off of debt issuance costs and termination fees.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d3e1",
+              "statement": "신한투자증권은 이번 인수로 발사-위성 제작-위성 통신을 잇는 사업 모델과 안정적 반복 매출·현금흐름을 확보한다고 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] 발사+위성 제조에 저궤도 위성 통신 확보",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlglcxxeklxqeqgcgxeeee.pdf",
+                  "date": "2026-06-30",
+                  "quote": "이리디움 인수를 통해 발사체-위성 제작-위성 통신의 End-to-End 사업 모델 구축 및 안정적 반복 매출과 현금흐름 확 보",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "인수는 규제 승인 등 조건이 남아 2027년 마감 예정이며, 그때까지 매출에 더해지지 않는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "로켓 랩 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "The transaction is expected to close in 2027, subject to customary closing conditions, including regulatory approval.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3c2",
+              "statement": "대신증권은 인수대금 19.4억 달러를 증자로 전액 조달해 신주 희석 부담이 생긴다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[로켓 랩 (NAS:RKLB)] [Issue & News] 이리듐 인수대금 지분조달 완료, 36억 달러 브리지론 취소 - 부채 대신 증자로 인수 재원 확정",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlmzeimqmllzeqgcgxeeee.pdf",
+                  "date": "2026-09-15",
+                  "quote": "- 이리듐 인수대금 19.4 억달러 ATM 증자로 전액 조달 완료- 36억달러 브리지론 취소, 부채조달 리스크 사전 차단- 신주 희석 부담은 주가 단기 하방 요인으로 작용 가능",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33은 최근 3분기 매출 증가율이 35.7% → 63.5% → 62%로 한 단계 뛴 뒤 유지되고, 순이익률은 -29.5% → -22.5% → -21%로 적자 폭이 줄어드는 흐름을 보여 준다. 이 가속을 만든 것은 우주 시스템이다 — 회사는 3분기 매출 증가분 1.128억 달러 가운데 1.006억 달러가 우주 시스템에서 왔고 그 원인은 위성 제조 성장과 인수라고 직접 적었다. 다만 9월 분기에는 이리듐 브리지론 해지 손실 2,730만 달러 같은 일회성이 들어가 순손실이 다시 커졌으므로, 이익률 개선 추세는 아직 일회성에 흔들린다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "위성 제조가 새 주력이 되어 3분기 우주 시스템 매출 2.148억 달러, 1년 전보다 88% 증가를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Space systems revenue was $214.8 million for the three months ended September 30, 2026, an increase of $100.6 million, or 88%, primarily due to spacecraft manufacturing growth and acquisitions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1b",
+            "statement": "2분기에는 어디서든 발사할 수 있는 GHOST 발사 시스템을 새로 내놨고 2027년 알래스카 준궤도 발사로 첫 운용에 들어간다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 2분기 실적 보도자료 (2026-08-10)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm",
+                "date": "2026-08-10",
+                "quote": "• Introduced the Company’s GHOST globally-deployable launch system to support suborbital and orbital launches from anywhere in the world. GHOST’s first location – named Rocket Lab Launch Complex 4 - will be at the Pacific Spaceport Complex at Kodiak, Alaska, with two pads to be established for high-frequency, launch campaigns. The system is set to make its operational debut with a suborbital launch from Alaska in 2027.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "Electron은 2026년 9월 30일까지 93회 성공 임무로 250기 넘는 위성을 올렸고, 2025년에는 두 번째로 많이 발사된 궤도 로켓이었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Since its maiden launch in 2017, Electron has become the leading small spacecraft launch vehicle delivering over 250 spacecraft to orbit for government and commercial customers across 93 successful missions through September 30, 2026. In 2025, Electron was the second most frequently launched orbital rocket.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Launch services revenue was $53.1 million for the three months ended September 30, 2026, an increase of $12.2 million, or 30%, primarily due to a higher launch cadence with six Electron launch missions completed in the three months ended September 30, 2026, versus four launch missions completed in the three months ended September 30, 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "발사 횟수도 늘어 3분기 Electron 발사는 6회로 1년 전 4회보다 많았고 발사 서비스 매출은 30% 증가했다.",
+            "stripped": true
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "미 우주군의 SB-AMTI 사업에서 발사와 위성을 함께 공급하는 업체는 로켓 랩을 포함해 두 곳뿐이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 2분기 실적 보도자료 (2026-08-10)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm",
+                "date": "2026-08-10",
+                "quote": "Rocket Lab is one of only two vendors delivering launch-plus-spacecraft for SB-AMTI: a compelling recognition of the value of Rocket Lab’s strategic vertical integration.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "업계 발사 능력이 빡빡해지면서 일부 뉴트론 임무의 기본 가격이 7,000만 달러로 올라갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 3분기 실적 보도자료 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+                "date": "2026-11-09",
+                "quote": "• Secured over $515M in Neutron launch contracts from constellation operators in Q3, growing the rocket’s backlog to 16 missions ahead of its debut and lifting the base launch price to $70 million for several of these missions as industry launch capacity tightens.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 원가를 계속 낮추고 생산량을 늘려 발사체 비용을 떨어뜨리고 총이익률을 개선할 수 있다고 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "We intend to continue to invest in initiatives to improve our operating leverage and significantly ramp production. We believe continued reduction in costs and an increase in production volumes will enable the cost of launch vehicles to decline and improve our gross margins.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "기존 고객에게 더 파는 것이 핵심이라며, 재구매가 고객 만족과 경쟁사 대체 가능성 축소를 뜻한다고 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Our ability to sell additional products to existing customers is a key part of our success, as follow-on purchases indicate customer satisfaction and decrease the likelihood of competitive substitution.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "직접 인건비와 제조 간접비가 원가의 큰 부분이라, 생산 속도를 올려 이 비용을 더 많이 흡수하는 것이 가장 중요한 원가 절감 과제라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Because direct labor costs and manufacturing overhead comprise a significant portion of cost of revenues, increasing our production rate resulting in greater absorption of these costs is our most critical cost reduction initiative.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "로켓 랩 10-Q 경영진 설명 (2026-11-09)",
+                "publisher": "로켓 랩 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "For the nine months ended September 30, 2026 and 2025, revenue per launch was $8.7 million and $8.2 million, respectively. Meanwhile, cost per launch for the nine months ended September 30, 2026 and 2025 was $4.9 million and $5.5 million, respectively. The increase in revenue per launch reflects changes in customer mix and mission complexity during the period in which the launches occurred. The decrease in cost per launch was primarily driven by efficiencies of scale.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "그 결과 9개월 누적 발사 1회당 원가가 490만 달러로 1년 전 550만 달러보다 내려갔다.",
+            "stripped": true
+          }
+        ]
+      },
+      "narrative": "새로운 것은 발사가 아니라 위성 제조다. 회사는 2020년 Sinclair Interplanetary 인수로 위성 부품 시장에 들어온 뒤 GEOST(2025년 8월)·Mynaric(2026년 4월)·Motiv(2026년 5월)를 잇따라 사들였고, 3분기 우주 시스템 매출은 2.148억 달러로 1년 전보다 88% 늘었다. 전체 매출 증가분 1.128억 달러 가운데 1.006억 달러가 여기서 나왔고, 회사는 그 원인을 위성 제조 성장과 인수라고 직접 적었다. 이익 쪽은 양면이다 — 9개월 누적 총이익률은 35.8%로 1년 전 32.9%보다 올랐지만, 3분기만 보면 33.6%로 1년 전 37.0%보다 낮고 우주 시스템 매출원가는 78% 늘었다. 둘째 동력인 뉴트론은 아직 매출이 없는데 수주가 먼저 쌓인다. 3분기에 5.15억 달러 이상을 계약해 발사 전 수주가 16회가 됐고, 일부 임무의 기본 가격은 발사 공급이 모자라면서 7,000만 달러로 올랐다. 전체 수주잔고는 9월 말 35.730억 달러로 지난해 말 18.473억 달러에서 늘었다. 셋째는 이리듐 인수인데 2027년 마감 예정이라 아직 매출에 없고, 오히려 브리지론 해지 손실 2,730만 달러가 3분기 손익에 들어갔다. 앞으로의 기대는 회사 가이던스로, 4분기 매출 2.7~2.9억 달러와 회계 기준 총이익률 34~36%를 제시했다. 꺾일 수 있는 지점은 뉴트론이다 — 10월 1단 복합재에서 공극 결함이 나와 첫 발사가 2027년으로 미뤄졌고, 회사 스스로 생산 지연이 앞으로의 매출에 중대한 영향을 줄 수 있다고 적었다.",
+      "watch": [
+        "4분기 매출이 회사 가이던스 2.7~2.9억 달러 안에 들어오는지, 회계 기준 총이익률이 34~36%로 3분기 33.6%보다 올라오는지",
+        "우주 시스템 매출이 2.148억 달러 위에서 더 늘면서 매출원가 증가율(3분기 78%)이 매출 증가율(88%) 아래로 내려오는지",
+        "뉴트론 1단 전방 돔 교체·탱크 조립·극저온 시험이 끝나고 구체적 첫 발사 시점이 제시되는지",
+        "발사 수주 117회·수주잔고 35.730억 달러가 다음 분기에도 늘어나는지, 뉴트론 기본 가격 7,000만 달러가 신규 계약에서 유지되는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고를 찾지 못했고, 국내 증권사 리포트 원문 PDF는 이 환경에 글자 추출 도구가 없어 열지 못해 리포트 요약 문장만 인용했다",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-09",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+          "filingDate": "2026-11-09"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-10)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm",
+          "filingDate": "2026-08-10"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm",
+          "filingDate": "2026-11-09"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 62,
+            "netIncomeYoy": 25.8,
+            "netMargin": -21
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 63.5,
+            "netIncomeYoy": 25.7,
+            "netMargin": -22.5
+          },
+          {
+            "periodEnd": "2025-12-31",
+            "revenueYoy": 35.7,
+            "netIncomeYoy": -1.1,
+            "netMargin": -29.5
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": true,
+          "netMargin": true
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 234066000,
+          "netIncome": -49258000,
+          "yoy": {
+            "revenue": 62,
+            "profit": 3.6,
+            "netIncome": 25.8,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 200348000,
+          "netIncome": -45022000,
+          "yoy": {
+            "revenue": 63.5,
+            "profit": 5.4,
+            "netIncome": 25.7,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 179652000,
+          "netIncome": -52922000,
+          "yoy": {
+            "revenue": 35.7,
+            "profit": 1,
+            "netIncome": -1.1,
+            "priorEnd": "2024-12-31"
+          }
+        },
+        {
+          "periodEnd": "2025-09-30",
+          "revenue": 155080000,
+          "netIncome": -18257000,
+          "yoy": {
+            "revenue": 48,
+            "profit": -13.6,
+            "netIncome": 64.8,
+            "priorEnd": "2024-09-30"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 59.39,
+        "saleNy": 38.72,
+        "epsCy": -25.72,
+        "epsNy": -66.82
+      }
+    },
+    "TTWO": {
+      "ticker": "TTWO",
+      "headline": "새 동력은 11월 19일 나올 GTA VI 하나 — 아직 매출은 없고 숫자는 역성장",
+      "nVerdict": "부분 충족",
+      "drivers": [
+        {
+          "what": "GTA VI(그랜드 테프트 오토 VI) — 록스타게임스의 간판 시리즈 신작, 11월 19일 출시 예정",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-06",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 10-Q 경영진 설명에서 록스타게임스가 GTA VI 를 11월 19일 출시한다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Rockstar Games continues to invest in the series and will release Grand Theft Auto VI on November 19, 2026, during the current fiscal year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "사전 주문은 6월에 시작됐고, 회사는 초기 수요가 이 시리즈의 과거 기록을 앞질렀다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Pre-orders for the title commenced in June 2026, generating initial demand that has outpaced historical benchmarks for the series.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b3",
+              "statement": "최고경영자는 실적 보도자료에서 사전 주문이 전례 없는 수준으로 이어지고 있어 회사 역사에 남을 한 해를 예상한다고 말했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "The launch of Grand Theft Auto VI is ten days away and, with pre-orders continuing to reach unprecedented levels, we expect to deliver an historic year for our company.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "GTA 제품은 아직 신작이 나오기 전인데도 상반기 전체 매출의 12.6%를 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Sales of Grand Theft Auto products generated 12.6% of our net revenue for the six months ended September 30, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "직전 분기 순결제액은 1년 전보다 3.592억 달러 줄었는데, 회사는 GTA 시리즈 순결제액 증가가 그 감소를 일부 메웠다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "For the three months ended September 30, 2026, Net Bookings decreased by $359.2 as compared to the prior year period. The decrease was primarily driven by lower Net Bookings from our Borderlands franchise, the latest installment of which, Borderlands 4 , released in September 2025; NBA 2K ; our Mafia franchise, the latest installment of which, Mafia: The Old Country , released in August 2025; Color Block Jam and Match Factory! . The decrease was partially offset by higher Net Bookings from our Grand Theft Auto series.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "회사는 출시 분기인 10~12월 순결제액 가이던스(회사가 내놓은 전망)를 33.5억~35.0억 달러로 제시했다 — 직전 분기 16.0억 달러의 두 배를 넘는 수준이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "Operational metric | Net Bookings | $3,350 to $3,500 … Fiscal second quarter Net Bookings were $1.60 billion",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "같은 출시 분기 순이익 가이던스는 2.50억~2.76억 달러, 주당 1.30~1.44달러다 — 직전 분기는 5,400만 달러 순손실(주당 0.29달러 손실)이었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "Net income | $250 to $276 | Diluted net income per share | $1.30 to $1.44 … GAAP net loss was $54.0 million, or $0.29 per share, as compared to $133.9 million, or $0.73 per share, for the comparable period last year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "연간 순이익 가이던스는 1.09억~1.42억 달러인데 상반기에는 8,810만 달러 순손실이었다 — 1년치 이익이 출시 분기에 몰려 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "Net income | $109 to $142",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "For the six months ended September 30, 2026, net loss was $88.1, as compared to net loss of $145.8 in the prior year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스는 2027 회계연도 순결제액 80억~82억 달러로, 지난 분기에도 그대로 유지됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "Operational metric | Net Bookings | $8,000 to $8,200 … Company updates fiscal year 2027 outlook and reiterates expectation for Net Bookings of $8.0 to $8.2 billion",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "신한투자증권은 이 연간 가이던스를 1년 전보다 19~22% 늘어난 수준으로 봤고, 출시 효과로 분기 매출이 상반기 저조·하반기 호조 흐름을 보일 것으로 전망했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 방아쇠를 당길 시간",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlclqekkceigicgcgxeeee.pdf",
+                  "date": "2026-06-08",
+                  "quote": "FY27 Net Bookings 가이던스는 80~82억달러(YoY +19~22%)로 제시. 하 반기  출시 효과가 본격화되며 분기별 매출은 상저하고 흐름을 보일 전망.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e3",
+              "statement": "키움증권은 사전 판매량이 전례 없는 수준인데도 회사가 연간 가이던스를 보수적으로 유지했다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 높아지는 시장 눈높이와 본격적인 출시 모멘텀 도래",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlqgxzkliqkiqlgcgxeeee.pdf",
+                  "date": "2026-08-21",
+                  "quote": "- GTA VI의 전례 없는 사전 판매량에도 FY2027E 가이던스는 보수적으로 유지",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사 스스로 NBA 2K·GTA 제품 의존, 게임의 적시 출시와 시장 수용, 모바일 이용자 획득비, 게임 가격 유지 능력을 위험으로 적어 놓았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "including risks relating to the timely release and significant market acceptance of our games; the risks of conducting business internationally, including as a result of unforeseen geopolitical events; ... our dependence on our NBA 2K and Grand Theft Auto products and our ability to develop other hit titles; our ability to leverage opportunities on PlayStation®5 and Xbox Series X|S; factors affecting our mobile business, such as player acquisition costs; and the ability to maintain acceptable pricing levels on our games.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "이 신작은 한 차례 출시가 미뤄진 전례가 있고, 신한투자증권은 출시까지 공백이 길어진 것을 우려로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 2026.11.19<GTA6> 출시",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqxkemmxmxxzemmgcgxeeee.pdf",
+                  "date": "2025-11-27",
+                  "quote": "완성도를 높이기 위한 조치이나 출시까지 공백이 길어진 것은 우려 사항.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "기존 모바일 게임은 꺾이고 있다 — 회사는 직전 분기 모바일 매출 감소의 원인으로 Color Block Jam·Match Factory!·NBA 2K·Toy Blast·Merge Dragons! 를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "The decrease in net revenue from mobile was primarily driven by lower net revenue from Color Block Jam , Match Factory! , NBA 2K , Toy Blast , and Merge Dragons! .",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "NBA 2K27 — 2K 레이블의 농구 게임 신작, 9월 4일 출시",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-09",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "2K 레이블은 NBA 2K27 을 9월 4일 PS5·Xbox Series X|S·Switch 2·PC 로 출시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "2K | NBA 2K27 | PS5, Xbox Series X|S, Switch 2, PC | September 4, 2026",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "During fiscal year 2027, 2K released NBA 2K27 .",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "회사는 직전 분기 순결제액 최대 기여 제품을 나열할 때 NBA 2K 를 가장 먼저 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 실적 보도자료 (2026-11-09)",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+                  "date": "2026-11-09",
+                  "quote": "The largest contributors to Net Bookings were NBA® 2K, the Grand Theft Auto® series, Toon Blast™ , Match Factory!™ , Empires & Puzzles™, the Borderlands® franchise, Words With Friends™, the Red Dead Redemption® series , Color Block Jam™ , WWE® 2K , and Zynga Poker™.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "다만 같은 분기 순결제액 감소 원인에도 NBA 2K 가 들어 있다 — 신작이 나온 분기인데 1년 전보다 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                  "publisher": "Take-Two Interactive Software (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "The decrease was primarily driven by lower Net Bookings from our Borderlands franchise, the latest installment of which, Borderlands 4 , released in September 2025; NBA 2K ; our Mafia franchise, the latest installment of which, Mafia: The Old Country , released in August 2025; Color Block Jam and Match Factory! .",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "신한투자증권은 기존 대표 게임이 견조했지만 모바일 부진과 일회성 비용으로 수익성이 하락했다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] <GTA6> 기대감 지속",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlqeqlcklclkzkgcgxeeee.pdf",
+                  "date": "2026-08-20",
+                  "quote": "- 기존 IP(NBA 2K·GTA 온라인)가 견조한 흐름 보였으나 모바일 부문 부진, 일회성 비용으로 수익성 하락. 다만  출시 기대감은 지속",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 이 보여 주는 최근 세 분기는 가속이 아니라 둔화다 — 매출 증가율이 6.1%에서 2%로, 다시 -15.6%로 꺾였고 순이익률은 세 분기 모두 마이너스(-3.5%·-2.2%·-3.6%)였다. 회사는 이 감소가 1년 전에 나온 Borderlands 4 와 Mafia: The Old Country 의 역기저, 그리고 Color Block Jam·Match Factory! 부진 때문이라고 설명했다. 즉 지금 숫자를 끌어올리는 새 동력은 아직 없고, 회사가 가리키는 전환점은 GTA VI 가 나오는 10~12월 분기다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "지금 가장 중요한 새 제품은 GTA VI 이고, 11월 19일 출시된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Rockstar Games continues to invest in the series and will release Grand Theft Auto VI on November 19, 2026, during the current fiscal year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Grand Theft Auto series, which is the interactive entertainment industry's most iconic and critically acclaimed brand and has sold-in over 475 million units worldwide. Our most recent installment, Grand Theft Auto V , which was released in 2013, has sold-in over 230 million units worldwide and includes access to Grand Theft Auto Online.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "GTA 시리즈는 전 세계 누적 4억 7,500만 장 넘게 팔렸고, 2013년에 나온 GTA V 한 편만 2억 3,000만 장을 넘겼다.",
+            "stripped": true
+          },
+          {
+            "id": "q2b",
+            "statement": "회사는 NBA 2K 가 NBA 농구 게임 중 가장 높은 순위를 지키고 있다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "2K's sports simulation titles include NBA 2K , which continues to be the top-ranked NBA basketball video game, WWE 2K professional wrestling, and PGA TOUR 2K .",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 업계가 극심한 경쟁 속에 통합이 진행됐고, 자본력이 큰 경쟁사가 불황을 더 잘 견딘다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "There has been increased consolidation in our industry, which is extremely competitive, and larger, better capitalized competitors will be in a stronger position to withstand prolonged periods of economic downturn and sustain their business through periods of financial volatility.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "파는 쪽도 소수에 몰려 있다 — 상위 다섯 개 고객이 상반기 매출의 80.8%를 차지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Our five largest customers accounted for 80.8% and 81.5% of net revenue during the six months ended September 30, 2026 and 2025, respectively.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 모바일 전반에서 소비자 직접 판매(DTC, 플랫폼을 거치지 않고 회사가 직접 파는 것)를 더 본격적으로 넓혀 수익성을 높이고 있다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "We are also continuing to expand our direct-to-consumer efforts more meaningfully across our mobile portfolio to enhance profitability.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "회사는 애플·구글 플랫폼 수수료 때문에 모바일 매출의 매출총이익률이 콘솔·PC 보다 낮다고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Further, as a result of the platform fees associated with online game sales, our mobile net revenue generally generates a lower gross margin percentage than our Console or PC revenue.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "직전 분기 매출총이익률은 57.5%로 1년 전 55.3%보다 올랐고, 회사는 출시 시점 차이로 소프트웨어 개발비 상각이 줄어든 결과라고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Gross profit as a percentage of net revenue for the three months ended September 30, 2026 was 57.5% as compared to 55.3% for the prior year period. The increase in gross profit as a percentage of net revenue was primarily driven by lower amortization of capitalized software and development costs primarily due to the timing of releases.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "판매·마케팅비는 1년 전보다 9,180만 달러 줄었는데, 회사는 Borderlands 마케팅비 감소 때문이고 GTA 시리즈 마케팅비는 오히려 늘었다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "테이크투 인터랙티브 10-Q 경영진 설명",
+                "publisher": "Take-Two Interactive Software (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Selling and marketing expenses decreased by $91.8 for the three months ended September 30, 2026, as compared to the prior year period, primarily driven by lower marketing expense for our Borderlands franchise, partially offset by higher marketing expense for our Grand Theft Auto series.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "지금 테이크투에 새로운 것은 사실상 GTA VI 하나다 — 록스타게임스가 11월 19일에 내놓는다. 사전 주문은 6월에 시작됐고, 회사는 초기 수요가 이 시리즈의 과거 기록을 앞질렀다고 공시에 적었다. 다만 아직 출시 전이라 실현된 매출은 없다 — 7~9월 매출은 1년 전보다 15.6% 줄었고 순손실이 이어졌다. 신작 없이도 GTA 제품은 상반기 매출의 12.6%를 차지했고, 회사는 지난 분기 순결제액 감소를 GTA 시리즈 증가가 일부 메웠다고 설명했다. 이익은 출시 분기에 몰린다 — 회사는 10~12월 주당순이익을 1.30~1.44달러로 제시했고, 직전 분기는 주당 0.29달러 손실이었다. 회사 가이던스는 연간 순결제액 80~82억 달러이고, 신한투자증권은 이를 1년 전보다 19~22% 늘어난 수준으로 봤다. 키움증권은 전례 없는 사전 판매량에도 회사가 가이던스를 보수적으로 유지했다고 적었다. NBA 2K27 은 9월 4일 나왔지만 NBA 2K 순결제액은 1년 전보다 줄어, 신작 자체가 성장을 만들지는 못했다. 꺾일 수 있는 지점은 한 차례 미뤄진 출시 전례, 기존 모바일 게임(Color Block Jam·Match Factory!)의 부진, 그리고 회사 스스로 적은 NBA 2K·GTA 의존이다.",
+      "watch": [
+        "출시 첫 분기 순결제액이 회사 가이던스 범위를 맞추는지, 상단을 넘기는지",
+        "연간 순결제액 전망 80~82억 달러가 유지되거나 올라가는지",
+        "출시 분기 주당순이익이 1.30~1.44달러 범위로 실제 흑자 전환하는지",
+        "기존 모바일 게임(Color Block Jam·Match Factory!)과 NBA 2K 의 매출 감소가 멈추는지"
+      ],
+      "sourceGap": "국내 증권사 리포트 원문 PDF 는 한글 문장이 추출되지 않아 숫자 표만 확인하고 요약문을 인용했으며, 실적 발표 콜 원고는 읽지 못했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-09",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+          "filingDate": "2026-11-09"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-07)",
+          "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo1q27earningsrelease.htm",
+          "filingDate": "2026-08-07"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+          "filingDate": "2026-11-09"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": -15.6,
+            "netIncomeYoy": 59.7,
+            "netMargin": -3.6
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 2,
+            "netIncomeYoy": -186.6,
+            "netMargin": -2.2
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 6.1,
+            "netIncomeYoy": 98.4,
+            "netMargin": -3.5
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 1497000000,
+          "netIncome": -54000000,
+          "yoy": {
+            "revenue": -15.6,
+            "profit": -19.9,
+            "netIncome": 59.7,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 1533900000,
+          "netIncome": -34100000,
+          "yoy": {
+            "revenue": 2,
+            "profit": -264.4,
+            "netIncome": -186.6,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 1679800000,
+          "netIncome": -59500000,
+          "yoy": {
+            "revenue": 6.1,
+            "profit": 100.3,
+            "netIncome": 98.4,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 1699000000,
+          "netIncome": -92900000,
+          "yoy": {
+            "revenue": 24.9,
+            "profit": 70.7,
+            "netIncome": 25.8,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 27.37,
+        "saleNy": 7.53,
+        "epsCy": -206,
+        "epsNy": 228.78
+      }
+    },
+    "CHTR": {
+      "ticker": "CHTR",
+      "headline": "Cox 인수가 매출 9.1% 증가를 만들었지만, 같은 범위로 보면 매출·이익 모두 줄었다",
+      "nVerdict": "부분 충족",
+      "drivers": [
+        {
+          "what": "Cox Communications 인수 완료 — 1,100만 개 이상의 가구·사업장과 500만 이상 고객을 더해 전국 1위 인터넷·비디오 사업자가 됐고, 옛 Cox 지역에 Spectrum 상품을 그대로 깔았다",
+          "kind": "contract",
+          "stage": "이익 기여 중",
+          "since": "2026-08",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "2026년 8월 19일 Cox Communications 인수를 끝내 1,100만 개 이상의 가구·사업장과 500만 이상 고객 관계를 더했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "On August 19, 2026, Charter completed its transactions between the Company and Cox Communications, Inc. (\"Cox Communications\") (the \"Cox Transactions\"). The Cox Transactions added more than 11 million passings and over 5 million customer relationships, making Charter the nation's leading Internet and video provider.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "2026년 9월 16일 옛 Cox 지역 1,100만 개 이상 가구·사업장에 Spectrum 의 상품·가격·구성을 그대로 깔았고, 그 뒤 수요가 강했고 고객 추이가 나아졌다고 회사가 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "On September 16, 2026, Charter launched Spectrum's products, pricing and packaging across the legacy Cox footprint, bringing its Internet, mobile and video offerings to more than 11 million homes and businesses. Since launch, Charter has seen strong demand from consumers and an improvement in customer trends across the legacy Cox footprint.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 매출은 149억 달러로 1년 전보다 9.1% 늘었고, 회사는 그 증가가 주로 Cox 인수 때문이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Pro forma third quarter revenue of $16.5 billion declined 1.5% year-over-year, primarily driven by lower residential revenue. On an actual basis, third quarter revenue of $14.9 billion increased 9.1% year-over-year, primarily driven by the Cox Transactions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "Cox 인수가 3분기 매출을 14억 달러 늘렸고, 인수를 빼면 매출은 1.18억 달러 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Total revenues increased $1.3 billion and $872 million during the three and nine months ended September 30, 2026, respectively, compared to the corresponding periods in 2025 primarily due to the Cox Transactions which increased revenues by $1.4 billion. Excluding the Cox Transactions, total revenues decreased $118 million and $496 million during the three and nine months ended September 30, 2026, respectively, compared to the corresponding periods in 2025 primarily due to a higher seamless entertainment allocation and lower customer relationships, partly offset by mobile line growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 조정 EBITDA(비GAAP·일회성을 뺀 회사 기준 이익)는 3.82억 달러 늘었는데 주로 Cox 인수 때문이고, 인수를 빼면 줄었다고 회사가 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Adjusted EBITDA increased $382 million and $12 million during the three and nine months ended September 30, 2026, respectively, compared to the corresponding periods in 2025 primarily due to the Cox Transactions. Excluding the Cox Transactions, Adjusted EBITDA decreased primarily due to lower legacy Charter revenue and higher transition expenses incurred as we integrate Cox Communications.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "Cox 를 1년 전 실적에도 합친 같은 범위로 맞추면 3분기 조정 EBITDA는 1년 전보다 4.0% 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Third quarter pro forma Adjusted EBITDA of $6.6 billion declined by 4.0% year-over-year, reflecting a decline in revenue of 1.5% and an increase in operating costs and expenses of 0.2%. Excluding transition expenses, pro forma Adjusted EBITDA declined 3.0% year-over-year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 목표는 Cox 인수에서 기대하는 연 10억 달러 넘는 비용 시너지에 더해 앞으로 18개월 동안 연 20억 달러의 추가 비용 절감이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "As part of this transformation, the Company is targeting $2 billion in annualized run-rate operating expense savings over the next 18 months, in addition to more than $1 billion in anticipated Cox Transactions synergies.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사 가이던스(회사가 내놓은 전망)로 2026년 연간 설비투자는 같은 범위 기준 약 130억 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Charter expects pro forma full year 2026 capital expenditures, excluding transition capital expenditures, to total approximately $13.0 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "3분기에 가맹권 손상 63억 달러를 털었고, 회사는 장래 고객·매출 성장 전망을 낮춘 것이 이유라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "We tested legacy Charter's two franchise units of accounting and recorded a pre-tax non-cash franchise impairment charge of $6.3 billion related to one franchise unit of accounting. The franchise impairment reflects both the impact of updated financial projections with reduced estimated future cash flows reflecting lower estimates for future customer and revenue growth, given recent results and market perception of risk, and higher values attributable to the replacement cost of fixed assets given global market inflationary pressure for certain network components.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 Cox 인수에서 기대한 비용 시너지와 절감을 목표한 규모·시기에 이룬다고 보장할 수 없다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "We expect the savings to come primarily from eliminating projects that do not contribute to Internet growth, reducing management layers and obtaining better speed, quality and pricing from a more focused and narrowed set of vendors. We cannot provide assurance that we will achieve these synergies or savings in the amounts or timing we expect, or at all.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Spectrum Mobile — 인터넷에 묶어 파는 이동통신 서비스. 2026년 1분기에 '1,000달러 절약 보장'을 붙여 경쟁사 회선을 끌어오고 있다",
+          "kind": "service",
+          "stage": "매출 발생 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "3분기에 같은 범위 기준 모바일 회선이 50.8만 개 늘어 9월 말 1,350만 회선이 됐고, 최근 1년 동안 180만 회선이 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "On a pro forma basis, third quarter Spectrum Mobile TM lines 1 increased by 508,000 and by 1.8 million over the last twelve months. Legacy Charter added 440,000 mobile lines during the quarter. As of September 30, 2026, Charter served 13.5 million mobile lines.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "In the first quarter of 2026, Spectrum launched its $1,000 savings guarantee; new or existing Spectrum Internet customers switching two or more mobile lines from Verizon, AT&T or T-Mobile are guaranteed $1,000 of savings in their first year, or Spectrum will cover the difference.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "2026년 1분기에 버라이즌·AT&T·T-Mobile 에서 2회선 이상 옮기는 인터넷 고객에게 첫해 1,000달러 절약을 보장하는 상품을 내놓았다.",
+              "stripped": true
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 모바일 서비스 매출은 11.34억 달러로 1년 전보다 18.9% 늘었고, 9개월 누적으로는 17.6% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Mobile service | 1,134 | 954 | 18.9 | % | 3,281 | 2,789 | 17.6 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "Cox 로 넘어온 고객을 빼도 가정용 모바일 회선이 1년 동안 160만 개 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Residential mobile lines increased by approximately 2.0 million mobile lines from September 30, 2025 to September 30, 2026. Excluding customers acquired in the Cox Transactions, residential mobile lines increased by 1.6 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "모바일 기기 판매와 모바일 서비스 직접비가 늘어 3분기 기타 매출원가가 같은 범위 기준 15.0% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Other costs of revenue increased by $295 million, or 15.0% year-over-year, on a pro forma basis, primarily driven by higher mobile device sales, higher mobile service direct costs and higher advertising sales costs given higher political revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 새 운영 모델에서 차별화된 모바일·비디오 상품을 더 활용해 성장을 끌겠다고 밝혔고, 모바일 자체의 숫자 목표는 내놓지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Charter is reformulating its go-to-market approach for its core Internet offering, marketing and distribution, and will further leverage its differentiated mobile and video products to drive growth and provide greater value for customers.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "모바일 순증은 3분기 50.8만 회선으로 1년 전 51.4만 회선보다 줄었고, 옛 Charter 만 보면 44.0만 개로 48.2만 개에서 둔화됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "During the third quarter of 2026, Charter added 508,000 mobile lines on a pro forma basis, compared to an increase of 514,000 during the third quarter of 2025. Legacy Charter added 440,000 mobile lines versus an increase of 482,000 during the third quarter of 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "비디오 요금제에 스트리밍 앱을 끼워 주는 묶음과 앱 장터 Spectrum App Central — 2026년 6월부터 넷플릭스도 여기서 살 수 있다",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-06",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "Spectrum Stream TV 고객은 디즈니+·훌루·HBO Max 등 광고형 스트리밍 앱을 월 약 132달러어치까지 추가 비용 없이 받는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Spectrum Stream TV video customers now receive up to approximately $132 per month of programmers' streaming application retail value at no extra cost, including the ad-supported versions of Disney+, Hulu, ESPN Unlimited, HBO Max, Paramount+, Peacock, AMC+, ViX, Tennis Channel, Fox One and Discovery+.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "2026년 6월부터 고객이 Spectrum App Central 에서 넷플릭스의 광고형·광고 없는 요금제를 직접 살 수 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Beginning in June 2026, Spectrum customers can purchase ad-supported and ad-free versions of Netflix through Spectrum App Central. Spectrum App Central is an innovative digital marketplace where Spectrum TV customers can activate, manage and upgrade the streaming apps included with their video plans.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "옛 Charter 의 3분기 비디오 고객 감소는 3.8만 명으로 1년 전 7.0만 명에서 줄었고, 회사는 스트리밍 앱 묶음과 단순해진 가격이 이유라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Legacy Charter lost 38,000 video customers versus a loss of 70,000 during the third quarter of 2025, with the improvement driven by benefits from the inclusion of programmers' streaming applications in Spectrum's expanded basic video packages and simplified pricing and packaging.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3r2",
+              "statement": "같은 범위 기준 3분기 비디오 매출은 9.8% 줄었는데, 스트리밍 앱 몫으로 매출에서 뺀 금액이 2.86억 달러로 1년 전 1.06억 달러보다 커진 것이 주된 이유다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Pro forma video revenue totaled $3.6 billion in the third quarter, a decrease of 9.8% compared to the prior year period, driven by $286 million of costs allocated to programmer streaming applications and netted within video revenue versus $106 million in the prior year period, more unfavorable bundled revenue allocation year-over-year, a higher mix of lower priced video packages within Charter's video customer base and a decline in video customers during the last year, partly offset by promotional rate step-ups and video rate adjustments that pass through programmer rate increases.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "같은 범위 기준 3분기 프로그래밍 비용은 2.71억 달러, 10.3% 줄었다 — 스트리밍 앱 몫을 비용이 아니라 매출 차감으로 처리한 것이 가장 큰 이유다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "On a pro forma basis, third quarter programming costs decreased by $271 million, or 10.3% as compared to the third quarter of 2025, reflecting $286 million of costs allocated to programmer streaming applications and netted within video revenue versus $106 million in the prior year period, fewer video customers and a higher mix of lower cost packages within Charter's video customer base, partly offset by contractual programming rate increases and renewals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "가구당 월 매출은 117.85달러로 1년 전보다 1.6% 줄었고, 스트리밍 앱 몫 2.86억 달러가 그 원인 가운데 하나다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                  "publisher": "Charter Communications (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                  "date": "2026-11-06",
+                  "quote": "Third quarter pro forma 2026 monthly residential revenue per residential customer totaled $117.85, a decrease of 1.6% compared to the prior year period. The decline was driven by pricing and packaging mix within Charter's customer base, $286 million of costs allocated to programmer streaming applications",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33(최근 3분기 매출 증가율·이익 증가율·순이익률이 함께 오르는지)은 세 항목 모두 아니다. 매출 증가율이 -1.0%(1분기)·-1.7%(2분기)에서 3분기 +9.1% 로 튀었지만, 회사는 그 증가가 주로 Cox 인수 때문이고 인수를 빼면 매출이 1.18억 달러 줄었다고 직접 적었다. 순이익률이 -16.1% 로 떨어진 것은 가맹권 손상 63억 달러 탓이며, 같은 범위로 맞춘 조정 EBITDA 도 4.0% 줄었다 — 숫자의 가속은 새 성장 동력이 아니라 인수 회계와 일회성 손상에서 나왔다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1",
+            "statement": "2026년 2월에 5G 와 배터리를 넣어 정전에도 끊기지 않는 WiFi 7 공유기 Invincible WiFi 를 내놓았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                "date": "2026-11-06",
+                "quote": "In February 2026, Spectrum launched its Invincible WiFi TM product, a tri-band advanced WiFi 7 router that integrates 5G cellular and battery backup to keep customers seamlessly and fully connected during a power outage or network disruption.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2",
+            "statement": "3분기에 같은 범위 기준 인터넷 고객이 23.3만 명 줄었고, 옛 Charter 에서 15.6만 명·옛 Cox 에서 7.7만 명이 빠졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                "date": "2026-11-06",
+                "quote": "Spectrum Internet ® customers declined by 233,000 on a pro forma basis during the third quarter, including a decline of 156,000 Internet customers at legacy Charter and 77,000 at legacy Cox. As of September 30, 2026, Charter served 34.3 million Internet customers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "statement": "반대로 모바일에서는 총 회선이 1년 전보다 15.4% 많아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                "date": "2026-11-06",
+                "quote": "Total Mobile Lines | 13,452 | 11,656 | 15.4 | % |",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q4",
+            "statement": "회사는 전국 1위 인터넷·비디오 사업자이며 45개 주 7,000만 개 넘는 가구·사업장에 서비스한다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "Charter Communications, Inc. (together with its controlled subsidiaries, \"Charter\"), through its Spectrum brand, is the leading Internet and video provider in the nation and the fastest growing mobile company in our footprint, with services available to more than 70 million homes and businesses across 45 states.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "statement": "그런데도 경쟁 탓에 3분기 인터넷 고객 증가가 막혔다고 회사가 적었고, 옛 Charter 에서만 15.6만 명이 빠졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "The competitive environment continued to challenge our Internet customer growth in the third quarter of 2026 with legacy Charter losing 156,000 Internet customers. Legacy Charter mobile lines grew by 440,000, and video customer losses improved compared to the prior year period, reflecting improvements to our video product offering.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q6",
+            "statement": "회사는 더 단순하고 투명한 요금, 판매 경로 개편, 인터넷에 모바일·비디오를 얹는 방식으로 신규 가입을 늘리고 해지를 줄이겠다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "To return to growth, we are reformulating our consumer proposition and go-to-market approach to increase Internet connects through simpler, more transparent offers, modified sales channel capabilities and the layering of mobile and video into our Internet offerings. We also intend to reduce churn through reconfigured promotional and retail offers and a more disciplined focus on the drivers of customer service calls, including continued investment in technology. We seek to maintain or increase average revenue per customer at connect and over the course of the customer relationship while returning to customer growth.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q7",
+            "statement": "비용 절감은 불필요한 활동 정리, 조직 단순화, 거래처를 좁혀 얻는 효율에서 나온다고 회사가 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                "date": "2026-11-06",
+                "quote": "The savings program will focus on eliminating nonessential activities, simplifying organizational structures and driving greater efficiencies through vendor partnerships. Together, these initiatives are expected to strengthen Charter's competitive position, drive improved financial performance and support significantly higher free cash flow generation over time.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "statement": "다만 같은 범위 기준 전체 영업비용은 3분기에 0.2% 늘었고, Cox 통합 비용이 7,600만 달러 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "차터 커뮤니케이션스 3분기 실적 보도자료 (2026-11-06)",
+                "publisher": "Charter Communications (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+                "date": "2026-11-06",
+                "quote": "On a pro forma basis, third quarter total operating costs and expenses increased 0.2% year-over-year to $9.9 billion, primarily driven by higher other costs of revenue, offset by lower programming costs. Transition expenses, which represent incremental costs incurred for the integration of the Cox Transactions, totaled $76 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 분명히 있다. 2026년 8월 19일 Cox Communications 인수를 끝내 1,100만 개 이상의 가구·사업장과 500만 이상 고객을 더했고, 9월 16일 그 지역에 Spectrum 상품과 가격을 그대로 깔았다. 매출에 미친 영향은 크다 — 3분기 매출 149억 달러, 1년 전보다 9.1% 증가인데 회사는 그 증가가 주로 Cox 인수 때문이라고 적었다. 문제는 그 뒤 문장이다. 인수를 빼면 매출은 1.18억 달러 줄었고, Cox 를 1년 전 실적에도 합친 같은 범위로 맞추면 매출은 1.5%, 조정 EBITDA 는 4.0% 감소다. 즉 지금의 외형 성장은 새 엔진이 돌아서가 아니라 회사가 커져서다. 자력으로 커지는 쪽은 Spectrum Mobile 하나로, 3분기 모바일 서비스 매출이 18.9%, 9개월 누적 17.6% 늘었고 Cox 고객을 빼도 가정용 회선이 1년 동안 160만 개 늘었다. 다만 모바일은 기기 판매·직접비를 함께 끌고 와 기타 매출원가가 15.0% 늘었고, 순증도 옛 Charter 기준 48.2만에서 44.0만 개로 둔화됐다. 비디오에서는 스트리밍 앱을 끼워 주는 묶음이 해지를 줄였지만(옛 Charter 비디오 감소 7.0만 → 3.8만 명), 앱 몫 2.86억 달러를 매출에서 빼기 때문에 비디오 매출은 9.8% 줄었다. 회사가 내놓은 기대치는 성장률이 아니라 비용 쪽이다 — 앞으로 18개월 동안 연 20억 달러 절감, Cox 시너지 연 10억 달러 초과. 이 그림을 꺾을 수 있는 것은 핵심 상품인 인터넷이며, 3분기에 인터넷 고객이 23.3만 명 줄고 회사는 장래 성장 전망을 낮춰 가맹권 손상 63억 달러를 털었다.",
+      "watch": [
+        "옛 Charter 인터넷 순증이 마이너스에서 줄어들거나 플러스로 돌아서는지 — 새 운영 모델의 성패가 여기서 갈린다",
+        "옛 Cox 지역의 인터넷·모바일 순증이 Spectrum 상품 전환 뒤 실제로 개선되는지",
+        "같은 범위(pro forma) 기준 매출과 조정 EBITDA 가 감소에서 벗어나는지 — 연 20억 달러 절감이 숫자로 보이는 시점"
+      ],
+      "sourceGap": "2026-11-06 실적 발표 콜 원고와 국내 증권사 리포트를 받지 못해, 경영진이 말한 2027년 인터넷 순증·매출 목표는 확인하지 못했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-06",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtrex991earningsrelease93.htm",
+          "filingDate": "2026-11-06"
+        },
+        {
+          "label": "실적 보도자료 (2026-07-24)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000051/chtrex991earningsrelease63.htm",
+          "filingDate": "2026-07-24"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+          "filingDate": "2026-11-06"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 9.1,
+            "netIncomeYoy": -310.8,
+            "netMargin": -16.1
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": -1.7,
+            "netIncomeYoy": -0.7,
+            "netMargin": 9.6
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": -1,
+            "netIncomeYoy": -4.4,
+            "netMargin": 8.6
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 14922000000,
+          "netIncome": -2397000000,
+          "yoy": {
+            "revenue": 9.1,
+            "profit": -212.6,
+            "netIncome": -310.8,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 13526000000,
+          "netIncome": 1292000000,
+          "yoy": {
+            "revenue": -1.7,
+            "profit": -6.6,
+            "netIncome": -0.7,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 13597000000,
+          "netIncome": 1163000000,
+          "yoy": {
+            "revenue": -1,
+            "profit": -0.9,
+            "netIncome": -4.4,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 13601000000,
+          "netIncome": 1332000000,
+          "yoy": {
+            "revenue": -2.3,
+            "profit": -3.8,
+            "netIncome": -9.1,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 6.75,
+        "saleNy": 10.76,
+        "epsCy": -11.49,
+        "epsNy": 38.38
+      }
+    },
+    "AAON": {
+      "ticker": "AAON",
+      "headline": "데이터센터 액체냉각(BASX)이 매출·이익 급증을 끌고 있다 — 수주잔고도 뒷받침",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "BASX 브랜드 데이터센터 액체냉각·맞춤 공조 장비 — 데이터센터가 뿜는 열을 액체로 식히는 설비를 고객 주문에 맞춰 설계·제작해 판다",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "3분기 BASX 브랜드 매출이 3.972억 달러로 1년 전보다 218.3% 늘어 사상 최대였고, 회사는 데이터센터 수요와 새로 늘린 생산능력 가동을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "BASX-branded sales grew 218.3% to a record $397.2 million, reflecting strong momentum in data center demand, continued production output gains, and increased utilization of recently added manufacturing capacity.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "늘어난 수주잔고의 대부분이 BASX 브랜드 데이터센터 액체냉각 제품 주문이라고 경영진이 직접 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Backlog is up from a year ago for both AAON-branded products and BASX-branded products with BASX-branded products increasing 51.1%, or $458.3 million, when compared to September 30, 2025. Most of these orders were associated with the BASX-branded data center liquid cooling solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "AAON Coil Products 부문 안에서 BASX 브랜드 액체냉각 매출이 1.655억 달러로 1년 전보다 255.6% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "AAON Coil Products generated net sales of $192.6 million, an increase of 174.2% from the prior-year period. Growth was driven primarily by BASX-branded liquid cooling sales of $165.5 million, up 255.6% during the period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "전사 매출은 3분기 7.07억 달러로 84.1% 늘었는데, 경영진은 BASX 브랜드 제품의 강한 수요와 성장이 그 동력이라고 썼다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Net sales for the three months ended September 30, 2026, grew 84.1% to $707 million driven by the strong demand and growth of our BASX-branded products. BASX-branded products increased 218.3%, or $272.4 million when compared to the three months ended September 30, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "총 수주잔고는 19억 달러로 1년 전보다 40.5% 늘었고, 그 가운데 BASX 브랜드 잔고는 51.1% 늘었다 — 이미 받아 둔 주문이 앞으로의 매출을 받친다는 뜻이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "Total backlog increased 40.5% year-over-year to $1.9 billion, compared to $1.3 billion the prior year. BASX-branded backlog increased 51.1% year-over-year, reflecting continued customer investment activity in data center infrastructure and the value customers place on BASX's custom-engineered solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "AAON Coil Products 부문 매출총이익이 4,980만 달러로 541.8% 늘고 이익률은 11.0%에서 25.8%로 올랐는데, 회사는 BASX 브랜드 물량이 늘어 고정비가 더 잘 분산된 결과라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "Gross profit increased 541.8% to $49.8 million , compared with $7.8 million in the prior-year period. Gross margin was 25.8%, compared with 11.0% in the third quarter of 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "AAON Coil Products gross profit margin increased to 25.8% from 11.0% as a result of higher sales volume of BASX-branded products that led to improved overhead absorption.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "BASX 부문 매출총이익은 6,640만 달러로 227.1% 늘고 이익률도 27.0%에서 28.7%로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "Gross profit increased 227.1% to $66.4 million, compared with $20.3 million in the prior-year period. Gross margin was 28.7%, up from 27.0% in the third quarter of 2025. The year-over-year margin improvement reflected substantial volume growth, partially offset by incremental resources and investments required to support future growth, customer delivery, and continued share gains.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p3",
+              "statement": "전사 영업이익은 1억 달러로 129.3% 늘었고, 판매·관리비(SG&A, 판매하고 관리하는 데 드는 비용) 비중은 매출의 12.5%로 내려갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "Operating income increased 129.3% to $100.0 million, compared with $43.6 million in the prior-year period. Diluted earnings per share were $0.83, an increase of 124.3% from $0.37 in the third quarter of 2025. … Selling, general and administrative expenses as a percent of sales declined 400 basis points to 12.5%, reflecting continued operating leverage and disciplined cost management as revenue growth outpaced overhead investments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사는 2026년 전망(가이던스)을 매출 성장 72~75%, 매출총이익률 약 26%, 판매·관리비 비중 약 13%로 올렸다 — 종전 매출 성장 전망은 55~60%였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "2026 outlook now reflects net sales growth of 72%-75%, gross margins of approximately 26%, and SG&A as a percent of sales of about 13%, supported by strong backlog, expanded capacity, and improving operational execution … YoY Sales Growth | 72%-75% | 55%-60%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 4분기와 2027년에 들어서도 주문 강세가 이어질 것으로 본다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "The Company continues to see strong customer engagement and a healthy pipeline of opportunities across the data center market, and expects order strength to continue in the fourth quarter and as we enter 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "데이터센터 매출이 소수 고객에 몰려 있어 그 고객들의 설비투자 계획이나 프로젝트 일정이 바뀌면 분기마다 실적이 출렁일 수 있다고 회사가 직접 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "However, a significant portion of our data center sales comes from a limited number of customers, and the timing of their orders and deliveries can vary. As a result, changes in their capital spending plans or project schedules could cause our results to fluctuate from period to period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "총 수주잔고는 전분기보다 5.9% 줄었는데, 회사는 잔고를 빠르게 매출로 돌린 결과이자 대형 BASX 프로젝트 수주 시점이 들쭉날쭉한 탓이라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "Compared to the second quarter of 2026, total backlog decreased 5.9%, primarily reflecting accelerated backlog conversion into record revenue and the inherent timing variability of large BASX project awards.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "Management concluded that restatements to previously issued interim financial statements were appropriate and that a material weakness existed in internal control over financial reporting. The Company has implemented corrective actions and is executing additional measures designed to further strengthen our control environment and internal controls over financial reporting.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사가 1·2분기 재무제표를 다시 작성하고 내부통제에 중대한 취약점이 있다고 인정했다 — 성장 자체와 별개로 보고된 숫자의 신뢰도에 걸리는 문제다.",
+              "stripped": true
+            },
+            {
+              "id": "d1c4",
+              "statement": "새 Memphis 공장 간접비가 3분기에 2,070만 달러 들어 AAON Oklahoma 부문 매출총이익률을 33.0%에서 25.5%로 끌어내렸다 — 가동률이 올라오기 전까지는 마진을 누른다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 실적 보도자료 (2026-11-09)",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                  "date": "2026-11-09",
+                  "quote": "Gross margin was 25.5%, compared to 33.0% in the third quarter of 2025. Segment profitability was impacted by $20.7 million of overhead expenses associated with the Memphis facility, compared with $4.5 million in the prior-year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "업계 조건 변화 — 인공지능·고성능 컴퓨팅 확산으로 데이터센터의 전력 밀도가 높아지면서 액체냉각 수요가 늘고 있다",
+          "kind": "industry",
+          "stage": "매출 발생 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 인공지능과 고성능 컴퓨팅이 퍼지면서 데이터센터의 연산 밀도와 냉각 요구가 커졌고, 그것이 자사 액체냉각·맞춤 공조 제품 수요를 떠받친다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "The continued adoption of artificial intelligence and high-performance computing is increasing computing density and, in turn, the cooling requirements of data centers, which has supported strong demand for our liquid cooling and custom air-handling solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "미국 데이터센터 건설이 2026년에도 계속 늘었고 고객들이 공개한 설비투자 계획도 투자 지속을 가리킨다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Data center construction activity in the U.S. has continued to grow in 2026, and our customers' published capital spending plans indicate continued investment.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 전사 매출에서 데이터센터 중심인 BASX 부문 비중이 32.7%로 1년 전 19.6%보다 크게 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "BASX | 231,308 | 32.7 | % | 75,244 | 19.6 | % | 156,064 | 207.4 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "대형 데이터센터 액체냉각 주문 하나가 AAON Coil Products 부문 매출을 1.19억 달러 늘렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Sales were up 174.2% at AAON Coil Products, primarily driven by growth in BASX-branded products of $119.0 million for a large order for liquid cooling products for data centers.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "1~9월 누계로 BASX 부문 매출총이익률이 26.4%에서 30.6%로 올랐는데, 회사는 Memphis 공장 생산이 개선되며 물량이 늘어난 결과라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "BASX gross profit margin increased to 30.6% from 26.4% due to increased volumes from improved operations out of Memphis.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 데이터센터 프로젝트가 규모가 크고 한참 전에 계획되는 탓에 이 시장 수요가 단기 경기보다 고객의 장기 증설 계획에 더 좌우된다고 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Because data center projects are large and planned well in advance, demand in this market has generally been driven more by customers' long-term capacity plans than by near-term economic conditions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 생산량이 늘어나는 속도가 고객 프로젝트 일정에 달려 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Production volumes have increased as this capacity comes online, although the pace is dependent on customer project schedules.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "3분기 평균 구리 가격은 1년 전보다 14.5%, 알루미늄은 27.3% 올라 원가를 누른다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Copper | $ | 7.34 | $ | 6.41 | 14.5 | % | \nAluminum | $ | 3.12 | $ | 2.45 | 27.3 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c3",
+              "statement": "회사의 전통 시장인 비주거용 상업·산업 건설은 2026년까지 수축 국면이 이어졌고 선행 지표도 아직 약하다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON 10-Q 경영진 설명",
+                  "publisher": "AAON (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Following strong growth from 2022-2024 our traditional nonresidential end markets entered a contraction that has continued into 2026. Leading indicators for new commercial and industrial building activity remain soft, and although certain indicators suggest conditions may be stabilizing, we have not yet observed a sustained improvement in our markets.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33으로 본 최근 3분기는 매출 증가율이 52.9% → 106.1% → 84.1%, 순이익률이 7.4% → 10.5% → 9.7%로, 가속이 2분기에 정점을 찍고 3분기에 한 번 꺾였다. 가속을 만든 원인은 회사 문장에 분명하다 — 3분기 매출 84.1% 증가는 \"BASX 브랜드 제품의 강한 수요와 성장\"이 끌었다고 10-Q 경영진 설명이 직접 쓴다. 3분기 순이익률이 내려간 이유도 회사 설명에 있다. 덜 성숙하고 가동률이 낮은 BASX 설비에서 나온 매출 비중이 커졌고, 새 Memphis 공장 간접비가 2,070만 달러 들어 AAON Oklahoma 부문을 눌렀다. 다만 매출총이익률은 전분기보다 60bp 올라 두 분기 연속 개선이고, 1·2분기 재작성으로 상반기 이익이 올라간 효과도 비교에 섞여 있다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "BASX 브랜드의 데이터센터 액체냉각 제품이 사상 최대 매출을 냈고, 회사는 데이터센터 수요와 새로 늘린 생산능력 가동을 그 이유로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 실적 보도자료 (2026-11-09)",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                "date": "2026-11-09",
+                "quote": "BASX-branded sales grew 218.3% to a record $397.2 million, reflecting strong momentum in data center demand, continued production output gains, and increased utilization of recently added manufacturing capacity.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 상업용 HVAC(난방·환기·공조) 시장 여건이 약한데도 AAON 브랜드가 계속 점유율을 늘리고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 실적 보도자료 (2026-11-09)",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                "date": "2026-11-09",
+                "quote": "AAON continues to gain share despite softer conditions in the broader commercial HVAC market. At BASX, customer engagement remains strong, our opportunity pipeline is healthy, and we continue to strengthen our position with strategic data center customers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "AAON 브랜드 수주잔고는 1년 전보다 18.0% 늘었는데, 회사는 시장이 약한데도 주문이 강했던 결과라고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 실적 보도자료 (2026-11-09)",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                "date": "2026-11-09",
+                "quote": "AAON-branded backlog increased 18.0% year-over-year, supported by strong order activity despite soft end-market conditions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 자기보다 큰 경쟁사들은 대부분 판매 채널을 직접 쥐는 데 반해 자사는 독립 대리점 망으로 팔며, 그게 점유율을 늘리는 더 효과적인 방법이라고 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 10-Q 경영진 설명",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "We sell our products to property owners and contractors mainly through a network of independent manufacturers’ Representatives. This go-to-market strategy is unique compared to most of our larger competitors in that most control their sales channel. We value the independent sales channel as we think it is a more effective way of increasing market share.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "BASX 쪽은 고객 수가 적은 특수 용도의 주문 설계 제품이라 내부 영업 인력이 더 효과적이라고 회사가 밝혔다 — 범용 양산품과 다른 구조다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 10-Q 경영진 설명",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "BASX sells highly customized products for unique applications for a more concentrated customer base, and an internal sales force is more effective for such products.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 가격 조정·구매 조달·생산성 같은 조치를 묶어 쓰고 있고 그 결과 마진이 계속 좋아지는 방향으로 움직인다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 실적 보도자료 (2026-11-09)",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                "date": "2026-11-09",
+                "quote": "The sequential improvement reflects progress in mitigating these headwinds, and through a combination of pricing, sourcing, productivity, and other operational initiatives, margins continue to trend positively.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "이미 받아 둔 주문의 가격을 다시 매겨 원가 상승을 상쇄한 것이 AAON Coil Products 부문 이익률 개선의 이유라고 회사가 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 실적 보도자료 (2026-11-09)",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                "date": "2026-11-09",
+                "quote": "The year-over-year margin performance reflected repricing of existing backlog to mitigate inflationary and other price/cost headwinds. Results were also positively impacted by improved labor efficiency, better overhead absorption, and higher production volume.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "생산량과 가동률 상승, 고정비 분산 개선, 가격·조달 조치가 실적에 점점 더 또렷하게 드러난다고 CEO 가 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 실적 보도자료 (2026-11-09)",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+                "date": "2026-11-09",
+                "quote": "Across the business, higher throughput and utilization, better overhead absorption, pricing and sourcing actions, and continued operational improvement are increasingly showing up in our results.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "1~9월 판매·관리비 비중이 매출의 13.2%로 1년 전 17.1%에서 내려갔다 — 매출이 간접비보다 빠르게 늘었다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AAON 10-Q 경영진 설명",
+                "publisher": "AAON (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Selling, general and administrative expenses as a percentage of sales are down year-over-year to 13.2% from 17.1% in 2025. The dollar increase of $69.1 million is primarily driven by higher salaries and benefits, including profit sharing.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 BASX 브랜드의 데이터센터 액체냉각 장비다. 3분기 BASX 브랜드 매출은 3.972억 달러로 1년 전보다 218.3% 늘어 사상 최대였고, 전사 매출 84.1% 증가를 회사는 BASX 브랜드 제품의 강한 수요와 성장 때문이라고 썼다. 이익에도 이미 기여하고 있다 — AAON Coil Products 부문 매출총이익률이 11.0%에서 25.8%로, BASX 부문은 27.0%에서 28.7%로 올랐고 전사 영업이익은 1억 달러로 129.3% 늘었다. 뒤를 받치는 것은 수주잔고다. 총 잔고 19억 달러는 1년 전보다 40.5% 많고, 늘어난 주문의 대부분이 BASX 데이터센터 액체냉각이라고 경영진이 밝혔다. 업계 조건도 같은 방향이다 — 인공지능과 고성능 컴퓨팅이 데이터센터의 냉각 요구를 키우고 있다는 게 회사 설명이다. 기대 성장률은 회사 가이던스(회사가 내놓은 전망)로 확인된다. 2026년 매출 성장 전망을 종전 55~60%에서 72~75%로 올렸고 매출총이익률은 약 26%를 제시했다. 꺾을 수 있는 것은 셋이다. 데이터센터 매출이 소수 고객에 몰려 있어 그들의 투자 일정이 바뀌면 분기 실적이 출렁일 수 있고, 총 잔고는 전분기보다 5.9% 줄었다. 그리고 회사가 1·2분기 재무제표를 다시 쓰고 내부통제에 중대한 취약점이 있다고 인정했다 — 성장 자체와 별개로 보고된 숫자의 신뢰도에 걸리는 문제다.",
+      "watch": [
+        "BASX 브랜드 수주잔고가 4분기에 다시 늘어나는지 — 3분기에는 총 잔고가 전분기보다 5.9% 줄었다",
+        "매출총이익률이 4분기에도 전분기보다 올라 회사 가이던스인 약 26%에 닿는지",
+        "Memphis 공장 간접비가 줄어들며 AAON Oklahoma 부문 이익률이 회복되는지 (3분기 간접비 2,070만 달러)",
+        "내부통제 중대한 취약점이 해소됐다고 보고되는지, 추가 재작성이 나오지 않는지",
+        "AAON 브랜드(상업용 HVAC) 매출이 약한 시장에서도 두 자릿수 증가를 유지하는지"
+      ],
+      "sourceGap": "3분기 실적 발표 콜 원고 원문을 열지 못해 질의응답에서 나온 고객·프로젝트 세부는 반영하지 못했고, 국내 증권사 리포트는 없었다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-11",
+      "asOf": "2026-11-09",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+          "filingDate": "2026-11-09"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-10)",
+          "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000052/liveaaonpressreleaseexs.htm",
+          "filingDate": "2026-08-10"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+          "filingDate": "2026-11-09"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 84.1,
+            "netIncomeYoy": 124,
+            "netMargin": 9.7
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 106.1,
+            "netIncomeYoy": 333.3,
+            "netMargin": 10.5
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 52.9,
+            "netIncomeYoy": 24.5,
+            "netMargin": 7.4
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 707430000,
+          "netIncome": 68958000,
+          "yoy": {
+            "revenue": 84.1,
+            "profit": 129.3,
+            "netIncome": 124,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 642127000,
+          "netIncome": 67112000,
+          "yoy": {
+            "revenue": 106.1,
+            "profit": 246.3,
+            "netIncome": 333.3,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 492525000,
+          "netIncome": 36463000,
+          "yoy": {
+            "revenue": 52.9,
+            "profit": 48.9,
+            "netIncome": 24.5,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 424217000,
+          "netIncome": 32032000,
+          "yoy": {
+            "revenue": 42.5,
+            "profit": 49.4,
+            "netIncome": 29.7,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 74.77,
+        "saleNy": 13,
+        "epsCy": 89.01,
+        "epsNy": 46.24
       }
     }
   }

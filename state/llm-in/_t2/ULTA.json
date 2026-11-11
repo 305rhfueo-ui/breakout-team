@@ -1,0 +1,320 @@
+{
+ "ticker": "ULTA",
+ "sector": "Consumer Cyclical",
+ "industry": "Specialty Retail",
+ "nameKo": "울타 뷰티",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.13,
+  "saleNy": 5.16,
+  "epsCy": 12.91,
+  "epsNy": 10.53,
+  "est": {
+   "cyCur": 28.95127,
+   "cy30": 28.95294,
+   "nyCur": 32.00024,
+   "ny30": 31.98746
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.87,
+    11.08,
+    11.78
+   ],
+   "ni": [
+    8.1,
+    11.61,
+    -9.3
+   ],
+   "opm": [
+    12.51,
+    14.17,
+    12.23
+   ],
+   "updated": "2026-09-09 06:50:02"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-09",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-10",
+  "nameKo": "울타 뷰티",
+  "nameEn": "ULTA BEAUTY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001403568&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 3035676000,
+     "profit": 379641000,
+     "netIncome": 282006000,
+     "margin": 12.5,
+     "yoy": {
+      "revenue": 8.9,
+      "profit": 10.1,
+      "netIncome": 8.1,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 3163857000,
+     "profit": 448256000,
+     "netIncome": 340469000,
+     "margin": 14.2,
+     "yoy": {
+      "revenue": 11.1,
+      "profit": 11.6,
+      "netIncome": 11.6,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 3898361000,
+     "profit": 476942000,
+     "netIncome": 356198000,
+     "margin": 12.2,
+     "yoy": {
+      "revenue": 11.8,
+      "profit": -7.6,
+      "netIncome": -9.4,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 2857623000,
+     "profit": 309419000,
+     "netIncome": 230875000,
+     "margin": 10.8,
+     "yoy": {
+      "revenue": 12.9,
+      "profit": -2.9,
+      "netIncome": -4.7,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Ulta Beauty (ULTA) Stock Moves -1.65%: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/ulta-beauty-ulta-stock-moves-165-what-you-should-know",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ulta Beauty Inc. (ULTA) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/ulta-beauty-inc-ulta-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Ulta Beauty (ULTA) is a Great Momentum Stock to Buy",
+     "url": "https://www.nasdaq.com/articles/heres-why-ulta-beauty-ulta-great-momentum-stock-buy",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Ulta Beauty (ULTA) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-ulta-beauty-ulta-strong-momentum-stock",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Ulta (ULTA) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-ulta-ulta-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Earnings Growth & Price Strength Make Ulta Beauty (ULTA) a Stock to Watch",
+     "url": "https://www.nasdaq.com/articles/earnings-growth-price-strength-make-ulta-beauty-ulta-stock-watch-1",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ulta Beauty Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/ulta-beauty-reaches-analyst-target-price",
+     "date": "2026-10-30",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926102438/ulta-20260827x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-17",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926097497/ulta-20260813x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926083524/ulta-20260714x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "임원 변동",
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926071896/ulta-20260609x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926069464/ulta-20260602x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926027061/ulta-20260312x8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-03-16",
+     "broker": "메리츠증권",
+     "analyst": "박종대",
+     "title": "[울타 뷰티 (NAS:ULTA)] FY 4Q25 Re: 단기 실적 부진보다 중장기 성장 여력 확보 주목",
+     "summary": "- 매출 시장 기대치(컨센서스 매출: 38억달러) 2% 상회  연말 쇼핑 시즌 판매 호조, 온라인 10% 중반, 오프라인 한자릿수 초반 성장- 기존점 성장률 5.8%: 평균 거래액(객단가) 4.2% 상승, 거래 건수 1.6% 증가- 매출총이익 14.8억달러(YoY 11.2 GPM 38.1%(YoY -0.1%p) 채널 믹스 악화 및 고정비 레버리지 감소, 재고 손실 감소 및 공급망 개선으로 일부 상쇄",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqixelexcmlzkxgcgxeeec.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2025-12-05",
+     "broker": "키움증권",
+     "analyst": "조소정",
+     "title": "[울타 뷰티 (NAS:ULTA)] K뷰티와 디지털이 주도하는 성장",
+     "summary": "- 미국 뷰티 리테일 채널- 3Q26 실적 발표. 이익은 축소되었으나, 기존 예상보다 좋은 성장을 보이면서 시장 컨센서스를 상회- 실적 발표 이후 시간외 거래 주가 +6% 상승 중. 가이던스 상향과 호실적 덕분",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmegmkleizecgcgxeeec.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Why more companies are fighting over beauty, health and wellness spending",
+   "url": "https://www.cnbc.com/2026/09/18/beauty-health-wellness-consumer-spending.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tuesday's biggest analyst calls: Nvidia, Palantir, Etsy, Eli Lilly, Amazon",
+   "url": "https://www.cnbc.com/2026/09/15/tuesday-stocks-by-analyst-calls-like-nvidia.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Buy the dip in these five stocks, Goldman Sachs says",
+   "url": "https://www.cnbc.com/2026/09/05/buy-the-dip-in-these-five-stocks-before-its-too-late-goldman-says.html",
+   "date": "2026-09-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer says he's warming back up to the AI trade, but not ready to act yet",
+   "url": "https://www.cnbc.com/investingclub/2026/08/28/cramer-says-hes-warming-back-up-to-the-ai-trade-but-not-ready-to-act-yet.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Retailer earnings could put this season to the test. What analysts are saying",
+   "url": "https://www.cnbc.com/2026/08/18/retailer-earnings-could-put-this-season-to-the-test.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Amylyx, Coherent & more",
+   "url": "https://www.cnbc.com/2026/08/18/stocks-making-the-biggest-moves-midday-meta-amlx-bidu-klar.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ULTA",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 24.23,
+  "pbr": 10.77,
+  "eps": 27.45,
+  "bps": 61.76,
+  "shares": 42757500,
+  "marketCapM": 28439,
+  "high52": 714.9699,
+  "high52Date": "2026-02-18",
+  "low52": 443.6,
+  "low52Date": "2026-06-30",
+  "last": 665.13,
+  "prevClose": 644.76,
+  "nameKo": "울타 뷰티",
+  "nameEn": "ULTA BEAUTY INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 42757500
+ }
+}

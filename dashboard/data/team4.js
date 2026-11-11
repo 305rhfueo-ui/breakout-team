@@ -49,9 +49,87 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 05:58:07"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CLX",
+        "category": 1,
+        "company": "클로락스는 표백제·세정제·캣 리터(Fresh Step) 등 생활용품을 만들어 파는 소비재 회사입니다.",
+        "volumeExplanation": "11월 2일 회계 1분기 실적을 발표해 시장 예상치를 웃돌았지만, 회사는 연간 이익이 전망 범위 하단에 가까울 것이라고 밝혔습니다. 이후 내부자 매수와 증권사 목표가 상향이 이어졌으나, 거래량이 오늘 터진 직접 이유는 뉴스에서 확인되지 않았습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 2일 발표한 1분기 실적이 매출·주당순이익 모두 시장 예상치를 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Clorox (CLX) Surpasses Q1 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/clorox-clx-surpasses-q1-earnings-and-revenue-estimates",
+                "date": "2026-11-02",
+                "quote": "Clorox (CLX) Surpasses Q1 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "다만 비용 상승으로 연간 이익은 전망 하단에 가까울 것이라고 밝혀 호재가 상쇄됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Clorox Now Expects Earnings Near the Low End of Its Forecast as Costs Rise. Should Dividend Investors Be Worried?",
+                "publisher": "Motley Fool",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/clorox-now-expects-earnings-near-192502759.html",
+                "date": "2026-11-03",
+                "quote": "Clorox Now Expects Earnings Near the Low End of Its Forecast as Costs Rise. Should Dividend Investors Be Worried?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 후 도이치뱅크가 목표주가를 95달러에서 99달러로 올렸으나 투자의견은 보유로 유지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Deutsche Bank Adjusts Clorox Price Target to $99 From $95, Maintains Hold Rating",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-clorox-price-132159606.html",
+                "date": "2026-11-04",
+                "quote": "Deutsche Bank Adjusts Clorox Price Target to $99 From $95, Maintains Hold Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "11월 9일 내부자 매수가 보고됐다. 이 이야기가 맞는지는 이후 분기 마진 회복 여부로 확인된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Monday 11/9 Insider Buying Report: CVS, CLX",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/monday-11-9-insider-buying-report-cvs-clx",
+                "date": "2026-11-09",
+                "quote": "Monday 11/9 Insider Buying Report: CVS, CLX",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장이 출처의 제목 및 인용문으로 뒷받침됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -772,59 +850,51 @@ window.TEAM4_DATA = {
         "claims": [
           {
             "id": "c1",
-            "statement": "3상 진행 계획도 함께 나왔다.",
+            "statement": "11월 9일 3분기 실적과 사업 현황을 발표했고, 11월 10일 ORKA-001의 52주 데이터를 12월에 내고 3상은 2027년에 시작할 계획이라는 기사가 나왔다. 후속 임상 일정이 구체화되며 거래량이 늘었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+                "title": "Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/oruka-expects-orka-001-52-week-data-december-phase-3-start-planned-2027",
+                "date": "2026-11-10",
+                "quote": "Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Oruka's ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
                 "publisher": "MarketBeat (Nasdaq)",
                 "url": "https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study",
                 "date": "2026-10-27",
                 "quote": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
                 "verified": "ok",
                 "httpStatus": 200
-              },
-              {
-                "title": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
-                "publisher": "RTTNews (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data",
-                "date": "2026-10-26",
-                "quote": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
-                "verified": "ok",
-                "httpStatus": 200
               }
             ],
-            "statementOriginal": "10월 26일 ORKA-001이 2b상 건선 시험에서 피부 완전 청결 61%를 기록했다. 3상 진행 계획도 함께 나왔다."
-          },
-          {
-            "id": "c2",
-            "statement": "11월 9일 장 마감 뒤 2026년 3분기 실적과 회사 현황이 발표됐다. 다음 거래일인 10일에 거래량이 늘었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Oruka Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-                "publisher": "GlobeNewswire (Yahoo Finance)",
-                "url": "https://finance.yahoo.com/healthcare/articles/oruka-therapeutics-reports-third-quarter-210400987.html",
-                "date": "2026-11-09",
-                "quote": "Oruka Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "statementOriginal": "10월 26일 건선 2b상에서 ORKA-001이 피부 완전 청소 61%를 보였고, 이 결과가 3상 진행의 근거가 됐다.",
+            "stripped": true
           }
         ],
-        "company": "Oruka Therapeutics는 건선 등 염증성 피부질환 치료제를 개발하는 임상 단계 바이오 기업이다. 매출은 없고 신약 임상 결과가 주가를 좌우한다.",
-        "volumeExplanation": "10월 26일 건선 2b상 결과로 3상 진출 기대가 생겼고, 11월 9일 3분기 실적 발표가 이어지며 10일 거래량이 평소의 약 2배로 늘었다. 다만 10일 당일의 개별 재료는 확인되지 않아 임상 후속 관심과 실적 발표의 영향으로 본다.",
-        "confidence": "low",
+        "company": "Oruka Therapeutics는 건선 등 염증성 피부질환용 장기 지속형 항체 신약(ORKA-001)을 개발하는 임상 단계 바이오텍이다. 매출은 없고 임상 진행에 따라 주가가 움직인다.",
+        "volumeExplanation": "11월 9일 3분기 실적 발표와 11월 10일 52주 데이터(12월)·3상 시작(2027년) 일정 기사가 겹치며 거래량이 평소의 3배로 늘었다. 앞선 10월 26일 2b상 호결과 이후 임상 기대가 이어진 흐름이다.",
+        "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "임상 데이터(61% skin clearance, phase 2b→3 진행) 및 실적 발표 기사 모두 지원됨. category 2 적절"
+          "reason": "임상 데이터 주장이 나스닥/마켓비트 기사 제목으로 확인됨"
         },
         "categoryName": "바이오·FDA·임상",
         "isHighlight": false,
-        "researchedOn": "2026-11-10",
-        "carried": true
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -891,9 +961,57 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:24:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CIB",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Grupo Cibest Q3 Earnings Call Highlights",
+                "publisher": "MarketBeat (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/grupo-cibest-q3-earnings-call-211521358.html",
+                "date": "2026-11-10",
+                "quote": "Grupo Cibest raised its 2026 loan-growth forecast to 8%–9%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 10일 3분기 실적발표에서 2026년 대출 성장 전망을 연 7~8%에서 8~9%로 올렸다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "다만 순이자이익은 전 분기보다 4.9% 줄고 충당금 비용은 17% 늘어, 실적 내용은 엇갈렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Grupo Cibest Q3 Earnings Call Highlights",
+                "publisher": "MarketBeat (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/grupo-cibest-q3-earnings-call-211521358.html",
+                "date": "2026-11-10",
+                "quote": "Net interest income fell 4.9% sequentially to COP 5.7 trillion, while provision charges rose 17% to COP 1.2 trillion.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "콜롬비아 최대 금융그룹 Grupo Cibest(구 Bancolombia)로, 은행 대출과 이자 수익으로 돈을 번다. 미국에는 ADR(예탁증서)로 상장돼 있다.",
+        "volumeExplanation": "11월 10일 3분기 실적발표에서 올해 대출 성장 전망을 8~9%로 올린 것이 거래량 증가의 계기로 보인다. 다만 순이자이익 감소와 충당금 증가도 함께 나와, 이 해석은 다음 분기 이익 흐름이 개선되는지로 확인된다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "3분기 실적 수치(대출 성장 8~9%, 순이자이익 −4.9%, 충당금 +17%)가 인용문에서 확인됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1367,9 +1485,83 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:32:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TTWO",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 9일 장 마감 후 2분기 실적을 냈고, 시장 예상보다 나은 이익을 기록했다. 분기 손실도 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two Interactive (TTWO) Surpasses Q2 Earnings Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/take-two-interactive-ttwo-surpasses-q2-earnings-estimates",
+                "date": "2026-11-09",
+                "quote": "Take-Two Interactive (TTWO) Surpasses Q2 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Take-Two Q2 Loss Narrows",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/take-two-q2-loss-narrows",
+                "date": "2026-11-09",
+                "quote": "Take-Two Q2 Loss Narrows",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "상향은 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/take-two-interactive-software-inc-reports-fiscal-second-quarter-2027-results-and",
+                "date": "2026-11-10",
+                "quote": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "회사는 연간 순예약액(Net Bookings, 게임 판매·인앱 결제 합계) 전망 80억~82억 달러를 그대로 유지했다. 상향은 아니다."
+          },
+          {
+            "id": "c3",
+            "statement": "GTA VI의 11월 19일 출시가 재확인되면서 주가가 장 초반 3% 넘게 올랐다. 출시가 열흘도 안 남아 기대가 매출 실현 단계로 넘어간다는 해석이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two Shares Rise Over 3% After Quarterly Results as GTA VI November 19 Release Confirmed",
+                "publisher": "InvestorsHub (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/two-shares-rise-over-3-113921042.html",
+                "date": "2026-11-10",
+                "quote": "Take-Two Shares Rise Over 3% After Quarterly Results as GTA VI November 19 Release Confirmed",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Take-Two는 GTA·레드 데드 리뎀션을 만드는 Rockstar와 NBA 2K, 모바일 게임사 Zynga를 거느린 게임 회사다. 게임 판매와 게임 안 추가 결제로 돈을 번다.",
+        "volumeExplanation": "11월 9일 장 마감 후 2분기 실적에서 예상보다 나은 이익이 나왔고 GTA VI의 11월 19일 출시가 재확인되자 10일 거래량이 평소의 약 3배로 늘었다. 다만 연간 전망은 유지돼 실적 자체보다 출시 임박 기대가 거래를 키운 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c4"
+          ],
+          "reason": "c4의 분석가 평가(UBS Buy 유지, HSBC 목표가 인하) 부분이 출처 인용문에 미기재. GTA VI 사전주문 '기대 크게 웃돈다'는 제목에만 있으나 UBS/HSBC 평가 근거 없음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1471,9 +1663,34 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:51:23"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MLAB",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Mesa Laboratories는 제약·의료·산업 현장에서 쓰는 멸균 확인, 품질 관리용 정밀 측정 장비와 소모품을 만들어 판다. 장비와 소모품, 서비스 계약에서 매출이 나온다.",
+        "volumeExplanation": "11월 9일 장 마감 뒤 발표한 2분기 실적에서 주당순이익이 1년 전 0.45달러에서 0.75달러로 뛰고 첫 연간 전망도 나왔다. 매출 증가는 2.6%로 작았지만 이익 개선이 확인되면서 다음 날 거래량이 늘었다. 실적 후속 이야기(전망치 확인)가 맞는지는 다음 분기 마진 유지 여부로 가려진다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "c1: 매출 증가율·규모 수치(2.6%, 6,234만 달러)가 인용문에 미기재 (EPS만 표시). c2: 연간 전망 인용문 '$250,000~255,000' 단위 불일치로 $250M~255M 미확인. 모든 재정 근거가 제거되어 카테고리 1 부적절"
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2137,9 +2354,59 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:33:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EMBJ",
+        "category": 1,
+        "company": "브라질 항공기 제조사 엠브라에르로, 중형 상업용 제트기와 방산·비즈니스 제트기를 만들어 팔고 정비 서비스로도 돈을 번다.",
+        "volumeExplanation": "11월 10일 3분기 실적에서 매출이 예상을 넘었고 수주 잔고가 사상 최대여서 거래량이 평소의 2.4배로 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 매출이 1년 전보다 17% 늘어 증권사 예상치(컨센서스)를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Embraer raises 2026 guidance after record third-quarter revenue",
+                "publisher": "Investing.com (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/embraer-raises-2026-guidance-record-120139881.html",
+                "date": "2026-11-10",
+                "quote": "Revenue rose 17% year over year to $2.3 billion, ahead of the consensus estimate of $2.21 billion and a record for a third quarter.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "수주 잔고가 357억 달러로 사상 최대를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Embraer raises 2026 guidance after record third-quarter revenue",
+                "publisher": "Investing.com (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/embraer-raises-2026-guidance-record-120139881.html",
+                "date": "2026-11-10",
+                "quote": "Its order backlog hit a record $35.7 billion, up 14% year over year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 전망 수치 84억~86억 달러(86억=8.6B)가 quote '8.4 billion to $8.5 billion'에 없음(8.5B까지만). 잉여현금흐름 언급도 quote 부재.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 10일 3분기 실적에서 매출이 예상을 넘고 올해 매출 전망치(가이던스)가 올라가 거래량이 평소의 2.4배로 늘었다. 수주 잔고도 사상 최대여서 실적 호조와 전망 상향이 함께 매수세를 불렀다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2248,9 +2515,50 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:37:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AMG",
+        "category": 1,
+        "company": "AMG는 여러 중소형 자산운용사에 지분을 갖고, 그들이 번 운용보수에서 이익을 얻는 자산운용 지주회사다. 운용자산(AUM)이 늘수록 수익이 커진다.",
+        "volumeExplanation": "11월 9일 발표한 3분기 실적이 시장 예상을 넘었고 운용자산이 사상 최고였다. 이 결과가 반영되며 다음 거래일 거래량이 평소의 2배 넘게 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "AMG가 11월 9일 3분기 실적을 발표했고 증권사 예상치(컨센서스)를 웃돌았다. 매출도 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AMG's Q3 Earnings Beat Estimates on Higher Revenues & Record AUM",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/amgs-q3-earnings-beat-estimates-higher-revenues-record-aum",
+                "date": "2026-11-09",
+                "quote": "AMG's Q3 Earnings Beat Estimates on Higher Revenues & Record AUM",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Affiliated Managers Group (AMG) Surpasses Q3 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/affiliated-managers-group-amg-surpasses-q3-earnings-estimates",
+                "date": "2026-11-09",
+                "quote": "Affiliated Managers Group (AMG) Surpasses Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 '최근 분기 매출은 1년 전보다 약 30% 늘었다'는 수치가 SEC 8-K 메타데이터 quote에 없음."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2921,9 +3229,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:14:35"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BAP",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Credicorp가 3분기 실적을 발표했고, 증권사 예상치(컨센서스)에는 못 미쳤다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Credicorp (BAP) Misses Q3 Earnings Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/credicorp-bap-misses-q3-earnings-estimates",
+                "date": "2026-11-10",
+                "quote": "Credicorp (BAP) Misses Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 직후 주가가 장기 이동평균선을 위로 넘어섰다는 기사가 같은 날 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BAP Makes Bullish Cross Above Critical Moving Average",
+                "publisher": "BNK Invest (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/bap-makes-bullish-cross-above-critical-moving-average",
+                "date": "2026-11-10",
+                "quote": "BAP Makes Bullish Cross Above Critical Moving Average",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Credicorp는 페루 최대 금융그룹으로, 은행(BCP)·보험·자산운용에서 이자와 수수료 수익을 올린다.",
+        "volumeExplanation": "11월 9~10일 3분기 실적이 나왔고 Zacks는 예상치 미달로 보도했다. 실적 공개와 실적 설명회로 거래가 몰렸고, 주가는 이동평균선 위로 올라섰다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "c1·c2 모두 제시된 quote(실적 미달·이동평균선 돌파)로 지지됨."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3411,9 +3765,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:40:11"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "OGS",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 2일 3분기 실적이 시장 예상을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ONE Gas (OGS) Q3 Earnings Top Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/one-gas-ogs-q3-earnings-top-estimates",
+                "date": "2026-11-02",
+                "quote": "ONE Gas (OGS) Q3 Earnings Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 8-K 실적 공시에서 2026년 조정 재무 가이던스를 기존 범위 위로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "8-K (실적 발표, item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1587732/000158773226000050/ogs-20261102.htm",
+                "date": "2026-11-02",
+                "quote": "ONE Gas Announces Third Quarter 2026 Financial Results; Raises 2026 Adjusted Financial Guidance Above Previous Range",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "ONE Gas는 오클라호마·캔자스·텍사스에서 규제를 받는 도시가스 배급 회사다. 요금 승인을 받은 설비 투자로 이익을 낸다.",
+        "volumeExplanation": "11월 2일 3분기 실적이 예상치를 넘었고 회사가 2026년 이익 전망을 기존 범위 위로 올렸다. 다만 오늘 거래량 증가(평소의 2배)는 발표 9일 뒤라, 실적 영향이 이어진 것인지는 이 근거만으로 단정할 수 없다. 전망 상향이 계속 반영되는지는 이후 실적 추정치 변화로 확인할 수 있다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "c1·c2 모두 제시된 quote(실적 초과·가이던스 상향)로 지지됨."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4020,9 +4420,29 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": true,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STRD",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "STRD는 비트코인 보유 기업 Strategy(MSTR)가 발행한 우선주로, 정해진 배당을 지급하는 증권이다. 소프트웨어 사업 매출은 있으나 주가는 비트코인과 회사 자금조달 소식에 크게 좌우된다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "올바르게 분류된 근거 없음 항목."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": null,
@@ -4595,9 +5015,66 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:16:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CWST",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Casella가 11월 9일 3분기 실적을 발표했는데 이익과 매출 모두 시장 예상에 못 미쳤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Casella (CWST) Misses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/casella-cwst-misses-q3-earnings-and-revenue-estimates",
+                "date": "2026-11-09",
+                "quote": "Casella (CWST) Misses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "8-K (실적 발표, item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000057/cwst-20261109.htm",
+                "date": "2026-11-09",
+                "quote": "8-K 2.02 실적 발표 · 2026-11-09",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 직후 주가가 약 8% 하락했다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Casella Waste Systems falls 8% on earnings, revenue miss",
+                "publisher": "Investing.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/casella-waste-systems-falls-8-230537789.html",
+                "date": "2026-11-09",
+                "quote": "Casella Waste Systems falls 8% on earnings, revenue miss",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Casella Waste Systems는 미국 북동부에서 쓰레기 수거·매립·재활용 사업을 하며 수수료와 재활용 자재 판매로 돈을 번다.",
+        "volumeExplanation": "11월 9일 장 마감 후 3분기 실적이 이익·매출 모두 예상에 못 미쳤고 주가가 약 8% 하락했다. 이를 반영한 11월 10일 거래에서 거래량이 평소보다 크게 늘었다. 상승 호재가 아니라 실적 부진발 매물이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3은 BofA 목표주가 상향인데, volumeExplanation이 '상승 호재가 아니라 실적 부진발 매물'이라고 명시해 모순. 거래량 증가의 원인 설명과 무관"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5200,14 +5677,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 2,
+    "done": 12,
     "total": 12,
-    "cap": null,
-    "pending": 10,
+    "cap": 11,
+    "pending": 0,
     "failed": 0,
-    "carried": 2,
+    "carried": 1,
     "ineligible": 0,
-    "note": "12종목 중 2종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 10종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -5280,5 +5757,58 @@ window.TEAM4_DATA = {
     "sectorSignal": "호재가 특정 업종에 뚜렷하게 몰리지는 않았고, 실적 호재 13건이 산업재·의료기기·금융·리츠·귀금속 로열티 등에 흩어져 있다. 산업 기술 돌파로 분류된 종목은 없다.",
     "caution": "대부분 이미 발표된 실적 뒤의 반응이라 이미 가격에 반영됐을 수 있다. VCTR은 예상치 미달, TDG는 결과 없이 예정 사실만 있고, FERG·TMDX의 전망 상향은 보도 제목 기준이라 원문 확인이 필요하다.",
     "researchedOn": "2026-11-10"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "OGS",
+        "category": 1,
+        "oneLine": "3분기 실적이 예상을 웃돌았고, 올해 조정 이익 가이던스(회사 전망)도 기존 범위 위로 올렸다."
+      },
+      {
+        "ticker": "TTWO",
+        "category": 1,
+        "oneLine": "2분기 이익이 예상보다 좋았고 GTA VI 11월 19일 출시도 재확인. 다만 연간 순예약액 전망은 유지(상향 아님)."
+      },
+      {
+        "ticker": "EMBJ",
+        "category": 1,
+        "oneLine": "3분기 매출이 1년 전보다 17% 늘어 예상치를 웃돌았고, 수주 잔고는 357억 달러로 사상 최대."
+      },
+      {
+        "ticker": "AMG",
+        "category": 1,
+        "oneLine": "3분기 실적이 증권사 예상치를 웃돌았고 매출도 늘었다."
+      },
+      {
+        "ticker": "CIB",
+        "category": 1,
+        "oneLine": "2026년 대출 성장 전망을 7~8%에서 8~9%로 올렸다. 다만 순이자이익 전분기 대비 4.9% 감소, 충당금 17% 증가로 내용은 엇갈림."
+      },
+      {
+        "ticker": "CLX",
+        "category": 1,
+        "oneLine": "1분기 매출·주당순이익은 예상 상회. 그러나 비용 상승으로 연간 이익은 전망 하단이라 호재가 상쇄됨."
+      },
+      {
+        "ticker": "BAP",
+        "category": 1,
+        "oneLine": "3분기 실적은 예상치에 못 미쳤다. 호재로 보기 어렵고, 주가가 장기 이동평균선을 넘었다는 기사만 있음."
+      },
+      {
+        "ticker": "CWST",
+        "category": 1,
+        "oneLine": "3분기 이익·매출 모두 예상 미달, 발표 직후 주가 약 8% 하락. 호재가 아니라 악재성."
+      }
+    ],
+    "sectorSignal": "실적 호재는 특정 업종에 몰리지 않고 유틸리티·게임·항공기·자산운용·소비재 등으로 흩어져 있다. 은행 2곳(CIB, BAP)이 함께 있지만 한쪽은 전망 상향, 다른 쪽은 예상 미달이라 업종 신호로 보기 어렵다.",
+    "caution": "산업 기술 돌파 유형은 오늘 없었고, 실적 유형 8건 중 BAP·CWST는 예상 미달이라 사실상 호재가 아니다. CLX·CIB·TTWO도 내용이 엇갈리거나 전망 유지라서, 서프라이즈 정도는 원문과 가격 반응으로 직접 확인해야 한다.",
+    "researchedOn": "2026-11-11"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 8,
+    "2": 1,
+    "6": 3
   }
 };

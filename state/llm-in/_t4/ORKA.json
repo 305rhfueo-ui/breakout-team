@@ -2,6 +2,12 @@
  "ticker": "ORKA",
  "news": [
   {
+   "title": "Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027",
+   "url": "https://www.nasdaq.com/articles/oruka-expects-orka-001-52-week-data-december-phase-3-start-planned-2027",
+   "date": "2026-11-10",
+   "publisher": "RTTNews"
+  },
+  {
    "title": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
    "url": "https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study",
    "date": "2026-10-27",
@@ -194,10 +200,10 @@
   "targetStatus": false,
   "saleCy": 0,
   "saleNy": 0,
-  "epsCy": 27.91,
-  "epsNy": 20.95,
-  "cyTrend": 0,
-  "nyTrend": 0,
+  "epsCy": 29.13,
+  "epsNy": 20.67,
+  "cyTrend": 0.95,
+  "nyTrend": 0.72,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

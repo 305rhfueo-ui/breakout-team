@@ -1,0 +1,288 @@
+{
+ "ticker": "RVTY",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "레비티",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.55,
+  "saleNy": 5.69,
+  "epsCy": 7.43,
+  "epsNy": 9.64,
+  "est": {
+   "cyCur": 5.43598,
+   "cy30": 5.34968,
+   "nyCur": 5.96027,
+   "ny30": 5.8905
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.31,
+    6.97,
+    5.85
+   ],
+   "ni": [
+    -3.94,
+    -3.6,
+    3.93
+   ],
+   "opm": [
+    12.24,
+    10.67,
+    14.47
+   ],
+   "updated": "2026-09-08 06:14:00"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-06",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 3,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-11",
+  "nameKo": "레비티",
+  "nameEn": "REVVITY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000031791&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-10-04",
+     "derived": false,
+     "revenue": 728899000,
+     "profit": 95141000,
+     "netIncome": 62299000,
+     "margin": 13.1,
+     "yoy": {
+      "revenue": 4.3,
+      "profit": 16.2,
+      "netIncome": 33.5,
+      "priorEnd": "2025-09-28"
+     }
+    },
+    {
+     "periodEnd": "2026-07-05",
+     "derived": false,
+     "revenue": 729688000,
+     "profit": 89316000,
+     "netIncome": 51820000,
+     "margin": 12.2,
+     "yoy": {
+      "revenue": 1.3,
+      "profit": -1.6,
+      "netIncome": -3.9,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-04-05",
+     "derived": false,
+     "revenue": 711118000,
+     "profit": 75886000,
+     "netIncome": 40718000,
+     "margin": 10.7,
+     "yoy": {
+      "revenue": 7,
+      "profit": 5.1,
+      "netIncome": -3.6,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-28",
+     "derived": true,
+     "revenue": 772056000,
+     "profit": 111749000,
+     "netIncome": 98364000,
+     "margin": 14.5,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": -5.9,
+      "netIncome": 3.9,
+      "priorEnd": "2024-12-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Revvity Consensus Price Target Raised 18.01% to $174.65",
+     "url": "https://www.nasdaq.com/articles/revvity-consensus-price-target-raised-1801-17465",
+     "date": "2026-11-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "All You Need to Know About Revvity (RVTY) Rating Upgrade to Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-revvity-rvty-rating-upgrade-buy",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Revvity Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/revvity-q3-earnings-call-highlights",
+     "date": "2026-11-04",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Revvity (RVTY) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/revvity-rvty-q3-2026-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Revvity, Inc. Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/revvity-inc-reports-third-quarter-2026-financial-results",
+     "date": "2026-11-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Revvity Q3 26 Earnings Conference Call At 7:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/revvity-q3-26-earnings-conference-call-7-30-am-et",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Revvity (RVTY) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/revvity-rvty-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Revvity, Inc. Profit Climbs In Q3",
+     "url": "https://www.nasdaq.com/articles/revvity-inc-profit-climbs-q3",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000031/pki-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000022/pki-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000016/pki-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/31791/000119312526201401/d146870d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000007/pki-20260202.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-13",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000003/pki-20260112.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase & more",
+   "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-midday-aapl-pltr-nvda-coin-be.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Revvity, Pfizer, Palantir & more",
+   "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Skyworks, Axon, Dave & Buster's, Revvity",
+   "url": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-midday-swks-axon-play-rvty.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "RVTY",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 76.33,
+  "pbr": 2.48,
+  "eps": 2.11,
+  "bps": 64.78,
+  "shares": 111586000,
+  "marketCapM": 17934,
+  "high52": 171.74,
+  "high52Date": "2026-11-03",
+  "low52": 81.133,
+  "low52Date": "2026-04-29",
+  "last": 160.72,
+  "prevClose": 155.11,
+  "nameKo": "레비티",
+  "nameEn": "REVVITY INC",
+  "listedOn": "2023-05-16",
+  "exchange": "뉴욕거래소",
+  "listedShares": 111586000
+ }
+}

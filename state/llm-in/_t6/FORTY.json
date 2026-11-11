@@ -1,0 +1,476 @@
+{
+ "ticker": "FORTY",
+ "date": "2026-11-11",
+ "session": "2026-11-10",
+ "source": "list",
+ "plan": {
+  "ticker": "FORTY",
+  "name": "포뮬러 시스템스 1985(ADR)",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "price": 127.27999877929688,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 129.9,
+  "stop": 127.4,
+  "distToPivotPct": -2.02,
+  "distToPivotAdr": -1.03,
+  "riskPerSharePct": 1.93,
+  "adrPct": 1.97,
+  "extensionAdr": 3.13,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 15.1,
+   "priorMovePct": 24.6,
+   "higherLows": 0,
+   "contraction": 3.54,
+   "closeRange10Adr": 7.1,
+   "surf10": 3.13,
+   "surf20": 3.25,
+   "slope20": 0.28,
+   "baseLow": 110.25,
+   "lastSwingLow": 110.25
+  },
+  "reasons": [
+   "✗ 선행 상승 +25%",
+   "베이스 2.2주",
+   "깊이 15.1%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 3.54배 · 10일 종가폭 7.1 ADR",
+   "✗ 10일선 +3.1 ADR · 20일선 +3.3 ADR",
+   "20일선 기울기 +0.28%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.23406470497226475,
+    "pct": 81.92064923354373
+   },
+   "m3": {
+    "v": 0.2489573592183547,
+    "pct": 90.6672678088368
+   },
+   "m6": {
+    "v": 0.033617969958899735,
+    "pct": 32.50676284941388
+   }
+  },
+  "ret1m": 14.15,
+  "ret3m": 17.44,
+  "ret6m": -1.82,
+  "marketCap": "1.95B",
+  "volx": 1.08,
+  "volSurgeWk": 1.74,
+  "high52": 74.66,
+  "newHigh52": false,
+  "adr": 1.97,
+  "div50": 7.08,
+  "div200": 8.95,
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "fs": {
+   "sale": [
+    29.82,
+    19.2,
+    145.35
+   ],
+   "ni": [
+    54.58,
+    84.51,
+    2666.44
+   ],
+   "opm": [
+    9.16,
+    11.11,
+    5.87
+   ],
+   "updated": "2026-09-08 10:48:59"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-11",
+  "nameKo": "포뮬러 시스템스 1985(ADR)",
+  "nameEn": "FORMULA SYSTEMS(1985) ADR EACH REP 1 ORD ILS1 LEVELII(BNY)",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "FORTY Crosses Below Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/forty-crosses-below-key-moving-average-level",
+     "date": "2026-02-04",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Formula Systems Reports Record Q1 2025 Financial Results with 8.1% Revenue Growth and Dividend Declaration",
+     "url": "https://www.nasdaq.com/articles/formula-systems-reports-record-q1-2025-financial-results-81-revenue-growth-and-dividend",
+     "date": "2025-05-22",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Formula Systems Files Annual Report on Form 20-F for Fiscal Year 2024",
+     "url": "https://www.nasdaq.com/articles/formula-systems-files-annual-report-form-20-f-fiscal-year-2024",
+     "date": "2025-05-19",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Formula Systems (FORTY) Shares Cross Below 200 DMA",
+     "url": "https://www.nasdaq.com/articles/formula-systems-forty-shares-cross-below-200-dma",
+     "date": "2025-04-07",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Formula Systems Reports Record Q4 and Full Year 2024 Financial Results",
+     "url": "https://www.nasdaq.com/articles/formula-systems-reports-record-q4-and-full-year-2024-financial-results",
+     "date": "2025-03-20",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Bullish Two Hundred Day Moving Average Cross - FORTY",
+     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-forty",
+     "date": "2024-10-16",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Formula Systems Breaks Above 200-Day Moving Average - Bullish for FORTY",
+     "url": "https://www.nasdaq.com/articles/formula-systems-breaks-above-200-day-moving-average-bullish-forty",
+     "date": "2024-09-24",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Notable Two Hundred Day Moving Average Cross - FORTY",
+     "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-forty",
+     "date": "2024-08-06",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "FORTY",
+  "fetchedAt": "2026-11-10",
+  "source": "한국투자증권 Open API",
+  "per": 2.82,
+  "pbr": 1.49,
+  "eps": 41.47,
+  "bps": 78.65,
+  "shares": 15334700,
+  "marketCapM": 1795,
+  "high52": 170.47,
+  "high52Date": "2025-12-26",
+  "low52": 98.9511,
+  "low52Date": "2026-03-31",
+  "last": 117.05,
+  "prevClose": 110.25,
+  "nameKo": "포뮬러 시스템스 1985(ADR)",
+  "nameEn": "FORMULA SYSTEMS(1985) ADR EACH REP 1 ORD ILS1 LEVELII(BNY)",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 15334700
+ },
+ "estimates": {
+  "ticker": "FORTY",
+  "url": "https://finance.yahoo.com/quote/FORTY/analysis/",
+  "fetchedAt": "2026-11-10",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "+1q",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "0y",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "+1y",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1q",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1y",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   }
+  ],
+  "surprises": [],
+  "beats": 0,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 0,
+   "recent": []
+  },
+  "nextEarnings": {
+   "date": "2026-11-19",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-10",
+  "numbers": {
+   "price": 127.28,
+   "ma20": 119.15,
+   "ma50": 119.34,
+   "ma150": 120.9,
+   "distMA50": 6.65,
+   "periodHigh": 190.56,
+   "pullbackFromHigh": -33.21,
+   "volRatio20": 1.03,
+   "dryUpRatio": 0.79
+  },
+  "last10": [
+   {
+    "d": "2026-10-28",
+    "o": 127.99,
+    "h": 127.99,
+    "l": 127.99,
+    "c": 127.99,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-29",
+    "o": 127.44,
+    "h": 127.44,
+    "l": 119.7,
+    "c": 122,
+    "v": 6800,
+    "clsPos": 30,
+    "gapPct": -0.43
+   },
+   {
+    "d": "2026-10-30",
+    "o": 122,
+    "h": 122,
+    "l": 122,
+    "c": 122,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-02",
+    "o": 123.99,
+    "h": 127.15,
+    "l": 119.21,
+    "c": 119.21,
+    "v": 900,
+    "clsPos": 0,
+    "gapPct": 1.63
+   },
+   {
+    "d": "2026-11-03",
+    "o": 119.21,
+    "h": 119.21,
+    "l": 119.21,
+    "c": 119.21,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-04",
+    "o": 119.21,
+    "h": 119.21,
+    "l": 119.21,
+    "c": 119.21,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-05",
+    "o": 118.99,
+    "h": 118.99,
+    "l": 110.25,
+    "c": 110.25,
+    "v": 1300,
+    "clsPos": 0,
+    "gapPct": -0.18
+   },
+   {
+    "d": "2026-11-06",
+    "o": 110.25,
+    "h": 110.25,
+    "l": 110.25,
+    "c": 110.25,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-09",
+    "o": 115,
+    "h": 117.05,
+    "l": 115,
+    "c": 117.05,
+    "v": 1000,
+    "clsPos": 100,
+    "gapPct": 4.31
+   },
+   {
+    "d": "2026-11-10",
+    "o": 118,
+    "h": 127.28,
+    "l": 118,
+    "c": 127.28,
+    "v": 800,
+    "clsPos": 100,
+    "gapPct": 0.81
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FORTY-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FORTY-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 16일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": null
+}

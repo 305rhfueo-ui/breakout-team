@@ -1,0 +1,235 @@
+{
+ "ticker": "CLX",
+ "news": [
+  {
+   "title": "Monday 11/9 Insider Buying Report: CVS, CLX",
+   "url": "https://www.nasdaq.com/articles/monday-11-9-insider-buying-report-cvs-clx",
+   "date": "2026-11-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - CLX",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-clx",
+   "date": "2026-11-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "CLX Crosses Above Average Analyst Target",
+   "url": "https://www.nasdaq.com/articles/clx-crosses-above-average-analyst-target",
+   "date": "2026-11-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "CLX Q1 Earnings Call Highlights Inflation and Margin Pressures",
+   "url": "https://www.nasdaq.com/articles/clx-q1-earnings-call-highlights-inflation-and-margin-pressures",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Clorox (CLX) Q1 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/clorox-clx-q1-2027-earnings-call-transcript",
+   "date": "2026-11-03",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, Clorox (CLX) Q1 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-clorox-clx-q1-earnings-look-key-metrics",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Clorox (CLX) Surpasses Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/clorox-clx-surpasses-q1-earnings-and-revenue-estimates",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Clorox Insider Bought Shares Worth $400,251, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/clorox-insider-bought-shares-worth-215019978.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "How Fresh Step used AI to go from brief to ads at one-tenth the cost",
+   "url": "https://finance.yahoo.com/media-advertising/articles/fresh-step-used-ai-brief-130000332.html",
+   "date": "2026-11-05",
+   "publisher": "Marketing Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Adjusts Clorox Price Target to $99 From $95, Maintains Hold Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-clorox-price-132159606.html",
+   "date": "2026-11-04",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "ETFs Are Net Sellers of Clorox (CLX) on Nov. 2",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-clorox-clx-110321066.html",
+   "date": "2026-11-04",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Clorox CEO reveals troubling sign for U.S. economy",
+   "url": "https://finance.yahoo.com/economy/articles/clorox-ceo-reveals-troubling-sign-233300990.html",
+   "date": "2026-11-03",
+   "publisher": "TheStreet",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Clorox (CLX) Stock Rebounds As Q4 Earnings Face Margin Strain",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/clorox-clx-stock-rebounds-q4-222208258.html",
+   "date": "2026-11-03",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Clorox Now Expects Earnings Near the Low End of Its Forecast as Costs Rise. Should Dividend Investors Be Worried?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/clorox-now-expects-earnings-near-192502759.html",
+   "date": "2026-11-03",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-02",
+   "reportDate": "2026-11-02",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/clx-20261102.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000586/clx4708451-8k.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000028/clx-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-14",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000333/clx4653041-8k.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-26",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000296/clx4644261-8k.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-06",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21076/000119312526216807/clx-20260506.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.65,
+  "saleNy": 2.23,
+  "epsCy": 3.49,
+  "epsNy": 7.79,
+  "cyTrend": -0.42,
+  "nyTrend": -0.66,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -2.01,
+    0.12,
+    -0.77
+   ],
+   "ni": [
+    -50.9,
+    0.54,
+    -18.65
+   ],
+   "opm": [
+    13.24,
+    17.31,
+    14.41
+   ],
+   "updated": "2026-09-09 05:58:07"
+  }
+ }
+}

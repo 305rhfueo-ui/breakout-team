@@ -8933,8 +8933,125 @@ window.TEAM2_DATA = {
         "count": 9
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "ELF",
+        "company": "e.l.f., rhode, Naturium 같은 저가·중가 화장품 브랜드를 타겟, 월마트, 세포라 등에서 파는 미국 뷰티 회사. 인수한 rhode 브랜드가 최근 매출 성장을 이끈다.",
+        "lead": "11월 4일 발표한 분기 실적이 좋았고 회사가 연간 전망까지 올리면서 주가가 52주 고점 근처로 올랐다. 분기 매출은 5.2억 달러로 1년 전보다 51% 늘었고, 증권사는 rhode 중심의 점유율 상승을 높게 봤다. 다만 영업이익률이 직전 분기의 절반 아래로 내려 있어, 다음 분기에 이익률이 회복되는지가 이 이야기의 확인 지점이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "회사는 연간 전망도 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+                "date": "2026-11-04",
+                "quote": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "e.l.f. Beauty (ELF) Tops Q2 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/elf-beauty-elf-tops-q2-earnings-and-revenue-estimates",
+                "date": "2026-11-04",
+                "quote": "e.l.f. Beauty (ELF) Tops Q2 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "9월 분기 매출이 5.2억 달러로 1년 전보다 51% 늘었고 시장 예상을 웃돌았다. 회사는 연간 전망도 올렸다."
+          },
+          {
+            "id": "w2",
+            "statement": "신한투자증권은 rhode가 점유율 상승을 이끌고 있고 현금 창출력도 좋아지는 중이라고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeeee.pdf",
+                "date": "2026-11-06",
+                "quote": "연간 가이던스 상향, 본업 상황 좋아!- FY27 2Q Review: 호실적, 점유율 상승 + 비용 발생 이연- Valuation & Risk: 현금 창출력 개선 중",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "이번 분기 영업이익률은 10.1%로 직전 분기(21.4%)의 절반 아래다. 매출은 늘었지만 이익률이 흔들린다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 실적표 (분기 2026-06-30, 2026-09-30)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000048/elf-20261104.htm",
+                "date": "2026-11-04",
+                "quote": "periodEnd 2026-09-30 margin 10.1 / periodEnd 2026-06-30 margin 21.4",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "주가수익비율(PER)이 121배로 높다. 성장이 조금만 둔화돼도 주가가 흔들릴 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000048/elf-20261104.htm",
+                "date": "2026-11-10",
+                "quote": "per 121.33 pbr 6.02 eps 0.98 last 119.35",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "회사가 연간 전망을 올렸고, 신한투자증권도 이를 반영해 본업 호조를 언급했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeeee.pdf",
+                  "date": "2026-11-06",
+                  "quote": "연간 가이던스 상향, 본업 상황 좋아!",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "인디 뷰티",
+          "화장품 브랜드 인수 성장"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3"
+          ],
+          "reasons": [
+            "w3의 '전 분기 적자에서 흑자 기조' 주장이 제공된 quote에서 확인 불가. SEC quote는 연간(YoY) 실적만 제공하며, 순차 분기(sequential quarter) 비교 불가능. 순이익 $30M 수치는 맞으나 '직전 분기 적자' 여부를 인용문에서 검증할 수 없음."
+          ]
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "엘프 뷰티",
       "nameEn": "E L F BEAUTY INC",
@@ -10616,7 +10733,221 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "ORKA",
+        "company": "오루카 테라퓨틱스는 매출이 없는 임상 단계 바이오 기업이다. 주력 후보 ORKA-001 은 판상 건선(피부가 두껍게 벗겨지는 만성 질환) 치료제로, 2b상 결과를 낸 뒤 2027년 3상 시작을 계획한다. 돈은 제품 판매가 아니라 증자 등 외부 자금으로 연구에 쓴다.",
+        "lead": "ORKA 는 건선 신약 임상 호재로 최근 1개월 40% 올라 강한 종목 목록에 올랐다. 가장 강한 근거는 2b상에서 완전 피부 청소 61% 를 보인 결과다. 52주 추가 데이터는 12월, 3상 시작은 2027년 목표다. 시장 판정이 빨간불인 채로 이어지거나 12월 52주 데이터가 기대에 못 미치면 이 그림은 깨진다.",
+        "newsNarrative": "10월 26일 회사는 ORKA-001 의 건선 2b상 결과를 내놓았고 완전 피부 청소 61% 가 강조됐다. 회사는 52주 데이터는 12월, 3상 시작은 2027년에 시작한다고 밝혔다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study",
+                "date": "2026-10-27",
+                "quote": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "ORKA-001 이 건선 2b상에서 완전 피부 청소 61% 를 기록했다.",
+            "stripped": true
+          },
+          {
+            "id": "n2",
+            "statement": "회사가 52주 데이터는 12월, 3상 시작은 2027년으로 안내했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/oruka-expects-orka-001-52-week-data-december-phase-3-start-planned-2027",
+                "date": "2026-11-10",
+                "quote": "Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "9월 28주 결과가 긍정적이었지만 당일 주가는 내렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oruka Reports Positive Week 28 Results For ORKA-001 In Plaque Psoriasis; Stock Down",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/oruka-reports-positive-week-28-results-orka-001-plaque-psoriasis-stock-down",
+                "date": "2026-09-23",
+                "quote": "Oruka Reports Positive Week 28 Results For ORKA-001 In Plaque Psoriasis; Stock Down",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 없고 영업적자가 이어지는 임상 단계 회사다. 증권사 전망으로 올해 주당 손실은 2.37달러로 전년 1.85달러보다 커진다. 연구비가 늘어 적자가 확대되는 구조다. 흑자 전환 근거는 아직 없고, 시장은 임상 결과로 가치를 매기고 있다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "lowered",
+            "claims": []
+          }
+        },
+        "estimatesNarrative": "애널리스트 9명 기준 이번 분기 주당 손실 예상은 0.62달러로 90일 전보다 22% 나빠졌고, 최근 30일 하향 7명·상향 1명이다. 적자 전망이 커지는 것은 임상 비용 증가를 반영한 것으로, 매출이 없어 성장 서프라이즈는 해당이 없다. 목표가는 6건 모두 유지(헤지 120~200달러)이고 최근 4분기 중 2분기가 예상보다 나았다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "이번 분기 주당 손실 예상 0.62달러, 전년 0.55달러 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "올해 주당 손실 예상 2.37달러, 전년 1.85달러 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "미충족",
+            "evidence": "N 심층분석: 부분 충족 · 임상 중인 신약 세 가지는 모두 새롭지만 매출은 0 — 숫자로 확인되는 N 은 아직 없다"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.34배, 마지막 봉은 2.54배"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 상위 1개월 99.6 · 6개월 98.4, 3개월은 46.2"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "risks": [],
+        "structuralRisks": [
+          "매출이 없어 임상 결과와 자금 조달에 주가가 좌우된다.",
+          "핵심 후보 하나에 가치가 집중되어 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 자료 없음. 참고로 1개월 +40.04%, 3개월 -2.8%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "자료 없음"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "자료 없음"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "가격 109.5 > 20일선 90.11 · 50일선 88.82"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 1.34"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 없음. 마지막 봉 거래량 20일 평균의 2.54배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음, 일평균 변동폭 6.09%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.44 ADR"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "빨간불"
+          }
+        ],
+        "chartObservation": {
+          "base": "입력 기준 쉬는 구간이 잡히지 않았다. 10월 하순 저점 뒤 급반등했고 최근 10봉은 94~113달러 사이다.",
+          "volume": "최근 5일 거래량은 20일 평균의 1.34배로 줄지 않았다. 11월 6일 107만, 9일 160만, 10일 261만 주로 늘었고 10일은 20일 평균의 2.54배다.",
+          "position": "현재가 109.5달러는 기간 고점 115.52보다 5.21% 아래다. 피벗·손절은 정해지지 않았다. 50일선보다 23.28% 위에 있다.",
+          "maStack": "가격이 20·50·150일선 모두 위다. 20일선 90.11이 50일선 88.82를 막 넘었고 150일선 82.74는 완만히 오른다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "시장 판정이 빨간불에서 벗어나는지(10일선이 20일선 위로 오는지)",
+          "11월 11일 실적 발표 뒤 주가와 현금·자금 조달 내용이 어떻게 나오는지",
+          "횡보 구간이 만들어진 뒤 피벗을 거래량 20일 평균 2배 이상으로 넘는지",
+          "12월 52주 데이터가 2b상 수준을 유지하는지"
+        ],
+        "earningsRisk": "다음 실적 발표 예정일은 2026-11-11 (추정)로 오늘이다. 임상 비용과 현금 상황이 주가를 크게 흔들 수 있다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "r1: evidence_level 'no_source' 명시, sources 배열 공백 - 재무 수치 미확인",
+            "p1: evidence_level 'no_source' 명시, sources 배열 공백 - 적자 확대 주장 미확인",
+            "lead의 '매출이 0이고 적자가 커지는 중' - 출처 없는 재무 주장",
+            "lead의 '오늘 실적 발표가 예상된다' - 어떤 claim과도 연결 안 됨"
+          ],
+          "leadFixed": true,
+          "newsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "leadOriginal": "ORKA 는 건선 신약 임상 호재로 최근 1개월 40% 올라 강한 종목 목록에 올랐다. 가장 강한 근거는 2b상에서 완전 피부 청소 61% 를 보인 결과다. 가장 큰 걱정은 매출이 0이고 적자가 커지는 중이며, 오늘 실적 발표가 예상된다는 점이다. 시장 판정이 빨간불인 채로 이어지거나 12월 52주 데이터가 기대에 못 미치면 이 그림은 깨진다.",
+        "newsNarrativeOriginal": "10월 26일 회사는 ORKA-001 의 건선 2b상 결과를 내놓았고 완전 피부 청소 61% 가 강조됐다. 회사는 이를 근거로 3상 진입을 준비한다. 11월 10일에는 52주 데이터를 12월에 내놓고 3상은 2027년에 시작한다고 밝혔다. 같은 날 주가는 장중 고가 113.24달러까지 올라 109.5달러로 마감했다.",
+        "consensus": {
+          "saleCy": 0,
+          "saleNy": 0,
+          "epsCy": 29.13,
+          "epsNy": 20.67,
+          "cyTrend": 0.95,
+          "nyTrend": 0.72
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "TEM",
@@ -10739,7 +11070,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "템퍼스 AI",
       "nameEn": "TEMPUS AI INC",
@@ -13570,8 +13901,102 @@ window.TEAM2_DATA = {
         "count": 8
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "VSXY",
+        "company": "미국 여성 속옷·뷰티 브랜드 빅토리아 시크릿과 PINK, 빅토리아 시크릿 뷰티를 매장과 온라인으로 파는 회사. 2026년 6월 뉴욕거래소에 새로 상장한 종목이다.",
+        "lead": "VSXY는 8월 마감 분기에 이익이 급증한 것이 확인되면서 올랐고, 증권사 올해 이익 예상치도 소폭 올라갔다. 분기 영업이익이 2억 5,700만 달러로 1년 전보다 약 6배 늘었고, 11월 9일 52주 최고가를 찍었다. 다음 분기 실적에서 매출 증가세가 이어지고 이익률이 유지되는지가 이야기의 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "8월 1일 마감 분기에 영업이익이 2억 5,700만 달러로 1년 전보다 526.8% 늘었다. 매출은 16억 1,100만 달러로 10.4% 증가했고 영업이익률은 16%까지 올라갔다. 이익이 크게 늘면서 투자자 관심이 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 10-Q 분기 실적 (2026-08-01 마감)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856437&type=10-Q",
+                "date": "2026-09-03",
+                "quote": "periodEnd 2026-08-01 revenue 1611000000 profit 257000000 netIncome 183000000 margin 16 yoy revenue 10.4 profit 526.8",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "회사는 9월 3일 실적을 발표했다. CEO는 매출이 예상에 못 미쳤지만 하반기를 강한 흐름으로 시작한다고 밝혔다. 이익 개선과 하반기 자신감이 주가를 끌어올린 근거다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Victoria's Secret CEO: Entering back half of the year with tons of momentum despite revenue miss",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/09/03/victorias-secret-ceo-entering-back-half-of-the-year-with-tons-of-momentum-despite-revenue-miss.html",
+                "date": "2026-09-03",
+                "quote": "Victoria's Secret CEO: Entering back half of the year with tons of momentum despite revenue miss",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "주가가 이미 52주 고점 근처다. 주가수익비율이 25.65배, 순자산 대비 9.17배라 실적이 기대에 못 미치면 하락 폭이 클 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856437&type=10-Q",
+                "date": "2026-11-10",
+                "quote": "per 25.65 pbr 9.17 eps 4.43 last 113.52 high52 116.3199",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "올해 주당순이익 예상치 평균이 30일 전 4.71달러에서 현재 4.75달러로 소폭 올랐다. 내년 예상치도 5.62달러에서 5.68달러로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "RS 사이트 컨센서스 데이터",
+                  "publisher": "RS_Investment",
+                  "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                  "date": "2026-11-10",
+                  "quote": "cyCur 4.75059 cy30 4.70712 nyCur 5.67543 ny30 5.61826",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "의류·패션 소매",
+          "실적 턴어라운드",
+          "신규 상장"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3",
+            "c1"
+          ],
+          "reasons": [
+            "w3: 9월 10일 저점 71.72달러·11월 9일 고점 116.32달러 구체적 가격이 quote에 없음",
+            "c1: 직전 분기 매출 증가율 15.3% 수치가 quote에 없음"
+          ]
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "빅토리아 시크릿",
       "nameEn": "VICTORIAS SECRET AND CO",
@@ -19970,7 +20395,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "VERADERMICS INC",
       "nameEn": "VERADERMICS INC",
@@ -22053,8 +22478,112 @@ window.TEAM2_DATA = {
         "count": 21
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "RVTY",
+        "company": "레비티는 진단·생명과학 연구용 장비와 시약을 만들어 파는 회사다. 병원·제약사·연구기관이 주 고객이다.",
+        "lead": "증권사 목표주가 평균이 18.01% 올라 174.65달러가 됐고, Zacks 투자의견도 Buy로 올렸다. 다만 이익 대비 주가가 높은 편이라, 다음 분기에도 이익 증가가 이어지는지가 확인돼야 이야기가 유지된다.",
+        "whyRose": [
+          {
+            "id": "w3",
+            "statement": "실적 뒤 증권사 눈높이가 올라갔다. 목표주가 평균이 18.01% 상향돼 174.65달러가 됐고, Zacks는 투자의견을 Buy로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Revvity Consensus Price Target Raised 18.01% to $174.65",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/revvity-consensus-price-target-raised-1801-17465",
+                "date": "2026-11-10",
+                "quote": "Revvity Consensus Price Target Raised 18.01% to $174.65",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "All You Need to Know About Revvity (RVTY) Rating Upgrade to Buy",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/all-you-need-know-about-revvity-rvty-rating-upgrade-buy",
+                "date": "2026-11-06",
+                "quote": "All You Need to Know About Revvity (RVTY) Rating Upgrade to Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "주가가 이익에 비해 높다. 주당순이익 2.11달러 기준 주가수익비율이 76배다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세 (RVTY)",
+                "publisher": "한국투자증권",
+                "url": "https://www.nasdaq.com/articles/revvity-inc-reports-third-quarter-2026-financial-results",
+                "date": "2026-11-10",
+                "quote": "per: 76.33, eps: 2.11",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "매출 증가율은 낮다. 3분기 매출은 7억 2,890만 달러로 1년 전보다 4.3% 늘었고, 직전 분기는 1.3% 증가에 그쳤다. 이익 개선이 매출 성장보다 앞서 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 10-Q 분기 실적표 (RVTY)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000031791&type=10-Q",
+                "date": "2026-11-03",
+                "quote": "periodEnd 2026-10-04 revenue 728899000 yoy revenue 4.3; periodEnd 2026-07-05 yoy revenue 1.3",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "증권사 목표주가 평균이 18.01% 올라 174.65달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Revvity Consensus Price Target Raised 18.01% to $174.65",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/revvity-consensus-price-target-raised-1801-17465",
+                  "date": "2026-11-10",
+                  "quote": "Revvity Consensus Price Target Raised 18.01% to $174.65",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "진단·생명과학 장비",
+          "실적 서프라이즈"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w2"
+          ],
+          "reasons": [
+            "w1: 9,514만 달러·16.2%·33.5% 구체적 수치가 quote 제목에만 있고 본문 없음",
+            "w2: 52주 고점 171.74달러 수치가 quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "11월 3일 3분기 실적이 시장 예상을 웃돌며 주가가 52주 고점(171.74달러)까지 올랐다. 영업이익이 1년 전보다 16.2% 늘었고, 이후 증권사 목표주가 평균이 18% 오르고 Zacks 투자의견도 Buy로 올랐다. 다만 이익 대비 주가가 높은 편이라, 다음 분기에도 이익 증가가 이어지는지가 확인돼야 이야기가 유지된다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "레비티",
       "nameEn": "REVVITY INC",
@@ -24007,8 +24536,88 @@ window.TEAM2_DATA = {
         "count": 38
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "RYTM",
+        "company": "희귀 유전성 비만 치료제 Imcivree를 파는 바이오 회사. 시상하부 비만 등으로 적응증과 판매 지역을 넓히는 중이다.",
+        "lead": "최대 7억 5천만 달러 자금 조달이 이루어지면서, 10월 일본 출시와 투자의견 상향이 한 달간 주가 31% 상승을 뒷받침했다. 다만 임상 결과의 지속적 호재와 경영 개선이 필요하다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Rhythm Amends LG Chem Deal, Secures Up To $750 Million Financing For Obesity Pipeline",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/rhythm-amends-lg-chem-deal-secures-750-million-financing-obesity-pipeline",
+                "date": "2026-11-03",
+                "quote": "Rhythm Amends LG Chem Deal, Secures Up To $750 Million Financing For Obesity Pipeline",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "LG Chem과의 계약을 고쳐 비만 신약 개발용으로 최대 7억 5천만 달러 자금을 확보했다.",
+            "stripped": true
+          },
+          {
+            "id": "w3",
+            "statement": "10월 일본에서 후천성 시상하부 비만 치료제를 출시해 판매 지역이 넓어졌고, 같은 달 Zacks가 투자의견을 매수로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Rhythm Launches Imcivree In Japan For Acquired Hypothalamic Obesity",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/rhythm-launches-imcivree-japan-acquired-hypothalamic-obesity",
+                "date": "2026-10-14",
+                "quote": "Rhythm Launches Imcivree In Japan For Acquired Hypothalamic Obesity",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Rhythm Pharmaceuticals (RYTM) Upgraded to Buy: Here's What You Should Know",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-rytm-upgraded-buy-heres-what-you-should-know",
+                "date": "2026-10-13",
+                "quote": "Rhythm Pharmaceuticals (RYTM) Upgraded to Buy: Here's What You Should Know",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "자금 조달 계약의 조건에 따라 향후 주주 몫이 줄거나 상환 부담이 생길 수 있다.",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "비만치료제",
+          "희귀질환 바이오"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "c1"
+          ],
+          "reasons": [
+            "w1의 구체 숫자 '9,210만 달러' '79.6%'는 Zacks 제목에만 있고 quote의 실제 근거 수치 없음",
+            "c1의 '3분기 영업손실이 3,927만 달러'는 Fintel 제목에만 있고 quote에 없음",
+            "lead의 '매출이 80% 가까이 늘어' 부분 제거"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "3분기 매출이 1년 전보다 80% 가까이 늘어 예상을 웃돌았고, 최대 7억 5천만 달러 자금 조달 소식이 겹치며 한 달간 주가가 31% 올랐다. 일본 출시와 투자의견 상향도 뒷받침했다. 다만 아직 적자라 매출 성장세가 이어지는지가 관건이다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "리듬 파머슈티컬스",
       "nameEn": "RHYTHM PHARMACEUTICALS INC",
@@ -24743,7 +25352,299 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "RYTM",
+        "company": "리듬 파머슈티컬스는 희귀 유전성 비만 치료제 Imcivree를 팔아 돈을 버는 바이오 기업이다. 2026년 10월 일본에서 후천성 시상하부 비만 적응증으로 출시했다. 분기 제품 매출이 9,210만 달러까지 커졌지만 영업적자는 계속되고 있다.",
+        "lead": "RYTM은 최근 1개월 상승률 상위권이라 목록에 올랐지만, 차트상 이미 피벗(넘으면 사는 선) 106.57을 11월 4일에 넘어 현재가 113.95로 6.93% 위에 있다. 가장 강한 근거는 3분기 매출이 1년 전보다 79.6% 늘고 영업적자 폭이 줄었다는 점이다. 걱정은 적자가 계속되고, 시장 판정이 빨간불이며, 최근 1주 거래량이 한 달 평균의 2.16배로 마르지 않았다는 점이다. 종가가 예비 손절 103.41 아래로 내려오거나 매출 증가세가 꺾이면 이 그림은 깨진다.",
+        "newsNarrative": "11월 3일 3분기 실적과 함께 LG Chem 계약을 고쳐 최대 7억 5천만 달러의 자금을 확보했다는 소식이 나왔다. 같은 날 주가는 전일 대비 9.21% 낮게 출발했고 거래량이 710만 주로 급증했다. 다음 날 종가가 110.68까지 오르며 하루 만에 흐름이 뒤집혔다. 10월에는 일본 출시와 Zacks의 투자의견 상향이 있었고, 11월 들어 증권사 목표가는 상향 4건·하향 3건으로 엇갈렸다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "3분기 제품 순매출이 9,210만 달러로 발표됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Rhythm Pharmaceuticals, Inc. Reports Third Quarter 2026 Net Product Revenue of $92.1 million",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-reports-third-quarter-2026-net-product-revenue-921-million",
+                "date": "2026-11-03",
+                "quote": "Rhythm Pharmaceuticals, Inc. Reports Third Quarter 2026 Net Product Revenue of $92.1 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Rhythm Amends LG Chem Deal, Secures Up To $750 Million Financing For Obesity Pipeline",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/rhythm-amends-lg-chem-deal-secures-750-million-financing-obesity-pipeline",
+                "date": "2026-11-03",
+                "quote": "Rhythm Amends LG Chem Deal, Secures Up To $750 Million Financing For Obesity Pipeline",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "LG Chem 계약을 고쳐 비만 파이프라인용 자금을 최대 7억 5천만 달러까지 확보했다.",
+            "stripped": true
+          },
+          {
+            "id": "n3",
+            "statement": "3분기는 적자였지만 매출은 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-rytm-reports-q3-loss-beats-revenue-estimates",
+                "date": "2026-11-03",
+                "quote": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "10월 14일 일본에서 후천성 시상하부 비만 치료제를 출시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Rhythm Launches Imcivree In Japan For Acquired Hypothalamic Obesity",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/rhythm-launches-imcivree-japan-acquired-hypothalamic-obesity",
+                "date": "2026-10-14",
+                "quote": "Rhythm Launches Imcivree In Japan For Acquired Hypothalamic Obesity",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "10월 중순 Zacks가 투자의견을 매수로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Rhythm Pharmaceuticals (RYTM) Upgraded to Buy: Here's What You Should Know",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-rytm-upgraded-buy-heres-what-you-should-know",
+                "date": "2026-10-13",
+                "quote": "Rhythm Pharmaceuticals (RYTM) Upgraded to Buy: Here's What You Should Know",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 빠르게 늘고 있다. 2026년 3분기 매출은 9,212만 달러로 1년 전보다 79.6% 증가했다. 영업적자는 3,927만 달러로 1년 전보다 25.4% 줄었고, 영업이익률은 직전 분기 -68.1%에서 -42.6%로 나아졌다. 다만 4분기 연속 적자이고 흑자 전환 시점은 확인되지 않는다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Rhythm Pharmaceuticals, Inc. Reports Third Quarter 2026 Net Product Revenue of $92.1 million",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-reports-third-quarter-2026-net-product-revenue-921-million",
+                  "date": "2026-11-03",
+                  "quote": "Rhythm Pharmaceuticals, Inc. Reports Third Quarter 2026 Net Product Revenue of $92.1 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "3분기 제품 순매출 9,210만 달러, 1년 전보다 79.6% 증가.",
+              "stripped": true
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "3분기 적자는 이어졌으나 매출은 예상을 웃돌았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-rytm-reports-q3-loss-beats-revenue-estimates",
+                  "date": "2026-11-03",
+                  "quote": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": []
+          }
+        },
+        "estimatesNarrative": "애널리스트 17명은 올해 매출을 3.31억 달러, 전년보다 74.2% 늘 것으로 본다. 반면 올해 주당순손실 전망은 30일 전 -3.10달러에서 -4.94달러로 커졌다. 최근 4분기 모두 실적이 EPS 예상치를 웃돌았고 3분기는 13.9% 상회했다. 목표가는 최근 상향 4건·하향 3건으로 엇갈린다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "영업적자 3,927만 달러, 전년비 25.4% 축소(적자 지속) · 매출 79.6% 증가 · 순손실 4,137만 달러(순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 모두 영업적자, 순이익 전년비 3분기 +21.8%·그 전 3개 분기 -5.7%·-12.4%·-31.4%(순이익 기준, 주식 수 변동 미반영). 3년 추세·ROE 확인 불가"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 2.16배(마르지 않음), 시총 7.90B"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "RS 백분위 1개월 98.9 · 3개월 49.9 · 6개월 78.1"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 red, 10일선이 20일선 아래 16일째 · 마진부채 1년 전보다 +31.4%"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "3분기에도 적자가 이어져 자금 조달 의존이 크다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-rytm-reports-q3-loss-beats-revenue-estimates",
+                "date": "2026-11-03",
+                "quote": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출이 소수 제품에 집중된 바이오 기업이다.",
+          "임상·허가 결과에 주가가 크게 흔들리는 규제 산업이다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 25.5%(20~30% 구간, 약함) · 1개월 +31.57%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주(40봉)"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 1.08배(좁아지지 않음)"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 113.95 > 20일선 95.15·50일선 96.44·150일선 98.14, 20일선 기울기 -0.4%"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 2.16배"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "돌파봉(11/04) 거래량 5,485,800주, 20일 평균 대비 배수 자료 없음 · 마지막 봉 0.36배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 피벗 106.57 위 6.93%(1.31 ADR), 돌파일 2026-11-04"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.97% ≤ ADR 5.3%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.09 ADR(기준 2 이하)"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 red, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "최근 8주(40봉) 동안 고점 122.2에서 밀려 내려와 베이스 저점 81.57(11/03 장중)까지 갔다. 깊이는 23.5%다. 저점이 높아진 횟수는 0회이고 진폭도 1.08배로 좁아지지 않았다.",
+          "volume": "횡보 구간 거래량은 11/03부터 크게 늘었다. 11/03 710만 주, 11/04 549만 주, 11/05 640만 주, 11/06 494만 주였다. 이후 11/09 129만 주, 11/10 62만 주로 줄었다. 최근 5일 거래량은 20일 평균의 2.16배다.",
+          "position": "현재가 113.95는 피벗 106.57보다 6.93%(1.31 ADR) 위, 예비 손절 103.41보다 위다. 11/04 종가 110.68로 피벗을 넘었고 11/05 장중 저가 103.06은 피벗 아래였다. 10일선보다 2.09 ADR 위에 있다.",
+          "maStack": "가격은 20일선 95.15, 50일선 96.44, 150일선 98.14 모두 위에 있다. 20일선 기울기는 -0.4%로 아직 아래를 향한다. 세 선이 서로 가깝게 붙어 있다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "종가가 예비 손절 103.41 위에 머무는지, 11/05 장중 저가 103.06이 다시 나오는지",
+          "최근 5일 거래량이 20일 평균의 2.16배에서 0.7배 이하로 마르는지",
+          "10일선 이격이 현재 2.09 ADR에서 2 ADR 이하로 좁혀지는지",
+          "시장 판정이 빨간불에서 벗어나 10일선이 20일선 위로 올라서는지",
+          "11/04 돌파봉 거래량이 20일 평균의 2배 이상이었는지 직접 확인"
+        ],
+        "earningsRisk": "3분기 실적은 2026-11-03에 발표됐다. 확정된 다음 실적 발표 일정은 없다(달력 기준).",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "k2"
+          ],
+          "reasons": [
+            "k2: '조건에 따라 부담이 될 수 있다'는 구체 근거 없음 — LG Chem 계약 금액($750M)은 확인되나 조건 상세는 quote에 없음"
+          ]
+        },
+        "newDrivers": [],
+        "consensus": {
+          "saleCy": 74.2,
+          "saleNy": 74.91,
+          "epsCy": 58.71,
+          "epsNy": -73.7,
+          "cyTrend": 59.2,
+          "nyTrend": 111.92
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "PVLA",
@@ -25619,7 +26520,311 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "PVLA",
+        "company": "팔벨라 테라퓨틱스는 희귀 피부·림프 질환 치료제를 개발하는 임상 후기 바이오 기업이다. 주력 후보물질은 바르는 라파마이신 제제 QTORIN으로, 미세낭성 림프기형 치료제로 FDA 허가 심사 중이다. 아직 제품 매출은 없고 허가 이후 출시가 첫 매출 축이다.",
+        "lead": "PVLA는 FDA 우선심사 지정(결정 2027년 2월 예상)이라는 재료와 업종 내 상대강도 상위권으로 목록에 올랐다. 가장 강한 근거는 최근 한 달 상승률 31%와 증권사 목표가 상향(Canaccord 243달러, Oppenheimer 232달러)이다. 가장 큰 걱정은 매출이 0이고 적자가 이어지며, 시장 판정이 빨간불이라는 점이다. 허가 결정이 지연·거절되거나 피벗 160.84달러 아래로 되돌아오면 이 그림은 깨진다.",
+        "newsNarrative": "8월 말 회사는 QTORIN 라파마이신의 신약 허가 신청(NDA) 제출을 마쳤다. 10월 28일 FDA가 우선심사를 부여해 결정 시점이 2027년 2월로 잡혔고 주가가 올랐다. 이어 11월 5일 3분기 실적을 발표했고, 11월 6일 Oppenheimer와 11월 9일 Canaccord가 목표가를 올렸다. 주가는 11월 4일 피벗을 넘은 뒤 11월 9일 179.95달러까지 올랐다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "FDA가 QTORIN 라파마이신에 우선심사를 부여했고 결정은 2027년 2월로 예상된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palvella Gets FDA Priority Review For QTORIN Rapamycin; Decision Expected In February 2027; Stock Up",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/palvella-gets-fda-priority-review-qtorin-rapamycin-decision-expected-february-2027-stock",
+                "date": "2026-10-28",
+                "quote": "Palvella Gets FDA Priority Review For QTORIN Rapamycin; Decision Expected In February 2027; Stock Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "회사가 QTORIN 라파마이신의 신약 허가 신청을 마무리했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palvella Completes Rolling NDA For QTORIN Rapamycin In Microcystic Lymphatic Malformatios",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/palvella-completes-rolling-nda-qtorin-rapamycin-microcystic-lymphatic-malformatios",
+                "date": "2026-08-31",
+                "quote": "Palvella Completes Rolling NDA For QTORIN Rapamycin In Microcystic Lymphatic Malformatios",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "림프기형 적응증에 FDA 추가 자금 지원을 받았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palvella Receives Additional FDA Funding For QTORIN Rapamycin In Lymphatic Malformations",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/palvella-receives-additional-fda-funding-qtorin-rapamycin-lymphatic-malformations",
+                "date": "2026-09-28",
+                "quote": "Palvella Receives Additional FDA Funding For QTORIN Rapamycin In Lymphatic Malformations",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "3분기 실적 발표와 컨퍼런스콜이 11월 5일 있었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palvella (PVLA) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/palvella-pvla-q3-2026-earnings-call-transcript",
+                "date": "2026-11-05",
+                "quote": "Palvella (PVLA) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "회사는 QTORIN 출시와 희귀질환 파이프라인 확장을 준비한다고 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palvella Therapeutics Eyes QTORIN Launch as Rare-Disease Pipeline Expands",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/palvella-therapeutics-eyes-qtorin-launch-rare-disease-pipeline-expands",
+                "date": "2026-10-25",
+                "quote": "Palvella Therapeutics Eyes QTORIN Launch as Rare-Disease Pipeline Expands",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 아직 없고 분기 적자가 이어지는 개발 단계 기업이다. 증권사는 2027년 매출을 약 2,007만 달러로 보며, 허가 후 출시가 첫 매출이 된다. 사이트의 순이익 흐름 표시도 적자 확대로 나온다. 흑자 전환 근거는 아직 없다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r1",
+              "statement": "2027년 매출 전망은 약 2,007만 달러(14명 추정), 2026년은 0이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Yahoo Finance PVLA 애널리스트 전망치",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/quote/PVLA/analysis/",
+                  "date": "2026-11-10",
+                  "quote": "+1y 2027-12-31 rev 20071360 revAnalysts 14 revYearAgo 0",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "최근 분기(2026-09-30) 주당 손실은 -1.70달러로 예상(-1.73달러)보다 소폭 나았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Yahoo Finance PVLA 애널리스트 전망치",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/quote/PVLA/analysis/",
+                  "date": "2026-11-10",
+                  "quote": "quarter 2026-09-30 actual -1.7 estimate -1.73 surprisePct 1.8",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "올해 EPS 전망은 30일간 7.7% 상향(손실 축소), 2027년은 8.9% 하향됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Yahoo Finance PVLA 애널리스트 전망치",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/PVLA/analysis/",
+                    "date": "2026-11-10",
+                    "quote": "0y now -5.92 d30 7.7 / +1y now -8.16 d30 -8.9",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "올해 EPS 전망은 -5.92달러로 30일 새 7.7% 올라 손실이 줄어드는 방향이다. 반면 2027년은 -8.16달러로 8.9% 내려, 출시 준비 비용이 커질 것으로 보는 흐름이다. 최근 4분기 중 앞 3분기는 예상보다 손실이 컸고(-18.6%, -29.3%, -32%), 직전 분기만 1.8% 나았다. 11월 Canaccord(243달러)·Oppenheimer(232달러) 목표가 상향이 있었다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "분기 주당 손실 -1.70달러(2026-09-30), 흑자 아님, 매출 0 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "올해 EPS 전망 -5.92달러, 사이트 순이익 흐름 적자확대 3회 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 성장 동력",
+            "status": "미충족",
+            "evidence": "N 심층분석: 부분 충족 · 첫 치료제 QTORIN 라파마이신이 허가 심사 중 — 매출은 아직 0, 2027년 2월이 분수령"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.34배로 마름 기준(0.7 이하) 미달, 시총 2.47B, 유통주식 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 상위 백분위 1개월 98.8 · 6개월 92.3 · 3개월 77.7"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 red, 10일선이 20일선 아래 16일째. 마진부채 +31.4%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "허가 결정이 2027년 2월로 예정돼 있어 지연·거절 시 주가 충격이 크다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palvella Gets FDA Priority Review For QTORIN Rapamycin; Decision Expected In February 2027; Stock Up",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/palvella-gets-fda-priority-review-qtorin-rapamycin-decision-expected-february-2027-stock",
+                "date": "2026-10-28",
+                "quote": "Decision Expected In February 2027",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "단일 후보물질 QTORIN에 기업가치가 집중돼 있다.",
+          "허가 전 개발 단계라 제품 매출이 없고 증자(주식 희석) 가능성이 상존한다."
+        ],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 57.7%, 1개월 31.28%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주(40봉)"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회 성립하나 진폭 1.03배로 좁아지지 않음"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "가격 168.71 > 20일선 141.83 · 50일선 143.34"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 1.34배"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "돌파봉(11-04) 거래량 406,700주, 20일 평균 대비 배수 자료 없음. 최근 봉 기준 1.31배"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "미충족",
+            "evidence": "11-04에 피벗 160.84 돌파, 현재 피벗 위 4.89%(0.73 ADR)"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 5.58% ≤ ADR 6.66%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.93 ADR"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "시장 판정 red"
+          }
+        ],
+        "chartObservation": {
+          "base": "약 8주(40봉) 횡보 구간이 보이며 베이스 깊이는 26.5%다. 저점은 1회 높아졌지만 진폭은 1.03배로 좁아지지 않았다. 9월 하순 하락 뒤 저점 118.22 부근에서 반등했다.",
+          "volume": "최근 5일 거래량이 20일 평균의 1.34배로 마르지 않았다. 11월 6일 502,000주로 최근 10봉 중 가장 많았고 종가 위치 95였다. 11월 9~10일은 종가 위치 33, 41로 장중 고점에서 밀렸다.",
+          "position": "현재가 168.71은 피벗 160.84보다 4.89%(0.73 ADR) 위이고 예비 손절 151.87보다 위다. 11월 4일 피벗을 넘었고 10일선 위 0.93 ADR이다.",
+          "maStack": "가격이 20일선 141.83, 50일선 143.34, 150일선 136.22 위에 있다. 20일선 기울기는 +3.14%로 올라가며 50일선도 완만히 오른다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "시장 판정이 빨간불에서 벗어나 QQQ 10일선이 20일선 위로 올라서는지",
+          "피벗 160.84달러 위에서 종가가 유지되는지, 예비 손절 151.87달러 아래로 내려가지 않는지",
+          "거래량이 20일 평균 2배 이상 실린 상승일이 다시 나오는지",
+          "허가 결정(2027년 2월 예상) 전 증자나 일정 변경 공시가 없는지"
+        ],
+        "earningsRisk": "직전 실적은 11월 5일 발표돼 지났고, 확정된 다음 실적 발표 일정은 없다(달력 기준). 다음 큰 이벤트는 2027년 2월 FDA 결정 예상 시점이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "k2"
+          ],
+          "reasons": [
+            "k2: '출시 비용에 따른 적자 확대 가능성'은 근거 없는 추측 — EPS 하향(-8.9%)은 확인되나 원인을 지어냄"
+          ]
+        },
+        "newDrivers": [],
+        "consensus": {
+          "saleCy": 0,
+          "saleNy": 0,
+          "epsCy": 60.04,
+          "epsNy": 35.98,
+          "cyTrend": -7.54,
+          "nyTrend": 7.68
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "EL",
@@ -25744,8 +26949,98 @@ window.TEAM2_DATA = {
         "count": 9
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "EL",
+        "company": "에스티 로더는 에스티 로더·클리니크·맥 등 프레스티지 화장품과 향수를 파는 회사다. 최근 실적이 흑자로 돌아서는 흐름이다.",
+        "lead": "11월 초 분기 실적 발표 뒤 주가가 올라 3개월 새 약 35% 올랐다. 다만 이번 분기 숫자와 상승 이유를 직접 확인한 근거는 부족해, 확인된 건 실적 발표 사실과 직전 분기까지의 매출 증가 흐름이다. 다음 분기에도 매출이 늘고 이익이 흑자를 유지하는지가 확인되면 이야기가 맞고, 아니면 깨진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 11월 2일 분기 실적(9월 말 마감)을 발표했고, 이후 주가가 52주 고점 근처까지 올랐다. 실적 내용은 확인하지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Estee Lauder 8-K (실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000057/el-20261102.htm",
+                "date": "2026-11-02",
+                "quote": "On November 2, 2026, The Estée Lauder Companies Inc. (the 'Company') issued a press release announcing its financial results for its fiscal quarter ended September 30, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "매출이 4개 분기 연속 늘고 있다. 직전 분기(4~6월)도 매출 36.3억 달러로 1년 전보다 6.3% 늘었고, 영업손실은 크게 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "EL 최근 분기 실적 (SEC 10-Q 기반)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001250&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, revenue 3627000000, profit -39000000, yoy revenue 6.3, profit 90",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "주가수익비율이 약 227배로 높다. 이익이 아직 작아 기대가 먼저 반영됐을 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-11-10",
+                "quote": "per 227.41, eps 0.5",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "4~6월 분기에는 영업손실(-3,900만 달러)이 났다. 흑자 전환이 이어질지는 아직 불확실하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "EL 최근 분기 실적 (SEC 10-Q 기반)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001250&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, revenue 3627000000, profit -39000000",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "프레스티지 화장품",
+          "소비재 실적 회복"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3"
+          ],
+          "reasons": [
+            "w3: statement가 2월과 5월 리포트를 함께 언급하나 quote는 5월 데이터만 제공, 2월 리포트 근거 없음"
+          ]
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "에스티 로더",
       "nameEn": "ESTEE LAUDER COMPANIES INC",
@@ -26633,7 +27928,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "얼리전트 트래블",
       "nameEn": "ALLEGIANT TRAVEL COMPANY",
@@ -27435,7 +28730,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "인사이트 엔터프라이즈",
       "nameEn": "INSIGHT ENTERPRISE INC",
@@ -29084,8 +30379,112 @@ window.TEAM2_DATA = {
         "count": 12
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "XMTR",
+        "company": "제조업체가 주문 제작 부품을 온라인으로 발주하면 공급업체와 연결해 주는 마켓플레이스 회사. 수수료와 공급업체 서비스로 돈을 번다.",
+        "lead": "조메트리는 11월 3일 3분기 실적이 예상을 웃돌았고, 증권사 목표주가 평균도 11.98% 올라 127.13달러가 됐다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "11월 3일 발표한 3분기 실적이 시장 예상(매출·주당순이익)을 넘어섰고 회사는 '사상 최대 분기'라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Xometry (XMTR) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/xometry-xmtr-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-11-03",
+                "quote": "Xometry (XMTR) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Xometry, Inc. Reports Record Third Quarter 2026 Results",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/xometry-inc-reports-record-third-quarter-2026-results",
+                "date": "2026-11-03",
+                "quote": "Xometry, Inc. Reports Record Third Quarter 2026 Results",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "증권사 목표주가 평균이 11.98% 올라 127.13달러가 되면서 실적 이후 눈높이가 높아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Xometry Consensus Price Target Increased by 11.98% to $127.13",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/xometry-consensus-price-target-increased-1198-12713",
+                "date": "2026-11-09",
+                "quote": "Xometry Consensus Price Target Increased by 11.98% to $127.13",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "증권사 목표주가 평균이 11.98% 올라 127.13달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Xometry Consensus Price Target Increased by 11.98% to $127.13",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/xometry-consensus-price-target-increased-1198-12713",
+                  "date": "2026-11-09",
+                  "quote": "Xometry Consensus Price Target Increased by 11.98% to $127.13",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "9~10월에 이사와 CEO가 주식을 일부 팔았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Xometry CEO Sells 1,500 Shares Amid a 67% One-Year Return",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/xometry-ceo-sells-1500-shares-amid-67-one-year-return",
+                "date": "2026-10-01",
+                "quote": "Xometry CEO Sells 1,500 Shares Amid a 67% One-Year Return",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "themeTags": [
+          "제조업 마켓플레이스",
+          "주문제작 부품"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3",
+            "c1"
+          ],
+          "reasons": [
+            "w3: 최근 네 분기 중 27.5%, 29.5%, 35.9%는 quote에 없고 41.1%만 있음",
+            "c1: PER 약 200배 수치가 quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "조메트리는 11월 3일 3분기 실적이 예상을 웃돌면서 주가가 52주 고점(11월 9일 123.39달러) 부근까지 올랐다. 이후 증권사 목표주가 평균도 11.98% 올라 127.13달러가 됐다. 다만 영업적자가 이어지고 있어, 다음 분기에도 매출 성장과 적자 축소가 이어지는지가 확인되지 않으면 이 이야기는 흔들린다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "조메트리",
       "nameEn": "XOMETRY INC",
@@ -29915,8 +31314,112 @@ window.TEAM2_DATA = {
         "count": 14
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "CAKE",
+        "company": "미국 전역에서 치즈케익 팩토리 레스토랑을 직접 운영하는 외식 회사. 매장 수 확대와 방문객 증가로 매출을 키우고 있다.",
+        "lead": "6개월 주가가 81% 오른 배경은 매출이 늘면서 영업이익이 더 빠르게 늘어난 실적 개선이다. 최근 분기(6월 말) 영업이익은 1년 전보다 21% 늘었고, 10월 말 3분기 발표에서도 방문객 증가와 2027년 매장 확대 계획이 부각됐다. 다음 분기에도 이익 증가가 이어지는지가 확인돼야 이야기가 유지된다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "6월 말 분기 영업이익이 7,861만 달러로 1년 전보다 21% 늘었고, 영업이익률은 7.6%까지 올랐다. 매출은 10.3억 달러로 7.7% 증가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적 (CAKE 10-Q)",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887596&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 1029633000, profit 78608000, margin 7.6, yoy revenue 7.7, profit 21.3",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "10월 27일 발표한 3분기 매출은 10.33억 달러였고, 실적 발표 뒤 기사들은 방문객 증가와 2027년 매장 확대를 주요 내용으로 짚었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CAKE Q3 Earnings Call Highlights Strong Traffic and 2027 Expansion",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/cake-q3-earnings-call-highlights-strong-traffic-and-2027-expansion",
+                "date": "2026-10-28",
+                "quote": "CAKE Q3 Earnings Call Highlights Strong Traffic and 2027 Expansion",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "The Cheesecake Factory Incorporated Reports Third Quarter Fiscal 2026 Revenues of $1,033.4 million",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/cheesecake-factory-incorporated-reports-third-quarter-fiscal-2026-revenues-10334-million",
+                "date": "2026-10-28",
+                "quote": "The Cheesecake Factory Incorporated Reports Third Quarter Fiscal 2026 Revenues of $1,033.4 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "2025년 12월 분기에는 영업이익이 29% 줄었을 만큼 이익 변동이 컸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적 (CAKE 10-Q)",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887596&type=10-Q",
+                "date": "2025-12-30",
+                "quote": "periodEnd 2025-12-30, profit 33235000, yoy profit -28.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "올해 주당순이익 예상치 평균이 30일 전 4.55달러에서 4.70달러로, 내년은 5.02달러에서 5.23달러로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "RS 사이트 컨센서스 데이터",
+                  "publisher": "RS Investment",
+                  "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                  "date": "2026-11-11",
+                  "quote": "cyCur 4.70367, cy30 4.54685, nyCur 5.23391, ny30 5.02337",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "외식·레스토랑",
+          "소비재 실적 개선"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3",
+            "c1"
+          ],
+          "reasons": [
+            "w3의 '3월 말 분기 순이익 50% 증가·6월 말 분기 25% 증가' 구체적 수치가 제공된 quote(단순 기사 제목)에 없음",
+            "c1의 '한 달 기준 3% 내림' 주장이 quote 데이터와 불일치. 계산: (118.63-110.96)/118.63 = 6.46% 하락. 주장된 3%는 근거 없음."
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "6개월 주가가 81% 오른 배경은 매출이 늘면서 영업이익이 더 빠르게 늘어난 실적 개선이다. 최근 분기(6월 말) 영업이익은 1년 전보다 21% 늘었고, 10월 말 3분기 발표에서도 방문객 증가와 2027년 매장 확대 계획이 부각됐다. 다만 최근 한 달은 3% 내려 고점(10월 16일 이후) 부담이 있어, 다음 분기에도 이익 증가가 이어지는지가 확인돼야 이야기가 유지된다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "치즈케익 팩토리",
       "nameEn": "CHEESECAKE FACTORY",
@@ -30801,8 +32304,83 @@ window.TEAM2_DATA = {
         "count": 38
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SYRE",
+        "company": "염증성 장질환(궤양성 대장염 등)과 류마티스관절염 같은 면역 질환 신약을 개발하는 바이오 기업이다. 아직 매출이 없고 임상시험 결과와 자금 조달이 주가를 좌우한다.",
+        "lead": "SYRE는 궤양성 대장염 2상의 긍정적 결과와 3억5천만 달러 증자로 자금 부담을 덜면서 한 달 새 약 30% 올랐다. 다만 류마티스관절염 2상은 결과가 엇갈렸고 매출 없이 적자가 이어진다. 다음 임상 결과가 기대에 못 미치면 이 상승 이야기는 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "궤양성 대장염 2상에서 SPY003이 긍정적 결과를 냈다. 핵심 파이프라인의 효능이 확인된 것이 상승의 출발점이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Spyre Therapeutics Reports Positive Phase 2 SPY003 Data In Ulcerative Colitis",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/spyre-therapeutics-reports-positive-phase-2-spy003-data-ulcerative-colitis",
+                "date": "2026-09-08",
+                "quote": "Spyre Therapeutics Reports Positive Phase 2 SPY003 Data In Ulcerative Colitis",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "임상을 이어갈 자금을 확보했다는 점이 부담을 줄였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Spyre Therapeutics Prices $350 Mln Public Offering Of Shares",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/spyre-therapeutics-prices-350-mln-public-offering-shares",
+                "date": "2026-10-06",
+                "quote": "Spyre Therapeutics Prices $350 Mln Public Offering Of Shares",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "10월에 3억5천만 달러 규모 공모 증자를 마쳤다. 임상을 이어갈 자금을 확보했다는 점이 부담을 줄였다."
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "류마티스관절염 2상에서 SPY072는 단독 요법 내부 기준에 못 미쳤다. 결과가 엇갈린 파이프라인이 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy",
+                "date": "2026-08-26",
+                "quote": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "바이오·신약",
+          "면역질환"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reasons": [
+            "c2의 '주가는 52주 저점의 약 5배라'는 RTTNews quote에 52주 저점 정보 없음"
+          ]
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "스파이어 테라퓨틱스",
       "nameEn": "SPYRE THERAPEUTICS INC",
@@ -31653,7 +33231,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "아이콘",
       "nameEn": "ICON PLC",
@@ -32194,7 +33772,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "스노우플레이크",
       "nameEn": "SNOWFLAKE INC",
@@ -33548,7 +35126,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "키닉사 파머슈티컬스 인터내셔널",
       "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
@@ -34335,8 +35913,85 @@ window.TEAM2_DATA = {
         "count": 32
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "RKLB",
+        "company": "소형 로켓 발사와 인공위성 제조·부품을 함께 하는 우주 회사. 중형 로켓 뉴트론을 개발 중이며 이리듐 통신 위성사 인수를 추진한다.",
+        "lead": "3분기 매출이 사상 최대였고 수주잔고도 크게 늘어 최근 반등의 근거가 됐다. 이 이야기는 대형 발사 계약이 매출로 이어지고 뉴트론이 2027년 일정을 지킬 때 유지된다. 주가는 1년 최고가에서 크게 내려온 상태라 일정이 또 밀리면 이 이야기가 깨진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "3분기 매출이 2.7억 달러로 1년 전보다 73% 늘어 역대 최대였다. 우주선 제조 부문이 가장 크게 성장했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[로켓 랩 (NAS:RKLB)] 발사 공급 부족이 만든 성장 기회",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkgmlczzeklgcgcgxeeee.pdf",
+                "date": "2026-11-10",
+                "quote": "매출 2.7억달러(+73% YoY, 이하 전년대비)로 역대 최대치. 우주시스템 2.1억달러(+88%), 발사서비스 0.5억달러(+29.8%)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "[로켓 랩 (NAS:RKLB)] 발사 공급 부족이 만든 성장 기회",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkgmlczzeklgcgcgxeeee.pdf",
+                "date": "2026-11-10",
+                "quote": "수주잔고 35.7억달러(+226%, +52% QoQ)로 확대됐으며",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "수주잔고가 35.7억 달러로 1년 전보다 3배 넘게 늘었다. 정부·상업 고객에게서 10억 달러 규모 발사 계약도 따냈다.",
+            "stripped": true
+          },
+          {
+            "id": "w3",
+            "statement": "뉴트론은 첫 발사 전인데도 신규 계약 8회를 더 확보했다. 이전 조정으로 주가 부담도 줄었다는 평가가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[로켓 랩 (NAS:RKLB)] 발사 공급 부족이 만든 성장 기회",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkgmlczzeklgcgcgxeeee.pdf",
+                "date": "2026-11-10",
+                "quote": "뉴트론은 첫 시험 발사 이전임에도 8회, 5.2억달러 이상의 신규 계약 을 추가 확보하며 총 16회 발사 물량 확보",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "우주항공",
+          "위성·발사체"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reasons": [
+            "c1의 '4번째로 연기'는 신한투자증권 quote에 연기 횟수 정보 없음",
+            "c2의 '분기 영업손실이 5,700만 달러'는 quote에 없음"
+          ]
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "로켓 랩",
       "nameEn": "ROCKET LAB CORPORATION",
@@ -35139,7 +36794,278 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "RKLB",
+        "company": "로켓 랩은 소형 로켓 Electron 으로 위성을 쏘아 올리고, 위성 본체와 부품을 만들어 파는 우주 기업이다. 주 고객은 미국 정부·국방과 상업 위성 업체이며, 최근 성장은 위성·우주시스템 부문이 이끈다. 이리듐 인수로 위성 통신 운영까지 넓히려 하고, 대형 로켓 뉴트론이 다음 성장 축이다.",
+        "lead": "RKLB 는 6개월 전 고점(약 151달러)에서 58% 내린 뒤 최근 3일간 반등해 도윤 목록에 올랐다. 가장 강한 근거는 3분기 매출이 사상 최대라는 점이다. 가장 큰 걱정은 이리듐 인수 자금을 증자로 조달한 데 따른 희석이다. 현재가가 피벗(넘으면 사는 선)보다 19.89% 아래이고 시장 판정이 빨간불이라, 가격이 두 달 평균선 위에 머물며 거래량이 받쳐 주는지가 깨지면 이 그림은 무너진다.",
+        "newsNarrative": "9월에는 이리듐 인수 대금을 증자로 조달해 희석 부담이 생겼다. 11월 9일 3분기 실적에서 매출은 사상 최대 수준으로 늘었다. 실적 뒤 주가는 11월 5일 저점에서 사흘 연속 올랐지만, 일부 증권사는 목표가를 다시 낮췄다.",
+        "recentNews": [
+          {
+            "id": "n3",
+            "statement": "이리듐 인수 대금을 증자로 조달해 희석 부담이 생겼다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[로켓 랩 (NAS:RKLB)] [Issue & News] 이리듐 인수대금 지분조달 완료",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmzeimqmllzeqgcgxeeee.pdf",
+                "date": "2026-09-15",
+                "quote": "- 신주 희석 부담은 주가 단기 하방 요인으로 작용 가능",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "실적 발표 8-K 가 11월 9일 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "RKLB 8-K 실적 발표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-20261109.htm",
+                "date": "2026-11-09",
+                "quote": "실적 발표 · 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 빠르게 늘지만 영업적자가 계속된다. 3분기 매출은 2.7억 달러로 전년 동기 대비 73% 증가했다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "3분기 컨센서스가 가이던스 중간값에 붙어 매출 서프라이즈 여지가 제한적이라는 증권사 평가.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[26Q3 Preview] 뉴트론 2027년 연기 후 총마진 밴드 확인이 관건",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmixzgmegkmxizgcgxeeee.pdf",
+                  "date": "2026-11-02",
+                  "quote": "- 컨센서스가 가이던스 중간값에 붙어 매출 서프라이즈 여지는 제한적",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "lowered",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "3분기 직후 Piper Sandler 등 증권사가 목표가를 낮췄다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "야후 파이낸스 애널리스트 전망치",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/RKLB/analysis/",
+                    "date": "2026-11-10",
+                    "quote": "Piper Sandler main Neutral Lowers pt 58 ptPrior 83",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "올해(2026년) 주당손실 전망치는 -0.32달러로 30일 전보다 17.8% 나빠졌고 하향 애널리스트 2명, 상향 0명이다. 내년 전망도 90일 전보다 19.4% 나빠졌다. 반면 올해 매출 전망은 9.7억 달러(+61.7%)로 성장 기대는 유지된다. 최근 분기 서프라이즈는 -80.6%로 손실이 예상보다 컸고, 최근 목표가 변경 7건이 모두 하향이다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "분기 순손실 4,926만 달러, 매출 전년비 +62%, 흑자 전환 아님 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 모두 영업손실, 3년 추세·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 성장 동력",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "RS 백분위 1개월 36.9, 3개월 12.1, 6개월 0.6 (기준 80 이상)"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "빨간불: 10일선이 20일선 아래 16일째, 마진부채 +31.4% 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k2",
+            "statement": "이리듐 인수 자금 조달로 신주 희석이 발생했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[로켓 랩 (NAS:RKLB)] [Issue & News] 이리듐 인수대금 지분조달 완료",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmzeimqmllzeqgcgxeeee.pdf",
+                "date": "2026-09-15",
+                "quote": "- 이리듐 인수대금 19.4 억달러 ATM 증자로 전액 조달 완료",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "statement": "매출총이익률이 하락했고 조정 EBITDA 는 손실이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[로켓 랩 (NAS:RKLB)] 발사 공급 부족이 만든 성장 기회",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkgmlczzeklgcgcgxeeee.pdf",
+                "date": "2026-11-10",
+                "quote": "GPM 33.6%(-3.4%p), 조정 EBITDA 손실 1,800만달러 기록",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "대형 로켓 뉴트론의 첫 발사 성공 여부에 기업가치 평가가 크게 좌우된다.",
+          "정부·국방 고객 의존도가 높은 사업 구조다.",
+          "이리듐 인수가 주주·규제당국 승인을 거쳐야 완료된다."
+        ],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 34.5% (3개월 수익률은 -23.6%)"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 7.2주"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 1.37배(좁아지지 않음)"
+          },
+          {
+            "item": "4 깊이",
+            "status": "미충족",
+            "evidence": "깊이 43.9%, ADR 8.52% 의 약 5.2배, 선행 상승 34.5% 초과 — 되돌림이 깊다"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "현재가 62.71 이 20일선 54.45 위, 50일선 62.42 보다 0.46% 위. 20일선 기울기 -5.67%"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.31배"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 아래라 돌파봉 없음. 최근 봉 거래량 20일 평균의 1.49배, 돌파 시 2배가 실리는지 본다"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 78.28 까지 -19.89% (-2.33 ADR), 1 ADR 밖"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 72.93, 폭 6.83% ≤ ADR 8.52%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.41 ADR"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보 구간은 7.2주로 길이 기준은 채운다. 다만 저점이 높아지지 않았고(저점 상승 0회) 진폭은 1.37배로 오히려 넓어졌다. 깊이는 43.9%로 ADR 8.52% 의 5배가 넘는다.",
+          "volume": "최근 5일 거래량이 20일 평균의 1.31배라 횡보 중 거래량이 마르지 않았다. 11월 5일 3,678만 주(급락일) 이후 11월 9·10일 모두 약 3,200만 주로 늘었다. 최근 2일은 종가 위치가 88%로 고가권 마감이다.",
+          "position": "현재가 62.71 은 피벗 78.28 보다 19.89% 아래, 예비 손절 72.93 보다도 낮다. 11월 10일은 전일 종가 대비 -6.57% 갭하락 시작 후 63.77 까지 올라 62.71 에 마감했다. 10일선 위 1.41 ADR 이다.",
+          "maStack": "현재가는 20일선(54.45)과 50일선(62.42) 위지만 150일선(81.13) 아래다. 20일선 기울기는 -5.67% 로 내리는 중이고, 50일선과의 간격은 0.46% 뿐이다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "피벗 78.28 을 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "시장 판정이 빨간불에서 벗어나 10일선이 20일선 위로 올라오는지",
+          "현재가가 50일선(62.42) 위에서 종가 유지되고 20일선 기울기가 꺾여 오르는지"
+        ],
+        "earningsRisk": "3분기 실적은 11월 9일 발표돼 이미 지났다. 다음 확정 일정은 확인되지 않았고, 실적 직후 변동(11월 5일 -12%대 하락 후 반등)이 아직 정리되지 않았다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "n1",
+            "n2",
+            "n4",
+            "k1",
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "n1: 수주잔고 35.7억 달러, 정부 고객 계약 10억 달러는 quote에 없음 - 매출 2.7억 달러만 확인",
+            "n2: '네 번째 연기'는 quote에 없음, 2027년으로의 연기만 확인",
+            "n4: '80억 달러 규모' 수치가 quote에 없음 - 다른 자료에선 19.4억 달러 언급",
+            "k1: '4번째 연기'(네 번째) 수치 미확인",
+            "r1: Q1 63.5% 증가는 quote에 없음 - Q2 데이터만 포함",
+            "p1: '4개 분기 연속 영업손실' 주장이 quote(Q2만)로 검증 불가"
+          ],
+          "leadFixed": true,
+          "newsNarrativeFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "leadOriginal": "RKLB 는 6개월 전 고점(약 151달러)에서 58% 내린 뒤 최근 3일간 반등해 도윤 목록에 올랐다. 가장 강한 근거는 분기 매출이 1년 전보다 62% 늘고 수주잔고가 크게 불어난 점이다. 가장 큰 걱정은 뉴트론 첫 발사가 2027년으로 미뤄진 것과 이리듐 인수 자금을 증자로 조달한 데 따른 희석이다. 현재가가 피벗(넘으면 사는 선)보다 19.89% 아래이고 시장 판정이 빨간불이라, 가격이 두 달 평균선 위에 머물며 거래량이 받쳐 주는지가 깨지면 이 그림은 무너진다.",
+        "newsNarrativeOriginal": "10월 15일 뉴트론 첫 발사가 2027년으로 네 번째 연기되면서 주가가 크게 밀렸고 증권사들이 목표가를 잇달아 내렸다. 9월에는 이리듐 인수 대금 19.4억 달러를 증자로 전액 조달하고 브리지론을 취소해 희석 부담이 생겼다. 11월 9일 3분기 실적에서 매출은 사상 최대, 수주잔고는 35.7억 달러로 늘었다. 실적 뒤 주가는 11월 5일 저점에서 사흘 연속 올랐지만, 일부 증권사는 목표가를 다시 낮췄다.",
+        "financialsNarrativeOriginal": "매출은 빠르게 늘지만 영업적자가 계속된다. 2026년 2분기 매출은 2.34억 달러로 1년 전보다 62% 늘었고, 영업손실은 5,751만 달러로 영업이익률 -24.6%다. 직전 4개 분기 모두 영업손실이어서 흑자 전환은 아직 확인되지 않는다. 3분기 매출은 신한투자증권 기준 2.7억 달러(+73%)다.",
+        "consensus": {
+          "saleCy": 59.39,
+          "saleNy": 38.72,
+          "epsCy": -25.72,
+          "epsNy": -66.82,
+          "cyTrend": 0.36,
+          "nyTrend": 4.43
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "TTWO",
@@ -35262,8 +37188,170 @@ window.TEAM2_DATA = {
         "count": 3
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "TTWO",
+        "company": "GTA, NBA 2K, 레드 데드 리뎀션 등을 만드는 대형 게임사다. 게임 판매와 게임 안의 추가 결제로 돈을 번다.",
+        "lead": "실적 발표 다음 날인 11월 10일 주가가 약 8% 올랐다(전일 종가 207.4달러에서 224.64달러). 회사가 연간 순예약액(게임 판매·결제 예약 금액) 전망 80~82억 달러를 그대로 유지했고, CEO가 GTA VI 수요가 기대를 크게 넘는다고 말한 것이 배경이다. 다만 이번 분기 매출은 1년 전보다 줄고 적자가 커서, 출시 뒤 판매가 기대를 못 채우면 이야기가 깨진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "시장이 우려하던 하향이 없었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/take-two-interactive-software-inc-reports-fiscal-second-quarter-2027-results-and",
+                "date": "2026-11-10",
+                "quote": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "2분기 실적 발표 뒤 연간 순예약액 전망 80~82억 달러를 그대로 유지했다. 시장이 우려하던 하향이 없었다."
+          },
+          {
+            "id": "w2",
+            "statement": "CEO 젤닉이 GTA VI 수요가 기대를 크게 웃돈다고 밝혔다. 출시 기대감이 다시 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two CEO Strauss Zelnick: GTA VI demand vastly exceeding expectations",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/11/10/take-two-ceo-strauss-zelnick-on-gta-vi-an-extraordinary-experience-unlike-anything-weve-seen-before.html",
+                "date": "2026-11-10",
+                "quote": "Take-Two CEO Strauss Zelnick: GTA VI demand vastly exceeding expectations",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "2분기 주당 이익이 시장 예상을 웃돌았고 적자 폭도 줄었다. 다만 매출은 1년 전보다 감소했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two Interactive (TTWO) Surpasses Q2 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/take-two-interactive-ttwo-surpasses-q2-earnings-estimates",
+                "date": "2026-11-09",
+                "quote": "Take-Two Interactive (TTWO) Surpasses Q2 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Take-Two Q2 Loss Narrows",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/take-two-q2-loss-narrows",
+                "date": "2026-11-09",
+                "quote": "Take-Two Q2 Loss Narrows",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "증권사들은 GTA VI 사전 판매가 전례 없이 많았는데도 회사 전망이 보수적이라고 봤다. 실제 성과가 전망을 넘을 여지가 있다는 시각이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "높아지는 시장 눈높이와 본격적인 출시 모멘텀 도래",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqgxzkliqkiqlgcgxeeee.pdf",
+                "date": "2026-08-21",
+                "quote": "GTA VI의 전례 없는 사전 판매량에도 FY2027E 가이던스는 보수적으로 유지",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "이번 분기 매출은 14.97억 달러로 1년 전보다 15.6% 줄었고 영업손실은 1.175억 달러였다. 주가는 신작 기대에 앞서 움직인 상태다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TTWO 분기 실적 (SEC 10-Q 기준)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000946581&type=10-Q",
+                "date": "2026-09-30",
+                "quote": "\"periodEnd\": \"2026-09-30\", \"revenue\": 1497000000, \"profit\": -117500000, \"yoy\": {\"revenue\": -15.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "현재 이익 기준 주가수익비율이 약 130배로 높다. 출시 뒤 판매가 기대에 못 미치면 부담이 커진다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 시세 (PER)",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-11-11",
+                "quote": "\"per\": 129.71, \"eps\": 1.73",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "none",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/take-two-interactive-software-inc-reports-fiscal-second-quarter-2027-results-and",
+                  "date": "2026-11-10",
+                  "quote": "Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 연간 순예약액 전망 80~82억 달러를 바꾸지 않았다.",
+              "stripped": true
+            }
+          ]
+        },
+        "themeTags": [
+          "게임",
+          "GTA VI 출시"
+        ],
+        "upcomingCatalyst": {
+          "date": "2026-11-19",
+          "what": "GTA VI 출시 예정일",
+          "sources": [
+            {
+              "title": "2026.11.19<GTA6> 출시",
+              "publisher": "신한투자증권",
+              "url": "https://rreport.einfomax.co.kr/report/eqxkemmxmxxzemmgcgxeeee.pdf",
+              "date": "2025-11-27",
+              "quote": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 2026.11.19<GTA6> 출시",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "테이크 투 인터랙티브 소프트웨어",
       "nameEn": "TAKE TWO INTERACTIVE SOFTWARE INC",
@@ -36077,7 +38165,372 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "TTWO",
+        "company": "Take-Two는 Rockstar Games(GTA·레드 데드), 2K(NBA 2K), Zynga를 거느린 게임 회사다. 콘솔·PC 게임 판매와 인게임 결제가 주 수입원이다. 최근 시장의 관심은 2026년 11월 19일 출시 예정인 GTA VI에 쏠려 있다.",
+        "lead": "TTWO는 GTA VI 출시를 앞두고 실적 발표 뒤 11월 10일 하루에 상승 마감하며 피벗(넘으면 사는 선) 220.45달러를 넘은 종목이다. 가장 강한 근거는 회사가 연간 순예약액(Net Bookings) 80~82억 달러 전망을 유지했고, 증권사 다수가 GTA VI 수요를 높게 보는 점이다. 걱정은 시장 판정이 빨간불인 점이다. 이미 피벗을 넘었고 선행 상승이 5.7%에 그쳐 쿨라매기 기준과는 어긋나며, 출시 지연이나 판매 부진이 확인되면 이 이야기는 깨진다.",
+        "newsNarrative": "11월 9일 발표한 2026 회계연도 2분기(7~9월) 실적은 주당 손실이 시장 예상보다 작았고, 회사는 연간 순예약액 80~82억 달러 전망을 유지했다. 11월 10일 CEO가 CNBC에서 GTA VI 수요가 기대를 크게 넘는다고 말했고, 주가는 이날 5% 가까이 갭 상승했다. 다만 UBS는 목표가를 300달러에서 295달러로 낮췄고, BTIG·BofA도 앞서 목표가를 내렸다. 신규로 Macquarie가 아웃퍼폼 의견과 300달러 목표가로 커버리지를 시작했다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/take-two-interactive-software-inc-reports-fiscal-second-quarter-2027-results-and",
+                "date": "2026-11-10",
+                "quote": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "2분기 실적 발표에서 연간 순예약액 80~82억 달러 전망을 유지했다.",
+            "stripped": true
+          },
+          {
+            "id": "n2",
+            "statement": "2분기 주당 손실이 시장 예상보다 작았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two Interactive (TTWO) Surpasses Q2 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/take-two-interactive-ttwo-surpasses-q2-earnings-estimates",
+                "date": "2026-11-09",
+                "quote": "Take-Two Interactive (TTWO) Surpasses Q2 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "CEO가 CNBC에서 GTA VI 수요가 기대를 크게 웃돈다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Take-Two CEO Strauss Zelnick: GTA VI demand vastly exceeding expectations",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/11/10/take-two-ceo-strauss-zelnick-on-gta-vi-an-extraordinary-experience-unlike-anything-weve-seen-before.html",
+                "date": "2026-11-10",
+                "quote": "Take-Two CEO Strauss Zelnick: GTA VI demand vastly exceeding expectations",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "CNBC 기고는 출시가 가까워 35% 상승 여력을 본다고 했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The wait is almost over for this blockbuster video game. I see 35% upside",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/11/09/take-two-the-wait-is-almost-over.html",
+                "date": "2026-11-09",
+                "quote": "The wait is almost over for this blockbuster video game. I see 35% upside",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "신한투자증권은 개발 중단에 따른 손상차손으로 1분기 영업적자 전환을 짚었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "<GTA6> 기대감 지속",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqeqlcklclkzkgcgxeeee.pdf",
+                "date": "2026-08-20",
+                "quote": "미공개 외부 개발사 타이틀 개발 중단에 따른 개발비 손상차손 4,340만달 러가 반영되며 영업손실 3,550만달러로 적자전환.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "키움증권은 GTA VI 사전 판매가 전례 없는데도 연간 가이던스는 보수적이라고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "높아지는 시장 눈높이와 본격적인 출시 모멘텀 도래",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqgxzkliqkiqlgcgxeeee.pdf",
+                "date": "2026-08-21",
+                "quote": "GTA VI의 전례 없는 사전 판매량에도 FY2027E 가이던스는 보수적으로 유지",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "신작이 없는 공백기 동안 지난 4개 분기 중 영업이익이 흑자였던 것은 한 번뿐이다. 순손실은 5,400만 달러로 전년보다 줄었다. 회사는 GTA VI가 들어가는 올해 순예약액을 80~82억 달러로 보고 있어, 이익 회복은 출시 성과에 달려 있다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r2",
+              "statement": "6월 분기 매출은 15.34억 달러로 전년 대비 2% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "<GTA6> 기대감 지속",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlqeqlcklclkzkgcgxeeee.pdf",
+                  "date": "2026-08-20",
+                  "quote": "테이크투는 FY1Q27 매출액 15.3억달러(YoY +2%, QoQ -8.7%)",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Take-Two Interactive Software, Inc. Reports Fiscal Second Quarter 2027 Results and Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/take-two-interactive-software-inc-reports-fiscal-second-quarter-2027-results-and",
+                  "date": "2026-11-10",
+                  "quote": "Reiterates Full-Year Net Bookings Outlook of $8.0 to $8.2 billion",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 연간 순예약액 80~82억 달러 전망을 유지했다.",
+              "stripped": true
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "Take-Two: 3 Key Takeaways for Long-Term Investors",
+                    "publisher": "The Motley Fool",
+                    "url": "https://www.nasdaq.com/articles/take-two-3-key-takeaways-long-term-investors",
+                    "date": "2026-11-10",
+                    "quote": "Take-Two: 3 Key Takeaways for Long-Term Investors",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "UBS가 목표가를 300달러에서 295달러로 낮췄다.",
+                "stripped": true
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "이번 분기(12월 결산) EPS 전망은 2.03달러로 90일 전보다 11.5% 올랐고 상향 애널리스트가 2명, 하향은 0명이다. 올해(2027년 3월 결산) EPS 전망은 1.85달러로 30일간 0.4% 오르는 데 그쳤고 90일로는 9.5% 낮다. 최근 4분기 중 3분기는 예상보다 손실이 작았지만, 이는 매출 성장이 아니라 손실 폭 축소에서 나온 것이다. 목표가는 최근 3건이 낮아졌다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "9월 분기 순손실 5,400만 달러(전년보다 59.7% 개선), 영업이익 -1.18억 달러, 매출 -15.6% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 중 영업이익 흑자는 1개 분기뿐, 순이익은 4개 분기 모두 적자 (순이익 기준, 주식 수 변동 미반영). 3년 추세·ROE 확인 불가"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.8배(마르지 않음), 돌파일 거래량 20일 평균의 2.71배, 시총 42.00B"
+          },
+          {
+            "item": "L 업종 주도주",
+            "status": "미충족",
+            "evidence": "RS 상위 백분위 1개월 77, 3개월 37, 6개월 28 (80 미만)"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 10일선이 20일선 아래 16일째. 마진부채 1년 전보다 +31.4%(주의선 +30% 초과)"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "기존 게임 부진과 일회성 비용으로 수익성이 떨어졌고 영업현금흐름이 -1.69억 달러로 악화됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "<GTA6> 기대감 지속",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqeqlcklclkzkgcgxeeee.pdf",
+                "date": "2026-08-20",
+                "quote": "대형 타이틀 개발 및 라 이선스 관련 현금 지출이 지속되며 영업활동현금흐름도 -1.69억달러로 악 화",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "GTA VI 출시가 한 차례 연기된 전례가 있어 일정이 다시 바뀌면 주가가 크게 흔들린다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026.11.19 <GTA6> 출시",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqxkemmxmxxzemmgcgxeeee.pdf",
+                "date": "2025-11-27",
+                "quote": "실적발표 이후,  출시 지연으로 주가가 -8% 급락.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "statement": "올해 가이던스가 시장 기대를 밑돌아 실적 발표 직후 주가가 하락한 적이 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "보수적 가이던스 제시로 인한 반대급부 존재",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlexkmkxqckzkcgcgxeeee.pdf",
+                "date": "2026-06-17",
+                "quote": "FY2027E 가이던스가 컨센서스를 하회하며 실적 발표 이후 주가는 하락",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출과 이익이 GTA VI 한 작품의 성과에 크게 쏠려 있다.",
+          "대형 타이틀 개발비와 라이선스 지출이 커서 신작이 없는 분기에는 적자와 현금 유출이 반복된다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 5.7%(30% 미만), 1개월 +12.1%, 3개월 -7.0%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 7.8주(39봉)"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 1.38배로 오히려 넓어짐"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "가격 224.64가 20일선 204.25·50일선 207.06 위, 150일선 222.83도 상회"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.8배"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "충족",
+            "evidence": "돌파일 거래량 20일 평균의 2.71배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "11월 10일 피벗 220.45를 이미 넘었고 현재가는 1.9%(0.53 ADR) 위"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.34%, ADR 3.57% 이내"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.64 ADR(2 ADR 초과)"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "최근 약 7.8주(39봉)의 횡보 구간이다. 10월 30일 저점 183.86까지 내려갔다가 반등했다.",
+          "volume": "횡보 중 거래량이 마르지 않았고 최근 5일 거래량은 20일 평균의 1.8배다. 최근 10봉에서 11월 4일 445만 주, 11월 5일 588만 주, 11월 9일 605만 주로 늘었다. 11월 10일은 843만 주로 20일 평균의 2.71배이며 종가 위치는 고저 범위의 68%다.",
+          "position": "현재가 224.64는 피벗 220.45보다 1.9% 위, 예비 손절 213.09보다 위다. 11월 10일 갭 상승 5.23%로 피벗을 넘었고 10일선 위 2.64 ADR이다. 11월 9일 종가는 207.40으로 마감 위치가 10%였다.",
+          "maStack": "가격은 20일선(204.25)·50일선(207.06)·150일선(222.83) 위다. 150일선은 평평하고 20일선은 50일선 아래에서 막 올라서는 중이며, 20일선 기울기는 +0.03%다. 50일선은 아직 아래를 향한다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "11월 10일 돌파가 이어져 종가가 피벗 220.45 위에서 유지되는지, 아니면 다시 아래로 내려오는지",
+          "돌파 이후 거래량이 20일 평균 이상으로 계속 실리는지",
+          "종가가 예비 손절 213.09 위에서 유지되는지",
+          "시장 판정이 빨간불에서 바뀌는지(10일선이 20일선 위로 복귀)",
+          "11월 19일 GTA VI 출시 일정이 그대로인지"
+        ],
+        "earningsRisk": "다음 실적 발표는 2027년 2월 9일로 추정된다(야후 파이낸스 기준, 확정 아님). 직전 실적은 11월 9일에 나왔고, 그 사이 11월 19일 GTA VI 출시가 가장 큰 변수다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "r1: 'Take-Two Q2 Loss Narrows' 제목에만 있고 quote 텍스트 부재 — 14.97억 달러, 15.6% 감소 검증 불가",
+            "p1: quote에 6월 분기만 있고 '9월 분기 영업손실은 1.18억 달러' 수치 없음"
+          ],
+          "leadFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "leadOriginal": "TTWO는 GTA VI 출시를 앞두고 실적 발표 뒤 11월 10일 하루에 상승 마감하며 피벗(넘으면 사는 선) 220.45달러를 넘은 종목이다. 가장 강한 근거는 회사가 연간 순예약액(Net Bookings) 80~82억 달러 전망을 유지했고, 증권사 다수가 GTA VI 수요를 높게 보는 점이다. 걱정은 분기 매출이 전년보다 15.6% 줄고 영업적자가 이어지는 점, 그리고 시장 판정이 빨간불인 점이다. 이미 피벗을 넘었고 선행 상승이 5.7%에 그쳐 쿨라매기 기준과는 어긋나며, 출시 지연이나 판매 부진이 확인되면 이 이야기는 깨진다.",
+        "financialsNarrativeOriginal": "최근 분기(7~9월) 매출은 14.97억 달러로 1년 전보다 15.6% 줄었고 영업적자는 1.18억 달러다. 신작이 없는 공백기라 매출이 줄었고, 지난 4개 분기 중 영업이익이 흑자였던 것은 한 번뿐이다. 순손실은 5,400만 달러로 전년보다 줄었다. 회사는 GTA VI가 들어가는 올해 순예약액을 80~82억 달러로 보고 있어, 이익 회복은 출시 성과에 달려 있다.",
+        "consensus": {
+          "saleCy": 27.37,
+          "saleNy": 7.53,
+          "epsCy": -206,
+          "epsNy": 228.78,
+          "cyTrend": -6.8,
+          "nyTrend": 6.78
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "CHTR",
@@ -36200,8 +38653,87 @@ window.TEAM2_DATA = {
         "count": 8
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "CHTR",
+        "company": "미국 최대급 케이블 사업자로 인터넷·영상·모바일 서비스를 가입자에게 팔아 돈을 번다. 가입자 수 감소와 높은 부채가 늘 주가의 부담으로 꼽힌다.",
+        "lead": "11월 6일 3분기 실적과 새 운영 방식 발표 뒤 CHTR이 한 달 새 25% 올랐다. 새 운영 모델이 나왔고, 52주 저점(10월 26일 101달러)에서 반등하는 흐름이다. 다만 주가는 고점의 절반 수준이라, 가입자 감소가 멈추는지가 이야기의 성패를 가른다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "회사가 실적과 함께 새 운영 모델 도입을 발표했다. 구체 내용은 확인하지 못했지만 같은 날 주가 재평가의 계기가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/charter-communications-inc-announces-third-quarter-2026-results-and-launches-new-operating",
+                "date": "2026-11-06",
+                "quote": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "주가가 52주 저점(101.11달러, 10월 26일)에서 134달러까지 반등했다. 이익 대비 주가(PER)가 3.5배로 낮아 저평가 매수세가 붙은 모습이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 시세 (제공 자료)",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001091667&type=10-Q",
+                "date": "2026-11-11",
+                "quote": "low52 101.11 (2026-10-26), last 134.06, per 3.48",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "앞선 세 분기 매출은 1년 전보다 1~2% 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 실적표 (제공 자료)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001091667&type=10-Q",
+                "date": "2026-11-06",
+                "quote": "periodEnd 2026-06-30 revenue yoy -1.7; periodEnd 2026-03-31 revenue yoy -1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "앞선 세 분기 매출은 1년 전보다 1~2% 줄었다. 주가는 52주 고점(254달러) 대비 절반 수준이다."
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "케이블·통신",
+          "저평가 반등"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "c1"
+          ],
+          "reasons": [
+            "w1: 매출 149억 달러, 9.1% 성장률이 quote나 제목에 없음",
+            "c1: 영업손실 35억 달러, 순손실 24억 달러 구체 수치가 quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "11월 6일 3분기 실적과 새 운영 방식 발표 뒤 CHTR이 한 달 새 25% 올랐다. 시장 예상을 웃도는 실적 보도와 함께 새 운영 모델이 나왔고, 52주 저점(10월 26일 101달러)에서 반등하는 흐름이다. 다만 이번 분기는 영업손실이 났고 주가는 고점의 절반 수준이라, 가입자 감소가 멈추는지가 이야기의 성패를 가른다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "차터 커뮤니케이션스",
       "nameEn": "CHARTER COMMUNICATIONS INC",
@@ -36941,7 +39473,280 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "CHTR",
+        "company": "차터 커뮤니케이션스는 미국 케이블 사업자로 가정·기업에 인터넷, 영상, 유선·모바일 통신 서비스를 팔아 돈을 번다. 최고경영자는 CNBC 인터뷰에서 스스로를 미국 최대 인터넷·영상 사업자라고 말했다. 최근 분기 매출은 149억 달러로 1년 전보다 9.1% 늘었다.",
+        "lead": "CHTR 은 최근 1개월 25% 반등해 업종 단기 순위가 높아 목록에 올랐지만, 실적이 크게 나빠진 상태라 근거가 약하다. 가장 큰 걱정은 3분기 영업적자 35억 달러와 증권사 올해 EPS 전망 하향이다. 가격은 예비 손절선 바로 위(134.06달러)라 폭이 좁고, 시장 판정도 빨간불이다. 피벗 141달러를 넘더라도 거래량과 전망치 반등이 없으면 이 그림은 맞지 않는다.",
+        "newsNarrative": "11월 6일 차터는 3분기 실적과 함께 새 운영 모델을 내놓았다. 분기 손실이 났지만 매출과 일부 지표는 예상을 웃돌았다는 보도가 같은 날 나왔다. 실적 당일 주가는 시가 기준 8% 낮게 출발했다가 장중 낙폭을 줄였다. 이후 두 거래일 동안 134.92달러까지 오르며 베이스 상단에 다가섰다. 증권사는 목표가를 올리거나 내리며 엇갈렸다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "11월 6일 3분기 실적 발표와 함께 새 운영 모델을 공개했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/charter-communications-inc-announces-third-quarter-2026-results-and-launches-new-operating",
+                "date": "2026-11-06",
+                "quote": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "3분기는 손실로 마감했다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charter Communications Posts Loss In Q3; Announces New Operating Model",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/charter-communications-posts-loss-q3-announces-new-operating-model",
+                "date": "2026-11-06",
+                "quote": "Charter Communications Posts Loss In Q3; Announces New Operating Model",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "같은 날 Zacks 는 매출과 이익이 예상치를 웃돌았다고 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charter Communications (CHTR) Tops Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/charter-communications-chtr-tops-q3-earnings-and-revenue-estimates",
+                "date": "2026-11-06",
+                "quote": "Charter Communications (CHTR) Tops Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "8월 24일 Main Street Sports 가 차터·컴캐스트를 방송권료 과소 지급으로 고소했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html",
+                "date": "2026-08-24",
+                "quote": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "최근 분기(2026년 9월) 매출은 149억 달러로 1년 전보다 9.1% 늘어 증가로 돌아섰다. 반면 영업손익은 35억 달러 적자, 순손익은 24억 달러 적자로 돌아서 1년 전보다 크게 악화됐다. 올해 EPS 전망은 한 달 전보다 22.6% 낮아졌다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "lowered",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "올해 EPS 전망 평균이 90일 전 41.92달러에서 32.05달러로 내려갔고, 최근 30일 하향 애널리스트 2명, 상향 0명.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Yahoo Finance CHTR Analysis",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/CHTR/analysis/",
+                    "date": "2026-11-11",
+                    "quote": "0y now 32.05 ago90 41.92 d30 -22.6 up30 0 down30 2",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "애널리스트 전망은 실적 이후 뚜렷이 내려갔다. 올해 EPS 평균은 32.05달러로 한 달 전보다 22.6%, 내년은 44.35달러로 5.6% 낮아졌다. 최근 분기 EPS 는 -20.5달러로 예상 8.5달러를 크게 밑돌았고, 최근 4분기 중 2번만 예상을 넘었다. 매출은 올해 6.8%, 내년 10.8% 증가가 예상돼 매출 성장 자체는 유지되지만 이익 전망이 따라오지 못한다. 목표가는 최근 6건 중 4건이 내려갔다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "분기 순이익 -24.0억 달러, 전년비 -310.8%, 매출은 +9.1% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 순이익 전년비 -9.1%·-4.4%·-0.7%·-310.8%, 3년 추세·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 성장 동력",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.49배(마름 아님), 거래대금 20일 평균 대비 1.73배, 시총 153.4억 달러, 유통주식 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 빨간불(10일선이 20일선 아래 16일째), 마진부채 1년 전보다 +31.4% 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "3분기 순손실로 올해·내년 이익 전망이 하향되고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Charter Communications Posts Loss In Q3; Announces New Operating Model",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/charter-communications-posts-loss-q3-announces-new-operating-model",
+                "date": "2026-11-06",
+                "quote": "Charter Communications Posts Loss In Q3; Announces New Operating Model",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "방송 프로그램 공급사와의 방송권료 소송이 걸려 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html",
+                "date": "2026-08-24",
+                "quote": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "주 사업이 케이블 가입자 기반이라 가입자 변화에 이익이 민감하다."
+        ],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 26.4%, 기준 30% 미만(약함). 1개월 +25.35%, 3개월 -6.97%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 7.8주(39봉)"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 1.61배(좁아지지 않음)"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "가격 134.06, 20일선 112.66, 50일선 119.92 위"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 1.49"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 전. 마지막 봉 거래량 20일 평균의 1.48배, 돌파 시 2배 확인 필요"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 141 아래 4.92%, 0.96 ADR"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.86% ≤ ADR 5.11%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.42 ADR, 기준 2 ADR 초과"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "시장 빨간불, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "저점이 높아진 횟수는 0회이고 진폭은 1.61배로 오히려 넓었다.",
+          "volume": "최근 5일 거래량이 20일 평균의 1.49배로 횡보 중 거래량이 마르지 않았다. 11월 6일 646만 주를 정점으로 11월 5일 449만 주, 11월 10일 437만 주로 늘어난 날이 이어졌다. 마지막 봉 거래량은 20일 평균의 1.48배다.",
+          "position": "현재가 134.06달러는 피벗 141달러 아래 4.92%(0.96 ADR)이고 예비 손절 134.15달러 바로 아래다. 10일선 위 2.42 ADR 로 단기 이격이 크다.",
+          "maStack": "가격은 20일선(112.66)·50일선(119.92) 위이나 150일선(142.50) 아래다. 20일선은 오르는 중(기울기 +4.16%)이고 50일선은 아직 아래로 향하며 150일선은 뚜렷이 내려가는 중이다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "피벗 141달러를 거래량이 20일 평균의 2배 이상 실리며 종가로 넘는지",
+          "시장 판정이 빨간불에서 노랑·초록으로 바뀌는지(10일선이 20일선 위로 올라오는지)",
+          "11월 10일 장대양봉 이후 저점(117.67달러)을 지키며 횡보하는지, 아니면 예비 손절 134.15달러 아래로 밀리는지",
+          "증권사 올해 EPS 전망의 하향이 멈추고 상향 애널리스트가 나오는지"
+        ],
+        "earningsRisk": "다음 실적 발표는 2027-01-29 로 추정(야후 기준, 확정 아님)이다. 3분기 발표 후 이익 전망이 내려간 상태라 발표 때 추가 변동 위험이 있다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "r1: quote에 '직전 두 분기는 각각 1.7%, 1.0% 감소' 수치 없음",
+            "p1: quote에 '6월 분기는 영업이익 30.6억 달러 흑자였다' 수치 없음"
+          ],
+          "financialsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "financialsNarrativeOriginal": "최근 분기(2026년 9월) 매출은 149억 달러로 1년 전보다 9.1% 늘어 직전 두 분기의 소폭 감소에서 돌아섰다. 반면 영업손익은 35억 달러 적자, 순손익은 24억 달러 적자로 돌아서 1년 전보다 크게 악화됐다. 직전 세 분기 영업이익률은 22~24% 수준이었다. 올해 EPS 전망은 한 달 전보다 22.6% 낮아졌다.",
+        "consensus": {
+          "saleCy": 6.75,
+          "saleNy": 10.76,
+          "epsCy": -11.49,
+          "epsNy": 38.38,
+          "cyTrend": -22.55,
+          "nyTrend": -5.64
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "AAON",
@@ -37064,8 +39869,90 @@ window.TEAM2_DATA = {
         "count": 12
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "AAON",
+        "company": "상업용 건물의 냉난방·공조 설비(옥상형 에어컨 등)를 만드는 회사. 최근 데이터센터 냉각 수요로 매출이 급증하고 있다.",
+        "lead": "AAON은 11월 10일 3분기 실적과 연간 전망 상향을 발표한 뒤 주가가 크게 올랐다. 다만 1·2분기 재무제표를 정정한 만큼, 정정 내용과 이후 분기 이익이 유지되는지가 확인돼야 이야기가 이어진다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "회사가 연간 전망을 올렸고, 증권사 예상치(컨센서스)도 웃돈 실적이어서 주가가 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Aaon (AAON) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/aaon-aaon-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-11-09",
+                "quote": "Aaon (AAON) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "회계 정정 공시(항목 4.02)가 함께 나와 이전 실적의 신뢰도가 논란이 될 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "8-K 2026-11-09 (실적 발표·4.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/aaon-20261109.htm",
+                "date": "2026-11-09",
+                "quote": "AAON, Inc. Restates First and Second Quarter 2026 Financials",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "1·2분기 재무제표를 정정했다. 회계 정정 공시(항목 4.02)가 함께 나와 이전 실적의 신뢰도가 논란이 될 수 있다."
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "회사가 연간 전망을 상향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON, Inc. Restates First and Second Quarter 2026 Financials, Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/aaon-inc-restates-first-and-second-quarter-2026-financials-reports-record-third-quarter",
+                  "date": "2026-11-10",
+                  "quote": "Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "데이터센터 냉각",
+          "건축 설비"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w3",
+            "c2"
+          ],
+          "reasons": [
+            "w1: 매출 7.07억 달러, 84.1% 증가, 영업이익 1.0억 달러, 129.3% 증가 등 구체 수치가 quote에 없음",
+            "w3: 전일 62.87달러에서 75.01달러로 변한 구체 주가가 quote에 없음",
+            "c2: 이미 evidence_level 'no_source'로 표시됨 — 근거 없는 주장"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "AAON은 11월 10일 3분기 최대 실적과 연간 전망 상향이 나오며 하루 만에 약 19% 올랐다. 분기 매출이 1년 전보다 84% 늘고 영업이익은 129% 늘었다. 다만 1·2분기 재무제표를 정정한 만큼, 정정 내용과 이후 분기 이익이 유지되는지가 확인돼야 이야기가 이어진다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "에이에이온",
       "nameEn": "AAON INC",
@@ -37733,7 +40620,287 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "AAON",
+        "company": "AAON 은 상업용 건물의 옥상 냉난방 장비와 맞춤형 공조 설비를 만드는 회사다. 최근 분기 매출이 1년 전보다 84% 늘며 성장이 빠르다. 다만 1분기·2분기 재무제표를 정정한다고 공시했다.",
+        "lead": "AAON 은 11월 10일 실적 발표 뒤 하루 14% 갭 상승했지만, 주가는 아직 피벗(넘으면 사는 선)보다 18% 아래다. 가장 강한 근거는 3분기 매출 1년 전보다 84% 증가와 연간 전망 상향이다. 가장 큰 걱정은 1·2분기 재무제표 정정 공시와 6개월 -44% 하락한 추세다. 50일선(두 달 평균) 회복과 피벗 돌파가 거래량과 함께 나오지 않으면 이 그림은 성립하지 않는다.",
+        "newsNarrative": "AAON 은 11월 9~10일 3분기 실적을 내며 매출·이익이 예상을 웃돌았다고 밝혔다. 같은 발표에서 1·2분기 재무제표를 정정하고 연간 전망을 올렸다. 시장은 이를 호재로 받아 11월 10일 주가가 크게 뛰었다. 반면 Oppenheimer 와 Baird 는 같은 날 목표가를 낮췄다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "AAON, Inc. Restates First and Second Quarter 2026 Financials, Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/aaon-inc-restates-first-and-second-quarter-2026-financials-reports-record-third-quarter",
+                "date": "2026-11-10",
+                "quote": "AAON, Inc. Restates First and Second Quarter 2026 Financials, Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "AAON 이 1·2분기 재무제표를 정정하고 3분기 최대 실적과 연간 전망 상향을 발표했다.",
+            "stripped": true
+          },
+          {
+            "id": "n2",
+            "statement": "실적 발표 다음 날 주가가 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why AAON Stock Popped Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-aaon-stock-popped-today",
+                "date": "2026-11-10",
+                "quote": "Why AAON Stock Popped Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "3분기 이익과 매출이 예상치를 넘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Aaon (AAON) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/aaon-aaon-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-11-09",
+                "quote": "Aaon (AAON) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "다만 1·2분기 수치를 정정했으므로 이전 분기 비교는 재확인이 필요하다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사가 연간 전망을 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AAON Restates ... Raises Full-Year Outlook",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/aaon-inc-restates-first-and-second-quarter-2026-financials-reports-record-third-quarter",
+                  "date": "2026-11-10",
+                  "quote": "Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "Oppenheimer·Baird 가 11월 10일 목표가를 각각 105달러·104달러로 내렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Yahoo Finance 애널리스트 분석",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/AAON/analysis/",
+                    "date": "2026-11-10",
+                    "quote": "Oppenheimer Lowers 115 -> 105; Baird Lowers 110 -> 104",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "올해 EPS 전망은 30일 전보다 7% 오른 2.55달러, 내년은 4.6% 오른 3.73달러다. 최근 4분기 중 3분기가 예상을 넘었고 가장 최근 분기는 43.5% 상회했다. 다만 목표가는 3건 모두 낮아져 이익 전망과 목표가 방향이 엇갈린다. 서프라이즈의 이유는 매출 급증이지만 정정 공시가 있어 지속성은 확인이 필요하다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "분기 순이익 전년비 +124%, 매출 +84.1% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "최근 4분기 순이익 전년비 +29.7%·+24.5%·+333%·+124% 모두 플러스, 3년·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.9배, 유통주식 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "RS 상위 백분위 1개월 17·3개월 22·6개월 2"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 마진부채 1년 전보다 +31.4%"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "AAON Restates First and Second Quarter 2026 Financials",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/aaon-inc-restates-first-and-second-quarter-2026-financials-reports-record-third-quarter",
+                "date": "2026-11-10",
+                "quote": "AAON, Inc. Restates First and Second Quarter 2026 Financials",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "1·2분기 재무제표를 정정했다(회계 관련 공시 4.02).",
+            "stripped": true
+          },
+          {
+            "id": "k2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Yahoo Finance 애널리스트 분석",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/AAON/analysis/",
+                "date": "2026-11-10",
+                "quote": "Oppenheimer Lowers 115 -> 105; Baird Lowers 110 -> 104",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "실적 직후 증권사 2곳이 목표가를 내렸다.",
+            "stripped": true
+          }
+        ],
+        "structuralRisks": [],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 24.5%(약함), 1개월 -12.97%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 7주(35봉)"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 1.46배(좁아지지 않음)"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "미충족",
+            "evidence": "가격 75.01 은 20일선 70.21 위, 50일선 76.72 아래(-2.22%)"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 1.9배"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 돌파 전. 당일 거래량은 20일 평균의 3.17배, 돌파 거래량 아님"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 91.52 까지 -18.04%(-2.35 ADR)"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 6.29% ≤ ADR 7.67%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.51 ADR"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보 구간은 7주(35봉)다. 저점 상승은 0회이고 진폭은 1.46배로 오히려 넓어졌다.",
+          "volume": "최근 5일 거래량이 20일 평균의 1.9배로 마르지 않았다. 11월 4일 397.6만 주, 11월 10일 502.3만 주로 하락일과 갭 상승일에 크게 늘었다. 11월 10일 거래량은 20일 평균의 3.17배다.",
+          "position": "현재가 75.01 은 피벗 91.52 보다 18.04% 아래, 예비 손절 85.77 보다도 아래다. 11월 10일 갭 +13.95% 로 시작해 종가 위치는 58 이다. 10일선 위 1.51 ADR 이다.",
+          "maStack": "가격은 20일선 70.21 위, 50일선 76.72 아래, 150일선 98.52 아래다. 20일선 기울기는 -8.02% 로 내려가고 있다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "가격이 50일선 76.72 를 종가로 회복하는지",
+          "피벗 91.52 를 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "11월 10일 갭 상승 후 저점 67.72 를 이후 며칠간 지키는지",
+          "1·2분기 정정 공시가 이후 분기 실적 신뢰에 영향을 주지 않는지",
+          "시장 판정이 빨간불에서 벗어나는지"
+        ],
+        "earningsRisk": "3분기 실적은 11월 9일에 발표됐다. 다음 실적 일정은 확정되지 않았다(달력 기준).",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "r1: 제목에만 '최대 실적' 표현, 구체적 수치 7.07억 달러·84.1% 증가는 quote 없음",
+            "p1: Zacks 기사 제목만 있고 1.0억 달러, 129% 증가, 14.1% 영업이익률 수치 미포함",
+            "financialsNarrative의 첫 두 문장이 모두 제거된 r1, p1에서만 출처를 가짐"
+          ],
+          "financialsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "financialsNarrativeOriginal": "분기 매출이 4개 분기 연속 빠르게 늘고 있다. 2026년 9월 분기 매출은 7.07억 달러로 1년 전보다 84% 증가했다. 영업이익은 1.0억 달러로 129% 늘었고 영업이익률은 14.1%로 올랐다. 다만 1·2분기 수치를 정정했으므로 이전 분기 비교는 재확인이 필요하다.",
+        "consensus": {
+          "saleCy": 74.77,
+          "saleNy": 13,
+          "epsCy": 89.01,
+          "epsNy": 46.24,
+          "cyTrend": 6.99,
+          "nyTrend": 4.58
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "EMBJ",
@@ -37856,8 +41023,99 @@ window.TEAM2_DATA = {
         "count": 32
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "EMBJ",
+        "company": "브라질 항공기 제조사 엠브라에르로, 100석 안팎의 지역 제트기와 비즈니스 제트기, 방산 장비를 만들어 판다. 미국 시장에는 ADS(예탁증서)로 상장돼 있다.",
+        "lead": "EMBJ는 3분기 실적 발표(11월 10일) 직후 52주 신고가를 찍었고, 증권사 등급 상향과 가치주 추천 기사가 이어진 흐름이 뒷받침이다. 실적이 기대에 못 미치거나 수주 전망이 꺾이면 이 이야기는 약해진다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "실적 발표 당일 Zacks가 주요 지표를 예상치와 비교하는 기사를 냈다. 구체적 수치는 확인하지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/embraer-embj-q3-earnings-taking-look-key-metrics-versus-estimates",
+                "date": "2026-11-10",
+                "quote": "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "10월 초 Zacks가 EMBJ의 종합 등급을 Strong Buy(최상위)로 올렸고, 이후 가치주 추천 기사가 여러 건 나와 매수세를 받쳤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "All You Need to Know About Embraer (EMBJ) Rating Upgrade to Strong Buy",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/all-you-need-know-about-embraer-embj-rating-upgrade-strong-buy",
+                "date": "2026-10-02",
+                "quote": "All You Need to Know About Embraer (EMBJ) Rating Upgrade to Strong Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "주가수익비율이 33배, 장부가 대비 4.3배로 이미 높은 편이라 기대가 꺾이면 하락 폭이 커질 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-11-11",
+                "quote": "\"per\": 33.37, \"pbr\": 4.27",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "브라질 대선에서 룰라가 당선되며 브라질 주식이 크게 흔들렸다. 본사가 브라질에 있어 정치·환율 변수가 남아 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Brazilian stocks rocked as Lula wins presidential election",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+                "date": "2026-10-26",
+                "quote": "Brazilian stocks rocked as Lula wins presidential election",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "항공우주·방산"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1: 전일 77.07달러, 현재 82.5달러 등 구체 주가가 quote나 제목에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "EMBJ는 3분기 실적 발표(11월 10일) 직후 52주 신고가(83.46달러)를 찍었고, 주가는 전일 77.07달러에서 82.5달러로 올랐다. 구체적인 실적 수치는 확인하지 못했고, 증권사 등급 상향과 가치주 추천 기사가 이어진 흐름이 뒷받침이다. 실적이 기대에 못 미치거나 수주 전망이 꺾이면 이 이야기는 약해진다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "EMBRAER SA SPON ADS EACH REP 4 ORD SHS",
       "nameEn": "EMBRAER SA SPON ADS EACH REP 4 ORD SHS",
@@ -38339,7 +41597,267 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "EMBJ",
+        "company": "엠브라에르는 브라질 항공기 제조사로 상업용 제트기와 방산 장비를 만들어 판매합니다. 주 고객은 항공사·정부·군이며 ADS(미국 예탁증권)로 뉴욕거래소에 상장돼 있습니다. 올해 매출은 전년보다 13.8% 늘 것으로 전망됩니다.",
+        "lead": "EMBJ는 11월 10일 3분기 실적 발표 당일 갭 상승으로 피벗 78.9를 넘어 82.5에 마감해 도윤 목록에 올랐습니다. 가장 강한 근거는 올해 EPS 전망이 90일간 13.9% 오른 점과 돌파일 거래량이 20일 평균의 2.14배라는 점입니다. 걱정은 시장 판정이 빨간불이고, 피벗을 이미 4.56% 넘었으며, 횡보 중 저점이 높아지지 않았다는 점입니다. 82.5가 피벗 78.9 아래로 되돌아가거나 거래량이 다시 마르면 이 그림은 약해집니다.",
+        "newsNarrative": "11월 10일 3분기 실적이 나왔고 같은 날 주가가 3.8% 갭 상승해 52주 고점을 새로 썼습니다. 그 뒤 JP모건이 8월에 목표가를 80달러에서 104달러로 올렸습니다. 10월에는 브라질 대선에서 룰라가 당선돼 브라질 주식이 흔들렸다는 보도가 있었습니다. 다만 EMBJ는 그 뒤 반등해 실적 발표로 고점을 넘었습니다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "엠브라에르가 11월 10일 3분기 실적을 발표했고 실적 설명회 녹취록이 공개됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Embraer (EMBJ) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/embraer-embj-q3-2026-earnings-call-transcript",
+                "date": "2026-11-10",
+                "quote": "Embraer (EMBJ) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "3분기 주요 지표를 시장 예상과 비교한 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/embraer-embj-q3-earnings-taking-look-key-metrics-versus-estimates",
+                "date": "2026-11-10",
+                "quote": "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "브라질 대선에서 룰라가 당선되며 브라질 주식이 크게 흔들렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Brazilian stocks rocked as Lula wins presidential election",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+                "date": "2026-10-26",
+                "quote": "Brazilian stocks rocked as Lula wins presidential election",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "Zacks가 10월 초 EMBJ의 투자 등급을 Strong Buy로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "All You Need to Know About Embraer (EMBJ) Rating Upgrade to Strong Buy",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/all-you-need-know-about-embraer-embj-rating-upgrade-strong-buy",
+                "date": "2026-10-02",
+                "quote": "All You Need to Know About Embraer (EMBJ) Rating Upgrade to Strong Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "SEC 분기 실적표는 받지 못해 분기 매출·이익은 확인되지 않습니다. 올해 매출은 전년보다 13.8% 늘 것으로 전망됩니다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "올해 EPS 전망은 90일 전 2.83달러에서 3.23달러로 13.9% 올랐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Yahoo Finance 애널리스트 전망치",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/EMBJ/analysis/",
+                    "date": "2026-11-11",
+                    "quote": "0y 2026-12-31 now 3.23 d90 13.9 ago90 2.83",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "올해 EPS 전망은 90일간 13.9% 올라 3.23달러가 됐고 상향 애널리스트가 1명, 하향은 0명입니다. 다만 다음 분기(12월)는 90일간 5% 내렸고 최근 30일 하향이 2명이라 방향이 엇갈립니다. 직전 분기 서프라이즈 73.2%는 컸지만 3월 분기는 -35.8%였고, 4분기 중 예상을 넘긴 것은 2번입니다. 3분기 실적(11월 10일)이 전망치에 반영되기 전이라 이후 수정을 봐야 합니다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "확인 불가",
+            "evidence": "분기 실적표 자료 없음 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "확인 불가",
+            "evidence": "연간 3년·ROE 자료 없음 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.33배, 돌파일 2.14배. 유통주식 수는 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 백분위 1개월 84, 3개월 73, 6개월 93"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 마진부채 1년 전보다 +31.4%"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "브라질 대선 결과로 브라질 주식 전반이 흔들려 EMBJ도 정치·환율 영향을 받을 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Brazilian stocks rocked as Lula wins presidential election",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+                "date": "2026-10-26",
+                "quote": "Brazilian stocks rocked as Lula wins presidential election",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "브라질 기업이라 브라질 정치·환율 변화의 영향을 받는다.",
+          "항공기 제조 특성상 인도 시점에 따라 분기 이익이 크게 들쭉날쭉하다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 32.3%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 0.95배"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "깊이 16%, ADR 3.5%의 약 4.6배. 선행 상승 32.3%의 절반 이하"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "가격 82.5가 20일선 73.85·50일선 74.2 위"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 1.33배"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "충족",
+            "evidence": "돌파봉 거래량 20일 평균의 2.14배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 78.9를 이미 넘음, 위로 4.56%(1.3 ADR)"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.3%, ADR 3.5%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.3 ADR (2 ADR 초과)"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보는 8주째이고 깊이는 16%입니다. 저점 상승은 0회로 저점이 높아지는 모양이 아니며 진폭은 0.95배로 거의 줄지 않았습니다.",
+          "volume": "횡보 중 거래량이 줄지 않았습니다. 최근 5일 거래량은 20일 평균의 1.33배입니다. 11월 10일 거래량은 354만 주로 20일 평균의 2.14배였고 종가 위치는 73이었습니다.",
+          "position": "현재가 82.5는 피벗 78.9를 4.56% 넘었고 예비 손절 76.3보다 위입니다. 10일선 위 2.3 ADR로 이격이 큽니다. 11월 10일 고가는 83.46, 종가는 거기서 1.15% 아래입니다.",
+          "maStack": "가격이 20일선 73.85, 50일선 74.2, 150일선 68.01 위에 있습니다. 그림에서 10·20일선이 50일선 부근에서 위로 올라오는 모양입니다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "다음 거래일에 종가가 피벗 78.9 위에서 유지되는지, 아니면 아래로 되돌아가는지",
+          "돌파일 이후 거래량이 20일 평균 아래로 다시 마르는지",
+          "시장 판정이 빨간불에서 노란불·초록불로 바뀌는지(10일선이 20일선 위로 올라오는지)",
+          "3분기 실적 이후 애널리스트 EPS 전망이 올라가는지 내려가는지"
+        ],
+        "earningsRisk": "3분기 실적은 11월 10일에 이미 발표돼 당분간 확정된 실적 발표 일정은 없습니다(달력 기준). 다음 분기 EPS 전망은 최근 30일 하향 2명이라 발표 후 수정 방향을 봐야 합니다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "r1: quote에 '내년은 11.2% 증가가 예상된다' 수치 없음",
+            "p1: quote에 '3월 분기는 35.8% 밑돌았다' 수치 없음 — 제시된 quote는 6월 분기만 포함"
+          ],
+          "newsNarrativeFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "newsNarrativeOriginal": "11월 10일 3분기 실적이 나왔고 같은 날 주가가 3.8% 갭 상승해 52주 고점을 새로 썼습니다. 직전 분기(6월 말) EPS는 시장 예상보다 73.2% 높았고, 그 뒤 JP모건이 8월에 목표가를 80달러에서 104달러로 올렸습니다. 10월에는 브라질 대선에서 룰라가 당선돼 브라질 주식이 흔들렸다는 보도가 있었습니다. 다만 EMBJ는 그 뒤 반등해 실적 발표로 고점을 넘었습니다.",
+        "financialsNarrativeOriginal": "SEC 분기 실적표는 받지 못해 분기 매출·이익은 확인되지 않습니다. 대신 직전 분기(6월 말) EPS는 1.22달러로 예상 0.71달러를 73.2% 웃돌았습니다. 반면 3월 분기는 예상보다 35.8% 낮았습니다. 서프라이즈의 방향이 분기마다 엇갈려 이익 흐름이 일정하지 않습니다. 올해 매출은 전년보다 13.8% 늘 것으로 전망됩니다.",
+        "consensus": {
+          "saleCy": 13.77,
+          "saleNy": 11.17,
+          "epsCy": 133.72,
+          "epsNy": 23.5,
+          "cyTrend": 0.26,
+          "nyTrend": 0.3
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "AXSM",
@@ -38462,8 +41980,100 @@ window.TEAM2_DATA = {
         "count": 38
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "AXSM",
+        "company": "우울증·편두통 등 중추신경계 질환 치료제를 파는 바이오 회사. 최근 분기 매출이 1년 전보다 50% 넘게 늘며 적자가 거의 사라졌다.",
+        "lead": "AXSM은 3분기 매출이 시장 예상을 넘고 적자가 크게 줄면서, 6월 고점(260달러)에서 절반 가까이 빠진 뒤 저점(123달러, 11/2) 부근에서 반등하는 중이다. 근거는 분기 매출 2.6억 달러(전년 대비 52% 증가)와 영업적자 1,100만 달러로의 축소다. 다음 분기에도 매출 증가세가 이어져 흑자 전환이 확인되지 않으면 이 이야기는 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Axsome Therapeutics (AXSM) Reports Q3 Loss, Tops Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/axsome-therapeutics-axsm-reports-q3-loss-tops-revenue-estimates",
+                "date": "2026-11-02",
+                "quote": "Axsome Therapeutics (AXSM) Reports Q3 Loss, Tops Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "3분기 매출이 2.6억 달러로 1년 전보다 52% 늘었고, 시장 예상치도 넘었다.",
+            "stripped": true
+          },
+          {
+            "id": "w2",
+            "statement": "영업적자가 직전 분기 4,965만 달러에서 1,107만 달러로 줄어, 흑자 전환이 가까워 보인다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 8-K 실적 발표 (2026-11-02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526442628/axsm-20261102.htm",
+                "date": "2026-11-02",
+                "quote": "periodEnd 2026-09-30 revenue 259691000 profit -11068000 (직전 분기 2026-06-30 profit -49646000)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "주요 제품 판매가 고르게 늘었고 2027년에 줄줄이 잡힌 파이프라인(개발 중 신약) 일정이 기대를 받친다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Axsome Therapeutics Q3 Sales Rise Across Key Brands; Pipeline Milestones Set For 2027",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/axsome-therapeutics-q3-sales-rise-across-key-brands-pipeline-milestones-set-2027",
+                "date": "2026-11-02",
+                "quote": "Axsome Therapeutics Q3 Sales Rise Across Key Brands; Pipeline Milestones Set For 2027",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "분기 영업이익은 아직 적자이고, 상반기엔 적자가 1분기 6,336만 달러로 컸다. 한 분기 개선이 이어진다는 보장은 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 실적표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1579428/000119312526442628/axsm-20261102.htm",
+                "date": "2026-11-02",
+                "quote": "periodEnd 2026-03-31 profit -63357000; periodEnd 2026-09-30 profit -11068000",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "바이오·신약",
+          "중추신경계 치료제"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reasons": [
+            "c1의 '3개월 -35%로 하락 추세' 문구가 한투 시세 quote에 없음. 52주 고점/저점은 quote에 있으므로 lead 자체는 유지 가능"
+          ]
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "액섬 테라퓨틱스",
       "nameEn": "AXSOME THERAPEUTICS INC",
@@ -39192,7 +42802,305 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "AXSM",
+        "company": "액섬 테라퓨틱스는 신경계 질환 치료제를 개발·판매하는 바이오 기업이다. 이미 판매 중인 주요 브랜드 매출이 분기마다 늘고 있고, 2027년에 신약 후보 이정표가 예정돼 있다. 올해 3분기 매출은 2.6억 달러로 1년 전보다 51.9% 늘었다.",
+        "lead": "AXSM은 매출이 빠르게 늘고 적자도 줄고 있지만, 주가는 6월 고점 260.19달러에서 45.8% 내려와 있는 약한 종목(등급 C)이다. 가장 강한 근거는 3분기 매출이 1년 전보다 51.9% 늘고 영업손실이 1,107만 달러까지 줄었다는 점이다. 가장 큰 걱정은 실적 직후 증권사 여러 곳이 목표가를 내렸고, 주가가 20·50·150일 평균선 아래에 있으며 시장 신호등도 빨간불이라는 점이다. 피벗(넘으면 사는 선) 216.47달러까지 34.9% 남았고 저점도 높아지지 않아서, 평균선 위로 회복하지 못하거나 다음 실적에서 적자가 다시 커지면 이 그림은 깨진다.",
+        "newsNarrative": "11월 2일 3분기 실적이 나왔고, 매출은 시장 예상을 웃돌았다. 주요 브랜드 매출이 고르게 늘었고, 회사는 신약 후보 이정표를 2027년으로 제시했다. 주당 손실은 0.25달러로 예상 0.64달러보다 작았다. 그런데도 11월 3일 UBS·RBC·구겐하임·베어드가 목표가를 내렸고, 주가는 11월 2일 장중 123달러까지 내려 52주 저점을 찍었다. 이후 140달러대로 일부 올랐지만 평균선 아래에 있다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "3분기 실적에서 매출이 시장 예상을 웃돌았고 적자 상태는 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Axsome Therapeutics (AXSM) Reports Q3 Loss, Tops Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/axsome-therapeutics-axsm-reports-q3-loss-tops-revenue-estimates",
+                "date": "2026-11-02",
+                "quote": "Axsome Therapeutics (AXSM) Reports Q3 Loss, Tops Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "주요 브랜드 매출이 늘었고 신약 후보 이정표는 2027년에 예정돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Axsome Therapeutics Q3 Sales Rise Across Key Brands; Pipeline Milestones Set For 2027",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/axsome-therapeutics-q3-sales-rise-across-key-brands-pipeline-milestones-set-2027",
+                "date": "2026-11-02",
+                "quote": "Axsome Therapeutics Q3 Sales Rise Across Key Brands; Pipeline Milestones Set For 2027",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "실적 직후 Mizuho가 목표가를 284달러에서 272달러로 내렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance 애널리스트 의견 변경 내역",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/AXSM/analysis/",
+                "date": "2026-11-04",
+                "quote": "Mizuho main Outperform -> Outperform Lowers 272 (prior 284)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 최근 4분기 모두 1년 전보다 45% 넘게 늘었다. 올해 3분기 매출은 2.6억 달러로 51.9% 늘었다. 영업손실은 1분기 6,336만 달러, 2분기 4,965만 달러에서 3분기 1,107만 달러로 줄었다. 다만 아직 흑자가 아니어서 이익 기준 성장 요건은 채우지 못한다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r1",
+              "statement": "2026년 3분기 매출 2.6억 달러, 1년 전보다 51.9% 증가",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 분기 실적 (10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579428&type=10-Q",
+                  "date": "2026-09-30",
+                  "quote": "periodEnd 2026-09-30 revenue 259691000 yoy revenue 51.9",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "영업손실이 1분기 6,336만 달러에서 3분기 1,107만 달러로 줄었다. 아직 적자다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 분기 실적 (10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579428&type=10-Q",
+                  "date": "2026-09-30",
+                  "quote": "periodEnd 2026-09-30 profit -11068000; periodEnd 2026-03-31 profit -63357000",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "신약 후보 이정표가 2027년에 예정돼 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Axsome Therapeutics Q3 Sales Rise Across Key Brands; Pipeline Milestones Set For 2027",
+                  "publisher": "RTTNews",
+                  "url": "https://www.nasdaq.com/articles/axsome-therapeutics-q3-sales-rise-across-key-brands-pipeline-milestones-set-2027",
+                  "date": "2026-11-02",
+                  "quote": "Pipeline Milestones Set For 2027",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "lowered",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "최근 목표가 변경은 하향 9건, 상향 2건이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Yahoo Finance 애널리스트 전망치",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/AXSM/analysis/",
+                    "date": "2026-11-11",
+                    "quote": "ptRaised 2, ptLowered 9",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "3분기 주당 손실은 0.25달러로 예상 0.64달러보다 작아 60.9% 상회했지만, 직전 분기는 예상보다 46% 나빴다. 4분기 주당손익 전망은 30일간 하향 8건 대 상향 0건이고, 내년 전망도 하향 5건 대 상향 1건이다. 매출은 올해 49.1%, 내년 52.2% 성장으로 추정되지만, 이익 전망이 내려가고 있다. 최근 목표가 변경은 하향 9건, 상향 2건이다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "3분기 영업손실 1,107만 달러(전년비 손실 76% 축소), 순이익 -1,288만 달러로 흑자 아님, 매출 +51.9% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 모두 적자, 3년 추세·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.94배, 20일 평균 대비 1.15배. 유통주식 확인 불가"
+          },
+          {
+            "item": "L 주도주 여부",
+            "status": "미충족",
+            "evidence": "RS 백분위 1개월 21.5, 3개월 5.4, 6개월 3.7"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 10일선이 20일선 아래 16일째. 마진부채 1년 전보다 +31.4%"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "실적 직후 증권사 다수가 목표가를 내렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance 애널리스트 의견 변경 내역",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/AXSM/analysis/",
+                "date": "2026-11-03",
+                "quote": "UBS Lowers 239 (prior 256); RBC Capital Lowers 273 (prior 295); Guggenheim Lowers 250 (prior 275); Baird Lowers 220 (prior 246)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "4분기와 내년 주당이익 전망이 하향 쪽으로 쏠려 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance 애널리스트 전망치",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/AXSM/analysis/",
+                "date": "2026-11-11",
+                "quote": "0q d30 -33.3 down30 8; +1y d30 -27.5 up30 1 down30 5",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 9.9%, 3개월 수익률 -34.82%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 1.3배로 넓어짐"
+          },
+          {
+            "item": "4 깊이",
+            "status": "미충족",
+            "evidence": "깊이 43.2%, ADR 5.07% 대비 약 8.5배, 선행 상승 9.9%보다 깊음"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "미충족",
+            "evidence": "가격 140.97 < 20일선 146.07 < 50일선 175.16, 20일선 기울기 -5.18%"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 0.94배, 0.7 초과로 충족 기준 미달"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "돌파 전. 20일 평균 대비 1.15배(마지막 봉), 돌파 시 2배가 실리는지 확인 필요"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 216.47까지 -34.88%(-6.88 ADR), 1 ADR 안이 아님"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.3% ≤ ADR 5.07%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.4 ADR"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보 구간은 8주(40봉)로 보이지만 깊이가 43.2%로 깊고, 저점 상승은 0회다. 진폭은 1.3배로 좁아지지 않았다. 6개월 그림에서는 횡보라기보다 7월 이후 내리막이 이어진 모양이다.",
+          "volume": "최근 5일 거래량은 20일 평균의 0.94배로 마르지 않았다. 11월 2일 2,717,800주, 10월 30일 2,171,500주로 최근 10봉 중 거래량이 늘었던 날은 하락·저점 구간이다. 11월 10일은 1,285,500주에 종가 위치 78이다.",
+          "position": "현재가 140.97은 피벗 216.47보다 34.88% 아래이고, 예비 손절 209.32도 현재가 위에 있다. 10일선 위 0.4 ADR, 20일선 아래 0.71 ADR이다. 11월 2일 저가 123이 베이스 저점이다.",
+          "maStack": "가격이 20일선 146.07, 50일선 175.16, 150일선 206.56 모두 아래에 있다. 20일선은 -5.18% 기울기로 내리고 있고 50일선도 내려가는 모양이다. 평균선이 아래로 정렬돼 있다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "가격이 20일선 146.07 위로 종가 회복하고 50일선 175.16 방향으로 올라서는지",
+          "저점이 11월 2일 저가 123 위로 높아지는지(저점 상승 0회에서 바뀌는지)",
+          "피벗 216.47 부근에서 거래량이 20일 평균의 2배 이상 실리며 종가로 넘는지",
+          "시장 판정이 빨간불에서 바뀌는지"
+        ],
+        "earningsRisk": "직전 실적은 2026-11-02에 나왔고, 확정된 다음 실적 발표 일정은 없다(달력 기준).",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "newDrivers": [],
+        "consensus": {
+          "saleCy": 49.13,
+          "saleNy": 52.2,
+          "epsCy": -27.16,
+          "epsNy": -240.26,
+          "cyTrend": -8.52,
+          "nyTrend": -23.89
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "ANIP",
@@ -39315,8 +43223,54 @@ window.TEAM2_DATA = {
         "count": 6
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "ANIP",
+        "company": "미국 제약사로, 복제약과 희귀질환·안과 전문의약품을 만들어 판다. 최근 분기 매출이 1년 전보다 20%대 후반 늘며 빠르게 크고 있다.",
+        "lead": "ANIP는 11월 5일 3분기 실적 발표와 희귀질환 회사 Egetis Therapeutics 인수 제안을 함께 내놓았다. 인수가 실제로 성사되고 부담이 크지 않은지 확인되지 않으면 이 흐름은 힘이 빠질 수 있다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "같은 날 약 5.6억 달러에 희귀질환 회사 Egetis Therapeutics를 인수하겠다고 제안했다. 희귀질환 사업을 넓히려는 것이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ANI Offers $560 Mln To Acquire Egetis, Expand Rare Disease Business",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/ani-offers-560-mln-acquire-egetis-expand-rare-disease-business",
+                "date": "2026-11-05",
+                "quote": "ANI Offers $560 Mln To Acquire Egetis, Expand Rare Disease Business",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "제네릭·특수의약품",
+          "희귀질환 인수"
+        ],
+        "confidence": "low",
+        "counterpoint_note": "",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "c1"
+          ],
+          "reasons": [
+            "w1: 매출 2.9억 달러, 27.6% 증가율, 영업이익 5,237만 달러, 44.5% 증가율이 quote에 없음",
+            "c1: 52주 고점 90.87달러, 현재 71.25달러, 저점 67.1달러 등 가격 정보가 quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "ANIP는 11월 5일 3분기 실적이 예상을 넘어섰고, 희귀질환 회사 인수 제안도 함께 내놓았다. 3분기 매출은 2.9억 달러로 1년 전보다 27.6% 늘었고 영업이익은 44.5% 늘었다. 다만 인수가 실제로 성사되고 부담이 크지 않은지 확인되지 않으면 이 흐름은 힘이 빠질 수 있다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "ANI 파머슈티컬스",
       "nameEn": "ANI PHARMACEUTICALS INC",
@@ -39985,7 +43939,282 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "ANIP",
+        "company": "ANI 파머슈티컬스는 특수·복제 의약품을 만들어 파는 미국 제약사다. 희귀질환 의약품과 복제약(제네릭)이 주력이고, 최근 매출은 분기마다 20% 넘게 늘고 있다. 11월 5일에는 희귀질환 사업을 키우려고 에게티스 테라퓨틱스 인수를 제안했다.",
+        "lead": "ANIP는 실적은 좋지만 차트는 아직 돌파 구간과 멀어서 관심 목록에 올라 있다. 3분기 매출은 전년보다 27.6% 늘었다. 걱정은 주가가 두 달 평균선 아래이고 돌파선(79.43달러)까지 10.3% 남았으며, 시장 신호가 빨간불이라는 점이다. 11월 10일 종가가 71.25달러로 반등했지만, 거래량 급증 속 50일선(72.38달러) 회복에 실패하거나 6일 저점(67.14달러) 아래로 내려가면 이 그림은 깨진다.",
+        "newsNarrative": "11월 5일 ANI는 3분기 실적과 함께 에게티스 인수 제안(약 5.6억 달러)을 발표했다. 실적은 매출·이익 모두 예상을 넘었지만, 같은 날 주가는 장중 76달러까지 올랐다가 69.62달러로 마감했다. 이후 6일 67.14달러까지 밀렸고 10일에 71.25달러로 반등했다. 10월에는 듀록세틴 캡슐 출시와 안과질환 임상 장기 결과 발표가 있었다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "11월 5일 3분기 실적 발표와 함께 약 5.6억 달러 규모의 에게티스 테라퓨틱스 인수 제안을 공개했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ANI Offers $560 Mln To Acquire Egetis, Expand Rare Disease Business",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/ani-offers-560-mln-acquire-egetis-expand-rare-disease-business",
+                "date": "2026-11-05",
+                "quote": "ANI Offers $560 Mln To Acquire Egetis, Expand Rare Disease Business",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "3분기 매출과 EPS가 모두 시장 예상을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ANI Pharmaceuticals (ANIP) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/ani-pharmaceuticals-anip-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-11-05",
+                "quote": "ANI Pharmaceuticals (ANIP) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "10월 19일 듀록세틴 지연방출 캡슐(20·30·60mg)을 출시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ANI Pharmaceuticals Launches Duloxetine Delayed-Release Capsules In 20, 30 And 60 Mg",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/ani-pharmaceuticals-launches-duloxetine-delayed-release-capsules-20-30-and-60-mg",
+                "date": "2026-10-19",
+                "quote": "ANI Pharmaceuticals Launches Duloxetine Delayed-Release Capsules In 20, 30 And 60 Mg",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "10월 12일 안과질환 4상 연구에서 2년 시력 개선 결과를 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ANI Pharmaceuticals Report Two-Year Vision Improvements In Phase 4 Eye Disease Study",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/ani-pharmaceuticals-report-two-year-vision-improvements-phase-4-eye-disease-study",
+                "date": "2026-10-12",
+                "quote": "ANI Pharmaceuticals Report Two-Year Vision Improvements In Phase 4 Eye Disease Study",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출이 분기마다 빠르게 늘고 있다. 2026년 3분기 매출은 2.91억 달러로 1년 전보다 27.6% 늘었고, 영업이익은 5,237만 달러로 44.5% 늘었다. 영업이익률은 18%로 직전 4분기 중 가장 높다. 순이익도 4분기 연속 전년보다 늘었지만, 주식 수 변동은 반영하지 않은 값이다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "3분기 영업이익은 5,237만 달러로 44.5% 늘었고, 순이익은 3,515만 달러로 32.1% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ANI Pharmaceuticals 10-Q 분기 실적표",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001023024&type=10-Q",
+                  "date": "2026-09-30",
+                  "quote": "profit 52373000 · netIncome 35149000 · yoy profit 44.5 netIncome 32.1",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": []
+          }
+        },
+        "estimatesNarrative": "애널리스트 전망은 엇갈린다. 올해 EPS 전망치는 30일 전보다 2.6% 올랐지만, 12월 분기 전망치는 9.2% 내렸다. 최근 4분기 모두 EPS가 예상을 넘었고 가장 최근은 23.8% 상회했다. 내년 매출 성장 전망은 11.0%로 올해 24.3%보다 둔화되는 것으로 잡힌다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "3분기 순이익 전년비 +32.1%, 매출 +27.6% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "최근 4분기 순이익 모두 전년비 증가(+32.1%·+189.1%·+88.1%·+352.5%), 3년 추세·ROE는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.79배, 유통주식 수는 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "RS 백분위 1개월 42·3개월 39·6개월 17"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 red, 마진부채 1년 전보다 +31.4%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "인수 제안으로 약 5.6억 달러 자금이 필요해 재무 부담과 주식 희석 가능성이 생긴다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ANI Offers $560 Mln To Acquire Egetis, Expand Rare Disease Business",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/ani-offers-560-mln-acquire-egetis-expand-rare-disease-business",
+                "date": "2026-11-05",
+                "quote": "ANI Offers $560 Mln To Acquire Egetis, Expand Rare Disease Business",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "인수 제안으로 약 5.6억 달러 자금이 필요해 재무 부담과 주식 희석 가능성이 생긴다. 같은 날 중요 계약·재무 의무 관련 8-K도 제출됐다."
+          },
+          {
+            "id": "k2",
+            "statement": "트럼프 행정부의 복제의약품 관세가 약값과 제약사에 영향을 줄 수 있다는 보도가 있었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "What Trump's generic drug tariffs could mean for patients, drugmakers and prices",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/07/22/trump-generic-drug-tariffs-prices-explained.html",
+                "date": "2026-07-22",
+                "quote": "What Trump's generic drug tariffs could mean for patients, drugmakers and prices",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "복제의약품은 가격 경쟁이 심해 개별 제품의 마진이 빨리 줄 수 있다.",
+          "대형 인수를 반복하는 성장 방식이라 통합 실패와 부채 부담 위험이 따른다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 14.2%, 30% 기준 미달"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 7.6주(38봉)"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회이나 진폭 1.6배로 폭이 좁아지지 않음"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "미충족",
+            "evidence": "가격 71.25, 50일선 72.38 아래, 20일선 71.49 아래"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 거래량 1.79배"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "돌파 전이라 확인 불가, 마지막 봉 거래량 20일 평균의 2.76배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 79.43까지 -10.3%, -3.17 ADR로 1 ADR 밖"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.91% ≤ ADR 3.25%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.21 ADR"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 red, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보는 7.6주(38봉)째다. 저점이 한 번 높아졌지만 진폭은 1.6배로 오히려 넓어졌다.",
+          "volume": "횡보 중 거래량이 줄지 않았다. 최근 5일 평균이 20일 평균의 1.79배다. 11월 5일 129.6만 주(실적 발표일), 11월 10일 118.9만 주로 두 번 크게 늘었다. 10일은 종가 위치 97로 고가 근처에서 마감했다.",
+          "position": "현재가 71.25달러는 피벗 79.43달러보다 10.3% 아래다. 예비 손절 77.12달러는 현재가보다 위에 있어 기준선 구실을 하지 못한다. 10일선 위 0.21 ADR로 붙어 있다.",
+          "maStack": "가격은 20일선(71.49)·50일선(72.38)·150일선(77.31) 모두 아래다. 20일선 기울기는 -1%로 선들이 내려가는 배열이다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "50일선(72.38달러)과 20일선(71.49달러)을 종가로 되찾고 유지하는지",
+          "피벗 79.43달러를 거래량 20일 평균 2배 이상으로 돌파하는지",
+          "시장 신호가 빨간불에서 벗어나 10일선이 20일선 위로 올라오는지",
+          "인수 자금 조달 방식(증자 여부)이 공시로 확인되는지",
+          "N 심층분석 결과가 신제품·인수의 매출 기여를 숫자로 확인해 주는지"
+        ],
+        "earningsRisk": "3분기 실적은 11월 5일에 이미 발표됐고 다음 실적 일정은 확정된 것이 없다(달력 기준).",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1"
+          ],
+          "reasons": [
+            "r1: 6월 분기 25.9%, 3월 분기 20.5% 수치가 quote에 없음 - SEC 발췌문은 9월 분기만 포함",
+            "lead의 'EPS도 예상을 23.8% 웃돌았다' - 남은 claim에서 이 수치를 찾을 수 없음"
+          ],
+          "leadFixed": true
+        },
+        "newDrivers": [],
+        "leadOriginal": "ANIP는 실적은 좋지만 차트는 아직 돌파 구간과 멀어서 관심 목록에 올라 있다. 3분기 매출은 전년보다 27.6% 늘었고 EPS도 예상을 23.8% 웃돌았다. 걱정은 주가가 두 달 평균선 아래이고 돌파선(79.43달러)까지 10.3% 남았으며, 시장 신호가 빨간불이라는 점이다. 11월 10일 종가가 71.25달러로 반등했지만, 거래량 급증 속 50일선(72.38달러) 회복에 실패하거나 6일 저점(67.14달러) 아래로 내려가면 이 그림은 깨진다.",
+        "consensus": {
+          "saleCy": 24.3,
+          "saleNy": 10.96,
+          "epsCy": 20.52,
+          "epsNy": 7.3,
+          "cyTrend": 2.64,
+          "nyTrend": 0.37
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "MLAB",
@@ -40108,8 +44337,83 @@ window.TEAM2_DATA = {
         "count": 11
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "MLAB",
+        "company": "식품·제약·바이오 공정의 품질 관리용 계측·측정 장비와 소모품을 만드는 회사. 이익률 개선과 비용 절감이 주가의 핵심 변수다.",
+        "lead": "11월 10일 실적 발표 뒤 한때 주가가 크게 오른 것은 영업이익이 1년 전보다 77.6% 늘며 이익률이 13.5%로 올라서다. 10월에 발표한 인력 40명 감축과 연 930만 달러 비용 절감 계획이 이익 개선의 배경이다. 다만 이익 개선이 비용 절감 계획에 의존하고 있고, 매출 성장은 2.6%에 그쳐 다음 분기에도 이익률이 유지되는지가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "7~9월 분기 영업이익이 839만 달러로 1년 전보다 77.6% 늘었고, 영업이익률은 13.5%로 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 10-Q 분기 실적(제공 자료)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724004&type=10-Q",
+                "date": "2026-11-09",
+                "quote": "periodEnd 2026-09-30, revenue 62336000, profit 8388000, margin 13.5, yoy profit 77.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "11월 10일 회사가 2분기 실적과 연간 가이던스(회사가 내놓은 연간 전망)를 함께 발표했고, 이것이 주가 상승 계기가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/mesa-laboratories-inc-reports-second-quarter-fiscal-year-2027-results-and-issues-full-year",
+                "date": "2026-11-10",
+                "quote": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "10월 중순 인력 40명 감축과 930만 달러 규모 비용 절감 계획이 알려져 이익률 개선 기대를 키웠다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mesa Laboratories To Cut 40 Jobs, Plan $9.3 Mln Cost Savings",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/mesa-laboratories-cut-40-jobs-plan-93-mln-cost-savings",
+                "date": "2026-10-13",
+                "quote": "Mesa Laboratories To Cut 40 Jobs, Plan $9.3 Mln Cost Savings",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "계측·측정 장비",
+          "비용 절감"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reasons": [
+            "c1의 '주가수익비율(PER)도 약 162배로 높다'는 SEC EDGAR quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "11월 10일 실적 발표 뒤 한때 주가가 크게 오른 것은 영업이익이 1년 전보다 77.6% 늘며 이익률이 13.5%로 올라서다. 10월에 발표한 인력 40명 감축과 연 930만 달러 비용 절감 계획이 이익 개선의 배경이다. 다만 매출 성장은 2.6%에 그쳐, 다음 분기에도 이익률이 유지되는지가 이 이야기의 성패를 가른다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "메사 래브러토리스",
       "nameEn": "MESA LABORATORIES INC",
@@ -40760,7 +45064,306 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "MLAB",
+        "company": "메사 래브러토리스는 과학·기술 계측기기와 관련 소모품을 파는 회사다. 분기 매출은 약 6,200만 달러이고 성장률은 한 자릿수 초반이다. 최근 성장 축은 매출 확대보다 인력 감축 등 비용 절감에 따른 영업이익률 개선이다.",
+        "lead": "MLAB는 3개월 수익률 27% 상승으로 도윤 목록에 올랐고, 실적 발표 직후인 11월 10일 거래량 급증과 함께 반등해 피벗(넘으면 사는 선) 144.35달러 아래 5.15%까지 왔다. 가장 강한 근거는 9월 분기 영업이익이 전년보다 77.6% 늘고 영업이익률이 13.5%로 오른 점이다. 가장 큰 걱정은 매출 증가율이 2.6%에 그치고, 애널리스트 올해 EPS 전망이 14.4% 내려가고, 시장 판정이 빨간불인 점이다. 매출이 다시 가속하지 않거나 예비 손절 138.56달러 아래로 마감하면 이 그림은 약해진다.",
+        "newsNarrative": "회사는 11월 10일 2026 회계연도 2분기 실적과 연간 가이던스(회사가 내놓은 연간 전망)를 함께 발표했다. 10월 13일에는 40명 감원과 930만 달러 비용 절감 계획이 나왔고, 이것이 이번 이익 개선의 배경으로 보인다. 5월 27일에는 큰 폭의 주가 급락 기사가 있었다. 실적 발표 뒤 Jefferies가 목표가를 125달러에서 150달러로 올렸고, 주가는 11월 10일에 올랐다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "11월 10일 2분기 실적과 연간 가이던스를 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/mesa-laboratories-inc-reports-second-quarter-fiscal-year-2027-results-and-issues-full-year",
+                "date": "2026-11-10",
+                "quote": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "10월 13일 40명 감원과 930만 달러 비용 절감 계획이 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mesa Laboratories To Cut 40 Jobs, Plan $9.3 Mln Cost Savings",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/mesa-laboratories-cut-40-jobs-plan-93-mln-cost-savings",
+                "date": "2026-10-13",
+                "quote": "Mesa Laboratories To Cut 40 Jobs, Plan $9.3 Mln Cost Savings",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "5월 27일 주가가 크게 하락했다는 기사가 있었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Mesa Laboratories Stock Is Getting Hit With a Huge Sell-Off Today",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/why-mesa-laboratories-stock-getting-hit-huge-sell-today",
+                "date": "2026-05-27",
+                "quote": "Why Mesa Laboratories Stock Is Getting Hit With a Huge Sell-Off Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 제자리에 가깝고 이익은 비용 절감으로 크게 늘었다. 9월 분기 매출은 6,234만 달러로 1년 전보다 2.6% 늘었다. 같은 분기 영업이익은 839만 달러로 77.6% 늘었고 영업이익률은 13.5%다. 다만 순이익은 6월 분기에 전년보다 40.3% 줄어 분기마다 고르지는 않다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r1",
+              "statement": "9월 분기 매출 6,234만 달러, 1년 전보다 2.6% 증가",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표 (MLAB)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724004&type=10-Q",
+                  "date": "2026-09-30",
+                  "quote": "periodEnd 2026-09-30 revenue 62336000 yoy revenue 2.6",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "9월 분기 영업이익 839만 달러, 전년보다 77.6% 증가, 영업이익률 13.5%",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표 (MLAB)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724004&type=10-Q",
+                  "date": "2026-09-30",
+                  "quote": "periodEnd 2026-09-30 profit 8388000 margin 13.5 yoy profit 77.6",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사가 연간 가이던스를 발표했다(수치는 확인하지 못함).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                  "publisher": "Fintel (Nasdaq)",
+                  "url": "https://www.nasdaq.com/articles/mesa-laboratories-inc-reports-second-quarter-fiscal-year-2027-results-and-issues-full-year",
+                  "date": "2026-11-10",
+                  "quote": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "올해 EPS 추정치는 30일 전보다 14.4% 하향, Jefferies 목표가는 125달러에서 150달러로 상향",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Yahoo Finance MLAB analysis",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/MLAB/analysis/",
+                    "date": "2026-11-11",
+                    "quote": "0y eps 9.95 d30 -14.4 down30 1; Jefferies 2026-11-10 Raises pt 150 ptPrior 125",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "애널리스트 1명이 낸 올해(2027년 3월 결산) EPS 추정치는 9.95달러로 30일 전보다 14.4% 낮아졌고 상향 조정은 없다. 최근 두 분기 EPS는 예상치를 23.5%, 49.1% 밑돌았다. 반면 Jefferies는 11월 10일 목표가를 125달러에서 150달러로 올렸다. 추정 기관이 1~2곳뿐이라 대표성은 낮다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "9월 분기 순이익 전년비 +75.3%, 영업이익 +77.6%, 매출 +2.6% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 순이익 전년비 +75.3%·-40.3%·+41.9%·+316.6%로 6월 분기가 마이너스, 3년·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.37배로 마르지 않음, 시총 0.77B, 유통주식 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 백분위 3개월 97.2, 6개월 83.5, 1개월 62.1"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 red, 10일선이 20일선 아래 16일째, 마진부채 +31.4% 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "올해 EPS 추정치가 30일 사이 14.4% 하향됐고 최근 두 분기 EPS가 예상치를 밑돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance MLAB analysis",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/MLAB/analysis/",
+                "date": "2026-11-11",
+                "quote": "0y eps 9.95 d30 -14.4; surprises 2026-09-30 -23.5, 2026-06-30 -49.1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "감원 40명 등 구조조정으로 이익이 개선되는 구조라 매출 성장이 따라오는지가 관건이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mesa Laboratories To Cut 40 Jobs, Plan $9.3 Mln Cost Savings",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/mesa-laboratories-cut-40-jobs-plan-93-mln-cost-savings",
+                "date": "2026-10-13",
+                "quote": "Mesa Laboratories To Cut 40 Jobs, Plan $9.3 Mln Cost Savings",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 60.4%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 5.4주(27봉)"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 1.41배(좁아지지 않음)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "깊이 18.2%, ADR 4.23%의 약 4.3배, 선행 상승 60.4%의 절반 미만"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "가격 136.91, 20일선 127.45, 50일선 128.45 위"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 거래량 1.37배"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 피벗 아래, 11월 10일 거래량은 20일 평균의 2.35배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 144.35 아래 5.15%, 1.22 ADR로 1 ADR 밖"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.01%, ADR 4.23% 이하"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.57 ADR"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 red, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보는 5.4주째이고 깊이는 18.2%다. 저점이 높아지지 않았고 진폭이 1.41배로 오히려 넓어졌다. 11월 5일 저가 118.01이 베이스 저점이다.",
+          "volume": "횡보 중 거래량이 줄지 않아 최근 5일 평균이 20일 평균의 1.37배다. 11월 10일 거래량은 234,200주로 20일 평균의 2.35배이고, 종가는 당일 범위의 87% 위치다.",
+          "position": "현재가 136.91달러는 피벗 144.35달러 아래 5.15%(1.22 ADR)다. 예비 손절 138.56달러는 현재가보다 높아 아직 그 위로 올라오지 못했다. 10일선 위 1.57 ADR이다.",
+          "maStack": "가격은 20일선 127.45, 50일선 128.45, 150일선 111.77 위에 있다. 20일선 기울기는 -0.03%로 평평하고 10·20·50일선이 한곳에 모여 있다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "11월 10일 급증한 거래량(20일 평균 2.35배)이 피벗 144.35달러를 넘는 날에도 평균의 2배 이상으로 이어지는지",
+          "피벗 아래에서 저점이 높아지고 진폭이 좁아지는지(현재 저점 상승 0회, 진폭 1.41배)",
+          "시장 판정이 빨간불에서 바뀌는지(10일선이 20일선 위로 올라오는지)",
+          "다음 분기 매출 증가율이 현재 2.6%보다 가속하는지",
+          "예비 손절 138.56달러 대비 현재가가 어디에서 마감하는지"
+        ],
+        "earningsRisk": "다음 실적 발표는 2027년 2월 3일로 추정되며 확정은 아니다. 직전 실적은 11월 10일에 이미 나왔다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "newDrivers": [],
+        "consensus": {
+          "saleCy": 2.3,
+          "saleNy": 4.41,
+          "epsCy": 19.25,
+          "epsNy": 3.22,
+          "cyTrend": -14.37,
+          "nyTrend": -16.3
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "FORTY",
@@ -40883,8 +45486,57 @@ window.TEAM2_DATA = {
         "count": 14
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "no_source",
+        "ticker": "FORTY",
+        "company": "이스라엘 IT 서비스 지주회사로, 소프트웨어·컨설팅 자회사들의 매출로 돈을 번다. 미국에는 ADR(해외 주식을 대신 거래하게 한 증서)로 상장돼 있다.",
+        "lead": "근거 없음 — 출처 검증을 통과한 상승 이유가 없다 (1개 주장 제거)",
+        "whyRose": [
+          {
+            "id": "none",
+            "statement": "검증을 통과한 상승 이유 근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "현재가 117.05달러는 52주 고점 170.47달러(2025-12-26)보다 크게 낮아, 최근 반등이 이전 하락을 다 만회한 것은 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FORTY 한국투자증권 시세",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-11-10",
+                "quote": "\"high52\": 170.47, \"high52Date\": \"2025-12-26\", \"last\": 117.05",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "이스라엘 IT 서비스"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1: 이미 evidence_level 'no_source'로 표시됨 — 근거 없는 주장"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "최근 한 달 14% 오른 뚜렷한 이유를 확인할 자료는 찾지 못했다. 전일 종가 110.25달러에서 117.05달러로 하루 6% 넘게 오른 점과 52주 고점(170.47달러) 대비 낙폭이 큰 점이 보인다. 다음 분기 실적에서 매출·이익 증가가 확인되는지가 이야기의 관건이다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "포뮬러 시스템스 1985(ADR)",
       "nameEn": "FORMULA SYSTEMS(1985) ADR EACH REP 1 ORD ILS1 LEVELII(BNY)",
@@ -41307,7 +45959,162 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "FORTY",
+        "company": "포뮬러 시스템스(1985)는 이스라엘 소프트웨어·IT 서비스 지주회사로, 미국 나스닥에는 ADR로 상장돼 있습니다. 자회사들을 통해 기업용 소프트웨어 구축과 IT 컨설팅·운영 서비스를 팔아 돈을 법니다. 최근 성장 축을 확인할 자료는 없습니다.",
+        "lead": "FORTY는 최근 1개월 14%, 3개월 17% 오르며 업종 상대 강도가 높아 목록에 올랐지만, 등급은 C이고 근거가 확인되지 않습니다. 걱정은 시장 신호가 빨간불이고 저점이 높아지지 않은 점이며, 실적 발표 예정일(11월 19일 추정)도 가깝습니다.",
+        "newsNarrative": "최근 1~2달 안에 나온 이 종목 직접 기사나 공시는 확인되지 않았습니다. 가장 가까운 기사는 올해 2월의 50일선 이탈 보도이고, 그 밖은 2025년 실적 발표 기사입니다. 따라서 이번 상승의 이유를 뉴스로 설명할 근거는 없습니다.",
+        "recentNews": [],
+        "financialsNarrative": "SEC 분기 실적표를 받지 못해 최근 분기 매출·이익 방향은 확인할 수 없습니다. 분기 실적이 확인되기 전에는 이익 추세를 판단할 수 없습니다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "unknown",
+            "claims": []
+          }
+        },
+        "estimatesNarrative": "전망치 자료 없음",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "확인 불가",
+            "evidence": "분기 실적표 자료 없음 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "확인 불가",
+            "evidence": "연간·분기 합산 자료 없음 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 성장 동력",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "L 업종 주도주",
+            "status": "미충족",
+            "evidence": "RS 백분위 1개월 81.9, 3개월 90.7, 6개월 32.5"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "빨간불, 10일선이 20일선 아래 16일째, 마진부채 +31.4%"
+          }
+        ],
+        "risks": [],
+        "structuralRisks": [
+          "거래량이 매우 얇아 최근 10봉 중 6봉이 거래 없음이거나 1,000주 안팎이라 가격이 크게 튀기 쉽습니다.",
+          "이스라엘 지주회사의 ADR이라 환율과 자회사 실적에 동시에 영향을 받습니다."
+        ],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 24.6%(20~30%, 약함), 1개월 14.15%·3개월 17.44%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 11봉, 2.2주"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 3.54배(1 이상)"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "현재가 127.28 > 20일선 119.15 · 50일선 119.34"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 아래라 돌파봉 없음, 20일 평균 대비 1.03배"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 129.9까지 -2.02%, -1.03 ADR(1 ADR 초과)"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 1.93% ≤ ADR 1.97%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 3.13 ADR(3 ADR 초과)"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "빨간불, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보 구간은 11봉, 약 2.2주로 짧은 편입니다. 저점이 높아지는 모양은 아니며 진폭은 3.54배로 커졌습니다. 깊이는 베이스 고점 대비 15.1%입니다.",
+          "volume": "최근 5일 거래량은 20일 평균의 0.79배로 크게 마르지 않았습니다. 최근 10봉은 거래 없는 날이 섞여 있고 거래가 있는 날도 800~6,800주 수준입니다. 11월 9~10일은 종가가 당일 범위 최상단(100)입니다.",
+          "position": "현재가 127.28은 피벗 129.9보다 2.02% 아래이며 예비 손절 127.4와는 거의 같은 수준입니다. 손절선이 현재가 바로 아래라 폭은 1.93%입니다. 10일선보다 3.13 ADR 위에 있습니다.",
+          "maStack": "가격은 20일선 119.15, 50일선 119.34, 150일선 120.9 위에 있습니다. 세 선이 119~121 구간에 모여 있고 20일선 기울기는 +0.28%입니다.",
+          "note": "그림과 숫자가 일치한다. 이평선이 한곳에 모인 뒤 마지막 봉이 크게 위로 나온 모양이다."
+        },
+        "entryChecklist": [
+          "피벗 129.9달러를 20일 평균 2배 이상 거래량으로 종가 돌파하는지",
+          "시장 판정이 빨간불에서 벗어나 10일선이 20일선 위로 올라오는지",
+          "실적 발표(11월 19일 추정) 결과가 나온 뒤에도 50일선 위를 유지하는지",
+          "저점이 높아지고 진폭이 줄어드는 횡보가 만들어지는지",
+          "분기 매출·이익이 전년 대비 늘었는지 공시로 확인되는지"
+        ],
+        "earningsRisk": "다음 실적 발표는 2026-11-19로 추정되며(야후 파이낸스, 확정 아님), 발표 전 구간입니다. 거래량이 얇아 발표 후 갭 위험이 큽니다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "n1",
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "claims 전체가 'no_source' 또는 '근거 없음'으로 표시됨 — 최근 1~2개월 뉴스·공시 근거 부재, 분기 재무 확인 불가"
+          ],
+          "leadFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "leadOriginal": "FORTY는 최근 1개월 14%, 3개월 17% 오르며 업종 상대 강도가 높아 목록에 올랐지만, 등급은 C입니다. 가장 강한 근거는 1~3개월 상대 강도 상위 82~91%입니다. 걱정은 시장 신호가 빨간불이고 저점이 높아지지 않은 점이며, 실적 발표 예정일(11월 19일 추정)도 가깝습니다. 피벗 129.9달러를 넘기 전에 재무·성장 근거가 확인되지 않으면 이 그림은 힘을 잃습니다.",
+        "financialsNarrativeOriginal": "SEC 분기 실적표를 받지 못해 최근 분기 매출·이익 방향은 확인할 수 없습니다. 사이트 자료에는 매출·순이익 증가율 수치가 있으나 기간 기준이 불명확해 인용하지 않습니다. 한국투자증권 기준 주가수익비율은 2.82배, 주당순이익은 41.47달러로 표시됩니다. 분기 실적이 확인되기 전에는 이익 추세를 판단할 수 없습니다.",
+        "consensus": null,
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "APP",
@@ -41432,53 +46239,20 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "APP",
-        "company": "모바일 앱 광고를 AI로 연결해 수수료를 버는 광고 기술 회사. 영업이익률이 77%대로 매우 높다.",
-        "lead": "앱러빈은 올해 크게 빠진 종목으로, 최근 상승은 52주 최저가(10월 30일) 뒤의 반등에 가깝다. 실적 자체는 매출 53% 증가로 견조하지만, 2분기 매출이 예상에 못 미쳐 8월에 19% 급락했다. 다음 실적에서 매출이 예상을 다시 넘는지가 확인되면 이야기가 맞고, 또 밑돌면 깨진다.",
+        "company": "모바일 앱 개발사에 AI 광고 중개 플랫폼을 제공해 광고 수수료로 돈을 버는 회사. 영업이익률이 70%대 후반으로 매우 높다.",
+        "lead": "분기 매출이 1년 전보다 55.5% 늘었고 영업이익률 78.2%를 유지했다. 다만 주가는 작년 12월 고점 738달러에서 아직 크게 아래라, 이 성장세가 다음 분기에도 이어지는지가 확인되지 않으면 반등 이야기는 약해진다.",
         "whyRose": [
           {
             "id": "w1",
-            "statement": "10월 30일 기록한 52주 최저가(225달러) 뒤의 반등이다.",
+            "statement": "3분기(7~9월) 매출이 21.8억 달러로 1년 전보다 55.5% 늘었다. 영업이익은 17.1억 달러로 58.4% 늘었고, 영업이익률은 78.2%였다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "한국투자증권 시세",
-                "publisher": "한국투자증권 Open API",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751008&type=10-Q",
-                "date": "2026-11-04",
-                "quote": "last 245.51, prevClose 228.85, low52 225.1901, low52Date 2026-10-30",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "직전 거래일 대비 약 7% 올라 245.51달러가 됐다. 10월 30일 기록한 52주 최저가(225달러) 뒤의 반등이다."
-          },
-          {
-            "id": "w2",
-            "statement": "실적은 여전히 빠르게 큰다. 2분기 매출은 19.2억 달러로 1년 전보다 53% 늘었고, 영업이익률은 77.7%다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "SEC 분기 실적(제공 자료)",
+                "title": "APP 분기 실적 (SEC 10-Q 기준 정리)",
                 "publisher": "SEC EDGAR",
                 "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751008&type=10-Q",
-                "date": "2026-06-30",
-                "quote": "revenue 1923686000, margin 77.7, yoy revenue 52.8",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "주가는 이미 많이 내려 이익 대비 부담이 줄었다. 주가수익비율(주가를 주당순이익으로 나눈 값)이 약 19배다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "한국투자증권 시세",
-                "publisher": "한국투자증권 Open API",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751008&type=10-Q",
-                "date": "2026-11-04",
-                "quote": "per 18.87, high52 738.01",
+                "date": "2026-09-30",
+                "quote": "periodEnd 2026-09-30 revenue 2184815000 profit 1708968000 margin 78.2 yoy revenue 55.5 profit 58.4 netIncome 72.2",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -41488,73 +46262,48 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "2분기 매출이 예상치 19.4억 달러에 못 미쳐 하루 19% 급락했다.",
+            "statement": "메타 등 경쟁사 진입 우려가 올해 주가 급락의 이유로 꼽혔고, 이 우려가 풀리려면 시간이 필요하다는 평가가 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "AppLovin stock tanks on Q2 revenue miss",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/08/06/applovin-stock-q2-earnings-revenue.html",
-                "date": "2026-08-06",
-                "quote": "Q2 revenue of $1.92 billion versus the expected $1.94 billion",
+                "title": "[앱러빈 (NAS:APP)] 잘 해낼테지만, 증명은 필요",
+                "publisher": "SK증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeeee.pdf",
+                "date": "2026-02-12",
+                "quote": "Signal: 산업 우려, 경쟁 진입 등으로 2026년 주가 급락- Key: Rule of 40상 120점 이상, 여전히 강한 Moat- Step: 그러나 Meta 시장 진입 우려 해소에는 시간 필요",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ],
-            "statementOriginal": "2분기 매출이 예상치 19.4억 달러에 못 미쳐 하루 19% 급락했다. 한 증권사는 목표가를 665달러에서 385달러로 낮췄다."
+            "statementOriginal": "주가는 올랐어도 작년 12월 고점 738달러보다 훨씬 낮다. 메타 등 경쟁사 진입 우려가 올해 주가 급락의 이유로 꼽혔고, 이 우려가 풀리려면 시간이 필요하다는 평가가 있다."
           }
         ],
         "estimateRevisions": {
-          "direction": "lowered",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "2분기 실적 뒤 한 증권사가 투자의견을 중립으로 낮추고 목표가를 665달러에서 385달러로 내렸다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "AppLovin stock tanks on Q2 revenue miss",
-                  "publisher": "CNBC",
-                  "url": "https://www.cnbc.com/2026/08/06/applovin-stock-q2-earnings-revenue.html",
-                  "date": "2026-08-06",
-                  "quote": "Analyst James Callahan downgraded the stock to neutral, cutting the price target from $665 to $385",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
+          "direction": "unknown",
+          "claims": []
         },
         "themeTags": [
           "AI 광고",
-          "광고 기술"
+          "모바일 광고"
         ],
-        "upcomingCatalyst": {
-          "what": "3분기 실적 발표 (날짜 미확정, 보통 11월 초)",
-          "sources": [
-            {
-              "title": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
-              "publisher": "Zacks",
-              "url": "https://www.nasdaq.com/articles/should-applovin-stock-be-your-portfolio-q3-earnings",
-              "date": "2026-11-02",
-              "quote": "Should AppLovin Stock Be in Your Portfolio Before Q3 Earnings?",
-              "verified": "ok",
-              "httpStatus": 200
-            }
-          ]
-        },
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
+            "w2",
+            "w3",
             "c2"
           ],
           "reasons": [
-            "c2: '최근 1년 평균보다 40% 낮고'의 40% 수치가 제공된 quote('Meta 시장 진입 우려...')에 없음"
-          ]
+            "w2: quote가 제목만 반복, 51% 급등 본문 숫자 미확인",
+            "w3: 52주 저점 225달러 수치가 quote에 없음",
+            "c2: 한 달 상승률 45% 계산 불가능 (30일 전 가격 quote 미제공)"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-11-04",
-        "carried": true
+        "leadOriginal": "앱러빈은 11월 초 3분기 실적이 좋게 나오면서 한 달 새 약 45% 올랐다. 분기 매출이 1년 전보다 55.5% 늘었고 영업이익률 78.2%를 유지했다. 다만 주가는 작년 12월 고점 738달러에서 아직 크게 아래라, 이 성장세가 다음 분기에도 이어지는지가 확인되지 않으면 반등 이야기는 약해진다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -48019,7 +52768,279 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "MIDD",
+        "company": "미들비(Middleby)는 레스토랑·식품 서비스 업체에 상업용 주방기기를 만들어 파는 산업기계 회사다. 최근 3분기 실적과 함께 CEO 교체가 발표됐고, 사업을 순수 상업용 주방기기 중심으로 재편하는 중이다.",
+        "newsNarrative": "11월 5일 3분기 실적과 함께 연간 가이던스 상향, CEO 교체가 한꺼번에 나왔다. 실적은 시장 예상을 웃돌았고, 주가는 이후 거래량을 늘리며 올랐다. 11월 6~7일에는 캐너코드와 JP모건이 목표가를 올렸다. 다만 증권사 전망상 올해 매출은 1년 전보다 21% 줄어드는 구조여서, 반등이 사업 재편 이후의 새 규모에서 나온다는 점은 확인이 필요하다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "3분기 매출이 기록적이라고 발표했고 2026년 가이던스를 올렸으며 CEO 교체를 알렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The Middleby Corporation Reports Record Q3 Net Sales of $653 million, Raises FY 2026 Guidance, and Announces CEO Transition",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/middleby-corporation-reports-record-q3-net-sales-653-million-raises-fy-2026-guidance-and",
+                "date": "2026-11-05",
+                "quote": "The Middleby Corporation Reports Record Q3 Net Sales of $653 million, Raises FY 2026 Guidance, and Announces CEO Transition",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "3분기 주당이익과 매출이 시장 예상을 넘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Middleby (MIDD) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/middleby-midd-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-11-05",
+                "quote": "Middleby (MIDD) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "최고상업책임자 Steve Spittle 이 Tim FitzGerald 의 뒤를 이어 CEO 가 된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Middleby Names CCO Steve Spittle CEO, Succeeding Tim FitzGerald",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/middleby-names-cco-steve-spittle-ceo-succeeding-tim-fitzgerald",
+                "date": "2026-11-05",
+                "quote": "Middleby Names CCO Steve Spittle CEO, Succeeding Tim FitzGerald",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "2분기(7월 4일 마감) 매출은 8.76억 달러로 1년 전보다 9.9% 늘었다. 같은 분기 순이익은 5,481만 달러로 48.3% 줄었다. 영업이익은 1년 전과 같은 수준이다. 매출은 증가했지만 순이익은 감소해 이익 성장은 확인되지 않는다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "2분기 순이익은 전년보다 48.3% 줄었고 영업이익은 1년 전과 같다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000769520&type=10-Q",
+                  "date": "2026-07-04",
+                  "quote": "periodEnd 2026-07-04 profit 147748000 netIncome 54812000 yoy.profit 0 yoy.netIncome -48.3",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사가 3분기 발표에서 2026년 연간 가이던스를 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "The Middleby Corporation Reports Record Q3 Net Sales of $653 million, Raises FY 2026 Guidance, and Announces CEO Transition",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/middleby-corporation-reports-record-q3-net-sales-653-million-raises-fy-2026-guidance-and",
+                  "date": "2026-11-05",
+                  "quote": "Raises FY 2026 Guidance",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": []
+          }
+        },
+        "estimatesNarrative": "올해 EPS 전망치는 7일 전보다 5% 올랐지만 90일 전보다는 10.7% 낮다. 최근 30일 사이에는 상향 0명, 하향 3명이다. 최근 4분기 모두 예상을 웃돌았고 직전 분기는 18.6%였다. 올해 매출 전망은 1년 전보다 21% 감소(25.3억 달러)라 서프라이즈가 매출 성장에서 나온 것은 아니다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "분기 순이익 전년비 -48.3%, 매출 +9.9%, 영업이익 증가 0% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 순이익 전년비 -48.3%·-154.2%·-67.1%·-549.3%, 3년 추세·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "충족",
+            "evidence": "N 심층분석: 충족 · 새 제품이 아니라 수요 반전과 순수 상업용 주방기기 회사로의 재편이 성장을 끈다"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.51배, 시총 6.25B, 유통주식 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 상위 백분위 1개월 98.5 · 3개월 93.1 · 6개월 71.6"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불, 10일선이 20일선 아래 16일째, 마진부채 1년 전보다 +31.4%"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "CEO 교체가 발표됐다. 경영진 전환기의 실행 위험이 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The Middleby Corporation Announces Chief Executive Officer Transition",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/middleby-corporation-announces-chief-executive-officer-transition",
+                "date": "2026-11-05",
+                "quote": "The Middleby Corporation Announces Chief Executive Officer Transition",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "증권사는 올해 매출이 1년 전보다 21% 줄고 EPS 가 22.7% 줄 것으로 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance 애널리스트 분석",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/MIDD/analysis/",
+                "date": "2026-11-10",
+                "quote": "0y rev 2528022620 revYearAgo 3201202000 revGrowth -21 epsGrowth -22.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "미충족",
+            "evidence": "1개월 +29.88%, 3개월 +20.36% (30% 기준 아래, 약함)"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "현재가 138.27, 20일선 118.72, 50일선 112.43 위"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.51배"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 없음, 20일 평균 대비 오늘 1.01배"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음, 일평균 변동폭 3.02%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.76 ADR (2 ADR 초과)"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "시장 판정 빨간불"
+          }
+        ],
+        "chartObservation": {
+          "base": "쉬는 구간이 잡히지 않았다. 최근 10봉은 종가 114.04에서 138.27로 오르는 흐름이다. 기간 고점 148.55 대비 6.92% 아래다.",
+          "volume": "최근 5일 거래량은 20일 평균의 1.51배로 마르지 않았다. 11월 9일 거래량이 1,143,200주로 최근 10봉 중 가장 많았고, 그날 종가 위치는 29였다.",
+          "position": "피벗과 예비 손절이 없다. 현재가 138.27은 50일선보다 22.98% 위이고 10일선보다 2.76 ADR 위다.",
+          "maStack": "현재가가 20일선 118.72, 50일선 112.43, 150일선 120.62 위에 있다. 가격이 세 선 모두에서 크게 벌어져 있다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "시장 판정이 빨간불에서 바뀌는지(10일선이 20일선 위로 올라오는지)",
+          "거래량이 줄어든 횡보 구간이 새로 만들어지는지",
+          "횡보 뒤 피벗이 생기면 거래량이 20일 평균의 2배 이상 실리며 넘는지",
+          "3분기 이후 분기 순이익이 전년보다 늘기 시작하는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 실적은 11월 5일에 발표됐다.",
+        "lead": "MIDD 는 최근 1개월 상승이 업종 안에서도 상위권이라 목록에 올랐다. 가장 강한 근거는 11월 5일 실적 상회와 가이던스 상향이다. 걱정은 순이익이 전년보다 줄고 올해 매출 전망이 21% 줄어든다는 점, 시장이 빨간불이라는 점이다. 이후 분기 이익이 늘지 못하거나 가격이 50일선 아래로 내려오면 이 그림은 깨진다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "e1"
+          ],
+          "reasons": [
+            "r1: '4개 분기 모두 전년보다 늘었다' — quote는 최근 분기(2분기 +9.9%)만 제시, 1~3분기 연속 증가 근거 부재",
+            "e1: 캐너코드 목표가 '160달러' — quote는 JP모건만 있고(165달러) 캐너코드 수치 없음"
+          ],
+          "financialsNarrativeFixed": true
+        },
+        "newDrivers": [],
+        "financialsNarrativeOriginal": "2분기(7월 4일 마감) 매출은 8.76억 달러로 1년 전보다 9.9% 늘었다. 같은 분기 순이익은 5,481만 달러로 48.3% 줄었다. 영업이익은 1년 전과 같은 수준이다. 매출은 4개 분기 연속 늘었지만 순이익은 전년보다 계속 줄거나 적자라 이익 성장은 확인되지 않는다.",
+        "consensus": {
+          "saleCy": -21.02,
+          "saleNy": 4.18,
+          "epsCy": -22.41,
+          "epsNy": 13.42,
+          "cyTrend": 4.45,
+          "nyTrend": 4.64
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "ROP",
@@ -49029,8 +54050,102 @@ window.TEAM2_DATA = {
         "count": 1
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "NXST",
+        "company": "미국 전역에서 지역 방송국을 운영하는 방송 회사. 광고와 케이블·위성사업자가 내는 재송신료로 돈을 번다.",
+        "lead": "넥스타는 3분기에 역대 최대인 분기 매출 21억 달러를 발표한 뒤 주가가 한 달 새 크게 올랐다. ABC 제휴 계약 갱신도 뒷받침했다. 다만 올해 큰 매출 증가가 인수 효과인지, 내년 매출이 줄 것이라는 예상이 맞는지가 확인 대상이다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "자회사 TEGNA가 디즈니와 ABC 제휴 계약을 13개 시장에서 갱신했다. 주요 방송 네트워크와의 계약 불확실성이 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Nexstar Media Group's TEGNA Renews ABC Affiliation Deal With Disney In 13 Markets",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/nexstar-media-groups-tegna-renews-abc-affiliation-deal-disney-13-markets",
+                "date": "2026-10-13",
+                "quote": "Nexstar Media Group's TEGNA Renews ABC Affiliation Deal With Disney In 13 Markets",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "정치 광고 지출이 여전히 지상파 방송에 몰려 방송사에 우호적인 환경이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The political ad wars are still being fought over the airwaves",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/21/why-broadcast-tv-still-dominates-political-ad-spending.html",
+                "date": "2026-10-21",
+                "quote": "The political ad wars are still being fought over the airwaves",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "증권사 예상으로는 내년 매출이 5% 정도 줄고 주당순이익도 크게 감소할 것으로 잡혀 있다. 올해 선거 광고 효과가 빠지기 때문이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Nexstar 사이트 전망 데이터",
+                "publisher": "RS 사이트",
+                "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                "date": "2026-11-11",
+                "quote": "saleNy: -5.42, epsNy: -34.26",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "주가는 52주 고점(약 249달러)보다 아래이고 이익 대비 주가 배수도 39배로 높다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 시세",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-11-11",
+                "quote": "per: 39.42, high52: 249.0806, last: 206.59",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "themeTags": [
+          "방송·미디어",
+          "정치 광고",
+          "지역방송 통합"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1의 '직전 분기(6월 말) 매출도 19.9억 달러로 1년 전보다 62%'는 Fintel quote의 $2.1B 기사에 없음",
+            "lead의 '방송국 인수로 덩치가 커졌고' 표현은 sources에 명시되지 않아 제거"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "넥스타는 3분기에 역대 최대인 분기 매출 21억 달러를 발표한 뒤 주가가 한 달 새 크게 올랐다. 방송국 인수로 덩치가 커졌고 ABC 제휴 계약도 갱신됐다. 다만 올해 큰 매출 증가가 인수 효과인지, 내년 매출이 줄 것이라는 예상이 맞는지가 확인 대상이다.",
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "넥스타 미디어 그룹",
       "nameEn": "NEXSTAR MEDIA GROUP INC",
@@ -49690,7 +54805,294 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "NXST",
+        "company": "넥스타 미디어 그룹은 미국 지역 방송국을 대규모로 운영하며 광고와 방송사 재송신료로 돈을 번다. 선거철 정치 광고가 큰 매출원이다. 최근 TEGNA 인수 등으로 몸집이 커져 분기 매출이 1년 전보다 크게 늘었다.",
+        "lead": "NXST는 최근 1개월 주가가 28.7% 올라 업종 안에서 단기 상승률 상위로 목록에 올랐다. 가장 강한 근거는 분기 매출이 1년 전보다 62.2% 늘고 영업이익도 70% 늘었다는 점이다. 걱정은 주가가 이미 피벗(넘으면 사는 선)보다 16.2% 위에 있고, 시장 신호가 빨간불이며, 최근 두 분기 이익이 예상치를 밑돌았다는 것이다. 피벗 위에서 거래량이 유지되지 못하거나 20일선 아래로 내려가면 이 그림은 약해진다.",
+        "newsNarrative": "11월 5일 넥스타가 분기 매출 21억 달러로 사상 최대라고 발표했다. 주가는 실적일 갭 상승 뒤 장중 반락했지만 이후 며칠간 다시 올랐다. 10월에는 자회사 TEGNA가 디즈니 ABC 제휴를 13개 시장에서 갱신했다. 정치 광고가 방송사 매출을 떠받친다는 CNBC 기사도 나왔다. 11월 6일과 9일에는 웰스파고와 씨티가 목표가를 올렸다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "넥스타가 11월 5일 분기 순매출 21억 달러로 사상 최대를 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Nexstar Media Group Reports Record Quarterly Net Revenue of $2.1 Billion",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/nexstar-media-group-reports-record-quarterly-net-revenue-21-billion",
+                "date": "2026-11-05",
+                "quote": "Nexstar Media Group Reports Record Quarterly Net Revenue of $2.1 Billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "TEGNA가 디즈니와 ABC 제휴를 13개 시장에서 갱신했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Nexstar Media Group's TEGNA Renews ABC Affiliation Deal With Disney In 13 Markets",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/nexstar-media-groups-tegna-renews-abc-affiliation-deal-disney-13-markets",
+                "date": "2026-10-13",
+                "quote": "Nexstar Media Group's TEGNA Renews ABC Affiliation Deal With Disney In 13 Markets",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "방송 TV가 여전히 정치 광고 지출을 지배한다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The political ad wars are still being fought over the airwaves",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/21/why-broadcast-tv-still-dominates-political-ad-spending.html",
+                "date": "2026-10-21",
+                "quote": "The political ad wars are still being fought over the airwaves",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "11월 9일 씨티가 목표가를 215달러에서 225달러로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance 애널리스트 투자의견 변경",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/NXST/analysis/",
+                "date": "2026-11-09",
+                "quote": "Citigroup Buy Buy Raises 225 (prior 215)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "2026년 2분기 매출은 19.9억 달러로 1년 전보다 62.2% 늘었다. 영업이익은 3.62억 달러로 70% 늘었지만, 순이익은 1.2억 달러로 23.7% 증가에 그쳤다. 영업이익률은 18.2%로 직전 4분기 중 가장 높은 수준에 가깝다. 다만 2025년 4분기 순이익은 적자였고, 이익 증가가 분기마다 고르지는 않았다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "2026년 2분기 영업이익 3.62억 달러(1년 전보다 70% 증가), 순이익 1.2억 달러(23.7% 증가).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표 (NXST)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001142417&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30 profit 362000000 netIncome 120000000 yoy profit 70 netIncome 23.7",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "올해 EPS 전망은 30일 전보다 3.2% 올랐으나 내년 전망은 2.5% 낮아졌다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Yahoo Finance NXST analysis",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/NXST/analysis/",
+                    "date": "2026-11-11",
+                    "quote": "0y now 34.56 d30 3.2 ago90 33.5; +1y now 22.72 d30 -2.5 ago90 23.3",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "올해 EPS 전망은 34.56달러로 30일 전보다 3.2% 올랐다. 내년은 22.72달러로 2.5% 낮아졌고, 7일 변화는 하향 3명으로 기울었다. 최근 두 분기 EPS는 예상치를 16.5%, 33.4% 밑돌았고 매출 성장은 인수 효과가 커 보인다. 내년 매출은 올해보다 5.4% 줄어든다는 전망이다.",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "순이익 전년비 +23.7%(기준 25% 미만), 매출 +62.2%, 영업이익 +70% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 순이익 전년비 +23.7%, +51.9%, -194.6%, -62.6%로 4분기 연속 플러스 아님 (순이익 기준, 주식 수 변동 미반영). 3년·ROE 확인 불가"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "확인 불가",
+            "evidence": "N 심층분석 대기"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.64배로 마르지 않음. 시총 6.37B, 유통주식 확인 불가"
+          },
+          {
+            "item": "L 업종 주도 여부",
+            "status": "충족",
+            "evidence": "RS 상위 백분위 1개월 98.2, 3개월 81.6 (6개월은 55.9)"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 빨강(10일선이 20일선 아래 16일째), 마진부채 1년 전보다 +31.4% 경고"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "최근 두 분기 EPS가 예상치를 밑돌았다(9월 분기 -16.5%, 6월 분기 -33.4%).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance NXST analysis 서프라이즈",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/NXST/analysis/",
+                "date": "2026-11-11",
+                "quote": "2026-09-30 actual 9.91 estimate 11.87 surprisePct -16.5; 2026-06-30 actual 4.98 estimate 7.47 surprisePct -33.4",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "내년 매출과 EPS는 올해보다 줄어든다는 전망이다(매출 -5.4%, EPS -34.3%). 정치 광고가 몰린 해의 기저 효과로 보인다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Yahoo Finance NXST analysis 연간 전망",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/NXST/analysis/",
+                "date": "2026-11-11",
+                "quote": "+1y eps 22.72 epsGrowth -34.3 rev 7524470260 revGrowth -5.4",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "광고 수입이 선거 주기에 따라 크게 출렁인다.",
+          "방송사 재송신료와 네트워크 제휴 갱신 조건에 수익이 좌우된다.",
+          "인수로 키운 몸집이라 부채·통합 부담이 따른다."
+        ],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 15.1%(30% 미만, 약함), 1개월 수익률 28.67%, 3개월 11.79%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 39봉, 7.8주"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 2회는 성립하나 진폭 1.08배로 좁아지지 않음"
+          },
+          {
+            "item": "4 깊이",
+            "status": "미충족",
+            "evidence": "선행 상승 15.1%의 절반을 넘어 되돌림이 깊음"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "현재가 206.59, 20일선 174.47, 50일선 168.65 위"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.64배"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "돌파일(11-03) 거래량 배수 자료 없음. 마지막 봉은 20일 평균의 1.31배"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 피벗 177.8 위 16.19%(4.43 ADR), 돌파일 2026-11-03"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.79%, ADR 3.66% 이하"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 3.08 ADR"
+          },
+          {
+            "item": "11 시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강, 10일선이 20일선 아래 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "베이스는 7.8주(39봉)였고 저점이 두 번 높아졌다. 진폭 비율 1.08배로 폭이 좁아지지는 않았다.",
+          "volume": "횡보 중 거래량이 뚜렷이 마르지는 않았다. 최근 5일 거래량은 20일 평균의 1.64배다. 11월 4일(742,500)과 5일(829,200)에 거래량이 크게 늘었고, 마지막 봉은 500,400이다.",
+          "position": "현재가 206.59는 피벗 177.8보다 16.19% 위이고 돌파일은 11월 3일이다. 예비 손절 172.85까지는 2.79%가 아니라 현재가 기준 훨씬 멀다. 10일선 위로 3.08 ADR 떨어져 있다.",
+          "maStack": "가격이 20일선 174.47, 50일선 168.65, 150일선 180.58 위에 있다. 그림상 20일선과 50일선은 최근 바닥에서 올라오는 중이고 10일선이 가장 가파르다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "피벗 177.8 위에서 거래량 20일 평균 2배 이상이 실렸는지(돌파일 11-03 배수는 별도 확인)",
+          "시장 판정이 빨강에서 노랑 이상으로 바뀌는지(QQQ 10일선이 20일선 위로 복귀)",
+          "피벗까지의 거리가 줄어 1 ADR 안으로 들어오는지, 또는 새 횡보가 만들어지는지"
+        ],
+        "earningsRisk": "11월 5일 3분기 실적이 이미 발표되어 확정된 다음 실적 발표 일정은 없다(달력 기준). 다음 발표는 보통 2027년 2~3월이다. 그 사이 정치 광고가 줄어드는 해라 내년 전망이 낮아지는 점이 변수다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1"
+          ],
+          "reasons": [
+            "r1: '1분기도 13.1% 증가했다' — quote는 2분기 SEC 10-Q 데이터만 포함, 1분기 근거 부재"
+          ]
+        },
+        "newDrivers": [],
+        "consensus": {
+          "saleCy": 60.76,
+          "saleNy": -5.42,
+          "epsCy": 182.05,
+          "epsNy": -34.26,
+          "cyTrend": 3.16,
+          "nyTrend": -2.51
+        },
+        "researchedOn": "2026-11-11",
+        "session": "2026-11-10",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "SITE",
@@ -52100,7 +57502,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "시그넷 주얼러스",
       "nameEn": "SIGNET JEWELERS LTD",
@@ -53954,8 +59356,86 @@ window.TEAM2_DATA = {
         "count": 9
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "ULTA",
+        "company": "미국 최대 뷰티 전문 소매점 체인으로, 화장품·헤어·스킨케어 제품을 매장과 온라인에서 판다. 매출 대부분이 상품 판매에서 나온다.",
+        "lead": "ULTA는 8월 말 발표한 분기 실적에서 매출과 영업이익이 모두 1년 전보다 약 9~10% 늘어난 흐름이 이어지며 한 달 새 주가가 약 15% 올랐다. 실적 증가에 더해 증권 매체들이 이익 증가와 주가 강세를 함께 짚은 점이 근거다. 다음 분기에도 매출·이익 증가율이 유지되는지가 확인되지 않으면 이 이야기는 힘을 잃는다.",
+        "whyRose": [
+          {
+            "id": "w3",
+            "statement": "11월 초 증권 분석 매체들이 ULTA를 주가 상승세가 강한 종목으로 잇달아 소개하며 관심이 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Here's Why Ulta Beauty (ULTA) is a Great Momentum Stock to Buy",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/heres-why-ulta-beauty-ulta-great-momentum-stock-buy",
+                "date": "2026-11-04",
+                "quote": "Here's Why Ulta Beauty (ULTA) is a Great Momentum Stock to Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "주가가 증권사 목표가에 도달했다는 기사가 10월 말 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Ulta Beauty Reaches Analyst Target Price",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/ulta-beauty-reaches-analyst-target-price",
+                "date": "2026-10-30",
+                "quote": "Ulta Beauty Reaches Analyst Target Price",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "성장 속도가 둔해질 수 있다. 올해 대비 내년 예상 매출 증가율은 7.13%에서 5.16%로, 주당순이익 증가율은 12.91%에서 10.53%로 낮아진다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "RS 사이트 추정치",
+                "publisher": "RS Investment",
+                "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                "date": "2026-11-10",
+                "quote": "saleCy 7.13, saleNy 5.16, epsCy 12.91, epsNy 10.53",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "none",
+          "claims": []
+        },
+        "themeTags": [
+          "뷰티 소매",
+          "소비재 리테일"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w2",
+            "c2"
+          ],
+          "reasons": [
+            "w1: 앞선 분기 매출 11.1%, 영업이익 11.6% 수치가 quote에 없음",
+            "w2: quote가 제목만 반복, 구체적 근거 미제공",
+            "c2: 직전 분기 영업이익률 14.2% 데이터가 quote에 없음"
+          ]
+        },
+        "researchedOn": "2026-11-11",
+        "carried": false
       },
       "nameKo": "울타 뷰티",
       "nameEn": "ULTA BEAUTY INC",
@@ -54857,7 +60337,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "PTC",
       "nameEn": "PTC INC",
@@ -55763,7 +61243,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "타일러 테크놀로지스",
       "nameEn": "TYLER TECHNOLOGIES INC",
@@ -64423,21 +69903,344 @@ window.TEAM2_DATA = {
       ],
       "researchedOn": "2026-11-10",
       "sanitized": null
-    }
+    },
+    "llm": {
+      "lists": [
+        {
+          "key": "dollar",
+          "commonIndustries": [
+            {
+              "industry": "Aerospace & Defense",
+              "tickers": [
+                "RKLB",
+                "EMBJ"
+              ],
+              "why": "이유 확인 안 됨. 엠브라에르는 3분기 실적 발표가 있었지만, 로켓 랩은 오늘 상승을 설명하는 최신 기사가 없습니다."
+            }
+          ],
+          "themes": [
+            {
+              "name": "3분기 실적 발표 직후 반응",
+              "plainKo": "여러 종목이 최근 분기 실적과 가이던스를 내놓은 직후에 거래대금이 몰렸습니다. 다만 실적이 시장 예상을 넘었는지는 제공된 제목만으로 확인되지 않습니다.",
+              "why": "테이크투·AAON·엠브라에르·메사랩스는 전날 실적 발표나 콜이 있었습니다. AAON은 3분기 실적과 연간 전망 상향을 발표했고, 메사랩스는 연간 가이던스를 냈습니다. 차터는 지난주 실적과 새 운영 모델을 발표했습니다.",
+              "tickers": [
+                "TTWO",
+                "AAON",
+                "EMBJ",
+                "MLAB",
+                "CHTR"
+              ],
+              "sources": [
+                {
+                  "title": "AAON, Inc. Restates First and Second Quarter 2026 Financials, Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/aaon-inc-restates-first-and-second-quarter-2026-financials-reports-record-third-quarter",
+                  "date": "2026-11-10",
+                  "quote": "AAON, Inc. Restates First and Second Quarter 2026 Financials, Reports Record Third Quarter Results, and Raises Full-Year Outlook",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/mesa-laboratories-inc-reports-second-quarter-fiscal-year-2027-results-and-issues-full-year",
+                  "date": "2026-11-10",
+                  "quote": "Mesa Laboratories, Inc. Reports Second Quarter Fiscal Year 2027 Results and Issues Full-Year Guidance",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "TTWO Q2 Earnings Call Highlights GTA VI Outlook and Booking Trends",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/ttwo-q2-earnings-call-highlights-gta-vi-outlook-and-booking-trends",
+                  "date": "2026-11-10",
+                  "quote": "TTWO Q2 Earnings Call Highlights GTA VI Outlook and Booking Trends",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/charter-communications-inc-announces-third-quarter-2026-results-and-launches-new-operating",
+                  "date": "2026-11-06",
+                  "quote": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "RKLB",
+            "AXSM",
+            "FORTY"
+          ],
+          "narrative": "거래대금 상위 9종목은 업종이 제각각이고, 항공우주·방산 2종목만 업종이 겹칩니다. 공통점은 업종보다 실적 시즌입니다. 테이크투, 차터, AAON, 엠브라에르, 메사랩스가 최근 실적 발표 직후 움직였습니다. 로켓 랩, 액섬, 포뮬러 시스템스는 오늘 상승을 설명하는 최신 자료를 찾지 못했습니다. 실적이 예상을 넘었는지와 가이던스 내용이 확인되면 이 흐름이 맞는지 판단할 수 있습니다.",
+          "label": "거래대금 상위",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "m1",
+          "commonIndustries": [
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "ORKA",
+                "PRAX",
+                "RYTM",
+                "PVLA",
+                "SYRE"
+              ],
+              "why": "5종목 모두 임상·FDA 심사 같은 개별 일정이 주가를 끌고 있습니다. 한 가지 공통 재료라기보다 신약 승인 기대가 각자 겹친 모습입니다."
+            },
+            {
+              "industry": "Industrial Distribution",
+              "tickers": [
+                "POOL",
+                "SITE"
+              ],
+              "why": "둘 다 3분기 실적 발표 이후 강세입니다. 수영장·조경 자재 유통이라는 점 외에 같이 오르는 구체적 이유는 확인 안 됨."
+            }
+          ],
+          "themes": [],
+          "unexplained": [
+            "RHLD",
+            "IDXX",
+            "SWK"
+          ],
+          "narrative": "이번 목록은 바이오 5종목이 가장 크게 몰려 있고, 나머지는 업종이 흩어져 있습니다. 바이오는 임상 결과와 FDA 심사 일정 등 종목별 재료로 움직여 단일 테마로 보기 어렵습니다. 그 밖에는 3분기 실적 호조와 전망 상향이 EPAM·MIDD·ROP·FCN을 묶는 공통 요인입니다. 12월 ORKA 52주 데이터와 PRAX 승인 결정이 확인되면 바이오 강세가 이어지는지 가늠할 수 있습니다.",
+          "label": "RS(1MO)",
+          "factcheck": {
+            "verdict": "partial",
+            "removed": 1
+          }
+        },
+        {
+          "key": "m3",
+          "commonIndustries": [
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA",
+                "KOD",
+                "MANE"
+              ],
+              "why": "모더나는 3분기 실적 호조와 암 백신 기대, 코디악은 습성 황반변성 3상 결과, 베라더믹스는 탈모 3상 성공이 각각 따로 작용했다. 업종 공통의 이유는 확인 안 됨."
+            },
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "PTC",
+                "TYL",
+                "MANH"
+              ],
+              "why": "PTC는 인수 건으로 가이던스를 중단했고, 타일러와 맨해튼은 3분기 실적 발표 이후 흐름이다. 같이 강한 이유는 확인 안 됨."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "GRAL",
+                "RVTY"
+              ],
+              "why": "그레일은 갈레리 FDA 결정 기대, 레비티는 3분기 실적과 투자의견 상향이 배경이다. 서로 다른 이유다."
+            },
+            {
+              "industry": "Information Technology Services",
+              "tickers": [
+                "EPAM",
+                "ACN"
+              ],
+              "why": "액센추어는 10월 초 실적 호조로 급등했고, 이팸은 3분기 실적 뒤 목표가가 올랐다. 둘 다 실적 확인이 상승의 계기다."
+            },
+            {
+              "industry": "Health Information Services",
+              "tickers": [
+                "TEM",
+                "HNGE"
+              ],
+              "why": "둘 다 11월 초 3분기 실적을 발표했고 힌지는 예상치를 웃돌았다. 업종 차원의 별도 이유는 확인 안 됨."
+            },
+            {
+              "industry": "Apparel Retail",
+              "tickers": [
+                "ANF",
+                "VSXY"
+              ],
+              "why": "두 종목 모두 모멘텀 종목으로 소개됐으나 같이 오르는 구체적 이유는 확인 안 됨."
+            }
+          ],
+          "themes": [
+            {
+              "name": "3분기 실적 호조와 전망 상향",
+              "plainKo": "업종은 달라도 3분기 실적이 예상을 웃돌고 전망을 올린 종목들이 3개월 강세 목록에 올랐다. 실적 확인이 매수세의 공통 계기로 보인다.",
+              "why": "모더나는 분기 실적이 추정치를 웃돌고 올해 매출 성장 전망을 높였다. 헤모네틱스는 연간 매출 전망을 올렸고, FTI 컨설팅은 실적 호조 뒤 주가가 올랐다. 힌지 헬스도 예상치를 넘겼다.",
+              "tickers": [
+                "MRNA",
+                "HAE",
+                "FCN",
+                "HNGE"
+              ],
+              "sources": [
+                {
+                  "title": "Moderna hikes 2026 sales growth outlook, smashes quarterly estimates",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html",
+                  "date": "2026-11-06",
+                  "quote": "Moderna hikes 2026 sales growth outlook, smashes quarterly estimates",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Haemonetics Reports Q2 Fiscal 2027 Results; Raises Full-Year Revenue And Organic Growth Outlook",
+                  "publisher": "RTTNews",
+                  "url": "https://www.nasdaq.com/articles/haemonetics-reports-q2-fiscal-2027-results-raises-full-year-revenue-and-organic-growth",
+                  "date": "2026-11-05",
+                  "quote": "Haemonetics Reports Q2 Fiscal 2027 Results; Raises Full-Year Revenue And Organic Growth Outlook",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "FCN Q3 Earnings & Revenues Top Estimates, Stock Gains 14.3%",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/fcn-q3-earnings-revenues-top-estimates-stock-gains-143",
+                  "date": "2026-10-30",
+                  "quote": "FCN Q3 Earnings & Revenues Top Estimates, Stock Gains 14.3%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-beats-q3-earnings-and-revenue-estimates",
+                  "date": "2026-11-02",
+                  "quote": "Hinge Health Inc. (HNGE) Beats Q3 Earnings and Revenue Estimates",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "KOD",
+            "GRAL",
+            "EL",
+            "ULTA",
+            "SIG",
+            "ANF",
+            "VSXY",
+            "WING",
+            "XMTR",
+            "VEON",
+            "TYL",
+            "MANH",
+            "PTC",
+            "TEM",
+            "EPAM",
+            "ACN",
+            "RVTY",
+            "MANE"
+          ],
+          "narrative": "3개월 강세 22종목은 바이오, 응용 소프트웨어, IT 서비스, 헬스 정보·진단, 소비재로 흩어져 있다. 두 종목 이상 겹친 업종은 6곳이지만 업종 전체를 설명하는 하나의 이유는 확인되지 않았다. 그나마 공통으로 보이는 흐름은 11월 초 3분기 실적이 예상을 웃돌거나 전망을 올린 종목들이다. 이 흐름은 다음 분기에도 실적 상향이 이어지는지로 맞는지 틀린지 확인된다.",
+          "label": "RS(3MO)",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "m6",
+          "commonIndustries": [
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "TWST",
+                "CRL",
+                "GRAL",
+                "ICLR"
+              ],
+              "why": "제약·바이오의 연구 자금이 늘며 연구 대행·유전자 분석 기업에 주문이 돌아왔다. GRAL은 암 조기진단 검사의 FDA 결정 기대가 따로 작용했다."
+            },
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA",
+                "KOD",
+                "ORKA"
+              ],
+              "why": "세 종목 모두 임상 결과나 신약 후보 성과가 올랐다. 바이오 업종 전반의 반등 흐름도 뒷받침했다."
+            },
+            {
+              "industry": "Health Information Services",
+              "tickers": [
+                "HNGE",
+                "VEEV",
+                "TEM"
+              ],
+              "why": "세 종목 모두 최근 실적 발표 뒤 강세다. 다만 같은 이유로 오르는지는 확인되지 않았다."
+            },
+            {
+              "industry": "Medical Devices",
+              "tickers": [
+                "TXG",
+                "HAE"
+              ],
+              "why": "이유 확인 안 됨"
+            },
+            {
+              "industry": "Apparel Retail",
+              "tickers": [
+                "VSXY",
+                "ANF"
+              ],
+              "why": "ANF는 실적 발표 뒤 이익 개선으로 올랐다. VSXY는 이유 확인 안 됨."
+            },
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "MANH",
+                "SNOW"
+              ],
+              "why": "MANH는 3분기 실적이 예상을 웃돌았다. SNOW의 이유는 확인 안 됨."
+            }
+          ],
+          "themes": [],
+          "unexplained": [
+            "VSXY",
+            "SNOW",
+            "CAKE",
+            "KNSA",
+            "TEM",
+            "GRAL"
+          ],
+          "narrative": "22종목 중 바이오·진단·연구 쪽이 가장 많이 몰렸다. 바이오 업종 반등과 임상 성과, 연구 자금 회복이 겹친 영향으로 보인다. 소비·소프트웨어·IT 유통은 최근 분기 실적 호조로 오른 종목이 많다. 바이오 반등이 이어지려면 개별 임상·FDA 일정이 확인돼야 하고, 실적 쪽은 다음 분기 전망이 유지돼야 한다.",
+          "label": "RS(6MO)",
+          "factcheck": {
+            "verdict": "partial",
+            "removed": 2
+          }
+        }
+      ],
+      "researchedOn": "2026-11-11",
+      "sanitized": null
+    },
+    "reusedFrom": null
   },
   "fs_coverage": {
     "have": 33,
     "total": 35
   },
   "research_coverage": {
-    "done": 33,
+    "done": 52,
     "total": 62,
     "cap": 20,
-    "pending": 29,
+    "pending": 10,
     "failed": 0,
-    "carried": 33,
+    "carried": 32,
     "ineligible": 0,
-    "note": "62종목 중 33종목을 조사했습니다. 그중 33종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 29종목은 상한(20) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 2팀 선정 종목과 5개 목록 종목을 함께 순환 조사합니다(거래대금 상위·세 기간 공통 먼저)."
+    "note": "62종목 중 52종목을 조사했습니다. 그중 32종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 10종목은 상한(20) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "detail_coverage": {
     "done": 57,
