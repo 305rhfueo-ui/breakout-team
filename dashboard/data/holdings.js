@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-12T13:00:18.774Z",
+  "updated": "2026-11-12T22:10:04.262Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "신한투자증권 심지현",
           "ko": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
           "easy": "한 국내 증권사 리포트가 팔란티어는 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 소버린 AI 수요, 파일럿에서 실제 도입까지 걸리는 기간 단축, 3분기 실적 강세가 연간 가이던스 상향의 근거로 제시됐다. 본문은 없고 요약만 확인했다.",
           "whyMatters": "AI 에이전트 확산이 팔란티어에 위협이 아니라 기회가 될 수 있다는 시각이라, 보유자에게는 우호적인 해석이다. 다만 한 증권사의 의견이다.",
