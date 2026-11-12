@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "ticker": "NWE",
+      "price": 84.97000122070312,
+      "category": 5,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GIB",
+      "price": 81.12999725341797,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "HWC",
+      "price": 72.37999725341797,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+ "ticker": "ORCL",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "오라클",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 34.28,
+  "saleNy": 45.74,
+  "epsCy": 6.84,
+  "epsNy": 35.72,
+  "est": {
+   "cyCur": 8.1518,
+   "cy30": 8.14059,
+   "nyCur": 11.06356,
+   "ny30": 10.99899
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    20.63,
+    21.66,
+    14.22
+   ],
+   "ni": [
+    23.23,
+    25.99,
+    94.7
+   ],
+   "opm": [
+    31.98,
+    31.79,
+    29.46
+   ],
+   "updated": "2026-09-08 06:01:51"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-12",
+  "nameKo": "오라클",
+  "nameEn": "ORACLE CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-31",
+     "derived": false,
+     "revenue": 19345000000,
+     "profit": 6728000000,
+     "netIncome": 4760000000,
+     "margin": 34.8,
+     "yoy": {
+      "revenue": 29.6,
+      "profit": 57.3,
+      "netIncome": 62.6,
+      "priorEnd": "2025-08-31"
+     }
+    },
+    {
+     "periodEnd": "2026-05-31",
+     "derived": true,
+     "revenue": 19184000000,
+     "profit": 6133000000,
+     "netIncome": 4201000000,
+     "margin": 32,
+     "yoy": {
+      "revenue": 20.6,
+      "profit": 20,
+      "netIncome": 22.6,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 17190000000,
+     "profit": 5464000000,
+     "netIncome": 3721000000,
+     "margin": 31.8,
+     "yoy": {
+      "revenue": 21.7,
+      "profit": 25.4,
+      "netIncome": 26.7,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 16058000000,
+     "profit": 4731000000,
+     "netIncome": 6135000000,
+     "margin": 29.5,
+     "yoy": {
+      "revenue": 14.2,
+      "profit": 12.1,
+      "netIncome": 94.7,
+      "priorEnd": "2024-11-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Oracle Stock Is Up Today",
+     "url": "https://www.nasdaq.com/articles/why-oracle-stock-today-0",
+     "date": "2026-11-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Oracle (ORCL) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-oracle-orcl-fell-more-broader-market-0",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Down 40% in 2026, Is it Time to Buy Oracle Stock on the Dip?",
+     "url": "https://www.nasdaq.com/articles/down-40-2026-it-time-buy-oracle-stock-dip",
+     "date": "2026-11-10",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Oracle (ORCL) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-oracle-orcl-strong-value-stock-0",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-14",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-20260610.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-12",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526219708/d76569d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 18,
+   "reports": [
+    {
+     "date": "2026-11-03",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[오라클 (NYS:ORCL)] [Issue & News] 보통주·선순위채로 200억 달러 조달 - 자본지출 900억~950억 달러 재원 선제 확보",
+     "summary": "- 오라클 보통주·채권으로 총 200억 달러 조달- 주당 116달러, 선순위채 100억 달러는 2029~46년 만기- 자본지출 확대 속 부채·희석 부담도 커짐",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqimqmklzcelgcgxeeeg.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[오라클 (NYS:ORCL)] [Issue & News] 2030회계연도까지 추가 자본조달 200억 달러로 제한 - 지분 희석·이자비용 확대 우려에 상한선",
+     "summary": "- 29회계연도 자유현금흐름 300억달러 이상, 28회계연도 하반기 흑자전환- 2030회계연도 매출 2,250억달러 · 영업이익률 40%대 신규 가이던스- 추가 자본조달 200억달러로 제한, 29회계연도부터 자체자금조달",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiexmkelqgllgcgxeeeg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[오라클 (NYS:ORCL)] 비용 우려를 경감하면서 성장 가속화",
+     "summary": "- 매출 +30% YoY(이하 생략), 클라우드 매출 +62%, 인프라 매출 +121% 등 전반적으로 강한 실적. FY27년 가이던스 역시 긍정적.- RPO 6,640억달러(전분기 대비 +2,090억달러). 신규 계약의 대부분은 선 불, BYOH(고객 하드웨어 부담)이기 때문에 CapEx가 발생은 하지만 추가 자본이 필요 없다는 설명- 작년 말 이후 비용, FCF, 자금 조달 우려 등으로 주가가 장기간 하락해 현 재 12M FWD PER 16.6배 수준. 최근 AI 인프라 업체들의 강세 대비 저렴 한 수준으로, 회사가 비용 우려에 대해 구체적으로 대응하는 점이 긍정적. 10월 Investor Day에서 발표될 중장기 전략을 기대. 투자 판단 소폭 상향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmgmgmgqeqliegcgxeeeg.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[오라클 (NYS:ORCL)] 내 돈 말고, 고객 돈으로",
+     "summary": "- 오라클은 데이터베이스 관리 시스템과 클라우드 인프라를 제공하는 글로벌 IT 기업- FY1Q27 OCI 매출은 121% 증가하며 9분기 연속 성장률이 가속됨- 백로그의 실제 매출 전환과 고객 자금을 활용한 CapEx 구조의 지속성에 주목",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmgeekgicqzligcgxeeeg.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[오라클 (NYS:ORCL)] 매출 전환의 시험대",
+     "summary": "- 1분기 실적은 매출 193.5억달러(+29.6%yoy), EPS 1.92달러로 컨센서스 를 상회. 견조한 AI 클라우드 수요로 IaaS 매출은 73.9억달러(+121%yoy) 를 기록하며 최초로 세자릿수 성장률에 진입. IaaS 매출의 88% 수준을 차 지하는 GPU/CPU 인프라 매출은 전년비 151% 성장. 반면 GPM은 IaaS 비중 확대로 전분기(66.3%) 대비 5%p 이상 하락한 61%를 기록하며 마진 압박이 한층 심화.- RPO는 전분기 대비 260억달러 증가한 6,640억달러(+46%yoy)를 기록. 1 분기 중 300억달러 규모의 추가 AI 인프라 계약을 체결했으며, 대부분 선수 금·BYOH 방식으로 구성되어 오라클의 추가 자금 조달이 불필요하다는 점 이 긍정적. 갱신 계약은 기존 계약 단가 대비 20% 프리미엄에 체결되며, AI 수요 급증에 따른 주요 CSP들의 협상력 강화를 확인. 오라클은 향후 36개 월 내 RPO의 약 절반이 매출로 전환될 것으로 예상.- 2분기 가이던스 상 매출은 212억달러(+32%yoy)로 컨센을 상회했으나, EPS는 1.89달러로 컨센을 하회. F27 가이던스는 매출 900억달러 이상, EPS 8.1달러로 소폭 상향 조정. F27 연간 캐팩스는 925억달러 수준을 유 지했으며, 선수금을 제외한 순캐팩스는 700억달러 미만이 될 것으로 언급.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmecelcxlgiklgcgxeeeg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[오라클 (NYS:ORCL)] [27Q1 Review] 인도 실적이 백로그를 대체했다, 투자의견 매수 유지",
+     "summary": "- 매출 193억 달러(+30%), IaaS +121%로 재가속- non-GAAP EPS 1.92달러로 컨센 1.74달러 상회- RPO 6,640억 반등, 신규 계약은 300억대로 축소",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmclliqlikgicgcgxeeeg.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[오라클 (NYS:ORCL)] [Issue & News] 국방부 70억 달러 소프트웨어 계약 수주 - RPO 파이프라인의 질적 다변화 신호",
+     "summary": "- 국방부 70억 달러 계약으로 공공 부문이 수주 파이프라인에 합류- FY27 가이던스 900억 달러 가시성 추가 뒷받침, FCF 부담 구조는 미변- 매출 인식 시점·선급금 구조 확인이 실질 영향 판단의 선결 과제",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzcqczeqziemlgcgxeeeg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-06-12",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[오라클 (NYS:ORCL)] 숫자는 좋지만 문제는 타이밍",
+     "summary": "- CapEx 가이던스 급증, 부채 예고 등으로 직후 주가 하락- FY4Q26 Review: 느린 매출 인식과 빠른 지출, 문제는 그 사이 타이밍- Valuation: 언제까지 인내할 것인가의 문제",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlegellmxxqgezgcgxeeeg.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+   "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI debt concerns: ING reportedly seeks buyers for data center loan book",
+   "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+   "url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Oracle, SpaceX, Tempus AI, Rivian & more",
+   "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-midday-orcl-spcx-tem-rivn.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Watch CNBC's full interview with Oracle CFO Hilary Maxson",
+   "url": "https://www.cnbc.com/video/2026/11/10/watch-cnbcs-full-interview-with-oracle-cfo-hilary-maxson.html",
+   "date": "2026-11-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Oracle CFO Hilary Maxson: We have five large data centers under construction already in U.S.",
+   "url": "https://www.cnbc.com/video/2026/11/10/oracle-cfo-hilary-maxson-we-have-five-large-data-centers-under-construction-already-in-u-s.html",
+   "date": "2026-11-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ORCL",
+  "fetchedAt": "2026-11-12",
+  "source": "한국투자증권 Open API",
+  "per": 20.13,
+  "pbr": 6.28,
+  "eps": 6.38,
+  "bps": 20.44,
+  "shares": 3023740000,
+  "marketCapM": 388188,
+  "high52": 248.4634,
+  "high52Date": "2026-06-01",
+  "low52": 109.21,
+  "low52Date": "2026-11-06",
+  "last": 128.38,
+  "prevClose": 117.98,
+  "nameKo": "오라클",
+  "nameEn": "ORACLE CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 3023740000
+ }
+}

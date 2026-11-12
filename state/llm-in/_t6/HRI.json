@@ -1,0 +1,711 @@
+{
+ "ticker": "HRI",
+ "date": "2026-11-12",
+ "session": "2026-11-11",
+ "source": "list",
+ "plan": {
+  "ticker": "HRI",
+  "name": "허크 홀딩스",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
+  "price": 173.89999389648438,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 6.59,
+  "extensionAdr": 0.83,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.46546955669052925,
+    "pct": 99.50405770964834
+   },
+   "m3": {
+    "v": 0.08444843162514797,
+    "pct": 65.96032461677187
+   },
+   "m6": {
+    "v": 0.38713097161369164,
+    "pct": 86.69972948602344
+   }
+  },
+  "ret1m": 41.26,
+  "ret3m": 4.76,
+  "ret6m": 35.54,
+  "marketCap": "5.51B",
+  "volx": 0.72,
+  "volSurgeWk": 0.92,
+  "high52": 93.7,
+  "newHigh52": false,
+  "adr": 6.59,
+  "div50": 23.59,
+  "div200": 25.73,
+  "targetStatus": true,
+  "saleCy": 15.79,
+  "saleNy": 9.07,
+  "epsCy": 14.25,
+  "epsNy": 34.49,
+  "cyTrend": 21.86,
+  "nyTrend": 7.01,
+  "est": {
+   "cyCur": 8.69452,
+   "cy30": 7.13505,
+   "nyCur": 11.69361,
+   "ny30": 10.92746
+  },
+  "fs": {
+   "sale": [
+    20.16,
+    32.29,
+    27.13
+   ],
+   "ni": [
+    "흑자전환",
+    "적자확대",
+    "흑자전환"
+   ],
+   "opm": [
+    12.21,
+    9.39,
+    14.39
+   ],
+   "updated": "2026-09-08 08:36:06"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-11",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": {
+  "score": 5,
+  "reasons": [
+   "최근 1주 거래량이 한 달 평균의 0.61배로 줄었다(팔 사람이 줄어듦)",
+   "넘어야 할 선 $176 바로 아래(-1.19%)",
+   "1년 최고가의 93.7% 자리"
+  ],
+  "resistance": 176
+ },
+ "detail": {
+  "fetchedAt": "2026-11-12",
+  "nameKo": "허크 홀딩스",
+  "nameEn": "HERC HOLDINGS INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364479&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 193000000,
+     "profit": 120000000,
+     "netIncome": 104000000,
+     "margin": 62.2,
+     "yoy": {
+      "revenue": -25.5,
+      "profit": 215.8,
+      "netIncome": 246.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 204000000,
+     "profit": 24000000,
+     "netIncome": 19000000,
+     "margin": 11.8,
+     "yoy": {
+      "revenue": 6.3,
+      "profit": 152.2,
+      "netIncome": 154.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 220000000,
+     "profit": -23000000,
+     "netIncome": -24000000,
+     "margin": -10.5,
+     "yoy": {
+      "revenue": 29.4,
+      "profit": -187.5,
+      "netIncome": -33.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 241000000,
+     "profit": 17000000,
+     "netIncome": 24000000,
+     "margin": 7.1,
+     "yoy": {
+      "revenue": 42.6,
+      "profit": 139.5,
+      "netIncome": 152.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Does Herc Holdings (HRI) Have the Potential to Rally 25.9% as Wall Street Analysts Expect?",
+     "url": "https://www.nasdaq.com/articles/does-herc-holdings-hri-have-potential-rally-259-wall-street-analysts-expect",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Herc: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/herc-3-key-takeaways-long-term-investors",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Zacks.com featured highlights include Element Solutions, RTX and Herc",
+     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-include-element-solutions-rtx-and-herc",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Herc Holdings Stock Surged This Week",
+     "url": "https://www.nasdaq.com/articles/why-herc-holdings-stock-surged-week",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Herc Holdings (HRI) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-herc-holdings-hri-strong-momentum-stock",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Transportation Stocks Lagging  Herc Holdings (HRI) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-transportation-stocks-lagging-herc-holdings-hri-year",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1364479/000162828026067391/hri-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-26",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1364479/000162828026067160/hri-20261023.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1364479/000162828026060440/hri-20260831.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000112/hri-20260819.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000108/hri-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1364479/000136447926000103/hri-20260514.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "HRI",
+  "fetchedAt": "2026-11-12",
+  "source": "한국투자증권 Open API",
+  "per": 118.45,
+  "pbr": 3.07,
+  "eps": 1.47,
+  "bps": 56.59,
+  "shares": 33463400,
+  "marketCapM": 5819,
+  "high52": 185.5896,
+  "high52Date": "2026-02-11",
+  "low52": 87.562,
+  "low52Date": "2026-04-02",
+  "last": 173.9,
+  "prevClose": 164.59,
+  "nameKo": "허크 홀딩스",
+  "nameEn": "HERC HOLDINGS INC",
+  "listedOn": "2016-07-01",
+  "exchange": "뉴욕거래소",
+  "listedShares": 33463400
+ },
+ "estimates": {
+  "ticker": "HRI",
+  "url": "https://finance.yahoo.com/quote/HRI/analysis/",
+  "fetchedAt": "2026-11-12",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.89,
+    "epsLow": 1.92,
+    "epsHigh": 3.32,
+    "epsYearAgo": 2.07,
+    "epsAnalysts": 9,
+    "epsGrowth": 39.5,
+    "epsCur": "USD",
+    "rev": 1359597390,
+    "revAnalysts": 8,
+    "revYearAgo": 1209000000,
+    "revGrowth": 12.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.65,
+    "epsLow": 0.42,
+    "epsHigh": 3.63,
+    "epsYearAgo": 0.21,
+    "epsAnalysts": 6,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 1242954980,
+    "revAnalysts": 5,
+    "revYearAgo": 1139000000,
+    "revGrowth": 9.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 8.69,
+    "epsLow": 7.49,
+    "epsHigh": 10.85,
+    "epsYearAgo": 7.61,
+    "epsAnalysts": 11,
+    "epsGrowth": 14.2,
+    "epsCur": "USD",
+    "rev": 5066854960,
+    "revAnalysts": 11,
+    "revYearAgo": 4376000000,
+    "revGrowth": 15.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 11.69,
+    "epsLow": 9.51,
+    "epsHigh": 14.52,
+    "epsYearAgo": 8.69,
+    "epsAnalysts": 11,
+    "epsGrowth": 34.5,
+    "epsCur": "USD",
+    "rev": 5526397330,
+    "revAnalysts": 11,
+    "revYearAgo": 5066854960,
+    "revGrowth": 9.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.89,
+    "d7": -2.4,
+    "d30": 18.6,
+    "d90": 22.9,
+    "ago90": 2.35,
+    "up7": 6,
+    "up30": 8,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.65,
+    "d7": -19.8,
+    "d30": 153.6,
+    "d90": 103.5,
+    "ago90": 0.81,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 8.69,
+    "d7": -1.4,
+    "d30": 21.9,
+    "d90": 15.9,
+    "ago90": 7.5,
+    "up7": 9,
+    "up30": 10,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 11.69,
+    "d7": -0.1,
+    "d30": 7,
+    "d90": 15.7,
+    "ago90": 10.11,
+    "up7": 8,
+    "up30": 8,
+    "down7": 2,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.91,
+    "estimate": 2.92,
+    "surprisePct": 33.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.43,
+    "estimate": 0.73,
+    "surprisePct": 95,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.21,
+    "estimate": -0.21,
+    "surprisePct": 201.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.07,
+    "estimate": 1.87,
+    "surprisePct": 11,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 8,
+   "ptLowered": 2,
+   "total": 10,
+   "recent": [
+    {
+     "date": "2026-10-29",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 200,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 180,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 230,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "BNP Paribas",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 176,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 200,
+     "ptPrior": 176
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 240,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 150,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 176,
+     "ptPrior": 218
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "JP Morgan",
+     "action": "up",
+     "from": "Neutral",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-08-17",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 218,
+     "ptPrior": 176
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-27",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-11",
+  "numbers": {
+   "price": 173.9,
+   "ma20": 149.09,
+   "ma50": 140.7,
+   "ma150": 141.92,
+   "distMA50": 23.59,
+   "periodHigh": 236.39,
+   "pullbackFromHigh": -26.44,
+   "volRatio20": 0.62,
+   "dryUpRatio": 0.61
+  },
+  "last10": [
+   {
+    "d": "2026-10-29",
+    "o": 167.01,
+    "h": 174.42,
+    "l": 166,
+    "c": 173.95,
+    "v": 947100,
+    "clsPos": 94,
+    "gapPct": 0.51
+   },
+   {
+    "d": "2026-10-30",
+    "o": 172.01,
+    "h": 172.66,
+    "l": 163.05,
+    "c": 165.76,
+    "v": 690200,
+    "clsPos": 28,
+    "gapPct": -1.12
+   },
+   {
+    "d": "2026-11-02",
+    "o": 168.12,
+    "h": 174.4,
+    "l": 167.71,
+    "c": 168.14,
+    "v": 757600,
+    "clsPos": 6,
+    "gapPct": 1.42
+   },
+   {
+    "d": "2026-11-03",
+    "o": 170.12,
+    "h": 172.97,
+    "l": 165.26,
+    "c": 170.01,
+    "v": 449300,
+    "clsPos": 62,
+    "gapPct": 1.18
+   },
+   {
+    "d": "2026-11-04",
+    "o": 172.56,
+    "h": 172.58,
+    "l": 153.5,
+    "c": 158.41,
+    "v": 749500,
+    "clsPos": 26,
+    "gapPct": 1.5
+   },
+   {
+    "d": "2026-11-05",
+    "o": 157.9,
+    "h": 160.87,
+    "l": 146.4,
+    "c": 149.81,
+    "v": 652800,
+    "clsPos": 24,
+    "gapPct": -0.32
+   },
+   {
+    "d": "2026-11-06",
+    "o": 152.61,
+    "h": 156.08,
+    "l": 150.01,
+    "c": 151.94,
+    "v": 446000,
+    "clsPos": 32,
+    "gapPct": 1.87
+   },
+   {
+    "d": "2026-11-09",
+    "o": 155.69,
+    "h": 169.53,
+    "l": 153.88,
+    "c": 167.18,
+    "v": 480600,
+    "clsPos": 85,
+    "gapPct": 2.47
+   },
+   {
+    "d": "2026-11-10",
+    "o": 167.18,
+    "h": 167.98,
+    "l": 163.83,
+    "c": 164.59,
+    "v": 346100,
+    "clsPos": 18,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-11",
+    "o": 167.48,
+    "h": 175.47,
+    "l": 164.31,
+    "c": 173.9,
+    "v": 492500,
+    "clsPos": 86,
+    "gapPct": 1.76
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/HRI-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/HRI-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 17일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "H&E 인수로 커진 규모와 메가 프로젝트 물량이 임대 매출 12% 증가를 끌고 있다",
+  "researchedOn": "2026-11-10"
+ }
+}

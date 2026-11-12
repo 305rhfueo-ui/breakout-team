@@ -517,8 +517,373 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-12",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아 이사회, 젠슨 황 교체 준비 보도",
+        "easy": "월스트리트저널 보도로 엔비디아 이사회가 젠슨 황 CEO를 물러나게 할 준비를 하고 있다고 알려졌다. 황 CEO를 둘러싼 사적 관계 의혹이 배경으로, 회사는 미국 대형 법률회사를 불러 조사에 들어갔다. 보도 직후 주가는 정규장 마감 뒤 거래에서 8% 내렸고 나스닥 선물도 같이 밀렸다. AI 반도체를 15년 넘게 이끌어 온 경영자가 바뀔 수 있다는 점 자체가 당장의 불확실성이다.",
+        "whyMatters": "반도체와 AI 서버 쪽, 특히 NVDA를 중심에 두고 짜인 기술 업종 전반에 단기 악재다. 엔비디아 비중이 큰 지수형 상품도 같이 흔들리니 후임 발표나 이사회 공식 입장이 나오는지를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+            "date": "2026-11-12",
+            "quote": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+            "date": "2026-11-12",
+            "quote": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Nvidia's stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+            "date": "2026-11-12",
+            "quote": "Nvidia's stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "코어위브 3분기 호실적에 하루 24% 급등",
+        "easy": "AI 데이터센터를 임대하는 CoreWeave가 3분기 실적과 전망을 내놓자 하루 24% 넘게 올랐다. 시장이 가장 걱정했던 것은 AI 설비 투자가 식는 것이었는데, 수요가 꺾이지 않았다는 점이 숫자로 확인된 셈이다. 그 덕에 Micron, Lumentum 같은 AI 부품주도 같이 올랐다. 2025년 4월 이후 가장 큰 하루 상승폭이다.",
+        "whyMatters": "메모리 반도체와 광통신 부품, 데이터센터 장비 쪽에 좋은 신호다. 다만 한 회사의 전망이므로 다른 AI 관련 기업 실적에서도 같은 흐름이 확인되는지를 보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+            "date": "2026-11-11",
+            "quote": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
+            "date": "2026-11-11",
+            "quote": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "황 CEO 의혹, 대중국 칩 수출 규제 논의로 번졌다",
+        "easy": "황 CEO를 둘러싼 의혹이 워싱턴 정치권으로 번져 사퇴 요구가 나왔다. 엔비디아는 중국 스파이가 연루됐다는 의혹을 확인하려고 미국 대형 법률회사를 선임했다. 의회에서는 이를 계기로 엔비디아의 중국 AI 칩 수출을 더 조이려는 움직임이 함께 나오고 있다. 경영진 문제가 회사의 매출이 걸린 규제 문제로 옮겨 붙은 것이다.",
+        "whyMatters": "중국 매출 비중이 있는 반도체 설계·장비 업종에 추가 규제 위험이 생긴다. 수출 규제 법안이 실제로 발의되는지, 규제 대상이 AI 칩 전체로 넓어지는지를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+            "date": "2026-11-11",
+            "quote": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-10",
+            "quote": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "유가가 내려도 미 국채 금리는 안 내려간다",
+        "easy": "예전에는 기름값이 떨어지면 물가 부담이 줄어 미 국채 금리도 함께 내려갔다. 지금은 유가가 내려가도 세계에서 가장 중요한 채권시장의 차입 비용이 안 떨어지고 있다. 물가보다 정부의 국채 발행 물량 같은 다른 요인이 금리를 떠받치고 있다는 뜻이다. 금리가 높게 유지되면 주식의 기대 수익과 비교되는 기준이 계속 높은 상태로 남는다.",
+        "whyMatters": "금리에 민감한 부동산·유틸리티와 이익이 먼 미래에 몰린 성장주에 부담이다. 반대로 은행 등 금융은 상대적으로 덜 불리하니 장기 국채 금리 방향을 주 단위로 확인하면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world's most important bond market",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
+            "date": "2026-11-11",
+            "quote": "Falling oil prices are no longer enough to bring down borrowing costs in the world's most important bond market",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "캐나다 대사, 트럼프 관세가 비용 올린다 경고",
+        "easy": "캐나다 대사가 트럼프 행정부의 관세 때문에 비용이 오르고 있다고 공개적으로 경고했다. 관세는 수입 부품과 원자재 가격을 올려 미국 기업의 원가에 바로 붙는다. 그 결과 미국에 들어오려던 투자까지 미뤄질 수 있다는 지적이다. 관세 문제가 물가와 설비투자 양쪽을 동시에 누르는 구도다.",
+        "whyMatters": "캐나다에서 원자재나 부품을 들여오는 자동차·건설자재·에너지 업종의 원가 부담이 커진다. 관세율이 더 올라가는지, 품목이 추가되는지를 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Canada's ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+            "date": "2026-11-11",
+            "quote": "Canada's ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미시시피 상원 선거, 현직 공화당 의원이 패했다",
+        "easy": "미시시피 상원 선거에서 민주당 Scott Colom이 현직 공화당 Hyde-Smith 의원을 눌렀다. 개표 중 격차가 4,400표 넘게 벌어지며 승리가 확정됐다. 공화당이 강한 지역에서 현직이 졌다는 점이 예상 밖이다. 상원 의석 구성이 바뀌면 관세·세제 같은 법안의 통과 가능성도 달라진다.",
+        "whyMatters": "정책에 따라 실적이 움직이는 제약·헬스케어, 에너지 업종에 중기 변수다. 당장의 실적 변화는 아니니 상원에서 어떤 법안이 먼저 다뤄지는지만 확인하면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html",
+            "date": "2026-11-11",
+            "quote": "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
+            "date": "2026-11-11",
+            "quote": "Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니고, 들고 있는 것도 줄일지 따져볼 구간이다. 나스닥100을 따라가는 QQQ는 690.38에서 10일선이 20일선 아래로 내려간 지 17일째이고, 50일선보다도 아래에 있어 짧은 흐름과 중간 흐름이 모두 아래를 향한다. 오늘 뉴스는 방향이 엇갈린다 — 코어위브 실적은 AI 설비투자가 살아 있다는 쪽이지만, 엔비디아 CEO 교체 보도는 지수에서 가장 비중이 큰 종목을 직접 흔드는 악재다. 빚내서 주식을 산 금액이 1년 전보다 31.4% 늘어 주의선을 넘었다는 점도 조심할 대목인데, 이런 상태에서 지수가 내려가면 강제 매도가 겹쳐 낙폭이 커진다. 이번 주는 엔비디아 이사회의 공식 입장과 장기 국채 금리, 그리고 QQQ의 10일선이 20일선 위로 되돌아오는지 세 가지를 보면 된다.",
+    "keyRisks": [
+      "엔비디아 경영진 공백: 지수에서 비중이 가장 큰 종목의 CEO가 바뀔 수 있어, 회사 실적과 무관하게 지수 전체가 끌려 내려갈 수 있다.",
+      "빚으로 산 주식이 많다: 신용으로 산 금액이 주의선을 넘어, 하락이 시작되면 강제 청산이 겹쳐 낙폭을 키운다.",
+      "금리가 안 내려온다: 유가가 떨어져도 미 국채 금리가 버티면, 이익이 먼 미래에 몰린 성장주의 가치가 계속 깎인다.",
+      "관세와 규제: 캐나다 관세 경고와 대중국 칩 수출 규제 논의가 겹치면 제조·반도체의 원가와 매출이 동시에 눌린다."
+    ],
+    "easySummary": [
+      "엔비디아 이사회가 젠슨 황 CEO 교체를 준비한다는 보도에 주가가 시간외에서 8% 빠지고 나스닥 선물도 밀렸다.",
+      "코어위브가 3분기 호실적으로 24% 넘게 오르며 Micron·Lumentum 같은 AI 부품주를 끌어올렸다 — AI 투자는 아직 식지 않았다.",
+      "지수 흐름은 아래를 향하고 신용 매수도 많아, 새로 사기보다 엔비디아 후속 발표와 금리를 먼저 확인할 구간이다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 158,
+      "ok": 267,
+      "unverified": 4,
+      "dead": 0,
+      "stripped": 15,
+      "removed": [],
+      "numberCut": 30,
+      "numberCuts": [
+        {
+          "sentence": "주가가 1년 새 5배 넘게 올라 52주 고점 근처다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 129.7배이고 52주 고점 351.28달러보다 40% 가까이 낮은 상태다.",
+          "missing": [
+            "40"
+          ]
+        },
+        {
+          "sentence": "이번 급등에도 주가는 3개월 전보다 약 35% 낮다.",
+          "missing": [
+            "35"
+          ]
+        },
+        {
+          "sentence": "중기·단기 계약으로 바꾸면서 설비 1MW당 계약 가치가 크게 올랐다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "남성 탈모 3상 임상(304 연구)이 모든 평가 목표를 달성했다는 소식이 10월 19일 나오며 주가가 올랐다.",
+          "missing": [
+            "304"
+          ]
+        },
+        {
+          "sentence": "트레이딩 카드가 장난감·게임 시장에서 가장 큰 카테고리가 됐다는 CEO 발언이 나왔고, 매직 신작 6종이 2027년까지 이어질 예정이라는 기대가 퍼졌다.",
+          "missing": [
+            "6"
+          ]
+        },
+        {
+          "sentence": "영업이익률은 13.3%로 4분기 전 3.1%에서 크게 올랐다.",
+          "missing": [
+            "3.1"
+          ]
+        },
+        {
+          "sentence": "발표 당일 장 시작 전 주가가 17% 뛰었다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "직전 두 분기 증가율(19%, 17%)보다 빨라졌다.",
+          "missing": [
+            "19",
+            "17"
+          ]
+        },
+        {
+          "sentence": "영국 NHS 공동 임상은 1차 목표(3~4기 환자 감소)에 못 미쳤지만, 4기 진단이 줄고 1~2기 발견이 늘어 조기 진단 효과를 보였다는 평가를 받았다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "2분기 영업손실은 약 1.7억 달러로 매출의 3.9배였다.",
+          "missing": [
+            "1.7억 달러",
+            "3.9"
+          ]
+        },
+        {
+          "sentence": "2025년 9월 분기 영업적자(-4%)에서 세 분기 만에 영업이익률 19%로 올라서며 수익성이 뚜렷하게 개선됐다.",
+          "missing": [
+            "19"
+          ]
+        },
+        {
+          "sentence": "11월 2일 3분기 실적이 시장 예상(매출·주당순이익)을 웃돌았다는 보도가 나왔고, 실적 8-K도 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "영업이익률은 29.6%다.",
+          "missing": [
+            "29.6"
+          ]
+        },
+        {
+          "sentence": "고점 102.81달러에서 약 40% 내려 62달러대다.",
+          "missing": [
+            "40"
+          ]
+        },
+        {
+          "sentence": "ORKA는 건선 임상 2b상에서 좋은 결과를 냈고, MANE는 탈모 임상 3상에서 모든 평가변수를 충족했습니다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "몬태나 주 공공서비스위원회가 11월 10일 NorthWestern과 Black Hills의 합병을 3대2로 승인했다.",
+          "missing": [
+            "3",
+            "2"
+          ]
+        },
+        {
+          "sentence": "분기 매출은 41.5억 달러로 1년 전보다 3.3% 늘었고, 주당순이익은 2.24달러로 30.2% 늘었다.",
+          "missing": [
+            "41.5억 달러",
+            "3.3"
+          ]
+        },
+        {
+          "sentence": "수주 잔고는 320.7억 달러로 연 매출의 1.9배이고, 분기 수주는 매출보다 많았다(수주/매출 109.2%).",
+          "missing": [
+            "109.2"
+          ]
+        },
+        {
+          "sentence": "7월 분기 매출 470억 달러, 전년 동기 대비 57.7% 증가.",
+          "missing": [
+            "57.7"
+          ]
+        },
+        {
+          "sentence": "5월 분기는 87.5% 증가.",
+          "missing": [
+            "87.5"
+          ]
+        },
+        {
+          "sentence": "연간 가이던스는 32억 달러.",
+          "missing": [
+            "32억 달러"
+          ]
+        },
+        {
+          "sentence": "연간 가이던스(매출 32억 달러, ARR 80억 달러, EBITDA 마진 40%)를 유지했고 계약용량은 4GW에서 5GW로 올렸다.",
+          "missing": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "sentence": "증권사 전망 기준 2026년 매출은 전년 대비 274.7%, 2027년은 60.4% 증가 예상(원화 기준, 애널리스트 39·46명).",
+          "missing": [
+            "39"
+          ]
+        },
+        {
+          "sentence": "10월 27일 3분기 실적을 발표했고 분기 주당이익이 예상치를 33.8% 웃돌았습니다.",
+          "missing": [
+            "33.8"
+          ]
+        },
+        {
+          "sentence": "2026-09-08 궤양성 대장염 2상(SPY003)에서 긍정적 결과를 발표했다.",
+          "missing": [
+            "09",
+            "08"
+          ]
+        },
+        {
+          "sentence": "2026-10-06 3.5억 달러 규모 공모 가격을 결정했다.",
+          "missing": [
+            "10",
+            "06"
+          ]
+        },
+        {
+          "sentence": "2026-08-26 류마티스 관절염 2상(SPY072)은 효능이 엇갈려 단독 요법의 내부 기준에 못 미쳤다.",
+          "missing": [
+            "08",
+            "26"
+          ]
+        },
+        {
+          "sentence": "2026-11-04 3분기 실적과 회사 현황을 발표했다.",
+          "missing": [
+            "11",
+            "04"
+          ]
+        },
+        {
+          "sentence": "2026-10-06 3.5억 달러 공모로 주식 수가 늘어 기존 주주 몫이 희석됐다.",
+          "missing": [
+            "10",
+            "06"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-12"
   }
 };

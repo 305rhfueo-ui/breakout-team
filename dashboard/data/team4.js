@@ -848,9 +848,56 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:08:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NWE",
+        "category": 5,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "합병은 NorthWestern 1주를 Black Hills 0.98주로 바꾸는 전액 주식 방식이고, 연말 종료가 목표다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Public Service Commission approves NorthWestern Energy, Black Hills Corp merger",
+                "publisher": "Daily Montanan",
+                "url": "https://dailymontanan.com/2026/11/10/public-service-commission-approves-northwestern-energy-black-hills-corp-merger/",
+                "date": "2026-11-10",
+                "quote": "The Montana Public Service Commission approved a $15.4 billion merger between NorthWestern Energy and Black Hills Corporation on November 10, 2026.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ],
+            "statementOriginal": "몬태나 주 공공서비스위원회가 11월 10일 NorthWestern과 Black Hills의 합병을 3대2로 승인했다. 합병은 NorthWestern 1주를 Black Hills 0.98주로 바꾸는 전액 주식 방식이고, 연말 종료가 목표다."
+          },
+          {
+            "id": "c2",
+            "statement": "11월 5일 3분기 실적은 이익이 예상에 못 미쳤고 매출은 9.5% 늘었다. 회사는 2026년 주당순이익 전망을 유지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NorthWestern Energy Reports 9.5% Revenue Growth but Misses Q3 Earnings Estimates",
+                "publisher": "InvestorsHub (Yahoo)",
+                "url": "https://finance.yahoo.com/energy/articles/northwestern-energy-reports-9-5-145255180.html",
+                "date": "2026-11-05",
+                "quote": "NorthWestern Energy Reports 9.5% Revenue Growth but Misses Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "NorthWestern Energy는 몬태나·사우스다코타·네브래스카에서 전기와 천연가스를 규제 요금으로 공급하는 유틸리티다. 블랙힐스와 합병을 추진 중이다.",
+        "volumeExplanation": "11월 10일 몬태나 규제당국이 Black Hills와의 합병을 승인해 마지막 큰 관문이 풀렸고, 합병 차익을 노린 매매로 거래량이 평소의 2배 넘게 늘었다. 실적은 기대에 못 미쳤지만 주된 원인은 아니다. 연말 종료가 확인되고 남은 승인 절차가 정리되면 이 설명이 맞는다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "c2의 '회사는 2026년 주당순이익 전망을 유지했다'는 출처에 없음. volumeExplanation의 '합병 차익을 노린 매매로 거래량이 평소의 2배 넘게'는 근거 없음"
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-11-12",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1498,9 +1545,62 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:15:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GIB",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "CGI가 11월 11일 회계연도 4분기 실적을 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CGI reports fourth quarter and Fiscal 2026 results",
+                "publisher": "PR Newswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/cgi-reports-fourth-quarter-fiscal-113000287.html",
+                "date": "2026-11-11",
+                "quote": "Diluted earnings per share, as a result, were $2.24 compared to $1.72 last year, representing an increase of 30.2%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "CGI가 11월 11일 회계연도 4분기 실적을 발표했다. 분기 매출은 41.5억 달러로 1년 전보다 3.3% 늘었고, 주당순이익은 2.24달러로 30.2% 늘었다."
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "CGI reports fourth quarter and Fiscal 2026 results",
+                "publisher": "PR Newswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/cgi-reports-fourth-quarter-fiscal-113000287.html",
+                "date": "2026-11-11",
+                "quote": "As of September 30, 2026, the Company's backlog reached $32.07 billion or 1.9 x annual revenue",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "수주 잔고는 320.7억 달러로 연 매출의 1.9배이고, 분기 수주는 매출보다 많았다(수주/매출 109.2%).",
+            "stripped": true
+          }
+        ],
+        "company": "CGI는 캐나다 기반 IT 서비스 업체로, 정부·금융·통신 등 대형 고객의 시스템 구축과 운영을 맡아 계약 기반으로 돈을 번다.",
+        "volumeExplanation": "11월 11일 회계 4분기 실적이 시장 예상치를 웃돌았다. 수주 잔고는 연 매출의 1.9배이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3는 제목만 있고 실질적 근거 없음. c1의 매출액(41.5억 달러)과 성장률(3.3%)이 제공된 인용문에 없음. c2의 분기 수주/매출 비율(109.2%)이 인용문에 없음",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 11일 회계 4분기 실적이 시장 예상치를 웃돌아 거래량이 평소의 2배로 늘었다. 다만 매출 성장은 3%대에 그쳤고 주가는 당일 강하게 마감하지 못했다. 가이던스 상향은 확인되지 않아 후속 분기 수주와 이익 흐름이 이어지는지가 관건이다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-12",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2594,9 +2694,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:24:25"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HWC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "HWC(핸콕 휘트니)는 미국 남부 지역에서 예금과 대출을 취급하는 지역은행입니다. 대출 이자와 수수료로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "카테고리 6(근거 없음)이 적절함"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-12",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3191,14 +3311,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 2,
+    "done": 5,
     "total": 5,
-    "cap": null,
-    "pending": 3,
+    "cap": 3,
+    "pending": 0,
     "failed": 0,
     "carried": 2,
     "ineligible": 0,
-    "note": "5종목 중 2종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 3종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -3246,5 +3366,28 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재는 특정 업종에 몰리지 않고 유틸리티·게임·항공기·자산운용·소비재 등으로 흩어져 있다. 은행 2곳(CIB, BAP)이 함께 있지만 한쪽은 전망 상향, 다른 쪽은 예상 미달이라 업종 신호로 보기 어렵다.",
     "caution": "산업 기술 돌파 유형은 오늘 없었고, 실적 유형 8건 중 BAP·CWST는 예상 미달이라 사실상 호재가 아니다. CLX·CIB·TTWO도 내용이 엇갈리거나 전망 유지라서, 서프라이즈 정도는 원문과 가격 반응으로 직접 확인해야 한다.",
     "researchedOn": "2026-11-11"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "GIB",
+        "category": 1,
+        "oneLine": "11/11 분기 실적: 매출 41.5억 달러(+3.3%), 주당순이익 2.24달러(+30.2%), 수주잔고는 연 매출의 1.9배."
+      },
+      {
+        "ticker": "NWE",
+        "category": 5,
+        "oneLine": "몬태나 규제기관이 Black Hills와의 합병을 3대2로 승인(1주당 0.98주 교환, 연말 종료 목표). 3분기 이익은 예상 미달."
+      }
+    ],
+    "sectorSignal": "특정 업종에 몰린 흐름은 없습니다. 실적 호재 1건과 정책(합병 승인) 호재 1건이 서로 다른 분야에서 나왔습니다.",
+    "caution": "NWE는 합병 승인이 호재이지만 3분기 이익이 예상에 못 미쳤고, 합병 가격(교환 비율)에 주가가 묶일 수 있습니다. HWC는 근거 없이 거래량만 움직인 종목이라 호재로 보지 않았고, 가격 데이터가 없어 차트 상태는 판단하지 않았습니다.",
+    "researchedOn": "2026-11-12"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 2,
+    "5": 1,
+    "6": 2
   }
 };

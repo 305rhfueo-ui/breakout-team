@@ -1,0 +1,698 @@
+{
+ "ticker": "NBIS",
+ "date": "2026-11-12",
+ "session": "2026-11-11",
+ "source": "list",
+ "plan": {
+  "ticker": "NBIS",
+  "name": "네비우스 그룹",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "price": 154.69000244140625,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 255.1,
+  "stop": 240.14,
+  "distToPivotPct": -39.36,
+  "distToPivotAdr": -4.07,
+  "riskPerSharePct": 5.87,
+  "adrPct": 9.67,
+  "extensionAdr": 0.71,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 55.6,
+   "priorMovePct": 75,
+   "higherLows": 0,
+   "contraction": 0.93,
+   "closeRange10Adr": 3.5,
+   "surf10": 0.71,
+   "surf20": -0.13,
+   "slope20": -10.41,
+   "baseLow": 113.3,
+   "lastSwingLow": 113.3
+  },
+  "reasons": [
+   "선행 상승 +75%",
+   "베이스 7.8주",
+   "✗ 깊이 55.6%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.93배 · 10일 종가폭 3.5 ADR",
+   "✗ 10일선 +0.7 ADR · 20일선 -0.1 ADR",
+   "✗ 20일선 기울기 -10.41%"
+  ],
+  "earnings": "2026-11-12"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.11546626830661216,
+    "pct": 7.529305680793508
+   },
+   "m3": {
+    "v": -0.34052089657741275,
+    "pct": 1.6681695220919748
+   },
+   "m6": {
+    "v": -0.2649381579747602,
+    "pct": 6.627592425608657
+   }
+  },
+  "ret1m": -16.84,
+  "ret3m": -37.73,
+  "ret6m": -29.66,
+  "marketCap": "36.43B",
+  "volx": 1.51,
+  "volSurgeWk": 1.47,
+  "high52": 51.59,
+  "newHigh52": false,
+  "adr": 9.67,
+  "div50": -21.87,
+  "div200": -13.63,
+  "targetStatus": false,
+  "saleCy": 531.64,
+  "saleNy": 266.98,
+  "epsCy": null,
+  "epsNy": 191.38,
+  "cyTrend": -16.09,
+  "nyTrend": 9.01,
+  "est": {
+   "cyCur": -2.11316,
+   "cy30": -2.51833,
+   "nyCur": -6.15734,
+   "ny30": -5.64857
+  },
+  "fs": {
+   "sale": [
+    454.04,
+    683.89,
+    579.7
+   ],
+   "ni": [
+    -132.58,
+    "흑자전환",
+    "적자확대"
+   ],
+   "opm": [
+    -30.21,
+    -32.08,
+    -109.79
+   ],
+   "updated": "2026-09-08 05:58:37"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-12",
+  "nameKo": "네비우스 그룹",
+  "nameEn": "NEBIUS GROUP N V",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Not Revenue. Not Growth. Here’s What I’ll Be Watching When CoreWeave and Nebius Report This Week.",
+     "url": "https://www.nasdaq.com/articles/not-revenue-not-growth-heres-what-ill-be-watching-when-coreweave-and-nebius-report-week",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-10-28",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 단가는 올랐다, 남은 것은 켜는 속도",
+     "summary": "- GPU 클라우드와 추론 플랫폼을 파는 독립 AI클라우드, 매출의 약 98%가 AI 클라우드- 신규 계약 단가는 상승 중, 선수금이 설비투자의 50~60%를 먼저 채움- 계약 잔고·선수금은 상대 우위. 센티 회복 시 남겨둔 2027년 용량 부각",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmielgcilkiegmgcgxeeeg.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-10-26",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 다 같은 네오클라우드가 아니다",
+     "summary": "- Yandex에서 분사해 암스테르담에 본사를 둔 엔비디아 GPU 기반 네오클라우드 기업. 2Q26 매출 5.82억달러(+454% yoy), ARR 30억달러, RPO 400억달러, EBITDA 마진 41%를 기록했으며, 계 약용량 가이던스는 4GW에서 5GW로 상향- 선수금 기반의 건강한 B/S: 2Q 체결 계약의 약 70%에 선수금 조건 이 포함되며, 2026년 선수금은 90억달러(캐팩스 가이던스 225억 달러의 약 40%)로 예상. 잔여분은 대부분 전환사채·외부 투자·영업 현금흐름으로 충당해, 담보대출 중심인 경쟁사 대비 금리 민감도가 낮은 재무 구조를 확보- 계약 믹스 전환의 레버리지: 중단기 계약 도입으로 MW당 ACV(연 간 계약 가치)는 5년 계약 1,200만달러 대비 중기(1~3년) 최대 2,500만달러, 단기(~6개월) 최대 4,500만달러로 상승. 조달 부담 이 낮아 공격적인 믹스 전환이 가능하며, 증분 캐파 비중이 높아 2027년부터 실적 레버리지가 본격화될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmqeekcqxeligcgxeeeg.pdf",
+     "pages": "2"
+    },
+    {
+     "date": "2026-09-07",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 성장과 안정성을 모두 잡다",
+     "summary": "- 고객 선수금 비중도 사상 최고치를 기록. 2분기 체결 계약의 약 70%에 선 수금 조건이 포함되었으며, 2026년 전체 선수금은 90억달러(연간 캐팩스 가이던스의 40% 수준)로 예상. 비중 높은 선수금 기반의 캐팩스 투자로 상 대적으로 안정적인 재무상태를 유지한다는 점이 네비우스가 받는 밸류에이 션 프리미엄의 핵심 근거- 2분기에는 10억달러 이상 규모 계약을 네 건 체결. 1~3년 단위 중기계약 ACV는 MW 당 2,000~2,500만달러 수준으로 장기계약 단가(1,200만달 러)   대비   70%   가까이   상승.  6개월   이내   단기   계약   ACV는   최대 4,000~5,000만달러까지 상승했으며 해당 단가로 첫 계약을 체결. 상당수 계약이 연말 가동 예정 용량에 배정되어 2027년부터 본격적인 실적 모멘텀 으로 이어질 전망- 급증하는 AI 컴퓨팅 수요로 GPU 렌탈가 상승세가 지속되고 있으나, 기존 5 년 단위 장기계약 구조에서는 가격 상승분 반영에 구조적 한계가 존재. 다만 최근 네오클라우드 업체들이 계약 형태를 다양화하며 MW 당 ACV 산정 기 준 자체가 구조적으로 재편되는 국면. ① 엄격한 선수금 전략으로 재무 건전 성을 확보하고 있고, ② 기존 캐파 대비 증분 캐파 비중이 높아 계약 믹스 전환의 레버리지 강도가 크며, ③ 모델 중립성과 Token Factory를 통해 오 픈웨이트 확산 수혜를 직접 수취할 수 있는 네비우스를 네오클라우드 업종 내 최선호주로 제시",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqiqlqgzelkzgcgxeeeg.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 단가 2배·전력 5GW·선수금 $9B, 2027년 실적 도약의 가시성 확보",
+     "summary": "- 단가 2배 급등 및 EBITDA 컨센서스 +35% 상회로 증명된 공급자 우위- 분기 OCF +$2.2B와 연 $9B+ 선수금 유입, 차입 피어 대비 압도적 건전성- 5GW 전력망과 $40B+ 백로그 확보, 고성장에 따른 가파른 멀티플 정상화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcegqcmezgxegcgxeeeg.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[네비우스 그룹 (NAS:NBIS)] Earnings Flash",
+     "summary": "- 매출액 5.8억 달러(YoY +454%), 영업이익 -1.8억 달러(YoY -58.2%), 조정 EPS -0.12 달러(YoY +69.1%)로 각각 예상치 4.5%, 8.1%, 82.8% 상회- 컴퓨팅 용량 확보 경쟁 심화로, 선수금 지급이 표준적인 계약조건으로 자리 잡아 체결 계약의 약 70%에 선수금이 포함- 용량 경매를 통해 확인된 컴퓨팅 수요, 유상증자가 아닌 선수금을 통한 CAPEX 자금 총당 계획이 맞물려 34.1% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxcikklglkgqgcgxeeeg.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 네오클라우드 붐은 온다",
+     "summary": "- 네비우스의 2분기 그룹 매출은 5.82억달러(+454%yoy), AI Cloud 매출은 5.75억달러(+514%yoy)를 기록하며 컨센을 상회. AI 클라우드 수요 강세에 힘입어 ARR은 6월 말 기준 30억달러(+598%yoy)를 달성했으며, RPO는 400억달러를 기록.- 연간 가이던스는 그룹 매출 32억달러(+504%yoy), ARR 80억달러, EBITDA 마진 40%로 유지. 최근 바인랜드(Vineland) 데이터센터 지연 관 련 우려에도 가이던스 달성 의지를 재확인 점이 긍정적. 연간 계약용량 가이 던스는 전분기 실적발표 기준 4GW에서 5GW로 상향조정했으며, 연간 활 성용량 가이던스는 0.8~1GW 범위를 재확인. 연간 캐팩스 가이던스도 225 억달러로 유지- 고객 선수금 비중도 사상 최고치를 기록. 2분기 체결된 계약의 약 70%가 선수금 조건이 포함되었으며, 2026년 전체 선수금은 90억달러(연간 캐팩스 가이던스의 40% 수준)으로 예상. 선수금과 영업활동 현금흐름 기반의 캐팩 스 투자로, 상대적으로 안정적인 재무상태를 유지한다는 점이 네비우스가 받는 밸류에이션 프리미엄의 핵심 근거 중 하나로 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzlzeeccixmxgcgxeeeg.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-05-14",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 네비우스 실적의 함의",
+     "summary": "- 네비우스의 1분기 실적은 매출 3.99억달러(+684% yoy), AI Cloud 매출은 3.90억달러(+841% yoy)로 전체 매출의 98%를 차지. 높은 가동률과 가격 책정 효과로 GPM은 74%로 개선되었으며, 조정 EBITDA는 1.3억달러로 안정적인 흑자를 기록하며 모든 주요 지표에서 컨센을 상회- 네비우스는 Meta와 5년간 최대 270억달러 규모의 AI 인프라 공급 계약을 체결했으며, 해당 계약에는 엔비디아 Vera Rubin 플랫폼의 대규모 컴퓨팅 공급이 포함- 다만 공격적인 AI 캐팩스 투자로 인한 재무 부담은 여전히 리스크 요인. 1분 기 GAAP 순이익은 ClickHouse 지분가치 재평가에 따른 비현금성 이익이 반영된 수치이며, 조정 순손실은 1억달러를 기록",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqexxxkizkgigcgxeeeg.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "NBIS-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "박기현",
+   "date": "2026-10-28",
+   "title": "[네비우스 그룹 (NAS:NBIS)] 단가는 올랐다, 남은 것은 켜는 속도",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmielgcilkiegmgcgxeeeg.pdf",
+   "pages": "6"
+  },
+  {
+   "file": "NBIS-report2.pdf",
+   "broker": "유진투자증권",
+   "analyst": "박재환",
+   "date": "2026-10-26",
+   "title": "[네비우스 그룹 (NAS:NBIS)] 다 같은 네오클라우드가 아니다",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmqeekcqxeligcgxeeeg.pdf",
+   "pages": "2"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "CoreWeave soars 24% for best day since April 2025 after strong Q3 report",
+   "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+   "date": "2026-11-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI stocks hammered by midterm shock as data center buildout becomes 'war of attrition'",
+   "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI data center stocks shares fall as Texas governor result raises risks of a slowdown",
+   "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Elon Musk says more than 200 neoclouds face 'guppy-level death'",
+   "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+   "date": "2026-10-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
+   "url": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts'",
+   "url": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Investors are questioning neoclouds' business model but Nebius says AI computing prices are rising",
+   "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html",
+   "date": "2026-10-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Options Action: Nebius reports tomorrow morning",
+   "url": "https://www.cnbc.com/video/2026/11/11/options-action-nebius-reports-tomorrow-morning.html",
+   "date": "2026-11-11",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "NBIS",
+  "fetchedAt": "2026-11-12",
+  "source": "한국투자증권 Open API",
+  "per": 585.06,
+  "pbr": 4.07,
+  "eps": 0.26,
+  "bps": 38.04,
+  "shares": 238400000,
+  "marketCapM": 36878,
+  "high52": 299.86,
+  "high52Date": "2026-06-22",
+  "low52": 73.52,
+  "low52Date": "2026-02-05",
+  "last": 154.69,
+  "prevClose": 134,
+  "nameKo": "네비우스 그룹",
+  "nameEn": "NEBIUS GROUP N V",
+  "listedOn": "2024-08-21",
+  "exchange": "나스닥",
+  "listedShares": 238400000
+ },
+ "estimates": {
+  "ticker": "NBIS",
+  "url": "https://finance.yahoo.com/quote/NBIS/analysis/",
+  "fetchedAt": "2026-11-12",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": -1.24,
+    "epsLow": -2.67,
+    "epsHigh": -0.56,
+    "epsYearAgo": -0.47,
+    "epsAnalysts": 5,
+    "epsGrowth": -160.6,
+    "epsCur": "USD",
+    "rev": 907172380,
+    "revAnalysts": 17,
+    "revYearAgo": 146100000,
+    "revGrowth": "n/m",
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": -1.78,
+    "epsLow": -3.63,
+    "epsHigh": -0.43,
+    "epsYearAgo": -0.99,
+    "epsAnalysts": 4,
+    "epsGrowth": -80.2,
+    "epsCur": "USD",
+    "rev": 1461911250,
+    "revAnalysts": 17,
+    "revYearAgo": 227700000,
+    "revGrowth": "n/m",
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -2.11,
+    "epsLow": -6.41,
+    "epsHigh": 0.49,
+    "epsYearAgo": null,
+    "epsAnalysts": 9,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 3346419280,
+    "revAnalysts": 21,
+    "revYearAgo": 529800000,
+    "revGrowth": "n/m",
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -6.16,
+    "epsLow": -15.31,
+    "epsHigh": 5.27,
+    "epsYearAgo": -2.11,
+    "epsAnalysts": 10,
+    "epsGrowth": -191.4,
+    "epsCur": "USD",
+    "rev": 12280572950,
+    "revAnalysts": 22,
+    "revYearAgo": 3346419280,
+    "revGrowth": 267,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": -1.24,
+    "d7": 11.7,
+    "d30": 15.2,
+    "d90": -10.2,
+    "ago90": -1.12,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -1.78,
+    "d7": 11.4,
+    "d30": 12.4,
+    "d90": 6,
+    "ago90": -1.89,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -2.11,
+    "d7": 0,
+    "d30": 16.1,
+    "d90": 1.1,
+    "ago90": -2.14,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -6.16,
+    "d7": 0,
+    "d30": -9,
+    "d90": -26.5,
+    "ago90": -4.87,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": -0.68,
+    "estimate": -0.86,
+    "surprisePct": 21.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.11,
+    "estimate": -0.71,
+    "surprisePct": 396.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.99,
+    "estimate": -0.6,
+    "surprisePct": -63.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": -0.47,
+    "estimate": -0.39,
+    "surprisePct": -20.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 4,
+   "ptRaised": 3,
+   "ptLowered": 2,
+   "total": 9,
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 265,
+     "ptPrior": 324
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 185,
+     "ptPrior": 237
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Rosenblatt",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 304,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "William Blair",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "BNP Paribas",
+     "action": "up",
+     "from": "Neutral",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 399,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Rothschild & Co",
+     "action": "init",
+     "from": null,
+     "to": "Sell",
+     "ptAction": "Announces",
+     "pt": 84,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Truist Securities",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 355,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-18",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-08-14",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 324,
+     "ptPrior": 278
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-12",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-11",
+  "numbers": {
+   "price": 154.69,
+   "ma20": 156.59,
+   "ma50": 198,
+   "ma150": 204.74,
+   "distMA50": -21.87,
+   "periodHigh": 299.86,
+   "pullbackFromHigh": -48.41,
+   "volRatio20": 1.53,
+   "dryUpRatio": 1.17
+  },
+  "last10": [
+   {
+    "d": "2026-10-29",
+    "o": 173.18,
+    "h": 178.33,
+    "l": 168.76,
+    "c": 171.99,
+    "v": 17700300,
+    "clsPos": 34,
+    "gapPct": -5.02
+   },
+   {
+    "d": "2026-10-30",
+    "o": 157.05,
+    "h": 161.42,
+    "l": 149.96,
+    "c": 154.14,
+    "v": 21564800,
+    "clsPos": 36,
+    "gapPct": -8.69
+   },
+   {
+    "d": "2026-11-02",
+    "o": 154.56,
+    "h": 155.35,
+    "l": 140.6,
+    "c": 141.39,
+    "v": 20434700,
+    "clsPos": 5,
+    "gapPct": 0.27
+   },
+   {
+    "d": "2026-11-03",
+    "o": 145.35,
+    "h": 152.67,
+    "l": 143.71,
+    "c": 151.64,
+    "v": 16195600,
+    "clsPos": 89,
+    "gapPct": 2.8
+   },
+   {
+    "d": "2026-11-04",
+    "o": 145.81,
+    "h": 152.88,
+    "l": 140.02,
+    "c": 141.52,
+    "v": 23044500,
+    "clsPos": 12,
+    "gapPct": -3.84
+   },
+   {
+    "d": "2026-11-05",
+    "o": 134.16,
+    "h": 134.8,
+    "l": 113.3,
+    "c": 120.37,
+    "v": 48254800,
+    "clsPos": 33,
+    "gapPct": -5.2
+   },
+   {
+    "d": "2026-11-06",
+    "o": 130.64,
+    "h": 136.87,
+    "l": 122.62,
+    "c": 129.49,
+    "v": 24614500,
+    "clsPos": 48,
+    "gapPct": 8.53
+   },
+   {
+    "d": "2026-11-09",
+    "o": 131.37,
+    "h": 143.39,
+    "l": 128.51,
+    "c": 141.45,
+    "v": 19053600,
+    "clsPos": 87,
+    "gapPct": 1.45
+   },
+   {
+    "d": "2026-11-10",
+    "o": 137.5,
+    "h": 146.26,
+    "l": 130.9,
+    "c": 134,
+    "v": 20759700,
+    "clsPos": 20,
+    "gapPct": -2.79
+   },
+   {
+    "d": "2026-11-11",
+    "o": 149.72,
+    "h": 160.21,
+    "l": 147.36,
+    "c": 154.69,
+    "v": 39830900,
+    "clsPos": 57,
+    "gapPct": 11.73
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NBIS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NBIS-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 17일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "AI 클라우드 대형 계약 단가가 뛰며 흑자 EBITDA로 전환, 매출 반영은 주로 2027년",
+  "researchedOn": "2026-11-07"
+ }
+}

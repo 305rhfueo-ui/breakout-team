@@ -1,0 +1,870 @@
+{
+ "ticker": "BE",
+ "date": "2026-11-12",
+ "session": "2026-11-11",
+ "source": "list",
+ "plan": {
+  "ticker": "BE",
+  "name": "블룸 에너지",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "price": 209.47000122070312,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 302.35,
+  "stop": 283.92,
+  "distToPivotPct": -30.72,
+  "distToPivotAdr": -3.49,
+  "riskPerSharePct": 6.1,
+  "adrPct": 8.8,
+  "extensionAdr": 0.7,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 48.4,
+   "priorMovePct": 92.2,
+   "higherLows": 0,
+   "contraction": 1.17,
+   "closeRange10Adr": 3,
+   "surf10": 0.7,
+   "surf20": 0.05,
+   "slope20": -8.53,
+   "baseLow": 156,
+   "lastSwingLow": 156
+  },
+  "reasons": [
+   "선행 상승 +92%",
+   "베이스 8주",
+   "✗ 깊이 48.4%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.17배 · 10일 종가폭 3 ADR",
+   "10일선 +0.7 ADR · 20일선 +0 ADR",
+   "✗ 20일선 기울기 -8.53%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.07188978086970643,
+    "pct": 12.037871956717764
+   },
+   "m3": {
+    "v": 0.039009589128512774,
+    "pct": 51.89359783588819
+   },
+   "m6": {
+    "v": -0.28793588048761215,
+    "pct": 5.45536519386835
+   }
+  },
+  "ret1m": -12.48,
+  "ret3m": 0.22,
+  "ret6m": -31.96,
+  "marketCap": "54.80B",
+  "volx": 1.04,
+  "volSurgeWk": 0.8,
+  "high52": 59.63,
+  "newHigh52": false,
+  "adr": 8.8,
+  "div50": -14.58,
+  "div200": -6.14,
+  "targetStatus": true,
+  "saleCy": 123.79,
+  "saleNy": 56.44,
+  "epsCy": 330.66,
+  "epsNy": 62.66,
+  "cyTrend": 21.07,
+  "nyTrend": 9.01,
+  "est": {
+   "cyCur": 3.27299,
+   "cy30": 2.7033,
+   "nyCur": 5.32391,
+   "ny30": 4.8838
+  },
+  "fs": {
+   "sale": [
+    165.52,
+    130.37,
+    35.87
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    -98.96
+   ],
+   "opm": [
+    17.11,
+    9.61,
+    11.26
+   ],
+   "updated": "2026-09-08 09:12:34"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-12",
+  "nameKo": "블룸 에너지",
+  "nameEn": "BLOOM ENERGY CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001664703&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1231028000,
+     "profit": 225449000,
+     "netIncome": 248976000,
+     "margin": 18.3,
+     "yoy": {
+      "revenue": 139.8,
+      "profit": 2773.4,
+      "netIncome": 1184.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1060746000,
+     "profit": 182237000,
+     "netIncome": 198856000,
+     "margin": 17.2,
+     "yoy": {
+      "revenue": 167.7,
+      "profit": 5302.3,
+      "netIncome": 571.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 746401000,
+     "profit": 72190000,
+     "netIncome": 73691000,
+     "margin": 9.7,
+     "yoy": {
+      "revenue": 133.8,
+      "profit": 478.6,
+      "netIncome": 414.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 772765000,
+     "profit": 87529000,
+     "netIncome": 1426000,
+     "margin": 11.3,
+     "yoy": {
+      "revenue": 36.3,
+      "profit": -16.4,
+      "netIncome": -98.6,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Bloom Energy Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/heres-why-bloom-energy-stock-popped-today",
+     "date": "2026-11-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Bloom Energy Stock Slumped 26.6% in October, and Why the Pullback is a Buying Opportunity",
+     "url": "https://www.nasdaq.com/articles/why-bloom-energy-stock-slumped-266-october-and-why-pullback-buying-opportunity",
+     "date": "2026-11-10",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Is Bloom Energy Really Worth $200 Right Now? Here's the Math.",
+     "url": "https://www.nasdaq.com/articles/bloom-energy-really-worth-200-right-now-heres-math",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Bloom Energy Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-bloom-energy-stock-popped-today",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Bloom Energy Stock Fell 16% on the Same Day 2 Giant Data Center Deals Named It. Is It a Buy?",
+     "url": "https://www.nasdaq.com/articles/bloom-energy-stock-fell-16-same-day-2-giant-data-center-deals-named-it-it-buy",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What $10,000 Invested in Bloom Energy (BE) Stock Could Be Worth in 3 Years",
+     "url": "https://www.nasdaq.com/articles/heres-what-10000-invested-bloom-energy-be-stock-could-be-worth-3-years",
+     "date": "2026-11-07",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/be-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050150/be-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-09",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026047734/be-20260709.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526274388/d100413d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026038451/be-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026027913/be-20260428.htm"
+   }
+  ],
+  "krReports": {
+   "total": 17,
+   "reports": [
+    {
+     "date": "2026-10-23",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[블룸 에너지 (NYS:BE)] 호실적을 가린 현금흐름 시차, 리레이팅의 열쇠는 4Q 현금 회수",
+     "summary": "- 3연속 가이던스 상향 및 호실적에도 영업현금흐름 적자로 주가 조정- 수요처 다변화로 TAM은 확장됐으나 전사 마진 정체와 수주잔고 미공개가 한계- 리레이팅의 조건은 4Q 현금흐름 흑자 전환과 FY27 가이던스가 반등 조건",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmglqklmeqecmqgcgxeeeg.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-10-23",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "title": "[블룸 에너지 (NYS:BE)] 중장기 수요 확인, 이유 있는 부지 확보",
+     "summary": "- 수주잔고가 매출보다 빠르게 증가 중이라 언급. 구매약정을 통해 중장기 수요도 확보 중인 것으로 추정. 10GW Capa로 가는 길목에 있다 판단하 며, 4분기 호실적과 긍정적인 수주잔고 기대- SO 방식의 연료전지 제조사인 블룸에너지의 3분기 실적은 매출액 12.4억 달러(+138 YoY, 이하 YoY), Adj-OPM +23.1%(+14.2%p), Adj-EPS 0.94 달러(+527%)로 컨센대비 각각 +14%, +2.3%p, +38% 기록- 분기 보고서에 기존에 없던 구매약정 수치 공개. 향후 예상 수요를 고려해 부품 공급사와 맺는 계약으로, 계약 기간이 12개월을 초과하는 약정 총액 은 58억달러",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqkzellxglekgcgxeeeg.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-10-15",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[블룸 에너지 (NYS:BE)] [3Q26 Preview] 하반기 매출총이익률 34% 중반 진입 여부에 주목, 투자의견 중립 유지",
+     "summary": "- 사상 첫 10억 달러 분기 다음에 오는 숫자를 확인하는 자리- 상향된 연간 가이던스가 요구하는 하반기 숫자는 생각보다 완만- 마진 34%대 중반 진입이 이번 분기의 실질임- 주가는 이미 한 차례 되돌림을 지났고 시장은 양방향을 열어뒀음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgcgelkmgqmkigcgxeeeg.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[블룸 에너지 (NYS:BE)] 노이즈를 압도한 실적의 실체, 어닝 리비전은 여전히 진행형",
+     "summary": "- 2Q26 호실적과 가이던스 상향으로 입증된 강력한 외형 성장 및 영업 레버리지- Time-to-Power 경쟁우위와 $25B 금융 셸프 기반의 안정적 수주 전환- 공매도 노이즈 완화 및 밸류에이션 부담 축소 속 어닝 리비전 지속",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcclmezzxzmegcgxeeeg.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-07-30",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "title": "[블룸 에너지 (NYS:BE)] 고객사 확대로 강화된 성장 모멘텀",
+     "summary": "- 27년까지 30~40GW의 신규 데이터센터 가동 예정이지만 지난 3년간 미 국의 연평균 신규 발전소 설치량은 10GW(24시간 가동 기준) 수준. 데이 터센터 사업자들의 블룸 의존도는 더욱 높아질 것이며, 블룸 생산능력 확 장은 가속화될 전망. 주가 하락에도 중장기 방향성에 집중할 필요- SO 방식의 연료전지 제조사인 블룸에너지의 2분기 실적은 매출액 10.6억 달러(+166 YoY, 이하 YoY), Adj-OPM +22.5%(+15.4%p), Adj-EPS 0.78 달러(+680%)로 컨센대비 각각 +27%, +6.8%p, +94% 기록- 주요 고객사인 Oracle의 2.5GW 데이터센터 프로젝트 지연으로 블룸 주가 는 낙폭을 확대. 하지만 금번 컨콜에서 미국 모든 주요 하이퍼스케일러, 12 곳 이상의 네오클라우드 등으로 고객사 확대됐다 언급",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzixzgxlzxgzxgcgxeeeg.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[블룸 에너지 (NYS:BE)] Earnings Flash",
+     "summary": "- 매출액 10.7억 달러(YoY +165.5%), 조정 EPS 0.78달러(YoY +680%)로 각각 예상치 27%, 94% 상회.- 사업부별 매출액: 1제품 부문은 9.4억 달러(YoY +215.4%)로 전체 매출의 88% 차지하며 성장 주도- 어닝 서프라이즈와 연간 가이던스 대폭 상향으로 시간의 12%대 급등",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlziezcigimigkgcgxeeeg.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "메리츠증권",
+     "analyst": "문경원",
+     "title": "[블룸 에너지 (NYS:BE)] 2Q26 Review: 고객은 하나가 아니다",
+     "summary": "- 2Q26 매출 10.7억달러(+166% YoY)로 컨센서스(8.4억달러) 대폭 상회. GPM 33.4%(+604bp YoY), 영업이익 2.4억달러(OPM 22.5%, vs 컨센서스 1.3억 달러) 기록하며 레버리지 효과 본격화. non-GAAP EPS $0.78(컨센서스 $0.48).- 매출 구조(엔드 커스터머 오프테이크 계약 → 파이낸서(Brookfield 등)가 장비 구 매·소유 → Bloom 매출 인식)를 명확히 공개. 이 구조하에서 프로젝트 지연 시 파 이낸서는 Bloom으로부터의 장비 인도 의무를 부담. Oracle Project Jupiter 파이프 라인 인허가 반려에도 단기 매출 영향이 제한적일 전망. 동사는 1)Fungibility(사 이트 간 재배치 용이성), 2)고객사 다변화를 콜 전반에 걸쳐 강조. 특히 모든 미국 하이퍼스케일러 및 12개 이상의 네오클라우드 코로케이션 사업자가 Bloom 솔루 션 승인을 완료했다는 코멘트가 인상적. Nebius는 오프테이커 중 하나로 공개",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzglzmizcizmqgcgxeeeg.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-07-28",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[블룸 에너지 (NYS:BE)] [26Q2 Review] 매출 컨센서스 29% 상회, 가이던스 재상향, 투자의견 매수 신규",
+     "summary": "- Q2 매출 10.7억 달러, 컨센서스 29% 상회- FY26 가이던스 2차 상향, 총이익률은 34% 고정- 잉여현금흐름 가이던스 철회가 Q3 적자 예고",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekmmzmgzgqgcgxeeeg.pdf",
+     "pages": "9"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "BE-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "박기현",
+   "date": "2026-10-23",
+   "title": "[블룸 에너지 (NYS:BE)] 호실적을 가린 현금흐름 시차, 리레이팅의 열쇠는 4Q 현금 회수",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmglqklmeqecmqgcgxeeeg.pdf",
+   "pages": "10"
+  },
+  {
+   "file": "BE-report2.pdf",
+   "broker": "신한투자증권",
+   "analyst": "함형도",
+   "date": "2026-10-23",
+   "title": "[블룸 에너지 (NYS:BE)] 중장기 수요 확인, 이유 있는 부지 확보",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqkzellxglekgcgxeeeg.pdf",
+   "pages": "3"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Chevron, CrowdStrike, American Express",
+   "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-midday-cvx-crwd-axp-skhy-t.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: AT&T, SpaceX, Moderna, Deckers, Bloom Energy and more",
+   "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-premarket-att-spacex-moderna-deckers-bloom-energy-and-more.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Where Cramer stands on a buzzy behind-the-meter name powering the AI build-out",
+   "url": "https://www.cnbc.com/2026/09/30/jim-cramer-bloom-energy-ai-power-stock.html",
+   "date": "2026-09-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "LeBron James is boosting ticket, merchandise demand for NBA, Philadelphia 76ers",
+   "url": "https://www.cnbc.com/2026/09/28/lebron-james-boosts-ticket-jersey-demand-for-nba-philadelphia-76ers.html",
+   "date": "2026-09-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer’s Stop Trading: Bloom Energy and Micron",
+   "url": "https://www.cnbc.com/video/2026/11/09/crameras-stop-trading-bloom-energy-and-micron.html",
+   "date": "2026-11-09",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer goes off the charts with AI power plays",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/13/jim-cramer-goes-off-the-charts-with-ai-power-plays.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer on if Bloom Energy is planting seeds for long-term success",
+   "url": "https://www.cnbc.com/video/2026/09/30/jim-cramer-on-if-bloom-energy-is-planting-seeds-for-long-term-success.html",
+   "date": "2026-09-30",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Late Morning",
+   "url": "https://www.cnbc.com/video/2026/09/29/the-late-morning-rundown-september-29-2026.html",
+   "date": "2026-09-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "BE",
+  "fetchedAt": "2026-11-12",
+  "source": "한국투자증권 Open API",
+  "per": 129.71,
+  "pbr": 32.03,
+  "eps": 1.61,
+  "bps": 6.54,
+  "shares": 295657000,
+  "marketCapM": 61931,
+  "high52": 351.28,
+  "high52Date": "2026-06-25",
+  "low52": 75.7,
+  "low52Date": "2025-12-17",
+  "last": 209.47,
+  "prevClose": 185.42,
+  "nameKo": "블룸 에너지",
+  "nameEn": "BLOOM ENERGY CORPORATION",
+  "listedOn": "2018-07-24",
+  "exchange": "뉴욕거래소",
+  "listedShares": 295657000
+ },
+ "estimates": {
+  "ticker": "BE",
+  "url": "https://finance.yahoo.com/quote/BE/analysis/",
+  "fetchedAt": "2026-11-12",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.12,
+    "epsLow": 0.99,
+    "epsHigh": 1.22,
+    "epsYearAgo": 0.45,
+    "epsAnalysts": 17,
+    "epsGrowth": 148.4,
+    "epsCur": "USD",
+    "rev": 1462074060,
+    "revAnalysts": 16,
+    "revYearAgo": 777683000,
+    "revGrowth": 88,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.98,
+    "epsLow": 0.68,
+    "epsHigh": 1.21,
+    "epsYearAgo": 0.44,
+    "epsAnalysts": 10,
+    "epsGrowth": 123.3,
+    "epsCur": "USD",
+    "rev": 1434061050,
+    "revAnalysts": 8,
+    "revYearAgo": 751054000,
+    "revGrowth": 90.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 3.27,
+    "epsLow": 2.98,
+    "epsHigh": 3.57,
+    "epsYearAgo": 0.76,
+    "epsAnalysts": 23,
+    "epsGrowth": 330.7,
+    "epsCur": "USD",
+    "rev": 4529418780,
+    "revAnalysts": 25,
+    "revYearAgo": 2023994000,
+    "revGrowth": 123.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 5.32,
+    "epsLow": 2.96,
+    "epsHigh": 7.49,
+    "epsYearAgo": 3.27,
+    "epsAnalysts": 27,
+    "epsGrowth": 62.7,
+    "epsCur": "USD",
+    "rev": 7085941230,
+    "revAnalysts": 27,
+    "revYearAgo": 4529418780,
+    "revGrowth": 56.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.12,
+    "d7": 0.8,
+    "d30": 34,
+    "d90": 34.2,
+    "ago90": 0.83,
+    "up7": 15,
+    "up30": 16,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.98,
+    "d7": 0.1,
+    "d30": 10.3,
+    "d90": 13.5,
+    "ago90": 0.87,
+    "up7": 6,
+    "up30": 7,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.27,
+    "d7": 0.2,
+    "d30": 21.1,
+    "d90": 20.7,
+    "ago90": 2.71,
+    "up7": 20,
+    "up30": 21,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 5.32,
+    "d7": 0,
+    "d30": 9,
+    "d90": 9,
+    "ago90": 4.89,
+    "up7": 18,
+    "up30": 18,
+    "down7": 2,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.94,
+    "estimate": 0.68,
+    "surprisePct": 39.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.78,
+    "estimate": 0.41,
+    "surprisePct": 91.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.44,
+    "estimate": 0.13,
+    "surprisePct": 242.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.45,
+    "estimate": 0.3,
+    "surprisePct": 50.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 13,
+   "ptLowered": 3,
+   "total": 22,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 335,
+     "ptPrior": 335
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Barclays",
+     "action": "up",
+     "from": "Equal-Weight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 289,
+     "ptPrior": 316
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 284,
+     "ptPrior": 281
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 316,
+     "ptPrior": 308
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 182,
+     "ptPrior": 176
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 292,
+     "ptPrior": 314
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 335,
+     "ptPrior": 335
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Keybanc",
+     "action": "reit",
+     "from": "Sector Weight",
+     "to": "Sector Weight",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 335,
+     "ptPrior": 310
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 306,
+     "ptPrior": 282
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-11",
+  "numbers": {
+   "price": 209.47,
+   "ma20": 208.61,
+   "ma50": 245.23,
+   "ma150": 247.26,
+   "distMA50": -14.58,
+   "periodHigh": 351.28,
+   "pullbackFromHigh": -40.37,
+   "volRatio20": 1.01,
+   "dryUpRatio": 1.2
+  },
+  "last10": [
+   {
+    "d": "2026-10-29",
+    "o": 221,
+    "h": 229.5,
+    "l": 219.01,
+    "c": 222.3,
+    "v": 10067800,
+    "clsPos": 31,
+    "gapPct": -3.1
+   },
+   {
+    "d": "2026-10-30",
+    "o": 203.48,
+    "h": 215.45,
+    "l": 194.15,
+    "c": 203.17,
+    "v": 16662900,
+    "clsPos": 42,
+    "gapPct": -8.47
+   },
+   {
+    "d": "2026-11-02",
+    "o": 206.03,
+    "h": 210.09,
+    "l": 194.86,
+    "c": 196.25,
+    "v": 15477500,
+    "clsPos": 9,
+    "gapPct": 1.41
+   },
+   {
+    "d": "2026-11-03",
+    "o": 210.33,
+    "h": 220.5,
+    "l": 208.03,
+    "c": 214.01,
+    "v": 14298500,
+    "clsPos": 48,
+    "gapPct": 7.17
+   },
+   {
+    "d": "2026-11-04",
+    "o": 205.5,
+    "h": 213.96,
+    "l": 190.6,
+    "c": 200.4,
+    "v": 23889700,
+    "clsPos": 42,
+    "gapPct": -3.98
+   },
+   {
+    "d": "2026-11-05",
+    "o": 188,
+    "h": 188.8,
+    "l": 156,
+    "c": 167.52,
+    "v": 37634000,
+    "clsPos": 35,
+    "gapPct": -6.19
+   },
+   {
+    "d": "2026-11-06",
+    "o": 183.31,
+    "h": 186.33,
+    "l": 168.84,
+    "c": 173.24,
+    "v": 23285600,
+    "clsPos": 25,
+    "gapPct": 9.43
+   },
+   {
+    "d": "2026-11-09",
+    "o": 182.24,
+    "h": 199.83,
+    "l": 180.5,
+    "c": 193.88,
+    "v": 16802500,
+    "clsPos": 69,
+    "gapPct": 5.2
+   },
+   {
+    "d": "2026-11-10",
+    "o": 185,
+    "h": 194.68,
+    "l": 181.01,
+    "c": 185.42,
+    "v": 13364300,
+    "clsPos": 32,
+    "gapPct": -4.58
+   },
+   {
+    "d": "2026-11-11",
+    "o": 199.52,
+    "h": 217.85,
+    "l": 199,
+    "c": 209.47,
+    "v": 18439900,
+    "clsPos": 56,
+    "gapPct": 7.6
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BE-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BE-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 17일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": null
+}
