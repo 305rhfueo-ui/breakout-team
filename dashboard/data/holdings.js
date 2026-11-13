@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-13T13:00:17.487Z",
+  "updated": "2026-11-13T22:10:10.706Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -8,6 +8,36 @@ window.HOLDINGS_DATA = {
       "side": "long",
       "items": [
         {
+          "type": "news",
+          "title": "PLTR's Rule of 40 Hits 158%: Can This Momentum Continue?",
+          "url": "https://www.nasdaq.com/articles/pltrs-rule-40-hits-158-can-momentum-continue",
+          "date": "2026-11-13",
+          "publisher": "Zacks",
+          "ko": "팔란티어 'Rule of 40' 점수 158%로 급등",
+          "tone": "good",
+          "isNew": true,
+          "headline": "팔란티어 'Rule of 40' 점수 158%로 급등",
+          "easy": "기사 제목과 요약에 따르면 팔란티어의 Rule of 40 지표가 2026년 3분기에 158%까지 올랐다. 요약은 AI 도입 가속, 96% 매출 성장, 마진 확대를 원인으로 든다. 이 흐름이 이어질지가 관건이라는 내용이며, 본문은 확인하지 못했다.",
+          "whyMatters": "성장률과 수익성이 함께 좋아졌다는 평가라 보유 포지션에는 우호적인 소식이다. 다만 이 흐름이 지속될지는 기사에 나오지 않았다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
+          "title": "Palantir’s Real Washington Risk Isn’t the Budget—It’s Oversight",
+          "url": "https://www.nasdaq.com/articles/palantirs-real-washington-risk-isnt-budget-its-oversight",
+          "date": "2026-11-12",
+          "publisher": "MarketBeat",
+          "ko": "팔란티어, 예산보다 정부 감독이 더 큰 위험 거론",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, 예산보다 정부 감독이 더 큰 위험 거론",
+          "easy": "제목과 요약에 따르면 팔란티어 주가는 10월 초 약 209달러까지 올랐다가 크게 밀렸다. 3분기 실적 발표 뒤 매도세가 나왔지만 하락분 상당 부분은 회복했다. 제목은 워싱턴發 위험이 예산이 아니라 감독이라고 말하지만, 구체적 내용은 기사에 안 나왔다.",
+          "whyMatters": "정부 감독 이슈가 주가 변동 요인이 될 수 있다는 시각이다. 보유자는 세부 내용이 확인되기 전까지 중립적으로 볼 소식이다.",
+          "quote": null,
+          "read": false
+        },
+        {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
           "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeeei.pdf",
@@ -15,7 +45,7 @@ window.HOLDINGS_DATA = {
           "publisher": "신한투자증권 심지현",
           "ko": "팔란티어, AI 에이전트와 경쟁 아닌 보완 관계라는 리포트",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어, AI 에이전트와 경쟁 아닌 보완 관계라는 리포트",
           "easy": "증권사 리포트가 팔란티어는 AI 에이전트·다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 소버린 AI 수요, 파일럿에서 실제 도입으로 넘어가는 기간 단축, 3분기 실적 강세가 연간 가이던스 상향 근거로 제시됐다. 본문은 확인하지 못해 요약 기준이다.",
           "whyMatters": "AI 확산이 팔란티어에 위협이 아니라 기회가 될 수 있다는 시각이라 보유자에게는 우호적인 해석이다. 다만 증권사 한 곳의 의견이다.",
