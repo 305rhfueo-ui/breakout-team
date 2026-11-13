@@ -1,62 +1,142 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "items": [
     {
-      "ticker": "CAKE",
-      "score": 6,
+      "ticker": "ACN",
+      "score": 7,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.11)",
-        "넘어야 할 선 $111 바로 아래(-1.2%)",
-        "최근 2주 종가가 2.23% 안에서만 움직였다",
-        "1년 최고가의 92.7% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.77배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.65배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $254.17 바로 아래(-1.66%)",
+        "최근 2주 종가가 1.89% 안에서만 움직였다"
       ],
       "flags": [
-        "bbSqueeze",
+        "contract10",
+        "volDry",
         "nearResist",
-        "tightCloses",
-        "high52"
+        "tightCloses"
       ],
-      "resistance": 111,
-      "price": 109.67,
+      "resistance": 254.17,
+      "price": 249.95,
       "barGap": false
     },
     {
-      "ticker": "EL",
+      "ticker": "KNSA",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.1)",
-        "넘어야 할 선 $117.57 바로 아래(-4.46%)",
-        "최근 2주 종가가 2.83% 안에서만 움직였다",
-        "1년 최고가의 93.31% 자리"
+        "최근 1주는 더 조용하다(그 전 1주의 0.67배)",
+        "최근 1주 거래량이 한 달 평균의 0.63배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $98.48 바로 아래(-2.23%)",
+        "1년 최고가의 96.95% 자리"
       ],
       "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 117.57,
-      "price": 112.33,
-      "barGap": false
-    },
-    {
-      "ticker": "HRI",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "최근 1주 거래량이 한 달 평균의 0.61배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $176 바로 아래(-1.19%)",
-        "1년 최고가의 93.7% 자리"
-      ],
-      "flags": [
+        "contract5",
         "volDry",
         "nearResist",
         "high52"
       ],
-      "resistance": 176,
-      "price": 173.9,
+      "resistance": 98.48,
+      "price": 96.28,
+      "barGap": false
+    },
+    {
+      "ticker": "GKOS",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 1주는 더 조용하다(그 전 1주의 0.55배)",
+        "최근 1주 거래량이 한 달 평균의 0.48배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $255.18 바로 아래(-3.59%)",
+        "1년 최고가의 96.41% 자리"
+      ],
+      "flags": [
+        "contract5",
+        "volDry",
+        "nearResist",
+        "high52"
+      ],
+      "resistance": 255.18,
+      "price": 246.03,
+      "barGap": false
+    },
+    {
+      "ticker": "TTAN",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 1주는 더 조용하다(그 전 1주의 0.6배)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.13)",
+        "넘어야 할 선 $82.3 바로 아래(-1.18%)",
+        "최근 2주 종가가 2.25% 안에서만 움직였다"
+      ],
+      "flags": [
+        "contract5",
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 82.3,
+      "price": 81.33,
+      "barGap": false
+    },
+    {
+      "ticker": "ICLR",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.74배로 줄었다",
+        "넘어야 할 선 $203.91 바로 아래(-1.67%)",
+        "최근 2주 종가가 1.68% 안에서만 움직였다",
+        "1년 최고가의 91.54% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 203.91,
+      "price": 200.51,
+      "barGap": false
+    },
+    {
+      "ticker": "BMI",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 1주는 더 조용하다(그 전 1주의 0.54배)",
+        "최근 1주 거래량이 한 달 평균의 0.66배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $155.18 바로 아래(-1.02%)",
+        "최근 2주 종가가 2.75% 안에서만 움직였다"
+      ],
+      "flags": [
+        "contract5",
+        "volDry",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 155.18,
+      "price": 153.59,
+      "barGap": false
+    },
+    {
+      "ticker": "W",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "최근 1주는 더 조용하다(그 전 1주의 0.53배)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.11)",
+        "넘어야 할 선 $114.67 바로 아래(-2.78%)"
+      ],
+      "flags": [
+        "contract5",
+        "bbSqueeze",
+        "nearResist"
+      ],
+      "resistance": 114.67,
+      "price": 111.48,
       "barGap": false
     },
     {
@@ -65,34 +145,34 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
-        "넘어야 할 선 $120.81 바로 아래(-1.95%)",
-        "1년 최고가의 96.21% 자리"
+        "넘어야 할 선 $118.29 바로 아래(-4.02%)",
+        "1년 최고가의 92.2% 자리"
       ],
       "flags": [
         "bbSqueeze",
         "nearResist",
         "high52"
       ],
-      "resistance": 120.81,
-      "price": 118.46,
+      "resistance": 118.29,
+      "price": 113.53,
       "barGap": false
     },
     {
-      "ticker": "GKOS",
+      "ticker": "CAKE",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "최근 1주 거래량이 한 달 평균의 0.61배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $255.18 바로 아래(-3.14%)",
-        "1년 최고가의 96.86% 자리"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.11)",
+        "넘어야 할 선 $111 바로 아래(-4.32%)",
+        "최근 2주 종가가 2.54% 안에서만 움직였다"
       ],
       "flags": [
-        "volDry",
+        "bbSqueeze",
         "nearResist",
-        "high52"
+        "tightCloses"
       ],
-      "resistance": 255.18,
-      "price": 247.16,
+      "resistance": 111,
+      "price": 106.2,
       "barGap": false
     },
     {
@@ -101,8 +181,8 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.02, 최저 0.02)",
-        "넘어야 할 선 $119.13 바로 아래(-1.07%)",
-        "최근 2주 종가가 0.43% 안에서만 움직였다"
+        "넘어야 할 선 $119.13 바로 아래(-0.97%)",
+        "최근 2주 종가가 0.44% 안에서만 움직였다"
       ],
       "flags": [
         "bbSqueeze",
@@ -110,48 +190,15 @@ window.CHARTCHECK_DATA = {
         "tightCloses"
       ],
       "resistance": 119.13,
-      "price": 117.86,
-      "barGap": false
-    },
-    {
-      "ticker": "TTAN",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.15)",
-        "넘어야 할 선 $82.3 바로 아래(-0.58%)",
-        "최근 2주 종가가 2.33% 안에서만 움직였다"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 82.3,
-      "price": 81.82,
-      "barGap": false
-    },
-    {
-      "ticker": "ACN",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
-        "넘어야 할 선 $255.44 바로 아래(-0.7%)",
-        "최근 2주 종가가 2.11% 안에서만 움직였다"
-      ],
-      "flags": [
-        "contract10",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 255.44,
-      "price": 253.66,
+      "price": 117.98,
       "barGap": false
     }
   ],
-  "total": 8,
-  "shown": 8,
+  "total": 12,
+  "shown": 10,
   "cap": 10,
-  "beyondCap": []
+  "beyondCap": [
+    "UTHR(5)",
+    "EL(5)"
+  ]
 };

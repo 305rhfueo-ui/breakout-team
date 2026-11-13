@@ -1,0 +1,342 @@
+{
+  "date": "2026-11-13",
+  "count": 35,
+  "tickers": [
+    "MRNA",
+    "GKOS",
+    "KOD",
+    "GRAL",
+    "ORKA",
+    "EPAM",
+    "TXG",
+    "XMTR",
+    "HNGE",
+    "ANF",
+    "HRI",
+    "ELF",
+    "CRL",
+    "RHLD",
+    "VSXY",
+    "ALGT",
+    "PRAX",
+    "OKTA",
+    "ECO",
+    "TRNS",
+    "VEON",
+    "SYRE",
+    "TWST",
+    "WING",
+    "TPC",
+    "RVTY",
+    "SWKS",
+    "PAYC",
+    "KNSA",
+    "SEZL",
+    "TEAM",
+    "RYTM",
+    "PBF",
+    "NSIT",
+    "AGL"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 6,
+      "sharePct": 17.1,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "ORKA",
+        "PRAX",
+        "SYRE",
+        "RYTM"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 4,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 4,
+      "sharePct": 11.4,
+      "tickers": [
+        "GRAL",
+        "CRL",
+        "TWST",
+        "RVTY"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Medical Devices",
+      "level": "Industry",
+      "name": "Medical Devices",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "GKOS",
+        "TXG"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "ANF",
+        "VSXY"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Specialty Business Services",
+      "level": "Industry",
+      "name": "Specialty Business Services",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "RHLD",
+        "TRNS"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 1,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "PAYC",
+        "TEAM"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 0,
+        "m6": 2
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "GKOS",
+      "ORKA",
+      "EPAM",
+      "HRI",
+      "RHLD",
+      "ALGT",
+      "PRAX",
+      "TRNS",
+      "SYRE",
+      "TPC",
+      "RYTM",
+      "AGL"
+    ],
+    "m3": [
+      "MRNA",
+      "GKOS",
+      "KOD",
+      "GRAL",
+      "EPAM",
+      "XMTR",
+      "HNGE",
+      "ANF",
+      "RHLD",
+      "OKTA",
+      "ECO",
+      "VEON",
+      "WING",
+      "RVTY",
+      "SWKS",
+      "SEZL"
+    ],
+    "m6": [
+      "MRNA",
+      "GKOS",
+      "KOD",
+      "GRAL",
+      "TXG",
+      "HNGE",
+      "ANF",
+      "ELF",
+      "CRL",
+      "VSXY",
+      "OKTA",
+      "ECO",
+      "TWST",
+      "PAYC",
+      "KNSA",
+      "TEAM",
+      "PBF",
+      "NSIT"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "GKOS"
+    ],
+    "newEntrants": [
+      "ORKA",
+      "HRI",
+      "ALGT",
+      "PRAX",
+      "TRNS",
+      "SYRE",
+      "TPC",
+      "RYTM",
+      "AGL"
+    ],
+    "midTerm": [
+      "MRNA",
+      "KOD",
+      "GRAL",
+      "XMTR",
+      "HNGE",
+      "ANF",
+      "OKTA",
+      "ECO",
+      "VEON",
+      "WING",
+      "RVTY",
+      "SWKS",
+      "SEZL"
+    ],
+    "fading": [
+      "TXG",
+      "ELF",
+      "CRL",
+      "VSXY",
+      "TWST",
+      "PAYC",
+      "KNSA",
+      "TEAM",
+      "PBF",
+      "NSIT"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "AMD",
+      "AVGO",
+      "ANET",
+      "HUBS",
+      "IBP",
+      "IRTC",
+      "BLTE",
+      "ATEX",
+      "MOG.B",
+      "SENEB"
+    ],
+    "m1": [
+      "GKOS",
+      "ORKA",
+      "APP",
+      "FCN",
+      "HRI",
+      "EPAM",
+      "RHLD",
+      "ALGT",
+      "PRAX",
+      "TRNS",
+      "SYRE",
+      "IDXX",
+      "TPC",
+      "POOL",
+      "CLX",
+      "ESAB",
+      "CROX",
+      "FWONA",
+      "NXST",
+      "ROP",
+      "RYTM",
+      "AGL"
+    ],
+    "m3": [
+      "KOD",
+      "GRAL",
+      "EPAM",
+      "XMTR",
+      "ANF",
+      "SIG",
+      "ACN",
+      "HNGE",
+      "ECO",
+      "VEON",
+      "MRNA",
+      "RHLD",
+      "WING",
+      "CBOE",
+      "RVTY",
+      "SWKS",
+      "ATKR",
+      "HAS",
+      "SEZL",
+      "GKOS",
+      "OKTA",
+      "FCN"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "TXG",
+      "HNGE",
+      "ELF",
+      "CRL",
+      "GKOS",
+      "VSXY",
+      "OKTA",
+      "SN",
+      "ANF",
+      "VEEV",
+      "TWST",
+      "HAE",
+      "MANH",
+      "ECO",
+      "PAYC",
+      "KNSA",
+      "GRAL",
+      "TEAM",
+      "PBF",
+      "NSIT"
+    ],
+    "all": [
+      "GKOS"
+    ]
+  }
+}
