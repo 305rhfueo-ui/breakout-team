@@ -1,0 +1,650 @@
+{
+ "ticker": "TPC",
+ "date": "2026-11-13",
+ "session": "2026-11-12",
+ "source": "list",
+ "plan": {
+  "ticker": "TPC",
+  "name": "튜터 페리니",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "price": 100.33,
+  "grade": "C",
+  "state": "post",
+  "pivot": 89.62,
+  "stop": 86.26,
+  "distToPivotPct": 11.95,
+  "distToPivotAdr": 2.69,
+  "riskPerSharePct": 3.75,
+  "adrPct": 4.44,
+  "extensionAdr": 2.53,
+  "breakDate": "2026-11-06",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 16.5,
+   "priorMovePct": 22.2,
+   "higherLows": 2,
+   "contraction": 1.38,
+   "closeRange10Adr": 1.9,
+   "surf10": 0.34,
+   "surf20": 0.46,
+   "slope20": -1.55,
+   "baseLow": 74.81,
+   "lastSwingLow": 78.77
+  },
+  "reasons": [
+   "✗ 선행 상승 +22%",
+   "베이스 8주",
+   "깊이 16.5%",
+   "저점 상승 2회",
+   "진폭 1.38배 · 10일 종가폭 1.9 ADR",
+   "10일선 +0.3 ADR · 20일선 +0.5 ADR",
+   "✗ 20일선 기울기 -1.55%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.33036313481894647,
+    "pct": 98.87285843101894
+   },
+   "m3": {
+    "v": 0.14867983893275977,
+    "pct": 84.35527502254283
+   },
+   "m6": {
+    "v": 0.41914826756523427,
+    "pct": 89.67538322813346
+   }
+  },
+  "ret1m": 27.57,
+  "ret3m": 11.07,
+  "ret6m": 38.03,
+  "marketCap": "5.13B",
+  "volx": 1.62,
+  "volSurgeWk": 0.79,
+  "high52": 98.17,
+  "newHigh52": false,
+  "adr": 4.44,
+  "div50": 18.47,
+  "div200": 22.27,
+  "targetStatus": true,
+  "saleCy": 16.91,
+  "saleNy": 14.12,
+  "epsCy": 296.81,
+  "epsNy": 8.75,
+  "cyTrend": 10.68,
+  "nyTrend": 7.42,
+  "est": {
+   "cyCur": 5.99185,
+   "cy30": 5.41382,
+   "nyCur": 6.5163,
+   "ny30": 6.06624
+  },
+  "fs": {
+   "sale": [
+    19.17,
+    11.46,
+    41.19
+   ],
+   "ni": [
+    229.14,
+    -8.22,
+    "흑자전환"
+   ],
+   "opm": [
+    7.19,
+    4.26,
+    3.32
+   ],
+   "updated": "2026-09-08 07:48:38"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-12",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "튜터 페리니",
+  "nameEn": "TUTOR PERINI CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000077543&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1720256000,
+     "profit": 125419000,
+     "netIncome": 20701000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": 21.5,
+      "profit": 212.8,
+      "netIncome": 470.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1637047000,
+     "profit": 117735000,
+     "netIncome": 65742000,
+     "margin": 7.2,
+     "yoy": {
+      "revenue": 19.2,
+      "profit": 54,
+      "netIncome": 229.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1389458000,
+     "profit": 59182000,
+     "netIncome": 25696000,
+     "margin": 4.3,
+     "yoy": {
+      "revenue": 11.5,
+      "profit": -9.4,
+      "netIncome": -8.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1507365000,
+     "profit": 50112000,
+     "netIncome": 28837000,
+     "margin": 3.3,
+     "yoy": {
+      "revenue": 41.2,
+      "profit": 158.1,
+      "netIncome": 136.3,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Tutor Perini (TPC) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Tutor Perini Corporation (TPC): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-tutor-perini-corporation-tpc-here-what-you-need-know",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here Is Why Bargain Hunters Would Love Fast-paced Mover Tutor Perini (TPC)",
+     "url": "https://www.nasdaq.com/articles/here-why-bargain-hunters-would-love-fast-paced-mover-tutor-perini-tpc",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Believe Tutor Perini (TPC) Could Rally 30.6%: Here's is How to Trade",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-tutor-perini-tpc-could-rally-306-heres-how-trade",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Tutor Perini (TPC) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-tutor-perini-tpc-stock-0",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Tutor Perini (TPC) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-tutor-perini-tpc-said-its-q3-earnings-call",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Tutor Perini (TPC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TPC Q3 Earnings Call Highlights Higher Guidance & Backlog Growth",
+     "url": "https://www.nasdaq.com/articles/tpc-q3-earnings-call-highlights-higher-guidance-backlog-growth",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000218/tpc-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000204/tpc-20261007.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-14",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000193/tpc-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000184/tpc-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-20260702.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000156/tpc-20260622.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Tutor Perini CEO on state of U.S. infrastructure: Demand exceeds anything the industry’s ever seen",
+   "url": "https://www.cnbc.com/video/2026/08/14/tutor-perini-ceo-on-state-of-u-s-infrastructure-demand-exceeds-anything-the-industryas-ever-seen.html",
+   "date": "2026-08-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TPC",
+  "fetchedAt": "2026-11-13",
+  "source": "한국투자증권 Open API",
+  "per": 43.41,
+  "pbr": 4.17,
+  "eps": 2.31,
+  "bps": 24.09,
+  "shares": 52569100,
+  "marketCapM": 5274,
+  "high52": 102.1996,
+  "high52Date": "2026-08-06",
+  "low52": 57.6995,
+  "low52Date": "2025-11-17",
+  "last": 100.33,
+  "prevClose": 101.34,
+  "nameKo": "튜터 페리니",
+  "nameEn": "TUTOR PERINI CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 52569100
+ },
+ "estimates": {
+  "ticker": "TPC",
+  "url": "https://finance.yahoo.com/quote/TPC/analysis/",
+  "fetchedAt": "2026-11-13",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.37,
+    "epsLow": 1.31,
+    "epsHigh": 1.43,
+    "epsYearAgo": 0.54,
+    "epsAnalysts": 2,
+    "epsGrowth": 153.7,
+    "epsCur": "USD",
+    "rev": 1708443350,
+    "revAnalysts": 3,
+    "revYearAgo": 1507365000,
+    "revGrowth": 13.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.11,
+    "epsLow": 1.11,
+    "epsHigh": 1.11,
+    "epsYearAgo": 1.03,
+    "epsAnalysts": 1,
+    "epsGrowth": 7.8,
+    "epsCur": "USD",
+    "rev": 1555000000,
+    "revAnalysts": 1,
+    "revYearAgo": 1389458000,
+    "revGrowth": 11.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.99,
+    "epsLow": 5.9,
+    "epsHigh": 6.05,
+    "epsYearAgo": 1.51,
+    "epsAnalysts": 3,
+    "epsGrowth": 296.8,
+    "epsCur": "USD",
+    "rev": 6480335610,
+    "revAnalysts": 4,
+    "revYearAgo": 5543039000,
+    "revGrowth": 16.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 6.52,
+    "epsLow": 6.25,
+    "epsHigh": 6.8,
+    "epsYearAgo": 5.99,
+    "epsAnalysts": 3,
+    "epsGrowth": 8.8,
+    "epsCur": "USD",
+    "rev": 7395080840,
+    "revAnalysts": 4,
+    "revYearAgo": 6480335610,
+    "revGrowth": 14.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.37,
+    "d7": 2.2,
+    "d30": 2.2,
+    "d90": 2.2,
+    "ago90": 1.34,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.11,
+    "d7": -6.7,
+    "d30": -6.7,
+    "d90": -6.7,
+    "ago90": 1.19,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.99,
+    "d7": 10.7,
+    "d30": 10.7,
+    "d90": 10.7,
+    "ago90": 5.41,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 6.52,
+    "d7": 7.4,
+    "d30": 7.4,
+    "d90": 7.4,
+    "ago90": 6.07,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.83,
+    "estimate": 1.34,
+    "surprisePct": 36.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.74,
+    "estimate": 1.26,
+    "surprisePct": 37.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.03,
+    "estimate": 0.96,
+    "surprisePct": 7.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.54,
+    "estimate": 0.92,
+    "surprisePct": -41.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 0,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-11-06",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 107,
+     "ptPrior": 105
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-12",
+  "numbers": {
+   "price": 100.33,
+   "ma20": 84.08,
+   "ma50": 84.69,
+   "ma150": 83.58,
+   "distMA50": 18.47,
+   "periodHigh": 102.3,
+   "pullbackFromHigh": -1.93,
+   "volRatio20": 1.4,
+   "dryUpRatio": 1.52
+  },
+  "last10": [
+   {
+    "d": "2026-10-30",
+    "o": 79.57,
+    "h": 81.91,
+    "l": 78.77,
+    "c": 79.82,
+    "v": 311600,
+    "clsPos": 33,
+    "gapPct": -3.61
+   },
+   {
+    "d": "2026-11-02",
+    "o": 81.44,
+    "h": 82.5,
+    "l": 79.18,
+    "c": 79.42,
+    "v": 381200,
+    "clsPos": 7,
+    "gapPct": 2.03
+   },
+   {
+    "d": "2026-11-03",
+    "o": 81,
+    "h": 83.74,
+    "l": 80.77,
+    "c": 82.85,
+    "v": 538000,
+    "clsPos": 70,
+    "gapPct": 1.99
+   },
+   {
+    "d": "2026-11-04",
+    "o": 81.98,
+    "h": 85.03,
+    "l": 78.87,
+    "c": 83.13,
+    "v": 1711700,
+    "clsPos": 69,
+    "gapPct": -1.05
+   },
+   {
+    "d": "2026-11-05",
+    "o": 80.91,
+    "h": 85.81,
+    "l": 78,
+    "c": 81.85,
+    "v": 1755600,
+    "clsPos": 49,
+    "gapPct": -2.67
+   },
+   {
+    "d": "2026-11-06",
+    "o": 84.77,
+    "h": 89.89,
+    "l": 82.82,
+    "c": 89.89,
+    "v": 1283300,
+    "clsPos": 100,
+    "gapPct": 3.57
+   },
+   {
+    "d": "2026-11-09",
+    "o": 92,
+    "h": 95.44,
+    "l": 90.98,
+    "c": 94.7,
+    "v": 1157400,
+    "clsPos": 83,
+    "gapPct": 2.35
+   },
+   {
+    "d": "2026-11-10",
+    "o": 94.82,
+    "h": 98.16,
+    "l": 94.51,
+    "c": 97.43,
+    "v": 696100,
+    "clsPos": 80,
+    "gapPct": 0.13
+   },
+   {
+    "d": "2026-11-11",
+    "o": 99.99,
+    "h": 101.98,
+    "l": 97.11,
+    "c": 101.34,
+    "v": 1003500,
+    "clsPos": 87,
+    "gapPct": 2.63
+   },
+   {
+    "d": "2026-11-12",
+    "o": 100.15,
+    "h": 101.58,
+    "l": 98.13,
+    "c": 100.33,
+    "v": 934156,
+    "clsPos": 64,
+    "gapPct": -1.17
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TPC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TPC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 18일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": null
+}

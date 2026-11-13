@@ -1,0 +1,290 @@
+{
+ "ticker": "SWKS",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "스카이웍스 솔루션스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 87.62,
+  "saleNy": 6.25,
+  "epsCy": 13.04,
+  "epsNy": 32.12,
+  "est": {
+   "cyCur": 5.70851,
+   "cy30": 5.696,
+   "nyCur": 7.54222,
+   "ny30": 6.38
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -3.13,
+    -1,
+    -3.1
+   ],
+   "ni": [
+    -67.71,
+    -48.18,
+    -51.11
+   ],
+   "opm": [
+    5.19,
+    4.46,
+    10.03
+   ],
+   "updated": "2026-09-08 09:06:18"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-12",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "스카이웍스 솔루션스",
+  "nameEn": "SKYWORKS SOLUTIONS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004127&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-03",
+     "derived": false,
+     "revenue": 934800000,
+     "profit": 48500000,
+     "netIncome": 33900000,
+     "margin": 5.2,
+     "yoy": {
+      "revenue": -3.1,
+      "profit": -56.1,
+      "netIncome": -67.7,
+      "priorEnd": "2025-06-27"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 943700000,
+     "profit": 42100000,
+     "netIncome": 35600000,
+     "margin": 4.5,
+     "yoy": {
+      "revenue": -1,
+      "profit": -56.7,
+      "netIncome": -48.2,
+      "priorEnd": "2025-03-28"
+     }
+    },
+    {
+     "periodEnd": "2026-01-02",
+     "derived": false,
+     "revenue": 1035400000,
+     "profit": 103800000,
+     "netIncome": 79200000,
+     "margin": 10,
+     "yoy": {
+      "revenue": -3.1,
+      "profit": -42.7,
+      "netIncome": -51.1,
+      "priorEnd": "2024-12-27"
+     }
+    },
+    {
+     "periodEnd": "2025-10-03",
+     "derived": true,
+     "revenue": 1100200000,
+     "profit": 111000000,
+     "netIncome": 141400000,
+     "margin": 10.1,
+     "yoy": {
+      "revenue": 7.3,
+      "profit": 86.9,
+      "netIncome": 133.7,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "All You Need to Know About Skyworks (SWKS) Rating Upgrade to Strong Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-skyworks-swks-rating-upgrade-strong-buy",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Skyworks (SWKS) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/skyworks-swks-q4-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Skyworks Solutions (SWKS) Said on Its Q4 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-skyworks-solutions-swks-said-its-q4-earnings-call",
+     "date": "2026-11-04",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Skyworks Solutions, Inc. Reports Fourth Quarter Revenue of $1,046 Million and Targets $500 Million or More of Annual Cost Synergies Following Qorvo Combination",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-inc-reports-fourth-quarter-revenue-1046-million-and-targets-500-million",
+     "date": "2026-11-04",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Skyworks Solutions (SWKS) Tops Q4 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-swks-tops-q4-earnings-and-revenue-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Skyworks Q4 Profit Falls",
+     "url": "https://www.nasdaq.com/articles/skyworks-q4-profit-falls",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Skyworks Solutions Q4 26 Earnings Conference Call At 4:30 PM ET",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-q4-26-earnings-conference-call-4-30-pm-et",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412726000052/swks-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-07",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926114359/tm2626934d2_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "2.01",
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926113538/tm2626934d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926112129/tm2626657d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926104395/tm2624606d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926093355/tm2622643d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Trump Media, Tesla, CoreWeave, more",
+   "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-premarket-djt-tsla-crwv-nvo.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Skyworks, Axon, Dave & Buster's, Revvity",
+   "url": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-midday-swks-axon-play-rvty.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa and more",
+   "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-after-hours-f-ter-v-klac-and-more.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer’s Stop Trading: Skyworks Solutions",
+   "url": "https://www.cnbc.com/video/2026/10/06/crameras-stop-trading-skyworks-solutions.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SWKS",
+  "fetchedAt": "2026-11-13",
+  "source": "한국투자증권 Open API",
+  "per": 46.64,
+  "pbr": 2.36,
+  "eps": 1.93,
+  "bps": 38.13,
+  "shares": 235166000,
+  "marketCapM": 21172,
+  "high52": 93.24,
+  "high52Date": "2026-11-12",
+  "low52": 51.4827,
+  "low52Date": "2026-03-30",
+  "last": 90.03,
+  "prevClose": 87.64,
+  "nameKo": "스카이웍스 솔루션스",
+  "nameEn": "SKYWORKS SOLUTIONS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 235166000
+ }
+}

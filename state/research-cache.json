@@ -479,8 +479,8 @@
       "count": 8
     },
     "ATEX": {
-      "last": "2026-10-03",
-      "count": 13
+      "last": "2026-11-13",
+      "count": 14
     },
     "NTRA": {
       "last": "2026-10-21",
@@ -539,8 +539,8 @@
       "count": 4
     },
     "AGL": {
-      "last": "2026-11-06",
-      "count": 16
+      "last": "2026-11-13",
+      "count": 17
     },
     "MXL": {
       "last": "2026-10-21",
@@ -599,8 +599,8 @@
       "count": 12
     },
     "AMD": {
-      "last": "2026-11-07",
-      "count": 8
+      "last": "2026-11-13",
+      "count": 9
     },
     "DDOG": {
       "last": "2026-10-22",
@@ -807,8 +807,8 @@
       "count": 2
     },
     "SWKS": {
-      "last": "2026-10-02",
-      "count": 4
+      "last": "2026-11-13",
+      "count": 5
     },
     "DJCO": {
       "last": "2026-09-16",
@@ -907,8 +907,8 @@
       "count": 2
     },
     "ECO": {
-      "last": "2026-10-20",
-      "count": 4
+      "last": "2026-11-13",
+      "count": 5
     },
     "CLS": {
       "last": "2026-10-28",
@@ -1099,8 +1099,8 @@
       "count": 1
     },
     "HUBS": {
-      "last": "2026-10-27",
-      "count": 3
+      "last": "2026-11-13",
+      "count": 4
     },
     "ULS": {
       "last": "2026-10-09",
@@ -1387,12 +1387,12 @@
       "count": 2
     },
     "POOL": {
-      "last": "2026-11-06",
-      "count": 2
+      "last": "2026-11-13",
+      "count": 3
     },
     "ROP": {
-      "last": "2026-11-06",
-      "count": 2
+      "last": "2026-11-13",
+      "count": 3
     },
     "PAYX": {
       "last": "2026-10-23",
@@ -1523,8 +1523,8 @@
       "count": 1
     },
     "ANET": {
-      "last": "2026-11-07",
-      "count": 2
+      "last": "2026-11-13",
+      "count": 3
     },
     "MCHP": {
       "last": "2026-10-28",
@@ -1831,12 +1831,12 @@
       "count": 1
     },
     "ALGT": {
-      "last": "2026-11-06",
-      "count": 1
+      "last": "2026-11-13",
+      "count": 2
     },
     "FWONA": {
-      "last": "2026-11-06",
-      "count": 1
+      "last": "2026-11-13",
+      "count": 2
     },
     "FWONK": {
       "last": "2026-11-06",
@@ -1867,8 +1867,8 @@
       "count": 1
     },
     "RHLD": {
-      "last": "2026-11-07",
-      "count": 1
+      "last": "2026-11-13",
+      "count": 2
     },
     "MIDD": {
       "last": "2026-11-07",
@@ -1941,6 +1941,38 @@
     "ULTA": {
       "last": "2026-11-11",
       "count": 1
+    },
+    "IBP": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "BLTE": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "SENEB": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "MOG.B": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "IRTC": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "TRNS": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "TPC": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "CLX": {
+      "last": "2026-11-13",
+      "count": 1
     }
   },
   "team4": {
@@ -1987,10 +2019,10 @@
       "evid": "659f4239b74d4479"
     },
     "SENEB": {
-      "last": "2026-10-13",
-      "count": 10,
+      "last": "2026-11-13",
+      "count": 11,
       "cat": 6,
-      "evid": "d3ccb95229a11239"
+      "evid": "39af1520df4742e6"
     },
     "FORTY": {
       "last": "2026-11-10",
@@ -2473,9 +2505,10 @@
       "cat": 6
     },
     "BLTE": {
-      "last": "2026-09-07",
-      "count": 1,
-      "cat": 2
+      "last": "2026-11-13",
+      "count": 2,
+      "cat": 6,
+      "evid": "24925db13510dee2"
     },
     "CNI": {
       "last": "2026-11-06",
@@ -2924,10 +2957,10 @@
       "evid": "e9e6cb48052cdeda"
     },
     "TWST": {
-      "last": "2026-10-07",
-      "count": 2,
-      "cat": 6,
-      "evid": "aaf234d9e2d3f8e7"
+      "last": "2026-11-13",
+      "count": 3,
+      "cat": 1,
+      "evid": "e1a230a0e71dbda1"
     },
     "ITT": {
       "last": "2026-09-18",
@@ -3384,10 +3417,10 @@
       "evid": "5dcc289deb5ba258"
     },
     "MANE": {
-      "last": "2026-10-09",
-      "count": 1,
-      "cat": 6,
-      "evid": "ca91b5c9bee065d0"
+      "last": "2026-11-13",
+      "count": 2,
+      "cat": 2,
+      "evid": "6e2d138e613e0b5a"
     },
     "GKOS": {
       "last": "2026-11-04",
@@ -3600,10 +3633,10 @@
       "evid": "c4d3497b18deff6e"
     },
     "TNK": {
-      "last": "2026-10-15",
-      "count": 1,
-      "cat": 6,
-      "evid": "569521ff6a186c47"
+      "last": "2026-11-13",
+      "count": 2,
+      "cat": 1,
+      "evid": "4bcbd01dff6aca3f"
     },
     "STRA": {
       "last": "2026-10-15",
@@ -4690,10 +4723,10 @@
       "evid": "89e90bc7086cf346"
     },
     "GPN": {
-      "last": "2026-11-03",
-      "count": 2,
-      "cat": 3,
-      "evid": "94f62ac9264bc2dd"
+      "last": "2026-11-13",
+      "count": 3,
+      "cat": 6,
+      "evid": "075d5eb1c6fc665f"
     },
     "FBIZ": {
       "last": "2026-10-31",
@@ -4882,10 +4915,10 @@
       "evid": "669f988dfd30dcd4"
     },
     "XEL": {
-      "last": "2026-11-03",
-      "count": 1,
+      "last": "2026-11-13",
+      "count": 2,
       "cat": 6,
-      "evid": "11b15d8868b75c43"
+      "evid": "1988af282badd549"
     },
     "USLM": {
       "last": "2026-11-03",
@@ -5140,10 +5173,10 @@
       "evid": "3d7eee56a1105432"
     },
     "SO": {
-      "last": "2026-11-06",
-      "count": 1,
-      "cat": 1,
-      "evid": "099071ae3fd463b8"
+      "last": "2026-11-13",
+      "count": 2,
+      "cat": 6,
+      "evid": "c76ed8d5246027a1"
     },
     "FTDR": {
       "last": "2026-11-10",
@@ -5480,8 +5513,8 @@
       "count": 2
     },
     "Healthcare|Health Information Services": {
-      "last": "2026-11-10",
-      "count": 7
+      "last": "2026-11-13",
+      "count": 8
     },
     "Healthcare|Biotechnology": {
       "last": "2026-11-11",
@@ -5504,20 +5537,20 @@
       "count": 6
     },
     "Healthcare|Medical Devices": {
-      "last": "2026-11-10",
-      "count": 6
+      "last": "2026-11-13",
+      "count": 7
     },
     "Financial Services|Credit Services": {
       "last": "2026-10-20",
       "count": 1
     },
     "Financial Services|Insurance - Property & Casualty": {
-      "last": "2026-11-04",
-      "count": 4
+      "last": "2026-11-13",
+      "count": 5
     },
     "Technology|Information Technology Services": {
-      "last": "2026-11-10",
-      "count": 5
+      "last": "2026-11-13",
+      "count": 6
     },
     "Financial Services|Banks - Regional": {
       "last": "2026-11-06",
@@ -5832,8 +5865,8 @@
       "count": 1
     },
     "HUBS": {
-      "last": "2026-10-16",
-      "count": 1
+      "last": "2026-11-13",
+      "count": 2
     },
     "EXPE": {
       "last": "2026-10-16",
@@ -6080,8 +6113,8 @@
       "count": 2
     },
     "ROP": {
-      "last": "2026-10-23",
-      "count": 1
+      "last": "2026-11-13",
+      "count": 2
     },
     "PAYX": {
       "last": "2026-10-23",
@@ -6236,12 +6269,12 @@
       "count": 1
     },
     "AMD": {
-      "last": "2026-11-07",
-      "count": 2
+      "last": "2026-11-13",
+      "count": 3
     },
     "ANET": {
-      "last": "2026-11-07",
-      "count": 2
+      "last": "2026-11-13",
+      "count": 3
     },
     "MCHP": {
       "last": "2026-10-28",
@@ -6564,8 +6597,8 @@
       "count": 1
     },
     "ALGT": {
-      "last": "2026-11-06",
-      "count": 1
+      "last": "2026-11-13",
+      "count": 2
     },
     "FWONA": {
       "last": "2026-11-06",
@@ -6689,6 +6722,42 @@
     },
     "HRI": {
       "last": "2026-11-12",
+      "count": 1
+    },
+    "IBP": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "ATEX": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "BLTE": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "SENEB": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "MOG.B": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "IRTC": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "TRNS": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "TPC": {
+      "last": "2026-11-13",
+      "count": 1
+    },
+    "CLX": {
+      "last": "2026-11-13",
       "count": 1
     }
   }

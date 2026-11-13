@@ -1,0 +1,602 @@
+{
+ "ticker": "MOG.B",
+ "date": "2026-11-13",
+ "session": "2026-11-12",
+ "source": "list",
+ "plan": {
+  "ticker": "MOG.B",
+  "name": "무그 B",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "price": 347,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 397.4,
+  "stop": 394.91,
+  "distToPivotPct": -18.18,
+  "distToPivotAdr": -23.7,
+  "riskPerSharePct": 0.63,
+  "adrPct": 0.77,
+  "extensionAdr": -3.96,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 34,
+   "baseWeeks": 6.8,
+   "depthPct": 19.2,
+   "priorMovePct": 9.8,
+   "higherLows": 0,
+   "contraction": 0.09,
+   "closeRange10Adr": 11.7,
+   "surf10": -3.96,
+   "surf20": -7.42,
+   "slope20": -3.01,
+   "baseLow": 321.08,
+   "lastSwingLow": 321.08
+  },
+  "reasons": [
+   "✗ 선행 상승 +10%",
+   "베이스 6.8주",
+   "깊이 19.2%",
+   "✗ 저점 상승 0회",
+   "진폭 0.09배 · 10일 종가폭 11.7 ADR",
+   "✗ 10일선 -4 ADR · 20일선 -7.4 ADR",
+   "✗ 20일선 기울기 -3.01%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.02740876753312112,
+    "pct": 34.12984670874662
+   },
+   "m3": {
+    "v": -0.13128558952196445,
+    "pct": 16.00541027953111
+   },
+   "m6": {
+    "v": 0.12066196013579478,
+    "pct": 55.139765554553655
+   }
+  },
+  "ret1m": -2.73,
+  "ret3m": -16.93,
+  "ret6m": 8.18,
+  "marketCap": "10.30B",
+  "volx": 4.89,
+  "volSurgeWk": 4.91,
+  "high52": 77.11,
+  "newHigh52": false,
+  "adr": 0.84,
+  "div50": -4.21,
+  "div200": -2.7,
+  "targetStatus": false,
+  "saleCy": 14.12,
+  "saleNy": 7.27,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "fs": {
+   "sale": [
+    15.16,
+    12.63,
+    21.2
+   ],
+   "ni": [
+    159.93,
+    49.86,
+    37.07
+   ],
+   "opm": [
+    14.41,
+    11.7,
+    10.83
+   ],
+   "updated": "2026-09-07 06:17:15"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "무그 B",
+  "nameEn": "MOOG INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000067887&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 1116545000,
+     "profit": 176270000,
+     "netIncome": 152025000,
+     "margin": 15.8,
+     "yoy": {
+      "revenue": 15.2,
+      "profit": 57.5,
+      "netIncome": 159.9,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 1051947000,
+     "profit": 137937000,
+     "netIncome": 81839000,
+     "margin": 13.1,
+     "yoy": {
+      "revenue": 12.6,
+      "profit": 26.5,
+      "netIncome": 49.9,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2026-01-03",
+     "derived": false,
+     "revenue": 1100346000,
+     "profit": 135446000,
+     "netIncome": 78851000,
+     "margin": 12.3,
+     "yoy": {
+      "revenue": 21.2,
+      "profit": 30.7,
+      "netIncome": 37.1,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": true,
+     "revenue": 1049138000,
+     "profit": 125040000,
+     "netIncome": 64406000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": 14.1,
+      "profit": 35.1,
+      "netIncome": 51.4,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Moog (MOG.B) Price Target Increased by 16.98% to 315.40",
+     "url": "https://www.nasdaq.com/articles/moog-mogb-price-target-increased-1698-31540",
+     "date": "2026-04-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog (MOG.B) Price Target Increased by 11.22% to 251.98",
+     "url": "https://www.nasdaq.com/articles/moog-mogb-price-target-increased-1122-25198",
+     "date": "2025-12-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Fall 6.1% Below Previous 52-Week Low - Market Mover",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-fall-6.1-below-previous-52-week-low-market-mover",
+     "date": "2024-01-24",
+     "publisher": "Kwhen"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Close the Day 25.1% Lower - Daily Wrap",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-close-the-day-25.1-lower-daily-wrap",
+     "date": "2023-10-10",
+     "publisher": "Kwhen"
+    },
+    {
+     "title": "Moog Inc., Class B (MOG.B) Declares $0.27 Dividend",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-mog.b-declares-$0.27-dividend-0",
+     "date": "2023-05-01",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog Inc., Class B (MOG.B) Declares $0.27 Dividend",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-mog.b-declares-$0.27-dividend",
+     "date": "2023-02-12",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Close in on 52-Week High - Market Mover",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-close-in-on-52-week-high-market-mover-0",
+     "date": "2022-12-02",
+     "publisher": "Kwhen"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Close in on 52-Week High - Market Mover",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-close-in-on-52-week-high-market-mover",
+     "date": "2022-11-22",
+     "publisher": "Kwhen"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026051250/mog-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026047105/mog-20260701.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026027030/mog-20260424.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-03",
+    "itemsKo": [
+     "1.02"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026023542/mog-20260403.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "2.04"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026020809/mog-20260324.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026016411/mog-20260310.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "MOG.B",
+  "fetchedAt": "2026-11-13",
+  "source": "한국투자증권 Open API",
+  "per": 29.51,
+  "pbr": 5.07,
+  "eps": 11.76,
+  "bps": 68.41,
+  "shares": 3228120,
+  "marketCapM": 1120,
+  "high52": 450,
+  "high52Date": "2026-08-17",
+  "low52": 214.1677,
+  "low52Date": "2025-11-21",
+  "last": 347,
+  "prevClose": 325.1401,
+  "nameKo": "무그 B",
+  "nameEn": "MOOG INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 3228120
+ },
+ "estimates": {
+  "ticker": "MOG-B",
+  "url": "https://finance.yahoo.com/quote/MOG-B/analysis/",
+  "fetchedAt": "2026-11-13",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 1122050000,
+    "revAnalysts": 4,
+    "revYearAgo": 1049138000,
+    "revGrowth": 7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 1156950000,
+    "revAnalysts": 2,
+    "revYearAgo": 1100346000,
+    "revGrowth": 5.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-09-30",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 4405883950,
+    "revAnalysts": 5,
+    "revYearAgo": 3860624000,
+    "revGrowth": 14.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-09-30",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 4726055280,
+    "revAnalysts": 4,
+    "revYearAgo": 4405883950,
+    "revGrowth": 7.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-09-30",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-09-30",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   }
+  ],
+  "surprises": [],
+  "beats": 0,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 0,
+   "recent": []
+  },
+  "nextEarnings": {
+   "date": "2026-11-20",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-12",
+  "numbers": {
+   "price": 347,
+   "ma20": 343.16,
+   "ma50": 362.27,
+   "ma150": 369.35,
+   "distMA50": -4.21,
+   "periodHigh": 450,
+   "pullbackFromHigh": -22.89,
+   "volRatio20": 4.85,
+   "dryUpRatio": 1.33
+  },
+  "last10": [
+   {
+    "d": "2026-10-30",
+    "o": 349.95,
+    "h": 349.95,
+    "l": 349.95,
+    "c": 349.95,
+    "v": 300,
+    "clsPos": null,
+    "gapPct": -0.06
+   },
+   {
+    "d": "2026-11-02",
+    "o": 349.95,
+    "h": 349.95,
+    "l": 349.95,
+    "c": 349.95,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-03",
+    "o": 349.95,
+    "h": 349.95,
+    "l": 349.95,
+    "c": 349.95,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-04",
+    "o": 328.83,
+    "h": 328.83,
+    "l": 328.63,
+    "c": 328.63,
+    "v": 300,
+    "clsPos": 0,
+    "gapPct": -6.04
+   },
+   {
+    "d": "2026-11-05",
+    "o": 323.58,
+    "h": 324.54,
+    "l": 321.08,
+    "c": 321.08,
+    "v": 500,
+    "clsPos": 0,
+    "gapPct": -1.54
+   },
+   {
+    "d": "2026-11-06",
+    "o": 324.8,
+    "h": 325.14,
+    "l": 324.8,
+    "c": 325.14,
+    "v": 300,
+    "clsPos": 100,
+    "gapPct": 1.16
+   },
+   {
+    "d": "2026-11-09",
+    "o": 325.14,
+    "h": 325.14,
+    "l": 325.14,
+    "c": 325.14,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-10",
+    "o": 325.14,
+    "h": 325.14,
+    "l": 325.14,
+    "c": 325.14,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-11",
+    "o": 325.14,
+    "h": 325.14,
+    "l": 325.14,
+    "c": 325.14,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-12",
+    "o": 342.46,
+    "h": 347,
+    "l": 342.3,
+    "c": 347,
+    "v": 800,
+    "clsPos": 100,
+    "gapPct": 5.33
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MOG.B-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MOG.B-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 18일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": null
+}

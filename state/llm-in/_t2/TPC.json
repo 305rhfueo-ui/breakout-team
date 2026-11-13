@@ -1,0 +1,270 @@
+{
+ "ticker": "TPC",
+ "sector": "Industrials",
+ "industry": "Engineering & Construction",
+ "nameKo": "튜터 페리니",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 16.91,
+  "saleNy": 14.12,
+  "epsCy": 296.81,
+  "epsNy": 8.75,
+  "est": {
+   "cyCur": 5.99185,
+   "cy30": 5.41382,
+   "nyCur": 6.5163,
+   "ny30": 6.06624
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    19.17,
+    11.46,
+    41.19
+   ],
+   "ni": [
+    229.14,
+    -8.22,
+    "흑자전환"
+   ],
+   "opm": [
+    7.19,
+    4.26,
+    3.32
+   ],
+   "updated": "2026-09-08 07:48:38"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-12",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "튜터 페리니",
+  "nameEn": "TUTOR PERINI CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000077543&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1720256000,
+     "profit": 125419000,
+     "netIncome": 20701000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": 21.5,
+      "profit": 212.8,
+      "netIncome": 470.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1637047000,
+     "profit": 117735000,
+     "netIncome": 65742000,
+     "margin": 7.2,
+     "yoy": {
+      "revenue": 19.2,
+      "profit": 54,
+      "netIncome": 229.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1389458000,
+     "profit": 59182000,
+     "netIncome": 25696000,
+     "margin": 4.3,
+     "yoy": {
+      "revenue": 11.5,
+      "profit": -9.4,
+      "netIncome": -8.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1507365000,
+     "profit": 50112000,
+     "netIncome": 28837000,
+     "margin": 3.3,
+     "yoy": {
+      "revenue": 41.2,
+      "profit": 158.1,
+      "netIncome": 136.3,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Tutor Perini (TPC) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Tutor Perini Corporation (TPC): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-tutor-perini-corporation-tpc-here-what-you-need-know",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here Is Why Bargain Hunters Would Love Fast-paced Mover Tutor Perini (TPC)",
+     "url": "https://www.nasdaq.com/articles/here-why-bargain-hunters-would-love-fast-paced-mover-tutor-perini-tpc",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Believe Tutor Perini (TPC) Could Rally 30.6%: Here's is How to Trade",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-tutor-perini-tpc-could-rally-306-heres-how-trade",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Tutor Perini (TPC) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-tutor-perini-tpc-stock-0",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Tutor Perini (TPC) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-tutor-perini-tpc-said-its-q3-earnings-call",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Tutor Perini (TPC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TPC Q3 Earnings Call Highlights Higher Guidance & Backlog Growth",
+     "url": "https://www.nasdaq.com/articles/tpc-q3-earnings-call-highlights-higher-guidance-backlog-growth",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000218/tpc-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000204/tpc-20261007.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-14",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000193/tpc-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000184/tpc-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-20260702.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000156/tpc-20260622.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Tutor Perini CEO on state of U.S. infrastructure: Demand exceeds anything the industry’s ever seen",
+   "url": "https://www.cnbc.com/video/2026/08/14/tutor-perini-ceo-on-state-of-u-s-infrastructure-demand-exceeds-anything-the-industryas-ever-seen.html",
+   "date": "2026-08-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TPC",
+  "fetchedAt": "2026-11-13",
+  "source": "한국투자증권 Open API",
+  "per": 43.41,
+  "pbr": 4.17,
+  "eps": 2.31,
+  "bps": 24.09,
+  "shares": 52569100,
+  "marketCapM": 5274,
+  "high52": 102.1996,
+  "high52Date": "2026-08-06",
+  "low52": 57.6995,
+  "low52Date": "2025-11-17",
+  "last": 100.33,
+  "prevClose": 101.34,
+  "nameKo": "튜터 페리니",
+  "nameEn": "TUTOR PERINI CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 52569100
+ }
+}

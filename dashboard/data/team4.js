@@ -45,9 +45,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:49:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MANE",
+        "category": 2,
+        "company": "Veradermics는 탈모 치료제 VDPHL01을 개발하는 임상 단계 바이오 기업이다. 아직 매출이 없고 적자를 내는 회사다.",
+        "volumeExplanation": "11월 9일 남성 탈모 임상 3상 12개월 장기 결과를 긍정적이라고 발표했고, 11월 10일 3분기 실적도 나왔다. 임상 결과가 투자자 관심을 끌어 거래량이 평소의 3배 넘게 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 9일 탈모 치료제 VDPHL01의 3상 '302' 12개월 결과가 긍정적으로 나왔다. 하루 두 번 투여군에서 털 수가 1제곱센티미터당 43.9개 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics Achieved the Highest VDPHL01 Reported Hair Count in the Phase 3 Program to Date in Positive 12-Month Study '302' Data in Male Pattern Hair Loss",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/healthcare/articles/veradermics-achieved-highest-vdphl01-reported-120000900.html",
+                "date": "2026-11-09",
+                "quote": "increase in non-vellus hair count of 43.9 hairs/cm2",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "임상 결과 발표 직후 주가가 올랐다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics stock rises on 12-month hair growth trial data",
+                "publisher": "Investing.com",
+                "url": "https://finance.yahoo.com/healthcare/articles/veradermics-stock-rises-12-month-180414147.html",
+                "date": "2026-11-09",
+                "quote": "Veradermics stock rises on 12-month hair growth trial data",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "11월 10일 3분기 실적은 적자가 커졌지만 예상치보다는 나았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Veradermics Q3 Losses Widen, Beat Estimates",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/healthcare/articles/veradermics-q3-losses-widen-beat-130619900.html",
+                "date": "2026-11-10",
+                "quote": "Veradermics Q3 Losses Widen, Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -661,9 +723,46 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:26:39"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BLTE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c3",
+            "statement": "9월 FDA 우선심사 지정 소식이 이미 나와 있어 이번 거래량은 승인 일정 재확인과 실적 발표가 겹친 영향으로 보인다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Belite Bio Wins FDA Priority Review for Tinlarebant in Stargardt Disease",
+                "publisher": "MarketBeat (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/belite-bio-wins-fda-priority-review-tinlarebant-stargardt-disease",
+                "date": "2026-09-03",
+                "quote": "Belite Bio Wins FDA Priority Review for Tinlarebant in Stargardt Disease",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Belite Bio는 망막 질환 신약을 개발하는 바이오 기업으로, 아직 매출이 없고 주력 후보물질은 스타가르트병 치료제 tinlarebant입니다.",
+        "volumeExplanation": "11월 12일 3분기 실적 발표에서 tinlarebant의 FDA 우선심사와 자문위원회 생략 방침이 알려져 관심이 몰렸다. 신약 승인 기대가 커지면서 거래량이 평소의 3배 넘게 늘었다. 승인 결과가 나오기 전까지는 기대감일 뿐이며, 실제 FDA 결정이 이 이야기의 맞고 틀림을 가른다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "c1의 목표 처리일(2027년 2월 12일)이 quote에 없음. c2의 일본·싱가포르·영국·스위스 신청 및 현금 보유액 정보도 quote에 없음. 제거 후 c3만 남아 근거 약화",
+          "narrativeFixed": true
+        },
+        "originalCategory": 2,
+        "corrected": true,
+        "volumeExplanationOriginal": "11월 12일 3분기 실적 발표에서 tinlarebant의 FDA 우선심사(목표 처리일 2027년 2월 12일)와 자문위원회 생략 방침이 알려져 관심이 몰렸다. 신약 승인 기대가 커지면서 거래량이 평소의 3배 넘게 늘었다. 승인 결과가 나오기 전까지는 기대감일 뿐이며, 실제 FDA 결정이 이 이야기의 맞고 틀림을 가른다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1329,9 +1428,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:35:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TNK",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Teekay Tankers가 11월 11일 장 마감 뒤 2026년 3분기 실적을 발표했고, 분기 배당 주당 0.25달러도 함께 확정했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teekay Tankers Ltd. Reports Third Quarter 2026 Results; and Declares Dividend",
+                "publisher": "GlobeNewswire (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/teekay-tankers-ltd-reports-third-210500331.html",
+                "date": "2026-11-11",
+                "quote": "its Board of Directors has declared its fixed quarterly cash dividend of $0.25 per share",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "MT Newswires는 3분기 조정 이익과 매출이 모두 늘었다고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teekay Tankers Q3 Adjusted Earnings, Revenue Rise",
+                "publisher": "MT Newswires (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/teekay-tankers-q3-adjusted-earnings-213539369.html",
+                "date": "2026-11-11",
+                "quote": "Teekay Tankers Q3 Adjusted Earnings, Revenue Rise",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Teekay Tankers는 원유·석유제품 운반 유조선을 운영하며 선박 운임으로 돈을 번다. 운임이 오르면 이익이 크게 늘고, 분기마다 고정 배당을 지급한다.",
+        "volumeExplanation": "11월 11일 장 마감 뒤 3분기 실적(조정 이익·매출 증가)과 배당 확정이 나왔고, 다음 거래일인 12일에 이를 반영하며 거래량이 평소보다 크게 늘었다. 최근 분기 순이익이 전년 대비 큰 폭으로 늘어난 흐름이어서 실적 확인 매수가 몰린 것으로 보이며, 다음 분기 운임이 유지되는지가 이 해석의 확인 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1887,9 +2032,45 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": true,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SENEB",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "증권사 목표주가 평균이 10월 23일 11.65% 올라 227.73달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Seneca Foods Consensus Price Target Raised by 11.65% to $227.73",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/seneca-foods-consensus-price-target-raised-1165-22773",
+                "date": "2026-10-23",
+                "quote": "Seneca Foods Consensus Price Target Raised by 11.65% to $227.73",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Seneca Foods는 통조림·냉동 채소와 과일을 만들어 유통업체와 식품 회사에 파는 업체다. 최근 Green Giant 냉동 사업을 인수했다.",
+        "volumeExplanation": "11월 초 발표된 7~9월 분기 실적에서 매출이 7.1% 늘고, 증권사 목표주가 상향과 함께 관심이 붙은 것으로 보인다. 다만 이날 거래량이 터진 직접 원인은 자료에서 확인되지 않아, 실적 발표 후 관심 지속 정도로 본다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 법인세 전 이익 47.4% 증가가 quote에 없음(quote는 매출만 제시). 남은 c2는 목표주가 상향일 뿐 실적 근거 부족",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "11월 초 발표된 7~9월 분기 실적에서 매출이 7.1% 늘고 법인세 전 이익이 47.4% 늘어, 증권사 목표주가 상향과 함께 관심이 붙은 것으로 보인다. 다만 이날 거래량이 터진 직접 원인은 자료에서 확인되지 않아, 실적 발표 후 관심 지속 정도로 본다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": []
     },
@@ -1934,9 +2115,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:48:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GPN",
+        "category": 6,
+        "company": "Global Payments는 가맹점(상점)의 카드 결제를 처리해 주고 수수료를 받는 결제 처리 회사입니다.",
+        "volumeExplanation": "11월 초 사모펀드의 인수 추진 보도로 주가가 13% 올라 거래가 몰렸습니다. 이번 거래량 급증의 직접 원인은 열 수 있는 원문으로 확인하지 못했습니다.",
+        "confidence": "low",
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 11월 12~13일 급등락 원인이 sources에 없음(statement 자체가 '확인 안 됨'이라고 명시). 11월 2~3일 부분만 검증되나, 주요 주장인 거래량 급증 원인이 없어 category 6 상태에서 유일 claim 제거됨"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2686,9 +2889,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:36:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "XEL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Xcel Energy는 미국 중서부·서부 지역에 전기와 천연가스를 공급하는 규제 대상 전력회사입니다. 요금을 규제당국이 정해 주는 구조라 수익이 안정적입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3388,9 +3611,64 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:32:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 12~13일 Southern이 17.5억 달러 규모 지분증권(주식으로 전환되는 증권) 발행을 발표하고 가격을 확정했다. 자금은 기존 전환사채를 되사는 데 쓴다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Southern Company Announces $1.75 Billion Equity Units Offering to Repurchase Convertible Notes",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/southern-company-announces-1-75-140137732.html",
+                "date": "2026-11-12",
+                "quote": "Southern Company Announces $1.75 Billion Equity Units Offering to Repurchase Convertible Notes",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Southern Company announces pricing of equity units",
+                "publisher": "PR Newswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/southern-company-announces-pricing-equity-002600271.html",
+                "date": "2026-11-13",
+                "quote": "Southern Company announces pricing of equity units",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "11월 5일 3분기 실적이 예상치를 웃돌았다. 다만 거래량이 터진 시점과는 일주일 가까이 떨어져 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Southern Co. (SO) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/southern-co-so-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-11-05",
+                "quote": "Southern Co. (SO) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Southern Company는 미국 남동부에서 전기와 천연가스를 규제 요금으로 공급하는 대형 전력 유틸리티다. 주 수입은 전기 판매와 송배전 요금이다.",
+        "volumeExplanation": "거래량 증가 시점에 17.5억 달러 지분증권 발행과 전환사채 상환 소식이 나왔는데, 이는 주가 호재라기보다 자금 조달 이벤트다. 뚜렷한 호재는 확인되지 않았고, 발행 관련 매매나 헤지(가격 변동 방어) 거래가 거래량을 키웠는지는 확인되지 않는다. 이 발행 물량 소화 이후에도 거래량이 평소 수준으로 돌아오면 일회성이었다는 이야기가 맞다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4135,9 +4413,43 @@ window.TEAM4_DATA = {
         "updated": "2026-09-15 06:20:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TWST",
+        "category": 1,
+        "company": "Twist Bioscience는 합성 DNA를 만들어 제약·연구기관에 파는 회사입니다. 주력은 유전자 합성과 DNA 시퀀싱 준비용 제품입니다.",
+        "volumeExplanation": "11월 12일 회계 4분기 실적을 발표했고, 매출이 예상치를 웃돌아 거래량이 평소보다 늘었다. 다만 적자는 이어졌다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 12일 발표한 회계 4분기 실적에서 매출이 시장 예상치를 넘었지만 적자는 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twist Bioscience (TWST) Reports Q4 Loss, Beats Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-reports-q4-loss-beats-revenue-estimates",
+                "date": "2026-11-12",
+                "quote": "Twist Bioscience (TWST) Reports Q4 Loss, Beats Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 12일 회계 4분기 실적을 발표했고, 매출이 예상치를 웃돌아 거래량이 평소보다 늘었다. 다만 적자는 이어졌고 가이던스(회사의 다음 해 전망)에 대한 반응은 엇갈린 것으로 보인다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-13",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4233,14 +4545,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 1,
+    "done": 9,
     "total": 9,
-    "cap": null,
-    "pending": 8,
+    "cap": 8,
+    "pending": 0,
     "failed": 0,
     "carried": 1,
     "ineligible": 0,
-    "note": "9종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 8종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -4258,5 +4570,28 @@ window.TEAM4_DATA = {
     "sectorSignal": "특정 업종에 몰린 흐름은 없습니다. 실적 호재 1건과 정책(합병 승인) 호재 1건이 서로 다른 분야에서 나왔습니다.",
     "caution": "NWE는 합병 승인이 호재이지만 3분기 이익이 예상에 못 미쳤고, 합병 가격(교환 비율)에 주가가 묶일 수 있습니다. HWC는 근거 없이 거래량만 움직인 종목이라 호재로 보지 않았고, 가격 데이터가 없어 차트 상태는 판단하지 않았습니다.",
     "researchedOn": "2026-11-12"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "TNK",
+        "category": 1,
+        "oneLine": "11일 장 마감 뒤 3분기 실적 발표, 조정 이익·매출 모두 늘고 분기 배당 주당 0.25달러 확정"
+      },
+      {
+        "ticker": "TWST",
+        "category": 1,
+        "oneLine": "12일 회계 4분기 매출이 시장 예상치를 넘었으나 적자는 이어짐"
+      }
+    ],
+    "sectorSignal": "실적 호재 2건(해운 탱커, 바이오 장비·서비스)이 있지만 업종이 같지 않아 한 업종 쏠림은 보이지 않습니다. 산업 기술 돌파 호재는 입력에 없습니다.",
+    "caution": "TWST는 매출만 예상을 넘고 적자가 계속돼 호재 강도가 약합니다. TNK도 입력에는 '늘었다'는 보도만 있고 예상치 대비 규모는 없어, 서프라이즈인지는 직접 확인이 필요합니다. 차트 상태는 보지 않았습니다.",
+    "researchedOn": "2026-11-13"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 2,
+    "2": 1,
+    "6": 6
   }
 };

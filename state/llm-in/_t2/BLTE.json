@@ -1,0 +1,132 @@
+{
+ "ticker": "BLTE",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "비라이트 바이오(ADR)",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": 27.11,
+  "epsNy": -176.97,
+  "est": {
+   "cyCur": -2.93625,
+   "cy30": -2.93625,
+   "nyCur": 2.26,
+   "ny30": 2.26
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:26:39"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "비라이트 바이오(ADR)",
+  "nameEn": "BELITE BIO INC SPON ADS EACH REP 1 ORD SHS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Belite Bio Elevates Nasdaq Listing As Company Advances Retinal Disease Pipeline",
+     "url": "https://www.nasdaq.com/articles/belite-bio-elevates-nasdaq-listing-company-advances-retinal-disease-pipeline",
+     "date": "2026-10-19",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Belite Bio Files Regulatory Applications For Tinlarebant In Singapore, UK, Switzerland",
+     "url": "https://www.nasdaq.com/articles/belite-bio-files-regulatory-applications-tinlarebant-singapore-uk-switzerland",
+     "date": "2026-10-15",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Belite Bio To Present Tinlarebant Data At Euretina",
+     "url": "https://www.nasdaq.com/articles/belite-bio-present-tinlarebant-data-euretina",
+     "date": "2026-09-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Belite Bio, Inc. Sponsored ADR (BLTE)'s Technical Outlook is Bright After Key Golden Cross",
+     "url": "https://www.nasdaq.com/articles/belite-bio-inc-sponsored-adr-bltes-technical-outlook-bright-after-key-golden-cross",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Belite Bio Announces NDA Submission In Japan For Tinlarebant Under Sakigake Designation",
+     "url": "https://www.nasdaq.com/articles/belite-bio-announces-nda-submission-japan-tinlarebant-under-sakigake-designation",
+     "date": "2026-09-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Canaccord Genuity Initiates Coverage of Belite Bio, Inc - Depositary Receipt at Buy",
+     "url": "https://www.nasdaq.com/articles/canaccord-genuity-initiates-coverage-belite-bio-inc-depositary-receipt-buy",
+     "date": "2026-09-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Belite Bio Wins FDA Priority Review for Tinlarebant in Stargardt Disease",
+     "url": "https://www.nasdaq.com/articles/belite-bio-wins-fda-priority-review-tinlarebant-stargardt-disease",
+     "date": "2026-09-03",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Belite Bio Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/belite-bio-q2-earnings-call-highlights",
+     "date": "2026-08-13",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "BLTE",
+  "fetchedAt": "2026-11-13",
+  "source": "한국투자증권 Open API",
+  "per": 62.15,
+  "pbr": 8.81,
+  "eps": 2.73,
+  "bps": 19.28,
+  "shares": 40272144,
+  "marketCapM": 6845,
+  "high52": 200,
+  "high52Date": "2026-02-03",
+  "low52": 102,
+  "low52Date": "2025-11-11",
+  "last": 169.96,
+  "prevClose": 155.94,
+  "nameKo": "비라이트 바이오(ADR)",
+  "nameEn": "BELITE BIO INC SPON ADS EACH REP 1 ORD SHS",
+  "listedOn": "2022-04-26",
+  "exchange": "나스닥",
+  "listedShares": 40272144
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "ticker": "MOG.B",
+ "sector": "Industrials",
+ "industry": "Aerospace & Defense",
+ "nameKo": "무그 B",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.12,
+  "saleNy": 7.27,
+  "epsCy": null,
+  "epsNy": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    15.16,
+    12.63,
+    21.2
+   ],
+   "ni": [
+    159.93,
+    49.86,
+    37.07
+   ],
+   "opm": [
+    14.41,
+    11.7,
+    10.83
+   ],
+   "updated": "2026-09-07 06:17:15"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "무그 B",
+  "nameEn": "MOOG INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000067887&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 1116545000,
+     "profit": 176270000,
+     "netIncome": 152025000,
+     "margin": 15.8,
+     "yoy": {
+      "revenue": 15.2,
+      "profit": 57.5,
+      "netIncome": 159.9,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 1051947000,
+     "profit": 137937000,
+     "netIncome": 81839000,
+     "margin": 13.1,
+     "yoy": {
+      "revenue": 12.6,
+      "profit": 26.5,
+      "netIncome": 49.9,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2026-01-03",
+     "derived": false,
+     "revenue": 1100346000,
+     "profit": 135446000,
+     "netIncome": 78851000,
+     "margin": 12.3,
+     "yoy": {
+      "revenue": 21.2,
+      "profit": 30.7,
+      "netIncome": 37.1,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": true,
+     "revenue": 1049138000,
+     "profit": 125040000,
+     "netIncome": 64406000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": 14.1,
+      "profit": 35.1,
+      "netIncome": 51.4,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Moog (MOG.B) Price Target Increased by 16.98% to 315.40",
+     "url": "https://www.nasdaq.com/articles/moog-mogb-price-target-increased-1698-31540",
+     "date": "2026-04-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog (MOG.B) Price Target Increased by 11.22% to 251.98",
+     "url": "https://www.nasdaq.com/articles/moog-mogb-price-target-increased-1122-25198",
+     "date": "2025-12-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Fall 6.1% Below Previous 52-Week Low - Market Mover",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-fall-6.1-below-previous-52-week-low-market-mover",
+     "date": "2024-01-24",
+     "publisher": "Kwhen"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Close the Day 25.1% Lower - Daily Wrap",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-close-the-day-25.1-lower-daily-wrap",
+     "date": "2023-10-10",
+     "publisher": "Kwhen"
+    },
+    {
+     "title": "Moog Inc., Class B (MOG.B) Declares $0.27 Dividend",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-mog.b-declares-$0.27-dividend-0",
+     "date": "2023-05-01",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog Inc., Class B (MOG.B) Declares $0.27 Dividend",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-mog.b-declares-$0.27-dividend",
+     "date": "2023-02-12",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Close in on 52-Week High - Market Mover",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-close-in-on-52-week-high-market-mover-0",
+     "date": "2022-12-02",
+     "publisher": "Kwhen"
+    },
+    {
+     "title": "Moog, Inc. - Class B Shares Close in on 52-Week High - Market Mover",
+     "url": "https://www.nasdaq.com/articles/moog-inc.-class-b-shares-close-in-on-52-week-high-market-mover",
+     "date": "2022-11-22",
+     "publisher": "Kwhen"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026051250/mog-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026047105/mog-20260701.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026027030/mog-20260424.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-03",
+    "itemsKo": [
+     "1.02"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026023542/mog-20260403.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "2.04"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026020809/mog-20260324.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026016411/mog-20260310.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "MOG.B",
+  "fetchedAt": "2026-11-13",
+  "source": "한국투자증권 Open API",
+  "per": 29.51,
+  "pbr": 5.07,
+  "eps": 11.76,
+  "bps": 68.41,
+  "shares": 3228120,
+  "marketCapM": 1120,
+  "high52": 450,
+  "high52Date": "2026-08-17",
+  "low52": 214.1677,
+  "low52Date": "2025-11-21",
+  "last": 347,
+  "prevClose": 325.1401,
+  "nameKo": "무그 B",
+  "nameEn": "MOOG INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 3228120
+ }
+}

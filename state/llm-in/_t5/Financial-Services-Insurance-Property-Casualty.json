@@ -1,0 +1,628 @@
+{
+ "key": "Financial Services|Insurance - Property & Casualty",
+ "sector": "Financial Services",
+ "industry": "Insurance - Property & Casualty",
+ "industryKo": "손해보험",
+ "frank": 9,
+ "frank25dChg": 17,
+ "finalWrs": 0.2805,
+ "count": 19,
+ "winRatePct": 94.7,
+ "members": [
+  {
+   "ticker": "SAFT",
+   "rs1": 0.05798076923076932,
+   "rs3": 0.0545216266241646,
+   "rs6": 0.50576621814723,
+   "rnk1": 56.76,
+   "rnk3": 39.27,
+   "rnk6": 6.99,
+   "ret1d": -0.09,
+   "high52": 99.81,
+   "dollarVolM": 19,
+   "marketCap": "1.53B",
+   "name": "세이프티 인슈어런스 그룹"
+  },
+  {
+   "ticker": "PLMR",
+   "rs1": 0.20513664781286645,
+   "rs3": 0.2856890721715767,
+   "rs6": 0.43398745880638695,
+   "rnk1": 9.24,
+   "rnk3": 2.93,
+   "rnk6": 9.15,
+   "ret1d": -0.53,
+   "high52": 97.67,
+   "dollarVolM": 31.7,
+   "marketCap": "4.24B",
+   "name": "팔로마 홀딩스"
+  },
+  {
+   "ticker": "TRV",
+   "rs1": 0.10496026756492005,
+   "rs3": 0.15486077311660112,
+   "rs6": 0.36449802739325227,
+   "rnk1": 39,
+   "rnk3": 14.56,
+   "rnk6": 14.2,
+   "ret1d": 0.93,
+   "high52": 96.45,
+   "dollarVolM": 431.4,
+   "marketCap": "82.12B",
+   "name": "트래블러스 컴퍼니스"
+  },
+  {
+   "ticker": "THG",
+   "rs1": 0.1403870571898953,
+   "rs3": 0.1756393514842878,
+   "rs6": 0.3214001816121813,
+   "rnk1": 25.11,
+   "rnk3": 11.41,
+   "rnk6": 17.72,
+   "ret1d": -0.22,
+   "high52": 96.59,
+   "dollarVolM": 54.3,
+   "marketCap": "8.60B",
+   "name": "하노버 인슈어런스 그룹"
+  },
+  {
+   "ticker": "AIZ",
+   "rs1": 0.19385371592709938,
+   "rs3": 0.19525340031229368,
+   "rs6": 0.30717373557223754,
+   "rnk1": 11.23,
+   "rnk3": 9.06,
+   "rnk6": 18.8,
+   "ret1d": -0.71,
+   "high52": 98.86,
+   "dollarVolM": 102.1,
+   "marketCap": "15.81B",
+   "name": "어슈런트"
+  },
+  {
+   "ticker": "KNSL",
+   "rs1": 0.1452036099861591,
+   "rs3": 0.06611082467896305,
+   "rs6": 0.29750677184585506,
+   "rnk1": 23.67,
+   "rnk3": 36.11,
+   "rnk6": 19.7,
+   "ret1d": -0.75,
+   "high52": 92.6,
+   "dollarVolM": 50.5,
+   "marketCap": "8.95B",
+   "name": "킨세일 캐피털 그룹"
+  },
+  {
+   "ticker": "ALL",
+   "rs1": 0.16777494917272417,
+   "rs3": 0.06900540185803428,
+   "rs6": 0.28177048315343084,
+   "rnk1": 17,
+   "rnk3": 34.85,
+   "rnk6": 21.69,
+   "ret1d": 1.72,
+   "high52": 94.87,
+   "dollarVolM": 384.3,
+   "marketCap": "64.61B",
+   "name": "올스테이트"
+  },
+  {
+   "ticker": "HCI",
+   "rs1": 0.02644998053905864,
+   "rs3": 0.08277255582421511,
+   "rs6": 0.25093282474410306,
+   "rnk1": 66.41,
+   "rnk3": 31.24,
+   "rnk6": 25.38,
+   "ret1d": 0.51,
+   "high52": 91.39,
+   "dollarVolM": 41.7,
+   "marketCap": "2.34B",
+   "name": "HCI 그룹"
+  },
+  {
+   "ticker": "AFG",
+   "rs1": 0.154485124536744,
+   "rs3": 0.16397557952675704,
+   "rs6": 0.22665148854135286,
+   "rnk1": 21.06,
+   "rnk3": 13.12,
+   "rnk6": 27.82,
+   "ret1d": -0.57,
+   "high52": 98.2,
+   "dollarVolM": 78.6,
+   "marketCap": "13.31B",
+   "name": "아메리칸 파이낸셜 그룹"
+  },
+  {
+   "ticker": "PGR",
+   "rs1": 0.15641914080071984,
+   "rs3": 0.12235655493474551,
+   "rs6": 0.2203129940837196,
+   "rnk1": 20.51,
+   "rnk3": 22.05,
+   "rnk6": 28.9,
+   "ret1d": 0.84,
+   "high52": 97.71,
+   "dollarVolM": 490.5,
+   "marketCap": "134.27B",
+   "name": "프로그레시브"
+  },
+  {
+   "ticker": "WRB",
+   "rs1": 0.09770192276353101,
+   "rs3": 0.14787822869857858,
+   "rs6": 0.19311238604757028,
+   "rnk1": 42.16,
+   "rnk3": 15.73,
+   "rnk6": 32.87,
+   "ret1d": 0.63,
+   "high52": 97.34,
+   "dollarVolM": 85.2,
+   "marketCap": "28.48B",
+   "name": "WR 버클리"
+  },
+  {
+   "ticker": "CINF",
+   "rs1": 0.19279309934385097,
+   "rs3": 0.17391690535799614,
+   "rs6": 0.18369459879929667,
+   "rnk1": 11.5,
+   "rnk3": 11.59,
+   "rnk6": 34.85,
+   "ret1d": 0.28,
+   "high52": 97.24,
+   "dollarVolM": 86.2,
+   "marketCap": "29.15B",
+   "name": "신시내티 파이낸셜"
+  },
+  {
+   "ticker": "SIGI",
+   "rs1": 0.23867484186166155,
+   "rs3": 0.18859247960622216,
+   "rs6": 0.1836744429129003,
+   "rnk1": 4.91,
+   "rnk3": 10.05,
+   "rnk6": 34.94,
+   "ret1d": 0.35,
+   "high52": 97.83,
+   "dollarVolM": 31.5,
+   "marketCap": "6.16B",
+   "name": null
+  },
+  {
+   "ticker": "CB",
+   "rs1": 0.1084828783396706,
+   "rs3": 0.1317298426058242,
+   "rs6": 0.17964520481907095,
+   "rnk1": 37.65,
+   "rnk3": 19.43,
+   "rnk6": 35.48,
+   "ret1d": 0.39,
+   "high52": 96.75,
+   "dollarVolM": 328,
+   "marketCap": "141.03B",
+   "name": null
+  },
+  {
+   "ticker": "MKL",
+   "rs1": 0.1300948997431971,
+   "rs3": 0.13103106772867584,
+   "rs6": 0.0949568100542848,
+   "rnk1": 29.26,
+   "rnk3": 19.79,
+   "rnk6": 50.45,
+   "ret1d": -0.57,
+   "high52": 88.88,
+   "dollarVolM": 108.2,
+   "marketCap": "24.15B",
+   "name": null
+  },
+  {
+   "ticker": "WTM",
+   "rs1": 0.10266068339478884,
+   "rs3": 0.0930752008030301,
+   "rs6": 0.08530318365852396,
+   "rnk1": 39.54,
+   "rnk3": 28.72,
+   "rnk6": 52.16,
+   "ret1d": -0.59,
+   "high52": 94.43,
+   "dollarVolM": 51,
+   "marketCap": "5.44B",
+   "name": null
+  },
+  {
+   "ticker": "L",
+   "rs1": 0.08265527464031783,
+   "rs3": 0.04373056059215844,
+   "rs6": 0.06723505563537797,
+   "rnk1": 48.11,
+   "rnk3": 43.33,
+   "rnk6": 56.13,
+   "ret1d": 0.29,
+   "high52": 92.47,
+   "dollarVolM": 49.4,
+   "marketCap": "22.43B",
+   "name": null
+  },
+  {
+   "ticker": "HIG",
+   "rs1": 0.08550743121503254,
+   "rs3": 0.03776042348203795,
+   "rs6": 0.05455524844773005,
+   "rnk1": 46.66,
+   "rnk3": 45.31,
+   "rnk6": 58.3,
+   "ret1d": -0.2,
+   "high52": 94.13,
+   "dollarVolM": 251.2,
+   "marketCap": "36.85B",
+   "name": null
+  },
+  {
+   "ticker": "MCY",
+   "rs1": -0.09638386164844652,
+   "rs3": -0.1310143063462068,
+   "rs6": -0.10043286864839318,
+   "rnk1": 90.22,
+   "rnk3": 83.9,
+   "rnk6": 82.82,
+   "ret1d": 0.23,
+   "high52": 76.67,
+   "dollarVolM": 27.4,
+   "marketCap": "4.66B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "SAFT": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "SAFT Dividend Yield Pushes Above 5%",
+     "url": "https://www.nasdaq.com/articles/saft-dividend-yield-pushes-above-5",
+     "date": "2026-03-06",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Notable Two Hundred Day Moving Average Cross - SAFT",
+     "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-saft-0",
+     "date": "2026-03-03",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Notable Two Hundred Day Moving Average Cross - SAFT",
+     "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-saft",
+     "date": "2025-12-04",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "SAFT Crosses Above Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/saft-crosses-above-key-moving-average-level",
+     "date": "2025-11-10",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "PLMR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Can PLMR Balance Rapid Premium Growth With Underwriting Discipline?",
+     "url": "https://www.nasdaq.com/articles/can-plmr-balance-rapid-premium-growth-underwriting-discipline",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Palomar (PLMR) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-palomar-plmr-q3-earnings",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Palomar (PLMR) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/palomar-plmr-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "TRV": {
+   "cnbc": [
+    {
+     "title": "Three 'Dividend Aristocrats' on Josh Brown's list in July's hottest sector",
+     "url": "https://www.cnbc.com/2026/07/20/theres-an-insurance-name-on-josh-browns-best-stocks-list-thats-been-a-homerun.html",
+     "date": "2026-07-20",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Travelers, SpaceX, Alphabet & more",
+     "url": "https://www.cnbc.com/2026/07/17/stocks-making-the-biggest-moves-midday-trv-spcx-googl-nflx-snps.html",
+     "date": "2026-07-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Explosive Options' Bob Lang says Travelers could be a 'port in the storm' amid market volatility",
+     "url": "https://www.cnbc.com/video/2026/07/28/explosive-options-bob-lang-says-travelers-could-be-a-port-in-the-storm-amid-market-volatility.html",
+     "date": "2026-07-28",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": []
+  },
+  "THG": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "THG's Underwriting Discipline is Key to Sustaining Premium Growth",
+     "url": "https://www.nasdaq.com/articles/thgs-underwriting-discipline-key-sustaining-premium-growth",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Hanover (THG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hanover-thg-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Hanover Insurance (THG) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-hanover-insurance-thg-q3-earnings",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "AIZ": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Why Assurant (AIZ) Might be Well Poised for a Surge",
+     "url": "https://www.nasdaq.com/articles/why-assurant-aiz-might-be-well-poised-surge",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Assurant (AIZ) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-assurant-aiz-great-choice",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Assurant (AIZ) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-assurant-aiz-said-its-q3-earnings-call",
+     "date": "2026-11-04",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "KNSL": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Kinsale Capital Group, Inc. (KNSL) Recently Broke Out Above the 50-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-recently-broke-out-above-50-day-moving-average",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Kinsale Capital (KNSL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kinsale-capital-knsl-q3-2026-earnings-call-transcript",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Kinsale Capital Group (KNSL) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-kinsale-capital-group-knsl-said-its-q3-earnings-call",
+     "date": "2026-10-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Kinsale Capital Group, Inc. (KNSL) Q3 Earnings Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/kinsale-capital-group-inc-knsl-q3-earnings-surpass-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About Kinsale Capital Group (KNSL) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-kinsale-capital-group-knsl-q3-earnings",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ALL": {
+   "cnbc": [
+    {
+     "title": "Wednesday's biggest analyst calls: Nvidia, SpaceX, Apple, Tesla, Marvell, Flutter",
+     "url": "https://www.cnbc.com/2026/10/07/biggest-analyst-calls-on-wall-street-like-nvidia.html",
+     "date": "2026-10-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Buy these high-quality dividend stocks with plenty of free cash flow, BofA says",
+     "url": "https://www.cnbc.com/2026/09/21/buy-these-high-quality-dividend-stocks-with-plenty-of-free-cash-flow.html",
+     "date": "2026-09-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Tuesday's biggest analyst calls: SpaceX, Nvidia, Tesla, Apple, Best Buy, Boeing",
+     "url": "https://www.cnbc.com/2026/08/11/tuesday-top-stocks-by-analyst-calls-like-nvidia.html",
+     "date": "2026-08-11",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Travelers, SpaceX, Alphabet & more",
+     "url": "https://www.cnbc.com/2026/07/17/stocks-making-the-biggest-moves-midday-trv-spcx-googl-nflx-snps.html",
+     "date": "2026-07-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Watch CNBC’s full interview with Allstate CEO Tom Wilson",
+     "url": "https://www.cnbc.com/video/2026/11/10/watch-cnbcs-full-interview-with-allstate-ceo-tom-wilson.html",
+     "date": "2026-11-10",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "What Allstate (ALL) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-allstate-all-said-its-q3-earnings-call",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Allstate (ALL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/allstate-all-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Allstate (ALL) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-allstate-all-q3-earnings-look-key-metrics",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Allstate (ALL) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/allstate-all-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "HCI": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "What HCI Group (HCI) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-hci-group-hci-said-its-q3-earnings-call",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "HCI Group (HCI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hci-group-hci-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "HCI Group (HCI) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/hci-group-hci-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "HCI Group (HCI) Q3 Earnings Top Estimates",
+     "url": "https://www.nasdaq.com/articles/hci-group-hci-q3-earnings-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "AFG": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/american-financial-afg-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "American Financial Group (AFG) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/american-financial-group-afg-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About American Financial (AFG) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-american-financial-afg-q3-earnings",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "PGR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Investors Heavily Search The Progressive Corporation (PGR): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-progressive-corporation-pgr-here-what-you-need-know",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "WRB": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Can WRB's Net Investment Income Continue to Support Earnings?",
+     "url": "https://www.nasdaq.com/articles/can-wrbs-net-investment-income-continue-support-earnings",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CINF": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "CINF Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/cinf-crosses-above-average-analyst-target",
+     "date": "2026-11-11",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Cincinnati Financial (CINF) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-cincinnati-financial-cinf-great-choice",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cincinnati Financial (CINF) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cincinnati-financial-cinf-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Cincinnati Financial (CINF) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-cincinnati-financial-cinf-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Cincinnati Financial (CINF) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/cincinnati-financial-cinf-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-10-26",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

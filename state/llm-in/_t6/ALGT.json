@@ -1,0 +1,683 @@
+{
+ "ticker": "ALGT",
+ "date": "2026-11-13",
+ "session": "2026-11-12",
+ "source": "list",
+ "plan": {
+  "ticker": "ALGT",
+  "name": "얼리전트 트래블",
+  "sector": "Industrials",
+  "industry": "Airlines",
+  "price": 92.51,
+  "grade": "C",
+  "state": "post",
+  "pivot": 85,
+  "stop": 80.23,
+  "distToPivotPct": 8.84,
+  "distToPivotAdr": 1.5,
+  "riskPerSharePct": 5.61,
+  "adrPct": 5.9,
+  "extensionAdr": 1.12,
+  "breakDate": "2026-11-05",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 23.4,
+   "priorMovePct": 17.8,
+   "higherLows": 0,
+   "contraction": 0.94,
+   "closeRange10Adr": 2.9,
+   "surf10": 1.81,
+   "surf20": 2.01,
+   "slope20": -0.36,
+   "baseLow": 65.12,
+   "lastSwingLow": 65.12
+  },
+  "reasons": [
+   "✗ 선행 상승 +18%",
+   "베이스 8주",
+   "깊이 23.4%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.94배 · 10일 종가폭 2.9 ADR",
+   "✗ 10일선 +1.8 ADR · 20일선 +2 ADR",
+   "✗ 20일선 기울기 -0.36%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3687740099800016,
+    "pct": 99.32371505861136
+   },
+   "m3": {
+    "v": 0.2229368874043038,
+    "pct": 93.73309287646528
+   },
+   "m6": {
+    "v": 0.19078845056355334,
+    "pct": 66.86203787195672
+   }
+  },
+  "ret1m": 31.41,
+  "ret3m": 18.5,
+  "ret6m": 15.19,
+  "marketCap": "2.59B",
+  "volx": 0.8,
+  "volSurgeWk": 0.49,
+  "high52": 74.83,
+  "newHigh52": false,
+  "adr": 5.9,
+  "div50": 19.86,
+  "div200": 5.71,
+  "targetStatus": false,
+  "saleCy": 45.95,
+  "saleNy": 19.44,
+  "epsCy": 64.99,
+  "epsNy": 59.54,
+  "cyTrend": 11.21,
+  "nyTrend": 1.59,
+  "est": {
+   "cyCur": 6.26955,
+   "cy30": 5.63766,
+   "nyCur": 10.00263,
+   "ny30": 9.84593
+  },
+  "fs": {
+   "sale": [
+    36.86,
+    4.77,
+    4.54
+   ],
+   "ni": [
+    "적자축소",
+    34.01,
+    "흑자전환"
+   ],
+   "opm": [
+    2.24,
+    11.07,
+    10.19
+   ],
+   "updated": "2026-09-07 07:19:51"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-09",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 4,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "얼리전트 트래블",
+  "nameEn": "ALLEGIANT TRAVEL COMPANY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001362468&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 822491000,
+     "profit": 21114000,
+     "netIncome": -4860000,
+     "margin": 2.6,
+     "yoy": {
+      "revenue": 33.1,
+      "profit": 131.3,
+      "netIncome": 92.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 671799000,
+     "profit": 81104000,
+     "netIncome": 42478000,
+     "margin": 12.1,
+     "yoy": {
+      "revenue": 8.9,
+      "profit": 24.8,
+      "netIncome": 32.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 595546000,
+     "profit": 66843000,
+     "netIncome": 31938000,
+     "margin": 11.2,
+     "yoy": {
+      "revenue": 7.6,
+      "profit": 125.3,
+      "netIncome": 114.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 494144000,
+     "profit": -27190000,
+     "netIncome": -43574000,
+     "margin": -5.5,
+     "yoy": {
+      "revenue": 1.1,
+      "profit": -3.2,
+      "netIncome": -18.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Allegiant Travel (ALGT) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-allegiant-travel-algt-strong-growth-stock",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "How Should Investors Approach Allegiant Stock Post Q3 Earnings?",
+     "url": "https://www.nasdaq.com/articles/how-should-investors-approach-allegiant-stock-post-q3-earnings",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ALGT Shares Rise 12.8% Since Third-Quarter 2026 Earnings Release",
+     "url": "https://www.nasdaq.com/articles/algt-shares-rise-128-third-quarter-2026-earnings-release",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Allegiant (ALGT) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/allegiant-algt-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Allegiant Travel (ALGT) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-allegiant-travel-algt-said-its-q3-earnings-call",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Allegiant Travel Company Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/allegiant-travel-company-reports-third-quarter-2026-financial-results",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Allegiant Travel (ALGT) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/allegiant-travel-algt-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Allegiant Travel (ALGT) Reports Q3 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/allegiant-travel-algt-reports-q3-loss-tops-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000062/algt-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000060/algt-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000058/algt-20261023.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000056/algt-20261019.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000053/algt-20261013.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000047/algt-20260804.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "American Airlines CEO lays out his vision to close a more than $3 billion profit gap",
+   "url": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
+   "date": "2026-07-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ALGT",
+  "fetchedAt": "2026-11-12",
+  "source": "한국투자증권 Open API",
+  "per": 68.42,
+  "pbr": 1.48,
+  "eps": 1.41,
+  "bps": 65.01,
+  "shares": 27307500,
+  "marketCapM": 2628,
+  "high52": 123.63,
+  "high52Date": "2026-07-02",
+  "low52": 61.36,
+  "low52Date": "2025-11-20",
+  "last": 96.25,
+  "prevClose": 94.69,
+  "nameKo": "얼리전트 트래블",
+  "nameEn": "ALLEGIANT TRAVEL COMPANY",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 27307500
+ },
+ "estimates": {
+  "ticker": "ALGT",
+  "url": "https://finance.yahoo.com/quote/ALGT/analysis/",
+  "fetchedAt": "2026-11-12",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.15,
+    "epsLow": -0.27,
+    "epsHigh": 1.6,
+    "epsYearAgo": 2.85,
+    "epsAnalysts": 12,
+    "epsGrowth": -59.8,
+    "epsCur": "USD",
+    "rev": 1118609640,
+    "revAnalysts": 10,
+    "revYearAgo": 656188000,
+    "revGrowth": 70.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.13,
+    "epsLow": 1.7,
+    "epsHigh": 5.37,
+    "epsYearAgo": 3.77,
+    "epsAnalysts": 8,
+    "epsGrowth": -16.9,
+    "epsCur": "USD",
+    "rev": 1192540630,
+    "revAnalysts": 6,
+    "revYearAgo": 732432000,
+    "revGrowth": 62.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 6.27,
+    "epsLow": 3.85,
+    "epsHigh": 8.01,
+    "epsYearAgo": 3.8,
+    "epsAnalysts": 14,
+    "epsGrowth": 65,
+    "epsCur": "USD",
+    "rev": 3804175890,
+    "revAnalysts": 10,
+    "revYearAgo": 2606579000,
+    "revGrowth": 46,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 10,
+    "epsLow": 8,
+    "epsHigh": 13.41,
+    "epsYearAgo": 6.27,
+    "epsAnalysts": 14,
+    "epsGrowth": 59.5,
+    "epsCur": "USD",
+    "rev": 4543735700,
+    "revAnalysts": 11,
+    "revYearAgo": 3804175890,
+    "revGrowth": 19.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.15,
+    "d7": 59.3,
+    "d30": 19.7,
+    "d90": -50.9,
+    "ago90": 2.33,
+    "up7": 0,
+    "up30": 1,
+    "down7": 2,
+    "down30": 10
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.13,
+    "d7": -12.6,
+    "d30": -14.1,
+    "d90": -29.7,
+    "ago90": 4.46,
+    "up7": 3,
+    "up30": 3,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 6.27,
+    "d7": 16,
+    "d30": 11.2,
+    "d90": -8.1,
+    "ago90": 6.82,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 10
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 10,
+    "d7": 1.1,
+    "d30": 1.6,
+    "d90": -19.2,
+    "ago90": 12.38,
+    "up7": 0,
+    "up30": 0,
+    "down7": 8,
+    "down30": 13
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -0.03,
+    "estimate": -0.5,
+    "surprisePct": 94,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.19,
+    "estimate": 1.27,
+    "surprisePct": 72.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.77,
+    "estimate": 3.49,
+    "surprisePct": 8.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.85,
+    "estimate": 1.99,
+    "surprisePct": 43.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 2,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 4,
+   "total": 4,
+   "recent": [
+    {
+     "date": "2026-10-07",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 85,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "UBS",
+     "action": "up",
+     "from": "Neutral",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 107,
+     "ptPrior": 111
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 115,
+     "ptPrior": 145
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "Raymond James",
+     "action": "up",
+     "from": "Outperform",
+     "to": "Strong Buy",
+     "ptAction": "Lowers",
+     "pt": 116,
+     "ptPrior": 138
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-03",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-12",
+  "numbers": {
+   "price": 92.51,
+   "ma20": 78.09,
+   "ma50": 77.18,
+   "ma150": 86.11,
+   "distMA50": 19.86,
+   "periodHigh": 123.63,
+   "pullbackFromHigh": -25.17,
+   "volRatio20": 0.69,
+   "dryUpRatio": 1.1
+  },
+  "last10": [
+   {
+    "d": "2026-10-30",
+    "o": 71.5,
+    "h": 72.08,
+    "l": 69.07,
+    "c": 71.34,
+    "v": 358400,
+    "clsPos": 75,
+    "gapPct": -1.87
+   },
+   {
+    "d": "2026-11-02",
+    "o": 74.45,
+    "h": 78.69,
+    "l": 74.07,
+    "c": 76.58,
+    "v": 642500,
+    "clsPos": 54,
+    "gapPct": 4.36
+   },
+   {
+    "d": "2026-11-03",
+    "o": 76.7,
+    "h": 77.66,
+    "l": 74.22,
+    "c": 74.46,
+    "v": 511200,
+    "clsPos": 7,
+    "gapPct": 0.16
+   },
+   {
+    "d": "2026-11-04",
+    "o": 78.34,
+    "h": 82.98,
+    "l": 75.34,
+    "c": 81.53,
+    "v": 1086900,
+    "clsPos": 81,
+    "gapPct": 5.21
+   },
+   {
+    "d": "2026-11-05",
+    "o": 85.8,
+    "h": 89.82,
+    "l": 82.66,
+    "c": 87.59,
+    "v": 1246000,
+    "clsPos": 69,
+    "gapPct": 5.24
+   },
+   {
+    "d": "2026-11-06",
+    "o": 88.89,
+    "h": 93.97,
+    "l": 88.58,
+    "c": 91.97,
+    "v": 825200,
+    "clsPos": 63,
+    "gapPct": 1.48
+   },
+   {
+    "d": "2026-11-09",
+    "o": 95,
+    "h": 98.7,
+    "l": 94.53,
+    "c": 97.21,
+    "v": 818300,
+    "clsPos": 64,
+    "gapPct": 3.29
+   },
+   {
+    "d": "2026-11-10",
+    "o": 97.38,
+    "h": 97.78,
+    "l": 92.91,
+    "c": 94.69,
+    "v": 534900,
+    "clsPos": 37,
+    "gapPct": 0.17
+   },
+   {
+    "d": "2026-11-11",
+    "o": 94.81,
+    "h": 97.53,
+    "l": 92.72,
+    "c": 96.25,
+    "v": 519800,
+    "clsPos": 73,
+    "gapPct": 0.13
+   },
+   {
+    "d": "2026-11-12",
+    "o": 96.67,
+    "h": 96.74,
+    "l": 91.63,
+    "c": 92.51,
+    "v": 387903,
+    "clsPos": 17,
+    "gapPct": 0.44
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ALGT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ALGT-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 18일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "Sun Country 인수와 Expedia·카드 제휴가 매출을 끌었지만 이익은 통합비용·연료비에 눌렸다",
+  "researchedOn": "2026-11-10"
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "ticker": "GPN",
+ "news": [
+  {
+   "title": "What Global Payments (GPN) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-global-payments-gpn-said-its-q3-earnings-call",
+   "date": "2026-11-07",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Global Payments (GPN) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, Global Payments (GPN) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-global-payments-gpn-q3-earnings-look-key-metrics",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Global Payments (GPN) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "GPN's $40B Takeover Buzz: Can Private Equity Revive Its Growth?",
+   "url": "https://www.nasdaq.com/articles/gpns-40b-takeover-buzz-can-private-equity-revive-its-growth",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Global Payments (GPN) Surges 13.0%: Is This an Indication of Further Gains?",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-surges-130-indication-further-gains",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Global Payments (GPN) Sheds Double Digits. These 2 Firms May Hold the Reason",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-sheds-double-005130571.html",
+   "date": "2026-11-13",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Global Payments Sinks 12% as CD&R and GTCR Walk Away From Buyout Talks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-sinks-12-cd-210558807.html",
+   "date": "2026-11-12",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "This Fintech Is Getting Clobbered. Buyouts Are Tough These Days.",
+   "url": "https://finance.yahoo.com/m/8af6d01f-70e9-3b46-9296-815d7604b0c1/this-fintech-is-getting.html",
+   "date": "2026-11-12",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "GPN Stock On Track For Its Worst Day In About 19 Months As Private Equity Firms Reportedly Abandon Takeover Talks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gpn-stock-track-worst-day-191826785.html",
+   "date": "2026-11-12",
+   "publisher": "Stocktwits",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Global Payments falls 9% as CD&R, GTCR abandon takeover talks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-falls-9-cd-174216727.html",
+   "date": "2026-11-12",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Market Chatter: Global Payments No Longer Being Pursued by CD&R, GTCR",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-global-payments-no-173701164.html",
+   "date": "2026-11-12",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Avia Collaborates with Visa and Global Payments for Direct Player Payouts to Eligible Visa Cards",
+   "url": "https://finance.yahoo.com/media-advertising/articles/avia-collaborates-visa-global-payments-170000773.html",
+   "date": "2026-11-12",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Are Wall Street Analysts Bullish on Global Payments Stock?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-global-092621783.html",
+   "date": "2026-11-12",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Visa (V) Ties Monad Stablecoin Settlement Move To New Fraud API Rollout",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/visa-v-ties-monad-stablecoin-211600627.html",
+   "date": "2026-11-11",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Bernstein Adjusts Price Target on Global Payments to $100 From $86",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-adjusts-price-target-global-104656242.html",
+   "date": "2026-11-11",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/gpn-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-10-28",
+   "items": [
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926121506/tm2628691d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000082/gpn-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-06",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926056781/tm2613880d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000070/gpn-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926054479/tm2613397d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 32.57,
+  "saleNy": 5.18,
+  "epsCy": 11.69,
+  "epsNy": 18.7,
+  "cyTrend": -0.01,
+  "nyTrend": 1.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    68.63,
+    63.14,
+    41.69
+   ],
+   "ni": [
+    -94.63,
+    -688.71,
+    -61.65
+   ],
+   "opm": [
+    10.15,
+    -0.53,
+    11.07
+   ],
+   "updated": "2026-09-08 08:48:14"
+  }
+ }
+}

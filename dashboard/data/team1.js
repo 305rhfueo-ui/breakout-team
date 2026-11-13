@@ -517,8 +517,348 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-13",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아 젠슨 황 CEO 사임, 주가 5% 급락",
+        "easy": "엔비디아 공동창업자 젠슨 황이 사장 겸 CEO 자리에서 물러났다. 회사를 둘러싼 의혹에 외부 법률팀 조사가 붙은 가운데 나온 사임이다. 발표 당일 주가는 5% 넘게 빠져 10월 6일 고점보다 31% 아래로 내려왔다. 빈자리는 콜레트 크레스가 임시 CEO로 메운다.",
+        "whyMatters": "AI 투자의 중심인 반도체 업종과 이에 딸린 데이터센터·전력 설비 쪽에 가장 아픈 소식이다. 후임이 정해질 때까지 반도체는 지수보다 더 흔들릴 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+            "date": "2026-11-12",
+            "quote": "By 2:30 p.m., shares of the chipmaking giant were down more than 5%, and now sit 31% below their high on October 6.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-12",
+            "quote": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+            "date": "2026-11-12",
+            "quote": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-12",
+            "quote": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "국채금리 2022년 이후 최대 급등, 추가 인상 전망 탓",
+        "easy": "미국 국채금리가 2022년 이후 가장 큰 폭으로 뛰었다. 연준이 금리를 더 올릴 것이라는 기대가 커진 것이 이유다. 금리가 오르면 할인율이 올라(미래에 벌 돈의 현재 가치가 줄어든다) 이익이 먼 미래에 몰린 비싼 성장주가 먼저 눌린다. 숫자는 기사 제목까지만 확인됐다.",
+        "whyMatters": "이익이 아직 적고 기대만 큰 기술·바이오 업종과, 빌린 돈으로 굴러가는 부동산·주택건설 업종에 불리하다. 반대로 예대마진이 늘어나는 은행 업종에는 덜 나쁘다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+            "date": "2026-11-12",
+            "quote": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "엔비디아가 빠져도 S&P500은 버텼다",
+        "easy": "시가총액이 가장 큰 축인 엔비디아가 급락했는데도 S&P500은 크게 밀리지 않았다. 무엇이 지수를 떠받쳤는지 구체적인 이유는 기사 제목까지만 나와 있다. 한 종목이 무너져도 지수가 버틴다는 건 오르는 종목이 AI 밖에도 있다는 뜻이다. 실제로 오늘 선정된 종목은 헬스케어 16개(32%)·산업재 11개(22%)로 AI 바깥이 더 많다.",
+        "whyMatters": "돈이 AI 반도체에서 헬스케어·산업재 쪽으로 옮겨가는 흐름이면 그쪽 종목이 유리하다. 다만 지수가 버티는 것과 개별 종목이 오르는 것은 다른 문제다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "The S&P 500 is shrugging off Nvidia's selloff this week. Here's what's keeping the rest of the market afloat.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
+            "date": "2026-11-12",
+            "quote": "The S&P 500 is shrugging off Nvidia's selloff this week. Here's what's keeping the rest of the market afloat.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "세레브라스, 실적·MS 계약에 17% 급등",
+        "easy": "AI 칩 회사 세레브라스가 분기 매출과 다음 분기 가이던스(회사가 내놓는 전망)를 시장 예상보다 좋게 발표했다. 같은 날 마이크로소프트와 맺은 새 계약도 공개했다. 회사는 이 계약 매출이 2027년 1분기부터 잡힌다고 밝혔다. 주가는 17% 올랐다.",
+        "whyMatters": "엔비디아 한 곳에 쏠렸던 AI 반도체 수요가 대안 칩 쪽으로도 나뉠 수 있다는 신호라 반도체 업종 안에서 승자가 갈린다. AI 설비 투자 자체가 줄어든 건 아니라는 점은 데이터센터 관련 업종에 긍정적이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+            "date": "2026-11-12",
+            "quote": "Cerebras reported better-than-expected revenue and quarterly guidance in its earnings report on Thursday, and touted a new deal with Microsoft.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "마이크로소프트 365 대규모 장애, 아웃룩·팀즈 멈춰",
+        "easy": "아웃룩과 팀즈를 비롯한 마이크로소프트 365 서비스가 오후 1시 직전부터 멈췄다. 회사는 여러 지역에 걸쳐 부하가 치솟은 것을 원인으로 들었다. 복구는 바로 되지 않아 전 세계 업무가 묶였다. 기업용 서비스는 한 번 멈추면 보상과 고객 이탈 논의로 이어진다.",
+        "whyMatters": "업무용 소프트웨어·클라우드 업종에 단기 악재이고, 한곳에 몰아주기보다 나눠 쓰자는 움직임이 나오면 경쟁 클라우드에는 기회다. 다만 하루 장애가 실적을 바꾸는 사건은 아니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+            "date": "2026-11-12",
+            "quote": "The outage began shortly before 1 p.m. and impacted Microsoft 365 services, Outlook and Teams.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-13",
+            "quote": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프 \"이란과 합의 필요 없다\", 호르무즈 거론",
+        "easy": "트럼프 대통령이 이란과 합의할 필요가 없다고 말했다. 돈도 호르무즈 해협도 미국이 쥐고 있다는 것이 이유다. 미국과 이란의 갈등이 이어지며 국제 에너지 가격이 이미 올라 있다. 합의가 멀어질수록 유가 위험은 더 오래 남는다.",
+        "whyMatters": "유가가 버티면 에너지 업종에는 유리하고, 기름값이 곧 원가인 항공·운송 업종에는 불리하다. 물가가 다시 들썩이면 금리 인하 기대도 밀린다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump says 'we don't need a deal with Iran'",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
+            "date": "2026-11-12",
+            "quote": "We don't need a deal with Iran. Those days have long since passed,",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니다. QQQ 종가는 688.17이고 10일선이 20일선 아래에 18일째 머물러 있어 쿨라매기 기준으로는 빨간불이다. 오늘 소식은 AI의 상징이던 엔비디아에서 리더십이 흔들리고 금리까지 같이 뛰었다는 뜻인데, 그런데도 지수 전체는 버텼고 선정 종목은 헬스케어·산업재 쪽에 몰려 있다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 31.4% 늘어 주의선을 넘었다는 것으로, 하락이 길어지면 강제 매도가 낙폭을 키운다. 이번 주는 엔비디아 후임 CEO 소식과 국채금리가 더 오르는지, 그리고 QQQ가 10일선을 20일선 위로 되돌리는지를 보면 된다.",
+    "keyRisks": [
+      "대장주 공백: 엔비디아는 AI 투자의 기준점이라 후임 CEO가 정해질 때까지 반도체 전반의 변동성이 커진다.",
+      "금리 재상승: 연준이 더 올린다는 기대가 굳으면 이익보다 기대가 큰 성장주부터 다시 눌린다.",
+      "빚투 과열: 마진부채가 주의선을 넘은 상태라 하락이 시작되면 강제 매도로 낙폭이 깊어진다.",
+      "지수와 종목의 괴리: 지수가 버텨도 선정 종목이 몰린 헬스케어·산업재가 같이 오른다는 보장은 없다."
+    ],
+    "easySummary": [
+      "엔비디아 젠슨 황 CEO가 물러나며 주가가 5% 넘게 빠졌고, 10월 고점보다 31% 아래다.",
+      "국채금리가 2022년 이후 가장 크게 뛰며 성장주에 부담을 줬지만, S&P500 지수 자체는 버텼다.",
+      "QQQ는 아직 빨간불이고 빚내서 산 주식도 주의선을 넘어, 새로 사기보다 확인할 때다."
+    ],
+    "candidateCount": 24,
+    "verified": {
+      "checked": 127,
+      "ok": 238,
+      "unverified": 2,
+      "dead": 0,
+      "stripped": 10,
+      "removed": [],
+      "numberCut": 27,
+      "numberCuts": [
+        {
+          "sentence": "3분기 매출이 8억 840만 달러로 1년 전보다 3.9% 늘었다.",
+          "missing": [
+            "3.9"
+          ]
+        },
+        {
+          "sentence": "앞선 1분기(-3.5%)의 역성장에서 두 분기 연속 매출이 증가했다.",
+          "missing": [
+            "3.5"
+          ]
+        },
+        {
+          "sentence": "3분기 영업이익은 9,170만 달러로 1년 전보다 14.1% 줄었고, 순이익도 20.2% 감소했다.",
+          "missing": [
+            "9,170만 달러",
+            "14.1",
+            "20.2"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점(2월, 약 345달러)보다 아직 35% 가량 낮다.",
+          "missing": [
+            "345",
+            "35"
+          ]
+        },
+        {
+          "sentence": "7~9월 분기 매출이 4.9억 달러로 1년 전보다 7.1% 늘었다.",
+          "missing": [
+            "4.9억 달러",
+            "7.1"
+          ]
+        },
+        {
+          "sentence": "다만 영업이익은 9.2% 줄었다.",
+          "missing": [
+            "9.2"
+          ]
+        },
+        {
+          "sentence": "최근 분기 영업이익이 1년 전보다 9.2% 줄어 이익 증가세가 꺾였다.",
+          "missing": [
+            "9.2"
+          ]
+        },
+        {
+          "sentence": "목표주가 평균이 지난해 12월 251.98달러에서 올해 4월 315.40달러로 올랐다.",
+          "missing": [
+            "251.98"
+          ]
+        },
+        {
+          "sentence": "시가총액이 약 31억 달러이니 큰 규모이고, 주가가 바닥권일 때 회사가 직접 사겠다는 신호로 읽힌다.",
+          "missing": [
+            "31억 달러"
+          ]
+        },
+        {
+          "sentence": "직전 분기(2분기)에는 매출이 2억 2,417만 달러로 1년 전보다 20.1% 늘고 영업손실이 크게 줄어, 적자 축소 흐름이 이어지고 있다.",
+          "missing": [
+            "2억 2,417만 달러",
+            "20.1"
+          ]
+        },
+        {
+          "sentence": "같은 날 임원 변동 공시(8-K)도 나왔다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "3분기 매출은 9억 4,757만 달러로 1년 전보다 17.1% 늘었다.",
+          "missing": [
+            "9억 4,757만 달러",
+            "17.1"
+          ]
+        },
+        {
+          "sentence": "영업이익은 7,189만 달러로 1년 전보다 5.4배 수준으로 불었고 영업이익률은 7.6%다.",
+          "missing": [
+            "7,189만 달러",
+            "5.4",
+            "7.6"
+          ]
+        },
+        {
+          "sentence": "4분기 매출 전망이 170억 달러로 시장 예상보다 높았다.",
+          "missing": [
+            "170억 달러"
+          ]
+        },
+        {
+          "sentence": "2분기 잉여현금흐름이 39% 줄었고, 메타 지분에 10억 달러를 투자해 고객 자금을 공급사가 대는 구조라는 지적이 나왔다.",
+          "missing": [
+            "39"
+          ]
+        },
+        {
+          "sentence": "주가는 1월 고점(236달러)보다 약 33% 낮다.",
+          "missing": [
+            "236",
+            "33"
+          ]
+        },
+        {
+          "sentence": "제프리스가 9월에 F1을 매수 의견으로 제시했고, CNBC는 F1이 다른 스포츠 주식보다 덜 올랐다고 짚었다.",
+          "missing": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "sentence": "한 달 새 25% 올라 기대가 상당히 반영돼 있다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "현재가 114.81달러보다 높아 추가 상승 여지를 시장이 보고 있다.",
+          "missing": [
+            "114.81"
+          ]
+        },
+        {
+          "sentence": "10x 지노믹스가 신제품 아테라를 출시하고 실적 전망을 올렸다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "10월 말 2억 5천만 달러 규모 추가 정기대출 계약을 맺었다.",
+          "missing": [
+            "2억 5"
+          ]
+        },
+        {
+          "sentence": "10월 말 2억 5천만 달러 추가 정기대출로 차입 부담이 늘었다.",
+          "missing": [
+            "2억 5"
+          ]
+        },
+        {
+          "sentence": "주가가 9월 고점 200달러에서 15% 내려온 뒤 반등한 상태라, 허가 일정 뉴스에 민감하게 움직이는 구조다.",
+          "missing": [
+            "200",
+            "15"
+          ]
+        },
+        {
+          "sentence": "6월 분기는 19.2%, 3월 분기는 11.5% 증가.",
+          "missing": [
+            "19.2",
+            "11.5"
+          ]
+        },
+        {
+          "sentence": "9월 분기 순이익 2,070만 달러(+470.1%)지만 6월 분기 6,574만 달러보다 적다.",
+          "missing": [
+            "6,574만 달러"
+          ]
+        },
+        {
+          "sentence": "분기 매출 21.1억 달러, 1년 전보다 8.5% 증가했고 증가율은 14.3%에서 둔화 중이다.",
+          "missing": [
+            "14.3"
+          ]
+        },
+        {
+          "sentence": "회사가 3분기 실적을 공식 발표했다(8-K 실적 공시 포함).",
+          "missing": [
+            "8"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-13"
   }
 };

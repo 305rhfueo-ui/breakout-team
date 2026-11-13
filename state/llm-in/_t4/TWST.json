@@ -1,0 +1,259 @@
+{
+ "ticker": "TWST",
+ "news": [
+  {
+   "title": "Twist Bioscience: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/twist-bioscience-3-key-takeaways-long-term-investors",
+   "date": "2026-11-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Twist Bioscience (TWST) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q4-2026-earnings-call-transcript",
+   "date": "2026-11-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Twist Bioscience (TWST) Reports Q4 Loss, Beats Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-reports-q4-loss-beats-revenue-estimates",
+   "date": "2026-11-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Twist Bioscience Consensus Price Target Increased by 29.51% to $153.59",
+   "url": "https://www.nasdaq.com/articles/twist-bioscience-consensus-price-target-increased-2951-15359",
+   "date": "2026-10-24",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Twist Bioscience Corp (TWST) (Q4 2026) Earnings Call Highlights: Record Revenue, First Positive ...",
+   "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-corp-twst-q4-230849980.html",
+   "date": "2026-11-12",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience Corporation Q4 2026 Earnings Call Summary",
+   "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-corporation-q4-2026-221526242.html",
+   "date": "2026-11-12",
+   "publisher": "Moby",
+   "via": "Yahoo"
+  },
+  {
+   "title": "This Biotech's Guidance Seemingly Beat Expectations — But A Twist Slammed The Stock",
+   "url": "https://finance.yahoo.com/m/1810e298-b5b4-375c-b674-fd09d669b389/this-biotech%27s-guidance.html",
+   "date": "2026-11-12",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience Q4 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-q4-earnings-call-211456007.html",
+   "date": "2026-11-12",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twist-bioscience-3-key-takeaways-210916384.html",
+   "date": "2026-11-12",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience earnings analysis: questions answered and next catalysts",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/twist-bioscience-earnings-analysis-questions-205956395.html",
+   "date": "2026-11-12",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience (TWST) Q4 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-twst-q4-2026-194555827.html",
+   "date": "2026-11-12",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Full-Year Revenue Guidance and Strong Quarter Drove Twist Bioscience Corporation (TWST) Higher in Q3",
+   "url": "https://finance.yahoo.com/healthcare/articles/full-revenue-guidance-strong-quarter-150737117.html",
+   "date": "2026-11-12",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience: Fiscal Q4 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-fiscal-q4-earnings-134024966.html",
+   "date": "2026-11-12",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Twist Bioscience (TWST) Reports Q4 Loss, Beats Revenue Estimates",
+   "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-twst-reports-q4-133501999.html",
+   "date": "2026-11-12",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1581280/000110465926098830/tm2623545d1_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000050/twist-20260818.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1581280/000110465926091280/tm2622018d2_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000044/twist-20260803.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000037/twist-20260504.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "itemsKo": [
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1581280/000110465926015730/tm266463d1_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 118376000,
+    "profit": -36280000,
+    "netIncome": -35051000,
+    "margin": -30.6,
+    "yoy": {
+     "revenue": 23.2,
+     "profit": -20.5,
+     "netIncome": -271.9,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 110715000,
+    "profit": -45863000,
+    "netIncome": -44021000,
+    "margin": -41.4,
+    "yoy": {
+     "revenue": 19.3,
+     "profit": -10.4,
+     "netIncome": -11.9,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": false,
+    "revenue": 103698000,
+    "profit": -32900000,
+    "netIncome": -30507000,
+    "margin": -31.7,
+    "yoy": {
+     "revenue": 16.9,
+     "profit": 5,
+     "netIncome": 3.4,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": true,
+    "revenue": 99009000,
+    "profit": -29934000,
+    "netIncome": -27138000,
+    "margin": -30.2,
+    "yoy": {
+     "revenue": 16.9,
+     "profit": 16.9,
+     "netIncome": 21.7,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 21.16,
+  "saleNy": 20.25,
+  "epsCy": -43.47,
+  "epsNy": -66.55,
+  "cyTrend": 24.59,
+  "nyTrend": -46.78,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    23.24,
+    19.31,
+    16.89
+   ],
+   "ni": [
+    -271.9,
+    "적자확대",
+    "적자축소"
+   ],
+   "opm": [
+    -30.65,
+    -41.42,
+    -31.73
+   ],
+   "updated": "2026-09-15 06:20:45"
+  }
+ }
+}

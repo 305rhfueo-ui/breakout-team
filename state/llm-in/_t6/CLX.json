@@ -1,0 +1,731 @@
+{
+ "ticker": "CLX",
+ "date": "2026-11-13",
+ "session": "2026-11-12",
+ "source": "list",
+ "plan": {
+  "ticker": "CLX",
+  "name": "크로락스",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
+  "price": 108.2,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 3.62,
+  "extensionAdr": 2.15,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.32815323922480494,
+    "pct": 98.69251577998197
+   },
+   "m3": {
+    "v": 0.05531169071798635,
+    "pct": 61.00090171325518
+   },
+   "m6": {
+    "v": 0.20650434918335142,
+    "pct": 69.11632100991885
+   }
+  },
+  "ret1m": 27.34,
+  "ret3m": 1.73,
+  "ret6m": 16.76,
+  "marketCap": "12.89B",
+  "volx": 1.36,
+  "volSurgeWk": 0.81,
+  "high52": 87.24,
+  "newHigh52": false,
+  "adr": 3.62,
+  "div50": 23.6,
+  "div200": 11.78,
+  "targetStatus": false,
+  "saleCy": 13.65,
+  "saleNy": 2.23,
+  "epsCy": 3.49,
+  "epsNy": 7.79,
+  "cyTrend": -0.42,
+  "nyTrend": -0.66,
+  "est": {
+   "cyCur": 5.72283,
+   "cy30": 5.74668,
+   "nyCur": 6.1684,
+   "ny30": 6.20947
+  },
+  "fs": {
+   "sale": [
+    -2.01,
+    0.12,
+    -0.77
+   ],
+   "ni": [
+    -50.9,
+    0.54,
+    -18.65
+   ],
+   "opm": [
+    13.24,
+    17.31,
+    14.41
+   ],
+   "updated": "2026-09-09 05:58:07"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-12",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "크로락스",
+  "nameEn": "CLOROX CO",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000021076&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1905000000,
+     "profit": 207000000,
+     "netIncome": 170000000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 33.3,
+      "profit": 93.5,
+      "netIncome": 112.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1670000000,
+     "profit": 256000000,
+     "netIncome": 187000000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 0.1,
+      "profit": 0.8,
+      "netIncome": 0.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1673000000,
+     "profit": 215000000,
+     "netIncome": 157000000,
+     "margin": 12.9,
+     "yoy": {
+      "revenue": -0.8,
+      "profit": -9.3,
+      "netIncome": -18.7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1429000000,
+     "profit": 107000000,
+     "netIncome": 80000000,
+     "margin": 7.5,
+     "yoy": {
+      "revenue": -18.9,
+      "profit": -39.5,
+      "netIncome": -19.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Monday 11/9 Insider Buying Report: CVS, CLX",
+     "url": "https://www.nasdaq.com/articles/monday-11-9-insider-buying-report-cvs-clx",
+     "date": "2026-11-09",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Bullish Two Hundred Day Moving Average Cross - CLX",
+     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-clx",
+     "date": "2026-11-04",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Clorox vs. PepsiCo: Which Dividend Stock Could Make You Richer Over the Next 10 Years?",
+     "url": "https://www.nasdaq.com/articles/clorox-vs-pepsico-which-dividend-stock-could-make-you-richer-over-next-10-years",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "CLX Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/clx-crosses-above-average-analyst-target",
+     "date": "2026-11-04",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Clorox Now Expects Earnings Near the Low End of Its Forecast as Costs Rise. Should Dividend Investors Be Worried?",
+     "url": "https://www.nasdaq.com/articles/clorox-now-expects-earnings-near-low-end-its-forecast-costs-rise-should-dividend-investors",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "CLX Q1 Earnings Call Highlights Inflation and Margin Pressures",
+     "url": "https://www.nasdaq.com/articles/clx-q1-earnings-call-highlights-inflation-and-margin-pressures",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Clorox (CLX) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/clorox-clx-q1-2027-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Clorox Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/clorox-q1-earnings-call-highlights",
+     "date": "2026-11-03",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/clx-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000586/clx4708451-8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000028/clx-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000333/clx4653041-8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000296/clx4644261-8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/21076/000119312526216807/clx-20260506.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Prepare your portfolio for inflation risk with these moves",
+   "url": "https://www.cnbc.com/2026/07/17/prepare-your-portfolio-for-inflation-risk-with-these-moves.html",
+   "date": "2026-07-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: Take-Two Interactive Software, Amazon and Clorox",
+   "url": "https://www.cnbc.com/video/2026/11/06/final-trades-take-two-interactive-amazon-clorox.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CLX",
+  "fetchedAt": "2026-11-12",
+  "source": "한국투자증권 Open API",
+  "per": 22.21,
+  "pbr": 143.57,
+  "eps": 4.81,
+  "bps": 0.74,
+  "shares": 121147000,
+  "marketCapM": 12946,
+  "high52": 124.025,
+  "high52Date": "2026-02-26",
+  "low52": 77.9879,
+  "low52Date": "2026-10-01",
+  "last": 106.86,
+  "prevClose": 106.6,
+  "nameKo": "크로락스",
+  "nameEn": "CLOROX CO",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 121147000
+ },
+ "estimates": {
+  "ticker": "CLX",
+  "url": "https://finance.yahoo.com/quote/CLX/analysis/",
+  "fetchedAt": "2026-11-12",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 1.07,
+    "epsLow": 0.87,
+    "epsHigh": 1.2,
+    "epsYearAgo": 0.85,
+    "epsAnalysts": 15,
+    "epsGrowth": 25.6,
+    "epsCur": "USD",
+    "rev": 1876091120,
+    "revAnalysts": 12,
+    "revYearAgo": 1429000000,
+    "revGrowth": 31.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.49,
+    "epsLow": 1.39,
+    "epsHigh": 1.6,
+    "epsYearAgo": 1.64,
+    "epsAnalysts": 15,
+    "epsGrowth": -8.9,
+    "epsCur": "USD",
+    "rev": 1885323270,
+    "revAnalysts": 11,
+    "revYearAgo": 1670000000,
+    "revGrowth": 12.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "eps": 5.72,
+    "epsLow": 5.56,
+    "epsHigh": 5.8,
+    "epsYearAgo": 5.53,
+    "epsAnalysts": 18,
+    "epsGrowth": 3.5,
+    "epsCur": "USD",
+    "rev": 7637633460,
+    "revAnalysts": 15,
+    "revYearAgo": 6720000000,
+    "revGrowth": 13.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "eps": 6.17,
+    "epsLow": 5.74,
+    "epsHigh": 6.44,
+    "epsYearAgo": 5.72,
+    "epsAnalysts": 17,
+    "epsGrowth": 7.8,
+    "epsCur": "USD",
+    "rev": 7807911560,
+    "revAnalysts": 15,
+    "revYearAgo": 7637633460,
+    "revGrowth": 2.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 1.07,
+    "d7": -0.4,
+    "d30": -2.4,
+    "d90": -3.8,
+    "ago90": 1.11,
+    "up7": 1,
+    "up30": 1,
+    "down7": 5,
+    "down30": 9
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.49,
+    "d7": -4.5,
+    "d30": -5.5,
+    "d90": -6,
+    "ago90": 1.59,
+    "up7": 1,
+    "up30": 2,
+    "down7": 5,
+    "down30": 7
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "cur": "USD",
+    "now": 5.72,
+    "d7": 0,
+    "d30": -0.4,
+    "d90": -1.7,
+    "ago90": 5.82,
+    "up7": 0,
+    "up30": 0,
+    "down7": 6,
+    "down30": 10
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "cur": "USD",
+    "now": 6.17,
+    "d7": -0.3,
+    "d30": -0.7,
+    "d90": -3.1,
+    "ago90": 6.36,
+    "up7": 0,
+    "up30": 0,
+    "down7": 6,
+    "down30": 10
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.55,
+    "estimate": 1.07,
+    "surprisePct": 45.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.66,
+    "estimate": 1.65,
+    "surprisePct": 0.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.64,
+    "estimate": 1.54,
+    "surprisePct": 6.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.39,
+    "estimate": 1.43,
+    "surprisePct": -3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 4,
+   "ptLowered": 8,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 94,
+     "ptPrior": 87
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Raises",
+     "pt": 86,
+     "ptPrior": 83
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 96,
+     "ptPrior": 91
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 90,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "Evercore ISI Group",
+     "action": "up",
+     "from": "Underperform",
+     "to": "In-Line",
+     "ptAction": "Maintains",
+     "pt": 99,
+     "ptPrior": 99
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 83,
+     "ptPrior": 95
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 84
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 87,
+     "ptPrior": 97
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 90,
+     "ptPrior": 97
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 85
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-02",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-12",
+  "numbers": {
+   "price": 108.2,
+   "ma20": 93.36,
+   "ma50": 88.47,
+   "ma150": 94.39,
+   "distMA50": 22.3,
+   "periodHigh": 171.37,
+   "pullbackFromHigh": -36.86,
+   "volRatio20": 1.21,
+   "dryUpRatio": 1.58
+  },
+  "last10": [
+   {
+    "d": "2026-10-30",
+    "o": 90.02,
+    "h": 90.78,
+    "l": 87.44,
+    "c": 88,
+    "v": 3871400,
+    "clsPos": 17,
+    "gapPct": 1.52
+   },
+   {
+    "d": "2026-11-02",
+    "o": 89.95,
+    "h": 90.78,
+    "l": 88.2,
+    "c": 89.9,
+    "v": 3647400,
+    "clsPos": 66,
+    "gapPct": 2.22
+   },
+   {
+    "d": "2026-11-03",
+    "o": 92,
+    "h": 95.24,
+    "l": 91.59,
+    "c": 93.8,
+    "v": 4137800,
+    "clsPos": 61,
+    "gapPct": 2.34
+   },
+   {
+    "d": "2026-11-04",
+    "o": 95.05,
+    "h": 101.09,
+    "l": 94.44,
+    "c": 99.16,
+    "v": 4506900,
+    "clsPos": 71,
+    "gapPct": 1.33
+   },
+   {
+    "d": "2026-11-05",
+    "o": 99.88,
+    "h": 100.4,
+    "l": 97.46,
+    "c": 99.7,
+    "v": 2479200,
+    "clsPos": 76,
+    "gapPct": 0.73
+   },
+   {
+    "d": "2026-11-06",
+    "o": 96.74,
+    "h": 100.54,
+    "l": 96.19,
+    "c": 99.96,
+    "v": 2387700,
+    "clsPos": 87,
+    "gapPct": -2.97
+   },
+   {
+    "d": "2026-11-09",
+    "o": 100.49,
+    "h": 105.93,
+    "l": 100.3,
+    "c": 105.53,
+    "v": 4351600,
+    "clsPos": 93,
+    "gapPct": 0.53
+   },
+   {
+    "d": "2026-11-10",
+    "o": 105,
+    "h": 109.83,
+    "l": 103.62,
+    "c": 106.6,
+    "v": 9649200,
+    "clsPos": 48,
+    "gapPct": -0.5
+   },
+   {
+    "d": "2026-11-11",
+    "o": 104.89,
+    "h": 109.79,
+    "l": 102.15,
+    "c": 106.86,
+    "v": 7674400,
+    "clsPos": 62,
+    "gapPct": -1.6
+   },
+   {
+    "d": "2026-11-12",
+    "o": 107.52,
+    "h": 109.37,
+    "l": 106.29,
+    "c": 108.2,
+    "v": 4318482,
+    "clsPos": 62,
+    "gapPct": 0.62
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CLX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CLX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 18일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ },
+ "nDeep": null
+}

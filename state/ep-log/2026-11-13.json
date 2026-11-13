@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "ticker": "MANE",
+      "price": 135.29,
+      "category": 2,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BLTE",
+      "price": 169.96,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "TNK",
+      "price": 88.5,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SENEB",
+      "price": 172.8,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GPN",
+      "price": 88.19,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "XEL",
+      "price": 81.5,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SO",
+      "price": 92.47,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TWST",
+      "price": 114.22,
+      "category": 1,
+      "confidence": "low"
+    }
+  ]
+}
