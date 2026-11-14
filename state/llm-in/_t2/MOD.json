@@ -1,0 +1,273 @@
+{
+ "ticker": "MOD",
+ "sector": "Consumer Cyclical",
+ "industry": "Auto Parts",
+ "nameKo": "모딘 매뉴팩처링",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.29,
+  "saleNy": 37.93,
+  "epsCy": 1.32,
+  "epsNy": 85.12,
+  "est": {
+   "cyCur": 5.08621,
+   "cy30": 6.57,
+   "nyCur": 9.41584,
+   "ny30": 10.1675
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    28.02,
+    47.47,
+    30.51
+   ],
+   "ni": [
+    44.34,
+    47.78,
+    -215.61
+   ],
+   "opm": [
+    8.56,
+    10.89,
+    11.09
+   ],
+   "updated": "2026-09-08 08:31:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "모딘 매뉴팩처링",
+  "nameEn": "MODINE MANUFACTURING CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000067347&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 994400000,
+     "profit": 97800000,
+     "netIncome": 30000000,
+     "margin": 9.8,
+     "yoy": {
+      "revenue": 34.6,
+      "profit": 33.1,
+      "netIncome": -32.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 874100000,
+     "profit": 74800000,
+     "netIncome": 73900000,
+     "margin": 8.6,
+     "yoy": {
+      "revenue": 28,
+      "profit": -1.2,
+      "netIncome": 44.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 954400000,
+     "profit": 103900000,
+     "netIncome": 73300000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 47.5,
+      "profit": 39.5,
+      "netIncome": 47.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 805000000,
+     "profit": 89300000,
+     "netIncome": -47400000,
+     "margin": 11.1,
+     "yoy": {
+      "revenue": 30.5,
+      "profit": 50.6,
+      "netIncome": -215.6,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Most-Watched Stock Modine Manufacturing Company (MOD) Worth Betting on Now?",
+     "url": "https://www.nasdaq.com/articles/most-watched-stock-modine-manufacturing-company-mod-worth-betting-now",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Modine Manufacturing Consensus Price Target Lowered by 17.84% to $255.03",
+     "url": "https://www.nasdaq.com/articles/modine-manufacturing-consensus-price-target-lowered-1784-25503",
+     "date": "2026-11-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Is It Worth Investing in Modine (MOD) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-modine-mod-based-wall-streets-bullish-views",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Modine Manufacturing (MOD) Said on Its Q2 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-modine-manufacturing-mod-said-its-q2-earnings-call",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Modine Q2 Earnings Miss: Is the Stock a Buy, Hold or Sell?",
+     "url": "https://www.nasdaq.com/articles/modine-q2-earnings-miss-stock-buy-hold-or-sell",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "MOD Q2 Earnings Call Highlights Growth and Margin Recovery Plans",
+     "url": "https://www.nasdaq.com/articles/mod-q2-earnings-call-highlights-growth-and-margin-recovery-plans",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Modine: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/modine-3-key-takeaways-long-term-investors",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Modine (MOD) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/modine-mod-q2-2027-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926122032/mod-20261103x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926119218/mod-20261021x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "임원 변동",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926112870/tm2626618d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926108614/tm2625565d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926106727/tm2625001d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926099432/mod-20260820x8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-08-24",
+     "broker": "유안타증권",
+     "analyst": "황병준",
+     "title": "[모딘 매뉴팩처링 (NYS:MOD)] Chiller Ramp-Up in progress, 모듈러 DC 업체로 확장",
+     "summary": "- Modine Manufacturing Company(MOD)는 Hyperscaler 등 데이터센터 운영 업체를 대상 으로 Chiller를 중심, AHU, CDU, 정밀공조 장비 등 데이터센터 열관리(Thermal Managament) 인프라를 설계∙제조하는 열관리 플랫폼 업체. 25년 하반기부터는 AHU, CDU, 열교환기, 인클 로저를 결합한 모듈러 DC 초기 물량을 출하, 3세대 제품을 개발하는 등 데이터센터향 냉각 인프라 업체로서의 포지셔닝 강화 중- 동사는 이미 Chiller 중심 생산 Ramp-Up이 진행 중. 27~29년 예정된 $40억 규모 LTA 소 화를 위한 선제 증설 본격화. 26.1H 기준 Grenada(5개), Dallas(5개), Jefferson(2개)의 12 개 Chiller 생산 라인과 Franklin 복합 생산 라인(Chiller+AHU+CDU 등 포괄)이 가동 중. 27년 상 반기 말까지 총 20개의 Chiller 생산 라인이 Set-Up될 예정. 해당 Capa는 DC 부문 매출 $40억을 커버할 수 있는 용량(cf. TTM DC 매출 $13억)",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiziqilciigcgxeeek.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "MOD",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 51.12,
+  "pbr": 6,
+  "eps": 2.65,
+  "bps": 22.63,
+  "shares": 53196900,
+  "marketCapM": 7217,
+  "high52": 297.6147,
+  "high52Date": "2026-05-26",
+  "low52": 87.84,
+  "low52Date": "2026-11-05",
+  "last": 135.66,
+  "prevClose": 106.1,
+  "nameKo": "모딘 매뉴팩처링",
+  "nameEn": "MODINE MANUFACTURING CO",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 53196900
+ }
+}

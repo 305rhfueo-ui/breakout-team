@@ -49,9 +49,80 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:16:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STN",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 12일 발표한 3분기 실적이 시장 예상치(매출·주당순이익)를 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Stantec (STN) Tops Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/stantec-stn-tops-q3-earnings-and-revenue-estimates",
+                "date": "2026-11-12",
+                "quote": "Stantec (STN) Tops Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 다음 날인 13일 주가가 급등했고, 어닝콜에서 유기적 성장 호조와 가이던스(회사가 내놓은 연간 전망) 상향이 언급됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Stantec Stock Soared on Friday",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/why-stantec-stock-soared-friday",
+                "date": "2026-11-13",
+                "quote": "Why Stantec Stock Soared on Friday",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Stantec Inc (STN) Q3 2026 Earnings Call Highlights: Strong Organic Growth and Raised Guidance ...",
+                "publisher": "GuruFocus.com (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-inc-stn-q3-2026-230401862.html",
+                "date": "2026-11-13",
+                "quote": "Stantec Inc (STN) Q3 2026 Earnings Call Highlights: Strong Organic Growth and Raised Guidance ...",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "조정 순이익이 1년 전보다 약 24% 늘어 예상을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Stantec Q3 Adjusted Earnings Jumps Near 24% YoY, Beats Forecast",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-q3-adjusted-earnings-jumps-221754328.html",
+                "date": "2026-11-12",
+                "quote": "Stantec Q3 Adjusted Earnings Jumps Near 24% YoY, Beats Forecast",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Stantec은 캐나다 기반의 설계·엔지니어링·컨설팅 회사로, 건물·물·에너지·교통 인프라 프로젝트의 설계와 자문 수수료로 돈을 번다.",
+        "volumeExplanation": "11월 12일 3분기 실적이 매출·이익 모두 예상을 넘었고 연간 전망도 올려, 13일 주가가 급등하며 거래량이 평소의 3배 넘게 늘었다. 실적 발표 후 매수세가 몰린 전형적인 어닝 서프라이즈 반응이며, 다음 분기 성장률이 이어지는지가 이 이야기의 확인 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-14",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -155,22 +226,56 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "SO",
-        "category": 6,
+        "category": 1,
+        "company": "Southern Company는 미국 남동부에서 전기와 가스를 규제 요금으로 공급하는 대형 유틸리티 회사입니다. 데이터센터 전력 수요 증가가 성장 동력으로 꼽힙니다.",
+        "volumeExplanation": "3분기 실적이 예상치를 넘고 전망이 올라간 데다, 11월 12~13일에 약 17억 5천만 달러 규모 지분 연계 증권 발행과 약 1,000억 달러 투자 계획 보도가 이어져 거래가 늘었습니다. 실적 호재와 자금 조달 소식이 같은 시기에 겹쳤습니다.",
         "claims": [
           {
             "id": "c1",
-            "statement": "11월 12~13일 Southern이 17.5억 달러 규모 지분증권(주식으로 전환되는 증권) 발행을 발표하고 가격을 확정했다. 자금은 기존 전환사채를 되사는 데 쓴다.",
+            "statement": "3분기 실적이 시장 예상치를 넘었고, 데이터센터 수요를 바탕으로 향후 전망도 상향됐습니다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Southern Company Announces $1.75 Billion Equity Units Offering to Repurchase Convertible Notes",
-                "publisher": "MT Newswires",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/southern-company-announces-1-75-140137732.html",
-                "date": "2026-11-12",
-                "quote": "Southern Company Announces $1.75 Billion Equity Units Offering to Repurchase Convertible Notes",
+                "title": "SO Q3 Earnings Beat on Data Center Demand, Outlook Raised",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/so-q3-earnings-beat-data-center-demand-outlook-raised",
+                "date": "2026-11-13",
+                "quote": "SO Q3 Earnings Beat on Data Center Demand, Outlook Raised",
                 "verified": "ok",
                 "httpStatus": 200
               },
+              {
+                "title": "Southern Co. (SO) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/southern-co-so-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-11-05",
+                "quote": "Southern Co. (SO) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표는 11월 5일 SEC 8-K(항목 2.02)로 공시됐습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Southern Co 8-K (Item 2.02, 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000071/so-20261105.htm",
+                "date": "2026-11-05",
+                "quote": "8-K 2026-11-05 items 2.02 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "새 주식 발행으로 기존 주주 몫이 줄 수 있어 거래가 늘 수 있는 재료입니다.",
+            "evidence_level": "sourced",
+            "sources": [
               {
                 "title": "Southern Company announces pricing of equity units",
                 "publisher": "PR Newswire",
@@ -179,38 +284,46 @@ window.TEAM4_DATA = {
                 "quote": "Southern Company announces pricing of equity units",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "Southern Co. Prices $1.75 Billion Offering of Equity Units",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/southern-co-prices-1-75-083412709.html",
+                "date": "2026-11-13",
+                "quote": "Southern Co. Prices $1.75 Billion Offering of Equity Units",
+                "verified": "ok",
+                "httpStatus": 200
               }
-            ]
+            ],
+            "statementOriginal": "같은 시기에 17억 5천만 달러 규모 지분 연계 증권(equity units) 발행 가격이 정해졌습니다. 새 주식 발행으로 기존 주주 몫이 줄 수 있어 거래가 늘 수 있는 재료입니다."
           },
           {
-            "id": "c2",
-            "statement": "11월 5일 3분기 실적이 예상치를 웃돌았다. 다만 거래량이 터진 시점과는 일주일 가까이 떨어져 있다.",
+            "id": "c4",
+            "statement": "천연가스·원전 등에 약 1,000억 달러를 쓰는 투자 계획이 보도됐습니다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Southern Co. (SO) Q3 Earnings and Revenues Surpass Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/southern-co-so-q3-earnings-and-revenues-surpass-estimates",
-                "date": "2026-11-05",
-                "quote": "Southern Co. (SO) Q3 Earnings and Revenues Surpass Estimates",
+                "title": "Southern Co. eyes $100B spending plan on natural gas, nuclear and other investments",
+                "publisher": "Utility Dive",
+                "url": "https://finance.yahoo.com/energy/articles/southern-co-eyes-100b-spending-144520353.html",
+                "date": "2026-11-13",
+                "quote": "Southern Co. eyes $100B spending plan on natural gas, nuclear and other investments",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "company": "Southern Company는 미국 남동부에서 전기와 천연가스를 규제 요금으로 공급하는 대형 전력 유틸리티다. 주 수입은 전기 판매와 송배전 요금이다.",
-        "volumeExplanation": "거래량 증가 시점에 17.5억 달러 지분증권 발행과 전환사채 상환 소식이 나왔는데, 이는 주가 호재라기보다 자금 조달 이벤트다. 뚜렷한 호재는 확인되지 않았고, 발행 관련 매매나 헤지(가격 변동 방어) 거래가 거래량을 키웠는지는 확인되지 않는다. 이 발행 물량 소화 이후에도 거래량이 평소 수준으로 돌아오면 일회성이었다는 이야기가 맞다.",
-        "confidence": "low",
+        "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
           "reason": ""
         },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-13",
-        "carried": true
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-14",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -969,9 +1082,35 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:08:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GRVY",
+        "category": 6,
+        "company": "그라비티는 한국 라그나로크 온라인 IP를 기반으로 모바일·PC 게임을 만들고 동남아·대만·중국 등에 서비스해 돈을 번다.",
+        "volumeExplanation": "11월 13일 3분기 실적이 발표되고 순이익이 7.7% 늘었다는 보도가 나오면서 거래량이 평소의 2.5배 수준으로 늘었다.",
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1"
+          ],
+          "reason": "",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "11월 13일 3분기 실적이 발표됐고 순이익이 7.7% 늘었다는 보도가 나오면서 거래량이 평소의 2.5배 수준으로 늘었다. 다만 예상치 대비 서프라이즈인지는 확인되지 않았다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-14",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1024,9 +1163,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:03:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SLAB",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 10일 3분기 실적을 발표했고 매출·주당순이익 모두 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Silicon Laboratories (SLAB) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/silicon-laboratories-slab-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-11-10",
+                "quote": "Silicon Laboratories (SLAB) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "텍사스인스트루먼트가 주당 231달러 현금으로 인수하기로 한 상태여서 주가는 인수가 근처에 묶여 있다. 마감은 2027년 상반기 예정이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Texas Instruments to Acquire Silicon Labs",
+                "publisher": "EE Times Asia",
+                "url": "https://www.eetasia.com/texas-instruments-to-acquire-silicon-labs/",
+                "date": "2026-02-04",
+                "quote": "$231.00 per share in cash, in a transaction with a total enterprise value of approximately $7.5 billion.",
+                "verified": "unverified",
+                "httpStatus": 0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "11월 초 텍사스인스트루먼트가 인수 자금용 20억 달러 회사채를 발행했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Texas Instruments (TXN) Could Be 29% Undervalued As Fresh Debt Fuels Its Silicon Laboratories Deal",
+                "publisher": "Simply Wall St.",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-could-29-151820473.html",
+                "date": "2026-11-05",
+                "quote": "pricing US$2.0b of senior unsecured notes to help fund the planned acquisition of Silicon Laboratories and cover transaction costs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "실리콘랩스는 사물인터넷 기기용 저전력 무선 통신 반도체를 설계해 판다. 텍사스인스트루먼트가 인수하기로 합의한 상태다.",
+        "volumeExplanation": "11월 10일 3분기 실적이 예상치를 넘으면서 거래가 늘었다. 다만 인수가 231달러로 정해져 있어 주가보다 인수 마감 일정·규제 승인이 더 중요하며, 거래량 급증의 직접 원인이 실적인지는 확정하기 어렵다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-14",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1639,9 +1840,44 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:20:35"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "IBP",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "인수 대상의 최근 1년 매출은 약 3억 7,000만 달러다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Installed Building Products Expands Commercial and Industrial Platform With Acquisition of Old Dominion Group",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/real-estate/articles/installed-building-products-expands-commercial-123000800.html",
+                "date": "2026-11-12",
+                "quote": "ODG generated revenue of approximately $370 million and Adjusted EBITDA of approximately $68 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 12일 IBP가 올드도미니언그룹을 기업가치 6억 9,800만 달러에 인수한다고 발표했다. 인수 대상의 최근 1년 매출은 약 3억 7,000만 달러다."
+          }
+        ],
+        "company": "IBP는 미국 주택·상업용 건물에 단열재 등을 시공하는 회사다. 시공 서비스 매출이 대부분이다.",
+        "volumeExplanation": "11월 12일 올드도미니언그룹 인수 발표로 거래량이 늘었다. 이 이야기가 맞는지는 인수가 마무리되고 다음 분기 실적에 인수 대상 매출이 실제로 반영되는지로 확인된다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 12일 약 7억 달러 규모의 올드도미니언그룹 인수 발표로 상업용 건물 시공 비중이 커진다는 점이 부각되며 거래량이 늘었다. 이 이야기가 맞는지는 인수가 마무리되고 다음 분기 실적에 인수 대상 매출이 실제로 반영되는지로 확인된다.",
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-14",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2358,40 +2594,24 @@ window.TEAM4_DATA = {
         "category": 6,
         "claims": [
           {
-            "id": "c2",
-            "statement": "증권사 목표주가 평균이 10월 23일 11.65% 올라 227.73달러가 됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Seneca Foods Consensus Price Target Raised by 11.65% to $227.73",
-                "publisher": "Fintel (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/seneca-foods-consensus-price-target-raised-1165-22773",
-                "date": "2026-10-23",
-                "quote": "Seneca Foods Consensus Price Target Raised by 11.65% to $227.73",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
           }
         ],
-        "company": "Seneca Foods는 통조림·냉동 채소와 과일을 만들어 유통업체와 식품 회사에 파는 업체다. 최근 Green Giant 냉동 사업을 인수했다.",
-        "volumeExplanation": "11월 초 발표된 7~9월 분기 실적에서 매출이 7.1% 늘고, 증권사 목표주가 상향과 함께 관심이 붙은 것으로 보인다. 다만 이날 거래량이 터진 직접 원인은 자료에서 확인되지 않아, 실적 발표 후 관심 지속 정도로 본다.",
+        "company": "Seneca Foods는 미국에서 통조림 과일·채소를 만들어 판매하는 식품 회사입니다. SENEB는 이 회사의 B클래스 주식입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
         "confidence": "low",
         "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c1"
-          ],
-          "reason": "c1의 법인세 전 이익 47.4% 증가가 quote에 없음(quote는 매출만 제시). 남은 c2는 목표주가 상향일 뿐 실적 근거 부족",
-          "narrativeFixed": true
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류. statement·evidence_level·sources 일관성 있음."
         },
-        "originalCategory": 1,
-        "corrected": true,
-        "volumeExplanationOriginal": "11월 초 발표된 7~9월 분기 실적에서 매출이 7.1% 늘고 법인세 전 이익이 47.4% 늘어, 증권사 목표주가 상향과 함께 관심이 붙은 것으로 보인다. 다만 이날 거래량이 터진 직접 원인은 자료에서 확인되지 않아, 실적 발표 후 관심 지속 정도로 본다.",
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-11-13",
-        "carried": true
+        "researchedOn": "2026-11-14",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "세네카 푸즈 B",
@@ -2898,9 +3118,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:23:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GEF.B",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Greif는 산업용 드럼, 플라스틱 용기, 섬유 포장재 같은 포장 제품을 만들어 판다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류. statement·evidence_level·sources 일관성 있음."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-14",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "그라이프 B",
@@ -3447,14 +3687,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 2,
+    "done": 7,
     "total": 7,
-    "cap": null,
-    "pending": 5,
+    "cap": 7,
+    "pending": 0,
     "failed": 0,
-    "carried": 2,
+    "carried": 0,
     "ineligible": 0,
-    "note": "7종목 중 2종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 5종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -3472,5 +3712,33 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 2건(해운 탱커, 바이오 장비·서비스)이 있지만 업종이 같지 않아 한 업종 쏠림은 보이지 않습니다. 산업 기술 돌파 호재는 입력에 없습니다.",
     "caution": "TWST는 매출만 예상을 넘고 적자가 계속돼 호재 강도가 약합니다. TNK도 입력에는 '늘었다'는 보도만 있고 예상치 대비 규모는 없어, 서프라이즈인지는 직접 확인이 필요합니다. 차트 상태는 보지 않았습니다.",
     "researchedOn": "2026-11-13"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "STN",
+        "category": 1,
+        "oneLine": "3분기 실적이 예상치를 넘었고 가이던스(회사 연간 전망) 상향도 언급돼 13일 주가가 급등했다."
+      },
+      {
+        "ticker": "SO",
+        "category": 1,
+        "oneLine": "3분기 실적이 예상치를 넘었고 데이터센터 수요를 근거로 향후 전망도 올라갔다."
+      },
+      {
+        "ticker": "SLAB",
+        "category": 1,
+        "oneLine": "3분기 매출·주당순이익이 예상을 웃돌았다. 다만 텍사스인스트루먼트의 주당 231달러 인수가에 주가가 묶여 있다."
+      }
+    ],
+    "sectorSignal": "실적 호재 3건이 서로 다른 업종(서비스, 전력, 반도체)에 흩어져 있어 한 업종 쏠림은 보이지 않는다. 산업 기술 돌파 유형의 호재는 오늘 없었다.",
+    "caution": "SLAB은 인수가 근처에 묶여 있어 일반적인 실적 급등 후보와 성격이 다르다. SO는 지분 연계 증권 발행이 겹쳐 있어 호재만 있는 것은 아니다. 차트 상태는 확인하지 않았으니 직접 보고 판단해야 한다.",
+    "researchedOn": "2026-11-14"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 3,
+    "3": 1,
+    "6": 3
   }
 };

@@ -1,0 +1,540 @@
+{
+ "ticker": "VEON",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "VEON",
+  "name": "비언(ADR)",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
+  "price": 79.16999816894531,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 89,
+  "stop": 85.04,
+  "distToPivotPct": -11.04,
+  "distToPivotAdr": -2.21,
+  "riskPerSharePct": 4.45,
+  "adrPct": 5,
+  "extensionAdr": 0.49,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 24,
+   "baseWeeks": 4.8,
+   "depthPct": 18.5,
+   "priorMovePct": 76.8,
+   "higherLows": 0,
+   "contraction": 1.14,
+   "closeRange10Adr": 1.1,
+   "surf10": 0.49,
+   "surf20": -0.34,
+   "slope20": -1.54,
+   "baseLow": 72.5,
+   "lastSwingLow": 73.76
+  },
+  "reasons": [
+   "선행 상승 +77%",
+   "베이스 4.8주",
+   "깊이 18.5%",
+   "✗ 저점 상승 0회",
+   "진폭 1.14배 · 10일 종가폭 1.1 ADR",
+   "✗ 10일선 +0.5 ADR · 20일선 -0.3 ADR",
+   "✗ 20일선 기울기 -1.54%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.006298893615163462,
+    "pct": 25.653742110009013
+   },
+   "m3": {
+    "v": 0.44564163921349154,
+    "pct": 99.32371505861136
+   },
+   "m6": {
+    "v": 0.47023241588684517,
+    "pct": 90.84761045987376
+   }
+  },
+  "ret1m": -4.84,
+  "ret3m": 40.3,
+  "ret6m": 40.32,
+  "marketCap": "5.45B",
+  "volx": 0.78,
+  "volSurgeWk": 1.09,
+  "high52": 88.96,
+  "newHigh52": false,
+  "adr": 5,
+  "div50": 4.17,
+  "div200": 34.42,
+  "targetStatus": false,
+  "saleCy": 16.82,
+  "saleNy": 9.99,
+  "epsCy": 51.5,
+  "epsNy": 13.1,
+  "cyTrend": 7.58,
+  "nyTrend": 1.87,
+  "est": {
+   "cyCur": 7.5591,
+   "cy30": 7.02661,
+   "nyCur": 8.54913,
+   "ny30": 8.39196
+  },
+  "fs": {
+   "sale": [
+    16.93,
+    17.06,
+    17.33
+   ],
+   "ni": [
+    -79.5,
+    0,
+    -138.27
+   ],
+   "opm": [
+    27.46,
+    25.48,
+    27.41
+   ],
+   "updated": "2026-09-09 06:06:21"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-16",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 21,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "비언(ADR)",
+  "nameEn": "VEON LTD SPON ADS EACH REP 25 ORD (POST REV SPLT)",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Should Value Investors Buy VEON (VEON) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-veon-veon-stock",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "VEON Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/veon-q3-earnings-call-highlights",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "VEON (VEON) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/veon-veon-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "VEON Delivers Double-Digit Growth as Digital Services Reach 27.2% of Revenue",
+     "url": "https://www.nasdaq.com/articles/veon-delivers-double-digit-growth-digital-services-reach-272-revenue",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "VEON Ltd. Reports Nine-Month Revenue of 3,779 Million U.S. Dollars and Profit of 488 Million U.S. Dollars",
+     "url": "https://www.nasdaq.com/articles/veon-ltd-reports-nine-month-revenue-3779-million-us-dollars-and-profit-488-million-us",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "VEON Ltd. to Acquire 33.75% Stake in JungoTV Holdco, Inc.",
+     "url": "https://www.nasdaq.com/articles/veon-ltd-acquire-3375-stake-jungotv-holdco-inc",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "VEON Ltd. Subsidiary Beeline Kazakhstan Completes Acquisition of OLX Group LLP for USD 81 million",
+     "url": "https://www.nasdaq.com/articles/veon-ltd-subsidiary-beeline-kazakhstan-completes-acquisition-olx-group-llp-usd-81-million",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "VEON (VEON) Soars 6.6%: Is Further Upside Left in the Stock?",
+     "url": "https://www.nasdaq.com/articles/veon-veon-soars-66-further-upside-left-stock",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Veon CEO Kaan Terzioglu: Telecommunications are the foundation, not the destination",
+   "url": "https://www.cnbc.com/video/2026/07/31/veon-ceo-kaan-terzioglu-telecommunications-are-the-foundation-not-the-destination.html",
+   "date": "2026-07-31",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VEON",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 95.25,
+  "pbr": 3.34,
+  "eps": 0.83,
+  "bps": 23.73,
+  "shares": 67990801,
+  "marketCapM": 5383,
+  "high52": 88.9999,
+  "high52Date": "2026-10-30",
+  "low52": 44,
+  "low52Date": "2026-03-12",
+  "last": 79.17,
+  "prevClose": 75.15,
+  "nameKo": "비언(ADR)",
+  "nameEn": "VEON LTD SPON ADS EACH REP 25 ORD (POST REV SPLT)",
+  "listedOn": "2017-03-31",
+  "exchange": "나스닥",
+  "listedShares": 67990801
+ },
+ "estimates": {
+  "ticker": "VEON",
+  "url": "https://finance.yahoo.com/quote/VEON/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.64,
+    "epsLow": 1.64,
+    "epsHigh": 1.64,
+    "epsYearAgo": -0.41,
+    "epsAnalysts": 1,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 1356866670,
+    "revAnalysts": 3,
+    "revYearAgo": 1171000000,
+    "revGrowth": 15.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 7.56,
+    "epsLow": 7.49,
+    "epsHigh": 7.66,
+    "epsYearAgo": 4.99,
+    "epsAnalysts": 3,
+    "epsGrowth": 51.5,
+    "epsCur": "USD",
+    "rev": 5138856010,
+    "revAnalysts": 5,
+    "revYearAgo": 4399000000,
+    "revGrowth": 16.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 8.55,
+    "epsLow": 7.88,
+    "epsHigh": 10.89,
+    "epsYearAgo": 7.56,
+    "epsAnalysts": 7,
+    "epsGrowth": 13.1,
+    "epsCur": "USD",
+    "rev": 5652411060,
+    "revAnalysts": 7,
+    "revYearAgo": 5138856010,
+    "revGrowth": 10,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.64,
+    "d7": -10.4,
+    "d30": -10.4,
+    "d90": -2.1,
+    "ago90": 1.68,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 7.56,
+    "d7": 10.7,
+    "d30": 7.6,
+    "d90": 11.9,
+    "ago90": 6.76,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 8.55,
+    "d7": 1,
+    "d30": 1.9,
+    "d90": 3.2,
+    "ago90": 8.28,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.05,
+    "estimate": 1.73,
+    "surprisePct": 18.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.48,
+    "estimate": 1.59,
+    "surprisePct": -7.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.41,
+    "estimate": 1.3,
+    "surprisePct": 8.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.41,
+    "estimate": 1.87,
+    "surprisePct": -121.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 1,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-10-02",
+     "firm": "Cantor Fitzgerald",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 112,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-29",
+     "firm": "Northland Capital Markets",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 70
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-06",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 79.17,
+   "ma20": 80.53,
+   "ma50": 76,
+   "ma150": 61.29,
+   "distMA50": 4.17,
+   "periodHigh": 89,
+   "pullbackFromHigh": -11.04,
+   "volRatio20": 0.79,
+   "dryUpRatio": 0.64
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 82.6,
+    "h": 83.41,
+    "l": 78.89,
+    "c": 79.46,
+    "v": 126500,
+    "clsPos": 13,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-11-03",
+    "o": 79.99,
+    "h": 80.78,
+    "l": 77.51,
+    "c": 78.11,
+    "v": 113400,
+    "clsPos": 18,
+    "gapPct": 0.67
+   },
+   {
+    "d": "2026-11-04",
+    "o": 79.18,
+    "h": 80.37,
+    "l": 78.62,
+    "c": 79.01,
+    "v": 65000,
+    "clsPos": 22,
+    "gapPct": 1.37
+   },
+   {
+    "d": "2026-11-05",
+    "o": 79.01,
+    "h": 79.01,
+    "l": 73.76,
+    "c": 75.34,
+    "v": 197700,
+    "clsPos": 30,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-06",
+    "o": 75.34,
+    "h": 83.11,
+    "l": 75.34,
+    "c": 77.57,
+    "v": 213500,
+    "clsPos": 29,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-09",
+    "o": 78.83,
+    "h": 78.99,
+    "l": 75.52,
+    "c": 76.73,
+    "v": 106400,
+    "clsPos": 35,
+    "gapPct": 1.62
+   },
+   {
+    "d": "2026-11-10",
+    "o": 76.7,
+    "h": 77.33,
+    "l": 73.97,
+    "c": 75.51,
+    "v": 93200,
+    "clsPos": 46,
+    "gapPct": -0.04
+   },
+   {
+    "d": "2026-11-11",
+    "o": 75.99,
+    "h": 77.28,
+    "l": 72.5,
+    "c": 76.42,
+    "v": 170000,
+    "clsPos": 82,
+    "gapPct": 0.64
+   },
+   {
+    "d": "2026-11-12",
+    "o": 76.42,
+    "h": 76.42,
+    "l": 74.89,
+    "c": 75.15,
+    "v": 47000,
+    "clsPos": 17,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-13",
+    "o": 74.95,
+    "h": 79.5,
+    "l": 73.74,
+    "c": 79.17,
+    "v": 137500,
+    "clsPos": 94,
+    "gapPct": -0.27
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VEON-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VEON-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "금융·영상 등 디지털 서비스가 매출의 27%까지 커지며 이익까지 끌어올리고 있다",
+  "researchedOn": "2026-11-07"
+ }
+}

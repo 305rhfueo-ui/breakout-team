@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "ticker": "STN",
+      "price": 85.69000244140625,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SO",
+      "price": 93.58999633789062,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "GRVY",
+      "price": 70.80000305175781,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SLAB",
+      "price": 221.42999267578125,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "IBP",
+      "price": 229,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SENEB",
+      "price": 170.25999450683594,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GEF.B",
+      "price": 100.6500015258789,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

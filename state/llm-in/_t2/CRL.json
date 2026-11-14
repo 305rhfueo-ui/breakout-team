@@ -1,0 +1,297 @@
+{
+ "ticker": "CRL",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.56,
+  "saleNy": 2.75,
+  "epsCy": 11.6,
+  "epsNy": 13.06,
+  "est": {
+   "cyCur": 11.47209,
+   "cy30": 11.37223,
+   "nyCur": 12.9701,
+   "ny30": 12.77164
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -2.72,
+    1.18,
+    -0.83
+   ],
+   "ni": [
+    -102.83,
+    -158.28,
+    "적자확대"
+   ],
+   "opm": [
+    11.94,
+    12.04,
+    -28.51
+   ],
+   "updated": "2026-09-08 09:43:21"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-10-28"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 13
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-11",
+  "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+  "nameEn": "CHARLES RIVER LABORATORIES",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100682&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-26",
+     "derived": false,
+     "revenue": 982732000,
+     "profit": 202638000,
+     "netIncome": 333067000,
+     "margin": 20.6,
+     "yoy": {
+      "revenue": -2.2,
+      "profit": 51.4,
+      "netIncome": 512,
+      "priorEnd": "2025-09-27"
+     }
+    },
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 1004078000,
+     "profit": 119888000,
+     "netIncome": -1482000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": -2.7,
+      "profit": 19.7,
+      "netIncome": -102.8,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 995830000,
+     "profit": 119897000,
+     "netIncome": -14843000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 1.2,
+      "profit": 60.6,
+      "netIncome": -158.3,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 994227000,
+     "profit": -283440000,
+     "netIncome": -276555000,
+     "margin": -28.5,
+     "yoy": {
+      "revenue": -0.8,
+      "profit": -69,
+      "netIncome": -28.9,
+      "priorEnd": "2024-12-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Charles River Laboratories (CRL) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-charles-river-laboratories-crl-strong-momentum-stock",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Charles River Laboratories to Acquire Frontage’s Bioanalysis and DMPK Businesses",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-acquire-frontages-bioanalysis-and-dmpk-businesses",
+     "date": "2026-11-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Unlocking Charles River (CRL) International Revenues: Trends, Surprises, and Prospects",
+     "url": "https://www.nasdaq.com/articles/unlocking-charles-river-crl-international-revenues-trends-surprises-and-prospects",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Charles River To Buy Frontage's Bioanalysis And DMPK Operations For Up To $545 Mln Cash",
+     "url": "https://www.nasdaq.com/articles/charles-river-buy-frontages-bioanalysis-and-dmpk-operations-545-mln-cash",
+     "date": "2026-11-09",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Charles River Laboratories International Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-international-q3-earnings-call-highlights",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Charles River (CRL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/charles-river-crl-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Charles River Laboratories Announces Third-Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-announces-third-quarter-2026-results",
+     "date": "2026-11-04",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Charles River (CRL) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/charles-river-crl-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-09",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326017127/dp256497_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000156/crl-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000142/crl-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000095010326007060/dp246529_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000036/crl-20260507.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-11-09",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 반도체보다 원숭이",
+     "summary": "- Signal: 급증하는 토큰 공급, AI Next Step 은 바이오- Key: 세계 최대 비임상 CRO 기업의 수혜 전망- Step: 반도체 보다 원숭이, R&D 붐이 불러올 쇼티지",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeeee.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+     "summary": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeeee.pdf",
+     "pages": "15"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "This drug researcher that just reported earnings could keep rallying, JPMorgan says",
+   "url": "https://www.cnbc.com/2026/08/06/this-drug-researcher-will-rally-on-biotech-funding-boost-jpmorgan-says.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify & more",
+   "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-midday-googl-spcx-shop-nem-podd.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CRL",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 69.65,
+  "pbr": 5.68,
+  "eps": 4.85,
+  "bps": 59.5,
+  "shares": 47917500,
+  "marketCapM": 16195,
+  "high52": 379.63,
+  "high52Date": "2026-10-29",
+  "low52": 146.195,
+  "low52Date": "2026-05-19",
+  "last": 337.97,
+  "prevClose": 340.81,
+  "nameKo": "찰스 리버 래브러토리스 인터내셔널",
+  "nameEn": "CHARLES RIVER LABORATORIES",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 47917500
+ }
+}

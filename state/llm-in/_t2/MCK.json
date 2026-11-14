@@ -1,0 +1,303 @@
+{
+ "ticker": "MCK",
+ "sector": "Healthcare",
+ "industry": "Medical Distribution",
+ "nameKo": "매케손",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.94,
+  "saleNy": 6.87,
+  "epsCy": 17.95,
+  "epsNy": 13.3,
+  "est": {
+   "cyCur": 46.13147,
+   "cy30": 44.6406,
+   "nyCur": 52.26468,
+   "ny30": 50.69504
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.72,
+    6.02,
+    11.4
+   ],
+   "ni": [
+    -21.68,
+    33.49,
+    34.93
+   ],
+   "opm": [
+    1.25,
+    2.23,
+    1.53
+   ],
+   "updated": "2026-09-09 06:25:02"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-13",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "매케손",
+  "nameEn": "MCKESSON CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927653&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 110957000000,
+     "profit": 1604000000,
+     "netIncome": 1218000000,
+     "margin": 1.4,
+     "yoy": {
+      "revenue": 7.6,
+      "profit": 14,
+      "netIncome": 9.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 105380000000,
+     "profit": 1319000000,
+     "netIncome": 614000000,
+     "margin": 1.3,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": 27.3,
+      "netIncome": -21.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 96295000000,
+     "profit": 2150000000,
+     "netIncome": 1682000000,
+     "margin": 2.2,
+     "yoy": {
+      "revenue": 6,
+      "profit": 35.1,
+      "netIncome": 33.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 106158000000,
+     "profit": 1619000000,
+     "netIncome": 1186000000,
+     "margin": 1.5,
+     "yoy": {
+      "revenue": 11.4,
+      "profit": 32.3,
+      "netIncome": 34.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here is What to Know Beyond Why McKesson Corporation (MCK) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-mckesson-corporation-mck-trending-stock-1",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook McKesson (MCK)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-mckesson-mck",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McKesson Consensus Price Target Raised 10% to $1,157.23",
+     "url": "https://www.nasdaq.com/articles/mckesson-consensus-price-target-raised-10-115723",
+     "date": "2026-11-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "McKesson Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/mckesson-q2-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "McKesson (MCK) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/mckesson-mck-upgraded-buy-heres-what-you-should-know",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McKesson Corporation (MCK) Hit a 52 Week High, Can the Run Continue?",
+     "url": "https://www.nasdaq.com/articles/mckesson-corporation-mck-hit-52-week-high-can-run-continue",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McKesson (MCK) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mckesson-mck-q2-2027-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "MCK Q2 Earnings Call Highlights Raised Outlook and Specialty Growth",
+     "url": "https://www.nasdaq.com/articles/mck-q2-earnings-call-highlights-raised-outlook-and-specialty-growth",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000253/mck-20261006.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000247/mck-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000232/mck-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000215/mck-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000185/mck-20260629.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "McKesson’s specialty-care shift",
+   "url": "https://www.cnbc.com/2026/11/13/mckesson-stock-specialty-growth-valuation.html",
+   "date": "2026-11-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Alphabet, AMD, Lennar, P&G and more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A rapid-fire update on our 33-stock portfolio, including 6 stocks to buy now",
+   "url": "https://www.cnbc.com/investingclub/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Staff Picks: This medical supply play could be a port in the storm in this volatile market",
+   "url": "https://www.cnbc.com/video/2026/11/13/staff-picks-this-medical-supply-play-could-be-a-port-in-the-storm-in-this-volatile-market.html",
+   "date": "2026-11-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lightning Round: Cipher is going down because it should be going down, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/14/lightning-round-cipher-is-going-down-because-it-should-be-going-down-says-jim-cramer.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Tuesday, October 6, 2026: Cramer says AI can't replace this cybersecurity firm",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/06/tuesday-october-6-2026-cramer-says-ai-cant-replace-this-cybersecurity-firm.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MCK",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 29.51,
+  "pbr": 0,
+  "eps": 37.37,
+  "bps": 0,
+  "shares": 115457000,
+  "marketCapM": 127327,
+  "high52": 1121.5,
+  "high52Date": "2026-11-05",
+  "low52": 722.1134,
+  "low52Date": "2026-05-11",
+  "last": 1102.81,
+  "prevClose": 1077.05,
+  "nameKo": "매케손",
+  "nameEn": "MCKESSON CORPORATION",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 115457000
+ }
+}

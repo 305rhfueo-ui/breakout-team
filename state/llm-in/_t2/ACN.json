@@ -1,0 +1,315 @@
+{
+ "ticker": "ACN",
+ "sector": "Technology",
+ "industry": "Information Technology Services",
+ "nameKo": "액센추어",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.43,
+  "saleNy": 5.09,
+  "epsCy": 5.02,
+  "epsNy": 8.43,
+  "est": {
+   "cyCur": 14.67161,
+   "cy30": 14.66049,
+   "nyCur": 15.90856,
+   "ny30": 15.90406
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.59,
+    8.31,
+    5.95
+   ],
+   "ni": [
+    6.44,
+    2.08,
+    -2.95
+   ],
+   "opm": [
+    16.96,
+    13.82,
+    15.33
+   ],
+   "updated": "2026-09-08 07:11:42"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-29",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 12,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-09",
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467373&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-31",
+     "derived": false,
+     "revenue": 18679110000,
+     "profit": 2863417000,
+     "netIncome": 1991267000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 6.2,
+      "profit": 39.7,
+      "netIncome": 40.8,
+      "priorEnd": "2025-08-31"
+     }
+    },
+    {
+     "periodEnd": "2026-05-31",
+     "derived": false,
+     "revenue": 18718144000,
+     "profit": 3175298000,
+     "netIncome": 2338989000,
+     "margin": 17,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 6.5,
+      "netIncome": 6.4,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 18044066000,
+     "profit": 2493547000,
+     "netIncome": 1825239000,
+     "margin": 13.8,
+     "yoy": {
+      "revenue": 8.3,
+      "profit": 11.1,
+      "netIncome": 2.1,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 18742125000,
+     "profit": 2873698000,
+     "netIncome": 2211561000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 6,
+      "profit": -2.5,
+      "netIncome": -3,
+      "priorEnd": "2024-11-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Accenture (ACN) Stock Sinks As Market Gains: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/accenture-acn-stock-sinks-market-gains-what-you-should-know",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Lockheed Martin, Accenture and Nucor",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-lockheed-martin-accenture-and-nucor",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture vs. Oracle: Which Technology Stock Is a Better Buy in 2027?",
+     "url": "https://www.nasdaq.com/articles/accenture-vs-oracle-which-technology-stock-better-buy-2027",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "3 Stocks Showing Impressive Relative Strength: LMT, ACN, NUE",
+     "url": "https://www.nasdaq.com/articles/3-stocks-showing-impressive-relative-strength-lmt-acn-nue",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture vs. Microsoft: Which Technology Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/accenture-vs-microsoft-which-technology-stock-better-buy-2027",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Accenture (ACN) Increases Despite Market Slip: Here's What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/accenture-acn-increases-despite-market-slip-heres-what-you-need-know",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Accenture (ACN) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-accenture-acn-top-growth-stock-long-term-0",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Accenture (ACN) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-accenture-acn-top-value-stock-long-term-0",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000042/acn-20261014.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000119312526300813/d181172d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000035/acn-20260623.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000031/acn-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000019/acn-20260422.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-23",
+     "broker": "LS증권",
+     "analyst": "선유진",
+     "title": "[액센추어 (NYS:ACN)] 중동 리스크에 수요 둔화 우려 부각",
+     "summary": "- 글로벌 최대 컨설팅 및 IT서비스 기업- FY 3Q26: 수요 둔화 우려 부각- 국내 IT서비스 기업에 대한 시사점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgexmeiilgmlxgcgxeecm.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: Accenture, Synopsys, United Therapeutics, Vicor and more",
+   "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Accenture stock rallies after earnings beat expectations",
+   "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, more",
+   "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-premarket-googl-acn-rklb-mu.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's Stop Trading: Accenture",
+   "url": "https://www.cnbc.com/video/2026/10/28/cramers-stop-trading-accenture.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Market Close",
+   "url": "https://www.cnbc.com/video/2026/10/01/post-market-wrap-october-1-2026.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC Markets Now: October 1, 2026",
+   "url": "https://www.cnbc.com/video/2026/10/01/cnbc-markets-now-october-1-2026.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ACN",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 18.46,
+  "pbr": 4.73,
+  "eps": 13.57,
+  "bps": 52.98,
+  "shares": 590737000,
+  "marketCapM": 147974,
+  "high52": 282.9431,
+  "high52Date": "2026-01-14",
+  "low52": 115.8172,
+  "low52Date": "2026-06-22",
+  "last": 250.49,
+  "prevClose": 249.95,
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 590737000
+ }
+}

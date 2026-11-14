@@ -1,0 +1,640 @@
+{
+ "ticker": "JBSS",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "JBSS",
+  "name": "존 비 샌필리포 앤드 선",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "price": 59.060001373291016,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 69.27,
+  "stop": 66.9,
+  "distToPivotPct": -14.74,
+  "distToPivotAdr": -3.67,
+  "riskPerSharePct": 3.42,
+  "adrPct": 4.01,
+  "extensionAdr": 1.46,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 26.8,
+   "priorMovePct": 3.8,
+   "higherLows": 0,
+   "contraction": 0.9,
+   "closeRange10Adr": 2.7,
+   "surf10": 1.46,
+   "surf20": -0.39,
+   "slope20": -3.86,
+   "baseLow": 50.73,
+   "lastSwingLow": 50.73
+  },
+  "reasons": [
+   "✗ 선행 상승 +4%",
+   "베이스 8주",
+   "✗ 깊이 26.8%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.9배 · 10일 종가폭 2.7 ADR",
+   "✗ 10일선 +1.5 ADR · 20일선 -0.4 ADR",
+   "✗ 20일선 기울기 -3.86%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.07319994031132473,
+    "pct": 12.66907123534716
+   },
+   "m3": {
+    "v": -0.1777684105707253,
+    "pct": 9.422903516681695
+   },
+   "m6": {
+    "v": -0.13418590138809589,
+    "pct": 14.11181244364292
+   }
+  },
+  "ret1m": -11.53,
+  "ret3m": -22.04,
+  "ret6m": -20.12,
+  "marketCap": "0.69B",
+  "volx": 1.2,
+  "volSurgeWk": 1.3,
+  "high52": 65.65,
+  "newHigh52": false,
+  "adr": 4.01,
+  "div50": -8.89,
+  "div200": -20.66,
+  "targetStatus": false,
+  "saleCy": 2.04,
+  "saleNy": 3.12,
+  "epsCy": -9.65,
+  "epsNy": 1.63,
+  "cyTrend": -11.29,
+  "nyTrend": -10.72,
+  "est": {
+   "cyCur": 4.7525,
+   "cy30": 5.3575,
+   "nyCur": 4.83,
+   "ny30": 5.41
+  },
+  "fs": {
+   "sale": [
+    4.22,
+    8,
+    4.55
+   ],
+   "ni": [
+    -37.88,
+    -16.4,
+    32.09
+   ],
+   "opm": [
+    4.43,
+    8.44,
+    8.25
+   ],
+   "updated": "2026-09-07 07:01:59"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "존 비 샌필리포 앤드 선",
+  "nameEn": "SANFILIPPO(JOHN B)& SON INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000880117&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-24",
+     "derived": false,
+     "revenue": 288136000,
+     "profit": 19329000,
+     "netIncome": 13168000,
+     "margin": 6.7,
+     "yoy": {
+      "revenue": -3.5,
+      "profit": -28.5,
+      "netIncome": -29.7,
+      "priorEnd": "2025-09-25"
+     }
+    },
+    {
+     "periodEnd": "2026-06-25",
+     "derived": true,
+     "revenue": 280434000,
+     "profit": 12421000,
+     "netIncome": 8402655,
+     "margin": 4.4,
+     "yoy": {
+      "revenue": 4.2,
+      "profit": -38.3,
+      "netIncome": -37.9,
+      "priorEnd": "2025-06-26"
+     }
+    },
+    {
+     "periodEnd": "2026-03-26",
+     "derived": false,
+     "revenue": 281779000,
+     "profit": 23785000,
+     "netIncome": 16848000,
+     "margin": 8.4,
+     "yoy": {
+      "revenue": 8,
+      "profit": -15.6,
+      "netIncome": -16.4,
+      "priorEnd": "2025-03-27"
+     }
+    },
+    {
+     "periodEnd": "2025-12-25",
+     "derived": false,
+     "revenue": 314777000,
+     "profit": 25975000,
+     "netIncome": 17957000,
+     "margin": 8.3,
+     "yoy": {
+      "revenue": 4.6,
+      "profit": 34.1,
+      "netIncome": 32.1,
+      "priorEnd": "2024-12-26"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "JBSS (JBSS) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/jbss-jbss-q1-2027-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Sanfilippo & Son (JBSS) Misses Q1 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/sanfilippo-son-jbss-misses-q1-earnings-and-revenue-estimates",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "JBSS Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/jbss-q4-2026-earnings-call-transcript",
+     "date": "2026-08-26",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Sanfilippo & Son (JBSS) Misses Q4 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/sanfilippo-son-jbss-misses-q4-earnings-estimates",
+     "date": "2026-08-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Sanfilippo & Son (JBSS) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/sanfilippo-son-jbss-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-04-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-12",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526458301/jbss-20261112.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526440035/jbss-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526412309/jbss-20261001.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526364284/jbss-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-20260819.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "JBSS",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 11.22,
+  "pbr": 1.82,
+  "eps": 5.26,
+  "bps": 32.49,
+  "shares": 9096060,
+  "marketCapM": 537,
+  "high52": 89.9571,
+  "high52Date": "2026-07-06",
+  "low52": 50.73,
+  "low52Date": "2026-11-02",
+  "last": 59.06,
+  "prevClose": 56.22,
+  "nameKo": "존 비 샌필리포 앤드 선",
+  "nameEn": "SANFILIPPO(JOHN B)& SON INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 9096060
+ },
+ "estimates": {
+  "ticker": "JBSS",
+  "url": "https://finance.yahoo.com/quote/JBSS/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.17,
+    "epsLow": 1.02,
+    "epsHigh": 1.31,
+    "epsYearAgo": 1.53,
+    "epsAnalysts": 2,
+    "epsGrowth": -23.8,
+    "epsCur": "USD",
+    "rev": 308972500,
+    "revAnalysts": 2,
+    "revYearAgo": 314777000,
+    "revGrowth": -1.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.35,
+    "epsLow": 1.03,
+    "epsHigh": 1.67,
+    "epsYearAgo": 1.43,
+    "epsAnalysts": 2,
+    "epsGrowth": -5.6,
+    "epsCur": "USD",
+    "rev": 291697500,
+    "revAnalysts": 2,
+    "revYearAgo": 281779000,
+    "revGrowth": 3.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "eps": 4.75,
+    "epsLow": 4.05,
+    "epsHigh": 5.46,
+    "epsYearAgo": 5.26,
+    "epsAnalysts": 2,
+    "epsGrowth": -9.6,
+    "epsCur": "USD",
+    "rev": 1199643500,
+    "revAnalysts": 2,
+    "revYearAgo": 1175673000,
+    "revGrowth": 2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "eps": 4.83,
+    "epsLow": 4.83,
+    "epsHigh": 4.83,
+    "epsYearAgo": 4.75,
+    "epsAnalysts": 1,
+    "epsGrowth": 1.6,
+    "epsCur": "USD",
+    "rev": 1237100000,
+    "revAnalysts": 1,
+    "revYearAgo": 1199643500,
+    "revGrowth": 3.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.17,
+    "d7": -13,
+    "d30": -13,
+    "d90": -22.6,
+    "ago90": 1.51,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.35,
+    "d7": -5.9,
+    "d30": -5.9,
+    "d90": -15.8,
+    "ago90": 1.6,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "cur": "USD",
+    "now": 4.75,
+    "d7": -11.3,
+    "d30": -11.3,
+    "d90": -21.5,
+    "ago90": 6.05,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "cur": "USD",
+    "now": 4.83,
+    "d7": -10.7,
+    "d30": -10.7,
+    "d90": -14.8,
+    "ago90": 5.67,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.11,
+    "estimate": 1.53,
+    "surprisePct": -27.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.71,
+    "estimate": 1.17,
+    "surprisePct": -39.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.43,
+    "estimate": 1.16,
+    "surprisePct": 23.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.53,
+    "estimate": 1.36,
+    "surprisePct": 12.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 1,
+   "total": 3,
+   "recent": [
+    {
+     "date": "2026-09-30",
+     "firm": "BWS Financial",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 109,
+     "ptPrior": 109
+    },
+    {
+     "date": "2026-08-21",
+     "firm": "BWS Financial",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 109,
+     "ptPrior": 109
+    },
+    {
+     "date": "2026-08-20",
+     "firm": "Freedom Broker",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 91,
+     "ptPrior": 95
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-28",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 59.06,
+   "ma20": 59.98,
+   "ma50": 64.82,
+   "ma150": 75.01,
+   "distMA50": -8.89,
+   "periodHigh": 92.08,
+   "pullbackFromHigh": -35.86,
+   "volRatio20": 1.19,
+   "dryUpRatio": 0.98
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 53.74,
+    "h": 55.07,
+    "l": 50.73,
+    "c": 53.87,
+    "v": 315300,
+    "clsPos": 72,
+    "gapPct": -0.3
+   },
+   {
+    "d": "2026-11-03",
+    "o": 53.73,
+    "h": 54,
+    "l": 52.3,
+    "c": 52.59,
+    "v": 229200,
+    "clsPos": 17,
+    "gapPct": -0.26
+   },
+   {
+    "d": "2026-11-04",
+    "o": 53.51,
+    "h": 55.8,
+    "l": 53.51,
+    "c": 54.75,
+    "v": 203100,
+    "clsPos": 54,
+    "gapPct": 1.75
+   },
+   {
+    "d": "2026-11-05",
+    "o": 56.08,
+    "h": 56.23,
+    "l": 54.09,
+    "c": 54.52,
+    "v": 218700,
+    "clsPos": 20,
+    "gapPct": 2.43
+   },
+   {
+    "d": "2026-11-06",
+    "o": 53.61,
+    "h": 55.22,
+    "l": 53.61,
+    "c": 54.96,
+    "v": 144900,
+    "clsPos": 84,
+    "gapPct": -1.67
+   },
+   {
+    "d": "2026-11-09",
+    "o": 55.01,
+    "h": 57.52,
+    "l": 55.01,
+    "c": 57.12,
+    "v": 131100,
+    "clsPos": 84,
+    "gapPct": 0.09
+   },
+   {
+    "d": "2026-11-10",
+    "o": 57.02,
+    "h": 57.77,
+    "l": 56.07,
+    "c": 56.11,
+    "v": 152300,
+    "clsPos": 2,
+    "gapPct": -0.18
+   },
+   {
+    "d": "2026-11-11",
+    "o": 56.02,
+    "h": 56.99,
+    "l": 55.51,
+    "c": 56.8,
+    "v": 154600,
+    "clsPos": 87,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-11-12",
+    "o": 56.8,
+    "h": 57.14,
+    "l": 55.96,
+    "c": 56.22,
+    "v": 194900,
+    "clsPos": 22,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-13",
+    "o": 59.05,
+    "h": 59.69,
+    "l": 57.01,
+    "c": 59.06,
+    "v": 203000,
+    "clsPos": 76,
+    "gapPct": 5.03
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/JBSS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/JBSS-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

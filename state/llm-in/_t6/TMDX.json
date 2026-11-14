@@ -1,0 +1,703 @@
+{
+ "ticker": "TMDX",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "TMDX",
+  "name": "트랜스메딕스 그룹",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "price": 91.37999725341797,
+  "grade": "C",
+  "state": "post",
+  "pivot": 90.67,
+  "stop": 85.6,
+  "distToPivotPct": 0.78,
+  "distToPivotAdr": 0.13,
+  "riskPerSharePct": 5.59,
+  "adrPct": 6.19,
+  "extensionAdr": 1.59,
+  "breakDate": "2026-11-09",
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 28.7,
+   "priorMovePct": 39.8,
+   "higherLows": 0,
+   "contraction": 1.16,
+   "closeRange10Adr": 4.4,
+   "surf10": 3.51,
+   "surf20": 3.15,
+   "slope20": -2.51,
+   "baseLow": 64.64,
+   "lastSwingLow": 64.64
+  },
+  "reasons": [
+   "선행 상승 +40%",
+   "베이스 8주",
+   "✗ 깊이 28.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.16배 · 10일 종가폭 4.4 ADR",
+   "✗ 10일선 +3.5 ADR · 20일선 +3.1 ADR",
+   "✗ 20일선 기울기 -2.51%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.33318124437117386,
+    "pct": 98.42200180342651
+   },
+   "m3": {
+    "v": 0.04849831805614453,
+    "pct": 53.336339044183944
+   },
+   "m6": {
+    "v": 0.3639126202031977,
+    "pct": 83.63390441839496
+   }
+  },
+  "ret1m": 29.1,
+  "ret3m": 0.58,
+  "ret6m": 29.69,
+  "marketCap": "3.17B",
+  "volx": 0.79,
+  "volSurgeWk": 0.44,
+  "high52": 58.58,
+  "newHigh52": false,
+  "adr": 6.19,
+  "div50": 13.82,
+  "div200": -0.28,
+  "targetStatus": true,
+  "saleCy": 26.7,
+  "saleNy": 17.5,
+  "epsCy": -36.43,
+  "epsNy": 48.86,
+  "cyTrend": 10.37,
+  "nyTrend": 10.28,
+  "est": {
+   "cyCur": 1.66991,
+   "cy30": 1.513,
+   "nyCur": 2.48584,
+   "ny30": 2.25415
+  },
+  "fs": {
+   "sale": [
+    20.7,
+    21.18,
+    32.18
+   ],
+   "ni": [
+    -57.94,
+    -71.52,
+    1436.87
+   ],
+   "opm": [
+    12.5,
+    7.64,
+    13.23
+   ],
+   "updated": "2026-09-08 06:11:57"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-13",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "트랜스메딕스 그룹",
+  "nameEn": "TRANSMEDICS GROUP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001756262&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 203005000,
+     "profit": 28141000,
+     "netIncome": 17073000,
+     "margin": 13.9,
+     "yoy": {
+      "revenue": 41.1,
+      "profit": 20.8,
+      "netIncome": -29.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 189948000,
+     "profit": 23736000,
+     "netIncome": 14682000,
+     "margin": 12.5,
+     "yoy": {
+      "revenue": 20.7,
+      "profit": -35.1,
+      "netIncome": -57.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 173933000,
+     "profit": 13297000,
+     "netIncome": 7315000,
+     "margin": 7.6,
+     "yoy": {
+      "revenue": 21.2,
+      "profit": -51.5,
+      "netIncome": -71.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 160764000,
+     "profit": 21273000,
+     "netIncome": 105392000,
+     "margin": 13.2,
+     "yoy": {
+      "revenue": 32.2,
+      "profit": 146.1,
+      "netIncome": 1429,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "TransMedics (TMDX) Just Reclaimed the 200-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-reclaimed-200-day-moving-average",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TransMedics: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/transmedics-3-key-takeaways-long-term-investors",
+     "date": "2026-11-10",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-flashed-golden-cross-signal-do-you-buy",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TransMedics (TMDX) Recently Broke Out Above the 50-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-recently-broke-out-above-50-day-moving-average",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TransMedics Group Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/transmedics-group-q3-earnings-call-highlights",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "TransMedics Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/transmedics-reports-third-quarter-2026-financial-results",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "TransMedics (TMDX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "TransMedics (TMDX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526387960/d116447d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526332767/tmdx-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526234440/d79022d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526206347/tmdx-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526079392/d80286d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "TMDX",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 23.77,
+  "pbr": 6.11,
+  "eps": 3.84,
+  "bps": 14.96,
+  "shares": 34733900,
+  "marketCapM": 3174,
+  "high52": 156,
+  "high52Date": "2025-12-02",
+  "low52": 60.105,
+  "low52Date": "2026-05-13",
+  "last": 91.38,
+  "prevClose": 92,
+  "nameKo": "트랜스메딕스 그룹",
+  "nameEn": "TRANSMEDICS GROUP INC",
+  "listedOn": "2019-05-01",
+  "exchange": "나스닥",
+  "listedShares": 34733900
+ },
+ "estimates": {
+  "ticker": "TMDX",
+  "url": "https://finance.yahoo.com/quote/TMDX/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.45,
+    "epsLow": 0.34,
+    "epsHigh": 0.53,
+    "epsYearAgo": 0.53,
+    "epsAnalysts": 9,
+    "epsGrowth": -14.5,
+    "epsCur": "USD",
+    "rev": 202757700,
+    "revAnalysts": 11,
+    "revYearAgo": 160764000,
+    "revGrowth": 26.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.46,
+    "epsLow": 0.35,
+    "epsHigh": 0.53,
+    "epsYearAgo": 0.3,
+    "epsAnalysts": 4,
+    "epsGrowth": 54.8,
+    "epsCur": "USD",
+    "rev": 212294200,
+    "revAnalysts": 5,
+    "revYearAgo": 173933000,
+    "revGrowth": 22.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 1.67,
+    "epsLow": 1.51,
+    "epsHigh": 1.78,
+    "epsYearAgo": 2.63,
+    "epsAnalysts": 10,
+    "epsGrowth": -36.4,
+    "epsCur": "USD",
+    "rev": 767140230,
+    "revAnalysts": 12,
+    "revYearAgo": 605494000,
+    "revGrowth": 26.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 2.49,
+    "epsLow": 2,
+    "epsHigh": 3.11,
+    "epsYearAgo": 1.67,
+    "epsAnalysts": 10,
+    "epsGrowth": 48.9,
+    "epsCur": "USD",
+    "rev": 901361280,
+    "revAnalysts": 12,
+    "revYearAgo": 767140230,
+    "revGrowth": 17.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.45,
+    "d7": -9.7,
+    "d30": -9.7,
+    "d90": -14.9,
+    "ago90": 0.53,
+    "up7": 0,
+    "up30": 2,
+    "down7": 1,
+    "down30": 6
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.46,
+    "d7": 0.1,
+    "d30": 0.1,
+    "d90": -2.5,
+    "ago90": 0.48,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.67,
+    "d7": 10.4,
+    "d30": 10.4,
+    "d90": 7.1,
+    "ago90": 1.56,
+    "up7": 8,
+    "up30": 8,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 2.49,
+    "d7": 10.3,
+    "d30": 10.3,
+    "d90": 7.8,
+    "ago90": 2.31,
+    "up7": 4,
+    "up30": 4,
+    "down7": 4,
+    "down30": 4
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.51,
+    "estimate": 0.29,
+    "surprisePct": 73.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.44,
+    "estimate": 0.48,
+    "surprisePct": -7.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.3,
+    "estimate": 0.61,
+    "surprisePct": -50.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.53,
+    "estimate": 0.37,
+    "surprisePct": 40.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 4,
+   "ptLowered": 1,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 88,
+     "ptPrior": 77
+    },
+    {
+     "date": "2026-11-07",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 73
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 106
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 95
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 94,
+     "ptPrior": 95
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Barclays",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 120,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 120,
+     "ptPrior": 120
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 91.38,
+   "ma20": 76.3,
+   "ma50": 80.28,
+   "ma150": 80.78,
+   "distMA50": 13.82,
+   "periodHigh": 156,
+   "pullbackFromHigh": -41.42,
+   "volRatio20": 0.68,
+   "dryUpRatio": 1.05
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 66.47,
+    "h": 68.65,
+    "l": 65.84,
+    "c": 66.67,
+    "v": 689500,
+    "clsPos": 29,
+    "gapPct": 0.73
+   },
+   {
+    "d": "2026-11-03",
+    "o": 66.9,
+    "h": 68.82,
+    "l": 66.36,
+    "c": 67.34,
+    "v": 704700,
+    "clsPos": 40,
+    "gapPct": 0.34
+   },
+   {
+    "d": "2026-11-04",
+    "o": 69.97,
+    "h": 74.67,
+    "l": 68.67,
+    "c": 72.75,
+    "v": 2471100,
+    "clsPos": 68,
+    "gapPct": 3.91
+   },
+   {
+    "d": "2026-11-05",
+    "o": 72.49,
+    "h": 73.61,
+    "l": 67.33,
+    "c": 68.98,
+    "v": 1692300,
+    "clsPos": 26,
+    "gapPct": -0.36
+   },
+   {
+    "d": "2026-11-06",
+    "o": 79.11,
+    "h": 88.43,
+    "l": 76.5,
+    "c": 88.24,
+    "v": 3951400,
+    "clsPos": 98,
+    "gapPct": 14.69
+   },
+   {
+    "d": "2026-11-09",
+    "o": 88,
+    "h": 95.3,
+    "l": 87.22,
+    "c": 93.79,
+    "v": 2065900,
+    "clsPos": 81,
+    "gapPct": -0.27
+   },
+   {
+    "d": "2026-11-10",
+    "o": 93.5,
+    "h": 97.56,
+    "l": 89.48,
+    "c": 90.94,
+    "v": 1626300,
+    "clsPos": 18,
+    "gapPct": -0.31
+   },
+   {
+    "d": "2026-11-11",
+    "o": 90.95,
+    "h": 93.46,
+    "l": 90,
+    "c": 92.01,
+    "v": 914000,
+    "clsPos": 58,
+    "gapPct": 0.01
+   },
+   {
+    "d": "2026-11-12",
+    "o": 91.65,
+    "h": 96.46,
+    "l": 90.76,
+    "c": 92,
+    "v": 1052900,
+    "clsPos": 22,
+    "gapPct": -0.39
+   },
+   {
+    "d": "2026-11-13",
+    "o": 92.39,
+    "h": 94.28,
+    "l": 91.17,
+    "c": 91.38,
+    "v": 840500,
+    "clsPos": 7,
+    "gapPct": 0.42
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TMDX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TMDX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

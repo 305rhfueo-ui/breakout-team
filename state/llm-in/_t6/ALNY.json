@@ -1,0 +1,739 @@
+{
+ "ticker": "ALNY",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "ALNY",
+  "name": "앨나일램 파머슈티컬스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 165.0399932861328,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 257.27,
+  "stop": 248.45,
+  "distToPivotPct": -35.85,
+  "distToPivotAdr": -6.71,
+  "riskPerSharePct": 3.43,
+  "adrPct": 5.34,
+  "extensionAdr": 0.78,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 42,
+   "priorMovePct": 30.1,
+   "higherLows": 0,
+   "contraction": 0.74,
+   "closeRange10Adr": 1.5,
+   "surf10": 0.78,
+   "surf20": -2.53,
+   "slope20": -8.57,
+   "baseLow": 149.18,
+   "lastSwingLow": 149.18
+  },
+  "reasons": [
+   "선행 상승 +30%",
+   "베이스 8주",
+   "✗ 깊이 42%",
+   "✗ 저점 상승 0회",
+   "진폭 0.74배 · 10일 종가폭 1.5 ADR",
+   "✗ 10일선 +0.8 ADR · 20일선 -2.5 ADR",
+   "✗ 20일선 기울기 -8.57%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.2459604791817394,
+    "pct": 1.127141568981064
+   },
+   "m3": {
+    "v": -0.2375797209730568,
+    "pct": 5.09467989179441
+   },
+   "m6": {
+    "v": -0.37448242806346865,
+    "pct": 3.0207394048692517
+   }
+  },
+  "ret1m": -28.81,
+  "ret3m": -28.02,
+  "ret6m": -44.15,
+  "marketCap": "22.11B",
+  "volx": 1.03,
+  "volSurgeWk": 1.16,
+  "high52": 34.4,
+  "newHigh52": false,
+  "adr": 5.34,
+  "div50": -24.72,
+  "div200": -40.09,
+  "targetStatus": false,
+  "saleCy": 46.57,
+  "saleNy": 19.91,
+  "epsCy": 346.54,
+  "epsNy": -52.25,
+  "cyTrend": 156.78,
+  "nyTrend": -12.81,
+  "est": {
+   "cyCur": 22.68402,
+   "cy30": 8.83414,
+   "nyCur": 10.83129,
+   "ny30": 12.42218
+  },
+  "fs": {
+   "sale": [
+    66.86,
+    96.43,
+    84.95
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    17.93,
+    23.02,
+    12.01
+   ],
+   "updated": "2026-09-08 07:43:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "앨나일램 파머슈티컬스",
+  "nameEn": "ALNYLAM PHARMACEUTICALS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001178670&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1458086000,
+     "profit": 345798000,
+     "netIncome": 2167335000,
+     "margin": 23.7,
+     "yoy": {
+      "revenue": 16.7,
+      "profit": -6,
+      "netIncome": 640.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1290948000,
+     "profit": 231441000,
+     "netIncome": 164494000,
+     "margin": 17.9,
+     "yoy": {
+      "revenue": 66.9,
+      "profit": 1528.7,
+      "netIncome": 327.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1097033000,
+     "profit": 131718000,
+     "netIncome": 111543000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 84.9,
+      "profit": 225.3,
+      "netIncome": 233.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1249026000,
+     "profit": 367982000,
+     "netIncome": 292683000,
+     "margin": 29.5,
+     "yoy": {
+      "revenue": 149.3,
+      "profit": 578.5,
+      "netIncome": 362.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Alnylam's AMVUTTRA Shows Sustained Benefits Through Five Years In ATTR-CM",
+     "url": "https://www.nasdaq.com/articles/alnylams-amvuttra-shows-sustained-benefits-through-five-years-attr-cm",
+     "date": "2026-11-10",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Alnylam Pharmaceuticals, Inc. Announces $1.0 Billion Share Repurchase Program and Departure of Chief Commercialization Officer Tolga Tanguler",
+     "url": "https://www.nasdaq.com/articles/alnylam-pharmaceuticals-inc-announces-10-billion-share-repurchase-program-and-departure",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "ALNY Stock Down 25% Despite Q3 Earnings Beat on Demand Growth Concerns",
+     "url": "https://www.nasdaq.com/articles/alny-stock-down-25-despite-q3-earnings-beat-demand-growth-concerns",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Alnylam Pharmaceuticals Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/alnylam-pharmaceuticals-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Alnylam (ALNY) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/alnylam-alny-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Alnylam Pharmaceuticals Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/alnylam-pharmaceuticals-q3-earnings-call-highlights",
+     "date": "2026-10-29",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Alnylam Reports 17% Q3 Revenue Growth, Expands Nucresiran Trial And Advances RNAi Pipeline",
+     "url": "https://www.nasdaq.com/articles/alnylam-reports-17-q3-revenue-growth-expands-nucresiran-trial-and-advances-rnai-pipeline",
+     "date": "2026-10-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Alnylam Pharmaceuticals (ALNY) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/alnylam-pharmaceuticals-alny-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000080/alny-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000074/alny-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000060/alny-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1178670/000162828026038499/alny-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1178670/000162828026028601/alny-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-04",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1178670/000162828026014728/alny-20260302.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-10-22",
+     "broker": "신한투자증권",
+     "analyst": "윤석현, 엄민용",
+     "title": "[앨나일램 파머슈티컬스 (NAS:ALNY)] 희귀질환 치료제 1위, 고혈압으로 2막 개시",
+     "summary": "- 수억명 잠재환자의 고혈압/비만으로 다음 퀀텀점프 준비- 연 2회 투약 고혈압 3상 진입 & 앨나일람 ALK7 첫 비만 1상 결과 주목- ATTR 치료제 성장 이상 無, 펀더멘털 핵심은 만성질환 업사이드",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxgilklelzxigcgxeeek.pdf",
+     "pages": "17"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "ALNY",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 27.86,
+  "pbr": 16.3,
+  "eps": 5.92,
+  "bps": 10.13,
+  "shares": 133938000,
+  "marketCapM": 22105,
+  "high52": 479.79,
+  "high52Date": "2025-12-03",
+  "low52": 149.1801,
+  "low52Date": "2026-11-10",
+  "last": 165.04,
+  "prevClose": 156.65,
+  "nameKo": "앨나일램 파머슈티컬스",
+  "nameEn": "ALNYLAM PHARMACEUTICALS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 133938000
+ },
+ "estimates": {
+  "ticker": "ALNY",
+  "url": "https://finance.yahoo.com/quote/ALNY/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.42,
+    "epsLow": 1.51,
+    "epsHigh": 3.52,
+    "epsYearAgo": 1.25,
+    "epsAnalysts": 14,
+    "epsGrowth": 93.7,
+    "epsCur": "USD",
+    "rev": 1521695990,
+    "revAnalysts": 23,
+    "revYearAgo": 1097033000,
+    "revGrowth": 38.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.62,
+    "epsLow": 1.8,
+    "epsHigh": 3.24,
+    "epsYearAgo": 1.99,
+    "epsAnalysts": 8,
+    "epsGrowth": 31.7,
+    "epsCur": "USD",
+    "rev": 1525722200,
+    "revAnalysts": 11,
+    "revYearAgo": 1167175000,
+    "revGrowth": 30.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 22.68,
+    "epsLow": 21.67,
+    "epsHigh": 24.71,
+    "epsYearAgo": 5.08,
+    "epsAnalysts": 15,
+    "epsGrowth": 346.5,
+    "epsCur": "USD",
+    "rev": 5443421080,
+    "revAnalysts": 28,
+    "revYearAgo": 3713937000,
+    "revGrowth": 46.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 10.83,
+    "epsLow": 7.28,
+    "epsHigh": 14.23,
+    "epsYearAgo": 22.68,
+    "epsAnalysts": 17,
+    "epsGrowth": -52.2,
+    "epsCur": "USD",
+    "rev": 6527381580,
+    "revAnalysts": 28,
+    "revYearAgo": 5443421080,
+    "revGrowth": 19.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.42,
+    "d7": 3.7,
+    "d30": -11.2,
+    "d90": -13,
+    "ago90": 2.78,
+    "up7": 1,
+    "up30": 2,
+    "down7": 1,
+    "down30": 9
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.62,
+    "d7": -3.6,
+    "d30": -11.7,
+    "d90": -12.1,
+    "ago90": 2.98,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 5
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 22.68,
+    "d7": 0.3,
+    "d30": 156.8,
+    "d90": 154.4,
+    "ago90": 8.92,
+    "up7": 11,
+    "up30": 11,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 10.83,
+    "d7": -2.9,
+    "d30": -12.8,
+    "d90": -13.9,
+    "ago90": 12.59,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 11
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 16.26,
+    "estimate": 2.25,
+    "surprisePct": 623,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.84,
+    "estimate": 2.14,
+    "surprisePct": -14.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.99,
+    "estimate": 1.47,
+    "surprisePct": 35.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.25,
+    "estimate": 1.5,
+    "surprisePct": -16.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 3,
+   "initiations": 1,
+   "ptRaised": 1,
+   "ptLowered": 16,
+   "total": 20,
+   "recent": [
+    {
+     "date": "2026-11-02",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 380,
+     "ptPrior": 450
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "Truist Securities",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 225,
+     "ptPrior": 315
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 323,
+     "ptPrior": 429
+    },
+    {
+     "date": "2026-10-31",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 329,
+     "ptPrior": 354
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 354,
+     "ptPrior": 482
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Bernstein",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Market Perform",
+     "ptAction": "Lowers",
+     "pt": 199,
+     "ptPrior": 376
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 240,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 320,
+     "ptPrior": 536
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 220,
+     "ptPrior": 253
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 280,
+     "ptPrior": 345
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 165.04,
+   "ma20": 187.38,
+   "ma50": 219.25,
+   "ma150": 259,
+   "distMA50": -24.72,
+   "periodHigh": 495.55,
+   "pullbackFromHigh": -66.7,
+   "volRatio20": 1.09,
+   "dryUpRatio": 0.99
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 163.1,
+    "h": 163.9,
+    "l": 156,
+    "c": 158,
+    "v": 4762400,
+    "clsPos": 25,
+    "gapPct": -1.15
+   },
+   {
+    "d": "2026-11-03",
+    "o": 158.94,
+    "h": 161.58,
+    "l": 156.72,
+    "c": 159.89,
+    "v": 3790900,
+    "clsPos": 65,
+    "gapPct": 0.59
+   },
+   {
+    "d": "2026-11-04",
+    "o": 166.73,
+    "h": 170.49,
+    "l": 160.29,
+    "c": 161.08,
+    "v": 3636600,
+    "clsPos": 8,
+    "gapPct": 4.28
+   },
+   {
+    "d": "2026-11-05",
+    "o": 167.12,
+    "h": 168.5,
+    "l": 156.37,
+    "c": 156.66,
+    "v": 3314000,
+    "clsPos": 2,
+    "gapPct": 3.75
+   },
+   {
+    "d": "2026-11-06",
+    "o": 155.22,
+    "h": 159.45,
+    "l": 154.3,
+    "c": 155.94,
+    "v": 2829700,
+    "clsPos": 32,
+    "gapPct": -0.92
+   },
+   {
+    "d": "2026-11-09",
+    "o": 156.13,
+    "h": 158.7,
+    "l": 152.17,
+    "c": 156.61,
+    "v": 3302100,
+    "clsPos": 68,
+    "gapPct": 0.12
+   },
+   {
+    "d": "2026-11-10",
+    "o": 155.02,
+    "h": 158.82,
+    "l": 149.18,
+    "c": 151.64,
+    "v": 2455600,
+    "clsPos": 26,
+    "gapPct": -1.02
+   },
+   {
+    "d": "2026-11-11",
+    "o": 152.22,
+    "h": 159.92,
+    "l": 151.85,
+    "c": 159.85,
+    "v": 3360000,
+    "clsPos": 99,
+    "gapPct": 0.38
+   },
+   {
+    "d": "2026-11-12",
+    "o": 160.16,
+    "h": 162.77,
+    "l": 156.59,
+    "c": 156.65,
+    "v": 3514800,
+    "clsPos": 1,
+    "gapPct": 0.19
+   },
+   {
+    "d": "2026-11-13",
+    "o": 159.17,
+    "h": 168.35,
+    "l": 158.83,
+    "c": 165.04,
+    "v": 3589500,
+    "clsPos": 65,
+    "gapPct": 1.61
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ALNY-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ALNY-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

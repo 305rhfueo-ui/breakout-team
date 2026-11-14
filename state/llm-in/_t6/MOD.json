@@ -1,0 +1,753 @@
+{
+ "ticker": "MOD",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "MOD",
+  "name": "모딘 매뉴팩처링",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
+  "price": 135.66000366210938,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 203.23,
+  "stop": 192.8,
+  "distToPivotPct": -33.25,
+  "distToPivotAdr": -4.33,
+  "riskPerSharePct": 5.13,
+  "adrPct": 7.69,
+  "extensionAdr": 2.53,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 56.8,
+   "priorMovePct": 19.4,
+   "higherLows": 0,
+   "contraction": 1.39,
+   "closeRange10Adr": 4.2,
+   "surf10": 2.53,
+   "surf20": 1.09,
+   "slope20": -9.07,
+   "baseLow": 87.84,
+   "lastSwingLow": 87.84
+  },
+  "reasons": [
+   "✗ 선행 상승 +19%",
+   "베이스 8주",
+   "✗ 깊이 56.8%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.39배 · 10일 종가폭 4.2 ADR",
+   "10일선 +2.5 ADR · 20일선 +1.1 ADR",
+   "✗ 20일선 기울기 -9.07%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.046535307451686256,
+    "pct": 17.899008115419296
+   },
+   "m3": {
+    "v": -0.24610551532946995,
+    "pct": 4.553651938683498
+   },
+   "m6": {
+    "v": -0.474496710994049,
+    "pct": 0.8566275924256086
+   }
+  },
+  "ret1m": -8.87,
+  "ret3m": -28.88,
+  "ret6m": -54.15,
+  "marketCap": "7.22B",
+  "volx": 3.73,
+  "volSurgeWk": 4.48,
+  "high52": 41.97,
+  "newHigh52": false,
+  "adr": 7.69,
+  "div50": -14.9,
+  "div200": -36.7,
+  "targetStatus": false,
+  "saleCy": -1.29,
+  "saleNy": 37.93,
+  "epsCy": 1.32,
+  "epsNy": 85.12,
+  "cyTrend": -22.58,
+  "nyTrend": -7.39,
+  "est": {
+   "cyCur": 5.08621,
+   "cy30": 6.57,
+   "nyCur": 9.41584,
+   "ny30": 10.1675
+  },
+  "fs": {
+   "sale": [
+    28.02,
+    47.47,
+    30.51
+   ],
+   "ni": [
+    44.34,
+    47.78,
+    -215.61
+   ],
+   "opm": [
+    8.56,
+    10.89,
+    11.09
+   ],
+   "updated": "2026-09-08 08:31:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "모딘 매뉴팩처링",
+  "nameEn": "MODINE MANUFACTURING CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000067347&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 994400000,
+     "profit": 97800000,
+     "netIncome": 30000000,
+     "margin": 9.8,
+     "yoy": {
+      "revenue": 34.6,
+      "profit": 33.1,
+      "netIncome": -32.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 874100000,
+     "profit": 74800000,
+     "netIncome": 73900000,
+     "margin": 8.6,
+     "yoy": {
+      "revenue": 28,
+      "profit": -1.2,
+      "netIncome": 44.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 954400000,
+     "profit": 103900000,
+     "netIncome": 73300000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 47.5,
+      "profit": 39.5,
+      "netIncome": 47.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 805000000,
+     "profit": 89300000,
+     "netIncome": -47400000,
+     "margin": 11.1,
+     "yoy": {
+      "revenue": 30.5,
+      "profit": 50.6,
+      "netIncome": -215.6,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Most-Watched Stock Modine Manufacturing Company (MOD) Worth Betting on Now?",
+     "url": "https://www.nasdaq.com/articles/most-watched-stock-modine-manufacturing-company-mod-worth-betting-now",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Modine Manufacturing Consensus Price Target Lowered by 17.84% to $255.03",
+     "url": "https://www.nasdaq.com/articles/modine-manufacturing-consensus-price-target-lowered-1784-25503",
+     "date": "2026-11-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Is It Worth Investing in Modine (MOD) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-modine-mod-based-wall-streets-bullish-views",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Modine Manufacturing (MOD) Said on Its Q2 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-modine-manufacturing-mod-said-its-q2-earnings-call",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Modine Q2 Earnings Miss: Is the Stock a Buy, Hold or Sell?",
+     "url": "https://www.nasdaq.com/articles/modine-q2-earnings-miss-stock-buy-hold-or-sell",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "MOD Q2 Earnings Call Highlights Growth and Margin Recovery Plans",
+     "url": "https://www.nasdaq.com/articles/mod-q2-earnings-call-highlights-growth-and-margin-recovery-plans",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Modine: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/modine-3-key-takeaways-long-term-investors",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Modine (MOD) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/modine-mod-q2-2027-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926122032/mod-20261103x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926119218/mod-20261021x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "임원 변동",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926112870/tm2626618d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926108614/tm2625565d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926106727/tm2625001d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926099432/mod-20260820x8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-08-24",
+     "broker": "유안타증권",
+     "analyst": "황병준",
+     "title": "[모딘 매뉴팩처링 (NYS:MOD)] Chiller Ramp-Up in progress, 모듈러 DC 업체로 확장",
+     "summary": "- Modine Manufacturing Company(MOD)는 Hyperscaler 등 데이터센터 운영 업체를 대상 으로 Chiller를 중심, AHU, CDU, 정밀공조 장비 등 데이터센터 열관리(Thermal Managament) 인프라를 설계∙제조하는 열관리 플랫폼 업체. 25년 하반기부터는 AHU, CDU, 열교환기, 인클 로저를 결합한 모듈러 DC 초기 물량을 출하, 3세대 제품을 개발하는 등 데이터센터향 냉각 인프라 업체로서의 포지셔닝 강화 중- 동사는 이미 Chiller 중심 생산 Ramp-Up이 진행 중. 27~29년 예정된 $40억 규모 LTA 소 화를 위한 선제 증설 본격화. 26.1H 기준 Grenada(5개), Dallas(5개), Jefferson(2개)의 12 개 Chiller 생산 라인과 Franklin 복합 생산 라인(Chiller+AHU+CDU 등 포괄)이 가동 중. 27년 상 반기 말까지 총 20개의 Chiller 생산 라인이 Set-Up될 예정. 해당 Capa는 DC 부문 매출 $40억을 커버할 수 있는 용량(cf. TTM DC 매출 $13억)",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiziqilciigcgxeeek.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MOD-report1.pdf",
+   "broker": "유안타증권",
+   "analyst": "황병준",
+   "date": "2026-08-24",
+   "title": "[모딘 매뉴팩처링 (NYS:MOD)] Chiller Ramp-Up in progress, 모듈러 DC 업체로 확장",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqziiziqilciigcgxeeek.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [],
+ "kis": {
+  "ticker": "MOD",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 51.12,
+  "pbr": 6,
+  "eps": 2.65,
+  "bps": 22.63,
+  "shares": 53196900,
+  "marketCapM": 7217,
+  "high52": 297.6147,
+  "high52Date": "2026-05-26",
+  "low52": 87.84,
+  "low52Date": "2026-11-05",
+  "last": 135.66,
+  "prevClose": 106.1,
+  "nameKo": "모딘 매뉴팩처링",
+  "nameEn": "MODINE MANUFACTURING CO",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 53196900
+ },
+ "estimates": {
+  "ticker": "MOD",
+  "url": "https://finance.yahoo.com/quote/MOD/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.23,
+    "epsLow": 0.92,
+    "epsHigh": 1.47,
+    "epsYearAgo": 1.19,
+    "epsAnalysts": 9,
+    "epsGrowth": 3.5,
+    "epsCur": "USD",
+    "rev": 799799030,
+    "revAnalysts": 9,
+    "revYearAgo": 805000000,
+    "revGrowth": -0.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.28,
+    "epsLow": 2.19,
+    "epsHigh": 2.43,
+    "epsYearAgo": 1.71,
+    "epsAnalysts": 9,
+    "epsGrowth": 33.3,
+    "epsCur": "USD",
+    "rev": 1035472330,
+    "revAnalysts": 9,
+    "revYearAgo": 954400000,
+    "revGrowth": 8.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 5.09,
+    "epsLow": 4.21,
+    "epsHigh": 5.66,
+    "epsYearAgo": 5.02,
+    "epsAnalysts": 7,
+    "epsGrowth": 1.3,
+    "epsCur": "USD",
+    "rev": 3139940460,
+    "revAnalysts": 7,
+    "revYearAgo": 3181100000,
+    "revGrowth": -1.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 9.42,
+    "epsLow": 7.32,
+    "epsHigh": 10.15,
+    "epsYearAgo": 5.09,
+    "epsAnalysts": 10,
+    "epsGrowth": 85.1,
+    "epsCur": "USD",
+    "rev": 4330999570,
+    "revAnalysts": 10,
+    "revYearAgo": 3139940460,
+    "revGrowth": 37.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.23,
+    "d7": 0.1,
+    "d30": -21.6,
+    "d90": -38.6,
+    "ago90": 2.01,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.28,
+    "d7": 0.4,
+    "d30": 14.1,
+    "d90": -13.9,
+    "ago90": 2.65,
+    "up7": 6,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 5.09,
+    "d7": 1.9,
+    "d30": -22.6,
+    "d90": -33.5,
+    "ago90": 7.64,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 9.42,
+    "d7": 0.6,
+    "d30": -7.4,
+    "d90": -15.8,
+    "ago90": 11.18,
+    "up7": 2,
+    "up30": 1,
+    "down7": 4,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.35,
+    "estimate": 1.52,
+    "surprisePct": -11.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.53,
+    "estimate": 1.27,
+    "surprisePct": 20,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.71,
+    "estimate": 1.55,
+    "surprisePct": 10,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.19,
+    "estimate": 0.99,
+    "surprisePct": 19.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 0,
+   "ptLowered": 6,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-11-06",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 160,
+     "ptPrior": 355
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 215,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 178,
+     "ptPrior": 275
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 225,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 285,
+     "ptPrior": 305
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 330,
+     "ptPrior": 330
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "Cantor Fitzgerald",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 275,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Baird",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 300,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 260,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-29",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 330,
+     "ptPrior": 330
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-03",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 135.66,
+   "ma20": 124.32,
+   "ma50": 159.41,
+   "ma150": 214.32,
+   "distMA50": -14.9,
+   "periodHigh": 323.25,
+   "pullbackFromHigh": -58.03,
+   "volRatio20": 3.26,
+   "dryUpRatio": 1.15
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 133,
+    "h": 133.87,
+    "l": 121.25,
+    "c": 123.34,
+    "v": 2056900,
+    "clsPos": 17,
+    "gapPct": 2.5
+   },
+   {
+    "d": "2026-11-03",
+    "o": 125.8,
+    "h": 128.4,
+    "l": 122.63,
+    "c": 125.45,
+    "v": 4469200,
+    "clsPos": 49,
+    "gapPct": 1.99
+   },
+   {
+    "d": "2026-11-04",
+    "o": 115.5,
+    "h": 116.48,
+    "l": 91.42,
+    "c": 98.56,
+    "v": 9495000,
+    "clsPos": 28,
+    "gapPct": -7.93
+   },
+   {
+    "d": "2026-11-05",
+    "o": 93.68,
+    "h": 96.51,
+    "l": 87.84,
+    "c": 91.39,
+    "v": 4686200,
+    "clsPos": 41,
+    "gapPct": -4.95
+   },
+   {
+    "d": "2026-11-06",
+    "o": 97.07,
+    "h": 98.35,
+    "l": 91.54,
+    "c": 96.61,
+    "v": 2971000,
+    "clsPos": 74,
+    "gapPct": 6.22
+   },
+   {
+    "d": "2026-11-09",
+    "o": 99.56,
+    "h": 107.86,
+    "l": 98.9,
+    "c": 106.15,
+    "v": 1524000,
+    "clsPos": 81,
+    "gapPct": 3.05
+   },
+   {
+    "d": "2026-11-10",
+    "o": 102.98,
+    "h": 106.98,
+    "l": 102.01,
+    "c": 103.07,
+    "v": 1663700,
+    "clsPos": 21,
+    "gapPct": -2.99
+   },
+   {
+    "d": "2026-11-11",
+    "o": 109.34,
+    "h": 111.32,
+    "l": 105.51,
+    "c": 106.67,
+    "v": 1504700,
+    "clsPos": 20,
+    "gapPct": 6.08
+   },
+   {
+    "d": "2026-11-12",
+    "o": 102,
+    "h": 110.28,
+    "l": 101.37,
+    "c": 106.1,
+    "v": 1741400,
+    "clsPos": 53,
+    "gapPct": -4.38
+   },
+   {
+    "d": "2026-11-13",
+    "o": 142,
+    "h": 146.5,
+    "l": 131.5,
+    "c": 135.66,
+    "v": 8426000,
+    "clsPos": 28,
+    "gapPct": 33.84
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MOD-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MOD-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

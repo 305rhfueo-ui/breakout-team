@@ -1,0 +1,136 @@
+{
+ "ticker": "GRVY",
+ "sector": "Communication Services",
+ "industry": "Electronic Gaming & Multimedia",
+ "nameKo": "그라비티(ADR)",
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -17.14,
+    17.76,
+    -6.4
+   ],
+   "ni": [
+    60.61,
+    33.38,
+    -41.4
+   ],
+   "opm": [
+    17.04,
+    19.04,
+    10.72
+   ],
+   "updated": "2026-09-08 10:08:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "그라비티(ADR)",
+  "nameEn": "GRAVITY CO LTD SPON ADS EA REP 1 ORD",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Gravity Q3 Earnings Climb 7.7%",
+     "url": "https://www.nasdaq.com/articles/gravity-q3-earnings-climb-77",
+     "date": "2026-11-13",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Gravity Q2 Profit Rises",
+     "url": "https://www.nasdaq.com/articles/gravity-q2-profit-rises",
+     "date": "2025-08-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "GRAVITY Co., Ltd. Launches Dragonica Origin MMORPG in Southeast Asia",
+     "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-dragonica-origin-mmorpg-southeast-asia",
+     "date": "2025-07-16",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAVITY Co., Ltd. Launches Ragnarok: Twilight and Ragnarok Zero in Taiwan, Hong Kong, and Macau",
+     "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-twilight-and-ragnarok-zero-taiwan-hong-kong-and-macau",
+     "date": "2025-07-09",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAVITY Co., Ltd. Launches Ragnarok: Twilight MMORPG Mobile Game in Taiwan, Hong Kong, and Macau",
+     "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-twilight-mmorpg-mobile-game-taiwan-hong-kong-and-macau",
+     "date": "2025-07-03",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAVITY Co., Ltd. Launches Ragnarok Zero MMORPG in Taiwan, Hong Kong, and Macau",
+     "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-zero-mmorpg-taiwan-hong-kong-and-macau",
+     "date": "2025-07-03",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAVITY Co., Ltd. Announces ISBN Approval for RPG Game &quot;Ragnarok: Promised Adventure&quot; in China",
+     "url": "https://www.nasdaq.com/articles/gravity-co-ltd-announces-isbn-approval-rpg-game-ragnarok-promised-adventure-china",
+     "date": "2025-05-27",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAVITY Co., Ltd. Launches Ragnarok Idle Adventure Plus in Taiwan, Hong Kong, and Macau",
+     "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-idle-adventure-plus-taiwan-hong-kong-and-macau",
+     "date": "2025-05-21",
+     "publisher": "Quiver Quantitative"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "GRVY",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 8.32,
+  "pbr": 1.09,
+  "eps": 8.51,
+  "bps": 65,
+  "shares": 6948900,
+  "marketCapM": 492,
+  "high52": 76,
+  "high52Date": "2026-08-31",
+  "low52": 54.54,
+  "low52Date": "2025-12-17",
+  "last": 70.8,
+  "prevClose": 67.41,
+  "nameKo": "그라비티(ADR)",
+  "nameEn": "GRAVITY CO LTD SPON ADS EA REP 1 ORD",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 6948900
+ }
+}

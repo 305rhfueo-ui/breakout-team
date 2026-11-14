@@ -1,0 +1,202 @@
+{
+ "ticker": "SLAB",
+ "news": [
+  {
+   "title": "Silicon Laboratories (SLAB) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/silicon-laboratories-slab-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Silicon Laboratories (SLAB) Beats Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/silicon-laboratories-slab-beats-q2-earnings-estimates",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Silicon Laboratories (SLAB) Surpasses Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/silicon-laboratories-slab-surpasses-q1-earnings-and-revenue-estimates",
+   "date": "2026-05-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Tuya (TUYA) Below Fair Value As TuyaOpen Adds Silicon Labs Support?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tuya-tuya-below-fair-value-011513675.html",
+   "date": "2026-11-11",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Silicon Laboratories (SLAB) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/silicon-laboratories-slab-surpasses-q3-211001451.html",
+   "date": "2026-11-10",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Silicon Labs: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/silicon-labs-q3-earnings-snapshot-210838862.html",
+   "date": "2026-11-10",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Silicon Labs Reports Third Quarter 2026 Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/silicon-labs-reports-third-quarter-210100031.html",
+   "date": "2026-11-10",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TuyaOpen Adds Support for Silicon Labs SiWx917 Low-Power Wi-Fi SoC",
+   "url": "https://finance.yahoo.com/technology/ai/articles/tuyaopen-adds-support-silicon-labs-050100059.html",
+   "date": "2026-11-10",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Texas Instruments (TXN) Could Be 29% Undervalued As Fresh Debt Fuels Its Silicon Laboratories Deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-could-29-151820473.html",
+   "date": "2026-11-05",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "POET Technologies Appoints Giovanni Pacelli as CFO",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-appoints-giovanni-pacelli-123407342.html",
+   "date": "2026-11-02",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "POET Technologies Names Giovanni Pacelli CFO",
+   "url": "https://finance.yahoo.com/technology/ai/articles/poet-technologies-names-giovanni-pacelli-120000195.html",
+   "date": "2026-11-02",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-10",
+   "reportDate": "2026-11-10",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000033/slab-20261110.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000027/slab-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-22",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000119312526237879/d467226d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000018/slab-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000014/slab-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1038074/000103807426000012/slab-20260423.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 19.75,
+  "saleNy": 16.67,
+  "epsCy": 248.98,
+  "epsNy": 43.44,
+  "cyTrend": 11.59,
+  "nyTrend": 5.6,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    18.33,
+    20.14,
+    25.24
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -4.67,
+    -8,
+    -1.56
+   ],
+   "updated": "2026-09-08 07:03:18"
+  }
+ }
+}

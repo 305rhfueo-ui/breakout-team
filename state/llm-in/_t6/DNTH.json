@@ -1,0 +1,669 @@
+{
+ "ticker": "DNTH",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "DNTH",
+  "name": "다이앤서스 테라퓨틱스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 91.80999755859375,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 100.47,
+  "stop": 95.59,
+  "distToPivotPct": -8.62,
+  "distToPivotAdr": -1.62,
+  "riskPerSharePct": 4.86,
+  "adrPct": 5.32,
+  "extensionAdr": 0.94,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 30.9,
+   "priorMovePct": 15,
+   "higherLows": 1,
+   "contraction": 1.35,
+   "closeRange10Adr": 2.1,
+   "surf10": 0.94,
+   "surf20": 1.75,
+   "slope20": 4.51,
+   "baseLow": 69.43,
+   "lastSwingLow": 80.34
+  },
+  "reasons": [
+   "✗ 선행 상승 +15%",
+   "베이스 7.8주",
+   "✗ 깊이 30.9%",
+   "저점 상승 1회",
+   "진폭 1.35배 · 10일 종가폭 2.1 ADR",
+   "10일선 +0.9 ADR · 20일선 +1.8 ADR",
+   "20일선 기울기 +4.51%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3156855795134887,
+    "pct": 98.06131650135256
+   },
+   "m3": {
+    "v": -0.11896457418862565,
+    "pct": 16.546438232642018
+   },
+   "m6": {
+    "v": 0.12448180806639797,
+    "pct": 51.26239855725879
+   }
+  },
+  "ret1m": 27.35,
+  "ret3m": -16.16,
+  "ret6m": 5.75,
+  "marketCap": "5.17B",
+  "volx": 0.82,
+  "volSurgeWk": 0.96,
+  "high52": 77.88,
+  "newHigh52": false,
+  "adr": 5.32,
+  "div50": 3.8,
+  "div200": 5.62,
+  "targetStatus": false,
+  "saleCy": 22.8,
+  "saleNy": -19.37,
+  "epsCy": -14.27,
+  "epsNy": 20.81,
+  "cyTrend": -5.59,
+  "nyTrend": -5.66,
+  "est": {
+   "cyCur": -3.60075,
+   "cy30": -3.81404,
+   "nyCur": -4.35009,
+   "ny30": -4.61098
+  },
+  "fs": {
+   "sale": [
+    294.3,
+    -60.19,
+    -78.58
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -8079.11,
+    -10050.32,
+    -24486.27
+   ],
+   "updated": "2026-09-08 06:05:55"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-13",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "다이앤서스 테라퓨틱스",
+  "nameEn": "DIANTHUS THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001690585&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 284000,
+     "profit": -69541000,
+     "netIncome": -64432000,
+     "margin": -24486.3,
+     "yoy": {
+      "revenue": -78.6,
+      "profit": -117.9,
+      "netIncome": -126.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 396000,
+     "profit": -40288000,
+     "netIncome": -36765000,
+     "margin": -10173.7,
+     "yoy": {
+      "revenue": -81.8,
+      "profit": -34.7,
+      "netIncome": -46,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 193000,
+     "profit": -34927000,
+     "netIncome": -31629000,
+     "margin": -18096.9,
+     "yoy": {
+      "revenue": -89.6,
+      "profit": -57.3,
+      "netIncome": -79.6,
+      "priorEnd": "2024-06-30"
+     }
+    },
+    {
+     "periodEnd": "2025-03-31",
+     "derived": false,
+     "revenue": 1163000,
+     "profit": -33177000,
+     "netIncome": -29511000,
+     "margin": -2852.7,
+     "yoy": {
+      "revenue": 33.1,
+      "profit": -85.9,
+      "netIncome": -114.7,
+      "priorEnd": "2024-03-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Wall Street Analysts See a 61.23% Upside in Dianthus Therapeutics, Inc. (DNTH): Can the Stock Really Move This High?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-6123-upside-dianthus-therapeutics-inc-dnth-can-stock-really-move",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dianthus Therapeutics, Inc. Reports Q3 2026 Financial Results and Highlights Clinical Progress",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-reports-q3-2026-financial-results-and-highlights-clinical",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Dianthus Therapeutics, Inc. (DNTH) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-dnth-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dianthus Therapeutics Enters Oversold Territory (DNTH)",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-enters-oversold-territory-dnth",
+     "date": "2026-10-22",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Citigroup Initiates Coverage of Dianthus Therapeutics with Buy Rating",
+     "url": "https://www.nasdaq.com/articles/citigroup-initiates-coverage-dianthus-therapeutics-buy-rating",
+     "date": "2026-09-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Dianthus Therapeutics Grants Inducement Awards To Four New Employees",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-grants-inducement-awards-four-new-employees",
+     "date": "2026-09-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Dianthus Therapeutics, Inc. (DNTH) Reports Q2 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-dnth-reports-q2-loss-tops-revenue-estimates",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dianthus Therapeutics Is Up 320% in a Year. One Major Investor Just Reduced Its Stake but Still Seems Bullish",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-320-year-one-major-investor-just-reduced-its-stake-still-seems",
+     "date": "2026-05-18",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000029/dnth-20260612.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000026/dnth-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/dnth-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-26",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000010/dnth-20260326.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "DNTH",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 22.11,
+  "pbr": 4.29,
+  "eps": 4.15,
+  "bps": 21.39,
+  "shares": 56312700,
+  "marketCapM": 5170,
+  "high52": 117.875,
+  "high52Date": "2026-08-19",
+  "low52": 34.29,
+  "low52Date": "2025-11-14",
+  "last": 91.81,
+  "prevClose": 92.48,
+  "nameKo": "다이앤서스 테라퓨틱스",
+  "nameEn": "DIANTHUS THERAPEUTICS INC",
+  "listedOn": "2023-09-12",
+  "exchange": "나스닥",
+  "listedShares": 56312700
+ },
+ "estimates": {
+  "ticker": "DNTH",
+  "url": "https://finance.yahoo.com/quote/DNTH/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -0.99,
+    "epsLow": -1.08,
+    "epsHigh": -0.9,
+    "epsYearAgo": -1.43,
+    "epsAnalysts": 9,
+    "epsGrowth": 30.5,
+    "epsCur": "USD",
+    "rev": 339050,
+    "revAnalysts": 15,
+    "revYearAgo": 284000,
+    "revGrowth": 19.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": -1.03,
+    "epsLow": -1.12,
+    "epsHigh": -0.93,
+    "epsYearAgo": -0.85,
+    "epsAnalysts": 7,
+    "epsGrowth": -21.5,
+    "epsCur": "USD",
+    "rev": 460280,
+    "revAnalysts": 8,
+    "revYearAgo": 463000,
+    "revGrowth": -0.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -3.6,
+    "epsLow": -3.77,
+    "epsHigh": -3.46,
+    "epsYearAgo": -4.2,
+    "epsAnalysts": 8,
+    "epsGrowth": 14.3,
+    "epsCur": "USD",
+    "rev": 2500110,
+    "revAnalysts": 14,
+    "revYearAgo": 2036000,
+    "revGrowth": 22.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -4.35,
+    "epsLow": -5.36,
+    "epsHigh": -3.47,
+    "epsYearAgo": -3.6,
+    "epsAnalysts": 11,
+    "epsGrowth": -20.8,
+    "epsCur": "USD",
+    "rev": 2015860,
+    "revAnalysts": 15,
+    "revYearAgo": 2500110,
+    "revGrowth": -19.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.99,
+    "d7": 10.6,
+    "d30": 10.6,
+    "d90": 12.8,
+    "ago90": -1.14,
+    "up7": 4,
+    "up30": 2,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": -1.03,
+    "d7": 5.2,
+    "d30": 5.2,
+    "d90": 5.9,
+    "ago90": -1.1,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -3.6,
+    "d7": 5.6,
+    "d30": 5.6,
+    "d90": 8.1,
+    "ago90": -3.92,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -4.35,
+    "d7": 5.7,
+    "d30": 5.7,
+    "d90": 8.3,
+    "ago90": -4.74,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -0.81,
+    "estimate": -0.95,
+    "surprisePct": 14.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -0.9,
+    "estimate": -0.91,
+    "surprisePct": 1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.85,
+    "estimate": -1.1,
+    "surprisePct": 22.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -1.43,
+    "estimate": -1.03,
+    "surprisePct": -38.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 3,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 4,
+   "recent": [
+    {
+     "date": "2026-10-27",
+     "firm": "Roth Capital",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 113,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "HC Wainwright & Co.",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 158,
+     "ptPrior": 158
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "JP Morgan",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 135,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-04",
+     "firm": "Citigroup",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 156,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 91.81,
+   "ma20": 83.26,
+   "ma50": 88.45,
+   "ma150": 93.35,
+   "distMA50": 3.8,
+   "periodHigh": 117.88,
+   "pullbackFromHigh": -22.12,
+   "volRatio20": 0.74,
+   "dryUpRatio": 0.78
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 82.46,
+    "h": 84.56,
+    "l": 80.75,
+    "c": 82.25,
+    "v": 837800,
+    "clsPos": 39,
+    "gapPct": 0.1
+   },
+   {
+    "d": "2026-11-03",
+    "o": 83.21,
+    "h": 86.17,
+    "l": 81.57,
+    "c": 82.7,
+    "v": 1526000,
+    "clsPos": 25,
+    "gapPct": 1.17
+   },
+   {
+    "d": "2026-11-04",
+    "o": 85.92,
+    "h": 85.92,
+    "l": 82.21,
+    "c": 85.81,
+    "v": 1679400,
+    "clsPos": 97,
+    "gapPct": 3.89
+   },
+   {
+    "d": "2026-11-05",
+    "o": 85.87,
+    "h": 85.87,
+    "l": 80.34,
+    "c": 83.01,
+    "v": 1058500,
+    "clsPos": 48,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-11-06",
+    "o": 84.12,
+    "h": 87.44,
+    "l": 82.13,
+    "c": 86.03,
+    "v": 595300,
+    "clsPos": 73,
+    "gapPct": 1.34
+   },
+   {
+    "d": "2026-11-09",
+    "o": 88.21,
+    "h": 91.82,
+    "l": 84.41,
+    "c": 90,
+    "v": 700300,
+    "clsPos": 75,
+    "gapPct": 2.53
+   },
+   {
+    "d": "2026-11-10",
+    "o": 89.86,
+    "h": 90.48,
+    "l": 86.92,
+    "c": 88.81,
+    "v": 523700,
+    "clsPos": 53,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-11-11",
+    "o": 89.05,
+    "h": 90.46,
+    "l": 87.97,
+    "c": 89.3,
+    "v": 794700,
+    "clsPos": 53,
+    "gapPct": 0.27
+   },
+   {
+    "d": "2026-11-12",
+    "o": 88.12,
+    "h": 92.79,
+    "l": 83.84,
+    "c": 92.48,
+    "v": 921000,
+    "clsPos": 97,
+    "gapPct": -1.32
+   },
+   {
+    "d": "2026-11-13",
+    "o": 91.87,
+    "h": 92.34,
+    "l": 88.61,
+    "c": 91.81,
+    "v": 681500,
+    "clsPos": 86,
+    "gapPct": -0.66
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/DNTH-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/DNTH-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

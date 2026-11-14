@@ -1,0 +1,679 @@
+{
+ "ticker": "ATLC",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "ATLC",
+  "name": "애틀랜티쿠스 홀딩스",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
+  "price": 83.41999816894531,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 101.62,
+  "stop": 96.64,
+  "distToPivotPct": -17.91,
+  "distToPivotAdr": -3,
+  "riskPerSharePct": 4.9,
+  "adrPct": 5.97,
+  "extensionAdr": -0.86,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 12,
+   "baseWeeks": 2.4,
+   "depthPct": 22.9,
+   "priorMovePct": 18.6,
+   "higherLows": 0,
+   "contraction": 1.81,
+   "closeRange10Adr": 4.1,
+   "surf10": -0.86,
+   "surf20": -1.19,
+   "slope20": -3.36,
+   "baseLow": 78.39,
+   "lastSwingLow": 78.39
+  },
+  "reasons": [
+   "✗ 선행 상승 +19%",
+   "베이스 2.4주",
+   "깊이 22.9%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.81배 · 10일 종가폭 4.1 ADR",
+   "✗ 10일선 -0.9 ADR · 20일선 -1.2 ADR",
+   "✗ 20일선 기울기 -3.36%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.05131933726298772,
+    "pct": 17.177637511271413
+   },
+   "m3": {
+    "v": -0.06666713997201996,
+    "pct": 25.022542831379624
+   },
+   "m6": {
+    "v": 0.008966854576730236,
+    "pct": 29.531109107303877
+   }
+  },
+  "ret1m": -9.35,
+  "ret3m": -10.93,
+  "ret6m": -5.8,
+  "marketCap": "1.28B",
+  "volx": 1.13,
+  "volSurgeWk": 0.72,
+  "high52": 72.96,
+  "newHigh52": false,
+  "adr": 5.97,
+  "div50": -8.47,
+  "div200": 1.8,
+  "targetStatus": false,
+  "saleCy": 52.95,
+  "saleNy": 12.87,
+  "epsCy": 78.78,
+  "epsNy": 25.76,
+  "cyTrend": 8.67,
+  "nyTrend": -1.45,
+  "est": {
+   "cyCur": 10.655,
+   "cy30": 9.805,
+   "nyCur": 13.4,
+   "ny30": 13.5975
+  },
+  "fs": {
+   "sale": [
+    88.84,
+    96.89,
+    107.75
+   ],
+   "ni": [
+    67.23,
+    49.81,
+    24.87
+   ],
+   "opm": [
+    8.87,
+    8.66,
+    6.29
+   ],
+   "updated": "2026-09-08 07:42:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "애틀랜티쿠스 홀딩스",
+  "nameEn": "ATLANTICUS HLDGS CORP",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001464343&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 775849000,
+     "profit": 103665000,
+     "netIncome": 95350000,
+     "margin": 13.4,
+     "yoy": {
+      "revenue": 60.1,
+      "profit": 250.5,
+      "netIncome": 281.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 744323000,
+     "profit": 66007000,
+     "netIncome": 49719000,
+     "margin": 8.9,
+     "yoy": {
+      "revenue": 88.8,
+      "profit": 64.4,
+      "netIncome": 62.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 679589000,
+     "profit": 58848000,
+     "netIncome": 44175000,
+     "margin": 8.7,
+     "yoy": {
+      "revenue": 96.9,
+      "profit": 44,
+      "netIncome": 40.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 763731000,
+     "profit": 53747000,
+     "netIncome": 33539000,
+     "margin": 7,
+     "yoy": {
+      "revenue": 116.1,
+      "profit": 34.8,
+      "netIncome": 11.4,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Atlanticus (ATLC) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/atlanticus-atlc-upgraded-buy-heres-what-you-should-know",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Atlanticus (ATLC) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-atlanticus-atlc-stock-0",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Atlanticus (ATLC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/atlanticus-atlc-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Atlanticus (ATLC) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-atlanticus-atlc-said-its-q3-earnings-call",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Atlanticus Holdings Corporation (ATLC) Q3 Earnings Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/atlanticus-holdings-corporation-atlc-q3-earnings-beat-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Investors Undervaluing Atlanticus (ATLC) Right Now?",
+     "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-atlanticus-atlc-right-now-0",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Atlanticus (ATLC) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-atlanticus-atlc-stock",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Investors Undervaluing Atlanticus (ATLC) Right Now?",
+     "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-atlanticus-atlc-right-now",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926032179/atlc20261006_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926030605/atlc20260915_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926016553/atlc20260512_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-09-17",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774925029311/atlc20250917_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-08-20",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774925027466/atlc20250819_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-05-13",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774925016493/atlc20250513_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "ATLC",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 10.83,
+  "pbr": 1.8,
+  "eps": 7.7,
+  "bps": 46.27,
+  "shares": 15347800,
+  "marketCapM": 1280,
+  "high52": 114.3399,
+  "high52Date": "2026-08-05",
+  "low52": 47.5,
+  "low52Date": "2026-03-16",
+  "last": 83.42,
+  "prevClose": 79.3,
+  "nameKo": "애틀랜티쿠스 홀딩스",
+  "nameEn": "ATLANTICUS HLDGS CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 15347800
+ },
+ "estimates": {
+  "ticker": "ATLC",
+  "url": "https://finance.yahoo.com/quote/ATLC/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.66,
+    "epsLow": 2.39,
+    "epsHigh": 3.15,
+    "epsYearAgo": 1.75,
+    "epsAnalysts": 4,
+    "epsGrowth": 51.9,
+    "epsCur": "USD",
+    "rev": 810888600,
+    "revAnalysts": 5,
+    "revYearAgo": 734394000,
+    "revGrowth": 10.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 3.04,
+    "epsLow": 2.88,
+    "epsHigh": 3.25,
+    "epsYearAgo": 2.23,
+    "epsAnalysts": 4,
+    "epsGrowth": 36.4,
+    "epsCur": "USD",
+    "rev": 792136000,
+    "revAnalysts": 5,
+    "revYearAgo": 679589000,
+    "revGrowth": 16.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 10.66,
+    "epsLow": 10.07,
+    "epsHigh": 12.24,
+    "epsYearAgo": 5.96,
+    "epsAnalysts": 4,
+    "epsGrowth": 78.8,
+    "epsCur": "USD",
+    "rev": 3010645200,
+    "revAnalysts": 5,
+    "revYearAgo": 1968399000,
+    "revGrowth": 53,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 13.4,
+    "epsLow": 12.75,
+    "epsHigh": 13.9,
+    "epsYearAgo": 10.66,
+    "epsAnalysts": 4,
+    "epsGrowth": 25.8,
+    "epsCur": "USD",
+    "rev": 3398054600,
+    "revAnalysts": 5,
+    "revYearAgo": 3010645200,
+    "revGrowth": 12.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.66,
+    "d7": 16.3,
+    "d30": 16.3,
+    "d90": 15.4,
+    "ago90": 2.3,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.04,
+    "d7": 5.3,
+    "d30": 5.3,
+    "d90": 9.1,
+    "ago90": 2.79,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 10.66,
+    "d7": 8.7,
+    "d30": 8.7,
+    "d90": 11,
+    "ago90": 9.6,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 13.4,
+    "d7": -1.5,
+    "d30": -1.5,
+    "d90": 0,
+    "ago90": 13.39,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.99,
+    "estimate": 2.97,
+    "surprisePct": 34.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.5,
+    "estimate": 2.49,
+    "surprisePct": 0.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.23,
+    "estimate": 1.66,
+    "surprisePct": 34.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.75,
+    "estimate": 1.57,
+    "surprisePct": 11.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 3,
+   "ptLowered": 1,
+   "total": 5,
+   "recent": [
+    {
+     "date": "2026-11-12",
+     "firm": "B. Riley Securities",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 125,
+     "ptPrior": 119
+    },
+    {
+     "date": "2026-11-10",
+     "firm": "Citizens",
+     "action": "main",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Raises",
+     "pt": 117,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 150,
+     "ptPrior": 179
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 179,
+     "ptPrior": 179
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 119,
+     "ptPrior": 111
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 83.42,
+   "ma20": 89.35,
+   "ma50": 91.14,
+   "ma150": 91.02,
+   "distMA50": -8.47,
+   "periodHigh": 114.34,
+   "pullbackFromHigh": -27.04,
+   "volRatio20": 1.2,
+   "dryUpRatio": 1.27
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 94.17,
+    "h": 96.8,
+    "l": 93.02,
+    "c": 93.13,
+    "v": 70100,
+    "clsPos": 3,
+    "gapPct": 0.76
+   },
+   {
+    "d": "2026-11-03",
+    "o": 93.98,
+    "h": 95.27,
+    "l": 92.15,
+    "c": 92.49,
+    "v": 83200,
+    "clsPos": 11,
+    "gapPct": 0.91
+   },
+   {
+    "d": "2026-11-04",
+    "o": 96.1,
+    "h": 100.11,
+    "l": 93.06,
+    "c": 99.75,
+    "v": 137900,
+    "clsPos": 95,
+    "gapPct": 3.9
+   },
+   {
+    "d": "2026-11-05",
+    "o": 99.91,
+    "h": 101.62,
+    "l": 92.75,
+    "c": 96.45,
+    "v": 151900,
+    "clsPos": 42,
+    "gapPct": 0.16
+   },
+   {
+    "d": "2026-11-06",
+    "o": 96.45,
+    "h": 99.69,
+    "l": 88.87,
+    "c": 91.23,
+    "v": 418500,
+    "clsPos": 22,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-09",
+    "o": 94.53,
+    "h": 96.4,
+    "l": 79,
+    "c": 81.12,
+    "v": 264900,
+    "clsPos": 12,
+    "gapPct": 3.62
+   },
+   {
+    "d": "2026-11-10",
+    "o": 81.56,
+    "h": 81.56,
+    "l": 78.58,
+    "c": 79.69,
+    "v": 109900,
+    "clsPos": 37,
+    "gapPct": 0.54
+   },
+   {
+    "d": "2026-11-11",
+    "o": 80.52,
+    "h": 83.24,
+    "l": 79,
+    "c": 80.32,
+    "v": 187800,
+    "clsPos": 31,
+    "gapPct": 1.04
+   },
+   {
+    "d": "2026-11-12",
+    "o": 80.32,
+    "h": 81.61,
+    "l": 78.74,
+    "c": 79.3,
+    "v": 110300,
+    "clsPos": 20,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-13",
+    "o": 80,
+    "h": 83.72,
+    "l": 78.39,
+    "c": 83.42,
+    "v": 157900,
+    "clsPos": 94,
+    "gapPct": 0.88
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ATLC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ATLC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

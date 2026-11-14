@@ -1,0 +1,302 @@
+{
+ "ticker": "DUOL",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "듀오링고",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 17.76,
+  "saleNy": 14.13,
+  "epsCy": -43.23,
+  "epsNy": 16.97,
+  "est": {
+   "cyCur": 6.67976,
+   "cy30": 6.61286,
+   "nyCur": 7.81305,
+   "ny30": 7.63857
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    18.31,
+    26.53,
+    34.99
+   ],
+   "ni": [
+    -25.96,
+    23.69,
+    201.68
+   ],
+   "opm": [
+    11.37,
+    15.25,
+    15.36
+   ],
+   "updated": "2026-09-08 07:50:58"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "듀오링고",
+  "nameEn": "DUOLINGO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001562088&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 298454000,
+     "profit": 33945000,
+     "netIncome": 33158000,
+     "margin": 11.4,
+     "yoy": {
+      "revenue": 18.3,
+      "profit": 1.7,
+      "netIncome": -26,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 291967000,
+     "profit": 44527000,
+     "netIncome": 43460000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 26.5,
+      "profit": 88.7,
+      "netIncome": 23.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 282868000,
+     "profit": 43454000,
+     "netIncome": 41956000,
+     "margin": 15.4,
+     "yoy": {
+      "revenue": 35,
+      "profit": 213,
+      "netIncome": 208.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 271713000,
+     "profit": 35159000,
+     "netIncome": 292195000,
+     "margin": 12.9,
+     "yoy": {
+      "revenue": 41.1,
+      "profit": 159,
+      "netIncome": 1150.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Investors Heavily Search Duolingo, Inc. (DUOL): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-duolingo-inc-duol-here-what-you-need-know",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Duolingo Consensus Price Target Increased 10.65% to $150.18",
+     "url": "https://www.nasdaq.com/articles/duolingo-consensus-price-target-increased-1065-15018",
+     "date": "2026-11-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "DUOL Q3 Earnings Miss Estimates, Revenues Beat, Shares Rise 25.3%",
+     "url": "https://www.nasdaq.com/articles/duol-q3-earnings-miss-estimates-revenues-beat-shares-rise-253",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Duolingo's User Growth Is Outpacing Bookings, But Is Its Strategy Paying Off?",
+     "url": "https://www.nasdaq.com/articles/duolingos-user-growth-outpacing-bookings-its-strategy-paying",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "DUOL Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/duol-crosses-above-average-analyst-target",
+     "date": "2026-11-05",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Why Duolingo Stock Skyrocketed Today",
+     "url": "https://www.nasdaq.com/articles/why-duolingo-stock-skyrocketed-today",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Duolingo: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/duolingo-3-key-takeaways-long-term-investors",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Duolingo's User Surge Starts Paying Off: Rapid Earnings Reaction",
+     "url": "https://www.nasdaq.com/articles/duolingos-user-surge-starts-paying-rapid-earnings-reaction",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069474/duol-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026057818/duol-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026055015/duol-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/duol-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026041280/duol-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026029790/duol-20260504.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves after hours: Arista Networks, AMD, Super Micro",
+   "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-after-hours-anet-amd-smci-swks.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Inside the strategy wars to capture Gen Z's spending power",
+   "url": "https://www.cnbc.com/make-it/2026/10/13/gen-z-spending-power-brands.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "New data shows this language learning stock can bounce back, Evercore ISI says",
+   "url": "https://www.cnbc.com/2026/09/01/this-language-learning-stock-can-bounce-back-evercore-isi-data-shows.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Amylyx, Coherent & more",
+   "url": "https://www.cnbc.com/2026/08/18/stocks-making-the-biggest-moves-midday-meta-amlx-bidu-klar.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Popular language app is on the cusp of a big turnaround, D.A. Davidson says",
+   "url": "https://www.cnbc.com/2026/08/18/popular-app-is-on-the-cusp-of-a-big-turnaround-da-davidson-says.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Home Depot, Tesla, Fabrinet, Duolingo & more",
+   "url": "https://www.cnbc.com/2026/08/18/stocks-making-the-biggest-moves-premarket-hd-tsla-fn-duol.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "DUOL",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 19.83,
+  "pbr": 5.48,
+  "eps": 8.34,
+  "bps": 30.17,
+  "shares": 40779000,
+  "marketCapM": 6741,
+  "high52": 213.37,
+  "high52Date": "2025-12-09",
+  "low52": 87.89,
+  "low52Date": "2026-04-09",
+  "last": 165.31,
+  "prevClose": 157.42,
+  "nameKo": "듀오링고",
+  "nameEn": "DUOLINGO INC",
+  "listedOn": "2021-07-27",
+  "exchange": "나스닥",
+  "listedShares": 40779000
+ }
+}

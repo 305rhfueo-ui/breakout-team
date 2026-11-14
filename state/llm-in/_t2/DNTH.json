@@ -1,0 +1,259 @@
+{
+ "ticker": "DNTH",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "다이앤서스 테라퓨틱스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 22.8,
+  "saleNy": -19.37,
+  "epsCy": -14.27,
+  "epsNy": 20.81,
+  "est": {
+   "cyCur": -3.60075,
+   "cy30": -3.81404,
+   "nyCur": -4.35009,
+   "ny30": -4.61098
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    294.3,
+    -60.19,
+    -78.58
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -8079.11,
+    -10050.32,
+    -24486.27
+   ],
+   "updated": "2026-09-08 06:05:55"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-13",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "다이앤서스 테라퓨틱스",
+  "nameEn": "DIANTHUS THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001690585&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 284000,
+     "profit": -69541000,
+     "netIncome": -64432000,
+     "margin": -24486.3,
+     "yoy": {
+      "revenue": -78.6,
+      "profit": -117.9,
+      "netIncome": -126.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 396000,
+     "profit": -40288000,
+     "netIncome": -36765000,
+     "margin": -10173.7,
+     "yoy": {
+      "revenue": -81.8,
+      "profit": -34.7,
+      "netIncome": -46,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 193000,
+     "profit": -34927000,
+     "netIncome": -31629000,
+     "margin": -18096.9,
+     "yoy": {
+      "revenue": -89.6,
+      "profit": -57.3,
+      "netIncome": -79.6,
+      "priorEnd": "2024-06-30"
+     }
+    },
+    {
+     "periodEnd": "2025-03-31",
+     "derived": false,
+     "revenue": 1163000,
+     "profit": -33177000,
+     "netIncome": -29511000,
+     "margin": -2852.7,
+     "yoy": {
+      "revenue": 33.1,
+      "profit": -85.9,
+      "netIncome": -114.7,
+      "priorEnd": "2024-03-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Wall Street Analysts See a 61.23% Upside in Dianthus Therapeutics, Inc. (DNTH): Can the Stock Really Move This High?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-6123-upside-dianthus-therapeutics-inc-dnth-can-stock-really-move",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dianthus Therapeutics, Inc. Reports Q3 2026 Financial Results and Highlights Clinical Progress",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-reports-q3-2026-financial-results-and-highlights-clinical",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Dianthus Therapeutics, Inc. (DNTH) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-dnth-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dianthus Therapeutics Enters Oversold Territory (DNTH)",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-enters-oversold-territory-dnth",
+     "date": "2026-10-22",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Citigroup Initiates Coverage of Dianthus Therapeutics with Buy Rating",
+     "url": "https://www.nasdaq.com/articles/citigroup-initiates-coverage-dianthus-therapeutics-buy-rating",
+     "date": "2026-09-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Dianthus Therapeutics Grants Inducement Awards To Four New Employees",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-grants-inducement-awards-four-new-employees",
+     "date": "2026-09-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Dianthus Therapeutics, Inc. (DNTH) Reports Q2 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-dnth-reports-q2-loss-tops-revenue-estimates",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dianthus Therapeutics Is Up 320% in a Year. One Major Investor Just Reduced Its Stake but Still Seems Bullish",
+     "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-320-year-one-major-investor-just-reduced-its-stake-still-seems",
+     "date": "2026-05-18",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000029/dnth-20260612.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000026/dnth-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/dnth-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-26",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000010/dnth-20260326.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "DNTH",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 22.11,
+  "pbr": 4.29,
+  "eps": 4.15,
+  "bps": 21.39,
+  "shares": 56312700,
+  "marketCapM": 5170,
+  "high52": 117.875,
+  "high52Date": "2026-08-19",
+  "low52": 34.29,
+  "low52Date": "2025-11-14",
+  "last": 91.81,
+  "prevClose": 92.48,
+  "nameKo": "다이앤서스 테라퓨틱스",
+  "nameEn": "DIANTHUS THERAPEUTICS INC",
+  "listedOn": "2023-09-12",
+  "exchange": "나스닥",
+  "listedShares": 56312700
+ }
+}

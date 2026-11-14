@@ -1,0 +1,290 @@
+{
+ "ticker": "CBRS",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "세레브라스 시스템스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": 216.52,
+  "epsCy": null,
+  "epsNy": 345,
+  "est": {
+   "cyCur": 0.36505,
+   "cy30": -0.46943,
+   "nyCur": 1.62447,
+   "ny30": 1.27368
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:29:54"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "세레브라스 시스템스",
+  "nameEn": "CEREBRAS SYSTEMS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002021728&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 210809000,
+     "profit": -224149000,
+     "netIncome": -161218000,
+     "margin": -106.3,
+     "yoy": {
+      "revenue": 55.3,
+      "profit": -746.8,
+      "netIncome": -626.2,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 180110000,
+     "profit": -477233000,
+     "netIncome": -450528000,
+     "margin": -265,
+     "yoy": {
+      "revenue": 74.3,
+      "profit": -734.6,
+      "netIncome": -245.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 193406000,
+     "profit": -15037000,
+     "netIncome": -14006000,
+     "margin": -7.8,
+     "yoy": {
+      "revenue": 94.4,
+      "profit": 47.2,
+      "netIncome": 41.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 135714000,
+     "profit": -26469000,
+     "netIncome": -22201000,
+     "margin": -19.5,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-nov-13-cerebras-surges-over-11-record-q3-revenue-and-raised-2026",
+     "date": "2026-11-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cerebras Systems: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/cerebras-systems-3-key-takeaways-long-term-investors",
+     "date": "2026-11-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cerebras (CBRS) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cerebras-cbrs-q3-2026-earnings-call-transcript",
+     "date": "2026-11-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Cerebras Systems (CBRS) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-cerebras-systems-cbrs-said-its-q3-earnings-call",
+     "date": "2026-11-13",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Compared to Estimates, Cerebras (CBRS) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-cerebras-cbrs-q3-earnings-look-key-metrics",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cerebras Systems vs. Nebius: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
+     "url": "https://www.nasdaq.com/articles/cerebras-systems-vs-nebius-which-artificial-intelligence-stock-better-buy-going-2027",
+     "date": "2026-11-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cerebras Systems vs. Innodata: Which Tech Stock Is the Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/cerebras-systems-vs-innodata-which-tech-stock-better-buy-2027",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Cerebras Systems Stock Is Plummeting Today",
+     "url": "https://www.nasdaq.com/articles/why-cerebras-systems-stock-plummeting-today",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrs-20261112.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrs-20260812.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026044941/cbrs-20260623.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "5.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026035605/closing8-k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-24",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[CEREBRAS SYSTEMS INC (NAS:CBRS)] 13 GPU 킬러 (X), Decode 킬러 (O)",
+     "summary": "- 세레브라스는 WSE(Wafer Scale Engine)을 설계하는 팹리스 업체. 일반적 인 반도체 칩이 300mm 웨이퍼 위에 다수의 다이(Die)를 형성한 후 이를 잘라내어 개별적으로 패키징 하는 것과 다르게, WSE는 웨이퍼 전체를 하나 의 거대한 컴퓨팅 패브릭으로 활용. 수율 문제는 양품 코어만 활성화하고 결 함 코어를 우회하는 라우팅 방식으로 극복. TSMC의 N5 공정으로 제조되며, HBM을 사용하는 대신 칩 면적의 50% 수준을 SRAM으로 배정해 칩 당 44GB의 SRAM 용량과 21PB/s의 대역폭을 제공. 또한 WSE-3을 전력, 냉 각 장비와 결합한 CS-3 랙시스템의 형태로 판매.- 코어 기준 1분기 매출 1.91억달러(+92% yoy), GPM 46.5%, OPM -2%를 기록하며 컨센을 상회. 하드웨어 매출은 1.12억달러(+60% yoy), 클라우드/ 서비스 매출은 7,980만달러(+167% yoy)를 기록. 가이던스는 2분기 코어 매출액 1.94억달러(+88% yoy), 연간 코어 매출액 8.6억달러를 제시- 세레브라스는 일반적인 AI 가속기와 달리 SRAM 용량 한계로 인해 모델 파 라미터를 MemoryX라는 외부 메모리 계층에 저장하는 방식을 채택. 사측 은 WSE/CS-3을 학습과 추론이 모두 가능한 웨이퍼 스케일 시스템으로 포 지셔닝 중이나, 외부 메모리 계층에 의존하는 데에 반해 칩 외부 시스템 I/O 대역폭은 CS-3 1대 기준 150GB/s 수준으로 아직까지 대형 모델이나 대규 모 컨텍스트 향으로 사용되기에는 시스템적 한계가 존재. AI Agent 확산으 로 일부 에이전트 루프에서 반복적인 Decode 호출과 메모리 접근 지연시 간의 중요성이 커질수록 WSE의 활용처는 확대될 수 있음. 다만 WSE가 AI 인프라 시장 전반으로 유의미하게 확산되기 위해서는 외부 메모리·시스템 I/O 병목 완화와 소프트웨어 생태계 확장이 필요하다고 판단.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgglgxikmlckmgcgxeeek.pdf",
+     "pages": "9"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Cerebras surges after beating on revenue and announcing Microsoft deal",
+   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+   "date": "2026-11-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+   "url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "I warned against buying this AI chip stock. Now I think it could nearly double",
+   "url": "https://www.cnbc.com/2026/10/23/investor-paul-meeks-buying-cerebras-cbrs.html",
+   "date": "2026-10-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cerebras CEO Andrew Feldman on data centers: 'We are behind schedule' on builds",
+   "url": "https://www.cnbc.com/video/2026/11/13/cerebras-ceo-andrew-feldman-on-data-centers-we-are-behind-schedule-on-builds.html",
+   "date": "2026-11-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "'Fast Money' traders react to Cerebras shares taking off on earnings",
+   "url": "https://www.cnbc.com/video/2026/11/12/fast-money-traders-react-to-cerebras-shares-taking-off-on-earnings.html",
+   "date": "2026-11-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Cerebras jumps double digits on revenue beat, issues strong guidance",
+   "url": "https://www.cnbc.com/video/2026/11/12/cerebras-jumps-double-digits-on-revenue-beat-issues-strong-guidance.html",
+   "date": "2026-11-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CBRS",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 48.14,
+  "pbr": 2.71,
+  "eps": 2.26,
+  "bps": 40.12,
+  "shares": 112247110,
+  "marketCapM": 12204,
+  "high52": 386.34,
+  "high52Date": "2026-05-14",
+  "low52": 77.8411,
+  "low52Date": "2026-11-05",
+  "last": 108.72,
+  "prevClose": 97.75,
+  "nameKo": "세레브라스 시스템스",
+  "nameEn": "CEREBRAS SYSTEMS INC",
+  "listedOn": "2026-05-14",
+  "exchange": "나스닥",
+  "listedShares": 112247110
+ }
+}

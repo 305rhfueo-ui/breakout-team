@@ -1,0 +1,851 @@
+{
+ "ticker": "ELF",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "ELF",
+  "name": "엘프 뷰티",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
+  "price": 117.98,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 123.13,
+  "stop": 117.67,
+  "distToPivotPct": -4.18,
+  "distToPivotAdr": -0.9,
+  "riskPerSharePct": 4.43,
+  "adrPct": 4.63,
+  "extensionAdr": 0.55,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 21,
+   "baseWeeks": 4.2,
+   "depthPct": 14.4,
+   "priorMovePct": 65.9,
+   "higherLows": 0,
+   "contraction": 1.85,
+   "closeRange10Adr": 1.7,
+   "surf10": 0.55,
+   "surf20": 0.66,
+   "slope20": 1.42,
+   "baseLow": 105.36,
+   "lastSwingLow": 105.36
+  },
+  "reasons": [
+   "선행 상승 +66%",
+   "베이스 4.2주",
+   "깊이 14.4%",
+   "✗ 저점 상승 0회",
+   "진폭 1.85배 · 10일 종가폭 1.7 ADR",
+   "10일선 +0.6 ADR · 20일선 +0.7 ADR",
+   "20일선 기울기 +1.42%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.08124374628747627,
+    "pct": 55.95130748422002
+   },
+   "m3": {
+    "v": 0.24091764827642587,
+    "pct": 94.27412082957619
+   },
+   "m6": {
+    "v": 1.2465742607119672,
+    "pct": 99.6844003606853
+   }
+  },
+  "ret1m": 3.91,
+  "ret3m": 19.83,
+  "ret6m": 117.96,
+  "marketCap": "6.98B",
+  "volx": 1.4,
+  "volSurgeWk": 1.19,
+  "high52": 95.82,
+  "newHigh52": false,
+  "adr": 4.63,
+  "div50": 9.94,
+  "div200": 42.86,
+  "targetStatus": true,
+  "saleCy": 24.13,
+  "saleNy": 9.1,
+  "epsCy": 24.66,
+  "epsNy": 7.48,
+  "cyTrend": 7.57,
+  "nyTrend": 8.48,
+  "est": {
+   "cyCur": 3.90174,
+   "cy30": 3.62729,
+   "nyCur": 4.19346,
+   "ny30": 3.86582
+  },
+  "fs": {
+   "sale": [
+    35.52,
+    35.07,
+    37.76
+   ],
+   "ni": [
+    99.93,
+    -274.72,
+    128.12
+   ],
+   "opm": [
+    21.37,
+    -11.2,
+    13.8
+   ],
+   "updated": "2026-09-07 06:53:32"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-10-30"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 11
+  }
+ },
+ "eye": {
+  "score": 6,
+  "reasons": [
+   "최근 1주는 더 조용하다(그 전 1주의 0.53배)",
+   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
+   "넘어야 할 선 $120.81 바로 아래(-2.34%)",
+   "1년 최고가의 95.82% 자리"
+  ],
+  "resistance": 120.81
+ },
+ "detail": {
+  "fetchedAt": "2026-11-11",
+  "nameKo": "엘프 뷰티",
+  "nameEn": "E L F BEAUTY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001600033&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 520816000,
+     "profit": 52426000,
+     "netIncome": 30030000,
+     "margin": 10.1,
+     "yoy": {
+      "revenue": 51.4,
+      "profit": 579.4,
+      "netIncome": 902.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 479373000,
+     "profit": 102441000,
+     "netIncome": 66599000,
+     "margin": 21.4,
+     "yoy": {
+      "revenue": 35.5,
+      "profit": 110.3,
+      "netIncome": 99.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 449292000,
+     "profit": -50333000,
+     "netIncome": -49365000,
+     "margin": -11.2,
+     "yoy": {
+      "revenue": 35.1,
+      "profit": -213.6,
+      "netIncome": -274.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 489505000,
+     "profit": 67540000,
+     "netIncome": 39376000,
+     "margin": 13.8,
+     "yoy": {
+      "revenue": 37.8,
+      "profit": 92.5,
+      "netIncome": 128.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "e.l.f. Beauty (ELF) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/elf-beauty-elf-attracting-investor-attention-here-what-you-should-know-3",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is It Worth Investing in e.l.f. Beauty (ELF) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-elf-beauty-elf-based-wall-streets-bullish-views",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "e.l.f. Beauty (ELF) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/elf-beauty-elf-q2-2027-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "e.l.f. Beauty (ELF) Tops Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/elf-beauty-elf-tops-q2-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000048/elf-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-24",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000044/elf-20260820.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000036/elf-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000018/elf-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-13",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000009/elf-20260212.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000005/elf-20260204.htm"
+   }
+  ],
+  "krReports": {
+   "total": 6,
+   "reports": [
+    {
+     "date": "2026-11-06",
+     "broker": "신한투자증권",
+     "analyst": "박현진, 권채윤",
+     "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+     "summary": "- 연간 가이던스 상향, 본업 상황 좋아!- FY27 2Q Review: 호실적, 점유율 상승 + 비용 발생 이연- Valuation & Risk: 현금 창출력 개선 중",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeeee.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-05-22",
+     "broker": "신한투자증권",
+     "analyst": "박현진",
+     "title": "[엘프 뷰티 (NYS:ELF)] Rhode가 다했다! 기대 이상!",
+     "summary": "- 기존 e.l.f. Cosmetics 중심 구조에서 멀티 브랜드 포트폴리오 체제로 확장 되는 흐름이 본격화 중. rhode·Naturium 중심의 멀티 브랜드 전략을 바탕 으로 미국 뷰티 시장 내 높은 성장세와 점유율 확대 중.- FY26 4Q 매출 4.49억달러(+35% YoY, 이하 동일)를 기록하며 시장 컨센 서스 4.23억달러를 6% 상회. 매출총이익률 73%로 1.4%p 개선. 가격 인 상 효과가 관세 부담 일부 상쇄한 것으로 추정- rhode 인수 관련 earn-out 평가손실 5,760만달러 반영. rhode 실적이 인 수 당시 예상치 상회하면서 추가 지급 부담 증가한 영향. 총차입금 8.4억 달러까지 증가했으나 순차입금/EBITDA 2배 미만 유지 중으로 재무 안정 성 우려에 대해선 일축.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmkcimxiexzmzgcgxeeee.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-02-06",
+     "broker": "키움증권",
+     "analyst": "조소정",
+     "title": "[엘프 뷰티 (NYS:ELF)] Rhode만이 희망이다",
+     "summary": "- 미국 화장품 브랜드사. 본업은 성장이 둔화되고 있지만, 인수 브랜드 Rhode가 성장을 견인 중- 향후 주가는 Rhode의 글로벌 채널 확장 속도 및 성과에 따라 달라질 수 있을 듯- 2 월에는 호주, 뉴질랜드 런칭을 시작으로 해외 유통 확대가 본격화될 예정. 주요 채널 내 성과에 주목",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcizzcxelmexlgcgxeeee.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-02-06",
+     "broker": "메리츠증권",
+     "analyst": "박종대",
+     "title": "[엘프 뷰티 (NYS:ELF)] FY 3Q26 Re: 관세 터널을 무사히 지나다",
+     "summary": "- 매출 시장 기대치(컨센서스 매출: 4.6억달러) 7% 상회, Rhode 인수 효과 반영(제외 시 YoY 2% 성장)- 조정 순이익(Non-GAAP) 0.75억달러, 시장 기대치 75% 상회(컨센서스 0.43억달러)- 28분기 연속 매출 성장 및 시장 점유율 상승(QoQ 1.3%p) 달성, e.l.f. 및 Rhode 성장세 고무적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcizgkzzkcexmgcgxeeee.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-02-06",
+     "broker": "신한투자증권",
+     "analyst": "박현진",
+     "title": "[엘프 뷰티 (NYS:ELF)] M&A 통한 외형 성장 시현",
+     "summary": "- 전세계 저가 인디뷰티 브랜드 수요 증가로 2026년에도 매출은 두 자리 성 장률 유지할 전망. M&A 통한 외형 확대 전략도 유효. 타겟이나 월마트 등 중저가 위주 유통채널 전개에서 세포라까지 확장 국면.- FY26 3Q 순매출(3월 결산) 전년동기대비 38% 성장, 조정 EBITDA 79% 증가. 이 중 Rhode 인수에 따른 매출 증가분이 30%p 이상 기여. 조정 주 당순이익은 1.24달러로 컨센서스 0.72달러 대폭 상회- 글로벌 프로모션 및 슈퍼볼 광고 등 마케팅비 투자 지속되며, 관세 부담 높으나 M&A 브랜드 중심 매출 고성장으로 마진 회복 노력할 것이라 피 력. 오프라인 채널뿐만 아니라 이커머스 중심으로 미국 10~20대들의 트래 픽을 유입시키려 노력 중",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqciiglzzkizkggcgxeeee.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2025-11-25",
+     "broker": "신한투자증권",
+     "analyst": "박현진",
+     "title": "[엘프 뷰티 (NYS:ELF)] 재도약 위한 리밸런싱",
+     "summary": "- 미국 시장 내 저가 인디뷰티 브랜드 수요 증가로 향후 매출은 두 자리 성 장률을 유지할 전망. 다만 중국 생산 비중 70% 이상으로 미국 내 수입 시 관세 부담 커진 게 이익 부진 및 주가 수익률 부진의 주요인- M&A 통해 브랜드 확장 지속하여 매출 성장 끌고 갈 전망. 매출보단 이 익 회복이 주가 추세 상승을 만들 포인트. 회복 기간 다소 소요 예상되나 중장기로는 인디뷰티 대세장의 대표 기업임은 자명함- 현 시장 컨센서스는 3Q25 매출이 전년동기대비 14% 성장한 데 이어 4Q25에도 20% 이상 성장할 것으로 전망 중. 특히 저가 스킨케어 제품 수 요가 증가하는 트렌드 속에서 동사도 2023년 10월 인수했던 스킨케어 브 랜드 Naturium 통해 스킨케어 비중 높이는 중. 2026년 기준 스킨케어 카 테고리의 매출 비중은 20%를 초과할 것으로 예상",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkcgiqgieclqqgcgxeeee.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "ELF-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "박현진, 권채윤",
+   "date": "2026-11-06",
+   "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeeee.pdf",
+   "pages": "4"
+  },
+  {
+   "file": "ELF-report2.pdf",
+   "broker": "신한투자증권",
+   "analyst": "박현진",
+   "date": "2026-05-22",
+   "title": "[엘프 뷰티 (NYS:ELF)] Rhode가 다했다! 기대 이상!",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmkcimxiexzmzgcgxeeee.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+   "url": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "E.l.f. Beauty CFO Mandy Fields on how to build a foundation in cosmetics",
+   "url": "https://www.cnbc.com/2026/10/16/elf-beauty-cfo-mandy-fields-tariffs-marketing-makeup.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Why brands like E.l.f., Wendy's and Gap are branching out into original music",
+   "url": "https://www.cnbc.com/2026/10/04/elf-wendys-gap-music-marketing.html",
+   "date": "2026-10-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Google's AI shake-up, tariff refunds and more: Morning Squawk",
+   "url": "https://www.cnbc.com/2026/08/06/5-things-to-know-before-the-stock-market-opens.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Sandisk, Western Digital & more",
+   "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-after-hours-sndk-wdc-elf-app.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
+   "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Alphabet slumps on more AI brain drain. We're not too worried",
+   "url": "https://www.cnbc.com/investingclub/2026/08/05/alphabet-is-slumping-on-the-departure-of-another-ai-exec.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Small stocks got endorsed today, including one expected to surge nearly 30%",
+   "url": "https://www.cnbc.com/2026/08/05/small-stocks-get-wall-street-endorsements-including-elf-beauty.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ELF",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 119.93,
+  "pbr": 5.95,
+  "eps": 0.98,
+  "bps": 19.83,
+  "shares": 59147600,
+  "marketCapM": 6978,
+  "high52": 123.13,
+  "high52Date": "2026-11-05",
+  "low52": 48.82,
+  "low52Date": "2026-06-05",
+  "last": 117.98,
+  "prevClose": 113.53,
+  "nameKo": "엘프 뷰티",
+  "nameEn": "E L F BEAUTY INC",
+  "listedOn": "2016-09-22",
+  "exchange": "뉴욕거래소",
+  "listedShares": 59147600
+ },
+ "estimates": {
+  "ticker": "ELF",
+  "url": "https://finance.yahoo.com/quote/ELF/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.76,
+    "epsLow": 0.57,
+    "epsHigh": 1.06,
+    "epsYearAgo": 1.24,
+    "epsAnalysts": 19,
+    "epsGrowth": -38.4,
+    "epsCur": "USD",
+    "rev": 548411520,
+    "revAnalysts": 17,
+    "revYearAgo": 489505000,
+    "revGrowth": 12,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.19,
+    "epsLow": -0.12,
+    "epsHigh": 0.47,
+    "epsYearAgo": 0.32,
+    "epsAnalysts": 19,
+    "epsGrowth": -39.7,
+    "epsCur": "USD",
+    "rev": 482123380,
+    "revAnalysts": 17,
+    "revYearAgo": 449292000,
+    "revGrowth": 7.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 3.9,
+    "epsLow": 3.85,
+    "epsHigh": 4.06,
+    "epsYearAgo": 3.13,
+    "epsAnalysts": 19,
+    "epsGrowth": 24.7,
+    "epsCur": "USD",
+    "rev": 2031423780,
+    "revAnalysts": 18,
+    "revYearAgo": 1636472000,
+    "revGrowth": 24.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 4.19,
+    "epsLow": 3.95,
+    "epsHigh": 4.43,
+    "epsYearAgo": 3.9,
+    "epsAnalysts": 18,
+    "epsGrowth": 7.5,
+    "epsCur": "USD",
+    "rev": 2216280110,
+    "revAnalysts": 18,
+    "revYearAgo": 2031423780,
+    "revGrowth": 9.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.76,
+    "d7": -11.6,
+    "d30": -10.3,
+    "d90": -9.2,
+    "ago90": 0.84,
+    "up7": 2,
+    "up30": 6,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.19,
+    "d7": -61.5,
+    "d30": -59.6,
+    "d90": -58.1,
+    "ago90": 0.46,
+    "up7": 0,
+    "up30": 1,
+    "down7": 12,
+    "down30": 13
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 3.9,
+    "d7": 6.7,
+    "d30": 7.6,
+    "d90": 8.1,
+    "ago90": 3.61,
+    "up7": 13,
+    "up30": 14,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 4.19,
+    "d7": 6,
+    "d30": 8.5,
+    "d90": 9.1,
+    "ago90": 3.84,
+    "up7": 3,
+    "up30": 14,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.21,
+    "estimate": 0.6,
+    "surprisePct": 102.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.75,
+    "estimate": 0.72,
+    "surprisePct": 143.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.32,
+    "estimate": 0.29,
+    "surprisePct": 12.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.24,
+    "estimate": 0.72,
+    "surprisePct": 71.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 19,
+   "ptLowered": 1,
+   "total": 20,
+   "recent": [
+    {
+     "date": "2026-11-10",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 125,
+     "ptPrior": 103
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 129,
+     "ptPrior": 116
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 135,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 139,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "In-Line",
+     "to": "In-Line",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-22",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 137,
+     "ptPrior": 123
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 130,
+     "ptPrior": 106
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 132,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 103,
+     "ptPrior": 90
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-03",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 117.98,
+   "ma20": 114.35,
+   "ma50": 107.32,
+   "ma150": 84.63,
+   "distMA50": 9.94,
+   "periodHigh": 150.99,
+   "pullbackFromHigh": -21.86,
+   "volRatio20": 1.35,
+   "dryUpRatio": 1.11
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 114.37,
+    "h": 115,
+    "l": 109.77,
+    "c": 110.68,
+    "v": 1263700,
+    "clsPos": 17,
+    "gapPct": 2.4
+   },
+   {
+    "d": "2026-11-03",
+    "o": 110.6,
+    "h": 113.34,
+    "l": 110.43,
+    "c": 111.5,
+    "v": 1216400,
+    "clsPos": 37,
+    "gapPct": -0.07
+   },
+   {
+    "d": "2026-11-04",
+    "o": 114.29,
+    "h": 118.91,
+    "l": 113,
+    "c": 113.63,
+    "v": 2401600,
+    "clsPos": 11,
+    "gapPct": 2.5
+   },
+   {
+    "d": "2026-11-05",
+    "o": 114,
+    "h": 123.13,
+    "l": 108.48,
+    "c": 109.85,
+    "v": 3166900,
+    "clsPos": 9,
+    "gapPct": 0.33
+   },
+   {
+    "d": "2026-11-06",
+    "o": 108.08,
+    "h": 120.21,
+    "l": 105.36,
+    "c": 116.14,
+    "v": 2277300,
+    "clsPos": 73,
+    "gapPct": -1.61
+   },
+   {
+    "d": "2026-11-09",
+    "o": 117.76,
+    "h": 122.25,
+    "l": 117.22,
+    "c": 119.35,
+    "v": 2334400,
+    "clsPos": 42,
+    "gapPct": 1.39
+   },
+   {
+    "d": "2026-11-10",
+    "o": 118.8,
+    "h": 119.73,
+    "l": 117.52,
+    "c": 118.51,
+    "v": 1102100,
+    "clsPos": 45,
+    "gapPct": -0.46
+   },
+   {
+    "d": "2026-11-11",
+    "o": 118.05,
+    "h": 119.74,
+    "l": 115.3,
+    "c": 118.46,
+    "v": 1306700,
+    "clsPos": 71,
+    "gapPct": -0.39
+   },
+   {
+    "d": "2026-11-12",
+    "o": 116.96,
+    "h": 117.3,
+    "l": 112.71,
+    "c": 113.53,
+    "v": 1682100,
+    "clsPos": 18,
+    "gapPct": -1.27
+   },
+   {
+    "d": "2026-11-13",
+    "o": 113.71,
+    "h": 119.82,
+    "l": 113,
+    "c": 117.98,
+    "v": 2067900,
+    "clsPos": 73,
+    "gapPct": 0.16
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ELF-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ELF-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "헤일리 비버의 rhode 인수가 매출 51% 성장을 끌고 있다 — 관세 환급 효과는 끝나가는 중",
+  "researchedOn": "2026-11-07"
+ }
+}

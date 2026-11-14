@@ -2,6 +2,12 @@
  "ticker": "SO",
  "news": [
   {
+   "title": "SO Q3 Earnings Beat on Data Center Demand, Outlook Raised",
+   "url": "https://www.nasdaq.com/articles/so-q3-earnings-beat-data-center-demand-outlook-raised",
+   "date": "2026-11-13",
+   "publisher": "Zacks"
+  },
+  {
    "title": "What Southern (SO) Said on Its Q3 Earnings Call",
    "url": "https://www.nasdaq.com/articles/what-southern-so-said-its-q3-earnings-call",
    "date": "2026-11-08",
@@ -26,6 +32,34 @@
    "publisher": "Zacks"
   },
   {
+   "title": "SO Q3 Earnings Beat on Data Center Demand, Outlook Raised",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-beat-data-center-151600286.html",
+   "date": "2026-11-13",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Southern Co. eyes $100B spending plan on natural gas, nuclear and other investments",
+   "url": "https://finance.yahoo.com/energy/articles/southern-co-eyes-100b-spending-144520353.html",
+   "date": "2026-11-13",
+   "publisher": "Utility Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Southern Co. Prices $1.75 Billion Offering of Equity Units",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/southern-co-prices-1-75-083412709.html",
+   "date": "2026-11-13",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Southern (SO) Fairly Valued As It Files For 5,000,000 New Shares?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/southern-fairly-valued-files-5-061104781.html",
+   "date": "2026-11-13",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
    "title": "Southern Company announces pricing of equity units",
    "url": "https://finance.yahoo.com/markets/stocks/articles/southern-company-announces-pricing-equity-002600271.html",
    "date": "2026-11-13",
@@ -37,20 +71,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/does-southern-1-75-billion-232634325.html",
    "date": "2026-11-12",
    "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Southern Company Announces $1.75 Billion Equity Units Offering to Repurchase Convertible Notes",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/southern-company-announces-1-75-140137732.html",
-   "date": "2026-11-12",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Southern Company announces equity units offering",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/southern-company-announces-equity-units-113900917.html",
-   "date": "2026-11-12",
-   "publisher": "PR Newswire",
    "via": "Yahoo"
   }
  ],
@@ -156,14 +176,14 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 4.98,
-  "saleNy": 6.03,
-  "epsCy": 7.69,
-  "epsNy": 6.55,
-  "cyTrend": 0.9,
+  "saleCy": 5.15,
+  "saleNy": 5.98,
+  "epsCy": 7.67,
+  "epsNy": 6.57,
+  "cyTrend": 0.83,
   "nyTrend": 0.21,
   "newHigh52": false,
-  "bbCenterBrk5d": false,
+  "bbCenterBrk5d": true,
   "fs": {
    "sale": [
     0.06,

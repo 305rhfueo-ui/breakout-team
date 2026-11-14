@@ -515,8 +515,344 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-14",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "Nvidia 6주 연속 하락, 시총 1.7조 달러 증발",
+        "easy": "Nvidia 주가가 이번 주 13% 빠지며 6주 연속 주간 하락을 기록했다. 창업자 젠슨 황이 두 건의 혼외 관계가 공개된 뒤 목요일 사임한 것이 방아쇠였다. 10월 초 하락이 시작된 뒤 사라진 시가총액은 약 1조 7천억 달러다. 지수를 끌고 온 대표주가 흔들리니 시장 전체가 같이 눌린다.",
+        "whyMatters": "반도체와 AI 서버·전력 설비처럼 Nvidia 수요에 얹혀 있던 업종에 직접 불리하다. 반면 지금 후보가 몰려 있는 헬스케어처럼 AI와 거리가 먼 쪽으로 돈이 옮겨가는 흐름은 이어질 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+            "date": "2026-11-13",
+            "quote": "Nvidia shares plunged 13% this week, and just wrapped their sixth straight weekly decline.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nvidia's stock is on a losing streak not seen in 14 years. What comes next?",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+            "date": "2026-11-13",
+            "quote": "Nvidia's stock is on a losing streak not seen in 14 years. What comes next?",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "연준 설문, AI를 금융 최대 위험으로 꼽았다",
+        "easy": "연준이 금요일 공개한 설문에서 응답자 87%가 AI를 금융 시스템의 뚜렷한 위험으로 지목했다. 올해 봄 조사의 50%에서 크게 뛴 수치다. 두 번째로 많이 꼽힌 위험은 위험자산 가격 조정으로 52%였다. AI 투자에 돈이 너무 몰렸다는 걱정을 감독 당국까지 공유한다는 뜻이다.",
+        "whyMatters": "데이터센터 건설과 반도체 구매에 자금을 대 온 은행·대출 쪽 심리가 식을 수 있어 반도체와 클라우드에 부담이다. 반대로 유틸리티·필수소비재처럼 AI 투자와 무관한 방어 업종은 상대적으로 낫다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+            "date": "2026-11-13",
+            "quote": "Of the group, 87% cited AI as a 'salient risk' to the system. That was up from 50% in the survey during the spring of this year and well ahead of the next most-cited danger, a risk asset correction, which was mentioned by 52% of those surveyed.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Nvidia 스캔달, 워싱턴 조사로 번졌다",
+        "easy": "황 전 CEO가 중국 스파이 의혹이 걸린 스캔달로 물러나면서 불씨가 워싱턴으로 옮겨갔다. 러트닉 상무장관은 이 사건을 두고 질문을 받고 있고, 그의 아들들이 일하는 회사가 Nvidia와 깊은 거래 관계라는 점이 문제가 됐다. 상무부는 대중국 반도체 수출 허가를 쥐고 있는 부처다. 조사 범위가 넓어지면 허가 절차가 늦어질 수 있다.",
+        "whyMatters": "중국 매출이 걸린 반도체와 반도체 장비 업종에 정책 불확실성이 더해진다. 수출 허가 일정에 매출이 달린 기업일수록 영향이 크다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+            "date": "2026-11-13",
+            "quote": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+            "date": "2026-11-13",
+            "quote": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 중국 방문서 Nvidia 의혹 안 꺼낸다",
+        "easy": "트럼프 대통령이 이번 중국 방문에서 Nvidia 관련 스파이 의혹을 의제로 올리지 않을 계획이라고 미국 관리들이 밝혔다. 선전에서 열리는 APEC 정상회의 참석길이며 일론 머스크가 동행한다. 백악관은 시진핑·푸틴과의 3자 회담도 예고했다. 스캔달이 미중 협상 자체를 흔들지는 않는 방향으로 정리되는 모습이다.",
+        "whyMatters": "중국 매출 비중이 큰 반도체와 Tesla 같은 기업에 얹히던 관세·규제 불확실성이 더 커지지는 않는 쪽이다. 다만 대중국 수출 허가가 풀린다는 뜻은 아니니 회담 결과 문구를 지켜보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Trump doesn't plan to raise Nvidia, spy issue during China trip: U.S. officials",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+            "date": "2026-11-14",
+            "quote": "President Donald Trump does not plan to raise the issue of a suspected Chinese spy having an affair with former Nvidia CEO Jensen Huang during his upcoming trip to China, senior U.S. officials said.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "전국 항공 이륙중지 4시간, 주말까지 결항",
+        "easy": "FAA가 전국 항공기 이륙을 네 시간 넘게 멈춘 뒤 해제했다. 원인은 관제에 쓰는 통신 라우터가 데이터 과부하로 멈춘 것이었다. 결항은 주말까지 이어지고 항공 운항 정상화에는 며칠이 걸릴 전망이다. 설비 고장 한 건이 전국 노선을 세운 사건이다.",
+        "whyMatters": "JetBlue 같은 항공사와 공항 관련 매출에 단기 타격이고, 결항이 길어지면 여행·호텔 수요도 같이 밀린다. 관제 설비 교체 예산이 늘면 항공 인프라 장비 쪽은 반대로 수혜다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "FAA lifts ground stop after four hours, but flight cancellations will stretch into the weekend",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+            "date": "2026-11-14",
+            "quote": "telecommunications routers were overloaded with data. 'They went down,'",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+            "date": "2026-11-14",
+            "quote": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "마이크로소프트, 대규모 장애에 사과했다",
+        "easy": "Outlook을 포함한 Microsoft 365 서비스가 멈춰 업무가 광범위하게 막혔다. 회사는 앞서 진행한 네트워크 증설 작업에서 생긴 문제 때문이라고 밝혔다. 장애는 목요일 오후 1시 직전에 시작돼 다음 날까지 이어졌고, 회사는 깊이 사과했다. 기업용 클라우드도 하루치 업무를 세울 수 있다는 점이 드러났다.",
+        "whyMatters": "Microsoft 같은 클라우드·기업 소프트웨어 업종에는 서비스 신뢰 문제가 남고 보상 요구가 뒤따를 수 있다. 반대로 이중화·백업·모니터링을 파는 기업 IT 업종에는 수요 명분이 생긴다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+            "date": "2026-11-13",
+            "quote": "In a statement, Microsoft said the connectivity disruption stemmed from 'an issue during an earlier network capacity upgrade.'",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-13",
+            "quote": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "새로 사기에 좋은 때는 아니다. QQQ 종가가 679.89로 10일선이 20일선 아래에 19일째 머물고 50일선도 밑이어서, 돌파 매수가 통하지 않는 구간이다. 오늘 뉴스는 그 약세의 이유를 그대로 보여준다 — 지수를 끌어온 AI 대표주가 경영진 공백과 규제 조사에 동시에 노출됐고, 감독 당국 설문에서도 AI가 최대 위험으로 꼽혔다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 22.4% 늘어 있다는 것으로, 하락이 빨라지면 강제 매도가 붙어 낙폭을 키운다. 이번 주는 Nvidia의 7주째 하락 여부, 트럼프의 중국 정상회담에서 나올 반도체 수출 관련 문구, 그리고 지금 후보가 몰려 있는 헬스케어가 주도권을 이어가는지를 보면 된다.",
+    "keyRisks": [
+      "AI 쏠림의 되돌림: 지수를 끌어온 AI 관련주가 꺾이는 중인데 대체할 주도 업종이 아직 뚜렷하지 않다.",
+      "빚투 청산: 신용으로 산 주식이 쌓여 있어 하락이 빨라지면 강제 매도가 붙고 낙폭이 커진다.",
+      "반도체 수출 정책 지연: 상무부를 둘러싼 조사가 길어지면 대중국 허가 일정이 밀려 매출 전망이 흔들린다.",
+      "인프라 사고의 누적: 항공 관제와 클라우드 장애가 잇따르면 실물 수요 위축과 기업 비용 증가로 이어진다."
+    ],
+    "easySummary": [
+      "Nvidia가 CEO 사임 충격으로 6주 연속 떨어지며 시총 1조 7천억 달러를 잃었고, 지수도 같이 눌렸다.",
+      "연준 설문에서 응답자 87%가 AI를 금융 최대 위험으로 꼽아, AI 투자 쏠림에 대한 경계가 커졌다.",
+      "QQQ는 단기선이 중기선 아래에 19일째 머물러 새 매수는 보류하고 보유분 점검이 맞는 구간이다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 121,
+      "ok": 198,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 9,
+      "removed": [],
+      "numberCut": 26,
+      "numberCuts": [
+        {
+          "sentence": "7~9월 분기 세전이익이 1억 367만 달러로 1년 전보다 250% 늘었고, 세전이익률도 13.4%로 직전 분기(8.9%)보다 크게 올랐다.",
+          "missing": [
+            "250",
+            "8.9"
+          ]
+        },
+        {
+          "sentence": "주가는 8월 5일 고점 114달러에서 27% 낮고 한 달 -9%, 석 달 -11%다.",
+          "missing": [
+            "27",
+            "9",
+            "11"
+          ]
+        },
+        {
+          "sentence": "3분기 13.4%가 계속될지는 다음 분기에 확인된다.",
+          "missing": [
+            "13.4"
+          ]
+        },
+        {
+          "sentence": "직전 분기(6월 말) 매출은 2.98억 달러로 1년 전보다 18.3% 늘어, 2025년 9월 분기의 41.1%에서 크게 내려왔다.",
+          "missing": [
+            "41.1"
+          ]
+        },
+        {
+          "sentence": "회사가 올해 조정 주당순이익 전망을 45.60~46.40달러로 올렸고, 증권사 목표주가 평균은 10% 올랐다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "계약 직전 종가 72.96달러에 약 30% 웃도는 가격이다.",
+          "missing": [
+            "72.96",
+            "30"
+          ]
+        },
+        {
+          "sentence": "주가가 인수가 95달러 바로 아래(94.96달러)에 붙어 있는 이유다.",
+          "missing": [
+            "95",
+            "94.96"
+          ]
+        },
+        {
+          "sentence": "가격은 인수가 95달러에 고정돼 있어 더 오를 이유가 없다.",
+          "missing": [
+            "95"
+          ]
+        },
+        {
+          "sentence": "2분기(4~6월) 매출이 117억 달러로 1년 전보다 56% 늘었고, 영업이익은 12.7억 달러로 약 29배가 됐다.",
+          "missing": [
+            "29"
+          ]
+        },
+        {
+          "sentence": "2025년 12월 분기 영업이익은 1.3억 달러, 영업이익률 1.8%에 그쳤다.",
+          "missing": [
+            "1.3억 달러"
+          ]
+        },
+        {
+          "sentence": "실적 발표 때 회사가 연간 이익 전망을 중간값 기준 주당 약 3달러 올렸다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "실적 발표 당일 52주 신고가를 새로 썼고, 6개월 상승률은 83.9%다.",
+          "missing": [
+            "83.9"
+          ]
+        },
+        {
+          "sentence": "현재가 226달러보다 약 9% 높은 수준이다.",
+          "missing": [
+            "226",
+            "9"
+          ]
+        },
+        {
+          "sentence": "2분기(6월 말 기준) 매출은 1년 전보다 22.2% 늘었지만 순이익은 7% 줄었다.",
+          "missing": [
+            "22.2"
+          ]
+        },
+        {
+          "sentence": "주당순이익 3.29달러, 매출 186.8억 달러로 시장 예상(3.18달러, 180.3억 달러)보다 좋았고, 당일 주가는 장중 22% 넘게 뛰었다가 약 16% 상승으로 마감했다.",
+          "missing": [
+            "180.3억 달러",
+            "3.18",
+            "22",
+            "16"
+          ]
+        },
+        {
+          "sentence": "분기 매출은 3억 619만 달러로 1년 전보다 11% 늘었다.",
+          "missing": [
+            "3억 619만 달러",
+            "11"
+          ]
+        },
+        {
+          "sentence": "이는 현재 주가 257달러보다 높은 수준이다.",
+          "missing": [
+            "257"
+          ]
+        },
+        {
+          "sentence": "영업이익은 3분기 8,100만 달러로 1년 전보다 6.8% 늘었고 영업이익률은 26.5%였다.",
+          "missing": [
+            "8,100만 달러",
+            "6.8",
+            "26.5"
+          ]
+        },
+        {
+          "sentence": "직전 분기에 영업이익이 10.2% 줄었던 것에서 다시 늘었다.",
+          "missing": [
+            "10.2"
+          ]
+        },
+        {
+          "sentence": "같은 시기에 17억 5천만 달러 규모 지분 연계 증권(equity units) 발행 가격이 정해졌습니다.",
+          "missing": [
+            "17억 5"
+          ]
+        },
+        {
+          "sentence": "11월 12일 IBP가 올드도미니언그룹을 기업가치 6억 9,800만 달러에 인수한다고 발표했다.",
+          "missing": [
+            "6억 9,800만 달러"
+          ]
+        },
+        {
+          "sentence": "2026-10-28 발표한 1분기 실적이 이익·매출 예상치를 모두 밑돌았다.",
+          "missing": [
+            "10",
+            "28"
+          ]
+        },
+        {
+          "sentence": "1분기 실적 발표 컨퍼런스콜 전문이 2026-10-29 공개됐다.",
+          "missing": [
+            "10",
+            "29"
+          ]
+        },
+        {
+          "sentence": "최근 분기 매출 2.88억 달러, 1년 전보다 3.5% 감소(직전 분기는 +4.2%).",
+          "missing": [
+            "4.2"
+          ]
+        },
+        {
+          "sentence": "PER 약 200배, PBR 약 11배다.",
+          "missing": [
+            "200"
+          ]
+        },
+        {
+          "sentence": "11월 5일 3분기 실적 발표(8-K)와 함께 실적 보도자료가 나왔다.",
+          "missing": [
+            "8"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-14"
   }
 };

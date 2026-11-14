@@ -1,0 +1,144 @@
+{
+ "ticker": "STN",
+ "news": [
+  {
+   "title": "Stantec (STN) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/stantec-stn-q3-2026-earnings-call-transcript",
+   "date": "2026-11-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "STN Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/stn-makes-bullish-cross-above-critical-moving-average",
+   "date": "2026-11-13",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Stantec Stock Soared on Friday",
+   "url": "https://www.nasdaq.com/articles/why-stantec-stock-soared-friday",
+   "date": "2026-11-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Stantec (STN) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/stantec-stn-tops-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stantec Q3 Net Income Climbs, Revenue Grows",
+   "url": "https://www.nasdaq.com/articles/stantec-q3-net-income-climbs-revenue-grows",
+   "date": "2026-11-12",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Will Stantec (STN) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-stantec-stn-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-11-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stantec (STN) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/stantec-stn-earnings-expected-grow-should-you-buy",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stantec (STN) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/stantec-stn-q2-2026-earnings-call-transcript",
+   "date": "2026-08-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Stantec Inc (STN) Q3 2026 Earnings Call Highlights: Strong Organic Growth and Raised Guidance ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-inc-stn-q3-2026-230401862.html",
+   "date": "2026-11-13",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stantec (STN) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-stn-q3-2026-earnings-211544503.html",
+   "date": "2026-11-13",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Stantec Stock Soared on Friday",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-stantec-stock-soared-friday-201229548.html",
+   "date": "2026-11-13",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stantec Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-q3-earnings-call-highlights-171504903.html",
+   "date": "2026-11-13",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stantec (STN) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-stn-tops-q3-earnings-233502440.html",
+   "date": "2026-11-12",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stantec Q3 Adjusted Earnings, Revenue Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-q3-adjusted-earnings-revenue-222709473.html",
+   "date": "2026-11-12",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stantec Q3 Adjusted Earnings Jumps Near 24% YoY, Beats Forecast",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-q3-adjusted-earnings-jumps-221754328.html",
+   "date": "2026-11-12",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Stantec: Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-q3-earnings-snapshot-220712784.html",
+   "date": "2026-11-12",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.01,
+  "saleNy": 5.74,
+  "epsCy": 16.96,
+  "epsNy": 11.49,
+  "cyTrend": -0.08,
+  "nyTrend": -0.2,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.31,
+    12.51,
+    8.05
+   ],
+   "ni": [
+    10.9,
+    15.86,
+    -1.31
+   ],
+   "opm": [
+    10.27,
+    8.27,
+    7.43
+   ],
+   "updated": "2026-09-07 07:16:13"
+  }
+ }
+}

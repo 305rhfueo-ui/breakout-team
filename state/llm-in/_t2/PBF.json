@@ -1,0 +1,232 @@
+{
+ "ticker": "PBF",
+ "sector": "Energy",
+ "industry": "Oil & Gas Refining & Marketing",
+ "nameKo": "PBF 에너지",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 46.87,
+  "saleNy": -11.05,
+  "epsCy": -767.93,
+  "epsNy": -29.58,
+  "est": {
+   "cyCur": 27.58546,
+   "cy30": 23.79132,
+   "nyCur": 19.425,
+   "ny30": 17.405
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": null,
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-11-12"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 2
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "PBF 에너지",
+  "nameEn": "PBF ENERGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 11678300000,
+     "profit": 1272100000,
+     "netIncome": 906400000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 56.2,
+      "profit": 2858.4,
+      "netIncome": 17530.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7904300000,
+     "profit": 299600000,
+     "netIncome": 198300000,
+     "margin": 3.8,
+     "yoy": {
+      "revenue": 11.9,
+      "profit": 158.6,
+      "netIncome": 149.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 7139500000,
+     "profit": 128000000,
+     "netIncome": 78400000,
+     "margin": 1.8,
+     "yoy": {
+      "revenue": -2.9,
+      "profit": 133.4,
+      "netIncome": 127.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 7651100000,
+     "profit": 285900000,
+     "netIncome": 170100000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": -8.7,
+      "profit": 174,
+      "netIncome": 159.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "PBF Energy (PBF) is a Top-Ranked Value Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/pbf-energy-pbf-top-ranked-value-stock-should-you-buy",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PBF Energy Is Now Undervalued: Is This a Strong Entry Point?",
+     "url": "https://www.nasdaq.com/articles/pbf-energy-now-undervalued-strong-entry-point",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cash Dividend On The Way From PBF Energy",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-pbf-energy",
+     "date": "2026-11-10",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Can PBF's Chalmette Jet Fuel Expansion Drive Margin Growth?",
+     "url": "https://www.nasdaq.com/articles/can-pbfs-chalmette-jet-fuel-expansion-drive-margin-growth",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000043/pbf-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000039/pbf-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000035/pbf-20261014.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000033/pbf-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526394108/d175053d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526391405/d175358d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Microsoft, Teladoc & more",
+   "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-midday-meta-msft-mktx-crox.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "PBF",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 6.3,
+  "pbr": 1.32,
+  "eps": 11.31,
+  "bps": 54.06,
+  "shares": 121325000,
+  "marketCapM": 8648,
+  "high52": 92.029,
+  "high52Date": "2026-10-14",
+  "low52": 25.0378,
+  "low52Date": "2025-12-18",
+  "last": 71.28,
+  "prevClose": 70.96,
+  "nameKo": "PBF 에너지",
+  "nameEn": "PBF ENERGY INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 121325000
+ }
+}

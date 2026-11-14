@@ -1,0 +1,95 @@
+{
+ "ticker": "GRVY",
+ "news": [
+  {
+   "title": "Gravity Q3 Earnings Climb 7.7%",
+   "url": "https://www.nasdaq.com/articles/gravity-q3-earnings-climb-77",
+   "date": "2026-11-13",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Gravity Q2 Profit Rises",
+   "url": "https://www.nasdaq.com/articles/gravity-q2-profit-rises",
+   "date": "2025-08-08",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "GRAVITY Co., Ltd. Launches Dragonica Origin MMORPG in Southeast Asia",
+   "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-dragonica-origin-mmorpg-southeast-asia",
+   "date": "2025-07-16",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "GRAVITY Co., Ltd. Launches Ragnarok: Twilight and Ragnarok Zero in Taiwan, Hong Kong, and Macau",
+   "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-twilight-and-ragnarok-zero-taiwan-hong-kong-and-macau",
+   "date": "2025-07-09",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "GRAVITY Co., Ltd. Launches Ragnarok: Twilight MMORPG Mobile Game in Taiwan, Hong Kong, and Macau",
+   "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-twilight-mmorpg-mobile-game-taiwan-hong-kong-and-macau",
+   "date": "2025-07-03",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "GRAVITY Co., Ltd. Launches Ragnarok Zero MMORPG in Taiwan, Hong Kong, and Macau",
+   "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-zero-mmorpg-taiwan-hong-kong-and-macau",
+   "date": "2025-07-03",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "GRAVITY Co., Ltd. Announces ISBN Approval for RPG Game &quot;Ragnarok: Promised Adventure&quot; in China",
+   "url": "https://www.nasdaq.com/articles/gravity-co-ltd-announces-isbn-approval-rpg-game-ragnarok-promised-adventure-china",
+   "date": "2025-05-27",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "GRAVITY Co., Ltd. Launches Ragnarok Idle Adventure Plus in Taiwan, Hong Kong, and Macau",
+   "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-idle-adventure-plus-taiwan-hong-kong-and-macau",
+   "date": "2025-05-21",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "Gravity Reports Third Quarter of 2026 Result and Business Updates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gravity-reports-third-quarter-2026-110000887.html",
+   "date": "2026-11-13",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -17.14,
+    17.76,
+    -6.4
+   ],
+   "ni": [
+    60.61,
+    33.38,
+    -41.4
+   ],
+   "opm": [
+    17.04,
+    19.04,
+    10.72
+   ],
+   "updated": "2026-09-08 10:08:13"
+  }
+ }
+}

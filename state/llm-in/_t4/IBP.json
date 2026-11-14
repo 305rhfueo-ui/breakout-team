@@ -1,0 +1,232 @@
+{
+ "ticker": "IBP",
+ "news": [
+  {
+   "title": "Installed Bldg Products (IBP) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/installed-bldg-products-ibp-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Installed Building Products (IBP) Misses Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/installed-building-products-ibp-misses-q3-earnings-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Analysts Estimate Installed Building Products (IBP) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-installed-building-products-ibp-report-decline-earnings-what-look-out",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "OC vs. IBP: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/oc-vs-ibp-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Down 18.6% in 4 Weeks, Here's Why Installed Building Products (IBP) Looks Ripe for a Turnaround",
+   "url": "https://www.nasdaq.com/articles/down-186-4-weeks-heres-why-installed-building-products-ibp-looks-ripe-turnaround",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Installed Building Products Shares Rise After Upgrade From Deutsche Bank",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/installed-building-products-shares-rise-195117620.html",
+   "date": "2026-11-13",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Update: Deutsche Bank Upgrades Installed Building Products to Buy From Hold, Raises Price Target to $260 From $212",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-upgrades-installed-building-134228660.html",
+   "date": "2026-11-13",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Upgrades Installed Building Products to Buy From Hold, Price Target is $260",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-upgrades-installed-building-101353317.html",
+   "date": "2026-11-13",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Installed Building Products (IBP) Rallies After Old Dominion Deal While Valuation Debate Builds",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/installed-building-products-ibp-rallies-091850192.html",
+   "date": "2026-11-13",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Does Installed Building Products (IBP) Have More Value After Its $698 Million Deal?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-installed-building-products-ibp-081131286.html",
+   "date": "2026-11-13",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Does Installed Building Products (IBP) Change Its Growth Case With This Acquisition?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-installed-building-products-ibp-071255484.html",
+   "date": "2026-11-13",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Installed Building Products Acquires Old Dominion Group in $698 Million Deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/installed-building-products-acquires-old-143216721.html",
+   "date": "2026-11-12",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Installed Building Products Expands Commercial and Industrial Platform With Acquisition of Old Dominion Group",
+   "url": "https://finance.yahoo.com/real-estate/articles/installed-building-products-expands-commercial-123000800.html",
+   "date": "2026-11-12",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-12",
+   "reportDate": "2026-11-12",
+   "items": [
+    "1.01",
+    "3.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026073103/ibp-20261112.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026070582/ibp-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "1.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026067610/ibp-20261027.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-19",
+   "reportDate": "2026-10-19",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026066316/ibp-20261019.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-01",
+   "reportDate": "2026-10-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026064105/ibp-20261001.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-20260806.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.96,
+  "saleNy": 7.31,
+  "epsCy": -13.3,
+  "epsNy": 1.58,
+  "cyTrend": -4.57,
+  "nyTrend": -8.31,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    2.3,
+    -3.55,
+    -0.36
+   ],
+   "ni": [
+    -5.94,
+    -23.35,
+    14.5
+   ],
+   "opm": [
+    12.16,
+    8.72,
+    14.56
+   ],
+   "updated": "2026-09-08 07:20:35"
+  }
+ }
+}

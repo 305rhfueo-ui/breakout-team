@@ -1,0 +1,717 @@
+{
+ "ticker": "XMTR",
+ "date": "2026-11-14",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "XMTR",
+  "name": "조메트리",
+  "sector": "Industrials",
+  "industry": "Industrial Distribution",
+  "price": 119.61,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 8.25,
+  "extensionAdr": 0.5,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3578353835212191,
+    "pct": 98.87285843101894
+   },
+   "m3": {
+    "v": 0.48166834173565276,
+    "pct": 99.59422903516682
+   },
+   "m6": {
+    "v": 0.3581335478606141,
+    "pct": 83.18304779080252
+   }
+  },
+  "ret1m": 31.57,
+  "ret3m": 43.9,
+  "ret6m": 29.11,
+  "marketCap": "6.89B",
+  "volx": 0.73,
+  "volSurgeWk": 0.54,
+  "high52": 93.82,
+  "newHigh52": false,
+  "adr": 8.25,
+  "div50": 18.43,
+  "div200": 52.24,
+  "targetStatus": true,
+  "saleCy": 37.31,
+  "saleNy": 22.81,
+  "epsCy": 118.14,
+  "epsNy": 65.42,
+  "cyTrend": 17.67,
+  "nyTrend": 6.85,
+  "est": {
+   "cyCur": 0.82892,
+   "cy30": 0.70447,
+   "nyCur": 1.37118,
+   "ny30": 1.28331
+  },
+  "fs": {
+   "sale": [
+    41.05,
+    35.88,
+    29.52
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -2.42,
+    -2.54,
+    -4.56
+   ],
+   "updated": "2026-09-08 07:01:49"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-13",
+   "m3": "2026-11-10",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 4,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "조메트리",
+  "nameEn": "XOMETRY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001657573&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 229280000,
+     "profit": -5545000,
+     "netIncome": -5314000,
+     "margin": -2.4,
+     "yoy": {
+      "revenue": 41.1,
+      "profit": 46.1,
+      "netIncome": 79.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 205138000,
+     "profit": -5220000,
+     "netIncome": -5259000,
+     "margin": -2.5,
+     "yoy": {
+      "revenue": 35.9,
+      "profit": 66.1,
+      "netIncome": 65.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 192397000,
+     "profit": -8776000,
+     "netIncome": -8638000,
+     "margin": -4.6,
+     "yoy": {
+      "revenue": 29.5,
+      "profit": 23.8,
+      "netIncome": 12.7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 180715000,
+     "profit": -11059000,
+     "netIncome": -11597000,
+     "margin": -6.1,
+     "yoy": {
+      "revenue": 27.5,
+      "profit": 3.7,
+      "netIncome": -13.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Xometry Consensus Price Target Increased by 11.98% to $127.13",
+     "url": "https://www.nasdaq.com/articles/xometry-consensus-price-target-increased-1198-12713",
+     "date": "2026-11-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Xometry: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/xometry-3-key-takeaways-long-term-investors",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Xometry (XMTR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/xometry-xmtr-q3-2026-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Xometry (XMTR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-xometry-xmtr-said-its-q3-earnings-call",
+     "date": "2026-11-03",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Xometry, Inc. Reports Record Third Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/xometry-inc-reports-record-third-quarter-2026-results",
+     "date": "2026-11-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Xometry (XMTR) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/xometry-xmtr-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Xometry CEO Sells 1,500 Shares Amid a 67% One-Year Return",
+     "url": "https://www.nasdaq.com/articles/xometry-ceo-sells-1500-shares-amid-67-one-year-return",
+     "date": "2026-10-01",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Xometry Director Sells 10,000 Shares",
+     "url": "https://www.nasdaq.com/articles/xometry-director-sells-10000-shares",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526449980/xmtr-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526444354/xmtr-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526275887/xmtr-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526253897/d109952d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526234396/xmtr-20260520.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "XMTR",
+  "fetchedAt": "2026-11-14",
+  "source": "한국투자증권 Open API",
+  "per": 200.82,
+  "pbr": 11.47,
+  "eps": 0.6,
+  "bps": 10.43,
+  "shares": 56162600,
+  "marketCapM": 6718,
+  "high52": 127.49,
+  "high52Date": "2026-11-11",
+  "low52": 35.86,
+  "low52Date": "2026-03-12",
+  "last": 119.61,
+  "prevClose": 120.78,
+  "nameKo": "조메트리",
+  "nameEn": "XOMETRY INC",
+  "listedOn": "2021-06-29",
+  "exchange": "나스닥",
+  "listedShares": 56162600
+ },
+ "estimates": {
+  "ticker": "XMTR",
+  "url": "https://finance.yahoo.com/quote/XMTR/analysis/",
+  "fetchedAt": "2026-11-14",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.27,
+    "epsLow": 0.24,
+    "epsHigh": 0.3,
+    "epsYearAgo": 0.16,
+    "epsAnalysts": 10,
+    "epsGrowth": 71,
+    "epsCur": "USD",
+    "rev": 255907960,
+    "revAnalysts": 12,
+    "revYearAgo": 192398000,
+    "revGrowth": 33,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.27,
+    "epsLow": 0.24,
+    "epsHigh": 0.31,
+    "epsYearAgo": 0.12,
+    "epsAnalysts": 8,
+    "epsGrowth": 124,
+    "epsCur": "USD",
+    "rev": 257948060,
+    "revAnalysts": 9,
+    "revYearAgo": 205138000,
+    "revGrowth": 25.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 0.83,
+    "epsLow": 0.79,
+    "epsHigh": 0.86,
+    "epsYearAgo": 0.38,
+    "epsAnalysts": 10,
+    "epsGrowth": 118.1,
+    "epsCur": "USD",
+    "rev": 942803620,
+    "revAnalysts": 12,
+    "revYearAgo": 686631000,
+    "revGrowth": 37.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 1.37,
+    "epsLow": 1.2,
+    "epsHigh": 1.5,
+    "epsYearAgo": 0.83,
+    "epsAnalysts": 10,
+    "epsGrowth": 65.4,
+    "epsCur": "USD",
+    "rev": 1157820120,
+    "revAnalysts": 12,
+    "revYearAgo": 942803620,
+    "revGrowth": 22.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.27,
+    "d7": 0,
+    "d30": 14.6,
+    "d90": 15.8,
+    "ago90": 0.24,
+    "up7": 4,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.27,
+    "d7": 0,
+    "d30": 12.9,
+    "d90": 12.9,
+    "ago90": 0.24,
+    "up7": 1,
+    "up30": 1,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.83,
+    "d7": 0,
+    "d30": 17.7,
+    "d90": 18.7,
+    "ago90": 0.7,
+    "up7": 6,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 1.37,
+    "d7": 0,
+    "d30": 6.8,
+    "d90": 7,
+    "ago90": 1.28,
+    "up7": 6,
+    "up30": 6,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.28,
+    "estimate": 0.19,
+    "surprisePct": 50.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.16,
+    "estimate": 0.16,
+    "surprisePct": -1.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.12,
+    "estimate": 0.09,
+    "surprisePct": 30.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.16,
+    "estimate": 0.12,
+    "surprisePct": 38.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 10,
+   "ptLowered": 0,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-11-13",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 140,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 108,
+     "ptPrior": 95
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 132,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 140,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 117,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 140,
+     "ptPrior": 126
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Citizens",
+     "action": "main",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Raises",
+     "pt": 135,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 130,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 114,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 110
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-03",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-13",
+  "numbers": {
+   "price": 119.61,
+   "ma20": 104.03,
+   "ma50": 101,
+   "ma150": 88.97,
+   "distMA50": 18.43,
+   "periodHigh": 127.49,
+   "pullbackFromHigh": -6.18,
+   "volRatio20": 0.65,
+   "dryUpRatio": 1.08
+  },
+  "last10": [
+   {
+    "d": "2026-11-02",
+    "o": 95.23,
+    "h": 103,
+    "l": 92,
+    "c": 95.49,
+    "v": 1479600,
+    "clsPos": 32,
+    "gapPct": 1.69
+   },
+   {
+    "d": "2026-11-03",
+    "o": 87.8,
+    "h": 117.5,
+    "l": 87,
+    "c": 111.29,
+    "v": 2449000,
+    "clsPos": 80,
+    "gapPct": -8.05
+   },
+   {
+    "d": "2026-11-04",
+    "o": 110.49,
+    "h": 117.44,
+    "l": 107,
+    "c": 113.52,
+    "v": 973700,
+    "clsPos": 62,
+    "gapPct": -0.72
+   },
+   {
+    "d": "2026-11-05",
+    "o": 113.45,
+    "h": 113.45,
+    "l": 103.93,
+    "c": 109.01,
+    "v": 904100,
+    "clsPos": 53,
+    "gapPct": -0.06
+   },
+   {
+    "d": "2026-11-06",
+    "o": 112.23,
+    "h": 117.94,
+    "l": 108.19,
+    "c": 114.95,
+    "v": 1101700,
+    "clsPos": 69,
+    "gapPct": 2.95
+   },
+   {
+    "d": "2026-11-09",
+    "o": 118.03,
+    "h": 123.39,
+    "l": 118.03,
+    "c": 120.59,
+    "v": 923100,
+    "clsPos": 48,
+    "gapPct": 2.68
+   },
+   {
+    "d": "2026-11-10",
+    "o": 120.4,
+    "h": 122.68,
+    "l": 114.13,
+    "c": 119.31,
+    "v": 1538400,
+    "clsPos": 61,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-11-11",
+    "o": 121.37,
+    "h": 127.49,
+    "l": 121.37,
+    "c": 122.47,
+    "v": 1115500,
+    "clsPos": 18,
+    "gapPct": 1.73
+   },
+   {
+    "d": "2026-11-12",
+    "o": 120,
+    "h": 124.67,
+    "l": 117.48,
+    "c": 120.78,
+    "v": 663400,
+    "clsPos": 46,
+    "gapPct": -2.02
+   },
+   {
+    "d": "2026-11-13",
+    "o": 123.12,
+    "h": 127,
+    "l": 118.37,
+    "c": 119.61,
+    "v": 576700,
+    "clsPos": 14,
+    "gapPct": 1.94
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/XMTR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/XMTR-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 19일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "새 AI 가격·소싱 모델과 대기업 고객 확대가 마켓플레이스 43% 성장을 끌고 있다",
+  "researchedOn": "2026-11-11"
+ }
+}
