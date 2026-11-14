@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-15",
+  "count": 35,
+  "tickers": [
+    "APP",
+    "MRNA",
+    "KOD",
+    "GKOS",
+    "EPAM",
+    "ORKA",
+    "TXG",
+    "GRAL",
+    "ELF",
+    "ALGT",
+    "XMTR",
+    "HNGE",
+    "CRL",
+    "ANF",
+    "HRI",
+    "AGL",
+    "PRAX",
+    "VEON",
+    "OKTA",
+    "WING",
+    "FROG",
+    "ECO",
+    "RYTM",
+    "VSXY",
+    "RHLD",
+    "PBF",
+    "SYRE",
+    "TRNS",
+    "SWKS",
+    "KNSA",
+    "TMDX",
+    "SEZL",
+    "RNG",
+    "TEAM",
+    "TWST"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 6,
+      "sharePct": 17.1,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "ORKA",
+        "PRAX",
+        "RYTM",
+        "SYRE"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 5,
+        "m3": 2,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Medical Devices",
+      "level": "Industry",
+      "name": "Medical Devices",
+      "count": 3,
+      "sharePct": 8.6,
+      "tickers": [
+        "GKOS",
+        "TXG",
+        "TMDX"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 3,
+      "sharePct": 8.6,
+      "tickers": [
+        "GRAL",
+        "CRL",
+        "TWST"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 3,
+      "sharePct": 8.6,
+      "tickers": [
+        "FROG",
+        "RNG",
+        "TEAM"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 0,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "ANF",
+        "VSXY"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Specialty Business Services",
+      "level": "Industry",
+      "name": "Specialty Business Services",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "RHLD",
+        "TRNS"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 0,
+        "m6": 0
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "APP",
+      "KOD",
+      "GKOS",
+      "EPAM",
+      "ORKA",
+      "ALGT",
+      "XMTR",
+      "HRI",
+      "AGL",
+      "PRAX",
+      "FROG",
+      "RYTM",
+      "RHLD",
+      "SYRE",
+      "TRNS",
+      "TMDX"
+    ],
+    "m3": [
+      "APP",
+      "MRNA",
+      "KOD",
+      "GKOS",
+      "EPAM",
+      "GRAL",
+      "XMTR",
+      "HNGE",
+      "ANF",
+      "VEON",
+      "OKTA",
+      "WING",
+      "ECO",
+      "SWKS",
+      "SEZL"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "GKOS",
+      "ORKA",
+      "TXG",
+      "ELF",
+      "HNGE",
+      "CRL",
+      "ANF",
+      "OKTA",
+      "ECO",
+      "VSXY",
+      "PBF",
+      "KNSA",
+      "RNG",
+      "TEAM",
+      "TWST"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "KOD",
+      "GKOS"
+    ],
+    "newEntrants": [
+      "ALGT",
+      "HRI",
+      "AGL",
+      "PRAX",
+      "FROG",
+      "RYTM",
+      "RHLD",
+      "SYRE",
+      "TRNS",
+      "TMDX"
+    ],
+    "midTerm": [
+      "MRNA",
+      "GRAL",
+      "HNGE",
+      "ANF",
+      "VEON",
+      "OKTA",
+      "WING",
+      "ECO",
+      "SWKS",
+      "SEZL"
+    ],
+    "fading": [
+      "TXG",
+      "ELF",
+      "CRL",
+      "VSXY",
+      "PBF",
+      "KNSA",
+      "RNG",
+      "TEAM",
+      "TWST"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "CBRS",
+      "MOD",
+      "ALNY",
+      "DUOL",
+      "STN",
+      "ATLC",
+      "JBSS",
+      "VEON",
+      "GRVY"
+    ],
+    "m1": [
+      "APP",
+      "GKOS",
+      "ORKA",
+      "ALGT",
+      "FCN",
+      "HRI",
+      "AGL",
+      "PRAX",
+      "FROG",
+      "EPAM",
+      "RYTM",
+      "CROX",
+      "XMTR",
+      "RHLD",
+      "SYRE",
+      "KOD",
+      "TRNS",
+      "TMDX",
+      "CLX",
+      "NXST",
+      "ESAB",
+      "DNTH"
+    ],
+    "m3": [
+      "KOD",
+      "MRNA",
+      "EPAM",
+      "GRAL",
+      "XMTR",
+      "ANF",
+      "SIG",
+      "VEON",
+      "WING",
+      "ACN",
+      "ECO",
+      "OKTA",
+      "HNGE",
+      "CROX",
+      "GKOS",
+      "APP",
+      "SWKS",
+      "FCN",
+      "SEZL",
+      "MCK",
+      "ATKR",
+      "DOCU"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "TXG",
+      "ELF",
+      "HNGE",
+      "CRL",
+      "GKOS",
+      "ANF",
+      "OKTA",
+      "SN",
+      "VEEV",
+      "VSXY",
+      "ECO",
+      "PBF",
+      "PAYC",
+      "MANH",
+      "HAE",
+      "KNSA",
+      "ORKA",
+      "RNG",
+      "TEAM",
+      "TWST"
+    ],
+    "all": [
+      "KOD",
+      "GKOS"
+    ]
+  }
+}

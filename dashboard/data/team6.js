@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "sessionDate": "2026-11-13",
   "rulesVersion": "0.3",
   "regime": "red",
@@ -285,6 +285,66 @@ window.TEAM6_DATA = {
       "score": 53
     },
     {
+      "ticker": "SO",
+      "name": null,
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-11-13",
+      "price": 93.59,
+      "pivot": 95.72,
+      "pivotDate": "2026-11-05",
+      "stop": 93.96,
+      "riskPerSharePct": 1.84,
+      "weightPct": 20,
+      "weightCapped": true,
+      "distToPivotPct": -2.23,
+      "distToPivotAdr": -1.18,
+      "extensionAdr": 0.09,
+      "chase": false,
+      "adrPct": 1.88,
+      "ma10": 93.43,
+      "dollarVol20M": 742.1,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +17%",
+        "베이스 3.2주",
+        "깊이 5.6%",
+        "✗ 저점 상승 0회",
+        "진폭 1.52배 · 10일 종가폭 1.3 ADR",
+        "10일선 +0.1 ADR · 20일선 +0.5 ADR",
+        "20일선 기울기 +1.21%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 16,
+        "baseWeeks": 3.2,
+        "depthPct": 5.6,
+        "priorMovePct": 17.2,
+        "higherLows": 0,
+        "contraction": 1.52,
+        "closeRange10Adr": 1.3,
+        "surf10": 0.09,
+        "surf20": 0.48,
+        "slope20": 1.21,
+        "baseLow": 90.4,
+        "lastSwingLow": 90.4
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-11-14"
+      },
+      "earnings": null,
+      "blocked": "시장 빨간불 — 신규 매수 중단",
+      "shadowBook": null,
+      "watch": false,
+      "score": 52.8
+    },
+    {
       "ticker": "EPAM",
       "name": "이팸 시스템스",
       "sector": "Technology",
@@ -514,8 +574,67 @@ window.TEAM6_DATA = {
       "score": 32.7
     }
   ],
-  "plansTotal": 9,
+  "plansTotal": 10,
   "post": [
+    {
+      "ticker": "STN",
+      "name": "스탠텍",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-11-13",
+      "price": 85.69,
+      "pivot": 79.63,
+      "pivotDate": "2026-11-04",
+      "stop": 77.62,
+      "riskPerSharePct": 2.53,
+      "weightPct": 19.8,
+      "weightCapped": false,
+      "distToPivotPct": 7.61,
+      "distToPivotAdr": 2.6,
+      "extensionAdr": 3.41,
+      "chase": true,
+      "adrPct": 2.93,
+      "ma10": 77.12,
+      "dollarVol20M": 28.8,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +22%",
+        "✗ 베이스 1.6주",
+        "깊이 8.7%",
+        "저점 상승 1회",
+        "✗ 진폭 1.46배 · 10일 종가폭 3.2 ADR",
+        "10일선 -0.3 ADR · 20일선 +0.9 ADR",
+        "20일선 기울기 +2.78%"
+      ],
+      "fails": [
+        "priorMove",
+        "baseLen",
+        "tight"
+      ],
+      "metrics": {
+        "baseBars": 8,
+        "baseWeeks": 1.6,
+        "depthPct": 8.7,
+        "priorMovePct": 21.9,
+        "higherLows": 1,
+        "contraction": 1.46,
+        "closeRange10Adr": 3.2,
+        "surf10": -0.32,
+        "surf20": 0.94,
+        "slope20": 2.78,
+        "baseLow": 72.67,
+        "lastSwingLow": 73.56
+      },
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-11-14"
+      },
+      "earnings": null,
+      "breakDate": "2026-11-13",
+      "barsSinceBreak": 0
+    },
     {
       "ticker": "MANE",
       "name": null,
@@ -1296,16 +1415,16 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 7
     }
   ],
-  "postTotal": 14,
+  "postTotal": 15,
   "counts": {
-    "evaluated": 58,
-    "near": 9,
+    "evaluated": 61,
+    "near": 10,
     "watch": 0,
     "A": 0,
     "B": 0,
-    "blocked": 9,
-    "post": 14,
-    "far": 23,
+    "blocked": 10,
+    "post": 15,
+    "far": 24,
     "noBase": 11,
     "noBars": 1
   },
@@ -1430,15 +1549,5 @@ window.TEAM6_DATA = {
     "watch": 0,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 0,
-    "total": 0,
-    "cap": 14,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(0) 조사 완료"
   }
 };

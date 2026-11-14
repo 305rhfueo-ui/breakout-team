@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -122,7 +122,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-14",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -323,7 +323,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-14",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -372,7 +372,7 @@ window.TEAM4_DATA = {
       "nameKo": "서던",
       "nameEn": "SOUTHERN CO.",
       "detail": {
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-15",
         "nameKo": "서던",
         "nameEn": "SOUTHERN CO.",
         "financials": {
@@ -1110,7 +1110,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-14",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -1227,7 +1227,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-14",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -1290,7 +1290,7 @@ window.TEAM4_DATA = {
       "nameKo": "실리콘 래브러토리스",
       "nameEn": "SILICON LABORATORIES",
       "detail": {
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-15",
         "nameKo": "실리콘 래브러토리스",
         "nameEn": "SILICON LABORATORIES",
         "financials": {
@@ -1877,7 +1877,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-11-14",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -1940,7 +1940,7 @@ window.TEAM4_DATA = {
       "nameKo": "인스톨드 빌딩 프라덕츠",
       "nameEn": "INSTALLED BUILDING PRODUCTS INC",
       "detail": {
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-15",
         "nameKo": "인스톨드 빌딩 프라덕츠",
         "nameEn": "INSTALLED BUILDING PRODUCTS INC",
         "financials": {
@@ -2611,13 +2611,13 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-14",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [],
       "nameKo": "세네카 푸즈 B",
       "nameEn": "SENECA FOODS",
       "detail": {
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-15",
         "nameKo": "세네카 푸즈 B",
         "nameEn": "SENECA FOODS",
         "financials": {
@@ -3140,13 +3140,13 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-14",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [],
       "nameKo": "그라이프 B",
       "nameEn": "GREIF INC",
       "detail": {
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-15",
         "nameKo": "그라이프 B",
         "nameEn": "GREIF INC",
         "financials": {
@@ -3689,31 +3689,14 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 7,
     "total": 7,
-    "cap": 7,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 0,
+    "carried": 7,
     "ineligible": 0,
-    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 7종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "TNK",
-        "category": 1,
-        "oneLine": "11일 장 마감 뒤 3분기 실적 발표, 조정 이익·매출 모두 늘고 분기 배당 주당 0.25달러 확정"
-      },
-      {
-        "ticker": "TWST",
-        "category": 1,
-        "oneLine": "12일 회계 4분기 매출이 시장 예상치를 넘었으나 적자는 이어짐"
-      }
-    ],
-    "sectorSignal": "실적 호재 2건(해운 탱커, 바이오 장비·서비스)이 있지만 업종이 같지 않아 한 업종 쏠림은 보이지 않습니다. 산업 기술 돌파 호재는 입력에 없습니다.",
-    "caution": "TWST는 매출만 예상을 넘고 적자가 계속돼 호재 강도가 약합니다. TNK도 입력에는 '늘었다'는 보도만 있고 예상치 대비 규모는 없어, 서프라이즈인지는 직접 확인이 필요합니다. 차트 상태는 보지 않았습니다.",
-    "researchedOn": "2026-11-13"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "STN",
@@ -3734,11 +3717,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 3건이 서로 다른 업종(서비스, 전력, 반도체)에 흩어져 있어 한 업종 쏠림은 보이지 않는다. 산업 기술 돌파 유형의 호재는 오늘 없었다.",
     "caution": "SLAB은 인수가 근처에 묶여 있어 일반적인 실적 급등 후보와 성격이 다르다. SO는 지분 연계 증권 발행이 겹쳐 있어 호재만 있는 것은 아니다. 차트 상태는 확인하지 않았으니 직접 보고 판단해야 한다.",
     "researchedOn": "2026-11-14"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 3,
-    "3": 1,
-    "6": 3
   }
 };
