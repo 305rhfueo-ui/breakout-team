@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -13,7 +13,7 @@ window.TEAM4_DATA = {
       "sector": "Industrials",
       "industry": "Engineering & Construction",
       "price": 85.69000244140625,
-      "marketCap": "8.49B",
+      "marketCap": "9.48B",
       "volx": 3.05,
       "volSurgeWk": 3.54,
       "aboveMa150": true,
@@ -22,12 +22,12 @@ window.TEAM4_DATA = {
       "high52": 79.61,
       "adr": 2.93,
       "targetStatus": false,
-      "saleCy": 9.01,
-      "saleNy": 5.74,
-      "epsCy": 16.96,
-      "epsNy": 11.49,
-      "cyTrend": -0.08,
-      "nyTrend": -0.2,
+      "saleCy": 9.32,
+      "saleNy": 5.65,
+      "epsCy": 17.78,
+      "epsNy": 11.28,
+      "cyTrend": 0.85,
+      "nyTrend": 0.61,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
@@ -172,13 +172,6 @@ window.TEAM4_DATA = {
           "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-q3-adjusted-earnings-jumps-221754328.html",
           "date": "2026-11-12",
           "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Stantec: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stantec-q3-earnings-snapshot-220712784.html",
-          "date": "2026-11-12",
-          "publisher": "Associated Press",
           "via": "Yahoo"
         }
       ]
@@ -327,6 +320,13 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/history-says-dividend-stock-protect-153500545.html",
+          "date": "2026-11-15",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
           "title": "SO Q3 Earnings Beat on Data Center Demand, Outlook Raised",
           "url": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-beat-data-center-151600286.html",
           "date": "2026-11-13",
@@ -360,19 +360,12 @@ window.TEAM4_DATA = {
           "date": "2026-11-13",
           "publisher": "PR Newswire",
           "via": "Yahoo"
-        },
-        {
-          "title": "What Does Southern (SO) $1.75 Billion Equity Units Offering Mean For Investors?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/does-southern-1-75-billion-232634325.html",
-          "date": "2026-11-12",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
         }
       ],
       "nameKo": "서던",
       "nameEn": "SOUTHERN CO.",
       "detail": {
-        "fetchedAt": "2026-11-15",
+        "fetchedAt": "2026-11-16",
         "nameKo": "서던",
         "nameEn": "SOUTHERN CO.",
         "financials": {
@@ -562,7 +555,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[서던 (NYS:SO)] [3Q26 Preview] 성수기 매출 정상화 여부가 관건, 투자의견 매수 유지",
               "summary": "- 11월 5일 발표, 직전 분기 매출 정체가 성수기에 해소되는지가 초점- 이익 눈높이는 낮지 않으나 서프라이즈 폭은 좁아질 가능성- 전환사채 23.8억 달러 이후의 희석·이자 경로를 확인해야 한다",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiczmccekqlxegcgxeeek.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiczmccekqlxegcgxeeex.pdf",
               "pages": "6"
             },
             {
@@ -571,7 +564,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[서던 (NYS:SO)] [Issue & News] 니코르가스 기본요금 인상으로 연매출 8,200만 달러 증가 승인 - 가스 부문 매출 정체 일부 해소 기대",
               "summary": "- 일리노이주, 니코르가스 기본요금 연 8200만달러 인상 승인- 11월16일 적용, 작년 요금소송 항소는 취하 예정- 가스부문 매출 정체 속 4분기부터 일부 회복 기대",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgeegmecxqigkgcgxeeek.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgeegmecxqigkgcgxeeex.pdf",
               "pages": "5"
             },
             {
@@ -580,7 +573,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[서던 (NYS:SO)] [Issue & News] 전환사채 21억5천만 달러 발행(6.5억+15억) - CapEx 가속에 따른 외부자금조달 확대",
               "summary": "- 전환사채 21.5억달러 발행, 만기 2027·2029년 분산- CapEx 가속과 FCF 적자 확대에 따른 외부조달- 전환 시 지분 희석 가능성, 이자부담은 완화",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmecxlclzezgcgxeeek.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmecxlclzezgcgxeeex.pdf",
               "pages": "5"
             }
           ]
@@ -588,7 +581,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "SO",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "한국투자증권 Open API",
         "per": 22.58,
         "pbr": 2.72,
@@ -634,7 +627,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "SO",
         "url": "https://finance.yahoo.com/quote/SO/analysis/",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -755,9 +748,9 @@ window.TEAM4_DATA = {
             "d90": 0.2,
             "ago90": 4.92,
             "up7": 4,
-            "up30": 2,
+            "up30": 6,
             "down7": 0,
-            "down30": 5
+            "down30": 3
           }
         ],
         "surprises": [
@@ -1046,7 +1039,7 @@ window.TEAM4_DATA = {
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
       "price": 70.80000305175781,
-      "marketCap": "0.47B",
+      "marketCap": "0.49B",
       "volx": 2.55,
       "volSurgeWk": 2.82,
       "aboveMa150": true,
@@ -1290,7 +1283,7 @@ window.TEAM4_DATA = {
       "nameKo": "실리콘 래브러토리스",
       "nameEn": "SILICON LABORATORIES",
       "detail": {
-        "fetchedAt": "2026-11-15",
+        "fetchedAt": "2026-11-16",
         "nameKo": "실리콘 래브러토리스",
         "nameEn": "SILICON LABORATORIES",
         "financials": {
@@ -1469,7 +1462,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "SLAB",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "한국투자증권 Open API",
         "per": 186.8,
         "pbr": 6.75,
@@ -1493,18 +1486,18 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "SLAB",
         "url": "https://finance.yahoo.com/quote/SLAB/analysis/",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 0.86,
+            "eps": 0.91,
             "epsLow": 0.8,
             "epsHigh": 0.95,
             "epsYearAgo": 0.56,
             "epsAnalysts": 7,
-            "epsGrowth": 53.8,
+            "epsGrowth": 63.4,
             "epsCur": "USD",
             "rev": 247237420,
             "revAnalysts": 5,
@@ -1515,12 +1508,12 @@ window.TEAM4_DATA = {
           {
             "period": "+1q",
             "endDate": "2026-12-31",
-            "eps": 0.95,
-            "epsLow": 0.73,
+            "eps": 0.94,
+            "epsLow": 0.87,
             "epsHigh": 1.07,
             "epsYearAgo": 0.56,
             "epsAnalysts": 7,
-            "epsGrowth": 69.5,
+            "epsGrowth": 68.7,
             "epsCur": "USD",
             "rev": 257083640,
             "revAnalysts": 4,
@@ -1580,10 +1573,10 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 0.95,
-            "d7": 8.2,
-            "d30": 8.2,
-            "d90": 7.7,
+            "now": 0.94,
+            "d7": 7.8,
+            "d30": 7.8,
+            "d90": 7.3,
             "ago90": 0.88,
             "up7": 1,
             "up30": 2,
@@ -1783,7 +1776,7 @@ window.TEAM4_DATA = {
           {
             "item": "L 주도주",
             "status": "미충족",
-            "evidence": "상대강도 상위 1M 59.02% · 3M 43.51% · 6M 58.93% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 59.02% · 3M 43.6% · 6M 58.93% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -1809,7 +1802,7 @@ window.TEAM4_DATA = {
       "volSurgeWk": 2.15,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 40.16,
+      "clsPos": 38.82,
       "high52": 66.4,
       "adr": 4.58,
       "targetStatus": false,
@@ -1940,7 +1933,7 @@ window.TEAM4_DATA = {
       "nameKo": "인스톨드 빌딩 프라덕츠",
       "nameEn": "INSTALLED BUILDING PRODUCTS INC",
       "detail": {
-        "fetchedAt": "2026-11-15",
+        "fetchedAt": "2026-11-16",
         "nameKo": "인스톨드 빌딩 프라덕츠",
         "nameEn": "INSTALLED BUILDING PRODUCTS INC",
         "financials": {
@@ -2134,7 +2127,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "IBP",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "한국투자증권 Open API",
         "per": 24.65,
         "pbr": 9.52,
@@ -2158,71 +2151,71 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "IBP",
         "url": "https://finance.yahoo.com/quote/IBP/analysis/",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 2.46,
-            "epsLow": 2.25,
+            "eps": 2.56,
+            "epsLow": 2.37,
             "epsHigh": 2.84,
             "epsYearAgo": 3.24,
-            "epsAnalysts": 13,
-            "epsGrowth": -24,
+            "epsAnalysts": 9,
+            "epsGrowth": -21,
             "epsCur": "USD",
-            "rev": 780783850,
-            "revAnalysts": 15,
+            "rev": 798623750,
+            "revAnalysts": 9,
             "revYearAgo": 747500000,
-            "revGrowth": 4.4,
+            "revGrowth": 6.8,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 1.68,
-            "epsLow": 1.3,
-            "epsHigh": 1.94,
+            "eps": 1.84,
+            "epsLow": 1.52,
+            "epsHigh": 2.34,
             "epsYearAgo": 1.79,
-            "epsAnalysts": 10,
-            "epsGrowth": -6.1,
+            "epsAnalysts": 7,
+            "epsGrowth": 2.9,
             "epsCur": "USD",
-            "rev": 725407550,
-            "revAnalysts": 11,
+            "rev": 762369010,
+            "revAnalysts": 7,
             "revYearAgo": 660500000,
-            "revGrowth": 9.8,
+            "revGrowth": 15.4,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 9.92,
-            "epsLow": 9.72,
-            "epsHigh": 10.3,
+            "eps": 10.03,
+            "epsLow": 9.83,
+            "epsHigh": 10.35,
             "epsYearAgo": 11.44,
-            "epsAnalysts": 13,
-            "epsGrowth": -13.3,
+            "epsAnalysts": 9,
+            "epsGrowth": -12.3,
             "epsCur": "USD",
-            "rev": 3028889840,
-            "revAnalysts": 14,
+            "rev": 3045357090,
+            "revAnalysts": 9,
             "revYearAgo": 2970800000,
-            "revGrowth": 2,
+            "revGrowth": 2.5,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 10.08,
-            "epsLow": 8.04,
-            "epsHigh": 11.68,
-            "epsYearAgo": 9.92,
-            "epsAnalysts": 14,
-            "epsGrowth": 1.6,
+            "eps": 10.5,
+            "epsLow": 9.23,
+            "epsHigh": 11.78,
+            "epsYearAgo": 10.03,
+            "epsAnalysts": 10,
+            "epsGrowth": 4.7,
             "epsCur": "USD",
-            "rev": 3250403060,
-            "revAnalysts": 15,
-            "revYearAgo": 3028889840,
-            "revGrowth": 7.3,
+            "rev": 3400384580,
+            "revAnalysts": 10,
+            "revYearAgo": 3045357090,
+            "revGrowth": 11.7,
             "revCur": "USD"
           }
         ],
@@ -2231,24 +2224,24 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 2.46,
-            "d7": 1.1,
-            "d30": -13.3,
-            "d90": -14.4,
+            "now": 2.56,
+            "d7": 2.7,
+            "d30": -9.9,
+            "d90": -11,
             "ago90": 2.88,
             "up7": 0,
             "up30": 0,
-            "down7": 2,
+            "down7": 5,
             "down30": 8
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 1.68,
-            "d7": -4.6,
-            "d30": -11.4,
-            "d90": -17.6,
+            "now": 1.84,
+            "d7": 4.5,
+            "d30": -2.9,
+            "d90": -9.7,
             "ago90": 2.04,
             "up7": 0,
             "up30": 0,
@@ -2259,10 +2252,10 @@ window.TEAM4_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 9.92,
-            "d7": 0.4,
-            "d30": -4.6,
-            "d90": -5,
+            "now": 10.03,
+            "d7": 0.7,
+            "d30": -3.5,
+            "d90": -3.9,
             "ago90": 10.44,
             "up7": 0,
             "up30": 0,
@@ -2273,10 +2266,10 @@ window.TEAM4_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 10.08,
-            "d7": -0.2,
-            "d30": -8.3,
-            "d90": -11.5,
+            "now": 10.5,
+            "d7": 4,
+            "d30": -4.4,
+            "d90": -7.8,
             "ago90": 11.39,
             "up7": 0,
             "up30": 0,
@@ -2617,7 +2610,7 @@ window.TEAM4_DATA = {
       "nameKo": "세네카 푸즈 B",
       "nameEn": "SENECA FOODS",
       "detail": {
-        "fetchedAt": "2026-11-15",
+        "fetchedAt": "2026-11-16",
         "nameKo": "세네카 푸즈 B",
         "nameEn": "SENECA FOODS",
         "financials": {
@@ -2765,7 +2758,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "SENEB",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "한국투자증권 Open API",
         "per": 9.83,
         "pbr": 1.49,
@@ -2804,7 +2797,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "SENEB",
         "url": "https://finance.yahoo.com/quote/SENEB/analysis/",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -3146,7 +3139,7 @@ window.TEAM4_DATA = {
       "nameKo": "그라이프 B",
       "nameEn": "GREIF INC",
       "detail": {
-        "fetchedAt": "2026-11-15",
+        "fetchedAt": "2026-11-16",
         "nameKo": "그라이프 B",
         "nameEn": "GREIF INC",
         "financials": {
@@ -3342,7 +3335,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "GEF.B",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "한국투자증권 Open API",
         "per": 17.52,
         "pbr": 1.27,
@@ -3366,7 +3359,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "GEF-B",
         "url": "https://finance.yahoo.com/quote/GEF-B/analysis/",
-        "fetchedAt": "2026-11-14",
+        "fetchedAt": "2026-11-16",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -3486,9 +3479,9 @@ window.TEAM4_DATA = {
             "d30": 5.7,
             "d90": 5.7,
             "ago90": 7.03,
-            "up7": 1,
+            "up7": 0,
             "up30": 1,
-            "down7": 0,
+            "down7": 1,
             "down30": 0
           }
         ],
@@ -3695,27 +3688,5 @@ window.TEAM4_DATA = {
     "carried": 7,
     "ineligible": 0,
     "note": "그중 7종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
-  },
-  "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "STN",
-        "category": 1,
-        "oneLine": "3분기 실적이 예상치를 넘었고 가이던스(회사 연간 전망) 상향도 언급돼 13일 주가가 급등했다."
-      },
-      {
-        "ticker": "SO",
-        "category": 1,
-        "oneLine": "3분기 실적이 예상치를 넘었고 데이터센터 수요를 근거로 향후 전망도 올라갔다."
-      },
-      {
-        "ticker": "SLAB",
-        "category": 1,
-        "oneLine": "3분기 매출·주당순이익이 예상을 웃돌았다. 다만 텍사스인스트루먼트의 주당 231달러 인수가에 주가가 묶여 있다."
-      }
-    ],
-    "sectorSignal": "실적 호재 3건이 서로 다른 업종(서비스, 전력, 반도체)에 흩어져 있어 한 업종 쏠림은 보이지 않는다. 산업 기술 돌파 유형의 호재는 오늘 없었다.",
-    "caution": "SLAB은 인수가 근처에 묶여 있어 일반적인 실적 급등 후보와 성격이 다르다. SO는 지분 연계 증권 발행이 겹쳐 있어 호재만 있는 것은 아니다. 차트 상태는 확인하지 않았으니 직접 보고 판단해야 한다.",
-    "researchedOn": "2026-11-14"
   }
 };
