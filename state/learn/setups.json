@@ -37,10 +37,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -4.4
+      },
+      "10": {
+        "retPct": -17.2,
+        "maxUpPct": -0.4,
+        "maxDownPct": -21.9,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.6
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "FROG|103.39": {
@@ -81,10 +89,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -4.4
+      },
+      "10": {
+        "retPct": 8.6,
+        "maxUpPct": 9,
+        "maxDownPct": -25.7,
+        "broke": true,
+        "r": 0,
+        "qqqPct": -4.6
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "OKTA|235": {
@@ -125,10 +141,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -4.4
+      },
+      "10": {
+        "retPct": -19.3,
+        "maxUpPct": 4,
+        "maxDownPct": -25.4,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.6
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "DDOG|300.68": {
@@ -169,10 +193,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -4.4
+      },
+      "10": {
+        "retPct": -35.9,
+        "maxUpPct": 1.7,
+        "maxDownPct": -39.2,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.6
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "CBOE|317.74": {
@@ -213,10 +245,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -4.4
+      },
+      "10": {
+        "retPct": 5.2,
+        "maxUpPct": 8,
+        "maxDownPct": -7.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.6
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "GRAL|166.48": {
@@ -257,10 +297,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": -17.2,
+        "maxUpPct": 7.5,
+        "maxDownPct": -22.3,
+        "broke": false,
+        "r": null,
+        "qqqPct": -6.4
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "CRWD|286.99": {
@@ -301,10 +349,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": -15.8,
+        "maxUpPct": 1.6,
+        "maxDownPct": -20.4,
+        "broke": false,
+        "r": null,
+        "qqqPct": -6.4
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "ILMN|309.35": {
@@ -345,10 +401,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -4.6
+      },
+      "10": {
+        "retPct": -26.3,
+        "maxUpPct": 1.5,
+        "maxDownPct": -29,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.9
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "ZBRA|392.78": {
@@ -389,10 +453,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -4.6
+      },
+      "10": {
+        "retPct": -14.9,
+        "maxUpPct": 1.2,
+        "maxDownPct": -19.1,
+        "broke": false,
+        "r": null,
+        "qqqPct": -4.9
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "MRNA|254.48": {
@@ -433,10 +505,18 @@
         "broke": true,
         "r": 0,
         "qqqPct": -4.6
+      },
+      "10": {
+        "retPct": 16.1,
+        "maxUpPct": 31.1,
+        "maxDownPct": 0.6,
+        "broke": true,
+        "r": -0.35,
+        "qqqPct": -4.9
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "WING|136.32": {
@@ -477,10 +557,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -4.6
+      },
+      "10": {
+        "retPct": 20.3,
+        "maxUpPct": 29.2,
+        "maxDownPct": -1.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.9
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "HRI|153.82": {
@@ -521,10 +609,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -4.6
+      },
+      "10": {
+        "retPct": 4.7,
+        "maxUpPct": 5.6,
+        "maxDownPct": -11.9,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.9
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "ICLR|177.67": {
@@ -565,10 +661,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -4.6
+      },
+      "10": {
+        "retPct": -6.8,
+        "maxUpPct": 2.3,
+        "maxDownPct": -7.9,
+        "broke": true,
+        "r": null,
+        "qqqPct": -4.9
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "EPAM|139.17": {
@@ -609,10 +713,18 @@
         "broke": true,
         "r": -1,
         "qqqPct": -9.5
+      },
+      "10": {
+        "retPct": 21.6,
+        "maxUpPct": 25.1,
+        "maxDownPct": -2.3,
+        "broke": true,
+        "r": -1,
+        "qqqPct": -3.8
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "ACN|259.39": {
@@ -653,10 +765,18 @@
         "broke": true,
         "r": -1,
         "qqqPct": -9.5
+      },
+      "10": {
+        "retPct": 1.1,
+        "maxUpPct": 9.9,
+        "maxDownPct": -0.1,
+        "broke": true,
+        "r": -1,
+        "qqqPct": -3.8
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "JLL|367.78": {
@@ -697,10 +817,18 @@
         "broke": true,
         "r": -0.17,
         "qqqPct": -9.5
+      },
+      "10": {
+        "retPct": 3.4,
+        "maxUpPct": 12,
+        "maxDownPct": 0.1,
+        "broke": true,
+        "r": -0.57,
+        "qqqPct": -3.8
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "TEM|89.09": {
@@ -741,10 +869,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -9.5
+      },
+      "10": {
+        "retPct": -2.5,
+        "maxUpPct": 10.2,
+        "maxDownPct": -16.4,
+        "broke": false,
+        "r": null,
+        "qqqPct": -3.8
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "RH|153.83": {
@@ -785,10 +921,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -9.5
+      },
+      "10": {
+        "retPct": -14.3,
+        "maxUpPct": 2.8,
+        "maxDownPct": -15.1,
+        "broke": false,
+        "r": null,
+        "qqqPct": -3.8
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "SEZL|141": {
@@ -829,10 +973,18 @@
         "broke": true,
         "r": -0.25,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": 14.6,
+        "maxUpPct": 32.4,
+        "maxDownPct": -10,
+        "broke": true,
+        "r": -0.02,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "PAYC|275.22": {
@@ -873,10 +1025,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": -5.8,
+        "maxUpPct": 3.4,
+        "maxDownPct": -12.6,
+        "broke": false,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "HURN|203.37": {
@@ -917,10 +1077,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": -12.8,
+        "maxUpPct": 2.7,
+        "maxDownPct": -18.6,
+        "broke": false,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "MHK|134.45": {
@@ -961,10 +1129,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": 5.7,
+        "maxUpPct": 13.9,
+        "maxDownPct": 2.6,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "FRHC|184.76": {
@@ -1005,10 +1181,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": -16.6,
+        "maxUpPct": 1.9,
+        "maxDownPct": -20,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "CVCO|597.31": {
@@ -1049,10 +1233,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": 4.1,
+        "maxUpPct": 11.9,
+        "maxDownPct": 1.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "REGN|859.34": {
@@ -1093,10 +1285,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": 3,
+        "maxUpPct": 6.9,
+        "maxDownPct": -4.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "FBIZ|73.74": {
@@ -1137,10 +1337,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": -0.1,
+        "maxUpPct": 5.5,
+        "maxDownPct": -2.1,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "GD|370.37": {
@@ -1181,10 +1389,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": -2.5,
+        "maxUpPct": 1.3,
+        "maxDownPct": -6.3,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": false,
-    "up2w": null,
+    "up2w": false,
     "up1m": null
   },
   "MMSI|92.18": {
@@ -1225,10 +1441,18 @@
         "broke": false,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": 0.5,
+        "maxUpPct": 7.7,
+        "maxDownPct": -3.1,
+        "broke": false,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "LNT|69.19": {
@@ -1269,10 +1493,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": 2.5,
+        "maxUpPct": 4.8,
+        "maxDownPct": -0.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "ROP|429.6": {
@@ -1313,10 +1545,18 @@
         "broke": true,
         "r": null,
         "qqqPct": -5
+      },
+      "10": {
+        "retPct": 2.9,
+        "maxUpPct": 8.7,
+        "maxDownPct": -0.9,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
       }
     },
     "up1w": true,
-    "up2w": null,
+    "up2w": true,
     "up1m": null
   },
   "TTAN|87.75": {
@@ -1349,8 +1589,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -0.5,
+        "maxUpPct": 7.2,
+        "maxDownPct": -4.7,
+        "broke": true,
+        "r": -1,
+        "qqqPct": -0.3
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1384,8 +1633,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -17.7,
+        "maxUpPct": 3.4,
+        "maxDownPct": -21.6,
+        "broke": false,
+        "r": null,
+        "qqqPct": -0.3
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1419,8 +1677,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 0.9,
+        "maxUpPct": 5.8,
+        "maxDownPct": -3.9,
+        "broke": true,
+        "r": null,
+        "qqqPct": -0.3
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -1454,8 +1721,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 2.3,
+        "maxUpPct": 2.6,
+        "maxDownPct": -11.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -1489,8 +1765,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -3.3,
+        "maxUpPct": 1.3,
+        "maxDownPct": -7.2,
+        "broke": true,
+        "r": null,
+        "qqqPct": -1.5
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1524,8 +1809,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -3.5,
+        "maxUpPct": 0.5,
+        "maxDownPct": -14,
+        "broke": false,
+        "r": null,
+        "qqqPct": -0.2
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1559,8 +1853,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -5,
+        "maxUpPct": 1,
+        "maxDownPct": -7.8,
+        "broke": false,
+        "r": null,
+        "qqqPct": -0.2
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1594,8 +1897,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 0.2,
+        "maxUpPct": 1.6,
+        "maxDownPct": -5.9,
+        "broke": false,
+        "r": null,
+        "qqqPct": -0.2
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -1629,8 +1941,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 1.9,
+        "maxUpPct": 3.1,
+        "maxDownPct": -1.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": -0.2
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -1664,8 +1985,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 1.8,
+        "maxUpPct": 4.1,
+        "maxDownPct": -5.7,
+        "broke": true,
+        "r": null,
+        "qqqPct": -0.2
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -1699,8 +2029,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -2.8,
+        "maxUpPct": 4,
+        "maxDownPct": -9.7,
+        "broke": true,
+        "r": null,
+        "qqqPct": -0.2
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1734,8 +2073,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -6.6,
+        "maxUpPct": 12.9,
+        "maxDownPct": -7.6,
+        "broke": true,
+        "r": -1,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1769,8 +2117,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 2.6,
+        "maxUpPct": 5.8,
+        "maxDownPct": -0.4,
+        "broke": true,
+        "r": -0.44,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1804,8 +2161,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -4.9,
+        "maxUpPct": 2.9,
+        "maxDownPct": -5.2,
+        "broke": false,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1839,8 +2205,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -3.1,
+        "maxUpPct": 7.4,
+        "maxDownPct": -4.4,
+        "broke": true,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1874,8 +2249,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": -13.3,
+        "maxUpPct": 2.3,
+        "maxDownPct": -14.8,
+        "broke": true,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1909,8 +2293,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 1.6,
+        "maxUpPct": 2.2,
+        "maxDownPct": -1.8,
+        "broke": true,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1944,8 +2337,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 3.3,
+        "maxUpPct": 5.5,
+        "maxDownPct": -1.5,
+        "broke": true,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -1979,8 +2381,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 3.7,
+        "maxUpPct": 4,
+        "maxDownPct": -2.6,
+        "broke": false,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -2014,8 +2425,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 12.5,
+        "maxUpPct": 13.3,
+        "maxDownPct": -2.5,
+        "broke": true,
+        "r": 0.42,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -2049,8 +2469,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 3.6,
+        "maxUpPct": 10.6,
+        "maxDownPct": -1.2,
+        "broke": true,
+        "r": -0.29,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
     "up2w": null,
     "up1m": null
   },
@@ -2084,8 +2513,17 @@
         "regime": "red"
       }
     },
-    "out": {},
-    "up1w": null,
+    "out": {
+      "5": {
+        "retPct": 9.9,
+        "maxUpPct": 13.5,
+        "maxDownPct": 1.2,
+        "broke": true,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": true,
     "up2w": null,
     "up1m": null
   },
@@ -2115,6 +2553,610 @@
         "extensionAdr": -0.4,
         "adrPct": 4.8,
         "dollarVol20M": 10.7,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {
+      "5": {
+        "retPct": -8.6,
+        "maxUpPct": 5.7,
+        "maxDownPct": -14.1,
+        "broke": false,
+        "r": null,
+        "qqqPct": 3.6
+      }
+    },
+    "up1w": false,
+    "up2w": null,
+    "up1m": null
+  },
+  "HRI|174.42": {
+    "ticker": "HRI",
+    "pivot": 174.42,
+    "sessionDate": "2026-11-09",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-10",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 44.9,
+        "baseWeeks": 1.8,
+        "depthPct": 22.5,
+        "higherLows": 1,
+        "contraction": 1.7,
+        "closeRange10Adr": 2.2,
+        "surf10Adr": 0.4,
+        "surf20Adr": 2,
+        "slope20Pct": 6,
+        "distToPivotAdr": -0.6,
+        "extensionAdr": 0.4,
+        "adrPct": 6.7,
+        "dollarVol20M": 117.8,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "CRL|379.63": {
+    "ticker": "CRL",
+    "pivot": 379.63,
+    "sessionDate": "2026-11-09",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-10",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 67,
+        "baseWeeks": 2.6,
+        "depthPct": 17.9,
+        "higherLows": 0,
+        "contraction": 1.4,
+        "closeRange10Adr": 3.4,
+        "surf10Adr": 0.2,
+        "surf20Adr": 1,
+        "slope20Pct": 2.7,
+        "distToPivotAdr": -1.3,
+        "extensionAdr": 0.2,
+        "adrPct": 5.3,
+        "dollarVol20M": 438.4,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "ALGT|85": {
+    "ticker": "ALGT",
+    "pivot": 85,
+    "sessionDate": "2026-11-09",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-10",
+      "in": {
+        "state": "post",
+        "priorMovePct": 17.8,
+        "baseWeeks": 8,
+        "depthPct": 23.4,
+        "higherLows": 0,
+        "contraction": 0.9,
+        "closeRange10Adr": 2.9,
+        "surf10Adr": 1.8,
+        "surf20Adr": 2,
+        "slope20Pct": -0.4,
+        "distToPivotAdr": 2.3,
+        "extensionAdr": 2.8,
+        "adrPct": 6.3,
+        "dollarVol20M": 43.5,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "APP|338.34": {
+    "ticker": "APP",
+    "pivot": 338.34,
+    "sessionDate": "2026-11-09",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-10",
+      "in": {
+        "state": "post",
+        "priorMovePct": 13.7,
+        "baseWeeks": 7.8,
+        "depthPct": 33.4,
+        "higherLows": 0,
+        "contraction": 1,
+        "closeRange10Adr": 3.5,
+        "surf10Adr": 1.5,
+        "surf20Adr": 0.7,
+        "slope20Pct": -3,
+        "distToPivotAdr": 3.9,
+        "extensionAdr": 5.3,
+        "adrPct": 5.5,
+        "dollarVol20M": 1731,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "ESAB|76.06": {
+    "ticker": "ESAB",
+    "pivot": 76.06,
+    "sessionDate": "2026-11-09",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-10",
+      "in": {
+        "state": "post",
+        "priorMovePct": 3.9,
+        "baseWeeks": 8,
+        "depthPct": 17.5,
+        "higherLows": 1,
+        "contraction": 1,
+        "closeRange10Adr": 3.2,
+        "surf10Adr": 0.5,
+        "surf20Adr": 0.7,
+        "slope20Pct": 1,
+        "distToPivotAdr": 3.6,
+        "extensionAdr": 2.9,
+        "adrPct": 5.1,
+        "dollarVol20M": 93.6,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "SYRE|100.42": {
+    "ticker": "SYRE",
+    "pivot": 100.42,
+    "sessionDate": "2026-11-10",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "A",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-11",
+      "in": {
+        "state": "post",
+        "priorMovePct": 30.6,
+        "baseWeeks": 2.4,
+        "depthPct": 15.3,
+        "higherLows": 1,
+        "contraction": 1,
+        "closeRange10Adr": 1.9,
+        "surf10Adr": 0,
+        "surf20Adr": 1.1,
+        "slope20Pct": 3.4,
+        "distToPivotAdr": 0.8,
+        "extensionAdr": 0.8,
+        "adrPct": 5.1,
+        "dollarVol20M": 100.3,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "RYTM|106.57": {
+    "ticker": "RYTM",
+    "pivot": 106.57,
+    "sessionDate": "2026-11-10",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-11",
+      "in": {
+        "state": "post",
+        "priorMovePct": 25.5,
+        "baseWeeks": 8,
+        "depthPct": 23.5,
+        "higherLows": 0,
+        "contraction": 1.1,
+        "closeRange10Adr": 2.2,
+        "surf10Adr": -1.4,
+        "surf20Adr": -1,
+        "slope20Pct": -0.4,
+        "distToPivotAdr": 1.3,
+        "extensionAdr": 2.1,
+        "adrPct": 5.3,
+        "dollarVol20M": 173.3,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "MANH|263.47": {
+    "ticker": "MANH",
+    "pivot": 263.47,
+    "sessionDate": "2026-11-11",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-12",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 41.1,
+        "baseWeeks": 1.6,
+        "depthPct": 7.8,
+        "higherLows": 1,
+        "contraction": 1,
+        "closeRange10Adr": 2.2,
+        "surf10Adr": 0.6,
+        "surf20Adr": 1.7,
+        "slope20Pct": 4.4,
+        "distToPivotAdr": -0.5,
+        "extensionAdr": 0.6,
+        "adrPct": 3.5,
+        "dollarVol20M": 231.2,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "UTHR|614.23": {
+    "ticker": "UTHR",
+    "pivot": 614.23,
+    "sessionDate": "2026-11-11",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-12",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 31,
+        "baseWeeks": 2.8,
+        "depthPct": 9.4,
+        "higherLows": 0,
+        "contraction": 1.2,
+        "closeRange10Adr": 2.4,
+        "surf10Adr": 0.3,
+        "surf20Adr": 0.9,
+        "slope20Pct": 1.6,
+        "distToPivotAdr": -0.9,
+        "extensionAdr": 0.3,
+        "adrPct": 3.2,
+        "dollarVol20M": 317.2,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "GKOS|255.18": {
+    "ticker": "GKOS",
+    "pivot": 255.18,
+    "sessionDate": "2026-11-11",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-12",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 74.3,
+        "baseWeeks": 1.8,
+        "depthPct": 18.7,
+        "higherLows": 1,
+        "contraction": 2.5,
+        "closeRange10Adr": 2,
+        "surf10Adr": 0.8,
+        "surf20Adr": 3.1,
+        "slope20Pct": 9,
+        "distToPivotAdr": -0.6,
+        "extensionAdr": 0.8,
+        "adrPct": 5.5,
+        "dollarVol20M": 421.7,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "BMI|166.86": {
+    "ticker": "BMI",
+    "pivot": 166.86,
+    "sessionDate": "2026-11-12",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "A",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-13",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 36.8,
+        "baseWeeks": 2,
+        "depthPct": 14.1,
+        "higherLows": 1,
+        "contraction": 0.8,
+        "closeRange10Adr": 1.8,
+        "surf10Adr": -0.4,
+        "surf20Adr": 0.5,
+        "slope20Pct": 4.8,
+        "distToPivotAdr": -1.4,
+        "extensionAdr": -0.4,
+        "adrPct": 5.6,
+        "dollarVol20M": 91.2,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "EPAM|168.56": {
+    "ticker": "EPAM",
+    "pivot": 168.56,
+    "sessionDate": "2026-11-12",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-13",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 75.1,
+        "baseWeeks": 1,
+        "depthPct": 9.3,
+        "higherLows": 1,
+        "contraction": 1.3,
+        "closeRange10Adr": 3.6,
+        "surf10Adr": 1.4,
+        "surf20Adr": 2.7,
+        "slope20Pct": 8.7,
+        "distToPivotAdr": -0.6,
+        "extensionAdr": 1.4,
+        "adrPct": 4.8,
+        "dollarVol20M": 222.2,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "ELF|123.13": {
+    "ticker": "ELF",
+    "pivot": 123.13,
+    "sessionDate": "2026-11-13",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-14",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 65.9,
+        "baseWeeks": 4.2,
+        "depthPct": 14.4,
+        "higherLows": 0,
+        "contraction": 1.9,
+        "closeRange10Adr": 1.7,
+        "surf10Adr": 0.6,
+        "surf20Adr": 0.7,
+        "slope20Pct": 1.4,
+        "distToPivotAdr": -0.9,
+        "extensionAdr": 0.6,
+        "adrPct": 4.6,
+        "dollarVol20M": 174.7,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "TTAN|88.87": {
+    "ticker": "TTAN",
+    "pivot": 88.87,
+    "sessionDate": "2026-11-13",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "B",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-14",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 67.7,
+        "baseWeeks": 3.6,
+        "depthPct": 13.9,
+        "higherLows": 1,
+        "contraction": 0.9,
+        "closeRange10Adr": 1.6,
+        "surf10Adr": -0.1,
+        "surf20Adr": 0,
+        "slope20Pct": 2.7,
+        "distToPivotAdr": -1.5,
+        "extensionAdr": -0.1,
+        "adrPct": 4.7,
+        "dollarVol20M": 103,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "AGL|127": {
+    "ticker": "AGL",
+    "pivot": 127,
+    "sessionDate": "2026-11-13",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-14",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 76,
+        "baseWeeks": 1.2,
+        "depthPct": 17.2,
+        "higherLows": 1,
+        "contraction": 1.6,
+        "closeRange10Adr": 3.8,
+        "surf10Adr": 1.2,
+        "surf20Adr": 2.3,
+        "slope20Pct": 7.5,
+        "distToPivotAdr": -1.3,
+        "extensionAdr": 1.2,
+        "adrPct": 6.6,
+        "dollarVol20M": 21.8,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "SO|95.72": {
+    "ticker": "SO",
+    "pivot": 95.72,
+    "sessionDate": "2026-11-13",
+    "setup": "pre",
+    "kind": "막힘: 시장 빨간불 — 신규 매수 중단",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-15",
+      "in": {
+        "state": "pre",
+        "priorMovePct": 17.2,
+        "baseWeeks": 3.2,
+        "depthPct": 5.6,
+        "higherLows": 0,
+        "contraction": 1.5,
+        "closeRange10Adr": 1.3,
+        "surf10Adr": 0.1,
+        "surf20Adr": 0.5,
+        "slope20Pct": 1.2,
+        "distToPivotAdr": -1.2,
+        "extensionAdr": 0.1,
+        "adrPct": 1.9,
+        "dollarVol20M": 742.1,
+        "earningsSoon": false,
+        "regime": "red"
+      }
+    },
+    "out": {},
+    "up1w": null,
+    "up2w": null,
+    "up1m": null
+  },
+  "STN|79.63": {
+    "ticker": "STN",
+    "pivot": 79.63,
+    "sessionDate": "2026-11-13",
+    "setup": "post",
+    "kind": "이미 돌파",
+    "grade": "C",
+    "regime": "red",
+    "fit": {
+      "v": 1,
+      "at": "2026-11-15",
+      "in": {
+        "state": "post",
+        "priorMovePct": 21.9,
+        "baseWeeks": 1.6,
+        "depthPct": 8.7,
+        "higherLows": 1,
+        "contraction": 1.5,
+        "closeRange10Adr": 3.2,
+        "surf10Adr": -0.3,
+        "surf20Adr": 0.9,
+        "slope20Pct": 2.8,
+        "distToPivotAdr": 2.6,
+        "extensionAdr": 3.4,
+        "adrPct": 2.9,
+        "dollarVol20M": 28.8,
         "earningsSoon": false,
         "regime": "red"
       }
