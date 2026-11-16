@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-16T13:00:14.961Z",
+  "updated": "2026-11-16T22:10:12.431Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -7,6 +7,51 @@ window.HOLDINGS_DATA = {
       "ticker": "PLTR",
       "side": "long",
       "items": [
+        {
+          "type": "news",
+          "title": "Why Does Palantir Stock Keep Going Down?",
+          "url": "https://www.nasdaq.com/articles/why-does-palantir-stock-keep-going-down",
+          "date": "2026-11-16",
+          "publisher": "The Motley Fool",
+          "ko": "엔비디아發 악재에 AI주 매도, 팔란티어도 하락",
+          "tone": "bad",
+          "isNew": true,
+          "headline": "엔비디아發 악재에 AI주 매도, 팔란티어도 하락",
+          "easy": "팔란티어 주가가 계속 내리는 이유를 다룬 기사다. 제목과 요약만 보면 엔비디아의 나쁜 소식 때문에 투자자들이 AI 관련주를 전부 팔고 있다는 내용이다. 엔비디아의 구체적인 악재가 무엇인지는 기사에 안 나왔다.",
+          "whyMatters": "팔란티어 개별 실적보다 AI 업종 전체의 투자 심리 때문에 주가가 눌리는 상황으로 보인다. 가격이 올라야 이익인 보유자에게는 단기 불리한 요인이다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
+          "title": "PLTR Raises 2026 Guidance as Q3 AI Demand Drives 96% Revenue Growth",
+          "url": "https://www.nasdaq.com/articles/pltr-raises-2026-guidance-q3-ai-demand-drives-96-revenue-growth",
+          "date": "2026-11-16",
+          "publisher": "Zacks",
+          "ko": "팔란티어, 3분기 매출 96% 급증에 올해 전망 상향",
+          "tone": "good",
+          "isNew": true,
+          "headline": "팔란티어, 3분기 매출 96% 급증에 올해 전망 상향",
+          "easy": "팔란티어가 3분기 매출이 96% 늘었고 2026년 매출 전망을 높였다. 요약에 따르면 AI 수요가 이를 이끌었고, 미국 내 상업 부문 성장과 마진 개선, 고객 지출 확대가 뒷받침됐다. 세부 수치는 기사에 안 나왔다.",
+          "whyMatters": "실적과 가이던스가 함께 좋아졌다는 점은 보유자에게 유리한 소식이다. 다만 주가 흐름은 별개로 움직일 수 있다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
+          "title": "Is PLTR Stock a Buy or a Hold as Growth Battles a Premium Valuation?",
+          "url": "https://www.nasdaq.com/articles/pltr-stock-buy-or-hold-growth-battles-premium-valuation",
+          "date": "2026-11-16",
+          "publisher": "Zacks",
+          "ko": "팔란티어, 높은 성장과 비싼 밸류에이션 사이 저울질",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, 높은 성장과 비싼 밸류에이션 사이 저울질",
+          "easy": "팔란티어 매출이 96% 늘고 이익 추정치가 오르며 현금흐름도 좋아 AI 확장을 뒷받침한다는 분석이다. 하지만 주가가 매우 비싸다는 점 때문에 계속 보유할지에 의문이 제기된다. 구체적인 밸류에이션 수치는 기사에 안 나왔다.",
+          "whyMatters": "실적은 좋지만 높은 주가 수준이 부담이라는 양면의 평가다. 보유자는 성장이 기대를 계속 채우는지 지켜볼 필요가 있다.",
+          "quote": null,
+          "read": false
+        },
         {
           "type": "news",
           "title": "PLTR's Rule of 40 Hits 158%: Can This Momentum Continue?",
@@ -45,7 +90,7 @@ window.HOLDINGS_DATA = {
           "publisher": "신한투자증권 심지현",
           "ko": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
           "easy": "증권사 리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 소버린 AI 수요, 파일럿에서 생산 단계로 넘어가는 기간 단축, 3분기 실적 강세를 연간 가이던스 상향 근거로 들었다. 기사 본문은 확인하지 못했고 요약만 참고했다.",
           "whyMatters": "보유자에게는 가이던스 상향 근거와 AI 시대 경쟁 구도에 대한 긍정적 시각이 담긴 리포트다. 다만 증권사 한 곳의 의견이다.",
@@ -64,21 +109,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어, 소버린 AI를 방산·건설·헬스케어로 확대",
           "easy": "팔란티어가 국가 단위 AI(소버린 AI) 도입을 방산, 건설, 헬스케어로 넓히고 있다. 고객과의 관계가 깊어지고 반복 매출 기회가 생길 수 있다. 다만 이번 발표에는 계약 금액이 공개되지 않았다.",
           "whyMatters": "사업 확장 방향은 긍정적이지만 계약 규모가 불명확해 실적 기여도는 아직 가늠하기 어렵다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Forget Palantir? This IPO Candidate May Be the New &quot;Autonomy Giant&quot; in Defense.",
-          "url": "https://www.nasdaq.com/articles/forget-palantir-ipo-candidate-may-be-new-autonomy-giant-defense",
-          "date": "2026-11-10",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어 대신 볼 만한 방산 자율주행 IPO 후보 소개",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어 대신 볼 만한 방산 자율주행 IPO 후보 소개",
-          "easy": "기사 본문은 확인하지 못했고 제목과 요약만 봤다. 팔란티어가 2020년 상장 이후 주가가 16배 올랐다는 점을 언급하며, 방산 분야의 새로운 '자율주행(autonomy) 강자' IPO 후보를 소개하는 글로 보인다. 구체적인 내용은 기사에 안 나왔다.",
-          "whyMatters": "팔란티어를 직접 분석한 기사가 아니라 다른 IPO 후보를 부각하는 글로 보여, 보유 포지션에 미치는 영향은 이 요약만으로는 알 수 없다.",
           "quote": null,
           "read": false
         },
@@ -154,21 +184,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어 3분기 실적 예상 상회, 신규 계약 둔화에 시간외 하락",
           "easy": "매출 23.1억 달러(YoY +95.9%)로 예상치를 6.6% 웃돌았고 연간 가이던스도 올렸다. 그러나 신규 계약 성장률이 YoY +48.6%에서 +5.7%로 둔화돼 시간 외에서 3% 하락했다. 기사 본문은 확인하지 못했고 요약만 참고했다.",
           "whyMatters": "보유자에게는 실적과 가이던스는 좋았지만 계약 성장 둔화가 단기 주가에 부담으로 작용했다는 신호다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "8k",
-          "title": "8-K 공시: 실적 발표 · Reg FD 공시",
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm",
-          "date": "2026-11-02",
-          "publisher": "SEC",
-          "ko": "실적 발표 공시 — 실적 발표 · Reg FD 공시",
-          "tone": null,
-          "isNew": false,
-          "headline": null,
-          "easy": null,
-          "whyMatters": null,
           "quote": null,
           "read": false
         }
