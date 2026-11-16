@@ -1534,15 +1534,12 @@ window.TEAM6_DATA = {
     },
     "slipPct": 0.2,
     "open": 0,
-    "totalPct": -1.04,
-    "openPct": 0,
-    "observing": true,
-    "minSample": 30
+    "totalPct": -1.04
   },
   "health": {
-    "at": "2026-11-13T21:00:19.992Z",
-    "atKst": "2026-11-14 06:00 KST",
-    "atEt": "2026-11-13 1600",
+    "at": "2026-11-16T21:00:20.053Z",
+    "atKst": "2026-11-17 06:00 KST",
+    "atEt": "2026-11-16 1600",
     "phase": "post",
     "source": "kis",
     "status": "정상",
