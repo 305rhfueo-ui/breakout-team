@@ -1,315 +1,40 @@
 window.MOVERS_DATA = {
-  "updated": "2026-11-13T15:33:42.610Z",
-  "basis": "11/13 10:30 ET 기준",
+  "updated": "2026-11-16T15:33:14.354Z",
+  "basis": "11/16 10:30 ET 기준",
   "exact": true,
   "amtMinK": 10000,
-  "themes": [],
+  "themes": [
+    {
+      "name": "메디케이드 요율 개선 기대",
+      "why": "메디케이드 보험료율 개선이 2027년 마진 회복을 이끌 수 있다는 분석이 센틴과 몰리나 관련 기사에 나왔다.",
+      "members": [
+        {
+          "ticker": "CNC",
+          "n": 0
+        },
+        {
+          "ticker": "MOH",
+          "n": 0
+        }
+      ]
+    }
+  ],
   "groups": [],
   "items": [
     {
-      "ticker": "CBRS",
-      "nameKo": "세레브라스 시스템스",
-      "nameEn": "CEREBRAS SYSTEMS INC",
-      "ratePct": 6.93,
-      "price": 104.525,
-      "amountUsd": 1215795708,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "세레브라스, 3분기 호실적·가이던스 상향·마이크로소프트 계약에 급등",
-        "detail": "AI 반도체 업체 세레브라스가 3분기 사상 최대 매출과 첫 조정 분기 흑자를 내고 전망을 올렸으며, 마이크로소프트와의 신규 계약도 공개했다. 핵심 매출은 전년 대비 70% 늘어난 2억 3,090만 달러였다. 마이크로소프트 계약 매출은 2027년 1분기부터 나타날 것이라고 CEO가 밝혔다. 다만 2027년 매출 3배 전망(약 28.5억 달러)은 애널리스트 예상 29.2억 달러보다 낮고, 주가는 5월 상장 이후 약 47% 하락한 상태다. 시티그룹은 목표주가를 320달러에서 250달러로 낮췄다.",
-        "quote": "Cerebras said it expects revenue to triple in 2027.",
-        "quoteFrom": 7,
-        "others": [],
-        "refs": [
-          1,
-          2,
-          7,
-          4,
-          5
-        ]
-      },
-      "news": [
-        {
-          "title": "Cerebras (CBRS) Q3 2026 Earnings Call Transcript",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-cbrs-q3-2026-earnings-150350547.html",
-          "date": "2026-11-13",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Cerebras stock surges on Q3 results, outlook raise, hyperscaler deals",
-          "url": "https://finance.yahoo.com/markets/stocks/article/cerebras-stock-surges-after-ai-chipmaker-posts-q3-record-revenue-deals-with-hyperscalers-124719638.html",
-          "date": "2026-11-13",
-          "publisher": "Yahoo Finance"
-        },
-        {
-          "title": "Cerebras shares jump 16% as earnings beat and Microsoft deal fuel raised outlook",
-          "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-shares-jump-16-earnings-143800780.html",
-          "date": "2026-11-13",
-          "publisher": "Proactive"
-        },
-        {
-          "title": "Cerebras Stock Surges After Microsoft Deal. Can The AI Chipmaker Sustain Its Growth?",
-          "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-stock-surges-microsoft-deal-135658584.html",
-          "date": "2026-11-13",
-          "publisher": "International Business Times"
-        },
-        {
-          "title": "Citigroup Adjusts Cerebras Systems Price Target to $250 From $320, Maintains Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-cerebras-systems-price-124211323.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Wedbush Raises Price Target on Cerebras Systems to $205 From $190, Keeps Outperform Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-raises-price-target-cerebras-122956716.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Compared to Estimates, Cerebras (CBRS) Q3 Earnings: A Look at Key Metrics",
-          "url": "https://www.nasdaq.com/articles/compared-estimates-cerebras-cbrs-q3-earnings-look-key-metrics",
-          "date": "2026-11-12",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Cerebras surges after beating on revenue and announcing Microsoft deal",
-          "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-          "date": "2026-11-12",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "MOD",
-      "nameKo": "모딘 매뉴팩처링",
-      "nameEn": "MODINE MANUFACTURING CO",
-      "ratePct": 27.46,
-      "price": 135.235,
-      "amountUsd": 274434414,
-      "industry": "Auto Parts",
-      "industryKo": "자동차 부품",
-      "story": {
-        "headline": "삼성전자의 모딘 인수 협상 보도에 급등",
-        "detail": "블룸버그 보도에 따르면 삼성전자가 데이터센터 냉각 업체 모딘 매뉴팩처링 인수를 위해 협상 중이다. 한 기사는 인수 규모를 56억 달러로 거론했다. AI 데이터센터 냉각 수요에 대한 관심이 커진 점이 배경으로 언급됐다. 다만 아직 협상 단계라는 보도일 뿐 확정된 거래가 아니다.",
-        "quote": "Modine Manufacturing (MOD) is in talks to be acquired by Samsung Electronics, Bloomberg reported on",
-        "quoteFrom": 3,
-        "others": [
-          {
-            "n": 7,
-            "line": "모딘은 11월 18일 애널리스트·투자자의 날 개최를 예고했다."
-          }
-        ],
-        "refs": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
-        ]
-      },
-      "news": [
-        {
-          "title": "Samsung Eyeing Deal To Buy Data Center Supplier Modine; Stock Soars 35%",
-          "url": "https://finance.yahoo.com/m/f79eb722-fe3d-3493-8014-c031251ef048/samsung-eyeing-deal-to-buy.html",
-          "date": "2026-11-13",
-          "publisher": "Investor's Business Daily"
-        },
-        {
-          "title": "Modine Stock On Pace for Best Day in 6 Years as Samsung Eyes Data-Center Cooling Provider",
-          "url": "https://finance.yahoo.com/m/d0278987-2644-3298-8859-ac9ff21bf795/modine-stock-on-pace-for-best.html",
-          "date": "2026-11-13",
-          "publisher": "Barrons.com"
-        },
-        {
-          "title": "Modine Stock Gets a Potential $5.6 Billion Takeover Catalyst From Samsung",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/modine-stock-gets-potential-5-114103515.html",
-          "date": "2026-11-13",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Modine Manufacturing Shares Jump on Samsung Electronics Buyout Talks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/modine-manufacturing-shares-jump-samsung-083916117.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Why Is MOD Stock Soaring 28% Overnight Today?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-mod-stock-soaring-28-012340691.html",
-          "date": "2026-11-13",
-          "publisher": "Stocktwits"
-        },
-        {
-          "title": "Samsung in talks to buy data center cooling firm Modine, Bloomberg reports",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-talks-buy-data-center-005809830.html",
-          "date": "2026-11-13",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "Supply Chain Bottlenecks and Weak Margin Dragged Modine Manufacturing Company (MOD) in Q3",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/supply-chain-bottlenecks-weak-margin-163216657.html",
-          "date": "2026-11-12",
-          "publisher": "Insider Monkey"
-        },
-        {
-          "title": "Modine to Host Analyst and Investor Day on November 18, 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/modine-host-analyst-investor-day-141500967.html",
-          "date": "2026-11-12",
-          "publisher": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "ticker": "NU",
-      "nameKo": "누 홀딩스",
-      "nameEn": "NU HOLDINGS LTD",
-      "ratePct": 7.78,
-      "price": 12.75,
-      "amountUsd": 239363617,
+      "ticker": "CGON",
+      "nameKo": "CG 온콜로지",
+      "nameEn": "CG ONCOLOGY INC",
+      "ratePct": 7.36,
+      "price": 79.875,
+      "amountUsd": 170172889,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "누뱅크, 3분기 사상 최대 순이익·매출로 상승",
-        "detail": "브라질 디지털은행 누 홀딩스가 3분기 순이익 10억 9,000만 달러로 사상 최대를 기록했다. 전년 같은 분기 7억 8,270만 달러(관리 기준)에서 늘었다. 총매출은 63억 달러로 전년 대비 37% 증가해 시장 예상을 웃돌았다. 멕시코에서 정식 은행 업무를 시작한 점도 긍정적으로 언급됐다. 다만 이익이 사상 최고인 가운데 신용 위험을 더 떠안고 있다는 지적도 있다.",
-        "quote": "Nu's gross revenue notched a record $6.3 billion in the quarter, up 37% year-over-year, beating Wall Street expectations.",
-        "quoteFrom": 7,
-        "others": [],
-        "refs": [
-          0,
-          3,
-          7,
-          4
-        ]
-      },
-      "news": [
-        {
-          "title": "Nu Holdings Ltd. Reports Q3’2026 Managerial Net Income of 1,091.6 Million",
-          "url": "https://www.nasdaq.com/articles/nu-holdings-ltd-reports-q32026-managerial-net-income-10916-million",
-          "date": "2026-11-13",
-          "publisher": "Fintel"
-        },
-        {
-          "title": "Nu Holdings (NU) Q3 2026 Earnings Call Transcript",
-          "url": "https://www.nasdaq.com/articles/nu-holdings-nu-q3-2026-earnings-call-transcript",
-          "date": "2026-11-13",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "Nu  (NU) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-          "url": "https://www.nasdaq.com/articles/nu-nu-q3-earnings-taking-look-key-metrics-versus-estimates",
-          "date": "2026-11-13",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Learn Why The Bull Case For Nubank Stock Could Change Following Earnings Beat",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-nubank-131134418.html",
-          "date": "2026-11-13",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Nu Takes On More Credit Risk as Profit Hits a Record",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nu-takes-more-credit-risk-113917861.html",
-          "date": "2026-11-13",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "NU Q3 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nu-q3-earnings-call-highlights-111447388.html",
-          "date": "2026-11-13",
-          "publisher": "MarketBeat"
-        },
-        {
-          "title": "Revolut well-positioned to scale globally without damaging core markets: GlobalData",
-          "url": "https://finance.yahoo.com/news/revolut-well-positioned-scale-globally-074234157.html",
-          "date": "2026-11-13",
-          "publisher": "Retail Banker International"
-        },
-        {
-          "title": "NU Stock Rises Overnight On Strong Q3 Results: CEO Says New Banking Status Makes Proposition ‘Even More Compelling’",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nu-stock-rises-overnight-strong-011518684.html",
-          "date": "2026-11-13",
-          "publisher": "Stocktwits"
-        }
-      ]
-    },
-    {
-      "ticker": "FCUV",
-      "nameKo": "포커스 유니버설",
-      "nameEn": "FOCUS UNIVERSAL INC",
-      "ratePct": 82.5,
-      "price": 5.475,
-      "amountUsd": 215587252,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
+        "headline": "방광암 3상 1차 목표 달성, 재발 위험 68% 감소",
+        "detail": "CG 온콜로지가 중간위험·고등급 Ta 비근침윤성 방광암(NMIBC) 환자 대상 크레토스티모진 3상(PIVOT-006)에서 1차 평가변수를 충족했다고 밝혔다. 재발 위험이 68% 줄었고 위험비(HR, 치료군의 재발 위험을 대조군과 비교한 값) 0.32, p<0.0001로 통계적으로 유의했다. 3등급 이상 치료 관련 부작용과 치료 관련 중단은 없었다. 12월 2일 학회에서 상세 결과를 발표할 예정이어서 세부 데이터 확인이 필요하다.",
         "quote": "",
         "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "ALNY",
-      "nameKo": "앨나일램 파머슈티컬스",
-      "nameEn": "ALNYLAM PHARMACEUTICALS INC",
-      "ratePct": 6.48,
-      "price": 166.8,
-      "amountUsd": 89190462,
-      "industry": "Biotechnology",
-      "industryKo": "바이오테크",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Alnylam Pharmaceuticals Insider Bought Shares Worth $299,526, According to a Recent SEC Filing",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alnylam-pharmaceuticals-insider-bought-shares-211721971.html",
-          "date": "2026-11-12",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Here's Why Ionis Pharmaceuticals' Stock is Down 28.5% Post Q3 Earnings",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-ionis-pharmaceuticals-stock-160200707.html",
-          "date": "2026-11-11",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Gene Therapy - Global Strategic Business Report: Capitalize on 23% CAGR as the Market Hits US$6 Billion by 2030; Benchmark Amgen, Alnylam, BioMarin, Biogen and bluebird bio",
-          "url": "https://finance.yahoo.com/healthcare/articles/gene-therapy-global-strategic-business-141000869.html",
-          "date": "2026-11-11",
-          "publisher": "GlobeNewswire"
-        },
-        {
-          "title": "Alnylam Collaborator Regeneron Advances CIDEBsiRNA with Promising First-in-Human Results in Patients with MASLD",
-          "url": "https://finance.yahoo.com/healthcare/articles/alnylam-collaborator-regeneron-advances-cidebsirna-150000809.html",
-          "date": "2026-11-10",
-          "publisher": "Business Wire"
-        }
-      ]
-    },
-    {
-      "ticker": "ONFO",
-      "nameKo": "온폴리오 홀딩스",
-      "nameEn": "ONFOLIO HOLDINGS INC",
-      "ratePct": 185.9,
-      "price": 0.9675,
-      "amountUsd": 64011059,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "온폴리오, 나스닥 상장 유지 요건 충족·전환사채 없음 발표",
-        "detail": "온라인 사업체 운영사 온폴리오가 기업 현황을 공개했다. 주주자본이 나스닥 캐피털마켓 상장 유지 최소 요건인 250만 달러를 넘어섰고, 미상환 전환사채(주식으로 바꿀 수 있는 채권)도 없다고 밝혔다. 이스턴 스탠더드 매도자들에 예정된 지급을 마쳤고 부채를 계속 줄이며 인수 마무리를 추진 중이라고 했다. 상장폐지 우려와 희석 부담이 줄었다는 점이 주가에 영향을 줬을 수 있으나 직접 설명한 기사는 없다. 3분기 실적 발표는 11월 17일 예정이다.",
-        "quote": "The Company's stockholders' equity is now above the $2.5 million minimum required for continued listing on The Nasdaq Capital Market",
-        "quoteFrom": 0,
         "others": [],
         "refs": [
           0,
@@ -318,107 +43,64 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Onfolio Provides Corporate Update: Stockholders' Equity Above Nasdaq Minimum, No Convertible Notes Outstanding",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/onfolio-provides-corporate-stockholders-equity-141500977.html",
-          "date": "2026-11-13",
-          "publisher": "GlobeNewswire"
+          "title": "CG Oncology Says Phase 3 Trial in Intermediate Risk, High Grade Ta Bladder Cancer Meets Primary Endpoint",
+          "url": "https://finance.yahoo.com/healthcare/articles/cg-oncology-says-phase-3-140626467.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "Onfolio Holdings Sets Third Quarter 2026 Earnings Call for November 17, 2026, at 8:00 a.m. ET",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/onfolio-holdings-sets-third-quarter-140000148.html",
-          "date": "2026-11-11",
+          "title": "PIVOT-006 Phase 3 Registrational Trial Demonstrates Unprecedented Improvement in Recurrence-Free Survival (RFS) for Intermediate-Risk and High-Grade Ta Non-Muscle Invasive Bladder Cancer (NMIBC)",
+          "url": "https://finance.yahoo.com/healthcare/articles/pivot-006-phase-3-registrational-130000992.html",
+          "date": "2026-11-16",
           "publisher": "GlobeNewswire"
         }
       ]
     },
     {
-      "ticker": "LFTO",
-      "nameKo": "리프트오프 모바일",
-      "nameEn": "LIFTOFF MOBILE INC",
-      "ratePct": 23.97,
-      "price": 23.195,
-      "amountUsd": 50491549,
+      "ticker": "TSCO",
+      "nameKo": "트랙터 서플라이",
+      "nameEn": "TRACTOR SUPPLY CO",
+      "ratePct": 5.39,
+      "price": 38.415,
+      "amountUsd": 126807646,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "리프트오프, 3분기 흑자전환에 목표가 줄상향",
-        "detail": "모바일 광고 업체 리프트오프가 3분기 희석 주당순이익 0.47달러로 흑자 전환했고 매출도 늘었다. 이에 도이치뱅크(27→32달러), RBC(35→38달러), 웨드부시(25→29달러), 파이퍼샌들러(19→24달러)가 목표주가를 올렸다. 배런스는 사상 최고의 하루이며 애널리스트들이 주가가 두 배가 될 수 있다고 본다고 전했다. 다만 파이퍼샌들러는 중립 의견을 유지했다.",
-        "quote": "Liftoff Mobile (LFTO) reported Q3 earnings late Thursday of $0.47 per diluted share, swinging from t",
-        "quoteFrom": 7,
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
         "others": [],
-        "refs": [
-          7,
-          1,
-          2,
-          4,
-          5,
-          3
-        ]
+        "refs": []
       },
       "news": [
         {
-          "title": "Liftoff Mobile (LFTO) Stock Sees Modest Fair Value Cut As Analysts Trim Targets",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/liftoff-mobile-lfto-stock-sees-150824567.html",
+          "title": "Evercore downgrades 2 home stocks on delayed housing recovery",
+          "url": "https://finance.yahoo.com/real-estate/articles/evercore-downgrades-2-home-stocks-145046348.html",
           "date": "2026-11-13",
-          "publisher": "Simply Wall St."
+          "publisher": "Investing.com"
         },
         {
-          "title": "Deutsche Bank Raises Liftoff Mobile Price Target to $32 From $27, Maintains Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-raises-liftoff-mobile-140412967.html",
+          "title": "Evercore ISI Downgrades Tractor Supply to In Line From Outperform, Price Target is $38",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-downgrades-tractor-supply-102913906.html",
           "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "RBC Raises Price Target on Liftoff Mobile to $38 From $35, Keeps Outperform Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-liftoff-132453010.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "This AI Advertising Stock Is Having Its Best Day Ever. Analysts Say Price Could Double.",
-          "url": "https://finance.yahoo.com/m/f6c2f436-9b9c-31a6-8bf1-a2c59702b481/this-ai-advertising-stock-is.html",
-          "date": "2026-11-13",
-          "publisher": "Barrons.com"
-        },
-        {
-          "title": "Wedbush Raises Price Target on Liftoff Mobile to $29 From $25, Keeps Outperform Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-raises-price-target-liftoff-122535059.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Piper Sandler Adjusts Price Target on Liftoff Mobile to $24 From $19, Maintains Neutral Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-adjusts-price-target-114946014.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Liftoff Mobile Q3 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/liftoff-mobile-q3-earnings-call-031424737.html",
-          "date": "2026-11-13",
-          "publisher": "MarketBeat"
-        },
-        {
-          "title": "Liftoff Mobile Swings to Q3 Profit as Revenue Rises; Shares Gain After Hours",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/liftoff-mobile-swings-q3-profit-213400979.html",
-          "date": "2026-11-12",
           "publisher": "MT Newswires"
         }
       ]
     },
     {
-      "ticker": "ZBAO",
-      "nameKo": "즈바오 테크놀로지",
-      "nameEn": "ZHIBAO TECHNOLOGY INC",
-      "ratePct": 30.22,
-      "price": 0.2745,
-      "amountUsd": 30568651,
+      "ticker": "GMM",
+      "nameKo": "글로벌 모페이 AI",
+      "nameEn": "GLOBAL MOFY AI LIMITED",
+      "ratePct": 135.48,
+      "price": 2.4019,
+      "amountUsd": 112335938,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "즈바오, 연간 영업흑자 전환과 순손실 대폭 축소",
-        "detail": "영업이익은 920만 위안으로 흑자 전환했고(전년 영업손실 5,350만 위안), 순손실은 95.3% 줄어 290만 위안이 됐다. 1억 5,470만 달러 규모 사모 유상증자(PIPE) 완료도 공개했다. 이런 실적 개선이 주가에 영향을 줬을 수 있으나 직접 설명한 기사는 없다.",
-        "quote": "Total Revenues grew 16% year-over-year to RMB 319.9 million (US$ 47.1 million), meeting previously issued preliminary guidance.",
+        "headline": "앤트로픽 간접 투자 공개에 급등",
+        "detail": "글로벌 모페이 AI가 2026년 9월 앤트로픽(Anthropic)에 간접 투자했다고 발표했다. 앤트로픽 관련 투자에 참여하는 방식으로, 회사는 AI 분야 전략적 입지를 넓히는 한 걸음이라고 설명했다. 간접 투자라 규모와 실제 가치는 기사만으로 알 수 없고, 소형주 급등은 변동성이 크다는 점에 유의해야 한다.",
+        "quote": "Global Mofy participates indirectly in an investment related to Anthropic through a subscript",
         "quoteFrom": 0,
         "others": [],
         "refs": [
@@ -427,20 +109,98 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Zhibao Technology Inc. Reports Fiscal Year 2026 Financial Results and Files Annual Report on Form 20-F",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zhibao-technology-inc-reports-fiscal-110000113.html",
-          "date": "2026-11-13",
-          "publisher": "TMX Newsfile"
+          "title": "Global Mofy Announces Indirect Investment in Anthropic, Strengthening Its Position in the Global AI Ecosystem",
+          "url": "https://finance.yahoo.com/technology/ai/articles/global-mofy-announces-indirect-investment-133000189.html",
+          "date": "2026-11-16",
+          "publisher": "GlobeNewswire"
         }
       ]
     },
     {
-      "ticker": "XLAB",
-      "nameKo": "엑사스케일 랩스 홀딩스",
-      "nameEn": "EXASCALE LABS HOLDINGS INC",
-      "ratePct": 22.47,
-      "price": 2.78,
-      "amountUsd": 26619832,
+      "ticker": "TSN",
+      "nameKo": "타이슨 푸드",
+      "nameEn": "TYSON FOODS INC",
+      "ratePct": 8.4,
+      "price": 63.76,
+      "amountUsd": 98170188,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "4분기 호실적 속 실적 발표 후 반등",
+        "detail": "타이슨 푸드가 2026년 9월 마감 4분기 실적을 발표했다. 주당순이익은 시장 예상을 6.15% 밑돌았고 매출은 5.11% 웃돌았다. 한 보도는 실적 호조 뒤 주가가 올랐다고 전했다. 다만 소고기 공급 부족으로 2027 회계연도 매출 감소와 소고기 부문 부진을 예상한다는 보도도 있어 전망은 부담이다. 상승 이유를 직접 설명한 기사는 제한적이다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 5,
+            "line": "소고기 부진이 이어지고 닭고기 이익도 약해질 전망"
+          }
+        ],
+        "refs": [
+          0,
+          1,
+          2,
+          4
+        ]
+      },
+      "news": [
+        {
+          "title": "Tyson Foods (TSN) Misses Q4 Earnings Estimates",
+          "url": "https://www.nasdaq.com/articles/tyson-foods-tsn-misses-q4-earnings-estimates",
+          "date": "2026-11-16",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Update: Tyson Foods Shares Rise After Fiscal Q4 Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-shares-rise-fiscal-150659824.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Tyson Foods warns of steeper sales decline as cattle shortages hit outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-warns-steeper-sales-141000812.html",
+          "date": "2026-11-16",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "Tyson Foods forecasts more pain for beef profits in fiscal 2027",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-forecasts-more-pain-140855019.html",
+          "date": "2026-11-16",
+          "publisher": "Just Food"
+        },
+        {
+          "title": "Tyson Foods Beats Q4 Earnings and Revenue Estimates, Forecasts Lower Sales in Fiscal 2027",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-beats-q4-earnings-135550873.html",
+          "date": "2026-11-16",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Tyson Foods’ Beef Troubles Aren’t Over and Chicken Profit Seen Weakening",
+          "url": "https://finance.yahoo.com/m/30fb8db6-4b04-3f93-83f2-7e97d7fedb91/tyson-foods%E2%80%99-beef-troubles.html",
+          "date": "2026-11-16",
+          "publisher": "Barrons.com"
+        },
+        {
+          "title": "Tyson Foods Guides for Sales Decline as Beef Business Remains Under Pressure",
+          "url": "https://finance.yahoo.com/m/4a60f1ea-bc90-3d56-b149-bb6f911b9048/tyson-foods-guides-for-sales.html",
+          "date": "2026-11-16",
+          "publisher": "The Wall Street Journal"
+        },
+        {
+          "title": "Tyson (TSN) Reports Q4 Earnings: What Key Metrics Have to Say",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tyson-tsn-reports-q4-earnings-133002810.html",
+          "date": "2026-11-16",
+          "publisher": "Zacks"
+        }
+      ]
+    },
+    {
+      "ticker": "AKAN",
+      "nameKo": "어칸다",
+      "nameEn": "AKANDA CORP",
+      "ratePct": 50.37,
+      "price": 2.045,
+      "amountUsd": 73071073,
       "industry": null,
       "industryKo": null,
       "story": {
@@ -454,19 +214,38 @@ window.MOVERS_DATA = {
       "news": []
     },
     {
-      "ticker": "RAIN",
-      "nameKo": "레인 인핸스먼트 테크놀로지스",
-      "nameEn": "RAIN ENHANCEMENT TECHNOLOGIES HOLDC",
-      "ratePct": 21.36,
-      "price": 0.5749,
-      "amountUsd": 26102829,
+      "ticker": "POWL",
+      "nameKo": "파월 인더스트리스",
+      "nameEn": "POWELL INDUSTRIES INC",
+      "ratePct": 7.69,
+      "price": 153.7,
+      "amountUsd": 71670925,
+      "industry": "Electrical Equipment & Parts",
+      "industryKo": "전기장비·부품",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": []
+    },
+    {
+      "ticker": "HIHO",
+      "nameKo": "하이웨이 홀딩스",
+      "nameEn": "HIGHWAY HLDGS",
+      "ratePct": 52.87,
+      "price": 1.2,
+      "amountUsd": 61344268,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "레인, AI 인프라 보안 업체 텐서 네트웍스와 합병 계약",
-        "detail": "인공강우 이온화 기술 업체 레인이 비상장 AI 보안 업체 텐서 네트웍스와 최종 합병 계약을 맺었다. 텐서 네트웍스는 '세이프 AI' 방식의 인프라 보안용 예측 AI를 개발한다. 특허 출원 중인 AI 인프라 보안 기술이 레인 플랫폼에 더해지며, 에릭 프레이저와 랜디 사이들이 합병 회사를 이끈다. 이 합병 소식이 주가 상승 배경으로 보이나 거래 조건 등 세부 내용은 확인되지 않았다.",
-        "quote": "",
-        "quoteFrom": -1,
+        "headline": "특별배당 결정과 데이비드 라자르 투자 맥락",
+        "detail": "하이웨이 홀딩스가 주당 0.43228달러(총 200만 달러)의 현금 특별배당을 결정했다. 지급일은 11월 30일, 기준일은 11월 27일이다. 이 배당은 11월 5일 발표한 데이비드 라자르와의 전략적 투자의 일부다.",
+        "quote": "The special dividend is part of the strategic investment announced in the Company's press release on November 5, 2026 between the Company and David Lazar.",
+        "quoteFrom": 0,
         "others": [],
         "refs": [
           0
@@ -474,104 +253,27 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Rain Enhancement Technologies and Tensor Networks Enter into Definitive Merger Agreement for Strategic Business Combination",
-          "url": "https://finance.yahoo.com/technology/ai/articles/rain-enhancement-technologies-tensor-networks-000000891.html",
-          "date": "2026-11-13",
-          "publisher": "ACCESS Newswire"
-        }
-      ]
-    },
-    {
-      "ticker": "CDNL",
-      "nameKo": "CARDINAL INFRASTRUCTURE GROUP INC",
-      "nameEn": "CARDINAL INFRASTRUCTURE GROUP INC",
-      "ratePct": 21.99,
-      "price": 6.88,
-      "amountUsd": 25474425,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [
-          {
-            "n": 3,
-            "line": "연간 매출·조정 EBITDA 마진 가이던스를 철회했고 휴즈 인수도 연기했다."
-          },
-          {
-            "n": 4,
-            "line": "전날 3분기 손실과 마진 하락으로 주가가 33% 하락했다."
-          }
-        ],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Implied Volatility Surging for Cardinal Infrastructure Group Stock Options",
-          "url": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-cardinal-infrastructure-130000354.html",
-          "date": "2026-11-13",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Truist Cuts Price Target on Cardinal Infrastructure Group to $10 From $30, Keeps Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/truist-cuts-price-target-cardinal-122738182.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Cardinal Infra (CDNL) Q3 2026 Earnings Call Transcript",
-          "url": "https://www.nasdaq.com/articles/cardinal-infra-cdnl-q3-2026-earnings-call-transcript",
-          "date": "2026-11-12",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "What Cardinal Infrastructure Group (CDNL) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-infrastructure-group-cdnl-said-171523111.html",
-          "date": "2026-11-12",
-          "publisher": "MarketBeat"
-        },
-        {
-          "title": "Cardinal Infrastructure Shares Fall 33% as Q3 Loss and Margin Decline Offset Revenue Growth",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-infrastructure-shares-fall-33-131642806.html",
-          "date": "2026-11-12",
-          "publisher": "InvestorsHub"
-        },
-        {
-          "title": "Cardinal Infrastructure stock tumbles 33% on earnings miss, margin woes",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-infrastructure-stock-tumbles-33-123453265.html",
-          "date": "2026-11-12",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "Cardinal: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-q3-earnings-snapshot-114346812.html",
-          "date": "2026-11-12",
-          "publisher": "Associated Press"
-        },
-        {
-          "title": "Cardinal Infrastructure Group Inc. Reports Third Quarter 2026 Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cardinal-infrastructure-group-inc-reports-113500730.html",
-          "date": "2026-11-12",
+          "title": "HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/highway-holdings-declares-us-0-120000392.html",
+          "date": "2026-11-16",
           "publisher": "PR Newswire"
         }
       ]
     },
     {
-      "ticker": "WSE",
-      "nameKo": "와이즈 그룹",
-      "nameEn": "WISE GROUP PLC",
-      "ratePct": 8.42,
-      "price": 11.85,
-      "amountUsd": 21618630,
+      "ticker": "CNC",
+      "nameKo": "센틴",
+      "nameEn": "CENTENE CORPORATION",
+      "ratePct": 5.13,
+      "price": 74.925,
+      "amountUsd": 59658132,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "와이즈, 상반기 호실적·매출 전망 상향에 상승",
-        "detail": "와이즈가 상반기 순매출이 23% 늘어 14억 5,000만 달러, 활성 고객이 21% 늘어 1,620만 명이라고 밝히고 연간 매출 전망을 올렸다. 국경 간 거래액은 24% 늘어 1,410억 달러였다. 다만 미국 상장 주가 상승률은 이보다 낮은 수준이다.",
-        "quote": "Wise Group PLC (LSE:WISE, NASDAQ:WSE), the cross-border payments company, raised its full-year revenue expectations after first-half net revenue increased 23% to US$1.45 billion and active customers rose 21% to 16.2 million.",
-        "quoteFrom": 1,
+        "headline": "버스타인 목표주가 79달러→90달러 상향",
+        "detail": "번스타인이 센틴의 목표주가를 79달러에서 90달러로 올렸다. 기존 애널리스트 평균 목표가는 76.22달러였다. 또 메디케이드(저소득층 공공 의료보험) 보험료율 개선이 2027년 마진 회복에 도움될 수 있다는 분석이 나왔다. 다만 의료비 부담과 주별 조정 불균형은 부담으로 지적된다. 직접 설명한 기사는 목표가 상향 정도다.",
+        "quote": "",
+        "quoteFrom": -1,
         "others": [],
         "refs": [
           1,
@@ -580,207 +282,316 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Wise jumps 10% as Jefferies highlights Belgian settlement and North American bank wins",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wise-jumps-10-jefferies-highlights-100000914.html",
-          "date": "2026-11-13",
-          "publisher": "Proactive"
+          "title": "Can Medicaid Rate Improvements Drive Elevance's 2027 Margin Recovery?",
+          "url": "https://finance.yahoo.com/healthcare/articles/medicaid-rate-improvements-drive-elevances-142300424.html",
+          "date": "2026-11-16",
+          "publisher": "Zacks"
         },
         {
-          "title": "Wise lifts revenue outlook as first-half customer numbers and payments volumes jump",
-          "url": "https://finance.yahoo.com/markets/currencies/articles/wise-lifts-revenue-outlook-first-074000537.html",
-          "date": "2026-11-13",
-          "publisher": "Proactive"
+          "title": "Bernstein Adjusts Price Target on Centene to $90 From $79",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-adjusts-price-target-centene-130459353.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "Wise H1 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wise-h1-earnings-call-highlights-031423044.html",
+          "title": "For 75 San Joaquin County Families, Affordable Housing May be Within Reach thanks to Health Net",
+          "url": "https://finance.yahoo.com/healthcare/articles/75-san-joaquin-county-families-190400994.html",
           "date": "2026-11-13",
-          "publisher": "MarketBeat"
+          "publisher": "PR Newswire"
         },
         {
-          "title": "Wise Group plc H1 Results for Fiscal Year 2027",
-          "url": "https://finance.yahoo.com/markets/currencies/articles/wise-group-plc-h1-results-210000215.html",
-          "date": "2026-11-12",
-          "publisher": "GlobeNewswire"
+          "title": "Centene to lay off 69 employees early next year",
+          "url": "https://finance.yahoo.com/healthcare/articles/centene-lay-off-69-employees-171000314.html",
+          "date": "2026-11-13",
+          "publisher": "The Honolulu Star-Advertiser"
         }
       ]
     },
     {
-      "ticker": "KLAR",
-      "nameKo": "클라르나 그룹",
-      "nameEn": "KLARNA GROUP PLC",
-      "ratePct": 5.47,
-      "price": 13.405,
-      "amountUsd": 20316404,
+      "ticker": "LXEO",
+      "nameKo": "렉시오 테라퓨틱스",
+      "nameEn": "LEXEO THERAPEUTICS INC",
+      "ratePct": 15.16,
+      "price": 3.305,
+      "amountUsd": 57640773,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
+        "headline": "유전자치료 중간 데이터 호조, 신속승인 길 열려",
+        "detail": "렉시오가 PKP2 부정맥성 심근병증 유전자치료 LX2020의 1/2상 중간 결과를 발표했다. 고용량 환자에서 비지속성 심실빈맥이 평균 80%, 조기 심실수축이 평균 44% 줄었다. FDA와 협의에서 신속승인 경로 가능성도 제시됐다. 일부 보도는 주가가 25% 올랐다고 전했다. 초기 중간 데이터라 최종 확인이 필요하다.",
         "quote": "",
         "quoteFrom": -1,
-        "others": [
-          {
-            "n": 0,
-            "line": "로빈후드 임원 크리스 쾨겔을 2027년 1월 1일자 CFO로 선임했다."
-          }
-        ],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Klarna Appoints Robinhood Executive Chris Koegel as CFO",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-appoints-robinhood-executive-chris-140554747.html",
-          "date": "2026-11-12",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Klarna Names Chris Koegel as Chief Financial Officer",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-names-chris-koegel-chief-133000808.html",
-          "date": "2026-11-12",
-          "publisher": "Business Wire"
-        },
-        {
-          "title": "Nayax (NYAX) Surpasses Q3 Earnings Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nayax-nyax-surpasses-q3-earnings-152513794.html",
-          "date": "2026-11-11",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "HAWK",
-      "nameKo": "호크아이 360",
-      "nameEn": "HAWKEYE 360 INC",
-      "ratePct": 18.61,
-      "price": 17.4,
-      "amountUsd": 20131417,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "호크아이360, 사상 최대 3분기 매출·연간 전망 상향",
-        "detail": "우주 기반 무선주파수 정보 업체 호크아이 360이 3분기 매출 5,930만 달러로 전년 대비 84% 늘었고, 2026년 매출과 조정이익 전망을 올렸다. ISA 인수와 해외 판매 증가가 성장 요인이다. 레이먼드 제임스는 목표주가를 40달러에서 30달러로 낮추면서 강력 매수 의견은 유지했다.",
-        "quote": "HawkEye 360 (NYSE:HAWK) raised its 2026 revenue and adjusted earnings outlook after reporting record third-quarter revenue, driven by its acquisition of ISA and growth in international sales.",
-        "quoteFrom": 4,
-        "others": [],
-        "refs": [
-          4,
-          5,
-          1,
-          3
-        ]
-      },
-      "news": [
-        {
-          "title": "HawkEye 360 (HAWK) Q3 2026 Earnings Call Transcript",
-          "url": "https://www.nasdaq.com/articles/hawkeye-360-hawk-q3-2026-earnings-call-transcript",
-          "date": "2026-11-13",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "HawkEye 360 Raises Outlook on Booming Global Deals and Cheaper Satellites",
-          "url": "https://finance.yahoo.com/m/3c06267e-e5d9-393f-99c8-7bd8f08d18d7/hawkeye-360-raises-outlook-on.html",
-          "date": "2026-11-13",
-          "publisher": "Barrons.com"
-        },
-        {
-          "title": "HawkEye 360: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hawkeye-360-3-key-takeaways-131727125.html",
-          "date": "2026-11-13",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Raymond James Adjusts Price Target on HawkEye 360 to $30 From $40, Keeps Strong Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-adjusts-price-target-124205646.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "What HawkEye 360 (HAWK) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hawkeye-360-hawk-said-q3-091454527.html",
-          "date": "2026-11-13",
-          "publisher": "MarketBeat"
-        },
-        {
-          "title": "HawkEye 360 Q3 Revenue Rises, Ups Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hawkeye-360-q3-revenue-rises-213414326.html",
-          "date": "2026-11-12",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "HawkEye 360: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hawkeye-360-q3-earnings-snapshot-212229790.html",
-          "date": "2026-11-12",
-          "publisher": "Associated Press"
-        },
-        {
-          "title": "HawkEye 360 Announces Third Quarter 2026 Financial Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hawkeye-360-announces-third-quarter-210100688.html",
-          "date": "2026-11-12",
-          "publisher": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "ticker": "MRLN",
-      "nameKo": "멀린",
-      "nameEn": "MERLIN INC",
-      "ratePct": 26.8,
-      "price": 1.2229,
-      "amountUsd": 17471663,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "멀린, 3분기 매출 증가·적자 축소와 군 계약 진전",
-        "detail": "항공 자율비행 업체 멀린이 3분기 매출이 늘고 조정 EBITDA(상각 전 영업이익) 적자가 줄었다고 밝혔다. 현금은 1억 6,160만 달러에 부채는 없다. 11월 10일 USSOCOM C-130J 자율비행 프로그램을 설계에서 통합 단계로 진전시키는 890만 달러 과업을 수주했고, 아프리카사령부 사업도 따냈다. 2027년 지출 감축 계획도 밝혔다. 이들이 주가 상승 요인으로 보이나 직접 설명한 기사는 없다.",
-        "quote": "Ended Third Quarter 2026 With $161.6 Million in Cash, Cash Equivalents, and Short Term Investments, and No Debt",
-        "quoteFrom": 1,
         "others": [],
         "refs": [
           0,
           1,
-          5,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "Lexeo Therapeutics shares surge 25% on interim data for LX2020 gene therapy",
+          "url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-shares-surge-25-140105213.html",
+          "date": "2026-11-16",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "Lexeo Therapeutics Reports LX2020 Gene Therapy Trial Data and Outlines Potential FDA Accelerated Approval Pathway",
+          "url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-reports-lx2020-gene-134712650.html",
+          "date": "2026-11-16",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Lexeo Therapeutics' Gene Therapy Cuts Episodes of Rapid Heartbeat by 80% in Trial",
+          "url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-apos-gene-therapy-133147736.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Lexeo Therapeutics Announces Positive Interim Phase I/II Data and Regulatory Update for LX2020 in PKP2 Arrhythmogenic Cardiomyopathy and Reports Third Quarter 2026 Financial Results",
+          "url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-announces-positive-interim-120000742.html",
+          "date": "2026-11-16",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "Lexeo Therapeutics to Report Third Quarter 2026 Financial Results and Provide LX2020 Business Update on November 16, 2026",
+          "url": "https://finance.yahoo.com/healthcare/articles/lexeo-therapeutics-report-third-quarter-120000611.html",
+          "date": "2026-11-15",
+          "publisher": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "ticker": "TU",
+      "nameKo": "텔러스",
+      "nameEn": "TELUS CORP",
+      "ratePct": 12.72,
+      "price": 9.615,
+      "amountUsd": 56979615,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "퀘벡코어의 60% 프리미엄 인수 제안",
+        "detail": "퀘벡코어가 텔러스에 비구속적 조건부 인수 제안을 했고, 보도에 따르면 프리미엄은 60%다. 텔러스 이사회는 독립 이사로 구성된 특별위원회를 통해 검토 중이며 규제·실행 위험이 크다고 밝혔다. 일부 보도는 주가가 29% 급등했다고 전했다. 제안이 구속력이 없고 규제 승인 불확실성이 커 성사 여부는 불투명하다.",
+        "quote": "TELUS Corporation (NYSE:TU) shares climbed 29% on Monday after the Canadian telecommunications company confirmed that its board is reviewing an unsolicited takeover proposal from Québecor and assessing potential regulatory, financial and governance implications.",
+        "quoteFrom": 1,
+        "others": [],
+        "refs": [
+          1,
+          2,
           3
         ]
       },
       "news": [
         {
-          "title": "What Merlin, Inc. Common Stock (MRLN) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/merlin-inc-common-stock-mrln-031424741.html",
-          "date": "2026-11-13",
-          "publisher": "MarketBeat"
+          "title": "Quebecor Makes Bid for Telus in Canadian Telecom Deal",
+          "url": "https://finance.yahoo.com/m/c06d1b98-9ffa-3862-b3ba-398e68f2db4e/quebecor-makes-bid-for-telus.html",
+          "date": "2026-11-16",
+          "publisher": "The Wall Street Journal"
         },
         {
-          "title": "Merlin, Inc. Reports Third Quarter 2026 Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/merlin-inc-reports-third-quarter-210500051.html",
-          "date": "2026-11-12",
-          "publisher": "GlobeNewswire"
+          "title": "TELUS Shares Rise 29% as Board Reviews Québecor Takeover Proposal and Regulatory Risks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/telus-shares-rise-29-board-133326183.html",
+          "date": "2026-11-16",
+          "publisher": "InvestorsHub"
         },
         {
-          "title": "Earnings To Watch: Merlin Inc (MRLN) Reports Q3 2026 Result",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-merlin-inc-mrln-125450866.html",
-          "date": "2026-11-11",
-          "publisher": "GuruFocus.com"
+          "title": "TELUS shares jump 29% as board reviews unsolicited Québecor takeover proposal",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/telus-shares-jump-29-board-132237865.html",
+          "date": "2026-11-16",
+          "publisher": "Investing.com"
         },
         {
-          "title": "Merlin Awarded Contract for U.S. Africa Command Autonomous Casualty Evacuation Technology Challenge",
-          "url": "https://finance.yahoo.com/technology/ai/articles/merlin-awarded-contract-u-africa-123000153.html",
-          "date": "2026-11-11",
-          "publisher": "GlobeNewswire"
+          "title": "Quebecor Submits Non-Binding Proposal to Acquire TELUS at 60% Premium",
+          "url": "https://finance.yahoo.com/technology/articles/quebecor-submits-non-binding-proposal-132146571.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "What Satellogic (SATL) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/satellogic-satl-said-q3-earnings-031432015.html",
-          "date": "2026-11-11",
-          "publisher": "MarketBeat"
+          "title": "QUEBECOR INC. ANNOUNCES PROPOSAL TO TELUS FOR A STRATEGIC COMBINATION",
+          "url": "https://finance.yahoo.com/news/quebecor-inc-announces-proposal-telus-123000461.html",
+          "date": "2026-11-16",
+          "publisher": "CNW Group"
         },
         {
-          "title": "Merlin Awarded $8.9 Million Task Order To Advance USSOCOM C-130J Autonomy Program from Design Into Integration",
-          "url": "https://finance.yahoo.com/technology/articles/merlin-awarded-8-9-million-130500494.html",
-          "date": "2026-11-10",
+          "title": "TELUS confirms receipt of unsolicited proposal from Québecor, continues review of strategic alternatives",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/telus-confirms-receipt-unsolicited-proposal-123000942.html",
+          "date": "2026-11-16",
+          "publisher": "CNW Group"
+        }
+      ]
+    },
+    {
+      "ticker": "CYAB",
+      "nameKo": "시아브라",
+      "nameEn": "CYABRA INC",
+      "ratePct": 74.49,
+      "price": 0.1553,
+      "amountUsd": 46079481,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "최대 4,500만 달러 전략 투자 유치",
+        "detail": "시아브라가 정보전 대응 AI 플랫폼 확장을 위해 최대 4,500만 달러 투자 유치를 발표했다. 첫 종결분은 1,500만 달러로 현금 1,000만 달러와 부채 500만 달러 전환이다. 향후 3년 안에 추가로 최대 3,000만 달러를 받을 수 있다. 추가 투자는 확정이 아니라 기회라는 점에 유의해야 한다.",
+        "quote": "Initial closing consists of a $15 million investment- $10 million in cash and an additional $5 million in conversion of outstanding debt The Company has the opportunity to receive additional investments of up to $30 million within the next three years",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "Cyabra Announces Pricing of Up to $45 Million Strategic Investment to Scale Its Sovereign AI Information-Warfare Platform",
+          "url": "https://finance.yahoo.com/technology/ai/articles/cyabra-announces-pricing-45-million-140000178.html",
+          "date": "2026-11-16",
           "publisher": "GlobeNewswire"
         }
       ]
+    },
+    {
+      "ticker": "HTHT",
+      "nameKo": "H 월드 그룹(ADR)",
+      "nameEn": "H WORLD GROUP LIMITED SPON ADS EACH REP 10 ORD S",
+      "ratePct": 9.51,
+      "price": 55.18,
+      "amountUsd": 41622605,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "3분기 실적 호조와 연간 매출 가이던스 상향",
+        "detail": "H 월드 그룹의 2026년 3분기 주당순이익은 예상을 16.25%, 매출은 1.58% 웃돌았다. 회사는 연간 매출 성장 가이던스(회사가 내놓은 실적 전망)를 올렸다. 직영·임차 호텔 매출은 줄었지만 위탁·프랜차이즈 호텔 확대가 이를 상쇄했다.",
+        "quote": "H World Group (NASDAQ:HTHT) raised its full-year revenue growth guidance after reporting higher third-quarter revenue and profit, as expansion of its managed and franchised hotel network helped offset a decline in revenue from leased and owned properties.",
+        "quoteFrom": 2,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          2,
+          4
+        ]
+      },
+      "news": [
+        {
+          "title": "H World Group (HTHT) Beats Q3 Earnings and Revenue Estimates",
+          "url": "https://www.nasdaq.com/articles/h-world-group-htht-beats-q3-earnings-and-revenue-estimates",
+          "date": "2026-11-16",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Update: H World Group Shares Rise After Q3 Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-shares-rise-150945905.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "What H World Group (HTHT) Said on Its Q3 Earnings Call",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-htht-said-141307037.html",
+          "date": "2026-11-16",
+          "publisher": "MarketBeat"
+        },
+        {
+          "title": "Sector Update: Consumer",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-135836461.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "H World Group's Q3 Adjusted Earnings, Revenue Rise; Raises 2026 Revenue Guidance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-apos-q3-103443716.html",
+          "date": "2026-11-16",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "H World Group: Q3 Earnings Snapshot",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-q3-earnings-102516015.html",
+          "date": "2026-11-16",
+          "publisher": "Associated Press"
+        },
+        {
+          "title": "H World Group Limited Reports Third Quarter of 2026 Unaudited Financial Results",
+          "url": "https://finance.yahoo.com/real-estate/articles/h-world-group-limited-reports-101500892.html",
+          "date": "2026-11-16",
+          "publisher": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "ticker": "CLRO",
+      "nameKo": "클리어원",
+      "nameEn": "CLEARONE INC",
+      "ratePct": 34.12,
+      "price": 4.52,
+      "amountUsd": 40326586,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": []
+    },
+    {
+      "ticker": "MOH",
+      "nameKo": "몰리나 헬스케어",
+      "nameEn": "MOLINA HEALTHCARE INC",
+      "ratePct": 7.52,
+      "price": 225.25,
+      "amountUsd": 32213228,
+      "industry": "Healthcare Plans",
+      "industryKo": "건강보험",
+      "story": {
+        "headline": "메디케이드 요율 개선 기대 속 헬스보험주 동반 강세",
+        "detail": "메디케이드(저소득층 공공 의료보험) 보험료율 개선이 2027년 마진 회복을 이끌 수 있다는 분석이 나왔다. 다만 의료비 상승과 주별 조정 불균형이 걸림돌로 지적된다. 몰리나 자체 상승을 직접 설명한 기사는 없다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 1,
+            "line": "법무책임자 내부자 매도 공시"
+          }
+        ],
+        "refs": [
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "Can Medicaid Rate Improvements Drive Elevance's 2027 Margin Recovery?",
+          "url": "https://finance.yahoo.com/healthcare/articles/medicaid-rate-improvements-drive-elevances-142300424.html",
+          "date": "2026-11-16",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Molina Healthcare Insider Sold Shares Worth $1,624,560, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/molina-healthcare-insider-sold-shares-224356694.html",
+          "date": "2026-11-13",
+          "publisher": "MT Newswires"
+        }
+      ]
+    },
+    {
+      "ticker": "GP",
+      "nameKo": "그린파워 모터",
+      "nameEn": "GREENPOWER MTR CO INC",
+      "ratePct": 42.97,
+      "price": 1.6584,
+      "amountUsd": 30242368,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": []
     }
   ]
 };
