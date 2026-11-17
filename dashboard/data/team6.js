@@ -1312,18 +1312,15 @@ window.TEAM6_DATA = {
     },
     "slipPct": 0.2,
     "open": 0,
-    "totalPct": -1.04,
-    "openPct": 0,
-    "observing": true,
-    "minSample": 30
+    "totalPct": -1.04
   },
   "health": {
-    "at": "2026-11-16T21:00:20.053Z",
-    "atKst": "2026-11-17 06:00 KST",
-    "atEt": "2026-11-16 1600",
+    "at": "2026-11-17T21:00:20.051Z",
+    "atKst": "2026-11-18 06:00 KST",
+    "atEt": "2026-11-17 1600",
     "phase": "post",
     "source": "kis",
-    "status": "정상",
+    "status": "관심 목록이 오래됨 — 새로 사지 않음",
     "watch": 0,
     "checked": 0,
     "errors": []
