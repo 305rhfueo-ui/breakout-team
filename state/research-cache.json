@@ -482,8 +482,8 @@
       "count": 20
     },
     "PAYC": {
-      "last": "2026-10-20",
-      "count": 8
+      "last": "2026-11-17",
+      "count": 9
     },
     "ATEX": {
       "last": "2026-11-13",
@@ -574,8 +574,8 @@
       "count": 9
     },
     "ORKA": {
-      "last": "2026-11-10",
-      "count": 12
+      "last": "2026-11-17",
+      "count": 13
     },
     "NBIS": {
       "last": "2026-11-12",
@@ -618,8 +618,8 @@
       "count": 2
     },
     "ELF": {
-      "last": "2026-11-11",
-      "count": 13
+      "last": "2026-11-17",
+      "count": 14
     },
     "INTC": {
       "last": "2026-11-07",
@@ -646,8 +646,8 @@
       "count": 3
     },
     "MRNA": {
-      "last": "2026-11-07",
-      "count": 18
+      "last": "2026-11-17",
+      "count": 19
     },
     "KYMR": {
       "last": "2026-09-01",
@@ -702,8 +702,8 @@
       "count": 10
     },
     "KNSA": {
-      "last": "2026-10-29",
-      "count": 2
+      "last": "2026-11-17",
+      "count": 3
     },
     "HPE-C": {
       "last": "2026-10-09",
@@ -722,8 +722,8 @@
       "count": 2
     },
     "GKOS": {
-      "last": "2026-11-10",
-      "count": 3
+      "last": "2026-11-17",
+      "count": 4
     },
     "LITE": {
       "last": "2026-11-07",
@@ -838,8 +838,8 @@
       "count": 2
     },
     "EPAM": {
-      "last": "2026-11-10",
-      "count": 5
+      "last": "2026-11-17",
+      "count": 6
     },
     "SIG": {
       "last": "2026-11-12",
@@ -974,8 +974,8 @@
       "count": 1
     },
     "CBRS": {
-      "last": "2026-11-14",
-      "count": 3
+      "last": "2026-11-17",
+      "count": 4
     },
     "ASTS": {
       "last": "2026-10-07",
@@ -986,8 +986,8 @@
       "count": 1
     },
     "APP": {
-      "last": "2026-11-11",
-      "count": 4
+      "last": "2026-11-17",
+      "count": 5
     },
     "NRG": {
       "last": "2026-10-07",
@@ -1166,16 +1166,16 @@
       "count": 3
     },
     "KOD": {
-      "last": "2026-11-12",
-      "count": 4
+      "last": "2026-11-17",
+      "count": 5
     },
     "TXG": {
       "last": "2026-11-12",
       "count": 4
     },
     "RNG": {
-      "last": "2026-10-24",
-      "count": 3
+      "last": "2026-11-17",
+      "count": 4
     },
     "PBF": {
       "last": "2026-11-14",
@@ -1194,8 +1194,8 @@
       "count": 2
     },
     "WING": {
-      "last": "2026-11-10",
-      "count": 4
+      "last": "2026-11-17",
+      "count": 5
     },
     "ENTG": {
       "last": "2026-10-29",
@@ -1294,8 +1294,8 @@
       "count": 1
     },
     "DOCU": {
-      "last": "2026-11-12",
-      "count": 3
+      "last": "2026-11-17",
+      "count": 4
     },
     "ACMR": {
       "last": "2026-10-20",
@@ -1318,8 +1318,8 @@
       "count": 3
     },
     "PRAX": {
-      "last": "2026-11-10",
-      "count": 2
+      "last": "2026-11-17",
+      "count": 3
     },
     "CASY": {
       "last": "2026-10-21",
@@ -1370,8 +1370,8 @@
       "count": 2
     },
     "SEZL": {
-      "last": "2026-11-06",
-      "count": 3
+      "last": "2026-11-17",
+      "count": 4
     },
     "MEDP": {
       "last": "2026-10-22",
@@ -1582,12 +1582,12 @@
       "count": 2
     },
     "HRI": {
-      "last": "2026-11-10",
-      "count": 2
+      "last": "2026-11-17",
+      "count": 3
     },
     "CROX": {
-      "last": "2026-11-10",
-      "count": 2
+      "last": "2026-11-17",
+      "count": 3
     },
     "LLY": {
       "last": "2026-10-30",
@@ -1710,8 +1710,8 @@
       "count": 1
     },
     "FCN": {
-      "last": "2026-11-10",
-      "count": 2
+      "last": "2026-11-17",
+      "count": 3
     },
     "IDXX": {
       "last": "2026-11-10",
@@ -1890,8 +1890,8 @@
       "count": 1
     },
     "ESAB": {
-      "last": "2026-11-10",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "FTDR": {
       "last": "2026-11-10",
@@ -1926,8 +1926,8 @@
       "count": 1
     },
     "RYTM": {
-      "last": "2026-11-11",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "NXST": {
       "last": "2026-11-11",
@@ -4894,10 +4894,10 @@
       "evid": "e54825abeced0e4b"
     },
     "SLAB": {
-      "last": "2026-11-14",
-      "count": 3,
-      "cat": 1,
-      "evid": "a73e2683914fb8ba"
+      "last": "2026-11-17",
+      "count": 4,
+      "cat": 6,
+      "evid": "da07e79bf0e7dcba"
     },
     "SHOP": {
       "last": "2026-11-04",
@@ -5188,10 +5188,10 @@
       "evid": "3d7eee56a1105432"
     },
     "SO": {
-      "last": "2026-11-14",
-      "count": 3,
+      "last": "2026-11-17",
+      "count": 4,
       "cat": 1,
-      "evid": "c23f30479b7a26be"
+      "evid": "9b20909734fe921c"
     },
     "FTDR": {
       "last": "2026-11-10",
@@ -5494,38 +5494,38 @@
       "evid": "18a1d00aaefe1b65"
     },
     "STN": {
-      "last": "2026-11-14",
-      "count": 1,
+      "last": "2026-11-17",
+      "count": 2,
       "cat": 1,
-      "evid": "1f4336a754812043"
+      "evid": "0e6e46f9c9d199d4"
     },
     "IBP": {
-      "last": "2026-11-14",
-      "count": 1,
+      "last": "2026-11-17",
+      "count": 2,
       "cat": 3,
-      "evid": "db44df9484816834"
+      "evid": "d2669b814873010f"
     }
   },
   "team5": {
     "Energy|Oil & Gas Refining & Marketing": {
-      "last": "2026-11-11",
-      "count": 8
+      "last": "2026-11-17",
+      "count": 9
     },
     "Technology|Computer Hardware": {
       "last": "2026-10-21",
       "count": 3
     },
     "Technology|Software - Infrastructure": {
-      "last": "2026-11-11",
-      "count": 8
+      "last": "2026-11-17",
+      "count": 9
     },
     "Healthcare|Diagnostics & Research": {
-      "last": "2026-11-11",
-      "count": 8
+      "last": "2026-11-17",
+      "count": 9
     },
     "Technology|Software - Application": {
-      "last": "2026-11-11",
-      "count": 8
+      "last": "2026-11-17",
+      "count": 9
     },
     "Technology|Semiconductors": {
       "last": "2026-10-15",
@@ -5544,8 +5544,8 @@
       "count": 8
     },
     "Healthcare|Biotechnology": {
-      "last": "2026-11-11",
-      "count": 8
+      "last": "2026-11-17",
+      "count": 9
     },
     "Industrials|Marine Shipping": {
       "last": "2026-10-16",
@@ -5556,8 +5556,8 @@
       "count": 4
     },
     "Healthcare|Medical Care Facilities": {
-      "last": "2026-11-11",
-      "count": 4
+      "last": "2026-11-17",
+      "count": 5
     },
     "Healthcare|Drug Manufacturers - General": {
       "last": "2026-11-11",
@@ -5684,8 +5684,8 @@
       "count": 1
     },
     "ECO": {
-      "last": "2026-10-09",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "HPE-C": {
       "last": "2026-10-09",
@@ -5696,8 +5696,8 @@
       "count": 2
     },
     "HAE": {
-      "last": "2026-10-09",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "ACN": {
       "last": "2026-10-20",
@@ -5756,8 +5756,8 @@
       "count": 2
     },
     "VSXY": {
-      "last": "2026-10-13",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "MANH": {
       "last": "2026-11-04",
@@ -5844,12 +5844,12 @@
       "count": 1
     },
     "TEAM": {
-      "last": "2026-10-16",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "PAYC": {
-      "last": "2026-10-16",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "OLLI": {
       "last": "2026-10-16",
@@ -5996,8 +5996,8 @@
       "count": 1
     },
     "SIG": {
-      "last": "2026-10-20",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "ANF": {
       "last": "2026-10-21",
@@ -6056,8 +6056,8 @@
       "count": 2
     },
     "SN": {
-      "last": "2026-10-22",
-      "count": 2
+      "last": "2026-11-17",
+      "count": 3
     },
     "CRL": {
       "last": "2026-10-22",
@@ -6200,8 +6200,8 @@
       "count": 1
     },
     "RNG": {
-      "last": "2026-10-24",
-      "count": 1
+      "last": "2026-11-17",
+      "count": 2
     },
     "PANW": {
       "last": "2026-10-24",
@@ -6825,6 +6825,30 @@
     },
     "ELF": {
       "last": "2026-11-14",
+      "count": 1
+    },
+    "HNGE": {
+      "last": "2026-11-17",
+      "count": 1
+    },
+    "SWKS": {
+      "last": "2026-11-17",
+      "count": 1
+    },
+    "KNSA": {
+      "last": "2026-11-17",
+      "count": 1
+    },
+    "MCK": {
+      "last": "2026-11-17",
+      "count": 1
+    },
+    "ATKR": {
+      "last": "2026-11-17",
+      "count": 1
+    },
+    "DOCU": {
+      "last": "2026-11-17",
       "count": 1
     }
   }

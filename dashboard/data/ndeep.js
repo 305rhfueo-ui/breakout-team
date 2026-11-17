@@ -1,5 +1,5 @@
 window.NDEEP_DATA = {
-  "generated": "2026-11-14",
+  "generated": "2026-11-17",
   "v": 2,
   "items": {
     "MRNA": {
@@ -673,28 +673,26 @@ window.NDEEP_DATA = {
     },
     "KOD": {
       "ticker": "KOD",
-      "headline": "Zenkuda 3상 성공으로 첫 허가 신청이 눈앞 — 다만 아직 매출 0인 임상 단계 회사",
+      "headline": "3상 다섯 건을 통과한 젠쿠다의 허가 신청이 N — 아직 제품 매출은 없다",
       "nVerdict": "부분 충족",
-      "growthLink": "코드 33은 계산되지 않았다 — 매출·순이익 증가율과 순이익률을 잴 수 있는 분기 실적이 아예 없기 때문이다. 회사는 스스로를 상업화 이전 단계라고 쓰고 있고, 손익은 임상·생산 활동이 늘면서 적자가 커지는 방향이다. 따라서 지금의 임상 성과를 매출·이익의 가속으로 연결하는 근거는 회사 공시에도 증권사 리포트에도 없다.",
-      "narrative": "새로운 것은 분명하다. Zenkuda(타르코시맙 테드로머)가 습성 황반변성 환자를 대상으로 한 DAYBREAK 임상에서 1차 평가지표를 충족했고(p=0.0007), 환자 54%가 6개월에 한 번 맞는 간격까지 갔다. 같은 임상에서 타비라푸스프 알파 테드로머(옛 KSI-501)도 시력 평가지표(p=0.0036)와 해부학적 보조 평가지표(p<0.0001)를 충족했다. 회사는 이 결과를 묶어 wAMD·당뇨병망막병증·망막정맥폐쇄 3개 적응증의 허가 신청(BLA)을 올해 4분기에 내겠다고 밝혔다. 그러나 매출 쪽은 비어 있다 — 승인 전이라 제품 매출이 없고, 회사가 제시한 숫자는 겨냥하는 항VEGF 시장 규모뿐이다. 이익 쪽은 반대 방향이다. 2분기 순손실은 1년 전보다 커졌고, 연구개발비 증가는 주로 PEAK·PINNACLE 임상과 3상 전반의 생산 활동이 늘어난 데서 왔다고 회사가 설명했다. 기대 성장률을 숫자로 내놓은 곳은 없다 — 키움증권도 6개월 1회 투여로 아일리아 대비 비열등을 입증했다는 평가까지만 쓰고 매출 전망은 달지 않았다. 꺾을 수 있는 것이 세 가지 있다. 회사는 10-Q에 계속기업으로서 존속 능력에 중대한 의문이 있다고 직접 적었고, 허가 신청이 받아들여지지 않거나 승인되지 않을 수 있다고 위험 요인에 적었으며, 증자로 자금을 조달하면 기존 주주가 지분 희석을 겪는다고 밝혔다. 요약하면 '새로운 것'은 있고 임상으로 증명됐지만, 그것이 매출·이익으로 바뀐 숫자는 아직 한 줄도 없다.",
       "drivers": [
         {
-          "what": "Zenkuda(타르코시맙 테드로머) — 6개월 간격 투여를 겨냥한 안과용 항VEGF 치료제. 습성 황반변성 DAYBREAK 임상 성공으로 3개 적응증 허가 신청 단계에 들어섰다",
+          "what": "젠쿠다(Zenkuda, tarcocimab tedromer) — 습성 황반변성 등 세 개 적응증으로 올해 안에 신약 허가 신청(BLA)을 내는 안과 주사제",
           "kind": "product",
           "stage": "발표만",
           "since": "2026-09",
           "basis": [
             {
               "id": "d1b1",
-              "statement": "Zenkuda가 습성 황반변성 DAYBREAK 임상에서 1차 평가지표를 충족했고(p=0.0007), 환자 54%가 6개월 간격 투여에 도달했다.",
+              "statement": "젠쿠다는 습성 황반변성 3상 DAYBREAK 에서 1차 평가지표를 충족했고, 환자의 54%가 6개월에 한 번 투여로 유지됐다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "DAYBREAK 3상 결과 보도자료 (2026-09-28)",
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm",
-                  "date": "2026-09-28",
-                  "quote": "Zenkuda (tarcocimab tedromer) met the primary endpoint (p-value of 0.0007) demonstrating meaningful vision gains as well as rapid and sustained retinal drying with the majority of patients (54%) on 6-month dosing",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "Zenkuda met the primary endpoint (p-value of 0.0007) demonstrating meaningful vision gains as well as rapid and sustained retinal drying with the majority of patients (54%) on 6-month dosing, establishing a first-line benchmark in wet age-related macular degeneration (wet AMD).",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -702,40 +700,15 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d1b2",
-              "statement": "회사는 wAMD·당뇨병망막병증·망막정맥폐쇄 3개 적응증을 묶은 Zenkuda 허가 신청(BLA)을 4Q26에 제출할 계획이다.",
+              "statement": "회사는 습성 황반변성·당뇨병망막병증·망막정맥폐쇄 세 개 적응증을 묶은 허가 신청을 올해 4분기에 내겠다고 밝혔고, 성공한 3상 다섯 건이 근거다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "키움증권 코디악 사이언시스 리포트 (2026-09-30)",
-                  "publisher": "키움증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeecx.pdf",
-                  "date": "2026-09-30",
-                  "quote": "- wAMD, 당뇨병망막병증(DR), 망막정맥폐쇄(RVO) 3개 적응증 4Q26 신약 신청(BLA)",
-                  "verified": "ok",
-                  "httpStatus": 200
-                },
-                {
-                  "title": "DAYBREAK 3상 결과 보도자료 (2026-09-28)",
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm",
-                  "date": "2026-09-28",
-                  "quote": "Zenkuda multi-indication biologics license application (BLA) planned for the fourth quarter of 2026 to include five positive Phase 3 studies across wAMD, diabetic retinopathy and retinal vein occlusion",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d1b3",
-              "statement": "안전성에서는 안내 염증 발생률 0%, 백내장 이상반응 0.5%로 대조군 아일리아 성분의 0.9%보다 낮았다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "DAYBREAK 3상 결과 보도자료 (2026-09-28)",
-                  "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm",
-                  "date": "2026-09-28",
-                  "quote": "Zenkuda demonstrated favorable safety and was well tolerated in the study with a 0% intraocular inflammation rate and a 0.5% cataract adverse event rate (vs 0.9% with aflibercept comparator).",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "Zenkuda multi-indication biologics license application (BLA) planned for the fourth quarter of 2026 to include five positive Phase 3 studies across wet AMD, diabetic retinopathy and retinal vein occlusion.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -745,31 +718,15 @@ window.NDEEP_DATA = {
           "revenueImpact": [
             {
               "id": "d1r1",
-              "statement": "Zenkuda는 아직 허가 전이어서 제품 매출이 없다 — 회사는 스스로를 상업화 이전 단계의 망막 전문 바이오 기업이라고 쓴다.",
+              "statement": "회사는 지금까지 제품 매출이 전혀 없었고, 허가를 받아 판매를 시작하거나 제휴 계약을 맺기 전까지는 제품 매출을 기대하지 않는다고 직접 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "Kodiak Sciences (Nasdaq: KOD) is a pre-commercial retina-focused biotechnology company committed to researching, developing and commercializing transformative therapeutics.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d1r2",
-              "statement": "회사가 제시한 유일한 매출 관련 숫자는 겨냥하는 시장 규모로, Zenkuda와 KSI-501이 노리는 항VEGF 시장을 150억 달러로 밝혔다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
-                  "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "Zenkuda and KSI-501 target the $15 billion anti-VEGF market across retinal vascular diseases.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "To date, we have not generated any product revenue. We do not expect to generate any product revenue unless and until we obtain regulatory approval of and commercialize any of our product candidates or enter into collaborative agreements with third parties, and we do not know when, or if, either will occur.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -779,15 +736,15 @@ window.NDEEP_DATA = {
           "profitImpact": [
             {
               "id": "d1p1",
-              "statement": "2분기 순손실은 1년 전 같은 기간보다 커졌다.",
+              "statement": "젠쿠다 프로그램에 쓴 비용은 3분기에 1년 전보다 460만 달러 줄었다 — 당뇨병망막병증 GLOW2 임상이 끝나 생산비와 임상비가 빠졌기 때문이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "Net loss for the second quarter of 2026 was $65.6 million, or $1.05 per share on a basic and diluted basis, as compared to a net loss of $54.3 million, or $1.03 per share on a basic and diluted basis, for the second quarter of 2025.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "Zenkuda program expenses decreased $4.6 million and $11.4 million during the three and nine months ended September 30, 2026, respectively, as compared to the same periods in 2025, driven by lower manufacturing expenses and lower clinical trial costs after completion of our GLOW2 study of Zenkuda in DR during the first quarter of 2026.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -795,15 +752,15 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d1p2",
-              "statement": "연구개발비 증가는 주로 PEAK·PINNACLE 임상 활동과 3상 전반의 생산 활동이 늘어난 데서 왔다고 회사가 설명했다.",
+              "statement": "그래도 3분기 순손실은 6,620만 달러로 1년 전 6,150만 달러보다 커졌다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "The increase in R&D expenses in the second quarter of 2026 was primarily driven by increased clinical activities related to our active PEAK/PINNACLE studies and increased manufacturing activities across our Phase 3 programs.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "Net loss for the third quarter of 2026 was $66.2 million, or $1.05 per share on a basic and diluted basis, as compared to a net loss of $61.5 million, or $1.16 per share on a basic and diluted basis, for the third quarter of 2025.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -813,15 +770,31 @@ window.NDEEP_DATA = {
           "expectedGrowth": [
             {
               "id": "d1e1",
-              "statement": "키움증권은 Zenkuda가 환자 54%에게 6개월 1회 투여로 아일리아 대비 비열등을 입증했다고 정리했을 뿐, 매출 전망치는 내놓지 않았다.",
+              "statement": "회사 전망은 매출 숫자가 아니라 일정이다 — 연말까지 젠쿠다 허가 신청을 내고, 망막 전문의에게 새 치료 선택지를 주겠다는 것이 경영진이 밝힌 목표다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "키움증권 코디악 사이언시스 리포트 (2026-09-30)",
-                  "publisher": "키움증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeecx.pdf",
-                  "date": "2026-09-30",
-                  "quote": "- Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승",
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "We are also on track to submit the multi-indication BLA for Zenkuda by year end, supported by five successful Phase 3 studies,\" continued Dr. Perlroth. \"These milestones will bring us closer to our goal of improving vision for patients by providing retina specialists with new treatment options for both retinal vascular and inflammatory diseases.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 젠쿠다와 타비라푸스프-테드가 노리는 항VEGF 시장 규모를 150억 달러로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "Zenkuda and KSI-501 target the $15 billion anti-VEGF market across retinal vascular diseases.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -831,15 +804,15 @@ window.NDEEP_DATA = {
           "counter": [
             {
               "id": "d1c1",
-              "statement": "허가 신청이 FDA나 해외 규제기관에 받아들여지지 않거나, 예정된 때에 승인되지 않거나 끝내 승인되지 않을 수 있다고 회사가 위험 요인에 적었다.",
+              "statement": "회사 스스로 끝난 3상이 허가 신청이나 승인을 떠받치기에 부족할 수 있고, 신청서가 받아들여지지 않거나 승인이 늦어질 수 있다고 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "DAYBREAK 3상 결과 보도자료 (2026-09-28)",
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm",
-                  "date": "2026-09-28",
-                  "quote": "A BLA for tarcocimab tedromer or any other product candidate may not be accepted by, or receive approval from, the FDA or foreign regulatory agencies when expected, or at all.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "the completed Phase 3 studies for Zenkuda may not be sufficient to support a BLA submission or approval in wet AMD, DR, or RVO; a BLA for Zenkuda or any other product candidate may not be accepted by, or receive approval from, the FDA or foreign regulatory agencies when expected, or at all",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -847,76 +820,47 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d1c2",
-              "statement": "이미 끝난 Zenkuda 3상들이 적응증 허가 신청이나 승인을 뒷받침하기에 충분하지 않을 수 있다는 위험도 회사가 명시했다.",
+              "statement": "회사는 앞으로도 영업손실과 현금 유출이 이어져 기업을 계속 꾸려 갈 수 있는지에 상당한 의문이 있다고 공시에 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "the completed Phase 3 studies for Zenkuda may not be sufficient to support a BLA submission or approval in DR, RVO, or wet AMD",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "what": "타비라푸스프 알파 테드로머(tabirafusp-ted, 옛 KSI-501) — IL-6와 VEGF를 함께 막는 이중 표적 치료제. 같은 임상에서 성공하고 당뇨병성 망막부종 3상으로 넓혔다",
-          "kind": "product",
-          "stage": "발표만",
-          "since": "2026-09",
-          "basis": [
-            {
-              "id": "d2b1",
-              "statement": "같은 DAYBREAK 임상에서 타비라푸스프 알파 테드로머도 시력 평가지표(p=0.0036)와 해부학적 주요 보조 평가지표(p<0.0001)를 충족했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "DAYBREAK 3상 결과 보도자료 (2026-09-28)",
-                  "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm",
-                  "date": "2026-09-28",
-                  "quote": "Tabirafusp alfa tedromer (tabirafusp-ted) met the vision primary endpoint (p-value of 0.0036) and anatomical key secondary endpoint (p-value of <0.0001)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "We expect to continue to incur operating losses and negative operating cash flows for the foreseeable future and as a result, there is substantial doubt regarding our ability to continue as a going concern.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             },
             {
-              "id": "d2b2",
-              "statement": "당뇨병성 망막부종에서 아일리아 성분 대비 우월성을 보려는 약 910명 규모 ALTO 3상이 첫 환자 등록을 시작했다.",
+              "id": "d1c3",
+              "statement": "회사는 10월에 최대 3.5억 달러까지 주식을 팔 수 있는 시장가 발행(ATM) 창구를 열고 분기가 끝난 뒤 6,890만 달러를 조달했다 — 기존 주주 지분이 계속 희석될 수 있다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "The approximately 910-patient study is designed to demonstrate superiority of KSI-501 versus aflibercept and represents the second registrational Phase 3 study of KSI-501, following DAYBREAK in wet AMD.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "In October 2026, we established the ATM Program with J.P. Morgan Securities LLC, under which we may sell up to $350 million of our common stock. Subsequent to September 30, 2026, we raised $68.9 million in net proceeds, after deducting sales commissions, through the sale of 0.7 million shares under the program.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
-            }
-          ],
-          "revenueImpact": [],
-          "profitImpact": [],
-          "expectedGrowth": [],
-          "counter": [
+            },
             {
-              "id": "d2c1",
-              "statement": "지금까지의 임상에서 본 안전성·유효성·지속성 데이터가 앞으로도 유지되지 않을 수 있다고 회사가 적었다.",
+              "id": "d1c4",
+              "statement": "키움증권은 2분기말 현금이 1.259억 달러여서 상업화 전 증자 가능성이 높다고 봤다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
-                  "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "safety, efficacy, and durability data observed in Kodiak's product candidates in current or prior studies may not continue or persist",
+                  "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeeeq.pdf",
+                  "date": "2026-09-30",
+                  "quote": "- 다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -925,22 +869,136 @@ window.NDEEP_DATA = {
           ]
         },
         {
-          "what": "KSI-101 — 염증에 따른 망막부종(MESI)을 겨냥한 고농도 이중 표적 단백질. 기존 항VEGF 시장과 다른 새 시장을 노린다",
+          "what": "KSI-101 — 염증 때문에 생긴 망막부종(MESI)을 겨냥한 주사제, 12월에 3상 첫 결과가 나온다",
           "kind": "product",
           "stage": "발표만",
           "since": "2026",
           "basis": [
             {
-              "id": "d3b1",
-              "statement": "KSI-101의 PEAK 3상에서 1차 분석을 받치는 첫 300명 코호트 등록이 2분기에 완료됐다.",
+              "id": "d2b1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "Enrollment of the first 300-patient cohort in the PEAK trial supporting Pivotal Analysis 1 has completed and topline results remain on track for a December 2026 release.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "KSI-101 의 3상 PEAK 연구는 첫 300명 코호트 등록을 마쳤고, 회사는 12월에 첫 주요 결과를 낸다고 했다.",
+              "stripped": true
+            },
+            {
+              "id": "d2b2",
+              "statement": "이 질환에는 현재 쓸 수 있는 눈 속 주사형 생물학적 치료제가 아예 없다고 회사는 설명한다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "Enrollment of the first 300-patient cohort supporting Pivotal Analysis 1 of the Phase 3 PEAK study evaluating KSI-101 in patients with Macular Edema Secondary to Inflammation (MESI) was completed during the second quarter.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "Currently there are no available intravitreal biologic therapies addressing the spectrum of MESI diseases. Existing therapies remain limited by side effects and tolerability, underscoring the need for safer and more effective treatment options.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "회사는 이 질환이 기존 항VEGF 시장과 분리된 새로운 시장 구역이라고 적었지만, 매출 숫자는 아직 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "MESI represents a new macular edema market segment separate from the established anti-VEGF market.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "KSI-101 프로그램 비용은 3분기에 1년 전보다 910만 달러 늘었다 — 아직은 이익이 아니라 비용으로만 잡히는 단계다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "KSI-101 program expenses increased $9.1 million and $26.0 million during the three and nine months ended September 30, 2026, respectively, primarily due to increased costs stemming from the PEAK/PINNACLE studies of KSI-101 in MESI, along with increased manufacturing expenses.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사 계획으로는 임상이 성공하면 2027년 2분기에 KSI-101 의 허가 신청을 낸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "We plan to file a BLA for KSI-101 in the second quarter of 2027 supported by the PEAK and PINNACLE studies in MESI, if successful.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 PEAK 3상이 1차 평가지표를 충족하지 못하거나 예정한 시점에 결과를 내지 못할 수 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                  "date": "2026-11-12",
+                  "quote": "the PEAK Phase 3 study for KSI-101 may not achieve its primary endpoint or may not do so on the anticipated timeline",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "타비라푸스프-테드(KSI-501) — 습성 황반변성 3상을 통과하고 당뇨병성 망막부종 3상(ALTO)에 환자를 넣기 시작한 두 표적 동시 억제 주사제",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-09",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "타비라푸스프-테드는 습성 황반변성 3상에서 시력 1차 평가지표와 해부학적 주요 2차 평가지표를 모두 충족했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "In the DAYBREAK study, tabirafusp-ted met the vision primary endpoint (p-value of 0.0036) and anatomical key secondary endpoint (p-value of <0.0001).",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -948,15 +1006,15 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d3b2",
-              "statement": "그 첫 분석의 핵심 결과는 연말에 나올 예정이다.",
+              "statement": "당뇨병성 망막부종에서 아플리베르셉트와 비교하는 3상 ALTO 에 첫 환자들이 들어갔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "코디악 사이언시스 10-Q 경영진 설명",
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-08-13)",
                   "publisher": "코디악 사이언시스(SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349251/kod-20260630.htm",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
                   "date": "2026-08-13",
-                  "quote": "Enrollment of the first 300-patient cohort in the PEAK trial supporting Pivotal Analysis 1 has completed and topline results are expected in December 2026.",
+                  "quote": "The first patients have been enrolled in the global Phase 3 ALTO study evaluating KSI-501 versus aflibercept in patients with DME.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -964,20 +1022,37 @@ window.NDEEP_DATA = {
             }
           ],
           "revenueImpact": [],
-          "profitImpact": [],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "이 프로그램 비용은 3분기에 1년 전보다 630만 달러 늘었다 — 생산 증량과 ALTO 임상 비용 때문이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "코디악 사이언시스 10-Q 경영진 설명",
+                  "publisher": "코디악 사이언시스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                  "date": "2026-11-12",
+                  "quote": "KSI-501 program expenses increased $6.3 million and $21.7 million during the three and nine months ended September 30, 2026, respectively, as compared to the same periods in 2025, due to increased manufacturing expenses as we ramp up KSI-501 production activities as well as increased costs related to our ALTO study of KSI-501 in DME, which began enrolling patients during the third quarter of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
           "expectedGrowth": [],
           "counter": [
             {
               "id": "d3c1",
-              "statement": "PEAK 3상이 1차 평가지표를 달성하지 못하거나 예정된 일정에 달성하지 못할 수 있다고 회사가 적었다.",
+              "statement": "회사는 이 약이 기대처럼 두 표적을 억제하지 못하거나 전임상에서 보인 질병 조절 가능성이 실제 환자 결과로 이어지지 않을 수 있다고 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "2분기 실적 보도자료 (2026-08-13)",
+                  "title": "코디악 사이언시스 실적 보도자료 (2026-08-13)",
                   "publisher": "코디악 사이언시스(SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
                   "date": "2026-08-13",
-                  "quote": "the DAYBREAK Phase 3 study for Zenkuda or KSI-501 and/or the PEAK Phase 3 study for KSI-101 may not achieve its primary endpoint or may not do so on the anticipated timeline",
+                  "quote": "KSI-501 may not inhibit VEGF and IL-6 or have an impact on the treatment of patients as expected, and that preclinical data suggesting the possibility that KSI-501 may be a disease-modifying therapy may not translate to clinical outcomes",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -986,19 +1061,20 @@ window.NDEEP_DATA = {
           ]
         }
       ],
+      "growthLink": "코드 33 은 계산되지 않았다 — 회사에 제품 매출이 없어 매출 증가율·이익 증가율·순이익률 흐름을 잴 수 없다. 지금 가속되고 있는 것은 매출이 아니라 비용이고, 회사는 KSI-501·KSI-101 임상과 생산 활동이 커져 연구개발비가 늘었다고 설명한다. 따라서 어느 동력이 이익 가속을 만들었는지 연결할 근거는 없다.",
       "quality": {
         "newProduct": [
           {
-            "id": "q1a",
-            "statement": "Zenkuda가 습성 황반변성 임상에서 1차 평가지표를 충족했고(p=0.0007), 환자 54%가 6개월 간격 투여에 도달한 것이 가장 중요한 새 소식이다.",
+            "id": "q1",
+            "statement": "젠쿠다는 습성 황반변성 3상에서 환자의 54%가 6개월에 한 번 투여로 유지되며 1차 평가지표를 충족했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "DAYBREAK 3상 결과 보도자료 (2026-09-28)",
+                "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
                 "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm",
-                "date": "2026-09-28",
-                "quote": "Zenkuda (tarcocimab tedromer) met the primary endpoint (p-value of 0.0007) demonstrating meaningful vision gains as well as rapid and sustained retinal drying with the majority of patients (54%) on 6-month dosing",
+                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                "date": "2026-11-12",
+                "quote": "Zenkuda met the primary endpoint (p-value of 0.0007) demonstrating meaningful vision gains as well as rapid and sustained retinal drying with the majority of patients (54%) on 6-month dosing, establishing a first-line benchmark in wet age-related macular degeneration (wet AMD).",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1007,16 +1083,16 @@ window.NDEEP_DATA = {
         ],
         "marketShare": [
           {
-            "id": "q2a",
-            "statement": "아직 제품 매출이 없어 점유율은 없고, 회사는 자체 상업 규모 생산 능력이 승인된다면 점유율 확보의 발판이 될 수 있다고만 말한다.",
+            "id": "q2",
+            "statement": "아직 허가받아 파는 제품이 없어 시장 점유율을 말할 단계가 아니다 — 회사는 스스로를 상업화 이전 단계 기업이라고 적는다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "코디악 사이언시스 10-Q 경영진 설명",
                 "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349251/kod-20260630.htm",
-                "date": "2026-08-13",
-                "quote": "We believe these manufacturing capabilities could position us for potential market share capture if tarcocimab and KSI-501 are approved.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                "date": "2026-11-12",
+                "quote": "Kodiak Sciences is a precommercial retina-focused biotechnology company committed to researching, developing and commercializing transformative therapeutics.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1025,32 +1101,32 @@ window.NDEEP_DATA = {
         ],
         "marketStructure": [
           {
-            "id": "q3a",
-            "statement": "회사는 염증에 따른 망막부종 전반을 다루는 안구 주사용 생물학적 치료제가 현재 없다며, 이 영역이 기존 항VEGF 시장과 분리된 새 시장이라고 본다.",
+            "id": "q3",
+            "statement": "회사가 노리는 항VEGF 시장 규모는 150억 달러이고, 기존 약 아플리베르셉트가 임상 비교 기준으로 쓰인다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "코디악 사이언시스 10-Q 경영진 설명",
+                "title": "코디악 사이언시스 실적 보도자료 (2026-11-12)",
                 "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349251/kod-20260630.htm",
-                "date": "2026-08-13",
-                "quote": "Currently there are no available intravitreal biologic therapies addressing the spectrum of MESI diseases. We believe that MESI represents a new market segment separate from the established anti-VEGF market.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+                "date": "2026-11-12",
+                "quote": "Zenkuda and KSI-501 target the $15 billion anti-VEGF market across retinal vascular diseases.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "q3b",
-            "statement": "반면 주력 제품이 들어가려는 항VEGF 시장은 아일리아 성분이 임상 대조군으로 쓰일 만큼 이미 확립된 영역이고, 회사는 그 규모를 150억 달러로 제시했다.",
+            "id": "q4",
+            "statement": "염증성 망막부종 쪽은 눈 속 주사형 생물학적 치료제가 하나도 없는 빈 시장이라고 회사는 설명한다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "2분기 실적 보도자료 (2026-08-13)",
+                "title": "코디악 사이언시스 10-Q 경영진 설명",
                 "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                "date": "2026-08-13",
-                "quote": "Zenkuda and KSI-501 target the $15 billion anti-VEGF market across retinal vascular diseases.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                "date": "2026-11-12",
+                "quote": "Currently there are no available intravitreal biologic therapies addressing the spectrum of MESI diseases.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1059,32 +1135,16 @@ window.NDEEP_DATA = {
         ],
         "salesMargin": [
           {
-            "id": "q4a",
-            "statement": "매출을 만들기 위해 회사가 지금 하는 일은 허가 신청 준비이며, 규제·생산 등 준비 활동에 집중한다고 밝혔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "2분기 실적 보도자료 (2026-08-13)",
-                "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                "date": "2026-08-13",
-                "quote": "Kodiak remains focused on regulatory, manufacturing and other BLA preparation activities supporting the planned development path for Zenkuda.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "q4b",
-            "statement": "원가 쪽에서는 론자와 함께 전용 설계한 상업 규모 원료의약품 생산 시설을 자체로 갖고 있다.",
+            "id": "q6",
+            "statement": "회사는 모든 제품의 전 세계 권리를 파트너에게 넘기지 않고 직접 들고 있다고 밝혔다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "코디악 사이언시스 10-Q 경영진 설명",
                 "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349251/kod-20260630.htm",
-                "date": "2026-08-13",
-                "quote": "We have a dedicated commercial-scale drug substance manufacturing facility that was custom-designed and built in collaboration with Lonza.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                "date": "2026-11-12",
+                "quote": "To date, we have retained all global rights to make, use and sell our product candidates, which we believe preserves future value and allows for agile decision-making.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1093,32 +1153,32 @@ window.NDEEP_DATA = {
         ],
         "costProductivity": [
           {
-            "id": "q5a",
-            "statement": "판매·관리비(G&A)는 1년 전 같은 분기보다 줄었다.",
+            "id": "q7",
+            "statement": "판매·관리비는 3분기에 1년 전보다 줄었는데, 팔로알토 건물 임대 해지로 생긴 일회성 비현금 이익 190만 달러가 주된 이유다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "2분기 실적 보도자료 (2026-08-13)",
+                "title": "코디악 사이언시스 10-Q 경영진 설명",
                 "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
-                "date": "2026-08-13",
-                "quote": "General and administrative (G&A) expenses were $10.8 million for the second quarter of 2026, as compared to $12.8 million for the second quarter of 2025.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                "date": "2026-11-12",
+                "quote": "General and administrative expenses decreased $3.1 million during the three months ended September 30, 2026, as compared to the same period in 2025, primarily due to a one-time $1.9 million non-cash gain recognized upon the termination of one of our Palo Alto, California building leases, in exchange for which we received an option to lease a separate building on the same campus with certain lease incentives, exercisable through March 1, 2027.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "q5b",
-            "statement": "사옥 한 곳의 전대 수입이 판매·관리비를 일부 상쇄했다고 회사가 설명했다.",
+            "id": "q8",
+            "statement": "플랫폼·기타 프로그램 비용은 3분기에 1년 전보다 390만 달러 줄었다 — 생체고분자 생산 활동을 줄였기 때문이다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "1분기 실적 보도자료 (2026-05-07)",
+                "title": "코디악 사이언시스 10-Q 경영진 설명",
                 "publisher": "코디악 사이언시스(SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526211811/kod-ex99_1.htm",
-                "date": "2026-05-07",
-                "quote": "Additionally, sublease income from one of our corporate office buildings helped offset G&A expenses in the first quarter of 2026.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+                "date": "2026-11-12",
+                "quote": "ABC Platform and other program expenses decreased $3.9 million and $8.6 million during the three and nine months ended September 30, 2026, respectively, as compared to the same periods in 2025, due to decreased biopolymer manufacturing activities in the current year.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1126,44 +1186,43 @@ window.NDEEP_DATA = {
           }
         ]
       },
-      "counter": "[{\"id\": \"c1\", \"statement\": \"회사는 설립 이후 계속 순손실과 영업현금 유출을 겪어 왔고, 계속기업으로서 존속 능력에 중대한 의문이 있다고 경영진 설명에 직접 적었다.\", \"evidence_level\": \"sourced\", \"sources\": [{\"title\": \"코디악 사이언시스 10-Q 경영진 설명\", \"publisher\": \"코디악 사이언시스(SEC 공시)\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1468748/000119312526349251/kod-20260630.htm\", \"date\": \"2026-08-13\", \"quote\": \"We have incurred net losses and negative cash flows from operations since inception. As of June 30, 2026, we had an accumulated deficit of $1.7 billion. We expect to continue to incur operating losses and negative operating cash flows for the foreseeable future and as a result, there is substantial doubt regarding our ability to continue as a going concern.\"}]}, {\"id\": \"c2\", \"statement\": \"회사는 자금을 더 조달할 계획이며 주식을 발행하면 기존 주주가 지분 희석을 겪고, 자금을 못 구하면 개발 프로그램을 멈추거나 줄여야 할 수 있다고 적었다 — 키움증권도 상업화 전 증자 가능성이 높다고 봤다.\", \"evidence_level\": \"sourced\", \"sources\": [{\"title\": \"코디악 사이언시스 10-Q 경영진 설명\", \"publisher\": \"코디악 사이언시스(SEC 공시)\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1468748/000119312526349251/kod-20260630.htm\", \"date\": \"2026-08-13\", \"quote\": \"We plan to raise additional capital to maintain current operations and to continue research and development activities. If we raise additional funds by issuing equity securities, our stockholders will experience dilution.\"}, {\"title\": \"키움증권 코디악 사이언시스 리포트 (2026-09-30)\", \"publisher\": \"키움증권\", \"url\": \"https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeecx.pdf\", \"date\": \"2026-09-30\", \"quote\": \"- 다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음\"}]}, {\"id\": \"c3\", \"statement\": \"허가 신청이 받아들여지지 않거나 승인되지 않을 수 있고, 제품 개발을 끝낼 자금이 제때 또는 끝내 확보되지 않을 수 있다고 회사가 위험 요인에 적었다.\", \"evidence_level\": \"sourced\", \"sources\": [{\"title\": \"DAYBREAK 3상 결과 보도자료 (2026-09-28)\", \"publisher\": \"코디악 사이언시스(SEC 공시)\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm\", \"date\": \"2026-09-28\", \"quote\": \"Sufficient capital may not be available as expected, or at all, to complete the development of any products.\"}]}]",
-      "expectedGrowth": "[{\"id\": \"g1\", \"statement\": \"회사가 내놓은 전망은 올해 마지막 분기의 허가 신청 일정뿐이고, 매출 가이던스는 없다.\", \"evidence_level\": \"sourced\", \"sources\": [{\"title\": \"DAYBREAK 3상 결과 보도자료 (2026-09-28)\", \"publisher\": \"코디악 사이언시스(SEC 공시)\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1468748/000119312526403481/d185059dex991.htm\", \"date\": \"2026-09-28\", \"quote\": \"Kodiak plans to submit Zenkuda data to regulatory authorities in 4Q2026 from five positive Phase 3 studies.\"}]}]",
-      "profitImpact": "[{\"id\": \"p1\", \"statement\": \"지금 단계에서 새 동력은 이익이 아니라 비용으로 나타난다 — 2분기 순손실이 1년 전보다 커졌다.\", \"evidence_level\": \"sourced\", \"sources\": [{\"title\": \"2분기 실적 보도자료 (2026-08-13)\", \"publisher\": \"코디악 사이언시스(SEC 공시)\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm\", \"date\": \"2026-08-13\", \"quote\": \"Net loss for the second quarter of 2026 was $65.6 million, or $1.05 per share on a basic and diluted basis, as compared to a net loss of $54.3 million, or $1.03 per share on a basic and diluted basis, for the second quarter of 2025.\"}]}]",
-      "revenueImpact": "[{\"id\": \"r1\", \"statement\": \"제품 매출은 아직 없다 — 회사는 스스로를 상업화 이전 단계 기업이라고 쓴다.\", \"evidence_level\": \"sourced\", \"sources\": [{\"title\": \"2분기 실적 보도자료 (2026-08-13)\", \"publisher\": \"코디악 사이언시스(SEC 공시)\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm\", \"date\": \"2026-08-13\", \"quote\": \"Kodiak Sciences (Nasdaq: KOD) is a pre-commercial retina-focused biotechnology company committed to researching, developing and commercializing transformative therapeutics.\"}]}]",
+      "narrative": "새로운 것은 분명히 있다. 젠쿠다가 습성 황반변성 3상에서 1차 평가지표를 충족하면서 환자의 54%가 6개월에 한 번 투여로 유지됐고, 회사는 이 결과까지 더해 세 개 적응증을 묶은 허가 신청을 4분기에 내겠다고 밝혔다. 같은 임상에서 타비라푸스프-테드도 시력 1차 평가지표를 충족했고, 당뇨병성 망막부종 3상 ALTO 에 환자를 넣기 시작했다. 셋째 약 KSI-101 은 눈 속 주사형 생물학적 치료제가 아예 없는 염증성 망막부종을 겨냥하며, 첫 300명 코호트 등록을 마치고 12월에 결과를 낸다. 다만 매출 쪽은 숫자가 없다 — 회사는 지금까지 제품 매출이 전혀 없고 허가·상업화 전까지 기대하지 않는다고 직접 적었다. 이익도 반대 방향이다. 3분기 순손실이 6,620만 달러로 1년 전 6,150만 달러보다 커졌고, KSI-101 비용은 910만 달러, 타비라푸스프-테드 비용은 630만 달러 늘었다. 회사가 내놓은 전망은 성장률이 아니라 일정뿐이고, 목표 시장으로는 항VEGF 150억 달러를 제시한다. 꺾일 수 있는 지점은 회사 공시에 그대로 적혀 있다 — 끝난 3상이 허가를 떠받치기에 부족할 수 있고, 계속기업 가정에 상당한 의문이 있으며, 분기말 현금 8,870만 달러에 더해 시장가 주식발행으로 자금을 메우는 중이라 지분 희석이 이어진다. 정리하면 새로움은 확인되지만 매출·이익으로 이어진 근거는 아직 없는 단계다.",
       "watch": [
-        "올해 안에 Zenkuda 허가 신청(BLA)이 실제로 제출되고 FDA가 접수했다는 공시가 나오는지 — 일정이 밀리면 이 그림의 핵심이 흔들린다",
-        "연말로 예정된 KSI-101 PEAK 첫 핵심 결과가 1차 평가지표를 넘는지 — 넘으면 항VEGF 밖의 두 번째 축이 생긴다",
-        "증자 공시의 시점과 규모 — 지분 희석 폭이 이번 임상 성과를 상당 부분 상쇄할 수 있다",
-        "승인 이후 첫 제품 매출이 잡히는 분기와 그때의 가격·보험 등재 조건 — 그 전까지 매출·이익 근거는 계속 없다"
+        "12월에 나올 KSI-101 3상 첫 결과가 1차 평가지표를 충족하는지 — 실패하면 세 번째 동력은 사라진다",
+        "젠쿠다 허가 신청이 실제로 4분기 안에 접수되고 FDA 가 받아 주는지, 심사 일정이 공개되는지",
+        "분기 현금 소진 속도와 시장가 주식발행 잔액 — 추가 증자 규모가 얼마나 커지는지",
+        "당뇨병성 망막부종 3상 ALTO 의 환자 등록 속도와 프로그램 비용이 분기마다 얼마나 더 늘어나는지"
       ],
-      "sourceGap": "DAYBREAK 발표 이후의 실적 보도자료가 아직 없어 최신 재무는 6월 말 기준이며, 실적 발표 콜 원고와 증권사 리포트 원문 PDF(텍스트 추출 도구 없음)는 읽지 못했다.",
+      "sourceGap": "실적 발표 콜 원고를 찾지 못했고, 키움증권 리포트 원문 PDF 는 변환 도구가 없어 열지 못해 요약만 참고했다",
       "factcheck": {
-        "verdict": "unchecked",
-        "removed": [],
+        "verdict": "partial",
+        "removed": [
+          "q5"
+        ],
         "reasons": [
-          "팩트체크 결과를 대조하지 못했다 — 검증되지 않았다"
+          "Claim q5 includes Lonza partnership detail ('론자와 함께 지은') not mentioned in provided quote. Quote confirms only URSUS commissioning in January 2023, without reference to Lonza collaboration. Core facts about manufacturing investment and multiple product preparation are supported."
         ]
       },
       "status": "done",
       "v": 2,
-      "researchedOn": "2026-11-07",
-      "asOf": "2026-08-13",
-      "why": "지정",
+      "researchedOn": "2026-11-17",
+      "asOf": "2026-11-12",
+      "why": "새 공시",
       "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-12)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
+          "filingDate": "2026-11-12"
+        },
         {
           "label": "실적 보도자료 (2026-08-13)",
           "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349107/kod-ex99_1.htm",
           "filingDate": "2026-08-13"
         },
         {
-          "label": "실적 보도자료 (2026-05-07)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526211811/kod-ex99_1.htm",
-          "filingDate": "2026-05-07"
-        },
-        {
-          "label": "10-Q 경영진 설명 (2026-08-13)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526349251/kod-20260630.htm",
-          "filingDate": "2026-08-13"
+          "label": "10-Q 경영진 설명 (2026-11-12)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458399/kod-20260930.htm",
+          "filingDate": "2026-11-12"
         }
       ],
       "code33": null,
@@ -1171,8 +1230,8 @@ window.NDEEP_DATA = {
       "consensus": {
         "saleCy": 0,
         "saleNy": 0,
-        "epsCy": -7.85,
-        "epsNy": -13.7
+        "epsCy": -7.39,
+        "epsNy": -10.59
       }
     },
     "GRAL": {
@@ -78058,6 +78117,4189 @@ window.NDEEP_DATA = {
         "saleNy": 12.87,
         "epsCy": 78.78,
         "epsNy": 25.76
+      }
+    },
+    "JBSS": {
+      "drivers": [
+        {
+          "what": "계약 제조(다른 회사 브랜드 제품을 위탁 생산해 주는 사업) 채널의 대형 신규 고객 — 이 고객의 스낵 너트 물량이 이 채널 성장을 끌고 있다",
+          "kind": "contract",
+          "stage": "매출 발생 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1-b1",
+              "statement": "회사는 계약 제조 채널 판매량 증가가 전년 2분기에 새로 들어온 대형 고객의 스낵 너트 판매 때문이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Contract Manufacturing Distribution Channel +41.3% This sales volume increase was mainly driven by increased snack nut sales to a significant new customer that was added in the second quarter of the prior year. This increase was partially offset by non-repeat of the prior year granola sales volume opportunity.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b2",
+              "statement": "같은 고객을 들이는 작업이 아직 진행 중이라고 회사는 앞선 분기에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                  "date": "2026-08-19",
+                  "quote": "Fourth quarter profitability was impacted by several challenges, including higher-than-anticipated input and transportation costs, manufacturing inefficiencies associated with the continued onboarding of a large contract manufacturing customer and certain customer-related charges.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1-r1",
+              "statement": "2027 회계연도 1분기 계약 제조 채널 판매량은 1년 전보다 41.3% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Contract Manufacturing Distribution Channel +41.3% This sales volume increase was mainly driven by increased snack nut sales to a significant new customer that was added in the second quarter of the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r2",
+              "statement": "바로 앞 분기인 2026 회계연도 4분기에도 같은 고객 덕에 이 채널 판매량이 12.6% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                  "date": "2026-08-19",
+                  "quote": "Contract Manufacturing Distribution Channel +12.6% This sales volume increase was mainly driven by increased snack nut sales to a significant new customer that was added in the second quarter of the prior year. This increase was partially offset by decreased granola sales volume.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1-p1",
+              "statement": "1분기 매출총이익률은 1년 전 18.1%에서 17.0%로 내려갔고, 회사는 불리한 제품 믹스 변화를 이유 중 하나로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Gross profit decreased $5.2 million to $48.9 million and gross profit margin declined to 17.0% of net sales from 18.1% of net sales in the prior year’s first quarter. The decrease in gross profit was primarily attributable to competitive pricing pressure and timing of pricing actions for peanuts, bars and snack and trail mix products. Additionally, manufacturing expenses increased due to higher freight, equipment repairs and maintenance and rent costs. The decrease in gross profit margin was attributable to these factors and an unfavorable shift in product mix.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-p2",
+              "statement": "대형 계약 제조 고객을 들이는 과정의 제조 비효율이 2026 회계연도 4분기 수익성을 눌렀다고 회사는 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                  "date": "2026-08-19",
+                  "quote": "Fourth quarter profitability was impacted by several challenges, including higher-than-anticipated input and transportation costs, manufacturing inefficiencies associated with the continued onboarding of a large contract manufacturing customer and certain customer-related charges.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1-e1",
+              "statement": "회사는 2027 회계연도 남은 기간에 잃은 소비자 채널 물량의 상당 부분을 계약 제조 물량으로 메울 것으로 보지만, 그만큼 판매 믹스는 나빠진다고 밝혔다(회사 전망, 숫자는 제시하지 않음).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "While we expect to replace a significant portion of the lost Consumer volume with incremental Contract Manufacturing volume, this shift will result in a less favorable sales mix.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1-c1",
+              "statement": "같은 분기 소비자 채널 판매량은 6.7% 줄어, 자가 브랜드(소매업체 상표) 물량 감소가 계약 제조 증가분을 상쇄했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Consumer Distribution Channel - 6.7% Sales volume decreased primarily due to a 6.3% reduction in private brand sales volume. The decline was driven mainly by lower nut and trail mix volumes and, to a lesser extent, lower bar volumes.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-c2",
+              "statement": "회사 전체 순매출은 1년 전보다 3.5% 줄어 2.881억 달러였고, 파운드당 평균 판매가격이 3.6% 내린 것이 원인이었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Net sales for the first quarter of fiscal 2027 decreased by $10.5 million, or 3.5%, to $288.1 million. This decrease was driven by a 3.6% decrease in the weighted average selling price per pound.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "'보디 좋은(better for you)' 신규 바 제품과 단백질 중심 바 확대 — 주력 바 제품의 부진을 메우려는 신제품",
+          "kind": "product",
+          "stage": "출시",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2-b1",
+              "statement": "회사는 새 '보디 좋은' 바 제품 출시가 성공적이었고 기존 고객과 바 사업을 확대했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Bar sales were impacted by softness in mainstream bars and consumer migration to smaller pack sizes, partially offset by the successful launch of a new “better for you” bar offering and expanded bar business with an existing customer.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2-r1",
+              "statement": "회사는 이 신제품과 바 사업 확대가 바 판매 감소를 일부 상쇄했다고만 적었고, 그 제품의 매출 금액은 공개하지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Bar sales were impacted by softness in mainstream bars and consumer migration to smaller pack sizes, partially offset by the successful launch of a new “better for you” bar offering and expanded bar business with an existing customer.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2-p1",
+              "statement": "바 원재료 비용 상승은 2026 회계연도 4분기 매출총이익을 깎은 요인 중 하나였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                  "date": "2026-08-19",
+                  "quote": "Gross profit was also adversely affected by higher customer claims, higher snack bar ingredient costs, manufacturing inefficiencies, and higher freight expenses.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2-e1",
+              "statement": "회사는 단백질 중심 바 제품군을 넓힐 기회가 크고 그 카테고리의 소비자 수요와 성장이 여전히 강하다고 밝혔다(회사 전망, 숫자는 제시하지 않음).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "In addition, we continue to see significant opportunities to expand our protein-forward bar offerings, where consumer demand and category growth remain strong.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2-c1",
+              "statement": "주력 바 제품의 수요 부진과 소비자의 소용량 포장 선호가 바 판매를 누르고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "Bar sales were impacted by softness in mainstream bars and consumer migration to smaller pack sizes, partially offset by the successful launch of a new “better for you” bar offering and expanded bar business with an existing customer.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "새 최고경영자 Jasper B. Sanfilippo, Jr. 취임 — 형 Jeffrey T. Sanfilippo 는 이사회 의장으로 이동",
+          "kind": "management",
+          "stage": "발표만",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d3-b1",
+              "statement": "전임 최고경영자는 10월에 물러나 이사회 의장을 맡고 동생 Jasper 가 뒤를 잇는다고 2026년 8월 실적 보도자료에서 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                  "date": "2026-08-19",
+                  "quote": "As I announced last month, I will be stepping down as Chief Executive Officer in October to assume the role of Executive Chairman, and my brother Jasper will succeed me as CEO.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-b2",
+              "statement": "새 최고경영자는 첫 분기 보도자료에서 수익성 있는 성장과 운영 효율, 절제된 자본 배분을 우선순위로 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "“I am honored to serve as Chief Executive Officer and build upon the strong foundation of our Company. We remain committed to profitable growth, operational excellence, disciplined capital allocation, and maintaining our financial strength, while continuing to deliver exceptional service to our customers.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3-c1",
+              "statement": "새 경영진이 내놓은 것은 전략 과제 점검과 비용 구조 재검토 단계이며, 매출·이익 목표 수치는 제시되지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                  "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                  "date": "2026-10-28",
+                  "quote": "We recently completed a strategic consulting engagement that reinforced our long-term growth plan and identified further opportunities to accelerate long-term growth. In addition, we are currently evaluating our cost structure to maximize efficiency, prioritize resources and ensure we proactively respond to evolving market conditions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 은 전부 뒷걸음이다 — 매출 증가율이 플러스에서 마이너스로 돌아섰고, 순이익은 세 분기 내내 1년 전보다 줄었다. 회사가 직접 적은 원인은 새 동력이 아니라 가격이다: 1분기 순매출은 1년 전보다 3.5% 줄었고 그 이유는 파운드당 평균 판매가격이 3.6% 내린 것이었다. 계약 제조 신규 고객은 판매량(41.3% 증가)을 떠받치지만 단가가 낮아 전사 매출을 끌어올리지 못하고, 이익률은 불리한 제품 믹스와 경쟁 가격 압력으로 17.0%까지 내려갔다.",
+      "headline": "계약 제조 신규 고객이 물량은 채우지만 매출·이익은 뒷걸음",
+      "nVerdict": "부분 충족",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1-1",
+            "statement": "새 '보디 좋은' 바 제품 출시가 성공적이었고 기존 고객과 바 사업을 확대했다고 회사는 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                "date": "2026-10-28",
+                "quote": "Bar sales were impacted by softness in mainstream bars and consumer migration to smaller pack sizes, partially offset by the successful launch of a new “better for you” bar offering and expanded bar business with an existing customer.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2-1",
+            "statement": "새 식료품 소매업체 거래와 기존 고객 세 곳의 조리용 너트 추가 물량이 있었지만, 이전에 잃은 거래와 카테고리 부진이 더 컸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                "date": "2026-10-28",
+                "quote": "Nut and trail mix sales volume was negatively impacted by lower sales to several existing customers driven by category softness in snack and trail mix products and peanuts, reduced promotional activity and the impact of previously lost business. These declines were partially offset by new business at a grocery retailer and additional recipe nut volume at three existing customers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2-2",
+            "statement": "앞선 분기에는 새 식료품 소매업체 첫 출하와 기존 소매업체 두 곳의 유통 확대가 자가 브랜드 너트·트레일 믹스 물량을 밀어올렸으나, 온라인 소매업체 거래 상실이 일부를 상쇄했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                "date": "2026-08-19",
+                "quote": "The increase in private label nuts and trail mix sales volume was positively impacted by initial shipments to a new grocery retailer and expanded distribution at two existing grocery retailers, which was partially offset by lost private label business at an online retailer.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [],
+        "salesMargin": [
+          {
+            "id": "q4-1",
+            "statement": "회사는 판매가격을 원재료 매입 원가에 더 가깝게 맞추는 방식으로 이익률을 방어했다고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                "date": "2026-08-19",
+                "quote": "Gross profit margin decreased from 18.4% to 18.0% of net sales. This decrease was mainly attributable to factors noted in the quarterly comparison above and lower inventory valuation adjustments which were partially offset by aligning our pricing more closely with commodity acquisition costs and the absence of a one-time pricing concession recognized in the prior year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4-2",
+            "statement": "소비자 채널에서는 브랜드 제품이 몸에 좋은 간식 수요에 맞는다고 보고 카테고리 성장을 끌어올리는 작업과 너트·트레일 믹스 신규 거래를 추진하고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                "date": "2026-10-28",
+                "quote": "Our brands and many of our products remain well aligned with consumer demand for nutritious, better-for-you snacks, and we are actively responding to current category trends while focusing on initiatives to improve category performance and drive category growth. We are also encouraged by new business opportunities we are pursuing in our nut and trail mix category.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5-1",
+            "statement": "회사는 효율을 최대로 올리기 위해 비용 구조를 지금 재검토하고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-10-28)",
+                "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+                "date": "2026-10-28",
+                "quote": "In addition, we are currently evaluating our cost structure to maximize efficiency, prioritize resources and ensure we proactively respond to evolving market conditions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5-2",
+            "statement": "늘어난 원가에 대응하면서 2027 회계연도에는 운영 효율 개선에 집중한다고 회사는 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "존 비 샌필리포 앤드 선 실적 보도자료 (2026-08-19)",
+                "publisher": "존 비 샌필리포 앤드 선 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+                "date": "2026-08-19",
+                "quote": "We are actively responding to these increased costs, and we remain focused on improving operational efficiencies as we move into fiscal 2027",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 두 가지다. 첫째는 계약 제조 채널에 들어온 대형 신규 고객으로, 이 고객의 스낵 너트 물량 덕에 해당 채널 판매량이 직전 분기 12.6%, 이번 1분기 41.3% 늘었다. 둘째는 새 '보디 좋은' 바 제품으로, 회사는 출시가 성공적이었다고만 적고 매출 금액은 밝히지 않았다. 문제는 이 물량이 전사 숫자를 끌어올리지 못한다는 점이다. 1분기 순매출은 1년 전보다 3.5% 줄어 2.881억 달러였고, 파운드당 평균 판매가격이 3.6% 내린 것이 원인이었다. 이익에서는 오히려 부담이다 — 매출총이익률이 1년 전 18.1%에서 17.0%로 내려갔고 회사는 불리한 제품 믹스와 경쟁 가격 압력을 이유로 들었으며, 앞선 분기에는 이 대형 고객을 들이는 과정의 제조 비효율이 수익성을 눌렀다고 밝혔다. 기대 성장률로 제시된 숫자는 없다. 회사는 잃은 소비자 채널 물량의 상당 부분을 계약 제조 물량으로 메울 것으로 보지만 그만큼 판매 믹스가 나빠진다고 스스로 적었고, 단백질 중심 바 확대 기회가 크다고만 했다. 2026년 10월 취임한 새 최고경영자 Jasper B. Sanfilippo, Jr. 는 아직 전략 과제 점검과 비용 구조 재검토 단계로, 매출·이익 목표를 내놓지 않았다. 이 그림을 꺾는 쪽은 소비자 채널이다 — 같은 분기 소비자 채널 판매량이 6.7% 줄었고, 주력 바 제품 부진과 소용량 포장 선호가 이어지고 있다.",
+      "sourceGap": "10-Q 경영진 설명(MD&A) 본문이 비어 있어 매출 증가 원인을 설명하는 10-Q 문장을 읽지 못했고, 실적 발표 콜 원고와 국내 증권사 리포트도 없었다.",
+      "ticker": "JBSS",
+      "watch": [
+        "계약 제조 채널 판매량 증가율이 다음 분기에도 두 자릿수로 유지되는지 — 꺾이면 신규 고객 효과는 일회성 쌓기였다는 뜻이다",
+        "매출총이익률이 17.0%에서 반등하는지 — 계약 제조 비중이 커지는데도 올라오면 믹스 악화를 가격·원가로 흡수했다는 신호다",
+        "소비자 채널 판매량이 감소에서 벗어나는지, 그리고 새 식료품 소매업체 거래가 추가로 늘어나는지",
+        "단백질 중심 바와 '보디 좋은' 바의 매출 기여를 회사가 숫자로 처음 공개하는지 — 지금은 금액 근거가 전혀 없다",
+        "비용 구조 재검토 결과가 구체적인 금액·항목으로 나오는지"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-17",
+      "asOf": "2026-10-28",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-10-28)",
+          "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436158/jbss-ex99_1.htm",
+          "filingDate": "2026-10-28"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-19)",
+          "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526356911/jbss-ex99_1.htm",
+          "filingDate": "2026-08-19"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-10-28)",
+          "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526436164/jbss-20260924.htm",
+          "filingDate": "2026-10-28"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-24",
+            "revenueYoy": -3.5,
+            "netIncomeYoy": -29.7,
+            "netMargin": 4.6
+          },
+          {
+            "periodEnd": "2026-06-25",
+            "revenueYoy": 4.2,
+            "netIncomeYoy": -37.9,
+            "netMargin": 3
+          },
+          {
+            "periodEnd": "2026-03-26",
+            "revenueYoy": 8,
+            "netIncomeYoy": -16.4,
+            "netMargin": 6
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-24",
+          "revenue": 288136000,
+          "netIncome": 13168000,
+          "yoy": {
+            "revenue": -3.5,
+            "profit": -28.5,
+            "netIncome": -29.7,
+            "priorEnd": "2025-09-25"
+          }
+        },
+        {
+          "periodEnd": "2026-06-25",
+          "revenue": 280434000,
+          "netIncome": 8402655,
+          "yoy": {
+            "revenue": 4.2,
+            "profit": -38.3,
+            "netIncome": -37.9,
+            "priorEnd": "2025-06-26"
+          }
+        },
+        {
+          "periodEnd": "2026-03-26",
+          "revenue": 281779000,
+          "netIncome": 16848000,
+          "yoy": {
+            "revenue": 8,
+            "profit": -15.6,
+            "netIncome": -16.4,
+            "priorEnd": "2025-03-27"
+          }
+        },
+        {
+          "periodEnd": "2025-12-25",
+          "revenue": 314777000,
+          "netIncome": 17957000,
+          "yoy": {
+            "revenue": 4.6,
+            "profit": 34.1,
+            "netIncome": 32.1,
+            "priorEnd": "2024-12-26"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 2.04,
+        "saleNy": 3.12,
+        "epsCy": -9.65,
+        "epsNy": 1.63
+      }
+    },
+    "GRVY": {
+      "drivers": [
+        {
+          "what": "라그나로크: 더 뉴 월드 — 라그나로크 지식재산권을 쓴 오픈월드 모바일 MMORPG(여러 사람이 함께 하는 온라인 역할수행 게임)의 지역 확대",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-01",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 라그나로크: 더 뉴 월드를 2026년 1월 15일 대만·홍콩·마카오에, 2026년 7월 16일 베트남을 뺀 동남아시아에 내놓았다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "The increase YoY was mainly due to initial revenues from Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026 and in Taiwan, Hong Kong and Macau on January 15, 2026 and Ragnarok Origin Classic launched in Korea, Taiwan, Hong Kong, Macau and Southeast Asia on March 26, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 모바일 게임 매출은 169,387백만 원으로 1년 전보다 54.6%, 직전 분기보다 31.7% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Mobile game revenues were KRW 169,387 million (US$ 124,925 thousand) for the third quarter of 2026, representing a 31.7% increase QoQ from KRW 128,611 million and a 54.6% increase YoY from KRW 109,571 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "회사는 모바일 매출이 1년 전보다 늘어난 주된 이유로 더 뉴 월드의 동남아시아·대만·홍콩·마카오 출시를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "The increase YoY was mainly due to initial revenues from Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026 and in Taiwan, Hong Kong and Macau on January 15, 2026 and Ragnarok Origin Classic launched in Korea, Taiwan, Hong Kong, Macau and Southeast Asia on March 26, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "전사 3분기 총매출은 197,146백만 원으로 1년 전보다 41.9%, 직전 분기보다 21.8% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Total revenues were KRW 197,146 million (US$ 145,397 thousand), representing a 21.8% increase from the second quarter ended June 30, 2026 (\"QoQ\") and a 41.9% increase from the third quarter ended September 30, 2025 (\"YoY\").",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "같은 분기 영업이익은 28,728백만 원으로 1년 전보다 35.0% 늘었다 — 회사는 이익을 제품별로 나눠 밝히지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Operating profit was KRW 28,728 million (US$ 21,186 thousand), representing a 4.2% increase QoQ and a 35.0% increase YoY.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "다만 신작 출시 수수료가 먼저 나가 매출원가는 1년 전보다 60.0% 늘어, 총매출 증가율 41.9%보다 빨랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Cost of revenue was KRW 141,696 million (US$ 104,503 thousand) for the third quarter of 2026, representing a 29.4% increase QoQ from KRW 109,541 million and a 60.0% increase YoY from KRW 88,542 million. The increase QoQ was mainly due to initial commission paid for mobile game services related to Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026. … Total revenues were KRW 197,146 million (US$ 145,397 thousand), representing a 21.8% increase from the second quarter ended June 30, 2026 (\"QoQ\") and a 41.9% increase from the third quarter ended September 30, 2025 (\"YoY\").",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 계획으로는 더 뉴 월드를 2027년 상반기 일본·한국에, 2027년 안에 중국과 일부 지역을 뺀 글로벌에 내놓는다 — 매출 증가율 전망은 내놓지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 — 사업 현황 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Ragnarok: The New World will be launched in Japan and Korea in the first half of 2027, and in China and Global (except certain regions) within 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "같은 작품이 먼저 나간 대만·홍콩·마카오에서는 매출이 이미 줄기 시작했다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Such increase was partially offset by decreased revenues from Ragnarok Origin Classic in Korea, Taiwan, Hong Kong, Macau and Southeast Asia and Ragnarok: The New World in Taiwan, Hong Kong and Macau.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "순이익은 직전 분기보다 12.1% 줄어, 매출 증가가 곧바로 최종 이익으로 이어지지는 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Net profit attributable to parent company was KRW 21,407 million (US$ 15,787 thousand), representing a 12.1% decrease QoQ and a 7.7% increase YoY.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "클래식 서버 신작 2종 — 라그나로크 오리진 클래식과 라그나로크 M: 클래식을 한국·아시아·미주에 차례로 출시",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-03",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 라그나로크 오리진 클래식을 2026년 3월 26일 한국·대만·홍콩·마카오·동남아시아에, 7월 23일 미주에 내놓고 라그나로크 M: 클래식을 7월 16일 한국에 내놓았다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "The increase QoQ was mainly attributable to initial revenues from Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026, Ragnarok M: Classic launched in Korea on July 16, 2026 and Ragnarok Origin Classic launched in North, Central and South America on July 23, 2026. … The increase YoY was mainly due to initial revenues from Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026 and in Taiwan, Hong Kong and Macau on January 15, 2026 and Ragnarok Origin Classic launched in Korea, Taiwan, Hong Kong, Macau and Southeast Asia on March 26, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "회사는 모바일 매출이 직전 분기보다 31.7% 늘어난 주된 이유로 이 두 클래식 신작과 더 뉴 월드의 초기 매출을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Mobile game revenues were KRW 169,387 million (US$ 124,925 thousand) for the third quarter of 2026, representing a 31.7% increase QoQ from KRW 128,611 million and a 54.6% increase YoY from KRW 109,571 million. … The increase QoQ was mainly attributable to initial revenues from Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026, Ragnarok M: Classic launched in Korea on July 16, 2026 and Ragnarok Origin Classic launched in North, Central and South America on July 23, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "The increase YoY was primarily due to initial commissions paid for mobile game services related to Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026 and in Taiwan, Hong Kong and Macau on January 15, 2026 and Ragnarok Origin Classic launched in Korea, Taiwan, Hong Kong, Macau and Southeast Asia on March 26, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 매출원가가 1년 전보다 60.0% 늘어난 이유로 더 뉴 월드와 라그나로크 오리진 클래식의 초기 모바일 수수료를 들었다.",
+              "stripped": true
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "먼저 나간 한국·대만·홍콩·마카오·동남아시아의 오리진 클래식 매출은 이미 줄었다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Such increase was partially offset by decreased revenues from Ragnarok Origin Classic in Korea, Taiwan, Hong Kong, Macau and Southeast Asia and Ragnarok: The New World in Taiwan, Hong Kong and Macau.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "같은 지식재산권의 구작인 라그나로크 M: 클래식과 라그나로크: 트와일라잇은 아시아에서 매출이 줄어 신작 효과를 일부 깎았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Such increase was partially offset by decreased revenues from Ragnarok M: Classic in Taiwan, Hong Kong, Macau and Southeast Asia and Ragnarok: Twilight in Taiwan, Hong Kong and Macau.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "라그나로크 제로: 글로벌 — 줄어들던 온라인(PC) 게임 쪽에 새로 붙인 글로벌 서비스",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-08",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 라그나로크 제로: 글로벌을 2026년 8월 18일 베트남을 뺀 동남아시아·유럽·오세아니아에 정식 출시했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 — 사업 현황 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Ragnarok Zero: Global was officially launched in Southeast Asia (except Vietnam), Europe and Oceania on August 18, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "3분기 온라인 게임 매출은 25,139백만 원으로 직전 분기보다 15.2% 줄었는데, 회사는 라그나로크 제로: 글로벌의 초기 매출이 그 감소를 일부 메웠다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Online game revenues for the third quarter of 2026 were KRW 25,139 million (US$ 18,540 thousand), representing a 15.2% decrease QoQ from KRW 29,660 million and a 3.2% decrease YoY from KRW 25,968 million. … The decrease QoQ was mainly attributable to decreased revenue from Ragnarok Online in Thailand. This decrease was partially offset by initial revenue from Ragnarok Zero: Global launched in Southeast Asia, Europe and Oceania on August 18, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "회사는 분기 비용이 직전 분기보다 늘어난 주된 이유로 라그나로크 제로: 글로벌의 동남아시아·유럽·오세아니아 광고비 증가를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "The increase QoQ was mainly due to increased advertising expenses for Ragnarok Zero: Global in Southeast Asia, Europe and Oceania.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d3e1",
+              "statement": "회사 계획으로는 라그나로크 온라인 3을 2027년 상반기에 중국과 아시아(한국·대만·홍콩·마카오·베트남을 뺀 동남아시아)에 내놓는다 — 매출 전망치는 제시하지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 — 사업 현황 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Ragnarok Online 3 is underway for its launch in China and Asia (Korea, Taiwan, Hong Kong, Macau and Southeast Asia (except Vietnam)) in the first half of 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "새 글로벌 서비스를 붙였어도 온라인 게임 매출은 1년 전보다 3.2% 줄어, 중남미와 대만·홍콩·마카오의 구작 감소를 아직 덮지 못했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                  "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                  "date": "2026-11-13",
+                  "quote": "Online game revenues for the third quarter of 2026 were KRW 25,139 million (US$ 18,540 thousand), representing a 15.2% decrease QoQ from KRW 29,660 million and a 3.2% decrease YoY from KRW 25,968 million. … The decrease YoY was mainly due to decreased revenues from Ragnarok Online America Latina in Latin America and Ragnarok Online in Taiwan, Hong Kong and Macau. This decrease was partially offset by initial revenue from Ragnarok Zero: Global launched in Southeast Asia, Europe and Oceania on August 18, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "counter": "[]",
+      "growthLink": "코드 33(최근 3분기 매출·이익 증가율·순이익률 흐름)은 분기 자료가 없어 계산되지 않았다 — 그라비티는 미국 상장 외국 기업이라 분기 보고서를 제출하지 않는다. 대신 회사가 직접 낸 3분기 숫자를 보면 총매출은 1년 전보다 41.9%, 영업이익은 35.0% 늘었지만 순이익은 7.7% 증가에 그치고 직전 분기보다는 12.1% 줄었다. 회사는 매출 증가의 주된 이유를 라그나로크: 더 뉴 월드와 라그나로크 오리진 클래식의 신규 지역 출시로 적었고, 같은 작품들의 초기 모바일 수수료 때문에 매출원가가 1년 전보다 60.0% 늘었다고 적었다 — 즉 가속은 신작이 만들고, 이익 쪽 둔화도 같은 신작의 출시 비용이 만들었다.",
+      "headline": "라그나로크 신작의 지역 확대로 모바일 매출이 1년 전보다 54.6% 늘었다",
+      "nVerdict": "충족",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1",
+            "statement": "라그나로크 지식재산권을 쓴 오픈월드 모바일 게임 더 뉴 월드가 2026년 1월 대만·홍콩·마카오, 7월 동남아시아로 넓어지면서 모바일 매출을 1년 전보다 54.6% 끌어올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                "date": "2026-11-13",
+                "quote": "Mobile game revenues were KRW 169,387 million (US$ 124,925 thousand) for the third quarter of 2026, representing a 31.7% increase QoQ from KRW 128,611 million and a 54.6% increase YoY from KRW 109,571 million. … The increase YoY was mainly due to initial revenues from Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026 and in Taiwan, Hong Kong and Macau on January 15, 2026 and Ragnarok Origin Classic launched in Korea, Taiwan, Hong Kong, Macau and Southeast Asia on March 26, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [],
+        "salesMargin": [
+          {
+            "id": "q4",
+            "statement": "회사는 같은 라그나로크 지식재산권을 지역별로 쪼개 내보내는 방식으로 매출을 늘리고 있다 — 한 분기에 동남아시아·한국·미주 세 곳에 신작을 띄웠다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "그라비티 2026년 3분기 실적 보도자료 (2026-11-13)",
+                "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                "date": "2026-11-13",
+                "quote": "The increase QoQ was mainly attributable to initial revenues from Ragnarok: The New World launched in Southeast Asia except for Vietnam on July 16, 2026, Ragnarok M: Classic launched in Korea on July 16, 2026 and Ragnarok Origin Classic launched in North, Central and South America on July 23, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5",
+            "statement": "다음 단계로는 라그나로크 온라인 3의 2027년 상반기 중국·아시아 출시를 준비한다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "그라비티 2026년 3분기 실적 보도자료 — 사업 현황 (2026-11-13)",
+                "publisher": "GRAVITY Co., Ltd. (SEC 공시 6-K)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1313310/000162828026073563/a6-k_gravityxthirdquarter2.htm",
+                "date": "2026-11-13",
+                "quote": "Ragnarok Online 3 is underway for its launch in China and Asia (Korea, Taiwan, Hong Kong, Macau and Southeast Asia (except Vietnam)) in the first half of 2027.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": []
+      },
+      "narrative": "새로운 것은 라그나로크 한 지식재산권을 지역별로 계속 쪼개 내보내는 신작 묶음이다. 오픈월드 모바일 게임 라그나로크: 더 뉴 월드가 2026년 1월 15일 대만·홍콩·마카오, 7월 16일 베트남을 뺀 동남아시아에 나왔고, 클래식 서버 신작인 라그나로크 오리진 클래식(3월 26일 한국·아시아, 7월 23일 미주)과 라그나로크 M: 클래식(7월 16일 한국)이 뒤를 받쳤다. 매출로는 3분기 모바일 게임 매출이 169,387백만 원으로 1년 전보다 54.6%, 직전 분기보다 31.7% 늘었고 전사 총매출은 197,146백만 원으로 1년 전보다 41.9% 늘었다. 회사는 이 증가의 주된 이유로 위 신작들의 초기 매출을 직접 적었다 — 가격 인상이나 비용 절감이 아니다. 이익 쪽은 결이 다르다. 영업이익은 28,728백만 원으로 1년 전보다 35.0% 늘었지만, 같은 신작들의 초기 모바일 수수료 때문에 매출원가가 1년 전보다 60.0% 늘어 매출 증가율을 앞질렀고 순이익은 1년 전보다 7.7% 증가, 직전 분기보다는 12.1% 감소였다. 줄어들던 온라인(PC) 쪽에는 8월 18일 라그나로크 제로: 글로벌을 붙였지만 온라인 매출은 여전히 1년 전보다 3.2% 줄었고, 그 출시 광고비가 분기 비용을 늘렸다. 기대 성장률은 숫자로 확인되지 않는다 — 회사는 증가율 전망을 내놓지 않고 출시 일정만 밝혔다(더 뉴 월드 2027년 상반기 일본·한국, 라그나로크 온라인 3 2027년 상반기 중국·아시아). 이 그림을 꺾을 수 있는 것은 같은 보도자료 안에 이미 적혀 있다: 먼저 나간 지역의 더 뉴 월드·오리진 클래식 매출이 벌써 줄고 있어, 성장이 계속되려면 다음 지역 출시가 제때 나와야 한다.",
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트를 찾지 못해 기대 성장률의 숫자 근거가 없고, 분기 재무 자료가 제출되지 않아 코드 33은 계산되지 않았다.",
+      "ticker": "GRVY",
+      "watch": [
+        "4분기에도 모바일 게임 매출이 1년 전보다 늘어나는가 — 7월 출시 지역(동남아시아·한국·미주)의 초기 매출이 한 분기 만에 꺾이면 신작 효과가 짧다는 뜻이다",
+        "매출원가 증가율이 매출 증가율 밑으로 내려오는가 — 초기 출시 수수료가 지나간 뒤에도 원가가 더 빨리 늘면 신작이 많아질수록 이익률이 깎인다",
+        "10월 20일 나온 NBA RISE와 라그나로크 제로: 아메리카(2027년 1월 예정)가 매출 증가 설명에 이름을 올리는가",
+        "더 뉴 월드 일본·한국(2027년 상반기)과 라그나로크 온라인 3 중국·아시아(2027년 상반기) 일정이 미뤄지지 않는가 — 다음 지역 출시가 밀리면 기존 지역 감소가 그대로 드러난다"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-17",
+      "asOf": null,
+      "why": "신규",
+      "docs": [],
+      "code33": null,
+      "quarters": [],
+      "consensus": {
+        "saleCy": null,
+        "saleNy": null,
+        "epsCy": null,
+        "epsNy": null
+      }
+    },
+    "CLX": {
+      "drivers": [
+        {
+          "what": "Clorox Purell ProCare — 2026년 4월 GOJO 인더스트리즈(Purell 손 위생 브랜드) 인수로 만든 전문·의료 고객용 B2B 사업",
+          "kind": "contract",
+          "stage": "이익 기여 중",
+          "since": "2026-04",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 2026년 4월 GOJO 인더스트리즈 인수를 마무리했고, 이 회사는 Purell 브랜드와 건강·위생 제품군을 묶어 Clorox Purell 로 운영된다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-08-03)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000028/ex991-pressreleasedatedaug.htm",
+                  "date": "2026-08-03",
+                  "quote": "In April 2026, the company completed the acquisition of GOJO Industries, Inc. (GOJO), which now operates as Clorox Purell and includes the Purell® brand and a portfolio of health and hygiene solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "2026년 9월 끝난 분기에 회사는 CloroxPro 와 GOJO 를 하나의 영업·서비스 조직으로 합친 Clorox Purell ProCare 를 공식 출범시켰다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Officially launched Clorox Purell ProCare, bringing together CloroxPro and GOJO with a unified sales and service organization and network of leading distributors that provide professional and healthcare customers convenient access to a broad portfolio of innovative solutions from trusted brands.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "2026년 9월 끝난 분기 매출은 1년 전보다 33% 늘어 19.1억 달러였고, 그중 약 15%p 가 GOJO 인수 효과였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Net sales increased 33% to $1.91 billion. The impact of the GOJO acquisition was about 15 points. Organic sales 1 increased 18%, reflecting the impact of lapping the ERP transition-related inventory drawdown in the year-ago quarter.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "Purell ProCare 가 들어간 Health and Wellness 부문 매출은 같은 분기에 62% 늘었고, 그중 약 39%p 가 GOJO 인수 몫이었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Net sales increased 62%, driven by 55 points of higher volume and 7 points of favorable price mix. The GOJO acquisition contributed approximately 39 points to net sales growth. Organic sales increased 23%, primarily driven by the impact of lapping the ERP transition-related inventory drawdown in the year-ago quarter.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "회사는 인수 뒤 전사 매출의 절반이 넘는 부분이 건강·위생 제품군에서 나온다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-08-03)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000028/ex991-pressreleasedatedaug.htm",
+                  "date": "2026-08-03",
+                  "quote": "Completed the acquisition of GOJO, unlocking new growth synergies across the combined portfolio of Clorox Purell and Clorox Professional by bringing together complementary brands and capabilities to strengthen the company's health and hygiene platform. Clorox’s global health and hygiene portfolio now represents more than half of net sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "Health and Wellness 부문의 조정 영업이익(일회성을 뺀 회사 기준 세전영업이익)은 같은 분기에 69% 늘었고, 회사는 매출 증가와 원가 절감이 주된 이유라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Segment adjusted EBIT 2 increased 69%, primarily due to higher net sales and cost savings, partially offset by higher manufacturing and logistics costs and higher commodity costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "인수 대금을 빌려 조달한 탓에 이자비용이 1년 전보다 2,900만 달러 늘었다고 회사가 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 10-Q 경영진 설명 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+                  "date": "2026-11-02",
+                  "quote": "Interest expense increased by $29 in the current period as compared to prior period. The increase was primarily due to incremental borrowings to fund the GOJO acquisition.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2027 회계연도 매출 13~14% 증가이며, 그중 약 9.5%p 가 GOJO 인수 효과다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Net sales are still expected to be up 13% to 14% compared to the prior year, including about 9.5 points of benefit from the GOJO acquisition. Organic sales are expected to increase about 3.5% to 4.5%, including more than 3.5 points of benefit from lapping the ERP-related drawdown in the prior fiscal year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 2027 회계연도 조정 주당순이익(일회성을 뺀 회사 기준 이익)을 5.70~6.00달러, 3~8% 증가로 유지한다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Adjusted EPS is still expected to be between $5.70 and $6.00, or an increase between 3% and 8%, respectively. These growth rates include the benefit of lapping the inventory drawdown related to the ERP transition in the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사는 원가 환경이 더 어려워졌다며 조정 주당순이익이 제시 범위의 하단에 가까울 것이라고 전망을 수정했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "The company is maintaining its sales and adjusted EPS outlook ranges. Based on the latest assumptions on input costs and acquisition synergies, the company updated its gross margin and selling and administrative expenses, and expects adjusted EPS results closer to the low end of the range.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 위험 요인에서 Purell ProCare 의 기업 간 거래 방식에 적응하는 어려움과 기존 소비재 사업과의 유통 충돌 가능성을 직접 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 10-Q 경영진 설명 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+                  "date": "2026-11-02",
+                  "quote": "the risks of adapting to Clorox Purell ProCare’s business-to-business (B2B) operating model, including differences in distribution channels, go-to-market strategies, margin profiles and customer requirements, increased exposure to customer concentration and consolidation among distributors, group purchasing organizations, health systems and other institutional customers in B2B channels, and potential channel conflict with the Company’s consumer business",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "제품 혁신 확대 — Clorox PURE·Clorox Screen+ 살균 티슈, Fresh Step 경량 모래, Glad ForceFlex MaxStrength 등 2026 회계연도에 신제품 수를 거의 두 배로 늘린 출시 묶음",
+          "kind": "product",
+          "stage": "출시",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2026 회계연도에 확대된 제품군 전반에서 혁신 제품 수를 거의 두 배로 늘렸고 Clorox PURE 와 Clorox Screen+ 살균 티슈 등을 출시했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-08-03)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000028/ex991-pressreleasedatedaug.htm",
+                  "date": "2026-08-03",
+                  "quote": "Continued to invest behind value superiority and consumer-centered experiences by nearly doubling innovation across its expanded portfolio in fiscal year 2026, including the launch of Clorox PURE and Clorox Screen+ Sanitizing Wipes, expanded professional hygiene solutions from Clorox Healthcare and Purell, Fresh Step Lightweight Litter, Glad ForceFlex MaxStrength LeakGuard Trash Bags, new lip and body care offerings from Burt’s Bees, as well as new flavors and scents across Clorox, Glad, Hidden Valley Ranch and Pine-Sol.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "2026년 9월 끝난 분기에도 Burt's Bees 짜는 형태 립밤, 새 향의 Purell 손 소독 스프레이 같은 신제품을 계속 내놨다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Continued to invest in consumer-inspired innovation across the portfolio, including Burt’s Bees Hydrating Lip Balms and Lip Tints in a new squeeze tube format, Purell Hand Sanitizer Sprays in new scents, seasonal Glad, Pine-Sol and Clorox Scentiva offerings and Hidden Valley Ranch Spooky Ranch, bringing consumers more variety and seasonal options from brands they know and trust.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사 가이던스의 2027 회계연도 유기 매출(인수 효과를 뺀 성장)은 3.5~4.5% 증가인데, 그중 3.5%p 이상이 전년 재고 소진의 기저 효과라서 신제품 몫은 따로 제시되지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 실적 보도자료 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                  "date": "2026-11-02",
+                  "quote": "Net sales are still expected to be up 13% to 14% compared to the prior year, including about 9.5 points of benefit from the GOJO acquisition. Organic sales are expected to increase about 3.5% to 4.5%, including more than 3.5 points of benefit from lapping the ERP-related drawdown in the prior fiscal year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 소비자가 지출 압박을 계속 받고 물가가 높게 유지되고 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 10-Q 경영진 설명 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+                  "date": "2026-11-02",
+                  "quote": "Consumers continue to feel pressure as continued macroeconomic uncertainty impacts spending and prices remain elevated.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "천연 퍼스널케어 브랜드 Burt's Bees 상표는 2026 회계연도 손상 검사에서 공정가치 여유가 20% 이하로 나와 장부가 3.22억 달러에 감액 위험이 남아 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "크로락스 10-Q 경영진 설명 (2026-11-02)",
+                  "publisher": "크로락스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+                  "date": "2026-11-02",
+                  "quote": "The results of the fiscal year 2026 annual impairment review indicated that the Burt’s Bees indefinite-lived trademark had 20% or less excess fair value over its carrying value. As of September 30, 2026, the trademark had a carrying value of $322.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "CloroxPro 와 GOJO 를 합친 전문·의료 고객용 Clorox Purell ProCare 가 이번 분기에 공식 출범했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 실적 보도자료 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                "date": "2026-11-02",
+                "quote": "Officially launched Clorox Purell ProCare, bringing together CloroxPro and GOJO with a unified sales and service organization and network of leading distributors that provide professional and healthcare customers convenient access to a broad portfolio of innovative solutions from trusted brands.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "경영진은 전략 과제 진전 사항으로 시장 점유율 개선과 GOJO 통합을 함께 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 실적 보도자료 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                "date": "2026-11-02",
+                "quote": "Importantly, we continue to make progress against our strategic priorities, including improving market share and integrating GOJO to unlock the full potential of Clorox Purell ProCare.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "2026년 9월 끝난 분기 Health and Wellness 부문의 유기 매출은 23% 늘었는데, 회사는 주된 이유를 전년 재고 소진의 기저 효과로 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 실적 보도자료 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                "date": "2026-11-02",
+                "quote": "Organic sales increased 23%, primarily driven by the impact of lapping the ERP transition-related inventory drawdown in the year-ago quarter.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사 매출의 80% 넘는 부분이 각 범주에서 점유율 1위 또는 2위인 브랜드에서 나오지만, 전국 광고 브랜드와 유통업체 자체 브랜드가 함께 경쟁한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 10-Q 경영진 설명 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+                "date": "2026-11-02",
+                "quote": "Most of the Company’s products compete with other nationally advertised brands within each category and with “private label” brands. Over 80% of the Company’s sales are generated from brands that hold the No. 1 or No. 2 market share position in their categories.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "크로락스 10-Q 경영진 설명 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+                "date": "2026-11-02",
+                "quote": "The Company primarily markets its leading brands in midsized categories considered to be financially attractive.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "회사는 자신의 시장을 재무적으로 매력적인 중간 규모 범주라고 설명하며 약 25개국에서 95개 시장에 판매한다.",
+            "stripped": true
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "경영진은 GOJO 인수가 변동성을 줄이고 매출 성장을 가속하며 마진을 구조적으로 개선하려는 선택이라고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 10-Q 경영진 설명 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+                "date": "2026-11-02",
+                "quote": "The recent GOJO acquisition reflects the Company’s commitment to reduce volatility, accelerate sales growth and structurally improve margins.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "회사는 원가 절감과 가격 인상으로 마진을 방어하지만 인플레이션과 제품 구성 악화가 그 효과를 넘어서 2027 회계연도 매출총이익률 전망을 약 41.5% 로 낮췄다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 실적 보도자료 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                "date": "2026-11-02",
+                "quote": "Gross margin is now expected to be about 41.5%, reflecting higher-than-normal inflationary headwinds and negative mix more than offsetting the benefits from cost savings and pricing actions. This includes about 20 basis points of negative impact primarily related to the GOJO inventory step-up.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "회사는 이번 분기에 기록상 가장 강한 수준의 원가 절감을 냈고 생산성 과제를 계속 밀고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 실적 보도자료 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                "date": "2026-11-02",
+                "quote": "Delivered one of the strongest quarters of cost savings on record, while continuing to advance productivity initiatives and capabilities that provide fuel to invest in growth and innovation.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "5년에 걸친 약 5.8억 달러 규모의 디지털 전환 투자가 2026 회계연도 3분기에 끝나 비용 부담이 사라졌고, 회사는 이 투자가 공급망·전자상거래 등에서 효율을 낼 것으로 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "크로락스 실적 보도자료 (2026-11-02)",
+                "publisher": "크로락스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+                "date": "2026-11-02",
+                "quote": "As announced in August 2021, the company invested in transformative technologies and processes over a five-year period beginning in fiscal year 2022 and completed during the third quarter of fiscal year 2026. The investment included replacement of the company's ERP system and transitioning to a cloud-based platform as well as the implementation of a suite of other digital technologies. The total incremental transformational investment was approximately $580 million. It is expected that these implementations will generate efficiencies and transform the company's operations in the areas of supply chain, digital commerce, innovation, brand building and more over the long term.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "ticker": "CLX",
+      "headline": "GOJO 인수로 만든 Purell ProCare 가 매출 재가속을 끌지만, 마진은 아직 내려가 있다",
+      "nVerdict": "충족",
+      "growthLink": "코드 33 을 보면 최근 세 분기 매출 증가율이 -0.8% → 0.1% → 33.3%, 순이익 증가율이 -18.7% → 0.5% → 112.5% 로 뚜렷하게 가속했지만 순이익률은 9.4% → 11.2% → 8.9% 로 되돌아갔다. 회사는 이 매출·물량 증가를 두 가지로 설명한다 — 전년 같은 분기에 전산 시스템(ERP) 교체로 유통업체가 재고를 줄여 출하가 적었던 기저 효과, 그리고 GOJO 인수 효과다. 즉 33% 가운데 약 15%p 는 새로 들어온 Purell ProCare 사업이고 나머지는 대부분 1년 전 바닥과의 비교여서, 이익률이 함께 오르지 않은 것과도 맞아떨어진다.",
+      "narrative": "새로운 것은 분명하다. 크로락스는 2026년 4월 손 위생 브랜드 Purell 을 가진 GOJO 인더스트리즈 인수를 마치고, 2026년 9월 끝난 분기에 기존 CloroxPro 와 묶어 전문·의료 고객용 Clorox Purell ProCare 를 공식 출범시켰다. 매출 기여는 숫자로 확인된다 — 분기 매출은 1년 전보다 33% 늘어 19.1억 달러였고 그중 약 15%p 가 인수 효과이며, 이 사업이 들어간 Health and Wellness 부문 매출은 62% 늘어 그중 약 39%p 가 인수 몫이었다. 회사는 인수 뒤 전사 매출의 절반이 넘는 부분이 건강·위생 제품군에서 나온다고 밝혔다. 이익 쪽은 아직 양방향이다. 같은 부문의 조정 영업이익은 69% 늘었지만, 전사 매출총이익률은 41.7% 에서 40.4% 로 130bp(1.3%p) 내려갔고 인수 자금 차입 때문에 이자비용이 2,900만 달러 늘었다. 전망은 회사 가이던스가 2027 회계연도 매출 13~14% 증가(그중 약 9.5%p 가 인수 효과), 유기 성장 3.5~4.5%, 조정 주당순이익 5.70~6.00달러다. 다만 회사 스스로 원가 환경이 더 어려워졌다며 조정 주당순이익이 범위 하단에 가까울 것이라고 고쳤고, 매출총이익률 전망도 약 41.5% 로 내렸다. 꺾일 수 있는 지점은 두 가지다 — 원자재·물류비 인플레이션이 원가 절감과 가격 인상을 계속 넘어서는 것, 그리고 회사가 위험 요인에 직접 적은 기업 간 거래 방식 적응 실패와 기존 소비재 유통과의 충돌이다. 신제품 묶음(Clorox PURE, Clorox Screen+ 살균 티슈 등)은 출시 단계로, 제품별 매출이 공시되지 않아 기여 크기를 가늠할 근거가 없다.",
+      "watch": [
+        "다음 분기(12월 결산) 유기 매출이 전년 재고 소진의 기저 효과가 사라진 뒤에도 플러스를 유지하는지",
+        "Health and Wellness 부문에서 인수 효과를 뺀 유기 성장률이 23% 에서 어느 수준으로 내려앉는지",
+        "매출총이익률 전망 약 41.5% 를 지키는지, 아니면 인플레이션 때문에 또 내리는지",
+        "조정 주당순이익이 가이던스 하단 5.70달러에 붙는지 — 회사가 이미 하단에 가깝다고 고쳤다"
+      ],
+      "sourceGap": "실적 발표 콜 원고(prepared remarks)와 국내 증권사 리포트를 받지 못해, Purell ProCare 사업 자체의 매출·마진 수준과 인수 시너지 금액은 확인하지 못했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-17",
+      "asOf": "2026-11-02",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-02)",
+          "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex991-pressreleasedatednov.htm",
+          "filingDate": "2026-11-02"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-02)",
+          "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000044/ex992-supplementalinformat.htm",
+          "filingDate": "2026-11-02"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000028/ex991-pressreleasedatedaug.htm",
+          "filingDate": "2026-08-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000028/ex992-supplementalinformat.htm",
+          "filingDate": "2026-08-03"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-02)",
+          "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000046/clx-20260930.htm",
+          "filingDate": "2026-11-02"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 33.3,
+            "netIncomeYoy": 112.5,
+            "netMargin": 8.9
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 0.1,
+            "netIncomeYoy": 0.5,
+            "netMargin": 11.2
+          },
+          {
+            "periodEnd": "2025-12-31",
+            "revenueYoy": -0.8,
+            "netIncomeYoy": -18.7,
+            "netMargin": 9.4
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": true,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 1905000000,
+          "netIncome": 170000000,
+          "yoy": {
+            "revenue": 33.3,
+            "profit": 93.5,
+            "netIncome": 112.5,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 1670000000,
+          "netIncome": 187000000,
+          "yoy": {
+            "revenue": 0.1,
+            "profit": 0.8,
+            "netIncome": 0.5,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 1673000000,
+          "netIncome": 157000000,
+          "yoy": {
+            "revenue": -0.8,
+            "profit": -9.3,
+            "netIncome": -18.7,
+            "priorEnd": "2024-12-31"
+          }
+        },
+        {
+          "periodEnd": "2025-09-30",
+          "revenue": 1429000000,
+          "netIncome": 80000000,
+          "yoy": {
+            "revenue": -18.9,
+            "profit": -39.5,
+            "netIncome": -19.2,
+            "priorEnd": "2024-09-30"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 13.66,
+        "saleNy": 2.23,
+        "epsCy": 3.58,
+        "epsNy": 7.69
+      }
+    },
+    "NXST": {
+      "drivers": [
+        {
+          "what": "TEGNA 인수 — 2026년 3월 19일 완료한 동종 지역방송 기업 인수로, 지금 매출·이익 증가의 대부분을 이 인수가 만든다",
+          "kind": "contract",
+          "stage": "이익 기여 중",
+          "since": "2026-03",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 2026년 3월 19일 TEGNA 합병을 끝냈고 자금은 주로 차입으로 댔다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "Completed the previously announced merger with TEGNA (the “Merger”) on March 19, 2026, primarily funded by debt issuance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "인수한 TEGNA는 2026년 2분기부터 별도 보고 부문이 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "TEGNA became a reportable segment in the second quarter of 2026 following Nexstar’s acquisition on March 19, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 매출은 21.3억 달러로 1년 전보다 78.0% 늘었고, 회사는 그중 7.65억 달러가 TEGNA 인수로 새로 더해진 매출이라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Net Revenue. Record quarterly net revenue of $2.13 billion, increased $935 million year-over-year, or 78.0%, primarily due to $765 million of incremental revenue from our acquisition of TEGNA and higher advertising and distribution revenue from our legacy business units.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "새로 더해진 매출은 유통(재전송) 쪽 3.52억 달러, 광고 쪽 4.05억 달러로 두 축에 모두 걸쳐 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Distribution Revenue . Third quarter distribution revenue of $1,091 million, increased $382 million, or 53.9%, versus the comparable prior year quarter, primarily reflecting $352 million of incremental revenue from the acquisition of TEGNA and higher revenue from our legacy business units due to increased rates, the impact of a one-time charge in the third quarter of 2025 which did not recur in the 2026 period, growth in vMVPD and other streaming subscribers, and the addition of CW affiliations on certain of our stations, partially offset by MVPD subscriber attrition and affiliation replacements on six stations previously affiliated with CBS. … Advertising Revenue . Third quarter advertising revenue of $1,023 million, increased $547 million, or 114.9%, from the comparable prior year quarter, primarily reflecting $405 million of incremental revenue from the acquisition of TEGNA and a $163 million increase in political advertising at our legacy business units, partially offset by lower non-political advertising due, in part, to crowd-out from political advertising.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 조정 EBITDA(일회성을 뺀 회사 기준 영업이익) 7.56억 달러 가운데 2.43억 달러가 TEGNA에서 새로 더해졌고, 조정 EBITDA 마진은 29.9%에서 35.4%로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Adjusted EBITDA. Third quarter Adjusted EBITDA of $756 million, increased $398 million, or 111.2%, compared to the prior year quarter reflecting $243 million of incremental Adjusted EBITDA from the acquisition of TEGNA and increased revenue at our legacy business units. Adjusted EBITDA margin was 35.4% compared to 29.9% in the comparable prior year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "3분기 순이익은 2.5억 달러로 284.6% 늘고 순이익률도 5.4%에서 11.7%로 올랐지만, 회사는 TEGNA 거래에 딸린 이자·세금·일회성 비용이 증가분을 일부 깎았다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Net Income . Third quarter net income of $250 million increased $185 million, or 284.6%, compared to the prior year quarter, primarily due to increased operating income from the acquisition of TEGNA and increased political advertising revenue generated at our legacy business units, partially offset by increased interest, income tax and one-time expenses, all in connection with the TEGNA transaction. Net income margin increased to 11.7% from 5.4% in the comparable prior year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "법원 가처분으로 TEGNA를 분리 운영해야 해서 인수로 기대한 비용 시너지를 아직 실행하지 못하고 있고, 본안 재판은 2027년 7월 6일로 잡혀 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "We are currently subject to a preliminary injunction that has impacted our ability to execute on synergies anticipated in connection with the acquisition of TEGNA. The trial on the merits of the plaintiffs’ claims is set for July 6, 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "인수 자금을 빌린 결과 총차입금이 114억 달러로 늘었고, 3분기 순이자비용은 1년 전보다 97.9% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "As of September 30, 2026, the consolidated debt of Nexstar and Mission Broadcasting, Inc., an independently owned variable interest entity, was $11.4 billion, including senior secured debt of $8.6 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "Interest expense, net increased $92 million, or 97.9%, primarily due to interest incurred on new borrowings and assumed debt in connection with the Merger and the refinancing of certain existing indebtedness, offset in part by a decrease in interest from debt that was repaid.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "2026년 중간선거 정치 광고 — 선거 해에만 들어오는 광고 수요가 기존 방송국 광고 매출을 끌어올리고 있다",
+          "kind": "industry",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2026년이 선거 해여서 3분기 정치 광고 매출이 3.17억 달러로 3분기 기준 사상 최대였다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Delivered Record Q3 Political Advertising Revenue of $317 Million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "기존 방송 사업부의 정치 광고가 1년 전보다 1.63억 달러 늘어 3분기 광고 매출 증가의 둘째 축이 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Advertising Revenue . Third quarter advertising revenue of $1,023 million, increased $547 million, or 114.9%, from the comparable prior year quarter, primarily reflecting $405 million of incremental revenue from the acquisition of TEGNA and a $163 million increase in political advertising at our legacy business units, partially offset by lower non-political advertising due, in part, to crowd-out from political advertising.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "9개월 누적 정치 광고 매출은 5.11억 달러로, 선거가 없던 전년 같은 기간 2,500만 달러에서 크게 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "In total, political advertising revenue was $511 million for the current year compared to $25 million in the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "회사는 3분기 순이익이 2.5억 달러로 284.6% 증가한 이유로 TEGNA 영업이익 증가와 함께 기존 사업부의 정치 광고 매출 증가를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Net Income . Third quarter net income of $250 million increased $185 million, or 284.6%, compared to the prior year quarter, primarily due to increased operating income from the acquisition of TEGNA and increased political advertising revenue generated at our legacy business units, partially offset by increased interest, income tax and one-time expenses, all in connection with the TEGNA transaction. Net income margin increased to 11.7% from 5.4% in the comparable prior year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2g1",
+              "statement": "회사는 10-Q 경영진 설명에서 2025년이 선거 해가 아니었던 만큼 2026년 정치 광고 매출이 2025년보다 늘 것으로 본다고 밝혔다(회사 전망, 연간).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "As 2025 was not an election year, we expect an increase in political advertising revenue, a component of our advertising revenue, to be reported in 2026 compared to 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "정치 광고에 광고 시간이 밀리고 광고 시장도 약해 비정치 광고 매출은 3분기에 1,800만 달러 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "Advertising revenue increased $547 million, primarily reflecting $405 million of incremental revenue from the acquisition of TEGNA and a $163 million increase in political advertising at our Broadcast business units, as 2026 is an election year, and a decrease in non-political revenue of $18 million due to political crowd-out and the ongoing market softness.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "회사 설명대로 정치 광고는 짝수 해에만 크게 들어오므로, 선거가 없는 2027년에는 이 매출이 그대로 빠진다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "In even-numbered years we generate substantial advertising revenue from the political advertising we sell to candidates, political action committees and political parties.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "The CW 재편과 네트워크 제휴 재계약 — CW 제휴국 확대, ESPN·Roku를 통한 스트리밍 유통, CBS·FOX·ABC 다년 재계약",
+          "kind": "service",
+          "stage": "매출 발생 중",
+          "since": "2026-04",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "넥스타와 TEGNA는 각각 66개, 8개 시장에서 CW 제휴를 연장하는 다년 계약을 2026년 8월에 마무리했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Nexstar and TEGNA each completed multi-year affiliation agreements extending CW affiliations in 66 and 8 markets, respectively. (August 2026)",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "The CW는 2026년 4월 ESPN 앱을 CW 스포츠 생중계의 독점 스트리밍 창구로 삼는 제휴를 맺었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-08-06)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526336678/nxst-ex99_1.htm",
+                  "date": "2026-08-06",
+                  "quote": "Extended access and reach of CW Sports programming to new audiences and advertisers by partnering with ESPN , the leading digital destination for sports, to make the ESPN App the exclusive streaming home for all CW Sports live events beginning in Summer 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "TEGNA를 뺀 기존 방송 사업부의 3분기 유통 매출은 2,900만 달러 늘었는데, 회사는 요율 인상과 인터넷TV·스트리밍 가입자 증가, 일부 방송국의 CW 제휴 추가를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "Distribution revenue increased $382 million, primarily reflecting $352 million of incremental revenue from the acquisition of TEGNA and a $29 million increase in revenue from our Broadcast business units due to increased rates, the impact of a one-time charge in the third quarter of 2025 which did not recur in the 2026 period, growth in vMVPD and other streaming subscribers, and the addition of CW affiliations on certain of our stations, offset in part by the impact of MVPD subscriber attrition and affiliation replacements on six stations previously affiliated with CBS.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "The CW의 방송권 상각비는 9개월 누적으로 1.94억 달러에서 1.83억 달러로 1,100만 달러 줄어 프로그램 비용 부담이 가벼워졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                  "date": "2026-11-05",
+                  "quote": "Amortization of broadcast rights increased $7 million, primarily due to a $20 million incremental amortization from the acquisition of TEGNA, offset in part by a lower amortization of broadcast rights at The CW of $11 million to $183 million in 2026 from $194 million in 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                  "publisher": "Nexstar Media Group (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                  "date": "2026-11-05",
+                  "quote": "Distribution Revenue . Third quarter distribution revenue of $1,091 million, increased $382 million, or 53.9%, versus the comparable prior year quarter, primarily reflecting $352 million of incremental revenue from the acquisition of TEGNA and higher revenue from our legacy business units due to increased rates, the impact of a one-time charge in the third quarter of 2025 which did not recur in the 2026 period, growth in vMVPD and other streaming subscribers, and the addition of CW affiliations on certain of our stations, partially offset by MVPD subscriber attrition and affiliation replacements on six stations previously affiliated with CBS.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "유통 매출은 유료방송 가입자 이탈과 CBS 제휴를 잃은 6개 방송국 때문에 증가분이 깎이고 있다.",
+              "stripped": true
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33을 보면 매출 증가율은 -13.3% → 13.1% → 62.2%로 석 달 단위로 계단을 올랐고, 그 가속은 회사가 매출 증가의 주된 이유로 적은 TEGNA 인수 매출과 선거 해 정치 광고에서 왔다. 반면 이익 증가율과 순이익률은 함께 오르지 않았다 — 2025년 4분기에 순이익률이 -14.9%로 적자였고, 2026년 2분기에는 회사가 TEGNA 거래 일회성 비용과 이자비용 증가 때문에 순이익률이 전년보다 낮아졌다고 밝혔다. 3분기에는 순이익률이 5.4%에서 11.7%로 올라 이익 쪽도 돌아섰지만, 이 회복이 분기 연속으로 이어졌는지는 아직 한 분기치 밖에 없다.",
+      "headline": "TEGNA 인수와 선거 정치광고가 사상 최대 분기 매출을 만들었고, 비용 시너지는 법원 가처분에 막혀 있다",
+      "nVerdict": "충족",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "The CW는 ESPN 앱을 스포츠 생중계 독점 스트리밍 창구로, Roku 채널을 예능 다음날 방영 창구로 삼는 유통 제휴를 새로 열었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 실적 보도자료 (2026-08-06)",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526336678/nxst-ex99_1.htm",
+                "date": "2026-08-06",
+                "quote": "Extended access and reach of CW entertainment programming to new audiences and advertisers by partnering with Roku , the #1 streaming platform in the US by hours streamed, to bring next-day streaming of CW entertainment programming and WWE NXT to The Roku Channel beginning in Fall 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1b",
+            "statement": "뉴스 채널 NewsNation의 3분기 종일 시청자는 1년 전보다 9% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                "date": "2026-11-05",
+                "quote": "NewsNation momentum continued, growing total day viewership 9% in the third quarter compared to the same quarter in 2025. (September 2026)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "인수를 거친 뒤 9월 말 기준 44개 주 132개 시장에서 265개 지상파 방송국을 소유·운영하거나 운영 서비스를 제공한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                "date": "2026-11-05",
+                "quote": "As of September 30, 2026, we owned, operated, programmed or provided sales and other services to 265 full power television stations, two AM radio stations and one FM radio station, including those television stations owned by VIEs, in 132 markets in 44 states and the District of Columbia.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "The CW는 3분기에 영어권 광고 기반 방송 네트워크 시청률 9위에 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                "date": "2026-11-05",
+                "quote": "– The CW ranked as the #9 rated English-language ad-supported network in Q3 2026. (September 2026)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "미국 지상파는 소수 네트워크가 지배하는 구조이고, 회사는 다섯 번째 주요 방송 네트워크인 The CW의 지분 82.0%를 갖고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                "date": "2026-11-05",
+                "quote": "As of September 30, 2026, we also own an 82.0% ownership interest in The CW, the fifth major broadcast network in the U.S.; NewsNation, a national cable news network; Premion, a connected TV and over-the-top advertising platform; four multicast networks, Antenna TV, REWIND TV, True Crime and Quest; multicast network services provided to third parties; Locked On Podcast Network (“Locked On”), a network of sports podcasts; BestReviews LLC (“BestReviews”), a leading consumer product recommendations company; and a 31.3% ownership stake in TV Food Network.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "방송국 보유 규모는 규제로 묶여 있는데, 연방통신위원회는 전국 소유 상한을 없애고 건별 심사로 바꾸는 안을 표결에 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 실적 보도자료 (2026-08-06)",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526336678/nxst-ex99_1.htm",
+                "date": "2026-08-06",
+                "quote": "• National Ownership Cap : The FCC is scheduled to vote today on a proposal to repeal the national ownership cap for television broadcast stations and replace it with case-by-case reviews.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "올해 CBS 36개 시장, FOX 41개 시장, ABC 13개 시장에서 다년 제휴 재계약을 끝내 유통 매출의 토대를 다시 깔았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 10-Q 경영진 설명",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+                "date": "2026-11-05",
+                "quote": "• Completed a multi-year agreement with CBS to extend affiliations in 36 Nexstar markets. • Completed a multi-year affiliation agreement with FOX to extend affiliations in 41 Nexstar markets. • Completed a multi-year agreement with ABC to extend affiliations in 13 TEGNA markets.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "댈러스와 피닉스 방송국에 저녁 황금시간대 지역 뉴스를 새로 편성해 광고를 팔 자체 제작 시간을 늘렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 실적 보도자료 (2026-08-06)",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526336678/nxst-ex99_1.htm",
+                "date": "2026-08-06",
+                "quote": "• Announced we will be launching new daily primetime local newscasts on stations in Dallas and Phoenix . (July 2026)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "인수로 기대한 비용 절감은 가처분 때문에 실행이 막혀, 회사는 차입 약정 비율 계산에서 그 효과를 아예 빼 놓았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                "date": "2026-11-05",
+                "quote": "Given the limited time between the resolution of the trial and the Outside Synergies Date, we have removed the projected anticipated synergies from the leverage calculation.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "올해 들어 오늘까지 13억 달러의 부채를 갚아 이자 부담을 줄이고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "넥스타 미디어 그룹 실적 보도자료 (2026-11-05)",
+                "publisher": "Nexstar Media Group (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+                "date": "2026-11-05",
+                "quote": "Repaid $1.3 Billion of Debt Year-to-Date through Today and Returned $58 Million to Shareholders in Dividends in Q3",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 분명하다. 2026년 3월 19일 끝낸 TEGNA 인수와, 선거 해에만 들어오는 정치 광고다. 3분기 매출은 21.3억 달러로 1년 전보다 78.0% 늘었는데, 회사는 그중 7.65억 달러가 TEGNA에서 새로 더해진 매출이라고 못 박았다. 정치 광고는 3분기에 3.17억 달러로 3분기 기준 사상 최대였고, 9개월 누적으로는 5.11억 달러로 선거가 없던 전년 같은 기간 2,500만 달러에서 크게 늘었다. 이익에도 이미 닿았다. 3분기 조정 EBITDA 7.56억 달러 중 2.43억 달러가 TEGNA 몫이고, 순이익은 2.5억 달러로 284.6% 늘어 순이익률이 5.4%에서 11.7%로 올랐다. 다만 회사는 같은 문장에서 TEGNA 거래에 딸린 이자·세금·일회성 비용이 증가분을 일부 깎았다고 적었고, 총차입금은 114억 달러, 3분기 순이자비용은 1년 전보다 97.9% 늘었다. 셋째 축인 The CW는 ESPN·Roku 스트리밍 유통과 66개 시장 CW 제휴 연장으로 모양을 바꾸는 중이며, 기존 방송 사업부 유통 매출 2,900만 달러 증가의 한 이유로 CW 제휴 추가가 꼽혔다. 회사가 내놓은 숫자 전망은 없고, 10-Q 경영진 설명에 2026년 정치 광고 매출이 2025년보다 늘 것이라는 회사 전망만 적혀 있다. 이 그림을 꺾을 수 있는 것은 셋이다 — 가처분으로 막힌 비용 시너지(본안 재판 2027년 7월 6일), 3분기에 1,800만 달러 줄어든 비정치 광고, 그리고 선거가 없는 2027년에 정치 광고가 그대로 빠지는 것.",
+      "sourceGap": "실적 발표 콜 원고 원문을 열지 못했고, 공시와 보도자료에는 분기·연간 가이던스 숫자가 없어 회사의 기대 성장률은 정치 광고 관련 서술뿐이다 — 국내 증권사 리포트도 없었다.",
+      "ticker": "NXST",
+      "watch": [
+        "2027년 1분기 실적에서 정치 광고가 빠진 자리를 TEGNA 매출과 유통 요율 인상이 메우는지 — 비정치 광고 매출이 감소에서 벗어나는지가 가늠자",
+        "9차 순회법원의 가처분 범위 축소 결정과 2027년 7월 6일 본안 재판 진행 — 비용 시너지를 실제로 실행할 수 있게 되는지",
+        "분기 순이자비용과 총차입금이 계속 줄어드는지, 조정 잉여현금흐름으로 상환 속도를 유지하는지",
+        "유통 매출에서 유료방송 가입자 이탈이 요율 인상·CW 제휴 추가 효과를 넘어서는지"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-17",
+      "asOf": "2026-11-05",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526448528/nxst-ex99_1.htm",
+          "filingDate": "2026-11-05"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526336678/nxst-ex99_1.htm",
+          "filingDate": "2026-08-06"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526449939/nxst-20260930.htm",
+          "filingDate": "2026-11-05"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 62.2,
+            "netIncomeYoy": 23.7,
+            "netMargin": 6
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 13.1,
+            "netIncomeYoy": 51.9,
+            "netMargin": 11.7
+          },
+          {
+            "periodEnd": "2025-12-31",
+            "revenueYoy": -13.3,
+            "netIncomeYoy": -194.6,
+            "netMargin": -14.9
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 1993000000,
+          "netIncome": 120000000,
+          "yoy": {
+            "revenue": 62.2,
+            "profit": 70,
+            "netIncome": 23.7,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 1396000000,
+          "netIncome": 164000000,
+          "yoy": {
+            "revenue": 13.1,
+            "profit": 20.5,
+            "netIncome": 51.9,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 1289000000,
+          "netIncome": -192000000,
+          "yoy": {
+            "revenue": -13.3,
+            "profit": -42,
+            "netIncome": -194.6,
+            "priorEnd": "2024-12-31"
+          }
+        },
+        {
+          "periodEnd": "2025-09-30",
+          "revenue": 1198000000,
+          "netIncome": 70000000,
+          "yoy": {
+            "revenue": -12.3,
+            "profit": -47.8,
+            "netIncome": -62.6,
+            "priorEnd": "2024-09-30"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 60.76,
+        "saleNy": -5.42,
+        "epsCy": 188.27,
+        "epsNy": -35.68
+      }
+    },
+    "DNTH": {
+      "ticker": "DNTH",
+      "headline": "승인 제품은 없고, 임상 3상 3개가 전부 — 새로운 것은 있지만 매출 기여는 아직 없다",
+      "nVerdict": "부분 충족",
+      "drivers": [
+        {
+          "what": "클라세프루바트(claseprubart, 개발명 DNTH103) — 보체 고전경로의 활성 C1s만 선택적으로 막는 피하주사 항체 신약 후보. 전신 중증근무력증(gMG)·만성 염증성 탈수초성 다발신경병(CIDP)·다초점 운동신경병(MMN) 3개 질환에서 동시에 임상 중",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-06",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "전신 중증근무력증을 대상으로 한 임상 3상 EMERGE가 6월에 시작됐고, 회사는 최종 결과를 2028년 하반기로 보고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "A Phase 3 registrational trial of claseprubart evaluating 300mg/2mL S.C. Q2W and 300mg/2mL S.C. Q4W in gMG patients was initiated in June, with top-line results expected in 2H’28.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "만성 염증성 탈수초성 다발신경병 임상 3상 CAPTIVATE의 중간 분석에서 반응률 75%가 나와, 회사가 잡아 둔 목표인 50% 이상을 넘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "75% response rate observed in Interim Responder Analysis from first 40 participants completing Part A of Phase 3 CAPTIVATE trial , exceeding the target response rate of 50% or greater based on precedent set with aC1s inhibition.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b3",
+              "statement": "다초점 운동신경병 임상 2상 MoMeNtum은 목표 환자 수를 넘겨 등록을 끝냈고, 회사는 결과 발표 시점을 12월로 잡고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "The MoMeNtum trial, a global, randomized, double-blind, placebo-controlled Phase 2 trial in patients with MMN, exceeded its original enrollment target of 36 patients. Top-line results with 46 patients are on track for December ’26.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "회사는 설립 이후 제품을 팔아 번 매출이 없고, 가까운 장래에도 제품 매출을 기대하지 않는다고 직접 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Since inception, we have not generated any revenue from product sales, and we do not expect to generate any revenue from the sales of products in the foreseeable future. We have recognized revenues attributable to upfront payments, milestone payments and cost reimbursements under our license agreements.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "3분기 매출로 잡힌 돈은 테나시아 라이선스 계약에서 받은 120만 달러뿐이고(1년 전 40만 달러), 늘어난 이유는 클라세프루바트 임상에 들어간 비용을 되돌려받은 금액이 커진 것이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Under the terms of the Tenacia Agreements, we recognized license revenue of $1.2 million and $0.4 million during the three months ended September 30, 2026 and 2025, respectively. The increase in total revenues was due to an increase in reimbursable costs associated with claseprubart’s ongoing clinical trials.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 연구개발비가 4,560만 달러로 1년 전 3,250만 달러보다 1,310만 달러 늘었고, 늘어난 임상 운영비는 gMG·CIDP·MMN 임상 때문이라고 회사가 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Research and development expenses were $45.6 million for the three months ended September 30, 2026, as compared to $32.5 million for the three months ended September 30, 2025, an increase of $13.1 million. … The increased costs of clinical operations activities were due to activities related to claseprubart’s ongoing clinical trials in gMG, CIDP and MMN.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "임상이 커지면서 3분기 순손실은 4,660만 달러로 1년 전 3,680만 달러보다 더 커졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Net Loss – Net loss for the quarter ended September 30, 2026 was $46.6 million or $0.81 per share (basic and diluted), compared to $36.8 million or $0.97 per share (basic and diluted) for the quarter ended September 30, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p3",
+              "statement": "9월 말 현금성 자산이 약 12억 달러여서 회사는 2030년까지 버틸 자금이 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Cash Position – Approximately $1.2 billion of cash, cash equivalents and investments as of September 30, 2026, is projected to provide runway into 2030.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사 스스로 중간 분석은 환자 수가 적어 남은 환자들의 결과를 미리 보여 주는 것이 아닐 수 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-08-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-ex99_1.htm",
+                  "date": "2026-08-04",
+                  "quote": "that the preliminary interim analysis based on a limited number of patients from the Part A open label portion of the claseprubart CAPTIVATE study in patients with CIDP may not be predictive of the results or success of the remaining patients treated in Part A or patients treated in Part B of the CAPTIVATE study",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "개발이 계획보다 오래 걸리거나 돈이 더 들 수 있고, 허가를 못 받거나 상업적으로 성공하지 못할 수 있다는 점을 회사가 위험으로 명시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "that the development of claseprubart, DNTH212, or DNTH312 may take longer and/or cost more than planned, that the Company or its partner may be unable to successfully complete the clinical development of the Company’s compounds, that the Company or its partner may be delayed in initiating, enrolling or completing its planned clinical trials, and that the Company's compounds may not receive regulatory approval or become commercially successful products.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "DNTH212 — 중국 리즈바이오랩스(Nanjing Leads Biolabs)에서 들여온 이중 표적 융합단백질 후보. 자가면역질환에서 두 경로(BDCA2와 BAFF/APRIL)를 동시에 막는 방식으로, 류마티스 영역의 두 번째 축",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2025-10",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2025년 10월 16일 리즈바이오랩스와 DNTH212 독점 라이선스 계약을 맺었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "On October 16, 2025, we entered into an exclusive license agreement with Nanjing Leads Biolabs Co., Ltd. (“Leads”) for DNTH212, a first-in-class and potentially best-in-disease bifunctional BDCA2 and BAFF/APRIL inhibitor.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "루푸스 환자 투약이 10월에 시작됐고, 그 결과는 2027년 하반기에 나올 예정이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Based upon data seen to date and as previously announced by Leads Biolabs, dosing of SLE patients in Part B of the Phase 1 SAD study was initiated in October, with preliminary Part B SLE data expected in 2H’27.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "3분기 외부 연구개발비 증가분 510만 달러 가운데 460만 달러가 DNTH212·DNTH312를 포함한 초기 연구 활동에서 나왔다 — 아직 비용만 들어가는 단계다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "The $5.1 million increase in external research and development costs was due to a $0.5 million increase in expenses related to our lead product candidate, claseprubart, and a $4.6 million increase in discovery activities including those related to DNTH212 and DNTH312.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "건강한 사람을 대상으로 한 첫 데이터조차 2027년 1분기에야 나오기 때문에 확인까지 시간이 많이 남아 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Part A is evaluating single ascending doses of DNTH212, with healthy volunteer preliminary data anticipated in the first quarter of 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "DNTH312 — 회사가 직접 만든 차세대 이중 융합단백질 후보. 클라세프루바트에 TACI를 붙여 활성 C1s와 BAFF/APRIL을 함께 막는 설계로, 2026년 8월 실적 발표 때 처음 공개됐다",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-08",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "최고경영자는 2026년 8월 실적 발표에서 자체 개발한 DNTH312를 처음 공개했다고 말했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-08-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-ex99_1.htm",
+                  "date": "2026-08-04",
+                  "quote": "We continue to strengthen our leadership position in autoimmune diseases with today’s announcement of the addition of our innovative, internally developed, first-in-class, next generation, highly potent and half-life extended bifunctional fusion protein, DNTH312.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "회사는 DNTH312를 2027년 말까지 임상 1상에 들어갈 수 있는 상태로 만들겠다고 했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "DNTH312 is on track to be Phase 1 ready by YE’27.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "아직 사람에게 투여한 적이 없는 연구 단계 물질이며 어느 나라에서도 치료제로 승인되지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                  "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "DNTH312 is an investigational agent that is not approved as a therapy in any indication in any jurisdiction worldwide.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33(최근 3분기 매출·이익 증가율과 순이익률이 함께 오르는지)은 충족되지 않는다 — 매출 증가율 방향만 개선이고 이익과 이익률은 더 나빠지는 쪽이다. 이유는 간단하다. 팔 제품이 없어 매출로 잡히는 돈은 라이선스 상대방에게서 되돌려받는 임상 비용 정산금뿐인데, 회사는 그 증가조차 \"클라세프루바트 임상에 들어간 정산 대상 비용이 늘어서\"라고 설명한다. 즉 지금의 숫자 변화는 신제품이 만든 이익 가속이 아니라 임상 3상 확대에 따른 비용 증가가 만든 것이고, 동력과 이익을 잇는 근거는 아직 없다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "만성 염증성 탈수초성 다발신경병 임상 3상 중간 분석에서 반응률 75%가 나와 회사 목표 50% 이상을 넘었고, 이것이 지금 가장 중요한 새로운 것이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                "date": "2026-11-04",
+                "quote": "75% response rate observed in Interim Responder Analysis from first 40 participants completing Part A of Phase 3 CAPTIVATE trial , exceeding the target response rate of 50% or greater based on precedent set with aC1s inhibition.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "최고경영자는 다초점 운동신경병에서 승인된 치료법이 면역글로불린 주사 하나뿐이고 경쟁이 제한적이라고 말했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "다이앤서스 테라퓨틱스 실적 보도자료 (2026-11-04)",
+                "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+                "date": "2026-11-04",
+                "quote": "MMN represents a significant market opportunity, characterized by high unmet needs and limited competition. IVIg is the only approved treatment for patients with MMN, and the lack of patient and physician satisfaction with IVIg presents a meaningful opportunity for claseprubart",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "중국 지역 권리를 넘긴 테나시아 계약으로 최대 1,500만 달러의 개발 단계 보상금과 순매출 로열티를 받기로 했고, 9월 말까지 누적 700만 달러가 달성됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "(iii) development milestones totaling up to $15.0 million; and (iv) royalties on net sales ranging from the mid-single digits to the low teen percentages. … As of September 30, 2026, $7.0 million of cumulative milestones were achieved under the Tenacia Agreements (as defined below) and added to the transaction price.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "자체 실험실과 생산시설을 두지 않고 임상과 생산을 외부 전문기관에 맡기는 구조다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "We utilize CROs for research and development activities and CDMOs for manufacturing activities and we do not have laboratory or manufacturing facilities. Therefore, we have no material facilities expenses attributed to research and development.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "중국 지역 개발비와 글로벌 임상 3상 비용의 일부는 라이선스 상대방 테나시아가 부담한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "다이앤서스 테라퓨틱스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "다이앤서스 테라퓨틱스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "Tenacia is also responsible for paying local development costs in Greater China and a portion of central development costs based on the number of patients enrolled from China in our global Phase 3 studies.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "다이앤서스는 아직 파는 약이 하나도 없는 임상 단계 회사다. 새로운 것은 분명히 있다 — 주력 후보 클라세프루바트가 전신 중증근무력증·만성 염증성 탈수초성 다발신경병·다초점 운동신경병 3개 질환에서 동시에 임상에 올라가 있고, 전신 중증근무력증 임상 3상 EMERGE는 6월에 시작됐다. 가장 눈에 띄는 자료는 만성 염증성 탈수초성 다발신경병 임상 3상 중간 분석의 반응률 75%로, 회사가 미리 잡아 둔 목표 50% 이상을 넘었다. 여기에 중국에서 들여온 DNTH212와 자체 개발한 DNTH312가 뒤를 받친다. 그러나 매출 쪽은 비어 있다 — 회사는 설립 이후 제품 판매 매출이 없다고 직접 적었고, 3분기에 매출로 잡힌 120만 달러는 라이선스 상대방에게서 임상 비용을 되돌려받은 정산금이다. 이익은 반대 방향이다. 임상이 커지면서 3분기 연구개발비가 4,560만 달러로 1년 전 3,250만 달러보다 늘고, 순손실은 4,660만 달러로 1년 전 3,680만 달러보다 커졌다. 버틸 돈은 있다 — 9월 말 현금성 자산 약 12억 달러로 2030년까지 운영할 수 있다고 회사는 밝혔다. 기대 성장률은 회사도 증권사 자료도 숫자로 제시한 것을 찾지 못해 비워 둔다. 꺾을 수 있는 것은 회사가 위험으로 적어 둔 그대로다 — 환자 수가 적은 중간 분석이 나머지 환자에서 재현되지 않을 수 있고, 개발이 늦어지거나 허가를 못 받을 수 있다. 결론적으로 새로운 것은 확인되지만 그것이 매출·이익을 끌고 있다는 근거는 아직 없는 단계다.",
+      "watch": [
+        "12월에 나올 다초점 운동신경병 임상 2상 MoMeNtum 결과 — 안전성과 면역글로불린 재투여 시점 지표가 좋게 나오면 2027년 임상 3상 계획이 그대로 간다",
+        "만성 염증성 탈수초성 다발신경병 임상 3상 Part A 최종 반응률이 중간 분석의 75%와 비슷한 수준으로 유지되는지",
+        "DNTH212의 건강인 첫 데이터(2027년 1분기)와 루푸스 환자 데이터 일정이 뒤로 밀리지 않는지",
+        "분기 연구개발비 증가 속도와 약 12억 달러 현금의 소진 속도 — 추가 자금 조달 필요성이 앞당겨지는지"
+      ],
+      "sourceGap": "국내 증권사 리포트와 실적 발표 콜 원고는 찾지 못해 회사 공시 원문만으로 판단했다 — 그래서 기대 성장률 칸이 비어 있다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-17",
+      "asOf": "2026-11-04",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000039/dnth-ex99_1.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-ex99_1.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000040/dnth-20260930.htm",
+          "filingDate": "2026-11-04"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2025-12-31",
+            "revenueYoy": -78.6,
+            "netIncomeYoy": -126.6,
+            "netMargin": -22687.3
+          },
+          {
+            "periodEnd": "2025-09-30",
+            "revenueYoy": -81.8,
+            "netIncomeYoy": -46,
+            "netMargin": -9284.1
+          },
+          {
+            "periodEnd": "2025-06-30",
+            "revenueYoy": -89.6,
+            "netIncomeYoy": -79.6,
+            "netMargin": -16388.1
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 284000,
+          "netIncome": -64432000,
+          "yoy": {
+            "revenue": -78.6,
+            "profit": -117.9,
+            "netIncome": -126.6,
+            "priorEnd": "2024-12-31"
+          }
+        },
+        {
+          "periodEnd": "2025-09-30",
+          "revenue": 396000,
+          "netIncome": -36765000,
+          "yoy": {
+            "revenue": -81.8,
+            "profit": -34.7,
+            "netIncome": -46,
+            "priorEnd": "2024-09-30"
+          }
+        },
+        {
+          "periodEnd": "2025-06-30",
+          "revenue": 193000,
+          "netIncome": -31629000,
+          "yoy": {
+            "revenue": -89.6,
+            "profit": -57.3,
+            "netIncome": -79.6,
+            "priorEnd": "2024-06-30"
+          }
+        },
+        {
+          "periodEnd": "2025-03-31",
+          "revenue": 1163000,
+          "netIncome": -29511000,
+          "yoy": {
+            "revenue": 33.1,
+            "profit": -85.9,
+            "netIncome": -114.7,
+            "priorEnd": "2024-03-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 22.8,
+        "saleNy": -19.37,
+        "epsCy": -14.27,
+        "epsNy": 20.81
+      }
+    },
+    "MCK": {
+      "ticker": "MCK",
+      "headline": "전문 의약품 유통과 종양 진료 네트워크가 매출·이익 가속을 끌고 있다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "종양·다전문과(Oncology & Multispecialty) 부문 — 전문 의약품(스페셜티) 유통과 지역 종양·안과 진료 네트워크 솔루션을 묶은 사업",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1-b1",
+              "statement": "매케손은 이 부문에 전문 의약품 유통, 세포·유전자 치료 서비스(InspiroGene), 미국 최대 규모급 지역 종양내과 네트워크(The U.S. Oncology Network)와 안과·망막 진료 회사 PRISM Vision을 묶어 두고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Oncology & Multispecialty segment includes provider solutions that encompass specialty drug distribution, group purchasing organizations, infusion services, direct to patient pharmacy capabilities, cell and gene therapy services with InspiroGene, technology solutions, practice consulting services, and vaccine distribution. In addition, the segment supports The U.S. Oncology Network, one of the largest networks of physician-led, integrated, community-based oncology practices dedicated to advancing high-quality, evidence-based cancer care in the U.S., and includes PRISM Vision Holdings, LLC (“PRISM Vision”), which drives patient outcomes in a retina and ophthalmology setting.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b2",
+              "statement": "2026년 11월 2일 PRISM Vision Group이 Spectrum Vision Partners를 더해 의사 150명 이상을 추가했고, 전체 의사 네트워크는 350명 이상이 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "On November 2, 2026, PRISM Vision Group expanded its network with the addition of Spectrum Vision Partners, adding more than 150 providers and bringing its total provider network to more than 350.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1-r1",
+              "statement": "2026년 9월 분기 이 부문 매출은 150억 달러로 1년 전보다 24% 늘었고, 회사는 진료 솔루션과 전문 의약품 유통의 성장을 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenues were $15.0 billion, an increase of 24%, driven by growth in provider solutions and specialty distribution.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r2",
+              "statement": "6개월 누적으로는 이 부문 매출이 65억 달러 늘어 29% 증가했고, 회사는 진료 솔루션의 전문 의약품 판매 증가가 주된 원인이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Oncology & Multispecialty revenues for the six months ended September 30, 2026 increased $6.5 billion or 29% compared to the same prior year period primarily driven by higher specialty pharmaceutical sales in provider solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1-p1",
+              "statement": "같은 분기 이 부문 조정 영업이익(일회성을 뺀 회사 기준)은 4.27억 달러로 8% 늘었고, 회사는 진료 솔루션과 전문 의약품 유통의 성장을 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Segment Operating Profit was $352 million. Adjusted Segment Operating Profit was $427 million, an increase of 8%, driven by growth in provider solutions and specialty distribution.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-p2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Oncology & Multispecialty | 2.35 | 2.76 | (41) | 2.32 | 2.40 | (8) |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenues were $15.0 billion, an increase of 24%, driven by growth in provider solutions and specialty distribution.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "다만 이 부문 영업이익률은 2.35%로 1년 전보다 41bp(0.41%p) 낮아졌다 — 매출은 24% 늘었지만 이익률은 뒤로 갔다.",
+              "stripped": true
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d1-c1",
+              "statement": "회사는 이 부문 영업이익 증가가 늘어난 물량을 뒷받침하기 위한 영업비용 증가에 일부 상쇄됐다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Operating profit for this segment increased for the three months ended September 30, 2026 compared to the same prior year period primarily due to growth in specialty pharmaceuticals partially offset by an increase in operating expenses to support higher volumes and a prior year net gain of $51 million related to the sale of an investment and market decisions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "병원·전략 거래처向 전문 의약품 유통 확대 — 여기에 GLP-1(비만·당뇨 치료제) 계열 사용 확대와 신규 출시 의약품이 붙은 북미 의약품 부문의 수요 변화",
+          "kind": "industry",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d2-b1",
+              "statement": "회사는 매출 증가의 주된 원인을 북미 의약품 부문의 시장 성장으로 적었고, 그 시장 성장에 GLP-1 계열 약품의 사용 확대와 신규 출시 의약품이 들어 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenues increased for the three and six months ended September 30, 2026 compared to the same prior year periods, primarily due to market growth in our North American Pharmaceutical segment, including higher volumes from institutional healthcare providers and retail national account customers. Market growth includes growing drug utilization, for example the GLP-1 class of medications, and newly launched products, partially offset by branded pharmaceutical price decreases and branded to generic drug conversion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-b2",
+              "statement": "북미 의약품 부문 매출은 914억 달러로 6% 늘었고, 회사는 병원 시스템과 전략 거래처向 전문 의약품 물량 증가를 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenues were $91.4 billion, an increase of 6%, driven by increased prescription transaction volumes, including higher volumes from specialty products to health systems and strategic accounts, partially offset by lower contributions from branded pharmaceuticals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2-r1",
+              "statement": "2026년 9월 분기 연결 매출은 1,110억 달러로 1년 전보다 8% 늘었고, 회사는 북미 의약품과 종양·다전문과 부문의 처방 물량·전문 의약품 유통 증가를 원인으로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Second quarter revenues were $111.0 billion, an increase of 8% from a year ago, driven by growth in the North American Pharmaceutical and Oncology & Multispecialty segments due to increased prescription volumes and distribution of specialty products, partially offset by lower contributions from branded pharmaceuticals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-r2",
+              "statement": "분기 중 북미 의약품 부문 매출은 49억 달러 늘었고 그중 미국 매출이 46억 달러 늘었는데, 기관 의료기관과 대형 소매 거래처의 물량 증가가 원인이고 브랜드 의약품 가격 인하와 제네릭 전환이 일부 상쇄했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "North American Pharmaceutical revenues for the three months ended September 30, 2026 increased $4.9 billion or 6% compared to the same prior year period. Within the segment, sales in the U.S. increased $4.6 billion primarily due to higher volumes from institutional healthcare providers and retail national account customers partially offset by branded pharmaceutical price decreases and branded to generic drug conversions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2-p1",
+              "statement": "이 부문 조정 영업이익은 10억 달러로 22% 늘었고, 회사는 병원 시스템·전략 거래처向 전문 의약품 유통 성장을 원인으로 들었다 — 매출 증가율 6%보다 훨씬 빠르다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Segment Operating Profit was $1.1 billion. Adjusted Segment Operating Profit was $1.0 billion, an increase of 22%, driven by growth in the distribution of specialty products to health systems and strategic accounts. … Revenues were $91.4 billion, an increase of 6%, driven by increased prescription transaction volumes, including higher volumes from specialty products to health systems and strategic accounts, partially offset by lower contributions from branded pharmaceuticals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-p2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "For the three months ended September 30, 2026 compared to the prior year, revenues increased by 8%, gross profit increased by 12%, total operating expenses increased by 10%, and other income, net increased by 2%. … Gross profit margin | 3.57 | % | 3.43 | % | 14 | bp | 3.53 | % | 3.39 | % | 14 | bp |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "분기 매출총이익은 12% 늘어 매출 증가율 8%를 앞섰고, 매출총이익률은 3.57%로 1년 전보다 14bp(0.14%p) 올랐다.",
+              "stripped": true
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2-e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2027 회계연도 조정 주당순이익을 45.60~46.40달러로 올렸고, 이는 전년 대비 17~19% 증가를 뜻한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Raised Adjusted Earnings per Diluted Share guidance range to $45.60 to $46.40, from the previous range of $44.20 to $45.00. … Fiscal 2027 Adjusted Earnings per Diluted Share guidance range indicates 17% to 19% growth compared to the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-e2",
+              "statement": "회사 가이던스는 8월에도 올랐는데 그때 제시한 증가율은 13~15%였다 — 석 달 만에 기대 성장률이 한 단계 높아졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-08-05)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000232/mck_exhibit991x6302026.htm",
+                  "date": "2026-08-05",
+                  "quote": "Fiscal 2027 Adjusted Earnings per Diluted Share guidance range indicates 13% to 15% growth compared to the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2-c1",
+              "statement": "회사는 규제·법 변화가 약가와 연방 340B 프로그램 등 의료 정책을 크게 바꿀 수 있고 그 범위·시점·효과를 예측하기 어렵다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Changes in regulatory posture and law may result in significant changes in healthcare policy, drug pricing including developments in the federal 340B program, government funding of healthcare costs, or other matters affecting our operations and participants throughout the pharmaceutical supply chain. The scope, timing and ultimate effects of these developments are difficult to predict.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-c2",
+              "statement": "회사는 매출이 제조사의 결정과 경쟁 요인에 따른 도매 취득원가 변동에도 영향을 받는다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenues are also impacted by changes in wholesale acquisition cost, including from inflation or deflation, which depend on manufacturer actions, competitive factors, and other developments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "임상연구·재택 주사 치료 영역으로 넓히는 인수와 CVS Health 유통 계약 연장 — Precision Medicine Group, Spectrum Vision, Option Care Health 지분 49%",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d3-b1",
+              "statement": "2026년 11월 2일 임상연구·바이오제약 상업화 서비스 회사 Precision Medicine Group 인수를 마쳤고, 회사는 이를 종양·다전문과·바이오제약 서비스 전략의 의미 있는 진전이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "On November 2, 2026, McKesson completed the acquisition of Precision Medicine Group, LLC, a global provider of clinical research and biopharma commercialization service. This acquisition represents a meaningful milestone in advancing its strategy in oncology, multispecialty, and biopharma services.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-b2",
+              "statement": "2026년 10월 5일 재택·대체 시설 주사 치료 회사 Option Care Health의 지분 약 49%를 약 14억 달러에 사기로 확정 계약했고, 거래는 주주 승인과 규제 승인 조건이 남아 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "On October 5, 2026, McKesson signed a definitive agreement to invest approximately $1.4 billion for a minority interest of approximately 49% in Option Care Health, Inc. This transaction aligns with McKesson’s strategy in supporting the delivery of complex specialty therapies and expanding patient access through community-based care. The transaction is subject to customary closing conditions, including approval by Option Care Health’s stockholders and the receipt of required regulatory approvals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-b3",
+              "statement": "CVS Health와의 의약품 유통 파트너십을 2032년 6월까지 연장하는 계약에 서명했다 — 최대 거래처 중 하나의 매출을 길게 묶은 것이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "McKesson signed an agreement to extend its pharmaceutical distribution partnership with CVS Health through June 2032.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3-r1",
+              "statement": "두 인수 회사의 실적은 2027 회계연도 3분기 인수일부터 종양·다전문과 부문에 반영된다 — 9월 분기 숫자에는 아직 들어 있지 않다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "The operating results of these businesses will be reported within the Oncology & Multispecialty segment beginning on the acquisition date in the third quarter of fiscal 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3-p1",
+              "statement": "인수 대금은 Precision Medicine Group 약 22.5억 달러, Spectrum Vision 약 5.25억 달러 현금이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "the acquisition of Precision Medicine Group, LLC (“Precision Medicine”), a global provider of clinical research and biopharma commercialization services, for cash of approximately $2.25 billion (subject to customary post-closing adjustments). … the acquisition of a controlling interest in Spectrum Vision Partners (“Spectrum Vision”), a provider of ophthalmology and retina management services, for approximately $525 million (subject to customary post- closing adjustments).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-p2",
+              "statement": "차입이 늘어 분기 이자비용은 1.05억 달러로 1년 전보다 42% 늘었다 — 확장의 대가가 이익에서 먼저 나간다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 10-Q 경영진 설명",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Interest expense | (105) | (74) | 42 | (182) | (123) | 48 | … Interest expense increased for the three and six months ended September 30, 2026 compared to the same prior year periods due to interest from increased average balances of the Company’s loan portfolio in fiscal 2027, primarily driven by the MMS Credit Agreement.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3-c1",
+              "statement": "회사는 Option Care Health 투자와 Medical-Surgical 부문 분사가 예정된 조건·일정대로 끝나지 않을 수 있고, 끝나도 의도한 재무·전략 효과를 내지 못할 수 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-11-04)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                  "date": "2026-11-04",
+                  "quote": "our planned separation of Medical-Surgical Solutions and the closing of our investment in Option Care Health, Inc., each of which is subject to conditions, may not be completed on the currently contemplated terms or timeline, or at all, and, if completed, may not achieve the intended financial and strategic benefits",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-c2",
+              "statement": "6월 분기 주당순이익이 1년 전보다 1.10달러 줄어든 주된 이유는 Medical-Surgical 부문 상환가능 소수주주 지분의 상환가치 조정 2.93억 달러였다고 회사가 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "매케손 실적 보도자료 (2026-08-05)",
+                  "publisher": "매케손 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000232/mck_exhibit991x6302026.htm",
+                  "date": "2026-08-05",
+                  "quote": "First quarter earnings per diluted share was $5.15 compared to $6.25 a year ago, a decrease of $1.10, primarily due to a redemption value adjustment of $293 million related to redeemable non-controlling interests for the Medical-Surgical Solutions segment, partially offset by organic growth across the enterprise and the prior year pre-tax increase to the provision for bad debts of $189 million within the North American Pharmaceutical segment related to the Rite Aid bankruptcy.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33을 보면 매출 증가율은 세 분기 내내 비슷한 수준을 지켰지만 순이익 증가율과 순이익률은 분기마다 널뛰었다. 매출 쪽 흐름의 원인은 회사가 직접 적어 두었다 — 분기 매출은 8% 늘고 매출총이익은 12% 늘었는데, 북미 의약품 부문의 시장 성장(GLP-1 사용 확대와 신규 출시 의약품)과 종양·다전문과 부문의 전문 의약품 판매 증가가 원인이다. 반대로 순이익의 들쭉날쭉함은 성장 동력이 아니라 Medical-Surgical 부문 분사 관련 회계 처리에서 왔다 — 6월 분기 주당순이익 감소의 주된 이유로 회사는 상환가능 소수주주 지분의 상환가치 조정 2.93억 달러를 들었다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1-1",
+            "statement": "전문 의약품 유통이 지금의 성장 엔진이다 — 종양·다전문과 부문 매출은 분기 150억 달러로 24% 늘었고, 회사는 진료 솔루션과 전문 의약품 유통의 성장을 원인으로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "매케손 실적 보도자료 (2026-11-04)",
+                "publisher": "매케손 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                "date": "2026-11-04",
+                "quote": "Revenues were $15.0 billion, an increase of 24%, driven by growth in provider solutions and specialty distribution.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2-1",
+            "statement": "회사는 자사가 지원하는 The U.S. Oncology Network를 미국에서 의사 주도 지역 종양내과 진료 네트워크 중 최대 규모급이라고 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "매케손 10-Q 경영진 설명",
+                "publisher": "매케손 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "In addition, the segment supports The U.S. Oncology Network, one of the largest networks of physician-led, integrated, community-based oncology practices dedicated to advancing high-quality, evidence-based cancer care in the U.S., and includes PRISM Vision Holdings, LLC (“PRISM Vision”), which drives patient outcomes in a retina and ophthalmology setting.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2-2",
+            "statement": "진료 네트워크는 숫자로도 늘고 있다 — PRISM Vision Group이 Spectrum Vision Partners를 더해 의사 150명 이상을 추가하고 전체를 350명 이상으로 키웠다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "매케손 실적 보도자료 (2026-11-04)",
+                "publisher": "매케손 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                "date": "2026-11-04",
+                "quote": "On November 2, 2026, PRISM Vision Group expanded its network with the addition of Spectrum Vision Partners, adding more than 150 providers and bringing its total provider network to more than 350.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [],
+        "salesMargin": [
+          {
+            "id": "q4-1",
+            "statement": "회사는 복잡한 전문 치료제 배송을 돕고 지역 기반 진료로 환자 접근을 넓히는 전략에 맞춰 Option Care Health 지분 약 49%를 약 14억 달러에 사기로 했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "매케손 실적 보도자료 (2026-11-04)",
+                "publisher": "매케손 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                "date": "2026-11-04",
+                "quote": "On October 5, 2026, McKesson signed a definitive agreement to invest approximately $1.4 billion for a minority interest of approximately 49% in Option Care Health, Inc. This transaction aligns with McKesson’s strategy in supporting the delivery of complex specialty therapies and expanding patient access through community-based care.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4-2",
+            "statement": "마진이 높은 기술·접근 솔루션도 밀고 있다 — 처방 기술 솔루션 부문 조정 영업이익은 3.07억 달러로 18% 늘었고 원인은 접근 솔루션 수요 증가다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "매케손 실적 보도자료 (2026-11-04)",
+                "publisher": "매케손 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+                "date": "2026-11-04",
+                "quote": "Segment Operating Profit was $275 million. Adjusted Segment Operating Profit was $307 million, an increase of 18%, driven by higher demand for access solutions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5-1",
+            "statement": "회사는 2027 회계연도 1분기에 전사 지원 기능을 재편하는 다년 과제를 승인했고, 자동화 도입으로 효율과 생산성을 높이겠다며 총 2.3억~3.1억 달러의 비용을 예상했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "매케손 10-Q 경영진 설명",
+                "publisher": "매케손 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "During the first quarter of fiscal 2027, we approved multi-year initiatives within Corporate to further optimize our operating model and align certain enterprise support functions with our long-term strategic priorities. These initiatives include organizational changes, process enhancements, and the implementation of automation solutions designed to improve efficiency and productivity. We anticipate total charges of approximately $230 million to $310 million, consisting primarily of severance and employee-related costs and exit-related costs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5-2",
+            "statement": "처방 기술 솔루션 부문에서도 인원 감축과 일부 시설 축소를 포함한 효율화 과제를 2026 회계연도 4분기에 승인했고, 총 2억~2.5억 달러의 비용을 예상한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "매케손 10-Q 경영진 설명",
+                "publisher": "매케손 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "During the fourth quarter of fiscal 2026, we approved an initiative within our Prescription Technology Solutions segment to increase operational efficiencies and cost optimization efforts, with the intent of aligning with our long-term strategy. This initiative includes headcount reductions, the exit or downsizing of certain facilities, and other costs. We anticipate total charges between $200 million and $250 million, consisting primarily of employee severance and other employee-related costs, and facility, exit and other-related costs, including long-lived asset impairments.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "매케손에서 새로운 것은 '약을 많이 옮기는 회사'에서 '전문 의약품과 전문 진료를 함께 파는 회사'로 무게가 옮겨간 점이다. 종양·다전문과 부문 매출은 2026년 9월 분기 150억 달러로 1년 전보다 24% 늘었고, 6개월 누적으로는 65억 달러 늘어 29% 증가했다. 회사는 그 원인을 진료 솔루션의 전문 의약품 판매 증가라고 못 박았다. 전체 매출의 대부분을 차지하는 북미 의약품 부문도 매출은 914억 달러로 6% 늘었지만 조정 영업이익은 22% 늘어, 병원 시스템·전략 거래처向 전문 의약품 유통이 이익을 더 빠르게 끌어올리고 있다. 여기에 업계 쪽 변화도 겹친다 — 회사는 매출 증가의 원인으로 GLP-1 계열 약품의 사용 확대와 신규 출시 의약품을 직접 적었다. 이익의 질로 보면 분기 매출총이익이 12% 늘어 매출 증가율 8%를 앞섰고 매출총이익률은 3.57%로 14bp 올랐다. 다만 종양·다전문과 부문 영업이익률은 2.35%로 41bp 낮아져, 매출이 빨리 늘어도 마진은 아직 따라오지 못한다. 기대 성장률은 회사 가이던스가 전부다 — 2027 회계연도 조정 주당순이익을 45.60~46.40달러로 올렸고 전년 대비 17~19% 증가를 뜻하는데, 8월에 제시한 13~15%보다 한 단계 높다. 다음 단계는 11월에 끝낸 Precision Medicine Group(약 22.5억 달러)과 Spectrum Vision(약 5.25억 달러)이고, 이들 실적은 3분기부터 들어오므로 9월 분기 숫자에는 없다. 꺾을 수 있는 것은 약가·340B 같은 규제 변화, 브랜드 의약품 가격 인하와 제네릭 전환, 42% 늘어난 이자비용, 그리고 조건이 남아 있는 Option Care Health 투자와 Medical-Surgical 분사다.",
+      "watch": [
+        "종양·다전문과 부문 매출 증가율이 24%대를 지키는지, 그리고 2.35%까지 내려온 이 부문 영업이익률이 반등하는지",
+        "3분기부터 반영되는 Precision Medicine Group과 Spectrum Vision이 부문 매출·이익에 얼마를 더하는지, 인수 관련 비용이 조정 이익에서 얼마나 빠지는지",
+        "북미 의약품 부문 조정 영업이익 증가율 22%가 반독점 소송 합의금 같은 일회성 없이도 유지되는지",
+        "2027 회계연도 조정 주당순이익 가이던스 45.60~46.40달러가 또 올라가는지, Medical-Surgical 분사 관련 비용과 이자비용이 더 커지는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고(로딩 실패)와 국내 증권사 리포트를 열지 못해 부문별 전망치는 회사 가이던스만 썼고, 업계 집중도(진입장벽)를 보여 줄 원문이 없어 해당 칸은 비워 두었다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": [
+          "All 29 claims verified against SEC filings and earnings releases. Numbers, dates, and facts match exactly."
+        ]
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-17",
+      "asOf": "2026-11-04",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck_exhibit991x9302026.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000232/mck_exhibit991x6302026.htm",
+          "filingDate": "2026-08-05"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000281/mck-20260930.htm",
+          "filingDate": "2026-11-04"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 7.6,
+            "netIncomeYoy": 9.7,
+            "netMargin": 1.1
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 7.7,
+            "netIncomeYoy": -21.7,
+            "netMargin": 0.6
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 6,
+            "netIncomeYoy": 33.5,
+            "netMargin": 1.7
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 110957000000,
+          "netIncome": 1218000000,
+          "yoy": {
+            "revenue": 7.6,
+            "profit": 14,
+            "netIncome": 9.7,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 105380000000,
+          "netIncome": 614000000,
+          "yoy": {
+            "revenue": 7.7,
+            "profit": 27.3,
+            "netIncome": -21.7,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 96295000000,
+          "netIncome": 1682000000,
+          "yoy": {
+            "revenue": 6,
+            "profit": 35.1,
+            "netIncome": 33.5,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 106158000000,
+          "netIncome": 1186000000,
+          "yoy": {
+            "revenue": 11.4,
+            "profit": 32.3,
+            "netIncome": 34.9,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 7.94,
+        "saleNy": 6.87,
+        "epsCy": 17.95,
+        "epsNy": 13.3
+      }
+    },
+    "DOCU": {
+      "ticker": "DOCU",
+      "headline": "AI 계약관리 플랫폼 IAM 이 ARR 비중 15%를 넘기며 매출 재가속을 끌고 있다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "IAM(Intelligent Agreement Management, 지능형 계약 관리) 플랫폼 — 전자서명 한 건을 받던 사업을 계약 작성·체결·보관·실행 전 과정을 다루는 AI 기반 플랫폼으로 넓힌 제품군",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2024-04",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "IAM 플랫폼이 전체 ARR(연간 반복 매출)에서 차지하는 비중은 1월 말 10.8%, 4월 말 12.6%, 7월 말 15.1%로 두 분기 연속 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "Intelligent Agreement Management (“IAM”) represented 15.1% of our total Annual Recurring Revenue (“ARR”) as of July 31, 2026, compared to 12.6% of our total ARR as of April 30, 2026 .",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "도큐사인 10-Q 경영진 설명",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                  "date": "2026-09-04",
+                  "quote": "IAM represented 15.1% of our total ARR as of July 31, 2026, and 10.8% of our total ARR as of January 31, 2026 .",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "회사는 IAM 을 계약을 실제로 실행하는 시스템으로 만들겠다고 했고, 이번 분기에 AI 에이전트가 계약 업무를 처음부터 끝까지 수행했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "“Docusign is raising its outlook as AI accelerates momentum across the business,” said Allan Thygesen, CEO of Docusign. \"We said IAM would be the agreement system of action, and this quarter we delivered. Our AI agents are now securely executing contract workflows end-to-end, and the IAM platform also ingested a record volume of agreements.”",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "2분기 매출은 8.757억 달러로 1년 전보다 9% 늘었고, 그 안에 환율 효과가 약 1.3%p 들어 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "▪ Revenue was $875.7 million, a 9% year-over-year increase including a benefit of approximately 1.3% from the impact of foreign exchange rates .",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "회사는 2분기 매출이 7,510만 달러(9%) 늘어난 이유를 상업·대기업 고객과 디지털 판매 경로의 매출 확대라고 설명한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 10-Q 경영진 설명",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                  "date": "2026-09-04",
+                  "quote": "Revenue increased by $75.1 million, or 9%, in the three months ended July 31, 2026 and by $141.7 million, or 9%, in the six months ended July 31, 2026. The increase was primarily due to the expansion of revenue from our commercial and enterprise accounts, as well as our digital channel.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "영업이익률은 회계 기준(GAAP)으로 1년 전 8.1%에서 13.4%로, 일회성을 뺀 회사 기준(비GAAP)으로는 29.8%에서 31.6%로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "GAAP operating margin | 13.4 | % | 8.1 | % | 13.4 | % | 8.0 | % | … Non-GAAP operating margin | 31.6 | % | 29.8 | % | 31.8 | % | 29.6 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "잉여현금흐름은 2.958억 달러로 매출의 34%였고, 1년 전 2.176억 달러·27%에서 올라왔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "▪ Free cash flow was $295.8 million, or a 34% margin, compared to $217.6 million, or a 27% margin, in the same period last year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2027 회계연도 매출 34.99억~35.07억 달러로 중간값 기준 9% 증가이며, 회사는 이 전망을 직전보다 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "Company Increases Fiscal Year 2027 Guidance for Revenue, ARR and IAM’s Percentage of Total ARR … | $3,499 | to | $3,507 | 9% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 2027 회계연도 마지막 분기를 지날 때 IAM 이 전체 ARR 의 약 18~19%를 차지하고 ARR 증가율은 8.50~9.00%가 될 것으로 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "[2] We expect that IAM will represent approximately 18% to 19% of total ARR exiting Q4 of Fiscal 2027. … Annual recurring revenue year-over-year growth rate [2] | 8.50% | to | 9.00% | 8.75% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "환율 효과를 빼면 회사 전망의 매출 증가율은 10월 말 끝나는 분기가 약 1.0%p, 2027 회계연도가 약 1.2%p 낮아진다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "[1] Excluding the impact of foreign currency exchange rates on year-over-year guided revenue growth, revenue guidance range would be approximately 1.0% points lower for the quarter ending October 31, 2026 and 1.2% points lower for the fiscal year ending January 31, 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "법인세 비용이 2분기에 3,380만 달러(250%) 늘어, 영업 단계에서 좋아진 이익이 순이익까지 그대로 내려오지 못했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 10-Q 경영진 설명",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                  "date": "2026-09-04",
+                  "quote": "Provision for income taxes increased by $33.8 million, or 250%, in the three months ended July 31, 2026 and $71.6 million, or 471%, in the six months ended July 31, 2026. The increase in the three months and six months ended July 31, 2026 is primarily attributable to higher profit before taxes and an increase in tax expense related to shortfalls from stock-based compensation in fiscal 2027 compared to windfalls in fiscal 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "회사는 경쟁이 심해지는 시장에서 효과적으로 싸우는 것, IAM 제품을 제대로 개발·출시·판매하는 것 자체를 위험 요인으로 적어 두었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "our ability to compete effectively in an evolving and competitive market … our ability to successfully develop, launch, and sell IAM solutions; our ability to expand use cases within existing customers and vertical solutions",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Iris(계약 전용 AI) 기반 에이전트 도구·Agent Studio·MCP 서버 — 계약서를 읽고 검토·수정하고 승인까지 자동으로 돌리는 AI 기능, 그리고 고객이 쓰는 외부 AI 도구에 계약 기능을 연결하는 통로",
+          "kind": "product",
+          "stage": "출시",
+          "since": "2026-05",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2분기에 계약 전용 AI Iris 를 쓰는 에이전트 도구를 출시해 계약 내용 파악·업무 자동화·실행을 맡겼고, 고객이 직접 에이전트를 만드는 Agent Studio 도 내놓았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "Launched new agentic tools, powered by Iris, Docusign’s contract-specific AI, to help organizations understand what’s inside agreements, automate work, and take action. … • An Agent Studio where customers can build, govern, and deploy custom agents for specialized use cases like executing business playbooks, auditing compliance, and evaluating vendor pricing.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "MCP 서버를 공개해 고객이 이미 쓰는 AI 도구 안에서 계약 정보와 실행을 다룰 수 있게 했고, Slack·Perplexity·Google Cloud 의 Gemini Enterprise 로 연결을 넓혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "Released the Docusign Model Context Protocol (MCP) server , enabling organizations to securely bring Docusign agreement intelligence and actions into the AI tools that they already use, while maintaining enterprise-grade security, permissions, and governance. … Expanded MCP server integrations with the Docusign app for the Slack Marketplace, which brings agentic contract workflows directly in Slack, as well as an integration with Perplexity to help teams automate contracting workflows and collaborate across their business partners. The Docusign connector for Gemini Enterprise is also now part of Google Cloud’s Gemini Enterprise for Legal solution.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "회사는 1분기에 AI 기반 IAM 플랫폼을 쓰는 고객이 4만 곳이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-06-04)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000072/q127ex-991er.htm",
+                  "date": "2026-06-04",
+                  "quote": "\"In Q1, we saw continued growing demand for Docusign’s AI-native IAM platform with 40,000 customers investing in our rapidly expanding roadmap,” said Allan Thygesen, CEO of Docusign.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "회사는 IAM 플랫폼이 사상 최대 분량의 계약을 받아들였다고만 밝혔고, 에이전트 기능에서 나온 매출을 따로 떼어 낸 숫자는 공시에 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "Our AI agents are now securely executing contract workflows end-to-end, and the IAM platform also ingested a record volume of agreements.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "매출총이익률은 회계 기준으로 79.3%에서 79.7%로 올랐지만 회사 기준으로는 82.0%에서 81.7%로 내려갔고, 회사는 IAM 확장과 고객 데이터의 클라우드 이전을 뒷받침하려 정보기술·호스팅 비용이 650만 달러 늘었다고 설명한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "▪ GAAP gross margin was 79.7% compared to 79.3% in the same period last year. Non-GAAP gross margin was 81.7% compared to 82.0% in the same period last year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "도큐사인 10-Q 경영진 설명",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                  "date": "2026-09-04",
+                  "quote": "• $6.5 million and $12.8 million increase in information technology costs, particularly hosting costs, increased to support the expansion of IAM and to continue our migration of customer data to cloud storage; and",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 AI 가 사업 전반의 성장 속도를 올리고 있어 전망을 상향한다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "“Docusign is raising its outlook as AI accelerates momentum across the business,” said Allan Thygesen, CEO of Docusign.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "외부 AI 인프라 비용과 호스팅 비용이 매출원가에 들어 있어, 에이전트 사용이 늘어날수록 원가도 같이 늘어난다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 10-Q 경영진 설명",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                  "date": "2026-09-04",
+                  "quote": "These expenses also consist of software and maintenance costs, third-party hosting fees, third-party AI infrastructure costs, outside services associated with the delivery of our subscription services, amortization expense associated with capitalized internal-use software and acquired intangible assets, credit card processing fees and allocated overhead costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "회사는 인공지능을 기존·신규 제품에 제대로 담아 실제로 쓰이게 만드는 일 자체를 위험 요인으로 적어 두었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "our ability to scale and update our platform to respond to customers’ needs and rapid technological change, including our ability to successfully incorporate artificial intelligence into our existing and future products and to successfully deploy them",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "신임 최고제품책임자 Graham Sheldon 선임 — AI 자동화 업체 UiPath 의 제품 총괄 출신",
+          "kind": "management",
+          "stage": "발표만",
+          "since": "2026-06",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 UiPath 의 최고제품책임자였고 그 전에 마이크로소프트에서 Teams 제품 총괄을 맡았던 Graham Sheldon 을 신임 최고제품책임자로 선임했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-06-04)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000072/q127ex-991er.htm",
+                  "date": "2026-06-04",
+                  "quote": "Executive Appointment: Docusign announced Graham Sheldon as its incoming Chief Product Officer. Most recently, Sheldon served as Chief Product Officer at UiPath Inc., a leading enterprise-grade agentic automation platform. Before that, Sheldon spent more than 20 years at Microsoft Corp., including as Corporate Vice President of Product for Microsoft Teams.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "회사는 경영진 교체를 무리 없이 소화하고 조직에 녹여 내는 일을 위험 요인으로 함께 적어 두었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                  "publisher": "도큐사인 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                  "date": "2026-09-03",
+                  "quote": "our ability to hire, retain and motivate qualified personnel, including executive level management; our ability to successfully manage and integrate executive management transitions",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 계산으로 최근 3분기 매출 증가율은 7.8% → 8.7% → 9.4%, 순이익 증가율은 8.2% → 8.5% → 23.4%로 가팔라졌지만 순이익률은 10.8% → 9.4% → 8.9%로 내려갔다. 매출 가속에 대해 회사가 직접 쓴 원인은 상업·대기업 고객과 디지털 판매 경로의 매출 확대이고, 같은 기간 IAM 의 ARR 비중이 10.8%에서 15.1%로 오른 것이 그 확대의 내용이다. 순이익률 하락은 영업 단계가 아니라 세금에서 왔다 — 영업이익률은 8.1%에서 13.4%로 올랐는데 법인세 비용이 250% 늘었다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "AI 기반 계약관리 플랫폼 IAM 의 ARR 비중이 4월 말 12.6%에서 7월 말 15.1%로 올라, 새 제품이 이미 매출에 잡히는 단계다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                "date": "2026-09-03",
+                "quote": "Intelligent Agreement Management (“IAM”) represented 15.1% of our total Annual Recurring Revenue (“ARR”) as of July 31, 2026, compared to 12.6% of our total ARR as of April 30, 2026 .",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "연간 계약금액 30만 달러를 넘는 고객이 1년 전 1,137곳에서 1,296곳으로 늘었다 — 점유율 자체를 보여 주는 수치는 공시에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 10-Q 경영진 설명",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                "date": "2026-09-04",
+                "quote": "The number of our customers with greater than $300,000 in annualized contract value was 1,296 customers as of July 31, 2026 compared to 1,137 customers as of July 31, 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "해외 매출은 상반기에 17% 늘어 전체 매출의 31%를 차지했다(1년 전 29%).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 10-Q 경영진 설명",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                "date": "2026-09-04",
+                "quote": "International revenue increased by 17% in the six months ended July 31, 2026, compared to the six months ended July 31, 2025. Additionally, our international revenue represented 31% of our total revenue in the three and six month periods ended July 31, 2026, compared to 29% of our total revenue in the three and six month periods ended July 31, 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 스스로를 전자서명과 계약 생애주기 관리 분야 1위라고 적고, 고객이 이미 쓰는 앱과의 제휴 연동을 1,100개 넘게 갖췄다고 밝힌다 — 경쟁사와 점유율을 비교한 자료는 공시에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                "date": "2026-09-03",
+                "quote": "Using Docusign’s AI-native IAM platform, companies can create, commit, and manage agreements with solutions created by the #1 company in e-signature and CLM.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "도큐사인 10-Q 경영진 설명",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                "date": "2026-09-04",
+                "quote": "We offer more than 1,100 active partner integrations with the applications that many of our customers already use so that they can create, commit and manage agreements directly within these applications.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "고객 한 곳이 전체 매출의 10%를 넘은 적이 없어 특정 고객에 매출이 쏠려 있지 않다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 10-Q 경영진 설명",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                "date": "2026-09-04",
+                "quote": "We have a diverse customer base spanning across virtually all industries and around the world with no significant customer concentration. No single customer accounted for more than 10% of total revenue in any of the periods presented.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 직접 영업에 기대던 판매 방식을 직접 영업·파트너 채널·고객이 직접 결제하는 디지털 경로 세 갈래로 넓히고, IAM 을 그 세 경로 모두에 올리겠다고 밝힌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 10-Q 경영진 설명",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                "date": "2026-09-04",
+                "quote": "One pillar of our long-term strategy is to evolve our go-to-market (“GTM”) channels from the historically direct sales-driven approach. We are currently investing in three routes to market, including direct sales, our partner channel, and digital self-service purchasing. We expect that Docusign’s IAM platform will increasingly be offered across all three channels.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "일회성을 뺀 판매·마케팅비는 매출의 31.2%에서 29.9%로 낮아져, 매출이 늘면서 영업비 비중은 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                "date": "2026-09-03",
+                "quote": "Non-GAAP sales and marketing as a percentage of revenue | 29.9 | % | 31.2 | % | 29.8 | % | 31.6 | % |",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "연구개발비는 2분기에 600만 달러(4%) 줄었고, 줄어든 대부분은 인건비와 주식보상이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 10-Q 경영진 설명",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+                "date": "2026-09-04",
+                "quote": "Research and development expenses decreased by $6.0 million, or 4%, in the three months ended July 31, 2026 and by $5.9 million, or 2%, in the six months ended July 31, 2026. The decrease in both the three months and six months ended July 31, 2026 primarily consisted of personnel costs, including stock-based compensation.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "일회성을 뺀 연구개발비 비중도 매출의 13.1%에서 12.1%로 내려갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "도큐사인 실적 보도자료 (2026-09-03)",
+                "publisher": "도큐사인 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+                "date": "2026-09-03",
+                "quote": "Non-GAAP research and development as a percentage of revenue | 12.1 | % | 13.1 | % | 12.2 | % | 13.1 | % |",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 전자서명 한 건을 받던 사업을 계약 작성부터 보관·실행까지 묶은 AI 플랫폼 IAM 이다. IAM 이 전체 ARR(연간 반복 매출)에서 차지하는 비중은 1월 말 10.8%, 4월 말 12.6%, 7월 말 15.1%로 두 분기 연속 올랐다. 그 위에 2분기에는 계약 전용 AI Iris 를 쓰는 에이전트 도구와 고객이 직접 에이전트를 만드는 Agent Studio, 외부 AI 도구와 연결하는 MCP 서버가 얹혔다. 전체 매출은 8.757억 달러로 1년 전보다 9% 늘었고, 회사가 공시에 쓴 증가 원인은 상업·대기업 고객과 디지털 판매 경로의 매출 확대다. 이익에서는 영업이익률이 8.1%에서 13.4%로, 일회성을 뺀 기준으로 29.8%에서 31.6%로 올랐고 잉여현금흐름은 매출의 34%였다. 다만 회사 기준 매출총이익률은 82.0%에서 81.7%로 내려갔는데, IAM 확장과 클라우드 이전을 뒷받침하는 정보기술·호스팅 비용이 650만 달러 늘어난 것이 한 몫이다. 기대치는 회사 가이던스 기준으로 2027 회계연도 매출 34.99억~35.07억 달러(중간값 9% 증가)이며, IAM 은 그해 마지막 분기를 지날 때 전체 ARR 의 약 18~19%가 될 것으로 본다. 꺾을 수 있는 것은 세 가지다 — 9% 성장에 섞인 환율 효과(전망에서 환율을 빼면 2027 회계연도가 약 1.2%p 낮다), 에이전트가 쓰일수록 함께 늘어나는 외부 AI 인프라·호스팅 원가, 그리고 회사가 직접 위험으로 적은 경쟁 심화와 IAM 판매 실행이다. 순이익률이 내려간 것은 영업 때문이 아니라 법인세 비용이 250% 늘어난 결과라는 점도 같이 봐야 한다.",
+      "watch": [
+        "IAM 의 ARR 비중이 15.1%에서 더 올라 회사가 말한 2027 회계연도 4분기 18~19% 경로에 올라서는지",
+        "매출 증가율이 환율 효과를 뺀 기준으로도 올라가는지 — 회사 전망은 환율을 빼면 2027 회계연도가 약 1.2%p 낮다",
+        "회사 기준 매출총이익률이 81.7%에서 더 내려가는지 — AI 인프라·호스팅 비용이 에이전트 확산의 대가로 마진에 나타나는 자리다",
+        "연간 계약금액 30만 달러를 넘는 고객(1,296곳)과 직접 영업 고객(약 28만 9,000곳)이 계속 늘어나는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고(prepared remarks)와 국내 증권사 리포트가 자료에 없어, IAM 과 에이전트 제품의 매출액·이익률을 따로 떼어 낸 수치는 확인하지 못했다 — 공시는 ARR 비중까지만 공개한다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": [
+          "All 25 claims verified against SEC filings. ARR percentages, revenue, margins, guidance, and FX adjustments all confirmed in quotes."
+        ]
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-17",
+      "asOf": "2026-09-04",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-09-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/q227ex-991er.htm",
+          "filingDate": "2026-09-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-06-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000072/q127ex-991er.htm",
+          "filingDate": "2026-06-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-09-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000099/docu-20260731.htm",
+          "filingDate": "2026-09-04"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-07-31",
+            "revenueYoy": 9.4,
+            "netIncomeYoy": 23.4,
+            "netMargin": 8.9
+          },
+          {
+            "periodEnd": "2026-04-30",
+            "revenueYoy": 8.7,
+            "netIncomeYoy": 8.5,
+            "netMargin": 9.4
+          },
+          {
+            "periodEnd": "2026-01-31",
+            "revenueYoy": 7.8,
+            "netIncomeYoy": 8.2,
+            "netMargin": 10.8
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": true,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-07-31",
+          "revenue": 875746000,
+          "netIncome": 77715000,
+          "yoy": {
+            "revenue": 9.4,
+            "profit": 80.3,
+            "netIncome": 23.4,
+            "priorEnd": "2025-07-31"
+          }
+        },
+        {
+          "periodEnd": "2026-04-30",
+          "revenue": 830235000,
+          "netIncome": 78197000,
+          "yoy": {
+            "revenue": 8.7,
+            "profit": 84.7,
+            "netIncome": 8.5,
+            "priorEnd": "2025-04-30"
+          }
+        },
+        {
+          "periodEnd": "2026-01-31",
+          "revenue": 836860000,
+          "netIncome": 90318000,
+          "yoy": {
+            "revenue": 7.8,
+            "profit": 45.1,
+            "netIncome": 8.2,
+            "priorEnd": "2025-01-31"
+          }
+        },
+        {
+          "periodEnd": "2025-10-31",
+          "revenue": 818350000,
+          "netIncome": 83725000,
+          "yoy": {
+            "revenue": 8.4,
+            "profit": 44.6,
+            "netIncome": 34.1,
+            "priorEnd": "2024-10-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 8.86,
+        "saleNy": 8,
+        "epsCy": 20.34,
+        "epsNy": 12.88
       }
     }
   }

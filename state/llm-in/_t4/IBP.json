@@ -32,6 +32,34 @@
    "publisher": "Zacks"
   },
   {
+   "title": "Installed Building Products to Acquire Take Pride Insulation",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/installed-building-products-acquire-pride-220401297.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Installed Building Products Announces the Acquisition of Take Pride Insulation, LLC",
+   "url": "https://finance.yahoo.com/real-estate/articles/installed-building-products-announces-acquisition-213000729.html",
+   "date": "2026-11-16",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "RBC Raises Price Target on Installed Building Products to $215 From $194, Keeps Sector Perform Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-installed-120025968.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Truist Securities Adjusts Price Target on Installed Building Products to $220 From $180, Keeps Hold Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-101221347.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
    "title": "Installed Building Products Shares Rise After Upgrade From Deutsche Bank",
    "url": "https://finance.yahoo.com/markets/stocks/articles/installed-building-products-shares-rise-195117620.html",
    "date": "2026-11-13",
@@ -72,23 +100,25 @@
    "date": "2026-11-13",
    "publisher": "Simply Wall St.",
    "via": "Yahoo"
-  },
-  {
-   "title": "Installed Building Products Acquires Old Dominion Group in $698 Million Deal",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/installed-building-products-acquires-old-143216721.html",
-   "date": "2026-11-12",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Installed Building Products Expands Commercial and Industrial Platform With Acquisition of Old Dominion Group",
-   "url": "https://finance.yahoo.com/real-estate/articles/installed-building-products-expands-commercial-123000800.html",
-   "date": "2026-11-12",
-   "publisher": "Business Wire",
-   "via": "Yahoo"
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-16",
+   "reportDate": "2026-11-16",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026074213/ibp-20261116.htm",
+   "description": "8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-11-12",
@@ -177,24 +207,6 @@
    ],
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026064105/ibp-20261001.htm",
-   "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-08-06",
-   "reportDate": "2026-08-06",
-   "items": [
-    "2.02",
-    "7.01",
-    "9.01"
-   ],
-   "itemsKo": [
-    "실적 발표",
-    "Reg FD 공시",
-    "재무제표·첨부"
-   ],
-   "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1580905/000162828026053848/ibp-20260806.htm",
    "description": "8-K"
   }
  ],

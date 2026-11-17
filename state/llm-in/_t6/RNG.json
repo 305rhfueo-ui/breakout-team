@@ -1,0 +1,737 @@
+{
+ "ticker": "RNG",
+ "date": "2026-11-17",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "RNG",
+  "name": "링센트럴",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 75.38999938964844,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 98.14,
+  "stop": 94.28,
+  "distToPivotPct": -24.3,
+  "distToPivotAdr": -4.68,
+  "riskPerSharePct": 3.93,
+  "adrPct": 5.19,
+  "extensionAdr": -0.17,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 16,
+   "baseWeeks": 3.2,
+   "depthPct": 28.1,
+   "priorMovePct": 86.5,
+   "higherLows": 0,
+   "contraction": 0.63,
+   "closeRange10Adr": 1.6,
+   "surf10": -0.17,
+   "surf20": -1.18,
+   "slope20": -0.91,
+   "baseLow": 70.61,
+   "lastSwingLow": 70.61
+  },
+  "reasons": [
+   "선행 상승 +87%",
+   "베이스 3.2주",
+   "✗ 깊이 28.1%",
+   "✗ 저점 상승 0회",
+   "진폭 0.63배 · 10일 종가폭 1.6 ADR",
+   "✗ 10일선 -0.2 ADR · 20일선 -1.2 ADR",
+   "✗ 20일선 기울기 -0.91%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.0431592142843515,
+    "pct": 40.71235347159603
+   },
+   "m3": {
+    "v": 0.1941892537283701,
+    "pct": 88.7736699729486
+   },
+   "m6": {
+    "v": 0.848125562045498,
+    "pct": 98.24165915238953
+   }
+  },
+  "ret1m": 0.1,
+  "ret3m": 15.15,
+  "ret6m": 78.11,
+  "marketCap": "6.30B",
+  "volx": 0.86,
+  "volSurgeWk": 1.22,
+  "high52": 76.95,
+  "newHigh52": false,
+  "adr": 5.31,
+  "div50": -1.95,
+  "div200": 46.18,
+  "targetStatus": false,
+  "saleCy": 5.53,
+  "saleNy": 4.82,
+  "epsCy": 17.04,
+  "epsNy": 8.44,
+  "cyTrend": 1.37,
+  "nyTrend": -0.81,
+  "est": {
+   "cyCur": 5.10286,
+   "cy30": 5.03385,
+   "nyCur": 5.53338,
+   "ny30": 5.57882
+  },
+  "fs": null,
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-11-13"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-15",
+  "nameKo": "링센트럴",
+  "nameEn": "RINGCENTRAL INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001384905&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 676043000,
+     "profit": 53886000,
+     "netIncome": 569700000,
+     "margin": 8,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 74.9,
+      "netIncome": 3144.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 657011000,
+     "profit": 50285000,
+     "netIncome": 39115000,
+     "margin": 7.7,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 36,
+      "netIncome": 196.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 644199000,
+     "profit": 50028000,
+     "netIncome": 30618000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": 5.3,
+      "profit": 383.8,
+      "netIncome": 396.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 644033000,
+     "profit": 42441000,
+     "netIncome": 22967000,
+     "margin": 6.6,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": 171.4,
+      "netIncome": 419.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why RingCentral (RNG) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-ringcentral-rng-strong-growth-stock-1",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RingCentral (RNG) is a Top-Ranked Value Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/ringcentral-rng-top-ranked-value-stock-should-you-buy",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why RingCentral (RNG) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-ringcentral-rng-strong-momentum-stock-1",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RingCentral Consensus Price Target Increased by 69.37% to $94.66",
+     "url": "https://www.nasdaq.com/articles/ringcentral-consensus-price-target-increased-6937-9466",
+     "date": "2026-11-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Why RingCentral (RNG) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-ringcentral-rng-top-growth-stock-long-term",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why RingCentral Stock Is Up Today",
+     "url": "https://www.nasdaq.com/articles/why-ringcentral-stock-today",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "RingCentral: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/ringcentral-3-key-takeaways-long-term-investors",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "RingCentral, Inc. Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/ringcentral-inc-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000058/rng-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "5.08",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000055/rng-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "5.08",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000050/rng-20260928.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000043/rng-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000033/rng-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-19",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000008/rng-20260219.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves after hours: Western Digital, Bloom Energy",
+   "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-in-after-hours-wdc-be-deck.html",
+   "date": "2026-10-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "These stocks reporting next week have a history of earnings beats",
+   "url": "https://www.cnbc.com/2026/10/15/stocks-reporting-next-week-with-history-of-earnings-beats.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "RNG",
+  "fetchedAt": "2026-11-17",
+  "source": "한국투자증권 Open API",
+  "per": 9.82,
+  "pbr": 0,
+  "eps": 7.56,
+  "bps": 0,
+  "shares": 74700800,
+  "marketCapM": 5550,
+  "high52": 97.9749,
+  "high52Date": "2026-10-23",
+  "low52": 23.9708,
+  "low52Date": "2026-02-03",
+  "last": 74.29,
+  "prevClose": 75.39,
+  "nameKo": "링센트럴",
+  "nameEn": "RINGCENTRAL INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 74700800
+ },
+ "estimates": {
+  "ticker": "RNG",
+  "url": "https://finance.yahoo.com/quote/RNG/analysis/",
+  "fetchedAt": "2026-11-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.35,
+    "epsLow": 1.34,
+    "epsHigh": 1.38,
+    "epsYearAgo": 1.18,
+    "epsAnalysts": 15,
+    "epsGrowth": 14.7,
+    "epsCur": "USD",
+    "rev": 676991990,
+    "revAnalysts": 14,
+    "revYearAgo": 644033000,
+    "revGrowth": 5.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.3,
+    "epsLow": 1.24,
+    "epsHigh": 1.37,
+    "epsYearAgo": 1.2,
+    "epsAnalysts": 12,
+    "epsGrowth": 8.7,
+    "epsCur": "USD",
+    "rev": 676461910,
+    "revAnalysts": 11,
+    "revYearAgo": 644199000,
+    "revGrowth": 5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.1,
+    "epsLow": 5.09,
+    "epsHigh": 5.12,
+    "epsYearAgo": 4.36,
+    "epsAnalysts": 14,
+    "epsGrowth": 17,
+    "epsCur": "USD",
+    "rev": 2654215530,
+    "revAnalysts": 15,
+    "revYearAgo": 2515142000,
+    "revGrowth": 5.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 5.53,
+    "epsLow": 5.27,
+    "epsHigh": 6.03,
+    "epsYearAgo": 5.1,
+    "epsAnalysts": 15,
+    "epsGrowth": 8.4,
+    "epsCur": "USD",
+    "rev": 2782080030,
+    "revAnalysts": 15,
+    "revYearAgo": 2654215530,
+    "revGrowth": 4.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.35,
+    "d7": 0,
+    "d30": 0.7,
+    "d90": 0.5,
+    "ago90": 1.35,
+    "up7": 8,
+    "up30": 8,
+    "down7": 5,
+    "down30": 5
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.3,
+    "d7": -0.8,
+    "d30": -0.8,
+    "d90": 1.2,
+    "ago90": 1.29,
+    "up7": 2,
+    "up30": 2,
+    "down7": 6,
+    "down30": 6
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.1,
+    "d7": 0,
+    "d30": 1.4,
+    "d90": 1.3,
+    "ago90": 5.04,
+    "up7": 13,
+    "up30": 13,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 5.53,
+    "d7": 0,
+    "d30": -0.8,
+    "d90": 0.6,
+    "ago90": 5.5,
+    "up7": 3,
+    "up30": 3,
+    "down7": 7,
+    "down30": 7
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.33,
+    "estimate": 1.27,
+    "surprisePct": 4.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.22,
+    "estimate": 1.17,
+    "surprisePct": 4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.2,
+    "estimate": 1.17,
+    "surprisePct": 2.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.18,
+    "estimate": 1.13,
+    "surprisePct": 4.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 12,
+   "ptLowered": 0,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-10-26",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 105,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 75,
+     "ptPrior": 40
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 105,
+     "ptPrior": 45
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 94,
+     "ptPrior": 43
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "In-Line",
+     "to": "In-Line",
+     "ptAction": "Raises",
+     "pt": 90,
+     "ptPrior": 38
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 65
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 91,
+     "ptPrior": 41
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "RBC Capital",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 85,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-16",
+  "numbers": {
+   "price": 74.29,
+   "ma20": 78.85,
+   "ma50": 77.02,
+   "ma150": 57.65,
+   "distMA50": -3.54,
+   "periodHigh": 98.14,
+   "pullbackFromHigh": -24.3,
+   "volRatio20": 0.46,
+   "dryUpRatio": 0.73
+  },
+  "last10": [
+   {
+    "d": "2026-11-03",
+    "o": 76.19,
+    "h": 79.67,
+    "l": 75.23,
+    "c": 78.14,
+    "v": 1523600,
+    "clsPos": 66,
+    "gapPct": -1.99
+   },
+   {
+    "d": "2026-11-04",
+    "o": 77.59,
+    "h": 80.33,
+    "l": 76.38,
+    "c": 77.96,
+    "v": 1541000,
+    "clsPos": 40,
+    "gapPct": -0.7
+   },
+   {
+    "d": "2026-11-05",
+    "o": 76.84,
+    "h": 76.95,
+    "l": 73.5,
+    "c": 74.33,
+    "v": 1642000,
+    "clsPos": 24,
+    "gapPct": -1.44
+   },
+   {
+    "d": "2026-11-06",
+    "o": 73.89,
+    "h": 74.33,
+    "l": 70.61,
+    "c": 72.07,
+    "v": 1698700,
+    "clsPos": 39,
+    "gapPct": -0.59
+   },
+   {
+    "d": "2026-11-09",
+    "o": 72.14,
+    "h": 74.84,
+    "l": 71.78,
+    "c": 72.78,
+    "v": 971100,
+    "clsPos": 33,
+    "gapPct": 0.1
+   },
+   {
+    "d": "2026-11-10",
+    "o": 72.54,
+    "h": 73.41,
+    "l": 71.25,
+    "c": 73.32,
+    "v": 1125800,
+    "clsPos": 96,
+    "gapPct": -0.33
+   },
+   {
+    "d": "2026-11-11",
+    "o": 74.3,
+    "h": 75.14,
+    "l": 73.44,
+    "c": 75.1,
+    "v": 1662000,
+    "clsPos": 98,
+    "gapPct": 1.34
+   },
+   {
+    "d": "2026-11-12",
+    "o": 74.3,
+    "h": 77.36,
+    "l": 73.32,
+    "c": 75.89,
+    "v": 1035900,
+    "clsPos": 64,
+    "gapPct": -1.07
+   },
+   {
+    "d": "2026-11-13",
+    "o": 76.38,
+    "h": 76.38,
+    "l": 73.83,
+    "c": 75.39,
+    "v": 1580500,
+    "clsPos": 61,
+    "gapPct": 0.65
+   },
+   {
+    "d": "2026-11-16",
+    "o": 74.68,
+    "h": 75.02,
+    "l": 72.74,
+    "c": 74.29,
+    "v": 792400,
+    "clsPos": 68,
+    "gapPct": -0.94
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RNG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RNG-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 20일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "유료 AI 제품 고객의 ARR 비중 15% 접근 — 1년 만에 두 배, 매출·마진 동시 개선",
+  "researchedOn": "2026-11-07"
+ }
+}

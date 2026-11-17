@@ -312,20 +312,20 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-11",
-        "carried": true,
-        "headline": "제약·바이오 연구 투자가 늘 것이라는 기대에 연구 장비·위탁 연구 기업과 액체생검 진단 기업의 실적이 함께 좋아지며 업종 순위 1위에 올랐다.",
-        "summary": "진단·연구 업종은 전체 업종 중 1위이며 25거래일 전보다 4계단 올랐다. 증권사들은 AI 확산이 바이오 연구 수요를 키워 비임상 위탁 연구(CRO)와 생명과학 장비 기업에 수혜가 간다고 본다. 찰스 리버는 안전성 평가 수주가 회복됐고, 써모 피셔는 유기 성장률이 두 분기 연속 빨라졌다. 가던트 헬스는 3분기 매출이 36.1% 늘며 액체생검 시장의 주도주로 꼽혔다. 다만 써모 피셔는 가이던스 상향폭이 제한적이라는 평가도 있어, 실적 가속이 이어지는지가 관건이다.",
+        "researchedOn": "2026-11-17",
+        "carried": false,
+        "headline": "진단·연구 업종은 신약 연구 의뢰 회복과 AI 실험 확대 기대가 겹쳐 업종 순위 1위에 올랐다.",
+        "summary": "진단·연구 업종은 전체 업종 중 1위이고 한 달 새 1계단 올랐다. 증권사들은 AI로 신약·바이오 실험량이 늘면 실험 장비와 비임상(사람 투여 전 동물 등 시험) 위탁 기업이 수혜를 본다고 본다. 찰스 리버는 신약 안전성 평가 수주가 회복됐고, 써모 피셔는 연구 부문 비중이 커 수혜가 크다는 평가를 받았다. 가던트 헬스는 혈액 기반 암 진단 매출이 늘며 진단 쪽 주도주로 꼽혔다. 다만 써모 피셔는 목표가에 근접했다는 지적이 있어, 실적이 기대를 계속 넘는지가 관건이다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "SK증권은 AI 확산의 다음 단계가 바이오이며, R&D 붐이 비임상 시험용 동물 공급 부족을 부를 것으로 보고 세계 최대 비임상 CRO인 찰스 리버의 수혜를 전망했다.",
+            "statement": "SK증권은 AI 확산이 바이오 연구개발 붐으로 이어져 세계 최대 비임상 위탁연구(CRO) 기업 찰스 리버가 수혜를 본다고 전망했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 반도체보다 원숭이",
                 "publisher": "SK증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeeeq.pdf",
                 "date": "2026-11-09",
                 "quote": "- Signal: 급증하는 토큰 공급, AI Next Step 은 바이오- Key: 세계 최대 비임상 CRO 기업의 수혜 전망- Step: 반도체 보다 원숭이, R&D 붐이 불러올 쇼티지",
                 "verified": "ok",
@@ -335,15 +335,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w2",
-            "statement": "유안타증권은 AI 자율 실험실이 늘면 실험량이 빠르게 증가해 생명과학 솔루션 기업 전반의 수요가 커지고, 연구 비중이 큰 써모 피셔의 수혜가 크다고 전망했다.",
+            "statement": "유안타증권은 AI 자율 실험실이 늘면 실험량이 빠르게 증가해 생명과학 솔루션 기업 전반의 수요가 커질 것으로 전망했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[써모 피셔 사이언티픽 (NYS:TMO)] 생명과학 AI 확대의 최대 수혜주",
                 "publisher": "유안타증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmixxgkqkleexzgcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmixxgkqkleexzgcgxeeeq.pdf",
                 "date": "2026-11-03",
-                "quote": "- 생성형 AI 모델과 자동화 실험실을 통한 closed-loop 구조의 자율 실험실 구축이 본격화되 면서 가설 검증을 위한 wet lab에서의 실험량도 빠르게 증가할 것으로 전망. AI 실험실은 생 명 과학 솔루션 기업 전반에 걸쳐 수요 증가가 예상되나 연구 부문 비중이 큰 thermo fisher의 수혜 강도 높을 것으로 기대.",
+                "quote": "AI 실험실은 생 명 과학 솔루션 기업 전반에 걸쳐 수요 증가가 예상되나 연구 부문 비중이 큰 thermo fisher의 수혜 강도 높을 것으로 기대.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -351,15 +351,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w3",
-            "statement": "찰스 리버는 신약 안전성 평가 수주가 회복돼 순수주 대비 매출 비율이 4년 내 최고였고, 연간 조정 EPS 전망도 올렸다. 키움증권 분석이다.",
+            "statement": "키움증권에 따르면 찰스 리버는 신약 안전성 평가 수주가 회복되며 실적이 컨센서스를 웃돌고 연간 전망을 올렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
                 "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeeeq.pdf",
                 "date": "2026-09-17",
-                "quote": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+                "quote": "- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -367,31 +367,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w4",
-            "statement": "써모 피셔의 3분기 유기 성장률이 6%로 두 분기 연속 빨라졌다고 대신증권이 전했다.",
+            "statement": "신한투자증권은 가던트 헬스의 혈액 기반 대장암 진단 판매가 빠르게 늘고 보험 적용도 확대되고 있다고 전했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[써모 피셔 사이언티픽 (NYS:TMO)] [26Q3 Review] 유기 성장률 6%로 가속, 가이던스 상향폭은 제한적, 투자의견 매수 하향",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmgxgielxgmxklgcgxeeee.pdf",
-                "date": "2026-10-21",
-                "quote": "- 조정 EPS 6.68달러·유기 6%로 두 분기 연속 가속- 가이던스 상향폭은 Q3 서프라이즈의 절반 수준- NTM PE 25.4배·목표가 근접, 프리마켓 -3.6%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w5",
-            "statement": "신한투자증권은 가던트 헬스가 혈액 기반 암 진단 시장에서 주도적 입지를 확보했고 3분기 매출이 전년 대비 36.1% 늘었다고 평가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[가단트 헬스 (NAS:GH)] 액체생검 진단기기 주도주",
+                "title": "[가단트 헬스 (NAS:GH)] 혈액 기반 암 진단의 주도주",
                 "publisher": "신한투자증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmkegzzelkixqmgcgxeeee.pdf",
-                "date": "2026-11-06",
-                "quote": "- 혈액 기반 암 진단, 솔루션 시장에서 주도적 입지 확보. 핵심 제품(쉴드, CDx)의 견조한 매출 성장과 적응증 확대, ASP 상승 등 추가 모멘텀 존재- 3Q26 매출, Non-GAAP EPS는 각 3.6억달러(+36.1% YoY, +7.8% QoQ), -0.29달러로 컨센서스 상회 및 가이던스 상향 조정. 매출 65% 내외를 차 지하는 종양(미세잔존암, 항암제 선별) 사업부가 YoY +25.4% 성장세 기 록했으며 스크리닝(대장암 조기진단) 부문 매출 전년 대비 180.4% 증가- 최근 한 달간 급등락했으나 당기 실적으로 견조한 펀더멘탈, 성장 스토리 확인. 전체 주식시장 우려보다 동사의 중장기 성장 여력에 집중할 시점",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkkxikgzklkqmgcgxeeeq.pdf",
+                "date": "2026-11-12",
+                "quote": "대장암 액체생검 진단기기(쉴드), 견조한 판매량 증가 및 매출 성장세. 시판 2년만에 판매량 13배 증가. 24년 메디케어 적용됐고, 26년부터 민간보험사들도 보장 시작.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -401,7 +385,7 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "CRL",
-            "role": "세계 최대 비임상 CRO로 바이오 R&D 확대의 직접 수혜",
+            "role": "세계 최대 비임상 CRO로 신약 연구 수요 회복의 직접 수혜",
             "why": [
               {
                 "id": "l1a",
@@ -411,9 +395,9 @@ window.TEAM5_DATA = {
                   {
                     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 반도체보다 원숭이",
                     "publisher": "SK증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeeeq.pdf",
                     "date": "2026-11-09",
-                    "quote": "- Signal: 급증하는 토큰 공급, AI Next Step 은 바이오- Key: 세계 최대 비임상 CRO 기업의 수혜 전망- Step: 반도체 보다 원숭이, R&D 붐이 불러올 쇼티지",
+                    "quote": "- Key: 세계 최대 비임상 CRO 기업의 수혜 전망",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -421,40 +405,40 @@ window.TEAM5_DATA = {
               },
               {
                 "id": "l1b",
-                "statement": "키움증권은 안전성 평가 수주 회복과 연간 조정 EPS 전망 상향을 짚었다.",
+                "statement": "신약 안전성 평가 수주가 회복돼 조정 EPS가 컨센서스를 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
                     "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeeeq.pdf",
                     "date": "2026-09-17",
-                    "quote": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+                    "quote": "- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 0.68,
-            "rnk1": 13.84,
+            "rnk6": 0.5,
+            "rnk1": 14.83,
             "name": "찰스 리버 래브러토리스 인터내셔널"
           },
           {
             "ticker": "TMO",
-            "role": "생명과학 장비·시약 최대 기업으로 AI 실험실 확대의 최대 수혜 후보",
+            "role": "연구 부문 비중이 커 AI 실험실 확대의 최대 수혜로 꼽힌 장비·시약 대형사",
             "why": [
               {
                 "id": "l2a",
-                "statement": "유안타증권은 연구 부문 비중이 큰 써모 피셔의 AI 실험실 수혜 강도가 높다고 봤다.",
+                "statement": "유안타증권은 연구 부문 비중이 큰 써모 피셔의 수혜 강도가 높을 것으로 봤다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[써모 피셔 사이언티픽 (NYS:TMO)] 생명과학 AI 확대의 최대 수혜주",
                     "publisher": "유안타증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmixxgkqkleexzgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmixxgkqkleexzgcgxeeeq.pdf",
                     "date": "2026-11-03",
-                    "quote": "- 생성형 AI 모델과 자동화 실험실을 통한 closed-loop 구조의 자율 실험실 구축이 본격화되 면서 가설 검증을 위한 wet lab에서의 실험량도 빠르게 증가할 것으로 전망. AI 실험실은 생 명 과학 솔루션 기업 전반에 걸쳐 수요 증가가 예상되나 연구 부문 비중이 큰 thermo fisher의 수혜 강도 높을 것으로 기대.",
+                    "quote": "연구 부문 비중이 큰 thermo fisher의 수혜 강도 높을 것으로 기대.",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -462,63 +446,79 @@ window.TEAM5_DATA = {
               },
               {
                 "id": "l2b",
-                "statement": "대신증권은 3분기 유기 성장률이 6%로 두 분기 연속 빨라졌다고 전했다.",
+                "statement": "대신증권에 따르면 3분기 유기 성장률이 6%로 두 분기 연속 가속했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[써모 피셔 사이언티픽 (NYS:TMO)] [26Q3 Review] 유기 성장률 6%로 가속, 가이던스 상향폭은 제한적, 투자의견 매수 하향",
                     "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmgxgielxgmxklgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgxgielxgmxklgcgxeeeq.pdf",
                     "date": "2026-10-21",
-                    "quote": "- 조정 EPS 6.68달러·유기 6%로 두 분기 연속 가속- 가이던스 상향폭은 Q3 서프라이즈의 절반 수준- NTM PE 25.4배·목표가 근접, 프리마켓 -3.6%",
+                    "quote": "- 조정 EPS 6.68달러·유기 6%로 두 분기 연속 가속",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 3.56,
-            "rnk1": 35.39,
+            "rnk6": 4.37,
+            "rnk1": 53.79,
             "name": "써모 피셔 사이언티픽"
           },
           {
             "ticker": "GH",
-            "role": "액체생검 암 진단 시장의 주도 기업",
+            "role": "혈액 기반 암 진단 분야에서 증권사가 주도주로 꼽은 진단 기업",
             "why": [
               {
                 "id": "l3a",
-                "statement": "신한투자증권은 가던트 헬스가 혈액 기반 암 진단 시장에서 주도적 입지를 확보했고, 3분기 매출이 전년 대비 36.1% 늘며 가이던스를 올렸다고 전했다.",
+                "statement": "3분기 매출이 전년 대비 36.1% 늘어 컨센서스를 웃돌았고 가이던스를 올렸다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[가단트 헬스 (NAS:GH)] 액체생검 진단기기 주도주",
                     "publisher": "신한투자증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmkegzzelkixqmgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmkegzzelkixqmgcgxeeeq.pdf",
                     "date": "2026-11-06",
-                    "quote": "- 혈액 기반 암 진단, 솔루션 시장에서 주도적 입지 확보. 핵심 제품(쉴드, CDx)의 견조한 매출 성장과 적응증 확대, ASP 상승 등 추가 모멘텀 존재- 3Q26 매출, Non-GAAP EPS는 각 3.6억달러(+36.1% YoY, +7.8% QoQ), -0.29달러로 컨센서스 상회 및 가이던스 상향 조정. 매출 65% 내외를 차 지하는 종양(미세잔존암, 항암제 선별) 사업부가 YoY +25.4% 성장세 기 록했으며 스크리닝(대장암 조기진단) 부문 매출 전년 대비 180.4% 증가- 최근 한 달간 급등락했으나 당기 실적으로 견조한 펀더멘탈, 성장 스토리 확인. 전체 주식시장 우려보다 동사의 중장기 성장 여력에 집중할 시점",
+                    "quote": "3Q26 매출, Non-GAAP EPS는 각 3.6억달러(+36.1% YoY, +7.8% QoQ), -0.29달러로 컨센서스 상회 및 가이던스 상향 조정.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l3b",
+                "statement": "대장암 조기진단 스크리닝 부문 매출이 전년 대비 크게 늘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[가단트 헬스 (NAS:GH)] 액체생검 진단기기 주도주",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmkegzzelkixqmgcgxeeeq.pdf",
+                    "date": "2026-11-06",
+                    "quote": "스크리닝(대장암 조기진단) 부문 매출 전년 대비 180.4% 증가",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 13.39,
-            "rnk1": 66.95,
+            "rnk6": 19.16,
+            "rnk1": 72.54,
             "name": null
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "써모 피셔는 가이던스 상향폭이 3분기 실적 호조의 절반 수준에 그쳤고 목표가에 가까워졌다는 평가가 있어, 성장 기대가 이미 반영됐을 수 있다.",
+            "statement": "써모 피셔는 대신증권이 가이던스 상향폭이 제한적이고 주가가 목표가에 근접했다며 투자의견을 낮춰, 기대가 선반영됐을 수 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[써모 피셔 사이언티픽 (NYS:TMO)] [26Q3 Review] 유기 성장률 6%로 가속, 가이던스 상향폭은 제한적, 투자의견 매수 하향",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmgxgielxgmxklgcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgxgielxgmxklgcgxeeeq.pdf",
                 "date": "2026-10-21",
-                "quote": "- 조정 EPS 6.68달러·유기 6%로 두 분기 연속 가속- 가이던스 상향폭은 Q3 서프라이즈의 절반 수준- NTM PE 25.4배·목표가 근접, 프리마켓 -3.6%",
+                "quote": "- 가이던스 상향폭은 Q3 서프라이즈의 절반 수준- NTM PE 25.4배·목표가 근접, 프리마켓 -3.6%",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -526,28 +526,28 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r2",
-            "statement": "가던트 헬스는 최근 한 달간 주가가 급등락했다. 실적이 뒷받침됐지만 변동성이 큰 종목이다.",
+            "statement": "대신증권은 최근 급등으로 실적이 시장 예상에 부합하는 수준이면 차익실현이 나올 수 있다고 봤다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[가단트 헬스 (NAS:GH)] 액체생검 진단기기 주도주",
-                "publisher": "신한투자증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmkegzzelkixqmgcgxeeee.pdf",
-                "date": "2026-11-06",
-                "quote": "- 최근 한 달간 급등락했으나 당기 실적으로 견조한 펀더멘탈, 성장 스토리 확인. 전체 주식시장 우려보다 동사의 중장기 성장 여력에 집중할 시점",
+                "title": "[써모 피셔 사이언티픽 (NYS:TMO)] [3Q26 Preview] 2분기의 반등은 추세였을까, 한 번이었을까, 투자의견 적극 매수 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmeqxzeqlzxcgzgcgxeeeq.pdf",
+                "date": "2026-10-12",
+                "quote": "유기 성장률 5% 재확인 시 재평가 여지가 있으나 최근 급등으로 부합 수준에서는 차익실현 가능성",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "sourceGap": "CNBC 기사는 대부분 제목·영상 또는 여러 종목 모음이라 근거로 쓰지 않았고, 증권사 리포트(찰스 리버·써모 피셔·가던트 헬스) 중심으로 작성했다.",
+        "sourceGap": "CNBC 기사는 대부분 여러 종목 모음이거나 유료·영상이라 본문 근거로 쓰지 못했고, 연합인포맥스 증권사 리포트 중심으로 작성했다.",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "모든 whyLeading, leaders[].why, risks 클레임이 출처와 일치. CRL·TMO·GH 주도주 근거는 실적·수주·제품 성과로 뒷받침. 출처 날짜 09-17~11-06 모두 6개월 이내."
+          "reason": "모든 주장의 숫자·날짜·회사명이 출처 quote와 정확히 일치하며, 출처 날짜 모두 적절(최근 1~3개월). 각 근거가 회사의 실적·수주에 기반함."
         },
-        "evidenceCount": 73
+        "evidenceCount": 75
       }
     },
     {
@@ -1095,14 +1095,39 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-11",
-        "carried": true,
-        "headline": "모더나의 실적 상향과 항암 백신 임상 성과, 신약 후보사들의 임상 호재가 겹치며 바이오테크가 업종 순위 2위에 올랐다.",
-        "summary": "대형주 모더나가 3분기 실적으로 시장 예상을 웃돌고 올해 매출 성장 전망을 올렸다. 머크와 함께 개발한 흑색종 백신이 3상에서 재발·사망 위험을 줄였다는 데이터도 업종 기대를 키웠다. 코디악, 베라더믹스, 오루카 같은 임상 단계 기업들도 시험 결과로 주목받았다. 다만 모더나는 데이터 공개 직후 차익실현으로 급락한 적이 있고, 상업화를 앞둔 기업은 증자와 약가가 변수다. 임상 일정과 실적이 이어지는지가 강세 지속의 조건이다.",
+        "researchedOn": "2026-11-17",
+        "carried": false,
+        "headline": "임상 성과와 실적 상향이 겹친 대형 바이오 종목이 업종 순위를 2위로 끌어올렸다.",
+        "summary": "바이오테크 업종은 신약 임상 결과와 실적 호조가 겹치며 업종 순위 2위까지 올랐다. 모더나는 머크와 만든 흑색종 백신의 3상 결과와 3분기 실적 상회로 업종 강세의 중심에 섰다. 코디악은 안과 신약의 3상 성공으로 급등했고, 오루카는 건선 임상 결과를 내놓았다. 다만 모더나 주가는 기대가 선반영돼 변동이 크고, 코디악은 상업화 전 증자 가능성이 있어 이 흐름이 이어지려면 후속 임상과 승인 일정이 확인돼야 한다.",
         "whyLeading": [
           {
-            "id": "w1",
-            "statement": "모더나가 3분기 실적에서 시장 예상을 크게 웃돌았고 올해 매출 성장 전망도 올렸다.",
+            "id": "w2",
+            "statement": "머크와 모더나가 공동 개발한 흑색종 백신 임상 결과를 의사들이 큰 진전으로 평가했다. 대신증권은 재발·사망 위험이 42% 줄었다고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Doctors call Moderna, Merck's cancer vaccine data a major advancement",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html",
+                "date": "2026-10-23",
+                "quote": "Doctors call Moderna, Merck's cancer vaccine data a major advancement",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동개발 흑색종 백신 3상 데이터 공개 후 급락 - 파이프라인 가치는 증명됐지만 매출 기여는 없다",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeeeq.pdf",
+                "date": "2026-10-23",
+                "quote": "흑색종 백신 3상 전체 데이터 공개, 재발·사망 위험 42% 감소",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "모더나가 올해 매출 성장 전망을 올리고 분기 추정치를 크게 웃돌았다. 대형 종목의 실적이 업종 심리를 받쳤다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -1117,48 +1142,16 @@ window.TEAM5_DATA = {
             ]
           },
           {
-            "id": "w2",
-            "statement": "신한투자증권은 모더나의 3분기 매출이 13.1억달러로 전년 대비 29.2% 늘어 시장 예상치를 넘어섰다고 평가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[모더나 (NAS:MRNA)] 빅파마의 기로",
-                "publisher": "신한투자증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeeee.pdf",
-                "date": "2026-11-09",
-                "quote": "3Q26 매출, Non-GAAP EPS는 각 13.1억달러(+29.2% YoY, +805.5% QoQ), 0.38달러로 컨센서스 상회.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "모더나가 머크와 개발한 흑색종 백신이 3상에서 재발·사망 위험을 42% 줄여, 암 백신 파이프라인의 가치가 입증됐다는 평가가 나왔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동개발 흑색종 백신 3상 데이터 공개 후 급락 - 파이프라인 가치는 증명됐지만 매출 기여는 없다",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeeee.pdf",
-                "date": "2026-10-23",
-                "quote": "흑색종 백신 3상 전체 데이터 공개, 재발·사망 위험 42% 감소",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
             "id": "w4",
-            "statement": "CNBC는 바이오테크 종목의 반등을 별도 기사로 다뤘다.",
+            "statement": "중소형 종목에서도 임상 성공이 이어졌다. 코디악은 안과 신약 3상에서 아일리아 대비 비열등을 입증했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "How to invest in biotech’s rebound",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
-                "date": "2026-10-24",
-                "quote": "How to invest in biotech’s rebound",
+                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeeeq.pdf",
+                "date": "2026-09-30",
+                "quote": "- Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1168,19 +1161,19 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "MRNA",
-            "role": "실적 상향과 암 백신 임상으로 업종 강세를 이끄는 대형 바이오텍",
+            "role": "흑색종 백신과 실적 상회로 업종 강세의 중심에 선 대형 바이오",
             "why": [
               {
                 "id": "l1a",
-                "statement": "모더나는 3분기 실적이 시장 예상을 웃돌았고 올해 매출 성장 전망을 올렸다.",
+                "statement": "신한투자증권에 따르면 모더나의 3분기 매출과 주당순이익이 시장 예상을 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "Moderna hikes 2026 sales growth outlook, smashes quarterly estimates",
-                    "publisher": "CNBC",
-                    "url": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html",
-                    "date": "2026-11-06",
-                    "quote": "Moderna hikes 2026 sales growth outlook, smashes quarterly estimates",
+                    "title": "[모더나 (NAS:MRNA)] 빅파마의 기로",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeeeq.pdf",
+                    "date": "2026-11-09",
+                    "quote": "- 3Q26 매출, Non-GAAP EPS는 각 13.1억달러(+29.2% YoY, +805.5% QoQ), 0.38달러로 컨센서스 상회.",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -1188,13 +1181,13 @@ window.TEAM5_DATA = {
               },
               {
                 "id": "l1b",
-                "statement": "신한투자증권은 흑색종 백신의 승인 가시화와 신장암 성과 가능성을 짚으며, 경쟁사 개발이 부진해 모더나가 주도적 입지라고 봤다.",
+                "statement": "흑색종 백신은 내년 승인이 예상되고, 신한투자증권은 경쟁사 개발이 부진해 모더나가 주도적 입지라고 봤다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[모더나 (NAS:MRNA)] 빅파마의 기로",
                     "publisher": "신한투자증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeeeq.pdf",
                     "date": "2026-11-09",
                     "quote": "항암 백신, 흑색종 승인 가시화 및 신장암에서도 성과 가능성. 경쟁사 개 발은 부진해 주도적 입지.",
                     "verified": "ok",
@@ -1204,24 +1197,24 @@ window.TEAM5_DATA = {
               }
             ],
             "rnk6": 0.05,
-            "rnk1": 13.48,
+            "rnk1": 50.63,
             "name": "모더나"
           },
           {
             "ticker": "KOD",
-            "role": "6개월 투여 안과 신약으로 3상을 통과한 임상 단계 기업",
+            "role": "안과 신약 3상 성공으로 신약 신청을 앞둔 중형 바이오",
             "why": [
               {
                 "id": "l2a",
-                "statement": "키움증권은 코디악의 Zenkuda가 습성 황반변성 3상에서 6개월에 1회 투여로 아일리아 대비 비열등성을 입증했다고 전했다.",
+                "statement": "코디악은 Zenkuda 3상으로 아일리아 대비 비열등을 보였고, 4분기에 신약 신청을 계획한다고 키움증권이 전했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
                     "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeeeq.pdf",
                     "date": "2026-09-30",
-                    "quote": "Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증",
+                    "quote": "- wAMD, 당뇨병망막병증(DR), 망막정맥폐쇄(RVO) 3개 적응증 4Q26 신약 신청(BLA)",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -1229,72 +1222,47 @@ window.TEAM5_DATA = {
               }
             ],
             "rnk6": 0.14,
-            "rnk1": 9.78,
+            "rnk1": 1.4,
             "name": "코디악 사이언시스"
           },
           {
-            "ticker": "MANE",
-            "role": "탈모 신약으로 임상 2건을 연속 성공한 기업",
-            "why": [
-              {
-                "id": "l3a",
-                "statement": "대신증권은 베라더믹스가 남성 탈모 임상 2건에서 연속 성공해 위약 대비 모발 수가 늘었다고 전했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[VERADERMICS INC (NYS:MANE)] 확실한 효과, 관건은 약가",
-                    "publisher": "대신증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmixlmkiizgemegcgxeeee.pdf",
-                    "date": "2026-11-04",
-                    "quote": "남성 탈모 임상 2건 연속 성공, 위약 대비 모발 수 +22.0~29.9개/cm²",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 9.78,
-            "rnk1": 2.3,
-            "name": "VERADERMICS INC"
-          },
-          {
-            "ticker": "REGN",
-            "role": "3분기 실적이 예상을 넘은 대형 바이오텍",
+            "ticker": "HALO",
+            "role": "파트너 로열티로 실적을 키우는 약물 전달 기술 기업",
             "why": [
               {
                 "id": "l4a",
-                "statement": "리제네론은 듀피젠트 이익과 아일리아 HD 성장에 힘입어 3분기 실적이 예상을 웃돌았다.",
+                "statement": "CNBC 출연 분석가는 할로자임이 추정치를 웃돌고 연간 가이던스를 올렸다고 전했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "REGN Q3 Earnings Beat on Dupixent Profits & Eylea HD Growth, Stock Up",
-                    "publisher": "Zacks",
-                    "url": "https://www.nasdaq.com/articles/regn-q3-earnings-beat-dupixent-profits-eylea-hd-growth-stock",
-                    "date": "2026-10-30",
-                    "quote": "REGN Q3 Earnings Beat on Dupixent Profits & Eylea HD Growth, Stock Up",
+                    "title": "Inside Edge’s Todd Gordon: Halozyme Therapeutics are beating estimates; raised full-year guidance",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/video/2026/10/15/inside-edgeas-todd-gordon-halozyme-therapeutics-are-beating-estimates-raised-full-year-guidance.html",
+                    "date": "2026-10-15",
+                    "quote": "Inside Edge’s Todd Gordon: Halozyme Therapeutics are beating estimates; raised full-year guidance",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 9.51,
-            "rnk1": 5.18,
-            "name": "리제네론 파머슈티컬스"
+            "rnk6": 6.72,
+            "rnk1": 94.63,
+            "name": "할로자임 테라퓨틱스"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "모더나는 흑색종 백신 3상 데이터 공개 뒤 이미 반영된 기대에 대한 차익실현으로 급락한 적이 있다. 밸류에이션 부담과 다른 암종으로의 확장 입증이 다음 관찰 변수다.",
+            "statement": "모더나는 기대가 선반영돼 있어 다른 암종으로 확장성이 입증되지 않으면 주가 부담이 커질 수 있다. 대신증권은 이를 다음 관찰 변수로 꼽았다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동개발 흑색종 백신 3상 데이터 공개 후 급락 - 파이프라인 가치는 증명됐지만 매출 기여는 없다",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeeeq.pdf",
                 "date": "2026-10-23",
-                "quote": "모더나 주가 급락, 선반영된 기대에 대한 차익실현 성격",
+                "quote": "- 밸류에이션 부담·다른 암종 확장성 입증이 다음 관찰 변수",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1302,15 +1270,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r2",
-            "statement": "임상 단계 기업은 상업화 전 증자로 주주 지분이 희석될 수 있다. 코디악은 2분기 말 현금이 $125.9M이다.",
+            "statement": "코디악은 상업화 전에 증자를 할 가능성이 높아 주주 가치 희석이 부담이 될 수 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
                 "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeeeq.pdf",
                 "date": "2026-09-30",
-                "quote": "다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음",
+                "quote": "- 다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1318,28 +1286,30 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r3",
-            "statement": "베라더믹스는 임상 성공에도 출시 후 약가와 처방 추이가 관건이다.",
+            "statement": "모더나는 20억 달러 전환사채 발행을 추진했고, 전환권 행사 시 희석 우려가 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[VERADERMICS INC (NYS:MANE)] 확실한 효과, 관건은 약가",
+                "title": "[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채 사모 발행 추진 - 흑색종 데이터發 주가 급등을 활용한 자본조달",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmixlmkiizgemegcgxeeee.pdf",
-                "date": "2026-11-04",
-                "quote": "출시 후 관건은 약가와 처방 추이",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeeeq.pdf",
+                "date": "2026-08-28",
+                "quote": "- 현금여력 확대되지만 전환권 행사 시 희석 우려",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "sourceGap": "CNBC 기사는 대부분 제목만 확인했고 직접 열어 본문을 따오지 않았다. 코디악·리제네론·오루카는 증권사 리포트나 나스닥 기사 제목에 의존했다.",
+        "sourceGap": "웹 원문을 직접 열어 보지 않아 CNBC 기사는 제목만 근거로 썼고, 업종 전반의 수요·정책을 다룬 증권사 리포트는 없다.",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 클레임이 검증됨. MRNA·KOD·MANE·REGN·ORKA 주도주 각각 임상 수치(3상 42% 재발위험 감소, 6개월 1회 투여, 모발 +22-29.9개, 61% 피부개선)·실적(MRNA +29.2% YoY) 등 구체 근거. 리스크도 모더나 차익실현·현금 부족·약가 변수 확인."
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reason": "w1의 출처(CNBC 제목 'How to invest in biotech's rebound')가 '신약 혁신이 업종 랠리의 배경'이라는 구체적 주장을 뒷받침하지 않음. Quote도 제목뿐 본문이 없어 근거 불충분. w2~w4로 headline·summary의 '임상 성과와 실적 상향' 설명 가능하므로 헤드라인·요약 유지."
         },
-        "evidenceCount": 56
+        "evidenceCount": 55
       }
     },
     {
@@ -2013,22 +1983,22 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-11",
-        "carried": true,
-        "headline": "AI가 소프트웨어를 해친다는 우려가 풀리며 응용 소프트웨어가 반도체를 대신해 시장의 선택을 받고 있다.",
-        "summary": "응용 소프트웨어는 업종 순위 4위로, 한 달 새 5계단 올랐다. 8월 아틀라시안 분기 실적이 'AI 에이전트가 소프트웨어에 나쁘다'는 가설이 틀렸음을 보여 주며 공매도 청산이 나왔다. 10월에는 반도체에서 소프트웨어로 자금이 옮겨 간다는 분석이 나왔다. 다만 AI 영향에 대한 불안이 완전히 가신 것은 아니어서 분기 실적마다 확인이 이어져야 한다.",
+        "researchedOn": "2026-11-17",
+        "carried": false,
+        "headline": "AI가 소프트웨어를 대체할 것이라는 우려가 가라앉고 주요 기업 실적이 예상을 웃돌면서 응용 소프트웨어가 업종 순위 3위에 올랐다.",
+        "summary": "응용 소프트웨어는 업종 순위 3위로, 25거래일 전보다 2계단 올랐다. 반도체에서 소프트웨어로 투자 자금이 옮겨 간다는 CNBC 보도가 있었고, 씨티 애널리스트는 AI 모델이 소프트웨어를 위협한다는 우려가 사라지고 있다고 짚었다. 이어 인사·물류·개발자 도구 기업들이 최근 분기 실적에서 시장 예상을 웃돌며 강세를 뒷받침했다. 다만 소프트웨어 주가가 크게 출렁인다는 논쟁이 계속되고 있어, 실적 호조가 이어지는지가 관건이다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "박스 CEO는 아틀라시안의 큰 폭 실적 호조를 계기로 지난 6개월간 'AI 에이전트가 일부 소프트웨어에 나쁘다'는 가설이 잘못된 것이었다고 평가했다. 이 우려가 풀리며 업종 반등의 배경이 됐다.",
+            "statement": "CNBC는 투자 자금이 반도체에서 소프트웨어로 옮겨 갔고 이 흐름이 쉽게 바뀌지 않을 것이라고 다뤘다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "title": "Semiconductors are out, software is in. Why that’s not about to change",
                 "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
-                "date": "2026-08-07",
-                "quote": "\"Huge Atlassian quarterly beat,\" Box CEO Aaron Levie wrote, adding that \"There was a misplaced thesis over the past 6 months that somehow agents would be bad for certain software categories.\"",
+                "url": "https://www.cnbc.com/2026/10/16/software-stocks-semiconductor-rotation.html",
+                "date": "2026-10-16",
+                "quote": "Semiconductors are out, software is in. Why that’s not about to change",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2036,15 +2006,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w2",
-            "statement": "분석가 리시 자루리아는 소프트웨어 회사가 죽지 않았다는 증거 하나가 공매도 청산(숏 스퀴즈)을 부른다고 설명했다. 실적 호조가 주가를 크게 움직인 구조다.",
+            "statement": "씨티의 애널리스트는 AI 모델이 소프트웨어 기업의 존립을 위협한다는 우려가 사라지고 있다고 평가했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "title": "Software companies are evaporating the terminal risk fears AI models posed: Citi's Fatima Boolani",
                 "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                "url": "https://www.cnbc.com/video/2026/08/07/software-companies-are-evaporating-the-terminal-risk-fears-ai-models-posed-citis-fatima-boolani.html",
                 "date": "2026-08-07",
-                "quote": "\"Any proof point that says, oh wait, this company isn't dead, is going to result in a short squeeze,\"",
+                "quote": "Software companies are evaporating the terminal risk fears AI models posed: Citi's Fatima Boolani",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2052,31 +2022,33 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w3",
-            "statement": "웰스파고 전략가는 2027년을 AI 인프라 구축보다 AI 응용 기업이 앞서는 해가 될 수 있다고 보며, 투자자들이 반도체보다 인프라 소프트웨어 등을 선호할 것으로 전했다. 자금이 반도체에서 소프트웨어로 옮겨 가는 흐름이다.",
+            "statement": "업종 내 아틀라시언, 맨해튼 어소시에이츠, 페이컴 등이 최근 분기 실적에서 시장 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Semiconductors are out, software is in. Why that’s not about to change",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/10/16/software-stocks-semiconductor-rotation.html",
-                "date": "2026-10-16",
-                "quote": "\"[2027] could be a year where AI applications win over the AI build-out,\"",
+                "title": "Atlassian (TEAM) Surpasses Q1 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/atlassian-team-surpasses-q1-earnings-and-revenue-estimates",
+                "date": "2026-11-06",
+                "quote": "Atlassian (TEAM) Surpasses Q1 Earnings and Revenue Estimates",
                 "verified": "ok",
                 "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "CNBC는 AI가 소프트웨어의 기능뿐 아니라 사람이 소프트웨어를 쓰는 방식도 바꾸고 있어 기존 플랫폼에 유리하다고 전했다.",
-            "evidence_level": "sourced",
-            "sources": [
+              },
               {
-                "title": "Semiconductors are out, software is in. Why that’s not about to change",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/10/16/software-stocks-semiconductor-rotation.html",
-                "date": "2026-10-16",
-                "quote": "\"AI is changing not only what software can do, but how humans interact with it,\"",
+                "title": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-27",
+                "quote": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Paycom Software (PAYC) Q3 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/paycom-software-payc-q3-earnings-and-revenues-beat-estimates",
+                "date": "2026-11-04",
+                "quote": "Paycom Software (PAYC) Q3 Earnings and Revenues Beat Estimates",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2086,59 +2058,118 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "TEAM",
-            "role": "8월 분기 실적으로 업종 반등의 계기를 만든 협업 소프트웨어 기업",
+            "role": "협업·개발 도구 대표 기업으로 AI 도입과 클라우드 성장이 실적 호조를 이끈 종목",
             "why": [
               {
                 "id": "l1a",
-                "statement": "아틀라시안의 분기 실적이 크게 예상을 웃돌아 AI 에이전트 우려를 반박하는 근거로 거론됐다.",
+                "statement": "아틀라시언은 최근 분기 실적 발표에서 AI 도입과 클라우드 성장을 핵심으로 내세웠다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
-                    "publisher": "CNBC",
-                    "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
-                    "date": "2026-08-07",
-                    "quote": "\"Huge Atlassian quarterly beat,\" Box CEO Aaron Levie wrote",
+                    "title": "TEAM Q1 Earnings Call Highlights AI Adoption and Cloud Growth",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/team-q1-earnings-call-highlights-ai-adoption-and-cloud-growth",
+                    "date": "2026-11-06",
+                    "quote": "TEAM Q1 Earnings Call Highlights AI Adoption and Cloud Growth",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  },
+                  {
+                    "title": "Atlassian (TEAM) Surpasses Q1 Earnings and Revenue Estimates",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/atlassian-team-surpasses-q1-earnings-and-revenue-estimates",
+                    "date": "2026-11-06",
+                    "quote": "Atlassian (TEAM) Surpasses Q1 Earnings and Revenue Estimates",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 2.39,
-            "rnk1": 95.72,
+            "rnk6": 1.85,
+            "rnk1": 98.6,
             "name": "아틀라시언"
           },
           {
-            "ticker": "WDAY",
-            "role": "AI 시대에도 사업이 나아졌다고 평가받은 인사·재무 소프트웨어 기업",
+            "ticker": "MANH",
+            "role": "공급망·물류 소프트웨어 기업으로 실적이 예상을 웃돈 종목",
             "why": [
               {
                 "id": "l2a",
-                "statement": "한 포트폴리오 매니저는 워크데이 주가가 올랐지만 사업 자체도 좋아졌다고 평가했다.",
+                "statement": "맨해튼 어소시에이츠는 최근 분기 이익과 매출이 모두 시장 예상을 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "Semiconductors are out, software is in. Why that’s not about to change",
-                    "publisher": "CNBC",
-                    "url": "https://www.cnbc.com/2026/10/16/software-stocks-semiconductor-rotation.html",
-                    "date": "2026-10-16",
-                    "quote": "\"The price has moved up, but the business has also become better,\"",
+                    "title": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/manhattan-associates-manh-surpasses-q3-earnings-and-revenue-estimates",
+                    "date": "2026-10-27",
+                    "quote": "Manhattan Associates (MANH) Surpasses Q3 Earnings and Revenue Estimates",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 6.27,
-            "rnk1": 54.87,
-            "name": "워크데이"
+            "rnk6": 1.4,
+            "rnk1": 9.42,
+            "name": "맨해튼 어소시에이츠"
+          },
+          {
+            "ticker": "PAYC",
+            "role": "인사·급여 소프트웨어 기업으로 실적이 예상을 웃돈 종목",
+            "why": [
+              {
+                "id": "l3a",
+                "statement": "페이컴은 최근 분기 이익과 매출이 모두 시장 예상을 웃돌았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Paycom Software (PAYC) Q3 Earnings and Revenues Beat Estimates",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/paycom-software-payc-q3-earnings-and-revenues-beat-estimates",
+                    "date": "2026-11-04",
+                    "quote": "Paycom Software (PAYC) Q3 Earnings and Revenues Beat Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 1.31,
+            "rnk1": 62.98,
+            "name": "페이컴 소프트웨어"
+          },
+          {
+            "ticker": "FROG",
+            "role": "개발자용 소프트웨어 배포 플랫폼 기업으로 실적이 예상을 웃돈 종목",
+            "why": [
+              {
+                "id": "l4a",
+                "statement": "제이프로그는 최근 분기 이익과 매출이 시장 예상을 넘어섰다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "JFrog Ltd. (FROG) Q3 Earnings and Revenues Surpass Estimates",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/jfrog-ltd-frog-q3-earnings-and-revenues-surpass-estimates",
+                    "date": "2026-11-05",
+                    "quote": "JFrog Ltd. (FROG) Q3 Earnings and Revenues Surpass Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 4.55,
+            "rnk1": 0.77,
+            "name": "제이프로그"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "AI가 소프트웨어 가치에 미칠 영향에 대한 불안이 남아 있어 실적 확인이 어긋나면 반등이 꺾일 수 있다.",
+            "statement": "소프트웨어 주가가 크게 출렁인다는 이른바 SaaS 종말론 논쟁이 계속되고 있어, AI 위협 우려가 다시 커지면 강세가 꺾일 수 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2146,20 +2177,20 @@ window.TEAM5_DATA = {
                 "publisher": "CNBC",
                 "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
                 "date": "2026-08-07",
-                "quote": "\"There's these reminders that we're not out of it. Everything's not smooth sailing,\"",
+                "quote": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "sourceGap": "증권사 리포트 중 이 업종 종목을 직접 다룬 것은 데이터도그 1건뿐이고 주도주 근거로 쓰기엔 약해 제외했다. 주도주는 CNBC 기사 2건만으로 작성했다.",
+        "sourceGap": "증권사 리포트는 이 업종 종목을 직접 다룬 것이 없어 CNBC 제목과 나스닥(Zacks) 기사 제목만으로 작성했고, 기사 본문 숫자는 쓰지 못했다.",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "CNBC 출처 8월·10월 기사에서 'AI 에이전트 악영향 가설 오류', 아틀라시안 beat→공매도 청산, 2027 응용>인프라 전망, '반도체 out·소프트웨어 in' 헤드라인 모두 인용문·제목과 일치. TEAM·WDAY 리더 근거는 실적과 사업 개선(가격만 아님)으로 뒷받침."
+          "reason": "모든 주장이 CNBC·Zacks 출처와 일치하며, 자금 흐름·AI 우려 소멸·개별 기업 실적 모두 명확하게 뒷받침됨. 주도주 근거가 주가 움직임뿐 아니라 회사 실적에 기반함."
         },
-        "evidenceCount": 74
+        "evidenceCount": 84
       }
     },
     {
@@ -2287,20 +2318,20 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-11",
-        "carried": true,
-        "headline": "중동·러시아 공급 차질로 정제마진(원유를 석유제품으로 바꿔 남기는 이익)이 크게 오르면서 정유주가 업종 상위를 지키고 있다.",
-        "summary": "중동·러시아의 석유제품 공급이 정상화되지 않고 정제마진이 사상 최고 수준까지 올랐다. 미국 정유사의 제한적인 신규 증설 속 타이트한 수급이 이어지고 있다. 발레로는 3분기 정유 부문 이익이 크게 늘며 이런 환경의 직접 수혜를 실적으로 보여 줬다. 증권사는 4분기에도 높은 수익성이 이어질 것으로 보지만, 수요 둔화와 정유 설비 사고 같은 변수가 남아 있다.",
+        "researchedOn": "2026-11-17",
+        "carried": false,
+        "headline": "낮은 제품 재고로 정제마진이 사상 최고 수준까지 올라 정유사 이익이 급증했다.",
+        "summary": "미국 정유사 가동률은 이미 98%여서 휘발유·디젤 재고가 크게 줄었다. 그 결과 정제마진(원유를 제품으로 바꿔 남기는 이익)이 사상 최고치를 경신했다. 발레로 에너지는 3분기 조정 주당순이익 23.96달러로 2분기 연속 사상 최대를 냈다. 다만 업황 정점 논란과 수요 둔화 우려가 남아 있어 마진 유지 여부가 관건이다.",
         "whyLeading": [
           {
-            "id": "w2",
-            "statement": "신한투자증권에 따르면 미국 3-2-1 정제마진(원유 3배럴로 휘발유 2·디젤 1배럴을 만들 때 남는 마진)이 배럴당 71달러까지 올라 사상 최고치를 새로 썼다. 높은 가동률에도 낮은 재고와 공급 차질 탓에 정유사 수익성이 과거 호황기를 웃돈다.",
+            "id": "w1",
+            "statement": "미국 3-2-1 정제마진이 배럴당 71달러까지 올라 사상 최고치를 경신했고, 정유사 수익성이 과거 호황기를 웃돈다고 신한투자증권은 분석했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[발레로 에너지 (NYS:VLO)] 공급 부족이 드러낸 정제자산 경쟁력",
                 "publisher": "신한투자증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlqlqgeemgzigigcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlqgeemgzigigcgxeeeq.pdf",
                 "date": "2026-08-28",
                 "quote": "최근 미국 3-2-1  정제마진은 배럴당 71달러까지 상승하며 사상 최고치 경신.",
                 "verified": "ok",
@@ -2309,32 +2340,16 @@ window.TEAM5_DATA = {
             ]
           },
           {
-            "id": "w3",
-            "statement": "3분기 실적에서도 타이트한 수급이 확인됐고, 신한투자증권은 제한적인 신규 증설과 재고 재축적 수요가 정제마진 하단을 받칠 것으로 봤다.",
+            "id": "w2",
+            "statement": "가동률이 98%로 높은데도 디젤·휘발유 재고가 최근 10년 중 최저 수준으로 줄어, 공급이 빠듯한 상태가 마진을 끌어올렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[발레로 에너지 (NYS:VLO)] 한 단계 높아진 정제마진",
-                "publisher": "신한투자증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmgmxlmmzkzimigcgxeeee.pdf",
-                "date": "2026-10-26",
-                "quote": "수요 둔화 우려에도 제한적인 신 규 증설과 재고 재축적 수요가 정제마진 하단을 지지할 전망",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "한화증권은 미국과 베네수엘라의 석유 개발 협정으로 값싼 중질유 공급이 늘면 미국 정제마진이 구조적으로 개선될 수 있다고 봤다. 다만 단기 실적 효과는 제한적일 것으로 판단했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[미국주식] 미 정유주, 베네수엘라 석유 협정 단기적 수혜 제한적",
-                "publisher": "한화증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqllgexmxqgliixgcgxeeee.pdf",
-                "date": "2026-09-01",
-                "quote": "베네수엘라와의 석유 개발 협정이 구조적인 정제마진 개선으로 연결될 수 있다.",
+                "title": "[발레로 에너지 (NYS:VLO)] 정유업 = Printing Money",
+                "publisher": "메리츠증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmkglqgqeclzzgcgxeeeq.pdf",
+                "date": "2026-09-15",
+                "quote": "미국 정유사 가동률이 98%임에도 디젤, 휘발유 재고 수준은 최근 10개년 최저 수준 감소하는 타이트한 공급 여건",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2344,19 +2359,35 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "VLO",
-            "role": "미국 걸프만 중심의 순수 정유사로 정제마진 강세의 직접 수혜를 3분기 실적으로 보여 준 종목",
+            "role": "순수 정유사로 정제마진 급등의 직접 수혜를 실적으로 확인한 종목",
             "why": [
               {
-                "id": "l1b",
-                "statement": "iM증권은 발레로 정제설비의 61%가 걸프만에 몰려 있어 원유 수입과 제품 수출에 유리하다고 짚었다. 경쟁사는 20~40% 수준이다.",
+                "id": "l1a",
+                "statement": "발레로 에너지는 3분기 조정 주당순이익 23.96달러로 2분기 연속 사상 최대를 냈고 시장 기대치를 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
-                    "publisher": "iM증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlmzezgggekgmcgcgxeeee.pdf",
-                    "date": "2026-09-16",
-                    "quote": "동사 정제설비의 61%는 Gulf Coast에 밀집되어 있는데, 경쟁사들이 약 20~40% 그치는  것  대비  매우  높은  수준이다.",
+                    "title": "[발레로 에너지 (NYS:VLO)] 한 단계 높아진 정제마진",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgmxlmmzkzimigcgxeeeq.pdf",
+                    "date": "2026-10-26",
+                    "quote": "조정 EPS(주당순이익)는 23.96달러(+91%)로 2분기 연속 사상 최대를 경신하며 시장 기대치 상회.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l1b",
+                "statement": "신한투자증권은 발레로가 걸프만 중심 자산 덕에 업황 강세의 수혜가 가장 직접적이라고 평가했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[발레로 에너지 (NYS:VLO)] 공급 부족이 드러낸 정제자산 경쟁력",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlqlqgeemgzigigcgxeeeq.pdf",
+                    "date": "2026-08-28",
+                    "quote": "Valero는 약 3.0mb/d의 정제능력과 멕 시코만 중심의 자산을 보유해 업황 강세의 수혜가 가장 직접적",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -2364,62 +2395,30 @@ window.TEAM5_DATA = {
               },
               {
                 "id": "l1c",
-                "statement": "신한투자증권은 발레로가 약 3.0mb/d의 정제능력과 멕시코만 중심 자산을 갖춰 업황 강세의 수혜가 가장 직접적이라고 평가했다.",
+                "statement": "iM증권은 발레로 정제설비의 61%가 걸프만에 몰려 있어 원유 조달과 제품 수출에 유리하다고 꼽았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "[발레로 에너지 (NYS:VLO)] 공급 부족이 드러낸 정제자산 경쟁력",
-                    "publisher": "신한투자증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlqlqgeemgzigigcgxeeee.pdf",
-                    "date": "2026-08-28",
-                    "quote": "Valero는 약 3.0mb/d의 정제능력과 멕 시코만 중심의 자산을 보유해 업황 강세의 수혜가 가장 직접적",
+                    "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+                    "publisher": "iM증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlmzezgggekgmcgcgxeeeq.pdf",
+                    "date": "2026-09-16",
+                    "quote": "동사 정제설비의 61%는 Gulf Coast에 밀집되어 있는데, 경쟁사들이 약 20~40% 그치는  것  대비  매우  높은  수준이다.",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 11.41,
-            "rnk1": 92.29,
+            "rnk6": 4.19,
+            "rnk1": 91.75,
             "name": "발레로 에너지"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "한화증권은 베네수엘라 협정이 장기엔 호재지만 단기 실적 요인으로는 제한적이라고 판단했다. 공급 확대가 더디면 마진 개선 기대가 늦어질 수 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[미국주식] 미 정유주, 베네수엘라 석유 협정 단기적 수혜 제한적",
-                "publisher": "한화증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqllgexmxqgliixgcgxeeee.pdf",
-                "date": "2026-09-01",
-                "quote": "역대 최대 규모의 협정이 장기 전망에는 호재이나, 단기 실적 요인에는 제한적일 것으로 판단된다.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r2",
-            "statement": "정유 설비 사고는 하방 변수다. 대신증권은 졸리엣 정유공장 침수 가동 중단으로 다운스트림(정유·판매) 리스크가 다시 부각됐다고 짚었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[엑슨 모빌 (NYS:XOM)] [Issue & News] 졸리엣 정유공장 침수로 가동 중단 장기화 - 중동발 차질에 이어 다운스트림 리스크 재부각",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlmxlxkmxxlcixgcgxeeee.pdf",
-                "date": "2026-09-18",
-                "quote": "중동발 차질 예고와 겹쳐 다운스트림 리스크 재부각",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r3",
-            "statement": "CNBC는 정유주가 전례 드문 상승을 이어 왔고 역사적으로 오래가지 않았다고 경고했다.",
+            "statement": "정유주가 이례적인 상승을 이어 왔고 과거 사례상 곧 끝날 수 있다는 경고가 CNBC에서 나왔다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2432,18 +2431,34 @@ window.TEAM5_DATA = {
                 "httpStatus": 200
               }
             ]
+          },
+          {
+            "id": "r2",
+            "statement": "수요 둔화 우려가 있고, 졸리엣 정유공장 침수 같은 설비 가동 중단도 다운스트림 리스크로 거론됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[엑슨 모빌 (NYS:XOM)] [Issue & News] 졸리엣 정유공장 침수로 가동 중단 장기화",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmxlxkmxxlcixgcgxeeeq.pdf",
+                "date": "2026-09-18",
+                "quote": "중동발 차질 예고와 겹쳐 다운스트림 리스크 재부각",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "sourceGap": "주도주 근거는 발레로(VLO) 증권사 리포트뿐이다. 마라톤 페트롤리엄·필립스 66·PBF 등은 CNBC 기사가 제목 수준이거나 모음 기사라 주도주에서 뺐다.",
+        "sourceGap": "발레로 외 종목은 증권사 리포트가 없고 CNBC는 제목뿐이거나 여러 종목 모음 기사라 주도주로 넣지 않았다. 웹 원문은 열지 않았다.",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
-            "l1a"
+            "w3",
+            "w4"
           ],
-          "reason": "w1: statement의 '미국 정유사 가동률 98%', '최근 10개년 최저 수준' 등이 quote에 명시되지 않음. l1a: '정유 부문 영업이익 88억 달러'가 quote에 없음."
+          "reason": "w3: 중동·러시아 공급 차질이 출처 quote에 명시되지 않음. w4: '값싼 중질유 공급' 및 '단기 실적 효과는 제한적' 내용이 quote에 없음."
         },
-        "evidenceCount": 46
+        "evidenceCount": 41
       }
     },
     {
@@ -3414,19 +3429,19 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-11",
-        "carried": true,
-        "headline": "의료기관 업종은 3분기 실적이 시장 예상을 웃돈 병원·재활·호스피스 업체가 늘며 순위가 올랐다.",
-        "summary": "의료기관 업종은 업종 순위 8위로, 한 달 새 10계단 올랐다. 10월 말~11월 초 3분기 실적 발표에서 테넷 헬스케어, US 피지컬 테라피, 뉴텍스 헬스, 케미드가 예상치를 웃돌거나 전망을 올렸다. 호스피스 업체 케미드는 제프리스의 투자의견 상향도 받았다. 실적 호조가 다음 분기 전망과 수익성 개선으로 이어지는지가 강세 유지의 조건이다.",
+        "researchedOn": "2026-11-17",
+        "carried": false,
+        "headline": "의료기관 업종은 3분기 실적이 시장 예상을 웃돌고 전망이 올라가며 업종 순위 7위까지 올라왔다.",
+        "summary": "의료기관 업종의 주요 종목들이 10월 말~11월 초 3분기 실적을 발표하며 예상치를 넘겼다. 테넷 헬스케어는 연간 전망을 높이고 마진이 개선됐다고 전해졌다. 호스피스 업체 케미드와 물리치료 업체 US 피지컬 테라피, 뉴텍스 헬스도 예상을 웃돌았다. 실적 호조가 다른 종목으로 이어지는지가 강세 지속의 관건이다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "테넷 헬스케어는 3분기 실적 발표에서 연간 전망을 높이고 이익률 개선을 밝혔다.",
+            "statement": "테넷 헬스케어가 3분기 실적 발표에서 전망을 높이고 마진 개선을 알렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "THC Q3 Earnings Call Highlights Higher Outlook and Margin Gains",
-                "publisher": "Zacks",
+                "publisher": "Zacks(나스닥)",
                 "url": "https://www.nasdaq.com/articles/thc-q3-earnings-call-highlights-higher-outlook-and-margin-gains",
                 "date": "2026-10-30",
                 "quote": "THC Q3 Earnings Call Highlights Higher Outlook and Margin Gains",
@@ -3437,12 +3452,28 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w2",
-            "statement": "US 피지컬 테라피와 뉴텍스 헬스는 3분기 실적이 시장 예상을 웃돌았다.",
+            "statement": "케미드가 3분기 이익과 매출 모두 시장 예상을 넘겼다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Chemed (CHE) Tops Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/chemed-che-tops-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-27",
+                "quote": "Chemed (CHE) Tops Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "US 피지컬 테라피와 뉴텍스 헬스도 3분기 이익·매출이 예상을 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
-                "publisher": "Zacks",
+                "publisher": "Zacks(나스닥)",
                 "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-tops-q3-earnings-and-revenue-estimates",
                 "date": "2026-11-04",
                 "quote": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
@@ -3451,7 +3482,7 @@ window.TEAM5_DATA = {
               },
               {
                 "title": "Nutex Health Inc. (NUTX) Q3 Earnings and Revenues Beat Estimates",
-                "publisher": "Zacks",
+                "publisher": "Zacks(나스닥)",
                 "url": "https://www.nasdaq.com/articles/nutex-health-inc-nutx-q3-earnings-and-revenues-beat-estimates",
                 "date": "2026-11-05",
                 "quote": "Nutex Health Inc. (NUTX) Q3 Earnings and Revenues Beat Estimates",
@@ -3461,8 +3492,8 @@ window.TEAM5_DATA = {
             ]
           },
           {
-            "id": "w3",
-            "statement": "호스피스 업체 케미드는 3분기 실적이 예상을 웃돌았고, 제프리스는 이 종목이 S&P500보다 좋은 성과를 내고 있다며 추가 상승을 전망했다.",
+            "id": "w4",
+            "statement": "제프리스가 케미드를 매수 의견으로 올리며 영업 문제에서 벗어나 프리미엄 배수를 회복할 것으로 봤다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -3470,16 +3501,7 @@ window.TEAM5_DATA = {
                 "publisher": "CNBC",
                 "url": "https://www.cnbc.com/2026/10/28/chemed-jefferies-upgrade-buy-price-target.html",
                 "date": "2026-10-28",
-                "quote": "This hospice services stock is outperforming the S&P 500. Jefferies sees more gains ahead",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Chemed (CHE) Tops Q3 Earnings and Revenue Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/chemed-che-tops-q3-earnings-and-revenue-estimates",
-                "date": "2026-10-27",
-                "quote": "Chemed (CHE) Tops Q3 Earnings and Revenue Estimates",
+                "quote": "As the [company] emerges out of recent operating issues that impacted earnings visibility, stability, & growth, we believe CHE will regain its premium multiple",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3489,16 +3511,16 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "THC",
-            "role": "대형 병원 운영사로, 3분기에 전망 상향과 이익률 개선을 내놓았다",
+            "role": "대형 병원 운영사로 전망 상향과 마진 개선이 확인된 종목",
             "why": [
               {
                 "id": "l1a",
-                "statement": "테넷 헬스케어는 3분기 실적 발표에서 전망 상향과 이익률 개선을 밝혔다.",
+                "statement": "3분기 실적 발표에서 전망 상향과 마진 개선이 언급됐다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "THC Q3 Earnings Call Highlights Higher Outlook and Margin Gains",
-                    "publisher": "Zacks",
+                    "publisher": "Zacks(나스닥)",
                     "url": "https://www.nasdaq.com/articles/thc-q3-earnings-call-highlights-higher-outlook-and-margin-gains",
                     "date": "2026-10-30",
                     "quote": "THC Q3 Earnings Call Highlights Higher Outlook and Margin Gains",
@@ -3508,22 +3530,22 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 5.09,
-            "rnk1": 34.58,
+            "rnk6": 3.2,
+            "rnk1": 32.33,
             "name": "테넷 헬스케어"
           },
           {
             "ticker": "CHE",
-            "role": "호스피스 서비스 업체로, 실적 호조와 제프리스의 긍정 평가를 받았다",
+            "role": "호스피스 서비스 업체로 증권사 상향과 실적 호조가 겹친 종목",
             "why": [
               {
                 "id": "l2a",
-                "statement": "케미드는 3분기 실적이 예상을 웃돌았다.",
+                "statement": "3분기 이익과 매출이 예상을 넘겼다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "Chemed (CHE) Tops Q3 Earnings and Revenue Estimates",
-                    "publisher": "Zacks",
+                    "publisher": "Zacks(나스닥)",
                     "url": "https://www.nasdaq.com/articles/chemed-che-tops-q3-earnings-and-revenue-estimates",
                     "date": "2026-10-27",
                     "quote": "Chemed (CHE) Tops Q3 Earnings and Revenue Estimates",
@@ -3531,24 +3553,40 @@ window.TEAM5_DATA = {
                     "httpStatus": 200
                   }
                 ]
+              },
+              {
+                "id": "l2b",
+                "statement": "제프리스는 영업 문제가 해소되며 프리미엄 배수가 회복될 것으로 봤다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "This hospice services stock is outperforming the S&P 500. Jefferies sees more gains ahead",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/10/28/chemed-jefferies-upgrade-buy-price-target.html",
+                    "date": "2026-10-28",
+                    "quote": "As the [company] emerges out of recent operating issues that impacted earnings visibility, stability, & growth, we believe CHE will regain its premium multiple",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
               }
             ],
-            "rnk6": 23.67,
-            "rnk1": 34.67,
+            "rnk6": 20.06,
+            "rnk1": 32.42,
             "name": "케미드"
           },
           {
             "ticker": "USPH",
-            "role": "물리치료 클리닉 운영사로, 3분기 실적이 예상을 웃돌았다",
+            "role": "물리치료 클리닉 운영사로 3분기 예상 상회",
             "why": [
               {
                 "id": "l3a",
-                "statement": "US 피지컬 테라피는 3분기 순이익과 매출 모두 시장 예상을 웃돌았다.",
+                "statement": "3분기 이익과 매출이 예상을 웃돌았다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
-                    "publisher": "Zacks",
+                    "publisher": "Zacks(나스닥)",
                     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-tops-q3-earnings-and-revenue-estimates",
                     "date": "2026-11-04",
                     "quote": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
@@ -3558,22 +3596,22 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 3.11,
-            "rnk1": 13.21,
+            "rnk6": 3.47,
+            "rnk1": 8.79,
             "name": "US 피지컬 테라피"
           },
           {
             "ticker": "NUTX",
-            "role": "응급·병원 운영사로, 3분기 실적이 예상을 웃돌았다",
+            "role": "응급·병원 사업 업체로 3분기 예상 상회",
             "why": [
               {
                 "id": "l4a",
-                "statement": "뉴텍스 헬스는 3분기 실적과 매출이 예상을 웃돌았다.",
+                "statement": "3분기 이익과 매출이 예상을 넘겼다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "Nutex Health Inc. (NUTX) Q3 Earnings and Revenues Beat Estimates",
-                    "publisher": "Zacks",
+                    "publisher": "Zacks(나스닥)",
                     "url": "https://www.nasdaq.com/articles/nutex-health-inc-nutx-q3-earnings-and-revenues-beat-estimates",
                     "date": "2026-11-05",
                     "quote": "Nutex Health Inc. (NUTX) Q3 Earnings and Revenues Beat Estimates",
@@ -3583,36 +3621,20 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 5.28,
-            "rnk1": 76.33,
+            "rnk6": 8.43,
+            "rnk1": 78.49,
             "name": "뉴텍스 헬스"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "유니버설 헬스 서비시스는 3분기 순이익이 예상에 못 미쳤다. 같은 업종 안에서도 실적이 엇갈린다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Universal Health Services (UHS) Misses Q3 Earnings Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/universal-health-services-uhs-misses-q3-earnings-estimates",
-                "date": "2026-10-27",
-                "quote": "Universal Health Services (UHS) Misses Q3 Earnings Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r2",
-            "statement": "내셔널 헬스 케어는 3분기 순이익이 줄었다.",
+            "statement": "내셔널 헬스 케어는 3분기 이익이 줄어 업종 안에서도 실적이 엇갈린다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "NHC Q3 Income Declines",
-                "publisher": "RTTNews",
+                "publisher": "RTTNews(나스닥)",
                 "url": "https://www.nasdaq.com/articles/nhc-q3-income-declines",
                 "date": "2026-11-06",
                 "quote": "NHC Q3 Income Declines",
@@ -3622,13 +3644,13 @@ window.TEAM5_DATA = {
             ]
           }
         ],
-        "sourceGap": "증권사 리포트가 없고 기사 대부분이 제목 수준이라 실적 세부 수치와 수요 배경은 쓰지 못했다.",
+        "sourceGap": "증권사 리포트 없음 — 나스닥 기사 제목과 CNBC 케미드 기사만으로 작성했고 본문 수치는 확보하지 못했다.",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "모든 주장(whyLeading, leaders, risks)이 출처의 제목·quote와 일치하며 날짜가 6개월 이내."
+          "reason": "모든 주장이 출처와 일치함."
         },
-        "evidenceCount": 58
+        "evidenceCount": 48
       }
     },
     {
@@ -4050,22 +4072,22 @@ window.TEAM5_DATA = {
       ],
       "report": {
         "status": "done",
-        "researchedOn": "2026-11-11",
-        "carried": true,
-        "headline": "인프라 소프트웨어는 AI 시대에 수요가 커진 사이버보안과 클라우드·AI 플랫폼 실적이 받치며 업종 순위 10위를 지키고 있다.",
-        "summary": "이 업종은 보안 소프트웨어(크라우드스트라이크·옥타·팔로알토)와 클라우드·AI 플랫폼(마이크로소프트·팔란티어)이 이끈다. 증권사들은 AI 확산이 보안 지출을 필수 예산으로 바꿨다고 본다. 크라우드스트라이크는 AI 보안 매출이 크게 늘었고, 마이크로소프트는 클라우드 성장이 다시 빨라졌다. 다만 팔로알토의 높은 주가 부담과 팔란티어 신규 계약 둔화, 마이크로소프트의 외부 데이터센터 임대 축소가 이어지면 강세가 약해질 수 있다.",
+        "researchedOn": "2026-11-17",
+        "carried": false,
+        "headline": "AI 시대에도 대체되지 않는 사이버보안과 AI 인프라 수혜 업체의 실적이 받쳐 업종 순위 8위를 지킨다.",
+        "summary": "인프라 소프트웨어는 업종 순위 8위로, 25거래일 전보다 2계단 내려왔다. 키움증권은 사이버보안이 AI에 대체될 위험이 낮고 보안 지출이 필수 예산이라는 점을 강세 이유로 꼽았다. 팔란티어는 3분기 매출이 거의 두 배로 늘었고, 마이크로소프트는 Azure 성장이 48%에 이르렀다. 다만 고평가 소프트웨어 조정과 팔란티어 신규 계약 둔화, 팔로알토 밸류에이션 부담이 이어지면 강세가 약해질 수 있다.",
         "whyLeading": [
           {
             "id": "w1",
-            "statement": "키움증권은 사이버보안이 소프트웨어 안에서 상대적 우위에 있다고 보고, 자발적 수요가 커진 국면에서는 성장 플랫폼 기업이 유리하다고 분석했다.",
+            "statement": "키움증권은 사이버보안이 AI 앞에서 소프트웨어와 정반대 위치에 있고 보안 지출이 필수 예산이라 주가가 강했다고 분석했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[미국은 지금] 사이버보안, 우위의 이유와 조건",
                 "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqllilmikmglixggcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqllilmikmglixggcgxeeeq.pdf",
                 "date": "2026-09-02",
-                "quote": "자발적 수요가 승부를 가르는 지금 국면에서 유리한 쪽은 성장 플랫폼군",
+                "quote": "주가가 강했던 세 가지 이유 > AI 앞에서 처한 위치가 소프트웨어와 정반대라는 점. 둘째, 보안 지출이 경기와 무관한 필수 예산이라는 성격이 재확인. 셋째, 실적이 이 재분류를 숫자로 입증",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4073,15 +4095,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w2",
-            "statement": "신한투자증권은 보안 사고가 반복되면서 기업이 사이버보안을 빨리 도입해야 할 필요성이 커졌다고 짚었다.",
+            "statement": "신한투자증권은 고성능 AI 모델이 침해 속도를 높여 오히려 보안 수요를 키우는 구조라고 짚었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[글로벌 이슈] Muse 이후의 AI 에이전트와 사이버보안",
+                "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 에이전트 부상과 함께 AI-보완 동행 지속",
                 "publisher": "신한투자증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmclmxeqllmlzkgcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmclmmxiqlqcgegcgxeeeq.pdf",
                 "date": "2026-10-02",
-                "quote": "사이버보안, 반복되는 보안 사고로 빠르게 도입해야 하는 필요성 증대",
+                "quote": "고성능 AI 모델이 침해 속도를 늘려 역으로 보안 수요를 높이는 구조",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4089,15 +4111,15 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w3",
-            "statement": "크라우드스트라이크는 AI 보안 매출이 직전 분기보다 3배 늘었다고 하나증권은 전했다. 보안 플랫폼 수요가 숫자로 확인되는 대표 사례다.",
+            "statement": "팔란티어는 3분기 매출이 전년 대비 95.9% 늘어 23.1억 달러를 기록했고 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요, 내러티브에서 숫자로",
-                "publisher": "하나증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxeeee.pdf",
-                "date": "2026-08-27",
-                "quote": "AIDR(AI보안) ARR 1분기 대비 3배 증가, Flex 모델 기반 ARR +101%",
+                "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+                "publisher": "한화증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeeeq.pdf",
+                "date": "2026-11-03",
+                "quote": "매출액 23.1억 달러(YoY +95.9%), 영업이익 14.3억 달러(YoY +137.6%), 조정 EPS 0.44달러(YoY +109.5%)로 각각 예상치 6.6%, 9.7%, 7.1% 상회",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4105,13 +4127,13 @@ window.TEAM5_DATA = {
           },
           {
             "id": "w4",
-            "statement": "마이크로소프트는 클라우드(Azure) 매출이 48% 늘며 AI 컴퓨팅 수요가 실적으로 확인됐다고 대신증권은 평가했다.",
+            "statement": "마이크로소프트는 Azure 매출이 48% 성장해 AI 컴퓨팅 수요가 실적으로 확인됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[마이크로소프트 (NAS:MSFT)] Azure 성장 재가속, AI 투자 효율 개선 본격화",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmiiekglkmgmqggcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmiiekglkmgmqggcgxeeeq.pdf",
                 "date": "2026-10-29",
                 "quote": "Azure 매출 48% 성장, AI 컴퓨팅 수요와 효율 개선 확인",
                 "verified": "ok",
@@ -4123,67 +4145,42 @@ window.TEAM5_DATA = {
         "leaders": [
           {
             "ticker": "CRWD",
-            "role": "AI 보안 수요의 직접 수혜를 보여 주는 보안 플랫폼 선두",
+            "role": "클라우드 기반 보안 플랫폼 1위로 AI 보안 수요의 직접 수혜",
             "why": [
               {
                 "id": "l1a",
-                "statement": "키움증권은 크라우드스트라이크의 2분기 신규 연간반복매출(ARR, 구독으로 매년 반복되는 매출)이 사상 최대라고 전했다.",
+                "statement": "키움증권은 크라우드스트라이크를 글로벌 1위 보안 플랫폼으로 보고, 신규 ARR(연간 반복 매출)이 사상 최대라고 전했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 막는 AI : AIDR",
                     "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxeeeq.pdf",
                     "date": "2026-08-27",
-                    "quote": "FY27 2Q 신규 ARR 3.33억 달러로 사상 최대, 가이던스 상단을 16% 상회",
+                    "quote": "CrowdStrike는 클라우드 네이티브 기반 글로벌 1위 보안 플랫폼 기업- FY27 2Q 신규 ARR 3.33억 달러로 사상 최대, 가이던스 상단을 16% 상회",
                     "verified": "ok",
                     "httpStatus": 200
                   }
                 ]
               }
             ],
-            "rnk6": 11.68,
-            "rnk1": 83.09,
+            "rnk6": 11.59,
+            "rnk1": 60.46,
             "name": "크라우드스트라이크 홀딩스"
           },
           {
-            "ticker": "PLTR",
-            "role": "AI 플랫폼으로 매출과 이익이 크게 늘어난 기업",
-            "why": [
-              {
-                "id": "l2a",
-                "statement": "팔란티어는 3분기 매출과 영업이익이 모두 예상치를 웃돌았다고 한화증권은 전했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
-                    "publisher": "한화증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeeee.pdf",
-                    "date": "2026-11-03",
-                    "quote": "매출액 23.1억 달러(YoY +95.9%), 영업이익 14.3억 달러(YoY +137.6%), 조정 EPS 0.44달러(YoY +109.5%)로 각각 예상치 6.6%, 9.7%, 7.1% 상회",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 24.03,
-            "rnk1": 89.22,
-            "name": "팔란티어 테크"
-          },
-          {
             "ticker": "MSFT",
-            "role": "클라우드와 기업용 AI로 업종 최대 시가총액을 이끄는 대형주",
+            "role": "Azure 가속으로 AI 인프라 수혜를 보는 대형 업체",
             "why": [
               {
                 "id": "l3a",
-                "statement": "마이크로소프트는 설비 증설이 늦어도 기존 설비 효율로 클라우드가 48% 성장했다고 키움증권은 분석했다.",
+                "statement": "키움증권은 마이크로소프트가 증설 지연에도 기존 설비 효율로 Azure 48% 성장과 FCF 흑자를 유지했다고 전했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[마이크로소프트 (NAS:MSFT)] 비용을 이긴 효율",
                     "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmigxqigzcmkxegcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmigxqigzcmkxegcgxeeeq.pdf",
                     "date": "2026-10-29",
                     "quote": "FY1Q27은 증설 지연에도 기존 설비 효율로 Azure가 48% 성장, FCF 흑자를 유지",
                     "verified": "ok",
@@ -4192,23 +4189,23 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 20.15,
-            "rnk1": 62.44,
+            "rnk6": 19.61,
+            "rnk1": 62.35,
             "name": "마이크로소프트"
           },
           {
             "ticker": "OKTA",
-            "role": "기업용 신원 보안(Identity) 플랫폼",
+            "role": "기업용 아이덴티티 보안 플랫폼으로 AI 에이전트 시장 선점 시도",
             "why": [
               {
                 "id": "l4a",
-                "statement": "옥타는 대형 고객과 신제품 판매가 늘며 2분기 실적이 좋았고 향후 계약 잔액(cRPO) 성장이 다시 빨라졌다고 키움증권은 평가했다.",
+                "statement": "키움증권은 옥타가 대형 고객 강세와 신제품 판매 증가로 2분기 호실적과 cRPO 성장 재가속을 냈다고 분석했다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
                     "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
                     "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxeeee.pdf",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlmxzlgkgmikeggcgxeeeq.pdf",
                     "date": "2026-09-17",
                     "quote": "대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속",
                     "verified": "ok",
@@ -4217,48 +4214,23 @@ window.TEAM5_DATA = {
                 ]
               }
             ],
-            "rnk6": 1.04,
-            "rnk1": 90.94,
+            "rnk6": 0.77,
+            "rnk1": 65.87,
             "name": "옥타"
-          },
-          {
-            "ticker": "PANW",
-            "role": "통합 보안 플랫폼 대형주",
-            "why": [
-              {
-                "id": "l5a",
-                "statement": "팔로알토는 분기 실적과 연간 가이던스(회사 전망)가 시장 예상을 웃돌았다고 키움증권은 전했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[팰로 앨토 네트웍스 (NAS:PANW)] FY2030E 장기 성장 목표 상회 여지가 주요 포인트",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqlmcleeczzqeqlgcgxeeee.pdf",
-                    "date": "2026-09-11",
-                    "quote": "FY4Q26 실적과 다음 분기, 연간 가이던스는 시장 컨센서스를 상회",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "rnk6": 16.1,
-            "rnk1": 88.05,
-            "name": "팰로 앨토 네트웍스"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "팔로알토는 주가가 비싸 성장 둔화가 확인되면 부담이 커진다고 대신증권이 지적했다.",
+            "statement": "고평가·고부채 소프트웨어가 조정받는 국면에서 급등했던 사이버보안도 함께 조정받고 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [27Q1 Preview] 컨센서스 상회보다 FY27 가이던스 상향 여부에 주목, 투자의견 중립 유지",
-                "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmiqimxkmceqzegcgxeeee.pdf",
-                "date": "2026-11-03",
-                "quote": "선행 PER 91.85배가 성장률 둔화 설정과 맞물려 있음",
+                "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 빈번해지는 보안 위험, 사이버보안 AI 동행이 가속될 필요",
+                "publisher": "신한투자증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkkxgzzimkklxgcgxeeeq.pdf",
+                "date": "2026-11-12",
+                "quote": "최근 SW 내에서 고밸류에이션 및 레버리지 높은 종목이 전반적으로 조정되는 구간에서 그동안 가파르게 상승해온 사이버보안 역시 다소 조정.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -4266,13 +4238,13 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r2",
-            "statement": "팔란티어는 실적이 좋아도 신규 계약 증가율이 크게 꺾여 시간외에서 주가가 내렸다.",
+            "statement": "팔란티어는 실적이 좋아도 신규 계약 성장률이 둔화해 시간 외 주가가 내렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
                 "publisher": "한화증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeeee.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeeeq.pdf",
                 "date": "2026-11-03",
                 "quote": "실적 호조와 연간 가이던스 상향에도 신규 계약 성장률 둔화(YoY +48.6% → +5.7%)로 시간 외 -3%",
                 "verified": "ok",
@@ -4282,28 +4254,30 @@ window.TEAM5_DATA = {
           },
           {
             "id": "r3",
-            "statement": "마이크로소프트는 설비투자와 잉여현금흐름 부담 속에 외부 데이터센터 임대를 가려서 하고 있어 AI 투자 속도 조절 신호가 될 수 있다.",
+            "statement": "팔로알토는 선행 PER 91.85배의 밸류에이션 부담이 성장 둔화 우려와 맞물려 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[마이크로소프트 (NAS:MSFT)] [Issue & News] 영국 Nscale과 텍사스 데이터센터 임대 두 배 확장 옵션 거절 - 외부 임대에 선별적 자본 배분",
+                "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [27Q1 Preview] 컨센서스 상회보다 FY27 가이던스 상향 여부에 주목, 투자의견 중립 유지",
                 "publisher": "대신증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmkeqgegmglizqgcgxeeee.pdf",
-                "date": "2026-11-05",
-                "quote": "급증하는 설비투자·FCF 부담 속 외부 임대엔 선별적 태도",
+                "url": "https://rreport.einfomax.co.kr/report/eqmiqimxkmceqzegcgxeeeq.pdf",
+                "date": "2026-11-03",
+                "quote": "선행 PER 91.85배가 성장률 둔화 설정과 맞물려 있음",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "sourceGap": "CNBC 기사는 본문을 열지 않아 제목 수준이고 증권사 리포트 중심으로 작성했다. 클라우드플레어 등 일부 종목은 리포트 근거가 없어 주도주에서 제외했다.",
+        "sourceGap": "CNBC 기사는 본문을 열지 않아 제목 수준이라 근거에서 뺐고, 증권사 리포트 요약만으로 작성했다. 클라우드플레어 등 다른 상위 종목은 리포트가 없어 주도주에서 제외했다.",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 근거 기반 주장이 출처 인용문과 일치하며 6개월 이내 최근 자료에 의존. 오직 근거 없는 '업종 순위 10위' 부분만 headline에서 제거하고 남은 실적 근거로 재구성."
+          "verdict": "partial",
+          "removed": [
+            "l2a"
+          ],
+          "reason": "l2a: 팔란티어 leader 근거의 '소버린 AI가 대형 계약 전환을 이끈다'는 주장이 quote에 명시되지 않음. '또 다시 역대 최고 수준 실적을 경신'만 인증됨."
         },
-        "evidenceCount": 105
+        "evidenceCount": 117
       }
     },
     {

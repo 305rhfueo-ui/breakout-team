@@ -1,0 +1,534 @@
+{
+ "ticker": "ECO",
+ "date": "2026-11-17",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "ECO",
+  "name": "오케아니스 에코 탱커스",
+  "sector": "Industrials",
+  "industry": "Marine Shipping",
+  "price": 88.81999969482422,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 102.56,
+  "stop": 98.49,
+  "distToPivotPct": -17.29,
+  "distToPivotAdr": -3.6,
+  "riskPerSharePct": 3.97,
+  "adrPct": 4.8,
+  "extensionAdr": -0.13,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 16,
+   "baseWeeks": 3.2,
+   "depthPct": 23.5,
+   "priorMovePct": 77.6,
+   "higherLows": 0,
+   "contraction": 1.01,
+   "closeRange10Adr": 3,
+   "surf10": -0.13,
+   "surf20": -1.28,
+   "slope20": -1.86,
+   "baseLow": 78.5,
+   "lastSwingLow": 78.5
+  },
+  "reasons": [
+   "선행 상승 +78%",
+   "베이스 3.2주",
+   "깊이 23.5%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.01배 · 10일 종가폭 3 ADR",
+   "✗ 10일선 -0.1 ADR · 20일선 -1.3 ADR",
+   "✗ 20일선 기울기 -1.86%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.03232814439977786,
+    "pct": 37.556357078449054
+   },
+   "m3": {
+    "v": 0.4283119935508279,
+    "pct": 99.0532010820559
+   },
+   "m6": {
+    "v": 0.9469555291355813,
+    "pct": 98.87285843101894
+   }
+  },
+  "ret1m": -0.98,
+  "ret3m": 38.56,
+  "ret6m": 87.99,
+  "marketCap": "3.47B",
+  "volx": 0.96,
+  "volSurgeWk": 0.95,
+  "high52": 86.6,
+  "newHigh52": false,
+  "adr": 4.96,
+  "div50": 2.88,
+  "div200": 53.99,
+  "targetStatus": true,
+  "saleCy": 387.85,
+  "saleNy": -50.45,
+  "epsCy": 647.21,
+  "epsNy": -55.48,
+  "cyTrend": 83.76,
+  "nyTrend": 111.47,
+  "est": {
+   "cyCur": 28.17,
+   "cy30": 15.33,
+   "nyCur": 12.54,
+   "ny30": 5.93
+  },
+  "fs": {
+   "sale": [
+    239.4,
+    112.31,
+    48.91
+   ],
+   "ni": [
+    756.59,
+    603.4,
+    350.62
+   ],
+   "opm": [
+    74.97,
+    57.62,
+    54.07
+   ],
+   "updated": "2026-09-15 06:32:53"
+  },
+  "qualifiedBy": [
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-11",
+   "m6": "2026-11-12"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 3,
+   "m6": 2
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-17",
+  "nameKo": "오케아니스 에코 탱커스",
+  "nameEn": "OKEANIS ECO TANKERS CORP",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-solid-growth-stock-3-reasons-think-yes",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Okeanis Eco Tankers Corp. (ECO) Upgraded to Strong Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-upgraded-strong-buy-heres-why",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) Stock Outpacing Its Transportation Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-stock-outpacing-its-transportation-peers-year",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Okeanis Q3 Earnings Call Highlights Tanker Rates and Market Risks",
+     "url": "https://www.nasdaq.com/articles/okeanis-q3-earnings-call-highlights-tanker-rates-and-market-risks",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Okeanis Eco Tankers Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-q3-earnings-call-highlights",
+     "date": "2026-11-12",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Okeanis (ECO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-q3-2026-earnings-call-transcript",
+     "date": "2026-11-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Okeanis Eco Tankers Corp. (ECO) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Okeanis Eco Q3 Earnings on Deck: How to Approach the Stock Now?",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-q3-earnings-deck-how-approach-stock-now",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+   "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html",
+   "date": "2026-09-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ECO",
+  "fetchedAt": "2026-11-17",
+  "source": "한국투자증권 Open API",
+  "per": 7.91,
+  "pbr": 3.77,
+  "eps": 10.72,
+  "bps": 22.47,
+  "shares": 39044655,
+  "marketCapM": 3312,
+  "high52": 102.56,
+  "high52Date": "2026-10-29",
+  "low52": 27.2119,
+  "low52Date": "2026-01-02",
+  "last": 84.83,
+  "prevClose": 88.82,
+  "nameKo": "오케아니스 에코 탱커스",
+  "nameEn": "OKEANIS ECO TANKERS CORP",
+  "listedOn": "2023-12-11",
+  "exchange": "뉴욕거래소",
+  "listedShares": 39044655
+ },
+ "estimates": {
+  "ticker": "ECO",
+  "url": "https://finance.yahoo.com/quote/ECO/analysis/",
+  "fetchedAt": "2026-11-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 12.26,
+    "epsLow": 3.69,
+    "epsHigh": 3.69,
+    "epsYearAgo": 1.78,
+    "epsAnalysts": 1,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 558243190,
+    "revAnalysts": 3,
+    "revYearAgo": 92899920,
+    "revGrowth": "n/m",
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 283933330,
+    "revAnalysts": 3,
+    "revYearAgo": 132220470,
+    "revGrowth": 114.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 28.17,
+    "epsLow": 28.17,
+    "epsHigh": 28.17,
+    "epsYearAgo": 3.77,
+    "epsAnalysts": 1,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 1294697930,
+    "revAnalysts": 3,
+    "revYearAgo": 265415590,
+    "revGrowth": 387.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 12.54,
+    "epsLow": 12.54,
+    "epsHigh": 12.54,
+    "epsYearAgo": 28.17,
+    "epsAnalysts": 1,
+    "epsGrowth": -55.5,
+    "epsCur": "USD",
+    "rev": 641618200,
+    "revAnalysts": 5,
+    "revYearAgo": 1294697930,
+    "revGrowth": -50.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.69,
+    "d7": 0,
+    "d30": 0,
+    "d90": 305.5,
+    "ago90": 0.91,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 28.17,
+    "d7": 83.8,
+    "d30": 83.8,
+    "d90": 83.8,
+    "ago90": 15.33,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 12.54,
+    "d7": 111.5,
+    "d30": 111.5,
+    "d90": 111.5,
+    "ago90": 5.93,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 7.67,
+    "estimate": 3.69,
+    "surprisePct": 107.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.33,
+    "estimate": 1.74,
+    "surprisePct": 33.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.77,
+    "estimate": 0.36,
+    "surprisePct": 116.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-11-13",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 100,
+     "ptPrior": 75
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-11",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-16",
+  "numbers": {
+   "price": 84.83,
+   "ma20": 90.04,
+   "ma50": 86.6,
+   "ma150": 66.29,
+   "distMA50": -2.04,
+   "periodHigh": 102.56,
+   "pullbackFromHigh": -17.29,
+   "volRatio20": 1.09,
+   "dryUpRatio": 1.08
+  },
+  "last10": [
+   {
+    "d": "2026-11-03",
+    "o": 92.19,
+    "h": 93.96,
+    "l": 91.5,
+    "c": 93.26,
+    "v": 822400,
+    "clsPos": 72,
+    "gapPct": 1.03
+   },
+   {
+    "d": "2026-11-04",
+    "o": 89.42,
+    "h": 91.38,
+    "l": 84.5,
+    "c": 84.9,
+    "v": 1865500,
+    "clsPos": 6,
+    "gapPct": -4.12
+   },
+   {
+    "d": "2026-11-05",
+    "o": 85.26,
+    "h": 86.94,
+    "l": 80.96,
+    "c": 81.18,
+    "v": 1369700,
+    "clsPos": 4,
+    "gapPct": 0.42
+   },
+   {
+    "d": "2026-11-06",
+    "o": 83.21,
+    "h": 84.35,
+    "l": 81.33,
+    "c": 83.26,
+    "v": 772900,
+    "clsPos": 64,
+    "gapPct": 2.5
+   },
+   {
+    "d": "2026-11-09",
+    "o": 84.11,
+    "h": 85.89,
+    "l": 81.41,
+    "c": 82.21,
+    "v": 819700,
+    "clsPos": 18,
+    "gapPct": 1.02
+   },
+   {
+    "d": "2026-11-10",
+    "o": 79.82,
+    "h": 82.62,
+    "l": 78.5,
+    "c": 81.67,
+    "v": 941100,
+    "clsPos": 77,
+    "gapPct": -2.91
+   },
+   {
+    "d": "2026-11-11",
+    "o": 84.65,
+    "h": 86.24,
+    "l": 83.79,
+    "c": 85.75,
+    "v": 861300,
+    "clsPos": 80,
+    "gapPct": 3.65
+   },
+   {
+    "d": "2026-11-12",
+    "o": 83.47,
+    "h": 88,
+    "l": 82.35,
+    "c": 87.67,
+    "v": 1279300,
+    "clsPos": 94,
+    "gapPct": -2.66
+   },
+   {
+    "d": "2026-11-13",
+    "o": 89.06,
+    "h": 89.2,
+    "l": 85.58,
+    "c": 88.82,
+    "v": 888700,
+    "clsPos": 90,
+    "gapPct": 1.59
+   },
+   {
+    "d": "2026-11-16",
+    "o": 87.5,
+    "h": 87.84,
+    "l": 84.45,
+    "c": 84.83,
+    "v": 1007300,
+    "clsPos": 11,
+    "gapPct": -1.49
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ECO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ECO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 20일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "호르무즈 봉쇄로 길어진 항로가 유조선 운임을 끌어올려 이익이 기록적으로 늘고 있다",
+  "researchedOn": "2026-11-07"
+ }
+}

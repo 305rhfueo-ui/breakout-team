@@ -1,0 +1,760 @@
+{
+ "ticker": "SIG",
+ "date": "2026-11-17",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "SIG",
+  "name": "시그넷 주얼러스",
+  "sector": "Consumer Cyclical",
+  "industry": "Luxury Goods",
+  "price": 113.9800033569336,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 129.26,
+  "stop": 125,
+  "distToPivotPct": -15.53,
+  "distToPivotAdr": -3.98,
+  "riskPerSharePct": 3.29,
+  "adrPct": 3.9,
+  "extensionAdr": -2.25,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 10,
+   "baseWeeks": 2,
+   "depthPct": 16.8,
+   "priorMovePct": 63.6,
+   "higherLows": 0,
+   "contraction": 1.54,
+   "closeRange10Adr": 4.5,
+   "surf10": -2.25,
+   "surf20": -2,
+   "slope20": 0.55,
+   "baseLow": 107.6,
+   "lastSwingLow": 107.6
+  },
+  "reasons": [
+   "선행 상승 +64%",
+   "베이스 2주",
+   "깊이 16.8%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.54배 · 10일 종가폭 4.5 ADR",
+   "✗ 10일선 -2.2 ADR · 20일선 -2 ADR",
+   "20일선 기울기 +0.55%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.006964050189503891,
+    "pct": 29.440937781785394
+   },
+   "m3": {
+    "v": 0.4537010008077076,
+    "pct": 99.41388638412985
+   },
+   "m6": {
+    "v": 0.4325049466460598,
+    "pct": 89.31469792605952
+   }
+  },
+  "ret1m": -3.52,
+  "ret3m": 41.1,
+  "ret6m": 36.55,
+  "marketCap": "4.37B",
+  "volx": 1.2,
+  "volSurgeWk": 1.47,
+  "high52": 88.18,
+  "newHigh52": false,
+  "adr": 3.63,
+  "div50": 5.19,
+  "div200": 22.76,
+  "targetStatus": false,
+  "saleCy": 0.73,
+  "saleNy": 1.9,
+  "epsCy": 21.85,
+  "epsNy": 16.69,
+  "cyTrend": -0.21,
+  "nyTrend": -0.7,
+  "est": {
+   "cyCur": 11.69727,
+   "cy30": 11.72144,
+   "nyCur": 13.64905,
+   "ny30": 13.74489
+  },
+  "fs": {
+   "sale": [
+    0.78,
+    -0.32,
+    3.14
+   ],
+   "ni": [
+    -5.37,
+    148.51,
+    270.37
+   ],
+   "opm": [
+    2.38,
+    13.57,
+    1.72
+   ],
+   "updated": "2026-09-08 10:03:39"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-04",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 8,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-17",
+  "nameKo": "시그넷 주얼러스",
+  "nameEn": "SIGNET JEWELERS LTD",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000832988&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 1528100000,
+     "profit": 87500000,
+     "netIncome": 52100000,
+     "margin": 5.7,
+     "yoy": {
+      "revenue": -0.5,
+      "profit": 3025,
+      "netIncome": 672.5,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 1553600000,
+     "profit": 36900000,
+     "netIncome": 31700000,
+     "margin": 2.4,
+     "yoy": {
+      "revenue": 0.8,
+      "profit": -23.3,
+      "netIncome": -5.4,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 2345100000,
+     "profit": 318300000,
+     "netIncome": 250000000,
+     "margin": 13.6,
+     "yoy": {
+      "revenue": -0.3,
+      "profit": 108.6,
+      "netIncome": 148.5,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 1391800000,
+     "profit": 23900000,
+     "netIncome": 20000000,
+     "margin": 1.7,
+     "yoy": {
+      "revenue": 3.1,
+      "profit": 159.8,
+      "netIncome": 185.7,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Signet (SIG) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-signet-sig-fell-more-broader-market",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Signet (SIG) Ascends But Remains Behind Market: Some Facts to Note",
+     "url": "https://www.nasdaq.com/articles/signet-sig-ascends-remains-behind-market-some-facts-note",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Retail-Wholesale Stocks Lagging  Signet Jewelers (SIG) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-signet-jewelers-sig-year-0",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Signet Jewelers Limited (SIG) Hit a 52 Week High, Can the Run Continue?",
+     "url": "https://www.nasdaq.com/articles/signet-jewelers-limited-sig-hit-52-week-high-can-run-continue",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Signet (SIG) Increases Despite Market Slip: Here's What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/signet-sig-increases-despite-market-slip-heres-what-you-need-know",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SIG vs. CFRUY: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/sig-vs-cfruy-which-stock-better-value-option-0",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Signet Jewelers (SIG) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-signet-jewelers-sig-stock",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Signet Jewelers Limited (SIG): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-signet-jewelers-limited-sig-here-what-you-need-know",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000240/sig-20261030.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-14",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000231/sig-20260910.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-09",
+    "itemsKo": [
+     "중요 계약 체결",
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/sig-20260904.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000185/sig-20260702.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-30",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000173/sig-20260626.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000161/sig-20260608.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "What's behind the fall of diamond prices to record lows",
+   "url": "https://www.cnbc.com/2026/09/26/whats-behind-the-fall-of-diamond-prices-to-record-lows.html",
+   "date": "2026-09-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
+   "url": "https://www.cnbc.com/investingclub/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Meta, Centerspace, Apple, Casey's General Stores",
+   "url": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Apple, Casey's General Store, Signet Jewelers",
+   "url": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "SIG",
+  "fetchedAt": "2026-11-17",
+  "source": "한국투자증권 Open API",
+  "per": 12.58,
+  "pbr": 2.3,
+  "eps": 8.68,
+  "bps": 47.43,
+  "shares": 37294200,
+  "marketCapM": 4072,
+  "high52": 129.2571,
+  "high52Date": "2026-11-05",
+  "low52": 71.122,
+  "low52Date": "2026-05-19",
+  "last": 109.18,
+  "prevClose": 113.98,
+  "nameKo": "시그넷 주얼러스",
+  "nameEn": "SIGNET JEWELERS LTD",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 37294200
+ },
+ "estimates": {
+  "ticker": "SIG",
+  "url": "https://finance.yahoo.com/quote/SIG/analysis/",
+  "fetchedAt": "2026-11-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 0.87,
+    "epsLow": 0.71,
+    "epsHigh": 1.01,
+    "epsYearAgo": 0.63,
+    "epsAnalysts": 9,
+    "epsGrowth": 38.1,
+    "epsCur": "USD",
+    "rev": 1401060610,
+    "revAnalysts": 9,
+    "revYearAgo": 1391800000,
+    "revGrowth": 0.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 7.21,
+    "epsLow": 6.73,
+    "epsHigh": 7.59,
+    "epsYearAgo": 6.25,
+    "epsAnalysts": 9,
+    "epsGrowth": 15.3,
+    "epsCur": "USD",
+    "rev": 2379093320,
+    "revAnalysts": 9,
+    "revYearAgo": 2345100000,
+    "revGrowth": 1.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 11.7,
+    "epsLow": 11,
+    "epsHigh": 12.15,
+    "epsYearAgo": 9.6,
+    "epsAnalysts": 10,
+    "epsGrowth": 21.9,
+    "epsCur": "USD",
+    "rev": 6863138540,
+    "revAnalysts": 10,
+    "revYearAgo": 6813600000,
+    "revGrowth": 0.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 13.65,
+    "epsLow": 11.98,
+    "epsHigh": 16,
+    "epsYearAgo": 11.7,
+    "epsAnalysts": 10,
+    "epsGrowth": 16.7,
+    "epsCur": "USD",
+    "rev": 6993486320,
+    "revAnalysts": 10,
+    "revYearAgo": 6863138540,
+    "revGrowth": 1.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 0.87,
+    "d7": -1.8,
+    "d30": -1.2,
+    "d90": 16.4,
+    "ago90": 0.75,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 7.21,
+    "d7": -0.3,
+    "d30": -0.2,
+    "d90": 5,
+    "ago90": 6.87,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 11.7,
+    "d7": -0.2,
+    "d30": -0.2,
+    "d90": 8.3,
+    "ago90": 10.8,
+    "up7": 1,
+    "up30": 11,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 13.65,
+    "d7": -0.7,
+    "d30": -0.7,
+    "d90": 11,
+    "ago90": 12.3,
+    "up7": 1,
+    "up30": 10,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 2.19,
+    "estimate": 1.74,
+    "surprisePct": 26.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 1.56,
+    "estimate": 1.38,
+    "surprisePct": 12.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 6.25,
+    "estimate": 6.11,
+    "surprisePct": 2.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.63,
+    "estimate": 0.29,
+    "surprisePct": 119.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 9,
+   "ptLowered": 0,
+   "total": 10,
+   "recent": [
+    {
+     "date": "2026-09-11",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 109,
+     "ptPrior": 96
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Telsey Advisory Group",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 105,
+     "ptPrior": 96
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Raymond James",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 140,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 136,
+     "ptPrior": 122
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 102
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 100,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Stephens & Co.",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 130,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 122,
+     "ptPrior": 121
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-02",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-16",
+  "numbers": {
+   "price": 109.18,
+   "ma20": 117.7,
+   "ma50": 109.04,
+   "ma150": 94.31,
+   "distMA50": 0.12,
+   "periodHigh": 129.26,
+   "pullbackFromHigh": -15.53,
+   "volRatio20": 1.19,
+   "dryUpRatio": 0.91
+  },
+  "last10": [
+   {
+    "d": "2026-11-03",
+    "o": 119.3,
+    "h": 120.51,
+    "l": 118.01,
+    "c": 118.9,
+    "v": 515300,
+    "clsPos": 36,
+    "gapPct": -0.54
+   },
+   {
+    "d": "2026-11-04",
+    "o": 123.05,
+    "h": 128.99,
+    "l": 123.05,
+    "c": 128.4,
+    "v": 1175300,
+    "clsPos": 90,
+    "gapPct": 3.49
+   },
+   {
+    "d": "2026-11-05",
+    "o": 129.05,
+    "h": 129.26,
+    "l": 121.25,
+    "c": 121.92,
+    "v": 629900,
+    "clsPos": 8,
+    "gapPct": 0.51
+   },
+   {
+    "d": "2026-11-06",
+    "o": 119.06,
+    "h": 122.69,
+    "l": 116.6,
+    "c": 117.26,
+    "v": 739200,
+    "clsPos": 11,
+    "gapPct": -2.35
+   },
+   {
+    "d": "2026-11-09",
+    "o": 119.8,
+    "h": 120.25,
+    "l": 116.38,
+    "c": 118.58,
+    "v": 688500,
+    "clsPos": 57,
+    "gapPct": 2.17
+   },
+   {
+    "d": "2026-11-10",
+    "o": 117.39,
+    "h": 121.24,
+    "l": 116.07,
+    "c": 120.34,
+    "v": 599700,
+    "clsPos": 83,
+    "gapPct": -1
+   },
+   {
+    "d": "2026-11-11",
+    "o": 119.14,
+    "h": 120.9,
+    "l": 116.98,
+    "c": 120.7,
+    "v": 435000,
+    "clsPos": 95,
+    "gapPct": -1
+   },
+   {
+    "d": "2026-11-12",
+    "o": 120.4,
+    "h": 121.54,
+    "l": 116.91,
+    "c": 118.22,
+    "v": 497600,
+    "clsPos": 28,
+    "gapPct": -0.25
+   },
+   {
+    "d": "2026-11-13",
+    "o": 118.11,
+    "h": 118.45,
+    "l": 113.32,
+    "c": 113.98,
+    "v": 872700,
+    "clsPos": 13,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-11-16",
+    "o": 113.32,
+    "h": 117,
+    "l": 107.6,
+    "c": 109.18,
+    "v": 848500,
+    "clsPos": 17,
+    "gapPct": -0.58
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SIG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SIG-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 20일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "부분 충족",
+  "headline": "상품 구성 개편으로 판매단가는 오르지만, 이익 급증의 주인공은 손상 축소다",
+  "researchedOn": "2026-11-07"
+ }
+}

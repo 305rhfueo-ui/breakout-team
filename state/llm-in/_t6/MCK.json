@@ -1,0 +1,773 @@
+{
+ "ticker": "MCK",
+ "date": "2026-11-17",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "MCK",
+  "name": "매케손",
+  "sector": "Healthcare",
+  "industry": "Medical Distribution",
+  "price": 1102.81005859375,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 1121.5,
+  "stop": 1095.42,
+  "distToPivotPct": -1.47,
+  "distToPivotAdr": -0.62,
+  "riskPerSharePct": 2.33,
+  "adrPct": 2.36,
+  "extensionAdr": 1.31,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 8,
+   "baseWeeks": 1.6,
+   "depthPct": 10.4,
+   "priorMovePct": 33.8,
+   "higherLows": 1,
+   "contraction": 1.37,
+   "closeRange10Adr": 4,
+   "surf10": 1.31,
+   "surf20": 2.76,
+   "slope20": 2.45,
+   "baseLow": 1004.88,
+   "lastSwingLow": 1004.88
+  },
+  "reasons": [
+   "선행 상승 +34%",
+   "✗ 베이스 1.6주",
+   "깊이 10.4%",
+   "저점 상승 1회",
+   "✗ 진폭 1.37배 · 10일 종가폭 4 ADR",
+   "10일선 +1.3 ADR · 20일선 +2.8 ADR",
+   "20일선 기울기 +2.45%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.13963673162096765,
+    "pct": 77.77276825969341
+   },
+   "m3": {
+    "v": 0.3588876800039864,
+    "pct": 98.24165915238953
+   },
+   "m6": {
+    "v": 0.5320156409459805,
+    "pct": 93.55275022542831
+   }
+  },
+  "ret1m": 9.75,
+  "ret3m": 31.62,
+  "ret6m": 46.5,
+  "marketCap": "127.33B",
+  "volx": 0.79,
+  "volSurgeWk": 0.9,
+  "high52": 98.33,
+  "newHigh52": false,
+  "adr": 2.45,
+  "div50": 15.47,
+  "div200": 26.31,
+  "targetStatus": false,
+  "saleCy": 7.94,
+  "saleNy": 6.87,
+  "epsCy": 17.95,
+  "epsNy": 13.3,
+  "cyTrend": 3.34,
+  "nyTrend": 3.1,
+  "est": {
+   "cyCur": 46.13147,
+   "cy30": 44.6406,
+   "nyCur": 52.26468,
+   "ny30": 50.69504
+  },
+  "fs": {
+   "sale": [
+    7.72,
+    6.02,
+    11.4
+   ],
+   "ni": [
+    -21.68,
+    33.49,
+    34.93
+   ],
+   "opm": [
+    1.25,
+    2.23,
+    1.53
+   ],
+   "updated": "2026-09-09 06:25:02"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-13",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-14",
+  "nameKo": "매케손",
+  "nameEn": "MCKESSON CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927653&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 110957000000,
+     "profit": 1604000000,
+     "netIncome": 1218000000,
+     "margin": 1.4,
+     "yoy": {
+      "revenue": 7.6,
+      "profit": 14,
+      "netIncome": 9.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 105380000000,
+     "profit": 1319000000,
+     "netIncome": 614000000,
+     "margin": 1.3,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": 27.3,
+      "netIncome": -21.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 96295000000,
+     "profit": 2150000000,
+     "netIncome": 1682000000,
+     "margin": 2.2,
+     "yoy": {
+      "revenue": 6,
+      "profit": 35.1,
+      "netIncome": 33.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 106158000000,
+     "profit": 1619000000,
+     "netIncome": 1186000000,
+     "margin": 1.5,
+     "yoy": {
+      "revenue": 11.4,
+      "profit": 32.3,
+      "netIncome": 34.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here is What to Know Beyond Why McKesson Corporation (MCK) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-mckesson-corporation-mck-trending-stock-1",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook McKesson (MCK)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-mckesson-mck",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McKesson Consensus Price Target Raised 10% to $1,157.23",
+     "url": "https://www.nasdaq.com/articles/mckesson-consensus-price-target-raised-10-115723",
+     "date": "2026-11-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "McKesson Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/mckesson-q2-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "McKesson (MCK) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/mckesson-mck-upgraded-buy-heres-what-you-should-know",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McKesson Corporation (MCK) Hit a 52 Week High, Can the Run Continue?",
+     "url": "https://www.nasdaq.com/articles/mckesson-corporation-mck-hit-52-week-high-can-run-continue",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "McKesson (MCK) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mckesson-mck-q2-2027-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "MCK Q2 Earnings Call Highlights Raised Outlook and Specialty Growth",
+     "url": "https://www.nasdaq.com/articles/mck-q2-earnings-call-highlights-raised-outlook-and-specialty-growth",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000279/mck-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000253/mck-20261006.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000247/mck-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000232/mck-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000215/mck-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000185/mck-20260629.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "McKesson’s specialty-care shift",
+   "url": "https://www.cnbc.com/2026/11/13/mckesson-stock-specialty-growth-valuation.html",
+   "date": "2026-11-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Alphabet, AMD, Lennar, P&G and more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A rapid-fire update on our 33-stock portfolio, including 6 stocks to buy now",
+   "url": "https://www.cnbc.com/investingclub/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Staff Picks: This medical supply play could be a port in the storm in this volatile market",
+   "url": "https://www.cnbc.com/video/2026/11/13/staff-picks-this-medical-supply-play-could-be-a-port-in-the-storm-in-this-volatile-market.html",
+   "date": "2026-11-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lightning Round: Cipher is going down because it should be going down, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/14/lightning-round-cipher-is-going-down-because-it-should-be-going-down-says-jim-cramer.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Tuesday, October 6, 2026: Cramer says AI can't replace this cybersecurity firm",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/06/tuesday-october-6-2026-cramer-says-ai-cant-replace-this-cybersecurity-firm.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MCK",
+  "fetchedAt": "2026-11-17",
+  "source": "한국투자증권 Open API",
+  "per": 29.57,
+  "pbr": 0,
+  "eps": 37.37,
+  "bps": 0,
+  "shares": 115457000,
+  "marketCapM": 127585,
+  "high52": 1121.5,
+  "high52Date": "2026-11-05",
+  "low52": 722.1134,
+  "low52Date": "2026-05-11",
+  "last": 1105.04,
+  "prevClose": 1102.81,
+  "nameKo": "매케손",
+  "nameEn": "MCKESSON CORPORATION",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 115457000
+ },
+ "estimates": {
+  "ticker": "MCK",
+  "url": "https://finance.yahoo.com/quote/MCK/analysis/",
+  "fetchedAt": "2026-11-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 10.95,
+    "epsLow": 10.49,
+    "epsHigh": 11.71,
+    "epsYearAgo": 9.34,
+    "epsAnalysts": 10,
+    "epsGrowth": 17.3,
+    "epsCur": "USD",
+    "rev": 114021166480,
+    "revAnalysts": 10,
+    "revYearAgo": 106158000000,
+    "revGrowth": 7.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 13.64,
+    "epsLow": 12.68,
+    "epsHigh": 14.3,
+    "epsYearAgo": 11.69,
+    "epsAnalysts": 10,
+    "epsGrowth": 16.7,
+    "epsCur": "USD",
+    "rev": 104781114450,
+    "revAnalysts": 10,
+    "revYearAgo": 96295000000,
+    "revGrowth": 8.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 46.13,
+    "epsLow": 45.93,
+    "epsHigh": 46.4,
+    "epsYearAgo": 39.11,
+    "epsAnalysts": 13,
+    "epsGrowth": 18,
+    "epsCur": "USD",
+    "rev": 435462416570,
+    "revAnalysts": 14,
+    "revYearAgo": 403430000000,
+    "revGrowth": 7.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 52.26,
+    "epsLow": 50.6,
+    "epsHigh": 54.01,
+    "epsYearAgo": 46.13,
+    "epsAnalysts": 16,
+    "epsGrowth": 13.3,
+    "epsCur": "USD",
+    "rev": 465364888150,
+    "revAnalysts": 14,
+    "revYearAgo": 435462416570,
+    "revGrowth": 6.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 10.95,
+    "d7": -0.1,
+    "d30": 0.4,
+    "d90": -0.1,
+    "ago90": 10.96,
+    "up7": 3,
+    "up30": 2,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 13.64,
+    "d7": 0.8,
+    "d30": 3,
+    "d90": 3.6,
+    "ago90": 13.16,
+    "up7": 5,
+    "up30": 5,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 46.13,
+    "d7": 0.5,
+    "d30": 3.4,
+    "d90": 3.5,
+    "ago90": 44.58,
+    "up7": 7,
+    "up30": 7,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 52.26,
+    "d7": 0.4,
+    "d30": 3.1,
+    "d90": 3.4,
+    "ago90": 50.53,
+    "up7": 8,
+    "up30": 9,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 11.68,
+    "estimate": 10.75,
+    "surprisePct": 8.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 9.93,
+    "estimate": 9.54,
+    "surprisePct": 4.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 11.69,
+    "estimate": 11.57,
+    "surprisePct": 1.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 9.34,
+    "estimate": 9.27,
+    "surprisePct": 0.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 10,
+   "ptLowered": 0,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-11-10",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 1255,
+     "ptPrior": 1042
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 1250,
+     "ptPrior": 1200
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 1200,
+     "ptPrior": 1006
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Leerink Partners",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 1200,
+     "ptPrior": 1070
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 965,
+     "ptPrior": 845
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 1200,
+     "ptPrior": 1000
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 1020,
+     "ptPrior": 905
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 1200,
+     "ptPrior": 1080
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "Leerink Partners",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 1070,
+     "ptPrior": 1030
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Maintains",
+     "pt": 845,
+     "ptPrior": 845
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-03",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-16",
+  "numbers": {
+   "price": 1105.04,
+   "ma20": 1033.08,
+   "ma50": 959.03,
+   "ma150": 862.64,
+   "distMA50": 15.22,
+   "periodHigh": 1121.5,
+   "pullbackFromHigh": -1.47,
+   "volRatio20": 1.03,
+   "dryUpRatio": 0.81
+  },
+  "last10": [
+   {
+    "d": "2026-11-03",
+    "o": 990.89,
+    "h": 1009.36,
+    "l": 983.62,
+    "c": 999.62,
+    "v": 691000,
+    "clsPos": 62,
+    "gapPct": -0.75
+   },
+   {
+    "d": "2026-11-04",
+    "o": 1020,
+    "h": 1073.95,
+    "l": 1004.88,
+    "c": 1069.44,
+    "v": 1169800,
+    "clsPos": 93,
+    "gapPct": 2.04
+   },
+   {
+    "d": "2026-11-05",
+    "o": 1085.84,
+    "h": 1121.5,
+    "l": 1072,
+    "c": 1072,
+    "v": 1285600,
+    "clsPos": 0,
+    "gapPct": 1.53
+   },
+   {
+    "d": "2026-11-06",
+    "o": 1051.67,
+    "h": 1070.15,
+    "l": 1046.7,
+    "c": 1060.84,
+    "v": 812100,
+    "clsPos": 60,
+    "gapPct": -1.9
+   },
+   {
+    "d": "2026-11-09",
+    "o": 1067.49,
+    "h": 1069.11,
+    "l": 1055.73,
+    "c": 1059.37,
+    "v": 490600,
+    "clsPos": 27,
+    "gapPct": 0.63
+   },
+   {
+    "d": "2026-11-10",
+    "o": 1064.42,
+    "h": 1086.94,
+    "l": 1059,
+    "c": 1082.59,
+    "v": 605100,
+    "clsPos": 84,
+    "gapPct": 0.48
+   },
+   {
+    "d": "2026-11-11",
+    "o": 1075.23,
+    "h": 1081.47,
+    "l": 1067.38,
+    "c": 1079.79,
+    "v": 474900,
+    "clsPos": 88,
+    "gapPct": -0.68
+   },
+   {
+    "d": "2026-11-12",
+    "o": 1090,
+    "h": 1090.9,
+    "l": 1074.65,
+    "c": 1077.05,
+    "v": 539000,
+    "clsPos": 15,
+    "gapPct": 0.95
+   },
+   {
+    "d": "2026-11-13",
+    "o": 1087.46,
+    "h": 1104.32,
+    "l": 1083.54,
+    "c": 1102.81,
+    "v": 527400,
+    "clsPos": 93,
+    "gapPct": 0.97
+   },
+   {
+    "d": "2026-11-16",
+    "o": 1117.98,
+    "h": 1118.01,
+    "l": 1099.7,
+    "c": 1105.04,
+    "v": 733500,
+    "clsPos": 29,
+    "gapPct": 1.38
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MCK-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MCK-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 20일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

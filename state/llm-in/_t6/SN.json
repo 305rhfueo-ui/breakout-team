@@ -1,0 +1,790 @@
+{
+ "ticker": "SN",
+ "date": "2026-11-17",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "SN",
+  "name": "샤크닌자",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "price": 226.38999938964844,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 232.76,
+  "stop": 224.55,
+  "distToPivotPct": -4.07,
+  "distToPivotAdr": -1.11,
+  "riskPerSharePct": 3.53,
+  "adrPct": 3.68,
+  "extensionAdr": 0.12,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 8,
+   "baseWeeks": 1.6,
+   "depthPct": 8.5,
+   "priorMovePct": 48.2,
+   "higherLows": 1,
+   "contraction": 1.3,
+   "closeRange10Adr": 2.3,
+   "surf10": 0.12,
+   "surf20": 1.38,
+   "slope20": 4.41,
+   "baseLow": 212.91,
+   "lastSwingLow": 212.91
+  },
+  "reasons": [
+   "선행 상승 +48%",
+   "✗ 베이스 1.6주",
+   "깊이 8.5%",
+   "저점 상승 1회",
+   "진폭 1.3배 · 10일 종가폭 2.3 ADR",
+   "10일선 +0.1 ADR · 20일선 +1.4 ADR",
+   "20일선 기울기 +4.41%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.25596094112443896,
+    "pct": 95.26600541027953
+   },
+   "m3": {
+    "v": 0.30052655056339495,
+    "pct": 97.06943192064924
+   },
+   "m6": {
+    "v": 1.0151177844841923,
+    "pct": 99.14337240757439
+   }
+  },
+  "ret1m": 21.38,
+  "ret3m": 25.79,
+  "ret6m": 94.81,
+  "marketCap": "31.90B",
+  "volx": 0.83,
+  "volSurgeWk": 0.84,
+  "high52": 97.26,
+  "newHigh52": false,
+  "adr": 3.67,
+  "div50": 18.91,
+  "div200": 53.49,
+  "targetStatus": false,
+  "saleCy": 19.38,
+  "saleNy": 14.34,
+  "epsCy": 28.2,
+  "epsNy": 16.53,
+  "cyTrend": 2.59,
+  "nyTrend": 2.96,
+  "est": {
+   "cyCur": 6.76905,
+   "cy30": 6.59797,
+   "nyCur": 7.88776,
+   "ny30": 7.66126
+  },
+  "fs": {
+   "sale": [
+    22.19,
+    15.55,
+    17.58
+   ],
+   "ni": [
+    -7.01,
+    3.08,
+    98.28
+   ],
+   "opm": [
+    10.16,
+    11.65,
+    16.36
+   ],
+   "updated": "2026-09-08 06:22:32"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-10-30"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 11
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-17",
+  "nameKo": "샤크닌자",
+  "nameEn": "SHARKNINJA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001957132&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1765476000,
+     "profit": 179380000,
+     "netIncome": 129816000,
+     "margin": 10.2,
+     "yoy": {
+      "revenue": 22.2,
+      "profit": 6.4,
+      "netIncome": -7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1412806000,
+     "profit": 164525000,
+     "netIncome": 121462000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": 15.6,
+      "profit": 13.5,
+      "netIncome": 3.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 1444876000,
+     "profit": 168647000,
+     "netIncome": 139598000,
+     "margin": 11.7,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    },
+    {
+     "periodEnd": "2025-03-31",
+     "derived": false,
+     "revenue": 1222638000,
+     "profit": 144946000,
+     "netIncome": 117835000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Brokers Suggest Investing in SharkNinja, Inc. (SN): Read This Before Placing a Bet",
+     "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-sharkninja-inc-sn-read-placing-bet",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SharkNinja Consensus Price Target Increased 13.17% to $247.39",
+     "url": "https://www.nasdaq.com/articles/sharkninja-consensus-price-target-increased-1317-24739",
+     "date": "2026-11-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "SharkNinja Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/sharkninja-q3-earnings-call-highlights",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "SharkNinja: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/sharkninja-3-key-takeaways-long-term-investors",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "SharkNinja (SN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/sharkninja-sn-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About SharkNinja, Inc. (SN) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-sharkninja-inc-sn-q3-earnings",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SharkNinja, Inc. (SN) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000055/sharkninja-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000047/sharkninja-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-13",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000110465926082783/tm2620293d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000040/sharkninja-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000033/sharkninja-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-11",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000009/sharkninja-20260211.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-06-01",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[스노우플레이크 (NYS:SNOW)] SNOW의 시간은 거꾸로 간다",
+     "summary": "- 스노우플레이크는 클라우드에 데이터를 모아 저장·분석해주는 데이터 플랫폼 기업- FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적. 발표 후 주가 +36%- 기업용 데이터·AI 플랫폼 시장 확장, 고객 확보 속도 증가 등에 우호적 흐름 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxeeeq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-02-27",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[스노우플레이크 (NYS:SNOW)] 꺾이지 않은 성장, 남은 건 ‘증명’",
+     "summary": "- 스노우플레이크는 데이터 저장·분석과 AI 활용을 지원하는 클라우드 데이터 플랫폼- FY4Q26은 매출 +30% 성장, NRR 125%, RPO +42%로 성장 탄력이 유지된 실적- FY27 성장 둔화, RPO 단기 인식 비중 하락 속 Cortex Code가 성장 재가속의 핵심",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgemlmilqxxqzgcgxeeeq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-02-26",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[스노우플레이크 (NYS:SNOW)] 높은 상호운용성 핵심",
+     "summary": "- AI 에이전트 확산으로 인한 비용 최적화 위험 비교적 적음- 원래부터 높았던 AI 기여도가 한층 더 확대 + 상호운용성 확장- 전년대비 제품 매출 +27% 성장 가이던스는 보수적으로 제시된 수치",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcmxeclqgmlxgcgxeeeq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2025-12-05",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[스노우플레이크 (NYS:SNOW)] 사실은 괜찮은 실적",
+     "summary": "- FY3Q26은 호실적 달성에도 불구하고 4Q 가이던스를 아쉽게 제시하며 직후 주가 급락- AI는 동사에게 별도의 모멘텀이 아니라 기존 플랫폼 사용량을 끌어올리는 직접적 성장 엔진- 2Q의 대규모 마이그레이션 효과에서 정상 패턴으로의 복귀 때문에 이번 분기 실적이 언뜻 아쉬워보일 수 있으나, 레거시 시스템의 데이터 수집 및 마이그레이션은 여전히 규모가 크고 미완성된 시장임을 염두에 두어야 함 (AWS는 온프레미스 마이그레이션이 15-20%만 완료되었다고 간주).",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklllckxqgkxqgcgxeeeq.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "SN-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-06-01",
+   "title": "[스노우플레이크 (NYS:SNOW)] SNOW의 시간은 거꾸로 간다",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxeeeq.pdf",
+   "pages": "6"
+  },
+  {
+   "file": "SN-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-02-27",
+   "title": "[스노우플레이크 (NYS:SNOW)] 꺾이지 않은 성장, 남은 건 ‘증명’",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgemlmilqxxqzgcgxeeeq.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Three consumer stocks to buy after the midterm elections",
+   "url": "https://www.cnbc.com/2026/11/05/three-consumer-stocks-to-buy-after-the-midterm-elections.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Earnings season is heating up. UBS thinks these stocks could beat expectations",
+   "url": "https://www.cnbc.com/2026/10/14/ubs-thinks-these-stocks-could-beat-expectations-this-earnings-season.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+   "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html",
+   "date": "2026-08-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lightning Round: Buy some SharkNinja here, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/11/10/lightning-round-buy-some-sharkninja-here-says-jim-cramer.html",
+   "date": "2026-11-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Todd Gordon names 3 stocks that could get a boost as oil prices come down",
+   "url": "https://www.cnbc.com/video/2026/11/05/todd-gordon-names-3-stocks-that-could-get-a-boost-as-oil-prices-come-down.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SN",
+  "fetchedAt": "2026-11-17",
+  "source": "한국투자증권 Open API",
+  "per": 45.62,
+  "pbr": 11.07,
+  "eps": 4.89,
+  "bps": 20.18,
+  "shares": 140911500,
+  "marketCapM": 31464,
+  "high52": 232.76,
+  "high52Date": "2026-11-09",
+  "low52": 83.21,
+  "low52Date": "2025-11-18",
+  "last": 223.29,
+  "prevClose": 226.39,
+  "nameKo": "샤크닌자",
+  "nameEn": "SHARKNINJA INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 140911500
+ },
+ "estimates": {
+  "ticker": "SN",
+  "url": "https://finance.yahoo.com/quote/SN/analysis/",
+  "fetchedAt": "2026-11-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.09,
+    "epsLow": 2.01,
+    "epsHigh": 2.22,
+    "epsYearAgo": 1.93,
+    "epsAnalysts": 11,
+    "epsGrowth": 8.1,
+    "epsCur": "USD",
+    "rev": 2486005900,
+    "revAnalysts": 12,
+    "revYearAgo": 2101434000,
+    "revGrowth": 18.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.31,
+    "epsLow": 1.23,
+    "epsHigh": 1.51,
+    "epsYearAgo": 1.09,
+    "epsAnalysts": 9,
+    "epsGrowth": 20.2,
+    "epsCur": "USD",
+    "rev": 1617058940,
+    "revAnalysts": 8,
+    "revYearAgo": 1412806000,
+    "revGrowth": 14.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 6.77,
+    "epsLow": 6.7,
+    "epsHigh": 6.91,
+    "epsYearAgo": 5.28,
+    "epsAnalysts": 12,
+    "epsGrowth": 28.2,
+    "epsCur": "USD",
+    "rev": 7639262070,
+    "revAnalysts": 13,
+    "revYearAgo": 6399188000,
+    "revGrowth": 19.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 7.89,
+    "epsLow": 7.5,
+    "epsHigh": 8.5,
+    "epsYearAgo": 6.77,
+    "epsAnalysts": 13,
+    "epsGrowth": 16.5,
+    "epsCur": "USD",
+    "rev": 8734435100,
+    "revAnalysts": 14,
+    "revYearAgo": 7639262070,
+    "revGrowth": 14.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.09,
+    "d7": 0,
+    "d30": -13.3,
+    "d90": -13.3,
+    "ago90": 2.41,
+    "up7": 0,
+    "up30": 0,
+    "down7": 8,
+    "down30": 8
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.31,
+    "d7": -0.2,
+    "d30": -0.9,
+    "d90": -0.9,
+    "ago90": 1.32,
+    "up7": 5,
+    "up30": 5,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 6.77,
+    "d7": 0,
+    "d30": 2.6,
+    "d90": 2.6,
+    "ago90": 6.6,
+    "up7": 9,
+    "up30": 9,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 7.89,
+    "d7": 0,
+    "d30": 3,
+    "d90": 3,
+    "ago90": 7.66,
+    "up7": 11,
+    "up30": 11,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.34,
+    "estimate": 1.9,
+    "surprisePct": 23.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.26,
+    "estimate": 1.13,
+    "surprisePct": 11.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.09,
+    "estimate": 1.02,
+    "surprisePct": 6.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.93,
+    "estimate": 1.81,
+    "surprisePct": 6.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 6,
+   "ptLowered": 0,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 243,
+     "ptPrior": 223
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "BTIG",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 245,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 234,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 230,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 223,
+     "ptPrior": 207
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-16",
+  "numbers": {
+   "price": 223.29,
+   "ma20": 211.96,
+   "ma50": 191.39,
+   "ma150": 159.31,
+   "distMA50": 16.67,
+   "periodHigh": 232.76,
+   "pullbackFromHigh": -4.07,
+   "volRatio20": 0.96,
+   "dryUpRatio": 0.83
+  },
+  "last10": [
+   {
+    "d": "2026-11-03",
+    "o": 211.95,
+    "h": 215.09,
+    "l": 202.5,
+    "c": 210.59,
+    "v": 3359200,
+    "clsPos": 64,
+    "gapPct": -0.6
+   },
+   {
+    "d": "2026-11-04",
+    "o": 215.82,
+    "h": 224.57,
+    "l": 212.91,
+    "c": 219.25,
+    "v": 2566900,
+    "clsPos": 54,
+    "gapPct": 2.48
+   },
+   {
+    "d": "2026-11-05",
+    "o": 221.65,
+    "h": 225.68,
+    "l": 215.09,
+    "c": 217.13,
+    "v": 1819200,
+    "clsPos": 19,
+    "gapPct": 1.09
+   },
+   {
+    "d": "2026-11-06",
+    "o": 218.76,
+    "h": 224.55,
+    "l": 216.18,
+    "c": 222.95,
+    "v": 1548300,
+    "clsPos": 81,
+    "gapPct": 0.75
+   },
+   {
+    "d": "2026-11-09",
+    "o": 226.49,
+    "h": 232.76,
+    "l": 223.1,
+    "c": 229.51,
+    "v": 1740200,
+    "clsPos": 66,
+    "gapPct": 1.59
+   },
+   {
+    "d": "2026-11-10",
+    "o": 228,
+    "h": 230.12,
+    "l": 223.43,
+    "c": 226.5,
+    "v": 1300500,
+    "clsPos": 46,
+    "gapPct": -0.66
+   },
+   {
+    "d": "2026-11-11",
+    "o": 227.27,
+    "h": 228.63,
+    "l": 224.03,
+    "c": 226.93,
+    "v": 1340200,
+    "clsPos": 63,
+    "gapPct": 0.34
+   },
+   {
+    "d": "2026-11-12",
+    "o": 227,
+    "h": 228.8,
+    "l": 219.52,
+    "c": 220.14,
+    "v": 1142100,
+    "clsPos": 7,
+    "gapPct": 0.03
+   },
+   {
+    "d": "2026-11-13",
+    "o": 221.31,
+    "h": 226.57,
+    "l": 220.32,
+    "c": 226.39,
+    "v": 1186000,
+    "clsPos": 97,
+    "gapPct": 0.53
+   },
+   {
+    "d": "2026-11-16",
+    "o": 227,
+    "h": 228.92,
+    "l": 222.41,
+    "c": 223.29,
+    "v": 1493700,
+    "clsPos": 13,
+    "gapPct": 0.27
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SN-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 20일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "새 에스프레소 머신·뷰티 가전이 매출 21% 성장을 끌고, 이익은 관세 환급이 좌우",
+  "researchedOn": "2026-11-07"
+ }
+}

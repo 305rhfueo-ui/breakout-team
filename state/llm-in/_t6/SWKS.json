@@ -1,0 +1,745 @@
+{
+ "ticker": "SWKS",
+ "date": "2026-11-17",
+ "session": "2026-11-13",
+ "source": "list",
+ "plan": {
+  "ticker": "SWKS",
+  "name": "스카이웍스 솔루션스",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 89.94000244140625,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 4.84,
+  "extensionAdr": 0.33,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.17062047410766373,
+    "pct": 85.43733092876465
+   },
+   "m3": {
+    "v": 0.36647965879158095,
+    "pct": 98.512173128945
+   },
+   "m6": {
+    "v": 0.1451653642172454,
+    "pct": 55.22993688007214
+   }
+  },
+  "ret1m": 12.85,
+  "ret3m": 32.38,
+  "ret6m": 7.82,
+  "marketCap": "21.12B",
+  "volx": 0.78,
+  "volSurgeWk": 0.84,
+  "high52": 96.46,
+  "newHigh52": false,
+  "adr": 4.83,
+  "div50": 7.16,
+  "div200": 30.86,
+  "targetStatus": false,
+  "saleCy": 87.62,
+  "saleNy": 6.25,
+  "epsCy": 13.04,
+  "epsNy": 32.12,
+  "cyTrend": 0.22,
+  "nyTrend": 18.22,
+  "est": {
+   "cyCur": 5.70851,
+   "cy30": 5.696,
+   "nyCur": 7.54222,
+   "ny30": 6.38
+  },
+  "fs": {
+   "sale": [
+    -3.13,
+    -1,
+    -3.1
+   ],
+   "ni": [
+    -67.71,
+    -48.18,
+    -51.11
+   ],
+   "opm": [
+    5.19,
+    4.46,
+    10.03
+   ],
+   "updated": "2026-09-08 09:06:18"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-12",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-13",
+  "nameKo": "스카이웍스 솔루션스",
+  "nameEn": "SKYWORKS SOLUTIONS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004127&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-03",
+     "derived": false,
+     "revenue": 934800000,
+     "profit": 48500000,
+     "netIncome": 33900000,
+     "margin": 5.2,
+     "yoy": {
+      "revenue": -3.1,
+      "profit": -56.1,
+      "netIncome": -67.7,
+      "priorEnd": "2025-06-27"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 943700000,
+     "profit": 42100000,
+     "netIncome": 35600000,
+     "margin": 4.5,
+     "yoy": {
+      "revenue": -1,
+      "profit": -56.7,
+      "netIncome": -48.2,
+      "priorEnd": "2025-03-28"
+     }
+    },
+    {
+     "periodEnd": "2026-01-02",
+     "derived": false,
+     "revenue": 1035400000,
+     "profit": 103800000,
+     "netIncome": 79200000,
+     "margin": 10,
+     "yoy": {
+      "revenue": -3.1,
+      "profit": -42.7,
+      "netIncome": -51.1,
+      "priorEnd": "2024-12-27"
+     }
+    },
+    {
+     "periodEnd": "2025-10-03",
+     "derived": true,
+     "revenue": 1100200000,
+     "profit": 111000000,
+     "netIncome": 141400000,
+     "margin": 10.1,
+     "yoy": {
+      "revenue": 7.3,
+      "profit": 86.9,
+      "netIncome": 133.7,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "All You Need to Know About Skyworks (SWKS) Rating Upgrade to Strong Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-skyworks-swks-rating-upgrade-strong-buy",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Skyworks (SWKS) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/skyworks-swks-q4-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Skyworks Solutions (SWKS) Said on Its Q4 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-skyworks-solutions-swks-said-its-q4-earnings-call",
+     "date": "2026-11-04",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Skyworks Solutions, Inc. Reports Fourth Quarter Revenue of $1,046 Million and Targets $500 Million or More of Annual Cost Synergies Following Qorvo Combination",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-inc-reports-fourth-quarter-revenue-1046-million-and-targets-500-million",
+     "date": "2026-11-04",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Skyworks Solutions (SWKS) Tops Q4 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-swks-tops-q4-earnings-and-revenue-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Skyworks Q4 Profit Falls",
+     "url": "https://www.nasdaq.com/articles/skyworks-q4-profit-falls",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Skyworks Solutions Q4 26 Earnings Conference Call At 4:30 PM ET",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-q4-26-earnings-conference-call-4-30-pm-et",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412726000052/swks-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-07",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926114359/tm2626934d2_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "2.01",
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926113538/tm2626934d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926112129/tm2626657d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926104395/tm2624606d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926093355/tm2622643d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Trump Media, Tesla, CoreWeave, more",
+   "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-premarket-djt-tsla-crwv-nvo.html",
+   "date": "2026-11-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Skyworks, Axon, Dave & Buster's, Revvity",
+   "url": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-midday-swks-axon-play-rvty.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa and more",
+   "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-after-hours-f-ter-v-klac-and-more.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer’s Stop Trading: Skyworks Solutions",
+   "url": "https://www.cnbc.com/video/2026/10/06/crameras-stop-trading-skyworks-solutions.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SWKS",
+  "fetchedAt": "2026-11-17",
+  "source": "한국투자증권 Open API",
+  "per": 44.81,
+  "pbr": 2.27,
+  "eps": 1.93,
+  "bps": 38.13,
+  "shares": 234855000,
+  "marketCapM": 20315,
+  "high52": 93.24,
+  "high52Date": "2026-11-12",
+  "low52": 51.4827,
+  "low52Date": "2026-03-30",
+  "last": 86.5,
+  "prevClose": 89.94,
+  "nameKo": "스카이웍스 솔루션스",
+  "nameEn": "SKYWORKS SOLUTIONS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 234855000
+ },
+ "estimates": {
+  "ticker": "SWKS",
+  "url": "https://finance.yahoo.com/quote/SWKS/analysis/",
+  "fetchedAt": "2026-11-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.25,
+    "epsLow": 1.25,
+    "epsHigh": 1.32,
+    "epsYearAgo": 1.54,
+    "epsAnalysts": 19,
+    "epsGrowth": -18.5,
+    "epsCur": "USD",
+    "rev": 1850675780,
+    "revAnalysts": 18,
+    "revYearAgo": 1035400000,
+    "revGrowth": 78.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.15,
+    "epsLow": 1.02,
+    "epsHigh": 1.27,
+    "epsYearAgo": 1.15,
+    "epsAnalysts": 17,
+    "epsGrowth": 0.1,
+    "epsCur": "USD",
+    "rev": 1758887380,
+    "revAnalysts": 18,
+    "revYearAgo": 943700000,
+    "revGrowth": 86.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-09-30",
+    "eps": 5.71,
+    "epsLow": 5.03,
+    "epsHigh": 6.46,
+    "epsYearAgo": 5.05,
+    "epsAnalysts": 21,
+    "epsGrowth": 13,
+    "epsCur": "USD",
+    "rev": 7429027530,
+    "revAnalysts": 21,
+    "revYearAgo": 3959600000,
+    "revGrowth": 87.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-09-30",
+    "eps": 7.54,
+    "epsLow": 6.85,
+    "epsHigh": 8.84,
+    "epsYearAgo": 5.71,
+    "epsAnalysts": 20,
+    "epsGrowth": 32.1,
+    "epsCur": "USD",
+    "rev": 7893213890,
+    "revAnalysts": 20,
+    "revYearAgo": 7429027530,
+    "revGrowth": 6.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.25,
+    "d7": -19.8,
+    "d30": -16.3,
+    "d90": -4.5,
+    "ago90": 1.31,
+    "up7": 0,
+    "up30": 2,
+    "down7": 4,
+    "down30": 9
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.15,
+    "d7": -17,
+    "d30": -14,
+    "d90": 7.5,
+    "ago90": 1.07,
+    "up7": 0,
+    "up30": 8,
+    "down7": 4,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-09-30",
+    "cur": "USD",
+    "now": 5.71,
+    "d7": -3,
+    "d30": 0.2,
+    "d90": 14.8,
+    "ago90": 4.97,
+    "up7": 1,
+    "up30": 11,
+    "down7": 3,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-09-30",
+    "cur": "USD",
+    "now": 7.54,
+    "d7": 1.6,
+    "d30": 18.2,
+    "d90": 28.5,
+    "ago90": 5.87,
+    "up7": 1,
+    "up30": 6,
+    "down7": 1,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.28,
+    "estimate": 1.27,
+    "surprisePct": 0.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.08,
+    "estimate": 1.03,
+    "surprisePct": 4.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.15,
+    "estimate": 1.04,
+    "surprisePct": 10.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.54,
+    "estimate": 1.4,
+    "surprisePct": 10.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 1,
+   "initiations": 1,
+   "ptRaised": 10,
+   "ptLowered": 4,
+   "total": 15,
+   "recent": [
+    {
+     "date": "2026-11-10",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 77,
+     "ptPrior": 65
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Barclays",
+     "action": "down",
+     "from": "Overweight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 79,
+     "ptPrior": 70
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 79,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 75,
+     "ptPrior": 65
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 95
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Underperform",
+     "to": "Underperform",
+     "ptAction": "Lowers",
+     "pt": 72,
+     "ptPrior": 78
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 95,
+     "ptPrior": 72
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 90,
+     "ptPrior": 70
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 90,
+     "ptPrior": 65
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-02",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-16",
+  "numbers": {
+   "price": 86.5,
+   "ma20": 84.95,
+   "ma50": 84.18,
+   "ma150": 73.11,
+   "distMA50": 2.75,
+   "periodHigh": 95.46,
+   "pullbackFromHigh": -9.39,
+   "volRatio20": 0.7,
+   "dryUpRatio": 0.81
+  },
+  "last10": [
+   {
+    "d": "2026-11-03",
+    "o": 85.86,
+    "h": 87.86,
+    "l": 84.09,
+    "c": 85.4,
+    "v": 5012800,
+    "clsPos": 35,
+    "gapPct": 0.81
+   },
+   {
+    "d": "2026-11-04",
+    "o": 73.28,
+    "h": 84.59,
+    "l": 72.89,
+    "c": 82.92,
+    "v": 10035100,
+    "clsPos": 86,
+    "gapPct": -14.19
+   },
+   {
+    "d": "2026-11-05",
+    "o": 80.56,
+    "h": 85.43,
+    "l": 79.71,
+    "c": 81.21,
+    "v": 7806000,
+    "clsPos": 26,
+    "gapPct": -2.85
+   },
+   {
+    "d": "2026-11-06",
+    "o": 83.03,
+    "h": 83.71,
+    "l": 80.32,
+    "c": 82.19,
+    "v": 4007800,
+    "clsPos": 55,
+    "gapPct": 2.24
+   },
+   {
+    "d": "2026-11-09",
+    "o": 82.59,
+    "h": 84.14,
+    "l": 81.4,
+    "c": 82.83,
+    "v": 3720900,
+    "clsPos": 52,
+    "gapPct": 0.49
+   },
+   {
+    "d": "2026-11-10",
+    "o": 82.09,
+    "h": 83.06,
+    "l": 80.51,
+    "c": 82.71,
+    "v": 3080300,
+    "clsPos": 86,
+    "gapPct": -0.89
+   },
+   {
+    "d": "2026-11-11",
+    "o": 85,
+    "h": 88.05,
+    "l": 83.16,
+    "c": 87.64,
+    "v": 3132500,
+    "clsPos": 92,
+    "gapPct": 2.77
+   },
+   {
+    "d": "2026-11-12",
+    "o": 86.93,
+    "h": 93.24,
+    "l": 86.25,
+    "c": 90.03,
+    "v": 5120100,
+    "clsPos": 54,
+    "gapPct": -0.81
+   },
+   {
+    "d": "2026-11-13",
+    "o": 90,
+    "h": 90.66,
+    "l": 87.17,
+    "c": 89.94,
+    "v": 3196900,
+    "clsPos": 79,
+    "gapPct": -0.03
+   },
+   {
+    "d": "2026-11-16",
+    "o": 88.68,
+    "h": 89.31,
+    "l": 86.29,
+    "c": 86.5,
+    "v": 2999400,
+    "clsPos": 7,
+    "gapPct": -1.4
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SWKS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SWKS-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 20일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "부분 충족",
+  "headline": "퀄보 합병과 AI 데이터센터 타이밍이 새 동력이나 아직 전사 매출 감소를 못 막았다",
+  "researchedOn": "2026-11-13"
+ }
+}
