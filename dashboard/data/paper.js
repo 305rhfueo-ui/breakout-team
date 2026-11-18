@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-11-18T03:37:53.208Z",
+  "generated": "2026-11-18T21:00:20.059Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -257,6 +257,10 @@ window.PAPER_DATA = {
     {
       "date": "2026-11-17",
       "pct": -1.04
+    },
+    {
+      "date": "2026-11-18",
+      "pct": -1.04
     }
   ],
   "positions": [],
@@ -359,12 +363,12 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-11-17T21:00:20.051Z",
-    "atKst": "2026-11-18 06:00 KST",
-    "atEt": "2026-11-17 1600",
+    "at": "2026-11-18T21:00:20.046Z",
+    "atKst": "2026-11-19 06:00 KST",
+    "atEt": "2026-11-18 1600",
     "phase": "post",
     "source": "kis",
-    "status": "관심 목록이 오래됨 — 새로 사지 않음",
+    "status": "정상",
     "watch": 0,
     "checked": 0,
     "errors": []
