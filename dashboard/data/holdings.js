@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-18T13:00:08.660Z",
+  "updated": "2026-11-18T22:10:11.131Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -7,6 +7,21 @@ window.HOLDINGS_DATA = {
       "ticker": "PLTR",
       "side": "long",
       "items": [
+        {
+          "type": "news",
+          "title": "Is Palantir Overvalued, or Is It Still a Buy at This Price?",
+          "url": "https://www.nasdaq.com/articles/palantir-overvalued-or-it-still-buy-price",
+          "date": "2026-11-18",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어 고평가인지 아직 매수 구간인지 따져보는 기사",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어 고평가인지 아직 매수 구간인지 따져보는 기사",
+          "easy": "기사 제목은 팔란티어가 고평가인지, 지금 가격에도 살 만한지를 묻는다. 요약에는 팔란티어 서비스가 고객의 생산성을 높였고 이것이 주가 상승을 뒷받침한 것으로 보인다고 나온다. 본문은 제공되지 않아 구체적인 수치나 결론은 기사에 안 나왔다.",
+          "whyMatters": "주가가 올라야 이익인 보유자에게는 상승 배경으로 고객 생산성 향상이 거론된다는 정도만 확인된다. 고평가 여부에 대한 결론은 확인되지 않았다.",
+          "quote": null,
+          "read": false
+        },
         {
           "type": "news",
           "title": "Palantir's 148% U.S. Commercial Revenue Surge Signals AI Momentum",
@@ -94,21 +109,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어, 높은 성장과 비싼 밸류에이션 사이 저울질",
           "easy": "팔란티어 매출이 96% 늘고 이익 추정치가 오르며 현금흐름도 좋아 AI 확장을 뒷받침한다는 분석이다. 하지만 주가가 매우 비싸다는 점 때문에 계속 보유할지에 의문이 제기된다. 구체적인 밸류에이션 수치는 기사에 안 나왔다.",
           "whyMatters": "실적은 좋지만 높은 주가 수준이 부담이라는 양면의 평가다. 보유자는 성장이 기대를 계속 채우는지 지켜볼 필요가 있다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "PLTR's Rule of 40 Hits 158%: Can This Momentum Continue?",
-          "url": "https://www.nasdaq.com/articles/pltrs-rule-40-hits-158-can-momentum-continue",
-          "date": "2026-11-13",
-          "publisher": "Zacks",
-          "ko": "팔란티어 'Rule of 40' 점수 158%로 급등",
-          "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어 'Rule of 40' 점수 158%로 급등",
-          "easy": "기사 제목과 요약에 따르면 팔란티어의 Rule of 40 지표가 2026년 3분기에 158%까지 올랐다. 요약은 AI 도입 가속, 96% 매출 성장, 마진 확대를 원인으로 든다. 이 흐름이 이어질지가 관건이라는 내용이며, 본문은 확인하지 못했다.",
-          "whyMatters": "성장률과 수익성이 함께 좋아졌다는 평가라 보유 포지션에는 우호적인 소식이다. 다만 이 흐름이 지속될지는 기사에 나오지 않았다.",
           "quote": null,
           "read": false
         },
