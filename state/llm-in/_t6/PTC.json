@@ -1,0 +1,779 @@
+{
+ "ticker": "PTC",
+ "date": "2026-11-18",
+ "session": "2026-11-17",
+ "source": "list",
+ "plan": {
+  "ticker": "PTC",
+  "name": "PTC",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 195.63999938964844,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 196.79,
+  "stop": 195.84,
+  "distToPivotPct": -0.58,
+  "distToPivotAdr": -1.2,
+  "riskPerSharePct": 0.49,
+  "adrPct": 0.49,
+  "extensionAdr": -0.13,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 9,
+   "baseWeeks": 1.8,
+   "depthPct": 1.4,
+   "priorMovePct": 55.2,
+   "higherLows": 1,
+   "contraction": 0.98,
+   "closeRange10Adr": 2,
+   "surf10": -0.13,
+   "surf20": 0.54,
+   "slope20": 0.37,
+   "baseLow": 194.07,
+   "lastSwingLow": 194.07
+  },
+  "reasons": [
+   "선행 상승 +55%",
+   "✗ 베이스 1.8주",
+   "깊이 1.4%",
+   "저점 상승 1회",
+   "진폭 0.98배 · 10일 종가폭 2 ADR",
+   "10일선 -0.1 ADR · 20일선 +0.5 ADR",
+   "20일선 기울기 +0.37%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.09639986899010623,
+    "pct": 56.762849413886386
+   },
+   "m3": {
+    "v": 0.336765795178144,
+    "pct": 98.33183047790803
+   },
+   "m6": {
+    "v": 0.5146181560597206,
+    "pct": 93.37240757439135
+   }
+  },
+  "ret1m": 1.18,
+  "ret3m": 26.78,
+  "ret6m": 40.96,
+  "marketCap": "21.33B",
+  "volx": 1.12,
+  "volSurgeWk": 1.33,
+  "high52": 99.42,
+  "newHigh52": false,
+  "adr": 0.49,
+  "div50": 12.66,
+  "div200": 31.2,
+  "targetStatus": false,
+  "saleCy": 6.16,
+  "saleNy": 8.11,
+  "epsCy": 9.51,
+  "epsNy": 11.08,
+  "cyTrend": 1.19,
+  "nyTrend": 1.63,
+  "est": {
+   "cyCur": 9.02383,
+   "cy30": 8.91773,
+   "nyCur": 10.02396,
+   "ny30": 9.86334
+  },
+  "fs": {
+   "sale": [
+    -6.82,
+    21.68,
+    21.36
+   ],
+   "ni": [
+    -15.95,
+    263.2,
+    102.5
+   ],
+   "opm": [
+    27.75,
+    38.2,
+    32.24
+   ],
+   "updated": "2026-09-08 09:50:53"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-17",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-18",
+  "nameKo": "PTC",
+  "nameEn": "PTC INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000857005&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 600049000,
+     "profit": 166506000,
+     "netIncome": 118780000,
+     "margin": 27.7,
+     "yoy": {
+      "revenue": -6.8,
+      "profit": -20.6,
+      "netIncome": -16,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 774303000,
+     "profit": 295802000,
+     "netIncome": 590723000,
+     "margin": 38.2,
+     "yoy": {
+      "revenue": 21.7,
+      "profit": 32.4,
+      "netIncome": 263.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 685825000,
+     "profit": 221131000,
+     "netIncome": 166518000,
+     "margin": 32.2,
+     "yoy": {
+      "revenue": 21.4,
+      "profit": 91.4,
+      "netIncome": 102.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": true,
+     "revenue": 893795000,
+     "profit": 433569000,
+     "netIncome": 347793000,
+     "margin": 48.5,
+     "yoy": {
+      "revenue": 42.7,
+      "profit": 123.5,
+      "netIncome": 174.9,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "PTC Inc. (PTC) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-ptc-q4-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PTC Inc. Reports Fourth Quarter 2026 Results and Suspends Guidance Due to Pending Acquisition",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-reports-fourth-quarter-2026-results-and-suspends-guidance-due-pending-acquisition",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "PTC Inc. (PTC) Surpasses Q4 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-ptc-surpasses-q4-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PTC Inc. Bottom Line Retreats In Q4",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-bottom-line-retreats-q4",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "PTC Moves Up In Market Cap Rank, Passing Broadridge Financial Solutions",
+     "url": "https://www.nasdaq.com/articles/ptc-moves-market-cap-rank-passing-broadridge-financial-solutions",
+     "date": "2026-10-30",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Analysts Estimate PTC Inc. (PTC) to Report a Decline in Earnings: What to Look Out for",
+     "url": "https://www.nasdaq.com/articles/analysts-estimate-ptc-inc-ptc-report-decline-earnings-what-look-out",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PTC Consensus Price Target Increased by 11.69% to $201.23",
+     "url": "https://www.nasdaq.com/articles/ptc-consensus-price-target-increased-1169-20123",
+     "date": "2026-10-24",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526447186/ptc-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526323617/ptc-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526208904/ptc-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-16",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526107315/ptc-20260316.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-11",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526046516/ptc-20260211.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks were up this week. Here are the names that are now overbought",
+   "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html",
+   "date": "2026-10-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Microsoft, SpaceX, DraftKings & more",
+   "url": "https://www.cnbc.com/2026/10/05/stocks-making-the-biggest-moves-midday-msft-spcx-pcvx-bbd-dkng.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
+   "url": "https://www.cnbc.com/investingclub/2026/10/05/cramer-is-closely-watching-nvidias-buyback-heres-what-he-wants-to-see.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "url": "https://www.cnbc.com/investingclub/2026/10/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI infrastructure demand to stay strong until at least 2028: Schneider Electric",
+   "url": "https://www.cnbc.com/video/2026/11/02/expect-strong-ai-infrastructure-demand-until-2028-schneider-electric.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Late Morning",
+   "url": "https://www.cnbc.com/video/2026/10/05/the-late-morning-rundown-october-5-2026.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Monday, October 5, 2026: Cramer says he is growing more positive on this tech giant",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/05/monday-october-5-2026-cramer-says-he-is-growing-more-positive-on-this-tech-giant.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PTC",
+  "fetchedAt": "2026-11-18",
+  "source": "한국투자증권 Open API",
+  "per": 18.91,
+  "pbr": 6.24,
+  "eps": 10.34,
+  "bps": 31.34,
+  "shares": 108633000,
+  "marketCapM": 21253,
+  "high52": 196.79,
+  "high52Date": "2026-11-10",
+  "low52": 108.5,
+  "low52Date": "2026-06-12",
+  "last": 195.64,
+  "prevClose": 196.38,
+  "nameKo": "PTC",
+  "nameEn": "PTC INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 108633000
+ },
+ "estimates": {
+  "ticker": "PTC",
+  "url": "https://finance.yahoo.com/quote/PTC/analysis/",
+  "fetchedAt": "2026-11-18",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.04,
+    "epsLow": 1.93,
+    "epsHigh": 2.35,
+    "epsYearAgo": 1.92,
+    "epsAnalysts": 11,
+    "epsGrowth": 6.3,
+    "epsCur": "USD",
+    "rev": 698218020,
+    "revAnalysts": 10,
+    "revYearAgo": 685825000,
+    "revGrowth": 1.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.49,
+    "epsLow": 2.16,
+    "epsHigh": 2.91,
+    "epsYearAgo": 2.69,
+    "epsAnalysts": 10,
+    "epsGrowth": -7.3,
+    "epsCur": "USD",
+    "rev": 760944440,
+    "revAnalysts": 9,
+    "revYearAgo": 774303000,
+    "revGrowth": -1.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-09-30",
+    "eps": 9.02,
+    "epsLow": 8.55,
+    "epsHigh": 9.64,
+    "epsYearAgo": 8.24,
+    "epsAnalysts": 18,
+    "epsGrowth": 9.5,
+    "epsCur": "USD",
+    "rev": 2901855160,
+    "revAnalysts": 18,
+    "revYearAgo": 2733431000,
+    "revGrowth": 6.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-09-30",
+    "eps": 10.02,
+    "epsLow": 8.81,
+    "epsHigh": 10.89,
+    "epsYearAgo": 9.02,
+    "epsAnalysts": 11,
+    "epsGrowth": 11.1,
+    "epsCur": "USD",
+    "rev": 3137255790,
+    "revAnalysts": 11,
+    "revYearAgo": 2901855160,
+    "revGrowth": 8.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.04,
+    "d7": 5.4,
+    "d30": 5.4,
+    "d90": 4.5,
+    "ago90": 1.95,
+    "up7": 3,
+    "up30": 3,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.49,
+    "d7": 1.3,
+    "d30": 1.3,
+    "d90": 0.4,
+    "ago90": 2.48,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-09-30",
+    "cur": "USD",
+    "now": 9.02,
+    "d7": 1.2,
+    "d30": 1.2,
+    "d90": 1.5,
+    "ago90": 8.89,
+    "up7": 4,
+    "up30": 4,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-09-30",
+    "cur": "USD",
+    "now": 10.02,
+    "d7": 1.6,
+    "d30": 1.6,
+    "d90": 1.7,
+    "ago90": 9.86,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.03,
+    "estimate": 1.96,
+    "surprisePct": 3.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.58,
+    "estimate": 1.56,
+    "surprisePct": 1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.69,
+    "estimate": 2.1,
+    "surprisePct": 27.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.92,
+    "estimate": 1.56,
+    "surprisePct": 22.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 8,
+   "initiations": 0,
+   "ptRaised": 8,
+   "ptLowered": 0,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-11-12",
+     "firm": "Wolfe Research",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Peer Perform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 205,
+     "ptPrior": 141
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Oppenheimer",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Perform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 205,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "BMO Capital",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 205,
+     "ptPrior": 164
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Rosenblatt",
+     "action": "down",
+     "from": "Buy",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 205,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Barclays",
+     "action": "down",
+     "from": "Overweight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 205,
+     "ptPrior": 155
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "JP Morgan",
+     "action": "up",
+     "from": "Underweight",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 205,
+     "ptPrior": 145
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "RBC Capital",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 306,
+     "ptPrior": 195
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Keybanc",
+     "action": "down",
+     "from": "Overweight",
+     "to": "Sector Weight",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-17",
+  "numbers": {
+   "price": 195.64,
+   "ma20": 195.12,
+   "ma50": 173.65,
+   "ma150": 148.5,
+   "distMA50": 12.66,
+   "periodHigh": 219.69,
+   "pullbackFromHigh": -10.95,
+   "volRatio20": 1.12,
+   "dryUpRatio": 0.85
+  },
+  "last10": [
+   {
+    "d": "2026-11-04",
+    "o": 194.84,
+    "h": 195.42,
+    "l": 194.65,
+    "c": 195.18,
+    "v": 2114500,
+    "clsPos": 69,
+    "gapPct": 0.4
+   },
+   {
+    "d": "2026-11-05",
+    "o": 195.13,
+    "h": 195.6,
+    "l": 194.07,
+    "c": 194.6,
+    "v": 3421900,
+    "clsPos": 35,
+    "gapPct": -0.03
+   },
+   {
+    "d": "2026-11-06",
+    "o": 194.53,
+    "h": 195.25,
+    "l": 194.4,
+    "c": 195.07,
+    "v": 1354400,
+    "clsPos": 79,
+    "gapPct": -0.04
+   },
+   {
+    "d": "2026-11-09",
+    "o": 195.12,
+    "h": 196.05,
+    "l": 195.02,
+    "c": 195.87,
+    "v": 1274600,
+    "clsPos": 83,
+    "gapPct": 0.03
+   },
+   {
+    "d": "2026-11-10",
+    "o": 196,
+    "h": 196.79,
+    "l": 195.74,
+    "c": 196.55,
+    "v": 1899700,
+    "clsPos": 77,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-11-11",
+    "o": 196.5,
+    "h": 196.5,
+    "l": 195.33,
+    "c": 196.14,
+    "v": 1297500,
+    "clsPos": 69,
+    "gapPct": -0.03
+   },
+   {
+    "d": "2026-11-12",
+    "o": 196,
+    "h": 196.51,
+    "l": 195.91,
+    "c": 196.25,
+    "v": 1817900,
+    "clsPos": 57,
+    "gapPct": -0.07
+   },
+   {
+    "d": "2026-11-13",
+    "o": 196.6,
+    "h": 196.6,
+    "l": 195.52,
+    "c": 196,
+    "v": 827000,
+    "clsPos": 44,
+    "gapPct": 0.18
+   },
+   {
+    "d": "2026-11-16",
+    "o": 196.05,
+    "h": 196.5,
+    "l": 195.95,
+    "c": 196.38,
+    "v": 1554300,
+    "clsPos": 78,
+    "gapPct": 0.03
+   },
+   {
+    "d": "2026-11-17",
+    "o": 196.16,
+    "h": 196.37,
+    "l": 195.6,
+    "c": 195.64,
+    "v": 1963100,
+    "clsPos": 5,
+    "gapPct": -0.11
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PTC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PTC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 21일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "부분 충족",
+  "headline": "AI 계층은 아직 숫자가 없고, 성장은 Windchill·Codebeamer 가 끌고 있다",
+  "researchedOn": "2026-11-07"
+ }
+}

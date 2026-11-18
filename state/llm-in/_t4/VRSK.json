@@ -1,0 +1,213 @@
+{
+ "ticker": "VRSK",
+ "news": [
+  {
+   "title": "What Verisk Analytics (VRSK) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-verisk-analytics-vrsk-said-its-q3-earnings-call",
+   "date": "2026-11-07",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Verisk (VRSK) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/verisk-vrsk-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Verisk Analytics (VRSK) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/verisk-analytics-vrsk-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VRSK is Set to Report Q3 Earnings: Here's What Investors Should Know",
+   "url": "https://www.nasdaq.com/articles/vrsk-set-report-q3-earnings-heres-what-investors-should-know",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Verisk Analytics (VRSK) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/verisk-analytics-vrsk-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "H&R Block Q1 Earnings Meet Estimates, Revenues Increase 10% Y/Y",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/h-r-block-q1-earnings-185400020.html",
+   "date": "2026-11-10",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Raymond James Adjusts Price Target on Verisk Analytics to $245 From $230",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-adjusts-price-target-112757955.html",
+   "date": "2026-11-10",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Verisk (VRSK) shares are trading lower today",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-verisk-vrsk-shares-trading-062936156.html",
+   "date": "2026-11-10",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "QXO is Set to Report Q3 Earnings: Here's What Investors Should Know",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/qxo-set-report-q3-earnings-155900182.html",
+   "date": "2026-11-09",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "What Verisk Analytics (VRSK) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-vrsk-said-q3-001433849.html",
+   "date": "2026-11-07",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Verisk (VRSK) Stock Looks Below Fair Value Despite Its 28% Run",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/verisk-vrsk-stock-looks-below-191758687.html",
+   "date": "2026-11-06",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BMO Capital Adjusts Price Target on Verisk Analytics to $244 From $217",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-capital-adjusts-price-target-170319913.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926035082/vrsk20260820_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000095010326016441/dp255815_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-02",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526385242/d133172d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-18",
+   "reportDate": "2026-08-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526355652/d172499d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926024748/vrsk20260526_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526321243/d86289d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.72,
+  "saleNy": 6.76,
+  "epsCy": 7.5,
+  "epsNy": 13.13,
+  "cyTrend": -0.19,
+  "nyTrend": 0.16,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.36,
+    3.93,
+    5.87
+   ],
+   "ni": [
+    -9.75,
+    0.82,
+    -6.27
+   ],
+   "opm": [
+    45.11,
+    45,
+    40.27
+   ],
+   "updated": "2026-09-21 06:46:57"
+  }
+ }
+}

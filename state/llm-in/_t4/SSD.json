@@ -1,0 +1,197 @@
+{
+ "ticker": "SSD",
+ "news": [
+  {
+   "title": "Simpson Manufacturing (SSD) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/simpson-manufacturing-ssd-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Simpson Manufacturing (SSD) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-simpson-manufacturing-ssd-said-its-q3-earnings-call",
+   "date": "2026-10-27",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Simpson Manufacturing (SSD) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/simpson-manufacturing-ssd-tops-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - SSD",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-ssd",
+   "date": "2026-10-22",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Earnings Preview: Simpson Manufacturing (SSD) Q3 Earnings Expected to Decline",
+   "url": "https://www.nasdaq.com/articles/earnings-preview-simpson-manufacturing-ssd-q3-earnings-expected-decline",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Believe Simpson Manufacturing (SSD) Could Rally 25.06%: Here's is How to Trade",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-simpson-manufacturing-ssd-could-rally-2506-heres-how-trade",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Simpson Manufacturing Breaks Below 200-Day Moving Average - Notable for SSD",
+   "url": "https://www.nasdaq.com/articles/simpson-manufacturing-breaks-below-200-day-moving-average-notable-ssd",
+   "date": "2026-08-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Simpson Manufacturing (SSD) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/simpson-manufacturing-ssd-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Simpson Manufacturing Co., Inc. Announces Participation at The Stephens Annual Investment Conference",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/simpson-manufacturing-co-inc-announces-140000287.html",
+   "date": "2026-11-11",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026067288/ssd-20261026.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-06",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026065254/ssd-20261006.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026049817/ssd-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026035954/ssd-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026027513/ssd-20260427.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-09",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026006438/ssd-20260209.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.05,
+  "saleNy": 2.88,
+  "epsCy": 16.25,
+  "epsNy": 4.77,
+  "cyTrend": 1.57,
+  "nyTrend": -0.05,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.34,
+    9.11,
+    4.24
+   ],
+   "ni": [
+    22.7,
+    13.27,
+    1.39
+   ],
+   "opm": [
+    25.2,
+    19.49,
+    13.86
+   ],
+   "updated": "2026-09-08 06:38:04"
+  }
+ }
+}

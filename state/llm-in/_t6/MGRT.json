@@ -1,0 +1,440 @@
+{
+ "ticker": "MGRT",
+ "date": "2026-11-18",
+ "session": "2026-11-17",
+ "source": "list",
+ "plan": {
+  "ticker": "MGRT",
+  "name": "메가 포춘",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "price": 127.19999694824219,
+  "grade": "A",
+  "state": "post",
+  "pivot": 129.75,
+  "stop": 125.98,
+  "distToPivotPct": -1.97,
+  "distToPivotAdr": -0.41,
+  "riskPerSharePct": 2.91,
+  "adrPct": 4.78,
+  "extensionAdr": 1.15,
+  "breakDate": "2026-11-16",
+  "metrics": {
+   "baseBars": 36,
+   "baseWeeks": 7.2,
+   "depthPct": 22.9,
+   "priorMovePct": 85.4,
+   "higherLows": 2,
+   "contraction": 0.8,
+   "closeRange10Adr": 1.1,
+   "surf10": -0.14,
+   "surf20": 0.32,
+   "slope20": 2.94,
+   "baseLow": 100.01,
+   "lastSwingLow": 102
+  },
+  "reasons": [
+   "선행 상승 +85%",
+   "베이스 7.2주",
+   "깊이 22.9%",
+   "저점 상승 2회",
+   "진폭 0.8배 · 10일 종가폭 1.1 ADR",
+   "10일선 -0.1 ADR · 20일선 +0.3 ADR",
+   "20일선 기울기 +2.94%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.26320694172275216,
+    "pct": 96.25788999098287
+   },
+   "m3": {
+    "v": 0.41681421819320663,
+    "pct": 99.50405770964834
+   },
+   "m6": {
+    "v": 0.467036620954716,
+    "pct": 91.56898106402164
+   }
+  },
+  "ret1m": 17.87,
+  "ret3m": 34.79,
+  "ret6m": 36.2,
+  "marketCap": "1.79B",
+  "volx": 4.01,
+  "volSurgeWk": 3.53,
+  "high52": 74.82,
+  "newHigh52": false,
+  "adr": 4.78,
+  "div50": 10.87,
+  "div200": 55.32,
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:00:32"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-17",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-18",
+  "nameKo": "메가 포춘",
+  "nameEn": "MEGA FORTUNE COMPANY LIMITED",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
+     "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt",
+     "date": "2026-06-11",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "How Mega Fortune Stock Tripled This Week",
+     "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week",
+     "date": "2026-04-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
+     "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "MGRT",
+  "fetchedAt": "2026-11-18",
+  "source": "한국투자증권 Open API",
+  "per": 5367.09,
+  "pbr": 1136.73,
+  "eps": 0.02,
+  "bps": 0.11,
+  "shares": 13750000,
+  "marketCapM": 1749,
+  "high52": 170,
+  "high52Date": "2026-04-16",
+  "low52": 4.04,
+  "low52Date": "2025-12-15",
+  "last": 127.2,
+  "prevClose": 130,
+  "nameKo": "메가 포춘",
+  "nameEn": "MEGA FORTUNE COMPANY LIMITED",
+  "listedOn": "2025-07-16",
+  "exchange": "나스닥",
+  "listedShares": 13750000
+ },
+ "estimates": {
+  "ticker": "MGRT",
+  "url": "https://finance.yahoo.com/quote/MGRT/analysis/",
+  "fetchedAt": "2026-11-18",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "+1q",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "0y",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "+1y",
+    "endDate": null,
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1q",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "+1y",
+    "endDate": null,
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   }
+  ],
+  "surprises": [],
+  "beats": 0,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 0,
+   "recent": []
+  },
+  "nextEarnings": null
+ },
+ "chart": {
+  "lastBar": "2026-11-17",
+  "numbers": {
+   "price": 127.2,
+   "ma20": 118.95,
+   "ma50": 114.73,
+   "ma150": 104.56,
+   "distMA50": 10.87,
+   "periodHigh": 170,
+   "pullbackFromHigh": -25.18,
+   "volRatio20": 3.8,
+   "dryUpRatio": 1.66
+  },
+  "last10": [
+   {
+    "d": "2026-11-04",
+    "o": 119.76,
+    "h": 121.14,
+    "l": 118.07,
+    "c": 118.81,
+    "v": 4800,
+    "clsPos": 24,
+    "gapPct": 0.1
+   },
+   {
+    "d": "2026-11-05",
+    "o": 117.72,
+    "h": 118.1,
+    "l": 117.72,
+    "c": 118.1,
+    "v": 2000,
+    "clsPos": 100,
+    "gapPct": -0.92
+   },
+   {
+    "d": "2026-11-06",
+    "o": 118.5,
+    "h": 121.5,
+    "l": 116.8,
+    "c": 120.3,
+    "v": 6900,
+    "clsPos": 74,
+    "gapPct": 0.34
+   },
+   {
+    "d": "2026-11-09",
+    "o": 120,
+    "h": 122,
+    "l": 118.23,
+    "c": 118.23,
+    "v": 2200,
+    "clsPos": 0,
+    "gapPct": -0.25
+   },
+   {
+    "d": "2026-11-10",
+    "o": 119.36,
+    "h": 121.21,
+    "l": 118,
+    "c": 118,
+    "v": 5600,
+    "clsPos": 0,
+    "gapPct": 0.96
+   },
+   {
+    "d": "2026-11-11",
+    "o": 118.95,
+    "h": 119.8,
+    "l": 114,
+    "c": 117.1,
+    "v": 7900,
+    "clsPos": 53,
+    "gapPct": 0.81
+   },
+   {
+    "d": "2026-11-12",
+    "o": 117.99,
+    "h": 117.99,
+    "l": 116.5,
+    "c": 116.5,
+    "v": 2200,
+    "clsPos": 0,
+    "gapPct": 0.76
+   },
+   {
+    "d": "2026-11-13",
+    "o": 117,
+    "h": 118,
+    "l": 117,
+    "c": 118,
+    "v": 7200,
+    "clsPos": 100,
+    "gapPct": 0.43
+   },
+   {
+    "d": "2026-11-16",
+    "o": 120,
+    "h": 130,
+    "l": 120,
+    "c": 130,
+    "v": 10000,
+    "clsPos": 100,
+    "gapPct": 1.69
+   },
+   {
+    "d": "2026-11-17",
+    "o": 135.32,
+    "h": 155.86,
+    "l": 125.03,
+    "c": 127.2,
+    "v": 23200,
+    "clsPos": 7,
+    "gapPct": 4.09
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MGRT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MGRT-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 21일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

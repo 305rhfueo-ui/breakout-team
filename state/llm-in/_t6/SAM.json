@@ -1,0 +1,681 @@
+{
+ "ticker": "SAM",
+ "date": "2026-11-18",
+ "session": "2026-11-17",
+ "source": "list",
+ "plan": {
+  "ticker": "SAM",
+  "name": "보스턴 비어",
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Brewers",
+  "price": 224.67999267578125,
+  "grade": "A",
+  "state": "pre",
+  "pivot": 232.76,
+  "stop": 224.04,
+  "distToPivotPct": -3.47,
+  "distToPivotAdr": -0.89,
+  "riskPerSharePct": 3.75,
+  "adrPct": 3.88,
+  "extensionAdr": 0.31,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 13.7,
+   "priorMovePct": 45.4,
+   "higherLows": 1,
+   "contraction": 0.79,
+   "closeRange10Adr": 1.3,
+   "surf10": 0.31,
+   "surf20": 1.48,
+   "slope20": 5.07,
+   "baseLow": 200.81,
+   "lastSwingLow": 211.8
+  },
+  "reasons": [
+   "선행 상승 +45%",
+   "베이스 2.2주",
+   "깊이 13.7%",
+   "저점 상승 1회",
+   "진폭 0.79배 · 10일 종가폭 1.3 ADR",
+   "10일선 +0.3 ADR · 20일선 +1.5 ADR",
+   "20일선 기울기 +5.07%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.304317207173107,
+    "pct": 98.42200180342651
+   },
+   "m3": {
+    "v": 0.2549502145587651,
+    "pct": 95.26600541027953
+   },
+   "m6": {
+    "v": 0.3501158778475494,
+    "pct": 81.83047790802524
+   }
+  },
+  "ret1m": 21.98,
+  "ret3m": 18.6,
+  "ret6m": 24.51,
+  "marketCap": "2.27B",
+  "volx": 0.68,
+  "volSurgeWk": 0.97,
+  "high52": 84.96,
+  "newHigh52": false,
+  "adr": 3.88,
+  "div50": 19.97,
+  "div200": 12.72,
+  "targetStatus": false,
+  "saleCy": -2.55,
+  "saleNy": -0.3,
+  "epsCy": -5.46,
+  "epsNy": 10.46,
+  "cyTrend": 4.31,
+  "nyTrend": 0.79,
+  "est": {
+   "cyCur": 9.34958,
+   "cy30": 8.96349,
+   "nyCur": 10.3272,
+   "ny30": 10.24579
+  },
+  "fs": {
+   "sale": [
+    -3.34,
+    -4.39,
+    -4.13
+   ],
+   "ni": [
+    -14.67,
+    -695.04,
+    "적자축소"
+   ],
+   "opm": [
+    12.45,
+    -43.89,
+    -8.56
+   ],
+   "updated": "2026-09-08 08:09:22"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-17",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-18",
+  "nameKo": "보스턴 비어",
+  "nameEn": "BOSTON BEER CO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000949870&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-26",
+     "derived": false,
+     "revenue": 520101000,
+     "profit": 56329000,
+     "netIncome": 43166000,
+     "margin": 10.8,
+     "yoy": {
+      "revenue": -3.2,
+      "profit": -9.2,
+      "netIncome": -6.5,
+      "priorEnd": "2025-09-27"
+     }
+    },
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 568338000,
+     "profit": 70766000,
+     "netIncome": 51567000,
+     "margin": 12.5,
+     "yoy": {
+      "revenue": -3.3,
+      "profit": -13.8,
+      "netIncome": -14.7,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 433930000,
+     "profit": -190455000,
+     "netIncome": -145261000,
+     "margin": -43.9,
+     "yoy": {
+      "revenue": -4.4,
+      "profit": -663.9,
+      "netIncome": -695,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 385684000,
+     "profit": -33013000,
+     "netIncome": -22531000,
+     "margin": -8.6,
+     "yoy": {
+      "revenue": -4.1,
+      "profit": 41.1,
+      "netIncome": 41.9,
+      "priorEnd": "2024-12-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is The Boston Beer Company (SAM) Stock Undervalued Right Now?",
+     "url": "https://www.nasdaq.com/articles/boston-beer-company-sam-stock-undervalued-right-now",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Boston Beer Breaks Above 200-Day Moving Average - Bullish for SAM",
+     "url": "https://www.nasdaq.com/articles/boston-beer-breaks-above-200-day-moving-average-bullish-sam",
+     "date": "2026-10-23",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Boston Beer: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/boston-beer-3-key-takeaways-long-term-investors",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Boston Beer (SAM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/boston-beer-sam-q3-2026-earnings-call-transcript",
+     "date": "2026-10-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Boston Beer Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/boston-beer-q3-earnings-call-highlights",
+     "date": "2026-10-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "The Boston Beer Company, Inc. Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/boston-beer-company-inc-reports-third-quarter-2026-financial-results",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Boston Beer (SAM) Tops Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/boston-beer-sam-tops-q3-earnings-estimates",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-13",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526460599/sam-20261109.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526428973/sam-20261022.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526359163/sam-20260817.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526344575/sam-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526314187/sam-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "5.01",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/949870/000119312526251425/sam-20260527.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Moderna, Robinhood & more",
+   "url": "https://www.cnbc.com/2026/08/21/stocks-making-the-biggest-moves-midday-mrna-hood-bj-coin.html",
+   "date": "2026-08-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Intel, AMD, Boston Beer, Deckers",
+   "url": "https://www.cnbc.com/2026/07/23/stocks-making-the-biggest-moves-after-hours-intc-amd-sam-deck.html",
+   "date": "2026-07-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "SAM",
+  "fetchedAt": "2026-11-18",
+  "source": "한국투자증권 Open API",
+  "per": 32.92,
+  "pbr": 2.47,
+  "eps": 6.82,
+  "bps": 90.98,
+  "shares": 8082060,
+  "marketCapM": 1816,
+  "high52": 264.46,
+  "high52Date": "2026-04-10",
+  "low52": 158.68,
+  "low52Date": "2026-06-04",
+  "last": 224.68,
+  "prevClose": 223.29,
+  "nameKo": "보스턴 비어",
+  "nameEn": "BOSTON BEER CO INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 8082060
+ },
+ "estimates": {
+  "ticker": "SAM",
+  "url": "https://finance.yahoo.com/quote/SAM/analysis/",
+  "fetchedAt": "2026-11-18",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -0.46,
+    "epsLow": -1.03,
+    "epsHigh": 0.32,
+    "epsYearAgo": -2.12,
+    "epsAnalysts": 10,
+    "epsGrowth": 78.2,
+    "epsCur": "USD",
+    "rev": 391386110,
+    "revAnalysts": 10,
+    "revYearAgo": 385684000,
+    "revGrowth": 1.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.87,
+    "epsLow": 1.72,
+    "epsHigh": 1.98,
+    "epsYearAgo": 1.64,
+    "epsAnalysts": 9,
+    "epsGrowth": 14,
+    "epsCur": "USD",
+    "rev": 436548690,
+    "revAnalysts": 8,
+    "revYearAgo": 433930000,
+    "revGrowth": 0.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 9.35,
+    "epsLow": 8.6,
+    "epsHigh": 10.03,
+    "epsYearAgo": 9.89,
+    "epsAnalysts": 13,
+    "epsGrowth": -5.5,
+    "epsCur": "USD",
+    "rev": 1914863200,
+    "revAnalysts": 14,
+    "revYearAgo": 1964994000,
+    "revGrowth": -2.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 10.33,
+    "epsLow": 9.07,
+    "epsHigh": 11.13,
+    "epsYearAgo": 9.35,
+    "epsAnalysts": 14,
+    "epsGrowth": 10.5,
+    "epsCur": "USD",
+    "rev": 1909188110,
+    "revAnalysts": 14,
+    "revYearAgo": 1914863200,
+    "revGrowth": -0.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.46,
+    "d7": 42.8,
+    "d30": 42.9,
+    "d90": 44.1,
+    "ago90": -0.83,
+    "up7": 9,
+    "up30": 9,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.87,
+    "d7": -1.1,
+    "d30": -1.9,
+    "d90": -1.9,
+    "ago90": 1.91,
+    "up7": 4,
+    "up30": 3,
+    "down7": 3,
+    "down30": 4
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 9.35,
+    "d7": 4.7,
+    "d30": 4.3,
+    "d90": 3.7,
+    "ago90": 9.01,
+    "up7": 11,
+    "up30": 10,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 10.33,
+    "d7": 2.2,
+    "d30": 0.8,
+    "d90": -1.8,
+    "ago90": 10.51,
+    "up7": 8,
+    "up30": 6,
+    "down7": 4,
+    "down30": 5
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 4.37,
+    "estimate": 4.21,
+    "surprisePct": 3.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.65,
+    "estimate": 4.83,
+    "surprisePct": -24.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.64,
+    "estimate": 1.97,
+    "surprisePct": -16.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -2.12,
+    "estimate": -2.51,
+    "surprisePct": 15.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 3,
+   "ptLowered": 1,
+   "total": 4,
+   "recent": [
+    {
+     "date": "2026-10-27",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 200,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 197,
+     "ptPrior": 185
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 204,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 190,
+     "ptPrior": 210
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-22",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-17",
+  "numbers": {
+   "price": 224.68,
+   "ma20": 211.79,
+   "ma50": 187.27,
+   "ma150": 187.55,
+   "distMA50": 19.97,
+   "periodHigh": 323.98,
+   "pullbackFromHigh": -30.65,
+   "volRatio20": 0.63,
+   "dryUpRatio": 0.64
+  },
+  "last10": [
+   {
+    "d": "2026-11-04",
+    "o": 220,
+    "h": 231.62,
+    "l": 219.4,
+    "c": 228.32,
+    "v": 254300,
+    "clsPos": 73,
+    "gapPct": 2.11
+   },
+   {
+    "d": "2026-11-05",
+    "o": 230.03,
+    "h": 232.76,
+    "l": 221.96,
+    "c": 224.97,
+    "v": 191600,
+    "clsPos": 28,
+    "gapPct": 0.75
+   },
+   {
+    "d": "2026-11-06",
+    "o": 217.58,
+    "h": 222.09,
+    "l": 217.4,
+    "c": 220.64,
+    "v": 159900,
+    "clsPos": 69,
+    "gapPct": -3.28
+   },
+   {
+    "d": "2026-11-09",
+    "o": 223.11,
+    "h": 223.11,
+    "l": 211.8,
+    "c": 216.82,
+    "v": 252800,
+    "clsPos": 44,
+    "gapPct": 1.12
+   },
+   {
+    "d": "2026-11-10",
+    "o": 215,
+    "h": 220.17,
+    "l": 214.73,
+    "c": 220.16,
+    "v": 154900,
+    "clsPos": 100,
+    "gapPct": -0.84
+   },
+   {
+    "d": "2026-11-11",
+    "o": 216.1,
+    "h": 220.55,
+    "l": 213.91,
+    "c": 219.16,
+    "v": 170100,
+    "clsPos": 79,
+    "gapPct": -1.84
+   },
+   {
+    "d": "2026-11-12",
+    "o": 221.01,
+    "h": 222.97,
+    "l": 218.66,
+    "c": 219.62,
+    "v": 131000,
+    "clsPos": 22,
+    "gapPct": 0.84
+   },
+   {
+    "d": "2026-11-13",
+    "o": 221.05,
+    "h": 223.51,
+    "l": 219.18,
+    "c": 221.82,
+    "v": 122600,
+    "clsPos": 61,
+    "gapPct": 0.65
+   },
+   {
+    "d": "2026-11-16",
+    "o": 225.01,
+    "h": 228.61,
+    "l": 223.28,
+    "c": 223.29,
+    "v": 158700,
+    "clsPos": 0,
+    "gapPct": 1.44
+   },
+   {
+    "d": "2026-11-17",
+    "o": 219.81,
+    "h": 224.96,
+    "l": 219.81,
+    "c": 224.68,
+    "v": 143200,
+    "clsPos": 95,
+    "gapPct": -1.56
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SAM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SAM-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 21일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "부분 충족",
+  "headline": "새 브랜드 Sun Cruiser만 60% 성장 — 회사 전체 매출은 아직 감소 중",
+  "researchedOn": "2026-11-07"
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "ticker": "ED",
+ "news": [
+  {
+   "title": "Are Utilities Stocks Lagging  Consolidated Edison (ED) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-utilities-stocks-lagging-consolidated-edison-ed-year-0",
+   "date": "2026-11-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Consolidated Edison (ED) Shares Cross 3% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/consolidated-edison-ed-shares-cross-3-yield-mark",
+   "date": "2026-11-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Consolidated Edison (ED) Misses Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/consolidated-edison-ed-misses-q3-earnings-estimates",
+   "date": "2026-11-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Con Ed (ED) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-con-ed-ed-q3-earnings-look-key-metrics",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unlocking Q3 Potential of Con Ed (ED): Exploring Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/unlocking-q3-potential-con-ed-ed-exploring-wall-street-estimates-key-metrics",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Consolidated Edison or Clearway Energy: Only One Gets My Dividend Dollars for the Next 10 Years",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/consolidated-edison-clearway-energy-only-144129710.html",
+   "date": "2026-11-17",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Consolidated Edison Launches Public Offering of 6 Million Common Shares",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/consolidated-edison-launches-public-offering-215623244.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Con Edison Announces Common Share Offering with a Forward Component",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/con-edison-announces-common-share-211800915.html",
+   "date": "2026-11-16",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Con Ed’s 52-Year Dividend Streak Faces 3 Major Tests",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/con-ed-52-dividend-streak-184723872.html",
+   "date": "2026-11-16",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BofA Securities Adjusts Price Target on Consolidated Edison to $106 From $96",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-132135684.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "HSBC Adjusts Price Target on Consolidated Edison to $122 From $104",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-adjusts-price-target-consolidated-114638695.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 High Quality Dividend Stocks For Investors Watching Interest Rates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/3-high-quality-dividend-stocks-200819108.html",
+   "date": "2026-11-14",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "A $4.6 Billion Fund Dumps These 2 Stocks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/4-6-billion-fund-dumps-110632782.html",
+   "date": "2026-11-14",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-16",
+   "reportDate": "2026-11-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526462726/d196404d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000157/ed-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-04",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526383674/d144518d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000143/ed-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-07-01",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526294715/d168683d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-01",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526254760/d74070d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.09,
+  "saleNy": 5.25,
+  "epsCy": 7.26,
+  "epsNy": 6.39,
+  "cyTrend": 0.11,
+  "nyTrend": 0.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.18,
+    6.19,
+    9.03
+   ],
+   "ni": [
+    25.2,
+    16.81,
+    -3.87
+   ],
+   "opm": [
+    13.57,
+    23.1,
+    12.19
+   ],
+   "updated": "2026-09-08 07:54:16"
+  }
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "ticker": "SENEB",
+ "news": [
+  {
+   "title": "Seneca Foods Consensus Price Target Raised by 11.65% to $227.73",
+   "url": "https://www.nasdaq.com/articles/seneca-foods-consensus-price-target-raised-1165-22773",
+   "date": "2026-10-23",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926034956/senea20261103_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-21",
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926030826/senea20260921_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926027008/senea20260806_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-12",
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774925026194/senea20250811_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-12-30",
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924038531/senea20241212_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-08-12",
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924026057/senea20240809_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000088948&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-26",
+    "derived": false,
+    "revenue": 492590000,
+    "profit": 37652000,
+    "netIncome": 29230000,
+    "margin": 7.6,
+    "yoy": {
+     "revenue": 7.1,
+     "profit": -9.2,
+     "netIncome": -1.7,
+     "priorEnd": "2025-09-27"
+    }
+   },
+   {
+    "periodEnd": "2026-06-27",
+    "derived": false,
+    "revenue": 405174000,
+    "profit": 26229000,
+    "netIncome": 19507000,
+    "margin": 6.5,
+    "yoy": {
+     "revenue": 36.2,
+     "profit": 13,
+     "netIncome": 31.1,
+     "priorEnd": "2025-06-28"
+    }
+   },
+   {
+    "periodEnd": "2025-12-27",
+    "derived": false,
+    "revenue": 508348000,
+    "profit": 59967000,
+    "netIncome": 44768000,
+    "margin": 11.8,
+    "yoy": {
+     "revenue": 1.1,
+     "profit": 133.7,
+     "netIncome": 205.4,
+     "priorEnd": "2024-12-28"
+    }
+   },
+   {
+    "periodEnd": "2025-09-27",
+    "derived": false,
+    "revenue": 460022000,
+    "profit": 41472000,
+    "netIncome": 29739000,
+    "margin": 9,
+    "yoy": {
+     "revenue": 8.1,
+     "profit": 68,
+     "netIncome": 123.6,
+     "priorEnd": "2024-09-28"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.74,
+  "saleNy": 2.3,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": null
+ }
+}

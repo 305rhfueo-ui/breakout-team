@@ -1,0 +1,264 @@
+{
+ "ticker": "TFX",
+ "sector": "Healthcare",
+ "industry": "Medical Instruments & Supplies",
+ "nameKo": "텔레플렉스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.14,
+  "saleNy": 3.78,
+  "epsCy": 9.96,
+  "epsNy": 42.58,
+  "est": {
+   "cyCur": 7.67551,
+   "cy30": 7.07526,
+   "nyCur": 10.94342,
+   "ny30": 10.94808
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    28.88,
+    32.35,
+    "흑자전환"
+   ],
+   "ni": [
+    -18.67,
+    -108.58,
+    "적자확대"
+   ],
+   "opm": [
+    12.77,
+    3.68,
+    161.65
+   ],
+   "updated": "2026-09-08 09:23:32"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-17",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-18",
+  "nameKo": "텔레플렉스",
+  "nameEn": "TELEFLEX INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000096943&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 567783000,
+     "profit": 105427000,
+     "netIncome": 927427000,
+     "margin": 18.6,
+     "yoy": {
+      "revenue": 0.1,
+      "profit": 268.9,
+      "netIncome": 326.8,
+      "priorEnd": "2025-09-28"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 570332000,
+     "profit": 72824000,
+     "netIncome": 99693000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": 28.9,
+      "profit": -20.1,
+      "netIncome": -18.7,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 548262000,
+     "profit": 20183000,
+     "netIncome": -8154000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": 32.3,
+      "profit": -73.4,
+      "netIncome": -108.6,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 568984000,
+     "profit": 13874000,
+     "netIncome": -714329000,
+     "margin": 2.4,
+     "yoy": {
+      "revenue": 28.7,
+      "profit": -73.5,
+      "netIncome": -422.7,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Teleflex Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/teleflex-q3-earnings-call-highlights",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Teleflex Reports Third Quarter 2026 Revenue of $567.8 million and Repurchases $350 Million in Common Stock",
+     "url": "https://www.nasdaq.com/articles/teleflex-reports-third-quarter-2026-revenue-5678-million-and-repurchases-350-million",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Teleflex Inc (TFX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/teleflex-inc-tfx-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Teleflex (TFX) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/teleflex-tfx-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teleflex (TFX) Q3 Earnings Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/teleflex-tfx-q3-earnings-surpass-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teleflex Wins FDA Breakthrough Designation For Temporary Coronary Vessel Support",
+     "url": "https://www.nasdaq.com/articles/teleflex-wins-fda-breakthrough-designation-temporary-coronary-vessel-support",
+     "date": "2026-10-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Teleflex Completes Enrollment In BIOMAG-LL Study Of Longer Freesolve Resorbable Scaffolds",
+     "url": "https://www.nasdaq.com/articles/teleflex-completes-enrollment-biomag-ll-study-longer-freesolve-resorbable-scaffolds",
+     "date": "2026-10-12",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "TFX or SONVY: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/tfx-or-sonvy-which-better-value-stock-right-now",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/96943/000009694326000107/tfx-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-09",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/96943/000009694326000101/tfx-20260908.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/96943/000009694326000097/tfx-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/96943/000009694326000091/tfx-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "2.01",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/96943/000009694326000084/tfx-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/96943/000119312526271318/d138783d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "TFX",
+  "fetchedAt": "2026-11-18",
+  "source": "한국투자증권 Open API",
+  "per": 6.85,
+  "pbr": 2.33,
+  "eps": 23.29,
+  "bps": 68.55,
+  "shares": 39661300,
+  "marketCapM": 6328,
+  "high52": 161,
+  "high52Date": "2026-11-17",
+  "low52": 99.1683,
+  "low52Date": "2026-01-20",
+  "last": 159.55,
+  "prevClose": 157.1,
+  "nameKo": "텔레플렉스",
+  "nameEn": "TELEFLEX INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 39661300
+ }
+}

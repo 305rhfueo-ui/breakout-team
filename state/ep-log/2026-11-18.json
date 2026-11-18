@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-18",
+  "items": [
+    {
+      "ticker": "NSIT",
+      "price": 156.32000732421875,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SENEB",
+      "price": 35.90999984741211,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "MGRT",
+      "price": 127.19999694824219,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "WF",
+      "price": 71.5,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BKH",
+      "price": 80.72000122070312,
+      "category": 3,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GRVY",
+      "price": 74.11000061035156,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ED",
+      "price": 119.2300033569336,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TRI",
+      "price": 104.16999816894531,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VIK",
+      "price": 94.27999877929688,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SITE",
+      "price": 111.6500015258789,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DIS",
+      "price": 116.94000244140625,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "WCN",
+      "price": 181.5,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GFF",
+      "price": 104.75,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "JJSF",
+      "price": 90.5999984741211,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VRSK",
+      "price": 205.30999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "XEL",
+      "price": 80.72000122070312,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CRAI",
+      "price": 209.66000366210938,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TFX",
+      "price": 159.5500030517578,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SAFT",
+      "price": 104.36000061035156,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "AMP",
+      "price": 505.7699890136719,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "RRBI",
+      "price": 103.19000244140625,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ATO",
+      "price": 171.91000366210938,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SWK",
+      "price": 108.80999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "RYTM",
+      "price": 116.61000061035156,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "DOCU",
+      "price": 75.93000030517578,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SSD",
+      "price": 195.30999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "APD",
+      "price": 306.9200134277344,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CUBI",
+      "price": 83.8499984741211,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BH.A",
+      "price": 1829.43994140625,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CZFS",
+      "price": 83.16000366210938,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

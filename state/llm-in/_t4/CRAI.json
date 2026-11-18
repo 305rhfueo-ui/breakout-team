@@ -1,0 +1,233 @@
+{
+ "ticker": "CRAI",
+ "news": [
+  {
+   "title": "CRA International (CRAI) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/cra-international-crai-top-ranked-value-stock-should-you-buy",
+   "date": "2026-11-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CRAI Q3 Earnings & Revenues Surpass Estimates, Stock Barely Moves",
+   "url": "https://www.nasdaq.com/articles/crai-q3-earnings-revenues-surpass-estimates-stock-barely-moves",
+   "date": "2026-11-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CRA International (CRAI) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/cra-international-crai-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "CRA International (CRAI) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/cra-international-crai-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CRAI Stock Rises 12.4% in Three Months: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/crai-stock-rises-124-three-months-heres-what-you-should-know",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Advisory Expertise & Specialized Talent Aid CRAI Amid Stiff Rivalry",
+   "url": "https://www.nasdaq.com/articles/advisory-expertise-specialized-talent-aid-crai-amid-stiff-rivalry",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for CRA International (CRAI)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-cra-international-crai",
+   "date": "2026-08-24",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "How Stronger Earnings Will Impact CRA International (CRAI) Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stronger-earnings-impact-cra-international-080828598.html",
+   "date": "2026-11-13",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CRA International (CRAI) Could Be 21% Undervalued On Record Revenue And Higher Guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-crai-could-21-191224078.html",
+   "date": "2026-11-07",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CRA International Inc (CRAI) (Q3 2026) Earnings Call Highlights: Record Revenue, Raised ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-inc-crai-q3-070946674.html",
+   "date": "2026-11-06",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CRA International (CRAI) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-crai-q3-2026-203102452.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Charles River Associates Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-q3-earnings-181513366.html",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CRA International Shares Rise After Q3 Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-shares-rise-q3-154753277.html",
+   "date": "2026-11-05",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CRA (NASDAQ:CRAI) reports strong Q3 2026, full-year sales guidance is optimistic",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cra-nasdaq-crai-reports-strong-133821698.html",
+   "date": "2026-11-05",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/crai-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/crai-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-16",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000110465926085804/tm2621034d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000013/crai-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-02",
+   "reportDate": "2026-03-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000110465926039161/tm2610933d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-26",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000005/crai-20260225.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.08,
+  "saleNy": 4.51,
+  "epsCy": 5.29,
+  "epsNy": 8.44,
+  "cyTrend": 2.3,
+  "nyTrend": -1.74,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.81,
+    10.52,
+    11.63
+   ],
+   "ni": [
+    11.46,
+    -38.1,
+    -11.77
+   ],
+   "opm": [
+    11.17,
+    8.97,
+    10.48
+   ],
+   "updated": "2026-09-07 07:38:03"
+  }
+ }
+}

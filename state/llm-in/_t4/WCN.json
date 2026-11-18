@@ -1,0 +1,190 @@
+{
+ "ticker": "WCN",
+ "news": [
+  {
+   "title": "Here's Why Investors Must Hold WCN Stock in Their Portfolios Now",
+   "url": "https://www.nasdaq.com/articles/heres-why-investors-must-hold-wcn-stock-their-portfolios-now-1",
+   "date": "2026-11-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CLH vs. WCN: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/clh-vs-wcn-which-stock-should-value-investors-buy-now",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "WCN Stock Gains 11% After Reporting Q3 Earnings & Revenue Beat",
+   "url": "https://www.nasdaq.com/articles/wcn-stock-gains-11-after-reporting-q3-earnings-revenue-beat",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "‘Noxious Odors’ From L.A. County Landfill Explosion Taint This Waste Hauler’s Stock",
+   "url": "https://finance.yahoo.com/m/3376b80d-14e7-305f-a7ce-d2d34108746a/%E2%80%98noxious-odors%E2%80%99-from-l.a..html",
+   "date": "2026-11-17",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Green Dot Q3 Earnings Miss Estimates, Stock Declines 8.2%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/green-dot-q3-earnings-miss-143400878.html",
+   "date": "2026-11-16",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Waste Connections Insider Sold Shares Worth $1,045,000, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/waste-connections-insider-sold-shares-211831162.html",
+   "date": "2026-11-13",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "GFL Sinks 9% as Board Rejects Take-Private Bids: “Never Had a Better Outlook”",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/gfl-sinks-9-board-rejects-150728055.html",
+   "date": "2026-11-10",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-21",
+   "reportDate": "2026-10-21",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926117838/wcn-20261021x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926092680/tm2622609d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926090339/tm2622128d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926087330/tm2621340d6_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926085802/wcn-20260722x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-15",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926062507/tm2614785d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.63,
+  "saleNy": 6.03,
+  "epsCy": 10.63,
+  "epsNy": 8.28,
+  "cyTrend": 0.9,
+  "nyTrend": -0.56,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.42,
+    6.39,
+    5
+   ],
+   "ni": [
+    2.11,
+    -9.18,
+    "흑자전환"
+   ],
+   "opm": [
+    17.08,
+    15.36,
+    17.73
+   ],
+   "updated": "2026-09-09 06:31:01"
+  }
+ }
+}

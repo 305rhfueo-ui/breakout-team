@@ -1,0 +1,170 @@
+{
+ "ticker": "BH.A",
+ "news": [
+  {
+   "title": "Investing in Biglari Holdings (NYSE:BH.A) three years ago would have delivered you a 41% gain",
+   "url": "https://www.nasdaq.com/articles/investing-in-biglari-holdings-nyse:bh.a-three-years-ago-would-have-delivered-you-a-41-gain",
+   "date": "2022-09-02",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "Are Institutions Heavily Invested In Biglari Holdings Inc.'s (NYSE:BH.A) Shares?",
+   "url": "https://www.nasdaq.com/articles/are-institutions-heavily-invested-in-biglari-holdings-inc.s-nyse:bh.a-shares",
+   "date": "2022-01-01",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "We Like These Underlying Return On Capital Trends At Biglari Holdings (NYSE:BH.A)",
+   "url": "https://www.nasdaq.com/articles/we-like-these-underlying-return-on-capital-trends-at-biglari-holdings-nyse:bh.a-2021-11-02",
+   "date": "2021-11-02",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "Investors in Biglari Holdings (NYSE:BH.A) have made a favorable return of 80% over the past year",
+   "url": "https://www.nasdaq.com/articles/investors-in-biglari-holdings-nyse:bh.a-have-made-a-favorable-return-of-80-over-the-past",
+   "date": "2021-09-03",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "What Kind Of Shareholders Hold The Majority In Biglari Holdings Inc.'s (NYSE:BH.A) Shares?",
+   "url": "https://www.nasdaq.com/articles/what-kind-of-shareholders-hold-the-majority-in-biglari-holdings-inc.s-nyse:bh.a-shares",
+   "date": "2021-07-20",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "Why We Think Biglari Holdings Inc.'s (NYSE:BH.A) CEO Compensation Is Not Excessive At All",
+   "url": "https://www.nasdaq.com/articles/why-we-think-biglari-holdings-inc.s-nyse:bh.a-ceo-compensation-is-not-excessive-at-all",
+   "date": "2021-05-21",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "Biglari Holdings (NYSE:BH.A) Is Doing The Right Things To Multiply Its Share Price",
+   "url": "https://www.nasdaq.com/articles/biglari-holdings-nyse:bh.a-is-doing-the-right-things-to-multiply-its-share-price-2021-04",
+   "date": "2021-04-08",
+   "publisher": "Simply Wall St"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-06",
+   "reportDate": "2026-11-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026071734/bh-20261106.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026054846/bh-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026032884/bh-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-10",
+   "reportDate": "2026-04-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026024565/bh-20260408.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-02-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026012988/bh-20260228.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-21",
+   "reportDate": "2025-11-21",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828025053527/bh-20251121.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:33:39"
+  }
+ }
+}

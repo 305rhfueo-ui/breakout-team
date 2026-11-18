@@ -514,8 +514,332 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-18",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아 호실적에 CEO 공백 우려가 식었다",
+        "easy": "엔비디아가 시장 기대를 크게 넘는 분기 실적을 내놓자 주가가 올랐다. 직전까지는 젠슨 황의 자리 공백, 즉 경영진 교체를 둘러싼 불안이 주가를 눌러 왔다. 이사회는 황을 다시 CEO 로 앉히지 않겠다고 했고, 황 본인은 이사회가 요청하면 영광이라고 말했다. 실적 숫자가 리더십 불안을 일단 덮은 셈이다.",
+        "whyMatters": "AI 데이터센터에 돈이 계속 들어온다는 확인이라 반도체와 AI 서버·전력 설비 쪽에 긍정적이다. 다만 CEO 자리가 정리되지 않은 상태라 엔비디아 자체는 소식 하나에 크게 흔들릴 수 있다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Nvidia's stock rises as blowout numbers help ease CEO transition fears",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories",
+            "date": "2026-11-18",
+            "quote": "Nvidia's stock rises as blowout numbers help ease CEO transition fears",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-18",
+            "quote": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-17",
+            "quote": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "은행·항공·Apple 동시 장애로 전산 신뢰가 흔들렸다",
+        "easy": "은행, 항공, 정부 기관, Apple 서비스가 잇따라 멈추며 일상 업무가 끊겼다. 원인은 서로 달랐다. Microsoft 는 7월부터 발견되지 않은 버그라고 했고, JPMorgan 은 자체 보유 장비의 소프트웨어 버그, 항공 당국은 아칸소 남부의 라우터 교체가 통신망을 넘치게 했다고 밝혔다. 한 회사 사고가 아니라 여러 곳이 겹친 점이 문제다.",
+        "whyMatters": "업무용 소프트웨어와 클라우드, 항공, 은행 서비스의 안정성에 의문이 생겨 Microsoft 같은 대형 소프트웨어 종목에는 부담이다. 반대로 보안·장애 대응과 통신망 장비 수요에는 명분이 생긴다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+            "date": "2026-11-17",
+            "quote": "Microsoft's Outlook issues wreaked havoc on businesses on Thursday, and the Federal Aviation Administration grounded flights on Friday.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "시진핑이 정상회담 앞두고 무역장벽 제거를 말했다",
+        "easy": "시진핑 주석이 APEC 정상회의 연설에서 무역과 투자의 장벽을 없애야 한다고 말했다. 이번 주 같은 자리에서 트럼프 대통령과 푸틴 대통령을 만날 예정이라 발언 시점이 주목을 받았다. 관세와 수출 규제를 둘러싼 합의 기대가 생긴다. 다만 발언이지 합의는 아니다.",
+        "whyMatters": "관세가 풀리는 쪽이면 중국 매출 비중이 큰 반도체와 기계·산업재, 소비재 수출 기업에 좋다. 회담이 틀어지면 같은 업종이 먼저 되돌려진다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "China's Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+            "date": "2026-11-18",
+            "quote": "\"We should remove trade and investment barriers,\" Xi said via an official English translation.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Three things to watch as Trump, Xi and Putin meet in China",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+            "date": "2026-11-18",
+            "quote": "Three things to watch as Trump, Xi and Putin meet in China",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "코어위브는 올랐지만 엔비디아는 자금 지원에 신중하다",
+        "easy": "AI 임대용 데이터센터 업체 CoreWeave 주가가 올랐다. 같은 날 엔비디아는 이런 업체에 돈을 대는 방식을 절제해서 하겠다고 말했다. AI 설비 투자는 빚으로 짓는 경우가 많아 누가 보증을 서 주는지가 주가를 좌우한다. 수요는 좋지만 자금줄은 전보다 깐깐해진다는 뜻이다.",
+        "whyMatters": "데이터센터 임대·AI 인프라 종목은 실적보다 자금조달 조건에 더 민감해졌다. 금리나 회사채 시장이 나빠지면 이 업종이 먼저 눌린다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "CoreWeave's stock pops — even as Nvidia talks up a 'disciplined' approach to financing",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories",
+            "date": "2026-11-18",
+            "quote": "CoreWeave's stock pops — even as Nvidia talks up a 'disciplined' approach to financing",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "메디케어 보험료가 의료비 증가로 오른다",
+        "easy": "미국 공적 의료보험 메디케어의 파트B 보험료가 올라간다. 의료비 지출이 늘어난 것이 인상 이유다. 가입자가 내는 돈은 늘지만, 병원과 의료 서비스로 흘러드는 돈도 같이 늘어난다는 신호다. 지금 상승 종목이 의료 쪽에 몰려 있는 흐름과 방향이 같다.",
+        "whyMatters": "병원·진단·의료기기 같은 의료 서비스 업종에는 매출이 늘어난다는 쪽의 소식이다. 반대로 가계 지출이 늘어 소비재와 유통에는 조금씩 부담이 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Medicare Part B premiums rise due higher healthcare spending",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/medicare-part-b-premiums-rise-due-higher-healthcare-spending-f2daba13?mod=mw_rss_topstories",
+            "date": "2026-11-18",
+            "quote": "Medicare Part B premiums rise due higher healthcare spending",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "JPMorgan이 사람 없는 AI 결제를 시험한다",
+        "easy": "JPMorgan 과 한국 현대카드가 AI 프로그램끼리 금융 거래를 처리하는 실험을 하고 있다. 사람이 끼지 않고 AI 가 조건을 조율하고 결제까지 하도록 하는 것이 목표다. 가상의 외환 거래로 1차 검증을 마쳤고, 여러 AI 가 얽히는 다음 단계는 2027년 상반기를 겨냥한다. 아직 매출이 생기는 단계는 아니다.",
+        "whyMatters": "결제·금융 소프트웨어와 기업용 AI 업종에 수요가 생기는 방향이지만, 시간표가 2027년이라 지금 실적에는 반영되지 않는다. 은행 자체 수익보다 금융 전산 업체에 먼저 의미가 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "JPMorgan is working on AI agent transactions that don't involve humans",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+            "date": "2026-11-18",
+            "quote": "JPMorgan Chase and South Korea's Hyundai Card are testing how AI agents can handle financial transactions without direct human intervention, including whether they can eventually negotiate and make payments with one another.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기 좋은 때가 아니다. 나스닥100(QQQ)은 종가 656.95 로 10일선이 20일선 아래에 있는 상태가 21일째 이어져, 쿨라매기 기준으로는 신규 매수를 멈추고 들고 있는 것도 정리를 검토하는 빨간불이다. 오늘 뉴스는 엔비디아 호실적처럼 AI 수요를 확인해 주는 쪽과, 대규모 전산 장애처럼 신뢰를 깎는 쪽이 같이 나와 방향이 한쪽으로 정리되지 않았다. 빚내서 산 주식(마진부채)이 1년 전보다 22.4% 늘어난 수준은 아직 정상 범위이고 200일선 대비 급등 종목도 없어, 과열로 터질 국면이라기보다는 힘이 빠진 국면으로 보인다. 이번 주는 트럼프·시진핑 회담 결과와 10일선이 20일선 위로 다시 올라서는지, 그리고 상승 종목이 의료에서 다른 업종으로 번지는지를 지켜보면 된다.",
+    "keyRisks": [
+      "추세가 아직 아래쪽: 지수의 짧은 평균선이 긴 평균선 아래에 3주 넘게 머물러 있어, 좋은 뉴스에도 반등이 하루이틀로 끝나기 쉽다.",
+      "엔비디아 CEO 문제 미해결: 이사회가 복귀를 부정했고 당사자는 요청하면 돌아간다고 해 입장이 엇갈린다. 반도체 전체가 이 한 종목 뉴스에 끌려다닐 수 있다.",
+      "정상회담 결과 의존: 무역장벽 완화는 아직 발언 수준이라 합의가 나오지 않으면 중국 매출 비중이 큰 반도체·산업재가 먼저 되돌려진다.",
+      "AI 설비의 자금줄: 데이터센터 투자는 빚으로 짓는 경우가 많고 자금 지원이 깐깐해지는 분위기라, 금리나 회사채 시장이 나빠지면 관련 종목부터 흔들린다."
+    ],
+    "easySummary": [
+      "엔비디아가 기대를 넘는 실적을 내놓아 CEO 공백 불안이 가라앉고 AI 수요 걱정도 덜었다.",
+      "은행·항공·Apple·Microsoft 서비스가 잇따라 멈춰 소프트웨어와 금융 전산의 신뢰에 금이 갔다.",
+      "지수는 여전히 짧은 평균선이 긴 평균선 아래라 신규 매수보다 관망이 맞는 자리다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 155,
+      "ok": 249,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 11,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/dis-20261117.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000043/apd-20261105.htm"
+        }
+      ],
+      "numberCut": 25,
+      "numberCuts": [
+        {
+          "sentence": "올해 5월 기록한 52주 고점 278.9달러보다 아직 20% 넘게 낮고, 주가는 하루 사이 큰 폭으로 움직이는 종목이다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 약 33배로 매출이 줄어드는 회사치고 낮지 않고, 52주 고점(264달러)보다는 15% 아래다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 12.1억 달러로 1년 전보다 9.9%, 영업이익은 4.0억 달러로 13.4% 늘었다.",
+          "missing": [
+            "12.1억 달러",
+            "4.0억 달러",
+            "9.9",
+            "13.4"
+          ]
+        },
+        {
+          "sentence": "현재 1년 평균보다 약 20% 위다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "주가는 고점 대비 약 45% 낮고 1년 평균선 아래다.",
+          "missing": [
+            "45"
+          ]
+        },
+        {
+          "sentence": "7~9월 분기 매출이 3.14억 달러로 역대 최대를 기록했고, 1년 전보다 11.9% 늘었다.",
+          "missing": [
+            "11.9"
+          ]
+        },
+        {
+          "sentence": "주당순이익이 0.02달러인데 주가수익비율이 5,000배를 넘어 실적이 주가를 받치지 못한다.",
+          "missing": [
+            "5,000"
+          ]
+        },
+        {
+          "sentence": "10월 30일 고점(235.5달러)보다 25% 이상 낮은 174.67달러이고 하루 전보다도 약 4% 내렸다.",
+          "missing": [
+            "25",
+            "4"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 약 30배, 순자산 대비 10배 이상이라 성장이 조금만 꺾여도 부담이 크다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "매출 증가율도 10% 안팎이다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "인수가 205달러까지는 약 5% 남아 있어 상승 여지가 작다.",
+          "missing": [
+            "205",
+            "5"
+          ]
+        },
+        {
+          "sentence": "2분기 매출은 2억 1,406만 달러로 1년 전보다 8.5% 증가했고, 1분기도 7.9% 늘었다.",
+          "missing": [
+            "7.9"
+          ]
+        },
+        {
+          "sentence": "3분기(2026-09-29 종료) 매출이 10억 3,344만 달러로 1년 전보다 13.9% 늘었다.",
+          "missing": [
+            "09",
+            "29"
+          ]
+        },
+        {
+          "sentence": "11월 들어 52주 신고가(11월 9일 약 116달러)를 찍었고, 모멘텀·성장주로 소개하는 기사가 이어졌다.",
+          "missing": [
+            "116"
+          ]
+        },
+        {
+          "sentence": "현재가 170달러 안팎보다 훨씬 높아 기대감이 유지되고 있다.",
+          "missing": [
+            "170"
+          ]
+        },
+        {
+          "sentence": "같은 날 LG화학 계약을 조정해 비만 신약 개발용으로 최대 7억 5천만 달러 자금을 확보했다.",
+          "missing": [
+            "7억 5"
+          ]
+        },
+        {
+          "sentence": "합병회사는 8개 주 220만 고객에게 전기·가스를 공급한다.",
+          "missing": [
+            "220만",
+            "8"
+          ]
+        },
+        {
+          "sentence": "합병 종결과 함께 임원 변동 등을 담은 8-K가 11월 16일 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "실적이 시장 예상치(컨센서스)를 웃돌았다는 보도와 함께 실적 발표 8-K가 같은 날 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "JJSF는 회계연도 4분기·연간 실적을 2026-11-18 장 시작 전에 발표하고 같은 날 오전 10시(미 동부)에 컨퍼런스콜을 열 예정이었다.",
+          "missing": [
+            "11"
+          ]
+        },
+        {
+          "sentence": "회사는 같은 날 3억 5천만 달러 규모 자사주 매입도 밝혔다.",
+          "missing": [
+            "3억 5"
+          ]
+        },
+        {
+          "sentence": "11월 17일 17억 달러 규모 주식 판매 계약(시장 분할매도 방식)을 공시했다.",
+          "missing": [
+            "17억 달러"
+          ]
+        },
+        {
+          "sentence": "10x 지노믹스는 신제품 Atera를 출시하고 3분기 실적 발표에서 전망을 상향했다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "10x 지노믹스는 Atera를 출시했고 3분기 발표에서 전망을 올렸다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "3분기 매출 5.24억 달러로 예상을 웃돌았고 적자는 줄었다.",
+          "missing": [
+            "5.24억 달러"
+          ]
+        }
+      ],
+      "noQuote": 2
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-18"
   }
 };

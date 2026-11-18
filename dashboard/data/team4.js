@@ -49,9 +49,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:30:02"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NSIT",
+        "category": 6,
+        "company": "Insight Enterprises는 기업 고객에게 컴퓨터·클라우드·소프트웨어를 공급하고 IT 구축 서비스를 제공해 돈을 번다. 최근에는 AI 관련 서비스와 에이전트 상품으로 영역을 넓히고 있다.",
+        "volumeExplanation": "11월 13일 이사회가 4억 달러 자사주 매입을 승인했고, 11월 16일 6.5억 달러 전환사채 발행을 알렸다. 뚜렷한 상승 호재라기보다 자금 조달·매입 뉴스에 거래량이 몰린 것으로 보이며, 직접 원인은 확인되지 않았다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 13일 이사회가 최대 4억 달러 규모 자사주 매입 프로그램을 승인했고, 11월 16일 8-K로 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insight Enterprises 8-K (Item 8.01)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000085/nsit-20261116.htm",
+                "date": "2026-11-16",
+                "quote": "On November 13, 2026, the Board of Directors of Insight Enterprises, Inc. (the \"Company\") approved the authorization of a stock repurchase program pursuant to which the Company may purchase up to $400.0 million of our common stock",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "11월 5일 3분기 실적이 시장 예상을 웃돌았다. 거래량 급증 시점과는 2주가량 떨어져 있어 직접 원인으로 보기 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insight Enterprises (NSIT) Q3 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-q3-earnings-and-revenues-beat-estimates",
+                "date": "2026-11-05",
+                "quote": "Insight Enterprises (NSIT) Q3 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -688,18 +734,18 @@ window.TEAM4_DATA = {
             "sources": []
           }
         ],
-        "company": "Seneca Foods는 미국에서 통조림 과일·채소를 만들어 판매하는 식품 회사입니다. SENEB는 이 회사의 B클래스 주식입니다.",
+        "company": "Seneca Foods는 통조림·냉동 채소와 과일을 만들어 식료품 유통업체와 소비자 브랜드(Green Giant 등)로 파는 포장식품 회사다. SENEB는 이 회사의 B클래스 주식이다.",
         "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
         "confidence": "low",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "근거 없음으로 올바르게 분류. statement·evidence_level·sources 일관성 있음."
+          "reason": ""
         },
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-11-14",
-        "carried": true
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": []
     },
@@ -740,9 +786,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:00:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MGRT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Mega Fortune Company는 자회사를 통해 여러 산업에 사물인터넷(IoT) 솔루션과 서비스를 제공하는 소형 IT 서비스 회사다. 2025년 7월 나스닥에 상장했다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": []
     },
@@ -787,9 +853,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:03:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WF",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "WF는 한국 우리금융그룹의 미국 상장 예탁증서(ADR)로, 우리은행 등 자회사의 은행·금융 사업으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1264,9 +1350,57 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:40:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BKH",
+        "category": 3,
+        "company": "Black Hills는 미국 중서부 8개 주에서 전기·가스를 공급하는 규제 대상 유틸리티로, 요금 승인을 받은 설비 투자로 돈을 법니다. 11월 16일 NorthWestern과 합병을 마치고 Bright Horizon Energy(NYSE: HZN)가 됐습니다.",
+        "volumeExplanation": "11월 16일 Black Hills와 NorthWestern의 합병이 완료되어 BKH 주식이 HZN 주식으로 바뀌어 거래되기 시작했습니다. 합병 종목의 티커 전환과 보유 비중 조정 수요가 거래량을 키웠을 가능성이 있으나, 거래량과의 직접 연결을 밝힌 기사는 없습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 16일 합병이 끝나 Black Hills 주식은 Bright Horizon Energy(HZN) 주식으로 거래된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Black Hills Corp. and NorthWestern Energy Complete Merger, Forming Bright Horizon Energy Corporation",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/energy/articles/black-hills-corp-northwestern-energy-113000453.html",
+                "date": "2026-11-16",
+                "quote": "Outstanding shares of Black Hills common stock, which previously traded on the NYSE under the ticker symbol 'BKH,' will now trade as shares of Bright Horizon Energy (NYSE: HZN) starting today.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 16일 합병이 끝나 Black Hills 주식은 Bright Horizon Energy(HZN) 주식으로 거래된다. 합병회사는 8개 주 220만 고객에게 전기·가스를 공급한다."
+          },
+          {
+            "id": "c2",
+            "statement": "NorthWestern 주주는 보유 1주당 신주 0.98주를 받았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Black Hills Corp. and NorthWestern Energy Complete Merger, Forming Bright Horizon Energy Corporation",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/energy/articles/black-hills-corp-northwestern-energy-113000453.html",
+                "date": "2026-11-16",
+                "quote": "each outstanding share of NorthWestern common stock, which previously traded on the Nasdaq under the ticker symbol 'NWE,' was converted into 0.98 shares of Bright Horizon Energy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "NorthWestern 주주는 보유 1주당 신주 0.98주를 받았다. 합병 종결과 함께 임원 변동 등을 담은 8-K가 11월 16일 제출됐다."
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1868,8 +2002,6 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "GRVY",
         "category": 6,
-        "company": "그라비티는 한국 라그나로크 온라인 IP를 기반으로 모바일·PC 게임을 만들고 동남아·대만·중국 등에 서비스해 돈을 번다.",
-        "volumeExplanation": "11월 13일 3분기 실적이 발표되고 순이익이 7.7% 늘었다는 보도가 나오면서 거래량이 평소의 2.5배 수준으로 늘었다.",
         "claims": [
           {
             "id": "none",
@@ -1878,22 +2010,25 @@ window.TEAM4_DATA = {
             "sources": []
           }
         ],
-        "confidence": "low",
+        "company": "그라비티는 한국 게임사 라그나로크 시리즈를 온라인·모바일 게임으로 서비스해 매출을 올리는 회사다. 미국 나스닥에 ADR로 상장돼 있다.",
+        "volumeExplanation": "신작 출시 소식이 있었으나 성장률 구체 수치는 출처에서 확인되지 않습니다.",
+        "confidence": "medium",
         "factcheck": {
           "verdict": "reject",
           "removed": [
-            "c1"
+            "c1",
+            "c2"
           ],
-          "reason": "",
+          "reason": "1년 전 대비 41.9%, 영업이익 35.0% 증가 주장이 quote(분기 대비 21.8%)에 없음. 순이익 12.1% 감소도 출처 없음",
           "narrativeFixed": true
         },
         "originalCategory": 1,
         "corrected": true,
-        "volumeExplanationOriginal": "11월 13일 3분기 실적이 발표됐고 순이익이 7.7% 늘었다는 보도가 나오면서 거래량이 평소의 2.5배 수준으로 늘었다. 다만 예상치 대비 서프라이즈인지는 확인되지 않았다.",
+        "volumeExplanationOriginal": "11월 13일 발표한 3분기 실적에서 매출이 1년 전보다 41.9%, 영업이익이 35.0% 늘어 거래량이 평소의 약 2.9배로 늘었다. 신작 출시가 매출 증가를 이끈 점이 확인되면 이 이야기가 맞고, 다음 분기 매출이 꺾이면 일회성 호재였다는 뜻이다.",
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-11-14",
-        "carried": true
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2289,9 +2424,33 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:54:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ED",
+        "category": 6,
+        "company": "뉴욕시 일대에 전기·가스·열을 공급하는 규제 대상 전력회사로, 정해진 요금 체계에서 안정적으로 수익을 냅니다.",
+        "volumeExplanation": "11월 16일 선도매각 발표가 있었으나 거래량 급증과의 직접 연결은 출처에서 확인되지 않습니다.",
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1"
+          ],
+          "reason": "600만 주 공모 규모와 2027년 말 등 구체 숫자가 quote에 없음. 선도매각과 자회사 투자 목적만 확인됨",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 16일 Con Edison이 600만 주 공모(선도매각 포함)를 발표했고, 같은 날 BofA·HSBC가 목표주가를 올렸습니다. 거래량 급증은 이 발표 직후로 보이나, 거래량과의 직접 연결을 확인한 자료는 없습니다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2995,9 +3154,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:58:24"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TRI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "톰슨 로이터는 법률·세무·회계 전문가에게 정보와 소프트웨어(CoCounsel 등 AI 도구 포함)를 구독 형태로 팔고, 로이터 통신도 운영한다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3539,9 +3718,46 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:13:27"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VIK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c3",
+            "statement": "Barron's가 실적 미달에도 주가가 오르는 이유를 다룬 기사를 냈다(본문은 유료라 확인하지 못함).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
+                "publisher": "Barrons.com (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/m/2dc2acc6-ddee-3248-8e85-302c8a8b0aa7/why-viking-cruise-stock-is.html",
+                "date": "2026-11-17",
+                "quote": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Viking은 유럽 강 크루즈와 해양 크루즈를 운영하는 여행 회사로, 승객 운임과 선내 매출로 돈을 번다.",
+        "volumeExplanation": "11월 17일 2027년 예약 현황이 주목되며 Barron's에 따르면 실적 미달에도 주가가 오른 것으로 분석되었습니다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "c1의 조정 EPS(1.11달러), EBITDA(6.74억 달러), Zacks 예상치가 quote에 없음. c2의 해양 크루즈 18% 성장과 예약 32억 달러 주장이 quote의 $5.8 billion(58억 달러)과 맞지 않음",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "11월 17일 3분기 실적이 예상치를 밑돌았지만, 2027년 예약이 크게 차 있고 해양 크루즈 성장세가 강해 주가가 오르며 거래량이 늘었다. 실적 자체보다 내년 예약 현황이 매수세를 부른 것으로 보이며, 2027년 가격 전망이 낮아진 점이 이 이야기를 흔들 수 있다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4152,9 +4368,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:00:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SITE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "SiteOne은 미국에서 조경용 자재(관개·배수·조명·석재·비료 등)를 전문 조경업자에게 유통해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4786,9 +5022,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:10:03"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DIS",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "디즈니가 11월 17일 4분기 실적을 발표했고, 이익과 매출 모두 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Walt Disney (DIS) Beats Q4 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/walt-disney-dis-beats-q4-earnings-and-revenue-estimates",
+                "date": "2026-11-17",
+                "quote": "Walt Disney (DIS) Beats Q4 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 뒤 주가가 신고가를 기록했다는 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/disney-stock-hits-new-highs-after-strong-q4-earnings-time-buy-dis",
+                "date": "2026-11-17",
+                "quote": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "디즈니는 영화·방송·스트리밍과 테마파크·크루즈 같은 체험 사업으로 돈을 번다.",
+        "volumeExplanation": "11월 17일 4분기 실적이 예상치를 웃돌아 거래량이 평소의 2배 넘게 늘었다. 실적 발표 직후 주가가 신고가를 찍으며 매수세가 몰렸다. 다만 마진 압박을 지적하는 기사도 있어 다음 분기 이익률이 유지되는지가 이 해석을 확인할 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5524,9 +5806,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:31:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WCN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "북미 지역에서 쓰레기 수거와 매립장을 운영하는 폐기물 처리 회사입니다. 수거·매립 요금으로 안정적인 매출을 올립니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6192,9 +6494,57 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:10:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GFF",
+        "category": 1,
+        "company": "Griffon은 차고문·정원 도구 등 주택용 건축 자재와 소비자 제품을 만들어 파는 지주회사다. 주택 수리·건설 수요와 현금흐름으로 돈을 번다.",
+        "volumeExplanation": "11월 17일 회계 4분기 실적이 시장 예상치를 웃돌았고, 배당 인상과 4억 달러 추가 자사주 매입 승인이 함께 나왔다. 실적과 주주환원 발표가 겹쳐 거래량이 평소의 2배 이상으로 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 17일 회계 4분기 조정 주당순이익이 1.61달러로 1년 전 1.42달러보다 늘었고, 배당 인상과 4억 달러 자사주 매입 승인이 함께 발표됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Griffon Fiscal Q4 Adjusted Earnings, Revenue Rise; Dividend Raised, Adds $400 Million Buyback Authorization",
+                "publisher": "MT Newswires (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/griffon-fiscal-q4-adjusted-earnings-130515186.html",
+                "date": "2026-11-17",
+                "quote": "Griffon (GFF) reported fiscal Q4 adjusted earnings Tuesday of $1.61 per diluted share, up from $1.42",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Griffon (GFF) Q4 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/griffon-gff-q4-earnings-and-revenues-surpass-estimates",
+                "date": "2026-11-17",
+                "quote": "Griffon (GFF) Q4 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "실적이 시장 예상치(컨센서스)를 웃돌았다는 보도와 함께 실적 발표 8-K가 같은 날 제출됐다.",
+            "stripped": true
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6833,9 +7183,40 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:39:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "JJSF",
+        "category": 1,
+        "company": "J&J Snack Foods는 프레첼·냉동 간식·쿠키 등 간식류를 학교·식당·마트에 공급해 돈을 번다.",
+        "volumeExplanation": "회사가 2026회계연도 4분기 실적을 오늘(11월 18일) 장 시작 전에 발표하도록 예정돼 있어, 실적 발표가 거래량이 평소의 약 2배로 늘어난 가장 가까운 이유다. 다만 실제 실적 내용은 확인하지 못해 서프라이즈 여부는 알 수 없다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "발표 내용(예상치 상회 여부, 가이던스)은 확인되지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "J&J Snack Foods schedules fourth quarter and fiscal year earnings conference call and webcast",
+                "publisher": "Finviz",
+                "url": "https://finviz.com/news/412460/j-j-snack-foods-schedules-fourth-quarter-and-fiscal-year-earnings-conference-call-and-webcast",
+                "date": "2026-11-18",
+                "quote": "will release financial results for its fourth quarter and fiscal year ended September 26, 2026, before the stock market opens on Wednesday, November 18, 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "JJSF는 회계연도 4분기·연간 실적을 2026-11-18 장 시작 전에 발표하고 같은 날 오전 10시(미 동부)에 컨퍼런스콜을 열 예정이었다. 발표 내용(예상치 상회 여부, 가이던스)은 확인되지 않았다."
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "Statement c1 includes specific conference call time (오전 10시/10 AM ET) that is not stated in the provided quote. The quote confirms the earnings release on 11-18 before market open and that a call is scheduled, but does not specify the 10 AM time. The statement should remove or qualify this detail unless additional source confirms it."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "제이앤제이 스낵 푸즈",
@@ -7389,9 +7770,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:46:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VRSK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Verisk는 보험사 등에 데이터 분석과 위험 평가 서비스를 구독 형태로 팔아 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8086,9 +8487,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:36:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "XEL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Xcel Energy는 미국 중서부·서부에서 전기와 천연가스를 공급하는 규제 받는 전력 회사입니다. 규제 요금으로 안정적인 매출을 올립니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8802,9 +9223,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:38:03"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CRAI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "CRA International은 기업 소송·규제·인수합병 등에서 경제·재무 분석과 경영 컨설팅을 제공해 수수료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9423,9 +9864,78 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:23:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TFX",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 5일 발표한 3분기 실적이 예상치를 넘었고, 분기 매출은 5억 6,780만 달러였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teleflex Reports Third Quarter 2026 Revenue of $567.8 million and Repurchases $350 Million in Common Stock",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/teleflex-reports-third-quarter-2026-revenue-5678-million-and-repurchases-350-million",
+                "date": "2026-11-05",
+                "quote": "Teleflex Reports Third Quarter 2026 Revenue of $567.8 million and Repurchases $350 Million in Common Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Teleflex (TFX) Q3 Earnings Surpass Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/teleflex-tfx-q3-earnings-surpass-estimates",
+                "date": "2026-11-05",
+                "quote": "Teleflex (TFX) Q3 Earnings Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 5일 발표한 3분기 실적이 예상치를 넘었고, 분기 매출은 5억 6,780만 달러였다. 회사는 같은 날 3억 5천만 달러 규모 자사주 매입도 밝혔다."
+          },
+          {
+            "id": "c2",
+            "statement": "실적 뒤 증권사들이 목표주가를 올렸다. RBC는 155달러에서 175달러로, Truist는 142달러에서 167달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "RBC Raises Price Target on Teleflex to $175 From $155, Keeps Outperform Rating",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-teleflex-142646123.html",
+                "date": "2026-11-06",
+                "quote": "RBC Raises Price Target on Teleflex to $175 From $155, Keeps Outperform Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Truist Securities Adjusts Price Target on Teleflex to $167 From $142, Keeps Hold Rating",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-103949637.html",
+                "date": "2026-11-09",
+                "quote": "Truist Securities Adjusts Price Target on Teleflex to $167 From $142, Keeps Hold Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Teleflex는 카테터·수술 기구 같은 의료기기를 병원에 공급해 돈을 번다. 심혈관 시술용 제품과 응급·중환자 치료용 제품이 주력이다.",
+        "volumeExplanation": "11월 5일 3분기 실적이 예상을 넘고, 이후 목표주가 상향이 이어졌다. 다만 11월 18일 당일의 새 소식은 확인되지 않아, 실적 이후 매수세가 이어진 영향으로 본다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3의 EPS 전망 숫자(6.25~6.55→6.90~7.20)가 source title에 명시되어 있지 않아 제거.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 5일 3분기 실적이 예상을 넘고 연간 이익 전망이 올라갔고, 이후 목표주가 상향이 이어졌다. 다만 11월 18일 당일의 새 소식은 확인되지 않아, 실적 이후 매수세가 이어진 영향으로 본다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9541,9 +10051,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:07:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SAFT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Safety Insurance는 미국 매사추세츠주 중심으로 자동차보험 등 손해보험을 팔아 보험료 수입과 투자수익으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -10090,9 +10620,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:37:42"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AMP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Ameriprise Financial은 재무 상담사 네트워크를 통한 자산관리 수수료와 자산운용(컬럼비아 스레드니들) 수수료로 돈을 번다. 보험·연금 상품과 은행 서비스도 함께 판다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -10795,9 +11345,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:50:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RRBI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Red River Bancshares는 미국 루이지애나주에서 지역 은행을 운영하며 대출 이자와 수수료로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "레드 리버 뱅크셰어스",
@@ -11363,9 +11933,40 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:15:04"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ATO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "기존 계약을 대체하는 자금 조달이며 주가 상승 재료로 보기는 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atmos Energy 8-K (Item 1.01, 2026-11-17)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/731802/000119312526465513/d61170d8k.htm",
+                "date": "2026-11-17",
+                "quote": "Net proceeds received upon the issuance and sale of shares",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 17일 17억 달러 규모 주식 판매 계약(시장 분할매도 방식)을 공시했다. 기존 계약을 대체하는 자금 조달이며 주가 상승 재료로 보기는 어렵다."
+          }
+        ],
+        "company": "애트모스 에너지는 미국 7개 주 안팎의 가정·기업에 규제 받는 천연가스를 공급하는 가스 유틸리티다. 요금 기반(설비 투자 금액)이 늘어나는 만큼 이익이 커지는 구조다.",
+        "volumeExplanation": "뚜렷한 호재 없이 거래량만 늘었다. 11월 17일 17억 달러 규모 주식 매각 계약 공시가 있었으나 거래량 급증의 원인이라고 확인된 근거는 없다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "statement의 '17억 달러'는 8-K quote에 명시되지 않음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -12049,9 +12650,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:58:03"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SWK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "스탠리 블랙앤데커는 전동공구·수공구(DeWalt, Craftsman, Stanley)를 만들어 소매점과 전문가 채널에 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -12739,9 +13360,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:32:42"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RYTM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Rhythm Pharmaceuticals는 희귀 유전성 비만 치료제 Imcivree(setmelanotide)를 팔아 매출을 올리는 바이오 기업이다. 아직 영업적자 상태다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -12846,9 +13487,29 @@ window.TEAM4_DATA = {
         "updated": "2026-06-12 09:05:47"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DOCU",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "전자서명·계약 관리 소프트웨어(Docusign)를 구독형으로 팔아 돈을 번다. 최근 분기 매출은 1년 전보다 약 8% 늘었다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -13579,9 +14240,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:38:04"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SSD",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Simpson Manufacturing은 목조 주택 건설에 쓰이는 구조용 연결 금속 부품과 앵커 등을 만들어 파는 건축자재 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -14207,9 +14888,46 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:28:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "APD",
+        "category": 1,
+        "company": "에어프로덕츠는 산업용 가스(산소·질소·수소 등)를 제조업체와 병원 등에 공급하는 회사입니다. 장기 공급계약으로 안정적인 매출을 올립니다.",
+        "volumeExplanation": "11월 5일 4분기 실적이 시장 예상치를 웃돌았고, 이후 11월 17일 증권사 베렌버그가 목표주가를 올렸습니다. 거래량은 최근 5일 평균의 약 2배로 늘었지만 거래대금은 20일 평균의 1.3배 수준이라 큰 급증은 아닙니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 5일 발표한 4분기 실적이 시장 예상치(매출·주당순이익)를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Air Products and Chemicals (APD) Surpasses Q4 Earnings and Revenue Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-surpasses-q4-earnings-and-revenue-estimates",
+                "date": "2026-11-05",
+                "quote": "Air Products and Chemicals (APD) Surpasses Q4 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "베렌버그 목표주가 인상 부분이 근거 없이 volumeExplanation에만 있음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -14902,9 +15620,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:24:54"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CUBI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Customers Bancorp는 미국 지역은행으로, 대출과 예금의 이자 차익, 핀테크·디지털 결제 서비스로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -15561,9 +16299,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:33:39"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BH.A",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Biglari Holdings는 스테이크 앤 셰이크 등 레스토랑 체인을 운영하며 돈을 벌고, 보험·석유·가스 사업도 함께 가진 지주회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "비글래리 홀딩스 A",
@@ -16103,9 +16861,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:07:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CZFS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "펜실베이니아 북동부에서 지역 은행을 운영하는 Citizens Financial Services로, 예금과 대출의 이자 수익이 주된 수입원이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -16680,14 +17458,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 2,
+    "done": 30,
     "total": 30,
-    "cap": null,
-    "pending": 28,
+    "cap": 30,
+    "pending": 0,
     "failed": 0,
-    "carried": 2,
+    "carried": 0,
     "ineligible": 0,
-    "note": "30종목 중 2종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 28종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -16705,5 +17483,43 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 2건 중 하나는 데이터센터 전력 수요(전력 유틸리티)와 관련돼 있고, 나머지는 업종 연결이 입력에 없습니다. 업종 쏠림은 판단할 근거가 부족합니다.",
     "caution": "STN은 같은 시기에 Stifel이 투자의견을 보유로 낮추는 등 엇갈린 반응도 있었습니다. SO의 실적 발표일은 11월 5일로 이미 시간이 지났으니 지금 가격에 호재가 얼마나 반영됐는지는 직접 확인하세요. 가격 데이터는 받지 않았습니다.",
     "researchedOn": "2026-11-17"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "DIS",
+        "category": 1,
+        "oneLine": "디즈니가 11/17 4분기 실적을 냈고 이익·매출 모두 예상치를 웃돌았다. 발표 뒤 신고가 기사도 나왔다."
+      },
+      {
+        "ticker": "GFF",
+        "category": 1,
+        "oneLine": "회계 4분기 조정 주당순이익 1.61달러(전년 1.42달러). 배당 인상과 4억 달러 자사주 매입도 같이 발표했다."
+      },
+      {
+        "ticker": "TFX",
+        "category": 1,
+        "oneLine": "11/5 3분기 실적이 예상치를 넘었고 3억 5천만 달러 자사주 매입도 발표했다. RBC·Truist가 목표주가를 올렸다."
+      },
+      {
+        "ticker": "APD",
+        "category": 1,
+        "oneLine": "11/5 4분기 실적이 매출·주당순이익 모두 예상치를 웃돌았다. 실적 8-K도 같은 날 제출됐다."
+      },
+      {
+        "ticker": "JJSF",
+        "category": 1,
+        "oneLine": "11/18 장 시작 전 실적을 발표할 예정이었으나 예상치 상회 여부와 가이던스는 확인되지 않았다."
+      }
+    ],
+    "sectorSignal": "실적 호재 5건 중 DIS·GFF·TFX·APD 4건이 확인됐고 업종은 제각각이라 특정 업종 쏠림은 없다. 산업 기술 돌파는 0건이고, 30건 중 20건 가까이는 뚜렷한 근거 없는 거래량 급증이다.",
+    "caution": "JJSF는 실적 발표 내용을 확인하지 못해 호재로 단정할 수 없다. TFX·APD는 실적 발표(11/5)가 오래돼 오늘 움직임의 직접 원인인지는 불확실하다. 이 분류는 뉴스 근거만 본 것이고 차트 상태는 보지 않았다.",
+    "researchedOn": "2026-11-18"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 5,
+    "3": 1,
+    "6": 24
   }
 };

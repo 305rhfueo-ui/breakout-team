@@ -1,0 +1,174 @@
+{
+ "ticker": "SITE",
+ "news": [
+  {
+   "title": "Wednesday 11/4 Insider Buying Report: MGM, SITE",
+   "url": "https://www.nasdaq.com/articles/wednesday-11-4-insider-buying-report-mgm-site",
+   "date": "2026-11-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SiteOne (SITE) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/siteone-site-q3-2026-earnings-call-transcript",
+   "date": "2026-10-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SiteOne Landscape (SITE) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/siteone-landscape-site-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Monday 8/31 Insider Buying Report: DKS, SITE",
+   "url": "https://www.nasdaq.com/articles/monday-8-31-insider-buying-report-dks-site",
+   "date": "2026-08-31",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SiteOne Landscape Supply to Join S&P SmallCap 600; Shares Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/siteone-landscape-supply-join-p-224652191.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "SiteOne: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/siteone-3-key-takeaways-long-180502704.html",
+   "date": "2026-11-13",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-28",
+   "reportDate": "2026-10-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1650729/000110465926119300/tm2628388d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1650729/000110465926087746/tm2621404d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1650729/000110465926063512/tm2614955d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1650729/000110465926050657/tm2613027d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-22",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1650729/000110465926048750/tm2612680d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-31",
+   "reportDate": "2026-03-31",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1650729/000110465926037375/tm2610610d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.48,
+  "saleNy": 3.12,
+  "epsCy": 5.91,
+  "epsNy": 19.76,
+  "cyTrend": -0.44,
+  "nyTrend": -2.01,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.73,
+    0.07,
+    3.21
+   ],
+   "ni": [
+    7.98,
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    12.91,
+    -2.76,
+    -0.48
+   ],
+   "updated": "2026-09-08 07:00:44"
+  }
+ }
+}
