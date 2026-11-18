@@ -1,636 +1,493 @@
 window.MOVERS_DATA = {
-  "updated": "2026-11-17T15:33:29.194Z",
-  "basis": "11/17 10:30 ET 기준",
+  "updated": "2026-11-18T15:33:14.381Z",
+  "basis": "11/18 10:30 ET 기준",
   "exact": true,
-  "amtMinK": 3000,
-  "themes": [],
-  "groups": [],
+  "amtMinK": 10000,
+  "themes": [
+    {
+      "name": "소매업체 3분기 실적·전망 상향",
+      "why": "TJX와 타겟이 같은 날 3분기 실적이 예상을 웃돌고 연간 전망을 올렸다.",
+      "members": [
+        {
+          "ticker": "TJX",
+          "n": 0
+        },
+        {
+          "ticker": "TGT",
+          "n": 5
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "industry": "Software - Infrastructure",
+      "ko": "인프라 소프트웨어",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "NET",
+        "OKTA"
+      ]
+    }
+  ],
   "items": [
     {
-      "ticker": "SLS",
-      "nameKo": "셀라스 라이프 사이언시스 그룹",
-      "nameEn": "SELLAS LIFE SCIENCES GROUP INC",
-      "ratePct": 156.49,
-      "price": 19.16,
-      "amountUsd": 743092626,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "TTWO",
+      "nameKo": "테이크 투 인터랙티브 소프트웨어",
+      "nameEn": "TAKE TWO INTERACTIVE SOFTWARE INC",
+      "ratePct": 6.55,
+      "price": 217.28,
+      "amountUsd": 629034508,
+      "industry": "Electronic Gaming & Multimedia",
+      "industryKo": "게임·멀티미디어",
       "story": {
-        "headline": "급성골수성백혈病 암 백신 3상 성공, 주가 폭등",
-        "detail": "셀라스 라이프 사이언시스가 급성골수성백혈병(AML, 혈액암의 일종) 치료용 면역 암 백신 갈리메피무트-S(GPS)의 3상(REGAL) 주요 결과가 긍정적이라고 발표했다. 전체 생존기간에서 통계적으로 유의미한 개선을 보였고, 사망 위험을 41% 낮췄다는 보도가 나왔다. 회사는 2027년 상반기 FDA(미국 식품의약국) 신청을 목표로 한다. 임상 성공 하나에 주가가 좌우되는 바이오 종목이라 변동성이 매우 크다.",
-        "quote": "Investing.com -- SELLAS Life Sciences Group (NASDAQ:SLS) shares surged 240% after the company announced positive topline results from its pivotal Phase 3 REGAL trial of galinpepimut-S (GPS), an immunotherapeutic cancer vaccine for acute myeloid leukemia.",
-        "quoteFrom": 1,
-        "others": [
-          {
-            "n": 6,
-            "line": "Susquehanna와 Prudential이 3분기에 SLS 주식 130만 주를 추가 매수했다."
-          }
-        ],
+        "headline": "GTA VI 글로벌 출시와 호평 속에 테이크투 급등",
+        "detail": "'GTA VI'가 수요일 글로벌 출시에 들어가면서 게이머와 평론가의 호평이 이어졌고 월가도 환영하고 있다. 출시 전 공개된 초기 리뷰가 매우 높은 평점을 받으면서 프리마켓(정규장 전 거래)에서 주가가 6.4% 올랐다. 다만 출시 직전 이틀간 주가가 10% 하락했던 터라 기대감이 먼저 반영됐다가 되돌려질 수 있다는 점은 유의해야 한다.",
+        "quote": "As \"Grand Theft Auto VI\" begins its global rollout on Wednesday, gamers and critics are applauding the blockbuster release.",
+        "quoteFrom": 0,
+        "others": [],
         "refs": [
+          0,
           1,
-          3,
+          4,
           5
         ]
       },
       "news": [
         {
-          "title": "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 220%",
-          "url": "https://finance.yahoo.com/m/73265628-d900-3b2d-8301-d0fb3120e645/another-cancer-vaccine-just.html",
-          "date": "2026-11-17",
-          "publisher": "Investor's Business Daily"
+          "title": "'GTA VI' publisher Take-Two jumps as gamers relish blockbuster release",
+          "url": "https://finance.yahoo.com/news/gta-vi-publisher-two-jumps-143240053.html",
+          "date": "2026-11-18",
+          "publisher": "Reuters"
         },
         {
-          "title": "SELLAS Life Sciences stock soars 240% on positive cancer trial",
-          "url": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-stock-soars-141221879.html",
-          "date": "2026-11-17",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "Sector Update: Healthcare",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-140018533.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Sellas’ GPS Cuts Death Risk By 41% In Pivotal AML Trial – Firm Eyes FDA Filing In First Half Of 2027",
-          "url": "https://finance.yahoo.com/healthcare/articles/sellas-gps-cuts-death-risk-125915492.html",
-          "date": "2026-11-17",
-          "publisher": "Stocktwits"
-        },
-        {
-          "title": "Sellas Life Sciences Says Cancer Vaccine Meets Primary Endpoint in Phase 3 Trial",
-          "url": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-says-cancer-124743739.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "SELLAS Life Sciences Announces Positive Pivotal Phase 3 REGAL Trial Data Showing Immunotherapeutic Cancer Vaccine, Galinpepimut-S (GPS), Demonstrated a Statistically Significant and Clinically Meaningful Improvement in Overall Survival in Patients with Acute Myeloid Leukemia",
-          "url": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-announces-positive-120000814.html",
-          "date": "2026-11-17",
-          "publisher": "GlobeNewswire"
-        },
-        {
-          "title": "SLS Stock Jumps After-Hours: Retail Eyes Lilly’s Cancer Deal for Valuation Clues — 2 Big Investors Grab Shares",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sls-stock-jumps-hours-retail-015411970.html",
-          "date": "2026-11-17",
-          "publisher": "Stocktwits"
-        }
-      ]
-    },
-    {
-      "ticker": "FRTT",
-      "nameKo": "포트 테크놀로지",
-      "nameEn": "FORT TECHNOLOGY INC",
-      "ratePct": 76.08,
-      "price": 0.6691,
-      "amountUsd": 140569279,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "올해 누적 매출 1,200만 달러, 사상 최대 실적 발표",
-        "detail": "포트 테크놀로지가 2026년 1~9월 누적 매출 1,198만 1천 달러로 전년 같은 기간(805만 달러)보다 49% 늘었다고 발표했다. 누적 매출총이익도 210만 달러로 사상 최대다. 모회사 넥세라는 이 실적이 2025년 7월 주식매매계약상 남은 목표 달성에 한 걸음 다가섰다고 밝혔다. 주가가 크게 오른 소형주라 변동성에 유의해야 한다.",
-        "quote": "Fort Technology Inc. (Nasdaq: FRTT) (\"Fort\" or the \"Company\") today announced its unaudited interim condensed consolidated financial results for the three and nine months ended September 30, 2026.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          0,
-          1
-        ]
-      },
-      "news": [
-        {
-          "title": "Nexera: Subsidiary Fort Technology Reports 49% Growth with Record $12 Million Year-to-Date Revenues, Advancing Toward Milestones for Additional Fort Shares",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nexera-subsidiary-fort-technology-reports-124700322.html",
-          "date": "2026-11-17",
-          "publisher": "GlobeNewswire"
-        },
-        {
-          "title": "Fort Technology Reports Record Year-to-Date Revenues of $12 Million, Up 49%, and Record Year-to-Date Gross Profit of $2.1 Million",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fort-technology-reports-record-date-123200384.html",
-          "date": "2026-11-17",
-          "publisher": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "ticker": "GP",
-      "nameKo": "그린파워 모터",
-      "nameEn": "GREENPOWER MTR CO INC",
-      "ratePct": 77.23,
-      "price": 2.499,
-      "amountUsd": 137242706,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "AS",
-      "nameKo": "아머 스포츠",
-      "nameEn": "AMER SPORTS INC",
-      "ratePct": 8.32,
-      "price": 31.52,
-      "amountUsd": 137053625,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "3분기 호실적에 연간 가이던스 상향",
-        "detail": "환율 영향을 뺀 증가율은 23%다. 주당순이익은 시장 예상을 23.53% 웃돌았고, 매출도 1.86% 상회했다. 회사는 연간 매출·마진·주당순이익 가이던스(회사가 내놓은 실적 전망)를 올렸고, 이것이 주가 상승 배경이다.",
-        "quote": "Amer Sports Inc (NYSE:AS), the owner of Arc'teryx, Salomon and Wilson, raised its full-year 2026 guidance after third-quarter revenue increased 24% and adjusted earnings exceeded its previous expectations.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          0,
-          1,
-          6
-        ]
-      },
-      "news": [
-        {
-          "title": "Amer Sports, Inc. (AS) Beats Q3 Earnings and Revenue Estimates",
-          "url": "https://www.nasdaq.com/articles/amer-sports-inc-beats-q3-earnings-and-revenue-estimates",
-          "date": "2026-11-17",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Amer Sports raises 2026 guidance after third-quarter revenue and earnings beat",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-raises-2026-guidance-144600716.html",
-          "date": "2026-11-17",
-          "publisher": "Proactive"
-        },
-        {
-          "title": "Amer Sports Is Firing on All Cylinders After Strong Q3",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-firing-cylinders-strong-135710708.html",
-          "date": "2026-11-17",
-          "publisher": "Footwear News"
-        },
-        {
-          "title": "Amer Sports, Inc. (AS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-inc-q3-earnings-133003898.html",
-          "date": "2026-11-17",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Amer Sports Reports 24% Third-Quarter Revenue Growth and Raises 2026 Earnings Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-reports-24-third-114720823.html",
-          "date": "2026-11-17",
+          "title": "Take-Two Shares Jump 6.4% as Grand Theft Auto VI Earns Near-Perfect Reviews Ahead of Launch",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/two-shares-jump-6-4-144331452.html",
+          "date": "2026-11-18",
           "publisher": "InvestorsHub"
         },
         {
-          "title": "Amer Sports Q3 Net Earnings, Revenue Increase; 2026 Guidance Lifted",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-q3-net-earnings-113743301.html",
-          "date": "2026-11-17",
+          "title": "Take-Two Interactive Software Shares Rise As Highly Anticipated GTA 6 Game Begins Global Launch",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-shares-rise-144138334.html",
+          "date": "2026-11-18",
           "publisher": "MT Newswires"
         },
         {
-          "title": "Amer Sports Reports Third Quarter 2026 Financial Results, Raises Full Year Revenue, Margin, and EPS Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-reports-third-quarter-110000713.html",
-          "date": "2026-11-17",
-          "publisher": "Business Wire"
-        }
-      ]
-    },
-    {
-      "ticker": "SNAP",
-      "nameKo": "스냅",
-      "nameEn": "SNAP INC",
-      "ratePct": 6.97,
-      "price": 5.445,
-      "amountUsd": 58576907,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Snap Promised Specs This Fall. Five Weeks Left and the $2,195 Glasses Still Have No Ship Date",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/snap-promised-specs-fall-five-143520893.html",
-          "date": "2026-11-17",
-          "publisher": "TIKR"
+          "title": "Prediction: Take-Two Interactive Stock Will Make You a Lot Richer by 2030",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-two-interactive-stock-lot-143500599.html",
+          "date": "2026-11-18",
+          "publisher": "Motley Fool"
         },
         {
-          "title": "Snap Just Dropped 17% in a Month on Ad Growth “Below Our Ambitions.” Sell, or Load Up?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/snap-just-dropped-17-month-104821574.html",
-          "date": "2026-11-17",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Stock Market Today, Nov. 16: Snap Falls Amid Tech Sector Sell-Off and Ongoing Youth Social Media Addiction Lawsuit Exposure",
-          "url": "https://www.nasdaq.com/articles/stock-market-today-nov-16-snap-falls-amid-tech-sector-sell-and-ongoing-youth-social-media",
-          "date": "2026-11-16",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "Snap (SNAP) Settles Major Youth Addiction Lawsuits With 1,600 Claims Still Active",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/snap-snap-settles-major-youth-080750291.html",
-          "date": "2026-11-14",
-          "publisher": "Simply Wall St."
-        }
-      ]
-    },
-    {
-      "ticker": "KLAR",
-      "nameKo": "클라르나 그룹",
-      "nameEn": "KLARNA GROUP PLC",
-      "ratePct": 5.25,
-      "price": 14.345,
-      "amountUsd": 49857582,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "매출 증가와 AI 쇼핑 비서 업그레이드",
-        "detail": "클라르나가 3분기 매출이 예상을 4.80% 웃돌았고 순손실이 줄었다. 연말 쇼핑철을 앞두고 상품과 최저가를 찾아 대신 구매해 주는 AI 비서를 선보였다. 다만 주당 손실은 예상보다 18.75% 더 컸고, 투자자 신뢰를 아직 못 얻었다는 평가도 있다.",
-        "quote": "Klarna is upgrading AI features and attracting new customers in time for the holiday shopping season.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          0,
-          1,
-          3,
-          7
-        ]
-      },
-      "news": [
-        {
-          "title": "Klarna (KLAR) Reports Q3 Loss, Beats Revenue Estimates",
-          "url": "https://www.nasdaq.com/articles/klarna-klar-reports-q3-loss-beats-revenue-estimates",
-          "date": "2026-11-17",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Klarna stock rises on strong revenue growth and upgraded agentic AI shopping assistant",
-          "url": "https://finance.yahoo.com/markets/stocks/article/klarna-stock-rises-on-strong-revenue-growth-and-upgraded-agentic-ai-shopping-assistant-152747292.html",
-          "date": "2026-11-17",
+          "title": "'Grand Theft Auto VI' could be the biggest entertainment launch in history, preorders top $1.65 billion",
+          "url": "https://finance.yahoo.com/technology/article/grand-theft-auto-vi-could-be-the-biggest-entertainment-launch-in-history-preorders-top-165-billion-143427744.html",
+          "date": "2026-11-18",
           "publisher": "Yahoo Finance"
         },
         {
-          "title": "Klarna Group Launches AI Assistant",
-          "url": "https://finance.yahoo.com/technology/ai/articles/klarna-group-launches-ai-assistant-144748990.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires"
+          "title": "Take-Two Has Lost 10% in Two Days Before GTA VI. Here’s What the Stock Did After the Last Five Grand Theft Auto Launches",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/two-lost-10-two-days-140704168.html",
+          "date": "2026-11-18",
+          "publisher": "24/7 Wall St."
         },
         {
-          "title": "From returns to restaurant bookings: Klarna’s AI assistant finds the best product & price, buys it for you, and you don’t pay until it arrives",
-          "url": "https://finance.yahoo.com/technology/ai/articles/returns-restaurant-bookings-klarna-ai-142600253.html",
-          "date": "2026-11-17",
-          "publisher": "Business Wire"
-        },
-        {
-          "title": "Klarna Keeps Winning Shoppers but Hasn’t Been Winning Over Investors",
-          "url": "https://finance.yahoo.com/m/c6c8b0e1-595b-35a9-b97f-16257cd2d2d5/klarna-keeps-winning-shoppers.html",
-          "date": "2026-11-17",
-          "publisher": "Barrons.com"
-        },
-        {
-          "title": "Compared to Estimates, Klarna (KLAR) Q3 Earnings: A Look at Key Metrics",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-klarna-klar-q3-133002514.html",
-          "date": "2026-11-17",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Klarna Revenue Gains as Customer Base Grows",
-          "url": "https://finance.yahoo.com/m/0a802283-a619-3ffe-814f-2e270d66b4a0/klarna-revenue-gains-as.html",
-          "date": "2026-11-17",
-          "publisher": "The Wall Street Journal"
-        },
-        {
-          "title": "Klarna Group Q3 Net Loss Narrows, Revenue Rises",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-group-q3-net-loss-132119011.html",
-          "date": "2026-11-17",
+          "title": "Sector Update: Tech",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-135441227.html",
+          "date": "2026-11-18",
           "publisher": "MT Newswires"
         }
       ]
     },
     {
-      "ticker": "ACM",
-      "nameKo": "애이콤 테크놀로지",
-      "nameEn": "AECOM",
-      "ratePct": 9.56,
-      "price": 79.43,
-      "amountUsd": 35939930,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "TJX",
+      "nameKo": "TJX",
+      "nameEn": "TJX COS INC",
+      "ratePct": 10.51,
+      "price": 143.5,
+      "amountUsd": 568720922,
+      "industry": "Apparel Retail",
+      "industryKo": "의류 유통",
       "story": {
-        "headline": "4분기 실적 호조와 목표주가 상향",
-        "detail": "애이콤이 회계 4분기 조정 주당순이익 1.63달러로 예상을 웃돌았고, 2027 회계연도 가이던스(회사 전망)는 시장 예상과 부합했다. 발표 직후 시간외에서 6.9% 올랐다. BofA 증권은 목표주가를 81달러에서 92.5달러로 올렸다. 매출은 감소했다.",
-        "quote": "Investing.com -- AECOM (NYSE:ACM) shares surged 6.9% in after-hours trading Monday after the infrastructure firm reported fourth-quarter results that exceeded earnings expectations and issued fiscal 2027 guidance in line with analyst estimates.",
+        "headline": "TJX, 3분기 매출 예상 상회에 연간 전망 상향",
+        "detail": "오프프라이스(할인 아울렛형) 소매업체 TJX가 3분기 실적을 발표하며 4분기 전망을 내놓고 연간 가이던스(회사가 제시한 실적 전망)를 올렸다. 3분기 매출은 159억 5천만 달러로 시장 예상 158억 5천만 달러를 0.7% 웃돌았고, 주당순이익은 예상에 부합했다. 동일점포 매출 증가와 남은 회계연도에 대한 긍정적 전망이 주가를 끌어올린 것으로 보인다. 조정 EPS(주당순이익)에는 관세 환급 관련 이익이 반영돼 있어 이익의 질은 따져볼 필요가 있다.",
+        "quote": "TJX Companies Inc (NYSE:TJX), the owner of the TJ Maxx and Marshalls off-price chains, reported third-quarter sales of $15.95 billion on Wednesday, 0.7% above the $15.85 billion analysts had forecast.",
+        "quoteFrom": 6,
+        "others": [],
+        "refs": [
+          0,
+          4,
+          6,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "TJX Companies Boosts FY26 Outlook; Shares Surge 7.8% - Update",
+          "url": "https://www.nasdaq.com/articles/tjx-companies-boosts-fy26-outlook-shares-surge-78-update",
+          "date": "2026-11-18",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "The TJX Companies, Inc. Q3 Profit Advances",
+          "url": "https://www.nasdaq.com/articles/tjx-companies-inc-q3-profit-advances",
+          "date": "2026-11-18",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "TJX (TJX) Tops Q3 Earnings and Revenue Estimates",
+          "url": "https://www.nasdaq.com/articles/tjx-tjx-tops-q3-earnings-and-revenue-estimates",
+          "date": "2026-11-18",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "The TJX Companies Q3 27 Earnings Conference Call At 11:00 AM ET",
+          "url": "https://www.nasdaq.com/articles/tjx-companies-q3-27-earnings-conference-call-11-00-am-et",
+          "date": "2026-11-18",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "TJX Shares Jump 6.08% as Third-Quarter Revenue Beats Estimates and FY2027 Outlook Strengthens",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tjx-shares-jump-6-08-143809543.html",
+          "date": "2026-11-18",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Sector Update: Consumer",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-135730074.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "TJX beats third-quarter sales estimates, with earnings in line",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tjx-beats-third-quarter-sales-133100182.html",
+          "date": "2026-11-18",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "TJX (TJX) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tjx-tjx-reports-q3-earnings-133004037.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "nameKo": "팔로 알토 네트웍스",
+      "nameEn": "PALO ALTO NETWORKS INC",
+      "ratePct": 6.05,
+      "price": 328.015,
+      "amountUsd": 552217189,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
+      "story": {
+        "headline": "실적 발표 당일, 실적 기대감에 팔로알토 상승",
+        "detail": "팔로알토는 11월 18일 회계연도 1분기 실적을 발표할 예정이었다. 사전 기사에서 오펜하이머 애널리스트는 매수 의견과 목표가 450달러를 유지하며, 파트너 점검 결과 분기 실적이 계획을 웃돌았다고 전했다. 가 아니라 95억 5천만 달러 안팎으로 가이던스(회사 전망) 중간값보다 약 2%포인트 높을 것으로 봤고, 매출은 33억 500만 달러 예상치를 1~1.5%포인트 웃돌 것으로 전망했다. 다만 경영진이 연간 전망은 보수적으로 제시할 것이라는 관측도 있어 실제 발표 내용이 중요하다. 상승 이유를 직접 설명한 기사는 없다.",
+        "quote": "Kidron expects management to remain conservative with its FY27 guidance and raise it by no more than the size of the quarterly beat.",
         "quoteFrom": 1,
-        "others": [],
+        "others": [
+          {
+            "n": 0,
+            "line": "사이버 위협과 AI 취약점 증가로 제로 트러스트 보안 수요가 늘고 있다는 클라우드플레어 관련 기사."
+          }
+        ],
         "refs": [
-          0,
-          1,
-          2
-        ]
-      },
-      "news": [
-        {
-          "title": "BofA Securities Adjusts Price Target on AECOM to $92.50 From $81",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-125451286.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "AECOM rises on earnings beat and strong guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aecom-rises-earnings-beat-strong-214601411.html",
-          "date": "2026-11-16",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "Aecom Q4 Adjusted Earnings Rise, Revenue Lower; Issues Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aecom-q4-adjusted-earnings-rise-211613062.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "AECOM reports fourth quarter and full year fiscal 2026 results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aecom-reports-fourth-quarter-full-210500952.html",
-          "date": "2026-11-16",
-          "publisher": "Business Wire"
-        },
-        {
-          "title": "Can Quanta's Record Cash Flow Strengthen Its Financial Flexibility?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/quantas-record-cash-flow-strengthen-130700653.html",
-          "date": "2026-11-16",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "OMH",
-      "nameKo": "오마이홈",
-      "nameEn": "OHMYHOME LIMITED",
-      "ratePct": 35.93,
-      "price": 5.41,
-      "amountUsd": 30646081,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "SHAZ",
-      "nameKo": "샤로나이 홀딩스",
-      "nameEn": "SHARONAI HLDGS INC",
-      "ratePct": 5.12,
-      "price": 21.16,
-      "amountUsd": 24088713,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "AI 컴퓨팅 매출 급증 전망 제시",
-        "detail": "샤로나이가 연환산 매출(런레이트)이 2025년 9월 약 5천만 달러에서 2027년 1월 4억~4억 5천만 달러로 늘 것으로 내다봤다. AI 컴퓨팅 용량이 고객용으로 가동되면서다. 3분기 매출은 예상에 못 미치고 손실이 커졌으며, B. Riley는 목표주가를 124달러에서 78달러로 낮췄지만 매수 의견은 유지했다.",
-        "quote": "SharonAI (NASDAQ:SHAZ) expects its annualized revenue run rate to rise to $400 million to $450 million in January 2027, up from approximately $50 million in September, as it brings artificial intelligence computing capacity online for customers.",
-        "quoteFrom": 2,
-        "others": [],
-        "refs": [
-          2,
-          0,
-          3
-        ]
-      },
-      "news": [
-        {
-          "title": "B. Riley Adjusts Price Target on SharonAI to $78 From $124, Keeps Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-price-target-124150567.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "SharonAI Holdings Inc (SHAZ) (Q3 2026) Earnings Call Highlights: $9. ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sharonai-holdings-inc-shaz-q3-050118077.html",
-          "date": "2026-11-17",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "What SharonAI (SHAZ) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/technology/ai/articles/sharonai-shaz-said-q3-earnings-011506143.html",
-          "date": "2026-11-17",
-          "publisher": "MarketBeat"
-        },
-        {
-          "title": "SharonAI falls as third quarter revenue misses estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sharonai-falls-third-quarter-revenue-220644170.html",
-          "date": "2026-11-16",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "SharonAI Holdings Q3 Loss Widens, Revenue Rises",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sharonai-holdings-q3-loss-widens-213042241.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Sharon AI Reports Third Quarter 2026 Results",
-          "url": "https://finance.yahoo.com/technology/ai/articles/sharon-ai-reports-third-quarter-210500098.html",
-          "date": "2026-11-16",
-          "publisher": "PR Newswire"
-        }
-      ]
-    },
-    {
-      "ticker": "SPAI",
-      "nameKo": "세이프 프로 그룹",
-      "nameEn": "SAFE PRO GROUP INC",
-      "ratePct": 23.02,
-      "price": 3.0387,
-      "amountUsd": 20122004,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "3분기 매출 2,539% 급증, 美 육군 계약",
-        "detail": "세이프 프로 그룹의 3분기 매출은 268만 달러로 전년 동기 대비 2,539%, 직전 분기 대비 101% 늘었다. AI 매출총이익률은 79%이고 순손실은 주당 0.08달러로 69% 줄었다. 앤두릴 고스트-X 드론에 탑재할 AI 위협 탐지로 미 육군 첫 주계약도 따냈다. 4분기에 안드로이드 기반 모바일 제품을 내놓을 예정이다. 매출 규모가 작아 증가율이 과장돼 보일 수 있다.",
-        "quote": "New Android-based mobile product expected in Q4 as revenue grows 101% sequentially and exceeds preliminary estimate; AI segment grows to nearly 80% of total revenue",
-        "quoteFrom": 0,
-        "others": [],
-        "refs": [
-          0,
-          1,
-          2
-        ]
-      },
-      "news": [
-        {
-          "title": "Safe Pro Group Issues CEO Letter to Shareholders: AI Stack Going Mobile in Q4 After Record Q3 Revenue Up 2,539%, AI Gross Margins of 79% and First U.S. Army Prime Contract",
-          "url": "https://finance.yahoo.com/technology/ai/articles/safe-pro-group-issues-ceo-130200246.html",
-          "date": "2026-11-17",
-          "publisher": "GlobeNewswire"
-        },
-        {
-          "title": "Safe Pro Group Inc. (SPAI) Reports Q3 Loss, Beats Revenue Estimates",
-          "url": "https://www.nasdaq.com/articles/safe-pro-group-inc-spai-reports-q3-loss-beats-revenue-estimates",
-          "date": "2026-11-16",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Safe Pro Group Reports Record Q3 2026 Revenue of $2.68 Million, Up 2,539% Year-over-Year & 101% Sequentially, with Record 79% AI Gross Margin",
-          "url": "https://finance.yahoo.com/technology/ai/articles/safe-pro-group-reports-record-210200128.html",
-          "date": "2026-11-16",
-          "publisher": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "ticker": "TME",
-      "nameKo": "텐센트 뮤직 엔터테인먼트 그룹(ADR)",
-      "nameEn": "TENCENT MUSIC ENTERTAINMENT GROUP SPON ADS EACH",
-      "ratePct": 5.69,
-      "price": 9.385,
-      "amountUsd": 15753867,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "3분기 이익 예상 상회",
-        "detail": "텐센트 뮤직의 3분기 매출은 6% 늘어 89억 위안이다. 새로 연결된 시말라야 오디오 사업, 굿즈 판매, 공연이 광고 부진을 메웠다. 매출은 시장 예상에 못 미쳤지만 조정 주당순이익과 영업이익은 예상을 웃돌았다.",
-        "quote": "Tencent Music Entertainment Group (NYSE:TME) reported a 6% increase in third-quarter revenue as its newly consolidated Ximalaya audio business, merchandise sales and live performances helped offset pressure on its traditional advertising business.",
-        "quoteFrom": 0,
-        "others": [],
-        "refs": [
-          0,
           1
         ]
       },
       "news": [
         {
-          "title": "Tencent Music Entertainment Group Q3 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tencent-music-entertainment-group-q3-141309307.html",
-          "date": "2026-11-17",
-          "publisher": "MarketBeat"
+          "title": "Can Rising Cyber Threats Accelerate Cloudflare's Security Growth?",
+          "url": "https://finance.yahoo.com/technology/ai/articles/rising-cyber-threats-accelerate-cloudflares-120800328.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks"
         },
         {
-          "title": "Tencent Music posts mixed Q3 as revenue misses, profit beats forecasts",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tencent-music-posts-mixed-q3-102014115.html",
-          "date": "2026-11-17",
-          "publisher": "Investing.com"
-        },
-        {
-          "title": "Tencent Music Entertainment Group Announces Third Quarter 2026 Unaudited Financial Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tencent-music-entertainment-group-announces-090000058.html",
-          "date": "2026-11-17",
-          "publisher": "PR Newswire"
+          "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
+          "url": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
+          "date": "2026-11-15",
+          "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "SMTK",
-      "nameKo": "스마트켐",
-      "nameEn": "SMARTKEM INC",
-      "ratePct": 34.29,
-      "price": 0.2201,
-      "amountUsd": 13750995,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "CRWD",
+      "nameKo": "크라우드스트라이크 홀딩스",
+      "nameEn": "CROWDSTRIKE HOLDINGS INC",
+      "ratePct": 5.91,
+      "price": 232.55,
+      "amountUsd": 442416840,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
       "story": {
-        "headline": "합병 예정 페록스, 티타늄 상업화 협력 가동",
-        "detail": "스마트켐의 합병 예정 파트너 페록스 크리티컬 미네랄스와 자회사 티바니가 워겐 퍼시픽 등과의 양해각서(HoT)를 발효시켰다. 티바니의 티타늄·자철석 제품 샘플을 워겐에 공급해 글로벌 고객 평가를 받게 한다. 아직 합병 전이고 상업화 초기 단계다.",
-        "quote": "Product samples to be supplied to Wogen for evaluation by prospective customers across global titanium and steel marketsWILMINGTON, Del., Nov. 17, 2026 (GLOBE NEWSWIRE) -- Smartkem, Inc.",
-        "quoteFrom": 0,
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "These 3 large-cap U.S. stocks are trading well above model fair value",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-large-cap-u-stocks-151712324.html",
+          "date": "2026-11-18",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "CrowdStrike Holdings (CRWD) Lands Frost Radar Honor As New AI Agent Risks Rise",
+          "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-holdings-crwd-lands-frost-001752933.html",
+          "date": "2026-11-18",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Cantor Fitzgerald Raises Its CrowdStrike Target to $275. Is It Still Too Low?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-raises-crowdstrike-target-225511018.html",
+          "date": "2026-11-17",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "‘We’re Still Slightly Bigger’: Palo Alto CEO Jabs CrowdStrike. Here’s How to Play PANW and CRWD Stock Before Earnings.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/still-slightly-bigger-palo-alto-154014497.html",
+          "date": "2026-11-17",
+          "publisher": "Barchart"
+        },
+        {
+          "title": "Is FTNT's SecOps Segment Emerging as a Key Swing Factor for the Stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ftnts-secops-segment-emerging-key-142000164.html",
+          "date": "2026-11-17",
+          "publisher": "Zacks"
+        }
+      ]
+    },
+    {
+      "ticker": "TGT",
+      "nameKo": "타겟",
+      "nameEn": "TARGET CORP",
+      "ratePct": 5.84,
+      "price": 168.85,
+      "amountUsd": 348368112,
+      "industry": "Discount Stores",
+      "industryKo": "할인점",
+      "story": {
+        "headline": "타겟, 3분기 실적 예상 상회에 연간 전망 상향",
+        "detail": "타겟이 3분기 순매출 271억 달러(전년 대비 7.1% 증가)와 동일점포 매출 5.6% 증가를 발표했다. 조정 EPS(주당순이익)는 2.65달러로 시장 예상 2.07달러를 크게 웃돌았고, 연간 전망도 올렸다. 다만 관세 환급 3억 100만 달러가 주당 50센트의 이익을 더했다.",
+        "quote": "Target Corp (NYSE:TGT), the discount retailer, reported third-quarter net sales of $27.1 billion, up 7.1% from a year earlier, as comparable sales rose 5.6%.",
+        "quoteFrom": 5,
         "others": [],
         "refs": [
+          5,
+          1,
           0
         ]
       },
       "news": [
         {
-          "title": "Smartkem, Inc. Merger Partner Ferrox Advances Global Commercialization of Tivani Titanium and Magnetite Products Through Wogen Collaboration",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/smartkem-inc-merger-partner-ferrox-120000893.html",
-          "date": "2026-11-17",
-          "publisher": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "ticker": "ESLT",
-      "nameKo": "엘빗 시스템스",
-      "nameEn": "ELBIT SYSTEMS LTD",
-      "ratePct": 8.4,
-      "price": 737.91,
-      "amountUsd": 13457265,
-      "industry": "Aerospace & Defense",
-      "industryKo": "항공우주·방산",
-      "story": {
-        "headline": "3분기 이익 예상 상회, 2027 고성장 전망",
-        "detail": "엘빗 시스템스가 3분기 주당순이익이 예상을 9.82% 웃돌았다(매출은 1.29% 밑돎). 회사는 2027년 매출이 2026년 대비 10%대 후반 성장하고 마진도 계속 개선될 것으로 내다봤고, 사상 최대 수주잔고도 강조했다.",
-        "quote": "Elbit expects high-teens revenue growth and continued margin expansion in 2027 compared with full-year 2026.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          0,
-          1,
-          3
-        ]
-      },
-      "news": [
-        {
-          "title": "Elbit Systems (ESLT) Surpasses Q3 Earnings Estimates",
-          "url": "https://www.nasdaq.com/articles/elbit-systems-eslt-surpasses-q3-earnings-estimates",
-          "date": "2026-11-17",
+          "title": "Target (TGT) Q3 Earnings and Revenues Beat Estimates",
+          "url": "https://www.nasdaq.com/articles/target-tgt-q3-earnings-and-revenues-beat-estimates",
+          "date": "2026-11-18",
           "publisher": "Zacks"
         },
         {
-          "title": "Elbit Systems Sees Continued Demand, Highlights Record Backlog – What The CEO Said About Potential End Of US Military Aid To Israel",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elbit-systems-sees-continued-demand-140906495.html",
-          "date": "2026-11-17",
-          "publisher": "Stocktwits"
+          "title": "Target Gets $301 Million Tariff Refund Boost. Sales Jump 7.1%.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-gets-301-million-tariff-151934306.html",
+          "date": "2026-11-18",
+          "publisher": "International Business Times"
         },
         {
-          "title": "Compared to Estimates, Elbit (ESLT) Q3 Earnings: A Look at Key Metrics",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-elbit-eslt-q3-133003708.html",
-          "date": "2026-11-17",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Elbit Systems Third-Quarter Results Rise Amid Broad-Based Segment Strength",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elbit-systems-third-quarter-results-120744400.html",
-          "date": "2026-11-17",
+          "title": "Target Lifts Full-Year Sales Outlook as Third-Quarter Comparable Sales Top Views",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-lifts-full-sales-outlook-151806312.html",
+          "date": "2026-11-18",
           "publisher": "MT Newswires"
         },
         {
-          "title": "Elbit Systems Q3 Non-GAAP Earnings, Revenue Rise",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elbit-systems-q3-non-gaap-081441482.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires"
+          "title": "Target Beats Third-Quarter Earnings Estimates and Raises FY2026 Guidance Despite Premarket Share Decline",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-beats-third-quarter-earnings-144100187.html",
+          "date": "2026-11-18",
+          "publisher": "InvestorsHub"
         },
         {
-          "title": "Elbit: Q3 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elbit-q3-earnings-snapshot-080338732.html",
-          "date": "2026-11-17",
-          "publisher": "Associated Press"
+          "title": "Target faces customer spending problem in 2 product categories",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-faces-customer-spending-problem-143500564.html",
+          "date": "2026-11-18",
+          "publisher": "TheStreet"
         },
         {
-          "title": "Bridger Aerospace Group Holdings, Inc. (BAER) Q3 Earnings and Revenues Lag Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bridger-aerospace-group-holdings-inc-220001686.html",
+          "title": "Target reports 7.1% rise in third-quarter sales as comparable sales jump 5.6%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-reports-7-1-rise-142500617.html",
+          "date": "2026-11-18",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "This retailer is outrunning 95% of S&P stocks. Here's one way to trade it",
+          "url": "https://www.cnbc.com/2026/11/17/this-retailer-is-outrunning-95percent-of-sp-stocks-heres-one-way-to-trade-it-into-earnings.html",
+          "date": "2026-11-17",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "Retail Earnings: WMT, TGT, HD Set to Report This Week",
+          "url": "https://www.nasdaq.com/articles/retail-earnings-wmt-tgt-hd-set-report-week",
           "date": "2026-11-16",
           "publisher": "Zacks"
         }
       ]
     },
     {
-      "ticker": "SSMR",
-      "nameKo": "선샤인 실버 마이닝 및 리파이닝",
-      "nameEn": "SUNSHINE SILVER MINING AND REFINING",
-      "ratePct": 5.37,
-      "price": 13.35,
-      "amountUsd": 10762062,
+      "ticker": "VIK",
+      "nameKo": "바이킹 홀딩스",
+      "nameEn": "VIKING HOLDINGS LTD",
+      "ratePct": 5.38,
+      "price": 99.35,
+      "amountUsd": 158564488,
+      "industry": "Travel Services",
+      "industryKo": "여행 서비스",
+      "story": {
+        "headline": "실적은 부진했지만 2027 예약 호조에 바이킹 상승",
+        "detail": "바이킹의 3분기 주당순이익은 예상을 9.76% 밑돌았고 매출은 예상을 0.05% 웃돌았다. 매출은 9.2% 늘었고 2027년 예약이 강하다는 평가가 나왔다. 유럽 강 수위가 역대급으로 낮아 3분기 매출과 조정 매출총이익이 각각 약 1억 달러 줄었다. 실적 부진에도 주가가 오르는 이유를 다룬 기사가 있으나 세부 내용은 확인되지 않는다.",
+        "quote": "Viking Holdings Ltd (VIK) posts solid revenue growth and strong 2027 bookings, but historically low European water levels cut Q3 revenue and adjusted gross margin by roughly $100 million each.",
+        "quoteFrom": 5,
+        "others": [],
+        "refs": [
+          5,
+          2,
+          7
+        ]
+      },
+      "news": [
+        {
+          "title": "Viking (VIK) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.nasdaq.com/articles/viking-vik-q3-2026-earnings-call-transcript",
+          "date": "2026-11-17",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "Viking (VIK) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "url": "https://www.nasdaq.com/articles/viking-vik-reports-q3-earnings-what-key-metrics-have-say",
+          "date": "2026-11-17",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Viking Holdings (VIK) Q3 Earnings Miss Estimates",
+          "url": "https://www.nasdaq.com/articles/viking-holdings-vik-q3-earnings-miss-estimates",
+          "date": "2026-11-17",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Viking: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-3-key-takeaways-long-233724053.html",
+          "date": "2026-11-17",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "Viking Holdings Ltd Q3 2026 Earnings Call Summary",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-ltd-q3-2026-215023724.html",
+          "date": "2026-11-17",
+          "publisher": "Moby"
+        },
+        {
+          "title": "Viking Holdings Ltd (VIK) Q3 2026 Earnings Call Highlights: Revenue Climbs 9.2% to $2. ...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-ltd-vik-q3-210043987.html",
+          "date": "2026-11-17",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Viking Holdings earnings analysis: questions answered and next catalysts",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-earnings-analysis-questions-205635207.html",
+          "date": "2026-11-17",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
+          "url": "https://finance.yahoo.com/m/2dc2acc6-ddee-3248-8e85-302c8a8b0aa7/why-viking-cruise-stock-is.html",
+          "date": "2026-11-17",
+          "publisher": "Barrons.com"
+        }
+      ]
+    },
+    {
+      "ticker": "NET",
+      "nameKo": "클라우드플레어",
+      "nameEn": "CLOUDFLARE INC",
+      "ratePct": 5.03,
+      "price": 299.125,
+      "amountUsd": 121752251,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Can Rising Cyber Threats Accelerate Cloudflare's Security Growth?",
+          "url": "https://finance.yahoo.com/technology/ai/articles/rising-cyber-threats-accelerate-cloudflares-120800328.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Cloudflare Insider Sold Shares Worth $3,540,779, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-insider-sold-shares-worth-082358120.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Cloudflare Insider Sold Shares Worth $1,744,159, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-insider-sold-shares-worth-082224962.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Cloudflare Insider Sold Shares Worth $1,528,599, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-insider-sold-shares-worth-225027002.html",
+          "date": "2026-11-17",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Cathie Wood, Ken Fisher and 10 Other Big Funds Bought Cloudflare, While 9 Sold. Who’s Right?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-ken-fisher-10-155613947.html",
+          "date": "2026-11-17",
+          "publisher": "TIKR"
+        }
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "nameKo": "옥타",
+      "nameEn": "OKTA INC",
+      "ratePct": 5.21,
+      "price": 183.6382,
+      "amountUsd": 73261358,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Robert Karr's Top Q3 2026 Move: Okta Inc at a 2.94% Portfolio Impact",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/robert-karrs-top-q3-2026-220803884.html",
+          "date": "2026-11-16",
+          "publisher": "GuruFocus.com"
+        }
+      ]
+    },
+    {
+      "ticker": "AKAN",
+      "nameKo": "어칸다",
+      "nameEn": "AKANDA CORP",
+      "ratePct": 63.41,
+      "price": 3.3499,
+      "amountUsd": 67470135,
       "industry": null,
       "industryKo": null,
       "story": {
@@ -644,12 +501,12 @@ window.MOVERS_DATA = {
       "news": []
     },
     {
-      "ticker": "POLA",
-      "nameKo": "폴라 파워",
-      "nameEn": "POLAR POWER INC",
-      "ratePct": 17.82,
-      "price": 0.41,
-      "amountUsd": 10374453,
+      "ticker": "CLRO",
+      "nameKo": "클리어원",
+      "nameEn": "CLEARONE INC",
+      "ratePct": 48.73,
+      "price": 7.02,
+      "amountUsd": 61483659,
       "industry": null,
       "industryKo": null,
       "story": {
@@ -661,6 +518,204 @@ window.MOVERS_DATA = {
         "refs": []
       },
       "news": []
+    },
+    {
+      "ticker": "SVRE",
+      "nameKo": "세이버원 2014(ADS)",
+      "nameEn": "SAVERONE 2014 LTD SPON ADS EACH REP 43200 ORD(RE",
+      "ratePct": 106.42,
+      "price": 0.8459,
+      "amountUsd": 54503492,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": []
+    },
+    {
+      "ticker": "MP",
+      "nameKo": "MP 머티리얼스",
+      "nameEn": "MP MATERIALS CORP",
+      "ratePct": 7.97,
+      "price": 37.64,
+      "amountUsd": 52922932,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Here’s What $10,000 Invested in MP Materials Could Be Worth by 2030 as EV Demand Accelerates",
+          "url": "https://www.nasdaq.com/articles/heres-what-10000-invested-mp-materials-could-be-worth-2030-ev-demand-accelerates",
+          "date": "2026-11-17",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "MP Materials' Earnings Report Had Multiple Bright Spots, and There's 1 Thing I'm Watching",
+          "url": "https://www.nasdaq.com/articles/mp-materials-earnings-report-had-multiple-bright-spots-and-theres-1-thing-im-watching",
+          "date": "2026-11-17",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "How Investors May Respond To MP Materials Stock Q3 Earnings Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-mp-materials-190925409.html",
+          "date": "2026-11-17",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "MP Materials (MP) Stock Looks Fully Valued As Magnet Sales Begin",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-mp-stock-looks-181105483.html",
+          "date": "2026-11-17",
+          "publisher": "Simply Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "RBLX",
+      "nameKo": "로블록스",
+      "nameEn": "ROBLOX CORPORATION",
+      "ratePct": 5.83,
+      "price": 46.565,
+      "amountUsd": 51676161,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Roblox (RBLX) Faces Near Term Bookings And Engagement Risks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-rblx-faces-near-term-121059402.html",
+          "date": "2026-11-18",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Roblox (RBLX) Stock Looks Overvalued On Current Sales Expectations",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-rblx-stock-looks-overvalued-111118680.html",
+          "date": "2026-11-18",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Roblox (RBLX) Draws Roth IRA Attention, Is The Stock Expensive?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-rblx-draws-roth-ira-101058909.html",
+          "date": "2026-11-18",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Roblox faces near-term bookings risks as Jefferies highlights growth concerns",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-faces-near-term-bookings-182000384.html",
+          "date": "2026-11-17",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "Take-Two Interactive Fell 13% Over 3 Months: GTA VI Launches Nov. 19 and This Analyst Predicts 55% Gains",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-fell-13-over-154554933.html",
+          "date": "2026-11-17",
+          "publisher": "24/7 Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "HIHO",
+      "nameKo": "하이웨이 홀딩스",
+      "nameEn": "HIGHWAY HLDGS",
+      "ratePct": 30.89,
+      "price": 1.61,
+      "amountUsd": 49602941,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "하이웨이, 2분기 매출 2배 이상에 흑자 전환",
+        "detail": "하이웨이 홀딩스가 2027 회계연도 2분기 실적을 발표했다. 앞서 11월 16일에는 주당 0.43228달러(총 200만 달러)의 특별배당을 발표했고, 이는 데이비드 라자르와의 전략 투자의 일부다. 소형주라 변동성이 클 수 있다.",
+        "quote": "Compared to the year-ago period, second quarter fiscal 2027 revenue more than doubled, gross profit tripled, and the Company returned to operating profitability as its core manufacturing business recovered.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0,
+          1
+        ]
+      },
+      "news": [
+        {
+          "title": "HIGHWAY HOLDINGS RETURNS TO STRONG REVENUE GROWTH AND OPERATING PROFITABILITY IN SECOND QUARTER FISCAL YEAR 2027",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/highway-holdings-returns-strong-revenue-110000542.html",
+          "date": "2026-11-18",
+          "publisher": "PR Newswire"
+        },
+        {
+          "title": "HIGHWAY HOLDINGS DECLARES US$0.43228 CASH PER SHARE SPECIAL DIVIDEND",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/highway-holdings-declares-us-0-120000392.html",
+          "date": "2026-11-16",
+          "publisher": "PR Newswire"
+        }
+      ]
+    },
+    {
+      "ticker": "USAR",
+      "nameKo": "USA 레어 어스",
+      "nameEn": "USA RARE EARTH INC",
+      "ratePct": 7.16,
+      "price": 7.11,
+      "amountUsd": 43598918,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "USA Rare Earth Has About $1.2 Billion in Cash, but Generated Just $3 Million in Quarterly Revenue. Which Matters More Right Now?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-1-2-210500351.html",
+          "date": "2026-11-17",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "3 US Defense Stocks Facing A Rare Earth Magnet Supply Chain Shift",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-us-defense-stocks-facing-081120361.html",
+          "date": "2026-11-17",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "USA Rare Earth (USAR) Gets a Reality Check From Wall Street. Shares Slide",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-gets-021019981.html",
+          "date": "2026-11-17",
+          "publisher": "Insider Monkey"
+        },
+        {
+          "title": "USA Rare Earth (USAR) Stock Looks Below Fair Value After A 44% Slide",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-stock-190959899.html",
+          "date": "2026-11-16",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Why USA Rare Earth Stock Dropped Again Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-usa-rare-earth-stock-183505368.html",
+          "date": "2026-11-16",
+          "publisher": "Motley Fool"
+        }
+      ]
     }
   ]
 };
