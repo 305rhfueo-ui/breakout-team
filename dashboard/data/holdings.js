@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-18T22:10:11.131Z",
+  "updated": "2026-11-19T13:00:10.859Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,28 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Where Will Palantir Stock Be in 1 Year?",
+          "url": "https://www.nasdaq.com/articles/where-will-palantir-stock-be-1-year-1",
+          "date": "2026-11-18",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어 1년 뒤 주가를 전망하는 기사가 나왔다",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어 1년 뒤 주가를 전망하는 기사가 나왔다",
+          "easy": "기사 본문은 없고 제목과 요약만 확인됐다. 요약에는 팔란티어가 미국 상업 부문의 큰 성장에 힘입어 빠르게 성장하고 있다고 나온다. 구체적인 주가 전망이나 근거 수치는 기사에 안 나왔다.",
+          "whyMatters": "보유 중인 입장에서는 성장 기대를 다시 확인해 주는 내용이다. 다만 본문을 읽지 못해 구체적인 전망은 알 수 없다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "Is Palantir Overvalued, or Is It Still a Buy at This Price?",
           "url": "https://www.nasdaq.com/articles/palantir-overvalued-or-it-still-buy-price",
           "date": "2026-11-18",
           "publisher": "The Motley Fool",
           "ko": "팔란티어 고평가인지 아직 매수 구간인지 따져보는 기사",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 고평가인지 아직 매수 구간인지 따져보는 기사",
           "easy": "기사 제목은 팔란티어가 고평가인지, 지금 가격에도 살 만한지를 묻는다. 요약에는 팔란티어 서비스가 고객의 생산성을 높였고 이것이 주가 상승을 뒷받침한 것으로 보인다고 나온다. 본문은 제공되지 않아 구체적인 수치나 결론은 기사에 안 나왔다.",
           "whyMatters": "주가가 올라야 이익인 보유자에게는 상승 배경으로 고객 생산성 향상이 거론된다는 정도만 확인된다. 고평가 여부에 대한 결론은 확인되지 않았다.",
@@ -115,15 +130,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
-          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeeel.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeeem.pdf",
           "date": "2026-11-12",
           "publisher": "신한투자증권 심지현",
-          "ko": "증권사 \"팔란티어, AI 에이전트와 경쟁 아닌 보완 관계\"",
+          "ko": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
           "tone": "good",
           "isNew": false,
-          "headline": "증권사 \"팔란티어, AI 에이전트와 경쟁 아닌 보완 관계\"",
-          "easy": "국내 증권사 리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 소버린 AI 수요, 파일럿에서 실제 생산 단계로 넘어가는 기간 단축과 계약 확장 속도 상승, 3분기 실적 강세를 연간 가이던스 상향의 근거로 들었다. 다만 본문 없이 증권사 요약만 보고 정리한 내용이라 세부 수치는 기사에 안 나왔다.",
-          "whyMatters": "AI 에이전트가 팔란티어의 자리를 위협한다는 우려와 달리 보완 관계라는 시각이 나왔다는 뜻이다. 이는 증권사 한 곳의 의견이므로 가격 상승을 보장하지는 않는다.",
+          "headline": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
+          "easy": "국내 증권사 리포트 요약이다. 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 본다. 연간 가이던스 상향의 근거로 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 넘어가는 기간 단축과 계약 확장 속도 상승, 3분기 실적 강세를 들었다.",
+          "whyMatters": "보유 중인 입장에서는 AI 확산이 팔란티어의 사업 기회로 이어진다는 긍정적 해석이다. 다만 증권사 한 곳의 시각이며 요약만 확인했다.",
           "quote": null,
           "read": false
         },
