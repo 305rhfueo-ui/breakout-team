@@ -259,7 +259,7 @@ const AGENTS=[
   {id:'t13',name:'라온',role:'13팀 · 체크리스트 부합',tab:'t13',job:'체크리스트 부합 종목',
    duty:'매일 아침 <b>직전 장에서 피벗을 돌파한 종목</b>을 사장님 <b>매수 전 체크리스트(티스토리 21번 글)</b>로 코드가 한 칸씩 채점합니다 — 30% 상승 + RS 상위 2%, ADR 4% 이상, 150일선 우상향·50일선 위, 2~8주 횡보, 깊이 25% 이내, 저점 상승·폭 축소, 거래량 마름(5일 ÷ 20일 0.7 이하), 피벗 위 마감, 돌파 거래량 2배 이상. <b>시장 칸(QQQ 10일선 &gt; 20일선)만 빼고 나머지가 전부 ✅</b>인 종목이 나오면 7팀 지우가 심층분석(N·실적·뉴스·리스크)을 하고, 쿨라매기 관점에서 무엇이 어떻게 맞는지 <b>"매수 전 점검" 글</b>을 사장님 문체로 써서 티스토리 \'종목 분석\'에 올리고 텔레그램으로 알려 드립니다. 시장이 빨간불이면 "체크리스트상 지금은 매수 금지"라고 분명히 씁니다. <b>한 칸만 빠진 종목</b>도 목록에 올립니다 — 단 <b>돌파 거래량 2배(그날 ÷ 직전 20거래일 평균)는 꼭 ✅</b>여야 하고, 글은 쓰지 않고 지우 심층분석만 해 둡니다. 티커를 누르면 체크리스트 전체와 심층분석이 뜹니다. 심층분석은 하루 최대 3종목(글 쓸 종목 먼저). 판단 보조이며 매수 권유가 아닙니다.'},
   {id:'t14',name:'하율',role:'14팀 · 수축 → 폭발',tab:'t14',job:'볼린저 수축 뒤 거래량 폭발 종목',
-   duty:'크게 오른 뒤 <b>횡보하며 조용해졌다가(볼린저 밴드 수축) 거래량이 터지는 종목</b>을 매일 아침 직전 장에서 코드가 숫자로 찾습니다 — ① 전날 볼린저 폭(20일·2σ) 0.25 이하 ② 당일 거래량 50일 평균 2배 이상 ③ OBV 상승(종가 > 전일). 종목마다 섹터·업종, <b>1·3·6개월 등락률(30% 이상 표시)</b>, <b>RS 1·3·6개월 상위 몇 %</b>를 붙이고 텔레그램으로 알려 드립니다. 상단 밴드 돌파·밴드 확장은 참고로만 표시합니다. 2~8주 횡보(고점 대비 25% 이내)와 횡보 전 30% 상승은 <b>사장님이 차트로 확인</b>합니다 — 티커를 누르면 20·50·200일선 캔들과 거래량(50일 평균)·볼린저 폭·OBV 차트가 뜹니다. 판단 보조이며 매수 권유가 아닙니다.'},
+   duty:'크게 오른 뒤 <b>횡보하며 조용해졌다가(볼린저 밴드 수축) 거래량이 터지는 종목</b>을 매일 아침 직전 장에서 코드가 숫자로 찾습니다 — ① 전날 볼린저 폭(20일·2σ) 0.25 이하 ② 당일 거래량이 50일 평균 위 ③ OBV 상승(종가 > 전일). 종목마다 섹터·업종, <b>1·3·6개월 등락률(30% 이상 표시)</b>, <b>RS 1·3·6개월 상위 몇 %</b>를 붙이고 텔레그램으로 알려 드립니다. 상단 밴드 돌파·밴드 확장은 참고로만 표시합니다. 2~8주 횡보(고점 대비 25% 이내)와 횡보 전 30% 상승은 <b>사장님이 차트로 확인</b>합니다 — 티커를 누르면 20·50·200일선 캔들과 거래량(50일 평균)·볼린저 폭·OBV 차트가 뜹니다. 판단 보조이며 매수 권유가 아닙니다.'},
 ];
 const avatar=(a,cls='av')=>`<img class="${cls}" src="assets/avatars/${a.id}.svg" alt="${esc(a.name)}" loading="lazy" width="56" height="56">`;
 
@@ -362,7 +362,7 @@ function _dd(id){
   if(id==='t14'){
     const q=window.BBSQUEEZE_DATA,I=(q&&q.items)||[],cur=q?I.filter(x=>x.session===q.session):[];
     return {stat:q?cur.length:'—',statl:'볼린저 수축 → 거래량 폭발',
-      line:q?`${esc(q.session)} 장 · ${cur.slice(0,5).map(x=>esc(x.ticker)).join(' · ')||'해당 종목 없음'}<br>전날 폭 ≤ ${q.rule.th} · 거래량 50일 ${q.rule.volk}배↑ · 최근 ${[...new Set(I.map(x=>x.session))].length}세션 ${I.length}종목`:'아직 확인 전 — 매일 아침 스캔 뒤',
+      line:q?`${esc(q.session)} 장 · ${cur.slice(0,5).map(x=>esc(x.ticker)).join(' · ')||'해당 종목 없음'}<br>전날 폭 ≤ ${q.rule.th} · 거래량 50일 평균 위 · 최근 ${[...new Set(I.map(x=>x.session))].length}세션 ${I.length}종목`:'아직 확인 전 — 매일 아침 스캔 뒤',
       busy:!!q};
   }
   if(id==='t13'){
@@ -633,7 +633,7 @@ function briefing(id){
   if(id==='t14'){
     const q=window.BBSQUEEZE_DATA; if(!q)return '';
     const cur=(q.items||[]).filter(x=>x.session===q.session),big=cur.filter(x=>[x.ret.m1,x.ret.m3,x.ret.m6].some(v=>v!=null&&v>=30)),up=cur.filter(x=>x.aboveUp);
-    P.push(`${esc(q.session)} 장 기준, 전날 볼린저 폭이 ${q.rule.th} 이하로 수축했다가 거래량이 50일 평균의 ${q.rule.volk}배 넘게 터지며 오른 종목은 ${cur.length?cur.map(x=>`<b>${esc(x.ticker)}</b>`).join(', ')+'입니다':'없습니다'}.`);
+    P.push(`${esc(q.session)} 장 기준, 전날 볼린저 폭이 ${q.rule.th} 이하로 수축했다가 거래량이 50일 평균 위로 올라오며 오른 종목은 ${cur.length?cur.map(x=>`<b>${esc(x.ticker)}</b>`).join(', ')+'입니다':'없습니다'}.`);
     if(big.length)P.push(`그중 1·3·6개월 중 한 기간이라도 30% 넘게 오른(선행 상승) 종목: ${big.map(x=>esc(x.ticker)).join(', ')}.`);
     if(up.length)P.push(`종가가 상단 밴드 위에서 끝난 종목: ${up.map(x=>esc(x.ticker)).join(', ')}.`);
     if(q.scan&&q.scan.capDropped)P.push(`봉 상한 때문에 ${q.scan.capDropped}종목은 보지 못했습니다.`);
@@ -971,7 +971,7 @@ function bbsqOf(T){return (((window.BBSQUEEZE_DATA||{}).items)||[]).find(x=>x.ti
 function bbsqBody(){
   const q=window.BBSQUEEZE_DATA; if(!q)return '<div class="empty">아직 확인 전입니다 — 매일 아침 스캔이 끝난 뒤 직전 장을 봅니다.</div>';
   const I=q.items||[],S=[...new Set(I.map(x=>x.session))].sort().reverse(),f=v=>v==null?'—':`<span style="${v>=30?'color:var(--grn);font-weight:700':''}">${sgn(v,0)}%</span>`,r=v=>v==null?'—':`상위 ${n(v,1)}%`;
-  let h=`<div class="sec"><div class="note" style="margin:0">조건(코드 계산): ① 전날 볼린저 폭(20일·2σ, (상단−하단)/중간) ≤ ${q.rule.th} ② 당일 거래량 ≥ 50일 평균 × ${q.rule.volk} ③ OBV 상승(종가 > 전일). 1·3·6개월 등락률은 RS 사이트 값이고 <b>30% 이상은 초록</b>, RS 는 사이트 전체 중 상위 몇 %인지입니다. <b>티커를 누르면</b> 20·50·200일선 캔들과 거래량(50일 평균)·볼린저 폭·OBV 차트, 조건별 숫자가 뜹니다.<br>⚠️ 2~8주 횡보(고점 대비 25% 이내)와 횡보 전 30% 상승은 사장님이 차트로 확인합니다. 판단 보조이며 매수 권유가 아닙니다.${q.scan?`<br>스캔: 사이트 ${q.scan.universe}종목 → 1차(전날 폭·상승·거래량) ${q.scan.prefilter} → 봉 확인 ${q.scan.fetched}${q.scan.capDropped?` (상한으로 ${q.scan.capDropped}종목 못 봄)`:''}`:''}</div></div>`;
+  let h=`<div class="sec"><div class="note" style="margin:0">조건(코드 계산): ① 전날 볼린저 폭(20일·2σ, (상단−하단)/중간) ≤ ${q.rule.th} ② 당일 거래량 > 50일 평균 ③ OBV 상승(종가 > 전일). 1·3·6개월 등락률은 RS 사이트 값이고 <b>30% 이상은 초록</b>, RS 는 사이트 전체 중 상위 몇 %인지입니다. <b>티커를 누르면</b> 20·50·200일선 캔들과 거래량(50일 평균)·볼린저 폭·OBV 차트, 조건별 숫자가 뜹니다.<br>⚠️ 2~8주 횡보(고점 대비 25% 이내)와 횡보 전 30% 상승은 사장님이 차트로 확인합니다. 판단 보조이며 매수 권유가 아닙니다.${q.scan?`<br>스캔: 사이트 ${q.scan.universe}종목 → 1차(전날 폭·상승) ${q.scan.prefilter} → 봉 확인 ${q.scan.fetched}${q.scan.capDropped?` (상한으로 ${q.scan.capDropped}종목 못 봄)`:''}`:''}</div></div>`;
   if(!I.length)return h+'<div class="empty">아직 조건을 채운 종목이 없습니다.</div>';
   for(const s of S){const L=I.filter(x=>x.session===s);
     h+=`<div class="sec"><h4>${esc(s)} 장 <span class="dim">${L.length}종목</span></h4><div><table class="ctab"><thead><tr><th>티커</th><th>섹터 / 업종</th><th>거래량<br>(50일)</th><th>폭<br>전날→당일</th><th>1M</th><th>3M</th><th>6M</th><th>RS 1M</th><th>RS 3M</th><th>RS 6M</th><th>참고</th></tr></thead><tbody>`

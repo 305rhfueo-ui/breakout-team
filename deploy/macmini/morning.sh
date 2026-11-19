@@ -10,7 +10,7 @@ node scripts/fed-watch.js || true        # 10팀 윤슬 — 연준 금리 전환
 node scripts/trade-review.js || true     # 12팀 도담 — 새로 청산된 거래가 있으면 복기 글 → 티스토리 → 텔레그램 (2026-11-07) — RS 대기 전에, 없으면 몇 초
 node scripts/wait-rs-fresh.js
 node scripts/run-breakout.js
-node scripts/bb-squeeze-watch.js || true   # 14팀 하율 — 전날 볼린저 폭 ≤0.25 → 당일 거래량 50일 평균 2배↑ + OBV 상승 → 대시보드·텔레그램 (2026-11-19) — 봉 캐시 재사용, 1~3분
+node scripts/bb-squeeze-watch.js || true   # 14팀 하율 — 전날 볼린저 폭 ≤0.25 → 당일 거래량 50일 평균 위 + OBV 상승 → 대시보드·텔레그램 (2026-11-19) — 봉 캐시 재사용, 1~3분
 case "$(date +%u)" in 2|3|4|5|6) bash deploy/macmini/run-claude-job.sh research ;; esac
 node scripts/checklist-watch.js || true   # 13팀 라온 — 오늘 돌파 종목 중 시장 칸 빼고 체크리스트(블로그 21번) 전부 ✅ → 지우 심층분석 → 티스토리 → 텔레그램 (2026-11-07)
 node scripts/sns-watch.js || true   # 팝업 맨 밑 SNS 반응(레딧, 2026-10-28) — 맨 끝: 예절 간격 때문에 20분 안팎이라 실장 보고를 늦추지 않게

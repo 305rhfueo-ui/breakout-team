@@ -24,8 +24,8 @@ ok('수축 뒤 거래량 3배 + 상승 → 충족, 상단 돌파·밴드 확장 
   assert.ok(j.aboveUp && j.expand && j.rows[3].status === 'ok' && j.rows[4].status === 'ok');
   assert.ok(j.rows[1].detail.includes('2.88배'));
 });
-ok('거래량이 2배 미만이면 미충족 · 종가 하락이면 미충족', () => {
-  const b1 = bars.slice(0, 59).concat([{ ...bars[59], v: 1900 }]);
+ok('거래량이 50일 평균 아래면 미충족 · 종가 하락이면 미충족', () => {
+  const b1 = bars.slice(0, 59).concat([{ ...bars[59], v: 950 }]);
   assert.strictEqual(judge(b1).pass, false); assert.strictEqual(judge(b1).rows[1].status, 'no');
   const b2 = bars.slice(0, 59).concat([{ ...bars[59], c: 99, v: 3000 }]);
   assert.strictEqual(judge(b2).pass, false); assert.strictEqual(judge(b2).rows[2].status, 'no');
@@ -42,7 +42,7 @@ ok('사이트 행 → 항목: 상위 % · 등락률 · 섹터', () => {
   for (const k of ['14팀 하율', 'ZZQ Tech/Semis', '2.88배', '3M +46%★', '6M —', 'RS 상위 1.5/10/—%', '상단 돌파', '밴드 확장', '3종목은 못 봤습니다', '매수 권유가 아닙니다']) assert.ok(m.includes(k), `문구 없음: ${k}`);
   assert.ok(!/\d+주(?! 횡보)|\$\d/.test(m), '수량·금액 없음');
 });
-ok('기준 상수', () => { assert.strictEqual(TH, 0.25); assert.strictEqual(VOLK, 2); });
+ok('기준 상수', () => { assert.strictEqual(TH, 0.25); assert.strictEqual(VOLK, 1); });
 
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);
 process.exit(fail ? 1 : 0);

@@ -6,7 +6,7 @@
 //
 // 조건(사용자 규칙 그대로 · 코드 숫자 판정 · AI 없음) — 직전 장 D, 그 전날 D-1:
 //   ① D-1 볼린저 폭 ≤ 0.25            (폭 = (상단−하단)/중간, 20일·2σ — RS 사이트 BBWTHD 와 같은 식)
-//   ② D 거래량 ≥ 50일 평균 × VOLK      ("한참 위" — 숫자는 2배로 둠, 사용자가 바꾸면 여기만)
+//   ② D 거래량 > 50일 평균             (같은 날 사용자 정정: "2배는 말한 적 없다 — 50일 이동평균선 위")
 //   ③ D 종가 > D-1 종가                (= OBV 상승)
 //   참고 표시(필수 아님): D 폭 · 상단 밴드 상승 · 하단 밴드 하락 · 종가가 상단 밴드 위
 // 1차 거름은 RS 사이트 자료(전날 히스토리 BBWTHD · 당일 VOL_X(20일 배수) · Ret_1D)로, 야후 봉은 남은 종목만(상한 CAP) — 야후 예절.
@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 const { loadEnv, paths, say, today, writeWindowData, readJson, writeJson, num, round } = require('./lib/util');
 
-const TH = 0.25, VOLK = 2, CAP = 60, KEEP = 25;   // 폭 기준 · 거래량 배수(50일) · 봉 상한 · 화면에 남길 세션 수
+const TH = 0.25, VOLK = 1, CAP = 200, KEEP = 25;   // 폭 기준 · 거래량 배수(50일) · 봉 상한 · 화면에 남길 세션 수
 const FILE = path.join(paths.dashboardData, 'bbsqueeze.js');
 const STATE = path.join(paths.root, 'state', 'bbsqueeze', 'last.json');
 const HIST = 'https://305rhfueo-ui.github.io/RS_Investment/static/history/result_';
@@ -41,7 +41,7 @@ function judge(bars) {
   const volX = v50[D] ? v[D] / v50[D] : null;
   const rows = [
     { no: '1', item: '전날 볼린저 폭 0.25 이하 (수축)', status: p.bbw <= TH ? 'ok' : 'no', detail: `전날 ${round(p.bbw, 3)} · 당일 ${round(b.bbw, 3)}` },
-    { no: '2', item: `돌파일 거래량 50일 평균 ${VOLK}배 이상`, status: volX >= VOLK ? 'ok' : 'no', detail: `${round(volX, 2)}배 (${Math.round(v[D] / 1e3)}K ÷ ${Math.round(v50[D] / 1e3)}K)` },
+    { no: '2', item: "당일 거래량 50일 평균 위", status: volX > VOLK ? 'ok' : 'no', detail: `${round(volX, 2)}배 (${Math.round(v[D] / 1e3)}K ÷ ${Math.round(v50[D] / 1e3)}K)` },
     { no: '3', item: 'OBV 상승 (종가 > 전일 종가)', status: c[D] > c[P] ? 'ok' : 'no', detail: `${round(c[P], 2)} → ${round(c[D], 2)} (${round((c[D] / c[P] - 1) * 100, 1)}%)` },
     { no: '4', item: '상단 밴드 상승 · 하단 밴드 하락 (참고)', status: b.up > p.up && b.lo < p.lo ? 'ok' : b.up > p.up || b.lo < p.lo ? 'half' : 'no', detail: `상단 ${round(p.up, 2)}→${round(b.up, 2)} · 하단 ${round(p.lo, 2)}→${round(b.lo, 2)}` },
     { no: '5', item: '종가가 상단 밴드 위 (참고)', status: c[D] > b.up ? 'ok' : 'no', detail: `종가 ${round(c[D], 2)} · 상단 ${round(b.up, 2)}` },
@@ -76,7 +76,7 @@ function entry(r, j, session) {
 
 function message(items, session, scan) {
   const f = (v) => (v == null ? '—' : `${v > 0 ? '+' : ''}${Math.round(v)}%`), big = (v) => (v != null && v >= 30 ? '★' : '');
-  const L = [`📦 14팀 하율 — 볼린저 수축 → 거래량 폭발 (${session} 장)`, `전날 폭 ≤ ${TH} · 거래량 50일 평균 ${VOLK}배↑ · OBV 상승 — ${items.length}종목`];
+  const L = [`📦 14팀 하율 — 볼린저 수축 → 거래량 폭발 (${session} 장)`, `전날 폭 ≤ ${TH} · 거래량 50일 평균 위 · OBV 상승 — ${items.length}종목`];
   for (const x of items.slice(0, 15)) L.push(`${x.ticker} ${x.sector}/${x.industry} · 거래량 ${x.volX}배 · 폭 ${x.bbwPrev}→${x.bbw}${x.aboveUp ? ' · 상단 돌파' : ''}${x.expand ? ' · 밴드 확장' : ''}\n  1M ${f(x.ret.m1)}${big(x.ret.m1)} 3M ${f(x.ret.m3)}${big(x.ret.m3)} 6M ${f(x.ret.m6)}${big(x.ret.m6)} · RS 상위 ${x.rsTop.m1 ?? '—'}/${x.rsTop.m3 ?? '—'}/${x.rsTop.m6 ?? '—'}%`);
   if (items.length > 15) L.push(`… 외 ${items.length - 15}종목은 대시보드에`);
   if (scan.capDropped) L.push(`⚠️ 봉 상한(${CAP})으로 ${scan.capDropped}종목은 못 봤습니다`);
@@ -98,13 +98,14 @@ async function main() {
   if (!prev) { say('WARN', '하율: 전날 볼린저 폭을 못 구해 건너뜀'); return { ok: false }; }
   const bbwToday = {}; for (const r of rows) if (r.Ticker && r.BBWTHD != null) bbwToday[r.Ticker] = r.BBWTHD;
   writeJson(STATE, { label, bbw: bbwToday });
-  const pre = rows.filter((r) => r.Ticker && !isEtf(r) && prev.map[r.Ticker] != null && prev.map[r.Ticker] <= TH && num(r.Ret_1D_Pct) > 0 && num(r.VOL_X) >= 1.5)
+  const pre = rows.filter((r) => r.Ticker && !isEtf(r) && prev.map[r.Ticker] != null && prev.map[r.Ticker] <= TH && num(r.Ret_1D_Pct) > 0)   // 거래량은 사이트에 50일 기준이 없어(VOL_X 는 20일 거래대금) 봉으로만 판정
     .sort((x, y) => num(y.VOL_X) - num(x.VOL_X));
   const take = pre.slice(0, cap), scan = { universe: rows.length, prefilter: pre.length, fetched: take.length, capDropped: Math.max(0, pre.length - cap), prevDate: prev.date };
-  say('SYSTEM', `하율: ${label} · 전날 폭(${prev.date}) ≤ ${TH} & 상승 & VOL_X ≥ 1.5 → ${pre.length}종목 (봉 ${take.length})`);
+  say('SYSTEM', `하율: ${label} · 전날 폭(${prev.date}) ≤ ${TH} & 상승 → ${pre.length}종목 (봉 ${take.length})`);
   const { results } = await fetchMany(take.map((r) => r.Ticker), { range: '2y', label: '하율 봉', budgetMs: 240000 });
-  const barsOf = (t) => { const r = results.get(String(t).toUpperCase()); return r && r.ok ? r.bars : null; };
-  const session = take.length ? (take.map((r) => barsOf(r.Ticker)).filter(Boolean).map((b) => barDateET(b[b.length - 1].t)).sort().pop() || label) : label;
+  // 사이트 자료(라벨 = UTC 완료일)의 장 = 라벨 전날까지의 마지막 봉. 사이트가 아직 안 바뀐 아침에 야후 봉이 하루 앞서 있어도 같은 장으로 맞춘다(2026-11-19 실측)
+  const barsOf = (t) => { const r = results.get(String(t).toUpperCase()); return r && r.ok ? r.bars.filter((b) => barDateET(b.t) < label) : null; };
+  const session = take.map((r) => barsOf(r.Ticker)).filter((b) => b && b.length).map((b) => barDateET(b[b.length - 1].t)).sort().pop() || label;
   const items = [];
   for (const r of take) { const b = barsOf(r.Ticker); const j = b && judge(b); if (j && j.pass && barDateET(b[b.length - 1].t) === session) items.push(entry(r, j, session)); }
   const rose = (x) => [x.ret.m1, x.ret.m3, x.ret.m6].some((v) => v != null && v >= 30);   // 크게 오른 종목 먼저 (같은 날 사용자: "크게 상승한 종목 중 횡보하다 거래량 폭발") — 거르지는 않는다

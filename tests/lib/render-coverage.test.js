@@ -279,9 +279,9 @@ console.log('\n[카드] 12팀 도담 · 13팀 라온 — 티스토리 글 (2026-
 
 console.log('\n[14팀] 하율 — 볼린저 수축→거래량 폭발 카드·탭·팝업·지표 차트 (2026-11-19)');
 {
-  const rowsOf = (st) => [{ no: '1', item: '전날 볼린저 폭 0.25 이하 (수축)', status: 'ok', detail: '전날 0.221 · 당일 0.29' }, { no: '2', item: '돌파일 거래량 50일 평균 2배 이상', status: st, detail: '2.54배 (45,000K ÷ 17,700K)' },
+  const rowsOf = (st) => [{ no: '1', item: '전날 볼린저 폭 0.25 이하 (수축)', status: 'ok', detail: '전날 0.221 · 당일 0.29' }, { no: '2', item: '당일 거래량 50일 평균 위', status: st, detail: '2.54배 (45,000K ÷ 17,700K)' },
     { no: '3', item: 'OBV 상승 (종가 > 전일 종가)', status: 'ok', detail: '150 → 157 (4.7%)' }, { no: '4', item: '상단 밴드 상승 · 하단 밴드 하락 (참고)', status: 'half', detail: '상단 160→165 · 하단 140→141' }, { no: '5', item: '종가가 상단 밴드 위 (참고)', status: 'ok', detail: '종가 157 · 상단 155' }];
-  const data = { updated: 'x', session: '2026-11-18', rule: { th: 0.25, volk: 2 }, scan: { universe: 1109, prefilter: 22, fetched: 20, capDropped: 2 },
+  const data = { updated: 'x', session: '2026-11-18', rule: { th: 0.25, volk: 1 }, scan: { universe: 1109, prefilter: 22, fetched: 20, capDropped: 2 },
     items: [{ ticker: 'ZZSQ', session: '2026-11-18', sector: 'Technology', industry: 'Semiconductors', price: 157, adr: 4.1, ret: { m1: 28.3, m3: 41.2, m6: null }, rsTop: { m1: 2.8, m3: 0.9, m6: null }, volX: 2.54, bbwPrev: 0.221, bbw: 0.29, aboveUp: true, expand: false, close: 157, rows: rowsOf('ok') },
       { ticker: 'ZZOLD', session: '2026-11-17', sector: 'Health', industry: 'Biotech', price: 20, adr: 7, ret: { m1: 5, m3: 10, m6: 12 }, rsTop: { m1: 40, m3: 30, m6: 20 }, volX: 3.1, bbwPrev: 0.1, bbw: 0.2, aboveUp: false, expand: true, close: 20, rows: rowsOf('ok') }] };
   const q = loadRoom(`window.BBSQUEEZE_DATA = ${JSON.stringify(data)};`); q.cards();
