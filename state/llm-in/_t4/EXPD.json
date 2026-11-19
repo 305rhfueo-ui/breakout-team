@@ -1,0 +1,195 @@
+{
+ "ticker": "EXPD",
+ "news": [
+  {
+   "title": "Is EXPD Still a Buy as Earnings Surge but Valuation Stays Elevated?",
+   "url": "https://www.nasdaq.com/articles/expd-still-buy-earnings-surge-valuation-stays-elevated",
+   "date": "2026-11-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can EXPD's Q3 Earnings Beat Sustain Growth as Freight Demand Shifts?",
+   "url": "https://www.nasdaq.com/articles/can-expds-q3-earnings-beat-sustain-growth-freight-demand-shifts",
+   "date": "2026-11-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Expeditors International Of Washington Insider Sold Shares Worth $480,325, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-washington-insider-sold-212842947.html",
+   "date": "2026-11-18",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Expeditors International of Washington to Provide Logistics for All Points' Space Prep Spaceport Logistics Center",
+   "url": "https://finance.yahoo.com/technology/articles/expeditors-international-washington-logistics-points-134149635.html",
+   "date": "2026-11-18",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Expeditors and All Points Partner to Advance Space Logistics at Kennedy Space Center",
+   "url": "https://finance.yahoo.com/small-business/articles/expeditors-points-partner-advance-space-130000087.html",
+   "date": "2026-11-18",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LUV Expands Global Reach With French bee Interline Partnership",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/luv-expands-global-reach-french-165300078.html",
+   "date": "2026-11-17",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Barclays Adjusts Price Target on Expeditors International of Washington to $200 From $175",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-price-target-expeditors-103814265.html",
+   "date": "2026-11-17",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Alaska Airlines Strengthens Its Seattle Network With New Routes",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/alaska-airlines-strengthens-seattle-network-152600966.html",
+   "date": "2026-11-13",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Are Transportation Stocks Lagging  A.P. Moller-Maersk (AMKBY) This Year?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/transportation-stocks-lagging-p-moller-134003434.html",
+   "date": "2026-11-13",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-18",
+   "reportDate": "2026-11-18",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526466274/expd-20261118.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-12",
+   "reportDate": "2026-11-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526457594/expd-20261111.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-02",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526445448/expd-20261102.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526444872/expd-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-16",
+   "reportDate": "2025-09-16",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526392952/expd-20250916.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526344693/expd-20260811.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 28.56,
+  "saleNy": 1.37,
+  "epsCy": 45.46,
+  "epsNy": 2.63,
+  "cyTrend": 10.03,
+  "nyTrend": 8.35,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    32.07,
+    4.37,
+    -3.34
+   ],
+   "ni": [
+    45.02,
+    12.67,
+    -14.91
+   ],
+   "opm": [
+    9.98,
+    10.59,
+    8.79
+   ],
+   "updated": "2026-09-07 07:50:19"
+  }
+ }
+}

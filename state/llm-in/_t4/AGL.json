@@ -1,0 +1,216 @@
+{
+ "ticker": "AGL",
+ "news": [
+  {
+   "title": "Agilon Health (AGL) Is Up 2.00% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/agilon-health-agl-200-one-week-what-you-should-know",
+   "date": "2026-11-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fast-paced Momentum Stock Agilon (AGL) Is Still Trading at a Bargain",
+   "url": "https://www.nasdaq.com/articles/fast-paced-momentum-stock-agilon-agl-still-trading-bargain",
+   "date": "2026-11-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "agilon health (AGL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/agilon-health-agl-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, Agilon (AGL) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-agilon-agl-q3-earnings-look-key-metrics",
+   "date": "2026-11-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Agilon Health (AGL) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/agilon-health-agl-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Medical Stocks Lagging  Agilon Health (AGL) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-agilon-health-agl-year",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Agilon Health (AGL) Stock Outpacing Its Medical Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/agilon-health-agl-stock-outpacing-its-medical-peers-year",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is agilon health (AGL) Still Reasonable After Its Huge Run?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/agilon-health-agl-still-reasonable-232337610.html",
+   "date": "2026-11-18",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Trims Price Target on agilon health to $132 From $139, Keeps Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-trims-price-target-122015875.html",
+   "date": "2026-11-18",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "5 insightful analyst questions from agilon health’s Q3 2026 earnings call",
+   "url": "https://finance.yahoo.com/healthcare/articles/5-insightful-analyst-questions-agilon-205336859.html",
+   "date": "2026-11-08",
+   "publisher": "StockStory",
+   "via": "Yahoo"
+  },
+  {
+   "title": "agilon health Stock What Changed After Earnings Beat And Higher 2026 Guidance",
+   "url": "https://finance.yahoo.com/news/agilon-health-stock-changed-earnings-141639858.html",
+   "date": "2026-11-06",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Deutsche Bank Adjusts agilon health Price Target to $139 From $116, Maintains Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-agilon-health-140610821.html",
+   "date": "2026-11-06",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "agilon health (AGL) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/healthcare/articles/agilon-health-agl-q3-2026-165920853.html",
+   "date": "2026-11-05",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-16",
+   "reportDate": "2026-11-16",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026074187/agl-20261116.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026070132/agl-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026053328/agl-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-17",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026049080/agl-20260717.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-02",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026040370/agl-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026031254/agl-20260506.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.04,
+  "saleNy": 7.93,
+  "epsCy": -106.59,
+  "epsNy": 216.45,
+  "cyTrend": -187.66,
+  "nyTrend": 109.7,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.15,
+    -7.33,
+    3.09
+   ],
+   "ni": [
+    "흑자전환",
+    303.86,
+    "적자확대"
+   ],
+   "opm": [
+    0.79,
+    0.28,
+    -12.35
+   ],
+   "updated": "2026-09-15 06:29:02"
+  }
+ }
+}

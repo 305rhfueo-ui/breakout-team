@@ -1,0 +1,220 @@
+{
+ "ticker": "BIO",
+ "news": [
+  {
+   "title": "Why Bio-Rad (BIO) International Revenue Trends Deserve Your Attention",
+   "url": "https://www.nasdaq.com/articles/why-bio-rad-bio-international-revenue-trends-deserve-your-attention",
+   "date": "2026-11-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bio-Rad (BIO) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/bio-rad-bio-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Bio-Rad Laboratories (BIO) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-bio-rad-laboratories-bio-said-its-q3-earnings-call",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Bio-Rad Laboratories (BIO) Q3 Earnings Top Estimates",
+   "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-bio-q3-earnings-top-estimates",
+   "date": "2026-11-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bio-Rad Laboratories Bets on Digital PCR, Margins and Smarter M&A Growth",
+   "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-bets-digital-pcr-margins-and-smarter-ma-growth",
+   "date": "2026-09-26",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Bio-Rad (BIO) Up 11.7% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/bio-rad-bio-117-last-earnings-report-can-it-continue",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Bio-Rad a Buy as Digital PCR Growth Meets a Premium Valuation?",
+   "url": "https://www.nasdaq.com/articles/bio-rad-buy-digital-pcr-growth-meets-premium-valuation",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bio-Rad Gains 19.1% in the Past Month: Can Its Momentum Keep Building?",
+   "url": "https://www.nasdaq.com/articles/bio-rad-gains-191-past-month-can-its-momentum-keep-building",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "2026 Global Screener Proficiency Testing Platform Market: $2.01 Billion Forecast for 2030 | Capitalize on AI and Cloud Demand with Thermo Fisher, Merck, Bio-Rad, and Randox",
+   "url": "https://finance.yahoo.com/healthcare/articles/2026-global-screener-proficiency-testing-143300423.html",
+   "date": "2026-11-13",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Transfection Technologies - Global Strategic Business Report 2026: Capitalize on a $2.5 Billion Market by 2032 as Thermo Fisher, Lonza, Bio-Rad, Qiagen and MilliporeSigma Accelerate",
+   "url": "https://finance.yahoo.com/healthcare/articles/transfection-technologies-global-strategic-business-142100342.html",
+   "date": "2026-11-11",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Capillary Electrophoresis - Global Strategic Business Report: Secure Share of the $1.1 Billion Market by 2032 as Agilent, Bio-Rad, Danaher and Thermo Fisher Accelerate CE-MS Innovation",
+   "url": "https://finance.yahoo.com/healthcare/articles/capillary-electrophoresis-global-strategic-business-151100858.html",
+   "date": "2026-11-10",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Gene Amplification Technologies - Global Strategic Business Report: Capture $4.4B in New Revenue by 2030 as Abbott, Bio-Rad, bioMerieux, Cepheid and Becton Dickinson Battle for Share",
+   "url": "https://finance.yahoo.com/healthcare/articles/gene-amplification-technologies-global-strategic-142000749.html",
+   "date": "2026-11-10",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000057/bio-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "2.05",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "2.05",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000046/bio-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000034/bio-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-21",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000024/bio-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000012/bio-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000007/bio-20260212.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.54,
+  "saleNy": 1.46,
+  "epsCy": -3.16,
+  "epsNy": 3.12,
+  "cyTrend": 1.66,
+  "nyTrend": -0.1,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -0.09,
+    1.14,
+    3.85
+   ],
+   "ni": [
+    16.87,
+    -923.59,
+    "흑자전환"
+   ],
+   "opm": [
+    11.15,
+    5.76,
+    -17.15
+   ],
+   "updated": "2026-09-08 10:07:32"
+  }
+ }
+}

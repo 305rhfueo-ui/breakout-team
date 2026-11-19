@@ -1,0 +1,258 @@
+{
+ "ticker": "CAR",
+ "sector": "Industrials",
+ "industry": "Rental & Leasing Services",
+ "nameKo": "에이비스 버짓 그룹",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.09,
+  "saleNy": 1.39,
+  "epsCy": -110.48,
+  "epsNy": 118.27,
+  "est": {
+   "cyCur": 2.64552,
+   "cy30": 1.2994,
+   "nyCur": 5.77429,
+   "ny30": 6.27629
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -1.35,
+    4.12,
+    -1.7
+   ],
+   "ni": [
+    775,
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    7.07,
+    -7.27,
+    -21.55
+   ],
+   "updated": "2026-09-07 06:52:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-18",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-19",
+  "nameKo": "에이비스 버짓 그룹",
+  "nameEn": "AVIS BUDGET GROUP INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723612&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 3436000000,
+     "profit": 309000000,
+     "netIncome": 183000000,
+     "margin": 9,
+     "yoy": {
+      "revenue": -2.4,
+      "profit": -34.7,
+      "netIncome": -49,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2998000000,
+     "profit": 73000000,
+     "netIncome": 35000000,
+     "margin": 2.4,
+     "yoy": {
+      "revenue": -1.3,
+      "profit": 386.7,
+      "netIncome": 775,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2530000000,
+     "profit": -340000000,
+     "netIncome": -283000000,
+     "margin": -13.4,
+     "yoy": {
+      "revenue": 4.1,
+      "profit": 49.8,
+      "netIncome": 44,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2664000000,
+     "profit": -740000000,
+     "netIncome": -747000000,
+     "margin": -27.8,
+     "yoy": {
+      "revenue": -1.7,
+      "profit": 74,
+      "netIncome": 61.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3",
+     "url": "https://www.nasdaq.com/articles/avis-budget-stock-appreciates-10-despite-earnings-miss-q3",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Avis (CAR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/avis-car-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Avis Budget Group (CAR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-avis-budget-group-car-said-its-q3-earnings-call",
+     "date": "2026-11-04",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Avis Budget Group Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/avis-budget-group-q3-26-earnings-conference-call-8-30-am-et",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Avis Budget Group Reports Third Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/avis-budget-group-reports-third-quarter-2026-results",
+     "date": "2026-11-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Compared to Estimates, Avis Budget (CAR) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-avis-budget-car-q3-earnings-look-key-metrics",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Avis Budget Group (CAR) Misses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/avis-budget-group-car-misses-q3-earnings-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Avis Budget Group  Inc. Announces Decline In Q3 Bottom Line",
+     "url": "https://www.nasdaq.com/articles/avis-budget-group-inc-announces-decline-q3-bottom-line",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723612/000072361226000042/car-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723612/000095014226002911/eh260848006_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723612/000095014226002687/eh260839574_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723612/000095014226002582/eh260832444_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723612/000095014226002479/eh260825547_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723612/000072361226000037/car-20260728.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "CAR",
+  "fetchedAt": "2026-11-19",
+  "source": "한국투자증권 Open API",
+  "per": 6.71,
+  "pbr": 0,
+  "eps": 18.15,
+  "bps": 0,
+  "shares": 35337800,
+  "marketCapM": 4300,
+  "high52": 847.6999,
+  "high52Date": "2026-04-22",
+  "low52": 85.96,
+  "low52Date": "2026-02-24",
+  "last": 121.69,
+  "prevClose": 124.64,
+  "nameKo": "에이비스 버짓 그룹",
+  "nameEn": "AVIS BUDGET GROUP INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 35337800
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "ticker": "P",
+ "news": [
+  {
+   "title": "Everpure (P) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/everpure-p-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-11-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Everpure (P) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/everpure-p-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-11-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Seeking Clues to Everpure (P) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/seeking-clues-everpure-p-q3-earnings-peek-wall-street-projections-key-metrics",
+   "date": "2026-11-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VNT or P: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/vnt-or-p-which-better-value-stock-right-now-0",
+   "date": "2026-10-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Everpure Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-q3-earnings-call-highlights-011313459.html",
+   "date": "2026-11-19",
+   "publisher": "MarketBeat",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Everpure Inc. Q3 2027 Earnings Call: Live Updates of $P Earnings, Stock Forecast",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-inc-q3-2027-earnings-231525108.html",
+   "date": "2026-11-18",
+   "publisher": "TheStreet",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Everpure climbs on earnings beat and raised guidance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-climbs-earnings-beat-raised-214624519.html",
+   "date": "2026-11-18",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Everpure (P) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-p-q3-earnings-taking-213002825.html",
+   "date": "2026-11-18",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Everpure Stock Jumps After Posting Earnings Beat",
+   "url": "https://finance.yahoo.com/m/44662787-a073-354a-9fe6-9450ee4eecfe/everpure-stock-jumps-after.html",
+   "date": "2026-11-18",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Everpure Q3 Adjusted Earnings, Revenue Rise; Lifts Fiscal 2027 Outlook",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-q3-adjusted-earnings-revenue-212133860.html",
+   "date": "2026-11-18",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Everpure (P) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-p-q3-earnings-revenues-211501888.html",
+   "date": "2026-11-18",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Everpure: Fiscal Q3 Earnings Snapshot",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-fiscal-q3-earnings-snapshot-211333507.html",
+   "date": "2026-11-18",
+   "publisher": "Associated Press",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-18",
+   "reportDate": "2026-11-18",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000110/pstg-20261118.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000084/pstg-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000066/pstg-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000046/pstg-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000015/pstg-20260225.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-23",
+   "reportDate": "2026-02-23",
+   "items": [
+    "5.03"
+   ],
+   "itemsKo": [
+    "5.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000011/pstg-20260223.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 38.11,
+  "saleNy": 39,
+  "epsCy": 40.68,
+  "epsNy": 50.9,
+  "cyTrend": 0.46,
+  "nyTrend": 0.21,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    37.73,
+    35.25,
+    20.35
+   ],
+   "ni": [
+    57.37,
+    "흑자전환",
+    136.25
+   ],
+   "opm": [
+    5.33,
+    1.89,
+    8.23
+   ],
+   "updated": "2026-09-19 05:48:14"
+  }
+ }
+}

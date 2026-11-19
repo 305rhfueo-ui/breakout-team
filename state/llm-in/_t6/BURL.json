@@ -1,0 +1,720 @@
+{
+ "ticker": "BURL",
+ "date": "2026-11-19",
+ "session": "2026-11-18",
+ "source": "list",
+ "plan": {
+  "ticker": "BURL",
+  "name": "벌링턴 스토어스",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "price": 247.97000122070312,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 279.88,
+  "stop": 270.47,
+  "distToPivotPct": -11.4,
+  "distToPivotAdr": -3,
+  "riskPerSharePct": 3.36,
+  "adrPct": 3.8,
+  "extensionAdr": 0.02,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 37,
+   "baseWeeks": 7.4,
+   "depthPct": 18.3,
+   "priorMovePct": 23.4,
+   "higherLows": 0,
+   "contraction": 1.08,
+   "closeRange10Adr": 2.3,
+   "surf10": 0.02,
+   "surf20": 0.29,
+   "slope20": -1.75,
+   "baseLow": 228.64,
+   "lastSwingLow": 231.74
+  },
+  "reasons": [
+   "✗ 선행 상승 +23%",
+   "베이스 7.4주",
+   "깊이 18.3%",
+   "✗ 저점 상승 0회",
+   "진폭 1.08배 · 10일 종가폭 2.3 ADR",
+   "10일선 +0 ADR · 20일선 +0.3 ADR",
+   "✗ 20일선 기울기 -1.75%"
+  ],
+  "earnings": "2026-11-24"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.08993707225658222,
+    "pct": 52.79531109107304
+   },
+   "m3": {
+    "v": -0.1423810802128867,
+    "pct": 14.201983769161405
+   },
+   "m6": {
+    "v": -0.1294419743786277,
+    "pct": 14.11181244364292
+   }
+  },
+  "ret1m": -0.06,
+  "ret3m": -21.35,
+  "ret6m": -23.43,
+  "marketCap": "14.80B",
+  "volx": 0.97,
+  "volSurgeWk": 1.12,
+  "high52": 65.54,
+  "newHigh52": false,
+  "adr": 3.8,
+  "div50": -1.98,
+  "div200": -18.48,
+  "targetStatus": false,
+  "saleCy": 10.8,
+  "saleNy": 8.75,
+  "epsCy": 20.61,
+  "epsNy": 15.2,
+  "cyTrend": -0.25,
+  "nyTrend": -0.88,
+  "est": {
+   "cyCur": 11.77188,
+   "cy30": 11.80109,
+   "nyCur": 13.56099,
+   "ny30": 13.68078
+  },
+  "fs": {
+   "sale": [
+    10.99,
+    14.08,
+    11.3
+   ],
+   "ni": [
+    95.68,
+    13.8,
+    19.03
+   ],
+   "opm": [
+    8.51,
+    5.36,
+    11.77
+   ],
+   "updated": "2026-09-07 06:33:56"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-19",
+  "nameKo": "벌링턴 스토어스",
+  "nameEn": "BURLINGTON STORES INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579298&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 2997778000,
+     "profit": 242117000,
+     "netIncome": 184304000,
+     "margin": 8.1,
+     "yoy": {
+      "revenue": 11,
+      "profit": 90.2,
+      "netIncome": 95.7,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 2852310000,
+     "profit": 142669000,
+     "netIncome": 114744000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 14.1,
+      "profit": 7.4,
+      "netIncome": 13.8,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 3642503000,
+     "profit": 417864000,
+     "netIncome": 310386000,
+     "margin": 11.5,
+     "yoy": {
+      "revenue": 11.3,
+      "profit": 20.3,
+      "netIncome": 19,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 2706003000,
+     "profit": 138059000,
+     "netIncome": 104750000,
+     "margin": 5.1,
+     "yoy": {
+      "revenue": 7.1,
+      "profit": 17,
+      "netIncome": 15.6,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Earnings Preview: Burlington Stores (BURL) Q3 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-burlington-stores-burl-q3-earnings-expected-decline",
+     "date": "2026-11-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "February 2027 Options Now Available For Burlington Stores (BURL)",
+     "url": "https://www.nasdaq.com/articles/february-2027-options-now-available-burlington-stores-burl",
+     "date": "2026-11-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Will Burlington Stores (BURL) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-burlington-stores-burl-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bear of the Day: Burlington Stores (BURL)",
+     "url": "https://www.nasdaq.com/articles/bear-day-burlington-stores-burl",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526369502/burl-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526332853/burl-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526242954/burl-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526239405/burl-20260519.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-13",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526105012/burl-20260312.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526092488/burl-20260305.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+   "url": "https://www.cnbc.com/investingclub/2026/08/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "BURL",
+  "fetchedAt": "2026-11-19",
+  "source": "한국투자증권 Open API",
+  "per": 22.24,
+  "pbr": 7.78,
+  "eps": 11.15,
+  "bps": 31.88,
+  "shares": 62815200,
+  "marketCapM": 15576,
+  "high52": 378.33,
+  "high52Date": "2026-07-29",
+  "low52": 226.85,
+  "low52Date": "2026-09-15",
+  "last": 247.97,
+  "prevClose": 235.14,
+  "nameKo": "벌링턴 스토어스",
+  "nameEn": "BURLINGTON STORES INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 62815200
+ },
+ "estimates": {
+  "ticker": "BURL",
+  "url": "https://finance.yahoo.com/quote/BURL/analysis/",
+  "fetchedAt": "2026-11-19",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 1.72,
+    "epsLow": 1.62,
+    "epsHigh": 1.95,
+    "epsYearAgo": 1.68,
+    "epsAnalysts": 19,
+    "epsGrowth": 2.3,
+    "epsCur": "USD",
+    "rev": 2979040850,
+    "revAnalysts": 16,
+    "revYearAgo": 2710440000,
+    "revGrowth": 9.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 5.2,
+    "epsLow": 5,
+    "epsHigh": 5.96,
+    "epsYearAgo": 4.89,
+    "epsAnalysts": 18,
+    "epsGrowth": 6.3,
+    "epsCur": "USD",
+    "rev": 3970367510,
+    "revAnalysts": 15,
+    "revYearAgo": 3647378000,
+    "revGrowth": 8.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 11.77,
+    "epsLow": 11.14,
+    "epsHigh": 12.15,
+    "epsYearAgo": 9.76,
+    "epsAnalysts": 19,
+    "epsGrowth": 20.6,
+    "epsCur": "USD",
+    "rev": 12815782140,
+    "revAnalysts": 17,
+    "revYearAgo": 11566910000,
+    "revGrowth": 10.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 13.56,
+    "epsLow": 12.33,
+    "epsHigh": 14.72,
+    "epsYearAgo": 11.77,
+    "epsAnalysts": 19,
+    "epsGrowth": 15.2,
+    "epsCur": "USD",
+    "rev": 13936857490,
+    "revAnalysts": 16,
+    "revYearAgo": 12815782140,
+    "revGrowth": 8.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 1.72,
+    "d7": -0.9,
+    "d30": -0.7,
+    "d90": -15.2,
+    "ago90": 2.03,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 5.2,
+    "d7": -0.2,
+    "d30": -0.2,
+    "d90": -6.2,
+    "ago90": 5.54,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 11.77,
+    "d7": -0.2,
+    "d30": -0.2,
+    "d90": -0.6,
+    "ago90": 11.84,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 13.56,
+    "d7": -0.6,
+    "d30": -0.9,
+    "d90": -2.1,
+    "ago90": 13.85,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 2.96,
+    "estimate": 2.19,
+    "surprisePct": 35.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 2.01,
+    "estimate": 1.8,
+    "surprisePct": 11.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 4.89,
+    "estimate": 4.75,
+    "surprisePct": 2.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 1.68,
+    "estimate": 1.64,
+    "surprisePct": 2.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 0,
+   "ptLowered": 8,
+   "total": 10,
+   "recent": [
+    {
+     "date": "2026-11-16",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 381,
+     "ptPrior": 432
+    },
+    {
+     "date": "2026-11-13",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 330,
+     "ptPrior": 370
+    },
+    {
+     "date": "2026-11-10",
+     "firm": "Cantor Fitzgerald",
+     "action": "init",
+     "from": null,
+     "to": "Neutral",
+     "ptAction": "Announces",
+     "pt": 270,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 344,
+     "ptPrior": 365
+    },
+    {
+     "date": "2026-10-22",
+     "firm": "Wolfe Research",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 356,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 382,
+     "ptPrior": 394
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Deutsche Bank",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 323,
+     "ptPrior": 367
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 318,
+     "ptPrior": 380
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 355,
+     "ptPrior": 365
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 432,
+     "ptPrior": 438
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-24",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-18",
+  "numbers": {
+   "price": 247.97,
+   "ma20": 245.26,
+   "ma50": 252.97,
+   "ma150": 300.75,
+   "distMA50": -1.98,
+   "periodHigh": 378.33,
+   "pullbackFromHigh": -34.46,
+   "volRatio20": 0.96,
+   "dryUpRatio": 0.92
+  },
+  "last10": [
+   {
+    "d": "2026-11-05",
+    "o": 259.05,
+    "h": 261.23,
+    "l": 247.27,
+    "c": 250.77,
+    "v": 1564100,
+    "clsPos": 25,
+    "gapPct": 0.26
+   },
+   {
+    "d": "2026-11-06",
+    "o": 246.41,
+    "h": 250.33,
+    "l": 243.55,
+    "c": 246.76,
+    "v": 1003400,
+    "clsPos": 47,
+    "gapPct": -1.74
+   },
+   {
+    "d": "2026-11-09",
+    "o": 249.67,
+    "h": 257.35,
+    "l": 248.38,
+    "c": 257.17,
+    "v": 1288100,
+    "clsPos": 98,
+    "gapPct": 1.18
+   },
+   {
+    "d": "2026-11-10",
+    "o": 251.94,
+    "h": 255.96,
+    "l": 250.41,
+    "c": 253.95,
+    "v": 1119200,
+    "clsPos": 64,
+    "gapPct": -2.03
+   },
+   {
+    "d": "2026-11-11",
+    "o": 252.62,
+    "h": 257.08,
+    "l": 250.5,
+    "c": 256.29,
+    "v": 807000,
+    "clsPos": 88,
+    "gapPct": -0.52
+   },
+   {
+    "d": "2026-11-12",
+    "o": 251.96,
+    "h": 256.17,
+    "l": 247.01,
+    "c": 251.87,
+    "v": 889400,
+    "clsPos": 53,
+    "gapPct": -1.69
+   },
+   {
+    "d": "2026-11-13",
+    "o": 244,
+    "h": 249.35,
+    "l": 241.15,
+    "c": 242.86,
+    "v": 1009500,
+    "clsPos": 21,
+    "gapPct": -3.12
+   },
+   {
+    "d": "2026-11-16",
+    "o": 241.8,
+    "h": 242.49,
+    "l": 228.64,
+    "c": 235.16,
+    "v": 1645500,
+    "clsPos": 47,
+    "gapPct": -0.44
+   },
+   {
+    "d": "2026-11-17",
+    "o": 234.66,
+    "h": 242.9,
+    "l": 233.62,
+    "c": 235.14,
+    "v": 1077000,
+    "clsPos": 16,
+    "gapPct": -0.21
+   },
+   {
+    "d": "2026-11-18",
+    "o": 242,
+    "h": 252.13,
+    "l": 239.51,
+    "c": 247.97,
+    "v": 1216800,
+    "clsPos": 67,
+    "gapPct": 2.92
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BURL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BURL-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 22일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

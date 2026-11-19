@@ -1,0 +1,762 @@
+{
+ "ticker": "FTNT",
+ "date": "2026-11-19",
+ "session": "2026-11-18",
+ "source": "list",
+ "plan": {
+  "ticker": "FTNT",
+  "name": "포티넷",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 131.80999755859375,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 197.13,
+  "stop": 190.72,
+  "distToPivotPct": -33.14,
+  "distToPivotAdr": -6.82,
+  "riskPerSharePct": 3.25,
+  "adrPct": 4.86,
+  "extensionAdr": 1.03,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 32,
+   "baseWeeks": 6.4,
+   "depthPct": 39.8,
+   "priorMovePct": 37.1,
+   "higherLows": 0,
+   "contraction": 0.75,
+   "closeRange10Adr": 2,
+   "surf10": 1.03,
+   "surf20": -1.33,
+   "slope20": -7.61,
+   "baseLow": 118.62,
+   "lastSwingLow": 118.62
+  },
+  "reasons": [
+   "선행 상승 +37%",
+   "베이스 6.4주",
+   "✗ 깊이 39.8%",
+   "✗ 저점 상승 0회",
+   "진폭 0.75배 · 10일 종가폭 2 ADR",
+   "✗ 10일선 +1 ADR · 20일선 -1.3 ADR",
+   "✗ 20일선 기울기 -7.61%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.15210699952976106,
+    "pct": 5.8160504959422905
+   },
+   "m3": {
+    "v": -0.07111038503350305,
+    "pct": 23.309287646528404
+   },
+   "m6": {
+    "v": 0.06016929283208298,
+    "pct": 36.20378719567178
+   }
+  },
+  "ret1m": -24.27,
+  "ret3m": -14.22,
+  "ret6m": -4.46,
+  "marketCap": "90.57B",
+  "volx": 0.74,
+  "volSurgeWk": 1.17,
+  "high52": 66.86,
+  "newHigh52": false,
+  "adr": 4.86,
+  "div50": -18.96,
+  "div200": 0.31,
+  "targetStatus": false,
+  "saleCy": 20.22,
+  "saleNy": 11.48,
+  "epsCy": 29.14,
+  "epsNy": 9.46,
+  "cyTrend": 3.26,
+  "nyTrend": 3.28,
+  "est": {
+   "cyCur": 3.56433,
+   "cy30": 3.45182,
+   "nyCur": 3.90142,
+   "ny30": 3.77746
+  },
+  "fs": {
+   "sale": [
+    25.64,
+    20.13,
+    14.75
+   ],
+   "ni": [
+    37.76,
+    23.33,
+    -3.84
+   ],
+   "opm": [
+    33.66,
+    31.36,
+    32.84
+   ],
+   "updated": "2026-09-08 06:58:42"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-19",
+  "nameKo": "포티넷",
+  "nameEn": "FORTINET INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001262039&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2078400000,
+     "profit": 704300000,
+     "netIncome": 635500000,
+     "margin": 33.9,
+     "yoy": {
+      "revenue": 20.5,
+      "profit": 28.7,
+      "netIncome": 34.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2047900000,
+     "profit": 689300000,
+     "netIncome": 606300000,
+     "margin": 33.7,
+     "yoy": {
+      "revenue": 25.6,
+      "profit": 50.5,
+      "netIncome": 37.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1849600000,
+     "profit": 580000000,
+     "netIncome": 534500000,
+     "margin": 31.4,
+     "yoy": {
+      "revenue": 20.1,
+      "profit": 27.8,
+      "netIncome": 23.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1905000000,
+     "profit": 625600000,
+     "netIncome": 506042685,
+     "margin": 32.8,
+     "yoy": {
+      "revenue": 14.8,
+      "profit": 9,
+      "netIncome": -3.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is FTNT's SecOps Segment Emerging as a Key Swing Factor for the Stock?",
+     "url": "https://www.nasdaq.com/articles/ftnts-secops-segment-emerging-key-swing-factor-stock",
+     "date": "2026-11-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CRWD vs. FTNT: Which Cybersecurity Stock Has an Edge Right Now?",
+     "url": "https://www.nasdaq.com/articles/crwd-vs-ftnt-which-cybersecurity-stock-has-edge-right-now",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Fortinet Sees AI Fueling Firewall Demand as Supply Advantage Fades",
+     "url": "https://www.nasdaq.com/articles/fortinet-sees-ai-fueling-firewall-demand-supply-advantage-fades",
+     "date": "2026-11-12",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Will Fortinet's Cash Flow Profile Support the Stock Amid Higher Capex?",
+     "url": "https://www.nasdaq.com/articles/will-fortinets-cash-flow-profile-support-stock-amid-higher-capex",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000024/ftnt-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftnt-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000015/ftnt-20260612.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000010/ftnt-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000003/ftnt-20260205.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000036/ftnt-20251105.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "This cybersecurity stock just had a huge pullback. How to buy the dip like a pro",
+   "url": "https://www.cnbc.com/2026/11/02/this-cybersecurity-stock-just-had-a-huge-pullback-how-to-buy-the-dip-like-a-pro.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
+   "url": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+   "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Alphabet, Microsoft, Fortinet",
+   "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: Fortinet, UnitedHealth, Disney and CrowdStrike",
+   "url": "https://www.cnbc.com/video/2026/11/18/final-trades-fortinet-unitedhealth-disney-and-crowdstrike.html",
+   "date": "2026-11-18",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jay Woods says he's looking to buy this cybersecurity stock on a pullback",
+   "url": "https://www.cnbc.com/video/2026/11/02/jay-woods-says-hes-looking-to-buy-this-cybersecurity-stock-on-a-pullback.html",
+   "date": "2026-11-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "'Tremendous guilt by association' declines in cybersecurity today, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/29/tremendous-guilt-by-association-declines-in-cybersecurity-today-says-jim-cramer.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer on what is driving the decline in cybersecurity stocks",
+   "url": "https://www.cnbc.com/video/2026/10/29/jim-cramer-on-what-is-driving-the-decline-in-cybersecurity-stocks.html",
+   "date": "2026-10-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FTNT",
+  "fetchedAt": "2026-11-19",
+  "source": "한국투자증권 Open API",
+  "per": 46.44,
+  "pbr": 62.34,
+  "eps": 2.84,
+  "bps": 2.11,
+  "shares": 734710000,
+  "marketCapM": 96842,
+  "high52": 197.13,
+  "high52Date": "2026-10-13",
+  "low52": 73.55,
+  "low52Date": "2026-01-20",
+  "last": 131.81,
+  "prevClose": 124.5,
+  "nameKo": "포티넷",
+  "nameEn": "FORTINET INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 734710000
+ },
+ "estimates": {
+  "ticker": "FTNT",
+  "url": "https://finance.yahoo.com/quote/FTNT/analysis/",
+  "fetchedAt": "2026-11-19",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.94,
+    "epsLow": 0.92,
+    "epsHigh": 0.99,
+    "epsYearAgo": 0.81,
+    "epsAnalysts": 39,
+    "epsGrowth": 16.1,
+    "epsCur": "USD",
+    "rev": 2200307000,
+    "revAnalysts": 37,
+    "revYearAgo": 1905000000,
+    "revGrowth": 15.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.86,
+    "epsLow": 0.77,
+    "epsHigh": 0.91,
+    "epsYearAgo": 0.82,
+    "epsAnalysts": 33,
+    "epsGrowth": 4.4,
+    "epsCur": "USD",
+    "rev": 2076291930,
+    "revAnalysts": 31,
+    "revYearAgo": 1849600000,
+    "revGrowth": 12.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 3.56,
+    "epsLow": 3.5,
+    "epsHigh": 3.64,
+    "epsYearAgo": 2.76,
+    "epsAnalysts": 42,
+    "epsGrowth": 29.1,
+    "epsCur": "USD",
+    "rev": 8174210940,
+    "revAnalysts": 43,
+    "revYearAgo": 6799600000,
+    "revGrowth": 20.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 3.9,
+    "epsLow": 3.63,
+    "epsHigh": 4.41,
+    "epsYearAgo": 3.56,
+    "epsAnalysts": 43,
+    "epsGrowth": 9.5,
+    "epsCur": "USD",
+    "rev": 9131179990,
+    "revAnalysts": 43,
+    "revYearAgo": 8174210940,
+    "revGrowth": 11.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.94,
+    "d7": 0,
+    "d30": 7.3,
+    "d90": 7.4,
+    "ago90": 0.88,
+    "up7": 39,
+    "up30": 39,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.86,
+    "d7": 0.3,
+    "d30": 2,
+    "d90": 2.3,
+    "ago90": 0.84,
+    "up7": 20,
+    "up30": 20,
+    "down7": 5,
+    "down30": 5
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.56,
+    "d7": 0,
+    "d30": 3.3,
+    "d90": 3.6,
+    "ago90": 3.44,
+    "up7": 39,
+    "up30": 39,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 3.9,
+    "d7": 0,
+    "d30": 3.3,
+    "d90": 3.8,
+    "ago90": 3.76,
+    "up7": 35,
+    "up30": 35,
+    "down7": 6,
+    "down30": 7
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.91,
+    "estimate": 0.86,
+    "surprisePct": 6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.9,
+    "estimate": 0.75,
+    "surprisePct": 20.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.82,
+    "estimate": 0.62,
+    "surprisePct": 32.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.81,
+    "estimate": 0.74,
+    "surprisePct": 8.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 8,
+   "ptLowered": 15,
+   "total": 25,
+   "recent": [
+    {
+     "date": "2026-11-02",
+     "firm": "Amerx",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 173,
+     "ptPrior": 240
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 115,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 145,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 165,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 190,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 155
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 175,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "Scotiabank",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 163
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 175
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-28",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-18",
+  "numbers": {
+   "price": 131.81,
+   "ma20": 140.31,
+   "ma50": 162.65,
+   "ma150": 148,
+   "distMA50": -18.96,
+   "periodHigh": 197.13,
+   "pullbackFromHigh": -33.14,
+   "volRatio20": 0.77,
+   "dryUpRatio": 0.65
+  },
+  "last10": [
+   {
+    "d": "2026-11-05",
+    "o": 127.7,
+    "h": 127.7,
+    "l": 121.86,
+    "c": 122.51,
+    "v": 7535500,
+    "clsPos": 11,
+    "gapPct": -1.31
+   },
+   {
+    "d": "2026-11-06",
+    "o": 126.46,
+    "h": 126.46,
+    "l": 118.62,
+    "c": 118.84,
+    "v": 8025400,
+    "clsPos": 3,
+    "gapPct": 3.22
+   },
+   {
+    "d": "2026-11-09",
+    "o": 119.65,
+    "h": 123.3,
+    "l": 119.49,
+    "c": 122.47,
+    "v": 5313300,
+    "clsPos": 78,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-11-10",
+    "o": 122.5,
+    "h": 124.83,
+    "l": 119.65,
+    "c": 123.57,
+    "v": 5598200,
+    "clsPos": 76,
+    "gapPct": 0.02
+   },
+   {
+    "d": "2026-11-11",
+    "o": 127.12,
+    "h": 130.34,
+    "l": 126.33,
+    "c": 128.1,
+    "v": 5087300,
+    "clsPos": 44,
+    "gapPct": 2.87
+   },
+   {
+    "d": "2026-11-12",
+    "o": 126.95,
+    "h": 130.43,
+    "l": 124.51,
+    "c": 129.54,
+    "v": 3708000,
+    "clsPos": 85,
+    "gapPct": -0.9
+   },
+   {
+    "d": "2026-11-13",
+    "o": 131.4,
+    "h": 131.71,
+    "l": 125.14,
+    "c": 127.22,
+    "v": 3261200,
+    "clsPos": 32,
+    "gapPct": 1.44
+   },
+   {
+    "d": "2026-11-16",
+    "o": 125.52,
+    "h": 127,
+    "l": 122.76,
+    "c": 123.27,
+    "v": 4442300,
+    "clsPos": 12,
+    "gapPct": -1.34
+   },
+   {
+    "d": "2026-11-17",
+    "o": 123.16,
+    "h": 125.11,
+    "l": 120.5,
+    "c": 124.5,
+    "v": 4468800,
+    "clsPos": 87,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-11-18",
+    "o": 126.12,
+    "h": 133.31,
+    "l": 124.96,
+    "c": 131.81,
+    "v": 4920600,
+    "clsPos": 82,
+    "gapPct": 1.3
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FTNT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FTNT-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 22일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}
