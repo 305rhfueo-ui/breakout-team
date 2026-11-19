@@ -1,4345 +1,26 @@
 window.TEAM4_DATA = {
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
     "aboveMa150": true
   },
-  "universeHits": 55,
-  "analyzed": 30,
+  "universeHits": 53,
+  "analyzed": 26,
   "items": [
-    {
-      "ticker": "NSIT",
-      "sector": "Technology",
-      "industry": "Electronics & Computer Distribution",
-      "price": 156.32000732421875,
-      "marketCap": "4.47B",
-      "volx": 5.63,
-      "volSurgeWk": 7.41,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 82.91,
-      "high52": 85.83,
-      "adr": 5.05,
-      "targetStatus": true,
-      "saleCy": 12.22,
-      "saleNy": 4.75,
-      "epsCy": 38.29,
-      "epsNy": 9.16,
-      "cyTrend": 9,
-      "nyTrend": 12.43,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          14.73,
-          1.16,
-          -1.18
-        ],
-        "ni": [
-          65.28,
-          299.37,
-          40.37
-        ],
-        "opm": [
-          5.46,
-          3.37,
-          4.65
-        ],
-        "updated": "2026-09-09 06:30:02"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "NSIT",
-        "category": 6,
-        "company": "Insight Enterprises는 기업 고객에게 컴퓨터·클라우드·소프트웨어를 공급하고 IT 구축 서비스를 제공해 돈을 번다. 최근에는 AI 관련 서비스와 에이전트 상품으로 영역을 넓히고 있다.",
-        "volumeExplanation": "11월 13일 이사회가 4억 달러 자사주 매입을 승인했고, 11월 16일 6.5억 달러 전환사채 발행을 알렸다. 뚜렷한 상승 호재라기보다 자금 조달·매입 뉴스에 거래량이 몰린 것으로 보이며, 직접 원인은 확인되지 않았다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "11월 13일 이사회가 최대 4억 달러 규모 자사주 매입 프로그램을 승인했고, 11월 16일 8-K로 공시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Insight Enterprises 8-K (Item 8.01)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000085/nsit-20261116.htm",
-                "date": "2026-11-16",
-                "quote": "On November 13, 2026, the Board of Directors of Insight Enterprises, Inc. (the \"Company\") approved the authorization of a stock repurchase program pursuant to which the Company may purchase up to $400.0 million of our common stock",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "11월 5일 3분기 실적이 시장 예상을 웃돌았다. 거래량 급증 시점과는 2주가량 떨어져 있어 직접 원인으로 보기 어렵다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Insight Enterprises (NSIT) Q3 Earnings and Revenues Beat Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-q3-earnings-and-revenues-beat-estimates",
-                "date": "2026-11-05",
-                "quote": "Insight Enterprises (NSIT) Q3 Earnings and Revenues Beat Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Insight Enterprises Prices $650 Million Convertible Senior Notes Offering Due 2031",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/insight-enterprises-prices-650-million-093224260.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Insight Announces Pricing of 0.875% Convertible Senior Notes Offering",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/insight-announces-pricing-0-875-010500764.html",
-          "date": "2026-11-17",
-          "publisher": "Business Wire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Update: Insight Enterprises Shares Fall After $650 Million Convertible Notes Offering",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/insight-enterprises-shares-fall-650-200340715.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Insight Enterprises stock falls on $650M debt offering plan",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/insight-enterprises-stock-falls-650m-163003352.html",
-          "date": "2026-11-16",
-          "publisher": "Investing.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Insight Enterprises Plans $650 Million Convertible Notes Offering",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/insight-enterprises-plans-650-million-124742698.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Insight Announces Offering of Convertible Senior Notes",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/insight-announces-offering-convertible-senior-120000284.html",
-          "date": "2026-11-16",
-          "publisher": "Business Wire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Insight Enterprises Inc (NSIT) (Q3 2026) Earnings Call Highlights: AI-Driven Demand Fuels 34% ...",
-          "url": "https://finance.yahoo.com/technology/ai/articles/insight-enterprises-inc-nsit-q3-010120715.html",
-          "date": "2026-11-14",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Insight Enterprises Launches Online Agent Store, New Agentic Offerings",
-          "url": "https://finance.yahoo.com/technology/ai/articles/insight-enterprises-launches-online-agent-151038125.html",
-          "date": "2026-11-12",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "인사이트 엔터프라이즈",
-      "nameEn": "INSIGHT ENTERPRISE INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "인사이트 엔터프라이즈",
-        "nameEn": "INSIGHT ENTERPRISE INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000932696&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-09-30",
-              "derived": false,
-              "revenue": 2441510000,
-              "profit": 68691000,
-              "netIncome": 22161000,
-              "margin": 2.8,
-              "yoy": {
-                "revenue": 21.8,
-                "profit": -26.2,
-                "netIncome": -56.5,
-                "priorEnd": "2025-09-30"
-              }
-            },
-            {
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 2399497000,
-              "profit": 130967000,
-              "netIncome": 77569000,
-              "margin": 5.5,
-              "yoy": {
-                "revenue": 14.7,
-                "profit": 51.4,
-                "netIncome": 65.3,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 2127986000,
-              "profit": 71682000,
-              "netIncome": 30009000,
-              "margin": 3.4,
-              "yoy": {
-                "revenue": 1.2,
-                "profit": 19.3,
-                "netIncome": 299.4,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 2048297000,
-              "profit": 95221000,
-              "netIncome": 51954000,
-              "margin": 4.6,
-              "yoy": {
-                "revenue": -1.2,
-                "profit": 47.2,
-                "netIncome": 40.4,
-                "priorEnd": "2024-12-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Insight Enterprises, Inc. Board Approves $400.0 million Stock Repurchase Program",
-              "url": "https://www.nasdaq.com/articles/insight-enterprises-inc-board-approves-4000-million-stock-repurchase-program",
-              "date": "2026-11-16",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Insight Enterprises Plans $650 Mln Offering Of Convertible Senior Notes Due 2031",
-              "url": "https://www.nasdaq.com/articles/insight-enterprises-plans-650-mln-offering-convertible-senior-notes-due-2031",
-              "date": "2026-11-16",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Insight Enterprises, Inc. Reports Third Quarter 2026 Financial Results",
-              "url": "https://www.nasdaq.com/articles/insight-enterprises-inc-reports-third-quarter-2026-financial-results",
-              "date": "2026-11-06",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "What Insight Enterprises (NSIT) Said on Its Q3 Earnings Call",
-              "url": "https://www.nasdaq.com/articles/what-insight-enterprises-nsit-said-its-q3-earnings-call",
-              "date": "2026-11-05",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Insight Enterprises (NSIT) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-q3-2026-earnings-call-transcript",
-              "date": "2026-11-05",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Insight Enterprises Q3 Profit Falls, Lifts FY Earnings Outlook; Pre-Market Shares Up",
-              "url": "https://www.nasdaq.com/articles/insight-enterprises-q3-profit-falls-lifts-fy-earnings-outlook-pre-market-shares",
-              "date": "2026-11-05",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Insight Enterprises (NSIT) Q3 Earnings and Revenues Beat Estimates",
-              "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-q3-earnings-and-revenues-beat-estimates",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Insight Enterprises (NSIT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-              "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-q3-earnings-taking-look-key-metrics-versus-estimates",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-16",
-            "itemsKo": [
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000085/nsit-20261116.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-05",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000076/nsit-20261105.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-06",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000067/nsit-20260806.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-01",
-            "itemsKo": [
-              "중요 계약 체결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000063/nsit-20260528.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-14",
-            "itemsKo": [
-              "5.03",
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000057/nsit-20260513.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-07",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000047/nsit-20260507.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "NSIT",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 22.88,
-        "pbr": 2.87,
-        "eps": 6.83,
-        "bps": 54.38,
-        "shares": 28810500,
-        "marketCapM": 4504,
-        "high52": 182.12,
-        "high52Date": "2026-10-26",
-        "low52": 63.62,
-        "low52Date": "2026-03-30",
-        "last": 156.32,
-        "prevClose": 155.29,
-        "nameKo": "인사이트 엔터프라이즈",
-        "nameEn": "INSIGHT ENTERPRISE INC",
-        "listedOn": null,
-        "exchange": "나스닥",
-        "listedShares": 28810500
-      },
-      "cnbc": [],
-      "estimates": {
-        "ticker": "NSIT",
-        "url": "https://finance.yahoo.com/quote/NSIT/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 3.33,
-            "epsLow": 3.32,
-            "epsHigh": 3.33,
-            "epsYearAgo": 2.96,
-            "epsAnalysts": 4,
-            "epsGrowth": 12.4,
-            "epsCur": "USD",
-            "rev": 2286202500,
-            "revAnalysts": 4,
-            "revYearAgo": 2048297000,
-            "revGrowth": 11.6,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 3.21,
-            "epsLow": 3.18,
-            "epsHigh": 3.24,
-            "epsYearAgo": 2.88,
-            "epsAnalysts": 3,
-            "epsGrowth": 11.5,
-            "epsCur": "USD",
-            "rev": 2295415000,
-            "revAnalysts": 2,
-            "revYearAgo": 2127986000,
-            "revGrowth": 7.9,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 13.65,
-            "epsLow": 13.65,
-            "epsHigh": 13.65,
-            "epsYearAgo": 9.87,
-            "epsAnalysts": 4,
-            "epsGrowth": 38.3,
-            "epsCur": "USD",
-            "rev": 9255293490,
-            "revAnalysts": 4,
-            "revYearAgo": 8247180000,
-            "revGrowth": 12.2,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 14.9,
-            "epsLow": 14.2,
-            "epsHigh": 15.35,
-            "epsYearAgo": 13.65,
-            "epsAnalysts": 4,
-            "epsGrowth": 9.2,
-            "epsCur": "USD",
-            "rev": 9694979070,
-            "revAnalysts": 4,
-            "revYearAgo": 9255293490,
-            "revGrowth": 4.8,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 3.33,
-            "d7": 16.3,
-            "d30": 16.3,
-            "d90": 16.3,
-            "ago90": 2.86,
-            "up7": 3,
-            "up30": 3,
-            "down7": 0,
-            "down30": 0
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 3.21,
-            "d7": 7.6,
-            "d30": 7.6,
-            "d90": 7.6,
-            "ago90": 2.98,
-            "up7": 1,
-            "up30": 1,
-            "down7": 0,
-            "down30": 0
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 13.65,
-            "d7": 9,
-            "d30": 9,
-            "d90": 9,
-            "ago90": 12.52,
-            "up7": 3,
-            "up30": 3,
-            "down7": 0,
-            "down30": 0
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 14.9,
-            "d7": 12.4,
-            "d30": 12.4,
-            "d90": 12.4,
-            "ago90": 13.25,
-            "up7": 4,
-            "up30": 4,
-            "down7": 0,
-            "down30": 0
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 3.59,
-            "estimate": 2.85,
-            "surprisePct": 26,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 3.86,
-            "estimate": 2.93,
-            "surprisePct": 31.8,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 2.88,
-            "estimate": 2.44,
-            "surprisePct": 17.9,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 2.96,
-            "estimate": 2.84,
-            "surprisePct": 4.2,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 2,
-          "ptLowered": 0,
-          "total": 2,
-          "recent": [
-            {
-              "date": "2026-11-07",
-              "firm": "JP Morgan",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 170,
-              "ptPrior": 160
-            },
-            {
-              "date": "2026-11-06",
-              "firm": "Canaccord Genuity",
-              "action": "main",
-              "from": "Hold",
-              "to": "Hold",
-              "ptAction": "Raises",
-              "pt": 175,
-              "ptPrior": 140
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2027-02-04",
-          "upcoming": true,
-          "estimated": true
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 182.12,
-        "stop": 174.22,
-        "adrPct": 5.05,
-        "distToPivotPct": -14.17,
-        "distToPivotAdr": -2.8,
-        "riskPerSharePct": 4.34,
-        "extensionAdr": -0.99,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 21,
-          "baseWeeks": 4.2,
-          "depthPct": 17,
-          "priorMovePct": 58.7,
-          "higherLows": 0,
-          "contraction": 1.23,
-          "closeRange10Adr": 2.9,
-          "surf10": -0.99,
-          "surf20": -1.61,
-          "slope20": 0.27,
-          "baseLow": 151.09,
-          "lastSwingLow": 151.09
-        },
-        "reasons": [
-          "선행 상승 +59%",
-          "베이스 4.2주",
-          "깊이 17%",
-          "✗ 저점 상승 0회",
-          "✗ 진폭 1.23배 · 10일 종가폭 2.9 ADR",
-          "✗ 10일선 -1 ADR · 20일선 -1.6 ADR",
-          "20일선 기울기 +0.27%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 59% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 4.2주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.23배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 17% · ADR 5.05%의 3.4배 · 선행 상승의 절반 29%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 156.32 · 20일선 169.07 · 50일선 163.9 — 50일선 아래(원문: 사지 않음)"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.88배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 182.12까지 -14.17% (-2.8 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 4.34% · ADR 5.05%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -1 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 65.3% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 65%/299%/40% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 86%"
-          },
-          {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 1.88배(20일 평균 대비) · 오늘 거래대금 5.63배(상승일) · 상장주식 29M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 64.7% · 3M 18.35% · 6M 3.11% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "SENEB",
-      "sector": "Consumer Defensive",
-      "industry": "Packaged Foods",
-      "price": 35.90999984741211,
-      "marketCap": "0.23B",
-      "volx": 5.48,
-      "volSurgeWk": 8,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 86.1,
-      "adr": 0.48,
-      "targetStatus": false,
-      "saleCy": 11.74,
-      "saleNy": 2.3,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": null,
-      "catalyst": {
-        "status": "done",
-        "ticker": "SENEB",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Seneca Foods는 통조림·냉동 채소와 과일을 만들어 식료품 유통업체와 소비자 브랜드(Green Giant 등)로 파는 포장식품 회사다. SENEB는 이 회사의 B클래스 주식이다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": []
-    },
-    {
-      "ticker": "MGRT",
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "price": 127.19999694824219,
-      "marketCap": "1.79B",
-      "volx": 4.01,
-      "volSurgeWk": 3.53,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 7.05,
-      "high52": 74.82,
-      "adr": 4.78,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          null,
-          null,
-          null
-        ],
-        "ni": [
-          null,
-          null,
-          null
-        ],
-        "opm": null,
-        "updated": "2026-09-21 06:00:32"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "MGRT",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Mega Fortune Company는 자회사를 통해 여러 산업에 사물인터넷(IoT) 솔루션과 서비스를 제공하는 소형 IT 서비스 회사다. 2025년 7월 나스닥에 상장했다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": []
-    },
-    {
-      "ticker": "WF",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 71.5,
-      "marketCap": "17.47B",
-      "volx": 3.71,
-      "volSurgeWk": 3.87,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 44.14,
-      "high52": 84.41,
-      "adr": 2.38,
-      "targetStatus": false,
-      "saleCy": 6.08,
-      "saleNy": 5.18,
-      "epsCy": 6.32,
-      "epsNy": 18.28,
-      "cyTrend": -2.07,
-      "nyTrend": -1.79,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          37.39,
-          8.7,
-          17.82
-        ],
-        "ni": [
-          14.16,
-          4.7,
-          89.47
-        ],
-        "opm": [
-          17.56,
-          12.77,
-          7.43
-        ],
-        "updated": "2026-09-08 08:03:59"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "WF",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "WF는 한국 우리금융그룹의 미국 상장 예탁증서(ADR)로, 우리은행 등 자회사의 은행·금융 사업으로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Are You Looking for a Top Momentum Pick? Why Woori Bank (WF) is a Great Choice",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160003538.html",
-          "date": "2026-11-16",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "What Woori Financial Group Bulls Got Right",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/woori-financial-group-bulls-got-151038877.html",
-          "date": "2026-11-12",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "우리 파이낸셜 그룹(ADR)",
-      "nameEn": "WOORI FINANCIAL GROUP INC SPON ADS EACH REP 3 ORD SHS",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "우리 파이낸셜 그룹(ADR)",
-        "nameEn": "WOORI FINANCIAL GROUP INC SPON ADS EACH REP 3 ORD SHS",
-        "financialsError": "매출 태그 없음",
-        "news": {
-          "items": [
-            {
-              "title": "Are You Looking for a Top Momentum Pick? Why Woori Bank (WF) is a Great Choice",
-              "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-woori-bank-wf-great-choice",
-              "date": "2026-11-16",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Woori Financial Group Inc. Amends 2025 Capital Adequacy Ratios for ABL Life Insurance",
-              "url": "https://www.nasdaq.com/articles/woori-financial-group-inc-amends-2025-capital-adequacy-ratios-abl-life-insurance",
-              "date": "2026-11-16",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Woori Financial Group Inc. Amends 2025 Capital Adequacy Figures for ABL Life Insurance",
-              "url": "https://www.nasdaq.com/articles/woori-financial-group-inc-amends-2025-capital-adequacy-figures-abl-life-insurance",
-              "date": "2026-11-16",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "WF vs. HDB: Which Stock Should Value Investors Buy Now?",
-              "url": "https://www.nasdaq.com/articles/wf-vs-hdb-which-stock-should-value-investors-buy-now-0",
-              "date": "2026-11-13",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "WF or HDB: Which Is the Better Value Stock Right Now?",
-              "url": "https://www.nasdaq.com/articles/wf-or-hdb-which-better-value-stock-right-now",
-              "date": "2026-10-28",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Here's Why Woori Bank (WF) Could be Great Choice for a Bottom Fisher",
-              "url": "https://www.nasdaq.com/articles/heres-why-woori-bank-wf-could-be-great-choice-bottom-fisher",
-              "date": "2026-10-28",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Woori Bank Q3 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/woori-bank-q3-earnings-call-highlights",
-              "date": "2026-10-23",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Woori Financial Group Inc. Board Resolves to Cancel 57,369 Treasury Shares",
-              "url": "https://www.nasdaq.com/articles/woori-financial-group-inc-board-resolves-cancel-57369-treasury-shares",
-              "date": "2026-10-23",
-              "publisher": "Fintel"
-            }
-          ]
-        },
-        "filings": [],
-        "krReports": {
-          "total": 4,
-          "reports": [
-            {
-              "date": "2026-07-16",
-              "broker": "키움증권",
-              "analyst": "김은갑",
-              "title": "[웰스파고 (NYS:WFC)] 화려하진 않았지만 컨센서스 상회",
-              "summary": "- EPS 컨센서스 상회- 이자이익과 비이자이익 전반적으로 증가- 자본비율 유지, 주당배당금 상향 예정",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkezkemlkzizkgcgxeeel.pdf",
-              "pages": "5"
-            },
-            {
-              "date": "2026-07-15",
-              "broker": "한화증권",
-              "analyst": "박제인",
-              "title": "[웰스파고 (NYS:WFC)] 자산 한도 해제 후 대차대조표 성장 본격화",
-              "summary": "- 웰스파고의 FY 2Q26 영업수익은 226억 달러(YoY +8.6%), 조정 EPS 는 2 달러(YoY +25%)를 기록해 컨센서스를 각각 3.8%, 17% 상회했 다.- 웰스파고는 2026 회계연도 연간 순이자이익 전망치를 500억 달러 (YoY +5.2%, 컨센서스 부합) 내외로 유지했다.- 유통 시장 제외 순이자 이익은 약 480억 달러(YoY +8.7%)로 예상했다. FY 3Q26에는 2분기 와 마찬가지로 순이자마진의 완만한 하락이 지속될 것으로 보이나, 4분 기에는 수익성이 안정화될 것으로 전망했다",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkcmmckklielcgcgxeeel.pdf",
-              "pages": "6"
-            },
-            {
-              "date": "2026-04-16",
-              "broker": "키움증권",
-              "analyst": "김은갑",
-              "title": "[웰스파고 (NYS:WFC)] 이자이익 부진, 영업수익 컨센서스 하회",
-              "summary": "- EPS는 컨센서스 상회했지만 순영업수익은 하회- NIM 하락과 이자이익 부진- 자산상한 규제 해소 이후 자산증가세",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgmikqilcggggcgxeeel.pdf",
-              "pages": "5"
-            },
-            {
-              "date": "2026-01-16",
-              "broker": "키움증권",
-              "analyst": "김은갑",
-              "title": "[웰스파고 (NYS:WFC)] 자산증가와 양호한 이자이익 증가세",
-              "summary": "- 25 년 4 분기 순영업수익은 21.3 십억달러로 컨센서스를 1.6% 하회했고, EPS 는 1.76 달러로 컨센서스를 6.0% 상회했다- 이자이익은 YoY 4%, QoQ 3% 증가했다. NIM 이 2.60%로 전분기 2.61%와 거의 같은 수준으로 유지되는 상황에서 자산증가, 고정금리 자산의 리프라이싱 효과가 발휘되었다- 4 분기 5 십억달러의 자기주식 매입이 있었고, 2024 년말 대비 보통주 주식 수는 6% 감소했다. 2025 년 Tangible capital ROE 는 14.6%로 기존 목표 15.0%에 근접했다",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlzexxklmkimlgcgxeeel.pdf",
-              "pages": "5"
-            }
-          ]
-        }
-      },
-      "kis": {
-        "ticker": "WF",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 8.27,
-        "pbr": 0.76,
-        "eps": 8.64,
-        "bps": 94.48,
-        "shares": 244568241,
-        "marketCapM": 17487,
-        "high52": 84.71,
-        "high52Date": "2026-02-23",
-        "low52": 48.8295,
-        "low52Date": "2025-11-18",
-        "last": 71.5,
-        "prevClose": 72.1,
-        "nameKo": "우리 파이낸셜 그룹(ADR)",
-        "nameEn": "WOORI FINANCIAL GROUP INC SPON ADS EACH REP 3 ORD SHS",
-        "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 244568241
-      },
-      "cnbc": [],
-      "estimates": {
-        "ticker": "WF",
-        "url": "https://finance.yahoo.com/quote/WF/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 2343.57,
-            "epsLow": 2343.57,
-            "epsHigh": 2343.57,
-            "epsYearAgo": 1275,
-            "epsAnalysts": 1,
-            "epsGrowth": 83.8,
-            "epsCur": "KRW",
-            "rev": 2935856070000,
-            "revAnalysts": 9,
-            "revYearAgo": 2783000000000,
-            "revGrowth": 5.5,
-            "revCur": "KRW"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 2990723950000,
-            "revAnalysts": 2,
-            "revYearAgo": 2758000000000,
-            "revGrowth": 8.4,
-            "revCur": "KRW"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 12997.14,
-            "epsLow": 12997.14,
-            "epsHigh": 12997.14,
-            "epsYearAgo": 12225,
-            "epsAnalysts": 1,
-            "epsGrowth": 6.3,
-            "epsCur": "KRW",
-            "rev": 11623703620000,
-            "revAnalysts": 16,
-            "revYearAgo": 10957000000000,
-            "revGrowth": 6.1,
-            "revCur": "KRW"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 15373.27,
-            "epsLow": 15373.27,
-            "epsHigh": 15373.27,
-            "epsYearAgo": 12997.14,
-            "epsAnalysts": 1,
-            "epsGrowth": 18.3,
-            "epsCur": "KRW",
-            "rev": 12225430810000,
-            "revAnalysts": 17,
-            "revYearAgo": 11623703620000,
-            "revGrowth": 5.2,
-            "revCur": "KRW"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "KRW",
-            "now": 2343.57,
-            "d7": -3.4,
-            "d30": -5.9,
-            "d90": -5,
-            "ago90": 2466.65,
-            "up7": 0,
-            "up30": 0,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "KRW",
-            "now": 12997.14,
-            "d7": 0.9,
-            "d30": -2.1,
-            "d90": -1.1,
-            "ago90": 13145.15,
-            "up7": 1,
-            "up30": 0,
-            "down7": 0,
-            "down30": 1
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "KRW",
-            "now": 15373.27,
-            "d7": 0,
-            "d30": -1.8,
-            "d90": -0.8,
-            "ago90": 15504.16,
-            "up7": 1,
-            "up30": 0,
-            "down7": 0,
-            "down30": 1
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-06-30",
-            "actual": 3291,
-            "estimate": 3658.39,
-            "surprisePct": -10,
-            "cur": "KRW"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1275,
-            "estimate": 1536.53,
-            "surprisePct": -17,
-            "cur": "KRW"
-          }
-        ],
-        "beats": 0,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 0,
-          "ptLowered": 0,
-          "total": 0,
-          "recent": []
-        },
-        "nextEarnings": null
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "A",
-        "asOf": "2026-11-17",
-        "pivot": 80.36,
-        "stop": 78.66,
-        "adrPct": 2.38,
-        "distToPivotPct": -11.03,
-        "distToPivotAdr": -4.64,
-        "riskPerSharePct": 2.11,
-        "extensionAdr": 0.82,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 40,
-          "baseWeeks": 8,
-          "depthPct": 19.9,
-          "priorMovePct": 44.9,
-          "higherLows": 1,
-          "contraction": 0.97,
-          "closeRange10Adr": 2.1,
-          "surf10": 0.82,
-          "surf20": 1.69,
-          "slope20": 0.47,
-          "baseLow": 64.33,
-          "lastSwingLow": 65.48
-        },
-        "reasons": [
-          "선행 상승 +45%",
-          "베이스 8주",
-          "깊이 19.9%",
-          "저점 상승 1회",
-          "진폭 0.97배 · 10일 종가폭 2.1 ADR",
-          "10일선 +0.8 ADR · 20일선 +1.7 ADR",
-          "20일선 기울기 +0.47%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 45% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 8주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.97배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 19.9% · ADR 2.38%의 8.4배 · 선행 상승의 절반 22%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 71.5 · 20일선 68.63 · 50일선 72.67 — 50일선 아래(원문: 사지 않음)"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.53배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 80.36까지 -11.03% (-4.64 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 2.11% · ADR 2.38%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 14.2% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 14%/5%/89% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 84%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1.53배(20일 평균 대비) · 오늘 거래대금 3.71배 · 상장주식 245M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "미충족",
-            "evidence": "상대강도 상위 1M 43.87% · 3M 30.07% · 6M 27.28% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "BKH",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Gas",
-      "price": 80.72000122070312,
-      "marketCap": "6.54B",
-      "volx": 3.64,
-      "volSurgeWk": 3.79,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0.98,
-      "high52": 91.34,
-      "adr": 2.47,
-      "targetStatus": false,
-      "saleCy": 8.49,
-      "saleNy": 72.67,
-      "epsCy": 6.18,
-      "epsNy": 7.27,
-      "cyTrend": -0.04,
-      "nyTrend": 0.65,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          3.14,
-          -3.04,
-          6.45
-        ],
-        "ni": [
-          38.91,
-          -2.46,
-          7.04
-        ],
-        "opm": [
-          21.42,
-          25.86,
-          26.95
-        ],
-        "updated": "2026-09-07 07:40:44"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "BKH",
-        "category": 3,
-        "company": "Black Hills는 미국 중서부 8개 주에서 전기·가스를 공급하는 규제 대상 유틸리티로, 요금 승인을 받은 설비 투자로 돈을 법니다. 11월 16일 NorthWestern과 합병을 마치고 Bright Horizon Energy(NYSE: HZN)가 됐습니다.",
-        "volumeExplanation": "11월 16일 Black Hills와 NorthWestern의 합병이 완료되어 BKH 주식이 HZN 주식으로 바뀌어 거래되기 시작했습니다. 합병 종목의 티커 전환과 보유 비중 조정 수요가 거래량을 키웠을 가능성이 있으나, 거래량과의 직접 연결을 밝힌 기사는 없습니다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "11월 16일 합병이 끝나 Black Hills 주식은 Bright Horizon Energy(HZN) 주식으로 거래된다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Black Hills Corp. and NorthWestern Energy Complete Merger, Forming Bright Horizon Energy Corporation",
-                "publisher": "GlobeNewswire",
-                "url": "https://finance.yahoo.com/energy/articles/black-hills-corp-northwestern-energy-113000453.html",
-                "date": "2026-11-16",
-                "quote": "Outstanding shares of Black Hills common stock, which previously traded on the NYSE under the ticker symbol 'BKH,' will now trade as shares of Bright Horizon Energy (NYSE: HZN) starting today.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "11월 16일 합병이 끝나 Black Hills 주식은 Bright Horizon Energy(HZN) 주식으로 거래된다. 합병회사는 8개 주 220만 고객에게 전기·가스를 공급한다."
-          },
-          {
-            "id": "c2",
-            "statement": "NorthWestern 주주는 보유 1주당 신주 0.98주를 받았다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Black Hills Corp. and NorthWestern Energy Complete Merger, Forming Bright Horizon Energy Corporation",
-                "publisher": "GlobeNewswire",
-                "url": "https://finance.yahoo.com/energy/articles/black-hills-corp-northwestern-energy-113000453.html",
-                "date": "2026-11-16",
-                "quote": "each outstanding share of NorthWestern common stock, which previously traded on the Nasdaq under the ticker symbol 'NWE,' was converted into 0.98 shares of Bright Horizon Energy",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "NorthWestern 주주는 보유 1주당 신주 0.98주를 받았다. 합병 종결과 함께 임원 변동 등을 담은 8-K가 11월 16일 제출됐다."
-          }
-        ],
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "대형 파트너십·공급계약",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Black Hills Corp's Dividend Analysis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/black-hills-corps-dividend-analysis-100310922.html",
-          "date": "2026-11-17",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Black Hills Corp. and NorthWestern Energy Complete Merger, Forming Bright Horizon Energy Corporation",
-          "url": "https://finance.yahoo.com/energy/articles/black-hills-corp-northwestern-energy-113000453.html",
-          "date": "2026-11-16",
-          "publisher": "GlobeNewswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "What Black Hills (BKH) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/energy/articles/black-hills-bkh-said-q3-221435382.html",
-          "date": "2026-11-06",
-          "publisher": "MarketBeat",
-          "via": "Yahoo"
-        },
-        {
-          "title": "NorthWestern Energy Group Inc (NWE) (Q3 2026) Earnings Call Highlights: Merger Nears Finish ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/northwestern-energy-group-inc-nwe-111312707.html",
-          "date": "2026-11-06",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Black Hills Corp (BKH) (Q3 2026) Earnings Call Highlights: Google Data Center Deal Anchors $2. ...",
-          "url": "https://finance.yahoo.com/energy/articles/black-hills-corp-bkh-q3-232515906.html",
-          "date": "2026-11-05",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "블랙 힐스",
-      "nameEn": "BLACK HILLS CORP",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "블랙 힐스",
-        "nameEn": "BLACK HILLS CORP",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130464&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 440600000,
-              "profit": 97000000,
-              "netIncome": 38200000,
-              "margin": 22,
-              "yoy": {
-                "revenue": 1.1,
-                "profit": 17.6,
-                "netIncome": 38.9,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 762000000,
-              "profit": 201900000,
-              "netIncome": 131000000,
-              "margin": 26.5,
-              "yoy": {
-                "revenue": -4.8,
-                "profit": -1.5,
-                "netIncome": -2.5,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 622600000,
-              "profit": 171400000,
-              "netIncome": 105000000,
-              "margin": 27.5,
-              "yoy": {
-                "revenue": 6.4,
-                "profit": 5,
-                "netIncome": 7,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 427400000,
-              "profit": 78700000,
-              "netIncome": 24900000,
-              "margin": 18.4,
-              "yoy": {
-                "revenue": 7.2,
-                "profit": 3.8,
-                "netIncome": 2,
-                "priorEnd": "2024-09-30"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Wheat Posts Tuesday Rally Following Black Sea Strikes",
-              "url": "https://www.nasdaq.com/articles/wheat-posts-tuesday-rally-following-black-sea-strikes",
-              "date": "2026-11-18",
-              "publisher": "Barchart"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-16",
-            "itemsKo": [
-              "2.01",
-              "3.03",
-              "임원 변동",
-              "5.03",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1130464/000110465926127601/tm2629827d1_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-04",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526447656/bkh-20261104.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-23",
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526429192/bkh-20261022.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-06",
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526415597/bkh-20261006.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-17",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526354167/bkh-20260817.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-05",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526335259/bkh-20260805.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "BKH",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 21.85,
-        "pbr": 1.68,
-        "eps": 3.97,
-        "bps": 51.71,
-        "shares": 76524800,
-        "marketCapM": 6635,
-        "high52": 88.365,
-        "high52Date": "2026-11-12",
-        "low52": 65.3581,
-        "low52Date": "2025-12-19",
-        "last": 86.7,
-        "prevClose": 86.7,
-        "nameKo": "블랙 힐스",
-        "nameEn": "BLACK HILLS CORP",
-        "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 76524800
-      },
-      "cnbc": null,
-      "estimates": {
-        "ticker": "BKH",
-        "url": "https://finance.yahoo.com/quote/BKH/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 1.56,
-            "epsLow": 1.45,
-            "epsHigh": 1.68,
-            "epsYearAgo": 1.41,
-            "epsAnalysts": 3,
-            "epsGrowth": 10.9,
-            "epsCur": "USD",
-            "rev": 787954540,
-            "revAnalysts": 2,
-            "revYearAgo": 635500000,
-            "revGrowth": 24,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 1.86,
-            "epsLow": 1.83,
-            "epsHigh": 1.89,
-            "epsYearAgo": 1.73,
-            "epsAnalysts": 2,
-            "epsGrowth": 7.5,
-            "epsCur": "USD",
-            "rev": 1295000000,
-            "revAnalysts": 1,
-            "revYearAgo": 780700000,
-            "revGrowth": 65.9,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 4.35,
-            "epsLow": 4.33,
-            "epsHigh": 4.41,
-            "epsYearAgo": 4.1,
-            "epsAnalysts": 6,
-            "epsGrowth": 6.2,
-            "epsCur": "USD",
-            "rev": 2506015800,
-            "revAnalysts": 2,
-            "revYearAgo": 2310000000,
-            "revGrowth": 8.5,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 4.67,
-            "epsLow": 4.59,
-            "epsHigh": 4.77,
-            "epsYearAgo": 4.35,
-            "epsAnalysts": 3,
-            "epsGrowth": 7.3,
-            "epsCur": "USD",
-            "rev": 4327233330,
-            "revAnalysts": 3,
-            "revYearAgo": 2506015800,
-            "revGrowth": 72.7,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1.56,
-            "d7": 0,
-            "d30": -2.9,
-            "d90": -2.1,
-            "ago90": 1.6,
-            "up7": 0,
-            "up30": 1,
-            "down7": 1,
-            "down30": 2
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 1.86,
-            "d7": 6.3,
-            "d30": 15.5,
-            "d90": null,
-            "ago90": 0,
-            "up7": 0,
-            "up30": 0,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 4.35,
-            "d7": 0,
-            "d30": 0,
-            "d90": 0.4,
-            "ago90": 4.34,
-            "up7": 0,
-            "up30": 1,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 4.67,
-            "d7": 0,
-            "d30": 0.6,
-            "d90": 1.4,
-            "ago90": 4.61,
-            "up7": 0,
-            "up30": 1,
-            "down7": 0,
-            "down30": 1
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 0.57,
-            "estimate": 0.47,
-            "surprisePct": 21.9,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 0.54,
-            "estimate": 0.41,
-            "surprisePct": 33.3,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 1.79,
-            "estimate": 1.84,
-            "surprisePct": -2.7,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1.41,
-            "estimate": 1.41,
-            "surprisePct": 0,
-            "cur": "USD"
-          }
-        ],
-        "beats": 2,
-        "ratings": {
-          "upgrades": 1,
-          "downgrades": 1,
-          "initiations": 2,
-          "ptRaised": 4,
-          "ptLowered": 0,
-          "total": 7,
-          "recent": [
-            {
-              "date": "2026-11-06",
-              "firm": "Scotiabank",
-              "action": "main",
-              "from": "Sector Outperform",
-              "to": "Sector Outperform",
-              "ptAction": "Raises",
-              "pt": 95,
-              "ptPrior": 84
-            },
-            {
-              "date": "2026-11-06",
-              "firm": "Freedom Broker",
-              "action": "down",
-              "from": "Buy",
-              "to": "Hold",
-              "ptAction": "Maintains",
-              "pt": 78,
-              "ptPrior": 78
-            },
-            {
-              "date": "2026-10-15",
-              "firm": "Jefferies",
-              "action": "init",
-              "from": null,
-              "to": "Buy",
-              "ptAction": "Announces",
-              "pt": 87,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-10-08",
-              "firm": "BMO Capital",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 86,
-              "ptPrior": 83
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "Freedom Broker",
-              "action": "up",
-              "from": "Hold",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 78,
-              "ptPrior": 69
-            },
-            {
-              "date": "2026-09-30",
-              "firm": "Freedom Broker",
-              "action": "init",
-              "from": null,
-              "to": "Hold",
-              "ptAction": "Announces",
-              "pt": 69,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-09-21",
-              "firm": "B of A Securities",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 97,
-              "ptPrior": 87
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2027-02-03",
-          "upcoming": true,
-          "estimated": true
-        }
-      },
-      "setup": null,
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "3개월 최대상승 31% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "봉 부족 — 셋업 계산 불가"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "봉 부족 — 셋업 계산 불가"
-          },
-          {
-            "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "봉 부족 — 셋업 계산 불가"
-          },
-          {
-            "item": "이평선 위",
-            "status": "확인 불가",
-            "evidence": "봉 부족"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "확인 불가",
-            "evidence": "봉 부족"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "봉 부족 — 셋업 계산 불가"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "봉 부족 — 셋업 계산 불가"
-          },
-          {
-            "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "봉 부족 — 셋업 계산 불가"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -2.2 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 38.9% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 39%/-2%/7% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 91%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 —(20일 평균 대비) · 오늘 거래대금 3.64배 · 상장주식 77M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 30.97% · 3M 10.5% · 6M 34.85% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "GRVY",
-      "sector": "Communication Services",
-      "industry": "Electronic Gaming & Multimedia",
-      "price": 74.11000061035156,
-      "marketCap": "0.51B",
-      "volx": 2.91,
-      "volSurgeWk": 2.67,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 68.59,
-      "high52": 97.51,
-      "adr": 3.02,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -17.14,
-          17.76,
-          -6.4
-        ],
-        "ni": [
-          60.61,
-          33.38,
-          -41.4
-        ],
-        "opm": [
-          17.04,
-          19.04,
-          10.72
-        ],
-        "updated": "2026-09-08 10:08:13"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "GRVY",
-        "category": 6,
-        "claims": [
-          {
-            "id": "none",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "그라비티는 한국 게임사 라그나로크 시리즈를 온라인·모바일 게임으로 서비스해 매출을 올리는 회사다. 미국 나스닥에 ADR로 상장돼 있다.",
-        "volumeExplanation": "신작 출시 소식이 있었으나 성장률 구체 수치는 출처에서 확인되지 않습니다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "reject",
-          "removed": [
-            "c1",
-            "c2"
-          ],
-          "reason": "1년 전 대비 41.9%, 영업이익 35.0% 증가 주장이 quote(분기 대비 21.8%)에 없음. 순이익 12.1% 감소도 출처 없음",
-          "narrativeFixed": true
-        },
-        "originalCategory": 1,
-        "corrected": true,
-        "volumeExplanationOriginal": "11월 13일 발표한 3분기 실적에서 매출이 1년 전보다 41.9%, 영업이익이 35.0% 늘어 거래량이 평소의 약 2.9배로 늘었다. 신작 출시가 매출 증가를 이끈 점이 확인되면 이 이야기가 맞고, 다음 분기 매출이 꺾이면 일회성 호재였다는 뜻이다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Gravity Reports Third Quarter of 2026 Result and Business Updates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/gravity-reports-third-quarter-2026-110000887.html",
-          "date": "2026-11-13",
-          "publisher": "GlobeNewswire",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "그라비티(ADR)",
-      "nameEn": "GRAVITY CO LTD SPON ADS EA REP 1 ORD",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "그라비티(ADR)",
-        "nameEn": "GRAVITY CO LTD SPON ADS EA REP 1 ORD",
-        "financialsError": "매출 태그 없음",
-        "news": {
-          "items": [
-            {
-              "title": "Gravity Q3 Earnings Climb 7.7%",
-              "url": "https://www.nasdaq.com/articles/gravity-q3-earnings-climb-77",
-              "date": "2026-11-13",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Gravity Q2 Profit Rises",
-              "url": "https://www.nasdaq.com/articles/gravity-q2-profit-rises",
-              "date": "2025-08-08",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "GRAVITY Co., Ltd. Launches Dragonica Origin MMORPG in Southeast Asia",
-              "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-dragonica-origin-mmorpg-southeast-asia",
-              "date": "2025-07-16",
-              "publisher": "Quiver Quantitative"
-            },
-            {
-              "title": "GRAVITY Co., Ltd. Launches Ragnarok: Twilight and Ragnarok Zero in Taiwan, Hong Kong, and Macau",
-              "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-twilight-and-ragnarok-zero-taiwan-hong-kong-and-macau",
-              "date": "2025-07-09",
-              "publisher": "Quiver Quantitative"
-            },
-            {
-              "title": "GRAVITY Co., Ltd. Launches Ragnarok: Twilight MMORPG Mobile Game in Taiwan, Hong Kong, and Macau",
-              "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-twilight-mmorpg-mobile-game-taiwan-hong-kong-and-macau",
-              "date": "2025-07-03",
-              "publisher": "Quiver Quantitative"
-            },
-            {
-              "title": "GRAVITY Co., Ltd. Launches Ragnarok Zero MMORPG in Taiwan, Hong Kong, and Macau",
-              "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-zero-mmorpg-taiwan-hong-kong-and-macau",
-              "date": "2025-07-03",
-              "publisher": "Quiver Quantitative"
-            },
-            {
-              "title": "GRAVITY Co., Ltd. Announces ISBN Approval for RPG Game &quot;Ragnarok: Promised Adventure&quot; in China",
-              "url": "https://www.nasdaq.com/articles/gravity-co-ltd-announces-isbn-approval-rpg-game-ragnarok-promised-adventure-china",
-              "date": "2025-05-27",
-              "publisher": "Quiver Quantitative"
-            },
-            {
-              "title": "GRAVITY Co., Ltd. Launches Ragnarok Idle Adventure Plus in Taiwan, Hong Kong, and Macau",
-              "url": "https://www.nasdaq.com/articles/gravity-co-ltd-launches-ragnarok-idle-adventure-plus-taiwan-hong-kong-and-macau",
-              "date": "2025-05-21",
-              "publisher": "Quiver Quantitative"
-            }
-          ]
-        },
-        "filings": [],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "GRVY",
-        "fetchedAt": "2026-11-17",
-        "source": "한국투자증권 Open API",
-        "per": 8.55,
-        "pbr": 1.12,
-        "eps": 8.51,
-        "bps": 65,
-        "shares": 6948900,
-        "marketCapM": 505,
-        "high52": 76,
-        "high52Date": "2026-08-31",
-        "low52": 54.54,
-        "low52Date": "2025-12-17",
-        "last": 72.74,
-        "prevClose": 70.8,
-        "nameKo": "그라비티(ADR)",
-        "nameEn": "GRAVITY CO LTD SPON ADS EA REP 1 ORD",
-        "listedOn": null,
-        "exchange": "나스닥",
-        "listedShares": 6948900
-      },
-      "cnbc": [],
-      "estimates": {
-        "ticker": "GRVY",
-        "url": "https://finance.yahoo.com/quote/GRVY/analysis/",
-        "fetchedAt": "2026-11-17",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          },
-          {
-            "period": "+1q",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          },
-          {
-            "period": "0y",
-            "endDate": "2018-12-31",
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          },
-          {
-            "period": "+1y",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          },
-          {
-            "period": "+1q",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          },
-          {
-            "period": "0y",
-            "endDate": "2018-12-31",
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          },
-          {
-            "period": "+1y",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          }
-        ],
-        "surprises": [],
-        "beats": 0,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 0,
-          "ptLowered": 0,
-          "total": 0,
-          "recent": []
-        },
-        "nextEarnings": {
-          "date": "2026-11-13",
-          "upcoming": false,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "none",
-        "grade": null,
-        "asOf": "2026-11-17",
-        "adrPct": 3.02,
-        "extensionAdr": 2.15,
-        "breakDate": null,
-        "metrics": null,
-        "reasons": [
-          "쉬는 구간 없음"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "3개월 최대상승 16% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 74.11 · 20일선 68.25 · 50일선 68.32"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.34배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "미충족",
-            "evidence": "10일선 위 2.2 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 60.6% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 61%/33%/-41% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 98%"
-          },
-          {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 1.34배(20일 평균 대비) · 오늘 거래대금 2.91배(상승일) · 상장주식 7M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 10.87% · 3M 31.15% · 6M 26.65% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "ED",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "price": 119.2300033569336,
-      "marketCap": "45.23B",
-      "volx": 2.76,
-      "volSurgeWk": 2.78,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 2.75,
-      "high52": 97.13,
-      "adr": 1.81,
-      "targetStatus": false,
-      "saleCy": 5.09,
-      "saleNy": 5.25,
-      "epsCy": 7.26,
-      "epsNy": 6.39,
-      "cyTrend": 0.11,
-      "nyTrend": 0.08,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          13.18,
-          6.19,
-          9.03
-        ],
-        "ni": [
-          25.2,
-          16.81,
-          -3.87
-        ],
-        "opm": [
-          13.57,
-          23.1,
-          12.19
-        ],
-        "updated": "2026-09-08 07:54:16"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "ED",
-        "category": 6,
-        "company": "뉴욕시 일대에 전기·가스·열을 공급하는 규제 대상 전력회사로, 정해진 요금 체계에서 안정적으로 수익을 냅니다.",
-        "volumeExplanation": "11월 16일 선도매각 발표가 있었으나 거래량 급증과의 직접 연결은 출처에서 확인되지 않습니다.",
-        "claims": [
-          {
-            "id": "none",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "reject",
-          "removed": [
-            "c1"
-          ],
-          "reason": "600만 주 공모 규모와 2027년 말 등 구체 숫자가 quote에 없음. 선도매각과 자회사 투자 목적만 확인됨",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "11월 16일 Con Edison이 600만 주 공모(선도매각 포함)를 발표했고, 같은 날 BofA·HSBC가 목표주가를 올렸습니다. 거래량 급증은 이 발표 직후로 보이나, 거래량과의 직접 연결을 확인한 자료는 없습니다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Consolidated Edison or Clearway Energy: Only One Gets My Dividend Dollars for the Next 10 Years",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/consolidated-edison-clearway-energy-only-144129710.html",
-          "date": "2026-11-17",
-          "publisher": "TIKR",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Consolidated Edison Launches Public Offering of 6 Million Common Shares",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/consolidated-edison-launches-public-offering-215623244.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Con Edison Announces Common Share Offering with a Forward Component",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/con-edison-announces-common-share-211800915.html",
-          "date": "2026-11-16",
-          "publisher": "PR Newswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Con Ed’s 52-Year Dividend Streak Faces 3 Major Tests",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/con-ed-52-dividend-streak-184723872.html",
-          "date": "2026-11-16",
-          "publisher": "24/7 Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "BofA Securities Adjusts Price Target on Consolidated Edison to $106 From $96",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-132135684.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "HSBC Adjusts Price Target on Consolidated Edison to $122 From $104",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-adjusts-price-target-consolidated-114638695.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "3 High Quality Dividend Stocks For Investors Watching Interest Rates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-high-quality-dividend-stocks-200819108.html",
-          "date": "2026-11-14",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "A $4.6 Billion Fund Dumps These 2 Stocks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/4-6-billion-fund-dumps-110632782.html",
-          "date": "2026-11-14",
-          "publisher": "TIKR",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "컨솔리데이티드 에디슨",
-      "nameEn": "CONSOLIDATED EDISON INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "컨솔리데이티드 에디슨",
-        "nameEn": "CONSOLIDATED EDISON INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047862&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-09-30",
-              "derived": false,
-              "revenue": 4864000000,
-              "profit": 1170000000,
-              "netIncome": 766000000,
-              "margin": 24.1,
-              "yoy": {
-                "revenue": 6.5,
-                "profit": 20.9,
-                "netIncome": 11.3,
-                "priorEnd": "2025-09-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 5231000000,
-              "profit": 1177000000,
-              "netIncome": 924000000,
-              "margin": 22.5,
-              "yoy": {
-                "revenue": 7,
-                "profit": 4.6,
-                "netIncome": 16.8,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 3964000000,
-              "profit": 487000000,
-              "netIncome": -1723977000,
-              "margin": 12.3,
-              "yoy": {
-                "revenue": 7.4,
-                "profit": 2.1,
-                "netIncome": -14.3,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 4568000000,
-              "profit": 968000000,
-              "netIncome": 688000000,
-              "margin": 21.2,
-              "yoy": {
-                "revenue": 8.1,
-                "profit": 12.3,
-                "netIncome": 17,
-                "priorEnd": "2024-09-30"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Consolidated Edison, Inc. Reports CECONY Underwriting Agreement for $700 Million of 6.40% Debentures",
-              "url": "https://www.nasdaq.com/articles/consolidated-edison-inc-reports-cecony-underwriting-agreement-700-million-640-debentures",
-              "date": "2026-11-17",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Are Utilities Stocks Lagging  Consolidated Edison (ED) This Year?",
-              "url": "https://www.nasdaq.com/articles/are-utilities-stocks-lagging-consolidated-edison-ed-year-0",
-              "date": "2026-11-11",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Consolidated Edison (ED) Shares Cross 3% Yield Mark",
-              "url": "https://www.nasdaq.com/articles/consolidated-edison-ed-shares-cross-3-yield-mark",
-              "date": "2026-11-09",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "Consolidated Edison (ED) Misses Q3 Earnings Estimates",
-              "url": "https://www.nasdaq.com/articles/consolidated-edison-ed-misses-q3-earnings-estimates",
-              "date": "2026-11-06",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Compared to Estimates, Con Ed (ED) Q3 Earnings: A Look at Key Metrics",
-              "url": "https://www.nasdaq.com/articles/compared-estimates-con-ed-ed-q3-earnings-look-key-metrics",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Consolidated Edison Inc. Announces Rise In Q3 Bottom Line",
-              "url": "https://www.nasdaq.com/articles/consolidated-edison-inc-announces-rise-q3-bottom-line",
-              "date": "2026-11-05",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Unlocking Q3 Potential of Con Ed (ED): Exploring Wall Street Estimates for Key Metrics",
-              "url": "https://www.nasdaq.com/articles/unlocking-q3-potential-con-ed-ed-exploring-wall-street-estimates-key-metrics",
-              "date": "2026-11-03",
-              "publisher": "Zacks"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-16",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526462726/d196404d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-05",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000157/ed-20261105.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-04",
-            "itemsKo": [
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526383674/d144518d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-06",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000143/ed-20260806.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-02",
-            "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526294715/d168683d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-03",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526254760/d74070d8k.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "ED",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 19.58,
-        "pbr": 1.56,
-        "eps": 6.09,
-        "bps": 76.54,
-        "shares": 371134000,
-        "marketCapM": 44250,
-        "high52": 122.75,
-        "high52Date": "2026-11-05",
-        "low52": 92.6783,
-        "low52Date": "2025-12-08",
-        "last": 119.23,
-        "prevClose": 121.88,
-        "nameKo": "컨솔리데이티드 에디슨",
-        "nameEn": "CONSOLIDATED EDISON INC",
-        "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 371134000
-      },
-      "cnbc": [
-        {
-          "title": "Thursday's biggest analyst calls: Nvidia, Apple, Netflix, Micron, Toll Brothers",
-          "url": "https://www.cnbc.com/2026/10/01/thursdays-biggest-analyst-calls-on-wall-street.html",
-          "date": "2026-10-01",
-          "publisher": "CNBC",
-          "kind": "article"
-        }
-      ],
-      "estimates": {
-        "ticker": "ED",
-        "url": "https://finance.yahoo.com/quote/ED/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 1,
-            "epsLow": 0.6,
-            "epsHigh": 1.12,
-            "epsYearAgo": 0.89,
-            "epsAnalysts": 9,
-            "epsGrowth": 12.7,
-            "epsCur": "USD",
-            "rev": 4074870660,
-            "revAnalysts": 5,
-            "revYearAgo": 3995000000,
-            "revGrowth": 2,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 2.33,
-            "epsLow": 2.33,
-            "epsHigh": 2.33,
-            "epsYearAgo": 2.55,
-            "epsAnalysts": 1,
-            "epsGrowth": -8.6,
-            "epsCur": "USD",
-            "rev": 5259087780,
-            "revAnalysts": 2,
-            "revYearAgo": 5095000000,
-            "revGrowth": 3.2,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 6.11,
-            "epsLow": 6.08,
-            "epsHigh": 6.18,
-            "epsYearAgo": 5.7,
-            "epsAnalysts": 16,
-            "epsGrowth": 7.2,
-            "epsCur": "USD",
-            "rev": 17800750320,
-            "revAnalysts": 10,
-            "revYearAgo": 16918000000,
-            "revGrowth": 5.2,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 6.5,
-            "epsLow": 6.46,
-            "epsHigh": 6.63,
-            "epsYearAgo": 6.11,
-            "epsAnalysts": 16,
-            "epsGrowth": 6.4,
-            "epsCur": "USD",
-            "rev": 18725061560,
-            "revAnalysts": 11,
-            "revYearAgo": 17800750320,
-            "revGrowth": 5.2,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1,
-            "d7": -1.2,
-            "d30": -6.3,
-            "d90": -4.8,
-            "ago90": 1.05,
-            "up7": 0,
-            "up30": 0,
-            "down7": 3,
-            "down30": 5
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 2.33,
-            "d7": 0,
-            "d30": -0.2,
-            "d90": -4.2,
-            "ago90": 2.43,
-            "up7": 0,
-            "up30": 0,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 6.11,
-            "d7": 0,
-            "d30": 0.1,
-            "d90": 0.1,
-            "ago90": 6.11,
-            "up7": 0,
-            "up30": 1,
-            "down7": 1,
-            "down30": 2
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 6.5,
-            "d7": 0,
-            "d30": 0.1,
-            "d90": 0.2,
-            "ago90": 6.49,
-            "up7": 1,
-            "up30": 1,
-            "down7": 1,
-            "down30": 3
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 2.07,
-            "estimate": 2.03,
-            "surprisePct": 2,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 0.83,
-            "estimate": 0.77,
-            "surprisePct": 7.4,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 2.18,
-            "estimate": 2.27,
-            "surprisePct": -3.8,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 0.89,
-            "estimate": 0.86,
-            "surprisePct": 3.4,
-            "cur": "USD"
-          }
-        ],
-        "beats": 3,
-        "ratings": {
-          "upgrades": 1,
-          "downgrades": 0,
-          "initiations": 1,
-          "ptRaised": 4,
-          "ptLowered": 3,
-          "total": 8,
-          "recent": [
-            {
-              "date": "2026-11-16",
-              "firm": "Evercore ISI Group",
-              "action": "main",
-              "from": "In-Line",
-              "to": "In-Line",
-              "ptAction": "Raises",
-              "pt": 127,
-              "ptPrior": 112
-            },
-            {
-              "date": "2026-11-06",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Underweight",
-              "to": "Underweight",
-              "ptAction": "Raises",
-              "pt": 108,
-              "ptPrior": 106
-            },
-            {
-              "date": "2026-11-06",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 134,
-              "ptPrior": 118
-            },
-            {
-              "date": "2026-10-22",
-              "firm": "HSBC",
-              "action": "init",
-              "from": null,
-              "to": "Hold",
-              "ptAction": "Announces",
-              "pt": 104,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-10-13",
-              "firm": "Keybanc",
-              "action": "main",
-              "from": "Underweight",
-              "to": "Underweight",
-              "ptAction": "Lowers",
-              "pt": 87,
-              "ptPrior": 94
-            },
-            {
-              "date": "2026-10-01",
-              "firm": "Wells Fargo",
-              "action": "up",
-              "from": "Equal-Weight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 118,
-              "ptPrior": 108
-            },
-            {
-              "date": "2026-09-18",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Underweight",
-              "to": "Underweight",
-              "ptAction": "Lowers",
-              "pt": 97,
-              "ptPrior": 101
-            },
-            {
-              "date": "2026-08-21",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Underweight",
-              "to": "Underweight",
-              "ptAction": "Lowers",
-              "pt": 101,
-              "ptPrior": 105
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-11-05",
-          "upcoming": false,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 122.75,
-        "stop": 120.59,
-        "adrPct": 1.81,
-        "distToPivotPct": -2.87,
-        "distToPivotAdr": -1.58,
-        "riskPerSharePct": 1.76,
-        "extensionAdr": -0.29,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 9,
-          "baseWeeks": 1.8,
-          "depthPct": 4.8,
-          "priorMovePct": 20.3,
-          "higherLows": 1,
-          "contraction": 1.2,
-          "closeRange10Adr": 1.6,
-          "surf10": -0.29,
-          "surf20": 0.7,
-          "slope20": 2.05,
-          "baseLow": 116.91,
-          "lastSwingLow": 117.22
-        },
-        "reasons": [
-          "✗ 선행 상승 +20%",
-          "✗ 베이스 1.8주",
-          "깊이 4.8%",
-          "저점 상승 1회",
-          "진폭 1.2배 · 10일 종가폭 1.6 ADR",
-          "10일선 -0.3 ADR · 20일선 +0.7 ADR",
-          "20일선 기울기 +2.05%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "선행 상승 20% (약함) · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "미충족",
-            "evidence": "베이스 1.8주 — 너무 짧음 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.2배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 4.8% · ADR 1.81%의 2.7배 · 선행 상승의 절반 10%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 119.23 · 20일선 117.72 · 50일선 110.58"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.38배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 122.75까지 -2.87% (-1.58 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 1.76% · ADR 1.81%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 25.2% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 25%/17%/-4% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 97%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1.38배(20일 평균 대비) · 오늘 거래대금 2.76배 · 상장주식 371M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 20.96% · 3M 12.49% · 6M 32.42% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "TRI",
-      "sector": "Industrials",
-      "industry": "Specialty Business Services",
-      "price": 104.16999816894531,
-      "marketCap": "46.94B",
-      "volx": 2.76,
-      "volSurgeWk": 4.66,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 4.21,
-      "high52": 78.18,
-      "adr": 3.8,
-      "targetStatus": false,
-      "saleCy": 3.28,
-      "saleNy": 8.93,
-      "epsCy": 0.13,
-      "epsNy": 18.05,
-      "cyTrend": -10.08,
-      "nyTrend": -7.22,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          9.47,
-          9.84,
-          5.24
-        ],
-        "ni": [
-          43.13,
-          5.76,
-          -43.37
-        ],
-        "opm": [
-          28.56,
-          30.62,
-          26.88
-        ],
-        "updated": "2026-09-07 07:58:24"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "TRI",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "톰슨 로이터는 법률·세무·회계 전문가에게 정보와 소프트웨어(CoCounsel 등 AI 도구 포함)를 구독 형태로 팔고, 로이터 통신도 운영한다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Thomson Reuters Chief Forges Path With AI, Unique Content",
-          "url": "https://finance.yahoo.com/m/3faebd82-69e0-326f-9ea3-3f802e6b1a6d/thomson-reuters-chief-forges.html",
-          "date": "2026-11-17",
-          "publisher": "The Wall Street Journal",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Thomson Reuters CEO Says Content Is King When It Comes to AI",
-          "url": "https://finance.yahoo.com/m/6e01492c-a325-31c0-a189-80627bbeae31/thomson-reuters-ceo-says.html",
-          "date": "2026-11-16",
-          "publisher": "The Wall Street Journal",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Thomson Reuters to Present at TD Securities Technology Conference",
-          "url": "https://finance.yahoo.com/technology/articles/thomson-reuters-present-td-securities-160000064.html",
-          "date": "2026-11-12",
-          "publisher": "CNW Group",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Thomson Reuters to Present at TD Securities Technology Conference",
-          "url": "https://finance.yahoo.com/technology/articles/thomson-reuters-present-td-securities-160000047.html",
-          "date": "2026-11-12",
-          "publisher": "PR Newswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "3 Dividend Stocks With Recurring Revenue and Room to Keep Raising Payouts",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-recurring-revenue-134754880.html",
-          "date": "2026-11-12",
-          "publisher": "24/7 Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "CUBE Powers Thomson Reuters CoCounsel Legal With Global Regulatory Intelligence",
-          "url": "https://finance.yahoo.com/technology/ai/articles/cube-powers-thomson-reuters-cocounsel-080200933.html",
-          "date": "2026-11-12",
-          "publisher": "GlobeNewswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Thomson Reuters Announces $500 Million Share Repurchase Program and New Normal Course Issuer Bid",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/thomson-reuters-announces-500-million-120000385.html",
-          "date": "2026-11-11",
-          "publisher": "PR Newswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Thomson Reuters Announces $500 Million Share Repurchase Program and New Normal Course Issuer Bid",
-          "url": "https://finance.yahoo.com/news/thomson-reuters-announces-500-million-120000637.html",
-          "date": "2026-11-11",
-          "publisher": "CNW Group",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Thomson Reuters (TRI) Sees $150.2 Million in Net ETF Buying on Nov. 5",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/thomson-reuters-tri-sees-150-110044541.html",
-          "date": "2026-11-09",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "톰슨 로이터",
-      "nameEn": "THOMSON-REUTERS CORP",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "톰슨 로이터",
-        "nameEn": "THOMSON-REUTERS CORP",
-        "financialsError": "매출 태그 없음",
-        "news": {
-          "items": [
-            {
-              "title": "TRI Q3 Earnings & Revenues Miss Estimates, Stock Declines 9.9%",
-              "url": "https://www.nasdaq.com/articles/tri-q3-earnings-revenues-miss-estimates-stock-declines-99",
-              "date": "2026-11-04",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Thomson Reuters (TRI) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/thomson-reuters-tri-q3-2026-earnings-call-transcript",
-              "date": "2026-11-03",
-              "publisher": "The Motley Fool"
-            }
-          ]
-        },
-        "filings": [],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "TRI",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 27.92,
-        "pbr": 4.09,
-        "eps": 3.73,
-        "bps": 25.48,
-        "shares": 433459000,
-        "marketCapM": 45153,
-        "high52": 140.3039,
-        "high52Date": "2025-11-17",
-        "low52": 75.7848,
-        "low52Date": "2026-06-22",
-        "last": 104.17,
-        "prevClose": 108.29,
-        "nameKo": "톰슨 로이터",
-        "nameEn": "THOMSON-REUTERS CORP",
-        "listedOn": "2025-02-25",
-        "exchange": "나스닥",
-        "listedShares": 433459000
-      },
-      "cnbc": [
-        {
-          "title": "Investors backing ‘wrong future’ in AI, strategist says — new winners emerge",
-          "url": "https://www.cnbc.com/2026/08/26/ai-data-centers-small-models-investors.html",
-          "date": "2026-08-26",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Cramer's lightning round: Buy Lockheed Martin",
-          "url": "https://www.cnbc.com/2026/08/06/cramers-lightning-round-buy-lockheed-martin.html",
-          "date": "2026-08-06",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "The career question that helped Steve Hasker become Thomson Reuters CEO",
-          "url": "https://www.cnbc.com/video/2026/08/04/thomson-reuters-ceo-steve-hasker-executive-decisions-with-steve-sedgwick.html",
-          "date": "2026-08-04",
-          "publisher": "CNBC",
-          "kind": "video"
-        }
-      ],
-      "estimates": {
-        "ticker": "TRI",
-        "url": "https://finance.yahoo.com/quote/TRI/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 1.17,
-            "epsLow": 1.06,
-            "epsHigh": 1.31,
-            "epsYearAgo": 1.09,
-            "epsAnalysts": 15,
-            "epsGrowth": 7.9,
-            "epsCur": "USD",
-            "rev": 2037862000,
-            "revAnalysts": 12,
-            "revYearAgo": 2009000000,
-            "revGrowth": 1.4,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 1.3,
-            "epsLow": 1.26,
-            "epsHigh": 1.37,
-            "epsYearAgo": 1.23,
-            "epsAnalysts": 10,
-            "epsGrowth": 5.4,
-            "epsCur": "USD",
-            "rev": 2159450800,
-            "revAnalysts": 5,
-            "revYearAgo": 2087000000,
-            "revGrowth": 3.5,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 3.99,
-            "epsLow": 3.84,
-            "epsHigh": 4.34,
-            "epsYearAgo": 3.98,
-            "epsAnalysts": 17,
-            "epsGrowth": 0.1,
-            "epsCur": "USD",
-            "rev": 7721010390,
-            "revAnalysts": 16,
-            "revYearAgo": 7476000000,
-            "revGrowth": 3.3,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 4.71,
-            "epsLow": 4.52,
-            "epsHigh": 4.94,
-            "epsYearAgo": 3.99,
-            "epsAnalysts": 17,
-            "epsGrowth": 18,
-            "epsCur": "USD",
-            "rev": 8410540100,
-            "revAnalysts": 15,
-            "revYearAgo": 7721010390,
-            "revGrowth": 8.9,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1.17,
-            "d7": -8.3,
-            "d30": -11,
-            "d90": -10.7,
-            "ago90": 1.31,
-            "up7": 2,
-            "up30": 1,
-            "down7": 6,
-            "down30": 12
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 1.3,
-            "d7": -5.3,
-            "d30": -7.6,
-            "d90": -7.7,
-            "ago90": 1.4,
-            "up7": 0,
-            "up30": 0,
-            "down7": 5,
-            "down30": 7
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 3.99,
-            "d7": -4.2,
-            "d30": -10.1,
-            "d90": -10.1,
-            "ago90": 4.44,
-            "up7": 2,
-            "up30": 0,
-            "down7": 6,
-            "down30": 14
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 4.71,
-            "d7": -4.4,
-            "d30": -7.2,
-            "d90": -7.4,
-            "ago90": 5.08,
-            "up7": 1,
-            "up30": 0,
-            "down7": 7,
-            "down30": 12
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 0.81,
-            "estimate": 0.85,
-            "surprisePct": -5.2,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 0.99,
-            "estimate": 0.96,
-            "surprisePct": 3.3,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 1.23,
-            "estimate": 1.21,
-            "surprisePct": 1.3,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1.09,
-            "estimate": 1.08,
-            "surprisePct": 0.8,
-            "cur": "USD"
-          }
-        ],
-        "beats": 3,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 1,
-          "ptRaised": 2,
-          "ptLowered": 2,
-          "total": 5,
-          "recent": [
-            {
-              "date": "2026-11-04",
-              "firm": "JP Morgan",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 115,
-              "ptPrior": 110
-            },
-            {
-              "date": "2026-10-28",
-              "firm": "RBC Capital",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 130,
-              "ptPrior": 124
-            },
-            {
-              "date": "2026-10-20",
-              "firm": "Jefferies",
-              "action": "init",
-              "from": null,
-              "to": "Buy",
-              "ptAction": "Announces",
-              "pt": 130,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-10-13",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 110,
-              "ptPrior": 116
-            },
-            {
-              "date": "2026-09-08",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 130,
-              "ptPrior": 140
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2027-02-04",
-          "upcoming": true,
-          "estimated": true
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 124.69,
-        "stop": 120.73,
-        "adrPct": 3.8,
-        "distToPivotPct": -16.46,
-        "distToPivotAdr": -4.33,
-        "riskPerSharePct": 3.17,
-        "extensionAdr": -1.59,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 19,
-          "baseWeeks": 3.8,
-          "depthPct": 16.6,
-          "priorMovePct": 34.7,
-          "higherLows": 0,
-          "contraction": 0.77,
-          "closeRange10Adr": 3.5,
-          "surf10": -1.59,
-          "surf20": -2.58,
-          "slope20": -0.15,
-          "baseLow": 104.01,
-          "lastSwingLow": 106.47
-        },
-        "reasons": [
-          "선행 상승 +35%",
-          "베이스 3.8주",
-          "깊이 16.6%",
-          "✗ 저점 상승 0회",
-          "진폭 0.77배 · 10일 종가폭 3.5 ADR",
-          "✗ 10일선 -1.6 ADR · 20일선 -2.6 ADR",
-          "✗ 20일선 기울기 -0.15%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 35% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 3.8주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.77배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 16.6% · ADR 3.8%의 4.4배 · 선행 상승의 절반 17%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 104.17 · 20일선 114.39 · 50일선 106.2 — 50일선 아래(원문: 사지 않음)"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.09배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 124.69까지 -16.46% (-4.33 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 3.17% · ADR 3.8%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -1.6 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 43.1% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 43%/6%/-43% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 78%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1.09배(20일 평균 대비) · 오늘 거래대금 2.76배 · 상장주식 433M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 71.73% · 3M 50.9% · 6M 18.71% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "VIK",
-      "sector": "Consumer Cyclical",
-      "industry": "Travel Services",
-      "price": 94.27999877929688,
-      "marketCap": "40.32B",
-      "volx": 2.73,
-      "volSurgeWk": 2.41,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 90.09,
-      "high52": 85.64,
-      "adr": 3.92,
-      "targetStatus": false,
-      "saleCy": 13.17,
-      "saleNy": 21.04,
-      "epsCy": 22.88,
-      "epsNy": 34.55,
-      "cyTrend": -0.62,
-      "nyTrend": -1.18,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          16.49,
-          17.47,
-          27.76
-        ],
-        "ni": [
-          33.8,
-          "적자축소",
-          "흑자전환"
-        ],
-        "opm": [
-          29.4,
-          1.14,
-          20.91
-        ],
-        "updated": "2026-09-07 06:13:27"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "VIK",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c3",
-            "statement": "Barron's가 실적 미달에도 주가가 오르는 이유를 다룬 기사를 냈다(본문은 유료라 확인하지 못함).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
-                "publisher": "Barrons.com (Yahoo Finance)",
-                "url": "https://finance.yahoo.com/m/2dc2acc6-ddee-3248-8e85-302c8a8b0aa7/why-viking-cruise-stock-is.html",
-                "date": "2026-11-17",
-                "quote": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "company": "Viking은 유럽 강 크루즈와 해양 크루즈를 운영하는 여행 회사로, 승객 운임과 선내 매출로 돈을 번다.",
-        "volumeExplanation": "11월 17일 2027년 예약 현황이 주목되며 Barron's에 따르면 실적 미달에도 주가가 오른 것으로 분석되었습니다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "reject",
-          "removed": [
-            "c1",
-            "c2"
-          ],
-          "reason": "c1의 조정 EPS(1.11달러), EBITDA(6.74억 달러), Zacks 예상치가 quote에 없음. c2의 해양 크루즈 18% 성장과 예약 32억 달러 주장이 quote의 $5.8 billion(58억 달러)과 맞지 않음",
-          "narrativeFixed": true
-        },
-        "originalCategory": 1,
-        "corrected": true,
-        "volumeExplanationOriginal": "11월 17일 3분기 실적이 예상치를 밑돌았지만, 2027년 예약이 크게 차 있고 해양 크루즈 성장세가 강해 주가가 오르며 거래량이 늘었다. 실적 자체보다 내년 예약 현황이 매수세를 부른 것으로 보이며, 2027년 가격 전망이 낮아진 점이 이 이야기를 흔들 수 있다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Viking: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-3-key-takeaways-long-233724053.html",
-          "date": "2026-11-17",
-          "publisher": "Motley Fool",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Viking Holdings Ltd Q3 2026 Earnings Call Summary",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-ltd-q3-2026-215023724.html",
-          "date": "2026-11-17",
-          "publisher": "Moby",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Viking Holdings Ltd (VIK) Q3 2026 Earnings Call Highlights: Revenue Climbs 9.2% to $2. ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-ltd-vik-q3-210043987.html",
-          "date": "2026-11-17",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Viking Holdings earnings analysis: questions answered and next catalysts",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-earnings-analysis-questions-205635207.html",
-          "date": "2026-11-17",
-          "publisher": "Investing.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
-          "url": "https://finance.yahoo.com/m/2dc2acc6-ddee-3248-8e85-302c8a8b0aa7/why-viking-cruise-stock-is.html",
-          "date": "2026-11-17",
-          "publisher": "Barrons.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Viking Q3 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-q3-earnings-call-highlights-151532161.html",
-          "date": "2026-11-17",
-          "publisher": "MarketBeat",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Viking (VIK) Reports Q3 Earnings: What Key Metrics Have to Say",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-vik-reports-q3-earnings-133003772.html",
-          "date": "2026-11-17",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Viking Holdings Q3 Adjusted Earnings Fall, Revenue Rises",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-q3-adjusted-earnings-122919417.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Viking Holdings (VIK) Q3 Earnings Miss Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-vik-q3-earnings-121001941.html",
-          "date": "2026-11-17",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "바이킹 홀딩스",
-      "nameEn": "VIKING HOLDINGS LTD",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "바이킹 홀딩스",
-        "nameEn": "VIKING HOLDINGS LTD",
-        "financialsError": "매출 태그 없음",
-        "news": {
-          "items": [
-            {
-              "title": "Viking: 3 Key Takeaways for Long-Term Investors",
-              "url": "https://www.nasdaq.com/articles/viking-3-key-takeaways-long-term-investors",
-              "date": "2026-11-17",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Viking (VIK) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/viking-vik-q3-2026-earnings-call-transcript",
-              "date": "2026-11-17",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Viking (VIK) Reports Q3 Earnings: What Key Metrics Have to Say",
-              "url": "https://www.nasdaq.com/articles/viking-vik-reports-q3-earnings-what-key-metrics-have-say",
-              "date": "2026-11-17",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Viking Holdings (VIK) Q3 Earnings Miss Estimates",
-              "url": "https://www.nasdaq.com/articles/viking-holdings-vik-q3-earnings-miss-estimates",
-              "date": "2026-11-17",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Stay Ahead of the Game With Viking (VIK) Q3 Earnings: Wall Street's Insights on Key Metrics",
-              "url": "https://www.nasdaq.com/articles/stay-ahead-game-viking-vik-q3-earnings-wall-streets-insights-key-metrics",
-              "date": "2026-11-12",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Viking Holdings (VIK) Reports Next Week: Wall Street Expects Earnings Growth",
-              "url": "https://www.nasdaq.com/articles/viking-holdings-vik-reports-next-week-wall-street-expects-earnings-growth-0",
-              "date": "2026-11-10",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "ATAT or VIK: Which Is the Better Value Stock Right Now?",
-              "url": "https://www.nasdaq.com/articles/atat-or-vik-which-better-value-stock-right-now",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "ATAT vs. VIK: Which Stock Is the Better Value Option?",
-              "url": "https://www.nasdaq.com/articles/atat-vs-vik-which-stock-better-value-option",
-              "date": "2026-10-20",
-              "publisher": "Zacks"
-            }
-          ]
-        },
-        "filings": [],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "VIK",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 31.13,
-        "pbr": 38.94,
-        "eps": 3.03,
-        "bps": 2.42,
-        "shares": 318867000,
-        "marketCapM": 30063,
-        "high52": 110.09,
-        "high52Date": "2026-08-05",
-        "low52": 56.67,
-        "low52Date": "2025-11-18",
-        "last": 94.28,
-        "prevClose": 90.28,
-        "nameKo": "바이킹 홀딩스",
-        "nameEn": "VIKING HOLDINGS LTD",
-        "listedOn": "2024-04-30",
-        "exchange": "뉴욕거래소",
-        "listedShares": 318867000
-      },
-      "cnbc": [
-        {
-          "title": "This cruise stock is set for smoother sailing. Buy it now, Mizuho says",
-          "url": "https://www.cnbc.com/2026/11/16/this-cruise-stock-is-set-for-smooth-sailing-buy-it-now-mizuho-says-.html",
-          "date": "2026-11-16",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Tuesday's biggest analyst calls: Nvidia, Apple, Netflix, Meta, Galaxy, SoFi, AT&T",
-          "url": "https://www.cnbc.com/2026/10/13/tuesday-big-wall-street-analyst-calls-like-nvidia.html",
-          "date": "2026-10-13",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Jim Cramer says to buy the 20% dip in this cruise line stock",
-          "url": "https://www.cnbc.com/2026/08/31/jim-cramer-says-to-buy-the-20percent-dip-in-this-cruise-line-stock.html",
-          "date": "2026-08-31",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Jim Cramer talks cruise line Viking after recent decline",
-          "url": "https://www.cnbc.com/video/2026/08/31/jim-cramer-talks-cruise-line-viking-after-recent-decline.html",
-          "date": "2026-08-31",
-          "publisher": "CNBC",
-          "kind": "video"
-        }
-      ],
-      "estimates": {
-        "ticker": "VIK",
-        "url": "https://finance.yahoo.com/quote/VIK/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 0.72,
-            "epsLow": 0.65,
-            "epsHigh": 0.78,
-            "epsYearAgo": 0.67,
-            "epsAnalysts": 15,
-            "epsGrowth": 7.2,
-            "epsCur": "USD",
-            "rev": 1909647520,
-            "revAnalysts": 16,
-            "revYearAgo": 1724358000,
-            "revGrowth": 10.8,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": -0.04,
-            "epsLow": -0.09,
-            "epsHigh": 0.06,
-            "epsYearAgo": -0.11,
-            "epsAnalysts": 9,
-            "epsGrowth": 66.7,
-            "epsCur": "USD",
-            "rev": 1313979920,
-            "revAnalysts": 8,
-            "revYearAgo": 1053741000,
-            "revGrowth": 24.7,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 3.21,
-            "epsLow": 3.1,
-            "epsHigh": 3.45,
-            "epsYearAgo": 2.61,
-            "epsAnalysts": 18,
-            "epsGrowth": 22.9,
-            "epsCur": "USD",
-            "rev": 7357421900,
-            "revAnalysts": 19,
-            "revYearAgo": 6501419000,
-            "revGrowth": 13.2,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 4.32,
-            "epsLow": 4.05,
-            "epsHigh": 4.69,
-            "epsYearAgo": 3.21,
-            "epsAnalysts": 18,
-            "epsGrowth": 34.6,
-            "epsCur": "USD",
-            "rev": 8905245550,
-            "revAnalysts": 19,
-            "revYearAgo": 7357421900,
-            "revGrowth": 21,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 0.72,
-            "d7": -1.8,
-            "d30": -2.2,
-            "d90": -9,
-            "ago90": 0.79,
-            "up7": 1,
-            "up30": 2,
-            "down7": 1,
-            "down30": 5
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": -0.04,
-            "d7": 8.3,
-            "d30": 8.3,
-            "d90": -633.4,
-            "ago90": 0,
-            "up7": 1,
-            "up30": 1,
-            "down7": 1,
-            "down30": 3
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 3.21,
-            "d7": -0.4,
-            "d30": -0.6,
-            "d90": -3.5,
-            "ago90": 3.33,
-            "up7": 0,
-            "up30": 1,
-            "down7": 2,
-            "down30": 8
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 4.32,
-            "d7": -1.1,
-            "d30": -1.2,
-            "d90": -2.3,
-            "ago90": 4.42,
-            "up7": 0,
-            "up30": 1,
-            "down7": 1,
-            "down30": 7
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 1.11,
-            "estimate": 1.26,
-            "surprisePct": -12.1,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 1.31,
-            "estimate": 1.24,
-            "surprisePct": 5.4,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": -0.11,
-            "estimate": -0.11,
-            "surprisePct": -1.6,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 0.67,
-            "estimate": 0.55,
-            "surprisePct": 21.9,
-            "cur": "USD"
-          }
-        ],
-        "beats": 2,
-        "ratings": {
-          "upgrades": 1,
-          "downgrades": 0,
-          "initiations": 1,
-          "ptRaised": 3,
-          "ptLowered": 6,
-          "total": 10,
-          "recent": [
-            {
-              "date": "2026-11-09",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 118,
-              "ptPrior": 128
-            },
-            {
-              "date": "2026-10-22",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 94,
-              "ptPrior": 93
-            },
-            {
-              "date": "2026-10-20",
-              "firm": "Susquehanna",
-              "action": "main",
-              "from": "Positive",
-              "to": "Positive",
-              "ptAction": "Lowers",
-              "pt": 100,
-              "ptPrior": 105
-            },
-            {
-              "date": "2026-10-13",
-              "firm": "Barclays",
-              "action": "up",
-              "from": "Equal-Weight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 102,
-              "ptPrior": 90
-            },
-            {
-              "date": "2026-09-28",
-              "firm": "Stifel",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Lowers",
-              "pt": 115,
-              "ptPrior": 120
-            },
-            {
-              "date": "2026-09-25",
-              "firm": "StoneX",
-              "action": "init",
-              "from": null,
-              "to": "Buy",
-              "ptAction": "Announces",
-              "pt": 99,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-09-24",
-              "firm": "Truist Securities",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Lowers",
-              "pt": 98,
-              "ptPrior": 102
-            },
-            {
-              "date": "2026-08-31",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 90,
-              "ptPrior": 93
-            },
-            {
-              "date": "2026-08-24",
-              "firm": "Mizuho",
-              "action": "main",
-              "from": "Underperform",
-              "to": "Underperform",
-              "ptAction": "Raises",
-              "pt": 82,
-              "ptPrior": 75
-            },
-            {
-              "date": "2026-08-20",
-              "firm": "Stifel",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Lowers",
-              "pt": 120,
-              "ptPrior": 125
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-11-17",
-          "upcoming": false,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "none",
-        "grade": null,
-        "asOf": "2026-11-17",
-        "adrPct": 3.92,
-        "extensionAdr": 1.34,
-        "breakDate": null,
-        "metrics": null,
-        "reasons": [
-          "쉬는 구간 없음"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "3개월 최대상승 23% (약함) · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 94.28 · 20일선 87.69 · 50일선 84.55"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.46배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 1.3 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 33.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 34%/적자축소/흑자전환 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 86%"
-          },
-          {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 1.46배(20일 평균 대비) · 오늘 거래대금 2.73배(상승일) · 상장주식 319M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 16.73% · 3M 29.62% · 6M 53.16% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
     {
       "ticker": "SITE",
       "sector": "Industrials",
       "industry": "Industrial Distribution",
-      "price": 111.6500015258789,
+      "price": 111.13999938964844,
       "marketCap": "4.78B",
-      "volx": 2.61,
-      "volSurgeWk": 4.27,
+      "volx": 6.05,
+      "volSurgeWk": 8.34,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 0,
-      "high52": 66.24,
-      "adr": 3.7,
+      "clsPos": 44.9,
+      "high52": 65.93,
+      "adr": 3.75,
       "targetStatus": false,
       "saleCy": 3.48,
       "saleNy": 3.12,
@@ -4390,7 +71,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-18",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -4411,7 +92,7 @@ window.TEAM4_DATA = {
       "nameKo": "사이트원 랜드스케이프 서플라이",
       "nameEn": "SITEONE LANDSCAPE SUPPLY INC",
       "detail": {
-        "fetchedAt": "2026-11-18",
+        "fetchedAt": "2026-11-19",
         "nameKo": "사이트원 랜드스케이프 서플라이",
         "nameEn": "SITEONE LANDSCAPE SUPPLY INC",
         "financials": {
@@ -4850,37 +531,37 @@ window.TEAM4_DATA = {
       "setup": {
         "state": "pre",
         "grade": "A",
-        "asOf": "2026-11-17",
+        "asOf": "2026-11-18",
         "pivot": 119.56,
-        "stop": 115.43,
-        "adrPct": 3.7,
-        "distToPivotPct": -6.62,
-        "distToPivotAdr": -1.79,
-        "riskPerSharePct": 3.45,
-        "extensionAdr": -0.58,
+        "stop": 115.41,
+        "adrPct": 3.73,
+        "distToPivotPct": -7.04,
+        "distToPivotAdr": -1.89,
+        "riskPerSharePct": 3.47,
+        "extensionAdr": -0.53,
         "breakDate": null,
         "metrics": {
-          "baseBars": 13,
-          "baseWeeks": 2.6,
+          "baseBars": 14,
+          "baseWeeks": 2.8,
           "depthPct": 12.6,
           "priorMovePct": 45.8,
           "higherLows": 1,
-          "contraction": 1.07,
-          "closeRange10Adr": 1.8,
-          "surf10": -0.58,
-          "surf20": 0.39,
-          "slope20": 4.4,
+          "contraction": 0.93,
+          "closeRange10Adr": 1.6,
+          "surf10": -0.53,
+          "surf20": 0.1,
+          "slope20": 3.82,
           "baseLow": 104.52,
           "lastSwingLow": 110.02
         },
         "reasons": [
           "선행 상승 +46%",
-          "베이스 2.6주",
+          "베이스 2.8주",
           "깊이 12.6%",
           "저점 상승 1회",
-          "진폭 1.07배 · 10일 종가폭 1.8 ADR",
-          "10일선 -0.6 ADR · 20일선 +0.4 ADR",
-          "20일선 기울기 +4.4%"
+          "진폭 0.93배 · 10일 종가폭 1.6 ADR",
+          "10일선 -0.5 ADR · 20일선 +0.1 ADR",
+          "20일선 기울기 +3.82%"
         ]
       },
       "checks": {
@@ -4893,27 +574,27 @@ window.TEAM4_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.6주 · 기준 2~8주"
+            "evidence": "베이스 2.8주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.07배(1 미만이면 좁아짐)"
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.93배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 12.6% · ADR 3.7%의 3.4배 · 선행 상승의 절반 23%"
+            "evidence": "베이스 깊이 12.6% · ADR 3.73%의 3.4배 · 선행 상승의 절반 23%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 111.65 · 20일선 110.03 · 50일선 98.62"
+            "evidence": "종가 111.14 · 20일선 110.71 · 50일선 98.89"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.01배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.99배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -4923,17 +604,17 @@ window.TEAM4_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 119.56까지 -6.62% (-1.79 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 119.56까지 -7.04% (-1.89 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.45% · ADR 3.7%"
+            "evidence": "예비 손절 폭 3.47% · ADR 3.73%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.6 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -4959,13 +640,13 @@ window.TEAM4_DATA = {
           },
           {
             "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 1.01배(20일 평균 대비) · 오늘 거래대금 2.61배(상승일) · 상장주식 43M주(한국투자증권) · 유통주식은 확인 불가"
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.99배(20일 평균 대비) · 오늘 거래대금 6.05배 · 상장주식 43M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 5.46% · 3M 5.28% · 6M 57.39% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 7.89% · 3M 6.36% · 6M 51.35% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -4982,832 +663,31 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "DIS",
-      "sector": "Communication Services",
-      "industry": "Entertainment",
-      "price": 116.94000244140625,
-      "marketCap": "204.96B",
-      "volx": 2.36,
-      "volSurgeWk": 2.57,
+      "ticker": "SENEB",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 35.9900016784668,
+      "marketCap": "0.23B",
+      "volx": 4.05,
+      "volSurgeWk": 2.85,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 12.29,
-      "high52": 95.29,
-      "adr": 2.07,
+      "clsPos": 0,
+      "high52": 86.29,
+      "adr": 0.97,
       "targetStatus": false,
-      "saleCy": 7.51,
-      "saleNy": 4.55,
-      "epsCy": 16.89,
-      "epsNy": 7.92,
-      "cyTrend": 0.06,
-      "nyTrend": -0.12,
+      "saleCy": 11.74,
+      "saleNy": 2.3,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          6.76,
-          6.55,
-          5.23
-        ],
-        "ni": [
-          -49.87,
-          -31.39,
-          -5.95
-        ],
-        "opm": [
-          15.29,
-          14.11,
-          14.91
-        ],
-        "updated": "2026-09-08 06:10:03"
-      },
+      "bbCenterBrk5d": true,
+      "fs": null,
       "catalyst": {
         "status": "done",
-        "ticker": "DIS",
-        "category": 1,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "디즈니가 11월 17일 4분기 실적을 발표했고, 이익과 매출 모두 시장 예상치를 웃돌았다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Walt Disney (DIS) Beats Q4 Earnings and Revenue Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/walt-disney-dis-beats-q4-earnings-and-revenue-estimates",
-                "date": "2026-11-17",
-                "quote": "Walt Disney (DIS) Beats Q4 Earnings and Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "실적 발표 뒤 주가가 신고가를 기록했다는 기사가 나왔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/disney-stock-hits-new-highs-after-strong-q4-earnings-time-buy-dis",
-                "date": "2026-11-17",
-                "quote": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "company": "디즈니는 영화·방송·스트리밍과 테마파크·크루즈 같은 체험 사업으로 돈을 번다.",
-        "volumeExplanation": "11월 17일 4분기 실적이 예상치를 웃돌아 거래량이 평소의 2배 넘게 늘었다. 실적 발표 직후 주가가 신고가를 찍으며 매수세가 몰렸다. 다만 마진 압박을 지적하는 기사도 있어 다음 분기 이익률이 유지되는지가 이 해석을 확인할 조건이다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Disney (DIS) Stock Slips As Q4 Earnings Contrast Margin Compression",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-slips-q4-002132949.html",
-          "date": "2026-11-18",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Disney: 3 Key Takeaways for Long-Term Investors",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-3-key-takeaways-long-235840597.html",
-          "date": "2026-11-17",
-          "publisher": "Motley Fool",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Earnings Beat Might Change The Bull Case For Disney Stock (DIS)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-might-change-bull-220808498.html",
-          "date": "2026-11-17",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "The Walt Disney Co (DIS) (Q4 2026) Earnings Call Highlights: Record Experiences Demand, $3 ...",
-          "url": "https://finance.yahoo.com/media-advertising/articles/walt-disney-co-dis-q4-210131071.html",
-          "date": "2026-11-17",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Disney earnings analysis: questions answered and next catalysts",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-earnings-analysis-questions-answered-205138736.html",
-          "date": "2026-11-17",
-          "publisher": "Investing.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Disney Stocks Rise 1.57% as Streaming Profit Doubles and Buybacks Reach $9 Billion",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-stocks-rise-1-57-185744108.html",
-          "date": "2026-11-17",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Walt Disney (DIS) Q4 2026 Earnings Call Transcript",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-q4-2026-183107872.html",
-          "date": "2026-11-17",
-          "publisher": "Motley Fool",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "월트 디즈니",
-      "nameEn": "WALT DISNEY COMPANY (THE)",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "월트 디즈니",
-        "nameEn": "WALT DISNEY COMPANY (THE)",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001744489&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-10-03",
-              "derived": true,
-              "revenue": 25947000000,
-              "profit": 4970000000,
-              "netIncome": 2612000000,
-              "margin": 19.2,
-              "yoy": {
-                "revenue": 15.5,
-                "profit": 42.8,
-                "netIncome": 98.9,
-                "priorEnd": "2025-09-27"
-              }
-            },
-            {
-              "periodEnd": "2026-06-27",
-              "derived": false,
-              "revenue": 25248000000,
-              "profit": 5555000000,
-              "netIncome": 2638000000,
-              "margin": 22,
-              "yoy": {
-                "revenue": 6.8,
-                "profit": 21.4,
-                "netIncome": -49.9,
-                "priorEnd": "2025-06-28"
-              }
-            },
-            {
-              "periodEnd": "2026-03-28",
-              "derived": false,
-              "revenue": 25168000000,
-              "profit": 4603000000,
-              "netIncome": 2247000000,
-              "margin": 18.3,
-              "yoy": {
-                "revenue": 6.5,
-                "profit": 3.8,
-                "netIncome": -31.4,
-                "priorEnd": "2025-03-29"
-              }
-            },
-            {
-              "periodEnd": "2025-12-27",
-              "derived": false,
-              "revenue": 25981000000,
-              "profit": 4600000000,
-              "netIncome": 2402000000,
-              "margin": 17.7,
-              "yoy": {
-                "revenue": 5.2,
-                "profit": -9.1,
-                "netIncome": -6,
-                "priorEnd": "2024-12-28"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
-              "url": "https://www.nasdaq.com/articles/disney-stock-hits-new-highs-after-strong-q4-earnings-time-buy-dis",
-              "date": "2026-11-17",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Walt Disney (DIS) Q4 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/walt-disney-dis-q4-2026-earnings-call-transcript",
-              "date": "2026-11-17",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Walt Disney Reportedly Plans Cost-Cutting Programme To Save About $3 Bln Annually By FY29",
-              "url": "https://www.nasdaq.com/articles/walt-disney-reportedly-plans-cost-cutting-programme-save-about-3-bln-annually-fy29",
-              "date": "2026-11-17",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Disney (DIS) Reports Q4 Earnings: What Key Metrics Have to Say",
-              "url": "https://www.nasdaq.com/articles/disney-dis-reports-q4-earnings-what-key-metrics-have-say",
-              "date": "2026-11-17",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Why Walt Disney (DIS) is a Top Stock for the Long-Term",
-              "url": "https://www.nasdaq.com/articles/why-walt-disney-dis-top-stock-long-term-1",
-              "date": "2026-11-17",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "The Walt Disney Company Announces Segment Reporting Changes for Fiscal 2027",
-              "url": "https://www.nasdaq.com/articles/walt-disney-company-announces-segment-reporting-changes-fiscal-2027",
-              "date": "2026-11-17",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "The Walt Disney Company Reports Fourth Quarter and Fiscal Year 2026 Results",
-              "url": "https://www.nasdaq.com/articles/walt-disney-company-reports-fourth-quarter-and-fiscal-year-2026-results",
-              "date": "2026-11-17",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Walt Disney Maintains FY27 Adj. EPS Outlook; Boosts Dividend 33% - Update",
-              "url": "https://www.nasdaq.com/articles/walt-disney-maintains-fy27-adj-eps-outlook-boosts-dividend-33-update",
-              "date": "2026-11-17",
-              "publisher": "RTTNews"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-17",
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000067/dis-20261117.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-17",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/dis-20261117.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-05",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000056/dis-20260805.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-06",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000036/dis-20260506.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-20",
-            "itemsKo": [
-              "임원 변동",
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026020172/dis-20260318.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-03",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000119312526088356/d116769d8k.htm"
-          }
-        ],
-        "krReports": {
-          "total": 5,
-          "reports": [
-            {
-              "date": "2026-08-11",
-              "broker": "신한투자증권",
-              "analyst": "지인해",
-              "title": "[월트 디즈니 (NYS:DIS)] 성장스토리 속 커져가는 주주환원",
-              "summary": "- 예상보다 빠른 SVOD 수익화와 견조한 경험 부문 이익률 확인. 호실적 기 반 주주환원 확대 기조 긍정적. 수급 쏠림현상만 완화돼도 탄력받을 주가- 매출 252억달러(YoY +7%, 이하 동일), 영업이익 56억달러(+21%), 조정 EPS 2.06달러(+28%)로 가이던스 상회. 사업부별 손익은 엔터테인먼트/체 험/스포츠 각각 17억달러(+64%), 30억달러(+20%), 9억달러(-17%)- 가장 뚜렷한 이익 개선은 1) SVOD(디즈니+) 부문으로 매출 55억달러 (+11%), 영업이익 7억달러(+116%), OPM 13% 기록. 구독료(+15%)는 가 입자 증가(+9%) 및 요금 인상(+3%)이 견인",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxkcgkgglegxzgcgxeeel.pdf",
-              "pages": "7"
-            },
-            {
-              "date": "2026-06-02",
-              "broker": "iM증권",
-              "analyst": "황지원",
-              "title": "[월트 디즈니 (NYS:DIS)] 스트리밍 사업의 두 자릿수 마진율 가시화",
-              "summary": "- 디즈니·마블·스타워즈·픽사 등 강력한 IP를 기반으로 콘텐츠(영화/방송/OTT)→ 체험(테마파크/리조트/크루즈)→ 굿즈 소비(MD/라이선싱)로 이어지는 선순환 수익 구조를 보유하고 있는 미국의 대표적인 종합 엔터테인먼트 기업이다- 과거 DTC 사업 부문의 적자 지속이 밸류에이션 할인 요소로 작용해왔는데, 2분기 사상 첫 두 자릿수 영업이익률을 기록했으며 연간 영업이익률 가이던스 또한 10% 이상으로 제시했다- 조정 EPS 기준 FY26 12% 성장, FY27 두 자릿수 성장을 가이던스로 제시하며 긍정적인 이익 성장 전망을 유지했다",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziklzkiizzgcgxeeel.pdf",
-              "pages": "4"
-            },
-            {
-              "date": "2026-02-26",
-              "broker": "신한투자증권",
-              "analyst": "지인해",
-              "title": "[월트 디즈니 (NYS:DIS)] 하반기 가면 갈수록",
-              "summary": "- 1Q26 매출액 260억달러(YoY 5.2%, 이하동일), 영업이익 46억달러(- 9.1%), EPS 1.6달러(-7.4%)로 시장 기대치 대비 상회. 사업부문별 손익은 엔터테인먼트/체험/스포츠 각각 11억(-35%), 33억(+6%), 2억달러(-23%)- 아쉬운 점은 1) 엔터 부문 OPM 9.5%(-6.2%p). <주토피아2>, <아바타:불 과 재> 흥행에도 프로그램 제작 및 마케팅 비용 증가 부담으로 상쇄. 그럼 에도 주목할만한 더 많은 요소는 2) 캐쉬카우 역할인 체험 부문에서 최초 분기 매출 100억달러 돌파, 손익 33억달러, OPM 33.1% 달성- 호실적에도 주가 부진. 2Q26 체험 부문 가이던스를 ‘해외 관광객 감소’를 반영해 보수적으로 제시한 영향. 1Q26 손익 기여도가 72%인 만큼 핵심 사업부의 지표 감소는 우려를 키울만한 요소",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcxczkleckllgcgxeeel.pdf",
-              "pages": "8"
-            },
-            {
-              "date": "2026-02-03",
-              "broker": "유진투자증권",
-              "analyst": "이현지",
-              "title": "[월트 디즈니 (NYS:DIS)] 하반기를 기다리자",
-              "summary": "- Q1 FY2026 매출액 260억 달러(+5.2%yoy), 영업이익 46억 달러(-9.1%yoy, OPM 17.7%), 조정EPS 1.63달러(- 7.4%yoy)로 낮아진 컨센서스 부합하는 실적 기록- Entertainment 부문은 <주토피아 2>, <아바타: 불의 재>가 각각 글로벌 박스오피스 10억 달러를 돌파하며 극장 수 익이 매출을 견인했으나, 극장 개봉작 증가로 인한 제작 및 마케팅 비용이 함께 증가하며 부문이익 감소- Q2 FY2026 가이던스로 3개 부문 모두 이익 전년동기 대비 감소~유지 수준을 제시하면서, 실적발표 후 시장은 예 견된 감익보다도 아쉬운 가이던스에 민감하게 반응",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcclekizkmxqegcgxeeel.pdf",
-              "pages": "5"
-            },
-            {
-              "date": "2025-11-17",
-              "broker": "신한투자증권",
-              "analyst": "지인해, 김지영",
-              "title": "[월트 디즈니 (NYS:DIS)] 리스크 해소, 중장기 성장 스토리에 주목",
-              "summary": "- 단기 모멘텀 부재하나, 주주환원 확대 및 중장기 성장 스토리에 주목 필요- 4Q25 매출액 225억달러(YoY -0.5%, 이하동일), 영업이익 35억달러(- 4.8%), EPS 1.1달러(-2.6%)로 매출 컨센서스 소폭 하회.- 전년동기 글로벌 흥행작 ‘인사이드 아웃2’ 및 미국 대선(2024년 11월) 정 치 광고의 높은 기저효과에 따라 TV 네트워크 및 콘텐츠/라이선싱 부문 역성장",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxiiizqemcmzzegcgxeeel.pdf",
-              "pages": "8"
-            }
-          ]
-        }
-      },
-      "kis": {
-        "ticker": "DIS",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 24.12,
-        "pbr": 1.84,
-        "eps": 4.85,
-        "bps": 63.6,
-        "shares": 1726690000,
-        "marketCapM": 201919,
-        "high52": 122.72,
-        "high52Date": "2026-11-17",
-        "low52": 91.484,
-        "low52Date": "2026-03-27",
-        "last": 116.94,
-        "prevClose": 118.7,
-        "nameKo": "월트 디즈니",
-        "nameEn": "WALT DISNEY COMPANY (THE)",
-        "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 1726690000
-      },
-      "cnbc": [
-        {
-          "title": "Stocks making the biggest moves Tuesday: Nvidia, CoreWeave, Nebius & more",
-          "url": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html",
-          "date": "2026-11-17",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Disney beats estimates, targets $3 billion in savings through cost cutting",
-          "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
-          "date": "2026-11-17",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Market's Nvidia obsession obscuring an opportunity in this name",
-          "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
-          "date": "2026-11-16",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Tuesday, November 17, 2026: Cramer discusses what to listen for in Nvidia's earnings call",
-          "url": "https://www.cnbc.com/investingclub/video/2026/11/17/tuesday-november-17-2026-cramer-discusses-what-to-look-for-with-nvidia-ahead-of-earnings-call.html",
-          "date": "2026-11-17",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "The Pre-Market Rundown 2",
-          "url": "https://www.cnbc.com/video/2026/11/17/the-pre-market-rundown-2-november-17-2026.html",
-          "date": "2026-11-17",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Disney's Q4 earnings show fundamentals are pretty strong: MoffettNathanson's Fishman",
-          "url": "https://www.cnbc.com/video/2026/11/17/disneys-q4-earnings-show-fundamentals-are-pretty-strong-moffettnathansons-fishman.html",
-          "date": "2026-11-17",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Jason Bazinet: Disney's late earnings may signal a major strategic pivot",
-          "url": "https://www.cnbc.com/video/2026/11/17/jason-bazinet-disneys-late-earnings-may-signal-a-major-strategic-pivot.html",
-          "date": "2026-11-17",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Disney tops estimates on revenue, EPS in fourth-quarter earnings",
-          "url": "https://www.cnbc.com/video/2026/11/17/disney-tops-estimates-on-revenue-eps-in-fourth-quarter-earnings.html",
-          "date": "2026-11-17",
-          "publisher": "CNBC",
-          "kind": "video"
-        }
-      ],
-      "estimates": {
-        "ticker": "DIS",
-        "url": "https://finance.yahoo.com/quote/DIS/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 1.92,
-            "epsLow": 1.91,
-            "epsHigh": 1.92,
-            "epsYearAgo": 1.63,
-            "epsAnalysts": 2,
-            "epsGrowth": 17.5,
-            "epsCur": "USD",
-            "rev": 27437500000,
-            "revAnalysts": 2,
-            "revYearAgo": 25981000000,
-            "revGrowth": 5.6,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 1.87,
-            "epsLow": 1.85,
-            "epsHigh": 1.89,
-            "epsYearAgo": 1.57,
-            "epsAnalysts": 2,
-            "epsGrowth": 19.1,
-            "epsCur": "USD",
-            "rev": 26760000000,
-            "revAnalysts": 2,
-            "revYearAgo": 25168000000,
-            "revGrowth": 6.3,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-09-30",
-            "eps": 7.49,
-            "epsLow": 7.37,
-            "epsHigh": 7.63,
-            "epsYearAgo": 7.02,
-            "epsAnalysts": 21,
-            "epsGrowth": 6.7,
-            "epsCur": "USD",
-            "rev": 105957327720,
-            "revAnalysts": 23,
-            "revYearAgo": 102344000000,
-            "revGrowth": 3.5,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-09-30",
-            "eps": 8.39,
-            "epsLow": 7.57,
-            "epsHigh": 8.97,
-            "epsYearAgo": 7.49,
-            "epsAnalysts": 17,
-            "epsGrowth": 12,
-            "epsCur": "USD",
-            "rev": 110756244140,
-            "revAnalysts": 19,
-            "revYearAgo": 105957327720,
-            "revGrowth": 4.5,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1.92,
-            "d7": -2.3,
-            "d30": -2.1,
-            "d90": 1.5,
-            "ago90": 1.89,
-            "up7": 1,
-            "up30": 4,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 1.87,
-            "d7": 1.5,
-            "d30": 1.5,
-            "d90": 4.2,
-            "ago90": 1.79,
-            "up7": 1,
-            "up30": 5,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-09-30",
-            "cur": "USD",
-            "now": 7.49,
-            "d7": -0.1,
-            "d30": 0,
-            "d90": 0.8,
-            "ago90": 7.43,
-            "up7": 1,
-            "up30": 3,
-            "down7": 1,
-            "down30": 6
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-09-30",
-            "cur": "USD",
-            "now": 8.39,
-            "d7": -0.2,
-            "d30": 0.4,
-            "d90": 1.7,
-            "ago90": 8.25,
-            "up7": 0,
-            "up30": 4,
-            "down7": 2,
-            "down30": 3
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 1.77,
-            "estimate": 1.68,
-            "surprisePct": 5.4,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 2.06,
-            "estimate": 1.85,
-            "surprisePct": 11.1,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 1.57,
-            "estimate": 1.5,
-            "surprisePct": 5,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1.63,
-            "estimate": 1.58,
-            "surprisePct": 3.4,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 1,
-          "ptLowered": 1,
-          "total": 4,
-          "recent": [
-            {
-              "date": "2026-10-16",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 140,
-              "ptPrior": 135
-            },
-            {
-              "date": "2026-10-09",
-              "firm": "Needham",
-              "action": "reit",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Maintains",
-              "pt": 125,
-              "ptPrior": 125
-            },
-            {
-              "date": "2026-10-05",
-              "firm": "Raymond James",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Lowers",
-              "pt": 119,
-              "ptPrior": 120
-            },
-            {
-              "date": "2026-09-28",
-              "firm": "Guggenheim",
-              "action": "reit",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Maintains",
-              "pt": 120,
-              "ptPrior": 120
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-11-17",
-          "upcoming": false,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "none",
-        "grade": null,
-        "asOf": "2026-11-17",
-        "adrPct": 2.07,
-        "extensionAdr": -0.59,
-        "breakDate": null,
-        "metrics": null,
-        "reasons": [
-          "쉬는 구간 없음"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "3개월 최대상승 21% (약함) · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 116.94 · 20일선 115 · 50일선 109.71"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.19배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -0.6 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 -49.9% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 -50%/-31%/-6% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 95%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1.19배(20일 평균 대비) · 오늘 거래대금 2.36배 · 상장주식 1727M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "미충족",
-            "evidence": "상대강도 상위 1M 28.63% · 3M 21.96% · 6M 31.15% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "WCN",
-      "sector": "Industrials",
-      "industry": "Waste Management",
-      "price": 181.5,
-      "marketCap": "49.36B",
-      "volx": 2.19,
-      "volSurgeWk": 2.88,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 14.06,
-      "high52": 91.97,
-      "adr": 3.06,
-      "targetStatus": false,
-      "saleCy": 6.63,
-      "saleNy": 6.03,
-      "epsCy": 10.63,
-      "epsNy": 8.28,
-      "cyTrend": 0.9,
-      "nyTrend": -0.56,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          6.42,
-          6.39,
-          5
-        ],
-        "ni": [
-          2.11,
-          -9.18,
-          "흑자전환"
-        ],
-        "opm": [
-          17.08,
-          15.36,
-          17.73
-        ],
-        "updated": "2026-09-09 06:31:01"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "WCN",
+        "ticker": "SENEB",
         "category": 6,
         "claims": [
           {
@@ -5817,7 +697,7 @@ window.TEAM4_DATA = {
             "sources": []
           }
         ],
-        "company": "북미 지역에서 쓰레기 수거와 매립장을 운영하는 폐기물 처리 회사입니다. 수거·매립 요금으로 안정적인 매출을 올립니다.",
+        "company": "Seneca Foods는 통조림·냉동 채소와 과일을 만들어 식료품 유통업체와 소비자 브랜드(Green Giant 등)로 파는 포장식품 회사다. SENEB는 이 회사의 B클래스 주식이다.",
         "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
         "confidence": "low",
         "factcheck": {
@@ -5828,104 +708,75 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-18",
-        "carried": false
+        "carried": true
       },
-      "yahooNews": [
-        {
-          "title": "‘Noxious Odors’ From L.A. County Landfill Explosion Taint This Waste Hauler’s Stock",
-          "url": "https://finance.yahoo.com/m/3376b80d-14e7-305f-a7ce-d2d34108746a/%E2%80%98noxious-odors%E2%80%99-from-l.a..html",
-          "date": "2026-11-17",
-          "publisher": "Barrons.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Green Dot Q3 Earnings Miss Estimates, Stock Declines 8.2%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/green-dot-q3-earnings-miss-143400878.html",
-          "date": "2026-11-16",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Waste Connections Insider Sold Shares Worth $1,045,000, According to a Recent SEC Filing",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/waste-connections-insider-sold-shares-211831162.html",
-          "date": "2026-11-13",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "GFL Sinks 9% as Board Rejects Take-Private Bids: “Never Had a Better Outlook”",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/gfl-sinks-9-board-rejects-150728055.html",
-          "date": "2026-11-10",
-          "publisher": "TIKR",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "웨이스트 커넥션스",
-      "nameEn": "WASTE CONNECTIONS INC (CA)",
+      "yahooNews": [],
+      "nameKo": "세네카 푸즈 B",
+      "nameEn": "SENECA FOODS",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "웨이스트 커넥션스",
-        "nameEn": "WASTE CONNECTIONS INC (CA)",
+        "fetchedAt": "2026-11-19",
+        "nameKo": "세네카 푸즈 B",
+        "nameEn": "SENECA FOODS",
         "financials": {
           "profitLabel": "영업이익",
           "marginLabel": "영업이익률",
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318220&type=10-Q",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000088948&type=10-Q",
           "quarters": [
             {
-              "periodEnd": "2026-09-30",
+              "periodEnd": "2026-09-26",
               "derived": false,
-              "revenue": 2638081000,
-              "profit": 541745000,
-              "netIncome": 359224000,
-              "margin": 20.5,
+              "revenue": 492590000,
+              "profit": 37652000,
+              "netIncome": 29230000,
+              "margin": 7.6,
               "yoy": {
-                "revenue": 7.3,
-                "profit": 23.2,
-                "netIncome": 25.5,
-                "priorEnd": "2025-09-30"
+                "revenue": 7.1,
+                "profit": -9.2,
+                "netIncome": -1.7,
+                "priorEnd": "2025-09-27"
               }
             },
             {
-              "periodEnd": "2026-06-30",
+              "periodEnd": "2026-06-27",
               "derived": false,
-              "revenue": 2561607000,
-              "profit": 437554000,
-              "netIncome": 296399000,
-              "margin": 17.1,
+              "revenue": 405174000,
+              "profit": 26229000,
+              "netIncome": 19507000,
+              "margin": 6.5,
               "yoy": {
-                "revenue": 6.4,
-                "profit": -4.8,
-                "netIncome": 2.1,
-                "priorEnd": "2025-06-30"
+                "revenue": 36.2,
+                "profit": 13,
+                "netIncome": 31.1,
+                "priorEnd": "2025-06-28"
               }
             },
             {
-              "periodEnd": "2026-03-31",
+              "periodEnd": "2025-12-27",
               "derived": false,
-              "revenue": 2370631000,
-              "profit": 364080000,
-              "netIncome": 219344000,
-              "margin": 15.4,
+              "revenue": 508348000,
+              "profit": 59967000,
+              "netIncome": 44768000,
+              "margin": 11.8,
               "yoy": {
-                "revenue": 6.4,
-                "profit": -6.7,
-                "netIncome": -9.2,
-                "priorEnd": "2025-03-31"
+                "revenue": 1.1,
+                "profit": 133.7,
+                "netIncome": 205.4,
+                "priorEnd": "2024-12-28"
               }
             },
             {
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 2373306000,
-              "profit": 420828000,
-              "netIncome": 258500000,
-              "margin": 17.7,
+              "periodEnd": "2025-09-27",
+              "derived": false,
+              "revenue": 460022000,
+              "profit": 41472000,
+              "netIncome": 29739000,
+              "margin": 9,
               "yoy": {
-                "revenue": 5,
-                "profit": 311.3,
-                "netIncome": 231.9,
-                "priorEnd": "2024-12-31"
+                "revenue": 8.1,
+                "profit": 68,
+                "netIncome": 123.6,
+                "priorEnd": "2024-09-28"
               }
             }
           ]
@@ -5933,102 +784,75 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
-              "title": "Here's Why Investors Must Hold WCN Stock in Their Portfolios Now",
-              "url": "https://www.nasdaq.com/articles/heres-why-investors-must-hold-wcn-stock-their-portfolios-now-1",
-              "date": "2026-11-11",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "CLH vs. WCN: Which Stock Should Value Investors Buy Now?",
-              "url": "https://www.nasdaq.com/articles/clh-vs-wcn-which-stock-should-value-investors-buy-now",
-              "date": "2026-10-28",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "WCN Stock Gains 11% After Reporting Q3 Earnings & Revenue Beat",
-              "url": "https://www.nasdaq.com/articles/wcn-stock-gains-11-after-reporting-q3-earnings-revenue-beat",
-              "date": "2026-10-26",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Waste Connections Q3 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/waste-connections-q3-earnings-call-highlights",
+              "title": "Seneca Foods Consensus Price Target Raised by 11.65% to $227.73",
+              "url": "https://www.nasdaq.com/articles/seneca-foods-consensus-price-target-raised-1165-22773",
               "date": "2026-10-23",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Why Waste Connections Stock Is Up Today",
-              "url": "https://www.nasdaq.com/articles/why-waste-connections-stock-today",
-              "date": "2026-10-22",
-              "publisher": "The Motley Fool"
+              "publisher": "Fintel"
             }
           ]
         },
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-10-21",
+            "filingDate": "2026-11-17",
             "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926117838/wcn-20261021x8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-07",
-            "itemsKo": [
-              "기타 중요사건",
+              "5.03",
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926092680/tm2622609d1_8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926037390/senea20261113_8k.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-08-04",
+            "filingDate": "2026-11-04",
+            "itemsKo": [
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926034956/senea20261103_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-21",
+            "itemsKo": [
+              "5.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926030826/senea20260921_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-11",
+            "itemsKo": [
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926027008/senea20260806_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-08-12",
+            "itemsKo": [
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774925026194/senea20250811_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2024-12-30",
             "itemsKo": [
               "중요 계약 체결",
+              "1.02",
               "2.03",
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926090339/tm2622128d1_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-28",
-            "itemsKo": [
-              "중요 계약 체결",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926087330/tm2621340d6_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-22",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926085802/wcn-20260722x8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-15",
-            "itemsKo": [
-              "주주총회 표결",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1318220/000110465926062507/tm2614785d1_8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924038531/senea20241212_8k.htm"
           }
         ],
         "krReports": {
@@ -6037,104 +861,111 @@ window.TEAM4_DATA = {
         }
       },
       "kis": {
-        "ticker": "WCN",
-        "fetchedAt": "2026-11-18",
+        "ticker": "SENEB",
+        "fetchedAt": "2026-11-19",
         "source": "한국투자증권 Open API",
-        "per": 40.71,
-        "pbr": 5.76,
-        "eps": 4.46,
-        "bps": 31.5,
-        "shares": 250176000,
-        "marketCapM": 45407,
-        "high52": 197.35,
-        "high52Date": "2026-11-16",
-        "low52": 146.2832,
-        "low52Date": "2026-06-02",
-        "last": 181.5,
-        "prevClose": 197.3,
-        "nameKo": "웨이스트 커넥션스",
-        "nameEn": "WASTE CONNECTIONS INC (CA)",
+        "per": 2.08,
+        "pbr": 0.31,
+        "eps": 17.32,
+        "bps": 114.34,
+        "shares": 7779450,
+        "marketCapM": 280,
+        "high52": 41.706,
+        "high52Date": "2026-09-04",
+        "low52": 21.736,
+        "low52Date": "2025-12-09",
+        "last": 35.99,
+        "prevClose": 35.91,
+        "nameKo": "세네카 푸즈 B",
+        "nameEn": "SENECA FOODS",
         "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 250176000
+        "exchange": "나스닥",
+        "listedShares": 7779450
       },
       "cnbc": [
         {
-          "title": "Lightning Round: Buy MasTec, says Jim Cramer",
-          "url": "https://www.cnbc.com/video/2026/10/13/lightning-round-buy-mastec-says-jim-cramer.html",
-          "date": "2026-10-13",
+          "title": "Cramer's lightning round: Nuvation Bio 'is a pure spec'",
+          "url": "https://www.cnbc.com/2026/09/03/cramers-lightning-round-nuvation-bio-is-a-pure-spec.html",
+          "date": "2026-09-03",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Jim Cramer weighs if it is worth taking a bite out of Seneca Foods",
+          "url": "https://www.cnbc.com/video/2026/09/10/jim-cramer-weighs-if-it-is-worth-taking-a-bite-out-of-seneca-foods.html",
+          "date": "2026-09-10",
           "publisher": "CNBC",
           "kind": "video"
         }
       ],
       "estimates": {
-        "ticker": "WCN",
-        "url": "https://finance.yahoo.com/quote/WCN/analysis/",
-        "fetchedAt": "2026-11-18",
+        "ticker": "SENEB",
+        "url": "https://finance.yahoo.com/quote/SENEB/analysis/",
+        "fetchedAt": "2026-11-19",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 1.38,
-            "epsLow": 1.2,
-            "epsHigh": 1.5,
-            "epsYearAgo": 1.29,
-            "epsAnalysts": 24,
-            "epsGrowth": 7.3,
-            "epsCur": "USD",
-            "rev": 2524419200,
-            "revAnalysts": 20,
-            "revYearAgo": 2373306000,
-            "revGrowth": 6.4,
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 523600000,
+            "revAnalysts": 1,
+            "revYearAgo": null,
+            "revGrowth": null,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 1.37,
-            "epsLow": 1.31,
-            "epsHigh": 1.44,
-            "epsYearAgo": 1.23,
-            "epsAnalysts": 14,
-            "epsGrowth": 11.5,
-            "epsCur": "USD",
-            "rev": 2530208250,
-            "revAnalysts": 10,
-            "revYearAgo": 2370631000,
-            "revGrowth": 6.7,
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 433200000,
+            "revAnalysts": 1,
+            "revYearAgo": null,
+            "revGrowth": null,
             "revCur": "USD"
           },
           {
             "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 5.7,
-            "epsLow": 5.51,
-            "epsHigh": 5.81,
-            "epsYearAgo": 5.15,
-            "epsAnalysts": 27,
-            "epsGrowth": 10.6,
-            "epsCur": "USD",
-            "rev": 10094711350,
-            "revAnalysts": 26,
-            "revYearAgo": 9466915000,
-            "revGrowth": 6.6,
+            "endDate": "2027-03-31",
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 1854600000,
+            "revAnalysts": 1,
+            "revYearAgo": 1659675000,
+            "revGrowth": 11.7,
             "revCur": "USD"
           },
           {
             "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 6.17,
-            "epsLow": 5.94,
-            "epsHigh": 6.53,
-            "epsYearAgo": 5.7,
-            "epsAnalysts": 27,
-            "epsGrowth": 8.3,
-            "epsCur": "USD",
-            "rev": 10703424210,
-            "revAnalysts": 26,
-            "revYearAgo": 10094711350,
-            "revGrowth": 6,
+            "endDate": "2028-03-31",
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 1897200000,
+            "revAnalysts": 1,
+            "revYearAgo": 1854600000,
+            "revGrowth": 2.3,
             "revCur": "USD"
           }
         ],
@@ -6142,213 +973,79 @@ window.TEAM4_DATA = {
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1.38,
-            "d7": -0.1,
-            "d30": -1,
-            "d90": -0.5,
-            "ago90": 1.39,
-            "up7": 5,
-            "up30": 8,
-            "down7": 13,
-            "down30": 13
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 1.37,
-            "d7": 0.5,
-            "d30": 0.2,
-            "d90": 0.6,
-            "ago90": 1.36,
-            "up7": 5,
-            "up30": 5,
-            "down7": 4,
-            "down30": 4
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
           },
           {
             "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 5.7,
-            "d7": 0,
-            "d30": 0.9,
-            "d90": 1.1,
-            "ago90": 5.64,
-            "up7": 23,
-            "up30": 24,
-            "down7": 2,
-            "down30": 1
+            "endDate": "2027-03-31",
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
           },
           {
             "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 6.17,
-            "d7": 0,
-            "d30": -0.6,
-            "d90": -0.6,
-            "ago90": 6.2,
-            "up7": 11,
-            "up30": 9,
-            "down7": 15,
-            "down30": 17
+            "endDate": "2028-03-31",
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
           }
         ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 1.58,
-            "estimate": 1.52,
-            "surprisePct": 3.9,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 1.5,
-            "estimate": 1.35,
-            "surprisePct": 10.8,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 1.23,
-            "estimate": 1.18,
-            "surprisePct": 3.9,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1.29,
-            "estimate": 1.27,
-            "surprisePct": 1.5,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
+        "surprises": [],
+        "beats": 0,
         "ratings": {
-          "upgrades": 1,
+          "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 11,
-          "ptLowered": 4,
-          "total": 15,
-          "recent": [
-            {
-              "date": "2026-10-27",
-              "firm": "UBS",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 215,
-              "ptPrior": 200
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "CIBC",
-              "action": "main",
-              "from": "Outperformer",
-              "to": "Outperformer",
-              "ptAction": "Raises",
-              "pt": 207,
-              "ptPrior": 184
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 192,
-              "ptPrior": 175
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 200,
-              "ptPrior": 195
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "Oppenheimer",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 200,
-              "ptPrior": 193
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "RBC Capital",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 221,
-              "ptPrior": 218
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 211,
-              "ptPrior": 187
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 189,
-              "ptPrior": 187
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "TD Cowen",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 215,
-              "ptPrior": 210
-            },
-            {
-              "date": "2026-10-23",
-              "firm": "Scotiabank",
-              "action": "main",
-              "from": "Sector Outperform",
-              "to": "Sector Outperform",
-              "ptAction": "Raises",
-              "pt": 201,
-              "ptPrior": 193
-            }
-          ]
+          "ptRaised": 0,
+          "ptLowered": 0,
+          "total": 0,
+          "recent": []
         },
-        "nextEarnings": {
-          "date": "2026-10-21",
-          "upcoming": false,
-          "estimated": false
-        }
+        "nextEarnings": null
       },
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-17",
-        "adrPct": 3.06,
-        "extensionAdr": -1.76,
+        "asOf": "2026-11-18",
+        "adrPct": 0.97,
+        "extensionAdr": 10.57,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -6360,7 +1057,7 @@ window.TEAM4_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "3개월 최대상승 32% · 기준 30%↑"
+            "evidence": "3개월 최대상승 41% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
@@ -6379,13 +1076,713 @@ window.TEAM4_DATA = {
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 181.5 · 20일선 187.09 · 50일선 169.24"
+            "status": "충족",
+            "evidence": "종가 35.99 · 20일선 32.02 · 50일선 34.74"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.12배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 2.07배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 10.6 ADR — 이미 떠 있다 · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "2026-09-26 분기 영업이익 전년비 -9.2% · 기준 +25% (SEC, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "SEC 최근 4분기 이익 전년비 -9%/13%/134%/68% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 86%"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량 2.07배(20일 평균 대비) · 오늘 거래대금 4.05배(상승일) · 상장주식 8M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 44.77% · 3M 50.9% · 6M 19.25% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "TGT",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "price": 165.92999267578125,
+      "marketCap": "72.83B",
+      "volx": 2.93,
+      "volSurgeWk": 3.18,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 50,
+      "high52": 96.52,
+      "adr": 3.52,
+      "targetStatus": false,
+      "saleCy": 5.26,
+      "saleNy": 3.31,
+      "epsCy": 39.36,
+      "epsNy": -8.89,
+      "cyTrend": 0.33,
+      "nyTrend": 0.7,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          5.27,
+          6.7,
+          -1.49
+        ],
+        "ni": [
+          100.75,
+          -24.61,
+          -5.26
+        ],
+        "opm": [
+          9.65,
+          4.46,
+          4.53
+        ],
+        "updated": "2026-09-08 10:24:06"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Target Gets $301 Million Tariff Refund Boost. Sales Jump 7.1%.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-gets-301-million-tariff-151934306.html",
+          "date": "2026-11-18",
+          "publisher": "International Business Times",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Target Lifts Full-Year Sales Outlook as Third-Quarter Comparable Sales Top Views",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-lifts-full-sales-outlook-151806312.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Target Beats Third-Quarter Earnings Estimates and Raises FY2026 Guidance Despite Premarket Share Decline",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-beats-third-quarter-earnings-144100187.html",
+          "date": "2026-11-18",
+          "publisher": "InvestorsHub",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Target faces customer spending problem in 2 product categories",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-faces-customer-spending-problem-143500564.html",
+          "date": "2026-11-18",
+          "publisher": "TheStreet",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Target reports 7.1% rise in third-quarter sales as comparable sales jump 5.6%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/target-reports-7-1-rise-142500617.html",
+          "date": "2026-11-18",
+          "publisher": "Proactive",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "타겟",
+      "nameEn": "TARGET CORP",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "타겟",
+        "nameEn": "TARGET CORP",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000027419&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-08-01",
+              "derived": false,
+              "revenue": 26539000000,
+              "profit": 2560000000,
+              "netIncome": 1877000000,
+              "margin": 9.6,
+              "yoy": {
+                "revenue": 5.3,
+                "profit": 94.4,
+                "netIncome": 100.7,
+                "priorEnd": "2025-08-02"
+              }
+            },
+            {
+              "periodEnd": "2026-05-02",
+              "derived": false,
+              "revenue": 25443000000,
+              "profit": 1135000000,
+              "netIncome": 781000000,
+              "margin": 4.5,
+              "yoy": {
+                "revenue": 6.7,
+                "profit": -22.9,
+                "netIncome": -24.6,
+                "priorEnd": "2025-05-03"
+              }
+            },
+            {
+              "periodEnd": "2026-01-31",
+              "derived": true,
+              "revenue": 30453000000,
+              "profit": 1380000000,
+              "netIncome": 1046000000,
+              "margin": 4.5,
+              "yoy": {
+                "revenue": -1.5,
+                "profit": -5.9,
+                "netIncome": -5.2,
+                "priorEnd": "2025-02-01"
+              }
+            },
+            {
+              "periodEnd": "2025-11-01",
+              "derived": false,
+              "revenue": 25270000000,
+              "profit": 948000000,
+              "netIncome": 689000000,
+              "margin": 3.8,
+              "yoy": {
+                "revenue": -1.6,
+                "profit": -18.8,
+                "netIncome": -19.3,
+                "priorEnd": "2024-11-02"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Target: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/target-3-key-takeaways-long-term-investors",
+              "date": "2026-11-18",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Target (TGT) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/target-tgt-q3-2026-earnings-call-transcript",
+              "date": "2026-11-18",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Buy the Spike in Target (TGT) Stock After Strong Q3 Earnings?",
+              "url": "https://www.nasdaq.com/articles/buy-spike-target-tgt-stock-after-strong-q3-earnings",
+              "date": "2026-11-18",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Why Target Stock Soared Today",
+              "url": "https://www.nasdaq.com/articles/why-target-stock-soared-today",
+              "date": "2026-11-18",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Is Target (TGT) a Great Value Stock Right Now?",
+              "url": "https://www.nasdaq.com/articles/target-tgt-great-value-stock-right-now",
+              "date": "2026-11-18",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Target (TGT) Reports Q3 Earnings: What Key Metrics Have to Say",
+              "url": "https://www.nasdaq.com/articles/target-tgt-reports-q3-earnings-what-key-metrics-have-say",
+              "date": "2026-11-18",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Target (TGT) Q3 Earnings and Revenues Beat Estimates",
+              "url": "https://www.nasdaq.com/articles/target-tgt-q3-earnings-and-revenues-beat-estimates",
+              "date": "2026-11-18",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Target Corp. Bottom Line Climbs In Q3",
+              "url": "https://www.nasdaq.com/articles/target-corp-bottom-line-climbs-q3",
+              "date": "2026-11-18",
+              "publisher": "RTTNews"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-18",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000051/tgt-20261118.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-12",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000049/tgt-20261111.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-19",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000034/tgt-20260819.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-14",
+            "itemsKo": [
+              "중요 계약 체결",
+              "1.02",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000032/tgt-20260814.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000028/tgt-20260718.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-12",
+            "itemsKo": [
+              "임원 변동",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000026/tgt-20260610.htm"
+          }
+        ],
+        "krReports": {
+          "total": 1,
+          "reports": [
+            {
+              "date": "2026-08-21",
+              "broker": "신한투자증권",
+              "analyst": "전규은",
+              "title": "[타겟 (NYS:TGT)] 실행력은 증명, 매크로가 변수",
+              "summary": "- 소비자 세금 환급 효과 감안하더라도 두 분기 연속 동일점 매출성장률 플러스 기록하며 턴어라운드 전략 유효성 확인. 다만 높아진 기대는 부담- 매출 265.4억달러(+5.3%YoY, 이하 YoY 생략), 조정EPS 4.11달러(+100.3 %)로 컨센서스 대비 각각 3.6%, 77.5% 상회. 조정EPS에서 관세 환급 기여분은 1.65달러. 제외 시 전년 대비 19.9% 성장, 컨센서스 6.3% 상회- 부문별로 전략 효과 상이. ①음식료는 10년 만의 최대 개편 후 스낵 매출 +15%. ②하드라인(Fun101)은 역대 최대 공간 개편 후 LEGO·봉제인형 매출 각각 +30%, +20%. ③뷰티는 Target Beauty Studio를 600개 이상의 매장에서 9월 오픈 예정. ④의류·홈(매출 비중 약 30%, 고마진) 개선 여지 남아있으나 리드타임이 길어 효과 가시화 시간 소요. 의류는 올해 가을, 홈은 다년 소요될 전망. ⑤고마진 사업부도 고성장 지속. 광고 총 청구액 약20%·마켓플레이스 GMV 40% 이상·멤버십 매출 40% 이상 증가",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxxxkqclxmigcgxeeem.pdf",
+              "pages": "6"
+            }
+          ]
+        }
+      },
+      "kis": {
+        "ticker": "TGT",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 17.22,
+        "pbr": 4.22,
+        "eps": 9.64,
+        "bps": 39.28,
+        "shares": 454297000,
+        "marketCapM": 75382,
+        "high52": 171.91,
+        "high52Date": "2026-11-18",
+        "low52": 80.6357,
+        "low52Date": "2025-11-20",
+        "last": 165.93,
+        "prevClose": 159.53,
+        "nameKo": "타겟",
+        "nameEn": "TARGET CORP",
+        "listedOn": null,
+        "exchange": "뉴욕거래소",
+        "listedShares": 454297000
+      },
+      "cnbc": [
+        {
+          "title": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
+          "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+          "date": "2026-11-18",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "This retailer is outrunning 95% of S&P stocks. Here's one way to trade it",
+          "url": "https://www.cnbc.com/2026/11/17/this-retailer-is-outrunning-95percent-of-sp-stocks-heres-one-way-to-trade-it-into-earnings.html",
+          "date": "2026-11-17",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Baked by Melissa enters Target with first at-home cupcake mix",
+          "url": "https://www.cnbc.com/2026/11/03/baked-by-melissa-cupcake-kits-target.html",
+          "date": "2026-11-03",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "As holiday shopping approaches, seasonal hiring gives 'mixed signals'",
+          "url": "https://www.cnbc.com/make-it/2026/10/27/seasonal-hiring-2026-holiday-jobs.html",
+          "date": "2026-10-27",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Target has been on fire this year. HSBC sees more upside ahead",
+          "url": "https://www.cnbc.com/2026/09/30/target-has-been-on-fire-this-year-hsbc-sees-more-upside-ahead.html",
+          "date": "2026-09-30",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stephanie Link looks for strong brands turning around. This retailer fits the bill",
+          "url": "https://www.cnbc.com/2026/09/23/investor-stephanie-link-looks-for-strong-brands-making-a-comeback-this-retailer-fits-the-bill.html",
+          "date": "2026-09-23",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Wednesday, November 18, 2026: Cramer sees improvement for this discount retailer",
+          "url": "https://www.cnbc.com/investingclub/video/2026/11/18/wednesday-november-18-2026-cramer-sees-this-major-retailer-improving-with-more-upside-ahead.html",
+          "date": "2026-11-18",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Target posts best sales growth in five years, raises guidance",
+          "url": "https://www.cnbc.com/video/2026/11/18/target-posts-best-sales-growth-in-five-years-raises-guidance.html",
+          "date": "2026-11-18",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "estimates": {
+        "ticker": "TGT",
+        "url": "https://finance.yahoo.com/quote/TGT/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2027-01-31",
+            "eps": 2.72,
+            "epsLow": 2.53,
+            "epsHigh": 2.9,
+            "epsYearAgo": 2.44,
+            "epsAnalysts": 23,
+            "epsGrowth": 11.4,
+            "epsCur": "USD",
+            "rev": 31884122440,
+            "revAnalysts": 29,
+            "revYearAgo": 30453000000,
+            "revGrowth": 4.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-04-30",
+            "eps": 1.91,
+            "epsLow": 1.76,
+            "epsHigh": 2.26,
+            "epsYearAgo": 1.71,
+            "epsAnalysts": 21,
+            "epsGrowth": 11.5,
+            "epsCur": "USD",
+            "rev": 26295436930,
+            "revAnalysts": 19,
+            "revYearAgo": 25443000000,
+            "revGrowth": 3.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-01-31",
+            "eps": 10.69,
+            "epsLow": 10.55,
+            "epsHigh": 11,
+            "epsYearAgo": 7.57,
+            "epsAnalysts": 17,
+            "epsGrowth": 41.2,
+            "epsCur": "USD",
+            "rev": 110415522650,
+            "revAnalysts": 34,
+            "revYearAgo": 104780000000,
+            "revGrowth": 5.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-01-31",
+            "eps": 9.62,
+            "epsLow": 8.48,
+            "epsHigh": 10.37,
+            "epsYearAgo": 10.69,
+            "epsAnalysts": 37,
+            "epsGrowth": -10,
+            "epsCur": "USD",
+            "rev": 114048758970,
+            "revAnalysts": 37,
+            "revYearAgo": 110415522650,
+            "revGrowth": 3.3,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 2.72,
+            "d7": 1.4,
+            "d30": 1.7,
+            "d90": 2.1,
+            "ago90": 2.66,
+            "up7": 29,
+            "up30": 29,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-04-30",
+            "cur": "USD",
+            "now": 1.91,
+            "d7": 0.6,
+            "d30": 0.2,
+            "d90": 0.3,
+            "ago90": 1.9,
+            "up7": 12,
+            "up30": 11,
+            "down7": 4,
+            "down30": 5
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 10.69,
+            "d7": 1.5,
+            "d30": 1.6,
+            "d90": 5.7,
+            "ago90": 10.11,
+            "up7": 1,
+            "up30": 36,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-01-31",
+            "cur": "USD",
+            "now": 9.62,
+            "d7": 0.5,
+            "d30": 0.7,
+            "d90": 1.7,
+            "ago90": 9.46,
+            "up7": 0,
+            "up30": 2,
+            "down7": 1,
+            "down30": 0
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-10-31",
+            "actual": 2.65,
+            "estimate": 2.08,
+            "surprisePct": 27.2,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-07-31",
+            "actual": 4.11,
+            "estimate": 2.34,
+            "surprisePct": 75.8,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-04-30",
+            "actual": 1.71,
+            "estimate": 1.46,
+            "surprisePct": 17.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-01-31",
+            "actual": 2.44,
+            "estimate": 2.16,
+            "surprisePct": 13,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 1,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 3,
+          "ptLowered": 1,
+          "total": 5,
+          "recent": [
+            {
+              "date": "2026-11-12",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 205,
+              "ptPrior": 185
+            },
+            {
+              "date": "2026-11-12",
+              "firm": "Guggenheim",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Maintains",
+              "pt": 175,
+              "ptPrior": 175
+            },
+            {
+              "date": "2026-11-09",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 163,
+              "ptPrior": 157
+            },
+            {
+              "date": "2026-10-13",
+              "firm": "Evercore ISI Group",
+              "action": "main",
+              "from": "In-Line",
+              "to": "In-Line",
+              "ptAction": "Lowers",
+              "pt": 165,
+              "ptPrior": 170
+            },
+            {
+              "date": "2026-09-30",
+              "firm": "HSBC",
+              "action": "up",
+              "from": "Hold",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 190,
+              "ptPrior": 125
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-18",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "none",
+        "grade": null,
+        "asOf": "2026-11-18",
+        "adrPct": 3.52,
+        "extensionAdr": 0.76,
+        "breakDate": null,
+        "metrics": null,
+        "reasons": [
+          "쉬는 구간 없음"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "3개월 최대상승 19% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 165.93 · 20일선 157.67 · 50일선 156.39"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.28배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -6405,7 +1802,1248 @@ window.TEAM4_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 100.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 101%/-25%/-5% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 97%"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량 1.28배(20일 평균 대비) · 오늘 거래대금 2.93배(상승일) · 상장주식 454M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 13.84% · 3M 33.32% · 6M 10.14% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "AGL",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "price": 90.52999877929688,
+      "marketCap": "1.96B",
+      "volx": 2.84,
+      "volSurgeWk": 4.44,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 20.61,
+      "high52": 68.05,
+      "adr": 8.04,
+      "targetStatus": false,
+      "saleCy": -1.04,
+      "saleNy": 7.93,
+      "epsCy": -106.59,
+      "epsNy": 216.45,
+      "cyTrend": -187.66,
+      "nyTrend": 109.7,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          7.15,
+          -7.33,
+          3.09
+        ],
+        "ni": [
+          "흑자전환",
+          303.86,
+          "적자확대"
+        ],
+        "opm": [
+          0.79,
+          0.28,
+          -12.35
+        ],
+        "updated": "2026-09-15 06:29:02"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Is agilon health (AGL) Still Reasonable After Its Huge Run?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/agilon-health-agl-still-reasonable-232337610.html",
+          "date": "2026-11-18",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Deutsche Bank Trims Price Target on agilon health to $132 From $139, Keeps Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-trims-price-target-122015875.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "5 insightful analyst questions from agilon health’s Q3 2026 earnings call",
+          "url": "https://finance.yahoo.com/healthcare/articles/5-insightful-analyst-questions-agilon-205336859.html",
+          "date": "2026-11-08",
+          "publisher": "StockStory",
+          "via": "Yahoo"
+        },
+        {
+          "title": "agilon health Stock What Changed After Earnings Beat And Higher 2026 Guidance",
+          "url": "https://finance.yahoo.com/news/agilon-health-stock-changed-earnings-141639858.html",
+          "date": "2026-11-06",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Deutsche Bank Adjusts agilon health Price Target to $139 From $116, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-adjusts-agilon-health-140610821.html",
+          "date": "2026-11-06",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "agilon health (AGL) Q3 2026 Earnings Call Transcript",
+          "url": "https://finance.yahoo.com/healthcare/articles/agilon-health-agl-q3-2026-165920853.html",
+          "date": "2026-11-05",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "애질론 헬스",
+      "nameEn": "AGILON HEALTH INC",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "애질론 헬스",
+        "nameEn": "AGILON HEALTH INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001831097&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 1519486000,
+              "profit": 24109000,
+              "netIncome": 34912000,
+              "margin": 1.6,
+              "yoy": {
+                "revenue": 5.9,
+                "profit": 118.4,
+                "netIncome": 131.7,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 1494743000,
+              "profit": 11770000,
+              "netIncome": 17956000,
+              "margin": 0.8,
+              "yoy": {
+                "revenue": 7.2,
+                "profit": 110.1,
+                "netIncome": 117.2,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 1420460000,
+              "profit": 3997000,
+              "netIncome": 48916000,
+              "margin": 0.3,
+              "yoy": {
+                "revenue": -7.3,
+                "profit": 118.1,
+                "netIncome": 303.9,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 1569491000,
+              "profit": -193825000,
+              "netIncome": -188882000,
+              "margin": -12.3,
+              "yoy": {
+                "revenue": 3.1,
+                "profit": -79.3,
+                "netIncome": -78.5,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "agilon health, inc. Presents Total Care Model and Clinical Pathways at November 17, 2026 Investor Event",
+              "url": "https://www.nasdaq.com/articles/agilon-health-inc-presents-total-care-model-and-clinical-pathways-november-17-2026",
+              "date": "2026-11-17",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Agilon Health (AGL) Is Up 2.00% in One Week: What You Should Know",
+              "url": "https://www.nasdaq.com/articles/agilon-health-agl-200-one-week-what-you-should-know",
+              "date": "2026-11-16",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Fast-paced Momentum Stock Agilon (AGL) Is Still Trading at a Bargain",
+              "url": "https://www.nasdaq.com/articles/fast-paced-momentum-stock-agilon-agl-still-trading-bargain",
+              "date": "2026-11-16",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "agilon health Consensus Price Target Raised 10.90% to $123.61",
+              "url": "https://www.nasdaq.com/articles/agilon-health-consensus-price-target-raised-1090-12361",
+              "date": "2026-11-10",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "agilon health (AGL) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/agilon-health-agl-q3-2026-earnings-call-transcript",
+              "date": "2026-11-05",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Agilon Health Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/agilon-health-q3-earnings-call-highlights",
+              "date": "2026-11-05",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "agilon health, inc. Reports Third Quarter 2026 Results",
+              "url": "https://www.nasdaq.com/articles/agilon-health-inc-reports-third-quarter-2026-results",
+              "date": "2026-11-05",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Compared to Estimates, Agilon (AGL) Q3 Earnings: A Look at Key Metrics",
+              "url": "https://www.nasdaq.com/articles/compared-estimates-agilon-agl-q3-earnings-look-key-metrics",
+              "date": "2026-11-05",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-16",
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026074187/agl-20261116.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-04",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026070132/agl-20261104.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026053328/agl-20260805.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026049080/agl-20260717.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-03",
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026040370/agl-20260602.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-06",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026031254/agl-20260506.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "AGL",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 5.96,
+        "pbr": 6.68,
+        "eps": 15.2,
+        "bps": 13.56,
+        "shares": 16795800,
+        "marketCapM": 1521,
+        "high52": 133.04,
+        "high52Date": "2026-07-17",
+        "low52": 7.48,
+        "low52Date": "2026-03-31",
+        "last": 90.53,
+        "prevClose": 115.2,
+        "nameKo": "애질론 헬스",
+        "nameEn": "AGILON HEALTH INC",
+        "listedOn": "2021-04-14",
+        "exchange": "뉴욕거래소",
+        "listedShares": 16795800
+      },
+      "cnbc": [],
+      "estimates": {
+        "ticker": "AGL",
+        "url": "https://finance.yahoo.com/quote/AGL/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": -2.74,
+            "epsLow": -3.71,
+            "epsHigh": -2.02,
+            "epsYearAgo": -8.95,
+            "epsAnalysts": 5,
+            "epsGrowth": 69.4,
+            "epsCur": "USD",
+            "rev": 1449202780,
+            "revAnalysts": 13,
+            "revYearAgo": 1569491000,
+            "revGrowth": -7.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 2.82,
+            "epsLow": 2.66,
+            "epsHigh": 2.97,
+            "epsYearAgo": 2.32,
+            "epsAnalysts": 2,
+            "epsGrowth": 21.5,
+            "epsCur": "USD",
+            "rev": 1576107930,
+            "revAnalysts": 6,
+            "revYearAgo": 1420460000,
+            "revGrowth": 11,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 1.38,
+            "epsLow": 0.1,
+            "epsHigh": 4.46,
+            "epsYearAgo": -23.75,
+            "epsAnalysts": 8,
+            "epsGrowth": 105.8,
+            "epsCur": "USD",
+            "rev": 5871792660,
+            "revAnalysts": 14,
+            "revYearAgo": 5932576000,
+            "revGrowth": -1,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 4.36,
+            "epsLow": 1.4,
+            "epsHigh": 7.1,
+            "epsYearAgo": 3.78,
+            "epsAnalysts": 6,
+            "epsGrowth": 15.4,
+            "epsCur": "USD",
+            "rev": 6344969140,
+            "revAnalysts": 14,
+            "revYearAgo": 5871792660,
+            "revGrowth": 8.1,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": -2.74,
+            "d7": -9.8,
+            "d30": 8.1,
+            "d90": 11.5,
+            "ago90": -3.09,
+            "up7": 2,
+            "up30": 5,
+            "down7": 0,
+            "down30": 1
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 2.82,
+            "d7": 5.8,
+            "d30": 26.5,
+            "d90": 26.5,
+            "ago90": 2.23,
+            "up7": 1,
+            "up30": 1,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 1.38,
+            "d7": -34.6,
+            "d30": 177.4,
+            "d90": 178.7,
+            "ago90": -1.76,
+            "up7": 0,
+            "up30": 0,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 4.36,
+            "d7": -12,
+            "d30": 84.6,
+            "d90": 147.1,
+            "ago90": 1.76,
+            "up7": 0,
+            "up30": 1,
+            "down7": 1,
+            "down30": 1
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 2.08,
+            "estimate": -0.73,
+            "surprisePct": 384.8,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 2.15,
+            "estimate": 0.27,
+            "surprisePct": 691.5,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 2.32,
+            "estimate": 0.93,
+            "surprisePct": 150,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": -8.95,
+            "estimate": -6.85,
+            "surprisePct": -30.7,
+            "cur": "USD"
+          }
+        ],
+        "beats": 3,
+        "ratings": {
+          "upgrades": 1,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 5,
+          "ptLowered": 0,
+          "total": 5,
+          "recent": [
+            {
+              "date": "2026-11-13",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 170,
+              "ptPrior": 146
+            },
+            {
+              "date": "2026-11-11",
+              "firm": "StoneX",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 145,
+              "ptPrior": 140
+            },
+            {
+              "date": "2026-11-05",
+              "firm": "Evercore ISI Group",
+              "action": "main",
+              "from": "In-Line",
+              "to": "In-Line",
+              "ptAction": "Raises",
+              "pt": 105,
+              "ptPrior": 95
+            },
+            {
+              "date": "2026-09-15",
+              "firm": "Bernstein",
+              "action": "up",
+              "from": "Market Perform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 125,
+              "ptPrior": 86
+            },
+            {
+              "date": "2026-08-24",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Raises",
+              "pt": 85,
+              "ptPrior": 31
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-04",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "C",
+        "asOf": "2026-11-18",
+        "pivot": 127,
+        "stop": 119.72,
+        "adrPct": 8.04,
+        "distToPivotPct": -28.72,
+        "distToPivotAdr": -3.57,
+        "riskPerSharePct": 5.73,
+        "extensionAdr": -2.92,
+        "breakDate": null,
+        "metrics": {
+          "baseBars": 9,
+          "baseWeeks": 1.8,
+          "depthPct": 33.5,
+          "priorMovePct": 76,
+          "higherLows": 0,
+          "contraction": 1.94,
+          "closeRange10Adr": 3.6,
+          "surf10": -2.92,
+          "surf20": -1.38,
+          "slope20": 5.42,
+          "baseLow": 84.42,
+          "lastSwingLow": 84.42
+        },
+        "reasons": [
+          "선행 상승 +76%",
+          "✗ 베이스 1.8주",
+          "✗ 깊이 33.5%",
+          "✗ 저점 상승 0회",
+          "✗ 진폭 1.94배 · 10일 종가폭 3.6 ADR",
+          "✗ 10일선 -2.9 ADR · 20일선 -1.4 ADR",
+          "20일선 기울기 +5.42%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 76% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "미충족",
+            "evidence": "베이스 1.8주 — 너무 짧음 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.94배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 33.5% · ADR 8.04%의 4.2배 · 선행 상승의 절반 38%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "미충족",
+            "evidence": "종가 90.53 · 20일선 100.57 · 50일선 91.81 — 50일선 아래(원문: 사지 않음)"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.2배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 127까지 -28.72% (-3.57 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 5.73% · ADR 8.04%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 -2.9 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 흑자전환 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 흑자전환/304%/적자확대 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 68%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.2배(20일 평균 대비) · 오늘 거래대금 2.84배 · 상장주식 17M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "상대강도 상위 1M 49.1% · 3M 55.05% · 6M 59.65% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "JJSF",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 99.2300033569336,
+      "marketCap": "1.65B",
+      "volx": 2.79,
+      "volSurgeWk": 2.69,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 94.83,
+      "high52": 99.51,
+      "adr": 3.2,
+      "targetStatus": false,
+      "saleCy": -4.41,
+      "saleNy": 2.04,
+      "epsCy": -8.43,
+      "epsNy": 0.77,
+      "cyTrend": -1.92,
+      "nyTrend": -8.8,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -6.24,
+          -3.17,
+          -5.19
+        ],
+        "ni": [
+          -20.15,
+          -65.24,
+          -82.83
+        ],
+        "opm": [
+          10.86,
+          0.52,
+          0.19
+        ],
+        "updated": "2026-09-07 07:39:45"
+      },
+      "catalyst": {
+        "status": "done",
+        "ticker": "JJSF",
+        "category": 1,
+        "company": "J&J Snack Foods는 프레첼·냉동 간식·쿠키 등 간식류를 학교·식당·마트에 공급해 돈을 번다.",
+        "volumeExplanation": "회사가 2026회계연도 4분기 실적을 오늘(11월 18일) 장 시작 전에 발표하도록 예정돼 있어, 실적 발표가 거래량이 평소의 약 2배로 늘어난 가장 가까운 이유다. 다만 실제 실적 내용은 확인하지 못해 서프라이즈 여부는 알 수 없다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "발표 내용(예상치 상회 여부, 가이던스)은 확인되지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "J&J Snack Foods schedules fourth quarter and fiscal year earnings conference call and webcast",
+                "publisher": "Finviz",
+                "url": "https://finviz.com/news/412460/j-j-snack-foods-schedules-fourth-quarter-and-fiscal-year-earnings-conference-call-and-webcast",
+                "date": "2026-11-18",
+                "quote": "will release financial results for its fourth quarter and fiscal year ended September 26, 2026, before the stock market opens on Wednesday, November 18, 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "JJSF는 회계연도 4분기·연간 실적을 2026-11-18 장 시작 전에 발표하고 같은 날 오전 10시(미 동부)에 컨퍼런스콜을 열 예정이었다. 발표 내용(예상치 상회 여부, 가이던스)은 확인되지 않았다."
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "Statement c1 includes specific conference call time (오전 10시/10 AM ET) that is not stated in the provided quote. The quote confirms the earnings release on 11-18 before market open and that a call is scheduled, but does not specify the 10 AM time. The statement should remove or qualify this detail unless additional source confirms it."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-18",
+        "carried": true
+      },
+      "yahooNews": [],
+      "nameKo": "제이앤제이 스낵 푸즈",
+      "nameEn": "J & J SNACK FOODS CORP",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "제이앤제이 스낵 푸즈",
+        "nameEn": "J & J SNACK FOODS CORP",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000785956&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-06-27",
+              "derived": false,
+              "revenue": 425957000,
+              "profit": 46274000,
+              "netIncome": 35332000,
+              "margin": 10.9,
+              "yoy": {
+                "revenue": -6.2,
+                "profit": -23.6,
+                "netIncome": -20.1,
+                "priorEnd": "2025-06-28"
+              }
+            },
+            {
+              "periodEnd": "2026-03-28",
+              "derived": false,
+              "revenue": 344819000,
+              "profit": 1803000,
+              "netIncome": 1677000,
+              "margin": 0.5,
+              "yoy": {
+                "revenue": -3.2,
+                "profit": 29835.2,
+                "netIncome": -65.2,
+                "priorEnd": "2025-03-29"
+              }
+            },
+            {
+              "periodEnd": "2025-12-27",
+              "derived": false,
+              "revenue": 343778000,
+              "profit": 637000,
+              "netIncome": 883000,
+              "margin": 0.2,
+              "yoy": {
+                "revenue": -5.2,
+                "profit": -89.8,
+                "netIncome": -82.8,
+                "priorEnd": "2024-12-28"
+              }
+            },
+            {
+              "periodEnd": "2025-09-27",
+              "derived": true,
+              "revenue": 410243000,
+              "profit": 11467000,
+              "netIncome": 11381000,
+              "margin": 2.8,
+              "yoy": {
+                "revenue": -3.9,
+                "profit": -71.2,
+                "netIncome": -61.6,
+                "priorEnd": "2024-09-28"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "J&J Snacks (JJSF) Q4 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/jj-snacks-jjsf-q4-2026-earnings-call-transcript",
+              "date": "2026-11-18",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "JJSF Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/jjsf-q3-2026-earnings-call-transcript",
+              "date": "2026-08-12",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "J&J Snack Foods (JJSF) Beats Q3 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/jj-snack-foods-jjsf-beats-q3-earnings-and-revenue-estimates",
+              "date": "2026-08-05",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Analysts Estimate J&J Snack Foods (JJSF) to Report a Decline in Earnings: What to Look Out for",
+              "url": "https://www.nasdaq.com/articles/analysts-estimate-jj-snack-foods-jjsf-report-decline-earnings-what-look-out",
+              "date": "2026-07-29",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Bear of the Day: J&J Snack Foods (JJSF)",
+              "url": "https://www.nasdaq.com/articles/bear-day-jj-snack-foods-jjsf",
+              "date": "2026-07-20",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926025782/jjsf20260804_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-10",
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926020193/jjsf20260610_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-06",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926015010/jjsf20260506_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-18",
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926004396/jjsf20260217_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-03",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926002719/jjsf20260202_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-11-25",
+            "itemsKo": [
+              "5.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774925036158/jjsf20251124_8k.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "JJSF",
+        "fetchedAt": "2026-11-18",
+        "source": "한국투자증권 Open API",
+        "per": 34.83,
+        "pbr": 1.89,
+        "eps": 2.6,
+        "bps": 47.89,
+        "shares": 18681600,
+        "marketCapM": 1693,
+        "high52": 95.7437,
+        "high52Date": "2026-01-20",
+        "low52": 67.5091,
+        "low52Date": "2026-05-12",
+        "last": 90.6,
+        "prevClose": 88.26,
+        "nameKo": "제이앤제이 스낵 푸즈",
+        "nameEn": "J & J SNACK FOODS CORP",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 18681600
+      },
+      "cnbc": [],
+      "estimates": {
+        "ticker": "JJSF",
+        "url": "https://finance.yahoo.com/quote/JJSF/analysis/",
+        "fetchedAt": "2026-11-18",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "eps": 1.23,
+            "epsLow": 1.13,
+            "epsHigh": 1.34,
+            "epsYearAgo": 1.58,
+            "epsAnalysts": 3,
+            "epsGrowth": -22.4,
+            "epsCur": "USD",
+            "rev": 398825000,
+            "revAnalysts": 4,
+            "revYearAgo": 410243000,
+            "revGrowth": -2.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "eps": 0.14,
+            "epsLow": 0.14,
+            "epsHigh": 0.14,
+            "epsYearAgo": 0.33,
+            "epsAnalysts": 1,
+            "epsGrowth": -57.6,
+            "epsCur": "USD",
+            "rev": 346200000,
+            "revAnalysts": 1,
+            "revYearAgo": 343778000,
+            "revGrowth": 0.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-09-30",
+            "eps": 3.91,
+            "epsLow": 3.83,
+            "epsHigh": 4.03,
+            "epsYearAgo": 4.27,
+            "epsAnalysts": 3,
+            "epsGrowth": -8.4,
+            "epsCur": "USD",
+            "rev": 1513350000,
+            "revAnalysts": 4,
+            "revYearAgo": 1583233000,
+            "revGrowth": -4.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-09-30",
+            "eps": 3.94,
+            "epsLow": 3.7,
+            "epsHigh": 4.22,
+            "epsYearAgo": 3.91,
+            "epsAnalysts": 3,
+            "epsGrowth": 0.8,
+            "epsCur": "USD",
+            "rev": 1544150000,
+            "revAnalysts": 4,
+            "revYearAgo": 1513350000,
+            "revGrowth": 2,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "cur": "USD",
+            "now": 1.23,
+            "d7": -1.9,
+            "d30": -5.9,
+            "d90": -10.7,
+            "ago90": 1.37,
+            "up7": 0,
+            "up30": 0,
+            "down7": 2,
+            "down30": 2
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 0.14,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": 0,
+            "up7": 0,
+            "up30": 0,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-09-30",
+            "cur": "USD",
+            "now": 3.91,
+            "d7": -0.6,
+            "d30": -1.9,
+            "d90": 2.6,
+            "ago90": 3.81,
+            "up7": 0,
+            "up30": 0,
+            "down7": 2,
+            "down30": 2
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-09-30",
+            "cur": "USD",
+            "now": 3.94,
+            "d7": -4.8,
+            "d30": -8.8,
+            "d90": -7.7,
+            "ago90": 4.27,
+            "up7": 0,
+            "up30": 0,
+            "down7": 2,
+            "down30": 2
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-06-30",
+            "actual": 1.96,
+            "estimate": 1.7,
+            "surprisePct": 15.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 0.4,
+            "estimate": 0.39,
+            "surprisePct": 3.5,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 0.33,
+            "estimate": 0.36,
+            "surprisePct": -8.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-09-30",
+            "actual": 1.58,
+            "estimate": 1.24,
+            "surprisePct": 27.8,
+            "cur": "USD"
+          }
+        ],
+        "beats": 3,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 0,
+          "ptLowered": 0,
+          "total": 0,
+          "recent": []
+        },
+        "nextEarnings": {
+          "date": "2026-11-18",
+          "upcoming": true,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "post",
+        "grade": "B",
+        "asOf": "2026-11-18",
+        "pivot": 92.75,
+        "stop": 90.24,
+        "adrPct": 3.2,
+        "distToPivotPct": 6.99,
+        "distToPivotAdr": 2.19,
+        "riskPerSharePct": 2.71,
+        "extensionAdr": 2.83,
+        "breakDate": "2026-11-18",
+        "metrics": {
+          "baseBars": 11,
+          "baseWeeks": 2.2,
+          "depthPct": 7.8,
+          "priorMovePct": 21.7,
+          "higherLows": 1,
+          "contraction": 1.19,
+          "closeRange10Adr": 1.4,
+          "surf10": 0.46,
+          "surf20": 1.44,
+          "slope20": 2.75,
+          "baseLow": 85.51,
+          "lastSwingLow": 85.51
+        },
+        "reasons": [
+          "✗ 선행 상승 +22%",
+          "베이스 2.2주",
+          "깊이 7.8%",
+          "저점 상승 1회",
+          "진폭 1.19배 · 10일 종가폭 1.4 ADR",
+          "10일선 +0.5 ADR · 20일선 +1.4 ADR",
+          "20일선 기울기 +2.75%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 22% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 2.2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회 · 진폭 1.19배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 7.8% · ADR 3.2%의 2.4배 · 선행 상승의 절반 11%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 99.23 · 20일선 87.86 · 50일선 82.83"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.29배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "충족",
+            "evidence": "2026-11-18 돌파봉 거래량 = 20일 평균의 2.74배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 2026-11-18 피벗 92.75 돌파 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.71% · ADR 3.2%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.8 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -6417,27 +3055,2091 @@ window.TEAM4_DATA = {
           {
             "item": "C 최근 분기 이익",
             "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 2.1% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+            "evidence": "최근 분기 순이익 전년비 -20.1% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
             "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 2%/-9%/흑자전환 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "evidence": "사이트 최근 3분기 순이익 -20%/-65%/-83% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 92%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 100%"
           },
           {
             "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1.12배(20일 평균 대비) · 오늘 거래대금 2.19배 · 상장주식 250M주(한국투자증권) · 유통주식은 확인 불가"
+            "status": "충족",
+            "evidence": "최근 5일 거래량 1.29배(20일 평균 대비) · 오늘 거래대금 2.79배(상승일) · 상장주식 19M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 19.07% · 3M 18.26% · 6M 22.77% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 2.48% · 3M 11.41% · 6M 9.78% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "PANW",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 339.9200134277344,
+      "marketCap": "258.81B",
+      "volx": 2.44,
+      "volSurgeWk": 2.92,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 92.06,
+      "high52": 78.63,
+      "adr": 5.48,
+      "targetStatus": false,
+      "saleCy": 23.47,
+      "saleNy": 14.44,
+      "epsCy": 8.83,
+      "epsNy": -49.77,
+      "cyTrend": -0.12,
+      "nyTrend": -5.05,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          34.44,
+          31.15,
+          14.93
+        ],
+        "ni": [
+          -211.07,
+          -167.56,
+          61.8
+        ],
+        "opm": [
+          5.04,
+          -6.1,
+          15.3
+        ],
+        "updated": "2026-09-08 06:24:54"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Can Rising Cyber Threats Accelerate Cloudflare's Security Growth?",
+          "url": "https://finance.yahoo.com/technology/ai/articles/rising-cyber-threats-accelerate-cloudflares-120800328.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        }
+      ]
+    },
+    {
+      "ticker": "VIK",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "price": 100.37000274658203,
+      "marketCap": "40.32B",
+      "volx": 2.44,
+      "volSurgeWk": 1.62,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 84.1,
+      "high52": 91.17,
+      "adr": 4.16,
+      "targetStatus": false,
+      "saleCy": 13.17,
+      "saleNy": 21.04,
+      "epsCy": 22.88,
+      "epsNy": 34.55,
+      "cyTrend": -0.62,
+      "nyTrend": -1.18,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          16.49,
+          17.47,
+          27.76
+        ],
+        "ni": [
+          33.8,
+          "적자축소",
+          "흑자전환"
+        ],
+        "opm": [
+          29.4,
+          1.14,
+          20.91
+        ],
+        "updated": "2026-09-07 06:13:27"
+      },
+      "catalyst": {
+        "status": "done",
+        "ticker": "VIK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c3",
+            "statement": "Barron's가 실적 미달에도 주가가 오르는 이유를 다룬 기사를 냈다(본문은 유료라 확인하지 못함).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
+                "publisher": "Barrons.com (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/m/2dc2acc6-ddee-3248-8e85-302c8a8b0aa7/why-viking-cruise-stock-is.html",
+                "date": "2026-11-17",
+                "quote": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Viking은 유럽 강 크루즈와 해양 크루즈를 운영하는 여행 회사로, 승객 운임과 선내 매출로 돈을 번다.",
+        "volumeExplanation": "11월 17일 2027년 예약 현황이 주목되며 Barron's에 따르면 실적 미달에도 주가가 오른 것으로 분석되었습니다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "c1의 조정 EPS(1.11달러), EBITDA(6.74억 달러), Zacks 예상치가 quote에 없음. c2의 해양 크루즈 18% 성장과 예약 32억 달러 주장이 quote의 $5.8 billion(58억 달러)과 맞지 않음",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "11월 17일 3분기 실적이 예상치를 밑돌았지만, 2027년 예약이 크게 차 있고 해양 크루즈 성장세가 강해 주가가 오르며 거래량이 늘었다. 실적 자체보다 내년 예약 현황이 매수세를 부른 것으로 보이며, 2027년 가격 전망이 낮아진 점이 이 이야기를 흔들 수 있다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-18",
+        "carried": true
+      },
+      "yahooNews": [
+        {
+          "title": "Viking: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-3-key-takeaways-long-233724053.html",
+          "date": "2026-11-17",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Viking Holdings Ltd Q3 2026 Earnings Call Summary",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-ltd-q3-2026-215023724.html",
+          "date": "2026-11-17",
+          "publisher": "Moby",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Viking Holdings Ltd (VIK) Q3 2026 Earnings Call Highlights: Revenue Climbs 9.2% to $2. ...",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-ltd-vik-q3-210043987.html",
+          "date": "2026-11-17",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Viking Holdings earnings analysis: questions answered and next catalysts",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-earnings-analysis-questions-205635207.html",
+          "date": "2026-11-17",
+          "publisher": "Investing.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Why Viking Cruise Stock Is Rising Despite Its Earnings Miss",
+          "url": "https://finance.yahoo.com/m/2dc2acc6-ddee-3248-8e85-302c8a8b0aa7/why-viking-cruise-stock-is.html",
+          "date": "2026-11-17",
+          "publisher": "Barrons.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Viking Q3 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-q3-earnings-call-highlights-151532161.html",
+          "date": "2026-11-17",
+          "publisher": "MarketBeat",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Viking (VIK) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-vik-reports-q3-earnings-133003772.html",
+          "date": "2026-11-17",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Viking Holdings Q3 Adjusted Earnings Fall, Revenue Rises",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-q3-adjusted-earnings-122919417.html",
+          "date": "2026-11-17",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Viking Holdings (VIK) Q3 Earnings Miss Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viking-holdings-vik-q3-earnings-121001941.html",
+          "date": "2026-11-17",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        }
+      ]
+    },
+    {
+      "ticker": "HUM",
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "price": 385.7799987792969,
+      "marketCap": "55.40B",
+      "volx": 2.23,
+      "volSurgeWk": 2.28,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 1.99,
+      "high52": 83.35,
+      "adr": 4.43,
+      "targetStatus": false,
+      "saleCy": 25.6,
+      "saleNy": 6.7,
+      "epsCy": -44.32,
+      "epsNy": 93.34,
+      "cyTrend": 4.19,
+      "nyTrend": 7.97,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          26.18,
+          23.47,
+          11.3
+        ],
+        "ni": [
+          27.34,
+          -4.66,
+          "적자확대"
+        ],
+        "opm": [
+          3.33,
+          4.42,
+          -2.49
+        ],
+        "updated": "2026-09-08 07:11:21"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Why UnitedHealth and Other Medicare Advantage Insurers Are Falling",
+          "url": "https://finance.yahoo.com/m/4c1b2b13-c621-3a51-a3d8-2489581affe6/why-unitedhealth-and-other.html",
+          "date": "2026-11-18",
+          "publisher": "Barrons.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "UnitedHealth Sinks 12% on CMS Fraud Rule as Warren Says Giants “Take a Cut at Every Step”",
+          "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-sinks-12-cms-fraud-194116346.html",
+          "date": "2026-11-18",
+          "publisher": "TIKR",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Florida Seniors and Primary Care Providers Agree that Prevention, Affordable Care and Comprehensive Coverage are Keys to Healthy Aging",
+          "url": "https://finance.yahoo.com/healthcare/articles/florida-seniors-primary-care-providers-141800549.html",
+          "date": "2026-11-18",
+          "publisher": "Business Wire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Medicare Overpayment Rule Could Be A Big Test For Humana Stock (HUM)",
+          "url": "https://finance.yahoo.com/healthcare/articles/medicare-overpayment-rule-could-big-141034732.html",
+          "date": "2026-11-18",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "휴마나",
+      "nameEn": "HUMANA INC",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "휴마나",
+        "nameEn": "HUMANA INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049071&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 41155000000,
+              "profit": 75000000,
+              "netIncome": 162000000,
+              "margin": 0.2,
+              "yoy": {
+                "revenue": 26.1,
+                "profit": -81.2,
+                "netIncome": -16.9,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 40867000000,
+              "profit": 1360000000,
+              "netIncome": 694000000,
+              "margin": 3.3,
+              "yoy": {
+                "revenue": 26.2,
+                "profit": 23.9,
+                "netIncome": 27.3,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 39648000000,
+              "profit": 1754000000,
+              "netIncome": 1186000000,
+              "margin": 4.4,
+              "yoy": {
+                "revenue": 23.5,
+                "profit": -12.9,
+                "netIncome": -4.7,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 32515000000,
+              "profit": -808000000,
+              "netIncome": -796000000,
+              "margin": -2.5,
+              "yoy": {
+                "revenue": 11.3,
+                "profit": -48.8,
+                "netIncome": -14.9,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "UnitedHealth (UNH) vs. Humana (HUM): Buy the Dip?",
+              "url": "https://www.nasdaq.com/articles/unitedhealth-unh-vs-humana-hum-buy-dip",
+              "date": "2026-11-17",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Humana Inc. Announces Pricing and Final Results of Cash Tender Offers Up to $1,500,000,000",
+              "url": "https://www.nasdaq.com/articles/humana-inc-announces-pricing-and-final-results-cash-tender-offers-1500000000",
+              "date": "2026-11-17",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Humana Updates On Certain Outstanding Debt Securities",
+              "url": "https://www.nasdaq.com/articles/humana-updates-certain-outstanding-debt-securities",
+              "date": "2026-11-17",
+              "publisher": "RTTNews"
+            },
+            {
+              "title": "Humana Inc. (HUM) Hit a 52 Week High, Can the Run Continue?",
+              "url": "https://www.nasdaq.com/articles/humana-inc-hum-hit-52-week-high-can-run-continue",
+              "date": "2026-11-17",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-17",
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000070/hum-20261116.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-09",
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000068/hum-20261109.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-06",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000064/hum-20261106.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-13",
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000060/hum-20261013.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-09",
+            "itemsKo": [
+              "Reg FD 공시"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-01",
+            "itemsKo": [
+              "Reg FD 공시"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000052/hum-20260901.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "HUM",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 36.53,
+        "pbr": 2.41,
+        "eps": 10.56,
+        "bps": 160,
+        "shares": 120103000,
+        "marketCapM": 46333,
+        "high52": 462.869,
+        "high52Date": "2026-11-16",
+        "low52": 161.5607,
+        "low52Date": "2026-03-20",
+        "last": 385.78,
+        "prevClose": 443.34,
+        "nameKo": "휴마나",
+        "nameEn": "HUMANA INC",
+        "listedOn": null,
+        "exchange": "뉴욕거래소",
+        "listedShares": 120103000
+      },
+      "cnbc": [
+        {
+          "title": "These two dividend payers just joined Evercore ISI’s list of best core ideas",
+          "url": "https://www.cnbc.com/2026/08/04/two-dividend-payers-just-joined-evercore-isis-list-of-best-core-ideas.html",
+          "date": "2026-08-04",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Humana tops estimates, maintains profit outlook as medical costs stay in line",
+          "url": "https://www.cnbc.com/2026/07/29/humana-hum-earnings-q2-2026.html",
+          "date": "2026-07-29",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Dow drops 1,100 points for worst day since April 2025 on fear the Fed is falling behind on inflation",
+          "url": "https://www.cnbc.com/2026/07/28/stock-market-today-live-updates.html",
+          "date": "2026-07-28",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Final Trade: JNJ, HUM, WMT, U",
+          "url": "https://www.cnbc.com/video/2026/11/12/final-trade-jnj-hum-wmt-u.html",
+          "date": "2026-11-12",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Insurers on the move: Here's what you need to know",
+          "url": "https://www.cnbc.com/video/2026/10/09/insurers-on-the-move-heres-what-you-need-to-know.html",
+          "date": "2026-10-09",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "News Update – Market Open",
+          "url": "https://www.cnbc.com/video/2026/10/09/market-open-october-9-2026.html",
+          "date": "2026-10-09",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "estimates": {
+        "ticker": "HUM",
+        "url": "https://finance.yahoo.com/quote/HUM/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": -7.59,
+            "epsLow": -7.84,
+            "epsHigh": -6.67,
+            "epsYearAgo": -3.96,
+            "epsAnalysts": 23,
+            "epsGrowth": -91.8,
+            "epsCur": "USD",
+            "rev": 41372974630,
+            "revAnalysts": 18,
+            "revYearAgo": 32515000000,
+            "revGrowth": 27.2,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 13.32,
+            "epsLow": 11.21,
+            "epsHigh": 15.6,
+            "epsYearAgo": 10.31,
+            "epsAnalysts": 17,
+            "epsGrowth": 29.2,
+            "epsCur": "USD",
+            "rev": 43094678890,
+            "revAnalysts": 11,
+            "revYearAgo": 39648000000,
+            "revGrowth": 8.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 9.54,
+            "epsLow": 9.05,
+            "epsHigh": 10.43,
+            "epsYearAgo": 17.14,
+            "epsAnalysts": 25,
+            "epsGrowth": -44.3,
+            "epsCur": "USD",
+            "rev": 162856460680,
+            "revAnalysts": 15,
+            "revYearAgo": 129664000000,
+            "revGrowth": 25.6,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 18.45,
+            "epsLow": 13.34,
+            "epsHigh": 23.4,
+            "epsYearAgo": 9.54,
+            "epsAnalysts": 26,
+            "epsGrowth": 93.3,
+            "epsCur": "USD",
+            "rev": 173793344640,
+            "revAnalysts": 21,
+            "revYearAgo": 162856460680,
+            "revGrowth": 6.7,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": -7.59,
+            "d7": 0.6,
+            "d30": 3.4,
+            "d90": 3.1,
+            "ago90": -7.84,
+            "up7": 1,
+            "up30": 1,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 13.32,
+            "d7": 2.8,
+            "d30": 8.1,
+            "d90": 8.8,
+            "ago90": 12.24,
+            "up7": 0,
+            "up30": 3,
+            "down7": 1,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 9.54,
+            "d7": 1.9,
+            "d30": 4.2,
+            "d90": 4.3,
+            "ago90": 9.15,
+            "up7": 2,
+            "up30": 4,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 18.45,
+            "d7": 3.2,
+            "d30": 8,
+            "d90": 11.4,
+            "ago90": 16.57,
+            "up7": 1,
+            "up30": 6,
+            "down7": 1,
+            "down30": 0
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": -0.7,
+            "estimate": -1,
+            "surprisePct": 30.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 7.61,
+            "estimate": 7,
+            "surprisePct": 8.8,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 10.31,
+            "estimate": 10.2,
+            "surprisePct": 1.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": -3.96,
+            "estimate": -3.99,
+            "surprisePct": 0.7,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 4,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 16,
+          "ptLowered": 0,
+          "total": 17,
+          "recent": [
+            {
+              "date": "2026-11-12",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 602,
+              "ptPrior": 502
+            },
+            {
+              "date": "2026-11-11",
+              "firm": "TD Cowen",
+              "action": "main",
+              "from": "Hold",
+              "to": "Hold",
+              "ptAction": "Raises",
+              "pt": 430,
+              "ptPrior": 370
+            },
+            {
+              "date": "2026-11-10",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 484,
+              "ptPrior": 393
+            },
+            {
+              "date": "2026-11-09",
+              "firm": "Piper Sandler",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 526,
+              "ptPrior": 463
+            },
+            {
+              "date": "2026-11-09",
+              "firm": "Guggenheim",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 521,
+              "ptPrior": 471
+            },
+            {
+              "date": "2026-11-09",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 587,
+              "ptPrior": 582
+            },
+            {
+              "date": "2026-11-09",
+              "firm": "Cantor Fitzgerald",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 495,
+              "ptPrior": 460
+            },
+            {
+              "date": "2026-10-13",
+              "firm": "Mizuho",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 495,
+              "ptPrior": 468
+            },
+            {
+              "date": "2026-10-12",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 495,
+              "ptPrior": 405
+            },
+            {
+              "date": "2026-10-12",
+              "firm": "Truist Securities",
+              "action": "main",
+              "from": "Hold",
+              "to": "Hold",
+              "ptAction": "Raises",
+              "pt": 475,
+              "ptPrior": 415
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-06",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "post",
+        "grade": "C",
+        "asOf": "2026-11-18",
+        "pivot": 456.5,
+        "stop": 439.33,
+        "adrPct": 4.43,
+        "distToPivotPct": -15.49,
+        "distToPivotAdr": -3.49,
+        "riskPerSharePct": 3.76,
+        "extensionAdr": -2.8,
+        "breakDate": "2026-11-16",
+        "metrics": {
+          "baseBars": 25,
+          "baseWeeks": 5,
+          "depthPct": 12.5,
+          "priorMovePct": 29.1,
+          "higherLows": 0,
+          "contraction": 1.77,
+          "closeRange10Adr": 2.3,
+          "surf10": 1.21,
+          "surf20": 1.52,
+          "slope20": 0.89,
+          "baseLow": 399.35,
+          "lastSwingLow": 399.35
+        },
+        "reasons": [
+          "✗ 선행 상승 +29%",
+          "베이스 5주",
+          "깊이 12.5%",
+          "✗ 저점 상승 0회",
+          "진폭 1.77배 · 10일 종가폭 2.3 ADR",
+          "10일선 +1.2 ADR · 20일선 +1.5 ADR",
+          "20일선 기울기 +0.89%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 29% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 5주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.77배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 12.5% · ADR 4.43%의 2.8배 · 선행 상승의 절반 15%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "미충족",
+            "evidence": "종가 385.78 · 20일선 425.1 · 50일선 410.39 — 50일선 아래(원문: 사지 않음)"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.27배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "2026-11-16 돌파봉 거래량 = 20일 평균의 0.83배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 2026-11-16 피벗 456.5 돌파 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.76% · ADR 4.43%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 -2.8 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 27.3% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 27%/-5%/적자확대 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 83%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.27배(20일 평균 대비) · 오늘 거래대금 2.23배 · 상장주식 120M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 73.17% · 3M 42.06% · 6M 15.83% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "MGEE",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "price": 80.19999694824219,
+      "marketCap": "2.97B",
+      "volx": 2.16,
+      "volSurgeWk": 2.69,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 76.47,
+      "high52": 94.64,
+      "adr": 2.25,
+      "targetStatus": false,
+      "saleCy": 4.71,
+      "saleNy": 5.8,
+      "epsCy": 10.83,
+      "epsNy": 2.85,
+      "cyTrend": 3.39,
+      "nyTrend": 1.08,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          1.09,
+          10.84,
+          10.58
+        ],
+        "ni": [
+          25.87,
+          16.56,
+          5.81
+        ],
+        "opm": [
+          20.25,
+          21.9,
+          17.14
+        ],
+        "updated": "2026-09-07 07:54:11"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "3 Defensive Dividend Stocks To Watch If Washington Shakes Markets",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-defensive-dividend-stocks-watch-121542727.html",
+          "date": "2026-11-05",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "MGE 에너지",
+      "nameEn": "MGE ENERGY INC",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "MGE 에너지",
+        "nameEn": "MGE ENERGY INC",
+        "financialsError": "매출 태그 없음",
+        "news": {
+          "items": [
+            {
+              "title": "ENLAY vs. MGEE: Which Stock Is the Better Value Option?",
+              "url": "https://www.nasdaq.com/articles/enlay-vs-mgee-which-stock-better-value-option",
+              "date": "2026-11-11",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Freedom Broker Upgrades MGE Energy to Buy from Hold",
+              "url": "https://www.nasdaq.com/articles/freedom-broker-upgrades-mge-energy-buy-hold",
+              "date": "2026-11-06",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "MGE Energy, Inc. Reports Third-Quarter 2026 GAAP Earnings of $56.4 million",
+              "url": "https://www.nasdaq.com/articles/mge-energy-inc-reports-third-quarter-2026-gaap-earnings-564-million",
+              "date": "2026-11-04",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Why MGE (MGEE) is a Great Dividend Stock Right Now",
+              "url": "https://www.nasdaq.com/articles/why-mge-mgee-great-dividend-stock-right-now-0",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "MGE Energy, Inc. Profit Rises In Q3",
+              "url": "https://www.nasdaq.com/articles/mge-energy-inc-profit-rises-q3",
+              "date": "2026-11-04",
+              "publisher": "RTTNews"
+            },
+            {
+              "title": "MGE (MGEE) Q3 Earnings and Revenues Top Estimates",
+              "url": "https://www.nasdaq.com/articles/mge-mgee-q3-earnings-and-revenues-top-estimates",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Earnings Preview: MGE (MGEE) Q3 Earnings Expected to Decline",
+              "url": "https://www.nasdaq.com/articles/earnings-preview-mge-mgee-q3-earnings-expected-decline",
+              "date": "2026-10-28",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "MGE (MGEE) Upgraded to Buy: Here's Why",
+              "url": "https://www.nasdaq.com/articles/mge-mgee-upgraded-buy-heres-why",
+              "date": "2026-10-22",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-05",
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526449172/mgee-20261105.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-04",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526446285/mgee-20261104.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-05",
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526414025/mgee-20261001.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-21",
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526360327/mgee-20260821.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526334011/mgee-20260805.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-23",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1161728/000119312526279300/mgee-20260619.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "MGEE",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 19.71,
+        "pbr": 2.1,
+        "eps": 4.07,
+        "bps": 38.13,
+        "shares": 37823500,
+        "marketCapM": 3033,
+        "high52": 84.7369,
+        "high52Date": "2026-07-07",
+        "low52": 68.01,
+        "low52Date": "2026-09-25",
+        "last": 80.2,
+        "prevClose": 78.23,
+        "nameKo": "MGE 에너지",
+        "nameEn": "MGE ENERGY INC",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 37823500
+      },
+      "cnbc": [],
+      "estimates": {
+        "ticker": "MGEE",
+        "url": "https://finance.yahoo.com/quote/MGEE/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 0.59,
+            "epsLow": 0.59,
+            "epsHigh": 0.59,
+            "epsYearAgo": 0.64,
+            "epsAnalysts": 1,
+            "epsGrowth": -7.1,
+            "epsCur": "USD",
+            "rev": 197500000,
+            "revAnalysts": 2,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 1.3,
+            "epsLow": 1.18,
+            "epsHigh": 1.36,
+            "epsYearAgo": 1.32,
+            "epsAnalysts": 3,
+            "epsGrowth": -1.8,
+            "epsCur": "USD",
+            "rev": 235263760,
+            "revAnalysts": 2,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 4.12,
+            "epsLow": 3.93,
+            "epsHigh": 4.33,
+            "epsYearAgo": 3.72,
+            "epsAnalysts": 5,
+            "epsGrowth": 10.8,
+            "epsCur": "USD",
+            "rev": 778683450,
+            "revAnalysts": 6,
+            "revYearAgo": 743654000,
+            "revGrowth": 4.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 4.24,
+            "epsLow": 4.06,
+            "epsHigh": 4.35,
+            "epsYearAgo": 4.12,
+            "epsAnalysts": 5,
+            "epsGrowth": 2.8,
+            "epsCur": "USD",
+            "rev": 823854250,
+            "revAnalysts": 6,
+            "revYearAgo": 778683450,
+            "revGrowth": 5.8,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 0.59,
+            "d7": -8.4,
+            "d30": -17.4,
+            "d90": -8.6,
+            "ago90": 0.65,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 0
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 1.3,
+            "d7": -0.8,
+            "d30": 4.6,
+            "d90": -2.5,
+            "ago90": 1.33,
+            "up7": 2,
+            "up30": 2,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 4.12,
+            "d7": 3.3,
+            "d30": 3.4,
+            "d90": 4.9,
+            "ago90": 3.93,
+            "up7": 2,
+            "up30": 2,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 4.24,
+            "d7": 1,
+            "d30": 1.1,
+            "d90": 0,
+            "ago90": 4.24,
+            "up7": 2,
+            "up30": 2,
+            "down7": 0,
+            "down30": 0
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 1.48,
+            "estimate": 1.16,
+            "surprisePct": 27.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 0.89,
+            "estimate": 0.77,
+            "surprisePct": 15.6,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 1.32,
+            "estimate": 1.13,
+            "surprisePct": 16.8,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 0.64,
+            "estimate": 0.64,
+            "surprisePct": 0,
+            "cur": "USD"
+          }
+        ],
+        "beats": 3,
+        "ratings": {
+          "upgrades": 1,
+          "downgrades": 0,
+          "initiations": 2,
+          "ptRaised": 3,
+          "ptLowered": 2,
+          "total": 7,
+          "recent": [
+            {
+              "date": "2026-11-07",
+              "firm": "Ladenburg Thalmann",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 86.5,
+              "ptPrior": 81
+            },
+            {
+              "date": "2026-11-06",
+              "firm": "Freedom Broker",
+              "action": "up",
+              "from": "Hold",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 87,
+              "ptPrior": 79
+            },
+            {
+              "date": "2026-10-21",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Raises",
+              "pt": 72,
+              "ptPrior": 71
+            },
+            {
+              "date": "2026-10-15",
+              "firm": "JP Morgan",
+              "action": "init",
+              "from": null,
+              "to": "Neutral",
+              "ptAction": "Announces",
+              "pt": 76,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-09-24",
+              "firm": "B of A Securities",
+              "action": "init",
+              "from": null,
+              "to": "Neutral",
+              "ptAction": "Announces",
+              "pt": 76,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-09-18",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Lowers",
+              "pt": 71,
+              "ptPrior": 74
+            },
+            {
+              "date": "2026-08-21",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Lowers",
+              "pt": 74,
+              "ptPrior": 76
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-04",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "B",
+        "asOf": "2026-11-18",
+        "pivot": 81.12,
+        "stop": 79.31,
+        "adrPct": 2.25,
+        "distToPivotPct": -1.13,
+        "distToPivotAdr": -0.5,
+        "riskPerSharePct": 2.23,
+        "extensionAdr": 0.5,
+        "breakDate": null,
+        "metrics": {
+          "baseBars": 10,
+          "baseWeeks": 2,
+          "depthPct": 7.3,
+          "priorMovePct": 19.3,
+          "higherLows": 1,
+          "contraction": 1.09,
+          "closeRange10Adr": 1.1,
+          "surf10": 0.5,
+          "surf20": 1.88,
+          "slope20": 2.39,
+          "baseLow": 75.2,
+          "lastSwingLow": 75.2
+        },
+        "reasons": [
+          "✗ 선행 상승 +19%",
+          "베이스 2주",
+          "깊이 7.3%",
+          "저점 상승 1회",
+          "진폭 1.09배 · 10일 종가폭 1.1 ADR",
+          "10일선 +0.5 ADR · 20일선 +1.9 ADR",
+          "20일선 기울기 +2.39%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 19% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회 · 진폭 1.09배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 7.3% · ADR 2.25%의 3.2배 · 선행 상승의 절반 10%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 80.2 · 20일선 76.81 · 50일선 73.86"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.08배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 81.12까지 -1.13% (-0.5 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.23% · ADR 2.25%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.5 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 25.9% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "사이트 최근 3분기 순이익 26%/17%/6% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 95%"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량 1.08배(20일 평균 대비) · 오늘 거래대금 2.16배(상승일) · 상장주식 38M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 11.23% · 3M 33.41% · 6M 42.25% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "PNRG",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "price": 220.42999267578125,
+      "marketCap": "0.30B",
+      "volx": 2.12,
+      "volSurgeWk": 2.18,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 78.46,
+      "high52": 79.04,
+      "adr": 4.71,
+      "targetStatus": false,
+      "saleCy": -7.96,
+      "saleNy": -18.97,
+      "epsCy": null,
+      "epsNy": -55.38,
+      "cyTrend": -0.86,
+      "nyTrend": 6.19,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          1.17,
+          -21.28,
+          -15.67
+        ],
+        "ni": [
+          102.26,
+          -52.5,
+          48.75
+        ],
+        "opm": [
+          18.87,
+          13.28,
+          3.21
+        ],
+        "updated": "2026-09-08 06:11:18"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "PRIMEENERGY RESOURCES CORPORATION REPORTS THIRD QUARTER 2026 RESULTS",
+          "url": "https://finance.yahoo.com/energy/articles/primeenergy-resources-corporation-reports-third-212900101.html",
+          "date": "2026-11-16",
+          "publisher": "GlobeNewswire",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "프라임에너지 리소시스",
+      "nameEn": "PRIMEENERGY RESOURCES CORPORATION",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "프라임에너지 리소시스",
+        "nameEn": "PRIMEENERGY RESOURCES CORPORATION",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000056868&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 45286000,
+              "profit": 15693000,
+              "netIncome": 7290000,
+              "margin": 34.7,
+              "yoy": {
+                "revenue": -1.5,
+                "profit": 13.9,
+                "netIncome": -31,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 42474000,
+              "profit": null,
+              "netIncome": 6529000,
+              "margin": null,
+              "yoy": {
+                "revenue": 1.2,
+                "profit": null,
+                "netIncome": 102.3,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 39404000,
+              "profit": null,
+              "netIncome": 4339000,
+              "margin": null,
+              "yoy": {
+                "revenue": -21.3,
+                "profit": null,
+                "netIncome": -52.5,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 51747000,
+              "profit": null,
+              "netIncome": 3387000,
+              "margin": null,
+              "yoy": {
+                "revenue": -14.5,
+                "profit": null,
+                "netIncome": 48.7,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "PrimeEnergy vs. SandRidge: Which Energy Stock Is the Better Buy?",
+              "url": "https://www.nasdaq.com/articles/primeenergy-vs-sandridge-which-energy-stock-better-buy",
+              "date": "2026-10-06",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "PNRG Gains 24% in a Year: Time to Bet on the Stock or Wait?",
+              "url": "https://www.nasdaq.com/articles/pnrg-gains-24-year-time-bet-stock-or-wait",
+              "date": "2026-09-21",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "PNRG Stock Gains as Q2 Earnings Double Y/Y on Higher Oil Prices",
+              "url": "https://www.nasdaq.com/articles/pnrg-stock-gains-q2-earnings-double-y-y-higher-oil-prices",
+              "date": "2026-08-26",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "PrimeEnergy Q1 Earnings Fall Y/Y on Unfavorable Gas Prices",
+              "url": "https://www.nasdaq.com/articles/primeenergy-q1-earnings-fall-y-y-unfavorable-gas-prices",
+              "date": "2026-06-01",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "PrimeEnergy Resources (PNRG) Price Target Increased by 10.00% to 179.52",
+              "url": "https://www.nasdaq.com/articles/primeenergy-resources-pnrg-price-target-increased-1000-17952",
+              "date": "2026-04-28",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "PrimeEnergy 2025 Earnings Decline Y/Y on Weak Oil Prices",
+              "url": "https://www.nasdaq.com/articles/primeenergy-2025-earnings-decline-y-y-weak-oil-prices",
+              "date": "2026-04-17",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "PrimeEnergy Gains 35% in 3 Months: Time to Bet on the Stock or Wait?",
+              "url": "https://www.nasdaq.com/articles/primeenergy-gains-35-3-months-time-bet-stock-or-wait",
+              "date": "2026-02-11",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-04",
+            "itemsKo": [
+              "중요 계약 체결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774926025662/pnrg20260804_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-11",
+            "itemsKo": [
+              "주주총회 표결",
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774926020279/pnrg20260611_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-27",
+            "itemsKo": [
+              "중요 계약 체결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774926006089/pnrg20260227_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-07-01",
+            "itemsKo": [
+              "4.01",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774925021599/pnrg20250630_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-06-05",
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774925019560/pnrg20250605_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2024-08-01",
+            "itemsKo": [
+              "중요 계약 체결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774924024235/pnrg20240801_8k.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "PNRG",
+        "fetchedAt": "2026-11-18",
+        "source": "한국투자증권 Open API",
+        "per": 21.26,
+        "pbr": 1.6,
+        "eps": 10.38,
+        "bps": 137.64,
+        "shares": 1582600,
+        "marketCapM": 349,
+        "high52": 278.9,
+        "high52Date": "2026-05-19",
+        "low52": 133.4,
+        "low52Date": "2025-11-17",
+        "last": 220.72,
+        "prevClose": 188.76,
+        "nameKo": "프라임에너지 리소시스",
+        "nameEn": "PRIMEENERGY RESOURCES CORPORATION",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 1582600
+      },
+      "cnbc": [],
+      "estimates": {
+        "ticker": "PNRG",
+        "url": "https://finance.yahoo.com/quote/PNRG/analysis/",
+        "fetchedAt": "2026-11-18",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 3.5,
+            "epsLow": 3.5,
+            "epsHigh": 3.5,
+            "epsYearAgo": null,
+            "epsAnalysts": 1,
+            "epsGrowth": null,
+            "epsCur": "USD",
+            "rev": 0,
+            "revAnalysts": 0,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": null
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 1.87,
+            "epsLow": 1.87,
+            "epsHigh": 1.87,
+            "epsYearAgo": 1.82,
+            "epsAnalysts": 1,
+            "epsGrowth": 2.8,
+            "epsCur": "USD",
+            "rev": 0,
+            "revAnalysts": 0,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": null
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 13.85,
+            "epsLow": 13.85,
+            "epsHigh": 13.85,
+            "epsYearAgo": null,
+            "epsAnalysts": 1,
+            "epsGrowth": null,
+            "epsCur": "USD",
+            "rev": 179000000,
+            "revAnalysts": 1,
+            "revYearAgo": 189052000,
+            "revGrowth": -5.3,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 6.18,
+            "epsLow": 6.18,
+            "epsHigh": 6.18,
+            "epsYearAgo": 13.85,
+            "epsAnalysts": 1,
+            "epsGrowth": -55.4,
+            "epsCur": "USD",
+            "rev": 169000000,
+            "revAnalysts": 1,
+            "revYearAgo": 179000000,
+            "revGrowth": -5.6,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 3.5,
+            "d7": 199.1,
+            "d30": 199.1,
+            "d90": 5.7,
+            "ago90": 3.31,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 1.87,
+            "d7": 21.4,
+            "d30": 21.4,
+            "d90": null,
+            "ago90": 0,
+            "up7": 0,
+            "up30": 0,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 13.85,
+            "d7": -0.9,
+            "d30": -0.9,
+            "d90": -45.1,
+            "ago90": 25.25,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 6.18,
+            "d7": 6.2,
+            "d30": 6.2,
+            "d90": -68.4,
+            "ago90": 19.54,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 1
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 3.11,
+            "estimate": 3.01,
+            "surprisePct": 3.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 2.75,
+            "estimate": 5.9,
+            "surprisePct": -53.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 1.82,
+            "estimate": 8.57,
+            "surprisePct": -78.8,
+            "cur": "USD"
+          }
+        ],
+        "beats": 1,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 0,
+          "ptLowered": 0,
+          "total": 0,
+          "recent": []
+        },
+        "nextEarnings": {
+          "date": "2026-11-16",
+          "upcoming": false,
+          "estimated": true
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "C",
+        "asOf": "2026-11-18",
+        "pivot": 229.38,
+        "stop": 218.99,
+        "adrPct": 4.71,
+        "distToPivotPct": -3.9,
+        "distToPivotAdr": -0.83,
+        "riskPerSharePct": 4.53,
+        "extensionAdr": 2.44,
+        "breakDate": null,
+        "metrics": {
+          "baseBars": 18,
+          "baseWeeks": 3.6,
+          "depthPct": 21.4,
+          "priorMovePct": 28.7,
+          "higherLows": 0,
+          "contraction": 1.14,
+          "closeRange10Adr": 3.8,
+          "surf10": 2.44,
+          "surf20": 1.57,
+          "slope20": -0.43,
+          "baseLow": 180.3,
+          "lastSwingLow": 180.3
+        },
+        "reasons": [
+          "✗ 선행 상승 +29%",
+          "베이스 3.6주",
+          "깊이 21.4%",
+          "✗ 저점 상승 0회",
+          "✗ 진폭 1.14배 · 10일 종가폭 3.8 ADR",
+          "✗ 10일선 +2.4 ADR · 20일선 +1.6 ADR",
+          "✗ 20일선 기울기 -0.43%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 29% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 3.6주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.14배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "미충족",
+            "evidence": "베이스 깊이 21.4% · ADR 4.71%의 4.5배 · 선행 상승의 절반 14%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 220.43 · 20일선 204.12 · 50일선 206.74"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.13배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 229.38까지 -3.9% (-0.83 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.53% · ADR 4.71%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.4 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 102.3% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 102%/-52%/49% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 79%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.13배(20일 평균 대비) · 오늘 거래대금 2.12배 · 상장주식 2M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 20.15% · 3M 21.24% · 6M 9.33% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -6457,15 +5159,15 @@ window.TEAM4_DATA = {
       "ticker": "GFF",
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
-      "price": 104.75,
+      "price": 107.27999877929688,
       "marketCap": "4.53B",
-      "volx": 2.18,
-      "volSurgeWk": 2.32,
+      "volx": 2.1,
+      "volSurgeWk": 1.77,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 58.62,
-      "high52": 96.1,
-      "adr": 3.64,
+      "clsPos": 82.69,
+      "high52": 98.42,
+      "adr": 3.8,
       "targetStatus": false,
       "saleCy": -27.01,
       "saleNy": 3.13,
@@ -6544,7 +5246,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-18",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -6621,7 +5323,7 @@ window.TEAM4_DATA = {
       "nameKo": "그리폰",
       "nameEn": "GRIFFON CORP",
       "detail": {
-        "fetchedAt": "2026-11-18",
+        "fetchedAt": "2026-11-19",
         "nameKo": "그리폰",
         "nameEn": "GRIFFON CORP",
         "financials": {
@@ -6697,6 +5399,12 @@ window.TEAM4_DATA = {
               "publisher": "The Motley Fool"
             },
             {
+              "title": "Griffon Q4 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/griffon-q4-earnings-call-highlights",
+              "date": "2026-11-17",
+              "publisher": "MarketBeat"
+            },
+            {
               "title": "Griffon Corporation Reports Fiscal 2026 Revenue of $1.85 billion and Announces $400 million Share Repurchase Increase",
               "url": "https://www.nasdaq.com/articles/griffon-corporation-reports-fiscal-2026-revenue-185-billion-and-announces-400-million",
               "date": "2026-11-17",
@@ -6730,12 +5438,6 @@ window.TEAM4_DATA = {
               "title": "Griffon (GFF) Stock Declines While Market Improves: Some Information for Investors",
               "url": "https://www.nasdaq.com/articles/griffon-gff-stock-declines-while-market-improves-some-information-investors",
               "date": "2026-11-03",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Griffon (GFF) Outperforms Broader Market: What You Need to Know",
-              "url": "https://www.nasdaq.com/articles/griffon-gff-outperforms-broader-market-what-you-need-know",
-              "date": "2026-10-27",
               "publisher": "Zacks"
             }
           ]
@@ -7011,37 +5713,37 @@ window.TEAM4_DATA = {
       "setup": {
         "state": "pre",
         "grade": "B",
-        "asOf": "2026-11-17",
+        "asOf": "2026-11-18",
         "pivot": 109,
-        "stop": 105.19,
-        "adrPct": 3.64,
-        "distToPivotPct": -3.9,
-        "distToPivotAdr": -1.07,
-        "riskPerSharePct": 3.5,
-        "extensionAdr": 0.12,
+        "stop": 104.92,
+        "adrPct": 3.8,
+        "distToPivotPct": -1.58,
+        "distToPivotAdr": -0.42,
+        "riskPerSharePct": 3.74,
+        "extensionAdr": 0.74,
         "breakDate": null,
         "metrics": {
-          "baseBars": 15,
-          "baseWeeks": 3,
+          "baseBars": 16,
+          "baseWeeks": 3.2,
           "depthPct": 10.8,
           "priorMovePct": 25.9,
           "higherLows": 1,
-          "contraction": 1.47,
-          "closeRange10Adr": 2,
-          "surf10": 0.12,
-          "surf20": 0.72,
-          "slope20": 2.78,
+          "contraction": 1.46,
+          "closeRange10Adr": 1.8,
+          "surf10": 0.74,
+          "surf20": 1.14,
+          "slope20": 2.68,
           "baseLow": 97.23,
           "lastSwingLow": 100.92
         },
         "reasons": [
           "✗ 선행 상승 +26%",
-          "베이스 3주",
+          "베이스 3.2주",
           "깊이 10.8%",
           "저점 상승 1회",
-          "진폭 1.47배 · 10일 종가폭 2 ADR",
-          "10일선 +0.1 ADR · 20일선 +0.7 ADR",
-          "20일선 기울기 +2.78%"
+          "진폭 1.46배 · 10일 종가폭 1.8 ADR",
+          "10일선 +0.7 ADR · 20일선 +1.1 ADR",
+          "20일선 기울기 +2.68%"
         ]
       },
       "checks": {
@@ -7054,27 +5756,27 @@ window.TEAM4_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 3주 · 기준 2~8주"
+            "evidence": "베이스 3.2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.47배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 1.46배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 10.8% · ADR 3.64%의 3배 · 선행 상승의 절반 13%"
+            "evidence": "베이스 깊이 10.8% · ADR 3.8%의 2.8배 · 선행 상승의 절반 13%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 104.75 · 20일선 101.99 · 50일선 97.25"
+            "evidence": "종가 107.28 · 20일선 102.62 · 50일선 97.44"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.21배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.37배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -7083,18 +5785,18 @@ window.TEAM4_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 109까지 -3.9% (-1.07 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 109까지 -1.58% (-0.42 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.5% · ADR 3.64%"
+            "evidence": "예비 손절 폭 3.74% · ADR 3.8%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.7 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -7116,17 +5818,17 @@ window.TEAM4_DATA = {
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 96%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 98%"
           },
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 1.21배(20일 평균 대비) · 오늘 거래대금 2.18배(상승일) · 상장주식 45M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.37배(20일 평균 대비) · 오늘 거래대금 2.1배(상승일) · 상장주식 45M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 11.77% · 3M 28.81% · 6M 24.21% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 8.79% · 3M 22.41% · 6M 20.33% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -7143,148 +5845,213 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "JJSF",
-      "sector": "Consumer Defensive",
-      "industry": "Packaged Foods",
-      "price": 90.5999984741211,
-      "marketCap": "1.65B",
-      "volx": 2.11,
-      "volSurgeWk": 2.74,
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "price": 122.36000061035156,
+      "marketCap": "204.96B",
+      "volx": 2,
+      "volSurgeWk": 1.7,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 74.09,
-      "high52": 94.63,
-      "adr": 2.77,
+      "clsPos": 84.97,
+      "high52": 99.18,
+      "adr": 2.27,
       "targetStatus": false,
-      "saleCy": -4.41,
-      "saleNy": 2.04,
-      "epsCy": -8.43,
-      "epsNy": 0.77,
-      "cyTrend": -1.92,
-      "nyTrend": -8.8,
+      "saleCy": 7.51,
+      "saleNy": 4.55,
+      "epsCy": 16.89,
+      "epsNy": 7.92,
+      "cyTrend": 0.06,
+      "nyTrend": -0.12,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          -6.24,
-          -3.17,
-          -5.19
+          6.76,
+          6.55,
+          5.23
         ],
         "ni": [
-          -20.15,
-          -65.24,
-          -82.83
+          -49.87,
+          -31.39,
+          -5.95
         ],
         "opm": [
-          10.86,
-          0.52,
-          0.19
+          15.29,
+          14.11,
+          14.91
         ],
-        "updated": "2026-09-07 07:39:45"
+        "updated": "2026-09-08 06:10:03"
       },
       "catalyst": {
         "status": "done",
-        "ticker": "JJSF",
+        "ticker": "DIS",
         "category": 1,
-        "company": "J&J Snack Foods는 프레첼·냉동 간식·쿠키 등 간식류를 학교·식당·마트에 공급해 돈을 번다.",
-        "volumeExplanation": "회사가 2026회계연도 4분기 실적을 오늘(11월 18일) 장 시작 전에 발표하도록 예정돼 있어, 실적 발표가 거래량이 평소의 약 2배로 늘어난 가장 가까운 이유다. 다만 실제 실적 내용은 확인하지 못해 서프라이즈 여부는 알 수 없다.",
         "claims": [
           {
             "id": "c1",
-            "statement": "발표 내용(예상치 상회 여부, 가이던스)은 확인되지 않았다.",
+            "statement": "디즈니가 11월 17일 4분기 실적을 발표했고, 이익과 매출 모두 시장 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "J&J Snack Foods schedules fourth quarter and fiscal year earnings conference call and webcast",
-                "publisher": "Finviz",
-                "url": "https://finviz.com/news/412460/j-j-snack-foods-schedules-fourth-quarter-and-fiscal-year-earnings-conference-call-and-webcast",
-                "date": "2026-11-18",
-                "quote": "will release financial results for its fourth quarter and fiscal year ended September 26, 2026, before the stock market opens on Wednesday, November 18, 2026",
+                "title": "Walt Disney (DIS) Beats Q4 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/walt-disney-dis-beats-q4-earnings-and-revenue-estimates",
+                "date": "2026-11-17",
+                "quote": "Walt Disney (DIS) Beats Q4 Earnings and Revenue Estimates",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ],
-            "statementOriginal": "JJSF는 회계연도 4분기·연간 실적을 2026-11-18 장 시작 전에 발표하고 같은 날 오전 10시(미 동부)에 컨퍼런스콜을 열 예정이었다. 발표 내용(예상치 상회 여부, 가이던스)은 확인되지 않았다."
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 뒤 주가가 신고가를 기록했다는 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/disney-stock-hits-new-highs-after-strong-q4-earnings-time-buy-dis",
+                "date": "2026-11-17",
+                "quote": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "confidence": "low",
+        "company": "디즈니는 영화·방송·스트리밍과 테마파크·크루즈 같은 체험 사업으로 돈을 번다.",
+        "volumeExplanation": "11월 17일 4분기 실적이 예상치를 웃돌아 거래량이 평소의 2배 넘게 늘었다. 실적 발표 직후 주가가 신고가를 찍으며 매수세가 몰렸다. 다만 마진 압박을 지적하는 기사도 있어 다음 분기 이익률이 유지되는지가 이 해석을 확인할 조건이다.",
+        "confidence": "medium",
         "factcheck": {
-          "verdict": "partial",
+          "verdict": "pass",
           "removed": [],
-          "reason": "Statement c1 includes specific conference call time (오전 10시/10 AM ET) that is not stated in the provided quote. The quote confirms the earnings release on 11-18 before market open and that a call is scheduled, but does not specify the 10 AM time. The statement should remove or qualify this detail unless additional source confirms it."
+          "reason": ""
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-18",
-        "carried": false
+        "carried": true
       },
-      "yahooNews": [],
-      "nameKo": "제이앤제이 스낵 푸즈",
-      "nameEn": "J & J SNACK FOODS CORP",
+      "yahooNews": [
+        {
+          "title": "Disney (DIS) Stock Slips As Q4 Earnings Contrast Margin Compression",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-dis-stock-slips-q4-002132949.html",
+          "date": "2026-11-18",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Disney: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-3-key-takeaways-long-235840597.html",
+          "date": "2026-11-17",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Earnings Beat Might Change The Bull Case For Disney Stock (DIS)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-might-change-bull-220808498.html",
+          "date": "2026-11-17",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "The Walt Disney Co (DIS) (Q4 2026) Earnings Call Highlights: Record Experiences Demand, $3 ...",
+          "url": "https://finance.yahoo.com/media-advertising/articles/walt-disney-co-dis-q4-210131071.html",
+          "date": "2026-11-17",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Disney earnings analysis: questions answered and next catalysts",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-earnings-analysis-questions-answered-205138736.html",
+          "date": "2026-11-17",
+          "publisher": "Investing.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Disney Stocks Rise 1.57% as Streaming Profit Doubles and Buybacks Reach $9 Billion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/disney-stocks-rise-1-57-185744108.html",
+          "date": "2026-11-17",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Walt Disney (DIS) Q4 2026 Earnings Call Transcript",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-q4-2026-183107872.html",
+          "date": "2026-11-17",
+          "publisher": "Motley Fool",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "월트 디즈니",
+      "nameEn": "WALT DISNEY COMPANY (THE)",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "제이앤제이 스낵 푸즈",
-        "nameEn": "J & J SNACK FOODS CORP",
+        "fetchedAt": "2026-11-19",
+        "nameKo": "월트 디즈니",
+        "nameEn": "WALT DISNEY COMPANY (THE)",
         "financials": {
           "profitLabel": "영업이익",
           "marginLabel": "영업이익률",
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000785956&type=10-Q",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001744489&type=10-Q",
           "quarters": [
+            {
+              "periodEnd": "2026-10-03",
+              "derived": true,
+              "revenue": 25947000000,
+              "profit": 4970000000,
+              "netIncome": 2612000000,
+              "margin": 19.2,
+              "yoy": {
+                "revenue": 15.5,
+                "profit": 42.8,
+                "netIncome": 98.9,
+                "priorEnd": "2025-09-27"
+              }
+            },
             {
               "periodEnd": "2026-06-27",
               "derived": false,
-              "revenue": 425957000,
-              "profit": 46274000,
-              "netIncome": 35332000,
-              "margin": 10.9,
+              "revenue": 25248000000,
+              "profit": 5555000000,
+              "netIncome": 2638000000,
+              "margin": 22,
               "yoy": {
-                "revenue": -6.2,
-                "profit": -23.6,
-                "netIncome": -20.1,
+                "revenue": 6.8,
+                "profit": 21.4,
+                "netIncome": -49.9,
                 "priorEnd": "2025-06-28"
               }
             },
             {
               "periodEnd": "2026-03-28",
               "derived": false,
-              "revenue": 344819000,
-              "profit": 1803000,
-              "netIncome": 1677000,
-              "margin": 0.5,
+              "revenue": 25168000000,
+              "profit": 4603000000,
+              "netIncome": 2247000000,
+              "margin": 18.3,
               "yoy": {
-                "revenue": -3.2,
-                "profit": 29835.2,
-                "netIncome": -65.2,
+                "revenue": 6.5,
+                "profit": 3.8,
+                "netIncome": -31.4,
                 "priorEnd": "2025-03-29"
               }
             },
             {
               "periodEnd": "2025-12-27",
               "derived": false,
-              "revenue": 343778000,
-              "profit": 637000,
-              "netIncome": 883000,
-              "margin": 0.2,
+              "revenue": 25981000000,
+              "profit": 4600000000,
+              "netIncome": 2402000000,
+              "margin": 17.7,
               "yoy": {
-                "revenue": -5.2,
-                "profit": -89.8,
-                "netIncome": -82.8,
+                "revenue": 5.2,
+                "profit": -9.1,
+                "netIncome": -6,
                 "priorEnd": "2024-12-28"
-              }
-            },
-            {
-              "periodEnd": "2025-09-27",
-              "derived": true,
-              "revenue": 410243000,
-              "profit": 11467000,
-              "netIncome": 11381000,
-              "margin": 2.8,
-              "yoy": {
-                "revenue": -3.9,
-                "profit": -71.2,
-                "netIncome": -61.6,
-                "priorEnd": "2024-09-28"
               }
             }
           ]
@@ -7292,44 +6059,64 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
-              "title": "JJSF Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/jjsf-q3-2026-earnings-call-transcript",
-              "date": "2026-08-12",
+              "title": "Disney Stock Hits New Highs After Strong Q4 Earnings: Time to Buy DIS?",
+              "url": "https://www.nasdaq.com/articles/disney-stock-hits-new-highs-after-strong-q4-earnings-time-buy-dis",
+              "date": "2026-11-17",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Walt Disney (DIS) Q4 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/walt-disney-dis-q4-2026-earnings-call-transcript",
+              "date": "2026-11-17",
               "publisher": "The Motley Fool"
             },
             {
-              "title": "J&J Snack Foods (JJSF) Beats Q3 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/jj-snack-foods-jjsf-beats-q3-earnings-and-revenue-estimates",
-              "date": "2026-08-05",
+              "title": "Walt Disney Reportedly Plans Cost-Cutting Programme To Save About $3 Bln Annually By FY29",
+              "url": "https://www.nasdaq.com/articles/walt-disney-reportedly-plans-cost-cutting-programme-save-about-3-bln-annually-fy29",
+              "date": "2026-11-17",
+              "publisher": "RTTNews"
+            },
+            {
+              "title": "What Walt Disney (DIS) Said on Its Q4 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-walt-disney-dis-said-its-q4-earnings-call",
+              "date": "2026-11-17",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Disney (DIS) Reports Q4 Earnings: What Key Metrics Have to Say",
+              "url": "https://www.nasdaq.com/articles/disney-dis-reports-q4-earnings-what-key-metrics-have-say",
+              "date": "2026-11-17",
               "publisher": "Zacks"
             },
             {
-              "title": "Analysts Estimate J&J Snack Foods (JJSF) to Report a Decline in Earnings: What to Look Out for",
-              "url": "https://www.nasdaq.com/articles/analysts-estimate-jj-snack-foods-jjsf-report-decline-earnings-what-look-out",
-              "date": "2026-07-29",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Bear of the Day: J&J Snack Foods (JJSF)",
-              "url": "https://www.nasdaq.com/articles/bear-day-jj-snack-foods-jjsf",
-              "date": "2026-07-20",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "JJSF Q2 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/jjsf-q2-2026-earnings-call-transcript",
-              "date": "2026-05-06",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "J&J Snack Foods (JJSF) Q2 Earnings Surpass Estimates",
-              "url": "https://www.nasdaq.com/articles/jj-snack-foods-jjsf-q2-earnings-surpass-estimates",
-              "date": "2026-05-06",
+              "title": "Why Walt Disney (DIS) is a Top Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-walt-disney-dis-top-stock-long-term-1",
+              "date": "2026-11-17",
               "publisher": "Zacks"
             }
           ]
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-17",
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000067/dis-20261117.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-17",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/dis-20261117.htm"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-08-05",
@@ -7338,19 +6125,7 @@ window.TEAM4_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926025782/jjsf20260804_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-10",
-            "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926020193/jjsf20260610_8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000056/dis-20260805.htm"
           },
           {
             "form": "8-K",
@@ -7360,2227 +6135,219 @@ window.TEAM4_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926015010/jjsf20260506_8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000036/dis-20260506.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-02-18",
+            "filingDate": "2026-03-20",
             "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926004396/jjsf20260217_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-03",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774926002719/jjsf20260202_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-11-25",
-            "itemsKo": [
-              "5.03",
+              "임원 변동",
+              "주주총회 표결",
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/785956/000143774925036158/jjsf20251124_8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026020172/dis-20260318.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-03",
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1744489/000119312526088356/d116769d8k.htm"
           }
         ],
         "krReports": {
-          "total": 0,
-          "reports": []
+          "total": 4,
+          "reports": [
+            {
+              "date": "2026-08-11",
+              "broker": "신한투자증권",
+              "analyst": "지인해",
+              "title": "[월트 디즈니 (NYS:DIS)] 성장스토리 속 커져가는 주주환원",
+              "summary": "- 예상보다 빠른 SVOD 수익화와 견조한 경험 부문 이익률 확인. 호실적 기 반 주주환원 확대 기조 긍정적. 수급 쏠림현상만 완화돼도 탄력받을 주가- 매출 252억달러(YoY +7%, 이하 동일), 영업이익 56억달러(+21%), 조정 EPS 2.06달러(+28%)로 가이던스 상회. 사업부별 손익은 엔터테인먼트/체 험/스포츠 각각 17억달러(+64%), 30억달러(+20%), 9억달러(-17%)- 가장 뚜렷한 이익 개선은 1) SVOD(디즈니+) 부문으로 매출 55억달러 (+11%), 영업이익 7억달러(+116%), OPM 13% 기록. 구독료(+15%)는 가 입자 증가(+9%) 및 요금 인상(+3%)이 견인",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxkcgkgglegxzgcgxeeem.pdf",
+              "pages": "7"
+            },
+            {
+              "date": "2026-06-02",
+              "broker": "iM증권",
+              "analyst": "황지원",
+              "title": "[월트 디즈니 (NYS:DIS)] 스트리밍 사업의 두 자릿수 마진율 가시화",
+              "summary": "- 디즈니·마블·스타워즈·픽사 등 강력한 IP를 기반으로 콘텐츠(영화/방송/OTT)→ 체험(테마파크/리조트/크루즈)→ 굿즈 소비(MD/라이선싱)로 이어지는 선순환 수익 구조를 보유하고 있는 미국의 대표적인 종합 엔터테인먼트 기업이다- 과거 DTC 사업 부문의 적자 지속이 밸류에이션 할인 요소로 작용해왔는데, 2분기 사상 첫 두 자릿수 영업이익률을 기록했으며 연간 영업이익률 가이던스 또한 10% 이상으로 제시했다- 조정 EPS 기준 FY26 12% 성장, FY27 두 자릿수 성장을 가이던스로 제시하며 긍정적인 이익 성장 전망을 유지했다",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziklzkiizzgcgxeeem.pdf",
+              "pages": "4"
+            },
+            {
+              "date": "2026-02-26",
+              "broker": "신한투자증권",
+              "analyst": "지인해",
+              "title": "[월트 디즈니 (NYS:DIS)] 하반기 가면 갈수록",
+              "summary": "- 1Q26 매출액 260억달러(YoY 5.2%, 이하동일), 영업이익 46억달러(- 9.1%), EPS 1.6달러(-7.4%)로 시장 기대치 대비 상회. 사업부문별 손익은 엔터테인먼트/체험/스포츠 각각 11억(-35%), 33억(+6%), 2억달러(-23%)- 아쉬운 점은 1) 엔터 부문 OPM 9.5%(-6.2%p). <주토피아2>, <아바타:불 과 재> 흥행에도 프로그램 제작 및 마케팅 비용 증가 부담으로 상쇄. 그럼 에도 주목할만한 더 많은 요소는 2) 캐쉬카우 역할인 체험 부문에서 최초 분기 매출 100억달러 돌파, 손익 33억달러, OPM 33.1% 달성- 호실적에도 주가 부진. 2Q26 체험 부문 가이던스를 ‘해외 관광객 감소’를 반영해 보수적으로 제시한 영향. 1Q26 손익 기여도가 72%인 만큼 핵심 사업부의 지표 감소는 우려를 키울만한 요소",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcxczkleckllgcgxeeem.pdf",
+              "pages": "8"
+            },
+            {
+              "date": "2026-02-03",
+              "broker": "유진투자증권",
+              "analyst": "이현지",
+              "title": "[월트 디즈니 (NYS:DIS)] 하반기를 기다리자",
+              "summary": "- Q1 FY2026 매출액 260억 달러(+5.2%yoy), 영업이익 46억 달러(-9.1%yoy, OPM 17.7%), 조정EPS 1.63달러(- 7.4%yoy)로 낮아진 컨센서스 부합하는 실적 기록- Entertainment 부문은 <주토피아 2>, <아바타: 불의 재>가 각각 글로벌 박스오피스 10억 달러를 돌파하며 극장 수 익이 매출을 견인했으나, 극장 개봉작 증가로 인한 제작 및 마케팅 비용이 함께 증가하며 부문이익 감소- Q2 FY2026 가이던스로 3개 부문 모두 이익 전년동기 대비 감소~유지 수준을 제시하면서, 실적발표 후 시장은 예 견된 감익보다도 아쉬운 가이던스에 민감하게 반응",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcclekizkmxqegcgxeeem.pdf",
+              "pages": "5"
+            }
+          ]
         }
       },
       "kis": {
-        "ticker": "JJSF",
+        "ticker": "DIS",
         "fetchedAt": "2026-11-18",
         "source": "한국투자증권 Open API",
-        "per": 34.83,
-        "pbr": 1.89,
-        "eps": 2.6,
-        "bps": 47.89,
-        "shares": 18681600,
-        "marketCapM": 1693,
-        "high52": 95.7437,
-        "high52Date": "2026-01-20",
-        "low52": 67.5091,
-        "low52Date": "2026-05-12",
-        "last": 90.6,
-        "prevClose": 88.26,
-        "nameKo": "제이앤제이 스낵 푸즈",
-        "nameEn": "J & J SNACK FOODS CORP",
+        "per": 24.12,
+        "pbr": 1.84,
+        "eps": 4.85,
+        "bps": 63.6,
+        "shares": 1726690000,
+        "marketCapM": 201919,
+        "high52": 122.72,
+        "high52Date": "2026-11-17",
+        "low52": 91.484,
+        "low52Date": "2026-03-27",
+        "last": 116.94,
+        "prevClose": 118.7,
+        "nameKo": "월트 디즈니",
+        "nameEn": "WALT DISNEY COMPANY (THE)",
         "listedOn": null,
-        "exchange": "나스닥",
-        "listedShares": 18681600
+        "exchange": "뉴욕거래소",
+        "listedShares": 1726690000
       },
-      "cnbc": [],
-      "estimates": {
-        "ticker": "JJSF",
-        "url": "https://finance.yahoo.com/quote/JJSF/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-09-30",
-            "eps": 1.23,
-            "epsLow": 1.13,
-            "epsHigh": 1.34,
-            "epsYearAgo": 1.58,
-            "epsAnalysts": 3,
-            "epsGrowth": -22.4,
-            "epsCur": "USD",
-            "rev": 398825000,
-            "revAnalysts": 4,
-            "revYearAgo": 410243000,
-            "revGrowth": -2.8,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2026-12-31",
-            "eps": 0.14,
-            "epsLow": 0.14,
-            "epsHigh": 0.14,
-            "epsYearAgo": 0.33,
-            "epsAnalysts": 1,
-            "epsGrowth": -57.6,
-            "epsCur": "USD",
-            "rev": 346200000,
-            "revAnalysts": 1,
-            "revYearAgo": 343778000,
-            "revGrowth": 0.7,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-09-30",
-            "eps": 3.91,
-            "epsLow": 3.83,
-            "epsHigh": 4.03,
-            "epsYearAgo": 4.27,
-            "epsAnalysts": 3,
-            "epsGrowth": -8.4,
-            "epsCur": "USD",
-            "rev": 1513350000,
-            "revAnalysts": 4,
-            "revYearAgo": 1583233000,
-            "revGrowth": -4.4,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-09-30",
-            "eps": 3.94,
-            "epsLow": 3.7,
-            "epsHigh": 4.22,
-            "epsYearAgo": 3.91,
-            "epsAnalysts": 3,
-            "epsGrowth": 0.8,
-            "epsCur": "USD",
-            "rev": 1544150000,
-            "revAnalysts": 4,
-            "revYearAgo": 1513350000,
-            "revGrowth": 2,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-09-30",
-            "cur": "USD",
-            "now": 1.23,
-            "d7": -1.9,
-            "d30": -5.9,
-            "d90": -10.7,
-            "ago90": 1.37,
-            "up7": 0,
-            "up30": 0,
-            "down7": 2,
-            "down30": 2
-          },
-          {
-            "period": "+1q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 0.14,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": 0,
-            "up7": 0,
-            "up30": 0,
-            "down7": 0,
-            "down30": 0
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-09-30",
-            "cur": "USD",
-            "now": 3.91,
-            "d7": -0.6,
-            "d30": -1.9,
-            "d90": 2.6,
-            "ago90": 3.81,
-            "up7": 0,
-            "up30": 0,
-            "down7": 2,
-            "down30": 2
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-09-30",
-            "cur": "USD",
-            "now": 3.94,
-            "d7": -4.8,
-            "d30": -8.8,
-            "d90": -7.7,
-            "ago90": 4.27,
-            "up7": 0,
-            "up30": 0,
-            "down7": 2,
-            "down30": 2
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-06-30",
-            "actual": 1.96,
-            "estimate": 1.7,
-            "surprisePct": 15.1,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 0.4,
-            "estimate": 0.39,
-            "surprisePct": 3.5,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 0.33,
-            "estimate": 0.36,
-            "surprisePct": -8.3,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-09-30",
-            "actual": 1.58,
-            "estimate": 1.24,
-            "surprisePct": 27.8,
-            "cur": "USD"
-          }
-        ],
-        "beats": 3,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 0,
-          "ptLowered": 0,
-          "total": 0,
-          "recent": []
+      "cnbc": [
+        {
+          "title": "Stocks making the biggest moves Tuesday: Nvidia, CoreWeave, Nebius & more",
+          "url": "https://www.cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html",
+          "date": "2026-11-17",
+          "publisher": "CNBC",
+          "kind": "article"
         },
-        "nextEarnings": {
+        {
+          "title": "Disney beats estimates, targets $3 billion in savings through cost cutting",
+          "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+          "date": "2026-11-17",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Market's Nvidia obsession obscuring an opportunity in this name",
+          "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
+          "date": "2026-11-16",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Final Trades: Fortinet, UnitedHealth, Disney and CrowdStrike",
+          "url": "https://www.cnbc.com/video/2026/11/18/final-trades-fortinet-unitedhealth-disney-and-crowdstrike.html",
           "date": "2026-11-18",
-          "upcoming": true,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-17",
-        "pivot": 92.75,
-        "stop": 90.24,
-        "adrPct": 2.77,
-        "distToPivotPct": -2.32,
-        "distToPivotAdr": -0.84,
-        "riskPerSharePct": 2.71,
-        "extensionAdr": 0.46,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
-          "depthPct": 7.8,
-          "priorMovePct": 21.7,
-          "higherLows": 1,
-          "contraction": 1.19,
-          "closeRange10Adr": 1.4,
-          "surf10": 0.46,
-          "surf20": 1.44,
-          "slope20": 2.75,
-          "baseLow": 85.51,
-          "lastSwingLow": 85.51
-        },
-        "reasons": [
-          "✗ 선행 상승 +22%",
-          "베이스 2.2주",
-          "깊이 7.8%",
-          "저점 상승 1회",
-          "진폭 1.19배 · 10일 종가폭 1.4 ADR",
-          "10일선 +0.5 ADR · 20일선 +1.4 ADR",
-          "20일선 기울기 +2.75%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "선행 상승 22% (약함) · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.19배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 7.8% · ADR 2.77%의 2.8배 · 선행 상승의 절반 11%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 90.6 · 20일선 86.98 · 50일선 82.49"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.02배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 92.75까지 -2.32% (-0.84 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 2.71% · ADR 2.77%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 0.5 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 -20.1% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 -20%/-65%/-83% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 95%"
-          },
-          {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 1.02배(20일 평균 대비) · 오늘 거래대금 2.11배(상승일) · 상장주식 19M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 11.14% · 3M 33.41% · 6M 23.94% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": "2026-11-18"
-    },
-    {
-      "ticker": "VRSK",
-      "sector": "Industrials",
-      "industry": "Consulting Services",
-      "price": 205.30999755859375,
-      "marketCap": "27.29B",
-      "volx": 2.07,
-      "volSurgeWk": 2.74,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 21.31,
-      "high52": 91.06,
-      "adr": 3.47,
-      "targetStatus": false,
-      "saleCy": 4.72,
-      "saleNy": 6.76,
-      "epsCy": 7.5,
-      "epsNy": 13.13,
-      "cyTrend": -0.19,
-      "nyTrend": 0.16,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          4.36,
-          3.93,
-          5.87
-        ],
-        "ni": [
-          -9.75,
-          0.82,
-          -6.27
-        ],
-        "opm": [
-          45.11,
-          45,
-          40.27
-        ],
-        "updated": "2026-09-21 06:46:57"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "VRSK",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Verisk는 보험사 등에 데이터 분석과 위험 평가 서비스를 구독 형태로 팔아 돈을 버는 회사입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "H&R Block Q1 Earnings Meet Estimates, Revenues Increase 10% Y/Y",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/h-r-block-q1-earnings-185400020.html",
-          "date": "2026-11-10",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Raymond James Adjusts Price Target on Verisk Analytics to $245 From $230",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-adjusts-price-target-112757955.html",
-          "date": "2026-11-10",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Why Verisk (VRSK) shares are trading lower today",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-verisk-vrsk-shares-trading-062936156.html",
-          "date": "2026-11-10",
-          "publisher": "StockStory",
-          "via": "Yahoo"
-        },
-        {
-          "title": "QXO is Set to Report Q3 Earnings: Here's What Investors Should Know",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/qxo-set-report-q3-earnings-155900182.html",
-          "date": "2026-11-09",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "What Verisk Analytics (VRSK) Said on Its Q3 Earnings Call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-vrsk-said-q3-001433849.html",
-          "date": "2026-11-07",
-          "publisher": "MarketBeat",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Verisk (VRSK) Stock Looks Below Fair Value Despite Its 28% Run",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/verisk-vrsk-stock-looks-below-191758687.html",
-          "date": "2026-11-06",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "BMO Capital Adjusts Price Target on Verisk Analytics to $244 From $217",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bmo-capital-adjusts-price-target-170319913.html",
-          "date": "2026-11-06",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "베리스크 애널리틱스",
-      "nameEn": "VERISK ANALYTICS INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "베리스크 애널리틱스",
-        "nameEn": "VERISK ANALYTICS INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-09-30",
-              "derived": false,
-              "revenue": 809000000,
-              "profit": 365300000,
-              "netIncome": 219200000,
-              "margin": 45.2,
-              "yoy": {
-                "revenue": 5.3,
-                "profit": 5.6,
-                "netIncome": -2.8,
-                "priorEnd": "2025-09-30"
-              }
-            },
-            {
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 806300000,
-              "profit": 363700000,
-              "netIncome": 228600000,
-              "margin": 45.1,
-              "yoy": {
-                "revenue": 4.4,
-                "profit": 2.7,
-                "netIncome": -9.8,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 782600000,
-              "profit": 352200000,
-              "netIncome": 234200000,
-              "margin": 45,
-              "yoy": {
-                "revenue": 3.9,
-                "profit": 6.7,
-                "netIncome": 0.8,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 778800000,
-              "profit": 313600000,
-              "netIncome": 197200000,
-              "margin": 40.3,
-              "yoy": {
-                "revenue": 5.9,
-                "profit": -0.9,
-                "netIncome": -6.3,
-                "priorEnd": "2024-12-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "What Verisk Analytics (VRSK) Said on Its Q3 Earnings Call",
-              "url": "https://www.nasdaq.com/articles/what-verisk-analytics-vrsk-said-its-q3-earnings-call",
-              "date": "2026-11-07",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Verisk Analytics, Inc. Reports Third Quarter 2026 Revenue of $809 million",
-              "url": "https://www.nasdaq.com/articles/verisk-analytics-inc-reports-third-quarter-2026-revenue-809-million",
-              "date": "2026-11-05",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Verisk (VRSK) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/verisk-vrsk-q3-2026-earnings-call-transcript",
-              "date": "2026-11-05",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Verisk Analytics Q3 Earnings Beat Estimates, Revenues Jump 5% Y/Y",
-              "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-earnings-beat-estimates-revenues-jump-5-y-y",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Verisk Analytics (VRSK) Surpasses Q3 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/verisk-analytics-vrsk-surpasses-q3-earnings-and-revenue-estimates",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Verisk Analytics Q3 Adj. EBITDA, Revenues Rise; Confirms FY26 Outlook - Update",
-              "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-adj-ebitda-revenues-rise-confirms-fy26-outlook-update",
-              "date": "2026-11-05",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Verisk Analytics Q3 26 Earnings Conference Call At 8:30 AM ET",
-              "url": "https://www.nasdaq.com/articles/verisk-analytics-q3-26-earnings-conference-call-8-30-am-et",
-              "date": "2026-11-05",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Verisk Analytics Inc. Q3 Sales Increase",
-              "url": "https://www.nasdaq.com/articles/verisk-analytics-inc-q3-sales-increase",
-              "date": "2026-11-05",
-              "publisher": "RTTNews"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-05",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926035082/vrsk20260820_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-29",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1442145/000095010326016441/dp255815_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-08",
-            "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526385242/d133172d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-18",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526355652/d172499d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-29",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926024748/vrsk20260526_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-28",
-            "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1442145/000119312526321243/d86289d8k.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "VRSK",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 31.55,
-        "pbr": 0,
-        "eps": 6.51,
-        "bps": 0,
-        "shares": 128286000,
-        "marketCapM": 26338,
-        "high52": 225.4757,
-        "high52Date": "2026-07-29",
-        "low52": 155.1001,
-        "low52Date": "2026-05-14",
-        "last": 205.31,
-        "prevClose": 212.76,
-        "nameKo": "베리스크 애널리틱스",
-        "nameEn": "VERISK ANALYTICS INC",
-        "listedOn": null,
-        "exchange": "나스닥",
-        "listedShares": 128286000
-      },
-      "cnbc": [
-        {
-          "title": "AI fears have hit this data stock. Investor Sarat Sethi sees a buying opportunity",
-          "url": "https://www.cnbc.com/2026/09/11/sarat-sethi-buying-verisk-analytics.html",
-          "date": "2026-09-11",
           "publisher": "CNBC",
-          "kind": "article"
+          "kind": "video"
         },
         {
-          "title": "Stocks making the biggest moves midday: NetApp, MarineMax, Doximity & more",
-          "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
-          "date": "2026-08-10",
+          "title": "Tuesday, November 17, 2026: Cramer discusses what to listen for in Nvidia's earnings call",
+          "url": "https://www.cnbc.com/investingclub/video/2026/11/17/tuesday-november-17-2026-cramer-discusses-what-to-look-for-with-nvidia-ahead-of-earnings-call.html",
+          "date": "2026-11-17",
           "publisher": "CNBC",
-          "kind": "article"
+          "kind": "video"
         },
         {
-          "title": "Stocks making the biggest moves premarket: Berkshire, Intel, GameStop, & more",
-          "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html",
-          "date": "2026-08-10",
+          "title": "The Pre-Market Rundown 2",
+          "url": "https://www.cnbc.com/video/2026/11/17/the-pre-market-rundown-2-november-17-2026.html",
+          "date": "2026-11-17",
           "publisher": "CNBC",
-          "kind": "article"
+          "kind": "video"
         },
         {
-          "title": "Why this insurance analytics stock could be more 'bulletproof' than investors realize",
-          "url": "https://www.cnbc.com/video/2026/09/11/why-this-insurance-analytics-stock-could-be-more-bulletproof-than-investors-realize.html",
-          "date": "2026-09-11",
+          "title": "Disney's Q4 earnings show fundamentals are pretty strong: MoffettNathanson's Fishman",
+          "url": "https://www.cnbc.com/video/2026/11/17/disneys-q4-earnings-show-fundamentals-are-pretty-strong-moffettnathansons-fishman.html",
+          "date": "2026-11-17",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Jason Bazinet: Disney's late earnings may signal a major strategic pivot",
+          "url": "https://www.cnbc.com/video/2026/11/17/jason-bazinet-disneys-late-earnings-may-signal-a-major-strategic-pivot.html",
+          "date": "2026-11-17",
           "publisher": "CNBC",
           "kind": "video"
         }
       ],
       "estimates": {
-        "ticker": "VRSK",
-        "url": "https://finance.yahoo.com/quote/VRSK/analysis/",
+        "ticker": "DIS",
+        "url": "https://finance.yahoo.com/quote/DIS/analysis/",
         "fetchedAt": "2026-11-18",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 1.93,
-            "epsLow": 1.84,
-            "epsHigh": 1.98,
-            "epsYearAgo": 1.82,
-            "epsAnalysts": 16,
-            "epsGrowth": 5.8,
-            "epsCur": "USD",
-            "rev": 819647550,
-            "revAnalysts": 14,
-            "revYearAgo": 778800000,
-            "revGrowth": 5.2,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 2.06,
-            "epsLow": 2.01,
-            "epsHigh": 2.11,
-            "epsYearAgo": 1.82,
-            "epsAnalysts": 15,
-            "epsGrowth": 13.3,
-            "epsCur": "USD",
-            "rev": 835697160,
-            "revAnalysts": 10,
-            "revYearAgo": 782600000,
-            "revGrowth": 6.8,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 7.7,
-            "epsLow": 7.6,
-            "epsHigh": 7.84,
-            "epsYearAgo": 7.16,
-            "epsAnalysts": 19,
-            "epsGrowth": 7.5,
-            "epsCur": "USD",
-            "rev": 3217617150,
-            "revAnalysts": 16,
-            "revYearAgo": 3072700000,
-            "revGrowth": 4.7,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 8.71,
-            "epsLow": 8.45,
-            "epsHigh": 8.98,
-            "epsYearAgo": 7.7,
-            "epsAnalysts": 19,
-            "epsGrowth": 13.1,
-            "epsCur": "USD",
-            "rev": 3435082050,
-            "revAnalysts": 16,
-            "revYearAgo": 3217617150,
-            "revGrowth": 6.8,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1.93,
-            "d7": -2.3,
-            "d30": -2.6,
-            "d90": -2.6,
-            "ago90": 1.98,
-            "up7": 1,
-            "up30": 0,
-            "down7": 9,
-            "down30": 9
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 2.06,
-            "d7": 0,
-            "d30": 0,
-            "d90": 0.1,
-            "ago90": 2.06,
-            "up7": 4,
-            "up30": 4,
-            "down7": 3,
-            "down30": 3
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 7.7,
-            "d7": -0.1,
-            "d30": -0.2,
-            "d90": 0,
-            "ago90": 7.69,
-            "up7": 5,
-            "up30": 5,
-            "down7": 6,
-            "down30": 7
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 8.71,
-            "d7": 0.1,
-            "d30": 0.2,
-            "d90": 0.1,
-            "ago90": 8.7,
-            "up7": 2,
-            "up30": 4,
-            "down7": 7,
-            "down30": 8
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 1.96,
-            "estimate": 1.92,
-            "surprisePct": 2,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 1.98,
-            "estimate": 1.93,
-            "surprisePct": 2.4,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 1.82,
-            "estimate": 1.74,
-            "surprisePct": 4.7,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1.82,
-            "estimate": 1.61,
-            "surprisePct": 12.9,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 2,
-          "ptLowered": 3,
-          "total": 5,
-          "recent": [
-            {
-              "date": "2026-11-06",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 250,
-              "ptPrior": 225
-            },
-            {
-              "date": "2026-11-06",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 265,
-              "ptPrior": 260
-            },
-            {
-              "date": "2026-10-13",
-              "firm": "BMO Capital",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Lowers",
-              "pt": 217,
-              "ptPrior": 248
-            },
-            {
-              "date": "2026-10-13",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 215,
-              "ptPrior": 235
-            },
-            {
-              "date": "2026-09-08",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 225,
-              "ptPrior": 275
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-11-05",
-          "upcoming": false,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-17",
-        "pivot": 216.42,
-        "stop": 209.3,
-        "adrPct": 3.47,
-        "distToPivotPct": -5.13,
-        "distToPivotAdr": -1.48,
-        "riskPerSharePct": 3.29,
-        "extensionAdr": -0.05,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 8,
-          "baseWeeks": 1.6,
-          "depthPct": 10.4,
-          "priorMovePct": 34,
-          "higherLows": 1,
-          "contraction": 1.19,
-          "closeRange10Adr": 2.1,
-          "surf10": -0.05,
-          "surf20": 0.69,
-          "slope20": 2.54,
-          "baseLow": 193.81,
-          "lastSwingLow": 193.81
-        },
-        "reasons": [
-          "선행 상승 +34%",
-          "✗ 베이스 1.6주",
-          "깊이 10.4%",
-          "저점 상승 1회",
-          "진폭 1.19배 · 10일 종가폭 2.1 ADR",
-          "10일선 -0.1 ADR · 20일선 +0.7 ADR",
-          "20일선 기울기 +2.54%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 34% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "미충족",
-            "evidence": "베이스 1.6주 — 너무 짧음 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.19배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 10.4% · ADR 3.47%의 3배 · 선행 상승의 절반 17%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 205.31 · 20일선 200.38 · 50일선 185.38"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.03배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 216.42까지 -5.13% (-1.48 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 3.29% · ADR 3.47%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 0 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 -9.7% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 -10%/1%/-6% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 91%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1.03배(20일 평균 대비) · 오늘 거래대금 2.07배 · 상장주식 128M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 18.35% · 3M 15.83% · 6M 24.57% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "XEL",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "price": 80.72000122070312,
-      "marketCap": "52.13B",
-      "volx": 2.05,
-      "volSurgeWk": 1.75,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 20.45,
-      "high52": 97.78,
-      "adr": 1.88,
-      "targetStatus": false,
-      "saleCy": 6.5,
-      "saleNy": 10.27,
-      "epsCy": 9.05,
-      "epsNy": 10.19,
-      "cyTrend": 0.51,
-      "nyTrend": 0.57,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -5.11,
-          2.94,
-          14.13
-        ],
-        "ni": [
-          31.98,
-          15.11,
-          22.2
-        ],
-        "opm": [
-          22.64,
-          18.75,
-          16.29
-        ],
-        "updated": "2026-09-08 07:36:52"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "XEL",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Xcel Energy는 미국 중서부·서부에서 전기와 천연가스를 공급하는 규제 받는 전력 회사입니다. 규제 요금으로 안정적인 매출을 올립니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "3 Great Nuclear Energy Stocks To Own In November 2026",
-          "url": "https://finance.yahoo.com/energy/articles/3-great-nuclear-energy-stocks-202115548.html",
-          "date": "2026-11-16",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Jefferies Adjusts Price Target on Xcel Energy to $103 From $99",
-          "url": "https://finance.yahoo.com/energy/articles/jefferies-adjusts-price-target-xcel-110733365.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "A $4.6 Billion Fund Dumps These 2 Stocks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/4-6-billion-fund-dumps-110632782.html",
-          "date": "2026-11-14",
-          "publisher": "TIKR",
-          "via": "Yahoo"
-        },
-        {
-          "title": "ETFs Are Net Sellers of Xcel Energy (XEL) on Tuesday",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-xcel-energy-110347500.html",
-          "date": "2026-11-12",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "These Nuclear Energy Stocks Are Top Of The Class For November 2026",
-          "url": "https://finance.yahoo.com/energy/articles/nuclear-energy-stocks-top-class-171641594.html",
-          "date": "2026-11-10",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Business People: Securian taps retired Xcel CEO to lead board",
-          "url": "https://finance.yahoo.com/small-business/articles/business-people-securian-taps-retired-182300330.html",
-          "date": "2026-11-08",
-          "publisher": "Pioneer Press, St. Paul, Minn.",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "엑셀 에너지",
-      "nameEn": "XCEL ENERGY INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "엑셀 에너지",
-        "nameEn": "XCEL ENERGY INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000072903&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2019-09-30",
-              "derived": false,
-              "revenue": 3013000000,
-              "profit": 758000000,
-              "netIncome": 527000000,
-              "margin": 25.2,
-              "yoy": {
-                "revenue": -1.1,
-                "profit": 8.9,
-                "netIncome": 7.3,
-                "priorEnd": "2018-09-30"
-              }
-            },
-            {
-              "periodEnd": "2019-06-30",
-              "derived": false,
-              "revenue": 2577000000,
-              "profit": 410000000,
-              "netIncome": 238000000,
-              "margin": 15.9,
-              "yoy": {
-                "revenue": -3,
-                "profit": -8.9,
-                "netIncome": -10.2,
-                "priorEnd": "2018-06-30"
-              }
-            },
-            {
-              "periodEnd": "2019-03-31",
-              "derived": false,
-              "revenue": 3141000000,
-              "profit": 486000000,
-              "netIncome": 315000000,
-              "margin": 15.5,
-              "yoy": {
-                "revenue": 6.4,
-                "profit": 1.3,
-                "netIncome": 8.2,
-                "priorEnd": "2018-03-31"
-              }
-            },
-            {
-              "periodEnd": "2018-12-31",
-              "derived": false,
-              "revenue": 2880000000,
-              "profit": 339000000,
-              "netIncome": 214000000,
-              "margin": 11.8,
-              "yoy": {
-                "revenue": 3,
-                "profit": -23,
-                "netIncome": 13.2,
-                "priorEnd": "2017-12-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Xcel Energy Inc. Prices Upsized $2,200,000,000 Offering of 2.625% Convertible Senior Notes",
-              "url": "https://www.nasdaq.com/articles/xcel-energy-inc-prices-upsized-2200000000-offering-2625-convertible-senior-notes",
-              "date": "2026-11-03",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "XEL Crosses Above 3% Yield Territory",
-              "url": "https://www.nasdaq.com/articles/xel-crosses-above-3-yield-territory",
-              "date": "2026-11-02",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "Xcel Energy Announces $2 Bln Convertible Notes Offering, With $300 Mln Option; Shares Fall 3%",
-              "url": "https://www.nasdaq.com/articles/xcel-energy-announces-2-bln-convertible-notes-offering-300-mln-option-shares-fall-3",
-              "date": "2026-11-02",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "What Xcel Energy (XEL) Said on Its Q3 Earnings Call",
-              "url": "https://www.nasdaq.com/articles/what-xcel-energy-xel-said-its-q3-earnings-call",
-              "date": "2026-10-30",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Xcel Energy (XEL) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/xcel-energy-xel-q3-2026-earnings-call-transcript",
-              "date": "2026-10-29",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Xcel Energy Q3 26 Earnings Conference Call At 10:00 AM ET",
-              "url": "https://www.nasdaq.com/articles/xcel-energy-q3-26-earnings-conference-call-10-00-am-et",
-              "date": "2026-10-29",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Xcel Energy Inc. Reports Third Quarter 2026 GAAP Earnings of $960 million",
-              "url": "https://www.nasdaq.com/articles/xcel-energy-inc-reports-third-quarter-2026-gaap-earnings-960-million",
-              "date": "2026-10-29",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Xcel Energy (XEL) Q3 Earnings and Revenues Top Estimates",
-              "url": "https://www.nasdaq.com/articles/xcel-energy-xel-q3-earnings-and-revenues-top-estimates",
-              "date": "2026-10-29",
-              "publisher": "Zacks"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-05",
-            "itemsKo": [
-              "2.03",
-              "3.02",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526449951/d482423d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-03",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526444394/d205441d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-02",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/d132424d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-30",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526441768/d183277d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-29",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000178/xel-20261029.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-09",
-            "itemsKo": [
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000175/xel-20261009.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "XEL",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 22.1,
-        "pbr": 2.1,
-        "eps": 3.65,
-        "bps": 38.53,
-        "shares": 641874000,
-        "marketCapM": 51812,
-        "high52": 82.558,
-        "high52Date": "2026-05-01",
-        "low52": 68.72,
-        "low52Date": "2026-09-25",
-        "last": 80.72,
-        "prevClose": 81.21,
-        "nameKo": "엑셀 에너지",
-        "nameEn": "XCEL ENERGY INC",
-        "listedOn": "2018-01-02",
-        "exchange": "나스닥",
-        "listedShares": 641874000
-      },
-      "cnbc": [
-        {
-          "title": "Google says it can build data centers the right way. Some are skeptical",
-          "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
-          "date": "2026-10-19",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Xcel Energy CEO Frenzel: We think we can responsibly develop data centers",
-          "url": "https://www.cnbc.com/video/2026/11/09/xcel-energy-ceo-frenzel-we-think-we-can-responsibly-develop-data-centers.html",
-          "date": "2026-11-09",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Google's head of energy on how AI data centers can improve the grid",
-          "url": "https://www.cnbc.com/video/2026/10/19/googles-head-of-energy-on-how-ai-data-centers-can-improve-the-grid.html",
-          "date": "2026-10-19",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "The race to power AI data centers is reshaping America's electric grid",
-          "url": "https://www.cnbc.com/video/2026/10/19/the-race-to-power-ai-data-centers-is-reshaping-americas-electric-grid.html",
-          "date": "2026-10-19",
-          "publisher": "CNBC",
-          "kind": "video"
-        }
-      ],
-      "estimates": {
-        "ticker": "XEL",
-        "url": "https://finance.yahoo.com/quote/XEL/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 0.85,
-            "epsLow": 0.77,
-            "epsHigh": 1,
-            "epsYearAgo": 0.96,
-            "epsAnalysts": 10,
-            "epsGrowth": -11.8,
-            "epsCur": "USD",
-            "rev": 4181116400,
-            "revAnalysts": 5,
-            "revYearAgo": 3561000000,
-            "revGrowth": 17.4,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 1.05,
-            "epsLow": 0.99,
-            "epsHigh": 1.1,
-            "epsYearAgo": 0.91,
-            "epsAnalysts": 7,
-            "epsGrowth": 15.4,
-            "epsCur": "USD",
-            "rev": 4613400840,
-            "revAnalysts": 4,
-            "revYearAgo": 4021000000,
-            "revGrowth": 14.7,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 4.14,
-            "epsLow": 4.1,
-            "epsHigh": 4.21,
-            "epsYearAgo": 3.8,
-            "epsAnalysts": 19,
-            "epsGrowth": 9.1,
-            "epsCur": "USD",
-            "rev": 15622081100,
-            "revAnalysts": 14,
-            "revYearAgo": 14669000000,
-            "revGrowth": 6.5,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 4.57,
-            "epsLow": 4.49,
-            "epsHigh": 4.62,
-            "epsYearAgo": 4.14,
-            "epsAnalysts": 19,
-            "epsGrowth": 10.2,
-            "epsCur": "USD",
-            "rev": 17226033440,
-            "revAnalysts": 15,
-            "revYearAgo": 15622081100,
-            "revGrowth": 10.3,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 0.85,
-            "d7": -7.9,
-            "d30": -15.7,
-            "d90": -17.4,
-            "ago90": 1.03,
-            "up7": 0,
-            "up30": 0,
-            "down7": 5,
-            "down30": 8
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 1.05,
-            "d7": 2.2,
-            "d30": 2.4,
-            "d90": 3.7,
-            "ago90": 1.01,
-            "up7": 3,
-            "up30": 4,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 4.14,
-            "d7": 0,
-            "d30": 0.5,
-            "d90": 0.7,
-            "ago90": 4.11,
-            "up7": 5,
-            "up30": 9,
-            "down7": 2,
-            "down30": 1
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 4.57,
-            "d7": -0.1,
-            "d30": 0.6,
-            "d90": 0.6,
-            "ago90": 4.54,
-            "up7": 6,
-            "up30": 8,
-            "down7": 2,
-            "down30": 4
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 1.52,
-            "estimate": 1.39,
-            "surprisePct": 9.1,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 0.93,
-            "estimate": 0.79,
-            "surprisePct": 18.4,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 0.91,
-            "estimate": 0.91,
-            "surprisePct": 0.2,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 0.96,
-            "estimate": 0.96,
-            "surprisePct": 0.1,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 2,
-          "ptRaised": 3,
-          "ptLowered": 6,
-          "total": 11,
-          "recent": [
-            {
-              "date": "2026-11-16",
-              "firm": "Evercore ISI Group",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 101,
-              "ptPrior": 96
-            },
-            {
-              "date": "2026-11-02",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 94,
-              "ptPrior": 85
-            },
-            {
-              "date": "2026-10-22",
-              "firm": "HSBC",
-              "action": "init",
-              "from": null,
-              "to": "Buy",
-              "ptAction": "Announces",
-              "pt": 89,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-10-21",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 85,
-              "ptPrior": 83
-            },
-            {
-              "date": "2026-10-20",
-              "firm": "BMO Capital",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Lowers",
-              "pt": 86,
-              "ptPrior": 91
-            },
-            {
-              "date": "2026-10-15",
-              "firm": "Barclays",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 85,
-              "ptPrior": 90
-            },
-            {
-              "date": "2026-10-14",
-              "firm": "Truist Securities",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Lowers",
-              "pt": 87,
-              "ptPrior": 88
-            },
-            {
-              "date": "2026-10-13",
-              "firm": "Keybanc",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 87,
-              "ptPrior": 90
-            },
-            {
-              "date": "2026-09-29",
-              "firm": "Scotiabank",
-              "action": "init",
-              "from": null,
-              "to": "Sector Outperform",
-              "ptAction": "Announces",
-              "pt": 77,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-09-18",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 83,
-              "ptPrior": 89
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-10-29",
-          "upcoming": false,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "none",
-        "grade": null,
-        "asOf": "2026-11-17",
-        "adrPct": 1.88,
-        "extensionAdr": 0.02,
-        "breakDate": null,
-        "metrics": null,
-        "reasons": [
-          "쉬는 구간 없음"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "3개월 최대상승 20% (약함) · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 80.72 · 20일선 79.54 · 50일선 75.62"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.47배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 0 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 32% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 32%/15%/22% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 98%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1.47배(20일 평균 대비) · 오늘 거래대금 2.05배 · 상장주식 642M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "미충족",
-            "evidence": "상대강도 상위 1M 26.28% · 3M 24.03% · 6M 49.82% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "CRAI",
-      "sector": "Industrials",
-      "industry": "Consulting Services",
-      "price": 209.66000366210938,
-      "marketCap": "1.32B",
-      "volx": 2.03,
-      "volSurgeWk": 2.88,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 79.58,
-      "high52": 93.21,
-      "adr": 3.75,
-      "targetStatus": false,
-      "saleCy": 10.08,
-      "saleNy": 4.51,
-      "epsCy": 5.29,
-      "epsNy": 8.44,
-      "cyTrend": 2.3,
-      "nyTrend": -1.74,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          12.81,
-          10.52,
-          11.63
-        ],
-        "ni": [
-          11.46,
-          -38.1,
-          -11.77
-        ],
-        "opm": [
-          11.17,
-          8.97,
-          10.48
-        ],
-        "updated": "2026-09-07 07:38:03"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "CRAI",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "CRA International은 기업 소송·규제·인수합병 등에서 경제·재무 분석과 경영 컨설팅을 제공해 수수료로 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "How Stronger Earnings Will Impact CRA International (CRAI) Investors",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stronger-earnings-impact-cra-international-080828598.html",
-          "date": "2026-11-13",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "CRA International (CRAI) Could Be 21% Undervalued On Record Revenue And Higher Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-crai-could-21-191224078.html",
-          "date": "2026-11-07",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "CRA International Inc (CRAI) (Q3 2026) Earnings Call Highlights: Record Revenue, Raised ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-inc-crai-q3-070946674.html",
-          "date": "2026-11-06",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "CRA International (CRAI) Q3 2026 Earnings Call Transcript",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-crai-q3-2026-203102452.html",
-          "date": "2026-11-05",
-          "publisher": "Motley Fool",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Charles River Associates Q3 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/charles-river-associates-q3-earnings-181513366.html",
-          "date": "2026-11-05",
-          "publisher": "MarketBeat",
-          "via": "Yahoo"
-        },
-        {
-          "title": "CRA International Shares Rise After Q3 Beat",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cra-international-shares-rise-q3-154753277.html",
-          "date": "2026-11-05",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "CRA (NASDAQ:CRAI) reports strong Q3 2026, full-year sales guidance is optimistic",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cra-nasdaq-crai-reports-strong-133821698.html",
-          "date": "2026-11-05",
-          "publisher": "StockStory",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "CRA 인터내셔널",
-      "nameEn": "CRA INTERNATIONAL INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "CRA 인터내셔널",
-        "nameEn": "CRA INTERNATIONAL INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001053706&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-07-04",
-              "derived": false,
-              "revenue": 210815000,
-              "profit": 23541000,
-              "netIncome": 13508000,
-              "margin": 11.2,
-              "yoy": {
-                "revenue": 12.8,
-                "profit": 19.3,
-                "netIncome": 11.4,
-                "priorEnd": "2025-06-28"
-              }
-            },
-            {
-              "periodEnd": "2026-04-04",
-              "derived": false,
-              "revenue": 200975000,
-              "profit": 18032000,
-              "netIncome": 11132000,
-              "margin": 9,
-              "yoy": {
-                "revenue": 10.5,
-                "profit": -29.4,
-                "netIncome": -38.2,
-                "priorEnd": "2025-03-29"
-              }
-            },
-            {
-              "periodEnd": "2026-01-03",
-              "derived": true,
-              "revenue": 196963000,
-              "profit": 20638000,
-              "netIncome": 13203000,
-              "margin": 10.5,
-              "yoy": {
-                "revenue": 11.6,
-                "profit": -3.8,
-                "netIncome": -12.2,
-                "priorEnd": "2024-12-28"
-              }
-            },
-            {
-              "periodEnd": "2025-09-27",
-              "derived": false,
-              "revenue": 185891000,
-              "profit": 17211000,
-              "netIncome": 11473000,
-              "margin": 9.3,
-              "yoy": {
-                "revenue": 10.8,
-                "profit": -6.4,
-                "netIncome": 0.3,
-                "priorEnd": "2024-09-28"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "CRA International (CRAI) is a Top-Ranked Value Stock: Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/cra-international-crai-top-ranked-value-stock-should-you-buy",
-              "date": "2026-11-10",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "CRAI Q3 Earnings & Revenues Surpass Estimates, Stock Barely Moves",
-              "url": "https://www.nasdaq.com/articles/crai-q3-earnings-revenues-surpass-estimates-stock-barely-moves",
-              "date": "2026-11-09",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "CRA International, Inc. Reports Third-Quarter 2026 Revenue of $214.9 million",
-              "url": "https://www.nasdaq.com/articles/cra-international-inc-reports-third-quarter-2026-revenue-2149-million",
-              "date": "2026-11-06",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "CRA International (CRAI) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/cra-international-crai-q3-2026-earnings-call-transcript",
-              "date": "2026-11-05",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "CRA International (CRAI) Q3 Earnings and Revenues Surpass Estimates",
-              "url": "https://www.nasdaq.com/articles/cra-international-crai-q3-earnings-and-revenues-surpass-estimates",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "CRAI Stock Rises 12.4% in Three Months: Here's What You Should Know",
-              "url": "https://www.nasdaq.com/articles/crai-stock-rises-124-three-months-heres-what-you-should-know",
-              "date": "2026-10-01",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Advisory Expertise & Specialized Talent Aid CRAI Amid Stiff Rivalry",
-              "url": "https://www.nasdaq.com/articles/advisory-expertise-specialized-talent-aid-crai-amid-stiff-rivalry",
-              "date": "2026-09-16",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Ex-Div Reminder for CRA International (CRAI)",
-              "url": "https://www.nasdaq.com/articles/ex-div-reminder-cra-international-crai",
-              "date": "2026-08-24",
-              "publisher": "BNK Invest"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-05",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/crai-20261105.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-06",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/crai-20260806.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-22",
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1053706/000110465926085804/tm2621034d1_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-07",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000013/crai-20260507.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-02",
-            "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1053706/000110465926039161/tm2610933d1_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-26",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000005/crai-20260225.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "CRAI",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 27.92,
-        "pbr": 7.21,
-        "eps": 7.51,
-        "bps": 29.07,
-        "shares": 6277120,
-        "marketCapM": 1316,
-        "high52": 224.9382,
-        "high52Date": "2026-01-13",
-        "low52": 131.2344,
-        "low52Date": "2026-05-13",
-        "last": 209.66,
-        "prevClose": 210.94,
-        "nameKo": "CRA 인터내셔널",
-        "nameEn": "CRA INTERNATIONAL INC",
-        "listedOn": null,
-        "exchange": "나스닥",
-        "listedShares": 6277120
-      },
-      "cnbc": [],
-      "estimates": {
-        "ticker": "CRAI",
-        "url": "https://finance.yahoo.com/quote/CRAI/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 2.33,
-            "epsLow": 2.17,
-            "epsHigh": 2.48,
-            "epsYearAgo": 2.06,
+            "eps": 1.92,
+            "epsLow": 1.91,
+            "epsHigh": 1.92,
+            "epsYearAgo": 1.63,
             "epsAnalysts": 2,
-            "epsGrowth": 12.9,
+            "epsGrowth": 17.5,
             "epsCur": "USD",
-            "rev": 205441670,
-            "revAnalysts": 3,
-            "revYearAgo": 196963000,
-            "revGrowth": 4.3,
+            "rev": 27437500000,
+            "revAnalysts": 2,
+            "revYearAgo": 25981000000,
+            "revGrowth": 5.6,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 2.05,
-            "epsLow": 1.89,
-            "epsHigh": 2.21,
-            "epsYearAgo": 1.99,
+            "eps": 1.87,
+            "epsLow": 1.85,
+            "epsHigh": 1.89,
+            "epsYearAgo": 1.57,
             "epsAnalysts": 2,
-            "epsGrowth": 3,
+            "epsGrowth": 19.1,
             "epsCur": "USD",
-            "rev": 208119000,
-            "revAnalysts": 1,
-            "revYearAgo": 200975000,
-            "revGrowth": 3.6,
+            "rev": 26760000000,
+            "revAnalysts": 2,
+            "revYearAgo": 25168000000,
+            "revGrowth": 6.3,
             "revCur": "USD"
           },
           {
             "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 8.66,
-            "epsLow": 8.51,
-            "epsHigh": 8.82,
-            "epsYearAgo": 8.23,
-            "epsAnalysts": 2,
-            "epsGrowth": 5.3,
+            "endDate": "2027-09-30",
+            "eps": 7.49,
+            "epsLow": 7.37,
+            "epsHigh": 7.63,
+            "epsYearAgo": 7.02,
+            "epsAnalysts": 21,
+            "epsGrowth": 6.7,
             "epsCur": "USD",
-            "rev": 827368670,
-            "revAnalysts": 3,
-            "revYearAgo": 751583000,
-            "revGrowth": 10.1,
+            "rev": 105957327720,
+            "revAnalysts": 23,
+            "revYearAgo": 102344000000,
+            "revGrowth": 3.5,
             "revCur": "USD"
           },
           {
             "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 9.4,
-            "epsLow": 8.93,
-            "epsHigh": 9.69,
-            "epsYearAgo": 8.66,
-            "epsAnalysts": 3,
-            "epsGrowth": 8.4,
+            "endDate": "2028-09-30",
+            "eps": 8.39,
+            "epsLow": 7.57,
+            "epsHigh": 8.97,
+            "epsYearAgo": 7.49,
+            "epsAnalysts": 17,
+            "epsGrowth": 12,
             "epsCur": "USD",
-            "rev": 864675330,
-            "revAnalysts": 3,
-            "revYearAgo": 827368670,
+            "rev": 110756244140,
+            "revAnalysts": 19,
+            "revYearAgo": 105957327720,
             "revGrowth": 4.5,
             "revCur": "USD"
           }
@@ -9590,13 +6357,13 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 2.33,
-            "d7": 3.6,
-            "d30": 3.6,
-            "d90": 3,
-            "ago90": 2.26,
-            "up7": 0,
-            "up30": 0,
+            "now": 1.92,
+            "d7": -2.3,
+            "d30": -2.1,
+            "d90": 1.5,
+            "ago90": 1.89,
+            "up7": 1,
+            "up30": 4,
             "down7": 1,
             "down30": 1
           },
@@ -9604,178 +6371,195 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 2.05,
-            "d7": -6.2,
-            "d30": -6.2,
-            "d90": -6.2,
-            "ago90": 2.19,
-            "up7": 0,
-            "up30": 0,
+            "now": 1.87,
+            "d7": 1.5,
+            "d30": 1.5,
+            "d90": 4.2,
+            "ago90": 1.79,
+            "up7": 1,
+            "up30": 5,
             "down7": 1,
             "down30": 1
           },
           {
             "period": "0y",
-            "endDate": "2026-12-31",
+            "endDate": "2027-09-30",
             "cur": "USD",
-            "now": 8.66,
-            "d7": 2.3,
-            "d30": 2.3,
+            "now": 7.49,
+            "d7": -0.1,
+            "d30": 0,
             "d90": 0.8,
-            "ago90": 8.6,
-            "up7": 0,
-            "up30": 0,
+            "ago90": 7.43,
+            "up7": 1,
+            "up30": 3,
             "down7": 1,
-            "down30": 1
+            "down30": 6
           },
           {
             "period": "+1y",
-            "endDate": "2027-12-31",
+            "endDate": "2028-09-30",
             "cur": "USD",
-            "now": 9.4,
-            "d7": -1.7,
-            "d30": -1.7,
-            "d90": -2.5,
-            "ago90": 9.64,
+            "now": 8.39,
+            "d7": -0.2,
+            "d30": 0.4,
+            "d90": 1.7,
+            "ago90": 8.25,
             "up7": 0,
-            "up30": 0,
-            "down7": 1,
-            "down30": 1
+            "up30": 4,
+            "down7": 2,
+            "down30": 3
           }
         ],
         "surprises": [
           {
             "quarter": "2026-09-30",
-            "actual": 2.19,
-            "estimate": 2.07,
-            "surprisePct": 5.6,
+            "actual": 1.77,
+            "estimate": 1.68,
+            "surprisePct": 5.4,
             "cur": "USD"
           },
           {
             "quarter": "2026-06-30",
-            "actual": 2.16,
-            "estimate": 2.15,
-            "surprisePct": 0.6,
+            "actual": 2.06,
+            "estimate": 1.85,
+            "surprisePct": 11.1,
             "cur": "USD"
           },
           {
             "quarter": "2026-03-31",
-            "actual": 1.99,
-            "estimate": 2.02,
-            "surprisePct": -1.6,
+            "actual": 1.57,
+            "estimate": 1.5,
+            "surprisePct": 5,
             "cur": "USD"
           },
           {
             "quarter": "2025-12-31",
-            "actual": 2.06,
-            "estimate": 2.07,
-            "surprisePct": -0.3,
+            "actual": 1.63,
+            "estimate": 1.58,
+            "surprisePct": 3.4,
             "cur": "USD"
           }
         ],
-        "beats": 2,
+        "beats": 4,
         "ratings": {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 0,
-          "ptLowered": 0,
-          "total": 0,
-          "recent": []
+          "ptRaised": 1,
+          "ptLowered": 1,
+          "total": 4,
+          "recent": [
+            {
+              "date": "2026-10-16",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 140,
+              "ptPrior": 135
+            },
+            {
+              "date": "2026-10-09",
+              "firm": "Needham",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Maintains",
+              "pt": 125,
+              "ptPrior": 125
+            },
+            {
+              "date": "2026-10-05",
+              "firm": "Raymond James",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Lowers",
+              "pt": 119,
+              "ptPrior": 120
+            },
+            {
+              "date": "2026-09-28",
+              "firm": "Guggenheim",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Maintains",
+              "pt": 120,
+              "ptPrior": 120
+            }
+          ]
         },
         "nextEarnings": {
-          "date": "2026-11-05",
+          "date": "2026-11-17",
           "upcoming": false,
           "estimated": false
         }
       },
       "setup": {
-        "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-17",
-        "pivot": 215.36,
-        "stop": 207.49,
-        "adrPct": 3.75,
-        "distToPivotPct": -2.65,
-        "distToPivotAdr": -0.71,
-        "riskPerSharePct": 3.65,
-        "extensionAdr": 1.01,
+        "state": "none",
+        "grade": null,
+        "asOf": "2026-11-18",
+        "adrPct": 2.27,
+        "extensionAdr": 1.31,
         "breakDate": null,
-        "metrics": {
-          "baseBars": 8,
-          "baseWeeks": 1.6,
-          "depthPct": 9.7,
-          "priorMovePct": 37.2,
-          "higherLows": 1,
-          "contraction": 0.94,
-          "closeRange10Adr": 2.1,
-          "surf10": 1.01,
-          "surf20": 1.38,
-          "slope20": 3.55,
-          "baseLow": 194.37,
-          "lastSwingLow": 194.37
-        },
+        "metrics": null,
         "reasons": [
-          "선행 상승 +37%",
-          "✗ 베이스 1.6주",
-          "깊이 9.7%",
-          "저점 상승 1회",
-          "진폭 0.94배 · 10일 종가폭 2.1 ADR",
-          "10일선 +1 ADR · 20일선 +1.4 ADR",
-          "20일선 기울기 +3.55%"
+          "쉬는 구간 없음"
         ]
       },
       "checks": {
         "qm": [
           {
             "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 37% · 기준 30%↑"
+            "status": "미충족",
+            "evidence": "3개월 최대상승 22% (약함) · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "미충족",
-            "evidence": "베이스 1.6주 — 너무 짧음 · 기준 2~8주"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.94배(1 미만이면 좁아짐)"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 9.7% · ADR 3.75%의 2.6배 · 선행 상승의 절반 19%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 209.66 · 20일선 198.78 · 50일선 181.21"
+            "evidence": "종가 122.36 · 20일선 115.53 · 50일선 110.07"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.93배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.38배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
             "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 215.36까지 -2.65% (-0.71 ADR) · 기준 1 ADR 이내"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 3.65% · ADR 3.75%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 1.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -9787,27 +6571,27 @@ window.TEAM4_DATA = {
           {
             "item": "C 최근 분기 이익",
             "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 11.5% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+            "evidence": "최근 분기 순이익 전년비 -49.9% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
             "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 11%/-38%/-12% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "evidence": "사이트 최근 3분기 순이익 -50%/-31%/-6% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 93%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 99%"
           },
           {
             "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 0.93배(20일 평균 대비) · 오늘 거래대금 2.03배 · 상장주식 6M주(한국투자증권) · 유통주식은 확인 불가"
+            "status": "충족",
+            "evidence": "최근 5일 거래량 1.38배(20일 평균 대비) · 오늘 거래대금 2배(상승일) · 상장주식 1727M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 4.82% · 3M 3.92% · 6M 6.36% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 14.29% · 3M 13.75% · 6M 22.59% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -9824,332 +6608,174 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "TFX",
-      "sector": "Healthcare",
-      "industry": "Medical Instruments & Supplies",
-      "price": 159.5500030517578,
-      "marketCap": "6.23B",
-      "volx": 1.96,
-      "volSurgeWk": 2.21,
+      "ticker": "P",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "price": 100.73999786376953,
+      "marketCap": "34.55B",
+      "volx": 1.91,
+      "volSurgeWk": 2.38,
       "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 72.64,
-      "high52": 99.1,
-      "adr": 3.25,
+      "brk60d": false,
+      "clsPos": 51.49,
+      "high52": 63.93,
+      "adr": 7.44,
       "targetStatus": false,
-      "saleCy": 14.14,
-      "saleNy": 3.78,
-      "epsCy": 9.96,
-      "epsNy": 42.58,
-      "cyTrend": 8.48,
-      "nyTrend": -0.04,
+      "saleCy": 38.11,
+      "saleNy": 39,
+      "epsCy": 40.68,
+      "epsNy": 50.9,
+      "cyTrend": 0.46,
+      "nyTrend": 0.21,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          28.88,
-          32.35,
-          "흑자전환"
+          37.73,
+          35.25,
+          20.35
         ],
         "ni": [
-          -18.67,
-          -108.58,
-          "적자확대"
+          57.37,
+          "흑자전환",
+          136.25
         ],
         "opm": [
-          12.77,
-          3.68,
-          161.65
+          5.33,
+          1.89,
+          8.23
         ],
-        "updated": "2026-09-08 09:23:32"
+        "updated": "2026-09-19 05:48:14"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "TFX",
-        "category": 1,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "11월 5일 발표한 3분기 실적이 예상치를 넘었고, 분기 매출은 5억 6,780만 달러였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Teleflex Reports Third Quarter 2026 Revenue of $567.8 million and Repurchases $350 Million in Common Stock",
-                "publisher": "Fintel (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/teleflex-reports-third-quarter-2026-revenue-5678-million-and-repurchases-350-million",
-                "date": "2026-11-05",
-                "quote": "Teleflex Reports Third Quarter 2026 Revenue of $567.8 million and Repurchases $350 Million in Common Stock",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Teleflex (TFX) Q3 Earnings Surpass Estimates",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/teleflex-tfx-q3-earnings-surpass-estimates",
-                "date": "2026-11-05",
-                "quote": "Teleflex (TFX) Q3 Earnings Surpass Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "11월 5일 발표한 3분기 실적이 예상치를 넘었고, 분기 매출은 5억 6,780만 달러였다. 회사는 같은 날 3억 5천만 달러 규모 자사주 매입도 밝혔다."
-          },
-          {
-            "id": "c2",
-            "statement": "실적 뒤 증권사들이 목표주가를 올렸다. RBC는 155달러에서 175달러로, Truist는 142달러에서 167달러로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "RBC Raises Price Target on Teleflex to $175 From $155, Keeps Outperform Rating",
-                "publisher": "MT Newswires (Yahoo)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-teleflex-142646123.html",
-                "date": "2026-11-06",
-                "quote": "RBC Raises Price Target on Teleflex to $175 From $155, Keeps Outperform Rating",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Truist Securities Adjusts Price Target on Teleflex to $167 From $142, Keeps Hold Rating",
-                "publisher": "MT Newswires (Yahoo)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-103949637.html",
-                "date": "2026-11-09",
-                "quote": "Truist Securities Adjusts Price Target on Teleflex to $167 From $142, Keeps Hold Rating",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "company": "Teleflex는 카테터·수술 기구 같은 의료기기를 병원에 공급해 돈을 번다. 심혈관 시술용 제품과 응급·중환자 치료용 제품이 주력이다.",
-        "volumeExplanation": "11월 5일 3분기 실적이 예상을 넘고, 이후 목표주가 상향이 이어졌다. 다만 11월 18일 당일의 새 소식은 확인되지 않아, 실적 이후 매수세가 이어진 영향으로 본다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c3"
-          ],
-          "reason": "c3의 EPS 전망 숫자(6.25~6.55→6.90~7.20)가 source title에 명시되어 있지 않아 제거.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "11월 5일 3분기 실적이 예상을 넘고 연간 이익 전망이 올라갔고, 이후 목표주가 상향이 이어졌다. 다만 11월 18일 당일의 새 소식은 확인되지 않아, 실적 이후 매수세가 이어진 영향으로 본다.",
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-11-18",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       },
       "yahooNews": [
         {
-          "title": "Borderlands Mexico: Texas cross-border traffic rises by 400 trucks through Saturday pilot",
-          "url": "https://finance.yahoo.com/economy/articles/borderlands-mexico-texas-cross-border-120000690.html",
-          "date": "2026-11-15",
-          "publisher": "FreightWaves",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Teleflex to Present at the Jefferies Global Healthcare Conference in London",
-          "url": "https://finance.yahoo.com/healthcare/articles/teleflex-present-jefferies-global-healthcare-113000281.html",
-          "date": "2026-11-11",
-          "publisher": "Business Wire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Learn Why The Bull Case For Teleflex Stock Could Change Following Raised EPS Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-teleflex-051545335.html",
-          "date": "2026-11-11",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Teleflex (TFX) Stock Gets Fair Value Bump After Split Analyst Views",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/teleflex-tfx-stock-gets-fair-181120121.html",
-          "date": "2026-11-10",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "TFX Q3 2026 deep dive: transformation efforts and product innovation drive margin expansion",
-          "url": "https://finance.yahoo.com/healthcare/articles/tfx-q3-2026-deep-dive-113336506.html",
-          "date": "2026-11-10",
-          "publisher": "StockStory",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Truist Securities Adjusts Price Target on Teleflex to $167 From $142, Keeps Hold Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-adjusts-price-target-103949637.html",
-          "date": "2026-11-09",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Teleflex Q3 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/healthcare/articles/teleflex-q3-earnings-call-highlights-081428591.html",
-          "date": "2026-11-08",
+          "title": "Everpure Q3 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-q3-earnings-call-highlights-011313459.html",
+          "date": "2026-11-19",
           "publisher": "MarketBeat",
           "via": "Yahoo"
         },
         {
-          "title": "Teleflex (TFX) Lifts Guidance And Backs Buybacks, Is It Still Undervalued?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/teleflex-tfx-lifts-guidance-backs-141444761.html",
-          "date": "2026-11-07",
-          "publisher": "Simply Wall St.",
+          "title": "Everpure Inc. Q3 2027 Earnings Call: Live Updates of $P Earnings, Stock Forecast",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-inc-q3-2027-earnings-231525108.html",
+          "date": "2026-11-18",
+          "publisher": "TheStreet",
           "via": "Yahoo"
         },
         {
-          "title": "Can Teleflex (TFX) Trade At A Discount On Future Cash Flow?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/teleflex-tfx-trade-discount-future-131411368.html",
-          "date": "2026-11-07",
-          "publisher": "Simply Wall St.",
+          "title": "Everpure climbs on earnings beat and raised guidance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-climbs-earnings-beat-raised-214624519.html",
+          "date": "2026-11-18",
+          "publisher": "Investing.com",
           "via": "Yahoo"
         },
         {
-          "title": "RBC Raises Price Target on Teleflex to $175 From $155, Keeps Outperform Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-raises-price-target-teleflex-142646123.html",
-          "date": "2026-11-06",
+          "title": "Everpure (P) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-p-q3-earnings-taking-213002825.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Everpure Stock Jumps After Posting Earnings Beat",
+          "url": "https://finance.yahoo.com/m/44662787-a073-354a-9fe6-9450ee4eecfe/everpure-stock-jumps-after.html",
+          "date": "2026-11-18",
+          "publisher": "Investor's Business Daily",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Everpure Q3 Adjusted Earnings, Revenue Rise; Lifts Fiscal 2027 Outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-q3-adjusted-earnings-revenue-212133860.html",
+          "date": "2026-11-18",
           "publisher": "MT Newswires",
           "via": "Yahoo"
-        }
-      ]
-    },
-    {
-      "ticker": "SAFT",
-      "sector": "Financial Services",
-      "industry": "Insurance - Property & Casualty",
-      "price": 104.36000061035156,
-      "marketCap": "1.53B",
-      "volx": 1.93,
-      "volSurgeWk": 2.42,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 22.73,
-      "high52": 99.82,
-      "adr": 0.21,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          2.95,
-          4.39,
-          11.38
-        ],
-        "ni": [
-          19.24,
-          -165.41,
-          149.02
-        ],
-        "opm": [
-          13.69,
-          -5.48,
-          8.13
-        ],
-        "updated": "2026-09-08 09:07:57"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "SAFT",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Safety Insurance는 미국 매사추세츠주 중심으로 자동차보험 등 손해보험을 팔아 보험료 수입과 투자수익으로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
         },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
         {
-          "title": "Safety Insurance Group, Inc. Announces Third Quarter 2026 Results and Declares Fourth Quarter 2026 Dividend",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/safety-insurance-group-inc-announces-210500349.html",
-          "date": "2026-11-04",
-          "publisher": "Business Wire",
+          "title": "Everpure (P) Q3 Earnings and Revenues Beat Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-p-q3-earnings-revenues-211501888.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Everpure: Fiscal Q3 Earnings Snapshot",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-fiscal-q3-earnings-snapshot-211333507.html",
+          "date": "2026-11-18",
+          "publisher": "Associated Press",
           "via": "Yahoo"
         }
       ],
-      "nameKo": "세이프티 인슈어런스 그룹",
-      "nameEn": "SAFETY INSURANCE GROUP INC",
+      "nameKo": "에버퓨어",
+      "nameEn": "EVERPURE INC",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "세이프티 인슈어런스 그룹",
-        "nameEn": "SAFETY INSURANCE GROUP INC",
+        "fetchedAt": "2026-11-19",
+        "nameKo": "에버퓨어",
+        "nameEn": "EVERPURE INC",
         "financials": {
-          "profitLabel": "세전이익",
-          "marginLabel": "세전이익률",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001172052&type=10-Q",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001474432&type=10-Q",
           "quarters": [
             {
-              "periodEnd": "2026-06-30",
+              "periodEnd": "2026-08-02",
               "derived": false,
-              "revenue": 325682000,
-              "profit": 43756000,
-              "netIncome": 34517000,
-              "margin": 13.4,
+              "revenue": 1185898000,
+              "profit": 63155000,
+              "netIncome": 74149000,
+              "margin": 5.3,
               "yoy": {
-                "revenue": 3,
-                "profit": 18.8,
-                "netIncome": 19.3,
-                "priorEnd": "2025-06-30"
+                "revenue": 37.7,
+                "profit": 1196.6,
+                "netIncome": 57.4,
+                "priorEnd": "2025-08-03"
               }
             },
             {
-              "periodEnd": "2026-03-31",
+              "periodEnd": "2026-05-03",
               "derived": false,
-              "revenue": 314666000,
-              "profit": -17860000,
-              "netIncome": -14323000,
-              "margin": -5.7,
+              "revenue": 1052896000,
+              "profit": 19939000,
+              "netIncome": 24078000,
+              "margin": 1.9,
               "yoy": {
-                "revenue": 4.4,
-                "profit": -163.3,
-                "netIncome": -165.4,
-                "priorEnd": "2025-03-31"
+                "revenue": 35.2,
+                "profit": 164,
+                "netIncome": 272,
+                "priorEnd": "2025-05-04"
               }
             },
             {
-              "periodEnd": "2025-12-31",
+              "periodEnd": "2026-02-01",
               "derived": true,
-              "revenue": 319335000,
-              "profit": 25416000,
-              "netIncome": 20112000,
-              "margin": 8,
+              "revenue": 1058903000,
+              "profit": 87198000,
+              "netIncome": 100252000,
+              "margin": 8.2,
               "yoy": {
-                "revenue": 11.4,
-                "profit": 151.2,
-                "netIncome": 147.3,
-                "priorEnd": "2024-12-31"
+                "revenue": 20.4,
+                "profit": 105.3,
+                "netIncome": 136.2,
+                "priorEnd": "2025-02-02"
               }
             },
             {
-              "periodEnd": "2025-09-30",
+              "periodEnd": "2025-11-02",
               "derived": false,
-              "revenue": 326624000,
-              "profit": 36210000,
-              "netIncome": 28310000,
-              "margin": 11.1,
+              "revenue": 964453000,
+              "profit": 53918000,
+              "netIncome": 54806000,
+              "margin": 5.6,
               "yoy": {
-                "revenue": 10.6,
-                "profit": 10,
-                "netIncome": 9.4,
-                "priorEnd": "2024-09-30"
+                "revenue": 16,
+                "profit": -9.7,
+                "netIncome": -13.9,
+                "priorEnd": "2024-11-03"
               }
             }
           ]
@@ -10157,376 +6783,617 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
-              "title": "Safety Insurance (SAFT) Upgraded to Buy: What Does It Mean for the Stock?",
-              "url": "https://www.nasdaq.com/articles/safety-insurance-saft-upgraded-buy-what-does-it-mean-stock",
+              "title": "Everpure (P) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+              "url": "https://www.nasdaq.com/articles/everpure-p-q3-earnings-taking-look-key-metrics-versus-estimates",
+              "date": "2026-11-18",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Everpure, Inc. Reports Rise In Q3 Profit",
+              "url": "https://www.nasdaq.com/articles/everpure-inc-reports-rise-q3-profit",
+              "date": "2026-11-18",
+              "publisher": "RTTNews"
+            },
+            {
+              "title": "Everpure (P) Q3 Earnings and Revenues Beat Estimates",
+              "url": "https://www.nasdaq.com/articles/everpure-p-q3-earnings-and-revenues-beat-estimates",
+              "date": "2026-11-18",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Buy, Hold or Sell Everpure Stock Before Q3 Earnings Release?",
+              "url": "https://www.nasdaq.com/articles/buy-hold-or-sell-everpure-stock-q3-earnings-release",
               "date": "2026-11-16",
               "publisher": "Zacks"
             },
             {
-              "title": "Safety Insurance Group, Inc. Reports Third Quarter 2026 Results and Shareholder Approval of Mapfre Acquisition",
-              "url": "https://www.nasdaq.com/articles/safety-insurance-group-inc-reports-third-quarter-2026-results-and-shareholder-approval",
-              "date": "2026-11-05",
-              "publisher": "Fintel"
+              "title": "Seeking Clues to Everpure (P) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+              "url": "https://www.nasdaq.com/articles/seeking-clues-everpure-p-q3-earnings-peek-wall-street-projections-key-metrics",
+              "date": "2026-11-13",
+              "publisher": "Zacks"
             },
             {
-              "title": "Safety Insurance Group Inc Bottom Line Rises In Q3",
-              "url": "https://www.nasdaq.com/articles/safety-insurance-group-inc-bottom-line-rises-q3",
+              "title": "Is Everpure Worth Buying Ahead of Q3 Earnings as Valuation Stays Rich?",
+              "url": "https://www.nasdaq.com/articles/everpure-worth-buying-ahead-q3-earnings-valuation-stays-rich",
               "date": "2026-11-04",
-              "publisher": "RTTNews"
+              "publisher": "Zacks"
             },
             {
-              "title": "Safety Insurance Group, Inc. Stockholders Approve Merger Proposal with MAPFRE U.S.A. Corp.",
-              "url": "https://www.nasdaq.com/articles/safety-insurance-group-inc-stockholders-approve-merger-proposal-mapfre-usa-corp",
-              "date": "2026-11-03",
-              "publisher": "Fintel"
+              "title": "Everpure's Second Hyperscaler Win Sets Up a Bigger FY2028 Opportunity",
+              "url": "https://www.nasdaq.com/articles/everpures-second-hyperscaler-win-sets-bigger-fy2028-opportunity",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
             },
             {
-              "title": "Safety Insurance Group Inc Profit Rises In Q2",
-              "url": "https://www.nasdaq.com/articles/safety-insurance-group-inc-profit-rises-q2",
-              "date": "2026-08-05",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Safety Insurance To Be Acquired By Mapfre In $1.54 Bln All-Cash Deal",
-              "url": "https://www.nasdaq.com/articles/safety-insurance-be-acquired-mapfre-154-bln-all-cash-deal",
-              "date": "2026-07-23",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "SAFT Dividend Yield Pushes Above 5%",
-              "url": "https://www.nasdaq.com/articles/saft-dividend-yield-pushes-above-5",
-              "date": "2026-03-06",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "Notable Two Hundred Day Moving Average Cross - SAFT",
-              "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-saft-0",
-              "date": "2026-03-03",
-              "publisher": "BNK Invest"
+              "title": "VNT or P: Which Is the Better Value Stock Right Now?",
+              "url": "https://www.nasdaq.com/articles/vnt-or-p-which-better-value-stock-right-now-0",
+              "date": "2026-10-30",
+              "publisher": "Zacks"
             }
           ]
         },
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-11-04",
+            "filingDate": "2026-11-18",
             "itemsKo": [
               "실적 발표",
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000029/saft-20261104x8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000110/pstg-20261118.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-11-03",
+            "filingDate": "2026-08-26",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000084/pstg-20260826.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-12",
             "itemsKo": [
               "주주총회 표결"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000026/saft-20261103x8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000066/pstg-20260610.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-09-15",
-            "itemsKo": [
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1172052/000110465926107960/tm2625481d1_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-05",
+            "filingDate": "2026-05-27",
             "itemsKo": [
               "실적 발표",
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000021/saft-20260805x8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000046/pstg-20260527.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-07-24",
+            "filingDate": "2026-02-25",
             "itemsKo": [
-              "중요 계약 체결",
+              "실적 발표",
               "재무제표·첨부"
             ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1172052/000110465926086488/tm2621207d1_8k.htm"
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000015/pstg-20260225.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-07-23",
+            "filingDate": "2026-02-23",
             "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
+              "5.03"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1172052/000110465926086331/tm2621207d3_8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000011/pstg-20260223.htm"
           }
         ],
         "krReports": {
-          "total": 0,
-          "reports": []
+          "total": 24,
+          "reports": [
+            {
+              "date": "2026-11-03",
+              "broker": "키움증권",
+              "analyst": "박상준",
+              "title": "[필립 모리스 인터내셔널 (NYS:PM)] SFP 성장성 확인 필요",
+              "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 3분기 매출액 및 조정 DEPS는 시장 컨센서스 부합- 다만, 최근 SFP 매출 성장세 둔화되고 있기 때문에, 향후 성장률 변화 확인 필요",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixzlciemzliqgcgxeeem.pdf",
+              "pages": "7"
+            },
+            {
+              "date": "2026-10-27",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 최대 40억 달러 회사채(노트) 발행 신고서 제출 - 기존 채무 상환인지 주주환원 재원인지 아직 미확인",
+              "summary": "- 최대 40억달러 4트랜치 노트 발행 신고, 용도 미확인- 직전 1분기 실적 예측은 미스(score 0.2)로 평가- FCF 생산성 93%·주주환원 39억달러로 현금 여력 양호",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiczmezxilxzxgcgxeeem.pdf",
+              "pages": "4"
+            },
+            {
+              "date": "2026-10-22",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Review] 주당순이익 6.2% 상회, 물량 주도 성장 전환, 투자의견 매수 상향",
+              "summary": "- 유기적 +4%, 11개 분기 감속 궤적에서 이탈- 코어 EPS 2.00달러로 컨센 6.2% 상회- 원가 역풍 주당 0.79달러 확대, 마진 -80bp",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekleilzzllgcgxeeem.pdf",
+              "pages": "10"
+            },
+            {
+              "date": "2026-10-22",
+              "broker": "신한투자증권",
+              "analyst": "조상훈",
+              "title": "[필립 모리스 인터내셔널 (NYS:PM)] 흔들림 없는 1위",
+              "summary": "- 3Q26 글로벌 담배 시장 점유율 30.1%(+0.8%p, 이하 YoY)로 업계 최고 수준의 시장장악력 지속(일반담배 23.7%, 궐련형 전자담배 6.4%). 일반담 배 출하량 전년수준 유지한 가운데 가격 인상 효과(+8.9%)가 이익 성장 주도- 3Q26 매출과 영업이익은 114.4억달러(+5.5%), 48.7억달러(+14.1%)를 기 록하며 분기 사상 최대 실적 경신, 컨센서스 상회. 조정 EPS 역시 2.36달 러(+5.4%, 환율 제외 +5.8%)로 분기 최고치 기록. 카테고리별 판매량은 Smoke-Free 482억본(+2.7%), 일반담배 1,580억본(전년수준)- 부문별 매출 성장률은 해외 Smoke-Free +0.7%, 해외 일반담배 +6.5%, 미국 +22.7%. 궐련형 전자담배(HTU)는 일본 출하 시점 차이로 출하량 +1.5%에 그쳤으나, 조정 판매량(IMS)은 7.1% 성장하며 수요 견조. 비연 소제품(매출 비중 40%) 성장이 전체 실적 견인(모던오럴 +20.6%, 미국 ZYN 32억 파우치, +4.2%, VEEV +61.6%, 8월 한국 출시)",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgxkilczqzqqkgcgxeeem.pdf",
+              "pages": "5"
+            },
+            {
+              "date": "2026-10-13",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Preview] 연간 유기 성장률 1~3% 가이던스 유지 여부, 투자의견 중립 유지",
+              "summary": "- 프록터 앤 갬블은 10 월 22 일에 2027 회계연도 1 분기 실적을 내놓는다. 타이드, 팬틴, 질레트, SK-II 를 거느린 세계 최대 생활용품 회사다. 이번 분기가 특별한 이유는 하나다. 회사가 직전 실적 발표에서 1 분기 코어 주당순이익이 전년 대비 5% 이상 줄어들 수 있다고 미리 알렸기 때문이다. 전년 동기 코어 주당순이익은 1.99 달러였다. 즉 시장은 좋은 숫자를 기대하는 게 아니라, 예고된 역성장이 얼마나 깊은지를 확인하려 모여 있다.- 팩트셋에 집계된 시장 평균 전망(컨센서스)은 주당순이익 1.43 달러, 매출 212.0 억 달러다. 우리 하우스가 7 월에 제시한 예상 범위는 주당순이익 1.85~1.95 달러, 매출 212.0~220.0 억 달러였다. 매출 눈높이는 거의 겹치지만 이익 쪽은 시장이 우리보다 훨씬 보수적으로 잡고 있다. 구조조정 잔여 비용과 회계 기준 차이가 섞인 결과로 보이지만, 그만큼 이익 기대치의 하방 완충이 두껍다는 뜻도 된다. 원자재·에너지·물류 부담이 연간 10 억 달러 규모로 예고된 만큼, 이 중 얼마가 1 분기에 몰렸는지가 숫자의 위치를 가른다.",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmelkliqkixikxgcgxeeem.pdf",
+              "pages": "5"
+            },
+            {
+              "date": "2026-09-07",
+              "broker": "신한투자증권",
+              "analyst": "이주은",
+              "title": "[플래닛 랩스 (NYS:PL)] AI + Satellite Service",
+              "summary": "- 플래닛 랩스는 해외 D&I 매출 급증으로 예상을 상회하는 2Q 실적 달성. 대규모 신규 수주 부재와 3Q 매출 증가율 둔화는 투자심리 악화 요인.- 매출 1.16억달러(+58% YoY, 이하 전년동기대비)로 사상 최대 분기 매출 달성. 조정 EBITDA 1,300만달러, 조정 EPS 0.02달러로 시장 예상치 상회- 3Q 매출은 1.0억달러(+26.8%), GPM 57%, 조정 EBITDA 350만달러 적자 전망하면서 시장 예상치 하회.",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqikegqzxemzgcgxeeem.pdf",
+              "pages": "7"
+            },
+            {
+              "date": "2026-08-05",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 프리미엄 웰니스 브랜드 Thorne 인수 발표 - 정체된 Health Care 카테고리의 프리미엄화 시도",
+              "summary": "- P&G, 프리미엄 웰니스 브랜드 Thorne 인수 발표- 금액·조건 미공개, Health Care 부진 만회 포석- FY27 가이던스 영향은 세부조건 공개 이후 판단",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxeeem.pdf",
+              "pages": "5"
+            },
+            {
+              "date": "2026-07-24",
+              "broker": "키움증권",
+              "analyst": "박상준",
+              "title": "[필립 모리스 인터내셔널 (NYS:PM)] 담배는 너무 잘 팔지만",
+              "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 2분기 매출액 및 조정 EPS는 시장 컨센서스 상회- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklklzzgmiqixgcgxeeem.pdf",
+              "pages": "7"
+            }
+          ]
         }
       },
       "kis": {
-        "ticker": "SAFT",
-        "fetchedAt": "2026-11-18",
+        "ticker": "P",
+        "fetchedAt": "2026-11-19",
         "source": "한국투자증권 Open API",
-        "per": 22.45,
-        "pbr": 1.75,
-        "eps": 4.65,
-        "bps": 59.7,
-        "shares": 14680500,
-        "marketCapM": 1532,
-        "high52": 104.55,
-        "high52Date": "2026-11-16",
-        "low52": 67.3226,
-        "low52Date": "2026-06-03",
-        "last": 104.36,
-        "prevClose": 104.5,
-        "nameKo": "세이프티 인슈어런스 그룹",
-        "nameEn": "SAFETY INSURANCE GROUP INC",
+        "per": 137.45,
+        "pbr": 21.79,
+        "eps": 0.73,
+        "bps": 4.62,
+        "shares": 333227000,
+        "marketCapM": 33569,
+        "high52": 157.57,
+        "high52Date": "2026-10-13",
+        "low52": 64.8,
+        "low52Date": "2026-06-11",
+        "last": 100.74,
+        "prevClose": 101.79,
+        "nameKo": "에버퓨어",
+        "nameEn": "EVERPURE INC",
         "listedOn": null,
-        "exchange": "나스닥",
-        "listedShares": 14680500
+        "exchange": "뉴욕거래소",
+        "listedShares": 333227000
       },
-      "cnbc": [],
+      "cnbc": [
+        {
+          "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+          "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+          "date": "2026-08-27",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Thursday's biggest analyst calls: Nvidia, SpaceX, Tesla, Salesforce, CrowdStrike",
+          "url": "https://www.cnbc.com/2026/08/27/thursday-analyst-calls-from-stocks-like-nvidia.html",
+          "date": "2026-08-27",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves after hours: Nvidia, Salesforce, CrowdStrike, Urban Outfitters and more",
+          "url": "https://www.cnbc.com/2026/08/26/stocks-making-the-biggest-moves-after-hours-nvda-crm-crwd-urbn-and-more.html",
+          "date": "2026-08-26",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Charlie Giancarlo, Everpure CEO: Fortt Knox Earnings",
+          "url": "https://www.cnbc.com/video/2026/11/18/charlie-giancarlo-everpure-ceo-fortt-knox-earnings.html",
+          "date": "2026-11-18",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "We've been picking up market share in the enterprise for 14 years now, says Everpure CEO",
+          "url": "https://www.cnbc.com/investingclub/video/2026/10/09/weve-been-picking-up-market-share-in-the-enterprise-for-14-years-now-says-everpure-ceo.html",
+          "date": "2026-10-09",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Cramer’s Stop Trading: Costco and Everpure",
+          "url": "https://www.cnbc.com/video/2026/10/08/crameras-stop-trading-costco-and-everpure.html",
+          "date": "2026-10-08",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
       "estimates": {
-        "ticker": "SAFT",
-        "url": "https://finance.yahoo.com/quote/SAFT/analysis/",
-        "fetchedAt": "2026-11-18",
+        "ticker": "P",
+        "url": "https://finance.yahoo.com/quote/P/analysis/",
+        "fetchedAt": "2026-11-19",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "endDate": "2026-10-31",
+            "eps": 0.78,
+            "epsLow": 0.66,
+            "epsHigh": 0.86,
+            "epsYearAgo": 0.58,
+            "epsAnalysts": 19,
+            "epsGrowth": 33.8,
+            "epsCur": "USD",
+            "rev": 1334694200,
+            "revAnalysts": 17,
+            "revYearAgo": 964453000,
+            "revGrowth": 38.4,
+            "revCur": "USD"
           },
           {
             "period": "+1q",
-            "endDate": "2018-06-30",
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "endDate": "2027-01-31",
+            "eps": 0.85,
+            "epsLow": 0.71,
+            "epsHigh": 1.01,
+            "epsYearAgo": 0.69,
+            "epsAnalysts": 19,
+            "epsGrowth": 23.4,
+            "epsCur": "USD",
+            "rev": 1486452940,
+            "revAnalysts": 17,
+            "revYearAgo": 1058903000,
+            "revGrowth": 40.4,
+            "revCur": "USD"
           },
           {
             "period": "0y",
-            "endDate": "2018-12-31",
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "endDate": "2027-01-31",
+            "eps": 2.8,
+            "epsLow": 2.54,
+            "epsHigh": 3.03,
+            "epsYearAgo": 1.99,
+            "epsAnalysts": 19,
+            "epsGrowth": 40.9,
+            "epsCur": "USD",
+            "rev": 5062189720,
+            "revAnalysts": 18,
+            "revYearAgo": 3662843000,
+            "revGrowth": 38.2,
+            "revCur": "USD"
           },
           {
             "period": "+1y",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "endDate": "2028-01-31",
+            "eps": 4.22,
+            "epsLow": 3.22,
+            "epsHigh": 4.44,
+            "epsYearAgo": 2.8,
+            "epsAnalysts": 19,
+            "epsGrowth": 50.8,
+            "epsCur": "USD",
+            "rev": 7037113290,
+            "revAnalysts": 18,
+            "revYearAgo": 5062189720,
+            "revGrowth": 39,
+            "revCur": "USD"
           }
         ],
         "changes": [
           {
             "period": "0q",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
+            "endDate": "2026-10-31",
+            "cur": "USD",
+            "now": 0.78,
+            "d7": 0.8,
+            "d30": 0.8,
+            "d90": 19.9,
+            "ago90": 0.65,
+            "up7": 1,
+            "up30": 19,
+            "down7": 2,
+            "down30": 0
           },
           {
             "period": "+1q",
-            "endDate": "2018-06-30",
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 0.85,
+            "d7": 1.1,
+            "d30": 1.1,
+            "d90": 14.7,
+            "ago90": 0.74,
+            "up7": 1,
+            "up30": 17,
+            "down7": 2,
+            "down30": 1
           },
           {
             "period": "0y",
-            "endDate": "2018-12-31",
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 2.8,
+            "d7": 0.6,
+            "d30": 0.6,
+            "d90": 14.5,
+            "ago90": 2.44,
+            "up7": 1,
+            "up30": 18,
+            "down7": 2,
+            "down30": 0
           },
           {
             "period": "+1y",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
+            "endDate": "2028-01-31",
+            "cur": "USD",
+            "now": 4.22,
+            "d7": 1.3,
+            "d30": 0.3,
+            "d90": 37.3,
+            "ago90": 3.07,
+            "up7": 0,
+            "up30": 16,
+            "down7": 1,
+            "down30": 0
           }
         ],
         "surprises": [
           {
-            "quarter": "2017-12-31",
-            "actual": 0.72,
-            "estimate": 0.8,
-            "surprisePct": -10,
+            "quarter": "2026-07-31",
+            "actual": 0.7,
+            "estimate": 0.58,
+            "surprisePct": 21,
             "cur": "USD"
           },
           {
-            "quarter": "2017-09-30",
-            "actual": 1.18,
-            "estimate": 1.09,
-            "surprisePct": 8.3,
+            "quarter": "2026-04-30",
+            "actual": 0.47,
+            "estimate": 0.4,
+            "surprisePct": 18.9,
             "cur": "USD"
           },
           {
-            "quarter": "2017-06-30",
-            "actual": 1.39,
-            "estimate": 1.37,
-            "surprisePct": 1.5,
+            "quarter": "2026-01-31",
+            "actual": 0.69,
+            "estimate": 0.64,
+            "surprisePct": 7,
             "cur": "USD"
           },
           {
-            "quarter": "2017-03-31",
-            "actual": 0.79,
-            "estimate": 0.78,
-            "surprisePct": 1.3,
+            "quarter": "2025-10-31",
+            "actual": 0.58,
+            "estimate": 0.58,
+            "surprisePct": -0.7,
             "cur": "USD"
           }
         ],
         "beats": 3,
         "ratings": {
-          "upgrades": 0,
+          "upgrades": 1,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 0,
+          "ptRaised": 25,
           "ptLowered": 0,
-          "total": 0,
-          "recent": []
+          "total": 30,
+          "recent": [
+            {
+              "date": "2026-11-16",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 142,
+              "ptPrior": 137
+            },
+            {
+              "date": "2026-11-13",
+              "firm": "Guggenheim",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Maintains",
+              "pt": 215,
+              "ptPrior": 215
+            },
+            {
+              "date": "2026-11-12",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Sell",
+              "to": "Sell",
+              "ptAction": "Raises",
+              "pt": 88,
+              "ptPrior": 80
+            },
+            {
+              "date": "2026-10-12",
+              "firm": "Guggenheim",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 215,
+              "ptPrior": 150
+            },
+            {
+              "date": "2026-10-08",
+              "firm": "Needham",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 185,
+              "ptPrior": 150
+            },
+            {
+              "date": "2026-09-25",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 132,
+              "ptPrior": 110
+            },
+            {
+              "date": "2026-09-24",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 137,
+              "ptPrior": 119
+            },
+            {
+              "date": "2026-09-24",
+              "firm": "Lake Street",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 130,
+              "ptPrior": 120
+            },
+            {
+              "date": "2026-09-24",
+              "firm": "Piper Sandler",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 162,
+              "ptPrior": 133
+            },
+            {
+              "date": "2026-09-24",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 160,
+              "ptPrior": 130
+            }
+          ]
         },
         "nextEarnings": {
-          "date": "2026-11-06",
+          "date": "2026-11-18",
           "upcoming": false,
-          "estimated": true
+          "estimated": false
         }
       },
       "setup": {
-        "state": "none",
-        "grade": null,
-        "asOf": "2026-11-17",
-        "adrPct": 0.21,
-        "extensionAdr": -0.17,
+        "state": "pre",
+        "grade": "C",
+        "asOf": "2026-11-18",
+        "pivot": 157.57,
+        "stop": 150.07,
+        "adrPct": 7.44,
+        "distToPivotPct": -36.07,
+        "distToPivotAdr": -4.85,
+        "riskPerSharePct": 4.76,
+        "extensionAdr": -0.25,
         "breakDate": null,
-        "metrics": null,
+        "metrics": {
+          "baseBars": 33,
+          "baseWeeks": 6.6,
+          "depthPct": 41.9,
+          "priorMovePct": 139.7,
+          "higherLows": 0,
+          "contraction": 1.01,
+          "closeRange10Adr": 2.2,
+          "surf10": -0.25,
+          "surf20": -1.81,
+          "slope20": -4.89,
+          "baseLow": 91.53,
+          "lastSwingLow": 91.53
+        },
         "reasons": [
-          "쉬는 구간 없음"
+          "선행 상승 +140%",
+          "베이스 6.6주",
+          "✗ 깊이 41.9%",
+          "✗ 저점 상승 0회",
+          "진폭 1.01배 · 10일 종가폭 2.2 ADR",
+          "✗ 10일선 -0.2 ADR · 20일선 -1.8 ADR",
+          "✗ 20일선 기울기 -4.89%"
         ]
       },
       "checks": {
         "qm": [
           {
             "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "3개월 최대상승 2% · 기준 30%↑"
+            "status": "충족",
+            "evidence": "선행 상승 140% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "베이스 6.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.01배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "베이스 깊이 41.9% · ADR 7.44%의 5.6배 · 선행 상승의 절반 70%"
           },
           {
             "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 104.36 · 20일선 104.23 · 50일선 103.91"
+            "status": "미충족",
+            "evidence": "종가 100.74 · 20일선 114.32 · 50일선 121.33 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.09배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.1배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
             "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
           },
           {
             "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "미충족",
+            "evidence": "피벗 157.57까지 -36.07% (-4.85 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.76% · ADR 7.44%"
           },
           {
             "item": "10일선 이격",
@@ -10542,28 +7409,28 @@ window.TEAM4_DATA = {
         "canslim": [
           {
             "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 19.2% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 57.4% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 19%/-165%/149% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "status": "충족",
+            "evidence": "사이트 최근 3분기 순이익 57%/흑자전환/136% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 100%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 64%"
           },
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.09배(20일 평균 대비) · 오늘 거래대금 1.93배 · 상장주식 15M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.1배(20일 평균 대비) · 오늘 거래대금 1.91배 · 상장주식 333M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 46.39% · 3M 34.4% · 6M 2.93% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 93.1% · 3M 45.04% · 6M 15.92% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -10580,208 +7447,250 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "AMP",
-      "sector": "Financial Services",
-      "industry": "Asset Management",
-      "price": 505.7699890136719,
-      "marketCap": "44.63B",
-      "volx": 1.76,
-      "volSurgeWk": 2.3,
+      "ticker": "VEEV",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "price": 277.20001220703125,
+      "marketCap": "48.46B",
+      "volx": 1.78,
+      "volSurgeWk": 2.79,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 11.12,
-      "high52": 88.64,
-      "adr": 2.63,
+      "clsPos": 26.55,
+      "high52": 85.03,
+      "adr": 2.87,
       "targetStatus": false,
-      "saleCy": 8.97,
-      "saleNy": 5.34,
-      "epsCy": 17.29,
-      "epsNy": 11.94,
-      "cyTrend": -0.87,
-      "nyTrend": -0.11,
+      "saleCy": 15.51,
+      "saleNy": 12.32,
+      "epsCy": 14.02,
+      "epsNy": 11.11,
+      "cyTrend": 0,
+      "nyTrend": 0.11,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          12.91,
-          10.52,
-          10.2
+          17.6,
+          16.32,
+          15.96
         ],
         "ni": [
-          5,
-          56.95,
-          -5.88
+          36.5,
+          14.35,
+          24.83
         ],
         "opm": [
-          26.28,
-          33.27,
-          32.02
+          29.64,
+          30.93,
+          29.41
         ],
-        "updated": "2026-09-21 06:37:42"
+        "updated": "2026-09-08 09:08:19"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "AMP",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Ameriprise Financial은 재무 상담사 네트워크를 통한 자산관리 수수료와 자산운용(컬럼비아 스레드니들) 수수료로 돈을 번다. 보험·연금 상품과 은행 서비스도 함께 판다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       },
       "yahooNews": [
         {
-          "title": "Ameriprise Financial to Manage Tinker Federal Credit Union's Investment Program",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-manage-tinker-federal-195505123.html",
+          "title": "Veeva (VEEV) Is Considered a Good Investment by Brokers: Is That True?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/veeva-veev-considered-good-investment-133004108.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Why Veeva Systems (VEEV) Dipped More Than Broader Market Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-veeva-systems-veev-dipped-214502676.html",
+          "date": "2026-11-17",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Improving Software Sentiment and Positive News Fuel Veeva Systems’ (VEEV) Share Price Appreciation",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/improving-software-sentiment-positive-news-161912961.html",
+          "date": "2026-11-17",
+          "publisher": "Insider Monkey",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Vivos Therapeutics, Inc. (VVOS) Reports Q3 Loss, Beats Revenue Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vivos-therapeutics-inc-vvos-reports-235501774.html",
           "date": "2026-11-16",
-          "publisher": "MT Newswires",
+          "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "Tinker Federal Credit Union Selects Ameriprise Financial to Manage its Investment Program",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tinker-federal-credit-union-selects-190500176.html",
+          "title": "Clinical Trial Management Systems (CTMS) - Global Strategic Business Report 2026: Capitalize on 17.5% CAGR to $7 Billion by 2032; Benchmark Oracle, Veeva Systems, Medidata Solutions and ArisGlobal",
+          "url": "https://finance.yahoo.com/healthcare/articles/clinical-trial-management-systems-ctms-153800169.html",
           "date": "2026-11-16",
-          "publisher": "Business Wire",
+          "publisher": "GlobeNewswire",
           "via": "Yahoo"
         },
         {
-          "title": "BofA Adjusts PT on Ameriprise Financial to $447 From $445, Keeps Underperform Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-pt-ameriprise-financial-131007483.html",
-          "date": "2026-11-16",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Ameriprise Financial (AMP) Highlights Adviser Demand, Is The Stock Still Cheap?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-amp-highlights-adviser-090901613.html",
-          "date": "2026-11-15",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Ameriprise Financial (AMP) Stock Still Looks Below Fair Value After Its 86% Run",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-amp-stock-still-080941564.html",
-          "date": "2026-11-15",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Single or Not, Here Are 4 Powerful Money Lessons We Can All Learn From Financially Solo Adults",
-          "url": "https://finance.yahoo.com/markets/articles/single-not-4-powerful-money-110000066.html",
-          "date": "2026-11-14",
-          "publisher": "Kiplinger",
-          "via": "Yahoo"
-        },
-        {
-          "title": "How to Plan a ‘Tax Holiday’ to Cut Your Lifetime Tax Bill",
-          "url": "https://finance.yahoo.com/m/b7ffcb00-6ec7-3494-8cdb-fc448b08054a/how-to-plan-a-%E2%80%98tax-holiday%E2%80%99.html",
-          "date": "2026-11-14",
-          "publisher": "Barrons.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Ameriprise Financial CFO Outlines Adviser Growth Strategy as Talent Competition Heats Up",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-cfo-outlines-adviser-061433502.html",
+          "title": "Bullfrog AI Holdings Inc. (BFRG) Reports Q3 Loss, Lags Revenue Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bullfrog-ai-holdings-inc-bfrg-212501316.html",
           "date": "2026-11-13",
-          "publisher": "MarketBeat",
+          "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "Ameriprise Financial Named a Military Friendly® Employer for the Thirteenth Consecutive Year",
-          "url": "https://finance.yahoo.com/small-business/articles/ameriprise-financial-named-military-friendly-184600485.html",
+          "title": "NeuroPace, Inc. (NPCE) Reports Q3 Loss, Misses Revenue Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/neuropace-inc-npce-reports-q3-212503953.html",
+          "date": "2026-11-12",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Veeva to Release Fiscal 2027 Third Quarter Results on December 3, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/veeva-release-fiscal-2027-third-210500575.html",
+          "date": "2026-11-12",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        }
+      ]
+    },
+    {
+      "ticker": "BIO",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "price": 370.1700134277344,
+      "marketCap": "9.69B",
+      "volx": 1.76,
+      "volSurgeWk": 2.25,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 96.21,
+      "high52": 93.42,
+      "adr": 3.33,
+      "targetStatus": false,
+      "saleCy": -0.54,
+      "saleNy": 1.46,
+      "epsCy": -3.16,
+      "epsNy": 3.12,
+      "cyTrend": 1.66,
+      "nyTrend": -0.1,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -0.09,
+          1.14,
+          3.85
+        ],
+        "ni": [
+          16.87,
+          -923.59,
+          "흑자전환"
+        ],
+        "opm": [
+          11.15,
+          5.76,
+          -17.15
+        ],
+        "updated": "2026-09-08 10:07:32"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "2026 Global Screener Proficiency Testing Platform Market: $2.01 Billion Forecast for 2030 | Capitalize on AI and Cloud Demand with Thermo Fisher, Merck, Bio-Rad, and Randox",
+          "url": "https://finance.yahoo.com/healthcare/articles/2026-global-screener-proficiency-testing-143300423.html",
+          "date": "2026-11-13",
+          "publisher": "GlobeNewswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Transfection Technologies - Global Strategic Business Report 2026: Capitalize on a $2.5 Billion Market by 2032 as Thermo Fisher, Lonza, Bio-Rad, Qiagen and MilliporeSigma Accelerate",
+          "url": "https://finance.yahoo.com/healthcare/articles/transfection-technologies-global-strategic-business-142100342.html",
           "date": "2026-11-11",
-          "publisher": "Business Wire",
+          "publisher": "GlobeNewswire",
           "via": "Yahoo"
         },
         {
-          "title": "Columbia Threadneedle Investments Launches Two New Laddered Buffer ETFs",
-          "url": "https://finance.yahoo.com/markets/options/articles/columbia-threadneedle-investments-launches-two-150000569.html",
+          "title": "Capillary Electrophoresis - Global Strategic Business Report: Secure Share of the $1.1 Billion Market by 2032 as Agilent, Bio-Rad, Danaher and Thermo Fisher Accelerate CE-MS Innovation",
+          "url": "https://finance.yahoo.com/healthcare/articles/capillary-electrophoresis-global-strategic-business-151100858.html",
           "date": "2026-11-10",
-          "publisher": "Business Wire",
+          "publisher": "GlobeNewswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Gene Amplification Technologies - Global Strategic Business Report: Capture $4.4B in New Revenue by 2030 as Abbott, Bio-Rad, bioMerieux, Cepheid and Becton Dickinson Battle for Share",
+          "url": "https://finance.yahoo.com/healthcare/articles/gene-amplification-technologies-global-strategic-142000749.html",
+          "date": "2026-11-10",
+          "publisher": "GlobeNewswire",
           "via": "Yahoo"
         }
       ],
-      "nameKo": "어메리프라이즈 파이낸셜",
-      "nameEn": "AMERIPRISE FINANCIAL INC",
+      "nameKo": "바이오 래드 래브러토리스",
+      "nameEn": "BIO RAD LABORATORIES INC",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "어메리프라이즈 파이낸셜",
-        "nameEn": "AMERIPRISE FINANCIAL INC",
+        "fetchedAt": "2026-11-19",
+        "nameKo": "바이오 래드 래브러토리스",
+        "nameEn": "BIO RAD LABORATORIES INC",
         "financials": {
-          "profitLabel": "세전이익",
-          "marginLabel": "세전이익률",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000820027&type=10-Q",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000012208&type=10-Q",
           "quarters": [
-            {
-              "periodEnd": "2026-09-30",
-              "derived": false,
-              "revenue": 5191000000,
-              "profit": 1427000000,
-              "netIncome": 1126000000,
-              "margin": 27.5,
-              "yoy": {
-                "revenue": 6.1,
-                "profit": 21.6,
-                "netIncome": 23.5,
-                "priorEnd": "2025-09-30"
-              }
-            },
             {
               "periodEnd": "2026-06-30",
               "derived": false,
-              "revenue": 5013000000,
-              "profit": 1442000000,
-              "netIncome": 1113000000,
-              "margin": 28.8,
+              "revenue": 651000000,
+              "profit": 72600000,
+              "netIncome": 371400000,
+              "margin": 11.2,
               "yoy": {
-                "revenue": 11.6,
-                "profit": 6.7,
-                "netIncome": 5,
+                "revenue": -0.1,
+                "profit": -5.8,
+                "netIncome": 16.9,
                 "priorEnd": "2025-06-30"
               }
             },
             {
               "periodEnd": "2026-03-31",
               "derived": false,
-              "revenue": 4886000000,
-              "profit": 1144000000,
-              "netIncome": 915000000,
-              "margin": 23.4,
+              "revenue": 592100000,
+              "profit": 34100000,
+              "netIncome": -527100000,
+              "margin": 5.8,
               "yoy": {
-                "revenue": 9,
-                "profit": 66.5,
-                "netIncome": 56.9,
+                "revenue": 1.1,
+                "profit": 43.9,
+                "netIncome": -923.6,
                 "priorEnd": "2025-03-31"
               }
             },
             {
               "periodEnd": "2025-12-31",
               "derived": true,
-              "revenue": 5047000000,
-              "profit": 1292000000,
-              "netIncome": 1008000000,
-              "margin": 25.6,
+              "revenue": 693200000,
+              "profit": -118900000,
+              "netIncome": 720000000,
+              "margin": -17.2,
               "yoy": {
-                "revenue": 8.6,
-                "profit": -4.4,
-                "netIncome": -5.9,
+                "revenue": 3.9,
+                "profit": -303.9,
+                "netIncome": 200.6,
                 "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 653000000,
+              "profit": 65300000,
+              "netIncome": -341900000,
+              "margin": 10,
+              "yoy": {
+                "revenue": 0.5,
+                "profit": 1.2,
+                "netIncome": -152.3,
+                "priorEnd": "2024-09-30"
               }
             }
           ]
@@ -10789,51 +7698,51 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
-              "title": "Ameriprise Financial CFO Outlines Adviser Growth Strategy as Talent Competition Heats Up",
-              "url": "https://www.nasdaq.com/articles/ameriprise-financial-cfo-outlines-adviser-growth-strategy-talent-competition-heats",
-              "date": "2026-11-13",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Zacks Industry Outlook Highlights BlackRock, Ameriprise Financial and Invesco",
-              "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-blackrock-ameriprise-financial-and-invesco",
-              "date": "2026-11-06",
+              "title": "Why Bio-Rad (BIO) International Revenue Trends Deserve Your Attention",
+              "url": "https://www.nasdaq.com/articles/why-bio-rad-bio-international-revenue-trends-deserve-your-attention",
+              "date": "2026-11-09",
               "publisher": "Zacks"
             },
             {
-              "title": "Cash Dividend On The Way From Ameriprise Financial (AMP)",
-              "url": "https://www.nasdaq.com/articles/cash-dividend-way-ameriprise-financial-amp",
+              "title": "Bio-Rad (BIO) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/bio-rad-bio-q3-2026-earnings-call-transcript",
               "date": "2026-11-05",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "What Ameriprise Financial (AMP) Said on Its Q3 Earnings Call",
-              "url": "https://www.nasdaq.com/articles/what-ameriprise-financial-amp-said-its-q3-earnings-call",
-              "date": "2026-10-30",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Ameriprise Financial, Inc. Reports Third Quarter 2026 Results and Announces New $5.5 billion Share Repurchase Authorization",
-              "url": "https://www.nasdaq.com/articles/ameriprise-financial-inc-reports-third-quarter-2026-results-and-announces-new-55-billion",
-              "date": "2026-10-29",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Ameriprise (AMP) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/ameriprise-amp-q3-2026-earnings-call-transcript",
-              "date": "2026-10-29",
               "publisher": "The Motley Fool"
             },
             {
-              "title": "Ameriprise Q3 Earnings Miss Estimates Despite Y/Y Revenue & AUM Growth",
-              "url": "https://www.nasdaq.com/articles/ameriprise-q3-earnings-miss-estimates-despite-y-y-revenue-aum-growth",
-              "date": "2026-10-29",
+              "title": "What Bio-Rad Laboratories (BIO) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-bio-rad-laboratories-bio-said-its-q3-earnings-call",
+              "date": "2026-11-05",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Bio-Rad Laboratories (BIO) Q3 Earnings Top Estimates",
+              "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-bio-q3-earnings-top-estimates",
+              "date": "2026-11-04",
               "publisher": "Zacks"
             },
             {
-              "title": "Ameriprise Financial Services (AMP) Tops Q3 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/ameriprise-financial-services-amp-tops-q3-earnings-and-revenue-estimates",
-              "date": "2026-10-29",
+              "title": "Bio-Rad Laboratories Bets on Digital PCR, Margins and Smarter M&A Growth",
+              "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-bets-digital-pcr-margins-and-smarter-ma-growth",
+              "date": "2026-09-26",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Bio-Rad (BIO) Up 11.7% Since Last Earnings Report: Can It Continue?",
+              "url": "https://www.nasdaq.com/articles/bio-rad-bio-117-last-earnings-report-can-it-continue",
+              "date": "2026-09-03",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Is Bio-Rad a Buy as Digital PCR Growth Meets a Premium Valuation?",
+              "url": "https://www.nasdaq.com/articles/bio-rad-buy-digital-pcr-growth-meets-premium-valuation",
+              "date": "2026-08-21",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Bio-Rad Gains 19.1% in the Past Month: Can Its Momentum Keep Building?",
+              "url": "https://www.nasdaq.com/articles/bio-rad-gains-191-past-month-can-its-momentum-keep-building",
+              "date": "2026-08-20",
               "publisher": "Zacks"
             }
           ]
@@ -10841,64 +7750,68 @@ window.TEAM4_DATA = {
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-10-29",
+            "filingDate": "2026-11-04",
             "itemsKo": [
               "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000050/amp-20261029.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-23",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000038/amp-20260723.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-09",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/820027/000110465926071727/tm2617199d1_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-20",
-            "itemsKo": [
-              "임원 변동",
               "Reg FD 공시",
               "재무제표·첨부"
             ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/820027/000110465926064493/tm2615151d1_8k.htm"
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000057/bio-20261104.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-04",
+            "itemsKo": [
+              "실적 발표",
+              "2.05",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000046/bio-20260731.htm"
           },
           {
             "form": "8-K",
             "filingDate": "2026-04-30",
             "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000034/bio-20260430.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-24",
+            "itemsKo": [
+              "임원 변동",
               "주주총회 표결",
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/820027/000110465926052928/tm2613146d1_8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000024/bio-20260421.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-04-23",
+            "filingDate": "2026-02-19",
+            "itemsKo": [
+              "Reg FD 공시"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000012/bio-20260219.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-12",
             "itemsKo": [
               "실적 발표",
+              "Reg FD 공시",
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000020/amp-20260423.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000007/bio-20260212.htm"
           }
         ],
         "krReports": {
@@ -10907,111 +7820,96 @@ window.TEAM4_DATA = {
         }
       },
       "kis": {
-        "ticker": "AMP",
-        "fetchedAt": "2026-11-18",
+        "ticker": "BIO",
+        "fetchedAt": "2026-11-19",
         "source": "한국투자증권 Open API",
-        "per": 12.2,
-        "pbr": 7.03,
-        "eps": 41.46,
-        "bps": 71.97,
-        "shares": 86812500,
-        "marketCapM": 43907,
-        "high52": 570.619,
-        "high52Date": "2026-08-14",
-        "low52": 418.1003,
-        "low52Date": "2026-04-02",
-        "last": 505.77,
-        "prevClose": 514.06,
-        "nameKo": "어메리프라이즈 파이낸셜",
-        "nameEn": "AMERIPRISE FINANCIAL INC",
+        "per": 44.85,
+        "pbr": 1.38,
+        "eps": 8.25,
+        "bps": 268.3,
+        "shares": 21832100,
+        "marketCapM": 8082,
+        "high52": 396.23,
+        "high52Date": "2026-08-27",
+        "low52": 236.73,
+        "low52Date": "2026-05-13",
+        "last": 370.17,
+        "prevClose": 358.19,
+        "nameKo": "바이오 래드 래브러토리스",
+        "nameEn": "BIO RAD LABORATORIES INC",
         "listedOn": null,
         "exchange": "뉴욕거래소",
-        "listedShares": 86812500
+        "listedShares": 21832100
       },
-      "cnbc": [
-        {
-          "title": "Cramer's lightning round: Buy Lockheed Martin",
-          "url": "https://www.cnbc.com/2026/08/06/cramers-lightning-round-buy-lockheed-martin.html",
-          "date": "2026-08-06",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Cramer's lightning round: Buy Origin Bancorp",
-          "url": "https://www.cnbc.com/2026/08/04/cramers-lightning-round-buy-origin-bancorp.html",
-          "date": "2026-08-04",
-          "publisher": "CNBC",
-          "kind": "article"
-        }
-      ],
+      "cnbc": [],
       "estimates": {
-        "ticker": "AMP",
-        "url": "https://finance.yahoo.com/quote/AMP/analysis/",
-        "fetchedAt": "2026-11-18",
+        "ticker": "BIO",
+        "url": "https://finance.yahoo.com/quote/BIO/analysis/",
+        "fetchedAt": "2026-11-19",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 12.31,
-            "epsLow": 12.1,
-            "epsHigh": 12.62,
-            "epsYearAgo": 10.83,
-            "epsAnalysts": 12,
-            "epsGrowth": 13.6,
+            "eps": 2.83,
+            "epsLow": 2.73,
+            "epsHigh": 2.93,
+            "epsYearAgo": 2.51,
+            "epsAnalysts": 2,
+            "epsGrowth": 12.8,
             "epsCur": "USD",
-            "rev": 5185897710,
-            "revAnalysts": 7,
-            "revYearAgo": 4916000000,
-            "revGrowth": 5.5,
+            "rev": 688650000,
+            "revAnalysts": 2,
+            "revYearAgo": 693200000,
+            "revGrowth": -0.7,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 12.18,
-            "epsLow": 11.55,
-            "epsHigh": 12.5,
-            "epsYearAgo": 11.26,
-            "epsAnalysts": 11,
-            "epsGrowth": 8.2,
+            "eps": 2.83,
+            "epsLow": 2.83,
+            "epsHigh": 2.83,
+            "epsYearAgo": 1.89,
+            "epsAnalysts": 1,
+            "epsGrowth": 49.7,
             "epsCur": "USD",
-            "rev": 5123117200,
-            "revAnalysts": 5,
-            "revYearAgo": 4774000000,
-            "revGrowth": 7.3,
+            "rev": 611300000,
+            "revAnalysts": 1,
+            "revYearAgo": 592100000,
+            "revGrowth": 3.2,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 46.06,
-            "epsLow": 45.66,
-            "epsHigh": 46.68,
-            "epsYearAgo": 39.29,
-            "epsAnalysts": 12,
-            "epsGrowth": 17.2,
+            "eps": 9.61,
+            "epsLow": 8.85,
+            "epsHigh": 10.09,
+            "epsYearAgo": 9.92,
+            "epsAnalysts": 3,
+            "epsGrowth": -3.2,
             "epsCur": "USD",
-            "rev": 19934726290,
-            "revAnalysts": 7,
-            "revYearAgo": 18293000000,
-            "revGrowth": 9,
+            "rev": 2569278670,
+            "revAnalysts": 3,
+            "revYearAgo": 2583200000,
+            "revGrowth": -0.5,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 51.56,
-            "epsLow": 50.54,
-            "epsHigh": 52.75,
-            "epsYearAgo": 46.06,
-            "epsAnalysts": 13,
-            "epsGrowth": 11.9,
+            "eps": 9.91,
+            "epsLow": 8.75,
+            "epsHigh": 10.6,
+            "epsYearAgo": 9.61,
+            "epsAnalysts": 3,
+            "epsGrowth": 3.1,
             "epsCur": "USD",
-            "rev": 20999324000,
-            "revAnalysts": 7,
-            "revYearAgo": 19934726290,
-            "revGrowth": 5.3,
+            "rev": 2606878670,
+            "revAnalysts": 3,
+            "revYearAgo": 2569278670,
+            "revGrowth": 1.5,
             "revCur": "USD"
           }
         ],
@@ -11020,190 +7918,150 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 12.31,
-            "d7": -0.4,
-            "d30": -0.9,
-            "d90": -0.5,
-            "ago90": 12.37,
-            "up7": 2,
-            "up30": 5,
-            "down7": 4,
-            "down30": 7
+            "now": 2.83,
+            "d7": -6.3,
+            "d30": -6.3,
+            "d90": -2.6,
+            "ago90": 2.91,
+            "up7": 1,
+            "up30": 1,
+            "down7": 2,
+            "down30": 2
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 12.18,
-            "d7": 0.3,
-            "d30": -0.6,
-            "d90": -0.2,
-            "ago90": 12.21,
-            "up7": 4,
-            "up30": 4,
-            "down7": 2,
-            "down30": 5
+            "now": 2.83,
+            "d7": -5,
+            "d30": -8.7,
+            "d90": 14,
+            "ago90": 2.48,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 1
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 46.06,
-            "d7": 0,
-            "d30": -0.8,
-            "d90": -0.8,
-            "ago90": 46.44,
-            "up7": 2,
-            "up30": 2,
-            "down7": 7,
-            "down30": 8
+            "now": 9.61,
+            "d7": 1.7,
+            "d30": 1.7,
+            "d90": 1.3,
+            "ago90": 9.48,
+            "up7": 4,
+            "up30": 4,
+            "down7": 0,
+            "down30": 0
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 51.56,
-            "d7": -0.1,
-            "d30": 0,
-            "d90": 0,
-            "ago90": 51.54,
-            "up7": 7,
-            "up30": 5,
-            "down7": 3,
-            "down30": 7
+            "now": 9.91,
+            "d7": 1.6,
+            "d30": -0.1,
+            "d90": -1.2,
+            "ago90": 10.03,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 1
           }
         ],
         "surprises": [
           {
             "quarter": "2026-09-30",
-            "actual": 11.26,
-            "estimate": 11.77,
-            "surprisePct": -4.3,
+            "actual": 2.65,
+            "estimate": 2.23,
+            "surprisePct": 19.1,
             "cur": "USD"
           },
           {
             "quarter": "2026-06-30",
-            "actual": 11.07,
-            "estimate": 10.81,
-            "surprisePct": 2.4,
+            "actual": 2.62,
+            "estimate": 1.75,
+            "surprisePct": 50.1,
             "cur": "USD"
           },
           {
             "quarter": "2026-03-31",
-            "actual": 11.26,
-            "estimate": 10.21,
-            "surprisePct": 10.3,
+            "actual": 1.89,
+            "estimate": 1.99,
+            "surprisePct": -4.8,
             "cur": "USD"
           },
           {
             "quarter": "2025-12-31",
-            "actual": 10.83,
-            "estimate": 10.31,
-            "surprisePct": 5,
+            "actual": 2.51,
+            "estimate": 2.7,
+            "surprisePct": -7,
             "cur": "USD"
           }
         ],
-        "beats": 3,
+        "beats": 2,
         "ratings": {
           "upgrades": 0,
-          "downgrades": 1,
+          "downgrades": 0,
           "initiations": 0,
           "ptRaised": 1,
-          "ptLowered": 4,
-          "total": 5,
+          "ptLowered": 0,
+          "total": 1,
           "recent": [
             {
-              "date": "2026-10-30",
-              "firm": "Evercore ISI Group",
+              "date": "2026-11-05",
+              "firm": "RBC Capital",
               "action": "main",
-              "from": "In-Line",
-              "to": "In-Line",
-              "ptAction": "Lowers",
-              "pt": 568,
-              "ptPrior": 632
-            },
-            {
-              "date": "2026-10-19",
-              "firm": "B of A Securities",
-              "action": "down",
-              "from": "Buy",
-              "to": "Underperform",
-              "ptAction": "Lowers",
-              "pt": 445,
-              "ptPrior": 570
-            },
-            {
-              "date": "2026-10-09",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Underweight",
-              "to": "Underweight",
-              "ptAction": "Lowers",
-              "pt": 483,
-              "ptPrior": 489
-            },
-            {
-              "date": "2026-10-07",
-              "firm": "Evercore ISI Group",
-              "action": "main",
-              "from": "In-Line",
-              "to": "In-Line",
+              "from": "Outperform",
+              "to": "Outperform",
               "ptAction": "Raises",
-              "pt": 632,
-              "ptPrior": 623
-            },
-            {
-              "date": "2026-10-06",
-              "firm": "BMO Capital",
-              "action": "main",
-              "from": "Market Perform",
-              "to": "Market Perform",
-              "ptAction": "Lowers",
-              "pt": 520,
-              "ptPrior": 560
+              "pt": 440,
+              "ptPrior": 390
             }
           ]
         },
         "nextEarnings": {
-          "date": "2027-01-28",
-          "upcoming": true,
-          "estimated": true
+          "date": "2026-11-04",
+          "upcoming": false,
+          "estimated": false
         }
       },
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 539.78,
-        "stop": 526.49,
-        "adrPct": 2.63,
-        "distToPivotPct": -6.3,
-        "distToPivotAdr": -2.4,
-        "riskPerSharePct": 2.46,
-        "extensionAdr": -0.69,
+        "asOf": "2026-11-18",
+        "pivot": 394.73,
+        "stop": 382.4,
+        "adrPct": 3.33,
+        "distToPivotPct": -6.22,
+        "distToPivotAdr": -1.87,
+        "riskPerSharePct": 3.12,
+        "extensionAdr": -0.28,
         "breakDate": null,
         "metrics": {
-          "baseBars": 9,
-          "baseWeeks": 1.8,
-          "depthPct": 7.8,
-          "priorMovePct": 12.9,
-          "higherLows": 1,
-          "contraction": 1.35,
-          "closeRange10Adr": 2,
-          "surf10": -0.69,
-          "surf20": 0.05,
-          "slope20": 1.06,
-          "baseLow": 497.93,
-          "lastSwingLow": 497.93
+          "baseBars": 18,
+          "baseWeeks": 3.6,
+          "depthPct": 10.8,
+          "priorMovePct": 23.9,
+          "higherLows": 0,
+          "contraction": 1.11,
+          "closeRange10Adr": 2.4,
+          "surf10": -0.28,
+          "surf20": -0.34,
+          "slope20": 0.53,
+          "baseLow": 352.09,
+          "lastSwingLow": 352.09
         },
         "reasons": [
-          "✗ 선행 상승 +13%",
-          "✗ 베이스 1.8주",
-          "깊이 7.8%",
-          "저점 상승 1회",
-          "진폭 1.35배 · 10일 종가폭 2 ADR",
-          "10일선 -0.7 ADR · 20일선 +0 ADR",
-          "20일선 기울기 +1.06%"
+          "✗ 선행 상승 +24%",
+          "베이스 3.6주",
+          "깊이 10.8%",
+          "✗ 저점 상승 0회",
+          "진폭 1.11배 · 10일 종가폭 2.4 ADR",
+          "✗ 10일선 -0.3 ADR · 20일선 -0.3 ADR",
+          "20일선 기울기 +0.53%"
         ]
       },
       "checks": {
@@ -11211,27 +8069,27 @@ window.TEAM4_DATA = {
           {
             "item": "선행 상승",
             "status": "미충족",
-            "evidence": "선행 상승 13% · 기준 30%↑"
+            "evidence": "선행 상승 24% (약함) · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "미충족",
-            "evidence": "베이스 1.8주 — 너무 짧음 · 기준 2~8주"
+            "status": "충족",
+            "evidence": "베이스 3.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.35배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 1.11배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
-            "status": "미충족",
-            "evidence": "베이스 깊이 7.8% · ADR 2.63%의 3배 · 선행 상승의 절반 6%"
+            "status": "충족",
+            "evidence": "베이스 깊이 10.8% · ADR 3.33%의 3.2배 · 선행 상승의 절반 12%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 505.77 · 20일선 505.15 · 50일선 509.15 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 370.17 · 20일선 374.32 · 50일선 371.86 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
@@ -11246,17 +8104,17 @@ window.TEAM4_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 539.78까지 -6.3% (-2.4 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 394.73까지 -6.22% (-1.87 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.46% · ADR 2.63%"
+            "evidence": "예비 손절 폭 3.12% · ADR 3.33%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.7 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -11268,27 +8126,27 @@ window.TEAM4_DATA = {
           {
             "item": "C 최근 분기 이익",
             "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 5% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+            "evidence": "최근 분기 순이익 전년비 16.9% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
             "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 5%/57%/-6% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "evidence": "사이트 최근 3분기 순이익 17%/-924%/흑자전환 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 89%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 93%"
           },
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.98배(20일 평균 대비) · 오늘 거래대금 1.76배 · 상장주식 87M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.98배(20일 평균 대비) · 오늘 거래대금 1.76배(상승일) · 상장주식 22M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "미충족",
-            "evidence": "상대강도 상위 1M 31.15% · 3M 66.59% · 6M 28.36% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 35.66% · 3M 52.98% · 6M 25.74% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -11305,137 +8163,167 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "RRBI",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 103.19000244140625,
-      "marketCap": "0.69B",
-      "volx": 1.73,
-      "volSurgeWk": 2.73,
+      "ticker": "EXPD",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "price": 188.8800048828125,
+      "marketCap": "25.22B",
+      "volx": 1.71,
+      "volSurgeWk": 2.23,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 21,
-      "high52": 93.95,
-      "adr": 2.26,
-      "targetStatus": false,
-      "saleCy": 9.05,
-      "saleNy": 5.48,
-      "epsCy": 15.94,
-      "epsNy": 6.22,
-      "cyTrend": 1.42,
-      "nyTrend": 2.26,
+      "clsPos": 13.43,
+      "high52": 90.84,
+      "adr": 3.06,
+      "targetStatus": true,
+      "saleCy": 28.56,
+      "saleNy": 1.37,
+      "epsCy": 45.46,
+      "epsNy": 2.63,
+      "cyTrend": 10.03,
+      "nyTrend": 8.35,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          6.3,
-          6.32,
-          8.67
+          32.07,
+          4.37,
+          -3.34
         ],
         "ni": [
-          15.37,
-          15.64,
-          22.66
+          45.02,
+          12.67,
+          -14.91
         ],
         "opm": [
-          33.29,
-          34.2,
-          32.14
+          9.98,
+          10.59,
+          8.79
         ],
-        "updated": "2026-09-07 06:50:45"
+        "updated": "2026-09-07 07:50:19"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "RRBI",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Red River Bancshares는 미국 루이지애나주에서 지역 은행을 운영하며 대출 이자와 수수료로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       },
-      "yahooNews": [],
-      "nameKo": "레드 리버 뱅크셰어스",
-      "nameEn": "RED RIVER BANCSHARES INC",
+      "yahooNews": [
+        {
+          "title": "Expeditors International Of Washington Insider Sold Shares Worth $480,325, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-washington-insider-sold-212842947.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Expeditors International of Washington to Provide Logistics for All Points' Space Prep Spaceport Logistics Center",
+          "url": "https://finance.yahoo.com/technology/articles/expeditors-international-washington-logistics-points-134149635.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Expeditors and All Points Partner to Advance Space Logistics at Kennedy Space Center",
+          "url": "https://finance.yahoo.com/small-business/articles/expeditors-points-partner-advance-space-130000087.html",
+          "date": "2026-11-18",
+          "publisher": "Business Wire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "LUV Expands Global Reach With French bee Interline Partnership",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/luv-expands-global-reach-french-165300078.html",
+          "date": "2026-11-17",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Barclays Adjusts Price Target on Expeditors International of Washington to $200 From $175",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-price-target-expeditors-103814265.html",
+          "date": "2026-11-17",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Alaska Airlines Strengthens Its Seattle Network With New Routes",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alaska-airlines-strengthens-seattle-network-152600966.html",
+          "date": "2026-11-13",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Are Transportation Stocks Lagging  A.P. Moller-Maersk (AMKBY) This Year?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/transportation-stocks-lagging-p-moller-134003434.html",
+          "date": "2026-11-13",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "익스피다이터스 인터내셔널 오브 워싱턴",
+      "nameEn": "EXPEDITORS INTERN OF WASHINGTON INC",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "레드 리버 뱅크셰어스",
-        "nameEn": "RED RIVER BANCSHARES INC",
+        "fetchedAt": "2026-11-19",
+        "nameKo": "익스피다이터스 인터내셔널 오브 워싱턴",
+        "nameEn": "EXPEDITORS INTERN OF WASHINGTON INC",
         "financials": {
-          "profitLabel": "세전이익",
-          "marginLabel": "세전이익률",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001071236&type=10-Q",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000746515&type=10-Q",
           "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 4107649000,
+              "profit": 445414000,
+              "netIncome": 344512000,
+              "margin": 10.8,
+              "yoy": {
+                "revenue": 41.9,
+                "profit": 54.6,
+                "netIncome": 55,
+                "priorEnd": "2025-09-30"
+              }
+            },
             {
               "periodEnd": "2026-06-30",
               "derived": false,
-              "revenue": 39323000,
-              "profit": 14669000,
-              "netIncome": 11763000,
-              "margin": 37.3,
+              "revenue": 3502335000,
+              "profit": 349618000,
+              "netIncome": 266226000,
+              "margin": 10,
               "yoy": {
-                "revenue": 7.1,
-                "profit": 15.3,
-                "netIncome": 15.4,
+                "revenue": 32.1,
+                "profit": 41.1,
+                "netIncome": 45,
                 "priorEnd": "2025-06-30"
               }
             },
             {
               "periodEnd": "2026-03-31",
               "derived": false,
-              "revenue": 39145000,
-              "profit": 14937000,
-              "netIncome": 11971000,
-              "margin": 38.2,
+              "revenue": 2782962000,
+              "profit": 294828000,
+              "netIncome": 229610000,
+              "margin": 10.6,
               "yoy": {
-                "revenue": 9.3,
-                "profit": 16.3,
-                "netIncome": 15.6,
+                "revenue": 4.4,
+                "profit": 10.9,
+                "netIncome": 12.7,
                 "priorEnd": "2025-03-31"
               }
             },
             {
               "periodEnd": "2025-12-31",
-              "derived": false,
-              "revenue": 39199000,
-              "profit": 14190000,
-              "netIncome": 11415000,
-              "margin": 36.2,
+              "derived": true,
+              "revenue": 2855954000,
+              "profit": 250910000,
+              "netIncome": 200707000,
+              "margin": 8.8,
               "yoy": {
-                "revenue": 10,
-                "profit": 22.9,
-                "netIncome": 22.7,
+                "revenue": -3.3,
+                "profit": -16.7,
+                "netIncome": -14.9,
                 "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 38149000,
-              "profit": 13372000,
-              "netIncome": 10801000,
-              "margin": 35.1,
-              "yoy": {
-                "revenue": 9.3,
-                "profit": 23.5,
-                "netIncome": 23.4,
-                "priorEnd": "2024-09-30"
               }
             }
           ]
@@ -11443,51 +8331,21 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
-              "title": "Red River Bancshares (RRBI) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q3-earnings-taking-look-key-metrics-versus-estimates",
-              "date": "2026-10-30",
+              "title": "Expeditors International Of Washington Investor Day At 8:30 AM ET",
+              "url": "https://www.nasdaq.com/articles/expeditors-international-washington-investor-day-8-30-am-et",
+              "date": "2026-11-18",
+              "publisher": "RTTNews"
+            },
+            {
+              "title": "Is EXPD Still a Buy as Earnings Surge but Valuation Stays Elevated?",
+              "url": "https://www.nasdaq.com/articles/expd-still-buy-earnings-surge-valuation-stays-elevated",
+              "date": "2026-11-11",
               "publisher": "Zacks"
             },
             {
-              "title": "Red River Bancshares (RRBI) Q3 Earnings and Revenues Top Estimates",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q3-earnings-and-revenues-top-estimates",
-              "date": "2026-10-30",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Red River Bancshares (RRBI) Earnings Expected to Grow: What to Know Ahead of Q3 Release",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-earnings-expected-grow-what-know-ahead-q3-release",
-              "date": "2026-10-22",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Red River Bancshares (RRBI) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q2-earnings-taking-look-key-metrics-versus-estimates",
-              "date": "2026-07-30",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Red River Bancshares (RRBI) Q2 Earnings Beat Estimates",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q2-earnings-beat-estimates",
-              "date": "2026-07-30",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Red River Bancshares (RRBI) to Report Q2 Results: Wall Street Expects Earnings Growth",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-report-q2-results-wall-street-expects-earnings-growth",
-              "date": "2026-07-22",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Red River Bancshares (RRBI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q1-earnings-taking-look-key-metrics-versus-estimates",
-              "date": "2026-04-30",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Red River Bancshares (RRBI) Q1 Earnings Surpass Estimates",
-              "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q1-earnings-surpass-estimates",
-              "date": "2026-04-30",
+              "title": "Can EXPD's Q3 Earnings Beat Sustain Growth as Freight Demand Shifts?",
+              "url": "https://www.nasdaq.com/articles/can-expds-q3-earnings-beat-sustain-growth-freight-demand-shifts",
+              "date": "2026-11-10",
               "publisher": "Zacks"
             }
           ]
@@ -11495,64 +8353,63 @@ window.TEAM4_DATA = {
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-10-30",
+            "filingDate": "2026-11-18",
             "itemsKo": [
               "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000067/rrbi-20261030.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-03",
-            "itemsKo": [
               "Reg FD 공시",
               "재무제표·첨부"
             ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000062/rrbi-20260903.htm"
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526466274/expd-20261118.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-08-27",
+            "filingDate": "2026-11-12",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526457594/expd-20261111.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-03",
             "itemsKo": [
               "기타 중요사건",
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000059/rrbi-20260827.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526445448/expd-20261102.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-07-30",
+            "filingDate": "2026-11-03",
             "itemsKo": [
               "실적 발표",
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000053/rrbi-20260730.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526444872/expd-20261103.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-05-28",
+            "filingDate": "2026-09-16",
             "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
+              "임원 변동"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000050/rrbi-20260528.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526392952/expd-20250916.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-05-28",
+            "filingDate": "2026-08-11",
             "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
+              "Reg FD 공시"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000048/rrbi-20260528.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526344693/expd-20260811.htm"
           }
         ],
         "krReports": {
@@ -11561,96 +8418,104 @@ window.TEAM4_DATA = {
         }
       },
       "kis": {
-        "ticker": "RRBI",
-        "fetchedAt": "2026-11-18",
+        "ticker": "EXPD",
+        "fetchedAt": "2026-11-19",
         "source": "한국투자증권 Open API",
-        "per": 14.86,
-        "pbr": 1.77,
-        "eps": 6.94,
-        "bps": 58.4,
-        "shares": 6584110,
-        "marketCapM": 679,
-        "high52": 109.835,
-        "high52Date": "2026-11-05",
-        "low52": 64.2033,
-        "low52Date": "2025-11-17",
-        "last": 103.19,
-        "prevClose": 104.69,
-        "nameKo": "레드 리버 뱅크셰어스",
-        "nameEn": "RED RIVER BANCSHARES INC",
-        "listedOn": "2019-05-02",
-        "exchange": "나스닥",
-        "listedShares": 6584110
+        "per": 27.48,
+        "pbr": 11.59,
+        "eps": 6.87,
+        "bps": 16.3,
+        "shares": 129111000,
+        "marketCapM": 24386,
+        "high52": 207.93,
+        "high52Date": "2026-11-04",
+        "low52": 128.9256,
+        "low52Date": "2026-02-12",
+        "last": 188.88,
+        "prevClose": 190.77,
+        "nameKo": "익스피다이터스 인터내셔널 오브 워싱턴",
+        "nameEn": "EXPEDITORS INTERN OF WASHINGTON INC",
+        "listedOn": "2023-11-21",
+        "exchange": "뉴욕거래소",
+        "listedShares": 129111000
       },
-      "cnbc": [],
+      "cnbc": [
+        {
+          "title": "This logistics name hated by Wall Street made Josh Brown's Best Stocks list",
+          "url": "https://www.cnbc.com/2026/10/12/this-logistics-name-hated-by-wall-street-made-josh-browns-best-stocks-list.html",
+          "date": "2026-10-12",
+          "publisher": "CNBC",
+          "kind": "article"
+        }
+      ],
       "estimates": {
-        "ticker": "RRBI",
-        "url": "https://finance.yahoo.com/quote/RRBI/analysis/",
-        "fetchedAt": "2026-11-18",
+        "ticker": "EXPD",
+        "url": "https://finance.yahoo.com/quote/EXPD/analysis/",
+        "fetchedAt": "2026-11-19",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 1.89,
-            "epsLow": 1.86,
-            "epsHigh": 1.94,
-            "epsYearAgo": 1.73,
-            "epsAnalysts": 3,
-            "epsGrowth": 9.4,
+            "eps": 2.3,
+            "epsLow": 2.06,
+            "epsHigh": 2.59,
+            "epsYearAgo": 1.49,
+            "epsAnalysts": 12,
+            "epsGrowth": 54.6,
             "epsCur": "USD",
-            "rev": 35360000,
-            "revAnalysts": 2,
-            "revYearAgo": 33190000,
-            "revGrowth": 6.5,
+            "rev": 3894511630,
+            "revAnalysts": 11,
+            "revYearAgo": 2855954000,
+            "revGrowth": 36.4,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 1.87,
-            "epsLow": 1.83,
-            "epsHigh": 1.89,
-            "epsYearAgo": 1.81,
-            "epsAnalysts": 3,
-            "epsGrowth": 3.3,
+            "eps": 2.02,
+            "epsLow": 1.73,
+            "epsHigh": 2.39,
+            "epsYearAgo": 1.71,
+            "epsAnalysts": 8,
+            "epsGrowth": 18,
             "epsCur": "USD",
-            "rev": 34917500,
-            "revAnalysts": 2,
-            "revYearAgo": 32937000,
-            "revGrowth": 6,
+            "rev": 3331196150,
+            "revAnalysts": 7,
+            "revYearAgo": 2782962000,
+            "revGrowth": 19.7,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 7.4,
-            "epsLow": 7.35,
-            "epsHigh": 7.45,
-            "epsYearAgo": 6.38,
-            "epsAnalysts": 3,
-            "epsGrowth": 15.9,
+            "eps": 8.65,
+            "epsLow": 8.26,
+            "epsHigh": 9,
+            "epsYearAgo": 5.95,
+            "epsAnalysts": 13,
+            "epsGrowth": 45.5,
             "epsCur": "USD",
-            "rev": 136882000,
-            "revAnalysts": 2,
-            "revYearAgo": 125521000,
-            "revGrowth": 9.1,
+            "rev": 14229927830,
+            "revAnalysts": 12,
+            "revYearAgo": 11069009000,
+            "revGrowth": 28.6,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 7.86,
-            "epsLow": 7.75,
-            "epsHigh": 8.02,
-            "epsYearAgo": 7.4,
-            "epsAnalysts": 3,
-            "epsGrowth": 6.2,
+            "eps": 8.88,
+            "epsLow": 7.73,
+            "epsHigh": 9.8,
+            "epsYearAgo": 8.65,
+            "epsAnalysts": 15,
+            "epsGrowth": 2.6,
             "epsCur": "USD",
-            "rev": 144389500,
-            "revAnalysts": 2,
-            "revYearAgo": 136882000,
-            "revGrowth": 5.5,
+            "rev": 14425453080,
+            "revAnalysts": 16,
+            "revYearAgo": 14229927830,
+            "revGrowth": 1.4,
             "revCur": "USD"
           }
         ],
@@ -11659,13 +8524,13 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 1.89,
-            "d7": 1.4,
-            "d30": 1.4,
-            "d90": 1.1,
-            "ago90": 1.87,
-            "up7": 1,
-            "up30": 1,
+            "now": 2.3,
+            "d7": 17.1,
+            "d30": 19.7,
+            "d90": 23.6,
+            "ago90": 1.86,
+            "up7": 10,
+            "up30": 10,
             "down7": 0,
             "down30": 0
           },
@@ -11673,11 +8538,1466 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 1.87,
+            "now": 2.02,
+            "d7": 14.4,
+            "d30": 14.7,
+            "d90": 15.3,
+            "ago90": 1.75,
+            "up7": 4,
+            "up30": 4,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 8.65,
+            "d7": 0.2,
+            "d30": 10,
+            "d90": 12.1,
+            "ago90": 7.72,
+            "up7": 11,
+            "up30": 11,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 8.88,
+            "d7": 0.8,
+            "d30": 8.4,
+            "d90": 10.1,
+            "ago90": 8.07,
+            "up7": 11,
+            "up30": 11,
+            "down7": 0,
+            "down30": 0
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 2.65,
+            "estimate": 2.23,
+            "surprisePct": 18.9,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 2.03,
+            "estimate": 1.69,
+            "surprisePct": 19.9,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 1.71,
+            "estimate": 1.34,
+            "surprisePct": 27.8,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 1.49,
+            "estimate": 1.46,
+            "surprisePct": 1.9,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 1,
+          "ptRaised": 9,
+          "ptLowered": 0,
+          "total": 10,
+          "recent": [
+            {
+              "date": "2026-11-17",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Raises",
+              "pt": 200,
+              "ptPrior": 175
+            },
+            {
+              "date": "2026-11-04",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 245,
+              "ptPrior": 220
+            },
+            {
+              "date": "2026-11-04",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 220,
+              "ptPrior": 214
+            },
+            {
+              "date": "2026-11-04",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Raises",
+              "pt": 175,
+              "ptPrior": 165
+            },
+            {
+              "date": "2026-11-04",
+              "firm": "Truist Securities",
+              "action": "main",
+              "from": "Hold",
+              "to": "Hold",
+              "ptAction": "Raises",
+              "pt": 200,
+              "ptPrior": 175
+            },
+            {
+              "date": "2026-10-05",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 214,
+              "ptPrior": 200
+            },
+            {
+              "date": "2026-10-02",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 220,
+              "ptPrior": 210
+            },
+            {
+              "date": "2026-10-01",
+              "firm": "Baird",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 200,
+              "ptPrior": 190
+            },
+            {
+              "date": "2026-09-30",
+              "firm": "BNP Paribas",
+              "action": "init",
+              "from": null,
+              "to": "Neutral",
+              "ptAction": "Announces",
+              "pt": 180,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-09-29",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Raises",
+              "pt": 165,
+              "ptPrior": 160
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-03",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "C",
+        "asOf": "2026-11-18",
+        "pivot": 207.93,
+        "stop": 202.15,
+        "adrPct": 3.06,
+        "distToPivotPct": -9.16,
+        "distToPivotAdr": -2.99,
+        "riskPerSharePct": 2.78,
+        "extensionAdr": -0.41,
+        "breakDate": null,
+        "metrics": {
+          "baseBars": 26,
+          "baseWeeks": 5.2,
+          "depthPct": 11.4,
+          "priorMovePct": 26.5,
+          "higherLows": 0,
+          "contraction": 0.97,
+          "closeRange10Adr": 1.9,
+          "surf10": -0.41,
+          "surf20": -1.04,
+          "slope20": -0.54,
+          "baseLow": 184.22,
+          "lastSwingLow": 184.22
+        },
+        "reasons": [
+          "✗ 선행 상승 +27%",
+          "베이스 5.2주",
+          "깊이 11.4%",
+          "✗ 저점 상승 0회",
+          "진폭 0.97배 · 10일 종가폭 1.9 ADR",
+          "✗ 10일선 -0.4 ADR · 20일선 -1 ADR",
+          "✗ 20일선 기울기 -0.54%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 27% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 5.2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 0.97배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 11.4% · ADR 3.06%의 3.7배 · 선행 상승의 절반 13%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "미충족",
+            "evidence": "종가 188.88 · 20일선 194.89 · 50일선 193.04 — 50일선 아래(원문: 사지 않음)"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.99배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 207.93까지 -9.16% (-2.99 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.78% · ADR 3.06%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 -0.4 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 45% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 45%/13%/-15% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 91%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.99배(20일 평균 대비) · 오늘 거래대금 1.71배 · 상장주식 129M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "상대강도 상위 1M 61.09% · 3M 39.72% · 6M 23.76% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "CAKE",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "price": 120.05000305175781,
+      "marketCap": "5.47B",
+      "volx": 1.71,
+      "volSurgeWk": 2.12,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 91.75,
+      "high52": 99.4,
+      "adr": 4.96,
+      "targetStatus": false,
+      "saleCy": 9.02,
+      "saleNy": 8.4,
+      "epsCy": 24.77,
+      "epsNy": 11.27,
+      "cyTrend": 3.45,
+      "nyTrend": 4.19,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          7.72,
+          5.57,
+          4.41
+        ],
+        "ni": [
+          24.78,
+          50.41,
+          -30.08
+        ],
+        "opm": [
+          7.63,
+          5.62,
+          3.46
+        ],
+        "updated": "2026-09-07 07:59:25"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "CAKE's Younger Guest Appeal: Can It Sustain Brand Relevance?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cakes-younger-guest-appeal-sustain-140200862.html",
+          "date": "2026-11-16",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Macerich Acquires Oakridge Mall in San Jose, CA for Approximately $250 Million",
+          "url": "https://finance.yahoo.com/real-estate/articles/macerich-acquires-oakridge-mall-san-120000761.html",
+          "date": "2026-11-16",
+          "publisher": "GlobeNewswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Baron Small Cap Fund Exited The Cheesecake Factory (CAKE) Following YTD Rally",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/baron-small-cap-fund-exited-151855474.html",
+          "date": "2026-11-13",
+          "publisher": "Insider Monkey",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Is Cheesecake Factory (CAKE) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cheesecake-factory-cake-solid-growth-164502549.html",
+          "date": "2026-11-12",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Will Cracker Barrel's Stronger Cash Flow Help Fund Future Investments?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cracker-barrels-stronger-cash-flow-134400761.html",
+          "date": "2026-11-12",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Has Alliance Laundry Holdings Inc. (ALH) Outpaced Other Retail-Wholesale Stocks This Year?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alliance-laundry-holdings-inc-alh-134002586.html",
+          "date": "2026-11-12",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "The Cheesecake Factory Makes Holiday Shopping a Little Sweeter With Special Gift Card Offer",
+          "url": "https://finance.yahoo.com/small-business/articles/cheesecake-factory-makes-holiday-shopping-131100467.html",
+          "date": "2026-11-12",
+          "publisher": "Business Wire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Can Cheesecake Factory Sustain Its 15.2% Comps Surge Into 2027?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cheesecake-factory-sustain-15-2-132700095.html",
+          "date": "2026-11-10",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "The Cheesecake Factory Inc's Dividend Analysis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cheesecake-factory-incs-dividend-analysis-101055332.html",
+          "date": "2026-11-10",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        }
+      ]
+    },
+    {
+      "ticker": "LIVN",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "price": 94.54000091552734,
+      "marketCap": "5.09B",
+      "volx": 1.71,
+      "volSurgeWk": 2.04,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 83.45,
+      "high52": 95.13,
+      "adr": 3.6,
+      "targetStatus": false,
+      "saleCy": 10.3,
+      "saleNy": 7.06,
+      "epsCy": 13.71,
+      "epsNy": 6.66,
+      "cyTrend": 1.8,
+      "nyTrend": 1,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          10.8,
+          14.33,
+          12.15
+        ],
+        "ni": [
+          299.72,
+          "흑자전환",
+          -44.7
+        ],
+        "opm": [
+          12.67,
+          11.45,
+          11.8
+        ],
+        "updated": "2026-09-08 06:36:43"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Is NPCE Worth Buying Now as Growth Potential Meets Execution Risk?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/npce-worth-buying-now-growth-154800584.html",
+          "date": "2026-11-17",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Needham Raises Price Target on LivaNova to $112 From $93, Keeps Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/needham-raises-price-target-livanova-132604323.html",
+          "date": "2026-11-05",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "LivaNova Stock Gets Lift From Strong Earnings And Epilepsy Study Results",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/livanova-stock-gets-lift-strong-043912167.html",
+          "date": "2026-11-05",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "리바노바",
+      "nameEn": "LIVANOVA PLC",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "리바노바",
+        "nameEn": "LIVANOVA PLC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001639691&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 393148000,
+              "profit": 28425000,
+              "netIncome": 34294000,
+              "margin": 7.2,
+              "yoy": {
+                "revenue": 9.9,
+                "profit": -47.4,
+                "netIncome": 28,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 390587000,
+              "profit": 49484000,
+              "netIncome": 108569000,
+              "margin": 12.7,
+              "yoy": {
+                "revenue": 10.8,
+                "profit": -8.7,
+                "netIncome": 299.7,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 362258000,
+              "profit": 41471000,
+              "netIncome": 22294000,
+              "margin": 11.4,
+              "yoy": {
+                "revenue": 14.3,
+                "profit": -14.7,
+                "netIncome": 106.8,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 360921000,
+              "profit": 42578000,
+              "netIncome": 30877000,
+              "margin": 11.8,
+              "yoy": {
+                "revenue": 12.1,
+                "profit": 15,
+                "netIncome": -44.7,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "LivaNova Consensus Price Target Increased by 17.90% to $107.33",
+              "url": "https://www.nasdaq.com/articles/livanova-consensus-price-target-increased-1790-10733",
+              "date": "2026-11-10",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "LivaNova (LIVN) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/livanova-livn-q3-2026-earnings-call-transcript",
+              "date": "2026-11-04",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "LivaNova Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/livanova-q3-earnings-call-highlights",
+              "date": "2026-11-04",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "LivaNova (LIVN) Reports Q3 Earnings: What Key Metrics Have to Say",
+              "url": "https://www.nasdaq.com/articles/livanova-livn-reports-q3-earnings-what-key-metrics-have-say",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "LivaNova Reports Third-Quarter 2026 Results; Raises Full-Year 2026 Revenue and Adjusted Diluted EPS Guidance",
+              "url": "https://www.nasdaq.com/articles/livanova-reports-third-quarter-2026-results-raises-full-year-2026-revenue-and-adjusted",
+              "date": "2026-11-04",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "LivaNova (LIVN) Surpasses Q3 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/livanova-livn-surpasses-q3-earnings-and-revenue-estimates",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "LivaNova Director Sells 1,650 Shares for $131,500",
+              "url": "https://www.nasdaq.com/articles/livanova-director-sells-1650-shares-131500",
+              "date": "2026-09-11",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "LivaNova (LIVN) Q2 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/livanova-livn-q2-2026-earnings-call-transcript",
+              "date": "2026-08-12",
+              "publisher": "The Motley Fool"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-04",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000111/livn-20261104.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000085/livn-20260805.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-11",
+            "itemsKo": [
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000053/livn-20260610.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-06",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000031/livn-20260506.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-25",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000006/livn-20260225.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-01-14",
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000002/livn-20260112.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "LIVN",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 28.05,
+        "pbr": 3.93,
+        "eps": 3.37,
+        "bps": 24.07,
+        "shares": 55086800,
+        "marketCapM": 5208,
+        "high52": 99.3799,
+        "high52Date": "2026-11-04",
+        "low52": 52.37,
+        "low52Date": "2025-11-18",
+        "last": 94.54,
+        "prevClose": 91.92,
+        "nameKo": "리바노바",
+        "nameEn": "LIVANOVA PLC",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 55086800
+      },
+      "cnbc": [],
+      "estimates": {
+        "ticker": "LIVN",
+        "url": "https://finance.yahoo.com/quote/LIVN/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 0.97,
+            "epsLow": 0.93,
+            "epsHigh": 1.03,
+            "epsYearAgo": 0.86,
+            "epsAnalysts": 10,
+            "epsGrowth": 12.9,
+            "epsCur": "USD",
+            "rev": 389166670,
+            "revAnalysts": 9,
+            "revYearAgo": 360900000,
+            "revGrowth": 7.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 1.06,
+            "epsLow": 0.99,
+            "epsHigh": 1.13,
+            "epsYearAgo": 0.98,
+            "epsAnalysts": 6,
+            "epsGrowth": 7.8,
+            "epsCur": "USD",
+            "rev": 386540000,
+            "revAnalysts": 5,
+            "revYearAgo": 362300000,
+            "revGrowth": 6.7,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 4.43,
+            "epsLow": 4.4,
+            "epsHigh": 4.46,
+            "epsYearAgo": 3.9,
+            "epsAnalysts": 10,
+            "epsGrowth": 13.7,
+            "epsCur": "USD",
+            "rev": 1531020000,
+            "revAnalysts": 10,
+            "revYearAgo": 1388100000,
+            "revGrowth": 10.3,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 4.73,
+            "epsLow": 4.46,
+            "epsHigh": 4.91,
+            "epsYearAgo": 4.43,
+            "epsAnalysts": 10,
+            "epsGrowth": 6.7,
+            "epsCur": "USD",
+            "rev": 1639090000,
+            "revAnalysts": 10,
+            "revYearAgo": 1531020000,
+            "revGrowth": 7.1,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 0.97,
+            "d7": -8,
+            "d30": -8,
+            "d90": -8.6,
+            "ago90": 1.06,
+            "up7": 0,
+            "up30": 0,
+            "down7": 7,
+            "down30": 7
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 1.06,
+            "d7": -0.9,
+            "d30": -0.9,
+            "d90": -1,
+            "ago90": 1.07,
+            "up7": 1,
+            "up30": 1,
+            "down7": 1,
+            "down30": 1
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 4.43,
             "d7": 1.8,
             "d30": 1.8,
-            "d90": 1.3,
-            "ago90": 1.85,
+            "d90": 2.1,
+            "ago90": 4.34,
+            "up7": 7,
+            "up30": 7,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 4.73,
+            "d7": 1,
+            "d30": 1,
+            "d90": 1,
+            "ago90": 4.68,
+            "up7": 6,
+            "up30": 6,
+            "down7": 1,
+            "down30": 1
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 1.23,
+            "estimate": 1.06,
+            "surprisePct": 16.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 1.26,
+            "estimate": 1.09,
+            "surprisePct": 15.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 0.98,
+            "estimate": 0.9,
+            "surprisePct": 9.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 0.86,
+            "estimate": 0.81,
+            "surprisePct": 5.6,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 1,
+          "ptRaised": 4,
+          "ptLowered": 0,
+          "total": 5,
+          "recent": [
+            {
+              "date": "2026-11-09",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 120,
+              "ptPrior": 105
+            },
+            {
+              "date": "2026-11-05",
+              "firm": "Baird",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 111,
+              "ptPrior": 95
+            },
+            {
+              "date": "2026-11-04",
+              "firm": "Needham",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 112,
+              "ptPrior": 93
+            },
+            {
+              "date": "2026-10-07",
+              "firm": "Barclays",
+              "action": "init",
+              "from": null,
+              "to": "Overweight",
+              "ptAction": "Announces",
+              "pt": 105,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-09-02",
+              "firm": "Piper Sandler",
+              "action": "reit",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 90,
+              "ptPrior": 87
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-04",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "A",
+        "asOf": "2026-11-18",
+        "pivot": 99.38,
+        "stop": 95.98,
+        "adrPct": 3.6,
+        "distToPivotPct": -4.87,
+        "distToPivotAdr": -1.35,
+        "riskPerSharePct": 3.42,
+        "extensionAdr": 0.86,
+        "breakDate": null,
+        "metrics": {
+          "baseBars": 10,
+          "baseWeeks": 2,
+          "depthPct": 11,
+          "priorMovePct": 34.1,
+          "higherLows": 1,
+          "contraction": 1.01,
+          "closeRange10Adr": 1.3,
+          "surf10": 0.86,
+          "surf20": 2.29,
+          "slope20": 4.08,
+          "baseLow": 88.42,
+          "lastSwingLow": 88.63
+        },
+        "reasons": [
+          "선행 상승 +34%",
+          "베이스 2주",
+          "깊이 11%",
+          "저점 상승 1회",
+          "진폭 1.01배 · 10일 종가폭 1.3 ADR",
+          "10일선 +0.9 ADR · 20일선 +2.3 ADR",
+          "20일선 기울기 +4.08%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 34% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 2주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회 · 진폭 1.01배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 11% · ADR 3.6%의 3.1배 · 선행 상승의 절반 17%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 94.54 · 20일선 86.73 · 50일선 81.07"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.95배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 99.38까지 -4.87% (-1.35 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.42% · ADR 3.6%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.9 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 299.7% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 300%/흑자전환/-45% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 95%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.95배(20일 평균 대비) · 오늘 거래대금 1.71배(상승일) · 상장주식 55M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 2.84% · 3M 4.19% · 6M 14.65% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "ALV",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 121.76000213623047,
+      "marketCap": "8.45B",
+      "volx": 1.62,
+      "volSurgeWk": 2.08,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 70.83,
+      "high52": 92.78,
+      "adr": 2.77,
+      "targetStatus": false,
+      "saleCy": 2.43,
+      "saleNy": 2.15,
+      "epsCy": 3.18,
+      "epsNy": 12.88,
+      "cyTrend": -0.65,
+      "nyTrend": -1.42,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          3.28,
+          6.79,
+          7.72
+        ],
+        "ni": [
+          -40.12,
+          -15.57,
+          -7.38
+        ],
+        "opm": [
+          6.89,
+          8.57,
+          11.36
+        ],
+        "updated": "2026-09-08 08:32:04"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Autoliv to Benefit From Automation, China Growth Despite 2027 Cost Pressure, RBC Says",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/autoliv-benefit-automation-china-growth-163100055.html",
+          "date": "2026-11-12",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Is Autoliv (ALV) Fully Priced After Its Safety Belt Deal?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/autoliv-alv-fully-priced-safety-140959107.html",
+          "date": "2026-11-10",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "How Dividend Hike At Autoliv (ALV) Has Changed Its Investment Story",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-hike-autoliv-alv-changed-130943901.html",
+          "date": "2026-11-10",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Is Autoliv (ALV) Undervalued After Its Dividend Hike And Recent Rally?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/autoliv-alv-undervalued-dividend-hike-120946915.html",
+          "date": "2026-11-10",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "오토리브",
+      "nameEn": "AUTOLIV INC",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "오토리브",
+        "nameEn": "AUTOLIV INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001034670&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 2693000000,
+              "profit": 254000000,
+              "netIncome": 155000000,
+              "margin": 9.4,
+              "yoy": {
+                "revenue": -0.5,
+                "profit": -4.9,
+                "netIncome": -11.4,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 2803000000,
+              "profit": 192000000,
+              "netIncome": 100000000,
+              "margin": 6.8,
+              "yoy": {
+                "revenue": 3.3,
+                "profit": -22.3,
+                "netIncome": -40.1,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 2753000000,
+              "profit": 237000000,
+              "netIncome": 141000000,
+              "margin": 8.6,
+              "yoy": {
+                "revenue": 6.8,
+                "profit": -6.7,
+                "netIncome": -15.6,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 2817000000,
+              "profit": 319000000,
+              "netIncome": 226000000,
+              "margin": 11.3,
+              "yoy": {
+                "revenue": 7.7,
+                "profit": -9.6,
+                "netIncome": -7,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Autoliv Breaks Below 200-Day Moving Average - Notable for ALV",
+              "url": "https://www.nasdaq.com/articles/autoliv-breaks-below-200-day-moving-average-notable-alv",
+              "date": "2026-11-16",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Autoliv, Inc. (ALV) is a Top-Ranked Momentum Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/autoliv-inc-alv-top-ranked-momentum-stock-should-you-buy",
+              "date": "2026-11-13",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Autoliv, Inc. (ALV) is a Top-Ranked Value Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/autoliv-inc-alv-top-ranked-value-stock-should-you-buy",
+              "date": "2026-11-09",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Here's Why Autoliv, Inc. (ALV) is a Strong Momentum Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-autoliv-inc-alv-strong-momentum-stock",
+              "date": "2026-10-28",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Autoliv: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/autoliv-3-key-takeaways-long-term-investors",
+              "date": "2026-10-23",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Autoliv (ALV) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/autoliv-alv-q3-2026-earnings-call-transcript",
+              "date": "2026-10-23",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "What Autoliv (ALV) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-autoliv-alv-said-its-q3-earnings-call",
+              "date": "2026-10-23",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Here's What Key Metrics Tell Us About Autoliv (ALV) Q3 Earnings",
+              "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-autoliv-alv-q3-earnings-0",
+              "date": "2026-10-23",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-13",
+            "itemsKo": [
+              "임원 변동",
+              "5.03",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526459325/alv-20261109.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-23",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526429404/alv-20261023.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-17",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526306698/alv-20260717.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-30",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526289515/alv-20260624.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-11",
+            "itemsKo": [
+              "2.05",
+              "2.06",
+              "주주총회 표결",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526216107/alv-20260506.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-17",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526160203/alv-20260417.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "ALV",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 14.34,
+        "pbr": 3.58,
+        "eps": 8.49,
+        "bps": 34,
+        "shares": 72006700,
+        "marketCapM": 8768,
+        "high52": 131.2345,
+        "high52Date": "2026-06-02",
+        "low52": 97.7169,
+        "low52Date": "2026-03-20",
+        "last": 121.76,
+        "prevClose": 119.26,
+        "nameKo": "오토리브",
+        "nameEn": "AUTOLIV INC",
+        "listedOn": null,
+        "exchange": "뉴욕거래소",
+        "listedShares": 72006700
+      },
+      "cnbc": [],
+      "estimates": {
+        "ticker": "ALV",
+        "url": "https://finance.yahoo.com/quote/ALV/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 3.28,
+            "epsLow": 1.96,
+            "epsHigh": 3.81,
+            "epsYearAgo": 3.19,
+            "epsAnalysts": 10,
+            "epsGrowth": 2.7,
+            "epsCur": "USD",
+            "rev": 2832322110,
+            "revAnalysts": 13,
+            "revYearAgo": 2817000000,
+            "revGrowth": 0.5,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 2.39,
+            "epsLow": 2.37,
+            "epsHigh": 2.41,
+            "epsYearAgo": 2.05,
+            "epsAnalysts": 2,
+            "epsGrowth": 16.5,
+            "epsCur": "USD",
+            "rev": 2768666670,
+            "revAnalysts": 3,
+            "revYearAgo": 2753000000,
+            "revGrowth": 0.6,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 10.16,
+            "epsLow": 9.41,
+            "epsHigh": 10.51,
+            "epsYearAgo": 9.85,
+            "epsAnalysts": 15,
+            "epsGrowth": 3.2,
+            "epsCur": "USD",
+            "rev": 11077811930,
+            "revAnalysts": 21,
+            "revYearAgo": 10815000000,
+            "revGrowth": 2.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 11.47,
+            "epsLow": 10.88,
+            "epsHigh": 12.2,
+            "epsYearAgo": 10.16,
+            "epsAnalysts": 16,
+            "epsGrowth": 12.9,
+            "epsCur": "USD",
+            "rev": 11315908910,
+            "revAnalysts": 21,
+            "revYearAgo": 11077811930,
+            "revGrowth": 2.2,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 3.28,
+            "d7": 0,
+            "d30": -2.3,
+            "d90": -8.1,
+            "ago90": 3.57,
+            "up7": 1,
+            "up30": 4,
+            "down7": 6,
+            "down30": 2
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 2.39,
+            "d7": 0,
+            "d30": 1.2,
+            "d90": 4.7,
+            "ago90": 2.28,
             "up7": 1,
             "up30": 1,
             "down7": 0,
@@ -11687,70 +10007,111 @@ window.TEAM4_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 7.4,
-            "d7": 1.4,
-            "d30": 1.4,
-            "d90": 1.4,
-            "ago90": 7.3,
-            "up7": 1,
-            "up30": 1,
-            "down7": 0,
-            "down30": 0
+            "now": 10.16,
+            "d7": 0,
+            "d30": -0.6,
+            "d90": -1,
+            "ago90": 10.27,
+            "up7": 3,
+            "up30": 5,
+            "down7": 8,
+            "down30": 7
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 7.86,
-            "d7": 2.3,
-            "d30": 2.3,
-            "d90": 2.2,
-            "ago90": 7.69,
-            "up7": 1,
-            "up30": 1,
-            "down7": 0,
-            "down30": 0
+            "now": 11.47,
+            "d7": 0,
+            "d30": -1.4,
+            "d90": -2.8,
+            "ago90": 11.8,
+            "up7": 3,
+            "up30": 4,
+            "down7": 8,
+            "down30": 10
           }
         ],
         "surprises": [
           {
             "quarter": "2026-09-30",
-            "actual": 1.9,
-            "estimate": 1.83,
-            "surprisePct": 3.6,
+            "actual": 2.19,
+            "estimate": 2.23,
+            "surprisePct": -2,
             "cur": "USD"
           },
           {
             "quarter": "2026-06-30",
-            "actual": 1.78,
-            "estimate": 1.76,
-            "surprisePct": 1.3,
+            "actual": 2.43,
+            "estimate": 2.48,
+            "surprisePct": -2,
             "cur": "USD"
           },
           {
             "quarter": "2026-03-31",
-            "actual": 1.81,
-            "estimate": 1.68,
-            "surprisePct": 8,
+            "actual": 2.05,
+            "estimate": 1.82,
+            "surprisePct": 12.6,
             "cur": "USD"
           },
           {
             "quarter": "2025-12-31",
-            "actual": 1.73,
-            "estimate": 1.61,
-            "surprisePct": 7.2,
+            "actual": 3.19,
+            "estimate": 2.88,
+            "surprisePct": 10.8,
             "cur": "USD"
           }
         ],
-        "beats": 4,
+        "beats": 2,
         "ratings": {
           "upgrades": 0,
-          "downgrades": 0,
+          "downgrades": 2,
           "initiations": 0,
           "ptRaised": 0,
-          "ptLowered": 0,
-          "total": 0,
-          "recent": []
+          "ptLowered": 3,
+          "total": 4,
+          "recent": [
+            {
+              "date": "2026-10-12",
+              "firm": "RBC Capital",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Lowers",
+              "pt": 146,
+              "ptPrior": 147
+            },
+            {
+              "date": "2026-09-23",
+              "firm": "Jefferies",
+              "action": "main",
+              "from": "Hold",
+              "to": "Hold",
+              "ptAction": "Lowers",
+              "pt": 119,
+              "ptPrior": 134
+            },
+            {
+              "date": "2026-09-23",
+              "firm": "Wolfe Research",
+              "action": "down",
+              "from": "Outperform",
+              "to": "Peer Perform",
+              "ptAction": null,
+              "pt": null,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-09-08",
+              "firm": "TD Cowen",
+              "action": "down",
+              "from": "Buy",
+              "to": "Hold",
+              "ptAction": "Lowers",
+              "pt": 137,
+              "ptPrior": 148
+            }
+          ]
         },
         "nextEarnings": {
           "date": "2027-01-29",
@@ -11761,37 +10122,37 @@ window.TEAM4_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 109.83,
-        "stop": 107.5,
-        "adrPct": 2.26,
-        "distToPivotPct": -6.05,
-        "distToPivotAdr": -2.67,
-        "riskPerSharePct": 2.13,
-        "extensionAdr": -0.62,
+        "asOf": "2026-11-18",
+        "pivot": 127.25,
+        "stop": 123.88,
+        "adrPct": 2.77,
+        "distToPivotPct": -4.31,
+        "distToPivotAdr": -1.56,
+        "riskPerSharePct": 2.65,
+        "extensionAdr": 0.17,
         "breakDate": null,
         "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
-          "depthPct": 6.6,
-          "priorMovePct": 12.2,
+          "baseBars": 12,
+          "baseWeeks": 2.4,
+          "depthPct": 7.9,
+          "priorMovePct": 18.8,
           "higherLows": 0,
-          "contraction": 0.89,
-          "closeRange10Adr": 1.9,
-          "surf10": -0.62,
-          "surf20": -0.33,
-          "slope20": 0.83,
-          "baseLow": 102.56,
-          "lastSwingLow": 103.06
+          "contraction": 0.88,
+          "closeRange10Adr": 2.1,
+          "surf10": 0.17,
+          "surf20": 0.6,
+          "slope20": 0.67,
+          "baseLow": 117.14,
+          "lastSwingLow": 117.14
         },
         "reasons": [
-          "✗ 선행 상승 +12%",
-          "베이스 2.2주",
-          "깊이 6.6%",
+          "✗ 선행 상승 +19%",
+          "베이스 2.4주",
+          "깊이 7.9%",
           "✗ 저점 상승 0회",
-          "진폭 0.89배 · 10일 종가폭 1.9 ADR",
-          "✗ 10일선 -0.6 ADR · 20일선 -0.3 ADR",
-          "20일선 기울기 +0.83%"
+          "진폭 0.88배 · 10일 종가폭 2.1 ADR",
+          "10일선 +0.2 ADR · 20일선 +0.6 ADR",
+          "20일선 기울기 +0.67%"
         ]
       },
       "checks": {
@@ -11799,2334 +10160,27 @@ window.TEAM4_DATA = {
           {
             "item": "선행 상승",
             "status": "미충족",
-            "evidence": "선행 상승 12% · 기준 30%↑"
+            "evidence": "선행 상승 19% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
+            "evidence": "베이스 2.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.89배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "미충족",
-            "evidence": "베이스 깊이 6.6% · ADR 2.26%의 2.9배 · 선행 상승의 절반 6%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 103.19 · 20일선 103.97 · 50일선 102.42"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.89배 (보통) · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 109.83까지 -6.05% (-2.67 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 2.13% · ADR 2.26%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -0.6 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 15.4% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 15%/16%/23% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 94%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 0.89배(20일 평균 대비) · 오늘 거래대금 1.73배 · 상장주식 7M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "미충족",
-            "evidence": "상대강도 상위 1M 39.99% · 3M 32.87% · 6M 33.95% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "ATO",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Gas",
-      "price": 171.91000366210938,
-      "marketCap": "29.77B",
-      "volx": 1.67,
-      "volSurgeWk": 2.04,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 9.3,
-      "high52": 90.35,
-      "adr": 1.68,
-      "targetStatus": false,
-      "saleCy": 13.99,
-      "saleNy": 10.89,
-      "epsCy": 7.15,
-      "epsNy": 7.47,
-      "cyTrend": 0.75,
-      "nyTrend": 0.07,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          4.8,
-          0.61,
-          14.17
-        ],
-        "ni": [
-          30.18,
-          19.85,
-          14.54
-        ],
-        "opm": [
-          36.45,
-          38.97,
-          38.34
-        ],
-        "updated": "2026-09-08 09:15:04"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "ATO",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "기존 계약을 대체하는 자금 조달이며 주가 상승 재료로 보기는 어렵다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Atmos Energy 8-K (Item 1.01, 2026-11-17)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/731802/000119312526465513/d61170d8k.htm",
-                "date": "2026-11-17",
-                "quote": "Net proceeds received upon the issuance and sale of shares",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "11월 17일 17억 달러 규모 주식 판매 계약(시장 분할매도 방식)을 공시했다. 기존 계약을 대체하는 자금 조달이며 주가 상승 재료로 보기는 어렵다."
-          }
-        ],
-        "company": "애트모스 에너지는 미국 7개 주 안팎의 가정·기업에 규제 받는 천연가스를 공급하는 가스 유틸리티다. 요금 기반(설비 투자 금액)이 늘어나는 만큼 이익이 커지는 구조다.",
-        "volumeExplanation": "뚜렷한 호재 없이 거래량만 늘었다. 11월 17일 17억 달러 규모 주식 매각 계약 공시가 있었으나 거래량 급증의 원인이라고 확인된 근거는 없다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [],
-          "reason": "statement의 '17억 달러'는 8-K quote에 명시되지 않음"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "National Fuel Gas Has Paid a Dividend for 124 Straight Years. Can It Keep Going?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/national-fuel-gas-paid-dividend-204712533.html",
-          "date": "2026-11-10",
-          "publisher": "24/7 Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Atmos Energy Q4 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/energy/articles/atmos-energy-q4-earnings-call-021433274.html",
-          "date": "2026-11-07",
-          "publisher": "MarketBeat",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Atmos Energy Corp (ATO) (Q4 2026) Earnings Call Highlights: 24th Consecutive Year of EPS Growth ...",
-          "url": "https://finance.yahoo.com/energy/articles/atmos-energy-corp-ato-q4-030948156.html",
-          "date": "2026-11-06",
-          "publisher": "GuruFocus.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Atmos Energy (ATO) Q4 2026 Earnings Call Transcript",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/atmos-energy-ato-q4-2026-213241284.html",
-          "date": "2026-11-05",
-          "publisher": "Motley Fool",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Atmos: Fiscal Q4 Earnings Snapshot",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/atmos-fiscal-q4-earnings-snapshot-232629597.html",
-          "date": "2026-11-04",
-          "publisher": "Associated Press",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "애트모스 에너지",
-      "nameEn": "ATMOS ENERGY CORP",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "애트모스 에너지",
-        "nameEn": "ATMOS ENERGY CORP",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-09-30",
-              "derived": true,
-              "revenue": 796206000,
-              "profit": 259277000,
-              "netIncome": 198978000,
-              "margin": 32.6,
-              "yoy": {
-                "revenue": 8,
-                "profit": 18.1,
-                "netIncome": 13.8,
-                "priorEnd": "2025-09-30"
-              }
-            },
-            {
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 879059000,
-              "profit": 320414000,
-              "netIncome": 242689000,
-              "margin": 36.4,
-              "yoy": {
-                "revenue": 4.8,
-                "profit": 27.1,
-                "netIncome": 30.2,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 1962402000,
-              "profit": 764804000,
-              "netIncome": 581899000,
-              "margin": 39,
-              "yoy": {
-                "revenue": 0.6,
-                "profit": 21.6,
-                "netIncome": 19.8,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": false,
-              "revenue": 1342585000,
-              "profit": 514764000,
-              "netIncome": 402964000,
-              "margin": 38.3,
-              "yoy": {
-                "revenue": 14.2,
-                "profit": 12,
-                "netIncome": 14.5,
-                "priorEnd": "2024-12-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Atmos Energy Corporation Enters $1,700,000,000 Equity Distribution Agreement",
-              "url": "https://www.nasdaq.com/articles/atmos-energy-corporation-enters-1700000000-equity-distribution-agreement",
-              "date": "2026-11-17",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "ATO Crosses Above Key Moving Average Level",
-              "url": "https://www.nasdaq.com/articles/ato-crosses-above-key-moving-average-level",
-              "date": "2026-11-10",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "Atmos Energy Q4 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/atmos-energy-q4-earnings-call-highlights",
-              "date": "2026-11-07",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Atmos Energy (ATO) Q4 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/atmos-energy-ato-q4-2026-earnings-call-transcript",
-              "date": "2026-11-05",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Atmos Energy (ATO) Earnings Expected to Grow: Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/atmos-energy-ato-earnings-expected-grow-should-you-buy",
-              "date": "2026-10-28",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Live Nation Entertainment Now #322 Largest Company, Surpassing Atmos Energy",
-              "url": "https://www.nasdaq.com/articles/live-nation-entertainment-now-322-largest-company-surpassing-atmos-energy",
-              "date": "2026-10-01",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "OGS or ATO: Which Is the Better Value Stock Right Now?",
-              "url": "https://www.nasdaq.com/articles/ogs-or-ato-which-better-value-stock-right-now",
-              "date": "2026-09-28",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Can Infrastructure Investments Drive Atmos Energy's Long-Term Growth?",
-              "url": "https://www.nasdaq.com/articles/can-infrastructure-investments-drive-atmos-energys-long-term-growth",
-              "date": "2026-09-15",
-              "publisher": "Zacks"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-17",
-            "itemsKo": [
-              "중요 계약 체결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/731802/000119312526465513/d61170d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-04",
-            "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000131/ato-20261103.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-04",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000129/ato-20261104.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-09",
-            "itemsKo": [
-              "중요 계약 체결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/731802/000119312526419084/d174816d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-09",
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/731802/000119312526418579/d174432d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-10",
-            "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/731802/000119312526341096/d138079d8k.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "ATO",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 20.47,
-        "pbr": 1.9,
-        "eps": 8.4,
-        "bps": 90.29,
-        "shares": 168989000,
-        "marketCapM": 29051,
-        "high52": 190.28,
-        "high52Date": "2026-04-09",
-        "low52": 154.72,
-        "low52Date": "2026-10-01",
-        "last": 171.91,
-        "prevClose": 176.16,
-        "nameKo": "애트모스 에너지",
-        "nameEn": "ATMOS ENERGY CORP",
-        "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 168989000
-      },
-      "cnbc": [],
-      "estimates": {
-        "ticker": "ATO",
-        "url": "https://finance.yahoo.com/quote/ATO/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 2.59,
-            "epsLow": 2.45,
-            "epsHigh": 2.66,
-            "epsYearAgo": 2.44,
-            "epsAnalysts": 4,
-            "epsGrowth": 6.1,
-            "epsCur": "USD",
-            "rev": 1124127510,
-            "revAnalysts": 1,
-            "revYearAgo": 1342585000,
-            "revGrowth": -16.3,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 3.58,
-            "epsLow": 3.47,
-            "epsHigh": 3.67,
-            "epsYearAgo": 3.47,
-            "epsAnalysts": 4,
-            "epsGrowth": 3.1,
-            "epsCur": "USD",
-            "rev": 1399840810,
-            "revAnalysts": 1,
-            "revYearAgo": 1962402000,
-            "revGrowth": -28.7,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-09-30",
-            "eps": 9.1,
-            "epsLow": 9.05,
-            "epsHigh": 9.15,
-            "epsYearAgo": 8.49,
-            "epsAnalysts": 9,
-            "epsGrowth": 7.2,
-            "epsCur": "USD",
-            "rev": 5676741380,
-            "revAnalysts": 8,
-            "revYearAgo": 4980252000,
-            "revGrowth": 14,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-09-30",
-            "eps": 9.78,
-            "epsLow": 9.62,
-            "epsHigh": 9.93,
-            "epsYearAgo": 9.1,
-            "epsAnalysts": 10,
-            "epsGrowth": 7.5,
-            "epsCur": "USD",
-            "rev": 6294665610,
-            "revAnalysts": 8,
-            "revYearAgo": 5676741380,
-            "revGrowth": 10.9,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 2.59,
-            "d7": -1.3,
-            "d30": -1.5,
-            "d90": -1.6,
-            "ago90": 2.63,
-            "up7": 1,
-            "up30": 1,
-            "down7": 2,
-            "down30": 2
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 3.58,
-            "d7": -1,
-            "d30": -0.4,
-            "d90": -2.3,
-            "ago90": 3.66,
-            "up7": 1,
-            "up30": 1,
-            "down7": 1,
-            "down30": 1
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-09-30",
-            "cur": "USD",
-            "now": 9.1,
-            "d7": 0.2,
-            "d30": 0.7,
-            "d90": 0.8,
-            "ago90": 9.03,
-            "up7": 2,
-            "up30": 3,
-            "down7": 0,
-            "down30": 1
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-09-30",
-            "cur": "USD",
-            "now": 9.78,
-            "d7": 0,
-            "d30": 0.1,
-            "d90": -0.3,
-            "ago90": 9.81,
-            "up7": 1,
-            "up30": 1,
-            "down7": 0,
-            "down30": 1
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 1.17,
-            "estimate": 1.14,
-            "surprisePct": 2.8,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 1.43,
-            "estimate": 1.35,
-            "surprisePct": 5.6,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 3.47,
-            "estimate": 3.41,
-            "surprisePct": 1.8,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 2.44,
-            "estimate": 2.44,
-            "surprisePct": 0.1,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 1,
-          "initiations": 0,
-          "ptRaised": 1,
-          "ptLowered": 5,
-          "total": 8,
-          "recent": [
-            {
-              "date": "2026-11-06",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Maintains",
-              "pt": 201,
-              "ptPrior": 201
-            },
-            {
-              "date": "2026-10-21",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 182,
-              "ptPrior": 179
-            },
-            {
-              "date": "2026-10-15",
-              "firm": "Truist Securities",
-              "action": "main",
-              "from": "Hold",
-              "to": "Hold",
-              "ptAction": "Lowers",
-              "pt": 174,
-              "ptPrior": 179
-            },
-            {
-              "date": "2026-10-06",
-              "firm": "Argus Research",
-              "action": "reit",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Maintains",
-              "pt": 185,
-              "ptPrior": 185
-            },
-            {
-              "date": "2026-10-01",
-              "firm": "Jefferies",
-              "action": "main",
-              "from": "Hold",
-              "to": "Hold",
-              "ptAction": "Lowers",
-              "pt": 167,
-              "ptPrior": 173
-            },
-            {
-              "date": "2026-09-18",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 179,
-              "ptPrior": 190
-            },
-            {
-              "date": "2026-09-11",
-              "firm": "JP Morgan",
-              "action": "down",
-              "from": "Overweight",
-              "to": "Neutral",
-              "ptAction": "Lowers",
-              "pt": 180,
-              "ptPrior": 198
-            },
-            {
-              "date": "2026-08-21",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 190,
-              "ptPrior": 196
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2027-02-03",
-          "upcoming": true,
-          "estimated": true
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 181.51,
-        "stop": 178.61,
-        "adrPct": 1.68,
-        "distToPivotPct": -5.29,
-        "distToPivotAdr": -3.14,
-        "riskPerSharePct": 1.6,
-        "extensionAdr": -1.04,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 9,
-          "baseWeeks": 1.8,
-          "depthPct": 5.7,
-          "priorMovePct": 17.3,
-          "higherLows": 1,
-          "contraction": 1.24,
-          "closeRange10Adr": 1.6,
-          "surf10": -1.04,
-          "surf20": -0.49,
-          "slope20": 1.43,
-          "baseLow": 171.24,
-          "lastSwingLow": 171.24
-        },
-        "reasons": [
-          "✗ 선행 상승 +17%",
-          "✗ 베이스 1.8주",
-          "깊이 5.7%",
-          "저점 상승 1회",
-          "진폭 1.24배 · 10일 종가폭 1.6 ADR",
-          "✗ 10일선 -1 ADR · 20일선 -0.5 ADR",
-          "20일선 기울기 +1.43%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "선행 상승 17% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "미충족",
-            "evidence": "베이스 1.8주 — 너무 짧음 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.24배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.88배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 5.7% · ADR 1.68%의 3.4배 · 선행 상승의 절반 9%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 171.91 · 20일선 173.32 · 50일선 165.87"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1배 (보통) · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 181.51까지 -5.29% (-3.14 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 1.6% · ADR 1.68%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -1 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 30.2% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 30%/20%/15% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 90%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 1배(20일 평균 대비) · 오늘 거래대금 1.67배 · 상장주식 169M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "미충족",
-            "evidence": "상대강도 상위 1M 35.66% · 3M 31.42% · 6M 57.3% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "SWK",
-      "sector": "Industrials",
-      "industry": "Tools & Accessories",
-      "price": 108.80999755859375,
-      "marketCap": "16.79B",
-      "volx": 1.59,
-      "volSurgeWk": 2.27,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 14.25,
-      "high52": 88.69,
-      "adr": 3.7,
-      "targetStatus": false,
-      "saleCy": 0.21,
-      "saleNy": 0.92,
-      "epsCy": 28.81,
-      "epsNy": 8.8,
-      "cyTrend": 7.47,
-      "nyTrend": 3.86,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          0.39,
-          2.72,
-          -0.96
-        ],
-        "ni": [
-          244.75,
-          -34.07,
-          -18.83
-        ],
-        "opm": [
-          14.1,
-          4.18,
-          8.4
-        ],
-        "updated": "2026-09-08 09:58:03"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "SWK",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "스탠리 블랙앤데커는 전동공구·수공구(DeWalt, Craftsman, Stanley)를 만들어 소매점과 전문가 채널에 팔아 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Mizuho Downgrades Stanley Black & Decker to Neutral Form In Line, Price Target is $120",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mizuho-downgrades-stanley-black-decker-102810873.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "TJ Maxx, Marshalls Kept Tariff Refunds for Executive Bonuses",
-          "url": "https://finance.yahoo.com/economy/policy/articles/tj-maxx-marshalls-among-companies-225443059.html",
-          "date": "2026-11-16",
-          "publisher": "Sourcing Journal",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Home Depot Is Beating Lowe’s. The November 17 Report Has to Show It in Margins",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-beating-lowe-november-153322221.html",
-          "date": "2026-11-16",
-          "publisher": "TIKR",
-          "via": "Yahoo"
-        },
-        {
-          "title": "What Stanley Black & Decker Buyers Were Betting On",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-black-decker-buyers-were-180615059.html",
-          "date": "2026-11-15",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Stanley Black And Decker (SWK) Stock Looks Reasonably Priced On Cash Flow",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-black-decker-swk-stock-140857754.html",
-          "date": "2026-11-15",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "스탠리 블랙 앤 데커",
-      "nameEn": "STANLEY BLACK & DECKER INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "스탠리 블랙 앤 데커",
-        "nameEn": "STANLEY BLACK & DECKER INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000093556&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-10-03",
-              "derived": false,
-              "revenue": 3731600000,
-              "profit": null,
-              "netIncome": 272100000,
-              "margin": null,
-              "yoy": {
-                "revenue": -0.6,
-                "profit": null,
-                "netIncome": 429.4,
-                "priorEnd": "2025-09-27"
-              }
-            },
-            {
-              "periodEnd": "2026-07-04",
-              "derived": false,
-              "revenue": 3960700000,
-              "profit": null,
-              "netIncome": 351300000,
-              "margin": null,
-              "yoy": {
-                "revenue": 0.4,
-                "profit": null,
-                "netIncome": 244.7,
-                "priorEnd": "2025-06-28"
-              }
-            },
-            {
-              "periodEnd": "2026-04-04",
-              "derived": false,
-              "revenue": 3846400000,
-              "profit": null,
-              "netIncome": 59600000,
-              "margin": null,
-              "yoy": {
-                "revenue": 2.7,
-                "profit": null,
-                "netIncome": -34.1,
-                "priorEnd": "2025-03-29"
-              }
-            },
-            {
-              "periodEnd": "2026-01-03",
-              "derived": true,
-              "revenue": 3684600000,
-              "profit": null,
-              "netIncome": 158200000,
-              "margin": null,
-              "yoy": {
-                "revenue": -1,
-                "profit": null,
-                "netIncome": -18.8,
-                "priorEnd": "2024-12-28"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Here's Why Stanley Black & Decker (SWK) is a Strong Value Stock",
-              "url": "https://www.nasdaq.com/articles/heres-why-stanley-black-decker-swk-strong-value-stock",
-              "date": "2026-11-17",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Stanley Black & Decker (SWK) Shares Cross 3% Yield Mark",
-              "url": "https://www.nasdaq.com/articles/stanley-black-decker-swk-shares-cross-3-yield-mark",
-              "date": "2026-11-13",
-              "publisher": "BNK Invest"
-            },
-            {
-              "title": "Stanley Black & Decker Targets 35% Margin as Tool Brands Gain Traction",
-              "url": "https://www.nasdaq.com/articles/stanley-black-decker-targets-35-margin-tool-brands-gain-traction",
-              "date": "2026-11-13",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "SWK or LECO: Which Is the Better Value Stock Right Now?",
-              "url": "https://www.nasdaq.com/articles/swk-or-leco-which-better-value-stock-right-now-0",
-              "date": "2026-11-11",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Stanley Black & Decker Consensus Price Target Raised 11.20% to $111.38",
-              "url": "https://www.nasdaq.com/articles/stanley-black-decker-consensus-price-target-raised-1120-11138",
-              "date": "2026-11-10",
-              "publisher": "Fintel"
-            },
-            {
-              "title": "Stanley Black & Decker Q3 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/stanley-black-decker-q3-earnings-call-highlights",
-              "date": "2026-11-08",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Stanley Black & Decker (SWK) is a Top-Ranked Momentum Stock: Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/stanley-black-decker-swk-top-ranked-momentum-stock-should-you-buy",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Stanley Black (SWK) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/stanley-black-swk-q3-2026-earnings-call-transcript",
-              "date": "2026-11-04",
-              "publisher": "The Motley Fool"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-04",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000036/swk-20261104.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-04",
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/93556/000119312526383511/d493257d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-29",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000028/swk-20260729.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-24",
-            "itemsKo": [
-              "중요 계약 체결",
-              "1.02",
-              "2.03",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/93556/000119312526281077/d49687d8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-29",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000013/swk-20260429.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-27",
-            "itemsKo": [
-              "임원 변동",
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/93556/000119312526182041/d930480d8k.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "SWK",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 26.53,
-        "pbr": 1.83,
-        "eps": 4.1,
-        "bps": 59.32,
-        "shares": 148696000,
-        "marketCapM": 16180,
-        "high52": 122.68,
-        "high52Date": "2026-11-04",
-        "low52": 59.3536,
-        "low52Date": "2025-11-19",
-        "last": 108.81,
-        "prevClose": 112.92,
-        "nameKo": "스탠리 블랙 앤 데커",
-        "nameEn": "STANLEY BLACK & DECKER INC",
-        "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 148696000
-      },
-      "cnbc": [
-        {
-          "title": "Wednesday, November 4th, 2026: Cramer calls this home improvement retailer 'the No. 1 stock'",
-          "url": "https://www.cnbc.com/investingclub/video/2026/11/04/wednesday-november-4th-2026-cramer-calls-this-home-improvement-retailer-the-no-1-stock.html",
-          "date": "2026-11-04",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Brent Wilsey: How to 'de-tech' your portfolio",
-          "url": "https://www.cnbc.com/video/2026/10/05/brent-wilsey-how-to-de-tech-your-portfolio.html",
-          "date": "2026-10-05",
-          "publisher": "CNBC",
-          "kind": "video"
-        },
-        {
-          "title": "Stanley Black & Decker CEO Chris Nelson goes one-on-one with Jim Cramer",
-          "url": "https://www.cnbc.com/video/2026/08/13/stanley-black-decker-ceo-chris-nelson-goes-one-on-one-with-jim-cramer.html",
-          "date": "2026-08-13",
-          "publisher": "CNBC",
-          "kind": "video"
-        }
-      ],
-      "estimates": {
-        "ticker": "SWK",
-        "url": "https://finance.yahoo.com/quote/SWK/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 1.45,
-            "epsLow": 1.37,
-            "epsHigh": 1.53,
-            "epsYearAgo": 1.41,
-            "epsAnalysts": 11,
-            "epsGrowth": 2.9,
-            "epsCur": "USD",
-            "rev": 3637022810,
-            "revAnalysts": 12,
-            "revYearAgo": 3684600000,
-            "revGrowth": -1.3,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 1.1,
-            "epsLow": 1.01,
-            "epsHigh": 1.22,
-            "epsYearAgo": 0.8,
-            "epsAnalysts": 9,
-            "epsGrowth": 37,
-            "epsCur": "USD",
-            "rev": 3751402960,
-            "revAnalysts": 7,
-            "revYearAgo": 3846400000,
-            "revGrowth": -2.5,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 6.06,
-            "epsLow": 5.58,
-            "epsHigh": 6.19,
-            "epsYearAgo": 4.67,
-            "epsAnalysts": 15,
-            "epsGrowth": 29.7,
-            "epsCur": "USD",
-            "rev": 15166396180,
-            "revAnalysts": 14,
-            "revYearAgo": 15130400000,
-            "revGrowth": 0.2,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 6.58,
-            "epsLow": 6.25,
-            "epsHigh": 7.15,
-            "epsYearAgo": 6.06,
-            "epsAnalysts": 15,
-            "epsGrowth": 8.6,
-            "epsCur": "USD",
-            "rev": 15306340530,
-            "revAnalysts": 14,
-            "revYearAgo": 15166396180,
-            "revGrowth": 0.9,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1.45,
-            "d7": 0,
-            "d30": -14.1,
-            "d90": -14.5,
-            "ago90": 1.7,
-            "up7": 0,
-            "up30": 0,
-            "down7": 6,
-            "down30": 6
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 1.1,
-            "d7": -0.6,
-            "d30": 6,
-            "d90": 6,
-            "ago90": 1.03,
-            "up7": 2,
-            "up30": 3,
-            "down7": 2,
-            "down30": 2
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 6.06,
-            "d7": 1.9,
-            "d30": 8.2,
-            "d90": 8.1,
-            "ago90": 5.6,
-            "up7": 5,
-            "up30": 6,
-            "down7": 0,
-            "down30": 1
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 6.58,
-            "d7": 0.8,
-            "d30": 4.4,
-            "d90": 3.1,
-            "ago90": 6.38,
-            "up7": 4,
-            "up30": 4,
-            "down7": 1,
-            "down30": 4
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 2.31,
-            "estimate": 1.56,
-            "surprisePct": 48.3,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 1.57,
-            "estimate": 1.21,
-            "surprisePct": 29.9,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 0.8,
-            "estimate": 0.59,
-            "surprisePct": 34.6,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1.41,
-            "estimate": 1.28,
-            "surprisePct": 9.9,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 1,
-          "initiations": 0,
-          "ptRaised": 4,
-          "ptLowered": 2,
-          "total": 6,
-          "recent": [
-            {
-              "date": "2026-11-17",
-              "firm": "Mizuho",
-              "action": "down",
-              "from": "Outperform",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 120,
-              "ptPrior": 105
-            },
-            {
-              "date": "2026-11-05",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 140,
-              "ptPrior": 107
-            },
-            {
-              "date": "2026-11-05",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 115,
-              "ptPrior": 90
-            },
-            {
-              "date": "2026-10-16",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 90,
-              "ptPrior": 95
-            },
-            {
-              "date": "2026-10-15",
-              "firm": "Mizuho",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Lowers",
-              "pt": 105,
-              "ptPrior": 110
-            },
-            {
-              "date": "2026-09-11",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 95,
-              "ptPrior": 90
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2027-02-03",
-          "upcoming": true,
-          "estimated": true
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 122.68,
-        "stop": 118.65,
-        "adrPct": 3.7,
-        "distToPivotPct": -11.31,
-        "distToPivotAdr": -3.05,
-        "riskPerSharePct": 3.29,
-        "extensionAdr": -1.45,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 9,
-          "baseWeeks": 1.8,
-          "depthPct": 11.7,
-          "priorMovePct": 43.1,
-          "higherLows": 0,
-          "contraction": 1.6,
-          "closeRange10Adr": 2.4,
-          "surf10": -1.45,
-          "surf20": 0.23,
-          "slope20": 5,
-          "baseLow": 108.3,
-          "lastSwingLow": 108.3
-        },
-        "reasons": [
-          "선행 상승 +43%",
-          "✗ 베이스 1.8주",
-          "깊이 11.7%",
-          "✗ 저점 상승 0회",
-          "진폭 1.6배 · 10일 종가폭 2.4 ADR",
-          "10일선 -1.5 ADR · 20일선 +0.2 ADR",
-          "20일선 기울기 +5%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 43% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "미충족",
-            "evidence": "베이스 1.8주 — 너무 짧음 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.6배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 11.7% · ADR 3.7%의 3.2배 · 선행 상승의 절반 22%"
+            "evidence": "베이스 깊이 7.9% · ADR 2.77%의 2.9배 · 선행 상승의 절반 9%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 108.81 · 20일선 107.89 · 50일선 97.2"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.88배 (보통) · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 122.68까지 -11.31% (-3.05 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 3.29% · ADR 3.7%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -1.4 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 244.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 245%/-34%/-19% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 89%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 0.88배(20일 평균 대비) · 오늘 거래대금 1.59배 · 상장주식 149M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 5.37% · 3M 11.23% · 6M 7.35% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "RYTM",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "price": 116.61000061035156,
-      "marketCap": "7.45B",
-      "volx": 1.53,
-      "volSurgeWk": 2.86,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 86.79,
-      "high52": 95.43,
-      "adr": 6.32,
-      "targetStatus": true,
-      "saleCy": 74.2,
-      "saleNy": 74.91,
-      "epsCy": 58.71,
-      "epsNy": -73.7,
-      "cyTrend": 59.2,
-      "nyTrend": 111.92,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          46.91,
-          83.81,
-          36.87
-        ],
-        "ni": [
-          "적자확대",
-          "적자확대",
-          "적자확대"
-        ],
-        "opm": [
-          -68.14,
-          -87.11,
-          -82.2
-        ],
-        "updated": "2026-09-08 08:32:42"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "RYTM",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Rhythm Pharmaceuticals는 희귀 유전성 비만 치료제 Imcivree(setmelanotide)를 팔아 매출을 올리는 바이오 기업이다. 아직 영업적자 상태다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Rhythm Pharmaceuticals Says Rare Obesity Drug Delivers Sustained Two-Year BMI Reductions",
-          "url": "https://finance.yahoo.com/healthcare/articles/rhythm-pharmaceuticals-says-rare-obesity-151151943.html",
-          "date": "2026-11-17",
-          "publisher": "Benzinga",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Rhythm Pharmaceuticals Announces Presentation of New Data at ObesityWeek® 2026",
-          "url": "https://finance.yahoo.com/healthcare/articles/rhythm-pharmaceuticals-announces-presentation-data-210000070.html",
-          "date": "2026-11-16",
-          "publisher": "GlobeNewswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Market Chatter: AstraZeneca Makes $10 Billion Offer for Rhythm Pharmaceuticals",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-astrazeneca-makes-10-090714069.html",
-          "date": "2026-11-05",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "AstraZeneca Made $10 Billion Offer for Rhythm Pharmaceuticals",
-          "url": "https://finance.yahoo.com/m/153c4695-563d-362a-9519-81dd7cf34747/astrazeneca-made-%2410-billion.html",
-          "date": "2026-11-04",
-          "publisher": "The Wall Street Journal",
-          "via": "Yahoo"
-        },
-        {
-          "title": "RYTM Stock Clocks Best Day In Nearly 16 Months On AstraZeneca $10B Bid Report",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rytm-stock-clocks-best-day-222036867.html",
-          "date": "2026-11-04",
-          "publisher": "Stocktwits",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Rhythm Pharmaceuticals stock surges 28% on AstraZeneca bid report",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rhythm-pharmaceuticals-stock-surges-28-215311611.html",
-          "date": "2026-11-04",
-          "publisher": "Investing.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Could Rhythm Pharmaceuticals (RYTM) Be Too Pricey After Recent Funding?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/could-rhythm-pharmaceuticals-rytm-too-181608786.html",
-          "date": "2026-11-04",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Rhythm Pharmaceuticals' Imcivree Could Reach $2 Billion in Worldwide Sales by 2030, RBC Says",
-          "url": "https://finance.yahoo.com/healthcare/articles/rhythm-pharmaceuticals-apos-imcivree-could-165931266.html",
-          "date": "2026-11-04",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Rhythm Pharmaceuticals Stock In Focus After Earnings Beat And $750 Million Financing",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rhythm-pharmaceuticals-stock-focus-earnings-141655853.html",
-          "date": "2026-11-04",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        }
-      ]
-    },
-    {
-      "ticker": "DOCU",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 75.93000030517578,
-      "marketCap": "14.19B",
-      "volx": 1.46,
-      "volSurgeWk": 2.03,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 32.98,
-      "high52": 88.39,
-      "adr": 3.42,
-      "targetStatus": false,
-      "saleCy": 8.86,
-      "saleNy": 8,
-      "epsCy": 20.34,
-      "epsNy": 12.88,
-      "cyTrend": 0,
-      "nyTrend": 0.12,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          8.72,
-          7.81,
-          8.42
-        ],
-        "ni": [
-          8.48,
-          8.16,
-          34.13
-        ],
-        "opm": null,
-        "updated": "2026-06-12 09:05:47"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "DOCU",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "전자서명·계약 관리 소프트웨어(Docusign)를 구독형으로 팔아 돈을 번다. 최근 분기 매출은 1년 전보다 약 8% 늘었다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "BILL Holdings, Inc. (BILL) Hit a 52 Week High, Can the Run Continue?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-inc-bill-hit-131502958.html",
-          "date": "2026-11-17",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Reasons Why Investors Can Consider Buying Docusign Stock Now",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/reasons-why-investors-consider-buying-125600141.html",
-          "date": "2026-11-13",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Why a ’legacy’ fax stock doubled while AI software stocks sank",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-legacy-fax-stock-doubled-124240182.html",
-          "date": "2026-11-13",
-          "publisher": "Investing.com",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Is Trending Stock Docusign Inc. (DOCU) a Buy Now?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-docusign-inc-docu-130003317.html",
-          "date": "2026-11-12",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Aviat Networks, Inc. (AVNW) Q1 Earnings and Revenues Miss Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aviat-networks-inc-avnw-q1-131002820.html",
-          "date": "2026-11-10",
-          "publisher": "Zacks",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Parry Labs Welcomes Matthew J. Schiltz to Board of Directors; David Gross Transitions to Chairman Emeritus",
-          "url": "https://finance.yahoo.com/technology/articles/parry-labs-welcomes-matthew-j-130000180.html",
-          "date": "2026-11-09",
-          "publisher": "PR Newswire",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "도큐사인",
-      "nameEn": "DOCUSIGN INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "도큐사인",
-        "nameEn": "DOCUSIGN INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001261333&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-07-31",
-              "derived": false,
-              "revenue": 875746000,
-              "profit": 117621000,
-              "netIncome": 77715000,
-              "margin": 13.4,
-              "yoy": {
-                "revenue": 9.4,
-                "profit": 80.3,
-                "netIncome": 23.4,
-                "priorEnd": "2025-07-31"
-              }
-            },
-            {
-              "periodEnd": "2026-04-30",
-              "derived": false,
-              "revenue": 830235000,
-              "profit": 111309000,
-              "netIncome": 78197000,
-              "margin": 13.4,
-              "yoy": {
-                "revenue": 8.7,
-                "profit": 84.7,
-                "netIncome": 8.5,
-                "priorEnd": "2025-04-30"
-              }
-            },
-            {
-              "periodEnd": "2026-01-31",
-              "derived": true,
-              "revenue": 836860000,
-              "profit": 87742000,
-              "netIncome": 90318000,
-              "margin": 10.5,
-              "yoy": {
-                "revenue": 7.8,
-                "profit": 45.1,
-                "netIncome": 8.2,
-                "priorEnd": "2025-01-31"
-              }
-            },
-            {
-              "periodEnd": "2025-10-31",
-              "derived": false,
-              "revenue": 818350000,
-              "profit": 85355000,
-              "netIncome": 83725000,
-              "margin": 10.4,
-              "yoy": {
-                "revenue": 8.4,
-                "profit": 44.6,
-                "netIncome": 34.1,
-                "priorEnd": "2024-10-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "DocuSign (DOCU) Stock Moves -1.16%: What You Should Know",
-              "url": "https://www.nasdaq.com/articles/docusign-docu-stock-moves-116-what-you-should-know",
-              "date": "2026-11-16",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Reasons Why Investors Can Consider Buying Docusign Stock Now",
-              "url": "https://www.nasdaq.com/articles/reasons-why-investors-can-consider-buying-docusign-stock-now",
-              "date": "2026-11-13",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Is Trending Stock Docusign Inc. (DOCU) a Buy Now?",
-              "url": "https://www.nasdaq.com/articles/trending-stock-docusign-inc-docu-buy-now",
-              "date": "2026-11-12",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Docusign vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?",
-              "url": "https://www.nasdaq.com/articles/docusign-vs-servicenow-which-technology-stock-better-buy-2027",
-              "date": "2026-11-11",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Here's Why DocuSign (DOCU) is a Strong Growth Stock",
-              "url": "https://www.nasdaq.com/articles/heres-why-docusign-docu-strong-growth-stock",
-              "date": "2026-11-11",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Docusign vs. Monday.com: Absolute Scale vs. Faster Growth in Tech Revenues",
-              "url": "https://www.nasdaq.com/articles/docusign-vs-mondaycom-absolute-scale-vs-faster-growth-tech-revenues",
-              "date": "2026-11-07",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Datadog vs. Docusign: Which Technology Stock Is a Better Buy for 2027?",
-              "url": "https://www.nasdaq.com/articles/datadog-vs-docusign-which-technology-stock-better-buy-2027",
-              "date": "2026-11-07",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Docusign vs. Monday.com: Which Technology Stock Is a Better Buy for 2027?",
-              "url": "https://www.nasdaq.com/articles/docusign-vs-mondaycom-which-technology-stock-better-buy-2027",
-              "date": "2026-11-05",
-              "publisher": "The Motley Fool"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-03",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000088/docu-20260903.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-04",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000072/docu-20260604.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-03",
-            "itemsKo": [
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1261333/000110465926070097/tm2616614d1_8k.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-06",
-            "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000050/docu-20260502.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-17",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000017/docu-20260317.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-06",
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000006/docu-20260305.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "DOCU",
-        "fetchedAt": "2026-11-17",
-        "source": "한국투자증권 Open API",
-        "per": 48.55,
-        "pbr": 8.74,
-        "eps": 1.64,
-        "bps": 9.13,
-        "shares": 186902000,
-        "marketCapM": 14919,
-        "high52": 85.9,
-        "high52Date": "2026-10-26",
-        "low52": 40.16,
-        "low52Date": "2026-02-25",
-        "last": 79.82,
-        "prevClose": 80.76,
-        "nameKo": "도큐사인",
-        "nameEn": "DOCUSIGN INC",
-        "listedOn": "2018-04-26",
-        "exchange": "나스닥",
-        "listedShares": 186902000
-      },
-      "cnbc": [
-        {
-          "title": "Stocks making the biggest moves premarket: AMC, Lululemon, Adobe",
-          "url": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-premarket-.html",
-          "date": "2026-09-04",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
-          "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-after-hours-lulu-zs-gwre.html",
-          "date": "2026-09-03",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Final Trades: Netflix, AbbVie and Docusign",
-          "url": "https://www.cnbc.com/video/2026/10/12/final-trades-netflix-abbvie-and-docusign.html",
-          "date": "2026-10-12",
-          "publisher": "CNBC",
-          "kind": "video"
-        }
-      ],
-      "estimates": {
-        "ticker": "DOCU",
-        "url": "https://finance.yahoo.com/quote/DOCU/analysis/",
-        "fetchedAt": "2026-11-17",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-10-31",
-            "eps": 1.18,
-            "epsLow": 1.14,
-            "epsHigh": 1.23,
-            "epsYearAgo": 1.01,
-            "epsAnalysts": 17,
-            "epsGrowth": 16.7,
-            "epsCur": "USD",
-            "rev": 888827390,
-            "revAnalysts": 16,
-            "revYearAgo": 818350000,
-            "revGrowth": 8.6,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-01-31",
-            "eps": 1.19,
-            "epsLow": 1.13,
-            "epsHigh": 1.28,
-            "epsYearAgo": 1.01,
-            "epsAnalysts": 17,
-            "epsGrowth": 17.6,
-            "epsCur": "USD",
-            "rev": 909977950,
-            "revAnalysts": 16,
-            "revYearAgo": 836860000,
-            "revGrowth": 8.7,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-01-31",
-            "eps": 4.62,
-            "epsLow": 4.53,
-            "epsHigh": 4.76,
-            "epsYearAgo": 3.84,
-            "epsAnalysts": 19,
-            "epsGrowth": 20.3,
-            "epsCur": "USD",
-            "rev": 3504628520,
-            "revAnalysts": 18,
-            "revYearAgo": 3219500000,
-            "revGrowth": 8.9,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-01-31",
-            "eps": 5.22,
-            "epsLow": 4.96,
-            "epsHigh": 5.63,
-            "epsYearAgo": 4.62,
-            "epsAnalysts": 19,
-            "epsGrowth": 12.9,
-            "epsCur": "USD",
-            "rev": 3785136760,
-            "revAnalysts": 18,
-            "revYearAgo": 3504628520,
-            "revGrowth": 8,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-10-31",
-            "cur": "USD",
-            "now": 1.18,
-            "d7": 0,
-            "d30": 0,
-            "d90": 1.3,
-            "ago90": 1.16,
-            "up7": 9,
-            "up30": 9,
-            "down7": 5,
-            "down30": 5
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-01-31",
-            "cur": "USD",
-            "now": 1.19,
-            "d7": 0,
-            "d30": 0,
-            "d90": 0.1,
-            "ago90": 1.19,
-            "up7": 5,
-            "up30": 5,
-            "down7": 9,
-            "down30": 9
-          },
-          {
-            "period": "0y",
-            "endDate": "2027-01-31",
-            "cur": "USD",
-            "now": 4.62,
-            "d7": 0,
-            "d30": 0,
-            "d90": 2.1,
-            "ago90": 4.53,
-            "up7": 19,
-            "up30": 19,
-            "down7": 0,
-            "down30": 0
-          },
-          {
-            "period": "+1y",
-            "endDate": "2028-01-31",
-            "cur": "USD",
-            "now": 5.22,
-            "d7": 0.1,
-            "d30": 0.1,
-            "d90": 2.3,
-            "ago90": 5.1,
-            "up7": 17,
-            "up30": 17,
-            "down7": 2,
-            "down30": 2
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-07-31",
-            "actual": 1.16,
-            "estimate": 1.09,
-            "surprisePct": 6.9,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-04-30",
-            "actual": 1.09,
-            "estimate": 0.99,
-            "surprisePct": 9.7,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-01-31",
-            "actual": 1.01,
-            "estimate": 0.95,
-            "surprisePct": 6.4,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-10-31",
-            "actual": 1.01,
-            "estimate": 0.92,
-            "surprisePct": 10.3,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 9,
-          "ptLowered": 0,
-          "total": 12,
-          "recent": [
-            {
-              "date": "2026-09-04",
-              "firm": "Piper Sandler",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 75,
-              "ptPrior": 52
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 72,
-              "ptPrior": 54
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 75,
-              "ptPrior": 69
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "B of A Securities",
-              "action": "main",
-              "from": "Underperform",
-              "to": "Underperform",
-              "ptAction": "Raises",
-              "pt": 64,
-              "ptPrior": 58
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "Baird",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 72,
-              "ptPrior": 55
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 60,
-              "ptPrior": 55
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "RBC Capital",
-              "action": "main",
-              "from": "Sector Perform",
-              "to": "Sector Perform",
-              "ptAction": "Raises",
-              "pt": 70,
-              "ptPrior": 55
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "UBS",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 70,
-              "ptPrior": 54
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "Citizens",
-              "action": "reit",
-              "from": "Market Outperform",
-              "to": "Market Outperform",
-              "ptAction": "Maintains",
-              "pt": 86,
-              "ptPrior": 86
-            },
-            {
-              "date": "2026-09-04",
-              "firm": "BTIG",
-              "action": "reit",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Maintains",
-              "pt": 75,
-              "ptPrior": 75
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-12-03",
-          "upcoming": true,
-          "estimated": true
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 85.9,
-        "stop": 83.31,
-        "adrPct": 3.42,
-        "distToPivotPct": -11.61,
-        "distToPivotAdr": -3.4,
-        "riskPerSharePct": 3.02,
-        "extensionAdr": -1.15,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 20,
-          "baseWeeks": 4,
-          "depthPct": 13.1,
-          "priorMovePct": 67.7,
-          "higherLows": 0,
-          "contraction": 0.96,
-          "closeRange10Adr": 1.9,
-          "surf10": -1.15,
-          "surf20": -1.89,
-          "slope20": 0.78,
-          "baseLow": 74.69,
-          "lastSwingLow": 75.56
-        },
-        "reasons": [
-          "선행 상승 +68%",
-          "베이스 4주",
-          "깊이 13.1%",
-          "✗ 저점 상승 0회",
-          "진폭 0.96배 · 10일 종가폭 1.9 ADR",
-          "✗ 10일선 -1.2 ADR · 20일선 -1.9 ADR",
-          "20일선 기울기 +0.78%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 68% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 4주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.96배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 13.1% · ADR 3.42%의 3.8배 · 선행 상승의 절반 34%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 75.93 · 20일선 80.83 · 50일선 74.45"
+            "evidence": "종가 121.76 · 20일선 119.72 · 50일선 116.9"
           },
           {
             "item": "거래량 마름",
@@ -14141,17 +10195,17 @@ window.TEAM4_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 85.9까지 -11.61% (-3.4 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 127.25까지 -4.31% (-1.56 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.02% · ADR 3.42%"
+            "evidence": "예비 손절 폭 2.65% · ADR 2.77%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.2 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -14163,27 +10217,27 @@ window.TEAM4_DATA = {
           {
             "item": "C 최근 분기 이익",
             "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 8.5% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+            "evidence": "최근 분기 순이익 전년비 -40.1% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 8%/8%/34% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 -40%/-16%/-7% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 88%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 93%"
           },
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.93배(20일 평균 대비) · 오늘 거래대금 1.46배 · 상장주식 187M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.93배(20일 평균 대비) · 오늘 거래대금 1.62배(상승일) · 상장주식 72M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 66.41% · 3M 3.2% · 6M 2.66% · 기준 상위 20%"
+            "status": "미충족",
+            "evidence": "상대강도 상위 1M 27.01% · 3M 42.97% · 6M 62.08% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -14200,823 +10254,138 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "SSD",
-      "sector": "Basic Materials",
-      "industry": "Lumber & Wood Production",
-      "price": 195.30999755859375,
-      "marketCap": "8.05B",
-      "volx": 1.34,
-      "volSurgeWk": 2,
+      "ticker": "THC",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "price": 271.3399963378906,
+      "marketCap": "23.20B",
+      "volx": 1.58,
+      "volSurgeWk": 2.69,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 6.73,
-      "high52": 91.78,
-      "adr": 2.85,
+      "clsPos": 16.89,
+      "high52": 90.01,
+      "adr": 4.13,
       "targetStatus": false,
-      "saleCy": 4.05,
-      "saleNy": 2.88,
-      "epsCy": 16.25,
-      "epsNy": 4.77,
-      "cyTrend": 1.57,
-      "nyTrend": -0.05,
+      "saleCy": 4.67,
+      "saleNy": 0.9,
+      "epsCy": 34.46,
+      "epsNy": -10.01,
+      "cyTrend": 6.3,
+      "nyTrend": -3.7,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          6.34,
-          9.11,
-          4.24
+          14.61,
+          10.68,
+          8.95
         ],
         "ni": [
-          22.7,
-          13.27,
-          1.39
+          186.81,
+          72.91,
+          16.67
         ],
         "opm": [
-          25.2,
-          19.49,
-          13.86
+          24.85,
+          22.42,
+          15.43
         ],
-        "updated": "2026-09-08 06:38:04"
+        "updated": "2026-09-08 06:03:11"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "SSD",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Simpson Manufacturing은 목조 주택 건설에 쓰이는 구조용 연결 금속 부품과 앵커 등을 만들어 파는 건축자재 회사입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       },
       "yahooNews": [
         {
-          "title": "Simpson Manufacturing Co., Inc. Announces Participation at The Stephens Annual Investment Conference",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/simpson-manufacturing-co-inc-announces-140000287.html",
-          "date": "2026-11-11",
-          "publisher": "PR Newswire",
+          "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+          "url": "https://finance.yahoo.com/healthcare/articles/science-corporation-brain-tech-worth-142646573.html",
+          "date": "2026-11-17",
+          "publisher": "TechCrunch",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Here's How Much a $1000 Investment in Tenet Healthcare Made 10 Years Ago Would Be Worth Today",
+          "url": "https://finance.yahoo.com/healthcare/articles/heres-much-1000-investment-tenet-123002552.html",
+          "date": "2026-11-16",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Community Health Systems Sees Surgery Delays Stretching Into Next Year as Costs Squeeze Patients",
+          "url": "https://finance.yahoo.com/healthcare/articles/community-health-systems-sees-surgery-151517765.html",
+          "date": "2026-11-12",
+          "publisher": "MarketBeat",
           "via": "Yahoo"
         }
       ],
-      "nameKo": "심슨 매뉴팩처링",
-      "nameEn": "SIMPSON MFG CO INC",
+      "nameKo": "테넷 헬스케어",
+      "nameEn": "TENET HEALTHCARE CORP",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "심슨 매뉴팩처링",
-        "nameEn": "SIMPSON MFG CO INC",
+        "fetchedAt": "2026-11-19",
+        "nameKo": "테넷 헬스케어",
+        "nameEn": "TENET HEALTHCARE CORP",
         "financials": {
           "profitLabel": "영업이익",
           "marginLabel": "영업이익률",
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000920371&type=10-Q",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000070318&type=10-Q",
           "quarters": [
-            {
-              "periodEnd": "2026-09-30",
-              "derived": false,
-              "revenue": 638130000,
-              "profit": 141009000,
-              "netIncome": 109124000,
-              "margin": 22.1,
-              "yoy": {
-                "revenue": 2.3,
-                "profit": 0.2,
-                "netIncome": 1.6,
-                "priorEnd": "2025-09-30"
-              }
-            },
             {
               "periodEnd": "2026-06-30",
               "derived": false,
-              "revenue": 671076000,
-              "profit": 169130000,
-              "netIncome": 127042000,
-              "margin": 25.2,
+              "revenue": 5628000000,
+              "profit": 1501000000,
+              "netIncome": 1045000000,
+              "margin": 26.7,
               "yoy": {
-                "revenue": 6.3,
-                "profit": 20.6,
-                "netIncome": 22.7,
+                "revenue": 6.8,
+                "profit": 82.4,
+                "netIncome": 100.2,
                 "priorEnd": "2025-06-30"
               }
             },
             {
               "periodEnd": "2026-03-31",
               "derived": false,
-              "revenue": 587964000,
-              "profit": 114617000,
-              "netIncome": 88216000,
-              "margin": 19.5,
+              "revenue": 5368000000,
+              "profit": 1296000000,
+              "netIncome": 906000000,
+              "margin": 24.1,
               "yoy": {
-                "revenue": 9.1,
-                "profit": 12,
-                "netIncome": 13.3,
+                "revenue": 2.8,
+                "profit": 37.4,
+                "netIncome": 45.7,
                 "priorEnd": "2025-03-31"
               }
             },
             {
               "periodEnd": "2025-12-31",
               "derived": true,
-              "revenue": 539345000,
-              "profit": 74759000,
-              "netIncome": 56214000,
-              "margin": 13.9,
+              "revenue": 5527000000,
+              "profit": 853000000,
+              "netIncome": 644000000,
+              "margin": 15.4,
               "yoy": {
-                "revenue": 4.2,
-                "profit": -2.7,
-                "netIncome": 1.4,
-                "priorEnd": "2024-12-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Simpson: 3 Key Takeaways for Long-Term Investors",
-              "url": "https://www.nasdaq.com/articles/simpson-3-key-takeaways-long-term-investors",
-              "date": "2026-11-04",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "Simpson Manufacturing (SSD) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/simpson-manufacturing-ssd-q3-2026-earnings-call-transcript",
-              "date": "2026-10-27",
-              "publisher": "The Motley Fool"
-            },
-            {
-              "title": "What Simpson Manufacturing (SSD) Said on Its Q3 Earnings Call",
-              "url": "https://www.nasdaq.com/articles/what-simpson-manufacturing-ssd-said-its-q3-earnings-call",
-              "date": "2026-10-27",
-              "publisher": "MarketBeat"
-            },
-            {
-              "title": "Simpson Manufacturing Q3 Profit Rises; Approves $1 Bln Share Buyback",
-              "url": "https://www.nasdaq.com/articles/simpson-manufacturing-q3-profit-rises-approves-1-bln-share-buyback",
-              "date": "2026-10-26",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Simpson Manufacturing (SSD) Tops Q3 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/simpson-manufacturing-ssd-tops-q3-earnings-and-revenue-estimates",
-              "date": "2026-10-26",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Simpson Manufacturing Co., Inc. Reports Rise In Q3 Profit",
-              "url": "https://www.nasdaq.com/articles/simpson-manufacturing-co-inc-reports-rise-q3-profit",
-              "date": "2026-10-26",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Simpson Manufacturing Q3 26 Earnings Conference Call At 5:00 PM ET",
-              "url": "https://www.nasdaq.com/articles/simpson-manufacturing-q3-26-earnings-conference-call-5-00-pm-et",
-              "date": "2026-10-26",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Bullish Two Hundred Day Moving Average Cross - SSD",
-              "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-ssd",
-              "date": "2026-10-22",
-              "publisher": "BNK Invest"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-26",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026067288/ssd-20261026.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-06",
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026065254/ssd-20261006.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-27",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026049817/ssd-20260727.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-18",
-            "itemsKo": [
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026035954/ssd-20260506.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-27",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026027513/ssd-20260427.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-09",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026006438/ssd-20260209.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "SSD",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 21.33,
-        "pbr": 3.76,
-        "eps": 9.16,
-        "bps": 51.89,
-        "shares": 40541500,
-        "marketCapM": 7918,
-        "high52": 212.8008,
-        "high52Date": "2026-06-25",
-        "low52": 155.2719,
-        "low52Date": "2025-11-18",
-        "last": 195.31,
-        "prevClose": 198.57,
-        "nameKo": "심슨 매뉴팩처링",
-        "nameEn": "SIMPSON MFG CO INC",
-        "listedOn": null,
-        "exchange": "뉴욕거래소",
-        "listedShares": 40541500
-      },
-      "cnbc": [
-        {
-          "title": "Yields are driving the stock market right now. These are the stocks with the most at stake",
-          "url": "https://www.cnbc.com/2026/08/19/yields-are-driving-the-stock-market-right-now-these-are-the-stocks-with-the-most-at-stake.html",
-          "date": "2026-08-19",
-          "publisher": "CNBC",
-          "kind": "article"
-        }
-      ],
-      "estimates": {
-        "ticker": "SSD",
-        "url": "https://finance.yahoo.com/quote/SSD/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "eps": 1.39,
-            "epsLow": 1.34,
-            "epsHigh": 1.43,
-            "epsYearAgo": 1.33,
-            "epsAnalysts": 4,
-            "epsGrowth": 5,
-            "epsCur": "USD",
-            "rev": 530130600,
-            "revAnalysts": 5,
-            "revYearAgo": 539345000,
-            "revGrowth": -1.7,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "eps": 2.02,
-            "epsLow": 1.95,
-            "epsHigh": 2.16,
-            "epsYearAgo": 2.14,
-            "epsAnalysts": 3,
-            "epsGrowth": -5.6,
-            "epsCur": "USD",
-            "rev": 590567000,
-            "revAnalysts": 4,
-            "revYearAgo": 587964000,
-            "revGrowth": 0.4,
-            "revCur": "USD"
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "eps": 9.26,
-            "epsLow": 9.17,
-            "epsHigh": 9.32,
-            "epsYearAgo": 7.97,
-            "epsAnalysts": 3,
-            "epsGrowth": 16.3,
-            "epsCur": "USD",
-            "rev": 2427244600,
-            "revAnalysts": 5,
-            "revYearAgo": 2332808000,
-            "revGrowth": 4.1,
-            "revCur": "USD"
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "eps": 9.71,
-            "epsLow": 9.52,
-            "epsHigh": 10,
-            "epsYearAgo": 9.26,
-            "epsAnalysts": 4,
-            "epsGrowth": 4.8,
-            "epsCur": "USD",
-            "rev": 2497197200,
-            "revAnalysts": 5,
-            "revYearAgo": 2427244600,
-            "revGrowth": 2.9,
-            "revCur": "USD"
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 1.39,
-            "d7": -4.8,
-            "d30": -1.8,
-            "d90": -2.6,
-            "ago90": 1.43,
-            "up7": 2,
-            "up30": 2,
-            "down7": 2,
-            "down30": 2
-          },
-          {
-            "period": "+1q",
-            "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 2.02,
-            "d7": -9,
-            "d30": -9,
-            "d90": -9,
-            "ago90": 2.22,
-            "up7": 0,
-            "up30": 0,
-            "down7": 3,
-            "down30": 3
-          },
-          {
-            "period": "0y",
-            "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 9.26,
-            "d7": 1.6,
-            "d30": 1.6,
-            "d90": 2.3,
-            "ago90": 9.06,
-            "up7": 3,
-            "up30": 3,
-            "down7": 0,
-            "down30": 0
-          },
-          {
-            "period": "+1y",
-            "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 9.71,
-            "d7": -0.1,
-            "d30": -0.1,
-            "d90": -0.1,
-            "ago90": 9.71,
-            "up7": 3,
-            "up30": 2,
-            "down7": 0,
-            "down30": 1
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2026-09-30",
-            "actual": 2.68,
-            "estimate": 2.4,
-            "surprisePct": 11.7,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-06-30",
-            "actual": 3,
-            "estimate": 2.69,
-            "surprisePct": 11.3,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2026-03-31",
-            "actual": 2.14,
-            "estimate": 1.84,
-            "surprisePct": 16.3,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2025-12-31",
-            "actual": 1.33,
-            "estimate": 1.26,
-            "surprisePct": 5.3,
-            "cur": "USD"
-          }
-        ],
-        "beats": 4,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 1,
-          "ptLowered": 3,
-          "total": 4,
-          "recent": [
-            {
-              "date": "2026-10-27",
-              "firm": "Stephens & Co.",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Lowers",
-              "pt": 205,
-              "ptPrior": 215
-            },
-            {
-              "date": "2026-10-27",
-              "firm": "DA Davidson",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Lowers",
-              "pt": 203,
-              "ptPrior": 212
-            },
-            {
-              "date": "2026-10-27",
-              "firm": "Baird",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 210,
-              "ptPrior": 205
-            },
-            {
-              "date": "2026-10-26",
-              "firm": "Stifel",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Lowers",
-              "pt": 210,
-              "ptPrior": 218
-            }
-          ]
-        },
-        "nextEarnings": {
-          "date": "2026-10-26",
-          "upcoming": false,
-          "estimated": false
-        }
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 208.49,
-        "stop": 202.93,
-        "adrPct": 2.85,
-        "distToPivotPct": -6.32,
-        "distToPivotAdr": -2.22,
-        "riskPerSharePct": 2.67,
-        "extensionAdr": -0.82,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
-          "depthPct": 6.5,
-          "priorMovePct": 23.6,
-          "higherLows": 0,
-          "contraction": 1.22,
-          "closeRange10Adr": 1.8,
-          "surf10": -0.82,
-          "surf20": 0.05,
-          "slope20": 2.97,
-          "baseLow": 194.96,
-          "lastSwingLow": 195.22
-        },
-        "reasons": [
-          "✗ 선행 상승 +24%",
-          "베이스 2.2주",
-          "깊이 6.5%",
-          "✗ 저점 상승 0회",
-          "진폭 1.22배 · 10일 종가폭 1.8 ADR",
-          "10일선 -0.8 ADR · 20일선 +0 ADR",
-          "20일선 기울기 +2.97%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "선행 상승 24% (약함) · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.22배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 6.5% · ADR 2.85%의 2.3배 · 선행 상승의 절반 12%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 195.31 · 20일선 195.04 · 50일선 182.19"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.8배 (보통) · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 208.49까지 -6.32% (-2.22 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 2.67% · ADR 2.85%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 22.7% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 23%/13%/1% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 92%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 0.8배(20일 평균 대비) · 오늘 거래대금 1.34배 · 상장주식 41M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 16.28% · 3M 26.74% · 6M 51.98% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "APD",
-      "sector": "Basic Materials",
-      "industry": "Specialty Chemicals",
-      "price": 306.9200134277344,
-      "marketCap": "69.90B",
-      "volx": 1.33,
-      "volSurgeWk": 2.06,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 5.41,
-      "high52": 94.73,
-      "adr": 1.94,
-      "targetStatus": false,
-      "saleCy": 4.29,
-      "saleNy": 7.12,
-      "epsCy": 6.86,
-      "epsNy": 8.15,
-      "cyTrend": -0.55,
-      "nyTrend": -0.46,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          4.58,
-          8.76,
-          5.83
-        ],
-        "ni": [
-          -301.85,
-          "흑자전환",
-          9.85
-        ],
-        "opm": [
-          -66.34,
-          23.73,
-          23.67
-        ],
-        "updated": "2026-09-09 07:28:45"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "APD",
-        "category": 1,
-        "company": "에어프로덕츠는 산업용 가스(산소·질소·수소 등)를 제조업체와 병원 등에 공급하는 회사입니다. 장기 공급계약으로 안정적인 매출을 올립니다.",
-        "volumeExplanation": "11월 5일 4분기 실적이 시장 예상치를 웃돌았고, 이후 11월 17일 증권사 베렌버그가 목표주가를 올렸습니다. 거래량은 최근 5일 평균의 약 2배로 늘었지만 거래대금은 20일 평균의 1.3배 수준이라 큰 급증은 아닙니다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "11월 5일 발표한 4분기 실적이 시장 예상치(매출·주당순이익)를 웃돌았다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Air Products and Chemicals (APD) Surpasses Q4 Earnings and Revenue Estimates",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-surpasses-q4-earnings-and-revenue-estimates",
-                "date": "2026-11-05",
-                "quote": "Air Products and Chemicals (APD) Surpasses Q4 Earnings and Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          }
-        ],
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [],
-          "reason": "베렌버그 목표주가 인상 부분이 근거 없이 volumeExplanation에만 있음"
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [
-        {
-          "title": "Berenberg Adjusts Price Target on Air Products and Chemicals to $365 From $355, Maintains Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/berenberg-adjusts-price-target-air-101321377.html",
-          "date": "2026-11-17",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Air Products (APD) Stock May Be 13% Undervalued Despite Raised 2027 Outlook",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-apd-stock-may-081013754.html",
-          "date": "2026-11-14",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Profit Return Might Change The Case For Investing In Air Products And Chemicals Stock (APD)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/profit-return-might-change-case-051133163.html",
-          "date": "2026-11-14",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        }
-      ],
-      "nameKo": "에어 프라덕츠 앤드 케미컬스",
-      "nameEn": "AIR PRODUCTS & CHEMICALS INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "에어 프라덕츠 앤드 케미컬스",
-        "nameEn": "AIR PRODUCTS & CHEMICALS INC",
-        "financials": {
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002969&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 3161000000,
-              "profit": -2097100000,
-              "netIncome": -1440800000,
-              "margin": -66.3,
-              "yoy": {
-                "revenue": 4.6,
-                "profit": -365.3,
-                "netIncome": -301.8,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 3171800000,
-              "profit": 752700000,
-              "netIncome": 710400000,
-              "margin": 23.7,
-              "yoy": {
-                "revenue": 8.8,
-                "profit": 132.3,
-                "netIncome": 141,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": false,
-              "revenue": 3102500000,
-              "profit": 734500000,
-              "netIncome": 678200000,
-              "margin": 23.7,
-              "yoy": {
-                "revenue": 5.8,
-                "profit": 14.1,
-                "netIncome": 9.8,
+                "revenue": 8.9,
+                "profit": 3.9,
+                "netIncome": 12.6,
                 "priorEnd": "2024-12-31"
               }
             },
             {
               "periodEnd": "2025-09-30",
-              "derived": true,
-              "revenue": 3166900000,
-              "profit": 16800000,
-              "netIncome": 4900000,
-              "margin": 0.5,
+              "derived": false,
+              "revenue": 5289000000,
+              "profit": 889000000,
+              "netIncome": 579000000,
+              "margin": 16.8,
               "yoy": {
-                "revenue": -0.6,
-                "profit": -99.3,
-                "netIncome": -99.7,
+                "revenue": 3.2,
+                "profit": -18.4,
+                "netIncome": -15,
                 "priorEnd": "2024-09-30"
               }
             }
@@ -15025,86 +10394,106 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
-              "title": "Air Products and Chemicals Q4 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-q4-earnings-call-highlights",
-              "date": "2026-11-07",
-              "publisher": "MarketBeat"
+              "title": "Here's Why Tenet Healthcare (THC) is a Strong Value Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-tenet-healthcare-thc-strong-value-stock-1",
+              "date": "2026-11-16",
+              "publisher": "Zacks"
             },
             {
-              "title": "Why Air Products and Chemicals (APD) is a Great Dividend Stock Right Now",
-              "url": "https://www.nasdaq.com/articles/why-air-products-and-chemicals-apd-great-dividend-stock-right-now",
+              "title": "Here's How Much a $1000 Investment in Tenet Healthcare Made 10 Years Ago Would Be Worth Today",
+              "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-tenet-healthcare-made-10-years-ago-would-be-worth-today",
+              "date": "2026-11-16",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Here's Why Tenet Healthcare (THC) is a Strong Growth Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-tenet-healthcare-thc-strong-growth-stock-0",
               "date": "2026-11-06",
               "publisher": "Zacks"
             },
             {
-              "title": "Air Products (APD) Q4 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/air-products-apd-q4-2026-earnings-call-transcript",
-              "date": "2026-11-05",
+              "title": "Tenet Healthcare Corporation (THC) Is a Trending Stock: Facts to Know Before Betting on It",
+              "url": "https://www.nasdaq.com/articles/tenet-healthcare-corporation-thc-trending-stock-facts-know-betting-it",
+              "date": "2026-11-04",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Tenet Healthcare Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/tenet-healthcare-q3-earnings-call-highlights",
+              "date": "2026-10-31",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "THC Q3 Earnings Call Highlights Higher Outlook and Margin Gains",
+              "url": "https://www.nasdaq.com/articles/thc-q3-earnings-call-highlights-higher-outlook-and-margin-gains",
+              "date": "2026-10-30",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Tenet (THC) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/tenet-thc-q3-2026-earnings-call-transcript",
+              "date": "2026-10-29",
               "publisher": "The Motley Fool"
             },
             {
-              "title": "Air Products and Chemicals, Inc. Reports Fiscal 2026 Full-Year Results and Provides Fiscal 2027 Guidance",
-              "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-inc-reports-fiscal-2026-full-year-results-and-provides-fiscal",
-              "date": "2026-11-05",
+              "title": "Tenet Healthcare Corporation Reports Third Quarter 2026 Net Income of $1.000 billion and Raises Full-Year Outlook",
+              "url": "https://www.nasdaq.com/articles/tenet-healthcare-corporation-reports-third-quarter-2026-net-income-1000-billion-and-raises",
+              "date": "2026-10-29",
               "publisher": "Fintel"
-            },
-            {
-              "title": "Air Products and Chemicals (APD) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
-              "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-q4-earnings-how-key-metrics-compare-wall-street-estimates",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Air Products Q4 Profit Surges; Sees Higher Adj. EPS In FY27 - Update",
-              "url": "https://www.nasdaq.com/articles/air-products-q4-profit-surges-sees-higher-adj-eps-fy27-update",
-              "date": "2026-11-05",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Air Products And Chemicals Inc. Q4 Income Rises",
-              "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-inc-q4-income-rises",
-              "date": "2026-11-05",
-              "publisher": "RTTNews"
-            },
-            {
-              "title": "Air Products and Chemicals (APD) Surpasses Q4 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-surpasses-q4-earnings-and-revenue-estimates",
-              "date": "2026-11-05",
-              "publisher": "Zacks"
             }
           ]
         },
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-11-05",
+            "filingDate": "2026-10-29",
             "itemsKo": [
               "실적 발표",
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000043/apd-20261105.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000045/thc-20261029.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-07-30",
+            "filingDate": "2026-09-22",
             "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/apd-20260730.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-30",
-            "itemsKo": [
-              "2.06",
-              "Reg FD 공시",
+              "중요 계약 체결",
+              "2.03",
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312526289427/d97956d8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/70318/000119312526397901/d104323d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-08",
+            "itemsKo": [
+              "Reg FD 공시",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000040/thc-20260908.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-23",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000032/thc-20260723.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-29",
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000028/thc-20260527.htm"
           },
           {
             "form": "8-K",
@@ -15114,26 +10503,7 @@ window.TEAM4_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000018/apd-20260430.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-01-30",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000006/apd-20260130.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-01-29",
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312526029381/d884680d8k.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000023/thc-20260430.htm"
           }
         ],
         "krReports": {
@@ -15142,111 +10512,104 @@ window.TEAM4_DATA = {
         }
       },
       "kis": {
-        "ticker": "APD",
-        "fetchedAt": "2026-11-18",
+        "ticker": "THC",
+        "fetchedAt": "2026-11-19",
         "source": "한국투자증권 Open API",
-        "per": 1426.87,
-        "pbr": 4.92,
-        "eps": 0.22,
-        "bps": 62.35,
-        "shares": 222686000,
-        "marketCapM": 68347,
-        "high52": 324,
+        "per": 10.46,
+        "pbr": 4.69,
+        "eps": 25.93,
+        "bps": 57.86,
+        "shares": 79588000,
+        "marketCapM": 21595,
+        "high52": 301.44,
         "high52Date": "2026-11-05",
-        "low52": 223.1758,
-        "low52Date": "2025-12-10",
-        "last": 306.92,
-        "prevClose": 313.9,
-        "nameKo": "에어 프라덕츠 앤드 케미컬스",
-        "nameEn": "AIR PRODUCTS & CHEMICALS INC",
+        "low52": 157.58,
+        "low52Date": "2026-06-08",
+        "last": 271.34,
+        "prevClose": 282.07,
+        "nameKo": "테넷 헬스케어",
+        "nameEn": "TENET HEALTHCARE CORP",
         "listedOn": null,
         "exchange": "뉴욕거래소",
-        "listedShares": 222686000
+        "listedShares": 79588000
       },
       "cnbc": [
         {
-          "title": "This AI play has an unshakeable moat, but has flown under the radar",
-          "url": "https://www.cnbc.com/2026/09/15/this-ai-play-has-an-unshakeable-moat-but-has-flown-under-the-radar.html",
-          "date": "2026-09-15",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
-          "title": "Dividend stocks outperformed the S&P in July. These names may go higher",
-          "url": "https://www.cnbc.com/2026/08/03/dividend-stocks-outperformed-the-sp-in-july-wall-street-says-these-names-will-go-higher-.html",
-          "date": "2026-08-03",
+          "title": "Stocks making the biggest moves premarket: Intel, Oracle, American Express",
+          "url": "https://www.cnbc.com/2026/07/24/stocks-making-the-biggest-moves-premarket-intc-orcl-axp.html",
+          "date": "2026-07-24",
           "publisher": "CNBC",
           "kind": "article"
         }
       ],
       "estimates": {
-        "ticker": "APD",
-        "url": "https://finance.yahoo.com/quote/APD/analysis/",
-        "fetchedAt": "2026-11-18",
+        "ticker": "THC",
+        "url": "https://finance.yahoo.com/quote/THC/analysis/",
+        "fetchedAt": "2026-11-19",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 3.43,
-            "epsLow": 3.35,
-            "epsHigh": 3.56,
-            "epsYearAgo": 3.16,
-            "epsAnalysts": 17,
-            "epsGrowth": 8.5,
+            "eps": 5.28,
+            "epsLow": 4.47,
+            "epsHigh": 6.09,
+            "epsYearAgo": 4.7,
+            "epsAnalysts": 18,
+            "epsGrowth": 12.3,
             "epsCur": "USD",
-            "rev": 3310251980,
-            "revAnalysts": 12,
-            "revYearAgo": 3102500000,
-            "revGrowth": 6.7,
+            "rev": 5669117850,
+            "revAnalysts": 16,
+            "revYearAgo": 5527000000,
+            "revGrowth": 2.6,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 3.46,
-            "epsLow": 3.28,
-            "epsHigh": 3.63,
-            "epsYearAgo": 3.2,
-            "epsAnalysts": 16,
-            "epsGrowth": 8,
+            "eps": 4.53,
+            "epsLow": 3.85,
+            "epsHigh": 5.34,
+            "epsYearAgo": 4.82,
+            "epsAnalysts": 12,
+            "epsGrowth": -6,
             "epsCur": "USD",
-            "rev": 3363328430,
-            "revAnalysts": 12,
-            "revYearAgo": 3171800000,
-            "revGrowth": 6,
+            "rev": 5457760100,
+            "revAnalysts": 8,
+            "revYearAgo": 5368000000,
+            "revGrowth": 1.7,
             "revCur": "USD"
           },
           {
             "period": "0y",
-            "endDate": "2027-09-30",
-            "eps": 14.37,
-            "epsLow": 14.2,
-            "epsHigh": 14.59,
-            "epsYearAgo": 13.45,
-            "epsAnalysts": 22,
-            "epsGrowth": 6.9,
+            "endDate": "2026-12-31",
+            "eps": 22.56,
+            "epsLow": 21,
+            "epsHigh": 23.1,
+            "epsYearAgo": 16.78,
+            "epsAnalysts": 20,
+            "epsGrowth": 34.5,
             "epsCur": "USD",
-            "rev": 13547849190,
-            "revAnalysts": 20,
-            "revYearAgo": 12990900000,
-            "revGrowth": 4.3,
+            "rev": 22305618820,
+            "revAnalysts": 18,
+            "revYearAgo": 21310000000,
+            "revGrowth": 4.7,
             "revCur": "USD"
           },
           {
             "period": "+1y",
-            "endDate": "2028-09-30",
-            "eps": 15.54,
-            "epsLow": 14.45,
-            "epsHigh": 16.13,
-            "epsYearAgo": 14.37,
-            "epsAnalysts": 21,
-            "epsGrowth": 8.1,
+            "endDate": "2027-12-31",
+            "eps": 20.3,
+            "epsLow": 17.92,
+            "epsHigh": 23.21,
+            "epsYearAgo": 22.56,
+            "epsAnalysts": 20,
+            "epsGrowth": -10,
             "epsCur": "USD",
-            "rev": 14514512860,
+            "rev": 22506115490,
             "revAnalysts": 18,
-            "revYearAgo": 13547849190,
-            "revGrowth": 7.1,
+            "revYearAgo": 22305618820,
+            "revGrowth": 0.9,
             "revCur": "USD"
           }
         ],
@@ -15255,230 +10618,240 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 3.43,
-            "d7": -1.1,
-            "d30": -0.9,
-            "d90": -0.8,
-            "ago90": 3.46,
-            "up7": 1,
-            "up30": 2,
-            "down7": 5,
-            "down30": 2
+            "now": 5.28,
+            "d7": -0.4,
+            "d30": -7,
+            "d90": -6.9,
+            "ago90": 5.67,
+            "up7": 0,
+            "up30": 3,
+            "down7": 6,
+            "down30": 14
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 3.46,
-            "d7": -1.5,
-            "d30": -1.9,
-            "d90": -1.7,
-            "ago90": 3.52,
-            "up7": 0,
+            "now": 4.53,
+            "d7": -1.2,
+            "d30": -8.1,
+            "d90": -6.2,
+            "ago90": 4.83,
+            "up7": 1,
             "up30": 1,
-            "down7": 4,
-            "down30": 2
+            "down7": 7,
+            "down30": 7
           },
           {
             "period": "0y",
-            "endDate": "2027-09-30",
+            "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 14.37,
-            "d7": 0,
-            "d30": -0.5,
-            "d90": -0.5,
-            "ago90": 14.44,
-            "up7": 3,
-            "up30": 4,
-            "down7": 9,
-            "down30": 9
+            "now": 22.56,
+            "d7": -0.6,
+            "d30": 6.3,
+            "d90": 6.4,
+            "ago90": 21.21,
+            "up7": 6,
+            "up30": 18,
+            "down7": 0,
+            "down30": 0
           },
           {
             "period": "+1y",
-            "endDate": "2028-09-30",
+            "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 15.54,
-            "d7": 0,
-            "d30": -0.5,
-            "d90": -0.8,
-            "ago90": 15.66,
-            "up7": 4,
-            "up30": 4,
-            "down7": 8,
-            "down30": 8
+            "now": 20.3,
+            "d7": -0.3,
+            "d30": -3.7,
+            "d90": -2.6,
+            "ago90": 20.84,
+            "up7": 5,
+            "up30": 5,
+            "down7": 11,
+            "down30": 11
           }
         ],
         "surprises": [
           {
             "quarter": "2026-09-30",
-            "actual": 3.61,
-            "estimate": 3.61,
-            "surprisePct": 0,
+            "actual": 6.64,
+            "estimate": 4.68,
+            "surprisePct": 42,
             "cur": "USD"
           },
           {
             "quarter": "2026-06-30",
-            "actual": 3.47,
-            "estimate": 3.34,
-            "surprisePct": 3.8,
+            "actual": 6.12,
+            "estimate": 4.26,
+            "surprisePct": 43.5,
             "cur": "USD"
           },
           {
             "quarter": "2026-03-31",
-            "actual": 3.2,
-            "estimate": 3.06,
-            "surprisePct": 4.5,
+            "actual": 4.82,
+            "estimate": 4.17,
+            "surprisePct": 15.7,
             "cur": "USD"
           },
           {
             "quarter": "2025-12-31",
-            "actual": 3.16,
-            "estimate": 3.04,
-            "surprisePct": 3.9,
+            "actual": 4.7,
+            "estimate": 4.07,
+            "surprisePct": 15.6,
             "cur": "USD"
           }
         ],
-        "beats": 3,
+        "beats": 4,
         "ratings": {
           "upgrades": 0,
           "downgrades": 0,
-          "initiations": 2,
-          "ptRaised": 3,
-          "ptLowered": 4,
-          "total": 9,
+          "initiations": 1,
+          "ptRaised": 7,
+          "ptLowered": 1,
+          "total": 10,
           "recent": [
             {
-              "date": "2026-11-09",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Raises",
-              "pt": 335,
-              "ptPrior": 312
-            },
-            {
-              "date": "2026-11-06",
-              "firm": "RBC Capital",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 359,
-              "ptPrior": 346
-            },
-            {
-              "date": "2026-11-06",
+              "date": "2026-11-04",
               "firm": "Barclays",
               "action": "main",
               "from": "Overweight",
               "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 346,
-              "ptPrior": 353
+              "ptAction": "Raises",
+              "pt": 297,
+              "ptPrior": 271
             },
             {
-              "date": "2026-10-15",
+              "date": "2026-11-03",
+              "firm": "Truist Securities",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 305,
+              "ptPrior": 290
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "Keybanc",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 300,
+              "ptPrior": 270
+            },
+            {
+              "date": "2026-11-02",
+              "firm": "Leerink Partners",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 342,
+              "ptPrior": 309
+            },
+            {
+              "date": "2026-11-02",
               "firm": "RBC Capital",
               "action": "main",
               "from": "Outperform",
               "to": "Outperform",
-              "ptAction": "Lowers",
-              "pt": 346,
-              "ptPrior": 360
+              "ptAction": "Raises",
+              "pt": 304,
+              "ptPrior": 283
             },
             {
-              "date": "2026-10-13",
-              "firm": "Barclays",
-              "action": "init",
-              "from": null,
+              "date": "2026-11-02",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
               "to": "Overweight",
-              "ptAction": "Announces",
-              "pt": 353,
-              "ptPrior": null
+              "ptAction": "Raises",
+              "pt": 321,
+              "ptPrior": 281
             },
             {
-              "date": "2026-10-07",
-              "firm": "Citigroup",
+              "date": "2026-10-30",
+              "firm": "Guggenheim",
               "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
+              "from": "Buy",
+              "to": "Buy",
               "ptAction": "Lowers",
-              "pt": 312,
-              "ptPrior": 330
+              "pt": 306,
+              "ptPrior": 307
             },
             {
-              "date": "2026-10-05",
-              "firm": "UBS",
-              "action": "main",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Lowers",
-              "pt": 305,
-              "ptPrior": 336
-            },
-            {
-              "date": "2026-09-11",
-              "firm": "Keybanc",
-              "action": "init",
-              "from": null,
-              "to": "Sector Weight",
-              "ptAction": null,
-              "pt": null,
-              "ptPrior": null
-            },
-            {
-              "date": "2026-09-09",
-              "firm": "Argus Research",
+              "date": "2026-10-16",
+              "firm": "Guggenheim",
               "action": "main",
               "from": "Buy",
               "to": "Buy",
               "ptAction": "Raises",
-              "pt": 329,
-              "ptPrior": 316
+              "pt": 307,
+              "ptPrior": 283
+            },
+            {
+              "date": "2026-09-23",
+              "firm": "BMO Capital",
+              "action": "init",
+              "from": null,
+              "to": "Market Perform",
+              "ptAction": "Announces",
+              "pt": 265,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-09-18",
+              "firm": "Leerink Partners",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Maintains",
+              "pt": 309,
+              "ptPrior": 309
             }
           ]
         },
         "nextEarnings": {
-          "date": "2027-01-29",
-          "upcoming": true,
-          "estimated": true
+          "date": "2026-10-29",
+          "upcoming": false,
+          "estimated": false
         }
       },
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 324,
-        "stop": 318.06,
-        "adrPct": 1.94,
-        "distToPivotPct": -5.27,
-        "distToPivotAdr": -2.72,
-        "riskPerSharePct": 1.83,
-        "extensionAdr": -0.94,
+        "asOf": "2026-11-18",
+        "pivot": 301.44,
+        "stop": 290.24,
+        "adrPct": 4.13,
+        "distToPivotPct": -9.99,
+        "distToPivotAdr": -2.42,
+        "riskPerSharePct": 3.72,
+        "extensionAdr": -1.31,
         "breakDate": null,
         "metrics": {
-          "baseBars": 13,
-          "baseWeeks": 2.6,
-          "depthPct": 7,
-          "priorMovePct": 21.2,
-          "higherLows": 1,
-          "contraction": 1.58,
-          "closeRange10Adr": 2.4,
-          "surf10": -0.94,
-          "surf20": -0.69,
-          "slope20": 1.28,
-          "baseLow": 301.16,
-          "lastSwingLow": 301.16
+          "baseBars": 10,
+          "baseWeeks": 2,
+          "depthPct": 10.8,
+          "priorMovePct": 21.1,
+          "higherLows": 0,
+          "contraction": 0.85,
+          "closeRange10Adr": 1.9,
+          "surf10": -1.31,
+          "surf20": -0.64,
+          "slope20": 1.23,
+          "baseLow": 268.87,
+          "lastSwingLow": 268.87
         },
         "reasons": [
           "✗ 선행 상승 +21%",
-          "베이스 2.6주",
-          "깊이 7%",
-          "저점 상승 1회",
-          "진폭 1.58배 · 10일 종가폭 2.4 ADR",
-          "✗ 10일선 -0.9 ADR · 20일선 -0.7 ADR",
-          "20일선 기울기 +1.28%"
+          "베이스 2주",
+          "깊이 10.8%",
+          "✗ 저점 상승 0회",
+          "진폭 0.85배 · 10일 종가폭 1.9 ADR",
+          "✗ 10일선 -1.3 ADR · 20일선 -0.6 ADR",
+          "20일선 기울기 +1.23%"
         ]
       },
       "checks": {
@@ -15491,22 +10864,22 @@ window.TEAM4_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.6주 · 기준 2~8주"
+            "evidence": "베이스 2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.58배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.85배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 7% · ADR 1.94%의 3.6배 · 선행 상승의 절반 11%"
+            "status": "미충족",
+            "evidence": "베이스 깊이 10.8% · ADR 4.13%의 2.6배 · 선행 상승의 절반 11%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 306.92 · 20일선 311.02 · 50일선 296.09"
+            "evidence": "종가 271.34 · 20일선 278.51 · 50일선 268.89"
           },
           {
             "item": "거래량 마름",
@@ -15521,17 +10894,17 @@ window.TEAM4_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 324까지 -5.27% (-2.72 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 301.44까지 -9.99% (-2.42 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 1.83% · ADR 1.94%"
+            "evidence": "예비 손절 폭 3.72% · ADR 4.13%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -1.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -15542,28 +10915,28 @@ window.TEAM4_DATA = {
         "canslim": [
           {
             "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 -301.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 186.8% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "사이트 최근 3분기 순이익 -302%/흑자전환/10% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "status": "충족",
+            "evidence": "사이트 최근 3분기 순이익 187%/73%/17% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 95%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 90%"
           },
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.78배(20일 평균 대비) · 오늘 거래대금 1.33배 · 상장주식 223M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.78배(20일 평균 대비) · 오늘 거래대금 1.58배 · 상장주식 80M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
-            "status": "미충족",
-            "evidence": "상대강도 상위 1M 42.34% · 3M 36.93% · 6M 38.28% · 기준 상위 20%"
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 43.24% · 3M 40.44% · 6M 2.3% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -15580,159 +10953,153 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "CUBI",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 83.8499984741211,
-      "marketCap": "2.83B",
-      "volx": 1.29,
-      "volSurgeWk": 2.25,
+      "ticker": "HQY",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "price": 97.30999755859375,
+      "marketCap": "8.65B",
+      "volx": 1.42,
+      "volSurgeWk": 2.08,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 45.91,
-      "high52": 93.58,
-      "adr": 3.09,
+      "clsPos": 1.81,
+      "high52": 88.26,
+      "adr": 3.41,
       "targetStatus": false,
-      "saleCy": 7.74,
-      "saleNy": 12.57,
-      "epsCy": 12.28,
-      "epsNy": 15.93,
-      "cyTrend": 1.81,
-      "nyTrend": 3.57,
+      "saleCy": 7.87,
+      "saleNy": 7.77,
+      "epsCy": 18.11,
+      "epsNy": 16.79,
+      "cyTrend": 0.02,
+      "nyTrend": 0.32,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          5.9,
-          27.62,
-          17.66
+          7.64,
+          7.19,
+          7.3
         ],
         "ni": [
-          28.14,
-          631.42,
-          201.25
+          9.67,
+          28.75,
+          88.66
         ],
         "opm": [
-          23.62,
-          24.37,
-          25.1
+          28.14,
+          29.03,
+          21.24
         ],
-        "updated": "2026-09-08 09:24:54"
+        "updated": "2026-09-08 09:33:37"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "CUBI",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Customers Bancorp는 미국 지역은행으로, 대출과 예금의 이자 차익, 핀테크·디지털 결제 서비스로 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       },
       "yahooNews": [
         {
-          "title": "Customers Bank CEO Sam Sidhu to Present at TD Cowen 2026 Financials & Fintech Conference",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/customers-bank-ceo-sam-sidhu-214500741.html",
+          "title": "3 Reasons Why Growth Investors Shouldn't Overlook HealthEquity (HQY)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-why-growth-investors-164504854.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "IceCure Medical Ltd. (ICCM) Reports Q3 Loss, Misses Revenue Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/icecure-medical-ltd-iccm-reports-133501576.html",
+          "date": "2026-11-18",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Aytu BioPharma, Inc. (AYTU) Reports Q1 Loss, Beats Revenue Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aytu-biopharma-inc-aytu-reports-214502081.html",
           "date": "2026-11-16",
-          "publisher": "Business Wire",
+          "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "Customers Bank Named One of the 2026 Best Banks to Work For",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/customers-bank-named-one-2026-220000828.html",
+          "title": "Prime Medicine, Inc. (PRME) Reports Q3 Loss, Lags Revenue Estimates",
+          "url": "https://finance.yahoo.com/healthcare/articles/prime-medicine-inc-prme-reports-212503472.html",
           "date": "2026-11-12",
-          "publisher": "Business Wire",
+          "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "B. Riley Adjusts Customers Bancorp PT to $110 From $104, Maintains Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-adjusts-customers-bancorp-124803806.html",
-          "date": "2026-11-12",
-          "publisher": "MT Newswires",
+          "title": "CryoPort, Inc. (CYRX) Reports Q3 Loss, Tops Revenue Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cryoport-inc-cyrx-reports-q3-214506375.html",
+          "date": "2026-11-05",
+          "publisher": "Zacks",
           "via": "Yahoo"
         }
       ],
-      "nameKo": "커스터머스 뱅코프",
-      "nameEn": "CUSTOMERS BANCORP INC",
+      "nameKo": "헬스에퀴티",
+      "nameEn": "HEALTHEQUITY INC",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "커스터머스 뱅코프",
-        "nameEn": "CUSTOMERS BANCORP INC",
+        "fetchedAt": "2026-11-19",
+        "nameKo": "헬스에퀴티",
+        "nameEn": "HEALTHEQUITY INC",
         "financials": {
-          "profitLabel": "세전이익",
-          "marginLabel": "세전이익률",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001488813&type=10-Q",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001428336&type=10-Q",
           "quarters": [
             {
-              "periodEnd": "2026-06-30",
+              "periodEnd": "2026-07-31",
               "derived": false,
-              "revenue": 344657000,
-              "profit": 89451000,
-              "netIncome": 71560000,
-              "margin": 26,
+              "revenue": 350732000,
+              "profit": 98690000,
+              "netIncome": 65644000,
+              "margin": 28.1,
               "yoy": {
-                "revenue": 5.1,
-                "profit": 13.4,
-                "netIncome": 17.4,
-                "priorEnd": "2025-06-30"
+                "revenue": 7.6,
+                "profit": 10.1,
+                "netIncome": 9.7,
+                "priorEnd": "2025-07-31"
               }
             },
             {
-              "periodEnd": "2026-03-31",
+              "periodEnd": "2026-04-30",
               "derived": false,
-              "revenue": 336312000,
-              "profit": 90307000,
-              "netIncome": 69653000,
-              "margin": 26.9,
+              "revenue": 354641000,
+              "profit": 102953000,
+              "netIncome": 69418000,
+              "margin": 29,
               "yoy": {
-                "revenue": 6.8,
-                "profit": 659.6,
-                "netIncome": 439.4,
-                "priorEnd": "2025-03-31"
+                "revenue": 7.2,
+                "profit": 23.9,
+                "netIncome": 28.8,
+                "priorEnd": "2025-04-30"
               }
             },
             {
-              "periodEnd": "2025-12-31",
+              "periodEnd": "2026-01-31",
               "derived": true,
-              "revenue": 355198000,
-              "profit": 97298000,
-              "netIncome": 74492000,
-              "margin": 27.4,
+              "revenue": 334586000,
+              "profit": 71071000,
+              "netIncome": 49740000,
+              "margin": 21.2,
               "yoy": {
-                "revenue": 7.7,
-                "profit": 171.3,
-                "netIncome": 176.8,
-                "priorEnd": "2024-12-31"
+                "revenue": 7.3,
+                "profit": 68.6,
+                "netIncome": 88.7,
+                "priorEnd": "2025-01-31"
               }
             },
             {
-              "periodEnd": "2025-09-30",
+              "periodEnd": "2025-10-31",
               "derived": false,
-              "revenue": 361479000,
-              "profit": 100343000,
-              "netIncome": 75745000,
-              "margin": 27.8,
+              "revenue": 322164000,
+              "profit": 78695000,
+              "netIncome": 51692000,
+              "margin": 24.4,
               "yoy": {
-                "revenue": 8.8,
-                "profit": 118.1,
-                "netIncome": 62,
-                "priorEnd": "2024-09-30"
+                "revenue": 7.2,
+                "profit": 301,
+                "netIncome": 806.4,
+                "priorEnd": "2024-10-31"
               }
             }
           ]
@@ -15740,52 +11107,698 @@ window.TEAM4_DATA = {
         "news": {
           "items": [
             {
-              "title": "Customers Bancorp: 3 Key Takeaways for Long-Term Investors",
-              "url": "https://www.nasdaq.com/articles/customers-bancorp-3-key-takeaways-long-term-investors",
-              "date": "2026-10-26",
-              "publisher": "The Motley Fool"
+              "title": "3 Reasons Why Growth Investors Shouldn't Overlook HealthEquity (HQY)",
+              "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-healthequity-hqy",
+              "date": "2026-11-18",
+              "publisher": "Zacks"
             },
             {
-              "title": "Customers Bancorp (CUBI) Q3 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/customers-bancorp-cubi-q3-2026-earnings-call-transcript",
+              "title": "BLCO vs. HQY: Which Stock Is the Better Value Option?",
+              "url": "https://www.nasdaq.com/articles/blco-vs-hqy-which-stock-better-value-option-0",
+              "date": "2026-11-03",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Is HealthEquity (HQY) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+              "url": "https://www.nasdaq.com/articles/healthequity-hqy-solid-growth-stock-3-reasons-think-yes-0",
+              "date": "2026-10-28",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Why HealthEquity (HQY) is a Top Growth Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-healthequity-hqy-top-growth-stock-long-term",
+              "date": "2026-10-15",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Here's Why HealthEquity (HQY) is a Strong Growth Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-healthequity-hqy-strong-growth-stock",
+              "date": "2026-09-24",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "HQY Up 15.7% in 3 Months as HSA Growth Builds: Can the Rally Continue?",
+              "url": "https://www.nasdaq.com/articles/hqy-157-3-months-hsa-growth-builds-can-rally-continue",
+              "date": "2026-09-02",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-09",
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1428336/000110465926115084/tm2627329d1_8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-30",
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000045/hqy-20260924.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-27",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000040/hqy-20260827.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-26",
+            "itemsKo": [
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000034/hqy-20260625.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-28",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000027/hqy-20260528.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-08",
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000016/hqy-20260505.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "HQY",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 35.15,
+        "pbr": 4.05,
+        "eps": 2.77,
+        "bps": 24,
+        "shares": 82715300,
+        "marketCapM": 8049,
+        "high52": 110.26,
+        "high52Date": "2026-11-05",
+        "low52": 72.76,
+        "low52Date": "2026-02-17",
+        "last": 97.31,
+        "prevClose": 101.84,
+        "nameKo": "헬스에퀴티",
+        "nameEn": "HEALTHEQUITY INC",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 82715300
+      },
+      "cnbc": [
+        {
+          "title": "How companies are dealing with rising GLP-1 costs",
+          "url": "https://www.cnbc.com/video/2026/10/27/how-companies-are-dealing-with-rising-glp-1-costs.html",
+          "date": "2026-10-27",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Final Trade: HQY, EEM, C, ZS",
+          "url": "https://www.cnbc.com/video/2026/10/05/final-trade-hqy-eem-c-zs.html",
+          "date": "2026-10-05",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "estimates": {
+        "ticker": "HQY",
+        "url": "https://finance.yahoo.com/quote/HQY/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-10-31",
+            "eps": 1.15,
+            "epsLow": 1.13,
+            "epsHigh": 1.19,
+            "epsYearAgo": 1.01,
+            "epsAnalysts": 14,
+            "epsGrowth": 14,
+            "epsCur": "USD",
+            "rev": 347256970,
+            "revAnalysts": 14,
+            "revYearAgo": 322164000,
+            "revGrowth": 7.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-01-31",
+            "eps": 1.1,
+            "epsLow": 1.05,
+            "epsHigh": 1.16,
+            "epsYearAgo": 0.95,
+            "epsAnalysts": 14,
+            "epsGrowth": 16.1,
+            "epsCur": "USD",
+            "rev": 363955420,
+            "revAnalysts": 14,
+            "revYearAgo": 334586000,
+            "revGrowth": 8.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-01-31",
+            "eps": 4.72,
+            "epsLow": 4.7,
+            "epsHigh": 4.76,
+            "epsYearAgo": 4,
+            "epsAnalysts": 14,
+            "epsGrowth": 18.1,
+            "epsCur": "USD",
+            "rev": 1416780450,
+            "revAnalysts": 14,
+            "revYearAgo": 1313429000,
+            "revGrowth": 7.9,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-01-31",
+            "eps": 5.52,
+            "epsLow": 5.25,
+            "epsHigh": 6.01,
+            "epsYearAgo": 4.72,
+            "epsAnalysts": 14,
+            "epsGrowth": 16.8,
+            "epsCur": "USD",
+            "rev": 1526890260,
+            "revAnalysts": 14,
+            "revYearAgo": 1416780450,
+            "revGrowth": 7.8,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-10-31",
+            "cur": "USD",
+            "now": 1.15,
+            "d7": 0.1,
+            "d30": 0.1,
+            "d90": -0.1,
+            "ago90": 1.15,
+            "up7": 1,
+            "up30": 1,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 1.1,
+            "d7": 0,
+            "d30": 0,
+            "d90": -2.6,
+            "ago90": 1.13,
+            "up7": 0,
+            "up30": 1,
+            "down7": 2,
+            "down30": 13
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 4.72,
+            "d7": 0,
+            "d30": 0,
+            "d90": 0.1,
+            "ago90": 4.72,
+            "up7": 1,
+            "up30": 1,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-01-31",
+            "cur": "USD",
+            "now": 5.52,
+            "d7": 0.3,
+            "d30": 0.3,
+            "d90": 1.3,
+            "ago90": 5.45,
+            "up7": 1,
+            "up30": 1,
+            "down7": 0,
+            "down30": 0
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-07-31",
+            "actual": 1.24,
+            "estimate": 1.19,
+            "surprisePct": 3.9,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-04-30",
+            "actual": 1.24,
+            "estimate": 1.12,
+            "surprisePct": 11.2,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-01-31",
+            "actual": 0.95,
+            "estimate": 0.9,
+            "surprisePct": 5.8,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-10-31",
+            "actual": 1.01,
+            "estimate": 0.91,
+            "surprisePct": 10.7,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 3,
+          "ptLowered": 0,
+          "total": 4,
+          "recent": [
+            {
+              "date": "2026-10-21",
+              "firm": "BMO Capital",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 125,
+              "ptPrior": 105
+            },
+            {
+              "date": "2026-09-18",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 115,
+              "ptPrior": 110
+            },
+            {
+              "date": "2026-08-31",
+              "firm": "Deutsche Bank",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 142,
+              "ptPrior": 135
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "BTIG",
+              "action": "reit",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Maintains",
+              "pt": 115,
+              "ptPrior": 115
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-12-01",
+          "upcoming": true,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "C",
+        "asOf": "2026-11-18",
+        "pivot": 110.26,
+        "stop": 106.94,
+        "adrPct": 3.41,
+        "distToPivotPct": -11.74,
+        "distToPivotAdr": -3.44,
+        "riskPerSharePct": 3.01,
+        "extensionAdr": -1.59,
+        "breakDate": null,
+        "metrics": {
+          "baseBars": 13,
+          "baseWeeks": 2.6,
+          "depthPct": 11.9,
+          "priorMovePct": 28.2,
+          "higherLows": 0,
+          "contraction": 1.05,
+          "closeRange10Adr": 2.2,
+          "surf10": -1.59,
+          "surf20": -1.64,
+          "slope20": 1.89,
+          "baseLow": 97.19,
+          "lastSwingLow": 100.54
+        },
+        "reasons": [
+          "✗ 선행 상승 +28%",
+          "베이스 2.6주",
+          "깊이 11.9%",
+          "✗ 저점 상승 0회",
+          "진폭 1.05배 · 10일 종가폭 2.2 ADR",
+          "✗ 10일선 -1.6 ADR · 20일선 -1.6 ADR",
+          "20일선 기울기 +1.89%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 28% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 2.6주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.05배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 11.9% · ADR 3.41%의 3.5배 · 선행 상승의 절반 14%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "미충족",
+            "evidence": "종가 97.31 · 20일선 102.76 · 50일선 96.51"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.88배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 110.26까지 -11.74% (-3.44 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.01% · ADR 3.41%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 -1.6 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 9.7% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "사이트 최근 3분기 순이익 10%/29%/89% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 88%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.88배(20일 평균 대비) · 오늘 거래대금 1.42배 · 상장주식 83M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "상대강도 상위 1M 49.37% · 3M 60.82% · 6M 36.38% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "OMC",
+      "sector": "Communication Services",
+      "industry": "Advertising Agencies",
+      "price": 88.16999816894531,
+      "marketCap": "24.01B",
+      "volx": 1.42,
+      "volSurgeWk": 2.05,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 55.51,
+      "high52": 98.59,
+      "adr": 3.08,
+      "targetStatus": false,
+      "saleCy": 50.82,
+      "saleNy": -3.47,
+      "epsCy": 16.83,
+      "epsNy": 9.36,
+      "cyTrend": -4.13,
+      "nyTrend": -4.82,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          63.43,
+          69.17,
+          27.92
+        ],
+        "ni": [
+          127.02,
+          40.84,
+          -310.07
+        ],
+        "opm": [
+          14.06,
+          10.35,
+          -17.67
+        ],
+        "updated": "2026-09-08 06:47:45"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "BrightTower Advises Creative & Brand Strategy Agency EP+Co in Sale to Bond",
+          "url": "https://finance.yahoo.com/media-advertising/articles/brighttower-advises-creative-brand-strategy-150600420.html",
+          "date": "2026-11-17",
+          "publisher": "GlobeNewswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Omnicom’s Acxiom Names Gary Laben Chief Executive Officer",
+          "url": "https://finance.yahoo.com/media-advertising/articles/omnicom-acxiom-names-gary-laben-140000290.html",
+          "date": "2026-11-16",
+          "publisher": "Business Wire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "New Ad Council and Surgo Health Report Finds Young People Report Mental Health Symptoms at Twice the Rate Parents Recognize",
+          "url": "https://finance.yahoo.com/healthcare/articles/ad-council-surgo-health-report-155800619.html",
+          "date": "2026-11-12",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Is Omnicom Group (OMC) Undervalued Following Forrester Recognition And Major Client Wins?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/omnicom-group-omc-undervalued-following-032229462.html",
+          "date": "2026-11-06",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
+          "title": "ETFs Are Net Sellers of Omnicom (OMC) on Tuesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-omnicom-omc-110308177.html",
+          "date": "2026-11-05",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "옴니콤 그룹",
+      "nameEn": "OMNICOM GROUP INC",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "옴니콤 그룹",
+        "nameEn": "OMNICOM GROUP INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000029989&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 6422800000,
+              "profit": 991700000,
+              "netIncome": 656000000,
+              "margin": 15.4,
+              "yoy": {
+                "revenue": 59.1,
+                "profit": 87.1,
+                "netIncome": 92.2,
+                "priorEnd": "2025-09-30"
+              }
+            },
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 6562500000,
+              "profit": 922500000,
+              "netIncome": 584800000,
+              "margin": 14.1,
+              "yoy": {
+                "revenue": 63.4,
+                "profit": 110,
+                "netIncome": 127,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 6242900000,
+              "profit": 646200000,
+              "netIncome": 405200000,
+              "margin": 10.4,
+              "yoy": {
+                "revenue": 69.2,
+                "profit": 42.8,
+                "netIncome": 40.8,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 5528800000,
+              "profit": -977200000,
+              "netIncome": -941100000,
+              "margin": -17.7,
+              "yoy": {
+                "revenue": 27.9,
+                "profit": -242.6,
+                "netIncome": -310.1,
+                "priorEnd": "2024-12-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "OMC's Q3 Earnings Beat Estimates on Media Growth & Synergies",
+              "url": "https://www.nasdaq.com/articles/omcs-q3-earnings-beat-estimates-media-growth-synergies",
+              "date": "2026-10-23",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Omnicom: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/omnicom-3-key-takeaways-long-term-investors",
               "date": "2026-10-23",
               "publisher": "The Motley Fool"
             },
             {
-              "title": "What Customers Bancorp (CUBI) Said on Its Q3 Earnings Call",
-              "url": "https://www.nasdaq.com/articles/what-customers-bancorp-cubi-said-its-q3-earnings-call",
+              "title": "Omnicom (OMC) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/omnicom-omc-q3-2026-earnings-call-transcript",
               "date": "2026-10-23",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Omnicom Group Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/omnicom-group-q3-earnings-call-highlights",
+              "date": "2026-10-22",
               "publisher": "MarketBeat"
             },
             {
-              "title": "Customers Bancorp, Inc. Reports Q3 2026 Net Income of $78.4 million",
-              "url": "https://www.nasdaq.com/articles/customers-bancorp-inc-reports-q3-2026-net-income-784-million",
-              "date": "2026-10-23",
+              "title": "Omnicom Group Inc. Reports Third Quarter 2026 Results",
+              "url": "https://www.nasdaq.com/articles/omnicom-group-inc-reports-third-quarter-2026-results",
+              "date": "2026-10-22",
               "publisher": "Fintel"
             },
             {
-              "title": "Customers Bancorp (CUBI) Tops Q3 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/customers-bancorp-cubi-tops-q3-earnings-and-revenue-estimates",
+              "title": "Omnicom (OMC) Q3 Earnings and Revenues Top Estimates",
+              "url": "https://www.nasdaq.com/articles/omnicom-omc-q3-earnings-and-revenues-top-estimates",
               "date": "2026-10-22",
               "publisher": "Zacks"
             },
             {
-              "title": "Here's What Key Metrics Tell Us About Customers Bancorp (CUBI) Q3 Earnings",
-              "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-customers-bancorp-cubi-q3-earnings",
+              "title": "Omnicom Group Inc. Bottom Line Climbs In Q3",
+              "url": "https://www.nasdaq.com/articles/omnicom-group-inc-bottom-line-climbs-q3",
               "date": "2026-10-22",
-              "publisher": "Zacks"
+              "publisher": "RTTNews"
             },
             {
-              "title": "Gear Up for Customers Bancorp (CUBI) Q3 Earnings: Wall Street Estimates for Key Metrics",
-              "url": "https://www.nasdaq.com/articles/gear-customers-bancorp-cubi-q3-earnings-wall-street-estimates-key-metrics",
-              "date": "2026-10-21",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "CUBI Crosses Above Key Moving Average Level",
-              "url": "https://www.nasdaq.com/articles/cubi-crosses-above-key-moving-average-level",
-              "date": "2026-10-20",
-              "publisher": "BNK Invest"
+              "title": "Omnicom Group Q3 26 Earnings Conference Call At 4:30 PM ET",
+              "url": "https://www.nasdaq.com/articles/omnicom-group-q3-26-earnings-conference-call-4-30-pm-et",
+              "date": "2026-10-22",
+              "publisher": "RTTNews"
             }
           ]
         },
@@ -15799,59 +11812,56 @@ window.TEAM4_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1488813/000148881326000100/cubi-20261022.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000024/omc-20261022.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-07-27",
+            "filingDate": "2026-10-06",
             "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
+              "임원 변동"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1488813/000148881326000089/cubi-20260724.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/29989/000121390026107282/ea0307855-8k_omnicom.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-07-23",
+            "filingDate": "2026-07-28",
             "itemsKo": [
               "실적 발표",
               "Reg FD 공시",
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1488813/000148881326000082/cubi-20260723.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000018/omc-20260728.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-07-08",
+            "filingDate": "2026-05-08",
             "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1488813/000148881326000078/cubi-20260708.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-28",
-            "itemsKo": [
-              "임원 변동",
               "주주총회 표결"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1488813/000148881326000073/cubi-20260526.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/29989/000121390026053924/ea0289479-8k_omnicom.htm"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-04-23",
+            "filingDate": "2026-04-28",
             "itemsKo": [
               "실적 발표",
               "Reg FD 공시",
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1488813/000148881326000062/cubi-20260423.htm"
+            "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000008/omc-20260428.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-12",
+            "itemsKo": [
+              "Reg FD 공시"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/29989/000119312526103214/d255123d8k.htm"
           }
         ],
         "krReports": {
@@ -15860,96 +11870,104 @@ window.TEAM4_DATA = {
         }
       },
       "kis": {
-        "ticker": "CUBI",
-        "fetchedAt": "2026-11-18",
+        "ticker": "OMC",
+        "fetchedAt": "2026-11-19",
         "source": "한국투자증권 Open API",
-        "per": 10.16,
-        "pbr": 1.27,
-        "eps": 8.25,
-        "bps": 65.77,
-        "shares": 33352400,
-        "marketCapM": 2797,
-        "high52": 89.6,
-        "high52Date": "2026-11-04",
-        "low52": 63.44,
-        "low52Date": "2025-11-21",
-        "last": 83.85,
-        "prevClose": 84.8,
-        "nameKo": "커스터머스 뱅코프",
-        "nameEn": "CUSTOMERS BANCORP INC",
+        "per": 49.11,
+        "pbr": 2.76,
+        "eps": 1.8,
+        "bps": 31.89,
+        "shares": 272847000,
+        "marketCapM": 24057,
+        "high52": 89.43,
+        "high52Date": "2026-11-12",
+        "low52": 64.3231,
+        "low52Date": "2026-02-04",
+        "last": 88.17,
+        "prevClose": 87.6,
+        "nameKo": "옴니콤 그룹",
+        "nameEn": "OMNICOM GROUP INC",
         "listedOn": null,
         "exchange": "뉴욕거래소",
-        "listedShares": 33352400
+        "listedShares": 272847000
       },
-      "cnbc": [],
+      "cnbc": [
+        {
+          "title": "Stocks making the biggest moves after hours: Western Digital, Bloom Energy",
+          "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-in-after-hours-wdc-be-deck.html",
+          "date": "2026-10-22",
+          "publisher": "CNBC",
+          "kind": "article"
+        }
+      ],
       "estimates": {
-        "ticker": "CUBI",
-        "url": "https://finance.yahoo.com/quote/CUBI/analysis/",
-        "fetchedAt": "2026-11-18",
+        "ticker": "OMC",
+        "url": "https://finance.yahoo.com/quote/OMC/analysis/",
+        "fetchedAt": "2026-11-19",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 2.28,
-            "epsLow": 2.15,
-            "epsHigh": 2.34,
-            "epsYearAgo": 2.06,
-            "epsAnalysts": 10,
-            "epsGrowth": 10.4,
+            "eps": 2.96,
+            "epsLow": 2.79,
+            "epsHigh": 3.11,
+            "epsYearAgo": 2.59,
+            "epsAnalysts": 6,
+            "epsGrowth": 14.2,
             "epsCur": "USD",
-            "rev": 216167250,
-            "revAnalysts": 8,
-            "revYearAgo": 204776000,
-            "revGrowth": 5.6,
+            "rev": 6895868110,
+            "revAnalysts": 5,
+            "revYearAgo": 5528800000,
+            "revGrowth": 24.7,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 2.27,
-            "epsLow": 2.11,
-            "epsHigh": 2.39,
-            "epsYearAgo": 1.97,
-            "epsAnalysts": 9,
-            "epsGrowth": 15.2,
+            "eps": 2.12,
+            "epsLow": 1.95,
+            "epsHigh": 2.29,
+            "epsYearAgo": 1.9,
+            "epsAnalysts": 3,
+            "epsGrowth": 11.8,
             "epsCur": "USD",
-            "rev": 217406170,
-            "revAnalysts": 6,
-            "revYearAgo": 191608000,
-            "revGrowth": 13.5,
+            "rev": 5912278280,
+            "revAnalysts": 2,
+            "revYearAgo": 6242900000,
+            "revGrowth": -5.3,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 8.54,
-            "epsLow": 8.44,
-            "epsHigh": 8.62,
-            "epsYearAgo": 7.61,
-            "epsAnalysts": 10,
-            "epsGrowth": 12.3,
+            "eps": 10.22,
+            "epsLow": 9.83,
+            "epsHigh": 10.58,
+            "epsYearAgo": 8.65,
+            "epsAnalysts": 11,
+            "epsGrowth": 18.2,
             "epsCur": "USD",
-            "rev": 810161680,
-            "revAnalysts": 9,
-            "revYearAgo": 751926000,
-            "revGrowth": 7.7,
+            "rev": 26050109670,
+            "revAnalysts": 11,
+            "revYearAgo": 17271900000,
+            "revGrowth": 50.8,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 9.9,
-            "epsLow": 9.24,
-            "epsHigh": 10.33,
-            "epsYearAgo": 8.54,
-            "epsAnalysts": 10,
-            "epsGrowth": 15.9,
+            "eps": 11.17,
+            "epsLow": 8.5,
+            "epsHigh": 12.08,
+            "epsYearAgo": 10.22,
+            "epsAnalysts": 12,
+            "epsGrowth": 9.2,
             "epsCur": "USD",
-            "rev": 912024650,
-            "revAnalysts": 9,
-            "revYearAgo": 810161680,
-            "revGrowth": 12.6,
+            "rev": 25147386520,
+            "revAnalysts": 11,
+            "revYearAgo": 26050109670,
+            "revGrowth": -3.5,
             "revCur": "USD"
           }
         ],
@@ -15958,172 +11976,542 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 2.28,
-            "d7": 0.4,
-            "d30": 1,
-            "d90": 0.3,
-            "ago90": 2.27,
-            "up7": 5,
-            "up30": 5,
-            "down7": 1,
-            "down30": 2
+            "now": 2.96,
+            "d7": -1.1,
+            "d30": -9.5,
+            "d90": -8.3,
+            "ago90": 3.22,
+            "up7": 0,
+            "up30": 0,
+            "down7": 0,
+            "down30": 5
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 2.27,
-            "d7": -0.3,
-            "d30": 3.9,
-            "d90": 2.3,
-            "ago90": 2.22,
-            "up7": 4,
-            "up30": 5,
-            "down7": 0,
-            "down30": 1
+            "now": 2.12,
+            "d7": 3.8,
+            "d30": -7.7,
+            "d90": 30,
+            "ago90": 1.63,
+            "up7": 1,
+            "up30": 0,
+            "down7": 1,
+            "down30": 2
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 8.54,
-            "d7": 0.2,
-            "d30": 1.8,
-            "d90": 1.5,
-            "ago90": 8.42,
-            "up7": 3,
-            "up30": 7,
-            "down7": 0,
-            "down30": 1
+            "now": 10.22,
+            "d7": 1.2,
+            "d30": -3,
+            "d90": -3.5,
+            "ago90": 10.59,
+            "up7": 0,
+            "up30": 1,
+            "down7": 1,
+            "down30": 8
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 9.9,
-            "d7": 0.7,
-            "d30": 3.6,
-            "d90": 3.2,
-            "ago90": 9.59,
-            "up7": 7,
-            "up30": 6,
-            "down7": 0,
-            "down30": 1
+            "now": 11.17,
+            "d7": 0.4,
+            "d30": -3.8,
+            "d90": -7.3,
+            "ago90": 12.04,
+            "up7": 0,
+            "up30": 2,
+            "down7": 2,
+            "down30": 7
           }
         ],
         "surprises": [
           {
             "quarter": "2026-09-30",
-            "actual": 2.27,
-            "estimate": 2.13,
-            "surprisePct": 6.5,
+            "actual": 2.73,
+            "estimate": 2.67,
+            "surprisePct": 2.2,
             "cur": "USD"
           },
           {
             "quarter": "2026-06-30",
-            "actual": 2.05,
-            "estimate": 1.99,
-            "surprisePct": 3,
+            "actual": 2.65,
+            "estimate": 2.66,
+            "surprisePct": -0.4,
             "cur": "USD"
           },
           {
             "quarter": "2026-03-31",
-            "actual": 1.97,
-            "estimate": 1.89,
-            "surprisePct": 4.4,
+            "actual": 1.9,
+            "estimate": 1.84,
+            "surprisePct": 3.1,
             "cur": "USD"
           },
           {
             "quarter": "2025-12-31",
-            "actual": 2.06,
-            "estimate": 2.04,
-            "surprisePct": 0.8,
+            "actual": 2.59,
+            "estimate": 2.94,
+            "surprisePct": -11.8,
             "cur": "USD"
           }
         ],
-        "beats": 4,
+        "beats": 2,
         "ratings": {
           "upgrades": 0,
-          "downgrades": 1,
+          "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 5,
-          "ptLowered": 2,
-          "total": 7,
+          "ptRaised": 2,
+          "ptLowered": 3,
+          "total": 5,
           "recent": [
             {
-              "date": "2026-11-12",
-              "firm": "B. Riley Securities",
+              "date": "2026-10-26",
+              "firm": "Barclays",
               "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 110,
-              "ptPrior": 104
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Lowers",
+              "pt": 87,
+              "ptPrior": 88
             },
             {
-              "date": "2026-10-26",
+              "date": "2026-10-23",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 85,
+              "ptPrior": 83
+            },
+            {
+              "date": "2026-10-23",
               "firm": "JP Morgan",
               "action": "main",
               "from": "Overweight",
               "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 100,
-              "ptPrior": 92
+              "ptAction": "Lowers",
+              "pt": 111,
+              "ptPrior": 115
             },
             {
-              "date": "2026-10-26",
-              "firm": "TD Cowen",
+              "date": "2026-10-23",
+              "firm": "Wells Fargo",
               "action": "main",
-              "from": "Buy",
-              "to": "Buy",
+              "from": "Overweight",
+              "to": "Overweight",
               "ptAction": "Raises",
               "pt": 97,
-              "ptPrior": 91
+              "ptPrior": 93
             },
             {
-              "date": "2026-10-26",
-              "firm": "Piper Sandler",
-              "action": "reit",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 102,
-              "ptPrior": 92
-            },
-            {
-              "date": "2026-10-05",
-              "firm": "TD Cowen",
+              "date": "2026-10-09",
+              "firm": "Barclays",
               "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Lowers",
-              "pt": 91,
-              "ptPrior": 94
-            },
-            {
-              "date": "2026-10-01",
-              "firm": "JP Morgan",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 92,
-              "ptPrior": 96
-            },
-            {
-              "date": "2026-09-08",
-              "firm": "Morgan Stanley",
-              "action": "down",
               "from": "Equal-Weight",
-              "to": "Underweight",
-              "ptAction": "Raises",
-              "pt": 89,
-              "ptPrior": 88
+              "to": "Equal-Weight",
+              "ptAction": "Lowers",
+              "pt": 88,
+              "ptPrior": 90
             }
           ]
         },
         "nextEarnings": {
-          "date": "2027-01-21",
+          "date": "2026-10-22",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "none",
+        "grade": null,
+        "asOf": "2026-11-18",
+        "adrPct": 3.08,
+        "extensionAdr": 0.13,
+        "breakDate": null,
+        "metrics": null,
+        "reasons": [
+          "쉬는 구간 없음"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "3개월 최대상승 21% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 88.17 · 20일선 84.84 · 50일선 80.28"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.81배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.1 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 순이익 전년비 127% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 127%/41%/-310% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 99%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.81배(20일 평균 대비) · 오늘 거래대금 1.42배(상승일) · 상장주식 273M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 14.02% · 3M 36.02% · 6M 18.8% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": null
+    },
+    {
+      "ticker": "FORTY",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 121.80000305175781,
+      "marketCap": "1.89B",
+      "volx": 1.28,
+      "volSurgeWk": 4.17,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 86.05,
+      "high52": 71.45,
+      "adr": 2.39,
+      "targetStatus": false,
+      "saleCy": null,
+      "saleNy": null,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          29.82,
+          19.2,
+          145.35
+        ],
+        "ni": [
+          54.58,
+          84.51,
+          2666.44
+        ],
+        "opm": [
+          9.16,
+          11.11,
+          5.87
+        ],
+        "updated": "2026-09-08 10:48:59"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [],
+      "nameKo": "포뮬러 시스템스 1985(ADR)",
+      "nameEn": "FORMULA SYSTEMS(1985) ADR EACH REP 1 ORD ILS1 LEVELII(BNY)",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "포뮬러 시스템스 1985(ADR)",
+        "nameEn": "FORMULA SYSTEMS(1985) ADR EACH REP 1 ORD ILS1 LEVELII(BNY)",
+        "financialsError": "매출 태그 없음",
+        "news": {
+          "items": [
+            {
+              "title": "FORTY Crosses Below Key Moving Average Level",
+              "url": "https://www.nasdaq.com/articles/forty-crosses-below-key-moving-average-level",
+              "date": "2026-02-04",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Formula Systems Reports Record Q1 2025 Financial Results with 8.1% Revenue Growth and Dividend Declaration",
+              "url": "https://www.nasdaq.com/articles/formula-systems-reports-record-q1-2025-financial-results-81-revenue-growth-and-dividend",
+              "date": "2025-05-22",
+              "publisher": "Quiver Quantitative"
+            },
+            {
+              "title": "Formula Systems Files Annual Report on Form 20-F for Fiscal Year 2024",
+              "url": "https://www.nasdaq.com/articles/formula-systems-files-annual-report-form-20-f-fiscal-year-2024",
+              "date": "2025-05-19",
+              "publisher": "Quiver Quantitative"
+            },
+            {
+              "title": "Formula Systems (FORTY) Shares Cross Below 200 DMA",
+              "url": "https://www.nasdaq.com/articles/formula-systems-forty-shares-cross-below-200-dma",
+              "date": "2025-04-07",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Formula Systems Reports Record Q4 and Full Year 2024 Financial Results",
+              "url": "https://www.nasdaq.com/articles/formula-systems-reports-record-q4-and-full-year-2024-financial-results",
+              "date": "2025-03-20",
+              "publisher": "Quiver Quantitative"
+            },
+            {
+              "title": "Bullish Two Hundred Day Moving Average Cross - FORTY",
+              "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-forty",
+              "date": "2024-10-16",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Formula Systems Breaks Above 200-Day Moving Average - Bullish for FORTY",
+              "url": "https://www.nasdaq.com/articles/formula-systems-breaks-above-200-day-moving-average-bullish-forty",
+              "date": "2024-09-24",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Notable Two Hundred Day Moving Average Cross - FORTY",
+              "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-forty",
+              "date": "2024-08-06",
+              "publisher": "BNK Invest"
+            }
+          ]
+        },
+        "filings": [],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "FORTY",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 2.94,
+        "pbr": 1.55,
+        "eps": 41.47,
+        "bps": 78.65,
+        "shares": 15334700,
+        "marketCapM": 1868,
+        "high52": 170.47,
+        "high52Date": "2025-12-26",
+        "low52": 98.9511,
+        "low52Date": "2026-03-31",
+        "last": 121.8,
+        "prevClose": 123,
+        "nameKo": "포뮬러 시스템스 1985(ADR)",
+        "nameEn": "FORMULA SYSTEMS(1985) ADR EACH REP 1 ORD ILS1 LEVELII(BNY)",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 15334700
+      },
+      "cnbc": [],
+      "estimates": {
+        "ticker": "FORTY",
+        "url": "https://finance.yahoo.com/quote/FORTY/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": null,
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 0,
+            "revAnalysts": 0,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": null
+          },
+          {
+            "period": "+1q",
+            "endDate": null,
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 0,
+            "revAnalysts": 0,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": null
+          },
+          {
+            "period": "0y",
+            "endDate": null,
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 0,
+            "revAnalysts": 0,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": null
+          },
+          {
+            "period": "+1y",
+            "endDate": null,
+            "eps": null,
+            "epsLow": null,
+            "epsHigh": null,
+            "epsYearAgo": null,
+            "epsAnalysts": null,
+            "epsGrowth": null,
+            "epsCur": null,
+            "rev": 0,
+            "revAnalysts": 0,
+            "revYearAgo": null,
+            "revGrowth": null,
+            "revCur": null
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": null,
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
+          },
+          {
+            "period": "+1q",
+            "endDate": null,
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
+          },
+          {
+            "period": "0y",
+            "endDate": null,
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
+          },
+          {
+            "period": "+1y",
+            "endDate": null,
+            "cur": null,
+            "now": null,
+            "d7": null,
+            "d30": null,
+            "d90": null,
+            "ago90": null,
+            "up7": null,
+            "up30": null,
+            "down7": null,
+            "down30": null
+          }
+        ],
+        "surprises": [],
+        "beats": 0,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 0,
+          "ptLowered": 0,
+          "total": 0,
+          "recent": []
+        },
+        "nextEarnings": {
+          "date": "2026-11-19",
           "upcoming": true,
           "estimated": true
         }
@@ -16131,37 +12519,37 @@ window.TEAM4_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 89.6,
-        "stop": 87.01,
-        "adrPct": 3.09,
-        "distToPivotPct": -6.42,
-        "distToPivotAdr": -2.07,
-        "riskPerSharePct": 2.89,
-        "extensionAdr": -0.5,
+        "asOf": "2026-11-18",
+        "pivot": 129.9,
+        "stop": 126.99,
+        "adrPct": 2.39,
+        "distToPivotPct": -6.24,
+        "distToPivotAdr": -2.61,
+        "riskPerSharePct": 2.24,
+        "extensionAdr": 0.67,
         "breakDate": null,
         "metrics": {
           "baseBars": 17,
           "baseWeeks": 3.4,
-          "depthPct": 12.7,
-          "priorMovePct": 25.2,
-          "higherLows": 1,
-          "contraction": 0.75,
-          "closeRange10Adr": 1.3,
-          "surf10": -0.5,
-          "surf20": -0.32,
-          "slope20": 3.13,
-          "baseLow": 78.21,
-          "lastSwingLow": 83.52
+          "depthPct": 15.1,
+          "priorMovePct": 24.6,
+          "higherLows": 0,
+          "contraction": 1.27,
+          "closeRange10Adr": 5.8,
+          "surf10": 0.67,
+          "surf20": 0.24,
+          "slope20": 1.11,
+          "baseLow": 110.25,
+          "lastSwingLow": 110.25
         },
         "reasons": [
           "✗ 선행 상승 +25%",
           "베이스 3.4주",
-          "깊이 12.7%",
-          "저점 상승 1회",
-          "진폭 0.75배 · 10일 종가폭 1.3 ADR",
-          "✗ 10일선 -0.5 ADR · 20일선 -0.3 ADR",
-          "20일선 기울기 +3.13%"
+          "깊이 15.1%",
+          "✗ 저점 상승 0회",
+          "✗ 진폭 1.27배 · 10일 종가폭 5.8 ADR",
+          "10일선 +0.7 ADR · 20일선 +0.2 ADR",
+          "20일선 기울기 +1.11%"
         ]
       },
       "checks": {
@@ -16178,23 +12566,23 @@ window.TEAM4_DATA = {
           },
           {
             "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.75배(1 미만이면 좁아짐)"
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.27배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "미충족",
-            "evidence": "베이스 깊이 12.7% · ADR 3.09%의 4.1배 · 선행 상승의 절반 13%"
+            "evidence": "베이스 깊이 15.1% · ADR 2.39%의 6.3배 · 선행 상승의 절반 12%"
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 83.85 · 20일선 84.68 · 50일선 79.54"
+            "status": "충족",
+            "evidence": "종가 121.8 · 20일선 121.11 · 50일선 118.66"
           },
           {
             "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.73배 (보통) · 기준 0.7 이하"
+            "status": "충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.56배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -16204,570 +12592,12 @@ window.TEAM4_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 89.6까지 -6.42% (-2.07 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 129.9까지 -6.24% (-2.61 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.89% · ADR 3.09%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -0.5 ADR · 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ],
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "최근 분기 순이익 전년비 28.1% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 28%/631%/201% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
-          },
-          {
-            "item": "N 신제품·신서비스",
-            "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 94%"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량 0.73배(20일 평균 대비) · 오늘 거래대금 1.29배 · 상장주식 33M주(한국투자증권) · 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 11.68% · 3M 21.33% · 6M 35.48% · 기준 상위 20%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "미충족",
-            "evidence": "한별 판정 빨강"
-          }
-        ]
-      },
-      "earnings": null
-    },
-    {
-      "ticker": "BH.A",
-      "sector": "Consumer Cyclical",
-      "industry": "Restaurants",
-      "price": 1829.43994140625,
-      "marketCap": "1.20B",
-      "volx": 1.16,
-      "volSurgeWk": 2.28,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 56.53,
-      "high52": 72.8,
-      "adr": 6.31,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          null,
-          null,
-          null
-        ],
-        "ni": [
-          null,
-          null,
-          null
-        ],
-        "opm": null,
-        "updated": "2026-09-20 06:33:39"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "BH.A",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Biglari Holdings는 스테이크 앤 셰이크 등 레스토랑 체인을 운영하며 돈을 벌고, 보험·석유·가스 사업도 함께 가진 지주회사입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
-      },
-      "yahooNews": [],
-      "nameKo": "비글래리 홀딩스 A",
-      "nameEn": "BIGLARI HOLDINGS INC",
-      "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "비글래리 홀딩스 A",
-        "nameEn": "BIGLARI HOLDINGS INC",
-        "financials": {
-          "profitLabel": "세전이익",
-          "marginLabel": "세전이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001726173&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-09-30",
-              "derived": false,
-              "revenue": 112070000,
-              "profit": 1402000,
-              "netIncome": 1014000,
-              "margin": 1.3,
-              "yoy": {
-                "revenue": 12.4,
-                "profit": 118.6,
-                "netIncome": 119.2,
-                "priorEnd": "2025-09-30"
-              }
-            },
-            {
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 108524000,
-              "profit": 51619000,
-              "netIncome": 39926000,
-              "margin": 47.6,
-              "yoy": {
-                "revenue": 7.9,
-                "profit": -20.7,
-                "netIncome": -21.6,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 97481000,
-              "profit": -18882000,
-              "netIncome": -14531000,
-              "margin": -19.4,
-              "yoy": {
-                "revenue": 2.6,
-                "profit": 54.2,
-                "netIncome": 56.3,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 99869000,
-              "profit": -64058000,
-              "netIncome": -49853000,
-              "margin": -64.1,
-              "yoy": {
-                "revenue": 9.6,
-                "profit": -256.7,
-                "netIncome": -385.3,
-                "priorEnd": "2024-12-31"
-              }
-            }
-          ]
-        },
-        "news": {
-          "items": [
-            {
-              "title": "Investing in Biglari Holdings (NYSE:BH.A) three years ago would have delivered you a 41% gain",
-              "url": "https://www.nasdaq.com/articles/investing-in-biglari-holdings-nyse:bh.a-three-years-ago-would-have-delivered-you-a-41-gain",
-              "date": "2022-09-02",
-              "publisher": "Simply Wall St"
-            },
-            {
-              "title": "Are Institutions Heavily Invested In Biglari Holdings Inc.'s (NYSE:BH.A) Shares?",
-              "url": "https://www.nasdaq.com/articles/are-institutions-heavily-invested-in-biglari-holdings-inc.s-nyse:bh.a-shares",
-              "date": "2022-01-01",
-              "publisher": "Simply Wall St"
-            },
-            {
-              "title": "We Like These Underlying Return On Capital Trends At Biglari Holdings (NYSE:BH.A)",
-              "url": "https://www.nasdaq.com/articles/we-like-these-underlying-return-on-capital-trends-at-biglari-holdings-nyse:bh.a-2021-11-02",
-              "date": "2021-11-02",
-              "publisher": "Simply Wall St"
-            },
-            {
-              "title": "Investors in Biglari Holdings (NYSE:BH.A) have made a favorable return of 80% over the past year",
-              "url": "https://www.nasdaq.com/articles/investors-in-biglari-holdings-nyse:bh.a-have-made-a-favorable-return-of-80-over-the-past",
-              "date": "2021-09-03",
-              "publisher": "Simply Wall St"
-            },
-            {
-              "title": "What Kind Of Shareholders Hold The Majority In Biglari Holdings Inc.'s (NYSE:BH.A) Shares?",
-              "url": "https://www.nasdaq.com/articles/what-kind-of-shareholders-hold-the-majority-in-biglari-holdings-inc.s-nyse:bh.a-shares",
-              "date": "2021-07-20",
-              "publisher": "Simply Wall St"
-            },
-            {
-              "title": "Why We Think Biglari Holdings Inc.'s (NYSE:BH.A) CEO Compensation Is Not Excessive At All",
-              "url": "https://www.nasdaq.com/articles/why-we-think-biglari-holdings-inc.s-nyse:bh.a-ceo-compensation-is-not-excessive-at-all",
-              "date": "2021-05-21",
-              "publisher": "Simply Wall St"
-            },
-            {
-              "title": "Biglari Holdings (NYSE:BH.A) Is Doing The Right Things To Multiply Its Share Price",
-              "url": "https://www.nasdaq.com/articles/biglari-holdings-nyse:bh.a-is-doing-the-right-things-to-multiply-its-share-price-2021-04",
-              "date": "2021-04-08",
-              "publisher": "Simply Wall St"
-            }
-          ]
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-11-06",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026071734/bh-20261106.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-07",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026054846/bh-20260807.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-08",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026032884/bh-20260508.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-10",
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026024565/bh-20260408.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-02",
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026012988/bh-20260228.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-11-21",
-            "itemsKo": [
-              "Reg FD 공시"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828025053527/bh-20251121.htm"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": []
-        }
-      },
-      "kis": {
-        "ticker": "BH.A",
-        "fetchedAt": "2026-11-18",
-        "source": "한국투자증권 Open API",
-        "per": 37.79,
-        "pbr": 2.11,
-        "eps": 48.41,
-        "bps": 866.17,
-        "shares": 218412,
-        "marketCapM": 400,
-        "high52": 2513,
-        "high52Date": "2026-01-22",
-        "low52": 1238,
-        "low52Date": "2026-05-11",
-        "last": 1829.44,
-        "prevClose": 1820.71,
-        "nameKo": "비글래리 홀딩스 A",
-        "nameEn": "BIGLARI HOLDINGS INC",
-        "listedOn": "2018-05-01",
-        "exchange": "뉴욕거래소",
-        "listedShares": 218412
-      },
-      "cnbc": [],
-      "estimates": {
-        "ticker": "BH-A",
-        "url": "https://finance.yahoo.com/quote/BH-A/analysis/",
-        "fetchedAt": "2026-11-18",
-        "source": "Yahoo Finance",
-        "periods": [
-          {
-            "period": "0q",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          },
-          {
-            "period": "+1q",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          },
-          {
-            "period": "0y",
-            "endDate": "2019-12-31",
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          },
-          {
-            "period": "+1y",
-            "endDate": null,
-            "eps": null,
-            "epsLow": null,
-            "epsHigh": null,
-            "epsYearAgo": null,
-            "epsAnalysts": null,
-            "epsGrowth": null,
-            "epsCur": null,
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
-          }
-        ],
-        "changes": [
-          {
-            "period": "0q",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          },
-          {
-            "period": "+1q",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          },
-          {
-            "period": "0y",
-            "endDate": "2019-12-31",
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          },
-          {
-            "period": "+1y",
-            "endDate": null,
-            "cur": null,
-            "now": null,
-            "d7": null,
-            "d30": null,
-            "d90": null,
-            "ago90": null,
-            "up7": null,
-            "up30": null,
-            "down7": null,
-            "down30": null
-          }
-        ],
-        "surprises": [
-          {
-            "quarter": "2018-12-31",
-            "actual": -18.71,
-            "estimate": -14.91,
-            "surprisePct": -25.5,
-            "cur": "USD"
-          },
-          {
-            "quarter": "2018-06-30",
-            "actual": -0.23,
-            "estimate": -6.3,
-            "surprisePct": 96.4,
-            "cur": "USD"
-          }
-        ],
-        "beats": 1,
-        "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
-          "initiations": 0,
-          "ptRaised": 0,
-          "ptLowered": 0,
-          "total": 0,
-          "recent": []
-        },
-        "nextEarnings": null
-      },
-      "setup": {
-        "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 2228.47,
-        "stop": 2113.01,
-        "adrPct": 6.31,
-        "distToPivotPct": -17.91,
-        "distToPivotAdr": -2.84,
-        "riskPerSharePct": 5.18,
-        "extensionAdr": 0.7,
-        "breakDate": null,
-        "metrics": {
-          "baseBars": 23,
-          "baseWeeks": 4.6,
-          "depthPct": 29.6,
-          "priorMovePct": 33.1,
-          "higherLows": 0,
-          "contraction": 1.29,
-          "closeRange10Adr": 2.2,
-          "surf10": 0.7,
-          "surf20": 0.03,
-          "slope20": -3.53,
-          "baseLow": 1568,
-          "lastSwingLow": 1568
-        },
-        "reasons": [
-          "선행 상승 +33%",
-          "베이스 4.6주",
-          "✗ 깊이 29.6%",
-          "✗ 저점 상승 0회",
-          "진폭 1.29배 · 10일 종가폭 2.2 ADR",
-          "10일선 +0.7 ADR · 20일선 +0 ADR",
-          "✗ 20일선 기울기 -3.53%"
-        ]
-      },
-      "checks": {
-        "qm": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 33% · 기준 30%↑"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 4.6주 · 기준 2~8주"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.29배(1 미만이면 좁아짐)"
-          },
-          {
-            "item": "깊이",
-            "status": "미충족",
-            "evidence": "베이스 깊이 29.6% · ADR 6.31%의 4.7배 · 선행 상승의 절반 17%"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 1829.44 · 20일선 1825.49 · 50일선 1826.6"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.62배 · 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 2228.47까지 -17.91% (-2.84 ADR) · 기준 1 ADR 이내"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 5.18% · ADR 6.31%"
+            "evidence": "예비 손절 폭 2.24% · ADR 2.39%"
           },
           {
             "item": "10일선 이격",
@@ -16784,27 +12614,653 @@ window.TEAM4_DATA = {
           {
             "item": "C 최근 분기 이익",
             "status": "충족",
-            "evidence": "2026-09-30 분기 세전이익 전년비 118.6% · 기준 +25% (SEC, 주식 수 변동 미반영)"
+            "evidence": "최근 분기 순이익 전년비 54.6% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "SEC 최근 4분기 이익 전년비 119%/-21%/54%/-257% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "status": "충족",
+            "evidence": "사이트 최근 3분기 순이익 55%/85%/2666% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 73%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 71%"
           },
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.62배(20일 평균 대비) · 오늘 거래대금 1.16배(상승일) · 상장주식 0M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.56배(20일 평균 대비) · 오늘 거래대금 1.28배 · 상장주식 15M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "미충족",
+            "evidence": "상대강도 상위 1M 37.65% · 3M 24.48% · 6M 67.04% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ]
+      },
+      "earnings": "2026-11-19"
+    },
+    {
+      "ticker": "CHKP",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 154.02999877929688,
+      "marketCap": "15.08B",
+      "volx": 1.27,
+      "volSurgeWk": 2.07,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 72.16,
+      "high52": 77.05,
+      "adr": 3.87,
+      "targetStatus": false,
+      "saleCy": 1.54,
+      "saleNy": 5.26,
+      "epsCy": -13.36,
+      "epsNy": 7.18,
+      "cyTrend": -1.31,
+      "nyTrend": -2.2,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          1.26,
+          4.8,
+          5.85
+        ],
+        "ni": [
+          -4.44,
+          0.37,
+          18.25
+        ],
+        "opm": [
+          27.48,
+          27.69,
+          31.27
+        ],
+        "updated": "2026-09-08 07:13:06"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Microsoft, Intel Deepen Azure Partnership Amid Increasing AI, Cloud Demand",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-intel-deepen-azure-partnership-182105848.html",
+          "date": "2026-11-18",
+          "publisher": "Stocktwits",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Check Point Scales Its SASE Platform on Microsoft Azure for Global Enterprise Deployment",
+          "url": "https://finance.yahoo.com/technology/ai/articles/check-point-scales-sase-platform-140000411.html",
+          "date": "2026-11-18",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Check Point Software Technologies Insider Sold Shares Worth $638,735, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/check-point-software-technologies-insider-122102552.html",
+          "date": "2026-11-18",
+          "publisher": "MT Newswires",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Check Point Software Achieves FedRAMP Certification for Check Point WAF, Empowering U.S. Federal Agencies with Prevention-First Application and API Security",
+          "url": "https://finance.yahoo.com/technology/ai/articles/check-point-software-achieves-fedramp-140400544.html",
+          "date": "2026-11-12",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Can Software Firewall Demand Boost PANW's Network Security Growth?",
+          "url": "https://finance.yahoo.com/technology/articles/software-firewall-demand-boost-panws-160400859.html",
+          "date": "2026-11-11",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Check Point Named a Leader in Enterprise Firewall Solutions",
+          "url": "https://finance.yahoo.com/technology/ai/articles/check-point-named-leader-enterprise-152800007.html",
+          "date": "2026-11-10",
+          "publisher": "PR Newswire",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Implied Volatility Surging for Check Point Software Technologies Stock Options",
+          "url": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-check-point-135000018.html",
+          "date": "2026-11-09",
+          "publisher": "Zacks",
+          "via": "Yahoo"
+        }
+      ],
+      "nameKo": "체크 포인트 소프트웨어 테크놀로지스",
+      "nameEn": "CHECK POINT SOFTWARE TECHNOLOGIES",
+      "detail": {
+        "fetchedAt": "2026-11-19",
+        "nameKo": "체크 포인트 소프트웨어 테크놀로지스",
+        "nameEn": "CHECK POINT SOFTWARE TECHNOLOGIES",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001015922&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 744900000,
+              "profit": 232900000,
+              "netIncome": 304500000,
+              "margin": 31.3,
+              "yoy": {
+                "revenue": 5.9,
+                "profit": -8.4,
+                "netIncome": 18.3,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodEnd": "2024-12-31",
+              "derived": true,
+              "revenue": 703700000,
+              "profit": 254300000,
+              "netIncome": 257500000,
+              "margin": 36.1,
+              "yoy": {
+                "revenue": null,
+                "profit": null,
+                "netIncome": null,
+                "priorEnd": null
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Implied Volatility Surging for Check Point Software Technologies Stock Options",
+              "url": "https://www.nasdaq.com/articles/implied-volatility-surging-check-point-software-technologies-stock-options",
+              "date": "2026-11-09",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Check Point's Turnaround Could Be Closer Than Investors Think",
+              "url": "https://www.nasdaq.com/articles/check-points-turnaround-could-be-closer-investors-think",
+              "date": "2026-11-03",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Check Point (CHKP) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/check-point-chkp-q3-2026-earnings-call-transcript",
+              "date": "2026-11-02",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Check Point Revenue Dips 1%, Calls a Trough: Rapid Earnings Reaction",
+              "url": "https://www.nasdaq.com/articles/check-point-revenue-dips-1-calls-trough-rapid-earnings-reaction",
+              "date": "2026-11-02",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "What Check Point Software Technologies (CHKP) Said on Its Q3 Earnings Call",
+              "url": "https://www.nasdaq.com/articles/what-check-point-software-technologies-chkp-said-its-q3-earnings-call",
+              "date": "2026-11-02",
+              "publisher": "MarketBeat"
+            }
+          ]
+        },
+        "filings": [],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "kis": {
+        "ticker": "CHKP",
+        "fetchedAt": "2026-11-19",
+        "source": "한국투자증권 Open API",
+        "per": 15.78,
+        "pbr": 5.87,
+        "eps": 9.76,
+        "bps": 26.26,
+        "shares": 102101000,
+        "marketCapM": 15727,
+        "high52": 199.9,
+        "high52Date": "2025-12-12",
+        "low52": 112.23,
+        "low52Date": "2026-04-30",
+        "last": 154.03,
+        "prevClose": 148.39,
+        "nameKo": "체크 포인트 소프트웨어 테크놀로지스",
+        "nameEn": "CHECK POINT SOFTWARE TECHNOLOGIES",
+        "listedOn": null,
+        "exchange": "나스닥",
+        "listedShares": 102101000
+      },
+      "cnbc": [
+        {
+          "title": "Watch CNBC's full interview with Check Point CEO Nadav Zafrir",
+          "url": "https://www.cnbc.com/video/2026/08/10/watch-cnbcs-full-interview-with-check-point-ceo-nadav-zafrir.html",
+          "date": "2026-08-10",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "Check Point CEO on preventing rogue AI agents: ‘We cannot trust the agent to secure the agent’",
+          "url": "https://www.cnbc.com/video/2026/08/10/check-point-ceo-on-preventing-rogue-ai-agents-we-cannot-trust-the-agent-to-secure-the-agent.html",
+          "date": "2026-08-10",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "estimates": {
+        "ticker": "CHKP",
+        "url": "https://finance.yahoo.com/quote/CHKP/analysis/",
+        "fetchedAt": "2026-11-19",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 2.77,
+            "epsLow": 2.71,
+            "epsHigh": 2.83,
+            "epsYearAgo": 3.4,
+            "epsAnalysts": 34,
+            "epsGrowth": -18.6,
+            "epsCur": "USD",
+            "rev": 745149920,
+            "revAnalysts": 32,
+            "revYearAgo": 744900000,
+            "revGrowth": 0,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 2.58,
+            "epsLow": 2.35,
+            "epsHigh": 2.69,
+            "epsYearAgo": 2.5,
+            "epsAnalysts": 29,
+            "epsGrowth": 3.4,
+            "epsCur": "USD",
+            "rev": 691409630,
+            "revAnalysts": 27,
+            "revYearAgo": 668400000,
+            "revGrowth": 3.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 10.3,
+            "epsLow": 10.25,
+            "epsHigh": 10.37,
+            "epsYearAgo": 11.89,
+            "epsAnalysts": 36,
+            "epsGrowth": -13.4,
+            "epsCur": "USD",
+            "rev": 2767445680,
+            "revAnalysts": 36,
+            "revYearAgo": 2725400000,
+            "revGrowth": 1.5,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 11.04,
+            "epsLow": 10.4,
+            "epsHigh": 11.81,
+            "epsYearAgo": 10.3,
+            "epsAnalysts": 38,
+            "epsGrowth": 7.2,
+            "epsCur": "USD",
+            "rev": 2912995670,
+            "revAnalysts": 36,
+            "revYearAgo": 2767445680,
+            "revGrowth": 5.3,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 2.77,
+            "d7": 0,
+            "d30": -5,
+            "d90": -5.1,
+            "ago90": 2.92,
+            "up7": 3,
+            "up30": 3,
+            "down7": 29,
+            "down30": 28
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 2.58,
+            "d7": 0,
+            "d30": -2.6,
+            "d90": -2.7,
+            "ago90": 2.66,
+            "up7": 3,
+            "up30": 3,
+            "down7": 22,
+            "down30": 22
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 10.3,
+            "d7": 0,
+            "d30": -1.3,
+            "d90": -1.3,
+            "ago90": 10.43,
+            "up7": 3,
+            "up30": 3,
+            "down7": 29,
+            "down30": 29
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 11.04,
+            "d7": -0.1,
+            "d30": -2.2,
+            "d90": -2.3,
+            "ago90": 11.3,
+            "up7": 4,
+            "up30": 4,
+            "down7": 28,
+            "down30": 28
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 2.49,
+            "estimate": 2.49,
+            "surprisePct": 0.2,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 2.55,
+            "estimate": 2.45,
+            "surprisePct": 4.2,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 2.5,
+            "estimate": 2.4,
+            "surprisePct": 4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 3.4,
+            "estimate": 2.77,
+            "surprisePct": 22.9,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 0,
+          "ptRaised": 8,
+          "ptLowered": 5,
+          "total": 15,
+          "recent": [
+            {
+              "date": "2026-11-03",
+              "firm": "Jefferies",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Lowers",
+              "pt": 175,
+              "ptPrior": 185
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 145,
+              "ptPrior": 130
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Lowers",
+              "pt": 155,
+              "ptPrior": 167
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "Scotiabank",
+              "action": "main",
+              "from": "Sector Outperform",
+              "to": "Sector Outperform",
+              "ptAction": "Lowers",
+              "pt": 175,
+              "ptPrior": 185
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Lowers",
+              "pt": 131,
+              "ptPrior": 133
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 150,
+              "ptPrior": 145
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 135,
+              "ptPrior": 130
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "RBC Capital",
+              "action": "main",
+              "from": "Sector Perform",
+              "to": "Sector Perform",
+              "ptAction": "Raises",
+              "pt": 140,
+              "ptPrior": 135
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 155,
+              "ptPrior": 140
+            },
+            {
+              "date": "2026-11-03",
+              "firm": "Susquehanna",
+              "action": "main",
+              "from": "Positive",
+              "to": "Positive",
+              "ptAction": "Raises",
+              "pt": 165,
+              "ptPrior": 150
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-02",
+          "upcoming": false,
+          "estimated": false
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "A",
+        "asOf": "2026-11-18",
+        "pivot": 162.44,
+        "stop": 156.47,
+        "adrPct": 3.87,
+        "distToPivotPct": -5.18,
+        "distToPivotAdr": -1.34,
+        "riskPerSharePct": 3.67,
+        "extensionAdr": 1.14,
+        "breakDate": null,
+        "metrics": {
+          "baseBars": 19,
+          "baseWeeks": 3.8,
+          "depthPct": 14.8,
+          "priorMovePct": 33,
+          "higherLows": 1,
+          "contraction": 0.77,
+          "closeRange10Adr": 1.7,
+          "surf10": 1.14,
+          "surf20": 0.72,
+          "slope20": 1.55,
+          "baseLow": 138.41,
+          "lastSwingLow": 140.4
+        },
+        "reasons": [
+          "선행 상승 +33%",
+          "베이스 3.8주",
+          "깊이 14.8%",
+          "저점 상승 1회",
+          "진폭 0.77배 · 10일 종가폭 1.7 ADR",
+          "10일선 +1.1 ADR · 20일선 +0.7 ADR",
+          "20일선 기울기 +1.55%"
+        ]
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 33% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 3.8주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.77배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 14.8% · ADR 3.87%의 3.8배 · 선행 상승의 절반 17%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 154.03 · 20일선 149.74 · 50일선 140.64"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.75배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 162.44까지 -5.18% (-1.34 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.67% · ADR 3.87%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.1 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 빨강"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 -4.4% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 -4%/0%/18% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 77%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.75배(20일 평균 대비) · 오늘 거래대금 1.27배(상승일) · 상장주식 102M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 84.72% · 3M 55.05% · 6M 17.27% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 19.43% · 3M 4.46% · 6M 30.43% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -16821,537 +13277,484 @@ window.TEAM4_DATA = {
       "earnings": null
     },
     {
-      "ticker": "CZFS",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 83.16000366210938,
-      "marketCap": "0.41B",
-      "volx": 1.04,
-      "volSurgeWk": 2,
+      "ticker": "OKTA",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 195.61000061035156,
+      "marketCap": "31.16B",
+      "volx": 1.1,
+      "volSurgeWk": 2.33,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 44.81,
-      "high52": 93.56,
-      "adr": 2.85,
+      "clsPos": 97.73,
+      "high52": 83.24,
+      "adr": 7.26,
       "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": 14.44,
-      "epsNy": 1.03,
-      "cyTrend": 0,
-      "nyTrend": 0,
+      "saleCy": 10.45,
+      "saleNy": 10.05,
+      "epsCy": 12.26,
+      "epsNy": 11.43,
+      "cyTrend": 0.01,
+      "nyTrend": -0.01,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          10.58,
+          11.19,
+          11.58
+        ],
+        "ni": [
+          73.13,
+          19.35,
+          173.91
+        ],
+        "opm": [
+          13.29,
+          7.32,
+          6.04
+        ],
+        "updated": "2026-09-08 08:34:04"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      },
+      "yahooNews": [
+        {
+          "title": "Robert Karr's Top Q3 2026 Move: Okta Inc at a 2.94% Portfolio Impact",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/robert-karrs-top-q3-2026-220803884.html",
+          "date": "2026-11-16",
+          "publisher": "GuruFocus.com",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Palo Alto Networks Heads 3 Top Cybersecurity Stocks To Watch",
+          "url": "https://finance.yahoo.com/technology/articles/palo-alto-networks-heads-3-151123464.html",
+          "date": "2026-11-12",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        }
+      ]
+    },
+    {
+      "ticker": "PDS",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "price": 88.22000122070312,
+      "marketCap": "1.15B",
+      "volx": 1.09,
+      "volSurgeWk": 2.56,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 24.75,
+      "high52": 78.75,
+      "adr": 5.06,
+      "targetStatus": false,
+      "saleCy": 11.53,
+      "saleNy": 6.56,
+      "epsCy": 26.81,
+      "epsNy": 96.66,
+      "cyTrend": -3.19,
+      "nyTrend": 4.7,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          2.61,
-          3.6,
-          3.29
+          -5.38,
+          14.91,
+          -4.06
         ],
         "ni": [
-          20.37,
-          36.15,
-          31.32
+          -103.59,
+          23.77,
+          -117.09
         ],
         "opm": [
-          28.36,
-          28.89,
-          29.26
+          3.28,
+          7.86,
+          9
         ],
-        "updated": "2026-09-08 06:07:59"
+        "updated": "2026-09-08 10:00:07"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "CZFS",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "펜실베이니아 북동부에서 지역 은행을 운영하는 Citizens Financial Services로, 예금과 대출의 이자 수익이 주된 수입원이다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-11-18",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       },
       "yahooNews": [
         {
-          "title": "Atlanticus to Participate in the Citizens Financial Services Conference",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-participate-citizens-financial-services-210100835.html",
-          "date": "2026-11-10",
-          "publisher": "GlobeNewswire",
+          "title": "Is the Options Market Predicting a Spike in Precision Drilling Stock?",
+          "url": "https://finance.yahoo.com/markets/options/articles/options-market-predicting-spike-precision-162900662.html",
+          "date": "2026-11-09",
+          "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "OppFi to Participate in November 2026 Conferences",
-          "url": "https://finance.yahoo.com/small-business/articles/oppfi-participate-november-2026-conferences-211500268.html",
-          "date": "2026-11-04",
-          "publisher": "PR Newswire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Pagaya to Participate in Upcoming Investor Conferences and Events",
-          "url": "https://finance.yahoo.com/technology/ai/articles/pagaya-participate-upcoming-investor-conferences-133000345.html",
-          "date": "2026-11-04",
-          "publisher": "Business Wire",
+          "title": "Precision Drilling (TSX:PD) Stock Looks Reasonable Against Its Sales Base",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/precision-drilling-tsx-pd-stock-121150082.html",
+          "date": "2026-11-07",
+          "publisher": "Simply Wall St.",
           "via": "Yahoo"
         }
       ],
-      "nameKo": "시티즌스 파이낸셜 서비시스",
-      "nameEn": "CITIZENS FINANCIAL SERVICES INC",
+      "nameKo": "프리시전 드릴링",
+      "nameEn": "PRECISION DRILLING CORPORATION",
       "detail": {
-        "fetchedAt": "2026-11-18",
-        "nameKo": "시티즌스 파이낸셜 서비시스",
-        "nameEn": "CITIZENS FINANCIAL SERVICES INC",
-        "financials": {
-          "profitLabel": "세전이익",
-          "marginLabel": "세전이익률",
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000739421&type=10-Q",
-          "quarters": [
-            {
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 2443000,
-              "profit": 12341000,
-              "netIncome": 10187000,
-              "margin": 505.2,
-              "yoy": {
-                "revenue": 3.2,
-                "profit": 18.5,
-                "netIncome": 20.4,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 2337000,
-              "profit": 12702000,
-              "netIncome": 10376000,
-              "margin": 543.5,
-              "yoy": {
-                "revenue": -4.2,
-                "profit": 34.8,
-                "netIncome": 36.2,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 2303000,
-              "profit": 13086000,
-              "netIncome": 10483000,
-              "margin": 568.2,
-              "yoy": {
-                "revenue": 0.2,
-                "profit": 34.3,
-                "netIncome": 31.3,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 2771000,
-              "profit": 12360000,
-              "netIncome": 10005000,
-              "margin": 446,
-              "yoy": {
-                "revenue": 10.4,
-                "profit": 33.6,
-                "netIncome": 32.8,
-                "priorEnd": "2024-09-30"
-              }
-            }
-          ]
-        },
+        "fetchedAt": "2026-11-19",
+        "nameKo": "프리시전 드릴링",
+        "nameEn": "PRECISION DRILLING CORPORATION",
+        "financialsError": "매출 태그 없음",
         "news": {
           "items": [
             {
-              "title": "Citizens Financial Services (CZFS) Upgraded to Buy: Here's What You Should Know",
-              "url": "https://www.nasdaq.com/articles/citizens-financial-services-czfs-upgraded-buy-heres-what-you-should-know",
-              "date": "2026-11-05",
+              "title": "PDS Crosses Below Key Moving Average Level",
+              "url": "https://www.nasdaq.com/articles/pds-crosses-below-key-moving-average-level",
+              "date": "2026-11-18",
+              "publisher": "BNK Invest"
+            },
+            {
+              "title": "Is the Options Market Predicting a Spike in Precision Drilling Stock?",
+              "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-precision-drilling-stock",
+              "date": "2026-11-09",
               "publisher": "Zacks"
             },
             {
-              "title": "Citizens Financial Services (CZFS) Q3 Earnings and Revenues Beat Estimates",
-              "url": "https://www.nasdaq.com/articles/citizens-financial-services-czfs-q3-earnings-and-revenues-beat-estimates",
-              "date": "2026-10-30",
+              "title": "Precision Drilling Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/precision-drilling-q3-earnings-call-highlights",
+              "date": "2026-10-29",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Precision Drilling: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/precision-drilling-3-key-takeaways-long-term-investors",
+              "date": "2026-10-29",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Precision Drilling (PDS) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/precision-drilling-pds-q3-2026-earnings-call-transcript",
+              "date": "2026-10-28",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Wall Street Analysts Believe Precision Drilling (PDS) Could Rally 26.28%: Here's is How to Trade",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-precision-drilling-pds-could-rally-2628-heres-how-trade",
+              "date": "2026-10-20",
               "publisher": "Zacks"
             },
             {
-              "title": "Why Citizens Financial Services (CZFS) is a Great Dividend Stock Right Now",
-              "url": "https://www.nasdaq.com/articles/why-citizens-financial-services-czfs-great-dividend-stock-right-now",
+              "title": "Precision Drilling (PDS) Shares Cross Above 200 DMA",
+              "url": "https://www.nasdaq.com/articles/precision-drilling-pds-shares-cross-above-200-dma-0",
               "date": "2026-10-19",
-              "publisher": "Zacks"
+              "publisher": "BNK Invest"
             },
             {
-              "title": "Citizens Financial Services (CZFS) Could Be a Great Choice",
-              "url": "https://www.nasdaq.com/articles/citizens-financial-services-czfs-could-be-great-choice-2",
-              "date": "2026-10-02",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Why Citizens Financial Services (CZFS) is a Great Dividend Stock Right Now",
-              "url": "https://www.nasdaq.com/articles/why-citizens-financial-services-czfs-great-dividend-stock-right-now-0",
-              "date": "2026-08-31",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "All You Need to Know About Citizens Financial Services (CZFS) Rating Upgrade to Strong Buy",
-              "url": "https://www.nasdaq.com/articles/all-you-need-know-about-citizens-financial-services-czfs-rating-upgrade-strong-buy",
-              "date": "2026-08-14",
-              "publisher": "Zacks"
-            },
-            {
-              "title": "Why Citizens Financial Services (CZFS) is a Top Dividend Stock for Your Portfolio",
-              "url": "https://www.nasdaq.com/articles/why-citizens-financial-services-czfs-top-dividend-stock-your-portfolio-0",
-              "date": "2026-08-14",
+              "title": "Should Value Investors Buy Precision Drilling (PDS) Stock?",
+              "url": "https://www.nasdaq.com/articles/should-value-investors-buy-precision-drilling-pds-stock",
+              "date": "2026-10-16",
               "publisher": "Zacks"
             }
           ]
         },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-10-30",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/739421/000073942126000092/czfs-20260622.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-30",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/739421/000073942126000071/czfs-20260730.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-22",
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/739421/000073942126000059/czfs-20260622.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-29",
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/739421/000073942126000028/firstqtrinvestor2026.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-29",
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/739421/000073942126000027/firstqtrearnings2026.htm"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-22",
-            "itemsKo": [
-              "임원 변동",
-              "주주총회 표결",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/739421/000073942126000024/annualmeetingresults2026.htm"
-          }
-        ],
+        "filings": [],
         "krReports": {
           "total": 0,
           "reports": []
         }
       },
       "kis": {
-        "ticker": "CZFS",
-        "fetchedAt": "2026-11-18",
+        "ticker": "PDS",
+        "fetchedAt": "2026-11-19",
         "source": "한국투자증권 Open API",
-        "per": 9.72,
-        "pbr": 1.13,
-        "eps": 8.55,
-        "bps": 73.36,
-        "shares": 4810690,
-        "marketCapM": 400,
-        "high52": 88.88,
-        "high52Date": "2026-11-05",
-        "low52": 51.5588,
-        "low52Date": "2025-11-17",
-        "last": 83.16,
-        "prevClose": 84.4,
-        "nameKo": "시티즌스 파이낸셜 서비시스",
-        "nameEn": "CITIZENS FINANCIAL SERVICES INC",
-        "listedOn": "2022-06-03",
-        "exchange": "나스닥",
-        "listedShares": 4810690
+        "per": 49.67,
+        "pbr": 1,
+        "eps": 1.78,
+        "bps": 87.79,
+        "shares": 12538700,
+        "marketCapM": 1106,
+        "high52": 112.0275,
+        "high52Date": "2026-10-29",
+        "low52": 56.1,
+        "low52Date": "2025-11-21",
+        "last": 88.22,
+        "prevClose": 90.88,
+        "nameKo": "프리시전 드릴링",
+        "nameEn": "PRECISION DRILLING CORPORATION",
+        "listedOn": null,
+        "exchange": "뉴욕거래소",
+        "listedShares": 12538700
       },
       "cnbc": [],
       "estimates": {
-        "ticker": "CZFS",
-        "url": "https://finance.yahoo.com/quote/CZFS/analysis/",
-        "fetchedAt": "2026-11-18",
+        "ticker": "PDS",
+        "url": "https://finance.yahoo.com/quote/PDS/analysis/",
+        "fetchedAt": "2026-11-19",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 2.24,
-            "epsLow": 2.24,
-            "epsHigh": 2.24,
-            "epsYearAgo": 2.18,
-            "epsAnalysts": 1,
-            "epsGrowth": 2.8,
-            "epsCur": "USD",
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "eps": 2.88,
+            "epsLow": 2.15,
+            "epsHigh": 3.4,
+            "epsYearAgo": 1.91,
+            "epsAnalysts": 5,
+            "epsGrowth": 50.7,
+            "epsCur": "CAD",
+            "rev": 542693380,
+            "revAnalysts": 6,
+            "revYearAgo": 478508000,
+            "revGrowth": 13.4,
+            "revCur": "CAD"
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 2.19,
-            "epsLow": 2.19,
-            "epsHigh": 2.19,
-            "epsYearAgo": 2.16,
-            "epsAnalysts": 1,
-            "epsGrowth": 1.4,
-            "epsCur": "USD",
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "eps": 3.62,
+            "epsLow": 3.09,
+            "epsHigh": 3.87,
+            "epsYearAgo": 1.34,
+            "epsAnalysts": 5,
+            "epsGrowth": 170.3,
+            "epsCur": "CAD",
+            "rev": 563656100,
+            "revAnalysts": 4,
+            "revYearAgo": 526051000,
+            "revGrowth": 7.2,
+            "revCur": "CAD"
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 8.72,
-            "epsLow": 8.72,
-            "epsHigh": 8.72,
-            "epsYearAgo": 7.62,
-            "epsAnalysts": 1,
-            "epsGrowth": 14.4,
-            "epsCur": "USD",
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "eps": 6.55,
+            "epsLow": 4.99,
+            "epsHigh": 8.15,
+            "epsYearAgo": 5.17,
+            "epsAnalysts": 6,
+            "epsGrowth": 26.8,
+            "epsCur": "CAD",
+            "rev": 2056276330,
+            "revAnalysts": 10,
+            "revYearAgo": 1843704000,
+            "revGrowth": 11.5,
+            "revCur": "CAD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 8.81,
-            "epsLow": 8.81,
-            "epsHigh": 8.81,
-            "epsYearAgo": 8.72,
-            "epsAnalysts": 1,
-            "epsGrowth": 1,
-            "epsCur": "USD",
-            "rev": 0,
-            "revAnalysts": 0,
-            "revYearAgo": null,
-            "revGrowth": null,
-            "revCur": null
+            "eps": 12.88,
+            "epsLow": 11.73,
+            "epsHigh": 14.71,
+            "epsYearAgo": 6.55,
+            "epsAnalysts": 6,
+            "epsGrowth": 96.7,
+            "epsCur": "CAD",
+            "rev": 2191262290,
+            "revAnalysts": 10,
+            "revYearAgo": 2056276330,
+            "revGrowth": 6.6,
+            "revCur": "CAD"
           }
         ],
         "changes": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 2.24,
-            "d7": 0,
-            "d30": 0,
-            "d90": 8.2,
-            "ago90": 2.07,
-            "up7": 1,
+            "cur": "CAD",
+            "now": 2.88,
+            "d7": -10.7,
+            "d30": -3.5,
+            "d90": -3.5,
+            "ago90": 2.98,
+            "up7": 0,
             "up30": 1,
-            "down7": 0,
-            "down30": 0
+            "down7": 1,
+            "down30": 2
           },
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "cur": "USD",
-            "now": 2.19,
-            "d7": 0,
-            "d30": 0,
-            "d90": 7.9,
-            "ago90": 2.03,
+            "cur": "CAD",
+            "now": 3.62,
+            "d7": 2.3,
+            "d30": 17.9,
+            "d90": 17.9,
+            "ago90": 3.07,
             "up7": 1,
-            "up30": 1,
-            "down7": 0,
-            "down30": 0
+            "up30": 2,
+            "down7": 1,
+            "down30": 1
           },
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "cur": "USD",
-            "now": 8.72,
-            "d7": 0,
-            "d30": 0,
-            "d90": 6,
-            "ago90": 8.23,
-            "up7": 1,
-            "up30": 1,
-            "down7": 0,
-            "down30": 0
+            "cur": "CAD",
+            "now": 6.55,
+            "d7": -0.7,
+            "d30": -3.2,
+            "d90": -3.2,
+            "ago90": 6.77,
+            "up7": 2,
+            "up30": 2,
+            "down7": 1,
+            "down30": 1
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "cur": "USD",
-            "now": 8.81,
-            "d7": 0,
-            "d30": 0,
-            "d90": 6,
-            "ago90": 8.31,
-            "up7": 1,
+            "cur": "CAD",
+            "now": 12.88,
+            "d7": 6.3,
+            "d30": 4.7,
+            "d90": 4.7,
+            "ago90": 12.3,
+            "up7": 2,
             "up30": 1,
-            "down7": 0,
-            "down30": 0
+            "down7": 1,
+            "down30": 2
           }
         ],
         "surprises": [
           {
             "quarter": "2026-09-30",
-            "actual": 2.48,
-            "estimate": 2.2,
-            "surprisePct": 12.7,
-            "cur": "USD"
+            "actual": 1.65,
+            "estimate": 1.72,
+            "surprisePct": -4,
+            "cur": "CAD"
           },
           {
             "quarter": "2026-06-30",
-            "actual": 2.12,
-            "estimate": 1.98,
-            "surprisePct": 7.1,
-            "cur": "USD"
+            "actual": -0.09,
+            "estimate": 0.4,
+            "surprisePct": -122.4,
+            "cur": "CAD"
           },
           {
             "quarter": "2026-03-31",
-            "actual": 2.16,
-            "estimate": 1.98,
-            "surprisePct": 9.1,
-            "cur": "USD"
+            "actual": 1.34,
+            "estimate": 2.31,
+            "surprisePct": -41.9,
+            "cur": "CAD"
           },
           {
             "quarter": "2025-12-31",
-            "actual": 2.18,
+            "actual": 1.91,
             "estimate": 2.07,
-            "surprisePct": 5.3,
-            "cur": "USD"
+            "surprisePct": -7.7,
+            "cur": "CAD"
           }
         ],
-        "beats": 4,
+        "beats": 0,
         "ratings": {
-          "upgrades": 0,
-          "downgrades": 0,
+          "upgrades": 1,
+          "downgrades": 1,
           "initiations": 0,
-          "ptRaised": 0,
+          "ptRaised": 3,
           "ptLowered": 0,
-          "total": 0,
-          "recent": []
+          "total": 3,
+          "recent": [
+            {
+              "date": "2026-11-03",
+              "firm": "Piper Sandler",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 115,
+              "ptPrior": 105
+            },
+            {
+              "date": "2026-10-31",
+              "firm": "Freedom Broker",
+              "action": "down",
+              "from": "Buy",
+              "to": "Hold",
+              "ptAction": "Raises",
+              "pt": 121,
+              "ptPrior": 116
+            },
+            {
+              "date": "2026-10-20",
+              "firm": "TD Securities",
+              "action": "up",
+              "from": "Hold",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 150,
+              "ptPrior": 116
+            }
+          ]
         },
         "nextEarnings": {
-          "date": "2027-01-28",
-          "upcoming": true,
-          "estimated": true
+          "date": "2026-10-27",
+          "upcoming": false,
+          "estimated": false
         }
       },
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-17",
-        "pivot": 88.88,
-        "stop": 86.51,
-        "adrPct": 2.85,
-        "distToPivotPct": -6.44,
-        "distToPivotAdr": -2.26,
-        "riskPerSharePct": 2.67,
-        "extensionAdr": -0.98,
+        "asOf": "2026-11-18",
+        "pivot": 112.03,
+        "stop": 107.57,
+        "adrPct": 5.06,
+        "distToPivotPct": -21.25,
+        "distToPivotAdr": -4.2,
+        "riskPerSharePct": 3.98,
+        "extensionAdr": -0.92,
         "breakDate": null,
         "metrics": {
-          "baseBars": 18,
-          "baseWeeks": 3.6,
-          "depthPct": 8.7,
-          "priorMovePct": 20.3,
+          "baseBars": 15,
+          "baseWeeks": 3,
+          "depthPct": 22.8,
+          "priorMovePct": 50.3,
           "higherLows": 0,
-          "contraction": 0.9,
+          "contraction": 0.64,
           "closeRange10Adr": 1.7,
-          "surf10": -0.98,
-          "surf20": -0.74,
-          "slope20": 1.61,
-          "baseLow": 81.15,
-          "lastSwingLow": 84
+          "surf10": -0.92,
+          "surf20": -1.65,
+          "slope20": 1.2,
+          "baseLow": 86.46,
+          "lastSwingLow": 89.08
         },
         "reasons": [
-          "✗ 선행 상승 +20%",
-          "베이스 3.6주",
-          "깊이 8.7%",
+          "선행 상승 +50%",
+          "베이스 3주",
+          "깊이 22.8%",
           "✗ 저점 상승 0회",
-          "진폭 0.9배 · 10일 종가폭 1.7 ADR",
-          "✗ 10일선 -1 ADR · 20일선 -0.7 ADR",
-          "20일선 기울기 +1.61%"
+          "진폭 0.64배 · 10일 종가폭 1.7 ADR",
+          "✗ 10일선 -0.9 ADR · 20일선 -1.6 ADR",
+          "20일선 기울기 +1.2%"
         ]
       },
       "checks": {
         "qm": [
           {
             "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "선행 상승 20% (약함) · 기준 30%↑"
+            "status": "충족",
+            "evidence": "선행 상승 50% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 3.6주 · 기준 2~8주"
+            "evidence": "베이스 3주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.9배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.64배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 8.7% · ADR 2.85%의 3.1배 · 선행 상승의 절반 10%"
+            "evidence": "베이스 깊이 22.8% · ADR 5.06%의 4.5배 · 선행 상승의 절반 25%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 83.16 · 20일선 84.91 · 50일선 82.07"
+            "evidence": "종가 88.22 · 20일선 95.58 · 50일선 89.41 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
@@ -17366,17 +13769,17 @@ window.TEAM4_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 88.88까지 -6.44% (-2.26 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 112.03까지 -21.25% (-4.2 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.67% · ADR 2.85%"
+            "evidence": "예비 손절 폭 3.98% · ADR 5.06%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -17388,27 +13791,27 @@ window.TEAM4_DATA = {
           {
             "item": "C 최근 분기 이익",
             "status": "미충족",
-            "evidence": "최근 분기 순이익 전년비 20.4% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+            "evidence": "최근 분기 순이익 전년비 -103.6% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "사이트 최근 3분기 순이익 20%/36%/31% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 -104%/24%/-117% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
           },
           {
             "item": "N 신제품·신서비스",
             "status": "확인 불가",
-            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 94%"
+            "evidence": "N 분석 대기 — N 심층분석이 회사 공시 원문(실적 보도자료·10-Q 경영진 설명)으로 신제품·신서비스와 그 매출·이익 영향을 조사한다 · 참고: 52주 고점의 79%"
           },
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.6배(20일 평균 대비) · 오늘 거래대금 1.04배 · 상장주식 5M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.6배(20일 평균 대비) · 오늘 거래대금 1.09배 · 상장주식 13M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 상위 1M 34.04% · 3M 29.26% · 6M 15.1% · 기준 상위 20%"
+            "status": "미충족",
+            "evidence": "상대강도 상위 1M 60.46% · 3M 35.66% · 6M 58.93% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -17426,65 +13829,50 @@ window.TEAM4_DATA = {
     }
   ],
   "excludedEtf": [
-    "FNGS",
-    "MLPR"
+    "GDXU"
   ],
   "excludedNoMarketCap": [
-    "BAC-L",
-    "NFEGP"
+    "NFEGP",
+    "BTSGU",
+    "STRC",
+    "BMNP"
   ],
   "excludedBelowMa150": [
-    "MOG.B",
-    "DDOG",
-    "JBHT",
-    "CRM",
-    "RY",
-    "MSA",
-    "BMO",
-    "CHRW",
+    "UNH",
+    "SNA",
+    "KRYS",
+    "UNF",
+    "GNRC",
+    "TTWO",
+    "SCCO",
+    "AEM",
+    "TJX",
+    "WPM",
+    "MSM",
     "UAN",
-    "NICE",
+    "DTM",
+    "IMO",
     "FUTU",
-    "RPM",
-    "BGSI",
+    "AU",
+    "BHP",
     "SLF",
-    "NTNX",
-    "BKTI",
-    "VYLR",
-    "ESEA",
-    "EMBJ",
-    "CELC",
-    "AMBA"
+    "SCI",
+    "FCX",
+    "CNS",
+    "TECK"
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 30,
-    "total": 30,
-    "cap": 30,
-    "pending": 0,
+    "done": 6,
+    "total": 26,
+    "cap": null,
+    "pending": 20,
     "failed": 0,
-    "carried": 0,
+    "carried": 6,
     "ineligible": 0,
-    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "26종목 중 6종목을 조사했습니다. 그중 6종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 20종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "STN",
-        "category": 1,
-        "oneLine": "3분기 매출과 주당순이익이 예상을 넘었고, 발표 다음 날 주가가 급등했다."
-      },
-      {
-        "ticker": "SO",
-        "category": 1,
-        "oneLine": "3분기 실적이 예상을 넘었고, 데이터센터 전력 수요를 이유로 향후 전망도 올렸다."
-      }
-    ],
-    "sectorSignal": "실적 호재 2건 중 하나는 데이터센터 전력 수요(전력 유틸리티)와 관련돼 있고, 나머지는 업종 연결이 입력에 없습니다. 업종 쏠림은 판단할 근거가 부족합니다.",
-    "caution": "STN은 같은 시기에 Stifel이 투자의견을 보유로 낮추는 등 엇갈린 반응도 있었습니다. SO의 실적 발표일은 11월 5일로 이미 시간이 지났으니 지금 가격에 호재가 얼마나 반영됐는지는 직접 확인하세요. 가격 데이터는 받지 않았습니다.",
-    "researchedOn": "2026-11-17"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "DIS",
@@ -17515,11 +13903,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 5건 중 DIS·GFF·TFX·APD 4건이 확인됐고 업종은 제각각이라 특정 업종 쏠림은 없다. 산업 기술 돌파는 0건이고, 30건 중 20건 가까이는 뚜렷한 근거 없는 거래량 급증이다.",
     "caution": "JJSF는 실적 발표 내용을 확인하지 못해 호재로 단정할 수 없다. TFX·APD는 실적 발표(11/5)가 오래돼 오늘 움직임의 직접 원인인지는 불확실하다. 이 분류는 뉴스 근거만 본 것이고 차트 상태는 보지 않았다.",
     "researchedOn": "2026-11-18"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 5,
-    "3": 1,
-    "6": 24
   }
 };

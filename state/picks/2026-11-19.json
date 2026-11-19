@@ -1,0 +1,380 @@
+{
+  "date": "2026-11-19",
+  "count": 34,
+  "tickers": [
+    "MRNA",
+    "KOD",
+    "OKTA",
+    "GKOS",
+    "MGRT",
+    "EPAM",
+    "HNGE",
+    "ALGT",
+    "XMTR",
+    "ELF",
+    "WING",
+    "RYTM",
+    "TXG",
+    "KNSA",
+    "TMDX",
+    "ANF",
+    "ECO",
+    "CHTR",
+    "CRL",
+    "OLLI",
+    "RHLD",
+    "VSXY",
+    "CAKE",
+    "SIG",
+    "INSM",
+    "QLYS",
+    "CRWD",
+    "MHK",
+    "TWST",
+    "FROG",
+    "IBP",
+    "SEZL",
+    "RNG",
+    "ORKA"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 5,
+      "sharePct": 14.7,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "RYTM",
+        "INSM",
+        "ORKA"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 2,
+        "m3": 1,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 3,
+      "sharePct": 8.8,
+      "tickers": [
+        "OKTA",
+        "QLYS",
+        "CRWD"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Medical Devices",
+      "level": "Industry",
+      "name": "Medical Devices",
+      "count": 3,
+      "sharePct": 8.8,
+      "tickers": [
+        "GKOS",
+        "TXG",
+        "TMDX"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 5.9,
+      "tickers": [
+        "MGRT",
+        "EPAM"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Restaurants",
+      "level": "Industry",
+      "name": "Restaurants",
+      "count": 2,
+      "sharePct": 5.9,
+      "tickers": [
+        "WING",
+        "CAKE"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 5.9,
+      "tickers": [
+        "ANF",
+        "VSXY"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 5.9,
+      "tickers": [
+        "CRL",
+        "TWST"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 0,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 2,
+      "sharePct": 5.9,
+      "tickers": [
+        "FROG",
+        "RNG"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 1
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "GKOS",
+      "ALGT",
+      "XMTR",
+      "WING",
+      "RYTM",
+      "TMDX",
+      "CHTR",
+      "RHLD",
+      "INSM",
+      "MHK",
+      "IBP"
+    ],
+    "m3": [
+      "KOD",
+      "OKTA",
+      "GKOS",
+      "MGRT",
+      "EPAM",
+      "HNGE",
+      "XMTR",
+      "WING",
+      "ANF",
+      "ECO",
+      "OLLI",
+      "SIG",
+      "CRWD",
+      "FROG",
+      "SEZL"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "GKOS",
+      "MGRT",
+      "HNGE",
+      "ELF",
+      "TXG",
+      "KNSA",
+      "ANF",
+      "ECO",
+      "CRL",
+      "VSXY",
+      "CAKE",
+      "QLYS",
+      "TWST",
+      "RNG",
+      "ORKA"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "GKOS"
+    ],
+    "newEntrants": [
+      "ALGT",
+      "RYTM",
+      "TMDX",
+      "CHTR",
+      "RHLD",
+      "INSM",
+      "MHK",
+      "IBP"
+    ],
+    "midTerm": [
+      "KOD",
+      "OKTA",
+      "MGRT",
+      "EPAM",
+      "HNGE",
+      "ANF",
+      "ECO",
+      "OLLI",
+      "SIG",
+      "CRWD",
+      "FROG",
+      "SEZL"
+    ],
+    "fading": [
+      "MRNA",
+      "ELF",
+      "TXG",
+      "KNSA",
+      "CRL",
+      "VSXY",
+      "CAKE",
+      "QLYS",
+      "TWST",
+      "RNG",
+      "ORKA"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "AMD",
+      "PANW",
+      "CRWD",
+      "TTWO",
+      "TJX",
+      "NET",
+      "OKTA",
+      "VIK",
+      "AKAM",
+      "FTNT",
+      "MOD",
+      "ZS",
+      "LULU",
+      "GNRC",
+      "FROG",
+      "RBRK",
+      "CAKE",
+      "HUT",
+      "BURL",
+      "FFIV"
+    ],
+    "m1": [
+      "APP",
+      "FCN",
+      "CROX",
+      "ALGT",
+      "XMTR",
+      "RYTM",
+      "TMDX",
+      "GKOS",
+      "WING",
+      "CHTR",
+      "CLX",
+      "RHLD",
+      "TFX",
+      "INSM",
+      "IDXX",
+      "MHK",
+      "NXST",
+      "IBP",
+      "CVCO",
+      "POOL",
+      "MIDD",
+      "CAR"
+    ],
+    "m3": [
+      "KOD",
+      "OKTA",
+      "MGRT",
+      "EPAM",
+      "XMTR",
+      "WING",
+      "FCN",
+      "ANF",
+      "CROX",
+      "PVH",
+      "OLLI",
+      "PTC",
+      "HWKN",
+      "SIG",
+      "GKOS",
+      "CRWD",
+      "FROG",
+      "SEZL",
+      "EXPO",
+      "HNGE",
+      "ECO",
+      "IDXX"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "GKOS",
+      "HNGE",
+      "ELF",
+      "TXG",
+      "KNSA",
+      "ECO",
+      "ANF",
+      "SN",
+      "CRL",
+      "VSXY",
+      "CAKE",
+      "HAE",
+      "QLYS",
+      "PAYC",
+      "TWST",
+      "MANH",
+      "RNG",
+      "ORKA",
+      "MGRT",
+      "VEEV"
+    ],
+    "all": [
+      "GKOS"
+    ]
+  }
+}
