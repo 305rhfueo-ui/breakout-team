@@ -277,6 +277,37 @@ console.log('\n[카드] 12팀 도담 · 13팀 라온 — 티스토리 글 (2026-
   });
 }
 
+console.log('\n[14팀] 하율 — 볼린저 수축→거래량 폭발 카드·탭·팝업·지표 차트 (2026-11-19)');
+{
+  const rowsOf = (st) => [{ no: '1', item: '전날 볼린저 폭 0.25 이하 (수축)', status: 'ok', detail: '전날 0.221 · 당일 0.29' }, { no: '2', item: '당일 거래량 50일 평균 위', status: st, detail: '2.54배 (45,000K ÷ 17,700K)' },
+    { no: '3', item: 'OBV 상승 (종가 > 전일 종가)', status: 'ok', detail: '150 → 157 (4.7%)' }, { no: '4', item: '상단 밴드 상승 · 하단 밴드 하락 (참고)', status: 'half', detail: '상단 160→165 · 하단 140→141' }, { no: '5', item: '종가가 상단 밴드 위 (참고)', status: 'ok', detail: '종가 157 · 상단 155' }];
+  const data = { updated: 'x', session: '2026-11-18', rule: { th: 0.25, volk: 1 }, scan: { universe: 1109, prefilter: 22, fetched: 20, capDropped: 2 },
+    items: [{ ticker: 'ZZSQ', session: '2026-11-18', sector: 'Technology', industry: 'Semiconductors', price: 157, adr: 4.1, ret: { m1: 28.3, m3: 41.2, m6: null }, rsTop: { m1: 2.8, m3: 0.9, m6: null }, volX: 2.54, bbwPrev: 0.221, bbw: 0.29, aboveUp: true, expand: false, close: 157, rows: rowsOf('ok') },
+      { ticker: 'ZZOLD', session: '2026-11-17', sector: 'Health', industry: 'Biotech', price: 20, adr: 7, ret: { m1: 5, m3: 10, m6: 12 }, rsTop: { m1: 40, m3: 30, m6: 20 }, volX: 3.1, bbwPrev: 0.1, bbw: 0.2, aboveUp: false, expand: true, close: 20, rows: rowsOf('ok') }] };
+  const q = loadRoom(`window.BBSQUEEZE_DATA = ${JSON.stringify(data)};`); q.cards();
+  const card = q.document.getElementById('team').innerHTML, b = q.bodyFor('t14'), br = q.briefing('t14');
+  ok('카드·탭: 세션별 표(티커 클릭·섹터/업종·거래량 배수·폭·1/3/6개월·RS 상위%·참고) · 상한 누락 표시', () => {
+    for (const k of ['하율', '2026-11-18 장 · ZZSQ', '1세션'.replace('1', '2'), '2종목']) assert.ok(card.includes(k), `카드에 없음: ${k}`);
+    for (const k of ['data-tk="ZZSQ"', 'data-tk="ZZOLD"', 'Technology / ', '<b>2.54배</b>', '0.22→0.29', '+28%', 'color:var(--grn);font-weight:700">+41%', '상위 2.8%', '상위 0.9%', '상단 돌파', '밴드 확장', '상한으로 2종목 못 봄', '2026-11-18 장', '2026-11-17 장', '매수 권유가 아닙니다']) assert.ok(b.includes(k), `탭에 없음: ${k}`);
+    assert.ok(b.indexOf('2026-11-18 장') < b.indexOf('2026-11-17 장'), '최신 세션이 위');
+    assert.ok(br.includes('<b>ZZSQ</b>') && br.includes('선행 상승) 종목: ZZSQ') && br.includes('상단 밴드 위에서 끝난 종목: ZZSQ') && br.includes('2종목은 보지 못했습니다') && !br.includes('ZZOLD'), '브리핑은 최신 세션만');
+  });
+  q.openTicker('ZZSQ'); const h = q.document.getElementById('mbox2').innerHTML;
+  ok('팝업: 조건 1~3 체크 + 참고 4·5 + 등락·RS·ADR', () => {
+    for (const k of ['하율 — 볼린저 수축 → 거래량 폭발', '1. 전날 볼린저 폭', '2.54배', '충족 3 · 미충족 0', '참고 4.', '🟡', '참고 5.', '+28.3% · +41.2% · —', '2.8 · 0.9 · —', '4.1%']) assert.ok(h.includes(k), `팝업에 없음: ${k}`);
+  });
+  ok('지표 차트: 20·50·200일선 · 거래량 50일 평균 · 볼린저 폭(점선 0.25) · OBV', () => {
+    const rows = Array.from({ length: 260 }, (_, i) => [`2026-${String(1 + Math.floor(i / 22)).padStart(2, '0')}-${String(1 + (i % 22)).padStart(2, '0')}`, 100 + i * 0.1, 101 + i * 0.1, 99 + i * 0.1, 100.5 + i * 0.1, 1000 + (i % 7) * 100]);
+    const svg = q.indiSvg(rows);
+    for (const k of ['20일선 ', '50일선 ', '200일선 ', '거래량 1', '50일 평균 ', '볼린저 폭 ', '점선 0.25', 'OBV ', '<polyline', '<rect']) assert.ok(svg.includes(k), `차트에 없음: ${k}`);
+    assert.ok((svg.match(/<polyline/g) || []).length >= 6, '이평선 3 + 거래량 평균 + 폭 + OBV 선');
+    assert.ok(!q.indiSvg(rows.slice(0, 100)).includes('200일선 —') === false || q.indiSvg(rows.slice(0, 100)).includes('200일선 —'), '봉이 모자라면 200일선 —');
+  });
+  q.openTicker('ZZNO'); ok('목록 밖 종목 팝업엔 하율 칸이 없다', () => assert.ok(!q.document.getElementById('mbox2').innerHTML.includes('하율 —')));
+  const e14 = loadRoom(''); e14.cards();
+  ok('자료가 없어도 카드·탭이 깨지지 않는다', () => { assert.ok(e14.document.getElementById('team').innerHTML.includes('하율')); assert.ok(e14.bodyFor('t14').includes('아직 확인 전') && e14.briefing('t14') === ''); });
+}
+
 console.log('\n[팝업] SNS 반응 — 레딧 정리·글 목록·X 검색 링크 (2026-10-28)');
 {
   const cs = loadRoom(`window.SNS_DATA = ${JSON.stringify({ items: { ZZSNS: { fetchedOn: '2026-10-28', mood: 'bear', summary: 'SNSSUM 요약', heat: 'SNSHEAT 과열',

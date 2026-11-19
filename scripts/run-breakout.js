@@ -874,7 +874,7 @@ async function main() {
       const watch6 = team6 ? team6.plans.filter((p) => p.watch).map((p) => p.ticker) : [];
       const od = readPrevWindow('ondemand.js', 'ONDEMAND_DATA');       // 7팀이 분석한 종목의 차트는 지우지 않는다
       const r = listsLib.writeOhlcFiles([...pool.map((q) => q.ticker), ...t4Pool.map((q) => q.ticker), ...watch6, ...activeTickers], barsOf,
-        path.join(paths.dashboardData, 'ohlc'), { dateOf: (t) => barDateET(t), keepTickers: ((od && od.items) || []).map((x) => x.ticker) });
+        path.join(paths.dashboardData, 'ohlc'), { dateOf: (t) => barDateET(t), keepTickers: [...((od && od.items) || []).map((x) => x.ticker), ...(((readPrevWindow('bbsqueeze.js', 'BBSQUEEZE_DATA') || {}).items) || []).map((x) => x.ticker)] });   // 14팀 하율 종목 차트도 남긴다
       say('SYSTEM', `팝업 차트 봉 ${r.written}종목 저장${r.pruned ? ` · 지난 종목 ${r.pruned}개 삭제` : ''}`);
     } catch (e) { say('WARN', `팝업 차트 봉 저장 실패: ${e.message}`); }
   }
