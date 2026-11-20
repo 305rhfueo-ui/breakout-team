@@ -45,12 +45,12 @@
   },
   "top2Streak": {
    "m1": 0,
-   "m3": 5,
+   "m3": 6,
    "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-11-19",
+  "fetchedAt": "2026-11-20",
   "nameKo": "옥타",
   "nameEn": "OKTA INC",
   "financials": {
@@ -120,6 +120,12 @@
   "news": {
    "items": [
     {
+     "title": "Is Okta (OKTA) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/okta-okta-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Okta vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
      "url": "https://www.nasdaq.com/articles/okta-vs-sentinelone-which-technology-stock-better-buy-2027",
      "date": "2026-11-18",
@@ -159,12 +165,6 @@
      "title": "Okta’s Real Opportunity Isn’t Its S&P 500 Spot. It’s AI Agents.",
      "url": "https://www.nasdaq.com/articles/oktas-real-opportunity-isnt-its-sp-500-spot-its-ai-agents",
      "date": "2026-11-11",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "Arista Networks vs. Okta: Which Technology Stock Is a Better Buy for 2027?",
-     "url": "https://www.nasdaq.com/articles/arista-networks-vs-okta-which-technology-stock-better-buy-2027",
-     "date": "2026-11-07",
      "publisher": "The Motley Fool"
     }
    ]
@@ -242,7 +242,7 @@
      "analyst": "김승혁",
      "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
      "summary": "- Okta는 기업용 Identity 보안 플랫폼, 벤더 중립성과 폭넓은 연동 생태계가 강점- 대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxeeem.pdf",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxeegc.pdf",
      "pages": "6"
     }
    ]
@@ -278,36 +278,36 @@
    "kind": "article"
   },
   {
-   "title": "Josh Brown's 'Best Stocks in the Market': Palantir, Okta and Hewlett Packard",
-   "url": "https://www.cnbc.com/video/2026/11/10/josh-browns-best-stocks-in-the-market-palantir-okta-and-hewlett-packard.html",
-   "date": "2026-11-10",
+   "title": "Cybersecurity stocks extend gains",
+   "url": "https://www.cnbc.com/video/2026/11/19/cybersecurity-stocks-extend-gains.html",
+   "date": "2026-11-19",
    "publisher": "CNBC",
    "kind": "video"
   },
   {
-   "title": "Josh Brown's 'Best Stocks in the Market': Okta",
-   "url": "https://www.cnbc.com/video/2026/10/29/josh-browns-best-stocks-in-the-market-okta.html",
-   "date": "2026-10-29",
+   "title": "Josh Brown's 'Best Stocks in the Market': Palantir, Okta and Hewlett Packard",
+   "url": "https://www.cnbc.com/video/2026/11/10/josh-browns-best-stocks-in-the-market-palantir-okta-and-hewlett-packard.html",
+   "date": "2026-11-10",
    "publisher": "CNBC",
    "kind": "video"
   }
  ],
  "kis": {
   "ticker": "OKTA",
-  "fetchedAt": "2026-11-19",
+  "fetchedAt": "2026-11-20",
   "source": "한국투자증권 Open API",
-  "per": 118.17,
-  "pbr": 4.9,
+  "per": 124.96,
+  "pbr": 5.19,
   "eps": 1.66,
   "bps": 39.89,
   "shares": 167140000,
-  "marketCapM": 32694,
+  "marketCapM": 34573,
   "high52": 235,
   "high52Date": "2026-10-12",
   "low52": 62.66,
   "low52Date": "2026-04-10",
-  "last": 195.61,
-  "prevClose": 174.54,
+  "last": 206.85,
+  "prevClose": 195.61,
   "nameKo": "옥타",
   "nameEn": "OKTA INC",
   "listedOn": "2017-04-04",

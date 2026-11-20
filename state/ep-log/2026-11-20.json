@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "ticker": "INSM",
+      "price": 144.4600067138672,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PDD",
+      "price": 86,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "FSV",
+      "price": 153,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PANW",
+      "price": 361.73,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "GIB",
+      "price": 78.25,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "MSA",
+      "price": 176.24000549316406,
+      "category": 3,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TM",
+      "price": 210.97000122070312,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ESTC",
+      "price": 76.33,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "P",
+      "price": 105.5,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "CPA",
+      "price": 140.69000244140625,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ITT",
+      "price": 206.25999450683594,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LPX",
+      "price": 73.4000015258789,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "AWI",
+      "price": 169.02999877929688,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "JAZZ",
+      "price": 236.4499969482422,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PM",
+      "price": 186.42999267578125,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VEEV",
+      "price": 262.92,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "RBCAA",
+      "price": 90.19999694824219,
+      "category": 5,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ITRI",
+      "price": 97.58999633789062,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VEON",
+      "price": 75.55999755859375,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SKY",
+      "price": 91.41999816894531,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "HALO",
+      "price": 93.04000091552734,
+      "category": 5,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "CHCO",
+      "price": 137.89999389648438,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "OKTA",
+      "price": 206.85,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ADUS",
+      "price": 121.06999969482422,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "VRSN",
+      "price": 306.45001220703125,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SPOT",
+      "price": 583.85,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "EL",
+      "price": 101.7699966430664,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+ "ticker": "HALO",
+ "news": [
+  {
+   "title": "HALO Rallies More Than 40% in 6 Months: How Should You Play the Stock?",
+   "url": "https://www.nasdaq.com/articles/halo-rallies-more-40-6-months-how-should-you-play-stock",
+   "date": "2026-11-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will HALO's Partner Royalties Drive Growth for the Rest of 2026?",
+   "url": "https://www.nasdaq.com/articles/will-halos-partner-royalties-drive-growth-rest-2026",
+   "date": "2026-11-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Halozyme Therapeutics (HALO) is an Incredible Growth Stock: 3 Reasons Why",
+   "url": "https://www.nasdaq.com/articles/halozyme-therapeutics-halo-incredible-growth-stock-3-reasons-why-0",
+   "date": "2026-11-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Medical Stocks Lagging  Halozyme Therapeutics (HALO) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-halozyme-therapeutics-halo-year",
+   "date": "2026-11-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HALO Q3 Earnings Call Highlights Royalty Growth and Patent Dispute",
+   "url": "https://www.nasdaq.com/articles/halo-q3-earnings-call-highlights-royalty-growth-and-patent-dispute",
+   "date": "2026-11-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Halozyme (HALO) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/halozyme-halo-q3-2026-earnings-call-transcript",
+   "date": "2026-11-06",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Halozyme Therapeutics (HALO) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-halozyme-therapeutics-halo-said-its-q3-earnings-call",
+   "date": "2026-11-06",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "HALO Stock Hits Over 3-Month Lows, As German Court Overturns Temporary Ban On Merck’s Keytruda SC",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/halo-stock-hits-over-3-163238178.html",
+   "date": "2026-11-19",
+   "publisher": "Stocktwits",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Therapeutics Says German Court Lifted Injunction on Merck's Keytruda SC",
+   "url": "https://finance.yahoo.com/healthcare/articles/halozyme-therapeutics-says-german-court-151306477.html",
+   "date": "2026-11-19",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Provides Update on German Preliminary Injunction Hearing",
+   "url": "https://finance.yahoo.com/healthcare/articles/halozyme-provides-german-preliminary-injunction-142000460.html",
+   "date": "2026-11-19",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Therapeutics Insider Sold Shares Worth $6,000,686, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/halozyme-therapeutics-insider-sold-shares-084501149.html",
+   "date": "2026-11-17",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Therapeutics (HALO) Stock Gets Fair Value Boost After Q3 Analyst Revisions",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/halozyme-therapeutics-halo-stock-gets-121349815.html",
+   "date": "2026-11-12",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Halozyme Therapeutics (HALO) Stock Looks In Line As ENHANZE Approval Lands",
+   "url": "https://finance.yahoo.com/healthcare/articles/halozyme-therapeutics-halo-stock-looks-111247755.html",
+   "date": "2026-11-12",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000143/halo-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-30",
+   "reportDate": "2026-09-28",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000128/halo-20260928.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-22",
+   "reportDate": "2026-09-22",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000119312526398015/d148460d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000126/halo-20260917.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-16",
+   "reportDate": "2026-09-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000121/halo-20260916.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-18",
+   "reportDate": "2026-08-14",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000106/halo-20260814.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 35.97,
+  "saleNy": 14.85,
+  "epsCy": 114.15,
+  "epsNy": 19.18,
+  "cyTrend": 3.62,
+  "nyTrend": 1.91,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    47.67,
+    42.23,
+    51.6
+   ],
+   "ni": [
+    39.21,
+    27.06,
+    -203.34
+   ],
+   "opm": [
+    59.8,
+    48.98,
+    -20.56
+   ],
+   "updated": "2026-09-09 07:25:34"
+  }
+ }
+}

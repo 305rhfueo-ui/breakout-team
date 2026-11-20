@@ -1,0 +1,638 @@
+{
+ "key": "Consumer Defensive|Household & Personal Products",
+ "sector": "Consumer Defensive",
+ "industry": "Household & Personal Products",
+ "industryKo": "생활용품",
+ "frank": 10,
+ "frank25dChg": 13,
+ "finalWrs": 0.2807,
+ "count": 9,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "ELF",
+   "rs1": 0.03166106879388109,
+   "rs3": 0.11062067923879666,
+   "rs6": 1.1661349837370456,
+   "rnk1": 60.73,
+   "rnk3": 28.27,
+   "rnk6": 0.32,
+   "ret1d": -4.25,
+   "high52": 88.47,
+   "dollarVolM": 107.4,
+   "marketCap": "6.44B",
+   "name": "엘프 뷰티"
+  },
+  {
+   "ticker": "IPAR",
+   "rs1": 0.22970463734619895,
+   "rs3": 0.23994481128530543,
+   "rs6": 0.5902504451395666,
+   "rnk1": 4.19,
+   "rnk3": 5.73,
+   "rnk6": 3.2,
+   "ret1d": -0.59,
+   "high52": 96.24,
+   "dollarVolM": 42.5,
+   "marketCap": "4.26B",
+   "name": "인터파퓸스"
+  },
+  {
+   "ticker": "PG",
+   "rs1": 0.10471991268599658,
+   "rs3": 0.2575472302371428,
+   "rs6": 0.3431275041880434,
+   "rnk1": 26.19,
+   "rnk3": 4.82,
+   "rnk6": 18.53,
+   "ret1d": -1.43,
+   "high52": 96.69,
+   "dollarVolM": 1526,
+   "marketCap": "389.04B",
+   "name": "프록터 앤드 갬블"
+  },
+  {
+   "ticker": "CLX",
+   "rs1": 0.28470820442378336,
+   "rs3": 0.11333550029709151,
+   "rs6": 0.3381880666103938,
+   "rnk1": 1.76,
+   "rnk3": 27.46,
+   "rnk6": 19.25,
+   "ret1d": -3.22,
+   "high52": 84.58,
+   "dollarVolM": 235.5,
+   "marketCap": "12.71B",
+   "name": "크로락스"
+  },
+  {
+   "ticker": "EL",
+   "rs1": 0.02912544761918945,
+   "rs3": 0.06427270326324264,
+   "rs6": 0.3228986483821178,
+   "rnk1": 62.17,
+   "rnk3": 41.79,
+   "rnk6": 20.96,
+   "ret1d": -2.18,
+   "high52": 84.54,
+   "dollarVolM": 521.2,
+   "marketCap": "36.87B",
+   "name": "에스티 로더"
+  },
+  {
+   "ticker": "CHD",
+   "rs1": 0.09467896802684025,
+   "rs3": 0.16154903168659684,
+   "rs6": 0.28727186548904327,
+   "rnk1": 30.88,
+   "rnk3": 15.19,
+   "rnk6": 24.93,
+   "ret1d": -1.95,
+   "high52": 94.99,
+   "dollarVolM": 192.9,
+   "marketCap": "25.89B",
+   "name": "처치 앤드 드와이트"
+  },
+  {
+   "ticker": "CL",
+   "rs1": 0.07912458675386512,
+   "rs3": 0.15066131340360733,
+   "rs6": 0.23780484528714446,
+   "rnk1": 38.37,
+   "rnk3": 18.53,
+   "rnk6": 32.78,
+   "ret1d": -1.99,
+   "high52": 95.16,
+   "dollarVolM": 618.5,
+   "marketCap": "77.01B",
+   "name": "콜게이트 팜올리브"
+  },
+  {
+   "ticker": "KMB",
+   "rs1": 0.021416131849255685,
+   "rs3": 0.05761372484088652,
+   "rs6": 0.2320375464943748,
+   "rnk1": 64.61,
+   "rnk3": 43.78,
+   "rnk6": 34.22,
+   "ret1d": -1.86,
+   "high52": 91.18,
+   "dollarVolM": 761.1,
+   "marketCap": "64.59B",
+   "name": "킴벌리클라크"
+  },
+  {
+   "ticker": "SPB",
+   "rs1": 0.020681215525141905,
+   "rs3": -0.054175335735984834,
+   "rs6": 0.1105929044191602,
+   "rnk1": 64.97,
+   "rnk3": 73.44,
+   "rnk6": 57.57,
+   "ret1d": -7.52,
+   "high52": 77,
+   "dollarVolM": 25.8,
+   "marketCap": "1.74B",
+   "name": "스펙트럼 브랜즈 홀딩스"
+  }
+ ],
+ "evidence": {
+  "ELF": {
+   "cnbc": [
+    {
+     "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+     "url": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+     "date": "2026-11-04",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "E.l.f. Beauty CFO Mandy Fields on how to build a foundation in cosmetics",
+     "url": "https://www.cnbc.com/2026/10/16/elf-beauty-cfo-mandy-fields-tariffs-marketing-makeup.html",
+     "date": "2026-10-16",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Why brands like E.l.f., Wendy's and Gap are branching out into original music",
+     "url": "https://www.cnbc.com/2026/10/04/elf-wendys-gap-music-marketing.html",
+     "date": "2026-10-04",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Google's AI shake-up, tariff refunds and more: Morning Squawk",
+     "url": "https://www.cnbc.com/2026/08/06/5-things-to-know-before-the-stock-market-opens.html",
+     "date": "2026-08-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Sandisk, Western Digital & more",
+     "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-after-hours-sndk-wdc-elf-app.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
+     "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+     "broker": "신한투자증권",
+     "analyst": "박현진, 권채윤",
+     "date": "2026-11-06",
+     "summary": "- 연간 가이던스 상향, 본업 상황 좋아!- FY27 2Q Review: 호실적, 점유율 상승 + 비용 발생 이연- Valuation & Risk: 현금 창출력 개선 중",
+     "url": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Is It Worth Investing in e.l.f. Beauty (ELF) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-elf-beauty-elf-based-wall-streets-bullish-views",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "e.l.f. Beauty (ELF) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/elf-beauty-elf-q2-2027-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "IPAR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "International Markets and Interparfums (IPAR): A Deep Dive for Investors",
+     "url": "https://www.nasdaq.com/articles/international-markets-and-interparfums-ipar-deep-dive-investors",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Interparfums (IPAR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-interparfums-ipar-said-its-q3-earnings-call",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Interparfums (IPAR) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/interparfums-ipar-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "PG": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: P&G, Southwest, TTM Technologies & more",
+     "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-midday-pg-lrcx-bx-luv-ttmi-.html",
+     "date": "2026-10-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+     "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
+     "date": "2026-10-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Earnings Playbook: Meta, General Motors and more reporting this week",
+     "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html",
+     "date": "2026-10-18",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Alphabet, AMD, Lennar, P&G and more",
+     "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "This household goods stock has lagged the market. Evercore ISI sees a comeback",
+     "url": "https://www.cnbc.com/2026/10/06/this-household-goods-stock-has-lagged-the-broader-market-evercore-isi-sees-a-comeback.html",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Opportunities beyond the AI trade",
+     "url": "https://www.cnbc.com/video/2026/11/13/opportunities-beyond-the-ai-trade.html",
+     "date": "2026-11-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 최대 40억 달러 회사채(노트) 발행 신고서 제출 - 기존 채무 상환인지 주주환원 재원인지 아직 미확인",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-27",
+     "summary": "- 최대 40억달러 4트랜치 노트 발행 신고, 용도 미확인- 직전 1분기 실적 예측은 미스(score 0.2)로 평가- FCF 생산성 93%·주주환원 39억달러로 현금 여력 양호",
+     "url": "https://rreport.einfomax.co.kr/report/eqmiczmezxilxzxgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Review] 주당순이익 6.2% 상회, 물량 주도 성장 전환, 투자의견 매수 상향",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-22",
+     "summary": "- 유기적 +4%, 11개 분기 감속 궤적에서 이탈- 코어 EPS 2.00달러로 컨센 6.2% 상회- 원가 역풍 주당 0.79달러 확대, 마진 -80bp",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgqekleilzzllgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Preview] 연간 유기 성장률 1~3% 가이던스 유지 여부, 투자의견 중립 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-13",
+     "summary": "- 프록터 앤 갬블은 10 월 22 일에 2027 회계연도 1 분기 실적을 내놓는다. 타이드, 팬틴, 질레트, SK-II 를 거느린 세계 최대 생활용품 회사다. 이번 분기가 특별한 이유는 하나다. 회사가 직전 실적 발표에서 1 분기 코어 주당순이익이 전년 대비 5% 이상 줄어들 수 있다고 미리 알렸기 때문이다. 전년 동기 코어 주당순이익은 1.99 달러였다. 즉 시장은 좋은 숫자를 기대하는 게 아니라, 예고된 역성장이 얼마나 깊은지를 확인하려 모여 있다.- 팩트셋에 집계된 시장 평균 전망(컨센서스)은 주당순이익 1.43 달러, 매출 212.0 억 달러다. 우리 하우스가 7 월에 제시한 예상 범위는 주당순이익 1.85~1.95 달러, 매출 212.0~220.0 억 달러였다. 매출 눈높이는 거의 겹치지만 이익 쪽은 시장이 우리보다 훨씬 보수적으로 잡고 있다. 구조조정 잔여 비용과 회계 기준 차이가 섞인 결과로 보이지만, 그만큼 이익 기대치의 하방 완충이 두껍다는 뜻도 된다. 원자재·에너지·물류 부담이 연간 10 억 달러 규모로 예고된 만큼, 이 중 얼마가 1 분기에 몰렸는지가 숫자의 위치를 가른다.",
+     "url": "https://rreport.einfomax.co.kr/report/eqmelkliqkixikxgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "PG Raises Sales Outlook as Thorne Acquisition Adds Growth Potential",
+     "url": "https://www.nasdaq.com/articles/pg-raises-sales-outlook-thorne-acquisition-adds-growth-potential",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is PG Worth Buying as Growth Improves but Its Valuation Stays Rich?",
+     "url": "https://www.nasdaq.com/articles/pg-worth-buying-growth-improves-its-valuation-stays-rich",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PG Jumps 17.4% in Three Months as Investors Weigh What Comes Next",
+     "url": "https://www.nasdaq.com/articles/pg-jumps-174-three-months-investors-weigh-what-comes-next",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can PG's Health Care Segment Extend Its Sales Momentum Ahead?",
+     "url": "https://www.nasdaq.com/articles/can-pgs-health-care-segment-extend-its-sales-momentum-ahead",
+     "date": "2026-11-17",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CLX": {
+   "cnbc": [
+    {
+     "title": "Final Trades: Take-Two Interactive Software, Amazon and Clorox",
+     "url": "https://www.cnbc.com/video/2026/11/06/final-trades-take-two-interactive-amazon-clorox.html",
+     "date": "2026-11-06",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Monday 11/9 Insider Buying Report: CVS, CLX",
+     "url": "https://www.nasdaq.com/articles/monday-11-9-insider-buying-report-cvs-clx",
+     "date": "2026-11-09",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Bullish Two Hundred Day Moving Average Cross - CLX",
+     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-clx",
+     "date": "2026-11-04",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "CLX Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/clx-crosses-above-average-analyst-target",
+     "date": "2026-11-04",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "CLX Q1 Earnings Call Highlights Inflation and Margin Pressures",
+     "url": "https://www.nasdaq.com/articles/clx-q1-earnings-call-highlights-inflation-and-margin-pressures",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Clorox (CLX) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/clorox-clx-q1-2027-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "EL": {
+   "cnbc": [
+    {
+     "title": "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
+     "url": "https://www.cnbc.com/investingclub/2026/10/05/cramer-is-closely-watching-nvidias-buyback-heres-what-he-wants-to-see.html",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Watch CNBC’s extended interview with Estée Lauder CEO Stéphane de La Faverie",
+     "url": "https://www.cnbc.com/video/2026/11/13/interview-with-este-lauder-ceo-stphane-de-la-faverie.html",
+     "date": "2026-11-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Watch CNBC's full interview with Estée Lauder CEO Stéphane de La Faverie",
+     "url": "https://www.cnbc.com/video/2026/11/13/watch-cnbcs-full-interview-with-estae-lauder-ceo-staphane-de-la-faverie.html",
+     "date": "2026-11-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Estée Lauder CEO Stéphane de La Faverie: The resilience of the beauty consumer is very strong",
+     "url": "https://www.cnbc.com/video/2026/11/13/este-lauder-ceo-stphane-de-la-faverie-the-resilience-of-the-beauty-consumer-is-very-strong.html",
+     "date": "2026-11-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Monday, November 2, 2026: Cramer expects a brief dip before this consumer stock reaches new highs",
+     "url": "https://www.cnbc.com/investingclub/video/2026/11/02/monday-november-2-2026-cramers-expects-a-brief-dip-before-this-consumer-stock-reaches-new-highs.html",
+     "date": "2026-11-02",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Final Trade: GS, EL, IGV, NOC",
+     "url": "https://www.cnbc.com/video/2026/10/26/final-trade-gs-el-igv-noc.html",
+     "date": "2026-10-26",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+     "broker": "신한투자증권",
+     "analyst": "박현진, 권채윤",
+     "date": "2026-11-06",
+     "summary": "- 연간 가이던스 상향, 본업 상황 좋아!- FY27 2Q Review: 호실적, 점유율 상승 + 비용 발생 이연- Valuation & Risk: 현금 창출력 개선 중",
+     "url": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Investing in Estee Lauder (EL)? Don't Miss Assessing Its International Revenue Trends",
+     "url": "https://www.nasdaq.com/articles/investing-estee-lauder-el-dont-miss-assessing-its-international-revenue-trends",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "COTY or EL: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/coty-or-el-which-better-value-stock-right-now",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Estée Lauder (EL) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/estee-lauder-el-q1-2027-earnings-call-transcript",
+     "date": "2026-11-02",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "CHD": {
+   "cnbc": [
+    {
+     "title": "Bank of America says these stocks have upside heading into September",
+     "url": "https://www.cnbc.com/2026/08/29/bank-of-america-says-these-stocks-have-upside-heading-into-september.html",
+     "date": "2026-08-29",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Church & Dwight is an attractive, low beta, consumer staples standout, Katie Stockton says",
+     "url": "https://www.cnbc.com/2026/08/03/church-dwight-is-an-attractive-low-beta-consumer-staples-standout-katie-stockton-says.html",
+     "date": "2026-08-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "CHD's E-Commerce Sales Surge 20%: Is Digital Its Growth Engine?",
+     "url": "https://www.nasdaq.com/articles/chds-e-commerce-sales-surge-20-digital-its-growth-engine",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Church & Dwight (CHD) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/church-dwight-chd-q3-2026-earnings-call-transcript",
+     "date": "2026-10-31",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "CL": {
+   "cnbc": [
+    {
+     "title": "Morgan Stanley says buy these quality stocks. They also pay dividends",
+     "url": "https://www.cnbc.com/2026/07/28/morgan-stanley-says-buy-these-quality-stocks-they-also-pay-dividends.html",
+     "date": "2026-07-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[셀레스티카 (NYS:CLS)] 낮아진 눈높이 위의 반등",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "date": "2026-10-28",
+     "summary": "- 3Q26 전 부문 서프라이즈 및 컨센서스 웃도는 2027년 $40B 제시- 1.6T·커스텀 ASIC 양산 본격화, ROIC 65%로 자본 부담 상쇄- 피크아웃 우려 선반영된 P/E 15배, 빅테크 CapEx 확인이 관건",
+     "url": "https://rreport.einfomax.co.kr/report/eqmielcciiiexicgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[셀레스티카 (NYS:CLS)] 실적과 수주가 입증하는 구조적 도약",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "date": "2026-09-18",
+     "summary": "- 초고속 스위치와 AI 서버 JDM 경쟁력으로 2Q26 사상 최대 실적 달성- 대규모 유상증자로 촉발된 단기 멀티플 압축과 피크아웃 우려는 과도- 장기 구매 확약과 신규 스케일업 이더넷 진출로 2027년 성장 가속화",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmmkiimllgcezgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[셀레스티카 (NYS:CLS)] Networking, ASIC에서 Rack-Scale ODM으로",
+     "broker": "유안타증권",
+     "analyst": "황병준",
+     "date": "2026-08-24",
+     "summary": "- Celestica(CLS)는 클라우드 서비스 업체 대상 네트워킹 스위치, 광 시스템, 서버 및 스토리 지 장치를 결합한 Rack-Scale 통합 플랫폼을 제공하는 ODM 업체. 기존 Google, Meta향 400/800G Switching 및 가속기 ASIC 공급 업체(Networking)에서 AMD와 Rack-Scale AI 플랫폼 Helios 개발, 10GW 규모 OpenAI-Broadcom향 맞춤형 Rack Jalapeno, Anthropic향 2GW 수주 등 Rack-Scale AI 플랫폼 제공업체(Compute)로 사업 범위 확장- 킹 스위치 양산, 2) 26.2H OpenAI/Braodcom Custom Rack System 초기 납품, AMD Helios Scale-Up 스위치 개발. 올해 초부터 본격화하는 $10억 규모 텍사스/태국 생산 시 설 증설과 Capa 전환. 한편, 최근 주가 하방 압력 요소로 Upstream 공급 차질. ASIC, Memory, PCB, 전력 및 광학 부품 전반의 공급 차질을 언급",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqzikczlzxikcgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "BJ or CL: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/bj-or-cl-which-better-value-stock-right-now",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "KMB": {
+   "cnbc": [
+    {
+     "title": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
+     "url": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html",
+     "date": "2026-11-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "We're making 3 trades to adjust our consumer exposure after an analyst downgrade",
+     "url": "https://www.cnbc.com/investingclub/2026/11/13/were-making-3-trades-to-adjust-our-consumer-exposure-after-downgrade.html",
+     "date": "2026-11-13",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
+     "url": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
+     "date": "2026-11-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Kimberly-Clark closes its big acquisition of Kenvue. What to expect next",
+     "url": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html",
+     "date": "2026-11-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Friday, November 13, 2026: Cramer says this tech stock is best positioned to capitalize on AI agents and CPUs",
+     "url": "https://www.cnbc.com/investingclub/video/2026/11/13/friday-november-13-2026-cramer-says-this-tech-stock-is-best-positioned-to-capitalize-on-ai-agents-and-cpus.html",
+     "date": "2026-11-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Wednesday, November 4th, 2026: Cramer calls this home improvement retailer 'the No. 1 stock'",
+     "url": "https://www.cnbc.com/investingclub/video/2026/11/04/wednesday-november-4th-2026-cramer-calls-this-home-improvement-retailer-the-no-1-stock.html",
+     "date": "2026-11-04",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "KMB's Kenvue Deal: Could $2.1 Billion in Synergies Lift Earnings?",
+     "url": "https://www.nasdaq.com/articles/kmbs-kenvue-deal-could-21-billion-synergies-lift-earnings",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is KMB Worth Buying as Low Valuation Meets Kenvue Integration Risk?",
+     "url": "https://www.nasdaq.com/articles/kmb-worth-buying-low-valuation-meets-kenvue-integration-risk",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "SPB": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "SPB Crosses Below Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/spb-crosses-below-key-moving-average-level",
+     "date": "2026-11-17",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "What Spectrum Brands (SPB) Said on Its Q4 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-spectrum-brands-spb-said-its-q4-earnings-call",
+     "date": "2026-11-13",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Spectrum Brands (SPB) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/spectrum-brands-spb-q4-2026-earnings-call-transcript",
+     "date": "2026-11-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Spectrum (SPB) Q4 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-spectrum-spb-q4-earnings-look-key-metrics",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Spectrum Brands (SPB) Surpasses Q4 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/spectrum-brands-spb-surpasses-q4-earnings-estimates",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

@@ -1,0 +1,601 @@
+{
+ "ticker": "INBX",
+ "date": "2026-11-20",
+ "session": "2026-11-19",
+ "source": "list",
+ "plan": {
+  "ticker": "INBX",
+  "name": "인히브릭스 바이오사이언시스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 74.33,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 107.9,
+  "stop": 100.38,
+  "distToPivotPct": -31.11,
+  "distToPivotAdr": -3.08,
+  "riskPerSharePct": 6.97,
+  "adrPct": 10.11,
+  "extensionAdr": -1.07,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 38.1,
+   "priorMovePct": 39.2,
+   "higherLows": 0,
+   "contraction": 0.75,
+   "closeRange10Adr": 3,
+   "surf10": -1.07,
+   "surf20": -1.02,
+   "slope20": -5.29,
+   "baseLow": 66.8,
+   "lastSwingLow": 66.8
+  },
+  "reasons": [
+   "선행 상승 +39%",
+   "베이스 8주",
+   "✗ 깊이 38.1%",
+   "✗ 저점 상승 0회",
+   "진폭 0.75배 · 10일 종가폭 3 ADR",
+   "✗ 10일선 -1.1 ADR · 20일선 -1 ADR",
+   "✗ 20일선 기울기 -5.29%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.1501392169051945,
+    "pct": 5.27502254283138
+   },
+   "m3": {
+    "v": -0.31467521943247184,
+    "pct": 2.660054102795311
+   },
+   "m6": {
+    "v": -0.12170520379963393,
+    "pct": 14.562669071235348
+   }
+  },
+  "ret1m": -23.45,
+  "ret3m": -40.7,
+  "ret6m": -25.14,
+  "marketCap": "1.10B",
+  "volx": 1.21,
+  "volSurgeWk": 1.56,
+  "high52": 47.87,
+  "newHigh52": false,
+  "adr": 10.11,
+  "div50": -19.19,
+  "div200": -19.68,
+  "targetStatus": false,
+  "saleCy": 53.85,
+  "saleNy": 1541.55,
+  "epsCy": 2.99,
+  "epsNy": -9.61,
+  "cyTrend": 0.59,
+  "nyTrend": -3.94,
+  "est": {
+   "cyCur": -9.31,
+   "cy30": -9.255,
+   "nyCur": -8.415,
+   "ny30": -8.76
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:20:46"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "인히브릭스 바이오사이언시스",
+  "nameEn": "INHIBRX BIOSCIENCES  INC.",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002007919&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2000000,
+     "profit": -31735000,
+     "netIncome": -38733000,
+     "margin": -1586.7,
+     "yoy": {
+      "revenue": null,
+      "profit": 6.1,
+      "netIncome": -9.9,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -32149000,
+     "netIncome": -36650000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -17.4,
+      "netIncome": -27.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -30923000,
+     "netIncome": -32834000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": 38.1,
+      "netIncome": 31.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -33812000,
+     "netIncome": -35256000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": 27.7,
+      "netIncome": 19.6,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-17",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000063/inhibrx-20261117.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-13",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000057/inhibrx-20261113.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000050/inhibrx-20260928.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000047/inhibrx-20260908.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000044/inhibrx-20260813.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-16",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000037/inhibrx-20260715.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "INBX",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 8.37,
+  "pbr": 0,
+  "eps": 8.88,
+  "bps": 0,
+  "shares": 14769076,
+  "marketCapM": 1098,
+  "high52": 155.29,
+  "high52Date": "2026-04-22",
+  "low52": 57.3,
+  "low52Date": "2026-03-27",
+  "last": 74.33,
+  "prevClose": 69.06,
+  "nameKo": "인히브릭스 바이오사이언시스",
+  "nameEn": "INHIBRX BIOSCIENCES  INC.",
+  "listedOn": "2020-08-18",
+  "exchange": "나스닥",
+  "listedShares": 14769076
+ },
+ "estimates": {
+  "ticker": "INBX",
+  "url": "https://finance.yahoo.com/quote/INBX/analysis/",
+  "fetchedAt": "2026-11-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -2.36,
+    "epsLow": -2.45,
+    "epsHigh": -2.27,
+    "epsYearAgo": -2.11,
+    "epsAnalysts": 2,
+    "epsGrowth": -11.8,
+    "epsCur": "USD",
+    "rev": 0,
+    "revAnalysts": 3,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": -2.33,
+    "epsLow": -2.44,
+    "epsHigh": -2.23,
+    "epsYearAgo": -2.15,
+    "epsAnalysts": 2,
+    "epsGrowth": -8.6,
+    "epsCur": "USD",
+    "rev": 1195000,
+    "revAnalysts": 2,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -9.31,
+    "epsLow": -9.4,
+    "epsHigh": -9.22,
+    "epsYearAgo": -9.04,
+    "epsAnalysts": 2,
+    "epsGrowth": -3,
+    "epsCur": "USD",
+    "rev": 2000000,
+    "revAnalysts": 3,
+    "revYearAgo": 1300000,
+    "revGrowth": 53.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -8.41,
+    "epsLow": -8.81,
+    "epsHigh": -8.02,
+    "epsYearAgo": -9.31,
+    "epsAnalysts": 2,
+    "epsGrowth": 9.6,
+    "epsCur": "USD",
+    "rev": 32831000,
+    "revAnalysts": 2,
+    "revYearAgo": 2000000,
+    "revGrowth": "n/m",
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -2.36,
+    "d7": 2.3,
+    "d30": 2.3,
+    "d90": 3.7,
+    "ago90": -2.45,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": -2.33,
+    "d7": 1.5,
+    "d30": 1.5,
+    "d90": -27.6,
+    "ago90": -1.83,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -9.31,
+    "d7": -0.6,
+    "d30": -0.6,
+    "d90": -0.5,
+    "ago90": -9.26,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -8.41,
+    "d7": 3.9,
+    "d30": 3.9,
+    "d90": -33.6,
+    "ago90": -6.3,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -2.46,
+    "estimate": -2.35,
+    "surprisePct": -4.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -2.34,
+    "estimate": -2.28,
+    "surprisePct": -2.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -2.15,
+    "estimate": -1.2,
+    "surprisePct": -79.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -2.11,
+    "estimate": -2.08,
+    "surprisePct": -1.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 0,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 0,
+   "ptLowered": 1,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-11-16",
+     "firm": "HC Wainwright & Co.",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 220,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "HC Wainwright & Co.",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 245,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-13",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-19",
+  "numbers": {
+   "price": 74.33,
+   "ma20": 82.02,
+   "ma50": 91.98,
+   "ma150": 98.89,
+   "distMA50": -19.19,
+   "periodHigh": 155.29,
+   "pullbackFromHigh": -52.13,
+   "volRatio20": 1.3,
+   "dryUpRatio": 0.95
+  },
+  "last10": [
+   {
+    "d": "2026-11-06",
+    "o": 80.68,
+    "h": 85.58,
+    "l": 79.47,
+    "c": 84.52,
+    "v": 220100,
+    "clsPos": 83,
+    "gapPct": 0.5
+   },
+   {
+    "d": "2026-11-09",
+    "o": 86.39,
+    "h": 93.45,
+    "l": 84.82,
+    "c": 91.74,
+    "v": 185700,
+    "clsPos": 80,
+    "gapPct": 2.21
+   },
+   {
+    "d": "2026-11-10",
+    "o": 90.31,
+    "h": 92.89,
+    "l": 89.99,
+    "c": 90.61,
+    "v": 100300,
+    "clsPos": 21,
+    "gapPct": -1.56
+   },
+   {
+    "d": "2026-11-11",
+    "o": 92.38,
+    "h": 93.48,
+    "l": 89.3,
+    "c": 90.59,
+    "v": 165600,
+    "clsPos": 31,
+    "gapPct": 1.95
+   },
+   {
+    "d": "2026-11-12",
+    "o": 88.56,
+    "h": 91.13,
+    "l": 86,
+    "c": 87.75,
+    "v": 226500,
+    "clsPos": 34,
+    "gapPct": -2.24
+   },
+   {
+    "d": "2026-11-13",
+    "o": 87.91,
+    "h": 87.91,
+    "l": 80.68,
+    "c": 83.3,
+    "v": 245900,
+    "clsPos": 36,
+    "gapPct": 0.19
+   },
+   {
+    "d": "2026-11-16",
+    "o": 80.28,
+    "h": 84.71,
+    "l": 76.5,
+    "c": 77.66,
+    "v": 286000,
+    "clsPos": 14,
+    "gapPct": -3.63
+   },
+   {
+    "d": "2026-11-17",
+    "o": 78.21,
+    "h": 78.21,
+    "l": 72.83,
+    "c": 74.18,
+    "v": 300100,
+    "clsPos": 25,
+    "gapPct": 0.71
+   },
+   {
+    "d": "2026-11-18",
+    "o": 74.21,
+    "h": 75.42,
+    "l": 68.27,
+    "c": 69.06,
+    "v": 288900,
+    "clsPos": 11,
+    "gapPct": 0.04
+   },
+   {
+    "d": "2026-11-19",
+    "o": 70.19,
+    "h": 80.65,
+    "l": 69.49,
+    "c": 74.33,
+    "v": 420894,
+    "clsPos": 43,
+    "gapPct": 1.64
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/INBX-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/INBX-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 23일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

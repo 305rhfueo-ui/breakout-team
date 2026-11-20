@@ -1,0 +1,261 @@
+{
+ "ticker": "ALGT",
+ "sector": "Industrials",
+ "industry": "Airlines",
+ "nameKo": "얼리전트 트래블",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 45.71,
+  "saleNy": 19.57,
+  "epsCy": 74.5,
+  "epsNy": 61.35,
+  "est": {
+   "cyCur": 6.63114,
+   "cy30": 5.50467,
+   "nyCur": 10.69929,
+   "ny30": 9.84593
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    36.86,
+    4.77,
+    4.54
+   ],
+   "ni": [
+    "적자축소",
+    34.01,
+    "흑자전환"
+   ],
+   "opm": [
+    2.24,
+    11.07,
+    10.19
+   ],
+   "updated": "2026-09-07 07:19:51"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-09",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 9,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "얼리전트 트래블",
+  "nameEn": "ALLEGIANT TRAVEL COMPANY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001362468&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 822491000,
+     "profit": 21114000,
+     "netIncome": -4860000,
+     "margin": 2.6,
+     "yoy": {
+      "revenue": 33.1,
+      "profit": 131.3,
+      "netIncome": 92.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 671799000,
+     "profit": 81104000,
+     "netIncome": 42478000,
+     "margin": 12.1,
+     "yoy": {
+      "revenue": 8.9,
+      "profit": 24.8,
+      "netIncome": 32.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 595546000,
+     "profit": 66843000,
+     "netIncome": 31938000,
+     "margin": 11.2,
+     "yoy": {
+      "revenue": 7.6,
+      "profit": 125.3,
+      "netIncome": 114.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 494144000,
+     "profit": -27190000,
+     "netIncome": -43574000,
+     "margin": -5.5,
+     "yoy": {
+      "revenue": 1.1,
+      "profit": -3.2,
+      "netIncome": -18.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Allegiant Travel (ALGT) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-allegiant-travel-algt-top-momentum-stock-long-term",
+     "date": "2026-11-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Allegiant Travel Extends Bank of America Credit Card Partnership",
+     "url": "https://www.nasdaq.com/articles/allegiant-travel-extends-bank-america-credit-card-partnership",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Allegiant Travel (ALGT) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-allegiant-travel-algt-strong-growth-stock",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "How Should Investors Approach Allegiant Stock Post Q3 Earnings?",
+     "url": "https://www.nasdaq.com/articles/how-should-investors-approach-allegiant-stock-post-q3-earnings",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ALGT Shares Rise 12.8% Since Third-Quarter 2026 Earnings Release",
+     "url": "https://www.nasdaq.com/articles/algt-shares-rise-128-third-quarter-2026-earnings-release",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Allegiant (ALGT) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/allegiant-algt-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Allegiant Travel (ALGT) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-allegiant-travel-algt-said-its-q3-earnings-call",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Allegiant Travel Company Reports Third Quarter 2026 Financial Results",
+     "url": "https://www.nasdaq.com/articles/allegiant-travel-company-reports-third-quarter-2026-financial-results",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000062/algt-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000060/algt-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000058/algt-20261023.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000056/algt-20261019.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000053/algt-20261013.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000047/algt-20260804.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "ALGT",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 69,
+  "pbr": 1.49,
+  "eps": 1.41,
+  "bps": 65.01,
+  "shares": 27307500,
+  "marketCapM": 2651,
+  "high52": 123.63,
+  "high52Date": "2026-07-02",
+  "low52": 61.36,
+  "low52Date": "2025-11-20",
+  "last": 97.07,
+  "prevClose": 95.4,
+  "nameKo": "얼리전트 트래블",
+  "nameEn": "ALLEGIANT TRAVEL COMPANY",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 27307500
+ }
+}

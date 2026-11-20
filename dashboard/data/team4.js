@@ -49,9 +49,73 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:31:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "INSM",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Market Chatter: Sanofi Said to Consider Takeover of Insmed",
+                "publisher": "MT Newswires (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/healthcare/articles/market-chatter-sanofi-said-consider-152103735.html",
+                "date": "2026-11-19",
+                "quote": "Sanofi (SNY) is mulling an acquisition of US drugmaker Insmed (INSM), Bloomberg reported Thursday.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "블룸버그 보도로 사노피가 Insmed 인수를 검토 중이라는 소식이 나왔고, 당일 주가가 약 20% 올랐다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "Insmed는 11월 17일 주력 신약 BRINSUPRI의 최대 매출 70억 달러 전망과 내년 현금흐름 흑자 기대를 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insmed Sees BRINSUPRI Reaching $7 Billion in Peak Sales, Expects Cash-Flow Positive Year Ahead",
+                "publisher": "MarketBeat (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/insmed-sees-brinsupri-reaching-7-billion-peak-sales-expects-cash-flow-positive-year-ahead",
+                "date": "2026-11-17",
+                "quote": "Insmed Sees BRINSUPRI Reaching $7 Billion in Peak Sales, Expects Cash-Flow Positive Year Ahead",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "3분기 매출은 5억 2,440만 달러로 1년 전보다 크게 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insmed Incorporated Reports Third-Quarter 2026 Revenues of $524.4 Million",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/insmed-incorporated-reports-third-quarter-2026-revenues-5244-million",
+                "date": "2026-10-29",
+                "quote": "Insmed Incorporated Reports Third-Quarter 2026 Revenues of $524.4 Million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Insmed는 희귀 폐질환 치료제를 개발·판매하는 바이오 기업으로, 신약 BRINSUPRI 매출이 빠르게 늘고 있다.",
+        "volumeExplanation": "11월 19일 블룸버그가 사노피의 인수 검토를 보도하자 주가가 약 20% 뛰며 거래량이 평소의 4배 넘게 늘었다. 앞서 신약 최대 매출 70억 달러 전망과 3분기 매출 급증이 인수 기대의 배경이 됐고, 사노피가 실제 제안을 내는지가 확인 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -132,9 +196,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:44:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PDD",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 19일 3분기 실적을 발표했고, 순이익은 시장 예상을 넘었지만 매출은 예상에 못 미쳤다. 발표 당일 주가가 약 8% 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PDD Holdings shares jump 8% as earnings beat estimates despite revenue miss",
+                "publisher": "Proactive (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-shares-jump-8-143400793.html",
+                "date": "2026-11-19",
+                "quote": "PDD Holdings shares jump 8% as earnings beat estimates despite revenue miss",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "증권사 예상 이익 평균을 웃돌아 이익 서프라이즈로 소개됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PDD Holdings Inc. Sponsored ADR (PDD) Surpasses Q3 Earnings Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/pdd-holdings-inc-sponsored-adr-pdd-surpasses-q3-earnings-estimates",
+                "date": "2026-11-19",
+                "quote": "PDD Holdings Inc. Sponsored ADR (PDD) Surpasses Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "PDD는 중국 전자상거래 업체로, 핀둬둬 앱과 해외 쇼핑 앱 Temu를 운영하며 광고·판매 수수료로 돈을 번다.",
+        "volumeExplanation": "11월 19일 3분기 실적 발표에서 이익이 예상을 넘어 주가가 약 8% 뛰었고, 이 때문에 거래량이 평소의 3.7배로 늘었다. 매출은 예상에 못 미쳤으니, 다음 분기에도 이익 개선이 이어지는지가 이 이야기의 맞고 틀림을 가른다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -243,9 +353,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:20:37"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FSV",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "FirstService는 북미에서 아파트·콘도 관리(주거 부동산 관리)와 화재·수해 복구 등 건물 서비스를 제공해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -764,9 +894,82 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:24:54"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PANW",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "회계연도 1분기(8~10월) 매출이 증권사 예상치(컨센서스)를 4.2% 웃돌았고, 매출 증가율이 세 분기 연속 높아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[27Q1 Review] 차세대 보안 ARR 66% 증가에 연간 가이던스 전 항목 상향, 투자의견 매수 상향",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzeggikkclklxgcgxeegc.pdf",
+                "date": "2026-11-18",
+                "quote": "실적: 매출 34.5억달러로 컨센서스 4.2% 상회, 성장률 세 분기 연속 상승",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 올해(FY27) 전망 전 항목을 올렸다. 차세대 보안 연간 반복매출(ARR)이 66% 늘었고, 대신증권은 투자의견을 중립에서 매수로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[27Q1 Review] 차세대 보안 ARR 66% 증가에 연간 가이던스 전 항목 상향, 투자의견 매수 상향",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzeggikkclklxgcgxeegc.pdf",
+                "date": "2026-11-18",
+                "quote": "사업과 가이던스: 차세대 보안 ARR 97.3억달러로 66% 증가, FY27 전 항목 상향",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "AI로 인한 보안 취약점 대응 수요가 본업 성장을 이끌었고, 45억 달러 규모 AI 관련 거래도 실적 발표에서 함께 다뤄졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[팔로 알토 네트웍스 (NAS:PANW)] AI는 AI로 막는다",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzegxgczgzgxegcgxeegc.pdf",
+                "date": "2026-11-19",
+                "quote": "FY1Q27 실적은 AI발 취약점 대응 수요로 본업이 성장하며 가이던스를 상회",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "PANW Q1 Earnings Call Highlights $4.5 Billion AI Deal and Outlook",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/panw-q1-earnings-call-highlights-45-billion-ai-deal-and-outlook",
+                "date": "2026-11-19",
+                "quote": "PANW Q1 Earnings Call Highlights $4.5 Billion AI Deal and Outlook",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Palo Alto Networks는 기업용 방화벽, 클라우드 보안, 보안 운영 소프트웨어를 구독 형태로 팔아 돈을 버는 사이버 보안 회사다.",
+        "volumeExplanation": "11월 17일 발표한 회계연도 1분기 실적이 예상치를 넘고 올해 전망 전 항목이 상향돼 거래량이 평소의 2.7배로 늘었다. AI발 취약점 대응 수요와 45억 달러 AI 거래가 성장 기대를 키웠고 투자의견 상향도 이어졌다. 전망치 상향 폭이 이어지는지는 다음 분기 ARR 증가율이 유지되는지로 확인된다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c4"
+          ],
+          "reason": "c4: Motley Fool 기사가 '선행 PER 할증폭 감소'를 다루지 않음. 대신증권 보고서에도 PER 할증폭이 명시 안 됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -840,9 +1043,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:15:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GIB",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "CGI(GIB)는 캐나다 기반 IT 서비스 회사로, 기업·정부의 시스템 구축과 운영 대행, 컨설팅으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1351,9 +1574,39 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:47:27"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MSA",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 18일 MSA Safety가 몬트리올 광역 소방서들로부터 공기호흡기(SCBA) 공급 계약을 따냈다고 발표했다. 계약 금액은 확인되지 않아 실적에 미칠 영향은 알 수 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MSA Safety Wins Breathing Apparatus Contract From Greater Montreal Fire Depts",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/msa-safety-wins-breathing-apparatus-contract-greater-montreal-fire-depts",
+                "date": "2026-11-18",
+                "quote": "MSA Safety Wins Breathing Apparatus Contract From Greater Montreal Fire Depts",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "MSA Safety는 소방관용 공기호흡기, 가스 감지기, 안전모 등 산업·소방 안전장비를 만들어 파는 회사다.",
+        "volumeExplanation": "11월 18일 몬트리올 광역 소방서의 호흡장비 공급 계약 발표가 있었고, 이후 거래량이 평소의 2배 넘게 늘었다. 다만 계약 규모가 알려지지 않았고 실적 발표(11월 2일)와는 시차가 있어 이 계약이 주된 원인이라고 단정하기 어렵다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장이 출처로 적절히 뒷받침됨"
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1950,9 +2203,35 @@ window.TEAM4_DATA = {
         "updated": "2026-09-19 05:47:34"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "도요타자동차는 렉서스 등 자동차를 만들어 파는 일본 최대 자동차 회사이며, TM은 미국 상장 주식예탁증서(ADR)입니다.",
+        "volumeExplanation": "11월 19일 무디스가 도요타 신용등급 전망을 긍정적으로 올렸다. 거래량 급증과의 직접 연결은 확인되지 않는다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 구체적 수치(등급 A1, 영업이익률 9.6%→10.0~10.5%, 12~18개월)가 quote나 출처 제목에 없음",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "11월 19일 무디스가 도요타 신용등급 전망을 긍정적으로 올리고 이익률 개선을 예상해 관심이 쏠렸다. 다만 등급 자체는 그대로이고 거래량 급증과의 직접 연결은 확인되지 않는다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2568,9 +2847,72 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:33:00"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ESTC",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 19일 장 마감 후 2분기 실적을 발표했다. 분기 매출 4.96억 달러로 1년 전보다 17% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic Reports Second Quarter Fiscal 2027 Financial Results",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-reports-second-quarter-fiscal-210500160.html",
+                "date": "2026-11-19",
+                "quote": "Total revenue was $496 million, an increase of 17% year-over-year, as reported and on a constant currency basis",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "증권사 예상치를 웃도는 실적이었지만, 다음 분기 매출 전망은 예상보다 낮아 주가는 초반에 밀렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic Stock Slides As Earnings Beat But Guidance Comes In Below Forecasts",
+                "publisher": "Investor's Business Daily",
+                "url": "https://finance.yahoo.com/m/b8b6ce88-85fe-36ea-8e8e-00098522db86/elastic-stock-slides-as.html",
+                "date": "2026-11-19",
+                "quote": "Elastic Stock Slides As Earnings Beat But Guidance Comes In Below Forecasts",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "회사는 3분기 매출을 5.075억~5.085억 달러로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic Reports Second Quarter Fiscal 2027 Financial Results",
+                "publisher": "Business Wire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-reports-second-quarter-fiscal-210500160.html",
+                "date": "2026-11-19",
+                "quote": "Total revenue is expected to be between $507.5 million and $508.5 million, representing 12.9% year-over-year growth at the midpoint",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "회사는 3분기 매출을 5.075억~5.085억 달러로 제시했다. 중간값 기준 성장률은 12.9%로 2분기 17%보다 둔화된다."
+          }
+        ],
+        "company": "Elastic은 검색·보안·관측 소프트웨어를 구독 형태로 팔아 돈을 번다. 클라우드와 자체 설치형 구독 매출이 중심이다.",
+        "volumeExplanation": "11월 19일 장 마감 후 발표한 2분기 실적이 예상치를 넘었지만 다음 분기 전망이 낮아, 실적 반응을 가늠하려는 매매로 거래량이 평소의 2배 넘게 늘었다. 3분기 전망 성장률이 12.9%로 둔화된 점이 주가 판단의 핵심이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 수치가 출처와 일치함"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3325,9 +3667,87 @@ window.TEAM4_DATA = {
         "updated": "2026-09-19 05:48:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "P",
+        "category": 1,
+        "company": "Everpure(옛 Pure Storage)는 기업용 데이터 저장장치와 관련 구독 서비스를 팔아 돈을 법니다. AI 데이터센터와 대형 클라우드 업체 수요가 매출을 키우고 있습니다.",
+        "volumeExplanation": "11월 18일 발표한 3분기 실적이 시장 예상을 넘었고 연간 전망도 세 분기 연속 올렸습니다. 11월 19일 주가가 11% 넘게 뛴 뒤에도 매수·매도 공방이 이어지며 거래량이 늘었습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 18일 3분기 실적에서 이익과 매출이 모두 시장 예상을 넘었습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Everpure (P) Q3 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/everpure-p-q3-earnings-and-revenues-beat-estimates",
+                "date": "2026-11-18",
+                "quote": "Everpure (P) Q3 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 연간 전망을 세 분기 연속 올렸고 Wedbush는 '아웃퍼폼' 의견을 유지했습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Everpure raises annual outlook for third consecutive quarter as Wedbush reiterates 'outperform'",
+                "publisher": "Proactive",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-raises-annual-outlook-third-190000352.html",
+                "date": "2026-11-19",
+                "quote": "Everpure raises annual outlook for third consecutive quarter as Wedbush reiterates 'outperform'",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "AI 저장장치 수요가 매출 성장을 이끌며 11월 19일 주가가 11.37% 올랐습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Everpure Stocks Jump 11.37% as AI Storage Demand Drives 51% Revenue Growth",
+                "publisher": "GuruFocus.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-stocks-jump-11-37-161132143.html",
+                "date": "2026-11-19",
+                "quote": "Everpure Stocks Jump 11.37% as AI Storage Demand Drives 51% Revenue Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "UBS는 가격 인하가 매출총이익률을 제한한다며 매도 의견을 유지해 시각이 갈립니다. 다음 분기에도 마진과 대형 클라우드 매출이 유지되는지가 이 이야기의 확인 조건입니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Everpure Price Cuts to Cap Gross Margin as Hyperscaler Revenue Grows, UBS Says",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-price-cuts-cap-gross-202409378.html",
+                "date": "2026-11-19",
+                "quote": "Everpure Price Cuts to Cap Gross Margin as Hyperscaler Revenue Grows, UBS Says",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장이 출처로 적절히 뒷받침됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4165,9 +4585,66 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:51:10"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CPA",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Copa Holdings가 11월 18일 3분기 실적을 발표했고, 이익과 매출 모두 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Copa Holdings (CPA) Q3 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/copa-holdings-cpa-q3-earnings-and-revenues-surpass-estimates",
+                "date": "2026-11-18",
+                "quote": "Copa Holdings (CPA) Q3 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "강한 여행 수요와 항공권 단가(일인당 운임) 상승이 실적 호조의 배경으로 보도됐고, 매출은 31.9% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Copa Holdings Q3 Earnings Beat on Strong Demand and Higher Yields",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/copa-holdings-q3-earnings-beat-strong-demand-and-higher-yields",
+                "date": "2026-11-19",
+                "quote": "Copa Holdings Q3 Earnings Beat on Strong Demand and Higher Yields",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Copa Holdings SA (CPA) (Q3 2026) Earnings Call Highlights: Revenue Surges 31.9% to $1. ...",
+                "publisher": "GuruFocus.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/copa-holdings-sa-cpa-q3-230108629.html",
+                "date": "2026-11-19",
+                "quote": "Revenue Surges 31.9% to $1. ...",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Copa Holdings는 파나마 허브(파나마시티)를 거점으로 중남미 노선을 운항하는 항공사다. 여객 운임과 부가 수입으로 돈을 번다.",
+        "volumeExplanation": "11월 18일 발표한 3분기 실적이 이익·매출 모두 예상을 웃돌았고 매출이 1년 전보다 31.9% 늘어, 실적 확인 뒤 거래량이 평소의 2배 수준으로 늘었다. 다음 분기 수요와 운임 흐름이 유지되는지가 이 이야기의 맞고 틀림을 가를 것이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3의 '11월 20일 콘퍼런스콜 녹취록' 부분이 source date 2026-11-11보다 미래이고 근거 없음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4283,9 +4760,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:06:49"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ITT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "ITT는 펌프, 브레이크 부품, 커넥터 같은 산업용 기계 부품을 만들어 산업·운송·에너지 고객에게 파는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "claim이 근거 부재를 명시하고 sources 비어있으며, volumeExplanation이 일관성 있게 근거 없음을 표현"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4941,9 +5438,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:20:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LPX",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Louisiana-Pacific(LPX)는 주택 외장재·OSB(구조용 합판) 등 건축자재를 만들어 파는 회사다. 주택 경기에 따라 실적이 크게 달라진다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "claim이 근거 부재를 명시하고 sources 비어있으며, volumeExplanation이 일관성 있게 근거 없음을 표현"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5622,9 +6139,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:43:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AWI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Armstrong World Industries는 상업용 건물의 천장재와 천장 시스템을 만들어 파는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "claim이 근거 부재를 명시하고 sources 비어있으며, volumeExplanation이 일관성 있게 근거 없음을 표현"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6272,9 +6809,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-19 05:43:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "JAZZ",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Jazz Pharmaceuticals는 수면장애(Xywav)와 항암제(Ziihera 등)를 파는 제약사다. 최근 항암 부문이 성장 동력이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "claim이 근거 부재를 명시하고 sources 비어있으며, volumeExplanation이 일관성 있게 근거 없음을 표현"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6964,9 +7521,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:49:00"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "필립모리스 인터내셔널은 미국 밖에서 말보로 등 담배와 아이코스 같은 무연 제품을 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "claim이 근거 부재를 명시하고 sources 비어있으며, volumeExplanation이 일관성 있게 근거 없음을 표현"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -7684,9 +8261,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:08:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VEEV",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Veeva는 제약·바이오 회사가 임상시험과 영업·규제 업무에 쓰는 클라우드 소프트웨어를 구독 형태로 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음이 명확하고 category 6이 적절함"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8447,9 +9044,39 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:25:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RBCAA",
+        "category": 5,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Republic Bancorp은 11월 18일 4분기 정기 현금배당과 함께 특별배당도 한다고 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Republic Bancorp, Inc. 8-K (Item 7.01)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926129688/rbcaa-20261118x8k.htm",
+                "date": "2026-11-18",
+                "quote": "On November 18, 2026, Republic Bancorp, Inc. announced its fourth quarter 2026 cash dividend in addition to a special dividend.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Republic Bancorp은 켄터키주 기반 지역은행 지주회사로, 예금·대출과 소비자 금융으로 이자수익과 수수료를 번다.",
+        "volumeExplanation": "11월 18일 정기배당과 특별배당 발표가 있었고, 배당을 노린 매수가 거래량을 키웠을 가능성이 있다. 배당 금액과 지급일은 확인하지 못했으므로, 배당 규모가 시장 기대를 넘는지 확인되면 이 설명이 맞고 아니면 틀리다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "8-K source에서 11월 18일 배당 발표가 확인되며 category 5가 적절함"
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9035,9 +9662,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 05:48:55"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ITRI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Itron은 전기·가스·수도 계량기와 스마트 그리드 소프트웨어를 전력·수도 사업자에게 공급해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음이 명확하고 category 6이 적절함"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9685,9 +10332,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:06:21"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VEON",
+        "category": 1,
+        "company": "VEON은 파키스탄·방글라데시·카자흐스탄 등 신흥국에서 이동통신을 운영하는 회사입니다. 최근에는 핀테크(모바일 금융)와 디지털 서비스 비중을 키우고 있습니다.",
+        "volumeExplanation": "11월 16~17일 투자자 설명회에서 2030년까지 매출·EBITDA(영업현금 창출력) 연 12~15% 성장과 연 2억 달러 주주환원 계획을 내놓았고, 앞서 11월 6일 3분기 실적에서는 흑자 전환과 가이던스 상향이 있었습니다. 장기 성장 목표와 주주환원이 확인되면서 매수세가 붙어 거래량이 늘어난 것으로 보입니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "VEON은 11월 16일 설명회에서 2030년까지 매출과 EBITDA를 연 12~15% 늘리고 매년 2억 달러를 주주에게 돌려주겠다고 밝혔습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "VEON Targets 12–15% Annual Revenue and EBITDA Growth Through 2030, Plans $200 Million in Yearly Shareholder Returns",
+                "publisher": "InvestorsHub (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/veon-targets-12-15-annual-133218246.html",
+                "date": "2026-11-16",
+                "quote": "VEON Targets 12–15% Annual Revenue and EBITDA Growth Through 2030, Plans $200 Million in Yearly Shareholder Returns",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 2030년 매출 목표를 최대 90억 달러로 제시했고, 핀테크와 AI를 성장 동력으로 꼽았습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "VEON Targets Up to $9 Billion in Revenue by 2030 as Fintech and AI Drive Growth",
+                "publisher": "MarketBeat (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/veon-targets-9-billion-revenue-2030-fintech-and-ai-drive-growth",
+                "date": "2026-11-17",
+                "quote": "VEON Targets Up to $9 Billion in Revenue by 2030 as Fintech and AI Drive Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "11월 6일 3분기 실적에서 디지털 서비스가 매출의 27.2%까지 커졌고, 두 자릿수 성장을 기록했습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "VEON Delivers Double-Digit Growth as Digital Services Reach 27.2% of Revenue",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/veon-delivers-double-digit-growth-digital-services-reach-272-revenue",
+                "date": "2026-11-06",
+                "quote": "VEON Delivers Double-Digit Growth as Digital Services Reach 27.2% of Revenue",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "volumeExplanation에 근거 없는 '흑자 전환'과 '가이던스 상향' 주장이 포함됨. Claims는 모두 sourced이지만 설명문이 초과 주장을 포함"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9803,9 +10512,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:59:33"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SKY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Champion Homes는 미국에서 조립식(모듈러) 주택과 이동식 주택을 만들어 파는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음이 명확하고 category 6이 적절함"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -10428,9 +11157,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:25:34"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HALO",
+        "category": 5,
+        "company": "Halozyme은 피하주사 제형 기술(ENHANZE)을 제약사에 라이선스하고 로열티를 받아 돈을 법니다. 머크의 키트루다 피하주사 등 파트너사 제품 매출이 로열티로 이어집니다.",
+        "volumeExplanation": "11월 19일 독일 고등법원이 머크 키트루다 피하주사 판매를 막은 임시 금지명령을 뒤집었고, 주가는 3개월 만의 저점까지 밀렸습니다. 특허 분쟁에서 로열티 전망이 불확실해지자 매도가 몰려 거래량이 늘었습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 19일 독일 뮌헨 고등법원이 머크 키트루다 피하주사의 독일 출시를 막던 임시 금지명령을 뒤집었다. Halozyme은 영구 금지를 구하는 침해 소송을 곧바로 내겠다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Halozyme Provides Update on German Preliminary Injunction Hearing",
+                "publisher": "PR Newswire",
+                "url": "https://finance.yahoo.com/healthcare/articles/halozyme-provides-german-preliminary-injunction-142000460.html",
+                "date": "2026-11-19",
+                "quote": "We are disappointed that the Higher Regional Court overturned the preliminary injunction halting the launch of Keytruda SC in Germany.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "이 소식 직후 HALO 주가가 3개월 만의 저점까지 내렸다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "HALO Stock Hits Over 3-Month Lows, As German Court Overturns Temporary Ban On Merck's Keytruda SC",
+                "publisher": "Stocktwits",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/halo-stock-hits-over-3-163238178.html",
+                "date": "2026-11-19",
+                "quote": "HALO Stock Hits Over 3-Month Lows, As German Court Overturns Temporary Ban On Merck’s Keytruda SC",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -11157,9 +11932,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:10:12"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CHCO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "CHCO(City Holding)는 미국 중부 지역 은행으로, 대출과 예금 영업에서 나오는 이자수익으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "시티 홀딩",
@@ -11751,9 +12546,33 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:34:04"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "OKTA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Okta는 기업이 직원·고객의 로그인과 접근 권한을 관리하는 신원 보안 소프트웨어를 구독형으로 판매해 돈을 번다. 최근 분기 매출은 8.05억 달러로 1년 전보다 10.6% 늘었다.",
+        "volumeExplanation": "11월 19일 팔로알토네트웍스의 전망 상향으로 사이버보안주 전반이 이틀째 오르며 Okta가 8.14% 상승했고, 업종 쏠림 매수가 거래량으로 이어졌다. Okta 자체 실적·공시 호재는 아니며, 보안 업종 강세가 이어지는지가 확인 조건이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1"
+          ],
+          "reason": "경쟁사(팔로알토 전망 상향) 뉴스를 Okta 호재로 오인. 설명문에서 본인이 'Okta 자체 호재 아님'이라 명시했으나 category 5로 분류"
+        },
+        "originalCategory": 5,
+        "corrected": true,
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -11813,9 +12632,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:15:10"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ADUS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Addus HomeCare는 미국에서 고령자·장애인에게 방문 간병과 재택 돌봄 서비스를 제공하고, 주로 메디케이드 등 공공 보험 지급금으로 매출을 올린다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -12488,9 +13327,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:14:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VRSN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "베리사인은 .com·.net 인터넷 도메인 주소 등록을 독점 운영하며 갱신 수수료로 돈을 법니다. 영업이익률이 약 67%로 매우 높은 구독형 사업입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -13147,9 +14006,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:51:04"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SPOT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "스포티파이는 음악·팟캐스트·오디오북 구독료와 광고로 돈을 버는 세계 최대 음원 스트리밍 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류. category 6 (거래량만) 적절."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -13851,9 +14730,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:40:37"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "에스티 로더는 스킨케어·메이크업·향수 브랜드를 전 세계 백화점, 면세점, 온라인에서 판매해 돈을 버는 화장품 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류. category 6 (거래량만) 적절."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-20",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -14683,13 +15582,68 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 0,
+    "done": 27,
     "total": 27,
-    "cap": null,
-    "pending": 27,
+    "cap": 27,
+    "pending": 0,
     "failed": 0,
     "carried": 0,
     "ineligible": 0,
-    "note": "27종목 중 0종목을 조사했습니다. 나머지 27종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "PANW",
+        "category": 1,
+        "oneLine": "분기 매출이 예상보다 4.2% 많았고, 회사가 올해 전망을 전부 올렸다."
+      },
+      {
+        "ticker": "P",
+        "category": 1,
+        "oneLine": "이익·매출이 모두 예상을 넘고 연간 전망을 세 분기 연속 올려 주가가 11.37% 올랐다."
+      },
+      {
+        "ticker": "PDD",
+        "category": 1,
+        "oneLine": "순이익은 예상을 넘었지만 매출은 못 미쳤다. 발표 당일 주가는 약 8% 올랐다."
+      },
+      {
+        "ticker": "CPA",
+        "category": 1,
+        "odd": null,
+        "oneLine": "3분기 이익·매출이 예상을 웃돌았고 매출은 31.9% 늘었다."
+      },
+      {
+        "ticker": "VEON",
+        "category": 1,
+        "oneLine": "2030년까지 매출·EBITDA(영업현금 이익) 연 12~15% 성장과 연 2억 달러 주주환원을 제시했다."
+      },
+      {
+        "ticker": "ESTC",
+        "category": 1,
+        "oneLine": "2분기 매출은 예상을 웃돌았지만 다음 분기 전망이 낮아 주가가 초반에 밀렸다."
+      },
+      {
+        "ticker": "RBCAA",
+        "category": 5,
+        "oneLine": "정기 현금배당에 더해 특별배당도 한다고 발표했다."
+      },
+      {
+        "ticker": "HALO",
+        "category": 5,
+        "oneLine": "독일 법원이 머크 키트루다 피하주사 출시 금지를 풀어, 주가가 3개월 저점까지 내렸다."
+      }
+    ],
+    "sectorSignal": "실적 호재 6건 중 PANW·ESTC·P가 보안·검색·AI 저장장치 등 IT 쪽이라 AI 수요 관련 실적이 눈에 띕니다. 나머지(PDD·CPA·VEON)는 업종이 흩어져 있어 뚜렷한 쏠림은 아닙니다.",
+    "caution": "HALO는 주가가 내린 악재성 소식이라 호재로 보기 어렵고, RBCAA의 특별배당은 성장 호재와 성격이 다릅니다. ESTC·PDD는 실적 일부가 예상에 못 미쳐 결과가 엇갈립니다. 가격·차트는 보지 않았으니 직접 확인하세요.",
+    "researchedOn": "2026-11-20"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 6,
+    "3": 2,
+    "5": 2,
+    "6": 17
   }
 };

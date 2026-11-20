@@ -1,0 +1,271 @@
+{
+ "ticker": "THC",
+ "sector": "Healthcare",
+ "industry": "Medical Care Facilities",
+ "nameKo": "테넷 헬스케어",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.67,
+  "saleNy": 0.9,
+  "epsCy": 34.46,
+  "epsNy": -10.01,
+  "est": {
+   "cyCur": 22.56187,
+   "cy30": 21.22417,
+   "nyCur": 20.30261,
+   "ny30": 21.08303
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.61,
+    10.68,
+    8.95
+   ],
+   "ni": [
+    186.81,
+    72.91,
+    16.67
+   ],
+   "opm": [
+    24.85,
+    22.42,
+    15.43
+   ],
+   "updated": "2026-09-08 06:03:11"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-11-19"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "테넷 헬스케어",
+  "nameEn": "TENET HEALTHCARE CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000070318&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 5628000000,
+     "profit": 1501000000,
+     "netIncome": 1045000000,
+     "margin": 26.7,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": 82.4,
+      "netIncome": 100.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 5368000000,
+     "profit": 1296000000,
+     "netIncome": 906000000,
+     "margin": 24.1,
+     "yoy": {
+      "revenue": 2.8,
+      "profit": 37.4,
+      "netIncome": 45.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 5527000000,
+     "profit": 853000000,
+     "netIncome": 644000000,
+     "margin": 15.4,
+     "yoy": {
+      "revenue": 8.9,
+      "profit": 3.9,
+      "netIncome": 12.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 5289000000,
+     "profit": 889000000,
+     "netIncome": 579000000,
+     "margin": 16.8,
+     "yoy": {
+      "revenue": 3.2,
+      "profit": -18.4,
+      "netIncome": -15,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Tenet Healthcare (THC) is a Top-Ranked Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-top-ranked-momentum-stock-should-you-buy",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tenet Healthcare Corporation (THC) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/tenet-healthcare-corporation-thc-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Tenet Healthcare (THC) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-tenet-healthcare-thc-strong-value-stock-1",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's How Much a $1000 Investment in Tenet Healthcare Made 10 Years Ago Would Be Worth Today",
+     "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-tenet-healthcare-made-10-years-ago-would-be-worth-today",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Tenet Healthcare (THC) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-tenet-healthcare-thc-strong-growth-stock-0",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tenet Healthcare Corporation (THC) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/tenet-healthcare-corporation-thc-trending-stock-facts-know-betting-it",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tenet Healthcare Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/tenet-healthcare-q3-earnings-call-highlights",
+     "date": "2026-10-31",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "THC Q3 Earnings Call Highlights Higher Outlook and Margin Gains",
+     "url": "https://www.nasdaq.com/articles/thc-q3-earnings-call-highlights-higher-outlook-and-margin-gains",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000045/thc-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/70318/000119312526397901/d104323d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000040/thc-20260908.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000032/thc-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000028/thc-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000023/thc-20260430.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Intel, Oracle, American Express",
+   "url": "https://www.cnbc.com/2026/07/24/stocks-making-the-biggest-moves-premarket-intc-orcl-axp.html",
+   "date": "2026-07-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "THC",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 10.17,
+  "pbr": 4.56,
+  "eps": 25.93,
+  "bps": 57.86,
+  "shares": 79588000,
+  "marketCapM": 20979,
+  "high52": 301.44,
+  "high52Date": "2026-11-05",
+  "low52": 157.58,
+  "low52Date": "2026-06-08",
+  "last": 263.59,
+  "prevClose": 271.34,
+  "nameKo": "테넷 헬스케어",
+  "nameEn": "TENET HEALTHCARE CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 79588000
+ }
+}

@@ -2,6 +2,12 @@
  "ticker": "OKTA",
  "news": [
   {
+   "title": "Is Okta (OKTA) a Buy as Wall Street Analysts Look Optimistic?",
+   "url": "https://www.nasdaq.com/articles/okta-okta-buy-wall-street-analysts-look-optimistic",
+   "date": "2026-11-19",
+   "publisher": "Zacks"
+  },
+  {
    "title": "Okta vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
    "url": "https://www.nasdaq.com/articles/okta-vs-sentinelone-which-technology-stock-better-buy-2027",
    "date": "2026-11-18",
@@ -44,23 +50,17 @@
    "publisher": "The Motley Fool"
   },
   {
-   "title": "Arista Networks vs. Okta: Which Technology Stock Is a Better Buy for 2027?",
-   "url": "https://www.nasdaq.com/articles/arista-networks-vs-okta-which-technology-stock-better-buy-2027",
-   "date": "2026-11-07",
-   "publisher": "The Motley Fool"
-  },
-  {
-   "title": "Robert Karr's Top Q3 2026 Move: Okta Inc at a 2.94% Portfolio Impact",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/robert-karrs-top-q3-2026-220803884.html",
-   "date": "2026-11-16",
+   "title": "Okta Stocks Jump 8.14% as Cybersecurity Rally Extends Into Second Day",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/okta-stocks-jump-8-14-183850134.html",
+   "date": "2026-11-19",
    "publisher": "GuruFocus.com",
    "via": "Yahoo"
   },
   {
-   "title": "Palo Alto Networks Heads 3 Top Cybersecurity Stocks To Watch",
-   "url": "https://finance.yahoo.com/technology/articles/palo-alto-networks-heads-3-151123464.html",
-   "date": "2026-11-12",
-   "publisher": "Simply Wall St.",
+   "title": "Is Okta (OKTA) a Buy as Wall Street Analysts Look Optimistic?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-buy-wall-street-133004747.html",
+   "date": "2026-11-19",
+   "publisher": "Zacks",
    "via": "Yahoo"
   }
  ],
@@ -201,7 +201,7 @@
     "analyst": "김승혁",
     "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
     "summary": "- Okta는 기업용 Identity 보안 플랫폼, 벤더 중립성과 폭넓은 연동 생태계가 강점- 대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
-    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxeeem.pdf",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxeegc.pdf",
     "pages": "6"
    }
   ]

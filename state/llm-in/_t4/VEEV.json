@@ -2,22 +2,22 @@
  "ticker": "VEEV",
  "news": [
   {
+   "title": "Veeva (VEEV) Is Considered a Good Investment by Brokers: Is That True?",
+   "url": "https://www.nasdaq.com/articles/veeva-veev-considered-good-investment-brokers-true",
+   "date": "2026-11-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Veeva Systems (VEEV) Dipped More Than Broader Market Today",
+   "url": "https://www.nasdaq.com/articles/why-veeva-systems-veev-dipped-more-broader-market-today-0",
+   "date": "2026-11-17",
+   "publisher": "Zacks"
+  },
+  {
    "title": "Veeva Systems Inc. (VEEV) is Attracting Investor Attention: Here is What You Should Know",
    "url": "https://www.nasdaq.com/articles/veeva-systems-inc-veev-attracting-investor-attention-here-what-you-should-know-0",
    "date": "2026-11-12",
    "publisher": "Zacks"
-  },
-  {
-   "title": "Veeva Systems Inc. Expects to Meet or Exceed Q3’27 Guidance",
-   "url": "https://www.nasdaq.com/articles/veeva-systems-inc-expects-meet-or-exceed-q327-guidance",
-   "date": "2026-11-06",
-   "publisher": "Fintel"
-  },
-  {
-   "title": "Veeva Systems Sticks to $6 Billion Revenue Goal as AI Expands Its Market Opportunity",
-   "url": "https://www.nasdaq.com/articles/veeva-systems-sticks-6-billion-revenue-goal-ai-expands-its-market-opportunity",
-   "date": "2026-11-06",
-   "publisher": "MarketBeat"
   },
   {
    "title": "OMCL vs. VEEV: Which Stock Should Value Investors Buy Now?",
@@ -26,22 +26,18 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Why Veeva Systems (VEEV) Dipped More Than Broader Market Today",
-   "url": "https://www.nasdaq.com/articles/why-veeva-systems-veev-dipped-more-broader-market-today",
-   "date": "2026-11-02",
-   "publisher": "Zacks"
+   "title": "Prediction: This Software-as-a-Service Stock Will Beat the Market Through 2031",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-software-stock-beat-market-155002872.html",
+   "date": "2026-11-19",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
   },
   {
-   "title": "Is It Worth Investing in Veeva (VEEV) Based on Wall Street's Bullish Views?",
-   "url": "https://www.nasdaq.com/articles/it-worth-investing-veeva-veev-based-wall-streets-bullish-views-0",
-   "date": "2026-11-02",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Veeva Systems Takes Over #230 Spot From Vistra",
-   "url": "https://www.nasdaq.com/articles/veeva-systems-takes-over-230-spot-vistra",
-   "date": "2026-10-29",
-   "publisher": "BNK Invest"
+   "title": "UBS Lowers Veeva Systems Price Target to $310 From $325, Maintains Neutral Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-lowers-veeva-systems-price-143538080.html",
+   "date": "2026-11-19",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
   },
   {
    "title": "Veeva (VEEV) Is Considered a Good Investment by Brokers: Is That True?",
@@ -104,132 +100,102 @@
   {
    "form": "8-K",
    "filingDate": "2026-11-06",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000039/veev-20261105.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000039/veev-20261105.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000032/veev-20260826.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000032/veev-20260826.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-08-20",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
    "itemsKo": [
     "임원 변동",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000121390026092096/ea0302765-8k_veeva.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000121390026092096/ea0302765-8k_veeva.htm",
+   "description": "CURRENT REPORT"
   },
   {
    "form": "8-K",
    "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
    "itemsKo": [
     "주주총회 표결",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000029/veev-20260617.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000029/veev-20260617.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000022/veev-20260603.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000022/veev-20260603.htm",
+   "description": "8-K"
   },
   {
    "form": "8-K",
    "filingDate": "2026-04-20",
+   "reportDate": "2026-04-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
    "itemsKo": [
     "임원 변동",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000018/veev-20260420.htm"
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000018/veev-20260420.htm",
+   "description": "8-K"
   }
  ],
- "financials": {
-  "profitLabel": "영업이익",
-  "marginLabel": "영업이익률",
-  "unit": "USD",
-  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393052&type=10-Q",
-  "quarters": [
-   {
-    "periodEnd": "2026-07-31",
-    "derived": false,
-    "revenue": 927963000,
-    "profit": 275018000,
-    "netIncome": 273429000,
-    "margin": 29.6,
-    "yoy": {
-     "revenue": 17.6,
-     "profit": 40.4,
-     "netIncome": 36.5,
-     "priorEnd": "2025-07-31"
-    }
-   },
-   {
-    "periodEnd": "2026-04-30",
-    "derived": false,
-    "revenue": 882948000,
-    "profit": 273112000,
-    "netIncome": 260936000,
-    "margin": 30.9,
-    "yoy": {
-     "revenue": 16.3,
-     "profit": 16.8,
-     "netIncome": 14.4,
-     "priorEnd": "2025-04-30"
-    }
-   },
-   {
-    "periodEnd": "2026-01-31",
-    "derived": true,
-    "revenue": 835951000,
-    "profit": 245876000,
-    "netIncome": 244204000,
-    "margin": 29.4,
-    "yoy": {
-     "revenue": 16,
-     "profit": 30.5,
-     "netIncome": 24.8,
-     "priorEnd": "2025-01-31"
-    }
-   },
-   {
-    "periodEnd": "2025-10-31",
-    "derived": false,
-    "revenue": 811236000,
-    "profit": 240853000,
-    "netIncome": 236203000,
-    "margin": 29.7,
-    "yoy": {
-     "revenue": 16,
-     "profit": 32.8,
-     "netIncome": 27.1,
-     "priorEnd": "2024-10-31"
-    }
-   }
-  ]
- },
- "krReports": {
-  "total": 0,
-  "reports": []
- },
+ "financials": null,
+ "krReports": null,
  "site": {
   "targetStatus": false,
   "saleCy": 15.51,

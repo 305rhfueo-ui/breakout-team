@@ -1,0 +1,658 @@
+{
+ "ticker": "FWONA",
+ "date": "2026-11-20",
+ "session": "2026-11-19",
+ "source": "list",
+ "plan": {
+  "ticker": "FWONA",
+  "name": "리버티 포뮬러 원 A",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
+  "price": 102.39,
+  "grade": "A",
+  "state": "pre",
+  "pivot": 106.52,
+  "stop": 103.71,
+  "distToPivotPct": -3.88,
+  "distToPivotAdr": -1.41,
+  "riskPerSharePct": 2.63,
+  "adrPct": 2.74,
+  "extensionAdr": -0.46,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 10,
+   "baseWeeks": 2,
+   "depthPct": 8.9,
+   "priorMovePct": 31.9,
+   "higherLows": 1,
+   "contraction": 1.06,
+   "closeRange10Adr": 1.8,
+   "surf10": -0.46,
+   "surf20": 2.58,
+   "slope20": 5.6,
+   "baseLow": 96.99,
+   "lastSwingLow": 96.99
+  },
+  "reasons": [
+   "선행 상승 +32%",
+   "베이스 2주",
+   "깊이 8.9%",
+   "저점 상승 1회",
+   "진폭 1.06배 · 10일 종가폭 1.8 ADR",
+   "10일선 -0.5 ADR · 20일선 +2.6 ADR",
+   "20일선 기울기 +5.6%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.30692845017751935,
+    "pct": 99.0532010820559
+   },
+   "m3": {
+    "v": 0.1660184273016544,
+    "pct": 85.1668169522092
+   },
+   "m6": {
+    "v": 0.3460017977885046,
+    "pct": 81.74030658250676
+   }
+  },
+  "ret1m": 22.26,
+  "ret3m": 7.37,
+  "ret6m": 21.63,
+  "marketCap": "26.07B",
+  "volx": 1.3,
+  "volSurgeWk": 1.79,
+  "high52": 96.12,
+  "newHigh52": false,
+  "adr": 2.74,
+  "div50": 14.42,
+  "div200": 19.45,
+  "targetStatus": false,
+  "saleCy": 6.25,
+  "saleNy": 11.26,
+  "epsCy": -15.12,
+  "epsNy": 25.63,
+  "cyTrend": -0.68,
+  "nyTrend": -1.38,
+  "est": {
+   "cyCur": 1.89817,
+   "cy30": 1.91118,
+   "nyCur": 2.38469,
+   "ny30": 2.41796
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:21:23"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-19",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "리버티 포뮬러 원 A",
+  "nameEn": "LIBERTY MEDIA CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001560385&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1226000000,
+     "profit": 237000000,
+     "netIncome": 163000000,
+     "margin": 19.3,
+     "yoy": {
+      "revenue": 13,
+      "profit": 50,
+      "netIncome": 1153.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 934000000,
+     "profit": 88000000,
+     "netIncome": 5000000,
+     "margin": 9.4,
+     "yoy": {
+      "revenue": -30.4,
+      "profit": -68.6,
+      "netIncome": -97.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 711000000,
+     "profit": 64000000,
+     "netIncome": 57000000,
+     "margin": 9,
+     "yoy": {
+      "revenue": 59.1,
+      "profit": 195.5,
+      "netIncome": 1040,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1609000000,
+     "profit": 206000000,
+     "netIncome": 333000000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": 37.9,
+      "profit": 795.7,
+      "netIncome": 193.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Recent Price Trend in Liberty Media Corporation - Liberty Formula One Series A (FWONA) is Your Friend, Here's Why",
+     "url": "https://www.nasdaq.com/articles/recent-price-trend-liberty-media-corporation-liberty-formula-one-series-fwona-your-friend",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Liberty Media Corporation Acquires 2,316,537 Series B Shares from Malone Holders and Adopts Rights Agreement",
+     "url": "https://www.nasdaq.com/articles/liberty-media-corporation-acquires-2316537-series-b-shares-malone-holders-and-adopts",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Wall Street Analysts Believe Liberty Media Corporation - Liberty Formula One Series A (FWONA) Could Rally 29.13%: Here's is How to Trade",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-liberty-media-corporation-liberty-formula-one-series-fwona",
+     "date": "2026-06-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Does Liberty Media Corporation - Liberty Formula One Series A (FWONA) Have the Potential to Rally 29.3% as Wall Street Analysts Expect?",
+     "url": "https://www.nasdaq.com/articles/does-liberty-media-corporation-liberty-formula-one-series-fwona-have-potential-rally-293",
+     "date": "2026-05-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Liberty Media Corporation - Liberty Formula One Series A (FWONA) Q1 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/liberty-media-corporation-liberty-formula-one-series-fwona-q1-earnings-and-revenues-beat",
+     "date": "2026-05-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Earnings Preview: Liberty Media Corporation - Liberty Formula One Series A (FWONA) Q1 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-liberty-media-corporation-liberty-formula-one-series-fwona-q1-earnings",
+     "date": "2026-04-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Citizens Initiates Coverage of Formula One Group (FWONA) with Market Outperform Recommendation",
+     "url": "https://www.nasdaq.com/articles/citizens-initiates-coverage-formula-one-group-fwona-market-outperform-recommendation",
+     "date": "2026-03-31",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Wall Street Analysts Predict a 41.97% Upside in Liberty Media Corporation - Liberty Formula One Series A (FWONA): Here's  What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-4197-upside-liberty-media-corporation-liberty-formula-one",
+     "date": "2026-03-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000028/lmca-20261105x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "3.02",
+     "3.03",
+     "임원 변동",
+     "5.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926123092/tm2628888d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000026/lmca-20261008x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000024/lmca-20260831x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "3.02",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926095991/tm2622631d2_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1560385/000110465926093023/tm2622631d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Jefferies names Formula One a buy as it doubles down on its audience",
+   "url": "https://www.cnbc.com/2026/09/09/jefferies-says-formula-ones-parent-is-a-buy-as-it-focuses-on-premium.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Formula One lags other sport stocks. Analysts think it's poised to race ahead",
+   "url": "https://www.cnbc.com/2026/08/08/formula-one-is-lagging-other-sport-stocks-why-analysts-think-its-poised-to-race-ahead.html",
+   "date": "2026-08-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Faber Report: Liberty Media acquires high-vote Series B shares of John C. Malone-related enterprises",
+   "url": "https://www.cnbc.com/video/2026/11/05/faber-report-liberty-media-acquires-high-vote-series-b-shares-of-john-c-malone-related-enterprises.html",
+   "date": "2026-11-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FWONA",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 63.3,
+  "pbr": 3.37,
+  "eps": 1.62,
+  "bps": 30.39,
+  "shares": 23991100,
+  "marketCapM": 2456,
+  "high52": 106.515,
+  "high52Date": "2026-11-12",
+  "low52": 73.7,
+  "low52Date": "2026-03-20",
+  "last": 102.39,
+  "prevClose": 103.085,
+  "nameKo": "리버티 포뮬러 원 A",
+  "nameEn": "LIBERTY MEDIA CORPORATION",
+  "listedOn": "2017-01-25",
+  "exchange": "나스닥",
+  "listedShares": 23991100
+ },
+ "estimates": {
+  "ticker": "FWONA",
+  "url": "https://finance.yahoo.com/quote/FWONA/analysis/",
+  "fetchedAt": "2026-11-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.9,
+    "epsLow": 0.83,
+    "epsHigh": 0.96,
+    "epsYearAgo": null,
+    "epsAnalysts": 2,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 1892304690,
+    "revAnalysts": 16,
+    "revYearAgo": 1609000000,
+    "revGrowth": 17.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.03,
+    "epsLow": 0.03,
+    "epsHigh": 0.03,
+    "epsYearAgo": null,
+    "epsAnalysts": 1,
+    "epsGrowth": null,
+    "epsCur": "USD",
+    "rev": 684906100,
+    "revAnalysts": 6,
+    "revYearAgo": 711000000,
+    "revGrowth": -3.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 1.9,
+    "epsLow": 1.64,
+    "epsHigh": 2.21,
+    "epsYearAgo": 2.24,
+    "epsAnalysts": 3,
+    "epsGrowth": -15.1,
+    "epsCur": "USD",
+    "rev": 4762348940,
+    "revAnalysts": 19,
+    "revYearAgo": 4482000000,
+    "revGrowth": 6.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 2.38,
+    "epsLow": 2.02,
+    "epsHigh": 3.05,
+    "epsYearAgo": 1.9,
+    "epsAnalysts": 3,
+    "epsGrowth": 25.6,
+    "epsCur": "USD",
+    "rev": 5298777590,
+    "revAnalysts": 20,
+    "revYearAgo": 4762348940,
+    "revGrowth": 11.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.9,
+    "d7": 33.6,
+    "d30": 33.6,
+    "d90": 33.6,
+    "ago90": 0.67,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.03,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": 0,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.9,
+    "d7": -0.7,
+    "d30": -0.7,
+    "d90": 41.7,
+    "ago90": 1.34,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 2.38,
+    "d7": -1.4,
+    "d30": -1.4,
+    "d90": 4.1,
+    "ago90": 2.29,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.02,
+    "estimate": 0.14,
+    "surprisePct": -85.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.03,
+    "estimate": -0.16,
+    "surprisePct": 119.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.38,
+    "estimate": 0.39,
+    "surprisePct": -3.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 0,
+   "total": 1,
+   "recent": [
+    {
+     "date": "2026-11-10",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 113,
+     "ptPrior": 107
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-19",
+  "numbers": {
+   "price": 102.39,
+   "ma20": 95.16,
+   "ma50": 89.48,
+   "ma150": 87.89,
+   "distMA50": 14.42,
+   "periodHigh": 106.52,
+   "pullbackFromHigh": -3.88,
+   "volRatio20": 1.22,
+   "dryUpRatio": 0.8
+  },
+  "last10": [
+   {
+    "d": "2026-11-06",
+    "o": 98.6,
+    "h": 102,
+    "l": 96.99,
+    "c": 101.01,
+    "v": 527900,
+    "clsPos": 80,
+    "gapPct": -1.12
+   },
+   {
+    "d": "2026-11-09",
+    "o": 100.37,
+    "h": 103.1,
+    "l": 99.47,
+    "c": 102.83,
+    "v": 324200,
+    "clsPos": 93,
+    "gapPct": -0.63
+   },
+   {
+    "d": "2026-11-10",
+    "o": 102.59,
+    "h": 104.02,
+    "l": 101.24,
+    "c": 103.87,
+    "v": 486900,
+    "clsPos": 95,
+    "gapPct": -0.23
+   },
+   {
+    "d": "2026-11-11",
+    "o": 104.41,
+    "h": 106.1,
+    "l": 103.09,
+    "c": 105.98,
+    "v": 340300,
+    "clsPos": 96,
+    "gapPct": 0.52
+   },
+   {
+    "d": "2026-11-12",
+    "o": 106.23,
+    "h": 106.52,
+    "l": 104.21,
+    "c": 104.52,
+    "v": 196700,
+    "clsPos": 13,
+    "gapPct": 0.24
+   },
+   {
+    "d": "2026-11-13",
+    "o": 104.71,
+    "h": 104.71,
+    "l": 103.23,
+    "c": 104.33,
+    "v": 200900,
+    "clsPos": 74,
+    "gapPct": 0.18
+   },
+   {
+    "d": "2026-11-16",
+    "o": 104.43,
+    "h": 105.99,
+    "l": 104.41,
+    "c": 105.68,
+    "v": 353900,
+    "clsPos": 80,
+    "gapPct": 0.1
+   },
+   {
+    "d": "2026-11-17",
+    "o": 105.6,
+    "h": 105.72,
+    "l": 102.94,
+    "c": 103.03,
+    "v": 173800,
+    "clsPos": 3,
+    "gapPct": -0.08
+   },
+   {
+    "d": "2026-11-18",
+    "o": 102.45,
+    "h": 104.24,
+    "l": 102.45,
+    "c": 103.09,
+    "v": 136400,
+    "clsPos": 36,
+    "gapPct": -0.56
+   },
+   {
+    "d": "2026-11-19",
+    "o": 103.54,
+    "h": 103.54,
+    "l": 101.67,
+    "c": 102.39,
+    "v": 379283,
+    "clsPos": 39,
+    "gapPct": 0.44
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FWONA-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FWONA-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 23일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

@@ -1,0 +1,178 @@
+{
+ "ticker": "CHCO",
+ "news": [
+  {
+   "title": "Monday 10/26 Insider Buying Report: BPRE, CHCO",
+   "url": "https://www.nasdaq.com/articles/monday-10-26-insider-buying-report-bpre-chco",
+   "date": "2026-10-26",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Compared to Estimates, City Holding (CHCO) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-city-holding-chco-q3-earnings-look-key-metrics",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "City Holding (CHCO) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-tops-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "City Holding (CHCO) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-expected-beat-earnings-estimates-can-stock-move-higher",
+   "date": "2026-10-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "City Holding (CHCO) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-could-be-great-choice",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will City Holding (CHCO) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-city-holding-chco-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CHCO Crosses Above Average Analyst Target",
+   "url": "https://www.nasdaq.com/articles/chco-crosses-above-average-analyst-target",
+   "date": "2026-09-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "City Holding (CHCO) Upgraded to Buy: What Does It Mean for the Stock?",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-upgraded-buy-what-does-it-mean-stock",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-18",
+   "reportDate": "2026-11-18",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000199/chco-20261118.htm",
+   "description": "8-K, CHCO DIVIDEND 1 2027"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-26",
+   "reportDate": "2026-10-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000190/chco-20261026.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-30",
+   "reportDate": "2026-09-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000175/chco-20260930.htm",
+   "description": "8-K, CHCO DIV 10 2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-30",
+   "reportDate": "2026-09-30",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000171/chco-20260930.htm",
+   "description": "8-K, DIRECTORS - ALSOP, HUSS"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000160/chco-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000139/chco-20260528.htm",
+   "description": "8-K, CHCO DIV 07 2026"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.82,
+  "saleNy": 3.77,
+  "epsCy": 3.94,
+  "epsNy": 5.3,
+  "cyTrend": 0.02,
+  "nyTrend": 1.18,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.16,
+    2.37,
+    6.16
+   ],
+   "ni": [
+    -0.08,
+    4.47,
+    10.12
+   ],
+   "opm": [
+    40.92,
+    39.9,
+    39.23
+   ],
+   "updated": "2026-09-08 10:10:12"
+  }
+ }
+}

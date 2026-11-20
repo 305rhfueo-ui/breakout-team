@@ -1,0 +1,653 @@
+{
+ "ticker": "EXPO",
+ "date": "2026-11-20",
+ "session": "2026-11-19",
+ "source": "list",
+ "plan": {
+  "ticker": "EXPO",
+  "name": "익스포넌트",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "price": 89,
+  "grade": "A",
+  "state": "pre",
+  "pivot": 90.51,
+  "stop": 87.91,
+  "distToPivotPct": -1.67,
+  "distToPivotAdr": -0.57,
+  "riskPerSharePct": 2.87,
+  "adrPct": 2.92,
+  "extensionAdr": 0.8,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 13,
+   "baseWeeks": 2.6,
+   "depthPct": 11.4,
+   "priorMovePct": 44.7,
+   "higherLows": 1,
+   "contraction": 0.7,
+   "closeRange10Adr": 2,
+   "surf10": 0.8,
+   "surf20": 1.88,
+   "slope20": 4.63,
+   "baseLow": 80.15,
+   "lastSwingLow": 82.28
+  },
+  "reasons": [
+   "선행 상승 +45%",
+   "베이스 2.6주",
+   "깊이 11.4%",
+   "저점 상승 1회",
+   "진폭 0.7배 · 10일 종가폭 2 ADR",
+   "10일선 +0.8 ADR · 20일선 +1.9 ADR",
+   "20일선 기울기 +4.63%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2385565822704301,
+    "pct": 96.70874661857529
+   },
+   "m3": {
+    "v": 0.36320498667718387,
+    "pct": 98.512173128945
+   },
+   "m6": {
+    "v": 0.6177400741932496,
+    "pct": 97.3399458972047
+   }
+  },
+  "ret1m": 15.42,
+  "ret3m": 27.09,
+  "ret6m": 48.81,
+  "marketCap": "4.17B",
+  "volx": 1.1,
+  "volSurgeWk": 1.44,
+  "high52": 98.33,
+  "newHigh52": false,
+  "adr": 2.92,
+  "div50": 18.73,
+  "div200": 32.6,
+  "targetStatus": true,
+  "saleCy": 14.34,
+  "saleNy": 8.95,
+  "epsCy": 23.97,
+  "epsNy": 13.75,
+  "cyTrend": 6.5,
+  "nyTrend": 7.31,
+  "est": {
+   "cyCur": 2.56615,
+   "cy30": 2.4096,
+   "nyCur": 2.9191,
+   "ny30": 2.72036
+  },
+  "fs": {
+   "sale": [
+    20.89,
+    14.29,
+    7.79
+   ],
+   "ni": [
+    10.7,
+    10.95,
+    4.97
+   ],
+   "opm": [
+    16.33,
+    24.88,
+    19.77
+   ],
+   "updated": "2026-09-08 06:21:30"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-18",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-19",
+  "nameKo": "익스포넌트",
+  "nameEn": "EXPONENT INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851520&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-03",
+     "derived": false,
+     "revenue": 171612000,
+     "profit": 28022000,
+     "netIncome": 29395000,
+     "margin": 16.3,
+     "yoy": {
+      "revenue": 20.9,
+      "profit": 63.1,
+      "netIncome": 10.7,
+      "priorEnd": "2025-07-04"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 166303000,
+     "profit": 41379000,
+     "netIncome": 29569000,
+     "margin": 24.9,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": -6.9,
+      "netIncome": 11,
+      "priorEnd": "2025-04-04"
+     }
+    },
+    {
+     "periodEnd": "2026-01-02",
+     "derived": true,
+     "revenue": 147425000,
+     "profit": 29140000,
+     "netIncome": 24762000,
+     "margin": 19.8,
+     "yoy": {
+      "revenue": 7.8,
+      "profit": 6.9,
+      "netIncome": 5,
+      "priorEnd": "2025-01-03"
+     }
+    },
+    {
+     "periodEnd": "2025-10-03",
+     "derived": false,
+     "revenue": 147120000,
+     "profit": 29038000,
+     "netIncome": 28044000,
+     "margin": 19.7,
+     "yoy": {
+      "revenue": 8,
+      "profit": 12.3,
+      "netIncome": 7.7,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Exponent Consensus Price Target Raised 11.42% to $85.82",
+     "url": "https://www.nasdaq.com/articles/exponent-consensus-price-target-raised-1142-8582",
+     "date": "2026-11-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Exponent (EXPO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/exponent-expo-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Exponent, Inc. Reports Third Quarter 2026 Financial Results and Declares $0.31 Quarterly Dividend",
+     "url": "https://www.nasdaq.com/articles/exponent-inc-reports-third-quarter-2026-financial-results-and-declares-031-quarterly",
+     "date": "2026-10-30",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "What Exponent (EXPO) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-exponent-expo-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Exponent (EXPO) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/exponent-expo-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Exponent (EXPO) Stock Outpacing Its Business Services Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/exponent-expo-stock-outpacing-its-business-services-peers-year",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Business Services Stocks Lagging  Exponent (EXPO) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-exponent-expo-year",
+     "date": "2026-08-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Exponent (EXPO) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/exponent-expo-q2-2026-earnings-call-transcript",
+     "date": "2026-08-08",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/f8k_102926.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/f8k_073026.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326004036/f8k_061026.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326002896/f8k_043026.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-06",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326002263/f8k_040626.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326000654/f8k_020526.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "EXPO",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 39.96,
+  "pbr": 14.66,
+  "eps": 2.23,
+  "bps": 6.07,
+  "shares": 47552500,
+  "marketCapM": 4232,
+  "high52": 90.51,
+  "high52Date": "2026-11-05",
+  "low52": 51.4109,
+  "low52Date": "2026-05-13",
+  "last": 89,
+  "prevClose": 89.16,
+  "nameKo": "익스포넌트",
+  "nameEn": "EXPONENT INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 47552500
+ },
+ "estimates": {
+  "ticker": "EXPO",
+  "url": "https://finance.yahoo.com/quote/EXPO/analysis/",
+  "fetchedAt": "2026-11-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.57,
+    "epsLow": 0.53,
+    "epsHigh": 0.61,
+    "epsYearAgo": 0.49,
+    "epsAnalysts": 4,
+    "epsGrowth": 16.6,
+    "epsCur": "USD",
+    "rev": 145580040,
+    "revAnalysts": 4,
+    "revYearAgo": 129382000,
+    "revGrowth": 12.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.86,
+    "epsLow": 0.86,
+    "epsHigh": 0.86,
+    "epsYearAgo": 0.59,
+    "epsAnalysts": 1,
+    "epsGrowth": 45.8,
+    "epsCur": "USD",
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 2.57,
+    "epsLow": 2.36,
+    "epsHigh": 2.77,
+    "epsYearAgo": 2.07,
+    "epsAnalysts": 4,
+    "epsGrowth": 24,
+    "epsCur": "USD",
+    "rev": 613752890,
+    "revAnalysts": 4,
+    "revYearAgo": 536760000,
+    "revGrowth": 14.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 2.92,
+    "epsLow": 2.62,
+    "epsHigh": 3.32,
+    "epsYearAgo": 2.57,
+    "epsAnalysts": 4,
+    "epsGrowth": 13.8,
+    "epsCur": "USD",
+    "rev": 668693850,
+    "revAnalysts": 4,
+    "revYearAgo": 613752890,
+    "revGrowth": 8.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.57,
+    "d7": 6.6,
+    "d30": 6.6,
+    "d90": 2.3,
+    "ago90": 0.56,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.86,
+    "d7": 31.3,
+    "d30": 31.3,
+    "d90": 36.5,
+    "ago90": 0.63,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.57,
+    "d7": 6.5,
+    "d30": 6.5,
+    "d90": 2.2,
+    "ago90": 2.51,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 2.92,
+    "d7": 7.3,
+    "d30": 7.3,
+    "d90": 2.8,
+    "ago90": 2.84,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.64,
+    "estimate": 0.62,
+    "surprisePct": 3.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.6,
+    "estimate": 0.6,
+    "surprisePct": 0.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.59,
+    "estimate": 0.61,
+    "surprisePct": -3.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.49,
+    "estimate": 0.47,
+    "surprisePct": 3.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-10-31",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 82,
+     "ptPrior": 72
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 100,
+     "ptPrior": 90
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-19",
+  "numbers": {
+   "price": 89,
+   "ma20": 84.11,
+   "ma50": 74.96,
+   "ma150": 67.01,
+   "distMA50": 18.73,
+   "periodHigh": 101.37,
+   "pullbackFromHigh": -12.2,
+   "volRatio20": 1.04,
+   "dryUpRatio": 0.83
+  },
+  "last10": [
+   {
+    "d": "2026-11-06",
+    "o": 84.35,
+    "h": 85.22,
+    "l": 82.28,
+    "c": 84.02,
+    "v": 364900,
+    "clsPos": 59,
+    "gapPct": -1.72
+   },
+   {
+    "d": "2026-11-09",
+    "o": 84.61,
+    "h": 86.18,
+    "l": 83.89,
+    "c": 85.46,
+    "v": 348400,
+    "clsPos": 69,
+    "gapPct": 0.7
+   },
+   {
+    "d": "2026-11-10",
+    "o": 85.21,
+    "h": 86.63,
+    "l": 84.48,
+    "c": 86,
+    "v": 297900,
+    "clsPos": 71,
+    "gapPct": -0.29
+   },
+   {
+    "d": "2026-11-11",
+    "o": 85.26,
+    "h": 86.39,
+    "l": 84.85,
+    "c": 86.2,
+    "v": 237100,
+    "clsPos": 88,
+    "gapPct": -0.86
+   },
+   {
+    "d": "2026-11-12",
+    "o": 87.11,
+    "h": 87.4,
+    "l": 85.76,
+    "c": 86.22,
+    "v": 235000,
+    "clsPos": 28,
+    "gapPct": 1.06
+   },
+   {
+    "d": "2026-11-13",
+    "o": 86.66,
+    "h": 87.63,
+    "l": 86.24,
+    "c": 87.31,
+    "v": 273100,
+    "clsPos": 77,
+    "gapPct": 0.51
+   },
+   {
+    "d": "2026-11-16",
+    "o": 87.82,
+    "h": 88.72,
+    "l": 87.6,
+    "c": 88.18,
+    "v": 341800,
+    "clsPos": 52,
+    "gapPct": 0.58
+   },
+   {
+    "d": "2026-11-17",
+    "o": 87.56,
+    "h": 88.66,
+    "l": 85.88,
+    "c": 87.69,
+    "v": 406500,
+    "clsPos": 65,
+    "gapPct": -0.7
+   },
+   {
+    "d": "2026-11-18",
+    "o": 87.65,
+    "h": 89.88,
+    "l": 87.37,
+    "c": 89.16,
+    "v": 456100,
+    "clsPos": 71,
+    "gapPct": -0.05
+   },
+   {
+    "d": "2026-11-19",
+    "o": 88.89,
+    "h": 89.03,
+    "l": 87.65,
+    "c": 89,
+    "v": 493300,
+    "clsPos": 98,
+    "gapPct": -0.3
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/EXPO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/EXPO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 23일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

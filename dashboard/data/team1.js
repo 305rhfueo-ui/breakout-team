@@ -516,8 +516,336 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-20",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "앤트로픽은 올랐지만 AI주는 무너졌다",
+        "easy": "앤트로픽이 상장 첫날 주가가 뛰어 세계에서 가치가 가장 높은 상장사 중 하나가 됐다. 그런데 시장은 거꾸로 움직여 나머지 AI 관련주가 크게 밀렸다. 기대했던 대형 상장이 AI 투자 열기를 되살리기보다, 기존 AI주를 팔아 새 주식으로 옮기는 자금 이동으로 읽혔기 때문이다. 아시아에서는 소프트뱅크가 16% 넘게 빠졌다.",
+        "whyMatters": "AI 기대로 올랐던 반도체·소프트웨어 업종에 부담이고, AI 지분을 많이 들고 있는 SoftBank 같은 회사가 가장 먼저 흔들린다. AI 밖에 있는 헬스케어·산업재가 상대적으로 버티는지 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Anthropic's stock surges in its debut — and the rest of the market dives anyway",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+            "date": "2026-11-19",
+            "quote": "Anthropic's stock surges in its debut — and the rest of the market dives anyway",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+            "date": "2026-11-20",
+            "quote": "Anthropic was supposed to save the AI trade. What went wrong?",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+            "date": "2026-11-20",
+            "quote": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-19",
+            "quote": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "AMD가 공매도 리포트에 급락했다",
+        "easy": "주가 하락에 베팅하는 공매도 측이 AMD의 중국 관련 사업 노출 의혹을 담은 보고서를 냈고, 주가가 떨어졌다. 회사의 중국 쪽 매출 구조가 알려진 것과 다를 수 있다는 주장이다. 사실 여부가 가려지기 전이라도 중국 규제 위험이 다시 가격에 반영된다. 반도체주가 중국 불확실성에 얼마나 예민한 상태인지 보여 준 사례다.",
+        "whyMatters": "반도체 업종에 직접 나쁘고, 중국 매출 비중이 큰 Nvidia에도 같은 의심이 번질 수 있다. 회사의 공식 반박이 나오는지 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "AMD dives on short seller report of alleged China exposure",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+            "date": "2026-11-20",
+            "quote": "AMD dives on short seller report of alleged China exposure",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "캘리포니아 검찰이 엔비디아를 조사한다",
+        "easy": "캘리포니아 주 검찰총장이 AI 칩의 중국 우회 유출 의혹을 조사하며 Nvidia에 소환장을 보냈다. 수출이 막힌 칩이 제3자를 거쳐 중국에 넘어갔는지 확인하려는 절차다. 조사는 시작 단계지만, 반도체 회사의 중국 매출에 법적 위험이 하나 더 붙었다.",
+        "whyMatters": "반도체 업종, 특히 Nvidia와 중국 비중이 큰 장비·유통 회사에 나쁘다. 조사 대상이 다른 회사로 넓어지는지 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
+            "date": "2026-11-19",
+            "quote": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "California targets Nvidia in China AI chip probe",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-19",
+            "quote": "California targets Nvidia in China AI chip probe",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "상무부가 중국에 AI 칩 판매를 허가했다",
+        "easy": "Mast 하원의원에 따르면 미 상무부가 중국 기업에 AI 칩 87만9천여 개를 파는 것을 승인했다. 수출 통제 틀은 유지하되 일정 사양의 칩은 팔 수 있도록 건별로 허가를 내준 결과다. 반도체 회사에는 매출 길이 열리지만, 의회가 승인 규모를 문제 삼으면 다시 좁아질 수 있다.",
+        "whyMatters": "반도체 업종에 매출 쪽으로는 좋고 정책이 뒤집힐 위험 쪽으로는 나쁘며, Nvidia와 AMD가 양쪽을 가장 크게 받는다. 의회의 반발이 법안이나 청문회로 이어지는지 보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+            "date": "2026-11-20",
+            "quote": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "인튜이트의 부진한 전망이 소프트웨어주를 눌렀다",
+        "easy": "Intuit이 내놓은 다음 분기 가이던스(회사가 제시하는 실적 전망)가 기대에 못 미쳤다. AI가 소프트웨어 회사의 매출을 잠식할 수 있다는 걱정이 숫자로 확인된 셈이다. 그래서 소프트웨어 업종 전반의 눈높이가 한 번 더 내려갔다.",
+        "whyMatters": "소프트웨어 업종에 나쁘고, 구독 매출로 성장해 온 회사들의 다음 전망에 시선이 쏠린다. 같은 업종에서 전망을 낮추는 회사가 더 나오는지 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Intuit's downbeat outlook deepens Wall Street's anxiety about software companies",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+            "date": "2026-11-19",
+            "quote": "Intuit's downbeat outlook deepens Wall Street's anxiety about software companies",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "상원이 인허가 개편 법안을 통과시켰다",
+        "easy": "상원이 AI·에너지 업계가 지지한 BAAJA 인허가 개편 법안을 가결했다. 데이터센터와 발전·송전 설비를 지을 때 허가가 늦어지는 문제를 줄이자는 내용이다. 법으로 확정되면 설비 투자 일정이 앞당겨진다.",
+        "whyMatters": "전력(유틸리티)·산업재·건설 업종에 좋고, 전력 공급에 막혀 있던 데이터센터 투자에도 도움이 된다. 하원 처리와 서명까지 가는지 보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+            "date": "2026-11-20",
+            "quote": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 자리가 아니다. QQQ 종가가 645.04로 10일선·20일선·50일선 아래에 있고, 10일선이 20일선 아래로 내려간 지 23일째라 지수 신호는 빨간불이다. 오늘 뉴스는 앤트로픽 상장이 AI 투자 열기를 되살리지 못했고, 중국 칩 규제와 소프트웨어 전망 하향이 겹쳐 주도주가 먼저 팔렸다는 뜻이다. 빚내서 산 주식(마진부채)이 1년 전보다 22.4% 늘어난 상태라 하락이 길어지면 강제 매도가 매물을 더 부를 수 있다. 이번 주는 10일선이 20일선을 다시 위로 넘는지, 그리고 헬스케어·산업재처럼 AI 밖 업종이 주도권을 이어 가는지를 보면 된다.",
+    "keyRisks": [
+      "AI 주도주 되돌림: AI 기대로 올랐던 종목이 한꺼번에 밀리면 지수 전체가 같이 끌려 내려간다.",
+      "중국 칩 변수: 검찰 조사와 수출 허가 번복은 반도체 회사의 매출 전망을 한 번에 바꿀 수 있다.",
+      "소프트웨어 전망 하향: 다음 분기 전망을 낮추는 회사가 늘어나면 업종 눈높이가 더 내려간다.",
+      "빚으로 산 주식: 마진부채가 쌓인 상태에서 하락이 이어지면 강제 매도 매물이 추가로 나온다."
+    ],
+    "easySummary": [
+      "앤트로픽은 상장 첫날 올랐지만, 나머지 AI 관련주는 크게 밀렸다.",
+      "중국 칩 문제(공매도 리포트·검찰 조사·수출 허가)가 반도체주를 흔들었다.",
+      "지수 신호는 여전히 빨간불이라, 새로 사기보다 조건이 갖춰지는지 기다릴 자리다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 157,
+      "ok": 267,
+      "unverified": 2,
+      "dead": 0,
+      "stripped": 10,
+      "removed": [],
+      "numberCut": 26,
+      "numberCuts": [
+        {
+          "sentence": "4분기 매출은 11.6억 달러로 1년 전보다 16.6% 늘었다.",
+          "missing": [
+            "11.6억 달러",
+            "16.6"
+          ]
+        },
+        {
+          "sentence": "4분기 세전이익은 2.1억 달러로 33.7% 늘었고, 세전이익률은 18.4%까지 올랐다.",
+          "missing": [
+            "2.1억 달러"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 37배로 높고 52주 고점(약 450달러)보다 낮은 335달러 부근이라, 성장이 둔화되면 부담이 된다.",
+          "missing": [
+            "335"
+          ]
+        },
+        {
+          "sentence": "한국투자증권 시세로는 전일 종가 77.45달러에서 86달러로 올랐다.",
+          "missing": [
+            "77.45",
+            "86"
+          ]
+        },
+        {
+          "sentence": "매출은 1년 전보다 39% 늘었다.",
+          "missing": [
+            "39"
+          ]
+        },
+        {
+          "sentence": "AI 모델 훈련을 돕는 스타트업 Applied Compute를 45억 달러에 인수한다.",
+          "missing": [
+            "45억 달러"
+          ]
+        },
+        {
+          "sentence": "52주 고점(96달러, 5월 26일)에서 아직 크게 아래이고 1년 평균선보다 약 12% 낮다.",
+          "missing": [
+            "12"
+          ]
+        },
+        {
+          "sentence": "2026년 7월 마감 분기에 매출 8.05억 달러(1년 전보다 10.6% 증가), 영업이익 1.07억 달러(161% 증가)를 냈다.",
+          "missing": [
+            "10.6"
+          ]
+        },
+        {
+          "sentence": "영업이익률은 13.3%로 직전 분기 7.3%에서 올랐다.",
+          "missing": [
+            "7.3"
+          ]
+        },
+        {
+          "sentence": "영업이익은 7,745만 달러로 약 7.7배가 됐고, 영업이익률은 14.3%로 직전 분기(10.9%)보다 올랐다.",
+          "missing": [
+            "7.7",
+            "10.9"
+          ]
+        },
+        {
+          "sentence": "주가는 8월 12일 고점(247.7달러)보다 약 27% 낮다.",
+          "missing": [
+            "27"
+          ]
+        },
+        {
+          "sentence": "3분기 세전이익 3.09억 달러는 1년 전보다 34.7% 줄었고 순이익도 49% 감소했다.",
+          "missing": [
+            "3.09억 달러"
+          ]
+        },
+        {
+          "sentence": "주당순이익 1.04달러 기준 주가수익비율이 74배이고, 52주 고점(125.82달러)보다 약 39% 낮은 상태다.",
+          "missing": [
+            "39"
+          ]
+        },
+        {
+          "sentence": "현재가 94달러는 52주 고점 156달러(2025년 12월)보다 약 40% 낮다.",
+          "missing": [
+            "40"
+          ]
+        },
+        {
+          "sentence": "제프리스가 9월에 F1 모회사를 매수 의견으로 제시했고, CNBC는 F1이 다른 스포츠 주식보다 덜 올라 따라잡을 여지가 있다는 분석을 전했다.",
+          "missing": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "sentence": "주가는 11월 5일 고점(301.44달러)에서 약 12% 내려 263.59달러다.",
+          "missing": [
+            "12"
+          ]
+        },
+        {
+          "sentence": "52주 고점(126.3달러)보다 아직 25% 가까이 낮고, 오늘 종가는 전일 97.62달러에서 94.44달러로 내렸다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "블룸버그 보도로 사노피가 Insmed 인수를 검토 중이라는 소식이 나왔고, 당일 주가가 약 20% 올랐다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "중간값 기준 성장률은 12.9%로 2분기 17%보다 둔화된다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "오루카의 건선 치료제 후보가 2b상에서 완전 피부 청결 61%를 보였습니다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "오루카의 ORKA-001이 건선 2b상에서 완전 피부 청결 61%를 기록했습니다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "9월 초 실적 이후 증권사 세 곳이 목표가를 내렸다(Roth 90→65, Stifel 106→90, BofA 96→70).",
+          "missing": [
+            "106",
+            "96",
+            "70"
+          ]
+        },
+        {
+          "sentence": "3분기 결과를 회사가 8-K로 공시했다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "9월 제프리스가 F1 모회사를 매수로 제시했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "8월 CNBC는 F1이 다른 스포츠 주식보다 부진했지만 애널리스트들이 앞서갈 것으로 본다고 전했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 매출은 모두 0이다.",
+          "missing": [
+            "4"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-20"
   }
 };

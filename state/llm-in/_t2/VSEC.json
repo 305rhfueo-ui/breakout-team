@@ -1,0 +1,258 @@
+{
+ "ticker": "VSEC",
+ "sector": "Industrials",
+ "industry": "Aerospace & Defense",
+ "nameKo": "VSE",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 66.02,
+  "saleNy": 21.15,
+  "epsCy": 78.18,
+  "epsNy": 19.07,
+  "est": {
+   "cyCur": 6.98446,
+   "cy30": 6.79366,
+   "nyCur": 8.31637,
+   "ny30": 8.28179
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    65.04,
+    26.77,
+    32.44
+   ],
+   "ni": [
+    792.18,
+    "흑자전환",
+    3.87
+   ],
+   "opm": [
+    10.9,
+    10.09,
+    10.79
+   ],
+   "updated": "2026-09-09 06:50:22"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-19",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "VSE",
+  "nameEn": "VSE CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000102752&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 541006000,
+     "profit": 77451000,
+     "netIncome": 47264000,
+     "margin": 14.3,
+     "yoy": {
+      "revenue": 91.2,
+      "profit": 667.8,
+      "netIncome": 1108.2,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 449137000,
+     "profit": 48958000,
+     "netIncome": 28523000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 65,
+      "profit": 117.5,
+      "netIncome": 792.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 324580000,
+     "profit": 32748000,
+     "netIncome": 29055000,
+     "margin": 10.1,
+     "yoy": {
+      "revenue": 26.8,
+      "profit": 33.6,
+      "netIncome": 423.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 301182000,
+     "profit": 32491000,
+     "netIncome": 13567000,
+     "margin": 10.8,
+     "yoy": {
+      "revenue": 32.4,
+      "profit": 59,
+      "netIncome": 3.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "VSE (VSEC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/vse-vsec-q3-2026-earnings-call-transcript",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "VSE Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/vse-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Keybanc Initiates Coverage of VSE with Sector Weight",
+     "url": "https://www.nasdaq.com/articles/keybanc-initiates-coverage-vse-sector-weight",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Cash Dividend On The Way From VSEC",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-vsec",
+     "date": "2026-10-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "VSE (VSEC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/vse-vsec-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "VSE Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/vse-q2-earnings-call-highlights",
+     "date": "2026-08-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "VSE Shareholders Back Preferred Stock Plan as CEO Touts Aviation Growth",
+     "url": "https://www.nasdaq.com/articles/vse-shareholders-back-preferred-stock-plan-ceo-touts-aviation-growth",
+     "date": "2026-05-09",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000071/vsec-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000070/vsec-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000065/vsec-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000055/vsec-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-08",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000051/vsec-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000119312526210245/d115996d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "VSEC",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 66.56,
+  "pbr": 1.73,
+  "eps": 2.71,
+  "bps": 104.53,
+  "shares": 28071400,
+  "marketCapM": 5070,
+  "high52": 247.6939,
+  "high52Date": "2026-08-12",
+  "low52": 138.85,
+  "low52Date": "2026-10-23",
+  "last": 180.61,
+  "prevClose": 183.57,
+  "nameKo": "VSE",
+  "nameEn": "VSE CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 28071400
+ }
+}

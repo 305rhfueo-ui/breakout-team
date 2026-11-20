@@ -1,0 +1,853 @@
+{
+ "key": "Healthcare|Diagnostics & Research",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "industryKo": "진단·연구",
+ "frank": 2,
+ "frank25dChg": 1,
+ "finalWrs": 0.4556,
+ "count": 21,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "CRL",
+   "rs1": 0.04982671949114649,
+   "rs3": 0.20354817237203826,
+   "rs6": 0.930799970909786,
+   "rnk1": 51.98,
+   "rnk3": 9.51,
+   "rnk6": 0.77,
+   "ret1d": -1.6,
+   "high52": 86.38,
+   "dollarVolM": 162.4,
+   "marketCap": "15.71B",
+   "name": "찰스 리버 래브러토리스 인터내셔널"
+  },
+  {
+   "ticker": "TWST",
+   "rs1": -0.09169246026122763,
+   "rs3": -0.1638663922943009,
+   "rs6": 0.7745366792684132,
+   "rnk1": 88.59,
+   "rnk3": 88.5,
+   "rnk6": 1.58,
+   "ret1d": -4.07,
+   "high52": 50.8,
+   "dollarVolM": 251.5,
+   "marketCap": "7.61B",
+   "name": "트위스트 바이오사이언스"
+  },
+  {
+   "ticker": "GRAL",
+   "rs1": -0.09051670853599392,
+   "rs3": 0.40954876811815477,
+   "rs6": 0.757629907399273,
+   "rnk1": 88.41,
+   "rnk3": 0.86,
+   "rnk6": 1.67,
+   "ret1d": 2.68,
+   "high52": 62.98,
+   "dollarVolM": 82.6,
+   "marketCap": "4.71B",
+   "name": "그레일"
+  },
+  {
+   "ticker": "RVTY",
+   "rs1": 0.04812241577543222,
+   "rs3": 0.29259428834597123,
+   "rs6": 0.6393549753481463,
+   "rnk1": 52.89,
+   "rnk3": 3.02,
+   "rnk6": 2.39,
+   "ret1d": -0.55,
+   "high52": 88.27,
+   "dollarVolM": 197.9,
+   "marketCap": "16.92B",
+   "name": "레비티"
+  },
+  {
+   "ticker": "MTD",
+   "rs1": 0.09683874073561374,
+   "rs3": 0.31196806375760594,
+   "rs6": 0.5707943236720593,
+   "rnk1": 30.07,
+   "rnk3": 2.3,
+   "rnk6": 3.38,
+   "ret1d": -1.82,
+   "high52": 94.41,
+   "dollarVolM": 217,
+   "marketCap": "33.93B",
+   "name": "메틀러 톨레도 인터내셔널"
+  },
+  {
+   "ticker": "LH",
+   "rs1": 0.20241667069121244,
+   "rs3": 0.19342632155672695,
+   "rs6": 0.5688156199556714,
+   "rnk1": 5.46,
+   "rnk3": 10.23,
+   "rnk6": 3.56,
+   "ret1d": -0.51,
+   "high52": 98.34,
+   "dollarVolM": 259.1,
+   "marketCap": "29.95B",
+   "name": "랩코프"
+  },
+  {
+   "ticker": "MEDP",
+   "rs1": 0.053808926066095226,
+   "rs3": 0.1164154163323528,
+   "rs6": 0.5339368358595752,
+   "rnk1": 50.36,
+   "rnk3": 26.74,
+   "rnk6": 4.19,
+   "ret1d": -1.99,
+   "high52": 91.36,
+   "dollarVolM": 106.4,
+   "marketCap": "17.73B",
+   "name": "메드페이스 홀딩스"
+  },
+  {
+   "ticker": "TMO",
+   "rs1": 0.10240903242761809,
+   "rs3": 0.17998441428597162,
+   "rs6": 0.5262646204729803,
+   "rnk1": 27.37,
+   "rnk3": 12.76,
+   "rnk6": 4.55,
+   "ret1d": -0.58,
+   "high52": 94.67,
+   "dollarVolM": 1364,
+   "marketCap": "255.19B",
+   "name": "써모 피셔 사이언티픽"
+  },
+  {
+   "ticker": "ICLR",
+   "rs1": 0.11094818202008638,
+   "rs3": 0.21915512722233071,
+   "rs6": 0.5088001330858684,
+   "rnk1": 23.76,
+   "rnk3": 8.07,
+   "rnk6": 5.46,
+   "ret1d": -2.46,
+   "high52": 86.91,
+   "dollarVolM": 178.9,
+   "marketCap": "14.26B",
+   "name": "아이콘"
+  },
+  {
+   "ticker": "DGX",
+   "rs1": 0.14934812272121728,
+   "rs3": 0.15373886207934478,
+   "rs6": 0.4882145507315532,
+   "rnk1": 13.39,
+   "rnk3": 17.72,
+   "rnk6": 6.9,
+   "ret1d": -0.23,
+   "high52": 98.44,
+   "dollarVolM": 287.2,
+   "marketCap": "28.50B",
+   "name": "퀘스트 다이어그노스틱스"
+  },
+  {
+   "ticker": "IQV",
+   "rs1": -0.015415972529280883,
+   "rs3": 0.05038731761667443,
+   "rs6": 0.4708100827804286,
+   "rnk1": 75.07,
+   "rnk3": 46.21,
+   "rnk6": 7.89,
+   "ret1d": -2.83,
+   "high52": 88.07,
+   "dollarVolM": 353.4,
+   "marketCap": "41.29B",
+   "name": "아이큐비아 홀딩스"
+  },
+  {
+   "ticker": "NTRA",
+   "rs1": -0.19331267187840048,
+   "rs3": -0.05109121347541616,
+   "rs6": 0.4546647971274025,
+   "rnk1": 96.89,
+   "rnk3": 72.36,
+   "rnk6": 8.52,
+   "ret1d": 0.15,
+   "high52": 66.28,
+   "dollarVolM": 792.9,
+   "marketCap": "42.04B",
+   "name": "나테라"
+  },
+  {
+   "ticker": "RDNT",
+   "rs1": 0.07368664926063351,
+   "rs3": 0.0012817252762731546,
+   "rs6": 0.4439167868282641,
+   "rnk1": 41.07,
+   "rnk3": 58.48,
+   "rnk6": 9.24,
+   "ret1d": -3.22,
+   "high52": 80.98,
+   "dollarVolM": 52,
+   "marketCap": "5.90B",
+   "name": null
+  },
+  {
+   "ticker": "A",
+   "rs1": 0.092699873342895,
+   "rs3": 0.22462568984164683,
+   "rs6": 0.42354045544489816,
+   "rnk1": 32.06,
+   "rnk3": 7.35,
+   "rnk6": 10.6,
+   "ret1d": -1.12,
+   "high52": 95.82,
+   "dollarVolM": 377.5,
+   "marketCap": "49.44B",
+   "name": null
+  },
+  {
+   "ticker": "DHR",
+   "rs1": 0.07482917526324073,
+   "rs3": 0.15081968603968532,
+   "rs6": 0.39968705446213415,
+   "rnk1": 40.53,
+   "rnk3": 18.44,
+   "rnk6": 12.4,
+   "ret1d": -0.45,
+   "high52": 94.28,
+   "dollarVolM": 932.9,
+   "marketCap": "160.10B",
+   "name": null
+  },
+  {
+   "ticker": "ILMN",
+   "rs1": -0.17079829748987582,
+   "rs3": -0.015245314375981575,
+   "rs6": 0.3502393137082574,
+   "rnk1": 95.63,
+   "rnk3": 64.07,
+   "rnk6": 17.18,
+   "ret1d": -4.45,
+   "high52": 64.87,
+   "dollarVolM": 326.8,
+   "marketCap": "30.34B",
+   "name": null
+  },
+  {
+   "ticker": "IDXX",
+   "rs1": 0.3011903009800061,
+   "rs3": 0.338413041913521,
+   "rs6": 0.34644431218809996,
+   "rnk1": 1.22,
+   "rnk3": 1.85,
+   "rnk6": 17.99,
+   "ret1d": -1.26,
+   "high52": 89.57,
+   "dollarVolM": 273,
+   "marketCap": "54.33B",
+   "name": null
+  },
+  {
+   "ticker": "WAT",
+   "rs1": 0.08631482899890121,
+   "rs3": 0.194453906851279,
+   "rs6": 0.3367877551654742,
+   "rnk1": 34.31,
+   "rnk3": 10.14,
+   "rnk6": 19.34,
+   "ret1d": -2.06,
+   "high52": 94.44,
+   "dollarVolM": 464.1,
+   "marketCap": "89.71B",
+   "name": null
+  },
+  {
+   "ticker": "GH",
+   "rs1": -0.022119640609189486,
+   "rs3": -0.05590018164710052,
+   "rs6": 0.2570607774916791,
+   "rnk1": 77.77,
+   "rnk3": 73.81,
+   "rnk6": 29.35,
+   "ret1d": 0.31,
+   "high52": 76.21,
+   "dollarVolM": 272.2,
+   "marketCap": "19.70B",
+   "name": null
+  },
+  {
+   "ticker": "BLLN",
+   "rs1": -0.06211865590614277,
+   "rs3": 0.029732829386514767,
+   "rs6": 0.1195830296306036,
+   "rnk1": 84.9,
+   "rnk3": 51.89,
+   "rnk6": 55.59,
+   "ret1d": -1.46,
+   "high52": 59.96,
+   "dollarVolM": 82.5,
+   "marketCap": "4.31B",
+   "name": null
+  },
+  {
+   "ticker": "WGS",
+   "rs1": -0.18224579699789864,
+   "rs3": -0.36231816394880634,
+   "rs6": 0.07660271233562606,
+   "rnk1": 96.53,
+   "rnk3": 98.78,
+   "rnk6": 63.07,
+   "ret1d": -5.23,
+   "high52": 28.82,
+   "dollarVolM": 45.2,
+   "marketCap": "1.42B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "CRL": {
+   "cnbc": [
+    {
+     "title": "This drug researcher that just reported earnings could keep rallying, JPMorgan says",
+     "url": "https://www.cnbc.com/2026/08/06/this-drug-researcher-will-rally-on-biotech-funding-boost-jpmorgan-says.html",
+     "date": "2026-08-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify & more",
+     "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-midday-googl-spcx-shop-nem-podd.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 반도체보다 원숭이",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "date": "2026-11-09",
+     "summary": "- Signal: 급증하는 토큰 공급, AI Next Step 은 바이오- Key: 세계 최대 비임상 CRO 기업의 수혜 전망- Step: 반도체 보다 원숭이, R&D 붐이 불러올 쇼티지",
+     "url": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[찰스 리버 래브러토리스 인터내셔널 (NYS:CRL)] 바이오 안전성 평가 수주 회복으로 돌아온 성장세",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "date": "2026-09-17",
+     "summary": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Unlocking Charles River (CRL) International Revenues: Trends, Surprises, and Prospects",
+     "url": "https://www.nasdaq.com/articles/unlocking-charles-river-crl-international-revenues-trends-surprises-and-prospects",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Charles River (CRL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/charles-river-crl-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Charles River (CRL) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/charles-river-crl-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "TWST": {
+   "cnbc": [
+    {
+     "title": "We asked analysts what's behind the massive gains in biotech stocks",
+     "url": "https://www.cnbc.com/video/2026/10/24/we-asked-analysts-whats-behind-the-massive-gains-in-biotech-stocks.html",
+     "date": "2026-10-24",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Twist Bioscience (TWST) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q4-2026-earnings-call-transcript",
+     "date": "2026-11-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Twist Bioscience (TWST) Reports Q4 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-reports-q4-loss-beats-revenue-estimates",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "GRAL": {
+   "cnbc": [
+    {
+     "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Insider Sale: Chief Financial Officer of $GRAL Sells 8,000 Shares",
+     "url": "https://www.nasdaq.com/articles/insider-sale-chief-financial-officer-gral-sells-8000-shares",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAIL Earnings Results: $GRAL Reports Quarterly Earnings",
+     "url": "https://www.nasdaq.com/articles/grail-earnings-results-gral-reports-quarterly-earnings",
+     "date": "2025-05-13",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target",
+     "date": "2025-04-23",
+     "publisher": "Quiver Quantitative"
+    }
+   ]
+  },
+  "RVTY": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase & more",
+     "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-midday-aapl-pltr-nvda-coin-be.html",
+     "date": "2026-11-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Revvity, Pfizer, Palantir & more",
+     "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
+     "date": "2026-11-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Skyworks, Axon, Dave & Buster's, Revvity",
+     "url": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-midday-swks-axon-play-rvty.html",
+     "date": "2026-09-15",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "ELV or RVTY: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/elv-or-rvty-which-better-value-stock-right-now",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "All You Need to Know About Revvity (RVTY) Rating Upgrade to Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-revvity-rvty-rating-upgrade-buy",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Revvity (RVTY) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/revvity-rvty-q3-2026-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Revvity (RVTY) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/revvity-rvty-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "MTD": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "What Mettler-Toledo International (MTD) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-mettler-toledo-international-mtd-said-its-q3-earnings-call",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Mettler-Toledo (MTD) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mettler-toledo-mtd-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Mettler-Toledo (MTD) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/mettler-toledo-mtd-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Mettler-Toledo (MTD) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-mettler-toledo-mtd-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "LH": {
+   "cnbc": [
+    {
+     "title": "Earnings season is heating up. UBS thinks these stocks could beat expectations",
+     "url": "https://www.cnbc.com/2026/10/14/ubs-thinks-these-stocks-could-beat-expectations-this-earnings-season.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Lennar, Capri, Vicor, Amgen & more",
+     "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-midday-len-cpri-vicr-amg.html",
+     "date": "2026-09-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making big moves premarket: Alibaba, Quest Diagnostics, On Holding",
+     "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-premarket-baba-dgx-onon-gme.html",
+     "date": "2026-09-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Labcorp (LH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/labcorp-lh-q3-2026-earnings-call-transcript",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Labcorp (LH) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-labcorp-lh-q3-earnings-look-key-metrics",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "MEDP": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "CON or MEDP: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/con-or-medp-which-better-value-stock-right-now-0",
+     "date": "2026-11-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Medpace (MEDP) Stock Outpacing Its Medical Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/medpace-medp-stock-outpacing-its-medical-peers-year",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Medpace (MEDP)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-medpace-medp",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "TMO": {
+   "cnbc": [
+    {
+     "title": "Josh Brown's list includes two names that can benefit from rotation out of AI",
+     "url": "https://www.cnbc.com/2026/10/19/josh-browns-list-includes-two-names-that-can-benefit-from-rotation-out-of-ai.html",
+     "date": "2026-10-19",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "JPMorgan’s best stock ideas heading into October",
+     "url": "https://www.cnbc.com/2026/10/04/jpmorgans-best-stock-ideas-heading-into-october.html",
+     "date": "2026-10-04",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Wednesday's biggest analyst calls: Nvidia, Tesla, Dell, Affirm, Teva, Robinhood",
+     "url": "https://www.cnbc.com/2026/09/09/wednesday-big-analyst-calls-include-nvidia-tesla-dell-first-solar.html",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "A Goldman portfolio of favorite stocks is up 29% this year. Here are the new members",
+     "url": "https://www.cnbc.com/2026/08/24/a-goldman-portfolio-of-favorite-stocks-is-up-29percent-this-year-here-are-the-new-members.html",
+     "date": "2026-08-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Corning plunges despite strong quarterly results — here's our plan for the stock",
+     "url": "https://www.cnbc.com/investingclub/2026/07/28/corning-plunges-despite-strong-results-heres-our-plan-for-the-stock.html",
+     "date": "2026-07-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer shares his favorite names in the life sciences space",
+     "url": "https://www.cnbc.com/investingclub/video/2026/11/03/jim-cramer-shares-his-favorite-names-in-the-life-sciences-space.html",
+     "date": "2026-11-03",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[써모 피셔 사이언티픽 (NYS:TMO)] 생명과학 AI 확대의 최대 수혜주",
+     "broker": "유안타증권",
+     "analyst": "하현수",
+     "date": "2026-11-03",
+     "summary": "- 생성형 AI 모델과 자동화 실험실을 통한 closed-loop 구조의 자율 실험실 구축이 본격화되 면서 가설 검증을 위한 wet lab에서의 실험량도 빠르게 증가할 것으로 전망. AI 실험실은 생 명 과학 솔루션 기업 전반에 걸쳐 수요 증가가 예상되나 연구 부문 비중이 큰 thermo fisher의 수혜 강도 높을 것으로 기대.- Olink는 DNA tag을 결합한 2개의 이중 항체를 활용한 단백질 분석법으로 기존 단백질 분 석의 단점을 보완할 수 있을 것. 유전체 분석이 PCR, NGS 등을 거치며 대량의 샘플을 빠 르게 고속 처리가 가능해면서 분석 비용이 빠르게 낮아진 반면 단백질은 분석법의 한계로 느린 비용 감소 추세.",
+     "url": "https://rreport.einfomax.co.kr/report/eqmixxgkqkleexzgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[써모 피셔 사이언티픽 (NYS:TMO)] [26Q3 Review] 유기 성장률 6%로 가속, 가이던스 상향폭은 제한적, 투자의견 매수 하향",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-21",
+     "summary": "- 조정 EPS 6.68달러·유기 6%로 두 분기 연속 가속- 가이던스 상향폭은 Q3 서프라이즈의 절반 수준- NTM PE 25.4배·목표가 근접, 프리마켓 -3.6%",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgxgielxgmxklgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[써모 피셔 사이언티픽 (NYS:TMO)] [3Q26 Preview] 2분기의 반등은 추세였을까, 한 번이었을까, 투자의견 적극 매수 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-12",
+     "summary": "- 3Q26는 2분기 유기 성장률 5%와 네 사업부 동반 반등이 추세로 이어지는지 확인이 핵심- 달러 강세와 이자수익 감소는 부담이지만 주문 증가와 잉여현금흐름 개선이 실적 상회를 뒷받침할 가능성- 유기 성장률 5% 재확인 시 재평가 여지가 있으나 최근 급등으로 부합 수준에서는 차익실현 가능성",
+     "url": "https://rreport.einfomax.co.kr/report/eqmeqxzeqlzxcgzgcgxeegc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Thermo Fisher (TMO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/thermo-fisher-tmo-q3-2026-earnings-call-transcript",
+     "date": "2026-10-21",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "ICLR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "What Icon (ICLR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-icon-iclr-said-its-q3-earnings-call",
+     "date": "2026-10-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "ICON (ICLR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/icon-iclr-q3-2026-earnings-call-transcript",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Icon PLC (ICLR) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/icon-plc-iclr-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Analysts Estimate Icon PLC (ICLR) to Report a Decline in Earnings: What to Look Out for",
+     "url": "https://www.nasdaq.com/articles/analysts-estimate-icon-plc-iclr-report-decline-earnings-what-look-out",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "DGX": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Lennar, Capri, Vicor, Amgen & more",
+     "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-midday-len-cpri-vicr-amg.html",
+     "date": "2026-09-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making big moves premarket: Alibaba, Quest Diagnostics, On Holding",
+     "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-premarket-baba-dgx-onon-gme.html",
+     "date": "2026-09-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "What Quest Diagnostics (DGX) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-quest-diagnostics-dgx-said-its-q3-earnings-call",
+     "date": "2026-10-22",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Quest Diagnostics (DGX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/quest-diagnostics-dgx-q3-2026-earnings-call-transcript",
+     "date": "2026-10-22",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "IQV": {
+   "cnbc": [
+    {
+     "title": "Pharma's 'information arms dealer' is up nearly 80% from an April low. Josh Brown sees more gains",
+     "url": "https://www.cnbc.com/2026/10/22/pharmas-information-arms-dealer-is-up-nearly-80percent-from-an-april-low-josh-brown-sees-more-gains.html",
+     "date": "2026-10-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Boeing, Amkor, Corning, Sandisk & more",
+     "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-midday-ba-amkr-glw-sndk-iqv.html",
+     "date": "2026-07-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "These stocks have momentum on their side heading into earnings, including Amazon",
+     "url": "https://www.cnbc.com/2026/07/25/amazon-other-stocks-with-momentum-heading-into-earnings.html",
+     "date": "2026-07-25",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Josh Brown's 'Best Stocks in the Market:' IQVIA",
+     "url": "https://www.cnbc.com/video/2026/10/22/josh-browns-best-stocks-in-the-market-iqvia.html",
+     "date": "2026-10-22",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "What IQVIA (IQV) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-iqvia-iqv-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "IQVIA (IQV) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/iqvia-iqv-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "IQVIA Holdings (IQV) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/iqvia-holdings-iqv-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "NTRA": {
+   "cnbc": [
+    {
+     "title": "Friday's biggest analyst calls: Nvidia, SpaceX, CoreWeave, Deckers, Unusual Machines & more",
+     "url": "https://www.cnbc.com/2026/10/23/big-wall-street-analyst-calls-friday-include-spacex-coreweave.html",
+     "date": "2026-10-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Final Trades: Micron, Digital Realty, Natera and Moody's",
+     "url": "https://www.cnbc.com/video/2026/11/12/final-trades-micron-digital-realty-natera-and-moodys.html",
+     "date": "2026-11-12",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Final Trades: eBay, Natera, Shake Shack and the COWZ",
+     "url": "https://www.cnbc.com/video/2026/10/29/final-trades-ebay-natera-shake-shack-and-cowz.html",
+     "date": "2026-10-29",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Catalyst Funds’ David Miller: Natera can grow at exponential margins for years to come",
+     "url": "https://www.cnbc.com/video/2026/10/13/catalyst-fundsa-david-miller-natera-can-grow-at-exponential-margins-for-years-to-come.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "I would put Natera on my watch list and not chase the stock here, says Jim Cramer",
+     "url": "https://www.cnbc.com/video/2026/09/03/i-would-put-natera-on-my-watch-list-and-not-chase-the-stock-here-says-jim-cramer.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Natera (NTRA) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/natera-ntra-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Natera (NTRA) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-natera-ntra-said-its-q3-earnings-call",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Natera (NTRA) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/natera-ntra-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[가단트 헬스 (NAS:GH)] 혈액 기반 암 진단의 주도주",
+   "broker": "신한투자증권",
+   "analyst": "하헌호",
+   "date": "2026-11-12",
+   "summary": "- 가던트 헬스는 2012년 설립돼 혈액 기반으로 암을 진단하는 제품 개발 및 출시. 암 진단 넘어 반응도 높은 항암제 예측 등 솔루션까지 제공하는 비즈니스 모델.- 대장암 액체생검 진단기기(쉴드), 견조한 판매량 증가 및 매출 성장세. 시판 2년만에 판매량 13배 증가. 24년 메디케어 적용됐고, 26년부터 민간보험사들도 보장 시작.- 암 환자에 솔루션 제공하는 사업부(Oncology) 제품(Guardant360, MRD, REVEAL)의 높은 수요로 판매 및 매출 각 YoY 36%, 31% 증가해 실적 성장세",
+   "url": "https://rreport.einfomax.co.kr/report/eqmkkxikgzklkqmgcgxeegc.pdf",
+   "via": "연합인포맥스",
+   "keyword": "진단"
+  },
+  {
+   "title": "[가단트 헬스 (NAS:GH)] 액체생검 진단기기 주도주",
+   "broker": "신한투자증권",
+   "analyst": "하헌호",
+   "date": "2026-11-06",
+   "summary": "- 혈액 기반 암 진단, 솔루션 시장에서 주도적 입지 확보. 핵심 제품(쉴드, CDx)의 견조한 매출 성장과 적응증 확대, ASP 상승 등 추가 모멘텀 존재- 3Q26 매출, Non-GAAP EPS는 각 3.6억달러(+36.1% YoY, +7.8% QoQ), -0.29달러로 컨센서스 상회 및 가이던스 상향 조정. 매출 65% 내외를 차 지하는 종양(미세잔존암, 항암제 선별) 사업부가 YoY +25.4% 성장세 기 록했으며 스크리닝(대장암 조기진단) 부문 매출 전년 대비 180.4% 증가- 최근 한 달간 급등락했으나 당기 실적으로 견조한 펀더멘탈, 성장 스토리 확인. 전체 주식시장 우려보다 동사의 중장기 성장 여력에 집중할 시점",
+   "url": "https://rreport.einfomax.co.kr/report/eqmkegzzelkixqmgcgxeegc.pdf",
+   "via": "연합인포맥스",
+   "keyword": "진단"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

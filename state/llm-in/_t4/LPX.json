@@ -1,0 +1,205 @@
+{
+ "ticker": "LPX",
+ "news": [
+  {
+   "title": "Investors Heavily Search Louisiana-Pacific Corporation (LPX): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-louisiana-pacific-corporation-lpx-here-what-you-need-know",
+   "date": "2026-11-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cash Dividend On The Way From Louisiana-Pacific (LPX)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-louisiana-pacific-lpx",
+   "date": "2026-11-18",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Louisiana-Pacific Breaks Below 200-Day Moving Average - Notable for LPX",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-breaks-below-200-day-moving-average-notable-lpx",
+   "date": "2026-11-17",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "What Louisiana-Pacific (LPX) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-louisiana-pacific-lpx-said-its-q3-earnings-call",
+   "date": "2026-11-04",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-lpx-q3-2026-earnings-call-transcript",
+   "date": "2026-11-03",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-lpx-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Louisiana-Pacific (LPX) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/louisiana-pacific-lpx-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insights Into Louisiana-Pacific (LPX) Q3: Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/insights-louisiana-pacific-lpx-q3-wall-street-projections-key-metrics",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search Louisiana-Pacific Corporation (LPX): Here is What You Need to Know",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-louisiana-pacific-130003877.html",
+   "date": "2026-11-19",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "A $7.5 Billion Fund Bought These 3 Stocks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/7-5-billion-fund-bought-113849206.html",
+   "date": "2026-11-15",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "LP Building Solutions Expands Support for Veterans Through Housing, Career Opportunities, and Community Engagement",
+   "url": "https://finance.yahoo.com/small-business/articles/lp-building-solutions-expands-support-140000424.html",
+   "date": "2026-11-11",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000045/lpx-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000040/lpx-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000038/lpx-20260901.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000033/lpx-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000030/lpx-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/60519/000006051926000024/lpx-20260527.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -7.15,
+  "saleNy": 8.15,
+  "epsCy": -57.69,
+  "epsNy": 137.91,
+  "cyTrend": 7.05,
+  "nyTrend": -9.91,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -12.05,
+    -20.72,
+    -16.89
+   ],
+   "ni": [
+    -51.85,
+    -70.33,
+    -112.9
+   ],
+   "opm": [
+    4.52,
+    6.1,
+    -1.94
+   ],
+   "updated": "2026-09-08 10:20:43"
+  }
+ }
+}

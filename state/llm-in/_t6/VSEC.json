@@ -1,0 +1,688 @@
+{
+ "ticker": "VSEC",
+ "date": "2026-11-20",
+ "session": "2026-11-19",
+ "source": "list",
+ "plan": {
+  "ticker": "VSEC",
+  "name": "VSE",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "price": 180.61000061035156,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 194.86,
+  "stop": 184.08,
+  "distToPivotPct": -7.31,
+  "distToPivotAdr": -1.23,
+  "riskPerSharePct": 5.53,
+  "adrPct": 5.97,
+  "extensionAdr": -0.25,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 9,
+   "baseWeeks": 1.8,
+   "depthPct": 16.4,
+   "priorMovePct": 40.3,
+   "higherLows": 1,
+   "contraction": 0.87,
+   "closeRange10Adr": 1.8,
+   "surf10": -0.25,
+   "surf20": 1.11,
+   "slope20": 3.94,
+   "baseLow": 162.82,
+   "lastSwingLow": 162.82
+  },
+  "reasons": [
+   "선행 상승 +40%",
+   "✗ 베이스 1.8주",
+   "깊이 16.4%",
+   "저점 상승 1회",
+   "진폭 0.87배 · 10일 종가폭 1.8 ADR",
+   "10일선 -0.2 ADR · 20일선 +1.1 ADR",
+   "20일선 기울기 +3.94%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.303463601564811,
+    "pct": 98.96302975653742
+   },
+   "m3": {
+    "v": -0.11121070853530664,
+    "pct": 17.44815148782687
+   },
+   "m6": {
+    "v": 0.1324002444901241,
+    "pct": 46.573489630297566
+   }
+  },
+  "ret1m": 21.91,
+  "ret3m": -20.35,
+  "ret6m": 0.27,
+  "marketCap": "5.07B",
+  "volx": 0.69,
+  "volSurgeWk": 0.86,
+  "high52": 72.92,
+  "newHigh52": false,
+  "adr": 5.97,
+  "div50": 6.41,
+  "div200": -6.66,
+  "targetStatus": false,
+  "saleCy": 66.02,
+  "saleNy": 21.15,
+  "epsCy": 78.18,
+  "epsNy": 19.07,
+  "cyTrend": 2.81,
+  "nyTrend": 0.42,
+  "est": {
+   "cyCur": 6.98446,
+   "cy30": 6.79366,
+   "nyCur": 8.31637,
+   "ny30": 8.28179
+  },
+  "fs": {
+   "sale": [
+    65.04,
+    26.77,
+    32.44
+   ],
+   "ni": [
+    792.18,
+    "흑자전환",
+    3.87
+   ],
+   "opm": [
+    10.9,
+    10.09,
+    10.79
+   ],
+   "updated": "2026-09-09 06:50:22"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-19",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "VSE",
+  "nameEn": "VSE CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000102752&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 541006000,
+     "profit": 77451000,
+     "netIncome": 47264000,
+     "margin": 14.3,
+     "yoy": {
+      "revenue": 91.2,
+      "profit": 667.8,
+      "netIncome": 1108.2,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 449137000,
+     "profit": 48958000,
+     "netIncome": 28523000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 65,
+      "profit": 117.5,
+      "netIncome": 792.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 324580000,
+     "profit": 32748000,
+     "netIncome": 29055000,
+     "margin": 10.1,
+     "yoy": {
+      "revenue": 26.8,
+      "profit": 33.6,
+      "netIncome": 423.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 301182000,
+     "profit": 32491000,
+     "netIncome": 13567000,
+     "margin": 10.8,
+     "yoy": {
+      "revenue": 32.4,
+      "profit": 59,
+      "netIncome": 3.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "VSE (VSEC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/vse-vsec-q3-2026-earnings-call-transcript",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "VSE Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/vse-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Keybanc Initiates Coverage of VSE with Sector Weight",
+     "url": "https://www.nasdaq.com/articles/keybanc-initiates-coverage-vse-sector-weight",
+     "date": "2026-10-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Cash Dividend On The Way From VSEC",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-vsec",
+     "date": "2026-10-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "VSE (VSEC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/vse-vsec-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "VSE Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/vse-q2-earnings-call-highlights",
+     "date": "2026-08-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "VSE Shareholders Back Preferred Stock Plan as CEO Touts Aviation Growth",
+     "url": "https://www.nasdaq.com/articles/vse-shareholders-back-preferred-stock-plan-ceo-touts-aviation-growth",
+     "date": "2026-05-09",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000071/vsec-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000070/vsec-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000065/vsec-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000055/vsec-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-08",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000010275226000051/vsec-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/102752/000119312526210245/d115996d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "VSEC",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 66.56,
+  "pbr": 1.73,
+  "eps": 2.71,
+  "bps": 104.53,
+  "shares": 28071400,
+  "marketCapM": 5070,
+  "high52": 247.6939,
+  "high52Date": "2026-08-12",
+  "low52": 138.85,
+  "low52Date": "2026-10-23",
+  "last": 180.61,
+  "prevClose": 183.57,
+  "nameKo": "VSE",
+  "nameEn": "VSE CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 28071400
+ },
+ "estimates": {
+  "ticker": "VSEC",
+  "url": "https://finance.yahoo.com/quote/VSEC/analysis/",
+  "fetchedAt": "2026-11-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.78,
+    "epsLow": 1.6,
+    "epsHigh": 1.91,
+    "epsYearAgo": 1.16,
+    "epsAnalysts": 11,
+    "epsGrowth": 53.2,
+    "epsCur": "USD",
+    "rev": 531949220,
+    "revAnalysts": 10,
+    "revYearAgo": 301182000,
+    "revGrowth": 76.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.84,
+    "epsLow": 1.79,
+    "epsHigh": 1.94,
+    "epsYearAgo": 1.17,
+    "epsAnalysts": 5,
+    "epsGrowth": 57.7,
+    "epsCur": "USD",
+    "rev": 518272630,
+    "revAnalysts": 5,
+    "revYearAgo": 324580000,
+    "revGrowth": 59.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 6.98,
+    "epsLow": 6.71,
+    "epsHigh": 7.24,
+    "epsYearAgo": 3.92,
+    "epsAnalysts": 10,
+    "epsGrowth": 78.2,
+    "epsCur": "USD",
+    "rev": 1846559250,
+    "revAnalysts": 11,
+    "revYearAgo": 1112275000,
+    "revGrowth": 66,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 8.32,
+    "epsLow": 7.93,
+    "epsHigh": 8.72,
+    "epsYearAgo": 6.98,
+    "epsAnalysts": 11,
+    "epsGrowth": 19.1,
+    "epsCur": "USD",
+    "rev": 2237023340,
+    "revAnalysts": 12,
+    "revYearAgo": 1846559250,
+    "revGrowth": 21.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.78,
+    "d7": -0.4,
+    "d30": -2.8,
+    "d90": -2.5,
+    "ago90": 1.82,
+    "up7": 2,
+    "up30": 3,
+    "down7": 2,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.84,
+    "d7": 2.8,
+    "d30": 2.2,
+    "d90": 21.7,
+    "ago90": 1.52,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 6.98,
+    "d7": 0.2,
+    "d30": 2.8,
+    "d90": 2.6,
+    "ago90": 6.81,
+    "up7": 5,
+    "up30": 6,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 8.32,
+    "d7": 0,
+    "d30": 0.4,
+    "d90": 3.8,
+    "ago90": 8.01,
+    "up7": 4,
+    "up30": 6,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.01,
+    "estimate": 1.74,
+    "surprisePct": 15.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.75,
+    "estimate": 0.93,
+    "surprisePct": 87.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.17,
+    "estimate": 0.89,
+    "surprisePct": 31.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.16,
+    "estimate": 0.89,
+    "surprisePct": 29.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 1,
+   "ptLowered": 3,
+   "total": 6,
+   "recent": [
+    {
+     "date": "2026-11-06",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 225,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 220,
+     "ptPrior": 265
+    },
+    {
+     "date": "2026-10-28",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 265,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Keybanc",
+     "action": "init",
+     "from": null,
+     "to": "Sector Weight",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 215,
+     "ptPrior": 245
+    },
+    {
+     "date": "2026-09-15",
+     "firm": "Guggenheim",
+     "action": "init",
+     "from": null,
+     "to": "Neutral",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-19",
+  "numbers": {
+   "price": 180.61,
+   "ma20": 168.62,
+   "ma50": 169.78,
+   "ma150": 190.17,
+   "distMA50": 6.38,
+   "periodHigh": 247.85,
+   "pullbackFromHigh": -27.13,
+   "volRatio20": 0.64,
+   "dryUpRatio": 0.7
+  },
+  "last10": [
+   {
+    "d": "2026-11-06",
+    "o": 168.71,
+    "h": 176.26,
+    "l": 162.82,
+    "c": 172.81,
+    "v": 658200,
+    "clsPos": 74,
+    "gapPct": 2.43
+   },
+   {
+    "d": "2026-11-09",
+    "o": 179.72,
+    "h": 194.11,
+    "l": 178.01,
+    "c": 189.61,
+    "v": 728300,
+    "clsPos": 72,
+    "gapPct": 4
+   },
+   {
+    "d": "2026-11-10",
+    "o": 187.71,
+    "h": 194.86,
+    "l": 183.84,
+    "c": 186.59,
+    "v": 329700,
+    "clsPos": 25,
+    "gapPct": -1
+   },
+   {
+    "d": "2026-11-11",
+    "o": 189.68,
+    "h": 192.81,
+    "l": 185.03,
+    "c": 191.94,
+    "v": 482600,
+    "clsPos": 89,
+    "gapPct": 1.66
+   },
+   {
+    "d": "2026-11-12",
+    "o": 188.26,
+    "h": 190.49,
+    "l": 182.97,
+    "c": 183.62,
+    "v": 457400,
+    "clsPos": 9,
+    "gapPct": -1.92
+   },
+   {
+    "d": "2026-11-13",
+    "o": 182.42,
+    "h": 186.72,
+    "l": 179.38,
+    "c": 181.62,
+    "v": 235000,
+    "clsPos": 31,
+    "gapPct": -0.65
+   },
+   {
+    "d": "2026-11-16",
+    "o": 181.62,
+    "h": 182.68,
+    "l": 177.8,
+    "c": 181.91,
+    "v": 462500,
+    "clsPos": 84,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-17",
+    "o": 180.57,
+    "h": 185.68,
+    "l": 179.36,
+    "c": 180.76,
+    "v": 436300,
+    "clsPos": 22,
+    "gapPct": -0.74
+   },
+   {
+    "d": "2026-11-18",
+    "o": 179.98,
+    "h": 186.14,
+    "l": 179.54,
+    "c": 183.57,
+    "v": 310700,
+    "clsPos": 61,
+    "gapPct": -0.43
+   },
+   {
+    "d": "2026-11-19",
+    "o": 184.79,
+    "h": 185.5,
+    "l": 176.54,
+    "c": 180.61,
+    "v": 326900,
+    "clsPos": 45,
+    "gapPct": 0.66
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VSEC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VSEC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 23일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

@@ -1,0 +1,673 @@
+{
+ "ticker": "GHM",
+ "date": "2026-11-20",
+ "session": "2026-11-19",
+ "source": "list",
+ "plan": {
+  "ticker": "GHM",
+  "name": "그레이엄",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "price": 77.33000183105469,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 93.99,
+  "stop": 89.54,
+  "distToPivotPct": -17.73,
+  "distToPivotAdr": -3.08,
+  "riskPerSharePct": 4.74,
+  "adrPct": 5.76,
+  "extensionAdr": -1.15,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 33.4,
+   "priorMovePct": 14.7,
+   "higherLows": 1,
+   "contraction": 1.19,
+   "closeRange10Adr": 2.5,
+   "surf10": -1.15,
+   "surf20": 0.2,
+   "slope20": 3.94,
+   "baseLow": 62.64,
+   "lastSwingLow": 67.84
+  },
+  "reasons": [
+   "✗ 선행 상승 +15%",
+   "베이스 8주",
+   "✗ 깊이 33.4%",
+   "저점 상승 1회",
+   "✗ 진폭 1.19배 · 10일 종가폭 2.5 ADR",
+   "10일선 -1.2 ADR · 20일선 +0.2 ADR",
+   "20일선 기울기 +3.94%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.28495121666699186,
+    "pct": 98.33183047790803
+   },
+   "m3": {
+    "v": -0.06587767350301311,
+    "pct": 23.76014427412083
+   },
+   "m6": {
+    "v": -0.09243082648929057,
+    "pct": 16.636609558160504
+   }
+  },
+  "ret1m": 20.06,
+  "ret3m": -15.82,
+  "ret6m": -22.21,
+  "marketCap": "0.91B",
+  "volx": 0.64,
+  "volSurgeWk": 0.82,
+  "high52": 61.46,
+  "newHigh52": false,
+  "adr": 5.76,
+  "div50": -2.86,
+  "div200": -15.72,
+  "targetStatus": false,
+  "saleCy": 18.4,
+  "saleNy": 10.96,
+  "epsCy": 32.74,
+  "epsNy": 23.68,
+  "cyTrend": 2.89,
+  "nyTrend": 0.98,
+  "est": {
+   "cyCur": 1.85833,
+   "cy30": 1.80607,
+   "nyCur": 2.2984,
+   "ny30": 2.27602
+  },
+  "fs": {
+   "sale": [
+    28.57,
+    13.03,
+    20.55
+   ],
+   "ni": [
+    -14.86,
+    -55.18,
+    79.16
+   ],
+   "opm": [
+    5.82,
+    3.96,
+    5.51
+   ],
+   "updated": "2026-09-08 08:12:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-11-19",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "그레이엄",
+  "nameEn": "GRAHAM CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000716314&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 69760000,
+     "profit": 5832000,
+     "netIncome": 4637000,
+     "margin": 8.4,
+     "yoy": {
+      "revenue": 5.7,
+      "profit": 36.5,
+      "netIncome": 50.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 71342000,
+     "profit": 4152000,
+     "netIncome": 3912000,
+     "margin": 5.8,
+     "yoy": {
+      "revenue": 28.6,
+      "profit": -16.4,
+      "netIncome": -14.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 67078000,
+     "profit": 2658000,
+     "netIncome": 1970000,
+     "margin": 4,
+     "yoy": {
+      "revenue": 13,
+      "profit": -51.8,
+      "netIncome": -55.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 56701000,
+     "profit": 3124000,
+     "netIncome": 2845000,
+     "margin": 5.5,
+     "yoy": {
+      "revenue": 20.5,
+      "profit": 41.4,
+      "netIncome": 79.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "3 Reasons Growth Investors Will Love Graham (GHM)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-graham-ghm",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Predict a 38.09% Upside in Graham (GHM): Here's  What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-3809-upside-graham-ghm-heres-what-you-should-know",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "William Blair Initiates Coverage of Graham at Outperform",
+     "url": "https://www.nasdaq.com/articles/william-blair-initiates-coverage-graham-outperform",
+     "date": "2026-11-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "What Graham (GHM) Said on Its Q2 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-graham-ghm-said-its-q2-earnings-call",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Graham Corp (GHM) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/graham-corp-ghm-q2-2027-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Graham Corporation Reports Second Quarter Fiscal 2027 Results",
+     "url": "https://www.nasdaq.com/articles/graham-corporation-reports-second-quarter-fiscal-2027-results",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Graham (GHM) Q2 Earnings Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/graham-ghm-q2-earnings-beat-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Graham (GHM) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+     "url": "https://www.nasdaq.com/articles/graham-ghm-earnings-expected-grow-what-know-ahead-next-weeks-release",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/716314/000119312526448436/d893234d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/716314/000119312526369611/d131891d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/716314/000119312526336614/d28324d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/716314/000119312526274996/d154066d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/716314/000119312526273382/d128311d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/716314/000119312526260670/d79259d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "GHM",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 74.21,
+  "pbr": 4.72,
+  "eps": 1.04,
+  "bps": 16.39,
+  "shares": 11738000,
+  "marketCapM": 908,
+  "high52": 125.82,
+  "high52Date": "2026-06-30",
+  "low52": 52.57,
+  "low52Date": "2025-11-21",
+  "last": 77.33,
+  "prevClose": 78.87,
+  "nameKo": "그레이엄",
+  "nameEn": "GRAHAM CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 11738000
+ },
+ "estimates": {
+  "ticker": "GHM",
+  "url": "https://finance.yahoo.com/quote/GHM/analysis/",
+  "fetchedAt": "2026-11-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.36,
+    "epsLow": 0.2,
+    "epsHigh": 0.42,
+    "epsYearAgo": 0.31,
+    "epsAnalysts": 6,
+    "epsGrowth": 17.6,
+    "epsCur": "USD",
+    "rev": 69378570,
+    "revAnalysts": 7,
+    "revYearAgo": 56701000,
+    "revGrowth": 22.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.5,
+    "epsLow": 0.42,
+    "epsHigh": 0.56,
+    "epsYearAgo": 0.33,
+    "epsAnalysts": 6,
+    "epsGrowth": 50.5,
+    "epsCur": "USD",
+    "rev": 79895710,
+    "revAnalysts": 7,
+    "revYearAgo": 67078000,
+    "revGrowth": 19.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 1.86,
+    "epsLow": 1.45,
+    "epsHigh": 1.99,
+    "epsYearAgo": 1.4,
+    "epsAnalysts": 6,
+    "epsGrowth": 32.7,
+    "epsCur": "USD",
+    "rev": 290428850,
+    "revAnalysts": 7,
+    "revYearAgo": 245293000,
+    "revGrowth": 18.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 2.3,
+    "epsLow": 2.08,
+    "epsHigh": 2.5,
+    "epsYearAgo": 1.86,
+    "epsAnalysts": 6,
+    "epsGrowth": 23.7,
+    "epsCur": "USD",
+    "rev": 322247400,
+    "revAnalysts": 7,
+    "revYearAgo": 290428850,
+    "revGrowth": 11,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.36,
+    "d7": -1.9,
+    "d30": -1.9,
+    "d90": 0.6,
+    "ago90": 0.36,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.5,
+    "d7": -8.3,
+    "d30": -8.3,
+    "d90": -7.6,
+    "ago90": 0.54,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.86,
+    "d7": 2.9,
+    "d30": 2.9,
+    "d90": 3.5,
+    "ago90": 1.8,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 2.3,
+    "d7": 1,
+    "d30": 1,
+    "d90": 1.5,
+    "ago90": 2.27,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.52,
+    "estimate": 0.43,
+    "surprisePct": 21.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.49,
+    "estimate": 0.37,
+    "surprisePct": 32.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.33,
+    "estimate": 0.3,
+    "surprisePct": 10.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.31,
+    "estimate": 0.18,
+    "surprisePct": 69.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 0,
+   "ptLowered": 2,
+   "total": 4,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "William Blair",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-11-07",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 100,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 115,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "JP Morgan",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 120,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-05",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-19",
+  "numbers": {
+   "price": 77.33,
+   "ma20": 76.45,
+   "ma50": 79.6,
+   "ma150": 94.37,
+   "distMA50": -2.86,
+   "periodHigh": 125.82,
+   "pullbackFromHigh": -38.54,
+   "volRatio20": 0.63,
+   "dryUpRatio": 0.74
+  },
+  "last10": [
+   {
+    "d": "2026-11-06",
+    "o": 77,
+    "h": 78.38,
+    "l": 73.5,
+    "c": 78.02,
+    "v": 273700,
+    "clsPos": 93,
+    "gapPct": 6.8
+   },
+   {
+    "d": "2026-11-09",
+    "o": 81.14,
+    "h": 91.03,
+    "l": 79.47,
+    "c": 88.64,
+    "v": 329700,
+    "clsPos": 79,
+    "gapPct": 4
+   },
+   {
+    "d": "2026-11-10",
+    "o": 87.31,
+    "h": 89.5,
+    "l": 86.76,
+    "c": 88.24,
+    "v": 172900,
+    "clsPos": 54,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-11-11",
+    "o": 90.51,
+    "h": 90.51,
+    "l": 86.59,
+    "c": 86.69,
+    "v": 150100,
+    "clsPos": 3,
+    "gapPct": 2.57
+   },
+   {
+    "d": "2026-11-12",
+    "o": 85.01,
+    "h": 87.24,
+    "l": 84.74,
+    "c": 85.95,
+    "v": 134300,
+    "clsPos": 48,
+    "gapPct": -1.94
+   },
+   {
+    "d": "2026-11-13",
+    "o": 86.91,
+    "h": 88.57,
+    "l": 82.83,
+    "c": 83.42,
+    "v": 134900,
+    "clsPos": 10,
+    "gapPct": 1.12
+   },
+   {
+    "d": "2026-11-16",
+    "o": 81.22,
+    "h": 81.35,
+    "l": 78.37,
+    "c": 79.33,
+    "v": 120800,
+    "clsPos": 32,
+    "gapPct": -2.64
+   },
+   {
+    "d": "2026-11-17",
+    "o": 79.87,
+    "h": 81.39,
+    "l": 76.64,
+    "c": 78.06,
+    "v": 110900,
+    "clsPos": 30,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-11-18",
+    "o": 78.5,
+    "h": 81.63,
+    "l": 77.93,
+    "c": 78.87,
+    "v": 198500,
+    "clsPos": 25,
+    "gapPct": 0.56
+   },
+   {
+    "d": "2026-11-19",
+    "o": 80.14,
+    "h": 80.3,
+    "l": 76.77,
+    "c": 77.33,
+    "v": 115100,
+    "clsPos": 16,
+    "gapPct": 1.61
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GHM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GHM-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 23일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

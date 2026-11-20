@@ -2,6 +2,36 @@
  "ticker": "PANW",
  "news": [
   {
+   "title": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/palo-alto-3-key-takeaways-long-term-investors",
+   "date": "2026-11-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Palo Alto (PANW) Q1 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/palo-alto-panw-q1-2027-earnings-call-transcript",
+   "date": "2026-11-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Why Palo Alto Networks Stock Rallied Today",
+   "url": "https://www.nasdaq.com/articles/why-palo-alto-networks-stock-rallied-today",
+   "date": "2026-11-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "PANW Q1 Earnings Call Highlights $4.5 Billion AI Deal and Outlook",
+   "url": "https://www.nasdaq.com/articles/panw-q1-earnings-call-highlights-45-billion-ai-deal-and-outlook",
+   "date": "2026-11-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Palo Alto Networks Q1 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/palo-alto-networks-q1-earnings-call-highlights",
+   "date": "2026-11-19",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Palo Alto Networks: Accelerating Growth and a $4.5 Billion Bet on the Future of Cybersecurity",
    "url": "https://www.nasdaq.com/articles/palo-alto-networks-accelerating-growth-and-45-billion-bet-future-cybersecurity",
    "date": "2026-11-18",
@@ -20,40 +50,31 @@
    "publisher": "RTTNews"
   },
   {
-   "title": "Palo Alto Networks To Acquire Applied Compute In $4.5 Bln Deal",
-   "url": "https://www.nasdaq.com/articles/palo-alto-networks-acquire-applied-compute-45-bln-deal",
-   "date": "2026-11-18",
-   "publisher": "RTTNews"
+   "title": "Palo Alto (PANW) Is Turning Heads Again. Here’s Why",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-panw-turning-heads-022336090.html",
+   "date": "2026-11-20",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
   },
   {
-   "title": "Palo Alto Networks Q1 Profit Rises As Revenue Jumps 39%, FY27 Guidance Raised",
-   "url": "https://www.nasdaq.com/articles/palo-alto-networks-q1-profit-rises-revenue-jumps-39-fy27-guidance-raised",
-   "date": "2026-11-18",
-   "publisher": "RTTNews"
+   "title": "Palo Alto Networks (PANW) Stock Jumps As Q1 Results Boost ARR Confidence",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-231511575.html",
+   "date": "2026-11-19",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
   },
   {
-   "title": "Palo Alto Networks (PANW) Q1 Earnings and Revenues Top Estimates",
-   "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-q1-earnings-and-revenues-top-estimates",
-   "date": "2026-11-18",
-   "publisher": "Zacks"
+   "title": "Palo Alto Networks (PANW) CEO Warns AI Cyberattacks Are Causing Widespread Outages",
+   "url": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-ceo-220919739.html",
+   "date": "2026-11-19",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
   },
   {
-   "title": "Here's Why Palo Alto Networks (PANW) is a Strong Growth Stock",
-   "url": "https://www.nasdaq.com/articles/heres-why-palo-alto-networks-panw-strong-growth-stock-0",
-   "date": "2026-11-18",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Palo Alto Networks Q1 27 Earnings Conference Call At 4:30 PM ET",
-   "url": "https://www.nasdaq.com/articles/palo-alto-networks-q1-27-earnings-conference-call-4-30-pm-et",
-   "date": "2026-11-18",
-   "publisher": "RTTNews"
-  },
-  {
-   "title": "Can Rising Cyber Threats Accelerate Cloudflare's Security Growth?",
-   "url": "https://finance.yahoo.com/technology/ai/articles/rising-cyber-threats-accelerate-cloudflares-120800328.html",
-   "date": "2026-11-18",
-   "publisher": "Zacks",
+   "title": "Mimic Virtual Patching Enables Fast, Safe Mitigation of AI-Discovered Vulnerabilities",
+   "url": "https://finance.yahoo.com/technology/ai/articles/mimic-virtual-patching-enables-fast-220500376.html",
+   "date": "2026-11-19",
+   "publisher": "PR Newswire",
    "via": "Yahoo"
   }
  ],
@@ -188,15 +209,33 @@
   ]
  },
  "krReports": {
-  "total": 6,
+  "total": 8,
   "reports": [
+   {
+    "date": "2026-11-19",
+    "broker": "키움증권",
+    "analyst": "김승혁",
+    "title": "[팔로 알토 네트웍스 (NAS:PANW)] AI는 AI로 막는다",
+    "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- FY1Q27 실적은 AI발 취약점 대응 수요로 본업이 성장하며 가이던스를 상회- 구조적 수요 전환은 긍정적이나 AI 모델 투자에 따른 FCF 부담은 확인 필요",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmzegxgczgzgxegcgxeegc.pdf",
+    "pages": "6"
+   },
+   {
+    "date": "2026-11-18",
+    "broker": "대신증권",
+    "analyst": "조재운",
+    "title": "[팔로 알토 네트웍스 (NAS:PANW)] [27Q1 Review] 차세대 보안 ARR 66% 증가에 연간 가이던스 전 항목 상향, 투자의견 매수 상향",
+    "summary": "- 실적: 매출 34.5억달러로 컨센서스 4.2% 상회, 성장률 세 분기 연속 상승- 이익 구성: 조정 순이익 33.1% 증가가 주당 12.9%로 축소- 사업과 가이던스: 차세대 보안 ARR 97.3억달러로 66% 증가, FY27 전 항목 상향- 주가와 밸류에이션: 선행 PER 70.5배, 5년 평균 대비 할증폭 71%에서 29%로 축소",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmzeggikkclklxgcgxeegc.pdf",
+    "pages": "10"
+   },
    {
     "date": "2026-11-03",
     "broker": "대신증권",
     "analyst": "조재운",
     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [27Q1 Preview] 컨센서스 상회보다 FY27 가이던스 상향 여부에 주목, 투자의견 중립 유지",
     "summary": "- 이번 발표에서는 90배 밸류에이션을 정당화할 선행지표가 관건- 선행 PER 91.85배가 성장률 둔화 설정과 맞물려 있음- 구독·지원이 성장을 견인했으나 분리 공시 중단으로 자체 성장은 확인되지 않음",
-    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqimxkmceqzegcgxeeem.pdf",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqimxkmceqzegcgxeegc.pdf",
     "pages": "5"
    },
    {
@@ -205,7 +244,7 @@
     "analyst": "김진구",
     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] FY2030E 장기 성장 목표 상회 여지가 주요 포인트",
     "summary": "- FY4Q26 실적과 다음 분기, 연간 가이던스는 시장 컨센서스를 상회- 연간 ARR과 RPO 가이던스가 시장 기대치에 다소 미치지 못해 주가 하락- AI Agent 시대에 연간 ARR 성장률이 가속화될 수 있을지 여부에 주목해야",
-    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmcleeczzqeqlgcgxeeem.pdf",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmcleeczzqeqlgcgxeegc.pdf",
     "pages": "7"
    },
    {
@@ -214,7 +253,7 @@
     "analyst": "조재운",
     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Review] 선행지표는 최고, 밸류는 90배, 투자의견 중립 유지",
     "summary": "- Q4 매출 34.1억 달러·EPS 1.02달러로 가이던스 상회- FY27 밴드는 컨센서스 위, NGS ARR은 22~23%로 감속- NTM PER 91.9배, 목표가 평균까지 여유 3%",
-    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllieeexmexmxcgcgxeeem.pdf",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllieeexmexmxcgcgxeegc.pdf",
     "pages": "7"
    },
    {
@@ -223,7 +262,7 @@
     "analyst": "조재운",
     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Preview] 3개월 87% 오른 주식이 실적으로 그 값을 증명할까, 투자의견 중립 하향",
     "summary": "- 팔로알토 네트웍스, 3개월 주가 87% 상승해 선행 PER 75배까지 확대, 밸류에이션 부담 상승- 차세대 보안 ARR은 60% 증가했지만 인수 효과 제외 시 28%, 유기적 성장 둔화 여부가 핵심- FY27 가이던스와 마진 회복이 주가 방향 좌우, 투자의견 매수에서 중립으로 하향",
-    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzglqilizkqkgcgxeeem.pdf",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzglqilizkqkgcgxeegc.pdf",
     "pages": "5"
    },
    {
@@ -232,7 +271,7 @@
     "analyst": "조재운",
     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [Issue & News] 중국 CAC, 사이버보안 심사 착수 - 마이크론식 조달금지 리스크 부상",
     "summary": "- 중국 CAC, 팔로알토 제품 사이버보안 심사 착수- 2023년 마이크론 심사·조달금지 사례와 유사한 절차- 中매출 미공시로 실적 영향 크기 파악 어려움",
-    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxeeem.pdf",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxeegc.pdf",
     "pages": "5"
    },
    {
@@ -241,21 +280,21 @@
     "analyst": "김진구",
     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] AI 에이전트 시대의 필요 조건은 사이버 보안",
     "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
-    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxeeem.pdf",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxeegc.pdf",
     "pages": "8"
    }
   ]
  },
  "site": {
   "targetStatus": false,
-  "saleCy": 23.47,
-  "saleNy": 14.44,
-  "epsCy": 8.83,
-  "epsNy": -49.77,
-  "cyTrend": -0.12,
-  "nyTrend": -5.05,
+  "saleCy": 25.73,
+  "saleNy": 13.96,
+  "epsCy": 10.18,
+  "epsNy": -51.21,
+  "cyTrend": 1.13,
+  "nyTrend": -6.62,
   "newHigh52": false,
-  "bbCenterBrk5d": false,
+  "bbCenterBrk5d": true,
   "fs": {
    "sale": [
     34.44,

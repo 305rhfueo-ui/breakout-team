@@ -1,0 +1,177 @@
+{
+ "ticker": "RBCAA",
+ "news": [
+  {
+   "title": "Republic Bancorp (RBCAA) Q3 Earnings Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-q3-earnings-miss-estimates",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "RBCAA Ex-Dividend Reminder - 3/20/26",
+   "url": "https://www.nasdaq.com/articles/rbcaa-ex-dividend-reminder-3-20-26",
+   "date": "2026-03-18",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Republic Bancorp (RBCAA) Q4 Earnings Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-q4-earnings-miss-estimates",
+   "date": "2026-01-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Republic Bancorp Breaks Below 200-Day Moving Average - Notable for RBCAA",
+   "url": "https://www.nasdaq.com/articles/republic-bancorp-breaks-below-200-day-moving-average-notable-rbcaa",
+   "date": "2026-01-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Republic Bancorp to Pay Quarterly, Special Dividends",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/republic-bancorp-pay-quarterly-special-215028037.html",
+   "date": "2026-11-18",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Republic Bancorp, Inc. Declares Regular Quarterly Cash Dividend and Announces Special Cash Dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/republic-bancorp-inc-declares-regular-210000817.html",
+   "date": "2026-11-18",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Republic Bank Expands Financial Wellness Offerings with New Earned Wage Access Solution",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/republic-bank-expands-financial-wellness-180700983.html",
+   "date": "2026-11-17",
+   "publisher": "Business Wire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-18",
+   "reportDate": "2026-11-18",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926129688/rbcaa-20261118x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-23",
+   "reportDate": "2026-10-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926118297/rbcaa-20261023x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926086487/rbcaa-20260724x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-16",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926085103/rbcaa-20260716x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926083868/rbcaa-20260715x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926064475/rbcaa-20260520x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.02,
+  "saleNy": 4.64,
+  "epsCy": 5.11,
+  "epsNy": 2.79,
+  "cyTrend": 2.5,
+  "nyTrend": 3.99,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.88,
+    -11.81,
+    1.25
+   ],
+   "ni": [
+    4.39,
+    -9.94,
+    20.01
+   ],
+   "opm": [
+    34.85,
+    38.53,
+    23.25
+   ],
+   "updated": "2026-09-08 06:25:36"
+  }
+ }
+}

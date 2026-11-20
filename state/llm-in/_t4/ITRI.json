@@ -1,0 +1,229 @@
+{
+ "ticker": "ITRI",
+ "news": [
+  {
+   "title": "Itron (ITRI) Crossed Above the 20-Day Moving Average: What That Means for Investors",
+   "url": "https://www.nasdaq.com/articles/itron-itri-crossed-above-20-day-moving-average-what-means-investors",
+   "date": "2026-11-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts See a 36.08% Upside in Itron (ITRI): Can the Stock Really Move This High?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-3608-upside-itron-itri-can-stock-really-move-high",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Itron (ITRI) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/itron-itri-q3-2026-earnings-call-transcript",
+   "date": "2026-10-27",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Itron (ITRI) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-itron-itri-q3-earnings",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Itron (ITRI) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/itron-itri-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Itron (ITRI) Stock Sinks As Market Gains: Here's Why",
+   "url": "https://www.nasdaq.com/articles/itron-itri-stock-sinks-market-gains-heres-why-0",
+   "date": "2026-10-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Itron (ITRI) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-itron-itri-stock-0",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Itron (ITRI) Crossed Above the 20-Day Moving Average: What That Means for Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/itron-itri-crossed-above-20-133502547.html",
+   "date": "2026-11-19",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Learn Why The Bull Case For PPL (PPL) Could Change Following Earnings Beat",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-ppl-140953847.html",
+   "date": "2026-11-18",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Itron Secures Type 9 Approval for Streetlight Energy Metering in Australia",
+   "url": "https://finance.yahoo.com/energy/articles/itron-secures-type-9-approval-223833699.html",
+   "date": "2026-11-17",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Itron Achieves Type 9 Approval to Enable Measured Streetlight Energy Use in Australia",
+   "url": "https://finance.yahoo.com/energy/articles/itron-achieves-type-9-approval-220000156.html",
+   "date": "2026-11-17",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "PPL Corporation Selects Itron Worker Safety to Enhance Field Safety Processes Across Its Operations",
+   "url": "https://finance.yahoo.com/technology/articles/ppl-corporation-selects-itron-worker-134500051.html",
+   "date": "2026-11-17",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Itron Brings Grid Edge Intelligence to EMEA to Extend Visibility Across the Low-Voltage Grid",
+   "url": "https://finance.yahoo.com/energy/articles/itron-brings-grid-edge-intelligence-134500409.html",
+   "date": "2026-11-09",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Morgan Stanley Sees a Big Opportunity for Itron (ITRI) in the AI Power Boom",
+   "url": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-sees-big-opportunity-143533004.html",
+   "date": "2026-11-08",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000117184326006839/f8k_102626.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000117184326004912/f8k_072826.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000078057126000116/itri-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000117184326002750/f8k_042826.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-13",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000119312526175249/d125229d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-23",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000119312526076749/d925789d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.43,
+  "saleNy": 6.08,
+  "epsCy": -5.03,
+  "epsNy": 2.61,
+  "cyTrend": 5.55,
+  "nyTrend": -0.68,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -7.23,
+    -3.32,
+    -6.72
+   ],
+   "ni": [
+    -22.05,
+    -18.35,
+    74.9
+   ],
+   "opm": [
+    13.51,
+    11.51,
+    13.76
+   ],
+   "updated": "2026-09-09 05:48:55"
+  }
+ }
+}
