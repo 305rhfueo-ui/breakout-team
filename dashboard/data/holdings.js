@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-19T22:10:13.965Z",
+  "updated": "2026-11-20T13:00:09.451Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "CNBC",
           "ko": "트럼프 계좌, 팔란티어 계약 직전 주식 매수 공시",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "트럼프 계좌, 팔란티어 계약 직전 주식 매수 공시",
           "easy": "백악관은 독립 운용역이 모든 결정을 내리며 대통령이나 가족은 관여하지 않는다고 밝혔고, 트럼프가 거래를 지시했다는 증거는 없다고 기사는 전한다.",
           "whyMatters": "팔란티어가 연방 정부 계약에 크게 기대는 회사라는 점과, 이해충돌 논란이 정치적 주목을 받을 수 있다는 점이 드러난 기사다. 다만 기사는 위법 증거가 없다고 밝히며, 매수 금액도 소액 범위다.",
@@ -45,7 +45,7 @@ window.HOLDINGS_DATA = {
           "publisher": "MarketBeat",
           "ko": "팔란티어 CEO 발언이 정치 논란으로 번졌다",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 CEO 발언이 정치 논란으로 번졌다",
           "easy": "팔란티어 공동창업자 겸 CEO 알렉스 카프가 Politico 인터뷰에서 평생 민주당원이었다고 말했고, 일부 관찰자와 투자자가 팔란티어가 '워크(woke)'해진 것 아니냐고 받아들였다. 기사 제목은 이 정치 논란이 더 큰 이야기를 가리고 있다고 말하지만, 제공된 요약에는 그 '더 큰 이야기'가 무엇인지 나오지 않았다.",
           "whyMatters": "CEO 발언이 투자자 사이에서 정치적 해석을 낳고 있다는 점은 알 수 있지만, 실적에 미칠 영향은 기사 요약만으로는 알 수 없다.",
@@ -115,15 +115,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
-          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeeem.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegc.pdf",
           "date": "2026-11-12",
           "publisher": "신한투자증권 심지현",
           "ko": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
           "tone": "good",
           "isNew": false,
           "headline": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
-          "easy": "국내 증권사 리포트 요약이다. 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 본다. 연간 가이던스 상향의 근거로 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 넘어가는 기간 단축과 계약 확장 속도 상승, 3분기 실적 강세를 들었다.",
-          "whyMatters": "보유 중인 입장에서는 AI 확산이 팔란티어의 사업 기회로 이어진다는 긍정적 해석이다. 다만 증권사 한 곳의 시각이며 요약만 확인했다.",
+          "easy": "국내 증권사 리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 2027년 데이터 산업은 AI·AI 에이전트와 얼마나 잘 연계되느냐가 관건인데, 팔란티어는 소버린 AI 수요와 워크플로우를 잇는 AIP 레이어가 강점이라는 설명이다. 연간 가이던스 상향 근거로는 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 넘어가는 기간 단축, 3분기 실적 강세를 들었다.",
+          "whyMatters": "보유자에게는 AI 에이전트 확산이 팔란티어에 위협이 아닐 수 있다는 증권사 시각으로 읽힌다. 다만 기사 본문 없이 증권사 요약만 본 것이라 세부 근거와 수치는 확인되지 않았다.",
           "quote": null,
           "read": false
         },
