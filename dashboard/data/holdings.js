@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-20T13:00:09.451Z",
+  "updated": "2026-11-20T22:10:09.589Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -7,6 +7,36 @@ window.HOLDINGS_DATA = {
       "ticker": "PLTR",
       "side": "long",
       "items": [
+        {
+          "type": "news",
+          "title": "Cathie Wood's Ark Has Been Selling Palantir Stock. Under $160, I'd Buy It Now.",
+          "url": "https://www.nasdaq.com/articles/cathie-woods-ark-has-been-selling-palantir-stock-under-160-id-buy-it-now",
+          "date": "2026-11-20",
+          "publisher": "The Motley Fool",
+          "ko": "아크 펀드가 팔란티어 주식을 약 1000만 달러어치 매도",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "아크 펀드가 팔란티어 주식을 약 1000만 달러어치 매도",
+          "easy": "캐시 우드의 아크 펀드가 11월 12일 팔란티어 주식 58,339주, 약 1000만 달러어치를 팔았다. 제목에는 160달러 아래면 사겠다는 필자 의견도 담겼다. 본문은 확인하지 못해 매도 이유 등 자세한 내용은 기사에 안 나왔다.",
+          "whyMatters": "유명 펀드의 매도 소식이라 심리에 영향을 줄 수 있지만, 규모가 크지 않고 이유도 확인되지 않아 보유 판단의 근거로 삼기엔 정보가 부족하다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
+          "title": "Investors Heavily Search Palantir Technologies Inc. (PLTR): Here is What You Need to Know",
+          "url": "https://www.nasdaq.com/articles/investors-heavily-search-palantir-technologies-inc-pltr-here-what-you-need-know",
+          "date": "2026-11-20",
+          "publisher": "Zacks",
+          "ko": "팔란티어, Zacks 사용자 사이에서 검색 관심 높아",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, Zacks 사용자 사이에서 검색 관심 높아",
+          "easy": "팔란티어가 Zacks.com 사용자들에게 최근 많은 관심을 받고 있다는 내용이다. 본문은 확인하지 못했고, 구체적인 실적이나 전망 수치는 기사에 안 나왔다.",
+          "whyMatters": "관심이 높다는 것 자체는 주가 방향을 알려주지 않는다. 보유자에게 새로운 호재나 악재 정보는 아니다.",
+          "quote": null,
+          "read": false
+        },
         {
           "type": "cnbc",
           "title": "Trump bought Nvidia, Palantir, SpaceX as federal deals, White House ties grew",
@@ -94,21 +124,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어, 올해 가이던스 3번 올렸는데도 주가 하락",
           "easy": "기사 제목에 따르면 팔란티어는 올해 가이던스를 세 차례 상향했지만 주가는 떨어졌다. 요약에는 사업이 호황이라고만 나와 있다. 주가가 떨어진 이유로 지목된 숫자가 무엇인지는 기사에 안 나왔다.",
           "whyMatters": "보유 중이라면 실적이 좋아도 주가가 하락할 수 있음을 보여주는 사례다. 구체적 원인은 본문을 못 읽어 알 수 없다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Palantir Just Reported Another Blowout Quarter, and the Stock Sank. Here’s Why.",
-          "url": "https://www.nasdaq.com/articles/palantir-just-reported-another-blowout-quarter-and-stock-sank-heres-why",
-          "date": "2026-11-17",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어, 호실적에도 계약가치 성장 둔화로 주가 하락",
-          "tone": "bad",
-          "isNew": false,
-          "headline": "팔란티어, 호실적에도 계약가치 성장 둔화로 주가 하락",
-          "easy": "팔란티어가 또 호실적을 냈지만 주가는 내렸다. 총계약가치(TCV) 성장률이 직전 분기 49%에서 6%로 크게 둔화됐기 때문이다. 제목·요약에 따르면 기간이 짧은 소버린 AI 계약이 여러 건 있어 둔화를 일부 설명한다. 본문은 확인하지 못해 자세한 내용은 기사에 안 나왔다.",
-          "whyMatters": "실적 자체보다 계약 성장 속도가 주가에 더 크게 반영된 사례여서, 보유 중이라면 단기 주가 변동성이 커질 수 있다는 신호다.",
           "quote": null,
           "read": false
         },
