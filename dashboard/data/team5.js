@@ -1,5 +1,5 @@
 window.TEAM5_DATA = {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "siteUpdated": "2026-11-21 03:10:03 UTC",
   "degraded": false,
   "d25": "2026-10-27",

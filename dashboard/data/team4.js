@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -113,7 +113,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -176,7 +176,7 @@ window.TEAM4_DATA = {
       "nameKo": "BJS 홀세일 클럽 홀딩스",
       "nameEn": "BJS WHSL CLUB HLDGS INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "BJS 홀세일 클럽 홀딩스",
         "nameEn": "BJS WHSL CLUB HLDGS INC",
         "financials": {
@@ -258,6 +258,12 @@ window.TEAM4_DATA = {
               "publisher": "The Motley Fool"
             },
             {
+              "title": "BJ's Wholesale Club Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/bjs-wholesale-club-q3-earnings-call-highlights",
+              "date": "2026-11-20",
+              "publisher": "MarketBeat"
+            },
+            {
               "title": "BJ's (BJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
               "url": "https://www.nasdaq.com/articles/bjs-bj-q3-earnings-taking-look-key-metrics-versus-estimates",
               "date": "2026-11-20",
@@ -286,12 +292,6 @@ window.TEAM4_DATA = {
               "url": "https://www.nasdaq.com/articles/stifel-initiates-coverage-bjs-wholesale-club-holdings-hold",
               "date": "2026-11-18",
               "publisher": "Fintel"
-            },
-            {
-              "title": "Is BJ's Wholesale Ready to Surprise the Street This Earnings Season?",
-              "url": "https://www.nasdaq.com/articles/bjs-wholesale-ready-surprise-street-earnings-season",
-              "date": "2026-11-17",
-              "publisher": "Zacks"
             }
           ]
         },
@@ -922,77 +922,70 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
-          "title": "What Elastic (ESTC) Said on Its Q2 Earnings Call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-said-q2-earnings-011308770.html",
+          "title": "Elastic: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-3-key-takeaways-long-205510700.html",
           "date": "2026-11-20",
-          "publisher": "MarketBeat",
+          "publisher": "Motley Fool",
           "via": "Yahoo"
         },
         {
-          "title": "Elastic (ESTC) Earnings Beat Leaves Valuation In Focus Following Softer Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-earnings-beat-leaves-231402974.html",
-          "date": "2026-11-19",
-          "publisher": "Simply Wall St.",
+          "title": "It’s a Tough Time for Software Stocks. What Does Wall Street Think of Elastic?",
+          "url": "https://finance.yahoo.com/m/96f485de-fbd5-35c1-b045-3bc070396cde/it%E2%80%99s-a-tough-time-for.html",
+          "date": "2026-11-20",
+          "publisher": "Barrons.com",
           "via": "Yahoo"
         },
         {
-          "title": "Elastic Stock Slides As Earnings Beat But Guidance Comes In Below Forecasts",
-          "url": "https://finance.yahoo.com/m/b8b6ce88-85fe-36ea-8e8e-00098522db86/elastic-stock-slides-as.html",
-          "date": "2026-11-19",
-          "publisher": "Investor's Business Daily",
+          "title": "Elastic (ESTC) Q2 2027 Earnings Call Transcript",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-q2-2027-earnings-154505654.html",
+          "date": "2026-11-20",
+          "publisher": "Motley Fool",
           "via": "Yahoo"
         },
         {
-          "title": "Elastic (ESTC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-q2-earnings-key-213001357.html",
-          "date": "2026-11-19",
+          "title": "Elastic beats second-quarter estimates as revenue rises 17%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-beats-second-quarter-estimates-150000953.html",
+          "date": "2026-11-20",
+          "publisher": "Proactive",
+          "via": "Yahoo"
+        },
+        {
+          "title": "Elastic Q2 Earnings Call Takeaways as Renewals Tilt Toward Q4",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-q2-earnings-call-takeaways-142800815.html",
+          "date": "2026-11-20",
           "publisher": "Zacks",
           "via": "Yahoo"
         },
         {
-          "title": "Elastic Fiscal Q2 non-GAAP Earnings, Revenue Rise; Sets Q3 Guidance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-fiscal-q2-non-gaap-212319878.html",
-          "date": "2026-11-19",
+          "title": "Monness, Crespi, Hardt Downgrades Elastic to Neutral From Buy",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/monness-crespi-hardt-downgrades-elastic-132736481.html",
+          "date": "2026-11-20",
           "publisher": "MT Newswires",
           "via": "Yahoo"
         },
         {
-          "title": "Elastic (ESTC) Q2 Earnings and Revenues Beat Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-q2-earnings-revenues-212002606.html",
-          "date": "2026-11-19",
-          "publisher": "Zacks",
+          "title": "Wedbush Cuts Price Target on Elastic to $100 From $125, Keeps Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wedbush-cuts-price-target-elastic-114813000.html",
+          "date": "2026-11-20",
+          "publisher": "MT Newswires",
           "via": "Yahoo"
         },
         {
-          "title": "Elastic Reports Second Quarter Fiscal 2027 Financial Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-reports-second-quarter-fiscal-210500160.html",
-          "date": "2026-11-19",
-          "publisher": "Business Wire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Elastic Makes High-Accuracy, Cost-Efficient Jina AI Models Available on Microsoft Foundry",
-          "url": "https://finance.yahoo.com/technology/ai/articles/elastic-makes-high-accuracy-cost-193100251.html",
-          "date": "2026-11-18",
-          "publisher": "Business Wire",
-          "via": "Yahoo"
-        },
-        {
-          "title": "Cloudastructure Inc. (CSAI) Reports Q3 Loss, Misses Revenue Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudastructure-inc-csai-reports-q3-230501306.html",
-          "date": "2026-11-16",
-          "publisher": "Zacks",
+          "title": "RBC Cuts Price Target on Elastic to $105 From $125, Keeps Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-cuts-price-target-elastic-113050768.html",
+          "date": "2026-11-20",
+          "publisher": "MT Newswires",
           "via": "Yahoo"
         }
       ],
       "nameKo": "엘라스틱",
       "nameEn": "ELASTIC N V",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "엘라스틱",
         "nameEn": "ELASTIC N V",
         "financials": {
@@ -1182,20 +1175,20 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "ESTC",
-        "fetchedAt": "2026-11-20",
+        "fetchedAt": "2026-11-22",
         "source": "한국투자증권 Open API",
-        "per": 21.37,
-        "pbr": 6.19,
+        "per": 20.94,
+        "pbr": 6.06,
         "eps": 3.57,
         "bps": 12.34,
         "shares": 105980000,
-        "marketCapM": 8089,
+        "marketCapM": 7926,
         "high52": 108,
         "high52Date": "2026-08-28",
         "low52": 42.05,
         "low52Date": "2026-04-10",
-        "last": 76.33,
-        "prevClose": 83.01,
+        "last": 74.79,
+        "prevClose": 76.33,
         "nameKo": "엘라스틱",
         "nameEn": "ELASTIC N V",
         "listedOn": "2018-10-05",
@@ -1235,52 +1228,52 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "ESTC",
         "url": "https://finance.yahoo.com/quote/ESTC/analysis/",
-        "fetchedAt": "2026-11-20",
+        "fetchedAt": "2026-11-22",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
-            "endDate": "2026-10-31",
-            "eps": 0.81,
-            "epsLow": 0.8,
-            "epsHigh": 0.84,
-            "epsYearAgo": 0.64,
-            "epsAnalysts": 27,
-            "epsGrowth": 26.5,
+            "endDate": "2027-01-31",
+            "eps": 0.91,
+            "epsLow": 0.9,
+            "epsHigh": 0.94,
+            "epsYearAgo": 0.73,
+            "epsAnalysts": 26,
+            "epsGrowth": 24.8,
             "epsCur": "USD",
-            "rev": 486766110,
-            "revAnalysts": 25,
-            "revYearAgo": 423481000,
-            "revGrowth": 14.9,
+            "rev": 508278250,
+            "revAnalysts": 24,
+            "revYearAgo": 449881000,
+            "revGrowth": 13,
             "revCur": "USD"
           },
           {
             "period": "+1q",
-            "endDate": "2027-01-31",
-            "eps": 0.95,
-            "epsLow": 0.9,
-            "epsHigh": 1.06,
-            "epsYearAgo": 0.73,
+            "endDate": "2027-04-30",
+            "eps": 0.83,
+            "epsLow": 0.8,
+            "epsHigh": 0.86,
+            "epsYearAgo": 0.61,
             "epsAnalysts": 26,
-            "epsGrowth": 30.6,
+            "epsGrowth": 35.6,
             "epsCur": "USD",
-            "rev": 517559850,
-            "revAnalysts": 25,
-            "revYearAgo": 449881000,
-            "revGrowth": 15,
+            "rev": 522526120,
+            "revAnalysts": 24,
+            "revYearAgo": 450681000,
+            "revGrowth": 15.9,
             "revCur": "USD"
           },
           {
             "period": "0y",
             "endDate": "2027-04-30",
-            "eps": 3.36,
-            "epsLow": 3.32,
-            "epsHigh": 3.6,
+            "eps": 3.38,
+            "epsLow": 3.35,
+            "epsHigh": 3.45,
             "epsYearAgo": 2.57,
-            "epsAnalysts": 28,
-            "epsGrowth": 30.8,
+            "epsAnalysts": 26,
+            "epsGrowth": 31.5,
             "epsCur": "USD",
-            "rev": 2005160480,
+            "rev": 2004668330,
             "revAnalysts": 27,
             "revYearAgo": 1739331000,
             "revGrowth": 15.3,
@@ -1290,15 +1283,15 @@ window.TEAM4_DATA = {
             "period": "+1y",
             "endDate": "2028-04-30",
             "eps": 3.98,
-            "epsLow": 3.67,
+            "epsLow": 3.6,
             "epsHigh": 4.43,
-            "epsYearAgo": 3.36,
+            "epsYearAgo": 3.38,
             "epsAnalysts": 28,
-            "epsGrowth": 18.3,
+            "epsGrowth": 17.8,
             "epsCur": "USD",
-            "rev": 2300671010,
-            "revAnalysts": 28,
-            "revYearAgo": 2005160480,
+            "rev": 2299286990,
+            "revAnalysts": 27,
+            "revYearAgo": 2004668330,
             "revGrowth": 14.7,
             "revCur": "USD"
           }
@@ -1306,26 +1299,12 @@ window.TEAM4_DATA = {
         "changes": [
           {
             "period": "0q",
-            "endDate": "2026-10-31",
-            "cur": "USD",
-            "now": 0.81,
-            "d7": 0,
-            "d30": 0,
-            "d90": 1.5,
-            "ago90": 0.8,
-            "up7": 0,
-            "up30": 16,
-            "down7": 1,
-            "down30": 9
-          },
-          {
-            "period": "+1q",
             "endDate": "2027-01-31",
             "cur": "USD",
-            "now": 0.95,
-            "d7": 0.1,
-            "d30": 0.1,
-            "d90": -1,
+            "now": 0.91,
+            "d7": -4.3,
+            "d30": -4.3,
+            "d90": -5.4,
             "ago90": 0.96,
             "up7": 0,
             "up30": 6,
@@ -1333,13 +1312,27 @@ window.TEAM4_DATA = {
             "down30": 16
           },
           {
+            "period": "+1q",
+            "endDate": "2027-04-30",
+            "cur": "USD",
+            "now": 0.83,
+            "d7": -7.7,
+            "d30": -7.6,
+            "d90": -8.4,
+            "ago90": 0.9,
+            "up7": 1,
+            "up30": 11,
+            "down7": 0,
+            "down30": 15
+          },
+          {
             "period": "0y",
             "endDate": "2027-04-30",
             "cur": "USD",
-            "now": 3.36,
-            "d7": 0.1,
-            "d30": 0.1,
-            "d90": 3.6,
+            "now": 3.38,
+            "d7": 0.6,
+            "d30": 0.6,
+            "d90": 4.2,
             "ago90": 3.24,
             "up7": 0,
             "up30": 29,
@@ -1351,9 +1344,9 @@ window.TEAM4_DATA = {
             "endDate": "2028-04-30",
             "cur": "USD",
             "now": 3.98,
-            "d7": 0.5,
-            "d30": 0.5,
-            "d90": 2.6,
+            "d7": 0.6,
+            "d30": 0.7,
+            "d90": 2.7,
             "ago90": 3.88,
             "up7": 2,
             "up30": 20,
@@ -1362,6 +1355,13 @@ window.TEAM4_DATA = {
           }
         ],
         "surprises": [
+          {
+            "quarter": "2026-10-31",
+            "actual": 0.94,
+            "estimate": 0.81,
+            "surprisePct": 16.1,
+            "cur": "USD"
+          },
           {
             "quarter": "2026-07-31",
             "actual": 0.7,
@@ -1382,13 +1382,6 @@ window.TEAM4_DATA = {
             "estimate": 0.65,
             "surprisePct": 13,
             "cur": "USD"
-          },
-          {
-            "quarter": "2025-10-31",
-            "actual": 0.64,
-            "estimate": 0.58,
-            "surprisePct": 11.1,
-            "cur": "USD"
           }
         ],
         "beats": 4,
@@ -1396,109 +1389,109 @@ window.TEAM4_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 26,
-          "ptLowered": 1,
-          "total": 30,
+          "ptRaised": 27,
+          "ptLowered": 9,
+          "total": 40,
           "recent": [
             {
-              "date": "2026-11-17",
+              "date": "2026-11-20",
+              "firm": "Rosenblatt",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Maintains",
+              "pt": 115,
+              "ptPrior": 115
+            },
+            {
+              "date": "2026-11-20",
+              "firm": "Jefferies",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Lowers",
+              "pt": 100,
+              "ptPrior": 110
+            },
+            {
+              "date": "2026-11-20",
+              "firm": "B of A Securities",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Lowers",
+              "pt": 100,
+              "ptPrior": 114
+            },
+            {
+              "date": "2026-11-20",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 85,
+              "ptPrior": 75
+            },
+            {
+              "date": "2026-11-20",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Lowers",
+              "pt": 75,
+              "ptPrior": 100
+            },
+            {
+              "date": "2026-11-20",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Lowers",
+              "pt": 102,
+              "ptPrior": 118
+            },
+            {
+              "date": "2026-11-20",
+              "firm": "RBC Capital",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Lowers",
+              "pt": 105,
+              "ptPrior": 125
+            },
+            {
+              "date": "2026-11-20",
               "firm": "TD Cowen",
               "action": "main",
               "from": "Hold",
               "to": "Hold",
               "ptAction": "Lowers",
-              "pt": 85,
-              "ptPrior": 95
+              "pt": 70,
+              "ptPrior": 85
             },
             {
-              "date": "2026-11-12",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 132,
-              "ptPrior": 128
-            },
-            {
-              "date": "2026-10-09",
-              "firm": "Wedbush",
-              "action": "reit",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Maintains",
-              "pt": 125,
-              "ptPrior": 125
-            },
-            {
-              "date": "2026-10-09",
+              "date": "2026-11-20",
               "firm": "Stifel",
               "action": "main",
               "from": "Buy",
               "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 120,
-              "ptPrior": 107
+              "ptAction": "Lowers",
+              "pt": 105,
+              "ptPrior": 120
             },
             {
-              "date": "2026-09-23",
+              "date": "2026-11-20",
               "firm": "Cantor Fitzgerald",
-              "action": "reit",
+              "action": "main",
               "from": "Neutral",
               "to": "Neutral",
-              "ptAction": "Maintains",
-              "pt": 100,
+              "ptAction": "Lowers",
+              "pt": 75,
               "ptPrior": 100
-            },
-            {
-              "date": "2026-08-28",
-              "firm": "Scotiabank",
-              "action": "main",
-              "from": "Sector Perform",
-              "to": "Sector Perform",
-              "ptAction": "Raises",
-              "pt": 84,
-              "ptPrior": 58
-            },
-            {
-              "date": "2026-08-28",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Equal-Weight",
-              "to": "Equal-Weight",
-              "ptAction": "Raises",
-              "pt": 100,
-              "ptPrior": 80
-            },
-            {
-              "date": "2026-08-28",
-              "firm": "UBS",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 105,
-              "ptPrior": 85
-            },
-            {
-              "date": "2026-08-28",
-              "firm": "TD Cowen",
-              "action": "main",
-              "from": "Hold",
-              "to": "Hold",
-              "ptAction": "Raises",
-              "pt": 95,
-              "ptPrior": 70
-            },
-            {
-              "date": "2026-08-28",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 128,
-              "ptPrior": 104
             }
           ]
         },
@@ -1712,7 +1705,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -1733,7 +1726,7 @@ window.TEAM4_DATA = {
       "nameKo": "시냅틱스",
       "nameEn": "SYNAPTICS INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "시냅틱스",
         "nameEn": "SYNAPTICS INC",
         "financials": {
@@ -2333,7 +2326,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -2354,7 +2347,7 @@ window.TEAM4_DATA = {
       "nameKo": "우리 파이낸셜 그룹(ADR)",
       "nameEn": "WOORI FINANCIAL GROUP INC SPON ADS EACH REP 3 ORD SHS",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "우리 파이낸셜 그룹(ADR)",
         "nameEn": "WOORI FINANCIAL GROUP INC SPON ADS EACH REP 3 ORD SHS",
         "financialsError": "매출 태그 없음",
@@ -2876,7 +2869,7 @@ window.TEAM4_DATA = {
         "categoryName": "매크로·정책·산업 돌파",
         "isHighlight": true,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -2975,13 +2968,13 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [],
       "nameKo": "리버티 라이브 C",
       "nameEn": "LIBERTY LIVE HOLDINGS INC.",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "리버티 라이브 C",
         "nameEn": "LIBERTY LIVE HOLDINGS INC.",
         "financials": {
@@ -3525,7 +3518,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -3539,7 +3532,7 @@ window.TEAM4_DATA = {
       "nameKo": "리버티 라이브 A",
       "nameEn": "LIBERTY LIVE HOLDINGS INC.",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "리버티 라이브 A",
         "nameEn": "LIBERTY LIVE HOLDINGS INC.",
         "financials": {
@@ -4074,7 +4067,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -4095,7 +4088,7 @@ window.TEAM4_DATA = {
       "nameKo": "SPS 커머스",
       "nameEn": "SPS COMMERCE INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "SPS 커머스",
         "nameEn": "SPS COMMERCE INC",
         "financials": {
@@ -4702,7 +4695,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -4791,7 +4784,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -4819,7 +4812,7 @@ window.TEAM4_DATA = {
       "nameKo": "코카콜라 유로퍼시픽 파트너스",
       "nameEn": "COCA-COLA EUROPACIFIC PARTNERS",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "코카콜라 유로퍼시픽 파트너스",
         "nameEn": "COCA-COLA EUROPACIFIC PARTNERS",
         "financialsError": "매출 태그 없음",
@@ -5302,7 +5295,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -5351,7 +5344,7 @@ window.TEAM4_DATA = {
       "nameKo": "암젠",
       "nameEn": "AMGEN INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "암젠",
         "nameEn": "AMGEN INC",
         "financials": {
@@ -6153,7 +6146,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -6181,7 +6174,7 @@ window.TEAM4_DATA = {
       "nameKo": "신타스",
       "nameEn": "CINTAS CORP",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "신타스",
         "nameEn": "CINTAS CORP",
         "financials": {
@@ -6876,7 +6869,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -7044,7 +7037,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -7079,7 +7072,7 @@ window.TEAM4_DATA = {
       "nameKo": "엑스트라 스페이스 스토리지",
       "nameEn": "EXTRA SPACE STORAGE INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "엑스트라 스페이스 스토리지",
         "nameEn": "EXTRA SPACE STORAGE INC",
         "financials": {
@@ -7784,7 +7777,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -7847,7 +7840,7 @@ window.TEAM4_DATA = {
       "nameKo": "코페이",
       "nameEn": "CORPAY INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "코페이",
         "nameEn": "CORPAY INC",
         "financials": {
@@ -8524,7 +8517,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -8566,7 +8559,7 @@ window.TEAM4_DATA = {
       "nameKo": "로퍼 테크놀로지스",
       "nameEn": "ROPER TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "로퍼 테크놀로지스",
         "nameEn": "ROPER TECHNOLOGIES INC",
         "financials": {
@@ -9199,7 +9192,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-11-21",
-        "carried": false
+        "carried": true
       },
       "yahooNews": [
         {
@@ -9227,7 +9220,7 @@ window.TEAM4_DATA = {
       "nameKo": "코카콜라 펨사(ADR)",
       "nameEn": "COCA-COLA FEMSA S.A.B. DE C.V. ADS EA REP 10 UNTS(3 SER B SH",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-22",
         "nameKo": "코카콜라 펨사(ADR)",
         "nameEn": "COCA-COLA FEMSA S.A.B. DE C.V. ADS EA REP 10 UNTS(3 SER B SH",
         "financialsError": "매출 태그 없음",
@@ -9715,62 +9708,14 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 17,
     "total": 17,
-    "cap": 17,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 0,
+    "carried": 17,
     "ineligible": 0,
-    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 17종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "PANW",
-        "category": 1,
-        "oneLine": "분기 매출이 예상보다 4.2% 많았고, 회사가 올해 전망을 전부 올렸다."
-      },
-      {
-        "ticker": "P",
-        "category": 1,
-        "oneLine": "이익·매출이 모두 예상을 넘고 연간 전망을 세 분기 연속 올려 주가가 11.37% 올랐다."
-      },
-      {
-        "ticker": "PDD",
-        "category": 1,
-        "oneLine": "순이익은 예상을 넘었지만 매출은 못 미쳤다. 발표 당일 주가는 약 8% 올랐다."
-      },
-      {
-        "ticker": "CPA",
-        "category": 1,
-        "odd": null,
-        "oneLine": "3분기 이익·매출이 예상을 웃돌았고 매출은 31.9% 늘었다."
-      },
-      {
-        "ticker": "VEON",
-        "category": 1,
-        "oneLine": "2030년까지 매출·EBITDA(영업현금 이익) 연 12~15% 성장과 연 2억 달러 주주환원을 제시했다."
-      },
-      {
-        "ticker": "ESTC",
-        "category": 1,
-        "oneLine": "2분기 매출은 예상을 웃돌았지만 다음 분기 전망이 낮아 주가가 초반에 밀렸다."
-      },
-      {
-        "ticker": "RBCAA",
-        "category": 5,
-        "oneLine": "정기 현금배당에 더해 특별배당도 한다고 발표했다."
-      },
-      {
-        "ticker": "HALO",
-        "category": 5,
-        "oneLine": "독일 법원이 머크 키트루다 피하주사 출시 금지를 풀어, 주가가 3개월 저점까지 내렸다."
-      }
-    ],
-    "sectorSignal": "실적 호재 6건 중 PANW·ESTC·P가 보안·검색·AI 저장장치 등 IT 쪽이라 AI 수요 관련 실적이 눈에 띕니다. 나머지(PDD·CPA·VEON)는 업종이 흩어져 있어 뚜렷한 쏠림은 아닙니다.",
-    "caution": "HALO는 주가가 내린 악재성 소식이라 호재로 보기 어렵고, RBCAA의 특별배당은 성장 호재와 성격이 다릅니다. ESTC·PDD는 실적 일부가 예상에 못 미쳐 결과가 엇갈립니다. 가격·차트는 보지 않았으니 직접 확인하세요.",
-    "researchedOn": "2026-11-20"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "BJ",
@@ -9796,12 +9741,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 4건 중 뚜렷하게 몰린 업종은 없습니다. 소매(BJ), 소프트웨어(ESTC), 보험(PLMR), 보관시설 리츠(EXR)로 흩어져 있습니다.",
     "caution": "호재로 분류된 4건 중 BJ·ESTC는 주가가 오히려 내렸고, 산업 기술 돌파로 분류된 종목은 없습니다. 근거 없음으로 분류된 종목은 호재로 보지 마세요. 차트 국면은 판정하지 않았으니 직접 확인하세요.",
     "researchedOn": "2026-11-21"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 4,
-    "3": 1,
-    "5": 1,
-    "6": 11
   }
 };

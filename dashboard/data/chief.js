@@ -1,5 +1,5 @@
 window.CHIEF_DATA = {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "market": {
     "verdict": "red",
     "ko": "🔴 10일선이 20일선 아래 24일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
@@ -17,22 +17,22 @@ window.CHIEF_DATA = {
       "unevaluated": [
         "HPE-C"
       ],
-      "reentryBlocked": 5
+      "reentryBlocked": 7
     },
     "breakouts": 2,
     "epCandidates": 17,
     "chartCheck": 9,
     "chartCheckShown": 9,
     "plans": {
-      "evaluated": 57,
+      "evaluated": 59,
       "near": 4,
       "watch": 0,
       "A": 0,
       "B": 0,
       "blocked": 4,
       "post": 4,
-      "far": 44,
-      "noBase": 4,
+      "far": 45,
+      "noBase": 5,
       "noBars": 1
     }
   },
@@ -448,6 +448,7 @@ window.CHIEF_DATA = {
       ]
     },
     "reusedFrom": null,
-    "reuseAll": null
+    "reuseAll": null,
+    "carried": true
   }
 };

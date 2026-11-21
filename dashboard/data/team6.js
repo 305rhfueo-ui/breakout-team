@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "sessionDate": "2026-11-20",
   "rulesVersion": "0.3",
   "regime": "red",
@@ -456,15 +456,15 @@ window.TEAM6_DATA = {
   ],
   "postTotal": 4,
   "counts": {
-    "evaluated": 57,
+    "evaluated": 59,
     "near": 4,
     "watch": 0,
     "A": 0,
     "B": 0,
     "blocked": 4,
     "post": 4,
-    "far": 44,
-    "noBase": 4,
+    "far": 45,
+    "noBase": 5,
     "noBars": 1
   },
   "noBars": [
@@ -588,15 +588,5 @@ window.TEAM6_DATA = {
     "watch": 0,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 0,
-    "total": 0,
-    "cap": 14,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(0) 조사 완료"
   }
 };
