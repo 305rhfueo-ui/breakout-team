@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-20T22:10:09.589Z",
+  "updated": "2026-11-21T13:00:10.599Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "아크 펀드가 팔란티어 주식을 약 1000만 달러어치 매도",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "아크 펀드가 팔란티어 주식을 약 1000만 달러어치 매도",
           "easy": "캐시 우드의 아크 펀드가 11월 12일 팔란티어 주식 58,339주, 약 1000만 달러어치를 팔았다. 제목에는 160달러 아래면 사겠다는 필자 의견도 담겼다. 본문은 확인하지 못해 매도 이유 등 자세한 내용은 기사에 안 나왔다.",
           "whyMatters": "유명 펀드의 매도 소식이라 심리에 영향을 줄 수 있지만, 규모가 크지 않고 이유도 확인되지 않아 보유 판단의 근거로 삼기엔 정보가 부족하다.",
@@ -30,7 +30,7 @@ window.HOLDINGS_DATA = {
           "publisher": "Zacks",
           "ko": "팔란티어, Zacks 사용자 사이에서 검색 관심 높아",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어, Zacks 사용자 사이에서 검색 관심 높아",
           "easy": "팔란티어가 Zacks.com 사용자들에게 최근 많은 관심을 받고 있다는 내용이다. 본문은 확인하지 못했고, 구체적인 실적이나 전망 수치는 기사에 안 나왔다.",
           "whyMatters": "관심이 높다는 것 자체는 주가 방향을 알려주지 않는다. 보유자에게 새로운 호재나 악재 정보는 아니다.",
@@ -130,15 +130,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
-          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegc.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeege.pdf",
           "date": "2026-11-12",
           "publisher": "신한투자증권 심지현",
           "ko": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
           "tone": "good",
           "isNew": false,
           "headline": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
-          "easy": "국내 증권사 리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 2027년 데이터 산업은 AI·AI 에이전트와 얼마나 잘 연계되느냐가 관건인데, 팔란티어는 소버린 AI 수요와 워크플로우를 잇는 AIP 레이어가 강점이라는 설명이다. 연간 가이던스 상향 근거로는 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 넘어가는 기간 단축, 3분기 실적 강세를 들었다.",
-          "whyMatters": "보유자에게는 AI 에이전트 확산이 팔란티어에 위협이 아닐 수 있다는 증권사 시각으로 읽힌다. 다만 기사 본문 없이 증권사 요약만 본 것이라 세부 근거와 수치는 확인되지 않았다.",
+          "easy": "국내 증권사 리포트가 팔란티어를 AI 에이전트·다른 데이터 업체와 경쟁이 아닌 보완 관계로 봤다. 2027년 데이터 산업은 AI 에이전트와 얼마나 잘 연계되느냐가 관건인데, 팔란티어는 AIP로 워크플로우를 잇는 레이어 역할과 소버린 AI 강점이 있다는 설명이다. 연간 가이던스 상향 근거로 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 가는 기간 단축, 3분기 실적 강세를 들었다.",
+          "whyMatters": "보유자에게는 AI 에이전트 확산이 팔란티어를 위협하기보다 보완한다는 증권사 시각이라 우호적이다. 다만 요약만 확인한 내용이며 증권사 한 곳의 의견이다.",
           "quote": null,
           "read": false
         },
