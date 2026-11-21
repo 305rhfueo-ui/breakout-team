@@ -1,0 +1,88 @@
+{
+ "ticker": "KOF",
+ "news": [
+  {
+   "title": "Is Coca Cola Femsa (KOF) Stock Outpacing Its Consumer Staples Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/coca-cola-femsa-kof-stock-outpacing-its-consumer-staples-peers-year",
+   "date": "2026-11-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Coca-Cola FEMSA (KOF) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/coca-cola-femsa-kof-q3-2026-earnings-call-transcript",
+   "date": "2026-10-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Coca Cola Femsa (KOF) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-coca-cola-femsa-kof-said-its-q3-earnings-call",
+   "date": "2026-10-26",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Coca-Cola FEMSA (KOF) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/coca-cola-femsa-kof-q2-2026-earnings-call-transcript",
+   "date": "2026-07-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Upcoming Dividend Run For KOF?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-kof",
+   "date": "2026-06-29",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Is Coca Cola Femsa (KOF) Stock Outpacing Its Consumer Staples Peers This Year?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-femsa-kof-stock-134003966.html",
+   "date": "2026-11-20",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UBS Adjusts Coca-Cola FEMSA Price Target to $124 From $113, Maintains Neutral Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-coca-cola-femsa-145334326.html",
+   "date": "2026-11-17",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Mondelez Stock Stands Out As Rates Stay Higher For Longer",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-mondelez-stock-stands-rates-042307906.html",
+   "date": "2026-11-14",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.74,
+  "saleNy": 8.93,
+  "epsCy": -0.16,
+  "epsNy": 18.12,
+  "cyTrend": -7.64,
+  "nyTrend": -3.69,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.31,
+    17.39,
+    165.16
+   ],
+   "ni": [
+    31.06,
+    -1.89,
+    132.2
+   ],
+   "opm": [
+    13.96,
+    12.73,
+    16.09
+   ],
+   "updated": "2026-09-07 06:38:02"
+  }
+ }
+}

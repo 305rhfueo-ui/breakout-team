@@ -1,0 +1,732 @@
+{
+ "ticker": "KYMR",
+ "date": "2026-11-21",
+ "session": "2026-11-20",
+ "source": "list",
+ "plan": {
+  "ticker": "KYMR",
+  "name": "키메라 테라퓨틱스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 115.30999755859375,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 142.92,
+  "stop": 136.01,
+  "distToPivotPct": -19.32,
+  "distToPivotAdr": -3.22,
+  "riskPerSharePct": 4.83,
+  "adrPct": 5.99,
+  "extensionAdr": -1.67,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 15,
+   "baseWeeks": 3,
+   "depthPct": 20,
+   "priorMovePct": 40.5,
+   "higherLows": 0,
+   "contraction": 0.75,
+   "closeRange10Adr": 3.4,
+   "surf10": -1.67,
+   "surf20": -1.57,
+   "slope20": 1.92,
+   "baseLow": 114.39,
+   "lastSwingLow": 124.22
+  },
+  "reasons": [
+   "선행 상승 +40%",
+   "베이스 3주",
+   "깊이 20%",
+   "✗ 저점 상승 0회",
+   "진폭 0.75배 · 10일 종가폭 3.4 ADR",
+   "✗ 10일선 -1.7 ADR · 20일선 -1.6 ADR",
+   "20일선 기울기 +1.92%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1772950013192681,
+    "pct": 81.92064923354373
+   },
+   "m3": {
+    "v": 0.11443051525431738,
+    "pct": 58.656447249774565
+   },
+   "m6": {
+    "v": 0.8002892786431995,
+    "pct": 98.33183047790803
+   }
+  },
+  "ret1m": 4.11,
+  "ret3m": -4.09,
+  "ret6m": 61.75,
+  "marketCap": "10.19B",
+  "volx": 1.13,
+  "volSurgeWk": 1.61,
+  "high52": 80.68,
+  "newHigh52": false,
+  "adr": 5.99,
+  "div50": -1.92,
+  "div200": 14.66,
+  "targetStatus": false,
+  "saleCy": 153.48,
+  "saleNy": -57.72,
+  "epsCy": 6.41,
+  "epsNy": 30.34,
+  "cyTrend": 2.29,
+  "nyTrend": 0.37,
+  "est": {
+   "cyCur": -3.92663,
+   "cy30": -3.83866,
+   "nyCur": -5.11812,
+   "ny30": -5.0991
+  },
+  "fs": {
+   "sale": [
+    466.4,
+    55.5,
+    -61.17
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -116.32,
+    -244.88,
+    -3409.79
+   ],
+   "updated": "2026-09-08 06:16:21"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-11-20"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-21",
+  "nameKo": "키메라 테라퓨틱스",
+  "nameEn": "KYMERA THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001815442&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -147232000,
+     "netIncome": -131999000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -59.1,
+      "netIncome": -60.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 65000000,
+     "profit": -75607000,
+     "netIncome": -61211000,
+     "margin": -116.3,
+     "yoy": {
+      "revenue": 466.4,
+      "profit": 10.6,
+      "netIncome": 20.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 34365000,
+     "profit": -84154000,
+     "netIncome": -69234000,
+     "margin": -244.9,
+     "yoy": {
+      "revenue": 55.5,
+      "profit": -13.1,
+      "netIncome": -5.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2870000,
+     "profit": -97896000,
+     "netIncome": 535721000,
+     "margin": -3411,
+     "yoy": {
+      "revenue": -61.2,
+      "profit": -21.2,
+      "netIncome": 42.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Kymera (KYMR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-kymr-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Kymera Therapeutics Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-q3-earnings-call-highlights",
+     "date": "2026-10-29",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Kymera Therapeutics, Inc. Reports Third Quarter 2026 Financial Results and Positive KT-579 Phase 1 Trial Data",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-inc-reports-third-quarter-2026-financial-results-and-positive-kt-579",
+     "date": "2026-10-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Can KYMR's Targeted Protein Degradation Pipeline Drive Future Growth?",
+     "url": "https://www.nasdaq.com/articles/can-kymrs-targeted-protein-degradation-pipeline-drive-future-growth",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Raymond James Initiates Coverage of Kymera Therapeutics with Outperform Rating",
+     "url": "https://www.nasdaq.com/articles/raymond-james-initiates-coverage-kymera-therapeutics-outperform-rating",
+     "date": "2026-10-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Kymera Therapeutics (KYMR) Up 10.2% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-102-last-earnings-report-can-it-continue",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can KT-621 Mark a Turning Point for Kymera Therapeutics?",
+     "url": "https://www.nasdaq.com/articles/can-kt-621-mark-turning-point-kymera-therapeutics",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Kymera Therapeutics (KYMR) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526436965/kymr-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526333834/kymr-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526318078/d167778d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281817/d62555d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-24",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281051/d131538d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526261698/d13635d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "KYMR",
+  "fetchedAt": "2026-11-21",
+  "source": "한국투자증권 Open API",
+  "per": 35.57,
+  "pbr": 6.33,
+  "eps": 3.24,
+  "bps": 18.23,
+  "shares": 85371400,
+  "marketCapM": 9844,
+  "high52": 142.92,
+  "high52Date": "2026-11-10",
+  "low52": 63.69,
+  "low52Date": "2025-12-02",
+  "last": 115.31,
+  "prevClose": 119.39,
+  "nameKo": "키메라 테라퓨틱스",
+  "nameEn": "KYMERA THERAPEUTICS INC",
+  "listedOn": "2020-08-19",
+  "exchange": "나스닥",
+  "listedShares": 85371400
+ },
+ "estimates": {
+  "ticker": "KYMR",
+  "url": "https://finance.yahoo.com/quote/KYMR/analysis/",
+  "fetchedAt": "2026-11-21",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -1.29,
+    "epsLow": -1.54,
+    "epsHigh": -0.78,
+    "epsYearAgo": -0.98,
+    "epsAnalysts": 22,
+    "epsGrowth": -31.3,
+    "epsCur": "USD",
+    "rev": 62500,
+    "revAnalysts": 16,
+    "revYearAgo": 2870000,
+    "revGrowth": -97.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": -1.35,
+    "epsLow": -1.52,
+    "epsHigh": -1.08,
+    "epsYearAgo": -0.71,
+    "epsAnalysts": 7,
+    "epsGrowth": -90.1,
+    "epsCur": "USD",
+    "rev": 7000000,
+    "revAnalysts": 6,
+    "revYearAgo": 34365000,
+    "revGrowth": -79.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -3.93,
+    "epsLow": -4.21,
+    "epsHigh": -3.13,
+    "epsYearAgo": -3.69,
+    "epsAnalysts": 22,
+    "epsGrowth": -6.4,
+    "epsCur": "USD",
+    "rev": 99393100,
+    "revAnalysts": 21,
+    "revYearAgo": 39211000,
+    "revGrowth": 153.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -5.12,
+    "epsLow": -6.7,
+    "epsHigh": -3.36,
+    "epsYearAgo": -3.93,
+    "epsAnalysts": 22,
+    "epsGrowth": -30.3,
+    "epsCur": "USD",
+    "rev": 42026800,
+    "revAnalysts": 23,
+    "revYearAgo": 99393100,
+    "revGrowth": -57.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -1.29,
+    "d7": -2.8,
+    "d30": -0.9,
+    "d90": -25,
+    "ago90": -1.03,
+    "up7": 4,
+    "up30": 4,
+    "down7": 6,
+    "down30": 6
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": -1.35,
+    "d7": 0.4,
+    "d30": 0.9,
+    "d90": -27.4,
+    "ago90": -1.06,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -3.93,
+    "d7": -2,
+    "d30": -2.3,
+    "d90": -11.8,
+    "ago90": -3.51,
+    "up7": 2,
+    "up30": 2,
+    "down7": 8,
+    "down30": 8
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -5.12,
+    "d7": -0.4,
+    "d30": -0.4,
+    "d90": -17.5,
+    "ago90": -4.36,
+    "up7": 4,
+    "up30": 5,
+    "down7": 7,
+    "down30": 7
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -1.32,
+    "estimate": -1.27,
+    "surprisePct": -4.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -0.62,
+    "estimate": -0.74,
+    "surprisePct": 16,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.71,
+    "estimate": -0.86,
+    "surprisePct": 17.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.98,
+    "estimate": -0.77,
+    "surprisePct": -27.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 10,
+   "ptLowered": 0,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-11-02",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 170,
+     "ptPrior": 139
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Truist Securities",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 150,
+     "ptPrior": 136
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 116,
+     "ptPrior": 112
+    },
+    {
+     "date": "2026-10-29",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 139,
+     "ptPrior": 134
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 146,
+     "ptPrior": 135
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Raymond James",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 140,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 150,
+     "ptPrior": 135
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 152,
+     "ptPrior": 132
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 144,
+     "ptPrior": 123
+    },
+    {
+     "date": "2026-09-10",
+     "firm": "Wolfe Research",
+     "action": "up",
+     "from": "Peer Perform",
+     "to": "Outperform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-20",
+  "numbers": {
+   "price": 115.31,
+   "ma20": 126.16,
+   "ma50": 117.57,
+   "ma150": 106.08,
+   "distMA50": -1.92,
+   "periodHigh": 142.92,
+   "pullbackFromHigh": -19.32,
+   "volRatio20": 1.25,
+   "dryUpRatio": 0.87
+  },
+  "last10": [
+   {
+    "d": "2026-11-09",
+    "o": 134.17,
+    "h": 140.67,
+    "l": 130.79,
+    "c": 138.86,
+    "v": 1268000,
+    "clsPos": 82,
+    "gapPct": 1.85
+   },
+   {
+    "d": "2026-11-10",
+    "o": 138.86,
+    "h": 142.92,
+    "l": 136.01,
+    "c": 136.64,
+    "v": 995100,
+    "clsPos": 9,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-11",
+    "o": 136.59,
+    "h": 138.01,
+    "l": 134.57,
+    "c": 134.84,
+    "v": 551600,
+    "clsPos": 8,
+    "gapPct": -0.04
+   },
+   {
+    "d": "2026-11-12",
+    "o": 134.19,
+    "h": 134.67,
+    "l": 126.94,
+    "c": 127.17,
+    "v": 685000,
+    "clsPos": 3,
+    "gapPct": -0.48
+   },
+   {
+    "d": "2026-11-13",
+    "o": 126.93,
+    "h": 129.78,
+    "l": 124.9,
+    "c": 127.57,
+    "v": 808700,
+    "clsPos": 55,
+    "gapPct": -0.19
+   },
+   {
+    "d": "2026-11-16",
+    "o": 127.44,
+    "h": 128.93,
+    "l": 123.67,
+    "c": 125.85,
+    "v": 912400,
+    "clsPos": 41,
+    "gapPct": -0.1
+   },
+   {
+    "d": "2026-11-17",
+    "o": 125.67,
+    "h": 126.18,
+    "l": 119.27,
+    "c": 121.52,
+    "v": 855200,
+    "clsPos": 33,
+    "gapPct": -0.14
+   },
+   {
+    "d": "2026-11-18",
+    "o": 120.38,
+    "h": 127.45,
+    "l": 119.83,
+    "c": 121.13,
+    "v": 677500,
+    "clsPos": 17,
+    "gapPct": -0.94
+   },
+   {
+    "d": "2026-11-19",
+    "o": 121,
+    "h": 122.46,
+    "l": 117.65,
+    "c": 119.39,
+    "v": 723200,
+    "clsPos": 36,
+    "gapPct": -0.11
+   },
+   {
+    "d": "2026-11-20",
+    "o": 117.89,
+    "h": 119.6,
+    "l": 114.39,
+    "c": 115.31,
+    "v": 1278300,
+    "clsPos": 18,
+    "gapPct": -1.26
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/KYMR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/KYMR-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 24일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

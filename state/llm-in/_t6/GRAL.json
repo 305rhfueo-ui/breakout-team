@@ -1,0 +1,760 @@
+{
+ "ticker": "GRAL",
+ "date": "2026-11-21",
+ "session": "2026-11-20",
+ "source": "list",
+ "plan": {
+  "ticker": "GRAL",
+  "name": "그레일",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "price": 99.25,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 166.48,
+  "stop": 158.45,
+  "distToPivotPct": -40.38,
+  "distToPivotAdr": -4.99,
+  "riskPerSharePct": 4.82,
+  "adrPct": 8.09,
+  "extensionAdr": -1.76,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 34,
+   "baseWeeks": 6.8,
+   "depthPct": 40.9,
+   "priorMovePct": 174,
+   "higherLows": 0,
+   "contraction": 0.71,
+   "closeRange10Adr": 3.6,
+   "surf10": -1.76,
+   "surf20": -3.47,
+   "slope20": -4.57,
+   "baseLow": 98.36,
+   "lastSwingLow": 117
+  },
+  "reasons": [
+   "선행 상승 +174%",
+   "베이스 6.8주",
+   "✗ 깊이 40.9%",
+   "✗ 저점 상승 0회",
+   "진폭 0.71배 · 10일 종가폭 3.6 ADR",
+   "✗ 10일선 -1.8 ADR · 20일선 -3.5 ADR",
+   "✗ 20일선 기울기 -4.57%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.11501073847579157,
+    "pct": 8.431018935978358
+   },
+   "m3": {
+    "v": 0.3583824323657042,
+    "pct": 98.06131650135256
+   },
+   "m6": {
+    "v": 0.839739598002877,
+    "pct": 98.512173128945
+   }
+  },
+  "ret1m": -25.12,
+  "ret3m": 20.3,
+  "ret6m": 65.69,
+  "marketCap": "4.71B",
+  "volx": 0.63,
+  "volSurgeWk": 1.16,
+  "high52": 59.62,
+  "newHigh52": false,
+  "adr": 8.09,
+  "div50": -19.94,
+  "div200": 25.09,
+  "targetStatus": false,
+  "saleCy": 14.34,
+  "saleNy": 25.59,
+  "epsCy": -50.84,
+  "epsNy": 41.66,
+  "cyTrend": -23.51,
+  "nyTrend": -1.3,
+  "est": {
+   "cyCur": -5.74825,
+   "cy30": -7.51529,
+   "nyCur": -8.14284,
+   "ny30": -8.25022
+  },
+  "fs": {
+   "sale": [
+    25.72,
+    28.11,
+    13.97
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    -388.89,
+    -332.88,
+    -285.37
+   ],
+   "updated": "2026-09-08 08:36:46"
+  },
+  "qualifiedBy": [
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-19",
+   "m6": "2026-11-19"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 2
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-20",
+  "nameKo": "그레일",
+  "nameEn": "GRAIL INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699031&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 44687000,
+     "profit": -173783000,
+     "netIncome": -110247000,
+     "margin": -388.9,
+     "yoy": {
+      "revenue": 25.7,
+      "profit": -9.4,
+      "netIncome": 3.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 40785000,
+     "profit": -135765000,
+     "netIncome": -93187000,
+     "margin": -332.9,
+     "yoy": {
+      "revenue": 28.1,
+      "profit": 11.6,
+      "netIncome": 12.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 43597000,
+     "profit": -124411000,
+     "netIncome": -99176000,
+     "margin": -285.4,
+     "yoy": {
+      "revenue": 14,
+      "profit": 9.1,
+      "netIncome": -2.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 36194000,
+     "profit": -125291000,
+     "netIncome": -88977000,
+     "margin": -346.2,
+     "yoy": {
+      "revenue": 26.3,
+      "profit": 31.7,
+      "netIncome": 29.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Insider Sale: Chief Financial Officer of $GRAL Sells 8,000 Shares",
+     "url": "https://www.nasdaq.com/articles/insider-sale-chief-financial-officer-gral-sells-8000-shares",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAIL Earnings Results: $GRAL Reports Quarterly Earnings",
+     "url": "https://www.nasdaq.com/articles/grail-earnings-results-gral-reports-quarterly-earnings",
+     "date": "2025-05-13",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $500,000 of GRAIL INC. (FORMERLY GRAIL LLC) lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-500000-grail-inc-formerly-grail-llc-lobbying-was-just-disclosed",
+     "date": "2025-05-05",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target",
+     "date": "2025-04-23",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $30,000 of GRAIL INC. lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-30000-grail-inc-lobbying-was-just-disclosed",
+     "date": "2025-01-22",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $50,000 of GRAIL INC. lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-50000-grail-inc-lobbying-was-just-disclosed",
+     "date": "2025-01-17",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Illumina (NASDAQ:ILMN) to Face Significant Loss from Grail Spin-Off",
+     "url": "https://www.nasdaq.com/articles/illumina-nasdaq-ilmn-face-significant-loss-grail-spin",
+     "date": "2024-06-18",
+     "publisher": "TipRanks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026070118/gral-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026053341/gral-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026044693/gral-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026039461/gral-20260601.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026030495/gral-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-19",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000169903126000009/gral-20260219.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-07-16",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[그레일 (NAS:GRAL)] MCED 진단기기 선도기업",
+     "summary": "- 다중암 진단기기(MCED, Multi-Cancer Early Detection) 시장의 선도기업. 아직 상용화에 진입하지 못했으나 ASCO에서 대표 제품의 양호한 임상 데이터로 가능성 입증. 추가 임상, 파트너십 등 호재 빠르게 반영할 전망- 대표 MCED 진단기기 갤러리가 ASCO에서 구체적 성과를 입증해 상용화 기대감 점증. 영국보건당국(NHS)과 공동 진행하는 임상(NHS-Galleri)의 1차 평가지표(3-4기 환자 감소) 달성에는 실패했으나 2차 평가지표 양호- 3-4기 전체 환자 비중 증가했으나 4기 진단은 뚜렷하게 감소. 12개 암의 4기 검진 비율이 14% 줄었고 2차, 3차 검진에서 각 22%, 26% 감소해 치 명적인 병기 발견의 감소 효과 증명. 1-2기에서 발견된 환자는 16% 늘어 갤러리 사용을 통한 조기 진단 및 예후도 개선 가능성 입증",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxeegc.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "GRAL-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "하헌호",
+   "date": "2026-07-16",
+   "title": "[그레일 (NAS:GRAL)] MCED 진단기기 선도기업",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxeegc.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+   "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "GRAL",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 10.75,
+  "pbr": 1.84,
+  "eps": 9.75,
+  "bps": 56.93,
+  "shares": 44962170,
+  "marketCapM": 4714,
+  "high52": 166.475,
+  "high52Date": "2026-10-06",
+  "low52": 41.5,
+  "low52Date": "2026-02-23",
+  "last": 104.84,
+  "prevClose": 102.1,
+  "nameKo": "그레일",
+  "nameEn": "GRAIL INC",
+  "listedOn": "2024-06-25",
+  "exchange": "나스닥",
+  "listedShares": 44962170
+ },
+ "estimates": {
+  "ticker": "GRAL",
+  "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
+  "fetchedAt": "2026-11-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -1.51,
+    "epsLow": -1.59,
+    "epsHigh": -1.46,
+    "epsYearAgo": -2.44,
+    "epsAnalysts": 3,
+    "epsGrowth": 38.3,
+    "epsCur": "USD",
+    "rev": 45269360,
+    "revAnalysts": 9,
+    "revYearAgo": 43597000,
+    "revGrowth": 3.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": -2.49,
+    "epsLow": -2.92,
+    "epsHigh": -1.73,
+    "epsYearAgo": -1.37,
+    "epsAnalysts": 3,
+    "epsGrowth": -81.6,
+    "epsCur": "USD",
+    "rev": 45784880,
+    "revAnalysts": 8,
+    "revYearAgo": 40785000,
+    "revGrowth": 12.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -5.75,
+    "epsLow": -6.17,
+    "epsHigh": -5.48,
+    "epsYearAgo": -11.69,
+    "epsAnalysts": 3,
+    "epsGrowth": 50.8,
+    "epsCur": "USD",
+    "rev": 168273250,
+    "revAnalysts": 9,
+    "revYearAgo": 147172000,
+    "revGrowth": 14.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -8.14,
+    "epsLow": -10.72,
+    "epsHigh": -5.63,
+    "epsYearAgo": -5.75,
+    "epsAnalysts": 4,
+    "epsGrowth": -41.7,
+    "epsCur": "USD",
+    "rev": 211327700,
+    "revAnalysts": 10,
+    "revYearAgo": 168273250,
+    "revGrowth": 25.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -1.51,
+    "d7": 27.9,
+    "d30": 27.9,
+    "d90": 36.6,
+    "ago90": -2.38,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": -2.49,
+    "d7": 13.2,
+    "d30": 13.2,
+    "d90": 13.8,
+    "ago90": -2.88,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -5.75,
+    "d7": 23.5,
+    "d30": 23.5,
+    "d90": 25.1,
+    "ago90": -7.67,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -8.14,
+    "d7": 1.3,
+    "d30": 1.3,
+    "d90": 17.5,
+    "ago90": -9.87,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3,
+    "estimate": -1.9,
+    "surprisePct": 257.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -1.34,
+    "estimate": -2.43,
+    "surprisePct": 44.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -1.37,
+    "estimate": -1.96,
+    "surprisePct": 30.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -2.44,
+    "estimate": -2.53,
+    "surprisePct": 3.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 9,
+   "ptLowered": 0,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-11-10",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 130,
+     "ptPrior": 74
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Raises",
+     "pt": 100,
+     "ptPrior": 84
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 60
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 180,
+     "ptPrior": 88
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 105
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 155,
+     "ptPrior": 75
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 150,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 100,
+     "ptPrior": 65
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 118,
+     "ptPrior": 96
+    },
+    {
+     "date": "2026-09-17",
+     "firm": "RBC Capital",
+     "action": "init",
+     "from": null,
+     "to": "Sector Perform",
+     "ptAction": "Announces",
+     "pt": 84,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-20",
+  "numbers": {
+   "price": 99.25,
+   "ma20": 127.08,
+   "ma50": 123.97,
+   "ma150": 86.18,
+   "distMA50": -19.94,
+   "periodHigh": 166.48,
+   "pullbackFromHigh": -40.38,
+   "volRatio20": 0.83,
+   "dryUpRatio": 0.8
+  },
+  "last10": [
+   {
+    "d": "2026-11-09",
+    "o": 123.63,
+    "h": 134.26,
+    "l": 122.36,
+    "c": 128.08,
+    "v": 809400,
+    "clsPos": 48,
+    "gapPct": 1.8
+   },
+   {
+    "d": "2026-11-10",
+    "o": 125.88,
+    "h": 127.7,
+    "l": 120.41,
+    "c": 124.74,
+    "v": 667600,
+    "clsPos": 59,
+    "gapPct": -1.72
+   },
+   {
+    "d": "2026-11-11",
+    "o": 130.45,
+    "h": 133,
+    "l": 124.83,
+    "c": 125.64,
+    "v": 513400,
+    "clsPos": 10,
+    "gapPct": 4.58
+   },
+   {
+    "d": "2026-11-12",
+    "o": 120.5,
+    "h": 122.68,
+    "l": 115.28,
+    "c": 121.35,
+    "v": 596600,
+    "clsPos": 82,
+    "gapPct": -4.09
+   },
+   {
+    "d": "2026-11-13",
+    "o": 121.95,
+    "h": 122,
+    "l": 114,
+    "c": 115.89,
+    "v": 360800,
+    "clsPos": 24,
+    "gapPct": 0.49
+   },
+   {
+    "d": "2026-11-16",
+    "o": 111.41,
+    "h": 113.06,
+    "l": 104.65,
+    "c": 105.6,
+    "v": 792600,
+    "clsPos": 11,
+    "gapPct": -3.87
+   },
+   {
+    "d": "2026-11-17",
+    "o": 108.95,
+    "h": 110.56,
+    "l": 99.52,
+    "c": 105.88,
+    "v": 699900,
+    "clsPos": 58,
+    "gapPct": 3.17
+   },
+   {
+    "d": "2026-11-18",
+    "o": 106.28,
+    "h": 107.32,
+    "l": 101.34,
+    "c": 102.1,
+    "v": 627500,
+    "clsPos": 13,
+    "gapPct": 0.38
+   },
+   {
+    "d": "2026-11-19",
+    "o": 105,
+    "h": 111.5,
+    "l": 103.29,
+    "c": 104.84,
+    "v": 797000,
+    "clsPos": 19,
+    "gapPct": 2.84
+   },
+   {
+    "d": "2026-11-20",
+    "o": 100.93,
+    "h": 103.96,
+    "l": 98.36,
+    "c": 99.25,
+    "v": 757800,
+    "clsPos": 16,
+    "gapPct": -3.73
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GRAL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GRAL-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 24일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "갤러리 검사 건수 24% 증가가 성장 동력 — FDA 결정은 2027년 1분기 초",
+  "researchedOn": "2026-11-07"
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "ticker": "CPAY",
+ "news": [
+  {
+   "title": "What Corpay (CPAY) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-corpay-cpay-said-its-q3-earnings-call",
+   "date": "2026-11-11",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Corpay (CPAY) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/corpay-cpay-q3-2026-earnings-call-transcript",
+   "date": "2026-11-05",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "This Payments Stock Is a Triple Threat with Profitability, Momentum, and Robust Growth",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/payments-stock-triple-threat-profitability-195003076.html",
+   "date": "2026-11-20",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BILL's Acquisition Price 'Modestly Below' Expectations, KeyBanc Says",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-apos-acquisition-price-apos-163418955.html",
+   "date": "2026-11-20",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Corpay (CPAY) A Bargain Or Fully Priced After Its BILL Deal?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-cpay-bargain-fully-priced-161008976.html",
+   "date": "2026-11-20",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Bill sells for $6B to TPG, Corpay",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-sells-6b-tpg-corpay-155400695.html",
+   "date": "2026-11-20",
+   "publisher": "Payments Dive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BILL to be acquired by TPG and Corpay in $6 billion all-cash deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-acquired-tpg-corpay-6-153500999.html",
+   "date": "2026-11-20",
+   "publisher": "Proactive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
+   "url": "https://finance.yahoo.com/m/e1effaf5-56db-337e-aee9-0feb171792d3/tpg%2C-corpay-to-buy-finance.html",
+   "date": "2026-11-20",
+   "publisher": "The Wall Street Journal",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BILL Holdings to be taken private by TPG and Corpay in $6 billion cash deal",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-taken-private-tpg-233844629.html",
+   "date": "2026-11-19",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BILL Enters $6 Billion Deal to Be Acquired by TPG in Partnership With Corpay",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-enters-6-billion-deal-230645432.html",
+   "date": "2026-11-19",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-20",
+   "reportDate": "2026-11-19",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000066/flt-20261119.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-04",
+   "reportDate": "2026-11-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/flt-20261104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000045/flt-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-22",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000042/flt-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000040/flt-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000036/flt-20260512.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.27,
+  "saleNy": 8.35,
+  "epsCy": 30.97,
+  "epsNy": 13.69,
+  "cyTrend": 2.14,
+  "nyTrend": 1.05,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    21.49,
+    25.39,
+    20.67
+   ],
+   "ni": [
+    -13.62,
+    42.7,
+    6.93
+   ],
+   "opm": [
+    35.28,
+    50.45,
+    45.22
+   ],
+   "updated": "2026-09-07 07:02:36"
+  }
+ }
+}

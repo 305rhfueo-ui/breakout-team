@@ -49,9 +49,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:09:50"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BJ",
+        "category": 1,
+        "company": "BJ's Wholesale Club은 미국 동부에서 회원제 창고형 할인매장을 운영하며, 연회비와 식료품·생활용품 판매로 돈을 번다.",
+        "volumeExplanation": "11월 20일 3분기 실적 발표에서 순이익이 늘고 올해 주당순이익 전망을 올렸다. 다만 장 시작 전 주가는 내렸고, 실적 확인과 전망 해석이 엇갈리며 거래량이 평소의 약 3배로 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 20일 3분기 실적 발표에서 이익이 늘었고, 올해 조정 주당순이익 전망을 올렸다. 다만 장 시작 전 주가는 하락했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BJ's Wholesale Club Q3 Profit Climbs, Lifts FY26 Adj. EPS Outlook; Pre-Market Shares Down",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/bjs-wholesale-club-q3-profit-climbs-lifts-fy26-adj-eps-outlook-pre-market-shares-down",
+                "date": "2026-11-20",
+                "quote": "BJ's Wholesale Club Q3 Profit Climbs, Lifts FY26 Adj. EPS Outlook; Pre-Market Shares Down",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 8-K 공시로 실적 발표(항목 2.02)가 확인된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BJ's Wholesale Club 8-K (실적 발표, item 2.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/bj-20261120.htm",
+                "date": "2026-11-20",
+                "quote": "8-K items 2.02, 9.01 (실적 발표, 재무제표·첨부) filed 2026-11-20",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "판촉 활동이 상품 마진을 눌렀다는 점이 함께 지적됐다. 전망 상향에도 주가가 약세였던 이유로 볼 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BJ's Raises Full-Year Earnings Outlook; Promotional Activities Weigh on Merchandise Margins",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/bj-apos-raises-full-earnings-161358489.html",
+                "date": "2026-11-20",
+                "quote": "BJ's Raises Full-Year Earnings Outlook; Promotional Activities Weigh on Merchandise Margins",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All claims properly sourced. Numbers and facts confirmed in provided quotes and titles."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -815,18 +877,20 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "ESTC",
         "category": 1,
+        "company": "Elastic은 검색·보안·관측(시스템 모니터링) 소프트웨어를 구독형 클라우드로 팔아 돈을 버는 회사입니다.",
+        "volumeExplanation": "11월 19일 장 마감 후 분기 실적을 발표했고, 예상을 넘긴 실적에도 다음 분기 매출 전망이 기대에 못 미쳐 주가가 크게 움직이며 거래량이 평소의 2.6배로 늘었습니다. 다음 분기 전망이 시장 눈높이를 따라가는지가 이 이야기의 맞고 틀림을 가릅니다.",
         "claims": [
           {
             "id": "c1",
-            "statement": "11월 19일 장 마감 후 2분기 실적을 발표했다. 분기 매출 4.96억 달러로 1년 전보다 17% 늘었다.",
+            "statement": "11월 19일 실적 발표에서 순이익·매출이 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Elastic Reports Second Quarter Fiscal 2027 Financial Results",
-                "publisher": "Business Wire",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-reports-second-quarter-fiscal-210500160.html",
+                "title": "Elastic (ESTC) Q2 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/elastic-estc-q2-earnings-and-revenues-beat-estimates",
                 "date": "2026-11-19",
-                "quote": "Total revenue was $496 million, an increase of 17% year-over-year, as reported and on a constant currency basis",
+                "quote": "Elastic (ESTC) Q2 Earnings and Revenues Beat Estimates",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -834,7 +898,7 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "증권사 예상치를 웃도는 실적이었지만, 다음 분기 매출 전망은 예상보다 낮아 주가는 초반에 밀렸다.",
+            "statement": "다음 분기 매출 전망이 예상보다 낮아 주가가 하락했다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -842,42 +906,23 @@ window.TEAM4_DATA = {
                 "publisher": "Investor's Business Daily",
                 "url": "https://finance.yahoo.com/m/b8b6ce88-85fe-36ea-8e8e-00098522db86/elastic-stock-slides-as.html",
                 "date": "2026-11-19",
-                "quote": "Elastic Stock Slides As Earnings Beat But Guidance Comes In Below Forecasts",
+                "quote": "Elastic stock tumbled as weaker-than-expected sales guidance overshadowed strong earnings results.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
-          },
-          {
-            "id": "c3",
-            "statement": "회사는 3분기 매출을 5.075억~5.085억 달러로 제시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Elastic Reports Second Quarter Fiscal 2027 Financial Results",
-                "publisher": "Business Wire",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-reports-second-quarter-fiscal-210500160.html",
-                "date": "2026-11-19",
-                "quote": "Total revenue is expected to be between $507.5 million and $508.5 million, representing 12.9% year-over-year growth at the midpoint",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "회사는 3분기 매출을 5.075억~5.085억 달러로 제시했다. 중간값 기준 성장률은 12.9%로 2분기 17%보다 둔화된다."
           }
         ],
-        "company": "Elastic은 검색·보안·관측 소프트웨어를 구독 형태로 팔아 돈을 번다. 클라우드와 자체 설치형 구독 매출이 중심이다.",
-        "volumeExplanation": "11월 19일 장 마감 후 발표한 2분기 실적이 예상치를 넘었지만 다음 분기 전망이 낮아, 실적 반응을 가늠하려는 매매로 거래량이 평소의 2배 넘게 늘었다. 3분기 전망 성장률이 12.9%로 둔화된 점이 주가 판단의 핵심이다.",
         "confidence": "medium",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "모든 수치가 출처와 일치함"
+          "reason": "Both claims properly sourced with matching quotes. Core facts (earnings beat, weak guidance) confirmed."
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-11-20",
-        "carried": true
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1638,9 +1683,36 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:50:38"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SYNA",
+        "category": 6,
+        "company": "Synaptics는 스마트폰·PC·사물인터넷 기기용 터치·디스플레이·무선 반도체를 설계해 판매한다. onsemi가 주당 123달러 현금으로 인수하기로 한 상태다.",
+        "volumeExplanation": "주주총회에서 onsemi와의 합병이 승인됐다. 인수 절차 진전을 확인하려는 거래가 몰린 것으로 보이며, 거래량이 평소의 2.3배까지 늘었다.",
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "Core facts (stockholder approval, revised merger) confirmed by source titles, but specific numbers (98.34%, $123/share, $5.7B, 2027 completion date) cannot be verified from provided quotes.",
+          "narrativeFixed": true
+        },
+        "originalCategory": 3,
+        "corrected": true,
+        "volumeExplanationOriginal": "11월 17일 주주총회에서 onsemi와의 합병이 98.34% 찬성으로 승인됐다. 인수가가 주당 123달러 현금으로 정해진 종목이라 인수 절차 진전을 확인하려는 거래가 몰린 것으로 보이며, 거래량이 평소의 2.3배까지 늘었다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2239,9 +2311,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:03:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WF",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "우리금융그룹(WF)은 한국 우리은행을 자회사로 둔 금융지주로, 예금·대출 이자와 수수료로 돈을 번다. 미국에는 예탁증서(ADR)로 상장돼 있다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Correctly categorized as no news catalyst, with claim properly marked as no source."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2716,9 +2808,75 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:48:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GPN",
+        "category": 5,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "CD&R and GTCR reportedly weighing $40bn leveraged buyout of Global Payments",
+                "publisher": "FinTech Futures",
+                "url": "https://www.fintechfutures.com/m-a/cdr-gtcr-global-payments-40bn-leveraged-buyout",
+                "date": "2026-11-20",
+                "quote": "CD&R and GTCR reportedly weighing $40bn leveraged buyout of Global Payments",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ],
+            "statementOriginal": "최대주주 GTCR이 CD&R과 함께 약 400억 달러(기업가치) 규모의 인수를 검토한다는 보도가 나오며 주가가 12% 넘게 뛰었다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "11월 13일에는 두 사모펀드가 인수 추진을 접었다는 보도로 주가가 급락했다가, 이번에 GTCR이 다시 인수를 검토한다는 소식으로 반등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Exclusive-CD&R, GTCR drop pursuit of Global Payments, sources say",
+                "publisher": "The Star (Reuters)",
+                "url": "https://www.thestar.com.my/tech/tech-news/2026/11/13/exclusive-cdr-gtcr-drop-pursuit-of-global-payments-sources-say",
+                "date": "2026-11-13",
+                "quote": "Exclusive-CD&R, GTCR drop pursuit of Global Payments, sources say",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Global Payments Inc. Reports Third Quarter 2026 Results and Raises Worldpay Synergy Target to $650 Million",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/global-payments-inc-reports-third-quarter-2026-results-and-raises-worldpay-synergy-target",
+                "date": "2026-11-05",
+                "quote": "Global Payments Inc. Reports Third Quarter 2026 Results and Raises Worldpay Synergy Target to $650 Million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 5일 3분기 실적에서 매출·EPS가 예상치를 웃돌았고 Worldpay 시너지 목표를 6억 5천만 달러로 올렸다.",
+            "stripped": true
+          }
+        ],
+        "company": "Global Payments는 가맹점 결제 처리와 결제 단말·소프트웨어를 제공해 수수료로 돈을 버는 결제 기업이다. Worldpay 인수로 매출이 크게 늘었다.",
+        "volumeExplanation": "11월 20일 최대주주 GTCR이 인수를 다시 검토한다는 보도가 나와 주가가 급등하며 거래량이 늘었다. 앞서 13일 인수 포기 보도로 급락한 뒤라 되돌림 매수가 더해졌다. 인수 제안이 공식 확인되는지가 이 이야기가 맞는지의 기준이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All claims properly sourced. Numbers verified: $40B (= 약 400억 달러) in c1 title, $650M (= 6억 5천만 달러) in c3 title. Dates and core facts confirmed."
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2795,9 +2953,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:30:33"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LLYVK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Liberty Live Holdings는 라이브 공연·티켓 회사 Live Nation Entertainment의 지분을 보유한 지주회사로, 이 지분의 가치가 곧 주가를 좌우한다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "리버티 라이브 C",
@@ -3325,9 +3503,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:07:31"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LLYVA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Liberty Live Holdings는 라이브 공연·티켓 기업 Live Nation 지분을 주된 자산으로 가진 지주회사다. 지분 가치와 모터스포츠 팀 등 일부 자산이 주가에 반영된다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3854,9 +4052,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:41:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SPSC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "SPS Commerce는 유통업체와 공급업체의 주문·재고 정보 교환을 돕는 클라우드 소프트웨어를 구독 형태로 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4462,9 +4680,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:13:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ORKA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Oruka Therapeutics는 건선 등 만성 피부질환 치료용 항체 신약을 개발하는 임상 단계 바이오 기업이다. 아직 매출이 없고, 연구개발 자금으로 쓰는 투자금이 수익원을 대신한다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4531,9 +4769,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:38:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CCEP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "코카콜라 음료를 유럽·호주·동남아 등에서 병입·유통하는 코카콜라 최대 독립 병입사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5022,9 +5280,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:40:00"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AMGN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "암젠은 관절염·암·골다공증 등 바이오 의약품을 만들어 파는 대형 제약사다. 비만 신약 후보 마리타이드는 임상 3상 단계다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6 (근거 없음)이 적절함. 거래량만 증가했고 뉴스 없음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5853,9 +6131,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:14:00"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CTAS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Cintas는 기업에 유니폼 대여, 시설 서비스, 소방·안전 점검 서비스를 제공해 매출을 올리는 업체다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6 (근거 없음)이 적절함. 거래량만 증가했고 뉴스 없음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6513,9 +6811,72 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:33:10"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PLMR",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "이전 전망치는 근거 자료에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palomar Holdings, Inc. Raises Full-Year 2026 Adjusted Net Income Guidance to $280M - $285M",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/palomar-holdings-inc-raises-full-year-2026-adjusted-net-income-guidance-280m-285m",
+                "date": "2026-11-13",
+                "quote": "Palomar Holdings, Inc. Raises Full-Year 2026 Adjusted Net Income Guidance to $280M - $285M",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "Palomar가 2026년 조정 순이익 전망(가이던스)을 2억 8,000만~2억 8,500만 달러로 올렸다고 11월 13일 보도됐다. 이전 전망치는 근거 자료에 없다."
+          },
+          {
+            "id": "c2",
+            "statement": "3분기 실적은 11월 4일 발표 직후 매출·주당순이익 모두 증권사 예상치를 웃돈 것으로 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palomar (PLMR) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/palomar-plmr-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-11-04",
+                "quote": "Palomar (PLMR) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "거래량이 늘어난 전날인 11월 20일, 투자자문지 IBD가 이 종목이 대안 매수 구간(차트상 돌파 지점)을 넘어섰다고 소개했다. 본문은 확인하지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insurer Tops Alternative Buy Point As Investors Play Defense",
+                "publisher": "Investor's Business Daily (Yahoo)",
+                "url": "https://finance.yahoo.com/m/21f027a9-f6d5-392c-94e8-0099d15acb81/insurer-tops-alternative-buy.html",
+                "date": "2026-11-20",
+                "quote": "Insurer Tops Alternative Buy Point As Investors Play Defense",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Palomar Holdings는 캘리포니아 지진 등 재해 위험에 특화된 특수 손해보험을 팔아 돈을 번다. 분기 매출이 1년 전보다 50% 넘게 늘어나는 고성장 보험사다.",
+        "volumeExplanation": "11월 4일 3분기 실적이 예상치를 넘고 13일 연간 순이익 전망이 오르면서 주가가 신고가권으로 올라섰고, 20일 돌파 소식이 알려지며 거래량이 평소의 1.7배로 늘었다. 다만 20일 당일의 직접 촉발 뉴스는 확인되지 않았다. 실적 호재가 이어지는 가운데 돌파 매수세가 붙었는지는 이후 거래량이 유지되는지로 가려진다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 1 (어닝) 적절. c1 가이던스 상향(2억 8,000~8,500만 = $280M-$285M), c2 11월 4일 실적 상향, c3 11월 20일 IBD 보도 모두 quote/제목에서 숫자·날짜 확인됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6610,9 +6971,80 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:52:12"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EXR",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 27일 3분기 실적에서 핵심 FFO(리츠의 운영 현금흐름 지표)와 매출이 시장 예상을 웃돌았고, 올해 전망도 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "EXR's Q3 Core FFO Improves on Strong Same-Store NOI, Outlook Raised",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/exrs-q3-core-ffo-improves-strong-same-store-noi-outlook-raised",
+                "date": "2026-10-28",
+                "quote": "EXR's Q3 Core FFO Improves on Strong Same-Store NOI, Outlook Raised",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Extra Space Storage (EXR) Beats Q3 FFO and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/extra-space-storage-exr-beats-q3-ffo-and-revenue-estimates",
+                "date": "2026-10-27",
+                "quote": "Extra Space Storage (EXR) Beats Q3 FFO and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 이후 증권사가 목표주가를 올렸다. Jefferies는 11월 9일 목표가를 151달러에서 178달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Jefferies Adjusts Price Target on Extra Space Storage to $178 From $151",
+                "publisher": "MT Newswires (Yahoo)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-extra-105406437.html",
+                "date": "2026-11-09",
+                "quote": "Jefferies Adjusts Price Target on Extra Space Storage to $178 From $151",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "11월 중순 보관시설 리츠 3곳이 전망 상향 뒤 오르고 있다는 기사가 나왔다(제목 기준 단서).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "3 High-Yield Storage REITs Are Rallying After Raising Their 2026 Outlooks",
+                "publisher": "24/7 Wall St. (Yahoo)",
+                "url": "https://finance.yahoo.com/real-estate/articles/3-high-yield-storage-reits-171718676.html",
+                "date": "2026-11-16",
+                "quote": "3 High-Yield Storage REITs Are Rallying After Raising Their 2026 Outlooks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Extra Space Storage는 미국 최대급 셀프 스토리지(개인·기업 보관시설) 리츠로, 시설 임대료로 돈을 번다. 시총은 약 325억 달러다.",
+        "volumeExplanation": "10월 27일 3분기 실적이 예상을 넘고 올해 전망이 올라간 뒤, 목표주가 상향과 보관시설 리츠 반등 기사가 이어지며 최근 거래량이 늘었다. 다만 당일 거래량은 평소의 1.4배로 크지 않다. 다음 실적이나 월 임대 지표에서 실적 상향이 이어지는지가 이 이야기의 확인 조건이다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 1 (어닝) 적절. c1 10월 27일 FFO/매출 상향, c2 11월 9일 Jefferies $151→$178 목표가 상향, c3 11월 16일 리츠 반등 기사 모두 근거 명확"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -7316,9 +7748,43 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:02:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CPAY",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Corpay가 11월 19일 BILL Holdings 인수 거래에 참여한다고 공시했다. TPG와 함께 BILL을 비상장으로 전환하는 구조이며, Corpay는 11억 달러로 지분 약 3분の1을 사고 나머지를 살 권리도 갖는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corpay 8-K (Reg FD, 2026-11-19)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000066/flt-20261119.htm",
+                "date": "2026-11-20",
+                "quote": "Corpay will invest $1.1 billion for an approximately one-third equity stake in BILL, with the option to acquire 100%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Corpay는 기업용 연료카드·해외송금·기업 결제 서비스를 제공하는 결제 회사다. 기업 고객의 지출과 결제 수수료로 돈을 번다.",
+        "volumeExplanation": "11월 19일 Corpay가 TPG와 함께 BILL 인수 거래에 11억 달러로 참여한다고 공시했다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c1은 SEC 8-K 공시로 충분하나, c2의 '2027년 2분기 마감'·'주주 승인과 규제 승인'은 제시된 quote('$6 billion all-cash deal')에 없음. 거래 규모와 현금 조건만 뒷받침됨",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 19일 Corpay가 TPG와 함께 BILL을 약 60억 달러에 비상장 전환하는 거래에 11억 달러로 참여한다고 공시했다. 기업 결제 사업 확장 소식이 거래량으로 이어졌으나, 거래대금은 평소의 1.4배 수준으로 크지 않았다.",
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8036,9 +8502,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:23:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ROP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Roper Technologies는 산업·의료·물류 등 틈새 시장용 업무 소프트웨어와 기술 제품을 만들어 구독·유지보수 매출로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -8691,9 +9177,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:38:02"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KOF",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "멕시코·중남미에서 코카콜라 음료를 병에 담아 판매하는 코카콜라 계열 최대 병입 업체다. 탄산음료와 생수 등을 유통해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-21",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -9207,14 +9713,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 1,
+    "done": 17,
     "total": 17,
-    "cap": null,
-    "pending": 16,
+    "cap": 17,
+    "pending": 0,
     "failed": 0,
-    "carried": 1,
+    "carried": 0,
     "ineligible": 0,
-    "note": "17종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 16종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -9263,5 +9769,39 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 6건 중 PANW·ESTC·P가 보안·검색·AI 저장장치 등 IT 쪽이라 AI 수요 관련 실적이 눈에 띕니다. 나머지(PDD·CPA·VEON)는 업종이 흩어져 있어 뚜렷한 쏠림은 아닙니다.",
     "caution": "HALO는 주가가 내린 악재성 소식이라 호재로 보기 어렵고, RBCAA의 특별배당은 성장 호재와 성격이 다릅니다. ESTC·PDD는 실적 일부가 예상에 못 미쳐 결과가 엇갈립니다. 가격·차트는 보지 않았으니 직접 확인하세요.",
     "researchedOn": "2026-11-20"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "BJ",
+        "category": 1,
+        "oneLine": "3분기 이익이 늘고 올해 조정 주당순이익 전망을 올렸지만, 판촉 탓에 마진이 눌려 장 시작 전 주가는 내렸다."
+      },
+      {
+        "ticker": "ESTC",
+        "category": 1,
+        "oneLine": "순이익·매출이 예상치를 웃돌았지만 다음 분기 매출 전망이 낮아 주가는 하락했다."
+      },
+      {
+        "ticker": "PLMR",
+        "category": 1,
+        "oneLine": "올해 조정 순이익 전망을 2억 8,000만~2억 8,500만 달러로 올렸고, 3분기 매출·주당순이익도 예상을 넘었다."
+      },
+      {
+        "ticker": "EXR",
+        "category": 1,
+        "oneLine": "3분기 핵심 FFO(리츠 운영 현금흐름)와 매출이 예상을 넘고 올해 전망도 올렸다. 목표주가 상향이 이어졌다."
+      }
+    ],
+    "sectorSignal": "실적 호재 4건 중 뚜렷하게 몰린 업종은 없습니다. 소매(BJ), 소프트웨어(ESTC), 보험(PLMR), 보관시설 리츠(EXR)로 흩어져 있습니다.",
+    "caution": "호재로 분류된 4건 중 BJ·ESTC는 주가가 오히려 내렸고, 산업 기술 돌파로 분류된 종목은 없습니다. 근거 없음으로 분류된 종목은 호재로 보지 마세요. 차트 국면은 판정하지 않았으니 직접 확인하세요.",
+    "researchedOn": "2026-11-21"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 4,
+    "3": 1,
+    "5": 1,
+    "6": 11
   }
 };

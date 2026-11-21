@@ -1,0 +1,188 @@
+{
+ "ticker": "SPSC",
+ "news": [
+  {
+   "title": "See Which Recent 13F Filers Hold SPSC",
+   "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-spsc",
+   "date": "2026-11-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SPS Commerce (SPSC) is an Incredible Growth Stock: 3 Reasons Why",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-incredible-growth-stock-3-reasons-why",
+   "date": "2026-11-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SPS Commerce (SPSC) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q3-2026-earnings-call-transcript",
+   "date": "2026-10-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What SPS Commerce (SPSC) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-sps-commerce-spsc-said-its-q3-earnings-call",
+   "date": "2026-10-30",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "SPS Commerce (SPSC) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-10-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SPS Commerce (SPSC) Surges 7.1%: Is This an Indication of Further Gains?",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-surges-71-indication-further-gains",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SPS Commerce (SPSC) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q2-2026-earnings-call-transcript-0",
+   "date": "2026-08-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "3 US Data Stocks That Could Benefit From Better Economic Data",
+   "url": "https://finance.yahoo.com/economy/policy/articles/3-us-data-stocks-could-191217304.html",
+   "date": "2026-11-17",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "SPS Commerce Insider Sold Shares Worth $913,496, According to a Recent SEC Filing",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sps-commerce-insider-sold-shares-211817083.html",
+   "date": "2026-11-10",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000074/spsc-20261029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000063/spsc-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000054/spsc-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000051/spsc-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000042/spsc-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "reportDate": "2026-04-10",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000028/spsc-20260410.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.89,
+  "saleNy": 5.41,
+  "epsCy": 19.22,
+  "epsNy": 7.43,
+  "cyTrend": 3.82,
+  "nyTrend": 2.7,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.56,
+    5.82,
+    12.72
+   ],
+   "ni": [
+    -65.22,
+    -11.11,
+    47.17
+   ],
+   "opm": [
+    4.25,
+    12.78,
+    18
+   ],
+   "updated": "2026-09-08 09:41:18"
+  }
+ }
+}

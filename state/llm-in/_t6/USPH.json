@@ -1,0 +1,656 @@
+{
+ "ticker": "USPH",
+ "date": "2026-11-21",
+ "session": "2026-11-20",
+ "source": "list",
+ "plan": {
+  "ticker": "USPH",
+  "name": "US 피지컬 테라피",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "price": 95.93000030517578,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 101.8,
+  "stop": 98.78,
+  "distToPivotPct": -5.77,
+  "distToPivotAdr": -1.83,
+  "riskPerSharePct": 2.97,
+  "adrPct": 3.15,
+  "extensionAdr": -0.68,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 8.4,
+   "priorMovePct": 33.2,
+   "higherLows": 0,
+   "contraction": 0.94,
+   "closeRange10Adr": 1.9,
+   "surf10": -0.68,
+   "surf20": 0.82,
+   "slope20": 2.64,
+   "baseLow": 93.2,
+   "lastSwingLow": 93.2
+  },
+  "reasons": [
+   "선행 상승 +33%",
+   "베이스 2.2주",
+   "깊이 8.4%",
+   "✗ 저점 상승 0회",
+   "진폭 0.94배 · 10일 종가폭 1.9 ADR",
+   "10일선 -0.7 ADR · 20일선 +0.8 ADR",
+   "20일선 기울기 +2.64%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.22483048782009946,
+    "pct": 91.74932371505861
+   },
+   "m3": {
+    "v": 0.3737478869736446,
+    "pct": 98.24165915238953
+   },
+   "m6": {
+    "v": 0.7339609869778864,
+    "pct": 97.8809738503156
+   }
+  },
+  "ret1m": 8.86,
+  "ret3m": 21.84,
+  "ret6m": 55.11,
+  "marketCap": "1.41B",
+  "volx": 0.97,
+  "volSurgeWk": 0.81,
+  "high52": 94.67,
+  "newHigh52": false,
+  "adr": 3.15,
+  "div50": 9.39,
+  "div200": 25.09,
+  "targetStatus": false,
+  "saleCy": 10.16,
+  "saleNy": 8.3,
+  "epsCy": 9.58,
+  "epsNy": 16.79,
+  "cyTrend": -0.55,
+  "nyTrend": 0.48,
+  "est": {
+   "cyCur": 2.882,
+   "cy30": 2.898,
+   "nyCur": 3.366,
+   "ny30": 3.35
+  },
+  "fs": {
+   "sale": [
+    8.47,
+    7.89,
+    12.35
+   ],
+   "ni": [
+    -56.82,
+    -115.29,
+    -42.62
+   ],
+   "opm": [
+    10.25,
+    6.29,
+    8.27
+   ],
+   "updated": "2026-09-08 08:21:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-20",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-21",
+  "nameKo": "US 피지컬 테라피",
+  "nameEn": "US PHYSICAL THERAPY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000885978&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 214059000,
+     "profit": 21946000,
+     "netIncome": 9898000,
+     "margin": 10.3,
+     "yoy": {
+      "revenue": 8.5,
+      "profit": -12,
+      "netIncome": -20.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 198286000,
+     "profit": 12481000,
+     "netIncome": 5038000,
+     "margin": 6.3,
+     "yoy": {
+      "revenue": 7.9,
+      "profit": -36.5,
+      "netIncome": -49.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 202726000,
+     "profit": 16767000,
+     "netIncome": 4153000,
+     "margin": 8.3,
+     "yoy": {
+      "revenue": 12.3,
+      "profit": -14.7,
+      "netIncome": -55.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 197132000,
+     "profit": 25330000,
+     "netIncome": 13138000,
+     "margin": 12.8,
+     "yoy": {
+      "revenue": 17.3,
+      "profit": 97.2,
+      "netIncome": 98.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "US Physical Therapy (USPH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About U.S. Physical Therapy (USPH) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-us-physical-therapy-usph-q3-earnings",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-tops-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "USPH (USPH) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/usph-usph-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Lags Q2 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-lags-q2-earnings-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "U.S. Physical Therapy (USPH) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-q2-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-17",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000083/usph-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-09",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000078/usph-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-06",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000075/usph-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000060/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000057/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/885978/000088597826000052/form8-k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "USPH",
+  "fetchedAt": "2026-11-21",
+  "source": "한국투자증권 Open API",
+  "per": 566.63,
+  "pbr": 3.19,
+  "eps": 0.17,
+  "bps": 30.06,
+  "shares": 14928500,
+  "marketCapM": 1432,
+  "high52": 101.3299,
+  "high52Date": "2026-11-12",
+  "low52": 57.1583,
+  "low52Date": "2026-05-08",
+  "last": 95.93,
+  "prevClose": 94.32,
+  "nameKo": "US 피지컬 테라피",
+  "nameEn": "US PHYSICAL THERAPY",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 14928500
+ },
+ "estimates": {
+  "ticker": "USPH",
+  "url": "https://finance.yahoo.com/quote/USPH/analysis/",
+  "fetchedAt": "2026-11-21",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.88,
+    "epsLow": 0.78,
+    "epsHigh": 0.99,
+    "epsYearAgo": 0.67,
+    "epsAnalysts": 5,
+    "epsGrowth": 31,
+    "epsCur": "USD",
+    "rev": 225089910,
+    "revAnalysts": 7,
+    "revYearAgo": 202726000,
+    "revGrowth": 11,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.56,
+    "epsLow": 0.52,
+    "epsHigh": 0.6,
+    "epsYearAgo": 0.46,
+    "epsAnalysts": 2,
+    "epsGrowth": 21.7,
+    "epsCur": "USD",
+    "rev": 219526210,
+    "revAnalysts": 3,
+    "revYearAgo": 198286000,
+    "revGrowth": 10.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 2.88,
+    "epsLow": 2.79,
+    "epsHigh": 2.99,
+    "epsYearAgo": 2.63,
+    "epsAnalysts": 5,
+    "epsGrowth": 9.6,
+    "epsCur": "USD",
+    "rev": 860373060,
+    "revAnalysts": 6,
+    "revYearAgo": 780990000,
+    "revGrowth": 10.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 3.37,
+    "epsLow": 3.15,
+    "epsHigh": 3.61,
+    "epsYearAgo": 2.88,
+    "epsAnalysts": 5,
+    "epsGrowth": 16.8,
+    "epsCur": "USD",
+    "rev": 931744740,
+    "revAnalysts": 7,
+    "revYearAgo": 860373060,
+    "revGrowth": 8.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.88,
+    "d7": -1.1,
+    "d30": -3.9,
+    "d90": -3.8,
+    "ago90": 0.91,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.56,
+    "d7": 4.7,
+    "d30": 9.8,
+    "d90": 9.8,
+    "ago90": 0.51,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.88,
+    "d7": 0.6,
+    "d30": -0.6,
+    "d90": -0.4,
+    "ago90": 2.89,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 3.37,
+    "d7": 0.3,
+    "d30": 0.5,
+    "d90": -2.2,
+    "ago90": 3.44,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.8,
+    "estimate": 0.73,
+    "surprisePct": 10.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.75,
+    "estimate": 0.84,
+    "surprisePct": -11.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.46,
+    "estimate": 0.52,
+    "surprisePct": -11,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.67,
+    "estimate": 0.67,
+    "surprisePct": -0.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 3,
+   "ptLowered": 0,
+   "total": 3,
+   "recent": [
+    {
+     "date": "2026-11-13",
+     "firm": "Barrington Research",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 122,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "Barrington Research",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 98
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 95,
+     "ptPrior": 90
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-20",
+  "numbers": {
+   "price": 95.93,
+   "ma20": 93.46,
+   "ma50": 88.05,
+   "ma150": 76.95,
+   "distMA50": 8.94,
+   "periodHigh": 101.8,
+   "pullbackFromHigh": -5.77,
+   "volRatio20": 0.95,
+   "dryUpRatio": 1.23
+  },
+  "last10": [
+   {
+    "d": "2026-11-09",
+    "o": 99.91,
+    "h": 100.45,
+    "l": 98.4,
+    "c": 99.84,
+    "v": 324900,
+    "clsPos": 70,
+    "gapPct": 0.42
+   },
+   {
+    "d": "2026-11-10",
+    "o": 99.88,
+    "h": 100,
+    "l": 96.86,
+    "c": 99.24,
+    "v": 177400,
+    "clsPos": 76,
+    "gapPct": 0.04
+   },
+   {
+    "d": "2026-11-11",
+    "o": 99.1,
+    "h": 100.48,
+    "l": 98.7,
+    "c": 100.1,
+    "v": 166100,
+    "clsPos": 79,
+    "gapPct": -0.14
+   },
+   {
+    "d": "2026-11-12",
+    "o": 100.74,
+    "h": 101.8,
+    "l": 97.71,
+    "c": 98.6,
+    "v": 139800,
+    "clsPos": 22,
+    "gapPct": 0.64
+   },
+   {
+    "d": "2026-11-13",
+    "o": 99.09,
+    "h": 100.66,
+    "l": 96.39,
+    "c": 99.6,
+    "v": 148400,
+    "clsPos": 75,
+    "gapPct": 0.5
+   },
+   {
+    "d": "2026-11-16",
+    "o": 100.23,
+    "h": 100.61,
+    "l": 99.1,
+    "c": 99.55,
+    "v": 220200,
+    "clsPos": 30,
+    "gapPct": 0.63
+   },
+   {
+    "d": "2026-11-17",
+    "o": 98.45,
+    "h": 100.66,
+    "l": 97.28,
+    "c": 97.34,
+    "v": 300500,
+    "clsPos": 2,
+    "gapPct": -1.1
+   },
+   {
+    "d": "2026-11-18",
+    "o": 96.64,
+    "h": 98.42,
+    "l": 95.01,
+    "c": 95.43,
+    "v": 330700,
+    "clsPos": 12,
+    "gapPct": -0.72
+   },
+   {
+    "d": "2026-11-19",
+    "o": 94.44,
+    "h": 95.8,
+    "l": 93.2,
+    "c": 94.32,
+    "v": 301200,
+    "clsPos": 43,
+    "gapPct": -1.04
+   },
+   {
+    "d": "2026-11-20",
+    "o": 94.82,
+    "h": 96.85,
+    "l": 94.82,
+    "c": 95.93,
+    "v": 209700,
+    "clsPos": 55,
+    "gapPct": 0.53
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/USPH-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/USPH-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 24일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "병원 제휴 클리닉 72곳이 3분기 2,500만 달러 매출을 내며 이익 개선을 끌기 시작",
+  "researchedOn": "2026-11-18"
+ }
+}

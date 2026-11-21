@@ -1,0 +1,156 @@
+{
+ "ticker": "SYNA",
+ "news": [
+  {
+   "title": "Synaptics (SYNA) Tops Q1 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/synaptics-syna-tops-q1-earnings-estimates",
+   "date": "2026-11-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Synaptics Shareholders Approve Merger With ON Semiconductor",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/synaptics-shareholders-approve-merger-semiconductor-152302000.html",
+   "date": "2026-11-18",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Synaptics Stockholders Approve Merger with onsemi",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/synaptics-stockholders-approve-merger-onsemi-145300553.html",
+   "date": "2026-11-18",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-17",
+   "reportDate": "2026-11-17",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000111/syna-20261117.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-05",
+   "reportDate": "2026-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000104/syna-20261105.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-10-27",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000088/syna-20261027.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-15",
+   "reportDate": "2026-10-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000081/syna-20261013.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-01",
+   "reportDate": "2026-10-01",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-21",
+   "reportDate": "2026-08-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000061/syna-20260820.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.01,
+  "saleNy": 20.13,
+  "epsCy": 10.46,
+  "epsNy": 28.6,
+  "cyTrend": -2.28,
+  "nyTrend": -1.09,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    8.91,
+    10.35,
+    13.21
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    -922.22
+   ],
+   "opm": [
+    -5.23,
+    -4.32,
+    -4.99
+   ],
+   "updated": "2026-09-21 06:50:38"
+  }
+ }
+}

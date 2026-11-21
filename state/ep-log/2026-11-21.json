@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "ticker": "BJ",
+      "price": 104.81999969482422,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ESTC",
+      "price": 74.79000091552734,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "SYNA",
+      "price": 115.73999786376953,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "WF",
+      "price": 68.8499984741211,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "GPN",
+      "price": 91.83000183105469,
+      "category": 5,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "LLYVK",
+      "price": 102.73999786376953,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "LLYVA",
+      "price": 100.0199966430664,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SPSC",
+      "price": 76.87999725341797,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ORKA",
+      "price": 95.80999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CCEP",
+      "price": 115.52999877929688,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "AMGN",
+      "price": 435.6400146484375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CTAS",
+      "price": 220.00999450683594,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PLMR",
+      "price": 163.58999633789062,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "EXR",
+      "price": 154.91000366210938,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CPAY",
+      "price": 429.8399963378906,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "ROP",
+      "price": 459.8299865722656,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "KOF",
+      "price": 116.33999633789062,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

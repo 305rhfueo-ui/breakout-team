@@ -1,0 +1,206 @@
+{
+ "ticker": "EXR",
+ "news": [
+  {
+   "title": "APLE or EXR: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/aple-or-exr-which-better-value-stock-right-now",
+   "date": "2026-11-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "EXR Crosses Above Average Analyst Target",
+   "url": "https://www.nasdaq.com/articles/exr-crosses-above-average-analyst-target",
+   "date": "2026-11-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Extra Space Storage (EXR) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/extra-space-storage-exr-q3-2026-earnings-call-transcript",
+   "date": "2026-10-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "EXR's Q3 Core FFO Improves on Strong Same-Store NOI, Outlook Raised",
+   "url": "https://www.nasdaq.com/articles/exrs-q3-core-ffo-improves-strong-same-store-noi-outlook-raised",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Extra Space Storage (EXR) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/extra-space-storage-exr-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Extra Space Storage (EXR) Beats Q3 FFO and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/extra-space-storage-exr-beats-q3-ffo-and-revenue-estimates",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "APLE vs. EXR: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/aple-vs-exr-which-stock-better-value-option-0",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Extra Space: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/extra-space-3-key-takeaways-210502188.html",
+   "date": "2026-11-19",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "3 High-Yield Storage REITs Are Rallying After Raising Their 2026 Outlooks",
+   "url": "https://finance.yahoo.com/real-estate/articles/3-high-yield-storage-reits-171718676.html",
+   "date": "2026-11-16",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "APLE or EXR: Which Is the Better Value Stock Right Now?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aple-exr-better-value-stock-154003051.html",
+   "date": "2026-11-16",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Jefferies Adjusts Price Target on Extra Space Storage to $178 From $151",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-extra-105406437.html",
+   "date": "2026-11-09",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-27",
+   "reportDate": "2026-10-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000061/exr-20261027.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000058/exr-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000048/exr-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-06",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289490/000119312526296159/d152545d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289490/000119312526282771/d32600d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000039/exr-20260514.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.31,
+  "saleNy": 3.02,
+  "epsCy": 2.21,
+  "epsNy": 4.51,
+  "cyTrend": 1.17,
+  "nyTrend": 2.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.87,
+    4.39,
+    4.33
+   ],
+   "ni": [
+    5.5,
+    -11.06,
+    9.51
+   ],
+   "opm": [
+    44.86,
+    42.94,
+    43.25
+   ],
+   "updated": "2026-09-08 05:52:12"
+  }
+ }
+}

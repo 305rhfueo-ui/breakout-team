@@ -514,8 +514,355 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-21",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아 14% 급락, 7주 연속 하락",
+        "easy": "엔비디아 주가가 금요일 하루에 14% 떨어지며 7거래일 연속 하락했다. 공동창업자 젠슨 황이 물러나면서 다음 경영진을 걱정하는 투자자가 늘었고, 회계 문제를 둘러싼 SEC 조사도 매도를 키웠다. 주간 기준으로도 7주 연속 하락인데 이런 연속 기록은 2008년 금융위기 이후 처음이다. 구글·AMD의 AI 칩 경쟁과 AI 투자 지속성에 대한 의심도 같이 눌렀다.",
+        "whyMatters": "반도체와 AI 인프라 업종 전반에 나쁜 소식이고, 같은 공급망에 묶인 장비·메모리 종목도 함께 눌린다. 경쟁 구도만 보면 AMD·구글 쪽에는 상대적으로 유리한 방향이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+            "date": "2026-11-20",
+            "quote": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nvidia's stock clinches a stretch of weekly losses not seen since 2008",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+            "date": "2026-11-20",
+            "quote": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "다우·S&P500 조정 진입, 나스닥은 최악의 주",
+        "easy": "다우와 S&P500이 조정(최고가 대비 10% 이상 하락) 구간에 들어갔다. 나스닥은 2020년 이후 가장 나쁜 한 주를 보냈다. AI 관련 주식에서 시작된 매도가 지수 전체로 번진 결과다. 지수가 내려앉으면 개별 종목이 신고가를 뚫고 올라가기도 어려워진다.",
+        "whyMatters": "반도체·소프트웨어처럼 그동안 많이 오른 업종이 가장 크게 흔들리고, 헬스케어·필수소비재처럼 방어적인 업종이 상대적으로 버틴다. 지금 주도 종목이 어느 업종에서 나오는지만 확인하면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+            "date": "2026-11-20",
+            "quote": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "These stocks were crushed the most this week as the tech wreck accelerated",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+            "date": "2026-11-20",
+            "quote": "These stocks were crushed the most this week as the tech wreck accelerated",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "반도체주 한 주에 2조3천억 달러 증발",
+        "easy": "반도체 종목에서 한 주 만에 시가총액 2조 3천억 달러가 사라졌다. AI 투자 기대가 꺾이면서 공포 매도가 몰린 탓이다. 같은 날 반도체 ETF에 9,300만 달러를 들여 하락에 베팅한 대형 풋옵션(값이 떨어지면 이익 보는 계약) 거래도 나왔다. 지금 가격에서 8% 더 내려가는 쪽에 돈을 건 주문이다.",
+        "whyMatters": "반도체·AI 장비 업종에 자금이 돌아오지 않고 있다는 신호다. 반대로 헬스케어·산업재처럼 AI와 거리가 먼 업종으로 돈이 옮겨가는 흐름을 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+            "date": "2026-11-20",
+            "quote": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "A massive bearish trade just happened in the chip stocks",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
+            "date": "2026-11-20",
+            "quote": "Around 12:30 E.T., someone spent $93 million buying 20,000 380-strike puts expiring Sep. 17, 2027, according to trading data reviewed by SpotGamma and Volland, options-analytics platforms that both show the trade as a likely opening position, with volume exceeding existing open interest in the contract.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic 주가 급락에 보험 비용도 치솟았다",
+        "easy": "상장한 Anthropic 주가가 크게 흔들리며 기술주 전체를 끌어내렸다. 공모가를 깨면 목요일 장중 고점 113달러에서 27% 떨어진 셈이 된다. 하루 20% 가까이 움직이는 변동성 때문에 하락을 막아 줄 옵션 가격이 매우 비싸졌다. 보험료가 비싸지면 기관은 보호 대신 주식을 줄이는 쪽을 택하기 쉽다.",
+        "whyMatters": "AI 대표주의 변동성이 커지면 소프트웨어·반도체 업종 전체의 위험 평가가 같이 올라간다. 반대로 헬스케어·필수소비재 같은 방어 업종에는 자금이 남는다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+            "date": "2026-11-20",
+            "quote": "If Anthropic breaks its IPO price, it will represent a 27% decline from Thursday's intraday high of $113.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-20",
+            "quote": "Tech stock sell-off drags markets down as Anthropic shares slide",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 해외 데이터센터 건설 금지 위협",
+        "easy": "트럼프 대통령이 미국 기업의 해외 데이터센터 건설을 막겠다고 말했다. 계속 지으려면 '막대한 세금'을 매기겠다고 덧붙였다. AI 설비 투자를 미국 안에 묶어 두려는 의도다. 아직 말 단계이지만 제도로 굳으면 해외 증설 계획의 비용 계산이 달라진다.",
+        "whyMatters": "미국 내 건설·전력설비·데이터센터 장비 업종에는 유리하고, 해외에 서버를 늘려 온 클라우드 업종에는 비용 부담이다. 실제 법안이나 행정명령으로 나오는지만 확인하면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+            "date": "2026-11-20",
+            "quote": "President Donald Trump on Friday said U.S. companies will be banned from building data centers in other countries and will face a 'tremendous tax' penalty if they do so.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Trump threatens ban on US firms building AI data centres overseas",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-20",
+            "quote": "Trump threatens ban on US firms building AI data centres overseas",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "CrowdStrike, Zscaler 인수 협상 보도",
+        "easy": "CrowdStrike가 Zscaler 인수를 논의 중이라는 블룸버그 보도가 나왔다. Zscaler 주가는 시간외에서 18% 올랐고 CrowdStrike는 8% 넘게 떨어졌다. 인수 대상은 웃돈 기대로 오르고, 돈을 쓰는 쪽은 부담을 지는 전형적인 반응이다. 성사되면 보안 업종에 합병 바람이 이어질 수 있다.",
+        "whyMatters": "사이버보안 업종에는 재평가 재료로, Zscaler처럼 인수 대상이 될 수 있는 회사에 유리하다. 반대로 큰돈을 쓰는 CrowdStrike에는 단기 부담이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+            "date": "2026-11-20",
+            "quote": "Zscaler shares surged 18% in extended trading on Friday after Bloomberg reported that CrowdStrike is in talks to buy the cybersecurity vendor.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니다. QQQ 는 10일선이 20일선 아래로 내려간 지 24거래일째이고, 종가 608.45 는 20일선·50일선보다 아래에 있다. 오늘 뉴스는 AI·반도체에서 터진 매도가 지수 전체로 번졌다는 뜻이며, 주도 종목이 헬스케어(40%)·산업재 쪽으로 옮겨 가 있다. 빚내서 산 주식(마진부채)은 1년 전보다 22.4% 늘어 아직 정상 범위지만, 하락이 길어지면 강제 매도의 연료가 된다. 이번 주는 엔비디아의 연속 하락이 멈추는지, 방어 업종으로 간 자금이 유지되는지 지켜보면 된다.",
+    "keyRisks": [
+      "AI 기대가 꺾이는 중: 엔비디아 급락과 Anthropic 주가 하락이 겹쳐 AI 투자로 벌 돈에 대한 믿음이 흔들렸다. 반도체·데이터센터 업종의 하락이 더 이어질 수 있다.",
+      "기업이 주식을 팔고 있다: 미국 기업들은 자기 주식을 사들이던 쪽에서 새로 발행하는 쪽으로 돌아섰다. 주식 공급이 늘면 주가가 오르기 더 무겁다.",
+      "조정 국면의 돌파는 실패가 잦다: 지수가 조정일 때는 신고가를 뚫은 종목도 되돌림에 걸리기 쉽다. 신규 매수를 쉬는 것도 선택이다.",
+      "정책은 아직 말 단계: 해외 데이터센터 금지·세금은 발언일 뿐 제도가 아니다. 실제 문서로 나오면 업종별 희비가 크게 갈린다."
+    ],
+    "easySummary": [
+      "엔비디아가 금요일 14% 빠지며 2008년 이후 가장 긴 7주 연속 하락을 기록했다.",
+      "반도체주에서 한 주 만에 2조 3천억 달러가 사라지고 다우·S&P500은 조정 구간에 들어갔다.",
+      "시장 신호는 빨간불이다 — 새로 사기보다 방어 업종으로 옮겨간 자금 흐름을 확인할 때다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 135,
+      "ok": 216,
+      "unverified": 4,
+      "dead": 1,
+      "stripped": 11,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/charles-river-buy-frontage-bioanalysis-and-dmpk-operations-545-mln-cash"
+        }
+      ],
+      "numberCut": 27,
+      "numberCuts": [
+        {
+          "sentence": "Worldpay 인수에서 나올 비용 절감 목표를 6억 5천만 달러로 올렸다.",
+          "missing": [
+            "6억 5"
+          ]
+        },
+        {
+          "sentence": "9월 26일 끝난 분기 매출이 6.56억 달러로 1년 전보다 17.9% 늘었다.",
+          "missing": [
+            "17.9"
+          ]
+        },
+        {
+          "sentence": "직전 분기 증가율 9.5%보다 크게 빨라졌다.",
+          "missing": [
+            "9.5"
+          ]
+        },
+        {
+          "sentence": "영업이익은 6,990만 달러로 12.4% 늘었고 영업이익률은 10.6%로 직전 분기 8.6%에서 올랐다.",
+          "missing": [
+            "8.6"
+          ]
+        },
+        {
+          "sentence": "3분기 매출은 1년 전과 같은 수준(증가율 0%)이고 올해 앞 분기들도 매출 증가율이 2% 안팎에 그쳐, 이익 개선이 매출 성장보다 마진에 기대고 있다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "평균 목표주가(85.82달러)는 현재가 89달러보다 낮다.",
+          "missing": [
+            "85.82"
+          ]
+        },
+        {
+          "sentence": "회사가 11월 13일 올해 조정 순이익 전망을 2억 8천만~2억 8천5백만 달러로 올렸다.",
+          "missing": [
+            "2억 8",
+            "2억 8",
+            "5"
+          ]
+        },
+        {
+          "sentence": "회사가 올해 조정 순이익 전망을 2억 8천만~2억 8천5백만 달러로 올렸다.",
+          "missing": [
+            "2억 8",
+            "2억 8",
+            "5"
+          ]
+        },
+        {
+          "sentence": "매출이 계속 50% 안팎으로 늘고 이익이 흑자로 바뀌었다.",
+          "missing": [
+            "50"
+          ]
+        },
+        {
+          "sentence": "같은 날 실적 발표 8-K도 나왔다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "실적 호재 뒤에도 한 달간 27.6% 하락했다.",
+          "missing": [
+            "27.6"
+          ]
+        },
+        {
+          "sentence": "올해 2분기 매출은 1년 전보다 12.6% 줄었고, 4개 분기 모두 영업적자다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "10월 6일 고점(약 166달러)도 이 시기에 찍혔다.",
+          "missing": [
+            "166"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 90.9배로 높고, 10월 30일 고점(88.99달러)보다 낮은 75.56달러다.",
+          "missing": [
+            "88.99"
+          ]
+        },
+        {
+          "sentence": "현재 PER은 약 11배로 낮은 편이라 가치주 관점의 기사도 이어졌다.",
+          "missing": [
+            "11"
+          ]
+        },
+        {
+          "sentence": "고점(11월 5일) 뒤 주가가 약 24% 내려 최근 1개월은 -16%다.",
+          "missing": [
+            "24",
+            "16"
+          ]
+        },
+        {
+          "sentence": "주가수익비율(PER)도 약 68배로 높다.",
+          "missing": [
+            "68"
+          ]
+        },
+        {
+          "sentence": "최근 한 달 -9%로, 6개월 급등 뒤 조정 구간이다.",
+          "missing": [
+            "9"
+          ]
+        },
+        {
+          "sentence": "가장 최근 종가(216.8달러)는 직전 종가(230.09달러)보다 약 5.8% 낮고 52주 고점 아래다.",
+          "missing": [
+            "5.8"
+          ]
+        },
+        {
+          "sentence": "최대주주 GTCR이 CD&R과 함께 약 400억 달러(기업가치) 규모의 인수를 검토한다는 보도가 나오며 주가가 12% 넘게 뛰었다.",
+          "missing": [
+            "12"
+          ]
+        },
+        {
+          "sentence": "11월 5일 3분기 실적에서 매출·EPS가 예상치를 웃돌았고 Worldpay 시너지 목표를 6억 5천만 달러로 올렸다.",
+          "missing": [
+            "6억 5"
+          ]
+        },
+        {
+          "sentence": "Palomar가 2026년 조정 순이익 전망(가이던스)을 2억 8,000만~2억 8,500만 달러로 올렸다고 11월 13일 보도됐다.",
+          "missing": [
+            "8,000만"
+          ]
+        },
+        {
+          "sentence": "11월 5일 3분기 실적에서 Worldpay 시너지 목표를 6억5천만 달러로 올렸다.",
+          "missing": [
+            "6억5"
+          ]
+        },
+        {
+          "sentence": "11월 6~11일 증권사 8곳이 목표가를 올렸다(Bernstein 100달러, Mizuho 115달러 등).",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "분기 영업적자가 매출의 약 4배라 자금 조달·희석 가능성이 있다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "회사가 2026년 연간 조정 순이익 전망을 2억 8,000만~2억 8,500만 달러로 올렸다.",
+          "missing": [
+            "8,000만"
+          ]
+        },
+        {
+          "sentence": "회사가 연간 조정 순이익 전망을 2억 8,000만~2억 8,500만 달러로 올렸다.",
+          "missing": [
+            "8,000만"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-21"
   }
 };

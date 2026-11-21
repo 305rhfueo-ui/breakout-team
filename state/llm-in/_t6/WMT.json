@@ -1,0 +1,880 @@
+{
+ "ticker": "WMT",
+ "date": "2026-11-21",
+ "session": "2026-11-20",
+ "source": "list",
+ "plan": {
+  "ticker": "WMT",
+  "name": "월마트",
+  "sector": "Consumer Defensive",
+  "industry": "Discount Stores",
+  "price": 127.94999694824219,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 131.82,
+  "stop": 129.15,
+  "distToPivotPct": -2.94,
+  "distToPivotAdr": -1.41,
+  "riskPerSharePct": 2.03,
+  "adrPct": 2.09,
+  "extensionAdr": 0.41,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 12,
+   "baseWeeks": 2.4,
+   "depthPct": 6.7,
+   "priorMovePct": 29,
+   "higherLows": 1,
+   "contraction": 0.87,
+   "closeRange10Adr": 1.1,
+   "surf10": 0.41,
+   "surf20": 0.98,
+   "slope20": 1.7,
+   "baseLow": 123.03,
+   "lastSwingLow": 123.03
+  },
+  "reasons": [
+   "✗ 선행 상승 +29%",
+   "베이스 2.4주",
+   "깊이 6.7%",
+   "저점 상승 1회",
+   "진폭 0.87배 · 10일 종가폭 1.1 ADR",
+   "10일선 +0.4 ADR · 20일선 +1 ADR",
+   "20일선 기울기 +1.7%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2034435038144199,
+    "pct": 88.68349864743011
+   },
+   "m3": {
+    "v": 0.40206362083338,
+    "pct": 98.60234445446348
+   },
+   "m6": {
+    "v": 0.317220699278295,
+    "pct": 73.44454463480614
+   }
+  },
+  "ret1m": 6.72,
+  "ret3m": 24.67,
+  "ret6m": 13.44,
+  "marketCap": "999.97B",
+  "volx": 1.83,
+  "volSurgeWk": 1.86,
+  "high52": 94.89,
+  "newHigh52": false,
+  "adr": 2.09,
+  "div50": 9.69,
+  "div200": 7.81,
+  "targetStatus": false,
+  "saleCy": 6.57,
+  "saleNy": 4.27,
+  "epsCy": 9.35,
+  "epsNy": 11.83,
+  "cyTrend": 0.01,
+  "nyTrend": 0.06,
+  "est": {
+   "cyCur": 2.88679,
+   "cy30": 2.88655,
+   "nyCur": 3.2283,
+   "ny30": 3.22649
+  },
+  "fs": {
+   "sale": [
+    5.94,
+    7.33,
+    5.6
+   ],
+   "ni": [
+    -9.39,
+    18.79,
+    -19.36
+   ],
+   "opm": [
+    4.99,
+    4.22,
+    4.57
+   ],
+   "updated": "2026-09-08 08:05:17"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-20",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-21",
+  "nameKo": "월마트",
+  "nameEn": "WALMART INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 186100000000,
+     "profit": 9383000000,
+     "netIncome": 6366000000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 28.8,
+      "netIncome": -9.4,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 175684000000,
+     "profit": 7493000000,
+     "netIncome": 5330000000,
+     "margin": 4.3,
+     "yoy": {
+      "revenue": 7.1,
+      "profit": 5,
+      "netIncome": 18.8,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 188913000000,
+     "profit": 8708000000,
+     "netIncome": 4237000000,
+     "margin": 4.6,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 10.8,
+      "netIncome": -19.4,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 177769000000,
+     "profit": 6696000000,
+     "netIncome": 6143000000,
+     "margin": 3.8,
+     "yoy": {
+      "revenue": 5.8,
+      "profit": -0.2,
+      "netIncome": 34.2,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Walmart Stock Too Expensive to Buy Now?",
+     "url": "https://www.nasdaq.com/articles/walmart-stock-too-expensive-buy-now",
+     "date": "2026-11-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "WMT Q3 Earnings Call Takeaways as Sales and Profit Outlooks Rise",
+     "url": "https://www.nasdaq.com/articles/wmt-q3-earnings-call-takeaways-sales-and-profit-outlooks-rise",
+     "date": "2026-11-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Walmart: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/walmart-3-key-takeaways-long-term-investors",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Walmart (WMT) Q3 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/walmart-wmt-q3-2027-earnings-call-transcript",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Walmart Earnings Change the Narrative as Digital Growth Lifts Outlook",
+     "url": "https://www.nasdaq.com/articles/walmart-earnings-change-narrative-digital-growth-lifts-outlook",
+     "date": "2026-11-19",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "What Walmart (WMT) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-walmart-wmt-said-its-q3-earnings-call",
+     "date": "2026-11-19",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Walmart Q3 Net Profit Drops, Despite Sales Growth; Lifts FY27 Outlook",
+     "url": "https://www.nasdaq.com/articles/walmart-q3-net-profit-drops-despite-sales-growth-lifts-fy27-outlook",
+     "date": "2026-11-19",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Compared to Estimates, Walmart (WMT) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-walmart-wmt-q3-earnings-look-key-metrics",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-19",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/wmt-20261119.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-16",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000165/wmt-20261113.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526429539/d184548d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000111/wmt-20260604.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000095/wmt-20260521.htm"
+   }
+  ],
+  "krReports": {
+   "total": 12,
+   "reports": [
+    {
+     "date": "2026-11-12",
+     "broker": "신한투자증권",
+     "analyst": "전규은",
+     "title": "[월마트 (NAS:WMT)] AI 에이전트에 가장 잘 대응 중인 리테일러",
+     "summary": "- 세계 최대 오프라인 유통망을 기반으로 한 기술 기반 옴니채널 소매업체. 'Everyday Low Price' 전략으로 가격 경쟁력 유지- Al 쇼핑 에이전트 스파키(Sparky)가 추천·장보기·결제·고객 상담까지 처리. 이용 고객의 주문금액은 비이용 고객보다 40% 높고, 주간 활성 이용은 전년 대비 2배 증가- 미국 이커머스는 6개 분기 연속 흑자이며, 2분기는 사상 최대 이익 분기. 광고를 빼고도 흑자. 이커머스 증분마진은 두 자릿수 초반",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxixezxcziggcgxeege.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-10-30",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[월마트 (NAS:WMT)] [Issue & News] Symbotic과 미국 25개 물류센터 자동화에 약 60억 달러 - 상향한 자본지출의 사용처 공개",
+     "summary": "- 월마트, Symbotic에 60억 달러 투입해 美 물류센터 25곳 자동화- 직전 분기 자본지출 가이던스 상향(3.5%→4.0%)의 구체적 집행 사례- 이커머스 성장 뒷받침하나 현금흐름·밸류에이션 부담은 과제로 남아",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmizxqeqmmlqkigcgxeege.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[월마트 (NAS:WMT)] [Issue & News] 4개 트랜치 30억 달러 달러채 발행 예정",
+     "summary": "- 월마트, 월요일 4트랜치 30억달러 미국 달러채 발행 추진(블룸버그)- 2분기 자본지출 가이던스 3.5%→4.0% 상향과 맞물린 조달- 조건·용도 미공개, 신용 스프레드로 시장 평가 확인 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgkzxzzcxeqlzgcgxeege.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "신한투자증권",
+     "analyst": "전규은",
+     "title": "[월마트 (NAS:WMT)] 둔화의 껍질을 벗기면",
+     "summary": "- 프리미엄 밸류에이션 부담 속 미국 동일점 매출성장률(2.6%)이 컨센서스 (3.7%) 하회하며 주가 하락. 추가 조정보다는 상방 여력이 더 크다는 판단- 매출 1,879억달러(+5.9%YoY, 이하 YoY 생략), 조정 EPS 0.81달러 (+19.1%)로 컨센서스 대비 각각 0.6%, 9.6% 상회. 월마트 미국 동일점 매출성장률 2.6%(객단가 1.1%, 거래건수 1.5%)로 컨센서스 3.7%를 하회- 주가 조정에도 12개월 선행 PER 약 32배 수준으로 5년 평균(약 28배) 대 비 높은 밸류에이션. 다만 고마진 사업부 성장이 견조하며 지속적인 가격 투자로 시장 점유율 확대 전망. 개학 시즌 초반 반응도 긍정적. 조정 국면 을 매수 기회로 판단해 투자의견 매수 유지. 거래건수 개선은 확인 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzgzkexkgzekgcgxeege.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "title": "[월마트 (NAS:WMT)] 미국 기존점 성장 둔화",
+     "summary": "- 미국의 대형 할인점, 글로벌 유통 1위 업체- 에너지 가격 상승으로 인한 비용 부담 및 소비 심리 위축 우려로 주가 조정- 중장기 점유율 확대에 대한 성장 Narrative는 유효하지만 단기 조정에는 유의",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzgziilkglkkgcgxeege.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[월마트 (NAS:WMT)] [27Q2 Review] 이익 서프라이즈의 질을 묻다, 투자의견 중립 하향",
+     "summary": "- 매출 1,879억·조정 EPS $0.81로 컨센 상회- FY27 가이던스 상향, Q3는 컨센 크게 하회- 미국 컴프 2.6% 둔화, 이익 비트는 관세 환급 의존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxmggcczzgegcgxeege.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-11",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[월마트 (NAS:WMT)] [27Q2 Preview] 실적은 좋은데 왜 주가는 빠졌을까, 투자의견 매수 유지",
+     "summary": "- 월마트 8월 20일 실적, 핵심은 연간 가이던스 상향 여부- 주가는 12개월 예상 이익 대비 40.2배로 5년 평균보다 46% 높아 기대치 부담 확대- 옵션시장은 약 6.6% 변동 예상, 콜 쏠림 속 하방 보험 수요도 동반 유입",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxkciglciqkxigcgxeege.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-05-27",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "title": "[월마트 (NAS:WMT)] 에너지 가격 상승에 따른 부담 발생",
+     "summary": "- 미국의 대형 할인점, 글로벌 유통 1위 업체- 에너지 가격 상승으로 인한 비용 부담 및 소비 심리 위축 우려로 주가 조정- 중장기 점유율 확대에 대한 성장 Narrative는 유효하지만 단기 조정에는 유의",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmlizlqlxlmklgcgxeege.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "WMT-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "전규은",
+   "date": "2026-11-12",
+   "title": "[월마트 (NAS:WMT)] AI 에이전트에 가장 잘 대응 중인 리테일러",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxixezxcziggcgxeege.pdf",
+   "pages": "1"
+  },
+  {
+   "file": "WMT-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-30",
+   "title": "[월마트 (NAS:WMT)] [Issue & News] Symbotic과 미국 25개 물류센터 자동화에 약 60억 달러 - 상향한 자본지출의 사용처 공개",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmizxqeqmmlqkigcgxeege.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Walmart CEO tells CNBC retailer aims to keep prices low despite fuel costs",
+   "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Retail names slump after earnings",
+   "url": "https://www.cnbc.com/video/2026/11/19/retail-names-slump-after-earnings.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Thursday, November 19, 2026: Cramer says investors shouldn't wait for this beverage stock to dip",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/19/thursday-november-19-2026-cramer-says-investors-shouldnt-wait-for-this-beverage-stock-to-dip.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "The Pre-Market Rundown 2",
+   "url": "https://www.cnbc.com/video/2026/11/19/the-pre-market-rundown-2-november-19-2026.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Walmart CEO John Furner",
+   "url": "https://www.cnbc.com/video/2026/11/19/watch-cnbcs-full-interview-with-walmart-ceo-john-furner.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Walmart CEO John Furner on Q3 results: Customers continue to look for value",
+   "url": "https://www.cnbc.com/video/2026/11/19/walmart-ceo-john-furner-on-q3-results-customers-continue-to-look-for-value.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Walmart raises sales and earnings outlook as e-commerce sales jump again",
+   "url": "https://www.cnbc.com/video/2026/11/19/walmart-raises-sales-and-earnings-outlook-as-e-commerce-sales-jump-again.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Victoria Greene on this week's earnings: Palo Alto Networks is still a hold",
+   "url": "https://www.cnbc.com/video/2026/11/16/victoria-greene-on-this-weeks-earnings-palo-alto-networks-is-still-a-hold.html",
+   "date": "2026-11-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "WMT",
+  "fetchedAt": "2026-11-21",
+  "source": "한국투자증권 Open API",
+  "per": 46.36,
+  "pbr": 10.34,
+  "eps": 2.76,
+  "bps": 12.37,
+  "shares": 7933750000,
+  "marketCapM": 1015123,
+  "high52": 134.8329,
+  "high52Date": "2026-05-19",
+  "low52": 102.0316,
+  "low52Date": "2025-11-20",
+  "last": 127.95,
+  "prevClose": 126.04,
+  "nameKo": "월마트",
+  "nameEn": "WALMART INC",
+  "listedOn": "1970-10-01",
+  "exchange": "나스닥",
+  "listedShares": 7933750000
+ },
+ "estimates": {
+  "ticker": "WMT",
+  "url": "https://finance.yahoo.com/quote/WMT/analysis/",
+  "fetchedAt": "2026-11-21",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2027-01-31",
+    "eps": 0.78,
+    "epsLow": 0.73,
+    "epsHigh": 0.83,
+    "epsYearAgo": 0.74,
+    "epsAnalysts": 35,
+    "epsGrowth": 5.1,
+    "epsCur": "USD",
+    "rev": 200217701050,
+    "revAnalysts": 28,
+    "revYearAgo": 188913000000,
+    "revGrowth": 6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-04-30",
+    "eps": 0.73,
+    "epsLow": 0.66,
+    "epsHigh": 0.85,
+    "epsYearAgo": 0.66,
+    "epsAnalysts": 27,
+    "epsGrowth": 11.3,
+    "epsCur": "USD",
+    "rev": 185224022580,
+    "revAnalysts": 20,
+    "revYearAgo": 177751000000,
+    "revGrowth": 4.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 2.89,
+    "epsLow": 2.84,
+    "epsHigh": 2.92,
+    "epsYearAgo": 2.64,
+    "epsAnalysts": 40,
+    "epsGrowth": 9.4,
+    "epsCur": "USD",
+    "rev": 753717216820,
+    "revAnalysts": 35,
+    "revYearAgo": 706413000000,
+    "revGrowth": 6.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 3.23,
+    "epsLow": 3.09,
+    "epsHigh": 3.55,
+    "epsYearAgo": 2.89,
+    "epsAnalysts": 43,
+    "epsGrowth": 12,
+    "epsCur": "USD",
+    "rev": 785429035190,
+    "revAnalysts": 37,
+    "revYearAgo": 753717216820,
+    "revGrowth": 4.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 0.78,
+    "d7": -0.9,
+    "d30": -1,
+    "d90": -1,
+    "ago90": 0.79,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-04-30",
+    "cur": "USD",
+    "now": 0.73,
+    "d7": -0.1,
+    "d30": -0.6,
+    "d90": 0.3,
+    "ago90": 0.73,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 2.89,
+    "d7": 0.1,
+    "d30": 0,
+    "d90": 0.2,
+    "ago90": 2.88,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 3.23,
+    "d7": 0.3,
+    "d30": 0.2,
+    "d90": 0.3,
+    "ago90": 3.22,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 6
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-10-31",
+    "actual": 0.65,
+    "estimate": 0.64,
+    "surprisePct": 2.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-07-31",
+    "actual": 0.81,
+    "estimate": 0.74,
+    "surprisePct": 9.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 0.66,
+    "estimate": 0.66,
+    "surprisePct": 0.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 0.74,
+    "estimate": 0.73,
+    "surprisePct": 1.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 17,
+   "ptLowered": 1,
+   "total": 23,
+   "recent": [
+    {
+     "date": "2026-11-20",
+     "firm": "Telsey Advisory Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 145,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 145,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "Raymond James",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 140,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 141,
+     "ptPrior": 139
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 131,
+     "ptPrior": 131
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 147,
+     "ptPrior": 125
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 134,
+     "ptPrior": 114
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 135,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 145,
+     "ptPrior": 135
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 138,
+     "ptPrior": 128
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-18",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-20",
+  "numbers": {
+   "price": 127.95,
+   "ma20": 125.33,
+   "ma50": 116.65,
+   "ma150": 116.78,
+   "distMA50": 9.69,
+   "periodHigh": 135.16,
+   "pullbackFromHigh": -5.33,
+   "volRatio20": 1.8,
+   "dryUpRatio": 1.19
+  },
+  "last10": [
+   {
+    "d": "2026-11-09",
+    "o": 124.72,
+    "h": 125.99,
+    "l": 123.58,
+    "c": 125.66,
+    "v": 23832200,
+    "clsPos": 86,
+    "gapPct": -0.64
+   },
+   {
+    "d": "2026-11-10",
+    "o": 125.66,
+    "h": 126.3,
+    "l": 124.59,
+    "c": 125.55,
+    "v": 17727000,
+    "clsPos": 56,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-11",
+    "o": 124.33,
+    "h": 126.07,
+    "l": 123.83,
+    "c": 125.67,
+    "v": 20742500,
+    "clsPos": 82,
+    "gapPct": -0.97
+   },
+   {
+    "d": "2026-11-12",
+    "o": 126.8,
+    "h": 127.66,
+    "l": 125.48,
+    "c": 126.19,
+    "v": 17222400,
+    "clsPos": 33,
+    "gapPct": 0.9
+   },
+   {
+    "d": "2026-11-13",
+    "o": 126.77,
+    "h": 128.27,
+    "l": 126.22,
+    "c": 128.09,
+    "v": 16639000,
+    "clsPos": 91,
+    "gapPct": 0.46
+   },
+   {
+    "d": "2026-11-16",
+    "o": 129.83,
+    "h": 129.85,
+    "l": 127.88,
+    "c": 128.41,
+    "v": 17780200,
+    "clsPos": 27,
+    "gapPct": 1.36
+   },
+   {
+    "d": "2026-11-17",
+    "o": 127.5,
+    "h": 129.02,
+    "l": 127.16,
+    "c": 127.52,
+    "v": 19841300,
+    "clsPos": 19,
+    "gapPct": -0.71
+   },
+   {
+    "d": "2026-11-18",
+    "o": 126.44,
+    "h": 127.77,
+    "l": 125.07,
+    "c": 127.36,
+    "v": 27962700,
+    "clsPos": 85,
+    "gapPct": -0.85
+   },
+   {
+    "d": "2026-11-19",
+    "o": 123.64,
+    "h": 126.95,
+    "l": 123.27,
+    "c": 126.04,
+    "v": 32289300,
+    "clsPos": 75,
+    "gapPct": -2.92
+   },
+   {
+    "d": "2026-11-20",
+    "o": 127.26,
+    "h": 130.52,
+    "l": 127.18,
+    "c": 127.95,
+    "v": 42631700,
+    "clsPos": 23,
+    "gapPct": 0.97
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/WMT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/WMT-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 24일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

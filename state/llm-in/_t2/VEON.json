@@ -1,0 +1,153 @@
+{
+ "ticker": "VEON",
+ "sector": "Communication Services",
+ "industry": "Telecom Services",
+ "nameKo": "비언(ADR)",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 16.38,
+  "saleNy": 11.65,
+  "epsCy": 50.1,
+  "epsNy": 18.42,
+  "est": {
+   "cyCur": 7.48946,
+   "cy30": 7.02661,
+   "nyCur": 8.86924,
+   "ny30": 8.39196
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.93,
+    17.06,
+    17.33
+   ],
+   "ni": [
+    -79.5,
+    0,
+    -138.27
+   ],
+   "opm": [
+    27.46,
+    25.48,
+    27.41
+   ],
+   "updated": "2026-09-09 06:06:21"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-11-19",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-21",
+  "nameKo": "비언(ADR)",
+  "nameEn": "VEON LTD SPON ADS EACH REP 25 ORD (POST REV SPLT)",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "VEON Targets Up to $9 Billion in Revenue by 2030 as Fintech and AI Drive Growth",
+     "url": "https://www.nasdaq.com/articles/veon-targets-9-billion-revenue-2030-fintech-and-ai-drive-growth",
+     "date": "2026-11-17",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "VEON Ltd. Announces 2030 Growth and Shareholder Return Framework",
+     "url": "https://www.nasdaq.com/articles/veon-ltd-announces-2030-growth-and-shareholder-return-framework",
+     "date": "2026-11-17",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Should Value Investors Buy VEON (VEON) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-veon-veon-stock",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "VEON Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/veon-q3-earnings-call-highlights",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "VEON (VEON) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/veon-veon-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "VEON Delivers Double-Digit Growth as Digital Services Reach 27.2% of Revenue",
+     "url": "https://www.nasdaq.com/articles/veon-delivers-double-digit-growth-digital-services-reach-272-revenue",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "VEON Ltd. Reports Nine-Month Revenue of 3,779 Million U.S. Dollars and Profit of 488 Million U.S. Dollars",
+     "url": "https://www.nasdaq.com/articles/veon-ltd-reports-nine-month-revenue-3779-million-us-dollars-and-profit-488-million-us",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "VEON Ltd. to Acquire 33.75% Stake in JungoTV Holdco, Inc.",
+     "url": "https://www.nasdaq.com/articles/veon-ltd-acquire-3375-stake-jungotv-holdco-inc",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Opening Bell: November 16, 2026",
+   "url": "https://www.cnbc.com/video/2026/11/16/opening-bell-november-16-2026.html",
+   "date": "2026-11-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Veon CEO Kaan Terzioglu: Telecommunications are the foundation, not the destination",
+   "url": "https://www.cnbc.com/video/2026/07/31/veon-ceo-kaan-terzioglu-telecommunications-are-the-foundation-not-the-destination.html",
+   "date": "2026-07-31",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VEON",
+  "fetchedAt": "2026-11-20",
+  "source": "한국투자증권 Open API",
+  "per": 90.9,
+  "pbr": 3.18,
+  "eps": 0.83,
+  "bps": 23.73,
+  "shares": 67990801,
+  "marketCapM": 5137,
+  "high52": 88.9999,
+  "high52Date": "2026-10-30",
+  "low52": 44,
+  "low52Date": "2026-03-12",
+  "last": 75.56,
+  "prevClose": 74.38,
+  "nameKo": "비언(ADR)",
+  "nameEn": "VEON LTD SPON ADS EACH REP 25 ORD (POST REV SPLT)",
+  "listedOn": "2017-03-31",
+  "exchange": "나스닥",
+  "listedShares": 67990801
+ }
+}

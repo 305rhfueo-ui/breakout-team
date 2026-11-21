@@ -1,382 +1,160 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "lists": [
   {
    "key": "dollar",
    "label": "거래대금 상위",
    "criteria": "전영업일 대비 +5% 이상 · 거래대금 큰 순 20개",
-   "count": 8,
+   "count": 3,
    "items": [
     {
-     "ticker": "PANW",
-     "name": "팰로 앨토 네트웍스",
-     "industry": "Software - Infrastructure",
-     "ret1d": 6.42,
-     "rnk1": 26.74,
-     "rnk3": 16.64,
-     "rnk6": 19.7
+     "ticker": "GPN",
+     "name": "글로벌 페이먼츠",
+     "industry": "Specialty Business Services",
+     "ret1d": 9.95,
+     "rnk1": 6,
+     "rnk3": 32.6,
+     "rnk6": 14.2
     },
     {
-     "ticker": "INSM",
-     "name": "인스메드",
-     "industry": "Biotechnology",
-     "ret1d": 20.58,
-     "rnk1": 0.05,
-     "rnk3": 5.09,
-     "rnk6": 6.45
-    },
-    {
-     "ticker": "PDD",
-     "name": "핀둬둬(ADR)",
-     "industry": "Internet Retail",
-     "ret1d": 11.04,
-     "rnk1": 9.87,
-     "rnk3": 35.84,
-     "rnk6": 56.22
-    },
-    {
-     "ticker": "OKTA",
-     "name": "옥타",
-     "industry": "Software - Infrastructure",
-     "ret1d": 5.75,
-     "rnk1": 22.95,
+     "ticker": "ECO",
+     "name": "오케아니스 에코 탱커스",
+     "industry": "Marine Shipping",
+     "ret1d": 11.59,
+     "rnk1": 40.62,
      "rnk3": 0.14,
-     "rnk6": 3.02
+     "rnk6": 0.32
     },
     {
-     "ticker": "WWD",
-     "name": "우드워드",
-     "industry": "Aerospace & Defense",
-     "ret1d": 5.32,
-     "rnk1": 7.53,
-     "rnk3": 41.88,
-     "rnk6": 56.85
-    },
-    {
-     "ticker": "AMBA",
-     "name": "암바렐라",
-     "industry": "Semiconductor Equipment & Materials",
-     "ret1d": 7.85,
-     "rnk1": 65.69,
-     "rnk3": 75.43,
-     "rnk6": 83.09
-    },
-    {
-     "ticker": "CPA",
-     "name": "코파 홀딩스",
-     "industry": "Airlines",
-     "ret1d": 5.52,
-     "rnk1": 19.25,
-     "rnk3": 14.2,
-     "rnk6": 50.36
-    },
-    {
-     "ticker": "INBX",
-     "name": "인히브릭스 바이오사이언시스",
-     "industry": "Biotechnology",
-     "ret1d": 7.63,
-     "rnk1": 94.72,
-     "rnk3": 97.34,
-     "rnk6": 85.44
+     "ticker": "SPB",
+     "name": "스펙트럼 브랜즈 홀딩스",
+     "industry": "Household & Personal Products",
+     "ret1d": 6.3,
+     "rnk1": 27.82,
+     "rnk3": 53.07,
+     "rnk6": 46.39
     }
    ],
-   "industries": [
-    {
-     "industry": "Software - Infrastructure",
-     "count": 2,
-     "tickers": [
-      "PANW",
-      "OKTA"
-     ]
-    },
-    {
-     "industry": "Biotechnology",
-     "count": 2,
-     "tickers": [
-      "INSM",
-      "INBX"
-     ]
-    }
-   ],
+   "industries": [],
    "lone": [
-    "PDD",
-    "WWD",
-    "AMBA",
-    "CPA"
+    "GPN",
+    "ECO",
+    "SPB"
    ],
    "news": [
     {
-     "ticker": "PANW",
-     "date": "2026-11-19",
-     "publisher": "The Motley Fool",
-     "title": "Palo Alto: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/palo-alto-3-key-takeaways-long-term-investors"
+     "ticker": "GPN",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat",
+     "title": "What Global Payments (GPN) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-global-payments-gpn-said-its-q3-earnings-call"
     },
     {
-     "ticker": "PANW",
-     "date": "2026-11-19",
-     "publisher": "The Motley Fool",
-     "title": "Palo Alto (PANW) Q1 2027 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/palo-alto-panw-q1-2027-earnings-call-transcript"
+     "ticker": "GPN",
+     "date": "2026-11-05",
+     "publisher": "Fintel",
+     "title": "Global Payments Inc. Reports Third Quarter 2026 Results and Raises Worldpay Synergy Target to $650 Million",
+     "url": "https://www.nasdaq.com/articles/global-payments-inc-reports-third-quarter-2026-results-and-raises-worldpay-synergy-target"
     },
     {
-     "ticker": "PANW",
-     "date": "2026-11-19",
+     "ticker": "GPN",
+     "date": "2026-11-05",
      "publisher": "The Motley Fool",
-     "title": "Why Palo Alto Networks Stock Rallied Today",
-     "url": "https://www.nasdaq.com/articles/why-palo-alto-networks-stock-rallied-today"
+     "title": "Global Payments (GPN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/global-payments-gpn-q3-2026-earnings-call-transcript"
     },
     {
-     "ticker": "PANW",
+     "ticker": "GPN",
+     "date": "2026-11-05",
+     "publisher": "Zacks",
+     "title": "Compared to Estimates, Global Payments (GPN) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-global-payments-gpn-q3-earnings-look-key-metrics"
+    },
+    {
+     "ticker": "GPN",
+     "date": "2026-11-04",
+     "publisher": "CNBC",
+     "title": "Global Payments: A potential buyout",
+     "url": "https://www.cnbc.com/2026/11/04/global-payments-buyout-cdr-gtcr.html"
+    },
+    {
+     "ticker": "GPN",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "title": "Circle names BlackRock and Visa as initial Arc partners",
+     "url": "https://www.cnbc.com/2026/08/05/circle-names-blackrock-and-visa-as-initial-arc-partners-signaling-early-institutional-backing.html"
+    },
+    {
+     "ticker": "ECO",
      "date": "2026-11-19",
      "publisher": "Zacks",
-     "title": "PANW Q1 Earnings Call Highlights $4.5 Billion AI Deal and Outlook",
-     "url": "https://www.nasdaq.com/articles/panw-q1-earnings-call-highlights-45-billion-ai-deal-and-outlook"
+     "title": "Is ECO a Buy Now as Soaring Earnings Offset Debt and Dilution Risks?",
+     "url": "https://www.nasdaq.com/articles/eco-buy-now-soaring-earnings-offset-debt-and-dilution-risks"
     },
     {
-     "ticker": "PANW",
-     "date": "2026-11-19",
+     "ticker": "ECO",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-solid-growth-stock-3-reasons-think-yes"
+    },
+    {
+     "ticker": "ECO",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Okeanis Eco Tankers Corp. (ECO) Upgraded to Strong Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-upgraded-strong-buy-heres-why"
+    },
+    {
+     "ticker": "ECO",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) Stock Outpacing Its Transportation Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-stock-outpacing-its-transportation-peers-year"
+    },
+    {
+     "ticker": "ECO",
+     "date": "2026-09-30",
      "publisher": "CNBC",
-     "title": "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
-     "url": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html"
+     "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+     "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html"
     },
     {
-     "ticker": "PANW",
-     "date": "2026-11-19",
-     "publisher": "CNBC",
-     "title": "Palo Alto stock jumps on earnings beat, company's bet on securing open-weight models",
-     "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
-    },
-    {
-     "ticker": "PANW",
-     "date": "2026-11-19",
-     "publisher": "CNBC",
-     "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-     "url": "https://www.cnbc.com/investingclub/2026/11/19/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html"
-    },
-    {
-     "ticker": "INSM",
+     "ticker": "SPB",
      "date": "2026-11-17",
+     "publisher": "BNK Invest",
+     "title": "SPB Crosses Below Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/spb-crosses-below-key-moving-average-level"
+    },
+    {
+     "ticker": "SPB",
+     "date": "2026-11-13",
      "publisher": "MarketBeat",
-     "title": "Insmed Sees BRINSUPRI Reaching $7 Billion in Peak Sales, Expects Cash-Flow Positive Year Ahead",
-     "url": "https://www.nasdaq.com/articles/insmed-sees-brinsupri-reaching-7-billion-peak-sales-expects-cash-flow-positive-year-ahead"
+     "title": "What Spectrum Brands (SPB) Said on Its Q4 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-spectrum-brands-spb-said-its-q4-earnings-call"
     },
     {
-     "ticker": "INSM",
-     "date": "2026-10-29",
-     "publisher": "MarketBeat",
-     "title": "What Insmed (INSM) Said on Its Q3 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-insmed-insm-said-its-q3-earnings-call"
-    },
-    {
-     "ticker": "INSM",
-     "date": "2026-10-29",
+     "ticker": "SPB",
+     "date": "2026-11-13",
      "publisher": "The Motley Fool",
-     "title": "Insmed (INSM) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/insmed-insm-q3-2026-earnings-call-transcript"
+     "title": "Spectrum Brands (SPB) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/spectrum-brands-spb-q4-2026-earnings-call-transcript"
     },
     {
-     "ticker": "INSM",
-     "date": "2026-10-29",
+     "ticker": "SPB",
+     "date": "2026-11-13",
      "publisher": "Fintel",
-     "title": "Insmed Incorporated Reports Third-Quarter 2026 Revenues of $524.4 Million",
-     "url": "https://www.nasdaq.com/articles/insmed-incorporated-reports-third-quarter-2026-revenues-5244-million"
-    },
-    {
-     "ticker": "INSM",
-     "date": "2026-11-19",
-     "publisher": "CNBC",
-     "title": "Final Trade: DEO, ADP, AAPL, INSM",
-     "url": "https://www.cnbc.com/video/2026/11/19/final-trade-deo-adp-aapl-insm.html"
-    },
-    {
-     "ticker": "PDD",
-     "date": "2026-11-19",
-     "publisher": "Fintel",
-     "title": "PDD Holdings Announces Third Quarter 2026 Unaudited Financial Results",
-     "url": "https://www.nasdaq.com/articles/pdd-holdings-announces-third-quarter-2026-unaudited-financial-results"
-    },
-    {
-     "ticker": "PDD",
-     "date": "2026-11-19",
-     "publisher": "The Motley Fool",
-     "title": "Why PDD Holdings Stock Jumped Today",
-     "url": "https://www.nasdaq.com/articles/why-pdd-holdings-stock-jumped-today"
-    },
-    {
-     "ticker": "PDD",
-     "date": "2026-11-19",
-     "publisher": "The Motley Fool",
-     "title": "PDD (PDD) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/pdd-pdd-q3-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "PDD",
-     "date": "2026-11-19",
-     "publisher": "Zacks",
-     "title": "PDD Holdings Inc. Sponsored ADR (PDD) Surpasses Q3 Earnings Estimates",
-     "url": "https://www.nasdaq.com/articles/pdd-holdings-inc-sponsored-adr-pdd-surpasses-q3-earnings-estimates"
-    },
-    {
-     "ticker": "PDD",
-     "date": "2026-11-19",
-     "publisher": "CNBC",
-     "title": "More long-only investors building positions in us despite strong AI spending",
-     "url": "https://www.cnbc.com/video/2026/11/19/more-long-only-investors-building-positions-in-us-despite-ai-spending.html"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-19",
-     "publisher": "Zacks",
-     "title": "Is Okta (OKTA) a Buy as Wall Street Analysts Look Optimistic?",
-     "url": "https://www.nasdaq.com/articles/okta-okta-buy-wall-street-analysts-look-optimistic"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-18",
-     "publisher": "The Motley Fool",
-     "title": "Okta vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
-     "url": "https://www.nasdaq.com/articles/okta-vs-sentinelone-which-technology-stock-better-buy-2027"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-17",
-     "publisher": "Zacks",
-     "title": "Okta (OKTA) Dips More Than Broader Market: What You Should Know",
-     "url": "https://www.nasdaq.com/articles/okta-okta-dips-more-broader-market-what-you-should-know-0"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-17",
-     "publisher": "Zacks",
-     "title": "Zscaler vs. Okta: Which Cloud Cybersecurity Stock Has the Edge?",
-     "url": "https://www.nasdaq.com/articles/zscaler-vs-okta-which-cloud-cybersecurity-stock-has-edge"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-09",
-     "publisher": "CNBC",
-     "title": "These stocks on Josh Brown's list got washed out in last week's sell-off. Where to go from here",
-     "url": "https://www.cnbc.com/2026/11/09/these-stocks-on-josh-browns-list-got-washed-out-in-last-weeks-sell-off-where-to-go-from-here.html"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-06",
-     "publisher": "CNBC",
-     "title": "Cramer's Lightning round: JPMorgan is 'a great bank'",
-     "url": "https://www.cnbc.com/2026/11/06/cramers-lightning-round-jpmorgan-is-a-great-bank.html"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-10-29",
-     "publisher": "CNBC",
-     "title": "There's a cybersecurity stock on Josh Brown's list that's pulling back. How he's trading it",
-     "url": "https://www.cnbc.com/2026/10/29/okta-stock-pullback-josh-brown.html"
-    },
-    {
-     "ticker": "WWD",
-     "date": "2026-11-19",
-     "publisher": "The Motley Fool",
-     "title": "Woodward (WWD) Q4 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/woodward-wwd-q4-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "WWD",
-     "date": "2026-11-19",
-     "publisher": "Fintel",
-     "title": "Woodward, Inc. Reports Record Sales & Earnings for Fiscal Year 2026",
-     "url": "https://www.nasdaq.com/articles/woodward-inc-reports-record-sales-earnings-fiscal-year-2026"
-    },
-    {
-     "ticker": "WWD",
-     "date": "2026-11-19",
-     "publisher": "MarketBeat",
-     "title": "Woodward Q4 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/woodward-q4-earnings-call-highlights"
-    },
-    {
-     "ticker": "WWD",
-     "date": "2026-11-18",
-     "publisher": "Zacks",
-     "title": "Here's What Key Metrics Tell Us About Woodward (WWD) Q4 Earnings",
-     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-woodward-wwd-q4-earnings"
-    },
-    {
-     "ticker": "AMBA",
-     "date": "2026-10-06",
-     "publisher": "Zacks",
-     "title": "Are Options Traders Betting on a Big Move in Ambarella Stock?",
-     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-ambarella-stock"
-    },
-    {
-     "ticker": "AMBA",
-     "date": "2026-09-21",
-     "publisher": "The Motley Fool",
-     "title": "Ambarella CEO Disposes of Over 6,000 Shares Worth Nearly $400,000",
-     "url": "https://www.nasdaq.com/articles/ambarella-ceo-disposes-over-6000-shares-worth-nearly-400000"
-    },
-    {
-     "ticker": "AMBA",
-     "date": "2026-09-13",
-     "publisher": "MarketBeat",
-     "title": "Ambarella CEO Sees Edge AI Growth Across Security, Autos and Wearables",
-     "url": "https://www.nasdaq.com/articles/ambarella-ceo-sees-edge-ai-growth-across-security-autos-and-wearables"
-    },
-    {
-     "ticker": "AMBA",
-     "date": "2026-10-12",
-     "publisher": "CNBC",
-     "title": "Lightning Round: I would not abandon BlackBerry, says Jim Cramer",
-     "url": "https://www.cnbc.com/video/2026/10/12/lightning-round-i-would-not-abandon-blackberry-says-jim-cramer.html"
-    },
-    {
-     "ticker": "CPA",
-     "date": "2026-11-20",
-     "publisher": "Fintel",
-     "title": "Copa Holdings Reports Third-Quarter Financial Results",
-     "url": "https://www.nasdaq.com/articles/copa-holdings-reports-third-quarter-financial-results"
-    },
-    {
-     "ticker": "CPA",
-     "date": "2026-11-20",
-     "publisher": "The Motley Fool",
-     "title": "Copa Holdings (CPA) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/copa-holdings-cpa-q3-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "CPA",
-     "date": "2026-11-19",
-     "publisher": "Zacks",
-     "title": "Copa Holdings Q3 Earnings Beat on Strong Demand and Higher Yields",
-     "url": "https://www.nasdaq.com/articles/copa-holdings-q3-earnings-beat-strong-demand-and-higher-yields"
-    },
-    {
-     "ticker": "CPA",
-     "date": "2026-11-18",
-     "publisher": "Zacks",
-     "title": "Here's What Key Metrics Tell Us About Copa Holdings (CPA) Q3 Earnings",
-     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-copa-holdings-cpa-q3-earnings"
-    },
-    {
-     "ticker": "CPA",
-     "date": "2026-08-01",
-     "publisher": "CNBC",
-     "title": "These stocks reporting next week have a history of beating expectations",
-     "url": "https://www.cnbc.com/2026/08/01/these-stocks-reporting-next-week-have-history-of-beating-expectations.html"
+     "title": "Spectrum Brands Holdings, Inc. Announces Empower Brands Open Letter to Helen of Troy Shareholders Regarding Proposed Acquisition",
+     "url": "https://www.nasdaq.com/articles/spectrum-brands-holdings-inc-announces-empower-brands-open-letter-helen-troy-shareholders"
     }
    ],
    "research": [
     {
-     "ticker": "INSM",
-     "company": "희귀 폐질환 치료제를 개발·판매하는 바이오 회사. 최근 분기 매출이 1년 전보다 3배 넘게 늘었다.",
-     "whyRose": []
-    },
-    {
-     "ticker": "OKTA",
-     "company": "기업용 로그인·신원 인증(아이덴티티 보안) 소프트웨어를 구독형으로 파는 회사. 최근에는 AI 에이전트의 접근 권한을 관리하는 제품이 새 성장 동력으로 거론된다.",
+     "ticker": "ECO",
+     "company": "원유를 실어 나르는 대형 유조선을 운영하는 그리스 해운사. 운임이 오르면 이익이 크게 늘어나는 구조다.",
      "whyRose": [
-      "2026년 7월 말 분기 영업이익이 1억 700만 달러로 1년 전보다 161% 늘었다.",
-      "키움증권은 대형 고객과 신제품(신원 거버넌스) 판매가 늘어 실적이 좋았고, AI 에이전트 관련 초기 대형 계약이 중장기 성장 동력이라고 봤다."
+      "호르무즈 해협 봉쇄와 러시아 제재 등으로 원유가 더 먼 길을 돌아 운송되면서 유조선 운임이 올랐다. ECO는 올해 두 배 넘게 올랐다.",
+      "3분기 실적이 이익과 매출 모두 시장 예상을 웃돌았다."
      ]
     }
    ]
@@ -391,208 +169,209 @@
      "ticker": "INSM",
      "name": "인스메드",
      "industry": "Biotechnology",
-     "ret1d": 20.58,
+     "ret1d": -2.17,
      "rnk1": 0.05,
-     "rnk3": 5.09,
-     "rnk6": 6.45
-    },
-    {
-     "ticker": "APP",
-     "name": "앱러빈",
-     "industry": "Advertising Agencies",
-     "ret1d": -3.04,
-     "rnk1": 0.14,
-     "rnk3": 2.03,
-     "rnk6": 93.01
+     "rnk3": 3.56,
+     "rnk6": 5.82
     },
     {
      "ticker": "ALGT",
      "name": "얼리전트 트래블",
      "industry": "Airlines",
-     "ret1d": 1.75,
+     "ret1d": -6.04,
+     "rnk1": 0.14,
+     "rnk3": 5.18,
+     "rnk6": 42.16
+    },
+    {
+     "ticker": "APP",
+     "name": "앱러빈",
+     "industry": "Advertising Agencies",
+     "ret1d": -8.11,
      "rnk1": 0.23,
-     "rnk3": 4.64,
-     "rnk6": 36.93
+     "rnk3": 7.62,
+     "rnk6": 92.02
     },
     {
      "ticker": "GKOS",
      "name": "글라우코스",
      "industry": "Medical Devices",
-     "ret1d": 2.15,
+     "ret1d": -0.33,
      "rnk1": 0.32,
-     "rnk3": 0.77,
+     "rnk3": 0.68,
      "rnk6": 0.23
-    },
-    {
-     "ticker": "TMDX",
-     "name": "트랜스메딕스 그룹",
-     "industry": "Medical Devices",
-     "ret1d": -2.5,
-     "rnk1": 0.41,
-     "rnk3": 28.09,
-     "rnk6": 5
-    },
-    {
-     "ticker": "CROX",
-     "name": "크록스",
-     "industry": "Footwear & Accessories",
-     "ret1d": -3.35,
-     "rnk1": 0.5,
-     "rnk3": 1.31,
-     "rnk6": 8.88
     },
     {
      "ticker": "FCN",
      "name": "FTI 컨설팅",
      "industry": "Consulting Services",
-     "ret1d": -1.52,
-     "rnk1": 0.59,
+     "ret1d": 1.04,
+     "rnk1": 0.41,
      "rnk3": 0.5,
-     "rnk6": 9.42
+     "rnk6": 7.71
     },
     {
-     "ticker": "RYTM",
-     "name": "리듬 파머슈티컬스",
-     "industry": "Biotechnology",
-     "ret1d": -1.88,
-     "rnk1": 0.68,
-     "rnk3": 21.6,
-     "rnk6": 8.25
+     "ticker": "CROX",
+     "name": "크록스",
+     "industry": "Footwear & Accessories",
+     "ret1d": -1.68,
+     "rnk1": 0.5,
+     "rnk3": 0.95,
+     "rnk6": 8.52
     },
     {
      "ticker": "WING",
      "name": "윙스톱",
      "industry": "Restaurants",
-     "ret1d": -2.84,
-     "rnk1": 0.77,
-     "rnk3": 0.41,
-     "rnk6": 60.28
-    },
-    {
-     "ticker": "XMTR",
-     "name": "조메트리",
-     "industry": "Industrial Distribution",
-     "ret1d": -7.54,
-     "rnk1": 0.86,
-     "rnk3": 1.67,
-     "rnk6": 23.49
-    },
-    {
-     "ticker": "FWONA",
-     "name": "리버티 포뮬러 원 A",
-     "industry": "Entertainment",
-     "ret1d": -0.68,
-     "rnk1": 0.95,
-     "rnk3": 14.83,
-     "rnk6": 18.26
-    },
-    {
-     "ticker": "VSEC",
-     "name": "VSE",
-     "industry": "Aerospace & Defense",
-     "ret1d": -1.61,
-     "rnk1": 1.04,
-     "rnk3": 82.55,
-     "rnk6": 53.43
-    },
-    {
-     "ticker": "CAR",
-     "name": "에이비스 버짓 그룹",
-     "industry": "Rental & Leasing Services",
-     "ret1d": 1.66,
-     "rnk1": 1.13,
-     "rnk3": 72,
-     "rnk6": 86.97
-    },
-    {
-     "ticker": "IDXX",
-     "name": "아이덱스 래버러토리스",
-     "industry": "Diagnostics & Research",
-     "ret1d": -1.26,
-     "rnk1": 1.22,
-     "rnk3": 1.85,
-     "rnk6": 17.99
-    },
-    {
-     "ticker": "MGRT",
-     "name": "메가 포춘",
-     "industry": "Information Technology Services",
-     "ret1d": 0.87,
-     "rnk1": 1.31,
+     "ret1d": 0.11,
+     "rnk1": 0.59,
      "rnk3": 0.23,
-     "rnk6": 1.49
+     "rnk6": 47.39
     },
     {
-     "ticker": "ORKA",
-     "name": "오루카 테라퓨틱스",
+     "ticker": "RYTM",
+     "name": "리듬 파머슈티컬스",
      "industry": "Biotechnology",
-     "ret1d": 1.91,
-     "rnk1": 1.4,
-     "rnk3": 38.73,
-     "rnk6": 1.13
-    },
-    {
-     "ticker": "NXST",
-     "name": "넥스타 미디어 그룹",
-     "industry": "Broadcasting",
-     "ret1d": -2.07,
-     "rnk1": 1.49,
-     "rnk3": 11.68,
-     "rnk6": 31.79
-    },
-    {
-     "ticker": "PRAX",
-     "name": "프락시스 프리시전 메디신",
-     "industry": "Biotechnology",
-     "ret1d": 1.87,
-     "rnk1": 1.58,
-     "rnk3": 78.67,
-     "rnk6": 65.24
-    },
-    {
-     "ticker": "GHM",
-     "name": "그레이엄",
-     "industry": "Specialty Industrial Machinery",
-     "ret1d": -1.95,
-     "rnk1": 1.67,
-     "rnk3": 76.24,
-     "rnk6": 83.36
+     "ret1d": -3.8,
+     "rnk1": 0.68,
+     "rnk3": 30.7,
+     "rnk6": 7.98
     },
     {
      "ticker": "CLX",
      "name": "크로락스",
      "industry": "Household & Personal Products",
-     "ret1d": -3.22,
-     "rnk1": 1.76,
-     "rnk3": 27.46,
-     "rnk6": 19.25
+     "ret1d": -0.16,
+     "rnk1": 0.77,
+     "rnk3": 23.85,
+     "rnk6": 19.34
+    },
+    {
+     "ticker": "CAR",
+     "name": "에이비스 버짓 그룹",
+     "industry": "Rental & Leasing Services",
+     "ret1d": 0.56,
+     "rnk1": 0.86,
+     "rnk3": 58.48,
+     "rnk6": 84.08
+    },
+    {
+     "ticker": "KNSA",
+     "name": "키닉사 파머슈티컬스 인터내셔널",
+     "industry": "Drug Manufacturers - Specialty & Generic",
+     "ret1d": 0.38,
+     "rnk1": 0.95,
+     "rnk3": 3.11,
+     "rnk6": 0.41
+    },
+    {
+     "ticker": "FWONA",
+     "name": "리버티 포뮬러 원 A",
+     "industry": "Entertainment",
+     "ret1d": -2.46,
+     "rnk1": 1.04,
+     "rnk3": 15.92,
+     "rnk6": 18.35
+    },
+    {
+     "ticker": "IDXX",
+     "name": "아이덱스 래버러토리스",
+     "industry": "Diagnostics & Research",
+     "ret1d": -1.95,
+     "rnk1": 1.13,
+     "rnk3": 1.58,
+     "rnk6": 16.37
+    },
+    {
+     "ticker": "TMDX",
+     "name": "트랜스메딕스 그룹",
+     "industry": "Medical Devices",
+     "ret1d": -9.33,
+     "rnk1": 1.22,
+     "rnk3": 49.28,
+     "rnk6": 14.47
+    },
+    {
+     "ticker": "CVCO",
+     "name": "카브코 인더스트리스",
+     "industry": "Residential Construction",
+     "ret1d": -1.46,
+     "rnk1": 1.31,
+     "rnk3": 6.9,
+     "rnk6": 21.96
+    },
+    {
+     "ticker": "VSEC",
+     "name": "VSE",
+     "industry": "Aerospace & Defense",
+     "ret1d": -5.7,
+     "rnk1": 1.4,
+     "rnk3": 80.39,
+     "rnk6": 59.56
+    },
+    {
+     "ticker": "MIRM",
+     "name": "미럼 파머슈티컬스",
+     "industry": "Biotechnology",
+     "ret1d": 0.65,
+     "rnk1": 1.49,
+     "rnk3": 40.17,
+     "rnk6": 41.25
+    },
+    {
+     "ticker": "ORKA",
+     "name": "오루카 테라퓨틱스",
+     "industry": "Biotechnology",
+     "ret1d": -1.8,
+     "rnk1": 1.58,
+     "rnk3": 32.78,
+     "rnk6": 1.13
+    },
+    {
+     "ticker": "IPAR",
+     "name": "인터파퓸스",
+     "industry": "Household & Personal Products",
+     "ret1d": 3.37,
+     "rnk1": 1.67,
+     "rnk3": 2.93,
+     "rnk6": 2.57
     },
     {
      "ticker": "TFX",
      "name": "텔레플렉스",
      "industry": "Medical Instruments & Supplies",
-     "ret1d": -1.48,
-     "rnk1": 1.85,
-     "rnk3": 4.28,
-     "rnk6": 11.14
+     "ret1d": -1.11,
+     "rnk1": 1.76,
+     "rnk3": 3.2,
+     "rnk6": 10.6
     },
     {
-     "ticker": "RHLD",
-     "name": "리절루트 홀딩스 매니지먼트",
-     "industry": "Specialty Business Services",
-     "ret1d": -3.82,
+     "ticker": "PRAX",
+     "name": "프락시스 프리시전 메디신",
+     "industry": "Biotechnology",
+     "ret1d": -3.37,
+     "rnk1": 1.85,
+     "rnk3": 73.53,
+     "rnk6": 23.22
+    },
+    {
+     "ticker": "CHTR",
+     "name": "차터 커뮤니케이션스",
+     "industry": "Telecom Services",
+     "ret1d": -3.34,
      "rnk1": 1.94,
-     "rnk3": 24.21,
-     "rnk6": 14.11
+     "rnk3": 63.62,
+     "rnk6": 63.62
     }
    ],
    "industries": [
     {
      "industry": "Biotechnology",
-     "count": 4,
+     "count": 5,
      "tickers": [
       "INSM",
       "RYTM",
+      "MIRM",
       "ORKA",
       "PRAX"
      ]
@@ -604,25 +383,30 @@
       "GKOS",
       "TMDX"
      ]
+    },
+    {
+     "industry": "Household & Personal Products",
+     "count": 2,
+     "tickers": [
+      "CLX",
+      "IPAR"
+     ]
     }
    ],
    "lone": [
-    "APP",
     "ALGT",
-    "CROX",
+    "APP",
     "FCN",
+    "CROX",
     "WING",
-    "XMTR",
-    "FWONA",
-    "VSEC",
     "CAR",
+    "KNSA",
+    "FWONA",
     "IDXX",
-    "MGRT",
-    "NXST",
-    "GHM",
-    "CLX",
+    "CVCO",
+    "VSEC",
     "TFX",
-    "RHLD"
+    "CHTR"
    ],
    "news": [
     {
@@ -659,55 +443,6 @@
      "publisher": "CNBC",
      "title": "Final Trade: DEO, ADP, AAPL, INSM",
      "url": "https://www.cnbc.com/video/2026/11/19/final-trade-deo-adp-aapl-insm.html"
-    },
-    {
-     "ticker": "APP",
-     "date": "2026-11-17",
-     "publisher": "Zacks",
-     "title": "AppLovin's Q3 Revenues Jump 55%: Can This Growth Momentum Continue?",
-     "url": "https://www.nasdaq.com/articles/applovins-q3-revenues-jump-55-can-growth-momentum-continue"
-    },
-    {
-     "ticker": "APP",
-     "date": "2026-11-13",
-     "publisher": "The Motley Fool",
-     "title": "AppLovin vs. The Trade Desk: Which Is the Better Digital Advertising Stock to Buy Going Into 2027?",
-     "url": "https://www.nasdaq.com/articles/applovin-vs-trade-desk-which-better-digital-advertising-stock-buy-going-2027"
-    },
-    {
-     "ticker": "APP",
-     "date": "2026-11-12",
-     "publisher": "Zacks",
-     "title": "Why AppLovin (APP) is a Top Momentum Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-applovin-app-top-momentum-stock-long-term"
-    },
-    {
-     "ticker": "APP",
-     "date": "2026-11-10",
-     "publisher": "The Motley Fool",
-     "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/applovin-3-key-takeaways-long-term-investors"
-    },
-    {
-     "ticker": "APP",
-     "date": "2026-11-19",
-     "publisher": "CNBC",
-     "title": "This tech stock has been nearly cut in half this year. I think Wall Street is getting it wrong",
-     "url": "https://www.cnbc.com/2026/11/19/applovin-app-paul-meeks-buying.html"
-    },
-    {
-     "ticker": "APP",
-     "date": "2026-11-05",
-     "publisher": "CNBC",
-     "title": "Stocks making the biggest moves midday: Micron, Tesla, Tripadvisor, AppLovin",
-     "url": "https://www.cnbc.com/2026/11/05/stocks-making-the-biggest-moves-midday-mu-tsla-trip-app-nvda.html"
-    },
-    {
-     "ticker": "APP",
-     "date": "2026-11-04",
-     "publisher": "CNBC",
-     "title": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck",
-     "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
     },
     {
      "ticker": "ALGT",
@@ -738,32 +473,81 @@
      "url": "https://www.nasdaq.com/articles/how-should-investors-approach-allegiant-stock-post-q3-earnings"
     },
     {
-     "ticker": "TMDX",
-     "date": "2026-11-10",
-     "publisher": "Zacks",
-     "title": "TransMedics (TMDX) Just Reclaimed the 200-Day Moving Average",
-     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-reclaimed-200-day-moving-average"
-    },
-    {
-     "ticker": "TMDX",
-     "date": "2026-11-10",
+     "ticker": "APP",
+     "date": "2026-11-20",
      "publisher": "The Motley Fool",
-     "title": "TransMedics: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/transmedics-3-key-takeaways-long-term-investors"
+     "title": "AppLovin Stock Is Up 39% in a Month: Is The Stock Still a Buy?",
+     "url": "https://www.nasdaq.com/articles/applovin-stock-39-month-stock-still-buy"
     },
     {
-     "ticker": "TMDX",
-     "date": "2026-11-09",
+     "ticker": "APP",
+     "date": "2026-11-17",
      "publisher": "Zacks",
-     "title": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
-     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-flashed-golden-cross-signal-do-you-buy"
+     "title": "AppLovin's Q3 Revenues Jump 55%: Can This Growth Momentum Continue?",
+     "url": "https://www.nasdaq.com/articles/applovins-q3-revenues-jump-55-can-growth-momentum-continue"
     },
     {
-     "ticker": "TMDX",
-     "date": "2026-11-09",
+     "ticker": "APP",
+     "date": "2026-11-13",
+     "publisher": "The Motley Fool",
+     "title": "AppLovin vs. The Trade Desk: Which Is the Better Digital Advertising Stock to Buy Going Into 2027?",
+     "url": "https://www.nasdaq.com/articles/applovin-vs-trade-desk-which-better-digital-advertising-stock-buy-going-2027"
+    },
+    {
+     "ticker": "APP",
+     "date": "2026-11-12",
      "publisher": "Zacks",
-     "title": "TransMedics (TMDX) Recently Broke Out Above the 50-Day Moving Average",
-     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-recently-broke-out-above-50-day-moving-average"
+     "title": "Why AppLovin (APP) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-applovin-app-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "APP",
+     "date": "2026-11-19",
+     "publisher": "CNBC",
+     "title": "This tech stock has been nearly cut in half this year. I think Wall Street is getting it wrong",
+     "url": "https://www.cnbc.com/2026/11/19/applovin-app-paul-meeks-buying.html"
+    },
+    {
+     "ticker": "APP",
+     "date": "2026-11-05",
+     "publisher": "CNBC",
+     "title": "Stocks making the biggest moves midday: Micron, Tesla, Tripadvisor, AppLovin",
+     "url": "https://www.cnbc.com/2026/11/05/stocks-making-the-biggest-moves-midday-mu-tsla-trip-app-nvda.html"
+    },
+    {
+     "ticker": "APP",
+     "date": "2026-11-04",
+     "publisher": "CNBC",
+     "title": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck",
+     "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    },
+    {
+     "ticker": "FCN",
+     "date": "2026-11-19",
+     "publisher": "Zacks",
+     "title": "Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-fti-consulting-fcn-top-growth-stock-long-term-0"
+    },
+    {
+     "ticker": "FCN",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "Is FTI Consulting (FCN) Stock Undervalued Right Now?",
+     "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-stock-undervalued-right-now"
+    },
+    {
+     "ticker": "FCN",
+     "date": "2026-11-02",
+     "publisher": "Zacks",
+     "title": "Here's Why FTI Consulting (FCN) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-fti-consulting-fcn-strong-growth-stock-1"
+    },
+    {
+     "ticker": "FCN",
+     "date": "2026-11-02",
+     "publisher": "Zacks",
+     "title": "Are Business Services Stocks Lagging  FTI Consulting (FCN) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-fti-consulting-fcn-year"
     },
     {
      "ticker": "CROX",
@@ -815,69 +599,6 @@
      "url": "https://www.cnbc.com/2026/10/13/crocs-stock-gen-z-china-valuation.html"
     },
     {
-     "ticker": "FCN",
-     "date": "2026-11-19",
-     "publisher": "Zacks",
-     "title": "Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-fti-consulting-fcn-top-growth-stock-long-term-0"
-    },
-    {
-     "ticker": "FCN",
-     "date": "2026-11-04",
-     "publisher": "Zacks",
-     "title": "Is FTI Consulting (FCN) Stock Undervalued Right Now?",
-     "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-stock-undervalued-right-now"
-    },
-    {
-     "ticker": "FCN",
-     "date": "2026-11-02",
-     "publisher": "Zacks",
-     "title": "Here's Why FTI Consulting (FCN) is a Strong Growth Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-fti-consulting-fcn-strong-growth-stock-1"
-    },
-    {
-     "ticker": "FCN",
-     "date": "2026-11-02",
-     "publisher": "Zacks",
-     "title": "Are Business Services Stocks Lagging  FTI Consulting (FCN) This Year?",
-     "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-fti-consulting-fcn-year"
-    },
-    {
-     "ticker": "RYTM",
-     "date": "2026-11-03",
-     "publisher": "The Motley Fool",
-     "title": "Rhythm Pharma (RYTM) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/rhythm-pharma-rytm-q3-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "RYTM",
-     "date": "2026-11-03",
-     "publisher": "MarketBeat",
-     "title": "Rhythm Pharmaceuticals Q3 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-q3-earnings-call-highlights"
-    },
-    {
-     "ticker": "RYTM",
-     "date": "2026-11-03",
-     "publisher": "Fintel",
-     "title": "Rhythm Pharmaceuticals, Inc. Reports Third Quarter 2026 Net Product Revenue of $92.1 million",
-     "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-reports-third-quarter-2026-net-product-revenue-921-million"
-    },
-    {
-     "ticker": "RYTM",
-     "date": "2026-11-03",
-     "publisher": "Zacks",
-     "title": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
-     "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-rytm-reports-q3-loss-beats-revenue-estimates"
-    },
-    {
-     "ticker": "RYTM",
-     "date": "2026-07-27",
-     "publisher": "CNBC",
-     "title": "Monday's big analyst calls: Nvidia, SpaceX, Tesla, Apple, Ford, Rivian & more",
-     "url": "https://www.cnbc.com/2026/07/27/monday-stocks-from-analyst-calls-like-nvidia.html"
-    },
-    {
      "ticker": "WING",
      "date": "2026-11-05",
      "publisher": "The Motley Fool",
@@ -920,32 +641,130 @@
      "url": "https://www.cnbc.com/investingclub/video/2026/11/11/off-the-charts-investing-opportunities-in-restaurant-stocks.html"
     },
     {
-     "ticker": "XMTR",
-     "date": "2026-11-09",
-     "publisher": "Fintel",
-     "title": "Xometry Consensus Price Target Increased by 11.98% to $127.13",
-     "url": "https://www.nasdaq.com/articles/xometry-consensus-price-target-increased-1198-12713"
-    },
-    {
-     "ticker": "XMTR",
+     "ticker": "RYTM",
      "date": "2026-11-03",
      "publisher": "The Motley Fool",
-     "title": "Xometry: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/xometry-3-key-takeaways-long-term-investors"
+     "title": "Rhythm Pharma (RYTM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/rhythm-pharma-rytm-q3-2026-earnings-call-transcript"
     },
     {
-     "ticker": "XMTR",
-     "date": "2026-11-03",
-     "publisher": "The Motley Fool",
-     "title": "Xometry (XMTR) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/xometry-xmtr-q3-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "XMTR",
+     "ticker": "RYTM",
      "date": "2026-11-03",
      "publisher": "MarketBeat",
-     "title": "What Xometry (XMTR) Said on Its Q3 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-xometry-xmtr-said-its-q3-earnings-call"
+     "title": "Rhythm Pharmaceuticals Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-q3-earnings-call-highlights"
+    },
+    {
+     "ticker": "RYTM",
+     "date": "2026-11-03",
+     "publisher": "Fintel",
+     "title": "Rhythm Pharmaceuticals, Inc. Reports Third Quarter 2026 Net Product Revenue of $92.1 million",
+     "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-reports-third-quarter-2026-net-product-revenue-921-million"
+    },
+    {
+     "ticker": "RYTM",
+     "date": "2026-11-03",
+     "publisher": "Zacks",
+     "title": "Rhythm Pharmaceuticals, Inc. (RYTM) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/rhythm-pharmaceuticals-inc-rytm-reports-q3-loss-beats-revenue-estimates"
+    },
+    {
+     "ticker": "RYTM",
+     "date": "2026-07-27",
+     "publisher": "CNBC",
+     "title": "Monday's big analyst calls: Nvidia, SpaceX, Tesla, Apple, Ford, Rivian & more",
+     "url": "https://www.cnbc.com/2026/07/27/monday-stocks-from-analyst-calls-like-nvidia.html"
+    },
+    {
+     "ticker": "CLX",
+     "date": "2026-11-19",
+     "publisher": "Fintel",
+     "title": "The Clorox Company Reports Voting Results from November 18, 2026 Annual Meeting",
+     "url": "https://www.nasdaq.com/articles/clorox-company-reports-voting-results-november-18-2026-annual-meeting"
+    },
+    {
+     "ticker": "CLX",
+     "date": "2026-11-09",
+     "publisher": "BNK Invest",
+     "title": "Monday 11/9 Insider Buying Report: CVS, CLX",
+     "url": "https://www.nasdaq.com/articles/monday-11-9-insider-buying-report-cvs-clx"
+    },
+    {
+     "ticker": "CLX",
+     "date": "2026-11-04",
+     "publisher": "BNK Invest",
+     "title": "Bullish Two Hundred Day Moving Average Cross - CLX",
+     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-clx"
+    },
+    {
+     "ticker": "CLX",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool",
+     "title": "Clorox vs. PepsiCo: Which Dividend Stock Could Make You Richer Over the Next 10 Years?",
+     "url": "https://www.nasdaq.com/articles/clorox-vs-pepsico-which-dividend-stock-could-make-you-richer-over-next-10-years"
+    },
+    {
+     "ticker": "CLX",
+     "date": "2026-11-06",
+     "publisher": "CNBC",
+     "title": "Final Trades: Take-Two Interactive Software, Amazon and Clorox",
+     "url": "https://www.cnbc.com/video/2026/11/06/final-trades-take-two-interactive-amazon-clorox.html"
+    },
+    {
+     "ticker": "CAR",
+     "date": "2026-11-06",
+     "publisher": "Zacks",
+     "title": "Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3",
+     "url": "https://www.nasdaq.com/articles/avis-budget-stock-appreciates-10-despite-earnings-miss-q3"
+    },
+    {
+     "ticker": "CAR",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool",
+     "title": "Avis (CAR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/avis-car-q3-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "CAR",
+     "date": "2026-11-04",
+     "publisher": "MarketBeat",
+     "title": "What Avis Budget Group (CAR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-avis-budget-group-car-said-its-q3-earnings-call"
+    },
+    {
+     "ticker": "CAR",
+     "date": "2026-11-04",
+     "publisher": "RTTNews",
+     "title": "Avis Budget Group Q3 26 Earnings Conference Call At 8:30 AM ET",
+     "url": "https://www.nasdaq.com/articles/avis-budget-group-q3-26-earnings-conference-call-8-30-am-et"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-20",
+     "publisher": "Zacks",
+     "title": "Why Kiniksa Pharmaceuticals International, plc (KNSA) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-kiniksa-pharmaceuticals-international-plc-knsa-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-20",
+     "publisher": "Zacks",
+     "title": "Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-kiniksa-pharmaceuticals-stock"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "Here's Why Kiniksa Pharmaceuticals International, plc (KNSA) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-kiniksa-pharmaceuticals-international-plc-knsa-strong-momentum-stock"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-02",
+     "publisher": "Fintel",
+     "title": "Kiniksa Pharmaceuticals International Average Price Target Raised 13.15% to $111.62",
+     "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-average-price-target-raised-1315-11162"
     },
     {
      "ticker": "FWONA",
@@ -997,6 +816,69 @@
      "url": "https://www.cnbc.com/video/2026/11/05/faber-report-liberty-media-acquires-high-vote-series-b-shares-of-john-c-malone-related-enterprises.html"
     },
     {
+     "ticker": "IDXX",
+     "date": "2026-11-19",
+     "publisher": "Zacks",
+     "title": "Here's How Much You'd Have If You Invested $1000 in Idexx Laboratories a Decade Ago",
+     "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-idexx-laboratories-decade-ago"
+    },
+    {
+     "ticker": "TMDX",
+     "date": "2026-11-10",
+     "publisher": "Zacks",
+     "title": "TransMedics (TMDX) Just Reclaimed the 200-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-reclaimed-200-day-moving-average"
+    },
+    {
+     "ticker": "TMDX",
+     "date": "2026-11-10",
+     "publisher": "The Motley Fool",
+     "title": "TransMedics: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/transmedics-3-key-takeaways-long-term-investors"
+    },
+    {
+     "ticker": "TMDX",
+     "date": "2026-11-09",
+     "publisher": "Zacks",
+     "title": "TransMedics (TMDX) Just Flashed Golden Cross Signal: Do You Buy?",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-just-flashed-golden-cross-signal-do-you-buy"
+    },
+    {
+     "ticker": "TMDX",
+     "date": "2026-11-09",
+     "publisher": "Zacks",
+     "title": "TransMedics (TMDX) Recently Broke Out Above the 50-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/transmedics-tmdx-recently-broke-out-above-50-day-moving-average"
+    },
+    {
+     "ticker": "CVCO",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "Cavco (CVCO) Is Up 15.86% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/cavco-cvco-1586-one-week-what-you-should-know"
+    },
+    {
+     "ticker": "CVCO",
+     "date": "2026-11-03",
+     "publisher": "Fintel",
+     "title": "Cavco Industries, Inc. Reports Net Revenue of $656.4 million for Fiscal 2027 Second Quarter",
+     "url": "https://www.nasdaq.com/articles/cavco-industries-inc-reports-net-revenue-6564-million-fiscal-2027-second-quarter"
+    },
+    {
+     "ticker": "CVCO",
+     "date": "2026-10-31",
+     "publisher": "The Motley Fool",
+     "title": "Cavco: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/cavco-3-key-takeaways-long-term-investors"
+    },
+    {
+     "ticker": "CVCO",
+     "date": "2026-10-31",
+     "publisher": "The Motley Fool",
+     "title": "Cavco (CVCO) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cavco-cvco-q2-2027-earnings-call-transcript"
+    },
+    {
      "ticker": "VSEC",
      "date": "2026-11-09",
      "publisher": "The Motley Fool",
@@ -1025,67 +907,32 @@
      "url": "https://www.nasdaq.com/articles/cash-dividend-way-vsec"
     },
     {
-     "ticker": "CAR",
-     "date": "2026-11-06",
-     "publisher": "Zacks",
-     "title": "Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3",
-     "url": "https://www.nasdaq.com/articles/avis-budget-stock-appreciates-10-despite-earnings-miss-q3"
+     "ticker": "MIRM",
+     "date": "2026-11-10",
+     "publisher": "RTTNews",
+     "title": "Mirum Pharmaceuticals' Brelovitug Meets Primary Endpoint In Phase 3 AZURE-4 Study",
+     "url": "https://www.nasdaq.com/articles/mirum-pharmaceuticals-brelovitug-meets-primary-endpoint-phase-3-azure-4-study"
     },
     {
-     "ticker": "CAR",
+     "ticker": "MIRM",
      "date": "2026-11-04",
      "publisher": "The Motley Fool",
-     "title": "Avis (CAR) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/avis-car-q3-2026-earnings-call-transcript"
+     "title": "Mirum (MIRM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mirum-mirm-q3-2026-earnings-call-transcript"
     },
     {
-     "ticker": "CAR",
+     "ticker": "MIRM",
      "date": "2026-11-04",
      "publisher": "MarketBeat",
-     "title": "What Avis Budget Group (CAR) Said on Its Q3 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-avis-budget-group-car-said-its-q3-earnings-call"
+     "title": "Mirum Pharmaceuticals Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/mirum-pharmaceuticals-q3-earnings-call-highlights"
     },
     {
-     "ticker": "CAR",
-     "date": "2026-11-04",
-     "publisher": "RTTNews",
-     "title": "Avis Budget Group Q3 26 Earnings Conference Call At 8:30 AM ET",
-     "url": "https://www.nasdaq.com/articles/avis-budget-group-q3-26-earnings-conference-call-8-30-am-et"
-    },
-    {
-     "ticker": "IDXX",
-     "date": "2026-11-19",
-     "publisher": "Zacks",
-     "title": "Here's How Much You'd Have If You Invested $1000 in Idexx Laboratories a Decade Ago",
-     "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-idexx-laboratories-decade-ago"
-    },
-    {
-     "ticker": "IDXX",
-     "date": "2026-11-06",
-     "publisher": "Zacks",
-     "title": "3 Reasons Growth Investors Will Love Idexx (IDXX)",
-     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-idexx-idxx"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2026-06-11",
-     "publisher": "BNK Invest",
-     "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
-     "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2026-04-09",
-     "publisher": "The Motley Fool",
-     "title": "How Mega Fortune Stock Tripled This Week",
-     "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2025-07-17",
-     "publisher": "Quiver Quantitative",
-     "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
-     "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million"
+     "ticker": "MIRM",
+     "date": "2026-11-03",
+     "publisher": "Fintel",
+     "title": "Mirum Pharmaceuticals Reports Q3 2026 Financial Results and Raises Full-Year Sales Guidance",
+     "url": "https://www.nasdaq.com/articles/mirum-pharmaceuticals-reports-q3-2026-financial-results-and-raises-full-year-sales"
     },
     {
      "ticker": "ORKA",
@@ -1116,130 +963,32 @@
      "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data"
     },
     {
-     "ticker": "NXST",
-     "date": "2026-11-06",
-     "publisher": "BNK Invest",
-     "title": "Nexstar Media Group (NXST) Passes Through 4% Yield Mark",
-     "url": "https://www.nasdaq.com/articles/nexstar-media-group-nxst-passes-through-4-yield-mark"
-    },
-    {
-     "ticker": "NXST",
-     "date": "2026-11-06",
-     "publisher": "MarketBeat",
-     "title": "What Nexstar Media Group (NXST) Said on Its Q3 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-nexstar-media-group-nxst-said-its-q3-earnings-call"
-    },
-    {
-     "ticker": "NXST",
-     "date": "2026-11-05",
-     "publisher": "The Motley Fool",
-     "title": "Nexstar (NXST) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/nexstar-nxst-q3-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "NXST",
-     "date": "2026-11-05",
-     "publisher": "Fintel",
-     "title": "Nexstar Media Group Reports Record Quarterly Net Revenue of $2.1 Billion",
-     "url": "https://www.nasdaq.com/articles/nexstar-media-group-reports-record-quarterly-net-revenue-21-billion"
-    },
-    {
-     "ticker": "NXST",
-     "date": "2026-10-21",
-     "publisher": "CNBC",
-     "title": "The political ad wars are still being fought over the airwaves",
-     "url": "https://www.cnbc.com/2026/10/21/why-broadcast-tv-still-dominates-political-ad-spending.html"
-    },
-    {
-     "ticker": "PRAX",
-     "date": "2026-11-09",
-     "publisher": "Fintel",
-     "title": "Praxis Precision Medicines, Inc. Reports Third Quarter 2026 Financial Results and Provides Regulatory Updates",
-     "url": "https://www.nasdaq.com/articles/praxis-precision-medicines-inc-reports-third-quarter-2026-financial-results-and-provides"
-    },
-    {
-     "ticker": "PRAX",
-     "date": "2026-10-17",
-     "publisher": "Fintel",
-     "title": "UBS Initiates Coverage of Praxis Precision Medicines with Buy",
-     "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-praxis-precision-medicines-buy"
-    },
-    {
-     "ticker": "PRAX",
-     "date": "2026-10-17",
-     "publisher": "Fintel",
-     "title": "JP Morgan Initiates Coverage of Praxis Precision Medicines at Overweight",
-     "url": "https://www.nasdaq.com/articles/jp-morgan-initiates-coverage-praxis-precision-medicines-overweight"
-    },
-    {
-     "ticker": "PRAX",
-     "date": "2026-08-13",
-     "publisher": "The Motley Fool",
-     "title": "Praxis (PRAX) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/praxis-prax-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "GHM",
-     "date": "2026-11-10",
-     "publisher": "Zacks",
-     "title": "3 Reasons Growth Investors Will Love Graham (GHM)",
-     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-graham-ghm"
-    },
-    {
-     "ticker": "GHM",
-     "date": "2026-11-10",
-     "publisher": "Zacks",
-     "title": "Wall Street Analysts Predict a 38.09% Upside in Graham (GHM): Here's  What You Should Know",
-     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-3809-upside-graham-ghm-heres-what-you-should-know"
-    },
-    {
-     "ticker": "GHM",
-     "date": "2026-11-09",
-     "publisher": "Fintel",
-     "title": "William Blair Initiates Coverage of Graham at Outperform",
-     "url": "https://www.nasdaq.com/articles/william-blair-initiates-coverage-graham-outperform"
-    },
-    {
-     "ticker": "GHM",
-     "date": "2026-11-07",
-     "publisher": "MarketBeat",
-     "title": "What Graham (GHM) Said on Its Q2 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-graham-ghm-said-its-q2-earnings-call"
-    },
-    {
-     "ticker": "CLX",
+     "ticker": "IPAR",
      "date": "2026-11-19",
      "publisher": "Fintel",
-     "title": "The Clorox Company Reports Voting Results from November 18, 2026 Annual Meeting",
-     "url": "https://www.nasdaq.com/articles/clorox-company-reports-voting-results-november-18-2026-annual-meeting"
+     "title": "Interparfums, Inc. Announces Initial 2027 Guidance Expecting Net Sales of $1.58 billion",
+     "url": "https://www.nasdaq.com/articles/interparfums-inc-announces-initial-2027-guidance-expecting-net-sales-158-billion"
     },
     {
-     "ticker": "CLX",
+     "ticker": "IPAR",
+     "date": "2026-11-19",
+     "publisher": "RTTNews",
+     "title": "Interparfums Sees Sales And Earnings Growth For Full-year 2027",
+     "url": "https://www.nasdaq.com/articles/interparfums-sees-sales-and-earnings-growth-full-year-2027"
+    },
+    {
+     "ticker": "IPAR",
      "date": "2026-11-09",
-     "publisher": "BNK Invest",
-     "title": "Monday 11/9 Insider Buying Report: CVS, CLX",
-     "url": "https://www.nasdaq.com/articles/monday-11-9-insider-buying-report-cvs-clx"
+     "publisher": "Zacks",
+     "title": "International Markets and Interparfums (IPAR): A Deep Dive for Investors",
+     "url": "https://www.nasdaq.com/articles/international-markets-and-interparfums-ipar-deep-dive-investors"
     },
     {
-     "ticker": "CLX",
-     "date": "2026-11-04",
-     "publisher": "BNK Invest",
-     "title": "Bullish Two Hundred Day Moving Average Cross - CLX",
-     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-clx"
-    },
-    {
-     "ticker": "CLX",
-     "date": "2026-11-04",
-     "publisher": "The Motley Fool",
-     "title": "Clorox vs. PepsiCo: Which Dividend Stock Could Make You Richer Over the Next 10 Years?",
-     "url": "https://www.nasdaq.com/articles/clorox-vs-pepsico-which-dividend-stock-could-make-you-richer-over-next-10-years"
-    },
-    {
-     "ticker": "CLX",
-     "date": "2026-11-06",
-     "publisher": "CNBC",
-     "title": "Final Trades: Take-Two Interactive Software, Amazon and Clorox",
-     "url": "https://www.cnbc.com/video/2026/11/06/final-trades-take-two-interactive-amazon-clorox.html"
+     "ticker": "IPAR",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat",
+     "title": "What Interparfums (IPAR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-interparfums-ipar-said-its-q3-earnings-call"
     },
     {
      "ticker": "TFX",
@@ -1270,32 +1019,81 @@
      "url": "https://www.nasdaq.com/articles/teleflex-inc-tfx-q3-2026-earnings-call-transcript"
     },
     {
-     "ticker": "RHLD",
-     "date": "2026-05-07",
-     "publisher": "BNK Invest",
-     "title": "RSI Alert: Resolute Holdings Management (RHLD) Now Oversold",
-     "url": "https://www.nasdaq.com/articles/rsi-alert-resolute-holdings-management-rhld-now-oversold"
+     "ticker": "PRAX",
+     "date": "2026-11-09",
+     "publisher": "Fintel",
+     "title": "Praxis Precision Medicines, Inc. Reports Third Quarter 2026 Financial Results and Provides Regulatory Updates",
+     "url": "https://www.nasdaq.com/articles/praxis-precision-medicines-inc-reports-third-quarter-2026-financial-results-and-provides"
     },
     {
-     "ticker": "RHLD",
-     "date": "2026-05-07",
+     "ticker": "PRAX",
+     "date": "2026-10-17",
+     "publisher": "Fintel",
+     "title": "UBS Initiates Coverage of Praxis Precision Medicines with Buy",
+     "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-praxis-precision-medicines-buy"
+    },
+    {
+     "ticker": "PRAX",
+     "date": "2026-10-17",
+     "publisher": "Fintel",
+     "title": "JP Morgan Initiates Coverage of Praxis Precision Medicines at Overweight",
+     "url": "https://www.nasdaq.com/articles/jp-morgan-initiates-coverage-praxis-precision-medicines-overweight"
+    },
+    {
+     "ticker": "PRAX",
+     "date": "2026-08-13",
      "publisher": "The Motley Fool",
-     "title": "What One Fund’s $2.9 Million Resolute Holdings Exit Signals as Shares Plunge 18% After Earnings",
-     "url": "https://www.nasdaq.com/articles/what-one-funds-29-million-resolute-holdings-exit-signals-shares-plunge-18-after-earnings"
+     "title": "Praxis (PRAX) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/praxis-prax-q2-2026-earnings-call-transcript"
     },
     {
-     "ticker": "RHLD",
-     "date": "2026-02-17",
+     "ticker": "CHTR",
+     "date": "2026-11-12",
      "publisher": "The Motley Fool",
-     "title": "Resolute Holdings Stock Soars 400% as Nine Ten Trims $5 Million From Stake",
-     "url": "https://www.nasdaq.com/articles/resolute-holdings-stock-soars-400-nine-ten-trims-5-million-stake"
+     "title": "Charter Communications: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/charter-communications-3-key-takeaways-long-term-investors"
     },
     {
-     "ticker": "RHLD",
-     "date": "2025-07-14",
-     "publisher": "Quiver Quantitative",
-     "title": "Resolute Holdings Management, Inc. Appoints Wayne M. Hewett and Timothy O. Mahoney as Independent Directors",
-     "url": "https://www.nasdaq.com/articles/resolute-holdings-management-inc-appoints-wayne-m-hewett-and-timothy-o-mahoney-independent"
+     "ticker": "CHTR",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool",
+     "title": "Charter (CHTR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/charter-chtr-q3-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "CHTR",
+     "date": "2026-11-06",
+     "publisher": "Fintel",
+     "title": "Charter Communications, Inc. Announces Third Quarter 2026 Results and Launches New Operating Model",
+     "url": "https://www.nasdaq.com/articles/charter-communications-inc-announces-third-quarter-2026-results-and-launches-new-operating"
+    },
+    {
+     "ticker": "CHTR",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat",
+     "title": "Charter Communications Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/charter-communications-q3-earnings-call-highlights"
+    },
+    {
+     "ticker": "CHTR",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "title": "Goldman Sachs' Communacopia: AI blowback, broadband and Disney's free tier",
+     "url": "https://www.cnbc.com/2026/09/09/goldman-sachs-communcacopia-technology-conference-ai.html"
+    },
+    {
+     "ticker": "CHTR",
+     "date": "2026-08-24",
+     "publisher": "CNBC",
+     "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+     "url": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html"
+    },
+    {
+     "ticker": "CHTR",
+     "date": "2026-07-27",
+     "publisher": "CNBC",
+     "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+     "url": "https://www.cnbc.com/investingclub/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html"
     }
    ],
    "research": [
@@ -1303,6 +1101,15 @@
      "ticker": "INSM",
      "company": "희귀 폐질환 치료제를 개발·판매하는 바이오 회사. 최근 분기 매출이 1년 전보다 3배 넘게 늘었다.",
      "whyRose": []
+    },
+    {
+     "ticker": "ALGT",
+     "company": "미국 저가 항공사로, 레저 여행객을 소도시에서 휴양지로 실어 나르며 돈을 번다. 신용카드 제휴 등 부대 수익도 있다.",
+     "whyRose": [
+      "3분기 실적 발표 뒤 주가가 12.8% 올랐다. 실적이 시장 눈높이를 넘어섰다는 해석이다.",
+      "뱅크오브아메리카 신용카드 제휴 연장 소식이 나와, 항공 외 수익이 이어진다는 기대를 더했다.",
+      "2026년 상반기 분기 매출이 전년보다 늘고 영업이익이 크게 늘었다. 6월 분기 매출은 8.2억 달러로 33.1% 증가했다."
+     ]
     },
     {
      "ticker": "APP",
@@ -1314,33 +1121,12 @@
      ]
     },
     {
-     "ticker": "ALGT",
-     "company": "미국 중소 도시와 휴양지를 잇는 저가 항공사. 항공권 판매와 부가 서비스로 돈을 번다.",
-     "whyRose": [
-      "3분기 실적 발표 이후 주가가 12.8% 올랐다. 발표 직후 시장이 결과를 긍정적으로 받아들인 것으로 보인다.",
-      "3분기 매출이 증권사 예상치를 넘었다. 손실은 났지만 매출 쪽에서 기대를 웃돌았다.",
-      "올해 분기 영업이익이 1년 전보다 늘었다. 6월 분기 매출은 8.2억 달러로 33.1% 늘었고 영업이익은 2,100만 달러로 131.3% 늘었다."
-     ]
-    },
-    {
      "ticker": "GKOS",
      "company": "녹내장 치료용 이식 장치(iDose TR)와 원추각막 치료제(Epioxa)를 파는 안과 의료기기 회사. 두 신제품이 매출 성장을 이끌고 있다.",
      "whyRose": [
       "회사가 올해 매출 전망을 6.8~7.0억 달러에서 7.75~7.85억 달러로 크게 올렸다. 신제품 iDose TR와 Epioxa가 성장의 핵심 동력이라고 밝혔다.",
       "3분기 영업이익이 약 83만 달러로 흑자 전환했다."
      ]
-    },
-    {
-     "ticker": "TMDX",
-     "company": "장기 이식용 장기를 몸 밖에서 살아 있는 상태로 보존·운반하는 장비와 항공 물류 서비스를 파는 의료기기 회사. 간·심장·폐 이식 건수가 늘수록 매출이 커진다.",
-     "whyRose": [
-      "실적 발표 직후 주가가 200일 평균선을 다시 넘고 50일선이 200일선을 뚫는 골든크로스가 나타나, 추세 전환 신호를 보고 매수세가 붙은 것으로 보인다."
-     ]
-    },
-    {
-     "ticker": "CROX",
-     "company": "크록스 클로그 신발과 자회사 HEYDUDE 신발을 파는 신발 회사. 도매와 직영 판매로 돈을 번다.",
-     "whyRose": []
     },
     {
      "ticker": "FCN",
@@ -1352,11 +1138,9 @@
      ]
     },
     {
-     "ticker": "RYTM",
-     "company": "희귀 유전성 비만 치료제 Imcivree를 파는 바이오 회사. 시상하부 비만 등으로 적응증을 넓히며 매출이 빠르게 늘고 있다.",
-     "whyRose": [
-      "10월 일본에서 후천성 시상하부 비만 치료제를 출시해 시장이 넓어졌고, 같은 달 Zacks가 투자의견을 매수로 올렸다."
-     ]
+     "ticker": "CROX",
+     "company": "크록스 클로그 신발과 자회사 HEYDUDE 신발을 파는 신발 회사. 도매와 직영 판매로 돈을 번다.",
+     "whyRose": []
     },
     {
      "ticker": "WING",
@@ -1366,11 +1150,41 @@
      ]
     },
     {
-     "ticker": "XMTR",
-     "company": "제조업체와 주문 제작 공장을 온라인으로 연결해 부품 주문을 중개하는 마켓플레이스 회사. 아직 영업적자지만 매출이 빠르게 늘고 있다.",
+     "ticker": "RYTM",
+     "company": "희귀 유전성 비만 치료제 Imcivree를 파는 바이오 회사. 시상하부 비만 등으로 적응증을 넓히며 매출이 빠르게 늘고 있다.",
      "whyRose": [
-      "3분기 실적이 시장 예상을 웃돌았고 회사는 분기 최대 실적을 발표했다.",
-      "실적 이후 증권사 목표주가 평균이 11.98% 올라 127.13달러가 됐다."
+      "10월 일본에서 후천성 시상하부 비만 치료제를 출시해 시장이 넓어졌고, 같은 달 Zacks가 투자의견을 매수로 올렸다."
+     ]
+    },
+    {
+     "ticker": "CLX",
+     "company": "클로락스, 물티슈·세제·쓰레기봉투·고양이 모래 등 가정용품을 만드는 생활소비재 회사. 불황에도 꾸준히 팔리는 방어주로 분류된다.",
+     "whyRose": [
+      "11월 9일 내부자 매수 보고서에 CLX가 올랐다. 내부 경영진의 매수가 투자심리에 보탬이 됐을 수 있다."
+     ]
+    },
+    {
+     "ticker": "CAR",
+     "company": "에이비스 버짓 그룹은 에이비스·버짓 브랜드로 자동차를 빌려주는 렌터카 회사다. 매출 대부분이 공항·시내 차량 대여에서 나온다.",
+     "whyRose": [
+      "3분기 실적이 예상치를 밑돌았지만 발표 이후 주가는 약 10% 올랐다. 나쁜 소식이 이미 가격에 반영돼 있었다는 해석이 가능하다."
+     ]
+    },
+    {
+     "ticker": "KNSA",
+     "company": "심낭염 재발 치료제 ARCALYST를 파는 바이오 제약사. 제품 매출이 빠르게 늘며 흑자 규모를 키우고 있다.",
+     "whyRose": [
+      "3분기 매출이 1년 전보다 58% 늘었고, 회사가 ARCALYST 2026년 매출 전망을 올렸다.",
+      "실적 발표 뒤 증권사 목표주가 평균이 13.15% 올라 111.62달러가 됐다.",
+      "주가가 100달러 근처까지 올라 모멘텀 종목으로 주목받았다."
+     ]
+    },
+    {
+     "ticker": "FWONA",
+     "company": "포뮬러 원(F1) 레이싱 사업을 소유한 리버티 미디어의 F1 그룹 주식이다. 중계권, 대회 개최권료, 스폰서십에서 매출이 나온다.",
+     "whyRose": [
+      "3분기(7~9월) 매출은 12억 2,600만 달러로 1년 전보다 13% 늘었다. 영업이익은 2억 3,700만 달러로 50% 늘었고 영업이익률은 19.3%다.",
+      "회사가 말론 측이 가진 B주식 2,316,537주를 사들이고 주주권리계획(적대적 인수 방어 장치)을 도입했다. 지배구조 불확실성이 줄었다는 해석이 가능하다."
      ]
     },
     {
@@ -1383,9 +1197,19 @@
      ]
     },
     {
-     "ticker": "MGRT",
-     "company": "사물인터넷(IoT) 솔루션과 서비스를 여러 산업에 공급하는 소형 회사다. 2025년 7월 나스닥에 상장했다.",
-     "whyRose": []
+     "ticker": "TMDX",
+     "company": "장기이식용 장기를 몸 밖에서 살아 있는 상태로 보존·운반하는 의료기기와 항공 운송 서비스를 파는 회사. 장기 이식 한 건당 장비·운송·인력 비용을 함께 받아 매출을 올린다.",
+     "whyRose": [
+      "실적 뒤 주가가 50일선을 넘고 200일선을 되찾았다는 기사가 이어졌고, 50일선이 200일선을 위로 뚫는 골든크로스도 보도됐다. 이런 신호가 추가 매수를 부른 것으로 보인다."
+     ]
+    },
+    {
+     "ticker": "VSEC",
+     "company": "항공기 부품 유통·정비(애프터마켓) 서비스를 하는 항공·방산 업체. 상업용·군용 항공기에 들어가는 부품 공급과 수리로 돈을 번다.",
+     "whyRose": [
+      "3분기(7~9월) 매출이 5.4억 달러로 1년 전보다 91% 늘었다.",
+      "4분기 연속으로 매출이 두 자릿수 이상 늘었다(32% → 27% → 65% → 91%). 성장 속도가 계속 빨라지는 점이 주목받은 것으로 보인다."
+     ]
     },
     {
      "ticker": "ORKA",
@@ -1397,36 +1221,10 @@
      ]
     },
     {
-     "ticker": "NXST",
-     "company": "미국 전역에서 지역 방송국을 운영하며 광고와 방송사 재송신료로 돈을 버는 방송 회사. 최근 TEGNA 방송국 인수로 덩치가 커졌다.",
-     "whyRose": [
-      "3분기 실적에서 분기 사상 최대 매출 21억 달러를 발표했다. 한 달 새 주가가 오른 가장 직접적인 계기다.",
-      "직전 분기(6월 말)에도 매출 19.9억 달러로 1년 전보다 62% 늘었고, 영업이익은 3.6억 달러로 70% 늘었다. 이익률 18%대를 유지하며 덩치만 커진 게 아니라는 점을 보여준다.",
-      "자회사 TEGNA가 디즈니와 ABC 제휴 계약을 13개 시장에서 갱신했다. 방송 네트워크 송출권을 이어가게 돼 수익 기반 불안이 줄었다."
-     ]
-    },
-    {
-     "ticker": "CLX",
-     "company": "클로락스(Clorox)는 표백제·세정제·쓰레기봉투·고양이 모래 같은 생활용품을 파는 미국 소비재 회사다. 마트·온라인 유통망을 통해 꾸준히 팔리는 필수 소비재가 주력이다.",
-     "whyRose": [
-      "2026년 9월 마감 분기 매출이 19.05억 달러로 1년 전보다 33.3% 늘었다. 세전이익은 2.07억 달러로 93.5%, 순이익은 1.7억 달러로 112.5% 증가했다. 직전 해 같은 분기가 부진해 기저가 낮았던 영향도 있다.",
-      "실적 발표 직후 주가가 두 달·1년 평균선을 위로 넘고 증권사 평균 목표가도 넘어서며 기술적 매수세가 붙은 것으로 보인다.",
-      "임원 내부자 매수가 11월 9일 보고되어 투자 심리에 보탬이 됐을 수 있다."
-     ]
-    },
-    {
      "ticker": "TFX",
      "company": "의료용 카테터·수술기구 등 의료기기를 만드는 회사. 병원 중환자·심혈관 시술에 쓰이는 제품이 주력이다.",
      "whyRose": [
       "10월에 FDA가 관상동맥 임시 혈관 지지 기기에 혁신의료기기 지정을 내줘 신제품 기대가 더해졌다."
-     ]
-    },
-    {
-     "ticker": "RHLD",
-     "company": "리절루트 홀딩스 매니지먼트는 전문 비즈니스 서비스 업종의 지주·경영관리 회사다. 2025년 9월 뉴욕거래소에 상장했다.",
-     "whyRose": [
-      "직전 분기(2분기)에는 영업이익률이 7.4%였다. 3분기에 수익성이 크게 좋아졌다.",
-      "실적 발표와 함께 이사회가 자사주 매입 한도를 1억 달러로 늘렸다. 주주환원 의지를 보여 주는 재료다."
      ]
     }
    ]
@@ -1441,199 +1239,199 @@
      "ticker": "KOD",
      "name": "코디악 사이언시스",
      "industry": "Biotechnology",
-     "ret1d": 0.09,
-     "rnk1": 4.37,
+     "ret1d": -0.75,
+     "rnk1": 5.91,
      "rnk3": 0.05,
      "rnk6": 0.14
-    },
-    {
-     "ticker": "OKTA",
-     "name": "옥타",
-     "industry": "Software - Infrastructure",
-     "ret1d": 5.75,
-     "rnk1": 22.95,
-     "rnk3": 0.14,
-     "rnk6": 3.02
-    },
-    {
-     "ticker": "MGRT",
-     "name": "메가 포춘",
-     "industry": "Information Technology Services",
-     "ret1d": 0.87,
-     "rnk1": 1.31,
-     "rnk3": 0.23,
-     "rnk6": 1.49
-    },
-    {
-     "ticker": "EPAM",
-     "name": "이팸 시스템스",
-     "industry": "Information Technology Services",
-     "ret1d": -2.41,
-     "rnk1": 10.14,
-     "rnk3": 0.32,
-     "rnk6": 5.37
-    },
-    {
-     "ticker": "WING",
-     "name": "윙스톱",
-     "industry": "Restaurants",
-     "ret1d": -2.84,
-     "rnk1": 0.77,
-     "rnk3": 0.41,
-     "rnk6": 60.28
-    },
-    {
-     "ticker": "FCN",
-     "name": "FTI 컨설팅",
-     "industry": "Consulting Services",
-     "ret1d": -1.52,
-     "rnk1": 0.59,
-     "rnk3": 0.5,
-     "rnk6": 9.42
     },
     {
      "ticker": "ECO",
      "name": "오케아니스 에코 탱커스",
      "industry": "Marine Shipping",
-     "ret1d": 0.29,
-     "rnk1": 68.94,
-     "rnk3": 0.59,
-     "rnk6": 0.59
+     "ret1d": 11.59,
+     "rnk1": 40.62,
+     "rnk3": 0.14,
+     "rnk6": 0.32
+    },
+    {
+     "ticker": "WING",
+     "name": "윙스톱",
+     "industry": "Restaurants",
+     "ret1d": 0.11,
+     "rnk1": 0.59,
+     "rnk3": 0.23,
+     "rnk6": 47.39
     },
     {
      "ticker": "MRNA",
      "name": "모더나",
      "industry": "Biotechnology",
-     "ret1d": 1.29,
-     "rnk1": 44.14,
-     "rnk3": 0.68,
+     "ret1d": -2.17,
+     "rnk1": 42.25,
+     "rnk3": 0.32,
      "rnk6": 0.05
+    },
+    {
+     "ticker": "EPAM",
+     "name": "이팸 시스템스",
+     "industry": "Information Technology Services",
+     "ret1d": 1.86,
+     "rnk1": 4.55,
+     "rnk3": 0.41,
+     "rnk6": 2.84
+    },
+    {
+     "ticker": "FCN",
+     "name": "FTI 컨설팅",
+     "industry": "Consulting Services",
+     "ret1d": 1.04,
+     "rnk1": 0.41,
+     "rnk3": 0.5,
+     "rnk6": 7.71
+    },
+    {
+     "ticker": "MGRT",
+     "name": "메가 포춘",
+     "industry": "Information Technology Services",
+     "ret1d": -1.09,
+     "rnk1": 3.65,
+     "rnk3": 0.59,
+     "rnk6": 0.86
     },
     {
      "ticker": "GKOS",
      "name": "글라우코스",
      "industry": "Medical Devices",
-     "ret1d": 2.15,
+     "ret1d": -0.33,
      "rnk1": 0.32,
-     "rnk3": 0.77,
+     "rnk3": 0.68,
      "rnk6": 0.23
-    },
-    {
-     "ticker": "GRAL",
-     "name": "그레일",
-     "industry": "Diagnostics & Research",
-     "ret1d": 2.68,
-     "rnk1": 88.41,
-     "rnk3": 0.86,
-     "rnk6": 1.67
-    },
-    {
-     "ticker": "PTC",
-     "name": "PTC",
-     "industry": "Software - Application",
-     "ret1d": -0.11,
-     "rnk1": 31.97,
-     "rnk3": 0.95,
-     "rnk6": 7.53
-    },
-    {
-     "ticker": "CRWD",
-     "name": "크라우드스트라이크 홀딩스",
-     "industry": "Software - Infrastructure",
-     "ret1d": 2.71,
-     "rnk1": 25.02,
-     "rnk3": 1.04,
-     "rnk6": 15.37
-    },
-    {
-     "ticker": "HWKN",
-     "name": "호킨스",
-     "industry": "Specialty Chemicals",
-     "ret1d": -1.38,
-     "rnk1": 4.64,
-     "rnk3": 1.13,
-     "rnk6": 60.55
     },
     {
      "ticker": "CRAI",
      "name": "CRA 인터내셔널",
      "industry": "Consulting Services",
-     "ret1d": 0.81,
-     "rnk1": 10.6,
-     "rnk3": 1.22,
-     "rnk6": 2.75
-    },
-    {
-     "ticker": "CROX",
-     "name": "크록스",
-     "industry": "Footwear & Accessories",
-     "ret1d": -3.35,
-     "rnk1": 0.5,
-     "rnk3": 1.31,
-     "rnk6": 8.88
-    },
-    {
-     "ticker": "OLLI",
-     "name": "올리스 바겐 아웃렛 홀딩스",
-     "industry": "Discount Stores",
-     "ret1d": -3.26,
-     "rnk1": 26.56,
-     "rnk3": 1.4,
-     "rnk6": 23.85
-    },
-    {
-     "ticker": "EXPO",
-     "name": "익스포넌트",
-     "industry": "Engineering & Construction",
-     "ret1d": -0.18,
-     "rnk1": 3.29,
-     "rnk3": 1.49,
-     "rnk6": 2.66
-    },
-    {
-     "ticker": "DOCU",
-     "name": "도큐사인",
-     "industry": "Software - Application",
-     "ret1d": -1.98,
-     "rnk1": 78.67,
-     "rnk3": 1.58,
-     "rnk6": 9.06
-    },
-    {
-     "ticker": "XMTR",
-     "name": "조메트리",
-     "industry": "Industrial Distribution",
-     "ret1d": -7.54,
-     "rnk1": 0.86,
-     "rnk3": 1.67,
-     "rnk6": 23.49
-    },
-    {
-     "ticker": "VEON",
-     "name": "비언(ADR)",
-     "industry": "Telecom Services",
-     "ret1d": 1.59,
-     "rnk1": 58.21,
-     "rnk3": 1.76,
-     "rnk6": 5.82
-    },
-    {
-     "ticker": "IDXX",
-     "name": "아이덱스 래버러토리스",
-     "industry": "Diagnostics & Research",
-     "ret1d": -1.26,
-     "rnk1": 1.22,
-     "rnk3": 1.85,
-     "rnk6": 17.99
+     "ret1d": 1.73,
+     "rnk1": 6.54,
+     "rnk3": 0.77,
+     "rnk6": 2.3
     },
     {
      "ticker": "CRVL",
      "name": "코르벨",
      "industry": "Insurance Brokers",
-     "ret1d": -1.7,
-     "rnk1": 19.88,
+     "ret1d": 1.05,
+     "rnk1": 14.74,
+     "rnk3": 0.86,
+     "rnk6": 2.39
+    },
+    {
+     "ticker": "CROX",
+     "name": "크록스",
+     "industry": "Footwear & Accessories",
+     "ret1d": -1.68,
+     "rnk1": 0.5,
+     "rnk3": 0.95,
+     "rnk6": 8.52
+    },
+    {
+     "ticker": "PLMR",
+     "name": "팔로마 홀딩스",
+     "industry": "Insurance - Property & Casualty",
+     "ret1d": 4.41,
+     "rnk1": 2.75,
+     "rnk3": 1.04,
+     "rnk6": 1.94
+    },
+    {
+     "ticker": "OLLI",
+     "name": "올리스 바겐 아웃렛 홀딩스",
+     "industry": "Discount Stores",
+     "ret1d": -4.64,
+     "rnk1": 22.59,
+     "rnk3": 1.13,
+     "rnk6": 26.19
+    },
+    {
+     "ticker": "EXPO",
+     "name": "익스포넌트",
+     "industry": "Engineering & Construction",
+     "ret1d": 0.18,
+     "rnk1": 3.02,
+     "rnk3": 1.22,
+     "rnk6": 2.21
+    },
+    {
+     "ticker": "HWKN",
+     "name": "호킨스",
+     "industry": "Specialty Chemicals",
+     "ret1d": -2.91,
+     "rnk1": 5.73,
+     "rnk3": 1.31,
+     "rnk6": 61
+    },
+    {
+     "ticker": "WMT",
+     "name": "월마트",
+     "industry": "Discount Stores",
+     "ret1d": 1.52,
+     "rnk1": 11.32,
+     "rnk3": 1.4,
+     "rnk6": 26.56
+    },
+    {
+     "ticker": "VEON",
+     "name": "비언(ADR)",
+     "industry": "Telecom Services",
+     "ret1d": -0.34,
+     "rnk1": 64.43,
+     "rnk3": 1.49,
+     "rnk6": 5.91
+    },
+    {
+     "ticker": "IDXX",
+     "name": "아이덱스 래버러토리스",
+     "industry": "Diagnostics & Research",
+     "ret1d": -1.95,
+     "rnk1": 1.13,
+     "rnk3": 1.58,
+     "rnk6": 16.37
+    },
+    {
+     "ticker": "PTC",
+     "name": "PTC",
+     "industry": "Software - Application",
+     "ret1d": -0.27,
+     "rnk1": 28.81,
+     "rnk3": 1.67,
+     "rnk6": 5.37
+    },
+    {
+     "ticker": "USPH",
+     "name": "US 피지컬 테라피",
+     "industry": "Medical Care Facilities",
+     "ret1d": 1.71,
+     "rnk1": 8.25,
+     "rnk3": 1.76,
+     "rnk6": 2.12
+    },
+    {
+     "ticker": "SIG",
+     "name": "시그넷 주얼러스",
+     "industry": "Luxury Goods",
+     "ret1d": -4.27,
+     "rnk1": 81.56,
+     "rnk3": 1.85,
+     "rnk6": 27.73
+    },
+    {
+     "ticker": "GRAL",
+     "name": "그레일",
+     "industry": "Diagnostics & Research",
+     "ret1d": -5.33,
+     "rnk1": 91.57,
      "rnk3": 1.94,
-     "rnk6": 4.37
+     "rnk6": 1.49
     }
    ],
    "industries": [
@@ -1646,19 +1444,11 @@
      ]
     },
     {
-     "industry": "Software - Infrastructure",
-     "count": 2,
-     "tickers": [
-      "OKTA",
-      "CRWD"
-     ]
-    },
-    {
      "industry": "Information Technology Services",
      "count": 2,
      "tickers": [
-      "MGRT",
-      "EPAM"
+      "EPAM",
+      "MGRT"
      ]
     },
     {
@@ -1670,33 +1460,35 @@
      ]
     },
     {
-     "industry": "Diagnostics & Research",
+     "industry": "Discount Stores",
      "count": 2,
      "tickers": [
-      "GRAL",
-      "IDXX"
+      "OLLI",
+      "WMT"
      ]
     },
     {
-     "industry": "Software - Application",
+     "industry": "Diagnostics & Research",
      "count": 2,
      "tickers": [
-      "PTC",
-      "DOCU"
+      "IDXX",
+      "GRAL"
      ]
     }
    ],
    "lone": [
-    "WING",
     "ECO",
+    "WING",
     "GKOS",
-    "HWKN",
+    "CRVL",
     "CROX",
-    "OLLI",
+    "PLMR",
     "EXPO",
-    "XMTR",
+    "HWKN",
     "VEON",
-    "CRVL"
+    "PTC",
+    "USPH",
+    "SIG"
    ],
    "news": [
     {
@@ -1728,102 +1520,39 @@
      "url": "https://www.nasdaq.com/articles/kodiak-sciences-two-wet-amd-treatments-match-aflibercept-phase-iii-study"
     },
     {
-     "ticker": "OKTA",
+     "ticker": "ECO",
      "date": "2026-11-19",
      "publisher": "Zacks",
-     "title": "Is Okta (OKTA) a Buy as Wall Street Analysts Look Optimistic?",
-     "url": "https://www.nasdaq.com/articles/okta-okta-buy-wall-street-analysts-look-optimistic"
+     "title": "Is ECO a Buy Now as Soaring Earnings Offset Debt and Dilution Risks?",
+     "url": "https://www.nasdaq.com/articles/eco-buy-now-soaring-earnings-offset-debt-and-dilution-risks"
     },
     {
-     "ticker": "OKTA",
-     "date": "2026-11-18",
-     "publisher": "The Motley Fool",
-     "title": "Okta vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
-     "url": "https://www.nasdaq.com/articles/okta-vs-sentinelone-which-technology-stock-better-buy-2027"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-17",
-     "publisher": "Zacks",
-     "title": "Okta (OKTA) Dips More Than Broader Market: What You Should Know",
-     "url": "https://www.nasdaq.com/articles/okta-okta-dips-more-broader-market-what-you-should-know-0"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-17",
-     "publisher": "Zacks",
-     "title": "Zscaler vs. Okta: Which Cloud Cybersecurity Stock Has the Edge?",
-     "url": "https://www.nasdaq.com/articles/zscaler-vs-okta-which-cloud-cybersecurity-stock-has-edge"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-09",
-     "publisher": "CNBC",
-     "title": "These stocks on Josh Brown's list got washed out in last week's sell-off. Where to go from here",
-     "url": "https://www.cnbc.com/2026/11/09/these-stocks-on-josh-browns-list-got-washed-out-in-last-weeks-sell-off-where-to-go-from-here.html"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-11-06",
-     "publisher": "CNBC",
-     "title": "Cramer's Lightning round: JPMorgan is 'a great bank'",
-     "url": "https://www.cnbc.com/2026/11/06/cramers-lightning-round-jpmorgan-is-a-great-bank.html"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-10-29",
-     "publisher": "CNBC",
-     "title": "There's a cybersecurity stock on Josh Brown's list that's pulling back. How he's trading it",
-     "url": "https://www.cnbc.com/2026/10/29/okta-stock-pullback-josh-brown.html"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2026-06-11",
-     "publisher": "BNK Invest",
-     "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
-     "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2026-04-09",
-     "publisher": "The Motley Fool",
-     "title": "How Mega Fortune Stock Tripled This Week",
-     "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2025-07-17",
-     "publisher": "Quiver Quantitative",
-     "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
-     "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million"
-    },
-    {
-     "ticker": "EPAM",
+     "ticker": "ECO",
      "date": "2026-11-16",
      "publisher": "Zacks",
-     "title": "Here's Why Epam (EPAM) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-epam-epam-strong-momentum-stock"
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-solid-growth-stock-3-reasons-think-yes"
     },
     {
-     "ticker": "EPAM",
-     "date": "2026-11-11",
+     "ticker": "ECO",
+     "date": "2026-11-16",
      "publisher": "Zacks",
-     "title": "Why Epam (EPAM) is a Top Value Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-epam-epam-top-value-stock-long-term"
+     "title": "Okeanis Eco Tankers Corp. (ECO) Upgraded to Strong Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-upgraded-strong-buy-heres-why"
     },
     {
-     "ticker": "EPAM",
-     "date": "2026-11-10",
-     "publisher": "Fintel",
-     "title": "EPAM Systems Consensus Price Target Raised 29.44% to $168.64",
-     "url": "https://www.nasdaq.com/articles/epam-systems-consensus-price-target-raised-2944-16864"
+     "ticker": "ECO",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) Stock Outpacing Its Transportation Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-stock-outpacing-its-transportation-peers-year"
     },
     {
-     "ticker": "EPAM",
-     "date": "2026-11-07",
-     "publisher": "MarketBeat",
-     "title": "EPAM Systems Q3 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/epam-systems-q3-earnings-call-highlights"
+     "ticker": "ECO",
+     "date": "2026-09-30",
+     "publisher": "CNBC",
+     "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+     "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html"
     },
     {
      "ticker": "WING",
@@ -1866,69 +1595,6 @@
      "publisher": "CNBC",
      "title": "Off the Charts: Investing opportunities in restaurant stocks",
      "url": "https://www.cnbc.com/investingclub/video/2026/11/11/off-the-charts-investing-opportunities-in-restaurant-stocks.html"
-    },
-    {
-     "ticker": "FCN",
-     "date": "2026-11-19",
-     "publisher": "Zacks",
-     "title": "Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-fti-consulting-fcn-top-growth-stock-long-term-0"
-    },
-    {
-     "ticker": "FCN",
-     "date": "2026-11-04",
-     "publisher": "Zacks",
-     "title": "Is FTI Consulting (FCN) Stock Undervalued Right Now?",
-     "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-stock-undervalued-right-now"
-    },
-    {
-     "ticker": "FCN",
-     "date": "2026-11-02",
-     "publisher": "Zacks",
-     "title": "Here's Why FTI Consulting (FCN) is a Strong Growth Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-fti-consulting-fcn-strong-growth-stock-1"
-    },
-    {
-     "ticker": "FCN",
-     "date": "2026-11-02",
-     "publisher": "Zacks",
-     "title": "Are Business Services Stocks Lagging  FTI Consulting (FCN) This Year?",
-     "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-fti-consulting-fcn-year"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Is Okeanis Eco Tankers Corp. (ECO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
-     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-solid-growth-stock-3-reasons-think-yes"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Okeanis Eco Tankers Corp. (ECO) Upgraded to Strong Buy: Here's Why",
-     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-upgraded-strong-buy-heres-why"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Is Okeanis Eco Tankers Corp. (ECO) Stock Outpacing Its Transportation Peers This Year?",
-     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-stock-outpacing-its-transportation-peers-year"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-13",
-     "publisher": "Zacks",
-     "title": "Okeanis Q3 Earnings Call Highlights Tanker Rates and Market Risks",
-     "url": "https://www.nasdaq.com/articles/okeanis-q3-earnings-call-highlights-tanker-rates-and-market-risks"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-09-30",
-     "publisher": "CNBC",
-     "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
-     "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html"
     },
     {
      "ticker": "MRNA",
@@ -1980,165 +1646,81 @@
      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html"
     },
     {
-     "ticker": "GRAL",
-     "date": "2025-07-17",
-     "publisher": "Quiver Quantitative",
-     "title": "Insider Sale: Chief Financial Officer of $GRAL Sells 8,000 Shares",
-     "url": "https://www.nasdaq.com/articles/insider-sale-chief-financial-officer-gral-sells-8000-shares"
-    },
-    {
-     "ticker": "GRAL",
-     "date": "2025-05-13",
-     "publisher": "Quiver Quantitative",
-     "title": "GRAIL Earnings Results: $GRAL Reports Quarterly Earnings",
-     "url": "https://www.nasdaq.com/articles/grail-earnings-results-gral-reports-quarterly-earnings"
-    },
-    {
-     "ticker": "GRAL",
-     "date": "2025-05-05",
-     "publisher": "Quiver Quantitative",
-     "title": "Lobbying Update: $500,000 of GRAIL INC. (FORMERLY GRAIL LLC) lobbying was just disclosed",
-     "url": "https://www.nasdaq.com/articles/lobbying-update-500000-grail-inc-formerly-grail-llc-lobbying-was-just-disclosed"
-    },
-    {
-     "ticker": "GRAL",
-     "date": "2025-04-23",
-     "publisher": "Quiver Quantitative",
-     "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
-     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target"
-    },
-    {
-     "ticker": "GRAL",
-     "date": "2026-10-06",
-     "publisher": "CNBC",
-     "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
-     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html"
-    },
-    {
-     "ticker": "PTC",
-     "date": "2026-11-05",
-     "publisher": "Zacks",
-     "title": "PTC Inc. (PTC) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
-     "url": "https://www.nasdaq.com/articles/ptc-inc-ptc-q4-earnings-taking-look-key-metrics-versus-estimates"
-    },
-    {
-     "ticker": "PTC",
-     "date": "2026-11-05",
-     "publisher": "Fintel",
-     "title": "PTC Inc. Reports Fourth Quarter 2026 Results and Suspends Guidance Due to Pending Acquisition",
-     "url": "https://www.nasdaq.com/articles/ptc-inc-reports-fourth-quarter-2026-results-and-suspends-guidance-due-pending-acquisition"
-    },
-    {
-     "ticker": "PTC",
-     "date": "2026-11-04",
-     "publisher": "Zacks",
-     "title": "PTC Inc. (PTC) Surpasses Q4 Earnings and Revenue Estimates",
-     "url": "https://www.nasdaq.com/articles/ptc-inc-ptc-surpasses-q4-earnings-and-revenue-estimates"
-    },
-    {
-     "ticker": "PTC",
-     "date": "2026-11-04",
-     "publisher": "RTTNews",
-     "title": "PTC Inc. Bottom Line Retreats In Q4",
-     "url": "https://www.nasdaq.com/articles/ptc-inc-bottom-line-retreats-q4"
-    },
-    {
-     "ticker": "PTC",
-     "date": "2026-10-10",
-     "publisher": "CNBC",
-     "title": "Stocks were up this week. Here are the names that are now overbought",
-     "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html"
-    },
-    {
-     "ticker": "PTC",
-     "date": "2026-10-05",
-     "publisher": "CNBC",
-     "title": "Stocks making the biggest moves midday: Microsoft, SpaceX, DraftKings & more",
-     "url": "https://www.cnbc.com/2026/10/05/stocks-making-the-biggest-moves-midday-msft-spcx-pcvx-bbd-dkng.html"
-    },
-    {
-     "ticker": "PTC",
-     "date": "2026-10-05",
-     "publisher": "CNBC",
-     "title": "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
-     "url": "https://www.cnbc.com/investingclub/2026/10/05/cramer-is-closely-watching-nvidias-buyback-heres-what-he-wants-to-see.html"
-    },
-    {
-     "ticker": "CRWD",
+     "ticker": "EPAM",
      "date": "2026-11-16",
      "publisher": "Zacks",
-     "title": "CrowdStrike Holdings (CRWD) Stock Moves -1.50%: What You Should Know",
-     "url": "https://www.nasdaq.com/articles/crowdstrike-holdings-crwd-stock-moves-150-what-you-should-know"
+     "title": "Here's Why Epam (EPAM) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-epam-epam-strong-momentum-stock"
     },
     {
-     "ticker": "CRWD",
-     "date": "2026-11-13",
+     "ticker": "EPAM",
+     "date": "2026-11-11",
      "publisher": "Zacks",
-     "title": "CRWD vs. FTNT: Which Cybersecurity Stock Has an Edge Right Now?",
-     "url": "https://www.nasdaq.com/articles/crwd-vs-ftnt-which-cybersecurity-stock-has-edge-right-now"
+     "title": "Why Epam (EPAM) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-epam-epam-top-value-stock-long-term"
     },
     {
-     "ticker": "CRWD",
+     "ticker": "EPAM",
      "date": "2026-11-10",
-     "publisher": "Zacks",
-     "title": "CrowdStrike Holdings (CRWD) Suffers a Larger Drop Than the General Market: Key Insights",
-     "url": "https://www.nasdaq.com/articles/crowdstrike-holdings-crwd-suffers-larger-drop-general-market-key-insights"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-11-10",
-     "publisher": "Zacks",
-     "title": "Investors Heavily Search CrowdStrike (CRWD): Here is What You Need to Know",
-     "url": "https://www.nasdaq.com/articles/investors-heavily-search-crowdstrike-crwd-here-what-you-need-know-1"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-11-18",
-     "publisher": "CNBC",
-     "title": "Stocks to play the rolling outages in America — “Digital resilience”",
-     "url": "https://www.cnbc.com/2026/11/18/digital-resilience-stocks-tech-outages.html"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-11-06",
-     "publisher": "CNBC",
-     "title": "AI stocks hammered by midterm shock as data center buildout becomes 'war of attrition'",
-     "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-11-03",
-     "publisher": "CNBC",
-     "title": "Wednesday's stock stories: What’s likely to move the market in the next session",
-     "url": "https://www.cnbc.com/2026/11/03/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html"
-    },
-    {
-     "ticker": "HWKN",
-     "date": "2026-10-28",
-     "publisher": "The Motley Fool",
-     "title": "Why Hawkins Stock Crushed the Market on Tuesday",
-     "url": "https://www.nasdaq.com/articles/why-hawkins-stock-crushed-market-tuesday"
-    },
-    {
-     "ticker": "HWKN",
-     "date": "2026-10-26",
      "publisher": "Fintel",
-     "title": "Hawkins, Inc. Reports Record Second Quarter Revenue of $313.8 million",
-     "url": "https://www.nasdaq.com/articles/hawkins-inc-reports-record-second-quarter-revenue-3138-million"
+     "title": "EPAM Systems Consensus Price Target Raised 29.44% to $168.64",
+     "url": "https://www.nasdaq.com/articles/epam-systems-consensus-price-target-raised-2944-16864"
     },
     {
-     "ticker": "HWKN",
-     "date": "2026-10-26",
-     "publisher": "Zacks",
-     "title": "Hawkins (HWKN) Beats Q2 Earnings and Revenue Estimates",
-     "url": "https://www.nasdaq.com/articles/hawkins-hwkn-beats-q2-earnings-and-revenue-estimates"
+     "ticker": "EPAM",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat",
+     "title": "EPAM Systems Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/epam-systems-q3-earnings-call-highlights"
     },
     {
-     "ticker": "HWKN",
-     "date": "2026-10-15",
+     "ticker": "FCN",
+     "date": "2026-11-19",
      "publisher": "Zacks",
-     "title": "AXTA vs. HWKN: Which Stock Should Value Investors Buy Now?",
-     "url": "https://www.nasdaq.com/articles/axta-vs-hwkn-which-stock-should-value-investors-buy-now-0"
+     "title": "Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-fti-consulting-fcn-top-growth-stock-long-term-0"
+    },
+    {
+     "ticker": "FCN",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "Is FTI Consulting (FCN) Stock Undervalued Right Now?",
+     "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-stock-undervalued-right-now"
+    },
+    {
+     "ticker": "FCN",
+     "date": "2026-11-02",
+     "publisher": "Zacks",
+     "title": "Here's Why FTI Consulting (FCN) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-fti-consulting-fcn-strong-growth-stock-1"
+    },
+    {
+     "ticker": "FCN",
+     "date": "2026-11-02",
+     "publisher": "Zacks",
+     "title": "Are Business Services Stocks Lagging  FTI Consulting (FCN) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-fti-consulting-fcn-year"
+    },
+    {
+     "ticker": "MGRT",
+     "date": "2026-06-11",
+     "publisher": "BNK Invest",
+     "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
+     "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt"
+    },
+    {
+     "ticker": "MGRT",
+     "date": "2026-04-09",
+     "publisher": "The Motley Fool",
+     "title": "How Mega Fortune Stock Tripled This Week",
+     "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week"
+    },
+    {
+     "ticker": "MGRT",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative",
+     "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
+     "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million"
     },
     {
      "ticker": "CRAI",
@@ -2167,6 +1749,34 @@
      "publisher": "The Motley Fool",
      "title": "CRA International (CRAI) Q3 2026 Earnings Call Transcript",
      "url": "https://www.nasdaq.com/articles/cra-international-crai-q3-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "CRVL",
+     "date": "2026-11-03",
+     "publisher": "RTTNews",
+     "title": "CorVel Records Higher Profit In Q2 FY2027 With Expansion Of Health Insurance Services",
+     "url": "https://www.nasdaq.com/articles/corvel-records-higher-profit-q2-fy2027-expansion-health-insurance-services"
+    },
+    {
+     "ticker": "CRVL",
+     "date": "2026-11-03",
+     "publisher": "RTTNews",
+     "title": "Corvel Q2 Net Income Rises",
+     "url": "https://www.nasdaq.com/articles/corvel-q2-net-income-rises"
+    },
+    {
+     "ticker": "CRVL",
+     "date": "2026-11-03",
+     "publisher": "Fintel",
+     "title": "CorVel Corporation Reports Second Quarter Fiscal Year 2027 Results",
+     "url": "https://www.nasdaq.com/articles/corvel-corporation-reports-second-quarter-fiscal-year-2027-results"
+    },
+    {
+     "ticker": "CRVL",
+     "date": "2026-08-05",
+     "publisher": "MarketBeat",
+     "title": "CorVel Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/corvel-q1-earnings-call-highlights"
     },
     {
      "ticker": "CROX",
@@ -2216,6 +1826,34 @@
      "publisher": "CNBC",
      "title": "This ugly shoe brand's stock deserves a close look",
      "url": "https://www.cnbc.com/2026/10/13/crocs-stock-gen-z-china-valuation.html"
+    },
+    {
+     "ticker": "PLMR",
+     "date": "2026-11-13",
+     "publisher": "Fintel",
+     "title": "Palomar Holdings, Inc. Raises Full-Year 2026 Adjusted Net Income Guidance to $280M - $285M",
+     "url": "https://www.nasdaq.com/articles/palomar-holdings-inc-raises-full-year-2026-adjusted-net-income-guidance-280m-285m"
+    },
+    {
+     "ticker": "PLMR",
+     "date": "2026-11-12",
+     "publisher": "Zacks",
+     "title": "Why Palomar (PLMR) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-palomar-plmr-top-growth-stock-long-term-0"
+    },
+    {
+     "ticker": "PLMR",
+     "date": "2026-11-12",
+     "publisher": "Zacks",
+     "title": "Can PLMR Balance Rapid Premium Growth With Underwriting Discipline?",
+     "url": "https://www.nasdaq.com/articles/can-plmr-balance-rapid-premium-growth-underwriting-discipline"
+    },
+    {
+     "ticker": "PLMR",
+     "date": "2026-11-10",
+     "publisher": "Zacks",
+     "title": "Palomar (PLMR) is a Top-Ranked Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/palomar-plmr-top-ranked-momentum-stock-should-you-buy"
     },
     {
      "ticker": "OLLI",
@@ -2274,81 +1912,81 @@
      "url": "https://www.nasdaq.com/articles/what-exponent-expo-said-its-q3-earnings-call"
     },
     {
-     "ticker": "DOCU",
-     "date": "2026-11-18",
+     "ticker": "HWKN",
+     "date": "2026-10-28",
      "publisher": "The Motley Fool",
-     "title": "Docusign vs. Fastly: Which Technology Stock Is a Better Buy for 2027?",
-     "url": "https://www.nasdaq.com/articles/docusign-vs-fastly-which-technology-stock-better-buy-2027"
+     "title": "Why Hawkins Stock Crushed the Market on Tuesday",
+     "url": "https://www.nasdaq.com/articles/why-hawkins-stock-crushed-market-tuesday"
     },
     {
-     "ticker": "DOCU",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "DocuSign (DOCU) Stock Moves -1.16%: What You Should Know",
-     "url": "https://www.nasdaq.com/articles/docusign-docu-stock-moves-116-what-you-should-know"
-    },
-    {
-     "ticker": "DOCU",
-     "date": "2026-11-13",
-     "publisher": "Zacks",
-     "title": "Reasons Why Investors Can Consider Buying Docusign Stock Now",
-     "url": "https://www.nasdaq.com/articles/reasons-why-investors-can-consider-buying-docusign-stock-now"
-    },
-    {
-     "ticker": "DOCU",
-     "date": "2026-11-12",
-     "publisher": "Zacks",
-     "title": "Is Trending Stock Docusign Inc. (DOCU) a Buy Now?",
-     "url": "https://www.nasdaq.com/articles/trending-stock-docusign-inc-docu-buy-now"
-    },
-    {
-     "ticker": "DOCU",
-     "date": "2026-09-04",
-     "publisher": "CNBC",
-     "title": "Stocks making the biggest moves premarket: AMC, Lululemon, Adobe",
-     "url": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-premarket-.html"
-    },
-    {
-     "ticker": "DOCU",
-     "date": "2026-09-03",
-     "publisher": "CNBC",
-     "title": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
-     "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-after-hours-lulu-zs-gwre.html"
-    },
-    {
-     "ticker": "DOCU",
-     "date": "2026-10-12",
-     "publisher": "CNBC",
-     "title": "Final Trades: Netflix, AbbVie and Docusign",
-     "url": "https://www.cnbc.com/video/2026/10/12/final-trades-netflix-abbvie-and-docusign.html"
-    },
-    {
-     "ticker": "XMTR",
-     "date": "2026-11-09",
+     "ticker": "HWKN",
+     "date": "2026-10-26",
      "publisher": "Fintel",
-     "title": "Xometry Consensus Price Target Increased by 11.98% to $127.13",
-     "url": "https://www.nasdaq.com/articles/xometry-consensus-price-target-increased-1198-12713"
+     "title": "Hawkins, Inc. Reports Record Second Quarter Revenue of $313.8 million",
+     "url": "https://www.nasdaq.com/articles/hawkins-inc-reports-record-second-quarter-revenue-3138-million"
     },
     {
-     "ticker": "XMTR",
-     "date": "2026-11-03",
+     "ticker": "HWKN",
+     "date": "2026-10-26",
+     "publisher": "Zacks",
+     "title": "Hawkins (HWKN) Beats Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/hawkins-hwkn-beats-q2-earnings-and-revenue-estimates"
+    },
+    {
+     "ticker": "HWKN",
+     "date": "2026-10-15",
+     "publisher": "Zacks",
+     "title": "AXTA vs. HWKN: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/axta-vs-hwkn-which-stock-should-value-investors-buy-now-0"
+    },
+    {
+     "ticker": "WMT",
+     "date": "2026-11-20",
      "publisher": "The Motley Fool",
-     "title": "Xometry: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/xometry-3-key-takeaways-long-term-investors"
+     "title": "Is Walmart Stock Too Expensive to Buy Now?",
+     "url": "https://www.nasdaq.com/articles/walmart-stock-too-expensive-buy-now"
     },
     {
-     "ticker": "XMTR",
-     "date": "2026-11-03",
+     "ticker": "WMT",
+     "date": "2026-11-20",
+     "publisher": "Zacks",
+     "title": "WMT Q3 Earnings Call Takeaways as Sales and Profit Outlooks Rise",
+     "url": "https://www.nasdaq.com/articles/wmt-q3-earnings-call-takeaways-sales-and-profit-outlooks-rise"
+    },
+    {
+     "ticker": "WMT",
+     "date": "2026-11-19",
      "publisher": "The Motley Fool",
-     "title": "Xometry (XMTR) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/xometry-xmtr-q3-2026-earnings-call-transcript"
+     "title": "Walmart: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/walmart-3-key-takeaways-long-term-investors"
     },
     {
-     "ticker": "XMTR",
-     "date": "2026-11-03",
-     "publisher": "MarketBeat",
-     "title": "What Xometry (XMTR) Said on Its Q3 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-xometry-xmtr-said-its-q3-earnings-call"
+     "ticker": "WMT",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool",
+     "title": "Walmart (WMT) Q3 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/walmart-wmt-q3-2027-earnings-call-transcript"
+    },
+    {
+     "ticker": "WMT",
+     "date": "2026-11-19",
+     "publisher": "CNBC",
+     "title": "Walmart CEO tells CNBC retailer aims to keep prices low despite fuel costs",
+     "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html"
+    },
+    {
+     "ticker": "WMT",
+     "date": "2026-11-19",
+     "publisher": "CNBC",
+     "title": "Retail names slump after earnings",
+     "url": "https://www.cnbc.com/video/2026/11/19/retail-names-slump-after-earnings.html"
+    },
+    {
+     "ticker": "WMT",
+     "date": "2026-11-19",
+     "publisher": "CNBC",
+     "title": "Thursday, November 19, 2026: Cramer says investors shouldn't wait for this beverage stock to dip",
+     "url": "https://www.cnbc.com/investingclub/video/2026/11/19/thursday-november-19-2026-cramer-says-investors-shouldnt-wait-for-this-beverage-stock-to-dip.html"
     },
     {
      "ticker": "VEON",
@@ -2400,39 +2038,165 @@
      "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-idexx-laboratories-decade-ago"
     },
     {
-     "ticker": "IDXX",
-     "date": "2026-11-06",
+     "ticker": "PTC",
+     "date": "2026-11-05",
      "publisher": "Zacks",
-     "title": "3 Reasons Growth Investors Will Love Idexx (IDXX)",
-     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-idexx-idxx"
+     "title": "PTC Inc. (PTC) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-ptc-q4-earnings-taking-look-key-metrics-versus-estimates"
     },
     {
-     "ticker": "CRVL",
-     "date": "2026-11-03",
-     "publisher": "RTTNews",
-     "title": "CorVel Records Higher Profit In Q2 FY2027 With Expansion Of Health Insurance Services",
-     "url": "https://www.nasdaq.com/articles/corvel-records-higher-profit-q2-fy2027-expansion-health-insurance-services"
-    },
-    {
-     "ticker": "CRVL",
-     "date": "2026-11-03",
-     "publisher": "RTTNews",
-     "title": "Corvel Q2 Net Income Rises",
-     "url": "https://www.nasdaq.com/articles/corvel-q2-net-income-rises"
-    },
-    {
-     "ticker": "CRVL",
-     "date": "2026-11-03",
+     "ticker": "PTC",
+     "date": "2026-11-05",
      "publisher": "Fintel",
-     "title": "CorVel Corporation Reports Second Quarter Fiscal Year 2027 Results",
-     "url": "https://www.nasdaq.com/articles/corvel-corporation-reports-second-quarter-fiscal-year-2027-results"
+     "title": "PTC Inc. Reports Fourth Quarter 2026 Results and Suspends Guidance Due to Pending Acquisition",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-reports-fourth-quarter-2026-results-and-suspends-guidance-due-pending-acquisition"
     },
     {
-     "ticker": "CRVL",
-     "date": "2026-08-05",
-     "publisher": "MarketBeat",
-     "title": "CorVel Q1 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/corvel-q1-earnings-call-highlights"
+     "ticker": "PTC",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "PTC Inc. (PTC) Surpasses Q4 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-ptc-surpasses-q4-earnings-and-revenue-estimates"
+    },
+    {
+     "ticker": "PTC",
+     "date": "2026-11-04",
+     "publisher": "RTTNews",
+     "title": "PTC Inc. Bottom Line Retreats In Q4",
+     "url": "https://www.nasdaq.com/articles/ptc-inc-bottom-line-retreats-q4"
+    },
+    {
+     "ticker": "PTC",
+     "date": "2026-10-10",
+     "publisher": "CNBC",
+     "title": "Stocks were up this week. Here are the names that are now overbought",
+     "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html"
+    },
+    {
+     "ticker": "PTC",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "title": "Stocks making the biggest moves midday: Microsoft, SpaceX, DraftKings & more",
+     "url": "https://www.cnbc.com/2026/10/05/stocks-making-the-biggest-moves-midday-msft-spcx-pcvx-bbd-dkng.html"
+    },
+    {
+     "ticker": "PTC",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "title": "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
+     "url": "https://www.cnbc.com/investingclub/2026/10/05/cramer-is-closely-watching-nvidias-buyback-heres-what-he-wants-to-see.html"
+    },
+    {
+     "ticker": "USPH",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool",
+     "title": "US Physical Therapy (USPH) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-q3-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "USPH",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "Here's What Key Metrics Tell Us About U.S. Physical Therapy (USPH) Q3 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-us-physical-therapy-usph-q3-earnings"
+    },
+    {
+     "ticker": "USPH",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "U.S. Physical Therapy (USPH) Tops Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/us-physical-therapy-usph-tops-q3-earnings-and-revenue-estimates"
+    },
+    {
+     "ticker": "USPH",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool",
+     "title": "USPH (USPH) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/usph-usph-q2-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "SIG",
+     "date": "2026-11-20",
+     "publisher": "Zacks",
+     "title": "SIG or CFRUY: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/sig-or-cfruy-which-better-value-stock-right-now"
+    },
+    {
+     "ticker": "SIG",
+     "date": "2026-11-20",
+     "publisher": "Zacks",
+     "title": "Should Value Investors Buy Signet Jewelers (SIG) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-signet-jewelers-sig-stock-1"
+    },
+    {
+     "ticker": "SIG",
+     "date": "2026-11-17",
+     "publisher": "Fintel",
+     "title": "Signet Jewelers Limited Appoints Winnie Park to Board of Directors",
+     "url": "https://www.nasdaq.com/articles/signet-jewelers-limited-appoints-winnie-park-board-directors"
+    },
+    {
+     "ticker": "SIG",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Here's Why Signet (SIG) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-signet-sig-fell-more-broader-market"
+    },
+    {
+     "ticker": "SIG",
+     "date": "2026-09-26",
+     "publisher": "CNBC",
+     "title": "What's behind the fall of diamond prices to record lows",
+     "url": "https://www.cnbc.com/2026/09/26/whats-behind-the-fall-of-diamond-prices-to-record-lows.html"
+    },
+    {
+     "ticker": "SIG",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "title": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
+     "url": "https://www.cnbc.com/investingclub/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html"
+    },
+    {
+     "ticker": "SIG",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "title": "Stocks making big moves midday: Meta, Centerspace, Apple, Casey's General Stores",
+     "url": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative",
+     "title": "Insider Sale: Chief Financial Officer of $GRAL Sells 8,000 Shares",
+     "url": "https://www.nasdaq.com/articles/insider-sale-chief-financial-officer-gral-sells-8000-shares"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2025-05-13",
+     "publisher": "Quiver Quantitative",
+     "title": "GRAIL Earnings Results: $GRAL Reports Quarterly Earnings",
+     "url": "https://www.nasdaq.com/articles/grail-earnings-results-gral-reports-quarterly-earnings"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2025-05-05",
+     "publisher": "Quiver Quantitative",
+     "title": "Lobbying Update: $500,000 of GRAIL INC. (FORMERLY GRAIL LLC) lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-500000-grail-inc-formerly-grail-llc-lobbying-was-just-disclosed"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2025-04-23",
+     "publisher": "Quiver Quantitative",
+     "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html"
     }
    ],
    "research": [
@@ -2445,24 +2209,11 @@
      ]
     },
     {
-     "ticker": "OKTA",
-     "company": "기업용 로그인·신원 인증(아이덴티티 보안) 소프트웨어를 구독형으로 파는 회사. 최근에는 AI 에이전트의 접근 권한을 관리하는 제품이 새 성장 동력으로 거론된다.",
+     "ticker": "ECO",
+     "company": "원유를 실어 나르는 대형 유조선을 운영하는 그리스 해운사. 운임이 오르면 이익이 크게 늘어나는 구조다.",
      "whyRose": [
-      "2026년 7월 말 분기 영업이익이 1억 700만 달러로 1년 전보다 161% 늘었다.",
-      "키움증권은 대형 고객과 신제품(신원 거버넌스) 판매가 늘어 실적이 좋았고, AI 에이전트 관련 초기 대형 계약이 중장기 성장 동력이라고 봤다."
-     ]
-    },
-    {
-     "ticker": "MGRT",
-     "company": "사물인터넷(IoT) 솔루션과 서비스를 여러 산업에 공급하는 소형 회사다. 2025년 7월 나스닥에 상장했다.",
-     "whyRose": []
-    },
-    {
-     "ticker": "EPAM",
-     "company": "기업의 소프트웨어 개발·IT 서비스를 맡아 주는 회사. 고객사의 시스템 구축과 디지털 전환 프로젝트로 매출을 올린다.",
-     "whyRose": [
-      "실적과 함께 18억 달러 규모 자사주 매입 계획을 발표했다.",
-      "증권사 목표주가 평균이 29.44% 올라 168.64달러가 됐다."
+      "호르무즈 해협 봉쇄와 러시아 제재 등으로 원유가 더 먼 길을 돌아 운송되면서 유조선 운임이 올랐다. ECO는 올해 두 배 넘게 올랐다.",
+      "3분기 실적이 이익과 매출 모두 시장 예상을 웃돌았다."
      ]
     },
     {
@@ -2470,23 +2221,6 @@
      "company": "치킨 윙 전문 프랜차이즈 윙스톱을 운영하는 회사. 가맹점 로열티와 수수료로 돈을 벌고, 매장 수를 빠르게 늘리는 중이다.",
      "whyRose": [
       "공격적인 출점이 기존 매장 부진을 상쇄해 외형 성장은 유지됐다. 올해 1분기에만 매장이 97개 순증했다."
-     ]
-    },
-    {
-     "ticker": "FCN",
-     "company": "기업 위기·소송·구조조정 등을 자문하는 컨설팅 회사(FTI 컨설팅). 기업 재무 구조조정, 소송 지원, 경제 컨설팅, 전략 커뮤니케이션 서비스로 매출을 낸다.",
-     "whyRose": [
-      "3분기 실적이 시장 예상(증권사 예상치 평균)보다 좋게 나오면서 발표 직후 주가가 14.3% 뛰었다.",
-      "3분기 매출은 10억 1,256만 달러로 1년 전보다 5.9% 늘었다.",
-      "실적 발표 뒤 다양한 수요와 투자 확대가 성장 근거로 꼽혔고, 성장주로서 재평가하는 분석 기사가 이어졌다."
-     ]
-    },
-    {
-     "ticker": "ECO",
-     "company": "원유를 실어 나르는 대형 유조선을 운영하는 그리스 해운사. 운임이 오르면 이익이 크게 늘어나는 구조다.",
-     "whyRose": [
-      "호르무즈 해협 봉쇄와 러시아 제재 등으로 원유가 더 먼 길을 돌아 운송되면서 유조선 운임이 올랐다. ECO는 올해 두 배 넘게 올랐다.",
-      "3분기 실적이 이익과 매출 모두 시장 예상을 웃돌았다."
      ]
     },
     {
@@ -2500,6 +2234,28 @@
      ]
     },
     {
+     "ticker": "EPAM",
+     "company": "기업의 소프트웨어 개발·IT 서비스를 맡아 주는 회사. 고객사의 시스템 구축과 디지털 전환 프로젝트로 매출을 올린다.",
+     "whyRose": [
+      "실적과 함께 18억 달러 규모 자사주 매입 계획을 발표했다.",
+      "증권사 목표주가 평균이 29.44% 올라 168.64달러가 됐다."
+     ]
+    },
+    {
+     "ticker": "FCN",
+     "company": "기업 위기·소송·구조조정 등을 자문하는 컨설팅 회사(FTI 컨설팅). 기업 재무 구조조정, 소송 지원, 경제 컨설팅, 전략 커뮤니케이션 서비스로 매출을 낸다.",
+     "whyRose": [
+      "3분기 실적이 시장 예상(증권사 예상치 평균)보다 좋게 나오면서 발표 직후 주가가 14.3% 뛰었다.",
+      "3분기 매출은 10억 1,256만 달러로 1년 전보다 5.9% 늘었다.",
+      "실적 발표 뒤 다양한 수요와 투자 확대가 성장 근거로 꼽혔고, 성장주로서 재평가하는 분석 기사가 이어졌다."
+     ]
+    },
+    {
+     "ticker": "MGRT",
+     "company": "사물인터넷(IoT) 솔루션과 서비스를 여러 산업에 공급하는 소형 회사다. 2025년 7월 나스닥에 상장했다.",
+     "whyRose": []
+    },
+    {
      "ticker": "GKOS",
      "company": "녹내장 치료용 이식 장치(iDose TR)와 원추각막 치료제(Epioxa)를 파는 안과 의료기기 회사. 두 신제품이 매출 성장을 이끌고 있다.",
      "whyRose": [
@@ -2508,11 +2264,34 @@
      ]
     },
     {
-     "ticker": "PTC",
-     "company": "제조업체용 제품 설계·수명주기 관리 소프트웨어(CAD·PLM)를 구독 형태로 파는 회사. 슈나이더 일렉트릭이 인수하기로 한 상태다.",
+     "ticker": "CRAI",
+     "company": "기업 인수합병·소송·규제 사건에서 경제 분석과 자문을 해주는 컨설팅 회사. 전문 인력의 시간당 청구로 매출을 낸다.",
      "whyRose": [
-      "슈나이더 일렉트릭이 PTC를 주당 현금 205달러에 인수하기로 계약했다. 주가는 이 가격을 기준점으로 움직인다.",
-      "회사는 인수가 진행 중이라 다음 해 실적 전망(가이던스)을 중단했다. 이제 주가는 실적보다 인수 종결 가능성에 좌우된다."
+      "3분기 매출과 주당이익이 증권사 예상치를 모두 웃돌았다. 다만 발표 직후 주가 반응은 크지 않았다.",
+      "3분기 매출은 2억 1,490만 달러로 발표됐다. 직전 분기(2분기) 매출은 2억 1,080만 달러로 1년 전보다 12.8% 늘었고 영업이익은 19.3% 늘었다."
+     ]
+    },
+    {
+     "ticker": "CRVL",
+     "company": "산재보험·건강보험 사례관리와 청구 관리 서비스를 기업과 보험사에 제공하는 회사. 보험 중개 업종으로 분류된다.",
+     "whyRose": [
+      "11월 3일 회계연도 2분기 실적에서 순이익이 늘었다고 알려졌다. 건강보험 서비스 확대가 배경으로 언급됐다.",
+      "직전 분기(2026년 6월 말) 매출은 2.6억 달러로 1년 전보다 10.7% 늘었고, 세전이익은 4,334만 달러로 22.8% 늘었다. 이익이 매출보다 빨리 늘어 세전이익률이 16.7%까지 올랐다.",
+      "성장세가 가속됐다. 매출 증가율이 2025년 12월 분기 3.4%에서 2026년 3월 7.4%, 6월 10.7%로 올랐다."
+     ]
+    },
+    {
+     "ticker": "CROX",
+     "company": "크록스 클로그 신발과 자회사 HEYDUDE 신발을 파는 신발 회사. 도매와 직영 판매로 돈을 번다.",
+     "whyRose": []
+    },
+    {
+     "ticker": "OLLI",
+     "company": "미국 전역에서 브랜드 재고·유통 잔여 상품을 싸게 사들여 할인 판매하는 아웃렛 체인 운영사. 필수 소비재 성격이라 경기가 나빠도 버티는 편이다.",
+     "whyRose": [
+      "가장 최근 분기(5~7월) 매출은 7억 4,130만 달러로 1년 전보다 9.1% 늘었다. 영업이익은 1억 847만 달러로 40.9% 늘어, 영업이익률이 14.6%까지 올랐다.",
+      "10월 중순 5억 달러 규모의 새 자사주 매입 계획이 나왔다. 회사가 현금 창출력에 자신이 있다는 신호로 읽혔다.",
+      "같은 시기 주가가 1년 평균선(200일선)을 되찾으면서 추세 전환 신호로 주목받았다."
      ]
     },
     {
@@ -2525,25 +2304,20 @@
      ]
     },
     {
-     "ticker": "CROX",
-     "company": "크록스 클로그 신발과 자회사 HEYDUDE 신발을 파는 신발 회사. 도매와 직영 판매로 돈을 번다.",
-     "whyRose": []
-    },
-    {
-     "ticker": "XMTR",
-     "company": "제조업체와 주문 제작 공장을 온라인으로 연결해 부품 주문을 중개하는 마켓플레이스 회사. 아직 영업적자지만 매출이 빠르게 늘고 있다.",
-     "whyRose": [
-      "3분기 실적이 시장 예상을 웃돌았고 회사는 분기 최대 실적을 발표했다.",
-      "실적 이후 증권사 목표주가 평균이 11.98% 올라 127.13달러가 됐다."
-     ]
-    },
-    {
      "ticker": "IDXX",
      "company": "반려동물 병원용 진단 장비와 검사 소모품을 파는 회사. 병원이 장비를 설치한 뒤 검사 키트·서비스를 계속 사 가는 구조로 돈을 번다.",
      "whyRose": [
       "이익이 매출보다 빠르게 늘어 실적 신뢰를 되찾았다.",
       "실적 발표 직후 주가가 1년 평균선(200일 이동평균)을 위로 넘어서며 추세 전환 신호가 잡혔다.",
       "성장 지표가 좋다는 분석 기사가 나오며 성장주 투자자 관심이 붙었다. 52주 저점(9월 11일)에서 크게 반등한 상태다."
+     ]
+    },
+    {
+     "ticker": "PTC",
+     "company": "제조업체용 제품 설계·수명주기 관리 소프트웨어(CAD·PLM)를 구독 형태로 파는 회사. 슈나이더 일렉트릭이 인수하기로 한 상태다.",
+     "whyRose": [
+      "슈나이더 일렉트릭이 PTC를 주당 현금 205달러에 인수하기로 계약했다. 주가는 이 가격을 기준점으로 움직인다.",
+      "회사는 인수가 진행 중이라 다음 해 실적 전망(가이던스)을 중단했다. 이제 주가는 실적보다 인수 종결 가능성에 좌우된다."
      ]
     }
    ]
@@ -2558,17 +2332,17 @@
      "ticker": "MRNA",
      "name": "모더나",
      "industry": "Biotechnology",
-     "ret1d": 1.29,
-     "rnk1": 44.14,
-     "rnk3": 0.68,
+     "ret1d": -2.17,
+     "rnk1": 42.25,
+     "rnk3": 0.32,
      "rnk6": 0.05
     },
     {
      "ticker": "KOD",
      "name": "코디악 사이언시스",
      "industry": "Biotechnology",
-     "ret1d": 0.09,
-     "rnk1": 4.37,
+     "ret1d": -0.75,
+     "rnk1": 5.91,
      "rnk3": 0.05,
      "rnk6": 0.14
     },
@@ -2576,180 +2350,180 @@
      "ticker": "GKOS",
      "name": "글라우코스",
      "industry": "Medical Devices",
-     "ret1d": 2.15,
+     "ret1d": -0.33,
      "rnk1": 0.32,
-     "rnk3": 0.77,
+     "rnk3": 0.68,
      "rnk6": 0.23
-    },
-    {
-     "ticker": "ELF",
-     "name": "엘프 뷰티",
-     "industry": "Household & Personal Products",
-     "ret1d": -4.25,
-     "rnk1": 60.73,
-     "rnk3": 28.27,
-     "rnk6": 0.32
-    },
-    {
-     "ticker": "TXG",
-     "name": "10X 지노믹스",
-     "industry": "Medical Devices",
-     "ret1d": 0.54,
-     "rnk1": 88.86,
-     "rnk3": 63.62,
-     "rnk6": 0.41
-    },
-    {
-     "ticker": "KNSA",
-     "name": "키닉사 파머슈티컬스 인터내셔널",
-     "industry": "Drug Manufacturers - Specialty & Generic",
-     "ret1d": -1.59,
-     "rnk1": 3.02,
-     "rnk3": 3.56,
-     "rnk6": 0.5
     },
     {
      "ticker": "ECO",
      "name": "오케아니스 에코 탱커스",
      "industry": "Marine Shipping",
-     "ret1d": 0.29,
-     "rnk1": 68.94,
-     "rnk3": 0.59,
-     "rnk6": 0.59
+     "ret1d": 11.59,
+     "rnk1": 40.62,
+     "rnk3": 0.14,
+     "rnk6": 0.32
     },
     {
-     "ticker": "ANF",
-     "name": "애버크롬비 앤드 피치",
-     "industry": "Apparel Retail",
-     "ret1d": -6.37,
-     "rnk1": 84.99,
-     "rnk3": 53.7,
-     "rnk6": 0.68
+     "ticker": "KNSA",
+     "name": "키닉사 파머슈티컬스 인터내셔널",
+     "industry": "Drug Manufacturers - Specialty & Generic",
+     "ret1d": 0.38,
+     "rnk1": 0.95,
+     "rnk3": 3.11,
+     "rnk6": 0.41
     },
     {
-     "ticker": "CRL",
-     "name": "찰스 리버 래브러토리스 인터내셔널",
-     "industry": "Diagnostics & Research",
-     "ret1d": -1.6,
-     "rnk1": 51.98,
-     "rnk3": 9.51,
-     "rnk6": 0.77
+     "ticker": "ELF",
+     "name": "엘프 뷰티",
+     "industry": "Household & Personal Products",
+     "ret1d": -5.01,
+     "rnk1": 64.88,
+     "rnk3": 37.47,
+     "rnk6": 0.5
     },
     {
      "ticker": "HAE",
      "name": "헤모네틱스",
      "industry": "Medical Devices",
-     "ret1d": -2.03,
-     "rnk1": 21.15,
-     "rnk3": 7.8,
-     "rnk6": 0.86
-    },
-    {
-     "ticker": "VSXY",
-     "name": "빅토리아 시크릿",
-     "industry": "Apparel Retail",
-     "ret1d": -4.77,
-     "rnk1": 8.79,
-     "rnk3": 17.54,
-     "rnk6": 0.95
+     "ret1d": -0.17,
+     "rnk1": 27.19,
+     "rnk3": 4.37,
+     "rnk6": 0.59
     },
     {
      "ticker": "HNGE",
      "name": "힌지 헬스",
      "industry": "Health Information Services",
-     "ret1d": -5.61,
-     "rnk1": 44.32,
-     "rnk3": 3.29,
+     "ret1d": -2.15,
+     "rnk1": 51.89,
+     "rnk3": 4.82,
+     "rnk6": 0.68
+    },
+    {
+     "ticker": "ANF",
+     "name": "애버크롬비 앤드 피치",
+     "industry": "Apparel Retail",
+     "ret1d": 0.2,
+     "rnk1": 70.47,
+     "rnk3": 44.41,
+     "rnk6": 0.77
+    },
+    {
+     "ticker": "MGRT",
+     "name": "메가 포춘",
+     "industry": "Information Technology Services",
+     "ret1d": -1.09,
+     "rnk1": 3.65,
+     "rnk3": 0.59,
+     "rnk6": 0.86
+    },
+    {
+     "ticker": "CRL",
+     "name": "찰스 리버 래브러토리스 인터내셔널",
+     "industry": "Diagnostics & Research",
+     "ret1d": -4.15,
+     "rnk1": 63.53,
+     "rnk3": 16.19,
+     "rnk6": 0.95
+    },
+    {
+     "ticker": "SN",
+     "name": "샤크닌자",
+     "industry": "Furnishings, Fixtures & Appliances",
+     "ret1d": -1.92,
+     "rnk1": 8.79,
+     "rnk3": 8.88,
      "rnk6": 1.04
     },
     {
      "ticker": "ORKA",
      "name": "오루카 테라퓨틱스",
      "industry": "Biotechnology",
-     "ret1d": 1.91,
-     "rnk1": 1.4,
-     "rnk3": 38.73,
+     "ret1d": -1.8,
+     "rnk1": 1.58,
+     "rnk3": 32.78,
      "rnk6": 1.13
     },
     {
-     "ticker": "SN",
-     "name": "샤크닌자",
-     "industry": "Furnishings, Fixtures & Appliances",
-     "ret1d": -5.78,
-     "rnk1": 9.24,
-     "rnk3": 5.55,
+     "ticker": "TXG",
+     "name": "10X 지노믹스",
+     "industry": "Medical Devices",
+     "ret1d": -9.72,
+     "rnk1": 94.36,
+     "rnk3": 76.96,
      "rnk6": 1.22
     },
     {
      "ticker": "CAKE",
      "name": "치즈케익 팩토리",
      "industry": "Restaurants",
-     "ret1d": -6.5,
-     "rnk1": 34.94,
-     "rnk3": 40.44,
+     "ret1d": -3.83,
+     "rnk1": 31.33,
+     "rnk3": 34.76,
      "rnk6": 1.31
-    },
-    {
-     "ticker": "QLYS",
-     "name": "퀄리스",
-     "industry": "Software - Infrastructure",
-     "ret1d": -2.44,
-     "rnk1": 68.12,
-     "rnk3": 12.4,
-     "rnk6": 1.4
-    },
-    {
-     "ticker": "MGRT",
-     "name": "메가 포춘",
-     "industry": "Information Technology Services",
-     "ret1d": 0.87,
-     "rnk1": 1.31,
-     "rnk3": 0.23,
-     "rnk6": 1.49
-    },
-    {
-     "ticker": "TWST",
-     "name": "트위스트 바이오사이언스",
-     "industry": "Diagnostics & Research",
-     "ret1d": -4.07,
-     "rnk1": 88.59,
-     "rnk3": 88.5,
-     "rnk6": 1.58
-    },
-    {
-     "ticker": "GRAL",
-     "name": "그레일",
-     "industry": "Diagnostics & Research",
-     "ret1d": 2.68,
-     "rnk1": 88.41,
-     "rnk3": 0.86,
-     "rnk6": 1.67
     },
     {
      "ticker": "PAYC",
      "name": "페이컴 소프트웨어",
      "industry": "Software - Application",
-     "ret1d": -1.45,
-     "rnk1": 80.57,
-     "rnk3": 25.02,
+     "ret1d": 0.7,
+     "rnk1": 71.28,
+     "rnk3": 24.93,
+     "rnk6": 1.4
+    },
+    {
+     "ticker": "GRAL",
+     "name": "그레일",
+     "industry": "Diagnostics & Research",
+     "ret1d": -5.33,
+     "rnk1": 91.57,
+     "rnk3": 1.94,
+     "rnk6": 1.49
+    },
+    {
+     "ticker": "QLYS",
+     "name": "퀄리스",
+     "industry": "Software - Infrastructure",
+     "ret1d": -3.38,
+     "rnk1": 77.5,
+     "rnk3": 34.13,
+     "rnk6": 1.58
+    },
+    {
+     "ticker": "KYMR",
+     "name": "키메라 테라퓨틱스",
+     "industry": "Biotechnology",
+     "ret1d": -3.42,
+     "rnk1": 18.08,
+     "rnk3": 41.34,
+     "rnk6": 1.67
+    },
+    {
+     "ticker": "HURN",
+     "name": "휴런 컨설팅 그룹",
+     "industry": "Consulting Services",
+     "ret1d": 3.42,
+     "rnk1": 71.19,
+     "rnk3": 13.03,
      "rnk6": 1.76
     },
     {
      "ticker": "THC",
      "name": "테넷 헬스케어",
      "industry": "Medical Care Facilities",
-     "ret1d": -2.86,
-     "rnk1": 48.47,
-     "rnk3": 45.13,
+     "ret1d": -0.15,
+     "rnk1": 39.45,
+     "rnk3": 34.94,
      "rnk6": 1.85
     },
     {
-     "ticker": "REGN",
-     "name": "리제네론 파머슈티컬스",
-     "industry": "Biotechnology",
-     "ret1d": -2.35,
-     "rnk1": 5,
-     "rnk3": 7.08,
+     "ticker": "PLMR",
+     "name": "팔로마 홀딩스",
+     "industry": "Insurance - Property & Casualty",
+     "ret1d": 4.41,
+     "rnk1": 2.75,
+     "rnk3": 1.04,
      "rnk6": 1.94
     }
    ],
@@ -2761,7 +2535,7 @@
       "MRNA",
       "KOD",
       "ORKA",
-      "REGN"
+      "KYMR"
      ]
     },
     {
@@ -2769,39 +2543,33 @@
      "count": 3,
      "tickers": [
       "GKOS",
-      "TXG",
-      "HAE"
+      "HAE",
+      "TXG"
      ]
     },
     {
      "industry": "Diagnostics & Research",
-     "count": 3,
-     "tickers": [
-      "CRL",
-      "TWST",
-      "GRAL"
-     ]
-    },
-    {
-     "industry": "Apparel Retail",
      "count": 2,
      "tickers": [
-      "ANF",
-      "VSXY"
+      "CRL",
+      "GRAL"
      ]
     }
    ],
    "lone": [
-    "ELF",
-    "KNSA",
     "ECO",
+    "KNSA",
+    "ELF",
     "HNGE",
+    "ANF",
+    "MGRT",
     "SN",
     "CAKE",
-    "QLYS",
-    "MGRT",
     "PAYC",
-    "THC"
+    "QLYS",
+    "HURN",
+    "THC",
+    "PLMR"
    ],
    "news": [
     {
@@ -2882,6 +2650,69 @@
      "url": "https://www.nasdaq.com/articles/kodiak-sciences-two-wet-amd-treatments-match-aflibercept-phase-iii-study"
     },
     {
+     "ticker": "ECO",
+     "date": "2026-11-19",
+     "publisher": "Zacks",
+     "title": "Is ECO a Buy Now as Soaring Earnings Offset Debt and Dilution Risks?",
+     "url": "https://www.nasdaq.com/articles/eco-buy-now-soaring-earnings-offset-debt-and-dilution-risks"
+    },
+    {
+     "ticker": "ECO",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-solid-growth-stock-3-reasons-think-yes"
+    },
+    {
+     "ticker": "ECO",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Okeanis Eco Tankers Corp. (ECO) Upgraded to Strong Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-upgraded-strong-buy-heres-why"
+    },
+    {
+     "ticker": "ECO",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) Stock Outpacing Its Transportation Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-stock-outpacing-its-transportation-peers-year"
+    },
+    {
+     "ticker": "ECO",
+     "date": "2026-09-30",
+     "publisher": "CNBC",
+     "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+     "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-20",
+     "publisher": "Zacks",
+     "title": "Why Kiniksa Pharmaceuticals International, plc (KNSA) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-kiniksa-pharmaceuticals-international-plc-knsa-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-20",
+     "publisher": "Zacks",
+     "title": "Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-kiniksa-pharmaceuticals-stock"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-04",
+     "publisher": "Zacks",
+     "title": "Here's Why Kiniksa Pharmaceuticals International, plc (KNSA) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-kiniksa-pharmaceuticals-international-plc-knsa-strong-momentum-stock"
+    },
+    {
+     "ticker": "KNSA",
+     "date": "2026-11-02",
+     "publisher": "Fintel",
+     "title": "Kiniksa Pharmaceuticals International Average Price Target Raised 13.15% to $111.62",
+     "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-average-price-target-raised-1315-11162"
+    },
+    {
      "ticker": "ELF",
      "date": "2026-11-10",
      "publisher": "Zacks",
@@ -2924,195 +2755,6 @@
      "url": "https://www.cnbc.com/2026/10/04/elf-wendys-gap-music-marketing.html"
     },
     {
-     "ticker": "TXG",
-     "date": "2026-11-06",
-     "publisher": "Zacks",
-     "title": "TXG Q3 Earnings Call Highlights Atera Launch and Raised Outlook",
-     "url": "https://www.nasdaq.com/articles/txg-q3-earnings-call-highlights-atera-launch-and-raised-outlook"
-    },
-    {
-     "ticker": "TXG",
-     "date": "2026-11-06",
-     "publisher": "MarketBeat",
-     "title": "What 10x Genomics (TXG) Said on Its Q3 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-10x-genomics-txg-said-its-q3-earnings-call"
-    },
-    {
-     "ticker": "TXG",
-     "date": "2026-11-06",
-     "publisher": "Fintel",
-     "title": "10x Genomics, Inc. Reports Third Quarter 2026 Financial Results and Raises Full Year Revenue Guidance",
-     "url": "https://www.nasdaq.com/articles/10x-genomics-inc-reports-third-quarter-2026-financial-results-and-raises-full-year-revenue"
-    },
-    {
-     "ticker": "TXG",
-     "date": "2026-11-06",
-     "publisher": "The Motley Fool",
-     "title": "10x Genomics (TXG) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/10x-genomics-txg-q3-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "TXG",
-     "date": "2026-10-24",
-     "publisher": "CNBC",
-     "title": "We asked analysts what's behind the massive gains in biotech stocks",
-     "url": "https://www.cnbc.com/video/2026/10/24/we-asked-analysts-whats-behind-the-massive-gains-in-biotech-stocks.html"
-    },
-    {
-     "ticker": "KNSA",
-     "date": "2026-11-04",
-     "publisher": "Zacks",
-     "title": "Here's Why Kiniksa Pharmaceuticals International, plc (KNSA) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-kiniksa-pharmaceuticals-international-plc-knsa-strong-momentum-stock"
-    },
-    {
-     "ticker": "KNSA",
-     "date": "2026-11-02",
-     "publisher": "Fintel",
-     "title": "Kiniksa Pharmaceuticals International Average Price Target Raised 13.15% to $111.62",
-     "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-average-price-target-raised-1315-11162"
-    },
-    {
-     "ticker": "KNSA",
-     "date": "2026-10-30",
-     "publisher": "RTTNews",
-     "title": "Show Me The Money: The $100 Club Beckons For Kiniksa Pharma",
-     "url": "https://www.nasdaq.com/articles/show-me-money-100-club-beckons-kiniksa-pharma"
-    },
-    {
-     "ticker": "KNSA",
-     "date": "2026-10-27",
-     "publisher": "The Motley Fool",
-     "title": "Kiniksa Pharmaceuticals: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-3-key-takeaways-long-term-investors"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Is Okeanis Eco Tankers Corp. (ECO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
-     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-solid-growth-stock-3-reasons-think-yes"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Okeanis Eco Tankers Corp. (ECO) Upgraded to Strong Buy: Here's Why",
-     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-upgraded-strong-buy-heres-why"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Is Okeanis Eco Tankers Corp. (ECO) Stock Outpacing Its Transportation Peers This Year?",
-     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-stock-outpacing-its-transportation-peers-year"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-11-13",
-     "publisher": "Zacks",
-     "title": "Okeanis Q3 Earnings Call Highlights Tanker Rates and Market Risks",
-     "url": "https://www.nasdaq.com/articles/okeanis-q3-earnings-call-highlights-tanker-rates-and-market-risks"
-    },
-    {
-     "ticker": "ECO",
-     "date": "2026-09-30",
-     "publisher": "CNBC",
-     "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
-     "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html"
-    },
-    {
-     "ticker": "ANF",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Abercrombie & Fitch (ANF) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-sees-more-significant-dip-broader-market-some-facts-know-0"
-    },
-    {
-     "ticker": "ANF",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Should Value Investors Buy Abercrombie & Fitch (ANF) Stock?",
-     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-abercrombie-fitch-anf-stock"
-    },
-    {
-     "ticker": "ANF",
-     "date": "2026-11-11",
-     "publisher": "Zacks",
-     "title": "Abercrombie & Fitch Company (ANF) Is a Trending Stock: Facts to Know Before Betting on It",
-     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-company-anf-trending-stock-facts-know-betting-it-0"
-    },
-    {
-     "ticker": "ANF",
-     "date": "2026-11-10",
-     "publisher": "Zacks",
-     "title": "Abercrombie (ANF) Is Considered a Good Investment by Brokers: Is That True?",
-     "url": "https://www.nasdaq.com/articles/abercrombie-anf-considered-good-investment-brokers-true"
-    },
-    {
-     "ticker": "ANF",
-     "date": "2026-09-09",
-     "publisher": "CNBC",
-     "title": "Wednesday's biggest analyst calls: Nvidia, Tesla, Dell, Affirm, Teva, Robinhood",
-     "url": "https://www.cnbc.com/2026/09/09/wednesday-big-analyst-calls-include-nvidia-tesla-dell-first-solar.html"
-    },
-    {
-     "ticker": "ANF",
-     "date": "2026-08-31",
-     "publisher": "CNBC",
-     "title": "Monday's biggest analyst calls: Nvidia, Apple, SpaceX, Dell, Deere, Broadcom, Costco",
-     "url": "https://www.cnbc.com/2026/08/31/monday-big-wall-street-analyst-calls-like-nvidia.html"
-    },
-    {
-     "ticker": "ANF",
-     "date": "2026-08-27",
-     "publisher": "CNBC",
-     "title": "This beaten-down retailer just surged 35%. Jim Cramer says to pounce on the next pullback",
-     "url": "https://www.cnbc.com/2026/08/27/jim-cramer-pounce-next-pullback-abercrombie.html"
-    },
-    {
-     "ticker": "CRL",
-     "date": "2026-11-12",
-     "publisher": "Zacks",
-     "title": "GMRS vs. CRL: Which Stock Should Value Investors Buy Now?",
-     "url": "https://www.nasdaq.com/articles/gmrs-vs-crl-which-stock-should-value-investors-buy-now"
-    },
-    {
-     "ticker": "CRL",
-     "date": "2026-11-09",
-     "publisher": "Zacks",
-     "title": "Here's Why Charles River Laboratories (CRL) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-charles-river-laboratories-crl-strong-momentum-stock"
-    },
-    {
-     "ticker": "CRL",
-     "date": "2026-11-09",
-     "publisher": "Fintel",
-     "title": "Charles River Laboratories to Acquire Frontage’s Bioanalysis and DMPK Businesses",
-     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-acquire-frontages-bioanalysis-and-dmpk-businesses"
-    },
-    {
-     "ticker": "CRL",
-     "date": "2026-11-09",
-     "publisher": "Zacks",
-     "title": "Unlocking Charles River (CRL) International Revenues: Trends, Surprises, and Prospects",
-     "url": "https://www.nasdaq.com/articles/unlocking-charles-river-crl-international-revenues-trends-surprises-and-prospects"
-    },
-    {
-     "ticker": "CRL",
-     "date": "2026-08-06",
-     "publisher": "CNBC",
-     "title": "This drug researcher that just reported earnings could keep rallying, JPMorgan says",
-     "url": "https://www.cnbc.com/2026/08/06/this-drug-researcher-will-rally-on-biotech-funding-boost-jpmorgan-says.html"
-    },
-    {
-     "ticker": "CRL",
-     "date": "2026-08-05",
-     "publisher": "CNBC",
-     "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify & more",
-     "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-midday-googl-spcx-shop-nem-podd.html"
-    },
-    {
      "ticker": "HAE",
      "date": "2026-11-18",
      "publisher": "RTTNews",
@@ -3146,55 +2788,6 @@
      "publisher": "CNBC",
      "title": "Stocks making the biggest moves midday: Chipotle, Starbucks, Skydance & more",
      "url": "https://www.cnbc.com/2026/10/08/stocks-making-the-biggest-moves-midday-cmg-sbux-skyd-mpc.html"
-    },
-    {
-     "ticker": "VSXY",
-     "date": "2026-11-16",
-     "publisher": "Zacks",
-     "title": "Here's Why Victoria's Secret (VSXY) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-victorias-secret-vsxy-strong-momentum-stock"
-    },
-    {
-     "ticker": "VSXY",
-     "date": "2026-11-13",
-     "publisher": "Zacks",
-     "title": "VSXY vs. IDEXY: Which Stock Is the Better Value Option?",
-     "url": "https://www.nasdaq.com/articles/vsxy-vs-idexy-which-stock-better-value-option"
-    },
-    {
-     "ticker": "VSXY",
-     "date": "2026-11-10",
-     "publisher": "Zacks",
-     "title": "Victoria's Secret & Co. (VSXY) Hits Fresh High: Is There Still Room to Run?",
-     "url": "https://www.nasdaq.com/articles/victorias-secret-co-vsxy-hits-fresh-high-there-still-room-run"
-    },
-    {
-     "ticker": "VSXY",
-     "date": "2026-11-04",
-     "publisher": "Zacks",
-     "title": "Will Victoria's Secret (VSXY) Beat Estimates Again in Its Next Earnings Report?",
-     "url": "https://www.nasdaq.com/articles/will-victorias-secret-vsxy-beat-estimates-again-its-next-earnings-report"
-    },
-    {
-     "ticker": "VSXY",
-     "date": "2026-08-18",
-     "publisher": "CNBC",
-     "title": "Retailer earnings could put this season to the test. What analysts are saying",
-     "url": "https://www.cnbc.com/2026/08/18/retailer-earnings-could-put-this-season-to-the-test.html"
-    },
-    {
-     "ticker": "VSXY",
-     "date": "2026-11-17",
-     "publisher": "CNBC",
-     "title": "Here's where Hennessy Funds' Neil Hennessy sees quality apart from the AI trade",
-     "url": "https://www.cnbc.com/video/2026/11/17/heres-where-hennessy-funds-neil-hennessy-sees-quality-apart-from-the-tech-ai-trade.html"
-    },
-    {
-     "ticker": "VSXY",
-     "date": "2026-09-03",
-     "publisher": "CNBC",
-     "title": "Victoria's Secret CEO: Entering back half of the year with tons of momentum despite revenue miss",
-     "url": "https://www.cnbc.com/video/2026/09/03/victorias-secret-ceo-entering-back-half-of-the-year-with-tons-of-momentum-despite-revenue-miss.html"
     },
     {
      "ticker": "HNGE",
@@ -3246,6 +2839,167 @@
      "url": "https://www.cnbc.com/2026/08/11/cramers-lightning-round-buy-hinge-health.html"
     },
     {
+     "ticker": "ANF",
+     "date": "2026-11-19",
+     "publisher": "Zacks",
+     "title": "Gear Up for Abercrombie (ANF) Q3 Earnings: Wall Street Estimates for Key Metrics",
+     "url": "https://www.nasdaq.com/articles/gear-abercrombie-anf-q3-earnings-wall-street-estimates-key-metrics"
+    },
+    {
+     "ticker": "ANF",
+     "date": "2026-11-17",
+     "publisher": "Zacks",
+     "title": "Will Abercrombie (ANF) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-abercrombie-anf-beat-estimates-again-its-next-earnings-report"
+    },
+    {
+     "ticker": "ANF",
+     "date": "2026-11-17",
+     "publisher": "Zacks",
+     "title": "Abercrombie & Fitch (ANF) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-earnings-expected-grow-what-know-ahead-next-weeks-release"
+    },
+    {
+     "ticker": "ANF",
+     "date": "2026-11-16",
+     "publisher": "Zacks",
+     "title": "Abercrombie & Fitch (ANF) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-sees-more-significant-dip-broader-market-some-facts-know-0"
+    },
+    {
+     "ticker": "ANF",
+     "date": "2026-09-09",
+     "publisher": "CNBC",
+     "title": "Wednesday's biggest analyst calls: Nvidia, Tesla, Dell, Affirm, Teva, Robinhood",
+     "url": "https://www.cnbc.com/2026/09/09/wednesday-big-analyst-calls-include-nvidia-tesla-dell-first-solar.html"
+    },
+    {
+     "ticker": "ANF",
+     "date": "2026-08-31",
+     "publisher": "CNBC",
+     "title": "Monday's biggest analyst calls: Nvidia, Apple, SpaceX, Dell, Deere, Broadcom, Costco",
+     "url": "https://www.cnbc.com/2026/08/31/monday-big-wall-street-analyst-calls-like-nvidia.html"
+    },
+    {
+     "ticker": "ANF",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "title": "This beaten-down retailer just surged 35%. Jim Cramer says to pounce on the next pullback",
+     "url": "https://www.cnbc.com/2026/08/27/jim-cramer-pounce-next-pullback-abercrombie.html"
+    },
+    {
+     "ticker": "MGRT",
+     "date": "2026-06-11",
+     "publisher": "BNK Invest",
+     "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
+     "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt"
+    },
+    {
+     "ticker": "MGRT",
+     "date": "2026-04-09",
+     "publisher": "The Motley Fool",
+     "title": "How Mega Fortune Stock Tripled This Week",
+     "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week"
+    },
+    {
+     "ticker": "MGRT",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative",
+     "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
+     "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million"
+    },
+    {
+     "ticker": "CRL",
+     "date": "2026-11-12",
+     "publisher": "Zacks",
+     "title": "GMRS vs. CRL: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/gmrs-vs-crl-which-stock-should-value-investors-buy-now"
+    },
+    {
+     "ticker": "CRL",
+     "date": "2026-11-09",
+     "publisher": "Zacks",
+     "title": "Here's Why Charles River Laboratories (CRL) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-charles-river-laboratories-crl-strong-momentum-stock"
+    },
+    {
+     "ticker": "CRL",
+     "date": "2026-11-09",
+     "publisher": "Fintel",
+     "title": "Charles River Laboratories to Acquire Frontage’s Bioanalysis and DMPK Businesses",
+     "url": "https://www.nasdaq.com/articles/charles-river-laboratories-acquire-frontages-bioanalysis-and-dmpk-businesses"
+    },
+    {
+     "ticker": "CRL",
+     "date": "2026-11-09",
+     "publisher": "Zacks",
+     "title": "Unlocking Charles River (CRL) International Revenues: Trends, Surprises, and Prospects",
+     "url": "https://www.nasdaq.com/articles/unlocking-charles-river-crl-international-revenues-trends-surprises-and-prospects"
+    },
+    {
+     "ticker": "CRL",
+     "date": "2026-08-06",
+     "publisher": "CNBC",
+     "title": "This drug researcher that just reported earnings could keep rallying, JPMorgan says",
+     "url": "https://www.cnbc.com/2026/08/06/this-drug-researcher-will-rally-on-biotech-funding-boost-jpmorgan-says.html"
+    },
+    {
+     "ticker": "CRL",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "title": "Stocks making the biggest moves midday: Alphabet, SpaceX, Shopify & more",
+     "url": "https://www.cnbc.com/2026/08/05/stocks-making-the-biggest-moves-midday-googl-spcx-shop-nem-podd.html"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-11-19",
+     "publisher": "Zacks",
+     "title": "ACCO vs. SN: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/acco-vs-sn-which-stock-better-value-option"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-11-11",
+     "publisher": "Zacks",
+     "title": "Brokers Suggest Investing in SharkNinja, Inc. (SN): Read This Before Placing a Bet",
+     "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-sharkninja-inc-sn-read-placing-bet"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-11-09",
+     "publisher": "Fintel",
+     "title": "SharkNinja Consensus Price Target Increased 13.17% to $247.39",
+     "url": "https://www.nasdaq.com/articles/sharkninja-consensus-price-target-increased-1317-24739"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat",
+     "title": "SharkNinja Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/sharkninja-q3-earnings-call-highlights"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-11-05",
+     "publisher": "CNBC",
+     "title": "Three consumer stocks to buy after the midterm elections",
+     "url": "https://www.cnbc.com/2026/11/05/three-consumer-stocks-to-buy-after-the-midterm-elections.html"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "title": "Earnings season is heating up. UBS thinks these stocks could beat expectations",
+     "url": "https://www.cnbc.com/2026/10/14/ubs-thinks-these-stocks-could-beat-expectations-this-earnings-season.html"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-08-20",
+     "publisher": "CNBC",
+     "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+     "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html"
+    },
+    {
      "ticker": "ORKA",
      "date": "2026-11-10",
      "publisher": "RTTNews",
@@ -3274,53 +3028,39 @@
      "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data"
     },
     {
-     "ticker": "SN",
-     "date": "2026-11-11",
+     "ticker": "TXG",
+     "date": "2026-11-06",
      "publisher": "Zacks",
-     "title": "Brokers Suggest Investing in SharkNinja, Inc. (SN): Read This Before Placing a Bet",
-     "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-sharkninja-inc-sn-read-placing-bet"
+     "title": "TXG Q3 Earnings Call Highlights Atera Launch and Raised Outlook",
+     "url": "https://www.nasdaq.com/articles/txg-q3-earnings-call-highlights-atera-launch-and-raised-outlook"
     },
     {
-     "ticker": "SN",
-     "date": "2026-11-09",
-     "publisher": "Fintel",
-     "title": "SharkNinja Consensus Price Target Increased 13.17% to $247.39",
-     "url": "https://www.nasdaq.com/articles/sharkninja-consensus-price-target-increased-1317-24739"
-    },
-    {
-     "ticker": "SN",
-     "date": "2026-11-08",
+     "ticker": "TXG",
+     "date": "2026-11-06",
      "publisher": "MarketBeat",
-     "title": "SharkNinja Q3 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/sharkninja-q3-earnings-call-highlights"
+     "title": "What 10x Genomics (TXG) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-10x-genomics-txg-said-its-q3-earnings-call"
     },
     {
-     "ticker": "SN",
-     "date": "2026-11-05",
+     "ticker": "TXG",
+     "date": "2026-11-06",
+     "publisher": "Fintel",
+     "title": "10x Genomics, Inc. Reports Third Quarter 2026 Financial Results and Raises Full Year Revenue Guidance",
+     "url": "https://www.nasdaq.com/articles/10x-genomics-inc-reports-third-quarter-2026-financial-results-and-raises-full-year-revenue"
+    },
+    {
+     "ticker": "TXG",
+     "date": "2026-11-06",
      "publisher": "The Motley Fool",
-     "title": "SharkNinja: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/sharkninja-3-key-takeaways-long-term-investors"
+     "title": "10x Genomics (TXG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/10x-genomics-txg-q3-2026-earnings-call-transcript"
     },
     {
-     "ticker": "SN",
-     "date": "2026-11-05",
+     "ticker": "TXG",
+     "date": "2026-10-24",
      "publisher": "CNBC",
-     "title": "Three consumer stocks to buy after the midterm elections",
-     "url": "https://www.cnbc.com/2026/11/05/three-consumer-stocks-to-buy-after-the-midterm-elections.html"
-    },
-    {
-     "ticker": "SN",
-     "date": "2026-10-14",
-     "publisher": "CNBC",
-     "title": "Earnings season is heating up. UBS thinks these stocks could beat expectations",
-     "url": "https://www.cnbc.com/2026/10/14/ubs-thinks-these-stocks-could-beat-expectations-this-earnings-season.html"
-    },
-    {
-     "ticker": "SN",
-     "date": "2026-08-20",
-     "publisher": "CNBC",
-     "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
-     "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html"
+     "title": "We asked analysts what's behind the massive gains in biotech stocks",
+     "url": "https://www.cnbc.com/video/2026/10/24/we-asked-analysts-whats-behind-the-massive-gains-in-biotech-stocks.html"
     },
     {
      "ticker": "CAKE",
@@ -3365,95 +3105,32 @@
      "url": "https://www.cnbc.com/2026/07/29/biggest-analyst-calls-on-wall-street-include-nvidia-amd.html"
     },
     {
-     "ticker": "QLYS",
-     "date": "2026-11-10",
-     "publisher": "The Motley Fool",
-     "title": "Qualys (QLYS) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/qualys-qlys-q3-2026-earnings-call-transcript"
+     "ticker": "PAYC",
+     "date": "2026-11-17",
+     "publisher": "Zacks",
+     "title": "Here's Why Paycom Software (PAYC) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-paycom-software-payc-strong-momentum-stock"
     },
     {
-     "ticker": "QLYS",
-     "date": "2026-11-10",
-     "publisher": "MarketBeat",
-     "title": "Qualys Q3 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/qualys-q3-earnings-call-highlights"
+     "ticker": "PAYC",
+     "date": "2026-11-13",
+     "publisher": "Zacks",
+     "title": "PAYC or NET: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/payc-or-net-which-better-value-stock-right-now"
     },
     {
-     "ticker": "QLYS",
-     "date": "2026-11-10",
-     "publisher": "Fintel",
-     "title": "Qualys, Inc. Reports Third Quarter 2026 Revenues of $188.0 million and Raises 2026 Revenue Guidance",
-     "url": "https://www.nasdaq.com/articles/qualys-inc-reports-third-quarter-2026-revenues-1880-million-and-raises-2026-revenue"
+     "ticker": "PAYC",
+     "date": "2026-11-12",
+     "publisher": "Zacks",
+     "title": "Paycom (PAYC) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/paycom-payc-upgraded-buy-heres-what-you-should-know"
     },
     {
-     "ticker": "QLYS",
+     "ticker": "PAYC",
      "date": "2026-11-09",
      "publisher": "Zacks",
-     "title": "Qualys (QLYS) Q3 Earnings and Revenues Top Estimates",
-     "url": "https://www.nasdaq.com/articles/qualys-qlys-q3-earnings-and-revenues-top-estimates"
-    },
-    {
-     "ticker": "QLYS",
-     "date": "2026-09-14",
-     "publisher": "CNBC",
-     "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
-     "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2026-06-11",
-     "publisher": "BNK Invest",
-     "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
-     "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2026-04-09",
-     "publisher": "The Motley Fool",
-     "title": "How Mega Fortune Stock Tripled This Week",
-     "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2025-07-17",
-     "publisher": "Quiver Quantitative",
-     "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
-     "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million"
-    },
-    {
-     "ticker": "TWST",
-     "date": "2026-11-13",
-     "publisher": "Fintel",
-     "title": "Twist Bioscience Reports Record Fiscal 2026 Revenue of $459.4 million",
-     "url": "https://www.nasdaq.com/articles/twist-bioscience-reports-record-fiscal-2026-revenue-4594-million"
-    },
-    {
-     "ticker": "TWST",
-     "date": "2026-11-12",
-     "publisher": "MarketBeat",
-     "title": "Twist Bioscience Q4 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/twist-bioscience-q4-earnings-call-highlights"
-    },
-    {
-     "ticker": "TWST",
-     "date": "2026-11-12",
-     "publisher": "The Motley Fool",
-     "title": "Twist Bioscience: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.nasdaq.com/articles/twist-bioscience-3-key-takeaways-long-term-investors"
-    },
-    {
-     "ticker": "TWST",
-     "date": "2026-11-12",
-     "publisher": "The Motley Fool",
-     "title": "Twist Bioscience (TWST) Q4 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q4-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "TWST",
-     "date": "2026-10-24",
-     "publisher": "CNBC",
-     "title": "We asked analysts what's behind the massive gains in biotech stocks",
-     "url": "https://www.cnbc.com/video/2026/10/24/we-asked-analysts-whats-behind-the-massive-gains-in-biotech-stocks.html"
+     "title": "Why Paycom Software (PAYC) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-paycom-software-payc-top-value-stock-long-term"
     },
     {
      "ticker": "GRAL",
@@ -3491,32 +3168,95 @@
      "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html"
     },
     {
-     "ticker": "PAYC",
-     "date": "2026-11-17",
-     "publisher": "Zacks",
-     "title": "Here's Why Paycom Software (PAYC) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-paycom-software-payc-strong-momentum-stock"
+     "ticker": "QLYS",
+     "date": "2026-11-19",
+     "publisher": "BNK Invest",
+     "title": "QLYS Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/qlys-crosses-above-average-analyst-target-0"
     },
     {
-     "ticker": "PAYC",
-     "date": "2026-11-13",
-     "publisher": "Zacks",
-     "title": "PAYC or NET: Which Is the Better Value Stock Right Now?",
-     "url": "https://www.nasdaq.com/articles/payc-or-net-which-better-value-stock-right-now"
+     "ticker": "QLYS",
+     "date": "2026-11-10",
+     "publisher": "The Motley Fool",
+     "title": "Qualys (QLYS) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/qualys-qlys-q3-2026-earnings-call-transcript"
     },
     {
-     "ticker": "PAYC",
-     "date": "2026-11-12",
-     "publisher": "Zacks",
-     "title": "Paycom (PAYC) Upgraded to Buy: Here's What You Should Know",
-     "url": "https://www.nasdaq.com/articles/paycom-payc-upgraded-buy-heres-what-you-should-know"
+     "ticker": "QLYS",
+     "date": "2026-11-10",
+     "publisher": "MarketBeat",
+     "title": "Qualys Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/qualys-q3-earnings-call-highlights"
     },
     {
-     "ticker": "PAYC",
-     "date": "2026-11-09",
+     "ticker": "QLYS",
+     "date": "2026-11-10",
+     "publisher": "Fintel",
+     "title": "Qualys, Inc. Reports Third Quarter 2026 Revenues of $188.0 million and Raises 2026 Revenue Guidance",
+     "url": "https://www.nasdaq.com/articles/qualys-inc-reports-third-quarter-2026-revenues-1880-million-and-raises-2026-revenue"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-09-14",
+     "publisher": "CNBC",
+     "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+     "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
+    },
+    {
+     "ticker": "KYMR",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool",
+     "title": "Kymera (KYMR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-kymr-q3-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "KYMR",
+     "date": "2026-10-29",
+     "publisher": "MarketBeat",
+     "title": "Kymera Therapeutics Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-q3-earnings-call-highlights"
+    },
+    {
+     "ticker": "KYMR",
+     "date": "2026-10-29",
+     "publisher": "Fintel",
+     "title": "Kymera Therapeutics, Inc. Reports Third Quarter 2026 Financial Results and Positive KT-579 Phase 1 Trial Data",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-inc-reports-third-quarter-2026-financial-results-and-positive-kt-579"
+    },
+    {
+     "ticker": "KYMR",
+     "date": "2026-10-19",
      "publisher": "Zacks",
-     "title": "Why Paycom Software (PAYC) is a Top Value Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-paycom-software-payc-top-value-stock-long-term"
+     "title": "Can KYMR's Targeted Protein Degradation Pipeline Drive Future Growth?",
+     "url": "https://www.nasdaq.com/articles/can-kymrs-targeted-protein-degradation-pipeline-drive-future-growth"
+    },
+    {
+     "ticker": "HURN",
+     "date": "2026-11-16",
+     "publisher": "The Motley Fool",
+     "title": "Huron: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/huron-3-key-takeaways-long-term-investors"
+    },
+    {
+     "ticker": "HURN",
+     "date": "2026-11-05",
+     "publisher": "Zacks",
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Huron Consulting (HURN)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-huron-consulting-hurn"
+    },
+    {
+     "ticker": "HURN",
+     "date": "2026-11-05",
+     "publisher": "Zacks",
+     "title": "Wall Street Analysts See a 25.42% Upside in Huron Consulting (HURN): Can the Stock Really Move This High?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2542-upside-huron-consulting-hurn-can-stock-really-move-high"
+    },
+    {
+     "ticker": "HURN",
+     "date": "2026-11-05",
+     "publisher": "Zacks",
+     "title": "Are Business Services Stocks Lagging  Huron Consulting Group (HURN) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-huron-consulting-group-hurn-year"
     },
     {
      "ticker": "THC",
@@ -3547,60 +3287,32 @@
      "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-tenet-healthcare-made-10-years-ago-would-be-worth-today"
     },
     {
-     "ticker": "THC",
-     "date": "2026-07-24",
-     "publisher": "CNBC",
-     "title": "Stocks making the biggest moves premarket: Intel, Oracle, American Express",
-     "url": "https://www.cnbc.com/2026/07/24/stocks-making-the-biggest-moves-premarket-intc-orcl-axp.html"
+     "ticker": "PLMR",
+     "date": "2026-11-13",
+     "publisher": "Fintel",
+     "title": "Palomar Holdings, Inc. Raises Full-Year 2026 Adjusted Net Income Guidance to $280M - $285M",
+     "url": "https://www.nasdaq.com/articles/palomar-holdings-inc-raises-full-year-2026-adjusted-net-income-guidance-280m-285m"
     },
     {
-     "ticker": "REGN",
-     "date": "2026-11-19",
-     "publisher": "RTTNews",
-     "title": "Regeneron Wins FDA Approval For Livsayis In Generalized Myasthenia Gravis",
-     "url": "https://www.nasdaq.com/articles/regeneron-wins-fda-approval-livsayis-generalized-myasthenia-gravis"
-    },
-    {
-     "ticker": "REGN",
-     "date": "2026-11-18",
+     "ticker": "PLMR",
+     "date": "2026-11-12",
      "publisher": "Zacks",
-     "title": "Regeneron Wins EC Clearance for Libtayo Dosing Flexibility",
-     "url": "https://www.nasdaq.com/articles/regeneron-wins-ec-clearance-libtayo-dosing-flexibility"
+     "title": "Why Palomar (PLMR) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-palomar-plmr-top-growth-stock-long-term-0"
     },
     {
-     "ticker": "REGN",
-     "date": "2026-11-17",
-     "publisher": "MarketBeat",
-     "title": "Regeneron Pharmaceuticals Sees Growth Ahead, Eyes EYLEA HD Syringe Approval",
-     "url": "https://www.nasdaq.com/articles/regeneron-pharmaceuticals-sees-growth-ahead-eyes-eylea-hd-syringe-approval"
+     "ticker": "PLMR",
+     "date": "2026-11-12",
+     "publisher": "Zacks",
+     "title": "Can PLMR Balance Rapid Premium Growth With Underwriting Discipline?",
+     "url": "https://www.nasdaq.com/articles/can-plmr-balance-rapid-premium-growth-underwriting-discipline"
     },
     {
-     "ticker": "REGN",
-     "date": "2026-11-17",
-     "publisher": "RTTNews",
-     "title": "Regeneron's Libtayo Gets EU Nod For Higher Dose And Shorter Infusion Times; Stock Up",
-     "url": "https://www.nasdaq.com/articles/regenerons-libtayo-gets-eu-nod-higher-dose-and-shorter-infusion-times-stock"
-    },
-    {
-     "ticker": "REGN",
-     "date": "2026-10-15",
-     "publisher": "CNBC",
-     "title": "Thursday's biggest analyst calls: Nvidia, CoreWeave, Walmart, Crocs, CarMax",
-     "url": "https://www.cnbc.com/2026/10/15/thursday-big-wall-street-analyst-calls-like-coreweave.html"
-    },
-    {
-     "ticker": "REGN",
-     "date": "2026-11-02",
-     "publisher": "CNBC",
-     "title": "Final Trades: Invesco S&P 500 Equal Weight, Cleveland-Cliffs, UnitedHealth and Regeneron",
-     "url": "https://www.cnbc.com/video/2026/11/02/final-trades-invesco-sp-500-equal-weight-cleveland-cliffs-unitedhealth-and-regeneron.html"
-    },
-    {
-     "ticker": "REGN",
-     "date": "2026-10-12",
-     "publisher": "CNBC",
-     "title": "Calls of the Day: Adobe, eBay and Regeneron",
-     "url": "https://www.cnbc.com/video/2026/10/12/calls-of-the-day-adobe-ebay-and-regeneron.html"
+     "ticker": "PLMR",
+     "date": "2026-11-10",
+     "publisher": "Zacks",
+     "title": "Palomar (PLMR) is a Top-Ranked Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/palomar-plmr-top-ranked-momentum-stock-should-you-buy"
     }
    ],
    "research": [
@@ -3631,17 +3343,11 @@
      ]
     },
     {
-     "ticker": "ELF",
-     "company": "e.l.f., rhode, Naturium 같은 저가·중저가 화장품 브랜드를 타겟·월마트·세포라 등에서 파는 미국 뷰티 회사. 인수한 rhode 브랜드가 최근 매출 성장을 끌고 있다.",
+     "ticker": "ECO",
+     "company": "원유를 실어 나르는 대형 유조선을 운영하는 그리스 해운사. 운임이 오르면 이익이 크게 늘어나는 구조다.",
      "whyRose": [
-      "신한투자증권은 rhode가 점유율 상승을 이끌고 있고, 현금 창출력도 좋아지고 있다고 평가했다."
-     ]
-    },
-    {
-     "ticker": "TXG",
-     "company": "단일 세포 분석용 유전체 장비와 시약을 파는 회사. 장비를 팔고 소모품을 계속 파는 구조다.",
-     "whyRose": [
-      "증권사 평균 목표주가가 한 번에 13.66% 올라 60.62달러가 됐다. 10월 초 주가 상승의 근거가 됐다."
+      "호르무즈 해협 봉쇄와 러시아 제재 등으로 원유가 더 먼 길을 돌아 운송되면서 유조선 운임이 올랐다. ECO는 올해 두 배 넘게 올랐다.",
+      "3분기 실적이 이익과 매출 모두 시장 예상을 웃돌았다."
      ]
     },
     {
@@ -3654,26 +3360,10 @@
      ]
     },
     {
-     "ticker": "ECO",
-     "company": "원유를 실어 나르는 대형 유조선을 운영하는 그리스 해운사. 운임이 오르면 이익이 크게 늘어나는 구조다.",
+     "ticker": "ELF",
+     "company": "e.l.f., rhode, Naturium 같은 저가·중저가 화장품 브랜드를 타겟·월마트·세포라 등에서 파는 미국 뷰티 회사. 인수한 rhode 브랜드가 최근 매출 성장을 끌고 있다.",
      "whyRose": [
-      "호르무즈 해협 봉쇄와 러시아 제재 등으로 원유가 더 먼 길을 돌아 운송되면서 유조선 운임이 올랐다. ECO는 올해 두 배 넘게 올랐다.",
-      "3분기 실적이 이익과 매출 모두 시장 예상을 웃돌았다."
-     ]
-    },
-    {
-     "ticker": "ANF",
-     "company": "Abercrombie와 Hollister 브랜드로 캐주얼 의류를 파는 미국 의류 소매업체. 매장과 온라인으로 팔며 미주·유럽·아시아 매출이 있다.",
-     "whyRose": [
-      "5~7월 분기 매출은 12.7억 달러로 1년 전보다 4.8% 늘었고 영업이익은 22.3% 늘어 영업이익률이 19.9%로 올랐다."
-     ]
-    },
-    {
-     "ticker": "CRL",
-     "company": "신약 개발 과정에서 동물 실험 등 비임상 안전성 평가를 대신 해 주고 돈을 버는 세계 최대 규모 위탁 연구 회사(CRO). 연구용 동물 모델 공급과 의약품 제조 지원 서비스도 한다.",
-     "whyRose": [
-      "신규 수주 흐름이 좋아졌다. 안전성 평가 부문 수주 대 매출 비율이 1.19배로 4년 내 최고였고, 회사는 올해 조정 주당순이익 전망을 11.15~11.45달러로 올렸다.",
-      "11월 9일 Frontage의 생체시료 분석·약물동태 사업을 최대 5.45억 달러 현금으로 사겠다고 발표했다. 사업 영역을 넓히는 소식이다."
+      "신한투자증권은 rhode가 점유율 상승을 이끌고 있고, 현금 창출력도 좋아지고 있다고 평가했다."
      ]
     },
     {
@@ -3681,15 +3371,6 @@
      "company": "혈액 채취·분리 장비와 소모품(혈장·혈소판 수집), 수술용 지혈·심장 시술 기기를 파는 의료기기 회사. 장비를 깔아 두고 소모품을 반복 판매하는 구조다.",
      "whyRose": [
       "회사가 연간 매출 전망과 자체 성장(인수·환율 제외) 전망을 함께 올렸다. 하반기도 잘 간다는 신호로 읽혔다."
-     ]
-    },
-    {
-     "ticker": "VSXY",
-     "company": "빅토리아 시크릿, 핑크(PINK) 브랜드 등으로 속옷·여성 의류·뷰티 제품을 파는 미국 의류 소매업체. 매장과 온라인 판매로 매출을 낸다.",
-     "whyRose": [
-      "2026년 5~7월 분기 영업이익이 2.57억 달러로 1년 전보다 526.8% 늘었다. 매출은 16.1억 달러로 10.4% 증가했고 영업이익률은 16%였다.",
-      "그 직전 분기(2~4월)도 매출이 15.3% 늘고 영업이익이 76백만 달러로 흑자 폭이 커졌다. 두 분기 연속 이익이 개선돼 주가 상승의 근거가 됐다.",
-      "실적 발표 때 CEO는 매출이 예상에 못 미쳤지만 하반기를 강한 분위기로 맞는다고 밝혔다."
      ]
     },
     {
@@ -3701,12 +3382,23 @@
      ]
     },
     {
-     "ticker": "ORKA",
-     "company": "건선 같은 자가면역 질환 치료제를 개발하는 임상 단계 바이오 회사. 아직 매출은 없고 주력 후보물질 ORKA-001의 임상 결과가 주가를 좌우한다.",
+     "ticker": "ANF",
+     "company": "Abercrombie와 Hollister 브랜드로 캐주얼 의류를 파는 미국 의류 소매업체. 매장과 온라인으로 팔며 미주·유럽·아시아 매출이 있다.",
      "whyRose": [
-      "후보물질의 효과가 입증됐다는 신호로 읽혔다.",
-      "회사가 3상 임상을 향해 가겠다고 밝혔다. 다음 단계 진입이 가시화됐다.",
-      "11월 10일 회사가 12월에 52주 데이터를 내고 3상은 2027년 시작한다고 밝혀 다음 일정이 확인됐다."
+      "5~7월 분기 매출은 12.7억 달러로 1년 전보다 4.8% 늘었고 영업이익은 22.3% 늘어 영업이익률이 19.9%로 올랐다."
+     ]
+    },
+    {
+     "ticker": "MGRT",
+     "company": "사물인터넷(IoT) 솔루션과 서비스를 여러 산업에 공급하는 소형 회사다. 2025년 7월 나스닥에 상장했다.",
+     "whyRose": []
+    },
+    {
+     "ticker": "CRL",
+     "company": "신약 개발 과정에서 동물 실험 등 비임상 안전성 평가를 대신 해 주고 돈을 버는 세계 최대 규모 위탁 연구 회사(CRO). 연구용 동물 모델 공급과 의약품 제조 지원 서비스도 한다.",
+     "whyRose": [
+      "신규 수주 흐름이 좋아졌다. 안전성 평가 부문 수주 대 매출 비율이 1.19배로 4년 내 최고였고, 회사는 올해 조정 주당순이익 전망을 11.15~11.45달러로 올렸다.",
+      "11월 9일 Frontage의 생체시료 분석·약물동태 사업을 최대 5.45억 달러 현금으로 사겠다고 발표했다. 사업 영역을 넓히는 소식이다."
      ]
     },
     {
@@ -3719,6 +3411,22 @@
      ]
     },
     {
+     "ticker": "ORKA",
+     "company": "건선 같은 자가면역 질환 치료제를 개발하는 임상 단계 바이오 회사. 아직 매출은 없고 주력 후보물질 ORKA-001의 임상 결과가 주가를 좌우한다.",
+     "whyRose": [
+      "후보물질의 효과가 입증됐다는 신호로 읽혔다.",
+      "회사가 3상 임상을 향해 가겠다고 밝혔다. 다음 단계 진입이 가시화됐다.",
+      "11월 10일 회사가 12월에 52주 데이터를 내고 3상은 2027년 시작한다고 밝혀 다음 일정이 확인됐다."
+     ]
+    },
+    {
+     "ticker": "TXG",
+     "company": "단일 세포 분석용 유전체 장비와 시약을 파는 회사. 장비를 팔고 소모품을 계속 파는 구조다.",
+     "whyRose": [
+      "증권사 평균 목표주가가 한 번에 13.66% 올라 60.62달러가 됐다. 10월 초 주가 상승의 근거가 됐다."
+     ]
+    },
+    {
      "ticker": "CAKE",
      "company": "미국 전역에서 치즈케이크 팩토리 등 레스토랑을 직접 운영하는 외식 기업이다. 매장 방문객 수와 신규 매장 확대가 매출을 좌우한다.",
      "whyRose": [
@@ -3726,6 +3434,11 @@
       "실적 발표 후 콘퍼런스콜에서 방문객 증가와 2027년 신규 출점 계획이 부각됐다. 같은 기간 동일 매장 매출이 15.2% 늘었다는 분석도 나왔다.",
       "실적이 분기마다 나아졌다. 영업이익률이 2025년 말 3.5%에서 2026년 3분기 7.2%로 올랐다."
      ]
+    },
+    {
+     "ticker": "PAYC",
+     "company": "기업용 급여·인사 관리 소프트웨어를 구독 방식으로 파는 회사. 직원이 직접 급여·근태를 처리하는 단일 시스템이 주력이다.",
+     "whyRose": []
     },
     {
      "ticker": "QLYS",
@@ -3737,23 +3450,12 @@
      ]
     },
     {
-     "ticker": "MGRT",
-     "company": "사물인터넷(IoT) 솔루션과 서비스를 여러 산업에 공급하는 소형 회사다. 2025년 7월 나스닥에 상장했다.",
-     "whyRose": []
-    },
-    {
-     "ticker": "TWST",
-     "company": "DNA를 합성해 연구·바이오 기업에 판매하는 회사. 합성 DNA, 유전자 라이브러리 등으로 매출을 낸다.",
+     "ticker": "THC",
+     "company": "미국 전역에서 병원과 외래 수술센터를 운영하는 의료 서비스 회사. 환자 진료비로 돈을 번다.",
      "whyRose": [
-      "2026년 6월 분기 매출이 1억 1,838만 달러로 1년 전보다 23.2% 늘었다.",
-      "증권사 목표가 평균이 한 달 새 29.5% 올라 153.59달러가 됐다. 9월에도 주가가 한 주 만에 급등했다는 기사가 나왔다.",
-      "바이오 업종 전체가 크게 오른 흐름도 영향을 줬다. CNBC가 이를 다룬 영상을 냈다."
+      "10월 말 3분기 실적 발표 뒤 기업 설명회 요약에서 전망 상향과 이익률 개선이 주요 내용으로 소개됐다.",
+      "11월 중순 들어 모멘텀 종목으로 소개되는 기사가 이어지며 개인 투자자 관심이 커졌다."
      ]
-    },
-    {
-     "ticker": "PAYC",
-     "company": "기업용 급여·인사 관리 소프트웨어를 구독 방식으로 파는 회사. 직원이 직접 급여·근태를 처리하는 단일 시스템이 주력이다.",
-     "whyRose": []
     }
    ]
   },
@@ -3761,55 +3463,23 @@
    "key": "all",
    "label": "RS(1~6MO)",
    "criteria": "1·3·6개월 모두 상위 2% (자체 계산)",
-   "count": 2,
+   "count": 1,
    "items": [
     {
      "ticker": "GKOS",
      "name": "글라우코스",
      "industry": "Medical Devices",
-     "ret1d": 2.15,
+     "ret1d": -0.33,
      "rnk1": 0.32,
-     "rnk3": 0.77,
+     "rnk3": 0.68,
      "rnk6": 0.23
-    },
-    {
-     "ticker": "MGRT",
-     "name": "메가 포춘",
-     "industry": "Information Technology Services",
-     "ret1d": 0.87,
-     "rnk1": 1.31,
-     "rnk3": 0.23,
-     "rnk6": 1.49
     }
    ],
    "industries": [],
    "lone": [
-    "GKOS",
-    "MGRT"
+    "GKOS"
    ],
-   "news": [
-    {
-     "ticker": "MGRT",
-     "date": "2026-06-11",
-     "publisher": "BNK Invest",
-     "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
-     "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2026-04-09",
-     "publisher": "The Motley Fool",
-     "title": "How Mega Fortune Stock Tripled This Week",
-     "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week"
-    },
-    {
-     "ticker": "MGRT",
-     "date": "2025-07-17",
-     "publisher": "Quiver Quantitative",
-     "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
-     "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million"
-    }
-   ],
+   "news": [],
    "research": [
     {
      "ticker": "GKOS",
@@ -3818,11 +3488,6 @@
       "회사가 올해 매출 전망을 6.8~7.0억 달러에서 7.75~7.85억 달러로 크게 올렸다. 신제품 iDose TR와 Epioxa가 성장의 핵심 동력이라고 밝혔다.",
       "3분기 영업이익이 약 83만 달러로 흑자 전환했다."
      ]
-    },
-    {
-     "ticker": "MGRT",
-     "company": "사물인터넷(IoT) 솔루션과 서비스를 여러 산업에 공급하는 소형 회사다. 2025년 7월 나스닥에 상장했다.",
-     "whyRose": []
     }
    ]
   }
