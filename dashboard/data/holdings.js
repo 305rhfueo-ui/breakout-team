@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-21T13:00:10.599Z",
+  "updated": "2026-11-22T13:00:10.578Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -130,15 +130,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
-          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeege.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegg.pdf",
           "date": "2026-11-12",
           "publisher": "신한투자증권 심지현",
-          "ko": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
+          "ko": "팔란티어, AI 에이전트와 경쟁 아닌 보완 관계라는 증권사 평가",
           "tone": "good",
           "isNew": false,
-          "headline": "증권사, 팔란티어는 AI 에이전트와 보완 관계라고 평가",
-          "easy": "국내 증권사 리포트가 팔란티어를 AI 에이전트·다른 데이터 업체와 경쟁이 아닌 보완 관계로 봤다. 2027년 데이터 산업은 AI 에이전트와 얼마나 잘 연계되느냐가 관건인데, 팔란티어는 AIP로 워크플로우를 잇는 레이어 역할과 소버린 AI 강점이 있다는 설명이다. 연간 가이던스 상향 근거로 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 가는 기간 단축, 3분기 실적 강세를 들었다.",
-          "whyMatters": "보유자에게는 AI 에이전트 확산이 팔란티어를 위협하기보다 보완한다는 증권사 시각이라 우호적이다. 다만 요약만 확인한 내용이며 증권사 한 곳의 의견이다.",
+          "headline": "팔란티어, AI 에이전트와 경쟁 아닌 보완 관계라는 증권사 평가",
+          "easy": "국내 증권사 리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 27년 데이터 산업은 AI·AI 에이전트와 얼마나 잘 연계되느냐가 관건인데, 팔란티어는 AI랩의 엔터프라이즈 에이전트와 데이터 플랫폼의 시멘틱 계층 상향 침투라는 강점이 있다는 설명이다. 연간 가이던스 상향 근거로는 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 가는 기간 단축과 계약 확장 속도 상승, 3분기 실적 강세를 들었다.",
+          "whyMatters": "보유자에게는 AI 에이전트 확산이 팔란티어 사업을 위협하지 않고 오히려 수요로 이어질 수 있다는 증권사의 긍정적 시각이다. 다만 본문 없이 증권사 요약만 확인한 것이라 세부 근거와 수치는 기사에 안 나왔다.",
           "quote": null,
           "read": false
         },
