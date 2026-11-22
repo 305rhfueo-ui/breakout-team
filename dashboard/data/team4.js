@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -176,7 +176,7 @@ window.TEAM4_DATA = {
       "nameKo": "BJS 홀세일 클럽 홀딩스",
       "nameEn": "BJS WHSL CLUB HLDGS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "BJS 홀세일 클럽 홀딩스",
         "nameEn": "BJS WHSL CLUB HLDGS INC",
         "financials": {
@@ -362,7 +362,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "BJ",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 22.9,
         "pbr": 6.03,
@@ -436,39 +436,39 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "BJ",
         "url": "https://finance.yahoo.com/quote/BJ/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2027-01-31",
-            "eps": 1.03,
+            "eps": 1.04,
             "epsLow": 0.93,
-            "epsHigh": 1.1,
+            "epsHigh": 1.15,
             "epsYearAgo": 0.96,
-            "epsAnalysts": 13,
-            "epsGrowth": 7.4,
+            "epsAnalysts": 19,
+            "epsGrowth": 8.2,
             "epsCur": "USD",
-            "rev": 6204163730,
-            "revAnalysts": 13,
+            "rev": 6192536060,
+            "revAnalysts": 16,
             "revYearAgo": 5575388000,
-            "revGrowth": 11.3,
+            "revGrowth": 11.1,
             "revCur": "USD"
           },
           {
             "period": "+1q",
             "endDate": "2027-04-30",
-            "eps": 1.23,
+            "eps": 1.21,
             "epsLow": 0.92,
-            "epsHigh": 1.51,
+            "epsHigh": 1.56,
             "epsYearAgo": 1.1,
             "epsAnalysts": 12,
-            "epsGrowth": 11.4,
+            "epsGrowth": 10.3,
             "epsCur": "USD",
-            "rev": 6069354760,
+            "rev": 6101606190,
             "revAnalysts": 11,
             "revYearAgo": 5661500000,
-            "revGrowth": 7.2,
+            "revGrowth": 7.8,
             "revCur": "USD"
           },
           {
@@ -481,26 +481,26 @@ window.TEAM4_DATA = {
             "epsAnalysts": 23,
             "epsGrowth": 7.6,
             "epsCur": "USD",
-            "rev": 24214202840,
-            "revAnalysts": 13,
+            "rev": 24273452000,
+            "revAnalysts": 17,
             "revYearAgo": 21457274000,
-            "revGrowth": 12.9,
+            "revGrowth": 13.1,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2028-01-31",
             "eps": 5.07,
-            "epsLow": 4.81,
+            "epsLow": 4.84,
             "epsHigh": 5.45,
             "epsYearAgo": 4.73,
             "epsAnalysts": 22,
-            "epsGrowth": 7,
+            "epsGrowth": 7.2,
             "epsCur": "USD",
-            "rev": 25573458260,
+            "rev": 25617676060,
             "revAnalysts": 21,
-            "revYearAgo": 24214202840,
-            "revGrowth": 5.6,
+            "revYearAgo": 24273452000,
+            "revGrowth": 5.5,
             "revCur": "USD"
           }
         ],
@@ -509,10 +509,10 @@ window.TEAM4_DATA = {
             "period": "0q",
             "endDate": "2027-01-31",
             "cur": "USD",
-            "now": 1.03,
-            "d7": 1.7,
-            "d30": 1.6,
-            "d90": 1.8,
+            "now": 1.04,
+            "d7": 2.5,
+            "d30": 2.4,
+            "d90": 2.6,
             "ago90": 1.01,
             "up7": 1,
             "up30": 2,
@@ -523,10 +523,10 @@ window.TEAM4_DATA = {
             "period": "+1q",
             "endDate": "2027-04-30",
             "cur": "USD",
-            "now": 1.23,
-            "d7": -0.9,
-            "d30": -0.5,
-            "d90": -1.4,
+            "now": 1.21,
+            "d7": -1.9,
+            "d30": -1.5,
+            "d90": -2.3,
             "ago90": 1.24,
             "up7": 1,
             "up30": 1,
@@ -552,9 +552,9 @@ window.TEAM4_DATA = {
             "endDate": "2028-01-31",
             "cur": "USD",
             "now": 5.07,
-            "d7": 0.4,
-            "d30": 0.8,
-            "d90": 2,
+            "d7": 0.5,
+            "d30": 0.9,
+            "d90": 2.2,
             "ago90": 4.97,
             "up7": 1,
             "up30": 2,
@@ -597,9 +597,9 @@ window.TEAM4_DATA = {
           "upgrades": 0,
           "downgrades": 1,
           "initiations": 1,
-          "ptRaised": 7,
+          "ptRaised": 4,
           "ptLowered": 0,
-          "total": 9,
+          "total": 5,
           "recent": [
             {
               "date": "2026-11-17",
@@ -650,46 +650,6 @@ window.TEAM4_DATA = {
               "ptAction": "Raises",
               "pt": 105,
               "ptPrior": 100
-            },
-            {
-              "date": "2026-08-24",
-              "firm": "Citigroup",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 111,
-              "ptPrior": 100
-            },
-            {
-              "date": "2026-08-24",
-              "firm": "Roth Capital",
-              "action": "reit",
-              "from": "Neutral",
-              "to": "Neutral",
-              "ptAction": "Maintains",
-              "pt": 97,
-              "ptPrior": 97
-            },
-            {
-              "date": "2026-08-24",
-              "firm": "UBS",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 115,
-              "ptPrior": 109
-            },
-            {
-              "date": "2026-08-24",
-              "firm": "DA Davidson",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 108,
-              "ptPrior": 105
             }
           ]
         },
@@ -985,7 +945,7 @@ window.TEAM4_DATA = {
       "nameKo": "엘라스틱",
       "nameEn": "ELASTIC N V",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "엘라스틱",
         "nameEn": "ELASTIC N V",
         "financials": {
@@ -1175,7 +1135,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "ESTC",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 20.94,
         "pbr": 6.06,
@@ -1228,7 +1188,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "ESTC",
         "url": "https://finance.yahoo.com/quote/ESTC/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -1289,10 +1249,10 @@ window.TEAM4_DATA = {
             "epsAnalysts": 28,
             "epsGrowth": 17.8,
             "epsCur": "USD",
-            "rev": 2299286990,
-            "revAnalysts": 27,
+            "rev": 2298169600,
+            "revAnalysts": 28,
             "revYearAgo": 2004668330,
-            "revGrowth": 14.7,
+            "revGrowth": 14.6,
             "revCur": "USD"
           }
         ],
@@ -1389,9 +1349,9 @@ window.TEAM4_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 27,
+          "ptRaised": 25,
           "ptLowered": 9,
-          "total": 40,
+          "total": 38,
           "recent": [
             {
               "date": "2026-11-20",
@@ -1726,7 +1686,7 @@ window.TEAM4_DATA = {
       "nameKo": "시냅틱스",
       "nameEn": "SYNAPTICS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "시냅틱스",
         "nameEn": "SYNAPTICS INC",
         "financials": {
@@ -1897,7 +1857,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "SYNA",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 9.15,
         "pbr": 4.86,
@@ -1936,7 +1896,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "SYNA",
         "url": "https://finance.yahoo.com/quote/SYNA/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -2347,7 +2307,7 @@ window.TEAM4_DATA = {
       "nameKo": "우리 파이낸셜 그룹(ADR)",
       "nameEn": "WOORI FINANCIAL GROUP INC SPON ADS EACH REP 3 ORD SHS",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "우리 파이낸셜 그룹(ADR)",
         "nameEn": "WOORI FINANCIAL GROUP INC SPON ADS EACH REP 3 ORD SHS",
         "financialsError": "매출 태그 없음",
@@ -2413,7 +2373,7 @@ window.TEAM4_DATA = {
               "analyst": "김은갑",
               "title": "[웰스파고 (NYS:WFC)] 화려하진 않았지만 컨센서스 상회",
               "summary": "- EPS 컨센서스 상회- 이자이익과 비이자이익 전반적으로 증가- 자본비율 유지, 주당배당금 상향 예정",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkezkemlkzizkgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkezkemlkzizkgcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -2422,7 +2382,7 @@ window.TEAM4_DATA = {
               "analyst": "박제인",
               "title": "[웰스파고 (NYS:WFC)] 자산 한도 해제 후 대차대조표 성장 본격화",
               "summary": "- 웰스파고의 FY 2Q26 영업수익은 226억 달러(YoY +8.6%), 조정 EPS 는 2 달러(YoY +25%)를 기록해 컨센서스를 각각 3.8%, 17% 상회했 다.- 웰스파고는 2026 회계연도 연간 순이자이익 전망치를 500억 달러 (YoY +5.2%, 컨센서스 부합) 내외로 유지했다.- 유통 시장 제외 순이자 이익은 약 480억 달러(YoY +8.7%)로 예상했다. FY 3Q26에는 2분기 와 마찬가지로 순이자마진의 완만한 하락이 지속될 것으로 보이나, 4분 기에는 수익성이 안정화될 것으로 전망했다",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkcmmckklielcgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkcmmckklielcgcgxeegi.pdf",
               "pages": "6"
             },
             {
@@ -2431,7 +2391,7 @@ window.TEAM4_DATA = {
               "analyst": "김은갑",
               "title": "[웰스파고 (NYS:WFC)] 이자이익 부진, 영업수익 컨센서스 하회",
               "summary": "- EPS는 컨센서스 상회했지만 순영업수익은 하회- NIM 하락과 이자이익 부진- 자산상한 규제 해소 이후 자산증가세",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgmikqilcggggcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgmikqilcggggcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -2440,7 +2400,7 @@ window.TEAM4_DATA = {
               "analyst": "김은갑",
               "title": "[웰스파고 (NYS:WFC)] 자산증가와 양호한 이자이익 증가세",
               "summary": "- 25 년 4 분기 순영업수익은 21.3 십억달러로 컨센서스를 1.6% 하회했고, EPS 는 1.76 달러로 컨센서스를 6.0% 상회했다- 이자이익은 YoY 4%, QoQ 3% 증가했다. NIM 이 2.60%로 전분기 2.61%와 거의 같은 수준으로 유지되는 상황에서 자산증가, 고정금리 자산의 리프라이싱 효과가 발휘되었다- 4 분기 5 십억달러의 자기주식 매입이 있었고, 2024 년말 대비 보통주 주식 수는 6% 감소했다. 2025 년 Tangible capital ROE 는 14.6%로 기존 목표 15.0%에 근접했다",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlzexxklmkimlgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlzexxklmkimlgcgxeegi.pdf",
               "pages": "5"
             }
           ]
@@ -2448,7 +2408,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "WF",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 7.97,
         "pbr": 0.73,
@@ -2472,7 +2432,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "WF",
         "url": "https://finance.yahoo.com/quote/WF/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -2485,10 +2445,10 @@ window.TEAM4_DATA = {
             "epsAnalysts": 1,
             "epsGrowth": 83.8,
             "epsCur": "KRW",
-            "rev": 2935856070000,
-            "revAnalysts": 9,
+            "rev": 2925973150000,
+            "revAnalysts": 11,
             "revYearAgo": 2783000000000,
-            "revGrowth": 5.5,
+            "revGrowth": 5.1,
             "revCur": "KRW"
           },
           {
@@ -2517,10 +2477,10 @@ window.TEAM4_DATA = {
             "epsAnalysts": 1,
             "epsGrowth": 6.3,
             "epsCur": "KRW",
-            "rev": 11623703620000,
-            "revAnalysts": 16,
+            "rev": 11610956350000,
+            "revAnalysts": 17,
             "revYearAgo": 10957000000000,
-            "revGrowth": 6.1,
+            "revGrowth": 6,
             "revCur": "KRW"
           },
           {
@@ -2533,10 +2493,10 @@ window.TEAM4_DATA = {
             "epsAnalysts": 1,
             "epsGrowth": 18.3,
             "epsCur": "KRW",
-            "rev": 12225430810000,
-            "revAnalysts": 17,
-            "revYearAgo": 11623703620000,
-            "revGrowth": 5.2,
+            "rev": 12224184660000,
+            "revAnalysts": 18,
+            "revYearAgo": 11610956350000,
+            "revGrowth": 5.3,
             "revCur": "KRW"
           }
         ],
@@ -2873,6 +2833,13 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "Global Payments (GPN) Gets a Potential Lifeline as New Takeover Buzz Heats Up",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-gets-potential-065105957.html",
+          "date": "2026-11-21",
+          "publisher": "Insider Monkey",
+          "via": "Yahoo"
+        },
+        {
           "title": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
           "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-soars-10-gtcr-214448387.html",
           "date": "2026-11-20",
@@ -2974,7 +2941,7 @@ window.TEAM4_DATA = {
       "nameKo": "리버티 라이브 C",
       "nameEn": "LIBERTY LIVE HOLDINGS INC.",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "리버티 라이브 C",
         "nameEn": "LIBERTY LIVE HOLDINGS INC.",
         "financials": {
@@ -3136,7 +3103,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "LLYVK",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 32.88,
         "pbr": 0,
@@ -3160,7 +3127,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "LLYVK",
         "url": "https://finance.yahoo.com/quote/LLYVK/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -3522,6 +3489,13 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "Is Liberty Live Holdings (LLYV.K) Stock Too Expensive For Its Sales?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-live-holdings-llyv-k-180700674.html",
+          "date": "2026-11-22",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
           "title": "The Just One Project wins F1® Allwyn Global Community Award in Las Vegas to expand affordable groceries in Southern Nevada",
           "url": "https://finance.yahoo.com/healthcare/articles/just-one-project-wins-f1-115500895.html",
           "date": "2026-11-19",
@@ -3532,7 +3506,7 @@ window.TEAM4_DATA = {
       "nameKo": "리버티 라이브 A",
       "nameEn": "LIBERTY LIVE HOLDINGS INC.",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "리버티 라이브 A",
         "nameEn": "LIBERTY LIVE HOLDINGS INC.",
         "financials": {
@@ -3688,7 +3662,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "LLYVA",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 32.01,
         "pbr": 0,
@@ -3712,7 +3686,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "LLYVA",
         "url": "https://finance.yahoo.com/quote/LLYVA/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -4088,7 +4062,7 @@ window.TEAM4_DATA = {
       "nameKo": "SPS 커머스",
       "nameEn": "SPS COMMERCE INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "SPS 커머스",
         "nameEn": "SPS COMMERCE INC",
         "financials": {
@@ -4275,7 +4249,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "SPSC",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 37.11,
         "pbr": 2.97,
@@ -4299,7 +4273,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "SPSC",
         "url": "https://finance.yahoo.com/quote/SPSC/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -4699,6 +4673,13 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "Oruka Therapeutics (ORKA) Stock Looks Pricey After Its 239% Rally",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/oruka-therapeutics-orka-stock-looks-042457879.html",
+          "date": "2026-11-21",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
           "title": "Oruka Therapeutics Insider Sold Shares Worth $1,049,658, According to a Recent SEC Filing",
           "url": "https://finance.yahoo.com/markets/stocks/articles/oruka-therapeutics-insider-sold-shares-084850554.html",
           "date": "2026-11-16",
@@ -4812,7 +4793,7 @@ window.TEAM4_DATA = {
       "nameKo": "코카콜라 유로퍼시픽 파트너스",
       "nameEn": "COCA-COLA EUROPACIFIC PARTNERS",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "코카콜라 유로퍼시픽 파트너스",
         "nameEn": "COCA-COLA EUROPACIFIC PARTNERS",
         "financialsError": "매출 태그 없음",
@@ -4864,7 +4845,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "CCEP",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 22.32,
         "pbr": 5.41,
@@ -4888,7 +4869,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "CCEP",
         "url": "https://finance.yahoo.com/quote/CCEP/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -5299,6 +5280,13 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "Merck Just Raised Its Dividend. These 3 Dow Healthcare Giants Are Paying More",
+          "url": "https://finance.yahoo.com/healthcare/articles/merck-just-raised-dividend-3-180743821.html",
+          "date": "2026-11-22",
+          "publisher": "24/7 Wall St.",
+          "via": "Yahoo"
+        },
+        {
           "title": "Mizuho Adjusts Price Target on Amgen to $388 From $352, Maintains Neutral Rating",
           "url": "https://finance.yahoo.com/markets/stocks/articles/mizuho-adjusts-price-target-amgen-151424578.html",
           "date": "2026-11-20",
@@ -5332,19 +5320,12 @@ window.TEAM4_DATA = {
           "date": "2026-11-19",
           "publisher": "MT Newswires",
           "via": "Yahoo"
-        },
-        {
-          "title": "Amgen (AMGN) Has Advanced MariTide Into Phase 3 Trials",
-          "url": "https://finance.yahoo.com/healthcare/articles/amgen-amgn-advanced-maritide-phase-141953302.html",
-          "date": "2026-11-19",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
         }
       ],
       "nameKo": "암젠",
       "nameEn": "AMGEN INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "암젠",
         "nameEn": "AMGEN INC",
         "financials": {
@@ -5524,7 +5505,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] [26Q3 Preview] 예고된 영업비용 증가폭과 가이던스 달성 경로가 관건, 투자의견 매수 유지",
               "summary": "- 두 자릿수 외형 성장이 비용 증가를 흡수하는지가 이번 분기의 관건- denosumab 침식 속도와 성장동력의 상쇄력을 함께 봐야 한다- 매출 상회 시 밸류에이션 프리미엄 정당화, 하회 시 되돌림 압력",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -5533,7 +5514,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] [Issue & News] 임핀지 병용 1차 치료 3상, 생존 중앙값 21.1개월 - 2차에서 1차로 처방 환자군 확대 기대",
               "summary": "- Imdelltra+Imfinzi 병용, 1차 소세포폐암서 사망위험 58%↓- 생존기간 중앙값 21.1개월 vs 12.7개월, 1년생존 80%대 53%- 2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -5542,7 +5523,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] [Issue & News] 테즈스파이어, 호산구성 식도염 임상서 52주 조직학적 관해 입증 - 천식 적응증을 넘어 신규 성장동력 가능성",
               "summary": "- 테즈스파이어, 호산구성 식도염 임상서 위약 대비 관해율 압도- 52주까지 효과 유지, 삼킴곤란 증상도 개선- 승인 적응증 확대 시 신규 성장동력, 시점은 미확정",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -5551,7 +5532,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] [Issue & News] Imdelltra-Imfinzi 병용요법 생존율 개선 확인",
               "summary": "- Imdelltra+Imfinzi 병용, 소세포폐암 생존율 유의미 개선 확인- 유지요법 적응증 확대 시 Imdelltra 처방군 확대 잠재력- denosumab 침식 상쇄 흐름과 결 맞으나 즉각 손익 영향은 제한적",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqemgimlgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqemgimlgcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -5560,7 +5541,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] [Issue & News] IMDELLTRA·임핀지 병용 1차 소세포폐암 3상서 생존 개선 - 성장동력 제품의 적응증 확장 신호",
               "summary": "- IMDELLTRA+임핀지, 1차 소세포폐암 3상서 생존 개선- IMDELLTRA는 최근 분기 매출 115% 성장 성장동력 제품- 승인·매출 반영은 아직 여러 분기 소요될 전망",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -5569,7 +5550,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] [Issue & News] 영국 규제당국, Tavneos 신규 처방 중단·승인 철회 예고 - 미국 FDA 철회 심사에 힘 싣는 해외 판례",
               "summary": "- 영국, Tavneos 신규처방 중단·2027년 3월 승인 철회 예고- EU 철회에 이은 해외 판례, 미국 FDA 청문 부담 가중 소지- 미국 매출 비중 작아 전체 실적 영향은 제한적",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllicxqgzeqmlxgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllicxqgzeqmlxgcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -5578,7 +5559,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] [Issue & News] Repatha 고위험군 사망위험 감소 데이터 공개 - 1차 예방 적응증 확대 모멘텀 강화",
               "summary": "- Repatha, 첫 심장마비·뇌졸중 고위험군 사망위험 감소 데이터 발표- 2분기 매출 37% 성장한 핵심 성장동력, CHMP 긍정의견과 결 같아- Prolia·Xgeva 침식·TAVNEOS 리스크는 별개로 여전",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgeeczqzzqmmgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgeeczqzzqmmgcgxeegi.pdf",
               "pages": "5"
             },
             {
@@ -5587,7 +5568,7 @@ window.TEAM4_DATA = {
               "analyst": "조재운",
               "title": "[암젠 (NAS:AMGN)] TEZSPIRE, 호산구성 식도염 3상 주요지표 모두 충족 - 천식 너머 적응증 확장으로 성장동력 연장",
               "summary": "- TEZSPIRE, 호산구성 식도염 3상 주요지표 모두 충족- 천식 넘어 새 적응증 확장, 매출 반영은 승인 이후- 목표주가 상회 구간, 단기 주가 영향은 제한적",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxmlzzlellxgcgxeege.pdf",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxmlzzlellxgcgxeegi.pdf",
               "pages": "5"
             }
           ]
@@ -5595,7 +5576,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "AMGN",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 27.06,
         "pbr": 20.15,
@@ -5676,7 +5657,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "AMGN",
         "url": "https://finance.yahoo.com/quote/AMGN/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -5714,15 +5695,15 @@ window.TEAM4_DATA = {
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 23.57,
+            "eps": 23.55,
             "epsLow": 22.97,
             "epsHigh": 25.79,
             "epsYearAgo": 21.84,
-            "epsAnalysts": 33,
-            "epsGrowth": 7.9,
+            "epsAnalysts": 34,
+            "epsGrowth": 7.8,
             "epsCur": "USD",
-            "rev": 39495257840,
-            "revAnalysts": 30,
+            "rev": 39502088230,
+            "revAnalysts": 31,
             "revYearAgo": 36751000000,
             "revGrowth": 7.5,
             "revCur": "USD"
@@ -5730,16 +5711,16 @@ window.TEAM4_DATA = {
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 25.12,
+            "eps": 25.13,
             "epsLow": 23.53,
             "epsHigh": 26.56,
-            "epsYearAgo": 23.57,
-            "epsAnalysts": 33,
-            "epsGrowth": 6.6,
+            "epsYearAgo": 23.55,
+            "epsAnalysts": 34,
+            "epsGrowth": 6.7,
             "epsCur": "USD",
-            "rev": 41290200690,
-            "revAnalysts": 31,
-            "revYearAgo": 39495257840,
+            "rev": 41295538170,
+            "revAnalysts": 32,
+            "revYearAgo": 39502088230,
             "revGrowth": 4.5,
             "revCur": "USD"
           }
@@ -5777,10 +5758,10 @@ window.TEAM4_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 23.57,
-            "d7": 0.2,
-            "d30": 2.4,
-            "d90": 2.3,
+            "now": 23.55,
+            "d7": 0.1,
+            "d30": 2.3,
+            "d90": 2.2,
             "ago90": 23.04,
             "up7": 24,
             "up30": 25,
@@ -5791,9 +5772,9 @@ window.TEAM4_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 25.12,
+            "now": 25.13,
             "d7": 0.3,
-            "d30": 2.6,
+            "d30": 2.7,
             "d90": 3,
             "ago90": 24.4,
             "up7": 20,
@@ -6174,7 +6155,7 @@ window.TEAM4_DATA = {
       "nameKo": "신타스",
       "nameEn": "CINTAS CORP",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "신타스",
         "nameEn": "CINTAS CORP",
         "financials": {
@@ -6347,7 +6328,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "CTAS",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 43.37,
         "pbr": 16.89,
@@ -6386,7 +6367,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "CTAS",
         "url": "https://finance.yahoo.com/quote/CTAS/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -6431,7 +6412,7 @@ window.TEAM4_DATA = {
             "epsAnalysts": 18,
             "epsGrowth": 12.1,
             "epsCur": "USD",
-            "rev": 12245510550,
+            "rev": 12245532780,
             "revAnalysts": 18,
             "revYearAgo": 11264761000,
             "revGrowth": 8.7,
@@ -6447,9 +6428,9 @@ window.TEAM4_DATA = {
             "epsAnalysts": 18,
             "epsGrowth": 11.2,
             "epsCur": "USD",
-            "rev": 13167295240,
+            "rev": 13167111900,
             "revAnalysts": 18,
-            "revYearAgo": 12245510550,
+            "revYearAgo": 12245532780,
             "revGrowth": 7.5,
             "revCur": "USD"
           }
@@ -6899,27 +6880,6 @@ window.TEAM4_DATA = {
           "date": "2026-11-10",
           "publisher": "StockStory",
           "via": "Yahoo"
-        },
-        {
-          "title": "Palomar Holdings (PLMR) Stock Could Be 47% Undervalued Following Strong Q3 Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palomar-holdings-plmr-stock-could-220708679.html",
-          "date": "2026-11-08",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "How Record Earnings At Palomar Holdings (PLMR) Has Changed Its Investment Story",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/record-earnings-palomar-holdings-plmr-210832803.html",
-          "date": "2026-11-08",
-          "publisher": "Simply Wall St.",
-          "via": "Yahoo"
-        },
-        {
-          "title": "5 must-read analyst questions from Palomar Holdings’s Q3 2026 earnings call",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-192536486.html",
-          "date": "2026-11-08",
-          "publisher": "StockStory",
-          "via": "Yahoo"
         }
       ]
     },
@@ -7041,6 +7001,13 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "A $300,000 REIT Portfolio Could Save Thousands in Taxes Inside a Roth IRA",
+          "url": "https://finance.yahoo.com/real-estate/articles/300-000-reit-portfolio-could-211709576.html",
+          "date": "2026-11-21",
+          "publisher": "24/7 Wall St.",
+          "via": "Yahoo"
+        },
+        {
           "title": "Extra Space: 3 Key Takeaways for Long-Term Investors",
           "url": "https://finance.yahoo.com/markets/stocks/articles/extra-space-3-key-takeaways-210502188.html",
           "date": "2026-11-19",
@@ -7072,7 +7039,7 @@ window.TEAM4_DATA = {
       "nameKo": "엑스트라 스페이스 스토리지",
       "nameEn": "EXTRA SPACE STORAGE INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "엑스트라 스페이스 스토리지",
         "nameEn": "EXTRA SPACE STORAGE INC",
         "financials": {
@@ -7261,7 +7228,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "EXR",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 34.68,
         "pbr": 2.58,
@@ -7293,7 +7260,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "EXR",
         "url": "https://finance.yahoo.com/quote/EXR/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -7781,6 +7748,13 @@ window.TEAM4_DATA = {
       },
       "yahooNews": [
         {
+          "title": "Is BILL Holdings (BILL) Fully Valued After Its $6b Go Private Deal?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-fully-valued-110952400.html",
+          "date": "2026-11-21",
+          "publisher": "Simply Wall St.",
+          "via": "Yahoo"
+        },
+        {
           "title": "This Payments Stock Is a Triple Threat with Profitability, Momentum, and Robust Growth",
           "url": "https://finance.yahoo.com/markets/stocks/articles/payments-stock-triple-threat-profitability-195003076.html",
           "date": "2026-11-20",
@@ -7828,19 +7802,12 @@ window.TEAM4_DATA = {
           "date": "2026-11-19",
           "publisher": "Investing.com",
           "via": "Yahoo"
-        },
-        {
-          "title": "BILL Enters $6 Billion Deal to Be Acquired by TPG in Partnership With Corpay",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bill-enters-6-billion-deal-230645432.html",
-          "date": "2026-11-19",
-          "publisher": "MT Newswires",
-          "via": "Yahoo"
         }
       ],
       "nameKo": "코페이",
       "nameEn": "CORPAY INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "코페이",
         "nameEn": "CORPAY INC",
         "financials": {
@@ -8023,7 +7990,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "CPAY",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 26.13,
         "pbr": 7.97,
@@ -8047,7 +8014,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "CPAY",
         "url": "https://finance.yahoo.com/quote/CPAY/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -8092,7 +8059,7 @@ window.TEAM4_DATA = {
             "epsAnalysts": 14,
             "epsGrowth": 31,
             "epsCur": "USD",
-            "rev": 5354851180,
+            "rev": 5354884520,
             "revAnalysts": 15,
             "revYearAgo": 4528403000,
             "revGrowth": 18.3,
@@ -8108,9 +8075,9 @@ window.TEAM4_DATA = {
             "epsAnalysts": 15,
             "epsGrowth": 13.7,
             "epsCur": "USD",
-            "rev": 5799861710,
+            "rev": 5799897420,
             "revAnalysts": 14,
-            "revYearAgo": 5354851180,
+            "revYearAgo": 5354884520,
             "revGrowth": 8.3,
             "revCur": "USD"
           }
@@ -8136,7 +8103,7 @@ window.TEAM4_DATA = {
             "cur": "USD",
             "now": 7.16,
             "d7": 0,
-            "d30": 1.6,
+            "d30": 1.4,
             "d90": 2.9,
             "ago90": 6.96,
             "up7": 8,
@@ -8559,7 +8526,7 @@ window.TEAM4_DATA = {
       "nameKo": "로퍼 테크놀로지스",
       "nameEn": "ROPER TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "로퍼 테크놀로지스",
         "nameEn": "ROPER TECHNOLOGIES INC",
         "financials": {
@@ -8568,6 +8535,20 @@ window.TEAM4_DATA = {
           "unit": "USD",
           "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882835&type=10-Q",
           "quarters": [
+            {
+              "periodEnd": "2026-09-30",
+              "derived": false,
+              "revenue": 2171800000,
+              "profit": 623200000,
+              "netIncome": 484700000,
+              "margin": 28.7,
+              "yoy": {
+                "revenue": 7.6,
+                "profit": 8.8,
+                "netIncome": 21.6,
+                "priorEnd": "2025-09-30"
+              }
+            },
             {
               "periodEnd": "2026-06-30",
               "derived": false,
@@ -8608,20 +8589,6 @@ window.TEAM4_DATA = {
                 "profit": 12.1,
                 "netIncome": -7.4,
                 "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 2017500000,
-              "profit": 573000000,
-              "netIncome": 398500000,
-              "margin": 28.4,
-              "yoy": {
-                "revenue": 14.3,
-                "profit": 15.4,
-                "netIncome": 8.3,
-                "priorEnd": "2024-09-30"
               }
             }
           ]
@@ -8748,7 +8715,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "ROP",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 18.15,
         "pbr": 2.37,
@@ -8772,7 +8739,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "ROP",
         "url": "https://finance.yahoo.com/quote/ROP/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -8846,8 +8813,8 @@ window.TEAM4_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": 5.97,
-            "d7": 1,
-            "d30": 1.1,
+            "d7": 0,
+            "d30": 1,
             "d90": 1.1,
             "ago90": 5.91,
             "up7": 14,
@@ -8890,8 +8857,8 @@ window.TEAM4_DATA = {
             "now": 24.57,
             "d7": 0,
             "d30": 0.8,
-            "d90": 1.3,
-            "ago90": 24.26,
+            "d90": 1.1,
+            "ago90": 24.3,
             "up7": 10,
             "up30": 10,
             "down7": 6,
@@ -9220,7 +9187,7 @@ window.TEAM4_DATA = {
       "nameKo": "코카콜라 펨사(ADR)",
       "nameEn": "COCA-COLA FEMSA S.A.B. DE C.V. ADS EA REP 10 UNTS(3 SER B SH",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "코카콜라 펨사(ADR)",
         "nameEn": "COCA-COLA FEMSA S.A.B. DE C.V. ADS EA REP 10 UNTS(3 SER B SH",
         "financialsError": "매출 태그 없음",
@@ -9284,7 +9251,7 @@ window.TEAM4_DATA = {
       },
       "kis": {
         "ticker": "KOF",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 18.37,
         "pbr": 3,
@@ -9308,7 +9275,7 @@ window.TEAM4_DATA = {
       "estimates": {
         "ticker": "KOF",
         "url": "https://finance.yahoo.com/quote/KOF/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -9714,32 +9681,5 @@ window.TEAM4_DATA = {
     "carried": 17,
     "ineligible": 0,
     "note": "그중 17종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
-  },
-  "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "BJ",
-        "category": 1,
-        "oneLine": "3분기 이익이 늘고 올해 조정 주당순이익 전망을 올렸지만, 판촉 탓에 마진이 눌려 장 시작 전 주가는 내렸다."
-      },
-      {
-        "ticker": "ESTC",
-        "category": 1,
-        "oneLine": "순이익·매출이 예상치를 웃돌았지만 다음 분기 매출 전망이 낮아 주가는 하락했다."
-      },
-      {
-        "ticker": "PLMR",
-        "category": 1,
-        "oneLine": "올해 조정 순이익 전망을 2억 8,000만~2억 8,500만 달러로 올렸고, 3분기 매출·주당순이익도 예상을 넘었다."
-      },
-      {
-        "ticker": "EXR",
-        "category": 1,
-        "oneLine": "3분기 핵심 FFO(리츠 운영 현금흐름)와 매출이 예상을 넘고 올해 전망도 올렸다. 목표주가 상향이 이어졌다."
-      }
-    ],
-    "sectorSignal": "실적 호재 4건 중 뚜렷하게 몰린 업종은 없습니다. 소매(BJ), 소프트웨어(ESTC), 보험(PLMR), 보관시설 리츠(EXR)로 흩어져 있습니다.",
-    "caution": "호재로 분류된 4건 중 BJ·ESTC는 주가가 오히려 내렸고, 산업 기술 돌파로 분류된 종목은 없습니다. 근거 없음으로 분류된 종목은 호재로 보지 마세요. 차트 국면은 판정하지 않았으니 직접 확인하세요.",
-    "researchedOn": "2026-11-21"
   }
 };

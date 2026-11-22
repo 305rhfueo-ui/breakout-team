@@ -1,5 +1,5 @@
 window.CHIEF_DATA = {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "market": {
     "verdict": "red",
     "ko": "🔴 10일선이 20일선 아래 24일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",

@@ -1,0 +1,294 @@
+{
+  "date": "2026-11-23",
+  "count": 28,
+  "tickers": [
+    "MRNA",
+    "INSM",
+    "KOD",
+    "ECO",
+    "ALGT",
+    "GKOS",
+    "WING",
+    "EPAM",
+    "KNSA",
+    "ELF",
+    "MGRT",
+    "HNGE",
+    "RYTM",
+    "ANF",
+    "CRL",
+    "SN",
+    "OLLI",
+    "ORKA",
+    "TXG",
+    "TMDX",
+    "CAKE",
+    "GRAL",
+    "VEON",
+    "QLYS",
+    "KYMR",
+    "HURN",
+    "THC",
+    "SIG"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 6,
+      "sharePct": 21.4,
+      "tickers": [
+        "MRNA",
+        "INSM",
+        "KOD",
+        "RYTM",
+        "ORKA",
+        "KYMR"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 3,
+        "m3": 2,
+        "m6": 4
+      }
+    },
+    {
+      "key": "Industry:Medical Devices",
+      "level": "Industry",
+      "name": "Medical Devices",
+      "count": 3,
+      "sharePct": 10.7,
+      "tickers": [
+        "GKOS",
+        "TXG",
+        "TMDX"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 2,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Restaurants",
+      "level": "Industry",
+      "name": "Restaurants",
+      "count": 2,
+      "sharePct": 7.1,
+      "tickers": [
+        "WING",
+        "CAKE"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 7.1,
+      "tickers": [
+        "EPAM",
+        "MGRT"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 7.1,
+      "tickers": [
+        "CRL",
+        "GRAL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "INSM",
+      "ALGT",
+      "GKOS",
+      "WING",
+      "KNSA",
+      "RYTM",
+      "ORKA",
+      "TMDX"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "ECO",
+      "GKOS",
+      "WING",
+      "EPAM",
+      "MGRT",
+      "OLLI",
+      "GRAL",
+      "VEON",
+      "SIG"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "ECO",
+      "GKOS",
+      "KNSA",
+      "ELF",
+      "MGRT",
+      "HNGE",
+      "ANF",
+      "CRL",
+      "SN",
+      "ORKA",
+      "TXG",
+      "CAKE",
+      "GRAL",
+      "QLYS",
+      "KYMR",
+      "HURN",
+      "THC"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "GKOS"
+    ],
+    "newEntrants": [
+      "INSM",
+      "ALGT",
+      "RYTM",
+      "TMDX"
+    ],
+    "midTerm": [
+      "MRNA",
+      "KOD",
+      "ECO",
+      "EPAM",
+      "MGRT",
+      "OLLI",
+      "GRAL",
+      "VEON",
+      "SIG"
+    ],
+    "fading": [
+      "ELF",
+      "HNGE",
+      "ANF",
+      "CRL",
+      "SN",
+      "TXG",
+      "CAKE",
+      "QLYS",
+      "KYMR",
+      "HURN",
+      "THC"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "GPN",
+      "ECO",
+      "SPB"
+    ],
+    "m1": [
+      "INSM",
+      "ALGT",
+      "APP",
+      "GKOS",
+      "FCN",
+      "CROX",
+      "WING",
+      "RYTM",
+      "CLX",
+      "CAR",
+      "KNSA",
+      "FWONA",
+      "IDXX",
+      "TMDX",
+      "CVCO",
+      "VSEC",
+      "MIRM",
+      "ORKA",
+      "IPAR",
+      "TFX",
+      "PRAX",
+      "CHTR"
+    ],
+    "m3": [
+      "KOD",
+      "ECO",
+      "WING",
+      "MRNA",
+      "EPAM",
+      "FCN",
+      "MGRT",
+      "GKOS",
+      "CRAI",
+      "CRVL",
+      "CROX",
+      "PLMR",
+      "OLLI",
+      "EXPO",
+      "HWKN",
+      "WMT",
+      "VEON",
+      "IDXX",
+      "PTC",
+      "USPH",
+      "SIG",
+      "GRAL"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "GKOS",
+      "ECO",
+      "KNSA",
+      "ELF",
+      "HAE",
+      "HNGE",
+      "ANF",
+      "MGRT",
+      "CRL",
+      "SN",
+      "ORKA",
+      "TXG",
+      "CAKE",
+      "PAYC",
+      "GRAL",
+      "QLYS",
+      "KYMR",
+      "HURN",
+      "THC",
+      "PLMR"
+    ],
+    "all": [
+      "GKOS"
+    ]
+  }
+}

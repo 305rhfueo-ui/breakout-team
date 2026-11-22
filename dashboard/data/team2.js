@@ -1,5 +1,5 @@
 window.TEAM2_DATA = {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "stats": {
     "universe": 1109,
     "byPeriod": {
@@ -618,7 +618,7 @@ window.TEAM2_DATA = {
       "nameKo": "모더나",
       "nameEn": "MODERNA INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "모더나",
         "nameEn": "MODERNA INC",
         "infomaxCode": "NAS:MRNA",
@@ -929,8 +929,8 @@ window.TEAM2_DATA = {
               "date": "2026-11-09",
               "summary": "- 항암 백신, 흑색종으로 내년 승인 예상, 신장암 임상 2상 결과 발표 예정. 항암제(mRNA-2808) ASH에서 데이터 공개로 종양 부문 경쟁력 입증- 3Q26 매출, Non-GAAP EPS는 각 13.1억달러(+29.2% YoY, +805.5% QoQ), 0.38달러로 컨센서스 상회.- 항암 백신, 흑색종 승인 가시화 및 신장암에서도 성과 가능성. 경쟁사 개 발은 부진해 주도적 입지. 단기 밸류 부담으로 중장기 성장 모멘텀에 집중",
               "pages": "5",
-              "secureId": "eqmkeqmgkelkxezgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeegg.pdf",
+              "secureId": "eqmkeqmgkelkxezgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -940,8 +940,8 @@ window.TEAM2_DATA = {
               "date": "2026-10-28",
               "summary": "- 11월 6일 발표에서는 분기 손익보다 임상 결과의 검증이 더 중요- 머크와 공동 개발한 흑색종 백신 3상 결과로 밸류에이션 기준이 달라졌음- 3분기 매출 컨센서스가 회사 가이던스 산술 범위 상단을 넘어서 있음",
               "pages": "5",
-              "secureId": "eqmieklkkcxggkigcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmieklkkcxggkigcgxeegg.pdf",
+              "secureId": "eqmieklkkcxggkigcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmieklkkcxggkigcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -951,8 +951,8 @@ window.TEAM2_DATA = {
               "date": "2026-10-23",
               "summary": "- 흑색종 백신 3상 전체 데이터 공개, 재발·사망 위험 42% 감소- 모더나 주가 급락, 선반영된 기대에 대한 차익실현 성격- 밸류에이션 부담·다른 암종 확장성 입증이 다음 관찰 변수",
               "pages": "5",
-              "secureId": "eqmgqekxkzgeimzgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeegg.pdf",
+              "secureId": "eqmgqekxkzgeimzgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -962,8 +962,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-28",
               "summary": "- 20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
               "pages": "5",
-              "secureId": "eqlqlqkzlgiexqxgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeegg.pdf",
+              "secureId": "eqlqlqkzlgiexqxgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -973,8 +973,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-26",
               "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
               "pages": "5",
-              "secureId": "eqlqqcexmkclgzegcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxeegg.pdf",
+              "secureId": "eqlqqcexmkclgzegcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -984,8 +984,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-21",
               "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
               "pages": "7",
-              "secureId": "eqlqgxkklglmlgzgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxeegg.pdf",
+              "secureId": "eqlqgxkklglmlgzgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -1052,7 +1052,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "MRNA",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 24.42,
         "pbr": 11.51,
@@ -1075,7 +1075,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "MRNA",
         "url": "https://finance.yahoo.com/quote/MRNA/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -1236,9 +1236,9 @@ window.TEAM2_DATA = {
           "upgrades": 2,
           "downgrades": 3,
           "initiations": 0,
-          "ptRaised": 11,
+          "ptRaised": 10,
           "ptLowered": 0,
-          "total": 14,
+          "total": 13,
           "recent": [
             {
               "date": "2026-11-17",
@@ -1941,7 +1941,7 @@ window.TEAM2_DATA = {
       "nameKo": "인스메드",
       "nameEn": "INSMED INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "인스메드",
         "nameEn": "INSMED INC",
         "infomaxCode": "NAS:INSM",
@@ -2247,7 +2247,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "INSM",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 34.43,
         "pbr": 40.73,
@@ -2270,7 +2270,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "INSM",
         "url": "https://finance.yahoo.com/quote/INSM/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -3115,7 +3115,7 @@ window.TEAM2_DATA = {
       "nameKo": "코디악 사이언시스",
       "nameEn": "KODIAK SCIENCES INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "코디악 사이언시스",
         "nameEn": "KODIAK SCIENCES INC",
         "infomaxCode": "NAS:KOD",
@@ -3335,8 +3335,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-30",
               "summary": "- Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승- wAMD, 당뇨병망막병증(DR), 망막정맥폐쇄(RVO) 3개 적응증 4Q26 신약 신청(BLA)- 다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음",
               "pages": "5",
-              "secureId": "eqmcqgclimxgqmkgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeege.pdf",
+              "secureId": "eqmcqgclimxgqmkgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -3346,7 +3346,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "KOD",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 23.17,
         "pbr": 99.93,
@@ -3369,7 +3369,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "KOD",
         "url": "https://finance.yahoo.com/quote/KOD/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -4266,7 +4266,7 @@ window.TEAM2_DATA = {
       "nameKo": "오케아니스 에코 탱커스",
       "nameEn": "OKEANIS ECO TANKERS CORP",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "오케아니스 에코 탱커스",
         "nameEn": "OKEANIS ECO TANKERS CORP",
         "infomaxCode": "NYS:ECO",
@@ -4399,7 +4399,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "ECO",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 7.91,
         "pbr": 3.77,
@@ -4422,7 +4422,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ECO",
         "url": "https://finance.yahoo.com/quote/ECO/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -5251,7 +5251,7 @@ window.TEAM2_DATA = {
       "nameKo": "얼리전트 트래블",
       "nameEn": "ALLEGIANT TRAVEL COMPANY",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "얼리전트 트래블",
         "nameEn": "ALLEGIANT TRAVEL COMPANY",
         "infomaxCode": "NAS:ALGT",
@@ -5549,7 +5549,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "ALGT",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 64.84,
         "pbr": 1.4,
@@ -5572,7 +5572,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ALGT",
         "url": "https://finance.yahoo.com/quote/ALGT/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -5730,12 +5730,12 @@ window.TEAM2_DATA = {
         ],
         "beats": 4,
         "ratings": {
-          "upgrades": 2,
+          "upgrades": 1,
           "downgrades": 0,
           "initiations": 0,
           "ptRaised": 2,
-          "ptLowered": 4,
-          "total": 6,
+          "ptLowered": 3,
+          "total": 5,
           "recent": [
             {
               "date": "2026-11-17",
@@ -5786,16 +5786,6 @@ window.TEAM2_DATA = {
               "ptAction": "Lowers",
               "pt": 115,
               "ptPrior": 145
-            },
-            {
-              "date": "2026-08-24",
-              "firm": "Raymond James",
-              "action": "up",
-              "from": "Outperform",
-              "to": "Strong Buy",
-              "ptAction": "Lowers",
-              "pt": 116,
-              "ptPrior": 138
             }
           ]
         },
@@ -6438,7 +6428,7 @@ window.TEAM2_DATA = {
       "nameKo": "글라우코스",
       "nameEn": "GLAUKOS CORPORATION",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "글라우코스",
         "nameEn": "GLAUKOS CORPORATION",
         "infomaxCode": "NYS:GKOS",
@@ -6636,7 +6626,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "GKOS",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 72.79,
         "pbr": 20.47,
@@ -6659,7 +6649,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "GKOS",
         "url": "https://finance.yahoo.com/quote/GKOS/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -7585,7 +7575,7 @@ window.TEAM2_DATA = {
       "nameKo": "윙스톱",
       "nameEn": "WINGSTOP INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "윙스톱",
         "nameEn": "WINGSTOP INC",
         "infomaxCode": "NAS:WING",
@@ -7885,8 +7875,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-30",
               "summary": "- 1Q 소비자 지출 둔화가 지속되며 동일매장매출(SSS) 성장률은 YoY 8.7% 감소, 수요 약화가 뚜렷하게 나타난 구간- 다만, 공격적인 출점이 이를 상쇄하며 외형 성장 유지. 이번 분기 97개 매장이 순증된 가운데, 매출액은 YoY 7.4% 증가한 $1억 8,370만을 기록- 단기적으로 주가의 유의미한 반등보다 박스권 흐름 이어질 가능성 우세. SSSG 회복 여부가 확인되는 시점까지는 관망 전략이 유효하다고 판단",
               "pages": "4",
-              "secureId": "eqqqzcqxmmegzzmgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcqxmmegzzmgcgxeege.pdf",
+              "secureId": "eqqqzcqxmmegzzmgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcqxmmegzzmgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -7896,8 +7886,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-20",
               "summary": "- 4Q 회계상 매출은 $1.76억으로 컨센서스를 하회했으며, 동일매장매출은 전년 대비 5.8% 감소해 부진함 지속되는 모습- 출점 중심 성장과 디지털 인프라 확대를 통한 실적 개선 가능성을 감안할 때 구조적 성장 스토리는 유효한 상황- 이에 따라 단기 밸류 부담은 상당 부분 완화된 반면, 중장기적 재평가 가능성은 여전히 존재",
               "pages": "4",
-              "secureId": "eqqezkilqmqemgkgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezkilqmqemgkgcgxeege.pdf",
+              "secureId": "eqqezkilqmqemgkgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezkilqmqemgkgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -7922,7 +7912,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "WING",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 35.98,
         "pbr": 0,
@@ -7945,7 +7935,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "WING",
         "url": "https://finance.yahoo.com/quote/WING/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -8904,7 +8894,7 @@ window.TEAM2_DATA = {
       "nameKo": "이팸 시스템스",
       "nameEn": "EPAM SYS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "이팸 시스템스",
         "nameEn": "EPAM SYS INC",
         "infomaxCode": "NYS:EPAM",
@@ -9205,7 +9195,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "EPAM",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 20.76,
         "pbr": 2.25,
@@ -9228,7 +9218,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "EPAM",
         "url": "https://finance.yahoo.com/quote/EPAM/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -10132,7 +10122,7 @@ window.TEAM2_DATA = {
       "nameKo": "키닉사 파머슈티컬스 인터내셔널",
       "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "키닉사 파머슈티컬스 인터내셔널",
         "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
         "infomaxCode": "NAS:KNSA",
@@ -10421,7 +10411,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "KNSA",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 95.47,
         "pbr": 11.19,
@@ -10444,7 +10434,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "KNSA",
         "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -11379,7 +11369,7 @@ window.TEAM2_DATA = {
       "nameKo": "엘프 뷰티",
       "nameEn": "E L F BEAUTY INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "엘프 뷰티",
         "nameEn": "E L F BEAUTY INC",
         "infomaxCode": "NYS:ELF",
@@ -11477,14 +11467,29 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Is It Worth Investing in e.l.f. Beauty (ELF) Based on Wall Street's Bullish Views?",
-              "url": "https://www.nasdaq.com/articles/it-worth-investing-elf-beauty-elf-based-wall-streets-bullish-views",
-              "date": "2026-11-09",
-              "desc": "According to the average brokerage recommendation (ABR), one should invest in e.l.f. Beauty (ELF). It is debatable whether this highly sought-after metric is effective because Wall Street analysts' recommendations tend to be overly optimistic. Would it be worth investing in the stock?",
-              "publisher": "Zacks",
+              "title": "e.l.f. Beauty vs. Monster Beverage: Which Consumer Goods Stock Is a Better Buy for 2027?",
+              "url": "https://www.nasdaq.com/articles/elf-beauty-vs-monster-beverage-which-consumer-goods-stock-better-buy-2027",
+              "date": "2026-11-22",
+              "desc": "Key Pointse.l.f. Beauty continues to gain market share through its focus on premium-quality, cruelty-free cosmetics at entry-level price points.",
+              "publisher": "The Motley Fool",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
+                "ELF",
+                "ELF",
+                "MNST"
+              ]
+            },
+            {
+              "title": "1 Reason to Buy e.l.f. Beauty Stock",
+              "url": "https://www.nasdaq.com/articles/1-reason-buy-elf-beauty-stock",
+              "date": "2026-11-22",
+              "desc": "Key Pointse.l.f. Beauty keeps growing in a tough consumer spending environment, and management just raised its full-year sales outlook.",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "ELF",
                 "ELF"
               ]
             },
@@ -11555,21 +11560,9 @@ window.TEAM2_DATA = {
                 "ELF",
                 "LULU"
               ]
-            },
-            {
-              "title": "e.l.f. Beauty Consensus Price Target Increased by 10.58% to $131.74",
-              "url": "https://www.nasdaq.com/articles/elf-beauty-consensus-price-target-increased-1058-13174",
-              "date": "2026-11-10",
-              "desc": "The average one-year price target for e.l.f. Beauty (NYSE:ELF) (DB:0EF) has been revised to $131.74 / share. This is an increase of 10.58% from the prior estimate of $119.14 dated October 30, 2026. These figures represent aggregate analyst targets compiled from multiple sources a",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "ELF"
-              ]
             }
           ],
-          "directCount": 2,
+          "directCount": 1,
           "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
@@ -11677,8 +11670,8 @@ window.TEAM2_DATA = {
               "date": "2026-11-06",
               "summary": "- 연간 가이던스 상향, 본업 상황 좋아!- FY27 2Q Review: 호실적, 점유율 상승 + 비용 발생 이연- Valuation & Risk: 현금 창출력 개선 중",
               "pages": "4",
-              "secureId": "eqmimeqekgxqckzgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeegg.pdf",
+              "secureId": "eqmimeqekgxqckzgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -11688,8 +11681,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-22",
               "summary": "- 기존 e.l.f. Cosmetics 중심 구조에서 멀티 브랜드 포트폴리오 체제로 확장 되는 흐름이 본격화 중. rhode·Naturium 중심의 멀티 브랜드 전략을 바탕 으로 미국 뷰티 시장 내 높은 성장세와 점유율 확대 중.- FY26 4Q 매출 4.49억달러(+35% YoY, 이하 동일)를 기록하며 시장 컨센 서스 4.23억달러를 6% 상회. 매출총이익률 73%로 1.4%p 개선. 가격 인 상 효과가 관세 부담 일부 상쇄한 것으로 추정- rhode 인수 관련 earn-out 평가손실 5,760만달러 반영. rhode 실적이 인 수 당시 예상치 상회하면서 추가 지급 부담 증가한 영향. 총차입금 8.4억 달러까지 증가했으나 순차입금/EBITDA 2배 미만 유지 중으로 재무 안정 성 우려에 대해선 일축.",
               "pages": "5",
-              "secureId": "eqqmkcimxiexzmzgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmkcimxiexzmzgcgxeegg.pdf",
+              "secureId": "eqqmkcimxiexzmzgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmkcimxiexzmzgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -11699,8 +11692,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-06",
               "summary": "- 미국 화장품 브랜드사. 본업은 성장이 둔화되고 있지만, 인수 브랜드 Rhode가 성장을 견인 중- 향후 주가는 Rhode의 글로벌 채널 확장 속도 및 성과에 따라 달라질 수 있을 듯- 2 월에는 호주, 뉴질랜드 런칭을 시작으로 해외 유통 확대가 본격화될 예정. 주요 채널 내 성과에 주목",
               "pages": "4",
-              "secureId": "eqqcizzcxelmexlgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcizzcxelmexlgcgxeegg.pdf",
+              "secureId": "eqqcizzcxelmexlgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcizzcxelmexlgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -11710,8 +11703,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-06",
               "summary": "- 매출 시장 기대치(컨센서스 매출: 4.6억달러) 7% 상회, Rhode 인수 효과 반영(제외 시 YoY 2% 성장)- 조정 순이익(Non-GAAP) 0.75억달러, 시장 기대치 75% 상회(컨센서스 0.43억달러)- 28분기 연속 매출 성장 및 시장 점유율 상승(QoQ 1.3%p) 달성, e.l.f. 및 Rhode 성장세 고무적",
               "pages": "6",
-              "secureId": "eqqcizgkzzkcexmgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcizgkzzkcexmgcgxeegg.pdf",
+              "secureId": "eqqcizgkzzkcexmgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcizgkzzkcexmgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -11721,8 +11714,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-06",
               "summary": "- 전세계 저가 인디뷰티 브랜드 수요 증가로 2026년에도 매출은 두 자리 성 장률 유지할 전망. M&A 통한 외형 확대 전략도 유효. 타겟이나 월마트 등 중저가 위주 유통채널 전개에서 세포라까지 확장 국면.- FY26 3Q 순매출(3월 결산) 전년동기대비 38% 성장, 조정 EBITDA 79% 증가. 이 중 Rhode 인수에 따른 매출 증가분이 30%p 이상 기여. 조정 주 당순이익은 1.24달러로 컨센서스 0.72달러 대폭 상회- 글로벌 프로모션 및 슈퍼볼 광고 등 마케팅비 투자 지속되며, 관세 부담 높으나 M&A 브랜드 중심 매출 고성장으로 마진 회복 노력할 것이라 피 력. 오프라인 채널뿐만 아니라 이커머스 중심으로 미국 10~20대들의 트래 픽을 유입시키려 노력 중",
               "pages": "5",
-              "secureId": "eqqciiglzzkizkggcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqciiglzzkizkggcgxeegg.pdf",
+              "secureId": "eqqciiglzzkizkggcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqciiglzzkizkggcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -11732,8 +11725,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-25",
               "summary": "- 미국 시장 내 저가 인디뷰티 브랜드 수요 증가로 향후 매출은 두 자리 성 장률을 유지할 전망. 다만 중국 생산 비중 70% 이상으로 미국 내 수입 시 관세 부담 커진 게 이익 부진 및 주가 수익률 부진의 주요인- M&A 통해 브랜드 확장 지속하여 매출 성장 끌고 갈 전망. 매출보단 이 익 회복이 주가 추세 상승을 만들 포인트. 회복 기간 다소 소요 예상되나 중장기로는 인디뷰티 대세장의 대표 기업임은 자명함- 현 시장 컨센서스는 3Q25 매출이 전년동기대비 14% 성장한 데 이어 4Q25에도 20% 이상 성장할 것으로 전망 중. 특히 저가 스킨케어 제품 수 요가 증가하는 트렌드 속에서 동사도 2023년 10월 인수했던 스킨케어 브 랜드 Naturium 통해 스킨케어 비중 높이는 중. 2026년 기준 스킨케어 카 테고리의 매출 비중은 20%를 초과할 것으로 예상",
               "pages": "5",
-              "secureId": "eqxkcgiqgieclqqgcgxeegg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkcgiqgieclqqgcgxeegg.pdf",
+              "secureId": "eqxkcgiqgieclqqgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkcgiqgieclqqgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -11800,7 +11793,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "ELF",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 105.18,
         "pbr": 5.22,
@@ -11823,7 +11816,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ELF",
         "url": "https://finance.yahoo.com/quote/ELF/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -12633,7 +12626,7 @@ window.TEAM2_DATA = {
       "nameKo": "메가 포춘",
       "nameEn": "MEGA FORTUNE COMPANY LIMITED",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "메가 포춘",
         "nameEn": "MEGA FORTUNE COMPANY LIMITED",
         "infomaxCode": "NAS:MGRT",
@@ -12694,7 +12687,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "MGRT",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 5634.18,
         "pbr": 1193.3,
@@ -12717,7 +12710,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "MGRT",
         "url": "https://finance.yahoo.com/quote/MGRT/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -13486,7 +13479,7 @@ window.TEAM2_DATA = {
       "nameKo": "힌지 헬스",
       "nameEn": "HINGE HEALTH INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "힌지 헬스",
         "nameEn": "HINGE HEALTH INC",
         "infomaxCode": "NYS:HNGE",
@@ -13826,7 +13819,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "HNGE",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 81.46,
         "pbr": 24.64,
@@ -13849,7 +13842,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HNGE",
         "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -14717,7 +14710,7 @@ window.TEAM2_DATA = {
       "nameKo": "리듬 파머슈티컬스",
       "nameEn": "RHYTHM PHARMACEUTICALS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "리듬 파머슈티컬스",
         "nameEn": "RHYTHM PHARMACEUTICALS INC",
         "infomaxCode": "NAS:RYTM",
@@ -15029,7 +15022,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "RYTM",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 36.03,
         "pbr": 75.08,
@@ -15052,7 +15045,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "RYTM",
         "url": "https://finance.yahoo.com/quote/RYTM/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -15894,7 +15887,7 @@ window.TEAM2_DATA = {
       "nameKo": "애버크롬비 앤드 피치",
       "nameEn": "ABERCROMBIE & FITCH CO",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "애버크롬비 앤드 피치",
         "nameEn": "ABERCROMBIE & FITCH CO",
         "infomaxCode": "NYS:ANF",
@@ -16188,8 +16181,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-27",
               "summary": "- 캐주얼 의류 브랜드사 (Hollister, Abercrombie)- 3Q26 실적은 매출과 EPS가 시장 기대치를 상회. Hollister가 매출 성장을 견인한 가운데, 재고 관리와 프로모션 축소로 관세 여파를 상쇄한 덕분- 주가는 선행 PER 9배 수준. 최근 주가 급등에도 밸류에이션 부담은 없음. 향후 실적 가시성 개선될 전망인 만큼, 주가 상승 여력이 커질 듯.",
               "pages": "4",
-              "secureId": "eqxkemzmcximczmgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxeege.pdf",
+              "secureId": "eqxkemzmcximczmgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -16256,7 +16249,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "ANF",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 11.81,
         "pbr": 4.32,
@@ -16279,7 +16272,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ANF",
         "url": "https://finance.yahoo.com/quote/ANF/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -17232,7 +17225,7 @@ window.TEAM2_DATA = {
       "nameKo": "찰스 리버 래브러토리스 인터내셔널",
       "nameEn": "CHARLES RIVER LABORATORIES",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "nameKo": "찰스 리버 래브러토리스 인터내셔널",
         "nameEn": "CHARLES RIVER LABORATORIES",
         "infomaxCode": "NYS:CRL",
@@ -17530,8 +17523,8 @@ window.TEAM2_DATA = {
               "date": "2026-11-09",
               "summary": "- Signal: 급증하는 토큰 공급, AI Next Step 은 바이오- Key: 세계 최대 비임상 CRO 기업의 수혜 전망- Step: 반도체 보다 원숭이, R&D 붐이 불러올 쇼티지",
               "pages": "7",
-              "secureId": "eqmkeqmlgkqzeekgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeege.pdf",
+              "secureId": "eqmkeqmlgkqzeekgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkeqmlgkqzeekgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -17541,8 +17534,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-17",
               "summary": "- 비임상 CRO·연구모델·제조 지원 서비스 기업, 신약 안전성 평가 업황이 중요- DSA 순수주/매출 1.19배로 4년 내 최고, 조정 EPS $3.02로 컨센서스 10.6% 상회- FY26 유기적 성장 0~1%·조정 EPS $11.15~11.45로 상향, 하반기 마진 +500bp",
               "pages": "15",
-              "secureId": "eqlmxccqzmqzxlcgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeege.pdf",
+              "secureId": "eqlmxccqzmqzxlcgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxccqzmqzxlcgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -17567,7 +17560,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CRL",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 64.78,
         "pbr": 5.28,
@@ -17590,7 +17583,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CRL",
         "url": "https://finance.yahoo.com/quote/CRL/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -18553,7 +18546,7 @@ window.TEAM2_DATA = {
       "nameKo": "샤크닌자",
       "nameEn": "SHARKNINJA INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "nameKo": "샤크닌자",
         "nameEn": "SHARKNINJA INC",
         "infomaxCode": "NYS:SN",
@@ -18838,8 +18831,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-01",
               "summary": "- 스노우플레이크는 클라우드에 데이터를 모아 저장·분석해주는 데이터 플랫폼 기업- FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적. 발표 후 주가 +36%- 기업용 데이터·AI 플랫폼 시장 확장, 고객 확보 속도 증가 등에 우호적 흐름 전망",
               "pages": "6",
-              "secureId": "eqlcgxlggimzelmgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxeege.pdf",
+              "secureId": "eqlcgxlggimzelmgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -18849,8 +18842,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-27",
               "summary": "- 스노우플레이크는 데이터 저장·분석과 AI 활용을 지원하는 클라우드 데이터 플랫폼- FY4Q26은 매출 +30% 성장, NRR 125%, RPO +42%로 성장 탄력이 유지된 실적- FY27 성장 둔화, RPO 단기 인식 비중 하락 속 Cortex Code가 성장 재가속의 핵심",
               "pages": "4",
-              "secureId": "eqqgemlmilqxxqzgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgemlmilqxxqzgcgxeege.pdf",
+              "secureId": "eqqgemlmilqxxqzgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgemlmilqxxqzgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -18860,8 +18853,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-26",
               "summary": "- AI 에이전트 확산으로 인한 비용 최적화 위험 비교적 적음- 원래부터 높았던 AI 기여도가 한층 더 확대 + 상호운용성 확장- 전년대비 제품 매출 +27% 성장 가이던스는 보수적으로 제시된 수치",
               "pages": "6",
-              "secureId": "eqqgcmxeclqgmlxgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcmxeclqgmlxgcgxeege.pdf",
+              "secureId": "eqqgcmxeclqgmlxgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcmxeclqgmlxgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -18871,8 +18864,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-05",
               "summary": "- FY3Q26은 호실적 달성에도 불구하고 4Q 가이던스를 아쉽게 제시하며 직후 주가 급락- AI는 동사에게 별도의 모멘텀이 아니라 기존 플랫폼 사용량을 끌어올리는 직접적 성장 엔진- 2Q의 대규모 마이그레이션 효과에서 정상 패턴으로의 복귀 때문에 이번 분기 실적이 언뜻 아쉬워보일 수 있으나, 레거시 시스템의 데이터 수집 및 마이그레이션은 여전히 규모가 크고 미완성된 시장임을 염두에 두어야 함 (AWS는 온프레미스 마이그레이션이 15-20%만 완료되었다고 간주).",
               "pages": "6",
-              "secureId": "eqxklllckxqgkxqgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklllckxqgkxqgcgxeege.pdf",
+              "secureId": "eqxklllckxqgkxqgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklllckxqgkxqgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -18918,7 +18911,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "SN",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 43.45,
         "pbr": 10.54,
@@ -18941,7 +18934,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "SN",
         "url": "https://finance.yahoo.com/quote/SN/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -19781,7 +19774,7 @@ window.TEAM2_DATA = {
       "nameKo": "올리스 바겐 아웃렛 홀딩스",
       "nameEn": "OLLIES BARGAIN OUTLET HLDGS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "올리스 바겐 아웃렛 홀딩스",
         "nameEn": "OLLIES BARGAIN OUTLET HLDGS INC",
         "infomaxCode": "NAS:OLLI",
@@ -20077,7 +20070,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "OLLI",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 20.13,
         "pbr": 2.83,
@@ -20100,7 +20093,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "OLLI",
         "url": "https://finance.yahoo.com/quote/OLLI/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -20914,7 +20907,7 @@ window.TEAM2_DATA = {
       "nameKo": "오루카 테라퓨틱스",
       "nameEn": "ORUKA THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "오루카 테라퓨틱스",
         "nameEn": "ORUKA THERAPEUTICS INC",
         "infomaxCode": "NAS:ORKA",
@@ -21213,7 +21206,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "ORKA",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 38.9,
         "pbr": 5.26,
@@ -21236,7 +21229,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ORKA",
         "url": "https://finance.yahoo.com/quote/ORKA/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -22185,7 +22178,7 @@ window.TEAM2_DATA = {
       "nameKo": "10X 지노믹스",
       "nameEn": "10X GENOMICS INC",
       "detail": {
-        "fetchedAt": "2026-11-20",
+        "fetchedAt": "2026-11-23",
         "nameKo": "10X 지노믹스",
         "nameEn": "10X GENOMICS INC",
         "infomaxCode": "NAS:TXG",
@@ -22473,7 +22466,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "TXG",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 87.84,
         "pbr": 8.17,
@@ -22496,7 +22489,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "TXG",
         "url": "https://finance.yahoo.com/quote/TXG/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -23413,7 +23406,7 @@ window.TEAM2_DATA = {
       "nameKo": "트랜스메딕스 그룹",
       "nameEn": "TRANSMEDICS GROUP INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "트랜스메딕스 그룹",
         "nameEn": "TRANSMEDICS GROUP INC",
         "infomaxCode": "NAS:TMDX",
@@ -23710,7 +23703,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "TMDX",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 22.18,
         "pbr": 5.7,
@@ -23733,7 +23726,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "TMDX",
         "url": "https://finance.yahoo.com/quote/TMDX/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -24978,7 +24971,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CAKE",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 29.3,
         "pbr": 10.35,
@@ -25001,7 +24994,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CAKE",
         "url": "https://finance.yahoo.com/quote/CAKE/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -26213,7 +26206,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "GRAL",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 10.18,
         "pbr": 1.74,
@@ -26236,7 +26229,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "GRAL",
         "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -27273,7 +27266,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "VEON",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 90.59,
         "pbr": 3.17,
@@ -27296,7 +27289,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "VEON",
         "url": "https://finance.yahoo.com/quote/VEON/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -28478,7 +28471,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "QLYS",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 32.2,
         "pbr": 11.46,
@@ -28501,7 +28494,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "QLYS",
         "url": "https://finance.yahoo.com/quote/QLYS/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -29723,7 +29716,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "KYMR",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 35.57,
         "pbr": 6.33,
@@ -29746,7 +29739,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "KYMR",
         "url": "https://finance.yahoo.com/quote/KYMR/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -30848,7 +30841,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "HURN",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 25.83,
         "pbr": 7.15,
@@ -30871,7 +30864,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HURN",
         "url": "https://finance.yahoo.com/quote/HURN/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -31958,7 +31951,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "THC",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 10.15,
         "pbr": 4.55,
@@ -31981,7 +31974,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "THC",
         "url": "https://finance.yahoo.com/quote/THC/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -32938,7 +32931,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "SIG",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 11.31,
         "pbr": 2.07,
@@ -32961,7 +32954,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "SIG",
         "url": "https://finance.yahoo.com/quote/SIG/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -33122,9 +33115,9 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 9,
+          "ptRaised": 8,
           "ptLowered": 0,
-          "total": 10,
+          "total": 9,
           "recent": [
             {
               "date": "2026-09-11",
@@ -33215,16 +33208,6 @@ window.TEAM2_DATA = {
               "ptAction": "Maintains",
               "pt": 130,
               "ptPrior": 130
-            },
-            {
-              "date": "2026-08-24",
-              "firm": "UBS",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 122,
-              "ptPrior": 121
             }
           ]
         },
@@ -33939,7 +33922,7 @@ window.TEAM2_DATA = {
       "nameKo": "글로벌 페이먼츠",
       "nameEn": "GLOBAL PAYMENTS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "글로벌 페이먼츠",
         "nameEn": "GLOBAL PAYMENTS INC",
         "infomaxCode": "NYS:GPN",
@@ -34247,7 +34230,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "GPN",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 28.81,
         "pbr": 1.06,
@@ -34270,7 +34253,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "GPN",
         "url": "https://finance.yahoo.com/quote/GPN/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -34358,7 +34341,7 @@ window.TEAM2_DATA = {
             "endDate": "2027-03-31",
             "cur": "USD",
             "now": 3.39,
-            "d7": -0.2,
+            "d7": -0.1,
             "d30": 0.2,
             "d90": 0.4,
             "ago90": 3.37,
@@ -35151,7 +35134,7 @@ window.TEAM2_DATA = {
       "nameKo": "스펙트럼 브랜즈 홀딩스",
       "nameEn": "SPECTRUM BRANDS HOLDINGS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "스펙트럼 브랜즈 홀딩스",
         "nameEn": "SPECTRUM BRANDS HOLDINGS INC",
         "infomaxCode": "NYS:SPB",
@@ -35444,7 +35427,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "SPB",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 24.46,
         "pbr": 1,
@@ -35467,7 +35450,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "SPB",
         "url": "https://finance.yahoo.com/quote/SPB/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -36425,7 +36408,7 @@ window.TEAM2_DATA = {
       "nameKo": "앱러빈",
       "nameEn": "APPLOVIN CORP",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "앱러빈",
         "nameEn": "APPLOVIN CORP",
         "infomaxCode": "NAS:APP",
@@ -36511,6 +36494,20 @@ window.TEAM2_DATA = {
           "ticker": "APP",
           "items": [
             {
+              "title": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy for 2027?",
+              "url": "https://www.nasdaq.com/articles/applovin-vs-reddit-which-technology-stock-better-buy-2027",
+              "date": "2026-11-21",
+              "desc": "Key PointsAppLovin maintains a highly profitable ad-tech ecosystem with a net margin of approximately 66%.",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "APP",
+                "APP",
+                "RDDT"
+              ]
+            },
+            {
               "title": "AppLovin Stock Is Up 39% in a Month: Is The Stock Still a Buy?",
               "url": "https://www.nasdaq.com/articles/applovin-stock-39-month-stock-still-buy",
               "date": "2026-11-20",
@@ -36595,18 +36592,6 @@ window.TEAM2_DATA = {
               "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-applovin-corporation-app-trending-stock-0",
               "date": "2026-11-10",
               "desc": "AppLovin (APP) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "APP"
-              ]
-            },
-            {
-              "title": "Here is Why Growth Investors Should Buy AppLovin (APP) Now",
-              "url": "https://www.nasdaq.com/articles/here-why-growth-investors-should-buy-applovin-app-now",
-              "date": "2026-11-09",
-              "desc": "AppLovin (APP) is well positioned to outperform the market, as it exhibits above-average growth in financials.",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
@@ -36729,8 +36714,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-12",
               "summary": "- 앱러빈의 FY 4Q25 매출액은 16.6억 달러(YoY +20.8%), EPS는 3.24 달러(YoY +87.3%)를 기록해 컨센서스를 각각 3.2%, 9.8% 상회했다. 매출총이익률은 88.9%(YoY +12.2%p), 영업이익률은 76.9%(YoY +32.6%p)였다.- 앱러빈은 연말 쇼핑 시즌 광고 수요로 인해 1분기가 4분기보다 약세인 계절성이 있으며 1분기 영업일수가 더 적음에도 불구하고, FY 1Q26 매출액 가이던스를 중간값 기준 17.6억 달러(YoY +18.6%, QoQ +6.2%, vs. 컨센서스 17억 달러)로 제시했다.- 조정 EBITDA는 14.8억 달러(YoY +47.3%, vs. 컨센서스 14억 달러), 조정 EBITDA 마진은 최 고치였던 4분기 수준(84%)을 유지할 것으로 예상했다",
               "pages": "5",
-              "secureId": "eqqcllkqleeicqxgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcllkqleeicqxgcgxeege.pdf",
+              "secureId": "eqqcllkqleeicqxgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcllkqleeicqxgcgxeegi.pdf",
               "opinion": null
             },
             {
@@ -36740,8 +36725,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-12",
               "summary": "- Signal: 산업 우려, 경쟁 진입 등으로 2026년 주가 급락- Key: Rule of 40상 120점 이상, 여전히 강한 Moat- Step: 그러나 Meta 시장 진입 우려 해소에는 시간 필요",
               "pages": "2",
-              "secureId": "eqqclxmqixzcmxzgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeege.pdf",
+              "secureId": "eqqclxmqixzcmxzgcgxeegi",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeegi.pdf",
               "opinion": null
             }
           ],
@@ -36808,7 +36793,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "APP",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 26.77,
         "pbr": 36.92,
@@ -36831,7 +36816,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "APP",
         "url": "https://finance.yahoo.com/quote/APP/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -37704,7 +37689,7 @@ window.TEAM2_DATA = {
       "nameKo": "FTI 컨설팅",
       "nameEn": "FTI CONSULTING INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "FTI 컨설팅",
         "nameEn": "FTI CONSULTING INC",
         "infomaxCode": "NYS:FCN",
@@ -38018,7 +38003,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "FCN",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 24.86,
         "pbr": 4.27,
@@ -38041,7 +38026,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "FCN",
         "url": "https://finance.yahoo.com/quote/FCN/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -38878,7 +38863,7 @@ window.TEAM2_DATA = {
       "nameKo": "크록스",
       "nameEn": "CROCS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "크록스",
         "nameEn": "CROCS INC",
         "infomaxCode": "NAS:CROX",
@@ -39222,7 +39207,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CROX",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 13.36,
         "pbr": 5.37,
@@ -39245,7 +39230,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CROX",
         "url": "https://finance.yahoo.com/quote/CROX/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -40113,7 +40098,7 @@ window.TEAM2_DATA = {
       "nameKo": "크로락스",
       "nameEn": "CLOROX CO",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "크로락스",
         "nameEn": "CLOROX CO",
         "infomaxCode": "NYS:CLX",
@@ -40428,7 +40413,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CLX",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 21.77,
         "pbr": 140.71,
@@ -40451,7 +40436,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CLX",
         "url": "https://finance.yahoo.com/quote/CLX/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -41286,7 +41271,7 @@ window.TEAM2_DATA = {
       "nameKo": "에이비스 버짓 그룹",
       "nameEn": "AVIS BUDGET GROUP INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "에이비스 버짓 그룹",
         "nameEn": "AVIS BUDGET GROUP INC",
         "infomaxCode": "NAS:CAR",
@@ -41579,7 +41564,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CAR",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 6.86,
         "pbr": 0,
@@ -41602,7 +41587,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CAR",
         "url": "https://finance.yahoo.com/quote/CAR/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -42494,7 +42479,7 @@ window.TEAM2_DATA = {
       "nameKo": "리버티 포뮬러 원 A",
       "nameEn": "LIBERTY MEDIA CORPORATION",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "리버티 포뮬러 원 A",
         "nameEn": "LIBERTY MEDIA CORPORATION",
         "infomaxCode": "NAS:FWONA",
@@ -42825,7 +42810,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "FWONA",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 61.74,
         "pbr": 3.29,
@@ -42848,7 +42833,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "FWONA",
         "url": "https://finance.yahoo.com/quote/FWONA/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -43621,7 +43606,7 @@ window.TEAM2_DATA = {
       "nameKo": "아이덱스 래버러토리스",
       "nameEn": "IDEXX LABORATORIES INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "아이덱스 래버러토리스",
         "nameEn": "IDEXX LABORATORIES INC",
         "infomaxCode": "NAS:IDXX",
@@ -43844,7 +43829,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "IDXX",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 47.53,
         "pbr": 33.07,
@@ -43867,7 +43852,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "IDXX",
         "url": "https://finance.yahoo.com/quote/IDXX/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -44701,7 +44686,7 @@ window.TEAM2_DATA = {
       "nameKo": "카브코 인더스트리스",
       "nameEn": "CAVCO INDUSTRIES",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "카브코 인더스트리스",
         "nameEn": "CAVCO INDUSTRIES",
         "infomaxCode": "NAS:CVCO",
@@ -44999,7 +44984,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CVCO",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 27.87,
         "pbr": 4.45,
@@ -45022,7 +45007,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CVCO",
         "url": "https://finance.yahoo.com/quote/CVCO/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -45844,7 +45829,7 @@ window.TEAM2_DATA = {
       "nameKo": "VSE",
       "nameEn": "VSE CORP",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "VSE",
         "nameEn": "VSE CORP",
         "infomaxCode": "NAS:VSEC",
@@ -46150,7 +46135,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "VSEC",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 62.77,
         "pbr": 1.63,
@@ -46173,7 +46158,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "VSEC",
         "url": "https://finance.yahoo.com/quote/VSEC/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -47037,7 +47022,7 @@ window.TEAM2_DATA = {
       "nameKo": "미럼 파머슈티컬스",
       "nameEn": "MIRUM PHARMACEUTICALS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "미럼 파머슈티컬스",
         "nameEn": "MIRUM PHARMACEUTICALS INC",
         "infomaxCode": "NAS:MIRM",
@@ -47323,7 +47308,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "MIRM",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 6.61,
         "pbr": 0,
@@ -47346,7 +47331,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "MIRM",
         "url": "https://finance.yahoo.com/quote/MIRM/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -48268,7 +48253,7 @@ window.TEAM2_DATA = {
       "nameKo": "인터파퓸스",
       "nameEn": "INTERPARFUMS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "인터파퓸스",
         "nameEn": "INTERPARFUMS INC",
         "infomaxCode": "NAS:IPAR",
@@ -48560,7 +48545,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "IPAR",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 26.28,
         "pbr": 5.06,
@@ -48583,7 +48568,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "IPAR",
         "url": "https://finance.yahoo.com/quote/IPAR/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -49311,7 +49296,7 @@ window.TEAM2_DATA = {
       "nameKo": "텔레플렉스",
       "nameEn": "TELEFLEX INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "텔레플렉스",
         "nameEn": "TELEFLEX INC",
         "infomaxCode": "NYS:TFX",
@@ -49614,7 +49599,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "TFX",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 6.94,
         "pbr": 2.36,
@@ -49637,7 +49622,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "TFX",
         "url": "https://finance.yahoo.com/quote/TFX/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -50402,7 +50387,7 @@ window.TEAM2_DATA = {
       "nameKo": "프락시스 프리시전 메디신",
       "nameEn": "PRAXIS PRECISION MEDICINES INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "프락시스 프리시전 메디신",
         "nameEn": "PRAXIS PRECISION MEDICINES INC",
         "infomaxCode": "NAS:PRAX",
@@ -50696,7 +50681,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "PRAX",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 23.21,
         "pbr": 6.25,
@@ -50719,7 +50704,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PRAX",
         "url": "https://finance.yahoo.com/quote/PRAX/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -51246,7 +51231,7 @@ window.TEAM2_DATA = {
       "nameKo": "차터 커뮤니케이션스",
       "nameEn": "CHARTER COMMUNICATIONS INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "차터 커뮤니케이션스",
         "nameEn": "CHARTER COMMUNICATIONS INC",
         "infomaxCode": "NAS:CHTR",
@@ -51564,7 +51549,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CHTR",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 3.34,
         "pbr": 1.02,
@@ -51587,7 +51572,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CHTR",
         "url": "https://finance.yahoo.com/quote/CHTR/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -52433,7 +52418,7 @@ window.TEAM2_DATA = {
       "nameKo": "CRA 인터내셔널",
       "nameEn": "CRA INTERNATIONAL INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "CRA 인터내셔널",
         "nameEn": "CRA INTERNATIONAL INC",
         "infomaxCode": "NAS:CRAI",
@@ -52450,6 +52435,21 @@ window.TEAM2_DATA = {
             "netIncome": "NetIncomeLoss"
           },
           "quarters": [
+            {
+              "periodStart": "2026-07-05",
+              "periodEnd": "2026-10-03",
+              "derived": false,
+              "revenue": 214917000,
+              "profit": 23893000,
+              "netIncome": 13906000,
+              "margin": 11.1,
+              "yoy": {
+                "revenue": 15.6,
+                "profit": 38.8,
+                "netIncome": 21.2,
+                "priorEnd": "2025-09-27"
+              }
+            },
             {
               "periodStart": "2026-04-05",
               "periodEnd": "2026-07-04",
@@ -52493,21 +52493,6 @@ window.TEAM2_DATA = {
                 "profit": -3.8,
                 "netIncome": -12.2,
                 "priorEnd": "2024-12-28"
-              }
-            },
-            {
-              "periodStart": "2025-06-29",
-              "periodEnd": "2025-09-27",
-              "derived": false,
-              "revenue": 185891000,
-              "profit": 17211000,
-              "netIncome": 11473000,
-              "margin": 9.3,
-              "yoy": {
-                "revenue": 10.8,
-                "profit": -6.4,
-                "netIncome": 0.3,
-                "priorEnd": "2024-09-28"
               }
             }
           ],
@@ -52743,7 +52728,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CRAI",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 29.43,
         "pbr": 7.6,
@@ -52766,7 +52751,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CRAI",
         "url": "https://finance.yahoo.com/quote/CRAI/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -53534,7 +53519,7 @@ window.TEAM2_DATA = {
       "nameKo": "코르벨",
       "nameEn": "CORVEL CORP",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "코르벨",
         "nameEn": "CORVEL CORP",
         "infomaxCode": "NAS:CRVL",
@@ -53829,7 +53814,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CRVL",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 39.31,
         "pbr": 10.92,
@@ -53852,7 +53837,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CRVL",
         "url": "https://finance.yahoo.com/quote/CRVL/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -54624,7 +54609,7 @@ window.TEAM2_DATA = {
       "nameKo": "팔로마 홀딩스",
       "nameEn": "PALOMAR HOLDINGS INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "nameKo": "팔로마 홀딩스",
         "nameEn": "PALOMAR HOLDINGS INC",
         "infomaxCode": "NAS:PLMR",
@@ -54923,7 +54908,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "PLMR",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 21.97,
         "pbr": 4.37,
@@ -54946,7 +54931,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PLMR",
         "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -55343,7 +55328,7 @@ window.TEAM2_DATA = {
       "epsNy": 13.75,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": true,
+      "apiCalled": false,
       "siteRankPct6": 2.25,
       "fs": {
         "sale": [
@@ -56065,7 +56050,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "EXPO",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 40.03,
         "pbr": 14.68,
@@ -56088,7 +56073,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "EXPO",
         "url": "https://finance.yahoo.com/quote/EXPO/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -57210,7 +57195,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "HWKN",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 37.94,
         "pbr": 5.55,
@@ -57233,7 +57218,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HWKN",
         "url": "https://finance.yahoo.com/quote/HWKN/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -58681,7 +58666,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "WMT",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 46.36,
         "pbr": 10.34,
@@ -58704,21 +58689,21 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "WMT",
         "url": "https://finance.yahoo.com/quote/WMT/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2027-01-31",
             "eps": 0.78,
-            "epsLow": 0.73,
+            "epsLow": 0.69,
             "epsHigh": 0.83,
             "epsYearAgo": 0.74,
             "epsAnalysts": 35,
-            "epsGrowth": 5.1,
+            "epsGrowth": 4.8,
             "epsCur": "USD",
-            "rev": 200217701050,
-            "revAnalysts": 28,
+            "rev": 200222459370,
+            "revAnalysts": 29,
             "revYearAgo": 188913000000,
             "revGrowth": 6,
             "revCur": "USD"
@@ -58733,7 +58718,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 27,
             "epsGrowth": 11.3,
             "epsCur": "USD",
-            "rev": 185224022580,
+            "rev": 185220022580,
             "revAnalysts": 20,
             "revYearAgo": 177751000000,
             "revGrowth": 4.2,
@@ -58743,14 +58728,14 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2027-01-31",
             "eps": 2.89,
-            "epsLow": 2.84,
+            "epsLow": 2.82,
             "epsHigh": 2.92,
             "epsYearAgo": 2.64,
             "epsAnalysts": 40,
-            "epsGrowth": 9.4,
+            "epsGrowth": 9.3,
             "epsCur": "USD",
-            "rev": 753717216820,
-            "revAnalysts": 35,
+            "rev": 753770313360,
+            "revAnalysts": 36,
             "revYearAgo": 706413000000,
             "revGrowth": 6.7,
             "revCur": "USD"
@@ -58763,11 +58748,11 @@ window.TEAM2_DATA = {
             "epsHigh": 3.55,
             "epsYearAgo": 2.89,
             "epsAnalysts": 43,
-            "epsGrowth": 12,
+            "epsGrowth": 11.9,
             "epsCur": "USD",
-            "rev": 785429035190,
+            "rev": 785407607660,
             "revAnalysts": 37,
-            "revYearAgo": 753717216820,
+            "revYearAgo": 753770313360,
             "revGrowth": 4.2,
             "revCur": "USD"
           }
@@ -58778,9 +58763,9 @@ window.TEAM2_DATA = {
             "endDate": "2027-01-31",
             "cur": "USD",
             "now": 0.78,
-            "d7": -0.9,
-            "d30": -1,
-            "d90": -1,
+            "d7": -1.2,
+            "d30": -1.3,
+            "d90": -1.3,
             "ago90": 0.79,
             "up7": 1,
             "up30": 2,
@@ -58820,9 +58805,9 @@ window.TEAM2_DATA = {
             "endDate": "2028-01-31",
             "cur": "USD",
             "now": 3.23,
-            "d7": 0.3,
-            "d30": 0.2,
-            "d90": 0.3,
+            "d7": 0.1,
+            "d30": 0,
+            "d90": 0.1,
             "ago90": 3.22,
             "up7": 2,
             "up30": 2,
@@ -59982,7 +59967,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "PTC",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 18.86,
         "pbr": 6.23,
@@ -60005,7 +59990,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PTC",
         "url": "https://finance.yahoo.com/quote/PTC/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -61101,7 +61086,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "USPH",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 566.63,
         "pbr": 3.19,
@@ -61124,7 +61109,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "USPH",
         "url": "https://finance.yahoo.com/quote/USPH/analysis/",
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -61947,7 +61932,7 @@ window.TEAM2_DATA = {
       "nameKo": "헤모네틱스",
       "nameEn": "HAEMONETICS CORP",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "nameKo": "헤모네틱스",
         "nameEn": "HAEMONETICS CORP",
         "infomaxCode": "NYS:HAE",
@@ -62248,7 +62233,7 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "HAE",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 58.61,
         "pbr": 6.53,
@@ -62271,7 +62256,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HAE",
         "url": "https://finance.yahoo.com/quote/HAE/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -63452,7 +63437,7 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "PAYC",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "한국투자증권 Open API",
         "per": 25.68,
         "pbr": 18.73,
@@ -63475,7 +63460,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PAYC",
         "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-23",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -67860,232 +67845,6 @@ window.TEAM2_DATA = {
         }
       ],
       "asOf": "2026-11-20"
-    },
-    "llmCarried": {
-      "lists": [
-        {
-          "key": "dollar",
-          "commonIndustries": [],
-          "themes": [],
-          "unexplained": [
-            "GPN",
-            "SPB"
-          ],
-          "narrative": "거래대금 상위 3종목은 업종이 모두 달라 겹치는 곳이 없습니다. 오케아니스 에코 탱커스(ECO)만 유조선 운임 상승과 3분기 실적 호조라는 이유가 확인됩니다. 글로벌 페이먼츠(GPN)와 스펙트럼 브랜즈(SPB)는 최근 실적·인수 관련 기사는 있지만 오늘 급등과 직접 이어지는 근거는 확인되지 않았습니다. 세 종목을 묶을 공통 테마는 없어 개별 재료로 보는 편이 맞습니다.",
-          "label": "거래대금 상위"
-        },
-        {
-          "key": "m1",
-          "commonIndustries": [
-            {
-              "industry": "Biotechnology",
-              "tickers": [
-                "INSM",
-                "RYTM",
-                "MIRM",
-                "ORKA",
-                "PRAX"
-              ],
-              "why": "신약 매출 확대와 임상 결과가 종목마다 따로 재료가 됐다. INSM·RYTM은 제품 매출 성장, MIRM·ORKA는 임상 결과, PRAX는 증권사 신규 커버리지가 근거다."
-            },
-            {
-              "industry": "Medical Devices",
-              "tickers": [
-                "GKOS",
-                "TMDX"
-              ],
-              "why": "GKOS는 신제품 덕에 연간 매출 전망을 크게 올렸다. TMDX는 주가가 200일선을 회복했다는 기사만 있고 상승 이유는 확인 안 됨."
-            },
-            {
-              "industry": "Household & Personal Products",
-              "tickers": [
-                "CLX",
-                "IPAR"
-              ],
-              "why": "IPAR는 2027년 매출·이익 성장 가이던스를 냈다. CLX는 내부자 매수와 200일선 상향 돌파 기사 외에 뚜렷한 이유는 확인 안 됨."
-            }
-          ],
-          "themes": [
-            {
-              "name": "3분기 실적·전망 상향 후 재평가",
-              "plainKo": "3분기 실적이나 연간 전망 상향이 나온 뒤 주가가 오른 종목들이다. 업종은 달라도 실적 발표가 직접 계기였다.",
-              "why": "MIRM은 3분기 결과와 함께 연간 매출 가이던스를 올렸다. KNSA는 목표주가가 올랐고, APP는 3분기 매출 증가가 부각됐다. CAR는 실적이 부진했는데도 발표 뒤 주가가 올랐다.",
-              "tickers": [
-                "MIRM",
-                "KNSA",
-                "APP",
-                "CAR"
-              ],
-              "sources": [
-                {
-                  "title": "Mirum Pharmaceuticals Reports Q3 2026 Financial Results and Raises Full-Year Sales Guidance",
-                  "publisher": "Nasdaq",
-                  "url": "https://www.nasdaq.com/articles/mirum-pharmaceuticals-reports-q3-2026-financial-results-and-raises-full-year-sales",
-                  "date": "2026-11-03",
-                  "quote": "Mirum Pharmaceuticals Reports Q3 2026 Financial Results and Raises Full-Year Sales Guidance",
-                  "verified": "ok",
-                  "httpStatus": 200
-                },
-                {
-                  "title": "Kiniksa Pharmaceuticals International Average Price Target Raised 13.15% to $111.62",
-                  "publisher": "Nasdaq",
-                  "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-average-price-target-raised-1315-11162",
-                  "date": "2026-11-02",
-                  "quote": "Kiniksa Pharmaceuticals International Average Price Target Raised 13.15% to $111.62",
-                  "verified": "ok",
-                  "httpStatus": 200
-                },
-                {
-                  "title": "AppLovin's Q3 Revenues Jump 55%: Can This Growth Momentum Continue?",
-                  "publisher": "Nasdaq",
-                  "url": "https://www.nasdaq.com/articles/applovins-q3-revenues-jump-55-can-growth-momentum-continue",
-                  "date": "2026-11-17",
-                  "quote": "AppLovin's Q3 Revenues Jump 55%: Can This Growth Momentum Continue?",
-                  "verified": "ok",
-                  "httpStatus": 200
-                },
-                {
-                  "title": "Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3",
-                  "publisher": "Nasdaq",
-                  "url": "https://www.nasdaq.com/articles/avis-budget-stock-appreciates-10-despite-earnings-miss-q3",
-                  "date": "2026-11-06",
-                  "quote": "Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "unexplained": [
-            "CROX",
-            "WING",
-            "IDXX",
-            "CVCO",
-            "VSEC",
-            "TFX",
-            "CHTR",
-            "FWONA",
-            "TMDX",
-            "CLX"
-          ],
-          "narrative": "이번 목록은 바이오 5종목이 가장 크게 모였고 의료기기·생활용품이 각 2종목이다. 나머지는 항공·광고·외식·통신 등 흩어져 있다. 공통 이유는 업종 정책이 아니라 11월 초 3분기 실적과 전망 상향이 종목별로 주가를 끌어올린 것으로 보인다. 바이오는 임상·매출 재료가 제각각이라 하나의 흐름으로 보기 어렵다. 이후 실적 발표 뒤 상승분이 유지되는지와 MIRM·ORKA의 후속 임상 일정이 확인되면 이 해석이 맞는지 가려진다.",
-          "label": "RS(1MO)",
-          "factcheck": {
-            "verdict": "pass",
-            "removed": 0
-          }
-        },
-        {
-          "key": "m3",
-          "commonIndustries": [
-            {
-              "industry": "Biotechnology",
-              "tickers": [
-                "KOD",
-                "MRNA"
-              ],
-              "why": "두 종목 모두 임상 성공이 계기지만 약물과 질환은 서로 다르다. KOD는 습성 황반변성 3상, MRNA는 머크와 공동 개발한 암 백신이다."
-            },
-            {
-              "industry": "Information Technology Services",
-              "tickers": [
-                "EPAM",
-                "MGRT"
-              ],
-              "why": "EPAM은 실적과 자사주 매입, 목표주가 상향이 근거다. MGRT는 같이 오르는 이유가 확인되지 않았다."
-            },
-            {
-              "industry": "Consulting Services",
-              "tickers": [
-                "FCN",
-                "CRAI"
-              ],
-              "why": "두 회사 모두 3분기 실적이 시장 예상을 웃돌았다. 기업 자문·소송 지원 수요가 실적으로 확인됐다."
-            },
-            {
-              "industry": "Discount Stores",
-              "tickers": [
-                "OLLI",
-                "WMT"
-              ],
-              "why": "WMT는 3분기 실적과 함께 매출·이익 전망을 올렸다. OLLI는 영업이익 증가와 대규모 자사주 매입 계획이 근거다."
-            },
-            {
-              "industry": "Diagnostics & Research",
-              "tickers": [
-                "IDXX",
-                "GRAL"
-              ],
-              "why": "IDXX는 이익 증가로 실적 신뢰를 회복했다. GRAL은 FDA 결정이 가까워졌다는 기대가 언급됐다."
-            }
-          ],
-          "themes": [],
-          "unexplained": [
-            "MGRT",
-            "CROX",
-            "SIG",
-            "WING",
-            "USPH"
-          ],
-          "narrative": "3개월 상대강도 상위 22종목은 특정 업종이나 정책에 크게 몰리지 않고 흩어져 있다. 바이오, 컨설팅, 할인 유통, 진단처럼 2종목씩 겹친 업종이 있지만 이유는 대부분 종목별 실적 호조나 개별 이벤트다. 공통 원인으로 묶을 만한 테마는 확인되지 않았다. 다음 분기 실적에서 이익 증가가 이어지는지가 이 흐름이 유지되는지를 가릴 것이다.",
-          "label": "RS(3MO)"
-        },
-        {
-          "key": "m6",
-          "commonIndustries": [
-            {
-              "industry": "Biotechnology",
-              "tickers": [
-                "MRNA",
-                "KOD",
-                "ORKA",
-                "KYMR"
-              ],
-              "why": "MRNA는 암 백신 임상 성과, KOD는 황반변성 3상 성공, ORKA는 건선 2상 호조, KYMR은 1상 긍정 결과가 각각 주가를 밀었다. 바이오 업종 전반이 반등하는 흐름도 배경이다."
-            },
-            {
-              "industry": "Medical Devices",
-              "tickers": [
-                "GKOS",
-                "HAE",
-                "TXG"
-              ],
-              "why": "세 종목 모두 3분기 실적 발표에서 연간 매출 전망을 올린 점이 공통이다. 소모품·신제품 판매가 늘며 전망 상향으로 이어졌다."
-            },
-            {
-              "industry": "Diagnostics & Research",
-              "tickers": [
-                "CRL",
-                "GRAL"
-              ],
-              "why": "CRL은 신규 수주 증가와 인수 발표가 이유다. GRAL은 최근 기사가 FDA 판단 기대 정도여서 같이 강한 이유는 확인 안 됨."
-            }
-          ],
-          "themes": [],
-          "unexplained": [
-            "MGRT",
-            "PAYC",
-            "GRAL",
-            "HURN"
-          ],
-          "narrative": "6개월 강세 22종목은 바이오·의료기기에 가장 많이 몰렸다. 바이오는 임상 성과와 업종 반등이 겹쳤고, 의료기기는 연간 전망 상향이 공통이다. 업종과 무관하게 3분기 실적이 좋고 전망을 올린 종목도 여럿이다. 다음 분기에도 전망 상향이 이어지고 바이오 후속 임상 일정이 확인되면 이 흐름이 맞고, 실적이 꺾이면 틀린 것이다. MGRT·PAYC·GRAL·HURN은 이유를 확인하지 못했다.",
-          "label": "RS(6MO)",
-          "factcheck": {
-            "verdict": "partial",
-            "removed": 2
-          }
-        },
-        {
-          "key": "all",
-          "commonIndustries": [],
-          "themes": [],
-          "unexplained": [],
-          "narrative": "이 목록에는 GKOS 한 종목만 있어 겹치는 업종이나 테마는 없습니다. GKOS는 녹내장 이식 장치 iDose TR와 원추각막 치료제 Epioxa가 매출 성장을 이끌고 있고, 회사가 올해 매출 전망을 크게 올린 것이 상승 이유로 확인됩니다. 3분기에 영업이익이 흑자로 돌아선 점도 같은 흐름입니다. 다음 실적에서 신제품 매출이 올린 전망대로 나오는지가 이 흐름이 맞는지 가르는 기준입니다.",
-          "label": "RS(1~6MO)"
-        }
-      ],
-      "researchedOn": "2026-11-21",
-      "sanitized": null
     }
   },
   "fs_coverage": {
