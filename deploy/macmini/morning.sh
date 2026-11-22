@@ -16,3 +16,4 @@ node scripts/checklist-watch.js || true   # 13팀 라온 — 오늘 돌파 종�
 node scripts/sns-watch.js || true   # 팝업 맨 밑 SNS 반응(레딧, 2026-10-28) — 맨 끝: 예절 간격 때문에 20분 안팎이라 실장 보고를 늦추지 않게
 if [ "$(date +%u)" = 6 ]; then node scripts/ticker-universe.js --write || true; fi   # RS 사이트 티커 목록(사용자 구글 시트 첫 탭) 주 1회 — $70 넣고 $50 밑이면 뺌 (2026-10-29)
 if [ "$(date +%u)" = 7 ]; then node scripts/covered-call-watch.js || true; fi   # 11팀 시윤 — 커버드콜 × 와인스타인 단계 주 1회(일요일 · 야후 분배금 59개 4~5분 — 토요일 야후 부담과 나눔) (2026-11-01)
+(cd "$HOME/AI/breakout-team2" && bash deploy/run-job.sh daily) || true   # 브레이크아웃팀2 — 볼린저 수축 돌파 · RS 돌파 · 촉매 돌파 · 실장 · 모의투자 (2026-11-22, 별도 저장소 · 맨 끝: 무거운 작업 하나씩)
