@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-22T13:00:10.578Z",
+  "updated": "2026-11-22T22:10:10.107Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -7,6 +7,21 @@ window.HOLDINGS_DATA = {
       "ticker": "PLTR",
       "side": "long",
       "items": [
+        {
+          "type": "news",
+          "title": "Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.",
+          "url": "https://www.nasdaq.com/articles/palantir-stock-could-finish-2026-lower-its-only-2-losing-years-ended-very-differently",
+          "date": "2026-11-22",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어, 2026년을 하락으로 마감할 수도 있다는 분석",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, 2026년을 하락으로 마감할 수도 있다는 분석",
+          "easy": "기사 제목과 요약만 확인된 상태다. 팔란티어 주가는 2021년에 약 23%, 2022년에 또 65% 하락했는데, 이 두 번의 하락 연도가 이후 어떻게 끝났는지를 짚으며 2026년에도 하락 마감할 수 있다고 말하는 글로 보인다. 본문이 없어 구체적인 원인과 전망은 기사에 안 나왔다.",
+          "whyMatters": "가격이 올라야 이익인 보유자에게는 과거 하락 사례를 짚는 글이라 참고 정도의 의미다. 올해 하락 가능성의 근거는 본문이 없어 확인되지 않았다.",
+          "quote": null,
+          "read": false
+        },
         {
           "type": "news",
           "title": "Cathie Wood's Ark Has Been Selling Palantir Stock. Under $160, I'd Buy It Now.",
@@ -94,36 +109,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어 고평가인지 아직 매수 구간인지 따져보는 기사",
           "easy": "기사 제목은 팔란티어가 고평가인지, 지금 가격에도 살 만한지를 묻는다. 요약에는 팔란티어 서비스가 고객의 생산성을 높였고 이것이 주가 상승을 뒷받침한 것으로 보인다고 나온다. 본문은 제공되지 않아 구체적인 수치나 결론은 기사에 안 나왔다.",
           "whyMatters": "주가가 올라야 이익인 보유자에게는 상승 배경으로 고객 생산성 향상이 거론된다는 정도만 확인된다. 고평가 여부에 대한 결론은 확인되지 않았다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Palantir's 148% U.S. Commercial Revenue Surge Signals AI Momentum",
-          "url": "https://www.nasdaq.com/articles/palantirs-148-us-commercial-revenue-surge-signals-ai-momentum",
-          "date": "2026-11-17",
-          "publisher": "Zacks",
-          "ko": "팔란티어 미국 상업 매출, 3분기 148% 급증",
-          "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어 미국 상업 매출, 3분기 148% 급증",
-          "easy": "기사 제목과 요약에 따르면 팔란티어의 2026년 3분기 미국 상업 부문 매출이 148% 늘었다. 기업들의 AI 도입이 확대된 것이 배경으로 꼽힌다. 요약은 정부 수요가 성장세를 이어갈 수 있을지도 함께 묻는다. 본문은 확인하지 못했다.",
-          "whyMatters": "보유 중이라면 상업 부문의 고성장은 실적 측면에서 유리한 소식이다. 다만 본문이 없어 세부 내용은 기사에 안 나왔다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Palantir Raised Guidance 3 Times This Year. 1 Number Explains Why the Stock Fell.",
-          "url": "https://www.nasdaq.com/articles/palantir-raised-guidance-3-times-year-1-number-explains-why-stock-fell",
-          "date": "2026-11-17",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어, 올해 가이던스 3번 올렸는데도 주가 하락",
-          "tone": "bad",
-          "isNew": false,
-          "headline": "팔란티어, 올해 가이던스 3번 올렸는데도 주가 하락",
-          "easy": "기사 제목에 따르면 팔란티어는 올해 가이던스를 세 차례 상향했지만 주가는 떨어졌다. 요약에는 사업이 호황이라고만 나와 있다. 주가가 떨어진 이유로 지목된 숫자가 무엇인지는 기사에 안 나왔다.",
-          "whyMatters": "보유 중이라면 실적이 좋아도 주가가 하락할 수 있음을 보여주는 사례다. 구체적 원인은 본문을 못 읽어 알 수 없다.",
           "quote": null,
           "read": false
         },
