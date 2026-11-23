@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-11-22T22:16:57.372Z",
+  "generated": "2026-11-23T21:00:20.080Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -269,6 +269,10 @@ window.PAPER_DATA = {
     {
       "date": "2026-11-20",
       "pct": -1.04
+    },
+    {
+      "date": "2026-11-23",
+      "pct": -1.04
     }
   ],
   "positions": [],
@@ -371,9 +375,9 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-11-20T21:00:20.040Z",
-    "atKst": "2026-11-21 06:00 KST",
-    "atEt": "2026-11-20 1600",
+    "at": "2026-11-23T21:00:20.065Z",
+    "atKst": "2026-11-24 06:00 KST",
+    "atEt": "2026-11-23 1600",
     "phase": "post",
     "source": "kis",
     "status": "정상",
