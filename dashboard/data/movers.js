@@ -1,458 +1,456 @@
 window.MOVERS_DATA = {
-  "updated": "2026-11-20T15:33:26.918Z",
-  "basis": "11/20 10:30 ET 기준",
+  "updated": "2026-11-23T15:33:19.177Z",
+  "basis": "11/23 10:30 ET 기준",
   "exact": true,
-  "amtMinK": 10000,
-  "themes": [],
+  "amtMinK": 300000,
+  "themes": [
+    {
+      "name": "엔비디아 황 CEO 복귀 AI 반등",
+      "why": "황 복귀가 엔비디아의 AI 금융 지원 불안을 덜어 AI 관련주가 함께 반등했다.",
+      "members": [
+        {
+          "ticker": "NVDA",
+          "n": 4
+        },
+        {
+          "ticker": "CRWV",
+          "n": 2
+        },
+        {
+          "ticker": "NBIS",
+          "n": 0
+        },
+        {
+          "ticker": "AMD",
+          "n": 2
+        },
+        {
+          "ticker": "INTC",
+          "n": 1
+        }
+      ]
+    }
+  ],
   "groups": [
     {
-      "industry": "Software - Application",
-      "ko": "응용 소프트웨어",
+      "industry": "Semiconductors",
+      "ko": "반도체",
       "tickers": [
-        "TEAM",
-        "HUBS",
-        "FICO"
+        "NVDA",
+        "MU",
+        "AMD",
+        "TSM",
+        "INTC",
+        "MRVL",
+        "SKHY"
+      ]
+    },
+    {
+      "industry": "Internet Content & Information",
+      "ko": "인터넷 콘텐츠",
+      "tickers": [
+        "GOOGL",
+        "NBIS",
+        "META",
+        "GOOG"
       ]
     }
   ],
   "items": [
     {
-      "ticker": "GAP",
-      "nameKo": "갭",
-      "nameEn": "GAP INC",
-      "ratePct": 17.14,
-      "price": 22.01,
-      "amountUsd": 116105875,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "NVDA",
+      "nameKo": "엔비디아",
+      "nameEn": "NVIDIA CORP",
+      "ratePct": 35.87,
+      "price": 170.56,
+      "amountUsd": 40214459929,
+      "industry": "Semiconductors",
+      "industryKo": "반도체",
       "story": {
-        "headline": "3분기 이익 32% 증가, 아슬레타 새 CEO 발표에 반등",
-        "detail": "갭이 3분기(10월 31일 종료) 실적을 내놓았다. 순매출은 40억 달러로 전년보다 2% 늘었고 동일점포 매출(기존 매장 기준 매출)은 변동이 없었다. 순이익은 32% 증가했는데, 갭과 올드네이비가 부진한 아슬레타를 만회했다. 같은 날 아슬레타 새 CEO로 애슐리 케흐터를 12월 14일자로 임명했다. 다만 연간 전망은 낮췄고, 따뜻한 가을 날씨가 부담으로 거론됐다. UBS는 목표주가를 42달러에서 36달러로, BofA는 27달러에서 23달러로 내렸다.",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
+        "headline": "젠슨 황 CEO 복귀 발표에 엔비디아 급반등",
+        "detail": "엔비디아가 월요일 젠슨 황을 CEO로 복직시키자 주가가 약 34%(기사 기준) 뛰었다. 트럼프 대통령은 CNBC에 이사회가 국가안보 위험 여부에 대해 확인을 요청했고 정부가 보증을 줬다고 말했다. 사임 때 불거진 AI 투자 불안이 걷히며 반등이 컸다. 다만 급락 뒤 반등이어서 변동성이 크다.",
+        "quote": "Nvidia reinstated Jensen Huang as CEO on Monday and the stock jumped 34%.",
+        "quoteFrom": 4,
+        "others": [
+          {
+            "n": 5,
+            "line": "황 복귀와 AI 랠리, 연준 긴축 베팅에 달러가 19개월 만의 고점을 기록했다."
+          }
+        ],
         "refs": [
+          4,
           7,
-          1,
-          0,
-          2,
-          3,
-          5
+          6
         ]
       },
       "news": [
         {
-          "title": "Gap Names Ashley Kechter CEO Of Athleta, Shares Up In Pre-market",
-          "url": "https://www.nasdaq.com/articles/gap-names-ashley-kechter-ceo-athleta-shares-pre-market",
-          "date": "2026-11-20",
-          "publisher": "RTTNews"
+          "title": "NVIDIA Corporation (NVDA) Is a Trending Stock: Facts to Know Before Betting on It",
+          "url": "https://www.nasdaq.com/articles/nvidia-corporation-nvda-trending-stock-facts-know-betting-it-1",
+          "date": "2026-11-23",
+          "publisher": "Zacks"
         },
         {
-          "title": "The Gap, Inc. Reports Third Quarter Fiscal 2026 Results with Net Sales Up 2%",
-          "url": "https://www.nasdaq.com/articles/gap-inc-reports-third-quarter-fiscal-2026-results-net-sales-2",
-          "date": "2026-11-20",
-          "publisher": "Fintel"
-        },
-        {
-          "title": "Gap stock pops even as warm fall weather leads the retail giant to cut its forecast",
-          "url": "https://finance.yahoo.com/markets/stocks/article/gap-stock-pops-even-as-warm-fall-weather-leads-the-retail-giant-to-cut-its-forecast-130937620.html",
-          "date": "2026-11-20",
+          "title": "Nvidia live updates: Jensen Huang reinstated as CEO;  Trump says no reason to believe Huang a national security risk",
+          "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-no-reason-to-believe-huang-a-national-security-risk-152429808.html",
+          "date": "2026-11-23",
           "publisher": "Yahoo Finance"
         },
         {
-          "title": "UBS Adjusts Gap Price Target to $36 From $42, Maintains Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-gap-price-target-143840752.html",
-          "date": "2026-11-20",
-          "publisher": "MT Newswires"
+          "title": "Nvidia reinstates Jensen Huang as CEO",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-reinstates-jensen-huang-ceo-142249052.html",
+          "date": "2026-11-23",
+          "publisher": "CBS News"
         },
         {
-          "title": "Nike crashed to $34 with a 4.8% yield: Turnaround or value trap?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nike-crashed-34-4-8-134739092.html",
-          "date": "2026-11-20",
-          "publisher": "Investing.com"
+          "title": "Political and corporate leaders react to Huang's return as Nvidia CEO",
+          "url": "https://finance.yahoo.com/technology/articles/political-corporate-leaders-react-huangs-152140490.html",
+          "date": "2026-11-23",
+          "publisher": "Reuters"
         },
         {
-          "title": "BofA Securities Adjusts Gap Price Target to $23 From $27, Maintains Neutral Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-gap-price-133053828.html",
-          "date": "2026-11-20",
-          "publisher": "MT Newswires"
+          "title": "Jensen Huang Is Back as Nvidia CEO and the Stock Is Soaring. Here’s What Selling at Friday’s Low Just Cost an Investor With $100,000 in Nvidia",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-ceo-152100653.html",
+          "date": "2026-11-23",
+          "publisher": "24/7 Wall St."
         },
         {
-          "title": "Gap Inc Q3 sales flat, ex-Vuori president named Athleta CEO",
-          "url": "https://finance.yahoo.com/news/gap-inc-q3-sales-flat-114239304.html",
-          "date": "2026-11-20",
-          "publisher": "Retail Insight Network"
+          "title": "Dollar jumps on hawkish Fed bets, AI rally",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-edges-off-19-month-041309314.html",
+          "date": "2026-11-23",
+          "publisher": "Reuters"
         },
         {
-          "title": "Gap Q3 Profit Rise 32%; Lowers FY Outlook",
-          "url": "https://www.nasdaq.com/articles/gap-q3-profit-rise-32-lowers-fy-outlook",
-          "date": "2026-11-19",
-          "publisher": "RTTNews"
+          "title": "Trump says Nvidia board made right call on Huang reinstatement",
+          "url": "https://finance.yahoo.com/technology/articles/trump-says-nvidia-board-made-142832710.html",
+          "date": "2026-11-23",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Trump tells CNBC he spoke to Nvidia board directly about Jensen Huang",
+          "url": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
+          "date": "2026-11-23",
+          "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "NXAT",
-      "nameKo": "넥서스 어드밴스드 테크놀로지스",
-      "nameEn": "NEXUS ADVANCED TECHNOLOGIES INC",
-      "ratePct": 161.51,
-      "price": 0.585,
-      "amountUsd": 82384178,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "MU",
+      "nameKo": "마이크론 테크놀로지",
+      "nameEn": "MICRON TECHNOLOGY INC",
+      "ratePct": 20.54,
+      "price": 716.635,
+      "amountUsd": 9250614817,
+      "industry": "Semiconductors",
+      "industryKo": "반도체",
       "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Nexus Advanced Technologies Inc. Receives Nasdaq Staff Delisting Determination",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nexus-advanced-technologies-inc-receives-210000643.html",
-          "date": "2026-11-17",
-          "publisher": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "ticker": "HDB",
-      "nameKo": "HDFC 뱅크(ADR)",
-      "nameEn": "HDFC BANK LTD SPON ADS EACH REP 3 ORD SHS",
-      "ratePct": 5.05,
-      "price": 27.565,
-      "amountUsd": 77389179,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Jai Balaji Industries Ltd (BOM:532976) (Q2 2027) Earnings Call Highlights: Profit Nearly ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jai-balaji-industries-ltd-bom-170219853.html",
-          "date": "2026-11-18",
-          "publisher": "GuruFocus.com"
-        }
-      ]
-    },
-    {
-      "ticker": "TEAM",
-      "nameKo": "아틀라시언",
-      "nameEn": "ATLASSIAN CORP",
-      "ratePct": 5.89,
-      "price": 140.84,
-      "amountUsd": 72402886,
-      "industry": "Software - Application",
-      "industryKo": "응용 소프트웨어",
-      "story": {
-        "headline": "CEO의 800만 달러 자사주 매입 소식이 부각",
-        "detail": "아틀라시안 CEO가 약 800만 달러어치 자사주를 사들였다는 보도가 나왔고, 다른 임원들은 매도 중이라는 점도 함께 언급됐다. 주가는 최근 종가 133.01달러였고 5년간 66.2% 하락한 상태다. 저평가 논의가 다시 나오는 분위기다. UBS는 목표주가를 160달러에서 150달러로 내리고 중립 의견을 유지했다. 오늘 상승을 직접 설명한 기사는 없다.",
-        "quote": "Atlassian has seen its share price fall sharply in recent years, which puts a fresh spotlight on what investors are paying for the company's sales today.",
+        "headline": "황 복귀 속 AI 반도체 반등, 마이크론 공급계약 우려 완화",
+        "detail": "마이크론이 장 초반 15% 오른 것으로 전해졌다. CEO가 고객들이 장기 구매계약(take-or-pay, 안 사도 대금을 내는 계약)을 깰 것으로 보지 않는다고 말했다. 고객 예치금과 약정이 320억 달러지만 2030년까지 매출의 약 35%만 덮는다. 금요일 AI 급락 뒤 반도체 전반 반등 영향도 있어 보이나 직접 원인을 명시한 기사는 없다. 엔비디아의 메모리 구매 약정이 5,180억 달러로 늘었다는 UBS 경고도 변수다.",
+        "quote": "Micron is soaring 15% this morning, just a few days after CEO Sanjay Mehrotra said he doesn't expect customers to break their take-or-pay supply deals.",
         "quoteFrom": 0,
         "others": [],
         "refs": [
           0,
-          2,
           1
         ]
       },
       "news": [
         {
-          "title": "Atlassian (TEAM) Stock May Trade Below Fair Value Following CEO Share Purchase",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-team-stock-may-trade-091311354.html",
-          "date": "2026-11-20",
-          "publisher": "Simply Wall St."
+          "title": "“I Absolutely Do Not Expect” Customers to Break Their Deals, Micron’s CEO Says. Here’s What’s Riding on It",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/absolutely-not-expect-customers-break-140412583.html",
+          "date": "2026-11-23",
+          "publisher": "TIKR"
         },
         {
-          "title": "UBS Adjusts Atlassian Price Target to $150 From $160, Maintains Neutral Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-atlassian-price-target-143504837.html",
-          "date": "2026-11-19",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Atlassian’s CEO Puts $8 Million Into the Stock While Other Executives Sell. Here’s What That Tells Investors",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-ceo-puts-8-million-141939100.html",
-          "date": "2026-11-19",
-          "publisher": "24/7 Wall St."
-        },
-        {
-          "title": "Empyra Becomes First Atlassian Solution Partner in the Americas to Earn Teamwork Foundations Specialization",
-          "url": "https://finance.yahoo.com/technology/ai/articles/empyra-becomes-first-atlassian-solution-150200886.html",
-          "date": "2026-11-18",
-          "publisher": "Business Wire"
-        },
-        {
-          "title": "Atlassian Down 34%: What Would Its CEO Say?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-down-34-ceo-134844274.html",
-          "date": "2026-11-18",
-          "publisher": "Trefis"
-        }
-      ]
-    },
-    {
-      "ticker": "AKAN",
-      "nameKo": "어칸다",
-      "nameEn": "AKANDA CORP",
-      "ratePct": 29.13,
-      "price": 4.4292,
-      "amountUsd": 71917673,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "CTSH",
-      "nameKo": "코그니전트 테크놀로지 솔루션스",
-      "nameEn": "COGNIZANT TECHNOLOGY SOLUTIONS CORP",
-      "ratePct": 6.3,
-      "price": 59.86,
-      "amountUsd": 42685208,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "IT서비스 저가 매력 부각 속 반등, 다만 BofA는 목표가 하향",
-        "detail": "IT서비스는 2026년 내내 선호도가 낮았고, 올해 중반 월가가 일부 전통 업체에 비관적으로 돌아섰다는 보도가 있었다. BofA는 목표주가를 91달러에서 70달러로 낮췄다. 침체 위험이 커진다는 보도도 있었다. 오늘 상승을 직접 설명한 기사는 없다.",
-        "quote": "For much of 2026, IT services was among the least favored segments of the market.",
-        "quoteFrom": 3,
-        "others": [],
-        "refs": [
-          3,
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "BofA Adjusts Price Target on Cognizant Technology Solutions to $70 From $91",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-adjusts-price-target-cognizant-133701172.html",
-          "date": "2026-11-19",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Stable US Large Cap Stocks to Watch as Recession Risks Rise",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stable-us-large-cap-stocks-011353585.html",
-          "date": "2026-11-19",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Why Qualys Stock Is In Focus After Earnings Beat And Partner Expansion",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-qualys-stock-focus-earnings-232133896.html",
-          "date": "2026-11-18",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Here Is Why Investors Should Pay Attention to Cognizant Technology (CTSH)",
-          "url": "https://finance.yahoo.com/technology/articles/why-investors-pay-attention-cognizant-171233409.html",
-          "date": "2026-11-18",
-          "publisher": "Insider Monkey"
-        },
-        {
-          "title": "Real World Evidence (RWE) Solutions - Global Strategic Business Report 2026",
-          "url": "https://finance.yahoo.com/healthcare/articles/real-world-evidence-rwe-solutions-153300000.html",
-          "date": "2026-11-18",
-          "publisher": "GlobeNewswire"
-        }
-      ]
-    },
-    {
-      "ticker": "HUBS",
-      "nameKo": "허브스팟",
-      "nameEn": "HUBSPOT INC",
-      "ratePct": 7.8,
-      "price": 206.97,
-      "amountUsd": 32404258,
-      "industry": "Software - Application",
-      "industryKo": "응용 소프트웨어",
-      "story": {
-        "headline": "공동창업자 CEO 복귀·약 500만 달러 매수",
-        "detail": "공동창업자 브라이언 핼리건이 CEO로 복귀한 다음 날인 11월 13일 약 500만 달러어치 주식을 매수했다. 주가는 52주 고점보다 47% 낮은 상태다. 이를 '재창업'이라 표현했다. 오늘 상승을 직접 설명한 기사는 아니며, 실적 개선이 확인된 것도 아니다.",
-        "quote": "Co-founder Brian Halligan bought just under $5 million of HubSpot stock on Nov. 13, a day after returning as CEO, with shares 47% below their 52-week high.",
-        "quoteFrom": 0,
-        "others": [],
-        "refs": [
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "HubSpot Is 47% Below Its High. Its Co-Founder Is Back for “A Refounding” and Bought $5 Million",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hubspot-47-below-high-co-071918681.html",
-          "date": "2026-11-18",
+          "title": "Warning for Nvidia Investors: UBS Says It Risks Becoming “Beholden to These Purchase Commitments”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/warning-nvidia-investors-ubs-says-133629322.html",
+          "date": "2026-11-23",
           "publisher": "TIKR"
         }
       ]
     },
     {
-      "ticker": "MEDS",
-      "nameKo": "데이터메드 AI",
-      "nameEn": "DATAMEDS AI INC",
-      "ratePct": 38.86,
-      "price": 1.0105,
-      "amountUsd": 31018290,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "AMD",
+      "nameKo": "AMD",
+      "nameEn": "ADVANCED MICRO DEVICES INC",
+      "ratePct": 9,
+      "price": 462.59,
+      "amountUsd": 5735099690,
+      "industry": "Semiconductors",
+      "industryKo": "반도체",
       "story": {
-        "headline": "암 AI 혈액검사 플랫폼 인수 합의",
-        "detail": "데이터메드 AI가 자회사 헬로믹스를 통해 토도스 메디컬 파산재산으로부터 TBIA 암 AI 혈액검사 플랫폼을 인수하기로 했다. 유럽에서 유방암·대장암 검사 CE 인증을 보유한 적이 있고, 미국·유럽 특허로 최소 2034년까지 독점권이 있다고 한다. 하루 전에는 DiaGen AI와 항암 펩타이드 개발 제휴도 발표했다. 소형주라 변동성이 크고 FDA 제출 전 단계라는 점에 유의해야 한다.",
-        "quote": "CLIA-Certified Cancer Diagnostics Laboratory Will Acquire Spectroscopy Platform to Support Machine Learning Expansion into Additional Cancer Types",
-        "quoteFrom": 0,
-        "others": [],
-        "refs": [
-          0,
-          1
-        ]
-      },
-      "news": [
-        {
-          "title": "DataMEDS AI Agrees to Acquire TBIA Cancer AI Blood Test Platform From Todos Medical Estate for Subsidiary Helomics, Inc.",
-          "url": "https://finance.yahoo.com/healthcare/articles/datameds-ai-agrees-acquire-tbia-211100284.html",
-          "date": "2026-11-19",
-          "publisher": "ACCESS Newswire"
-        },
-        {
-          "title": "DataMeds AI Subsidiary Helomics, Inc. Announces Cancer Target Discovery and Anticancer Peptides Drug Development Partnership With DiaGen AI, Inc.",
-          "url": "https://finance.yahoo.com/healthcare/articles/datameds-ai-subsidiary-helomics-inc-110000264.html",
-          "date": "2026-11-18",
-          "publisher": "ACCESS Newswire"
-        }
-      ]
-    },
-    {
-      "ticker": "OPEN",
-      "nameKo": "오픈도어 테크놀로지스",
-      "nameEn": "OPENDOOR TECHNOLOGIES INC",
-      "ratePct": 6.16,
-      "price": 1.5499,
-      "amountUsd": 29219659,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "이사 매수와 워런트 만료 앞둔 수급으로 사흘째 반등",
-        "detail": "오픈도어는 52주 저점 1.09달러(월요일) 이후 사흘 연속 올랐고 목요일 약 14~15% 상승해 1.46달러로 마감했다. 이사가 저점 부근에서 20만 주를 샀고, FSBO.com이 오픈도어 현금 매수 제안을 매물 목록에 추가했다. 변동성이 큰 저가주라 주의가 필요하다.",
-        "quote": "Opendoor jumped about 14% Thursday, its third straight gain since a 52-week low of $1.09 on Monday.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          0,
-          1
-        ]
-      },
-      "news": [
-        {
-          "title": "Opendoor Technologies (OPEN) is Soaring — What’s Driving Optimism?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/opendoor-technologies-open-soaring-driving-052201613.html",
-          "date": "2026-11-20",
-          "publisher": "Insider Monkey"
-        },
-        {
-          "title": "Opendoor Director Dana Hamilton Just Cast a Vote of Confidence Near the Stock’s Low",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/opendoor-director-dana-hamilton-just-194108477.html",
-          "date": "2026-11-19",
-          "publisher": "24/7 Wall St."
-        }
-      ]
-    },
-    {
-      "ticker": "FICO",
-      "nameKo": "페어 아이작",
-      "nameEn": "FAIR ISAAC CORP",
-      "ratePct": 6.51,
-      "price": 721.73,
-      "amountUsd": 28100558,
-      "industry": "Software - Application",
-      "industryKo": "응용 소프트웨어",
-      "story": {
-        "headline": "모기지 업체 통한 FICO 우대 프로그램 확대",
-        "detail": "FICO가 Xactus와 XedaLink를 통해 우대 프로그램을 제공한다고 발표했다. 모기지 대출기관은 2027년 FICO 점수를 건당 10달러 정액으로 이용할 수 있다. 17일에는 줄리 메이를 B2B 점수 사업 사장으로 승진시켰다. 오늘 상승을 직접 설명하는지는 기사만으로 확정하기 어렵다.",
-        "quote": "BOZEMAN, Mont., November 20, 2026--FICO's Preferred Program is now available through Xactus and XedaLink, giving mortgage lenders a flat $10 option for FICO Scores in 2027.",
-        "quoteFrom": 0,
-        "others": [],
-        "refs": [
-          0,
-          1
-        ]
-      },
-      "news": [
-        {
-          "title": "FICO Announces Availability of FICO® Preferred Program Through Xactus and XedaLink",
-          "url": "https://finance.yahoo.com/real-estate/articles/fico-announces-availability-fico-preferred-130000593.html",
-          "date": "2026-11-20",
-          "publisher": "Business Wire"
-        },
-        {
-          "title": "FICO Promotes Julie May to President B2B Scores",
-          "url": "https://finance.yahoo.com/technology/articles/fico-promotes-julie-may-president-130000063.html",
-          "date": "2026-11-17",
-          "publisher": "Business Wire"
-        }
-      ]
-    },
-    {
-      "ticker": "VIVS",
-      "nameKo": "비보심 랩스",
-      "nameEn": "VIVOSIM LABS INC",
-      "ratePct": 13.21,
-      "price": 0.33,
-      "amountUsd": 18808380,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "회사는 2027 회계연도 매출 성장률이 기존 가이던스(회사가 내놓은 실적 전망)인 500% 이상을 넘을 것으로 내다봤다. 고객사가 이 시험을 정기 전임상 업무에 넣을 것으로 기대한다. 다만 계약 상세 금액은 공개되지 않았고 소형주라 변동성이 크다.",
-        "quote": "VivoSim Labs, Inc. (NASDAQ:VIVS) announced a seven-figure agreement with a top-10 global pharmaceutical company for its NAMkind human tissue testing services, prompting the company to forecast fiscal 2027 revenue growth above its previous guidance of more than 500%.",
-        "quoteFrom": 1,
+        "headline": "엔비디아 CEO 복귀로 AI 반도체주 동반 반등",
+        "detail": "엔비디아 급등과 함께 AMD도 오른 것으로 전해졌다. 지난주 반도체주가 조정 구간에 빠진 뒤 매수세가 AI 하드웨어로 돌아왔다. AMD는 분기 매출이 45% 늘어 134억 달러를 기록했고 데이터센터 매출은 97% 늘었다. 다만 현금흐름 약화와 높은 밸류에이션이 우려로 꼽힌다. 중국 업체 관련 공매도 리포트로 급락한 일도 있었다.",
+        "quote": "After a brutal week that dragged chip stocks into correction territory, buyers are rushing back into AI hardware.",
+        "quoteFrom": 2,
         "others": [],
         "refs": [
           2,
           1,
-          0
+          6
         ]
       },
       "news": [
         {
-          "title": "VivoSim announces seven-figure NAMkind agreement with pharmaceutical company",
-          "url": "https://finance.yahoo.com/healthcare/articles/vivosim-announces-seven-figure-namkind-212020536.html",
-          "date": "2026-11-19",
-          "publisher": "TipRanks"
+          "title": "What Oppenheimer and William Blair See in Advanced Micro Devices (AMD)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-william-blair-see-advanced-152106413.html",
+          "date": "2026-11-23",
+          "publisher": "Insider Monkey"
         },
         {
-          "title": "VivoSim Labs Secures Seven-Figure Pharmaceutical Testing Agreement and Raises Fiscal 2027 Revenue Growth Expectations",
-          "url": "https://finance.yahoo.com/healthcare/articles/vivosim-labs-secures-seven-figure-152705927.html",
-          "date": "2026-11-19",
-          "publisher": "InvestorsHub"
+          "title": "AMD Revenue Jumps 45% to Record $13.4 Billion Despite Chip Stock Selloff",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amd-revenue-jumps-45-record-150926973.html",
+          "date": "2026-11-23",
+          "publisher": "GuruFocus.com"
         },
         {
-          "title": "VivoSim Labs Signs Seven-Figure Agreement with a Top-10 Global Pharmaceutical Company; Expects to Exceed Its 500%+ Revenue Growth Guidance for Fiscal 2027",
-          "url": "https://finance.yahoo.com/healthcare/articles/vivosim-labs-signs-seven-figure-130500520.html",
-          "date": "2026-11-19",
-          "publisher": "GlobeNewswire"
+          "title": "NVIDIA Jumps 28% as Jensen Huang Reportedly Reinstated as CEO; Intel Rallies 13%, AMD Gains 7%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-jumps-28-chip-stocks-141339800.html",
+          "date": "2026-11-23",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028",
+          "url": "https://www.nasdaq.com/articles/prediction-these-will-be-amds-and-nvidias-stock-prices-2028",
+          "date": "2026-11-22",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "AMD Stock Just Plunged on a Short-Seller Report. Is This a Golden Buying Opportunity?",
+          "url": "https://www.nasdaq.com/articles/amd-stock-just-plunged-short-seller-report-golden-buying-opportunity",
+          "date": "2026-11-22",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "Let's weigh the cons — and pros — of this brutal market to find a way forward",
+          "url": "https://www.cnbc.com/investingclub/2026/11/22/lets-weigh-the-cons-and-pros-of-this-market-to-find-a-way-forward.html",
+          "date": "2026-11-22",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "AMD’s Data Center Sales Jumped 97%. Is the Stock a Buy?",
+          "url": "https://www.nasdaq.com/articles/amds-data-center-sales-jumped-97-stock-buy",
+          "date": "2026-11-21",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "Is AMD the Stock to Buy With Nvidia in Limbo?",
+          "url": "https://www.nasdaq.com/articles/amd-stock-buy-nvidia-limbo",
+          "date": "2026-11-21",
+          "publisher": "The Motley Fool"
         }
       ]
     },
     {
-      "ticker": "Z",
-      "nameKo": "질로우 그룹 C",
-      "nameEn": "ZILLOW GROUP INC",
-      "ratePct": 5.22,
-      "price": 28.715,
-      "amountUsd": 13490020,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "TSLA",
+      "nameKo": "테슬라",
+      "nameEn": "TESLA INC",
+      "ratePct": 13.5,
+      "price": 392.495,
+      "amountUsd": 4336002164,
+      "industry": "Auto Manufacturers",
+      "industryKo": "완성차",
+      "story": {
+        "headline": "FSD v15 배포 시작에 AI 반등까지 겹쳐 테슬라 13% 급등",
+        "detail": "테슬라가 FSD(완전자율주행) v15 배포를 시작하며 주가가 13% 올랐다. 회사는 안전이 걸린 상황 처리가 25배 좋아졌다고 밝혔지만, 어떻게 측정했는지는 설명하지 않았다. 상승분 일부는 금요일 AI 급락 뒤 시장 반등 때문이다. 다음 달 대규모 배포가 예정돼 있다.",
+        "quote": "Tesla shares rose 13% today as it began rolling out FSD v15, which it says handles safety-critical cases 25x better.",
+        "quoteFrom": 1,
+        "others": [],
+        "refs": [
+          1,
+          3
+        ]
+      },
+      "news": [
+        {
+          "title": "Political and corporate leaders react to Huang's return as Nvidia CEO",
+          "url": "https://finance.yahoo.com/technology/articles/political-corporate-leaders-react-huangs-152140490.html",
+          "date": "2026-11-23",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Tesla Soars 13% as FSD V15 Rolls Out: Musk Calls It a “Banger Release”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-soars-13-fsd-v15-151250039.html",
+          "date": "2026-11-23",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "Tesla Stock Soars After Friday's Rout -- Musk Has a New AI Upgrade",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-soars-fridays-rout-150902835.html",
+          "date": "2026-11-23",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Tesla FSD V15 Rolling Out, Goes 'Wide' Next Month. Elon Musk Says It's 'Something Special.'",
+          "url": "https://finance.yahoo.com/m/b31af40e-5144-3249-9033-82521507fe84/tesla-fsd-v15-rolling-out%2C.html",
+          "date": "2026-11-23",
+          "publisher": "Investor's Business Daily"
+        },
+        {
+          "title": "WattEV’s Port of Oakland charging depot and new electric trucks bring cost parity with diesel to fleets",
+          "url": "https://finance.yahoo.com/energy/articles/wattev-port-oakland-charging-depot-150000774.html",
+          "date": "2026-11-23",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "Elon Musk warns AI industry faces a severe cash shortage",
+          "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-warns-ai-industry-142000122.html",
+          "date": "2026-11-23",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "Tesla Bulls Banking on SpaceX “Don’t Get the Dilution Math,” Says Gary Black. Tesla Trades at 3.4x SpaceX’s 2027 Multiple",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-bulls-banking-spacex-don-132048656.html",
+          "date": "2026-11-23",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "Tesla's autonomy ambitions just got a Wall Street vote of confidence",
+          "url": "https://finance.yahoo.com/markets/stocks/article/teslas-autonomy-ambitions-just-got-a-wall-street-vote-of-confidence-130035595.html",
+          "date": "2026-11-23",
+          "publisher": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SPCX",
+      "nameKo": "스페이스X",
+      "nameEn": "SPACE EXPLORATION TECHNOLOGIES CORP",
+      "ratePct": 9.1,
+      "price": 139.4194,
+      "amountUsd": 3557058598,
+      "industry": "Aerospace & Defense",
+      "industryKo": "항공우주·방산",
+      "story": {
+        "headline": "AI 반등 속 상승, 직접 원인 기사는 없다",
+        "detail": "엔비디아 복귀 이후 AI 관련주가 반등한 흐름 속에서 올랐다. 한편 버지니아·오레곤주가 그록(Grok)의 딥페이크 문제로 소송을 제기했고 법적 부담이 쌓이고 있다. 두 주는 금지명령과 민사 벌금 등을 요구한다. 제프리스가 현 수준에서 60% 넘게 오를 수 있다고 봤다는 기사도 있다. 직접 설명한 기사는 없다.",
+        "quote": "Lawsuits against Elon Musk's SpaceX are stacking up, with Virginia and Oregon becoming the first states to sue the company over issues with its Grok AI image generator.",
+        "quoteFrom": 6,
+        "others": [],
+        "refs": [
+          0,
+          6,
+          7
+        ]
+      },
+      "news": [
+        {
+          "title": "Political and corporate leaders react to Huang's return as Nvidia CEO",
+          "url": "https://finance.yahoo.com/technology/articles/political-corporate-leaders-react-huangs-152140490.html",
+          "date": "2026-11-23",
+          "publisher": "Reuters"
+        },
+        {
+          "title": "Tesla FSD V15 Rolling Out, Goes 'Wide' Next Month. Elon Musk Says It's 'Something Special.'",
+          "url": "https://finance.yahoo.com/m/b31af40e-5144-3249-9033-82521507fe84/tesla-fsd-v15-rolling-out%2C.html",
+          "date": "2026-11-23",
+          "publisher": "Investor's Business Daily"
+        },
+        {
+          "title": "Cathie Wood Swapped Nvidia for SpaceX Over the Risk of “Losing Jensen” to Musk. Oops.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-swapped-nvidia-spacex-144534719.html",
+          "date": "2026-11-23",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "Elon Musk warns AI industry faces a severe cash shortage",
+          "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-warns-ai-industry-142000122.html",
+          "date": "2026-11-23",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "SpaceX Stock: Is It a Buy at $130?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-buy-130-141402138.html",
+          "date": "2026-11-23",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "Update: SpaceX Sued by Virginia, Oregon Over Grok's Creation of Child Sexual Abuse Images, Non-Consensual Material",
+          "url": "https://finance.yahoo.com/technology/ai/articles/spacex-sued-virginia-oregon-over-140640309.html",
+          "date": "2026-11-23",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "SpaceX sued by Oregon, Virginia over AI deepfake porn, Grok safety claims",
+          "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+          "date": "2026-11-23",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "SpaceX shares can rally more than 60% from current levels, says Jefferies",
+          "url": "https://www.cnbc.com/2026/11/23/spacex-jefferies-buy-price-target.html",
+          "date": "2026-11-23",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "SNDK",
+      "nameKo": "샌디스크",
+      "nameEn": "SANDISK CORP",
+      "ratePct": 19.41,
+      "price": 94.62,
+      "amountUsd": 3345802373,
+      "industry": "Computer Hardware",
+      "industryKo": "컴퓨터 하드웨어",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Even If Sandisk's Profits Get Cut in Half, Here's What $5,000 in the Stock Could Be Worth by 2030",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/even-sandisks-profits-cut-half-144301892.html",
+          "date": "2026-11-23",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "Evercore Has Strong Verdict on Beaten-Down Sandisk Stock",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-strong-verdict-beaten-down-143948110.html",
+          "date": "2026-11-23",
+          "publisher": "GuruFocus.com"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "nameKo": "알파벳 A",
+      "nameEn": "ALPHABET INC",
+      "ratePct": 6.65,
+      "price": 282.92,
+      "amountUsd": 2568338424,
+      "industry": "Internet Content & Information",
+      "industryKo": "인터넷 콘텐츠",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "How GTA VI’s blockbuster launch fuels a booming content economy",
+          "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
+          "date": "2026-11-20",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "TSM",
+      "nameKo": "TSMC(ADR)",
+      "nameEn": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS EACH",
+      "ratePct": 17.32,
+      "price": 373.91,
+      "amountUsd": 2529253622,
+      "industry": "Semiconductors",
+      "industryKo": "반도체",
       "story": {
         "headline": "",
         "detail": "기사로는 이유를 찾지 못했다",
@@ -460,147 +458,326 @@ window.MOVERS_DATA = {
         "quoteFrom": -1,
         "others": [
           {
-            "n": 1,
-            "line": "Jefferies가 4분기 주택 거래 둔화로 단기 주가 부담을 경고"
+            "n": 4,
+            "line": "한국·대만·중국이 AI 급락 속 증시 안정책을 내놨고, TSMC는 지난주 15% 하락했다."
           }
         ],
         "refs": []
       },
       "news": [
         {
-          "title": "Mortgage and refinance interest rates today, Friday, November 20, 2026: Mortgage rates mixed leading up to the weekend",
-          "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-november-20-2026-mortgage-rates-mixed-leading-up-to-the-weekend-110000854.html",
-          "date": "2026-11-20",
-          "publisher": "Yahoo Personal Finance"
+          "title": "Is Trending Stock Taiwan Semiconductor Manufacturing Company Ltd. (TSM) a Buy Now?",
+          "url": "https://www.nasdaq.com/articles/trending-stock-taiwan-semiconductor-manufacturing-company-ltd-tsm-buy-now-0",
+          "date": "2026-11-23",
+          "publisher": "Zacks"
         },
         {
-          "title": "Zillow faces fourth-quarter housing slowdown as Jefferies warns of near-term share price pressure",
-          "url": "https://finance.yahoo.com/real-estate/articles/zillow-faces-fourth-quarter-housing-191000771.html",
-          "date": "2026-11-19",
-          "publisher": "Proactive"
+          "title": "Tollbooths Like Taiwan Semiconductor Rarely Get This Cheap and With October Revenue Up 60%, I am Taking Advantage",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tollbooths-taiwan-semiconductor-rarely-cheap-134532009.html",
+          "date": "2026-11-23",
+          "publisher": "24/7 Wall St."
         },
         {
-          "title": "Mortgage rates move higher again as inflation jitters mount: Mortgage and refinance interest rates today, Thursday, November 19, 2026",
-          "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-move-higher-again-as-inflation-jitters-mount-mortgage-and-refinance-interest-rates-today-thursday-november-19-2026-170044130.html",
-          "date": "2026-11-19",
-          "publisher": "Yahoo Personal Finance"
+          "title": "Worried About Nvidia? Buy This Fantastic Artificial Intelligence (AI) Stock Instead",
+          "url": "https://finance.yahoo.com/technology/ai/articles/worried-nvidia-buy-fantastic-artificial-032002826.html",
+          "date": "2026-11-23",
+          "publisher": "Motley Fool"
         },
         {
-          "title": "1 in 4 Americans have hidden in the bathroom to survive the holidays",
-          "url": "https://finance.yahoo.com/real-estate/articles/1-4-americans-hidden-bathroom-130000468.html",
-          "date": "2026-11-19",
-          "publisher": "PR Newswire"
+          "title": "Apple Will Have “One of the Top Three Agents in the World” Within 24 Months, Predicts Jason Calacanis",
+          "url": "https://finance.yahoo.com/technology/ai/articles/apple-one-top-three-agents-002624803.html",
+          "date": "2026-11-23",
+          "publisher": "TIKR"
         },
         {
-          "title": "Multifamily Rent Growth Hits 2.7% as Monthly Gains Cool",
-          "url": "https://finance.yahoo.com/real-estate/articles/multifamily-rent-growth-hits-2-131617154.html",
-          "date": "2026-11-18",
-          "publisher": "CRE Daily"
-        },
-        {
-          "title": "Zillow Group (ZG) Unveiled Four New Real Estate Tools",
-          "url": "https://finance.yahoo.com/real-estate/articles/zillow-group-zg-unveiled-four-091339581.html",
-          "date": "2026-11-18",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "Mortgage and refinance interest rates today, Tuesday, November 17, 2026: Mortgage rates seeing double-digit weekly increases",
-          "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-november-17-2026-mortgage-rates-seeing-double-digit-weekly-increases-110000891.html",
-          "date": "2026-11-17",
-          "publisher": "Yahoo Personal Finance"
-        },
-        {
-          "title": "Zillow launches tools to help answer moving's hardest questions",
-          "url": "https://finance.yahoo.com/real-estate/articles/zillow-launches-tools-help-answer-110000905.html",
-          "date": "2026-11-17",
-          "publisher": "PR Newswire"
+          "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
+          "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html",
+          "date": "2026-11-23",
+          "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "RAYA",
-      "nameKo": "에라약 파워 솔루션 그룹",
-      "nameEn": "ERAYAK POWER SOLUTION GROUP INC",
-      "ratePct": 22.1,
-      "price": 0.5995,
-      "amountUsd": 13101833,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "NBIS",
+      "nameKo": "네비우스 그룹",
+      "nameEn": "NEBIUS GROUP N V",
+      "ratePct": 29.55,
+      "price": 105.34,
+      "amountUsd": 1999886010,
+      "industry": "Internet Content & Information",
+      "industryKo": "인터넷 콘텐츠",
       "story": {
         "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "CIGL",
-      "nameKo": "콩코드 인터내셔널 그룹",
-      "nameEn": "CONCORDE INTERNATIONAL GROUP LTD",
-      "ratePct": 79.51,
-      "price": 0.3127,
-      "amountUsd": 12818975,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "SEGG",
-      "nameKo": "스포 엔터",
-      "nameEn": "SPORTS ENTMT GAMING GBL CORP",
-      "ratePct": 8.02,
-      "price": 0.7502,
-      "amountUsd": 11944947,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "티켓스텁 재출시 발표, 3억 달러 지분매각 약정 종료",
-        "detail": "SEGG 미디어가 11월 25일 새 플랫폼으로 TicketStub.com을 재출시하고 블랙프라이데이 행사를 연다고 발표했다. 하루 전에는 3억 달러 규모 ELOC(주식 매각을 통한 자금조달 약정)를 종료하고 별도 자금 조달 약정으로 전환한다고 밝혔다. 18일에는 Lottery.com을 재출시했고 17일에는 나스닥 상장 요건 회복을 확인한 서한을 공개했다. 오늘 상승을 직접 설명한 기사는 없다.",
+        "detail": "낙폭이 컸던 만큼 반등도 컸지만 불안이 완전히 사라진 것은 아니다.",
         "quote": "",
         "quoteFrom": -1,
         "others": [],
         "refs": [
-          0,
-          1,
-          2,
-          3
+          0
         ]
       },
       "news": [
         {
-          "title": "SEGG Media to Relaunch TicketStub.com November 25, Targeting Holiday Ticket Gifting",
-          "url": "https://finance.yahoo.com/media-advertising/articles/segg-media-relaunch-ticketstub-com-145100306.html",
+          "title": "Nvidia reinstates Jensen Huang as CEO, stock rockets",
+          "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
+          "date": "2026-11-23",
+          "publisher": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "nameKo": "메타 플랫폼스(페이스북)",
+      "nameEn": "META PLATFORMS INC",
+      "ratePct": 5.78,
+      "price": 593.26,
+      "amountUsd": 1958017848,
+      "industry": "Internet Content & Information",
+      "industryKo": "인터넷 콘텐츠",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Zacks Investment Ideas feature highlights: Anthropic, SpaceX and Meta Platforms",
+          "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-anthropic-spacex-and-meta-platforms",
+          "date": "2026-11-23",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Holiday Shopping Scams Hiding in Plain Sight: A Cyber Threat Expert's Guide to Spotting Them",
+          "url": "https://finance.yahoo.com/technology/ai/articles/holiday-shopping-scams-hiding-plain-145600828.html",
+          "date": "2026-11-23",
+          "publisher": "PR Newswire"
+        },
+        {
+          "title": "Mark Zuckerberg’s Meta Platforms Is Pouring Up to $145 Billion Into AI This Year. Investors Should Watch This 1 Number.",
+          "url": "https://www.nasdaq.com/articles/mark-zuckerbergs-meta-platforms-pouring-145-billion-ai-year-investors-should-watch-1",
+          "date": "2026-11-22",
+          "publisher": "The Motley Fool"
+        },
+        {
+          "title": "Meta is stuck in a trading range. The charts show where to buy",
+          "url": "https://www.cnbc.com/2026/11/20/meta-is-stuck-in-a-trading-range-the-charts-show-where-to-buy.html",
           "date": "2026-11-20",
-          "publisher": "GlobeNewswire"
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "nameKo": "알파벳 C",
+      "nameEn": "ALPHABET INC",
+      "ratePct": 6.33,
+      "price": 280.72,
+      "amountUsd": 1869551127,
+      "industry": "Internet Content & Information",
+      "industryKo": "인터넷 콘텐츠",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "How GTA VI’s blockbuster launch fuels a booming content economy",
+          "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
+          "date": "2026-11-20",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "nameKo": "인텔",
+      "nameEn": "INTEL CORP",
+      "ratePct": 15.34,
+      "price": 59.145,
+      "amountUsd": 1782689977,
+      "industry": "Semiconductors",
+      "industryKo": "반도체",
+      "story": {
+        "headline": "엔비디아 복귀에 반도체 랠리, 인텔도 동반 상승",
+        "detail": "엔비디아 급등과 함께 인텔도 13% 오른 것으로 전해졌다. 지난주 반도체주가 조정 구간에 빠진 뒤 매수세가 AI 하드웨어로 돌아온 영향이다. 인텔 고유의 호재를 설명한 기사는 확인되지 않는다.",
+        "quote": "After a brutal week that dragged chip stocks into correction territory, buyers are rushing back into AI hardware.",
+        "quoteFrom": 1,
+        "others": [],
+        "refs": [
+          1,
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "Arm Soars 13% as CEO Haas Stays Through 2033, Says He’s “Never Been More Confident”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-soars-13-ceo-haas-145530138.html",
+          "date": "2026-11-23",
+          "publisher": "TIKR"
         },
         {
-          "title": "SEGG Media Terminates $300 Million Equity Line of Credit (ELOC) and Pivots Towards Enhanced Growth Funding",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/segg-media-terminates-300-million-161000531.html",
-          "date": "2026-11-19",
-          "publisher": "GlobeNewswire"
+          "title": "NVIDIA Jumps 28% as Jensen Huang Reportedly Reinstated as CEO; Intel Rallies 13%, AMD Gains 7%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-jumps-28-chip-stocks-141339800.html",
+          "date": "2026-11-23",
+          "publisher": "24/7 Wall St."
         },
         {
-          "title": "SEGG Media Relaunches Lottery.com Worldwide, Built for Advertising, Sponsorship and Affiliate Revenue",
-          "url": "https://finance.yahoo.com/media-advertising/articles/segg-media-relaunches-lottery-com-130000355.html",
-          "date": "2026-11-18",
-          "publisher": "GlobeNewswire"
+          "title": "Intel CEO Lip-Bu Tan Has Incredible News for Investors. Is This the Much-Needed Catalyst for the Stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-ceo-lip-bu-tan-124702574.html",
+          "date": "2026-11-23",
+          "publisher": "Motley Fool"
         },
         {
-          "title": "SEGG Media Publishes Nasdaq Letter Confirming Regained Listing Compliance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/segg-media-publishes-nasdaq-letter-182000827.html",
-          "date": "2026-11-17",
-          "publisher": "GlobeNewswire"
+          "title": "Trump says he still has confidence in Lutnick",
+          "url": "https://www.cnbc.com/2026/11/20/trump-lutnick-commerce-china-ai.html",
+          "date": "2026-11-20",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWV",
+      "nameKo": "코어위브",
+      "nameEn": "COREWEAVE INC",
+      "ratePct": 27.64,
+      "price": 50.43,
+      "amountUsd": 1611140868,
+      "industry": "Software - Infrastructure",
+      "industryKo": "인프라 소프트웨어",
+      "story": {
+        "headline": "황 복귀로 엔비디아 AI 금융 불안 완화, 코어위브 급등",
+        "detail": "황 복귀 발표 뒤 코어위브가 약 20%(장 초반 CNBC 기준) 올랐고 오라클은 12% 올랐다. 황 사임으로 엔비디아가 'AI의 중앙은행'으로서 해온 금융 지원 불안이 커져 네오클라우드가 큰 타격을 받았었다. 코어위브는 직전 한 달 13% 하락했다. 불안 해소에 따른 반등이라 재차 흔들릴 수 있다.",
+        "quote": "Shares of CoreWeave and Oracle surged Monday, after the return of Jensen Huang as Nvidia's CEO gave the artificial intelligence trade new life to start the week.",
+        "quoteFrom": 2,
+        "others": [
+          {
+            "n": 1,
+            "line": "애플라이드 디지털이 150MW 18년 임대를 체결했다."
+          }
+        ],
+        "refs": [
+          2,
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "Nvidia reinstates Jensen Huang as CEO, stock rockets",
+          "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
+          "date": "2026-11-23",
+          "publisher": "Yahoo Finance"
+        },
+        {
+          "title": "Applied Digital Stock Gets A Lift From New 18 Year Lease",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-stock-gets-lift-140824041.html",
+          "date": "2026-11-23",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "CoreWeave, Oracle soar as Huang’s return relieves Nvidia AI financing fears",
+          "url": "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html",
+          "date": "2026-11-23",
+          "publisher": "CNBC"
+        },
+        {
+          "title": "Is CRWV Worth Buying as AI Growth Collides With Heavy Debt and Losses?",
+          "url": "https://www.nasdaq.com/articles/crwv-worth-buying-ai-growth-collides-heavy-debt-and-losses",
+          "date": "2026-11-20",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Can CRWV Turn Its $132.5B Backlog Into Durable, Profitable AI Growth?",
+          "url": "https://www.nasdaq.com/articles/can-crwv-turn-its-1325b-backlog-durable-profitable-ai-growth",
+          "date": "2026-11-20",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "CRWV Rises 14.5% in a Week as AI Demand Tests the Rebound's Durability",
+          "url": "https://www.nasdaq.com/articles/crwv-rises-145-week-ai-demand-tests-rebounds-durability",
+          "date": "2026-11-20",
+          "publisher": "Zacks"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "nameKo": "마벨 테크놀로지 그룹",
+      "nameEn": "MARVELL TECHNOLOGY INC",
+      "ratePct": 22.51,
+      "price": 149.81,
+      "amountUsd": 1343328443,
+      "industry": "Semiconductors",
+      "industryKo": "반도체",
+      "story": {
+        "headline": "기사로는 반도체 반등 외 뚜렷한 이유 없음",
+        "detail": "마벨이 페굴린 솔루션즈와 CXL·포토닉스 기반 AI 메모리 인프라 협력을 발표했다. 다만 이것이 주가 급등을 직접 설명하는지는 불분명하다. 직접 설명한 기사는 없다.",
+        "quote": "Marvell Technology (NasdaqGS:MRVL) announced a collaboration with Penguin Solutions to scale AI memory infrastructure using CXL and photonics.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "What Is Marvell Technology (MRVL) Building In AI Memory Infrastructure?",
+          "url": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-building-ai-140857801.html",
+          "date": "2026-11-23",
+          "publisher": "Simply Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "SKHY",
+      "nameKo": "SK하이닉스(ADR)",
+      "nameEn": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS",
+      "ratePct": 23.14,
+      "price": 127.54,
+      "amountUsd": 1319097500,
+      "industry": "Semiconductors",
+      "industryKo": "반도체",
+      "story": {
+        "headline": "엔비디아 복귀 AI 반등 속 SK하이닉스 ADR 급등",
+        "detail": "기사로는 직접적인 원인이 확인되지 않는다. 엔비디아 약정이 5,180억 달러로 늘고 대부분이 메모리라는 UBS 분석이 나왔다. 소프트뱅크가 1조 달러 규모 인수를 검토했다는 풍문 기사도 있으나 사실 여부는 확인되지 않는다. 직접 설명한 기사는 없다.",
+        "quote": "NVIDIA's total commitments rose to $518 billion from $366 billion a quarter earlier, mostly memory it has agreed to buy.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "Warning for Nvidia Investors: UBS Says It Risks Becoming “Beholden to These Purchase Commitments”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/warning-nvidia-investors-ubs-says-133629322.html",
+          "date": "2026-11-23",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "Qualcomm Is Down 42% and SK hynix Has Plunged 48% Amid the AI Sell-Off. Which Is the Better Stock to Buy for 2027?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-down-42-sk-hynix-102002231.html",
+          "date": "2026-11-23",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "Market Chatter: SoftBank Considered Potential $1 Trillion SK Hynix Buyout",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-softbank-considered-potential-100537912.html",
+          "date": "2026-11-23",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "SK Hynix’s U.S. shares trade at a premium. Hedge fund bets the gap will close",
+          "url": "https://www.cnbc.com/2026/11/20/sk-hynix-shares-ai-trade-hedge-fund.html",
+          "date": "2026-11-20",
+          "publisher": "CNBC"
         }
       ]
     }
