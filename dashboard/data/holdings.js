@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-23T13:00:11.627Z",
+  "updated": "2026-11-23T22:10:07.080Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "한화증권 신승윤",
           "ko": "팔란티어 분기 매출이 컨센서스를 웃돌며 95.9% 증가",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 분기 매출이 컨센서스를 웃돌며 95.9% 증가",
           "easy": "증권사 리포트에 따르면 팔란티어 매출은 23.1억 달러로 전년 대비 95.9% 늘었고 컨센서스 21.7억 달러를 넘었다. 조정 EPS도 0.44달러로 컨센서스 0.41달러보다 높았다. 가이던스는 4분기 매출 중간값 26.5억 달러, 2026년 연간 매출 85.3억 달러다.",
           "whyMatters": "보유 중이라면 실적이 시장 예상을 웃돌고 가이던스도 제시된 점은 주가에 유리한 재료다. 다만 주가 반응은 기사에 나오지 않았다.",
@@ -139,21 +139,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어는 AI 에이전트와 경쟁 아닌 보완 관계라는 평가",
           "easy": "리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 보완하는 관계라고 본다. 소버린 AI 수요가 미국 민간에도 퍼지고, 파일럿에서 실제 도입까지 걸리는 기간이 짧아졌다는 점을 연간 가이던스 상향의 근거로 들었다. 3분기 실적이 강했다는 점도 근거다.",
           "whyMatters": "보유 중이라면 AI 에이전트가 팔란티어를 대체할 수 있다는 우려를 덜어 주는 시각이다. 다만 증권사 한 곳의 해석이다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "cnbc",
-          "title": "These stocks on Josh Brown's list got washed out in last week's sell-off. Where to go from here",
-          "url": "https://www.cnbc.com/2026/11/09/these-stocks-on-josh-browns-list-got-washed-out-in-last-weeks-sell-off-where-to-go-from-here.html",
-          "date": "2026-11-09",
-          "publisher": "CNBC",
-          "ko": "CNBC, 지난주 급락장에서 밀린 종목들 점검",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "CNBC, 지난주 급락장에서 밀린 종목들 점검",
-          "easy": "CNBC가 Josh Brown의 종목 리스트 중 지난주 하락장에서 크게 밀린 종목들과 앞으로의 방향을 다룬 기사다. 제공된 본문에는 저작권 문구만 있어 실제 내용을 읽지 못했다. 팔란티어가 여기에 포함되는지는 기사에 안 나왔다.",
-          "whyMatters": "본문이 없어 팔란티어와의 관련성이나 영향을 판단할 수 없다.",
           "quote": null,
           "read": false
         }
