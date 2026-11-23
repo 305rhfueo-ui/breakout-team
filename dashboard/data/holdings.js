@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-22T22:10:10.107Z",
+  "updated": "2026-11-23T13:00:11.627Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -8,6 +8,21 @@ window.HOLDINGS_DATA = {
       "side": "long",
       "items": [
         {
+          "type": "report",
+          "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
+          "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegi.pdf",
+          "date": "2026-11-23",
+          "publisher": "한화증권 신승윤",
+          "ko": "팔란티어 분기 매출이 컨센서스를 웃돌며 95.9% 증가",
+          "tone": "good",
+          "isNew": true,
+          "headline": "팔란티어 분기 매출이 컨센서스를 웃돌며 95.9% 증가",
+          "easy": "증권사 리포트에 따르면 팔란티어 매출은 23.1억 달러로 전년 대비 95.9% 늘었고 컨센서스 21.7억 달러를 넘었다. 조정 EPS도 0.44달러로 컨센서스 0.41달러보다 높았다. 가이던스는 4분기 매출 중간값 26.5억 달러, 2026년 연간 매출 85.3억 달러다.",
+          "whyMatters": "보유 중이라면 실적이 시장 예상을 웃돌고 가이던스도 제시된 점은 주가에 유리한 재료다. 다만 주가 반응은 기사에 나오지 않았다.",
+          "quote": null,
+          "read": false
+        },
+        {
           "type": "news",
           "title": "Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.",
           "url": "https://www.nasdaq.com/articles/palantir-stock-could-finish-2026-lower-its-only-2-losing-years-ended-very-differently",
@@ -15,7 +30,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어, 2026년을 하락으로 마감할 수도 있다는 분석",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어, 2026년을 하락으로 마감할 수도 있다는 분석",
           "easy": "기사 제목과 요약만 확인된 상태다. 팔란티어 주가는 2021년에 약 23%, 2022년에 또 65% 하락했는데, 이 두 번의 하락 연도가 이후 어떻게 끝났는지를 짚으며 2026년에도 하락 마감할 수 있다고 말하는 글로 보인다. 본문이 없어 구체적인 원인과 전망은 기사에 안 나왔다.",
           "whyMatters": "가격이 올라야 이익인 보유자에게는 과거 하락 사례를 짚는 글이라 참고 정도의 의미다. 올해 하락 가능성의 근거는 본문이 없어 확인되지 않았다.",
@@ -115,15 +130,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
-          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegg.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegi.pdf",
           "date": "2026-11-12",
           "publisher": "신한투자증권 심지현",
-          "ko": "팔란티어, AI 에이전트와 경쟁 아닌 보완 관계라는 증권사 평가",
+          "ko": "팔란티어는 AI 에이전트와 경쟁 아닌 보완 관계라는 평가",
           "tone": "good",
           "isNew": false,
-          "headline": "팔란티어, AI 에이전트와 경쟁 아닌 보완 관계라는 증권사 평가",
-          "easy": "국내 증권사 리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 봤다. 27년 데이터 산업은 AI·AI 에이전트와 얼마나 잘 연계되느냐가 관건인데, 팔란티어는 AI랩의 엔터프라이즈 에이전트와 데이터 플랫폼의 시멘틱 계층 상향 침투라는 강점이 있다는 설명이다. 연간 가이던스 상향 근거로는 소버린 AI 수요의 미국 민간 기여, 파일럿에서 생산 단계로 가는 기간 단축과 계약 확장 속도 상승, 3분기 실적 강세를 들었다.",
-          "whyMatters": "보유자에게는 AI 에이전트 확산이 팔란티어 사업을 위협하지 않고 오히려 수요로 이어질 수 있다는 증권사의 긍정적 시각이다. 다만 본문 없이 증권사 요약만 확인한 것이라 세부 근거와 수치는 기사에 안 나왔다.",
+          "headline": "팔란티어는 AI 에이전트와 경쟁 아닌 보완 관계라는 평가",
+          "easy": "리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 보완하는 관계라고 본다. 소버린 AI 수요가 미국 민간에도 퍼지고, 파일럿에서 실제 도입까지 걸리는 기간이 짧아졌다는 점을 연간 가이던스 상향의 근거로 들었다. 3분기 실적이 강했다는 점도 근거다.",
+          "whyMatters": "보유 중이라면 AI 에이전트가 팔란티어를 대체할 수 있다는 우려를 덜어 주는 시각이다. 다만 증권사 한 곳의 해석이다.",
           "quote": null,
           "read": false
         },
