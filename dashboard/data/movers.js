@@ -1,153 +1,616 @@
 window.MOVERS_DATA = {
-  "updated": "2026-11-23T15:33:19.177Z",
-  "basis": "11/23 10:30 ET 기준",
+  "updated": "2026-11-24T15:33:50.492Z",
+  "basis": "11/24 10:30 ET 기준",
   "exact": true,
-  "amtMinK": 300000,
+  "amtMinK": 10000,
   "themes": [
     {
-      "name": "엔비디아 황 CEO 복귀 AI 반등",
-      "why": "황 복귀가 엔비디아의 AI 금융 지원 불안을 덜어 AI 관련주가 함께 반등했다.",
+      "name": "사노피-인스메드 인수",
+      "why": "사노피가 인스메드를 약 410억 달러 현금에 인수하기로 발표해 양사 주가가 함께 올랐다.",
       "members": [
         {
-          "ticker": "NVDA",
-          "n": 4
+          "ticker": "INSM",
+          "n": 5
         },
         {
-          "ticker": "CRWV",
+          "ticker": "SNY",
+          "n": 5
+        }
+      ]
+    },
+    {
+      "name": "소매업체 3분기 실적·전망",
+      "why": "애버크롬비, 달러 트리, 딕스가 3분기 실적 호조와 연간 전망 상향을 내놨다.",
+      "members": [
+        {
+          "ticker": "ANF",
           "n": 2
         },
         {
-          "ticker": "NBIS",
-          "n": 0
-        },
-        {
-          "ticker": "AMD",
-          "n": 2
-        },
-        {
-          "ticker": "INTC",
+          "ticker": "DLTR",
           "n": 1
+        },
+        {
+          "ticker": "DKS",
+          "n": 3
         }
       ]
     }
   ],
   "groups": [
     {
-      "industry": "Semiconductors",
-      "ko": "반도체",
+      "industry": "Biotechnology",
+      "ko": "바이오테크",
       "tickers": [
-        "NVDA",
-        "MU",
-        "AMD",
-        "TSM",
-        "INTC",
-        "MRVL",
-        "SKHY"
+        "INSM",
+        "KYMR"
       ]
     },
     {
-      "industry": "Internet Content & Information",
-      "ko": "인터넷 콘텐츠",
+      "industry": "Apparel Retail",
+      "ko": "의류 유통",
       "tickers": [
-        "GOOGL",
-        "NBIS",
-        "META",
-        "GOOG"
+        "ANF",
+        "BURL"
       ]
     }
   ],
   "items": [
     {
-      "ticker": "NVDA",
-      "nameKo": "엔비디아",
-      "nameEn": "NVIDIA CORP",
-      "ratePct": 35.87,
-      "price": 170.56,
-      "amountUsd": 40214459929,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
+      "ticker": "INSM",
+      "nameKo": "인스메드",
+      "nameEn": "INSMED INC",
+      "ratePct": 14.26,
+      "price": 170.355,
+      "amountUsd": 5008766807,
+      "industry": "Biotechnology",
+      "industryKo": "바이오테크",
       "story": {
-        "headline": "젠슨 황 CEO 복귀 발표에 엔비디아 급반등",
-        "detail": "엔비디아가 월요일 젠슨 황을 CEO로 복직시키자 주가가 약 34%(기사 기준) 뛰었다. 트럼프 대통령은 CNBC에 이사회가 국가안보 위험 여부에 대해 확인을 요청했고 정부가 보증을 줬다고 말했다. 사임 때 불거진 AI 투자 불안이 걷히며 반등이 컸다. 다만 급락 뒤 반등이어서 변동성이 크다.",
-        "quote": "Nvidia reinstated Jensen Huang as CEO on Monday and the stock jumped 34%.",
-        "quoteFrom": 4,
-        "others": [
-          {
-            "n": 5,
-            "line": "황 복귀와 AI 랠리, 연준 긴축 베팅에 달러가 19개월 만의 고점을 기록했다."
-          }
-        ],
+        "headline": "사노피가 410억 달러 현금 인수 발표, 주당 175달러",
+        "detail": "사노피가 인스메드를 주당 175달러 현금, 약 410억 달러에 인수하기로 했다. 2023년 이후 제약업계 최대 거래다. 인스메드 주가는 오전 거래에서 14.3% 올라 약 170.40달러였다. 11월 19일에도 블룸버그의 인수 추진 보도로 24% 오른 바 있다. 거래는 2027년 상반기 완료 예정이다. 인수가(175달러) 근처라 추가 상승 여력은 제한적일 수 있다. 구겐하임과 캔터 피츠제럴드는 목표가 175달러로 투자의견을 중립으로 내렸다.",
+        "quote": "Insmed shares rallied 14% in morning trading Tuesday after Sanofi announced it would buy the smaller drugmaker for $41 billion, marking the largest pharma deal since 2023.",
+        "quoteFrom": 5,
+        "others": [],
         "refs": [
-          4,
-          7,
-          6
+          0,
+          1,
+          2,
+          3,
+          5
         ]
       },
       "news": [
         {
-          "title": "NVIDIA Corporation (NVDA) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://www.nasdaq.com/articles/nvidia-corporation-nvda-trending-stock-facts-know-betting-it-1",
-          "date": "2026-11-23",
-          "publisher": "Zacks"
+          "title": "Insmed (INSM) Stock Is Up 14.3% Today: Sanofi $41 Billion Acquisition",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/insmed-insm-stock-14-3-150055705.html",
+          "date": "2026-11-24",
+          "publisher": "GuruFocus.com"
         },
         {
-          "title": "Nvidia live updates: Jensen Huang reinstated as CEO;  Trump says no reason to believe Huang a national security risk",
-          "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-no-reason-to-believe-huang-a-national-security-risk-152429808.html",
-          "date": "2026-11-23",
-          "publisher": "Yahoo Finance"
+          "title": "Insmed Soars 14% on $41 Billion Sanofi Buyout: “A Major Strategic Step”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/insmed-soars-14-41-billion-145234979.html",
+          "date": "2026-11-24",
+          "publisher": "TIKR"
         },
         {
-          "title": "Nvidia reinstates Jensen Huang as CEO",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-reinstates-jensen-huang-ceo-142249052.html",
-          "date": "2026-11-23",
-          "publisher": "CBS News"
+          "title": "Guggenheim Downgrades Insmed to Neutral From Buy, $175",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/guggenheim-downgrades-insmed-neutral-buy-140253865.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "Political and corporate leaders react to Huang's return as Nvidia CEO",
-          "url": "https://finance.yahoo.com/technology/articles/political-corporate-leaders-react-huangs-152140490.html",
-          "date": "2026-11-23",
-          "publisher": "Reuters"
+          "title": "Cantor Fitzgerald Downgrades Insmed to Neutral From Overweight, $175 Price Target",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-downgrades-insmed-neutral-140249931.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "Jensen Huang Is Back as Nvidia CEO and the Stock Is Soaring. Here’s What Selling at Friday’s Low Just Cost an Investor With $100,000 in Nvidia",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-back-nvidia-ceo-152100653.html",
-          "date": "2026-11-23",
-          "publisher": "24/7 Wall St."
+          "title": "Sector Update: Healthcare",
+          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-135755871.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "Dollar jumps on hawkish Fed bets, AI rally",
-          "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-edges-off-19-month-041309314.html",
-          "date": "2026-11-23",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Trump says Nvidia board made right call on Huang reinstatement",
-          "url": "https://finance.yahoo.com/technology/articles/trump-says-nvidia-board-made-142832710.html",
-          "date": "2026-11-23",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Trump tells CNBC he spoke to Nvidia board directly about Jensen Huang",
-          "url": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
-          "date": "2026-11-23",
+          "title": "Sanofi to buy Insmed in pharma’s biggest deal in three years",
+          "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
+          "date": "2026-11-24",
           "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "MU",
-      "nameKo": "마이크론 테크놀로지",
-      "nameEn": "MICRON TECHNOLOGY INC",
-      "ratePct": 20.54,
-      "price": 716.635,
-      "amountUsd": 9250614817,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
+      "ticker": "SNY",
+      "nameKo": "사노피(ADR)",
+      "nameEn": "SANOFI SPON ADR ECH REP 0.5 ORD SHS",
+      "ratePct": 9.27,
+      "price": 51.105,
+      "amountUsd": 230966083,
+      "industry": null,
+      "industryKo": null,
       "story": {
-        "headline": "황 복귀 속 AI 반도체 반등, 마이크론 공급계약 우려 완화",
-        "detail": "마이크론이 장 초반 15% 오른 것으로 전해졌다. CEO가 고객들이 장기 구매계약(take-or-pay, 안 사도 대금을 내는 계약)을 깰 것으로 보지 않는다고 말했다. 고객 예치금과 약정이 320억 달러지만 2030년까지 매출의 약 35%만 덮는다. 금요일 AI 급락 뒤 반도체 전반 반등 영향도 있어 보이나 직접 원인을 명시한 기사는 없다. 엔비디아의 메모리 구매 약정이 5,180억 달러로 늘었다는 UBS 경고도 변수다.",
-        "quote": "Micron is soaring 15% this morning, just a few days after CEO Sanjay Mehrotra said he doesn't expect customers to break their take-or-pay supply deals.",
-        "quoteFrom": 0,
+        "headline": "인스메드 410억 달러 인수 발표에 사노피 ADR 상승",
+        "detail": "사노피가 호흡기·희귀질환 강화를 위해 인스메드를 약 410억 달러 전액 현금으로 인수한다. 파리 증시에서 사노피 주가는 8% 올랐고 ADR(미국 예탁증서)도 상승했다. 바클레이스는 주력 약 듀피젠트의 특허 만료 전망을 크게 개선한다며 \"한 줄기 신선한 공기\"라 평가했다. 거래는 2027년 상반기 완료, 2028년 말까지 주당순이익에 보탬이 될 전망이다. 다만 제프리스는 연구개발 의문을 해결하진 못하고 시간을 벌어주는 수준이라고 했고, 아스트라제네카의 경쟁 약물도 변수다. 인수 발표일인 11월 19일 보도 때는 사노피가 2.9% 하락한 적도 있다.",
+        "quote": "Barclays analysts called the deal a \"breath of fresh air,\" significantly improving Sanofi's Dupixent patent expiry outlook by adding Insmed's established respiratory assets Brinsupri and Arikayce, plus a late-stage pipeline offering further potential upside.",
+        "quoteFrom": 5,
+        "others": [],
+        "refs": [
+          0,
+          4,
+          5
+        ]
+      },
+      "news": [
+        {
+          "title": "Sanofi (SNY) To Acquire Insmed In $41 Billion Deal To Expand Respiratory Disease Portfolio; Stock Up",
+          "url": "https://www.nasdaq.com/articles/sanofi-sny-acquire-insmed-41-billion-deal-expand-respiratory-disease-portfolio-stock",
+          "date": "2026-11-24",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "Insmed (INSM) Stock Is Up 14.3% Today: Sanofi $41 Billion Acquisition",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/insmed-insm-stock-14-3-150055705.html",
+          "date": "2026-11-24",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Insmed Soars 14% on $41 Billion Sanofi Buyout: “A Major Strategic Step”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/insmed-soars-14-41-billion-145234979.html",
+          "date": "2026-11-24",
+          "publisher": "TIKR"
+        },
+        {
+          "title": "Sector Update: Healthcare",
+          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-135755871.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Sanofi Agrees to $41 Billion Insmed Deal. Why Its a Win Win for Both Stocks.",
+          "url": "https://finance.yahoo.com/m/7a952b43-9d5d-34d0-a5f6-868bdeb1ee28/sanofi-agrees-to-%2441-billion.html",
+          "date": "2026-11-24",
+          "publisher": "Barrons.com"
+        },
+        {
+          "title": "Sanofi to buy Insmed in pharma’s biggest deal in three years",
+          "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
+          "date": "2026-11-24",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "ANF",
+      "nameKo": "애버크롬비 앤드 피치",
+      "nameEn": "ABERCROMBIE & FITCH CO",
+      "ratePct": 25.32,
+      "price": 176.01,
+      "amountUsd": 195582312,
+      "industry": "Apparel Retail",
+      "industryKo": "의류 유통",
+      "story": {
+        "headline": "3분기 호실적에 연간 전망 상향",
+        "detail": "애버크롬비가 3분기 실적과 매출이 예상을 웃돌았고 연간 전망도 올렸다. 주당순이익 서프라이즈(예상 대비 초과폭)는 +21.27%, 매출은 +4.94%였다. 16분기 연속 성장을 이어갔고 CEO는 또 한 번의 사상 최대 매출을 기대한다고 밝혔다. 이런 호실적과 상향된 전망이 주가를 끌어올린 것으로 보인다. 장중 상승폭은 매체마다 다르게 집계됐다.",
+        "quote": "Abercrombie & Fitch Co. (NYSE:ANF) reported third-quarter financial results above analyst expectations, extending its growth streak to 16 consecutive quarters and raising its full-year fiscal 2026 outlook.",
+        "quoteFrom": 3,
+        "others": [],
+        "refs": [
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      "news": [
+        {
+          "title": "Abercrombie & Fitch (ANF) Tops Q3 Earnings and Revenue Estimates",
+          "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-tops-q3-earnings-and-revenue-estimates",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Abercrombie & Fitch Powers Through Another Strong Quarter, Raises Outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-powers-another-strong-151608813.html",
+          "date": "2026-11-24",
+          "publisher": "WWD"
+        },
+        {
+          "title": "Why Is Abercrombie & Fitch (ANF) Stock Soaring Today? Q3 Beat, Raised Outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-abercrombie-fitch-anf-stock-150033497.html",
+          "date": "2026-11-24",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Abercrombie & Fitch Shares Rise 4.7% as Record Third-Quarter Sales Drive Earnings Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-shares-rise-4-142221382.html",
+          "date": "2026-11-24",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Abercrombie & Fitch CEO Eyes ‘Another Year Of Record Net Sales’ After ‘Best-Ever’ Q3 Topline Across Brands",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-ceo-eyes-another-135936554.html",
+          "date": "2026-11-24",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "Abercrombie & Fitch Stock Heads Toward Best Day in 3 Months on Sales Growth",
+          "url": "https://finance.yahoo.com/m/cd90fb5f-4b71-3435-8fb6-dfe8027dc2f8/abercrombie-%26-fitch-stock.html",
+          "date": "2026-11-24",
+          "publisher": "Barrons.com"
+        },
+        {
+          "title": "Abercrombie & Fitch Lifts Outlook as Sales Jump",
+          "url": "https://finance.yahoo.com/m/92643b0e-deca-30a3-bdd3-3fa0db7122bf/abercrombie-%26-fitch-lifts.html",
+          "date": "2026-11-24",
+          "publisher": "The Wall Street Journal"
+        },
+        {
+          "title": "Compared to Estimates, Abercrombie (ANF) Q3 Earnings: A Look at Key Metrics",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-abercrombie-anf-q3-133004295.html",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        }
+      ]
+    },
+    {
+      "ticker": "DLTR",
+      "nameKo": "달러 트리",
+      "nameEn": "DOLLAR TREE INC",
+      "ratePct": 10.47,
+      "price": 153.6576,
+      "amountUsd": 191479496,
+      "industry": "Discount Stores",
+      "industryKo": "할인점",
+      "story": {
+        "headline": "3분기 실적 호조와 연간 이익 전망 상향",
+        "detail": "달러 트리가 3분기 매출과 조정 주당순이익이 모두 예상을 넘었고 연간 조정 이익 전망을 올렸다. 매출은 전년 대비 6.9% 늘었다. 6분기 연속 실적 호조이며 CEO는 방문객 증가가 동력이라고 밝혔다. 주가는 초반 11% 올라 154.24달러, 2년 최고 수준까지 올랐다.",
+        "quote": "Dollar Tree, Inc. (NASDAQ:DLTR) shares rose 11% to $154.24 in early trading on Tuesday after the discount retailer beat Wall Street's third-quarter revenue and adjusted earnings-per-share estimates and raised its full-year adjusted earnings forecast.",
+        "quoteFrom": 1,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          2,
+          6
+        ]
+      },
+      "news": [
+        {
+          "title": "Dollar Tree stock pops as thrifty shoppers power a 6th straight earnings beat",
+          "url": "https://finance.yahoo.com/markets/stocks/article/dollar-tree-stock-pops-as-thrifty-shoppers-power-a-6th-straight-earnings-beat-150530467.html",
+          "date": "2026-11-24",
+          "publisher": "Yahoo Finance"
+        },
+        {
+          "title": "Dollar Tree shares rise 11% after third-quarter revenue beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-shares-rise-11-143700329.html",
+          "date": "2026-11-24",
+          "publisher": "Proactive"
+        },
+        {
+          "title": "Dollar Tree Lifts Full-Year Earnings Outlook Following Fiscal Third-Quarter Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-lifts-full-earnings-143123901.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Sector Update: Consumer",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-135819694.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Why Is Dollar Tree Stock Rising 6% Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-dollar-tree-stock-rising-134332768.html",
+          "date": "2026-11-24",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Dollar Tree (DLTR) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-dltr-reports-q3-133002985.html",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "DLTR Stock Rockets To Over 2-Year High After Q3 Beat And Raise: CEO Says Traffic Growth Drove Momentum",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dltr-stock-rockets-over-2-132405745.html",
+          "date": "2026-11-24",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "Dollar Tree stock jumps on earnings beat and raised outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-stock-jumps-earnings-121709851.html",
+          "date": "2026-11-24",
+          "publisher": "Investing.com"
+        }
+      ]
+    },
+    {
+      "ticker": "BURL",
+      "nameKo": "벌링턴 스토어스",
+      "nameEn": "BURLINGTON STORES INC",
+      "ratePct": 10.12,
+      "price": 258.96,
+      "amountUsd": 182862532,
+      "industry": "Apparel Retail",
+      "industryKo": "의류 유통",
+      "story": {
+        "headline": "자사주 7.5억 달러 추가 매입, 가이던스 유지에 상승",
+        "detail": "장전에는 6% 넘게 올랐다. 기존 동일점포매출 가이던스를 유지하고 연간 이익이 중반대 두 자릿수 성장을 이어갈 것이라 밝혔다. 다만 매출은 예상에 못 미쳤고(서프라이즈 -1.17%) 월스트리트저널은 전망 하향으로 전했다. 기대치가 낮았던 영향일 수 있다.",
+        "quote": "Burlington Stores (NYSE:BURL) shares rose 6. 4% in premarket trading on Tuesday after the discount retailer reported third-quarter fiscal 2026 adjusted earnings above its own guidance and authorised an additional US$750 million share repurchase programme.",
+        "quoteFrom": 1,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          3,
+          4
+        ]
+      },
+      "news": [
+        {
+          "title": "Burlington Stores (BURL) Tops Q3 Earnings Estimates",
+          "url": "https://www.nasdaq.com/articles/burlington-stores-burl-tops-q3-earnings-estimates",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Why Is Burlington Stores Stock Rising 6.4% Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-burlington-stores-stock-rising-134508937.html",
+          "date": "2026-11-24",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Burlington Stores (BURL) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/burlington-stores-burl-reports-q3-133004219.html",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Burlington Stores shares rise despite earnings miss",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/burlington-stores-shares-rise-despite-123804775.html",
+          "date": "2026-11-24",
+          "publisher": "Investing.com"
+        },
+        {
+          "title": "Burlington Stores Cuts Outlook as Quarterly Sales Underwhelm",
+          "url": "https://finance.yahoo.com/m/ee049e69-17a3-3f82-8031-feeccbb208e2/burlington-stores-cuts.html",
+          "date": "2026-11-24",
+          "publisher": "The Wall Street Journal"
+        },
+        {
+          "title": "Burlington Stores Fiscal Q3 Adjusted Earnings Fall, Revenue Increases; 2026 Outlook Updated",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/burlington-stores-fiscal-q3-adjusted-121620859.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "BURLINGTON STORES REPORTS THIRD QUARTER 2026 EARNINGS",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/burlington-stores-reports-third-quarter-114500309.html",
+          "date": "2026-11-24",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "A $6.6 Billion Fund Just Bought These 3 Stocks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/6-6-billion-fund-just-112143747.html",
+          "date": "2026-11-22",
+          "publisher": "TIKR"
+        }
+      ]
+    },
+    {
+      "ticker": "DKS",
+      "nameKo": "딕스 스포팅 굿즈",
+      "nameEn": "DICKS SPORTING GOODS INC",
+      "ratePct": 14.76,
+      "price": 153.4005,
+      "amountUsd": 171735235,
+      "industry": "Specialty Retail",
+      "industryKo": "전문 소매",
+      "story": {
+        "headline": "3분기 이익 대폭 호조, 연간 전망 상향",
+        "detail": "딕스 스포팅 굿즈가 3분기 실적이 예상을 웃돌고 2026년 연간 전망을 올렸다. 주당순이익 서프라이즈는 +40.58%, 매출은 +1.42%였다. 이익 호조와 전망 상향이 주가를 끌어올린 것으로 보인다. 장전에는 약 13.9% 올랐고 GuruFocus는 15.5% 상승으로 전했다.",
+        "quote": "Dick's Sporting Goods (NASDAQ:DNTH) shares rose nearly 13. 9% in premarket trading on Tuesday after the sporting goods retailer reported third-quarter earnings and revenue above analyst expectations and raised its full-year profit outlook.",
+        "quoteFrom": 3,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          3
+        ]
+      },
+      "news": [
+        {
+          "title": "Dick's Sporting Goods (DKS) Q3 Earnings and Revenues Surpass Estimates",
+          "url": "https://www.nasdaq.com/articles/dicks-sporting-goods-dks-q3-earnings-and-revenues-surpass-estimates",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Why Dick's Sporting Goods (DKS) Stock Is Soaring Today: Strong Q3 Beat, Raised Guidance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-dicks-sporting-goods-dks-150045663.html",
+          "date": "2026-11-24",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "DKS Stock Rallies On Q3 Earnings Beat - Dick’s Sporting Goods Raises FY2026 Forecast",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dks-stock-rallies-q3-earnings-144704949.html",
+          "date": "2026-11-24",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "Why Is Dick’s Sporting Goods Stock Rising 13.9% Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-dick-sporting-goods-stock-134906175.html",
+          "date": "2026-11-24",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Compared to Estimates, Dick's (DKS) Q3 Earnings: A Look at Key Metrics",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-dicks-dks-q3-133003385.html",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Dick’s Sporting Goods Shares Jump on Q3 Beat, Better Outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dick-sporting-goods-shares-jump-132429151.html",
+          "date": "2026-11-24",
+          "publisher": "Footwear News"
+        },
+        {
+          "title": "Dick’s Sporting Goods shares soar as strong profit beat prompts guidance upgrade",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dick-sporting-goods-shares-soar-123923959.html",
+          "date": "2026-11-24",
+          "publisher": "Investing.com"
+        }
+      ]
+    },
+    {
+      "ticker": "KYMR",
+      "nameKo": "키메라 테라퓨틱스",
+      "nameEn": "KYMERA THERAPEUTICS INC",
+      "ratePct": 8.96,
+      "price": 163.84,
+      "amountUsd": 169110241,
+      "industry": "Biotechnology",
+      "industryKo": "바이오테크",
+      "story": {
+        "headline": "임상 호재 뒤 목표가 줄상향",
+        "detail": "키메라가 긍정적 임상 데이터 이후 약 17.5억 달러 규모 증자(주식 추가 발행)를 확정했다. 여러 애널리스트가 목표가를 올렸다. UBS는 205달러(기존 128), 오펜하이머 200달러(140), 모건스탠리 198달러(150), 도이치뱅크 155달러(120)였다. 주가는 애널리스트 평균 목표가 143.88달러를 넘어 150.19달러에 거래됐다. 다만 증자로 기존 주주 지분이 희석되고, 주가가 과열됐다는 시각도 있다.",
+        "quote": "On Tuesday, Nov. 24, shares rose 13.2% after several analysts raised their price targets, according to GuruFocus.",
+        "quoteFrom": 3,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "news": [
+        {
+          "title": "KYMR Crosses Above Average Analyst Target",
+          "url": "https://www.nasdaq.com/articles/kymr-crosses-above-average-analyst-target",
+          "date": "2026-11-24",
+          "publisher": "BNK Invest"
+        },
+        {
+          "title": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data",
+          "url": "https://www.nasdaq.com/articles/kymera-kymr-prices-upsized-175-billion-stock-offering-following-positive-clinical-data",
+          "date": "2026-11-24",
+          "publisher": "RTTNews"
+        },
+        {
+          "title": "UBS Adjusts Price Target on Kymera Therapeutics to $205 From $128, Maintains Buy Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-kymera-150948111.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Why Is Kymera (KYMR) Stock Up Today? Analysts Raise Price Targets",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kymera-kymr-stock-today-150110352.html",
+          "date": "2026-11-24",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Oppenheimer Adjusts Price Target on Kymera Therapeutics to $200 From $140, Maintains Outperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-adjusts-price-target-kymera-133350103.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Morgan Stanley Adjusts Kymera Therapeutics Price Target to $198 From $150, Maintains Overweight Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-kymera-therapeutics-132011706.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Deutsche Bank Raises Price Target on Kymera Therapeutics to $155 From $120, Keeps Hold Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-raises-price-target-121823199.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Kymera Therapeutics (KYMR) Stock Could Look Stretched Despite Positive KT 621 Data",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/kymera-therapeutics-kymr-stock-could-121127362.html",
+          "date": "2026-11-24",
+          "publisher": "Simply Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "AKAN",
+      "nameKo": "어칸다",
+      "nameEn": "AKANDA CORP",
+      "ratePct": 112.4,
+      "price": 5.48,
+      "amountUsd": 155141776,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": []
+    },
+    {
+      "ticker": "PINS",
+      "nameKo": "핀터레스트",
+      "nameEn": "PINTEREST INC",
+      "ratePct": 9.62,
+      "price": 18.525,
+      "amountUsd": 88128575,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Pinterest (PINS) Stock Is Up 12.6% Today Without Company News",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-stock-12-6-150107246.html",
+          "date": "2026-11-24",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Pinterest announces partnership with Microsoft Ads",
+          "url": "https://finance.yahoo.com/media-advertising/articles/pinterest-announces-partnership-microsoft-ads-211029152.html",
+          "date": "2026-11-23",
+          "publisher": "Social Media Today"
+        },
+        {
+          "title": "Pinterest Expands Search Advertising Through Microsoft",
+          "url": "https://finance.yahoo.com/media-advertising/articles/pinterest-expands-search-advertising-microsoft-160422589.html",
+          "date": "2026-11-23",
+          "publisher": "MediaPost"
+        }
+      ]
+    },
+    {
+      "ticker": "BENF",
+      "nameKo": "베네피선트",
+      "nameEn": "BENEFICIENT",
+      "ratePct": 61.16,
+      "price": 0.7336,
+      "amountUsd": 84413127,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "법원, HCLP 부채 취소 및 2.11억 달러 회수 추진 승인",
+        "detail": "베네피선트가 전 CEO 브래드 헵프너 측과의 분리를 위해 HCLP 부채 취소와 2.11억 달러 회수 추진에 대해 법원 승인을 받았다고 밝혔다. 이 소식이 주가 급등 배경으로 보인다. 구체적인 재무 효과는 확인되지 않았고 소형주라 변동성이 클 수 있다.",
+        "quote": "",
+        "quoteFrom": -1,
         "others": [],
         "refs": [
           0,
@@ -156,628 +619,260 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "“I Absolutely Do Not Expect” Customers to Break Their Deals, Micron’s CEO Says. Here’s What’s Riding on It",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/absolutely-not-expect-customers-break-140412583.html",
-          "date": "2026-11-23",
-          "publisher": "TIKR"
+          "title": "Beneficient Secures Court Approval to Pursue HCLP Debt Cancellation and $211 Million Recovery",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/beneficient-secures-court-approval-pursue-123000906.html",
+          "date": "2026-11-24",
+          "publisher": "GlobeNewswire"
         },
         {
-          "title": "Warning for Nvidia Investors: UBS Says It Risks Becoming “Beholden to These Purchase Commitments”",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/warning-nvidia-investors-ubs-says-133629322.html",
-          "date": "2026-11-23",
-          "publisher": "TIKR"
+          "title": "BENF: Beneficient Releases 2nd Fiscal Quarter Results (Period Ending 9/30/26)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/benf-beneficient-releases-2nd-fiscal-090200727.html",
+          "date": "2026-11-24",
+          "publisher": "Zacks Small Cap Research"
         }
       ]
     },
     {
-      "ticker": "AMD",
-      "nameKo": "AMD",
-      "nameEn": "ADVANCED MICRO DEVICES INC",
-      "ratePct": 9,
-      "price": 462.59,
-      "amountUsd": 5735099690,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
+      "ticker": "BMRN",
+      "nameKo": "바이오마린 파머슈티컬",
+      "nameEn": "BIOMARIN PHARMACEUTICAL",
+      "ratePct": 7.06,
+      "price": 67,
+      "amountUsd": 61129996,
+      "industry": null,
+      "industryKo": null,
       "story": {
-        "headline": "엔비디아 CEO 복귀로 AI 반도체주 동반 반등",
-        "detail": "엔비디아 급등과 함께 AMD도 오른 것으로 전해졌다. 지난주 반도체주가 조정 구간에 빠진 뒤 매수세가 AI 하드웨어로 돌아왔다. AMD는 분기 매출이 45% 늘어 134억 달러를 기록했고 데이터센터 매출은 97% 늘었다. 다만 현금흐름 약화와 높은 밸류에이션이 우려로 꼽힌다. 중국 업체 관련 공매도 리포트로 급락한 일도 있었다.",
-        "quote": "After a brutal week that dragged chip stocks into correction territory, buyers are rushing back into AI hardware.",
-        "quoteFrom": 2,
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": []
+      },
+      "news": []
+    },
+    {
+      "ticker": "AMTM",
+      "nameKo": "어멘텀 홀딩스",
+      "nameEn": "AMENTUM HOLDINGS INC",
+      "ratePct": 15.54,
+      "price": 23.86,
+      "amountUsd": 56043656,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "4분기 이익 호조와 첫 5억 달러 자사주 매입",
+        "detail": "어멘텀이 4분기 조정 주당순이익 0.71달러로 예상치 0.66달러를 넘었고 처음으로 최대 5억 달러 자사주 매입 프로그램을 발표했다. 매출은 36.2억 달러로 예상 37억 달러에 못 미쳤다. 월요일 시간외에 7.8% 오른 데 이어 화요일 14.5% 상승했다. FY27 매출 가이던스도 제시했다. 매출 부진은 부담 요인이다.",
+        "quote": "Investing.com -- Amentum Holdings LLC (NYSE:AMTM) reported fourth-quarter adjusted earnings per share of $0.71, beating analyst estimates of $0.66, while revenue of $3.62 billion fell short of the $3.7 billion consensus.",
+        "quoteFrom": 3,
         "others": [],
         "refs": [
-          2,
-          1,
+          0,
+          3,
+          4,
           6
         ]
       },
       "news": [
         {
-          "title": "What Oppenheimer and William Blair See in Advanced Micro Devices (AMD)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-william-blair-see-advanced-152106413.html",
-          "date": "2026-11-23",
-          "publisher": "Insider Monkey"
-        },
-        {
-          "title": "AMD Revenue Jumps 45% to Record $13.4 Billion Despite Chip Stock Selloff",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amd-revenue-jumps-45-record-150926973.html",
-          "date": "2026-11-23",
+          "title": "Amentum (AMTM) Stock Is Up 14.5% Today: Earnings Beat, FY27 Guidance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-amtm-stock-14-5-150051315.html",
+          "date": "2026-11-24",
           "publisher": "GuruFocus.com"
         },
         {
-          "title": "NVIDIA Jumps 28% as Jensen Huang Reportedly Reinstated as CEO; Intel Rallies 13%, AMD Gains 7%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-jumps-28-chip-stocks-141339800.html",
+          "title": "Amentum (AMTM) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+          "url": "https://www.nasdaq.com/articles/amentum-amtm-q4-earnings-taking-look-key-metrics-versus-estimates",
           "date": "2026-11-23",
-          "publisher": "24/7 Wall St."
+          "publisher": "Zacks"
         },
         {
-          "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028",
-          "url": "https://www.nasdaq.com/articles/prediction-these-will-be-amds-and-nvidias-stock-prices-2028",
-          "date": "2026-11-22",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "AMD Stock Just Plunged on a Short-Seller Report. Is This a Golden Buying Opportunity?",
-          "url": "https://www.nasdaq.com/articles/amd-stock-just-plunged-short-seller-report-golden-buying-opportunity",
-          "date": "2026-11-22",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "Let's weigh the cons — and pros — of this brutal market to find a way forward",
-          "url": "https://www.cnbc.com/investingclub/2026/11/22/lets-weigh-the-cons-and-pros-of-this-market-to-find-a-way-forward.html",
-          "date": "2026-11-22",
-          "publisher": "CNBC"
-        },
-        {
-          "title": "AMD’s Data Center Sales Jumped 97%. Is the Stock a Buy?",
-          "url": "https://www.nasdaq.com/articles/amds-data-center-sales-jumped-97-stock-buy",
-          "date": "2026-11-21",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "Is AMD the Stock to Buy With Nvidia in Limbo?",
-          "url": "https://www.nasdaq.com/articles/amd-stock-buy-nvidia-limbo",
-          "date": "2026-11-21",
-          "publisher": "The Motley Fool"
-        }
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "nameKo": "테슬라",
-      "nameEn": "TESLA INC",
-      "ratePct": 13.5,
-      "price": 392.495,
-      "amountUsd": 4336002164,
-      "industry": "Auto Manufacturers",
-      "industryKo": "완성차",
-      "story": {
-        "headline": "FSD v15 배포 시작에 AI 반등까지 겹쳐 테슬라 13% 급등",
-        "detail": "테슬라가 FSD(완전자율주행) v15 배포를 시작하며 주가가 13% 올랐다. 회사는 안전이 걸린 상황 처리가 25배 좋아졌다고 밝혔지만, 어떻게 측정했는지는 설명하지 않았다. 상승분 일부는 금요일 AI 급락 뒤 시장 반등 때문이다. 다음 달 대규모 배포가 예정돼 있다.",
-        "quote": "Tesla shares rose 13% today as it began rolling out FSD v15, which it says handles safety-critical cases 25x better.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          1,
-          3
-        ]
-      },
-      "news": [
-        {
-          "title": "Political and corporate leaders react to Huang's return as Nvidia CEO",
-          "url": "https://finance.yahoo.com/technology/articles/political-corporate-leaders-react-huangs-152140490.html",
+          "title": "Amentum Holdings (AMTM) Q4 Earnings Top Estimates",
+          "url": "https://www.nasdaq.com/articles/amentum-holdings-amtm-q4-earnings-top-estimates",
           "date": "2026-11-23",
-          "publisher": "Reuters"
+          "publisher": "Zacks"
         },
         {
-          "title": "Tesla Soars 13% as FSD V15 Rolls Out: Musk Calls It a “Banger Release”",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-soars-13-fsd-v15-151250039.html",
+          "title": "Amentum surges on earnings beat and buyback program",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-surges-earnings-beat-buyback-223752582.html",
           "date": "2026-11-23",
-          "publisher": "TIKR"
+          "publisher": "Investing.com"
         },
         {
-          "title": "Tesla Stock Soars After Friday's Rout -- Musk Has a New AI Upgrade",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-soars-fridays-rout-150902835.html",
-          "date": "2026-11-23",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "Tesla FSD V15 Rolling Out, Goes 'Wide' Next Month. Elon Musk Says It's 'Something Special.'",
-          "url": "https://finance.yahoo.com/m/b31af40e-5144-3249-9033-82521507fe84/tesla-fsd-v15-rolling-out%2C.html",
-          "date": "2026-11-23",
-          "publisher": "Investor's Business Daily"
-        },
-        {
-          "title": "WattEV’s Port of Oakland charging depot and new electric trucks bring cost parity with diesel to fleets",
-          "url": "https://finance.yahoo.com/energy/articles/wattev-port-oakland-charging-depot-150000774.html",
-          "date": "2026-11-23",
-          "publisher": "GlobeNewswire"
-        },
-        {
-          "title": "Elon Musk warns AI industry faces a severe cash shortage",
-          "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-warns-ai-industry-142000122.html",
-          "date": "2026-11-23",
-          "publisher": "Proactive"
-        },
-        {
-          "title": "Tesla Bulls Banking on SpaceX “Don’t Get the Dilution Math,” Says Gary Black. Tesla Trades at 3.4x SpaceX’s 2027 Multiple",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-bulls-banking-spacex-don-132048656.html",
-          "date": "2026-11-23",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Tesla's autonomy ambitions just got a Wall Street vote of confidence",
-          "url": "https://finance.yahoo.com/markets/stocks/article/teslas-autonomy-ambitions-just-got-a-wall-street-vote-of-confidence-130035595.html",
-          "date": "2026-11-23",
-          "publisher": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "SPCX",
-      "nameKo": "스페이스X",
-      "nameEn": "SPACE EXPLORATION TECHNOLOGIES CORP",
-      "ratePct": 9.1,
-      "price": 139.4194,
-      "amountUsd": 3557058598,
-      "industry": "Aerospace & Defense",
-      "industryKo": "항공우주·방산",
-      "story": {
-        "headline": "AI 반등 속 상승, 직접 원인 기사는 없다",
-        "detail": "엔비디아 복귀 이후 AI 관련주가 반등한 흐름 속에서 올랐다. 한편 버지니아·오레곤주가 그록(Grok)의 딥페이크 문제로 소송을 제기했고 법적 부담이 쌓이고 있다. 두 주는 금지명령과 민사 벌금 등을 요구한다. 제프리스가 현 수준에서 60% 넘게 오를 수 있다고 봤다는 기사도 있다. 직접 설명한 기사는 없다.",
-        "quote": "Lawsuits against Elon Musk's SpaceX are stacking up, with Virginia and Oregon becoming the first states to sue the company over issues with its Grok AI image generator.",
-        "quoteFrom": 6,
-        "others": [],
-        "refs": [
-          0,
-          6,
-          7
-        ]
-      },
-      "news": [
-        {
-          "title": "Political and corporate leaders react to Huang's return as Nvidia CEO",
-          "url": "https://finance.yahoo.com/technology/articles/political-corporate-leaders-react-huangs-152140490.html",
-          "date": "2026-11-23",
-          "publisher": "Reuters"
-        },
-        {
-          "title": "Tesla FSD V15 Rolling Out, Goes 'Wide' Next Month. Elon Musk Says It's 'Something Special.'",
-          "url": "https://finance.yahoo.com/m/b31af40e-5144-3249-9033-82521507fe84/tesla-fsd-v15-rolling-out%2C.html",
-          "date": "2026-11-23",
-          "publisher": "Investor's Business Daily"
-        },
-        {
-          "title": "Cathie Wood Swapped Nvidia for SpaceX Over the Risk of “Losing Jensen” to Musk. Oops.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-swapped-nvidia-spacex-144534719.html",
-          "date": "2026-11-23",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "Elon Musk warns AI industry faces a severe cash shortage",
-          "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-warns-ai-industry-142000122.html",
-          "date": "2026-11-23",
-          "publisher": "Proactive"
-        },
-        {
-          "title": "SpaceX Stock: Is It a Buy at $130?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-buy-130-141402138.html",
-          "date": "2026-11-23",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Update: SpaceX Sued by Virginia, Oregon Over Grok's Creation of Child Sexual Abuse Images, Non-Consensual Material",
-          "url": "https://finance.yahoo.com/technology/ai/articles/spacex-sued-virginia-oregon-over-140640309.html",
+          "title": "Amentum Fiscal Q4 Adjusted Earnings Rise, Revenue Falls; Board Approves $500 Million Buyback",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-fiscal-q4-adjusted-earnings-220421778.html",
           "date": "2026-11-23",
           "publisher": "MT Newswires"
         },
         {
-          "title": "SpaceX sued by Oregon, Virginia over AI deepfake porn, Grok safety claims",
-          "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+          "title": "Amentum Reports Fourth Quarter and Fiscal Year 2026 Results",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-reports-fourth-quarter-fiscal-213100619.html",
           "date": "2026-11-23",
-          "publisher": "CNBC"
+          "publisher": "Business Wire"
         },
         {
-          "title": "SpaceX shares can rally more than 60% from current levels, says Jefferies",
-          "url": "https://www.cnbc.com/2026/11/23/spacex-jefferies-buy-price-target.html",
+          "title": "Amentum Launches First-Ever Share Repurchase Program, Authorizing Up to $500 Million",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-launches-first-ever-share-213000810.html",
           "date": "2026-11-23",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "SNDK",
-      "nameKo": "샌디스크",
-      "nameEn": "SANDISK CORP",
-      "ratePct": 19.41,
-      "price": 94.62,
-      "amountUsd": 3345802373,
-      "industry": "Computer Hardware",
-      "industryKo": "컴퓨터 하드웨어",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Even If Sandisk's Profits Get Cut in Half, Here's What $5,000 in the Stock Could Be Worth by 2030",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/even-sandisks-profits-cut-half-144301892.html",
-          "date": "2026-11-23",
-          "publisher": "Motley Fool"
+          "publisher": "Business Wire"
         },
         {
-          "title": "Evercore Has Strong Verdict on Beaten-Down Sandisk Stock",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-strong-verdict-beaten-down-143948110.html",
-          "date": "2026-11-23",
-          "publisher": "GuruFocus.com"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "nameKo": "알파벳 A",
-      "nameEn": "ALPHABET INC",
-      "ratePct": 6.65,
-      "price": 282.92,
-      "amountUsd": 2568338424,
-      "industry": "Internet Content & Information",
-      "industryKo": "인터넷 콘텐츠",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "How GTA VI’s blockbuster launch fuels a booming content economy",
-          "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
-          "date": "2026-11-20",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "TSM",
-      "nameKo": "TSMC(ADR)",
-      "nameEn": "TAIWAN SEMICONDUCTOR MANUFACTURING SPON ADS EACH",
-      "ratePct": 17.32,
-      "price": 373.91,
-      "amountUsd": 2529253622,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [
-          {
-            "n": 4,
-            "line": "한국·대만·중국이 AI 급락 속 증시 안정책을 내놨고, TSMC는 지난주 15% 하락했다."
-          }
-        ],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Is Trending Stock Taiwan Semiconductor Manufacturing Company Ltd. (TSM) a Buy Now?",
-          "url": "https://www.nasdaq.com/articles/trending-stock-taiwan-semiconductor-manufacturing-company-ltd-tsm-buy-now-0",
-          "date": "2026-11-23",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Tollbooths Like Taiwan Semiconductor Rarely Get This Cheap and With October Revenue Up 60%, I am Taking Advantage",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tollbooths-taiwan-semiconductor-rarely-cheap-134532009.html",
-          "date": "2026-11-23",
-          "publisher": "24/7 Wall St."
-        },
-        {
-          "title": "Worried About Nvidia? Buy This Fantastic Artificial Intelligence (AI) Stock Instead",
-          "url": "https://finance.yahoo.com/technology/ai/articles/worried-nvidia-buy-fantastic-artificial-032002826.html",
-          "date": "2026-11-23",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Apple Will Have “One of the Top Three Agents in the World” Within 24 Months, Predicts Jason Calacanis",
-          "url": "https://finance.yahoo.com/technology/ai/articles/apple-one-top-three-agents-002624803.html",
-          "date": "2026-11-23",
+          "title": "A $3.4 Billion Fund Dumps These 2 Stocks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-4-billion-fund-dumps-104606572.html",
+          "date": "2026-11-21",
           "publisher": "TIKR"
-        },
-        {
-          "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
-          "url": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html",
-          "date": "2026-11-23",
-          "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "NBIS",
-      "nameKo": "네비우스 그룹",
-      "nameEn": "NEBIUS GROUP N V",
-      "ratePct": 29.55,
-      "price": 105.34,
-      "amountUsd": 1999886010,
-      "industry": "Internet Content & Information",
-      "industryKo": "인터넷 콘텐츠",
+      "ticker": "COGT",
+      "nameKo": "코젠트 바이오사이언시스",
+      "nameEn": "COGENT BIOSCIENCES INC",
+      "ratePct": 14.41,
+      "price": 32.16,
+      "amountUsd": 51684079,
+      "industry": null,
+      "industryKo": null,
       "story": {
-        "headline": "",
-        "detail": "낙폭이 컸던 만큼 반등도 컸지만 불안이 완전히 사라진 것은 아니다.",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": [
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "Nvidia reinstates Jensen Huang as CEO, stock rockets",
-          "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
-          "date": "2026-11-23",
-          "publisher": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "META",
-      "nameKo": "메타 플랫폼스(페이스북)",
-      "nameEn": "META PLATFORMS INC",
-      "ratePct": 5.78,
-      "price": 593.26,
-      "amountUsd": 1958017848,
-      "industry": "Internet Content & Information",
-      "industryKo": "인터넷 콘텐츠",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "Zacks Investment Ideas feature highlights: Anthropic, SpaceX and Meta Platforms",
-          "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-anthropic-spacex-and-meta-platforms",
-          "date": "2026-11-23",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Holiday Shopping Scams Hiding in Plain Sight: A Cyber Threat Expert's Guide to Spotting Them",
-          "url": "https://finance.yahoo.com/technology/ai/articles/holiday-shopping-scams-hiding-plain-145600828.html",
-          "date": "2026-11-23",
-          "publisher": "PR Newswire"
-        },
-        {
-          "title": "Mark Zuckerberg’s Meta Platforms Is Pouring Up to $145 Billion Into AI This Year. Investors Should Watch This 1 Number.",
-          "url": "https://www.nasdaq.com/articles/mark-zuckerbergs-meta-platforms-pouring-145-billion-ai-year-investors-should-watch-1",
-          "date": "2026-11-22",
-          "publisher": "The Motley Fool"
-        },
-        {
-          "title": "Meta is stuck in a trading range. The charts show where to buy",
-          "url": "https://www.cnbc.com/2026/11/20/meta-is-stuck-in-a-trading-range-the-charts-show-where-to-buy.html",
-          "date": "2026-11-20",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "nameKo": "알파벳 C",
-      "nameEn": "ALPHABET INC",
-      "ratePct": 6.33,
-      "price": 280.72,
-      "amountUsd": 1869551127,
-      "industry": "Internet Content & Information",
-      "industryKo": "인터넷 콘텐츠",
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "How GTA VI’s blockbuster launch fuels a booming content economy",
-          "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
-          "date": "2026-11-20",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "nameKo": "인텔",
-      "nameEn": "INTEL CORP",
-      "ratePct": 15.34,
-      "price": 59.145,
-      "amountUsd": 1782689977,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "엔비디아 복귀에 반도체 랠리, 인텔도 동반 상승",
-        "detail": "엔비디아 급등과 함께 인텔도 13% 오른 것으로 전해졌다. 지난주 반도체주가 조정 구간에 빠진 뒤 매수세가 AI 하드웨어로 돌아온 영향이다. 인텔 고유의 호재를 설명한 기사는 확인되지 않는다.",
-        "quote": "After a brutal week that dragged chip stocks into correction territory, buyers are rushing back into AI hardware.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          1,
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "Arm Soars 13% as CEO Haas Stays Through 2033, Says He’s “Never Been More Confident”",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-soars-13-ceo-haas-145530138.html",
-          "date": "2026-11-23",
-          "publisher": "TIKR"
-        },
-        {
-          "title": "NVIDIA Jumps 28% as Jensen Huang Reportedly Reinstated as CEO; Intel Rallies 13%, AMD Gains 7%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-jumps-28-chip-stocks-141339800.html",
-          "date": "2026-11-23",
-          "publisher": "24/7 Wall St."
-        },
-        {
-          "title": "Intel CEO Lip-Bu Tan Has Incredible News for Investors. Is This the Much-Needed Catalyst for the Stock?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-ceo-lip-bu-tan-124702574.html",
-          "date": "2026-11-23",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Trump says he still has confidence in Lutnick",
-          "url": "https://www.cnbc.com/2026/11/20/trump-lutnick-commerce-china-ai.html",
-          "date": "2026-11-20",
-          "publisher": "CNBC"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWV",
-      "nameKo": "코어위브",
-      "nameEn": "COREWEAVE INC",
-      "ratePct": 27.64,
-      "price": 50.43,
-      "amountUsd": 1611140868,
-      "industry": "Software - Infrastructure",
-      "industryKo": "인프라 소프트웨어",
-      "story": {
-        "headline": "황 복귀로 엔비디아 AI 금융 불안 완화, 코어위브 급등",
-        "detail": "황 복귀 발표 뒤 코어위브가 약 20%(장 초반 CNBC 기준) 올랐고 오라클은 12% 올랐다. 황 사임으로 엔비디아가 'AI의 중앙은행'으로서 해온 금융 지원 불안이 커져 네오클라우드가 큰 타격을 받았었다. 코어위브는 직전 한 달 13% 하락했다. 불안 해소에 따른 반등이라 재차 흔들릴 수 있다.",
-        "quote": "Shares of CoreWeave and Oracle surged Monday, after the return of Jensen Huang as Nvidia's CEO gave the artificial intelligence trade new life to start the week.",
-        "quoteFrom": 2,
-        "others": [
-          {
-            "n": 1,
-            "line": "애플라이드 디지털이 150MW 18년 임대를 체결했다."
-          }
-        ],
-        "refs": [
-          2,
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "Nvidia reinstates Jensen Huang as CEO, stock rockets",
-          "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html",
-          "date": "2026-11-23",
-          "publisher": "Yahoo Finance"
-        },
-        {
-          "title": "Applied Digital Stock Gets A Lift From New 18 Year Lease",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-stock-gets-lift-140824041.html",
-          "date": "2026-11-23",
-          "publisher": "Simply Wall St."
-        },
-        {
-          "title": "CoreWeave, Oracle soar as Huang’s return relieves Nvidia AI financing fears",
-          "url": "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html",
-          "date": "2026-11-23",
-          "publisher": "CNBC"
-        },
-        {
-          "title": "Is CRWV Worth Buying as AI Growth Collides With Heavy Debt and Losses?",
-          "url": "https://www.nasdaq.com/articles/crwv-worth-buying-ai-growth-collides-heavy-debt-and-losses",
-          "date": "2026-11-20",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Can CRWV Turn Its $132.5B Backlog Into Durable, Profitable AI Growth?",
-          "url": "https://www.nasdaq.com/articles/can-crwv-turn-its-1325b-backlog-durable-profitable-ai-growth",
-          "date": "2026-11-20",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "CRWV Rises 14.5% in a Week as AI Demand Tests the Rebound's Durability",
-          "url": "https://www.nasdaq.com/articles/crwv-rises-145-week-ai-demand-tests-rebounds-durability",
-          "date": "2026-11-20",
-          "publisher": "Zacks"
-        }
-      ]
-    },
-    {
-      "ticker": "MRVL",
-      "nameKo": "마벨 테크놀로지 그룹",
-      "nameEn": "MARVELL TECHNOLOGY INC",
-      "ratePct": 22.51,
-      "price": 149.81,
-      "amountUsd": 1343328443,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "기사로는 반도체 반등 외 뚜렷한 이유 없음",
-        "detail": "마벨이 페굴린 솔루션즈와 CXL·포토닉스 기반 AI 메모리 인프라 협력을 발표했다. 다만 이것이 주가 급등을 직접 설명하는지는 불분명하다. 직접 설명한 기사는 없다.",
-        "quote": "Marvell Technology (NasdaqGS:MRVL) announced a collaboration with Penguin Solutions to scale AI memory infrastructure using CXL and photonics.",
-        "quoteFrom": 0,
-        "others": [],
-        "refs": [
-          0
-        ]
-      },
-      "news": [
-        {
-          "title": "What Is Marvell Technology (MRVL) Building In AI Memory Infrastructure?",
-          "url": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-building-ai-140857801.html",
-          "date": "2026-11-23",
-          "publisher": "Simply Wall St."
-        }
-      ]
-    },
-    {
-      "ticker": "SKHY",
-      "nameKo": "SK하이닉스(ADR)",
-      "nameEn": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS",
-      "ratePct": 23.14,
-      "price": 127.54,
-      "amountUsd": 1319097500,
-      "industry": "Semiconductors",
-      "industryKo": "반도체",
-      "story": {
-        "headline": "엔비디아 복귀 AI 반등 속 SK하이닉스 ADR 급등",
-        "detail": "기사로는 직접적인 원인이 확인되지 않는다. 엔비디아 약정이 5,180억 달러로 늘고 대부분이 메모리라는 UBS 분석이 나왔다. 소프트뱅크가 1조 달러 규모 인수를 검토했다는 풍문 기사도 있으나 사실 여부는 확인되지 않는다. 직접 설명한 기사는 없다.",
-        "quote": "NVIDIA's total commitments rose to $518 billion from $366 billion a quarter earlier, mostly memory it has agreed to buy.",
+        "headline": "위장관기질종양 치료제 에키트나 FDA 승인",
+        "detail": "코젠트 바이오사이언시스가 이전에 이매티닙 치료를 받은 위장관기질종양(GIST) 환자용 에키트나(bezuclastinib)로 미국 FDA(식품의약국) 승인을 받고 출시를 알렸다. 이 승인 소식에 주가가 15.6%까지 올랐다.",
+        "quote": "On Tuesday, Nov. 24, shares rose 15.6% after the company gained FDA clearance for Ekitna in advanced GIST, according to GuruFocus",
         "quoteFrom": 0,
         "others": [],
         "refs": [
           0,
+          1,
           2
         ]
       },
       "news": [
         {
-          "title": "Warning for Nvidia Investors: UBS Says It Risks Becoming “Beholden to These Purchase Commitments”",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/warning-nvidia-investors-ubs-says-133629322.html",
-          "date": "2026-11-23",
-          "publisher": "TIKR"
+          "title": "Why Is Cogent Biosciences (COGT) Stock Up Today? FDA Clearance for Ekitna",
+          "url": "https://finance.yahoo.com/healthcare/articles/why-cogent-biosciences-cogt-stock-150047862.html",
+          "date": "2026-11-24",
+          "publisher": "GuruFocus.com"
         },
         {
-          "title": "Qualcomm Is Down 42% and SK hynix Has Plunged 48% Amid the AI Sell-Off. Which Is the Better Stock to Buy for 2027?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-down-42-sk-hynix-102002231.html",
-          "date": "2026-11-23",
-          "publisher": "Motley Fool"
+          "title": "Cogent Biosciences Wins US FDA Approval for Ekitna for Patients With GIST Previously Treated With Imatinib",
+          "url": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-wins-us-fda-145859234.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
         },
         {
-          "title": "Market Chatter: SoftBank Considered Potential $1 Trillion SK Hynix Buyout",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-softbank-considered-potential-100537912.html",
+          "title": "Cogent Biosciences Announces FDA Approval and Launch of EKITNA™ (bezuclastinib) for the Treatment of Patients with Gastrointestinal Stromal Tumors (GIST) Who Have Received Prior Treatment with Imatinib",
+          "url": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-announces-fda-approval-142700130.html",
+          "date": "2026-11-24",
+          "publisher": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "ticker": "TEX",
+      "nameKo": "테렉스",
+      "nameEn": "TEREX CORP",
+      "ratePct": 6.6,
+      "price": 58.13,
+      "amountUsd": 49434682,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "고소작업대 사업 14억 달러 매각 발표",
+        "detail": "테렉스가 지니(Genie) 브랜드를 포함한 에어리얼 사업부를 리나마에 14억 달러에 매각하기로 합의했다. 해당 사업은 최근 12개월 기준 약 23억 달러 매출을 낸다. 한편 BofA는 목표가를 66.5달러에서 58달러로 낮추고 '실적 부진' 의견을 유지했다.",
+        "quote": "Linamar (LNR.TO) is acquiring Terex's Aerials business, including the Genie brand, for $1.4 billion",
+        "quoteFrom": 2,
+        "others": [],
+        "refs": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "BofA Securities Adjusts Terex Price Target to $58 From $66.50, Maintains Underperform Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-terex-price-133341783.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Terex to Sell Aerials Business, Including Genie Brand, to Linamar for $1.4 Billion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/terex-sell-aerials-business-including-111312140.html",
+          "date": "2026-11-24",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Linamar to Acquire Terex's Aerials Business For $1.4 Billion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/linamar-acquire-terex-apos-aerials-222248027.html",
           "date": "2026-11-23",
           "publisher": "MT Newswires"
         },
         {
-          "title": "SK Hynix’s U.S. shares trade at a premium. Hedge fund bets the gap will close",
-          "url": "https://www.cnbc.com/2026/11/20/sk-hynix-shares-ai-trade-hedge-fund.html",
-          "date": "2026-11-20",
-          "publisher": "CNBC"
+          "title": "TEREX ANNOUNCES DEFINITIVE AGREEMENT TO SELL ITS AERIALS SEGMENT TO LINAMAR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/terex-announces-definitive-agreement-sell-220500036.html",
+          "date": "2026-11-23",
+          "publisher": "PR Newswire"
+        },
+        {
+          "title": "Linamar Corporation to Acquire Genie from Terex Corporation, Significantly Expanding its Access Work Platforms Group",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/linamar-corporation-acquire-genie-terex-220500005.html",
+          "date": "2026-11-23",
+          "publisher": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "ticker": "FLNC",
+      "nameKo": "플루언스 에너지",
+      "nameEn": "FLUENCE ENERGY INC",
+      "ratePct": 6.61,
+      "price": 4.051,
+      "amountUsd": 44165278,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "사상 최대 계약 잔고 발표에 장전 급등",
+        "detail": "플루언스 에너지가 사상 최대 수주 잔고를 발표하며 장전에 16.5% 올랐다. 다만 4분기에는 주당 0.75달러 손실로 적자 전환했고 매출은 예상에 못 미쳤다(서프라이즈 -8.31%). 실적은 부진했으나 수주 잔고가 시장 관심을 끈 것으로 보인다.",
+        "quote": "Fluence Energy (NASDAQ:FLNC) shares rose 16. 5% in premarket trading on Tuesday after the energy storage company reported a record contracted backlog of US$8.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "Why Is Fluence Energy Stock Rising 16.5% Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-fluence-energy-stock-rising-110227103.html",
+          "date": "2026-11-24",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "Fluence Energy, Inc. (FLNC) Reports Q4 Loss, Misses Revenue Estimates",
+          "url": "https://www.nasdaq.com/articles/fluence-energy-inc-flnc-reports-q4-loss-misses-revenue-estimates",
+          "date": "2026-11-23",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Fluence Energy Swings to Q4 Loss, Revenue Falls; Shares Rise After Hours",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fluence-energy-swings-q4-loss-221633232.html",
+          "date": "2026-11-23",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Fluence Energy, Inc. Reports 2026 Financial Results",
+          "url": "https://finance.yahoo.com/energy/articles/fluence-energy-inc-reports-2026-210500512.html",
+          "date": "2026-11-23",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "Global Packaged Water Treatment Market Report 2026: Size, Trends, and Forecast to 2030 | Capitalize on 11.5% CAGR with Veolia, Pentair, Aquatech, Fluence, and Ion Exchange",
+          "url": "https://finance.yahoo.com/energy/articles/global-packaged-water-treatment-market-152400612.html",
+          "date": "2026-11-23",
+          "publisher": "GlobeNewswire"
         }
       ]
     }
