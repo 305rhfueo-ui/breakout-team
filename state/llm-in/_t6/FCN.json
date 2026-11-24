@@ -1,0 +1,662 @@
+{
+ "ticker": "FCN",
+ "date": "2026-11-24",
+ "session": "2026-11-20",
+ "source": "list",
+ "plan": {
+  "ticker": "FCN",
+  "name": "FTI 컨설팅",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "price": 205.63999938964844,
+  "grade": "B",
+  "state": "post",
+  "pivot": 202.3,
+  "stop": 194.88,
+  "distToPivotPct": 1.91,
+  "distToPivotAdr": 0.55,
+  "riskPerSharePct": 3.67,
+  "adrPct": 3.49,
+  "extensionAdr": 0.44,
+  "breakDate": "2026-11-13",
+  "metrics": {
+   "baseBars": 8,
+   "baseWeeks": 1.6,
+   "depthPct": 10.4,
+   "priorMovePct": 56.7,
+   "higherLows": 1,
+   "contraction": 1.33,
+   "closeRange10Adr": 2.1,
+   "surf10": 0.55,
+   "surf20": 3.07,
+   "slope20": 8.8,
+   "baseLow": 181.17,
+   "lastSwingLow": 181.17
+  },
+  "reasons": [
+   "선행 상승 +57%",
+   "✗ 베이스 1.6주",
+   "깊이 10.4%",
+   "저점 상승 1회",
+   "진폭 1.33배 · 10일 종가폭 2.1 ADR",
+   "10일선 +0.5 ADR · 20일선 +3.1 ADR",
+   "20일선 기울기 +8.8%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.44402489929357586,
+    "pct": 99.59386281588448
+   },
+   "m3": {
+    "v": 0.508335825351501,
+    "pct": 99.50361010830325
+   },
+   "m6": {
+    "v": 0.5223984680708179,
+    "pct": 92.28339350180505
+   }
+  },
+  "ret1m": 30.78,
+  "ret3m": 35.3,
+  "ret6m": 33.96,
+  "marketCap": "5.60B",
+  "volx": 1,
+  "volSurgeWk": 1.12,
+  "high52": 97.79,
+  "newHigh52": false,
+  "adr": 3.59,
+  "div50": 27.32,
+  "div200": 27.36,
+  "targetStatus": false,
+  "saleCy": 5.49,
+  "saleNy": 4.89,
+  "epsCy": 10.99,
+  "epsNy": 13.67,
+  "cyTrend": 5.68,
+  "nyTrend": 2.52,
+  "est": {
+   "cyCur": 9.8,
+   "cy30": 9.27333,
+   "nyCur": 11.14,
+   "ny30": 10.86667
+  },
+  "fs": {
+   "sale": [
+    5.28,
+    9.47,
+    10.71
+   ],
+   "ni": [
+    -19.37,
+    -6.78,
+    9.7
+   ],
+   "opm": [
+    8.56,
+    8.53,
+    9.43
+   ],
+   "updated": "2026-09-09 06:58:05"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-29",
+   "m3": "2026-11-12",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 17,
+   "m3": 7,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-24",
+  "nameKo": "FTI 컨설팅",
+  "nameEn": "FTI CONSULTING INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887936&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1012563000,
+     "profit": 89840000,
+     "netIncome": 63449000,
+     "margin": 8.9,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": -23.7,
+      "netIncome": -23.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 993464000,
+     "profit": 85021000,
+     "netIncome": 57810000,
+     "margin": 8.6,
+     "yoy": {
+      "revenue": 5.3,
+      "profit": -14.3,
+      "netIncome": -19.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 983345000,
+     "profit": 83917000,
+     "netIncome": 57631000,
+     "margin": 8.5,
+     "yoy": {
+      "revenue": 9.5,
+      "profit": 6.6,
+      "netIncome": -6.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 990746000,
+     "profit": 93436000,
+     "netIncome": 54531000,
+     "margin": 9.4,
+     "yoy": {
+      "revenue": 10.7,
+      "profit": 77.1,
+      "netIncome": 9.7,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "FCN's Global Presence Across 84 Cities: A Growth Catalyst?",
+     "url": "https://www.nasdaq.com/articles/fcns-global-presence-across-84-cities-growth-catalyst",
+     "date": "2026-11-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-fti-consulting-fcn-top-growth-stock-long-term-0",
+     "date": "2026-11-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is FTI Consulting (FCN) Stock Undervalued Right Now?",
+     "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-stock-undervalued-right-now",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why FTI Consulting (FCN) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-fti-consulting-fcn-strong-growth-stock-1",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Business Services Stocks Lagging  FTI Consulting (FCN) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-fti-consulting-fcn-year",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FCN Q3 Earnings & Revenues Top Estimates, Stock Gains 14.3%",
+     "url": "https://www.nasdaq.com/articles/fcn-q3-earnings-revenues-top-estimates-stock-gains-143",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FTI Consulting Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/fti-consulting-q3-earnings-call-highlights",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "FTI Consulting (FCN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "2.05",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887936/000119312526441751/fcn-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887936/000119312526328715/fcn-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887936/000119312526291542/fcn-20260630.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887936/000119312526258397/fcn-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887936/000119312526201565/fcn-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-18",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887936/000119312526114160/fcn-20260317.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "FCN",
+  "fetchedAt": "2026-11-24",
+  "source": "한국투자증권 Open API",
+  "per": 24.93,
+  "pbr": 4.28,
+  "eps": 8.27,
+  "bps": 48.14,
+  "shares": 27254200,
+  "marketCapM": 5619,
+  "high52": 210.29,
+  "high52Date": "2026-11-20",
+  "low52": 129.12,
+  "low52Date": "2026-09-25",
+  "last": 206.17,
+  "prevClose": 205.64,
+  "nameKo": "FTI 컨설팅",
+  "nameEn": "FTI CONSULTING INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 27254200
+ },
+ "estimates": {
+  "ticker": "FCN",
+  "url": "https://finance.yahoo.com/quote/FCN/analysis/",
+  "fetchedAt": "2026-11-24",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.96,
+    "epsLow": 1.8,
+    "epsHigh": 2.09,
+    "epsYearAgo": 1.78,
+    "epsAnalysts": 3,
+    "epsGrowth": 10.1,
+    "epsCur": "USD",
+    "rev": 1007355330,
+    "revAnalysts": 3,
+    "revYearAgo": 990746000,
+    "revGrowth": 1.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.65,
+    "epsLow": 2.51,
+    "epsHigh": 2.79,
+    "epsYearAgo": 1.9,
+    "epsAnalysts": 2,
+    "epsGrowth": 39.5,
+    "epsCur": "USD",
+    "rev": 1032950000,
+    "revAnalysts": 1,
+    "revYearAgo": 983345000,
+    "revGrowth": 5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 9.8,
+    "epsLow": 9.7,
+    "epsHigh": 9.89,
+    "epsYearAgo": 8.83,
+    "epsAnalysts": 3,
+    "epsGrowth": 11,
+    "epsCur": "USD",
+    "rev": 3996936670,
+    "revAnalysts": 3,
+    "revYearAgo": 3788857000,
+    "revGrowth": 5.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 11.14,
+    "epsLow": 10.47,
+    "epsHigh": 11.55,
+    "epsYearAgo": 9.8,
+    "epsAnalysts": 3,
+    "epsGrowth": 13.7,
+    "epsCur": "USD",
+    "rev": 4192450670,
+    "revAnalysts": 3,
+    "revYearAgo": 3996936670,
+    "revGrowth": 4.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.96,
+    "d7": -0.7,
+    "d30": -21.3,
+    "d90": -22,
+    "ago90": 2.51,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.65,
+    "d7": 1.5,
+    "d30": 5,
+    "d90": 4.3,
+    "ago90": 2.54,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 9.8,
+    "d7": -0.2,
+    "d30": 5.7,
+    "d90": 5.4,
+    "ago90": 9.3,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 11.14,
+    "d7": 0,
+    "d30": 2.5,
+    "d90": 1.9,
+    "ago90": 10.93,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.84,
+    "estimate": 2.74,
+    "surprisePct": 40,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.99,
+    "estimate": 2.26,
+    "surprisePct": -11.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.9,
+    "estimate": 2.07,
+    "surprisePct": -8.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.78,
+    "estimate": 1.46,
+    "surprisePct": 21.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 1,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-11-02",
+     "firm": "Truist Securities",
+     "action": "reit",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 180,
+     "ptPrior": 158
+    },
+    {
+     "date": "2026-10-23",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 158,
+     "ptPrior": 180
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-23",
+  "numbers": {
+   "price": 206.17,
+   "ma20": 194.05,
+   "ma50": 162.62,
+   "ma150": 158.76,
+   "distMA50": 26.78,
+   "periodHigh": 210.29,
+   "pullbackFromHigh": -1.96,
+   "volRatio20": 0.84,
+   "dryUpRatio": 0.91
+  },
+  "last10": [
+   {
+    "d": "2026-11-10",
+    "o": 193.61,
+    "h": 199.39,
+    "l": 192.65,
+    "c": 197.34,
+    "v": 267600,
+    "clsPos": 70,
+    "gapPct": -0.24
+   },
+   {
+    "d": "2026-11-11",
+    "o": 194.59,
+    "h": 197.89,
+    "l": 193.3,
+    "c": 197.21,
+    "v": 437900,
+    "clsPos": 85,
+    "gapPct": -1.39
+   },
+   {
+    "d": "2026-11-12",
+    "o": 200,
+    "h": 201.94,
+    "l": 197.65,
+    "c": 198.62,
+    "v": 302200,
+    "clsPos": 23,
+    "gapPct": 1.41
+   },
+   {
+    "d": "2026-11-13",
+    "o": 201.05,
+    "h": 203.69,
+    "l": 198.99,
+    "c": 202.81,
+    "v": 318600,
+    "clsPos": 81,
+    "gapPct": 1.22
+   },
+   {
+    "d": "2026-11-16",
+    "o": 205.17,
+    "h": 208.7,
+    "l": 204.05,
+    "c": 206.42,
+    "v": 429600,
+    "clsPos": 51,
+    "gapPct": 1.16
+   },
+   {
+    "d": "2026-11-17",
+    "o": 203.65,
+    "h": 207.79,
+    "l": 203.11,
+    "c": 205.53,
+    "v": 613400,
+    "clsPos": 52,
+    "gapPct": -1.34
+   },
+   {
+    "d": "2026-11-18",
+    "o": 204.5,
+    "h": 208.06,
+    "l": 203.36,
+    "c": 206.66,
+    "v": 435500,
+    "clsPos": 70,
+    "gapPct": -0.5
+   },
+   {
+    "d": "2026-11-19",
+    "o": 203.56,
+    "h": 205.49,
+    "l": 202.15,
+    "c": 203.52,
+    "v": 434900,
+    "clsPos": 41,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-11-20",
+    "o": 205.21,
+    "h": 210.29,
+    "l": 203,
+    "c": 205.64,
+    "v": 498700,
+    "clsPos": 36,
+    "gapPct": 0.83
+   },
+   {
+    "d": "2026-11-23",
+    "o": 201.69,
+    "h": 207.08,
+    "l": 201.27,
+    "c": 206.17,
+    "v": 453600,
+    "clsPos": 84,
+    "gapPct": -1.92
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FCN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FCN-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 25일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "부분 충족",
+  "headline": "M&A·반독점 수요가 작은 세 부문을 밀지만 전사 이익은 세 분기 연속 감소",
+  "researchedOn": "2026-11-07"
+ }
+}

@@ -2,6 +2,12 @@
  "ticker": "ESTC",
  "news": [
   {
+   "title": "All You Need to Know About Elastic (ESTC) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-elastic-estc-rating-upgrade-buy",
+   "date": "2026-11-23",
+   "publisher": "Zacks"
+  },
+  {
    "title": "Elastic (ESTC) Q2 2027 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/elastic-estc-q2-2027-earnings-call-transcript",
    "date": "2026-11-20",
@@ -32,66 +38,52 @@
    "publisher": "Zacks"
   },
   {
-   "title": "What Elastic (ESTC) Said on Its Q2 Earnings Call",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-said-q2-earnings-011308770.html",
-   "date": "2026-11-20",
-   "publisher": "MarketBeat",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Elastic (ESTC) Earnings Beat Leaves Valuation In Focus Following Softer Guidance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-earnings-beat-leaves-231402974.html",
-   "date": "2026-11-19",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Elastic Stock Slides As Earnings Beat But Guidance Comes In Below Forecasts",
-   "url": "https://finance.yahoo.com/m/b8b6ce88-85fe-36ea-8e8e-00098522db86/elastic-stock-slides-as.html",
-   "date": "2026-11-19",
-   "publisher": "Investor's Business Daily",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Elastic (ESTC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-q2-earnings-key-213001357.html",
-   "date": "2026-11-19",
-   "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Elastic Fiscal Q2 non-GAAP Earnings, Revenue Rise; Sets Q3 Guidance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-fiscal-q2-non-gaap-212319878.html",
-   "date": "2026-11-19",
+   "title": "Elastic Launches Feature to Query External Data Using Elasticsearch; Shares Rise",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-launches-feature-query-external-164548167.html",
+   "date": "2026-11-23",
    "publisher": "MT Newswires",
    "via": "Yahoo"
   },
   {
-   "title": "Elastic (ESTC) Q2 Earnings and Revenues Beat Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-q2-earnings-revenues-212002606.html",
-   "date": "2026-11-19",
+   "title": "All You Need to Know About Elastic (ESTC) Rating Upgrade to Buy",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/know-elastic-estc-rating-upgrade-160004841.html",
+   "date": "2026-11-23",
    "publisher": "Zacks",
    "via": "Yahoo"
   },
   {
-   "title": "Elastic Reports Second Quarter Fiscal 2027 Financial Results",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-reports-second-quarter-fiscal-210500160.html",
-   "date": "2026-11-19",
+   "title": "Elastic Introduces ES|QL Data Federation to Query External Data Directly from Elasticsearch",
+   "url": "https://finance.yahoo.com/technology/ai/articles/elastic-introduces-es-ql-data-160000990.html",
+   "date": "2026-11-23",
    "publisher": "Business Wire",
    "via": "Yahoo"
   },
   {
-   "title": "Elastic Makes High-Accuracy, Cost-Efficient Jina AI Models Available on Microsoft Foundry",
-   "url": "https://finance.yahoo.com/technology/ai/articles/elastic-makes-high-accuracy-cost-193100251.html",
-   "date": "2026-11-18",
-   "publisher": "Business Wire",
+   "title": "Elastic: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-3-key-takeaways-long-205510700.html",
+   "date": "2026-11-20",
+   "publisher": "Motley Fool",
    "via": "Yahoo"
   },
   {
-   "title": "Cloudastructure Inc. (CSAI) Reports Q3 Loss, Misses Revenue Estimates",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/cloudastructure-inc-csai-reports-q3-230501306.html",
-   "date": "2026-11-16",
-   "publisher": "Zacks",
+   "title": "It’s a Tough Time for Software Stocks. What Does Wall Street Think of Elastic?",
+   "url": "https://finance.yahoo.com/m/96f485de-fbd5-35c1-b045-3bc070396cde/it%E2%80%99s-a-tough-time-for.html",
+   "date": "2026-11-20",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Elastic (ESTC) Q2 2027 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-estc-q2-2027-earnings-154505654.html",
+   "date": "2026-11-20",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Elastic beats second-quarter estimates as revenue rises 17%",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/elastic-beats-second-quarter-estimates-150000953.html",
+   "date": "2026-11-20",
+   "publisher": "Proactive",
    "via": "Yahoo"
   }
  ],
@@ -201,12 +193,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 15.28,
-  "saleNy": 14.74,
-  "epsCy": 30.79,
-  "epsNy": 18.27,
-  "cyTrend": 0.06,
-  "nyTrend": 0.51,
+  "saleCy": 15.26,
+  "saleNy": 14.64,
+  "epsCy": 31.51,
+  "epsNy": 17.81,
+  "cyTrend": 0.61,
+  "nyTrend": 0.67,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

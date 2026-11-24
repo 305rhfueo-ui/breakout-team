@@ -2,6 +2,12 @@
  "ticker": "BJ",
  "news": [
   {
+   "title": "Growing Pains Versus Growth: Is BJ’s Wholesale Club a Buying Opportunity?",
+   "url": "https://www.nasdaq.com/articles/growing-pains-versus-growth-bjs-wholesale-club-buying-opportunity",
+   "date": "2026-11-22",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "BJ's: 3 Key Takeaways for Long-Term Investors",
    "url": "https://www.nasdaq.com/articles/bjs-3-key-takeaways-long-term-investors",
    "date": "2026-11-20",
@@ -12,6 +18,12 @@
    "url": "https://www.nasdaq.com/articles/bjs-bj-q3-2026-earnings-call-transcript",
    "date": "2026-11-20",
    "publisher": "The Motley Fool"
+  },
+  {
+   "title": "BJ's Wholesale Club Q3 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/bjs-wholesale-club-q3-earnings-call-highlights",
+   "date": "2026-11-20",
+   "publisher": "MarketBeat"
   },
   {
    "title": "BJ's (BJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
@@ -38,16 +50,18 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Stifel Initiates Coverage of BJ's Wholesale Club Holdings with Hold",
-   "url": "https://www.nasdaq.com/articles/stifel-initiates-coverage-bjs-wholesale-club-holdings-hold",
-   "date": "2026-11-18",
-   "publisher": "Fintel"
+   "title": "How Much of Target's Third-Quarter EPS of $2.65 Reflects Core Growth?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/much-targets-third-quarter-eps-152500148.html",
+   "date": "2026-11-23",
+   "publisher": "Zacks",
+   "via": "Yahoo"
   },
   {
-   "title": "Is BJ's Wholesale Ready to Surprise the Street This Earnings Season?",
-   "url": "https://www.nasdaq.com/articles/bjs-wholesale-ready-surprise-street-earnings-season",
-   "date": "2026-11-17",
-   "publisher": "Zacks"
+   "title": "Can Costco's $7.5 Billion FY27 Capex Plan Deliver Strong Returns?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/costcos-7-5-billion-fy27-144200343.html",
+   "date": "2026-11-23",
+   "publisher": "Zacks",
+   "via": "Yahoo"
   },
   {
    "title": "BJ's Membership Fees Climb as Holiday Shopping Nears",
@@ -75,34 +89,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-wholesale-club-holdings-inc-210102898.html",
    "date": "2026-11-20",
    "publisher": "GuruFocus.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "BJ's (BJ) Q3 2026 Earnings Call Transcript",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-bj-q3-2026-earnings-184651351.html",
-   "date": "2026-11-20",
-   "publisher": "Motley Fool",
-   "via": "Yahoo"
-  },
-  {
-   "title": "BJ's Wholesale Club Holdings, Inc. Q3 2026 Earnings Call Summary",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-wholesale-club-holdings-inc-174429996.html",
-   "date": "2026-11-20",
-   "publisher": "Moby",
-   "via": "Yahoo"
-  },
-  {
-   "title": "BJ's Wholesale Club Q3 Earnings Call Highlights",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-wholesale-club-q3-earnings-161408064.html",
-   "date": "2026-11-20",
-   "publisher": "MarketBeat",
-   "via": "Yahoo"
-  },
-  {
-   "title": "BJ's Raises Full-Year Earnings Outlook; Promotional Activities Weigh on Merchandise Margins",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bj-apos-raises-full-earnings-161358489.html",
-   "date": "2026-11-20",
-   "publisher": "MT Newswires",
    "via": "Yahoo"
   }
  ],
@@ -204,12 +190,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 12.07,
-  "saleNy": 5.79,
+  "saleCy": 13.12,
+  "saleNy": 5.54,
   "epsCy": 7.59,
-  "epsNy": 6.78,
+  "epsNy": 7.15,
   "cyTrend": 0.44,
-  "nyTrend": 0.57,
+  "nyTrend": 0.92,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

@@ -1,5 +1,5 @@
 window.NDEEP_DATA = {
-  "generated": "2026-11-21",
+  "generated": "2026-11-24",
   "v": 2,
   "items": {
     "MRNA": {
@@ -9705,22 +9705,21 @@ window.NDEEP_DATA = {
     "HNGE": {
       "drivers": [
         {
-          "id": "d1",
-          "what": "편두통 케어 프로그램(Migraine Care Program) — 관절·근육 질환을 벗어난 첫 확장으로 2026년에 내놓은 약물 없는 편두통 완화·예방 프로그램",
+          "what": "편두통 케어 프로그램(Migraine Care Program) — 관절·근육 통증 밖으로 처음 넓힌 신규 치료 프로그램",
           "kind": "product",
-          "stage": "출시",
+          "stage": "매출 발생 중",
           "since": "2026",
           "basis": [
             {
-              "id": "d1-b1",
-              "statement": "회사는 2026년에 관절·근육 통증을 벗어난 첫 확장으로 편두통 케어 프로그램을 출시했다고 10-Q 경영진 설명에 적었다.",
+              "id": "d1b1",
+              "statement": "회사는 2026년에 관절·근육 통증을 넘어서는 첫 확장으로 편두통 케어 프로그램을 출시했다고 10-Q 경영진 설명에 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                  "date": "2026-08-06",
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
                   "quote": "In 2026, we launched our Migraine Care Program, our first expansion beyond joint and muscle pain, offering rapid drug-free pain relief, personalized trigger management, and expert-led prevention for members.",
                   "verified": "ok",
                   "httpStatus": 200
@@ -9728,16 +9727,16 @@ window.NDEEP_DATA = {
               ]
             },
             {
-              "id": "d1-b2",
-              "statement": "CEO는 2분기 실적 보도자료에서 핵심 근골격계 프로그램의 힘과 편두통 케어 프로그램의 빠른 채택을 함께 언급하며, 여러 질환을 한 플랫폼에서 다루는 방향을 제시했다.",
+              "id": "d1b2",
+              "statement": "모든 프로그램을 하나의 앱에서 쓸 수 있고 회원이 여러 질환을 동시에 치료할 수 있다고 회사가 설명했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 실적 보도자료 (2026-08-04)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Combined with the strength of our core musculoskeletal care programs and the rapid adoption of our Migraine Care Program, our expansion into GI is another step toward our vision of building a durable, multi-condition platform to automate the delivery of care.",
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "All of our programs are available for use from a single application, with members having the ability to treat multiple indications at once.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9746,13 +9745,13 @@ window.NDEEP_DATA = {
           ],
           "revenueImpact": [
             {
-              "id": "d1-r1",
-              "statement": "CEO는 3분기 실적 보도자료에서 편두통 케어 프로그램의 고객사 수가 직전 분기 대비 거의 두 배가 됐고, 근골격계 프로그램 고객사는 1년 전보다 거의 30% 늘었다고 밝혔다.",
+              "id": "d1r1",
+              "statement": "CEO 는 편두통 케어 프로그램 고객 수가 지난 분기 대비 거의 두 배가 됐다고 밝혔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
+                  "publisher": "Hinge Health (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
                   "date": "2026-11-02",
                   "quote": "Our client base is up almost 30% YoY for our MSK Care Program, roughly 40% for our GI Care Program since our acquisition announcement of Cylinder Health in August, and has nearly doubled for our Migraine Care Program since last quarter.",
@@ -9762,13 +9761,13 @@ window.NDEEP_DATA = {
               ]
             },
             {
-              "id": "d1-r2",
-              "statement": "전체 고객사 수는 1년 전보다 28% 늘어 3,270곳이 됐다.",
+              "id": "d1r2",
+              "statement": "회사 전체 고객 수는 3분기 말 3,270곳으로 1년 전 2,560곳에서 28% 늘었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
+                  "publisher": "Hinge Health (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
                   "date": "2026-11-02",
                   "quote": "Number of clients increased 28% year-over-year to 3,270 clients as of September 30, 2026, compared to 2,560 clients as of September 30, 2025.",
@@ -9781,16 +9780,16 @@ window.NDEEP_DATA = {
           "profitImpact": [],
           "expectedGrowth": [
             {
-              "id": "d1-e1",
-              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 전체 매출 중간값 8.8억 달러로, 1년 전보다 50% 성장이다.",
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 연간 매출 8.79~8.81억 달러로 중간값 기준 1년 전보다 50% 증가, 비GAAP(일회성을 뺀 회사 기준) 영업이익 2.66~2.68억 달러로 123% 증가, 비GAAP 영업이익률 중간값 30%다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
+                  "publisher": "Hinge Health (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
                   "date": "2026-11-02",
-                  "quote": "2026 revenue guidance midpoint raised to $880 million, reflecting 50% year-over-year growth",
+                  "quote": "Full Year 2026: We are raising our revenue guidance to be between $879 million and $881 million, reflecting year-over-year growth of 50% at the midpoint. We are raising our non-GAAP income from operations guidance to be between $266 million and $268 million, reflecting year-over-year growth of 123% and non-GAAP operating margin of 30% at the midpoint, a ~1,000 bps increase over 2025.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9799,13 +9798,13 @@ window.NDEEP_DATA = {
           ],
           "counter": [
             {
-              "id": "d1-c1",
-              "statement": "회사가 제시한 4분기 매출 성장률 중간값 46%는 3분기 실제 성장률 52%보다 낮아, 회사 전망 기준으로도 성장은 느려진다.",
+              "id": "d1c1",
+              "statement": "회사가 제시한 4분기 매출 성장률 가이던스 중간값은 46%로, 3분기 실적 52%보다 낮다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
+                  "publisher": "Hinge Health (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
                   "date": "2026-11-02",
                   "quote": "Q4 2026: We expect revenue to be between $249 million and $251 million, reflecting year-over-year growth of 46% at the midpoint. … Revenue increased 52% year-over-year to $235.0 million compared to revenue of $154.2 million in Q3 2025.",
@@ -9815,125 +9814,29 @@ window.NDEEP_DATA = {
               ]
             },
             {
-              "id": "d1-c2",
-              "statement": "회사는 영업 주기 때문에 그해 계약한 신규 고객의 매출이 대부분 이듬해에 인식된다고 밝혔다 — 지금의 성장은 지난해 계약분이고, 영업이 꺾이면 타격도 1년 뒤에 나타난다.",
+              "id": "d1c2",
+              "statement": "회사는 3분기 매출 증가가 주로 기존 고객에서 왔고 그 대부분이 2025년 이전에 계약한 고객이라고 설명해, 새 프로그램의 기여분은 고객 수 외에 숫자로 확인되지 않는다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                  "date": "2026-08-06",
-                  "quote": "Due to the timing of our sales cycle, revenue from new clients contracted in a given year is largely recognized in the following year.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "d2",
-          "what": "Cylinder Health 인수와 소화기(GI) 케어 — 2026년 8월 현금 1.05억 달러에 가상 소화기 진료 업체를 사들여 질환 영역을 소화기까지 넓혔다",
-          "kind": "contract",
-          "stage": "출시",
-          "since": "2026-08",
-          "basis": [
-            {
-              "id": "d2-b1",
-              "statement": "회사는 가상 소화기 진료 선도 업체 Cylinder Health 를 현금 1.05억 달러에 인수하는 확정 계약을 맺었다고 2분기 실적 보도자료에서 밝혔다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 실적 보도자료 (2026-08-04)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Signed a definitive agreement to acquire Cylinder Health, Inc., a leader in virtual-first digestive healthcare, for $105 million in cash consideration.",
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "The increases were primarily due to revenue growth from existing clients. Due to the timing of our sales cycle, revenue from new clients contracted in a given year is largely recognized in the following year. As such, the majority of our revenue growth during the three and nine months ended September 30, 2026 came from existing clients that were contracted in 2025 or prior.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             },
             {
-              "id": "d2-b2",
-              "statement": "인수로 Cylinder Health 의 임상 역량과 기존 고객 기반을 자사 앱 하나에 통합 소화기 케어 프로그램으로 합치며, 통합 프로그램 출시는 2027년 예정이다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                  "date": "2026-08-06",
-                  "quote": "The acquisition will combine Cylinder Health’s clinical expertise and existing market footprint with Hinge Health’s AI-powered care model and technology platform to deliver support in a single app with an integrated Gastrointestinal Care Program, expected to launch in 2027.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "revenueImpact": [
-            {
-              "id": "d2-r1",
-              "statement": "소화기 케어 프로그램의 고객사 수는 Cylinder Health 인수 발표 뒤 약 40% 늘었다고 CEO가 3분기 실적 보도자료에서 밝혔다.",
+              "id": "d1c3",
+              "statement": "영업을 총괄해 온 Jim Pursley 가 2027년 1월 1일 President 에서 물러나고 Aaryn Pure 가 상업 조직을 맡는다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "Our client base is up almost 30% YoY for our MSK Care Program, roughly 40% for our GI Care Program since our acquisition announcement of Cylinder Health in August, and has nearly doubled for our Migraine Care Program since last quarter.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "profitImpact": [
-            {
-              "id": "d2-p1",
-              "statement": "회사는 인수에 따른 비용을 비GAAP(일회성을 뺀 회사 기준) 이익에서 제외한다고 밝혔다 — 인수 비용은 회계 기준(GAAP) 이익만 누른다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "Acquisition-related expenses. We exclude certain charges that are attributable to acquiring businesses. We exclude these charges because we do not believe these charges have a direct correlation to the operating performance of our business.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "expectedGrowth": [],
-          "counter": [
-            {
-              "id": "d2-c1",
-              "statement": "회사는 통합 소화기 케어 프로그램의 2027년 출시를 포함한 기대가 현실이 되지 않을 수 있다고 보도자료에 적었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "Our expectations and beliefs regarding these matters may not materialize, and actual results in future periods are subject to risks and uncertainties that could cause actual results to differ materially from those projected, including those more fully described in our filings with the SEC, including in our Annual Report on Form 10-K for the year ended December 31, 2025, filed with the SEC on March 3, 2026 and in our Quarterly Report on Form 10-Q for the quarter ended September 30, 2026, when filed with the SEC.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d2-c2",
-              "statement": "영업을 이끌던 사장이 2027년 1월 1일자로 물러나고 신임 최고상업책임자가 상업 조직을 맡는다 — 질환을 넓히는 국면에서 영업 지휘부가 바뀐다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
+                  "publisher": "Hinge Health (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
                   "date": "2026-11-02",
                   "quote": "We also announced that Jim Pursley will step down as President, effective January 1, 2027, and will join our Board of Directors, effective January 4, 2027. Following this transition, Aaryn Pure will lead the commercial organization as Chief Commercial Officer.",
@@ -9945,39 +9848,38 @@ window.NDEEP_DATA = {
           ]
         },
         {
-          "id": "d3",
-          "what": "AI 모션 추적 TrueMotion 으로 자동화한 케어 모델 — 사람 치료사 시간을 줄여 원격 치료를 대규모로 제공하는 플랫폼",
-          "kind": "product",
-          "stage": "이익 기여 중",
-          "since": "",
+          "what": "Cylinder Health 인수와 소화기(GI) 케어 프로그램 — 소화기 질환으로 넓히는 신규 사업",
+          "kind": "contract",
+          "stage": "출시",
+          "since": "2026-08",
           "basis": [
             {
-              "id": "d3-b1",
-              "statement": "회사는 최근 4년 동안 통증 완화 기기 Enso 와 HingeConnect 를 내놓고, 착용 센서를 대체하는 AI 모션 추적 기술 TrueMotion 을 플랫폼에 통합했다고 적었다.",
+              "id": "d2b1",
+              "statement": "회사는 2026년 8월 31일 소화기 치료 회사 Cylinder Health 를 인수했고, 통합 소화기 케어 프로그램을 2027년에 출시할 계획이라고 밝혔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                  "date": "2026-08-06",
-                  "quote": "Over the last four years, we launched new programs to address six additional affected areas; launched Enso to deliver a non-addictive, non-invasive alternative for pain relief; developed HingeConnect for real-time targeted care support and external provider coordination; and integrated TrueMotion, our proprietary AI-powered motion tracking technology, to replace wearable sensors for our members.",
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "On August 31, 2026, we acquired Cylinder Health, Inc. (\"Cylinder\"). The acquisition is intended to combine Cylinder's clinical expertise and existing market footprint with Hinge Health’s AI-powered care model and technology platform to deliver support in a single app with an integrated Gastrointestinal Care Program, expected to launch in 2027.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             },
             {
-              "id": "d3-b2",
-              "statement": "회사 추정으로 이 플랫폼은 전통적 물리치료에 들어가는 케어팀의 사람 시간을 약 97% 줄였다.",
+              "id": "d2b2",
+              "statement": "인수 대금은 현금 1.05억 달러이며, 기존 근골격·편두통 프로그램을 보완하는 소화기 프로그램을 내놓기 위한 거래라고 회사가 설명했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                  "date": "2026-08-06",
-                  "quote": "According to our estimates based on data from 2025, our platform reduced the number of human care team hours associated with traditional physical therapy by approximately 97%.",
+                  "title": "힌지 헬스 Cylinder Health 인수 보도자료 (2026-08-04)",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex992.htm",
+                  "date": "2026-08-04",
+                  "quote": "San Francisco, CA - August 4, 2026 - Hinge Health, Inc. (NYSE: HNGE) today announced that it has signed a definitive agreement to acquire Cylinder Health, Inc, a leader in virtual-first digestive healthcare, for $105 million in cash consideration. With this acquisition, Hinge Health intends to launch an integrated Gastrointestinal (GI) Care Program to complement its existing Musculoskeletal (MSK) and Migraine Care Programs.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9986,32 +9888,34 @@ window.NDEEP_DATA = {
           ],
           "revenueImpact": [
             {
-              "id": "d3-r1",
-              "statement": "3분기 매출은 1년 전보다 52% 늘어 2.35억 달러였다.",
-              "evidence_level": "sourced",
+              "id": "d2r1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
               "sources": [
                 {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "Revenue increased 52% year-over-year to $235.0 million compared to revenue of $154.2 million in Q3 2025.",
+                  "title": "힌지 헬스 Cylinder Health 인수 보도자료 (2026-08-04)",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex992.htm",
+                  "date": "2026-08-04",
+                  "quote": "With nearly 100 clients across two million lives, partnerships with two of the three largest PBMs, and three of the top five health plans by self-insured market share, Cylinder has already treated over 150,000 people with a clinically-validated ROI.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
-              ]
+              ],
+              "statementOriginal": "Cylinder 는 인수 발표 당시 고객 약 100곳·200만 명을 보유하고 누적 15만 명 이상을 치료했으며, 상위 3대 PBM 중 2곳과 자가보험 점유율 상위 5대 건강보험사 중 3곳과 제휴하고 있었다.",
+              "stripped": true
             },
             {
-              "id": "d3-r2",
-              "statement": "지난 12개월 청구액은 1년 전보다 54% 늘어 9.6억 달러가 됐다.",
+              "id": "d2r2",
+              "statement": "CEO 는 8월 인수 발표 이후 소화기 케어 프로그램 고객 수가 약 40% 늘었다고 밝혔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
+                  "publisher": "Hinge Health (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
                   "date": "2026-11-02",
-                  "quote": "LTM calculated billings increased 54% year-over-year to $960.3 million as of September 30, 2026, compared to $624.2 million as of September 30, 2025.",
+                  "quote": "Our client base is up almost 30% YoY for our MSK Care Program, roughly 40% for our GI Care Program since our acquisition announcement of Cylinder Health in August, and has nearly doubled for our Migraine Care Program since last quarter.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -10020,48 +9924,16 @@ window.NDEEP_DATA = {
           ],
           "profitImpact": [
             {
-              "id": "d3-p1",
-              "statement": "매출총이익률은 1년 전 82%에서 87%로 올랐다.",
+              "id": "d2p1",
+              "statement": "3분기 일반관리비에는 인수 관련 비용 210만 달러가 더해져, 초기에는 이익에 부담으로 작용했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "GAAP gross margin was 87% compared to 82% in Q3 2025.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d3-p2",
-              "statement": "비GAAP(일회성을 뺀 회사 기준) 영업이익률은 1년 전 20%에서 33%로 올랐다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "Non-GAAP operating margin was 33% compared to 20% in Q3 2025.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d3-p3",
-              "statement": "회사는 매출총이익률 상승의 이유로 주식보상비용 감소와 케어팀 운영 효율 개선을 들었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                  "date": "2026-08-06",
-                  "quote": "The increases were primarily due to a decrease in stock-based compensation expense and an increase in efficiencies related to our care team operations.",
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "The decrease was partially offset by an increase of $2.2 million in legal and other costs to support public company compliance activities, $2.1 million in acquisition-related costs, $1.5 million in personnel-related costs, $1.3 million in employer payroll tax expense related to stock-based compensation expense, and $0.6 million in information technology costs.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -10070,32 +9942,16 @@ window.NDEEP_DATA = {
           ],
           "expectedGrowth": [
             {
-              "id": "d3-e1",
-              "statement": "회사 가이던스는 2026년 비GAAP 영업이익 2.66~2.68억 달러로, 1년 전보다 123% 증가이고 영업이익률 중간값은 30%다.",
+              "id": "d2e1",
+              "statement": "회사 전망으로는 통합 소화기 케어 프로그램이 2027년에 출시된다 — 그때까지는 매출 기여가 제한된다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "We are raising our non-GAAP income from operations guidance to be between $266 million and $268 million, reflecting year-over-year growth of 123% and non-GAAP operating margin of 30% at the midpoint, a ~1,000 bps increase over 2025.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d3-e2",
-              "statement": "회사는 4분기 비GAAP 영업이익을 8,100만~8,300만 달러로 봐 1년 전보다 71% 증가를 제시했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                  "date": "2026-11-02",
-                  "quote": "We expect non-GAAP income from operations to be between $81 million and $83 million, reflecting year-over-year growth of 71% and non-GAAP operating margin of 33% at the midpoint, a ~470 bps increase over Q4 2025.",
+                  "title": "힌지 헬스 Cylinder Health 인수 보도자료 (2026-08-04)",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex992.htm",
+                  "date": "2026-08-04",
+                  "quote": "The acquisition accelerates Hinge Health’s entry into one of healthcare’s largest underserved categories, with an integrated Gastrointestinal Care Program expected to launch in 2027.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -10104,16 +9960,161 @@ window.NDEEP_DATA = {
           ],
           "counter": [
             {
-              "id": "d3-c1",
-              "statement": "회사는 이익률 개선의 첫 이유로 주식보상비용 감소를 꼽았다 — 자동화 효율만의 결과가 아니고, 비용 감소분이 줄면 개선 폭도 줄어든다.",
+              "id": "d2c1",
+              "statement": "회사는 통합이 기대한 성과와 시너지를 내지 못할 위험, 거래 비용과 알려지지 않은 부채 위험을 직접 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                  "publisher": "힌지 헬스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                  "date": "2026-08-06",
-                  "quote": "The increases were primarily due to a decrease in stock-based compensation expense and an increase in efficiencies related to our care team operations.",
+                  "title": "힌지 헬스 Cylinder Health 인수 보도자료 (2026-08-04)",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex992.htm",
+                  "date": "2026-08-04",
+                  "quote": "Hinge Health’s ability to successfully integrate Cylinder Health’s operations to achieve expected benefits and synergies; Hinge Health’s ability to implement its plans, forecasts and other expectations with respect to Cylinder Health’s business after the completion of the transaction, including the possibility that the expected benefits from the proposed transaction will not be realized or will not be realized within the expected time period",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "소화기 치료 시장은 미국 성인 약 4명 중 1명이 겪고 연 1,350억 달러가 쓰이지만, 치료가 분절돼 있고 미국 카운티의 69%에 소화기내과 전문의가 없다고 회사가 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "힌지 헬스 Cylinder Health 인수 보도자료 (2026-08-04)",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex992.htm",
+                  "date": "2026-08-04",
+                  "quote": "GI conditions affect roughly one in four U.S. adults and drive $135 billion in annual medical spend, yet care remains fragmented and difficult to access. Symptoms can be ongoing and disruptive, and 69% of U.S. counties lack a gastroenterologist.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "TrueMotion 기반 AI 자동화 케어 모델 — 사람 치료 인력 시간을 줄여 원가를 낮추는 플랫폼",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 자체 AI 동작 추적 기술 TrueMotion 으로 전통 물리치료에 들어가는 사람 치료 시간을 약 97% 줄였다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Our AI-powered motion tracking technology, TrueMotion, allows us to deliver highly scalable care remotely and reduce the human hours associated with traditional physical therapy. According to our estimates based on data from 2025, our platform reduced the number of human care team hours associated with traditional physical therapy by approximately 97%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "2025년에는 직접 방문 치료망인 HingeSelect 를 출시해 회원 치료를 끝까지 이어 주면서 비용을 더 낮추려 한다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "In 2025, we launched our high-performance in-person provider network for care, HingeSelect, which allows us to now provide members with end-to-end care while further reducing costs for members, employers, and health plans.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "회사는 3분기 매출총이익률이 1년 전보다 5%p 올랐고, 주된 이유가 케어팀 운영 효율 개선이라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Gross margin for the three months ended September 30, 2026 increased by 5 percentage points compared to the three months ended September 30, 2025. Gross margin for the nine months ended September 30, 2026 increased by 8 percentage points compared to the three months ended September 30, 2025. The increases were primarily due to an increase in efficiencies related to our care team operations during the three and nine months ended September 30, 2026 and decreases in stock-based compensation expense during the nine months ended September 30, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3p2",
+              "statement": "3분기 비GAAP(일회성을 뺀 회사 기준) 영업이익률은 33%로 1년 전 20%에서 올랐고, GAAP 영업이익률도 21%로 1년 전 마이너스 4%에서 흑자로 돌았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
+                  "date": "2026-11-02",
+                  "quote": "GAAP operating margin was 21% compared to (4)% in Q3 2025. Non-GAAP operating margin was 33% compared to 20% in Q3 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d3e1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
+                  "date": "2026-11-02",
+                  "quote": "We expect non-GAAP income from operations to be between $81 million and $83 million, reflecting year-over-year growth of 71% and non-GAAP operating margin of 33% at the midpoint, a ~470 bps increase over Q4 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사 가이던스는 4분기 비GAAP 영업이익 8,100~8,300만 달러로 1년 전보다 71% 증가, 비GAAP 영업이익률 중간값 33%이며 1년 전 4분기보다 약 470bp(1bp=0.01%p) 개선이다.",
+              "stripped": true
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "3분기 매출원가는 재고 비용 340만 달러 증가로 9% 늘었다 — 기기 하드웨어를 쓰는 구조여서 원가 압력이 남아 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Cost of revenue for the three months ended September 30, 2026 increased by $2.6 million, or 9%, compared to the three months ended September 30, 2025. The increase was due to an increase of $3.4 million in inventory costs and an increase of $0.4 million in amortization of intangible assets, partially offset by a decrease of $1.5 million in personnel-related costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3c2",
+              "statement": "회사는 관세·무역 정책을 포함한 거시 환경 변화를 계속 지켜보고 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "힌지 헬스 10-Q 경영진 설명",
+                  "publisher": "Hinge Health (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "While we are monitoring the impact of evolving macroeconomic conditions, including tariffs and trade policy developments, on our business and our clients, we believe our value proposition as a cost-reducing healthcare solution remains strong.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -10122,23 +10123,23 @@ window.NDEEP_DATA = {
           ]
         }
       ],
-      "counter": "[]",
-      "expectedGrowth": "[]",
-      "profitImpact": "[]",
-      "revenueImpact": "[]",
+      "growthLink": "코드 33 을 보면 최근 3분기 매출 증가율이 45.6% → 47.2% → 53% 로 올랐고, 순이익률도 18.8% → 19.3% → 20.5% 로 같이 올랐다. 회사는 매출 쪽 가속의 원인을 \"주로 기존 고객의 매출 증가\"로, 이익률 상승의 주된 이유는 \"케어팀 운영 효율 개선\"이라고 직접 적었다. 즉 숫자 가속을 만든 것은 편두통·소화기 같은 신규 프로그램이 아니라 기존 근골격 프로그램의 회원 확대와 AI 자동화에 따른 원가 효율이며, 새 프로그램은 아직 고객 수만 늘어나는 초기 단계다.",
+      "headline": "편두통·소화기로 넓힌 질환 확장과 AI 자동화 케어 모델이 성장과 마진을 함께 끌고 있다",
+      "nVerdict": "충족",
+      "narrative": "힌지 헬스의 새로운 것은 둘이다 — 치료 질환을 넓히는 쪽과 치료를 AI 로 자동화해 원가를 낮추는 쪽. 2026년에 관절·근육 통증 밖으로 처음 넓힌 편두통 케어 프로그램을 출시했고, CEO 는 이 프로그램 고객 수가 지난 분기 대비 거의 두 배가 됐다고 밝혔다. 2026년 8월 31일에는 소화기 치료 회사 Cylinder Health 를 현금 1.05억 달러에 인수했는데, 이 회사는 고객 약 100곳·200만 명을 이미 갖고 있었다. 다만 통합 소화기 케어 프로그램은 2027년 출시 예정이라, 지금 매출을 끌고 있는 것은 여전히 기존 근골격 프로그램이다 — 회사도 3분기 매출 증가가 주로 기존 고객, 그중에서도 2025년 이전에 계약한 고객에서 왔다고 썼다. 이익 쪽의 새로움은 AI 동작 추적 기술 TrueMotion 으로 전통 물리치료에 들어가는 사람 치료 시간을 약 97% 줄인 케어 모델이다. 그 결과 3분기 매출총이익률이 1년 전보다 5%p 올랐고, 회사는 주된 이유를 케어팀 운영 효율 개선이라고 설명했다. 비GAAP(일회성을 뺀 회사 기준) 영업이익률은 33%로 1년 전 20%에서 올랐다. 기대 성장률은 회사 가이던스(회사가 내놓은 전망) 기준 2026년 매출 8.79~8.81억 달러로 중간값 50% 증가, 비GAAP 영업이익률 30%다. 꺾일 수 있는 지점은 4분기 매출 성장률 가이던스 중간값이 46%로 3분기 52%보다 낮다는 점, 그리고 영업을 총괄해 온 President 가 2027년 1월 1일 물러난다는 점이다. 프로그램별 매출을 따로 공시하지 않아 편두통·소화기의 기여분은 고객 수로만 확인된다.",
       "quality": {
         "newProduct": [
           {
-            "id": "q1-1",
-            "statement": "회사는 2026년에 관절·근육 통증을 벗어난 첫 확장으로 편두통 케어 프로그램을 출시했다.",
+            "id": "q1a",
+            "statement": "CEO 는 핵심 근골격 프로그램의 힘과 편두통 케어 프로그램의 빠른 채택에 소화기 확장을 더해 여러 질환을 다루는 플랫폼을 만들고 있다고 밝혔다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                "publisher": "힌지 헬스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                "date": "2026-08-06",
-                "quote": "In 2026, we launched our Migraine Care Program, our first expansion beyond joint and muscle pain, offering rapid drug-free pain relief, personalized trigger management, and expert-led prevention for members.",
+                "title": "힌지 헬스 실적 보도자료 (2026-08-04)",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex991.htm",
+                "date": "2026-08-04",
+                "quote": "Combined with the strength of our core musculoskeletal care programs and the rapid adoption of our Migraine Care Program, our expansion into GI is another step toward our vision of building a durable, multi-condition platform to automate the delivery of care.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10147,13 +10148,13 @@ window.NDEEP_DATA = {
         ],
         "marketShare": [
           {
-            "id": "q2-1",
-            "statement": "고객사 수는 1년 전보다 28% 늘어 3,270곳이 됐다.",
+            "id": "q2a",
+            "statement": "고객 수는 3분기 말 3,270곳으로 1년 전 2,560곳에서 28% 늘었다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                "publisher": "힌지 헬스 (SEC 공시)",
+                "publisher": "Hinge Health (SEC 공시)",
                 "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
                 "date": "2026-11-02",
                 "quote": "Number of clients increased 28% year-over-year to 3,270 clients as of September 30, 2026, compared to 2,560 clients as of September 30, 2025.",
@@ -10163,16 +10164,16 @@ window.NDEEP_DATA = {
             ]
           },
           {
-            "id": "q2-2",
-            "statement": "지난 12개월 청구액은 1년 전보다 54% 늘어 9.6억 달러로, 매출 증가율보다 빠르게 늘었다.",
+            "id": "q2b",
+            "statement": "한번 계약하면 평균 3년 동안 그 고객의 디지털 근골격·편두통·소화기 치료를 단독으로 맡는 경우가 많고, 12개월 고객 유지율은 2025년 말 기준 97%였다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
-                "publisher": "힌지 헬스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
-                "date": "2026-11-02",
-                "quote": "LTM calculated billings increased 54% year-over-year to $960.3 million as of September 30, 2026, compared to $624.2 million as of September 30, 2025.",
+                "title": "힌지 헬스 10-Q 경영진 설명",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Once we contract with a client, we are typically the sole digital MSK, migraine or GI care provider to their contracted lives for an average contract term of three years. Our 12-month client retention rate was 97% as of December 31, 2025.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10181,32 +10182,34 @@ window.NDEEP_DATA = {
         ],
         "marketStructure": [
           {
-            "id": "q3-1",
-            "statement": "회사는 한 고객사와 계약하면 대개 그 고객의 유일한 디지털 근골격계·편두통 케어 제공자가 되고, 계약 기간은 평균 3년이라고 설명한다.",
-            "evidence_level": "sourced",
+            "id": "q3a",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
             "sources": [
               {
-                "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                "publisher": "힌지 헬스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                "date": "2026-08-06",
-                "quote": "Once we contract with a client, we are most often the sole digital MSK or migraine care provider offered to their contracted lives for an average contract term of three years.",
+                "title": "힌지 헬스 10-Q 경영진 설명",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "As of September 30, 2026, we had over 60 partners. Our partners include the five largest national health plans by self-insured lives, and the top three PBMs by market share.",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ]
+            ],
+            "statementOriginal": "회사 파트너에는 자가보험 가입자 기준 미국 5대 건강보험사 전부와 점유율 상위 3대 PBM 이 들어 있고, 3분기 말 파트너는 60곳이 넘는다.",
+            "stripped": true
           },
           {
-            "id": "q3-2",
-            "statement": "협력사는 60곳이 넘고, 자가보험 가입자 기준 가장 큰 전국 건강보험사들과 점유율 최상위 PBM(약제급여관리회사)이 여기 들어 있다.",
+            "id": "q3b",
+            "statement": "대부분의 계약이 파트너를 통해 이뤄져 고객이 직접 계약할 필요가 적고, 회사는 이를 전략적 우위라고 설명했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                "publisher": "힌지 헬스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                "date": "2026-08-06",
-                "quote": "As of June 30, 2026, we had over 60 partners. Our partners include the five largest national health plans by self-insured lives, and the top three PBMs by market share.",
+                "title": "힌지 헬스 10-Q 경영진 설명",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "In the first nine months of 2026 and in 2025, the vast majority of our contracts were completed via our partners, negating the need for many clients to contract directly with us since many clients can leverage existing contracts through our partners. This is a significant strategic advantage for us as it enables implementation and launch of our platform as quickly as a few weeks after entering into a contract.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10215,66 +10218,68 @@ window.NDEEP_DATA = {
         ],
         "salesMargin": [
           {
-            "id": "q4-1",
-            "statement": "모든 프로그램을 앱 하나에서 쓸 수 있고 회원은 여러 질환을 동시에 치료할 수 있다 — 같은 회원에게 더 많은 프로그램을 파는 구조다.",
+            "id": "q4a",
+            "statement": "3분기 영업·마케팅비는 커미션 840만 달러, 마케팅·판촉비 570만 달러 증가를 중심으로 34% 늘었다 — 매출을 더 키우기 위한 지출이다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                "publisher": "힌지 헬스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                "date": "2026-08-06",
-                "quote": "All of our programs are available for use from a single application, with members having the ability to treat multiple indications at once.",
+                "title": "힌지 헬스 10-Q 경영진 설명",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Sales and marketing expenses for the three months ended September 30, 2026 increased by $21.7 million, or 34%, compared to the three months ended September 30, 2025. The increase was primarily due to an increase of $8.4 million in commissions, $5.7 million in marketing and promotion costs, $3.0 million in personnel-related costs, $0.9 million in professional service costs, $0.6 million in amortization of intangible assets and $0.5 million in hosting costs.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "q4-2",
-            "statement": "키움증권은 지난해 11월 보고서에서 고객사 수·청구액·회원 전환율 같은 주요 지표가 꾸준히 좋아지고 있고 회사가 연간 가이던스를 대폭 올렸다고 정리했다.",
-            "evidence_level": "sourced",
+            "id": "q4b",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
             "sources": [
               {
-                "title": "[힌지 헬스 (NYS:HNGE)] 안 아프게, 돈 덜 나가게, 위기는 아무렇지 않게",
-                "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqxgileqxcceixcgcgxeecz.pdf",
-                "date": "2025-11-06",
-                "quote": "- 집에서 쓰는 근골격계 재활 관리 플랫폼, 앱을 운영하는 헬스케어 기업- 고객사 수, 청구액, 회원 전환율 등 주요 실적 지표 꾸준히 좋아지는 중- `25년 연간 실적 가이던스 대폭 상향하며 수익성 개선에 자신감 내비친 상황",
+                "title": "힌지 헬스 실적 보도자료 (2026-11-02)",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026068872/hnge-q32026112xex991.htm",
+                "date": "2026-11-02",
+                "quote": "2026 non-GAAP operating margin midpoint raised to 30%, reflecting ~1,000 bps improvement year-over-year",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ]
+            ],
+            "statementOriginal": "회사는 3분기 발표에서 2026년 비GAAP 영업이익률 가이던스 중간값을 30%로 올렸고, 이는 1년 전보다 약 1,000bp(1bp=0.01%p) 개선이다.",
+            "stripped": true
           }
         ],
         "costProductivity": [
           {
-            "id": "q5-1",
-            "statement": "회사 추정으로 이 플랫폼은 전통적 물리치료에 들어가는 케어팀의 사람 시간을 약 97% 줄였다.",
+            "id": "q5a",
+            "statement": "2025년 자료 기준으로 플랫폼이 전통 물리치료에 필요한 사람 치료 시간을 약 97% 줄였다고 회사가 추정했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                "publisher": "힌지 헬스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                "date": "2026-08-06",
-                "quote": "According to our estimates based on data from 2025, our platform reduced the number of human care team hours associated with traditional physical therapy by approximately 97%.",
+                "title": "힌지 헬스 10-Q 경영진 설명",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "According to our estimates based on data from 2025, our platform reduced the number of human care team hours associated with traditional physical therapy by approximately 97%. We have done this while improving our high member satisfaction over time.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "q5-2",
-            "statement": "건강보험사·PBM 등과의 협력으로 신규 고객 개통 기간을 40~100일로 줄였다고 회사는 설명한다.",
+            "id": "q5b",
+            "statement": "회사는 비용 기반이 대부분 변동비이고 회사 안 모든 부문에 효율 개선 목표를 두고 있다고 설명했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "힌지 헬스 10-Q 경영진 설명 (2026-06-30 분기)",
-                "publisher": "힌지 헬스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-                "date": "2026-08-06",
-                "quote": "Through strategic partnerships with health plans, PBMs, TPAs, and other ecosystem entities, we have streamlined our implementation process to enable activation in a 40–100 day period compared to what we believe is a typically much longer implementation period in healthcare.",
+                "title": "힌지 헬스 10-Q 경영진 설명",
+                "publisher": "Hinge Health (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Our cost base is mostly variable, and we maintain strong operational focus with efficiency improvement targets for every function within the company.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10282,28 +10287,30 @@ window.NDEEP_DATA = {
           }
         ]
       },
-      "growthLink": "코드 33을 보면 최근 세 분기 동안 매출 증가율(45.6% → 47.2% → 53%)과 순이익률(18.8% → 19.3% → 20.5%)이 함께 오르고 있다. 회사는 이 매출 증가가 주로 기존 고객사에서 나왔고 기존 회원을 유지하면서 회원을 더 늘린 결과라고 10-Q 경영진 설명에 적었다 — 편두통·소화기 프로그램별 매출은 공개하지 않아, 새 프로그램이 이 가속에 얼마를 보탰는지는 숫자로 확인되지 않는다. 순이익률 상승도 회사 설명으로는 주식보상비용 감소와 케어팀 운영 효율 개선이 섞인 결과다.",
-      "headline": "편두통·소화기로 질환을 넓혀 고객사 28% 증가, 매출 52% 성장 — 프로그램별 매출은 미공개",
-      "nVerdict": "충족",
-      "narrative": "힌지 헬스는 집에서 하는 관절·근육(근골격계) 재활을 AI로 자동화해 자가보험 기업에 파는 회사다. 새로운 것은 질환 영역을 넓힌 두 가지다 — 2026년에 내놓은 편두통 케어 프로그램, 그리고 2026년 8월 현금 1.05억 달러에 사들인 소화기 진료 업체 Cylinder Health 다. CEO는 3분기 실적 보도자료에서 근골격계 프로그램 고객사가 1년 전보다 거의 30%, 소화기 프로그램은 인수 발표 뒤 약 40%, 편두통 프로그램은 직전 분기 대비 거의 두 배로 늘었다고 밝혔다. 전체 매출은 3분기에 1년 전보다 52% 늘어 2.35억 달러, 고객사는 28% 늘어 3,270곳이다. 이익 쪽은 매출총이익률이 1년 전 82%에서 87%로, 비GAAP(일회성을 뺀 회사 기준) 영업이익률이 20%에서 33%로 올랐다. 다만 회사는 이 개선의 주된 이유로 주식보상비용 감소와 케어팀 운영 효율을 들었고, 새 프로그램 덕분이라고는 쓰지 않았다. 회사 가이던스(회사가 내놓은 전망)는 2026년 매출 8.8억 달러로 1년 전보다 50% 성장, 비GAAP 영업이익 2.66~2.68억 달러로 123% 증가다. 꺾일 수 있는 지점은 세 가지다 — 4분기 성장률 가이던스 46%가 3분기 실제 52%보다 낮고, 신규 고객 매출은 계약한 이듬해에야 인식되며, 통합 소화기 프로그램은 2027년 출시 예정이라 아직 매출이 아니다. 여기에 영업을 이끌던 사장이 2027년 1월 1일자로 물러나고 상업 조직 수장이 바뀐다.",
-      "sourceGap": "3분기 실적 발표 콜 원고는 접속이 되지 않아 읽지 못했고, 3분기 10-Q 경영진 설명과 편두통·소화기 프로그램별 매출을 밝힌 자료는 없었다.",
+      "sourceGap": "국내 증권사 리포트와 3분기 실적 발표 콜 원고를 받지 못해 프로그램별 매출 비중은 확인하지 못했다.",
       "ticker": "HNGE",
       "watch": [
-        "편두통·소화기 케어 프로그램의 매출이나 회원 수를 회사가 따로 공개하는지 — 지금은 고객사 수만 나온다",
-        "통합 소화기 케어 프로그램이 2027년 예정대로 출시되는지, 시점이 미뤄지는지",
-        "4분기 실제 매출 성장률이 가이던스 46%를 넘는지, 내년 전망이 50%대 성장을 이어가는지",
-        "매출총이익률 87%가 유지되면서 주식보상비용 감소가 아닌 케어팀 효율로 개선이 이어지는지"
+        "통합 소화기 케어 프로그램이 2027년에 예정대로 출시되는지, 소화기·편두통 매출이나 회원 수를 따로 공시하기 시작하는지",
+        "4분기 매출이 가이던스 2.49~2.51억 달러 구간에 들고 비GAAP 영업이익률 33%를 지키는지",
+        "이번 판매 시즌 뒤 고객 수가 3,270곳에서 더 늘어나는지 — 신규 고객 매출은 이듬해에 인식되므로 2027년 성장의 선행 지표다",
+        "매출총이익률이 87%에서 더 오르는지, 아니면 재고·관세 비용이 다시 원가를 밀어 올리는지"
       ],
       "factcheck": {
         "verdict": "pass",
         "removed": [],
-        "reasons": []
+        "reasons": [
+          "FY2027 가이던스(매출 50% 증가, 영업이익 123% 증가, 마진 30%) 모두 정확",
+          "4분기 성장률 46% < 3분기 52% 수치 확인됨",
+          "Cylinder Health 인수 규모(105M달러), 고객 규모(100곳·200만 명) 정확",
+          "매출총이익률 5%p 상승, 비GAAP 영업이익률 33%→20% 비교 정확",
+          "주요 임원 교체(Jim Pursley 퇴임, Aaryn Pure 등용) 날짜·직책 정확"
+        ]
       },
       "status": "done",
       "v": 2,
-      "researchedOn": "2026-11-07",
-      "asOf": "2026-11-02",
-      "why": "지정",
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-09",
+      "why": "새 공시",
       "docs": [
         {
           "label": "실적 보도자료 (2026-11-02)",
@@ -10316,9 +10323,14 @@ window.NDEEP_DATA = {
           "filingDate": "2026-08-04"
         },
         {
-          "label": "10-Q 경영진 설명 (2026-08-06)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026054327/hnge-20260630.htm",
-          "filingDate": "2026-08-06"
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex992.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026072251/hnge-20260930.htm",
+          "filingDate": "2026-11-09"
         }
       ],
       "code33": {
@@ -10396,8 +10408,8 @@ window.NDEEP_DATA = {
         }
       ],
       "consensus": {
-        "saleCy": 49.31,
-        "saleNy": 27.17,
+        "saleCy": 49.35,
+        "saleNy": 27.02,
         "epsCy": -1.81,
         "epsNy": 26.56
       }
@@ -17464,58 +17476,58 @@ window.NDEEP_DATA = {
     },
     "ORKA": {
       "ticker": "ORKA",
-      "headline": "임상 중인 신약 세 가지는 모두 새롭지만 매출은 0 — 숫자로 확인되는 N 은 아직 없다",
+      "headline": "매출 0인 임상 단계 — 건선 신약 ORKA-001 의 완전 제거 61%가 유일한 새 동력",
       "nVerdict": "부분 충족",
       "drivers": [
         {
-          "what": "ORKA-001 — 건선 치료용 IL-23p19 표적 항체. 반감기를 늘려 1년에 한두 번 주사로 끝내는 것을 목표로 하는 회사의 선두 파이프라인",
+          "what": "ORKA-001 — 반감기를 늘린 IL-23p19 표적 항체. 연 1~2회 주사로 판상 건선을 치료하는 것을 목표로 하는 선두 후보물질",
           "kind": "product",
           "stage": "발표만",
           "since": "2024",
           "basis": [
             {
-              "id": "d1b1",
-              "statement": "ORKA-001 은 2026년 4월 발표한 EVERLAST-A 2a상에서 투여군 63명 중 40명(63.5%)이 16주차에 PASI 100(건선 병변이 기준점 대비 100% 사라진 상태)에 도달했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
-                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "In April 2026, the Company presented positive data from its EVERLAST-A Phase 2a trial in moderate-to-severe PsO showing 40 of 63 (63.5%) participants treated with ORKA-001 achieved PASI 100 at Week 16. Other key secondary endpoints included PASI 90 at Week 16, achieved by 83% of treated participants, and IGA 0/1 at Week 16, achieved by 84% of treated participants.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d1b2",
-              "statement": "다음 단계인 2b상 EVERLAST-B 는 2분기에 187명 등록을 마쳤고, 회사는 16주차 결과를 2026년 4분기에 내놓아 2027년 상반기 3상 개시의 근거로 쓸 계획이다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
-                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "EVERLAST-B, a Phase 2b dose-ranging trial in moderate-to-severe PsO, completed enrollment of 187 subjects in the second quarter. The Company now expects to report Week 16 data for all participants in the fourth quarter of 2026. These data are intended to support the initiation of a Phase 3 program in the first half of 2027.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d1b3",
-              "statement": "1상에서 사람 몸속 반감기가 약 100일로 나와, 600mg 한 번 투여로 52주차까지 유효 농도가 유지됐다고 회사가 적었다.",
+              "id": "b1",
+              "statement": "EVERLAST-B 시험 16주 시점에 ORKA-001 600mg 투여군의 61%가 피부가 완전히 깨끗해지는 PASI 100 에 도달했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
-                  "quote": "The data showed that ORKA-001 has a human half-life of approximately 100 days and was well tolerated at all dose levels, with a favorable safety profile consistent with the anti-IL-23 class. The Phase 1 trial data support that a single 600 mg dose maintained ORKA-001 concentrations well above effective trough levels through Week 52, the last timepoint evaluated, with sustained inhibition of IL-23 pathway signaling observed throughout that time period.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "In October 2026, we announced Week 16 data for EVERLAST-B, showing that 61% of participants in the 600 mg ORKA-001 group achieved the primary endpoint of PASI 100, highly consistent with the Week 16 results observed in EVERLAST-A.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "b2",
+              "statement": "앞선 EVERLAST-A 시험에서는 28주 시점에 71%가 PASI 100, 87%가 PASI 90 에 도달해 효과가 더 깊어졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "In September 2026, we announced Week 28 data for EVERLAST-A, showing that efficacy continued to deepen through Week 28, six months after the last dose of ORKA-001, with 71% of participants achieving PASI 100 and 87% achieving PASI 90.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "b3",
+              "statement": "회사는 EVERLAST 임상 결과를 근거로 2027년 상반기에 600mg 용량으로 3상 시험을 시작할 계획이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "Based on the results from the EVERLAST clinical program, we intend to discuss Phase 3 plans with regulatory authorities. Pending results from those discussions, we plan to initiate Phase 3 trials of ORKA-001 in moderate-to-severe PsO in the first half of 2027 with the 600 mg dose.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -17524,15 +17536,15 @@ window.NDEEP_DATA = {
           ],
           "revenueImpact": [
             {
-              "id": "d1r1",
-              "statement": "매출 기여는 0이다 — 회사는 지금까지 어떤 원천에서도 매출을 낸 적이 없고 가까운 미래에도 제품 판매 매출을 기대하지 않는다고 직접 적었다.",
+              "id": "r1",
+              "statement": "회사는 지금까지 제품 판매를 포함해 어떤 매출도 낸 적이 없고 가까운 미래에도 제품 매출을 기대하지 않는다고 밝혔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
                   "quote": "To date, we have not generated revenue from any sources, including product sales, and do not expect to generate any revenue from the sale of products in the foreseeable future.",
                   "verified": "ok",
                   "httpStatus": 200
@@ -17542,84 +17554,67 @@ window.NDEEP_DATA = {
           ],
           "profitImpact": [
             {
-              "id": "d1p1",
-              "statement": "지금은 이익이 아니라 비용으로만 잡힌다 — 2026년 2분기 연구개발비는 4,330만 달러로 1년 전 2,410만 달러에서 늘었고, 회사는 임상시험 추가와 Halozyme 선급금이 주된 이유라고 밝혔다.",
+              "id": "p1",
+              "statement": "임상이 늘면서 3분기 연구개발비가 5,370만 달러로 1년 전 2,900만 달러에서 커졌다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
+                  "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "Research and Development (R&D) Expenses: R&D expenses were $43.3 million for the second quarter of 2026, compared to $24.1 million for the second quarter of 2025. The increase was primarily related to additional clinical trials and associated costs of Oruka s programs, a non-refundable upfront payment made to Halozyme, and higher employee compensation expenses, including stock-based compensation driven by increased headcount.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "Research and development expenses increased by $24.7 million, from $29.0 million for the three months ended September 30, 2025 to $53.7 million for the three months ended September 30, 2026.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             },
             {
-              "id": "d1p2",
-              "statement": "그 결과 2026년 2분기 순손실은 4,120만 달러로 1년 전 2,460만 달러보다 커졌다.",
+              "id": "p2",
+              "statement": "3분기 순손실은 5,000만 달러, 9개월 누적 순손실은 1억 2,300만 달러이고 9개월 영업활동 현금 유출은 1억 100만 달러였다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
+                  "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "Net Loss: Net loss was $41.2 million and $24.6 million for the second quarters of 2026 and 2025, respectively.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "For the three and nine months ended September 30, 2026, we had net losses of $50.0 million and $123.0 million, respectively, and we used net cash of $101.0 million for our operating activities during the nine months ended September 30, 2026.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             }
           ],
-          "expectedGrowth": [
-            {
-              "id": "d1e1",
-              "statement": "회사 전망은 매출이 아니라 일정과 자금이다 — 2026년 6월 말 현금·현금성자산·유가증권 11억 달러가 ORKA-001 의 BLA(품목허가 신청) 제출까지 운영자금을 댈 수 있다고 밝혔다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
-                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "Cash Position: As of June 30, 2026, Oruka had cash, cash equivalents, and marketable securities of $1.1 billion. The Company expects that its cash, cash equivalents, and marketable securities will be sufficient to fund operations through an anticipated BLA filing for ORKA-001 and continued development of ORKA-002.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
+          "expectedGrowth": [],
           "counter": [
             {
-              "id": "d1c1",
-              "statement": "회사 스스로 제품을 상업화한 적이 없고 앞으로 몇 년간, 혹은 끝까지 제품 매출이 없을 수 있다고 적었다.",
+              "id": "c1",
+              "statement": "회사는 어떤 프로그램도 규제 승인을 받지 못할 수 있다고 공시에 직접 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
-                  "quote": "We have not yet commercialized any products, and we do not expect to generate revenue from sales of products for several years, if at all.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "We may never obtain regulatory approval for any of our programs.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             },
             {
-              "id": "d1c2",
-              "statement": "현금이 BLA 제출까지 버틴다는 전망과 별개로, 상업용 의약품을 만들어 팔기 전에 추가 자금 조달이 필요하고 그것이 막히면 유동성 부족이 회사에 중대한 악영향을 줄 수 있다고 밝혔다.",
+              "id": "c2",
+              "statement": "염증성 장질환으로 적응증을 넓혔지만 병용 임상은 2028년 6월까지, 단독 투여 임상은 2030년 6월까지 환자 투여가 제한된다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
-                  "quote": "We will need to secure additional financing in the future to fund additional research and development, and before a commercial drug can be produced, marketed, and sold. If we are unable to obtain additional financing or generate license or product revenue, the lack of liquidity could have a material adverse effect on our company.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "The amendment expands the definition of ORKA-001 Field to encompass all therapeutic, prophylactic, palliative and diagnostic uses, subject to the restriction that we will not dose a human patient in a clinical trial of ORKA-001 for inflammatory bowel disease as part of a combination until June 1, 2028 or as a monotherapy until June 1, 2030 (the “Monotherapy Dosing Restriction”).",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -17628,21 +17623,21 @@ window.NDEEP_DATA = {
           ]
         },
         {
-          "what": "ORKA-002 — IL-17A 와 IL-17F 를 함께 막는 항체. 건선 외에 화농성 한선염(HS)으로 적응증을 넓히는 두 번째 축",
+          "what": "ORKA-002 — IL-17A 와 IL-17F 를 함께 차단하는 반감기 연장 항체. 건선과 화농성 한선염(겨드랑이·사타구니에 생기는 만성 염증성 피부병, HS)을 노린다",
           "kind": "product",
           "stage": "발표만",
-          "since": "2026-01",
+          "since": "2026",
           "basis": [
             {
-              "id": "d2b1",
-              "statement": "2026년 1월 발표한 1상 중간 결과에서 반감기가 약 75~80일로 나와, 건선은 반년에 한 번·화농성 한선염은 분기에 한 번 유지 투여할 가능성을 뒷받침했다고 회사가 적었다.",
+              "id": "b4",
+              "statement": "ORKA-002 는 1상 중간 결과에서 반감기가 약 75~80일로 확인돼 건선은 1년에 두 번, 화농성 한선염은 분기마다 유지 투여할 가능성을 뒷받침했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
                   "quote": "In January 2026, we announced interim findings from the Phase 1 trial of ORKA-002 in healthy volunteers. The results showed that ORKA-002 has a half-life of approximately 75-80 days, which supports the potential for twice-yearly maintenance dosing in PsO and quarterly maintenance dosing in HS.",
                   "verified": "ok",
                   "httpStatus": 200
@@ -17650,16 +17645,32 @@ window.NDEEP_DATA = {
               ]
             },
             {
-              "id": "d2b2",
-              "statement": "화농성 한선염 대상 2상 ORCA-SPLASH 를 약 160명 규모로 새로 시작했다 — 적응증이 건선 밖으로 넓어진 첫 임상이다.",
+              "id": "b5",
+              "statement": "건선 환자 171명이 등록된 ORCA-SURGE 의 16주 결과는 2027년 1분기에 나올 예정이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
+                  "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "The Company initiated ORCA-SPLASH, a Phase 2 trial in moderate-to-severe HS. ORCA-SPLASH is a randomized, double-blind, placebo-controlled study in approximately 160 participants. The study will enroll patients in the United States and Canada.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "ORCA-SURGE enrolled 171 patients randomized 1:1:1:1 to receive 40 mg, 160 mg or 320 mg of ORKA-002 at Weeks 0 and 4, or matching placebo. The primary endpoint is PASI 100 at Week 16. Maintenance dosing will evaluate the potential for twice-yearly dosing with ORKA-002. We expect to announce Week 16 data from ORCA-SURGE in the first quarter of 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "b6",
+              "statement": "화농성 한선염 환자 약 160명을 모집하는 ORCA-SPLASH 시험도 새로 시작했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "In addition, we initiated ORCA-SPLASH, a Phase 2 trial of ORKA-002 in patients with moderate-to-severe HS, in August 2026. ORCA-SPLASH is designed to enroll approximately 160 patients.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -17669,52 +17680,35 @@ window.NDEEP_DATA = {
           "revenueImpact": [],
           "profitImpact": [
             {
-              "id": "d2p1",
-              "statement": "ORKA-002 도 비용만 발생시킨다 — 2026년 상반기에 라이선스 마일스톤 300만 달러를 비용으로 처리했다.",
+              "id": "p3",
+              "statement": "ORKA-002 라이선스 계약에 따라 9개월 동안 300만 달러의 마일스톤 비용이 들어갔고, 누적 마일스톤 지급액은 700만 달러다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
-                  "quote": "During the three and six months ended June 30, 2026, we incurred and expensed a milestone of nil and $3.0 million for the ORKA-002 License Agreement, respectively.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "During the three and nine months ended September 30, 2026, we incurred and expensed a milestone of nil and $3.0 million for the ORKA-002 License Agreement, respectively. Pursuant to the License Agreements, as of September 30, 2026, we have incurred and expensed milestone payments of $7.0 million for each of ORKA-001 and ORKA-002 and have not incurred or expensed any milestone payments in connection with the ORKA-003 License Agreement.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             }
           ],
-          "expectedGrowth": [
-            {
-              "id": "d2e1",
-              "statement": "회사 전망은 건선 2상 ORCA-SURGE 의 16주차 결과를 2027년 1분기에 내놓는 것이고, 매출·이익 전망치는 제시하지 않았다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
-                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "The Company now expects to report Week 16 data from ORCA-SURGE, a Phase 2 trial in moderate-to-severe PsO, in the first quarter of 2027.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
+          "expectedGrowth": [],
           "counter": [
             {
-              "id": "d2c1",
-              "statement": "같은 자리에 이미 승인된 Bimzelx(bimekizumab)가 있고, 회사는 결합 부위·친화도가 비슷하다며 효능이 아니라 투여 간격으로 차별화하겠다고 적었다.",
+              "id": "c3",
+              "statement": "IL-17A 와 IL-17F 동시 차단은 이미 승인된 Bimzelx 가 선점해 더 높은 반응률을 보여 준 영역이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
-                  "quote": "More recently, the importance of inhibiting the IL-17F isoform along with IL-17A has become appreciated, and dual blockade with the recently approved therapy Bimzelx (bimekizumab) has led to higher response rates in patients than blockade of IL-17A alone. ORKA-002 is designed to bind IL-17A/F at similar epitopes, or binding sites, and affinity ranges as bimekizumab, but incorporates half-life extension technology that could enable more convenient dosing intervals.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "More recently, the importance of inhibiting the IL-17F isoform along with IL-17A has become appreciated, and dual blockade with the recently approved therapy Bimzelx (bimekizumab) has led to higher response rates in patients than blockade of IL-17A alone.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -17723,38 +17717,22 @@ window.NDEEP_DATA = {
           ]
         },
         {
-          "what": "ORKA-004(TL1A 표적 항체) 임상 진입 예정과 Paragon 라이선스 범위 확대 — 병용 요법·염증성 장질환으로 적응증을 넓히는 계약 변경",
-          "kind": "contract",
+          "what": "ORKA-004 — TL1A 를 표적하는 피하주사 반감기 연장 항체. 앞선 두 후보와 묶어 쓰는 병용 전략의 축",
+          "kind": "product",
           "stage": "발표만",
-          "since": "2026-05",
+          "since": "2026-08",
           "basis": [
             {
-              "id": "d3b1",
-              "statement": "TL1A 를 겨냥한 피하주사 항체 ORKA-004 가 2026년 4분기 임상에 들어갈 예정이고, 회사는 ORKA-001·ORKA-002 와의 병용 2상을 2027년에 시작할 계획이다.",
+              "id": "b7",
+              "statement": "ORKA-004 는 2026년 4분기에 임상에 들어가고, ORKA-001·ORKA-002 와의 병용 시험은 2027년부터 시작할 계획이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
+                  "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "The Company announced ORKA-004, a novel, subcutaneously administered, half-life extended monoclonal antibody targeting TL1A that is anticipated to enter the clinic in the fourth quarter of 2026. The Company plans to pursue ORKA-004 in combination with ORKA-001 and ORKA-002, with Phase 2 combination studies planned to begin in 2027.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d3b2",
-              "statement": "2026년 5월 Paragon Therapeutics 와의 IL-23 라이선스를 모든 치료 영역으로 넓혀, 종전에 빠져 있던 염증성 장질환에서도 ORKA-001 을 개발할 수 있게 됐다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
-                  "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                  "date": "2026-08-10",
-                  "quote": "In May 2026, Oruka amended its IL-23 license agreement with Paragon Therapeutics to include all therapeutic areas. Prior to the amendment, the Company s agreement did not include inflammatory bowel disease (IBD). The amendment allows Oruka to pursue ORKA-001 or combinations thereof in IBD, subject to certain timing restrictions on initiating clinical trials.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "ORKA-004 is a novel, subcutaneously administered, extended half-life mAb designed to target TL1A. We anticipate initiating clinical development of ORKA-004 in the fourth quarter of 2026. We plan to pursue ORKA-004 in combination with ORKA-001 and ORKA-002, with Phase 2 combination trials planned to begin in 2027.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -17766,16 +17744,16 @@ window.NDEEP_DATA = {
           "expectedGrowth": [],
           "counter": [
             {
-              "id": "d3c1",
-              "statement": "염증성 장질환 확장에는 시간 제약이 붙었다 — 병용은 2028년 6월 1일, 단독 투여는 2030년 6월 1일 전에는 임상에서 환자에게 투여할 수 없다.",
+              "id": "c4",
+              "statement": "회사는 추가 연구개발과 상업용 의약품 생산·판매 전에 추가 자금 조달이 필요하다고 밝혔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                   "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                  "date": "2026-08-10",
-                  "quote": "The amendment expands the definition of ORKA-001 Field to encompass all therapeutic, prophylactic, palliative and diagnostic uses, subject to the restriction that we will not dose a human patient in a clinical trial of ORKA-001 for inflammatory bowel disease as part of a combination until June 1, 2028 or as a monotherapy until June 1, 2030 (the Monotherapy Dosing Restriction).",
+                  "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                  "date": "2026-11-09",
+                  "quote": "We will need to secure additional financing in the future to fund additional research and development, and before a commercial drug can be produced, marketed, and sold.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -17784,41 +17762,57 @@ window.NDEEP_DATA = {
           ]
         }
       ],
-      "growthLink": "코드 33 은 성립하지 않는다 — 매출이 없어 매출 증가율과 순이익률 칸이 비어 있고, 코드가 센 순이익 흐름도 개선이 아니라고 나왔다. 회사는 10-Q 경영진 설명에서 매출 증가의 원인을 설명하는 대신 지금까지 어떤 매출도 없었다고 적었으므로, 숫자 가속을 어느 동력이 만들었는지 연결할 근거 자체가 없다. 지금 커지는 것은 이익이 아니라 임상 비용이며, 분기 순손실이 1년 전보다 늘어난 것이 그 결과다.",
+      "growthLink": "코드 33 은 매출 증가율과 순이익률 칸이 아예 비어 있고 순이익 증가율도 오르지 않는다 — 회사가 제품 매출을 낸 적이 없기 때문이다. 지금 움직이는 숫자는 매출이 아니라 비용 쪽이고, 회사는 3분기 연구개발비가 5,370만 달러로 1년 전 2,900만 달러에서 늘어난 이유를 진행 중인 임상시험의 위탁 연구·위탁 제조 비용 증가와 연구개발 인원 증가로 설명한다. 즉 새 동력(ORKA-001·ORKA-002 임상)이 지금 만들고 있는 것은 이익 가속이 아니라 손실 확대다.",
       "quality": {
         "newProduct": [
           {
-            "id": "q1a",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
-                "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
-                "date": "2026-08-10",
-                "quote": "In April 2026, the Company presented positive data from its EVERLAST-A Phase 2a trial in moderate-to-severe PsO showing 40 of 63 (63.5%) participants treated with ORKA-001 achieved PASI 100 at Week 16. ORKA-001 was well tolerated with a safety profile similar to placebo and consistent with prior IL-23p19 inhibitors.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "새로운 것은 분명히 있다 — ORKA-001 은 2a상 16주차에 투여군 63명 중 40명(63.5%)이 PASI 100 에 도달했고, 회사는 기존 IL-23p19 억제제와 비슷한 안전성이었다고 밝혔다.",
-            "stripped": true
-          }
-        ],
-        "marketShare": [],
-        "marketStructure": [
-          {
-            "id": "q3a",
-            "statement": "이 시장은 이미 승인된 항체 의약품 소수가 표준치료를 쥔 구조다 — 회사는 IL-23 의 p19 를 겨냥한 후발 항체들이 1세대보다 효능·안전성이 개선됐고, IL-17 쪽에서는 최근 승인된 Bimzelx 가 반응률을 높였다고 설명했다.",
+            "id": "q1",
+            "statement": "선두 후보 ORKA-001 은 EVERLAST-B 16주 시점에 600mg 투여군의 61%에서 PASI 100(피부 병변 완전 제거)을 달성했고, PASI 90 과 IGA 0/1 은 각각 86%였다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
                 "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-                "date": "2026-08-10",
-                "quote": "First-generation IL-23 antibodies bound p40 and inhibited both IL-12 and IL-23 signaling, while more recent IL-23 antibodies targeting the p19 subunit have shown improved efficacy and safety. ... IL-17 inhibition has become central to the treatment of psoriatic diseases, including PsO and PsA, and has also shown efficacy in other I&I indications, such as HS and axial spondyloarthritis ... dual blockade with the recently approved therapy Bimzelx (bimekizumab) has led to higher response rates in patients than blockade of IL-17A alone.",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                "date": "2026-11-09",
+                "quote": "In October 2026, we announced Week 16 data for EVERLAST-B, showing that 61% of participants in the 600 mg ORKA-001 group achieved the primary endpoint of PASI 100, highly consistent with the Week 16 results observed in EVERLAST-A. Efficacy increased in a dose-dependent manner, with the 600 mg group outperforming both lower dose groups on complete skin clearance. The ORKA-001 600 mg group also demonstrated high response rates across secondary endpoints, including 86% of patients achieving each of PASI 90 and IGA 0/1.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [
+          {
+            "id": "q2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                "publisher": "오루카 테라퓨틱스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                "date": "2026-11-09",
+                "quote": "IL-17 inhibition has become central to the treatment of psoriatic diseases, including PsO and PsA, and has also shown efficacy in other I&I indications, such as HS and axial spondyloarthritis (“axSpA”). More recently, the importance of inhibiting the IL-17F isoform along with IL-17A has become appreciated, and dual blockade with the recently approved therapy Bimzelx (bimekizumab) has led to higher response rates in patients than blockade of IL-17A alone.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "IL-17 억제는 이미 건선·건선성 관절염 치료의 중심이 됐고, 최근 승인된 Bimzelx 의 이중 차단이 반응률 기준을 끌어올린 상태다.",
+            "stripped": true
+          },
+          {
+            "id": "q3",
+            "statement": "항체를 넘겨준 Paragon 은 같은 영역에서 IL-23 단일 표적 항체나 IL-17A/F 단일 표적 항체를 새로 만드는 작업을 하지 않기로 약속했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                "publisher": "오루카 테라퓨틱스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                "date": "2026-11-09",
+                "quote": "Pursuant to each of the License Agreements, Paragon has agreed not to conduct any new campaigns that generate anti-IL-23 monospecific antibodies or anti-IL-17A/F monospecific antibodies in the respective agreed-upon fields.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -17827,60 +17821,99 @@ window.NDEEP_DATA = {
         ],
         "salesMargin": [
           {
-            "id": "q4a",
-            "statement": "회사의 전략은 효능이 입증된 작용 기전에 항체 설계를 얹어 표준치료보다 효능과 투여 간격을 의미 있게 개선하는 것이다 — 가격보다 투여 편의로 차별화를 노린다.",
-            "evidence_level": "sourced",
+            "id": "q4",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
             "sources": [
               {
-                "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
                 "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
                 "date": "2026-08-10",
-                "quote": "Our strategy is to apply antibody engineering and format innovations to validated modes of action, which we believe will enable us to improve meaningfully upon the efficacy and dosing regimens of standard-of-care medicines while significantly reducing technical and biological risk.",
+                "quote": "In May 2026, Oruka amended its IL-23 license agreement with Paragon Therapeutics to include all therapeutic areas. Prior to the amendment, the Company s agreement did not include inflammatory bowel disease (IBD).",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ]
+            ],
+            "statementOriginal": "회사는 IL-23 라이선스 계약을 고쳐 ORKA-001 을 쓸 수 있는 영역을 모든 치료 분야로 넓혔다.",
+            "stripped": true
           },
           {
-            "id": "q4b",
-            "statement": "다만 미래 마진에는 고정 부담이 미리 박혀 있다 — 제품이 팔리면 ORKA-001·ORKA-002 각각에 대해 Paragon 에 한 자릿수 초반 비율의 로열티를 내야 하고, 개발·허가 단계마다 마일스톤도 치러야 한다.",
+            "id": "q5",
+            "statement": "보유 현금이 ORKA-001 의 품목허가 신청(BLA)까지 운영 자금을 댈 수 있다는 것이 회사의 설명이다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                "title": "오루카 테라퓨틱스 실적 보도자료 (2026-08-10)",
                 "publisher": "오루카 테라퓨틱스 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm",
                 "date": "2026-08-10",
-                "quote": "Pursuant to the terms of each of the License Agreements, we are obligated to pay Paragon non-refundable milestone payments of up to $12.0 million under each respective agreement upon the achievement of certain clinical development milestones and up to $10.0 million under each respective agreement upon the achievement of certain regulatory milestones. In addition, we are obligated to pay Paragon a low single-digit percentage royalty for antibody products for each of ORKA-001 and ORKA-002.",
+                "quote": "The Company expects that its cash, cash equivalents, and marketable securities will be sufficient to fund operations through an anticipated BLA filing for ORKA-001 and continued development of ORKA-002.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "costProductivity": []
+        "costProductivity": [
+          {
+            "id": "q6",
+            "statement": "비용을 줄이는 국면이 아니다 — 회사는 연구개발비가 앞으로도 상당히 늘어날 것이라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                "publisher": "오루카 테라퓨틱스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                "date": "2026-11-09",
+                "quote": "We expect our research and development expenses will increase substantially for the foreseeable future as we continue to invest in research and development activities related to the continued development of our programs, developing any future programs, including investments in manufacturing, as we advance any program we may identify and continue to conduct clinical trials.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q7",
+            "statement": "판매·관리비(SG&A) 증가도 절감 노력의 결과가 아니라 인원 확대와 상장사 운영 비용 때문이며, 회사는 이 항목도 계속 크게 늘 것으로 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "오루카 테라퓨틱스 10-Q 경영진 설명",
+                "publisher": "오루카 테라퓨틱스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+                "date": "2026-11-09",
+                "quote": "We expect our general and administrative expenses will increase substantially for the foreseeable future as we anticipate an increase in our personnel headcount to support the expansion of research and development activities, as well as to support our operations generally.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
       },
-      "narrative": "오루카는 승인된 제품이 하나도 없는 임상 단계 바이오 기업이고, 10-Q 경영진 설명에 지금까지 어떤 원천에서도 매출을 낸 적이 없다고 직접 적혀 있다. 새로운 것은 분명히 있다 — 선두 약물 ORKA-001 은 2026년 4월 발표한 2a상에서 투여군 63명 중 40명(63.5%)이 16주차에 PASI 100 에 도달했고, 1상에서 사람 몸속 반감기가 약 100일로 나와 1년에 한두 번 주사라는 설계 의도를 뒷받침했다. 두 번째 축인 ORKA-002 는 IL-17A·IL-17F 를 함께 막는 항체로, 건선 2상 ORCA-SURGE 외에 화농성 한선염 2상 ORCA-SPLASH 를 약 160명 규모로 새로 시작해 적응증이 건선 밖으로 넓어졌다. 세 번째로 TL1A 를 겨냥한 ORKA-004 가 2026년 4분기 임상 진입 예정이고, 2026년 5월 Paragon 라이선스를 모든 치료 영역으로 넓혀 염증성 장질환까지 길을 열어 두었다. 그러나 이 가운데 매출로 연결된 것은 아직 하나도 없다. 이익에 미친 영향은 전부 반대 방향으로, 2026년 2분기 연구개발비가 4,330만 달러로 1년 전 2,410만 달러에서 늘면서 순손실이 4,120만 달러로 커졌다. 회사가 내놓은 전망도 매출 숫자가 아니라 일정과 자금이다 — 2026년 6월 말 현금·현금성자산·유가증권 11억 달러가 ORKA-001 의 BLA 제출까지 버틴다는 것, 2b상 EVERLAST-B 의 16주차 결과를 2026년 4분기에, 3상 개시를 2027년 상반기에 하겠다는 것이다. 이 그림을 꺾을 수 있는 것은 임상 실패와 허가 지연, 그리고 같은 자리에 이미 승인된 Bimzelx 같은 경쟁 약물이며, 회사 스스로 앞으로 몇 년간 혹은 끝까지 제품 매출이 없을 수 있고 추가 자금 조달이 필요하다고 적었다. 정리하면 N 의 재료는 많지만 매출·이익 숫자로 확인되는 단계가 아니어서 부분 충족이다.",
+      "narrative": "오루카 테라퓨틱스는 아직 제품 매출이 전혀 없는 임상 단계 바이오 회사다. 새로운 것은 분명히 있다 — 반감기를 늘린 건선 치료 항체 ORKA-001 이 EVERLAST-B 시험 16주 시점에 600mg 투여군의 61%에서 피부 병변을 완전히 없앴고(PASI 100), 앞선 EVERLAST-A 시험에서는 28주 시점에 71%까지 올라갔다. 두 번째 후보 ORKA-002 는 반감기가 길어 건선은 1년에 두 번, 화농성 한선염은 분기마다 투여할 가능성을 보고 있고, 환자 171명이 등록된 ORCA-SURGE 와 약 160명을 모집하는 ORCA-SPLASH 가 진행 중이다. 세 번째로 TL1A 를 겨냥한 ORKA-004 가 2026년 4분기 임상에 들어가 앞선 두 후보와의 병용을 노린다. 매출 영향은 숫자로 말할 수 없다 — 회사는 지금까지 어떤 매출도 없었고 가까운 미래에도 제품 매출을 기대하지 않는다고 적었다. 이익에는 오히려 반대로 작용한다. 임상이 늘면서 3분기 연구개발비가 5,370만 달러로 1년 전 2,900만 달러에서 커졌고, 3분기 순손실은 5,000만 달러였다. 코드 33 은 매출 증가율·순이익률 칸이 비어 있고 순이익 증가율도 오르지 않는다 — 지금 신약이 만들고 있는 것은 이익 가속이 아니라 손실 확대다. 기대 성장률은 회사 가이던스(회사가 내놓은 전망)도 증권사 추정도 확인되지 않았다. 꺾을 수 있는 것은 뚜렷하다. 회사는 어떤 프로그램도 승인을 받지 못할 수 있다고 직접 적었고, 2027년 상반기 3상 개시도 규제 당국과의 협의 결과에 달려 있으며, IL-17A/F 영역은 이미 승인된 Bimzelx 가 앞서 있다.",
       "watch": [
-        "EVERLAST-A 의 28주차·52주차 결과에서 16주차에 PASI 100 에 도달한 비율이 유지되는지 — 떨어지면 1년에 한두 번 투여라는 차별점이 흔들린다",
-        "2026년 4분기 EVERLAST-B 16주차 결과가 3상 개시 근거로 충분한지, 그리고 3상이 2027년 상반기에 실제로 시작되는지",
-        "ORKA-004 가 예고한 2026년 4분기에 실제로 임상에 들어가는지, ORCA-SURGE 결과가 2027년 1분기에 나오는지",
-        "분기 연구개발비 증가 속도와 현금 소진 — 11억 달러 현금에도 추가 유상증자나 ATM(시장가 매도 프로그램) 주식 발행이 또 나오면 주주 지분 희석이 커진다"
+        "12월로 예고된 EVERLAST-A 52주 데이터에서 효과가 유지되고 연 1~2회 투여 가능성이 뒷받침되는지",
+        "규제 당국 협의 뒤 2027년 상반기 ORKA-001 3상 개시 일정이 실제로 지켜지는지",
+        "2027년 1분기 ORCA-SURGE 16주 결과가 이미 승인된 IL-17 약물 수준의 반응률을 넘는지",
+        "분기 연구개발비 증가 속도와 추가 주식 발행 여부 — 임상 확대가 현금 소진과 주식 수 증가로 이어지는지"
       ],
-      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트를 받지 못했고, 코드가 계산한 분기 흐름 자료는 2024년 3월 분기까지로 최신 분기(2026년 2분기)를 담지 못했다.",
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트가 없어 매출·이익 전망의 외부 근거를 찾지 못했다",
       "factcheck": {
-        "verdict": "unchecked",
+        "verdict": "pass",
         "removed": [],
         "reasons": [
-          "팩트체크 결과를 대조하지 못했다 — 검증되지 않았다"
+          "EVERLAST-B 16주 61% PASI 100, EVERLAST-A 28주 71% PASI 100 모두 SEC 공시 정확",
+          "R&D비 증가(2,900만→5,370만 달러, 85% 증가) 정확",
+          "3분기 순손실 5,000만 달러, 9개월 누적 1억 2,300만 달러, 현금 유출 1억 100만 달러 모두 정확",
+          "임상 환자 수(ORCA-SURGE 171명, ORCA-SPLASH 약 160명) 정확",
+          "ORKA-002 반감기 75-80일과 투여 빈도(건선 1년 2회, 화농성 한선염 분기마다) 정확"
         ]
       },
       "status": "done",
       "v": 2,
-      "researchedOn": "2026-11-07",
-      "asOf": "2026-08-10",
-      "why": "지정",
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-09",
+      "why": "새 공시",
       "docs": [
         {
           "label": "실적 보도자료 (2026-08-10)",
@@ -17893,9 +17926,9 @@ window.NDEEP_DATA = {
           "filingDate": "2026-04-30"
         },
         {
-          "label": "10-Q 경영진 설명 (2026-08-10)",
-          "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026087231/ea0294557-10q_oruka.htm",
-          "filingDate": "2026-08-10"
+          "label": "10-Q 경영진 설명 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026117518/ea0304345-10q_oruka.htm",
+          "filingDate": "2026-11-09"
         }
       ],
       "code33": {
@@ -17975,8 +18008,8 @@ window.NDEEP_DATA = {
       "consensus": {
         "saleCy": 0,
         "saleNy": 0,
-        "epsCy": 27.91,
-        "epsNy": 20.95
+        "epsCy": 40.71,
+        "epsNy": 12.42
       }
     },
     "EL": {
@@ -97250,6 +97283,3996 @@ window.NDEEP_DATA = {
         "saleNy": 21.15,
         "epsCy": 78.18,
         "epsNy": 19.07
+      }
+    },
+    "MIRM": {
+      "ticker": "MIRM",
+      "headline": "LIVMARLI의 PFIC 처방 확대가 매출을 끌고, 새로 승인된 ATEBRIOZ와 brelovitug가 다음 단계",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "LIVMARLI(maralixibat) — 알라질 증후군(ALGS)에 이어 진행성 가족성 간내 담즙정체증(PFIC)까지 적응증이 넓어진 희귀 간질환 치료제",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "LIVMARLI는 미국과 유럽에서 알라질 증후군에 쓰이고, 미국과 유럽에서 PFIC 적응증까지 허가를 받았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Livmarli (maralixibat) is a novel, orally administered, minimally-absorbed ileal bile acid transporter inhibitor (“IBATi”) that is approved for the treatment of cholestatic pruritus in patients with Alagille syndrome (“ALGS”) in the United States (“U.S.”), the European Union (“EU”) and various other countries around the world and for cholestatic pruritus in patients with progressive familial intrahepatic cholestasis (“PFIC”) in the U.S. and certain other countries and for the treatment of PFIC in the EU.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "회사는 담도 폐쇄증을 포함한 추가 희귀 담즙정체 질환을 대상으로 한 EXPAND 3상이 주평가지표와 사전에 정한 모든 2차 지표를 통계적으로 충족했다고 발표했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "Reported LIVMARLI (maralixibat) EXPAND Phase 3 study in additional rare cholestatic conditions, including biliary atresia, met the primary endpoint and achieved statistical significance across all prespecified secondary endpoints.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 LIVMARLI 순제품매출은 1.334억 달러로 1년 전 같은 기간보다 45% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "Third quarter 2026 LIVMARLI ® net product sales were $133.4 million, representing 45% growth over third quarter 2025 net product sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "회사는 LIVMARLI 매출이 1년 전보다 4,121만 달러 늘어난 것은 주로 미국에서 알라질 증후군, 특히 PFIC 적응증 처방이 늘어난 데 따른 것이라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Livmarli product sales of $133.4 million for the three months ended September 30, 2026 represented an increase of $41.2 million from the three months ended September 30, 2025. This increase was largely driven by increased sales in the U.S. for both the ALGS and especially the PFIC indications and to a lesser extent an increase in rest of world sales from direct markets and our distributors and license partner sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "9개월 누적 LIVMARLI 매출은 3.76억 달러로 1년 전보다 1.224억 달러 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Livmarli product sales of $376.0 million for the nine months ended September 30, 2026 represented an increase of $122.4 million from the nine months ended September 30, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "매출이 늘어난 만큼 원가도 따라 늘었는데, 회사는 매출원가 증가가 주로 LIVMARLI와 담즙산 의약품 순매출에 붙는 로열티 770만 달러 증가 때문이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "For the three months ended September 30, 2026, cost of sales was $35.2 million, compared to $25.5 million for the three months ended September 30, 2025. The increase in cost of sales was primarily a result of increases in royalty expenses of $7.7 million on net sales of Livmarli and the Bile Acid Medicines under licensing agreements and $1.2 million of general commercial and supply chain support costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "회사는 앞으로도 매출원가가 제품매출 대비 비율로는 거의 변하지 않을 것으로 본다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "For our current approved products, we expect cost of sales to increase in the future mainly due to variable costs associated with increased product sales such as royalties payable and inventory costs. We expect cost of sales to remain approximately unchanged as a percent of product sales in the future.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1g1",
+              "statement": "회사 가이던스(전망)로 2026년 전체 순제품매출 목표를 7.15억~7.20억 달러로 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "– Q3 2026 net product sales of $185.7 million; 2026 net product sales guidance increased to $715 million to $720 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1g2",
+              "statement": "같은 2026년 가이던스를 석 달 전에는 6.80억~7.00억 달러로 제시했으니 한 분기 만에 다시 올린 것이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 2분기 실적 보도자료 (2026-08-05)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000044/mirm-20260805xexx991.htm",
+                  "date": "2026-08-05",
+                  "quote": "– 2026 net product sales guidance increased to $680 million to $700 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사는 특허 독점 기간이 남지 않은 승인 의약품은 조제·제네릭 진입으로 곧바로 경쟁에 놓일 수 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Although we expect product revenues to increase as we continue commercial activities for our approved medicines, we may not achieve commercial success. Certain of our approved medicines may be subject to immediate competition from compounded and generic entrants, if the abbreviated new drug application (“ANDA”) and NDA for these drug products have no remaining or current patent exclusivity.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 다케다와 유통사의 대량 주문이 불규칙해 분기 매출이 들쭉날쭉할 수 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "We expect that total product sales of our approved medicines will continue to increase on an annual basis; however, due to large periodic orders from Takeda Pharmaceutical Company Limited (“Takeda”) and our distributors, our product revenue may experience quarterly fluctuations.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "ATEBRIOZ(zilurgisertib) — 진행성 골화성 섬유이형성증(FOP) 환자의 새 뼈 생성을 줄이는 하루 한 번 먹는 약, 미국 허가·출시",
+          "kind": "product",
+          "stage": "출시",
+          "since": "2026-09",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 FOP 치료제 ATEBRIOZ의 미국 FDA 허가를 받아 출시했다고 3분기 실적에서 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "Received U.S. FDA approval of and launched ATEBRIOZ ® (zilurgisertib) to reduce the volume of total new heterotopic ossification (HO) in adult and pediatric patients aged 12 years and older with fibrodysplasia ossificans progressiva (FOP).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "이 약은 2026년 4월 인사이트와 계약해 전 세계 개발·판매 권리를 가져온 것으로, FDA 허가는 2026년 9월에 나왔고 유럽 허가 신청은 심사 중이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "In April 2026, we entered into an agreement with Incyte Corporation (“Incyte”) whereby we obtained the right to develop and commercialize zilurgisertib worldwide. Zilurgisertib is an oral small molecule ALK2 inhibitor for the treatment of fibrodysplasia ossificans progressiva (“FOP”). The FDA approved zilurgisertib in September 2026 to reduce the volume of total new heterotopic ossification (“HO”) in adult and pediatric patients aged 12 and over with FOP. We commercialize zilurgisertib in the U.S. under the brand name Atebrioz and a marketing authorization application for potential approval in Europe is in review by the EMA.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 제품별 매출 표에는 LIVMARLI와 담즙산 의약품 두 줄만 있어 ATEBRIOZ 매출은 아직 따로 공시되지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Product sales, net: | Livmarli | $ | 133,447 | $ | 92,235 | $ | 41,212 | Bile Acid Medicines | 52,274 | 40,775 | 11,499 | Total product sales, net | $ | 185,721 | $ | 133,010 | $ | 52,711 |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "허가에 따라 10월에 인사이트에 2,500만 달러 마일스톤을 지급했고, 앞으로 매출에 한 자릿수 중후반% 로열티와 추가 마일스톤 의무가 붙는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "We paid an upfront payment of $16.0 million and, in October 2026, a milestone payment of $25.0 million related to FDA approval of Atebrioz. In addition, we are obligated to pay royalties in the mid-to-high single digit percentage range, additional regulatory milestones of up to $23.0 million, and commercial milestones of up to $15.0 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "ATEBRIOZ는 임신 중 사용이 금기여서 처방 대상이 제한되고, 가임기 환자는 피임을 해야 한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "ATEBRIOZ is contraindicated in pregnancy. ATEBRIOZ can cause fetal harm based on data from animal studies. Patients of reproductive potential should use effective contraception and should immediately discontinue ATEBRIOZ and contact their healthcare provider if pregnancy occurs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "brelovitug — 2026년 1월 블루제이 테라퓨틱스를 인수해 들여온 만성 D형 간염(HDV) 항체 신약, 3상 성공",
+          "kind": "product",
+          "stage": "발표만",
+          "since": "2026-01",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 2026년 1월 블루제이 인수로 brelovitug를 확보했고, AZURE-1 3상이 주평가지표를 충족해 2027년 상반기 허가 신청(BLA), 승인되면 2027년 4분기 미국 출시를 기대한다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "In January 2026, we completed the acquisition (the “Bluejay Acquisition”) of Bluejay Therapeutics, Inc. (“Bluejay”) and its lead product candidate brelovitug (BJT-778), which we are developing for chronic hepatitis D virus (“HDV”) infection. ... In 2026, we announced topline results from the AZURE-1 Phase 3 study of brelovitug in HDV, which met its primary endpoint. We believe these results along with the results of AZURE-4 expected in the fourth quarter of 2026 may support a potential biologics license application (“BLA”) submission to the FDA in the first half of 2027 and, if approved, a U.S. commercial launch in the fourth quarter of 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "brelovitug는 HDV 대상 미국 희귀의약품 지정도 받았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "Received U.S. FDA Orphan Drug Designation for brelovitug in HDV.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "아직 매출은 없고 비용만 드는 단계로, 3분기 brelovitug 개발비가 4,210만 달러 들어가 연구개발비 증가의 대부분을 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "Research and development expense of $93.6 million, excluding stock-based compensation expense, including $42.1 million for the development of brelovitug.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d3g1",
+              "statement": "회사는 brelovitug가 승인되면 2027년 4분기에 미국에서 판매를 시작할 것으로 본다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "We believe these results along with the results of AZURE-4 expected in the fourth quarter of 2026 may support a potential biologics license application (“BLA”) submission to the FDA in the first half of 2027 and, if approved, a U.S. commercial launch in the fourth quarter of 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "허가 신청 자체가 AZURE-4 결과가 뒷받침되는지에 달려 있다고 회사가 조건을 달았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                  "date": "2026-11-03",
+                  "quote": "Brelovitug Biologics License Application (BLA) submission planned for H1 2027, subject to supportive AZURE-4 results.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3c2",
+              "statement": "회사는 brelovitug 개발과 생산 준비로 연구개발비가 크게 늘어 당분간 순손실이 이어질 것이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                  "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "We anticipate that we will continue to incur net losses for the foreseeable future as we continue research efforts and the development of our product candidates, including development of brelovitug which we acquired in January 2026, continue commercialization activities for our approved medicines and potentially expand into additional markets, hire additional staff, including clinical, scientific, operational, financial and management personnel and pay potential development milestones.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33으로 본 최근 세 분기는 매출이 1년 전보다 꾸준히 40% 안팎 늘고 있지만 증가율 자체가 더 빨라지는 모습은 아니다. 회사는 3분기 전체 매출 1.857억 달러의 증가분이 주로 미국에서 LIVMARLI의 PFIC 적응증 처방이 늘어난 데서, 그리고 담즙산 의약품의 신규 환자 처방 개시에서 나왔다고 직접 설명했다. 순이익 흐름이 크게 망가진 것은 영업이 나빠졌기 때문이 아니라 1분기 블루제이 인수 때 한 번에 털어 낸 연구개발 자산 취득비 때문이며, 손실률은 그 뒤 세 분기 동안 줄어드는 방향이다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1",
+            "statement": "3분기에 FOP 치료제 ATEBRIOZ가 미국 허가를 받아 출시됐고, 회사는 앞으로 다섯 건의 허가·적응증 확대 가능성이 남아 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                "date": "2026-11-03",
+                "quote": "Together with continued momentum across our commercial business, these milestones position Mirum for another meaningful inflection with five potential upcoming approvals and label expansions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2",
+            "statement": "담즙산 의약품 매출은 3분기 5,230만 달러로 1년 전보다 28% 늘었는데, 회사는 이를 Cholbam과 Ctexli 양쪽의 신규 환자 처방 개시 때문이라고 설명했다 — 점유율 수치는 공시에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                "date": "2026-11-03",
+                "quote": "Third quarter 2026 Bile Acid Medicines net product sales were $52.3 million, representing 28% growth over third quarter 2025 net product sales.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Bile Acid Medicines sales of $52.3 million for the three months ended September 30, 2026 represented an increase of $11.5 million from the three months ended September 30, 2025. This increase was driven by new patient starts for both Cholbam and Ctexli.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3",
+            "statement": "CHOLBAM은 단일 효소 결함에 따른 담즙산 합성 장애에 대해 미국에서 처음 허가된 치료제이고, 현재 치료 대상 환자는 200~300명으로 추정된다고 회사가 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                "date": "2026-11-03",
+                "quote": "The FDA approved CHOLBAM ® (cholic acid) capsules in March 2015, the first FDA-approved treatment for pediatric and adult patients with bile acid synthesis disorders due to single enzyme defects, and for adjunctive treatment of patients with peroxisome biogenesis disorder-Zellweger spectrum disorder. An estimated 200 to 300 patients are current candidates for therapy.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "statement": "CTEXLI의 근거가 된 RESTORE 3상은 해당 희귀질환(CTX)에서 처음이자 유일한 임상시험이었다고 회사가 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 3분기 실적 보도자료 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+                "date": "2026-11-03",
+                "quote": "CTEXLI was evaluated as part of the Phase 3 RESTORE study, the first and only clinical trial for CTX.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q5",
+            "statement": "회사는 희귀질환 신약을 사 오거나 들여와 붙이는 방식으로 포트폴리오를 넓히는 것이 전략이라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Our strategy is to acquire, develop and commercialize medicines for rare diseases, with a focus on driving commercial growth and building a diversified portfolio with meaningful value creation potential. We pursue this strategy through the growth of our marketed medicines, advancement of our development-stage portfolio, and business development, including acquisitions and in-licensing.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q6",
+            "statement": "회사는 희귀 간질환과 희귀 유전질환 두 축으로 영업 조직을 나눠 각각 전담 영업팀을 두고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Our commercial organization is focused on two areas, rare liver diseases and rare genetic diseases, with dedicated field teams serving each business.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q7",
+            "statement": "이자 비용은 2029년 만기 전환사채 일부를 교환·재매입해 1년 전보다 200만 달러 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Interest expense for the three months ended September 30, 2026 decreased $2.0 million compared to the three months ended September 30, 2025 primarily due to the exchange and repurchase of a portion of the 2029 Notes.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q8",
+            "statement": "비용을 줄이는 국면은 아니다 — 회사는 판매·관리비가 앞으로 더 늘어날 것이라고 직접 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "미럼 파머슈티컬스 10-Q 경영진 설명 (2026-11-03)",
+                "publisher": "Mirum Pharmaceuticals (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "We anticipate that our selling, general and administrative expenses will increase in the future, excluding the one-time stock-based compensation expense in connection with the Bluejay Acquisition discussed above, to support our continued commercialization efforts of our current approved medicines in the U.S. and internationally as well as increased costs of operating as a global commercial stage biopharmaceutical public company.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "지금 매출을 끌고 있는 '새로운 것'은 LIVMARLI의 적응증 확대다. 회사는 3분기 LIVMARLI 매출이 1.334억 달러로 1년 전보다 45% 늘었고, 그 증가가 주로 미국에서 알라질 증후군과 특히 PFIC 적응증 처방이 늘어난 데서 나왔다고 설명했다. 두 번째 축인 담즙산 의약품(Cholbam·Ctexli)도 5,230만 달러로 28% 늘었는데, 원인은 양쪽 모두의 신규 환자 처방 개시였다. 이익 쪽은 아직 받쳐 주지 못한다 — 매출이 늘면 로열티가 따라 늘어 3분기 매출원가 증가의 대부분인 770만 달러가 로열티였고, 회사는 원가율이 앞으로도 거의 그대로일 것으로 본다. 9월에 FDA 허가를 받아 출시한 FOP 치료제 ATEBRIOZ는 아직 제품별 매출 표에 따로 잡히지 않은 초기 단계이고, 허가 마일스톤 2,500만 달러를 10월에 인사이트에 지급했다. 2026년 1월 블루제이 인수로 들여온 D형 간염 항체 brelovitug는 3상 주평가지표를 충족했지만 매출은 없고 3분기에만 개발비 4,210만 달러가 나갔다. 기대 성장률로는 회사 가이던스가 있다 — 2026년 순제품매출 목표를 석 달 전 6.80억~7.00억 달러에서 7.15억~7.20억 달러로 다시 올렸다. 꺾을 수 있는 것은 셋이다. 회사가 적은 조제·제네릭 진입 경쟁, 다케다·유통사 대량 주문 때문에 분기 매출이 들쭉날쭉할 수 있다는 점, brelovitug 허가 신청이 AZURE-4 결과에 달려 있다는 조건이다. 회사는 당분간 순손실이 이어질 것이라고 못 박았다.",
+      "watch": [
+        "다음 실적에서 ATEBRIOZ 매출이 제품별 표에 별도 줄로 잡히는지 — 잡히면 출시가 매출 단계로 넘어간 것이고, 안 잡히면 FOP 환자 확보가 더디다는 뜻이다",
+        "LIVMARLI의 PFIC 처방 증가가 이어져 분기 매출이 1.334억 달러 위로 더 올라가는지, 아니면 다케다·유통사 주문 시점 때문에 꺾이는지",
+        "AZURE-4 결과가 뒷받침돼 2027년 상반기 brelovitug 허가 신청(BLA)이 실제로 들어가는지",
+        "2026년 순제품매출이 회사가 올린 7.15억~7.20억 달러 가이던스 안에 들어오는지, 그리고 2027년 가이던스를 어떻게 제시하는지"
+      ],
+      "sourceGap": "3분기 실적 발표 콜 원고와 2026-11-10 AZURE-4 주평가지표 충족 발표의 원문을 읽지 못했고, 국내 증권사 리포트는 제공된 것이 없다",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-03",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000061/mirm-20261103xexx991.htm",
+          "filingDate": "2026-11-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000044/mirm-20260805xexx991.htm",
+          "filingDate": "2026-08-05"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000062/mirm-20260930.htm",
+          "filingDate": "2026-11-03"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 39.6,
+            "netIncomeYoy": -1503.3,
+            "netMargin": -22
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 37.9,
+            "netIncomeYoy": -1047,
+            "netMargin": -38.1
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 43.3,
+            "netIncomeYoy": -5283.6,
+            "netMargin": -494.2
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": true
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 185721000,
+          "netIncome": -40766000,
+          "yoy": {
+            "revenue": 39.6,
+            "profit": -2395.3,
+            "netIncome": -1503.3,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 176243000,
+          "netIncome": -67227000,
+          "yoy": {
+            "revenue": 37.9,
+            "profit": -752.6,
+            "netIncome": -1047,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 159882000,
+          "netIncome": -790155000,
+          "yoy": {
+            "revenue": 43.3,
+            "profit": -5099.7,
+            "netIncome": -5283.6,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 148932000,
+          "netIncome": -5730000,
+          "yoy": {
+            "revenue": 49.8,
+            "profit": 81.1,
+            "netIncome": 75.9,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 37.65,
+        "saleNy": 21.04,
+        "epsCy": 3234.04,
+        "epsNy": -102.04
+      }
+    },
+    "IPAR": {
+      "ticker": "IPAR",
+      "headline": "라인 익스텐션과 신규 라이선스가 브랜드별 성장을 만들지만 연결 매출은 제자리",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "기존 향수 프랜차이즈를 변형해 계속 내놓는 '라인 익스텐션' 중심 출시 전략 — Coach 두 종, Montblanc Legend Elixir·Explorer Infinite, Jimmy Choo I Want Choo Midnight, Lacoste Original Intense, DKNY Women Skyline, GUESS Iconic 익스텐션",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 3분기에 Jimmy Choo I Want Choo Midnight, Montblanc Explorer Infinite, Lacoste Original Intense, DKNY Women Skyline 을 내놓았고 이 익스텐션 중심 출시 전략이 2027년으로 이어진다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "“We have continued to scale our brand reach and capture new audiences through line extensions across our portfolio. During the 2026 third quarter, these included: Jimmy Choo, I Want Choo Midnight for women; Montblanc, Explorer Infinite for men; Lacoste, Original Intense for women; and DKNY, Women Skyline . Our extension-driven launch strategy is building momentum into 2027, with additional extensions due before year-end 2026, a diverse pipeline of introductions from our core brands, and fragrance debuts from our newest brands Longchamp, Off-White and PUMA.”",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "Coach 향수 매출은 3분기 23%, 1~9월 누적 15% 늘었고 회사는 올해 초 내놓은 두 개의 라인 익스텐션 성공을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 3분기 매출 보도자료 (2026-10-20)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001970/ex991_1.htm",
+                  "date": "2026-10-20",
+                  "quote": "Coach fragrances have delivered outstanding performance so far in 2026, with sales rising by 23% and 15% during the third quarter and first nine months of 2026, respectively. The brand continues to benefit from its immense popularity in the United States, the strength of the established women’s and men’s lines, and the success of the two new line extensions launched earlier this year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "Montblanc 향수 매출은 3분기 12%, 누적 8% 늘었고 회사는 Montblanc Legend Elixir 와 Montblanc Explorer Infinite 출시 성공을 원인으로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Montblanc fragrance sales returned to growth, increasing 12% in the third quarter after flat second quarter sales, producing 8% growth for the first nine months of 2026, driven by the success of Montblanc Legend Elixir and Montblanc Explorer Infinite , launched in the first and third quarters, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "미국 최대 브랜드 GUESS 향수 매출은 3분기 3%, 누적 7% 늘었고 회사는 Iconic 프랜차이즈에 더한 두 개의 신규 익스텐션과 Amore·Seductive 익스텐션을 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 3분기 매출 보도자료 (2026-10-20)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001970/ex991_1.htm",
+                  "date": "2026-10-20",
+                  "quote": "Fragrance sales of GUESS, our largest United States based brand, rose by 3% and 7% during the third quarter and first nine months of 2026, respectively. Growth was driven by the continuing success of the Iconic franchise which was enhanced by the launches of two new extensions earlier this year, as well as extensions launched for the Amore and Seductive franchises.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "유럽 사업 매출총이익률은 3분기 70.8%, 누적 68.7%로 1년 전 66.0%·66.6%보다 올랐고 회사는 가격 인상과 유리한 브랜드·채널 구성, 폐기 비용 610만 달러 감소, 관세 환급 960만 달러를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "For European based operations, gross profit margin as a percentage of net sales was 70.8% and 68.7% for the three and nine months ended September 30, 2026, as compared to 66.0% and 66.6% for the corresponding period of the prior year, respectively. The increase in the nine months ended September 30, 2026, was the result of price increases, favorable brand and channel mix, lower year- over-year destruction costs of $6.1 million, as well as $9.6 million of IEEPA tariff refunds.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "연결 매출총이익률은 3분기 67.1%로 1년 전보다 360bp(0.01%p 단위) 올랐지만, 그 안에는 다시 생기지 않는 관세 환급 790만 달러(3분기)와 1,480만 달러(누적)가 들어 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Consolidated gross margin in the third quarter and first nine months of 2026 expanded by 360- and 160-basis points to 67.1% and 66.0%, respectively. These increases were the result of favorable segment, brand and channel mix as well as lower than expected destruction costs driven by our inventory efficiency programs, which were partially offset by higher tariff expenses. Gross margin also benefited from one-time IEEPA tariff refunds of $7.9 million in the third quarter of 2026 and $14.8 million for the first nine months of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)로 2027년 연결 매출은 6% 늘어 약 15.8억 달러, 희석 주당순이익은 3% 늘어 약 5.00달러이며 2026년 관세 환급 효과를 빼면 주당순이익 증가율은 약 11%다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 2027년 가이던스 보도자료 (2026-11-18)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002197/ex991_1.htm",
+                  "date": "2026-11-18",
+                  "quote": "Consolidated net sales are expected to grow 6% to approximately $1.58 billion in 2027 ... Diluted EPS is expected to increase 3% to approximately $5.00 in 2027 ... Excluding the favorable impact of tariff refunds in 2026, diluted EPS for 2027 is estimated to increase by approximately 11%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 2026년 매출 전망을 14.8억 달러에서 14.9억 달러로 올리고 주당순이익 4.85달러 전망은 그대로 두었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "The Company is increasing its 2026 sales outlook from $1.48 billion to $1.49 billion and maintaining EPS of $4.85.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "Ferragamo 향수 매출은 출시 시점이 비어 3분기에 22% 줄었다 — 새 익스텐션이 없는 분기에는 브랜드 매출이 바로 꺾인다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 3분기 매출 보도자료 (2026-10-20)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001970/ex991_1.htm",
+                  "date": "2026-10-20",
+                  "quote": "Ferragamo fragrance sales declined 22% in the third quarter due to innovation phasing but were only down 2% on a year-to-date basis. The brand was impacted by challenging market conditions in Europe, which is the core region for the brand.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "미국 사업 3분기 매출은 공급망 문제로 선물세트 출하가 밀려 7% 줄었고 회사는 그 금액을 약 1,000만 달러로 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 3분기 매출 보도자료 (2026-10-20)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001970/ex991_1.htm",
+                  "date": "2026-10-20",
+                  "quote": "Sales by our United States based operations decreased by 7% during the 2026 third quarter, driven largely by supply chain disruptions that resulted in the delayed shipment of giftsets for select brands. These delays represented approximately $10 million in sales, which will now be recognized in the fourth quarter.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "브랜드 구성이 불리해지며 로열티 비용이 매출보다 빨리 늘어 3분기 매출의 8.6%, 누적 8.9%를 차지했다(1년 전 8.1%·8.2%).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Royalty expense represented 8.6% and 8.9% of net sales for the three and nine months ended September 30, 2026 as compared to 8.1% and 8.2% of net sales for the corresponding periods of the prior year. This increase was primarily driven by unfavorable brand mix.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "새 브랜드 라이선스를 줄줄이 확보 — PUMA(2037년까지), Longchamp(2036년까지), Off-White, Maison Goutal 상표권 인수, 2028·2030년 발효 예정인 David Beckham·Nautica",
+          "kind": "contract",
+          "stage": "매출 발생 중",
+          "since": "2025",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2025년 7월 Longchamp 과 2036년까지, 2026년 3월 PUMA 와 2037년까지 향수 라이선스를 맺었고 Longchamp 첫 출시는 2027년으로 잡았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "In September 2026, we extended the Roberto Cavalli license for 20 years, extending the license through December 31, 2046. In March 2026, we entered into a 10-year license agreement with PUMA running through December 31, 2037. In January 2026, we entered into long-term global licensing agreements for the creation, development and distribution of fragrances and fragrance related products under the David Beckham and Nautica brands, effective April 1, 2028 and January 1, 2030, respectively. In December 2025, we extended the GUESS license for an additional 15 years, extending the license through December 31, 2048. In July 2025, our majority owned French subsidiary, Interparfums SA, signed an exclusive fragrance license agreement with Longchamp running through December 31, 2036. The first launch under our Longchamp license is expected in 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "같은 공시에서 회사는 David Beckham 과 Nautica 브랜드 향수 라이선스를 각각 2028년 4월, 2030년 1월 발효 조건으로 맺었다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "In January 2026, we entered into long-term global licensing agreements for the creation, development and distribution of fragrances and fragrance related products under the David Beckham and Nautica brands, effective April 1, 2028 and January 1, 2030, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "유럽 사업 3분기 매출 4% 증가 가운데 1%p가 신규 브랜드 기여였다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 3분기 매출 보도자료 (2026-10-20)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001970/ex991_1.htm",
+                  "date": "2026-10-20",
+                  "quote": "Sales from our European based operations rose 4% in the 2026 third quarter, reflecting organic growth of 3% and a 1% contribution from new brands, partially offset by a 1% foreign exchange headwind.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "누적 매출 1% 증가는 유기 성장(신규 브랜드 효과를 뺀 성장)이 1% 줄어든 것을 신규 브랜드와 환율이 메운 결과라고 회사가 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Consolidated sales growth in the third quarter was flat on a reported and organic basis. Sales rose 1% for the first nine months of 2026, reflecting organic decline of 1% offset by positive impacts from new brands and favorable foreign exchange dynamics.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 2027년 상반기에 Lacoste·Coach·Montblanc 신규 프랜차이즈 세 개를, 하반기에 Longchamp 첫 향수를 내놓는다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 2027년 가이던스 보도자료 (2026-11-18)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002197/ex991_1.htm",
+                  "date": "2026-11-18",
+                  "quote": "The first half will see the launch of three new franchises for Lacoste, Coach and Montblanc fragrances, which will strengthen the potential of these brands over the coming years; The second half will notably benefit from the launch of Longchamp fragrances, the first initiative since the license was signed in July 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2e2",
+              "statement": "미국 사업은 2027년 초 GUESS 여성 신제품과 Ferragamo 남녀공용 듀오, Roberto Cavalli Serpentine Man, MCM 여성 라인, PUMA 첫 향수를 내놓는다는 것이 회사 전망이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 2027년 가이던스 보도자료 (2026-11-18)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002197/ex991_1.htm",
+                  "date": "2026-11-18",
+                  "quote": "New blockbusters, including a new women's fragrance for GUESS in early 2027, a new dual-gender duo for Ferragamo, the launch of Serpentine Man for Roberto Cavalli building on the success of Serpentine, and a new female line for MCM. The debut of our first new PUMA fragrances under the exclusive license announced in September 2026",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 프레스티지 브랜드 대부분을 외부 소유자에게서 빌려 쓰고 있어 사업이 그 계약의 유지·갱신에 달려 있다고 공시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Substantially all of our prestige fragrance brands are licensed from unaffiliated third parties, and our business is dependent upon the continuation and renewal of such licenses. With respect to the Company’s largest brands, we license the Coach, Jimmy Choo, Montblanc, GUESS, Lacoste, Donna Karan/DKNY, and Ferragamo brand names.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "2027년 전망에는 작은 브랜드의 부진, 2026·2027년 말 만료되는 일부 라이선스의 단계적 중단, 중동·동유럽의 계속되는 어려움과 약 1%의 불리한 환율 영향이 함께 들어 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 2027년 가이던스 보도자료 (2026-11-18)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002197/ex991_1.htm",
+                  "date": "2026-11-18",
+                  "quote": "softer performance from smaller brands, the phasing out of a few licenses expiring at the end of 2026 and 2027, and continuing challenges in the Middle East and Eastern Europe. Our outlook also assumes an approximately 1% unfavorable foreign exchange impact on net sales",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "한국 현지 법인 신설 — 2025년 말 문을 연 직접 판매 조직이 아시아·태평양 매출을 되살렸다",
+          "kind": "service",
+          "stage": "매출 발생 중",
+          "since": "2025",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 2025년 말 문을 연 한국 신규 법인의 성과가 아시아·태평양 매출 증가의 한 축이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Asia/Pacific sales increased 12% primarily due to brand initiatives with Coach and Jimmy Choo, the expansion of Ferragamo and GUESS, and continued success of our new affiliate in Korea that opened in late 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "아시아·태평양 누적 매출은 12% 늘었고 회사는 Coach·Jimmy Choo 브랜드 활동과 Ferragamo·GUESS 확대, 한국 신규 법인의 성과를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Asia/Pacific sales increased 12% primarily due to brand initiatives with Coach and Jimmy Choo, the expansion of Ferragamo and GUESS, and continued success of our new affiliate in Korea that opened in late 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3r2",
+              "statement": "경영진은 한국 사업이 몇 년간 부진했다가 올해 다시 성장으로 돌아섰다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Our sales in Asia/Pacific increased by 12% driven by brand initiatives with Coach and Jimmy Choo and expansion of Ferragamo and GUESS. Our new affiliate in Korea is off to a strong start, and after sluggish sales over the past few years, the business is growing again in 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "한국 자회사를 키우는 과정에서 인건비가 늘어 유럽 사업 판매·관리비(SG&A)는 3분기 5.4%, 누적 7.2% 증가했다 — 아직은 이익보다 비용이 먼저 들어가는 단계다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "For European based operations, selling, general and administrative expenses increased 5.4% and 7.2% for the three and nine months ended September 30, 2026, respectively as compared to the corresponding period of the prior year, and represented 37.8% and 43.7% of net sales for the three and nine months ended September 30, 2026, as compared to 37.2% and 41.1% for the three and nine months ended September 30, 2025. The increase in expenses for both periods was largely driven by Royalty costs growing ahead of sales due to unfavorable brand mix. Employee related costs expanded as we are building up our Korean subsidiary, and we also saw higher logistics costs related to supply chain transitions and rising fuel costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "회사는 한국처럼 소매점에 직접 파는 시장에서는 계절성이 더 뚜렷하다고 밝혀 분기별 매출이 들쭉날쭉할 수 있음을 인정했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "인터파퓸스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Quarterly sales fluctuations are influenced by the timing of new product launches as well as the third and fourth quarter holiday season. In certain markets where we sell directly to retailers, seasonality is more evident. We primarily sell directly to retailers in France, the United States, Italy, and Korea.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33으로 본 최근 세 분기는 매출 증가율이 1.8%→2.1%→0%, 순이익 증가율이 2.1%→-4.7%→3.6% 로 움직여 세 지표 어느 것도 꾸준히 오르지 않았다. 3분기 순이익률이 15.9%로 뛴 것은 매출이 늘어서가 아니라 브랜드·채널 구성 개선과 다시 생기지 않는 관세 환급이 원가를 낮춘 결과다. 회사 설명대로 Coach(3분기 23% 증가)·Montblanc(12% 증가) 익스텐션의 성장이 중동·아프리카 19% 감소와 동유럽 15% 감소에 상쇄되면서 연결 매출은 제자리에 머물렀다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "3분기에 Jimmy Choo I Want Choo Midnight, Montblanc Explorer Infinite, Lacoste Original Intense, DKNY Women Skyline 을 내놓았고 회사는 이 익스텐션 중심 전략이 2027년까지 이어진다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                "date": "2026-11-04",
+                "quote": "“We have continued to scale our brand reach and capture new audiences through line extensions across our portfolio. During the 2026 third quarter, these included: Jimmy Choo, I Want Choo Midnight for women; Montblanc, Explorer Infinite for men; Lacoste, Original Intense for women; and DKNY, Women Skyline . Our extension-driven launch strategy is building momentum into 2027, with additional extensions due before year-end 2026, a diverse pipeline of introductions from our core brands, and fragrance debuts from our newest brands Longchamp, Off-White and PUMA.”",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "최대 시장인 북미 누적 매출은 4% 늘었고 회사는 시장 자체의 성장과 Coach 중심 익스텐션 출시, 마케팅·광고 투자를 이유로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "In the nine months ended September 30, 2026, net sales in our largest market, North America, rose 4% as compared to the prior year period, driven by continued market growth, the launch of several extensions, particularly for Coach, as well as successful marketing and advertising investments.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "점유율 수치는 공시하지 않았고 고성장 시장·채널에 계속 투자해 점유율을 늘린다는 전략만 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "We believe we have a strong and well diversified brand portfolio with global reach and potential. As part of our strategy, we plan to continue to make investments behind fast-growing markets and channels to grow market share.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 Roberto Cavalli 라이선스를 2046년까지, GUESS 를 2048년까지, Coach 를 2031년까지 연장해 주요 브랜드의 향수 권리를 장기간 독점으로 묶어 두었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "In September 2026, we extended the Roberto Cavalli license for 20 years, extending the license through December 31, 2046. ... In December 2025, we extended the GUESS license for an additional 15 years, extending the license through December 31, 2048. ... Additionally, in June 2025, we renewed the Coach license agreement for an additional five-year term, extending the license through June 30, 2031.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "다만 브랜드를 직접 소유하지 않아 라이선스 갱신에 실패하면 그 매출이 그대로 사라지는 구조라고 회사가 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "Substantially all of our prestige fragrance brands are licensed from unaffiliated third parties, and our business is dependent upon the continuation and renewal of such licenses.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "가격 인상과 유리한 브랜드·채널 구성으로 유럽 사업 매출총이익률을 누적 68.7%까지 끌어올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "For European based operations, gross profit margin as a percentage of net sales was 70.8% and 68.7% for the three and nine months ended September 30, 2026, as compared to 66.0% and 66.6% for the corresponding period of the prior year, respectively. The increase in the nine months ended September 30, 2026, was the result of price increases, favorable brand and channel mix, lower year- over-year destruction costs of $6.1 million, as well as $9.6 million of IEEPA tariff refunds.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "관세 환급을 광고·판촉에 다시 넣어 2026년 연간 광고·판촉비를 장기 목표인 매출의 약 21% 수준까지 올린다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                "date": "2026-11-04",
+                "quote": "As shared last quarter, we are reinvesting the tariff refunds to support the strong momentum we are seeing in the United States market, drive our top-line growth and position the Company for a successful 2027; as such, we anticipate our full year 2026 A&P expenditures will approach our long-term target of approximately 21% of net sales.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "재고를 1년 전보다 3% 줄여 재고 보유일수를 16일 단축했고 영업현금흐름은 1.02억 달러로 1년 전 6,800만 달러에서 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 실적 보도자료 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+                "date": "2026-11-04",
+                "quote": "We continued to enhance our cash conversion in the first nine months of 2026, with operating cash flow reaching $102 million, or 56% of net income, up from $68 million, or 38% of net income, in the prior year period. We reduced total inventory levels by 3% compared to the prior year period, translating to a reduction of 16 days inventory on hand as we continue to drive inventory efficiencies and work to increase conversion of raw materials into finished goods.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "재고 효율화로 팔지 못해 폐기하는 비용이 9개월 동안 960만 달러 줄어 매출총이익률 개선에 기여했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "인터파퓸스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "인터파퓸스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "The increase was the result of favorable segment, brand and channel mix as well as lower destruction costs of $9.6 million. These were partially offset by tariff impacts which represented an additional expense of $11.9 million in the nine months ended September 30, 2026 as compared to the prior year period.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "인터파퓸스의 새로운 것은 하나의 신제품이 아니라 '기존 인기 향수를 계속 변형해 내놓는' 출시 방식이다. 회사는 3분기에 Jimmy Choo I Want Choo Midnight, Montblanc Explorer Infinite, Lacoste Original Intense, DKNY Women Skyline 을 내놓았고 이 익스텐션 중심 전략이 2027년까지 이어진다고 밝혔다. 매출 효과는 브랜드별로 분명하다 — Coach 향수가 3분기 23%·누적 15%, Montblanc 이 3분기 12%·누적 8%, GUESS 가 3분기 3%·누적 7% 늘었고 회사는 모두 새 익스텐션을 원인으로 적었다. 두 번째 동력은 새 라이선스로 PUMA(2037년까지)와 Longchamp(2036년까지)를 확보했고, 신규 브랜드는 이미 유럽 사업 3분기 매출 4% 증가 중 1%p를 만들었다. 세 번째는 2025년 말 문을 연 한국 법인으로 아시아·태평양 누적 매출 12% 증가의 한 축이지만, 인건비 부담이 먼저 와 유럽 사업 판매·관리비(SG&A)는 누적 7.2% 늘었다. 이익 쪽을 보면 유럽 사업 매출총이익률이 누적 68.7%로 올랐는데 가격 인상과 브랜드·채널 구성 개선이 섞여 있고, 연결 3분기 67.1%에는 다시 생기지 않는 관세 환급 790만 달러가 들어 있다. 문제는 연결 숫자가 아직 가속하지 않는다는 점이다 — 3분기 매출은 1년 전과 같았고 누적으로는 1% 늘었을 뿐으로, 익스텐션의 성장이 중동·아프리카 19% 감소와 동유럽 15% 감소에 상쇄되고 있다. 회사 전망으로 2027년 매출은 6% 늘어 약 15.8억 달러, 희석 주당순이익은 약 5.00달러이며 2026년 관세 환급을 빼면 주당순이익 증가율은 약 11%다. 이 그림을 꺾을 수 있는 것은 출시 공백(Ferragamo 가 3분기 22% 감소), 매출보다 빨리 느는 로열티 비용(누적 매출의 8.9%), 그리고 2026·2027년 말 만료되는 라이선스의 단계적 이탈이다.",
+      "watch": [
+        "4분기에 미뤄진 약 1,000만 달러 선물세트 출하가 실제로 매출로 잡히는지 — 잡히면 3분기 미국 사업 7% 감소는 일시적이다",
+        "관세 환급이 없는 2027년에도 매출총이익률이 지금 수준을 지키는지 — 떨어지면 이익 개선은 일회성이었다는 뜻이다",
+        "Longchamp·PUMA 첫 향수가 2027년 예정대로 나오고 신규 브랜드 기여가 유럽 사업 1%p를 넘어서는지",
+        "중동·아프리카(누적 19% 감소)와 동유럽(15% 감소)의 감소폭이 줄어드는지 — 계속 두 자릿수로 줄면 익스텐션 성장이 다시 상쇄된다"
+      ],
+      "sourceGap": "2026-11-05 실적 발표 콜 원고를 받지 못해 경영진의 추가 설명은 확인하지 못했고, 국내 증권사 리포트도 없었다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-04",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002063/ex991_1.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-10-20)",
+          "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626001970/ex991_1.htm",
+          "filingDate": "2026-10-20"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/822663/000175392626002061/ipar-20260930.htm",
+          "filingDate": "2026-11-04"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 0,
+            "netIncomeYoy": 3.6,
+            "netMargin": 15.9
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 2.1,
+            "netIncomeYoy": -4.7,
+            "netMargin": 8.9
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 1.8,
+            "netIncomeYoy": 2.1,
+            "netMargin": 12.6
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 429508000,
+          "netIncome": 68203000,
+          "yoy": {
+            "revenue": 0,
+            "profit": 8.6,
+            "netIncome": 3.6,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 341037000,
+          "netIncome": 30487000,
+          "yoy": {
+            "revenue": 2.1,
+            "profit": -17.3,
+            "netIncome": -4.7,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 344885000,
+          "netIncome": 43366000,
+          "yoy": {
+            "revenue": 1.8,
+            "profit": -1.3,
+            "netIncome": 2.1,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 386175000,
+          "netIncome": 67711000,
+          "yoy": {
+            "revenue": 6.8,
+            "profit": -23.6,
+            "netIncome": 7.7,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 0.42,
+        "saleNy": 5.78,
+        "epsCy": -7.1,
+        "epsNy": 2.16
+      }
+    },
+    "CRAI": {
+      "drivers": [
+        {
+          "what": "2025년~2026년 초에 영입한 매출 창출 컨설턴트 20명 이상 — 용서가능 대출(근무 기간에 따라 탕감되는 선지급 보상)로 시니어 인력을 끌어온 인재 투자",
+          "kind": "management",
+          "stage": "매출 발생 중",
+          "since": "2025",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 2026 회계연도에 인재 투자를 반영해 용서가능 대출 상각비가 약 1,500만 달러 늘어날 것으로 보며, 이 중 약 1,400만 달러가 3분기까지 이미 반영됐다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "As previously reported, non-cash forgivable loan amortization, which is reflected as an expense when presenting EBITDA metrics, is expected to increase in fiscal 2026 by approximately $15 million, reflecting investments in talent to drive profitable growth (approximately $14 million of this increase has been booked through the first three quarters of fiscal 2026).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "경영진은 2025년과 2026년 초에 매출을 직접 만드는 컨설턴트 20명 이상을 새로 영입했고 이들이 실적에 올라오는 속도에 만족한다고 말했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA International 3분기 2026 실적 발표 콜 원고",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/cra-international-crai-q3-2026-earnings-call-transcript/",
+                  "date": "2026-11-05",
+                  "quote": "In 2025 and the beginning of '26, we brought on several, more than 20 new revenue-generating consultants at CRA, and we have been thrilled with the ramp of those new individuals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b3",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "CRA 10-Q 경영진 설명 (2026-11-05)",
+                  "publisher": "CRA International (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm",
+                  "date": "2026-11-05",
+                  "quote": "In order to attract and retain highly skilled professionals, we may issue forgivable loans or term loans to employees and non-employee experts. A portion of these loans is collateralized by key person life insurance. The forgivable loans have terms that are generally between two and eight years.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 숙련 전문가를 끌어오고 붙잡기 위해 직원과 비전속 전문가에게 용서가능 대출을 내주며, 그 기간은 보통 2~8년이라고 설명한다.",
+              "stripped": true
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 매출은 1년 전보다 15.6% 늘어 2.149억 달러가 됐고, 같은 기간 가동률은 77%에서 78%로, 컨설턴트 수는 968명에서 1,028명으로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 10-Q 경영진 설명 (2026-11-05)",
+                  "publisher": "CRA International (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm",
+                  "date": "2026-11-05",
+                  "quote": "Revenues. Revenues increased by $29.0 million, or 15.6%, to $214.9 million for the third quarter of fiscal 2026 from $185.9 million for the third quarter of fiscal 2025. Utilization increased to 78% for the third quarter of fiscal 2026 from 77% for the third quarter of fiscal 2025, while consultant headcount increased to 1,028 at the end of the third quarter of fiscal 2026 from 968 at the end of the third quarter of fiscal 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "회사는 주당 평균 프로젝트 문의와 신규 수임이 각각 1년 전보다 20% 넘게 늘어 여전히 강하다고 실적 발표 콜에서 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA International 3분기 2026 실적 발표 콜 원고",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/cra-international-crai-q3-2026-earnings-call-transcript/",
+                  "date": "2026-11-05",
+                  "quote": "Average weekly project lead flow and new project originations remained strong with each metric increasing more than 20% year-over-year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 영업이익은 1,720만 달러(매출의 9.3%)에서 2,390만 달러(매출의 11.1%)로 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 CFO 사전 발언 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx992xcfore.htm",
+                  "date": "2026-11-05",
+                  "quote": "For Q3 of fiscal 2026, operating income and non-GAAP operating income were $23.9 million, or 11.1% of revenue, compared with $17.2 million, or 9.3% of revenue, for Q3 of fiscal 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "인재 투자 비용이 먼저 들어와 3분기 용서가능 대출 상각비는 매출의 6.2%에서 7.0%로 커졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 CFO 사전 발언 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx992xcfore.htm",
+                  "date": "2026-11-05",
+                  "quote": "For Q3 of fiscal 2026, forgivable loan amortization, including performance award amortization was $15.1 million, or 7.0% of revenue, compared with $11.5 million, or 6.2% of revenue, for Q3 of fiscal 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p3",
+              "statement": "회계 기준 순이익은 1년 전보다 21.2% 늘었지만 일회성을 뺀 회사 기준(비GAAP) 순이익은 1.5% 증가에 그쳐, 비GAAP 순이익률은 7.3%에서 6.4%로 낮아졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "Net income increased 21.2% year over year to $13.9 million, or 6.5% of revenue, compared with $11.5 million, or 6.2% of revenue, in the third quarter of fiscal 2025; non-GAAP net income increased 1.5% year over year to $13.9 million, or 6.4% of revenue, compared with $13.7 million, or 7.3% of revenue, in the third quarter of fiscal 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026 회계연도 매출 8.3억~8.4억 달러, 비GAAP EBITDA 마진 12.2~12.8%로, 직전 전망인 8.05억~8.2억 달러보다 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "For full-year fiscal 2026, on a constant currency basis relative to fiscal 2025, we expect revenue in the range of $830 million to $840 million and non-GAAP EBITDA margin in the range of 12.2% to 12.8%. This new revenue guidance compares with a prior range of $805 million to $820 million and a prior non-GAAP EBITDA margin range of 12.0% to 13.0%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회계연도 누적 매출원가 비중이 68.6%에서 71.2%로 올라, 인건비와 용서가능 대출 상각이 매출 증가보다 빠르게 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 10-Q 경영진 설명 (2026-11-05)",
+                  "publisher": "CRA International (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm",
+                  "date": "2026-11-05",
+                  "quote": "The increase in costs of services was due to an increase of $40.9 million in employee compensation and fringe benefit costs, an increase in forgivable loan amortization of $18.4 million, and an increase of $6.5 million in client reimbursable expenses. As a percentage of revenues, costs of services (exclusive of depreciation and amortization) increased to 71.2% for the fiscal year-to-date period ended October 3, 2026 from 68.6% for the fiscal year-to-date period ended September 27, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 핵심 인력·비전속 전문가를 붙잡지 못할 위험, 인공지능의 개발과 사용, 경쟁 서비스와 가격을 실적이 전망과 달라질 수 있는 요인으로 직접 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "These factors include, but are not limited to, the possibility that the demand for our services may decline as a result of changes in general and industry-specific economic conditions; the timing of engagements for our services; the effects of competitive services and pricing; the development and use of artificial intelligence; our ability to attract and retain key employees or non-employee experts; the inability to integrate and utilize existing consultants and personnel; the decline or reduction in project work or activity",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "회사는 불확실한 세계 거시경제·사업·정치 여건이 고객과 자사 사업에 영향을 줄 수 있다는 점을 유념하고 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "We remain confident in CRA’s competitive position, which is reflected in our decision to raise our quarterly cash dividend by 17.5%, but we are mindful that uncertain global macroeconomic, business, and political conditions can affect our clients and our business.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "소송·규제 대응 수요 확대 — 포렌식 서비스, 라이프사이언스, 리스크 조사·분석 프랙티스의 두 자릿수 성장과 반독점·경쟁경제 프랙티스의 분기 매출 최고치",
+          "kind": "industry",
+          "stage": "매출 발생 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "Seven practices grew year over year, representing approximately 95% of the company’s total revenue for the third quarter. The Forensic Services, Life Sciences, and Risk, Investigations & Analytics practices each posted double-digit revenue growth year over year, while the Antitrust & Competition Economics practice posted a new high for quarterly revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "3분기에 7개 프랙티스가 1년 전보다 성장해 전체 매출의 약 95%를 차지했고, 반독점·경쟁경제 프랙티스는 분기 매출 최고치를 기록했다.",
+              "stripped": true
+            },
+            {
+              "id": "d2b2",
+              "statement": "2분기에도 8개 프랙티스가 성장했고 에너지·금융·포렌식 서비스·지식재산·라이프사이언스·리스크 조사·분석 6개가 두 자릿수 매출 성장을 냈다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 2분기 실적 보도자료 (2026-08-06)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/craiq2-20268xkexx991xpress.htm",
+                  "date": "2026-08-06",
+                  "quote": "“Broad-based contributions fueled the quarter’s strong performance, with eight practices growing year over year. Six practices—Energy, Finance, Forensic Services, Intellectual Property, Life Sciences, and Risk, Investigations & Analytics—posted double-digit revenue growth, while the Antitrust & Competition Economics practice posted a new high for quarterly revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 법률·규제 서비스 매출은 1년 전보다 15.7%, 경영 컨설팅은 9.8% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "Overall, Legal & Regulatory offerings grew 15.7% year over year and Management Consulting services increased 9.8%. We also expanded revenue across our geographies, with North American operations increasing by 18.0% and international operations growing 6.2% year over year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "2분기에는 경영 컨설팅이 25.5%, 법률·규제가 10.1% 늘고 해외 사업 매출이 32.9% 성장했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 2분기 실적 보도자료 (2026-08-06)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/craiq2-20268xkexx991xpress.htm",
+                  "date": "2026-08-06",
+                  "quote": "This strong practice performance reflected contributions across our portfolio, with Legal & Regulatory offerings growing 10.1% year over year and Management Consulting services increasing 25.5%. We also expanded across our geographies, with North American operations increasing revenue by 8.7% and international operations growing 32.9% year over year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "고정가격 계약 매출 비중이 17%에서 21%로 올랐는데, 회사는 이 비중이 경영 컨설팅 매출 비중에 주로 좌우된다고 설명한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 10-Q 경영진 설명 (2026-11-05)",
+                  "publisher": "CRA International (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm",
+                  "date": "2026-11-05",
+                  "quote": "Revenues derived from fixed-price projects increased to 21% of net revenues for the third quarter of fiscal 2026 compared to 17% of net revenues for the third quarter of fiscal 2025. The percentage of revenue derived from fixed-price projects depends largely on the proportion of our revenues derived from our management consulting business, which typically has a higher concentration of fixed-price service contracts.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "해외 사업 성장률이 2분기 32.9%에서 3분기 6.2%로 낮아져, 분기 성장 기여가 북미(18.0%)로 쏠렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                  "date": "2026-11-05",
+                  "quote": "We also expanded revenue across our geographies, with North American operations increasing by 18.0% and international operations growing 6.2% year over year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "CRA 2분기 실적 보도자료 (2026-08-06)",
+                  "publisher": "CRA International (SEC 8-K 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/craiq2-20268xkexx991xpress.htm",
+                  "date": "2026-08-06",
+                  "quote": "We also expanded across our geographies, with North American operations increasing revenue by 8.7% and international operations growing 32.9% year over year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "경영진은 프로젝트 문의 증가가 인공지능 관련 수임과 직접 묶인 것은 아니라고 말해, 수요 확대가 특정 신규 영역에서 나온 것이라고 보기 어렵다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CRA International 3분기 2026 실적 발표 콜 원고",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/cra-international-crai-q3-2026-earnings-call-transcript/",
+                  "date": "2026-11-05",
+                  "quote": "the growth of lead flow is not necessarily directly tied to AI-related engagements...AI has definitely increased complexity, and I think that is contributing to the surge",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "counter": "[]",
+      "expectedGrowth": "[]",
+      "profitImpact": "[]",
+      "revenueImpact": "[]",
+      "growthLink": "코드 33을 보면 최근 3분기 매출 증가율이 10.5% → 12.8% → 15.6%로, 순이익 증가율이 -38.2% → 11.4% → 21.2%로, 순이익률이 5.5% → 6.4% → 6.5%로 모두 올라 가속 구간이다. 회사가 밝힌 원인은 새 제품이 아니라 폭넓은 프랙티스 성장과 인력·활용도 확대로, 3분기 가동률 78%와 컨설턴트 1,028명(1년 전 968명), 법률·규제 15.7%·경영 컨설팅 9.8% 성장이 그 설명이다. 다만 이익 쪽 가속은 질을 나눠 봐야 한다 — 회계 기준 순이익은 21.2% 늘었지만 일회성을 뺀 회사 기준 순이익은 1.5% 증가에 그쳤고, 1년 전 3분기에 370만 달러 구조조정 비용이 있었던 비교 기준 효과가 섞여 있다.",
+      "headline": "새 제품이 아니라 2025년부터 영입한 시니어 컨설턴트와 소송·규제 수요가 매출 15.6% 증가를 끌고 있다",
+      "nVerdict": "부분 충족",
+      "narrative": "CRA 인터내셔널에서 새로운 것은 신제품이 아니라 사람이다. 회사는 2025년과 2026년 초에 매출을 직접 만드는 컨설턴트를 20명 이상 영입했고, 근무 기간에 따라 탕감되는 선지급 보상(용서가능 대출) 상각비가 2026 회계연도에 약 1,500만 달러 늘어나는 것을 \"수익성 있는 성장을 위한 인재 투자\"라고 설명한다. 그 결과 3분기 매출은 1년 전보다 15.6% 늘어 2.149억 달러가 됐고, 가동률은 77%에서 78%로, 컨설턴트 수는 968명에서 1,028명으로 올랐다. 수요 쪽에서는 포렌식 서비스·라이프사이언스·리스크 조사·분석 프랙티스가 두 자릿수로 성장하고 반독점·경쟁경제 프랙티스가 분기 매출 최고치를 내, 7개 프랙티스가 전체 매출의 약 95%를 차지하며 함께 늘었다. 이익에서는 영업이익이 1,720만 달러(매출의 9.3%)에서 2,390만 달러(매출의 11.1%)로 늘었지만, 같은 분기 용서가능 대출 상각비가 매출의 6.2%에서 7.0%로 커지며 일회성을 뺀 회사 기준 순이익은 1.5% 증가에 머물고 순이익률은 7.3%에서 6.4%로 낮아졌다. 즉 인재 투자는 매출을 먼저 키우고 비용을 동시에 키우는 단계이며, 회계연도 누적 매출원가 비중도 68.6%에서 71.2%로 올랐다. 기대 성장률은 회사 가이던스뿐으로, 2026 회계연도 매출 8.3억~8.4억 달러(직전 8.05억~8.2억 달러)와 비GAAP EBITDA 마진 12.2~12.8%를 제시했다. 꺾을 수 있는 것은 명확하다 — 해외 사업 성장률이 2분기 32.9%에서 3분기 6.2%로 떨어졌고, 회사 스스로 핵심 인력 이탈과 인공지능의 개발·사용, 경쟁 서비스·가격을 위험 요인으로 적었다. 새 제품·서비스로 떼어 볼 수 있는 매출이 없고 영입 인력이 만든 매출도 따로 공개되지 않아, N은 부분 충족으로 본다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "포렌식 서비스, 라이프사이언스, 리스크 조사·분석 프랙티스가 각각 1년 전보다 두 자릿수 매출 성장을 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "CRA International (SEC 8-K 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                "date": "2026-11-05",
+                "quote": "The Forensic Services, Life Sciences, and Risk, Investigations & Analytics practices each posted double-digit revenue growth year over year, while the Antitrust & Competition Economics practice posted a new high for quarterly revenue.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1b",
+            "statement": "경영진은 글로벌 소프트웨어 개발사가 자사 제품의 미확인 취약점을 찾는 데 인공지능을 쓰도록 CRA에 의뢰한 사례를 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA International 3분기 2026 실적 발표 콜 원고",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/cra-international-crai-q3-2026-earnings-call-transcript/",
+                "date": "2026-11-05",
+                "quote": "Elsewhere, a global software developer asked CRA to use AI to find unknown vulnerabilities in its products. Taking advantage of multiple models and industry experience, we rapidly identified, triaged and tested security fixes for their products before a vulnerability could be exploited.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 주당 평균 프로젝트 문의와 신규 수임이 각각 1년 전보다 20% 넘게 늘었다고 밝혔으나, 점유율 자체를 숫자로 공시하지는 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA International 3분기 2026 실적 발표 콜 원고",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/cra-international-crai-q3-2026-earnings-call-transcript/",
+                "date": "2026-11-05",
+                "quote": "Average weekly project lead flow and new project originations remained strong with each metric increasing more than 20% year-over-year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "경영진은 컨설턴트들이 고객에게 계속 필요한 존재가 되는 방식을 찾아내고 있고 그것이 수요 증가로 인정받고 있다고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA International 3분기 2026 실적 발표 콜 원고",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/cra-international-crai-q3-2026-earnings-call-transcript/",
+                "date": "2026-11-05",
+                "quote": "Our colleagues are finding ways to stay relevant to their clients and to add value, and that is being recognized by just increased demand",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "3분기 가동률은 78%로 1년 전 77%보다 높고 컨설턴트 수는 1년 전보다 6.2% 늘어, 매출 확대가 인력 투입과 활용도 양쪽에서 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "CRA International (SEC 8-K 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                "date": "2026-11-05",
+                "quote": "Utilization was 78% and quarter-end consultant headcount increased 6.2% year over year.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "CRA 10-Q 경영진 설명 (2026-11-05)",
+                "publisher": "CRA International (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm",
+                "date": "2026-11-05",
+                "quote": "Utilization increased to 78% for the third quarter of fiscal 2026 from 77% for the third quarter of fiscal 2025, while consultant headcount increased to 1,028 at the end of the third quarter of fiscal 2026 from 968 at the end of the third quarter of fiscal 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "회사는 연간 매출 전망을 올리면서 비GAAP EBITDA 마진 전망 범위를 12.0~13.0%에서 12.2~12.8%로 좁혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "CRA International (SEC 8-K 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                "date": "2026-11-05",
+                "quote": "For full-year fiscal 2026, on a constant currency basis relative to fiscal 2025, we expect revenue in the range of $830 million to $840 million and non-GAAP EBITDA margin in the range of 12.2% to 12.8%. This new revenue guidance compares with a prior range of $805 million to $820 million and a prior non-GAAP EBITDA margin range of 12.0% to 13.0%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "3분기 판매·관리비(SG&A) 비중은 18.1%에서 16.5%로 낮아졌고, 비전속 전문가 수수료를 뺀 비중도 16.3%에서 14.9%로 내려갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA 3분기 CFO 사전 발언 (2026-11-05)",
+                "publisher": "CRA International (SEC 8-K 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx992xcfore.htm",
+                "date": "2026-11-05",
+                "quote": "For Q3 of fiscal 2026, SG&A expenses were $35.4 million, or 16.5% of revenue, compared with $33.7 million, or 18.1% of revenue, for Q3 of fiscal 2025. Commissions to non-employee experts are included in SG&A expenses. These commissions represented approximately 1.6% of revenue for Q3 of fiscal 2026 and 1.8% for Q3 of fiscal 2025. Excluding these commissions, SG&A expenses were 14.9% of revenue for Q3 of fiscal 2026, compared with 16.3% in Q3 of fiscal 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "회계연도 누적으로 포트폴리오 정리 작업에 따른 현금 퇴직금 160만 달러와 비현금 비용 100만 달러를 반영했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CRA 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "CRA International (SEC 8-K 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+                "date": "2026-11-05",
+                "quote": "(1) Fiscal year-to-date period ended October 3, 2026 includes cash severance of $1.6 million and non-cash charges of $1.0 million associated with portfolio optimization actions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "sourceGap": "프랙티스별 매출 금액 표가 공시에 없어 성장률 설명만 있고, 국내 증권사 리포트도 받지 못했다.",
+      "ticker": "CRAI",
+      "watch": [
+        "4분기에 컨설턴트 수(3분기 말 1,028명)와 가동률(78%)이 더 오르는지 — 영입 인력이 계속 매출로 연결되는지 확인하는 숫자",
+        "용서가능 대출 상각비가 매출의 7.0%에서 더 커지는지, 그래서 비GAAP 순이익률(3분기 6.4%)이 회복되는지",
+        "해외 사업 성장률이 3분기 6.2%에서 다시 올라오는지 — 2분기 32.9%가 일시적이었는지 갈리는 지점",
+        "주당 프로젝트 문의·신규 수임의 20% 이상 증가세가 유지되는지, 그리고 2027 회계연도 가이던스가 2026년 매출 8.3억~8.4억 달러 위로 제시되는지"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-05",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx991xpress.htm",
+          "filingDate": "2026-11-05"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000046/craiq3-20268xkexx992xcfore.htm",
+          "filingDate": "2026-11-05"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/craiq2-20268xkexx991xpress.htm",
+          "filingDate": "2026-08-06"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000020/craiq2-20268xkexx992xcfore.htm",
+          "filingDate": "2026-08-06"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm",
+          "filingDate": "2026-11-05"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-10-03",
+            "revenueYoy": 15.6,
+            "netIncomeYoy": 21.2,
+            "netMargin": 6.5
+          },
+          {
+            "periodEnd": "2026-07-04",
+            "revenueYoy": 12.8,
+            "netIncomeYoy": 11.4,
+            "netMargin": 6.4
+          },
+          {
+            "periodEnd": "2026-04-04",
+            "revenueYoy": 10.5,
+            "netIncomeYoy": -38.2,
+            "netMargin": 5.5
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": true,
+          "netMargin": true
+        },
+        "all": true
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-10-03",
+          "revenue": 214917000,
+          "netIncome": 13906000,
+          "yoy": {
+            "revenue": 15.6,
+            "profit": 38.8,
+            "netIncome": 21.2,
+            "priorEnd": "2025-09-27"
+          }
+        },
+        {
+          "periodEnd": "2026-07-04",
+          "revenue": 210815000,
+          "netIncome": 13508000,
+          "yoy": {
+            "revenue": 12.8,
+            "profit": 19.3,
+            "netIncome": 11.4,
+            "priorEnd": "2025-06-28"
+          }
+        },
+        {
+          "periodEnd": "2026-04-04",
+          "revenue": 200975000,
+          "netIncome": 11132000,
+          "yoy": {
+            "revenue": 10.5,
+            "profit": -29.4,
+            "netIncome": -38.2,
+            "priorEnd": "2025-03-29"
+          }
+        },
+        {
+          "periodEnd": "2026-01-03",
+          "revenue": 196963000,
+          "netIncome": 13203000,
+          "yoy": {
+            "revenue": 11.6,
+            "profit": -3.8,
+            "netIncome": -12.2,
+            "priorEnd": "2024-12-28"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 11.03,
+        "saleNy": 4.77,
+        "epsCy": 4.7,
+        "epsNy": 11.61
+      }
+    },
+    "PLMR": {
+      "drivers": [
+        {
+          "what": "작물보험(Crop) — 최근 몇 년 사이 새로 도입한 상품으로, 2026년에는 재보험사에 넘기던 몫을 줄여 자체 보유를 늘렸다",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 최근 몇 년 사이 작물보험·E&S 캐주얼티·보증·환경책임 등 여러 신상품을 새로 도입했다고 경영진 설명에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "We seek to continuously grow our income by developing product offerings for lines of business that harness our core competencies and where we believe we can generate attractive risk adjusted returns. In recent years, we have introduced several new products including Crop, E&S Casualty, Surety and Environmental Liability. These new products diversify our book of business and broaden our product portfolio.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "2026년에 작물보험 보험료를 더 많이 자체 보유하기로 한 결정이 회사가 손에 쥐는 보험료 비율을 끌어올렸다고 회사가 직접 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Our net earned premium ratio increased as premiums earned in the current period were subject to lower quota share or XOL cession percentages compared to premiums earned in the prior period. This was primarily driven by our decision to retain a higher percentage of premiums on our Crop business in 2026 and lower XOL pricing versus the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 총수입보험료는 1년 전보다 28.4% 늘었고, 회사는 증가의 주된 이유를 작물보험과 보증·신용 부문 물량 확대로 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Gross written premiums increased $169.9 million, or 28.4%, to $767.0 million for the three months ended September 30, 2026 compared to $597.2 million for the three months ended September 30, 2025. Premium growth was primarily due to an increased volume of policies in the majority of our lines of business, particularly in our Crop and Surety & Credit lines, which was driven by new business generated with existing partners, strong premium retention rates for existing business, expansion of our distribution footprint, and new partnerships.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "작물보험 3분기 보험료는 1년 전보다 89.3% 늘어 전체 보험료의 29.6%를 차지하는 최대 상품이 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Crop | $ | 226,668 | | 29.6 | % | | $ | 119,757 | | 20.1 | % | | $ | 106,911 | | 89.3 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "자체 보유를 늘린 결과 회사 몫으로 남는 순수입보험료는 3분기에 1년 전보다 62.3% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Net earned premiums increased $140.2 million, or 62.3%, to $365.4 million for the three months ended September 30, 2026 from $225.1 million for the three months ended September 30, 2025 due primarily to the earning of increased gross written premiums partially offset by the earning of ceded written premiums under reinsurance agreements.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 순이익은 1년 전보다 27.0% 늘었고, 일회성을 뺀 회사 기준 조정 순이익은 47.4% 늘어 더 빠르게 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "• Net income increased 27.0% to $65.3 million compared to $51.5 million in the third quarter of 2025 … • Adjusted net income (1) increased 47.4% to $81.3 million compared to $55.2 million in the third quarter of 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "판매 수수료 성격의 인수비용은 총경과보험료의 9.8%로 1년 전 10.8%보다 낮아져, 보험료가 늘어도 비용이 그만큼 따라붙지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Acquisition expenses as a percentage of gross earned premiums were 9.8% for the three months ended September 30, 2026 compared to 10.8% for the three months ended September 30, 2025. Acquisition expenses as a percentage of gross earned premiums decreased due to changes in the composition of our business versus the prior year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 연간 조정 순이익 2.80억~2.85억 달러이며, 여기에는 연간 재해 손실 800만~1,200만 달러 추정이 들어 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "For the full year 2026, the Company expects to achieve adjusted net income of $280 million to $285 million. This includes an estimate of $8 million to $12 million of catastrophe losses for the year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "같은 전망은 8월에 2.70억~2.80억 달러였으니, 회사가 올해 들어 네 번째로 올린 숫자다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 2분기 실적 보도자료 (2026-08-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-ex99_1.htm",
+                  "date": "2026-08-04",
+                  "quote": "For the full year 2026, the Company expects to achieve adjusted net income of $270 million to $280 million. This includes an estimate of $8 million to $12 million of catastrophe losses for the year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Mac Armstrong, Chairman and Chief Executive Officer, commented, “Palomar’s third quarter of 2026 was exceptional; highlighted by record gross written premium and adjusted net income, our 16 th consecutive earnings beat and the fourth increase to our 2026 adjusted net income guidance range.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "3분기 손해율은 41.5%로 1년 전 32.3%보다 올랐고, 회사는 작물보험 물량 증가와 자체 보유 확대를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "• Total loss ratio of 41.5% compared to 32.3% in the third quarter of 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Non-catastrophe losses increased for the three months ended September 30, 2026 compared to the three months ended September 30, 2025 due mainly to higher attritional losses driven by premium growth on lines of business subject to attritional losses such as Crop, Surety & Credit, and Inland Marine and Property and due to our decision to retain a higher percentage of premiums and losses on our Crop business in 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "작물보험 보험료는 대부분 3분기에 한꺼번에 인식되므로, 이번 분기 숫자를 연간으로 늘려 보면 안 된다고 회사가 못 박았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "The majority of our Crop written premiums are recognized in the third quarter, as we receive the requisite reporting from insureds at that time. This pattern reflects the seasonal nature of the Crop business, which typically results in a disproportionate amount of Crop premiums being recognized in the third quarter. As such, our interim results may not be indicative of full-year performance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "회사는 재해의 빈도·강도, 작물 가격 변동, 재보험 조달 비용을 실적이 달라질 수 있는 위험으로 직접 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "Actual results could differ materially from the expectations contained in forward-looking statements as a result of several factors, including the frequency and severity of catastrophe events; the adequacy of our loss reserves; the availability, cost and collectability of reinsurance; investment performance and interest rate fluctuations; weather conditions and crop price volatility affecting our Crop business; our ability to integrate PCSC and realize the anticipated benefits of acquisitions; competitive conditions; and regulatory developments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Gray Casualty & Surety 인수(현 PCSC) — 보증·신용 사업을 통째로 사들여 2026년 1월 31일부터 실적에 넣었다",
+          "kind": "contract",
+          "stage": "매출 발생 중",
+          "since": "2026-01",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2026년 1월 31일 PCSC를 인수했고, 3분기 보험료에 PCSC가 쓴 2,670만 달러가 들어 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Gross written premiums for the three months ended September 30, 2026 also include $26.7 million written by PCSC, which we acquired on January 31, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "올해 1~9월 총수입보험료는 1년 전보다 32.0% 늘어 20억 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Gross written premiums increased $491.7 million, or 32.0%, to $2.0 billion for the nine months ended September 30, 2026 compared to $1.5 billion for the nine months ended September 30, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "그중 PCSC가 쓴 보험료는 1~9월 6,070만 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Gross written premiums for the nine months ended September 30, 2026 also include $60.7 million written by PCSC, which we acquired on January 31, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "인수 자금을 빌린 탓에 3분기 이자비용이 510만 달러로 1년 전 10만 달러에서 크게 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Interest expense increased $5.0 million to $5.1 million for the three months ended September 30, 2026 from $0.1 million for the three months ended September 30, 2025, primarily due to interest on the Term Loan entered into in January 2026 to fund the acquisition of Gray Surety and, to a lesser extent, borrowings under our FHLB line of credit.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2p2",
+              "statement": "판매·관리비 성격의 기타 인수비용도 3분기 50.5% 늘었는데, 회사는 인건비·전산비와 함께 이 인수를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "Other underwriting expenses increased $24.4 million, or 50.5%, to $72.7 million for the three months ended September 30, 2026 from $48.3 million for the three months ended September 30, 2025. The increase was primarily due to higher payroll, technology, and stock-based compensation expenses associated with general growth, including the acquisition of Gray Surety.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 PCSC를 제대로 통합해 기대한 효과를 낼 수 있을지를 실적이 달라질 위험으로 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                  "date": "2026-11-04",
+                  "quote": "weather conditions and crop price volatility affecting our Crop business; our ability to integrate PCSC and realize the anticipated benefits of acquisitions; competitive conditions; and regulatory developments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "PLMR.Farm — 작물보험 계약을 처리하는 자체 전산 시스템을 2026년 2분기에 띄웠다",
+          "kind": "service",
+          "stage": "출시",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "최고경영자는 2분기 성과로 작물보험 계약 관리 시스템 PLMR.Farm 출시를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔로마 홀딩스 2분기 실적 보도자료 (2026-08-04)",
+                  "publisher": "팔로마 홀딩스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-ex99_1.htm",
+                  "date": "2026-08-04",
+                  "quote": "Bolstering our financial performance were several operational achievements including the launch of the PLMR.Farm, our innovative crop policy administration system, and exceptional new additions to our team.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": []
+        }
+      ],
+      "growthLink": "코드 33을 보면 매출 증가율은 2025년 4분기 62.7%에서 2026년 2분기 54.7%로 내려오고, 순이익률도 22.2%에서 16.7%로 낮아져 셋 다 오르지 않는다. 회사 설명으로 이 엇갈림이 설명된다 — 작물보험 보유를 늘린 결정이 순수입보험료를 3분기 62.3% 끌어올린 동시에, 같은 결정과 작물보험 물량 증가가 손해율을 41.5%(1년 전 32.3%)로 밀어올렸다. 즉 보험료는 가속하고 있지만 자체 보유를 늘리면서 손실도 함께 떠안아 이익률이 눌린 모양새다.",
+      "headline": "작물보험 확대와 보증 사업 인수가 보험료를 끌어올리는 중 — 손해율도 함께 올랐다",
+      "nVerdict": "충족",
+      "narrative": "새로운 것은 작물보험(Crop)이다. 회사는 최근 몇 년 사이 작물보험·E&S 캐주얼티·보증·환경책임을 새 상품으로 들여왔다고 경영진 설명에 적었고, 2026년에는 작물보험 보험료를 재보험사에 덜 넘기고 더 많이 자체 보유하기로 했다. 매출로는 3분기 총수입보험료가 1년 전보다 28.4% 늘었고 회사는 그 이유를 작물보험과 보증·신용 물량으로 지목했으며, 작물보험 한 상품만 89.3% 늘어 전체 보험료의 29.6%를 차지했다. 자체 보유를 늘린 덕에 회사 몫으로 남는 순수입보험료는 62.3% 증가했다. 이익에서는 3분기 순이익이 27.0%, 일회성을 뺀 조정 순이익이 47.4% 늘었고 판매 수수료 성격의 인수비용 비율은 9.8%로 1년 전 10.8%보다 낮아졌다. 두 번째 동력은 2026년 1월 31일 인수한 보증·신용 회사 PCSC로, 3분기 보험료에 2,670만 달러, 1~9월에는 6,070만 달러가 들어왔지만 인수 자금 대출 때문에 3분기 이자비용이 510만 달러로 늘어 초기 비용 부담이 함께 생겼다. 세 번째는 2분기에 띄운 작물보험 계약 관리 시스템 PLMR.Farm인데, 아직 매출·이익 숫자와 연결된 근거는 공시에 없다. 기대 성장률은 회사 가이던스뿐이다 — 2026년 연간 조정 순이익 2.80억~2.85억 달러로, 8월의 2.70억~2.80억 달러에서 올해 네 번째 상향이다. 이 그림을 꺾을 수 있는 것도 같은 자리에 있다. 손해율이 41.5%로 올랐고, 작물보험 보험료는 대부분 3분기에 몰려 인식되므로 이번 분기를 연간으로 늘려 보면 안 되며, 회사 스스로 재해 빈도·강도와 작물 가격 변동, PCSC 통합을 위험으로 적었다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "회사는 작물보험·E&S 캐주얼티·보증·환경책임을 최근 몇 년 사이 새로 도입한 상품으로 꼽으며, 이들이 사업 구성을 넓혔다고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "In recent years, we have introduced several new products including Crop, E&S Casualty, Surety and Environmental Liability. These new products diversify our book of business and broaden our product portfolio.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1b",
+            "statement": "최고경영자는 이번 분기에 다섯 개 상품 전부에서 보험료가 늘었다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                "date": "2026-11-04",
+                "quote": "Mr. Armstrong continued, “We were especially pleased with written premium growth across all five product categories this quarter: Earthquake, Inland Marine and Property, Casualty, Crop and Surety & Credit.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 점유율 수치를 밝히지 않고, 기존 파트너의 신규 물량·높은 갱신율·유통망 확대·새 파트너십으로 계약 물량이 늘었다고만 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "Premium growth was primarily due to an increased volume of policies in the majority of our lines of business, particularly in our Crop and Surety & Credit lines, which was driven by new business generated with existing partners, strong premium retention rates for existing business, expansion of our distribution footprint, and new partnerships.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "창업 첫해 보험료 1,660만 달러에서 2025년 20억 달러로 늘어 연평균 약 55% 성장했다고 회사가 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "Founded in 2014, we have significantly grown our business and have generated attractive returns. We have increased gross written premiums from $16.6 million in our first year of operations to $2.0 billion for the year ended December 31, 2025, which reflects a compound annual growth rate of approximately 55%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 자사 상품 묶음을 '하나뿐인(one-of-one) 특화 포트폴리오'라고 표현하며 시장 주기와 무관하게 자리를 잡았다고 주장한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+                "date": "2026-11-04",
+                "quote": "Our “one-of-one” specialty product portfolio is well positioned across market cycles, and this quarter reflected the ballast, diversity and overall strength in the book.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "보험 인수의 전제 조건인 신용등급은 주요 자회사가 A.M. Best 'A', PCSC가 'A-'다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "Our insurance company subsidiaries, Palomar Specialty Insurance Company (“PSIC”), Palomar Excess and Surplus Insurance Company (“PESIC”), First Indemnity of America Insurance Co. (“FIA”), and Palomar Specialty Reinsurance Company Bermuda Ltd. (“PSRE”) carry an “A” (Excellent) rating from A.M. Best Company (“A.M. Best”), a leading rating agency for the insurance industry. Palomar Casualty and Surety Company (“PCSC”) carries an “A-” (Excellent) rating from A.M. Best.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "작물보험 보유 비중을 높이고 초과손해 재보험 비용이 낮아지면서, 쓴 보험료 중 회사 몫으로 남는 비율이 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "This was primarily driven by our decision to retain a higher percentage of premiums on our Crop business in 2026 and lower XOL pricing versus the prior year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "재보험사에 넘기는 보험료 비중은 3분기 49.3%로 1년 전 53.9%에서 낮아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "Although our volume of ceded written premiums increased, ceded written premiums as a percentage of gross written premiums decreased to 49.3% for the three months ended September 30, 2026 from 53.9% for the three months ended September 30, 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "일회성 항목을 뺀 기타 인수비용 비율은 총경과보험료의 7.7%로 1년 전 7.9%에서 소폭 낮아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "Excluding the impact of expenses relating to transactions, stock-based compensation, amortization of intangibles, and expenses associated with catastrophe bonds, other underwriting expenses as a percentage of gross earned premiums were 7.7% for the three months ended September 30, 2026 compared to 7.9% for the three months ended September 30, 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "작물보험 계약 처리를 자체 전산 시스템 PLMR.Farm으로 옮겼다고 회사가 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔로마 홀딩스 2분기 실적 보도자료 (2026-08-04)",
+                "publisher": "팔로마 홀딩스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-ex99_1.htm",
+                "date": "2026-08-04",
+                "quote": "including the launch of the PLMR.Farm, our innovative crop policy administration system",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트를 받지 못해, 회사가 말하는 'Palomar 2X' 전략의 구체적 목표 수치는 확인하지 못했다.",
+      "ticker": "PLMR",
+      "watch": [
+        "4분기 실적에서 연간 조정 순이익이 회사 전망 2.80억~2.85억 달러 안에 들어오는지, 또 2027년 전망을 함께 내놓는지",
+        "작물보험 물량이 몰리는 3분기가 지난 뒤 손해율이 1년 전 수준으로 돌아오는지, 아니면 자체 보유 확대 탓에 높은 채로 굳는지",
+        "보증·신용 부문 보험료가 인수한 PCSC 기여분(3분기 2,670만 달러) 말고 자체 성장으로도 늘어나는지",
+        "인수 대출 이자비용(3분기 510만 달러)과 인건비·전산비 증가가 조정 순이익 증가 속도를 깎기 시작하는지"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-06",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526447298/plmr-ex99_1.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526332846/plmr-ex99_1.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+          "filingDate": "2026-11-06"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 54.7,
+            "netIncomeYoy": 13,
+            "netMargin": 16.7
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 59.7,
+            "netIncomeYoy": 0.1,
+            "netMargin": 15.4
+          },
+          {
+            "periodEnd": "2025-12-31",
+            "revenueYoy": 62.7,
+            "netIncomeYoy": 60.6,
+            "netMargin": 22.2
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 314423000,
+          "netIncome": 52592000,
+          "yoy": {
+            "revenue": 54.7,
+            "profit": 16.6,
+            "netIncome": 13,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 278938000,
+          "netIncome": 42947000,
+          "yoy": {
+            "revenue": 59.7,
+            "profit": -0.5,
+            "netIncome": 0.1,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 253363000,
+          "netIncome": 56165000,
+          "yoy": {
+            "revenue": 62.7,
+            "profit": 61.6,
+            "netIncome": 60.6,
+            "priorEnd": "2024-12-31"
+          }
+        },
+        {
+          "periodEnd": "2025-09-30",
+          "revenue": 244660000,
+          "netIncome": 51455000,
+          "yoy": {
+            "revenue": 64.8,
+            "profit": 74.4,
+            "netIncome": 68.7,
+            "priorEnd": "2024-09-30"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 53.46,
+        "saleNy": 22.62,
+        "epsCy": 32.14,
+        "epsNy": 12.28
+      }
+    },
+    "EXPO": {
+      "drivers": [
+        {
+          "what": "AI 탑재 제품 개발을 위한 '사용자 조사 연구(user research studies)' — 사람이 기기·기술과 어떻게 상호작용하는지 실험으로 검증해 주는 선제적(proactive) 컨설팅 서비스",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d1-b1",
+              "statement": "회사는 3분기에도 사용자 조사 연구가 성장의 큰 기여 요인이었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "User research studies continued to be a strong contributor to our growth, as clients move quickly to understand how people interact with technology across a widening range of devices and applications.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b2",
+              "statement": "회사는 고객들이 AI 기능을 넣은 제품 개발을 서두르면서 사용자 조사 수요가 선제적 업무의 성장을 이끌었고, 프로젝트의 범위·규모·복잡도가 계속 커지고 있다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 2분기 실적 보도자료 (2026-07-30)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_991.htm",
+                  "date": "2026-07-30",
+                  "quote": "Our proactive work experienced strong growth in the quarter, led by demand for user research studies as clients accelerate the development of AI-enabled products across an increasingly diverse range of hardware form factors and applications, with engagements continuing to expand in scope, scale and complexity.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "Our proactive work experienced strong growth in the quarter, led by demand for user research studies as clients accelerate the development of AI-enabled products across an increasingly diverse range of hardware form factors and applications.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1-r1",
+              "statement": "상환비 제외 매출의 85%를 차지하는 엔지니어링·과학 부문이 3분기에 1년 전보다 13% 성장했고, 회사는 그 성장의 동력으로 사용자 조사 활동을 지목했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "Exponent’s engineering and other scientific segment represented 85% of the Company’s revenues before reimbursements in the third quarter and through the first three quarters of 2026. Revenues before reimbursements in this segment increased 13% in the third quarter and through the first three quarters of 2026, as compared to the prior year period. Growth during the quarter was driven by strong user research activity spanning a broad set of challenges, including health applications, dynamic and unstructured real-world environments, and sensory perception.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r2",
+              "statement": "이 부문의 3분기 청구 가능 시간은 334,000시간으로 1년 전 305,000시간보다 10% 늘었고, 회사는 매출 증가 원인에 사용자 조사 프로젝트에서 나온 상환 매출 증가를 함께 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "The increase in revenues for our Engineering and Other Scientific segment was due to an increase in billable hours, an increase in billing rates and an increase in revenues from reimbursements associated with user research projects. Growth during the quarter was driven by user research studies in consumer electronics along with reactive engagements across the chemical, consumer products, and transportation industries. During the third quarter of 2026, billable hours for this segment increased by 10% to 334,000 as compared to 305,000 during the same period last year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r3",
+              "statement": "고객에게 되받는 상환 매출이 3분기 20,670천 달러로 1년 전 10,047천 달러에서 두 배가 됐는데, 회사는 그 증가가 사용자 조사 프로젝트 때문이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "| Reimbursements | 20,670 | 10,047 | 57,908 | 27,211 |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "The amount of reimbursable expenses will vary from quarter to quarter depending on the nature of our projects. The increase in reimbursable expenses was due to an increase in reimbursable expenses associated with user research projects.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1-p1",
+              "statement": "일감이 늘면서 3분기 전사 가동률이 77%로 1년 전 74%에서 올랐고, 엔지니어링·과학 부문은 79%로 76%에서 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "Our utilization increased to 77% during the third quarter of 2026 as compared to 74% during the same period last year. Average technical full-time equivalent employees increased by 4% to 1,016 during the third quarter of 2026 as compared to 976 during the same period last year due to our recruiting and retention efforts. … Utilization for this segment increased to 79% during the third quarter of 2026 as compared to 76% during the same period last year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-p2",
+              "statement": "3분기 EBITDA(이자·세금·감가상각을 빼기 전 이익)가 상환비 제외 매출의 29.4%로 1년 전 28.3%보다 높아졌고, 회사는 그 이유를 상환비 제외 매출 증가와 가동률 상승이라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "EBITDA 1 increased to $45.0 million, or 29.4% of revenues before reimbursements, in the third quarter of 2026, as compared to $38.8 million, or 28.3% of revenues before reimbursements in the third quarter of 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "The increase in EBITDA as a percentage of revenues before reimbursements during the three and nine months ended October 2, 2026 as compared to the same periods last year was primarily due to an increase in revenues before reimbursements and an increase in utilization.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1-e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 4분기 상환비 제외 매출이 1년 전보다 8~10% 늘고 EBITDA가 그 매출의 26.3~26.8%가 되는 것이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "For the fourth quarter of fiscal 2026 as compared to the same period one year prior, Exponent anticipates: Revenues before reimbursements to grow 8% to 10%; and, EBITDA 1 to be 26.3% to 26.8% of revenues before reimbursements.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-e2",
+              "statement": "회사는 2026 회계연도 전체 가이던스를 올려 상환비 제외 매출 10~11% 성장, EBITDA 마진 28.0~28.3%를 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "For the full fiscal year 2026 as compared to fiscal year 2025, Exponent anticipates: Revenues before reimbursements to grow 10% to 11%; and, EBITDA 1 to be 28.0% to 28.3% of revenues before reimbursements. … As we close out 2026, we are raising our full-year revenue and margin guidance, reflecting the strength of our year-to-date performance and our outlook for the remainder of the year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1-c1",
+              "statement": "회사가 제시한 4분기 EBITDA 마진 26.3~26.8%는 3분기에 기록한 29.4%보다 낮아, 수익성이 다시 내려가는 것을 회사 스스로 전망하고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "For the fourth quarter of fiscal 2026 as compared to the same period one year prior, Exponent anticipates: Revenues before reimbursements to grow 8% to 10%; and, EBITDA 1 to be 26.3% to 26.8% of revenues before reimbursements. … EBITDA 1 increased to $45.0 million, or 29.4% of revenues before reimbursements, in the third quarter of 2026, as compared to $38.8 million, or 28.3% of revenues before reimbursements in the third quarter of 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-c2",
+              "statement": "전체 매출은 18%, 상환비 제외 매출은 12% 늘었는데, 그 차이인 상환 매출은 같은 금액이 비용으로도 잡히는 통과 항목이라 이익에 보태지 않는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "Total revenues and revenues before reimbursements for the third quarter of 2026 increased 18% to $173.7 million and 12% to $153.1 million, respectively, as compared to $147.1 million and $137.1 million in the third quarter of 2025. … | Reimbursements | 20,670 | 10,047 | 57,908 | 27,211 | \n| Reimbursable expenses | 20,670 | 10,047 | 57,908 | 27,211 |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-c3",
+              "statement": "회사는 수주잔고가 없는 사업 구조와 경기·프로젝트 착수 시점·경쟁 서비스와 가격·핵심 인력 이탈을 위험 요인으로 공시한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "Factors that could cause or contribute to such material differences include the possibility that the demand for our services may decline as a result of changes in generally applicable and industry-specific economic conditions, the timing of engagements for our services, the effects of competitive services and pricing, the absence of backlog related to our business, our ability to attract and retain key employees, the effect of tort reform and government regulation on our business, and liabilities resulting from claims made against us.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-c4",
+              "statement": "인력 확충과 연봉 인상으로 보상 비용이 계속 늘어날 것이라고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "We expect our compensation expense, excluding the change in value of deferred compensation plan assets, to increase as we selectively add new talent and adjust compensation to market conditions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "화학·소비재·운송 업계의 분쟁 및 고장 분석(reactive) 수요 증가 — 사고가 났을 때 원인을 규명해 주는 대응형 업무",
+          "kind": "industry",
+          "stage": "매출 발생 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2-b1",
+              "statement": "회사는 3분기에 화학·소비재·운송 업계에서 분쟁 관련·고장 분석 수요가 늘어 대응형 업무가 전년 강세 기저 위에서 또 성장했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                  "date": "2026-10-29",
+                  "quote": "Reactive work also grew, on top of a strong prior-year quarter, with increased dispute-related and failure analysis demand in the chemical, consumer products and transportation industries.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2-r1",
+              "statement": "회사는 올해 첫 9개월 매출 성장의 한 축으로 화학 설비·소비재·첨단 운송 기술 관련 분쟁 서비스를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "Dispute-related services involving chemical facilities, consumer products and advanced transportation technologies also drove growth in the first nine months of 2026, as clients rely on us in critical, high-stakes situations.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2-c1",
+              "statement": "회사는 불법행위 관련 법 개정과 정부 규제가 사업에 미치는 영향을 위험 요인으로 공시한다 — 분쟁 업무 수요는 소송 환경에 따라 움직인다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "Factors that could cause or contribute to such material differences include the possibility that the demand for our services may decline as a result of changes in general and industry specific economic conditions, the timing of engagements for our services, the effects of competitive services and pricing, the absence of backlog related to our business, our ability to attract and retain key employees, the effect of tort reform and government regulation on our business, and liabilities resulting from claims made against us.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "전력·인프라 투자에 따른 유틸리티 업계의 리스크 관리·인프라 관련 자문 수요",
+          "kind": "industry",
+          "stage": "매출 발생 중",
+          "since": "2026-07",
+          "basis": [
+            {
+              "id": "d3-b1",
+              "statement": "회사는 2분기에 유틸리티 업계의 리스크 관리·인프라 관련 프로젝트가 늘어 선제적 업무를 뒷받침했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 2분기 실적 보도자료 (2026-07-30)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_991.htm",
+                  "date": "2026-07-30",
+                  "quote": "Proactive activity was also supported by increased risk management and infrastructure-related engagements in the utility sector.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3-r1",
+              "statement": "엔지니어링·과학 부문의 2분기 상환비 제외 매출이 1년 전보다 13% 늘었는데, 회사는 그 동력의 하나로 유틸리티 업계의 리스크 관리·인프라 업무를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 2분기 실적 보도자료 (2026-07-30)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_991.htm",
+                  "date": "2026-07-30",
+                  "quote": "Revenues before reimbursements in this segment increased 13% during the second quarter and 12% during the first half of 2026, as compared to the prior year period. Growth during the quarter was driven by strong user research activity in consumer electronics, risk management and infrastructure-related work in the utilities sector, and reactive engagements across the consumer products, chemicals, and transportation industries.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3-c1",
+              "statement": "3분기 부문 성장 설명에는 유틸리티 업무가 다시 거론되지 않고 사용자 조사와 분쟁 업무만 꼽혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                  "publisher": "익스포넌트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                  "date": "2026-11-06",
+                  "quote": "Growth during the quarter was driven by user research studies in consumer electronics along with reactive engagements across the chemical, consumer products, and transportation industries.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33으로 보면 분기 매출 증가율이 7.8% → 14.3% → 20.9%로 석 달마다 빨라졌고, 회사는 그 원인으로 AI 탑재 제품을 위한 사용자 조사 수요와 화학·소비재·운송 업계의 분쟁·고장 분석 수요를 공시 원문에서 직접 지목했다. 다만 매출 증가율의 가속에는 사용자 조사 프로젝트에서 생긴 상환 매출이 섞여 있다 — 같은 3분기 전체 매출은 18% 늘었지만 상환비를 뺀 매출은 12% 증가였다. 순이익률도 16.8% → 17.8% → 17.1%로 한 방향으로만 오르지 않았는데, 이익이 붙지 않는 상환 매출이 분모에 그대로 더해지기 때문이다.",
+      "headline": "AI 제품 '사용자 조사' 수요가 주력 부문 매출과 가동률을 함께 끌어올리는 중",
+      "nVerdict": "충족",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1-1",
+            "statement": "고객들이 AI 기능을 넣은 제품을 서둘러 개발하면서, 사람이 그 제품을 어떻게 쓰는지 검증하는 사용자 조사 연구 수요가 선제적 업무의 성장을 이끌고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "익스포넌트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                "date": "2026-11-06",
+                "quote": "Our proactive work experienced strong growth in the quarter, led by demand for user research studies as clients accelerate the development of AI-enabled products across an increasingly diverse range of hardware form factors and applications.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [
+          {
+            "id": "q3-1",
+            "statement": "회사는 90개 이상의 기술 분야와 950명 이상의 컨설턴트를 한데 묶은 조직이 진입장벽이라고 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                "publisher": "익스포넌트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                "date": "2026-10-29",
+                "quote": "Exponent brings together 90+ technical disciplines and 950+ consultants to help our clients navigate the increasing complexity of more than a dozen industries, connecting decades of pioneering work in failure analysis to develop solutions for a safer, healthier, more sustainable world.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3-2",
+            "statement": "회사는 실패의 대가가 매우 큰 영역에서 자신과 견줄 전문성을 가진 조직이 드물다고 주장한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스포넌트 2분기 실적 보도자료 (2026-07-30)",
+                "publisher": "익스포넌트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_991.htm",
+                "date": "2026-07-30",
+                "quote": "Our multidisciplinary teams provide the independent, science-based insights needed to accelerate innovation, improve decision-making, and reduce high-consequence risk in areas where few organizations possess comparable expertise.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4-1",
+            "statement": "매출 증가는 일한 시간뿐 아니라 시간당 청구 요율 인상에서도 나왔고, 환경·보건 부문은 요율 인상만으로 매출이 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "익스포넌트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                "date": "2026-11-06",
+                "quote": "The increase in revenues for our Environmental and Health segment was due to an increase in billing rates. Billable hours for this segment were 71,000 during the third quarter of both 2026 and 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4-2",
+            "statement": "채용·유지 노력으로 기술 인력(정규직 환산)이 3분기 1,016명으로 1년 전 976명보다 4% 늘었고, 영업 개발에 쓰는 마케팅·판촉비도 늘렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "익스포넌트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                "date": "2026-11-06",
+                "quote": "Average technical full-time equivalent employees increased by 4% to 1,016 during the third quarter of 2026 as compared to 976 during the same period last year due to our recruiting and retention efforts. … The increase in marketing and promotion expenses was due to higher spending on business development initiatives.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5-1",
+            "statement": "재무책임자는 수요에 맞춰 운영 모델을 확장한 결과 3분기 가동률 77%와 수익성 개선이 나왔다고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스포넌트 3분기 실적 보도자료 (2026-10-29)",
+                "publisher": "익스포넌트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+                "date": "2026-10-29",
+                "quote": "Our ability to scale our operating model in response to market demand resulted in 77% utilization and expanded profitability during the third quarter of 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5-2",
+            "statement": "상여금 재원이 세전·이자·상여·주식보상 전 이익의 33%로 정해져 있어 이익이 늘면 인건비도 함께 늘어나는 구조다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스포넌트 10-Q 경영진 설명 (2026-11-06)",
+                "publisher": "익스포넌트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+                "date": "2026-11-06",
+                "quote": "During the third quarter of 2026, bonus expense increased by $3,368,000 due to a corresponding increase in our bonus pool which is 33% of income before income taxes, interest income, bonus expense, and stock-based compensation.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "지금 익스포넌트의 성장을 끌고 있는 새로운 것은 AI 기능을 넣은 제품을 검증해 달라는 '사용자 조사 연구' 수요다. 회사는 2분기와 3분기 실적 보도자료에서 연달아, 고객들이 AI 탑재 제품 개발을 서두르면서 이 업무가 선제적 업무 성장을 이끌었고 프로젝트의 범위·규모·복잡도가 계속 커지고 있다고 밝혔다. 매출로는 상환비 제외 매출의 85%를 차지하는 엔지니어링·과학 부문이 3분기에 13% 성장했고, 이 부문 청구 가능 시간은 334,000시간으로 1년 전 305,000시간보다 10% 늘었다. 이익 쪽에서는 전사 가동률이 77%로 1년 전 74%에서 올랐고 EBITDA가 상환비 제외 매출의 29.4%로 28.3%에서 개선됐는데, 회사는 그 이유를 매출 증가와 가동률 상승이라고 못 박았다 — 비용을 깎아서 번 이익이 아니라는 뜻이다. 둘째 동력은 화학·소비재·운송 업계의 분쟁·고장 분석 수요 증가이고, 셋째는 2분기에 거론된 유틸리티 업계의 리스크 관리·인프라 자문이다. 기대 성장률은 회사 가이던스 기준으로 4분기 상환비 제외 매출 8~10% 성장, 2026년 전체 10~11% 성장이며 회사는 이 전망을 3분기에 올렸다. 꺾을 수 있는 것은 세 가지다. 먼저 회사가 스스로 제시한 4분기 EBITDA 마진 26.3~26.8%는 3분기 29.4%보다 낮고, 사용자 조사 프로젝트에서 생긴 상환 매출은 같은 금액이 비용으로 잡혀 이익에 보태지 않으면서 전체 매출 증가율(18%)만 상환비 제외 기준(12%)보다 커 보이게 만든다. 마지막으로 회사는 수주잔고가 없는 사업 구조와 경기·경쟁·가격·인력 이탈을 위험으로 공시하고 있고, 인력 확충과 연봉 인상으로 보상 비용은 계속 늘어날 것이라고 밝혔다.",
+      "watch": [
+        "4분기 상환비 제외 매출 증가율이 가이던스 8~10% 안에 들어오는지, 그리고 사용자 조사가 다시 성장 동력으로 거론되는지",
+        "엔지니어링·과학 부문 가동률이 3분기 79% 위에서 유지되는지 — 떨어지면 이익률 개선분이 먼저 사라진다",
+        "상환 매출이 또 두 배로 늘어 전체 매출 증가율만 부풀리는지 — 판단은 상환비 제외 매출로",
+        "환경·보건 부문 청구 가능 시간이 71,000시간에서 다시 늘어나는지, 가동률 67%가 회복되는지"
+      ],
+      "sourceGap": "2026-10-30 실적 발표 콜 원고 원문을 열지 못했고(기사 제목만 확인), 국내 증권사 리포트도 없다. 사용자 조사 서비스의 개별 매출 금액은 회사가 공시하지 않아 부문 단위 숫자로만 확인된다.",
+      "ticker": "EXPO",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-06",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-10-29)",
+          "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+          "filingDate": "2026-10-29"
+        },
+        {
+          "label": "실적 보도자료 (2026-10-29)",
+          "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_992.htm",
+          "filingDate": "2026-10-29"
+        },
+        {
+          "label": "실적 보도자료 (2026-07-30)",
+          "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_991.htm",
+          "filingDate": "2026-07-30"
+        },
+        {
+          "label": "실적 보도자료 (2026-07-30)",
+          "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/exh_992.htm",
+          "filingDate": "2026-07-30"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+          "filingDate": "2026-11-06"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-07-03",
+            "revenueYoy": 20.9,
+            "netIncomeYoy": 10.7,
+            "netMargin": 17.1
+          },
+          {
+            "periodEnd": "2026-04-03",
+            "revenueYoy": 14.3,
+            "netIncomeYoy": 11,
+            "netMargin": 17.8
+          },
+          {
+            "periodEnd": "2026-01-02",
+            "revenueYoy": 7.8,
+            "netIncomeYoy": 5,
+            "netMargin": 16.8
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-07-03",
+          "revenue": 171612000,
+          "netIncome": 29395000,
+          "yoy": {
+            "revenue": 20.9,
+            "profit": 63.1,
+            "netIncome": 10.7,
+            "priorEnd": "2025-07-04"
+          }
+        },
+        {
+          "periodEnd": "2026-04-03",
+          "revenue": 166303000,
+          "netIncome": 29569000,
+          "yoy": {
+            "revenue": 14.3,
+            "profit": -6.9,
+            "netIncome": 11,
+            "priorEnd": "2025-04-04"
+          }
+        },
+        {
+          "periodEnd": "2026-01-02",
+          "revenue": 147425000,
+          "netIncome": 24762000,
+          "yoy": {
+            "revenue": 7.8,
+            "profit": 6.9,
+            "netIncome": 5,
+            "priorEnd": "2025-01-03"
+          }
+        },
+        {
+          "periodEnd": "2025-10-03",
+          "revenue": 147120000,
+          "netIncome": 28044000,
+          "yoy": {
+            "revenue": 8,
+            "profit": 12.3,
+            "netIncome": 7.7,
+            "priorEnd": "2024-09-27"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 14.34,
+        "saleNy": 8.95,
+        "epsCy": 23.97,
+        "epsNy": 13.75
+      }
+    },
+    "WMT": {
+      "ticker": "WMT",
+      "headline": "광고·마켓플레이스가 마진을 올리고, 10월 나온 통합 멤버십이 새로 붙었다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "광고·마켓플레이스 중심의 고마진 온라인 사업 — 매장을 배송 거점으로 쓰는 온라인 주문 위에 광고와 외부 판매자 중개(마켓플레이스) 수수료를 얹은 구조",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "3분기 미국 온라인 매출은 1년 전보다 23% 늘며 11개 분기 연속 20% 넘는 성장을 이어갔고, 같은 기간 미국 광고는 37%, 마켓플레이스는 49% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Strong eCommerce growth led by store-fulfilled delivery >40%, advertising2 +37%, and marketplace sales +49%; 11th consecutive quarter of eCommerce growth above 20%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Global eCommerce sales grew 17%, led by store-fulfilled pickup & delivery. Walmart U.S. eCommerce grew 23%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "전사 광고 사업은 25% 늘었다고 회사가 3분기 하이라이트에 직접 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Global advertising business 2 up 25%. Walmart U.S. advertising 2 up 37%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 전사 온라인 매출은 1년 전보다 17% 늘어 순매출의 24%를 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Global eCommerce net sales grew 17%; representing 24% of net sales",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "미국 부문에서 온라인은 기존점 매출 성장률에 5.3%p를 기여했다 — 기존점 성장의 대부분이 온라인에서 나왔다는 뜻이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[월마트 (NAS:WMT)] 외풍(外風)에도 견고한 성장",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzkqkzeqqxxgkgcgxeegk.pdf",
+                  "date": "2026-11-24",
+                  "quote": "Walmart U.S.는 약가 최대공정가격제(MFP) 시행 영향이 있는 의약/헬스케어 제외 기준으로 기존점 매출이 +3.6% 성장하였고, 이커머스는 +23% 성장하며 전체 성장률 기여도가 +5.3%를 기록하였다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Primarily driven by improved business mix and merchandise mix shifts in Walmart U.S. • Improvements also reflect the timing shift in BBD sales in Walmart International • Partially offset by lower margins in fuel in Sam's Club U.S. … Gross profit rate +28 bps to 24.5%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 3분기 전사 매출총이익률이 28bp(0.28%p) 오른 주된 이유로 미국 사업의 사업 믹스 개선을 들었다.",
+              "stripped": true
+            },
+            {
+              "id": "d1p2",
+              "statement": "미국 부문 매출총이익률이 50bp 오른 것을 회사는 디지털 광고 성장에 따른 사업 믹스 개선 때문이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Reflects improved business mix primarily from growth of digital advertising • Also, improved merchandise category mix related to lower pharmacy sales due to deflation Gross profit $35.1 billion, +5.4% Gross profit rate 28.1%, +50 bps",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p3",
+              "statement": "10-Q 경영진 설명도 매출총이익률 개선에 광고 같은 고마진 사업의 성장이 보탬이 됐다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 10-Q 경영진 설명 (2026-08-28)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+                  "date": "2026-08-28",
+                  "quote": "Gross profit rate also benefited from continued growth in higher margin businesses, including advertising.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사는 11월 19일 전망을 올려 FY27(2027년 1월 결산) 순매출 4.9~5.2% 증가, 조정 영업이익 8.0~8.6% 증가, 조정 주당순이익 2.84~2.89달러를 제시했다(환율 효과 제외 기준).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+                  "date": "2026-11-19",
+                  "quote": "Net sales for FY27 are expected to grow 4.9% to 5.2% and adjusted operating income to grow 8.0% to 8.6%, all in constant currency (“cc”) 1 . Adjusted EPS 1 is expected to be $2.84 to $2.89 for FY27.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "신한투자증권은 1월 결산 기준으로 FY2027 매출 753,933백만 달러·영업이익 33,888백만 달러, FY2028 매출 785,289백만 달러·영업이익 36,889백만 달러를 추정했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[월마트 (NAS:WMT)] 한발 앞선 주가",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzilllqzegcligcgxeegk.pdf",
+                  "date": "2026-11-23",
+                  "quote": "1월 결산 2025 2026 2027F 2028F 2029F\n매출액 (백만달러) 680,985 713,163 753,933 785,289 822,612 \n영업이익 (백만달러) 29,348 29,825 33,888 36,889 40,697",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "2분기 마진 급등은 29억 달러 관세 환급이 만든 것이고, 회사는 이 돈 대부분을 가격 인하에 다시 썼다고 밝혀 반복되는 이익이 아니다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 10-Q 경영진 설명 (2026-08-28)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+                  "date": "2026-08-28",
+                  "quote": "During the quarter ended July 31, 2026, the Company received approximately $2.9 billion in tariff refunds pursuant to the CBP process, which were recorded as a reduction to cost of sales and represent substantially all of the refunds requested by the Company. A significant portion of these refunds was invested into customer-focused initiatives during the current quarter, primarily through price investment and other cost mitigation strategies, with continued prioritization of price investment expected through fiscal 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "설비 투자에 따른 감가상각과 자체 보험 배상 비용이 늘어 3분기 조정 판관비율은 34bp 나빠졌다 — 마진 개선분을 비용이 깎아먹는 구조다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "Adjusted operating expenses as a percentage of net sales1, +34 bps to 21.5% … • Operating expenses on a reported basis deleveraged 2 bps, primarily due to: ◦ Higher depreciation expense as a result of our capital investments ◦ Higher self-insured general liability claims expense in the U.S.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "약가 최대공정가격 규제가 미국 기존점 성장률을 약 125bp 깎아, 온라인·광고가 만든 성장분을 규제가 상쇄하고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Q3 Walmart US total comp +2.9%; reflects ~125 bps headwind from pharmacy deflation and brand-to-generic transfers related to maximum fair price regulation; partially offset by ~60bps growth primarily from GLP-1",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Walmart+와 Sam's Club Plus를 하나로 묶은 통합 멤버십(연 120달러) — 2026년 10월 미국 출시",
+          "kind": "service",
+          "stage": "매출 발생 중",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 3분기에 Walmart+와 Sam's Club Plus를 묶은 연 120달러짜리 통합 멤버십을 미국에서 새로 내놓았다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Launched new membership bundle in the U.S., combining Walmart+ and Sam's Club Plus for $120 annually",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "키움증권은 이 통합 멤버십이 10월에 출시됐고 신규 가입자의 온라인 지출이 출시 이전보다 80% 넘게 늘었다고 회사가 밝혔다고 전했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[월마트 (NAS:WMT)] 외풍(外風)에도 견고한 성장",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzkqkzeqqxxgkgcgxeegk.pdf",
+                  "date": "2026-11-24",
+                  "quote": "동사는 지난 10 월에 Walmart+와 Sam’s Club Plus 를 하나로 묶은 새로운 통합 멤버십을 출시(연회비 120 달러)하였고, 통합 멤버십 신규 가입자들의 온라인 지출이 출시 이전 대비 +80% 이상 증가했다고 밝혔다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 미국 부문 멤버십·기타수익은 1년 전보다 43% 늘었고, 회사는 그 안에 통합 멤버십 회비 배분분이 들어 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Membership & other income +43% reflects strong double-digit increase in Walmart+ revenue including allocation of fees from the bundled membership offering; also, other income growth from miscellaneous items",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "전 세계 멤버십 회비 수입은 3분기에 17% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+                  "date": "2026-11-19",
+                  "quote": "• Membership fee revenue grew 17% globally",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "미국 부문 영업이익이 63억 달러로 9.0% 늘었는데, 회사는 그 요인 중 하나로 통합 멤버십 신규 가입을 포함한 Walmart+ 회비 수입 증가를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "Operating income $6.3 billion, +9.0% Operating income rate 5.1%, +25 bps • Reflects higher gross profit, improved eCommerce economics with growth in Walmart+ membership fee revenue from strong net adds including new bundled memberships, and miscellaneous other income benefits; partially offset by expense deleverage",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "같은 번들이 Sam's Club 쪽에는 부담이어서 3분기 영업이익이 5.47억 달러로 15.8% 줄었고, 회사는 이 부담이 FY28 3분기까지 이어질 것이라고 못박았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "Operating income $547M, -15.8%; without fuel $402M, -14.8% • Operating income negatively affected by lapping the breakage income related to unredeemed Sam’s Cash rewards in the prior year, an inflation-related LIFO charge, and allocation impact of the bundled membership ◦ Expect bundled offering to weigh on operating income growth until anniversary in Q3 FY28",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "AI 쇼핑 에이전트 Sparky — 추천·장보기·결제·상담을 대신해 주는 자체 AI 도우미, 멕시코·캐나다·미국 Sam's Club으로 확대 중",
+          "kind": "product",
+          "stage": "출시",
+          "since": "",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "CEO는 멤버십과 AI 에이전트 쇼핑을 매장·배송망의 새로운 활용과 함께 새 성장 기회로 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+                  "date": "2026-11-19",
+                  "quote": "From membership and agentic shopping to new ways of using our stores and delivery network, we’re bringing the best of Walmart together to serve customers better and create new opportunities for growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "키움증권은 미국 월마트에서 Sparky 이용량이 1년 전보다 129% 늘었고 멕시코·캐나다·미국 Sam's Club으로 서비스가 확대됐다고 전했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[월마트 (NAS:WMT)] 외풍(外風)에도 견고한 성장",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzkqkzeqqxxgkgcgxeegk.pdf",
+                  "date": "2026-11-24",
+                  "quote": "실제 미국 Walmart 에서 Sparky 이용량은 YoY +129% 증가하였고, 멕시코, 캐나다, 미국 Sam’s Club 으로도 서비스 출시를 확대하였다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "신한투자증권은 Sparky를 쓰는 고객의 주문금액이 쓰지 않는 고객보다 40% 높고 주간 이용자가 1년 전의 2배로 늘었다고 정리했다 — 다만 회사 공시에는 이 수치가 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[월마트 (NAS:WMT)] AI 에이전트에 가장 잘 대응 중인 리테일러",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkkxixezxcziggcgxeegk.pdf",
+                  "date": "2026-11-12",
+                  "quote": "Al 쇼핑 에이전트 스파키(Sparky)가 추천·장보기·결제·고객 상담까지 처리. 이용 고객의 주문금액은 비이용 고객보다 40% 높고, 주간 활성 이용은 전년 대비 2배 증가",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "회사 스스로 공시 위험 문단에서 AI 기술의 개발·확산에서 비롯되는 경쟁 압력을 실적을 달라지게 할 수 있는 요인으로 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                  "publisher": "월마트 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                  "date": "2026-11-19",
+                  "quote": "initiatives of competitors, competitors' entry into and expansion in our markets, and competitive pressures (including pressures arising from the development and deployment of artificial intelligence technologies)",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33으로 보면 최근 3분기 매출 증가율(5.6%→7.1%→5.9%)과 순이익 증가율(-19.4%→18.8%→-9.4%)은 꾸준히 오르는 흐름이 아니고, 순이익률만 2.2%→3.0%→3.4%로 계속 올랐다. 순이익이 들쭉날쭉한 이유는 영업이 아니라 보유 지분의 평가손익이다 — 회사는 분기 손익 변동이 주로 보유 지분·투자자산의 시가 변동 때문이라고 적었다. 영업 쪽에서 마진을 끌어올린 것은 회사 설명대로 광고 등 고마진 사업의 믹스 개선이고, 2분기에는 여기에 일회성 관세 환급 29억 달러가 더해졌다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "10월에 Walmart+와 Sam's Club Plus를 묶은 연 120달러 통합 멤버십을 새로 내놓았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                "publisher": "월마트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+                "date": "2026-11-19",
+                "quote": "• Launched new membership bundle in the U.S., combining Walmart+ and Sam's Club Plus for $120 annually",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 3분기에 상품군과 소득 계층 전반에서 점유율 확대가 강해졌고 특히 고소득 가구가 이를 이끌었다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "월마트 Q3 FY27 실적 보도자료 (2026-11-19)",
+                "publisher": "월마트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+                "date": "2026-11-19",
+                "quote": "• Sales growth was led by strong share gains and momentum in eCommerce; partially offset by pharmacy deflation • Share gains strengthened across categories and income tiers led by upper-income households",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "신한투자증권은 관세 환급분을 가격 인하에 다시 투입해 식품 점유율이 3년래 가장 크게 늘었다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[월마트 (NAS:WMT)] 한발 앞선 주가",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzilllqzegcligcgxeegk.pdf",
+                "date": "2026-11-23",
+                "quote": "관세 환급을 가격 인하에 재투자해 식품 점유율 3년래 최대 확대.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "신한투자증권 비교표에서 2025년 매출은 월마트 710,102백만 달러로 코스트코 284,016, 크로거 148,164, 타겟 104,891을 크게 앞선다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[월마트 (NAS:WMT)] 한발 앞선 주가",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzilllqzegcligcgxeegk.pdf",
+                "date": "2026-11-23",
+                "quote": "회사명 월마트 코스트코 크로거 타겟 BJ홀세일\n매출액 2025 710,102 284,016 148,164 104,891 21,363",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "경영진은 마진 목표를 설명하며 디지털 광고 같은 고마진 영역으로 사업 생태계를 넓히는 데 초점을 둔다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "월마트 10-Q 경영진 설명 (2026-08-28)",
+                "publisher": "월마트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+                "date": "2026-08-28",
+                "quote": "Additionally, we focus on our mix of businesses, including expanding our ecosystem in higher margin areas, such as digital advertising. Our objective over the long-term is to achieve operating income leverage, which we define as growing operating income at a faster rate than net sales.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "받은 관세 환급금의 상당 부분을 가격 인하에 다시 넣었고 이 기조를 FY27 내내 이어간다고 밝혔다 — 마진보다 점유율을 먼저 사겠다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "월마트 10-Q 경영진 설명 (2026-08-28)",
+                "publisher": "월마트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+                "date": "2026-08-28",
+                "quote": "A significant portion of these refunds was invested into customer-focused initiatives during the current quarter, primarily through price investment and other cost mitigation strategies, with continued prioritization of price investment expected through fiscal 2027.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "경영진은 생산성을 높이고 재고를 관리하며 비용을 줄이기 위해 기술과 공정 개선에 투자한다고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "월마트 10-Q 경영진 설명 (2026-08-28)",
+                "publisher": "월마트 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+                "date": "2026-08-28",
+                "quote": "We invest in technology and process improvements to increase productivity, manage inventory and reduce costs, and we operate with discipline by managing expenses and optimizing the efficiency of how we work.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "대신증권은 월마트가 Symbotic에 60억 달러를 들여 미국 물류센터 25곳을 자동화하기로 했고 이것이 자본지출 가이던스 상향의 구체적 집행 사례라고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[월마트 (NAS:WMT)] [Issue & News] Symbotic과 미국 25개 물류센터 자동화에 약 60억 달러 - 상향한 자본지출의 사용처 공개",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmizxqeqmmlqkigcgxeegk.pdf",
+                "date": "2026-10-30",
+                "quote": "- 월마트, Symbotic에 60억 달러 투입해 美 물류센터 25곳 자동화- 직전 분기 자본지출 가이던스 상향(3.5%→4.0%)의 구체적 집행 사례- 이커머스 성장 뒷받침하나 현금흐름·밸류에이션 부담은 과제로 남아",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "월마트에서 지금 새로운 것은 매장을 배송 거점으로 쓰는 온라인 사업 위에 붙은 광고·마켓플레이스, 그리고 10월에 내놓은 통합 멤버십이다. 3분기 미국 온라인 매출은 1년 전보다 23% 늘어 11개 분기 연속 20% 넘는 성장을 이어갔고, 같은 기간 미국 광고는 37%, 마켓플레이스는 49% 증가했다. 전사 기준으로도 온라인 매출이 17% 늘어 순매출의 24%를 차지한다. 이익에도 흔적이 남았다 — 회사는 3분기 전사 매출총이익률이 28bp(0.28%p) 오른 주된 이유로 미국 사업의 믹스 개선을 들었고, 미국 부문 50bp 상승은 디지털 광고 성장 때문이라고 직접 적었다. 10월에 내놓은 연 120달러짜리 통합 멤버십은 아직 한 달 남짓이지만 미국 부문 멤버십·기타수익이 43% 늘었고, 회사는 미국 영업이익 9.0% 증가 요인의 하나로 통합 멤버십 신규 가입을 꼽았다. AI 쇼핑 에이전트 Sparky는 이용량이 1년 전보다 129% 늘었다는 증권사 집계가 있을 뿐, 매출·이익으로 이어졌다는 회사 숫자는 아직 없다. 전망은 회사가 올려 잡았다 — FY27 순매출 4.9~5.2% 증가, 조정 영업이익 8.0~8.6% 증가다. 꺾을 수 있는 것도 분명하다. 2분기 마진 급등은 29억 달러 관세 환급이 만든 것이라 반복되지 않고, 설비 투자에 따른 감가상각 등으로 3분기 조정 판관비율은 34bp 나빠졌다. 같은 통합 멤버십이 Sam's Club 쪽 영업이익은 15.8% 끌어내렸고 회사는 이 부담이 FY28 3분기까지 이어진다고 밝혔다.",
+      "watch": [
+        "미국 광고(3분기 37%)와 마켓플레이스(49%) 증가율이 다음 분기에도 비슷한 속도를 지키는지 — 매출총이익률 개선의 근거가 바로 이 믹스다",
+        "관세 환급 같은 일회성 없이 매출총이익률이 오르는지, 아니면 가격 인하 재투자로 다시 눌리는지",
+        "통합 멤버십이 Sam's Club 영업이익을 누르는 폭과, 그 사이 Walmart+ 회비 수입 증가가 그것을 넘는지",
+        "4분기에 Flipkart 행사 이연분이 회사 말대로 되돌아와 해외 부문 성장률이 회복되는지",
+        "Sparky 이용 지표가 회사 공시에 매출·주문 금액 기준으로 나오는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고를 찾지 못했고, 3분기(10월 말 기준) 10-Q 경영진 설명이 아직 없어 8월 공시한 10-Q(7월 말 기준)로 대신했다. Sparky 이용 지표는 회사 공시가 아니라 증권사 리포트에만 있다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": [
+          "모든 재무 수치(매출 성장률, 광고 성장 37%, 마켓플레이스 49%, 마진 개선 28bp·50bp, 관세 환급 2.9B달러)가 SEC 공시와 정확히 일치",
+          "통합 멤버십 출시 시기(10월), 가격(120달러), 신규 가입자 지출 증가(80% 이상) 모두 확인",
+          "Sam's Club 영업이익 감소(-15.8%)와 그 사유 명확",
+          "모든 증권사 추정치도 출처 명시"
+        ]
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-24",
+      "asOf": "2026-11-19",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-19)",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningspresentationfy27.htm",
+          "filingDate": "2026-11-19"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-19)",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+          "filingDate": "2026-11-19"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-20)",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningspresentationfy27.htm",
+          "filingDate": "2026-08-20"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-20)",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+          "filingDate": "2026-08-20"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-08-28)",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+          "filingDate": "2026-08-28"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-07-31",
+            "revenueYoy": 5.9,
+            "netIncomeYoy": -9.4,
+            "netMargin": 3.4
+          },
+          {
+            "periodEnd": "2026-04-30",
+            "revenueYoy": 7.1,
+            "netIncomeYoy": 18.8,
+            "netMargin": 3
+          },
+          {
+            "periodEnd": "2026-01-31",
+            "revenueYoy": 5.6,
+            "netIncomeYoy": -19.4,
+            "netMargin": 2.2
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": true
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-07-31",
+          "revenue": 186100000000,
+          "netIncome": 6366000000,
+          "yoy": {
+            "revenue": 5.9,
+            "profit": 28.8,
+            "netIncome": -9.4,
+            "priorEnd": "2025-07-31"
+          }
+        },
+        {
+          "periodEnd": "2026-04-30",
+          "revenue": 175684000000,
+          "netIncome": 5330000000,
+          "yoy": {
+            "revenue": 7.1,
+            "profit": 5,
+            "netIncome": 18.8,
+            "priorEnd": "2025-04-30"
+          }
+        },
+        {
+          "periodEnd": "2026-01-31",
+          "revenue": 188913000000,
+          "netIncome": 4237000000,
+          "yoy": {
+            "revenue": 5.6,
+            "profit": 10.8,
+            "netIncome": -19.4,
+            "priorEnd": "2025-01-31"
+          }
+        },
+        {
+          "periodEnd": "2025-10-31",
+          "revenue": 177769000000,
+          "netIncome": 6143000000,
+          "yoy": {
+            "revenue": 5.8,
+            "profit": -0.2,
+            "netIncome": 34.2,
+            "priorEnd": "2024-10-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 6.7,
+        "saleNy": 4.2,
+        "epsCy": 9.3,
+        "epsNy": 11.87
       }
     }
   }

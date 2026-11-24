@@ -26,6 +26,13 @@
    "publisher": "Zacks"
   },
   {
+   "title": "Are Wall Street Analysts Bullish on Roper Technologies Stock?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-roper-132011410.html",
+   "date": "2026-11-23",
+   "publisher": "Barchart",
+   "via": "Yahoo"
+  },
+  {
    "title": "Can ROP Benefit From Strength in Its Application Software Segment?",
    "url": "https://finance.yahoo.com/markets/stocks/articles/rop-benefit-strength-application-software-144700422.html",
    "date": "2026-11-20",
@@ -49,13 +56,6 @@
   {
    "title": "Is Roche Holding (SWX:ROP) Overvalued After CHMP Backed Gazyva For Lupus?",
    "url": "https://finance.yahoo.com/healthcare/articles/roche-holding-swx-rop-overvalued-211727024.html",
-   "date": "2026-11-16",
-   "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "What Does Roche Holding (SWX:ROP) Gain From Gazyva’s New Kidney And Lupus Progress?",
-   "url": "https://finance.yahoo.com/healthcare/articles/does-roche-holding-swx-rop-191734139.html",
    "date": "2026-11-16",
    "publisher": "Simply Wall St.",
    "via": "Yahoo"
@@ -169,7 +169,7 @@
   "saleNy": 6.29,
   "epsCy": 11.89,
   "epsNy": 9.81,
-  "cyTrend": 0.71,
+  "cyTrend": 0.7,
   "nyTrend": 0.8,
   "newHigh52": false,
   "bbCenterBrk5d": false,

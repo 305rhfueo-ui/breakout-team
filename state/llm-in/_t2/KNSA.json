@@ -1,0 +1,260 @@
+{
+ "ticker": "KNSA",
+ "sector": "Healthcare",
+ "industry": "Drug Manufacturers - Specialty & Generic",
+ "nameKo": "키닉사 파머슈티컬스 인터내셔널",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 54.8,
+  "saleNy": 28.5,
+  "epsCy": 96.33,
+  "epsNy": 38.88,
+  "est": {
+   "cyCur": 1.4725,
+   "cy30": 1.1575,
+   "nyCur": 2.045,
+   "ny30": 1.6175
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    55.36,
+    55.51,
+    64.95
+   ],
+   "ni": [
+    42.62,
+    164.57,
+    "흑자전환"
+   ],
+   "opm": [
+    11.16,
+    13.66,
+    9.78
+   ],
+   "updated": "2026-09-15 06:58:01"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-20",
+   "m3": null,
+   "m6": "2026-11-12"
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 7
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-24",
+  "nameKo": "키닉사 파머슈티컬스 인터내셔널",
+  "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001730430&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 214266000,
+     "profit": 29267000,
+     "netIncome": 22592000,
+     "margin": 13.7,
+     "yoy": {
+      "revenue": 55.5,
+      "profit": 120.5,
+      "netIncome": 164.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 202127000,
+     "profit": 19768000,
+     "netIncome": 14199000,
+     "margin": 9.8,
+     "yoy": {
+      "revenue": 65,
+      "profit": 202.4,
+      "netIncome": 259.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 180855000,
+     "profit": 24021000,
+     "netIncome": 18435000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 61.2,
+      "profit": 348.7,
+      "netIncome": 245.2,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 156797000,
+     "profit": 20160000,
+     "netIncome": 17832000,
+     "margin": 12.9,
+     "yoy": {
+      "revenue": 44.3,
+      "profit": 17330.8,
+      "netIncome": 556.3,
+      "priorEnd": "2024-06-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Kiniksa Pharmaceuticals International, plc (KNSA) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-kiniksa-pharmaceuticals-international-plc-knsa-top-momentum-stock-long-term",
+     "date": "2026-11-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-kiniksa-pharmaceuticals-stock",
+     "date": "2026-11-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Kiniksa Pharmaceuticals International, plc (KNSA) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-kiniksa-pharmaceuticals-international-plc-knsa-strong-momentum-stock",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Kiniksa Pharmaceuticals International Average Price Target Raised 13.15% to $111.62",
+     "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-average-price-target-raised-1315-11162",
+     "date": "2026-11-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Show Me The Money: The $100 Club Beckons For Kiniksa Pharma",
+     "url": "https://www.nasdaq.com/articles/show-me-money-100-club-beckons-kiniksa-pharma",
+     "date": "2026-10-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Kiniksa Pharmaceuticals: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-3-key-takeaways-long-term-investors",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Kiniksa (KNSA) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kiniksa-knsa-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Kiniksa Pharmaceuticals International (KNSA) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-kiniksa-pharmaceuticals-international-knsa-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-22",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000034/knsa-20261017x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000031/knsa-20260728x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000029/knsa-20260529x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000025/knsa-20260521x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000021/knsa-20260430x8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "KNSA",
+  "fetchedAt": "2026-11-24",
+  "source": "한국투자증권 Open API",
+  "per": 100.35,
+  "pbr": 11.76,
+  "eps": 0.98,
+  "bps": 8.39,
+  "shares": 48837000,
+  "marketCapM": 4820,
+  "high52": 99.98,
+  "high52Date": "2026-11-23",
+  "low52": 37.02,
+  "low52Date": "2026-01-15",
+  "last": 98.69,
+  "prevClose": 93.895,
+  "nameKo": "키닉사 파머슈티컬스 인터내셔널",
+  "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
+  "listedOn": "2018-05-23",
+  "exchange": "나스닥",
+  "listedShares": 48837000
+ }
+}

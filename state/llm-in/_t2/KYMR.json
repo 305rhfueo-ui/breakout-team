@@ -50,7 +50,7 @@
   }
  },
  "detail": {
-  "fetchedAt": "2026-11-21",
+  "fetchedAt": "2026-11-24",
   "nameKo": "키메라 테라퓨틱스",
   "nameEn": "KYMERA THERAPEUTICS INC",
   "financials": {
@@ -120,6 +120,24 @@
   "news": {
    "items": [
     {
+     "title": "Kymera Therapeutics, Inc. Announces Results from the BROADEN2 Phase 2b Atopic Dermatitis Trial of KT-621",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-inc-announces-results-broaden2-phase-2b-atopic-dermatitis-trial-kt-621",
+     "date": "2026-11-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621, a First-in-Class, Oral STAT6 Degrader, in Patients with Moderate to Severe Atopic Dermatitis",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-announces-positive-results-broaden2-phase-2b-clinical-trial-kt-621",
+     "date": "2026-11-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
+     "url": "https://www.nasdaq.com/articles/kymeras-kt-621-posts-strong-phase-2-results-eczema-advances-toward-phase-3-stock",
+     "date": "2026-11-23",
+     "publisher": "RTTNews"
+    },
+    {
      "title": "Kymera (KYMR) Q3 2026 Earnings Call Transcript",
      "url": "https://www.nasdaq.com/articles/kymera-kymr-q3-2026-earnings-call-transcript",
      "date": "2026-10-29",
@@ -148,28 +166,31 @@
      "url": "https://www.nasdaq.com/articles/raymond-james-initiates-coverage-kymera-therapeutics-outperform-rating",
      "date": "2026-10-09",
      "publisher": "Fintel"
-    },
-    {
-     "title": "Kymera Therapeutics (KYMR) Up 10.2% Since Last Earnings Report: Can It Continue?",
-     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-102-last-earnings-report-can-it-continue",
-     "date": "2026-09-04",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Can KT-621 Mark a Turning Point for Kymera Therapeutics?",
-     "url": "https://www.nasdaq.com/articles/can-kt-621-mark-turning-point-kymera-therapeutics",
-     "date": "2026-09-03",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Kymera Therapeutics (KYMR) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-q2-2026-earnings-call-transcript",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool"
     }
    ]
   },
   "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526470995/d159818d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526470926/d188151d8k.htm"
+   },
    {
     "form": "8-K",
     "filingDate": "2026-10-29",
@@ -211,24 +232,6 @@
     ],
     "isEarnings": false,
     "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281817/d62555d8k.htm"
-   },
-   {
-    "form": "8-K",
-    "filingDate": "2026-06-24",
-    "itemsKo": [
-     "주주총회 표결"
-    ],
-    "isEarnings": false,
-    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281051/d131538d8k.htm"
-   },
-   {
-    "form": "8-K",
-    "filingDate": "2026-06-08",
-    "itemsKo": [
-     "임원 변동"
-    ],
-    "isEarnings": false,
-    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526261698/d13635d8k.htm"
    }
   ],
   "krReports": {
@@ -239,20 +242,20 @@
  "cnbc": [],
  "kis": {
   "ticker": "KYMR",
-  "fetchedAt": "2026-11-21",
+  "fetchedAt": "2026-11-24",
   "source": "한국투자증권 Open API",
-  "per": 35.57,
-  "pbr": 6.33,
+  "per": 46.38,
+  "pbr": 8.25,
   "eps": 3.24,
   "bps": 18.23,
   "shares": 85371400,
-  "marketCapM": 9844,
-  "high52": 142.92,
-  "high52Date": "2026-11-10",
+  "marketCapM": 12837,
+  "high52": 161.49,
+  "high52Date": "2026-11-23",
   "low52": 63.69,
   "low52Date": "2025-12-02",
-  "last": 115.31,
-  "prevClose": 119.39,
+  "last": 150.37,
+  "prevClose": 115.31,
   "nameKo": "키메라 테라퓨틱스",
   "nameEn": "KYMERA THERAPEUTICS INC",
   "listedOn": "2020-08-19",

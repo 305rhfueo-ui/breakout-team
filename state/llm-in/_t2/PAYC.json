@@ -1,0 +1,260 @@
+{
+ "ticker": "PAYC",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "페이컴 소프트웨어",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 8.02,
+  "saleNy": 7.62,
+  "epsCy": 41.48,
+  "epsNy": 15.72,
+  "est": {
+   "cyCur": 13.07275,
+   "cy30": 12.09672,
+   "nyCur": 15.12766,
+   "ny30": 13.96533
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.84,
+    7.8,
+    10.2
+   ],
+   "ni": [
+    20,
+    11.69,
+    0.26
+   ],
+   "opm": [
+    31.72,
+    36.75,
+    28.88
+   ],
+   "updated": "2026-09-08 10:13:31"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-11-11"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 8
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-24",
+  "nameKo": "페이컴 소프트웨어",
+  "nameEn": "PAYCOM SOFTWARE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590955&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 543800000,
+     "profit": 195800000,
+     "netIncome": 133200000,
+     "margin": 36,
+     "yoy": {
+      "revenue": 10.2,
+      "profit": 73.9,
+      "netIncome": 20.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 531200000,
+     "profit": 168500000,
+     "netIncome": 107400000,
+     "margin": 31.7,
+     "yoy": {
+      "revenue": 9.8,
+      "profit": 50,
+      "netIncome": 20,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 571900000,
+     "profit": 210200000,
+     "netIncome": 155700000,
+     "margin": 36.8,
+     "yoy": {
+      "revenue": 7.8,
+      "profit": 13.6,
+      "netIncome": 11.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 544300000,
+     "profit": 157100000,
+     "netIncome": 113800000,
+     "margin": 28.9,
+     "yoy": {
+      "revenue": 10.2,
+      "profit": 5.8,
+      "netIncome": 0.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Paycom Software (PAYC) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-paycom-software-payc-strong-momentum-stock",
+     "date": "2026-11-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PAYC or NET: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/payc-or-net-which-better-value-stock-right-now",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Paycom (PAYC) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/paycom-payc-upgraded-buy-heres-what-you-should-know",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Paycom Software (PAYC) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-paycom-software-payc-top-value-stock-long-term",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Paycom Software Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/paycom-software-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Paycom (PAYC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/paycom-payc-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Paycom Software, Inc. Reports Third Quarter 2026 Total Revenues of $543.8 million",
+     "url": "https://www.nasdaq.com/articles/paycom-software-inc-reports-third-quarter-2026-total-revenues-5438-million",
+     "date": "2026-11-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Paycom Software (PAYC) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/paycom-software-payc-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526447248/payc-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526443880/payc-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526335105/payc-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526330818/payc-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-09",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526299695/payc-20260708.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526211919/payc-20260504.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "PAYC",
+  "fetchedAt": "2026-11-24",
+  "source": "한국투자증권 Open API",
+  "per": 25.84,
+  "pbr": 18.85,
+  "eps": 9.41,
+  "bps": 12.9,
+  "shares": 45034800,
+  "marketCapM": 10951,
+  "high52": 274.7929,
+  "high52Date": "2026-10-23",
+  "low52": 103.9979,
+  "low52Date": "2026-02-12",
+  "last": 243.17,
+  "prevClose": 241.265,
+  "nameKo": "페이컴 소프트웨어",
+  "nameEn": "PAYCOM SOFTWARE INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 45034800
+ }
+}

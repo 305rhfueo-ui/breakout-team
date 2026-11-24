@@ -14,6 +14,27 @@
    "publisher": "The Motley Fool"
   },
   {
+   "title": "UBS downgrades BILL after Corpay’s $1.1B investment",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-downgrades-bill-corpay-1-192900874.html",
+   "date": "2026-11-23",
+   "publisher": "Proactive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "BILL Holdings (BILL) Just Gave Investors a Billion-Dollar Reason to Cheer",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-just-gave-043940220.html",
+   "date": "2026-11-23",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is BILL Holdings (BILL) Fully Valued After Its $6b Go Private Deal?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-fully-valued-110952400.html",
+   "date": "2026-11-21",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
    "title": "This Payments Stock Is a Triple Threat with Profitability, Momentum, and Robust Growth",
    "url": "https://finance.yahoo.com/markets/stocks/articles/payments-stock-triple-threat-profitability-195003076.html",
    "date": "2026-11-20",
@@ -46,27 +67,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/bill-acquired-tpg-corpay-6-153500999.html",
    "date": "2026-11-20",
    "publisher": "Proactive",
-   "via": "Yahoo"
-  },
-  {
-   "title": "TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
-   "url": "https://finance.yahoo.com/m/e1effaf5-56db-337e-aee9-0feb171792d3/tpg%2C-corpay-to-buy-finance.html",
-   "date": "2026-11-20",
-   "publisher": "The Wall Street Journal",
-   "via": "Yahoo"
-  },
-  {
-   "title": "BILL Holdings to be taken private by TPG and Corpay in $6 billion cash deal",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-taken-private-tpg-233844629.html",
-   "date": "2026-11-19",
-   "publisher": "Investing.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "BILL Enters $6 Billion Deal to Be Acquired by TPG in Partnership With Corpay",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-enters-6-billion-deal-230645432.html",
-   "date": "2026-11-19",
-   "publisher": "MT Newswires",
    "via": "Yahoo"
   }
  ],
@@ -174,12 +174,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 18.27,
-  "saleNy": 8.35,
+  "saleCy": 18.25,
+  "saleNy": 8.31,
   "epsCy": 30.97,
   "epsNy": 13.69,
-  "cyTrend": 2.14,
-  "nyTrend": 1.05,
+  "cyTrend": 2.12,
+  "nyTrend": 0.91,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

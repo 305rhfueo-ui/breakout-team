@@ -1,0 +1,698 @@
+{
+ "ticker": "ORKA",
+ "date": "2026-11-24",
+ "session": "2026-11-20",
+ "source": "list",
+ "plan": {
+  "ticker": "ORKA",
+  "name": "오루카 테라퓨틱스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 95.80999755859375,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 113.24,
+  "stop": 107.42,
+  "distToPivotPct": -12.88,
+  "distToPivotAdr": -2.18,
+  "riskPerSharePct": 5.14,
+  "adrPct": 5.9,
+  "extensionAdr": -0.41,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 17.6,
+   "priorMovePct": 60.6,
+   "higherLows": 0,
+   "contraction": 1.07,
+   "closeRange10Adr": 2.4,
+   "surf10": -0.41,
+   "surf20": -0.19,
+   "slope20": 3.82,
+   "baseLow": 93.3,
+   "lastSwingLow": 93.3
+  },
+  "reasons": [
+   "선행 상승 +61%",
+   "베이스 2.2주",
+   "깊이 17.6%",
+   "✗ 저점 상승 0회",
+   "진폭 1.07배 · 10일 종가폭 2.4 ADR",
+   "✗ 10일선 -0.4 ADR · 20일선 -0.2 ADR",
+   "20일선 기울기 +3.82%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.33159883366206994,
+    "pct": 98.42057761732852
+   },
+   "m3": {
+    "v": 0.14779046215070382,
+    "pct": 67.28339350180505
+   },
+   "m6": {
+    "v": 0.917557005965697,
+    "pct": 98.87184115523465
+   }
+  },
+  "ret1m": 19.54,
+  "ret3m": -0.76,
+  "ret6m": 73.47,
+  "marketCap": "6.50B",
+  "volx": 1.76,
+  "volSurgeWk": 2.54,
+  "high52": 82.94,
+  "newHigh52": false,
+  "adr": 6.42,
+  "div50": 6.31,
+  "div200": 29.06,
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": 40.71,
+  "epsNy": 12.42,
+  "cyTrend": 10.01,
+  "nyTrend": 2.25,
+  "est": {
+   "cyCur": -2.6031,
+   "cy30": -2.36632,
+   "nyCur": -2.92641,
+   "ny30": -2.86212
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자축소"
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:13:40"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-19",
+   "m3": null,
+   "m6": "2026-11-13"
+  },
+  "top2Streak": {
+   "m1": 2,
+   "m3": 0,
+   "m6": 6
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-24",
+  "nameKo": "오루카 테라퓨틱스",
+  "nameEn": "ORUKA THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000907654&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2024-03-31",
+     "derived": false,
+     "revenue": 0,
+     "profit": -2482000,
+     "netIncome": -2009000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -38.2,
+      "netIncome": -49.3,
+      "priorEnd": "2023-03-31"
+     }
+    },
+    {
+     "periodEnd": "2023-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -1590000,
+     "netIncome": -1089000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -2.7,
+      "netIncome": 7.2,
+      "priorEnd": "2022-12-31"
+     }
+    },
+    {
+     "periodEnd": "2023-03-31",
+     "derived": false,
+     "revenue": 0,
+     "profit": -1796000,
+     "netIncome": -1346000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": 45.2,
+      "netIncome": 58.9,
+      "priorEnd": "2022-03-31"
+     }
+    },
+    {
+     "periodEnd": "2022-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -1548000,
+     "netIncome": -1174000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": 72.7,
+      "netIncome": 79.3,
+      "priorEnd": "2021-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027",
+     "url": "https://www.nasdaq.com/articles/oruka-expects-orka-001-52-week-data-december-phase-3-start-planned-2027",
+     "date": "2026-11-10",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study",
+     "url": "https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Oruka's Experimental Drug Shows Strong Skin Clearance In Phase 2 Psoriasis Trial",
+     "url": "https://www.nasdaq.com/articles/orukas-experimental-drug-shows-strong-skin-clearance-phase-2-psoriasis-trial",
+     "date": "2026-10-26",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data",
+     "url": "https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data",
+     "date": "2026-10-26",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Oruka Reports Positive Week 28 Results For ORKA-001 In Plaque Psoriasis; Stock Down",
+     "url": "https://www.nasdaq.com/articles/oruka-reports-positive-week-28-results-orka-001-plaque-psoriasis-stock-down",
+     "date": "2026-09-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "ORKA Stock Up More Than 60% in 3 Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/orka-stock-more-60-3-months-heres-what-you-should-know",
+     "date": "2026-08-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
+     "url": "https://www.nasdaq.com/articles/show-me-money-orka-makes-splash-500-gain-more-catalysts-ahead",
+     "date": "2026-08-21",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-26",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026112281/ea0309594-8k_oruka.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-24",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026093021/ea0302923-8k_oruka.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea0301312-8k_oruka.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026065294/ea0293648-8k_oruka.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026063481/ea0292876-8k_oruka.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026050249/ea0288461-8k_oruka.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "ORKA",
+  "fetchedAt": "2026-11-24",
+  "source": "한국투자증권 Open API",
+  "per": 40.06,
+  "pbr": 5.42,
+  "eps": 2.46,
+  "bps": 18.2,
+  "shares": 67822400,
+  "marketCapM": 6691,
+  "high52": 115.515,
+  "high52Date": "2026-08-19",
+  "low52": 25.23,
+  "low52Date": "2026-01-05",
+  "last": 98.65,
+  "prevClose": 95.81,
+  "nameKo": "오루카 테라퓨틱스",
+  "nameEn": "ORUKA THERAPEUTICS INC",
+  "listedOn": "2024-09-03",
+  "exchange": "나스닥",
+  "listedShares": 67822400
+ },
+ "estimates": {
+  "ticker": "ORKA",
+  "url": "https://finance.yahoo.com/quote/ORKA/analysis/",
+  "fetchedAt": "2026-11-24",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -0.63,
+    "epsLow": -0.79,
+    "epsHigh": -0.41,
+    "epsYearAgo": -0.45,
+    "epsAnalysts": 9,
+    "epsGrowth": -39.2,
+    "epsCur": "USD",
+    "rev": 0,
+    "revAnalysts": 9,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": -0.72,
+    "epsLow": -0.8,
+    "epsHigh": -0.61,
+    "epsYearAgo": -0.45,
+    "epsAnalysts": 5,
+    "epsGrowth": -60.1,
+    "epsCur": "USD",
+    "rev": 0,
+    "revAnalysts": 6,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -2.6,
+    "epsLow": -3.08,
+    "epsHigh": -2.28,
+    "epsYearAgo": -1.85,
+    "epsAnalysts": 9,
+    "epsGrowth": -40.7,
+    "epsCur": "USD",
+    "rev": 0,
+    "revAnalysts": 9,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -2.93,
+    "epsLow": -3.55,
+    "epsHigh": -2.14,
+    "epsYearAgo": -2.6,
+    "epsAnalysts": 9,
+    "epsGrowth": -12.4,
+    "epsCur": "USD",
+    "rev": 0,
+    "revAnalysts": 9,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.63,
+    "d7": -1.3,
+    "d30": -1.3,
+    "d90": -6.8,
+    "ago90": -0.59,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 7
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.72,
+    "d7": 0.5,
+    "d30": 0.5,
+    "d90": -5.9,
+    "ago90": -0.68,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 4
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -2.6,
+    "d7": -10,
+    "d30": -10,
+    "d90": -14,
+    "ago90": -2.28,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 8
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -2.93,
+    "d7": -2.2,
+    "d30": -2.2,
+    "d90": -5.6,
+    "ago90": -2.77,
+    "up7": 0,
+    "up30": 3,
+    "down7": 1,
+    "down30": 6
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -0.63,
+    "estimate": -0.63,
+    "surprisePct": -0.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -0.55,
+    "estimate": -0.5,
+    "surprisePct": -10,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.48,
+    "estimate": -0.54,
+    "surprisePct": 10.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.45,
+    "estimate": -0.62,
+    "surprisePct": 26.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 0,
+   "ptLowered": 0,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-11-10",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 151,
+     "ptPrior": 151
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "Guggenheim",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 200,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "Wedbush",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 165,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-10-19",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 151,
+     "ptPrior": 151
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "Wedbush",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 165,
+     "ptPrior": 165
+    },
+    {
+     "date": "2026-09-24",
+     "firm": "HC Wainwright & Co.",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 120,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "HC Wainwright & Co.",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 120,
+     "ptPrior": 120
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-11",
+   "upcoming": false,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-23",
+  "numbers": {
+   "price": 98.65,
+   "ma20": 99.77,
+   "ma50": 90.18,
+   "ma150": 84.81,
+   "distMA50": 9.4,
+   "periodHigh": 115.52,
+   "pullbackFromHigh": -14.6,
+   "volRatio20": 0.99,
+   "dryUpRatio": 1.02
+  },
+  "last10": [
+   {
+    "d": "2026-11-10",
+    "o": 104.02,
+    "h": 113.24,
+    "l": 102.78,
+    "c": 109.5,
+    "v": 2611600,
+    "clsPos": 64,
+    "gapPct": -0.52
+   },
+   {
+    "d": "2026-11-11",
+    "o": 112.28,
+    "h": 112.42,
+    "l": 106.26,
+    "c": 107.17,
+    "v": 844100,
+    "clsPos": 15,
+    "gapPct": 2.54
+   },
+   {
+    "d": "2026-11-12",
+    "o": 105.1,
+    "h": 107.01,
+    "l": 101.5,
+    "c": 104.99,
+    "v": 1141900,
+    "clsPos": 63,
+    "gapPct": -1.93
+   },
+   {
+    "d": "2026-11-13",
+    "o": 104.28,
+    "h": 106.87,
+    "l": 101.56,
+    "c": 105.35,
+    "v": 679700,
+    "clsPos": 71,
+    "gapPct": -0.68
+   },
+   {
+    "d": "2026-11-16",
+    "o": 104.1,
+    "h": 107.5,
+    "l": 98.89,
+    "c": 99.24,
+    "v": 990000,
+    "clsPos": 4,
+    "gapPct": -1.19
+   },
+   {
+    "d": "2026-11-17",
+    "o": 98.51,
+    "h": 100.77,
+    "l": 95.05,
+    "c": 96.32,
+    "v": 780200,
+    "clsPos": 22,
+    "gapPct": -0.74
+   },
+   {
+    "d": "2026-11-18",
+    "o": 96.31,
+    "h": 99.32,
+    "l": 95.07,
+    "c": 95.74,
+    "v": 521800,
+    "clsPos": 16,
+    "gapPct": -0.01
+   },
+   {
+    "d": "2026-11-19",
+    "o": 96.7,
+    "h": 101.94,
+    "l": 96.11,
+    "c": 97.57,
+    "v": 927100,
+    "clsPos": 25,
+    "gapPct": 1
+   },
+   {
+    "d": "2026-11-20",
+    "o": 95.86,
+    "h": 97.24,
+    "l": 93.3,
+    "c": 95.81,
+    "v": 1977000,
+    "clsPos": 64,
+    "gapPct": -1.75
+   },
+   {
+    "d": "2026-11-23",
+    "o": 98.98,
+    "h": 101.1,
+    "l": 97.61,
+    "c": 98.65,
+    "v": 1023300,
+    "clsPos": 30,
+    "gapPct": 3.31
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ORKA-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ORKA-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 25일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "부분 충족",
+  "headline": "임상 중인 신약 세 가지는 모두 새롭지만 매출은 0 — 숫자로 확인되는 N 은 아직 없다",
+  "researchedOn": "2026-11-07"
+ }
+}

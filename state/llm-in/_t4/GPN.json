@@ -2,6 +2,12 @@
  "ticker": "GPN",
  "news": [
   {
+   "title": "Are Options Traders Betting on a Big Move in Global Payments Stock?",
+   "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-global-payments-stock",
+   "date": "2026-11-23",
+   "publisher": "Zacks"
+  },
+  {
    "title": "What Global Payments (GPN) Said on Its Q3 Earnings Call",
    "url": "https://www.nasdaq.com/articles/what-global-payments-gpn-said-its-q3-earnings-call",
    "date": "2026-11-07",
@@ -44,10 +50,25 @@
    "publisher": "Zacks"
   },
   {
-   "title": "Global Payments Inc. Amends Bylaws to Establish Exclusive Forum and 1 Percent Derivative Ownership Threshold",
-   "url": "https://www.nasdaq.com/articles/global-payments-inc-amends-bylaws-establish-exclusive-forum-and-1-percent-derivative",
-   "date": "2026-11-03",
-   "publisher": "Fintel"
+   "title": "Are Options Traders Betting on a Big Move in Global Payments Stock?",
+   "url": "https://finance.yahoo.com/markets/options/articles/options-traders-betting-big-move-153100154.html",
+   "date": "2026-11-23",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "GTCR considers potential takeover of Global Payments",
+   "url": "https://finance.yahoo.com/news/gtcr-considers-potential-takeover-global-090254381.html",
+   "date": "2026-11-23",
+   "publisher": "Electronic Payments",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Global Payments (GPN) Gets a Potential Lifeline as New Takeover Buzz Heats Up",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-gets-potential-065105957.html",
+   "date": "2026-11-21",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
   },
   {
    "title": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
@@ -73,13 +94,6 @@
   {
    "title": "Market Chatter: Global Payments' Largest Shareholder GTCR Weighs Takeover",
    "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-global-payments-apos-185651112.html",
-   "date": "2026-11-20",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Top Midday Gainers",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-gainers-185224023.html",
    "date": "2026-11-20",
    "publisher": "MT Newswires",
    "via": "Yahoo"
@@ -218,9 +232,9 @@
   "saleCy": 32.56,
   "saleNy": 5.19,
   "epsCy": 11.68,
-  "epsNy": 18.62,
-  "cyTrend": 0.02,
-  "nyTrend": 0.76,
+  "epsNy": 18.82,
+  "cyTrend": 0.04,
+  "nyTrend": 0.74,
   "newHigh52": false,
   "bbCenterBrk5d": true,
   "fs": {

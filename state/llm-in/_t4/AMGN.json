@@ -20,6 +20,27 @@
    "publisher": "Zacks"
   },
   {
+   "title": "AMGEN TO PRESENT AT CITI'S 2026 GLOBAL HEALTHCARE CONFERENCE",
+   "url": "https://finance.yahoo.com/healthcare/articles/amgen-present-citis-2026-global-213000819.html",
+   "date": "2026-11-23",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "AMGEN TO PRESENT AT THE 9TH ANNUAL EVERCORE ISI HEALTHCONX CONFERENCE",
+   "url": "https://finance.yahoo.com/healthcare/articles/amgen-present-9th-annual-evercore-210100903.html",
+   "date": "2026-11-23",
+   "publisher": "PR Newswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Merck Just Raised Its Dividend. These 3 Dow Healthcare Giants Are Paying More",
+   "url": "https://finance.yahoo.com/healthcare/articles/merck-just-raised-dividend-3-180743821.html",
+   "date": "2026-11-22",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  },
+  {
    "title": "Mizuho Adjusts Price Target on Amgen to $388 From $352, Maintains Neutral Rating",
    "url": "https://finance.yahoo.com/markets/stocks/articles/mizuho-adjusts-price-target-amgen-151424578.html",
    "date": "2026-11-20",
@@ -31,34 +52,6 @@
    "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-amgen-inc-130003432.html",
    "date": "2026-11-20",
    "publisher": "Zacks",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Amgen Inc's Dividend Analysis",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/amgen-incs-dividend-analysis-100103406.html",
-   "date": "2026-11-20",
-   "publisher": "GuruFocus.com",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Viridian Therapeutics initiated at 'buy' by Bank of America with $47 price target",
-   "url": "https://finance.yahoo.com/healthcare/articles/viridian-therapeutics-initiated-buy-bank-174800059.html",
-   "date": "2026-11-19",
-   "publisher": "Proactive",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Viridian Therapeutics' Lumvoa Emerging as Rival to Amgen's Tepezza, BofA Securities Says",
-   "url": "https://finance.yahoo.com/healthcare/articles/viridian-therapeutics-apos-lumvoa-emerging-160212227.html",
-   "date": "2026-11-19",
-   "publisher": "MT Newswires",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Amgen (AMGN) Has Advanced MariTide Into Phase 3 Trials",
-   "url": "https://finance.yahoo.com/healthcare/articles/amgen-amgn-advanced-maritide-phase-141953302.html",
-   "date": "2026-11-19",
-   "publisher": "Simply Wall St.",
    "via": "Yahoo"
   }
  ],
@@ -156,12 +149,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 7.45,
+  "saleCy": 7.49,
   "saleNy": 4.54,
-  "epsCy": 7.83,
-  "epsNy": 6.49,
-  "cyTrend": 2.37,
-  "nyTrend": 2.39,
+  "epsCy": 7.84,
+  "epsNy": 6.68,
+  "cyTrend": 2.33,
+  "nyTrend": 2.66,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

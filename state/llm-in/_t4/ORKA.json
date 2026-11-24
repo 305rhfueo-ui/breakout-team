@@ -44,6 +44,13 @@
    "publisher": "RTTNews"
   },
   {
+   "title": "Oruka Therapeutics (ORKA) Stock Looks Pricey After Its 239% Rally",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/oruka-therapeutics-orka-stock-looks-042457879.html",
+   "date": "2026-11-21",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
    "title": "Oruka Therapeutics Insider Sold Shares Worth $1,049,658, According to a Recent SEC Filing",
    "url": "https://finance.yahoo.com/markets/stocks/articles/oruka-therapeutics-insider-sold-shares-084850554.html",
    "date": "2026-11-16",
@@ -55,13 +62,6 @@
    "url": "https://finance.yahoo.com/healthcare/articles/phase-2-psoriasis-results-could-011720152.html",
    "date": "2026-11-11",
    "publisher": "Simply Wall St.",
-   "via": "Yahoo"
-  },
-  {
-   "title": "Oruka Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-   "url": "https://finance.yahoo.com/healthcare/articles/oruka-therapeutics-reports-third-quarter-210400987.html",
-   "date": "2026-11-09",
-   "publisher": "GlobeNewswire",
    "via": "Yahoo"
   }
  ],
@@ -200,10 +200,10 @@
   "targetStatus": false,
   "saleCy": 0,
   "saleNy": 0,
-  "epsCy": 38.97,
-  "epsNy": 11.32,
-  "cyTrend": 8.64,
-  "nyTrend": -0.01,
+  "epsCy": 40.71,
+  "epsNy": 12.42,
+  "cyTrend": 10.01,
+  "nyTrend": 2.25,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

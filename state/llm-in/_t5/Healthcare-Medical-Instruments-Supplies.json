@@ -1,0 +1,603 @@
+{
+ "key": "Healthcare|Medical Instruments & Supplies",
+ "sector": "Healthcare",
+ "industry": "Medical Instruments & Supplies",
+ "industryKo": "의료기구·소모품",
+ "frank": 6,
+ "frank25dChg": 27,
+ "finalWrs": 0.3536,
+ "count": 13,
+ "winRatePct": 92.3,
+ "members": [
+  {
+   "ticker": "BDX",
+   "rs1": 0.2059452340588696,
+   "rs3": 0.2930483987179894,
+   "rs6": 0.6751865319101111,
+   "rnk1": 10.69,
+   "rnk3": 5.01,
+   "rnk6": 2.75,
+   "ret1d": 0.05,
+   "high52": 96.56,
+   "dollarVolM": 417.2,
+   "marketCap": "57.96B",
+   "name": "벡턴 디킨슨"
+  },
+  {
+   "ticker": "MMSI",
+   "rs1": 0.04018086445197963,
+   "rs3": 0.0972774752761228,
+   "rs6": 0.5679320897389005,
+   "rnk1": 65.21,
+   "rnk3": 45.8,
+   "rnk6": 4.74,
+   "ret1d": -0.08,
+   "high52": 88.92,
+   "dollarVolM": 47.3,
+   "marketCap": "5.05B",
+   "name": "메리트 메디컬 시스템스"
+  },
+  {
+   "ticker": "RGEN",
+   "rs1": 0.062061635686349745,
+   "rs3": 0.055258730758861854,
+   "rs6": 0.5351601532856629,
+   "rnk1": 59.25,
+   "rnk3": 56.9,
+   "rnk6": 6.9,
+   "ret1d": -3.81,
+   "high52": 82.37,
+   "dollarVolM": 114.3,
+   "marketCap": "10.47B",
+   "name": "레플리젠"
+  },
+  {
+   "ticker": "ICUI",
+   "rs1": 0.17162520199518802,
+   "rs3": 0.1406176819275042,
+   "rs6": 0.5050064749695472,
+   "rnk1": 20.08,
+   "rnk3": 34.34,
+   "rnk6": 8.71,
+   "ret1d": -1.84,
+   "high52": 89.46,
+   "dollarVolM": 38.5,
+   "marketCap": "4.31B",
+   "name": "ICU 메디컬"
+  },
+  {
+   "ticker": "TFX",
+   "rs1": 0.3243801323863448,
+   "rs3": 0.3312651234024819,
+   "rs6": 0.47901703507702287,
+   "rnk1": 1.76,
+   "rnk3": 3.2,
+   "rnk6": 10.6,
+   "ret1d": -1.11,
+   "high52": 96.9,
+   "dollarVolM": 105.8,
+   "marketCap": "6.41B",
+   "name": "텔레플렉스"
+  },
+  {
+   "ticker": "RMD",
+   "rs1": 0.07066037627614079,
+   "rs3": 0.1575738950852398,
+   "rs6": 0.4789598911366141,
+   "rnk1": 56.72,
+   "rnk3": 29.65,
+   "rnk6": 10.69,
+   "ret1d": -0.53,
+   "high52": 85.79,
+   "dollarVolM": 322.8,
+   "marketCap": "33.14B",
+   "name": "레즈메드"
+  },
+  {
+   "ticker": "ATR",
+   "rs1": 0.24701123663011829,
+   "rs3": 0.21339249843950026,
+   "rs6": 0.4403287132555411,
+   "rnk1": 5.64,
+   "rnk3": 16.74,
+   "rnk6": 13.49,
+   "ret1d": -0.19,
+   "high52": 94.58,
+   "dollarVolM": 121.6,
+   "marketCap": "8.88B",
+   "name": "앱타그룹"
+  },
+  {
+   "ticker": "WST",
+   "rs1": 0.13212447600786026,
+   "rs3": 0.28380371008171523,
+   "rs6": 0.43469632360781363,
+   "rnk1": 32.08,
+   "rnk3": 5.82,
+   "rnk6": 14.12,
+   "ret1d": -1.61,
+   "high52": 89.11,
+   "dollarVolM": 243.4,
+   "marketCap": "27.19B",
+   "name": "웨스트 파마슈티컬 서비시즈"
+  },
+  {
+   "ticker": "SOLV",
+   "rs1": 0.12556069870779837,
+   "rs3": 0.0846383903758096,
+   "rs6": 0.28839823356859706,
+   "rnk1": 35.42,
+   "rnk3": 49.14,
+   "rnk6": 30.37,
+   "ret1d": -1.52,
+   "high52": 89.74,
+   "dollarVolM": 55.6,
+   "marketCap": "14.36B",
+   "name": "솔벤텀"
+  },
+  {
+   "ticker": "UTMD",
+   "rs1": 0.0723595761244734,
+   "rs3": 0.12724747076029247,
+   "rs6": 0.23196135433360138,
+   "rnk1": 56.18,
+   "rnk3": 37.95,
+   "rnk6": 39.85,
+   "ret1d": -2.07,
+   "high52": 90.38,
+   "dollarVolM": 2.2,
+   "marketCap": "0.20B",
+   "name": "유타 메디컬 프라덕츠"
+  },
+  {
+   "ticker": "ISRG",
+   "rs1": 0.018503100198687256,
+   "rs3": 0.2424744216247391,
+   "rs6": 0.17473287792947098,
+   "rnk1": 70.98,
+   "rnk3": 11.33,
+   "rnk6": 50.95,
+   "ret1d": -2.01,
+   "high52": 66.08,
+   "dollarVolM": 1073.5,
+   "marketCap": "138.33B",
+   "name": "인튜이티브 서지컬"
+  },
+  {
+   "ticker": "ALGN",
+   "rs1": 0.14048682327092554,
+   "rs3": 0.1322471289982169,
+   "rs6": 0.11370107734808126,
+   "rnk1": 29.56,
+   "rnk3": 36.69,
+   "rnk6": 61.87,
+   "ret1d": -2.82,
+   "high52": 77.41,
+   "dollarVolM": 202.9,
+   "marketCap": "10.94B",
+   "name": "얼라인 테크놀로지"
+  },
+  {
+   "ticker": "LMAT",
+   "rs1": 0.010748062483625864,
+   "rs3": 0.08235467017791936,
+   "rs6": -0.008685024159705512,
+   "rnk1": 72.79,
+   "rnk3": 49.77,
+   "rnk6": 77.66,
+   "ret1d": -1.67,
+   "high52": 62.93,
+   "dollarVolM": 23.1,
+   "marketCap": "1.68B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "BDX": {
+   "cnbc": [
+    {
+     "title": "Jim Cramer says this is a 'good rule' to follow when stocks double",
+     "url": "https://www.cnbc.com/investingclub/2026/08/06/jim-cramer-says-this-is-a-good-rule-to-follow-when-stocks-double-.html",
+     "date": "2026-08-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "BD CEO Tom Polen sits down with Jim Cramer",
+     "url": "https://www.cnbc.com/video/2026/08/06/bd-ceo-tom-polen-sits-down-with-jim-cramer.html",
+     "date": "2026-08-06",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Becton, Dickinson (BDX) Shares Cross 2% Yield Mark",
+     "url": "https://www.nasdaq.com/articles/becton-dickinson-bdx-shares-cross-2-yield-mark",
+     "date": "2026-11-06",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Becton Dickinson (BDX) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/becton-dickinson-bdx-q4-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Becton Dickinson (BDX) Q4 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-becton-dickinson-bdx-q4-earnings-look-key-metrics",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Becton Dickinson (BDX) Surpasses Q4 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/becton-dickinson-bdx-surpasses-q4-earnings-and-revenue-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "MMSI": {
+   "cnbc": [],
+   "reports": [],
+   "news": []
+  },
+  "RGEN": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Repligen (RGEN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/repligen-rgen-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Repligen (RGEN) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-repligen-rgen-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Repligen (RGEN) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/repligen-rgen-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ICUI": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "3 Reasons Growth Investors Will Love ICU Medical (ICUI)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-icu-medical-icui",
+     "date": "2026-11-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ICU Medical (ICUI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/icu-medical-icui-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ICU Medical (ICUI) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/icu-medical-icui-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ICU Medical (ICUI) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/icu-medical-icui-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ICU Medical (ICUI) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/icu-medical-icui-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "TFX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Teleflex Inc (TFX) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/teleflex-inc-tfx-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Teleflex (TFX) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/teleflex-tfx-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teleflex (TFX) Q3 Earnings Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/teleflex-tfx-q3-earnings-surpass-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TFX or SONVY: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/tfx-or-sonvy-which-better-value-stock-right-now",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "RMD": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "ResMed (RMD) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/resmed-rmd-q1-2027-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ResMed (RMD) Reports Q1 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/resmed-rmd-reports-q1-earnings-what-key-metrics-have-say",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What ResMed (RMD) Said on Its Q1 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-resmed-rmd-said-its-q1-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "ResMed (RMD) Beats Q1 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/resmed-rmd-beats-q1-earnings-and-revenue-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ATR": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Investing in AptarGroup (ATR)? Don't Miss Assessing Its International Revenue Trends",
+     "url": "https://www.nasdaq.com/articles/investing-aptargroup-atr-dont-miss-assessing-its-international-revenue-trends",
+     "date": "2026-11-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Aptar (ATR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/aptar-atr-q3-2026-earnings-call-transcript",
+     "date": "2026-10-31",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What AptarGroup (ATR) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-aptargroup-atr-said-its-q3-earnings-call",
+     "date": "2026-10-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "AptarGroup (ATR) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/aptargroup-atr-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bullish Two Hundred Day Moving Average Cross - ATR",
+     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-atr",
+     "date": "2026-10-22",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "WST": {
+   "cnbc": [
+    {
+     "title": "West Pharma: More than a GLP-1 play. The case for further upside",
+     "url": "https://www.cnbc.com/2026/10/29/west-pharma-earnings-growth-beyond-glp-1.html",
+     "date": "2026-10-29",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "There’s one pharma-linked stock most investors have never heard of. It’s on Josh Brown’s list",
+     "url": "https://www.cnbc.com/2026/10/01/one-pharma-name-most-investors-have-never-heard-of-is-on-josh-browns-list.html",
+     "date": "2026-10-01",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "This stock is more than a way to play GLP-1 boom",
+     "url": "https://www.cnbc.com/2026/08/05/this-glp-1-stock-has-bigger-opportunities-to-boost-its-share-price.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Trade Tracker: Josh Brown's latest portfolio moves",
+     "url": "https://www.cnbc.com/video/2026/11/18/trade-tracker-josh-browns-latest-portfolio-moves.html",
+     "date": "2026-11-18",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Final Trades: JPMorgan, Meta, West Pharmaceutical Services and the iShares U.S. Energy ETF",
+     "url": "https://www.cnbc.com/video/2026/10/13/final-trades-jp-morgan-meta-west-pharmaceutical-services--ishares-us-energy-etf.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Josh Brown's 'Best Stocks in the Market:' West Pharmaceutical Services",
+     "url": "https://www.cnbc.com/video/2026/10/01/josh-browns-best-stocks-in-the-market-west-pharmaceutical-services.html",
+     "date": "2026-10-01",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": []
+  },
+  "SOLV": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Solventum (SOLV) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/solventum-solv-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Solventum (SOLV) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/solventum-solv-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Solventum (SOLV) Tops Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/solventum-solv-tops-q3-earnings-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "UTMD": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "UTMD's Q3 Earnings Rise Y/Y on Lower Costs, Orion Acquisition",
+     "url": "https://www.nasdaq.com/articles/utmds-q3-earnings-rise-y-y-lower-costs-orion-acquisition",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "UTMD Trades at a Premium to the Industry: How to Play the Stock?",
+     "url": "https://www.nasdaq.com/articles/utmd-trades-premium-industry-how-play-stock",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cash Dividend On The Way From Utah Medical Products (UTMD)",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-utah-medical-products-utmd",
+     "date": "2026-06-15",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "ISRG": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: SpaceX, Meta, Super Micro Computer",
+     "url": "https://www.cnbc.com/2026/10/21/stocks-making-the-biggest-moves-midday-spcx-meta-smci-roiv.html",
+     "date": "2026-10-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: SpaceX, Netflix, Dell & more",
+     "url": "https://www.cnbc.com/2026/10/21/stocks-making-the-biggest-moves-premarket-spcx-smci-nflx-more.html",
+     "date": "2026-10-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Intuitive Surgical, Netflix, SpaceX",
+     "url": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-after-hours-isrg-nflx-spcx.html",
+     "date": "2026-10-20",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "We're encouraged by Wednesday's benign inflation data and strong neocloud earnings",
+     "url": "https://www.cnbc.com/2026/08/12/jim-cramer-breaks-down-his-latest-on-nvidias-position-in-the-ai-trade-.html",
+     "date": "2026-08-12",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "How to play the Tuesday move in Intuitive Surgical through options",
+     "url": "https://www.cnbc.com/2026/07/28/how-to-play-the-tuesday-move-in-intuitive-surgical-through-options.html",
+     "date": "2026-07-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "DCLA's Sarat Sethi on buying health care like Stryker and Intuitive Surgical",
+     "url": "https://www.cnbc.com/video/2026/10/27/dclas-sarat-sethi-on-buying-health-care-like-stryker-and-intuitive-surgical.html",
+     "date": "2026-10-27",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[인튜이티브 서지컬 (NAS:ISRG)] [26Q3 Review] 매출 컨센서스 4.9% 상회, 시스템 설치가 견인, 투자의견 적극 매수 상향",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-20",
+     "summary": "- 매출 30.5억달러·EPS 3.00, 컨센 더블 비트- FY26 마진 가이던스 68.7~69.3%로 4연속 상향- 미국 프로시저 10%, 코로나 이후 최저가 변수",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgzkgqcczmkkmgcgxeegk.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[인튜이티브 서지컬 (NAS:ISRG)] [26Q3 Preview] 미국이 식는데 주가는 왜 싸진 걸까, 투자의견 매수 하향",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-12",
+     "summary": "- 3Q 실적은 미국 수술 건수 증가율이 14~15%를 유지하며 둔화가 완만한지 확인이 핵심- 관세 부담과 일회성 환급금 소멸로 이익 눈높이는 낮아졌지만 매출총이익률 가이던스 상향은 긍정적- 밸류에이션은 5년 평균 대비 크게 낮아져 있어 수술 성장 둔화가 제한적이면 재평가 여지",
+     "url": "https://rreport.einfomax.co.kr/report/eqmeqxzkkkeqzqlgcgxeegk.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": []
+  },
+  "ALGN": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Align (ALGN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/align-algn-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Compared to Estimates, Align Technology (ALGN) Q3 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-align-technology-algn-q3-earnings-look-key-metrics",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Align Technology (ALGN) Beats Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/align-technology-algn-beats-q3-earnings-and-revenue-estimates",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[존슨앤드존슨 (XTR:JNJ)] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-13",
+   "summary": "- 매출 254억 달러, 가이던스 4분기 연속 상향- 조정 EPS 2.59달러, 딜 비용에 7.5% 역성장- MedTech +2.5%로 네 분기 연속 감속",
+   "url": "https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxeegk.pdf",
+   "via": "연합인포맥스",
+   "keyword": "의료기기"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}
