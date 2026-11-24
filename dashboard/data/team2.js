@@ -1,7 +1,7 @@
 window.TEAM2_DATA = {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "stats": {
-    "universe": 1109,
+    "universe": 1108,
     "byPeriod": {
       "m1": 22,
       "m3": 22,
@@ -20,8 +20,8 @@ window.TEAM2_DATA = {
     "etfExcluded": [],
     "threshold": 98,
     "siteRankCheck": {
-      "compared": 1109,
-      "mismatch": 16
+      "compared": 1108,
+      "mismatch": 15
     }
   },
   "criteria": {
@@ -34,28 +34,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "MRNA",
       "price": 195,
-      "marketCap": "80.65B",
+      "marketCap": "78.90B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.11072794513761336,
-          "pct": 57.75473399458973
+          "pct": 57.80685920577617
         },
         "m3": {
           "v": 0.5211852466887061,
-          "pct": 99.6844003606853
+          "pct": 99.68411552346569
         },
         "m6": {
           "v": 3.455379406534061,
-          "pct": 99.95491433724075
+          "pct": 99.95487364620939
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 99.95491433724075,
+      "bestPct": 99.95487364620939,
       "adr": 8.29,
       "cyTrend": -13.14,
       "nyTrend": -7.6,
@@ -98,7 +98,7 @@ window.TEAM2_DATA = {
       "epsNy": -39.02,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.09,
       "fs": {
         "sale": [
@@ -128,13 +128,13 @@ window.TEAM2_DATA = {
         "m3": 2,
         "m6": 65
       },
-      "ma150Slope": 24.67,
+      "ma150Slope": 24.49,
       "ta": {
-        "price": 195,
+        "price": 212.08,
         "resistance": 254.48,
         "support": 182.5,
-        "contraction": 0.81,
-        "trend": "mixed"
+        "contraction": 0.71,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -148,9 +148,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -618,7 +618,7 @@ window.TEAM2_DATA = {
       "nameKo": "모더나",
       "nameEn": "MODERNA INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "모더나",
         "nameEn": "MODERNA INC",
         "infomaxCode": "NAS:MRNA",
@@ -929,8 +929,8 @@ window.TEAM2_DATA = {
               "date": "2026-11-09",
               "summary": "- 항암 백신, 흑색종으로 내년 승인 예상, 신장암 임상 2상 결과 발표 예정. 항암제(mRNA-2808) ASH에서 데이터 공개로 종양 부문 경쟁력 입증- 3Q26 매출, Non-GAAP EPS는 각 13.1억달러(+29.2% YoY, +805.5% QoQ), 0.38달러로 컨센서스 상회.- 항암 백신, 흑색종 승인 가시화 및 신장암에서도 성과 가능성. 경쟁사 개 발은 부진해 주도적 입지. 단기 밸류 부담으로 중장기 성장 모멘텀에 집중",
               "pages": "5",
-              "secureId": "eqmkeqmgkelkxezgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeegi.pdf",
+              "secureId": "eqmkeqmgkelkxezgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -940,8 +940,8 @@ window.TEAM2_DATA = {
               "date": "2026-10-28",
               "summary": "- 11월 6일 발표에서는 분기 손익보다 임상 결과의 검증이 더 중요- 머크와 공동 개발한 흑색종 백신 3상 결과로 밸류에이션 기준이 달라졌음- 3분기 매출 컨센서스가 회사 가이던스 산술 범위 상단을 넘어서 있음",
               "pages": "5",
-              "secureId": "eqmieklkkcxggkigcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmieklkkcxggkigcgxeegi.pdf",
+              "secureId": "eqmieklkkcxggkigcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmieklkkcxggkigcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -951,8 +951,8 @@ window.TEAM2_DATA = {
               "date": "2026-10-23",
               "summary": "- 흑색종 백신 3상 전체 데이터 공개, 재발·사망 위험 42% 감소- 모더나 주가 급락, 선반영된 기대에 대한 차익실현 성격- 밸류에이션 부담·다른 암종 확장성 입증이 다음 관찰 변수",
               "pages": "5",
-              "secureId": "eqmgqekxkzgeimzgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeegi.pdf",
+              "secureId": "eqmgqekxkzgeimzgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -962,8 +962,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-28",
               "summary": "- 20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
               "pages": "5",
-              "secureId": "eqlqlqkzlgiexqxgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeegi.pdf",
+              "secureId": "eqlqlqkzlgiexqxgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -973,8 +973,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-26",
               "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
               "pages": "5",
-              "secureId": "eqlqqcexmkclgzegcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxeegi.pdf",
+              "secureId": "eqlqqcexmkclgzegcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -984,8 +984,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-21",
               "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
               "pages": "7",
-              "secureId": "eqlqgxkklglmlgzgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxeegi.pdf",
+              "secureId": "eqlqgxkklglmlgzgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxeegk.pdf",
               "opinion": null
             }
           ],
@@ -1052,20 +1052,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "MRNA",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 24.42,
-        "pbr": 11.51,
+        "per": 26.56,
+        "pbr": 12.52,
         "eps": 7.98,
         "bps": 16.94,
         "shares": 404621000,
-        "marketCapM": 78901,
+        "marketCapM": 85812,
         "high52": 280.8,
         "high52Date": "2026-11-09",
-        "low52": 22.28,
-        "low52Date": "2025-11-21",
-        "last": 195,
-        "prevClose": 199.33,
+        "low52": 23.545,
+        "low52Date": "2025-11-24",
+        "last": 212.08,
+        "prevClose": 195,
         "nameKo": "모더나",
         "nameEn": "MODERNA INC",
         "listedOn": "2018-12-06",
@@ -1075,7 +1075,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "MRNA",
         "url": "https://finance.yahoo.com/quote/MRNA/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -1149,8 +1149,8 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": -2.13,
-            "d7": 0.7,
-            "d30": -22.5,
+            "d7": 0.4,
+            "d30": -14.7,
             "d90": -14.2,
             "ago90": -1.87,
             "up7": 0,
@@ -1163,8 +1163,8 @@ window.TEAM2_DATA = {
             "endDate": "2027-03-31",
             "cur": "USD",
             "now": -1.76,
-            "d7": -6.7,
-            "d30": 5.1,
+            "d7": -1.7,
+            "d30": 5,
             "d90": 5.3,
             "ago90": -1.85,
             "up7": 0,
@@ -1177,10 +1177,10 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": -7.29,
-            "d7": 1.1,
-            "d30": 13.1,
-            "d90": 15,
-            "ago90": -8.58,
+            "d7": 1,
+            "d30": 14.2,
+            "d90": 14.6,
+            "ago90": -8.54,
             "up7": 3,
             "up30": 6,
             "down7": 0,
@@ -1191,10 +1191,10 @@ window.TEAM2_DATA = {
             "endDate": "2027-12-31",
             "cur": "USD",
             "now": -4.45,
-            "d7": -2.5,
-            "d30": 7.6,
-            "d90": 8.6,
-            "ago90": -4.86,
+            "d7": -0.5,
+            "d30": 8.8,
+            "d90": 9.6,
+            "ago90": -4.92,
             "up7": 3,
             "up30": 7,
             "down7": 0,
@@ -1233,12 +1233,12 @@ window.TEAM2_DATA = {
         ],
         "beats": 4,
         "ratings": {
-          "upgrades": 2,
+          "upgrades": 1,
           "downgrades": 3,
           "initiations": 0,
           "ptRaised": 10,
           "ptLowered": 0,
-          "total": 13,
+          "total": 12,
           "recent": [
             {
               "date": "2026-11-17",
@@ -1351,37 +1351,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 280.8,
-        "stop": 264.63,
-        "adrPct": 8.29,
-        "distToPivotPct": -30.56,
-        "distToPivotAdr": -3.69,
-        "riskPerSharePct": 5.76,
-        "extensionAdr": -1.77,
+        "stop": 263.97,
+        "adrPct": 7.94,
+        "distToPivotPct": -24.47,
+        "distToPivotAdr": -3.08,
+        "riskPerSharePct": 5.99,
+        "extensionAdr": -0.35,
         "breakDate": null,
         "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
+          "baseBars": 13,
+          "baseWeeks": 2.6,
           "depthPct": 32.3,
           "priorMovePct": 379.2,
           "higherLows": 0,
-          "contraction": 0.81,
-          "closeRange10Adr": 4.6,
-          "surf10": -1.77,
-          "surf20": -1.87,
-          "slope20": -2.26,
+          "contraction": 0.71,
+          "closeRange10Adr": 3.3,
+          "surf10": -0.35,
+          "surf20": -0.82,
+          "slope20": -1.73,
           "baseLow": 189.98,
           "lastSwingLow": 189.98
         },
         "reasons": [
           "선행 상승 +379%",
-          "베이스 2.4주",
+          "베이스 2.6주",
           "✗ 깊이 32.3%",
           "✗ 저점 상승 0회",
-          "진폭 0.81배 · 10일 종가폭 4.6 ADR",
-          "✗ 10일선 -1.8 ADR · 20일선 -1.9 ADR",
-          "✗ 20일선 기울기 -2.26%"
+          "진폭 0.71배 · 10일 종가폭 3.3 ADR",
+          "✗ 10일선 -0.3 ADR · 20일선 -0.8 ADR",
+          "✗ 20일선 기울기 -1.73%"
         ]
       },
       "checks": {
@@ -1394,27 +1394,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "evidence": "베이스 2.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.81배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.71배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 32.3% · ADR 8.29%의 3.9배 · 선행 상승의 절반 190%"
+            "evidence": "베이스 깊이 32.3% · ADR 7.94%의 4.1배 · 선행 상승의 절반 190%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 195 · 20일선 225.26 · 50일선 207.89 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 212.08 · 20일선 225.92 · 50일선 209.2"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.75배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.81배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -1424,17 +1424,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 280.8까지 -30.56% (-3.69 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 280.8까지 -24.47% (-3.08 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.76% · ADR 8.29%"
+            "evidence": "예비 손절 폭 5.99% · ADR 7.94%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -1461,12 +1461,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.75배(20일 평균 대비) · 오늘 거래대금 0.78배 · 상장주식 405M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.81배(20일 평균 대비) · 오늘 거래대금 0.78배 · 상장주식 405M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 42.25% · 3M 0.32% · 6M 0.05% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 42.19% · 3M 0.32% · 6M 0.05% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -1485,27 +1485,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "INSM",
       "price": 141.3300018310547,
-      "marketCap": "31.69B",
+      "marketCap": "31.01B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.6495464525076894,
-          "pct": 99.95491433724075
+          "pct": 99.95487364620939
         },
         "m3": {
           "v": 0.3196160929375514,
-          "pct": 96.43823264201984
+          "pct": 96.43501805054152
         },
         "m6": {
           "v": 0.5452909142040635,
-          "pct": 94.18394950405771
+          "pct": 94.17870036101083
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 99.95491433724075,
+      "bestPct": 99.95487364620939,
       "adr": 5.67,
       "cyTrend": 2.88,
       "nyTrend": -19.51,
@@ -1548,8 +1548,8 @@ window.TEAM2_DATA = {
       "epsNy": -139.21,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 5.86,
+      "apiCalled": true,
+      "siteRankPct6": 5.87,
       "fs": {
         "sale": [
           296.11,
@@ -1578,11 +1578,11 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -4.21,
+      "ma150Slope": -3.89,
       "ta": {
-        "price": 141.33,
-        "resistance": 142.9,
-        "support": 138.73,
+        "price": 149.09,
+        "resistance": 165.47,
+        "support": 142.99,
         "contraction": 1.36,
         "trend": "mixed"
       },
@@ -1598,9 +1598,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -1941,7 +1941,7 @@ window.TEAM2_DATA = {
       "nameKo": "인스메드",
       "nameEn": "INSMED INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "인스메드",
         "nameEn": "INSMED INC",
         "infomaxCode": "NAS:INSM",
@@ -2027,6 +2027,20 @@ window.TEAM2_DATA = {
           "ticker": "INSM",
           "items": [
             {
+              "title": "Insmed's Stock Rises 21% on Reports of Buyout Interest From Sanofi",
+              "url": "https://www.nasdaq.com/articles/insmeds-stock-rises-21-reports-buyout-interest-sanofi",
+              "date": "2026-11-23",
+              "desc": "INSM's stock jumps on reported buyout interest from Sanofi, as its marketed respiratory drugs and late-stage pipeline strengthen its strategic appeal.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SNY",
+                "INSM",
+                "UTHR"
+              ]
+            },
+            {
               "title": "Insmed Sees BRINSUPRI Reaching $7 Billion in Peak Sales, Expects Cash-Flow Positive Year Ahead",
               "url": "https://www.nasdaq.com/articles/insmed-sees-brinsupri-reaching-7-billion-peak-sales-expects-cash-flow-positive-year-ahead",
               "date": "2026-11-17",
@@ -2094,18 +2108,6 @@ window.TEAM2_DATA = {
               "date": "2026-10-29",
               "desc": "(RTTNews) - Insmed Inc (INSM) revealed Loss for third quarter of -$100.32 million",
               "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "INSM"
-              ]
-            },
-            {
-              "title": "Insmed (INSM) May Report Negative Earnings: Know the Trend Ahead of Next Week's Release",
-              "url": "https://www.nasdaq.com/articles/insmed-insm-may-report-negative-earnings-know-trend-ahead-next-weeks-release",
-              "date": "2026-10-22",
-              "desc": "Insmed (INSM) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
-              "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
@@ -2247,20 +2249,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "INSM",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 34.43,
-        "pbr": 40.73,
+        "per": 36.32,
+        "pbr": 42.96,
         "eps": 4.11,
         "bps": 3.47,
         "shares": 219380000,
-        "marketCapM": 31005,
+        "marketCapM": 32707,
         "high52": 212.75,
         "high52Date": "2025-12-02",
         "low52": 90.39,
         "low52Date": "2026-06-10",
-        "last": 141.33,
-        "prevClose": 144.46,
+        "last": 149.09,
+        "prevClose": 141.33,
         "nameKo": "인스메드",
         "nameEn": "INSMED INC",
         "listedOn": null,
@@ -2270,7 +2272,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "INSM",
         "url": "https://finance.yahoo.com/quote/INSM/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -2283,7 +2285,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 17,
             "epsGrowth": 78.4,
             "epsCur": "USD",
-            "rev": 604353460,
+            "rev": 604351990,
             "revAnalysts": 19,
             "revYearAgo": 263843000,
             "revGrowth": 129.1,
@@ -2315,7 +2317,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 17,
             "epsGrowth": 74.5,
             "epsCur": "USD",
-            "rev": 1861138440,
+            "rev": 1861137390,
             "revAnalysts": 21,
             "revYearAgo": 606423000,
             "revGrowth": 206.9,
@@ -2331,9 +2333,9 @@ window.TEAM2_DATA = {
             "epsAnalysts": 18,
             "epsGrowth": 139.2,
             "epsCur": "USD",
-            "rev": 2990480210,
+            "rev": 2990478400,
             "revAnalysts": 21,
-            "revYearAgo": 1861138440,
+            "revYearAgo": 1861137390,
             "revGrowth": 60.7,
             "revCur": "USD"
           }
@@ -2387,9 +2389,9 @@ window.TEAM2_DATA = {
             "cur": "USD",
             "now": 0.64,
             "d7": -2.5,
-            "d30": -19.5,
-            "d90": -10.8,
-            "ago90": 0.72,
+            "d30": -19.3,
+            "d90": -20,
+            "ago90": 0.8,
             "up7": 5,
             "up30": 6,
             "down7": 8,
@@ -2433,8 +2435,18 @@ window.TEAM2_DATA = {
           "initiations": 0,
           "ptRaised": 0,
           "ptLowered": 4,
-          "total": 6,
+          "total": 7,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "RBC Capital",
+              "action": "reit",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Maintains",
+              "pt": 195,
+              "ptPrior": 195
+            },
             {
               "date": "2026-11-02",
               "firm": "Guggenheim",
@@ -2506,9 +2518,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 5.67,
-        "extensionAdr": 2.09,
+        "asOf": "2026-11-23",
+        "adrPct": 5.85,
+        "extensionAdr": 2.43,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -2540,12 +2552,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 141.33 · 20일선 115.11 · 50일선 111.09"
+            "evidence": "종가 149.09 · 20일선 117.9 · 50일선 111.57"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.24배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.33배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -2565,7 +2577,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "미충족",
-            "evidence": "10일선 위 2.1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 2.4 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -2592,7 +2604,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.24배(20일 평균 대비) · 오늘 거래대금 1.69배 · 상장주식 219M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.33배(20일 평균 대비) · 오늘 거래대금 1.69배 · 상장주식 219M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -2616,31 +2628,31 @@ window.TEAM2_DATA = {
     {
       "ticker": "KOD",
       "price": 97.16999816894531,
-      "marketCap": "6.40B",
+      "marketCap": "6.35B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.24508207152349243,
-          "pct": 94.09377817853922
+          "pct": 94.08844765342961
         },
         "m3": {
           "v": 1.6392478558699661,
-          "pct": 99.95491433724075
+          "pct": 99.95487364620939
         },
         "m6": {
           "v": 2.1078564174407415,
-          "pct": 99.86474301172227
+          "pct": 99.86462093862815
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 99.95491433724075,
+      "bestPct": 99.95487364620939,
       "adr": 6.69,
       "cyTrend": 0.49,
-      "nyTrend": 1.79,
+      "nyTrend": 1.8,
       "upCount": 6,
       "downCount": 2,
       "upDownRatio": 75,
@@ -2671,7 +2683,7 @@ window.TEAM2_DATA = {
       "est": {
         "cyCur": -4.00042,
         "cy30": -3.98086,
-        "nyCur": -3.49705,
+        "nyCur": -3.49733,
         "ny30": -3.43556
       },
       "saleCy": 0,
@@ -2680,7 +2692,7 @@ window.TEAM2_DATA = {
       "epsNy": -12.58,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.18,
       "fs": null,
       "top2Since": {
@@ -2693,12 +2705,12 @@ window.TEAM2_DATA = {
         "m3": 30,
         "m6": 18
       },
-      "ma150Slope": 18.02,
+      "ma150Slope": 17.73,
       "ta": {
-        "price": 97.17,
-        "resistance": 103.27,
+        "price": 105.53,
+        "resistance": 112.79,
         "support": 90.5,
-        "contraction": 1.05,
+        "contraction": 0.96,
         "trend": "up"
       },
       "top2Gaps": {
@@ -2713,9 +2725,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -3346,20 +3358,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "KOD",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 23.17,
-        "pbr": 99.93,
+        "per": 25.17,
+        "pbr": 108.53,
         "eps": 4.19,
         "bps": 0.97,
         "shares": 65395600,
-        "marketCapM": 6354,
+        "marketCapM": 6901,
         "high52": 112.79,
         "high52Date": "2026-11-13",
-        "low52": 19.25,
-        "low52Date": "2025-11-21",
-        "last": 97.17,
-        "prevClose": 97.9,
+        "low52": 20.38,
+        "low52Date": "2025-11-24",
+        "last": 105.53,
+        "prevClose": 97.17,
         "nameKo": "코디악 사이언시스",
         "nameEn": "KODIAK SCIENCES INC",
         "listedOn": "2018-10-03",
@@ -3369,7 +3381,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "KOD",
         "url": "https://finance.yahoo.com/quote/KOD/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -3614,38 +3626,38 @@ window.TEAM2_DATA = {
       },
       "setup": {
         "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-20",
+        "grade": "A",
+        "asOf": "2026-11-23",
         "pivot": 112.79,
-        "stop": 106.29,
-        "adrPct": 6.69,
-        "distToPivotPct": -13.85,
-        "distToPivotAdr": -2.07,
-        "riskPerSharePct": 5.77,
-        "extensionAdr": -0.96,
+        "stop": 105.67,
+        "adrPct": 6.75,
+        "distToPivotPct": -6.44,
+        "distToPivotAdr": -0.95,
+        "riskPerSharePct": 6.32,
+        "extensionAdr": 0.32,
         "breakDate": null,
         "metrics": {
-          "baseBars": 10,
-          "baseWeeks": 2,
+          "baseBars": 11,
+          "baseWeeks": 2.2,
           "depthPct": 19.3,
           "priorMovePct": 278.4,
           "higherLows": 1,
-          "contraction": 1.05,
-          "closeRange10Adr": 2.2,
-          "surf10": -0.96,
-          "surf20": -0.41,
-          "slope20": 2.3,
+          "contraction": 0.96,
+          "closeRange10Adr": 2,
+          "surf10": 0.32,
+          "surf20": 0.68,
+          "slope20": 2.63,
           "baseLow": 91,
           "lastSwingLow": 94.62
         },
         "reasons": [
           "선행 상승 +278%",
-          "베이스 2주",
+          "베이스 2.2주",
           "깊이 19.3%",
           "저점 상승 1회",
-          "진폭 1.05배 · 10일 종가폭 2.2 ADR",
-          "✗ 10일선 -1 ADR · 20일선 -0.4 ADR",
-          "20일선 기울기 +2.3%"
+          "진폭 0.96배 · 10일 종가폭 2 ADR",
+          "10일선 +0.3 ADR · 20일선 +0.7 ADR",
+          "20일선 기울기 +2.63%"
         ]
       },
       "checks": {
@@ -3658,22 +3670,22 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2주 · 기준 2~8주"
+            "evidence": "베이스 2.2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.05배(1 미만이면 좁아짐)"
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.96배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 19.3% · ADR 6.69%의 2.9배 · 선행 상승의 절반 139%"
+            "evidence": "베이스 깊이 19.3% · ADR 6.75%의 2.9배 · 선행 상승의 절반 139%"
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 97.17 · 20일선 99.86 · 50일선 83.13"
+            "status": "충족",
+            "evidence": "종가 105.53 · 20일선 100.66 · 50일선 84.58"
           },
           {
             "item": "거래량 마름",
@@ -3687,18 +3699,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 112.79까지 -13.85% (-2.07 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 112.79까지 -6.44% (-0.95 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.77% · ADR 6.69%"
+            "evidence": "예비 손절 폭 6.32% · ADR 6.75%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -3749,28 +3761,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "ECO",
       "price": 84.83000183105469,
-      "marketCap": "3.24B",
+      "marketCap": "3.31B",
       "sector": "Industrials",
       "industry": "Marine Shipping",
       "rs": {
         "m1": {
           "v": 0.11416551292136434,
-          "pct": 59.37781785392245
+          "pct": 59.431407942238266
         },
         "m3": {
           "v": 0.5518133628736163,
-          "pct": 99.86474301172227
+          "pct": 99.86462093862815
         },
         "m6": {
           "v": 1.280792078929694,
-          "pct": 99.6844003606853
+          "pct": 99.68411552346569
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 99.86474301172227,
+      "bestPct": 99.86462093862815,
       "adr": 4.65,
       "cyTrend": 83.76,
       "nyTrend": 111.47,
@@ -3808,12 +3820,12 @@ window.TEAM2_DATA = {
         "ny30": 5.93
       },
       "saleCy": 387.8,
-      "saleNy": -50.44,
+      "saleNy": -46.67,
       "epsCy": 647.21,
       "epsNy": -55.48,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.36,
       "fs": {
         "sale": [
@@ -3843,12 +3855,12 @@ window.TEAM2_DATA = {
         "m3": 8,
         "m6": 7
       },
-      "ma150Slope": 8.26,
+      "ma150Slope": 7.99,
       "ta": {
-        "price": 84.83,
+        "price": 78.69,
         "resistance": 87.31,
-        "support": 78.5,
-        "contraction": 0.84,
+        "support": 75.56,
+        "contraction": 0.76,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -3863,10 +3875,10 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0503,
-        "m3": 0.1322,
-        "m6": 0.3565,
-        "rankPct6": 19.55,
+        "m1": 0.0506,
+        "m3": 0.1347,
+        "m6": 0.3622,
+        "rankPct6": 18.05,
         "count": 6
       },
       "research": {
@@ -4266,7 +4278,7 @@ window.TEAM2_DATA = {
       "nameKo": "오케아니스 에코 탱커스",
       "nameEn": "OKEANIS ECO TANKERS CORP",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "오케아니스 에코 탱커스",
         "nameEn": "OKEANIS ECO TANKERS CORP",
         "infomaxCode": "NYS:ECO",
@@ -4399,20 +4411,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "ECO",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 7.91,
-        "pbr": 3.77,
+        "per": 7.34,
+        "pbr": 3.5,
         "eps": 10.72,
         "bps": 22.47,
         "shares": 39044655,
-        "marketCapM": 3312,
-        "high52": 102.56,
+        "marketCapM": 3072,
+        "high52": 94.097,
         "high52Date": "2026-10-29",
-        "low52": 27.2119,
+        "low52": 24.9664,
         "low52Date": "2026-01-02",
-        "last": 84.83,
-        "prevClose": 83.02,
+        "last": 78.69,
+        "prevClose": 77.83,
         "nameKo": "오케아니스 에코 탱커스",
         "nameEn": "OKEANIS ECO TANKERS CORP",
         "listedOn": "2023-12-11",
@@ -4422,21 +4434,21 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ECO",
         "url": "https://finance.yahoo.com/quote/ECO/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 12.26,
+            "eps": 12.89,
             "epsLow": 3.69,
             "epsHigh": 3.69,
             "epsYearAgo": 1.78,
             "epsAnalysts": 1,
             "epsGrowth": "n/m",
             "epsCur": "USD",
-            "rev": 558243190,
-            "revAnalysts": 3,
+            "rev": 561432390,
+            "revAnalysts": 4,
             "revYearAgo": 92899920,
             "revGrowth": "n/m",
             "revCur": "USD"
@@ -4460,11 +4472,11 @@ window.TEAM2_DATA = {
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 28.17,
+            "eps": 28.82,
             "epsLow": 28.17,
-            "epsHigh": 28.17,
+            "epsHigh": 29.46,
             "epsYearAgo": 3.77,
-            "epsAnalysts": 1,
+            "epsAnalysts": 2,
             "epsGrowth": "n/m",
             "epsCur": "USD",
             "rev": 1294697930,
@@ -4476,12 +4488,12 @@ window.TEAM2_DATA = {
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 12.54,
-            "epsLow": 12.54,
+            "eps": 11.69,
+            "epsLow": 10.83,
             "epsHigh": 12.54,
-            "epsYearAgo": 28.17,
-            "epsAnalysts": 1,
-            "epsGrowth": -55.5,
+            "epsYearAgo": 28.82,
+            "epsAnalysts": 2,
+            "epsGrowth": -59.4,
             "epsCur": "USD",
             "rev": 690522750,
             "revAnalysts": 4,
@@ -4523,10 +4535,10 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 28.17,
-            "d7": 83.8,
-            "d30": 83.8,
-            "d90": 83.8,
+            "now": 28.82,
+            "d7": 2.3,
+            "d30": 88,
+            "d90": 88,
             "ago90": 15.33,
             "up7": 1,
             "up30": 1,
@@ -4537,10 +4549,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 12.54,
-            "d7": 111.5,
-            "d30": 111.5,
-            "d90": 111.5,
+            "now": 11.69,
+            "d7": -6.8,
+            "d30": 97,
+            "d90": 97,
             "ago90": 5.93,
             "up7": 1,
             "up30": 1,
@@ -4611,37 +4623,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 102.56,
-        "stop": 98.62,
-        "adrPct": 4.65,
-        "distToPivotPct": -17.29,
-        "distToPivotAdr": -3.72,
-        "riskPerSharePct": 3.84,
-        "extensionAdr": 0.05,
+        "stop": 98.86,
+        "adrPct": 4.7,
+        "distToPivotPct": -23.27,
+        "distToPivotAdr": -4.95,
+        "riskPerSharePct": 3.61,
+        "extensionAdr": -1.52,
         "breakDate": null,
         "metrics": {
-          "baseBars": 20,
-          "baseWeeks": 4,
-          "depthPct": 23.5,
-          "priorMovePct": 77.6,
+          "baseBars": 18,
+          "baseWeeks": 3.6,
+          "depthPct": 23.8,
+          "priorMovePct": 73.2,
           "higherLows": 0,
-          "contraction": 0.84,
-          "closeRange10Adr": 1.8,
-          "surf10": 0.05,
-          "surf20": -0.96,
-          "slope20": -1.82,
-          "baseLow": 78.5,
+          "contraction": 0.76,
+          "closeRange10Adr": 2.7,
+          "surf10": -1.52,
+          "surf20": -2.43,
+          "slope20": -2.6,
+          "baseLow": 78.13,
           "lastSwingLow": 78.5
         },
         "reasons": [
-          "선행 상승 +78%",
-          "베이스 4주",
-          "깊이 23.5%",
+          "선행 상승 +73%",
+          "베이스 3.6주",
+          "깊이 23.8%",
           "✗ 저점 상승 0회",
-          "진폭 0.84배 · 10일 종가폭 1.8 ADR",
-          "✗ 10일선 +0 ADR · 20일선 -1 ADR",
-          "✗ 20일선 기울기 -1.82%"
+          "진폭 0.76배 · 10일 종가폭 2.7 ADR",
+          "✗ 10일선 -1.5 ADR · 20일선 -2.4 ADR",
+          "✗ 20일선 기울기 -2.6%"
         ]
       },
       "checks": {
@@ -4649,32 +4661,32 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "선행 상승 78% · 기준 30%↑"
+            "evidence": "선행 상승 73% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 4주 · 기준 2~8주"
+            "evidence": "베이스 3.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.84배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.76배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 23.5% · ADR 4.65%의 5.1배 · 선행 상승의 절반 39%"
+            "evidence": "베이스 깊이 23.8% · ADR 4.7%의 5.1배 · 선행 상승의 절반 37%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 84.83 · 20일선 88.61 · 50일선 87.5 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 78.69 · 20일선 87.7 · 50일선 87.48 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.84배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.78배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -4684,17 +4696,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 102.56까지 -17.29% (-3.72 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 102.56까지 -23.27% (-4.95 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.84% · ADR 4.65%"
+            "evidence": "예비 손절 폭 3.61% · ADR 4.7%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -1.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -4721,12 +4733,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.84배(20일 평균 대비) · 오늘 거래대금 0.87배(상승일) · 상장주식 39M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.78배(20일 평균 대비) · 오늘 거래대금 0.87배(상승일) · 상장주식 39M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 40.62% · 3M 0.14% · 6M 0.32% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 40.57% · 3M 0.14% · 6M 0.32% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -4745,30 +4757,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "ALGT",
       "price": 91.20999908447266,
-      "marketCap": "2.65B",
+      "marketCap": "2.49B",
       "sector": "Industrials",
       "industry": "Airlines",
       "rs": {
         "m1": {
           "v": 0.4840798913863435,
-          "pct": 99.86474301172227
+          "pct": 99.86462093862815
         },
         "m3": {
           "v": 0.2910762216929725,
-          "pct": 94.8151487826871
+          "pct": 94.81046931407943
         },
         "m6": {
           "v": 0.2231901306331924,
-          "pct": 57.84490532010821
+          "pct": 57.80685920577617
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 99.86474301172227,
+      "bestPct": 99.86462093862815,
       "adr": 5.86,
-      "cyTrend": 20.46,
-      "nyTrend": 8.67,
+      "cyTrend": 23.71,
+      "nyTrend": 9.83,
       "upCount": 5,
       "downCount": 25,
       "upDownRatio": 16.67,
@@ -4797,19 +4809,19 @@ window.TEAM2_DATA = {
       "clsPos": 9.58,
       "targetStatus": true,
       "est": {
-        "cyCur": 6.63114,
+        "cyCur": 6.80971,
         "cy30": 5.50467,
-        "nyCur": 10.69929,
+        "nyCur": 10.81357,
         "ny30": 9.84593
       },
       "saleCy": 45.71,
-      "saleNy": 19.57,
-      "epsCy": 74.5,
-      "epsNy": 61.35,
+      "saleNy": 19.95,
+      "epsCy": 79.2,
+      "epsNy": 58.8,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 42.2,
+      "apiCalled": true,
+      "siteRankPct6": 42.24,
       "fs": {
         "sale": [
           36.86,
@@ -4838,12 +4850,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 0.19,
+      "ma150Slope": 0.39,
       "ta": {
-        "price": 91.21,
-        "resistance": 93,
+        "price": 97.35,
+        "resistance": 98.7,
         "support": 90.71,
-        "contraction": 1.18,
+        "contraction": 1.2,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -4858,9 +4870,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1769,
+        "m1": 0.1767,
         "m3": 0.1155,
-        "m6": 0.1619,
+        "m6": 0.162,
         "rankPct6": 56.39,
         "count": 5
       },
@@ -5251,7 +5263,7 @@ window.TEAM2_DATA = {
       "nameKo": "얼리전트 트래블",
       "nameEn": "ALLEGIANT TRAVEL COMPANY",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "얼리전트 트래블",
         "nameEn": "ALLEGIANT TRAVEL COMPANY",
         "infomaxCode": "NAS:ALGT",
@@ -5549,20 +5561,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "ALGT",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 64.84,
-        "pbr": 1.4,
+        "per": 69.2,
+        "pbr": 1.5,
         "eps": 1.41,
         "bps": 65.01,
         "shares": 27307500,
-        "marketCapM": 2491,
+        "marketCapM": 2658,
         "high52": 123.63,
         "high52Date": "2026-07-02",
-        "low52": 61.36,
-        "low52Date": "2025-11-20",
-        "last": 91.21,
-        "prevClose": 97.07,
+        "low52": 64.61,
+        "low52Date": "2025-11-24",
+        "last": 97.35,
+        "prevClose": 91.21,
         "nameKo": "얼리전트 트래블",
         "nameEn": "ALLEGIANT TRAVEL COMPANY",
         "listedOn": null,
@@ -5572,7 +5584,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ALGT",
         "url": "https://finance.yahoo.com/quote/ALGT/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -5798,37 +5810,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "A",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 98.7,
-        "stop": 93.35,
-        "adrPct": 5.86,
-        "distToPivotPct": -7.59,
-        "distToPivotAdr": -1.29,
-        "riskPerSharePct": 5.42,
-        "extensionAdr": -0.56,
+        "stop": 92.74,
+        "adrPct": 6.12,
+        "distToPivotPct": -1.37,
+        "distToPivotAdr": -0.22,
+        "riskPerSharePct": 6.04,
+        "extensionAdr": 0.53,
         "breakDate": null,
         "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
+          "baseBars": 12,
+          "baseWeeks": 2.4,
           "depthPct": 16.3,
           "priorMovePct": 51.6,
           "higherLows": 1,
-          "contraction": 1.18,
-          "closeRange10Adr": 1.2,
-          "surf10": -0.56,
-          "surf20": 1.04,
-          "slope20": 7.91,
+          "contraction": 1.2,
+          "closeRange10Adr": 1.1,
+          "surf10": 0.53,
+          "surf20": 1.73,
+          "slope20": 7.81,
           "baseLow": 82.66,
-          "lastSwingLow": 82.66
+          "lastSwingLow": 89.01
         },
         "reasons": [
           "선행 상승 +52%",
-          "베이스 2.2주",
+          "베이스 2.4주",
           "깊이 16.3%",
           "저점 상승 1회",
-          "진폭 1.18배 · 10일 종가폭 1.2 ADR",
-          "10일선 -0.6 ADR · 20일선 +1 ADR",
-          "20일선 기울기 +7.91%"
+          "진폭 1.2배 · 10일 종가폭 1.1 ADR",
+          "10일선 +0.5 ADR · 20일선 +1.7 ADR",
+          "20일선 기울기 +7.81%"
         ]
       },
       "checks": {
@@ -5841,27 +5853,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
+            "evidence": "베이스 2.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.18배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 1.2배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 16.3% · ADR 5.86%의 2.8배 · 선행 상승의 절반 26%"
+            "evidence": "베이스 깊이 16.3% · ADR 6.12%의 2.7배 · 선행 상승의 절반 26%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 91.21 · 20일선 85.63 · 50일선 79.19"
+            "evidence": "종가 97.35 · 20일선 87.07 · 50일선 79.56"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.94배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.99배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -5870,18 +5882,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 98.7까지 -7.59% (-1.29 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 98.7까지 -1.37% (-0.22 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.42% · ADR 5.86%"
+            "evidence": "예비 손절 폭 6.04% · ADR 6.12%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.6 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -5908,12 +5920,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.94배(20일 평균 대비) · 오늘 거래대금 0.86배 · 상장주식 27M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.99배(20일 평균 대비) · 오늘 거래대금 0.86배 · 상장주식 27M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.14% · 3M 5.18% · 6M 42.16% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.14% · 3M 5.19% · 6M 42.19% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -5932,21 +5944,21 @@ window.TEAM2_DATA = {
     {
       "ticker": "GKOS",
       "price": 237.30999755859375,
-      "marketCap": "14.09B",
+      "marketCap": "14.05B",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "rs": {
         "m1": {
           "v": 0.46285874130165305,
-          "pct": 99.6844003606853
+          "pct": 99.68411552346569
         },
         "m3": {
           "v": 0.45989829381895353,
-          "pct": 99.32371505861136
+          "pct": 99.32310469314079
         },
         "m6": {
           "v": 1.3249851056473654,
-          "pct": 99.77457168620379
+          "pct": 99.77436823104694
         }
       },
       "qualifiedBy": [
@@ -5954,7 +5966,7 @@ window.TEAM2_DATA = {
         "3mo",
         "6mo"
       ],
-      "bestPct": 99.77457168620379,
+      "bestPct": 99.77436823104694,
       "adr": 5.77,
       "cyTrend": -314.72,
       "nyTrend": 167.8,
@@ -5997,7 +6009,7 @@ window.TEAM2_DATA = {
       "epsNy": 119.17,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.27,
       "fs": {
         "sale": [
@@ -6027,12 +6039,12 @@ window.TEAM2_DATA = {
         "m3": 8,
         "m6": 7
       },
-      "ma150Slope": 10.41,
+      "ma150Slope": 10.63,
       "ta": {
-        "price": 237.31,
+        "price": 249.59,
         "resistance": 255.18,
         "support": 175.04,
-        "contraction": 0.59,
+        "contraction": 0.54,
         "trend": "up"
       },
       "top2Gaps": {
@@ -6047,8 +6059,8 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1643,
-        "m3": 0.1654,
+        "m1": 0.1645,
+        "m3": 0.1657,
         "m6": 0.4058,
         "rankPct6": 11.28,
         "count": 23
@@ -6428,7 +6440,7 @@ window.TEAM2_DATA = {
       "nameKo": "글라우코스",
       "nameEn": "GLAUKOS CORPORATION",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "글라우코스",
         "nameEn": "GLAUKOS CORPORATION",
         "infomaxCode": "NYS:GKOS",
@@ -6512,9 +6524,23 @@ window.TEAM2_DATA = {
         "news": {
           "ok": true,
           "ticker": "GKOS",
-          "items": [],
-          "directCount": 0,
-          "total": 0,
+          "items": [
+            {
+              "title": "Glaukos: 3 Key Takeaways for Long-Term Investors",
+              "url": "https://www.nasdaq.com/articles/glaukos-3-key-takeaways-long-term-investors",
+              "date": "2026-11-23",
+              "desc": "Key PointsGlaukos raised full year 2026 net sales guidance to $775 million.",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "GKOS",
+                "GKOS"
+              ]
+            }
+          ],
+          "directCount": 1,
+          "total": 1,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -6626,20 +6652,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "GKOS",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 72.79,
-        "pbr": 20.47,
+        "per": 76.55,
+        "pbr": 21.52,
         "eps": 3.26,
         "bps": 11.6,
         "shares": 59196900,
-        "marketCapM": 14048,
+        "marketCapM": 14775,
         "high52": 255.185,
         "high52Date": "2026-11-04",
-        "low52": 93.775,
-        "low52Date": "2025-11-21",
-        "last": 237.31,
-        "prevClose": 238.1,
+        "low52": 93.96,
+        "low52Date": "2026-01-14",
+        "last": 249.59,
+        "prevClose": 237.31,
         "nameKo": "글라우코스",
         "nameEn": "GLAUKOS CORPORATION",
         "listedOn": null,
@@ -6649,7 +6675,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "GKOS",
         "url": "https://finance.yahoo.com/quote/GKOS/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -6925,37 +6951,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "A",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 255.18,
-        "stop": 241.5,
-        "adrPct": 5.77,
-        "distToPivotPct": -7,
-        "distToPivotAdr": -1.21,
-        "riskPerSharePct": 5.36,
-        "extensionAdr": -0.27,
+        "stop": 240.67,
+        "adrPct": 5.82,
+        "distToPivotPct": -2.19,
+        "distToPivotAdr": -0.38,
+        "riskPerSharePct": 5.69,
+        "extensionAdr": 0.51,
         "breakDate": null,
         "metrics": {
-          "baseBars": 16,
-          "baseWeeks": 3.2,
+          "baseBars": 17,
+          "baseWeeks": 3.4,
           "depthPct": 18.7,
           "priorMovePct": 74.3,
           "higherLows": 1,
-          "contraction": 0.59,
-          "closeRange10Adr": 1,
-          "surf10": -0.27,
-          "surf20": 0.56,
-          "slope20": 7.58,
+          "contraction": 0.54,
+          "closeRange10Adr": 1.1,
+          "surf10": 0.51,
+          "surf20": 1.12,
+          "slope20": 7.3,
           "baseLow": 207.41,
           "lastSwingLow": 218.76
         },
         "reasons": [
           "선행 상승 +74%",
-          "베이스 3.2주",
+          "베이스 3.4주",
           "깊이 18.7%",
           "저점 상승 1회",
-          "진폭 0.59배 · 10일 종가폭 1 ADR",
-          "10일선 -0.3 ADR · 20일선 +0.6 ADR",
-          "20일선 기울기 +7.58%"
+          "진폭 0.54배 · 10일 종가폭 1.1 ADR",
+          "10일선 +0.5 ADR · 20일선 +1.1 ADR",
+          "20일선 기울기 +7.3%"
         ]
       },
       "checks": {
@@ -6968,27 +6994,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 3.2주 · 기준 2~8주"
+            "evidence": "베이스 3.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.59배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.54배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 18.7% · ADR 5.77%의 3.2배 · 선행 상승의 절반 37%"
+            "evidence": "베이스 깊이 18.7% · ADR 5.82%의 3.2배 · 선행 상승의 절반 37%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 237.31 · 20일선 229.71 · 50일선 190.95"
+            "evidence": "종가 249.59 · 20일선 233.27 · 50일선 192.52"
           },
           {
             "item": "거래량 마름",
             "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.47배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.48배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -6997,18 +7023,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 255.18까지 -7% (-1.21 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 255.18까지 -2.19% (-0.38 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.36% · ADR 5.77%"
+            "evidence": "예비 손절 폭 5.69% · ADR 5.82%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -7035,7 +7061,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.47배(20일 평균 대비) · 오늘 거래대금 0.59배 · 상장주식 59M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.48배(20일 평균 대비) · 오늘 거래대금 0.59배 · 상장주식 59M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -7059,28 +7085,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "WING",
       "price": 151.52999877929688,
-      "marketCap": "4.09B",
+      "marketCap": "4.10B",
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
       "rs": {
         "m1": {
           "v": 0.40645641559740137,
-          "pct": 99.41388638412985
+          "pct": 99.41335740072202
         },
         "m3": {
           "v": 0.5363857124710731,
-          "pct": 99.77457168620379
+          "pct": 99.77436823104694
         },
         "m6": {
           "v": 0.19132696844433048,
-          "pct": 52.61496844003607
+          "pct": 52.57220216606498
         }
       },
       "qualifiedBy": [
         "1mo",
         "3mo"
       ],
-      "bestPct": 99.77457168620379,
+      "bestPct": 99.77436823104694,
       "adr": 6.39,
       "cyTrend": -6.28,
       "nyTrend": -5.52,
@@ -7123,8 +7149,8 @@ window.TEAM2_DATA = {
       "epsNy": 21.27,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 47.43,
+      "apiCalled": true,
+      "siteRankPct6": 47.47,
       "fs": {
         "sale": [
           6.44,
@@ -7153,12 +7179,12 @@ window.TEAM2_DATA = {
         "m3": 15,
         "m6": 0
       },
-      "ma150Slope": -1.72,
+      "ma150Slope": -1.64,
       "ta": {
-        "price": 151.53,
-        "resistance": 162.38,
+        "price": 146,
+        "resistance": 147.11,
         "support": 142.24,
-        "contraction": 0.97,
+        "contraction": 0.93,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -7173,9 +7199,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.2029,
-        "m3": 0.1774,
-        "m6": 0.2484,
+        "m1": 0.203,
+        "m3": 0.1778,
+        "m6": 0.2476,
         "rankPct6": 35.34,
         "count": 14
       },
@@ -7575,7 +7601,7 @@ window.TEAM2_DATA = {
       "nameKo": "윙스톱",
       "nameEn": "WINGSTOP INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "윙스톱",
         "nameEn": "WINGSTOP INC",
         "infomaxCode": "NAS:WING",
@@ -7875,8 +7901,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-30",
               "summary": "- 1Q 소비자 지출 둔화가 지속되며 동일매장매출(SSS) 성장률은 YoY 8.7% 감소, 수요 약화가 뚜렷하게 나타난 구간- 다만, 공격적인 출점이 이를 상쇄하며 외형 성장 유지. 이번 분기 97개 매장이 순증된 가운데, 매출액은 YoY 7.4% 증가한 $1억 8,370만을 기록- 단기적으로 주가의 유의미한 반등보다 박스권 흐름 이어질 가능성 우세. SSSG 회복 여부가 확인되는 시점까지는 관망 전략이 유효하다고 판단",
               "pages": "4",
-              "secureId": "eqqqzcqxmmegzzmgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcqxmmegzzmgcgxeegi.pdf",
+              "secureId": "eqqqzcqxmmegzzmgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcqxmmegzzmgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -7886,8 +7912,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-20",
               "summary": "- 4Q 회계상 매출은 $1.76억으로 컨센서스를 하회했으며, 동일매장매출은 전년 대비 5.8% 감소해 부진함 지속되는 모습- 출점 중심 성장과 디지털 인프라 확대를 통한 실적 개선 가능성을 감안할 때 구조적 성장 스토리는 유효한 상황- 이에 따라 단기 밸류 부담은 상당 부분 완화된 반면, 중장기적 재평가 가능성은 여전히 존재",
               "pages": "4",
-              "secureId": "eqqezkilqmqemgkgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezkilqmqemgkgcgxeegi.pdf",
+              "secureId": "eqqezkilqmqemgkgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqezkilqmqemgkgcgxeegk.pdf",
               "opinion": null
             }
           ],
@@ -7912,20 +7938,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "WING",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 35.98,
+        "per": 34.66,
         "pbr": 0,
         "eps": 4.21,
         "bps": 0,
         "shares": 27053100,
-        "marketCapM": 4099,
+        "marketCapM": 3950,
         "high52": 300.5373,
         "high52Date": "2026-02-18",
         "low52": 95.6215,
         "low52Date": "2026-09-25",
-        "last": 151.53,
-        "prevClose": 151.36,
+        "last": 146,
+        "prevClose": 151.53,
         "nameKo": "윙스톱",
         "nameEn": "WINGSTOP INC",
         "listedOn": null,
@@ -7935,7 +7961,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "WING",
         "url": "https://finance.yahoo.com/quote/WING/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -8211,37 +8237,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 179.09,
-        "stop": 169.4,
-        "adrPct": 6.39,
-        "distToPivotPct": -15.39,
-        "distToPivotAdr": -2.41,
+        "stop": 169.41,
+        "adrPct": 6.63,
+        "distToPivotPct": -18.48,
+        "distToPivotAdr": -2.79,
         "riskPerSharePct": 5.41,
-        "extensionAdr": -0.81,
+        "extensionAdr": -1.06,
         "breakDate": null,
         "metrics": {
-          "baseBars": 14,
-          "baseWeeks": 2.8,
-          "depthPct": 20,
+          "baseBars": 15,
+          "baseWeeks": 3,
+          "depthPct": 21.1,
           "priorMovePct": 86.9,
           "higherLows": 0,
-          "contraction": 0.97,
-          "closeRange10Adr": 2.6,
-          "surf10": -0.81,
-          "surf20": -0.33,
-          "slope20": 4.71,
-          "baseLow": 143.33,
+          "contraction": 0.93,
+          "closeRange10Adr": 2.4,
+          "surf10": -1.06,
+          "surf20": -1.02,
+          "slope20": 4.82,
+          "baseLow": 141.3,
           "lastSwingLow": 143.33
         },
         "reasons": [
           "선행 상승 +87%",
-          "베이스 2.8주",
-          "깊이 20%",
+          "베이스 3주",
+          "깊이 21.1%",
           "✗ 저점 상승 0회",
-          "✗ 진폭 0.97배 · 10일 종가폭 2.6 ADR",
-          "✗ 10일선 -0.8 ADR · 20일선 -0.3 ADR",
-          "20일선 기울기 +4.71%"
+          "진폭 0.93배 · 10일 종가폭 2.4 ADR",
+          "✗ 10일선 -1.1 ADR · 20일선 -1 ADR",
+          "20일선 기울기 +4.82%"
         ]
       },
       "checks": {
@@ -8254,27 +8280,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.8주 · 기준 2~8주"
+            "evidence": "베이스 3주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.97배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.93배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 20% · ADR 6.39%의 3.1배 · 선행 상승의 절반 43%"
+            "evidence": "베이스 깊이 21.1% · ADR 6.63%의 3.2배 · 선행 상승의 절반 43%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 151.53 · 20일선 154.76 · 50일선 129.77"
+            "evidence": "종가 146 · 20일선 155.92 · 50일선 130.4"
           },
           {
             "item": "거래량 마름",
             "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.65배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.66배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -8284,17 +8310,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 179.09까지 -15.39% (-2.41 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 179.09까지 -18.48% (-2.79 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.41% · ADR 6.39%"
+            "evidence": "예비 손절 폭 5.41% · ADR 6.63%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -1.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -8321,12 +8347,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.65배(20일 평균 대비) · 오늘 거래대금 0.45배(상승일) · 상장주식 27M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.66배(20일 평균 대비) · 오늘 거래대금 0.45배(상승일) · 상장주식 27M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.59% · 3M 0.23% · 6M 47.39% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.59% · 3M 0.23% · 6M 47.43% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -8345,30 +8371,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "EPAM",
       "price": 153.24000549316406,
-      "marketCap": "7.68B",
+      "marketCap": "7.82B",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "rs": {
         "m1": {
           "v": 0.2609125192575554,
-          "pct": 95.4463480613165
+          "pct": 95.44223826714801
         },
         "m3": {
           "v": 0.5142242589337657,
-          "pct": 99.59422903516682
+          "pct": 99.59386281588448
         },
         "m6": {
           "v": 0.6672636255912214,
-          "pct": 97.15960324616772
+          "pct": 97.15703971119135
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 99.59422903516682,
+      "bestPct": 99.59386281588448,
       "adr": 4.28,
-      "cyTrend": 0.99,
-      "nyTrend": 1.84,
+      "cyTrend": 0.98,
+      "nyTrend": 2.16,
       "upCount": 47,
       "downCount": 11,
       "upDownRatio": 81.03,
@@ -8398,9 +8424,9 @@ window.TEAM2_DATA = {
       "targetStatus": false,
       "est": {
         "cyCur": 13.28161,
-        "cy30": 13.15114,
+        "cy30": 13.15324,
         "nyCur": 14.31828,
-        "ny30": 14.05986
+        "ny30": 14.01596
       },
       "saleCy": 3.65,
       "saleNy": 3.32,
@@ -8408,7 +8434,7 @@ window.TEAM2_DATA = {
       "epsNy": 7.81,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 2.89,
       "fs": {
         "sale": [
@@ -8438,12 +8464,12 @@ window.TEAM2_DATA = {
         "m3": 16,
         "m6": 0
       },
-      "ma150Slope": 2.32,
+      "ma150Slope": 2.47,
       "ta": {
-        "price": 153.24,
+        "price": 157.72,
         "resistance": 158.95,
-        "support": 150.87,
-        "contraction": 0.84,
+        "support": 155,
+        "contraction": 0.88,
         "trend": "up"
       },
       "top2Gaps": {
@@ -8459,8 +8485,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.0443,
-        "m3": 0.1874,
-        "m6": 0.1432,
+        "m3": 0.1883,
+        "m6": 0.1438,
         "rankPct6": 59.4,
         "count": 14
       },
@@ -9195,20 +9221,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "EPAM",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 20.76,
-        "pbr": 2.25,
+        "per": 21.36,
+        "pbr": 2.31,
         "eps": 7.38,
         "bps": 68.21,
         "shares": 51023300,
-        "marketCapM": 7819,
+        "marketCapM": 8047,
         "high52": 222.53,
         "high52Date": "2026-01-15",
         "low52": 73.055,
         "low52Date": "2026-06-22",
-        "last": 153.24,
-        "prevClose": 150.44,
+        "last": 157.72,
+        "prevClose": 153.24,
         "nameKo": "이팸 시스템스",
         "nameEn": "EPAM SYS INC",
         "listedOn": null,
@@ -9218,7 +9244,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "EPAM",
         "url": "https://finance.yahoo.com/quote/EPAM/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -9494,37 +9520,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "B",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 168.56,
-        "stop": 162.01,
-        "adrPct": 4.28,
-        "distToPivotPct": -9.09,
-        "distToPivotAdr": -2.13,
-        "riskPerSharePct": 3.89,
-        "extensionAdr": -0.8,
+        "stop": 161.7,
+        "adrPct": 4.35,
+        "distToPivotPct": -6.43,
+        "distToPivotAdr": -1.48,
+        "riskPerSharePct": 4.07,
+        "extensionAdr": -0.12,
         "breakDate": null,
         "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
+          "baseBars": 12,
+          "baseWeeks": 2.4,
           "depthPct": 11.1,
           "priorMovePct": 75.1,
           "higherLows": 0,
-          "contraction": 0.84,
-          "closeRange10Adr": 2.1,
-          "surf10": -0.8,
-          "surf20": 0.41,
-          "slope20": 3.68,
+          "contraction": 0.88,
+          "closeRange10Adr": 2,
+          "surf10": -0.12,
+          "surf20": 0.9,
+          "slope20": 3.15,
           "baseLow": 149.89,
           "lastSwingLow": 149.89
         },
         "reasons": [
           "선행 상승 +75%",
-          "베이스 2.2주",
+          "베이스 2.4주",
           "깊이 11.1%",
           "✗ 저점 상승 0회",
-          "진폭 0.84배 · 10일 종가폭 2.1 ADR",
-          "10일선 -0.8 ADR · 20일선 +0.4 ADR",
-          "20일선 기울기 +3.68%"
+          "진폭 0.88배 · 10일 종가폭 2 ADR",
+          "10일선 -0.1 ADR · 20일선 +0.9 ADR",
+          "20일선 기울기 +3.15%"
         ]
       },
       "checks": {
@@ -9537,27 +9563,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
+            "evidence": "베이스 2.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.84배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.88배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 11.1% · ADR 4.28%의 2.6배 · 선행 상승의 절반 38%"
+            "evidence": "베이스 깊이 11.1% · ADR 4.35%의 2.6배 · 선행 상승의 절반 38%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 153.24 · 20일선 150.56 · 50일선 130.23"
+            "evidence": "종가 157.72 · 20일선 151.57 · 50일선 130.91"
           },
           {
             "item": "거래량 마름",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.69배 · 기준 0.7 이하"
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.71배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -9567,17 +9593,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 168.56까지 -9.09% (-2.13 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 168.56까지 -6.43% (-1.48 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.89% · ADR 4.28%"
+            "evidence": "예비 손절 폭 4.07% · ADR 4.35%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -9603,13 +9629,13 @@ window.TEAM2_DATA = {
           },
           {
             "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 0.69배(20일 평균 대비) · 오늘 거래대금 0.95배(상승일) · 상장주식 51M주(한국투자증권) · 유통주식은 확인 불가"
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.71배(20일 평균 대비) · 오늘 거래대금 0.95배(상승일) · 상장주식 51M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 4.55% · 3M 0.41% · 6M 2.84% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 4.56% · 3M 0.41% · 6M 2.84% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -9628,28 +9654,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "KNSA",
       "price": 93.8949966430664,
-      "marketCap": "7.35B",
+      "marketCap": "7.38B",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
       "rs": {
         "m1": {
           "v": 0.3599216372706324,
-          "pct": 99.0532010820559
+          "pct": 99.0523465703971
         },
         "m3": {
           "v": 0.33198111495294136,
-          "pct": 96.88908926961226
+          "pct": 96.88628158844766
         },
         "m6": {
           "v": 1.1839836410851625,
-          "pct": 99.59422903516682
+          "pct": 99.59386281588448
         }
       },
       "qualifiedBy": [
         "1mo",
         "6mo"
       ],
-      "bestPct": 99.59422903516682,
+      "bestPct": 99.59386281588448,
       "adr": 5.22,
       "cyTrend": 27.21,
       "nyTrend": 26.43,
@@ -9692,7 +9718,7 @@ window.TEAM2_DATA = {
       "epsNy": 38.88,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.45,
       "fs": {
         "sale": [
@@ -9722,12 +9748,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 7
       },
-      "ma150Slope": 9.71,
+      "ma150Slope": 9.99,
       "ta": {
-        "price": 93.89,
-        "resistance": 98.48,
+        "price": 98.69,
+        "resistance": 99.31,
         "support": 87.3,
-        "contraction": 0.51,
+        "contraction": 0.52,
         "trend": "up"
       },
       "top2Gaps": {
@@ -9742,9 +9768,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1441,
-        "m3": 0.2007,
-        "m6": 0.2904,
+        "m1": 0.1442,
+        "m3": 0.2011,
+        "m6": 0.2923,
         "rankPct6": 27.82,
         "count": 6
       },
@@ -10122,7 +10148,7 @@ window.TEAM2_DATA = {
       "nameKo": "키닉사 파머슈티컬스 인터내셔널",
       "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "키닉사 파머슈티컬스 인터내셔널",
         "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
         "infomaxCode": "NAS:KNSA",
@@ -10411,20 +10437,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "KNSA",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 95.47,
-        "pbr": 11.19,
+        "per": 100.35,
+        "pbr": 11.76,
         "eps": 0.98,
         "bps": 8.39,
         "shares": 48837000,
-        "marketCapM": 4586,
-        "high52": 99.31,
-        "high52Date": "2026-11-09",
+        "marketCapM": 4820,
+        "high52": 99.98,
+        "high52Date": "2026-11-23",
         "low52": 37.02,
         "low52Date": "2026-01-15",
-        "last": 93.895,
-        "prevClose": 93.535,
+        "last": 98.69,
+        "prevClose": 93.895,
         "nameKo": "키닉사 파머슈티컬스 인터내셔널",
         "nameEn": "KINIKSA PHARMACEUTICALS INTERNATION",
         "listedOn": "2018-05-23",
@@ -10434,7 +10460,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "KNSA",
         "url": "https://finance.yahoo.com/quote/KNSA/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -10658,39 +10684,15 @@ window.TEAM2_DATA = {
         }
       },
       "setup": {
-        "state": "pre",
-        "grade": "A",
-        "asOf": "2026-11-20",
-        "pivot": 99.31,
-        "stop": 94.4,
-        "adrPct": 5.22,
-        "distToPivotPct": -5.45,
-        "distToPivotAdr": -1.04,
-        "riskPerSharePct": 4.94,
-        "extensionAdr": -0.31,
+        "state": "none",
+        "grade": null,
+        "asOf": "2026-11-23",
+        "adrPct": 5.06,
+        "extensionAdr": 0.66,
         "breakDate": null,
-        "metrics": {
-          "baseBars": 18,
-          "baseWeeks": 3.6,
-          "depthPct": 17.2,
-          "priorMovePct": 40.5,
-          "higherLows": 1,
-          "contraction": 0.51,
-          "closeRange10Adr": 1.1,
-          "surf10": -0.31,
-          "surf20": 0.15,
-          "slope20": 4.02,
-          "baseLow": 82.26,
-          "lastSwingLow": 87.3
-        },
+        "metrics": null,
         "reasons": [
-          "선행 상승 +41%",
-          "베이스 3.6주",
-          "깊이 17.2%",
-          "저점 상승 1회",
-          "진폭 0.51배 · 10일 종가폭 1.1 ADR",
-          "10일선 -0.3 ADR · 20일선 +0.1 ADR",
-          "20일선 기울기 +4.02%"
+          "쉬는 구간 없음"
         ]
       },
       "checks": {
@@ -10698,52 +10700,52 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "선행 상승 41% · 기준 30%↑"
+            "evidence": "3개월 최대상승 41% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 3.6주 · 기준 2~8주"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.51배(1 미만이면 좁아짐)"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 17.2% · ADR 5.22%의 3.3배 · 선행 상승의 절반 20%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 93.89 · 20일선 93.18 · 50일선 83.89"
+            "evidence": "종가 98.69 · 20일선 94.46 · 50일선 84.33"
           },
           {
             "item": "거래량 마름",
             "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.49배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.58배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
             "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 99.31까지 -5.45% (-1.04 ADR) · 기준 1 ADR 이내"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 4.94% · ADR 5.22%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.7 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -10770,7 +10772,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.49배(20일 평균 대비) · 오늘 거래대금 0.63배(상승일) · 상장주식 49M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.58배(20일 평균 대비) · 오늘 거래대금 0.63배(상승일) · 상장주식 49M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -10794,27 +10796,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "ELF",
       "price": 103.47000122070312,
-      "marketCap": "6.44B",
+      "marketCap": "6.12B",
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "rs": {
         "m1": {
           "v": 0.04194004877232374,
-          "pct": 35.121731289449954
+          "pct": 35.15342960288809
         },
         "m3": {
           "v": 0.12992124495367818,
-          "pct": 62.53381424706943
+          "pct": 62.59025270758123
         },
         "m6": {
           "v": 1.1733847649578348,
-          "pct": 99.50405770964834
+          "pct": 99.50361010830325
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 99.50405770964834,
+      "bestPct": 99.50361010830325,
       "adr": 5.08,
       "cyTrend": 7.52,
       "nyTrend": 8.48,
@@ -10857,7 +10859,7 @@ window.TEAM2_DATA = {
       "epsNy": 7.48,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.54,
       "fs": {
         "sale": [
@@ -10887,12 +10889,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 16
       },
-      "ma150Slope": 8.08,
+      "ma150Slope": 8.05,
       "ta": {
-        "price": 103.47,
+        "price": 107.68,
         "resistance": 110.04,
-        "support": 94,
-        "contraction": 0.74,
+        "support": 105.36,
+        "contraction": 0.69,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -10907,9 +10909,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1739,
-        "m3": 0.2859,
-        "m6": 0.3862,
+        "m1": 0.1741,
+        "m3": 0.2863,
+        "m6": 0.3857,
         "rankPct6": 16.54,
         "count": 9
       },
@@ -11793,20 +11795,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "ELF",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 105.18,
-        "pbr": 5.22,
+        "per": 109.46,
+        "pbr": 5.43,
         "eps": 0.98,
         "bps": 19.83,
         "shares": 59147600,
-        "marketCapM": 6120,
+        "marketCapM": 6369,
         "high52": 123.13,
         "high52Date": "2026-11-05",
         "low52": 48.82,
         "low52Date": "2026-06-05",
-        "last": 103.47,
-        "prevClose": 108.93,
+        "last": 107.68,
+        "prevClose": 103.47,
         "nameKo": "엘프 뷰티",
         "nameEn": "E L F BEAUTY INC",
         "listedOn": "2016-09-22",
@@ -11816,7 +11818,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ELF",
         "url": "https://finance.yahoo.com/quote/ELF/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -12092,37 +12094,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 123.13,
-        "stop": 117.87,
-        "adrPct": 5.08,
-        "distToPivotPct": -15.97,
-        "distToPivotAdr": -3.14,
-        "riskPerSharePct": 4.27,
-        "extensionAdr": -2.02,
+        "stop": 117.61,
+        "adrPct": 5.13,
+        "distToPivotPct": -12.55,
+        "distToPivotAdr": -2.45,
+        "riskPerSharePct": 4.49,
+        "extensionAdr": -0.95,
         "breakDate": null,
         "metrics": {
-          "baseBars": 26,
-          "baseWeeks": 5.2,
+          "baseBars": 27,
+          "baseWeeks": 5.4,
           "depthPct": 16.2,
           "priorMovePct": 65.9,
           "higherLows": 0,
-          "contraction": 0.74,
-          "closeRange10Adr": 3,
-          "surf10": -2.02,
-          "surf20": -1.9,
-          "slope20": -0.78,
+          "contraction": 0.69,
+          "closeRange10Adr": 2.7,
+          "surf10": -0.95,
+          "surf20": -1,
+          "slope20": -1.12,
           "baseLow": 103.13,
           "lastSwingLow": 105.36
         },
         "reasons": [
           "선행 상승 +66%",
-          "베이스 5.2주",
+          "베이스 5.4주",
           "깊이 16.2%",
           "✗ 저점 상승 0회",
-          "진폭 0.74배 · 10일 종가폭 3 ADR",
-          "✗ 10일선 -2 ADR · 20일선 -1.9 ADR",
-          "✗ 20일선 기울기 -0.78%"
+          "진폭 0.69배 · 10일 종가폭 2.7 ADR",
+          "✗ 10일선 -1 ADR · 20일선 -1 ADR",
+          "✗ 20일선 기울기 -1.12%"
         ]
       },
       "checks": {
@@ -12135,27 +12137,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 5.2주 · 기준 2~8주"
+            "evidence": "베이스 5.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.74배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.69배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 16.2% · ADR 5.08%의 3.2배 · 선행 상승의 절반 33%"
+            "evidence": "베이스 깊이 16.2% · ADR 5.13%의 3.2배 · 선행 상승의 절반 33%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 103.47 · 20일선 113.46 · 50일선 108.25 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 107.68 · 20일선 113.19 · 50일선 108.47 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.83배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.87배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -12165,17 +12167,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 123.13까지 -15.97% (-3.14 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 123.13까지 -12.55% (-2.45 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 4.27% · ADR 5.08%"
+            "evidence": "예비 손절 폭 4.49% · ADR 5.13%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -12202,12 +12204,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.83배(20일 평균 대비) · 오늘 거래대금 1.09배 · 상장주식 59M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.87배(20일 평균 대비) · 오늘 거래대금 1.09배 · 상장주식 59M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 64.88% · 3M 37.47% · 6M 0.5% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 64.85% · 3M 37.41% · 6M 0.5% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -12226,28 +12228,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "MGRT",
       "price": 133.52999877929688,
-      "marketCap": "1.86B",
+      "marketCap": "1.84B",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "rs": {
         "m1": {
           "v": 0.27167441926043917,
-          "pct": 96.34806131650136
+          "pct": 96.34476534296029
         },
         "m3": {
           "v": 0.5082396967921599,
-          "pct": 99.41388638412985
+          "pct": 99.41335740072202
         },
         "m6": {
           "v": 0.9872708694850753,
-          "pct": 99.14337240757439
+          "pct": 99.14259927797833
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 99.41388638412985,
+      "bestPct": 99.41335740072202,
       "adr": 4.92,
       "cyTrend": null,
       "nyTrend": null,
@@ -12290,7 +12292,7 @@ window.TEAM2_DATA = {
       "epsNy": null,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.9,
       "fs": {
         "sale": [
@@ -12316,12 +12318,12 @@ window.TEAM2_DATA = {
         "m3": 4,
         "m6": 3
       },
-      "ma150Slope": 11.51,
+      "ma150Slope": 10.63,
       "ta": {
-        "price": 133.53,
+        "price": 136.05,
         "resistance": 138.98,
         "support": 116.99,
-        "contraction": 2.3,
+        "contraction": 2.58,
         "trend": "up"
       },
       "top2Gaps": {
@@ -12337,8 +12339,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.0443,
-        "m3": 0.1874,
-        "m6": 0.1432,
+        "m3": 0.1883,
+        "m6": 0.1438,
         "rankPct6": 59.4,
         "count": 14
       },
@@ -12687,20 +12689,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "MGRT",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 5634.18,
-        "pbr": 1193.3,
+        "per": 5740.51,
+        "pbr": 1215.82,
         "eps": 0.02,
         "bps": 0.11,
         "shares": 13750000,
-        "marketCapM": 1836,
+        "marketCapM": 1871,
         "high52": 170,
         "high52Date": "2026-04-16",
         "low52": 4.04,
         "low52Date": "2025-12-15",
-        "last": 133.53,
-        "prevClose": 135,
+        "last": 136.05,
+        "prevClose": 133.53,
         "nameKo": "메가 포춘",
         "nameEn": "MEGA FORTUNE COMPANY LIMITED",
         "listedOn": "2025-07-16",
@@ -12710,7 +12712,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "MGRT",
         "url": "https://finance.yahoo.com/quote/MGRT/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -12852,14 +12854,14 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "post",
         "grade": "A",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 129.75,
         "stop": 125.98,
-        "adrPct": 4.92,
-        "distToPivotPct": 2.91,
-        "distToPivotAdr": 0.59,
+        "adrPct": 4.73,
+        "distToPivotPct": 4.86,
+        "distToPivotAdr": 1.03,
         "riskPerSharePct": 2.91,
-        "extensionAdr": 1.34,
+        "extensionAdr": 1.48,
         "breakDate": "2026-11-16",
         "metrics": {
           "baseBars": 36,
@@ -12905,17 +12907,17 @@ window.TEAM2_DATA = {
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 22.9% · ADR 4.92%의 4.7배 · 선행 상승의 절반 43%"
+            "evidence": "베이스 깊이 22.9% · ADR 4.73%의 4.8배 · 선행 상승의 절반 43%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 133.53 · 20일선 122.12 · 50일선 115.6"
+            "evidence": "종가 136.05 · 20일선 122.91 · 50일선 115.91"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.42배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.2배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -12930,12 +12932,12 @@ window.TEAM2_DATA = {
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.91% · ADR 4.92%"
+            "evidence": "예비 손절 폭 2.91% · ADR 4.73%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 1.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 1.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -12962,12 +12964,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.42배(20일 평균 대비) · 오늘 거래대금 0.34배 · 상장주식 14M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.2배(20일 평균 대비) · 오늘 거래대금 0.34배 · 상장주식 14M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 3.65% · 3M 0.59% · 6M 0.86% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 3.66% · 3M 0.59% · 6M 0.86% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -12986,27 +12988,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "HNGE",
       "price": 105.77999877929688,
-      "marketCap": "8.79B",
+      "marketCap": "8.60B",
       "sector": "Healthcare",
       "industry": "Health Information Services",
       "rs": {
         "m1": {
           "v": 0.08474466060527244,
-          "pct": 48.10640216411181
+          "pct": 48.14981949458484
         },
         "m3": {
           "v": 0.2946090008234453,
-          "pct": 95.17583408476105
+          "pct": 95.17148014440433
         },
         "m6": {
           "v": 0.9916349492184332,
-          "pct": 99.32371505861136
+          "pct": 99.32310469314079
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 99.32371505861136,
+      "bestPct": 99.32310469314079,
       "adr": 5.27,
       "cyTrend": 7.23,
       "nyTrend": 6.49,
@@ -13049,7 +13051,7 @@ window.TEAM2_DATA = {
       "epsNy": 26.56,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.72,
       "fs": {
         "sale": [
@@ -13079,13 +13081,13 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 50
       },
-      "ma150Slope": 13.97,
+      "ma150Slope": 13.85,
       "ta": {
-        "price": 105.78,
+        "price": 110.65,
         "resistance": 126.4,
         "support": 97.44,
-        "contraction": 1.16,
-        "trend": "mixed"
+        "contraction": 1.06,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -13099,9 +13101,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.08,
-        "m3": 0.1624,
-        "m6": 0.5514,
+        "m1": 0.0795,
+        "m3": 0.1618,
+        "m6": 0.5517,
         "rankPct6": 3.01,
         "count": 6
       },
@@ -13819,20 +13821,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "HNGE",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 81.46,
-        "pbr": 24.64,
+        "per": 85.21,
+        "pbr": 25.77,
         "eps": 1.3,
         "bps": 4.29,
         "shares": 68485050,
-        "marketCapM": 7244,
+        "marketCapM": 7578,
         "high52": 126.4,
         "high52Date": "2026-11-11",
         "low52": 30.08,
         "low52Date": "2026-02-09",
-        "last": 105.78,
-        "prevClose": 108.1,
+        "last": 110.65,
+        "prevClose": 105.78,
         "nameKo": "힌지 헬스",
         "nameEn": "HINGE HEALTH INC",
         "listedOn": "2025-05-22",
@@ -13842,18 +13844,18 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HNGE",
         "url": "https://finance.yahoo.com/quote/HNGE/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 0.73,
+            "eps": 0.74,
             "epsLow": 0.65,
             "epsHigh": 0.78,
             "epsYearAgo": 0.49,
             "epsAnalysts": 13,
-            "epsGrowth": 49.9,
+            "epsGrowth": 51,
             "epsCur": "USD",
             "rev": 249119590,
             "revAnalysts": 15,
@@ -13864,12 +13866,12 @@ window.TEAM2_DATA = {
           {
             "period": "+1q",
             "endDate": "2027-03-31",
-            "eps": 0.64,
+            "eps": 0.65,
             "epsLow": 0.54,
             "epsHigh": 0.72,
             "epsYearAgo": 0.45,
             "epsAnalysts": 12,
-            "epsGrowth": 43.3,
+            "epsGrowth": 44.2,
             "epsCur": "USD",
             "rev": 248573150,
             "revAnalysts": 13,
@@ -13880,12 +13882,12 @@ window.TEAM2_DATA = {
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 2.57,
+            "eps": 2.58,
             "epsLow": 2.3,
             "epsHigh": 3.5,
             "epsYearAgo": 2.62,
             "epsAnalysts": 14,
-            "epsGrowth": -1.8,
+            "epsGrowth": -1.5,
             "epsCur": "USD",
             "rev": 877952030,
             "revAnalysts": 16,
@@ -13896,12 +13898,12 @@ window.TEAM2_DATA = {
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 3.26,
+            "eps": 3.27,
             "epsLow": 2.7,
             "epsHigh": 4.89,
-            "epsYearAgo": 2.57,
+            "epsYearAgo": 2.58,
             "epsAnalysts": 14,
-            "epsGrowth": 26.6,
+            "epsGrowth": 26.8,
             "epsCur": "USD",
             "rev": 1115193330,
             "revAnalysts": 16,
@@ -13915,10 +13917,10 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 0.73,
-            "d7": 0,
-            "d30": 11.3,
-            "d90": 7.2,
+            "now": 0.74,
+            "d7": 0.7,
+            "d30": 12.1,
+            "d90": 8,
             "ago90": 0.69,
             "up7": 10,
             "up30": 10,
@@ -13929,10 +13931,10 @@ window.TEAM2_DATA = {
             "period": "+1q",
             "endDate": "2027-03-31",
             "cur": "USD",
-            "now": 0.64,
-            "d7": 0,
-            "d30": 6,
-            "d90": 3,
+            "now": 0.65,
+            "d7": 0.6,
+            "d30": 6.7,
+            "d90": 3.6,
             "ago90": 0.63,
             "up7": 7,
             "up30": 7,
@@ -13943,10 +13945,10 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 2.57,
-            "d7": 0,
-            "d30": 7.2,
-            "d90": 5.8,
+            "now": 2.58,
+            "d7": 0.3,
+            "d30": 7.5,
+            "d90": 6.1,
             "ago90": 2.43,
             "up7": 12,
             "up30": 12,
@@ -13957,10 +13959,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 3.26,
-            "d7": 0,
-            "d30": 6.5,
-            "d90": 4,
+            "now": 3.27,
+            "d7": 0.5,
+            "d30": 7,
+            "d90": 4.5,
             "ago90": 3.13,
             "up7": 11,
             "up30": 11,
@@ -14005,8 +14007,18 @@ window.TEAM2_DATA = {
           "initiations": 0,
           "ptRaised": 15,
           "ptLowered": 0,
-          "total": 15,
+          "total": 16,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "Citizens",
+              "action": "reit",
+              "from": "Market Outperform",
+              "to": "Market Outperform",
+              "ptAction": "Maintains",
+              "pt": 140,
+              "ptPrior": 140
+            },
             {
               "date": "2026-11-03",
               "firm": "Freedom Capital Markets",
@@ -14096,16 +14108,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 135,
               "ptPrior": 115
-            },
-            {
-              "date": "2026-10-26",
-              "firm": "Stifel",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 130,
-              "ptPrior": 115
             }
           ]
         },
@@ -14118,37 +14120,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 126.4,
-        "stop": 120.82,
-        "adrPct": 5.27,
-        "distToPivotPct": -16.31,
-        "distToPivotAdr": -3.09,
-        "riskPerSharePct": 4.41,
-        "extensionAdr": -1.97,
+        "stop": 120.51,
+        "adrPct": 5.32,
+        "distToPivotPct": -12.46,
+        "distToPivotAdr": -2.34,
+        "riskPerSharePct": 4.66,
+        "extensionAdr": -0.84,
         "breakDate": null,
         "metrics": {
-          "baseBars": 18,
-          "baseWeeks": 3.6,
+          "baseBars": 20,
+          "baseWeeks": 4,
           "depthPct": 18.4,
-          "priorMovePct": 68.1,
+          "priorMovePct": 69.3,
           "higherLows": 1,
-          "contraction": 1.16,
-          "closeRange10Adr": 3.1,
-          "surf10": -1.97,
-          "surf20": -1.87,
-          "slope20": 0.83,
+          "contraction": 1.06,
+          "closeRange10Adr": 3,
+          "surf10": -0.84,
+          "surf20": -0.94,
+          "slope20": 0.03,
           "baseLow": 103.12,
           "lastSwingLow": 112.8
         },
         "reasons": [
-          "선행 상승 +68%",
-          "베이스 3.6주",
+          "선행 상승 +69%",
+          "베이스 4주",
           "깊이 18.4%",
           "저점 상승 1회",
-          "✗ 진폭 1.16배 · 10일 종가폭 3.1 ADR",
-          "✗ 10일선 -2 ADR · 20일선 -1.9 ADR",
-          "20일선 기울기 +0.83%"
+          "✗ 진폭 1.06배 · 10일 종가폭 3 ADR",
+          "✗ 10일선 -0.8 ADR · 20일선 -0.9 ADR",
+          "20일선 기울기 +0.03%"
         ]
       },
       "checks": {
@@ -14156,32 +14158,32 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "선행 상승 68% · 기준 30%↑"
+            "evidence": "선행 상승 69% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 3.6주 · 기준 2~8주"
+            "evidence": "베이스 4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.16배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 1.06배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 18.4% · ADR 5.27%의 3.5배 · 선행 상승의 절반 34%"
+            "evidence": "베이스 깊이 18.4% · ADR 5.32%의 3.5배 · 선행 상승의 절반 35%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 105.78 · 20일선 116.23 · 50일선 106.07 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 110.65 · 20일선 116.18 · 50일선 106.39"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.91배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.81배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -14191,17 +14193,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 126.4까지 -16.31% (-3.09 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 126.4까지 -12.46% (-2.34 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 4.41% · ADR 5.27%"
+            "evidence": "예비 손절 폭 4.66% · ADR 5.32%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -14228,12 +14230,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.91배(20일 평균 대비) · 오늘 거래대금 0.81배 · 상장주식 68M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.81배(20일 평균 대비) · 오늘 거래대금 0.81배 · 상장주식 68M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 51.89% · 3M 4.82% · 6M 0.68% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 51.85% · 3M 4.83% · 6M 0.68% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -14252,30 +14254,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "RYTM",
       "price": 112.36000061035156,
-      "marketCap": "8.10B",
+      "marketCap": "7.79B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.39486880842228,
-          "pct": 99.32371505861136
+          "pct": 99.32310469314079
         },
         "m3": {
           "v": 0.15384143733513972,
-          "pct": 69.29666366095582
+          "pct": 69.35920577617328
         },
         "m6": {
           "v": 0.514880218968874,
-          "pct": 92.01983769161407
+          "pct": 92.01263537906136
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 99.32371505861136,
+      "bestPct": 99.32310469314079,
       "adr": 6.44,
-      "cyTrend": 59.2,
-      "nyTrend": 111.92,
+      "cyTrend": 62.15,
+      "nyTrend": 106.47,
       "upCount": 11,
       "downCount": 25,
       "upDownRatio": 30.56,
@@ -14305,9 +14307,9 @@ window.TEAM2_DATA = {
       "targetStatus": true,
       "est": {
         "cyCur": -4.93598,
-        "cy30": -3.1004,
+        "cy30": -3.04407,
         "nyCur": -1.29821,
-        "ny30": -0.6126
+        "ny30": -0.62875
       },
       "saleCy": 74.2,
       "saleNy": 74.91,
@@ -14315,7 +14317,7 @@ window.TEAM2_DATA = {
       "epsNy": -73.7,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 8.03,
       "fs": {
         "sale": [
@@ -14345,12 +14347,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 2.75,
+      "ma150Slope": 2.91,
       "ta": {
-        "price": 112.36,
+        "price": 112,
         "resistance": 113.91,
         "support": 106.58,
-        "contraction": 0.91,
+        "contraction": 0.89,
         "trend": "up"
       },
       "top2Gaps": {
@@ -14365,9 +14367,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -14710,7 +14712,7 @@ window.TEAM2_DATA = {
       "nameKo": "리듬 파머슈티컬스",
       "nameEn": "RHYTHM PHARMACEUTICALS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "리듬 파머슈티컬스",
         "nameEn": "RHYTHM PHARMACEUTICALS INC",
         "infomaxCode": "NAS:RYTM",
@@ -15011,31 +15013,23 @@ window.TEAM2_DATA = {
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
       },
-      "cnbc": [
-        {
-          "title": "Monday's big analyst calls: Nvidia, SpaceX, Tesla, Apple, Ford, Rivian & more",
-          "url": "https://www.cnbc.com/2026/07/27/monday-stocks-from-analyst-calls-like-nvidia.html",
-          "date": "2026-07-27",
-          "publisher": "CNBC",
-          "kind": "article"
-        }
-      ],
+      "cnbc": [],
       "kis": {
         "ticker": "RYTM",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 36.03,
-        "pbr": 75.08,
+        "per": 35.92,
+        "pbr": 74.84,
         "eps": 3.12,
         "bps": 1.5,
         "shares": 69330900,
-        "marketCapM": 7790,
+        "marketCapM": 7765,
         "high52": 122.2,
         "high52Date": "2025-12-11",
         "low52": 74.5,
         "low52Date": "2026-03-30",
-        "last": 112.36,
-        "prevClose": 116.8,
+        "last": 112,
+        "prevClose": 112.36,
         "nameKo": "리듬 파머슈티컬스",
         "nameEn": "RHYTHM PHARMACEUTICALS INC",
         "listedOn": "2017-10-04",
@@ -15045,7 +15039,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "RYTM",
         "url": "https://finance.yahoo.com/quote/RYTM/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -15321,9 +15315,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 6.44,
-        "extensionAdr": -0.19,
+        "asOf": "2026-11-23",
+        "adrPct": 6.55,
+        "extensionAdr": -0.21,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -15355,12 +15349,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 112.36 · 20일선 105.22 · 50일선 98.08"
+            "evidence": "종가 112 · 20일선 106.34 · 50일선 98.27"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.79배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.8배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -15407,12 +15401,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.79배(20일 평균 대비) · 오늘 거래대금 0.78배 · 상장주식 69M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.8배(20일 평균 대비) · 오늘 거래대금 0.78배 · 상장주식 69M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.68% · 3M 30.7% · 6M 7.98% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.68% · 3M 30.64% · 6M 7.99% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -15431,30 +15425,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "ANF",
       "price": 137.9199981689453,
-      "marketCap": "5.84B",
+      "marketCap": "5.85B",
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
       "rs": {
         "m1": {
           "v": 0.021339038743670102,
-          "pct": 29.531109107303877
+          "pct": 29.557761732851983
         },
         "m3": {
           "v": 0.10162998984274464,
-          "pct": 55.59062218214608
+          "pct": 55.64079422382672
         },
         "m6": {
           "v": 0.987338413545644,
-          "pct": 99.23354373309287
+          "pct": 99.23285198555956
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 99.23354373309287,
+      "bestPct": 99.23285198555956,
       "adr": 4.82,
-      "cyTrend": 0.1,
-      "nyTrend": 0.11,
+      "cyTrend": 0.86,
+      "nyTrend": -1.65,
       "upCount": 10,
       "downCount": 1,
       "upDownRatio": 90.91,
@@ -15483,18 +15477,18 @@ window.TEAM2_DATA = {
       "clsPos": 31.95,
       "targetStatus": false,
       "est": {
-        "cyCur": 13.46156,
+        "cyCur": 13.56348,
         "cy30": 13.44766,
-        "nyCur": 13.38714,
+        "nyCur": 13.15143,
         "ny30": 13.37184
       },
       "saleCy": 5.03,
-      "saleNy": 4.43,
-      "epsCy": 28.7,
-      "epsNy": -0.55,
+      "saleNy": 4.48,
+      "epsCy": 29.67,
+      "epsNy": -3.04,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.81,
       "fs": {
         "sale": [
@@ -15524,12 +15518,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 20
       },
-      "ma150Slope": 7.7,
+      "ma150Slope": 7.46,
       "ta": {
-        "price": 137.92,
+        "price": 140.45,
         "resistance": 154.58,
         "support": 133.81,
-        "contraction": 0.95,
+        "contraction": 1.02,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -15544,9 +15538,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1016,
-        "m3": 0.149,
-        "m6": 0.1264,
+        "m1": 0.1017,
+        "m3": 0.1498,
+        "m6": 0.1263,
         "rankPct6": 64.66,
         "count": 8
       },
@@ -16249,20 +16243,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "ANF",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 11.81,
-        "pbr": 4.32,
+        "per": 12.03,
+        "pbr": 4.4,
         "eps": 11.68,
         "bps": 31.92,
         "shares": 42434400,
-        "marketCapM": 5853,
+        "marketCapM": 5960,
         "high52": 171.9956,
         "high52Date": "2026-11-05",
         "low52": 65.45,
         "low52Date": "2025-11-24",
-        "last": 137.92,
-        "prevClose": 137.64,
+        "last": 140.45,
+        "prevClose": 137.92,
         "nameKo": "애버크롬비 앤드 피치",
         "nameEn": "ABERCROMBIE & FITCH CO",
         "listedOn": null,
@@ -16272,7 +16266,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ANF",
         "url": "https://finance.yahoo.com/quote/ANF/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -16548,37 +16542,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 172,
-        "stop": 165.35,
-        "adrPct": 4.82,
-        "distToPivotPct": -19.81,
-        "distToPivotAdr": -4.11,
-        "riskPerSharePct": 3.87,
-        "extensionAdr": -1.36,
+        "stop": 165.26,
+        "adrPct": 4.8,
+        "distToPivotPct": -18.34,
+        "distToPivotAdr": -3.82,
+        "riskPerSharePct": 3.92,
+        "extensionAdr": -0.78,
         "breakDate": null,
         "metrics": {
-          "baseBars": 24,
-          "baseWeeks": 4.8,
+          "baseBars": 25,
+          "baseWeeks": 5,
           "depthPct": 20.8,
           "priorMovePct": 91,
           "higherLows": 0,
-          "contraction": 0.95,
-          "closeRange10Adr": 2.5,
-          "surf10": -1.36,
-          "surf20": -2.5,
-          "slope20": -2.81,
+          "contraction": 1.02,
+          "closeRange10Adr": 2.4,
+          "surf10": -0.78,
+          "surf20": -1.91,
+          "slope20": -3.08,
           "baseLow": 136.3,
           "lastSwingLow": 152.73
         },
         "reasons": [
           "선행 상승 +91%",
-          "베이스 4.8주",
+          "베이스 5주",
           "깊이 20.8%",
           "✗ 저점 상승 0회",
-          "진폭 0.95배 · 10일 종가폭 2.5 ADR",
-          "✗ 10일선 -1.4 ADR · 20일선 -2.5 ADR",
-          "✗ 20일선 기울기 -2.81%"
+          "진폭 1.02배 · 10일 종가폭 2.4 ADR",
+          "✗ 10일선 -0.8 ADR · 20일선 -1.9 ADR",
+          "✗ 20일선 기울기 -3.08%"
         ]
       },
       "checks": {
@@ -16591,27 +16585,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 4.8주 · 기준 2~8주"
+            "evidence": "베이스 5주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.95배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 1.02배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 20.8% · ADR 4.82%의 4.3배 · 선행 상승의 절반 46%"
+            "evidence": "베이스 깊이 20.8% · ADR 4.8%의 4.3배 · 선행 상승의 절반 46%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 137.92 · 20일선 154.54 · 50일선 147.79 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 140.45 · 20일선 153.32 · 50일선 147.79 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.13배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.28배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -16621,17 +16615,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 172까지 -19.81% (-4.11 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 172까지 -18.34% (-3.82 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.87% · ADR 4.82%"
+            "evidence": "예비 손절 폭 3.92% · ADR 4.8%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.4 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -16658,12 +16652,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.13배(20일 평균 대비) · 오늘 거래대금 1.13배(상승일) · 상장주식 42M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.28배(20일 평균 대비) · 오늘 거래대금 1.13배(상승일) · 상장주식 42M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 70.47% · 3M 44.41% · 6M 0.77% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 70.44% · 3M 44.36% · 6M 0.77% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -16682,30 +16676,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "CRL",
       "price": 314.32000732421875,
-      "marketCap": "15.71B",
+      "marketCap": "15.06B",
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "rs": {
         "m1": {
           "v": 0.0463116836420379,
-          "pct": 36.47430117222723
+          "pct": 36.5072202166065
         },
         "m3": {
           "v": 0.21577520359346758,
-          "pct": 83.81424706943193
+          "pct": 83.79963898916968
         },
         "m6": {
           "v": 0.9810837498672205,
-          "pct": 99.0532010820559
+          "pct": 99.0523465703971
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 99.0532010820559,
+      "bestPct": 99.0523465703971,
       "adr": 4.82,
-      "cyTrend": 0.88,
-      "nyTrend": 1.55,
+      "cyTrend": 0.84,
+      "nyTrend": 1.67,
       "upCount": 28,
       "downCount": 14,
       "upDownRatio": 66.67,
@@ -16735,17 +16729,17 @@ window.TEAM2_DATA = {
       "targetStatus": false,
       "est": {
         "cyCur": 11.47209,
-        "cy30": 11.37223,
-        "nyCur": 12.9701,
-        "ny30": 12.77164
+        "cy30": 11.37699,
+        "nyCur": 12.96877,
+        "ny30": 12.75616
       },
-      "saleCy": -1.56,
-      "saleNy": 2.75,
+      "saleCy": -1.57,
+      "saleNy": 2.7,
       "epsCy": 11.6,
-      "epsNy": 13.06,
+      "epsNy": 13.05,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.99,
       "fs": {
         "sale": [
@@ -16775,13 +16769,13 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 18
       },
-      "ma150Slope": 9.97,
+      "ma150Slope": 9.79,
       "ta": {
-        "price": 314.32,
-        "resistance": 333.3,
+        "price": 338.26,
+        "resistance": 379.63,
         "support": 311.68,
-        "contraction": 0.66,
-        "trend": "mixed"
+        "contraction": 0.64,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -16795,9 +16789,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0995,
-        "m3": 0.1935,
-        "m6": 0.5021,
+        "m1": 0.1004,
+        "m3": 0.194,
+        "m6": 0.502,
         "rankPct6": 4.51,
         "count": 21
       },
@@ -17560,20 +17554,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CRL",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 64.78,
-        "pbr": 5.28,
+        "per": 69.71,
+        "pbr": 5.69,
         "eps": 4.85,
         "bps": 59.5,
         "shares": 47917500,
-        "marketCapM": 15061,
+        "marketCapM": 16209,
         "high52": 379.63,
         "high52Date": "2026-10-29",
         "low52": 146.195,
         "low52Date": "2026-05-19",
-        "last": 314.32,
-        "prevClose": 327.93,
+        "last": 338.26,
+        "prevClose": 314.32,
         "nameKo": "찰스 리버 래브러토리스 인터내셔널",
         "nameEn": "CHARLES RIVER LABORATORIES",
         "listedOn": null,
@@ -17583,7 +17577,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CRL",
         "url": "https://finance.yahoo.com/quote/CRL/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -17859,37 +17853,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 379.63,
-        "stop": 364.48,
-        "adrPct": 4.82,
-        "distToPivotPct": -17.2,
-        "distToPivotAdr": -3.57,
-        "riskPerSharePct": 3.99,
-        "extensionAdr": -1.46,
+        "stop": 363.1,
+        "adrPct": 4.89,
+        "distToPivotPct": -10.9,
+        "distToPivotAdr": -2.23,
+        "riskPerSharePct": 4.35,
+        "extensionAdr": 0.21,
         "breakDate": null,
         "metrics": {
-          "baseBars": 20,
-          "baseWeeks": 4,
+          "baseBars": 23,
+          "baseWeeks": 4.6,
           "depthPct": 18.2,
           "priorMovePct": 67,
           "higherLows": 1,
-          "contraction": 0.66,
-          "closeRange10Adr": 2.6,
-          "surf10": -1.46,
-          "surf20": -1.88,
-          "slope20": -0.03,
+          "contraction": 0.64,
+          "closeRange10Adr": 1.9,
+          "surf10": 0.21,
+          "surf20": -0.22,
+          "slope20": -0.82,
           "baseLow": 310.52,
           "lastSwingLow": 326.29
         },
         "reasons": [
           "선행 상승 +67%",
-          "베이스 4주",
+          "베이스 4.6주",
           "깊이 18.2%",
           "저점 상승 1회",
-          "진폭 0.66배 · 10일 종가폭 2.6 ADR",
-          "✗ 10일선 -1.5 ADR · 20일선 -1.9 ADR",
-          "✗ 20일선 기울기 -0.03%"
+          "진폭 0.64배 · 10일 종가폭 1.9 ADR",
+          "✗ 10일선 +0.2 ADR · 20일선 -0.2 ADR",
+          "✗ 20일선 기울기 -0.82%"
         ]
       },
       "checks": {
@@ -17902,27 +17896,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 4주 · 기준 2~8주"
+            "evidence": "베이스 4.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.66배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.64배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 18.2% · ADR 4.82%의 3.8배 · 선행 상승의 절반 34%"
+            "evidence": "베이스 깊이 18.2% · ADR 4.89%의 3.7배 · 선행 상승의 절반 34%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 314.32 · 20일선 342.83 · 50일선 315.95 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 338.26 · 20일선 341.88 · 50일선 317.25"
           },
           {
             "item": "거래량 마름",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.66배 · 기준 0.7 이하"
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.76배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -17932,17 +17926,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 379.63까지 -17.2% (-3.57 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 379.63까지 -10.9% (-2.23 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.99% · ADR 4.82%"
+            "evidence": "예비 손절 폭 4.35% · ADR 4.89%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.5 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.2 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -17968,13 +17962,13 @@ window.TEAM2_DATA = {
           },
           {
             "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량 0.66배(20일 평균 대비) · 오늘 거래대금 0.98배 · 상장주식 48M주(한국투자증권) · 유통주식은 확인 불가"
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.76배(20일 평균 대비) · 오늘 거래대금 0.98배 · 상장주식 48M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 63.53% · 3M 16.19% · 6M 0.95% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 63.49% · 3M 16.2% · 6M 0.95% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -17993,27 +17987,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "SN",
       "price": 212.63999938964844,
-      "marketCap": "30.55B",
+      "marketCap": "29.96B",
       "sector": "Consumer Cyclical",
       "industry": "Furnishings, Fixtures & Appliances",
       "rs": {
         "m1": {
           "v": 0.219013856871087,
-          "pct": 91.2082957619477
+          "pct": 91.20036101083032
         },
         "m3": {
           "v": 0.25791356621551287,
-          "pct": 91.11812443642921
+          "pct": 91.11010830324909
         },
         "m6": {
           "v": 0.9217712033649313,
-          "pct": 98.96302975653742
+          "pct": 98.96209386281588
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.96302975653742,
+      "bestPct": 98.96209386281588,
       "adr": 4.05,
       "cyTrend": 2.57,
       "nyTrend": 3.11,
@@ -18056,7 +18050,7 @@ window.TEAM2_DATA = {
       "epsNy": 16.72,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.08,
       "fs": {
         "sale": [
@@ -18086,12 +18080,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 16
       },
-      "ma150Slope": 9.59,
+      "ma150Slope": 9.61,
       "ta": {
-        "price": 212.64,
+        "price": 225.37,
         "resistance": 232.76,
         "support": 177.51,
-        "contraction": 1.02,
+        "contraction": 0.97,
         "trend": "up"
       },
       "top2Gaps": {
@@ -18106,9 +18100,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.2269,
-        "m3": 0.2522,
-        "m6": 0.8314,
+        "m1": 0.227,
+        "m3": 0.2523,
+        "m6": 0.8311,
         "rankPct6": 0.75,
         "count": 3
       },
@@ -18874,6 +18868,13 @@ window.TEAM2_DATA = {
       },
       "cnbc": [
         {
+          "title": "These three retail stocks on Josh Brown’s list are bucking the market volatility",
+          "url": "https://www.cnbc.com/2026/11/23/sharkninja-target-ebay-retail-stocks.html",
+          "date": "2026-11-23",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
           "title": "Three consumer stocks to buy after the midterm elections",
           "url": "https://www.cnbc.com/2026/11/05/three-consumer-stocks-to-buy-after-the-midterm-elections.html",
           "date": "2026-11-05",
@@ -18911,20 +18912,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "SN",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 43.45,
-        "pbr": 10.54,
+        "per": 46.05,
+        "pbr": 11.17,
         "eps": 4.89,
         "bps": 20.18,
         "shares": 140911500,
-        "marketCapM": 29963,
+        "marketCapM": 31757,
         "high52": 232.76,
         "high52Date": "2026-11-09",
-        "low52": 85.01,
-        "low52Date": "2025-11-20",
-        "last": 212.64,
-        "prevClose": 216.8,
+        "low52": 86.455,
+        "low52Date": "2025-11-24",
+        "last": 225.37,
+        "prevClose": 212.64,
         "nameKo": "샤크닌자",
         "nameEn": "SHARKNINJA INC",
         "listedOn": null,
@@ -18934,7 +18935,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "SN",
         "url": "https://finance.yahoo.com/quote/SN/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -19179,38 +19180,38 @@ window.TEAM2_DATA = {
       },
       "setup": {
         "state": "pre",
-        "grade": "C",
-        "asOf": "2026-11-20",
+        "grade": "A",
+        "asOf": "2026-11-23",
         "pivot": 232.76,
-        "stop": 224.15,
-        "adrPct": 4.05,
-        "distToPivotPct": -8.64,
-        "distToPivotAdr": -2.13,
-        "riskPerSharePct": 3.7,
-        "extensionAdr": -1.23,
+        "stop": 223.67,
+        "adrPct": 4.03,
+        "distToPivotPct": -3.17,
+        "distToPivotAdr": -0.79,
+        "riskPerSharePct": 3.91,
+        "extensionAdr": 0.28,
         "breakDate": null,
         "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
-          "depthPct": 9,
+          "baseBars": 15,
+          "baseWeeks": 3,
+          "depthPct": 13,
           "priorMovePct": 48.2,
-          "higherLows": 0,
-          "contraction": 1.02,
-          "closeRange10Adr": 2,
-          "surf10": -1.23,
-          "surf20": -0.43,
-          "slope20": 2.91,
-          "baseLow": 211.74,
-          "lastSwingLow": 211.74
+          "higherLows": 1,
+          "contraction": 0.97,
+          "closeRange10Adr": 1.9,
+          "surf10": 0.28,
+          "surf20": 0.85,
+          "slope20": 2.7,
+          "baseLow": 202.5,
+          "lastSwingLow": 202.5
         },
         "reasons": [
           "선행 상승 +48%",
-          "베이스 2.4주",
-          "깊이 9%",
-          "✗ 저점 상승 0회",
-          "진폭 1.02배 · 10일 종가폭 2 ADR",
-          "✗ 10일선 -1.2 ADR · 20일선 -0.4 ADR",
-          "20일선 기울기 +2.91%"
+          "베이스 3주",
+          "깊이 13%",
+          "저점 상승 1회",
+          "진폭 0.97배 · 10일 종가폭 1.9 ADR",
+          "10일선 +0.3 ADR · 20일선 +0.8 ADR",
+          "20일선 기울기 +2.7%"
         ]
       },
       "checks": {
@@ -19223,27 +19224,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "evidence": "베이스 3주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.02배(1 미만이면 좁아짐)"
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.97배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 9% · ADR 4.05%의 2.2배 · 선행 상승의 절반 24%"
+            "evidence": "베이스 깊이 13% · ADR 4.03%의 3.2배 · 선행 상승의 절반 24%"
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 212.64 · 20일선 216.35 · 50일선 195.63"
+            "status": "충족",
+            "evidence": "종가 225.37 · 20일선 217.69 · 50일선 196.74"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.99배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.96배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -19252,18 +19253,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 232.76까지 -8.64% (-2.13 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 232.76까지 -3.17% (-0.79 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.7% · ADR 4.05%"
+            "evidence": "예비 손절 폭 3.91% · ADR 4.03%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -19290,12 +19291,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.99배(20일 평균 대비) · 오늘 거래대금 0.98배 · 상장주식 141M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.96배(20일 평균 대비) · 오늘 거래대금 0.98배 · 상장주식 141M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 8.79% · 3M 8.88% · 6M 1.04% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 8.8% · 3M 8.89% · 6M 1.04% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -19314,27 +19315,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "OLLI",
       "price": 90.05999755859375,
-      "marketCap": "5.61B",
+      "marketCap": "5.35B",
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
       "rs": {
         "m1": {
           "v": 0.16289097570911013,
-          "pct": 77.41208295761948
+          "pct": 77.39169675090253
         },
         "m3": {
           "v": 0.41475633669403783,
-          "pct": 98.87285843101894
+          "pct": 98.87184115523465
         },
         "m6": {
           "v": 0.3192151812041749,
-          "pct": 73.80522993688007
+          "pct": 73.78158844765343
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 98.87285843101894,
+      "bestPct": 98.87184115523465,
       "adr": 4.43,
       "cyTrend": 0.27,
       "nyTrend": 0.45,
@@ -19377,8 +19378,8 @@ window.TEAM2_DATA = {
       "epsNy": 7.6,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 26.24,
+      "apiCalled": true,
+      "siteRankPct6": 26.26,
       "fs": {
         "sale": [
           9.09,
@@ -19407,12 +19408,12 @@ window.TEAM2_DATA = {
         "m3": 3,
         "m6": 0
       },
-      "ma150Slope": -0.18,
+      "ma150Slope": -0.1,
       "ta": {
-        "price": 90.06,
-        "resistance": 95.77,
-        "support": 88.48,
-        "contraction": 0.96,
+        "price": 88.65,
+        "resistance": 89.39,
+        "support": 83.57,
+        "contraction": 1.07,
         "trend": "up"
       },
       "top2Gaps": {
@@ -19425,11 +19426,11 @@ window.TEAM2_DATA = {
         "m3": false,
         "m6": false
       },
-      "ma150SlopeDir": "down",
+      "ma150SlopeDir": "flat",
       "wrs": {
         "m1": 0.2124,
-        "m3": 0.3637,
-        "m6": 0.339,
+        "m3": 0.3642,
+        "m6": 0.3386,
         "rankPct6": 23.31,
         "count": 8
       },
@@ -20070,20 +20071,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "OLLI",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 20.13,
-        "pbr": 2.83,
+        "per": 19.81,
+        "pbr": 2.78,
         "eps": 4.47,
         "bps": 31.83,
         "shares": 59402400,
-        "marketCapM": 5350,
+        "marketCapM": 5266,
         "high52": 126.315,
         "high52Date": "2025-11-26",
         "low52": 60.29,
         "low52Date": "2026-07-09",
-        "last": 90.06,
-        "prevClose": 94.44,
+        "last": 88.65,
+        "prevClose": 90.06,
         "nameKo": "올리스 바겐 아웃렛 홀딩스",
         "nameEn": "OLLIES BARGAIN OUTLET HLDGS INC",
         "listedOn": null,
@@ -20093,7 +20094,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "OLLI",
         "url": "https://finance.yahoo.com/quote/OLLI/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -20254,10 +20255,20 @@ window.TEAM2_DATA = {
           "upgrades": 1,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 4,
+          "ptRaised": 5,
           "ptLowered": 7,
           "total": 13,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 110,
+              "ptPrior": 90
+            },
             {
               "date": "2026-11-09",
               "firm": "Keybanc",
@@ -20347,16 +20358,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 124,
               "ptPrior": 121
-            },
-            {
-              "date": "2026-09-03",
-              "firm": "Wells Fargo",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Lowers",
-              "pt": 90,
-              "ptPrior": 100
             }
           ]
         },
@@ -20369,9 +20370,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 4.43,
-        "extensionAdr": -1.21,
+        "asOf": "2026-11-23",
+        "adrPct": 4.51,
+        "extensionAdr": -1.4,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -20403,12 +20404,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 90.06 · 20일선 92.11 · 50일선 88.26"
+            "evidence": "종가 88.65 · 20일선 92.33 · 50일선 88.5"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.01배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.04배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -20428,7 +20429,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -1.4 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -20455,12 +20456,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.01배(20일 평균 대비) · 오늘 거래대금 1.05배 · 상장주식 59M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.04배(20일 평균 대비) · 오늘 거래대금 1.05배 · 상장주식 59M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 22.59% · 3M 1.13% · 6M 26.19% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 22.61% · 3M 1.13% · 6M 26.22% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -20479,31 +20480,31 @@ window.TEAM2_DATA = {
     {
       "ticker": "ORKA",
       "price": 95.80999755859375,
-      "marketCap": "6.62B",
+      "marketCap": "6.50B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.33159883366206994,
-          "pct": 98.42200180342651
+          "pct": 98.42057761732852
         },
         "m3": {
           "v": 0.14779046215070382,
-          "pct": 67.22272317403066
+          "pct": 67.28339350180505
         },
         "m6": {
           "v": 0.917557005965697,
-          "pct": 98.87285843101894
+          "pct": 98.87184115523465
         }
       },
       "qualifiedBy": [
         "1mo",
         "6mo"
       ],
-      "bestPct": 98.87285843101894,
+      "bestPct": 98.87184115523465,
       "adr": 6.42,
-      "cyTrend": 8.64,
-      "nyTrend": -0.01,
+      "cyTrend": 10.01,
+      "nyTrend": 2.25,
       "upCount": 6,
       "downCount": 25,
       "upDownRatio": 19.35,
@@ -20532,18 +20533,18 @@ window.TEAM2_DATA = {
       "clsPos": 63.71,
       "targetStatus": false,
       "est": {
-        "cyCur": -2.57088,
+        "cyCur": -2.6031,
         "cy30": -2.36632,
-        "nyCur": -2.86196,
+        "nyCur": -2.92641,
         "ny30": -2.86212
       },
       "saleCy": 0,
       "saleNy": 0,
-      "epsCy": 38.97,
-      "epsNy": 11.32,
+      "epsCy": 40.71,
+      "epsNy": 12.42,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.17,
       "fs": {
         "sale": [
@@ -20569,12 +20570,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 6
       },
-      "ma150Slope": 7.38,
+      "ma150Slope": 7.19,
       "ta": {
-        "price": 95.81,
-        "resistance": 97.78,
+        "price": 98.65,
+        "resistance": 113.24,
         "support": 94.05,
-        "contraction": 0.97,
+        "contraction": 1.07,
         "trend": "up"
       },
       "top2Gaps": {
@@ -20589,9 +20590,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -20907,7 +20908,7 @@ window.TEAM2_DATA = {
       "nameKo": "오루카 테라퓨틱스",
       "nameEn": "ORUKA THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "오루카 테라퓨틱스",
         "nameEn": "ORUKA THERAPEUTICS INC",
         "infomaxCode": "NAS:ORKA",
@@ -21206,20 +21207,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "ORKA",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 38.9,
-        "pbr": 5.26,
+        "per": 40.06,
+        "pbr": 5.42,
         "eps": 2.46,
         "bps": 18.2,
         "shares": 67822400,
-        "marketCapM": 6498,
+        "marketCapM": 6691,
         "high52": 115.515,
         "high52Date": "2026-08-19",
         "low52": 25.23,
         "low52Date": "2026-01-05",
-        "last": 95.81,
-        "prevClose": 97.57,
+        "last": 98.65,
+        "prevClose": 95.81,
         "nameKo": "오루카 테라퓨틱스",
         "nameEn": "ORUKA THERAPEUTICS INC",
         "listedOn": "2024-09-03",
@@ -21229,7 +21230,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "ORKA",
         "url": "https://finance.yahoo.com/quote/ORKA/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -21475,37 +21476,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 113.24,
-        "stop": 107.09,
-        "adrPct": 6.42,
-        "distToPivotPct": -15.39,
-        "distToPivotAdr": -2.4,
-        "riskPerSharePct": 5.43,
-        "extensionAdr": -0.94,
+        "stop": 107.42,
+        "adrPct": 5.9,
+        "distToPivotPct": -12.88,
+        "distToPivotAdr": -2.18,
+        "riskPerSharePct": 5.14,
+        "extensionAdr": -0.41,
         "breakDate": null,
         "metrics": {
-          "baseBars": 10,
-          "baseWeeks": 2,
+          "baseBars": 11,
+          "baseWeeks": 2.2,
           "depthPct": 17.6,
           "priorMovePct": 60.6,
           "higherLows": 0,
-          "contraction": 0.97,
-          "closeRange10Adr": 2.2,
-          "surf10": -0.94,
-          "surf20": -0.58,
-          "slope20": 4.74,
+          "contraction": 1.07,
+          "closeRange10Adr": 2.4,
+          "surf10": -0.41,
+          "surf20": -0.19,
+          "slope20": 3.82,
           "baseLow": 93.3,
           "lastSwingLow": 93.3
         },
         "reasons": [
           "선행 상승 +61%",
-          "베이스 2주",
+          "베이스 2.2주",
           "깊이 17.6%",
           "✗ 저점 상승 0회",
-          "진폭 0.97배 · 10일 종가폭 2.2 ADR",
-          "✗ 10일선 -0.9 ADR · 20일선 -0.6 ADR",
-          "20일선 기울기 +4.74%"
+          "진폭 1.07배 · 10일 종가폭 2.4 ADR",
+          "✗ 10일선 -0.4 ADR · 20일선 -0.2 ADR",
+          "20일선 기울기 +3.82%"
         ]
       },
       "checks": {
@@ -21518,27 +21519,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2주 · 기준 2~8주"
+            "evidence": "베이스 2.2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.97배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 1.07배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 17.6% · ADR 6.42%의 2.7배 · 선행 상승의 절반 30%"
+            "evidence": "베이스 깊이 17.6% · ADR 5.9%의 3배 · 선행 상승의 절반 30%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 95.81 · 20일선 99.36 · 50일선 90.12"
+            "evidence": "종가 98.65 · 20일선 99.77 · 50일선 90.18"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.97배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.02배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -21548,17 +21549,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 113.24까지 -15.39% (-2.4 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 113.24까지 -12.88% (-2.18 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.43% · ADR 6.42%"
+            "evidence": "예비 손절 폭 5.14% · ADR 5.9%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.4 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -21585,12 +21586,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.97배(20일 평균 대비) · 오늘 거래대금 1.76배 · 상장주식 68M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.02배(20일 평균 대비) · 오늘 거래대금 1.76배 · 상장주식 68M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.58% · 3M 32.78% · 6M 1.13% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.58% · 3M 32.72% · 6M 1.13% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -21609,27 +21610,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "TXG",
       "price": 51.79999923706055,
-      "marketCap": "7.55B",
+      "marketCap": "6.81B",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "rs": {
         "m1": {
           "v": -0.13981555803636103,
-          "pct": 5.63570784490532
+          "pct": 5.640794223826714
         },
         "m3": {
           "v": -0.045881479671825764,
-          "pct": 23.038773669972947
+          "pct": 23.05956678700361
         },
         "m6": {
           "v": 0.8695584399154027,
-          "pct": 98.78268710550046
+          "pct": 98.78158844765343
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.78268710550046,
+      "bestPct": 98.78158844765343,
       "adr": 9.17,
       "cyTrend": 72.7,
       "nyTrend": 13.04,
@@ -21672,7 +21673,7 @@ window.TEAM2_DATA = {
       "epsNy": 36.85,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.26,
       "fs": null,
       "top2Since": {
@@ -21685,12 +21686,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 30
       },
-      "ma150Slope": 12.23,
+      "ma150Slope": 11.86,
       "ta": {
-        "price": 51.8,
+        "price": 57.65,
         "resistance": 60.69,
-        "support": 44.39,
-        "contraction": 0.75,
+        "support": 55.25,
+        "contraction": 0.64,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -21705,8 +21706,8 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1643,
-        "m3": 0.1654,
+        "m1": 0.1645,
+        "m3": 0.1657,
         "m6": 0.4058,
         "rankPct6": 11.28,
         "count": 23
@@ -22466,20 +22467,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "TXG",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 87.84,
-        "pbr": 8.17,
+        "per": 97.76,
+        "pbr": 9.1,
         "eps": 0.59,
         "bps": 6.34,
         "shares": 121455000,
-        "marketCapM": 6291,
+        "marketCapM": 7002,
         "high52": 102.81,
         "high52Date": "2026-10-06",
         "low52": 15.18,
         "low52Date": "2025-12-15",
-        "last": 51.8,
-        "prevClose": 57.38,
+        "last": 57.65,
+        "prevClose": 51.8,
         "nameKo": "10X 지노믹스",
         "nameEn": "10X GENOMICS INC",
         "listedOn": "2019-09-11",
@@ -22489,7 +22490,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "TXG",
         "url": "https://finance.yahoo.com/quote/TXG/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -22765,37 +22766,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 102.81,
-        "stop": 98.06,
-        "adrPct": 9.17,
-        "distToPivotPct": -49.62,
-        "distToPivotAdr": -5.41,
-        "riskPerSharePct": 4.62,
-        "extensionAdr": -1.41,
+        "stop": 97.54,
+        "adrPct": 9.14,
+        "distToPivotPct": -43.93,
+        "distToPivotAdr": -4.81,
+        "riskPerSharePct": 5.13,
+        "extensionAdr": -0.02,
         "breakDate": null,
         "metrics": {
-          "baseBars": 35,
-          "baseWeeks": 7,
+          "baseBars": 36,
+          "baseWeeks": 7.2,
           "depthPct": 50.1,
           "priorMovePct": 168.2,
           "higherLows": 0,
-          "contraction": 0.75,
-          "closeRange10Adr": 2.8,
-          "surf10": -1.41,
-          "surf20": -2.6,
-          "slope20": -5.92,
+          "contraction": 0.64,
+          "closeRange10Adr": 2.1,
+          "surf10": -0.02,
+          "surf20": -1.09,
+          "slope20": -6.01,
           "baseLow": 51.3,
           "lastSwingLow": 55.5
         },
         "reasons": [
           "선행 상승 +168%",
-          "베이스 7주",
+          "베이스 7.2주",
           "✗ 깊이 50.1%",
           "✗ 저점 상승 0회",
-          "진폭 0.75배 · 10일 종가폭 2.8 ADR",
-          "✗ 10일선 -1.4 ADR · 20일선 -2.6 ADR",
-          "✗ 20일선 기울기 -5.92%"
+          "진폭 0.64배 · 10일 종가폭 2.1 ADR",
+          "✗ 10일선 0 ADR · 20일선 -1.1 ADR",
+          "✗ 20일선 기울기 -6.01%"
         ]
       },
       "checks": {
@@ -22808,27 +22809,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 7주 · 기준 2~8주"
+            "evidence": "베이스 7.2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.75배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.64배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 50.1% · ADR 9.17%의 5.5배 · 선행 상승의 절반 84%"
+            "evidence": "베이스 깊이 50.1% · ADR 9.14%의 5.5배 · 선행 상승의 절반 84%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 51.8 · 20일선 64.14 · 50일선 72.86 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 57.65 · 20일선 63.38 · 50일선 72.61 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.88배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.84배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -22838,17 +22839,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 102.81까지 -49.62% (-5.41 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 102.81까지 -43.93% (-4.81 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 4.62% · ADR 9.17%"
+            "evidence": "예비 손절 폭 5.13% · ADR 9.14%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.4 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -22875,12 +22876,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.88배(20일 평균 대비) · 오늘 거래대금 0.84배 · 상장주식 121M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.84배(20일 평균 대비) · 오늘 거래대금 0.84배 · 상장주식 121M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 94.36% · 3M 76.96% · 6M 1.22% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 94.36% · 3M 76.94% · 6M 1.22% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -22899,30 +22900,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "TMDX",
       "price": 85.25,
-      "marketCap": "3.27B",
+      "marketCap": "2.96B",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "rs": {
         "m1": {
           "v": 0.3413325986984047,
-          "pct": 98.78268710550046
+          "pct": 98.78158844765343
         },
         "m3": {
           "v": 0.08450744268689979,
-          "pct": 50.721370604147886
+          "pct": 50.76714801444043
         },
         "m6": {
           "v": 0.42824610586075684,
-          "pct": 85.52750225428314
+          "pct": 85.514440433213
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 98.78268710550046,
+      "bestPct": 98.78158844765343,
       "adr": 6.08,
       "cyTrend": 10.37,
-      "nyTrend": 10.28,
+      "nyTrend": 10.23,
       "upCount": 15,
       "downCount": 11,
       "upDownRatio": 57.69,
@@ -22953,17 +22954,17 @@ window.TEAM2_DATA = {
       "est": {
         "cyCur": 1.66991,
         "cy30": 1.513,
-        "nyCur": 2.48584,
+        "nyCur": 2.48484,
         "ny30": 2.25415
       },
       "saleCy": 26.7,
-      "saleNy": 17.5,
+      "saleNy": 17.48,
       "epsCy": -36.43,
-      "epsNy": 48.86,
+      "epsNy": 48.8,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 14.52,
+      "apiCalled": true,
+      "siteRankPct6": 14.53,
       "fs": {
         "sale": [
           20.7,
@@ -22992,12 +22993,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -4.18,
+      "ma150Slope": -3.99,
       "ta": {
-        "price": 85.25,
-        "resistance": 89.38,
+        "price": 92.73,
+        "resistance": 95.18,
         "support": 81.34,
-        "contraction": 1.22,
+        "contraction": 1.02,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -23012,8 +23013,8 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.1643,
-        "m3": 0.1654,
+        "m1": 0.1645,
+        "m3": 0.1657,
         "m6": 0.4058,
         "rankPct6": 11.28,
         "count": 23
@@ -23406,7 +23407,7 @@ window.TEAM2_DATA = {
       "nameKo": "트랜스메딕스 그룹",
       "nameEn": "TRANSMEDICS GROUP INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "트랜스메딕스 그룹",
         "nameEn": "TRANSMEDICS GROUP INC",
         "infomaxCode": "NAS:TMDX",
@@ -23703,20 +23704,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "TMDX",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 22.18,
-        "pbr": 5.7,
+        "per": 24.12,
+        "pbr": 6.2,
         "eps": 3.84,
         "bps": 14.96,
         "shares": 34733900,
-        "marketCapM": 2961,
+        "marketCapM": 3221,
         "high52": 156,
         "high52Date": "2025-12-02",
         "low52": 60.105,
         "low52Date": "2026-05-13",
-        "last": 85.25,
-        "prevClose": 94.02,
+        "last": 92.73,
+        "prevClose": 85.25,
         "nameKo": "트랜스메딕스 그룹",
         "nameEn": "TRANSMEDICS GROUP INC",
         "listedOn": "2019-05-01",
@@ -23726,7 +23727,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "TMDX",
         "url": "https://finance.yahoo.com/quote/TMDX/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -23980,39 +23981,15 @@ window.TEAM2_DATA = {
         }
       },
       "setup": {
-        "state": "post",
-        "grade": "C",
-        "asOf": "2026-11-20",
-        "pivot": 90.67,
-        "stop": 85.6,
-        "adrPct": 6.08,
-        "distToPivotPct": -5.98,
-        "distToPivotAdr": -0.98,
-        "riskPerSharePct": 5.59,
-        "extensionAdr": -1.34,
-        "breakDate": "2026-11-09",
-        "metrics": {
-          "baseBars": 40,
-          "baseWeeks": 8,
-          "depthPct": 28.7,
-          "priorMovePct": 39.8,
-          "higherLows": 0,
-          "contraction": 1.16,
-          "closeRange10Adr": 4.4,
-          "surf10": 3.51,
-          "surf20": 3.15,
-          "slope20": -2.51,
-          "baseLow": 64.64,
-          "lastSwingLow": 64.64
-        },
+        "state": "none",
+        "grade": null,
+        "asOf": "2026-11-23",
+        "adrPct": 6.21,
+        "extensionAdr": 0.11,
+        "breakDate": null,
+        "metrics": null,
         "reasons": [
-          "선행 상승 +40%",
-          "베이스 8주",
-          "✗ 깊이 28.7%",
-          "✗ 저점 상승 0회",
-          "✗ 진폭 1.16배 · 10일 종가폭 4.4 ADR",
-          "✗ 10일선 +3.5 ADR · 20일선 +3.1 ADR",
-          "✗ 20일선 기울기 -2.51%"
+          "쉬는 구간 없음"
         ]
       },
       "checks": {
@@ -24020,52 +23997,52 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "선행 상승 40% · 기준 30%↑"
+            "evidence": "3개월 최대상승 53% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 8주 · 기준 2~8주"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.16배(1 미만이면 좁아짐)"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "깊이",
-            "status": "미충족",
-            "evidence": "베이스 깊이 28.7% · ADR 6.08%의 4.7배 · 선행 상승의 절반 20%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 85.25 · 20일선 81.31 · 50일선 80.88"
+            "evidence": "종가 92.73 · 20일선 82.42 · 50일선 81.02"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.8배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.86배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
-            "status": "미충족",
-            "evidence": "2026-11-09 돌파봉 거래량 = 20일 평균의 1.81배 · 기준 2배"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "이미 2026-11-09 피벗 90.67 돌파 — 추격 구간"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 5.59% · ADR 6.08%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -24092,12 +24069,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.8배(20일 평균 대비) · 오늘 거래대금 1.27배 · 상장주식 35M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.86배(20일 평균 대비) · 오늘 거래대금 1.27배 · 상장주식 35M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.22% · 3M 49.28% · 6M 14.47% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.22% · 3M 49.23% · 6M 14.49% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -24116,27 +24093,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "CAKE",
       "price": 107.94999694824219,
-      "marketCap": "5.60B",
+      "marketCap": "5.38B",
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
       "rs": {
         "m1": {
           "v": 0.13504008271361734,
-          "pct": 68.66546438232642
+          "pct": 68.7274368231047
         },
         "m3": {
           "v": 0.13857178163452788,
-          "pct": 65.23895401262398
+          "pct": 65.29783393501805
         },
         "m6": {
-          "v": 0.865793249080605,
-          "pct": 98.69251577998197
+          "v": 0.8657930488980452,
+          "pct": 98.6913357400722
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.69251577998197,
+      "bestPct": 98.6913357400722,
       "adr": 5.1,
       "cyTrend": 2.78,
       "nyTrend": 3.35,
@@ -24179,7 +24156,7 @@ window.TEAM2_DATA = {
       "epsNy": 11.33,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.35,
       "fs": {
         "sale": [
@@ -24209,13 +24186,13 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 4
       },
-      "ma150Slope": 8.37,
+      "ma150Slope": 8.29,
       "ta": {
-        "price": 107.95,
+        "price": 109.92,
         "resistance": 111,
         "support": 105.36,
-        "contraction": 0.88,
-        "trend": "mixed"
+        "contraction": 0.84,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -24229,9 +24206,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.2029,
-        "m3": 0.1774,
-        "m6": 0.2484,
+        "m1": 0.203,
+        "m3": 0.1778,
+        "m6": 0.2476,
         "rankPct6": 35.34,
         "count": 14
       },
@@ -24647,7 +24624,7 @@ window.TEAM2_DATA = {
       "nameKo": "치즈케익 팩토리",
       "nameEn": "CHEESECAKE FACTORY",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-24",
         "nameKo": "치즈케익 팩토리",
         "nameEn": "CHEESECAKE FACTORY",
         "infomaxCode": "NAS:CAKE",
@@ -24971,20 +24948,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CAKE",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 29.3,
-        "pbr": 10.35,
+        "per": 29.83,
+        "pbr": 10.54,
         "eps": 3.68,
         "bps": 10.43,
         "shares": 49855400,
-        "marketCapM": 5382,
+        "marketCapM": 5480,
         "high52": 120.7824,
         "high52Date": "2026-11-18",
-        "low52": 42.4249,
-        "low52Date": "2025-11-20",
-        "last": 107.945,
-        "prevClose": 112.25,
+        "low52": 44.1487,
+        "low52Date": "2025-11-24",
+        "last": 109.92,
+        "prevClose": 107.945,
         "nameKo": "치즈케익 팩토리",
         "nameEn": "CHEESECAKE FACTORY",
         "listedOn": null,
@@ -24994,7 +24971,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CAKE",
         "url": "https://finance.yahoo.com/quote/CAKE/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -25270,14 +25247,14 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "post",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 118.63,
         "stop": 113.3,
-        "adrPct": 5.1,
-        "distToPivotPct": -9,
-        "distToPivotAdr": -1.76,
+        "adrPct": 5.09,
+        "distToPivotPct": -7.34,
+        "distToPivotAdr": -1.44,
         "riskPerSharePct": 4.49,
-        "extensionAdr": -0.49,
+        "extensionAdr": -0.12,
         "breakDate": "2026-11-18",
         "metrics": {
           "baseBars": 33,
@@ -25323,17 +25300,17 @@ window.TEAM2_DATA = {
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 17.8% · ADR 5.1%의 3.5배 · 선행 상승의 절반 28%"
+            "evidence": "베이스 깊이 17.8% · ADR 5.09%의 3.5배 · 선행 상승의 절반 28%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 107.95 · 20일선 110.64 · 50일선 108.58 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 109.92 · 20일선 110.63 · 50일선 108.68"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.11배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.08배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -25348,12 +25325,12 @@ window.TEAM2_DATA = {
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 4.49% · ADR 5.1%"
+            "evidence": "예비 손절 폭 4.49% · ADR 5.09%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.5 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -25380,12 +25357,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.11배(20일 평균 대비) · 오늘 거래대금 0.98배 · 상장주식 50M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.08배(20일 평균 대비) · 오늘 거래대금 0.98배 · 상장주식 50M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 31.33% · 3M 34.76% · 6M 1.31% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 31.27% · 3M 34.7% · 6M 1.31% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -25404,28 +25381,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "GRAL",
       "price": 99.25,
-      "marketCap": "4.71B",
+      "marketCap": "4.46B",
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "rs": {
         "m1": {
           "v": -0.11501073847579157,
-          "pct": 8.431018935978358
+          "pct": 8.438628158844766
         },
         "m3": {
           "v": 0.3583824323657042,
-          "pct": 98.06131650135256
+          "pct": 98.0595667870036
         },
         "m6": {
           "v": 0.839739598002877,
-          "pct": 98.512173128945
+          "pct": 98.51083032490975
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 98.512173128945,
+      "bestPct": 98.51083032490975,
       "adr": 8.09,
       "cyTrend": -23.51,
       "nyTrend": -1.3,
@@ -25468,7 +25445,7 @@ window.TEAM2_DATA = {
       "epsNy": 41.66,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.53,
       "fs": {
         "sale": [
@@ -25498,12 +25475,12 @@ window.TEAM2_DATA = {
         "m3": 2,
         "m6": 2
       },
-      "ma150Slope": 13.51,
+      "ma150Slope": 13.07,
       "ta": {
-        "price": 99.25,
-        "resistance": 103,
+        "price": 103.55,
+        "resistance": 108.93,
         "support": 93,
-        "contraction": 0.71,
+        "contraction": 0.66,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -25518,9 +25495,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0995,
-        "m3": 0.1935,
-        "m6": 0.5021,
+        "m1": 0.1004,
+        "m3": 0.194,
+        "m6": 0.502,
         "rankPct6": 4.51,
         "count": 21
       },
@@ -25901,7 +25878,7 @@ window.TEAM2_DATA = {
       "nameKo": "그레일",
       "nameEn": "GRAIL INC",
       "detail": {
-        "fetchedAt": "2026-11-20",
+        "fetchedAt": "2026-11-24",
         "nameKo": "그레일",
         "nameEn": "GRAIL INC",
         "infomaxCode": "NAS:GRAL",
@@ -26187,8 +26164,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-16",
               "summary": "- 다중암 진단기기(MCED, Multi-Cancer Early Detection) 시장의 선도기업. 아직 상용화에 진입하지 못했으나 ASCO에서 대표 제품의 양호한 임상 데이터로 가능성 입증. 추가 임상, 파트너십 등 호재 빠르게 반영할 전망- 대표 MCED 진단기기 갤러리가 ASCO에서 구체적 성과를 입증해 상용화 기대감 점증. 영국보건당국(NHS)과 공동 진행하는 임상(NHS-Galleri)의 1차 평가지표(3-4기 환자 감소) 달성에는 실패했으나 2차 평가지표 양호- 3-4기 전체 환자 비중 증가했으나 4기 진단은 뚜렷하게 감소. 12개 암의 4기 검진 비율이 14% 줄었고 2차, 3차 검진에서 각 22%, 26% 감소해 치 명적인 병기 발견의 감소 효과 증명. 1-2기에서 발견된 환자는 16% 늘어 갤러리 사용을 통한 조기 진단 및 예후도 개선 가능성 입증",
               "pages": "5",
-              "secureId": "eqlkexgegcliczzgcgxeegc",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxeegc.pdf",
+              "secureId": "eqlkexgegcliczzgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxeegk.pdf",
               "opinion": null
             }
           ],
@@ -26206,20 +26183,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "GRAL",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 10.18,
-        "pbr": 1.74,
+        "per": 10.62,
+        "pbr": 1.82,
         "eps": 9.75,
         "bps": 56.93,
         "shares": 44962170,
-        "marketCapM": 4462,
+        "marketCapM": 4656,
         "high52": 166.475,
         "high52Date": "2026-10-06",
         "low52": 41.5,
         "low52Date": "2026-02-23",
-        "last": 99.25,
-        "prevClose": 104.84,
+        "last": 103.55,
+        "prevClose": 99.25,
         "nameKo": "그레일",
         "nameEn": "GRAIL INC",
         "listedOn": "2024-06-25",
@@ -26229,7 +26206,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "GRAL",
         "url": "https://finance.yahoo.com/quote/GRAL/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -26505,37 +26482,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 166.48,
-        "stop": 158.45,
-        "adrPct": 8.09,
-        "distToPivotPct": -40.38,
-        "distToPivotAdr": -4.99,
-        "riskPerSharePct": 4.82,
-        "extensionAdr": -1.76,
+        "stop": 158.05,
+        "adrPct": 8.14,
+        "distToPivotPct": -37.8,
+        "distToPivotAdr": -4.64,
+        "riskPerSharePct": 5.06,
+        "extensionAdr": -0.87,
         "breakDate": null,
         "metrics": {
-          "baseBars": 34,
-          "baseWeeks": 6.8,
+          "baseBars": 35,
+          "baseWeeks": 7,
           "depthPct": 40.9,
           "priorMovePct": 174,
           "higherLows": 0,
-          "contraction": 0.71,
-          "closeRange10Adr": 3.6,
-          "surf10": -1.76,
-          "surf20": -3.47,
-          "slope20": -4.57,
+          "contraction": 0.66,
+          "closeRange10Adr": 3.1,
+          "surf10": -0.87,
+          "surf20": -2.58,
+          "slope20": -5.33,
           "baseLow": 98.36,
           "lastSwingLow": 117
         },
         "reasons": [
           "선행 상승 +174%",
-          "베이스 6.8주",
+          "베이스 7주",
           "✗ 깊이 40.9%",
           "✗ 저점 상승 0회",
-          "진폭 0.71배 · 10일 종가폭 3.6 ADR",
-          "✗ 10일선 -1.8 ADR · 20일선 -3.5 ADR",
-          "✗ 20일선 기울기 -4.57%"
+          "진폭 0.66배 · 10일 종가폭 3.1 ADR",
+          "✗ 10일선 -0.9 ADR · 20일선 -2.6 ADR",
+          "✗ 20일선 기울기 -5.33%"
         ]
       },
       "checks": {
@@ -26548,22 +26525,22 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 6.8주 · 기준 2~8주"
+            "evidence": "베이스 7주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.71배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.66배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 40.9% · ADR 8.09%의 5.1배 · 선행 상승의 절반 87%"
+            "evidence": "베이스 깊이 40.9% · ADR 8.14%의 5배 · 선행 상승의 절반 87%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 99.25 · 20일선 127.08 · 50일선 123.97 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 103.55 · 20일선 125.26 · 50일선 124.53 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
@@ -26578,17 +26555,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 166.48까지 -40.38% (-4.99 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 166.48까지 -37.8% (-4.64 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 4.82% · ADR 8.09%"
+            "evidence": "예비 손절 폭 5.06% · ADR 8.14%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -26620,7 +26597,7 @@ window.TEAM2_DATA = {
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 91.57% · 3M 1.94% · 6M 1.49% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 91.56% · 3M 1.94% · 6M 1.49% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -26639,27 +26616,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "VEON",
       "price": 75.30000305175781,
-      "marketCap": "5.20B",
+      "marketCap": "5.19B",
       "sector": "Communication Services",
       "industry": "Telecom Services",
       "rs": {
         "m1": {
           "v": 0.04333486879536412,
-          "pct": 35.572587917042384
+          "pct": 35.604693140794225
         },
         "m3": {
           "v": 0.4020408900880788,
-          "pct": 98.512173128945
+          "pct": 98.51083032490975
         },
         "m6": {
           "v": 0.5444751532960125,
-          "pct": 94.09377817853922
+          "pct": 94.08844765342961
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 98.512173128945,
+      "bestPct": 98.51083032490975,
       "adr": 5.04,
       "cyTrend": 6.59,
       "nyTrend": 5.69,
@@ -26702,8 +26679,8 @@ window.TEAM2_DATA = {
       "epsNy": 18.42,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 5.95,
+      "apiCalled": true,
+      "siteRankPct6": 5.96,
       "fs": {
         "sale": [
           16.93,
@@ -26732,13 +26709,13 @@ window.TEAM2_DATA = {
         "m3": 2,
         "m6": 0
       },
-      "ma150Slope": 6.78,
+      "ma150Slope": 6.68,
       "ta": {
-        "price": 75.3,
-        "resistance": 78.83,
-        "support": 67.93,
-        "contraction": 1.06,
-        "trend": "mixed"
+        "price": 81.56,
+        "resistance": 85.27,
+        "support": 77.21,
+        "contraction": 1.12,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -26752,9 +26729,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.2293,
+        "m1": 0.2313,
         "m3": 0.0972,
-        "m6": 0.066,
+        "m6": 0.0676,
         "rankPct6": 73.68,
         "count": 8
       },
@@ -27130,7 +27107,7 @@ window.TEAM2_DATA = {
       "nameKo": "비언(ADR)",
       "nameEn": "VEON LTD SPON ADS EACH REP 25 ORD (POST REV SPLT)",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "비언(ADR)",
         "nameEn": "VEON LTD SPON ADS EACH REP 25 ORD (POST REV SPLT)",
         "infomaxCode": "NAS:VEON",
@@ -27266,20 +27243,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "VEON",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 90.59,
-        "pbr": 3.17,
+        "per": 98.12,
+        "pbr": 3.44,
         "eps": 0.83,
         "bps": 23.73,
         "shares": 67990801,
-        "marketCapM": 5120,
+        "marketCapM": 5545,
         "high52": 88.9999,
         "high52Date": "2026-10-30",
         "low52": 44,
         "low52Date": "2026-03-12",
-        "last": 75.3,
-        "prevClose": 75.56,
+        "last": 81.56,
+        "prevClose": 75.3,
         "nameKo": "비언(ADR)",
         "nameEn": "VEON LTD SPON ADS EACH REP 25 ORD (POST REV SPLT)",
         "listedOn": "2017-03-31",
@@ -27289,7 +27266,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "VEON",
         "url": "https://finance.yahoo.com/quote/VEON/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -27495,37 +27472,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 89,
-        "stop": 85.21,
-        "adrPct": 5.04,
-        "distToPivotPct": -15.39,
-        "distToPivotAdr": -3.06,
-        "riskPerSharePct": 4.26,
-        "extensionAdr": -0.29,
+        "stop": 84.6,
+        "adrPct": 5.4,
+        "distToPivotPct": -8.36,
+        "distToPivotAdr": -1.55,
+        "riskPerSharePct": 4.95,
+        "extensionAdr": 1.06,
         "breakDate": null,
         "metrics": {
-          "baseBars": 20,
-          "baseWeeks": 4,
+          "baseBars": 30,
+          "baseWeeks": 6,
           "depthPct": 19.8,
-          "priorMovePct": 74.6,
+          "priorMovePct": 76.8,
           "higherLows": 0,
-          "contraction": 1.06,
-          "closeRange10Adr": 1.3,
-          "surf10": -0.29,
-          "surf20": -1.04,
-          "slope20": -1.62,
+          "contraction": 1.12,
+          "closeRange10Adr": 1.6,
+          "surf10": 1.06,
+          "surf20": 0.56,
+          "slope20": -1.6,
           "baseLow": 71.4,
-          "lastSwingLow": 72.5
+          "lastSwingLow": 71.4
         },
         "reasons": [
-          "선행 상승 +75%",
-          "베이스 4주",
+          "선행 상승 +77%",
+          "베이스 6주",
           "깊이 19.8%",
           "✗ 저점 상승 0회",
-          "진폭 1.06배 · 10일 종가폭 1.3 ADR",
-          "✗ 10일선 -0.3 ADR · 20일선 -1 ADR",
-          "✗ 20일선 기울기 -1.62%"
+          "진폭 1.12배 · 10일 종가폭 1.6 ADR",
+          "10일선 +1.1 ADR · 20일선 +0.6 ADR",
+          "✗ 20일선 기울기 -1.6%"
         ]
       },
       "checks": {
@@ -27533,32 +27510,32 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "선행 상승 75% · 기준 30%↑"
+            "evidence": "선행 상승 77% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 4주 · 기준 2~8주"
+            "evidence": "베이스 6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.06배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 1.12배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 19.8% · ADR 5.04%의 3.9배 · 선행 상승의 절반 37%"
+            "evidence": "베이스 깊이 19.8% · ADR 5.4%의 3.7배 · 선행 상승의 절반 38%"
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 75.3 · 20일선 79.23 · 50일선 77 — 50일선 아래(원문: 사지 않음)"
+            "status": "충족",
+            "evidence": "종가 81.56 · 20일선 79.08 · 50일선 77.26"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.1배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.2배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -27568,17 +27545,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 89까지 -15.39% (-3.06 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 89까지 -8.36% (-1.55 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 4.26% · ADR 5.04%"
+            "evidence": "예비 손절 폭 4.95% · ADR 5.4%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 1.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -27605,12 +27582,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.1배(20일 평균 대비) · 오늘 거래대금 1.12배 · 상장주식 68M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.2배(20일 평균 대비) · 오늘 거래대금 1.12배 · 상장주식 68M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 64.43% · 3M 1.49% · 6M 5.91% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 64.4% · 3M 1.49% · 6M 5.91% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -27629,27 +27606,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "QLYS",
       "price": 185.9199981689453,
-      "marketCap": "6.72B",
+      "marketCap": "6.49B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
           "v": -0.005824451334968395,
-          "pct": 22.49774571686204
+          "pct": 22.518050541516246
         },
         "m3": {
           "v": 0.141194442179177,
-          "pct": 65.87015329125339
+          "pct": 65.92960288808665
         },
         "m6": {
           "v": 0.822028506141084,
-          "pct": 98.42200180342651
+          "pct": 98.42057761732852
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.42200180342651,
+      "bestPct": 98.42057761732852,
       "adr": 7.34,
       "cyTrend": 3.76,
       "nyTrend": 3.28,
@@ -27692,7 +27669,7 @@ window.TEAM2_DATA = {
       "epsNy": 7.66,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.62,
       "fs": {
         "sale": [
@@ -27722,13 +27699,13 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 4
       },
-      "ma150Slope": 10.87,
+      "ma150Slope": 10.72,
       "ta": {
-        "price": 185.92,
-        "resistance": 187,
+        "price": 197.69,
+        "resistance": 201.54,
         "support": 177.57,
-        "contraction": 1.2,
-        "trend": "mixed"
+        "contraction": 1.14,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -27742,9 +27719,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0263,
-        "m3": 0.0708,
-        "m6": 0.2193,
+        "m1": 0.0274,
+        "m3": 0.0725,
+        "m6": 0.2222,
         "rankPct6": 42.86,
         "count": 29
       },
@@ -28162,7 +28139,7 @@ window.TEAM2_DATA = {
       "nameKo": "퀄리스",
       "nameEn": "QUALYS INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "퀄리스",
         "nameEn": "QUALYS INC",
         "infomaxCode": "NAS:QLYS",
@@ -28471,20 +28448,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "QLYS",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 32.2,
-        "pbr": 11.46,
+        "per": 34.24,
+        "pbr": 12.18,
         "eps": 5.77,
         "bps": 16.23,
         "shares": 34909400,
-        "marketCapM": 6490,
+        "marketCapM": 6901,
         "high52": 235.545,
         "high52Date": "2026-10-30",
         "low52": 74.51,
         "low52Date": "2026-04-09",
-        "last": 185.92,
-        "prevClose": 192.425,
+        "last": 197.69,
+        "prevClose": 185.92,
         "nameKo": "퀄리스",
         "nameEn": "QUALYS INC",
         "listedOn": null,
@@ -28494,7 +28471,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "QLYS",
         "url": "https://finance.yahoo.com/quote/QLYS/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -28753,37 +28730,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 235.55,
-        "stop": 221.91,
-        "adrPct": 7.34,
-        "distToPivotPct": -21.07,
-        "distToPivotAdr": -2.87,
-        "riskPerSharePct": 5.79,
-        "extensionAdr": 0.15,
+        "stop": 220.91,
+        "adrPct": 7.4,
+        "distToPivotPct": -16.07,
+        "distToPivotAdr": -2.17,
+        "riskPerSharePct": 6.21,
+        "extensionAdr": 0.98,
         "breakDate": null,
         "metrics": {
-          "baseBars": 21,
-          "baseWeeks": 4.2,
+          "baseBars": 22,
+          "baseWeeks": 4.4,
           "depthPct": 30.1,
           "priorMovePct": 79.8,
           "higherLows": 0,
-          "contraction": 1.2,
-          "closeRange10Adr": 2.2,
-          "surf10": 0.15,
-          "surf20": -0.99,
-          "slope20": -1.72,
+          "contraction": 1.14,
+          "closeRange10Adr": 1.7,
+          "surf10": 0.98,
+          "surf20": -0.03,
+          "slope20": -2.2,
           "baseLow": 164.68,
           "lastSwingLow": 164.68
         },
         "reasons": [
           "선행 상승 +80%",
-          "베이스 4.2주",
+          "베이스 4.4주",
           "✗ 깊이 30.1%",
           "✗ 저점 상승 0회",
-          "진폭 1.2배 · 10일 종가폭 2.2 ADR",
-          "✗ 10일선 +0.2 ADR · 20일선 -1 ADR",
-          "✗ 20일선 기울기 -1.72%"
+          "진폭 1.14배 · 10일 종가폭 1.7 ADR",
+          "✗ 10일선 +1 ADR · 20일선 0 ADR",
+          "✗ 20일선 기울기 -2.2%"
         ]
       },
       "checks": {
@@ -28796,27 +28773,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 4.2주 · 기준 2~8주"
+            "evidence": "베이스 4.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.2배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 1.14배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 30.1% · ADR 7.34%의 4.1배 · 선행 상승의 절반 40%"
+            "evidence": "베이스 깊이 30.1% · ADR 7.4%의 4.1배 · 선행 상승의 절반 40%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 185.92 · 20일선 199.43 · 50일선 193.15 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 197.69 · 20일선 198.06 · 50일선 193.64"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.03배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.99배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -28826,17 +28803,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 235.55까지 -21.07% (-2.87 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 235.55까지 -16.07% (-2.17 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.79% · ADR 7.34%"
+            "evidence": "예비 손절 폭 6.21% · ADR 7.4%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -28863,12 +28840,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.03배(20일 평균 대비) · 오늘 거래대금 0.76배 · 상장주식 35M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.99배(20일 평균 대비) · 오늘 거래대금 0.76배 · 상장주식 35M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 77.5% · 3M 34.13% · 6M 1.58% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 77.48% · 3M 34.07% · 6M 1.58% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -28887,27 +28864,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "KYMR",
       "price": 115.30999755859375,
-      "marketCap": "10.19B",
+      "marketCap": "9.84B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.1772950013192681,
-          "pct": 81.92064923354373
+          "pct": 81.90433212996389
         },
         "m3": {
           "v": 0.11443051525431738,
-          "pct": 58.656447249774565
+          "pct": 58.70938628158845
         },
         "m6": {
           "v": 0.8002892786431995,
-          "pct": 98.33183047790803
+          "pct": 98.33032490974729
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.33183047790803,
+      "bestPct": 98.33032490974729,
       "adr": 5.99,
       "cyTrend": 2.29,
       "nyTrend": 0.37,
@@ -28950,7 +28927,7 @@ window.TEAM2_DATA = {
       "epsNy": 30.34,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.71,
       "fs": {
         "sale": [
@@ -28980,13 +28957,13 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 1
       },
-      "ma150Slope": 5.6,
+      "ma150Slope": 5.74,
       "ta": {
-        "price": 115.31,
-        "resistance": 119.83,
+        "price": 150.37,
+        "resistance": null,
         "support": 112.77,
-        "contraction": 0.75,
-        "trend": "mixed"
+        "contraction": 0.88,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -29000,9 +28977,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -29416,7 +29393,7 @@ window.TEAM2_DATA = {
       "nameKo": "키메라 테라퓨틱스",
       "nameEn": "KYMERA THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "키메라 테라퓨틱스",
         "nameEn": "KYMERA THERAPEUTICS INC",
         "infomaxCode": "NAS:KYMR",
@@ -29502,6 +29479,42 @@ window.TEAM2_DATA = {
           "ticker": "KYMR",
           "items": [
             {
+              "title": "Kymera Therapeutics, Inc. Announces Results from the BROADEN2 Phase 2b Atopic Dermatitis Trial of KT-621",
+              "url": "https://www.nasdaq.com/articles/kymera-therapeutics-inc-announces-results-broaden2-phase-2b-atopic-dermatitis-trial-kt-621",
+              "date": "2026-11-23",
+              "desc": "On November 23, 2026, Kymera Therapeutics, Inc. hosted a conference call to discuss results from the Company&rsquo;s BROADEN2 Phase 2b atopic dermatitis patient trial of KT-621, a first-in-class, oral STAT6 degrader. A slide presentation was furnished as part of the disclosures.",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "KYMR"
+              ]
+            },
+            {
+              "title": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621, a First-in-Class, Oral STAT6 Degrader, in Patients with Moderate to Severe Atopic Dermatitis",
+              "url": "https://www.nasdaq.com/articles/kymera-therapeutics-announces-positive-results-broaden2-phase-2b-clinical-trial-kt-621",
+              "date": "2026-11-23",
+              "desc": "Kymera Therapeutics, Inc. announced positive results from the BROADEN2 Phase 2b trial evaluating KT-621, its first-in-class, once-daily oral STAT6 degrader, in 244 adult and adolescent patients with moderate to severe atopic dermatitis. The randomized, double-blind, placebo-contr",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "KYMR"
+              ]
+            },
+            {
+              "title": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
+              "url": "https://www.nasdaq.com/articles/kymeras-kt-621-posts-strong-phase-2-results-eczema-advances-toward-phase-3-stock",
+              "date": "2026-11-23",
+              "desc": "(RTTNews) - Kymera Therapeutics (KYMR) reported positive results from its Phase 2b BROADEN2 trial of KT-621, an investigational oral therapy for patients with moderate to severe atopic dermatitis (eczema), meeting both primary and secondary study endpoints.",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "KYMR"
+              ]
+            },
+            {
               "title": "Kymera (KYMR) Q3 2026 Earnings Call Transcript",
               "url": "https://www.nasdaq.com/articles/kymera-kymr-q3-2026-earnings-call-transcript",
               "date": "2026-10-29",
@@ -29563,53 +29576,47 @@ window.TEAM2_DATA = {
               "tickers": [
                 "KYMR"
               ]
-            },
-            {
-              "title": "Kymera Therapeutics (KYMR) Up 10.2% Since Last Earnings Report: Can It Continue?",
-              "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-102-last-earnings-report-can-it-continue",
-              "date": "2026-09-04",
-              "desc": "Kymera Therapeutics (KYMR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "KYMR",
-                "TGTX"
-              ]
-            },
-            {
-              "title": "Can KT-621 Mark a Turning Point for Kymera Therapeutics?",
-              "url": "https://www.nasdaq.com/articles/can-kt-621-mark-turning-point-kymera-therapeutics",
-              "date": "2026-09-03",
-              "desc": "KYMR advances KT-621 in atopic dermatitis and asthma, with earlier-than-expected AD data and potential phase III plans by mid-2027.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "KYMR",
-                "ARVN",
-                "NRIX"
-              ]
-            },
-            {
-              "title": "Kymera Therapeutics (KYMR) Q2 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-q2-2026-earnings-call-transcript",
-              "date": "2026-08-12",
-              "desc": "@media (max-width: 768px) { .image-container { width: 100% !important; float: none !important; margin: 0 0 1rem 0 !important; } } Image source: The Mo",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "KYMR",
-                "KYMR"
-              ]
             }
           ],
-          "directCount": 11,
-          "total": 12,
+          "directCount": 10,
+          "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-23",
+            "reportDate": "2026-11-23",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526470995/d159818d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-11-23",
+            "reportDate": "2026-11-23",
+            "items": [
+              "7.01",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526470926/d188151d8k.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-10-29",
@@ -29677,34 +29684,6 @@ window.TEAM2_DATA = {
             "isEarnings": false,
             "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281817/d62555d8k.htm",
             "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-24",
-            "reportDate": "2026-06-24",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281051/d131538d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-08",
-            "reportDate": "2026-06-05",
-            "items": [
-              "5.02"
-            ],
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526261698/d13635d8k.htm",
-            "description": "8-K"
           }
         ],
         "krReports": {
@@ -29716,20 +29695,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "KYMR",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 35.57,
-        "pbr": 6.33,
+        "per": 46.38,
+        "pbr": 8.25,
         "eps": 3.24,
         "bps": 18.23,
         "shares": 85371400,
-        "marketCapM": 9844,
-        "high52": 142.92,
-        "high52Date": "2026-11-10",
+        "marketCapM": 12837,
+        "high52": 161.49,
+        "high52Date": "2026-11-23",
         "low52": 63.69,
         "low52Date": "2025-12-02",
-        "last": 115.31,
-        "prevClose": 119.39,
+        "last": 150.37,
+        "prevClose": 115.31,
         "nameKo": "키메라 테라퓨틱스",
         "nameEn": "KYMERA THERAPEUTICS INC",
         "listedOn": "2020-08-19",
@@ -29739,23 +29718,23 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "KYMR",
         "url": "https://finance.yahoo.com/quote/KYMR/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": -1.29,
+            "eps": -1.28,
             "epsLow": -1.54,
             "epsHigh": -0.78,
             "epsYearAgo": -0.98,
-            "epsAnalysts": 22,
-            "epsGrowth": -31.3,
+            "epsAnalysts": 21,
+            "epsGrowth": -31,
             "epsCur": "USD",
-            "rev": 62500,
-            "revAnalysts": 16,
+            "rev": 66670,
+            "revAnalysts": 15,
             "revYearAgo": 2870000,
-            "revGrowth": -97.8,
+            "revGrowth": -97.7,
             "revCur": "USD"
           },
           {
@@ -29777,15 +29756,15 @@ window.TEAM2_DATA = {
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": -3.93,
+            "eps": -3.92,
             "epsLow": -4.21,
             "epsHigh": -3.13,
             "epsYearAgo": -3.69,
-            "epsAnalysts": 22,
-            "epsGrowth": -6.4,
+            "epsAnalysts": 21,
+            "epsGrowth": -6.3,
             "epsCur": "USD",
-            "rev": 99393100,
-            "revAnalysts": 21,
+            "rev": 99394250,
+            "revAnalysts": 20,
             "revYearAgo": 39211000,
             "revGrowth": 153.5,
             "revCur": "USD"
@@ -29793,17 +29772,17 @@ window.TEAM2_DATA = {
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": -5.12,
-            "epsLow": -6.7,
+            "eps": -5.19,
+            "epsLow": -7.08,
             "epsHigh": -3.36,
-            "epsYearAgo": -3.93,
-            "epsAnalysts": 22,
-            "epsGrowth": -30.3,
+            "epsYearAgo": -3.92,
+            "epsAnalysts": 21,
+            "epsGrowth": -32.2,
             "epsCur": "USD",
-            "rev": 42026800,
-            "revAnalysts": 23,
-            "revYearAgo": 99393100,
-            "revGrowth": -57.7,
+            "rev": 40300750,
+            "revAnalysts": 22,
+            "revYearAgo": 99394250,
+            "revGrowth": -59.4,
             "revCur": "USD"
           }
         ],
@@ -29812,11 +29791,11 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": -1.29,
-            "d7": -2.8,
-            "d30": -0.9,
-            "d90": -25,
-            "ago90": -1.03,
+            "now": -1.28,
+            "d7": 0.2,
+            "d30": -2.5,
+            "d90": -2.2,
+            "ago90": -1.26,
             "up7": 4,
             "up30": 4,
             "down7": 6,
@@ -29827,10 +29806,10 @@ window.TEAM2_DATA = {
             "endDate": "2027-03-31",
             "cur": "USD",
             "now": -1.35,
-            "d7": 0.4,
-            "d30": 0.9,
-            "d90": -27.4,
-            "ago90": -1.06,
+            "d7": 0,
+            "d30": 0.4,
+            "d90": -4.7,
+            "ago90": -1.29,
             "up7": 1,
             "up30": 1,
             "down7": 1,
@@ -29840,11 +29819,11 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": -3.93,
-            "d7": -2,
-            "d30": -2.3,
-            "d90": -11.8,
-            "ago90": -3.51,
+            "now": -3.92,
+            "d7": 0.1,
+            "d30": -1.9,
+            "d90": -3.3,
+            "ago90": -3.8,
             "up7": 2,
             "up30": 2,
             "down7": 8,
@@ -29854,11 +29833,11 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": -5.12,
-            "d7": -0.4,
-            "d30": -0.4,
-            "d90": -17.5,
-            "ago90": -4.36,
+            "now": -5.19,
+            "d7": -1.3,
+            "d30": -1.7,
+            "d90": -4.6,
+            "ago90": -4.96,
             "up7": 4,
             "up30": 5,
             "down7": 7,
@@ -29900,10 +29879,20 @@ window.TEAM2_DATA = {
           "upgrades": 1,
           "downgrades": 0,
           "initiations": 1,
-          "ptRaised": 10,
+          "ptRaised": 11,
           "ptLowered": 0,
-          "total": 12,
+          "total": 13,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "Truist Securities",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 165,
+              "ptPrior": 150
+            },
             {
               "date": "2026-11-02",
               "firm": "Barclays",
@@ -29993,16 +29982,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 144,
               "ptPrior": 123
-            },
-            {
-              "date": "2026-09-10",
-              "firm": "Wolfe Research",
-              "action": "up",
-              "from": "Peer Perform",
-              "to": "Outperform",
-              "ptAction": null,
-              "pt": null,
-              "ptPrior": null
             }
           ]
         },
@@ -30013,17 +29992,17 @@ window.TEAM2_DATA = {
         }
       },
       "setup": {
-        "state": "pre",
+        "state": "post",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 142.92,
         "stop": 136.01,
-        "adrPct": 5.99,
-        "distToPivotPct": -19.32,
-        "distToPivotAdr": -3.22,
+        "adrPct": 6.71,
+        "distToPivotPct": 5.21,
+        "distToPivotAdr": 0.78,
         "riskPerSharePct": 4.83,
-        "extensionAdr": -1.67,
-        "breakDate": null,
+        "extensionAdr": 2.22,
+        "breakDate": "2026-11-23",
         "metrics": {
           "baseBars": 15,
           "baseWeeks": 3,
@@ -30068,37 +30047,37 @@ window.TEAM2_DATA = {
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 20% · ADR 5.99%의 3.3배 · 선행 상승의 절반 20%"
+            "evidence": "베이스 깊이 20% · ADR 6.71%의 3배 · 선행 상승의 절반 20%"
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 115.31 · 20일선 126.16 · 50일선 117.57 — 50일선 아래(원문: 사지 않음)"
+            "status": "충족",
+            "evidence": "종가 150.37 · 20일선 127.93 · 50일선 118.28"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.87배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.64배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+            "status": "충족",
+            "evidence": "2026-11-23 돌파봉 거래량 = 20일 평균의 7.69배 · 기준 2배"
           },
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 142.92까지 -19.32% (-3.22 ADR) · 기준 1 ADR 이내"
+            "evidence": "이미 2026-11-23 피벗 142.92 돌파 — 추격 구간"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 4.83% · ADR 5.99%"
+            "evidence": "예비 손절 폭 4.83% · ADR 6.71%"
           },
           {
             "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 위 -1.7 ADR · 기준 2 ADR 이하"
+            "status": "미충족",
+            "evidence": "10일선 위 2.2 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -30125,12 +30104,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.87배(20일 평균 대비) · 오늘 거래대금 1.13배 · 상장주식 85M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.64배(20일 평균 대비) · 오늘 거래대금 1.13배 · 상장주식 85M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 18.08% · 3M 41.34% · 6M 1.67% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 18.1% · 3M 41.29% · 6M 1.67% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -30149,27 +30128,27 @@ window.TEAM2_DATA = {
     {
       "ticker": "HURN",
       "price": 172.2100067138672,
-      "marketCap": "2.63B",
+      "marketCap": "2.72B",
       "sector": "Industrials",
       "industry": "Consulting Services",
       "rs": {
         "m1": {
           "v": 0.016229562908893144,
-          "pct": 28.809738503155994
+          "pct": 28.835740072202164
         },
         "m3": {
           "v": 0.23280945737759534,
-          "pct": 86.9702434625789
+          "pct": 86.95848375451264
         },
         "m6": {
           "v": 0.7981383726612706,
-          "pct": 98.24165915238953
+          "pct": 98.24007220216606
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.24165915238953,
+      "bestPct": 98.24007220216606,
       "adr": 4.31,
       "cyTrend": 0.87,
       "nyTrend": 0.02,
@@ -30212,8 +30191,8 @@ window.TEAM2_DATA = {
       "epsNy": 14.16,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 1.8,
+      "apiCalled": true,
+      "siteRankPct6": 1.81,
       "fs": {
         "sale": [
           15.37,
@@ -30242,12 +30221,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 1
       },
-      "ma150Slope": 5.12,
+      "ma150Slope": 4.98,
       "ta": {
-        "price": 172.21,
-        "resistance": 174.26,
+        "price": 171.97,
+        "resistance": 172.9,
         "support": 169.02,
-        "contraction": 0.61,
+        "contraction": 0.55,
         "trend": "up"
       },
       "top2Gaps": {
@@ -30262,9 +30241,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1649,
-        "m3": 0.2063,
-        "m6": 0.3075,
+        "m1": 0.1648,
+        "m3": 0.2065,
+        "m6": 0.3084,
         "rankPct6": 25.56,
         "count": 7
       },
@@ -30550,7 +30529,7 @@ window.TEAM2_DATA = {
       "nameKo": "휴런 컨설팅 그룹",
       "nameEn": "HURON CONSULTING GROUP INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "휴런 컨설팅 그룹",
         "nameEn": "HURON CONSULTING GROUP INC",
         "infomaxCode": "NAS:HURN",
@@ -30737,7 +30716,7 @@ window.TEAM2_DATA = {
             }
           ],
           "directCount": 10,
-          "total": 11,
+          "total": 12,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -30841,20 +30820,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "HURN",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 25.83,
-        "pbr": 7.15,
+        "per": 25.79,
+        "pbr": 7.14,
         "eps": 6.67,
         "bps": 24.1,
         "shares": 15780700,
-        "marketCapM": 2718,
+        "marketCapM": 2714,
         "high52": 203.37,
         "high52Date": "2026-10-23",
         "low52": 84.875,
         "low52Date": "2026-06-22",
-        "last": 172.21,
-        "prevClose": 166.51,
+        "last": 171.97,
+        "prevClose": 172.21,
         "nameKo": "휴런 컨설팅 그룹",
         "nameEn": "HURON CONSULTING GROUP INC",
         "listedOn": null,
@@ -30864,7 +30843,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HURN",
         "url": "https://finance.yahoo.com/quote/HURN/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -31060,37 +31039,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 203.37,
-        "stop": 195.95,
-        "adrPct": 4.31,
-        "distToPivotPct": -15.32,
-        "distToPivotAdr": -3.56,
-        "riskPerSharePct": 3.65,
-        "extensionAdr": 0.5,
+        "stop": 196.16,
+        "adrPct": 4.19,
+        "distToPivotPct": -15.44,
+        "distToPivotAdr": -3.68,
+        "riskPerSharePct": 3.54,
+        "extensionAdr": 0.34,
         "breakDate": null,
         "metrics": {
-          "baseBars": 21,
-          "baseWeeks": 4.2,
+          "baseBars": 22,
+          "baseWeeks": 4.4,
           "depthPct": 22.2,
           "priorMovePct": 55.6,
           "higherLows": 0,
-          "contraction": 0.61,
-          "closeRange10Adr": 1.6,
-          "surf10": 0.5,
-          "surf20": -0.84,
-          "slope20": -2.09,
+          "contraction": 0.55,
+          "closeRange10Adr": 0.9,
+          "surf10": 0.34,
+          "surf20": -0.71,
+          "slope20": -2.77,
           "baseLow": 158.29,
           "lastSwingLow": 158.29
         },
         "reasons": [
           "선행 상승 +56%",
-          "베이스 4.2주",
+          "베이스 4.4주",
           "깊이 22.2%",
           "✗ 저점 상승 0회",
-          "진폭 0.61배 · 10일 종가폭 1.6 ADR",
-          "✗ 10일선 +0.5 ADR · 20일선 -0.8 ADR",
-          "✗ 20일선 기울기 -2.09%"
+          "진폭 0.55배 · 10일 종가폭 0.9 ADR",
+          "✗ 10일선 +0.3 ADR · 20일선 -0.7 ADR",
+          "✗ 20일선 기울기 -2.77%"
         ]
       },
       "checks": {
@@ -31103,27 +31082,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 4.2주 · 기준 2~8주"
+            "evidence": "베이스 4.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.61배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.55배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 22.2% · ADR 4.31%의 5.2배 · 선행 상승의 절반 28%"
+            "evidence": "베이스 깊이 22.2% · ADR 4.19%의 5.3배 · 선행 상승의 절반 28%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 172.21 · 20일선 178.44 · 50일선 171.05"
+            "evidence": "종가 171.97 · 20일선 177.11 · 50일선 171.36"
           },
           {
             "item": "거래량 마름",
             "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.39배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.4배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -31133,17 +31112,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 203.37까지 -15.32% (-3.56 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 203.37까지 -15.44% (-3.68 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.65% · ADR 4.31%"
+            "evidence": "예비 손절 폭 3.54% · ADR 4.19%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.5 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -31170,12 +31149,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.39배(20일 평균 대비) · 오늘 거래대금 0.4배(상승일) · 상장주식 16M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.4배(20일 평균 대비) · 오늘 거래대금 0.4배(상승일) · 상장주식 16M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 71.19% · 3M 13.03% · 6M 1.76% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 71.16% · 3M 13.04% · 6M 1.76% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -31194,30 +31173,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "THC",
       "price": 263.19000244140625,
-      "marketCap": "20.98B",
+      "marketCap": "20.95B",
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "rs": {
         "m1": {
           "v": 0.11662123039082228,
-          "pct": 60.55004508566276
+          "pct": 60.60469314079422
         },
         "m3": {
           "v": 0.13832132612870182,
-          "pct": 65.05861136158701
+          "pct": 65.1173285198556
         },
         "m6": {
           "v": 0.7915522127222869,
-          "pct": 98.15148782687105
+          "pct": 98.14981949458483
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.15148782687105,
+      "bestPct": 98.14981949458483,
       "adr": 4.2,
-      "cyTrend": 6.3,
-      "nyTrend": -3.7,
+      "cyTrend": 6.16,
+      "nyTrend": -3.41,
       "upCount": 27,
       "downCount": 32,
       "upDownRatio": 45.76,
@@ -31246,19 +31225,19 @@ window.TEAM2_DATA = {
       "clsPos": 37.29,
       "targetStatus": false,
       "est": {
-        "cyCur": 22.56187,
+        "cyCur": 22.5313,
         "cy30": 21.22417,
-        "nyCur": 20.30261,
+        "nyCur": 20.36487,
         "ny30": 21.08303
       },
-      "saleCy": 4.67,
-      "saleNy": 0.9,
-      "epsCy": 34.46,
-      "epsNy": -10.01,
+      "saleCy": 4.69,
+      "saleNy": 0.85,
+      "epsCy": 34.27,
+      "epsNy": -9.62,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 1.89,
+      "apiCalled": true,
+      "siteRankPct6": 1.9,
       "fs": {
         "sale": [
           14.61,
@@ -31287,13 +31266,13 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 2
       },
-      "ma150Slope": 5.05,
+      "ma150Slope": 5.11,
       "ta": {
-        "price": 263.19,
-        "resistance": 265.64,
-        "support": 255.5,
-        "contraction": 0.66,
-        "trend": "mixed"
+        "price": 273,
+        "resistance": 278.39,
+        "support": 264.15,
+        "contraction": 0.69,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -31308,8 +31287,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.1373,
-        "m3": 0.2348,
-        "m6": 0.4773,
+        "m3": 0.2354,
+        "m6": 0.4765,
         "rankPct6": 6.02,
         "count": 12
       },
@@ -31656,7 +31635,7 @@ window.TEAM2_DATA = {
       "nameKo": "테넷 헬스케어",
       "nameEn": "TENET HEALTHCARE CORP",
       "detail": {
-        "fetchedAt": "2026-11-20",
+        "fetchedAt": "2026-11-24",
         "nameKo": "테넷 헬스케어",
         "nameEn": "TENET HEALTHCARE CORP",
         "infomaxCode": "NYS:THC",
@@ -31951,20 +31930,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "THC",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 10.15,
-        "pbr": 4.55,
+        "per": 10.53,
+        "pbr": 4.72,
         "eps": 25.93,
         "bps": 57.86,
         "shares": 79588000,
-        "marketCapM": 20947,
+        "marketCapM": 21728,
         "high52": 301.44,
         "high52Date": "2026-11-05",
         "low52": 157.58,
         "low52Date": "2026-06-08",
-        "last": 263.19,
-        "prevClose": 263.59,
+        "last": 273,
+        "prevClose": 263.19,
         "nameKo": "테넷 헬스케어",
         "nameEn": "TENET HEALTHCARE CORP",
         "listedOn": null,
@@ -31974,7 +31953,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "THC",
         "url": "https://finance.yahoo.com/quote/THC/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -32250,37 +32229,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 301.44,
-        "stop": 290.37,
-        "adrPct": 4.2,
-        "distToPivotPct": -12.69,
-        "distToPivotAdr": -3.02,
-        "riskPerSharePct": 3.67,
-        "extensionAdr": -1.67,
+        "stop": 289.85,
+        "adrPct": 4.25,
+        "distToPivotPct": -9.43,
+        "distToPivotAdr": -2.22,
+        "riskPerSharePct": 3.85,
+        "extensionAdr": -0.61,
         "breakDate": null,
         "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
+          "baseBars": 13,
+          "baseWeeks": 2.6,
           "depthPct": 14,
           "priorMovePct": 21.1,
           "higherLows": 0,
-          "contraction": 0.66,
-          "closeRange10Adr": 2.7,
-          "surf10": -1.67,
-          "surf20": -1.33,
-          "slope20": 0.45,
+          "contraction": 0.69,
+          "closeRange10Adr": 2.6,
+          "surf10": -0.61,
+          "surf20": -0.44,
+          "slope20": 0.07,
           "baseLow": 259.37,
           "lastSwingLow": 259.37
         },
         "reasons": [
           "✗ 선행 상승 +21%",
-          "베이스 2.4주",
+          "베이스 2.6주",
           "깊이 14%",
           "✗ 저점 상승 0회",
-          "진폭 0.66배 · 10일 종가폭 2.7 ADR",
-          "✗ 10일선 -1.7 ADR · 20일선 -1.3 ADR",
-          "20일선 기울기 +0.45%"
+          "진폭 0.69배 · 10일 종가폭 2.6 ADR",
+          "✗ 10일선 -0.6 ADR · 20일선 -0.4 ADR",
+          "20일선 기울기 +0.07%"
         ]
       },
       "checks": {
@@ -32293,27 +32272,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "evidence": "베이스 2.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.66배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.69배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "미충족",
-            "evidence": "베이스 깊이 14% · ADR 4.2%의 3.3배 · 선행 상승의 절반 11%"
+            "evidence": "베이스 깊이 14% · ADR 4.25%의 3.3배 · 선행 상승의 절반 11%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 263.19 · 20일선 277.89 · 50일선 268.88 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 273 · 20일선 278.09 · 50일선 269.05"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.97배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.01배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -32323,17 +32302,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 301.44까지 -12.69% (-3.02 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 301.44까지 -9.43% (-2.22 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.67% · ADR 4.2%"
+            "evidence": "예비 손절 폭 3.85% · ADR 4.25%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.7 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.6 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -32360,12 +32339,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.97배(20일 평균 대비) · 오늘 거래대금 0.65배 · 상장주식 80M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.01배(20일 평균 대비) · 오늘 거래대금 0.65배 · 상장주식 80M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 39.45% · 3M 34.94% · 6M 1.85% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 39.4% · 3M 34.88% · 6M 1.85% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -32384,30 +32363,30 @@ window.TEAM2_DATA = {
     {
       "ticker": "SIG",
       "price": 98.19000244140625,
-      "marketCap": "3.93B",
+      "marketCap": "3.76B",
       "sector": "Consumer Cyclical",
       "industry": "Luxury Goods",
       "rs": {
         "m1": {
           "v": -0.025843121849070838,
-          "pct": 18.44003606853021
+          "pct": 18.456678700361014
         },
         "m3": {
           "v": 0.35873402633868107,
-          "pct": 98.15148782687105
+          "pct": 98.14981949458483
         },
         "m6": {
           "v": 0.30634184068047077,
-          "pct": 72.27231740306583
+          "pct": 72.24729241877257
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 98.15148782687105,
+      "bestPct": 98.14981949458483,
       "adr": 4.46,
-      "cyTrend": -0.21,
-      "nyTrend": -0.7,
+      "cyTrend": -0.3,
+      "nyTrend": -0.15,
       "upCount": 23,
       "downCount": 0,
       "upDownRatio": 100,
@@ -32436,19 +32415,19 @@ window.TEAM2_DATA = {
       "clsPos": 21.71,
       "targetStatus": false,
       "est": {
-        "cyCur": 11.69727,
-        "cy30": 11.72144,
-        "nyCur": 13.64905,
-        "ny30": 13.74489
+        "cyCur": 11.66227,
+        "cy30": 11.69727,
+        "nyCur": 13.62905,
+        "ny30": 13.64905
       },
-      "saleCy": 0.73,
-      "saleNy": 1.9,
-      "epsCy": 21.85,
-      "epsNy": 16.69,
+      "saleCy": 0.72,
+      "saleNy": 1.89,
+      "epsCy": 21.48,
+      "epsNy": 16.86,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 27.77,
+      "apiCalled": true,
+      "siteRankPct6": 27.8,
       "fs": {
         "sale": [
           0.78,
@@ -32477,12 +32456,12 @@ window.TEAM2_DATA = {
         "m3": 1,
         "m6": 0
       },
-      "ma150Slope": 3.74,
+      "ma150Slope": 3.6,
       "ta": {
-        "price": 98.19,
-        "resistance": 100.41,
+        "price": 102.54,
+        "resistance": 104.56,
         "support": 95.19,
-        "contraction": 1.36,
+        "contraction": 1.43,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -32497,9 +32476,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1889,
-        "m3": 0.1643,
-        "m6": 0.0893,
+        "m1": 0.1893,
+        "m3": 0.164,
+        "m6": 0.0889,
         "rankPct6": 69.17,
         "count": 2
       },
@@ -32612,7 +32591,7 @@ window.TEAM2_DATA = {
       "nameKo": "시그넷 주얼러스",
       "nameEn": "SIGNET JEWELERS LTD",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "시그넷 주얼러스",
         "nameEn": "SIGNET JEWELERS LTD",
         "infomaxCode": "NYS:SIG",
@@ -32698,6 +32677,18 @@ window.TEAM2_DATA = {
           "ticker": "SIG",
           "items": [
             {
+              "title": "Will Signet (SIG) Beat Estimates Again in Its Next Earnings Report?",
+              "url": "https://www.nasdaq.com/articles/will-signet-sig-beat-estimates-again-its-next-earnings-report",
+              "date": "2026-11-23",
+              "desc": "Signet (SIG) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG"
+              ]
+            },
+            {
               "title": "SIG or CFRUY: Which Is the Better Value Stock Right Now?",
               "url": "https://www.nasdaq.com/articles/sig-or-cfruy-which-better-value-stock-right-now",
               "date": "2026-11-20",
@@ -32775,18 +32766,6 @@ window.TEAM2_DATA = {
               "url": "https://www.nasdaq.com/articles/signet-jewelers-limited-sig-hit-52-week-high-can-run-continue",
               "date": "2026-11-05",
               "desc": "Signet (SIG) is at a 52-week high, but can investors hope for more gains in the future? We take a look at the company's fundamentals for clues.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SIG"
-              ]
-            },
-            {
-              "title": "Signet (SIG) Increases Despite Market Slip: Here's What You Need to Know",
-              "url": "https://www.nasdaq.com/articles/signet-sig-increases-despite-market-slip-heres-what-you-need-know",
-              "date": "2026-11-02",
-              "desc": "Signet (SIG) reached $119.95 at the closing of the latest trading day, reflecting a +2.01% change compared to its last close.",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
@@ -32931,20 +32910,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "SIG",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 11.31,
-        "pbr": 2.07,
+        "per": 11.82,
+        "pbr": 2.16,
         "eps": 8.68,
         "bps": 47.43,
         "shares": 37294200,
-        "marketCapM": 3662,
+        "marketCapM": 3824,
         "high52": 129.2571,
         "high52Date": "2026-11-05",
         "low52": 71.122,
         "low52Date": "2026-05-19",
-        "last": 98.19,
-        "prevClose": 102.57,
+        "last": 102.54,
+        "prevClose": 98.19,
         "nameKo": "시그넷 주얼러스",
         "nameEn": "SIGNET JEWELERS LTD",
         "listedOn": null,
@@ -32954,20 +32933,20 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "SIG",
         "url": "https://finance.yahoo.com/quote/SIG/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-10-31",
-            "eps": 0.83,
+            "eps": 0.85,
             "epsLow": 0.65,
             "epsHigh": 1.01,
             "epsYearAgo": 0.63,
             "epsAnalysts": 9,
-            "epsGrowth": 31.9,
+            "epsGrowth": 34.5,
             "epsCur": "USD",
-            "rev": 1399371720,
+            "rev": 1398227220,
             "revAnalysts": 9,
             "revYearAgo": 1391800000,
             "revGrowth": 0.5,
@@ -32981,9 +32960,9 @@ window.TEAM2_DATA = {
             "epsHigh": 7.59,
             "epsYearAgo": 6.25,
             "epsAnalysts": 9,
-            "epsGrowth": 15.3,
+            "epsGrowth": 15.4,
             "epsCur": "USD",
-            "rev": 2380193320,
+            "rev": 2379228780,
             "revAnalysts": 9,
             "revYearAgo": 2345100000,
             "revGrowth": 1.5,
@@ -32992,14 +32971,14 @@ window.TEAM2_DATA = {
           {
             "period": "0y",
             "endDate": "2027-01-31",
-            "eps": 11.66,
+            "eps": 11.68,
             "epsLow": 11,
             "epsHigh": 12.15,
             "epsYearAgo": 9.6,
             "epsAnalysts": 10,
-            "epsGrowth": 21.5,
+            "epsGrowth": 21.6,
             "epsCur": "USD",
-            "rev": 6862608540,
+            "rev": 6860710400,
             "revAnalysts": 10,
             "revYearAgo": 6813600000,
             "revGrowth": 0.7,
@@ -33008,16 +32987,16 @@ window.TEAM2_DATA = {
           {
             "period": "+1y",
             "endDate": "2028-01-31",
-            "eps": 13.63,
+            "eps": 13.65,
             "epsLow": 11.98,
             "epsHigh": 16,
-            "epsYearAgo": 11.66,
+            "epsYearAgo": 11.68,
             "epsAnalysts": 10,
             "epsGrowth": 16.9,
             "epsCur": "USD",
-            "rev": 6992616320,
+            "rev": 6990711340,
             "revAnalysts": 10,
-            "revYearAgo": 6862608540,
+            "revYearAgo": 6860710400,
             "revGrowth": 1.9,
             "revCur": "USD"
           }
@@ -33027,10 +33006,10 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-10-31",
             "cur": "USD",
-            "now": 0.83,
-            "d7": -4.5,
-            "d30": -4.5,
-            "d90": 11.2,
+            "now": 0.85,
+            "d7": -2.6,
+            "d30": -2.6,
+            "d90": 13.4,
             "ago90": 0.75,
             "up7": 1,
             "up30": 1,
@@ -33042,9 +33021,9 @@ window.TEAM2_DATA = {
             "endDate": "2027-01-31",
             "cur": "USD",
             "now": 7.21,
-            "d7": 0,
-            "d30": 0,
-            "d90": 4.9,
+            "d7": 0.1,
+            "d30": 0.1,
+            "d90": 5,
             "ago90": 6.87,
             "up7": 1,
             "up30": 1,
@@ -33055,11 +33034,11 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2027-01-31",
             "cur": "USD",
-            "now": 11.66,
-            "d7": -0.3,
-            "d30": -0.3,
+            "now": 11.68,
+            "d7": -0.2,
+            "d30": -0.2,
             "d90": 8,
-            "ago90": 10.8,
+            "ago90": 10.81,
             "up7": 1,
             "up30": 11,
             "down7": 0,
@@ -33069,11 +33048,11 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2028-01-31",
             "cur": "USD",
-            "now": 13.63,
-            "d7": -0.1,
-            "d30": -0.1,
-            "d90": 10.8,
-            "ago90": 12.3,
+            "now": 13.65,
+            "d7": 0,
+            "d30": 0,
+            "d90": 10.9,
+            "ago90": 12.31,
             "up7": 1,
             "up30": 10,
             "down7": 0,
@@ -33115,10 +33094,20 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 8,
+          "ptRaised": 9,
           "ptLowered": 0,
-          "total": 9,
+          "total": 10,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 139,
+              "ptPrior": 136
+            },
             {
               "date": "2026-09-11",
               "firm": "Goldman Sachs",
@@ -33220,37 +33209,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 129.26,
-        "stop": 124.88,
-        "adrPct": 4.46,
-        "distToPivotPct": -24.04,
-        "distToPivotAdr": -5.39,
-        "riskPerSharePct": 3.39,
-        "extensionAdr": -3.04,
+        "stop": 124.5,
+        "adrPct": 4.64,
+        "distToPivotPct": -20.67,
+        "distToPivotAdr": -4.45,
+        "riskPerSharePct": 3.68,
+        "extensionAdr": -1.55,
         "breakDate": null,
         "metrics": {
-          "baseBars": 14,
-          "baseWeeks": 2.8,
-          "depthPct": 25.1,
+          "baseBars": 17,
+          "baseWeeks": 3.4,
+          "depthPct": 25.2,
           "priorMovePct": 63.6,
           "higherLows": 0,
-          "contraction": 1.36,
-          "closeRange10Adr": 5.1,
-          "surf10": -3.04,
-          "surf20": -3.88,
-          "slope20": -2.46,
-          "baseLow": 96.77,
-          "lastSwingLow": 96.77
+          "contraction": 1.43,
+          "closeRange10Adr": 4.7,
+          "surf10": -1.55,
+          "surf20": -2.52,
+          "slope20": -2.68,
+          "baseLow": 96.64,
+          "lastSwingLow": 96.64
         },
         "reasons": [
           "선행 상승 +64%",
-          "베이스 2.8주",
-          "✗ 깊이 25.1%",
+          "베이스 3.4주",
+          "✗ 깊이 25.2%",
           "✗ 저점 상승 0회",
-          "✗ 진폭 1.36배 · 10일 종가폭 5.1 ADR",
-          "✗ 10일선 -3 ADR · 20일선 -3.9 ADR",
-          "✗ 20일선 기울기 -2.46%"
+          "✗ 진폭 1.43배 · 10일 종가폭 4.7 ADR",
+          "✗ 10일선 -1.5 ADR · 20일선 -2.5 ADR",
+          "✗ 20일선 기울기 -2.68%"
         ]
       },
       "checks": {
@@ -33263,27 +33252,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.8주 · 기준 2~8주"
+            "evidence": "베이스 3.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.36배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 1.43배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 25.1% · ADR 4.46%의 5.6배 · 선행 상승의 절반 32%"
+            "evidence": "베이스 깊이 25.2% · ADR 4.64%의 5.4배 · 선행 상승의 절반 32%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 98.19 · 20일선 115.17 · 50일선 109.66 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 102.54 · 20일선 114.55 · 50일선 109.7 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.24배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.26배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -33293,17 +33282,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 129.26까지 -24.04% (-5.39 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 129.26까지 -20.67% (-4.45 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.39% · ADR 4.46%"
+            "evidence": "예비 손절 폭 3.68% · ADR 4.64%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -1.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -33330,12 +33319,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.24배(20일 평균 대비) · 오늘 거래대금 1.52배 · 상장주식 37M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.26배(20일 평균 대비) · 오늘 거래대금 1.52배 · 상장주식 37M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 81.56% · 3M 1.85% · 6M 27.73% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 81.54% · 3M 1.85% · 6M 27.75% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -33356,28 +33345,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "GPN",
       "price": 91.83000183105469,
-      "marketCap": "22.10B",
+      "marketCap": "24.30B",
       "sector": "Industrials",
       "industry": "Specialty Business Services",
       "rs": {
         "m1": {
           "v": 0.24500540473627197,
-          "pct": 94.00360685302074
+          "pct": 93.99819494584838
         },
         "m3": {
           "v": 0.14834330899289327,
-          "pct": 67.40306582506763
+          "pct": 67.46389891696751
         },
         "m6": {
           "v": 0.4315371109876737,
-          "pct": 85.7980162308386
+          "pct": 85.78519855595668
         }
       },
       "qualifiedBy": [],
-      "bestPct": 94.00360685302074,
+      "bestPct": 93.99819494584838,
       "adr": 5.66,
-      "cyTrend": 0.02,
-      "nyTrend": 0.76,
+      "cyTrend": 0.04,
+      "nyTrend": 0.74,
       "upCount": 41,
       "downCount": 29,
       "upDownRatio": 58.57,
@@ -33407,18 +33396,18 @@ window.TEAM2_DATA = {
       "targetStatus": false,
       "est": {
         "cyCur": 13.64693,
-        "cy30": 13.64406,
-        "nyCur": 16.18789,
-        "ny30": 16.06504
+        "cy30": 13.64152,
+        "nyCur": 16.21545,
+        "ny30": 16.09706
       },
       "saleCy": 32.56,
       "saleNy": 5.19,
       "epsCy": 11.68,
-      "epsNy": 18.62,
+      "epsNy": 18.82,
       "bbCenterBrk5d": true,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 14.25,
+      "apiCalled": true,
+      "siteRankPct6": 14.26,
       "fs": {
         "sale": [
           68.63,
@@ -33447,9 +33436,9 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 4.06,
+      "ma150Slope": 4.13,
       "ta": {
-        "price": 91.83,
+        "price": 91.47,
         "resistance": 95.18,
         "support": 90.99,
         "contraction": 1.14,
@@ -33467,9 +33456,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1025,
-        "m3": 0.1775,
-        "m6": 0.3393,
+        "m1": 0.1039,
+        "m3": 0.1774,
+        "m6": 0.3412,
         "rankPct6": 21.8,
         "count": 10
       },
@@ -33922,7 +33911,7 @@ window.TEAM2_DATA = {
       "nameKo": "글로벌 페이먼츠",
       "nameEn": "GLOBAL PAYMENTS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "글로벌 페이먼츠",
         "nameEn": "GLOBAL PAYMENTS INC",
         "infomaxCode": "NYS:GPN",
@@ -34007,6 +33996,18 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "GPN",
           "items": [
+            {
+              "title": "Are Options Traders Betting on a Big Move in Global Payments Stock?",
+              "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-global-payments-stock",
+              "date": "2026-11-23",
+              "desc": "Investors need to pay close attention to GPN stock based on the movements in the options market lately.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "GPN"
+              ]
+            },
             {
               "title": "What Global Payments (GPN) Said on Its Q3 Earnings Call",
               "url": "https://www.nasdaq.com/articles/what-global-payments-gpn-said-its-q3-earnings-call",
@@ -34094,22 +34095,10 @@ window.TEAM2_DATA = {
                 "FISV",
                 "XYZ"
               ]
-            },
-            {
-              "title": "Global Payments Inc. Amends Bylaws to Establish Exclusive Forum and 1 Percent Derivative Ownership Threshold",
-              "url": "https://www.nasdaq.com/articles/global-payments-inc-amends-bylaws-establish-exclusive-forum-and-1-percent-derivative",
-              "date": "2026-11-03",
-              "desc": "On October 28, 2026, in connection with recent amendments to the Georgia Business Corporation Code, the Board of Directors of Global Payments Inc. approved amendments to the company's Twelfth Amended and Restated Bylaws, effective immediately.",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "GPN"
-              ]
             }
           ],
-          "directCount": 9,
-          "total": 9,
+          "directCount": 10,
+          "total": 10,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -34230,20 +34219,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "GPN",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 28.81,
-        "pbr": 1.06,
+        "per": 28.7,
+        "pbr": 1.05,
         "eps": 3.19,
         "bps": 86.94,
         "shares": 264636000,
-        "marketCapM": 24302,
+        "marketCapM": 24206,
         "high52": 102.905,
         "high52Date": "2026-11-10",
         "low52": 60.7544,
         "low52Date": "2026-06-11",
-        "last": 91.83,
-        "prevClose": 83.52,
+        "last": 91.47,
+        "prevClose": 91.83,
         "nameKo": "글로벌 페이먼츠",
         "nameEn": "GLOBAL PAYMENTS INC",
         "listedOn": null,
@@ -34253,7 +34242,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "GPN",
         "url": "https://finance.yahoo.com/quote/GPN/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -34263,8 +34252,8 @@ window.TEAM2_DATA = {
             "epsLow": 3.6,
             "epsHigh": 3.77,
             "epsYearAgo": 3.18,
-            "epsAnalysts": 30,
-            "epsGrowth": 15.5,
+            "epsAnalysts": 31,
+            "epsGrowth": 15.4,
             "epsCur": "USD",
             "rev": 3151055730,
             "revAnalysts": 26,
@@ -34279,11 +34268,11 @@ window.TEAM2_DATA = {
             "epsLow": 3.03,
             "epsHigh": 3.62,
             "epsYearAgo": 2.96,
-            "epsAnalysts": 25,
+            "epsAnalysts": 26,
             "epsGrowth": 14.4,
             "epsCur": "USD",
-            "rev": 3028905290,
-            "revAnalysts": 22,
+            "rev": 3027722460,
+            "revAnalysts": 23,
             "revYearAgo": 2856289000,
             "revGrowth": 6,
             "revCur": "USD"
@@ -34295,11 +34284,11 @@ window.TEAM2_DATA = {
             "epsLow": 13.46,
             "epsHigh": 13.77,
             "epsYearAgo": 12.22,
-            "epsAnalysts": 37,
+            "epsAnalysts": 38,
             "epsGrowth": 11.7,
             "epsCur": "USD",
-            "rev": 12348096600,
-            "revAnalysts": 29,
+            "rev": 12348106710,
+            "revAnalysts": 30,
             "revYearAgo": 9315056000,
             "revGrowth": 32.6,
             "revCur": "USD"
@@ -34311,12 +34300,12 @@ window.TEAM2_DATA = {
             "epsLow": 14.98,
             "epsHigh": 17.05,
             "epsYearAgo": 13.65,
-            "epsAnalysts": 37,
+            "epsAnalysts": 38,
             "epsGrowth": 18.8,
             "epsCur": "USD",
-            "rev": 12988434430,
-            "revAnalysts": 29,
-            "revYearAgo": 12348096600,
+            "rev": 12987543280,
+            "revAnalysts": 30,
+            "revYearAgo": 12348106710,
             "revGrowth": 5.2,
             "revCur": "USD"
           }
@@ -34329,7 +34318,7 @@ window.TEAM2_DATA = {
             "now": 3.67,
             "d7": 0,
             "d30": 0.3,
-            "d90": -0.1,
+            "d90": 0,
             "ago90": 3.67,
             "up7": 10,
             "up30": 10,
@@ -34342,7 +34331,7 @@ window.TEAM2_DATA = {
             "cur": "USD",
             "now": 3.39,
             "d7": -0.1,
-            "d30": 0.2,
+            "d30": 0.1,
             "d90": 0.4,
             "ago90": 3.37,
             "up7": 7,
@@ -34357,8 +34346,8 @@ window.TEAM2_DATA = {
             "now": 13.65,
             "d7": 0,
             "d30": 0,
-            "d90": -0.3,
-            "ago90": 13.69,
+            "d90": -0.2,
+            "ago90": 13.68,
             "up7": 11,
             "up30": 9,
             "down7": 7,
@@ -34371,8 +34360,8 @@ window.TEAM2_DATA = {
             "now": 16.22,
             "d7": 0.2,
             "d30": 0.7,
-            "d90": 1.8,
-            "ago90": 15.93,
+            "d90": 1.2,
+            "ago90": 16.02,
             "up7": 14,
             "up30": 15,
             "down7": 4,
@@ -34413,11 +34402,21 @@ window.TEAM2_DATA = {
         "ratings": {
           "upgrades": 2,
           "downgrades": 0,
-          "initiations": 2,
-          "ptRaised": 12,
+          "initiations": 3,
+          "ptRaised": 10,
           "ptLowered": 1,
-          "total": 17,
+          "total": 16,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "Citizens",
+              "action": "init",
+              "from": null,
+              "to": "Market Perform",
+              "ptAction": null,
+              "pt": null,
+              "ptPrior": null
+            },
             {
               "date": "2026-11-11",
               "firm": "Bernstein",
@@ -34507,16 +34506,6 @@ window.TEAM2_DATA = {
               "ptAction": "Lowers",
               "pt": 86,
               "ptPrior": 95
-            },
-            {
-              "date": "2026-10-19",
-              "firm": "Keybanc",
-              "action": "up",
-              "from": "Sector Weight",
-              "to": "Overweight",
-              "ptAction": "Announces",
-              "pt": 105,
-              "ptPrior": null
             }
           ]
         },
@@ -34529,37 +34518,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 102.91,
-        "stop": 97.71,
-        "adrPct": 5.66,
-        "distToPivotPct": -10.77,
-        "distToPivotAdr": -1.9,
-        "riskPerSharePct": 5.05,
-        "extensionAdr": 0.05,
+        "stop": 97.72,
+        "adrPct": 5.68,
+        "distToPivotPct": -11.12,
+        "distToPivotAdr": -1.96,
+        "riskPerSharePct": 5.04,
+        "extensionAdr": 0.1,
         "breakDate": null,
         "metrics": {
-          "baseBars": 15,
-          "baseWeeks": 3,
+          "baseBars": 16,
+          "baseWeeks": 3.2,
           "depthPct": 19,
           "priorMovePct": 32.1,
           "higherLows": 0,
           "contraction": 1.14,
           "closeRange10Adr": 3.5,
-          "surf10": 0.05,
-          "surf20": 0.05,
-          "slope20": 0.8,
+          "surf10": 0.1,
+          "surf20": -0.11,
+          "slope20": 1.03,
           "baseLow": 83.32,
           "lastSwingLow": 93.29
         },
         "reasons": [
           "선행 상승 +32%",
-          "베이스 3주",
+          "베이스 3.2주",
           "깊이 19%",
           "✗ 저점 상승 0회",
           "✗ 진폭 1.14배 · 10일 종가폭 3.5 ADR",
-          "10일선 +0 ADR · 20일선 +0.1 ADR",
-          "20일선 기울기 +0.8%"
+          "✗ 10일선 +0.1 ADR · 20일선 -0.1 ADR",
+          "20일선 기울기 +1.03%"
         ]
       },
       "checks": {
@@ -34572,7 +34561,7 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 3주 · 기준 2~8주"
+            "evidence": "베이스 3.2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
@@ -34582,17 +34571,17 @@ window.TEAM2_DATA = {
           {
             "item": "깊이",
             "status": "미충족",
-            "evidence": "베이스 깊이 19% · ADR 5.66%의 3.4배 · 선행 상승의 절반 16%"
+            "evidence": "베이스 깊이 19% · ADR 5.68%의 3.3배 · 선행 상승의 절반 16%"
           },
           {
             "item": "이평선 위",
-            "status": "충족",
-            "evidence": "종가 91.83 · 20일선 91.56 · 50일선 86.92"
+            "status": "미충족",
+            "evidence": "종가 91.47 · 20일선 92.05 · 50일선 86.95"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.84배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.91배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -34602,12 +34591,12 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 102.91까지 -10.77% (-1.9 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 102.91까지 -11.12% (-1.96 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.05% · ADR 5.66%"
+            "evidence": "예비 손절 폭 5.04% · ADR 5.68%"
           },
           {
             "item": "10일선 이격",
@@ -34639,12 +34628,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.84배(20일 평균 대비) · 오늘 거래대금 2.13배(상승일) · 상장주식 265M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.91배(20일 평균 대비) · 오늘 거래대금 2.13배(상승일) · 상장주식 265M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 6% · 3M 32.6% · 6M 14.2% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 6% · 3M 32.54% · 6M 14.21% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -34663,25 +34652,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "SPB",
       "price": 80.6500015258789,
-      "marketCap": "1.74B",
+      "marketCap": "1.86B",
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "rs": {
         "m1": {
           "v": 0.1461075541680863,
-          "pct": 72.18214607754734
+          "pct": 72.24729241877257
         },
         "m3": {
           "v": 0.0666515816052193,
-          "pct": 46.934174932371505
+          "pct": 46.97653429602888
         },
         "m6": {
           "v": 0.1981054413433625,
-          "pct": 53.60685302073941
+          "pct": 53.56498194945848
         }
       },
       "qualifiedBy": [],
-      "bestPct": 72.18214607754734,
+      "bestPct": 72.24729241877257,
       "adr": 4.35,
       "cyTrend": -7.01,
       "nyTrend": 0.51,
@@ -34724,8 +34713,8 @@ window.TEAM2_DATA = {
       "epsNy": 16,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 46.44,
+      "apiCalled": true,
+      "siteRankPct6": 46.48,
       "fs": {
         "sale": [
           7.68,
@@ -34754,12 +34743,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 1.16,
+      "ma150Slope": 1.09,
       "ta": {
-        "price": 80.65,
-        "resistance": 81.24,
-        "support": 77.74,
-        "contraction": 1.29,
+        "price": 81.48,
+        "resistance": 85.49,
+        "support": 80.77,
+        "contraction": 1.2,
         "trend": "down"
       },
       "top2Gaps": {
@@ -34774,9 +34763,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1739,
-        "m3": 0.2859,
-        "m6": 0.3862,
+        "m1": 0.1741,
+        "m3": 0.2863,
+        "m6": 0.3857,
         "rankPct6": 16.54,
         "count": 9
       },
@@ -35134,7 +35123,7 @@ window.TEAM2_DATA = {
       "nameKo": "스펙트럼 브랜즈 홀딩스",
       "nameEn": "SPECTRUM BRANDS HOLDINGS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "스펙트럼 브랜즈 홀딩스",
         "nameEn": "SPECTRUM BRANDS HOLDINGS INC",
         "infomaxCode": "NYS:SPB",
@@ -35427,30 +35416,30 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "SPB",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 24.46,
-        "pbr": 1,
+        "per": 24.71,
+        "pbr": 1.01,
         "eps": 3.3,
         "bps": 80.38,
-        "shares": 22995600,
-        "marketCapM": 1855,
+        "shares": 23017800,
+        "marketCapM": 1875,
         "high52": 98.533,
         "high52Date": "2026-08-07",
-        "low52": 52.6507,
-        "low52Date": "2025-11-20",
-        "last": 80.65,
-        "prevClose": 75.87,
+        "low52": 54.9556,
+        "low52Date": "2025-12-08",
+        "last": 81.48,
+        "prevClose": 80.65,
         "nameKo": "스펙트럼 브랜즈 홀딩스",
         "nameEn": "SPECTRUM BRANDS HOLDINGS INC",
         "listedOn": null,
         "exchange": "뉴욕거래소",
-        "listedShares": 22995600
+        "listedShares": 23017800
       },
       "estimates": {
         "ticker": "SPB",
         "url": "https://finance.yahoo.com/quote/SPB/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -35656,37 +35645,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 94.25,
-        "stop": 90.74,
-        "adrPct": 4.35,
-        "distToPivotPct": -14.43,
-        "distToPivotAdr": -3.32,
-        "riskPerSharePct": 3.72,
-        "extensionAdr": -1.12,
+        "stop": 90.65,
+        "adrPct": 4.42,
+        "distToPivotPct": -13.55,
+        "distToPivotAdr": -3.07,
+        "riskPerSharePct": 3.82,
+        "extensionAdr": -0.65,
         "breakDate": null,
         "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
+          "baseBars": 13,
+          "baseWeeks": 2.6,
           "depthPct": 19.5,
           "priorMovePct": 25.4,
           "higherLows": 0,
-          "contraction": 1.29,
-          "closeRange10Adr": 3.8,
-          "surf10": -1.12,
-          "surf20": -1.11,
-          "slope20": 0.43,
+          "contraction": 1.2,
+          "closeRange10Adr": 3.6,
+          "surf10": -0.65,
+          "surf20": -0.87,
+          "slope20": 0.09,
           "baseLow": 75.86,
           "lastSwingLow": 75.86
         },
         "reasons": [
           "✗ 선행 상승 +25%",
-          "베이스 2.4주",
+          "베이스 2.6주",
           "깊이 19.5%",
           "✗ 저점 상승 0회",
-          "✗ 진폭 1.29배 · 10일 종가폭 3.8 ADR",
-          "✗ 10일선 -1.1 ADR · 20일선 -1.1 ADR",
-          "20일선 기울기 +0.43%"
+          "✗ 진폭 1.2배 · 10일 종가폭 3.6 ADR",
+          "✗ 10일선 -0.6 ADR · 20일선 -0.9 ADR",
+          "20일선 기울기 +0.09%"
         ]
       },
       "checks": {
@@ -35699,27 +35688,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "evidence": "베이스 2.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 1.29배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 1.2배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "미충족",
-            "evidence": "베이스 깊이 19.5% · ADR 4.35%의 4.5배 · 선행 상승의 절반 13%"
+            "evidence": "베이스 깊이 19.5% · ADR 4.42%의 4.4배 · 선행 상승의 절반 13%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 80.65 · 20일선 84.54 · 50일선 82.44 — 50일선 아래(원문: 사지 않음)"
+            "evidence": "종가 81.48 · 20일선 84.6 · 50일선 82.36 — 50일선 아래(원문: 사지 않음)"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.22배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.06배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -35729,17 +35718,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 94.25까지 -14.43% (-3.32 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 94.25까지 -13.55% (-3.07 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.72% · ADR 4.35%"
+            "evidence": "예비 손절 폭 3.82% · ADR 4.42%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.6 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -35766,12 +35755,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.22배(20일 평균 대비) · 오늘 거래대금 1.39배(상승일) · 상장주식 23M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.06배(20일 평균 대비) · 오늘 거래대금 1.39배(상승일) · 상장주식 23M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "미충족",
-            "evidence": "상대강도 상위 1M 27.82% · 3M 53.07% · 6M 46.39% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 27.75% · 3M 53.02% · 6M 46.44% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -35790,25 +35779,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "APP",
       "price": 348.2900085449219,
-      "marketCap": "125.58B",
+      "marketCap": "115.40B",
       "sector": "Communication Services",
       "industry": "Advertising Agencies",
       "rs": {
         "m1": {
           "v": 0.4745053697354736,
-          "pct": 99.77457168620379
+          "pct": 99.77436823104694
         },
         "m3": {
           "v": 0.2694166884153152,
-          "pct": 92.380522993688
+          "pct": 92.37364620938628
         },
         "m6": {
           "v": -0.24210146462170243,
-          "pct": 7.980162308385934
+          "pct": 7.987364620938628
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.77457168620379,
+      "bestPct": 99.77436823104694,
       "adr": 6.14,
       "cyTrend": 3.93,
       "nyTrend": 4.07,
@@ -35845,13 +35834,13 @@ window.TEAM2_DATA = {
         "nyCur": 20.72451,
         "ny30": 19.91344
       },
-      "saleCy": 52.11,
-      "saleNy": 25.4,
+      "saleCy": 52.12,
+      "saleNy": 25.51,
       "epsCy": 66.79,
       "epsNy": 27.44,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 92.06,
       "fs": {
         "sale": [
@@ -35881,12 +35870,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -2.75,
+      "ma150Slope": -2.6,
       "ta": {
-        "price": 348.29,
-        "resistance": 352,
-        "support": 343,
-        "contraction": 1.26,
+        "price": 373.92,
+        "resistance": 380.7,
+        "support": 366.67,
+        "contraction": 1.09,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -35901,10 +35890,10 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.4262,
-        "m3": 0.2483,
-        "m6": -0.151,
-        "rankPct6": 94.74,
+        "m1": 0.4229,
+        "m3": 0.2468,
+        "m6": -0.1447,
+        "rankPct6": 93.98,
         "count": 2
       },
       "research": {
@@ -36408,7 +36397,7 @@ window.TEAM2_DATA = {
       "nameKo": "앱러빈",
       "nameEn": "APPLOVIN CORP",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "앱러빈",
         "nameEn": "APPLOVIN CORP",
         "infomaxCode": "NAS:APP",
@@ -36494,6 +36483,46 @@ window.TEAM2_DATA = {
           "ticker": "APP",
           "items": [
             {
+              "title": "AppLovin Q3 Beat & Q4 Guidance Put AI Growth & Margins to the Test",
+              "url": "https://www.nasdaq.com/articles/applovin-q3-beat-q4-guidance-put-ai-growth-margins-test",
+              "date": "2026-11-23",
+              "desc": "APP's Q3 earnings beat, 55% y/y revenue growth and robust Q4 guidance highlight AI-driven momentum, but model deployment risks could challenge sustained growth.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "APP",
+                "TTD",
+                "U"
+              ]
+            },
+            {
+              "title": "APP Falls 14.9% in One Week as Growth Strength Meets Execution Risk",
+              "url": "https://www.nasdaq.com/articles/app-falls-149-one-week-growth-strength-meets-execution-risk",
+              "date": "2026-11-23",
+              "desc": "AppLovin shares plunged 14.9% in a week despite strong earnings & AI-driven growth. Does the pullback signal a buying opportunity or do risks warrant caution?",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "APP",
+                "TTD",
+                "MGNI"
+              ]
+            },
+            {
+              "title": "Investors Heavily Search AppLovin Corporation (APP): Here is What You Need to Know",
+              "url": "https://www.nasdaq.com/articles/investors-heavily-search-applovin-corporation-app-here-what-you-need-know-0",
+              "date": "2026-11-23",
+              "desc": "Recently, Zacks.com users have been paying close attention to AppLovin (APP). This makes it worthwhile to examine what the stock has in store.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "APP"
+              ]
+            },
+            {
               "title": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy for 2027?",
               "url": "https://www.nasdaq.com/articles/applovin-vs-reddit-which-technology-stock-better-buy-2027",
               "date": "2026-11-21",
@@ -36559,49 +36588,10 @@ window.TEAM2_DATA = {
               "tickers": [
                 "APP"
               ]
-            },
-            {
-              "title": "AppLovin: 3 Key Takeaways for Long-Term Investors",
-              "url": "https://www.nasdaq.com/articles/applovin-3-key-takeaways-long-term-investors",
-              "date": "2026-11-10",
-              "desc": "Key PointsThird-quarter revenue grew 55% year over year to $2.18 billion.",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "APP",
-                "APP"
-              ]
-            },
-            {
-              "title": "APP Stock Surges 51% After Q3 Earnings: Is it Still a Buy?",
-              "url": "https://www.nasdaq.com/articles/app-stock-surges-51-after-q3-earnings-it-still-buy",
-              "date": "2026-11-10",
-              "desc": "AppLovin shares surge 51% after strong Q3 earnings and upbeat Q4 guidance, but rising expectations and execution risks raise questions about further upside.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "APP",
-                "TTD",
-                "U"
-              ]
-            },
-            {
-              "title": "Here is What to Know Beyond Why AppLovin Corporation (APP) is a Trending Stock",
-              "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-applovin-corporation-app-trending-stock-0",
-              "date": "2026-11-10",
-              "desc": "AppLovin (APP) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "APP"
-              ]
             }
           ],
           "directCount": 10,
-          "total": 11,
+          "total": 12,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -36714,8 +36704,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-12",
               "summary": "- 앱러빈의 FY 4Q25 매출액은 16.6억 달러(YoY +20.8%), EPS는 3.24 달러(YoY +87.3%)를 기록해 컨센서스를 각각 3.2%, 9.8% 상회했다. 매출총이익률은 88.9%(YoY +12.2%p), 영업이익률은 76.9%(YoY +32.6%p)였다.- 앱러빈은 연말 쇼핑 시즌 광고 수요로 인해 1분기가 4분기보다 약세인 계절성이 있으며 1분기 영업일수가 더 적음에도 불구하고, FY 1Q26 매출액 가이던스를 중간값 기준 17.6억 달러(YoY +18.6%, QoQ +6.2%, vs. 컨센서스 17억 달러)로 제시했다.- 조정 EBITDA는 14.8억 달러(YoY +47.3%, vs. 컨센서스 14억 달러), 조정 EBITDA 마진은 최 고치였던 4분기 수준(84%)을 유지할 것으로 예상했다",
               "pages": "5",
-              "secureId": "eqqcllkqleeicqxgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcllkqleeicqxgcgxeegi.pdf",
+              "secureId": "eqqcllkqleeicqxgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcllkqleeicqxgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -36725,8 +36715,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-12",
               "summary": "- Signal: 산업 우려, 경쟁 진입 등으로 2026년 주가 급락- Key: Rule of 40상 120점 이상, 여전히 강한 Moat- Step: 그러나 Meta 시장 진입 우려 해소에는 시간 필요",
               "pages": "2",
-              "secureId": "eqqclxmqixzcmxzgcgxeegi",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeegi.pdf",
+              "secureId": "eqqclxmqixzcmxzgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeegk.pdf",
               "opinion": null
             }
           ],
@@ -36793,20 +36783,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "APP",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 26.77,
-        "pbr": 36.92,
+        "per": 28.74,
+        "pbr": 39.64,
         "eps": 13.01,
         "bps": 9.43,
         "shares": 301258000,
-        "marketCapM": 104925,
+        "marketCapM": 112646,
         "high52": 738.01,
         "high52Date": "2025-12-22",
         "low52": 225.1901,
         "low52Date": "2026-10-30",
-        "last": 348.29,
-        "prevClose": 379.02,
+        "last": 373.92,
+        "prevClose": 348.29,
         "nameKo": "앱러빈",
         "nameEn": "APPLOVIN CORP",
         "listedOn": "2021-04-14",
@@ -36816,7 +36806,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "APP",
         "url": "https://finance.yahoo.com/quote/APP/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -36977,9 +36967,9 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 10,
+          "ptRaised": 11,
           "ptLowered": 13,
-          "total": 25,
+          "total": 26,
           "recent": [
             {
               "date": "2026-11-19",
@@ -36990,6 +36980,16 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 469,
               "ptPrior": 440
+            },
+            {
+              "date": "2026-11-16",
+              "firm": "Jefferies",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 500,
+              "ptPrior": 430
             },
             {
               "date": "2026-11-06",
@@ -37070,16 +37070,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 540,
               "ptPrior": 510
-            },
-            {
-              "date": "2026-11-05",
-              "firm": "Wedbush",
-              "action": "main",
-              "from": "Outperform",
-              "to": "Outperform",
-              "ptAction": "Raises",
-              "pt": 600,
-              "ptPrior": 560
             }
           ]
         },
@@ -37090,15 +37080,39 @@ window.TEAM2_DATA = {
         }
       },
       "setup": {
-        "state": "none",
-        "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 6.14,
-        "extensionAdr": -2.16,
+        "state": "pre",
+        "grade": "C",
+        "asOf": "2026-11-23",
+        "pivot": 418.77,
+        "stop": 395.42,
+        "adrPct": 6.24,
+        "distToPivotPct": -10.71,
+        "distToPivotAdr": -1.72,
+        "riskPerSharePct": 5.58,
+        "extensionAdr": -0.73,
         "breakDate": null,
-        "metrics": null,
+        "metrics": {
+          "baseBars": 11,
+          "baseWeeks": 2.2,
+          "depthPct": 17.3,
+          "priorMovePct": 86,
+          "higherLows": 0,
+          "contraction": 1.09,
+          "closeRange10Adr": 2.9,
+          "surf10": -0.73,
+          "surf20": 1.41,
+          "slope20": 9.04,
+          "baseLow": 346.17,
+          "lastSwingLow": 346.17
+        },
         "reasons": [
-          "쉬는 구간 없음"
+          "선행 상승 +86%",
+          "베이스 2.2주",
+          "깊이 17.3%",
+          "✗ 저점 상승 0회",
+          "✗ 진폭 1.09배 · 10일 종가폭 2.9 ADR",
+          "10일선 -0.7 ADR · 20일선 +1.4 ADR",
+          "20일선 기울기 +9.04%"
         ]
       },
       "checks": {
@@ -37106,52 +37120,52 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "3개월 최대상승 86% · 기준 30%↑"
+            "evidence": "선행 상승 86% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "베이스 2.2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.09배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "베이스 깊이 17.3% · ADR 6.24%의 2.8배 · 선행 상승의 절반 43%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 348.29 · 20일선 335.29 · 50일선 309.26"
+            "evidence": "종가 373.92 · 20일선 340.95 · 50일선 310.05"
           },
           {
             "item": "거래량 마름",
             "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.66배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.64배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
             "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
           },
           {
             "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "미충족",
+            "evidence": "피벗 418.77까지 -10.71% (-1.72 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "예비 손절 폭 5.58% · ADR 6.24%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -2.2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.7 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -37178,12 +37192,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.66배(20일 평균 대비) · 오늘 거래대금 0.79배 · 상장주식 301M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.64배(20일 평균 대비) · 오늘 거래대금 0.79배 · 상장주식 301M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.23% · 3M 7.62% · 6M 92.02% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.23% · 3M 7.63% · 6M 92.01% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -37202,25 +37216,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "FCN",
       "price": 205.63999938964844,
-      "marketCap": "5.55B",
+      "marketCap": "5.60B",
       "sector": "Industrials",
       "industry": "Consulting Services",
       "rs": {
         "m1": {
           "v": 0.44402489929357586,
-          "pct": 99.59422903516682
+          "pct": 99.59386281588448
         },
         "m3": {
           "v": 0.508335825351501,
-          "pct": 99.50405770964834
+          "pct": 99.50361010830325
         },
         "m6": {
           "v": 0.5223984680708179,
-          "pct": 92.29035166816952
+          "pct": 92.28339350180505
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.59422903516682,
+      "bestPct": 99.59386281588448,
       "adr": 3.59,
       "cyTrend": 5.68,
       "nyTrend": 2.52,
@@ -37263,8 +37277,8 @@ window.TEAM2_DATA = {
       "epsNy": 13.67,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 7.75,
+      "apiCalled": true,
+      "siteRankPct6": 7.76,
       "fs": {
         "sale": [
           5.28,
@@ -37293,12 +37307,12 @@ window.TEAM2_DATA = {
         "m3": 7,
         "m6": 0
       },
-      "ma150Slope": 1.19,
+      "ma150Slope": 1.32,
       "ta": {
-        "price": 205.64,
+        "price": 206.17,
         "resistance": 208.28,
         "support": 190,
-        "contraction": 0.62,
+        "contraction": 0.63,
         "trend": "up"
       },
       "top2Gaps": {
@@ -37313,9 +37327,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1649,
-        "m3": 0.2063,
-        "m6": 0.3075,
+        "m1": 0.1648,
+        "m3": 0.2065,
+        "m6": 0.3084,
         "rankPct6": 25.56,
         "count": 7
       },
@@ -37689,7 +37703,7 @@ window.TEAM2_DATA = {
       "nameKo": "FTI 컨설팅",
       "nameEn": "FTI CONSULTING INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "FTI 컨설팅",
         "nameEn": "FTI CONSULTING INC",
         "infomaxCode": "NYS:FCN",
@@ -37774,6 +37788,20 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "FCN",
           "items": [
+            {
+              "title": "FCN's Global Presence Across 84 Cities: A Growth Catalyst?",
+              "url": "https://www.nasdaq.com/articles/fcns-global-presence-across-84-cities-growth-catalyst",
+              "date": "2026-11-23",
+              "desc": "FTI Consulting's global presence across 84 cities in 32 countries strengthens its advisory capabilities and unlocks growth opportunities despite operational challenges.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "FCN",
+                "CRAI",
+                "HURN"
+              ]
+            },
             {
               "title": "Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term",
               "url": "https://www.nasdaq.com/articles/why-fti-consulting-fcn-top-growth-stock-long-term-0",
@@ -37861,22 +37889,9 @@ window.TEAM2_DATA = {
                 "FCN",
                 "FCN"
               ]
-            },
-            {
-              "title": "FTI Consulting (FCN) Beats Q3 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/fti-consulting-fcn-beats-q3-earnings-and-revenue-estimates",
-              "date": "2026-10-29",
-              "desc": "FTI Consulting (FCN) delivered earnings and revenue surprises of +44.91% and +0.65%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FCN",
-                "FC"
-              ]
             }
           ],
-          "directCount": 14,
+          "directCount": 13,
           "total": 15,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
@@ -38003,20 +38018,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "FCN",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 24.86,
-        "pbr": 4.27,
+        "per": 24.93,
+        "pbr": 4.28,
         "eps": 8.27,
         "bps": 48.14,
         "shares": 27254200,
-        "marketCapM": 5605,
+        "marketCapM": 5619,
         "high52": 210.29,
         "high52Date": "2026-11-20",
         "low52": 129.12,
         "low52Date": "2026-09-25",
-        "last": 205.64,
-        "prevClose": 203.52,
+        "last": 206.17,
+        "prevClose": 205.64,
         "nameKo": "FTI 컨설팅",
         "nameEn": "FTI CONSULTING INC",
         "listedOn": null,
@@ -38026,7 +38041,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "FCN",
         "url": "https://finance.yahoo.com/quote/FCN/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -38222,14 +38237,14 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "post",
         "grade": "B",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 202.3,
         "stop": 194.88,
-        "adrPct": 3.59,
-        "distToPivotPct": 1.65,
-        "distToPivotAdr": 0.46,
+        "adrPct": 3.49,
+        "distToPivotPct": 1.91,
+        "distToPivotAdr": 0.55,
         "riskPerSharePct": 3.67,
-        "extensionAdr": 0.52,
+        "extensionAdr": 0.44,
         "breakDate": "2026-11-13",
         "metrics": {
           "baseBars": 8,
@@ -38275,17 +38290,17 @@ window.TEAM2_DATA = {
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 10.4% · ADR 3.59%의 2.9배 · 선행 상승의 절반 28%"
+            "evidence": "베이스 깊이 10.4% · ADR 3.49%의 3배 · 선행 상승의 절반 28%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 205.64 · 20일선 191.81 · 50일선 161.51"
+            "evidence": "종가 206.17 · 20일선 194.05 · 50일선 162.62"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.9배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.91배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -38300,12 +38315,12 @@ window.TEAM2_DATA = {
           {
             "item": "손절 폭",
             "status": "미충족",
-            "evidence": "예비 손절 폭 3.67% · ADR 3.59%"
+            "evidence": "예비 손절 폭 3.67% · ADR 3.49%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.5 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.4 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -38332,12 +38347,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.9배(20일 평균 대비) · 오늘 거래대금 1배(상승일) · 상장주식 27M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.91배(20일 평균 대비) · 오늘 거래대금 1배(상승일) · 상장주식 27M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.41% · 3M 0.5% · 6M 7.71% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.41% · 3M 0.5% · 6M 7.72% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -38356,25 +38371,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "CROX",
       "price": 154.6699981689453,
-      "marketCap": "7.19B",
+      "marketCap": "7.07B",
       "sector": "Consumer Cyclical",
       "industry": "Footwear & Accessories",
       "rs": {
         "m1": {
           "v": 0.4334558067119379,
-          "pct": 99.50405770964834
+          "pct": 99.50361010830325
         },
         "m3": {
           "v": 0.42636860616897615,
-          "pct": 99.0532010820559
+          "pct": 99.0523465703971
         },
         "m6": {
           "v": 0.5063609504058654,
-          "pct": 91.47880973850316
+          "pct": 91.471119133574
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.50405770964834,
+      "bestPct": 99.50361010830325,
       "adr": 3.8,
       "cyTrend": 4.9,
       "nyTrend": 7.12,
@@ -38417,7 +38432,7 @@ window.TEAM2_DATA = {
       "epsNy": 9.41,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 8.57,
       "fs": {
         "sale": [
@@ -38447,12 +38462,12 @@ window.TEAM2_DATA = {
         "m3": 6,
         "m6": 0
       },
-      "ma150Slope": 6.84,
+      "ma150Slope": 6.89,
       "ta": {
-        "price": 154.67,
+        "price": 157.78,
         "resistance": 161.88,
         "support": 119.74,
-        "contraction": 0.89,
+        "contraction": 0.79,
         "trend": "up"
       },
       "top2Gaps": {
@@ -38467,9 +38482,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.2337,
-        "m3": 0.2075,
-        "m6": 0.1378,
+        "m1": 0.2334,
+        "m3": 0.2072,
+        "m6": 0.1372,
         "rankPct6": 60.9,
         "count": 2
       },
@@ -38863,7 +38878,7 @@ window.TEAM2_DATA = {
       "nameKo": "크록스",
       "nameEn": "CROCS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "크록스",
         "nameEn": "CROCS INC",
         "infomaxCode": "NAS:CROX",
@@ -38948,6 +38963,19 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "CROX",
           "items": [
+            {
+              "title": "Are Consumer Discretionary Stocks Lagging  Crocs (CROX) This Year?",
+              "url": "https://www.nasdaq.com/articles/are-consumer-discretionary-stocks-lagging-crocs-crox-year-0",
+              "date": "2026-11-23",
+              "desc": "Here is how Crocs (CROX) and Reservoir Media, Inc. (RSVR) have performed compared to their sector so far this year.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "CROX",
+                "RSVR"
+              ]
+            },
             {
               "title": "Are You Looking for a Top Momentum Pick? Why Crocs (CROX) is a Great Choice",
               "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-crocs-crox-great-choice",
@@ -39035,22 +39063,10 @@ window.TEAM2_DATA = {
                 "CLDT",
                 "PEBO"
               ]
-            },
-            {
-              "title": "The Zacks Rank Explained: How to Find Strong Buy Consumer Discretionary Stocks",
-              "url": "https://www.nasdaq.com/articles/zacks-rank-explained-how-find-strong-buy-consumer-discretionary-stocks-0",
-              "date": "2026-11-20",
-              "desc": "Finding strong, market-beating stocks with a positive earnings outlook becomes easier with the Zacks Rank.",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "CROX"
-              ]
             }
           ],
-          "directCount": 5,
-          "total": 9,
+          "directCount": 6,
+          "total": 10,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -39207,20 +39223,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CROX",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 13.36,
-        "pbr": 5.37,
+        "per": 13.63,
+        "pbr": 5.48,
         "eps": 11.57,
         "bps": 28.79,
         "shares": 45725000,
-        "marketCapM": 7072,
+        "marketCapM": 7214,
         "high52": 164.2397,
         "high52Date": "2026-11-16",
         "low52": 75.13,
         "low52Date": "2026-03-20",
-        "last": 154.67,
-        "prevClose": 157.31,
+        "last": 157.78,
+        "prevClose": 154.67,
         "nameKo": "크록스",
         "nameEn": "CROCS INC",
         "listedOn": null,
@@ -39230,7 +39246,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CROX",
         "url": "https://finance.yahoo.com/quote/CROX/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -39444,39 +39460,39 @@ window.TEAM2_DATA = {
         }
       },
       "setup": {
-        "state": "post",
+        "state": "pre",
         "grade": "A",
-        "asOf": "2026-11-20",
-        "pivot": 161.88,
-        "stop": 155.97,
-        "adrPct": 3.8,
-        "distToPivotPct": -4.45,
-        "distToPivotAdr": -1.17,
-        "riskPerSharePct": 3.65,
-        "extensionAdr": -0.8,
-        "breakDate": "2026-11-13",
+        "asOf": "2026-11-23",
+        "pivot": 164.24,
+        "stop": 158.29,
+        "adrPct": 3.77,
+        "distToPivotPct": -3.93,
+        "distToPivotAdr": -1.04,
+        "riskPerSharePct": 3.62,
+        "extensionAdr": -0.23,
+        "breakDate": null,
         "metrics": {
-          "baseBars": 10,
-          "baseWeeks": 2,
-          "depthPct": 13.9,
-          "priorMovePct": 49.1,
+          "baseBars": 17,
+          "baseWeeks": 3.4,
+          "depthPct": 15.2,
+          "priorMovePct": 51.3,
           "higherLows": 1,
-          "contraction": 1.12,
-          "closeRange10Adr": 1.6,
-          "surf10": 0.17,
-          "surf20": 2.94,
-          "slope20": 7.59,
+          "contraction": 0.79,
+          "closeRange10Adr": 1.5,
+          "surf10": -0.23,
+          "surf20": 0.78,
+          "slope20": 6.7,
           "baseLow": 139.33,
           "lastSwingLow": 149.5
         },
         "reasons": [
-          "선행 상승 +49%",
-          "베이스 2주",
-          "깊이 13.9%",
+          "선행 상승 +51%",
+          "베이스 3.4주",
+          "깊이 15.2%",
           "저점 상승 1회",
-          "진폭 1.12배 · 10일 종가폭 1.6 ADR",
-          "10일선 +0.2 ADR · 20일선 +2.9 ADR",
-          "20일선 기울기 +7.59%"
+          "진폭 0.79배 · 10일 종가폭 1.5 ADR",
+          "10일선 -0.2 ADR · 20일선 +0.8 ADR",
+          "20일선 기울기 +6.7%"
         ]
       },
       "checks": {
@@ -39484,52 +39500,52 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "선행 상승 49% · 기준 30%↑"
+            "evidence": "선행 상승 51% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2주 · 기준 2~8주"
+            "evidence": "베이스 3.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.12배(1 미만이면 좁아짐)"
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.79배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 13.9% · ADR 3.8%의 3.7배 · 선행 상승의 절반 25%"
+            "evidence": "베이스 깊이 15.2% · ADR 3.77%의 4배 · 선행 상승의 절반 26%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 154.67 · 20일선 151.21 · 50일선 132.31"
+            "evidence": "종가 157.78 · 20일선 153.16 · 50일선 133.24"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.79배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.74배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
-            "status": "미충족",
-            "evidence": "2026-11-13 돌파봉 거래량 = 20일 평균의 0.89배 · 기준 2배"
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
           },
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "이미 2026-11-13 피벗 161.88 돌파 — 추격 구간"
+            "evidence": "피벗 164.24까지 -3.93% (-1.04 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.65% · ADR 3.8%"
+            "evidence": "예비 손절 폭 3.62% · ADR 3.77%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.2 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -39556,12 +39572,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.79배(20일 평균 대비) · 오늘 거래대금 0.75배 · 상장주식 46M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.74배(20일 평균 대비) · 오늘 거래대금 0.75배 · 상장주식 46M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.5% · 3M 0.95% · 6M 8.52% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.5% · 3M 0.95% · 6M 8.53% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -39580,25 +39596,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "CLX",
       "price": 104.7300033569336,
-      "marketCap": "12.71B",
+      "marketCap": "12.69B",
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "rs": {
         "m1": {
           "v": 0.36596406799529346,
-          "pct": 99.23354373309287
+          "pct": 99.23285198555956
         },
         "m3": {
           "v": 0.18063730212782209,
-          "pct": 76.14968440036068
+          "pct": 76.21841155234657
         },
         "m6": {
-          "v": 0.38209225139846886,
-          "pct": 80.65825067628494
+          "v": 0.38209235617421783,
+          "pct": 80.64079422382672
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.23354373309287,
+      "bestPct": 99.23285198555956,
       "adr": 3.55,
       "cyTrend": -0.33,
       "nyTrend": -0.66,
@@ -39641,8 +39657,8 @@ window.TEAM2_DATA = {
       "epsNy": 7.69,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 19.39,
+      "apiCalled": true,
+      "siteRankPct6": 19.4,
       "fs": {
         "sale": [
           -2.01,
@@ -39671,12 +39687,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -0.59,
+      "ma150Slope": -0.42,
       "ta": {
-        "price": 104.73,
+        "price": 104.11,
         "resistance": 108.18,
         "support": 100.93,
-        "contraction": 1.29,
+        "contraction": 1.06,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -39691,9 +39707,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.1739,
-        "m3": 0.2859,
-        "m6": 0.3862,
+        "m1": 0.1741,
+        "m3": 0.2863,
+        "m6": 0.3857,
         "rankPct6": 16.54,
         "count": 9
       },
@@ -40098,7 +40114,7 @@ window.TEAM2_DATA = {
       "nameKo": "크로락스",
       "nameEn": "CLOROX CO",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "크로락스",
         "nameEn": "CLOROX CO",
         "infomaxCode": "NYS:CLX",
@@ -40183,6 +40199,19 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "CLX",
           "items": [
+            {
+              "title": "EYE or CLX: Which Is the Better Value Stock Right Now?",
+              "url": "https://www.nasdaq.com/articles/eye-or-clx-which-better-value-stock-right-now",
+              "date": "2026-11-23",
+              "desc": "EYE vs. CLX: Which Stock Is the Better Value Option?",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "EYE",
+                "CLX"
+              ]
+            },
             {
               "title": "The Clorox Company Reports Voting Results from November 18, 2026 Annual Meeting",
               "url": "https://www.nasdaq.com/articles/clorox-company-reports-voting-results-november-18-2026-annual-meeting",
@@ -40269,19 +40298,6 @@ window.TEAM2_DATA = {
               "tier1": false,
               "direct": true,
               "tickers": [
-                "CLX"
-              ]
-            },
-            {
-              "title": "Clorox (CLX) Q1 2027 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/clorox-clx-q1-2027-earnings-call-transcript",
-              "date": "2026-11-03",
-              "desc": "@media (max-width: 768px) { .image-container { width: 100% !important; float: none !important; margin: 0 0 1rem 0 !important; } } Image source: The Mo",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "CLX",
                 "CLX"
               ]
             }
@@ -40413,20 +40429,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "CLX",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 21.77,
-        "pbr": 140.71,
+        "per": 21.64,
+        "pbr": 139.88,
         "eps": 4.81,
         "bps": 0.74,
         "shares": 121147000,
-        "marketCapM": 12688,
+        "marketCapM": 12613,
         "high52": 124.025,
         "high52Date": "2026-02-26",
         "low52": 77.9879,
         "low52Date": "2026-10-01",
-        "last": 104.73,
-        "prevClose": 104.9,
+        "last": 104.11,
+        "prevClose": 104.73,
         "nameKo": "크로락스",
         "nameEn": "CLOROX CO",
         "listedOn": null,
@@ -40436,7 +40452,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CLX",
         "url": "https://finance.yahoo.com/quote/CLX/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -40552,10 +40568,10 @@ window.TEAM2_DATA = {
             "endDate": "2028-06-30",
             "cur": "USD",
             "now": 6.17,
-            "d7": -0.3,
-            "d30": -0.7,
-            "d90": -3.1,
-            "ago90": 6.36,
+            "d7": 0,
+            "d30": 0.6,
+            "d90": -1.9,
+            "ago90": 6.29,
             "up7": 7,
             "up30": 2,
             "down7": 4,
@@ -40710,15 +40726,39 @@ window.TEAM2_DATA = {
         }
       },
       "setup": {
-        "state": "none",
-        "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 3.55,
-        "extensionAdr": -0.65,
+        "state": "pre",
+        "grade": "A",
+        "asOf": "2026-11-23",
+        "pivot": 110.98,
+        "stop": 107.21,
+        "adrPct": 3.62,
+        "distToPivotPct": -6.19,
+        "distToPivotAdr": -1.71,
+        "riskPerSharePct": 3.39,
+        "extensionAdr": -0.77,
         "breakDate": null,
-        "metrics": null,
+        "metrics": {
+          "baseBars": 10,
+          "baseWeeks": 2,
+          "depthPct": 9.6,
+          "priorMovePct": 40.3,
+          "higherLows": 1,
+          "contraction": 1.06,
+          "closeRange10Adr": 1.6,
+          "surf10": -0.77,
+          "surf20": 0.97,
+          "slope20": 4.95,
+          "baseLow": 100.3,
+          "lastSwingLow": 100.3
+        },
         "reasons": [
-          "쉬는 구간 없음"
+          "선행 상승 +40%",
+          "베이스 2주",
+          "깊이 9.6%",
+          "저점 상승 1회",
+          "진폭 1.06배 · 10일 종가폭 1.6 ADR",
+          "10일선 -0.8 ADR · 20일선 +1 ADR",
+          "20일선 기울기 +4.95%"
         ]
       },
       "checks": {
@@ -40726,27 +40766,27 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "3개월 최대상승 42% · 기준 30%↑"
+            "evidence": "선행 상승 40% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "베이스 2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "미충족",
+            "evidence": "저점 상승 1회 · 진폭 1.06배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "베이스 깊이 9.6% · ADR 3.62%의 2.7배 · 선행 상승의 절반 20%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 104.73 · 20일선 99.58 · 50일선 90.45"
+            "evidence": "종가 104.11 · 20일선 100.45 · 50일선 90.75"
           },
           {
             "item": "거래량 마름",
@@ -40756,22 +40796,22 @@ window.TEAM2_DATA = {
           {
             "item": "돌파 거래량",
             "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
           },
           {
             "item": "피벗 거리",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "미충족",
+            "evidence": "피벗 110.98까지 -6.19% (-1.71 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
-            "status": "확인 불가",
-            "evidence": "쉬는 구간(베이스)이 없다"
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.39% · ADR 3.62%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.6 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -40803,7 +40843,7 @@ window.TEAM2_DATA = {
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.77% · 3M 23.85% · 6M 19.34% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.77% · 3M 23.78% · 6M 19.36% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -40822,25 +40862,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "CAR",
       "price": 124.4000015258789,
-      "marketCap": "4.37B",
+      "marketCap": "4.40B",
       "sector": "Industrials",
       "industry": "Rental & Leasing Services",
       "rs": {
         "m1": {
           "v": 0.363766109676256,
-          "pct": 99.14337240757439
+          "pct": 99.14259927797833
         },
         "m3": {
           "v": 0.0471723073192305,
-          "pct": 41.5238954012624
+          "pct": 41.561371841155236
         },
         "m6": {
           "v": -0.09552713942490124,
-          "pct": 15.915238954012622
+          "pct": 15.929602888086642
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.14337240757439,
+      "bestPct": 99.14259927797833,
       "adr": 5.47,
       "cyTrend": 103.6,
       "nyTrend": -8,
@@ -40883,8 +40923,8 @@ window.TEAM2_DATA = {
       "epsNy": 118.27,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 84.13,
+      "apiCalled": true,
+      "siteRankPct6": 84.12,
       "fs": {
         "sale": [
           -1.35,
@@ -40913,12 +40953,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -11.79,
+      "ma150Slope": -14.1,
       "ta": {
-        "price": 124.4,
+        "price": 125.13,
         "resistance": 126.16,
         "support": 112.5,
-        "contraction": 1.06,
+        "contraction": 0.86,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -40933,10 +40973,10 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.1072,
-        "m3": 0.1239,
-        "m6": 0.1688,
-        "rankPct6": 53.38,
+        "m1": 0.1092,
+        "m3": 0.1264,
+        "m6": 0.1717,
+        "rankPct6": 52.63,
         "count": 9
       },
       "research": {
@@ -41271,7 +41311,7 @@ window.TEAM2_DATA = {
       "nameKo": "에이비스 버짓 그룹",
       "nameEn": "AVIS BUDGET GROUP INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "에이비스 버짓 그룹",
         "nameEn": "AVIS BUDGET GROUP INC",
         "infomaxCode": "NAS:CAR",
@@ -41564,20 +41604,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CAR",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 6.86,
+        "per": 6.9,
         "pbr": 0,
         "eps": 18.15,
         "bps": 0,
         "shares": 35337800,
-        "marketCapM": 4396,
+        "marketCapM": 4422,
         "high52": 847.6999,
         "high52Date": "2026-04-22",
         "low52": 85.96,
         "low52Date": "2026-02-24",
-        "last": 124.395,
-        "prevClose": 123.705,
+        "last": 125.13,
+        "prevClose": 124.395,
         "nameKo": "에이비스 버짓 그룹",
         "nameEn": "AVIS BUDGET GROUP INC",
         "listedOn": null,
@@ -41587,7 +41627,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CAR",
         "url": "https://finance.yahoo.com/quote/CAR/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -41823,9 +41863,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 5.47,
-        "extensionAdr": -0.05,
+        "asOf": "2026-11-23",
+        "adrPct": 5.6,
+        "extensionAdr": 0.09,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -41857,12 +41897,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 124.4 · 20일선 117.47 · 50일선 111.99"
+            "evidence": "종가 125.13 · 20일선 118.63 · 50일선 112.12"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.85배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.88배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -41882,7 +41922,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -41909,12 +41949,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.85배(20일 평균 대비) · 오늘 거래대금 0.9배(상승일) · 상장주식 35M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.88배(20일 평균 대비) · 오늘 거래대금 0.9배(상승일) · 상장주식 35M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 0.86% · 3M 58.48% · 6M 84.08% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 0.86% · 3M 58.44% · 6M 84.07% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -41933,25 +41973,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "FWONA",
       "price": 99.87000274658203,
-      "marketCap": "26.07B",
+      "marketCap": "25.43B",
       "sector": "Communication Services",
       "industry": "Entertainment",
       "rs": {
         "m1": {
           "v": 0.3507354631389694,
-          "pct": 98.96302975653742
+          "pct": 98.96209386281588
         },
         "m3": {
           "v": 0.2167827450613767,
-          "pct": 84.08476104598738
+          "pct": 84.07039711191335
         },
         "m6": {
           "v": 0.3914524293802956,
-          "pct": 81.65013525698828
+          "pct": 81.63357400722022
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.96302975653742,
+      "bestPct": 98.96209386281588,
       "adr": 2.81,
       "cyTrend": -0.68,
       "nyTrend": -1.38,
@@ -41994,8 +42034,8 @@ window.TEAM2_DATA = {
       "epsNy": 25.63,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 18.39,
+      "apiCalled": true,
+      "siteRankPct6": 18.41,
       "fs": {
         "sale": [
           null,
@@ -42020,12 +42060,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 2.53,
+      "ma150Slope": 2.63,
       "ta": {
-        "price": 99.87,
+        "price": 100.83,
         "resistance": 106.52,
         "support": 93.45,
-        "contraction": 0.89,
+        "contraction": 0.75,
         "trend": "up"
       },
       "top2Gaps": {
@@ -42040,9 +42080,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1199,
-        "m3": 0.0777,
-        "m6": 0.1407,
+        "m1": 0.1201,
+        "m3": 0.0783,
+        "m6": 0.1425,
         "rankPct6": 60.15,
         "count": 11
       },
@@ -42479,7 +42519,7 @@ window.TEAM2_DATA = {
       "nameKo": "리버티 포뮬러 원 A",
       "nameEn": "LIBERTY MEDIA CORPORATION",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "리버티 포뮬러 원 A",
         "nameEn": "LIBERTY MEDIA CORPORATION",
         "infomaxCode": "NAS:FWONA",
@@ -42810,20 +42850,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "FWONA",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 61.74,
-        "pbr": 3.29,
+        "per": 62.34,
+        "pbr": 3.32,
         "eps": 1.62,
         "bps": 30.39,
         "shares": 23991100,
-        "marketCapM": 2396,
+        "marketCapM": 2419,
         "high52": 106.515,
         "high52Date": "2026-11-12",
         "low52": 73.7,
         "low52Date": "2026-03-20",
-        "last": 99.87,
-        "prevClose": 102.39,
+        "last": 100.83,
+        "prevClose": 99.87,
         "nameKo": "리버티 포뮬러 원 A",
         "nameEn": "LIBERTY MEDIA CORPORATION",
         "listedOn": "2017-01-25",
@@ -42833,7 +42873,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "FWONA",
         "url": "https://finance.yahoo.com/quote/FWONA/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -42846,7 +42886,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 2,
             "epsGrowth": null,
             "epsCur": "USD",
-            "rev": 1892304690,
+            "rev": 1892323440,
             "revAnalysts": 16,
             "revYearAgo": 1609000000,
             "revGrowth": 17.6,
@@ -42862,7 +42902,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 1,
             "epsGrowth": null,
             "epsCur": "USD",
-            "rev": 684906100,
+            "rev": 684889430,
             "revAnalysts": 6,
             "revYearAgo": 711000000,
             "revGrowth": -3.7,
@@ -42878,7 +42918,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 3,
             "epsGrowth": -15.1,
             "epsCur": "USD",
-            "rev": 4762348940,
+            "rev": 4762364730,
             "revAnalysts": 19,
             "revYearAgo": 4482000000,
             "revGrowth": 6.3,
@@ -42894,9 +42934,9 @@ window.TEAM2_DATA = {
             "epsAnalysts": 3,
             "epsGrowth": 25.6,
             "epsCur": "USD",
-            "rev": 5298777590,
+            "rev": 5298767590,
             "revAnalysts": 20,
-            "revYearAgo": 4762348940,
+            "revYearAgo": 4762364730,
             "revGrowth": 11.3,
             "revCur": "USD"
           }
@@ -42907,7 +42947,7 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": 0.9,
-            "d7": 33.6,
+            "d7": 0,
             "d30": 33.6,
             "d90": 33.6,
             "ago90": 0.67,
@@ -42935,10 +42975,10 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": 1.9,
-            "d7": -0.7,
+            "d7": 0,
             "d30": -0.7,
-            "d90": 41.7,
-            "ago90": 1.34,
+            "d90": -0.7,
+            "ago90": 1.91,
             "up7": 1,
             "up30": 1,
             "down7": 1,
@@ -42949,10 +42989,10 @@ window.TEAM2_DATA = {
             "endDate": "2027-12-31",
             "cur": "USD",
             "now": 2.38,
-            "d7": -1.4,
+            "d7": 0,
             "d30": -1.4,
-            "d90": 4.1,
-            "ago90": 2.29,
+            "d90": -1.4,
+            "ago90": 2.42,
             "up7": 1,
             "up30": 1,
             "down7": 1,
@@ -43019,37 +43059,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "A",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 106.52,
-        "stop": 103.72,
-        "adrPct": 2.81,
-        "distToPivotPct": -6.24,
-        "distToPivotAdr": -2.22,
-        "riskPerSharePct": 2.63,
-        "extensionAdr": -1.32,
+        "stop": 103.71,
+        "adrPct": 2.79,
+        "distToPivotPct": -5.34,
+        "distToPivotAdr": -1.91,
+        "riskPerSharePct": 2.64,
+        "extensionAdr": -0.9,
         "breakDate": null,
         "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
+          "baseBars": 12,
+          "baseWeeks": 2.4,
           "depthPct": 8.9,
           "priorMovePct": 31.9,
           "higherLows": 1,
-          "contraction": 0.89,
+          "contraction": 0.75,
           "closeRange10Adr": 2.2,
-          "surf10": -1.32,
+          "surf10": -0.9,
           "surf20": 1.37,
-          "slope20": 5.34,
+          "slope20": 5.02,
           "baseLow": 96.99,
           "lastSwingLow": 96.99
         },
         "reasons": [
           "선행 상승 +32%",
-          "베이스 2.2주",
+          "베이스 2.4주",
           "깊이 8.9%",
           "저점 상승 1회",
-          "진폭 0.89배 · 10일 종가폭 2.2 ADR",
-          "10일선 -1.3 ADR · 20일선 +1.4 ADR",
-          "20일선 기울기 +5.34%"
+          "진폭 0.75배 · 10일 종가폭 2.2 ADR",
+          "10일선 -0.9 ADR · 20일선 +1.4 ADR",
+          "20일선 기울기 +5.02%"
         ]
       },
       "checks": {
@@ -43062,27 +43102,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
+            "evidence": "베이스 2.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.89배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.75배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 8.9% · ADR 2.81%의 3.2배 · 선행 상승의 절반 16%"
+            "evidence": "베이스 깊이 8.9% · ADR 2.79%의 3.2배 · 선행 상승의 절반 16%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 99.87 · 20일선 96.04 · 50일선 89.74"
+            "evidence": "종가 100.83 · 20일선 96.97 · 50일선 90"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.79배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.77배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -43092,17 +43132,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 106.52까지 -6.24% (-2.22 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 106.52까지 -5.34% (-1.91 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.63% · ADR 2.81%"
+            "evidence": "예비 손절 폭 2.64% · ADR 2.79%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -43129,12 +43169,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.79배(20일 평균 대비) · 오늘 거래대금 0.65배 · 상장주식 24M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.77배(20일 평균 대비) · 오늘 거래대금 0.65배 · 상장주식 24M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.04% · 3M 15.92% · 6M 18.35% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.04% · 3M 15.93% · 6M 18.37% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -43153,25 +43193,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "IDXX",
       "price": 676.2100219726562,
-      "marketCap": "54.33B",
+      "marketCap": "53.28B",
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "rs": {
         "m1": {
           "v": 0.34291428559132464,
-          "pct": 98.87285843101894
+          "pct": 98.87184115523465
         },
         "m3": {
           "v": 0.3959223222823181,
-          "pct": 98.42200180342651
+          "pct": 98.42057761732852
         },
         "m6": {
           "v": 0.41045387411089707,
-          "pct": 83.63390441839496
+          "pct": 83.61913357400722
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.87285843101894,
+      "bestPct": 98.87184115523465,
       "adr": 3.55,
       "cyTrend": 1.33,
       "nyTrend": 1,
@@ -43214,8 +43254,8 @@ window.TEAM2_DATA = {
       "epsNy": 12.44,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 16.41,
+      "apiCalled": true,
+      "siteRankPct6": 16.43,
       "fs": {
         "sale": [
           9.66,
@@ -43244,12 +43284,12 @@ window.TEAM2_DATA = {
         "m3": 3,
         "m6": 0
       },
-      "ma150Slope": 2.04,
+      "ma150Slope": 2.19,
       "ta": {
-        "price": 676.21,
-        "resistance": 688.12,
+        "price": 687.02,
+        "resistance": 713.11,
         "support": 665.25,
-        "contraction": 0.69,
+        "contraction": 0.59,
         "trend": "up"
       },
       "top2Gaps": {
@@ -43264,9 +43304,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0995,
-        "m3": 0.1935,
-        "m6": 0.5021,
+        "m1": 0.1004,
+        "m3": 0.194,
+        "m6": 0.502,
         "rankPct6": 4.51,
         "count": 21
       },
@@ -43606,7 +43646,7 @@ window.TEAM2_DATA = {
       "nameKo": "아이덱스 래버러토리스",
       "nameEn": "IDEXX LABORATORIES INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "아이덱스 래버러토리스",
         "nameEn": "IDEXX LABORATORIES INC",
         "infomaxCode": "NAS:IDXX",
@@ -43692,6 +43732,18 @@ window.TEAM2_DATA = {
           "ticker": "IDXX",
           "items": [
             {
+              "title": "Idexx (IDXX) is an Incredible Growth Stock: 3 Reasons Why",
+              "url": "https://www.nasdaq.com/articles/idexx-idxx-incredible-growth-stock-3-reasons-why",
+              "date": "2026-11-23",
+              "desc": "Idexx (IDXX) possesses solid growth attributes, which could help it handily outperform the market.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "IDXX"
+              ]
+            },
+            {
               "title": "Here's How Much You'd Have If You Invested $1000 in Idexx Laboratories a Decade Ago",
               "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-idexx-laboratories-decade-ago",
               "date": "2026-11-19",
@@ -43701,6 +43753,34 @@ window.TEAM2_DATA = {
               "direct": true,
               "tickers": [
                 "IDXX"
+              ]
+            },
+            {
+              "title": "Earnings Strength: 3 Companies Raising Guidance",
+              "url": "https://www.nasdaq.com/articles/earnings-strength-3-companies-raising-guidance",
+              "date": "2026-11-24",
+              "desc": "Notable winners in this earnings cycle include BWX Technologies (BWXT), IDEXX Laboratories (IDXX), and TG Therapeutics (TGTX), all of which also raised their guidance.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "IDXX",
+                "TGTX",
+                "BWXT"
+              ]
+            },
+            {
+              "title": "Buy 3 Stocks With Double-Digit Returns in November Defying Market Rout",
+              "url": "https://www.nasdaq.com/articles/buy-3-stocks-double-digit-returns-november-defying-market-rout",
+              "date": "2026-11-23",
+              "desc": "STE, IDXX and FCN delivered double-digit November returns, defying market turmoil with strong demand and improving earnings estimates.",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "FCN",
+                "IDXX",
+                "STE"
               ]
             },
             {
@@ -43718,8 +43798,8 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 1,
-          "total": 2,
+          "directCount": 2,
+          "total": 5,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -43829,20 +43909,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "IDXX",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 47.53,
-        "pbr": 33.07,
+        "per": 48.29,
+        "pbr": 33.6,
         "eps": 14.23,
         "bps": 20.45,
         "shares": 78786300,
-        "marketCapM": 53276,
+        "marketCapM": 54128,
         "high52": 769.98,
         "high52Date": "2025-11-26",
         "low52": 500.61,
         "low52Date": "2026-09-11",
-        "last": 676.21,
-        "prevClose": 689.65,
+        "last": 687.02,
+        "prevClose": 676.21,
         "nameKo": "아이덱스 래버러토리스",
         "nameEn": "IDEXX LABORATORIES INC",
         "listedOn": null,
@@ -43852,7 +43932,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "IDXX",
         "url": "https://finance.yahoo.com/quote/IDXX/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -44078,37 +44158,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "A",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 713.74,
-        "stop": 689.73,
-        "adrPct": 3.55,
-        "distToPivotPct": -5.26,
-        "distToPivotAdr": -1.48,
-        "riskPerSharePct": 3.36,
-        "extensionAdr": -0.84,
+        "stop": 689.63,
+        "adrPct": 3.51,
+        "distToPivotPct": -3.74,
+        "distToPivotAdr": -1.07,
+        "riskPerSharePct": 3.38,
+        "extensionAdr": -0.3,
         "breakDate": null,
         "metrics": {
-          "baseBars": 14,
-          "baseWeeks": 2.8,
+          "baseBars": 15,
+          "baseWeeks": 3,
           "depthPct": 13.1,
           "priorMovePct": 42.6,
           "higherLows": 1,
-          "contraction": 0.69,
-          "closeRange10Adr": 1.3,
-          "surf10": -0.84,
-          "surf20": 0.73,
-          "slope20": 5.28,
+          "contraction": 0.59,
+          "closeRange10Adr": 1.2,
+          "surf10": -0.3,
+          "surf20": 0.93,
+          "slope20": 5,
           "baseLow": 620.2,
           "lastSwingLow": 650
         },
         "reasons": [
           "선행 상승 +43%",
-          "베이스 2.8주",
+          "베이스 3주",
           "깊이 13.1%",
           "저점 상승 1회",
-          "진폭 0.69배 · 10일 종가폭 1.3 ADR",
-          "10일선 -0.8 ADR · 20일선 +0.7 ADR",
-          "20일선 기울기 +5.28%"
+          "진폭 0.59배 · 10일 종가폭 1.2 ADR",
+          "10일선 -0.3 ADR · 20일선 +0.9 ADR",
+          "20일선 기울기 +5%"
         ]
       },
       "checks": {
@@ -44121,27 +44201,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.8주 · 기준 2~8주"
+            "evidence": "베이스 3주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.69배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.59배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 13.1% · ADR 3.55%의 3.7배 · 선행 상승의 절반 21%"
+            "evidence": "베이스 깊이 13.1% · ADR 3.51%의 3.7배 · 선행 상승의 절반 21%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 676.21 · 20일선 658.69 · 50일선 579.87"
+            "evidence": "종가 687.02 · 20일선 664.54 · 50일선 583.42"
           },
           {
             "item": "거래량 마름",
             "status": "충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.66배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.64배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -44151,17 +44231,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 713.74까지 -5.26% (-1.48 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 713.74까지 -3.74% (-1.07 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.36% · ADR 3.55%"
+            "evidence": "예비 손절 폭 3.38% · ADR 3.51%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -44188,12 +44268,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량 0.66배(20일 평균 대비) · 오늘 거래대금 0.91배 · 상장주식 79M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.64배(20일 평균 대비) · 오늘 거래대금 0.91배 · 상장주식 79M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.13% · 3M 1.58% · 6M 16.37% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.13% · 3M 1.58% · 6M 16.38% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -44212,28 +44292,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "CVCO",
       "price": 640.530029296875,
-      "marketCap": "4.96B",
+      "marketCap": "4.89B",
       "sector": "Consumer Cyclical",
       "industry": "Residential Construction",
       "rs": {
         "m1": {
           "v": 0.3351483698340053,
-          "pct": 98.69251577998197
+          "pct": 98.6913357400722
         },
         "m3": {
           "v": 0.2785569399677,
-          "pct": 93.10189359783588
+          "pct": 93.09566787003611
         },
         "m6": {
           "v": 0.35609378486470955,
-          "pct": 78.04328223624887
+          "pct": 78.02346570397111
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.69251577998197,
+      "bestPct": 98.6913357400722,
       "adr": 3.76,
-      "cyTrend": 9.91,
-      "nyTrend": 2.95,
+      "cyTrend": 9.48,
+      "nyTrend": 2.96,
       "upCount": 11,
       "downCount": 0,
       "upDownRatio": 100,
@@ -44262,19 +44342,19 @@ window.TEAM2_DATA = {
       "clsPos": 7.66,
       "targetStatus": false,
       "est": {
-        "cyCur": 24.82522,
+        "cyCur": 24.72774,
         "cy30": 22.5862,
-        "nyCur": 29.66878,
+        "nyCur": 29.67017,
         "ny30": 28.81752
       },
       "saleCy": 12.2,
       "saleNy": 7.24,
-      "epsCy": 3.52,
-      "epsNy": 19.51,
+      "epsCy": 3.12,
+      "epsNy": 19.99,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 22,
+      "apiCalled": true,
+      "siteRankPct6": 22.02,
       "fs": {
         "sale": [
           9.54,
@@ -44303,12 +44383,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 3.17,
+      "ma150Slope": 3.28,
       "ta": {
-        "price": 640.53,
+        "price": 675.02,
         "resistance": 692.86,
         "support": 573.15,
-        "contraction": 0.84,
+        "contraction": 0.79,
         "trend": "up"
       },
       "top2Gaps": {
@@ -44323,9 +44403,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1321,
+        "m1": 0.1319,
         "m3": 0.1222,
-        "m6": 0.1683,
+        "m6": 0.1682,
         "rankPct6": 54.14,
         "count": 11
       },
@@ -44686,7 +44766,7 @@ window.TEAM2_DATA = {
       "nameKo": "카브코 인더스트리스",
       "nameEn": "CAVCO INDUSTRIES",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "카브코 인더스트리스",
         "nameEn": "CAVCO INDUSTRIES",
         "infomaxCode": "NAS:CVCO",
@@ -44984,20 +45064,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CVCO",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 27.87,
-        "pbr": 4.45,
+        "per": 29.37,
+        "pbr": 4.69,
         "eps": 22.98,
         "bps": 144.03,
         "shares": 7630410,
-        "marketCapM": 4888,
+        "marketCapM": 5151,
         "high52": 713.005,
         "high52Date": "2026-01-22",
         "low52": 443.335,
         "low52Date": "2026-05-19",
-        "last": 640.53,
-        "prevClose": 650,
+        "last": 675.02,
+        "prevClose": 640.53,
         "nameKo": "카브코 인더스트리스",
         "nameEn": "CAVCO INDUSTRIES",
         "listedOn": null,
@@ -45007,7 +45087,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CVCO",
         "url": "https://finance.yahoo.com/quote/CVCO/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -45203,37 +45283,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "B",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 692.86,
-        "stop": 668.8,
-        "adrPct": 3.76,
-        "distToPivotPct": -7.55,
-        "distToPivotAdr": -2.01,
-        "riskPerSharePct": 3.47,
-        "extensionAdr": -0.26,
+        "stop": 666.46,
+        "adrPct": 3.91,
+        "distToPivotPct": -2.57,
+        "distToPivotAdr": -0.66,
+        "riskPerSharePct": 3.81,
+        "extensionAdr": 1.06,
         "breakDate": null,
         "metrics": {
-          "baseBars": 14,
-          "baseWeeks": 2.8,
+          "baseBars": 15,
+          "baseWeeks": 3,
           "depthPct": 11.4,
           "priorMovePct": 37.2,
           "higherLows": 0,
-          "contraction": 0.84,
+          "contraction": 0.79,
           "closeRange10Adr": 1.7,
-          "surf10": -0.26,
-          "surf20": 0.63,
-          "slope20": 4.81,
+          "surf10": 1.06,
+          "surf20": 1.61,
+          "slope20": 4.89,
           "baseLow": 613.71,
           "lastSwingLow": 613.71
         },
         "reasons": [
           "선행 상승 +37%",
-          "베이스 2.8주",
+          "베이스 3주",
           "깊이 11.4%",
           "✗ 저점 상승 0회",
-          "진폭 0.84배 · 10일 종가폭 1.7 ADR",
-          "10일선 -0.3 ADR · 20일선 +0.6 ADR",
-          "20일선 기울기 +4.81%"
+          "진폭 0.79배 · 10일 종가폭 1.7 ADR",
+          "10일선 +1.1 ADR · 20일선 +1.6 ADR",
+          "20일선 기울기 +4.89%"
         ]
       },
       "checks": {
@@ -45246,27 +45326,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.8주 · 기준 2~8주"
+            "evidence": "베이스 3주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.84배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.79배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 11.4% · ADR 3.76%의 3배 · 선행 상승의 절반 19%"
+            "evidence": "베이스 깊이 11.4% · ADR 3.91%의 2.9배 · 선행 상승의 절반 19%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 640.53 · 20일선 625.47 · 50일선 575.67"
+            "evidence": "종가 675.02 · 20일선 632.64 · 50일선 578.46"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.92배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.96배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -45275,18 +45355,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 692.86까지 -7.55% (-2.01 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 692.86까지 -2.57% (-0.66 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.47% · ADR 3.76%"
+            "evidence": "예비 손절 폭 3.81% · ADR 3.91%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 1.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -45313,12 +45393,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.92배(20일 평균 대비) · 오늘 거래대금 0.93배 · 상장주식 8M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.96배(20일 평균 대비) · 오늘 거래대금 0.93배 · 상장주식 8M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.31% · 3M 6.9% · 6M 21.96% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.31% · 3M 6.9% · 6M 21.98% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -45337,25 +45417,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "VSEC",
       "price": 170.30999755859375,
-      "marketCap": "5.07B",
+      "marketCap": "4.78B",
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
       "rs": {
         "m1": {
           "v": 0.3341472826662303,
-          "pct": 98.60234445446348
+          "pct": 98.60108303249098
         },
         "m3": {
           "v": -0.07352835678322805,
-          "pct": 19.612263300270513
+          "pct": 19.629963898916966
         },
         "m6": {
           "v": 0.12903013718302322,
-          "pct": 40.441839495040576
+          "pct": 40.38808664259928
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.60234445446348,
+      "bestPct": 98.60108303249098,
       "adr": 6.12,
       "cyTrend": 2.81,
       "nyTrend": 0.42,
@@ -45398,8 +45478,8 @@ window.TEAM2_DATA = {
       "epsNy": 19.07,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 59.6,
+      "apiCalled": true,
+      "siteRankPct6": 59.66,
       "fs": {
         "sale": [
           65.04,
@@ -45428,12 +45508,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -1.91,
+      "ma150Slope": -1.85,
       "ta": {
-        "price": 170.31,
-        "resistance": 174.56,
-        "support": 167.95,
-        "contraction": 0.8,
+        "price": 183.28,
+        "resistance": 185.27,
+        "support": 172.67,
+        "contraction": 0.68,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -45448,10 +45528,10 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.0576,
-        "m3": 0.0509,
-        "m6": 0.0514,
-        "rankPct6": 76.69,
+        "m1": 0.0592,
+        "m3": 0.0508,
+        "m6": 0.0533,
+        "rankPct6": 75.94,
         "count": 32
       },
       "research": {
@@ -45829,7 +45909,7 @@ window.TEAM2_DATA = {
       "nameKo": "VSE",
       "nameEn": "VSE CORP",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "VSE",
         "nameEn": "VSE CORP",
         "infomaxCode": "NAS:VSEC",
@@ -46135,20 +46215,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "VSEC",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 62.77,
-        "pbr": 1.63,
+        "per": 67.55,
+        "pbr": 1.75,
         "eps": 2.71,
         "bps": 104.53,
         "shares": 28071400,
-        "marketCapM": 4781,
+        "marketCapM": 5145,
         "high52": 247.6939,
         "high52Date": "2026-08-12",
         "low52": 138.85,
         "low52Date": "2026-10-23",
-        "last": 170.31,
-        "prevClose": 180.61,
+        "last": 183.28,
+        "prevClose": 170.31,
         "nameKo": "VSE",
         "nameEn": "VSE CORP",
         "listedOn": null,
@@ -46158,7 +46238,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "VSEC",
         "url": "https://finance.yahoo.com/quote/VSEC/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -46394,37 +46474,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "A",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 194.86,
-        "stop": 184.43,
-        "adrPct": 6.12,
-        "distToPivotPct": -12.6,
-        "distToPivotAdr": -2.06,
-        "riskPerSharePct": 5.35,
-        "extensionAdr": -1.22,
+        "stop": 183.74,
+        "adrPct": 6.07,
+        "distToPivotPct": -5.94,
+        "distToPivotAdr": -0.98,
+        "riskPerSharePct": 5.71,
+        "extensionAdr": 0.08,
         "breakDate": null,
         "metrics": {
-          "baseBars": 10,
-          "baseWeeks": 2,
+          "baseBars": 11,
+          "baseWeeks": 2.2,
           "depthPct": 16.4,
           "priorMovePct": 40.3,
           "higherLows": 1,
-          "contraction": 0.8,
-          "closeRange10Adr": 2.1,
-          "surf10": -1.22,
-          "surf20": 0.03,
-          "slope20": 4.25,
+          "contraction": 0.68,
+          "closeRange10Adr": 1.9,
+          "surf10": 0.08,
+          "surf20": 1.03,
+          "slope20": 4.57,
           "baseLow": 162.82,
           "lastSwingLow": 162.82
         },
         "reasons": [
           "선행 상승 +40%",
-          "베이스 2주",
+          "베이스 2.2주",
           "깊이 16.4%",
           "저점 상승 1회",
-          "진폭 0.8배 · 10일 종가폭 2.1 ADR",
-          "10일선 -1.2 ADR · 20일선 +0 ADR",
-          "20일선 기울기 +4.25%"
+          "진폭 0.68배 · 10일 종가폭 1.9 ADR",
+          "10일선 +0.1 ADR · 20일선 +1 ADR",
+          "20일선 기울기 +4.57%"
         ]
       },
       "checks": {
@@ -46437,27 +46517,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2주 · 기준 2~8주"
+            "evidence": "베이스 2.2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.8배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.68배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 16.4% · ADR 6.12%의 2.7배 · 선행 상승의 절반 20%"
+            "evidence": "베이스 깊이 16.4% · ADR 6.07%의 2.7배 · 선행 상승의 절반 20%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 170.31 · 20일선 170.02 · 50일선 169.29"
+            "evidence": "종가 183.28 · 20일선 171.79 · 50일선 169.2"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.83배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.81배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -46466,18 +46546,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 194.86까지 -12.6% (-2.06 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 194.86까지 -5.94% (-0.98 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.35% · ADR 6.12%"
+            "evidence": "예비 손절 폭 5.71% · ADR 6.07%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1.2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -46504,12 +46584,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.83배(20일 평균 대비) · 오늘 거래대금 1.07배 · 상장주식 28M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.81배(20일 평균 대비) · 오늘 거래대금 1.07배 · 상장주식 28M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.4% · 3M 80.39% · 6M 59.56% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.4% · 3M 80.37% · 6M 59.61% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -46528,25 +46608,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "MIRM",
       "price": 96.12999725341797,
-      "marketCap": "6.24B",
+      "marketCap": "6.28B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.3320107030999082,
-          "pct": 98.512173128945
+          "pct": 98.51083032490975
         },
         "m3": {
           "v": 0.11906137498370159,
-          "pct": 59.828674481514874
+          "pct": 59.8826714801444
         },
         "m6": {
           "v": 0.2257755055401809,
-          "pct": 58.746618575293056
+          "pct": 58.70938628158845
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.512173128945,
+      "bestPct": 98.51083032490975,
       "adr": 4.41,
       "cyTrend": 3.5,
       "nyTrend": -192.31,
@@ -46589,8 +46669,8 @@ window.TEAM2_DATA = {
       "epsNy": -102.04,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 41.3,
+      "apiCalled": true,
+      "siteRankPct6": 41.34,
       "fs": {
         "sale": [
           37.92,
@@ -46619,12 +46699,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -0.38,
+      "ma150Slope": -0.3,
       "ta": {
-        "price": 96.13,
-        "resistance": 96.65,
-        "support": 95,
-        "contraction": 0.72,
+        "price": 98.67,
+        "resistance": 99.41,
+        "support": 97.49,
+        "contraction": 0.69,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -46639,9 +46719,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -47022,7 +47102,7 @@ window.TEAM2_DATA = {
       "nameKo": "미럼 파머슈티컬스",
       "nameEn": "MIRUM PHARMACEUTICALS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "미럼 파머슈티컬스",
         "nameEn": "MIRUM PHARMACEUTICALS INC",
         "infomaxCode": "NAS:MIRM",
@@ -47308,20 +47388,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "MIRM",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 6.61,
+        "per": 6.78,
         "pbr": 0,
         "eps": 14.55,
         "bps": 0,
         "shares": 65282000,
-        "marketCapM": 6276,
+        "marketCapM": 6441,
         "high52": 130,
         "high52Date": "2026-07-09",
         "low52": 63.232,
         "low52Date": "2025-12-15",
-        "last": 96.13,
-        "prevClose": 95.51,
+        "last": 98.67,
+        "prevClose": 96.13,
         "nameKo": "미럼 파머슈티컬스",
         "nameEn": "MIRUM PHARMACEUTICALS INC",
         "listedOn": "2019-07-17",
@@ -47331,7 +47411,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "MIRM",
         "url": "https://finance.yahoo.com/quote/MIRM/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -47344,10 +47424,10 @@ window.TEAM2_DATA = {
             "epsAnalysts": 1,
             "epsGrowth": -366.7,
             "epsCur": "USD",
-            "rev": 194382570,
+            "rev": 195655300,
             "revAnalysts": 11,
             "revYearAgo": 148932000,
-            "revGrowth": 30.5,
+            "revGrowth": 31.4,
             "revCur": "USD"
           },
           {
@@ -47376,8 +47456,8 @@ window.TEAM2_DATA = {
             "epsAnalysts": 1,
             "epsGrowth": "n/m",
             "epsCur": "USD",
-            "rev": 717611590,
-            "revAnalysts": 11,
+            "rev": 717645380,
+            "revAnalysts": 12,
             "revYearAgo": 521312000,
             "revGrowth": 37.7,
             "revCur": "USD"
@@ -47392,10 +47472,10 @@ window.TEAM2_DATA = {
             "epsAnalysts": 1,
             "epsGrowth": 102,
             "epsCur": "USD",
-            "rev": 868564980,
+            "rev": 872607170,
             "revAnalysts": 12,
-            "revYearAgo": 717611590,
-            "revGrowth": 21,
+            "revYearAgo": 717645380,
+            "revGrowth": 21.6,
             "revCur": "USD"
           }
         ],
@@ -47492,10 +47572,20 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 15,
+          "ptRaised": 16,
           "ptLowered": 1,
-          "total": 18,
+          "total": 19,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 125,
+              "ptPrior": 118
+            },
             {
               "date": "2026-11-11",
               "firm": "Citigroup",
@@ -47585,16 +47675,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 146,
               "ptPrior": 135
-            },
-            {
-              "date": "2026-10-13",
-              "firm": "Morgan Stanley",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 152,
-              "ptPrior": 137
             }
           ]
         },
@@ -47605,92 +47685,68 @@ window.TEAM2_DATA = {
         }
       },
       "setup": {
-        "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-20",
-        "pivot": 98.97,
-        "stop": 94.73,
-        "adrPct": 4.41,
-        "distToPivotPct": -2.87,
-        "distToPivotAdr": -0.65,
-        "riskPerSharePct": 4.28,
-        "extensionAdr": 0.57,
+        "state": "none",
+        "grade": null,
+        "asOf": "2026-11-23",
+        "adrPct": 4.42,
+        "extensionAdr": 1.01,
         "breakDate": null,
-        "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
-          "depthPct": 16,
-          "priorMovePct": 27.2,
-          "higherLows": 1,
-          "contraction": 0.72,
-          "closeRange10Adr": 1.1,
-          "surf10": 0.57,
-          "surf20": 1.21,
-          "slope20": 3.02,
-          "baseLow": 83.13,
-          "lastSwingLow": 89.27
-        },
+        "metrics": null,
         "reasons": [
-          "✗ 선행 상승 +27%",
-          "베이스 2.4주",
-          "깊이 16%",
-          "저점 상승 1회",
-          "진폭 0.72배 · 10일 종가폭 1.1 ADR",
-          "10일선 +0.6 ADR · 20일선 +1.2 ADR",
-          "20일선 기울기 +3.02%"
+          "쉬는 구간 없음"
         ]
       },
       "checks": {
         "qm": [
           {
             "item": "선행 상승",
-            "status": "미충족",
-            "evidence": "선행 상승 27% (약함) · 기준 30%↑"
+            "status": "충족",
+            "evidence": "3개월 최대상승 33% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.72배(1 미만이면 좁아짐)"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "깊이",
-            "status": "미충족",
-            "evidence": "베이스 깊이 16% · ADR 4.41%의 3.6배 · 선행 상승의 절반 14%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 96.13 · 20일선 91.01 · 50일선 88.19"
+            "evidence": "종가 98.67 · 20일선 91.78 · 50일선 88.23"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.03배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.05배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
             "status": "확인 불가",
-            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 98.97까지 -2.87% (-0.65 ADR) · 기준 1 ADR 이내"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 4.28% · ADR 4.41%"
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.6 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -47717,12 +47773,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.03배(20일 평균 대비) · 오늘 거래대금 1.78배(상승일) · 상장주식 65M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.05배(20일 평균 대비) · 오늘 거래대금 1.78배(상승일) · 상장주식 65M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.49% · 3M 40.17% · 6M 41.25% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.49% · 3M 40.12% · 6M 41.29% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -47741,28 +47797,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "IPAR",
       "price": 137.4199981689453,
-      "marketCap": "4.26B",
+      "marketCap": "4.40B",
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "rs": {
         "m1": {
           "v": 0.32889008553951765,
-          "pct": 98.33183047790803
+          "pct": 98.33032490974729
         },
         "m3": {
           "v": 0.33560449696100014,
-          "pct": 97.06943192064924
+          "pct": 97.06678700361012
         },
         "m6": {
           "v": 0.7032986803508241,
-          "pct": 97.43011722272318
+          "pct": 97.42779783393502
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.33183047790803,
+      "bestPct": 98.33032490974729,
       "adr": 2.96,
       "cyTrend": -0.41,
-      "nyTrend": -3.88,
+      "nyTrend": -4.4,
       "upCount": 1,
       "downCount": 5,
       "upDownRatio": 16.67,
@@ -47793,17 +47849,17 @@ window.TEAM2_DATA = {
       "est": {
         "cyCur": 4.868,
         "cy30": 4.888,
-        "nyCur": 5,
+        "nyCur": 4.97333,
         "ny30": 5.202
       },
       "saleCy": 0.42,
-      "saleNy": 5.7,
+      "saleNy": 5.78,
       "epsCy": -7.1,
-      "epsNy": 2.71,
+      "epsNy": 2.16,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 2.61,
+      "apiCalled": true,
+      "siteRankPct6": 2.62,
       "fs": {
         "sale": [
           2.13,
@@ -47832,12 +47888,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 4.36,
+      "ma150Slope": 4.46,
       "ta": {
-        "price": 137.42,
+        "price": 136.39,
         "resistance": 138.13,
         "support": 134.18,
-        "contraction": 0.95,
+        "contraction": 0.85,
         "trend": "up"
       },
       "top2Gaps": {
@@ -47852,9 +47908,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1739,
-        "m3": 0.2859,
-        "m6": 0.3862,
+        "m1": 0.1741,
+        "m3": 0.2863,
+        "m6": 0.3857,
         "rankPct6": 16.54,
         "count": 9
       },
@@ -48253,7 +48309,7 @@ window.TEAM2_DATA = {
       "nameKo": "인터파퓸스",
       "nameEn": "INTERPARFUMS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "인터파퓸스",
         "nameEn": "INTERPARFUMS INC",
         "infomaxCode": "NAS:IPAR",
@@ -48545,20 +48601,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "IPAR",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 26.28,
-        "pbr": 5.06,
+        "per": 26.08,
+        "pbr": 5.02,
         "eps": 5.23,
         "bps": 27.18,
         "shares": 32027600,
-        "marketCapM": 4401,
-        "high52": 138.5,
-        "high52Date": "2026-11-20",
-        "low52": 75.9418,
-        "low52Date": "2025-11-20",
-        "last": 137.42,
-        "prevClose": 132.94,
+        "marketCapM": 4368,
+        "high52": 138.89,
+        "high52Date": "2026-11-23",
+        "low52": 76.7639,
+        "low52Date": "2025-11-24",
+        "last": 136.39,
+        "prevClose": 137.42,
         "nameKo": "인터파퓸스",
         "nameEn": "INTERPARFUMS INC",
         "listedOn": null,
@@ -48568,23 +48624,23 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "IPAR",
         "url": "https://finance.yahoo.com/quote/IPAR/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 0.43,
+            "eps": 0.44,
             "epsLow": 0.41,
-            "epsHigh": 0.46,
+            "epsHigh": 0.47,
             "epsYearAgo": 0.88,
             "epsAnalysts": 4,
-            "epsGrowth": -50.8,
+            "epsGrowth": -49.7,
             "epsCur": "USD",
-            "rev": 380351750,
+            "rev": 383849250,
             "revAnalysts": 4,
             "revYearAgo": 386000000,
-            "revGrowth": -1.5,
+            "revGrowth": -0.6,
             "revCur": "USD"
           },
           {
@@ -48608,10 +48664,10 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "eps": 4.87,
             "epsLow": 4.85,
-            "epsHigh": 4.89,
+            "epsHigh": 4.9,
             "epsYearAgo": 5.24,
             "epsAnalysts": 5,
-            "epsGrowth": -7.1,
+            "epsGrowth": -7,
             "epsCur": "USD",
             "rev": 1495213400,
             "revAnalysts": 5,
@@ -48622,17 +48678,17 @@ window.TEAM2_DATA = {
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 4.97,
+            "eps": 4.99,
             "epsLow": 4.95,
-            "epsHigh": 5,
+            "epsHigh": 5.04,
             "epsYearAgo": 4.87,
-            "epsAnalysts": 3,
-            "epsGrowth": 2.2,
+            "epsAnalysts": 4,
+            "epsGrowth": 2.4,
             "epsCur": "USD",
-            "rev": 1581666670,
-            "revAnalysts": 3,
+            "rev": 1602388800,
+            "revAnalysts": 5,
             "revYearAgo": 1495213400,
-            "revGrowth": 5.8,
+            "revGrowth": 7.2,
             "revCur": "USD"
           }
         ],
@@ -48641,10 +48697,10 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 0.43,
-            "d7": 0,
-            "d30": -35.1,
-            "d90": -35.1,
+            "now": 0.44,
+            "d7": 2.3,
+            "d30": -33.6,
+            "d90": -33.6,
             "ago90": 0.67,
             "up7": 1,
             "up30": 1,
@@ -48670,9 +48726,9 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": 4.87,
-            "d7": -0.4,
-            "d30": -0.4,
-            "d90": -0.4,
+            "d7": -0.3,
+            "d30": -0.3,
+            "d90": -0.3,
             "ago90": 4.89,
             "up7": 0,
             "up30": 0,
@@ -48683,10 +48739,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 4.97,
-            "d7": -2.3,
-            "d30": -4.4,
-            "d90": -4.4,
+            "now": 4.99,
+            "d7": -1.9,
+            "d30": -4.1,
+            "d90": -4.1,
             "ago90": 5.2,
             "up7": 0,
             "up30": 0,
@@ -48764,9 +48820,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 2.96,
-        "extensionAdr": 0.84,
+        "asOf": "2026-11-23",
+        "adrPct": 2.99,
+        "extensionAdr": 0.58,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -48798,12 +48854,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 137.42 · 20일선 127.4 · 50일선 119.32"
+            "evidence": "종가 136.39 · 20일선 128.45 · 50일선 119.81"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.93배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.03배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -48823,7 +48879,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.6 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -48850,7 +48906,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.93배(20일 평균 대비) · 오늘 거래대금 1.4배(상승일) · 상장주식 32M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.03배(20일 평균 대비) · 오늘 거래대금 1.4배(상승일) · 상장주식 32M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -48874,25 +48930,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "TFX",
       "price": 161.5800018310547,
-      "marketCap": "6.48B",
+      "marketCap": "6.41B",
       "sector": "Healthcare",
       "industry": "Medical Instruments & Supplies",
       "rs": {
         "m1": {
           "v": 0.3243801323863448,
-          "pct": 98.24165915238953
+          "pct": 98.24007220216606
         },
         "m3": {
           "v": 0.3312651234024819,
-          "pct": 96.79891794409377
+          "pct": 96.79602888086643
         },
         "m6": {
           "v": 0.47901703507702287,
-          "pct": 89.404869251578
+          "pct": 89.39530685920577
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.24165915238953,
+      "bestPct": 98.24007220216606,
       "adr": 3.4,
       "cyTrend": 8.48,
       "nyTrend": -0.04,
@@ -48935,8 +48991,8 @@ window.TEAM2_DATA = {
       "epsNy": 42.58,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 10.64,
+      "apiCalled": true,
+      "siteRankPct6": 10.65,
       "fs": {
         "sale": [
           28.88,
@@ -48965,12 +49021,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 3.28,
+      "ma150Slope": 3.31,
       "ta": {
-        "price": 161.58,
+        "price": 163.78,
         "resistance": 180.58,
         "support": 130.89,
-        "contraction": 0.91,
+        "contraction": 0.9,
         "trend": "up"
       },
       "top2Gaps": {
@@ -48985,9 +49041,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0925,
-        "m3": 0.2255,
-        "m6": 0.3561,
+        "m1": 0.093,
+        "m3": 0.2257,
+        "m6": 0.3576,
         "rankPct6": 20.3,
         "count": 13
       },
@@ -49296,7 +49352,7 @@ window.TEAM2_DATA = {
       "nameKo": "텔레플렉스",
       "nameEn": "TELEFLEX INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "텔레플렉스",
         "nameEn": "TELEFLEX INC",
         "infomaxCode": "NYS:TFX",
@@ -49599,20 +49655,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "TFX",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 6.94,
-        "pbr": 2.36,
+        "per": 7.03,
+        "pbr": 2.39,
         "eps": 23.29,
         "bps": 68.55,
         "shares": 39661300,
-        "marketCapM": 6408,
-        "high52": 166.75,
-        "high52Date": "2026-11-18",
+        "marketCapM": 6496,
+        "high52": 167.4,
+        "high52Date": "2026-11-23",
         "low52": 99.1683,
         "low52Date": "2026-01-20",
-        "last": 161.58,
-        "prevClose": 163.4,
+        "last": 163.78,
+        "prevClose": 161.58,
         "nameKo": "텔레플렉스",
         "nameEn": "TELEFLEX INC",
         "listedOn": null,
@@ -49622,7 +49678,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "TFX",
         "url": "https://finance.yahoo.com/quote/TFX/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -49783,9 +49839,9 @@ window.TEAM2_DATA = {
           "upgrades": 1,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 5,
+          "ptRaised": 4,
           "ptLowered": 1,
-          "total": 6,
+          "total": 5,
           "recent": [
             {
               "date": "2026-11-09",
@@ -49836,16 +49892,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 158,
               "ptPrior": 145
-            },
-            {
-              "date": "2026-08-25",
-              "firm": "Needham",
-              "action": "main",
-              "from": "Buy",
-              "to": "Buy",
-              "ptAction": "Raises",
-              "pt": 170,
-              "ptPrior": 159
             }
           ]
         },
@@ -49858,9 +49904,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 3.4,
-        "extensionAdr": 0.61,
+        "asOf": "2026-11-23",
+        "adrPct": 3.37,
+        "extensionAdr": 0.84,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -49892,12 +49938,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 161.58 · 20일선 150.58 · 50일선 136.23"
+            "evidence": "종가 163.78 · 20일선 151.93 · 50일선 136.9"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.1배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.07배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -49917,7 +49963,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.6 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -49944,7 +49990,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.1배(20일 평균 대비) · 오늘 거래대금 0.75배 · 상장주식 40M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.07배(20일 평균 대비) · 오늘 거래대금 0.75배 · 상장주식 40M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -49968,28 +50014,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "PRAX",
       "price": 300.42999267578125,
-      "marketCap": "8.69B",
+      "marketCap": "8.40B",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "rs": {
         "m1": {
           "v": 0.32387329852561497,
-          "pct": 98.15148782687105
+          "pct": 98.14981949458483
         },
         "m3": {
           "v": -0.02792913288853341,
-          "pct": 26.465284039675385
+          "pct": 26.489169675090253
         },
         "m6": {
           "v": 0.34690786292488585,
-          "pct": 76.78088367899008
+          "pct": 76.75992779783394
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.15148782687105,
+      "bestPct": 98.14981949458483,
       "adr": 6.31,
-      "cyTrend": -4.97,
-      "nyTrend": 3.35,
+      "cyTrend": -3.97,
+      "nyTrend": 9.1,
       "upCount": 4,
       "downCount": 4,
       "upDownRatio": 50,
@@ -50018,19 +50064,19 @@ window.TEAM2_DATA = {
       "clsPos": 12.11,
       "targetStatus": false,
       "est": {
-        "cyCur": -13.32791,
+        "cyCur": -13.46816,
         "cy30": -14.02439,
-        "nyCur": -9.81202,
-        "ny30": -9.49386
+        "nyCur": -10.36698,
+        "ny30": -9.50219
       },
       "saleCy": 0,
-      "saleNy": 58212.59,
-      "epsCy": -1.13,
-      "epsNy": -26.38,
+      "saleNy": 61713.23,
+      "epsCy": -0.09,
+      "epsNy": -23.03,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 23.26,
+      "apiCalled": true,
+      "siteRankPct6": 23.29,
       "fs": {
         "sale": [
           null,
@@ -50055,12 +50101,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -0.69,
+      "ma150Slope": -0.7,
       "ta": {
-        "price": 300.43,
+        "price": 307,
         "resistance": 317.72,
-        "support": 293.01,
-        "contraction": 1.62,
+        "support": 299.16,
+        "contraction": 0.99,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -50075,9 +50121,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.157,
-        "m3": 0.1508,
-        "m6": 0.755,
+        "m1": 0.1574,
+        "m3": 0.1513,
+        "m6": 0.7546,
         "rankPct6": 1.5,
         "count": 38
       },
@@ -50387,7 +50433,7 @@ window.TEAM2_DATA = {
       "nameKo": "프락시스 프리시전 메디신",
       "nameEn": "PRAXIS PRECISION MEDICINES INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "프락시스 프리시전 메디신",
         "nameEn": "PRAXIS PRECISION MEDICINES INC",
         "infomaxCode": "NAS:PRAX",
@@ -50681,20 +50727,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "PRAX",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 23.21,
-        "pbr": 6.25,
+        "per": 23.72,
+        "pbr": 6.39,
         "eps": 12.94,
         "bps": 48.04,
         "shares": 27951600,
-        "marketCapM": 8397,
+        "marketCapM": 8581,
         "high52": 392.7,
         "high52Date": "2026-08-20",
-        "low52": 160.11,
-        "low52Date": "2025-11-21",
-        "last": 300.43,
-        "prevClose": 310.9,
+        "low52": 167.32,
+        "low52Date": "2025-11-24",
+        "last": 307,
+        "prevClose": 300.43,
         "nameKo": "프락시스 프리시전 메디신",
         "nameEn": "PRAXIS PRECISION MEDICINES INC",
         "listedOn": "2020-10-15",
@@ -50704,7 +50750,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PRAX",
         "url": "https://finance.yahoo.com/quote/PRAX/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -50726,14 +50772,14 @@ window.TEAM2_DATA = {
           {
             "period": "+1q",
             "endDate": "2026-12-31",
-            "eps": -3.83,
+            "eps": -3.82,
             "epsLow": -5.43,
             "epsHigh": 1.89,
             "epsYearAgo": -3.5,
             "epsAnalysts": 20,
-            "epsGrowth": -9.3,
+            "epsGrowth": -9.2,
             "epsCur": "USD",
-            "rev": 26998750,
+            "rev": 27057080,
             "revAnalysts": 12,
             "revYearAgo": 0,
             "revGrowth": 0,
@@ -50758,14 +50804,14 @@ window.TEAM2_DATA = {
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": -10.37,
+            "eps": -10.35,
             "epsLow": -26.37,
             "epsHigh": 5.25,
             "epsYearAgo": -13.47,
             "epsAnalysts": 19,
-            "epsGrowth": 23,
+            "epsGrowth": 23.1,
             "epsCur": "USD",
-            "rev": 333278380,
+            "rev": 333673380,
             "revAnalysts": 20,
             "revYearAgo": 539170,
             "revGrowth": "n/m",
@@ -50791,10 +50837,10 @@ window.TEAM2_DATA = {
             "period": "+1q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": -3.83,
-            "d7": -5,
-            "d30": 4,
-            "d90": 1.6,
+            "now": -3.82,
+            "d7": -4.3,
+            "d30": 4.1,
+            "d90": 1.7,
             "ago90": -3.89,
             "up7": 1,
             "up30": 3,
@@ -50806,7 +50852,7 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": -13.47,
-            "d7": -0.6,
+            "d7": -0.8,
             "d30": 4,
             "d90": 3.4,
             "ago90": -13.94,
@@ -50819,10 +50865,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": -10.37,
-            "d7": -5.1,
-            "d30": -9.1,
-            "d90": -11.5,
+            "now": -10.35,
+            "d7": -3.3,
+            "d30": -9,
+            "d90": -11.4,
             "ago90": -9.29,
             "up7": 0,
             "up30": 1,
@@ -50972,38 +51018,38 @@ window.TEAM2_DATA = {
       },
       "setup": {
         "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-20",
+        "grade": "A",
+        "asOf": "2026-11-23",
         "pivot": 351.64,
-        "stop": 332.69,
-        "adrPct": 6.31,
-        "distToPivotPct": -14.56,
-        "distToPivotAdr": -2.31,
-        "riskPerSharePct": 5.39,
-        "extensionAdr": -1.04,
+        "stop": 332.53,
+        "adrPct": 6.23,
+        "distToPivotPct": -12.69,
+        "distToPivotAdr": -2.04,
+        "riskPerSharePct": 5.44,
+        "extensionAdr": -0.55,
         "breakDate": null,
         "metrics": {
-          "baseBars": 9,
-          "baseWeeks": 1.8,
+          "baseBars": 10,
+          "baseWeeks": 2,
           "depthPct": 20.6,
           "priorMovePct": 48.5,
           "higherLows": 1,
-          "contraction": 1.62,
+          "contraction": 0.99,
           "closeRange10Adr": 2.4,
-          "surf10": -1.04,
-          "surf20": 0.09,
-          "slope20": 4.16,
+          "surf10": -0.55,
+          "surf20": 0.33,
+          "slope20": 3.95,
           "baseLow": 279.14,
           "lastSwingLow": 279.14
         },
         "reasons": [
           "선행 상승 +48%",
-          "✗ 베이스 1.8주",
+          "베이스 2주",
           "깊이 20.6%",
           "저점 상승 1회",
-          "진폭 1.62배 · 10일 종가폭 2.4 ADR",
-          "10일선 -1 ADR · 20일선 +0.1 ADR",
-          "20일선 기울기 +4.16%"
+          "진폭 0.99배 · 10일 종가폭 2.4 ADR",
+          "10일선 -0.6 ADR · 20일선 +0.3 ADR",
+          "20일선 기울기 +3.95%"
         ]
       },
       "checks": {
@@ -51015,28 +51061,28 @@ window.TEAM2_DATA = {
           },
           {
             "item": "횡보 길이",
-            "status": "미충족",
-            "evidence": "베이스 1.8주 — 너무 짧음 · 기준 2~8주"
+            "status": "충족",
+            "evidence": "베이스 2주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회 · 진폭 1.62배(1 미만이면 좁아짐)"
+            "status": "충족",
+            "evidence": "저점 상승 1회 · 진폭 0.99배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 20.6% · ADR 6.31%의 3.3배 · 선행 상승의 절반 24%"
+            "evidence": "베이스 깊이 20.6% · ADR 6.23%의 3.3배 · 선행 상승의 절반 24%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 300.43 · 20일선 298.8 · 50일선 286.09"
+            "evidence": "종가 307 · 20일선 300.78 · 50일선 285.61"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.32배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.28배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -51046,17 +51092,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 351.64까지 -14.56% (-2.31 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 351.64까지 -12.69% (-2.04 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 5.39% · ADR 6.31%"
+            "evidence": "예비 손절 폭 5.44% · ADR 6.23%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -1 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -51083,12 +51129,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.32배(20일 평균 대비) · 오늘 거래대금 1.55배 · 상장주식 28M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.28배(20일 평균 대비) · 오늘 거래대금 1.55배 · 상장주식 28M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.85% · 3M 73.53% · 6M 23.22% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.85% · 3M 73.51% · 6M 23.24% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -51107,25 +51153,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "CHTR",
       "price": 128.72999572753906,
-      "marketCap": "15.24B",
+      "marketCap": "14.73B",
       "sector": "Communication Services",
       "industry": "Telecom Services",
       "rs": {
         "m1": {
           "v": 0.3214651622178511,
-          "pct": 98.06131650135256
+          "pct": 98.0595667870036
         },
         "m3": {
           "v": 0.02327276964485664,
-          "pct": 36.384129846708746
+          "pct": 36.41696750902527
         },
         "m6": {
           "v": 0.10054146007527433,
-          "pct": 36.384129846708746
+          "pct": 36.32671480144404
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.06131650135256,
+      "bestPct": 98.0595667870036,
       "adr": 5.53,
       "cyTrend": -52.17,
       "nyTrend": 3.76,
@@ -51168,8 +51214,8 @@ window.TEAM2_DATA = {
       "epsNy": 145.94,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 63.66,
+      "apiCalled": true,
+      "siteRankPct6": 63.72,
       "fs": {
         "sale": [
           -1.74,
@@ -51198,9 +51244,9 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -8.77,
+      "ma150Slope": -8.81,
       "ta": {
-        "price": 128.73,
+        "price": 127.92,
         "resistance": 136.98,
         "support": 126.7,
         "contraction": 1.27,
@@ -51218,9 +51264,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.2293,
+        "m1": 0.2313,
         "m3": 0.0972,
-        "m6": 0.066,
+        "m6": 0.0676,
         "rankPct6": 73.68,
         "count": 8
       },
@@ -51231,7 +51277,7 @@ window.TEAM2_DATA = {
       "nameKo": "차터 커뮤니케이션스",
       "nameEn": "CHARTER COMMUNICATIONS INC",
       "detail": {
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "nameKo": "차터 커뮤니케이션스",
         "nameEn": "CHARTER COMMUNICATIONS INC",
         "infomaxCode": "NAS:CHTR",
@@ -51519,13 +51565,6 @@ window.TEAM2_DATA = {
           "kind": "article"
         },
         {
-          "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
-          "url": "https://www.cnbc.com/investingclub/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
-          "date": "2026-07-27",
-          "publisher": "CNBC",
-          "kind": "article"
-        },
-        {
           "title": "Watch CNBC's full interview with Charter CEO Chris Winfrey",
           "url": "https://www.cnbc.com/video/2026/09/09/watch-cnbcs-full-interview-with-charter-ceo-chris-winfrey.html",
           "date": "2026-09-09",
@@ -51538,31 +51577,24 @@ window.TEAM2_DATA = {
           "date": "2026-09-09",
           "publisher": "CNBC",
           "kind": "video"
-        },
-        {
-          "title": "Cramer’s Mad Dash: Charter Communications",
-          "url": "https://www.cnbc.com/video/2026/07/27/crameras-mad-dash-charter-communications.html",
-          "date": "2026-07-27",
-          "publisher": "CNBC",
-          "kind": "video"
         }
       ],
       "kis": {
         "ticker": "CHTR",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 3.34,
-        "pbr": 1.02,
+        "per": 3.32,
+        "pbr": 1.01,
         "eps": 38.49,
         "bps": 126.71,
         "shares": 160611000,
-        "marketCapM": 20675,
+        "marketCapM": 20545,
         "high52": 254.11,
         "high52Date": "2026-04-23",
         "low52": 101.11,
         "low52Date": "2026-10-26",
-        "last": 128.73,
-        "prevClose": 133.18,
+        "last": 127.92,
+        "prevClose": 128.73,
         "nameKo": "차터 커뮤니케이션스",
         "nameEn": "CHARTER COMMUNICATIONS INC",
         "listedOn": null,
@@ -51572,21 +51604,21 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CHTR",
         "url": "https://finance.yahoo.com/quote/CHTR/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
             "period": "0q",
             "endDate": "2026-12-31",
-            "eps": 10.81,
+            "eps": 10.48,
             "epsLow": 7.16,
             "epsHigh": 15.25,
             "epsYearAgo": 10.34,
-            "epsAnalysts": 7,
-            "epsGrowth": 4.6,
+            "epsAnalysts": 8,
+            "epsGrowth": 1.3,
             "epsCur": "USD",
-            "rev": 16485790010,
-            "revAnalysts": 10,
+            "rev": 16487081830,
+            "revAnalysts": 11,
             "revYearAgo": 13601000000,
             "revGrowth": 21.2,
             "revCur": "USD"
@@ -51610,33 +51642,33 @@ window.TEAM2_DATA = {
           {
             "period": "0y",
             "endDate": "2026-12-31",
-            "eps": 20.14,
+            "eps": 19.22,
             "epsLow": 8.51,
             "epsHigh": 59.96,
             "epsYearAgo": 36.21,
-            "epsAnalysts": 6,
-            "epsGrowth": -44.4,
+            "epsAnalysts": 7,
+            "epsGrowth": -46.9,
             "epsCur": "USD",
-            "rev": 58491184010,
-            "revAnalysts": 11,
+            "rev": 59135248290,
+            "revAnalysts": 12,
             "revYearAgo": 54774000000,
-            "revGrowth": 6.8,
+            "revGrowth": 8,
             "revCur": "USD"
           },
           {
             "period": "+1y",
             "endDate": "2027-12-31",
-            "eps": 49.52,
+            "eps": 47.75,
             "epsLow": 28.4,
             "epsHigh": 78.72,
-            "epsYearAgo": 20.14,
-            "epsAnalysts": 8,
-            "epsGrowth": 145.9,
+            "epsYearAgo": 19.22,
+            "epsAnalysts": 9,
+            "epsGrowth": 148.5,
             "epsCur": "USD",
-            "rev": 64593456730,
-            "revAnalysts": 18,
-            "revYearAgo": 58491184010,
-            "revGrowth": 10.4,
+            "rev": 64576973340,
+            "revAnalysts": 19,
+            "revYearAgo": 59135248290,
+            "revGrowth": 9.2,
             "revCur": "USD"
           }
         ],
@@ -51645,10 +51677,10 @@ window.TEAM2_DATA = {
             "period": "0q",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 10.81,
-            "d7": 1.5,
-            "d30": -15.8,
-            "d90": -8.1,
+            "now": 10.48,
+            "d7": -3.1,
+            "d30": -18.4,
+            "d90": -10.9,
             "ago90": 11.76,
             "up7": 0,
             "up30": 0,
@@ -51673,10 +51705,10 @@ window.TEAM2_DATA = {
             "period": "0y",
             "endDate": "2026-12-31",
             "cur": "USD",
-            "now": 20.14,
-            "d7": -0.9,
-            "d30": -52.2,
-            "d90": -52,
+            "now": 19.22,
+            "d7": -5.4,
+            "d30": -54.4,
+            "d90": -54.2,
             "ago90": 41.92,
             "up7": 1,
             "up30": 0,
@@ -51687,10 +51719,10 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2027-12-31",
             "cur": "USD",
-            "now": 49.52,
-            "d7": 0.3,
-            "d30": 3.8,
-            "d90": 9.4,
+            "now": 47.75,
+            "d7": -3.2,
+            "d30": 0,
+            "d90": 5.5,
             "ago90": 45.26,
             "up7": 1,
             "up30": 0,
@@ -51818,9 +51850,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 5.53,
-        "extensionAdr": -0.76,
+        "asOf": "2026-11-23",
+        "adrPct": 5.37,
+        "extensionAdr": -1,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -51852,12 +51884,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 128.73 · 20일선 123.38 · 50일선 118.15"
+            "evidence": "종가 127.92 · 20일선 124.67 · 50일선 117.84"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.91배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.89배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -51877,7 +51909,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -51904,12 +51936,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.91배(20일 평균 대비) · 오늘 거래대금 0.99배 · 상장주식 161M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.89배(20일 평균 대비) · 오늘 거래대금 0.99배 · 상장주식 161M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 1.94% · 3M 63.62% · 6M 63.62% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 1.94% · 3M 63.58% · 6M 63.67% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -51928,28 +51960,28 @@ window.TEAM2_DATA = {
     {
       "ticker": "CRAI",
       "price": 220.9499969482422,
-      "marketCap": "1.36B",
+      "marketCap": "1.39B",
       "sector": "Industrials",
       "industry": "Consulting Services",
       "rs": {
         "m1": {
           "v": 0.24019243530176765,
-          "pct": 93.46257889990983
+          "pct": 93.45667870036101
         },
         "m3": {
           "v": 0.4362216768614428,
-          "pct": 99.23354373309287
+          "pct": 99.23285198555956
         },
         "m6": {
           "v": 0.7234675953635162,
-          "pct": 97.70063119927863
+          "pct": 97.6985559566787
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.23354373309287,
+      "bestPct": 99.23285198555956,
       "adr": 3.45,
-      "cyTrend": 2.3,
-      "nyTrend": -1.74,
+      "cyTrend": 1.73,
+      "nyTrend": 0.56,
       "upCount": 0,
       "downCount": 4,
       "upDownRatio": 0,
@@ -51978,19 +52010,19 @@ window.TEAM2_DATA = {
       "clsPos": 47.33,
       "targetStatus": false,
       "est": {
-        "cyCur": 8.665,
+        "cyCur": 8.61667,
         "cy30": 8.47,
-        "nyCur": 9.39667,
+        "nyCur": 9.61667,
         "ny30": 9.56333
       },
-      "saleCy": 10.08,
-      "saleNy": 4.51,
-      "epsCy": 5.29,
-      "epsNy": 8.44,
+      "saleCy": 11.03,
+      "saleNy": 4.77,
+      "epsCy": 4.7,
+      "epsNy": 11.61,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 2.34,
+      "apiCalled": true,
+      "siteRankPct6": 2.35,
       "fs": {
         "sale": [
           12.81,
@@ -52019,12 +52051,12 @@ window.TEAM2_DATA = {
         "m3": 2,
         "m6": 0
       },
-      "ma150Slope": 3.42,
+      "ma150Slope": 3.5,
       "ta": {
-        "price": 220.95,
+        "price": 221.55,
         "resistance": 227.29,
         "support": 197.26,
-        "contraction": 0.8,
+        "contraction": 0.84,
         "trend": "up"
       },
       "top2Gaps": {
@@ -52039,9 +52071,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1649,
-        "m3": 0.2063,
-        "m6": 0.3075,
+        "m1": 0.1648,
+        "m3": 0.2065,
+        "m6": 0.3084,
         "rankPct6": 25.56,
         "count": 7
       },
@@ -52728,20 +52760,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CRAI",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 29.43,
-        "pbr": 7.6,
+        "per": 29.51,
+        "pbr": 7.62,
         "eps": 7.51,
         "bps": 29.07,
         "shares": 6277120,
-        "marketCapM": 1387,
+        "marketCapM": 1391,
         "high52": 224.9382,
         "high52Date": "2026-01-13",
         "low52": 131.2344,
         "low52Date": "2026-05-13",
-        "last": 220.95,
-        "prevClose": 217.19,
+        "last": 221.545,
+        "prevClose": 220.95,
         "nameKo": "CRA 인터내셔널",
         "nameEn": "CRA INTERNATIONAL INC",
         "listedOn": null,
@@ -52751,7 +52783,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CRAI",
         "url": "https://finance.yahoo.com/quote/CRAI/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -52926,14 +52958,14 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "post",
         "grade": "B",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 215.36,
         "stop": 207.49,
-        "adrPct": 3.45,
-        "distToPivotPct": 2.6,
-        "distToPivotAdr": 0.75,
+        "adrPct": 3.53,
+        "distToPivotPct": 2.87,
+        "distToPivotAdr": 0.82,
         "riskPerSharePct": 3.65,
-        "extensionAdr": 1.76,
+        "extensionAdr": 1.49,
         "breakDate": "2026-11-18",
         "metrics": {
           "baseBars": 8,
@@ -52979,17 +53011,17 @@ window.TEAM2_DATA = {
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 9.7% · ADR 3.45%의 2.8배 · 선행 상승의 절반 19%"
+            "evidence": "베이스 깊이 9.7% · ADR 3.53%의 2.7배 · 선행 상승의 절반 19%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 220.95 · 20일선 202.23 · 50일선 184.46"
+            "evidence": "종가 221.55 · 20일선 203.23 · 50일선 185.57"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.35배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.33배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -53004,12 +53036,12 @@ window.TEAM2_DATA = {
           {
             "item": "손절 폭",
             "status": "미충족",
-            "evidence": "예비 손절 폭 3.65% · ADR 3.45%"
+            "evidence": "예비 손절 폭 3.65% · ADR 3.53%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 1.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 1.5 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -53036,7 +53068,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.35배(20일 평균 대비) · 오늘 거래대금 1.07배(상승일) · 상장주식 6M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.33배(20일 평균 대비) · 오늘 거래대금 1.07배(상승일) · 상장주식 6M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -53060,25 +53092,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "CRVL",
       "price": 88.27999877929688,
-      "marketCap": "4.40B",
+      "marketCap": "4.44B",
       "sector": "Financial Services",
       "industry": "Insurance Brokers",
       "rs": {
         "m1": {
           "v": 0.18879655814855628,
-          "pct": 85.25698827772769
+          "pct": 85.24368231046931
         },
         "m3": {
           "v": 0.42684857743084914,
-          "pct": 99.14337240757439
+          "pct": 99.14259927797833
         },
         "m6": {
           "v": 0.7151842410331598,
-          "pct": 97.61045987376015
+          "pct": 97.60830324909747
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.14337240757439,
+      "bestPct": 99.14259927797833,
       "adr": 3.23,
       "cyTrend": null,
       "nyTrend": null,
@@ -53121,8 +53153,8 @@ window.TEAM2_DATA = {
       "epsNy": null,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 2.43,
+      "apiCalled": true,
+      "siteRankPct6": 2.44,
       "fs": {
         "sale": [
           10.74,
@@ -53151,12 +53183,12 @@ window.TEAM2_DATA = {
         "m3": 2,
         "m6": 0
       },
-      "ma150Slope": 6.39,
+      "ma150Slope": 6.36,
       "ta": {
-        "price": 88.28,
+        "price": 86.23,
         "resistance": 89.76,
         "support": 85.13,
-        "contraction": 0.8,
+        "contraction": 0.75,
         "trend": "up"
       },
       "top2Gaps": {
@@ -53172,7 +53204,7 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.1924,
-        "m3": 0.1989,
+        "m3": 0.199,
         "m6": 0.4411,
         "rankPct6": 7.52,
         "count": 6
@@ -53814,20 +53846,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "CRVL",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 39.31,
-        "pbr": 10.92,
+        "per": 38.39,
+        "pbr": 10.67,
         "eps": 2.25,
         "bps": 8.08,
         "shares": 50345600,
-        "marketCapM": 4445,
+        "marketCapM": 4341,
         "high52": 90.71,
         "high52Date": "2026-11-18",
         "low52": 44.83,
         "low52Date": "2026-02-11",
-        "last": 88.28,
-        "prevClose": 87.36,
+        "last": 86.23,
+        "prevClose": 88.28,
         "nameKo": "코르벨",
         "nameEn": "CORVEL CORP",
         "listedOn": null,
@@ -53837,7 +53869,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "CRVL",
         "url": "https://finance.yahoo.com/quote/CRVL/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -54012,9 +54044,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 3.23,
-        "extensionAdr": 0.74,
+        "asOf": "2026-11-23",
+        "adrPct": 3.36,
+        "extensionAdr": -0.12,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -54046,12 +54078,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 88.28 · 20일선 84.86 · 50일선 79.63"
+            "evidence": "종가 86.23 · 20일선 84.94 · 50일선 79.92"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.27배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.17배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -54071,7 +54103,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.7 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -54098,12 +54130,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.27배(20일 평균 대비) · 오늘 거래대금 1.29배(상승일) · 상장주식 50M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.17배(20일 평균 대비) · 오늘 거래대금 1.29배(상승일) · 상장주식 50M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 14.74% · 3M 0.86% · 6M 2.39% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 14.76% · 3M 0.86% · 6M 2.39% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -54122,25 +54154,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "PLMR",
       "price": 163.58999633789062,
-      "marketCap": "4.12B",
+      "marketCap": "4.30B",
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
       "rs": {
         "m1": {
           "v": 0.29327492964861246,
-          "pct": 97.2497745716862
+          "pct": 97.24729241877257
         },
         "m3": {
           "v": 0.421642559760575,
-          "pct": 98.96302975653742
+          "pct": 98.96209386281588
         },
         "m6": {
           "v": 0.7554052270218224,
-          "pct": 98.06131650135256
+          "pct": 98.0595667870036
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.96302975653742,
+      "bestPct": 98.96209386281588,
       "adr": 3.61,
       "cyTrend": 3.06,
       "nyTrend": 3.24,
@@ -54183,8 +54215,8 @@ window.TEAM2_DATA = {
       "epsNy": 12.28,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 1.98,
+      "apiCalled": true,
+      "siteRankPct6": 1.99,
       "fs": {
         "sale": [
           54.65,
@@ -54213,12 +54245,12 @@ window.TEAM2_DATA = {
         "m3": 1,
         "m6": 1
       },
-      "ma150Slope": 2.75,
+      "ma150Slope": 2.81,
       "ta": {
-        "price": 163.59,
-        "resistance": 165,
+        "price": 164.44,
+        "resistance": 175.85,
         "support": 153.43,
-        "contraction": 0.82,
+        "contraction": 0.88,
         "trend": "up"
       },
       "top2Gaps": {
@@ -54234,8 +54266,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.1659,
-        "m3": 0.2269,
-        "m6": 0.3955,
+        "m3": 0.227,
+        "m6": 0.3957,
         "rankPct6": 13.53,
         "count": 19
       },
@@ -54908,20 +54940,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "PLMR",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 21.97,
-        "pbr": 4.37,
+        "per": 22.09,
+        "pbr": 4.39,
         "eps": 7.45,
         "bps": 37.46,
         "shares": 26294900,
-        "marketCapM": 4302,
+        "marketCapM": 4324,
         "high52": 166.55,
         "high52Date": "2026-11-20",
         "low52": 100.1799,
         "low52Date": "2026-06-03",
-        "last": 163.59,
-        "prevClose": 156.68,
+        "last": 164.44,
+        "prevClose": 163.59,
         "nameKo": "팔로마 홀딩스",
         "nameEn": "PALOMAR HOLDINGS INC",
         "listedOn": "2019-04-16",
@@ -54931,7 +54963,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PLMR",
         "url": "https://finance.yahoo.com/quote/PLMR/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -55157,9 +55189,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 3.61,
-        "extensionAdr": 0.75,
+        "asOf": "2026-11-23",
+        "adrPct": 3.73,
+        "extensionAdr": 0.74,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -55191,12 +55223,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 163.59 · 20일선 151.17 · 50일선 140.13"
+            "evidence": "종가 164.44 · 20일선 152.33 · 50일선 140.67"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.82배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.86배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -55216,7 +55248,7 @@ window.TEAM2_DATA = {
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.7 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -55243,7 +55275,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.82배(20일 평균 대비) · 오늘 거래대금 1.68배(상승일) · 상장주식 26M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.86배(20일 평균 대비) · 오늘 거래대금 1.68배(상승일) · 상장주식 26M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -55273,19 +55305,19 @@ window.TEAM2_DATA = {
       "rs": {
         "m1": {
           "v": 0.2877069438870772,
-          "pct": 96.97926059513074
+          "pct": 96.97653429602889
         },
         "m3": {
           "v": 0.41404955234231927,
-          "pct": 98.78268710550046
+          "pct": 98.78158844765343
         },
         "m6": {
           "v": 0.7246083861430356,
-          "pct": 97.79080252479712
+          "pct": 97.78880866425993
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.78268710550046,
+      "bestPct": 98.78158844765343,
       "adr": 2.9,
       "cyTrend": 6.5,
       "nyTrend": 7.31,
@@ -55329,7 +55361,7 @@ window.TEAM2_DATA = {
       "bbCenterBrk5d": false,
       "newHigh52": false,
       "apiCalled": false,
-      "siteRankPct6": 2.25,
+      "siteRankPct6": 2.26,
       "fs": {
         "sale": [
           20.89,
@@ -55358,12 +55390,12 @@ window.TEAM2_DATA = {
         "m3": 3,
         "m6": 0
       },
-      "ma150Slope": 3.78,
+      "ma150Slope": 3.88,
       "ta": {
-        "price": 89.16,
+        "price": 89.77,
         "resistance": 90.51,
         "support": 87.32,
-        "contraction": 0.64,
+        "contraction": 0.62,
         "trend": "up"
       },
       "top2Gaps": {
@@ -55378,9 +55410,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.099,
-        "m3": -0.0361,
-        "m6": -0.081,
+        "m1": 0.0967,
+        "m3": -0.0375,
+        "m6": -0.0748,
         "rankPct6": 89.47,
         "count": 19
       },
@@ -55747,7 +55779,7 @@ window.TEAM2_DATA = {
       "nameKo": "익스포넌트",
       "nameEn": "EXPONENT INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-24",
         "nameKo": "익스포넌트",
         "nameEn": "EXPONENT INC",
         "infomaxCode": "NAS:EXPO",
@@ -56050,20 +56082,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "EXPO",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 40.03,
-        "pbr": 14.68,
+        "per": 40.3,
+        "pbr": 14.78,
         "eps": 2.23,
         "bps": 6.07,
         "shares": 47552500,
-        "marketCapM": 4240,
+        "marketCapM": 4269,
         "high52": 90.975,
         "high52Date": "2026-11-20",
         "low52": 51.4109,
         "low52Date": "2026-05-13",
-        "last": 89.16,
-        "prevClose": 89,
+        "last": 89.77,
+        "prevClose": 89.16,
         "nameKo": "익스포넌트",
         "nameEn": "EXPONENT INC",
         "listedOn": null,
@@ -56073,7 +56105,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "EXPO",
         "url": "https://finance.yahoo.com/quote/EXPO/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -56269,9 +56301,9 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "none",
         "grade": null,
-        "asOf": "2026-11-20",
-        "adrPct": 2.9,
-        "extensionAdr": 0.67,
+        "asOf": "2026-11-23",
+        "adrPct": 2.92,
+        "extensionAdr": 0.72,
         "breakDate": null,
         "metrics": null,
         "reasons": [
@@ -56303,12 +56335,12 @@ window.TEAM2_DATA = {
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 89.16 · 20일선 84.7 · 50일선 75.4"
+            "evidence": "종가 89.77 · 20일선 85.31 · 50일선 75.81"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.92배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.96배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -56355,7 +56387,7 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.92배(20일 평균 대비) · 오늘 거래대금 1.17배(상승일) · 상장주식 48M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.96배(20일 평균 대비) · 오늘 거래대금 1.17배(상승일) · 상장주식 48M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
@@ -56379,25 +56411,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "HWKN",
       "price": 146.69000244140625,
-      "marketCap": "3.14B",
+      "marketCap": "3.05B",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
       "rs": {
         "m1": {
           "v": 0.24625011714241435,
-          "pct": 94.27412082957619
+          "pct": 94.26895306859205
         },
         "m3": {
           "v": 0.4035872164692704,
-          "pct": 98.69251577998197
+          "pct": 98.6913357400722
         },
         "m6": {
-          "v": 0.12011375380809451,
-          "pct": 38.99909828674482
+          "v": 0.12011366242225581,
+          "pct": 38.94404332129964
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.69251577998197,
+      "bestPct": 98.6913357400722,
       "adr": 2.93,
       "cyTrend": -2.03,
       "nyTrend": -1.72,
@@ -56440,8 +56472,8 @@ window.TEAM2_DATA = {
       "epsNy": 14.23,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 61.05,
+      "apiCalled": true,
+      "siteRankPct6": 61.1,
       "fs": {
         "sale": [
           7.64,
@@ -56470,12 +56502,12 @@ window.TEAM2_DATA = {
         "m3": 4,
         "m6": 0
       },
-      "ma150Slope": 0.1,
+      "ma150Slope": 0.06,
       "ta": {
-        "price": 146.69,
-        "resistance": 148.41,
-        "support": 145.5,
-        "contraction": 0.7,
+        "price": 151.12,
+        "resistance": 153.92,
+        "support": 150.01,
+        "contraction": 0.75,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -56491,8 +56523,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "flat",
       "wrs": {
         "m1": 0.1251,
-        "m3": 0.1583,
-        "m6": 0.2395,
+        "m3": 0.1584,
+        "m6": 0.2401,
         "rankPct6": 36.84,
         "count": 20
       },
@@ -56906,7 +56938,7 @@ window.TEAM2_DATA = {
       "nameKo": "호킨스",
       "nameEn": "HAWKINS INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "호킨스",
         "nameEn": "HAWKINS INC",
         "infomaxCode": "NAS:HWKN",
@@ -57195,20 +57227,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "HWKN",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 37.94,
-        "pbr": 5.55,
+        "per": 39.09,
+        "pbr": 5.72,
         "eps": 3.87,
         "bps": 26.43,
         "shares": 20792100,
-        "marketCapM": 3050,
+        "marketCapM": 3142,
         "high52": 173.4173,
         "high52Date": "2026-05-14",
         "low52": 115.8951,
         "low52Date": "2026-08-27",
-        "last": 146.69,
-        "prevClose": 151.09,
+        "last": 151.12,
+        "prevClose": 146.69,
         "nameKo": "호킨스",
         "nameEn": "HAWKINS INC",
         "listedOn": null,
@@ -57218,7 +57250,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HWKN",
         "url": "https://finance.yahoo.com/quote/HWKN/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -57424,37 +57456,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 158.4,
-        "stop": 154.1,
-        "adrPct": 2.93,
-        "distToPivotPct": -7.39,
-        "distToPivotAdr": -2.52,
-        "riskPerSharePct": 2.71,
-        "extensionAdr": -0.93,
+        "stop": 154.14,
+        "adrPct": 2.82,
+        "distToPivotPct": -4.6,
+        "distToPivotAdr": -1.63,
+        "riskPerSharePct": 2.69,
+        "extensionAdr": 0.18,
         "breakDate": null,
         "metrics": {
-          "baseBars": 18,
-          "baseWeeks": 3.6,
+          "baseBars": 19,
+          "baseWeeks": 3.8,
           "depthPct": 7.6,
           "priorMovePct": 36.5,
           "higherLows": 0,
-          "contraction": 0.7,
-          "closeRange10Adr": 1.9,
-          "surf10": -0.93,
-          "surf20": -1.01,
-          "slope20": 3.07,
+          "contraction": 0.75,
+          "closeRange10Adr": 1.5,
+          "surf10": 0.18,
+          "surf20": -0.16,
+          "slope20": 3,
           "baseLow": 146.39,
           "lastSwingLow": 148.69
         },
         "reasons": [
           "선행 상승 +36%",
-          "베이스 3.6주",
+          "베이스 3.8주",
           "깊이 7.6%",
           "✗ 저점 상승 0회",
-          "진폭 0.7배 · 10일 종가폭 1.9 ADR",
-          "✗ 10일선 -0.9 ADR · 20일선 -1 ADR",
-          "20일선 기울기 +3.07%"
+          "진폭 0.75배 · 10일 종가폭 1.5 ADR",
+          "✗ 10일선 +0.2 ADR · 20일선 -0.2 ADR",
+          "20일선 기울기 +3%"
         ]
       },
       "checks": {
@@ -57467,27 +57499,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 3.6주 · 기준 2~8주"
+            "evidence": "베이스 3.8주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.7배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.75배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 7.6% · ADR 2.93%의 2.6배 · 선행 상승의 절반 18%"
+            "evidence": "베이스 깊이 7.6% · ADR 2.82%의 2.7배 · 선행 상승의 절반 18%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 146.69 · 20일선 151.03 · 50일선 137.34"
+            "evidence": "종가 151.12 · 20일선 151.81 · 50일선 137.95"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.9배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.95배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -57497,17 +57529,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 158.4까지 -7.39% (-2.52 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 158.4까지 -4.6% (-1.63 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.71% · ADR 2.93%"
+            "evidence": "예비 손절 폭 2.69% · ADR 2.82%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.2 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -57534,12 +57566,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.9배(20일 평균 대비) · 오늘 거래대금 1.24배 · 상장주식 21M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.95배(20일 평균 대비) · 오늘 거래대금 1.24배 · 상장주식 21M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 5.73% · 3M 1.31% · 6M 61% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 5.73% · 3M 1.31% · 6M 61.06% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -57558,31 +57590,31 @@ window.TEAM2_DATA = {
     {
       "ticker": "WMT",
       "price": 127.94999694824219,
-      "marketCap": "999.97B",
+      "marketCap": "1015.12B",
       "sector": "Consumer Defensive",
       "industry": "Discount Stores",
       "rs": {
         "m1": {
           "v": 0.2034435038144199,
-          "pct": 88.68349864743011
+          "pct": 88.67328519855594
         },
         "m3": {
           "v": 0.40206362083338,
-          "pct": 98.60234445446348
+          "pct": 98.60108303249098
         },
         "m6": {
           "v": 0.317220699278295,
-          "pct": 73.44454463480614
+          "pct": 73.42057761732852
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.60234445446348,
+      "bestPct": 98.60108303249098,
       "adr": 2.09,
-      "cyTrend": 0.01,
-      "nyTrend": 0.06,
-      "upCount": 8,
-      "downCount": 9,
-      "upDownRatio": 47.06,
+      "cyTrend": -0.03,
+      "nyTrend": 0.05,
+      "upCount": 9,
+      "downCount": 8,
+      "upDownRatio": 52.94,
       "bbwthd": 0.1,
       "bbwthdLow": 0.05,
       "high52": 94.89,
@@ -57608,19 +57640,19 @@ window.TEAM2_DATA = {
       "clsPos": 23.05,
       "targetStatus": false,
       "est": {
-        "cyCur": 2.88679,
+        "cyCur": 2.8856,
         "cy30": 2.88655,
-        "nyCur": 3.2283,
+        "nyCur": 3.22808,
         "ny30": 3.22649
       },
-      "saleCy": 6.57,
-      "saleNy": 4.27,
-      "epsCy": 9.35,
-      "epsNy": 11.83,
+      "saleCy": 6.7,
+      "saleNy": 4.2,
+      "epsCy": 9.3,
+      "epsNy": 11.87,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 26.6,
+      "apiCalled": true,
+      "siteRankPct6": 26.62,
       "fs": {
         "sale": [
           5.94,
@@ -57651,10 +57683,10 @@ window.TEAM2_DATA = {
       },
       "ma150Slope": 0.06,
       "ta": {
-        "price": 127.95,
-        "resistance": 128.75,
+        "price": 129.58,
+        "resistance": 131.82,
         "support": 126.38,
-        "contraction": 0.87,
+        "contraction": 0.93,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -57670,8 +57702,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "flat",
       "wrs": {
         "m1": 0.2124,
-        "m3": 0.3637,
-        "m6": 0.339,
+        "m3": 0.3642,
+        "m6": 0.3386,
         "rankPct6": 23.31,
         "count": 8
       },
@@ -58200,7 +58232,7 @@ window.TEAM2_DATA = {
       "nameKo": "월마트",
       "nameEn": "WALMART INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "월마트",
         "nameEn": "WALMART INC",
         "infomaxCode": "NAS:WMT",
@@ -58286,35 +58318,24 @@ window.TEAM2_DATA = {
           "ticker": "WMT",
           "items": [
             {
-              "title": "Is Walmart Stock Too Expensive to Buy Now?",
-              "url": "https://www.nasdaq.com/articles/walmart-stock-too-expensive-buy-now",
-              "date": "2026-11-20",
-              "desc": "Key PointsWalmart's ability to adapt in a changing environment has helped it meaningfully grow its earnings power.",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "WMT",
-                "WMT"
-              ]
-            },
-            {
-              "title": "WMT Q3 Earnings Call Takeaways as Sales and Profit Outlooks Rise",
-              "url": "https://www.nasdaq.com/articles/wmt-q3-earnings-call-takeaways-sales-and-profit-outlooks-rise",
-              "date": "2026-11-20",
-              "desc": "Walmart raises its fiscal 2027 sales and profit outlook as e-commerce surges, online margins improve and membership gains fuel optimism ahead of the holidays.",
+              "title": "Can Walmart Sustain Its Q3 Sales Momentum Through the Holiday Season?",
+              "url": "https://www.nasdaq.com/articles/can-walmart-sustain-its-q3-sales-momentum-through-holiday-season",
+              "date": "2026-11-23",
+              "desc": "WMT's Q3 sales momentum, fueled by grocery gains, e-commerce growth and competitive pricing, sets the stage for a crucial holiday shopping season.",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "WMT"
+                "WMT",
+                "TGT",
+                "COST"
               ]
             },
             {
-              "title": "Walmart: 3 Key Takeaways for Long-Term Investors",
-              "url": "https://www.nasdaq.com/articles/walmart-3-key-takeaways-long-term-investors",
-              "date": "2026-11-19",
-              "desc": "Key PointsGlobal e-commerce sales grew 17% during the third quarter.",
+              "title": "Should You Buy Walmart Stock Now or Wait for a Dip?",
+              "url": "https://www.nasdaq.com/articles/should-you-buy-walmart-stock-now-or-wait-dip",
+              "date": "2026-11-23",
+              "desc": "Key PointsWalmart recently released its third-quarter results, which were better than expected.",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
@@ -58324,10 +58345,10 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Walmart (WMT) Q3 2027 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/walmart-wmt-q3-2027-earnings-call-transcript",
-              "date": "2026-11-19",
-              "desc": "@media (max-width: 768px) { .image-container { width: 100% !important; float: none !important; margin: 0 0 1rem 0 !important; } } Image source: The Mo",
+              "title": "Walmart Has Raised Its Dividend 53 Straight Years. I'd Buy It Before December and Never Sell.",
+              "url": "https://www.nasdaq.com/articles/walmart-has-raised-its-dividend-53-straight-years-id-buy-it-december-and-never-sell",
+              "date": "2026-11-22",
+              "desc": "Key PointsWalmart beat expectations this week and raised its full-year forecast again, but the stock slipped.",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
@@ -58337,56 +58358,75 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Walmart Earnings Change the Narrative as Digital Growth Lifts Outlook",
-              "url": "https://www.nasdaq.com/articles/walmart-earnings-change-narrative-digital-growth-lifts-outlook",
-              "date": "2026-11-19",
-              "desc": "Walmart&rsquo;s (NASDAQ: WMT) Q3 fiscal year 2027 (FY2027) results changed the narrative from fears of slowing growth to ecosystem strength, outperformance, and improved guidance. While core sales are slowing, key segments like Sam&rsquo;s Club and digital reveal that consumers remain comm",
-              "publisher": "MarketBeat",
+              "title": "Why Isn't Walmart's Stock Bouncing Back After Weak Earnings Results?",
+              "url": "https://www.nasdaq.com/articles/why-isnt-walmarts-stock-bouncing-back-after-weak-earnings-results",
+              "date": "2026-11-21",
+              "desc": "Key PointsInvestors were more impressed by the retail titan's guidance raise.",
+              "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
+                "WMT",
                 "WMT"
               ]
             },
             {
-              "title": "What Walmart (WMT) Said on Its Q3 Earnings Call",
-              "url": "https://www.nasdaq.com/articles/what-walmart-wmt-said-its-q3-earnings-call",
-              "date": "2026-11-19",
-              "desc": "Walmart Earnings Change the Narrative as Digital Growth Lifts OutlookWalmart (NASDAQ:WMT) raised its full-year sales and earnings outlook after third-quarter growth exceeded its expectations, as e-commerce, marketplace services and advertising helped lift profitability. Global s",
-              "publisher": "MarketBeat",
+              "title": "Walmart Has Paid Investors a Growing Dividend for 53 Straight Years. Here's What $10,000 Starts You With.",
+              "url": "https://www.nasdaq.com/articles/walmart-has-paid-investors-growing-dividend-53-straight-years-heres-what-10000-starts-you",
+              "date": "2026-11-21",
+              "desc": "Key PointsWalmart continues to attract customers with its low prices.",
+              "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
+                "WMT",
                 "WMT"
               ]
             },
             {
-              "title": "Walmart Q3 Net Profit Drops, Despite Sales Growth; Lifts FY27 Outlook",
-              "url": "https://www.nasdaq.com/articles/walmart-q3-net-profit-drops-despite-sales-growth-lifts-fy27-outlook",
-              "date": "2026-11-19",
-              "desc": "(RTTNews) - Retail giant Walmart Inc. reported Thursday lower profit in its third quarter of fiscal 2027, mainly on the absence of prior year's significant gain on equity, while operating income climbed with growth in U.S. comparable sales and eCommerce performance. Meanwhile, Wa",
-              "publisher": "RTTNews",
+              "title": "Here’s How Many Shares of Walmart You Need for $250 in Yearly Dividends",
+              "url": "https://www.nasdaq.com/articles/heres-how-many-shares-walmart-you-need-250-yearly-dividends",
+              "date": "2026-11-21",
+              "desc": "Key PointsInvestors currently need 253 shares to earn about $250 in annual dividend income.",
+              "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
+                "WMT",
                 "WMT"
               ]
             },
             {
-              "title": "Compared to Estimates, Walmart (WMT) Q3 Earnings: A Look at Key Metrics",
-              "url": "https://www.nasdaq.com/articles/compared-estimates-walmart-wmt-q3-earnings-look-key-metrics",
-              "date": "2026-11-19",
-              "desc": "Although the revenue and EPS for Walmart (WMT) give a sense of how its business performed in the quarter ended October 2026, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.",
+              "title": "The Best Dividend King to Buy With $1,000 Before the End of November",
+              "url": "https://www.nasdaq.com/articles/best-dividend-king-buy-1000-end-november",
+              "date": "2026-11-23",
+              "desc": "Key PointsDividend Kings are stocks that have upped their payouts for at least 50 straight years, showing fiscal resilience.",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "TGT",
+                "TGT",
+                "WMT"
+              ]
+            },
+            {
+              "title": "How Much of Target's Third-Quarter EPS of $2.65 Reflects Core Growth?",
+              "url": "https://www.nasdaq.com/articles/how-much-targets-third-quarter-eps-265-reflects-core-growth",
+              "date": "2026-11-23",
+              "desc": "Target's Q3 EPS jumps to $2.65, boosted by tariff refunds. Yet underlying earnings growth, stronger sales and margin gains reveal a broader performance story.",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "WMT"
+                "TGT",
+                "WMT",
+                "BJ"
               ]
             }
           ],
-          "directCount": 10,
-          "total": 11,
+          "directCount": 6,
+          "total": 12,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -58490,8 +58530,30 @@ window.TEAM2_DATA = {
           }
         ],
         "krReports": {
-          "total": 12,
+          "total": 14,
           "reports": [
+            {
+              "title": "[월마트 (NAS:WMT)] 외풍(外風)에도 견고한 성장",
+              "broker": "키움증권",
+              "analyst": "박상준",
+              "date": "2026-11-24",
+              "summary": "- 미국의 대형 할인점, 글로벌 유통 1위 업체- 전략적 가격인하로 매출과 이익 성장세 모두 양호- 단기 밸류에이션 상승 부담 있으나, 중장기 플랫폼 파워 강화는 긍정적",
+              "pages": "6",
+              "secureId": "eqmzkqkzeqqxxgkgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmzkqkzeqqxxgkgcgxeegk.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[월마트 (NAS:WMT)] 한발 앞선 주가",
+              "broker": "신한투자증권",
+              "analyst": "전규은",
+              "date": "2026-11-23",
+              "summary": "- 이익 체질 개선 논리는 유효- FY3Q27 Review: 숫자보다 내용이 좋은 분기- 프리미엄 유지 조건은 고마진 사업 성장률 & 점유율 확대",
+              "pages": "6",
+              "secureId": "eqmzilllqzegcligcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmzilllqzegcligcgxeegk.pdf",
+              "opinion": null
+            },
             {
               "title": "[월마트 (NAS:WMT)] AI 에이전트에 가장 잘 대응 중인 리테일러",
               "broker": "신한투자증권",
@@ -58499,8 +58561,8 @@ window.TEAM2_DATA = {
               "date": "2026-11-12",
               "summary": "- 세계 최대 오프라인 유통망을 기반으로 한 기술 기반 옴니채널 소매업체. 'Everyday Low Price' 전략으로 가격 경쟁력 유지- Al 쇼핑 에이전트 스파키(Sparky)가 추천·장보기·결제·고객 상담까지 처리. 이용 고객의 주문금액은 비이용 고객보다 40% 높고, 주간 활성 이용은 전년 대비 2배 증가- 미국 이커머스는 6개 분기 연속 흑자이며, 2분기는 사상 최대 이익 분기. 광고를 빼고도 흑자. 이커머스 증분마진은 두 자릿수 초반",
               "pages": "1",
-              "secureId": "eqmkkxixezxcziggcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxixezxcziggcgxeege.pdf",
+              "secureId": "eqmkkxixezxcziggcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxixezxcziggcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -58510,8 +58572,8 @@ window.TEAM2_DATA = {
               "date": "2026-10-30",
               "summary": "- 월마트, Symbotic에 60억 달러 투입해 美 물류센터 25곳 자동화- 직전 분기 자본지출 가이던스 상향(3.5%→4.0%)의 구체적 집행 사례- 이커머스 성장 뒷받침하나 현금흐름·밸류에이션 부담은 과제로 남아",
               "pages": "4",
-              "secureId": "eqmizxqeqmmlqkigcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmizxqeqmmlqkigcgxeege.pdf",
+              "secureId": "eqmizxqeqmmlqkigcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmizxqeqmmlqkigcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -58521,8 +58583,8 @@ window.TEAM2_DATA = {
               "date": "2026-10-20",
               "summary": "- 월마트, 월요일 4트랜치 30억달러 미국 달러채 발행 추진(블룸버그)- 2분기 자본지출 가이던스 3.5%→4.0% 상향과 맞물린 조달- 조건·용도 미공개, 신용 스프레드로 시장 평가 확인 필요",
               "pages": "5",
-              "secureId": "eqmgkzxzzcxeqlzgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgkzxzzcxeqlzgcgxeege.pdf",
+              "secureId": "eqmgkzxzzcxeqlzgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgkzxzzcxeqlzgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -58532,8 +58594,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-24",
               "summary": "- 프리미엄 밸류에이션 부담 속 미국 동일점 매출성장률(2.6%)이 컨센서스 (3.7%) 하회하며 주가 하락. 추가 조정보다는 상방 여력이 더 크다는 판단- 매출 1,879억달러(+5.9%YoY, 이하 YoY 생략), 조정 EPS 0.81달러 (+19.1%)로 컨센서스 대비 각각 0.6%, 9.6% 상회. 월마트 미국 동일점 매출성장률 2.6%(객단가 1.1%, 거래건수 1.5%)로 컨센서스 3.7%를 하회- 주가 조정에도 12개월 선행 PER 약 32배 수준으로 5년 평균(약 28배) 대 비 높은 밸류에이션. 다만 고마진 사업부 성장이 견조하며 지속적인 가격 투자로 시장 점유율 확대 전망. 개학 시즌 초반 반응도 긍정적. 조정 국면 을 매수 기회로 판단해 투자의견 매수 유지. 거래건수 개선은 확인 필요",
               "pages": "6",
-              "secureId": "eqlqzgzkexkgzekgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzgzkexkgzekgcgxeege.pdf",
+              "secureId": "eqlqzgzkexkgzekgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzgzkexkgzekgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -58543,8 +58605,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-24",
               "summary": "- 미국의 대형 할인점, 글로벌 유통 1위 업체- 에너지 가격 상승으로 인한 비용 부담 및 소비 심리 위축 우려로 주가 조정- 중장기 점유율 확대에 대한 성장 Narrative는 유효하지만 단기 조정에는 유의",
               "pages": "6",
-              "secureId": "eqlqzgziilkglkkgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzgziilkglkkgcgxeege.pdf",
+              "secureId": "eqlqzgziilkglkkgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzgziilkglkkgcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -58554,8 +58616,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-20",
               "summary": "- 매출 1,879억·조정 EPS $0.81로 컨센 상회- FY27 가이던스 상향, Q3는 컨센 크게 하회- 미국 컴프 2.6% 둔화, 이익 비트는 관세 환급 의존",
               "pages": "7",
-              "secureId": "eqlqgxmggcczzgegcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxmggcczzgegcgxeege.pdf",
+              "secureId": "eqlqgxmggcczzgegcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxmggcczzgegcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -58565,8 +58627,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-11",
               "summary": "- 월마트 8월 20일 실적, 핵심은 연간 가이던스 상향 여부- 주가는 12개월 예상 이익 대비 40.2배로 5년 평균보다 46% 높아 기대치 부담 확대- 옵션시장은 약 6.6% 변동 예상, 콜 쏠림 속 하방 보험 수요도 동반 유입",
               "pages": "6",
-              "secureId": "eqlxkciglciqkxigcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxkciglciqkxigcgxeege.pdf",
+              "secureId": "eqlxkciglciqkxigcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxkciglciqkxigcgxeegk.pdf",
               "opinion": null
             },
             {
@@ -58576,30 +58638,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-27",
               "summary": "- 미국의 대형 할인점, 글로벌 유통 1위 업체- 에너지 가격 상승으로 인한 비용 부담 및 소비 심리 위축 우려로 주가 조정- 중장기 점유율 확대에 대한 성장 Narrative는 유효하지만 단기 조정에는 유의",
               "pages": "5",
-              "secureId": "eqqmlizlqlxlmklgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmlizlqlxlmklgcgxeege.pdf",
-              "opinion": null
-            },
-            {
-              "title": "[월마트 (NAS:WMT)] 같은 역풍이라면 올라가는 상대적 매력도",
-              "broker": "신한투자증권",
-              "analyst": "전규은",
-              "date": "2026-05-22",
-              "summary": "- 고마진 사업부 성장세 지속·AI 쇼핑 에이전트(스파키)의 빠른 침투·상품 믹스 개선은 중장기 마진 개선 경로 가시화. 높은 연료비로 약 1.75억달 러, 영업이익 성장률 기준 약 250bp 역풍.- FY1Q27 실적 컨센서스 부합, 연간 가이던스 유지. 미국 사업 부문 트래 픽 주도 성장. 소비자들의 소량·고빈도 구매 패턴 강화. 이커머스 매출 전 년 대비 +26%로 성장 지속- 18분기 만에 처음으로 상품 믹스가 월마트 미국 부문 매출총이익률에 +29bp 기여. 마켓플레이스 확장에 따라 저마진 식품·소모품에서 고마진 일반상품으로의 믹스 전환 진행 중",
-              "pages": "5",
-              "secureId": "eqqmkkczxqxmmkmgcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmkkczxqxmmkmgcgxeege.pdf",
-              "opinion": null
-            },
-            {
-              "title": "[월마트 (NAS:WMT)] 우리 월마트 오프라인만 잘하는 거 아닙니다",
-              "broker": "iM증권",
-              "analyst": "이경신",
-              "date": "2026-03-17",
-              "summary": "- 소비심리 위축과 관세 부과 등 미국 현지 매크로 불확실성에도, 월마트는 FY4Q26 시장기대치를 상회하는 매출액과 영업이익 성장률 (각각 +5.6%, +12.2% YoY)을 시현했다- 이번 실적의 핵심은 이커머스 성장 가속화와 광고·멤버십 등 고마진 수익원 확대 및 이에 따른 구조적 이익개선에 있다. 이커머스 매출액은 +24% YoY(미국 +27%) 증가하며 전체 매출액 성장률을 상회, Walmart U.S. SSS 성장의 핵심 동력으로 작용했다- 경기둔화 국면에서 방어적 소비특성이 부각되며 미국 대형 유통업체들의 밸류에이션은 전반적으로 상승한 상황이다. 이에 따라 월마트의 12M Fwd P/E는 43.1X배로 역사적 밴드를 크게 상회하고 있다",
-              "pages": "7",
-              "secureId": "eqqiqcgigmmgxiigcgxeege",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqiqcgigmmgxiigcgxeege.pdf",
+              "secureId": "eqqmlizlqlxlmklgcgxeegk",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmlizlqlxlmklgcgxeegk.pdf",
               "opinion": null
             }
           ],
@@ -58613,6 +58653,13 @@ window.TEAM2_DATA = {
           "date": "2026-11-19",
           "publisher": "CNBC",
           "kind": "article"
+        },
+        {
+          "title": "AI bulls should bet on semiconductors, look to hyperscalers for safer bets",
+          "url": "https://www.cnbc.com/video/2026/11/24/ai-bulls-should-bet-on-semiconductors-look-to-hyperscalers-for-safer-bets-d-a-davidson-co.html",
+          "date": "2026-11-24",
+          "publisher": "CNBC",
+          "kind": "video"
         },
         {
           "title": "Retail names slump after earnings",
@@ -58655,31 +58702,24 @@ window.TEAM2_DATA = {
           "date": "2026-11-19",
           "publisher": "CNBC",
           "kind": "video"
-        },
-        {
-          "title": "Victoria Greene on this week's earnings: Palo Alto Networks is still a hold",
-          "url": "https://www.cnbc.com/video/2026/11/16/victoria-greene-on-this-weeks-earnings-palo-alto-networks-is-still-a-hold.html",
-          "date": "2026-11-16",
-          "publisher": "CNBC",
-          "kind": "video"
         }
       ],
       "kis": {
         "ticker": "WMT",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 46.36,
-        "pbr": 10.34,
+        "per": 46.95,
+        "pbr": 10.48,
         "eps": 2.76,
         "bps": 12.37,
         "shares": 7933750000,
-        "marketCapM": 1015123,
+        "marketCapM": 1028055,
         "high52": 134.8329,
         "high52Date": "2026-05-19",
-        "low52": 102.0316,
-        "low52Date": "2025-11-20",
-        "last": 127.95,
-        "prevClose": 126.04,
+        "low52": 102.15,
+        "low52Date": "2026-08-21",
+        "last": 129.58,
+        "prevClose": 127.95,
         "nameKo": "월마트",
         "nameEn": "WALMART INC",
         "listedOn": "1970-10-01",
@@ -58689,7 +58729,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "WMT",
         "url": "https://finance.yahoo.com/quote/WMT/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -58702,7 +58742,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 35,
             "epsGrowth": 4.8,
             "epsCur": "USD",
-            "rev": 200222459370,
+            "rev": 200238445570,
             "revAnalysts": 29,
             "revYearAgo": 188913000000,
             "revGrowth": 6,
@@ -58718,7 +58758,7 @@ window.TEAM2_DATA = {
             "epsAnalysts": 27,
             "epsGrowth": 11.3,
             "epsCur": "USD",
-            "rev": 185220022580,
+            "rev": 185214057580,
             "revAnalysts": 20,
             "revYearAgo": 177751000000,
             "revGrowth": 4.2,
@@ -58731,10 +58771,10 @@ window.TEAM2_DATA = {
             "epsLow": 2.82,
             "epsHigh": 2.92,
             "epsYearAgo": 2.64,
-            "epsAnalysts": 40,
+            "epsAnalysts": 41,
             "epsGrowth": 9.3,
             "epsCur": "USD",
-            "rev": 753770313360,
+            "rev": 753927488360,
             "revAnalysts": 36,
             "revYearAgo": 706413000000,
             "revGrowth": 6.7,
@@ -58744,15 +58784,15 @@ window.TEAM2_DATA = {
             "period": "+1y",
             "endDate": "2028-01-31",
             "eps": 3.23,
-            "epsLow": 3.09,
+            "epsLow": 3.1,
             "epsHigh": 3.55,
             "epsYearAgo": 2.89,
             "epsAnalysts": 43,
-            "epsGrowth": 11.9,
+            "epsGrowth": 11.8,
             "epsCur": "USD",
-            "rev": 785407607660,
+            "rev": 785435142800,
             "revAnalysts": 37,
-            "revYearAgo": 753770313360,
+            "revYearAgo": 753927488360,
             "revGrowth": 4.2,
             "revCur": "USD"
           }
@@ -58763,8 +58803,8 @@ window.TEAM2_DATA = {
             "endDate": "2027-01-31",
             "cur": "USD",
             "now": 0.78,
-            "d7": -1.2,
-            "d30": -1.3,
+            "d7": -1.3,
+            "d30": -1.4,
             "d90": -1.3,
             "ago90": 0.79,
             "up7": 1,
@@ -58805,7 +58845,7 @@ window.TEAM2_DATA = {
             "endDate": "2028-01-31",
             "cur": "USD",
             "now": 3.23,
-            "d7": 0.1,
+            "d7": 0,
             "d30": 0,
             "d90": 0.1,
             "ago90": 3.22,
@@ -58850,10 +58890,20 @@ window.TEAM2_DATA = {
           "upgrades": 1,
           "downgrades": 0,
           "initiations": 0,
-          "ptRaised": 17,
+          "ptRaised": 18,
           "ptLowered": 1,
-          "total": 23,
+          "total": 24,
           "recent": [
+            {
+              "date": "2026-11-23",
+              "firm": "Guggenheim",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 140,
+              "ptPrior": 130
+            },
             {
               "date": "2026-11-20",
               "firm": "Telsey Advisory Group",
@@ -58943,16 +58993,6 @@ window.TEAM2_DATA = {
               "ptAction": "Raises",
               "pt": 145,
               "ptPrior": 135
-            },
-            {
-              "date": "2026-11-20",
-              "firm": "Piper Sandler",
-              "action": "main",
-              "from": "Overweight",
-              "to": "Overweight",
-              "ptAction": "Raises",
-              "pt": 138,
-              "ptPrior": 128
             }
           ]
         },
@@ -58965,37 +59005,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "B",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 131.82,
-        "stop": 129.15,
-        "adrPct": 2.09,
-        "distToPivotPct": -2.94,
-        "distToPivotAdr": -1.41,
-        "riskPerSharePct": 2.03,
-        "extensionAdr": 0.41,
+        "stop": 129.02,
+        "adrPct": 2.16,
+        "distToPivotPct": -1.7,
+        "distToPivotAdr": -0.79,
+        "riskPerSharePct": 2.12,
+        "extensionAdr": 0.84,
         "breakDate": null,
         "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
+          "baseBars": 15,
+          "baseWeeks": 3,
           "depthPct": 6.7,
           "priorMovePct": 29,
           "higherLows": 1,
-          "contraction": 0.87,
-          "closeRange10Adr": 1.1,
-          "surf10": 0.41,
-          "surf20": 0.98,
-          "slope20": 1.7,
+          "contraction": 0.93,
+          "closeRange10Adr": 1.4,
+          "surf10": 0.84,
+          "surf20": 1.35,
+          "slope20": 1.68,
           "baseLow": 123.03,
           "lastSwingLow": 123.03
         },
         "reasons": [
           "✗ 선행 상승 +29%",
-          "베이스 2.4주",
+          "베이스 3주",
           "깊이 6.7%",
           "저점 상승 1회",
-          "진폭 0.87배 · 10일 종가폭 1.1 ADR",
-          "10일선 +0.4 ADR · 20일선 +1 ADR",
-          "20일선 기울기 +1.7%"
+          "진폭 0.93배 · 10일 종가폭 1.4 ADR",
+          "10일선 +0.8 ADR · 20일선 +1.4 ADR",
+          "20일선 기울기 +1.68%"
         ]
       },
       "checks": {
@@ -59008,27 +59048,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "evidence": "베이스 3주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.87배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.93배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 6.7% · ADR 2.09%의 3.2배 · 선행 상승의 절반 15%"
+            "evidence": "베이스 깊이 6.7% · ADR 2.16%의 3.1배 · 선행 상승의 절반 15%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 127.95 · 20일선 125.33 · 50일선 116.65"
+            "evidence": "종가 129.58 · 20일선 125.79 · 50일선 117.06"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.19배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.22배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -59037,18 +59077,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 131.82까지 -2.94% (-1.41 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 131.82까지 -1.7% (-0.79 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.03% · ADR 2.09%"
+            "evidence": "예비 손절 폭 2.12% · ADR 2.16%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 0.4 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -59075,12 +59115,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.19배(20일 평균 대비) · 오늘 거래대금 1.83배(상승일) · 상장주식 7934M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.22배(20일 평균 대비) · 오늘 거래대금 1.83배(상승일) · 상장주식 7934M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 11.32% · 3M 1.4% · 6M 26.56% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 11.33% · 3M 1.4% · 6M 26.58% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -59099,25 +59139,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "PTC",
       "price": 195.10000610351562,
-      "marketCap": "21.25B",
+      "marketCap": "21.19B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
           "v": 0.1429231932120766,
-          "pct": 71.190261496844
+          "pct": 71.25451263537906
         },
         "m3": {
           "v": 0.3827822007373196,
-          "pct": 98.33183047790803
+          "pct": 98.33032490974729
         },
         "m6": {
           "v": 0.5534733003661264,
-          "pct": 94.63480613165014
+          "pct": 94.62996389891697
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.33183047790803,
+      "bestPct": 98.33032490974729,
       "adr": 0.5,
       "cyTrend": 1.19,
       "nyTrend": 1.63,
@@ -59160,8 +59200,8 @@ window.TEAM2_DATA = {
       "epsNy": 11.08,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 5.41,
+      "apiCalled": true,
+      "siteRankPct6": 5.42,
       "fs": {
         "sale": [
           -6.82,
@@ -59190,12 +59230,12 @@ window.TEAM2_DATA = {
         "m3": 4,
         "m6": 0
       },
-      "ma150Slope": 5.12,
+      "ma150Slope": 5.16,
       "ta": {
-        "price": 195.1,
-        "resistance": 196.79,
+        "price": 196,
+        "resistance": 203.09,
         "support": 192.76,
-        "contraction": 0.9,
+        "contraction": 0.86,
         "trend": "up"
       },
       "top2Gaps": {
@@ -59210,9 +59250,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": -0.0452,
-        "m3": -0.0084,
-        "m6": 0.1697,
+        "m1": -0.0436,
+        "m3": -0.0068,
+        "m6": 0.173,
         "rankPct6": 51.88,
         "count": 50
       },
@@ -59618,7 +59658,7 @@ window.TEAM2_DATA = {
       "nameKo": "PTC",
       "nameEn": "PTC INC",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-24",
         "nameKo": "PTC",
         "nameEn": "PTC INC",
         "infomaxCode": "NAS:PTC",
@@ -59956,31 +59996,24 @@ window.TEAM2_DATA = {
           "date": "2026-10-05",
           "publisher": "CNBC",
           "kind": "video"
-        },
-        {
-          "title": "Monday, October 5, 2026: Cramer says he is growing more positive on this tech giant",
-          "url": "https://www.cnbc.com/investingclub/video/2026/10/05/monday-october-5-2026-cramer-says-he-is-growing-more-positive-on-this-tech-giant.html",
-          "date": "2026-10-05",
-          "publisher": "CNBC",
-          "kind": "video"
         }
       ],
       "kis": {
         "ticker": "PTC",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 18.86,
-        "pbr": 6.23,
+        "per": 18.95,
+        "pbr": 6.25,
         "eps": 10.34,
         "bps": 31.34,
         "shares": 108633000,
-        "marketCapM": 21194,
+        "marketCapM": 21292,
         "high52": 196.79,
         "high52Date": "2026-11-10",
         "low52": 108.5,
         "low52Date": "2026-06-12",
-        "last": 195.1,
-        "prevClose": 195.63,
+        "last": 196,
+        "prevClose": 195.1,
         "nameKo": "PTC",
         "nameEn": "PTC INC",
         "listedOn": null,
@@ -59990,7 +60023,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PTC",
         "url": "https://finance.yahoo.com/quote/PTC/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -60064,7 +60097,7 @@ window.TEAM2_DATA = {
             "endDate": "2026-12-31",
             "cur": "USD",
             "now": 2.04,
-            "d7": 5.4,
+            "d7": 0,
             "d30": 5.4,
             "d90": 4.5,
             "ago90": 1.95,
@@ -60078,7 +60111,7 @@ window.TEAM2_DATA = {
             "endDate": "2027-03-31",
             "cur": "USD",
             "now": 2.49,
-            "d7": 1.3,
+            "d7": 0,
             "d30": 1.3,
             "d90": 0.4,
             "ago90": 2.48,
@@ -60092,7 +60125,7 @@ window.TEAM2_DATA = {
             "endDate": "2027-09-30",
             "cur": "USD",
             "now": 9.02,
-            "d7": 1.2,
+            "d7": 0,
             "d30": 1.2,
             "d90": 1.5,
             "ago90": 8.89,
@@ -60265,38 +60298,38 @@ window.TEAM2_DATA = {
       },
       "setup": {
         "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-20",
+        "grade": "A",
+        "asOf": "2026-11-23",
         "pivot": 196.79,
-        "stop": 195.82,
-        "adrPct": 0.5,
-        "distToPivotPct": -0.86,
-        "distToPivotAdr": -1.72,
-        "riskPerSharePct": 0.49,
-        "extensionAdr": -0.86,
+        "stop": 195.78,
+        "adrPct": 0.51,
+        "distToPivotPct": -0.4,
+        "distToPivotAdr": -0.78,
+        "riskPerSharePct": 0.51,
+        "extensionAdr": 0.05,
         "breakDate": null,
         "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
+          "baseBars": 13,
+          "baseWeeks": 2.6,
           "depthPct": 1.4,
           "priorMovePct": 55.2,
           "higherLows": 1,
-          "contraction": 0.9,
-          "closeRange10Adr": 1.5,
-          "surf10": -0.86,
-          "surf20": -0.25,
-          "slope20": 0.26,
+          "contraction": 0.86,
+          "closeRange10Adr": 1.4,
+          "surf10": 0.05,
+          "surf20": 0.57,
+          "slope20": 0.22,
           "baseLow": 194.07,
           "lastSwingLow": 194.07
         },
         "reasons": [
           "선행 상승 +55%",
-          "베이스 2.4주",
+          "베이스 2.6주",
           "깊이 1.4%",
           "저점 상승 1회",
-          "진폭 0.9배 · 10일 종가폭 1.5 ADR",
-          "✗ 10일선 -0.9 ADR · 20일선 -0.2 ADR",
-          "20일선 기울기 +0.26%"
+          "진폭 0.86배 · 10일 종가폭 1.4 ADR",
+          "10일선 +0 ADR · 20일선 +0.6 ADR",
+          "20일선 기울기 +0.22%"
         ]
       },
       "checks": {
@@ -60309,27 +60342,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "evidence": "베이스 2.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.9배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.86배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 1.4% · ADR 0.5%의 2.8배 · 선행 상승의 절반 28%"
+            "evidence": "베이스 깊이 1.4% · ADR 0.51%의 2.7배 · 선행 상승의 절반 28%"
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 195.1 · 20일선 195.34 · 50일선 177.61"
+            "status": "충족",
+            "evidence": "종가 196 · 20일선 195.43 · 50일선 178.8"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.07배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.04배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -60338,18 +60371,18 @@ window.TEAM2_DATA = {
           },
           {
             "item": "피벗 거리",
-            "status": "미충족",
-            "evidence": "피벗 196.79까지 -0.86% (-1.72 ADR) · 기준 1 ADR 이내"
+            "status": "충족",
+            "evidence": "피벗 196.79까지 -0.4% (-0.78 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 0.49% · ADR 0.5%"
+            "evidence": "예비 손절 폭 0.51% · ADR 0.51%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.9 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0.1 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -60376,12 +60409,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.07배(20일 평균 대비) · 오늘 거래대금 1.4배 · 상장주식 109M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.04배(20일 평균 대비) · 오늘 거래대금 1.4배 · 상장주식 109M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 28.81% · 3M 1.67% · 6M 5.37% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 28.75% · 3M 1.67% · 6M 5.37% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -60400,25 +60433,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "USPH",
       "price": 95.93000030517578,
-      "marketCap": "1.41B",
+      "marketCap": "1.43B",
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "rs": {
         "m1": {
           "v": 0.22483048782009946,
-          "pct": 91.74932371505861
+          "pct": 91.7418772563177
         },
         "m3": {
           "v": 0.3737478869736446,
-          "pct": 98.24165915238953
+          "pct": 98.24007220216606
         },
         "m6": {
           "v": 0.7339609869778864,
-          "pct": 97.8809738503156
+          "pct": 97.87906137184116
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.24165915238953,
+      "bestPct": 98.24007220216606,
       "adr": 3.15,
       "cyTrend": -0.55,
       "nyTrend": 0.48,
@@ -60461,8 +60494,8 @@ window.TEAM2_DATA = {
       "epsNy": 16.79,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
-      "siteRankPct6": 2.16,
+      "apiCalled": true,
+      "siteRankPct6": 2.17,
       "fs": {
         "sale": [
           8.47,
@@ -60491,12 +60524,12 @@ window.TEAM2_DATA = {
         "m3": 1,
         "m6": 0
       },
-      "ma150Slope": 3.18,
+      "ma150Slope": 3.24,
       "ta": {
-        "price": 95.93,
+        "price": 96.85,
         "resistance": 101.2,
         "support": 86.1,
-        "contraction": 0.94,
+        "contraction": 0.92,
         "trend": "up"
       },
       "top2Gaps": {
@@ -60512,8 +60545,8 @@ window.TEAM2_DATA = {
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.1373,
-        "m3": 0.2348,
-        "m6": 0.4773,
+        "m3": 0.2354,
+        "m6": 0.4765,
         "rankPct6": 6.02,
         "count": 12
       },
@@ -60781,7 +60814,7 @@ window.TEAM2_DATA = {
       "nameKo": "US 피지컬 테라피",
       "nameEn": "US PHYSICAL THERAPY",
       "detail": {
-        "fetchedAt": "2026-11-22",
+        "fetchedAt": "2026-11-24",
         "nameKo": "US 피지컬 테라피",
         "nameEn": "US PHYSICAL THERAPY",
         "infomaxCode": "NYS:USPH",
@@ -61086,20 +61119,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "USPH",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 566.63,
-        "pbr": 3.19,
+        "per": 572.06,
+        "pbr": 3.22,
         "eps": 0.17,
         "bps": 30.06,
         "shares": 14928500,
-        "marketCapM": 1432,
+        "marketCapM": 1446,
         "high52": 101.3299,
         "high52Date": "2026-11-12",
         "low52": 57.1583,
         "low52Date": "2026-05-08",
-        "last": 95.93,
-        "prevClose": 94.32,
+        "last": 96.85,
+        "prevClose": 95.93,
         "nameKo": "US 피지컬 테라피",
         "nameEn": "US PHYSICAL THERAPY",
         "listedOn": null,
@@ -61109,7 +61142,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "USPH",
         "url": "https://finance.yahoo.com/quote/USPH/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -61315,37 +61348,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "B",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 101.8,
-        "stop": 98.78,
-        "adrPct": 3.15,
-        "distToPivotPct": -5.77,
-        "distToPivotAdr": -1.83,
-        "riskPerSharePct": 2.97,
-        "extensionAdr": -0.68,
+        "stop": 98.71,
+        "adrPct": 3.19,
+        "distToPivotPct": -4.86,
+        "distToPivotAdr": -1.53,
+        "riskPerSharePct": 3.03,
+        "extensionAdr": -0.27,
         "breakDate": null,
         "metrics": {
-          "baseBars": 11,
-          "baseWeeks": 2.2,
+          "baseBars": 12,
+          "baseWeeks": 2.4,
           "depthPct": 8.4,
           "priorMovePct": 33.2,
           "higherLows": 0,
-          "contraction": 0.94,
+          "contraction": 0.92,
           "closeRange10Adr": 1.9,
-          "surf10": -0.68,
-          "surf20": 0.82,
-          "slope20": 2.64,
+          "surf10": -0.27,
+          "surf20": 0.97,
+          "slope20": 2.21,
           "baseLow": 93.2,
           "lastSwingLow": 93.2
         },
         "reasons": [
           "선행 상승 +33%",
-          "베이스 2.2주",
+          "베이스 2.4주",
           "깊이 8.4%",
           "✗ 저점 상승 0회",
-          "진폭 0.94배 · 10일 종가폭 1.9 ADR",
-          "10일선 -0.7 ADR · 20일선 +0.8 ADR",
-          "20일선 기울기 +2.64%"
+          "진폭 0.92배 · 10일 종가폭 1.9 ADR",
+          "10일선 -0.3 ADR · 20일선 +1 ADR",
+          "20일선 기울기 +2.21%"
         ]
       },
       "checks": {
@@ -61358,27 +61391,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.2주 · 기준 2~8주"
+            "evidence": "베이스 2.4주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.94배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.92배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 8.4% · ADR 3.15%의 2.7배 · 선행 상승의 절반 17%"
+            "evidence": "베이스 깊이 8.4% · ADR 3.19%의 2.6배 · 선행 상승의 절반 17%"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "종가 95.93 · 20일선 93.46 · 50일선 88.05"
+            "evidence": "종가 96.85 · 20일선 93.87 · 50일선 88.38"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 1.23배 · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.14배 · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -61388,17 +61421,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 101.8까지 -5.77% (-1.83 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 101.8까지 -4.86% (-1.53 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 2.97% · ADR 3.15%"
+            "evidence": "예비 손절 폭 3.03% · ADR 3.19%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.7 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -61425,12 +61458,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 1.23배(20일 평균 대비) · 오늘 거래대금 0.97배(상승일) · 상장주식 15M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 1.14배(20일 평균 대비) · 오늘 거래대금 0.97배(상승일) · 상장주식 15M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 8.25% · 3M 1.76% · 6M 2.12% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 8.26% · 3M 1.76% · 6M 2.12% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -61449,25 +61482,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "HAE",
       "price": 120.16000366210938,
-      "marketCap": "5.48B",
+      "marketCap": "5.47B",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "rs": {
         "m1": {
           "v": 0.15013811956558262,
-          "pct": 72.81334535617674
+          "pct": 72.87906137184116
         },
         "m3": {
           "v": 0.2997331165935857,
-          "pct": 95.62669071235347
+          "pct": 95.62274368231047
         },
         "m6": {
           "v": 0.9932679383423371,
-          "pct": 99.41388638412985
+          "pct": 99.41335740072202
         }
       },
       "qualifiedBy": [],
-      "bestPct": 99.41388638412985,
+      "bestPct": 99.41335740072202,
       "adr": 3.55,
       "cyTrend": 0.63,
       "nyTrend": 8.49,
@@ -61510,7 +61543,7 @@ window.TEAM2_DATA = {
       "epsNy": 17.28,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 0.63,
       "fs": {
         "sale": [
@@ -61540,12 +61573,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 22
       },
-      "ma150Slope": 10.25,
+      "ma150Slope": 10.2,
       "ta": {
-        "price": 120.16,
-        "resistance": 121.91,
+        "price": 121.42,
+        "resistance": 123.77,
         "support": 116.68,
-        "contraction": 0.92,
+        "contraction": 0.8,
         "trend": "up"
       },
       "top2Gaps": {
@@ -61560,8 +61593,8 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.1643,
-        "m3": 0.1654,
+        "m1": 0.1645,
+        "m3": 0.1657,
         "m6": 0.4058,
         "rankPct6": 11.28,
         "count": 23
@@ -62233,20 +62266,20 @@ window.TEAM2_DATA = {
       ],
       "kis": {
         "ticker": "HAE",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 58.61,
-        "pbr": 6.53,
+        "per": 59.22,
+        "pbr": 6.6,
         "eps": 2.05,
         "bps": 18.41,
         "shares": 45537500,
-        "marketCapM": 5472,
+        "marketCapM": 5529,
         "high52": 132,
         "high52Date": "2026-11-05",
         "low52": 51,
         "low52Date": "2026-05-08",
-        "last": 120.16,
-        "prevClose": 120.37,
+        "last": 121.42,
+        "prevClose": 120.16,
         "nameKo": "헤모네틱스",
         "nameEn": "HAEMONETICS CORP",
         "listedOn": null,
@@ -62256,7 +62289,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "HAE",
         "url": "https://finance.yahoo.com/quote/HAE/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -62531,38 +62564,38 @@ window.TEAM2_DATA = {
       },
       "setup": {
         "state": "pre",
-        "grade": "B",
-        "asOf": "2026-11-20",
+        "grade": "A",
+        "asOf": "2026-11-23",
         "pivot": 132,
-        "stop": 127.74,
-        "adrPct": 3.55,
-        "distToPivotPct": -8.97,
-        "distToPivotAdr": -2.53,
-        "riskPerSharePct": 3.23,
-        "extensionAdr": -0.25,
+        "stop": 127.64,
+        "adrPct": 3.59,
+        "distToPivotPct": -8.02,
+        "distToPivotAdr": -2.23,
+        "riskPerSharePct": 3.31,
+        "extensionAdr": -0.03,
         "breakDate": null,
         "metrics": {
-          "baseBars": 12,
-          "baseWeeks": 2.4,
+          "baseBars": 13,
+          "baseWeeks": 2.6,
           "depthPct": 11.6,
           "priorMovePct": 53.3,
           "higherLows": 1,
-          "contraction": 0.92,
-          "closeRange10Adr": 1.1,
-          "surf10": -0.25,
-          "surf20": -0.21,
-          "slope20": 0.7,
+          "contraction": 0.8,
+          "closeRange10Adr": 0.6,
+          "surf10": -0.03,
+          "surf20": 0.06,
+          "slope20": 0.69,
           "baseLow": 116.68,
           "lastSwingLow": 116.68
         },
         "reasons": [
           "선행 상승 +53%",
-          "베이스 2.4주",
+          "베이스 2.6주",
           "깊이 11.6%",
           "저점 상승 1회",
-          "진폭 0.92배 · 10일 종가폭 1.1 ADR",
-          "✗ 10일선 -0.3 ADR · 20일선 -0.2 ADR",
-          "20일선 기울기 +0.7%"
+          "진폭 0.8배 · 10일 종가폭 0.6 ADR",
+          "10일선 0 ADR · 20일선 +0.1 ADR",
+          "20일선 기울기 +0.69%"
         ]
       },
       "checks": {
@@ -62575,27 +62608,27 @@ window.TEAM2_DATA = {
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 2.4주 · 기준 2~8주"
+            "evidence": "베이스 2.6주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "충족",
-            "evidence": "저점 상승 1회 · 진폭 0.92배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 1회 · 진폭 0.8배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 11.6% · ADR 3.55%의 3.3배 · 선행 상승의 절반 27%"
+            "evidence": "베이스 깊이 11.6% · ADR 3.59%의 3.2배 · 선행 상승의 절반 27%"
           },
           {
             "item": "이평선 위",
-            "status": "미충족",
-            "evidence": "종가 120.16 · 20일선 121.06 · 50일선 115.17"
+            "status": "충족",
+            "evidence": "종가 121.42 · 20일선 121.17 · 50일선 115.47"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.76배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.78배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -62605,17 +62638,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 132까지 -8.97% (-2.53 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 132까지 -8.02% (-2.23 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.23% · ADR 3.55%"
+            "evidence": "예비 손절 폭 3.31% · ADR 3.59%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.2 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 0 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -62642,12 +62675,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.76배(20일 평균 대비) · 오늘 거래대금 0.57배 · 상장주식 46M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.78배(20일 평균 대비) · 오늘 거래대금 0.57배 · 상장주식 46M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 27.19% · 3M 4.37% · 6M 0.59% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 27.12% · 3M 4.38% · 6M 0.59% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -62666,25 +62699,25 @@ window.TEAM2_DATA = {
     {
       "ticker": "PAYC",
       "price": 241.63999938964844,
-      "marketCap": "10.81B",
+      "marketCap": "10.88B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
           "v": 0.01621815418242055,
-          "pct": 28.71956717763751
+          "pct": 28.745487364620935
         },
         "m3": {
           "v": 0.17475816305884512,
-          "pct": 75.06762849413886
+          "pct": 75.13537906137185
         },
         "m6": {
           "v": 0.8609382839474874,
-          "pct": 98.60234445446348
+          "pct": 98.60108303249098
         }
       },
       "qualifiedBy": [],
-      "bestPct": 98.60234445446348,
+      "bestPct": 98.60108303249098,
       "adr": 3.91,
       "cyTrend": 8.07,
       "nyTrend": 8.32,
@@ -62727,7 +62760,7 @@ window.TEAM2_DATA = {
       "epsNy": 15.72,
       "bbCenterBrk5d": false,
       "newHigh52": false,
-      "apiCalled": false,
+      "apiCalled": true,
       "siteRankPct6": 1.44,
       "fs": {
         "sale": [
@@ -62757,12 +62790,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 8
       },
-      "ma150Slope": 10.22,
+      "ma150Slope": 10.05,
       "ta": {
-        "price": 241.64,
+        "price": 243.17,
         "resistance": 244.98,
         "support": 230.92,
-        "contraction": 0.68,
+        "contraction": 0.64,
         "trend": "up"
       },
       "top2Gaps": {
@@ -62777,9 +62810,9 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": -0.0452,
-        "m3": -0.0084,
-        "m6": 0.1697,
+        "m1": -0.0436,
+        "m3": -0.0068,
+        "m6": 0.173,
         "rankPct6": 51.88,
         "count": 50
       },
@@ -63141,7 +63174,7 @@ window.TEAM2_DATA = {
       "nameKo": "페이컴 소프트웨어",
       "nameEn": "PAYCOM SOFTWARE INC",
       "detail": {
-        "fetchedAt": "2026-11-21",
+        "fetchedAt": "2026-11-24",
         "nameKo": "페이컴 소프트웨어",
         "nameEn": "PAYCOM SOFTWARE INC",
         "infomaxCode": "NYS:PAYC",
@@ -63437,20 +63470,20 @@ window.TEAM2_DATA = {
       "cnbc": [],
       "kis": {
         "ticker": "PAYC",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "한국투자증권 Open API",
-        "per": 25.68,
-        "pbr": 18.73,
+        "per": 25.84,
+        "pbr": 18.85,
         "eps": 9.41,
         "bps": 12.9,
         "shares": 45034800,
-        "marketCapM": 10882,
-        "high52": 275.22,
+        "marketCapM": 10951,
+        "high52": 274.7929,
         "high52Date": "2026-10-23",
-        "low52": 104.1595,
+        "low52": 103.9979,
         "low52Date": "2026-02-12",
-        "last": 241.64,
-        "prevClose": 239.96,
+        "last": 243.17,
+        "prevClose": 241.265,
         "nameKo": "페이컴 소프트웨어",
         "nameEn": "PAYCOM SOFTWARE INC",
         "listedOn": null,
@@ -63460,7 +63493,7 @@ window.TEAM2_DATA = {
       "estimates": {
         "ticker": "PAYC",
         "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
-        "fetchedAt": "2026-11-23",
+        "fetchedAt": "2026-11-24",
         "source": "Yahoo Finance",
         "periods": [
           {
@@ -63621,9 +63654,9 @@ window.TEAM2_DATA = {
           "upgrades": 0,
           "downgrades": 1,
           "initiations": 0,
-          "ptRaised": 13,
+          "ptRaised": 12,
           "ptLowered": 1,
-          "total": 15,
+          "total": 14,
           "recent": [
             {
               "date": "2026-11-06",
@@ -63736,37 +63769,37 @@ window.TEAM2_DATA = {
       "setup": {
         "state": "pre",
         "grade": "C",
-        "asOf": "2026-11-20",
+        "asOf": "2026-11-23",
         "pivot": 275.22,
-        "stop": 265.77,
-        "adrPct": 3.91,
-        "distToPivotPct": -12.2,
-        "distToPivotAdr": -3.12,
-        "riskPerSharePct": 3.43,
-        "extensionAdr": -0.28,
+        "stop": 266.07,
+        "adrPct": 3.76,
+        "distToPivotPct": -11.65,
+        "distToPivotAdr": -3.1,
+        "riskPerSharePct": 3.32,
+        "extensionAdr": -0.19,
         "breakDate": null,
         "metrics": {
-          "baseBars": 26,
-          "baseWeeks": 5.2,
+          "baseBars": 25,
+          "baseWeeks": 5,
           "depthPct": 16.1,
-          "priorMovePct": 101.2,
+          "priorMovePct": 95.6,
           "higherLows": 0,
-          "contraction": 0.68,
-          "closeRange10Adr": 1.9,
-          "surf10": -0.28,
-          "surf20": -1.12,
-          "slope20": -1.86,
+          "contraction": 0.64,
+          "closeRange10Adr": 1.8,
+          "surf10": -0.19,
+          "surf20": -0.85,
+          "slope20": -2.38,
           "baseLow": 230.92,
           "lastSwingLow": 230.92
         },
         "reasons": [
-          "선행 상승 +101%",
-          "베이스 5.2주",
+          "선행 상승 +96%",
+          "베이스 5주",
           "깊이 16.1%",
           "✗ 저점 상승 0회",
-          "진폭 0.68배 · 10일 종가폭 1.9 ADR",
-          "✗ 10일선 -0.3 ADR · 20일선 -1.1 ADR",
-          "✗ 20일선 기울기 -1.86%"
+          "진폭 0.64배 · 10일 종가폭 1.8 ADR",
+          "✗ 10일선 -0.2 ADR · 20일선 -0.9 ADR",
+          "✗ 20일선 기울기 -2.38%"
         ]
       },
       "checks": {
@@ -63774,32 +63807,32 @@ window.TEAM2_DATA = {
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "선행 상승 101% · 기준 30%↑"
+            "evidence": "선행 상승 96% · 기준 30%↑"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 5.2주 · 기준 2~8주"
+            "evidence": "베이스 5주 · 기준 2~8주"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점 상승 0회 · 진폭 0.68배(1 미만이면 좁아짐)"
+            "evidence": "저점 상승 0회 · 진폭 0.64배(1 미만이면 좁아짐)"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 16.1% · ADR 3.91%의 4.1배 · 선행 상승의 절반 51%"
+            "evidence": "베이스 깊이 16.1% · ADR 3.76%의 4.3배 · 선행 상승의 절반 48%"
           },
           {
             "item": "이평선 위",
             "status": "미충족",
-            "evidence": "종가 241.64 · 20일선 252.24 · 50일선 241.32"
+            "evidence": "종가 243.17 · 20일선 250.99 · 50일선 241.73"
           },
           {
             "item": "거래량 마름",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 = 20일 평균의 0.79배 (보통) · 기준 0.7 이하"
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.77배 (보통) · 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
@@ -63809,17 +63842,17 @@ window.TEAM2_DATA = {
           {
             "item": "피벗 거리",
             "status": "미충족",
-            "evidence": "피벗 275.22까지 -12.2% (-3.12 ADR) · 기준 1 ADR 이내"
+            "evidence": "피벗 275.22까지 -11.65% (-3.1 ADR) · 기준 1 ADR 이내"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절 폭 3.43% · ADR 3.91%"
+            "evidence": "예비 손절 폭 3.32% · ADR 3.76%"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 위 -0.3 ADR · 기준 2 ADR 이하"
+            "evidence": "10일선 위 -0.2 ADR · 기준 2 ADR 이하"
           },
           {
             "item": "시장",
@@ -63846,12 +63879,12 @@ window.TEAM2_DATA = {
           {
             "item": "S 수급",
             "status": "미충족",
-            "evidence": "최근 5일 거래량 0.79배(20일 평균 대비) · 오늘 거래대금 0.82배(상승일) · 상장주식 45M주(한국투자증권) · 유통주식은 확인 불가"
+            "evidence": "최근 5일 거래량 0.77배(20일 평균 대비) · 오늘 거래대금 0.82배(상승일) · 상장주식 45M주(한국투자증권) · 유통주식은 확인 불가"
           },
           {
             "item": "L 주도주",
             "status": "충족",
-            "evidence": "상대강도 상위 1M 71.28% · 3M 24.93% · 6M 1.4% · 기준 상위 20%"
+            "evidence": "상대강도 상위 1M 71.25% · 3M 24.86% · 6M 1.4% · 기준 상위 20%"
           },
           {
             "item": "I 기관 보유",
@@ -63886,9 +63919,9 @@ window.TEAM2_DATA = {
           "rs1": 0.24500540473627197,
           "rnk1": 6,
           "rs3": 0.14834330899289327,
-          "rnk3": 32.6,
+          "rnk3": 32.54,
           "rs6": 0.4315371109876737,
-          "rnk6": 14.2,
+          "rnk6": 14.21,
           "adr": 5.66,
           "high52": 89.23,
           "maxRise3m": 32.07,
@@ -63925,7 +63958,7 @@ window.TEAM2_DATA = {
           "ret5d": 4.3,
           "dollarVolM": 64.8,
           "rs1": 0.11416551292136434,
-          "rnk1": 40.62,
+          "rnk1": 40.57,
           "rs3": 0.5518133628736163,
           "rnk3": 0.14,
           "rs6": 1.280792078929694,
@@ -63966,11 +63999,11 @@ window.TEAM2_DATA = {
           "ret5d": -8.2,
           "dollarVolM": 52.8,
           "rs1": 0.1461075541680863,
-          "rnk1": 27.82,
+          "rnk1": 27.75,
           "rs3": 0.0666515816052193,
-          "rnk3": 53.07,
+          "rnk3": 53.02,
           "rs6": 0.1981054413433625,
-          "rnk6": 46.39,
+          "rnk6": 46.44,
           "adr": 4.35,
           "high52": 81.85,
           "maxRise3m": 25.45,
@@ -64068,9 +64101,9 @@ window.TEAM2_DATA = {
           "rs1": 0.4840798913863435,
           "rnk1": 0.14,
           "rs3": 0.2910762216929725,
-          "rnk3": 5.18,
+          "rnk3": 5.19,
           "rs6": 0.2231901306331924,
-          "rnk6": 42.16,
+          "rnk6": 42.19,
           "adr": 5.86,
           "high52": 73.78,
           "maxRise3m": 51.57,
@@ -64109,9 +64142,9 @@ window.TEAM2_DATA = {
           "rs1": 0.4745053697354736,
           "rnk1": 0.23,
           "rs3": 0.2694166884153152,
-          "rnk3": 7.62,
+          "rnk3": 7.63,
           "rs6": -0.24210146462170243,
-          "rnk6": 92.02,
+          "rnk6": 92.01,
           "adr": 6.14,
           "high52": 47.19,
           "maxRise3m": 85.96,
@@ -64193,7 +64226,7 @@ window.TEAM2_DATA = {
           "rs3": 0.508335825351501,
           "rnk3": 0.5,
           "rs6": 0.5223984680708179,
-          "rnk6": 7.71,
+          "rnk6": 7.72,
           "adr": 3.59,
           "high52": 97.79,
           "maxRise3m": 62.86,
@@ -64234,7 +64267,7 @@ window.TEAM2_DATA = {
           "rs3": 0.42636860616897615,
           "rnk3": 0.95,
           "rs6": 0.5063609504058654,
-          "rnk6": 8.52,
+          "rnk6": 8.53,
           "adr": 3.8,
           "high52": 94.17,
           "maxRise3m": 51.32,
@@ -64275,7 +64308,7 @@ window.TEAM2_DATA = {
           "rs3": 0.5363857124710731,
           "rnk3": 0.23,
           "rs6": 0.19132696844433048,
-          "rnk6": 47.39,
+          "rnk6": 47.43,
           "adr": 6.39,
           "high52": 50.48,
           "maxRise3m": 86.9,
@@ -64314,9 +64347,9 @@ window.TEAM2_DATA = {
           "rs1": 0.39486880842228,
           "rnk1": 0.68,
           "rs3": 0.15384143733513972,
-          "rnk3": 30.7,
+          "rnk3": 30.64,
           "rs6": 0.514880218968874,
-          "rnk6": 7.98,
+          "rnk6": 7.99,
           "adr": 6.44,
           "high52": 91.95,
           "maxRise3m": 48.83,
@@ -64355,9 +64388,9 @@ window.TEAM2_DATA = {
           "rs1": 0.36596406799529346,
           "rnk1": 0.77,
           "rs3": 0.18063730212782209,
-          "rnk3": 23.85,
-          "rs6": 0.38209225139846886,
-          "rnk6": 19.34,
+          "rnk3": 23.78,
+          "rs6": 0.38209235617421783,
+          "rnk6": 19.36,
           "adr": 3.55,
           "high52": 84.44,
           "maxRise3m": 42.3,
@@ -64396,9 +64429,9 @@ window.TEAM2_DATA = {
           "rs1": 0.363766109676256,
           "rnk1": 0.86,
           "rs3": 0.0471723073192305,
-          "rnk3": 58.48,
+          "rnk3": 58.44,
           "rs6": -0.09552713942490124,
-          "rnk6": 84.08,
+          "rnk6": 84.07,
           "adr": 5.47,
           "high52": 14.68,
           "maxRise3m": 53.82,
@@ -64478,9 +64511,9 @@ window.TEAM2_DATA = {
           "rs1": 0.3507354631389694,
           "rnk1": 1.04,
           "rs3": 0.2167827450613767,
-          "rnk3": 15.92,
+          "rnk3": 15.93,
           "rs6": 0.3914524293802956,
-          "rnk6": 18.35,
+          "rnk6": 18.37,
           "adr": 2.81,
           "high52": 93.76,
           "maxRise3m": 31.93,
@@ -64517,7 +64550,7 @@ window.TEAM2_DATA = {
           "rs3": 0.3959223222823181,
           "rnk3": 1.58,
           "rs6": 0.41045387411089707,
-          "rnk6": 16.37,
+          "rnk6": 16.38,
           "adr": 3.55,
           "high52": 87.82,
           "maxRise3m": 42.57,
@@ -64556,9 +64589,9 @@ window.TEAM2_DATA = {
           "rs1": 0.3413325986984047,
           "rnk1": 1.22,
           "rs3": 0.08450744268689979,
-          "rnk3": 49.28,
+          "rnk3": 49.23,
           "rs6": 0.42824610586075684,
-          "rnk6": 14.47,
+          "rnk6": 14.49,
           "adr": 6.08,
           "high52": 54.65,
           "maxRise3m": 52.82,
@@ -64599,7 +64632,7 @@ window.TEAM2_DATA = {
           "rs3": 0.2785569399677,
           "rnk3": 6.9,
           "rs6": 0.35609378486470955,
-          "rnk6": 21.96,
+          "rnk6": 21.98,
           "adr": 3.76,
           "high52": 89.83,
           "maxRise3m": 37.19,
@@ -64638,9 +64671,9 @@ window.TEAM2_DATA = {
           "rs1": 0.3341472826662303,
           "rnk1": 1.4,
           "rs3": -0.07352835678322805,
-          "rnk3": 80.39,
+          "rnk3": 80.37,
           "rs6": 0.12903013718302322,
-          "rnk6": 59.56,
+          "rnk6": 59.61,
           "adr": 6.12,
           "high52": 68.76,
           "maxRise3m": 59.62,
@@ -64679,9 +64712,9 @@ window.TEAM2_DATA = {
           "rs1": 0.3320107030999082,
           "rnk1": 1.49,
           "rs3": 0.11906137498370159,
-          "rnk3": 40.17,
+          "rnk3": 40.12,
           "rs6": 0.2257755055401809,
-          "rnk6": 41.25,
+          "rnk6": 41.29,
           "adr": 4.41,
           "high52": 73.95,
           "maxRise3m": 32.78,
@@ -64720,7 +64753,7 @@ window.TEAM2_DATA = {
           "rs1": 0.33159883366206994,
           "rnk1": 1.58,
           "rs3": 0.14779046215070382,
-          "rnk3": 32.78,
+          "rnk3": 32.72,
           "rs6": 0.917557005965697,
           "rnk6": 1.13,
           "adr": 6.42,
@@ -64839,9 +64872,9 @@ window.TEAM2_DATA = {
           "rs1": 0.32387329852561497,
           "rnk1": 1.85,
           "rs3": -0.02792913288853341,
-          "rnk3": 73.53,
+          "rnk3": 73.51,
           "rs6": 0.34690786292488585,
-          "rnk6": 23.22,
+          "rnk6": 23.24,
           "adr": 6.31,
           "high52": 76.5,
           "maxRise3m": 55.28,
@@ -64876,9 +64909,9 @@ window.TEAM2_DATA = {
           "rs1": 0.3214651622178511,
           "rnk1": 1.94,
           "rs3": 0.02327276964485664,
-          "rnk3": 63.62,
+          "rnk3": 63.58,
           "rs6": 0.10054146007527433,
-          "rnk6": 63.62,
+          "rnk6": 63.67,
           "adr": 5.53,
           "high52": 50.66,
           "maxRise3m": 58.94,
@@ -65007,7 +65040,7 @@ window.TEAM2_DATA = {
           "ret5d": 4.3,
           "dollarVolM": 64.8,
           "rs1": 0.11416551292136434,
-          "rnk1": 40.62,
+          "rnk1": 40.57,
           "rs3": 0.5518133628736163,
           "rnk3": 0.14,
           "rs6": 1.280792078929694,
@@ -65052,7 +65085,7 @@ window.TEAM2_DATA = {
           "rs3": 0.5363857124710731,
           "rnk3": 0.23,
           "rs6": 0.19132696844433048,
-          "rnk6": 47.39,
+          "rnk6": 47.43,
           "adr": 6.39,
           "high52": 50.48,
           "maxRise3m": 86.9,
@@ -65089,7 +65122,7 @@ window.TEAM2_DATA = {
           "ret5d": -12.7,
           "dollarVolM": 1884,
           "rs1": 0.11072794513761336,
-          "rnk1": 42.25,
+          "rnk1": 42.19,
           "rs3": 0.5211852466887061,
           "rnk3": 0.32,
           "rs6": 3.455379406534061,
@@ -65130,7 +65163,7 @@ window.TEAM2_DATA = {
           "ret5d": -6.07,
           "dollarVolM": 209.7,
           "rs1": 0.2609125192575554,
-          "rnk1": 4.55,
+          "rnk1": 4.56,
           "rs3": 0.5142242589337657,
           "rnk3": 0.41,
           "rs6": 0.6672636255912214,
@@ -65175,7 +65208,7 @@ window.TEAM2_DATA = {
           "rs3": 0.508335825351501,
           "rnk3": 0.5,
           "rs6": 0.5223984680708179,
-          "rnk6": 7.71,
+          "rnk6": 7.72,
           "adr": 3.59,
           "high52": 97.79,
           "maxRise3m": 62.86,
@@ -65212,7 +65245,7 @@ window.TEAM2_DATA = {
           "ret5d": 13.16,
           "dollarVolM": 0.2,
           "rs1": 0.27167441926043917,
-          "rnk1": 3.65,
+          "rnk1": 3.66,
           "rs3": 0.5082396967921599,
           "rnk3": 0.59,
           "rs6": 0.9872708694850753,
@@ -65331,7 +65364,7 @@ window.TEAM2_DATA = {
           "ret5d": 3.02,
           "dollarVolM": 22,
           "rs1": 0.18879655814855628,
-          "rnk1": 14.74,
+          "rnk1": 14.76,
           "rs3": 0.42684857743084914,
           "rnk3": 0.86,
           "rs6": 0.7151842410331598,
@@ -65376,7 +65409,7 @@ window.TEAM2_DATA = {
           "rs3": 0.42636860616897615,
           "rnk3": 0.95,
           "rs6": 0.5063609504058654,
-          "rnk6": 8.52,
+          "rnk6": 8.53,
           "adr": 3.8,
           "high52": 94.17,
           "maxRise3m": 51.32,
@@ -65454,11 +65487,11 @@ window.TEAM2_DATA = {
           "ret5d": -4.96,
           "dollarVolM": 132.8,
           "rs1": 0.16289097570911013,
-          "rnk1": 22.59,
+          "rnk1": 22.61,
           "rs3": 0.41475633669403783,
           "rnk3": 1.13,
           "rs6": 0.3192151812041749,
-          "rnk6": 26.19,
+          "rnk6": 26.22,
           "adr": 4.43,
           "high52": 71.3,
           "maxRise3m": 42.33,
@@ -65539,8 +65572,8 @@ window.TEAM2_DATA = {
           "rnk1": 5.73,
           "rs3": 0.4035872164692704,
           "rnk3": 1.31,
-          "rs6": 0.12011375380809451,
-          "rnk6": 61,
+          "rs6": 0.12011366242225581,
+          "rnk6": 61.06,
           "adr": 2.93,
           "high52": 84.59,
           "maxRise3m": 34.01,
@@ -65577,11 +65610,11 @@ window.TEAM2_DATA = {
           "ret5d": -0.11,
           "dollarVolM": 5454.7,
           "rs1": 0.2034435038144199,
-          "rnk1": 11.32,
+          "rnk1": 11.33,
           "rs3": 0.40206362083338,
           "rnk3": 1.4,
           "rs6": 0.317220699278295,
-          "rnk6": 26.56,
+          "rnk6": 26.58,
           "adr": 2.09,
           "high52": 94.89,
           "maxRise3m": 28.6,
@@ -65618,7 +65651,7 @@ window.TEAM2_DATA = {
           "ret5d": -4.89,
           "dollarVolM": 13.2,
           "rs1": 0.04333486879536412,
-          "rnk1": 64.43,
+          "rnk1": 64.4,
           "rs3": 0.4020408900880788,
           "rnk3": 1.49,
           "rs6": 0.5444751532960125,
@@ -65663,7 +65696,7 @@ window.TEAM2_DATA = {
           "rs3": 0.3959223222823181,
           "rnk3": 1.58,
           "rs6": 0.41045387411089707,
-          "rnk6": 16.37,
+          "rnk6": 16.38,
           "adr": 3.55,
           "high52": 87.82,
           "maxRise3m": 42.57,
@@ -65700,7 +65733,7 @@ window.TEAM2_DATA = {
           "ret5d": -0.46,
           "dollarVolM": 477.7,
           "rs1": 0.1429231932120766,
-          "rnk1": 28.81,
+          "rnk1": 28.75,
           "rs3": 0.3827822007373196,
           "rnk3": 1.67,
           "rs6": 0.5534733003661264,
@@ -65741,7 +65774,7 @@ window.TEAM2_DATA = {
           "ret5d": -3.24,
           "dollarVolM": 20.1,
           "rs1": 0.22483048782009946,
-          "rnk1": 8.25,
+          "rnk1": 8.26,
           "rs3": 0.3737478869736446,
           "rnk3": 1.76,
           "rs6": 0.7339609869778864,
@@ -65782,11 +65815,11 @@ window.TEAM2_DATA = {
           "ret5d": -13.85,
           "dollarVolM": 127.2,
           "rs1": -0.025843121849070838,
-          "rnk1": 81.56,
+          "rnk1": 81.54,
           "rs3": 0.35873402633868107,
           "rnk3": 1.85,
           "rs6": 0.30634184068047077,
-          "rnk6": 27.73,
+          "rnk6": 27.75,
           "adr": 4.46,
           "high52": 75.96,
           "maxRise3m": 62.06,
@@ -65823,7 +65856,7 @@ window.TEAM2_DATA = {
           "ret5d": -14.36,
           "dollarVolM": 75.2,
           "rs1": -0.11501073847579157,
-          "rnk1": 91.57,
+          "rnk1": 91.56,
           "rs3": 0.3583824323657042,
           "rnk3": 1.94,
           "rs6": 0.839739598002877,
@@ -65952,7 +65985,7 @@ window.TEAM2_DATA = {
           "ret5d": -12.7,
           "dollarVolM": 1884,
           "rs1": 0.11072794513761336,
-          "rnk1": 42.25,
+          "rnk1": 42.19,
           "rs3": 0.5211852466887061,
           "rnk3": 0.32,
           "rs6": 3.455379406534061,
@@ -66058,7 +66091,7 @@ window.TEAM2_DATA = {
           "ret5d": 4.3,
           "dollarVolM": 64.8,
           "rs1": 0.11416551292136434,
-          "rnk1": 40.62,
+          "rnk1": 40.57,
           "rs3": 0.5518133628736163,
           "rnk3": 0.14,
           "rs6": 1.280792078929694,
@@ -66140,9 +66173,9 @@ window.TEAM2_DATA = {
           "ret5d": -12.3,
           "dollarVolM": 194.6,
           "rs1": 0.04194004877232374,
-          "rnk1": 64.88,
+          "rnk1": 64.85,
           "rs3": 0.12992124495367818,
-          "rnk3": 37.47,
+          "rnk3": 37.41,
           "rs6": 1.1733847649578348,
           "rnk6": 0.5,
           "adr": 5.08,
@@ -66181,9 +66214,9 @@ window.TEAM2_DATA = {
           "ret5d": -2.26,
           "dollarVolM": 46,
           "rs1": 0.15013811956558262,
-          "rnk1": 27.19,
+          "rnk1": 27.12,
           "rs3": 0.2997331165935857,
-          "rnk3": 4.37,
+          "rnk3": 4.38,
           "rs6": 0.9932679383423371,
           "rnk6": 0.59,
           "adr": 3.55,
@@ -66222,9 +66255,9 @@ window.TEAM2_DATA = {
           "ret5d": -8.33,
           "dollarVolM": 174.5,
           "rs1": 0.08474466060527244,
-          "rnk1": 51.89,
+          "rnk1": 51.85,
           "rs3": 0.2946090008234453,
-          "rnk3": 4.82,
+          "rnk3": 4.83,
           "rs6": 0.9916349492184332,
           "rnk6": 0.68,
           "adr": 5.27,
@@ -66263,9 +66296,9 @@ window.TEAM2_DATA = {
           "ret5d": -7.36,
           "dollarVolM": 173.2,
           "rs1": 0.021339038743670102,
-          "rnk1": 70.47,
+          "rnk1": 70.44,
           "rs3": 0.10162998984274464,
-          "rnk3": 44.41,
+          "rnk3": 44.36,
           "rs6": 0.987338413545644,
           "rnk6": 0.77,
           "adr": 4.82,
@@ -66304,7 +66337,7 @@ window.TEAM2_DATA = {
           "ret5d": 13.16,
           "dollarVolM": 0.2,
           "rs1": 0.27167441926043917,
-          "rnk1": 3.65,
+          "rnk1": 3.66,
           "rs3": 0.5082396967921599,
           "rnk3": 0.59,
           "rs6": 0.9872708694850753,
@@ -66341,9 +66374,9 @@ window.TEAM2_DATA = {
           "ret5d": -7,
           "dollarVolM": 362.8,
           "rs1": 0.0463116836420379,
-          "rnk1": 63.53,
+          "rnk1": 63.49,
           "rs3": 0.21577520359346758,
-          "rnk3": 16.19,
+          "rnk3": 16.2,
           "rs6": 0.9810837498672205,
           "rnk6": 0.95,
           "adr": 4.82,
@@ -66382,9 +66415,9 @@ window.TEAM2_DATA = {
           "ret5d": -6.07,
           "dollarVolM": 348,
           "rs1": 0.219013856871087,
-          "rnk1": 8.79,
+          "rnk1": 8.8,
           "rs3": 0.25791356621551287,
-          "rnk3": 8.88,
+          "rnk3": 8.89,
           "rs6": 0.9217712033649313,
           "rnk6": 1.04,
           "adr": 4.05,
@@ -66425,7 +66458,7 @@ window.TEAM2_DATA = {
           "rs1": 0.33159883366206994,
           "rnk1": 1.58,
           "rs3": 0.14779046215070382,
-          "rnk3": 32.78,
+          "rnk3": 32.72,
           "rs6": 0.917557005965697,
           "rnk6": 1.13,
           "adr": 6.42,
@@ -66462,7 +66495,7 @@ window.TEAM2_DATA = {
           "rs1": -0.13981555803636103,
           "rnk1": 94.36,
           "rs3": -0.045881479671825764,
-          "rnk3": 76.96,
+          "rnk3": 76.94,
           "rs6": 0.8695584399154027,
           "rnk6": 1.22,
           "adr": 9.17,
@@ -66484,10 +66517,10 @@ window.TEAM2_DATA = {
           "ret5d": -1.06,
           "dollarVolM": 186.7,
           "rs1": 0.13504008271361734,
-          "rnk1": 31.33,
+          "rnk1": 31.27,
           "rs3": 0.13857178163452788,
-          "rnk3": 34.76,
-          "rs6": 0.865793249080605,
+          "rnk3": 34.7,
+          "rs6": 0.8657930488980452,
           "rnk6": 1.31,
           "adr": 5.1,
           "high52": 89.38,
@@ -66525,9 +66558,9 @@ window.TEAM2_DATA = {
           "ret5d": -2.9,
           "dollarVolM": 158.4,
           "rs1": 0.01621815418242055,
-          "rnk1": 71.28,
+          "rnk1": 71.25,
           "rs3": 0.17475816305884512,
-          "rnk3": 24.93,
+          "rnk3": 24.86,
           "rs6": 0.8609382839474874,
           "rnk6": 1.4,
           "adr": 3.91,
@@ -66566,7 +66599,7 @@ window.TEAM2_DATA = {
           "ret5d": -14.36,
           "dollarVolM": 75.2,
           "rs1": -0.11501073847579157,
-          "rnk1": 91.57,
+          "rnk1": 91.56,
           "rs3": 0.3583824323657042,
           "rnk3": 1.94,
           "rs6": 0.839739598002877,
@@ -66607,9 +66640,9 @@ window.TEAM2_DATA = {
           "ret5d": 7.51,
           "dollarVolM": 143.3,
           "rs1": -0.005824451334968395,
-          "rnk1": 77.5,
+          "rnk1": 77.48,
           "rs3": 0.141194442179177,
-          "rnk3": 34.13,
+          "rnk3": 34.07,
           "rs6": 0.822028506141084,
           "rnk6": 1.58,
           "adr": 7.34,
@@ -66648,9 +66681,9 @@ window.TEAM2_DATA = {
           "ret5d": -9.61,
           "dollarVolM": 147.4,
           "rs1": 0.1772950013192681,
-          "rnk1": 18.08,
+          "rnk1": 18.1,
           "rs3": 0.11443051525431738,
-          "rnk3": 41.34,
+          "rnk3": 41.29,
           "rs6": 0.8002892786431995,
           "rnk6": 1.67,
           "adr": 5.99,
@@ -66689,9 +66722,9 @@ window.TEAM2_DATA = {
           "ret5d": 1.51,
           "dollarVolM": 34.9,
           "rs1": 0.016229562908893144,
-          "rnk1": 71.19,
+          "rnk1": 71.16,
           "rs3": 0.23280945737759534,
-          "rnk3": 13.03,
+          "rnk3": 13.04,
           "rs6": 0.7981383726612706,
           "rnk6": 1.76,
           "adr": 4.31,
@@ -66730,9 +66763,9 @@ window.TEAM2_DATA = {
           "ret5d": -7.99,
           "dollarVolM": 185.5,
           "rs1": 0.11662123039082228,
-          "rnk1": 39.45,
+          "rnk1": 39.4,
           "rs3": 0.13832132612870182,
-          "rnk3": 34.94,
+          "rnk3": 34.88,
           "rs6": 0.7915522127222869,
           "rnk6": 1.85,
           "adr": 4.2,

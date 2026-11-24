@@ -1,74 +1,52 @@
 window.CHIEF_DATA = {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "market": {
     "verdict": "red",
-    "ko": "🔴 10일선이 20일선 아래 24일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+    "ko": "🔴 10일선이 20일선 아래 25일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
     "finra": "normal",
     "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위"
   },
   "counts": {
-    "universe": 1109,
+    "universe": 1108,
     "picks": 28,
     "tracking": {
-      "active": 47,
+      "active": 46,
       "dormant": 0,
-      "excluded": 151,
+      "excluded": 152,
       "total": 198,
       "unevaluated": [
         "HPE-C"
       ],
-      "reentryBlocked": 7
+      "reentryBlocked": 5
     },
-    "breakouts": 2,
+    "breakouts": 3,
     "epCandidates": 17,
-    "chartCheck": 9,
-    "chartCheckShown": 9,
+    "chartCheck": 12,
+    "chartCheckShown": 10,
     "plans": {
       "evaluated": 59,
-      "near": 4,
+      "near": 6,
       "watch": 0,
       "A": 0,
       "B": 0,
-      "blocked": 4,
-      "post": 4,
-      "far": 45,
-      "noBase": 5,
+      "blocked": 6,
+      "post": 3,
+      "far": 42,
+      "noBase": 7,
       "noBars": 1
     }
   },
   "theme": "Biotechnology 6종목(21.4%) · Medical Devices 3종목(10.7%)",
   "chartCheck": [
     {
-      "ticker": "MANH",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.66배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.59배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $247.22 바로 아래(-1.71%)",
-        "최근 2주 종가가 2.25% 안에서만 움직였다",
-        "1년 최고가의 92.23% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 247.22,
-      "price": 243,
-      "barGap": false
-    },
-    {
       "ticker": "KNSA",
       "score": 8,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.51배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.49배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $98.48 바로 아래(-4.66%)",
-        "최근 2주 종가가 1.58% 안에서만 움직였다",
+        "최근 2주 가격 흔들림이 그 전 2주의 0.52배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.58배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $99.31 바로 아래(-0.62%)",
+        "최근 2주 종가가 1.56% 안에서만 움직였다",
         "1년 최고가의 94.55% 자리"
       ],
       "flags": [
@@ -78,8 +56,30 @@ window.CHIEF_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 98.48,
-      "price": 93.89,
+      "resistance": 99.31,
+      "price": 98.69,
+      "barGap": false
+    },
+    {
+      "ticker": "GKOS",
+      "score": 8,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.54배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.48배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $255.18 바로 아래(-2.19%)",
+        "최근 2주 종가가 2.28% 안에서만 움직였다",
+        "1년 최고가의 93% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "volDry",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 255.18,
+      "price": 249.59,
       "barGap": false
     },
     {
@@ -87,10 +87,10 @@ window.CHIEF_DATA = {
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.61배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.39배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $174.26 바로 아래(-1.18%)",
-        "최근 2주 종가가 1.96% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.55배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.4배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $172.9 바로 아래(-0.54%)",
+        "최근 2주 종가가 1.42% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
@@ -98,48 +98,48 @@ window.CHIEF_DATA = {
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 174.26,
-      "price": 172.21,
+      "resistance": 172.9,
+      "price": 171.97,
       "barGap": false
     },
     {
-      "ticker": "BMI",
+      "ticker": "PVLA",
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.62배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.6배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $155.18 바로 아래(-0.59%)",
-        "최근 2주 종가가 1.55% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.7배로 줄었다",
+        "최근 1주는 더 조용하다(그 전 1주의 0.52배)",
+        "최근 1주 거래량이 한 달 평균의 0.56배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $151.18 바로 아래(-2.88%)"
       ],
       "flags": [
         "contract10",
+        "contract5",
         "volDry",
-        "nearResist",
-        "tightCloses"
+        "nearResist"
       ],
-      "resistance": 155.18,
-      "price": 154.27,
+      "resistance": 151.18,
+      "price": 146.82,
       "barGap": false
     },
     {
-      "ticker": "GKOS",
+      "ticker": "MANH",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.59배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.47배로 줄었다(팔 사람이 줄어듦)",
-        "최근 2주 종가가 2.04% 안에서만 움직였다",
-        "1년 최고가의 93% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.63배로 줄었다",
+        "넘어야 할 선 $247.22 바로 아래(-0.9%)",
+        "최근 2주 종가가 2.46% 안에서만 움직였다",
+        "1년 최고가의 92.23% 자리"
       ],
       "flags": [
         "contract10",
-        "volDry",
+        "nearResist",
         "tightCloses",
         "high52"
       ],
-      "resistance": 255.18,
-      "price": 237.31,
+      "resistance": 247.22,
+      "price": 245,
       "barGap": false
     },
     {
@@ -147,9 +147,9 @@ window.CHIEF_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.72배로 줄었다",
-        "넘어야 할 선 $371.18 바로 아래(-3.63%)",
-        "최근 2주 종가가 2.24% 안에서만 움직였다",
+        "최근 2주 가격 흔들림이 그 전 2주의 0.73배로 줄었다",
+        "넘어야 할 선 $371.18 바로 아래(-4.45%)",
+        "최근 2주 종가가 2.16% 안에서만 움직였다",
         "1년 최고가의 94.19% 자리"
       ],
       "flags": [
@@ -159,7 +159,7 @@ window.CHIEF_DATA = {
         "high52"
       ],
       "resistance": 371.18,
-      "price": 357.71,
+      "price": 354.67,
       "barGap": false
     },
     {
@@ -167,9 +167,9 @@ window.CHIEF_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.68배로 줄었다",
-        "넘어야 할 선 $244.98 바로 아래(-1.36%)",
-        "최근 2주 종가가 2.34% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.64배로 줄었다",
+        "넘어야 할 선 $244.98 바로 아래(-0.74%)",
+        "최근 2주 종가가 2.07% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
@@ -177,7 +177,7 @@ window.CHIEF_DATA = {
         "tightCloses"
       ],
       "resistance": 244.98,
-      "price": 241.64,
+      "price": 243.17,
       "barGap": false
     },
     {
@@ -186,8 +186,8 @@ window.CHIEF_DATA = {
       "source": "T3",
       "reasons": [
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.02, 최저 0.02)",
-        "넘어야 할 선 $118.72 바로 아래(-2.51%)",
-        "최근 2주 종가가 0.59% 안에서만 움직였다"
+        "넘어야 할 선 $118.72 바로 아래(-1.44%)",
+        "최근 2주 종가가 0.6% 안에서만 움직였다"
       ],
       "flags": [
         "bbSqueeze",
@@ -195,7 +195,7 @@ window.CHIEF_DATA = {
         "tightCloses"
       ],
       "resistance": 118.72,
-      "price": 115.74,
+      "price": 117.01,
       "barGap": false
     },
     {
@@ -203,24 +203,49 @@ window.CHIEF_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.47배)",
-        "최근 1주 거래량이 한 달 평균의 0.6배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $122 바로 아래(-2.03%)"
+        "최근 1주는 더 조용하다(그 전 1주의 0.57배)",
+        "최근 1주 거래량이 한 달 평균의 0.59배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $129.8 바로 아래(-0.96%)"
       ],
       "flags": [
         "contract5",
         "volDry",
         "nearResist"
       ],
-      "resistance": 122,
-      "price": 119.52,
+      "resistance": 129.8,
+      "price": 128.56,
+      "barGap": false
+    },
+    {
+      "ticker": "ICLR",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "최근 1주 거래량이 한 달 평균의 0.63배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $197.05 바로 아래(-0.81%)",
+        "최근 2주 종가가 2.68% 안에서만 움직였다"
+      ],
+      "flags": [
+        "volDry",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 197.05,
+      "price": 195.45,
       "barGap": false
     }
   ],
-  "chartCheckTotal": 9,
-  "barsNotice": null,
+  "chartCheckTotal": 12,
+  "barsNotice": {
+    "level": "warn",
+    "qqqLastBar": "2026-11-23",
+    "expectedSession": "2026-11-20",
+    "qqqMissing": [],
+    "gappedTickers": [],
+    "ko": "⚠️ 야후 일봉 품질 경고 — RS 사이트 가격이 하루 전 종가인 종목 88/91개 — 등락률·RS·거래량 배수가 하루 밀린 값입니다. 데드크로스 날짜·50일선 연속 이탈일수·돌파 거래량 판정이 하루씩 어긋날 수 있습니다. 이 경고가 사라진 실행의 판정을 기준으로 삼으세요."
+  },
   "sessionDate": "2026-11-20",
-  "sessionMismatch": false,
+  "sessionMismatch": true,
   "stale": false,
   "llm": {
     "status": "done",
