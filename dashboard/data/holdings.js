@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-24T13:00:11.571Z",
+  "updated": "2026-11-24T22:10:03.346Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "한화증권 신승윤",
           "ko": "팔란티어 매출이 95.9% 늘며 시장 예상을 웃돌았다",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 매출이 95.9% 늘며 시장 예상을 웃돌았다",
           "easy": "증권사 리포트에 따르면 팔란티어의 매출은 23.1억 달러로 전년 대비 95.9% 늘었고, 컨센서스 21.7억 달러를 넘었습니다. 조정 EPS도 0.44달러로 컨센서스 0.41달러보다 높았습니다. 상업 부문은 11.7억 달러, 정부 부문은 11.5억 달러였고, 4분기 매출 가이던스 중간값은 26.5억 달러입니다.",
           "whyMatters": "보유 중이라면 실적과 가이던스가 모두 기대를 웃돈 소식이라 우호적입니다. 다만 주가 반응은 기대 수준과 밸류에이션에 따라 달라질 수 있습니다.",
@@ -109,21 +109,6 @@ window.HOLDINGS_DATA = {
           "headline": "팔란티어 CEO 발언이 정치 논란으로 번졌다",
           "easy": "팔란티어 공동창업자 겸 CEO 알렉스 카프가 Politico 인터뷰에서 평생 민주당원이었다고 말했고, 일부 관찰자와 투자자가 팔란티어가 '워크(woke)'해진 것 아니냐고 받아들였다. 기사 제목은 이 정치 논란이 더 큰 이야기를 가리고 있다고 말하지만, 제공된 요약에는 그 '더 큰 이야기'가 무엇인지 나오지 않았다.",
           "whyMatters": "CEO 발언이 투자자 사이에서 정치적 해석을 낳고 있다는 점은 알 수 있지만, 실적에 미칠 영향은 기사 요약만으로는 알 수 없다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "news",
-          "title": "Is Palantir Overvalued, or Is It Still a Buy at This Price?",
-          "url": "https://www.nasdaq.com/articles/palantir-overvalued-or-it-still-buy-price",
-          "date": "2026-11-18",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어 고평가인지 아직 매수 구간인지 따져보는 기사",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어 고평가인지 아직 매수 구간인지 따져보는 기사",
-          "easy": "기사 제목은 팔란티어가 고평가인지, 지금 가격에도 살 만한지를 묻는다. 요약에는 팔란티어 서비스가 고객의 생산성을 높였고 이것이 주가 상승을 뒷받침한 것으로 보인다고 나온다. 본문은 제공되지 않아 구체적인 수치나 결론은 기사에 안 나왔다.",
-          "whyMatters": "주가가 올라야 이익인 보유자에게는 상승 배경으로 고객 생산성 향상이 거론된다는 정도만 확인된다. 고평가 여부에 대한 결론은 확인되지 않았다.",
           "quote": null,
           "read": false
         },
