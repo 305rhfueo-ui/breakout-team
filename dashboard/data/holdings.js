@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-23T22:10:07.080Z",
+  "updated": "2026-11-24T13:00:11.571Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -10,15 +10,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
-          "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegi.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegk.pdf",
           "date": "2026-11-23",
           "publisher": "한화증권 신승윤",
-          "ko": "팔란티어 분기 매출이 컨센서스를 웃돌며 95.9% 증가",
+          "ko": "팔란티어 매출이 95.9% 늘며 시장 예상을 웃돌았다",
           "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어 분기 매출이 컨센서스를 웃돌며 95.9% 증가",
-          "easy": "증권사 리포트에 따르면 팔란티어 매출은 23.1억 달러로 전년 대비 95.9% 늘었고 컨센서스 21.7억 달러를 넘었다. 조정 EPS도 0.44달러로 컨센서스 0.41달러보다 높았다. 가이던스는 4분기 매출 중간값 26.5억 달러, 2026년 연간 매출 85.3억 달러다.",
-          "whyMatters": "보유 중이라면 실적이 시장 예상을 웃돌고 가이던스도 제시된 점은 주가에 유리한 재료다. 다만 주가 반응은 기사에 나오지 않았다.",
+          "isNew": true,
+          "headline": "팔란티어 매출이 95.9% 늘며 시장 예상을 웃돌았다",
+          "easy": "증권사 리포트에 따르면 팔란티어의 매출은 23.1억 달러로 전년 대비 95.9% 늘었고, 컨센서스 21.7억 달러를 넘었습니다. 조정 EPS도 0.44달러로 컨센서스 0.41달러보다 높았습니다. 상업 부문은 11.7억 달러, 정부 부문은 11.5억 달러였고, 4분기 매출 가이던스 중간값은 26.5억 달러입니다.",
+          "whyMatters": "보유 중이라면 실적과 가이던스가 모두 기대를 웃돈 소식이라 우호적입니다. 다만 주가 반응은 기대 수준과 밸류에이션에 따라 달라질 수 있습니다.",
           "quote": null,
           "read": false
         },
@@ -130,15 +130,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
-          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegi.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegk.pdf",
           "date": "2026-11-12",
           "publisher": "신한투자증권 심지현",
-          "ko": "팔란티어는 AI 에이전트와 경쟁 아닌 보완 관계라는 평가",
+          "ko": "팔란티어는 AI 에이전트와 경쟁이 아닌 보완 관계라는 평가",
           "tone": "good",
           "isNew": false,
-          "headline": "팔란티어는 AI 에이전트와 경쟁 아닌 보완 관계라는 평가",
-          "easy": "리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 보완하는 관계라고 본다. 소버린 AI 수요가 미국 민간에도 퍼지고, 파일럿에서 실제 도입까지 걸리는 기간이 짧아졌다는 점을 연간 가이던스 상향의 근거로 들었다. 3분기 실적이 강했다는 점도 근거다.",
-          "whyMatters": "보유 중이라면 AI 에이전트가 팔란티어를 대체할 수 있다는 우려를 덜어 주는 시각이다. 다만 증권사 한 곳의 해석이다.",
+          "headline": "팔란티어는 AI 에이전트와 경쟁이 아닌 보완 관계라는 평가",
+          "easy": "증권사 리포트는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 보완하는 관계라고 봅니다. 소버린 AI 수요가 미국 민간으로 번지고, 파일럿에서 생산 단계로 넘어가는 기간이 짧아졌다는 점을 연간 가이던스 상향의 근거로 들었습니다. 3분기 실적이 강했다는 점도 근거로 제시했습니다.",
+          "whyMatters": "보유 중이라면 AI 확산이 팔란티어의 사업 기반을 위협하지 않는다는 긍정적 시각입니다. 다만 증권사의 해석이어서 실제 성과는 이후 실적으로 확인해야 합니다.",
           "quote": null,
           "read": false
         }
