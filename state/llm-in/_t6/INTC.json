@@ -1,0 +1,877 @@
+{
+ "ticker": "INTC",
+ "date": "2026-11-25",
+ "session": "2026-11-23",
+ "source": "list",
+ "plan": {
+  "ticker": "INTC",
+  "name": "인텔",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 59.65999984741211,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 126,
+  "stop": 122.44,
+  "distToPivotPct": -56.51,
+  "distToPivotAdr": -8.7,
+  "riskPerSharePct": 2.82,
+  "adrPct": 6.49,
+  "extensionAdr": -0.62,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 59.4,
+   "priorMovePct": 54.1,
+   "higherLows": 0,
+   "contraction": 0.9,
+   "closeRange10Adr": 3.2,
+   "surf10": -0.62,
+   "surf20": -1.86,
+   "slope20": -12.38,
+   "baseLow": 51.1,
+   "lastSwingLow": 51.51
+  },
+  "reasons": [
+   "선행 상승 +54%",
+   "베이스 7.8주",
+   "✗ 깊이 59.4%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.9배 · 10일 종가폭 3.2 ADR",
+   "✗ 10일선 -0.6 ADR · 20일선 -1.9 ADR",
+   "✗ 20일선 기울기 -12.38%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.25466612084093443,
+    "pct": 1.2184115523465704
+   },
+   "m3": {
+    "v": -0.2428452694719072,
+    "pct": 5.009025270758123
+   },
+   "m6": {
+    "v": -0.347344262813593,
+    "pct": 4.106498194945848
+   }
+  },
+  "ret1m": -34.06,
+  "ret3m": -33.32,
+  "ret6m": -47.07,
+  "marketCap": "272.55B",
+  "volx": 1.01,
+  "volSurgeWk": 1.3,
+  "high52": 41.91,
+  "newHigh52": false,
+  "adr": 6.29,
+  "div50": -33.32,
+  "div200": -31.89,
+  "targetStatus": false,
+  "saleCy": 16.82,
+  "saleNy": 11.97,
+  "epsCy": 253.96,
+  "epsNy": 20.44,
+  "cyTrend": -2.67,
+  "nyTrend": -15.55,
+  "est": {
+   "cyCur": 1.48664,
+   "cy30": 1.52739,
+   "nyCur": 1.79046,
+   "ny30": 2.12012
+  },
+  "fs": {
+   "sale": [
+    25.42,
+    7.18,
+    -4.11
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    11.14,
+    -23.1,
+    4.24
+   ],
+   "updated": "2026-09-08 08:00:29"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-25",
+  "nameKo": "인텔",
+  "nameEn": "INTEL CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-26",
+     "derived": false,
+     "revenue": 16513000000,
+     "profit": 2522000000,
+     "netIncome": 3320000000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 20.9,
+      "profit": 269.3,
+      "netIncome": -18.3,
+      "priorEnd": "2025-09-27"
+     }
+    },
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 16128000000,
+     "profit": 1796000000,
+     "netIncome": -11033000000,
+     "margin": 11.1,
+     "yoy": {
+      "revenue": 25.4,
+      "profit": 156.5,
+      "netIncome": -278.1,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 13577000000,
+     "profit": -3136000000,
+     "netIncome": -3728000000,
+     "margin": -23.1,
+     "yoy": {
+      "revenue": 7.2,
+      "profit": -941.9,
+      "netIncome": -354.1,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 13674000000,
+     "profit": 580000000,
+     "netIncome": -591000000,
+     "margin": 4.2,
+     "yoy": {
+      "revenue": -4.1,
+      "profit": 40.8,
+      "netIncome": -369,
+      "priorEnd": "2024-12-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Intel Stock Fell Today",
+     "url": "https://www.nasdaq.com/articles/why-intel-stock-fell-today-0",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Applied Materials vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/applied-materials-vs-intel-which-technology-stock-better-buy-2027",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Should You Buy Intel as Earnings Recover Despite a Premium Valuation?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-intel-earnings-recover-despite-premium-valuation",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Intel Turn Its Microsoft Cloud Deal Into a Bigger Packaging Win?",
+     "url": "https://www.nasdaq.com/articles/can-intel-turn-its-microsoft-cloud-deal-bigger-packaging-win",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Intel a Buy After Its 14.1% Drop in 1 Week as Recovery Risks Mount?",
+     "url": "https://www.nasdaq.com/articles/intel-buy-after-its-141-drop-1-week-recovery-risks-mount",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Intel Corporation (INTC) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/intel-corporation-intc-attracting-investor-attention-here-what-you-should-know-0",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Intel Gains From Strong Operating Margin Growth: Will it Last?",
+     "url": "https://www.nasdaq.com/articles/intel-gains-strong-operating-margin-growth-will-it-last",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/intc-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/intc-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000118/intc-20260513.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526197845/d143782d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000083/intc-20260424.htm"
+   }
+  ],
+  "krReports": {
+   "total": 20,
+   "reports": [
+    {
+     "date": "2026-10-30",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[인텔 (NAS:INTC)] Earnings Flash",
+     "summary": "- 매출액 165.1억 달러(YoY +20.9%)로 예상치 0.2% 하회. 영업이익 32.3억 달러(YoY +111.2%), 조정 EPS 0.52달러 (YoY +126.1%)로 각각 예상치 11.2%, 22.9% 상회- 파운드리 부문 영업손실 19억 달러로 전분기 대비 2.4억 달러 축소. 수율·가동률 개선에 따른 웨이퍼 원가 하락이 원인- PC 수요 부진과 이스라엘 공장 사고에 따른 공급 차질, CPU 출하량 확대 제한 소식에 시간 외 23% 하락",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiikxeiczlgqigcgxeegz.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-10-30",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[인텔 (NAS:INTC)] 시장의 시선은 현금흐름으로",
+     "summary": "- 인텔의 3분기 실적은 매출 165.1억달러(+20.9% yoy), GPM 44.1%, EPS 0.52달러로 컨센서스를 상회. AI 에이전트 확산에 따른 CPU 수요 강세가 이어지며 DCAI 매출은 73.2억달러(+77.8% yoy), OPM은 41.5%까지 개 선. 파운드리 매출도 CPU 출하량 증가와 수율 개선에 힘입어 67억달러 (+58% yoy)를 기록했고, OPM은 -27.7%로 전분기 대비 8.6%p 개선. Intel 3, 18A, EMIB의 진전을 확인한 점도 긍정적.- EMIB 채택 확대가 더욱 가시화되는 점은 긍정적. 구글 TPU v9에 이어 아 마존 Trainium, 마이크로소프트 Maia, 퀄컴 서버 CPU까지 EMIB-T 채택 을 검토 중인 것으로 파악. CoWoS 병목이 심화되면서 대체재인 EMIB의 로드맵이 빠르게 확대되는 추세. 다만 EMIB용 하이엔드 기판 병목과 브릿 지 삽입에 따른 수율 관리는 여전히 해결 과제.- 2026년 캐팩스 200억달러 가이던스를 유지했으며, 2027년에도 유의미한 확대 기조를 이어갈 방침. 클린룸 증설이 상당 부분 마무리돼 향후 지출은 장비 중심이 될 전망. 다만 2027년에도 FCF 적자가 지속될 것으로 예상되 며, AI 밸류체인 전반에서 자금 조달력과 재무건전성에 대한 시장의 잣대가 높아진 만큼 부담 요인.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiikklzxgkmqmgcgxeegz.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] [26Q3 Review] 조정 EPS 컨센서스 26.8% 상회에도 4분기 가이던스 세 항목 모두 하회, 투자의견 중립 하향",
+     "summary": "- 투자의견을 직전 적극 매수에서 중립으로 하향(확신도 중간)- 3분기 매출은 165.1억달러로 21.0% 늘었고, 조정 주당순이익은 0.52달러로 컨센서스를 26.8% 상회- 성장을 이끄는 사업부가 클라이언트에서 데이터센터로 바뀌었음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmizxqczkzkxmxgcgxeegz.pdf",
+     "pages": "10"
+    },
+    {
+     "date": "2026-10-28",
+     "broker": "하나증권",
+     "analyst": "장치영",
+     "title": "[인텔 (NAS:INTC)] [Wedbush X hana] Intel 3Q26 Preview: 경쟁력 회복에 대한 추가 검증 필요",
+     "summary": "- 3분기 서버 CPU 중심의 실적 서프라이즈 기대- 실적 개선 기대에도 추가적인 경쟁력 회복 확인이 필요- 4분기 가이던스 및 2027년 사업 전망에 주목",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiggemqxklceqgcgxeegz.pdf",
+     "pages": "9"
+    },
+    {
+     "date": "2026-10-28",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] [Issue & News] 양자 소프트웨어 기업 Classiq 약 23억 달러에 인수 - 양자 풀스택 사업자로 확장",
+     "summary": "- 인텔, Classiq 약 23억달러 인수(블룸버그 보도, 금액 미공식)- 하드웨어·소프트웨어 모두 갖춘 풀스택 퀀텀 사업자로 확장- 2027년 상반기 종료 예정, 현금흐름 부담 가중 요인",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmieklgzcggilqgcgxeegz.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-21",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] [26Q3 Preview] 가이던스 163억 달러 이행 여부에 주목, 투자의견 적극 매수 상향",
+     "summary": "- 이번 실적은 매출 가이던스 163억달러 수준 달성과 데이터센터 성장 지속 여부가 핵심- DCAI 고성장과 Xeon 6+ 출시가 성장세를 뒷받침하지만 데이터센터 성장률 둔화 여부 확인 필요- 주가와 멀티플이 이미 크게 올라 EPS 둔화 시 이익 모멘텀 우려가 확대될 수 있음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzkglxckklikgcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] SK하이닉스와 미국 내 메모리 생산 협상 - 파운드리 외부 고객·오하이오 가동률 리스크 완화 신호",
+     "summary": "- SK하이닉스, 인텔과 美 메모리 생산 협상 진행- 오하이오 공장 임대 또는 합작법인 두 시나리오 거론- 파운드리 외부고객 리스크 완화 신호, 확정은 아직",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxcqqmzicmgzgcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] [Issue & News] 150억 달러 보통주 발행 추진 - 확대되는 파운드리 투자 부담에 대한 선제적 자본 확충",
+     "summary": "- 인텔, 150억 달러 보통주 발행 계획 발표- 용처·발행가 미공개, 파운드리 투자 자금 조달 추정- 고밸류 국면의 자본 확충, 희석 부담 상존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlximmexkxglmqgcgxeegz.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "INTC-report1.pdf",
+   "broker": "한화증권",
+   "analyst": "신승윤",
+   "date": "2026-10-30",
+   "title": "[인텔 (NAS:INTC)] Earnings Flash",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiikxeiczlgqigcgxeegz.pdf",
+   "pages": "1"
+  },
+  {
+   "file": "INTC-report2.pdf",
+   "broker": "유진투자증권",
+   "analyst": "박재환",
+   "date": "2026-10-30",
+   "title": "[인텔 (NAS:INTC)] 시장의 시선은 현금흐름으로",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiikklzxgkmqmgcgxeegz.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Trump says he still has confidence in Lutnick",
+   "url": "https://www.cnbc.com/2026/11/20/trump-lutnick-commerce-china-ai.html",
+   "date": "2026-11-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Intel signs first external customer for advanced 18A chips",
+   "url": "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html",
+   "date": "2026-11-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "We're booking huge profits on a tech winner and making a chip stock swap",
+   "url": "https://www.cnbc.com/investingclub/2026/11/16/were-booking-huge-profits-on-a-tech-winner-and-making-a-chip-stock-swap.html",
+   "date": "2026-11-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+   "date": "2026-11-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "We're adding a chipmaker to our Bullpen watchlist and downgrading another name",
+   "url": "https://www.cnbc.com/investingclub/2026/11/11/were-adding-a-chipmaker-to-our-bullpen-watchlist-and-downgrading-another-name.html",
+   "date": "2026-11-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bernstein's Stacy Rasgon on Nvidia stock: It's better to have Jensen there than not",
+   "url": "https://www.cnbc.com/video/2026/11/23/bernsteins-stacy-rasgon-on-nvidia-stock-its-better-to-have-jensen-there-than-not.html",
+   "date": "2026-11-23",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lightning Round: Rocket Companies is really hard to own right now, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/11/16/lightning-round-rocket-companies-is-really-hard-to-own-right-now-says-jim-cramer.html",
+   "date": "2026-11-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Monday, November 16, 2026: Cramer calls this company the 'winner' in CPUs and GPUs",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/16/monday-november-16-2026-cramer-calls-this-company-the-winner-in-cpus-and-gpus.html",
+   "date": "2026-11-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "INTC",
+  "fetchedAt": "2026-11-25",
+  "source": "한국투자증권 Open API",
+  "per": 25.85,
+  "pbr": 3.16,
+  "eps": 2.12,
+  "bps": 17.36,
+  "shares": 5315000000,
+  "marketCapM": 291262,
+  "high52": 142.35,
+  "high52Date": "2026-06-30",
+  "low52": 34.68,
+  "low52Date": "2025-11-25",
+  "last": 54.8,
+  "prevClose": 59.66,
+  "nameKo": "인텔",
+  "nameEn": "INTEL CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 5315000000
+ },
+ "estimates": {
+  "ticker": "INTC",
+  "url": "https://finance.yahoo.com/quote/INTC/analysis/",
+  "fetchedAt": "2026-11-25",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.25,
+    "epsLow": 0.21,
+    "epsHigh": 0.27,
+    "epsYearAgo": 0.15,
+    "epsAnalysts": 34,
+    "epsGrowth": 65.9,
+    "epsCur": "USD",
+    "rev": 15618519180,
+    "revAnalysts": 36,
+    "revYearAgo": 13674000000,
+    "revGrowth": 14.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.27,
+    "epsLow": 0.16,
+    "epsHigh": 0.56,
+    "epsYearAgo": 0.29,
+    "epsAnalysts": 34,
+    "epsGrowth": -7.3,
+    "epsCur": "USD",
+    "rev": 15373319100,
+    "revAnalysts": 33,
+    "revYearAgo": 13577000000,
+    "revGrowth": 13.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 1.49,
+    "epsLow": 1.45,
+    "epsHigh": 1.52,
+    "epsYearAgo": 0.42,
+    "epsAnalysts": 39,
+    "epsGrowth": 253.9,
+    "epsCur": "USD",
+    "rev": 61739691730,
+    "revAnalysts": 46,
+    "revYearAgo": 52853000000,
+    "revGrowth": 16.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 1.79,
+    "epsLow": 1.27,
+    "epsHigh": 2.84,
+    "epsYearAgo": 1.49,
+    "epsAnalysts": 46,
+    "epsGrowth": 20.4,
+    "epsCur": "USD",
+    "rev": 69122321680,
+    "revAnalysts": 47,
+    "revYearAgo": 61739691730,
+    "revGrowth": 12,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.25,
+    "d7": 0,
+    "d30": -43,
+    "d90": -41.6,
+    "ago90": 0.43,
+    "up7": 0,
+    "up30": 0,
+    "down7": 33,
+    "down30": 32
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.27,
+    "d7": -0.3,
+    "d30": -32.7,
+    "d90": -29.1,
+    "ago90": 0.38,
+    "up7": 1,
+    "up30": 1,
+    "down7": 31,
+    "down30": 29
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.49,
+    "d7": 0,
+    "d30": -2.8,
+    "d90": -1.7,
+    "ago90": 1.51,
+    "up7": 5,
+    "up30": 7,
+    "down7": 29,
+    "down30": 25
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 1.79,
+    "d7": 0,
+    "d30": -15.9,
+    "d90": -12.1,
+    "ago90": 2.04,
+    "up7": 2,
+    "up30": 5,
+    "down7": 36,
+    "down30": 35
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.52,
+    "estimate": 0.4,
+    "surprisePct": 30.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.42,
+    "estimate": 0.22,
+    "surprisePct": 94.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.29,
+    "estimate": 0.01,
+    "surprisePct": 2108.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.15,
+    "estimate": 0.08,
+    "surprisePct": 81.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 4,
+   "downgrades": 4,
+   "initiations": 1,
+   "ptRaised": 2,
+   "ptLowered": 22,
+   "total": 35,
+   "recent": [
+    {
+     "date": "2026-11-12",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-31",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-31",
+     "firm": "Freedom Broker",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 90,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 100,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 95
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 70,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Sell",
+     "to": "Sell",
+     "ptAction": "Lowers",
+     "pt": 70,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-10-30",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 98
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-01-28",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-24",
+  "numbers": {
+   "price": 54.8,
+   "ma20": 61.42,
+   "ma50": 88.63,
+   "ma150": 100.18,
+   "distMA50": -38.17,
+   "periodHigh": 142.35,
+   "pullbackFromHigh": -61.5,
+   "volRatio20": 0.83,
+   "dryUpRatio": 0.91
+  },
+  "last10": [
+   {
+    "d": "2026-11-11",
+    "o": 61.67,
+    "h": 64.06,
+    "l": 60.95,
+    "c": 62.5,
+    "v": 133190900,
+    "clsPos": 50,
+    "gapPct": 6.09
+   },
+   {
+    "d": "2026-11-12",
+    "o": 59.69,
+    "h": 62.76,
+    "l": 59.41,
+    "c": 61.2,
+    "v": 80687500,
+    "clsPos": 53,
+    "gapPct": -4.5
+   },
+   {
+    "d": "2026-11-13",
+    "o": 60.66,
+    "h": 61.34,
+    "l": 57,
+    "c": 59.66,
+    "v": 102574300,
+    "clsPos": 61,
+    "gapPct": -0.88
+   },
+   {
+    "d": "2026-11-16",
+    "o": 56.71,
+    "h": 57.2,
+    "l": 54.89,
+    "c": 55.47,
+    "v": 105966900,
+    "clsPos": 25,
+    "gapPct": -4.94
+   },
+   {
+    "d": "2026-11-17",
+    "o": 55.17,
+    "h": 55.24,
+    "l": 52.42,
+    "c": 55.17,
+    "v": 104613600,
+    "clsPos": 98,
+    "gapPct": -0.54
+   },
+   {
+    "d": "2026-11-18",
+    "o": 55.39,
+    "h": 56,
+    "l": 53.44,
+    "c": 54.67,
+    "v": 81360900,
+    "clsPos": 48,
+    "gapPct": 0.4
+   },
+   {
+    "d": "2026-11-19",
+    "o": 57.5,
+    "h": 59.44,
+    "l": 54.85,
+    "c": 55.72,
+    "v": 133949100,
+    "clsPos": 19,
+    "gapPct": 5.18
+   },
+   {
+    "d": "2026-11-20",
+    "o": 54.31,
+    "h": 56.48,
+    "l": 51.1,
+    "c": 51.28,
+    "v": 208735600,
+    "clsPos": 3,
+    "gapPct": -2.53
+   },
+   {
+    "d": "2026-11-23",
+    "o": 59.07,
+    "h": 59.77,
+    "l": 56.66,
+    "c": 59.66,
+    "v": 165246200,
+    "clsPos": 96,
+    "gapPct": 15.19
+   },
+   {
+    "d": "2026-11-24",
+    "o": 57.3,
+    "h": 57.54,
+    "l": 53.54,
+    "c": 54.8,
+    "v": 132167700,
+    "clsPos": 31,
+    "gapPct": -3.96
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/INTC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/INTC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 26일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "Intel 18A 서버 CPU 가 끌어올린 데이터센터 매출 78% 증가가 지금의 N",
+  "researchedOn": "2026-11-07"
+ }
+}

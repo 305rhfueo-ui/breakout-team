@@ -3,135 +3,135 @@
  "sector": "Healthcare",
  "industry": "Drug Manufacturers - General",
  "industryKo": "제약(대형)",
- "frank": 8,
- "frank25dChg": 1,
- "finalWrs": 0.3374,
+ "frank": 9,
+ "frank25dChg": -4,
+ "finalWrs": 0.3077,
  "count": 9,
  "winRatePct": 100,
  "members": [
   {
    "ticker": "ABBV",
-   "rs1": 0.1381757323191791,
-   "rs3": 0.2708172961234683,
-   "rs6": 0.5291762802360689,
-   "rnk1": 30.28,
-   "rnk3": 7.45,
-   "rnk6": 7.45,
-   "ret1d": 0.94,
-   "high52": 94.48,
-   "dollarVolM": 2506.1,
+   "rs1": 0.09185243735590932,
+   "rs3": 0.22632292677179894,
+   "rs6": 0.46947047570063016,
+   "rnk1": 36.96,
+   "rnk3": 8.17,
+   "rnk6": 8.53,
+   "ret1d": 0.79,
+   "high52": 95.22,
+   "dollarVolM": 1944.3,
    "marketCap": "505.89B",
    "name": "애브비"
   },
   {
    "ticker": "AMGN",
-   "rs1": 0.13370234151177374,
-   "rs3": 0.15802086908969168,
-   "rs6": 0.5253960038690539,
-   "rnk1": 31.72,
-   "rnk3": 29.38,
-   "rnk6": 7.63,
-   "ret1d": -0.15,
-   "high52": 90.53,
-   "dollarVolM": 2153.1,
+   "rs1": 0.10164028988881667,
+   "rs3": 0.13477172462400555,
+   "rs6": 0.46646128849801866,
+   "rnk1": 32.72,
+   "rnk3": 25.77,
+   "rnk6": 8.98,
+   "ret1d": 3.08,
+   "high52": 93.31,
+   "dollarVolM": 1540.2,
    "marketCap": "235.64B",
    "name": "암젠"
   },
   {
-   "ticker": "BIIB",
-   "rs1": 0.13182731750501403,
-   "rs3": 0.28216926855838365,
-   "rs6": 0.504582299357784,
-   "rnk1": 32.27,
-   "rnk3": 6.36,
-   "rnk6": 8.8,
-   "ret1d": 1,
-   "high52": 95.63,
-   "dollarVolM": 282.5,
-   "marketCap": "36.89B",
-   "name": "바이오젠"
-  },
-  {
    "ticker": "GILD",
-   "rs1": 0.20280072108754085,
-   "rs3": 0.2796794959606634,
-   "rs6": 0.5033987580241172,
-   "rnk1": 11.6,
-   "rnk3": 6.54,
-   "rnk6": 9.07,
-   "ret1d": -0.06,
-   "high52": 94.25,
-   "dollarVolM": 1257.5,
+   "rs1": 0.16087770240865443,
+   "rs3": 0.267925546569057,
+   "rs6": 0.46202753375175376,
+   "rnk1": 15.3,
+   "rnk3": 4.65,
+   "rnk6": 9.25,
+   "ret1d": 2.5,
+   "high52": 96.61,
+   "dollarVolM": 1133.4,
    "marketCap": "206.43B",
    "name": "길리어드 사이언스"
   },
   {
+   "ticker": "BIIB",
+   "rs1": 0.1035292877130236,
+   "rs3": 0.26521315168977205,
+   "rs6": 0.43334485171594916,
+   "rnk1": 31.99,
+   "rnk3": 5.01,
+   "rnk6": 11.24,
+   "ret1d": 2.85,
+   "high52": 98.36,
+   "dollarVolM": 334.8,
+   "marketCap": "36.89B",
+   "name": "바이오젠"
+  },
+  {
    "ticker": "LLY",
-   "rs1": 0.19533358570279832,
-   "rs3": 0.30214645908912596,
-   "rs6": 0.4520662914699949,
-   "rnk1": 12.86,
-   "rnk3": 4.29,
-   "rnk6": 12.41,
-   "ret1d": -0.3,
-   "high52": 91.31,
-   "dollarVolM": 4769,
+   "rs1": 0.15399387649574378,
+   "rs3": 0.25349629142660274,
+   "rs6": 0.39163001080823584,
+   "rnk1": 16.65,
+   "rnk3": 5.82,
+   "rnk6": 15.03,
+   "ret1d": 1.3,
+   "high52": 92.5,
+   "dollarVolM": 3999.1,
    "marketCap": "1199.93B",
    "name": "일라이 릴리"
   },
   {
    "ticker": "JNJ",
-   "rs1": 0.1614606871448131,
-   "rs3": 0.17303664000748262,
-   "rs6": 0.4022647285112666,
-   "rnk1": 23.42,
-   "rnk3": 25.23,
-   "rnk6": 17.01,
-   "ret1d": 1.25,
-   "high52": 93.19,
-   "dollarVolM": 3223.8,
+   "rs1": 0.09997063302077623,
+   "rs3": 0.09783785202443891,
+   "rs6": 0.3389833085039917,
+   "rnk1": 33.62,
+   "rnk3": 35.33,
+   "rnk6": 20.98,
+   "ret1d": -0.16,
+   "high52": 93.04,
+   "dollarVolM": 2677.4,
    "marketCap": "651.11B",
    "name": "존슨 앤드 존슨"
   },
   {
    "ticker": "MRK",
-   "rs1": 0.05670808790077021,
-   "rs3": 0.05483937851284028,
-   "rs6": 0.35424765357010457,
-   "rnk1": 60.42,
-   "rnk3": 57.08,
-   "rnk6": 22.34,
-   "ret1d": 0.69,
-   "high52": 85.72,
-   "dollarVolM": 2086.9,
+   "rs1": 0.049333764001456226,
+   "rs3": 0.00890763933146721,
+   "rs6": 0.3199289386388538,
+   "rnk1": 53.84,
+   "rnk3": 58.71,
+   "rnk6": 24.41,
+   "ret1d": 1.31,
+   "high52": 86.84,
+   "dollarVolM": 1281.8,
    "marketCap": "329.65B",
    "name": "머크"
   },
   {
    "ticker": "NVS",
-   "rs1": 0.13191405390845795,
-   "rs3": 0.12832340097619316,
-   "rs6": 0.23152905755943667,
-   "rnk1": 32.18,
-   "rnk3": 37.77,
-   "rnk6": 40.03,
-   "ret1d": -0.5,
-   "high52": 90.67,
-   "dollarVolM": 336.6,
+   "rs1": 0.07373094427059496,
+   "rs3": 0.07818122337688005,
+   "rs6": 0.18096876804160403,
+   "rnk1": 44.63,
+   "rnk3": 40.3,
+   "rnk6": 44.9,
+   "ret1d": 0.98,
+   "high52": 91.55,
+   "dollarVolM": 237.7,
    "marketCap": "284.18B",
    "name": "노바티스(ADR)"
   },
   {
    "ticker": "AZN",
-   "rs1": 0.15289259153954068,
-   "rs3": 0.2151017134332429,
-   "rs6": 0.16534176803730005,
-   "rnk1": 25.95,
-   "rnk3": 16.47,
-   "rnk6": 52.66,
-   "ret1d": -0.6,
-   "high52": 82.82,
-   "dollarVolM": 352.7,
+   "rs1": 0.11471596256239715,
+   "rs3": 0.17835384666373555,
+   "rs6": 0.12753059102721184,
+   "rnk1": 28.2,
+   "rnk3": 14.21,
+   "rnk6": 54.74,
+   "ret1d": 1.53,
+   "high52": 84.09,
+   "dollarVolM": 246.5,
    "marketCap": "270.40B",
    "name": "아스트라제네카"
   }
@@ -189,7 +189,7 @@
      "analyst": "신승윤",
      "date": "2026-11-02",
      "summary": "- 매출액 174억 달러(YoY +10.3%), 조정 EPS 3.82달러(YOY +115.3%)로 예상치 각각 0.4%, 2.2% 상회. EPS 급증은 전년 동기 인수 관련 연구개발비(IPR&D) 1.5달러 반영에 따른 낮은 기저 영향.- 3분기 말 현금 108억 달러, 1~3분기 누적 잉여현금흐름(FCF) 약 140억 달러 기록. 견조한 현금창출력을 바탕으로 2027년 2월 지급분부터 분기 배당금 5.2% 인상(주당 1.73달러→ 1.82달러)- 호실적 및 연간 가이던스 상향에도 추가 상승 모멘텀 부족으로 주가 1.4% 상승 마감",
-     "url": "https://rreport.einfomax.co.kr/report/eqmizmlileimeecgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmizmlileimeecgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -198,7 +198,7 @@
      "analyst": "조재운",
      "date": "2026-10-19",
      "summary": "- 스카이리지 궤양성대장염 96주 관해율 54.0~73.1% 공개- 린보크 크론병 144주 관해율 78.9~86.6% 공개- IBD 경쟁 심화 속 장기 처방 지속성 근거로 해석",
-     "url": "https://rreport.einfomax.co.kr/report/eqmgililecliigcgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgililecliigcgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -207,7 +207,7 @@
      "analyst": "조재운",
      "date": "2026-09-09",
      "summary": "- 애브비, 4분기 피하주사 크론병 치료제 FDA 승인 기대 발언- Skyrizi 성장률 둔화(65%→29%) 속 경쟁 심화 국면- 승인시 투약 편의성 강화, 주가 영향은 제한적",
-     "url": "https://rreport.einfomax.co.kr/report/eqlmccizilzqxlxgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmccizilzqxlxgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -216,22 +216,22 @@
      "analyst": "조재운",
      "date": "2026-09-03",
      "summary": "- 애브비, Apogee Therapeutics 인수 완료- EPS 희석 2026년 0.14달러, 2027년 0.46달러- 이익 가산 전환은 2032년부터 시작",
-     "url": "https://rreport.einfomax.co.kr/report/eqllklglzlqllzigcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqllklglzlqllzigcgxeegz.pdf",
      "via": "연합인포맥스"
     }
    ],
    "news": [
     {
+     "title": "AbbVie's (ABBV) RINVOQ Becomes First FDA-Approved Systemic Treatment For Vitiligo",
+     "url": "https://www.nasdaq.com/articles/abbvies-abbv-rinvoq-becomes-first-fda-approved-systemic-treatment-vitiligo",
+     "date": "2026-11-24",
+     "publisher": "RTTNews"
+    },
+    {
      "title": "AbbVie (ABBV) Stock Just Got a 5.2% Dividend Increase. Here's How Many Shares You Need to Generate $1,000 a Year.",
      "url": "https://www.nasdaq.com/articles/abbvie-abbv-stock-just-got-52-dividend-increase-heres-how-many-shares-you-need-generate",
      "date": "2026-11-21",
      "publisher": "The Motley Fool"
-    },
-    {
-     "title": "Here is What to Know Beyond Why AbbVie Inc. (ABBV) is a Trending Stock",
-     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-abbvie-inc-abbv-trending-stock",
-     "date": "2026-11-17",
-     "publisher": "Zacks"
     }
    ]
   },
@@ -287,7 +287,7 @@
      "analyst": "조재운",
      "date": "2026-10-26",
      "summary": "- 두 자릿수 외형 성장이 비용 증가를 흡수하는지가 이번 분기의 관건- denosumab 침식 속도와 성장동력의 상쇄력을 함께 봐야 한다- 매출 상회 시 밸류에이션 프리미엄 정당화, 하회 시 되돌림 압력",
-     "url": "https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -296,7 +296,7 @@
      "analyst": "조재운",
      "date": "2026-10-26",
      "summary": "- Imdelltra+Imfinzi 병용, 1차 소세포폐암서 사망위험 58%↓- 생존기간 중앙값 21.1개월 vs 12.7개월, 1년생존 80%대 53%- 2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공",
-     "url": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -305,7 +305,7 @@
      "analyst": "조재운",
      "date": "2026-10-20",
      "summary": "- 테즈스파이어, 호산구성 식도염 임상서 위약 대비 관해율 압도- 52주까지 효과 유지, 삼킴곤란 증상도 개선- 승인 적응증 확대 시 신규 성장동력, 시점은 미확정",
-     "url": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -314,7 +314,7 @@
      "analyst": "조재운",
      "date": "2026-09-09",
      "summary": "- Imdelltra+Imfinzi 병용, 소세포폐암 생존율 유의미 개선 확인- 유지요법 적응증 확대 시 Imdelltra 처방군 확대 잠재력- denosumab 침식 상쇄 흐름과 결 맞으나 즉각 손익 영향은 제한적",
-     "url": "https://rreport.einfomax.co.kr/report/eqllmegxqemgimlgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqllmegxqemgimlgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -323,78 +323,24 @@
      "analyst": "조재운",
      "date": "2026-09-08",
      "summary": "- IMDELLTRA+임핀지, 1차 소세포폐암 3상서 생존 개선- IMDELLTRA는 최근 분기 매출 115% 성장 성장동력 제품- 승인·매출 반영은 아직 여러 분기 소요될 전망",
-     "url": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxeegz.pdf",
      "via": "연합인포맥스"
     }
    ],
    "news": [
     {
+     "title": "Amgen (AMGN) Clears Patent Hurdle For Planned U.S. Lauch Of Opdivo Biosimilar",
+     "url": "https://www.nasdaq.com/articles/amgen-amgn-clears-patent-hurdle-planned-us-lauch-opdivo-biosimilar",
+     "date": "2026-11-25",
+     "publisher": "RTTNews"
+    },
+    {
      "title": "Investors Heavily Search Amgen Inc. (AMGN): Here is What You Need to Know",
      "url": "https://www.nasdaq.com/articles/investors-heavily-search-amgen-inc-amgn-here-what-you-need-know",
      "date": "2026-11-20",
      "publisher": "Zacks"
-    },
-    {
-     "title": "AMGN February 2027 Options Begin Trading",
-     "url": "https://www.nasdaq.com/articles/amgn-february-2027-options-begin-trading",
-     "date": "2026-11-13",
-     "publisher": "BNK Invest"
-    },
-    {
-     "title": "Here is What to Know Beyond Why Amgen Inc. (AMGN) is a Trending Stock",
-     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-amgen-inc-amgn-trending-stock-0",
-     "date": "2026-11-09",
-     "publisher": "Zacks"
     }
    ]
-  },
-  "BIIB": {
-   "cnbc": [
-    {
-     "title": "Stocks making the biggest moves premarket: Salesforce, First Solar, Biogen",
-     "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html",
-     "date": "2026-10-12",
-     "publisher": "CNBC",
-     "kind": "article"
-    },
-    {
-     "title": "Biogen is set for big gains on slate of trial data releases, JPMorgan says",
-     "url": "https://www.cnbc.com/2026/10/12/biogen-is-set-to-rally-on-slate-of-trial-data-releases-jpmorgan-says.html",
-     "date": "2026-10-12",
-     "publisher": "CNBC",
-     "kind": "article"
-    },
-    {
-     "title": "Novo defends diversification push as CEO eyes deals beyond obesity",
-     "url": "https://www.cnbc.com/2026/09/22/novo-nordisk-ceo-interview-weight-loss-drugs-strategy.html",
-     "date": "2026-09-22",
-     "publisher": "CNBC",
-     "kind": "article"
-    },
-    {
-     "title": "Novo shares slide as drugmaker lays out post-Wegovy growth strategy",
-     "url": "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html",
-     "date": "2026-09-21",
-     "publisher": "CNBC",
-     "kind": "article"
-    },
-    {
-     "title": "Thursday's biggest analyst calls: Nvidia, SpaceX, AMD, Five Below, Disney, Nebius, Salesforce",
-     "url": "https://www.cnbc.com/2026/08/13/thursdays-big-wall-street-calls-include-nvidia-spacex-amd-disney.html",
-     "date": "2026-08-13",
-     "publisher": "CNBC",
-     "kind": "article"
-    },
-    {
-     "title": "Two biotech names on Josh Brown's Best Stocks list are making meaningful highs",
-     "url": "https://www.cnbc.com/2026/08/03/two-biotech-names-on-josh-browns-best-stocks-list-are-making-meaningful-highs-this-summer.html",
-     "date": "2026-08-03",
-     "publisher": "CNBC",
-     "kind": "article"
-    }
-   ],
-   "reports": [],
-   "news": []
   },
   "GILD": {
    "cnbc": [
@@ -439,6 +385,54 @@
      "date": "2026-10-26",
      "publisher": "CNBC",
      "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": []
+  },
+  "BIIB": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves premarket: Salesforce, First Solar, Biogen",
+     "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html",
+     "date": "2026-10-12",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Biogen is set for big gains on slate of trial data releases, JPMorgan says",
+     "url": "https://www.cnbc.com/2026/10/12/biogen-is-set-to-rally-on-slate-of-trial-data-releases-jpmorgan-says.html",
+     "date": "2026-10-12",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Novo defends diversification push as CEO eyes deals beyond obesity",
+     "url": "https://www.cnbc.com/2026/09/22/novo-nordisk-ceo-interview-weight-loss-drugs-strategy.html",
+     "date": "2026-09-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Novo shares slide as drugmaker lays out post-Wegovy growth strategy",
+     "url": "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html",
+     "date": "2026-09-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Thursday's biggest analyst calls: Nvidia, SpaceX, AMD, Five Below, Disney, Nebius, Salesforce",
+     "url": "https://www.cnbc.com/2026/08/13/thursdays-big-wall-street-calls-include-nvidia-spacex-amd-disney.html",
+     "date": "2026-08-13",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Two biotech names on Josh Brown's Best Stocks list are making meaningful highs",
+     "url": "https://www.cnbc.com/2026/08/03/two-biotech-names-on-josh-browns-best-stocks-list-are-making-meaningful-highs-this-summer.html",
+     "date": "2026-08-03",
+     "publisher": "CNBC",
+     "kind": "article"
     }
    ],
    "reports": [],
@@ -496,7 +490,7 @@
      "analyst": "신승윤",
      "date": "2026-11-23",
      "summary": "- Mounjaro의 중국 당뇨병 치료 보험 적용과 해외 처방 확대에 따른 매출 성장 기대- 경구 비만 치료제 Foundayo가 주사 치료를 꺼리는 환자 대상 침투율을 높여 추가 매출 창출 기대- 후속 비만 치료제 Retatrutide 2027년 1분기 미국 허가 신청 준비 중",
-     "url": "https://rreport.einfomax.co.kr/report/eqmzimgmxqelexqgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmzimgmxqelexqgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -505,7 +499,7 @@
      "analyst": "하헌호",
      "date": "2026-11-12",
      "summary": "- 제약/바이오 산업내 급성장하는 당뇨 및 비만 치료제의 선두기업. 올해 1분기, 동사 마운자로 가장 높은 매출을 기록하는 의약품으로 기록. 노보는 올해부터 역성장 예상돼 경쟁기업 대비 상대적 우위 강화될 것으로 판단- 비만약 후속제품에 대한 기대감도 존재. 노보가 후속 비만약 카그리세마의 체중감량이 동사 졥바운드에 미치지 못해 주사제 부문의 높은 점유율 유지 전망.- 비만/당뇨 외 실적 성장 뒷받침 할 다양한 질환의 후보물질 보유. 알츠하이머 약물 도나네맙 인도에서 출시로 비미국 매출 중가 본격화. 비만/당뇨약을 통해 확보한 현금으로 CAR-T 등 차세대 항암제 포트폴리오 강화해 중장기 성장 동력 확보",
-     "url": "https://rreport.einfomax.co.kr/report/eqmkkxiigmzzeekgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmkkxiigmzzeekgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -514,7 +508,7 @@
      "analyst": "이희영",
      "date": "2026-11-04",
      "summary": "- 원형탈모 치료제 Olumiant와 피부과 처방 기반 보유- 자사 직판망 LillyDirect을 탈모 사업에 활용 가능- 탈모 개발사 투자 이력 보유, 상업성 확인 후 인수 가능성 주목",
-     "url": "https://rreport.einfomax.co.kr/report/eqmixlmeiilikkmgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmixlmeiilikkmgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -523,7 +517,7 @@
      "analyst": "이희영",
      "date": "2026-10-30",
      "summary": "- 3Q26 매출 $24.40B(+38.6%yoy), EPS $7.48(+6.6%yoy)로 컨센서스 상회- Tirzepatide $16.1B(+59.1%yoy), 미국과 해외에서 동반 성장- 26년 가이던스 누적 $10B 상향, 27년 성장률(1월 가이던스)이 주가 관건",
-     "url": "https://rreport.einfomax.co.kr/report/eqmizqxieicemgggcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmizqxieicemgggcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -532,7 +526,7 @@
      "analyst": "하헌호",
      "date": "2026-10-30",
      "summary": "- 실적 성장 기대감, 주가 상승 주도. 후속 제품이 뒷받침- GLP-1 당뇨/비만약, 글로벌 시장 견조한 매출. 후속 제품 성과 가시화- 실적과 파이프라인 경쟁력 입증으로 추가 상승 모멘텀 확보",
-     "url": "https://rreport.einfomax.co.kr/report/eqmizgzczgxeceigcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmizgzczgxeceigcgxeegz.pdf",
      "via": "연합인포맥스"
     }
    ],
@@ -597,7 +591,7 @@
      "analyst": "조재운",
      "date": "2026-11-09",
      "summary": "- pasritamig 병용요법, 전립선암서 PSA 반응률 73% 보고- 연구용 단계, 임상 세부조건·환자수는 미확인- IM 부문 내부 파이프라인 모멘텀, M&A 의존 우려 일부 상쇄",
-     "url": "https://rreport.einfomax.co.kr/report/eqmkelkkxxqgiqqgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmkelkkxxqgiqqgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -606,7 +600,7 @@
      "analyst": "조재운",
      "date": "2026-10-26",
      "summary": "- JNJ-6143 1상서 PSA 반응률 77%, 영상반응률 75% 확인- 할다 테라퓨틱스(30.5억 달러 인수) 통해 확보한 신약 자산- 혁신의약품 파이프라인 가시성 흐름에 새 데이터 포인트 추가",
-     "url": "https://rreport.einfomax.co.kr/report/eqmiczmqiqcmmzcgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmiczmqiqcmmzcgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -615,7 +609,7 @@
      "analyst": "조재운",
      "date": "2026-10-26",
      "summary": "- 에르레이다, 고위험 전립선암서 재발·사망 위험 62% 감소- 수술 전후 투여 방식의 새 적응증 확장 가능성 시사- 매출 반영은 규제·가이드라인 절차 거쳐야 확인 가능",
-     "url": "https://rreport.einfomax.co.kr/report/eqmgmxmxmkkgglcgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgmxmxmkkgglcgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -624,7 +618,7 @@
      "analyst": "조재운",
      "date": "2026-10-16",
      "summary": "- CHMP, TALVEY+다라투무맙 다발골수종 조기 치료 적응증 확대 권고- 유럽위원회 최종 승인 전 단계, 처방 대상 환자군 확대 신호- DARZALEX·CARVYKTI와 같은 혈액암 포트폴리오 강화 흐름",
-     "url": "https://rreport.einfomax.co.kr/report/eqmgiliqekqxxmmgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgiliqekqxxmmgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -633,7 +627,7 @@
      "analyst": "조재운",
      "date": "2026-10-12",
      "summary": "- ICOTYDE 112주 데이터 PASI90 72%·IGA0/1 70%, 안전성 신호 없음- 매출 직접 영향 불명확, IM 파이프라인 밀집 스토리 보강 성격- 밸류에이션 프리미엄 구간, 주가 영향은 제한적",
-     "url": "https://rreport.einfomax.co.kr/report/eqmeqxgggklixxigcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmeqxgggklixxigcgxeegz.pdf",
      "via": "연합인포맥스"
     }
    ],
@@ -691,7 +685,7 @@
      "analyst": "조재운",
      "date": "2026-11-18",
      "summary": "- 네타브루티닙 3상 3건 전면 중단, EDMC 위험평가 결론- 임상단계 자산이라 당장 매출·가이던스엔 영향 없음- UDA 특허만료 이후 성장공백 우려 재부각",
-     "url": "https://rreport.einfomax.co.kr/report/eqmkmlklgkzlcemgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmkmlklgkzlcemgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -700,7 +694,7 @@
      "analyst": "조재운",
      "date": "2026-10-29",
      "summary": "- 매출 180.9억 달러, 컨센 4.3% 상회- 비용·일회성에 non-GAAP 순이익 4% 감소- NTM PE 17.5배, 할인 소멸로 중립 유지",
-     "url": "https://rreport.einfomax.co.kr/report/eqmizxqekgczgxigcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmizxqekgczgxigcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -709,7 +703,7 @@
      "analyst": "조재운",
      "date": "2026-10-27",
      "summary": "- 사크-투모테칸 FDA 우선심사 접수, 결정 2027년 6월 예정- 키트루다 KEYNOTE-C93 단독요법, 진행·사망위험 43%↓- 2028 특허만료 앞두고 적응증 확장으로 매출원 다변화",
-     "url": "https://rreport.einfomax.co.kr/report/eqmiczmlqxzgcmigcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmiczmlqxzgcmigcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -718,7 +712,7 @@
      "analyst": "조재운",
      "date": "2026-10-20",
      "summary": "- 10월 29일, 시장이 보는 건 매출 규모가 아니라 회복의 지속성- 3분기는 계절적 고점이지만 예고된 역풍이 겹친다- 성장의 무게중심이 KEYTRUDA 한 축에서 분산되는지가 핵심",
-     "url": "https://rreport.einfomax.co.kr/report/eqmgkxcximlikgkgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgkxcximlikgkgcgxeegz.pdf",
      "via": "연합인포맥스"
     },
     {
@@ -727,7 +721,7 @@
      "analyst": "조재운",
      "date": "2026-10-13",
      "summary": "- ESMO서 sac-TMT 3상, 자궁내막암 생존 개선 확인- 직전 분기 양성 결과(TroFuse-005)의 구체적 후속 데이터- 밸류에이션 재평가엔 완만한 참고 신호, 단독 반전 요인은 아님",
-     "url": "https://rreport.einfomax.co.kr/report/eqmemiigqlqzxkkgcgxeegk.pdf",
+     "url": "https://rreport.einfomax.co.kr/report/eqmemiigqlqzxkkgcgxeegz.pdf",
      "via": "연합인포맥스"
     }
    ],
@@ -791,12 +785,6 @@
      "title": "NVS Gets FDA Nod for Cosentyx in Adults With Polymyalgia Rheumatica",
      "url": "https://www.nasdaq.com/articles/nvs-gets-fda-nod-cosentyx-adults-polymyalgia-rheumatica",
      "date": "2026-11-18",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Is Novartis (NVS) Outperforming Other Medical Stocks This Year?",
-     "url": "https://www.nasdaq.com/articles/novartis-nvs-outperforming-other-medical-stocks-year",
-     "date": "2026-11-16",
      "publisher": "Zacks"
     }
    ]
@@ -864,7 +852,7 @@
    "analyst": "류태환",
    "date": "2026-11-02",
    "summary": "- 건식냉각이 확대하는 SMR의 입지 경쟁력: Xe-100은 공랭식 복수기를 활 용한 건식냉각 설계로 냉각용수 소비를 크게 줄일 수 있으며, Dow Long Mott 초도호기에도 건식냉각 적용 추진- 2027년 초도호기 건설허가, 구체화되는 후속 프로젝트: Long Mott는 2026년 5월 NRC 환경평가에 이어 10월 최종 안전성평가까지 완료하며 건 설허가를 위한 주요 심사 절차 마무리- 연료·공급망 확보로 높아지는 상업화 실행력: TRISO-X 핵연료 제조시설 TX-1은 2026년 9월 주요 건물 골조 공사를 완료하고 내부 설비 설치 단계 에 본격 진입",
-   "url": "https://rreport.einfomax.co.kr/report/eqmizqmegqeexxlgcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmizqmegqeexxlgcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "제약"
   },
@@ -874,7 +862,7 @@
    "analyst": "조재운",
    "date": "2026-10-13",
    "summary": "- 지난 10 월 9 일 수전 콜린스(Susan M. Collins) 총재의 연설은 고(故) 존 리히 추모 컨퍼런스에서 나온 것으로 정책 메시지가 없었고, 그에 앞서 공개된 월러(Waller) 이사의 발언은 9 월 0.25%p 인상을 인플레이션 우려·견조한 성장·안정적 고용에 근거한 매파적 전환으로 규정한 바 있다. 이런 흐름 속에서 이번 해맥(Hammack) 총재의 연설은 같은 9 월 FOMC 결정(12 대 0 만장일치)을 다시 한번 지지하면서도, 자신의 \"반응함수\"를 설명하는 데 초점을 맞췄다는 점에서 결이 다르다.- 연설의 핵심은 두 갈래다. 첫째, 현재의 제약적(경기를 다소 억누르는 수준의) 정책 기조가 물가 목표 달성을 위해 여전히 필요하다는 점을 강조했다. 둘째, 향후 정책 조정은 사전에 정해진 경로가 아니라 들어오는 경제 지표에 따라 결정되는 \"조건부\" 성격임을 반복해서 설명했다. 인플레이션 쪽 위험을 명시적으로 짚었지만, 급격한 정책 전환을 시사하는 표현은 나오지 않았다. 전체적으로는 매파적이되 신중한 톤으로 요약할 수 있다.- 시장 영향 측면에서는 두 가지로 해석된다. 우선 9 월 인상과 제약적 기조 유지를 재확인했다는 점에서 최근 형성된 Fed 내 매파 우위 흐름을 그대로 지지한다. 다만 \"조건부 조정\"을 거듭 강조한 점은, 11 월과 12 월 회의에서 추가 인상이 사실상 확정적이라는 시장 일각의 기대를 완전히 뒷받침하지는 않는다는 신호로 볼 수 있다. 즉 추가 인상의 문을 닫지는 않되 자동으로 열려 있지도 않다는 균형 잡힌 메시지에 가깝다. 코어 개인소비지출(PCE) 물가가 장기간 목표보다 높은 수준에 머무르고 있다는 우려가 반복적으로 언급된 점은, 인플레이션 고착화 우려가 Fed 위원들 사이에서 공유되고 있다는 참고 신호로 받아들일 만하다.",
-   "url": "https://rreport.einfomax.co.kr/report/eqmelklqikxlzglgcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmelklqikxlzglgcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "제약"
   },
@@ -884,7 +872,7 @@
    "analyst": "조재운",
    "date": "2026-10-08",
    "summary": "- 9월 FOMC는 AI발 공급 제약과 견조한 노동시장을 근거로 25bp 인상을 단행하며 긴축 기조를 재확인- 10월은 동결 가능성이 높지만 12월 이후 추가 인상 기대가 높아 시장도 반년 이상 긴축 지속을 반영- 근원 PCE와 AI 공급제약 완화, 노동시장 개선 지속 여부가 추가 인상 속도의 핵심 변수",
-   "url": "https://rreport.einfomax.co.kr/report/eqmekezzccmcmeqgcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmekezzccmcmeqgcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "제약"
   },
@@ -894,7 +882,7 @@
    "analyst": "하헌호",
    "date": "2026-11-12",
    "summary": "- 미국 유전자 치료제 신약 개발 기업으로 siRNA(작은 간섭 RINA) 기전 심혈관/대사, 호흡기, 간, CNS 및 근육 질환 등 RNA를 다양한 질환에 적용하는 약물 파이프라인 보유- 올해 1월 비만약으로 개발되는 두 후보물질(ARO-INHBE, ARO-ALK7)의 양호한 임상 결과 발표된 가운데 10월 알츠하이머 약물(ARO-MAPT)도 긍정적 데이터 공개로 기대감 상승- ARO-MAPT는 알츠하이머 발병의 주요 단백질 타우를 억제하는 피하주사 치료제로 임상 1/2a상에서 건강한 성인에 효능 입증.",
-   "url": "https://rreport.einfomax.co.kr/report/eqmkkxiiqxcexkkgcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmkkxiiqxcexkkgcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "비만"
   },
@@ -904,7 +892,7 @@
    "analyst": "하헌호",
    "date": "2026-11-12",
    "summary": "- 제약/바이오 산업내 급성장하는 당뇨 및 비만 치료제의 선두기업. 올해 1분기, 동사 마운자로 가장 높은 매출을 기록하는 의약품으로 기록. 노보는 올해부터 역성장 예상돼 경쟁기업 대비 상대적 우위 강화될 것으로 판단- 비만약 후속제품에 대한 기대감도 존재. 노보가 후속 비만약 카그리세마의 체중감량이 동사 졥바운드에 미치지 못해 주사제 부문의 높은 점유율 유지 전망.- 비만/당뇨 외 실적 성장 뒷받침 할 다양한 질환의 후보물질 보유. 알츠하이머 약물 도나네맙 인도에서 출시로 비미국 매출 중가 본격화. 비만/당뇨약을 통해 확보한 현금으로 CAR-T 등 차세대 항암제 포트폴리오 강화해 중장기 성장 동력 확보",
-   "url": "https://rreport.einfomax.co.kr/report/eqmkkxiigmzzeekgcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmkkxiigmzzeekgcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "비만"
   },
@@ -914,7 +902,7 @@
    "analyst": "이희영",
    "date": "2026-11-04",
    "summary": "- 원형탈모 치료제 Olumiant와 피부과 처방 기반 보유- 자사 직판망 LillyDirect을 탈모 사업에 활용 가능- 탈모 개발사 투자 이력 보유, 상업성 확인 후 인수 가능성 주목",
-   "url": "https://rreport.einfomax.co.kr/report/eqmixlmeiilikkmgcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmixlmeiilikkmgcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "비만"
   },
@@ -924,7 +912,7 @@
    "analyst": "하헌호",
    "date": "2026-10-30",
    "summary": "- 실적 성장 기대감, 주가 상승 주도. 후속 제품이 뒷받침- GLP-1 당뇨/비만약, 글로벌 시장 견조한 매출. 후속 제품 성과 가시화- 실적과 파이프라인 경쟁력 입증으로 추가 상승 모멘텀 확보",
-   "url": "https://rreport.einfomax.co.kr/report/eqmizgzczgxeceigcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmizgzczgxeceigcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "비만"
   },
@@ -934,7 +922,7 @@
    "analyst": "엄민용, 윤석현",
    "date": "2026-09-30",
    "summary": "- 유전자 치료제 기업 중 비만, Dual-siRNA*에서 임상 결과를 가장 먼저 확보한 기업. 4분기 엘나일람도 ALK7 1상 결과 공개 예정. 동사는 젭바운 드 병용도 진행 중으로 4분기 혹은 내년초 결과 공개 시 큰 가치 상승 전 망. 올릭스 OLX501A(ALK7)과 Dual/DUO-siRNA 가치도 큰 폭 상승 가능. 4분기부터 siRNA의 비만 치료제 게임체인저 등극 기대돼 주목- 비만 치료제 화두는 체중 감량에서 근손실 억제와 요요 방지로 이동. ARO-INHBE + 젭바운드 1/3 용량(5mg) 병용 24주차 내장지방 -27.2%, 간지방 -53.0%로 젭바운드 15mg 1년 효과(-24.0%, -39.6%)를 상회- ARO-ALK7은 단회 투여 8주차 내장지방 -13.6%(vs. INHBE -7.1%)로 INHBE 대비 약 2배 감량. 4분기 ALK7 당뇨 등 세부 하위군별 체중∙체성 분 후속 데이터와 경쟁사 엘나일람의 ALK7 ALN-2232 임상 1상 함께 공 개 예정. ALK7 + 젭바운드 저용량 병용 결과가 포함되면 GSK/시란(1.3조 원), 로슈/사네진(2.4조원) 거래 후 ALK7 가치 한 단계 높일 트리거",
-   "url": "https://rreport.einfomax.co.kr/report/eqmcqgiqzigieexgcgxeegk.pdf",
+   "url": "https://rreport.einfomax.co.kr/report/eqmcqgiqzigieexgcgxeegz.pdf",
    "via": "연합인포맥스",
    "keyword": "비만"
   }

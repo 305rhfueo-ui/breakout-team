@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-25",
+  "items": [
+    {
+      "ticker": "ZS",
+      "price": 229.24000549316406,
+      "category": 3,
+      "confidence": "high"
+    },
+    {
+      "ticker": "KYMR",
+      "price": 150.3699951171875,
+      "category": 2,
+      "confidence": "high"
+    },
+    {
+      "ticker": "SENEB",
+      "price": 35.22999954223633,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "CRWD",
+      "price": 208.97000122070312,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BBY",
+      "price": 97,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "NMM",
+      "price": 83.76000213623047,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SJM",
+      "price": 132.77999877929688,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "BMI",
+      "price": 163.10000610351562,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ASH",
+      "price": 69.66000366210938,
+      "category": 3,
+      "confidence": "medium"
+    }
+  ]
+}

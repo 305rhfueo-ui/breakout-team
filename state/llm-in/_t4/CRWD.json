@@ -1,0 +1,189 @@
+{
+ "ticker": "CRWD",
+ "news": [
+  {
+   "title": "S&P 500 Analyst Moves: CRWD",
+   "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-crwd",
+   "date": "2026-11-24",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "CrowdStrike (CRWD) Q3 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/crowdstrike-crwd-q3-2027-earnings-call-transcript",
+   "date": "2026-11-24",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "CrowdStrike still ‘top long-term idea’ in cybersecurity, says RBC Capital",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-still-top-long-term-222016843.html",
+   "date": "2026-11-24",
+   "publisher": "TipRanks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "7 Firms Downgraded Zscaler After CrowdStrike’s $43.9 Billion Deal. Is There Still Money to Make?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/7-firms-downgraded-zscaler-crowdstrike-210442923.html",
+   "date": "2026-11-24",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Zscaler downgraded to Neutral from Outperform at Wedbush",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-downgraded-neutral-outperform-wedbush-201530549.html",
+   "date": "2026-11-24",
+   "publisher": "TipRanks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CrowdStrike and Zscaler deal makes sense to Jefferies at $43.9 billion",
+   "url": "https://finance.yahoo.com/technology/articles/crowdstrike-zscaler-deal-makes-sense-185000397.html",
+   "date": "2026-11-24",
+   "publisher": "Proactive",
+   "via": "Yahoo"
+  },
+  {
+   "title": "CrowdStrike Stocks Move Lower as $43.9 Billion Zscaler Deal Value Shrinks",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stocks-move-lower-43-174628727.html",
+   "date": "2026-11-24",
+   "publisher": "GuruFocus.com",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-23",
+   "reportDate": "2026-11-22",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130785/tm2630454d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-23",
+   "reportDate": "2026-11-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000035/crwd-20261123.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926076376/tm2618192d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000022/crwd-20260603.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-16",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000018/crwd-20260416.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 24.85,
+  "saleNy": 22.89,
+  "epsCy": 34.76,
+  "epsNy": 28.21,
+  "cyTrend": -0.01,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    25.83,
+    25.57,
+    23.32
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    -2.26,
+    -2.21,
+    0.02
+   ],
+   "updated": "2026-09-09 06:38:16"
+  }
+ }
+}

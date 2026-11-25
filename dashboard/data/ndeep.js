@@ -1,5 +1,5 @@
 window.NDEEP_DATA = {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "v": 2,
   "items": {
     "MRNA": {
@@ -9194,27 +9194,24 @@ window.NDEEP_DATA = {
       }
     },
     "ANF": {
-      "ticker": "ANF",
-      "headline": "새로운 것은 파트너십·신규 출점뿐 — 이익 급증은 일회성 관세 환급이 만들었다",
-      "nVerdict": "부분 충족",
       "drivers": [
         {
-          "what": "채널·카테고리 확장 — 프랜차이즈·도매·라이선스 파트너십으로 새 시장에 들어가고, 브랜드마다 인접한 새 제품 카테고리를 연다",
-          "kind": "contract",
+          "what": "점포망 확장과 제3자 채널 — 프랜차이즈·도매·라이선스 파트너십과 신규 출점으로 기존점 밖에서 매출을 더하는 경로",
+          "kind": "service",
           "stage": "매출 발생 중",
           "since": "2026",
           "basis": [
             {
               "id": "d1b1",
-              "statement": "회사는 프랜차이즈·도매·라이선스 파트너십으로 새 시장에서 매출을 늘리고 브랜드별로 인접한 새 제품 카테고리로 넓히는 것을 공식 성장 과제로 내걸었다.",
+              "statement": "회사는 올해 중점 과제로 프랜차이즈·도매·라이선스 파트너십을 통한 신규·선별 시장 진출과 인접 상품군 확장을 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
                   "date": "2026-09-04",
-                  "quote": "Expand Channels and Categories by increasing net sales growth in new and select markets through the use of franchise, wholesale, and licensing partnerships. The Company also plans to expand into new, adjacent product categories that resonate with each brand’s target customer.",
+                  "quote": "• Expand Channels and Categories by increasing net sales growth in new and select markets through the use of franchise, wholesale, and licensing partnerships. The Company also plans to expand into new, adjacent product categories that resonate with each brand’s target customer.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9222,15 +9219,31 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d1b2",
-              "statement": "CEO 는 최근 분기 실적 발표에서 파트너십·유통채널·제품 카테고리에 걸쳐 성장 수단을 더하고 있다고 밝혔다.",
+              "statement": "최고경영자는 2분기 실적 발표에서 파트너십·유통 채널·상품군에 걸쳐 성장 수단을 더하고 있다고 밝혔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
                   "date": "2026-08-26",
                   "quote": "Importantly, we are adding incremental growth levers across partnerships, distribution channels and product categories.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b3",
+              "statement": "상반기에 새 점포 24개를 열고 40개를 리모델했으며, 올해 계획은 약 50개 출점·약 20개 폐점으로 순증 약 30개다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
+                  "date": "2026-09-04",
+                  "quote": "During the twenty-six weeks ended August 1, 2026, the Company opened 24 new stores, remodeled 40 stores and right-sized five stores, while closing seven stores. As part of this focus, the Company’s store investment plan includes delivering approximately 30 net store openings during Fiscal 2026 consisting of opening approximately 50 new stores, while closing approximately 20 stores, pending negotiations with our landlord partners.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9240,21 +9253,19 @@ window.NDEEP_DATA = {
           "revenueImpact": [
             {
               "id": "d1r1",
-              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-              "evidence_level": "no_source",
+              "statement": "3분기 보고 매출은 1년 전보다 11% 늘었지만 기존점(동일 점포·디지털) 기준으로는 6% 증가였다.",
+              "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
-                  "date": "2026-09-04",
-                  "quote": "Net sales growth in the APAC region of 19% and 13% on a reported and comparable sales basis, respectively. The increase on a reported basis was led by low-double-digit AUR growth, lower promotional activity, higher third-party volume, and mid-single-digit growth in unit volume.",
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Record third quarter net sales of $1.4 billion, up 11% to last year, the 16th consecutive quarter of growth, with comparable sales up 6%",
                   "verified": "ok",
                   "httpStatus": 200
                 }
-              ],
-              "statementOriginal": "아시아태평양 매출이 19% 늘었고, 회사는 그 요인으로 평균 판매단가(AUR, 한 벌당 평균 판매가격) 상승과 프로모션 축소에 더해 제3자 채널 물량 증가를 들었다.",
-              "stripped": true
+              ]
             },
             {
               "id": "d1r2",
@@ -9262,120 +9273,53 @@ window.NDEEP_DATA = {
               "evidence_level": "no_source",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
                   "date": "2026-09-04",
-                  "quote": "For the second quarter of Fiscal 2026, net sales increased 5% on a reported basis and were flat on a comparable sales basis, as compared to the second quarter of Fiscal 2025. The reported increase was primarily attributable to mid-single-digit AUR growth, driven by selected changes to tickets and promotions, and an increase in new owned and operated stores, which was partially offset by a low-single-digit decline in unit volume. The spread between net sales and comparable net sales is primarily attributable to net new store openings and third-party channel performance.",
+                  "quote": "The reported increase was primarily attributable to mid-single-digit AUR growth, driven by selected changes to tickets and promotions, and an increase in new owned and operated stores, which was partially offset by a low-single-digit decline in unit volume. The spread between net sales and comparable net sales is primarily attributable to net new store openings and third-party channel performance.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ],
-              "statementOriginal": "전체 매출은 보고 기준 5% 늘었지만 기존점·디지털 기준으로는 제자리였고, 회사는 그 차이를 신규 출점과 제3자 채널 성과 때문이라고 설명했다 — 파트너십 채널의 매출액 자체는 공시에 따로 나오지 않는다.",
+              "statementOriginal": "회사는 보고 매출과 기존점 매출의 차이가 주로 신규 출점과 제3자 채널 성과 때문이라고 적었다.",
               "stripped": true
-            }
-          ],
-          "profitImpact": [
-            {
-              "id": "d1p1",
-              "statement": "아시아태평양은 영업손실이 260만 달러 줄었지만, 회사는 그 이유를 평균 판매단가 상승에 따른 매출원가 레버리지와 매장·마케팅·관리비 레버리지로 설명했을 뿐 제3자 채널 덕분이라고는 쓰지 않았다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
-                  "date": "2026-09-04",
-                  "quote": "Operating (loss) for the APAC region decreased $2.6 million or 840 basis points as a percentage of region net sales, as compared to the second quarter of Fiscal 2025. The decrease as a percent of sales was primarily attributed to leverage in cost of sales on higher AUR, as well as leverage of store-related, marketing and administrative expenses.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "expectedGrowth": [
-            {
-              "id": "d1e1",
-              "statement": "회사 가이던스(회사가 내놓은 전망)는 3분기 매출 5~6% 성장, 연간 약 5% 성장이지만 이는 회사 전체 수치이고 파트너십 채널만 떼어 낸 전망은 없다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
-                  "date": "2026-08-26",
-                  "quote": "Updates full-year outlook to net sales growth of around 5%, net income per diluted share of $13.10 to $13.60, share repurchases increased to at least $500 million … Third quarter outlook of net sales growth of 5% to 6%, net income per diluted share of $2.90 to $3.20, at least $100 million in share repurchases",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "counter": [
-            {
-              "id": "d1c1",
-              "statement": "같은 제3자 채널이 반대로도 움직인다 — 유럽·중동·아프리카는 연초부터 매출이 3% 줄었고 회사는 제3자 채널 물량 감소를 원인으로 들었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
-                  "date": "2026-09-04",
-                  "quote": "Net sales decline in the EMEA region of 3% and 8% on a reported and comparable basis, respectively. The decline on a reported basis was attributable to lower third-party volume, and a mid-single-digit decline in unit volume, partially offset by low-single-digit AUR growth and favorable foreign currency.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
             },
             {
-              "id": "d1c2",
-              "statement": "회사는 성장 전략의 위험 요인에 아시아태평양 사업의 전략적 대안 검토를 함께 적어 두었다.",
-              "evidence_level": "sourced",
+              "id": "d1r3",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
-                  "date": "2026-08-26",
-                  "quote": "risks related to our ability to execute on, and maintain the success of, our strategic and growth initiatives, including risks related to the review of strategic alternatives for our APAC region or any future strategic reviews or initiatives",
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Double-digit net sales growth across regions with Americas up 11%, EMEA up 12%, and APAC up 24%",
                   "verified": "ok",
                   "httpStatus": 200
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "what": "매장망 신규 출점과 리모델 — 디지털 침투율에 맞춰 매장 크기·위치를 다시 짜고 새 매장 경험을 연다",
-          "kind": "service",
-          "stage": "매출 발생 중",
-          "since": "2026",
-          "basis": [
-            {
-              "id": "d2b1",
-              "statement": "회사는 상반기에 새 매장 24개를 열고 40개를 리모델했으며, 올해 계획은 출점 50개·폐점 20개로 순증 30개, 리모델·규모 조정 80개다.",
-              "evidence_level": "sourced",
-              "sources": [
+                },
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
                   "date": "2026-09-04",
-                  "quote": "During the twenty-six weeks ended August 1, 2026, the Company opened 24 new stores, remodeled 40 stores and right-sized five stores, while closing seven stores. As part of this focus, the Company’s store investment plan includes delivering approximately 30 net store openings during Fiscal 2026 consisting of opening approximately 50 new stores, while closing approximately 20 stores, pending negotiations with our landlord partners. Additionally, the Company expects approximately 80 remodels and right-sizes during Fiscal 2026 , pending negotiations with our landlord partners.",
+                  "quote": "• Net sales growth in the APAC region of 19% and 13% on a reported and comparable sales basis, respectively. The increase on a reported basis was led by low-double-digit AUR growth, lower promotional activity, higher third-party volume, and mid-single-digit growth in unit volume.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
-              ]
+              ],
+              "statementOriginal": "아시아·태평양 매출은 3분기에 24% 늘었고, 회사는 2분기 19% 증가의 원인 가운데 하나로 제3자 채널 물량 증가를 들었다.",
+              "stripped": true
             },
             {
-              "id": "d2b2",
-              "statement": "분기 말 기준 직영 매장은 846개, 프랜차이즈가 운영하는 매장은 61개다.",
+              "id": "d1r4",
+              "statement": "8월 1일 기준 직영 점포는 846개이고, 프랜차이즈 점포는 61개다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
                   "date": "2026-09-04",
                   "quote": "As of August 1, 2026, the Company operated 846 retail stores and the Company’s franchisees operated 61 franchise stores across the Company’s regions and brands as detailed in the table below.",
@@ -9385,18 +9329,136 @@ window.NDEEP_DATA = {
               ]
             }
           ],
-          "revenueImpact": [
+          "profitImpact": [],
+          "expectedGrowth": [
             {
-              "id": "d2r1",
-              "statement": "회사는 최근 분기 매출 증가의 원인으로 평균 판매단가 상승과 함께 새로 연 직영 매장의 증가를 들었고, 판매 수량은 오히려 소폭 줄었다고 밝혔다.",
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026 회계연도 매출 성장률 약 6%, 4분기 약 7%다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
-                  "date": "2026-09-04",
-                  "quote": "The reported increase was primarily attributable to mid-single-digit AUR growth, driven by selected changes to tickets and promotions, and an increase in new owned and operated stores, which was partially offset by a low-single-digit decline in unit volume.",
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Increases full-year outlook to net sales growth of around 6%, net income per diluted share of $13.70 to $13.90, and maintains outlook for share repurchases of at least $500 million … • Fourth quarter outlook of net sales growth of around 7%, net income per diluted share of $4.40 to $4.60, at least $120 million in share repurchases",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "신규 출점 효과를 뺀 2분기 기존점 매출은 전사 기준 보합이었고 Hollister는 3% 감소였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
+                  "date": "2026-08-26",
+                  "quote": "• Net sales of $1.3 billion, up 5% as compared to last year, with comparable sales flat. … Hollister \n| 669,881 | 656,692 | 2% | (3)% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 남은 2026 회계연도에 미국으로 들여오는 모든 상품에 10~12.5%의 실효 관세율이 적용되는 것을 전망에 반영했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "(3) Reflects the estimated impact, net of planned mitigation efforts, of an effective 10% to 12.5% tariff rate on all goods imported into the United States for the remainder of fiscal 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "두 브랜드 동반 가속 — 제품·마케팅에 대한 고객 반응으로 Abercrombie와 Hollister 성장률이 2분기보다 함께 빨라졌다",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "3분기에 두 브랜드 모두 역대 최고 3분기 매출을 냈고, Abercrombie 브랜드가 12%, Hollister가 11% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Best-ever third quarter sales across brands, with Abercrombie brands up 12% and Hollister up 11%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "최고경영자는 지역과 브랜드 모두 2분기보다 성장률이 빨라졌고 개학 시즌에 Hollister가 11% 성장했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "Growth was balanced across regions and brands, with each seeing growth rates accelerate from second quarter levels. Hollister grew 11% in the important back-to-school quarter, and Abercrombie brands grew 12%. Disciplined inventory management supported higher average unit retail with lower than expected promotions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 전사 매출은 14억 달러로 1년 전보다 11% 늘어 16분기 연속 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Record third quarter net sales of $1.4 billion, up 11% to last year, the 16th consecutive quarter of growth, with comparable sales up 6%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "2분기에는 Abercrombie 브랜드가 8%, Hollister가 2% 성장했는데 3분기에 Hollister가 11%로 뛰었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
+                  "date": "2026-08-26",
+                  "quote": "• Best-ever second quarter sales across brands, led by Abercrombie brands up 8%, with Hollister up 2%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Best-ever third quarter sales across brands, with Abercrombie brands up 12% and Hollister up 11%",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9406,35 +9468,49 @@ window.NDEEP_DATA = {
           "profitImpact": [
             {
               "id": "d2p1",
-              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-              "evidence_level": "no_source",
+              "statement": "재고 관리로 평균 판매가가 오르고 프로모션이 예상보다 적어, 3분기 영업이익률 15.5%와 주당순이익 3.82달러(1년 전보다 62% 증가)가 회사 전망을 넘었다.",
+              "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
-                  "date": "2026-09-04",
-                  "quote": "The increase in rate was primarily driven by expense deleverage, including an approximate 190 basis point prior year benefit resulting from the Litigation Settlement, an approximate 110 basis point increase in store occupancy, payroll and other controllable costs, and an approximate 70 basis point increase in marketing.",
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Profitability exceeded outlook with operating margin of 15.5%, and 62% year-over-year growth in earnings per diluted share to $3.82 … Disciplined inventory management supported higher average unit retail with lower than expected promotions. Strong gross margin performance, coupled with operating expense leverage, led both operating margin and earnings per diluted share above our outlook.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
-              ],
-              "statementOriginal": "출점은 비용으로도 나타나, 상반기 판매비에서 매장 임차료·인건비 등 통제 가능 비용이 매출 대비 약 110bp(bp 는 0.01%p) 늘었다.",
-              "stripped": true
+              ]
+            },
+            {
+              "id": "d2p2",
+              "statement": "다만 3분기 영업이익과 주당순이익에는 관세 환급 효과 약 2,000만 달러와 주당 0.40달러가 들어 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Consistent with outlook, operating income and earnings per diluted share include IEEPA tariff refund benefits of approximately $20 million on a pre-tax basis and $0.40 per diluted share, respectively",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
             }
           ],
           "expectedGrowth": [
             {
               "id": "d2e1",
-              "statement": "회사는 올해 설비투자를 약 2.5억 달러로 잡았고, 상반기에 이미 1.294억 달러를 썼다(회사 전망).",
+              "statement": "회사 가이던스는 4분기 주당순이익 4.40~4.60달러, 연간 13.70~13.90달러다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
-                  "date": "2026-09-04",
-                  "quote": "For the year-to-date period ended August 1, 2026, the Company invested $129.4 million towards capital expenditures. Total capital expenditures for Fiscal 2026 are expected to be around $250 million.",
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Fourth quarter outlook of net sales growth of around 7%, net income per diluted share of $4.40 to $4.60, at least $120 million in share repurchases … • Increases full-year outlook to net sales growth of around 6%, net income per diluted share of $13.70 to $13.90, and maintains outlook for share repurchases of at least $500 million",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9444,15 +9520,31 @@ window.NDEEP_DATA = {
           "counter": [
             {
               "id": "d2c1",
-              "statement": "매출은 보고 기준 5% 늘었지만 기존점·디지털 기준으로는 제자리였고 판매 수량은 줄어, 새 매장이 더하는 매출이 기존 매장의 정체를 메우는 모양이다.",
+              "statement": "10월 말 재고는 7.63억 달러로 1년 전 7.30억 달러보다 늘었다 — 프로모션 축소를 이어 가기 어려워질 수 있다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                  "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
-                  "date": "2026-09-04",
-                  "quote": "For the second quarter of Fiscal 2026, net sales increased 5% on a reported basis and were flat on a comparable sales basis, as compared to the second quarter of Fiscal 2025. The reported increase was primarily attributable to mid-single-digit AUR growth, driven by selected changes to tickets and promotions, and an increase in new owned and operated stores, which was partially offset by a low-single-digit decline in unit volume.",
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "• Inventories of $763 million compared to $601 million and $730 million as of January 31, 2026 and November 1, 2025, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "회사는 고객 수요와 유행 변화를 읽지 못하고 재고·납품을 관리하지 못할 위험을 공시에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                  "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                  "date": "2026-11-24",
+                  "quote": "risks related to our failure to engage our customers, anticipate customer demand, expectations, and changing fashion trends, and manage our inventory and product delivery",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -9461,55 +9553,45 @@ window.NDEEP_DATA = {
           ]
         }
       ],
-      "growthLink": "코드 33 으로 보면 최근 세 분기 매출 증가율은 5.4% → 1.5% → 4.8%, 순이익률은 10.3% → 6.0% → 14.5% 로 셋이 나란히 오르는 흐름이 아니다. 가장 최근 분기의 순이익률 급등은 새 동력이 아니라 약 1억 달러의 관세 환급 때문으로, 회사도 주당순이익 4.17달러 가운데 1.75달러가 환급 효과라고 밝혔다. 매출 쪽 가속은 회사 설명대로 평균 판매단가 인상과 신규 출점이 만들었고, 파트너십·제3자 채널의 기여는 아직 따로 숫자로 볼 수 없다.",
+      "counter": "[{\"id\":\"c1\",\"statement\":\"관세 환급은 반복되지 않는다 — 회사는 2026 회계연도 환급을 1.2억 달러, 이자를 포함한 주당 효과를 2.15달러로 추정한다.\",\"evidence_level\":\"sourced\",\"sources\":[{\"title\":\"애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)\",\"publisher\":\"Abercrombie & Fitch Co. (SEC 공시)\",\"url\":\"https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm\",\"date\":\"2026-11-24\",\"quote\":\"(2) Reflects estimated International Emergency Economic Powers Act (“IEEPA”) tariff refunds of $120 million for full year fiscal 2026. Estimate excludes the assumed impact of accrued interest paid on tariff refunds. The company also estimates full year fiscal 2026 impact of tariff refunds on net income per diluted share, inclusive of interest, to be $2.15.\"}]},{\"id\":\"c2\",\"statement\":\"2분기 기존점 매출은 보합이었다 — 신규 출점과 채널을 빼면 수요 자체의 증가는 크지 않았다.\",\"evidence_level\":\"sourced\",\"sources\":[{\"title\":\"애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)\",\"publisher\":\"Abercrombie & Fitch Co. (SEC 공시)\",\"url\":\"https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm\",\"date\":\"2026-08-26\",\"quote\":\"• Net sales of $1.3 billion, up 5% as compared to last year, with comparable sales flat.\"}]},{\"id\":\"c3\",\"statement\":\"회사는 경쟁이 치열하고 끊임없이 변하는 산업에서 효과적으로 운영하지 못할 위험을 공시에 적었다.\",\"evidence_level\":\"sourced\",\"sources\":[{\"title\":\"애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)\",\"publisher\":\"Abercrombie & Fitch Co. (SEC 공시)\",\"url\":\"https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm\",\"date\":\"2026-11-24\",\"quote\":\"risks related to our failure to operate effectively in a highly competitive and constantly evolving industry\"}]}]",
+      "expectedGrowth": "[{\"id\":\"g1\",\"statement\":\"회사 가이던스는 2026 회계연도 매출 성장률 약 6%, 주당순이익 13.70~13.90달러이고 4분기는 매출 약 7% 성장·주당순이익 4.40~4.60달러다.\",\"evidence_level\":\"sourced\",\"sources\":[{\"title\":\"애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)\",\"publisher\":\"Abercrombie & Fitch Co. (SEC 공시)\",\"url\":\"https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm\",\"date\":\"2026-11-24\",\"quote\":\"• Increases full-year outlook to net sales growth of around 6%, net income per diluted share of $13.70 to $13.90, and maintains outlook for share repurchases of at least $500 million\"},{\"title\":\"애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)\",\"publisher\":\"Abercrombie & Fitch Co. (SEC 공시)\",\"url\":\"https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm\",\"date\":\"2026-11-24\",\"quote\":\"• Fourth quarter outlook of net sales growth of around 7%, net income per diluted share of $4.40 to $4.60, at least $120 million in share repurchases\"}]}]",
+      "profitImpact": "[{\"id\":\"p1\",\"statement\":\"3분기 영업이익률은 15.5%, 주당순이익은 1년 전보다 62% 증가한 3.82달러였고 회사는 총이익률 호조와 비용 레버리지를 이유로 들었다.\",\"evidence_level\":\"sourced\",\"sources\":[{\"title\":\"애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)\",\"publisher\":\"Abercrombie & Fitch Co. (SEC 공시)\",\"url\":\"https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm\",\"date\":\"2026-11-24\",\"quote\":\"• Profitability exceeded outlook with operating margin of 15.5%, and 62% year-over-year growth in earnings per diluted share to $3.82\"}]}]",
+      "revenueImpact": "[{\"id\":\"r1\",\"statement\":\"3분기 매출은 14억 달러로 1년 전보다 11% 늘었고 기존점 기준으로는 6% 증가였다.\",\"evidence_level\":\"sourced\",\"sources\":[{\"title\":\"애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)\",\"publisher\":\"Abercrombie & Fitch Co. (SEC 공시)\",\"url\":\"https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm\",\"date\":\"2026-11-24\",\"quote\":\"• Record third quarter net sales of $1.4 billion, up 11% to last year, the 16th consecutive quarter of growth, with comparable sales up 6%\"}]}]",
+      "ticker": "ANF",
+      "headline": "새 동력은 점포·제3자 채널 확장 — 올해 이익 급증의 상당 부분은 관세 환급",
+      "nVerdict": "부분 충족",
+      "growthLink": "코드 33으로 본 최근 3분기(2026년 1월·5월·8월 마감) 흐름은 매출 증가율 5.4%→1.5%→4.8%, 순이익 증가율 -2.9%→-16.5%→+29.9%, 순이익률 10.3%→6.0%→14.5%로 세 지표가 나란히 오르는 모양이 아니다. 10월 마감 3분기는 매출이 11%로 가속했고 회사는 그 이유로 제품·마케팅에 대한 고객 반응, 그리고 보고 매출과 기존점 매출의 차이를 만든 신규 출점·제3자 채널을 들었다.",
       "quality": {
         "newProduct": [
           {
-            "id": "q1a",
-            "statement": "CEO 는 파트너십·유통채널·제품 카테고리에 걸쳐 성장 수단을 더하고 있다고 밝혔지만, 어떤 제품·어떤 파트너인지는 공시에 적지 않았다.",
+            "id": "q1",
+            "statement": "회사는 인접 신규 상품군으로 확장하고 프랜차이즈·도매·라이선스 파트너십으로 채널을 넓히는 것을 올해 중점 과제로 적었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
-                "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
-                "date": "2026-08-26",
-                "quote": "Importantly, we are adding incremental growth levers across partnerships, distribution channels and product categories.",
+                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
+                "date": "2026-09-04",
+                "quote": "• Expand Channels and Categories by increasing net sales growth in new and select markets through the use of franchise, wholesale, and licensing partnerships. The Company also plans to expand into new, adjacent product categories that resonate with each brand’s target customer.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "marketShare": [
-          {
-            "id": "q2a",
-            "statement": "회사는 두 브랜드 모두 같은 분기 기준 사상 최대 매출을 냈다고 밝혔고 애버크롬비 브랜드가 8%, 홀리스터가 2% 늘었지만, 시장 점유율을 보여 주는 수치는 공시에 없다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
-                "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
-                "date": "2026-08-26",
-                "quote": "Best-ever second quarter sales across brands, led by Abercrombie brands up 8%, with Hollister up 2%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
+        "marketShare": [],
         "marketStructure": [
           {
-            "id": "q3a",
-            "statement": "회사 스스로 경쟁이 치열하고 끊임없이 변하는 산업이라고 위험 요인에 적었다 — 소수 기업이 지배하는 구조가 아니다.",
+            "id": "q2",
+            "statement": "회사 스스로 경쟁이 치열하고 끊임없이 변하는 산업이라고 적었다 — 소수가 지배하는 시장이라는 근거는 공시에 없다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "애버크롬비 앤드 피치 2분기 실적 보도자료 (2026-08-26)",
-                "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
-                "date": "2026-08-26",
+                "title": "애버크롬비 앤드 피치 3분기 실적 보도자료 (2026-11-24)",
+                "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+                "date": "2026-11-24",
                 "quote": "risks related to our failure to operate effectively in a highly competitive and constantly evolving industry",
                 "verified": "ok",
                 "httpStatus": 200
@@ -9519,32 +9601,34 @@ window.NDEEP_DATA = {
         ],
         "salesMargin": [
           {
-            "id": "q4a",
-            "statement": "회사는 소싱 거점 재검토·가격과 프로모션 조정·비용 절감을 묶은 전략으로 외부 비용 압력을 줄이겠다고 밝혔다.",
-            "evidence_level": "sourced",
+            "id": "q3",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
             "sources": [
               {
-                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                 "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
                 "date": "2026-09-04",
-                "quote": "Execute a Multifaceted Strategy that includes evaluating sourcing footprint, adjusting pricing or promotions, and expense reduction initiatives to stabilize product and operating costs in attempt to meaningfully mitigate external cost pressure, including near-term tariff impacts.",
+                "quote": "For the second quarter of Fiscal 2026, cost of sales, exclusive of depreciation and amortization, as a percentage of net sales decreased by approximately 850 basis points, as compared to the second quarter of Fiscal 2025. The percentage decrease was primarily attributable to cost of sales leverage from 690 basis points net tariff benefit which includes the impact of IEEPA tariff refunds and ongoing tariff expense, AUR growth driven by selected changes to tickets and promotions, partially offset by an approximate 20 basis point increase in freight costs.",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ]
+            ],
+            "statementOriginal": "2분기 매출원가율은 약 850bp(8.5%p) 내려갔는데, 그 가운데 690bp는 관세 환급을 포함한 순 관세 효과이고 나머지는 가격표·프로모션 조정에 따른 평균 판매가 상승이다.",
+            "stripped": true
           },
           {
-            "id": "q4b",
-            "statement": "키움증권은 1년 전 리포트에서 봄·여름 제품 가격 인상이 반영되기 시작하면 관세 부담이 점진적으로 완화될 것으로 봤다.",
+            "id": "q4",
+            "statement": "회사는 조달 지역 재검토, 가격·프로모션 조정, 비용 절감으로 외부 비용 압력을 줄이겠다고 적었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[애버크롬비 앤드 피치 (NYS:ANF)] 저점 통과, 점차 낮아지는 리스크",
-                "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxeecx.pdf",
-                "date": "2025-11-27",
-                "quote": "동사는 올해 12 월~내년 1 월부터 SS 제품에 대한 가격 인상이 반영되기 시작할 예정인데, 이에 그동안 수익성에 부담 요소 였던 관세 여파가 다음 분기부터는 점진적으로 완화될 것으로 전망된다.",
+                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
+                "date": "2026-09-04",
+                "quote": "• Execute a Multifaceted Strategy that includes evaluating sourcing footprint, adjusting pricing or promotions, and expense reduction initiatives to stabilize product and operating costs in attempt to meaningfully mitigate external cost pressure, including near-term tariff impacts.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -9553,32 +9637,32 @@ window.NDEEP_DATA = {
         ],
         "costProductivity": [
           {
-            "id": "q5a",
-            "statement": "회사는 관세 대응으로 공급망 거점 변경, 공급사와의 단가 협상, 판매관리비 절감, 평균 판매단가 인상 방안을 함께 쓰고 있다고 밝혔다.",
+            "id": "q5",
+            "statement": "회사는 핵심 시스템을 현대화하고 기술을 활용해 운영 생산성을 높이겠다고 적었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                 "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
                 "date": "2026-09-04",
-                "quote": "The Company continues to evaluate the impact of tariffs and other trade policies on its business and is executing against our playbook of mitigation strategies, which includes evaluating supply chain footprint changes, supply chain vendor negotiations, pursuing operating expense reductions, and determining ways to increase average unit retail (“AUR”).",
+                "quote": "• Enhance and Modernize our Key Systems and Leverage Technology to support operational productivity and to improve the customer journey.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "q5b",
-            "statement": "회사는 핵심 시스템을 새로 바꾸고 기술을 활용해 업무 생산성을 높이겠다고 밝혔다.",
+            "id": "q6",
+            "statement": "최근 도입한 전사적 자원관리(ERP) 시스템에서 기대한 효과를 내지 못할 위험을 회사가 공시에 적었다 — 시스템 교체가 아직 진행 중이라는 뜻이다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명",
-                "publisher": "애버크롬비 앤드 피치 (SEC 공시)",
+                "title": "애버크롬비 앤드 피치 10-Q 경영진 설명 (2026-09-04)",
+                "publisher": "Abercrombie & Fitch Co. (SEC 공시)",
                 "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm",
                 "date": "2026-09-04",
-                "quote": "Enhance and Modernize our Key Systems and Leverage Technology to support operational productivity and to improve the customer journey.",
+                "quote": "• risks and uncertainties related to the effectiveness and optimization of recently implemented enterprise resource planning (“ERP”) systems, including the ability to realize expected benefits and manage post-implementation activities;",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -9586,14 +9670,14 @@ window.NDEEP_DATA = {
           }
         ]
       },
-      "narrative": "회사가 공시에서 새로 더하고 있다고 밝힌 것은 파트너십·유통채널·제품 카테고리 확장과 매장망 재편 두 가지다. 프랜차이즈·도매·라이선스 파트너십은 공식 성장 과제로 적혀 있고, 아시아태평양 매출 19% 증가의 요인 가운데 하나로 제3자 채널 물량 증가가 들어 있다. 다만 파트너십 채널의 매출액이나 새 카테고리의 이름은 공시에 따로 나오지 않아 얼마나 기여했는지는 숫자로 확인할 수 없다. 매장은 상반기에 24개를 새로 열고 40개를 리모델했으며, 회사는 최근 분기 매출 증가의 원인으로 평균 판매단가 상승과 함께 새 매장 증가를 들었다. 문제는 성장의 성격이다 — 보고 기준 매출은 5% 늘었지만 기존점·디지털 기준으로는 제자리였고 판매 수량은 줄어, 가격과 신규 매장이 수량 감소를 메운 구조다. 이익 쪽은 더 분명하다. 순이익률이 6.0% 에서 14.5% 로 뛰었지만 회사는 주당순이익 4.17달러 중 1.75달러가 약 1억 달러 관세 환급 효과라고 밝혔고, 이는 반복되는 이익이 아니다. 기대 성장률은 회사 가이던스 기준 3분기 매출 5~6%, 연간 약 5% 성장이며 이는 회사 전체 수치다. 이 그림을 꺾을 수 있는 것은 유럽·중동·아프리카의 매출 3% 감소처럼 제3자 채널이 반대로 움직이는 경우, 아시아태평양 사업의 전략적 대안 검토, 그리고 가격 인상 효과가 한 바퀴 돌고 난 뒤의 수량 감소다. 미너비니식으로 보면 지금의 이익은 새 제품이 아니라 가격·출점·일회성 환급에서 나왔다는 점에서 질이 높지 않다.",
+      "narrative": "애버크롬비에서 새로운 것은 신제품이 아니라 판매 경로다. 회사는 올해 중점 과제로 프랜차이즈·도매·라이선스 파트너십을 통한 신규 시장 진출과 인접 상품군 확장을 적었고, 상반기에 새 점포 24개를 열었다(올해 계획은 약 50개 출점·20개 폐점). 3분기 보고 매출은 1년 전보다 11% 늘었지만 기존점(동일 점포·디지털) 기준으로는 6% 증가였고, 회사는 그 차이를 신규 출점과 제3자 채널 성과로 설명한다. 두 번째 동력은 두 브랜드의 동반 가속이다 — Abercrombie 브랜드 12%, Hollister 11%로 2분기(각각 8%·2%)보다 성장률이 빨라졌다. 이익 쪽은 재고 관리로 평균 판매가가 오르고 프로모션이 예상보다 줄어 3분기 영업이익률 15.5%, 주당순이익 3.82달러(1년 전보다 62% 증가)를 냈다. 다만 그 안에는 관세 환급 약 2,000만 달러와 주당 0.40달러가 들어 있고, 연간으로는 1.2억 달러·주당 2.15달러로 반복되지 않는 몫이다. 회사 가이던스(회사가 내놓은 전망)는 연간 매출 성장률 약 6%, 4분기 약 7%, 연간 주당순이익 13.70~13.90달러다. 이 그림을 꺾을 수 있는 것은 수요다 — 2분기 기존점 매출은 보합, Hollister 기존점은 3% 감소였고 10월 말 재고는 7.63억 달러로 1년 전 7.30억 달러보다 늘었다. 제3자 채널 매출을 회사가 따로 숫자로 떼어 밝히지 않아, 새 경로가 매출에 얼마를 보탰는지는 아직 확인되지 않는다.",
       "watch": [
-        "3분기 기존점·디지털 기준 매출(comparable sales)이 플러스로 돌아서는지 — 가격이 아니라 수요로 자라는지를 가른다",
-        "판매 수량(unit volume) 감소가 멈추는지 — 가격 인상 효과가 한 바퀴 돌면 매출 증가율이 먼저 꺾인다",
-        "관세 환급을 뺀 영업이익률이 회사가 제시한 3분기 13.0~14.0% 범위 안에 들어오는지",
-        "프랜차이즈·도매·라이선스 채널 매출이나 새 제품 카테고리를 회사가 숫자로 따로 공개하는지, 아시아태평양 전략적 대안 검토의 결론이 나오는지"
+        "4분기 기존점 매출 증가율이 3분기 6% 수준을 지키는지 — 신규 출점이 아니라 수요가 끌고 있는지 가린다",
+        "제3자 채널(프랜차이즈·도매·라이선스) 매출을 회사가 숫자로 공개하는지, 프랜차이즈 점포가 61개에서 늘어나는지",
+        "관세 환급(연간 1.2억 달러)이 빠진 2027 회계연도 영업이익률·주당순이익 가이던스가 두 자릿수 마진을 유지하는지",
+        "재고(10월 말 7.63억 달러)가 매출 증가율보다 빠르게 늘지 않는지 — 프로모션 축소를 이어 갈 수 있는지"
       ],
-      "sourceGap": "실적 발표 콜 원고와 회사 IR 발표 자료를 받지 못해 파트너십·신규 카테고리의 매출 기여를 경영진이 구두로 밝힌 내용은 확인하지 못했다. 국내 증권사 리포트는 1년 전 분기를 다룬 1건뿐이다.",
+      "sourceGap": "2026-11-24 실적 발표 콜 원고는 유료 벽으로 열지 못했고, 키움증권 리포트는 원문 PDF를 변환할 도구가 없어 요약만 봤다. 3분기 경영진 설명(10-Q)은 아직 공시되지 않아 매출 증가 원인은 2분기 10-Q로 확인했다.",
       "factcheck": {
         "verdict": "pass",
         "removed": [],
@@ -9601,19 +9685,19 @@ window.NDEEP_DATA = {
       },
       "status": "done",
       "v": 2,
-      "researchedOn": "2026-11-07",
-      "asOf": "2026-09-04",
-      "why": "지정",
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-11-24",
+      "why": "새 공시",
       "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-24)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+          "filingDate": "2026-11-24"
+        },
         {
           "label": "실적 보도자료 (2026-08-26)",
           "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm",
           "filingDate": "2026-08-26"
-        },
-        {
-          "label": "실적 보도자료 (2026-05-27)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000029/q12026pressrelease.htm",
-          "filingDate": "2026-05-27"
         },
         {
           "label": "10-Q 경영진 설명 (2026-09-04)",
@@ -9696,10 +9780,10 @@ window.NDEEP_DATA = {
         }
       ],
       "consensus": {
-        "saleCy": 4.98,
-        "saleNy": 4.41,
-        "epsCy": 28.56,
-        "epsNy": -0.56
+        "saleCy": 5.03,
+        "saleNy": 4.48,
+        "epsCy": 29.67,
+        "epsNy": -3.04
       }
     },
     "HNGE": {
@@ -11553,26 +11637,26 @@ window.NDEEP_DATA = {
     },
     "QLYS": {
       "ticker": "QLYS",
-      "headline": "새 AI 위험관리와 파트너 채널이 성장을 끌지만 제품별 매출 근거는 없다",
-      "nVerdict": "부분 충족",
+      "headline": "파트너 중심 영업 전환과 AI 위험 운영 센터 신기능이 매출 11% 성장을 지탱 — 가속은 아직 없다",
+      "nVerdict": "충족",
       "drivers": [
         {
-          "what": "Enterprise TruRisk Management(기업 위험 통합관리) 기반의 AI 네이티브 Risk Operations Center — 취약점을 실제 공격 가능 여부까지 검증해 조치로 넘기는 통합 플랫폼이고, 1분기에 에이전틱 AI 워크플로 Agent Val 이 추가됐다",
-          "kind": "product",
+          "what": "파트너 중심 영업 전환(partner-first) — 직판 대신 보안관제·클라우드·총판 파트너를 통해 파는 방식으로 매출 구조를 옮기는 중",
+          "kind": "service",
           "stage": "매출 발생 중",
-          "since": "2026",
+          "since": "",
           "basis": [
             {
               "id": "d1b1",
-              "statement": "회사는 1분기에 Enterprise TruRisk Management 안에서 돌아가는 에이전틱 AI 워크플로 Agent Val 을 내놨고, 위험이 큰 노출을 찾아 실제 악용 가능성을 검증한 뒤 조치 우선순위를 매긴다고 설명했다.",
+              "statement": "CEO 는 AI 기반 위험 운영 센터(ROC·보안 위험을 한 곳에서 찾아 고치는 체계) 채택 증가가 파트너 우선 전략에서 나왔다고 말했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 1분기 실적 보도자료 (2026-05-05)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505xex991.htm",
-                  "date": "2026-05-05",
-                  "quote": "Qualys introduced Agent Val, powered by TruConfirm, an agentic AI-led workflow in our Enterprise TruRisk Management solution. Agent Val identifies high-risk exposures, validates real exploitability, and drives prioritized remediation to help teams shift from chasing volume to reducing verified risk.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "“In Q3, we delivered another quarter of strong revenue growth and profitability,” said Sumedh Thakar, Qualys president and CEO. “Increasing adoption of our AI-native Risk Operations Center, driven by our partner-first strategy, reflects accelerating demand for a vendor-neutral platform that actually fixes security issues rather than just reporting them.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11580,15 +11664,15 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d1b2",
-              "statement": "CEO 는 1분기 실적이 AI 네이티브 Risk Operations Center 와 Enterprise TruRisk Management 채택 확대의 실제 효과를 일부 반영한 것이라고 말했다.",
+              "statement": "경영진 설명은 매출 증가분의 구성을 파트너 우선 영업 방식이 반영된 결과라고 직접 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 1분기 실적 보도자료 (2026-05-05)",
+                  "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505xex991.htm",
-                  "date": "2026-05-05",
-                  "quote": "This quarter's solid results in part reflect the tangible impact of our AI-native Risk Operations Center and growing adoption of our Enterprise TruRisk Management solution, continuous innovation, expanding partner ecosystem, and promising early engagement from QFlex.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Of the total increase of $18.2 million, $19.9 million increase was from partners, offset by $1.7 million decrease from direct, which is reflective of our partner-first go-to-market strategy.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11598,15 +11682,15 @@ window.NDEEP_DATA = {
           "revenueImpact": [
             {
               "id": "d1r1",
-              "statement": "2분기 매출은 1.822억 달러로 1년 전 1.641억 달러보다 11% 늘었다.",
+              "statement": "3분기 매출은 1년 전보다 1,820만 달러 늘었는데, 파트너에서 1,990만 달러가 늘고 직판은 170만 달러 줄어 증가분 전부가 파트너 채널에서 나왔고 분기 매출의 55% 가 파트너 몫이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                  "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Revenues: Revenues for the second quarter of 2026 increased by 11% to $182.2 million compared to $164.1 million for the same quarter in 2025.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Of the total increase of $18.2 million, $19.9 million increase was from partners, offset by $1.7 million decrease from direct, which is reflective of our partner-first go-to-market strategy. In the three months ended September 30, 2026, 45% of total revenue was direct and the remaining 55% was from partners.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11614,15 +11698,24 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d1r2",
-              "statement": "매출 증가액 1810만 달러의 원인을 회사는 최종 고객의 구독 서비스 수요 증가라고만 적었고, 제품별 매출은 공개하지 않는다.",
+              "statement": "3분기 매출은 1년 전보다 11% 늘어 1.880억 달러였고, 회사는 증가 원인을 최종 고객의 구독 서비스 수요 증가로 설명했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                  "date": "2026-08-04",
-                  "quote": "Revenues increased by $18.1 million for the three months ended June 30, 2026 compared to the same period in 2025, driven by increased demand for our subscription services by our end customers .",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Revenues: Revenues for the third quarter of 2026 increased by 11% to $188.0 million compared to $169.9 million for the same quarter in 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "Qualys, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Revenues increased by $18.2 million for the three months ended September 30, 2026 compared to the same period in 2025, driven by increased demand for our subscription services by our end customers .",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11632,15 +11725,31 @@ window.NDEEP_DATA = {
           "profitImpact": [
             {
               "id": "d1p1",
-              "statement": "2분기 GAAP(회계 기준) 영업이익은 6190만 달러로 1년 전보다 20% 늘어 매출의 34%를 차지했고 1년 전 31%보다 높아졌지만, 회사는 이 개선이 어느 제품에서 왔는지는 밝히지 않았다.",
+              "statement": "파트너 전환에도 판매 비용은 늘었다 — 3분기 영업·마케팅비가 1년 전보다 16%, 570만 달러 증가했고 인건비와 영업 수수료가 주된 이유였다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                  "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Operating Income: GAAP operating income for the second quarter of 2026 increased by 20% to $61.9 million compared to $51.4 million for the same quarter in 2025. As a percentage of revenues, GAAP operating income was 34% for the second quarter of 2026 compared to 31% for the same quarter in 2025.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Sales and marketing | $ | 40,948 | $ | 35,280 | $ | 5,668 | 16 | % | $ | 120,732 | $ | 103,750 | $ | 16,982 | 16 | % | … Sales and marketing expenses increased by $5.7 million for the three months ended September 30, 2026 compared to the same period in 2025, primarily due to an increase in personnel costs, including stock-based compensation, of $3.8 million, driven by an increase in headcount and higher sales commissions and incentive compensation, an increase in sales events and sponsorships of $1.3 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "먼저 받은 돈을 반영한 당기 청구액은 1년 전보다 14% 늘어 2.119억 달러였고, 전년 같은 분기 증가율 11% 보다 빨랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "Qualys, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Non-GAAP Calculated current billings | $ | 211,932 | $ | 186,387 | \nCalculated current billings growth compared to same quarter of prior year | 14 | % | 11 | %",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11650,31 +11759,15 @@ window.NDEEP_DATA = {
           "expectedGrowth": [
             {
               "id": "d1e1",
-              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 연간 매출 7.32억~7.38억 달러로 2025년보다 9~10% 성장이며, 종전 7.21억~7.27억 달러에서 올렸다.",
+              "statement": "회사 가이던스(회사가 내놓은 전망)로 4분기 매출은 1.910억~1.930억 달러, 1년 전보다 9~10% 증가다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Full Year 2026 Guidance: Management now expects revenues for the full year of 2026 to be in the range of $732.0 million to $738.0 million, representing 9% to 10% growth over 2025. This compares to the previous guidance range of $721.0 million to $727.0 million.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d1e2",
-              "statement": "회사 가이던스로는 3분기 매출이 1.855억~1.875억 달러, 1년 전 같은 분기보다 9~10% 성장이다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
-                  "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Third Quarter 2026 Guidance: Management expects revenues for the third quarter of 2026 to be in the range of $185.5 million to $187.5 million, representing 9% to 10% growth over the same quarter in 2025.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Fourth Quarter 2026 Guidance: Management expects revenues for the fourth quarter of 2026 to be in the range of $191.0 million to $193.0 million, representing 9% to 10% growth over the same quarter in 2025.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11684,15 +11777,15 @@ window.NDEEP_DATA = {
           "counter": [
             {
               "id": "d1c1",
-              "statement": "회사가 내놓은 3분기 성장률 전망은 9~10%로, 2분기에 실제로 기록한 11%보다 낮다.",
+              "statement": "회사 가이던스 기준 4분기 성장률 9~10% 는 3분기 11% 보다 낮아, 영업 방식 전환이 성장률을 끌어올린다는 그림은 아직 숫자로 확인되지 않는다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Third Quarter 2026 Guidance: Management expects revenues for the third quarter of 2026 to be in the range of $185.5 million to $187.5 million, representing 9% to 10% growth over the same quarter in 2025. … Revenues: Revenues for the second quarter of 2026 increased by 11% to $182.2 million compared to $164.1 million for the same quarter in 2025.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Qualys Announces Third Quarter 2026 Financial Results \nQ3 Revenue Growth of 11% Year-Over-Year \nRaises 2026 Revenue Guidance to $736.9-$738.9 million … Fourth Quarter 2026 Guidance: Management expects revenues for the fourth quarter of 2026 to be in the range of $191.0 million to $193.0 million, representing 9% to 10% growth over the same quarter in 2025.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11700,30 +11793,14 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d1c2",
-              "statement": "2분기 매출 증가분의 97%가 이미 있던 고객에서 나왔고 새 고객 몫은 3%에 그쳐, 새 제품이 새 고객을 끌어온다는 증거는 아직 얇다.",
+              "statement": "회사는 고객이 IT 보안 지출을 줄이거나 없앨 수 있고 영업 기간이 길어지는 환경을 위험으로 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                  "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                  "date": "2026-08-04",
-                  "quote": "Of the total increase of $18.1 million in revenues , 97% was from revenues from customers existing prior to April 1, 2026, and the remaining 3% was from new customers added in the three months ended June 30, 2026.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d1c3",
-              "statement": "회사는 지출 축소와 영업 주기 지연 같은 거시 환경 때문에 고객이 IT 보안 지출을 줄이거나 없앨 수 있다고 공시에 적었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
-                  "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                  "date": "2026-08-04",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                  "date": "2026-11-09",
                   "quote": "The uncertainty surrounding macroeconomic factors in the U.S. and globally characterized by inflationary pressure, high interest rates, significant volatility of global markets, reduced spending and extended sales cycles, tariff and non-tariff trade barriers, economic and regulatory uncertainty, and geopolitical conflicts could have a material adverse effect on our long-term business and could lead to further economic disruption and expose us to greater risk as our current and potential customers may reduce or eliminate their overall spending on IT security.",
                   "verified": "ok",
                   "httpStatus": 200
@@ -11733,22 +11810,22 @@ window.NDEEP_DATA = {
           ]
         },
         {
-          "what": "파트너(채널) 주도 판매로의 이동 — 1분기에 파트너용 Risk Operations Center 포털(mROC)을 열어 파트너가 고객의 위험을 한 화면에서 보고 조치까지 끌고 가도록 했다",
-          "kind": "service",
+          "what": "AI 기반 위험 운영 센터(ROC) 신기능 — 스캔 없이 취약점을 찾는 InstaScan, 스스로 패치하는 TruRisk Eliminate, AI 사용을 통제하는 TotalAI 거버넌스",
+          "kind": "product",
           "stage": "매출 발생 중",
           "since": "2026",
           "basis": [
             {
               "id": "d2b1",
-              "statement": "회사는 파트너가 Risk Operations Center 를 확장해 쓸 수 있도록 mROC 포털을 새로 열어, 고객의 공격면 전체에 걸친 위험을 한눈에 보게 했다.",
+              "statement": "3분기에 권고가 공개된 뒤 몇 분 안에 스캔 없이 취약점을 찾아내는 InstaScan 을 Enterprise TruRisk Management 안에 내놨다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 1분기 실적 보도자료 (2026-05-05)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505xex991.htm",
-                  "date": "2026-05-05",
-                  "quote": "To help partners scale the ROC, Qualys introduced the Risk Operations Center (mROC) portal, providing partners with a unified view of risk across each customer’s entire attack surface, empowering them to act on exposures that drive real risk and prove measurable risk reduction through built-in intelligence, validation, and closed-loop execution.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Qualys introduced InstaScan, powered by Agent Insta in Enterprise TruRisk Management, delivering scanless vulnerability detection within minutes of advisory disclosure. By continuously correlating new advisories with existing asset, exposure, and threat telemetry, InstaScan eliminates the multi-day detection gap created by traditional scan cycles, enabling customers to begin validation and remediation before adversaries can act.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11756,15 +11833,15 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d2b2",
-              "statement": "CEO 는 2분기 수요의 배경으로 파트너 주도 실행이 강했던 점을 함께 들었다.",
+              "statement": "같은 분기에 AI 패치 신뢰도 점수와 자율 복구를 더한 TruRisk Eliminate, AI 에이전트와 MCP 서버까지 찾아내는 TotalAI 거버넌스 기능을 추가했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "Qualys’ continuous innovation spanning AI for security and security for AI, growing AI-native Risk Operations Center adoption powered by our Enterprise TruRisk Management solution, a growing federal pipeline of new business opportunity, strong partner-led execution, and promising early QFlex engagement continue to reinforce the demand we’re seeing for a unified risk management platform",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Qualys advanced its TruRisk Eliminate capabilities with AI-powered Patch Reliability Scoring, wave-based autonomous remediation, and peer-to-peer patching, enabling organizations to rapidly remediate zero-day vulnerabilities and misconfigurations while maintaining operational stability with reduced dependency on centralized infrastructure. … Qualys expanded TotalAI with governance capabilities that help CISOs reduce shadow AI, flag abnormal model behavior, and demonstrate that controls are working across development and runtime environments. Enhancements include discovery of AI agents and MCP servers, red-team testing against OWASP Top 10 and EU AI Act standards, and audit-ready evidence generation.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11774,31 +11851,15 @@ window.NDEEP_DATA = {
           "revenueImpact": [
             {
               "id": "d2r1",
-              "statement": "2분기 매출 증가액 1810만 달러 가운데 98%가 파트너를 통해 들어왔고, 전체 매출에서 파트너 비중은 54%다.",
+              "statement": "제품별 매출은 공개하지 않고, 3분기 매출 증가분의 96% 가 7월 1일 이전부터 있던 고객에서 나와 기존 고객의 구독 확대가 대부분이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                  "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                  "date": "2026-08-04",
-                  "quote": "Of the total increase of $18.1 million, 2% was from direct customers and the remaining 98% was from partners. In the three months ended June 30, 2026, 46% of total revenue was direct and the remaining 54% was from partners.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "d2r2",
-              "statement": "상반기로 넓혀 봐도 매출 증가액 3390만 달러의 93%가 파트너 몫이었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
-                  "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                  "date": "2026-08-04",
-                  "quote": "Of the total increase of $33.9 million , 7% was from direct customers and the remaining 93% was from partners. In the six months ended June 30, 2026, 47% of total revenue was direct and the remaining 53% was from partners.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Of the total increase of $18.2 million in revenues , 96% was from revenues from customers existing prior to July 1, 2026, and the remaining 4% was from new customers added in the three months ended September 30, 2026.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11808,52 +11869,108 @@ window.NDEEP_DATA = {
           "profitImpact": [
             {
               "id": "d2p1",
-              "statement": "파트너 비중이 커지는 동안에도 2분기 GAAP 매출총이익률은 83%로 1년 전 82%보다 높아졌다.",
+              "statement": "3분기 GAAP 영업이익(회계 기준 영업이익)은 1년 전보다 11% 늘어 6,630만 달러였지만 매출 대비 비중은 두 분기 모두 35% 로 같았다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
-                  "quote": "GAAP gross margin was 83% for the second quarter of 2026 compared to 82% for the same quarter in 2025.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Operating Income: GAAP operating income for the third quarter of 2026 increased by 11% to $66.3 million compared to $60.0 million for the same quarter in 2025. As a percentage of revenues, GAAP operating income was 35% for both the third quarter of 2026 and for the same quarter in 2025.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             }
           ],
-          "expectedGrowth": [],
-          "counter": [
+          "expectedGrowth": [
             {
-              "id": "d2c1",
-              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-              "evidence_level": "no_source",
+              "id": "d2e1",
+              "statement": "회사 가이던스로 2026년 전체 매출은 7.369억~7.389억 달러, 2025년보다 10% 증가이며 직전 전망 7.320억~7.380억 달러에서 올렸다.",
+              "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                  "date": "2026-08-04",
-                  "quote": "Sales and marketing expenses increased by $5.2 million for the three months ended June 30, 2026 compared to the same period in 2025, primarily due to an increase in personnel costs, including stock-based compensation, of $4.6 million, driven by an increase in headcount and higher sales commissions and incentive compensation, and the remaining increase of $0.6 million was primarily attributable to overhead allocations, travel expenses, and sales events and sponsorships.",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "Full Year 2026 Guidance: Management now expects revenues for the full year of 2026 to be in the range of $736.9 million to $738.9 million, representing 10% growth over 2025. This compares to the previous guidance range of $732.0 million to $738.0 million.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
-              ],
-              "statementOriginal": "파트너 비중이 커지는 와중에도 판매·마케팅비는 2분기에 520만 달러(15%) 늘었고, 대부분이 인원 증가와 판매 수수료였다.",
-              "stripped": true
+              ]
+            },
+            {
+              "id": "d2e2",
+              "statement": "회사 가이던스로 2026년 전체 GAAP 주당순이익은 6.08~6.15달러, 일회성을 뺀 회사 기준(비GAAP)은 8.07~8.14달러로 둘 다 직전 전망보다 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "Qualys, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "GAAP net income per diluted share is now expected to be in the range of $6.08 to $6.15, up from the previous guidance range of $5.76 to $5.90. This assumes an effective income tax rate of 22%. Non-GAAP net income per diluted share is now expected to be in the range of $8.07 to $8.14, up from the previous guidance range of $7.74 to $7.88.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "클라우드 운영비와 인건비가 늘어 3분기 매출원가가 13% 증가하면서 GAAP 매출총이익률은 1년 전 84% 에서 83% 로 내려갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "Qualys, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "GAAP gross margin was 83% for the third quarter of 2026 compared to 84% for the same quarter in 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
+                  "publisher": "Qualys, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                  "date": "2026-11-09",
+                  "quote": "Cost of revenues | $ | 31,362 | $ | 27,798 | $ | 3,564 | 13 | % | $ | 91,596 | $ | 85,601 | $ | 5,995 | 7 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "회사는 신제품이 의도대로 작동할지, 고객이 새 솔루션을 받아들일지, 경쟁 제품이 어떻게 나올지를 모두 위험으로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
+                  "publisher": "Qualys, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
+                  "quote": "These risks include our ability to continue to develop platform capabilities and solutions; the ability of our platform and solutions to perform as intended; customer acceptance and purchase of our existing solutions and new solutions; real or perceived defects, errors or vulnerabilities in our products or services; our ability to retain existing customers and generate new customers; the budgeting cycles and seasonal buying patterns of our customers",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
             }
           ]
         },
         {
-          "what": "TotalCloud 의 FedRAMP High 인증 — 미 마약단속국(DEA) 후원으로 받아 연방기관이 FedRAMP 장터에서 바로 구매할 수 있게 됐다",
-          "kind": "product",
+          "what": "연방정부 시장 진입 — TotalCloud 의 FedRAMP High 인증(미국 마약단속국 후원)으로 클라우드 보안 제품이 연방기관 조달 장터에 올랐다",
+          "kind": "contract",
           "stage": "출시",
           "since": "2026",
           "basis": [
             {
               "id": "d3b1",
-              "statement": "TotalCloud 가 DEA 후원으로 FedRAMP High 인증을 받아 정부 플랫폼 인증 범위에 클라우드 보안 기능이 들어갔고, 연방기관이 FedRAMP 장터에서 살 수 있게 됐다.",
+              "statement": "TotalCloud 가 미국 마약단속국 후원으로 FedRAMP High 인증을 받아 연방기관이 조달 장터에서 바로 쓸 수 있게 됐다.",
               "evidence_level": "sourced",
               "sources": [
                 {
@@ -11869,7 +11986,7 @@ window.NDEEP_DATA = {
             },
             {
               "id": "d3b2",
-              "statement": "CEO 는 연방정부 쪽 신규 사업 파이프라인이 커지고 있다고 말했으나 금액은 밝히지 않았다.",
+              "statement": "CEO 는 2분기에 연방정부 신규 영업 기회가 쌓이고 있다고 말했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
@@ -11877,7 +11994,7 @@ window.NDEEP_DATA = {
                   "publisher": "Qualys, Inc. (SEC 공시)",
                   "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
                   "date": "2026-08-04",
-                  "quote": "a growing federal pipeline of new business opportunity, strong partner-led execution, and promising early QFlex engagement continue to reinforce the demand we’re seeing for a unified risk management platform",
+                  "quote": "Qualys’ continuous innovation spanning AI for security and security for AI, growing AI-native Risk Operations Center adoption powered by our Enterprise TruRisk Management solution, a growing federal pipeline of new business opportunity, strong partner-led execution, and promising early QFlex engagement continue to reinforce the demand we’re seeing for a unified risk management platform",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -11890,14 +12007,14 @@ window.NDEEP_DATA = {
           "counter": [
             {
               "id": "d3c1",
-              "statement": "회사는 플랫폼에 적용되는 정부 인증을 계속 유지하는 것 자체를 위험 요인으로 적어 뒀다.",
+              "statement": "회사는 플랫폼에 적용되는 정부 인증을 계속 유지할 수 있을지를 위험 요인으로 적었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                  "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                   "publisher": "Qualys, Inc. (SEC 공시)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                  "date": "2026-08-04",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                  "date": "2026-11-09",
                   "quote": "our ability to maintain government authorizations applicable to our platform; general market, political, economic and business conditions in the United States as well as globally",
                   "verified": "ok",
                   "httpStatus": 200
@@ -11907,20 +12024,20 @@ window.NDEEP_DATA = {
           ]
         }
       ],
-      "growthLink": "코드 33 은 셋 다 상승이 아니다 — 매출 증가율은 1분기 9.8%에서 2분기 11%로 올랐지만 순이익률은 28.8%에서 제자리였고 순이익 증가율도 함께 오르지 않았다. 회사는 2분기 매출 증가액 1810만 달러의 원인을 구독 서비스 수요 증가라고만 적고 제품별 매출을 공개하지 않아, 이 재가속을 특정 동력에 숫자로 연결할 공시 근거는 없다. 연결에 가장 가까운 것은 CEO 가 1분기 실적이 Risk Operations Center 와 Enterprise TruRisk Management 채택의 실제 효과를 일부 반영한다고 말한 문장인데, 그 말에는 금액이 붙어 있지 않다.",
+      "growthLink": "코드 33 은 세 조건 모두 미충족이다 — 최근 3분기 매출 증가율은 10.1% → 9.8% → 11.0%, 순이익률은 30.3% → 28.8% → 28.8% 로 오르지 않았다. 회사는 매출 증가 원인을 최종 고객의 구독 서비스 수요 증가로만 쓰고, 증가분 1,820만 달러 중 1,990만 달러가 파트너에서 나왔고 직판은 170만 달러 줄었다고 밝혔다 — 성장의 모양을 바꾼 것은 신제품이 아니라 판매 경로 전환이다. 신제품이 성장률을 끌어올렸다는 연결 근거는 공시에 없다.",
       "quality": {
         "newProduct": [
           {
             "id": "q1a",
-            "statement": "1분기에 나온 Agent Val 은 위험이 큰 노출을 찾아 실제 악용 가능성을 검증하고 조치 우선순위를 매기는 에이전틱 AI 워크플로다.",
+            "statement": "3분기에 권고 공개 수분 안에 스캔 없이 취약점을 찾아내는 InstaScan 을 Enterprise TruRisk Management 안에 출시했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 1분기 실적 보도자료 (2026-05-05)",
+                "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505xex991.htm",
-                "date": "2026-05-05",
-                "quote": "Qualys introduced Agent Val, powered by TruConfirm, an agentic AI-led workflow in our Enterprise TruRisk Management solution. Agent Val identifies high-risk exposures, validates real exploitability, and drives prioritized remediation to help teams shift from chasing volume to reducing verified risk.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                "date": "2026-11-09",
+                "quote": "Qualys introduced InstaScan, powered by Agent Insta in Enterprise TruRisk Management, delivering scanless vulnerability detection within minutes of advisory disclosure.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -11930,15 +12047,15 @@ window.NDEEP_DATA = {
         "marketShare": [
           {
             "id": "q2a",
-            "statement": "기존 고객이 1년 전보다 얼마나 더 쓰는지를 보여주는 순달러 확장률은 6월 말 105%로 1년 전 104%보다 올랐다.",
+            "statement": "기존 고객이 1년 동안 얼마나 더 쓰는지를 보는 순달러 확장률은 2026년 9월 말 105% 로 1년 전 104% 보다 올랐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                "date": "2026-08-04",
-                "quote": "Our net dollar expansion rates were 105% and 104% as of June 30, 2026 and June 30, 2025, respectively.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Our net dollar expansion rates were 105% and 104% as of September 30, 2026 and September 30, 2025, respectively.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -11946,15 +12063,15 @@ window.NDEEP_DATA = {
           },
           {
             "id": "q2b",
-            "statement": "회사가 참고용으로 내놓는 당기 빌링(그 분기에 청구한 금액)은 2분기에 1년 전보다 16% 늘어, 1년 전 같은 분기의 8%보다 빨라졌다.",
+            "statement": "외부 평가에서는 2026년 포레스터 웨이브 선제적 보안 플랫폼 부문에서 현재 제공 역량 최고점을 받았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                "date": "2026-08-04",
-                "quote": "Calculated current billings growth compared to same quarter of prior year | 16 | % | 8 | %",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                "date": "2026-11-09",
+                "quote": "Qualys received the highest score for best current offering in the 2026 Forrester Wave for Proactive Security Platforms, was named a Leader in the IDC MarketScape for Worldwide DAST, earned the highest-rated Champion designation in the Info-Tech Research Group Emotional Footprint for Vulnerability Management, and was named a Leader in the Frost and Sullivan Radar for Cloud Workload Protection Platforms.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -11964,15 +12081,15 @@ window.NDEEP_DATA = {
         "marketStructure": [
           {
             "id": "q3a",
-            "statement": "클라우드 네이티브 애플리케이션 보호(CNAPP) 분야에서 Forrester 는 리더를 세 곳만 꼽았고 Qualys 가 그중 하나다.",
+            "statement": "소수 기업이 지배하는 구조라는 근거는 공시에 없고, 회사는 오히려 시장 내 경쟁 심화를 위험으로 적었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 1분기 실적 보도자료 (2026-05-05)",
+                "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505xex991.htm",
-                "date": "2026-05-05",
-                "quote": "recognized by Forrester as one of only three Leaders in The Forrester Wave™: Cloud Native Application Protection Platform (CNAPP), Q1 2026 , and positioned as a Leader in the 2026 GigaOm Radar report for Cloud Identity Entitlement Management (CIEM).",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "• the effects of increased competition in our market;",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -11980,15 +12097,15 @@ window.NDEEP_DATA = {
           },
           {
             "id": "q3b",
-            "statement": "연방기관과 규제가 심한 조직에 팔려면 FedRAMP High 같은 정부 인증이 필요하고, TotalCloud 가 그 인증을 받아 FedRAMP 장터에 올랐다.",
+            "statement": "회사는 전 세계 1만 개가 넘는 조직이 쓰고 있고 포춘 100 기업 대부분이 고객이라고 밝혔다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 2분기 실적 보도자료 (2026-08-04)",
+                "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
-                "date": "2026-08-04",
-                "quote": "This extends the Qualys Government Platform's authorization to include Cloud-Native Application Protection Platform (CNAPP) capabilities and makes TotalCloud available through the FedRAMP Marketplace for federal agencies and other highly regulated organizations.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                "date": "2026-11-09",
+                "quote": "Trusted by more than 10,000 organizations globally, including most of the Fortune 100, Qualys helps customers transform cybersecurity into a measurable business function that strengthens resilience and drives business outcomes.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -11998,15 +12115,15 @@ window.NDEEP_DATA = {
         "salesMargin": [
           {
             "id": "q4a",
-            "statement": "회사는 영업 인원과 판매 수수료를 늘리는 쪽에 돈을 쓰고 있고, 그 결과 2분기 판매·마케팅비가 520만 달러 늘었으며 그중 460만 달러가 인건비였다.",
+            "statement": "회사는 플랫폼의 새 솔루션을 밀기 위해 영업·마케팅 조직과 마케팅 프로그램에 계속 투자하겠다고 적었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                "date": "2026-08-04",
-                "quote": "Sales and marketing expenses increased by $5.2 million for the three months ended June 30, 2026 compared to the same period in 2025, primarily due to an increase in personnel costs, including stock-based compensation, of $4.6 million, driven by an increase in headcount and higher sales commissions and incentive compensation, and the remaining increase of $0.6 million was primarily attributable to overhead allocations, travel expenses, and sales events and sponsorships.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "We expect to continue to invest in sales and marketing teams and also in more marketing programs to support new solutions on our platform, which in turn, is expected to increase sales and marketing expenses in absolute dollars.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -12014,7 +12131,7 @@ window.NDEEP_DATA = {
           },
           {
             "id": "q4b",
-            "statement": "회사는 Converge 와 공동 상품을 내놓아, Enterprise TruRisk Management 로 보안 관리를 증명한 고객이 사이버보험료를 깎을 수 있게 했다.",
+            "statement": "보안 관리를 증명한 고객이 사이버보험료를 깎을 수 있게 하는 Converge 와의 공동 상품도 2분기에 내놨다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -12032,15 +12149,15 @@ window.NDEEP_DATA = {
         "costProductivity": [
           {
             "id": "q5a",
-            "statement": "연구개발비는 2분기에 40만 달러, 1%만 늘었고 인건비는 보수 단가와 지역 구성이 바뀌어 오히려 30만 달러 줄었다.",
+            "statement": "9개월 연구개발비는 1년 전보다 2% 만 늘어, 같은 기간 매출 증가율 11% 보다 훨씬 낮았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                "title": "퀄리스 10-Q 경영진 설명 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                "date": "2026-08-04",
-                "quote": "Research and development expenses increased by $0.4 million for the three months ended June 30, 2026 compared to the same period in 2025, primarily due to an increase in overhead allocations of $1.0 million, partially offset by a decrease in shared cloud platform cost of $0.3 million, and lower average personnel costs, including stock-based compensation, driven by lower average grant-date fair value and geographic mix of the increased headcount to support product development, resulting in cost savings of $0.3 million.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+                "date": "2026-11-09",
+                "quote": "Research and development | $ | 30,222 | $ | 28,927 | $ | 1,295 | 4 | % | $ | 89,927 | $ | 88,330 | $ | 1,597 | 2 | % | … Revenues | $ | 188,049 | $ | 169,882 | $ | 18,167 | 11 | % | $ | 545,862 | $ | 493,843 | $ | 52,019 | 11 | % |",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -12048,32 +12165,30 @@ window.NDEEP_DATA = {
           },
           {
             "id": "q5b",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
+            "statement": "3분기 영업활동 현금흐름은 1년 전보다 13% 늘어 1.018억 달러, 매출의 54% 였다.",
+            "evidence_level": "sourced",
             "sources": [
               {
-                "title": "퀄리스 10-Q 경영진 설명 (2026-08-04)",
+                "title": "퀄리스 3분기 실적 보도자료 (2026-11-09)",
                 "publisher": "Qualys, Inc. (SEC 공시)",
-                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-                "date": "2026-08-04",
-                "quote": "Cost of revenues increased by $1.4 million for the three months ended June 30, 2026 compared to the same period in 2025, primarily due to an increase in personnel costs of $0.9 million, driven by additional employees hired to support the growth of our business, an increase in shared cloud platform costs of $0.4 million, and an increase of $0.6 million primarily attributable to overhead allocations and other costs. The increase was partially offset by a decrease in depreciation and amortization expense of $0.5 million resulting from certain of our assets that became fully depreciated or amortized.",
+                "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+                "date": "2026-11-09",
+                "quote": "Operating Cash Flow: Operating cash flow for the third quarter of 2026 increased by 13% to $101.8 million compared to $90.4 million for the same quarter in 2025. As a percentage of revenues, operating cash flow was 54% for the third quarter of 2026 compared to 53% for the same quarter in 2025.",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ],
-            "statementOriginal": "매출원가는 2분기에 140만 달러, 5% 늘었는데 다 쓴 자산의 감가상각비가 50만 달러 줄어 증가분을 일부 상쇄했다.",
-            "stripped": true
+            ]
           }
         ]
       },
-      "narrative": "새로운 것은 분명히 있다. 회사는 취약점을 찾는 데서 끝내지 않고 실제 악용 가능성까지 검증해 조치로 넘기는 AI 네이티브 Risk Operations Center 를 Enterprise TruRisk Management 위에 올렸고, 1분기에는 그 안에서 돌아가는 에이전틱 AI 워크플로 Agent Val 을 내놨다. 판매 방식도 바뀌었다 — 파트너용 mROC 포털을 열었고, 2분기 매출 증가액 1810만 달러의 98%가 파트너를 통해 들어왔으며 전체 매출에서 파트너 비중은 54%다. 세 번째 축은 연방정부로, TotalCloud 가 DEA 후원으로 FedRAMP High 인증을 받아 FedRAMP 장터에 올랐지만 아직 매출 숫자는 없다. 문제는 매출·이익으로의 연결이다. 2분기 매출은 1.822억 달러로 1년 전보다 11% 늘었지만 회사는 그 원인을 구독 서비스 수요 증가라고만 적고 제품별 매출을 내놓지 않아, 어느 신제품이 얼마를 벌었는지는 알 수 없다. 이익 쪽에서는 GAAP(회계 기준) 영업이익이 2분기에 20% 늘어 매출의 34%가 됐고 매출총이익률도 83%로 1년 전 82%보다 올랐는데, 연구개발비가 1%만 늘고 감가상각비가 줄어든 비용 쪽 요인이 섞여 있다. 회사 가이던스(회사가 내놓은 전망)는 2026년 매출 7.32억~7.38억 달러, 9~10% 성장으로 종전보다 올렸고 3분기는 9~10% 성장을 제시했다. 꺾을 수 있는 것은 셋이다 — 3분기 전망 성장률 9~10%가 2분기 실적 11%보다 낮고, 매출 증가분의 97%가 기존 고객에서 나와 새 고객 몫이 3%뿐이며, 회사 스스로 고객이 IT 보안 지출을 줄일 수 있다고 공시에 적었다.",
+      "narrative": "퀄리스에서 새로운 것은 두 가지다 — 파트너를 앞세운 영업 방식 전환과 AI 기반 위험 운영 센터(ROC·보안 위험을 한 곳에서 찾아 고치는 체계)의 신기능이다. 3분기 매출은 1년 전보다 11% 늘어 1.880억 달러였고, 늘어난 1,820만 달러 중 1,990만 달러가 파트너에서 나왔으며 직판은 오히려 170만 달러 줄었다. 분기 매출의 55% 가 파트너 몫으로, 성장의 모양을 바꾼 것은 신제품보다 판매 경로다. 신제품 쪽은 InstaScan, TruRisk Eliminate 의 AI 패치 기능, TotalAI 거버넌스가 3분기에 더해졌지만 제품별 매출은 공개하지 않고 증가분의 96% 가 기존 고객에서 나왔다. 이익은 늘었어도 질이 좋아진 것은 아니다 — GAAP 영업이익은 11% 늘어 6,630만 달러였지만 매출 대비 35% 로 1년 전과 같고, 매출원가가 13% 늘어 매출총이익률은 84% 에서 83% 로 내려갔다. 코드 33 은 세 조건 모두 미충족으로, 최근 3분기 매출 증가율 10.1% → 9.8% → 11.0%, 순이익률 30.3% → 28.8% → 28.8% 에 가속이 없다. 먼저 받은 돈을 반영한 당기 청구액이 14% 늘어 2.119억 달러가 된 점과 순달러 확장률 105% 는 앞으로 매출로 바뀔 수요가 조금 나아졌다는 신호다. 기대 성장률은 회사 가이던스 기준 2026년 전체 매출 7.369억~7.389억 달러, 2025년보다 10% 증가이고 주당순이익 전망도 함께 올렸다. 다만 4분기 가이던스는 9~10% 증가로 3분기 11% 보다 낮아, 새로운 것이 성장률을 끌어올리는 그림은 아직 숫자로 확인되지 않는다. 꺾을 수 있는 것은 경쟁 심화, 클라우드 비용 상승에 따른 마진 하락, 회사가 직접 적은 고객의 IT 보안 예산 축소다.",
       "watch": [
-        "3분기 매출이 회사 가이던스 상단 1.875억 달러를 넘어 성장률이 2분기 11% 수준으로 유지되는지, 아니면 9~10%로 내려앉는지",
-        "2분기에 16%로 뛴 당기 빌링(그 분기에 청구한 금액) 증가율이 다음 분기에도 유지되는지, 청구 시점이 겹친 한 분기짜리 효과였는지",
-        "순달러 확장률이 105%에서 더 올라가는지 — Agent Val·Risk Operations Center 가 기존 고객 지출을 늘린다면 여기서 먼저 보인다",
-        "매출 증가분에서 새 고객 몫이 3%보다 커지는지, FedRAMP High 인증 뒤 연방기관 수주가 실제 매출로 언급되는지"
+        "4분기 매출이 가이던스 상단 1.930억 달러를 넘고 성장률이 3분기 11% 위로 올라오는지 — 신제품·파트너 전환이 성장률을 끌어올린다는 근거가 된다",
+        "다음 분기 보고서에서 분기 매출의 파트너 비중이 55% 보다 더 오르는지, 직판 감소가 멈추는지",
+        "당기 청구액 증가율이 3분기 14% 처럼 매출 증가율보다 계속 높게 유지되는지 — 떨어지면 수요 신호가 꺾인다",
+        "GAAP 매출총이익률이 83% 아래로 더 내려가는지, 순달러 확장률 105% 가 더 오르는지"
       ],
-      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트를 받지 못해 제품별 매출·ARR(연간 반복 매출) 같은 동력별 숫자는 확인하지 못했다.",
+      "sourceGap": "3분기 실적 발표 콜 원고는 제목만 있고 원문을 열지 못했으며, 국내 증권사 리포트와 원문 PDF 는 없었다 — 제품별 매출·ARR(연간 반복 매출) 수치는 회사가 공개하지 않는다",
       "factcheck": {
         "verdict": "pass",
         "removed": [],
@@ -12081,24 +12196,24 @@ window.NDEEP_DATA = {
       },
       "status": "done",
       "v": 2,
-      "researchedOn": "2026-11-07",
-      "asOf": "2026-08-04",
-      "why": "지정",
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-11-09",
+      "why": "새 공시",
       "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+          "filingDate": "2026-11-09"
+        },
         {
           "label": "실적 보도자료 (2026-08-04)",
           "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804xex991.htm",
           "filingDate": "2026-08-04"
         },
         {
-          "label": "실적 보도자료 (2026-05-05)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505xex991.htm",
-          "filingDate": "2026-05-05"
-        },
-        {
-          "label": "10-Q 경영진 설명 (2026-08-04)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000035/qlys-20260630.htm",
-          "filingDate": "2026-08-04"
+          "label": "10-Q 경영진 설명 (2026-11-09)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+          "filingDate": "2026-11-09"
         }
       ],
       "code33": {
@@ -12176,10 +12291,10 @@ window.NDEEP_DATA = {
         }
       ],
       "consensus": {
-        "saleCy": 9.92,
-        "saleNy": 8.24,
-        "epsCy": 10.81,
-        "epsNy": 8.16
+        "saleCy": 10.3,
+        "saleNy": 8.72,
+        "epsCy": 14.68,
+        "epsNy": 7.66
       }
     },
     "RVTY": {
@@ -101273,6 +101388,3967 @@ window.NDEEP_DATA = {
         "saleNy": 4.2,
         "epsCy": 9.3,
         "epsNy": 11.87
+      }
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "headline": "차세대 Vera Rubin이 첫 양산 분기부터 데이터센터 매출 110% 증가를 끌고 있다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "Vera Rubin NVL72 — 차세대 데이터센터 아키텍처로 2027 회계연도 3분기에 양산 출하를 시작했고, 회사는 역사상 가장 빠른 제품 램프라고 밝혔다",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d1-b1",
+              "statement": "회사는 차세대 데이터센터 아키텍처 Vera Rubin이 2027 회계연도 3분기에 양산 출하를 시작했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "Our next-generation Data Center architecture, Vera Rubin, began production shipments in the third quarter of fiscal year 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b2",
+              "statement": "실적 보도자료는 Vera Rubin NVL72 양산·출하를 시작했으며 CoreWeave·Google Cloud·Microsoft Azure·Oracle Cloud Infrastructure·Nebius에서 랙이 가동 중이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+                  "date": "2026-11-17",
+                  "quote": "Ramped production and began shipping NVIDIA Vera Rubin NVL72 — the fastest product ramp in the company’s history — with racks running at partners including CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius, and coming online soon at SpaceXSI.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1-r1",
+              "statement": "3분기 데이터센터 매출은 1,076억 달러로 1년 전보다 110% 늘었고, 회사는 그 증가를 Rubin 인프라 도입과 Vera CPU, Blackwell Ultra의 지속 성장 덕으로 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                  "date": "2026-11-17",
+                  "quote": "Data Center revenue for the third quarter was a record $107.6 billion, up 110% from a year ago and up 21% sequentially. Our Hyperscale and AI Clouds, Industrial, & Enterprise platforms both grew substantially, driven by the introduction of our Rubin infrastructure, our fastest architecture ramp ever, standalone Vera CPUs and the continued growth of Blackwell Ultra.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r2",
+              "statement": "한화투자증권은 Vera Rubin이 생산 출하 첫 분기에 약 200억 달러 매출을 올렸다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[엔비디아 (NAS:NVDA)] 여전히 AI 밸류체인 No.1",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgikgmxqgmgcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "Vera Rubin이 생산 출하 첫 분기에 약 200억 달러로 회사 역사상 가장 빠른 램프 업",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r3",
+              "statement": "전사 3분기 매출은 1,158억 달러로 1년 전보다 103% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+                  "date": "2026-11-17",
+                  "quote": "NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1-p1",
+              "statement": "3분기 매출총이익률은 GAAP(회계 기준) 74.8%, 비GAAP(일회성을 뺀 회사 기준) 74.9%로 1년 전보다 올랐지만, 회사는 Rubin 초기 램프 때문에 전 분기보다는 소폭 낮아졌다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                  "date": "2026-11-17",
+                  "quote": "GAAP and non-GAAP gross margins for the third quarter increased from a year ago on improved mix from Blackwell Ultra. GAAP and non-GAAP gross margins decreased slightly sequentially, reflecting the initial Rubin ramp.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+                  "date": "2026-11-17",
+                  "quote": "For the quarter, GAAP and non-GAAP gross margins were 74.8% and 74.9%, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-p2",
+              "statement": "재고는 Rubin 제품 램프를 뒷받침하려고 전 분기 316억 달러에서 397억 달러로 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                  "date": "2026-11-17",
+                  "quote": "Inventory was $39.7 billion, up from $31.6 billion sequentially, to support our Rubin product ramp.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1-e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 4분기 매출 1,300억 달러 ±3%이고, 중국 데이터센터 컴퓨팅 매출은 전혀 넣지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+                  "date": "2026-11-17",
+                  "quote": "Revenue is expected to be $130.0 billion, plus or minus 3%. NVIDIA is not assuming any Data Center compute revenue from China in its outlook.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-e2",
+              "statement": "한화투자증권은 FY2028 매출 성장률 전망치가 기존 +70%에서 +75%로 올라갔다고 전했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[엔비디아 (NAS:NVDA)] 여전히 AI 밸류체인 No.1",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgikgmxqgmgcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "FY 4Q27 가이던스(중간값 기준) 1,300억 달러, 매출총이익률 71.5%. FY 2028 매출 성장률 전망치 YoY +75%(기존 +70%)로 상향",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1-c1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                  "date": "2026-11-17",
+                  "quote": "GAAP and non-GAAP gross margins are expected to be between 71.0% and 72.0%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사가 내놓은 4분기 매출총이익률 전망은 71.0~72.0%로 3분기 74.8%보다 낮다.",
+              "stripped": true
+            },
+            {
+              "id": "d1-c2",
+              "statement": "회사는 앞으로 Blackwell과 Rubin 시스템을 함께 출하할 것이며 현재 일부 공급 제약을 겪고 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "We will be shipping both Blackwell and Rubin systems in the future and are currently experiencing certain supply constraints.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Blackwell Ultra 데이터센터 인프라 — 직전 분기까지 데이터센터 매출 증가와 마진 개선을 함께 끌어온 아키텍처",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2-b1",
+              "statement": "회사는 2027 회계연도 2분기와 상반기의 매출 증가가 가속 컴퓨팅·AI 솔루션용 데이터센터 제품에서 나왔고 Blackwell이 시스템 출하의 대부분을 차지했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "Revenue growth in the second quarter and the first half of fiscal year 2027 was driven by data center products for accelerated computing and AI solutions. Blackwell continued to account for the majority of our system shipments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-b2",
+              "statement": "회사는 컴퓨팅·네트워킹 부문의 매출 증가 원인을 Blackwell Ultra 인프라의 램프라고 직접 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "Compute & Networking revenue – The year-over-year increase in the second quarter and first half of fiscal year 2027 was driven by the ramp of our Blackwell Ultra infrastructure.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2-r1",
+              "statement": "2분기 데이터센터 매출은 890억 달러로 1년 전보다 117% 늘었고, 회사는 Blackwell Ultra 인프라 램프를 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "Data Center revenue was $89.0 billion, up 117% from a year ago and up 18% sequentially, driven by the ramp of our Blackwell Ultra infrastructure.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2-p1",
+              "statement": "매출총이익률은 2027 회계연도 2분기 75.0%로 1년 전 72.4%보다 올랐는데, 회사는 Blackwell Ultra 덕에 제품 구성이 좋아진 결과라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "Gross margin increased to 75.0% for the second quarter of fiscal year 2027 compared to 72.4% for the second quarter of fiscal year 2026, and 75.0% for the first half of fiscal year 2027 compared to 66.6% for the first half of fiscal year 2026 due to improved mix from Blackwell Ultra.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-p2",
+              "statement": "컴퓨팅·네트워킹 부문 영업이익 증가도 회사 설명으로는 매출 증가에서 나왔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "Reportable segment operating income – The year-over-year increase in Compute & Networking segment operating income in the second quarter of fiscal year 2027 was driven by the growth in revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2-c1",
+              "statement": "회사는 매출이 소수의 직간접 고객에 몰려 있고 이 흐름이 이어질 수 있다고 공시했으며, 2027 회계연도 2분기에는 한 직접 고객이 전체 매출의 16%를 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue. … Direct Customers – For the second quarter of fiscal year 2027, one direct customer represented 16% of total revenue, which was primarily attributable to the Compute & Networking segment.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "AI 클라우드·네오클라우드 대상 새 사업 모델 — 인프라를 먼저 팔고 조건을 채우면 매출을 나눠 받는 구조로, ACIE(AI 클라우드·산업·기업) 부문을 밀어올렸다",
+          "kind": "service",
+          "stage": "매출 발생 중",
+          "since": "2026-07",
+          "basis": [
+            {
+              "id": "d3-b1",
+              "statement": "회사는 2027 회계연도 2분기에 일부 AI 클라우드 파트너를 상대로 새로운 사업 모델을 도입했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "In the second quarter of fiscal year 2027, we introduced a new business model with certain select AI cloud partners, to enable broader access to our data center infrastructure products to serve AI startups, model builders, enterprises, research organizations, and sovereign customers.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-b2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                  "date": "2026-11-17",
+                  "quote": "Under these agreements, we will earn revenue on the upfront sale of our infrastructure and if certain criteria are met, we will participate in revenue share generated by the neoclouds from their third-party customers.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 이 계약에서 인프라를 먼저 팔아 매출을 올리고, 조건을 채우면 네오클라우드가 제3자 고객에서 올린 매출을 나눠 받는다고 공시했다.",
+              "stripped": true
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3-r1",
+              "statement": "3분기 ACIE(AI 클라우드·산업·기업) 매출은 475억 달러로 1년 전보다 195% 늘어, 하이퍼스케일러 601억 달러(1년 전 대비 71% 증가)보다 훨씬 빠르게 컸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[엔비디아 (NAS:NVDA)] 여전히 AI 밸류체인 No.1",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgikgmxqgmgcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "사업부별 매출액: 하이퍼스케일러 601억 달러(YoY +71%), ACIE 475억 달러(YoY +195%), 엣지컴퓨팅 82억 달러(YoY +42%)",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-r2",
+              "statement": "2분기에도 ACIE 매출은 1년 전보다 138%, 전 분기보다 25% 늘었고 회사는 AI 네이티브·기업·국가 고객의 최종 수요를 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                  "date": "2026-08-26",
+                  "quote": "ACIE revenue increased 138% from a year ago and 25% sequentially driven by end-demand from AI natives, enterprises, and sovereign customers, as well as hyperscalers utilizing AI clouds.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d3-e1",
+              "statement": "한화투자증권은 에이전틱 AI 확산에 따른 CPU 수요 증가로 FY2028 CPU 매출이 2배 이상 성장할 것으로 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[엔비디아 (NAS:NVDA)] 여전히 AI 밸류체인 No.1",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgikgmxqgmgcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "에이전틱 AI 확산에 따른 CPU 수요 증가로 FY 2028 CPU 매출 2배 이상 성장 전망",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3-c1",
+              "statement": "회사는 네오클라우드가 자금을 조달하고 설비가 가동·검수돼야 이 약정이 효력을 갖는다고 적었고, 조건이 제때 풀리지 않으면 약정이 줄거나 없어질 수 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                  "publisher": "NVIDIA (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                  "date": "2026-11-17",
+                  "quote": "Our commitments take effect only if the neoclouds secure financing to purchase the data center infrastructure products and the related compute capacity is deployed, made operational, and accepted by us. The maximum commitment presented assumes these contingencies are satisfactorily resolved.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-c2",
+              "statement": "SK증권은 ACIE 성장률이 25%에서 18%로 둔화되고 하이퍼스케일러 쏠림이 심해져 네오클라우드에 부정적이라고 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[엔비디아 (NAS:NVDA)] 젠슨황 없는 엔비디아",
+                  "publisher": "SK증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkmqzqqllgcklgcgxeegz.pdf",
+                  "date": "2026-11-18",
+                  "quote": "ACIE 성장률 25%에서 18%로 둔화, 하이퍼스케일러 쏠림 심화와 보증·칩 배분 기준 강화로 네오클라우드 부정적",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33에서 매출 증가율은 1년 전 대비 73.2% → 85.2% → 105.9%로 3분기 연속 빨라졌는데, 회사는 이 구간의 매출 증가를 Blackwell Ultra 인프라의 램프 때문이라고 직접 적었다. 반면 순이익률은 63.1% → 71.5% → 62.0%로 흔들렸다 — 가운데 분기가 유난히 높았던 것은 본업이 아니라 보유 지분증권의 평가이익 때문으로, 회사는 이 이익이 주로 미실현 평가이익에서 나왔다고 설명했다. 매출 가속을 만든 것은 신제품이 맞지만, 순이익률의 들쭉날쭉은 제품과 무관한 투자 손익이라는 점을 함께 봐야 한다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q-np1",
+            "statement": "가장 중요한 새 제품은 Vera Rubin NVL72로, 회사는 양산·출하를 시작했고 역사상 가장 빠른 제품 램프라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                "publisher": "NVIDIA (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+                "date": "2026-11-17",
+                "quote": "Ramped production and began shipping NVIDIA Vera Rubin NVL72 — the fastest product ramp in the company’s history — with racks running at partners including CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius, and coming online soon at SpaceXSI.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-np2",
+            "statement": "회사는 첫 완전 자체 설계 데이터센터 CPU를 쓴 Vera CPU 랙 규모 플랫폼도 함께 내놨다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                "publisher": "NVIDIA (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+                "date": "2026-11-17",
+                "quote": "Announced the NVIDIA Vera CPU rack-scale platform for high-performance computing — combining NVIDIA’s first fully custom data center CPU with the gold standard for HPC networking to drive extreme efficiency and throughput for scientific modeling, simulation and agentic science.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [
+          {
+            "id": "q-ms1",
+            "statement": "회사는 공급 약정을 전 분기 2,790억 달러에서 3,900억 달러로 늘렸고 주로 여러 해치 메모리 공급을 미리 잡아 둔 것이라고 밝혔다 — 후발 주자가 같은 물량을 확보하기 어렵게 만드는 선점이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                "publisher": "NVIDIA (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                "date": "2026-11-17",
+                "quote": "Our supply commitments increased from $279 billion last quarter to $390 billion, primarily related to the multi-year procurement of memory supply.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-ms2",
+            "statement": "한화투자증권은 이 회사를 GPU에 네트워킹·시스템·CUDA 소프트웨어를 묶은 통합 컴퓨팅 솔루션 기업으로 규정했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[엔비디아 (NAS:NVDA)] 여전히 AI 밸류체인 No.1",
+                "publisher": "한화투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzimgikgmxqgmgcgxeegz.pdf",
+                "date": "2026-11-23",
+                "quote": "GPU를 중심으로 네트워킹, 시스템, CUDA 소프트웨어를 결합한 통합 컴퓨팅 솔루션을 제공하는 반도체 기업",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q-sm1",
+            "statement": "회사는 네오클라우드 계약에서 인프라 선판매 매출에 더해 조건을 채우면 매출을 나눠 받는 구조를 새로 붙였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                "publisher": "NVIDIA (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+                "date": "2026-11-17",
+                "quote": "Under these agreements, we will earn revenue on the upfront sale of our infrastructure and if certain criteria are met, we will participate in revenue share generated by the neoclouds from their third-party customers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-sm2",
+            "statement": "유진투자증권은 부품 가격 상승분을 반영해 2027년 초 출하분부터 15% 이상의 판매가 인상이 예정돼 있고, 매출총이익률이 4분기를 저점으로 72.5%까지 회복할 것으로 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[엔비디아 (NAS:NVDA)] 충분히 반영된 우려",
+                "publisher": "유진투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzckgmixxlxkigcgxeegz.pdf",
+                "date": "2026-11-19",
+                "quote": "부품 가격 상승분을 반영해 2027년 초 출하분부터 15% 이상의 ASP 인상이 예 정되어 있어, GPM은 4분기를 저점으로 72.5% 수준까지 회복할 전망.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q-cp1",
+            "statement": "회사는 Amkor·IBIDEN·King Yuan Electronics·삼성전기·Siliconware·Unimicron 등 글로벌 공급망 파트너와 핵심 제조 능력을 늘리는 계획을 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "엔비디아 실적 보도자료 (2026-11-17)",
+                "publisher": "NVIDIA (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+                "date": "2026-11-17",
+                "quote": "Announced plans with global supply chain partners, including Amkor Technology, IBIDEN, King Yuan Electronics, Samsung Electro-Mechanics, Siliconware Precision Industries and Unimicron Technology Corporation, to scale critical manufacturing capabilities to meet demand for NVIDIA infrastructure.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q-cp2",
+            "statement": "다만 비용은 줄이는 쪽이 아니라 늘리는 쪽이다 — 회사는 2분기 연구개발비 증가의 주된 원인을 자체 컴퓨팅 인프라 127% 증가와 보상·복리후생 30% 증가라고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "엔비디아 10-Q 경영진 설명 (2026-08-26)",
+                "publisher": "NVIDIA (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+                "date": "2026-08-26",
+                "quote": "The increases in research and development expenses for the second quarter and first half of fiscal year 2027 were primarily driven by a 127% and 120% increase in compute infrastructure, respectively, and a 30% increase in each fiscal year 2027 period in compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 차세대 데이터센터 아키텍처 Vera Rubin이다. 회사는 2027 회계연도 3분기에 양산 출하를 시작했고, Vera Rubin NVL72가 역사상 가장 빠른 제품 램프라고 밝혔다. 매출 영향은 이미 숫자로 나왔다 — 3분기 데이터센터 매출 1,076억 달러로 1년 전보다 110% 증가, 전사 매출은 1,158억 달러로 103% 증가다. 한화투자증권은 Vera Rubin이 첫 출하 분기에만 약 200억 달러를 올렸다고 적었다. 이익 쪽은 두 갈래다 — 매출총이익률은 1년 전보다 올라 GAAP 기준 74.8%였지만, 회사는 Rubin 초기 램프 때문에 전 분기보다는 소폭 낮아졌다고 설명했고 재고도 316억 달러에서 397억 달러로 늘려 두었다. 그 앞 구간을 끌던 Blackwell Ultra는 2분기 데이터센터 매출 890억 달러(1년 전보다 117% 증가)와 매출총이익률 75.0%(1년 전 72.4%)를 함께 만든 동력이었고, 이것이 코드 33의 매출 증가율 가속과 그대로 이어진다. 세 번째 축은 AI 클라우드·네오클라우드 대상 새 사업 모델로, 인프라를 먼저 팔고 조건을 채우면 매출을 나눠 받는 구조이며 ACIE 부문 매출은 3분기 475억 달러, 1년 전보다 195% 늘었다. 기대 성장률은 회사 가이던스가 4분기 1,300억 달러 ±3%(중국 데이터센터 매출 미반영)이고, 한화투자증권은 FY2028 매출 성장률 전망이 +70%에서 +75%로 올라갔다고 전했다. 꺾을 수 있는 것은 마진과 규제다 — 4분기 매출총이익률 전망이 71.0~72.0%로 내려왔고, 유진투자증권은 그 71.5%가 부품 가격 상승 탓에 시장 기대를 밑돌았다고 적었다. 여기에 회사가 공시에 적은 공급 제약·고객 집중과, 대신증권이 지적한 SEC 회계 조사·수출통제 수사가 겹쳐 있다.",
+      "watch": [
+        "4분기 매출이 회사 가이던스 1,300억 달러를 채우는지, Vera Rubin 매출이 첫 분기 약 200억 달러에서 얼마나 더 커지는지",
+        "4분기 매출총이익률이 가이던스 71.0~72.0% 안에 들어오는지, 그 뒤 회복 조짐이 나오는지 — 부품 가격 전가와 판매가 인상이 실제로 먹히는지",
+        "ACIE 부문 성장률이 3분기 195%에서 어느 선까지 유지되는지, 네오클라우드 약정이 자금 조달을 거쳐 실제 매출로 바뀌는지",
+        "SEC 회계 조사와 수출통제 수사의 진행 상황, 그리고 중국 데이터센터 매출이 가이던스에 다시 들어오는지"
+      ],
+      "sourceGap": "3분기(10월 25일 종료) 10-Q 경영진 설명은 아직 제출 전이라 2분기 것까지만 읽었고, 실적 발표 콜 원고는 받지 못했다. 대신증권 9쪽 리포트는 원문 PDF를 열지 못해 요약 문장만 인용했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-11-17",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-17)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+          "filingDate": "2026-11-17"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-17)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+          "filingDate": "2026-11-17"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-17)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm",
+          "filingDate": "2026-11-17"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-26)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
+          "filingDate": "2026-08-26"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-26)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+          "filingDate": "2026-08-26"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-08-26)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+          "filingDate": "2026-08-26"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-07-26",
+            "revenueYoy": 105.9,
+            "netIncomeYoy": 125.9,
+            "netMargin": 62
+          },
+          {
+            "periodEnd": "2026-04-26",
+            "revenueYoy": 85.2,
+            "netIncomeYoy": 210.6,
+            "netMargin": 71.5
+          },
+          {
+            "periodEnd": "2026-01-25",
+            "revenueYoy": 73.2,
+            "netIncomeYoy": 94.5,
+            "netMargin": 63.1
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-07-26",
+          "revenue": 96221000000,
+          "netIncome": 59688000000,
+          "yoy": {
+            "revenue": 105.9,
+            "profit": 124.1,
+            "netIncome": 125.9,
+            "priorEnd": "2025-07-27"
+          }
+        },
+        {
+          "periodEnd": "2026-04-26",
+          "revenue": 81615000000,
+          "netIncome": 58321000000,
+          "yoy": {
+            "revenue": 85.2,
+            "profit": 147.4,
+            "netIncome": 210.6,
+            "priorEnd": "2025-04-27"
+          }
+        },
+        {
+          "periodEnd": "2026-01-25",
+          "revenue": 68127000000,
+          "netIncome": 42960000000,
+          "yoy": {
+            "revenue": 73.2,
+            "profit": 84.3,
+            "netIncome": 94.5,
+            "priorEnd": "2025-01-26"
+          }
+        },
+        {
+          "periodEnd": "2025-10-26",
+          "revenue": 57006000000,
+          "netIncome": 31910000000,
+          "yoy": {
+            "revenue": 62.5,
+            "profit": 64.7,
+            "netIncome": 65.3,
+            "priorEnd": "2024-10-27"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 96.24,
+        "saleNy": 71.21,
+        "epsCy": 102.71,
+        "epsNy": 71.73
+      }
+    },
+    "GOOGL": {
+      "drivers": [
+        {
+          "id": "d1",
+          "what": "구글 클라우드의 기업용 AI 인프라·AI 솔루션 (Google Cloud Platform, Gemini Enterprise)",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "3분기 클라우드 매출이 1년 전보다 103% 늘어 307억 달러가 됐고, 회사는 기업용 AI 인프라와 AI 솔루션이 이끌었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI solutions, as well as core GCP services. TPU systems sales were also a meaningful contributor to revenue growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "2분기 실적 보도자료에서 회사는 Gemini Enterprise를 포춘 100대 기업의 거의 90%가 쓰고 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 2분기 실적 보도자료 (2026-07-22)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+                  "date": "2026-07-22",
+                  "quote": "Q2 was an amazing quarter, with Alphabet revenues growing 24% year-over-year and Google Cloud revenues accelerating to 82% growth, driven by demand for AI infrastructure and AI solutions. It’s great to see wide adoption of Gemini Enterprise, with nearly 90% of the Fortune 100 using it.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 클라우드 매출은 1년 전보다 156억 달러 늘었고, 회사는 클라우드 플랫폼의 인프라·플랫폼 서비스와 TPU 시스템 판매가 주된 이유라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Cloud revenues increased $15.6 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026, primarily driven by growth in Google Cloud Platform, largely from infrastructure and platform services, and TPU system sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "회사는 3분기 전체 매출이 25% 늘어 1,275.8억 달러가 된 것을 두고 클라우드 매출 156억 달러 증가(103%)가 가장 큰 요인이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Revenues were $127.6 billion, an increase of 25% year over year, primarily driven by an increase in Google Cloud revenues of $15.6 billion, or 103%, and an increase in Google Services revenues of $9.3 billion, or 11%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "클라우드 영업이익은 1년 전보다 75억 달러 늘었고, 회사는 매출 증가가 주된 이유이며 TPU 재고 비용과 기술 인프라 사용 비용이 일부를 상쇄했다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Cloud operating income increased $7.5 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026. The increase in operating income was primarily driven by an increase in revenues, partially offset by increases in inventory and related costs associated with the sale of TPU systems and usage costs for technical infrastructure.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "대신증권 집계로 3분기 클라우드 영업이익은 111.2억 달러로 약 3.1배 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                  "date": "2026-11-16",
+                  "quote": "구글 클라우드 매출은 307.1억 달러(+103%)로 두 배 이상 성장했고 영업이익도 111.2억 달러로 약 3.1배 증가했다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "한화투자증권은 3분기 말 수주잔고 5,610억 달러의 55% 이상이 앞으로 24개월 안에 매출로 인식될 것으로 전망했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 클라우드 성장과 TPU 외부 판매",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgxlccgkkigcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "3분기 말 수주잔고(5,610억 달러, TPU 포함) 55% 이상을 향후 24개월 내 매출로 인식할 전망",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "대신증권은 3분기 설비투자가 513.6억 달러였고 잉여현금흐름(영업현금에서 설비투자를 뺀 돈)은 90.7억 달러 적자였다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                  "date": "2026-11-16",
+                  "quote": "AI 투자 부담도 시장의 주요 우려로 부상했다. 이번 분기 CapEx는 513.6억 달러였으며 잉여현금흐름(FCF)은 90.7억 달러 적자를 기록했다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "신한투자증권은 최소 다음 분기까지 영업마진과 잉여현금흐름에 부담이 있을 것으로 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 고성장과 고비용, 어느 숫자를 믿을까",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmiiekqlezeixxgcgxeegz.pdf",
+                  "date": "2026-10-30",
+                  "quote": "- GCP와 TPU가 끌어올린 성장, FCF가 치르고 있는 대가- 3Q26 Review: 최소 다음 분기까지 영업마진과 FCF에 부담 있을 전망- Valuation & Risks: 투자 비용이 초기에 집중된 결과, 견딜 가치 충분",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "what": "TPU(구글이 직접 설계한 AI 연산 칩) 시스템의 외부 고객 판매 — 클라우드를 빌려 주는 대신 장비 자체를 파는 새 매출",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-06",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 특수·대규모 작업용 TPU 시스템 공급 계약을 소수 체결했고 2026년 2분기부터 그 매출을 인식하기 시작했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "We have signed a limited number of agreements to supply TPU systems to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. In the second quarter of 2026, we began recognizing revenues from these agreements, with the significant majority to be recognized in 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "회사는 클라우드 부문의 제품 매출이 주로 TPU 시스템 판매에서 나온다고 공시에 명시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Google Cloud generates services revenues primarily from consumption-based fees and subscriptions received for Google Cloud Platform services, Google Workspace communication and collaboration tools, and other enterprise services. Google Cloud generates product revenues primarily from the sale of TPU systems.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "회사는 TPU 시스템 판매가 3분기 매출 성장에 의미 있게 기여했다고 밝혔으나 금액은 따로 공시하지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Google Cloud revenues grew 103%, powered by huge demand for our AI infrastructure and AI solutions. We’re also seeing strong demand for our TPU systems across a wide range of customers.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 이 공급 계약 매출의 대부분이 2027년에 인식될 것이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "In the second quarter of 2026, we began recognizing revenues from these agreements, with the significant majority to be recognized in 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2e2",
+              "statement": "한화투자증권은 TPU 시스템 판매가 4분기에 확대된 뒤 2027년 본격 증가할 것으로 보고, Anthropic·Apple 등의 수요를 근거로 수익성 개선을 기대했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 클라우드 성장과 TPU 외부 판매",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgxlccgkkigcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "- 2026년 CAPEX 1,950~2,050억 달러 전망. TPU 시스템 판매는 4Q 확대 후 2027년 본격 증가\n투자 포인트\n- TPU 외부 데이터센터 판매로 확장. Anthropic·Apple 등 고객 수요을 바탕으로 수익성 개선 기대",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "키움증권은 TPU 판매가 현금을 먼저 쓰고 수익은 나중에 들어오는 구조라며 TPU 재고의 현금화를 과제로 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 선출(현금) 후입(수익)의 TPU",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmigxqimgciieqgcgxeegz.pdf",
+                  "date": "2026-10-29",
+                  "quote": "- FY3Q26은 TPU 판매가 더해져 클라우드 매출이 올랐으나 검색은 둔화, FCF는 적자- 수주잔고 기반 클라우드 성장은 유효, TPU 재고의 현금화와 검색 수익화가 중요",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] Earnings Flash",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmigzkixxkmxxzgcgxeegz.pdf",
+                  "date": "2026-10-29",
+                  "quote": "- CAPEX 514억 달러(YoY +114%), 잉여현금흐름 -90.7억 달러: AI 인프라 투자, TPU 재고 축적 및 EU 과징금 52억 달러 지급이 현금흐름에 부담",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "한화투자증권은 3분기 설비투자 514억 달러(1년 전의 2배 이상)와 TPU 재고 축적, EU 과징금 52억 달러 납부가 현금흐름에 부담을 줬다고 적었다.",
+              "stripped": true
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "what": "Gemini 4 모델(Argon·Carbon)과 AI 모드 검색 — 검색에 AI를 붙여 사용량을 늘리는 쪽",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Gemini 4 Argon and Carbon are now leading at the frontier. Overall, our first-party model APIs are now processing nearly 32 billion tokens per minute, more than four times what we processed a year ago. On top of that, the Gemini app has reached one billion users—making it the fastest-growing product in Google’s history—and we surpassed 150 million YouTube Music and Premium subscribers globally, including trials.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 Gemini 4 Argon·Carbon이 최전선에 있고, 자사 모델 API 처리량이 1분에 약 320억 토큰으로 1년 전의 4배 이상이며 Gemini 앱 사용자가 10억 명에 이르렀다고 밝혔다.",
+              "stripped": true
+            },
+            {
+              "id": "d3b2",
+              "statement": "대신증권은 10월 공개한 Gemini 4 Argon에 이어 차세대 모델 Carbon이 발표됐고 성능지수 59점으로 주요 경쟁 모델을 웃돌았다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                  "date": "2026-11-16",
+                  "quote": "구글은 10월 공개한 Gemini 4 Argon에 이어 차세대 모델 Carbon을 발표했다. Carbon은 Artificial Analysis의 종합 성능지수에서 59점을 기록해 주요 경쟁 모델을 상회했으며, 복잡한 코딩과 장시간 업무 수행 능력도 개선됐다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "서비스 부문 매출이 11% 늘어 963억 달러가 됐고, 회사는 검색 매출 12% 증가와 함께 전년 대비 검색 질의 증가율이 최근 5년 중 가장 높았다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Google Services revenues increased 11% to $96.3 billion, led by 12% growth in Google Search & other with the year-over-year Search query growth rate the highest it has been in the last five years.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3r2",
+              "statement": "검색 매출은 1년 전보다 68억 달러 늘었고, 회사는 모바일 사용 확대에 따른 검색 질의 증가와 광고주 지출 증가, 광고 형식·전달 개선을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Search & other revenues increased $6.8 billion and $25.6 billion from the three and nine months ended September 30, 2025 to the three and nine months ended September 30, 2026. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3p1",
+              "statement": "서비스 부문 영업이익은 1년 전보다 56억 달러 늘었는데, 회사는 매출 증가와 법률 관련 비용 감소가 이유이고 광고 파트너에 주는 비용 증가가 일부를 상쇄했다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Services operating income increased $5.6 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026. The increase in operating income was primarily driven by an increase in revenues and a decrease in expenses related to legal and other matters, partially offset by an increase in TAC.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d3e1",
+              "statement": "한화투자증권은 Gemini 4의 AI 에이전트 기능이 연내 소비자 서비스로 확대되고 이후 검색 등으로 적용 범위가 넓어질 것으로 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 클라우드 성장과 TPU 외부 판매",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgxlccgkkigcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "- Gemini 4 AI 에이전트 기능을 연내 소비자 서비스로 확대하고, 이후 검색 등으로 적용 범위 확장 계획",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "대신증권은 검색 매출 성장률이 전 분기 17%에서 3분기 12%로 낮아졌고 회사도 AI 모드의 검색당 광고 수익화가 기존 검색보다 낮다는 점을 인정했다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                  "date": "2026-11-16",
+                  "quote": "2026년 3분기 Google Search & Other 매출은 633.5억 달러로 전년 대비 12% 증가했지만 전분기 성장률 17%보다 낮아졌다. 회사는 성장 둔화의 가장 큰 요인으로 환율과 광고업종별 수요 변화를 지목했지만, AI 모드의 검색당 광고 수익화 수준이 기존 검색보다 낮다는 점도 인정했다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3c2",
+              "statement": "광고를 싣는 네트워크 쪽은 노출 수가 1년 전보다 14% 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "알파벳(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Network | \nImpressions change | (14) | % | (11) | % | \nCost-per-impression change | 14 | % | 11 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "counter": "[]",
+      "expectedGrowth": "[]",
+      "growthLink": "반면 순이익 증가율과 순이익률이 들쭉날쭉한 것은 영업과 무관하다 — 회사는 영업이익이 30% 늘어 영업이익률 31.8%를 기록했다고 밝혔고, 순이익 감소는 SpaceX 등 지분 평가손실 때문이라고 설명했다(대신증권 집계 EPS 2.12달러, -26%). 즉 이익 지표의 흔들림은 비용이 아니라 투자자산 평가손익에서 왔고, 영업 단에서의 가속은 클라우드 AI 인프라·TPU가 끌고 있다.",
+      "headline": "클라우드 AI와 TPU 외부 판매가 매출·이익을 끌고, 검색 수익화는 아직 초기",
+      "nVerdict": "충족",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "기업용 AI 인프라와 AI 솔루션을 담은 구글 클라우드가 3분기 매출 307억 달러로 103% 성장하며 새 성장축이 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                "publisher": "알파벳(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                "date": "2026-10-28",
+                "quote": "Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI solutions, as well as core GCP services. TPU systems sales were also a meaningful contributor to revenue growth.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 Gemini Enterprise를 포춘 100대 기업의 거의 90%가 쓰고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 2분기 실적 보도자료 (2026-07-22)",
+                "publisher": "알파벳(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+                "date": "2026-07-22",
+                "quote": "It’s great to see wide adoption of Gemini Enterprise, with nearly 90% of the Fortune 100 using it.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "대신증권은 AI 에이전트가 기존 플랫폼을 위협할 것이라는 전망과 달리 구글이 자체 AI를 검색에 결합해 새로운 검색 수요까지 확보하고 있다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                "date": "2026-11-16",
+                "quote": "AI가 등장하면 사용자가 구글 대신 ChatGPT와 같은 외부 플랫폼을 이용할 것이라는 우려와 달리, 구글이 자체 AI를 기존 검색에 결합하면서 오히려 새로운 검색 수요까지 확보하고 있는 것이다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "대신증권은 강력한 자체 최전선 모델을 이미 거대한 검색 플랫폼과 결합할 수 있다는 점을 구글의 가장 큰 경쟁력으로 꼽았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                "date": "2026-11-16",
+                "quote": "구글의 가장 큰 경쟁력은 강력한 프런티어 모델을 이미 거대한 검색 플랫폼과 결합할 수 있다는 점이다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "회사는 기술 인프라·재고·전력·콘텐츠에 걸친 다년 구매 약정을 포함해 9,244억 달러의 미래 현금 약정을 공시했는데, 이만한 자본을 감당할 수 있는 사업자는 소수다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "알파벳(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "• $924.4 billion material purchase commitments, of which $802.1 billion relates to multi-year commitments for technical infrastructure and inventory, energy take-or-pay contracts, and content licenses. The significant majority of these commitments will be fulfilled through 2031.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "대신증권은 구글이 AI 모드 안에 광고를 넣는 국가를 늘리고 미국에서는 대화 중간에 관련 광고를 보여 주는 기능을 도입했다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                "date": "2026-11-16",
+                "quote": "구글은 이러한 문제를 해결하기 위해 AI 검색에 적합한 새로운 광고 방식을 확대하고 있다. AI 모드 안에서 광고를 제공하는 국가를 늘리고, 미국에서는 여러 차례 질문과 답변이 이어지는 대화 중간에 관련 광고를 보여주는 기능도 도입했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "광고 파트너에게 주는 비용 비율은 20.1%에서 20.0%로 낮아졌고, 회사는 네트워크에서 자체 검색 쪽으로 매출 구성이 옮겨 간 덕이라고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "알파벳(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "The TAC rate decreased from 20.1% to 20.0% from the three months ended September 30, 2025 to the three months ended September 30, 2026 and decreased from 20.4% to 19.8% from the nine months ended September 30, 2025 to the nine months ended September 30, 2026, primarily due to a revenue mix shift from Google Network properties to Google Search & other properties, partially offset by an increase in the Google Network TAC rate.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "대신증권은 3분기 Gemini로 만든 광고 소재가 15억 개 이상으로 1년 전보다 7배 넘게 늘어 광고주의 제작 비용을 줄이고 있다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+                "date": "2026-11-16",
+                "quote": "구글에 따르면 2026년 3분기 Gemini를 활용해 생성한 광고 소재는 15억 개 이상으로 전년 대비 7배 넘게 증가했다. AI가 광고 문구와 이미지 제작을 도우면서 광고주의 제작 비용을 줄이고, 사용자 의도와 구매 전환 가능성을 예측하는 기능도 개선되고 있다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "판매·관리비 중 관리비는 13억 달러 줄었지만, 회사는 1년 전 쌓은 EU 과징금 35억 달러의 기저 효과라고 설명했다 — 구조적 비용 절감이 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "알파벳(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "General and administrative expenses decreased $1.3 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026, primarily driven by a decrease in expenses related to legal and other matters of $2.1 billion, largely reflecting the effect of a $3.5 billion EC fine accrued in the third quarter of 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "알파벳에서 지금 새로운 것은 검색이 아니라 구글 클라우드다. 3분기 클라우드 매출은 1년 전보다 103% 늘어 307억 달러가 됐고, 회사는 기업용 AI 인프라와 AI 솔루션이 이를 이끌었다고 밝혔다. 회사는 전사 매출 25% 증가의 가장 큰 이유로 클라우드 매출 156억 달러 증가를 꼽았고, 같은 기간 서비스 부문 증가율은 11%였다. 이익에서도 자리를 잡았다 — 클라우드 영업이익은 1년 전보다 75억 달러 늘었고(대신증권 집계 111.2억 달러, 약 3.1배), 회사는 매출 증가가 주된 이유라고 설명했다. 둘째 축은 TPU 시스템을 외부 고객에게 파는 새 매출로, 회사는 소수의 공급 계약을 맺어 2026년 2분기부터 매출을 인식하기 시작했고 대부분은 2027년에 잡힐 것이라고 밝혔다. 기대 성장률은 한화투자증권이 3분기 말 수주잔고 5,610억 달러의 55% 이상을 향후 24개월 안에 매출로 인식할 것으로 본 것이 가장 구체적이다. 셋째로 Gemini 4 Argon·Carbon과 AI 모드 검색은 사용량은 늘렸지만 돈으로 바뀌는 속도가 느리다 — 회사는 검색 질의 증가율이 최근 5년 중 가장 높다고 했으나, 대신증권은 검색 매출 성장률이 전 분기 17%에서 3분기 12%로 낮아졌고 회사도 AI 모드의 검색당 광고 수익화가 기존 검색보다 낮다는 점을 인정했다고 적었다. 이 그림을 꺾을 수 있는 것은 돈이다 — 3분기 설비투자 513.6억 달러에 잉여현금흐름은 90.7억 달러 적자였고, 신한투자증권은 최소 다음 분기까지 영업마진과 잉여현금흐름에 부담이 있을 것으로 봤다. 정리하면 매출 가속은 회사 공시로 확인되는 새로운 것(클라우드 AI·TPU)에서 나왔고, 검증이 남은 것은 그 투자를 얼마나 빨리 현금으로 되돌리느냐다.",
+      "sourceGap": "3분기 실적 발표 콜 원고를 받지 못했고, 회사가 TPU 시스템 판매액과 클라우드 서비스 매출을 따로 나눈 공시 표도 없다.",
+      "ticker": "GOOGL",
+      "watch": [
+        "4분기 클라우드 매출 증가율이 3분기의 103%에서 더 올라가는지, 아니면 TPU 인식 시점 때문에 꺾이는지",
+        "TPU 공급 계약 매출이 실제로 2027년으로 넘어가며 재고(3분기 말 133.1억 달러)가 줄어드는지 — 늘기만 하면 현금화가 밀린 것",
+        "검색 매출 성장률이 12%에서 반등하는지, AI 모드 광고 확대가 검색당 수익으로 확인되는지",
+        "2026년 설비투자 가이던스 1,950~2,050억 달러와 잉여현금흐름 적자 폭 — 적자가 더 커지면 투자 회수 논쟁이 길어진다"
+      ],
+      "factcheck": {
+        "verdict": "partial",
+        "removed": [
+          "d2p1"
+        ],
+        "reasons": [
+          "d2p1: statement의 '514억 달러'는 quote의 '$51.4 billion'과 불일치 (단위 오류)"
+        ]
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-10-29",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-10-28)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+          "filingDate": "2026-10-28"
+        },
+        {
+          "label": "실적 보도자료 (2026-07-22)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+          "filingDate": "2026-07-22"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-10-29)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "filingDate": "2026-10-29"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 24.7,
+            "netIncomeYoy": -24.3,
+            "netMargin": 20.7
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 24.2,
+            "netIncomeYoy": 297.9,
+            "netMargin": 93.7
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 21.8,
+            "netIncomeYoy": 81.2,
+            "netMargin": 56.9
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 127577000000,
+          "netIncome": 26468000000,
+          "yoy": {
+            "revenue": 24.7,
+            "profit": 29.9,
+            "netIncome": -24.3,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 119796000000,
+          "netIncome": 112193000000,
+          "yoy": {
+            "revenue": 24.2,
+            "profit": 30.4,
+            "netIncome": 297.9,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 109896000000,
+          "netIncome": 62578000000,
+          "yoy": {
+            "revenue": 21.8,
+            "profit": 29.7,
+            "netIncome": 81.2,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 113829000000,
+          "netIncome": 34455000000,
+          "yoy": {
+            "revenue": 18,
+            "profit": 16,
+            "netIncome": 29.8,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 24.04,
+        "saleNy": 27.37,
+        "epsCy": 80.75,
+        "epsNy": -23.79
+      }
+    },
+    "GOOG": {
+      "drivers": [
+        {
+          "what": "Google Cloud의 기업용 AI 인프라와 자체 AI 칩(TPU) 시스템 외부 판매 — 외부 고객 공급 계약의 매출 인식이 2026년 2분기에 시작됐다",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "2026-06",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 외부 고객에게 TPU 시스템을 공급하는 계약을 맺고 2026년 2분기부터 그 매출을 인식하기 시작했으며, 대부분은 2027년에 인식될 예정이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "We have signed a limited number of agreements to supply TPU systems to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. In the second quarter of 2026, we began recognizing revenues from these agreements, with the significant majority to be recognized in 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "클라우드 부문의 제품 매출은 주로 TPU 시스템 판매에서 나온다고 회사가 부문 설명에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Google Cloud generates product revenues primarily from the sale of TPU systems.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 구글 클라우드 매출은 307억 달러로 1년 전보다 103% 늘었고, TPU 시스템 판매도 의미 있게 기여했다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI solutions, as well as core GCP services. TPU systems sales were also a meaningful contributor to revenue growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "3분기 전사 매출 1,276억 달러(1년 전보다 25% 증가)의 증가분 가운데 클라우드가 156억 달러로, 서비스 부문 93억 달러보다 컸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Revenues were $127.6 billion, an increase of 25% year over year, primarily driven by an increase in Google Cloud revenues of $15.6 billion, or 103%, and an increase in Google Services revenues of $9.3 billion, or 11%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "클라우드 부문 영업이익은 1년 전보다 75억 달러 늘었고, 회사는 매출 증가가 주된 이유이며 TPU 시스템 판매에 따른 재고 비용이 일부 상쇄했다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Cloud operating income increased $7.5 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026. The increase in operating income was primarily driven by an increase in revenues, partially offset by increases in inventory and related costs associated with the sale of TPU systems and usage costs for technical infrastructure.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "전사 영업이익은 30% 늘었고 영업이익률은 31.8%였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Consolidated Alphabet operating income increased 30% and operating margin was 31.8%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "한화투자증권은 3분기 말 수주잔고 5,610억 달러(TPU 포함)의 55% 이상이 앞으로 24개월 안에 매출로 인식될 것으로 전망했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 클라우드 성장과 TPU 외부 판매",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgxlccgkkigcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "- 3분기 말 수주잔고(5,610억 달러, TPU 포함) 55% 이상을 향후 24개월 내 매출로 인식할 전망",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "한화투자증권은 TPU 시스템 판매가 4분기에 확대된 뒤 2027년 본격 증가하고, 2026년 설비투자는 1,950~2,050억 달러일 것으로 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 클라우드 성장과 TPU 외부 판매",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgxlccgkkigcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "- 2026년 CAPEX 1,950~2,050억 달러 전망. TPU 시스템 판매는 4Q 확대 후 2027년 본격 증가",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "3분기 설비투자는 514억 달러로 1년 전보다 114% 늘었고 잉여현금흐름은 -90.7억 달러였는데, AI 인프라 투자와 TPU 재고 축적이 현금흐름에 부담이 됐다고 한화투자증권은 지적했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] Earnings Flash",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmigzkixxkmxxzgcgxeegz.pdf",
+                  "date": "2026-10-29",
+                  "quote": "- CAPEX 514억 달러(YoY +114%), 잉여현금흐름 -90.7억 달러: AI 인프라 투자, TPU 재고 축적 및 EU 과징금 52억 달러 지급이 현금흐름에 부담. 분기 현금배당 주당 0.22달러 유지, 12월 지급 예정",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "TPU 시스템 판매에 따른 재고 관련 비용이 매출원가 증가의 주된 요인이어서, 외부 판매가 늘수록 원가가 먼저 나간다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "The increase in other cost of revenues from the three months ended September 30, 2025 to the three months ended September 30, 2026 was primarily due to increases in inventory and related costs, primarily associated with the sale of TPU systems, depreciation expense, content acquisition costs, largely for YouTube, and other technical infrastructure operations costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Gemini 모델과 앱(Gemini 4 Argon·Carbon, Gemini Enterprise) — AI 기능이 검색 쿼리와 유료 구독을 함께 늘리고 있다",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 Gemini 4 Argon·Carbon이 최전선에 있고 자사 모델 API가 분당 320억 토큰 가까이 처리해 1년 전의 네 배가 넘는다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Gemini 4 Argon and Carbon are now leading at the frontier. Overall, our first-party model APIs are now processing nearly 32 billion tokens per minute, more than four times what we processed a year ago.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "On top of that, the Gemini app has reached one billion users—making it the fastest-growing product in Google’s history—and we surpassed 150 million YouTube Music and Premium subscribers globally, including trials.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "Gemini 앱 사용자는 10억 명에 이르러 구글 역사상 가장 빠르게 성장한 제품이 됐고, 유튜브 뮤직·프리미엄 구독자는 체험 포함 1.5억 명을 넘었다.",
+              "stripped": true
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 구글 서비스 매출은 963억 달러로 11% 늘었고, 검색 및 기타가 12% 성장해 이를 이끌었으며 검색 쿼리 증가율은 최근 5년 내 가장 높았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                  "date": "2026-10-28",
+                  "quote": "Google Services revenues increased 11% to $96.3 billion, led by 12% growth in Google Search & other with the year-over-year Search query growth rate the highest it has been in the last five years.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "검색 및 기타 매출은 3분기에 68억 달러 늘었고, 회사는 사용자 확대에 따른 검색 쿼리 증가·광고주 지출 증가·광고 형식 개선을 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Search & other revenues increased $6.8 billion and $25.6 billion from the three and nine months ended September 30, 2025 to the three and nine months ended September 30, 2026. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r3",
+              "statement": "구독·플랫폼·기기 매출은 3분기에 14억 달러 늘었고, 회사는 유튜브 서비스와 Google One의 유료 구독 증가를 주된 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google subscriptions, platforms, and devices revenues increased $1.4 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026. The growth was primarily driven by increases in subscriptions and devices revenues. The increase in subscriptions revenues was primarily due to the contribution from growth in paid subscriptions across both YouTube services and Google One.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "구글 서비스 영업이익은 56억 달러 늘었는데, 회사는 매출 증가와 법률 관련 비용 감소가 이유이고 트래픽 획득 비용(검색 유통 파트너에게 주는 돈) 증가가 일부 상쇄했다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Services operating income increased $5.6 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026. The increase in operating income was primarily driven by an increase in revenues and a decrease in expenses related to legal and other matters, partially offset by an increase in TAC.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "한화투자증권은 회사가 Gemini 4의 AI 에이전트 기능을 연내 소비자 서비스로 확대한 뒤 검색 등으로 적용 범위를 넓힐 계획이라고 전했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] 클라우드 성장과 TPU 외부 판매",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgxlccgkkigcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "- Gemini 4 AI 에이전트 기능을 연내 소비자 서비스로 확대하고, 이후 검색 등으로 적용 범위 확장 계획",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "대신증권은 AI 검색량 증가율이 5년 내 최고인 반면 광고 매출 성장률은 둔화됐다고 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[알파벳 A (NAS:GOOGL)] AI 수요 고성장, 검색 수익화와 투자 회수가 과제",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmiiekgkcgiikxgcgxeegz.pdf",
+                  "date": "2026-10-29",
+                  "quote": "- 구글 클라우드 매출 103% 성장, TPU 외부 판매 확대- AI 검색량 증가율 5년 내 최고, 광고 매출 성장률은 둔화- CapEx 급증과 FCF 적자, AI 투자 회수 속도가 관건",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "유럽 집행위는 구글의 안드로이드 유통 계약 조항이 반독점법을 위반했다는 2018년 결정을 2026년 7월 유지했고, 회사는 52억 달러의 벌금과 이자를 납부했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "On July 2, 2026, the EC upheld its 2018 decision that certain provisions in Google's Android-related distribution agreements infringed European antitrust laws. The court-imposed fine and interest of $5.2 billion, which was previously accrued, was paid in July 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Wiz 인수(295억 달러, 2026년 3월 완료) — 클라우드 보안 사업이 Google Cloud 부문 안으로 들어왔다",
+          "kind": "contract",
+          "stage": "매출 발생 중",
+          "since": "2026-03",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 2026년 3월 11일 Wiz 인수를 295억 달러에 마무리했고, 인수 뒤 실적은 Google Cloud 부문에 포함된다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "On March 11, 2026, we completed our acquisition of Wiz for $29.5 billion, after purchase price adjustments and excluding post combination compensation arrangements. Following the close of the acquisition, the financial results are included in our consolidated financial statements within the Google Cloud segment.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "보안 매출은 따로 공개되지 않고, 클라우드 플랫폼이 제공하는 항목 중 하나로만 설명된다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                  "date": "2026-10-29",
+                  "quote": "Google Cloud Platform primarily generates consumption-based fees and subscriptions for infrastructure, platform, and other services. These services provide access to solutions such as AI offerings including our enterprise AI infrastructure, Vertex AI platform, and Gemini Enterprise; cybersecurity offerings; and data and analytics solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "회사는 보안 솔루션 수요가 강하다고만 밝혔을 뿐, 인수 효과와 기존 사업의 성장을 나눠 보여 주지 않는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "알파벳 2분기 실적 보도자료 (2026-07-22)",
+                  "publisher": "Alphabet Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+                  "date": "2026-07-22",
+                  "quote": "We are seeing strong demand for our security solutions, and our new Gemini 3.5 Flash Cyber delivers highly cost-efficient performance at the frontier.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33에서 최근 3분기 매출 증가율은 계속 올랐지만 순이익 증가율과 순이익률은 들쭉날쭉하다. 매출 가속을 만든 것은 클라우드로, 회사는 3분기 매출이 25% 늘어난 주된 이유가 클라우드 매출 156억 달러 증가(103%)라고 직접 적었고 영업이익도 30% 늘어 영업이익률 31.8%를 기록했다. 순이익 쪽의 출렁임은 영업이 아니라 지분증권 평가손익 때문이며, 3분기에는 SpaceX 등 지분투자 평가손실 86.6억 달러가 EPS를 끌어내렸다.",
+      "headline": "자체 AI 칩(TPU) 외부 판매와 AI 인프라가 클라우드 매출 103% 성장을 만들고 있다",
+      "nVerdict": "충족",
+      "narrative": "알파벳의 새로운 성장 동력은 Google Cloud의 기업용 AI 인프라, 그리고 자체 AI 칩(TPU) 시스템을 외부 고객에게 파는 사업이다. 회사는 외부 공급 계약의 매출을 2026년 2분기부터 인식하기 시작했고 대부분은 2027년에 잡힌다고 밝혔다. 3분기 클라우드 매출은 307억 달러로 1년 전보다 103% 늘었고, 전사 매출 증가분 가운데 클라우드가 156억 달러로 서비스 부문 93억 달러보다 컸다. 이익에서도 클라우드 영업이익이 1년 전보다 75억 달러 늘었고 전사 영업이익은 30% 증가해 영업이익률은 31.8%였다. 두 번째 동력은 Gemini로, 검색 쿼리 증가율이 최근 5년 내 가장 높았고 검색 및 기타 매출이 12% 성장했으며 Gemini 앱 사용자는 10억 명에 이르렀다. 세 번째는 2026년 3월 295억 달러에 끝낸 Wiz 인수이고, 실적은 Google Cloud 부문에 포함된다. 기대 성장률은 한화투자증권 전망으로, 3분기 말 수주잔고 5,610억 달러(TPU 포함)의 55% 이상이 24개월 안에 매출로 인식되고 TPU 판매는 2027년 본격 증가한다고 봤다. 이 그림을 꺾을 수 있는 것은 현금이다 — 3분기 설비투자는 514억 달러로 1년 전보다 114% 늘었고 잉여현금흐름은 -90.7억 달러였다. TPU 판매가 늘수록 재고 관련 비용이 먼저 나가 매출원가가 함께 커진다. 광고 쪽은 대신증권이 성장률 둔화를 지적했고, 유럽 집행위 판결로 52억 달러의 벌금과 이자를 납부했다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "TPU 시스템을 외부 고객에게 공급하는 계약이 새로 생겼고 2026년 2분기부터 매출로 잡히기 시작했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "We have signed a limited number of agreements to supply TPU systems to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. In the second quarter of 2026, we began recognizing revenues from these agreements, with the significant majority to be recognized in 2027.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 포춘 100대 기업의 90% 가까이가 Gemini Enterprise를 쓰고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 2분기 실적 보도자료 (2026-07-22)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+                "date": "2026-07-22",
+                "quote": "It’s great to see wide adoption of Gemini Enterprise, with nearly 90% of the Fortune 100 using it.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "알파벳 3분기 실적 보도자료 (2026-10-28)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+                "date": "2026-10-28",
+                "quote": "On top of that, the Gemini app has reached one billion users—making it the fastest-growing product in Google’s history—and we surpassed 150 million YouTube Music and Premium subscribers globally, including trials.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "Gemini 앱 사용자가 10억 명에 이르러 구글 역사상 가장 빠르게 성장한 제품이 됐다.",
+            "stripped": true
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "기술 인프라·에너지·콘텐츠에 걸린 구매 약정만 9,244억 달러이고 그중 8,021억 달러가 다년 약정이어서, 같은 규모로 경쟁하려면 그만한 자본이 필요하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "$924.4 billion material purchase commitments, of which $802.1 billion relates to multi-year commitments for technical infrastructure and inventory, energy take-or-pay contracts, and content licenses.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "아직 시작하지 않은 데이터센터·에너지 인프라 리스에만 1,305억 달러의 미래 지급액이 잡혀 있고, 계약 기간은 최장 26년이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "As of September 30, 2026, we have entered into leases, primarily related to data centers and energy infrastructure, that have not yet commenced with future lease payments of $130.5 billion. These leases will commence between 2026 and 2031 with non-cancelable lease terms between one and 26 years.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "매출 대비 트래픽 획득 비용 비율은 3분기 20.1%에서 20.0%로 낮아졌는데, 네트워크에서 검색 쪽으로 매출 구성이 옮겨간 것이 주된 이유다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "The TAC rate decreased from 20.1% to 20.0% from the three months ended September 30, 2025 to the three months ended September 30, 2026 and decreased from 20.4% to 19.8% from the nine months ended September 30, 2025 to the nine months ended September 30, 2026, primarily due to a revenue mix shift from Google Network properties to Google Search & other properties, partially offset by an increase in the Google Network TAC rate.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "회사는 유튜브 서비스와 Google One 유료 구독을 늘려 광고 밖 매출을 키우고 있고, 그 덕에 구독·플랫폼·기기 매출이 3분기에 14억 달러 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "Google subscriptions, platforms, and devices revenues increased $1.4 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026. The growth was primarily driven by increases in subscriptions and devices revenues. The increase in subscriptions revenues was primarily due to the contribution from growth in paid subscriptions across both YouTube services and Google One.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "판매·관리비는 3분기에 13억 달러 줄었지만 이는 1년 전 35억 달러 유럽 집행위 벌금 적립이 빠진 효과가 커, 이어지는 비용 절감으로 보기는 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 10-Q 경영진 설명 (2026년 9월 30일 분기)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "date": "2026-10-29",
+                "quote": "General and administrative expenses decreased $1.3 billion from the three months ended September 30, 2025 to the three months ended September 30, 2026, primarily driven by a decrease in expenses related to legal and other matters of $2.1 billion, largely reflecting the effect of a $3.5 billion EC fine accrued in the third quarter of 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "회사는 새 Gemini 3.5 Flash Cyber가 최전선 성능을 비용 효율적으로 낸다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "알파벳 2분기 실적 보도자료 (2026-07-22)",
+                "publisher": "Alphabet Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+                "date": "2026-07-22",
+                "quote": "We are seeing strong demand for our security solutions, and our new Gemini 3.5 Flash Cyber delivers highly cost-efficient performance at the frontier.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "sourceGap": "대신증권 9쪽 리포트 PDF는 변환 도구가 없어 열지 못했고 3분기 실적 발표 콜 원고도 읽지 못해, 수주잔고·설비투자 전망은 한화투자증권 1쪽 리포트로만 확인했다.",
+      "ticker": "GOOG",
+      "watch": [
+        "4분기 클라우드 매출에서 TPU 시스템 판매가 실제로 확대되는지 — 한화투자증권이 본 '4분기 확대, 2027년 본격 증가'가 숫자로 확인되는지",
+        "클라우드 영업이익이 TPU 재고 비용 증가에도 3분기처럼 매출 증가 속도를 따라오는지",
+        "잉여현금흐름이 적자에서 벗어나는지와 2027년 설비투자 계획이 얼마로 제시되는지",
+        "검색 및 기타 매출 성장률이 3분기의 12% 아래로 내려가지 않는지"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-10-29",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-10-28)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+          "filingDate": "2026-10-28"
+        },
+        {
+          "label": "실적 보도자료 (2026-07-22)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+          "filingDate": "2026-07-22"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-10-29)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "filingDate": "2026-10-29"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 24.7,
+            "netIncomeYoy": -24.3,
+            "netMargin": 20.7
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 24.2,
+            "netIncomeYoy": 297.9,
+            "netMargin": 93.7
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 21.8,
+            "netIncomeYoy": 81.2,
+            "netMargin": 56.9
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 127577000000,
+          "netIncome": 26468000000,
+          "yoy": {
+            "revenue": 24.7,
+            "profit": 29.9,
+            "netIncome": -24.3,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 119796000000,
+          "netIncome": 112193000000,
+          "yoy": {
+            "revenue": 24.2,
+            "profit": 30.4,
+            "netIncome": 297.9,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 109896000000,
+          "netIncome": 62578000000,
+          "yoy": {
+            "revenue": 21.8,
+            "profit": 29.7,
+            "netIncome": 81.2,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 113829000000,
+          "netIncome": 34455000000,
+          "yoy": {
+            "revenue": 18,
+            "profit": 16,
+            "netIncome": 29.8,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 24.04,
+        "saleNy": 27.37,
+        "epsCy": 21.09,
+        "epsNy": 16.87
+      }
+    },
+    "PLTR": {
+      "drivers": [
+        {
+          "what": "AIP(생성형 AI 플랫폼)와 온톨로지를 묶은 소버린 AI 제품군 — 고객이 자기 데이터·모델 통제권을 쥔 채 AI를 실제 업무에 심는 소프트웨어",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "2023",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 2023년부터 최신 제품인 AIP를 배포하기 시작했고 상업·정부 고객 모두를 대상으로 설계했다고 경영진이 직접 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "In 2023, we began deploying our newest offering, AIP, which is designed for customers across the commercial and government sectors, enabling them to derive value from recent breakthroughs in artificial intelligence via the combination of our existing software platforms with generative AI models, including LLMs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "CEO는 3분기 실적 보도자료에서 지금의 소버린 AI 국면이 팔란티어에 꼭 맞으며 Foundry·온톨로지·AIP가 서로를 끌어올리는 고리를 만든다고 썼다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "The Sovereign AI moment is purpose-built for Palantir. Our products—from Foundry and Ontology to AIP with its ontologized, fine-tuned open-weight models—ignite a self-improvement loop that joins and aligns the workflow with its optimal model and us with our partners.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 미국 상업 매출은 9.84억 달러로 1년 전보다 148%, 직전 분기보다 29% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "◦ U.S. commercial revenue grew 148% year-over-year and 29% quarter-over-quarter to $984 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Revenue from U.S. commercial customers was $984 million for the three months ended September 30, 2026 compared to $397 million for the same period in 2025, a 148% increase.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "미국 상업 매출이 회사 역사상 처음으로 미국 정부 매출을 넘어섰다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "• U.S. commercial revenue surpassed U.S. government revenue for the first time ever",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "상업 부문 매출은 1년 전보다 113% 늘어 증가분이 6.19억 달러였고 그중 4.07억 달러가 2025년 말 이미 거래하던 고객에서 나왔다 — 신규 영업보다 기존 고객 내부로 퍼진 몫이 크다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Revenue from commercial customers increased by $619 million, or 113%, for the three months ended September 30, 2026 compared to the same period in 2025. Of the increase, $407 million was from commercial customers existing as of December 31, 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 회계 기준(GAAP) 영업이익은 10.85억 달러로 매출의 47%였고, 주식보상을 뺀 회사 기준(비GAAP) 영업이익률은 62%로 1년 전 51%보다 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "• GAAP income from operations of $1.085 billion, representing a 47% margin \n• Adjusted income from operations of $1.427 billion, representing a 62% margin",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Adjusted operating margin | 62 | % | 51 | % | 61 | % | 47 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "고객에 직접 들어가는 원가와 영업·마케팅비까지 뺀 기여 마진은 3분기 73%로 1년 전 66%보다 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Total contribution | $ | 1,694,783 | $ | 778,086 | $ | 4,323,200 | $ | 1,958,179 | \nContribution margin | 73 | % | 66 | % | 74 | % | 64 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "• We are raising our revenue guidance to between $8.530 - $8.534 billion. \n• We are raising our U.S. commercial revenue guidance to in excess of $3.559 billion, representing a growth rate of at least 143%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사가 내놓은 전망(가이던스)으로 2026년 매출은 85.30~85.34억 달러, 미국 상업 매출은 35.59억 달러를 넘어 최소 143% 성장이다.",
+              "stripped": true
+            },
+            {
+              "id": "d1e2",
+              "statement": "한화투자증권은 2027년 매출액 13,255백만 달러, EPS 2.56달러를 추정한다(2026년 추정은 8,551백만 달러).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegz.pdf",
+                  "date": "2026-11-23",
+                  "quote": "재무정보 FY 2024 FY 2025 FY 2026(E) FY 2027(E) FY 2028(E)\n매출액 2,866 4,475 8,551 13,255 19,387 \nEPS 0.41 0.75 1.70 2.56 3.80",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "3분기에 새로 맺은 계약 총액은 29.18억 달러로 1년 전보다 6% 느는 데 그쳤다 — 2분기의 49% 증가에서 크게 꺾였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "• Closed total contract value (“TCV”) of $2.918 billion, up 6% year-over-year",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "팔란티어 2분기 실적 보도자료 (2026-08-03)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
+                  "date": "2026-08-03",
+                  "quote": "• Closed total contract value (“TCV”) of $3.373 billion, up 49% year-over-year",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 고객 계약 상당수에 고객 편의에 따른 해지 조항이 들어 있다고 밝히고 있어, 계약 잔액이 그대로 매출이 된다는 보장은 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "Many of our customer contracts contain termination for convenience provisions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "한화증권은 실적 호조와 연간 전망 상향에도 신규 계약 성장률이 1년 전 48.6%에서 5.7%로 둔화해 시간 외 주가가 3% 빠졌다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeegz.pdf",
+                  "date": "2026-11-03",
+                  "quote": "- 실적 호조와 연간 가이던스 상향에도 신규 계약 성장률 둔화(YoY +48.6% → +5.7%)로 시간 외 -3%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "소버린 AI 수요 — 기업·정부가 데이터와 모델의 소유권을 직접 쥐려 하면서 소규모 시범 도입이 대형 계약으로 넘어가는 속도가 빨라진 업계 변화",
+          "kind": "industry",
+          "stage": "매출 발생 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "신한투자증권은 회사가 연간 전망을 올린 근거로 소버린 AI 수요의 미국 민간 기여와 시범 도입에서 실제 가동 단계로 넘어가는 기간 단축을 들었다고 정리했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegz.pdf",
+                  "date": "2026-11-12",
+                  "quote": "연간 가이던스 상향 근거로 1) 소버린 AI 수요의 US 민간 기여, 2) 파일럿에서 생산 단계로 넘어가는 기간이 짧아지고 계약 확장 속도가 빨라짐, 3) 3Q 실적의 강세를 제시",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "CEO는 소버린 AI 흐름이 30년 사업 경험에서 본 가장 극적인 격차를 만들고 있으며 정부든 기업이든 둘 중 한쪽으로 밀려 들어가고 있다고 말했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "“The Sovereign AI movement is imposing the most dramatic dichotomy between haves and have nots that I have witnessed in 30 years of business. Every institution—government and commercial—is rapidly being forced, voluntarily or not, into one of these two categories,” said Alex Karp, Co-Founder and Chief Executive Officer of Palantir Technologies.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "신한투자증권은 시범 도입이 연간 계약 규모로 몇 배 커진 사례로 산업소재사 약 300만 달러에서 2,900만 달러, 스포츠용품사 160만 달러에서 2,100만 달러를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegz.pdf",
+                  "date": "2026-11-12",
+                  "quote": "산업소재사 파일럿 약 300만달러 →ACV 2,900만달러, 스포츠용품사 160만달러 →2,100만달러, 가전사 100만달러→ 300만달러→ 1,500만달러, 의류사 250만달러→1,150만달러 등",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "미국 상업 부문의 남은 계약 잔액(RDV, 기말 기준 아직 남은 계약 가치)은 65.17억 달러로 1년 전보다 79%, 직전 분기보다 4% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "• U.S. commercial remaining deal value (“RDV”) of $6.517 billion, up 79% year-over-year and 4% quarter-over-quarter",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r3",
+              "statement": "3분기 중 100만 달러 이상 계약 212건, 1,000만 달러 이상 계약 64건을 맺었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 3분기 실적 보도자료 (2026-11-02)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+                  "date": "2026-11-02",
+                  "quote": "• Closed 212 deals of at least $1 million, 107 deals of at least $5 million, and 64 deals of at least $10 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "신한투자증권은 2027년 매출액을 13,032백만 달러로 전년 대비 52.9% 증가, 영업이익률 62.2%로 추정한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegz.pdf",
+                  "date": "2026-11-12",
+                  "quote": "2027F 13,032 52.9 8,112 62.2 6,583 2.51 48.4 67.3 47.9 20.1 37.1",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "신한투자증권은 큰 계약들이 짧은 기간으로 체결됐다는 언급이 있어 과도기 현상일 수 있다며 앞으로 계약 기간과 확대 속도를 확인해야 한다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegz.pdf",
+                  "date": "2026-11-12",
+                  "quote": "다만 이에 대해 8자리 계약이 짧은 기간으로 체결되었다는 언급이 있어서 소버린 AI를 향한 과도기 현상으로 파악. 향후 계약 기간과 확대 속도를 확인해야겠으나 여전히 미래 실적 경로를 낙관",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "한화증권 집계로 3분기 말 RPO(이미 계약했지만 아직 매출로 잡지 않은 금액)는 48.8억 달러인데 1년 뒤에 걸린 장기분 27.4억 달러가 전분기 대비 2.5% 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+                  "publisher": "한화투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeegz.pdf",
+                  "date": "2026-11-03",
+                  "quote": "- 분기 중 29.2억 달러 규모 신규 계약 체결(YoY +5.7%). 3분기 말 기준 RPO 48.8억 달러(YoY +87.7%, QoQ -0.4%). 단기 RPO 21.4억 달러로 전분기 대비 2.4% 증가했지만, 장기 RPO 27.4억 달러로 전분기 대비 2.5% 감소한 영향",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c3",
+              "statement": "회사는 정부 고객의 예산과 지출 우선순위, 규제·정책 변화 때문에 계약 시점과 규모를 예측하기 어렵다는 위험을 공시에 적어 뒀다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                  "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                  "date": "2026-11-03",
+                  "quote": "However, large government customers, in particular, are generally subject to a number of uncertainties regarding budgets and spending levels, changes in timing and spending priorities, and regulatory and policy changes, which can make it difficult to predict when, or if, we will make sales to such customers or the size and scope of any contract awards.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "counter": "[]",
+      "expectedGrowth": "[]",
+      "growthLink": "코드 33을 보면 매출 증가율은 최근 세 분기 내내 올랐지만 순이익 증가율과 순이익률은 반대로 내려왔다. 매출 쪽 가속은 회사가 직접 설명한다 — 3분기 매출 증가분의 가장 큰 덩어리가 미국 상업이고, 그 매출은 1년 전보다 148% 늘었으며 상업 부문 증가분 6.19억 달러 중 4.07억 달러가 기존 고객에서 나왔다. 반면 이익 쪽 둔화는 작년 같은 분기부터 이미 큰 흑자였던 기저 탓이고, 사업 자체의 마진은 영업이익률 47%, 주식보상을 뺀 기준 62%(1년 전 51%)로 오히려 올라갔다.",
+      "headline": "소버린 AI를 탄 AIP가 미국 상업 매출 148% 증가를 만들고 있다",
+      "nVerdict": "충족",
+      "narrative": "새로운 것은 2023년부터 배포한 AIP(생성형 AI 플랫폼)와 온톨로지를 묶은 소버린 AI 제품군이다 — 고객이 자기 데이터와 모델의 통제권을 쥔 채 AI를 실제 업무에 넣는 소프트웨어다. 이것이 지금 매출을 끌고 있다는 증거는 분명하다. 3분기 미국 상업 매출은 9.84억 달러로 1년 전보다 148%, 직전 분기보다 29% 늘었고, 회사 역사상 처음으로 미국 정부 매출을 넘어섰다. 상업 부문 매출 증가분 6.19억 달러 중 4.07억 달러가 작년 말 이미 거래하던 고객에서 나왔다 — 새 고객을 따는 것보다 기존 고객 안에서 쓰임이 번지는 쪽이 크다는 뜻이다. 이익에도 그대로 붙는다. 영업이익은 매출의 47%, 주식보상을 뺀 회사 기준(비GAAP)으로는 62%로 1년 전 51%보다 올랐고, 영업비용까지 뺀 기여 마진도 73%로 1년 전 66%에서 올라왔다. 기대 성장률은 회사가 내놓은 전망(가이던스)으로 2026년 매출 85.30~85.34억 달러, 미국 상업 매출 35.59억 달러 이상(최소 143% 성장)이고, 한화투자증권은 2027년 매출 13,255백만 달러, 신한투자증권은 13,032백만 달러(전년 대비 52.9% 증가)를 추정한다. 꺾을 수 있는 것은 계약 쪽 신호다 — 3분기에 새로 맺은 계약 총액은 29.18억 달러로 1년 전보다 6% 늘어 2분기의 49% 증가에서 크게 꺾였고, 장기 RPO(이미 계약했지만 아직 매출로 잡지 않은 금액 중 1년 뒤 분)는 27.4억 달러로 전분기 대비 2.5% 줄었다. 회사 스스로도 계약 상당수에 고객 편의에 따른 해지 조항이 있다고 적어 두었다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "2023년부터 배포를 시작한 AIP가 상업·정부 양쪽을 겨냥한 최신 제품으로 공시에 명시돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "In 2023, we began deploying our newest offering, AIP, which is designed for customers across the commercial and government sectors, enabling them to derive value from recent breakthroughs in artificial intelligence via the combination of our existing software platforms with generative AI models, including LLMs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "고객 수는 1,090곳으로 1년 전 911곳보다 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "During the periods ended September 30, 2026 and 2025, we had 1,090 and 911 customers, respectively, including companies in various commercial sectors and government agencies around the world.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Our average revenue for the top twenty customers during the trailing twelve months ended September 30, 2026 was $146 million, which grew 76% from an average of $83 million in revenue from the top twenty customers during the trailing twelve months ended September 30, 2025, demonstrating our expanding relationships with existing customers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "상위 20개 고객의 최근 1년 평균 매출은 1.46억 달러로 1년 전 평균 0.83억 달러에서 76% 늘었다.",
+            "stripped": true
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "신한투자증권은 팔란티어의 온톨로지가 일반적인 검색 보강 방식과 달리 객체 자체를 모델에 넣는 구조이고 감사·되돌리기 체계를 유지할 수 있다는 점을 구조적 차별점으로 꼽았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegz.pdf",
+                "date": "2026-11-12",
+                "quote": "동사가 강조하는 '온톨로지'의 구조적 특징은 세 가지. 1) RAG가 아니라 OAG(Ontology-Augmented Generation). 통상적 RAG는 벡터 DB에서 비정형 텍스트를 꺼내 LLM에 주고 LLM이 그것을 해석하며 환각이 발생함. 반면 AIP 로직은 텍스트가 아니라 온톨로지 객체 자체를 LLM 컨텍스트에 주입하는 방식. 2) 또한 읽기 시스템이 아니라 쓰기 시스템인데, 직접 쓰면서도 감사/롤백/승인 체계를 유지할 수 있게 함. 3) 데이터 모델이 아니라 의사결정 모델",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "한화증권은 고객이 AI 모델을 바꿔도 팔란티어에 구축해 둔 데이터·체계를 계속 쓸 수 있어 장기 고객 유지와 반복 매출이 가능하다고 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
+                "publisher": "한화투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegz.pdf",
+                "date": "2026-11-23",
+                "quote": "- 고객사가 AI 모델을 교체해도 팔란티어에 구축한 데이터·체계 활용 가능해 장기 고객 유지와 반복 매출 확보 기대",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 대체로 자기 비용으로, 수익 보장 없이 고객과 시범 도입과 부트캠프를 돌려 다른 회사가 지나치는 기회를 선점한다고 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "We conduct pilots and bootcamps with customers, generally at our own expense and without a guarantee of future returns, in order to access a unique set of opportunities that others may pass over for lack of resources and shorter investment horizons.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "3분기 영업·마케팅비는 1.22억 달러, 44% 늘었는데 주식보상 0.57억 달러와 마케팅비 0.27억 달러 증가가 주된 이유였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Sales and marketing expenses increased by $122 million, or 44%, for the three months ended September 30, 2026 compared to the same period in 2025. The increase was primarily due to increases of $57 million in stock-based compensation and related expenses, $27 million in marketing expenses, and $15 million in payroll and other payroll-related costs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "3분기 매출이 96% 늘어나는 동안 총 영업비용 증가는 46%에 그쳤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Total operating expenses | $ | 845,280 | $ | 580,529 | $ | 264,751 | 46 | % | $ | 2,234,657 | $ | 1,656,812 | $ | 577,845 | 35 | % | … For the three months ended September 30, 2026, we generated $2.3 billion in revenue, reflecting a 96% growth rate from the three months ended September 30, 2025, when we generated $1.2 billion in revenue.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "다만 매출원가는 85% 늘었고 그 증가의 대부분인 1.35억 달러가 외부 클라우드 사용료였다 — 규모가 커질수록 따라 붙는 비용이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "팔란티어 10-Q 경영진 설명 (2026-09-30 분기)",
+                "publisher": "팔란티어 테크놀로지스(SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+                "date": "2026-11-03",
+                "quote": "Cost of revenue for the three months ended September 30, 2026 increased by $176 million, or 85%, compared to the same period in 2025. The increase was primarily due to increases of $135 million in third-party cloud hosting services, $21 million in stock-based compensation and related expenses, and $14 million in hardware and other direct costs, partially offset by a net decrease of $9 million in subcontractor and field services representative expenses.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "sourceGap": "실적 발표 콜 원고와 CEO 분기 서한 원문은 받지 못해 제품별(AIP·Foundry·Gotham·Apollo) 매출 분해는 확인하지 못했다 — 회사는 부문을 상업·정부 둘로만 공시한다.",
+      "ticker": "PLTR",
+      "watch": [
+        "4분기 미국 상업 매출이 연간 35.59억 달러 이상이라는 회사 전망을 채우는지 — 채우면 소버린 AI 수요가 이어진 것",
+        "새로 맺은 계약 총액 증가율이 3분기 6%에서 되살아나는지 — 한 자릿수가 이어지면 지금의 매출 가속은 이미 따 둔 계약을 소진하는 중일 수 있다",
+        "장기 RPO(1년 뒤에 걸린 미인식 계약 금액)가 다시 늘어나는지 — 3분기에는 전분기 대비 줄었다",
+        "조정 영업이익률 62%와 기여 마진 73%가 외부 클라우드 사용료 증가에도 유지되는지"
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-11-03",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-02)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+          "filingDate": "2026-11-02"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
+          "filingDate": "2026-08-03"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+          "filingDate": "2026-11-03"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 95.9,
+            "netIncomeYoy": 137.2,
+            "netMargin": 48.8
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 92.8,
+            "netIncomeYoy": 225,
+            "netMargin": 54.9
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 84.7,
+            "netIncomeYoy": 306.7,
+            "netMargin": 53.3
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 2313411000,
+          "netIncome": 1128012000,
+          "yoy": {
+            "revenue": 95.9,
+            "profit": 175.9,
+            "netIncome": 137.2,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 1935464000,
+          "netIncome": 1061890000,
+          "yoy": {
+            "revenue": 92.8,
+            "profit": 238.6,
+            "netIncome": 225,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 1632583000,
+          "netIncome": 870527000,
+          "yoy": {
+            "revenue": 84.7,
+            "profit": 328.3,
+            "netIncome": 306.7,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 1406802000,
+          "netIncome": 608676000,
+          "yoy": {
+            "revenue": 70,
+            "profit": 5110.5,
+            "netIncome": 670.4,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 91.06,
+        "saleNy": 53.68,
+        "epsCy": 126.89,
+        "epsNy": 49.19
+      }
+    },
+    "NFEGP": {
+      "ticker": "NFEGP",
+      "headline": "새 동력은 터빈 리스뿐 — 3분기 이익 급증은 부채 재조정 비현금 이익이다",
+      "nVerdict": "부분 충족",
+      "drivers": [
+        {
+          "what": "FLNG 1 — 멕시코 알타미라 해상에 띄운 부유식 액화설비. 회사 LNG 공급의 주 원천이며 2026년 10월부터 터빈 고장으로 멈춰 있다",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2024-07",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "FLNG 1 은 2024년 7월 LNG 생산을 시작해 회사 LNG 수요의 상당 부분을 공급하고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "FLNG 1 began producing LNG in July 2024, and we source a significant portion of our LNG needs from this facility.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "회사는 가동 중단 직전까지 FLNG 1 이 2026년 정기 보수를 빼고 약 98% 시간 가동됐다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 3분기 실적 보도자료 (2026-11-16)",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000183/nfe_q3x2026xearningsxrelea.htm",
+                  "date": "2026-11-16",
+                  "quote": "Before the outage, FLNG 1 was online approximately 98% of the time in 2026, excluding scheduled maintenance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 총매출은 3.358억 달러로 2분기보다 1.097억 달러 늘었고, 회사는 카고 판매 증가와 계약 양도 수입 3,940만 달러, 멕시코 판매량 증가를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 3분기 실적 보도자료 (2026-11-16)",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000183/nfe_q3x2026xearningsxrelea.htm",
+                  "date": "2026-11-16",
+                  "quote": "Total revenues were $335.8 million in the third quarter of 2026, up $109.7 million from the second quarter of 2026, primarily from higher cargo sales, $39.4 million of contract novation revenue, and higher volumes sold in Mexico.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "카고(LNG 화물) 판매 매출은 2분기보다 5,090만 달러 늘었고, 회사는 판매량과 가격이 모두 올랐다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "Cargo sales increased $50.9 million from the three months ended June 30, 2026 to the three months ended September 30, 2026, due to higher volumes sold and higher pricing.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "가스 가중평균 원가는 MMBtu 당 9.02달러에서 8.79달러로 내려갔고, 회사는 FLNG 1 생산 가스를 더 많이 써서 현물 카고 구매가 없었던 점을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "The weighted average cost of gas decreased marginally from $9.02 to $8.79 per MMBtu, primarily due to zero spot cargo purchase as we consumed more gas produced from our FLNG 1 unit.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "3분기 조정 EBITDA(비GAAP, 일회성·이자·감가상각을 뺀 회사 기준 영업이익)는 4,840만 달러였고, 회사는 카고 판매 마진과 계약 양도 수입 3,940만 달러가 끌어올렸으나 운영·정비비와 터빈 리스 비용이 깎았다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 3분기 실적 보도자료 (2026-11-16)",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000183/nfe_q3x2026xearningsxrelea.htm",
+                  "date": "2026-11-16",
+                  "quote": "Adjusted EBITDA (2) was $48.4 million for the quarter, driven by higher cargo sales margin and $39.4 million of contract novation revenue, partly offset by higher operating and maintenance and turbine lease costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 전망으로는 터빈 제조사와의 최근 논의 기준 터빈이 11월 23일 준비되고, 시험·설치에 몇 주가 걸려 FLNG 1 이 2026년 4분기 중 가동을 재개한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 3분기 실적 보도자료 (2026-11-16)",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000183/nfe_q3x2026xearningsxrelea.htm",
+                  "date": "2026-11-16",
+                  "quote": "Based on the most recent discussions with the turbine manufacturer, NFE expects the turbine to be ready November 23rd. Testing and installation are then expected to take several weeks, and NFE continues to expect FLNG 1 to return to service in the fourth quarter of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 2027년 7월부터 장기 공급계약으로 LNG 를 추가 확보할 것으로 보며, 가격은 헨리허브 지수에 고정 수수료를 더하는 방식이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "Starting in July 2027, we expect to have additional LNG supply from certain long-term supply contracts, which are based on an index such as Henry Hub plus a fixed fee component.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사는 FLNG 1 복귀 시점이 자기 통제 밖이어서 계속기업으로 존속할 능력에 중대한 의문이 있다고 공시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 3분기 실적 보도자료 (2026-11-16)",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000183/nfe_q3x2026xearningsxrelea.htm",
+                  "date": "2026-11-16",
+                  "quote": "As disclosed in its Form 10-Q, because the timing of FLNG 1’s return to service is outside the Company’s control, there is substantial doubt about NFE’s ability to continue as a going concern.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "FLNG 1 이 멈춰 있는 동안 회사는 그 설비에서 LNG 를 생산할 수 없어 영업현금흐름이 줄었고 앞으로도 줄 것이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "While FLNG 1 is offline, the Company is unable to produce LNG at the facility, which has reduced, and is expected to continue to reduce, operating cash flows.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "3분기 순이익 8.634억 달러는 부채 재조정·소멸에 따른 16억 달러 비현금 이익에서 나왔고, 4.679억 달러 비현금 자산손상과 1.608억 달러 이자비용, 4,730만 달러 거래비용이 이를 깎았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 3분기 실적 보도자료 (2026-11-16)",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000183/nfe_q3x2026xearningsxrelea.htm",
+                  "date": "2026-11-16",
+                  "quote": "Net income was $863.4 million in the third quarter of 2026, driven by: • Non-cash gains of $1.6 billion on the restructuring and extinguishment of debt, partly offset by • $467.9 million of non-cash asset impairments, $160.8 million of interest expense and $47.3 million of transaction and integration costs related to the restructuring",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "모바일 터빈 10기(최대 300MW) 5년 리스 — 미국 투자등급 회사를 상대로 2026년 10월 23일 체결",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2026년 10월 23일 최대 300메가와트를 낼 수 있는 모바일 터빈 10기를 미국 투자등급 회사에 5년 기본 기간으로 리스하기로 합의했고, 상대방이 5년 전에 해지할 수 있는 권리와 그에 따른 손해배상 조항이 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "On October 23, 2026, the Company agreed to lease ten mobile turbines that can generate up to 300 megawatts of power to a US-based investment-grade company. The lease is for an initial period of five years, with certain termination rights and related liquidated damages if the counterparty terminates before the end of the five-year term.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "회사는 이 거래가 이익에 보탬이 되고 유동성을 개선할 것으로 본다고만 밝혔고, 금액은 공시하지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "The transaction is expected to be accretive to NFE’s earnings and enhance its liquidity profile.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사는 터빈을 2026년 4분기부터 단계적으로 인도해 2027년 1분기에 마칠 예정이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "The turbines are expected to be delivered in stages beginning in the fourth quarter of 2026 and finalized in the first quarter of 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "리스는 매출보다 비용이 먼저 들어왔다 — 3분기 운영·정비비가 2분기보다 4,100만 달러 늘었고 회사는 터빈 리스·정비비 증가와 FLNG 1 관련 비용을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "Operations and maintenance increased $41.0 million for the three months ended September 30, 2026 compared to the three months ended June 30, 2026. The increase was primarily due to increased turbine lease and maintenance expenses and higher costs related to FLNG 1.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "남은 터빈 물량은 아직 투입처가 정해지지 않아 회사가 기회를 찾는 중이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "We are actively pursuing opportunities to deploy our remaining portfolio of turbines.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "PREPA(푸에르토리코 전력청)와 맺은 7년 가스공급계약 — 산후안 터미널에서 연 최대 75 TBtu 공급",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2025-12",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 2025년 12월 PREPA 와 산후안 터미널에서 연 최대 75 TBtu 의 천연가스를 공급하는 7년 계약을 새로 따냈고, 디젤을 태우는 가스 전환 가능 발전소에 추가 물량을 넣는 조항이 들어 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "In December 2025, we were awarded a new 7-year gas supply agreement with PREPA to deliver up to 75 TBtu of natural gas annually from our San Juan Facility. The new contract arranges for future delivery of LNG in San Juan for power plants currently running on natural gas and also provides for incremental natural gas volumes, allowing for the conversion of additional gas-ready plants currently burning diesel.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "계약 체결 뒤에도 푸에르토리코 매출은 늘지 않았다 — 9개월 기준 1,420만 달러 줄었고 회사는 산후안 터미널 인도량 감소를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "Revenues from our Puerto Rico operations decreased $14.2 million from the nine months ended September 30, 2025 to nine months ended September 30, 2026, due to lower volumes delivered at our San Juan Facility.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "회사는 FLNG 1 가동 중단으로 LNG 인도 능력이 훼손되자 푸에르토리코 정부 일부에서 이 가스공급계약의 해지를 요구하고 있다고 공시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "New Fortress Energy 10-Q 경영진 설명",
+                  "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                  "date": "2026-11-16",
+                  "quote": "As our recent FLNG 1 outage has impaired our ability to make current deliveries of LNG, certain constituencies in the Puerto Rico government have called for termination of the gas supply agreement.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 은 최근 3분기 매출·순이익·순이익률이 모두 오르고 있다고 보여 주지만, 3분기 가속을 만든 것은 새 제품이 아니다 — 회사는 순이익 8.634억 달러가 부채 재조정·소멸에 따른 16억 달러 비현금 이익에서 나왔다고 직접 적었다. 영업 쪽 증가(총매출 3.358억 달러, 2분기보다 1.097억 달러)는 카고 판매 5,090만 달러 증가와 한 번에 들어온 계약 양도 수입 3,940만 달러가 만들었고, 회사가 이유로 든 것도 그 둘과 멕시코 판매량이다. 반대로 회사가 새 동력으로 내세운 터빈 리스는 아직 비용만 반영돼 있다 — 3분기 운영·정비비가 2분기보다 4,100만 달러 늘었고 회사는 터빈 리스·정비비를 이유로 들었다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "가장 중요한 새 자산은 2024년 7월 생산을 시작한 자체 액화설비 FLNG 1 이고, 회사는 LNG 수요의 상당 부분을 여기서 조달한다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "New Fortress Energy 10-Q 경영진 설명",
+                "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                "date": "2026-11-16",
+                "quote": "FLNG 1 began producing LNG in July 2024, and we source a significant portion of our LNG needs from this facility.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 2027년부터 헨리허브 지수에 고정 수수료를 더한 장기 공급계약으로 LNG 수요 일부를 충당하고, 그 장기 공급을 하류 고객의 장기 수요와 맞추는 전략이라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "New Fortress Energy 10-Q 경영진 설명",
+                "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                "date": "2026-11-16",
+                "quote": "Starting in 2027, we expect to meet a portion of our LNG demand under long-term supply contracts, which are based on an index such as Henry Hub plus a fixed fee component. Our strategy is to match this long-term supply with long-term demand from our existing and future downstream customers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "재조정 이후 회사는 기존 설비의 운영 효율, LNG 공급과 터빈 물량의 투입, 진행 중 개발 사업의 저비용 완료에 집중하겠다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "New Fortress Energy 10-Q 경영진 설명",
+                "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                "date": "2026-11-16",
+                "quote": "Subsequent to the Restructuring Transaction, we are focusing on operational efficiency of our current facilities, deployment of our LNG supply and turbine portfolios, and cost-effective completion of in-process development projects .",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "회사는 재조정으로 소구 가능 회사채무를 약 57억 달러에서 약 7.108억 달러로 줄였고 브라질 사업을 더 이상 보유·운영하지 않는다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "New Fortress Energy 10-Q 경영진 설명",
+                "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                "date": "2026-11-16",
+                "quote": "Following the Restructuring Transaction, we are a simpler and significantly less leveraged company. We reduced our recourse corporate indebtedness from approximately $5.7 billion to approximately $710.8 million , and we no longer own or operate the Brazil Business.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "3분기 이자비용은 2분기보다 3,540만 달러 줄었고, 회사는 9월 11일 재조정 종결로 원금 잔액이 낮아진 점을 이유로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "New Fortress Energy 10-Q 경영진 설명",
+                "publisher": "New Fortress Energy Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+                "date": "2026-11-16",
+                "quote": "Interest expense decreased by $35.4 million for the three months ended September 30, 2026 compared to the three months ended June 30, 2026, mainly as a result of the closing of the Restructuring Transaction on September 11, 2026. The lower interest expense is primarily attributed to lower principal balance.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로 생긴 것은 세 가지로, 2024년 7월 생산을 시작한 자체 액화설비 FLNG 1, 2026년 10월 23일 체결한 모바일 터빈 10기(최대 300MW) 5년 리스, 2025년 12월 따낸 PREPA 7년 가스공급계약이다. 매출로 확인되는 것은 FLNG 1 쪽뿐이다 — 3분기 총매출 3.358억 달러는 2분기보다 1.097억 달러 많았고, 회사는 카고 판매 증가와 계약 양도 수입 3,940만 달러, 멕시코 판매량 증가를 이유로 들었다. 이익 쪽에서는 FLNG 1 생산 가스를 더 많이 쓰면서 현물 구매가 사라져 가스 가중평균 원가가 MMBtu 당 9.02달러에서 8.79달러로 내려갔고, 조정 EBITDA(비GAAP, 일회성·이자·감가상각을 뺀 회사 기준 영업이익)는 4,840만 달러였다. 다만 코드 33 이 보여 주는 이익 가속은 영업에서 온 것이 아니다 — 3분기 순이익 8.634억 달러는 부채 재조정·소멸에 따른 16억 달러 비현금 이익에서 나왔고, 4.679억 달러 자산손상과 1.608억 달러 이자비용이 이를 깎았다. 터빈 리스는 아직 발표 단계로 매출 숫자가 없고, 비용만 먼저 들어와 3분기 운영·정비비가 2분기보다 4,100만 달러 늘었다. PREPA 계약은 연 최대 75 TBtu 라는 규모가 있지만 체결 뒤에도 푸에르토리코 매출은 9개월 기준 1,420만 달러 줄었다. 기대 성장률로 회사가 내놓은 것은 숫자가 아니라 일정이다 — FLNG 1 은 2026년 4분기 중 복귀, 터빈 10기는 2026년 4분기부터 2027년 1분기까지 인도, 장기 LNG 공급계약은 2027년 7월부터다. 이 그림을 꺾는 것도 같은 자리에 있다 — 회사는 FLNG 1 복귀 시점이 자기 통제 밖이어서 계속기업으로 존속할 능력에 중대한 의문이 있다고 공시했고, 가동 중단으로 인도 능력이 훼손되자 푸에르토리코 정부 일부가 가스공급계약 해지를 요구하고 있다고 적었다. 재조정으로 소구 가능 회사채무를 약 57억 달러에서 약 7.108억 달러로 줄여 이자비용이 분기 3,540만 달러 내려간 것은 분명한 개선이지만, 그것은 새 제품이 만든 성장이 아니라 자본구조 축소다.",
+      "watch": [
+        "FLNG 1 이 실제로 4분기 안에 재가동됐는지, 그리고 다음 분기 공시에서 계속기업 존속 의문 문구가 빠지는지",
+        "터빈 10기 인도가 2027년 1분기까지 끝나고 리스 매출·이익 기여가 숫자로 나오는지 — 지금은 운영·정비비만 늘어 있다",
+        "PREPA 7년 가스공급계약이 유지되는지, 산후안 터미널 인도량과 푸에르토리코 매출이 다시 늘어나는지",
+        "3분기처럼 비현금 이익·일회성 계약 양도 수입이 빠진 상태에서 조정 EBITDA 가 플러스를 유지하는지와 영업현금흐름의 방향"
+      ],
+      "sourceGap": "국내 증권사 리포트와 컨센서스 추정치가 없었고, 11월 16일 실적 발표 콜 원고는 읽지 못했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-11-16",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-16)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000183/nfe_q3x2026xearningsxrelea.htm",
+          "filingDate": "2026-11-16"
+        },
+        {
+          "label": "실적 보도자료 (2025-09-08)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972325000125/nfe-06302025x8xkex991.htm",
+          "filingDate": "2025-09-08"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-16)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000185/nfe-20260930.htm",
+          "filingDate": "2026-11-16"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 74.9,
+            "netIncomeYoy": 428.3,
+            "netMargin": 337.3
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 19.4,
+            "netIncomeYoy": 31.8,
+            "netMargin": -136.9
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": -51.9,
+            "netIncomeYoy": -128.4,
+            "netMargin": -216.3
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": true,
+          "netMargin": true
+        },
+        "all": true
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 255937000,
+          "netIncome": 863355000,
+          "yoy": {
+            "revenue": 74.9,
+            "profit": -409,
+            "netIncome": 428.3,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 272436000,
+          "netIncome": -372955000,
+          "yoy": {
+            "revenue": 19.4,
+            "profit": 61.7,
+            "netIncome": 31.8,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 185214000,
+          "netIncome": -400604000,
+          "yoy": {
+            "revenue": -51.9,
+            "profit": -1700.3,
+            "netIncome": -128.4,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 420331000,
+          "netIncome": -847064000,
+          "yoy": {
+            "revenue": 19.9,
+            "profit": -407.7,
+            "netIncome": -277.4,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": null,
+        "saleNy": null,
+        "epsCy": null,
+        "epsNy": null
+      }
+    },
+    "PVH": {
+      "ticker": "PVH",
+      "headline": "라이선스 회수로 매출은 늘지만 마진을 깎는다 — 이익 성장을 만드는 새 동력은 아직 없다",
+      "nVerdict": "부분 충족",
+      "drivers": [
+        {
+          "what": "G-III 에 맡겼던 북미 여성복 카테고리를 라이선스 만료에 맞춰 직접 운영으로 돌리는 전환 — TOMMY HILFIGER·Calvin Klein 여성 의류를 회사가 직접 도매로 판다",
+          "kind": "contract",
+          "stage": "매출 발생 중",
+          "since": "2023",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 2022년에 연장한 G-III 라이선스 계약이 2023년 말부터 2026년 말까지 순차로 만료되며, 그 여성복 카테고리의 상당 부분을 직접 운영·관리하고 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "We extended in 2022 most of our licensing agreements with G-III Apparel Group, Ltd. for Calvin Klein and TOMMY HILFIGER in the United States and Canada, largely pertaining to the women’s apparel product categories sold at wholesale in North America. These agreements were given staggered expirations, with the first occurring at the end of calendar 2023, the last occurring at the end of calendar 2026 and most being expired by the end of calendar 2025. We have been directly operating and managing a significant portion of the businesses for the previously licensed product categories, and we intend to continue to directly operate or manage a significant portion of these businesses, with the remainder re-licensed to other third parties.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "TOMMY HILFIGER 브랜드 매출은 2026년 2분기에 1년 전과 거의 같았는데, 그 안에서 여성복 카테고리 직접 운영 전환이 약 3% 증가 기여를 했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "• Tommy Hilfiger – Revenue was approximately flat compared to the prior year period, which reflects an approximately 3% increase attributable to the transition in-house of previously licensed TOMMY HILFIGER women’s product categories in Americas . The impact related to foreign currency translation was immaterial.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "이 전환으로 2025년 전사 매출이 1% 순증했고, 2026년에는 1% 미만의 추가 순증이 예상된다는 것이 회사 설명이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "The expiration of these licenses and the transition of previously licensed women’s product categories in house resulted in a 1% net increase to our revenue and an approximately 50 basis point decline in our gross margin in 2025. In 2026, the transition of previously licensed product categories is expected to result in a less than an additional 1% net increase to our revenue and an additional approximately 50 basis point decline in our gross margin.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "The expiration of these licenses and the transition of previously licensed women’s product categories in house resulted in a 1% net increase to our revenue and an approximately 50 basis point decline in our gross margin in 2025. In 2026, the transition of previously licensed product categories is expected to result in a less than an additional 1% net increase to our revenue and an additional approximately 50 basis point decline in our gross margin.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "같은 전환으로 2025년 매출총이익률이 약 50bp(0.01%p 단위로 50, 즉 0.5%p) 낮아졌고, 2026년에도 약 50bp 추가 하락이 예상된다 — 매출은 늘지만 마진은 깎인다.",
+              "stripped": true
+            },
+            {
+              "id": "d1p2",
+              "statement": "라이선스 수수료를 받던 부문의 이익은 2026년 2분기 7,400만 달러로 1년 전 8,500만 달러에서 13% 줄었고, 회사는 북미 라이선스 전환을 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "• Licensing – Income before interest and taxes in the second quarter of 2026 was $74 million, a 13% decrease compared to $85 million in the second quarter of the prior year, due to the license transitions in North America partially offset by growth in the ongoing licensing business.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 전망으로는 2026년에 이 전환이 매출을 1% 미만 순증시키고 매출총이익률을 약 50bp 더 떨어뜨린다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "In 2026, the transition of previously licensed product categories is expected to result in a less than an additional 1% net increase to our revenue and an additional approximately 50 basis point decline in our gross margin.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사는 북미 라이선스 전환이 2026년 말에 끝날 것으로 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "◦ Licensing revenue decreased 13% compared to the prior year period due to the planned license transitions in North America partially offset by growth in the ongoing licensing business. The planned license transitions are expected to be complete by the end of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사는 라이선스였던 사업을 직접 운영하면서 의도한 효과를 얻지 못하거나 사업에 차질이 생길 위험을 공시에 적어 두었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "(iii) the ability to realize the intended benefits from increasing the Company’s direct management and oversight of its Calvin Klein and TOMMY HILFIGER brands (such as the in-process plan to directly operate a significant portion of the businesses for the product categories that are or had been licensed to G-III Apparel Group, Ltd., with the remainder to be re-licensed to other third parties, upon the expirations of the underlying license agreements) and avoid any disruptions in the businesses;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "직접 도매로 옮긴 매출은 기존보다 매출총이익률이 낮아, 전환이 커질수록 전사 마진을 끌어내린다고 회사가 직접 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "(iii) a decline due to the transition of previously licensed product categories into our directly operated wholesale business, as revenue through our wholesale distribution channel carries lower gross margins.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "히어로 제품 카테고리 확대와 새 글로벌 캠페인·스포츠 파트너십 — Calvin Klein 의 Tate McRae·Jung Kook, TOMMY HILFIGER 의 Travis Kelce·Liverpool Football Club·Cadillac Formula 1 Team",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2026년 2분기에 Calvin Klein 의 Jung Kook·Raphinha 캠페인과 TOMMY HILFIGER 의 Liverpool Football Club·Cadillac Formula 1 Team 파트너십을 새로 내놨다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "• Delivered major global campaigns including Jung Kook and soccer star Raphinha for ‘Calvin Klein’ and high-profile partnerships with Liverpool Football Club and the Cadillac Formula 1 ® Team for ‘TOMMY HILFIGER’",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "최고경영자는 두 브랜드 모두에서 가을 시즌 신제품과 마케팅에 초기 반응이 긍정적이라며 Tate McRae(Calvin Klein)·Travis Kelce(TOMMY HILFIGER) 캠페인을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "In both brands we are seeing early momentum for the new fall season in product and marketing, with a very positive consumer response to our recently-launched campaigns featuring Tate McRae for Calvin Klein and Travis Kelce for TOMMY HILFIGER .",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "2026년 2분기 전자상거래 매출은 1년 전보다 4% 늘었고(환율 영향 제외 3%), 회사는 Calvin Klein 과 TOMMY HILFIGER 양쪽에서 성장했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "• Grew second quarter e-commerce revenues 4% (3% in constant currency), led by Americas and EMEA, with growth across Calvin Klein and Tommy Hilfiger",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "2026년 1분기 소비자 직접 판매(DTC, 회사가 직접 운영하는 매장·온라인) 매출은 1년 전보다 6% 늘었다(환율 영향 제외 3%).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 1분기 실적 보도자료 (2026-06-03)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000034/ex99120261q8k.htm",
+                  "date": "2026-06-03",
+                  "quote": "• Increased direct-to-consumer revenues by 6% (3% in constant currency) with growth in both stores and e-commerce across Calvin Klein and Tommy Hilfiger",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "회사는 2026년 2분기 비GAAP(일회성을 뺀 회사 기준) 영업이익률이 전망을 넘은 이유로 미주·아시아태평양의 매출총이익률 개선과 평균 판매단가(AUR) 상승, 비용 절제를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "• Delivered second quarter non-GAAP operating margin above guidance, reflecting stronger gross margin and higher AUR values in Americas and APAC and continued cost discipline across the business",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2p2",
+              "statement": "다만 같은 기간 판매·관리비(SG&A) 비중은 1년 전보다 100bp 올랐고, 회사는 마케팅과 전략 투자 증가를 첫 번째 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "SG&A expenses in the second quarter of 2026 were $1.112 billion, or 53.1% of total revenue, compared to $1.129 billion, or 52.1% of total revenue, in the second quarter of the prior year. The 100 basis point increase in SG&A as a percentage of revenue was primarily driven by (i) an increase in marketing and other strategic investments, (ii) the impact from the deleveraging of expenses on lower revenue, and (iii) a change in the revenue mix between our direct-to-consumer distribution channel and our wholesale distribution channel, as our direct-to-consumer distribution channel was a larger proportion of total revenue and carries higher SG&A expenses as a percentage of revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 연간 매출 거의 변동 없음, 비GAAP 영업이익률 약 8.8%, 비GAAP 주당순이익 11.80~12.10달러로 유지됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "• Full year outlook: \n◦ Revenue: Reaffirms outlook of approximately flat (decrease slightly on a constant currency basis). \n◦ Operating margin: Reaffirms outlook of approximately 8.8% on a non-GAAP basis. \n◦ EPS: Reaffirms outlook of a range of $11.80 to $12.10 on a non-GAAP basis.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2e2",
+              "statement": "회사의 2026년 3분기 전망은 매출이 1년 전보다 한 자릿수 초반 감소하고 비GAAP 영업이익률은 약 7.5%로, 1년 전 8.8%보다 낮아지는 것이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "Third Quarter 2026 Guidance \n• Revenue: Projected to decrease low single-digits compared to the prior year period (decrease low single-digits on a constant currency basis). \n• Operating margin: Projected to be approximately 7.5% on a non-GAAP basis, compared to 8.8% on a non-GAAP basis in the prior year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "2026년 3월 시작된 중동 분쟁이 유럽·중동·아프리카(EMEA) 소비를 누르고 있고, 회사는 2026년 전망에 그 영향이 길게 이어진다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "The conflict in the Middle East, which began in March 2026, has resulted in disruption and instability in global supply chains, increased fuel and oil costs, foreign currency volatility (particularly in the euro), and continued volatility and uncertainty in global markets. ... Our 2026 outlook currently assumes estimated negative prolonged effects from the conflict in the Middle East and its broader macroeconomic pressures.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "중국 상무부가 2025년 2월 PVH 를 '신뢰할 수 없는 기업 목록'에 올렸고, 중국은 2025년 회사 매출의 약 6%·이자세전이익의 약 20%를 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                  "date": "2026-09-02",
+                  "quote": "In January 2025, MOFCOM issued a preliminary finding that PVH Corp. had violated normal market trading principles and in February 2025, it announced its determination and placed PVH Corp. on the List of Unreliable Entities (“UEL”). We do not know if or when MOFCOM will implement any measures as a result of the listing or what they will be if any are imposed. Approximately 6% and 20% of our revenue and income before interest and taxes (excluding goodwill and other intangible asset impairment charges), respectively, were generated in China in 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "신임 최고재무책임자(CFO) Alexis Rollier 선임 — Sephora 에서 8년 넘게 글로벌 CFO·COO 를 지낸 인물",
+          "kind": "management",
+          "stage": "발표만",
+          "since": "2026-09",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 2026년 9월 Alexis Rollier 를 새 CFO 로 맞이했다고 발표했고, 그가 Sephora 에서 8년 넘게 글로벌 CFO·COO 로 일하며 이익 확대를 이끈 경력이 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PVH 2026년 2분기 실적 보도자료 (2026-09-02)",
+                  "publisher": "PVH Corp. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+                  "date": "2026-09-02",
+                  "quote": "We are also very pleased to welcome Alexis Rollier as our new Chief Financial Officer. Alexis joins us with deep financial and operational experience, including over 8 years as the global CFO and COO at Sephora, where he had a strong track record of driving disciplined growth with significant profit expansion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": []
+        }
+      ],
+      "growthLink": "코드 33 은 최근 3분기에 매출 증가율·순이익 증가율·순이익률이 함께 오르는 흐름이 아니라고 본다 — 매출 증가율은 2026년 2월 결산 분기 5.6%에서 5월 2.1%, 8월 -3.2%로 내려왔고 순이익률은 -6.3% → 4.3% → -4.9% 로 들쭉날쭉하다. 회사는 2분기 매출 감소의 원인을 유럽·중동·아프리카(EMEA) 도매 부진과 Calvin Klein 북미 도매 출하 시점이 하반기로 밀린 것으로 설명했고, 새로 생긴 것 가운데 숫자로 매출을 끌어올린 것은 여성복 카테고리 직접 운영 전환(TOMMY HILFIGER 브랜드 약 3% 기여) 하나뿐이다. 반면 2분기 이익 개선의 대부분은 1억 700만 달러 관세 환급이라는 일회성이어서, 새 동력이 이익 가속을 만들고 있다는 근거는 공시에 없다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "회사는 Calvin Klein 의 데님·언더웨어, TOMMY HILFIGER 의 스웨터·아우터를 '히어로 카테고리'로 키우며 매장과 온라인 양쪽에서 성장시켰다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PVH 2026년 1분기 실적 보도자료 (2026-06-03)",
+                "publisher": "PVH Corp. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000034/ex99120261q8k.htm",
+                "date": "2026-06-03",
+                "quote": "• Scaled the impact of continued product innovation, growing full hero product categories of denim and underwear for ‘Calvin Klein’ and sweaters and outerwear for ‘TOMMY HILFIGER’ across both stores and e-commerce",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 자사를 세계에서 가장 큰 의류 기업 중 하나로 설명하며, 2025년 매출 90억 달러 가운데 TOMMY HILFIGER·Calvin Klein 두 브랜드가 95% 이상을 만들었다고 밝혔다 — 다만 업계가 소수 기업이 지배하는 구조인지에 대한 설명은 공시에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                "publisher": "PVH Corp. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                "date": "2026-09-02",
+                "quote": "We are one of the largest global apparel companies in the world, with a history going back over 140 years. ... Our revenue was $9.0 billion in 2025, of which over 70% was generated outside of the United States. Our global iconic lifestyle brands, TOMMY HILFIGER and Calvin Klein , together generated over 95% of our revenue.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 매출총이익률이 높은 소비자 직접 판매(DTC) 비중을 키우는 방향으로 매출 구성을 바꾸고 있고, 2026년 연간 매출총이익률이 1년 전보다 약 100bp 오를 것으로 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                "publisher": "PVH Corp. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                "date": "2026-09-02",
+                "quote": "We currently expect that gross margin for the full year 2026 will increase approximately 100 basis points compared to 2025. This outlook reflects (i) the approximately 120 basis point benefit from tariff refunds recognized in the second quarter of 2026, (ii) lower product costs, including the approximately 50 basis point favorable transactional impact of foreign exchange on our international businesses as discussed above and (iii) a change in the revenue mix between our direct-to-consumer distribution channel and our wholesale distribution channel as discussed above.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "관세 부담을 줄이려고 생산지 재편, 협력사 단가 협상, 할인 전략 조정과 가격 인상까지 쓰고 있다고 회사가 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                "publisher": "PVH Corp. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                "date": "2026-09-02",
+                "quote": "Mitigation strategies have included, and may continue to more significantly include, further sourcing optimization, negotiations with our vendors, internal efficiencies to drive cost savings, optimizing our discount strategies and pricing actions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "2024년에 시작한 운영 구조 단순화(Growth Driver 5 Actions)로 연간 2억 5,000만 달러가 넘는 비용 절감 효과가 났다고 회사가 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                "publisher": "PVH Corp. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                "date": "2026-09-02",
+                "quote": "We embarked on a multi-year initiative beginning in 2024 to simplify our operating model by centralizing certain processes and improving systems and automation to drive more efficient and cost-effective ways of working across the organization (the “Growth Driver 5 Actions”). The initiative has resulted in annualized cost savings of over $250 million, while continuing to make targeted investments to drive our strategic initiatives.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "전사 기술을 하나의 시스템으로 모으고 지원 조직을 정리하는 작업으로 본사 비용은 늘었지만, 지역 부문의 절감액이 그보다 커서 2분기에 전체로는 큰 절감이 났다고 회사가 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PVH 10-Q 경영진 설명 (2026-09-02)",
+                "publisher": "PVH Corp. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+                "date": "2026-09-02",
+                "quote": "• Corporate and other costs were $243 million in the second quarter of 2026 , an increase of $33 million compared to $210 million in the prior year period, primarily due to (i) an increase in marketing and other strategic investments and (ii) an increase in centrally managed information technology and support costs resulting from the Growth Driver 5 Actions taken in respect of the initiatives to move to a single global technology stack and streamline and optimize our support functions globally. Overall, the Growth Driver 5 Actions drove significant savings in the second quarter with savings in the regional segments more than offsetting an increase in Corporate information technology and support costs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "PVH 에서 새로 생긴 것은 분명히 있다. G-III 에 맡겼던 북미 여성복 카테고리를 라이선스가 만료되는 대로 직접 운영으로 돌리는 전환이고, 2023년 말부터 시작해 2026년 말에 끝난다. 이 전환은 2026년 2분기에 TOMMY HILFIGER 브랜드 매출을 약 3% 끌어올렸고, 2025년에는 전사 매출을 1% 순증시켰다. 문제는 이익 쪽이다 — 같은 전환이 2025년 매출총이익률을 약 50bp 깎았고 2026년에도 약 50bp 더 깎을 것으로 회사가 보고 있으며, 라이선스 수수료를 받던 부문 이익은 2분기에 7,400만 달러로 13% 줄었다. 두 번째로 새로운 것은 Tate McRae·Travis Kelce 캠페인과 Liverpool Football Club·Cadillac Formula 1 Team 파트너십인데, 소비자 직접 판매(DTC)와 전자상거래 매출은 늘었지만(2분기 전자상거래 4%, 1분기 DTC 6%) 늘어난 마케팅비가 판매·관리비 비중을 100bp 밀어 올렸다. 세 번째는 Sephora 에서 8년 넘게 글로벌 CFO·COO 를 지낸 Alexis Rollier 의 CFO 선임인데, 2026년 9월 발표 단계라 매출·이익에 연결할 근거가 아직 없다. 기대치로 보면 회사는 2026년 연간 매출 거의 변동 없음, 비GAAP 영업이익률 약 8.8%, 비GAAP 주당순이익 11.80~12.10달러를 유지했고 3분기는 매출 한 자릿수 초반 감소에 영업이익률 약 7.5%를 제시했다 — 새 동력이 성장률을 끌어올리는 그림이 아니다. 꺾을 수 있는 것은 2026년 3월 시작된 중동 분쟁의 EMEA 소비 위축과, 2025년 매출의 약 6%·이자세전이익의 약 20%를 차지하는 중국에서 상무부의 '신뢰할 수 없는 기업' 등재다. 정리하면 새로운 것은 확인되지만 지금의 이익을 만든 것은 1억 700만 달러 관세 환급과 연 2억 5,000만 달러 규모 비용 절감이고, 새 동력은 아직 이익 성장을 만들고 있지 않다.",
+      "watch": [
+        "Calvin Klein 북미 도매 출하가 하반기로 밀린 만큼 3분기·4분기에 실제로 돌아오는지 — 돌아오지 않으면 전환 효과도 가려진다",
+        "관세 환급 1억 700만 달러를 뺀 기준으로 매출총이익률이 1년 전보다 오르는지 (2분기 기준 환급 제외분은 20bp 개선에 그쳤다)",
+        "라이선스 전환이 끝나는 2026년 말 이후 라이선스 부문 이익 감소가 멈추고, 직접 운영 매출이 그 감소분보다 커지는지",
+        "EMEA 매출이 전년 대비 감소를 멈추는지 — 회사가 2026년 전망에 중동 분쟁 영향을 계속 깔고 있다"
+      ],
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트·원문 PDF 를 받지 못해, 제품별 매출 세부와 애널리스트 추정 성장률은 회사 가이던스로만 확인했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-25",
+      "asOf": "2026-09-02",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-09-02)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000055/ex99120262q8k.htm",
+          "filingDate": "2026-09-02"
+        },
+        {
+          "label": "실적 보도자료 (2026-06-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000034/ex99120261q8k.htm",
+          "filingDate": "2026-06-03"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-09-02)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78239/000007823926000056/pvh-20260802.htm",
+          "filingDate": "2026-09-02"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-08-02",
+            "revenueYoy": -3.2,
+            "netIncomeYoy": -145.9,
+            "netMargin": -4.9
+          },
+          {
+            "periodEnd": "2026-05-03",
+            "revenueYoy": 2.1,
+            "netIncomeYoy": 296.4,
+            "netMargin": 4.3
+          },
+          {
+            "periodEnd": "2026-02-01",
+            "revenueYoy": 5.6,
+            "netIncomeYoy": -200.7,
+            "netMargin": -6.3
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-08-02",
+          "revenue": 2097000000,
+          "netIncome": -102900000,
+          "yoy": {
+            "revenue": -3.2,
+            "profit": -243.3,
+            "netIncome": -145.9,
+            "priorEnd": "2025-08-03"
+          }
+        },
+        {
+          "periodEnd": "2026-05-03",
+          "revenue": 2025100000,
+          "netIncome": 88000000,
+          "yoy": {
+            "revenue": 2.1,
+            "profit": 137.4,
+            "netIncome": 296.4,
+            "priorEnd": "2025-05-04"
+          }
+        },
+        {
+          "periodEnd": "2026-02-01",
+          "revenue": 2505100000,
+          "netIncome": -158300000,
+          "yoy": {
+            "revenue": 5.6,
+            "profit": 18.4,
+            "netIncome": -200.7,
+            "priorEnd": "2025-02-02"
+          }
+        },
+        {
+          "periodEnd": "2025-11-02",
+          "revenue": 2294300000,
+          "netIncome": 4200000,
+          "yoy": {
+            "revenue": 1.7,
+            "profit": -1.3,
+            "netIncome": -96.8,
+            "priorEnd": "2024-11-03"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": -0.55,
+        "saleNy": 1.59,
+        "epsCy": 5.72,
+        "epsNy": 3.72
       }
     }
   }

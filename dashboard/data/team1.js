@@ -523,8 +523,322 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-25",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "소프트뱅크 15% 급락, AI 매도세가 아시아로 번졌다",
+        "easy": "전날 미국 증시에서 AI 관련주가 크게 밀리자 다음 날 아시아 기술주가 함께 떨어졌다. 소프트뱅크가 15%, 반도체 장비업체 어드반테스트가 13% 빠졌다. 이유는 AI 투자가 계속될 수 있느냐는 의심이다 — 대규모 설비 투자 자금을 어떻게 조달할지, 전력은 충분한지가 문제로 지목됐다. AI 기대만으로 많이 올랐던 종목이 먼저, 더 크게 흔들린다는 뜻이다.",
+        "whyMatters": "반도체 장비(어드반테스트·도쿄일렉트론)와 AI 투자 비중이 큰 기술 업종에 나쁘다. AI 설비 투자 자금 조달 소식이 나올 때마다 같은 업종이 같이 흔들릴 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+            "date": "2026-11-25",
+            "quote": "concerns on the sustainability of AI demand, ability of the sector to finance the build-out, and questions around power supply",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국, 교역 상대국 전반에 새 관세안 공개 준비",
+        "easy": "미국 정부가 전 세계 교역 상대국을 겨냥한 새 관세 계획을 내놓을 준비를 하고 있다. 어떤 나라에 얼마를 매기는지, 왜 지금인지는 기사에 안 나왔다. 관세가 오르면 수입 부품·완제품 원가가 올라 기업 이익이 깎인다. 지금처럼 시장이 약할 때는 이런 불확실성이 더 크게 반영된다.",
+        "whyMatters": "수입 의존도가 높은 소비재·자동차·소매 업종에 나쁘고, 미국 안에서 만들어 파는 산업재 일부에는 상대적으로 유리하다. 발표에 포함되는 품목과 세율이 나오기 전까지는 방향만 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "US preparing to unveil plan for new tariffs on global trading partners",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-25",
+            "quote": "US preparing to unveil plan for new tariffs on global trading partners",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Dell 주가 상승, AI 덕에 매출이 2배 넘게 늘었다",
+        "easy": "Dell 주가가 올랐다. AI 서버 수요가 몰려 매출이 두 배 넘게 늘었기 때문이다. 세부 수치는 기사 제목 외에 확인되지 않았다. 같은 날 AI 투자 지속성 의심으로 기술주가 밀린 것과는 반대 신호다 — 실제 주문은 아직 꺾이지 않았다는 증거다.",
+        "whyMatters": "AI 서버·데이터센터 장비 업종(Dell)과 여기에 부품을 넣는 메모리·반도체 업종에 좋다. 다음 분기 전망(가이던스)이 매출 증가 속도를 유지하는지가 확인할 점이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Dell's stock rises as the AI boom helps sales more than double",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+            "date": "2026-11-25",
+            "quote": "Dell's stock rises as the AI boom helps sales more than double",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "HPE, 사상 최고 성장에도 주가는 내렸다",
+        "easy": "HPE가 역대 가장 빠른 성장을 발표했는데도 주가는 하락했다. 매출이 늘어도 시장은 그 장사가 얼마나 남고 얼마나 오래 가는지를 더 본다는 뜻이다. 구체적인 하락 이유는 기사에 안 나왔다. Dell과 같은 AI 장비 업종인데 주가 반응이 갈렸다는 점이 중요하다.",
+        "whyMatters": "AI 서버를 조립해 파는 업종(HPE)에는 나쁘다 — 성장만으로는 주가가 오르지 않는다는 신호다. 같은 업종에서 수익성을 함께 보여주는 회사와 그렇지 않은 회사가 갈릴 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+            "date": "2026-11-24",
+            "quote": "HPE just posted its strongest growth ever — but its stock is sinking",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 필요하면 젠슨 황 사면하겠다고 말했다",
+        "easy": "트럼프가 복귀한 Nvidia CEO 젠슨 황을 필요하면 사면할 수 있다고 말했다. 다음 주 황 CEO가 의회에 두 차례 나와 중국 관련 의혹을 추궁받기 때문이다. 법무장관은 Nvidia 수사에 관한 질문에 답하지 않았다. 수사와 청문회가 끝나기 전까지 Nvidia에는 경영진 관련 정치 리스크가 남는다.",
+        "whyMatters": "Nvidia와 그 납품망에 있는 반도체 업종에 불확실성 요인이다. 다음 주 청문회 내용과 수사 진행 여부를 확인하면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+            "date": "2026-11-25",
+            "quote": "President Donald Trump said he would be willing to pardon reinstated Nvidia CEO Jensen Huang if needed after Huang appears before Congress next week, according to an exclusive interview with the New York Post.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "US attorney general dodges questions about Nvidia investigation",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-25",
+            "quote": "US attorney general dodges questions about Nvidia investigation",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "후티, 사우디 PIF 타워 공격해 11명 다쳤다",
+        "easy": "이란이 지원하는 예멘 후티 반군이 사우디 국부펀드 PIF 타워를 공격해 11명이 부상했다. 일요일에는 사우디 정유시설을 때렸다 — 공격 목표가 사우디 본토로 확대되는 흐름이다. 원유 생산·정제 설비가 계속 표적이 되면 공급 차질 우려로 유가가 움직인다. 이번 공격 자체의 유가·시장 영향은 기사에 안 나왔다.",
+        "whyMatters": "유가가 오르면 원유 생산·정유 등 에너지 업종에 좋고, 연료비 부담이 큰 항공·운송·소비 업종에 나쁘다. 사우디 생산·수출 설비가 실제로 멈추는지를 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+            "date": "2026-11-25",
+            "quote": "Attacks by the rebel Houthis have been escalating on Saudi Arabia, with the group targeting one of Saudi Arabia's oil refineries on Sunday.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니다 — QQQ(나스닥 100 추종 ETF)가 638.1로 10일선이 20일선 아래 26일째이고, 10일선과 20일선 모두 50일선 아래에 있다. 오늘 소식도 같은 방향이다. AI 투자가 계속될 수 있느냐는 의심에 아시아 기술주까지 밀렸고, 새 관세안 준비와 중동 공격 확대까지 겹쳐 위험을 줄이려는 쪽으로 기울었다. 다만 Dell은 AI 매출이 두 배 넘게 늘었다고 했고 빚내서 주식을 산 금액(마진부채)은 1년 전보다 22.4% 늘어 정상 범위다 — 수요와 자금이 끊긴 국면은 아니다. 이번 주에는 관세 발표의 품목·세율, 다음 주 Nvidia 청문회 일정, 그리고 10일선이 20일선 위로 다시 올라서는지를 보면 된다.",
+    "keyRisks": [
+      "AI 투자 지속성 의심: 설비 투자 자금 조달과 전력 공급이 문제로 지목되면 AI 기대로 오른 종목이 먼저 크게 빠진다.",
+      "관세 발표: 세율과 품목이 나오기 전까지 수입 원가가 얼마나 오를지 계산할 수 없어 소비재·소매 업종의 이익 전망이 흔들린다.",
+      "실적이 좋아도 주가가 내리는 장: HPE처럼 성장률 최고치를 내놔도 주가가 빠지는 구간에서는 좋은 숫자만 믿고 들어가면 손실이 난다.",
+      "중동 공급 차질: 사우디 정유·에너지 설비가 계속 표적이 되면 유가가 올라 항공·운송·소비 업종의 비용이 커진다."
+    ],
+    "easySummary": [
+      "AI 투자가 계속될 수 있느냐는 의심에 소프트뱅크가 15% 빠지며 매도세가 아시아 기술주로 번졌다.",
+      "Dell은 AI 서버로 매출이 두 배 넘게 늘었지만 HPE는 사상 최고 성장에도 주가가 내려 업종 안에서도 반응이 갈렸다.",
+      "새 관세안 준비와 사우디 공격 확대까지 겹쳐, 추세가 아래를 향한 지금은 새로 사기보다 확인할 조건을 기다릴 때다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 224,
+      "ok": 373,
+      "unverified": 3,
+      "dead": 1,
+      "stripped": 8,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/11/18/this-stock-is-playing-catch-up-to-peers-buy-it-now-jpmorgan%20says.html"
+        }
+      ],
+      "numberCut": 27,
+      "numberCuts": [
+        {
+          "sentence": "3분기 매출은 1년 전보다 24.7% 늘었다.",
+          "missing": [
+            "24.7"
+          ]
+        },
+        {
+          "sentence": "회사가 내년 매출 성장률 전망을 70%에서 75%로 올렸다.",
+          "missing": [
+            "70"
+          ]
+        },
+        {
+          "sentence": "최근 분기도 영업손실이 이어졌다(분기 매출 약 9억 달러, 영업손실 약 1,500만 달러).",
+          "missing": [
+            "1,500만 달러"
+          ]
+        },
+        {
+          "sentence": "9월 분기 매출 82억 달러(1년 전보다 54% 증가), 영업이익률 40%로 처음 40%를 넘었다.",
+          "missing": [
+            "54"
+          ]
+        },
+        {
+          "sentence": "3~5년짜리 장기 공급계약이 26건으로 늘어, 2030년까지 매출의 35% 이상이 다년 계약에서 나올 전망이라 실적이 오래 간다는 기대가 생겼다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "8월 분기 매출은 27.4억 달러로 1년 전보다 36.5% 늘었고, 데이터센터 매출이 46% 증가했다.",
+          "missing": [
+            "36.5"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점(6월)보다 크게 낮고 PER은 43배로, 기대치가 높았다.",
+          "missing": [
+            "43"
+          ]
+        },
+        {
+          "sentence": "설비 투자가 연 200억 달러로 크고 2027년에도 잉여현금흐름(영업으로 번 돈에서 투자를 뺀 현금)이 적자일 전망이다.",
+          "missing": [
+            "200억 달러"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 423배라 기대가 이미 크게 반영돼 있다.",
+          "missing": [
+            "423"
+          ]
+        },
+        {
+          "sentence": "영업이익도 37.7% 늘어 이익률이 33.7%로 올랐다.",
+          "missing": [
+            "37.7",
+            "33.7"
+          ]
+        },
+        {
+          "sentence": "9월 증권사 리포트 기준 연간 매출 전망은 1,920억 달러였고, 이번에 약 100억 달러 더 올렸다고 보도됐다.",
+          "missing": [
+            "1,920억 달러"
+          ]
+        },
+        {
+          "sentence": "11월 24일 3억 3,700만 주 재판매 신고가 나오며 주가가 9% 떨어졌다.",
+          "missing": [
+            "3,700만"
+          ]
+        },
+        {
+          "sentence": "INSM은 대형 인수 합의, KYMR은 임상 2b상 호재가 겹쳐 하루에 크게 올랐습니다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "KYMR은 아토피 피부염 2b상 결과가 좋아 급등했고, INSM은 사노피가 인수하기로 했다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "11월 23일 Kymera가 먹는 STAT6 억제제 KT-621의 아토피피부염 2b상(BROADEN2) 임상에서 긍정적 결과를 발표했고, 같은 날 관련 8-K를 냈다.",
+          "missing": [
+            "6 억",
+            "8"
+          ]
+        },
+        {
+          "sentence": "주주들이 11월 4일 5대1 액면분할을 승인했고, 11월 17일부터 분할 조정 가격으로 거래가 시작됐다.",
+          "missing": [
+            "5",
+            "1"
+          ]
+        },
+        {
+          "sentence": "주식 수가 5배가 되어 같은 금액을 거래해도 거래된 주식 수는 늘어난다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "모더나는 3분기 매출 13.1억달러로 컨센서스를 웃돌았고, 신한투자증권은 항암 백신이 흑색종 승인 가시화 단계라고 봤다.",
+          "missing": [
+            "13.1억달러"
+          ]
+        },
+        {
+          "sentence": "오루카의 ORKA-001은 건선 2b상에서 피부가 완전히 깨끗해진 비율이 61%였다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "10x Genomics는 신제품 Atera 출시와 함께 연간 전망을 상향했다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "10x Genomics는 실적 발표에서 Atera 출시를 알리고 전망을 올렸다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "최근 4분기 증가율이 18%, 21.8%, 24.2%, 24.7%로 가속했다.",
+          "missing": [
+            "18",
+            "21.8",
+            "24.2"
+          ]
+        },
+        {
+          "sentence": "11월 17일 분기 매출 1,158억 달러(1년 전보다 103% 증가), 다음 분기 가이던스 1,300억 달러.",
+          "missing": [
+            "1,158억 달러",
+            "103"
+          ]
+        },
+        {
+          "sentence": "FY2028 매출 성장 가이던스를 70%에서 75%로 올렸다.",
+          "missing": [
+            "70"
+          ]
+        },
+        {
+          "sentence": "2026-08-01 분기 매출 27.39억 달러, 전년 동기 대비 36.5% 증가.",
+          "missing": [
+            "36.5"
+          ]
+        },
+        {
+          "sentence": "3분기 매출 23.1억 달러(전년비 +95.9%)로 예상치를 웃돌았다.",
+          "missing": [
+            "23.1억 달러",
+            "95.9"
+          ]
+        },
+        {
+          "sentence": "신규 계약 성장률이 +48.6%에서 +5.7%로 둔화했고 장기 잔여 계약(RPO)은 전분기 대비 2.5% 감소했다.",
+          "missing": [
+            "48.6",
+            "5.7"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-25"
   }
 };

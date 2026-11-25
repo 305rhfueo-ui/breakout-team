@@ -1,0 +1,883 @@
+{
+ "ticker": "PLTR",
+ "date": "2026-11-25",
+ "session": "2026-11-23",
+ "source": "list",
+ "plan": {
+  "ticker": "PLTR",
+  "name": "팔란티어 테크",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 159.36000061035156,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 212.94,
+  "stop": 204.43,
+  "distToPivotPct": -24.31,
+  "distToPivotAdr": -4.6,
+  "riskPerSharePct": 4,
+  "adrPct": 5.28,
+  "extensionAdr": 0.1,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 35,
+   "baseWeeks": 7,
+   "depthPct": 33.2,
+   "priorMovePct": 80.6,
+   "higherLows": 0,
+   "contraction": 0.76,
+   "closeRange10Adr": 3.4,
+   "surf10": 0.1,
+   "surf20": -0.8,
+   "slope20": -6.09,
+   "baseLow": 142.28,
+   "lastSwingLow": 152.6
+  },
+  "reasons": [
+   "선행 상승 +81%",
+   "베이스 7주",
+   "✗ 깊이 33.2%",
+   "✗ 저점 상승 0회",
+   "진폭 0.76배 · 10일 종가폭 3.4 ADR",
+   "✗ 10일선 +0.1 ADR · 20일선 -0.8 ADR",
+   "✗ 20일선 기울기 -6.09%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.11266281163141752,
+    "pct": 8.438628158844766
+   },
+   "m3": {
+    "v": -0.05422047465203757,
+    "pct": 25.406137184115522
+   },
+   "m6": {
+    "v": 0.24400782663510728,
+    "pct": 66.92238267148014
+   }
+  },
+  "ret1m": -19.86,
+  "ret3m": -14.46,
+  "ret6m": 12.07,
+  "marketCap": "345.74B",
+  "volx": 1.17,
+  "volSurgeWk": 1.48,
+  "high52": 74.84,
+  "newHigh52": false,
+  "adr": 5.24,
+  "div50": -12.91,
+  "div200": 3.42,
+  "targetStatus": true,
+  "saleCy": 91.06,
+  "saleNy": 53.68,
+  "epsCy": 126.89,
+  "epsNy": 49.19,
+  "cyTrend": 5.06,
+  "nyTrend": 7.96,
+  "est": {
+   "cyCur": 1.70165,
+   "cy30": 1.61977,
+   "nyCur": 2.53877,
+   "ny30": 2.35154
+  },
+  "fs": {
+   "sale": [
+    92.83,
+    84.71,
+    70
+   ],
+   "ni": [
+    225.01,
+    306.73,
+    670.39
+   ],
+   "opm": [
+    47.12,
+    46.18,
+    40.9
+   ],
+   "updated": "2026-09-08 07:04:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-25",
+  "nameKo": "팔란티어 테크",
+  "nameEn": "PALANTIR TECH INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2313411000,
+     "profit": 1084845000,
+     "netIncome": 1128012000,
+     "margin": 46.9,
+     "yoy": {
+      "revenue": 95.9,
+      "profit": 175.9,
+      "netIncome": 137.2,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1935464000,
+     "profit": 912004000,
+     "netIncome": 1061890000,
+     "margin": 47.1,
+     "yoy": {
+      "revenue": 92.8,
+      "profit": 238.6,
+      "netIncome": 225,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1632583000,
+     "profit": 753998000,
+     "netIncome": 870527000,
+     "margin": 46.2,
+     "yoy": {
+      "revenue": 84.7,
+      "profit": 328.3,
+      "netIncome": 306.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1406802000,
+     "profit": 575394000,
+     "netIncome": 608676000,
+     "margin": 40.9,
+     "yoy": {
+      "revenue": 70,
+      "profit": 5110.5,
+      "netIncome": 670.4,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-vs-palantir-technologies-which-law-enforcement-stock-better-buy-2027",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.",
+     "url": "https://www.nasdaq.com/articles/palantir-stock-could-finish-2026-lower-its-only-2-losing-years-ended-very-differently",
+     "date": "2026-11-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "UiPath vs. Palantir Technologies: Which AI Automation Platform Makes a Better Stock Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/uipath-vs-palantir-technologies-which-ai-automation-platform-makes-better-stock-buy-2027",
+     "date": "2026-11-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cathie Wood's Ark Has Been Selling Palantir Stock. Under $160, I'd Buy It Now.",
+     "url": "https://www.nasdaq.com/articles/cathie-woods-ark-has-been-selling-palantir-stock-under-160-id-buy-it-now",
+     "date": "2026-11-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Investors Heavily Search Palantir Technologies Inc. (PLTR): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-palantir-technologies-inc-pltr-here-what-you-need-know",
+     "date": "2026-11-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Salesforce vs. Palantir Technologies: Which Software Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-palantir-technologies-which-software-stock-better-buy-2027",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/arista-networks-vs-palantir-technologies-which-technology-stock-better-buy-2027",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "UiPath vs. Palantir Technologies: Comparing Modest Revenue Growth vs. Rapid Expansion",
+     "url": "https://www.nasdaq.com/articles/uipath-vs-palantir-technologies-comparing-modest-revenue-growth-vs-rapid-expansion",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/pltr-20261102.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000033/pltr-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/pltr-20260504.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-02",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/pltr-20251103.htm"
+   }
+  ],
+  "krReports": {
+   "total": 16,
+   "reports": [
+    {
+     "date": "2026-11-23",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
+     "summary": "- 매출액 23.1억 달러(YoY +95.9%, 컨센서스 21.7억 달러), 조정 EPS 0.44달러(YoY +110%, 컨센서스 0.41달러)- 사업부별 매출액: 상업 부문 11.7억 달러(YoY +113.3%), 정부 부문 11.5억 달러(YoY +81.7%)- 가이던스(중간값 기준): 4Q26 매출 26.5억 달러. 2026년 연간 매출액 85.3억 달러, FCF 49억 달러",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegz.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-11-12",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
+     "summary": "- 27년의 데이터 산업은 AI 또는 AI 에이전트 산업과 얼마나 잘 연계될 수 있는지가 관건. 데이터 산업 관점에서 팔란티어는 의미 및 결정 지점과 관련되며 AI랩 엔터프라이즈 에이전트와 데이터 플랫폼 시멘틱 계층의 상향 침투라는 강점 존재- 특히 소버린 AI에 대해 워크플로우가 기업의 기본 단위이며 AIP는 그 사이를 잇는 레이어고, 폐쇄 모델을 애플리케이선층 없이 쓰는 위험을 교육 중이라고 강조하는 등 오픈웨이트 시대에 맞는 데이터 관리 주권을 강조. 프론티어 모델과도 상호 보완적 관계- 연간 가이던스 상향 근거로 1) 소버린 AI 수요의 US 민간 기여, 2) 파일럿에서 생산 단계로 넘어가는 기간이 짧아지고 계약 확장 속도가 빨라짐, 3) 3Q 실적의 강세를 제시",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegz.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-11-03",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 실적은 견조, 선행지표 후속 점검 필요",
+     "summary": "- 또 다시 역대 최고 수준 실적을 경신- 3Q26 Review: 향후 계약 기간과 규모 증대 여부가 관건- 파일럿에서 대형 ACV로의 빠른 전환 속도에는 소버린 AI가 주효",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixmgmqzieeqzgcgxeegz.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-11-03",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+     "summary": "- 매출액 23.1억 달러(YoY +95.9%), 영업이익 14.3억 달러(YoY +137.6%), 조정 EPS 0.44달러(YoY +109.5%)로 각각 예상치 6.6%, 9.7%, 7.1% 상회- 분기 중 29.2억 달러 규모 신규 계약 체결(YoY +5.7%). 3분기 말 기준 RPO 48.8억 달러(YoY +87.7%, QoQ -0.4%). 단기 RPO 21.4억 달러로 전분기 대비 2.4% 증가했지만, 장기 RPO 27.4억 달러로 전분기 대비 2.5% 감소한 영향- 실적 호조와 연간 가이던스 상향에도 신규 계약 성장률 둔화(YoY +48.6% → +5.7%)로 시간 외 -3%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmixlqqiielqzigcgxeegz.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[팔란티어 테크 (NAS:PLTR)] [26Q3 Preview] 매출 가이던스 초과 폭과 FY26 추가 상향이 관건, 투자의견 적극 매수 유지",
+     "summary": "- 14분기 연속 가이던스 초과 패턴이 이어지는지가 첫 확인 사항- 미국 상업 부문의 재가속이 성장의 축이고 해외는 정체 구간- 이익 기준 밸류에이션은 이미 압축됐고 이익의 질이 다음 쟁점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmicxccmckmmglgcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 소버린 중심 전략이 중장기 워킹할지가 미지수",
+     "summary": "- 동사는 K-LLM 기반 AIP 확장 및 미국 중심 소버린 전략을 지속 피력 중- 프런티어 업체와 데이터 플랫폼 업체 제휴를 통한 구독경제 확장성이 변수- 동사 내재가치 시뮬레이션 결과치로 4,152억달러 제시, 단기 잠재력은 상존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmkgxmexgzzgzgcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "신한투자증권",
+     "analyst": "리서치본부",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 또 한번 역대급 실적으로 존재감 증명",
+     "summary": "- 팔란티어는 2Q26에도 전 지표에서 기대를 상회하고 다시 한번 연간 가이 던스를 큰 폭으로 상향하며 주가 급등. Rule of 40(매출 성장+영업이익률) 이 155%, 기존 고객 유지율이 157%로 재차 확대- AI랩 대비 팔란티어의 경쟁력에 대해, 1) 토큰 과금 모델은 랩에게는 유효 하나 구매자에게는 그렇지 않다는 구조(AI Slop과 관련), 2) 기업이 프론티 어 모델에 노출하는 것은 원 데이터 및 그보다 가치가 큰 ‘알파’(메타데이 터, 추론 궤적, 사용 패턴 등)인데, 기업에는 이를 통제할 메커니즘이 아직 없다는 설명, 3) 모델 종속 및 단절 리스크(팔란티어는 계약 구조 자체가 모델 교체를 전제로 설계), 4) 벤치마크와 실무의 불일치 등이 폭넓게 제시- 특히 기업들도 소버린(주권) 개념 하에 자사의 데이터, 로직, 액션, 보안에 대한 완전한 소유권을 요구하는 경우가 증가. 따라서 고객 보안 내에서 실 행되고, 학습 재료가 운영 텔레메트리며, 산출물인 가중치의 소유권이 고 객인 경우가 더욱 중요해지기에 AIP와 FDE가 경쟁력을 갖는다는 설명",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlglixmzeiezgcgxeegz.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "하나증권",
+     "analyst": "김재임",
+     "title": "[팔란티어 테크 (NAS:PLTR)] 미국 사업 모멘텀 강화, 전망도 대폭 상향",
+     "summary": "- 미국 커머셜 149%, 전체 매출 성장 93%로 가속화, Rule of 40 155pt (컨센 138)- 2026년 가이던스 매출 성장 82%, 조정 OPM 60%로 상향조정- 미국 사업 모멘텀 지속 기대하는 이유",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlggzkgcmkzxgcgxeegz.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "PLTR-report1.pdf",
+   "broker": "한화증권",
+   "analyst": "신승윤",
+   "date": "2026-11-23",
+   "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegz.pdf",
+   "pages": "1"
+  },
+  {
+   "file": "PLTR-report2.pdf",
+   "broker": "신한투자증권",
+   "analyst": "심지현",
+   "date": "2026-11-12",
+   "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegz.pdf",
+   "pages": "1"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Trump bought Nvidia, Palantir, SpaceX as federal deals, White House ties grew",
+   "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "These stocks on Josh Brown's list got washed out in last week's sell-off. Where to go from here",
+   "url": "https://www.cnbc.com/2026/11/09/these-stocks-on-josh-browns-list-got-washed-out-in-last-weeks-sell-off-where-to-go-from-here.html",
+   "date": "2026-11-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase & more",
+   "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-midday-aapl-pltr-nvda-coin-be.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tuesday's biggest analyst calls of the day: Apple, SpaceX, Nvidia, Palantir & more",
+   "url": "https://www.cnbc.com/2026/11/03/big-wall-street-analyst-calls-tuesday-include-apple-spacex-palantir.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lightning Round: You're right to be concerned about DraftKings, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/11/11/lightning-round-youre-right-to-be-concerned-about-draftkings-says-jim-cramer.html",
+   "date": "2026-11-11",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Josh Brown's 'Best Stocks in the Market': Palantir, Okta and Hewlett Packard",
+   "url": "https://www.cnbc.com/video/2026/11/10/josh-browns-best-stocks-in-the-market-palantir-okta-and-hewlett-packard.html",
+   "date": "2026-11-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "The Investment Committee debates whether more volatility is on the way",
+   "url": "https://www.cnbc.com/video/2026/11/03/the-investment-committee-debates-whether-more-volatility-on-the-way.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Palantir falls after earnings: Here's what you need to know",
+   "url": "https://www.cnbc.com/video/2026/11/03/palantir-falls-after-earnings-heres-what-you-need-to-know.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "PLTR",
+  "fetchedAt": "2026-11-25",
+  "source": "한국투자증권 Open API",
+  "per": 137.35,
+  "pbr": 39.62,
+  "eps": 1.17,
+  "bps": 4.07,
+  "shares": 2306710000,
+  "marketCapM": 371796,
+  "high52": 212.9399,
+  "high52Date": "2026-10-12",
+  "low52": 106.37,
+  "low52Date": "2026-06-25",
+  "last": 161.18,
+  "prevClose": 159.36,
+  "nameKo": "팔란티어 테크",
+  "nameEn": "PALANTIR TECH INC",
+  "listedOn": "2024-11-26",
+  "exchange": "나스닥",
+  "listedShares": 2306710000
+ },
+ "estimates": {
+  "ticker": "PLTR",
+  "url": "https://finance.yahoo.com/quote/PLTR/analysis/",
+  "fetchedAt": "2026-11-25",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.52,
+    "epsLow": 0.5,
+    "epsHigh": 0.57,
+    "epsYearAgo": 0.25,
+    "epsAnalysts": 24,
+    "epsGrowth": 108.1,
+    "epsCur": "USD",
+    "rev": 2671797880,
+    "revAnalysts": 24,
+    "revYearAgo": 1406802000,
+    "revGrowth": 89.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.52,
+    "epsLow": 0.45,
+    "epsHigh": 0.59,
+    "epsYearAgo": 0.33,
+    "epsAnalysts": 19,
+    "epsGrowth": 57.4,
+    "epsCur": "USD",
+    "rev": 2716509160,
+    "revAnalysts": 18,
+    "revYearAgo": 1632583000,
+    "revGrowth": 66.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 1.7,
+    "epsLow": 1.64,
+    "epsHigh": 1.75,
+    "epsYearAgo": 0.75,
+    "epsAnalysts": 30,
+    "epsGrowth": 126.9,
+    "epsCur": "USD",
+    "rev": 8550631299,
+    "revAnalysts": 30,
+    "revYearAgo": 4475446000,
+    "revGrowth": 91.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 2.54,
+    "epsLow": 2.11,
+    "epsHigh": 2.91,
+    "epsYearAgo": 1.7,
+    "epsAnalysts": 31,
+    "epsGrowth": 49.2,
+    "epsCur": "USD",
+    "rev": 13140330230,
+    "revAnalysts": 32,
+    "revYearAgo": 8550631299,
+    "revGrowth": 53.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.52,
+    "d7": 13.3,
+    "d30": 12.2,
+    "d90": 13.1,
+    "ago90": 0.46,
+    "up7": 19,
+    "up30": 17,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.52,
+    "d7": 8.1,
+    "d30": 9.1,
+    "d90": 9.4,
+    "ago90": 0.47,
+    "up7": 12,
+    "up30": 11,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.7,
+    "d7": 5.4,
+    "d30": 5.1,
+    "d90": 6.2,
+    "ago90": 1.6,
+    "up7": 21,
+    "up30": 19,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 2.54,
+    "d7": 8,
+    "d30": 8,
+    "d90": 9.7,
+    "ago90": 2.31,
+    "up7": 20,
+    "up30": 18,
+    "down7": 1,
+    "down30": 3
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.44,
+    "estimate": 0.41,
+    "surprisePct": 8.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.41,
+    "estimate": 0.35,
+    "surprisePct": 18.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.33,
+    "estimate": 0.28,
+    "surprisePct": 18.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.25,
+    "estimate": 0.23,
+    "surprisePct": 8.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 14,
+   "ptLowered": 0,
+   "total": 22,
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 273,
+     "ptPrior": 265
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 265,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Truist Securities",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 223
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 250,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Underperform",
+     "to": "Underperform",
+     "ptAction": "Raises",
+     "pt": 130,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 260,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Cantor Fitzgerald",
+     "action": "reit",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Maintains",
+     "pt": 207,
+     "ptPrior": 207
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 233,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Piper Sandler",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 235,
+     "ptPrior": 231
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 207,
+     "ptPrior": 156
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-01",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-24",
+  "numbers": {
+   "price": 161.18,
+   "ma20": 167.97,
+   "ma50": 182.75,
+   "ma150": 157.51,
+   "distMA50": -11.8,
+   "periodHigh": 212.94,
+   "pullbackFromHigh": -24.31,
+   "volRatio20": 0.8,
+   "dryUpRatio": 0.97
+  },
+  "last10": [
+   {
+    "d": "2026-11-11",
+    "o": 173.59,
+    "h": 175.41,
+    "l": 170.8,
+    "c": 172.4,
+    "v": 16119500,
+    "clsPos": 35,
+    "gapPct": 2.83
+   },
+   {
+    "d": "2026-11-12",
+    "o": 170.2,
+    "h": 173.05,
+    "l": 168.25,
+    "c": 171.58,
+    "v": 12458600,
+    "clsPos": 69,
+    "gapPct": -1.28
+   },
+   {
+    "d": "2026-11-13",
+    "o": 171.74,
+    "h": 172.28,
+    "l": 164.75,
+    "c": 167.99,
+    "v": 15233400,
+    "clsPos": 43,
+    "gapPct": 0.09
+   },
+   {
+    "d": "2026-11-16",
+    "o": 165.76,
+    "h": 166.09,
+    "l": 158.68,
+    "c": 160.39,
+    "v": 17766800,
+    "clsPos": 23,
+    "gapPct": -1.33
+   },
+   {
+    "d": "2026-11-17",
+    "o": 160.15,
+    "h": 162.59,
+    "l": 153.91,
+    "c": 156.56,
+    "v": 17552400,
+    "clsPos": 31,
+    "gapPct": -0.15
+   },
+   {
+    "d": "2026-11-18",
+    "o": 158.07,
+    "h": 158.44,
+    "l": 153.5,
+    "c": 156.67,
+    "v": 14922400,
+    "clsPos": 64,
+    "gapPct": 0.96
+   },
+   {
+    "d": "2026-11-19",
+    "o": 160.63,
+    "h": 167.13,
+    "l": 153.2,
+    "c": 153.68,
+    "v": 21382600,
+    "clsPos": 3,
+    "gapPct": 2.53
+   },
+   {
+    "d": "2026-11-20",
+    "o": 149.7,
+    "h": 152.51,
+    "l": 142.28,
+    "c": 143.49,
+    "v": 36629800,
+    "clsPos": 12,
+    "gapPct": -2.59
+   },
+   {
+    "d": "2026-11-23",
+    "o": 157.32,
+    "h": 161.19,
+    "l": 154.57,
+    "c": 159.36,
+    "v": 32072100,
+    "clsPos": 72,
+    "gapPct": 9.64
+   },
+   {
+    "d": "2026-11-24",
+    "o": 157.63,
+    "h": 163.02,
+    "l": 157.62,
+    "c": 161.18,
+    "v": 20659100,
+    "clsPos": 66,
+    "gapPct": -1.09
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PLTR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PLTR-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 26일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

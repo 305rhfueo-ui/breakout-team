@@ -49,9 +49,89 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:17:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ZS",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 23일 CrowdStrike가 Zscaler를 439억 달러에 인수하기로 했다. 같은 날 Zscaler는 중요 계약 체결 8-K를 냈다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CrowdStrike to Buy Zscaler for $43.9 Billion in AI Security Push",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/crowdstrike-buy-zscaler-439-billion-ai-security-push",
+                "date": "2026-11-23",
+                "quote": "CrowdStrike to Buy Zscaler for $43.9 Billion in AI Security Push",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Zscaler 8-K (중요 계약 체결·Reg FD 공시)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000119312526471211/d115803d8k.htm",
+                "date": "2026-11-23",
+                "quote": "8-K 2026-11-23: 중요 계약 체결, Reg FD 공시, 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "발표 당일 주가가 급등했다. 이후 인수가 가치가 줄었고 증권사 7곳이 투자의견을 낮췄다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Zscaler Stock Rocketed Higher Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-zscaler-stock-rocketed-higher-today",
+                "date": "2026-11-23",
+                "quote": "Why Zscaler Stock Rocketed Higher Today",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "7 Firms Downgraded Zscaler After CrowdStrike's $43.9 Billion Deal. Is There Still Money to Make?",
+                "publisher": "TIKR",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/7-firms-downgraded-zscaler-crowdstrike-210442923.html",
+                "date": "2026-11-24",
+                "quote": "7 Firms Downgraded Zscaler After CrowdStrike's $43.9 Billion Deal. Is There Still Money to Make?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "25일에는 DA Davidson이 투자의견을 중립에서 매수로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "DA Davidson Upgrades Zscaler to Buy from Neutral",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/da-davidson-upgrades-zscaler-buy-neutral",
+                "date": "2026-11-25",
+                "quote": "DA Davidson Upgrades Zscaler to Buy from Neutral",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Zscaler는 기업 네트워크 접속을 클라우드에서 보호하는 보안 소프트웨어를 구독 방식으로 팔아 돈을 번다. 최근 분기 매출은 1년 전보다 약 25% 늘었지만 영업적자 상태다.",
+        "volumeExplanation": "11월 23일 CrowdStrike가 439억 달러에 Zscaler를 인수한다고 발표해 주가가 급등했고 거래가 몰렸다. 이후 증권사 7곳의 의견 하향과 DA Davidson의 상향이 이어지며 25일에도 거래량이 평소의 6배 넘게 유지됐다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -132,9 +212,82 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:16:21"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KYMR",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621",
+                "publisher": "Fintel(나스닥)",
+                "url": "https://www.nasdaq.com/articles/kymera-therapeutics-announces-positive-results-broaden2-phase-2b-clinical-trial-kt-621",
+                "date": "2026-11-23",
+                "quote": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621, a First-in-Class, Oral STAT6 Degrader, in Patients with Moderate to Severe Atopic Dermatitis",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "11월 23일 Kymera가 먹는 STAT6 억제제 KT-621의 아토피피부염 2b상(BROADEN2) 임상에서 긍정적 결과를 발표했고, 같은 날 관련 8-K를 냈다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "데이터 공개 다음 날 주가가 약 30% 급등했고, 3상 진입 기대가 언급됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data",
+                "date": "2026-11-24",
+                "quote": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
+                "publisher": "RTTNews(나스닥)",
+                "url": "https://www.nasdaq.com/articles/kymeras-kt-621-posts-strong-phase-2-results-eczema-advances-toward-phase-3-stock",
+                "date": "2026-11-23",
+                "quote": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "급등 직후 17.5억 달러 규모 증자(공모)를 확정해 물량이 크게 거래됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data",
+                "publisher": "RTTNews(나스닥)",
+                "url": "https://www.nasdaq.com/articles/kymera-kymr-prices-upsized-175-billion-stock-offering-following-positive-clinical-data",
+                "date": "2026-11-24",
+                "quote": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Kymera Therapeutics는 단백질 분해 기술로 먹는 면역·염증 질환 신약을 개발하는 임상 단계 바이오 기업이다. 아직 제품 매출은 없고 제휴 수익과 적자 속에 임상 결과로 평가받는다.",
+        "volumeExplanation": "11월 23일 아토피피부염 2b상 긍정 결과가 나오자 24일 주가가 약 30% 급등하며 거래량이 터졌다. 같은 날 17.5억 달러 증자까지 확정돼 대규모 매매가 겹쳤다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -226,9 +379,57 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": false,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SENEB",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Seneca Foods Announces Shareholder Approval of Five-For-One Forward Stock Split",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/11/04/3395880/32471/en/index.html",
+                "date": "2026-11-04",
+                "quote": "Trading of Seneca's Class A and Class B Common Stock was expected to begin on a split-adjusted basis at market open on November 17, 2026.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ],
+            "statementOriginal": "주주들이 11월 4일 5대1 액면분할을 승인했고, 11월 17일부터 분할 조정 가격으로 거래가 시작됐다. 주식 수가 5배가 되어 같은 금액을 거래해도 거래된 주식 수는 늘어난다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "11월 4일 발표한 2분기 실적에서 6개월 세전이익이 전년보다 47.4% 늘었다. 다만 이 실적은 거래량이 급증한 11월 25일과 3주 가까이 떨어져 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Seneca Foods reports sales and earnings for the quarter and six months ended September 26, 2026",
+                "publisher": "Finviz",
+                "url": "https://finviz.com/news/415963/seneca-foods-reports-sales-and-earnings-for-the-quarter-and-six-months-ended-september-26-2026",
+                "date": "2026-11-04",
+                "quote": "FIFO pre-tax earnings increased by 47.4% to $45.7 million compared to last year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Seneca Foods는 채소·과일 통조림과 냉동식품을 만들어 파는 미국 식품 회사다. 최근 그린자이언트 냉동 사업을 인수해 매출이 늘고 있다.",
+        "volumeExplanation": "11월 25일 당일의 직접적인 호재 뉴스는 찾지 못했다. 11월 17일 5대1 액면분할로 주식 수가 늘어난 영향과 11월 초 실적 호조 뒤 관심이 이어진 것이 거래량 증가 배경일 수 있으나, 당일 원인으로 확인된 것은 아니다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "세네카 푸즈 B",
@@ -711,9 +912,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:38:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CRWD",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "CrowdStrike가 11월 22일 Zscaler 인수 합병계약을 맺었다. Zscaler 주식 1주를 CrowdStrike 신주 1.135주로 바꿔 주는 전액 주식 교환 방식이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CrowdStrike 8-K (Agreement and Plan of Merger)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130785/tm2630454d1_8k.htm",
+                "date": "2026-11-23",
+                "quote": "each share of common stock of the Company...will be converted into the right to receive 1.135 fully paid and non-assessable shares of Class A common stock of Parent.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "거래 규모는 약 439억 달러로 보도됐고, 발표 뒤 CrowdStrike 주가는 거래 가치가 줄면서 약세를 보였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CrowdStrike Stocks Move Lower as $43.9 Billion Zscaler Deal Value Shrinks",
+                "publisher": "GuruFocus.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stocks-move-lower-43-174628727.html",
+                "date": "2026-11-24",
+                "quote": "CrowdStrike Stocks Move Lower as $43.9 Billion Zscaler Deal Value Shrinks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "같은 날 Zscaler 목표가·등급 조정과 증권사 평가가 쏟아졌다. Wedbush는 Zscaler를 중립으로 낮췄다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler downgraded to Neutral from Outperform at Wedbush",
+                "publisher": "TipRanks",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-downgraded-neutral-outperform-wedbush-201530549.html",
+                "date": "2026-11-24",
+                "quote": "Zscaler downgraded to Neutral from Outperform at Wedbush",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "CrowdStrike는 클라우드 기반 사이버보안(단말·클라우드 위협 탐지) 구독 서비스를 팔아 돈을 번다.",
+        "volumeExplanation": "11월 22일 CrowdStrike가 Zscaler를 약 439억 달러 규모 주식 교환으로 인수하기로 한 계약이 공시됐다. 대형 인수 발표 뒤 주가가 흔들리고 증권사 평가가 쏟아지면서 거래량이 평소의 3배 넘게 늘었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1549,9 +1812,80 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:55:10"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BBY",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 24일 3분기 실적이 시장 예상치를 웃돌았다(이익·매출 모두).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Best Buy (BBY) Q3 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/best-buy-bby-q3-earnings-and-revenues-beat-estimates",
+                "date": "2026-11-24",
+                "quote": "Best Buy (BBY) Q3 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사가 같은 날 실적 발표(8-K 항목 2.02)를 냈고, 연간 전망을 올렸다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "How Investors Are Reacting To Best Buy (BBY) Raised Full Year Outlook",
+                "publisher": "Simply Wall St.",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-best-buy-bby-232725132.html",
+                "date": "2026-11-24",
+                "quote": "How Investors Are Reacting To Best Buy (BBY) Raised Full Year Outlook",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Best Buy 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000045/bby-20261124.htm",
+                "date": "2026-11-24",
+                "quote": "8-K items 2.02, 9.01 (실적 발표, 재무제표·첨부)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "증권사 Truist는 교체 수요가 넓어지며 매출 성장이 빨라진다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Best Buy's Sales Growth Accelerates as Replacement Cycle Broadens, Truist Says",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-apos-sales-growth-202721682.html",
+                "date": "2026-11-24",
+                "quote": "Best Buy's Sales Growth Accelerates as Replacement Cycle Broadens, Truist Says",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Best Buy는 미국 최대 가전 전문 소매업체로, 컴퓨터·휴대폰·게임기 등을 매장과 온라인에서 팔아 돈을 번다.",
+        "volumeExplanation": "11월 24일 3분기 실적이 예상치를 넘고 연간 전망이 올라가면서 다음 거래일 거래량이 평소보다 크게 늘었다. 컴퓨터·휴대폰 교체 수요가 넓어지고 있다는 평가도 매수세를 부른 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2316,9 +2650,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:59:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NMM",
+        "category": 6,
+        "company": "NMM은 건화물선·탱커·컨테이너선을 보유해 선박을 장기·시황 연동으로 빌려주고 운임을 받는 해운사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다. 3분기 실적 발표(11월 초)는 이미 3주 전 일이라 오늘 거래량의 직접 원인으로 보기 어렵다.",
+        "confidence": "low",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2838,9 +3192,64 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:50:37"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SJM",
+        "category": 1,
+        "company": "J.M. Smucker는 땅콩버터 잼 Uncrustables(냉동 샌드위치)·커피 등 포장식품을 파는 미국 식품 회사입니다.",
+        "volumeExplanation": "11월 24일 회계 2분기(2027 회계연도) 실적을 발표했고, 주당순이익이 시장 예상치를 넘었다는 보도가 나왔습니다. 이 발표로 거래량이 평소의 약 2배로 늘었습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 24일 2분기 실적을 발표했고, 주당순이익이 증권사 예상치를 웃돌았습니다. 이 실적 발표가 거래량 증가의 직접 계기입니다. 반대로 매출은 줄었다는 보도도 있어 주가 반응은 엇갈릴 수 있으며, 다음 분기 전망이 유지되는지가 이 해석의 확인점입니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Smucker (SJM) Tops Q2 Earnings Estimates",
+                "publisher": "Zacks (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/smucker-sjm-tops-q2-earnings-estimates",
+                "date": "2026-11-24",
+                "quote": "Smucker (SJM) Tops Q2 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Smucker (SJM) Q2 2027 Earnings Call Transcript",
+                "publisher": "The Motley Fool (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/smucker-sjm-q2-2027-earnings-call-transcript",
+                "date": "2026-11-24",
+                "quote": "Smucker (SJM) Q2 2027 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 같은 날 실적 발표 공시(8-K)를 SEC에 제출했습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SJM 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000110/sjm-20261124.htm",
+                "date": "2026-11-24",
+                "quote": "8-K items 2.02, 9.01 (실적 발표, 재무제표·첨부), filingDate 2026-11-24",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3580,9 +3989,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:07:22"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BMI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Badger Meter는 수도 계량기와 유량 측정 장비, 관련 소프트웨어를 만들어 판매하는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4231,9 +4660,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:14:10"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ASH",
+        "category": 3,
+        "company": "Ashland는 특수 화학 소재(코팅·개인위생·제약 첨가제 등)를 만들어 파는 회사입니다.",
+        "volumeExplanation": "11월 23일 스위스 클라리언트가 사모펀드 CD&R과 함께 Ashland 인수를 협의 중이라고 공식 확인했습니다. 인수 가능성이 알려지자 거래량이 평소보다 늘었습니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "클라리언트가 CD&R과 함께 Ashland 인수를 협의 중이라고 11월 23일 공식 확인했다. 다만 거래 성사나 조건은 확정되지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Clariant confirms talks regarding a potential acquisition of Ashland",
+                "publisher": "GlobeNewswire",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/clariant-confirms-talks-regarding-potential-210000088.html",
+                "date": "2026-11-23",
+                "quote": "There can be no certainty that a transaction will be agreed or completed, nor as to the final terms of any such transaction.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "공식 확인에 앞서 블룸버그가 두 회사가 Ashland 인수를 협의 중이라고 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Clariant, CD&R in talks to acquire Ashland, Bloomberg reports",
+                "publisher": "Investing.com",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/clariant-cd-r-talks-acquire-021245006.html",
+                "date": "2026-11-23",
+                "quote": "Clariant, CD&R in talks to acquire Ashland, Bloomberg reports",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-25",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4863,13 +5338,37 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 0,
+    "done": 9,
     "total": 9,
-    "cap": null,
-    "pending": 9,
+    "cap": 9,
+    "pending": 0,
     "failed": 0,
     "carried": 0,
     "ineligible": 0,
-    "note": "9종목 중 0종목을 조사했습니다. 나머지 9종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "BBY",
+        "category": 1,
+        "oneLine": "11월 24일 3분기 이익·매출이 예상을 웃돌았고 연간 전망도 올렸다는 보도가 나왔다."
+      },
+      {
+        "ticker": "SJM",
+        "category": 1,
+        "oneLine": "11월 24일 2분기 주당순이익은 예상을 웃돌았지만 매출은 줄었다는 보도도 있어 반응이 엇갈릴 수 있다."
+      }
+    ],
+    "sectorSignal": "실적 호재 2건(소매·식품)이고 업종이 겹치지는 않는다. 오늘은 CrowdStrike의 Zscaler 인수 소식이 보안 소프트웨어 쪽에 몰렸지만, 이는 실적·기술 호재가 아니라 계약 유형이다.",
+    "caution": "호재 두 건 모두 실적 발표 기반이라 이미 주가에 반영됐을 수 있고, SJM은 매출이 줄었다는 보도가 있다. 5번(산업 기술 돌파) 해당 종목은 없고, 차트 상태는 확인하지 않았으니 직접 보고 판단해야 한다.",
+    "researchedOn": "2026-11-25"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 2,
+    "2": 1,
+    "3": 3,
+    "6": 3
   }
 };

@@ -4,274 +4,274 @@
  "industry": "Insurance - Property & Casualty",
  "industryKo": "손해보험",
  "frank": 4,
- "frank25dChg": 15,
- "finalWrs": 0.401,
+ "frank25dChg": 11,
+ "finalWrs": 0.3598,
  "count": 19,
- "winRatePct": 100,
+ "winRatePct": 94.7,
  "members": [
   {
    "ticker": "PLMR",
-   "rs1": 0.29327492964861246,
-   "rs3": 0.421642559760575,
-   "rs6": 0.7554052270218224,
-   "rnk1": 2.75,
-   "rnk3": 1.04,
-   "rnk6": 1.94,
-   "ret1d": 4.41,
-   "high52": 98.22,
-   "dollarVolM": 85.8,
+   "rs1": 0.2538206633390354,
+   "rs3": 0.3430952488009416,
+   "rs6": 0.75490909828326,
+   "rnk1": 3.38,
+   "rnk3": 1.94,
+   "rnk6": 2.12,
+   "ret1d": 0.52,
+   "high52": 98.73,
+   "dollarVolM": 54.8,
    "marketCap": "4.30B",
    "name": "팔로마 홀딩스"
   },
   {
    "ticker": "SAFT",
-   "rs1": 0.13890339146333192,
-   "rs3": 0.17061854966309795,
-   "rs6": 0.7031475869208028,
-   "rnk1": 30.19,
-   "rnk3": 25.86,
-   "rnk6": 2.66,
-   "ret1d": 0.03,
-   "high52": 99.89,
-   "dollarVolM": 13.8,
+   "rs1": 0.0905980235326364,
+   "rs3": 0.10804834594682075,
+   "rs6": 0.6698927585416911,
+   "rnk1": 37.77,
+   "rnk3": 32.81,
+   "rnk6": 2.93,
+   "ret1d": 0.1,
+   "high52": 99.96,
+   "dollarVolM": 7.8,
    "marketCap": "1.53B",
    "name": "세이프티 인슈어런스 그룹"
   },
   {
    "ticker": "TRV",
-   "rs1": 0.12356079576087405,
-   "rs3": 0.22373138380320173,
-   "rs6": 0.5404284948553515,
-   "rnk1": 36.06,
-   "rnk3": 14.4,
-   "rnk6": 6.27,
-   "ret1d": 0.67,
-   "high52": 94.08,
-   "dollarVolM": 531.9,
+   "rs1": 0.0722445141492963,
+   "rs3": 0.16105953654001737,
+   "rs6": 0.4950011581246806,
+   "rnk1": 45.62,
+   "rnk3": 18.28,
+   "rnk6": 6.99,
+   "ret1d": 0.37,
+   "high52": 94.43,
+   "dollarVolM": 579.5,
    "marketCap": "80.59B",
    "name": "트래블러스 컴퍼니스"
   },
   {
    "ticker": "KNSL",
-   "rs1": 0.22974316684641927,
-   "rs3": 0.19998585839880623,
-   "rs6": 0.5329845675364501,
-   "rnk1": 7.54,
-   "rnk3": 19.72,
-   "rnk6": 7.27,
-   "ret1d": 0.82,
-   "high52": 94.68,
-   "dollarVolM": 130.1,
+   "rs1": 0.15742546037815758,
+   "rs3": 0.1316674732701981,
+   "rs6": 0.4899753075387181,
+   "rnk1": 15.93,
+   "rnk3": 26.67,
+   "rnk6": 7.45,
+   "ret1d": -0.56,
+   "high52": 94.14,
+   "dollarVolM": 126.1,
    "marketCap": "8.97B",
    "name": "킨세일 캐피털 그룹"
   },
   {
    "ticker": "THG",
-   "rs1": 0.1591824916221422,
-   "rs3": 0.22811730733343344,
-   "rs6": 0.4949095230544236,
-   "rnk1": 23.87,
-   "rnk3": 13.67,
-   "rnk6": 9.52,
-   "ret1d": 0.08,
-   "high52": 94.72,
-   "dollarVolM": 49.7,
+   "rs1": 0.10768151376147664,
+   "rs3": 0.16786515476543837,
+   "rs6": 0.4461917102189457,
+   "rnk1": 30.64,
+   "rnk3": 17.01,
+   "rnk6": 10.15,
+   "ret1d": 0.45,
+   "high52": 95.15,
+   "dollarVolM": 56,
    "marketCap": "8.36B",
    "name": "하노버 인슈어런스 그룹"
   },
   {
    "ticker": "AIZ",
-   "rs1": 0.24824330461970381,
-   "rs3": 0.26823704899650713,
-   "rs6": 0.465483477055188,
-   "rnk1": 5.19,
-   "rnk3": 7.99,
-   "rnk6": 11.6,
-   "ret1d": 0.2,
-   "high52": 96.84,
-   "dollarVolM": 110.8,
+   "rs1": 0.1969805148065355,
+   "rs3": 0.21071689806829513,
+   "rs6": 0.4160387103591991,
+   "rnk1": 8.89,
+   "rnk3": 9.16,
+   "rnk6": 12.41,
+   "ret1d": 0.76,
+   "high52": 97.57,
+   "dollarVolM": 130.5,
    "marketCap": "15.54B",
    "name": "어슈런트"
   },
   {
-   "ticker": "ALL",
-   "rs1": 0.1907592393919602,
-   "rs3": 0.19607581842924815,
-   "rs6": 0.4567409154343822,
-   "rnk1": 14.31,
-   "rnk3": 20.62,
-   "rnk6": 11.96,
-   "ret1d": 0.09,
-   "high52": 94.98,
-   "dollarVolM": 525.9,
-   "marketCap": "66.07B",
-   "name": "올스테이트"
-  },
-  {
-   "ticker": "AFG",
-   "rs1": 0.20845300836844327,
-   "rs3": 0.29532816723436395,
-   "rs6": 0.4532210740460124,
-   "rnk1": 10.15,
-   "rnk3": 4.74,
-   "rnk6": 12.23,
-   "ret1d": 0.71,
-   "high52": 98.57,
-   "dollarVolM": 58.3,
-   "marketCap": "13.07B",
-   "name": "아메리칸 파이낸셜 그룹"
-  },
-  {
    "ticker": "HCI",
-   "rs1": 0.06236719110583765,
-   "rs3": 0.1666458353229841,
-   "rs6": 0.42759829031675023,
-   "rnk1": 59.07,
-   "rnk3": 27.12,
-   "rnk6": 14.58,
-   "ret1d": 0.14,
-   "high52": 90.51,
-   "dollarVolM": 34.9,
+   "rs1": 0.03279977443323183,
+   "rs3": 0.12269525795712699,
+   "rs6": 0.40981751834804403,
+   "rnk1": 59.52,
+   "rnk3": 28.47,
+   "rnk6": 13.13,
+   "ret1d": 1.76,
+   "high52": 92.11,
+   "dollarVolM": 18.2,
    "marketCap": "2.34B",
    "name": "HCI 그룹"
   },
   {
-   "ticker": "WRB",
-   "rs1": 0.20412734910134855,
-   "rs3": 0.3028798950575715,
-   "rs6": 0.396821550203585,
-   "rnk1": 11.06,
-   "rnk3": 4.2,
-   "rnk6": 17.37,
-   "ret1d": 1.18,
-   "high52": 98.26,
-   "dollarVolM": 182,
-   "marketCap": "29.09B",
-   "name": "WR 버클리"
+   "ticker": "AFG",
+   "rs1": 0.1632275535667371,
+   "rs3": 0.2275365638666439,
+   "rs6": 0.3986406343834852,
+   "rnk1": 14.67,
+   "rnk3": 7.99,
+   "rnk6": 14.21,
+   "ret1d": 0.46,
+   "high52": 99.01,
+   "dollarVolM": 53.5,
+   "marketCap": "13.07B",
+   "name": "아메리칸 파이낸셜 그룹"
+  },
+  {
+   "ticker": "ALL",
+   "rs1": 0.12234120951848476,
+   "rs3": 0.11261276752020805,
+   "rs6": 0.3958274768663476,
+   "rnk1": 24.95,
+   "rnk3": 31.18,
+   "rnk6": 14.4,
+   "ret1d": -0.64,
+   "high52": 94.37,
+   "dollarVolM": 383.5,
+   "marketCap": "66.07B",
+   "name": "올스테이트"
   },
   {
    "ticker": "SIGI",
-   "rs1": 0.2099651285856192,
-   "rs3": 0.27924135604069905,
-   "rs6": 0.39384934161390395,
-   "rnk1": 9.88,
-   "rnk3": 6.72,
-   "rnk6": 17.82,
-   "ret1d": 0.53,
-   "high52": 98.09,
-   "dollarVolM": 51.3,
+   "rs1": 0.1389952638374812,
+   "rs3": 0.2155433742463309,
+   "rs6": 0.3455593875948316,
+   "rnk1": 20.08,
+   "rnk3": 9.07,
+   "rnk6": 19.9,
+   "ret1d": 0.29,
+   "high52": 98.38,
+   "dollarVolM": 37.5,
    "marketCap": "6.09B",
    "name": "셀렉티브 인슈어런스 그룹"
   },
   {
-   "ticker": "CB",
-   "rs1": 0.1827360845268558,
-   "rs3": 0.25716012426571194,
-   "rs6": 0.3802229287230975,
-   "rnk1": 16.47,
-   "rnk3": 9.07,
-   "rnk6": 19.54,
-   "ret1d": 0.41,
-   "high52": 96.71,
-   "dollarVolM": 836.3,
-   "marketCap": "141.99B",
-   "name": "처브"
+   "ticker": "WRB",
+   "rs1": 0.1415873815415574,
+   "rs3": 0.23019089342927468,
+   "rs6": 0.32895225295592523,
+   "rnk1": 19.45,
+   "rnk3": 7.72,
+   "rnk6": 22.52,
+   "ret1d": -0.52,
+   "high52": 97.74,
+   "dollarVolM": 115.6,
+   "marketCap": "28.94B",
+   "name": "WR 버클리"
   },
   {
    "ticker": "CINF",
-   "rs1": 0.19429798822310482,
-   "rs3": 0.24278204285218996,
-   "rs6": 0.3766820737580836,
-   "rnk1": 13.22,
-   "rnk3": 11.24,
-   "rnk6": 19.99,
-   "ret1d": -0.8,
-   "high52": 95.31,
-   "dollarVolM": 170,
+   "rs1": 0.14465589131004752,
+   "rs3": 0.18820614041810846,
+   "rs6": 0.32466740358694857,
+   "rnk1": 18.64,
+   "rnk3": 13.04,
+   "rnk6": 23.33,
+   "ret1d": 0.64,
+   "high52": 95.92,
+   "dollarVolM": 120.3,
    "marketCap": "28.64B",
-   "name": null
+   "name": "신시내티 파이낸셜"
   },
   {
    "ticker": "PGR",
-   "rs1": 0.15077213025135297,
-   "rs3": 0.2189941405847295,
-   "rs6": 0.35954381832158677,
-   "rnk1": 26.76,
-   "rnk3": 15.3,
-   "rnk6": 21.44,
-   "ret1d": 0.62,
-   "high52": 96,
-   "dollarVolM": 793.6,
+   "rs1": 0.09073064815820518,
+   "rs3": 0.1444516412696263,
+   "rs6": 0.315173460846,
+   "rnk1": 37.59,
+   "rnk3": 23.15,
+   "rnk6": 24.86,
+   "ret1d": -0.45,
+   "high52": 95.58,
+   "dollarVolM": 479.8,
    "marketCap": "133.67B",
    "name": null
   },
   {
+   "ticker": "CB",
+   "rs1": 0.11933055800716247,
+   "rs3": 0.17819417877611735,
+   "rs6": 0.30938377086871777,
+   "rnk1": 26.4,
+   "rnk3": 14.4,
+   "rnk6": 25.32,
+   "ret1d": -0.8,
+   "high52": 95.94,
+   "dollarVolM": 851,
+   "marketCap": "141.99B",
+   "name": null
+  },
+  {
    "ticker": "MKL",
-   "rs1": 0.17176966521858736,
-   "rs3": 0.2277624546473655,
-   "rs6": 0.2662249344853896,
-   "rnk1": 19.99,
-   "rnk3": 13.76,
-   "rnk6": 33.8,
-   "ret1d": -0.77,
-   "high52": 87.72,
-   "dollarVolM": 133.8,
+   "rs1": 0.12397307884156528,
+   "rs3": 0.15999361225582637,
+   "rs6": 0.21769428086150375,
+   "rnk1": 24.32,
+   "rnk3": 18.82,
+   "rnk6": 37.23,
+   "ret1d": 0.45,
+   "high52": 88.12,
+   "dollarVolM": 139.3,
    "marketCap": "23.68B",
    "name": null
   },
   {
    "ticker": "HIG",
-   "rs1": 0.13680021101108103,
-   "rs3": 0.1527415291620581,
-   "rs6": 0.2635715568860668,
-   "rnk1": 30.91,
-   "rnk3": 31.18,
-   "rnk6": 33.98,
-   "ret1d": 0.93,
-   "high52": 94.09,
-   "dollarVolM": 317.4,
+   "rs1": 0.09375983091630477,
+   "rs3": 0.08356177156552899,
+   "rs6": 0.21600385363182967,
+   "rnk1": 36.24,
+   "rnk3": 38.94,
+   "rnk6": 37.32,
+   "ret1d": 0.12,
+   "high52": 94.21,
+   "dollarVolM": 230.1,
    "marketCap": "36.59B",
    "name": null
   },
   {
    "ticker": "WTM",
-   "rs1": 0.12246835987444729,
-   "rs3": 0.18688097765958445,
-   "rs6": 0.252949488867871,
-   "rnk1": 36.51,
-   "rnk3": 22.88,
-   "rnk6": 36.06,
-   "ret1d": -1.25,
-   "high52": 92.25,
-   "dollarVolM": 42.8,
+   "rs1": 0.0773807761694874,
+   "rs3": 0.12451514787694637,
+   "rs6": 0.20905941691599816,
+   "rnk1": 42.92,
+   "rnk3": 28.2,
+   "rnk6": 38.76,
+   "ret1d": 0.63,
+   "high52": 92.83,
+   "dollarVolM": 43.7,
    "marketCap": "5.24B",
    "name": null
   },
   {
    "ticker": "L",
-   "rs1": 0.11291373529134388,
-   "rs3": 0.1515277060052934,
-   "rs6": 0.2259956851395843,
-   "rnk1": 41.11,
-   "rnk3": 31.54,
-   "rnk6": 41.2,
-   "ret1d": -0.27,
-   "high52": 90.46,
-   "dollarVolM": 120.2,
+   "rs1": 0.07440071739698158,
+   "rs3": 0.09416695781839009,
+   "rs6": 0.17829855796241342,
+   "rnk1": 44.18,
+   "rnk3": 36.24,
+   "rnk6": 45.44,
+   "ret1d": 0.68,
+   "high52": 91.07,
+   "dollarVolM": 114.7,
    "marketCap": "22.12B",
    "name": null
   },
   {
    "ticker": "MCY",
-   "rs1": -0.07204921686223145,
-   "rs3": -0.04878813063378659,
-   "rs6": 0.01523800869040215,
-   "rnk1": 88.4,
-   "rnk3": 77.3,
-   "rnk6": 74.14,
-   "ret1d": -1.4,
-   "high52": 72.25,
-   "dollarVolM": 22.4,
+   "rs1": -0.09602777854075305,
+   "rs3": -0.0995951826081194,
+   "rs6": -0.011720692184292239,
+   "rnk1": 89.12,
+   "rnk3": 81.9,
+   "rnk6": 76.13,
+   "ret1d": 2.11,
+   "high52": 73.78,
+   "dollarVolM": 17.9,
    "marketCap": "4.51B",
    "name": null
   }
@@ -341,9 +341,9 @@
      "kind": "video"
     },
     {
-     "title": "Explosive Options' Bob Lang says Travelers could be a 'port in the storm' amid market volatility",
-     "url": "https://www.cnbc.com/video/2026/07/28/explosive-options-bob-lang-says-travelers-could-be-a-port-in-the-storm-amid-market-volatility.html",
-     "date": "2026-07-28",
+     "title": "News Update – Late Morning",
+     "url": "https://www.cnbc.com/video/2026/10/16/the-late-morning-rundown-october-16-2026.html",
+     "date": "2026-10-16",
      "publisher": "CNBC",
      "kind": "video"
     }
@@ -429,6 +429,54 @@
     }
    ]
   },
+  "HCI": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "HCI Group, Inc. Enters into $300 million Credit Agreement",
+     "url": "https://www.nasdaq.com/articles/hci-group-inc-enters-300-million-credit-agreement",
+     "date": "2026-11-24",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "What HCI Group (HCI) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-hci-group-hci-said-its-q3-earnings-call",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "HCI Group (HCI) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hci-group-hci-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "AFG": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Is American Financial Group (AFG) Stock Outpacing Its Finance Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/american-financial-group-afg-stock-outpacing-its-finance-peers-year",
+     "date": "2026-11-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/american-financial-afg-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "American Financial Group (AFG) Q3 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/american-financial-group-afg-q3-earnings-and-revenues-top-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
   "ALL": {
    "cnbc": [
     {
@@ -476,66 +524,6 @@
     }
    ]
   },
-  "AFG": {
-   "cnbc": [],
-   "reports": [],
-   "news": [
-    {
-     "title": "Is American Financial Group (AFG) Stock Outpacing Its Finance Peers This Year?",
-     "url": "https://www.nasdaq.com/articles/american-financial-group-afg-stock-outpacing-its-finance-peers-year",
-     "date": "2026-11-18",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/american-financial-afg-q3-2026-earnings-call-transcript",
-     "date": "2026-11-04",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "American Financial Group (AFG) Q3 Earnings and Revenues Top Estimates",
-     "url": "https://www.nasdaq.com/articles/american-financial-group-afg-q3-earnings-and-revenues-top-estimates",
-     "date": "2026-11-03",
-     "publisher": "Zacks"
-    }
-   ]
-  },
-  "HCI": {
-   "cnbc": [],
-   "reports": [],
-   "news": [
-    {
-     "title": "HCI Group, Inc. Enters into $300 million Credit Agreement",
-     "url": "https://www.nasdaq.com/articles/hci-group-inc-enters-300-million-credit-agreement",
-     "date": "2026-11-24",
-     "publisher": "Fintel"
-    },
-    {
-     "title": "What HCI Group (HCI) Said on Its Q3 Earnings Call",
-     "url": "https://www.nasdaq.com/articles/what-hci-group-hci-said-its-q3-earnings-call",
-     "date": "2026-11-07",
-     "publisher": "MarketBeat"
-    },
-    {
-     "title": "HCI Group (HCI) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/hci-group-hci-q3-2026-earnings-call-transcript",
-     "date": "2026-11-05",
-     "publisher": "The Motley Fool"
-    }
-   ]
-  },
-  "WRB": {
-   "cnbc": [],
-   "reports": [],
-   "news": [
-    {
-     "title": "Can WRB's Net Investment Income Continue to Support Earnings?",
-     "url": "https://www.nasdaq.com/articles/can-wrbs-net-investment-income-continue-support-earnings",
-     "date": "2026-11-10",
-     "publisher": "Zacks"
-    }
-   ]
-  },
   "SIGI": {
    "cnbc": [],
    "reports": [],
@@ -566,35 +554,50 @@
     }
    ]
   },
-  "CB": {
-   "cnbc": [
-    {
-     "title": "Final Trades: CF Industries, Morgan Stanley, Chubb Limited and ConocoPhillips",
-     "url": "https://www.cnbc.com/video/2026/11/05/final-trades-cf-industries-morgan-stanley-chubb-limited-and-conocophillips.html",
-     "date": "2026-11-05",
-     "publisher": "CNBC",
-     "kind": "video"
-    },
-    {
-     "title": "Explosive Options' Bob Lang says Travelers could be a 'port in the storm' amid market volatility",
-     "url": "https://www.cnbc.com/video/2026/07/28/explosive-options-bob-lang-says-travelers-could-be-a-port-in-the-storm-amid-market-volatility.html",
-     "date": "2026-07-28",
-     "publisher": "CNBC",
-     "kind": "video"
-    }
-   ],
+  "WRB": {
+   "cnbc": [],
    "reports": [],
    "news": [
     {
-     "title": "Investors Heavily Search Chubb Limited (CB): Here is What You Need to Know",
-     "url": "https://www.nasdaq.com/articles/investors-heavily-search-chubb-limited-cb-here-what-you-need-know",
+     "title": "Can WRB's Net Investment Income Continue to Support Earnings?",
+     "url": "https://www.nasdaq.com/articles/can-wrbs-net-investment-income-continue-support-earnings",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CINF": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "CINF Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/cinf-crosses-above-average-analyst-target",
      "date": "2026-11-11",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Cincinnati Financial (CINF) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-cincinnati-financial-cinf-great-choice",
+     "date": "2026-11-02",
      "publisher": "Zacks"
     },
     {
-     "title": "Can CB's Life Insurance Growth Boost Its Wealth Protection Business?",
-     "url": "https://www.nasdaq.com/articles/can-cbs-life-insurance-growth-boost-its-wealth-protection-business",
-     "date": "2026-11-09",
+     "title": "Cincinnati Financial (CINF) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cincinnati-financial-cinf-q3-2026-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Cincinnati Financial (CINF) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-cincinnati-financial-cinf-said-its-q3-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Cincinnati Financial (CINF) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/cincinnati-financial-cinf-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-10-26",
      "publisher": "Zacks"
     }
    ]

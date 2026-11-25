@@ -1,0 +1,218 @@
+{
+ "ticker": "ASH",
+ "news": [
+  {
+   "title": "What Ashland (ASH) Said on Its Q4 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-ashland-ash-said-its-q4-earnings-call",
+   "date": "2026-11-05",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Ashland Inc. (ASH) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/ashland-inc-ash-q4-2026-earnings-call-transcript",
+   "date": "2026-11-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Ashland (ASH) Misses Q4 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/ashland-ash-misses-q4-earnings-and-revenue-estimates",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ashland (ASH) Reports Q4 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/ashland-ash-reports-q4-earnings-what-key-metrics-have-say",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ashland (ASH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/ashland-ash-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-10-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ashland increases prices for its 1,4 butanediol intermediates and solvents product range globally",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/ashland-increases-prices-1-4-220100554.html",
+   "date": "2026-11-24",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Clariant Confirms Talks to Acquire Ashland With CD&R",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/clariant-confirms-talks-acquire-ashland-212235266.html",
+   "date": "2026-11-23",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Clariant confirms talks regarding a potential acquisition of Ashland",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/clariant-confirms-talks-regarding-potential-210000088.html",
+   "date": "2026-11-23",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Market Chatter: Ashland May Be Sold to Swiss Chemical Companies",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-ashland-may-sold-082947560.html",
+   "date": "2026-11-23",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Clariant, CD&R in talks to acquire Ashland, Bloomberg reports",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/clariant-cd-r-talks-acquire-021245006.html",
+   "date": "2026-11-23",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Ashland board authorizes quarterly dividend",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ashland-board-authorizes-quarterly-dividend-220000942.html",
+   "date": "2026-11-11",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526445650/ash-20261103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-25",
+   "reportDate": "2026-09-24",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526402900/ash-20260924.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-30",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526328710/ash-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "1.01",
+    "5.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동",
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526321247/ash-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526321238/ash-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-28",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674862/000119312526246229/ash-20260528.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.97,
+  "saleNy": 4.29,
+  "epsCy": 28.7,
+  "epsNy": 15.22,
+  "cyTrend": -1.38,
+  "nyTrend": -0.76,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    7.34,
+    0.63,
+    -4.69
+   ],
+   "ni": [
+    "흑자전환",
+    -48.39,
+    "적자축소"
+   ],
+   "opm": [
+    8.65,
+    8.09,
+    -1.55
+   ],
+   "updated": "2026-09-09 06:14:10"
+  }
+ }
+}

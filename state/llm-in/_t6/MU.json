@@ -1,0 +1,853 @@
+{
+ "ticker": "MU",
+ "date": "2026-11-25",
+ "session": "2026-11-23",
+ "source": "list",
+ "plan": {
+  "ticker": "MU",
+  "name": "마이크론 테크놀로지",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 707.7000122070312,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 1108,
+  "stop": 1061.03,
+  "distToPivotPct": -43.16,
+  "distToPivotAdr": -5.79,
+  "riskPerSharePct": 4.24,
+  "adrPct": 7.46,
+  "extensionAdr": -1.81,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 47.2,
+   "priorMovePct": 50.2,
+   "higherLows": 0,
+   "contraction": 0.96,
+   "closeRange10Adr": 4.6,
+   "surf10": -1.81,
+   "surf20": -2.81,
+   "slope20": -7.03,
+   "baseLow": 585.25,
+   "lastSwingLow": 650
+  },
+  "reasons": [
+   "선행 상승 +50%",
+   "베이스 8주",
+   "✗ 깊이 47.2%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.96배 · 10일 종가폭 4.6 ADR",
+   "✗ 10일선 -1.8 ADR · 20일선 -2.8 ADR",
+   "✗ 20일선 기울기 -7.03%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.1309973620353279,
+    "pct": 6.9043321299638984
+   },
+   "m3": {
+    "v": -0.15090679664784906,
+    "pct": 11.416967509025271
+   },
+   "m6": {
+    "v": -0.22092450591287216,
+    "pct": 9.611913357400722
+   }
+  },
+  "ret1m": -21.69,
+  "ret3m": -24.12,
+  "ret6m": -34.43,
+  "marketCap": "672.64B",
+  "volx": 1.33,
+  "volSurgeWk": 1.36,
+  "high52": 56.41,
+  "newHigh52": false,
+  "adr": 7.2,
+  "div50": -22.05,
+  "div200": -8.56,
+  "targetStatus": false,
+  "saleCy": 107.24,
+  "saleNy": 16.23,
+  "epsCy": 133.94,
+  "epsNy": 18.2,
+  "cyTrend": 0.07,
+  "nyTrend": 0.94,
+  "est": {
+   "cyCur": 176.67029,
+   "cy30": 176.54659,
+   "nyCur": 208.82883,
+   "ny30": 206.89381
+  },
+  "fs": {
+   "sale": [
+    345.72,
+    196.29,
+    56.65
+   ],
+   "ni": [
+    1398.3,
+    770.81,
+    180.21
+   ],
+   "opm": [
+    80.37,
+    67.62,
+    44.98
+   ],
+   "updated": "2026-09-08 10:18:42"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-25",
+  "nameKo": "마이크론 테크놀로지",
+  "nameEn": "MICRON TECHNOLOGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723125&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-03",
+     "derived": true,
+     "revenue": 54229000000,
+     "profit": 43751000000,
+     "netIncome": 37701000000,
+     "margin": 80.7,
+     "yoy": {
+      "revenue": 379.3,
+      "profit": 1097.3,
+      "netIncome": 1077.8,
+      "priorEnd": "2025-08-28"
+     }
+    },
+    {
+     "periodEnd": "2026-05-28",
+     "derived": false,
+     "revenue": 41456000000,
+     "profit": 33318000000,
+     "netIncome": 28243000000,
+     "margin": 80.4,
+     "yoy": {
+      "revenue": 345.7,
+      "profit": 1436.1,
+      "netIncome": 1398.3,
+      "priorEnd": "2025-05-29"
+     }
+    },
+    {
+     "periodEnd": "2026-02-26",
+     "derived": false,
+     "revenue": 23860000000,
+     "profit": 16135000000,
+     "netIncome": 13785000000,
+     "margin": 67.6,
+     "yoy": {
+      "revenue": 196.3,
+      "profit": 810,
+      "netIncome": 770.8,
+      "priorEnd": "2025-02-27"
+     }
+    },
+    {
+     "periodEnd": "2025-11-27",
+     "derived": false,
+     "revenue": 13643000000,
+     "profit": 6136000000,
+     "netIncome": 5240000000,
+     "margin": 45,
+     "yoy": {
+      "revenue": 56.7,
+      "profit": 182.2,
+      "netIncome": 180.2,
+      "priorEnd": "2024-11-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Micron Stock Dove Today",
+     "url": "https://www.nasdaq.com/articles/why-micron-stock-dove-today-1",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Micron Stock Soared on Monday. I'd Still Buy It, a Little at a Time.",
+     "url": "https://www.nasdaq.com/articles/micron-stock-soared-monday-id-still-buy-it-little-time",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-nov-23-micron-surges-19-nvidia-ceo-change-calms-ai-spending-fears",
+     "date": "2026-11-23",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926123389/tm2629062d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067/tm2624017d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-24",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/mu-20260624.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926071845/tm2617112d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-01",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 21,
+   "reports": [
+    {
+     "date": "2026-11-12",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] 초과 수요 환경 지속",
+     "summary": "- '78년 설립된 미국의 IDM(종합 반도체 업체)로 DRAM과 NAND를 포함한 메모리 반도체 생산. 한국의 삼성전자, SK하이닉스와 DRAM 업계 3강 구도 구축- FY26 매출 1,332억달러 중 DRAM 1,007억달러(76%), NAND 318억달러(24%). Al 서버용 HBM, 고용량 DRAM과 SSD가 성장을 주도- 판가 주도 성장. DRAM 397.7억달러(B/G +5%, ASP +19%), NAND 141억달러(B/G +10%, ASP +30%). SSD가 NAND 매출의 70%를 넘어 믹스 개선 효과",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxgilxmizelgcgxeegz.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-10-30",
+     "broker": "SK증권",
+     "analyst": "한동희",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] 실적 Duration 장기화와 주주환원의 동반",
+     "summary": "- AI 인프라 투자 가속과 공급 후행으로 메모리 공급부족 심화, FY2027·2028 수급 더 타이트해질 전망- FY4Q26 콜에서 Take-or-pay 계약 26건 체결, 2030년 예상 매출액 35% 이상 커버로 SCA 장기화·가시성 제고- 실적 상향 지속과 FY1Q27 주주환원 본격화 전망, 12MF P/E 5.4X로 다운턴 선반영 상태",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiekqxezeeicgcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-06",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] [Issue & News] Netlist와 특허소송 6억 달러 합의 - ITC 수입금지 리스크 해소, 분기당 3천만 달러 5년 분할 지급",
+     "summary": "- Netlist와 특허소송 6억달러 합의, 20개 분기 분할지급- ITC 수입금지 리스크로 이어졌던 소송 해소- 영향 미미, 가이던스·밸류에이션 변수 아님",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmeiglzlkzqqiegcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-02",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] 초과 공급 우려는 제한적, 메모리 비중확대 유지",
+     "summary": "- 마이크론의 FY 4Q26 매출액은 542억 달러(YoY +379%), EPS는 33.42달러(YoY +1,003%)로 최고 실적을 경신했다. 각각 컨센서스를 5.3%, 5% 상회했다. 영업이익은 446억 달러(YoY +1,029%)로, 예상치 대비 4.4% 견조했다. 매출총이익률은 87.0%(YoY +41.3%p), 영업이 익률은 82.3%(YoY +47.3%p)를 기록했다. DRAM과 NAND ASP가 전분기 대비 각각 10%대 후반, 약 30% 상승하며 실적 개선을 견인했 다. 분기 영업현금흐름 440억 달러(YoY +667%), 잉여현금흐름 332억 달러(YoY +4,034%), 기말 순현금 683억 달러(흑자 전환)로 확대됐다. 분기 배당금은 주당 0.15달러로 유지했고, 4분기 신용평가사 2곳의 등 급 상향으로 주요 3사 모두 BBB+ 또는 이에 상응하는 신용등급을 확 보했다- 마이크론은 FY 1Q27 가이던스로 중간값 기준 매출액 615억 달러 (YoY +351%, vs. 컨센서스 568억 달러), EPS 38.15 달러(YoY +698%, vs. 컨센서스 36.02 달러)를 제시했다. FY 2027에는 매 분기 매출 증가 와 연간 최고 실적 경신을 전망했다. 매출총이익률은 약 86.25%로, 성 과급·신규 시설 가동 비용 영향으로 1분기 저점 이후 개선될 것으로 예상했다. 메모리 수급은 더욱 타이트해질 전망이며, FY2027 출하 예 정 물량의 75% 이상에 대한 고객 구매 약정을 확보했다. CAPEX는 FY 1Q27 약 115억 달러, 상반기 약 250억 달러이며 하반기에 더욱 확대할 계획이다. 증액분은 주로 CY 2028년 말 이후 클린룸 공간 확 보를 앞당기기 위한 건설에 투입하며, 싱가포르 신규 NAND 팹은 CY 2028년 하반기 초기 생산을 예상했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmclmxlxmgqlqzgcgxeegz.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-01",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] 밸류체인 전반의 훈풍 기대",
+     "summary": "- 3~5년 단위의 SCA(Strategic Customer Agreement, 장기계약) 26건으로 전 분기대비 10건 추가. 2030년까지 전체 매출의 35% 이상이 다년 계약 기 반으로 창출 예상. 전체 물량의 1/4는 시장가격 반영하며 기존 방식의 주 기적 협상 구조 유지될 전망- FY4Q26 매출 542.3억달러(+30.8%, 이하 전분기대비), EPS 33.42달러로 컨센서스(513.3억달러, 31.72달러) 각각 5.6%, 5.4% 상회. 제품별 매출은 DRAM 397.7억달러(B/G +5%%, ASP +19%). NAND 141억달러(B/G +10%, ASP +30%), 기타 3.6억달러.- 2027~2028년 DRAM/NAND 연간 B/G 가이던스 각각 20%대 초반/중 반. FY2026 최종 CapEx 274억달러 기록. FY2027 CapEx 추가 확대 계획 (상반기 250억달러, 하반기 250억달러 이상). FY2027 CapEx 증가율 최소 80%를 상회하나 초기 비용은 인프라 비중 높아 제한적 공급 환경 지속 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmclkiieqxiceigcgxeegz.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-01",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] 2028년에도 메모리 호황이 이어질 수 있을까",
+     "summary": "- 3Q26CY, 4Q26CY 실적 모두 시장 컨센서스 상회. 당사 전망에는 대체로 부합- SCA 26개, RPO $150B, 재무적 약정 금액 $32B로 당사의 시장 전망치에 부합- 단기 실적보다는 '28~'29년에도 메모리 호황이 이어질지 여부에 더 관심 가질 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmclelkeqxzexmgcgxeegz.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-10-01",
+     "broker": "메리츠증권",
+     "analyst": "김선우",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] FY4Q26리뷰 (1) 더 높고, 더 긴 사이클",
+     "summary": "- 마이크론은 FY4Q26 실적 컨퍼런스 (=CY3Q26)를 통해 시장 기대치를 큰폭으로 능가하는 실적과 차분기 가이던스를 발표. 메모리 업황에 대한 높은 기대감으로 실적 눈높이 역시 크게 상향되어 왔음에도, 분기 실적과 가이던스는 서프라이즈 수준으로 제시됨. 다만, 국내 메모리 업체들의 실적 성과급 반영 결정과 마찬가지 로, 동사 역시 차분기 성과급 지급을 위한 비용반영을 결정하며 CY4Q26을 이익률 개선이 정체된 후 내년말까지 지속 상승할 것으로 전망함. 이에 기반해 긍정적인 실적 및 산업 전망에도 불구하고 동사 주가는 시간외 강보합 수준에 머무르는 중- 동사는 지난분기부터 SCA(구속력 있는 장기공급계약, Strategic Customer Agreement)의 구체적인 내용을 공개하며 업사이클 장기화 및 메모리 산업의 구 조적 변화를 선제적으로 주장함. 금번 설명회에서는 SCA 내용이 더욱 긍정적으로 변모함. 지난분기 공개했던 16건의 SCA 계약은 26개로 증가했으며, 일부 기존 계 약은 기간이 연장되고 더 우호적인 조건으로 변모했음. 또한 총 SCA 계약으로 인 한 선수금은 320억달러에 달하며 대부분 현금 납입 보증금 형태임",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmclegmzkeiixkgcgxeegz.pdf",
+     "pages": "8"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마이크론 테크놀로지 (NAS:MU)] [Issue & News] 대만 노조 파업 초읽기 - AI 슈퍼사이클 이익배분 갈등 표면화",
+     "summary": "- 대만 노조 80%, 파업 찬성 설문 결과 공개- 영업이익 15% 분기 배분 신제도 요구- HBM4 핵심 거점, 파업 시 로드맵 변수",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllicxlicgcexmgcgxeegz.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MU-report1.pdf",
+   "broker": "신한투자증권",
+   "analyst": "김형태, 송혜수",
+   "date": "2026-11-12",
+   "title": "[마이크론 테크놀로지 (NAS:MU)] 초과 수요 환경 지속",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkkxgilxmizelgcgxeegz.pdf",
+   "pages": "1"
+  },
+  {
+   "file": "MU-report2.pdf",
+   "broker": "SK증권",
+   "analyst": "한동희",
+   "date": "2026-10-30",
+   "title": "[마이크론 테크놀로지 (NAS:MU)] 실적 Duration 장기화와 주주환원의 동반",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiekqxezeeicgcgxeegz.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+   "date": "2026-11-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO",
+   "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+   "date": "2026-11-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Nvidia, Moderna, IonQ, Airbnb & more",
+   "url": "https://www.cnbc.com/2026/11/06/stocks-making-the-biggest-moves-midday-nvda-mrna-ionq-abnb-fly.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Short-term earnings will be good from the chipmakers, says Trivariate's Adam Parker",
+   "url": "https://www.cnbc.com/video/2026/11/24/short-term-earnings-will-be-good-from-the-chipmakers-says-trivariates-adam-parker.html",
+   "date": "2026-11-24",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "AI bulls should bet on semiconductors, look to hyperscalers for safer bets",
+   "url": "https://www.cnbc.com/video/2026/11/24/ai-bulls-should-bet-on-semiconductors-look-to-hyperscalers-for-safer-bets-d-a-davidson-co.html",
+   "date": "2026-11-24",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Tuesday, November 17, 2026: Cramer discusses what to listen for in Nvidia's earnings call",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/17/tuesday-november-17-2026-cramer-discusses-what-to-look-for-with-nvidia-ahead-of-earnings-call.html",
+   "date": "2026-11-17",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: Micron, Digital Realty, Natera and Moody's",
+   "url": "https://www.cnbc.com/video/2026/11/12/final-trades-micron-digital-realty-natera-and-moodys.html",
+   "date": "2026-11-12",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Cramer's Stop Trading: SK Hynix",
+   "url": "https://www.cnbc.com/video/2026/11/11/cramers-stop-trading-sk-hynix.html",
+   "date": "2026-11-11",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MU",
+  "fetchedAt": "2026-11-25",
+  "source": "한국투자증권 Open API",
+  "per": 8.49,
+  "pbr": 5.15,
+  "eps": 74.21,
+  "bps": 122.35,
+  "shares": 1131420000,
+  "marketCapM": 712557,
+  "high52": 1254.6097,
+  "high52Date": "2026-06-25",
+  "low52": 212.1191,
+  "low52Date": "2025-11-24",
+  "last": 629.79,
+  "prevClose": 707.7,
+  "nameKo": "마이크론 테크놀로지",
+  "nameEn": "MICRON TECHNOLOGY INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 1131420000
+ },
+ "estimates": {
+  "ticker": "MU",
+  "url": "https://finance.yahoo.com/quote/MU/analysis/",
+  "fetchedAt": "2026-11-25",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "eps": 38.25,
+    "epsLow": 35.85,
+    "epsHigh": 40.2,
+    "epsYearAgo": 4.78,
+    "epsAnalysts": 29,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 61756168190,
+    "revAnalysts": 34,
+    "revYearAgo": 13643000000,
+    "revGrowth": 352.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "eps": 42.06,
+    "epsLow": 39.3,
+    "epsHigh": 49.79,
+    "epsYearAgo": 12.2,
+    "epsAnalysts": 28,
+    "epsGrowth": 244.7,
+    "epsCur": "USD",
+    "rev": 66859296140,
+    "revAnalysts": 32,
+    "revYearAgo": 23860000000,
+    "revGrowth": 180.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-08-31",
+    "eps": 176.18,
+    "epsLow": 155.51,
+    "epsHigh": 214.7,
+    "epsYearAgo": 75.52,
+    "epsAnalysts": 36,
+    "epsGrowth": 133.3,
+    "epsCur": "USD",
+    "rev": 275314170530,
+    "revAnalysts": 43,
+    "revYearAgo": 133188000000,
+    "revGrowth": 106.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-08-31",
+    "eps": 204.99,
+    "epsLow": 128.49,
+    "epsHigh": 335.5,
+    "epsYearAgo": 176.18,
+    "epsAnalysts": 36,
+    "epsGrowth": 16.4,
+    "epsCur": "USD",
+    "rev": 316395708050,
+    "revAnalysts": 42,
+    "revYearAgo": 275314170530,
+    "revGrowth": 14.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "cur": "USD",
+    "now": 38.25,
+    "d7": -0.1,
+    "d30": -0.1,
+    "d90": 9.6,
+    "ago90": 34.89,
+    "up7": 26,
+    "up30": 26,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "cur": "USD",
+    "now": 42.06,
+    "d7": -0.5,
+    "d30": -0.5,
+    "d90": 11.4,
+    "ago90": 37.77,
+    "up7": 23,
+    "up30": 25,
+    "down7": 4,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-08-31",
+    "cur": "USD",
+    "now": 176.18,
+    "d7": -0.2,
+    "d30": -0.2,
+    "d90": 12.8,
+    "ago90": 156.25,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-08-31",
+    "cur": "USD",
+    "now": 204.99,
+    "d7": -1.3,
+    "d30": -0.9,
+    "d90": 19.9,
+    "ago90": 171.02,
+    "up7": 1,
+    "up30": 3,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-08-31",
+    "actual": 33.42,
+    "estimate": 31.82,
+    "surprisePct": 5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-05-31",
+    "actual": 25.11,
+    "estimate": 20.69,
+    "surprisePct": 21.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-02-28",
+    "actual": 12.2,
+    "estimate": 9.16,
+    "surprisePct": 33.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-11-30",
+    "actual": 4.78,
+    "estimate": 3.96,
+    "surprisePct": 20.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 6,
+   "ptLowered": 1,
+   "total": 19,
+   "recent": [
+    {
+     "date": "2026-11-18",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 1500,
+     "ptPrior": 1500
+    },
+    {
+     "date": "2026-10-22",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 1900,
+     "ptPrior": 1900
+    },
+    {
+     "date": "2026-10-22",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 1650,
+     "ptPrior": 1650
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 1900,
+     "ptPrior": 1900
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 3000,
+     "ptPrior": 2100
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 1400,
+     "ptPrior": 1300
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Morgan Stanley",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Maintains",
+     "pt": 1200,
+     "ptPrior": 1200
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 1600,
+     "ptPrior": 1600
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 1500,
+     "ptPrior": 1500
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 2100,
+     "ptPrior": 2000
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-17",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-24",
+  "numbers": {
+   "price": 629.79,
+   "ma20": 761.9,
+   "ma50": 901.98,
+   "ma150": 896.82,
+   "distMA50": -30.18,
+   "periodHigh": 1255,
+   "pullbackFromHigh": -49.82,
+   "volRatio20": 1.08,
+   "dryUpRatio": 1.18
+  },
+  "last10": [
+   {
+    "d": "2026-11-11",
+    "o": 777.14,
+    "h": 827.58,
+    "l": 763.05,
+    "c": 811.3,
+    "v": 36711600,
+    "clsPos": 75,
+    "gapPct": 7.18
+   },
+   {
+    "d": "2026-11-12",
+    "o": 769.31,
+    "h": 799.7,
+    "l": 764.57,
+    "c": 798.44,
+    "v": 27638400,
+    "clsPos": 96,
+    "gapPct": -5.18
+   },
+   {
+    "d": "2026-11-13",
+    "o": 782.69,
+    "h": 796.18,
+    "l": 750.25,
+    "c": 778.31,
+    "v": 27921000,
+    "clsPos": 61,
+    "gapPct": -1.97
+   },
+   {
+    "d": "2026-11-16",
+    "o": 734.16,
+    "h": 739.12,
+    "l": 716.38,
+    "c": 719.02,
+    "v": 27126700,
+    "clsPos": 12,
+    "gapPct": -5.67
+   },
+   {
+    "d": "2026-11-17",
+    "o": 726.2,
+    "h": 726.99,
+    "l": 666.88,
+    "c": 712.42,
+    "v": 33502600,
+    "clsPos": 76,
+    "gapPct": 1
+   },
+   {
+    "d": "2026-11-18",
+    "o": 718.5,
+    "h": 722.96,
+    "l": 687.33,
+    "c": 705.27,
+    "v": 27515600,
+    "clsPos": 50,
+    "gapPct": 0.85
+   },
+   {
+    "d": "2026-11-19",
+    "o": 740.33,
+    "h": 760.01,
+    "l": 689.28,
+    "c": 690.44,
+    "v": 35401500,
+    "clsPos": 2,
+    "gapPct": 4.97
+   },
+   {
+    "d": "2026-11-20",
+    "o": 665.46,
+    "h": 669,
+    "l": 585.25,
+    "c": 594.51,
+    "v": 59423100,
+    "clsPos": 11,
+    "gapPct": -3.62
+   },
+   {
+    "d": "2026-11-23",
+    "o": 690.72,
+    "h": 720.69,
+    "l": 666.66,
+    "c": 707.7,
+    "v": 49973900,
+    "clsPos": 76,
+    "gapPct": 16.18
+   },
+   {
+    "d": "2026-11-24",
+    "o": 669.39,
+    "h": 672.07,
+    "l": 622.22,
+    "c": 629.79,
+    "v": 38858600,
+    "clsPos": 15,
+    "gapPct": -5.41
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MU-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MU-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 26일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "AI 데이터센터 메모리 품귀와 다년 의무구매 장기계약이 사상 최대 이익을 끌고 있다",
+  "researchedOn": "2026-11-07"
+ }
+}

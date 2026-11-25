@@ -1,0 +1,860 @@
+{
+ "ticker": "MRVL",
+ "date": "2026-11-25",
+ "session": "2026-11-23",
+ "source": "list",
+ "plan": {
+  "ticker": "MRVL",
+  "name": "마벨 테크놀로지 그룹",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 144.74000549316406,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 301.27,
+  "stop": 290.09,
+  "distToPivotPct": -56.33,
+  "distToPivotAdr": -6.63,
+  "riskPerSharePct": 3.71,
+  "adrPct": 8.5,
+  "extensionAdr": -1.35,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 35,
+   "baseWeeks": 7,
+   "depthPct": 60,
+   "priorMovePct": 84.9,
+   "higherLows": 0,
+   "contraction": 0.86,
+   "closeRange10Adr": 4.2,
+   "surf10": -1.35,
+   "surf20": -2.63,
+   "slope20": -13.24,
+   "baseLow": 120.56,
+   "lastSwingLow": 132.54
+  },
+  "reasons": [
+   "선행 상승 +85%",
+   "베이스 7주",
+   "✗ 깊이 60%",
+   "✗ 저점 상승 0회",
+   "진폭 0.86배 · 10일 종가폭 4.2 ADR",
+   "✗ 10일선 -1.4 ADR · 20일선 -2.6 ADR",
+   "✗ 20일선 기울기 -13.24%"
+  ],
+  "earnings": "2026-12-01"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.29498210772473077,
+    "pct": 0.5866425992779783
+   },
+   "m3": {
+    "v": -0.24134024188885767,
+    "pct": 5.099277978339351
+   },
+   "m6": {
+    "v": -0.3966164543024768,
+    "pct": 2.9332129963898916
+   }
+  },
+  "ret1m": -38.09,
+  "ret3m": -33.17,
+  "ret6m": -51.99,
+  "marketCap": "110.02B",
+  "volx": 0.96,
+  "volSurgeWk": 1.31,
+  "high52": 43.9,
+  "newHigh52": false,
+  "adr": 8.23,
+  "div50": -33.84,
+  "div200": -23.36,
+  "targetStatus": false,
+  "saleCy": 47.3,
+  "saleNy": 64.34,
+  "epsCy": 48.58,
+  "epsNy": 74.69,
+  "cyTrend": -0.02,
+  "nyTrend": 0.57,
+  "est": {
+   "cyCur": 4.21961,
+   "cy30": 4.22025,
+   "nyCur": 7.37109,
+   "ny30": 7.32904
+  },
+  "fs": {
+   "sale": [
+    36.55,
+    27.57,
+    22.08
+   ],
+   "ni": [
+    58.11,
+    -80.61,
+    97.85
+   ],
+   "opm": [
+    16.78,
+    14.04,
+    18.23
+   ],
+   "updated": "2026-09-08 07:52:55"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-25",
+  "nameKo": "마벨 테크놀로지 그룹",
+  "nameEn": "MARVELL TECHNOLOGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835632&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 2739300000,
+     "profit": 459700000,
+     "netIncome": 308000000,
+     "margin": 16.8,
+     "yoy": {
+      "revenue": 36.5,
+      "profit": 58.5,
+      "netIncome": 58.1,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 2417800000,
+     "profit": 339400000,
+     "netIncome": 34500000,
+     "margin": 14,
+     "yoy": {
+      "revenue": 27.6,
+      "profit": 25.4,
+      "netIncome": -80.6,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 2218700000,
+     "profit": 404400000,
+     "netIncome": 396100000,
+     "margin": 18.2,
+     "yoy": {
+      "revenue": 22.1,
+      "profit": 71.9,
+      "netIncome": 97.9,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 2074500000,
+     "profit": 357800000,
+     "netIncome": 1901300000,
+     "margin": 17.2,
+     "yoy": {
+      "revenue": 36.8,
+      "profit": 150.9,
+      "netIncome": 381.1,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Marvell Technology (MRVL) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/marvell-technology-mrvl-suffers-larger-drop-general-market-key-insights",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Marvell Stock Fell Almost 12% in a Single Day. I'd Consider Buying Shares Now.",
+     "url": "https://www.nasdaq.com/articles/marvell-stock-fell-almost-12-single-day-id-consider-buying-shares-now",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Marvell Technology Stock Crushed it Today",
+     "url": "https://www.nasdaq.com/articles/why-marvell-technology-stock-crushed-it-today",
+     "date": "2026-11-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Should You Buy Marvell Technology Stock Before Dec. 1?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-marvell-technology-stock-dec-1",
+     "date": "2026-11-23",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-12",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-02",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-25",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm"
+   }
+  ],
+  "krReports": {
+   "total": 11,
+   "reports": [
+    {
+     "date": "2026-11-17",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [27Q3 Preview] 매출총이익률 58.0% 가이던스 달성 여부가 변수, 투자의견 매수 유지",
+     "summary": "- 11월 26일 발표, 실적보다 하향된 목표주가와의 괴리를 확인할 시점- 데이터센터 60% 성장 경로의 하반기 가속 이행이 첫 번째 확인 사항- 상회 폭과 4분기 가이던스가 주가 방향을 좌우할 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmklqzzqqkqqlmgcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-11-03",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [Issue & News] 루멘텀 전액 주식 교환 방식 인수, 거래 종결 2028년 상반기 - 중국 반독점 심사로 불확실성 장기화 가능성",
+     "summary": "- 마벨, 루멘텀 전액주식 인수(로이터 1150억·WSJ 800억 달러)- 광학부품+커스텀칩 결합, 데이터센터 의존 분산 시도- 중국 규제·2028년 종결 지연 가능성이 변수",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqimxmcekmkegcgxeegz.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [Issue & News] 루멘텀 홀딩스 인수 두고 막판 협상 - 데이터센터 광학부품 통합으로 성장축 확대 시도",
+     "summary": "- 마벨, 루멘텀 인수 두고 막판 협상 (블룸버그)- 보도 이후 마벨 주가 하락 반응- 다음 주 발표 가능성, 거래 조건 미공개",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiicqkkxzxxxigcgxeegz.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "하나증권",
+     "analyst": "강재구",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] 10월 도파민이 필요하다",
+     "summary": "- 단기 주가 약세 가능성. 10월 투자자의 날 행사가 중요- 컨센서스 상회한 FY 2Q27 실적- 시장 예상보다 강한 FY 3Q27 가이던스. 연간 매출 가이던스 상향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxeegz.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [27Q2 Review] 데이터센터 재가속, 마진은 숙제, 투자의견 매수 유지",
+     "summary": "- 매출 27.39억달러, DC +46%로 순차 13.3% 가속- FY27 120억·FY28 180억달러, 다섯 번째 상향- 3분기 총마진 58.0% 가이던스로 90bp 후퇴",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxeegz.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [Issue & News] 구글과 커스텀 반도체 상업 계약 체결, 워런트 5,897만 주 발행 - 대형 고객에 지분 인센티브 얹은 장기 록인",
+     "summary": "- 구글과 7월29일 커스텀 반도체 상업계약 체결- 워런트 최대 5,897만주, 행사가 206.58달러- 1년 확정베스팅 544만주뿐, 잔여조건 미공개",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [27Q2 Preview] 150% 오른 주가, 이번엔 숫자가 따라올까, 투자의견 매수 하향",
+     "summary": "- 마벨 8월 28일 실적, 핵심은 매출보다 성장 재가속 속도 확인- 이번 분기 매출 가이던스 27억달러로 전분기 대비 12% 성장, 성장 재가속 지속 여부가 핵심- 데이터센터 비중 75.7%, 인터커넥트 성장 목표 70% 이상으로 상향, 하반기 30억달러 매출의 선행 신호",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxeegz.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-05-28",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "title": "[마블 테크놀로지 그룹 (NAS:MRVL)] AI 네트워크 병목 공략 본격화",
+     "summary": "- 단순 광 DSP 업체를 넘어, 광연결-스위칭-XPU를 결합한 AI 인프라 연결 플랫폼으로 진화. 12MF P/E 43배의 멀티플을 실적을 통해 입증할 전망- FY1Q27 매출액 24.2억(YoY+27.6%, 이하 전년동기대비), Non-GAAP 영업이익 8.5억달러(+30.8%)를 기록하며 컨센서스에 부합. 데이터센터향 매출이 18.3억달러(+27.2%)로 전체의 76%를 기록- AI 데이터센터 연결 병목 해결을 위해 핵심 기술들을 확보. 2월 Celestial AI 인수로 광 기반 포토닉 패브릭과 Scale-up 광연결 역량 확보. XConn 인수는 PCIe, *CXL 스위치와 UALink 스케일업 스위칭 로드맵 보강",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxeegz.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MRVL-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-11-17",
+   "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [27Q3 Preview] 매출총이익률 58.0% 가이던스 달성 여부가 변수, 투자의견 매수 유지",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmklqzzqqkqqlmgcgxeegz.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "MRVL-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-11-03",
+   "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [Issue & News] 루멘텀 전액 주식 교환 방식 인수, 거래 종결 2028년 상반기 - 중국 반독점 심사로 불확실성 장기화 가능성",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqimxmcekmkegcgxeegz.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Nvidia shares fall more than 5% as Huang comeback rally cools",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+   "date": "2026-11-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lumentum CEO defends $115 billion Marvell deal",
+   "url": "https://www.cnbc.com/2026/11/19/lumentum-marvell-deal-ceo-shareholders-cramer.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Nvidia, Moderna, IonQ, Airbnb & more",
+   "url": "https://www.cnbc.com/2026/11/06/stocks-making-the-biggest-moves-midday-nvda-mrna-ionq-abnb-fly.html",
+   "date": "2026-11-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Trade Tracker: Stephanie Link buys more Marvell",
+   "url": "https://www.cnbc.com/video/2026/11/24/trade-tracker-stephanie-link-buys-more-marvell.html",
+   "date": "2026-11-24",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "The combination with Marvell is going to be very powerful, says Lumentum CEO Hurlston",
+   "url": "https://www.cnbc.com/video/2026/11/19/the-combination-with-marvell-is-going-to-be-very-powerful-says-lumentum-ceo-hurlston.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lumentum CEO Michael Hurlston goes one-on-one with Jim Cramer",
+   "url": "https://www.cnbc.com/investingclub/video/2026/11/19/lumentum-ceo-michael-hurlston-goes-one-on-one-with-jim-cramer.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC’s full discussion with the ‘Squawk on the Street’ crew on Nvidia and Anthropic",
+   "url": "https://www.cnbc.com/video/2026/11/17/watch-cnbcs-full-discussion-with-the-squawk-on-the-street-crew-on-nvidia-and-anthropic.html",
+   "date": "2026-11-17",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lightning Round: I like Cloudflare more than Akamai, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/11/09/lightning-round-i-like-cloudflare-more-than-akamai-says-jim-cramer.html",
+   "date": "2026-11-09",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MRVL",
+  "fetchedAt": "2026-11-25",
+  "source": "한국투자증권 Open API",
+  "per": 43.32,
+  "pbr": 6.23,
+  "eps": 3.04,
+  "bps": 21.14,
+  "shares": 876900000,
+  "marketCapM": 115374,
+  "high52": 329.7266,
+  "high52Date": "2026-06-18",
+  "low52": 70.6168,
+  "low52Date": "2026-02-05",
+  "last": 131.57,
+  "prevClose": 144.74,
+  "nameKo": "마벨 테크놀로지 그룹",
+  "nameEn": "MARVELL TECHNOLOGY INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 876900000
+ },
+ "estimates": {
+  "ticker": "MRVL",
+  "url": "https://finance.yahoo.com/quote/MRVL/analysis/",
+  "fetchedAt": "2026-11-25",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 1.1,
+    "epsLow": 1.08,
+    "epsHigh": 1.14,
+    "epsYearAgo": 0.76,
+    "epsAnalysts": 32,
+    "epsGrowth": 44.9,
+    "epsCur": "USD",
+    "rev": 3152214940,
+    "revAnalysts": 31,
+    "revYearAgo": 2074500000,
+    "revGrowth": 52,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 1.36,
+    "epsLow": 1.25,
+    "epsHigh": 1.42,
+    "epsYearAgo": 0.8,
+    "epsAnalysts": 31,
+    "epsGrowth": 69.5,
+    "epsCur": "USD",
+    "rev": 3727812360,
+    "revAnalysts": 30,
+    "revYearAgo": 2218700000,
+    "revGrowth": 68,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 4.22,
+    "epsLow": 3.92,
+    "epsHigh": 4.61,
+    "epsYearAgo": 2.84,
+    "epsAnalysts": 41,
+    "epsGrowth": 48.6,
+    "epsCur": "USD",
+    "rev": 12070304840,
+    "revAnalysts": 40,
+    "revYearAgo": 8194600000,
+    "revGrowth": 47.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 7.38,
+    "epsLow": 6.27,
+    "epsHigh": 8.23,
+    "epsYearAgo": 4.22,
+    "epsAnalysts": 41,
+    "epsGrowth": 74.9,
+    "epsCur": "USD",
+    "rev": 19784112010,
+    "revAnalysts": 37,
+    "revYearAgo": 12070304840,
+    "revGrowth": 63.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 1.1,
+    "d7": 0,
+    "d30": 0,
+    "d90": 2.1,
+    "ago90": 1.08,
+    "up7": 0,
+    "up30": 2,
+    "down7": 0,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 1.36,
+    "d7": 0,
+    "d30": -0.3,
+    "d90": 8.5,
+    "ago90": 1.25,
+    "up7": 0,
+    "up30": 7,
+    "down7": 0,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 4.22,
+    "d7": 0,
+    "d30": 0,
+    "d90": 3.7,
+    "ago90": 4.07,
+    "up7": 0,
+    "up30": 7,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 7.38,
+    "d7": 0.1,
+    "d30": 0.7,
+    "d90": 16.8,
+    "ago90": 6.32,
+    "up7": 0,
+    "up30": 26,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 0.94,
+    "estimate": 0.93,
+    "surprisePct": 1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 0.8,
+    "estimate": 0.79,
+    "surprisePct": 0.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 0.8,
+    "estimate": 0.79,
+    "surprisePct": 1.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.76,
+    "estimate": 0.74,
+    "surprisePct": 3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 2,
+   "initiations": 2,
+   "ptRaised": 23,
+   "ptLowered": 13,
+   "total": 41,
+   "recent": [
+    {
+     "date": "2026-11-24",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 325,
+     "ptPrior": 425
+    },
+    {
+     "date": "2026-11-23",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Positive",
+     "to": "Positive",
+     "ptAction": "Lowers",
+     "pt": 225,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-11-20",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 280,
+     "ptPrior": 370
+    },
+    {
+     "date": "2026-11-09",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 275
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 275,
+     "ptPrior": 365
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 285,
+     "ptPrior": 365
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "TD Cowen",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 175,
+     "ptPrior": 350
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 250,
+     "ptPrior": 425
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Positive",
+     "to": "Positive",
+     "ptAction": "Lowers",
+     "pt": 300,
+     "ptPrior": 340
+    },
+    {
+     "date": "2026-11-03",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 300,
+     "ptPrior": 300
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-01",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-24",
+  "numbers": {
+   "price": 131.57,
+   "ma20": 161,
+   "ma50": 216.99,
+   "ma150": 219.41,
+   "distMA50": -39.37,
+   "periodHigh": 329.88,
+   "pullbackFromHigh": -60.12,
+   "volRatio20": 0.81,
+   "dryUpRatio": 0.9
+  },
+  "last10": [
+   {
+    "d": "2026-11-11",
+    "o": 167.05,
+    "h": 174.53,
+    "l": 162.5,
+    "c": 168.8,
+    "v": 33939800,
+    "clsPos": 52,
+    "gapPct": 8.2
+   },
+   {
+    "d": "2026-11-12",
+    "o": 157.16,
+    "h": 169.58,
+    "l": 155.97,
+    "c": 164.45,
+    "v": 21641200,
+    "clsPos": 62,
+    "gapPct": -6.9
+   },
+   {
+    "d": "2026-11-13",
+    "o": 161.6,
+    "h": 163.89,
+    "l": 149.17,
+    "c": 156.76,
+    "v": 23816400,
+    "clsPos": 52,
+    "gapPct": -1.73
+   },
+   {
+    "d": "2026-11-16",
+    "o": 147.56,
+    "h": 149.16,
+    "l": 144.04,
+    "c": 145.36,
+    "v": 23235500,
+    "clsPos": 26,
+    "gapPct": -5.87
+   },
+   {
+    "d": "2026-11-17",
+    "o": 150.2,
+    "h": 150.95,
+    "l": 140.9,
+    "c": 148.74,
+    "v": 27118700,
+    "clsPos": 78,
+    "gapPct": 3.33
+   },
+   {
+    "d": "2026-11-18",
+    "o": 151.91,
+    "h": 152.39,
+    "l": 142.62,
+    "c": 145.54,
+    "v": 19526300,
+    "clsPos": 30,
+    "gapPct": 2.13
+   },
+   {
+    "d": "2026-11-19",
+    "o": 151.32,
+    "h": 154.51,
+    "l": 138.35,
+    "c": 138.47,
+    "v": 30063800,
+    "clsPos": 1,
+    "gapPct": 3.97
+   },
+   {
+    "d": "2026-11-20",
+    "o": 132.89,
+    "h": 134.18,
+    "l": 120.56,
+    "c": 122.28,
+    "v": 40483400,
+    "clsPos": 13,
+    "gapPct": -4.03
+   },
+   {
+    "d": "2026-11-23",
+    "o": 145.97,
+    "h": 149.98,
+    "l": 139.26,
+    "c": 144.74,
+    "v": 36890300,
+    "clsPos": 51,
+    "gapPct": 19.37
+   },
+   {
+    "d": "2026-11-24",
+    "o": 139.54,
+    "h": 140.75,
+    "l": 128.14,
+    "c": 131.57,
+    "v": 28020900,
+    "clsPos": 27,
+    "gapPct": -3.59
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MRVL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MRVL-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 26일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "충족",
+  "headline": "AI 데이터센터 제품이 매출을 끌고, 루멘텀 인수로 광학까지 넓히려는 국면",
+  "researchedOn": "2026-11-07"
+ }
+}

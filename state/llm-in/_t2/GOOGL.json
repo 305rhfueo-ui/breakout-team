@@ -1,0 +1,341 @@
+{
+ "ticker": "GOOGL",
+ "sector": "Communication Services",
+ "industry": "Internet Content & Information",
+ "nameKo": "알파벳 A",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 24.04,
+  "saleNy": 27.37,
+  "epsCy": 80.75,
+  "epsNy": -23.79,
+  "est": {
+   "cyCur": 19.5389,
+   "cy30": 20.60046,
+   "nyCur": 14.89055,
+   "ny30": 15.14315
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.23,
+    21.79,
+    17.99
+   ],
+   "ni": [
+    297.6,
+    81.18,
+    29.84
+   ],
+   "opm": [
+    34.03,
+    36.12,
+    31.57
+   ],
+   "updated": "2026-09-08 10:11:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-25",
+  "nameKo": "알파벳 A",
+  "nameEn": "ALPHABET INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 127577000000,
+     "profit": 40576000000,
+     "netIncome": 26468000000,
+     "margin": 31.8,
+     "yoy": {
+      "revenue": 24.7,
+      "profit": 29.9,
+      "netIncome": -24.3,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 119796000000,
+     "profit": 40770000000,
+     "netIncome": 112193000000,
+     "margin": 34,
+     "yoy": {
+      "revenue": 24.2,
+      "profit": 30.4,
+      "netIncome": 297.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 109896000000,
+     "profit": 39696000000,
+     "netIncome": 62578000000,
+     "margin": 36.1,
+     "yoy": {
+      "revenue": 21.8,
+      "profit": 29.7,
+      "netIncome": 81.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 113829000000,
+     "profit": 35934000000,
+     "netIncome": 34455000000,
+     "margin": 31.6,
+     "yoy": {
+      "revenue": 18,
+      "profit": 16,
+      "netIncome": 29.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Alphabet Inc. (GOOGL) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/alphabet-inc-googl-trending-stock-facts-know-betting-it-1",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Alphabet Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-alphabet-stock-popped-today-0",
+     "date": "2026-11-23",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-24",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526267578/d57679d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 39,
+   "reports": [
+    {
+     "date": "2026-11-23",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[알파벳 A (NAS:GOOGL)] 클라우드 성장과 TPU 외부 판매",
+     "summary": "- TPU 외부 데이터센터 판매로 확장. Anthropic·Apple 등 고객 수요을 바탕으로 수익성 개선 기대- 3분기 말 수주잔고(5,610억 달러, TPU 포함) 55% 이상을 향후 24개월 내 매출로 인식할 전망- Gemini 4 AI 에이전트 기능을 연내 소비자 서비스로 확대하고, 이후 검색 등으로 적용 범위 확장 계획",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmzimgxlccgkkigcgxeegz.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2026-11-16",
+     "broker": "대신증권",
+     "analyst": "김회재",
+     "title": "[알파벳 A (NAS:GOOGL)] 검색의 관문을 Gemini 에이전트로",
+     "summary": "- 구글 클라우드 매출 103% 성장, TPU 외부 판매 확대- AI 검색량 증가율 5년 내 최고, 광고 매출 성장률은 둔화- CapEx 급증과 FCF 적자, AI 투자 회수 속도가 관건",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkllcxxqmezmegcgxeegz.pdf",
+     "pages": "9"
+    },
+    {
+     "date": "2026-11-03",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[알파벳 A (NAS:GOOGL)] [Issue & News] 최대 60억 유로 규모 7종 채권 발행 신청 - 2027년 설비투자 재원을 유로채 시장까지 넓혀 조달",
+     "summary": "- 60억 유로 규모 7트랜치 채권 발행 신청, 세부조건 미공시- 장기부채 1,251억 달러, 3분기 중 2.7배로 증가- 2027년 설비투자 재원 선확보, 순현금 1,400억 유지",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiqimqigckzmggcgxeegz.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2026-10-30",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[알파벳 A (NAS:GOOGL)] 고성장과 고비용, 어느 숫자를 믿을까",
+     "summary": "- GCP와 TPU가 끌어올린 성장, FCF가 치르고 있는 대가- 3Q26 Review: 최소 다음 분기까지 영업마진과 FCF에 부담 있을 전망- Valuation & Risks: 투자 비용이 초기에 집중된 결과, 견딜 가치 충분",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiekqlezeixxgcgxeegz.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "대신증권",
+     "analyst": "김회재",
+     "title": "[알파벳 A (NAS:GOOGL)] AI 수요 고성장, 검색 수익화와 투자 회수가 과제",
+     "summary": "- 구글 클라우드 매출 103% 성장, TPU 외부 판매 확대- AI 검색량 증가율 5년 내 최고, 광고 매출 성장률은 둔화- CapEx 급증과 FCF 적자, AI 투자 회수 속도가 관건",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmiiekgkcgiikxgcgxeegz.pdf",
+     "pages": "22"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[알파벳 A (NAS:GOOGL)] 선출(현금) 후입(수익)의 TPU",
+     "summary": "- 알파벳은 검색·유튜브와 클라우드, 자체 AI 칩(TPU)과 모델을 개발하는 IT 기업- FY3Q26은 TPU 판매가 더해져 클라우드 매출이 올랐으나 검색은 둔화, FCF는 적자- 수주잔고 기반 클라우드 성장은 유효, TPU 재고의 현금화와 검색 수익화가 중요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigxqimgciieqgcgxeegz.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "하나증권",
+     "analyst": "강재구",
+     "title": "[알파벳 A (NAS:GOOGL)] 단기 투자심리 약해질 수 있어도 중장기 성장성 양호",
+     "summary": "- 검색광고는 기대를 하회했지만 검색 수요는 견조하며 AI Mode 확대로 향후 매출 증가 기대- 영업현금흐름 감소는 과징금 납부와 TPU 재고 확보 영향으로 구조적 약화로 보기는 어려움- AI 인프라 수요와 클라우드 성장, TPU 외부 판매가 중장기 성장성을 뒷받침",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigzqzgkkcmmigcgxeegz.pdf",
+     "pages": "9"
+    },
+    {
+     "date": "2026-10-29",
+     "broker": "한화증권",
+     "analyst": "신승윤",
+     "title": "[알파벳 A (NAS:GOOGL)] Earnings Flash",
+     "summary": "- 매출액(Ex-TAC) 1,112억 달러(YoY +27.1%), EPS 2.12달러(YOY -26.1%)로 예상치 각각 0.1%, 36.3% 하회. EPS는 SpaceX 등 지분투자 평가손실 86.6억 달러 영향으로 감소. 영업이익률은 31.8%(YoY +1.3%p)로 개선- CAPEX 514억 달러(YoY +114%), 잉여현금흐름 -90.7억 달러: AI 인프라 투자, TPU 재고 축적 및 EU 과징금 52억 달러 지급이 현금흐름에 부담. 분기 현금배당 주당 0.22달러 유지, 12월 지급 예정- 실적 예상치 하회 및 잉여현금흐름 적자 폭 확대가 클라우드 호실적을 상쇄하며 시간 외 9.8% 하락",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmigzkixxkmxxzgcgxeegz.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO",
+   "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+   "date": "2026-11-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "How GTA VI’s blockbuster launch fuels a booming content economy",
+   "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
+   "date": "2026-11-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Alphabet stock shows 2 rally signals, Cramer says",
+   "url": "https://www.cnbc.com/2026/11/19/alphabet-stock-larry-williams-rally-signals.html",
+   "date": "2026-11-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI bulls should bet on semiconductors, look to hyperscalers for safer bets",
+   "url": "https://www.cnbc.com/video/2026/11/24/ai-bulls-should-bet-on-semiconductors-look-to-hyperscalers-for-safer-bets-d-a-davidson-co.html",
+   "date": "2026-11-24",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Software names like IBM, Atlassian buck the tech selloff",
+   "url": "https://www.cnbc.com/video/2026/11/20/software-names-like-ibm-atlassian-buck-the-tech-selloff.html",
+   "date": "2026-11-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Alphabet outperforms megacap peers amid tech selloff",
+   "url": "https://www.cnbc.com/video/2026/11/20/alphabet-outperforms-megacap-peers-amid-tech-selloff.html",
+   "date": "2026-11-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "GOOGL",
+  "fetchedAt": "2026-11-25",
+  "source": "한국투자증권 Open API",
+  "per": 14.02,
+  "pbr": 5.48,
+  "eps": 19.91,
+  "bps": 50.9,
+  "shares": 5868000000,
+  "marketCapM": 1637465,
+  "high52": 408.1039,
+  "high52Date": "2026-05-18",
+  "low52": 264.22,
+  "low52Date": "2026-11-20",
+  "last": 279.05,
+  "prevClose": 282.1,
+  "nameKo": "알파벳 A",
+  "nameEn": "ALPHABET INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 5868000000
+ }
+}
