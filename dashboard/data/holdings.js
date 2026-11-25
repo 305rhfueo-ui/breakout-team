@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-25T13:00:15.426Z",
+  "updated": "2026-11-25T22:10:09.970Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,43 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Palantir Is Down 25% From Its High. Is It a Bargain or Still Overvalued?",
+          "url": "https://www.nasdaq.com/articles/palantir-down-25-its-high-it-bargain-or-still-overvalued",
+          "date": "2026-11-25",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어, 최고가 대비 25% 하락했지만 여전히 고평가 논란",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "팔란티어, 최고가 대비 25% 하락했지만 여전히 고평가 논란",
+          "easy": "팔란티어 주가가 10월 사상 최고치에서 약 25% 내려왔다. 그럼에도 이익 대비 주가(PER)가 100배를 넘어 싼지 비싼지를 두고 의견이 갈리는 내용의 기사다. 본문은 확인하지 못했고 제목·요약만 보고 정리했으며, 그 외 세부 내용은 기사에 안 나왔다.",
+          "whyMatters": "주가가 고점 아래에 있지만 밸류에이션 부담은 남아 있다는 시각이라, 보유자에게는 추가 변동 가능성을 염두에 둘 재료다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
+          "title": "Wednesday 11/25 Insider Buying Report: PLTR, COHR",
+          "url": "https://www.nasdaq.com/articles/wednesday-11-25-insider-buying-report-pltr-cohr",
+          "date": "2026-11-25",
+          "publisher": "BNK Invest",
+          "ko": "팔란티어, 11/25 내부자 매수 리포트에 등장",
+          "tone": "good",
+          "isNew": true,
+          "headline": "팔란티어, 11/25 내부자 매수 리포트에 등장",
+          "easy": "11/25 내부자 매수 리포트에 팔란티어(PLTR)와 코히런트(COHR)가 이름을 올렸다. 내부자가 자기 돈으로 주식을 사는 것은 주가 상승을 기대한다는 신호로 읽힌다는 설명이 요약에 있다. 본문은 확인하지 못했고, 매수 규모나 누가 샀는지는 기사에 안 나왔다.",
+          "whyMatters": "내부자 매수는 보유자에게 우호적인 신호로 해석될 수 있으나, 규모와 주체를 알 수 없어 의미를 단정하기는 어렵다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "Where Will Palantir Stock Be at the End of 2030?",
           "url": "https://www.nasdaq.com/articles/where-will-palantir-stock-be-end-2030",
           "date": "2026-11-25",
           "publisher": "The Motley Fool",
           "ko": null,
           "tone": null,
-          "isNew": true,
+          "isNew": false,
           "headline": null,
           "easy": null,
           "whyMatters": null,
@@ -30,7 +60,7 @@ window.HOLDINGS_DATA = {
           "publisher": "한화증권 신승윤",
           "ko": "팔란티어 분기 매출 95.9% 늘어 컨센서스 상회",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 분기 매출 95.9% 늘어 컨센서스 상회",
           "easy": "증권사 리포트에 따르면 팔란티어 매출은 23.1억 달러로 전년 대비 95.9% 늘어 컨센서스 21.7억 달러를 넘었다. 조정 EPS는 0.44달러로 컨센서스 0.41달러를 웃돌았다. 상업 부문은 11.7억 달러(+113.3%), 정부 부문은 11.5억 달러(+81.7%)였다. 4분기 매출 가이던스 중간값은 26.5억 달러이고, 2026년 연간 매출은 85.3억 달러, FCF는 49억 달러다.",
           "whyMatters": "실적과 가이던스가 모두 기대를 웃돌았다는 내용이라 보유 포지션에는 우호적이다. 이 내용은 증권사 요약 기준이며 본문은 확인하지 못했다.",
@@ -96,21 +126,6 @@ window.HOLDINGS_DATA = {
           "whyMatters": "팔란티어가 연방 정부 계약에 크게 기대는 회사라는 점과, 이해충돌 논란이 정치적 주목을 받을 수 있다는 점이 드러난 기사다. 다만 기사는 위법 증거가 없다고 밝히며, 매수 금액도 소액 범위다.",
           "quote": "There is no evidence Trump directed the transactions or that his managers knew government decisions in advance.",
           "read": true
-        },
-        {
-          "type": "news",
-          "title": "Where Will Palantir Stock Be in 1 Year?",
-          "url": "https://www.nasdaq.com/articles/where-will-palantir-stock-be-1-year-1",
-          "date": "2026-11-18",
-          "publisher": "The Motley Fool",
-          "ko": "팔란티어 1년 뒤 주가를 전망하는 기사가 나왔다",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "팔란티어 1년 뒤 주가를 전망하는 기사가 나왔다",
-          "easy": "기사 본문은 없고 제목과 요약만 확인됐다. 요약에는 팔란티어가 미국 상업 부문의 큰 성장에 힘입어 빠르게 성장하고 있다고 나온다. 구체적인 주가 전망이나 근거 수치는 기사에 안 나왔다.",
-          "whyMatters": "보유 중인 입장에서는 성장 기대를 다시 확인해 주는 내용이다. 다만 본문을 읽지 못해 구체적인 전망은 알 수 없다.",
-          "quote": null,
-          "read": false
         },
         {
           "type": "report",
