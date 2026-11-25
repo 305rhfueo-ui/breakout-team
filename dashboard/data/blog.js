@@ -5,25 +5,40 @@ window.BLOG_DATA = {
   "t13": {
     "posts": [],
     "lastScan": {
-      "session": "2026-11-23",
+      "session": "2026-11-24",
       "regime": {
         "verdict": "red",
-        "ko": "🔴 10일선이 20일선 아래 25일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토"
+        "ko": "🔴 10일선이 20일선 아래 26일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토"
       },
-      "snapDate": "2026-11-23",
-      "breakouts": 1,
+      "snapDate": "2026-11-24",
+      "breakouts": 9,
       "near": [
         {
-          "ticker": "KYMR",
+          "ticker": "GKOS",
           "miss": [
-            "3-3",
+            "4-2"
+          ],
+          "breakVol": 0.42
+        },
+        {
+          "ticker": "DLTR",
+          "miss": [
+            "2-1",
             "3-4"
           ],
-          "breakVol": 7.69
+          "breakVol": 2.76
+        },
+        {
+          "ticker": "KOD",
+          "miss": [
+            "3-4",
+            "4-2"
+          ],
+          "breakVol": 1.43
         }
       ]
     },
     "list": []
   },
-  "updated": "2026-11-24T04:37:03.517Z"
+  "updated": "2026-11-25T04:37:11.300Z"
 };
