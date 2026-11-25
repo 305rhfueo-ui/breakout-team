@@ -678,15 +678,12 @@ window.TEAM6_DATA = {
     },
     "slipPct": 0.2,
     "open": 0,
-    "totalPct": -1.04,
-    "openPct": 0,
-    "observing": true,
-    "minSample": 30
+    "totalPct": -1.04
   },
   "health": {
-    "at": "2026-11-24T21:00:20.066Z",
-    "atKst": "2026-11-25 06:00 KST",
-    "atEt": "2026-11-24 1600",
+    "at": "2026-11-25T21:00:20.073Z",
+    "atKst": "2026-11-26 06:00 KST",
+    "atEt": "2026-11-25 1600",
     "phase": "post",
     "source": "kis",
     "status": "관심 목록이 오래됨 — 새로 사지 않음",
