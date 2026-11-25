@@ -1,59 +1,15 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "items": [
-    {
-      "ticker": "KNSA",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.52배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.58배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $99.31 바로 아래(-0.62%)",
-        "최근 2주 종가가 1.56% 안에서만 움직였다",
-        "1년 최고가의 94.55% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 99.31,
-      "price": 98.69,
-      "barGap": false
-    },
-    {
-      "ticker": "GKOS",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.54배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.48배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $255.18 바로 아래(-2.19%)",
-        "최근 2주 종가가 2.28% 안에서만 움직였다",
-        "1년 최고가의 93% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 255.18,
-      "price": 249.59,
-      "barGap": false
-    },
     {
       "ticker": "HURN",
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.55배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.4배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $172.9 바로 아래(-0.54%)",
-        "최근 2주 종가가 1.42% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.49배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.37배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $174.26 바로 아래(-0.6%)",
+        "최근 2주 종가가 1.41% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
@@ -61,48 +17,82 @@ window.CHARTCHECK_DATA = {
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 172.9,
-      "price": 171.97,
+      "resistance": 174.26,
+      "price": 173.22,
+      "barGap": false
+    },
+    {
+      "ticker": "GKOS",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.57배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.5배로 줄었다(팔 사람이 줄어듦)",
+        "최근 2주 종가가 2.79% 안에서만 움직였다",
+        "1년 최고가의 97.81% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "volDry",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": null,
+      "price": 256.98,
+      "barGap": false
+    },
+    {
+      "ticker": "XMTR",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.77배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.68배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $106.08 바로 아래(-2.22%)"
+      ],
+      "flags": [
+        "contract10",
+        "volDry",
+        "nearResist"
+      ],
+      "resistance": 106.08,
+      "price": 103.72,
       "barGap": false
     },
     {
       "ticker": "PVLA",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.7배로 줄었다",
-        "최근 1주는 더 조용하다(그 전 1주의 0.52배)",
-        "최근 1주 거래량이 한 달 평균의 0.56배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $151.18 바로 아래(-2.88%)"
-      ],
-      "flags": [
-        "contract10",
-        "contract5",
-        "volDry",
-        "nearResist"
-      ],
-      "resistance": 151.18,
-      "price": 146.82,
-      "barGap": false
-    },
-    {
-      "ticker": "MANH",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.63배로 줄었다",
-        "넘어야 할 선 $247.22 바로 아래(-0.9%)",
-        "최근 2주 종가가 2.46% 안에서만 움직였다",
-        "1년 최고가의 92.23% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.67배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.54배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $160.33 바로 아래(-0.63%)"
       ],
       "flags": [
         "contract10",
-        "nearResist",
-        "tightCloses",
-        "high52"
+        "volDry",
+        "nearResist"
       ],
-      "resistance": 247.22,
-      "price": 245,
+      "resistance": 160.33,
+      "price": 159.32,
+      "barGap": false
+    },
+    {
+      "ticker": "MANE",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.64배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $136.72 바로 아래(-2.48%)"
+      ],
+      "flags": [
+        "contract10",
+        "volDry",
+        "nearResist"
+      ],
+      "resistance": 136.72,
+      "price": 133.33,
       "barGap": false
     },
     {
@@ -110,10 +100,10 @@ window.CHARTCHECK_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.73배로 줄었다",
-        "넘어야 할 선 $371.18 바로 아래(-4.45%)",
-        "최근 2주 종가가 2.16% 안에서만 움직였다",
-        "1년 최고가의 94.19% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.74배로 줄었다",
+        "넘어야 할 선 $371.18 바로 아래(-2.33%)",
+        "최근 2주 종가가 2.17% 안에서만 움직였다",
+        "1년 최고가의 93.39% 자리"
       ],
       "flags": [
         "contract10",
@@ -122,7 +112,25 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 371.18,
-      "price": 354.67,
+      "price": 362.52,
+      "barGap": false
+    },
+    {
+      "ticker": "MGRT",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "최근 1주는 더 조용하다(그 전 1주의 0.63배)",
+        "최근 1주 거래량이 한 달 평균의 0.32배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $138.98 바로 아래(-2.11%)"
+      ],
+      "flags": [
+        "contract5",
+        "volDry",
+        "nearResist"
+      ],
+      "resistance": 138.98,
+      "price": 136.05,
       "barGap": false
     },
     {
@@ -130,9 +138,9 @@ window.CHARTCHECK_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.64배로 줄었다",
-        "넘어야 할 선 $244.98 바로 아래(-0.74%)",
-        "최근 2주 종가가 2.07% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.66배로 줄었다",
+        "넘어야 할 선 $244.98 바로 아래(-0.87%)",
+        "최근 2주 종가가 1.84% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
@@ -140,61 +148,43 @@ window.CHARTCHECK_DATA = {
         "tightCloses"
       ],
       "resistance": 244.98,
-      "price": 243.17,
+      "price": 242.86,
       "barGap": false
     },
     {
-      "ticker": "SYNA",
+      "ticker": "TPC",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.02, 최저 0.02)",
-        "넘어야 할 선 $118.72 바로 아래(-1.44%)",
-        "최근 2주 종가가 0.6% 안에서만 움직였다"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 118.72,
-      "price": 117.01,
-      "barGap": false
-    },
-    {
-      "ticker": "MANE",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.57배)",
         "최근 1주 거래량이 한 달 평균의 0.59배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $129.8 바로 아래(-0.96%)"
-      ],
-      "flags": [
-        "contract5",
-        "volDry",
-        "nearResist"
-      ],
-      "resistance": 129.8,
-      "price": 128.56,
-      "barGap": false
-    },
-    {
-      "ticker": "ICLR",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "최근 1주 거래량이 한 달 평균의 0.63배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $197.05 바로 아래(-0.81%)",
-        "최근 2주 종가가 2.68% 안에서만 움직였다"
+        "넘어야 할 선 $90.79 바로 아래(-0.97%)",
+        "1년 최고가의 90.97% 자리"
       ],
       "flags": [
         "volDry",
         "nearResist",
-        "tightCloses"
+        "high52"
       ],
-      "resistance": 197.05,
-      "price": 195.45,
+      "resistance": 90.79,
+      "price": 89.91,
+      "barGap": false
+    },
+    {
+      "ticker": "THC",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.77배로 줄었다",
+        "넘어야 할 선 $278.39 바로 아래(-1.19%)",
+        "1년 최고가의 90.57% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "high52"
+      ],
+      "resistance": 278.39,
+      "price": 275.09,
       "barGap": false
     }
   ],
@@ -202,7 +192,7 @@ window.CHARTCHECK_DATA = {
   "shown": 10,
   "cap": 10,
   "beyondCap": [
-    "BMI(5)",
-    "MHK(5)"
+    "SYNA(5)",
+    "ICLR(5)"
   ]
 };
