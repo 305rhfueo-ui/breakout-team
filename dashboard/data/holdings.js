@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-26T13:00:12.797Z",
+  "updated": "2026-11-26T22:10:05.484Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -60,7 +60,7 @@ window.HOLDINGS_DATA = {
           "publisher": "한화증권 신승윤",
           "ko": "팔란티어 3분기 매출·EPS가 시장 예상 웃돌았다",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어 3분기 매출·EPS가 시장 예상 웃돌았다",
           "easy": "증권사 리포트에 따르면 팔란티어 매출은 23.1억 달러(전년比 +95.9%)로 컨센서스 21.7억 달러를 넘었다. 조정 EPS도 0.44달러로 컨센서스 0.41달러보다 높았다. 상업 부문(+113.3%)과 정부 부문(+81.7%)이 모두 크게 늘었고, 4분기 매출 가이던스 중간값은 26.5억 달러로 제시됐다.",
           "whyMatters": "실적이 예상을 웃돌고 연간 가이던스도 제시된 만큼 보유자에게는 우호적인 재료다. 다만 이것이 주가 상승으로 이어질지는 기사에 나오지 않았다.",
@@ -126,21 +126,6 @@ window.HOLDINGS_DATA = {
           "whyMatters": "팔란티어가 연방 정부 계약에 크게 기대는 회사라는 점과, 이해충돌 논란이 정치적 주목을 받을 수 있다는 점이 드러난 기사다. 다만 기사는 위법 증거가 없다고 밝히며, 매수 금액도 소액 범위다.",
           "quote": "There is no evidence Trump directed the transactions or that his managers knew government decisions in advance.",
           "read": true
-        },
-        {
-          "type": "report",
-          "title": "[팔란티어 테크 (NAS:PLTR)] AI 에이전트 및 타 데이터 업체와 경쟁 관계가 아니라 보완 관계",
-          "url": "https://rreport.einfomax.co.kr/report/eqmkkxgxcxicmizgcgxeegx.pdf",
-          "date": "2026-11-12",
-          "publisher": "신한투자증권 심지현",
-          "ko": "리포트, 팔란티어는 AI 에이전트와 경쟁 아닌 보완 관계",
-          "tone": "good",
-          "isNew": false,
-          "headline": "리포트, 팔란티어는 AI 에이전트와 경쟁 아닌 보완 관계",
-          "easy": "증권사는 팔란티어가 AI 에이전트나 다른 데이터 업체와 경쟁하기보다 서로 보완하는 관계라고 본다. 소버린 AI 수요, 파일럿에서 생산 단계로 넘어가는 기간 단축, 3분기 실적 강세를 연간 가이던스 상향의 근거로 들었다. 프론티어 모델과도 상호 보완적이라는 평가다.",
-          "whyMatters": "AI 에이전트가 팔란티어 사업을 잠식할 수 있다는 우려를 덜어 주는 시각이라 보유자에게는 긍정적이다. 다만 이는 증권사 한 곳의 의견이다.",
-          "quote": null,
-          "read": false
         }
       ]
     }
