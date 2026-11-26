@@ -10,11 +10,11 @@ window.BLOG_DATA = {
         "verdict": "red",
         "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토"
       },
-      "snapDate": "2026-11-25",
-      "breakouts": 6,
+      "snapDate": "2026-11-26",
+      "breakouts": 9,
       "near": []
     },
     "list": []
   },
-  "updated": "2026-11-26T04:36:58.899Z"
+  "updated": "2026-11-26T22:34:38.176Z"
 };
